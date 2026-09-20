@@ -36,3 +36,7 @@ No Google AI, Gemini, or Google Cloud AI API key is required. The recipe archive
 ## Optional Firebase configuration
 
 The included Firebase app configuration enables cloud sync and authentication when a Firebase project is available. To use those optional features, configure the desired sign-in providers and authorized domains in Firebase. They are not required to browse or use the local recipe archive.
+
+## GitHub Pages
+
+The repository includes a GitHub Actions workflow that builds and deploys the site after every push to `main`. In the repository's **Settings → Pages**, select **GitHub Actions** as the publishing source once. The site will then be available at [amado2k5.github.io/fifirecipes](https://amado2k5.github.io/fifirecipes/).

@@ -5,6 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // GitHub Pages serves this repository from /fifirecipes/; local development stays at /.
+    base: process.env.GITHUB_ACTIONS === 'true' ? '/fifirecipes/' : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

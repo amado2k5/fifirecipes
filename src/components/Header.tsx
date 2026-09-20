@@ -60,7 +60,7 @@ export const Header: React.FC<HeaderProps> = ({
               title="د. فاطمة القاوقجي (1943 - 2026) • كلية التربية الموسيقية بالزمالك"
             >
               <img
-                src="/logo-transparent.png"
+                src={`${import.meta.env.BASE_URL}logo-transparent.png`}
                 alt="د. فاطمة القاوقجي"
                 className="w-10 h-10 object-cover object-center rounded-xl group-hover:scale-110 transition-transform"
               />
@@ -264,4 +264,3 @@ export const Header: React.FC<HeaderProps> = ({
     </header>
   );
 };
-

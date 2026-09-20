@@ -42,7 +42,7 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
 
         <div className="relative z-20 p-6 sm:p-12 max-w-3xl">
           <img
-            src="/logo-transparent.png"
+            src={`${import.meta.env.BASE_URL}logo-transparent.png`}
             alt={isAr ? 'شعار د. فاطمة القاوقجي' : 'Dr. Fatma Alkawokgy logo'}
             className="w-28 h-28 sm:w-36 sm:h-36 object-cover object-center rounded-2xl bg-white/90 p-2 shadow-lg mb-5"
           />

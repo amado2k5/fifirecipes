@@ -351,7 +351,7 @@ export default function App() {
       itemListElement: publicRecipes.map((recipe, index) => ({
         '@type': 'ListItem',
         position: index + 1,
-        url: `${window.location.origin}/?recipe=${encodeURIComponent(recipe.id)}&lang=${lang}`,
+        url: `${new URL(import.meta.env.BASE_URL, window.location.origin)}?recipe=${encodeURIComponent(recipe.id)}&lang=${lang}`,
         item: {
           '@type': 'Recipe',
           name: recipe.title,
@@ -524,7 +524,7 @@ export default function App() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-xl bg-amber-600 flex items-center justify-center text-white shrink-0">
-                <img src="/logo-transparent.png" alt="" className="w-7 h-7 object-cover object-center rounded-lg" />
+                <img src={`${import.meta.env.BASE_URL}logo-transparent.png`} alt="" className="w-7 h-7 object-cover object-center rounded-lg" />
               </div>
               <div>
                 <span className="font-bold text-stone-900 block text-sm">
