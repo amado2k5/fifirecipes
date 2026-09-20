@@ -16,7 +16,9 @@ import { TributePage } from './components/TributePage';
 import { ExportModal } from './components/ExportModal';
 import { detectUserLanguage, getUIText, TOP_20_LANGUAGES } from './data/translations';
 import { getLocalizedRecipe } from './utils/recipeLocalization';
-import { CheckCircle2, AlertCircle } from 'lucide-react';
+import { CheckCircle2, AlertCircle, Mail } from 'lucide-react';
+
+const FEEDBACK_EMAIL = 'ahamdy@gmail.com';
 
 function getSharedLanguage(): SupportedLanguage | null {
   if (typeof window === 'undefined') return null;
@@ -87,6 +89,14 @@ export default function App() {
       setNotification({ message: isAr ? 'تم نسخ رابط الموقع' : 'Site link copied', type: 'success' });
       setTimeout(() => setNotification(null), 3500);
     }
+  };
+
+  const handleFeedback = () => {
+    const subject = isAr ? '[fifi.cooking] ملاحظات حول موقع وصفات د. فاطمة القاوقجي' : '[fifi.cooking] Feedback on Fatma Alkawokgy Recipes site';
+    const body = isAr
+      ? 'مرحباً،\n\nأود مشاركة السؤال أو الملاحظة أو المشكلة التالية:\n\n'
+      : 'Hello,\n\nI would like to share the following question, comment, or issue:\n\n';
+    window.location.href = `mailto:${FEEDBACK_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
 
   useEffect(() => {
@@ -243,6 +253,14 @@ export default function App() {
                 </span>
               </div>
             </div>
+
+            <button
+              onClick={handleFeedback}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-stone-700 bg-stone-50 hover:bg-stone-100 rounded-xl transition-colors border border-stone-200"
+            >
+              <Mail className="w-3.5 h-3.5 text-amber-700" />
+              <span>{isAr ? 'أسئلة أو ملاحظات أو مشاكل؟ أرسل ملاحظاتك' : 'Questions, comments, or issues? Submit feedback'}</span>
+            </button>
           </div>
 
           <div className="pt-4 border-t border-stone-100 flex flex-col sm:flex-row items-center justify-between text-[11px] text-stone-400 gap-2">

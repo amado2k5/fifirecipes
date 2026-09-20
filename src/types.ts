@@ -103,14 +103,6 @@ export interface LanguageInfo {
   flag: string;
 }
 
-export interface Tribute {
-  id: string;
-  name: string;
-  message: string;
-  location?: string;
-  language: SupportedLanguage;
-  createdAt: string;
-}
 
 export interface DatabaseStats {
   totalRecipes: number;
