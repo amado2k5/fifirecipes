@@ -9,11 +9,13 @@ import {
   Users,
   HelpCircle,
   Share2,
-  BookOpen
+  BookOpen,
+  ScrollText
 } from 'lucide-react';
 import { getRecipeImage } from '../data/recipeImages';
 import { getUIText } from '../data/translations';
 import { getLocalizedIngredient, getLocalizedIngredientAmount, getLocalizedInstruction, getLocalizedPhase, getLocalizedRecipe } from '../utils/recipeLocalization';
+import { OriginalManuscriptModal, getManuscriptSource } from './OriginalManuscriptModal';
 
 interface RecipeDetailModalProps {
   recipe: Recipe | null;
@@ -30,6 +32,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
 }) => {
   const [activeTab, setActiveTab] = useState<'master' | 'instructions'>('master');
   const [checkedIngredients, setCheckedIngredients] = useState<Record<string, boolean>>({});
+  const [showManuscript, setShowManuscript] = useState(false);
 
   const isAr = lang === 'ar' || lang === 'fa' || lang === 'ur';
 
@@ -37,10 +40,24 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
 
   const imageUrl = getRecipeImage(recipe.id, recipe.imageUrl);
   const localized = getLocalizedRecipe(recipe, lang);
+  // The original-manuscript scroll is an Arabic-only archival feature.
+  const showManuscriptTrigger = lang === 'ar' && !!getManuscriptSource(recipe);
 
   const toggleIngredientCheck = (id: string) => {
     setCheckedIngredients(prev => ({ ...prev, [id]: !prev[id] }));
   };
+
+  const manuscriptTrigger = showManuscriptTrigger && (
+    <div className="flex justify-center pt-2">
+      <button
+        onClick={() => setShowManuscript(true)}
+        className="group inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full text-sm font-bold text-[#5c3616] bg-gradient-to-b from-[#f3e3b8] to-[#e3c98a] border border-[#8a5a2b]/50 shadow-sm hover:shadow-md hover:from-[#f7ecc9] hover:to-[#e9d29a] transition-all"
+      >
+        <ScrollText className="w-4 h-4 text-[#8a5a2b] group-hover:scale-110 transition-transform" />
+        <span className="manuscript-heading-font">المخطوطة الأصلية</span>
+      </button>
+    </div>
+  );
 
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto bg-stone-950/75 backdrop-blur-xs flex items-center justify-center p-2 sm:p-4 animate-in fade-in duration-200">
@@ -212,6 +229,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                   );
                 })}
               </div>
+
+              {manuscriptTrigger}
             </div>
           )}
 
@@ -268,10 +287,16 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                   </p>
                 </div>
               )}
+
+              {manuscriptTrigger}
             </div>
           )}
         </div>
       </div>
+
+      {showManuscript && (
+        <OriginalManuscriptModal recipe={recipe} onClose={() => setShowManuscript(false)} />
+      )}
     </div>
   );
 };
