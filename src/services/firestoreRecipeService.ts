@@ -10,7 +10,8 @@ import {
   query,
   where,
   orderBy,
-  limit
+  limit,
+  QueryDocumentSnapshot
 } from 'firebase/firestore';
 import { firestoreDb } from '../lib/firebase';
 import { Recipe, RecipeComment, ActivityLog, UserProfile, Tribute } from '../types';
@@ -228,7 +229,7 @@ export function subscribeToTributes(onUpdate: (tributes: Tribute[]) => void): ()
   const colRef = collection(firestoreDb, TRIBUTES_COLLECTION);
   const updateFromSnapshot = (snapshot: any) => {
     const list: Tribute[] = [];
-    snapshot.forEach(docSnap => list.push(docSnap.data() as Tribute));
+    snapshot.forEach((docSnap: QueryDocumentSnapshot) => list.push(docSnap.data() as Tribute));
     list.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
     onUpdate(list.slice(0, 100));
   };
@@ -347,5 +348,4 @@ export function subscribeToUserProfiles(onUpdate: (profiles: UserProfile[]) => v
     console.warn('Error reading profiles:', err);
   });
 }
-
 
