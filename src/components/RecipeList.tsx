@@ -179,11 +179,11 @@ export const RecipeList: React.FC<RecipeListProps> = ({
             ? `عرض ${filteredRecipes.length} من أصل ${baseRecipes.length} وصفة`
             : `Showing ${filteredRecipes.length} of ${baseRecipes.length} recipes`}
         </span>
-        <span className="text-emerald-700 font-semibold">
-          {onlyBookmarked 
-            ? (isAr ? 'قائمة وصفاتك المفضلة والمحفوظة' : 'Your Bookmarked Recipes')
-            : (isAr ? '✓ وصفات متاحة للاستخدام العام' : '✓ Recipes available for public use')}
-        </span>
+        {onlyBookmarked && (
+          <span className="text-emerald-700 font-semibold">
+            {isAr ? 'قائمة وصفاتك المفضلة والمحفوظة' : 'Your Bookmarked Recipes'}
+          </span>
+        )}
       </div>
 
       {/* Recipe Grid */}
