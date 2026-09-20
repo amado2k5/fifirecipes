@@ -24,7 +24,12 @@
     -webkit-font-smoothing: antialiased;
   }
 
+  /* Keep every Arabic/Persian/Urdu surface in the same typeface, including
+     components that apply Tailwind's font-sans or font-serif utilities. */
   [dir="rtl"] body,
+  [dir="rtl"].font-sans,
+  [dir="rtl"] .font-sans,
+  [dir="rtl"] .font-serif,
   [dir="rtl"] button,
   [dir="rtl"] input,
   [dir="rtl"] select,
