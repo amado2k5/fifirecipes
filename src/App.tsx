@@ -343,6 +343,9 @@ export default function App() {
     const script = document.createElement('script');
     script.id = scriptId;
     script.type = 'application/ld+json';
+    const siteUrl = new URL(window.location.href);
+    siteUrl.search = '';
+    siteUrl.hash = '';
     script.textContent = JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'ItemList',
@@ -351,7 +354,7 @@ export default function App() {
       itemListElement: publicRecipes.map((recipe, index) => ({
         '@type': 'ListItem',
         position: index + 1,
-        url: `${new URL(import.meta.env.BASE_URL, window.location.origin)}?recipe=${encodeURIComponent(recipe.id)}&lang=${lang}`,
+        url: `${siteUrl}?recipe=${encodeURIComponent(recipe.id)}&lang=${lang}`,
         item: {
           '@type': 'Recipe',
           name: recipe.title,

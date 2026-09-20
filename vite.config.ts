@@ -5,8 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    // GitHub Pages serves this repository from /fifirecipes/; local development stays at /.
-    base: process.env.GITHUB_ACTIONS === 'true' ? '/fifirecipes/' : '/',
+    // Relative assets work from both the repository Pages URL and a custom apex domain.
+    base: './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
