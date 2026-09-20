@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --ink: #292524;
+    --muted-ink: #57534e;
+    --paper: #fffdfa;
+    --accent: #b45309;
+    --accent-soft: #fff7ed;
+  }
+
+  html {
+    font-size: 16px;
+    background: var(--paper);
+  }
+
+  body {
+    margin: 0;
+    color: var(--ink);
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-size: 0.9375rem;
+    line-height: 1.65;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  [dir="rtl"] body,
+  [dir="rtl"] button,
+  [dir="rtl"] input,
+  [dir="rtl"] select,
+  [dir="rtl"] textarea {
+    font-family: 'Tajawal', system-ui, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: var(--ink);
+    line-height: 1.3;
+    text-wrap: balance;
+  }
+
+  [dir="rtl"] h1,
+  [dir="rtl"] h2,
+  [dir="rtl"] h3,
+  [dir="rtl"] h4 {
+    font-weight: 700;
+  }
+
+  input,
+  select,
+  textarea {
+    font-size: 0.9375rem;
+  }
+
+  ::selection {
+    background: #fed7aa;
+    color: #431407;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6d3d1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a29e;
+}
+
+/* Keep recipe reading surfaces calm and legible on small screens. */
+.recipe-reading-copy {
+  color: var(--muted-ink);
+  font-size: 1rem;
+  line-height: 1.9;
+}
+
+[dir="rtl"] .recipe-reading-copy {
+  font-size: 1.0625rem;
+  line-height: 2;
+}

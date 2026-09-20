@@ -1,0 +1,10 @@
+node_modules/
+dist/
+tmp/
+.DS_Store
+
+# Local environment settings and alternate package-manager lockfile
+.env
+.env.*
+!.env.example
+bun.lock

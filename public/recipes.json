@@ -1,0 +1,5160 @@
+{
+  "name": "Fatma Alkawokgy public recipe archive",
+  "description": "Open recipe archive for public use, search, preservation, and research.",
+  "recipes": [
+    {
+      "id": "meat-01",
+      "title": "اللحوم والطيور المسلوقة",
+      "titleEn": "Boiled Meats & Poultry",
+      "chapter": "الباب الأول: اللحوم – الطيور – البحريات",
+      "chapterNumber": 1,
+      "category": "لحوم وطيور",
+      "cookingMethod": "سلق",
+      "prepTime": "20 دقيقة",
+      "cookTime": "60-90 دقيقة",
+      "servings": "4-6 أفراد",
+      "masterIngredients": [
+        {
+          "id": "mp1-1",
+          "name": "لحم أو دجاجة كاملة",
+          "standardAmount": "1 كيلو أو دجاجة كاملة",
+          "category": "meat_poultry",
+          "sourceVariations": {
+            "doc1": "1 كيلو لحم أو دجاجة",
+            "doc2": "1 كيلو لحم أو دجاجة",
+            "doc3": "1 ك لحم بتلو أو 1 ك صدور دجاج"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp1-2",
+          "name": "بصل مبشور / مقطع",
+          "standardAmount": "1 بصلة كبيرة",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "بصلة كبيرة صحيحة أو مقطعة أو مفرية",
+            "doc2": "بصلة كبيرة صحيحة أو مفرية",
+            "doc3": "بصلة كبيرة مدعوكة بالملح والفلفل"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp1-3",
+          "name": "طماطم طازجة",
+          "standardAmount": "1 ثمرة طماطم",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "ثمرة طماطم",
+            "doc2": "ثمرة طماطم",
+            "doc3": "ثمرة طماطم صحيحة"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp1-4",
+          "name": "ثوم طازج",
+          "standardAmount": "1 فص ثوم كبير",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "فص ثوم كبير",
+            "doc2": "فص ثوم كبير",
+            "doc3": "فص ثوم مفروم"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp1-5",
+          "name": "سمن أو زيت نباتي",
+          "standardAmount": "قليل للتشويح (1-2 ملعقة)",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "قليل من الزيت",
+            "doc2": "قليل من الزيت",
+            "doc3": "ملعقة سمن أو زيت"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp1-6",
+          "name": "توابل عطرية (حبهان مدقوق، ملح، فلفل أسود)",
+          "standardAmount": "ملح وفلفل وحبهان مدقوق",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "ملح – فلفل – حبهان مدقوق",
+            "doc2": "ملح – فلفل – حبهان مدقوق",
+            "doc3": "ملح وفلفل وحبهان ومستكة"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp1-7",
+          "name": "خل أبيض",
+          "standardAmount": "1 ملعقة كبيرة",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "ملعقة كبيرة خل",
+            "doc2": "ملعقة كبيرة خل",
+            "doc3": "م ك خل"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp1-8",
+          "name": "ماء نقي للسلق",
+          "standardAmount": "مقدار كافٍ يغطي اللحم",
+          "category": "liquid",
+          "sourceVariations": {
+            "doc1": "مقدار من الماء يكفي لنضج اللحم أو الدجاج",
+            "doc2": "ماء كافي للتغطية",
+            "doc3": "ماء مغلي كافٍ"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "تحضير مسبق وتدليك: لسلق اللحوم تدعك بالبصل المبشور المتبل بالملح والفلفل. لسلق الطيور تتبل بالدقيق أو بالخل ثم تشطف بالماء لإزالة أي زفارة.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "التشويح: نضع قليل من الزيت أو السمن في إناء على البوتاجاز ومعه البصلة صحيحة أو مقطعة، ثم نضيف التوابل (الملح والفلفل والحبهان المدقوق) والطماطم والخل والثوم.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "التقليب والتحمير الأولي: تشوح قطع اللحوم أو الدجاج في الإناء مع الخلطة السابقة مع التقليب الجيد حتى تتشرب المياه تماماً وتأخذ نكهة التتبيل.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "السلق على نار هادئة: نضيف المقدار الكافي من الماء المغلي حتى الغليان، ثم تهدأ الحرارة ويغطى الإناء وتترك حتى تمام النضج.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "طريقة إضافية بالخضار العطري (النسخة 1 و 2): تحمر البصلة مع الثوم والفلفل الأخضر وملعقة حمص ناضج وحزمة كرفس مقطعة، ثم يضاف اللحم مع التقليب ويضاف البقدونس والكسبرة لإعطاء نكهة مميزة قبل إضافة ماء السلق.",
+          "phase": "alternative",
+          "isAlternative": true,
+          "alternativeLabel": "طريقة الطيور المتبلة بالكرفس والحمص",
+          "sourceDocs": [
+            "doc1",
+            "doc2"
+          ],
+          "importance": "variation"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 3,
+        "mergedIngredientsCount": 8,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 8,
+        "overlapPercentage": 88,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "تم دمج 8 مقادير متطابقة بين الوثائق الثلاث، وتوحيد خطوات التنظيف بالسلق والتدليك بالبصل واستخلاص طريقة الكرفس كإضافة نوعية."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "الطهو بالسلق: اللحوم و الطيور",
+          "pageNumber": 2,
+          "ingredients": [
+            "1 كيلو لحم أو دجاجة",
+            "بصلة كبيرة",
+            "ثمرة طماطم",
+            "فص ثوم كبير",
+            "قليل من الزيت",
+            "مقدار من الماء",
+            "ملح وفلفل وحبهان مدقوق",
+            "ملعقة كبيرة خل"
+          ],
+          "instructions": [
+            "تدعك بالبصل المبشور المتبل بالملح والفلفل",
+            "نضع الزيت في إناء مع البصلة والتوابل والطماطم والثوم والخل",
+            "تشوح اللحوم حتى تتشرب المياه تماما",
+            "نضيف الماء المغلي وتهدأ الحرارة"
+          ]
+        },
+        "doc2": {
+          "title": "الطهو بالسلق: اللحوم والطيور",
+          "pageNumber": 2,
+          "ingredients": [
+            "1 كيلو لحم أو دجاجة",
+            "بصلة كبيرة",
+            "ثمرة طماطم",
+            "فص ثوم كبير",
+            "قليل من الزيت",
+            "ماء للنضج",
+            "ملح وفلفل وحبهان",
+            "ملعقة خل"
+          ],
+          "instructions": [
+            "لسلق اللحوم تدعك بالبصل",
+            "تشوح في الإناء مع التوابل",
+            "يضاف الماء الكافي حتى النضج"
+          ]
+        },
+        "doc3": {
+          "title": "1- لطهو اللحوم والطيور بالسلق",
+          "pageNumber": 5,
+          "ingredients": [
+            "1 ك لحم أو دجاجة",
+            "بصلة كبيرة مقطعة أو مفرية",
+            "ثمرة طماطم صحيحة",
+            "فص ثوم كبير",
+            "زيت أو سمن",
+            "ملح وفلفل وحبهان مدقوق",
+            "ملعقة خل"
+          ],
+          "instructions": [
+            "تنظيف الدجاج بالدقيق والخل",
+            "تشويح اللحوم في الزيت مع التوابل",
+            "إضافة الماء المغلي الكافي حتى النضج"
+          ]
+        }
+      }
+    },
+    {
+      "id": "meat-02",
+      "title": "الأرانب (مسلوقة / كباب حلة / بالدمعة)",
+      "titleEn": "Rabbit (Boiled, Kabab Halla, or Tomato Sauce)",
+      "chapter": "الباب الأول: اللحوم – الطيور – البحريات",
+      "chapterNumber": 1,
+      "category": "لحوم وطيور",
+      "cookingMethod": "تسبيك",
+      "prepTime": "25 دقيقة",
+      "cookTime": "50 دقيقة",
+      "servings": "4 أفراد",
+      "masterIngredients": [
+        {
+          "id": "mp2-1",
+          "name": "أرانب مقطعة",
+          "standardAmount": "1 إلى 2 أرنب",
+          "category": "meat_poultry",
+          "sourceVariations": {
+            "doc1": "1 : 2 أرنب",
+            "doc2": "1 : 2 أرنب",
+            "doc3": "من 1 : 2 أرنب"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp2-2",
+          "name": "بصل مفروم أو شرائح",
+          "standardAmount": "1-2 بصلة كبيرة",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "بصلة كبيرة مقطعة",
+            "doc2": "بصلة مقطعة",
+            "doc3": "بصلة كبيرة تشوح حتى تصير بني"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp2-3",
+          "name": "طماطم معصورة / صلصة",
+          "standardAmount": "1 كوب عصير طماطم مصفى",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "كوب من الطماطم المعصورة",
+            "doc2": "كوب من الطماطم المعصورة",
+            "doc3": "صلصة طماطم من كوب طماطم معصورة"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp2-4",
+          "name": "ثوم مفروم",
+          "standardAmount": "1/4 رأس ثوم مفري (3-4 فصوص)",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "1/4 رأس ثوم مفري",
+            "doc2": "1/4 رأس ثوم مفري",
+            "doc3": "ثوم مفري 1/4 رأس"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp2-5",
+          "name": "سمن بلدي أو زيت",
+          "standardAmount": "2 ملعقة كبيرة",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "قليل من الزيت أو سمن",
+            "doc2": "2 ملعقة كبيرة زيت أو سمن",
+            "doc3": "سمن أو زيت"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp2-6",
+          "name": "خل وبهارات وحبهان",
+          "standardAmount": "1 ملعقة خل + ملح + فلفل + حبهان",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "ملعقة خل – ملح – فلفل – حبهان",
+            "doc2": "ملعقة خل – ملح – فلفل – حبهان",
+            "doc3": "خل وتوابل وحبهان"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "طريقة السلق: نضع الزيت في وعاء الطهو مع البصلة المقطعة والخل والتوابل، ثم نضيف الأرانب وتشوح جيداً حتى تتشرب المياه، ثم نضيف ماء يغطيها حتى النضج على نار هادئة.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "طريقة كباب الحلة: تشوح البصلة في الزيت ثم نضع معها قطع الأرانب والتوابل حتى تصير البصلة بنية اللون، ونضيف القليل من الماء والخل تدريجياً مع تغطية الإناء على حرارة هادئة حتى تنضج مع قليل من الصوص المركز.",
+          "phase": "cook",
+          "isAlternative": true,
+          "alternativeLabel": "كباب الحلة",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "variation"
+        },
+        {
+          "stepNumber": 3,
+          "text": "طريقة الأرانب بالدمعة: تقطع الأرانب وتحمر في السمن أو الزيت ثم ترفع جانباً. في نفس الوعاء يحمر الثوم وتضاف إليه الطماطم المعصورة حتى تتسبك، ثم يضاف الخل والماء وتتبل بالملح والفلفل حتى الغليان، وتعاد قطع الأرانب في الدمعة وتغطى على نار هادئة حتى تمام النضج.",
+          "phase": "cook",
+          "isAlternative": true,
+          "alternativeLabel": "الأرانب بالدمعة",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "variation"
+        },
+        {
+          "stepNumber": 4,
+          "text": "طريقة صينية الأرانب بالمرق: نحضر صينية بحجم قطع الأرانب، ونضع فيها قليل من المرق والزيت والخل والتوابل، ثم نضيف الأرانب المقطعة وتقلب من آن لآخر حتى تتشرب المرق تماماً وتتحمر.",
+          "phase": "cook",
+          "isAlternative": true,
+          "alternativeLabel": "صينية الأرانب بالمرق",
+          "sourceDocs": [
+            "doc1",
+            "doc2"
+          ],
+          "importance": "variation"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 4,
+        "mergedIngredientsCount": 6,
+        "totalUniqueSteps": 4,
+        "totalMasterIngredients": 6,
+        "overlapPercentage": 85,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "جمعت الوثائق 4 طرق متباينة للأرانب (سلق، كباب حلة، دمعة، صينية مرق) بتركيبات مقادير متطابقة تم توحيدها في سجل رئيسي واحد."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "الأرانب المسلوقة / كباب الحلة / بالدمعة",
+          "pageNumber": 3,
+          "ingredients": [
+            "1 : 2 أرنب",
+            "بصلة كبيرة",
+            "ملعقة خل",
+            "قليل من الزيت",
+            "ملح وفلفل وحبهان",
+            "طماطم معصورة للدمعة"
+          ],
+          "instructions": [
+            "سلق الأرانب بتشويح البصل والخل",
+            "كباب الحلة بتشويح البصل حتى البني",
+            "الدمعة بتحمير الثوم وتسبيك الطماطم"
+          ]
+        },
+        "doc3": {
+          "title": "2- سلق الأرانب - 3 طرق",
+          "pageNumber": 6,
+          "ingredients": [
+            "من 1 : 2 أرنب",
+            "مرق أرنب",
+            "ملعقة زيت",
+            "ملعقة خل",
+            "ملح وفلفل",
+            "فص ثوم مفري"
+          ],
+          "instructions": [
+            "أ- صينية بحجم قطع الأرانب مع المرق والزيت",
+            "ب- مثل طهو كباب الحلة مع تزويد الماء تدريجيا",
+            "ج- الأرانب بالدمعة"
+          ]
+        }
+      }
+    },
+    {
+      "id": "meat-03",
+      "title": "كباب الحلة باللحم البتلو والبطاطس",
+      "titleEn": "Kabab Halla (Egyptian Beef Stew with Potatoes)",
+      "chapter": "الباب الأول: اللحوم – الطيور – البحريات",
+      "chapterNumber": 1,
+      "category": "لحوم وطيور",
+      "cookingMethod": "تسبيك",
+      "prepTime": "20 دقيقة",
+      "cookTime": "60 دقيقة",
+      "servings": "4 أفراد",
+      "masterIngredients": [
+        {
+          "id": "mp3-1",
+          "name": "لحم بتلو مكعبات",
+          "standardAmount": "1/2 كيلو مكعبات",
+          "category": "meat_poultry",
+          "sourceVariations": {
+            "doc1": "1/2 كيلو لحم بتلو",
+            "doc2": "1/2 كيلو لحم بتلو",
+            "doc3": "نصف ك لحم بتلو"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp3-2",
+          "name": "بصل صحيح ومتوسط",
+          "standardAmount": "1 بصلة متوسطة صحيحة",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "بصلة متوسطة صحيحة",
+            "doc2": "بصلة متوسطة صحيحة",
+            "doc3": "بصلة متوسطة صحيحة"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp3-3",
+          "name": "ثوم مفروم ناعم",
+          "standardAmount": "4 فصوص ثوم مفري مدقوق",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "4 فصوص ثوم مفري",
+            "doc2": "4 فصوص ثوم مفري",
+            "doc3": "4 فصوص ثوم مفري"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp3-4",
+          "name": "بطاطس مكعبات محمرة",
+          "standardAmount": "2 حبة بطاطس متوسطة",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "حبتين بطاطس مكعبات",
+            "doc2": "حبتين بطاطس",
+            "doc3": "2 وحدة بطاطس"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp3-5",
+          "name": "سمن أو زيت",
+          "standardAmount": "2 ملعقة كبيرة سمن أو زيت",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "2 ملعقة كبيرة زيت أو سمن",
+            "doc2": "2 ملعقة كبيرة زيت أو سمن",
+            "doc3": "2 م ك زيت أو سمن"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp3-6",
+          "name": "قرفة وبهارات وملح وفلفل",
+          "standardAmount": "قليل من القرفة والملح والفلفل",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "قليل من القرفة – ملح – فلفل",
+            "doc2": "قليل من القرفة – ملح – فلفل",
+            "doc3": "قليل من القرفة – ملح – فلفل"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "يقطع اللحم مكعبات ويتبل بالملح والفلفل والقرفة، ثم يوضع في الإناء مع البصلة الصحيحة مع التقليب حتى يتشرب ماءه الذاتي تماماً.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "يضاف الزيت أو السمن مع استمرار التقليب حتى يصبح لون اللحم بنياً شهياً، ثم يضاف الثوم المدقوق ويقلب حتى يصفر لونه وتخرج رائحته.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "نضيف مقداراً قليلاً جداً من الماء الساخن ويغطى الإناء، وكلما احتاج اللحم للماء يضاف له القليل تدريجياً حتى ينضج تماماً ويتكون صوص بني كثيف.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "تقطع البطاطس مكعبات وتحمر في زيت غزير ثم توضع على مناديل ورقية لتصفية الزيت.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "تسكب مكعبات البطاطس المحمرة فوق اللحم الناضج والصوص ويقلبان برفق مع تغطية الإناء لمدة 5 دقائق حتى تصبح البطاطس طرية ومتشربة لنكهة الصوص.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 4,
+        "mergedIngredientsCount": 6,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 6,
+        "overlapPercentage": 92,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "تطابق كامل في الوصفة عبر الوثائق الثلاث، مع تفاصيل دقيقة لتسوية الصوص وإضافة البطاطس المقرمشة لتتشرب نكهة كباب الحلة."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "كباب الحلة",
+          "pageNumber": 11,
+          "ingredients": [
+            "1/2 كيلو لحم بتلو",
+            "4 فصوص ثوم مفري",
+            "بصلة متوسطة صحيحة",
+            "ملح وفلفل وقرفة",
+            "2 ملعقة كبيرة زيت أو سمن",
+            "حبتين بطاطس"
+          ],
+          "instructions": [
+            "يقطع اللحم مكعبات ويتبل بالقرفة والملح والفلفل",
+            "يقلب مع البصلة حتى يتشرب ماءه",
+            "يضاف السمن ثم الثوم حتى يصفر",
+            "إضافة ماء قليل حتى النضج",
+            "تحمر البطاطس وتسكب فوق اللحم"
+          ]
+        },
+        "doc3": {
+          "title": "4- كباب الحلة",
+          "pageNumber": 11,
+          "ingredients": [
+            "نصف ك لحم بتلو",
+            "4 فصوص ثوم مفري",
+            "بصلة متوسطة صحيحة",
+            "ملح - فلفل - قليل من القرفة",
+            "2 م ك زيت أو سمن",
+            "2 وحدة بطاطس"
+          ],
+          "instructions": [
+            "يقطع اللحم مكعبات ويتبل بالملح والفلفل والقرفة",
+            "يضاف الزيت أو السمن حتى يصبح بني",
+            "تحمر البطاطس المكعبات وتسكب فوق اللحم الناضج والصوص"
+          ]
+        }
+      }
+    },
+    {
+      "id": "meat-04",
+      "title": "العصاج البلدي المسبك",
+      "titleEn": "Classic Minced Meat Filling (Assag)",
+      "chapter": "الباب الأول: اللحوم – الطيور – البحريات",
+      "chapterNumber": 1,
+      "category": "لحوم وطيور",
+      "cookingMethod": "تسبيك",
+      "prepTime": "10 دقائق",
+      "cookTime": "25 دقيقة",
+      "servings": "حشوة متعددة الاستخدام",
+      "masterIngredients": [
+        {
+          "id": "mp4-1",
+          "name": "لحم مفروم كوندوز أو بتلو",
+          "standardAmount": "1/2 كيلو لحم مفروم",
+          "category": "meat_poultry",
+          "sourceVariations": {
+            "doc1": "1/2 كيلو لحم كوندوز",
+            "doc2": "1/2 كيلو لحم كوندوز مفروم",
+            "doc3": "نصف كيلو لحم كوندوز"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp4-2",
+          "name": "بصلة كبيرة مفرية",
+          "standardAmount": "1 بصلة كبيرة مفرية ناعم",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "بصلة كبيرة",
+            "doc2": "بصلة كبيرة",
+            "doc3": "بصلة كبيرة"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp4-3",
+          "name": "صلصة طماطم مركزة",
+          "standardAmount": "1-2 ملعقة كبيرة",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "ملعقة كبيرة صلصة طماطم",
+            "doc2": "ملعقة كبيرة صلصة طماطم",
+            "doc3": "م ك صلصة طماطم"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp4-4",
+          "name": "ثوم مفري وعصير ليمون أو خل",
+          "standardAmount": "1 فص ثوم كبير + ملعقة خل أو ليمون",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "فص ثوم كبير – عصير ليمونة أو ملعقة كبيرة خل",
+            "doc2": "فص ثوم كبير – عصير ليمونة أو خل",
+            "doc3": "فص ثوم كبير – عصير ليمونة أو ملعقة ك خل"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp4-5",
+          "name": "سمن بلدي أو زيت نباتي",
+          "standardAmount": "2 ملعقة كبيرة",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "زيت أو سمن",
+            "doc2": "زيت أو سمن",
+            "doc3": "زيت أو سمن"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp4-6",
+          "name": "توابل (ملح، فلفل، بهار لحم، قرفة، صنوبر اختياري)",
+          "standardAmount": "ملح، فلفل، بهار، قرفة، صنوبر وزبيب اختياري",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "ملح وفلفل وبهار – قرفة",
+            "doc2": "ملح وفلفل وبهار – قرفة",
+            "doc3": "ملح وفلفل وبهار – قرفة – صنوبر وزبيب"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "الطريقة الكلاسيكية الأولى: تبشر البصلة وتتبل بالملح والفلفل والبهار ثم تخلط باللحم المفروم. يضاف لها الصلصة والليمون المعصور أو الخل وفص الثوم المفري. يوضع الخليط في إناء به زيت أو سمن على درجة حرارة هادئة حتى يتشرب الماء ثم إضافة قليل من الماء كلما احتاج الأمر مع تغطية الإناء حتى النضج التام.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "طريقة التشويح الإضافية (سريعة النكهة): تحمر البصلة في الزيت أو السمن أولاً حتى تصفر ثم يضاف لها اللحم والتوابل على درجة حرارة هادئة حتى يتشرب ماءه، ثم يضاف الماء تدريجياً، مع إضافة الصنوبر المحمر والصلصة، وفي النهاية يضاف الزبيب حسب الرغبة.",
+          "phase": "alternative",
+          "isAlternative": true,
+          "alternativeLabel": "طريقة تشويح البصل أولاً بالصنوبر والزبيب",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "variation"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 2,
+        "mergedIngredientsCount": 6,
+        "totalUniqueSteps": 2,
+        "totalMasterIngredients": 6,
+        "overlapPercentage": 90,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "العصاج يمثل الأساس المشترك لأكثر من 15 وصفة أخرى (مكرونة بشاميل، جلاش، رقاق، كوسة محشوة، مسقعة، بطاطس). تم استخلاص الطريقتين بدقة مع ذكر المكونات التكميلية كالصنوبر والزبيب."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "العصاج",
+          "pageNumber": 16,
+          "ingredients": [
+            "بصلة كبيرة",
+            "1/2 كيلو لحم كوندوز",
+            "ملح وفلفل وبهار",
+            "ملعقة كبيرة صلصة طماطم",
+            "عصير ليمونة أو خل",
+            "فص ثوم كبير",
+            "زيت أو سمن"
+          ],
+          "instructions": [
+            "تبشر البصلة وتتبل بالملح والفلفل والبهار وتخلط باللحم",
+            "توضع على نار هادئة حتى يتشرب الماء",
+            "طريقة إضافية: تحمر البصلة في الزيت ثم يضاف اللحم والتوابل والصلصة والصنوبر والزبيب"
+          ]
+        },
+        "doc3": {
+          "title": "12- العصاج",
+          "pageNumber": 14,
+          "ingredients": [
+            "بصلة كبيرة",
+            "نصف كيلو لحم كوندوز",
+            "ملح وفلفل وبهار",
+            "م ك صلصة طماطم",
+            "عصير ليمونة أو م ك خل",
+            "فص ثوم كبير",
+            "زيت أو سمن"
+          ],
+          "instructions": [
+            "تبشر البصلة وتتبل وتخلط باللحم المفروم",
+            "تطهى على حرارة هادئة",
+            "طريقة أخرى للعصاج بتحمير البصل ثم اللحم والصلصة والصنوبر"
+          ]
+        }
+      }
+    },
+    {
+      "id": "meat-05",
+      "title": "الكفتة بالبرغل المشوية على الفحم",
+      "titleEn": "Burghul Meat Kofta with Charcoal Aroma",
+      "chapter": "الباب الأول: اللحوم – الطيور – البحريات",
+      "chapterNumber": 1,
+      "category": "لحوم وطيور",
+      "cookingMethod": "تسبيك",
+      "prepTime": "45 دقيقة",
+      "cookTime": "30 دقيقة",
+      "servings": "4-5 أفراد",
+      "masterIngredients": [
+        {
+          "id": "mp5-1",
+          "name": "لحم مفروم ناعم",
+          "standardAmount": "1/2 كيلو لحم مفروم",
+          "category": "meat_poultry",
+          "sourceVariations": {
+            "doc1": "1/2 كيلو لحم مفروم",
+            "doc2": "1/2 كيلو لحم مفروم",
+            "doc3": "نصف كيلو لحم مفروم"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp5-2",
+          "name": "برغل مغسول ومنقوع",
+          "standardAmount": "1/2 كوب برغل ناعم",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "1/2 كوب برغل",
+            "doc2": "1/2 كوب برغل",
+            "doc3": "نصف كوب برغل"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp5-3",
+          "name": "بصلة مفرية ناعمة",
+          "standardAmount": "1 بصلة متوسطة مفرية",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "بصلة متوسطة مفرية",
+            "doc2": "بصلة متوسطة مفرية",
+            "doc3": "بصلة متوسطة مفرية"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp5-4",
+          "name": "بقسماط ناعم",
+          "standardAmount": "1 ملعقة كبيرة (إذا احتاج الأمر للتماسك)",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "ملعقة كبيرة بقسماط",
+            "doc2": "ملعقة كبيرة بقسماط",
+            "doc3": "م ك بقسماط"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp5-5",
+          "name": "سمن بلدي",
+          "standardAmount": "2 ملعقة كبيرة سمن",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "2 ملعقة كبيرة سمن",
+            "doc2": "2 ملعقة كبيرة سمن",
+            "doc3": "2 م ك سمن"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp5-6",
+          "name": "فحم طبيعي للشواء",
+          "standardAmount": "قطعة فحم ساخنة جداً للتبخير",
+          "category": "other",
+          "sourceVariations": {
+            "doc1": "فحم",
+            "doc2": "فحم",
+            "doc3": "فحم"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp5-7",
+          "name": "توابل كفتة (ملح، فلفل، بهارات)",
+          "standardAmount": "ملح وفلفل وبهارات مشكلة",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "ملح فلفل بهارات",
+            "doc2": "ملح فلفل بهارات",
+            "doc3": "ملح فلفل بهارات"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "ينقع حوالي نصف كوب برغل في الماء ثم يسكب الماء وينقع مرة أخرى وتكرر العملية كذا مرة حتى نتخلص تماماً من الحصى والشوائب ثم يصفى جيداً.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "يتبل اللحم المفروم بالبصلة المفرية والملح والفلفل والبهار ثم يدخل الثلاجة حوالي ساعة ليتماسك ويتشرب النكهة.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "يخلط اللحم المفروم بالبرغل المصفى جيداً، ويمكن إضافة ملعقة بقسماط إذا احتاج الخليط لتماسك إضافي. يكوّر اللحم ويبطط على هيئة دوائر أو أصابع.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "يرفع في إناء به السمن مع إضافة كمية قليلة من الماء على درجة حرارة هادئة حتى ينضج اللحم ويتشرب ماءه بالكامل.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "التبخير بالفحم: نحضر قطعة فحم ساخنة جداً ونضعها في ورقة قصدير بوسط الإناء، ونسكب عليها قطرة سمن ثم نغطي الإناء فوراً ونطفئ الحرارة لتتشرب الكفتة رائحة الشواء على الفحم.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "tip"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 3,
+        "mergedIngredientsCount": 7,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 7,
+        "overlapPercentage": 91,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "طريقة البرغل والتبخير بالفحم متطابقة نصياً عبر النسخ، وتجسد تقنية الكفتة المصرية البيتية المحبوبة."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "كفتة البرغل",
+          "pageNumber": 19,
+          "ingredients": [
+            "1/2 كوب برغل",
+            "1/2 كيلو لحم مفروم",
+            "بصلة متوسطة مفرية",
+            "ملح فلفل بهارات",
+            "ملعقة كبيرة بقسماط",
+            "2 ملعقة كبيرة سمن",
+            "فحم"
+          ],
+          "instructions": [
+            "نقع البرغل وتكرار العملية",
+            "تتبيل اللحم المفروم ودخوله الثلاجة ساعة",
+            "خلط البرغل وتشكيل دوائر",
+            "النضج مع السمن والماء القليل",
+            "إشعال الفحم وتغطية الإناء"
+          ]
+        },
+        "doc3": {
+          "title": "15- كفتة البرغل",
+          "pageNumber": 16,
+          "ingredients": [
+            "نصف كوب برغل",
+            "نصف كيلو لحم مفروم",
+            "بصلة متوسطة مفرية",
+            "ملح فلفل بهارات",
+            "م ك بقسماط",
+            "2 م ك سمن",
+            "فحم"
+          ],
+          "instructions": [
+            "ينقع نصف كوب برغل في الماء كذا مرة",
+            "يتبل اللحم بالبصلة ويدخل الثلاجة",
+            "يكور اللحم ويبطط على هيئة دوائر",
+            "يرفع في إناء به 2 م سمن",
+            "نحضر فحم ساخن جداً ونضعه في وسط الإناء ونطفئ الحرارة"
+          ]
+        }
+      }
+    },
+    {
+      "id": "meat-06",
+      "title": "الكبدة الإسكندراني الحارة",
+      "titleEn": "Alexandrian Style Spiced Liver",
+      "chapter": "الباب الأول: اللحوم – الطيور – البحريات",
+      "chapterNumber": 1,
+      "category": "لحوم وطيور",
+      "cookingMethod": "تحمير",
+      "prepTime": "15 دقيقة",
+      "cookTime": "10 دقائق",
+      "servings": "4 أفراد",
+      "masterIngredients": [
+        {
+          "id": "mp6-1",
+          "name": "كبدة بلدي شرائح رفيعة",
+          "standardAmount": "1 كيلو كبدة",
+          "category": "meat_poultry",
+          "sourceVariations": {
+            "doc1": "1 كيلو كبده",
+            "doc2": "1 كيلو كبده",
+            "doc3": "1 كيلو كبده"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp6-2",
+          "name": "عصير ليمون طازج",
+          "standardAmount": "عصير ليمون كثير (3-4 ليمونات)",
+          "category": "sweet_fruit",
+          "sourceVariations": {
+            "doc1": "عصير ليمون كثير",
+            "doc2": "عصير ليمون كثير",
+            "doc3": "عصير ليمون كثير"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp6-3",
+          "name": "ثوم مفروم ناعم",
+          "standardAmount": "1 ملعقة كبيرة ثوم مفري (رأس ثوم كاملة)",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "ملعقة ثوم مفري – رأس ثوم",
+            "doc2": "ملعقة ثوم مفري",
+            "doc3": "رأس ثوم – ثوم مفري م"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp6-4",
+          "name": "فلفل رومي وفلفل حار",
+          "standardAmount": "2 ثمرة فلفل رومي مقطع",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "2 فلفلة رومي",
+            "doc2": "2 فلفلة رومي",
+            "doc3": "2 ثمرة فلفل رومي"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp6-5",
+          "name": "زيت غزير مقدوح",
+          "standardAmount": "زيت كافي للتحمير السريع",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "زيت للتحمير",
+            "doc2": "زيت",
+            "doc3": "زيت"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp6-6",
+          "name": "كمون وملح وفلفل أسود",
+          "standardAmount": "ملعقة صغيرة كمون + ملح وفلفل",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "ملح وفلفل – كمون",
+            "doc2": "ملح وفلفل – كمون",
+            "doc3": "ملح وفلفل – م ص كمون"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "تقطع الكبدة شرائح صغيرة رفيعة جداً (عصافيري أو شرائح طولية)، ويعصر عليها كمية وفيرة من الليمون ويضاف إليها الملح والفلفل والكمون والثوم المفروم ثم يقطع عليها الفلفل الرومي.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "تتبل الكبدة جيداً وتترك ساعتين داخل الثلاجة لتتشرب التتبيلة.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "تقنية الصدمة الحرارية (الطريقة الإسكندرية الأصلية): تحمر في زيت مقدوح جداً وليس غزيراً مع رفع درجة الحرارة جداً، وتقلب الكبدة سريعاً حتى تتماسك وتتشرب كل السوائل دون أن تجف.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "طريقة التحمير التدريجي (النسخة 1 و 3): يوضع نصف كمية التتبيلة أولاً في الزيت حتى تصفر وتخرج رائحتها، ثم تضاف الكبدة، وقرب النضج يضاف النصف المتبقي من التتبيلة ويطفأ البوتاجاز فوراً لتحتفظ بنكهة الثوم والليمون الطازجة.",
+          "phase": "alternative",
+          "isAlternative": true,
+          "alternativeLabel": "سر إضافة باقي التتبيلة قرب النضج",
+          "sourceDocs": [
+            "doc1",
+            "doc3"
+          ],
+          "importance": "variation"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 3,
+        "mergedIngredientsCount": 6,
+        "totalUniqueSteps": 4,
+        "totalMasterIngredients": 6,
+        "overlapPercentage": 89,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "تم دمج مقادير الكبدة الإسكندراني والكمون والليمون والثوم، وحفظ سر الطهاة الشهير بإضافة دفعة ثانية من التتبيلة في الثواني الأخيرة قبل إطفاء النار."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "الكبده الاسكندراني / الكبده",
+          "pageNumber": 34,
+          "ingredients": [
+            "1 كيلو كبده",
+            "عصير ليمون كثير",
+            "ملح وفلفل",
+            "كمون",
+            "ملعقة ثوم مفري",
+            "2 فلفلة رومي",
+            "زيت"
+          ],
+          "instructions": [
+            "تقطع الكبده شرائح صغيرة جدا ويعصر عليها الليمون",
+            "تترك ساعتين داخل الثلاجة",
+            "تحمر في زيت مقدوح جدا وليس غزيرا حتى تتشرب كل السائل"
+          ]
+        },
+        "doc3": {
+          "title": "20- الكبده / 21- طريقة أخرى للكبده",
+          "pageNumber": 29,
+          "ingredients": [
+            "1 كيلو كبده",
+            "رأس ثوم",
+            "2 ثمرة فلفل رومي",
+            "ملعقة صغيرة كمون",
+            "ملح وفلفل",
+            "زيت"
+          ],
+          "instructions": [
+            "يفرم الثوم والفلفل في الكبة مع الكمون",
+            "نضع نصف التتبيلة في زيت حتى تحمر",
+            "تضاف الكبدة مع رفع درجة الحرارة",
+            "قرب النضوج تضاف بقية التتبيلة ويطفئ البوتاجاز"
+          ]
+        }
+      }
+    },
+    {
+      "id": "meat-07",
+      "title": "الحمام المحشو بالأرز أو الفريك",
+      "titleEn": "Stuffed Pigeon with Rice or Freekeh",
+      "chapter": "الباب الأول: اللحوم – الطيور – البحريات",
+      "chapterNumber": 1,
+      "category": "لحوم وطيور",
+      "cookingMethod": "سلق",
+      "prepTime": "30 دقيقة",
+      "cookTime": "45 دقيقة",
+      "servings": "زوج حمام لشخصين",
+      "masterIngredients": [
+        {
+          "id": "mp7-1",
+          "name": "حمام نظيف وجاهز للحشو",
+          "standardAmount": "زوج حمام (2 فردة)",
+          "category": "meat_poultry",
+          "sourceVariations": {
+            "doc1": "زوج حمام",
+            "doc2": "زوج حمام",
+            "doc3": "زوج من الحمام (2 حمام)"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp7-2",
+          "name": "أرز مصري أو فريك منقى",
+          "standardAmount": "1/2 كوب أرز أو فريك",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "1/2 كوب أرز أو فريك",
+            "doc2": "1/2 كوب أرز أو فريك",
+            "doc3": "1.2 كوب أرز أو استبدال الأرز بالفريك"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp7-3",
+          "name": "بصل مفروم وبصلة صحيحة",
+          "standardAmount": "1 بصلة متوسطة مفرية + 1 بصلة كبيرة صحيحة للمرق",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "بصلة متوسطة مفرية – بصلة كبيرة صحيحة",
+            "doc2": "بصلة متوسطة مفرية – بصلة كبيرة صحيحة",
+            "doc3": "بصلة متوسطة مفرية – بصلة صحيحة"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp7-4",
+          "name": "حوائج الحمام (كبد وقوانص)",
+          "standardAmount": "كبد وقوانص الحمام مقطعة صغيراً جداً",
+          "category": "meat_poultry",
+          "sourceVariations": {
+            "doc1": "حوائج الحمام المقطعة صغيرة جدا",
+            "doc2": "حوائج الحمام المقطعة صغيرا",
+            "doc3": "حوائج الحمام المقطعة صغيرة جدا"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp7-5",
+          "name": "سمن بلدي وزيت للتحمير",
+          "standardAmount": "1 ملعقة كبيرة سمن للحشو + زيت أو سمن للتحمير",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "ملعقة سمن كبيرة – زيت للتحمير",
+            "doc2": "ملعقة كبيرة سمن – زيت للتحمير",
+            "doc3": "ملعقة كبيرة سمن – زيت للتحمير"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "mp7-6",
+          "name": "بهارات حشو (ملح، فلفل، حبهان مدقوق ومستكة)",
+          "standardAmount": "ملح وفلفل وحبهان مدقوق",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "ملح وفلفل – حبهان مدقوق",
+            "doc2": "ملح وفلفل – حبهان مدقوق",
+            "doc3": "ملح وفلفل وحبهان مدقوق"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "إعداد الخلطة: يدعك البصل المفروم بالملح والفلفل الأسود وحوائج الحمام (الكبد والقوانص) المقطعة صغيرة جداً مع ملعقة السمن البلدي.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "الحشو والغلق: يخلط الأرز أو الفريك مع الخلطة ويحشى به بطن الحمام ورقبة الحمام باعتدال (حتى لا ينفجر أثناء السلق)، ويفضل أن يخاط بالخيط النظيف أو يكتف برجليه.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "السلق الهادئ: نحضر إناء ويغلي به الماء مع البصلة الصحيحة والملح والفلفل والحبهان المدقوق، ويوضع فيه الحمام ثم تهدأ الحرارة حتى تمام النضج (حوالي 35-45 دقيقة).",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "التحمير الذهبي: يرفع الحمام من المرق ويترك في مصفاة حتى يجف تماماً من السوائل، ثم يحمر في السمن البلدي أو الزيت حتى يكتسب لوناً ذهبياً شهياً من جميع الجهات.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 3,
+        "mergedIngredientsCount": 6,
+        "totalUniqueSteps": 4,
+        "totalMasterIngredients": 6,
+        "overlapPercentage": 92,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "توافق كامل بين الوثائق الثلاث في طريقة حشو الحمام وسلقه وتحميره، مع توحيد خياري الأرز المصري والفريك الصعيدي."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "الحمام المحشو بالأرز أو الفريك",
+          "pageNumber": 5,
+          "ingredients": [
+            "زوج حمام",
+            "بصلة متوسطة مفرية",
+            "بصلة كبيرة صحيحة",
+            "1/2 كوب أرز أو فريك",
+            "ملح وفلفل",
+            "حبهان مدقوق",
+            "ملعقة سمن كبيرة",
+            "مقدار من الماء"
+          ],
+          "instructions": [
+            "يدعك البصل بالملح والفلفل وحوائج الحمام والسمن",
+            "تحشى الحمام بالخلطة ويفضل أن يخاط ويكتف",
+            "يغلى الماء مع البصلة الصحيحة ويسلق الحمام",
+            "يرفع ليجف ثم يحمر في الزيت"
+          ]
+        },
+        "doc3": {
+          "title": "3- الحمام المحشو بالأرز / 4- بالفريك",
+          "pageNumber": 7,
+          "ingredients": [
+            "زوج من الحمام",
+            "بصلة متوسطة مفرية",
+            "1.2 كوب أرز",
+            "ملح - فلفل - حبهان مدقوق",
+            "2 حمام",
+            "ملعقة كبيرة سمن"
+          ],
+          "instructions": [
+            "يدعك البصل بالملح والفلفل وحوائج الحمام والسمن",
+            "تحشى الحمام مع الأرز",
+            "سلق الحمام في ماء به بصلة صحيحة",
+            "يرفع ويترك حتى يجف ثم يحمر في الزيت"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sea-01",
+      "title": "السمك المقلي (بالدقيق / بالبيض والبقسماط)",
+      "titleEn": "Fried Fish (Flour Dusted or Breaded)",
+      "chapter": "الباب الأول: اللحوم – الطيور – البحريات (طهو البحريات)",
+      "chapterNumber": 1,
+      "category": "بحريات",
+      "cookingMethod": "تحمير",
+      "prepTime": "20 دقيقة",
+      "cookTime": "15 دقيقة",
+      "servings": "4-6 أفراد",
+      "masterIngredients": [
+        {
+          "id": "sf1-1",
+          "name": "سمك بلطي أو زبيدي طازج",
+          "standardAmount": "1 إلى 2 كيلو سمك مناسب للقلي",
+          "category": "seafood",
+          "sourceVariations": {
+            "doc1": "1 : 2 كيلو سمك يناسب القلي مثل البلطي أو الزبيدي",
+            "doc2": "1 : 2 كيلو سمك بلطي أو زبيدي",
+            "doc3": "1 : 2 كيلو سمك بلطي"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf1-2",
+          "name": "ثوم مفروم ناعم",
+          "standardAmount": "1/4 رأس ثوم مفري (حوالي 6 فصوص)",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "1/4 رأس ثوم",
+            "doc2": "1/4 رأس ثوم مفري",
+            "doc3": "1/4 رأس ثوم"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf1-3",
+          "name": "عصير ليمون طازج",
+          "standardAmount": "عصير 2-3 ليمونات",
+          "category": "sweet_fruit",
+          "sourceVariations": {
+            "doc1": "عصير ليمون",
+            "doc2": "عصير ليمون",
+            "doc3": "عصير ليمون"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf1-4",
+          "name": "كمون وملح مطحون",
+          "standardAmount": "1 ملعقة كبيرة كمون + ملح خفيف",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "ملح – كمون",
+            "doc2": "ملح – كمون",
+            "doc3": "ملح – كمون"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf1-5",
+          "name": "دقيق أبيض للتغليف",
+          "standardAmount": "1-2 كوب دقيق",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "دقيق",
+            "doc2": "دقيق",
+            "doc3": "دقيق"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf1-6",
+          "name": "بيض وبقسماط (للنسخة البانيه)",
+          "standardAmount": "2 بيضة مخفوقة + كوب بقسماط ناعم",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "2 بيضة – بقسماط (في وصفة السمك المقلي بالبيض)",
+            "doc2": "2 بيضة – بقسماط",
+            "doc3": "2 بيضة وبقسماط"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf1-7",
+          "name": "زيت نباتي للقلي",
+          "standardAmount": "زيت مقدوح للقلي",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "زيت للقلي",
+            "doc2": "زيت للقلي",
+            "doc3": "زيت للقلي"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "تنظيف وتجهيز السمك: يجهز السمك ويترك صحيحاً إن كان صغيراً أو يقطع جزل إن كان كبيراً، ويملح تمليحاً خفيفاً بعد عمل شقوق مائلة في الظهر.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "التتبيل: يتبل بالكمون والملح والثوم المفروم وعصير الليمون، ويفرك داخل وخارج السمكة ويترك فترة كافية حتى يتشرب التتبيلة بالكامل.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "طريقة القلي بالدقيق التقليدية: يغطى السمك تغطية خفيفة بالدقيق وينفض الزائد، ثم يقلى في الزيت الساخن المقدوح حتى يصير ذهبياً ومقرمشاً.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "طريقة البيض والبقسماط المقرمشة (النسخة الإضافية): يغطى السمك خفيفاً بالدقيق أولاً، ثم يغمس في البيض المخفوق المتبل بالملح والفلفل، ثم يغلف بالبقسماط ويحمر في الزيت.",
+          "phase": "cook",
+          "isAlternative": true,
+          "alternativeLabel": "طريقة السمك بالبيض والبقسماط",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "variation"
+        },
+        {
+          "stepNumber": 5,
+          "text": "التقديم: يقدم السمك المقلي ساخناً مع سلطة الطحينة وسلطة الخضراء أو الصلصة البيضاء للبحريات.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc2",
+            "doc3"
+          ],
+          "importance": "tip"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 3,
+        "mergedIngredientsCount": 7,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 7,
+        "overlapPercentage": 86,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "دمجت الوثائق طريقتي القلي بالدقيق وقلي البقسماط في سجل رئيسي متكامل للمقادير مع تمييز خطوات التغليف."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "السمك المقلي بالدقيق / السمك المقلي بالبيض والبقسماط",
+          "pageNumber": 51,
+          "ingredients": [
+            "1 : 2 كيلو سمك بلطي أو زبيدي",
+            "1/4 رأس ثوم",
+            "ملح - كمون",
+            "عصير ليمون",
+            "دقيق",
+            "2 بيضة",
+            "بقسماط",
+            "زيت للقلي"
+          ],
+          "instructions": [
+            "يجهز السمك ويملح خفيفا",
+            "يتبل بالكمون والثوم وعصير الليمون",
+            "يغطى بالدقيق ويقلى في الزيت المقدوح",
+            "يغمس في البيض ثم البقسماط ويحمر"
+          ]
+        },
+        "doc3": {
+          "title": "1- السمك المقلي بالدقيق / 2- بالبيض والبقسماط",
+          "pageNumber": 91,
+          "ingredients": [
+            "1 : 2 كيلو سمك مناسب للقلي",
+            "1/4 رأس ثوم",
+            "ملح - كمون - عصير ليمون",
+            "دقيق - زيت للقلي",
+            "2 بيضة وبقسماط"
+          ],
+          "instructions": [
+            "يجهز السمك ويترك صحيحا أو يقطع",
+            "يتبل بالكمون والملح والثوم وعصير الليمون",
+            "يغطى خفيفا بالدقيق ثم يقلى",
+            "مثل الطريقة السابقة وبعد تغطيته بالدقيق يغمس في البيض ثم البقسماط"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sea-02",
+      "title": "السمك المشوي بالردة ودقة الخل والثوم",
+      "titleEn": "Egyptian Grilled Mullet (Samak Mashwi with Radda & Garlic Vinegar Doffa)",
+      "chapter": "الباب الأول: اللحوم – الطيور – البحريات (طهو البحريات)",
+      "chapterNumber": 1,
+      "category": "بحريات",
+      "cookingMethod": "شوي",
+      "prepTime": "15 دقيقة",
+      "cookTime": "20 دقيقة",
+      "servings": "4 أفراد",
+      "masterIngredients": [
+        {
+          "id": "sf2-1",
+          "name": "سمك بوري طازج",
+          "standardAmount": "1 إلى 1.5 كيلو سمك بوري",
+          "category": "seafood",
+          "sourceVariations": {
+            "doc1": "1 : 1 1/2 كيلو سمك بوري",
+            "doc2": "1 : 1 1/2 كيلو سمك بوري",
+            "doc3": "1 : 1 1/2 كيلو سمك بوري"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf2-2",
+          "name": "ردة ناعمة (نخالة القمح للشواء)",
+          "standardAmount": "1 كوب ردة ناعمة",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "ردة",
+            "doc2": "ردة",
+            "doc3": "ردة"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf2-3",
+          "name": "ثوم مفري للدقة والتتبيل",
+          "standardAmount": "1/4 رأس ثوم + 2 فص إضافي للدقة",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "1/4 رأس ثوم – 2 فص ثوم لعمل تتبيلة السمك",
+            "doc2": "1/4 رأس ثوم – 2 فص ثوم",
+            "doc3": "1/4 رأس ثوم – 2 فص ثوم مفري"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf2-4",
+          "name": "عصير ليمون وخل أبيض",
+          "standardAmount": "عصير ليمون + 2 ملعقة كبيرة خل",
+          "category": "liquid",
+          "sourceVariations": {
+            "doc1": "عصير ليمون – خل للتتبيلة",
+            "doc2": "عصير ليمون – 2 ملعقة كبيرة خل",
+            "doc3": "عصير ليمون – 2 ملعقة كبيرة خل"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf2-5",
+          "name": "توابل الشواء (كمون، جوزة الطيب، كرفس، زنجبيل، قرفة)",
+          "standardAmount": "كمون، ملح، فلفل، جوزة الطيب، كرفس وزنجبيل وقرفة اختياري",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "ملح – فلفل – كمون – جوزة الطيب – كرفس وزنجبيل وقرفة وزيت زيتون",
+            "doc2": "ملح – فلفل – كمون – جوزة الطيب",
+            "doc3": "ملح – فلفل – كمون – جوزة الطيب – كرفس وزنجبيل وقرفة"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf2-6",
+          "name": "زيت نباتي أو زيت زيتون",
+          "standardAmount": "قليل لدهن السمك",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "زيت – زيت الزيتون",
+            "doc2": "زيت",
+            "doc3": "زيت الزيتون"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "ينظف السمك البوري ويجهز، ثم يتبل بالملح والكمون وجوزة الطيب والفلفل والثوم المفروم وعصير الليمون، ويدهن بقليل من الزيت ثم يغطى بالردة تماماً.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "يشوى السمك على الصاج الساخن أو الشواية بعد رشه بالردة ودهنه بالزيت مع التقليب على الوجهين حتى يتفحم القشر الخارجي برفق وينضج اللحم.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "تحضير دقة التتبيلة الساخنة (السر البلدي): نخلط 2 فص ثوم مفري مع الملح والكمون والخل حتى تتكون تتبيلة خفيفة متجانسة.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "التغميس الفوري: يتبل السمك وهو ساخن جداً بعد الشوي مباشرة بوضعه في خلطة الدقة والخل والثوم أو سكبها عليه مباشرة، ثم يرفع فوراً في صحن التقديم ليمتص النكهة ويظل طرياً.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "تنويع عطري إضافي: يمكن أيضاً تتبيل السمك المشوي بإضافة الكرفس المفروم والزنجبيل والقرفة وزيت الزيتون قبل الشوي لنكهة بحرية غنية.",
+          "phase": "alternative",
+          "isAlternative": true,
+          "alternativeLabel": "تتبيلة الكرفس والزنجبيل",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "tip"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 3,
+        "mergedIngredientsCount": 6,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 6,
+        "overlapPercentage": 90,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "توحيد مقادير شوي السمك البوري بالردة والخلطة الشهيرة مع دقة الثوم والخل والليمون العطري."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "السمك المشوي وتتبيلة السمك",
+          "pageNumber": 52,
+          "ingredients": [
+            "1 : 1 1/2 كيلو سمك بوري",
+            "ملح وفلفل وكمون وجوزة الطيب",
+            "1/4 رأس ثوم",
+            "عصير ليمون",
+            "ردة",
+            "2 فص ثوم وخل للتتبيلة"
+          ],
+          "instructions": [
+            "ينظف السمك ويتبل ثم يغطى بالردة",
+            "يشوى بعد رشه بالردة ودهنه بالزيت",
+            "يتبل السمك وهو ساخن بعد الشوي مباشرة بخلطة الثوم والخل",
+            "يمكن تتبيله بإضافة الكرفس والزنجبيل والقرفة"
+          ]
+        },
+        "doc3": {
+          "title": "3- السمك المشوي / عمل تتبيلة السمك",
+          "pageNumber": 91,
+          "ingredients": [
+            "1 : 1 1/2 كيلو سمك بوري",
+            "ملح وفلفل وكمون",
+            "1/4 رأس ثوم",
+            "عصير ليمون وردة",
+            "2 فص ثوم مفري - ملح - كمون - 2 م ك خل"
+          ],
+          "instructions": [
+            "ينظف السمك ويتبل بالملح والكمون",
+            "يشوى بعد رشه بالردة",
+            "يتبل وهو ساخن بخلطة الثوم والخل والكمون والملح",
+            "يرفع في صحن التقديم مباشرة"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sea-03",
+      "title": "صيادية الجمبري (النيء والناضج بالأرز)",
+      "titleEn": "Shrimp Sayadia with Spiced Brown Rice",
+      "chapter": "الباب الأول: اللحوم – الطيور – البحريات (طهو البحريات)",
+      "chapterNumber": 1,
+      "category": "بحريات",
+      "cookingMethod": "تسبيك",
+      "prepTime": "25 دقيقة",
+      "cookTime": "35 دقيقة",
+      "servings": "4-6 أفراد",
+      "masterIngredients": [
+        {
+          "id": "sf3-1",
+          "name": "جمبري مقشر",
+          "standardAmount": "1 كيلو جمبري",
+          "category": "seafood",
+          "sourceVariations": {
+            "doc1": "1 كيلو جمبري",
+            "doc2": "1 كيلو جمبري",
+            "doc3": "1 كيلو جمبري نيء أو ناضج"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf3-2",
+          "name": "أرز مصري مغسول ومصفى",
+          "standardAmount": "1 إلى 2 كوب أرز مصري",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "كوب أرز",
+            "doc2": "كوب أرز",
+            "doc3": "كوب أرز مغسول ومصفى"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf3-3",
+          "name": "بصل مفروم ناعم للصيادية",
+          "standardAmount": "1-2 بصلة كبيرة مفرومة ناعماً",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "بصلة كبيرة مفرومة ناعما",
+            "doc2": "بصلة كبيرة مفرومة",
+            "doc3": "بصلة كبيرة مفرية ناعما"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf3-4",
+          "name": "زيت نباتي",
+          "standardAmount": "2 ملعقة كبيرة زيت",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "زيت",
+            "doc2": "2 ملعقة زيت",
+            "doc3": "2 ملعقة زيت"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf3-5",
+          "name": "ماء ساخن للأرز والمرق",
+          "standardAmount": "2 كوب ماء",
+          "category": "liquid",
+          "sourceVariations": {
+            "doc1": "2 كوب ماء",
+            "doc2": "2 كوب ماء",
+            "doc3": "2 كوب ماء"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf3-6",
+          "name": "توابل وتزيين (ملح، فلفل، بقدونس وشرائح ليمون)",
+          "standardAmount": "ملح وفلفل + بقدونس مفروم وحلقات ليمون للتجميل",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "ملح وفلفل – بقدونس وحلقات ليمون",
+            "doc2": "ملح وفلفل وبقدونس",
+            "doc3": "ملح وفلفل وحلقات ليمون رفيعة وبقدونس"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "تحمير بصل الصيادية البني: تحمر البصلة المفرية ناعماً في الزيت حتى يغمق لونها البني المميز للصيادية دون حرقها، ثم ترفع وتسحق جيداً لتوزيع لونها في الماء.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "إعداد مرق الصيادية: يضاف 2 كوب من الماء في نفس الإناء وعليه ملح وفلفل ثم يضاف إليه البصل المسحوق ويترك حتى الغليان حتى يكتسب المرق اللون البني الكهرماني.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "طريقة الجمبري النيء: يقشر الجمبري النيء ثم يضاف إلى الماء المغلي ويترك حتى ينضج نصف نضج فقط، ثم يضاف كوب الأرز المغسول والمصفى ويقلب قليلاً، ويترك الإناء مغطى على درجة حرارة منخفضة حتى تمام النضج.",
+          "phase": "cook",
+          "isAlternative": false,
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "طريقة الجمبري الناضج كطبقات (النسخة الإضافية): في حالة استخدام جمبري مطهو ومقشر مسبقاً، يسكب الأرز على الماء المغلي ويسوى نصف تسوية، ثم يضاف نصف الجمبري الناضج ويقلب معه، وعند الغرف يغرف على هيئة طبقات متبادلة مع النصف المتبقي من الجمبري في قالب كبير ثم يقلب في صحن التقديم.",
+          "phase": "alternative",
+          "isAlternative": true,
+          "alternativeLabel": "صيادية الجمبري الناضج كطبقات مقلوبة",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "variation"
+        },
+        {
+          "stepNumber": 5,
+          "text": "التقديم: يغرف الأرز والصيادية في طبق التقديم ويزين بحلقات الليمون الرفيعة والبقدونس المفروم ويقدم مع سلطة الطحينة وسلطة البحر.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 3,
+        "mergedIngredientsCount": 6,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 6,
+        "overlapPercentage": 88,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "دمج وصفتي صيادية الجمبري النيء والصيادية بالجمبري الناضج مع حفظ تقنية تحمير بصل الصيادية الغامق وطبقات القالب المقلوب."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "صيادية الجمبري النيء / صيادية الجمبري الناضج",
+          "pageNumber": 58,
+          "ingredients": [
+            "1 كيلو جمبري",
+            "بصلة كبيرة",
+            "2 كوب ماء",
+            "ملح وفلفل",
+            "زيت",
+            "كوب أرز",
+            "ليمون وبقدونس"
+          ],
+          "instructions": [
+            "تحمر البصلة في الزيت حتى يغمق لونها وتسحق",
+            "يضاف الماء والملح حتى الغليان",
+            "يضاف الجمبري النيء ثم الأرز ويترك مغطى للنضج",
+            "طريقة أخرى للجمبري الناضج بطبقات متبادلة وتقلب في طبق كبير"
+          ]
+        },
+        "doc3": {
+          "title": "4- صيادية الجمبري النيء / 5- صيادية الجمبري الناضج",
+          "pageNumber": 96,
+          "ingredients": [
+            "بصلة كبيرة",
+            "2 كوب ماء",
+            "ملح وفلفل",
+            "زيت",
+            "كوب أرز",
+            "1 كيلو جمبري"
+          ],
+          "instructions": [
+            "تحمر البصلة حتى يغمق لونها وتسحق",
+            "يضاف 2 كوب ماء حتى الغليان",
+            "يقشر الجمبري النيء ويضاف للماء المغلي ثم الأرز",
+            "الناضج يضاف قبل إتمام نضج الأرز ويغرف طبقات متبادلة"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sea-04",
+      "title": "سبيط مقلي مقرمش (كاليماري)",
+      "titleEn": "Crispy Fried Calamari (Squid Rings / Strips)",
+      "chapter": "الباب الأول: اللحوم – الطيور – البحريات (طهو البحريات)",
+      "chapterNumber": 1,
+      "category": "بحريات",
+      "cookingMethod": "تحمير",
+      "prepTime": "20 دقيقة",
+      "cookTime": "10 دقائق",
+      "servings": "4 أفراد",
+      "masterIngredients": [
+        {
+          "id": "sf4-1",
+          "name": "سبيط (حبار / كاليماري) طازج",
+          "standardAmount": "1 كيلو سبيط منظف ومقطع شرائح",
+          "category": "seafood",
+          "sourceVariations": {
+            "doc1": "1 كيلو سبيط (الكاليماري)",
+            "doc2": "1 كيلو سبيط",
+            "doc3": "1 كيلو حبار (سبيط)"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf4-2",
+          "name": "خل أبيض",
+          "standardAmount": "2 ملعقة كبيرة خل",
+          "category": "liquid",
+          "sourceVariations": {
+            "doc1": "2 ملعقة كبيرة خل",
+            "doc2": "2 ملعقة كبيرة خل",
+            "doc3": "2 م ك خل"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf4-3",
+          "name": "عصير ليمون طازج",
+          "standardAmount": "عصير 2 ليمونة",
+          "category": "sweet_fruit",
+          "sourceVariations": {
+            "doc1": "عصير ليمونتين",
+            "doc2": "عصير ليمونتين",
+            "doc3": "عصير ليمونتين"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf4-4",
+          "name": "كمون وملح وفلفل أسود",
+          "standardAmount": "ملح وفلفل وكمون ناعم",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "ملح – فلفل – كمون",
+            "doc2": "ملح – فلفل – كمون",
+            "doc3": "ملح – فلفل – كمون"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf4-5",
+          "name": "دقيق أبيض للتغليف",
+          "standardAmount": "3 إلى 4 ملاعق كبيرة دقيق",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "من 3 إلى 4 ملعقة كبيرة دقيق",
+            "doc2": "من 3 إلى 4 ملعقة دقيق",
+            "doc3": "من 3 إلى 4 م ك دقيق"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "sf4-6",
+          "name": "زيت غزير للقلي",
+          "standardAmount": "زيت غزير مقدوح للقلي السريع",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "زيت للقلي",
+            "doc2": "زيت للقلي",
+            "doc3": "زيت للقلي"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "التنظيف والغسل بالخل: ينظف السبيط بماء ساخن ويغسل جيداً جداً ثم يقلب مع الخل ويوضع في مصفاة ويترك لمدة دقيقة واحدة للتخلص من الرائحة والرواسب.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "السلق السريع للحجم الكبير: إذا كان السبيط كبير الحجم، يغلى الماء ويسقط فيه السبيط لمدة غلوة واحدة فقط (نصف دقيقة) ثم يصفى فوراً لمنع مطاطيته.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "tip"
+        },
+        {
+          "stepNumber": 3,
+          "text": "التقطيع والتتبيل: تقطع كل واحدة شرائح بالطول أو حلقات مع تقطيع الأطراف. يوضع في وعاء عميق ويتبل بالملح والفلفل والكمون والليمون ويترك لمدة ساعة على الأقل.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "التجفيف والتغليف: يوضع في مصفاة ليجف تماماً من ماء التتبيلة، ثم يغمس في الدقيق حتى يتغلف جيداً.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "القلي: يقلى في زيت ساخن جداً مقدوح حتى يأخذ لوناً ذهبياً جذاباً ومقرمشاً ويرفع على مناديل ورقية.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 3,
+        "mergedIngredientsCount": 6,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 6,
+        "overlapPercentage": 92,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "نفس المقادير والخطوات الدقيقة متكررة في الوثائق الثلاث، مع نصيحة الغلوة الواحدة لمنع التجليد في الكاليماري الكبير."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "السبيط (الكاليماري)",
+          "pageNumber": 55,
+          "ingredients": [
+            "1 كيلو سبيط",
+            "2 ملعقة كبيرة خل",
+            "ملح - فلفل - كمون",
+            "عصير ليمونتين",
+            "3 إلى 4 ملعقة كبيرة دقيق",
+            "زيت للقلي"
+          ],
+          "instructions": [
+            "تنظيف السبيط بماء ساخن وغسله بالخل دقيقة",
+            "إذا كان السبيط كبير يسقط في ماء مغلي غلوة واحدة فقط ويصفى",
+            "تقطع شرائح وتتبل ساعة بالكمون والليمون",
+            "يصفى ويغمس بالدقيق ثم يقلى"
+          ]
+        },
+        "doc3": {
+          "title": "2- الحبار (السبيط)",
+          "pageNumber": 94,
+          "ingredients": [
+            "1 كيلو حبار (سبيط)",
+            "2 م ك خل",
+            "ملح وفلفل وكمون",
+            "عصير ليمونتين",
+            "من 3 إلى 4 م ك دقيق",
+            "زيت للقلي"
+          ],
+          "instructions": [
+            "ينظف بماء ساخن ويقلب مع الخل",
+            "غلوة واحدة إذا كان كبيراً",
+            "يقطع شرائح ويتبل ساعة في الثلاجة",
+            "يوضع في مصفاة ليجف تماما ثم يغمس في الدقيق ويقلى"
+          ]
+        }
+      }
+    },
+    {
+      "id": "soup-01",
+      "title": "شوربة الخضار (الصحية / باللبن والشبت)",
+      "titleEn": "Vegetable Soup (Clear Broth or Creamy Milk & Dill)",
+      "chapter": "الباب الثاني: الحساء – السلطات – الخضروات – البقول",
+      "chapterNumber": 2,
+      "category": "شوربات وحساء",
+      "cookingMethod": "سلق",
+      "prepTime": "15 دقيقة",
+      "cookTime": "20 دقيقة",
+      "servings": "4 أفراد",
+      "masterIngredients": [
+        {
+          "id": "ss1-1",
+          "name": "كوسة وجزر وبطاطس مكعبات",
+          "standardAmount": "1/2 ك كوسة + 2 جزرة + 2 بطاطس",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "2 جزرة – 2 بطاطس – 1/2 كيلو كوسة",
+            "doc2": "2 جزرة – 2 بطاطس – 1/2 كيلو كوسة",
+            "doc3": "2 جزرة – 2 بطاطس – نصف ك كوسة"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss1-2",
+          "name": "بصلة صغيرة مفرية",
+          "standardAmount": "1-2 بصلة صغيرة مفرية",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "بصلة صغيرة مفرية",
+            "doc2": "2 بصلة صغيرة مفرية (في الشوربة باللبن)",
+            "doc3": "بصلة صغيرة مفرية"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss1-3",
+          "name": "مرق لحم أو دجاج صافي",
+          "standardAmount": "3 أكواب مرق",
+          "category": "liquid",
+          "sourceVariations": {
+            "doc1": "3 أكواب مرق",
+            "doc2": "3 أكواب مرق",
+            "doc3": "3 أكواب مرق"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss1-4",
+          "name": "شعرية محمرة",
+          "standardAmount": "ملعقة كبيرة شعرية",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "قليل من الشعرية",
+            "doc2": "قليل من الشعرية",
+            "doc3": "قليل من الشعرية"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss1-5",
+          "name": "سمن أو زيت",
+          "standardAmount": "2 ملعقة سمن أو زيت",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "2 م سمن أو زيت",
+            "doc2": "2 م سمن أو زيت",
+            "doc3": "2 م سمن أو زيت"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss1-6",
+          "name": "لبن ودقيق وبقدونس وشبت (لشوربة الخضار باللبن)",
+          "standardAmount": "1 كوب لبن + 1 ملعقة دقيق + شبت وبقدونس مفري",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "كوب لبن – ملعقة كبيرة دقيق – قليل من البقدونس والشبت المفري",
+            "doc2": "كوب لبن – ملعقة دقيق – بقدونس وشبت",
+            "doc3": "كوب لبن – م ك دقيق – قليل من البقدونس والشبت المفري"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "تجهيز الخضار: تقطع الكوسة والجزر والبطاطس مكعبات صغيرة متساوية.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "التشويح: تشوح البصلة المفرية في السمن أو الزيت حتى يصفر لونها، ثم تشوح معها مكعبات الخضروات لمدة 5 دقائق لإغلاق مسامها وحفظ نكهتها.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "السلق: يضاف المرق الساخن والملح والفلفل وتترك على درجة حرارة هادئة حتى تنضج الخضروات.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "طريقة الشعرية: تحمر ملعقة شعرية في السمن جانباً ثم تسكب على الخضار الناضج وتترك على نار هادئة حوالي 5 دقائق حتى تنضج الشعرية.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "طريقة شوربة الخضار باللبن الكريمية (بديل): تجهز كالطريقة السابقة بدون إضافة الشعرية، وبعد أن تنضج تترك لتبرد ثم تضرب في الخلاط وتصفى. تمزج ملعقة الدقيق بكوب اللبن البارد جيداً ثم تضاف إلى الشوربة المصفاة مع التقليب والشبت والبقدونس المفري، وترفع على نار هادئة حتى الغليان لمدة 5 دقائق.",
+          "phase": "alternative",
+          "isAlternative": true,
+          "alternativeLabel": "شوربة الخضار الكريمية باللبن",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "variation"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 3,
+        "mergedIngredientsCount": 6,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 6,
+        "overlapPercentage": 90,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "دمج وصفتي شوربة الخضار الصافية بالشعرية وشوربة الخضار البيضاء باللبن والشبت المفروم في سجل واحد."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "شوربة الخضار / شوربة الخضار باللبن",
+          "pageNumber": 62,
+          "ingredients": [
+            "بصلة صغيرة مفرية",
+            "2 جزرة",
+            "2 بطاطس",
+            "1/2 كيلو كوسة",
+            "2 م سمن أو زيت",
+            "3 أكواب مرق",
+            "شعرية",
+            "كوب لبن ودقيق وشبت"
+          ],
+          "instructions": [
+            "تقطع الخضر مكعبات",
+            "تشوح البصلة ثم الخضر 5 دقائق",
+            "يضاف المرق والملح والفلفل",
+            "تحمر الشعرية وتسكب على الخضار",
+            "طريقة اللبن: تضرب الشوربة في الخلاط ويضاف اللبن مع الدقيق والشبت"
+          ]
+        },
+        "doc3": {
+          "title": "1- شوربة الخضار / 2- شوربة الخضار باللبن",
+          "pageNumber": 32,
+          "ingredients": [
+            "بصلة صغيرة مفرية",
+            "2 جزرة",
+            "2 بطاطس",
+            "نصف ك كوسة",
+            "2 م سمن أو زيت",
+            "3 أكواب مرق",
+            "قليل من الشعرية"
+          ],
+          "instructions": [
+            "تجهز الخضر مكعبات صغيرة",
+            "تشوح البصلة مع الخضروات 5 دقائق",
+            "يضاف المرق والملح والفلفل",
+            "تسلق حتى النضج وتضاف الشعرية أو تضرب باللبن والدقيق"
+          ]
+        }
+      }
+    },
+    {
+      "id": "soup-02",
+      "title": "شوربة العدس الأصفر والخبز المحمص",
+      "titleEn": "Yellow Lentil Soup with Croutons",
+      "chapter": "الباب الثاني: الحساء – السلطات – الخضروات – البقول",
+      "chapterNumber": 2,
+      "category": "شوربات وحساء",
+      "cookingMethod": "سلق",
+      "prepTime": "15 دقيقة",
+      "cookTime": "40 دقيقة",
+      "servings": "4-6 أفراد",
+      "masterIngredients": [
+        {
+          "id": "ss2-1",
+          "name": "عدس أصفر منقى ومغسول",
+          "standardAmount": "1 كوب عدس أصفر",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "1 كوب عدس أصفر",
+            "doc2": "1 كوب عدس أصفر",
+            "doc3": "1 كوب عدس أصفر"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss2-2",
+          "name": "خضروات عطرية (طماطم، جزر، بطاطس، كوسة، بصل، ثوم)",
+          "standardAmount": "1 طماطم + 1 جزرة + 1 بطاطس + 2 كوسة + 1 بصلة كبيرة صحيحة + 2 فص ثوم",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "ثمرة طماطم – جزرة – حبة بطاطس – 2 حبة كوسة – بصلة كبيرة صحيحة – 2 فص ثوم",
+            "doc2": "ثمرة طماطم – جزرة – حبة بطاطس – 2 حبة كوسة – بصلة كبيرة – 2 فص ثوم",
+            "doc3": "ثمرة طماطم – جزرة – حبة بطاطس – 2 كوسة – بصلة ك صحيحة – 2 فص ثوم"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss2-3",
+          "name": "ماء نقي للسلق",
+          "standardAmount": "1 لتر ماء",
+          "category": "liquid",
+          "sourceVariations": {
+            "doc1": "لتر ماء",
+            "doc2": "لتر ماء",
+            "doc3": "لتر ماء"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss2-4",
+          "name": "شعرية محمرة",
+          "standardAmount": "1 ملعقة كبيرة شعرية",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "م شعرية",
+            "doc2": "م شعرية",
+            "doc3": "م شعرية"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss2-5",
+          "name": "سمن أو زيت",
+          "standardAmount": "2 ملعقة سمن أو زيت",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "سمن أو زيت",
+            "doc2": "سمن أو زيت",
+            "doc3": "سمن أو زيت"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss2-6",
+          "name": "خبز بلدي محمص مقرمش",
+          "standardAmount": "2 رغيف بلدي مقطع مكعبات ومحمر",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "خبز بلدي قطع صغيرة محمر في الزيت",
+            "doc2": "خبز بلدي محمر",
+            "doc3": "2 خبز بلدي"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss2-7",
+          "name": "توابل (كمون، ملح، فلفل أسود)",
+          "standardAmount": "ملح وفلفل وكمون ناعم",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "ملح – فلفل – كمون",
+            "doc2": "ملح – فلفل",
+            "doc3": "ملح – فلفل"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "يغسل العدس جيداً وتجهز الخضر بتقطيعها صغيراً (الطماطم، الجزر، البطاطس، الكوسة، البصل، الثوم).",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "يشوح العدس مع الخضر في السمن أو الزيت لمدة 5 دقائق مع التقليب لاكتساب نكهة غنية.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "يضاف لتر الماء على الخليط ويترك لمدة ساعة تقريباً على درجة حرارة هادئة مع التقليب آن فآن حتى النضج التام لكافة المكونات.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "الخلط والتنعيم: بعد أن يبرد الخليط يضرب في الخلاط ثم يصفى ويعاد إلى الإناء على نار هادئة ويتبل بالملح والفلفل والكمون.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "تقلية الشعرية: تحمر ملعقة شعرية في سمن أو زيت ثم تصب على العدس وتترك على نار هادئة حتى تنضج الشعرية مع مراعاة السمك المطلوب وإمكانية تزويد ماء دافئ إن احتاج.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "التقديم: يقطع الخبز البلدي قطعاً صغيرة ويحمر في الزيت ويرفع على مناديل ورقية، ويقدم مقرمشاً بجانب شوربة العدس الساخنة مع الليمون والبصل الأخضر.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 4,
+        "mergedIngredientsCount": 7,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 7,
+        "overlapPercentage": 94,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "شوربة العدس المصرية الأصلية مطابقة في الوثائق الثلاث، تم استخلاص خضروات السلق مع تقنية طش الشعرية والخبز المحمص البلدي."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "شوربة العدس",
+          "pageNumber": 63,
+          "ingredients": [
+            "1 كوب عدس أصفر",
+            "ملح وفلفل",
+            "سمن أو زيت",
+            "2 فص ثوم",
+            "بصلة كبيرة صحيحة",
+            "ثمرة طماطم",
+            "جزرة",
+            "حبة بطاطس",
+            "2 حبة كوسة",
+            "م شعرية",
+            "لتر ماء",
+            "خبز بلدي"
+          ],
+          "instructions": [
+            "يغسل العدس وتقطع الخضر",
+            "يشوح العدس والخضر 5 دقائق",
+            "يضاف الماء ويترك ساعة للنضج",
+            "يضرب في الخلاط ويصفى",
+            "تحمر الشعرية وتصب على العدس",
+            "يقدم مع الخبز المحمر"
+          ]
+        },
+        "doc3": {
+          "title": "3- شوربة العدس",
+          "pageNumber": 33,
+          "ingredients": [
+            "1كوب عدس أصفر",
+            "ملح وفلفل",
+            "سمن أو زيت",
+            "2 فص ثوم",
+            "بصلة ك صحيحة",
+            "ثمرة طماطم",
+            "جزرة",
+            "حبة بطاطس",
+            "2 كوسة",
+            "م شعرية",
+            "لتر ماء",
+            "2 خبز بلدي"
+          ],
+          "instructions": [
+            "يغسل العدس وتجهز الخضر بتقطيعها صغيرا",
+            "يشوح العدس والخضر في السمن",
+            "يضاف الماء ساعة حتى النضج",
+            "يضرب في الخلاط ويصفى",
+            "تحمر ملعقة شعرية وتسكب على العدس",
+            "يقدم مع الخبز المحمر"
+          ]
+        }
+      }
+    },
+    {
+      "id": "salad-01",
+      "title": "سلطة الطحينة وسلطة الطحينة بالبصل",
+      "titleEn": "Tahini Salad (Classic Garlic or Pickled Onion Variations)",
+      "chapter": "الباب الثاني: الحساء – السلطات – الخضروات – البقول",
+      "chapterNumber": 2,
+      "category": "سلطات",
+      "cookingMethod": "سلطات ومشروبات",
+      "prepTime": "10 دقائق",
+      "cookTime": "بدون طهو",
+      "servings": "طبق مقبلات",
+      "masterIngredients": [
+        {
+          "id": "ss3-1",
+          "name": "طحينة سمسم خام",
+          "standardAmount": "4 ملاعق كبيرة طحينة",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "4 ملعقة كبيرة طحينة",
+            "doc2": "4 ملعقة كبيرة طحينة",
+            "doc3": "4 م ك طحينة"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss3-2",
+          "name": "خل أبيض نقي",
+          "standardAmount": "3 ملاعق كبيرة خل",
+          "category": "liquid",
+          "sourceVariations": {
+            "doc1": "3 ملعقة كبيرة خل",
+            "doc2": "3 ملعقة كبيرة خل",
+            "doc3": "3 م ك خل"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss3-3",
+          "name": "ثوم مفري ناعم",
+          "standardAmount": "3 فصوص ثوم مفري",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "3 فصوص ثوم مفري",
+            "doc2": "3 فصوص ثوم مفري",
+            "doc3": "3 فصوص ثوم مفري"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss3-4",
+          "name": "بصلة صغيرة مفرية (لسلطة الطحينة بالبصل)",
+          "standardAmount": "1 بصلة صغيرة مبشورة ومنقوعة في الخل",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "بصلة صغيرة (في سلطة الطحينة بالبصل)",
+            "doc2": "بصلة صغيرة",
+            "doc3": "بصلة صغيرة"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss3-5",
+          "name": "ماء دافئ للحل والتخفيف",
+          "standardAmount": "قليل من الماء حتى الحصول على القوام المطلوب",
+          "category": "liquid",
+          "sourceVariations": {
+            "doc1": "ماء",
+            "doc2": "ماء",
+            "doc3": "ماء"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss3-6",
+          "name": "زيت وكمون وملح وبقدونس للتزيين",
+          "standardAmount": "1 ملعقة كبيرة زيت + كمون وملح + بقدونس مفروم",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "ملح – كمون – ملعقة كبيرة زيت – بقدونس مقطع صغيرا",
+            "doc2": "ملح – كمون – زيت – بقدونس",
+            "doc3": "ملح – كمون – م ك زيت – بقدونس مقطع صغيرا"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "حل الطحينة: تخلط الطحينة مع الخل تدريجياً وتخفق جيداً حتى تتكتل ثم تفتح، مع إضافة قليل من الماء الفاتر مع الخفق السريع حتى نحصل على القوام الكريمي المطلوب ولون أبيض فاتح.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "التتبيل بالثوم: يتبل الخليط بالملح والكمون والثوم المفروم وملعقة الزيت ويقلب جيداً.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "طريقة الطحينة بالبصل (النسخة الإضافية): يتم الاستغناء عن الثوم واستبداله ببصلة؛ تدعك بصلة صغيرة بالملح والفلفل بعد بشرها وتنقع في 3 ملاعق كبيرة خل لمدة دقيقة ثم تعصر جيداً من مائها ويضاف البصل المعصور إلى سلطة الطحينة المخفوقة.",
+          "phase": "alternative",
+          "isAlternative": true,
+          "alternativeLabel": "سلطة الطحينة بالبصل المنقوع بالخل",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "variation"
+        },
+        {
+          "stepNumber": 4,
+          "text": "التقديم: تقدم وتجمل بالبقدونس المقطع صغيراً ورشة زيت زيتون أو كمون وشطة على السطح.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 2,
+        "mergedIngredientsCount": 6,
+        "totalUniqueSteps": 4,
+        "totalMasterIngredients": 6,
+        "overlapPercentage": 92,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "دمج سلطة الطحينة بالثوم وسلطة الطحينة بالبصل المتبل بالخل في سجل موحد مع تفصيل خطوات خفق الطحينة حتى تفتح."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "سلطة الطحينة / سلطة الطحينة بالبصل",
+          "pageNumber": 69,
+          "ingredients": [
+            "4 ملعقة كبيرة طحينة",
+            "3 ملعقة كبيرة خل",
+            "ملح وكمون",
+            "3 فصوص ثوم مفري",
+            "ملعقة كبيرة زيت",
+            "ماء",
+            "بصلة صغيرة"
+          ],
+          "instructions": [
+            "تخلط الطحينة مع الخل تدريجيا وتخفق جيدا مع الماء",
+            "يتبل بالملح والكمون والثوم والزيت",
+            "طريقة البصل: تدعك بصلة بالملح والفلفل وتنقع في الخل دقيقة ثم تعصر وتضاف للطحينة"
+          ]
+        },
+        "doc3": {
+          "title": "5- سلطة الطحينة / 6- سلطة الطحينة بالبصل",
+          "pageNumber": 37,
+          "ingredients": [
+            "4 م ك طحينة",
+            "3 م ك خل",
+            "ملح - كمون",
+            "3 فصوص ثوم مفري",
+            "م ك زيت",
+            "ماء",
+            "بصلة صغيرة"
+          ],
+          "instructions": [
+            "تخلط الطحينة مع الخل وتخفق جيدا مع قليل من الماء",
+            "يتبل الخليط بالملح والكمون والثوم والزيت وتجمل بالبقدونس",
+            "بالبصل: مع الاستغناء عن الثوم واستبداله بالبصل"
+          ]
+        }
+      }
+    },
+    {
+      "id": "salad-02",
+      "title": "سلطة بابا غنوج بالباذنجان المشوي",
+      "titleEn": "Baba Ghanoush (Smoked Roasted Eggplant with Tahini & Garlic)",
+      "chapter": "الباب الثاني: الحساء – السلطات – الخضروات – البقول",
+      "chapterNumber": 2,
+      "category": "سلطات",
+      "cookingMethod": "سلطات ومشروبات",
+      "prepTime": "15 دقيقة",
+      "cookTime": "30 دقيقة",
+      "servings": "4 أفراد",
+      "masterIngredients": [
+        {
+          "id": "ss4-1",
+          "name": "باذنجان رومي مشوي",
+          "standardAmount": "1/2 كيلو باذنجان رومي",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "1/2 كيلو باذنجان رومي مشوي",
+            "doc2": "1/2 كيلو باذنجان رومي",
+            "doc3": "نصف ك باذنجان رومي مشوي"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss4-2",
+          "name": "بصل مشوي في الفرن",
+          "standardAmount": "2 بصلة كبيرة مشوية",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "2 بصلة كبيرة مشوية",
+            "doc2": "2 بصلة مشوية",
+            "doc3": "2 بصلة ك مشوية"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss4-3",
+          "name": "طحينة خام",
+          "standardAmount": "1/4 كوب طحينة",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "1/4 كوب طحينة",
+            "doc2": "1/4 كوب طحينة",
+            "doc3": "ربع كوب طحينة"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss4-4",
+          "name": "ثوم مفروم ناعم",
+          "standardAmount": "4 فصوص ثوم مفري",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "4 فصوص ثوم مفري",
+            "doc2": "4 فصوص ثوم مفري",
+            "doc3": "4 فصوص ثوم مفري"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss4-5",
+          "name": "عصير ليمون أو خل أبيض",
+          "standardAmount": "4 ملاعق كبيرة خل أو عصير ليمون",
+          "category": "liquid",
+          "sourceVariations": {
+            "doc1": "4 ملعقة كبيرة خل أو عصير ليمون",
+            "doc2": "4 ملعقة كبيرة خل أو ليمون",
+            "doc3": "4 م ك خل أو عصير ليمون"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "ss4-6",
+          "name": "زيت وكمون وملح وبقدونس",
+          "standardAmount": "3 ملاعق كبيرة زيت + كمون وملح + ملعقة كبيرة بقدونس مفري",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "3 ملعقة كبيرة زيت – ملعقة كبيرة بقدونس مفري – ملح – كمون",
+            "doc2": "3 ملعقة زيت – بقدونس – ملح وكمون",
+            "doc3": "3 م ك زيت – م ك بقدونس مفري – ملح – كمون"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "شواء الباذنجان والبصل: بعد غسل الباذنجان يجفف ويوضع صحيحاً في صينية داخل فرن متوسط الحرارة ويوضع معه البصل حتى تمام النضج والطرواة واكتساب رائحة الشواء المدخنة.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "التقشير والخلط: يقشر الباذنجان المشوي والبصل ويخلطا جيداً في الكبة أو يهرسا بالشوكة للحفاظ على القوام.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "إعداد صوص الطحينة: تمزج الطحينة بالخل أو عصير الليمون ثم تخفف بقليل جداً من الماء حتى تتجانس.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "المزج والتقديم: يضاف الثوم المفري وخليط الباذنجان والبصل والزيت، وتتبل جميعها بالملح والكمون ويقلبوا جيداً. عند التقديم تجمل بالبقدونس المفري ورشة زيت زيتون.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 2,
+        "mergedIngredientsCount": 6,
+        "totalUniqueSteps": 4,
+        "totalMasterIngredients": 6,
+        "overlapPercentage": 93,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "شواء البصل مع الباذنجان الرومي في الفرن يشكل الميزة الفريدة لهذه الوصفة المصرية الأصيلة، موحدة بدقة من الوثائق الثلاث."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "سلطة بابا غنوج",
+          "pageNumber": 71,
+          "ingredients": [
+            "1/2 كيلو باذنجان رومي مشوي",
+            "2 بصلة كبيرة مشوية",
+            "1/4 كوب طحينة",
+            "4 فصوص ثوم مفري",
+            "قليل من الماء",
+            "ملعقة كبيرة بقدونس مفري",
+            "ملح وكمون",
+            "3 ملعقة كبيرة زيت",
+            "4 ملعقة كبيرة خل أو عصير ليمون"
+          ],
+          "instructions": [
+            "يوضع الباذنجان والبصل في الفرن حتى النضج",
+            "يقشر الباذنجان والبصل ويخلطا في الكبة",
+            "تمزج الطحينة بالخل وتخفف بالماء",
+            "يضاف الثوم وخليط الباذنجان والزيت وتتبل بالملح والكمون وتجمل بالبقدونس"
+          ]
+        },
+        "doc3": {
+          "title": "8- سلطة بابا غنوج",
+          "pageNumber": 39,
+          "ingredients": [
+            "نصف ك باذنجان رومي مشوي",
+            "2 بصلة ك مشوية",
+            "ربع كوب طحينة",
+            "4 فصوص ثوم مفري",
+            "م ك بقدونس",
+            "3 م ك زيت",
+            "4 م ك خل أو عصير ليمون"
+          ],
+          "instructions": [
+            "بعد غسل الباذنجان يجفف ويوضع صحيحا داخل فرن مع البصل",
+            "يقشر الباذنجان المشوي والبصل ويخلطا جيدا",
+            "تمزج الطحينة بالخل ثم تخفف بالماء",
+            "يضاف الثوم المفري والزيت والتوابل"
+          ]
+        }
+      }
+    },
+    {
+      "id": "veg-01",
+      "title": "الملوخية المصرية الخضراء بالتقلية",
+      "titleEn": "Classic Egyptian Molokhia with Garlic-Coriander Taqlia",
+      "chapter": "الباب الثاني: الحساء – السلطات – الخضروات – البقول",
+      "chapterNumber": 2,
+      "category": "خضروات",
+      "cookingMethod": "تسبيك",
+      "prepTime": "25 دقيقة",
+      "cookTime": "15 دقيقة",
+      "servings": "4-6 أفراد",
+      "masterIngredients": [
+        {
+          "id": "vl1-1",
+          "name": "أوراق ملوخية طازجة مخروطة ناعم",
+          "standardAmount": "1 كيلو ملوخية طازجة",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "1 كيلو ملوخية",
+            "doc2": "1 كيلو ملوخية",
+            "doc3": "1 ك ملوخية"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl1-2",
+          "name": "مرق طيور أو لحم أو أرانب دسم",
+          "standardAmount": "2 كوب مرق مغلي مركز",
+          "category": "liquid",
+          "sourceVariations": {
+            "doc1": "2 كوب مرق (أرانب أو دجاج أو لحم)",
+            "doc2": "2 كوب مرق",
+            "doc3": "2 كوب مرق"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl1-3",
+          "name": "ثوم مفري ناعم للشوربة والتقلية",
+          "standardAmount": "1/2 رأس ثوم مفري ناعم",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "قليل من الثوم المفري في الشوربة + 1/2 رأس ثوم مفري للتقلية",
+            "doc2": "قليل من الثوم المفري + نصف رأس ثوم",
+            "doc3": "قليل من الثوم المفري + نصف رأس ثوم مفري"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl1-4",
+          "name": "كسبرة جافة مطحونة ناعمة",
+          "standardAmount": "1 ملعقة كبيرة كسبرة ناعمة",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "ملعقة كسبرة ناعمة",
+            "doc2": "ملعقة كسبرة ناعمة",
+            "doc3": "ملعقة كسبرة ناعمة"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl1-5",
+          "name": "سمن بلدي فاخر",
+          "standardAmount": "2 ملعقة سمن",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "2 م سمن",
+            "doc2": "2 م سمن",
+            "doc3": "2 م سمن"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "تجهيز الملوخية: بعد غسل الملوخية جيداً تقطف الأوراق وتترك لتجف تماماً على قماش قطني، ثم تفرم بمفرمة الملوخية (المخرطة) حتى تنعم.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "إعداد المرق: بعد سلق الأرانب أو الدجاج أو اللحم في الماء والملح والفلفل والحبهان والبصلة الصحيحة وثمرة الطماطم، نرفع الطيور أو اللحوم عن المرق ونصفيه.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "إسقاط الملوخية: نحضر إناء لطهو الملوخية ونضع به حوالي 2 كوب مرق مغلي مع قليل من الثوم المفري النيء حتى الغليان، ثم نضيف الملوخية وتهدأ درجة الحرارة مع تقليبها بالمضرب السلك حتى تتفكك وتتجانس عرق الملوخية.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "قاعدة عدم التغطية: تترك الملوخية بدون غطاء حتى تغلي غلوتين فقط وترفع من الحرارة (تغطيتها تؤدي إلى سقوطها في القاع).",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "tip"
+        },
+        {
+          "stepNumber": 5,
+          "text": "عمل التقلية (الطشة): يسخن السمن في طاسة التيفال ثم يضاف الثوم المفري المخلوط بالكسبرة الناعمة حتى يصفر لونه الذهبي وتفوح رائحته الزكية وترفع من الحرارة فوراً.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "الطشة المميزة: نأخذ كبشة من الملوخية الساخنة وتضاف بسرعة إلى التقلية الساخنة في المقلاة ثم نسكبها على إناء الملوخية ونقلبها وتترك بدون غطاء حتى لا تسقط.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 4,
+        "mergedIngredientsCount": 5,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 5,
+        "overlapPercentage": 95,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "نص موحد للملوخية المصرية والتقلية بالثوم والكسبرة مع تأكيد ملاحظة الطهاة الحاسمة بعدم تركها تغلي أكثر من غلوتين وعدم تغطية الإناء."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "الملوخية / عمل التقلية",
+          "pageNumber": 101,
+          "ingredients": [
+            "1 كيلو ملوخية",
+            "2 كوب مرق",
+            "قليل من الثوم المفري",
+            "1/2 رأس ثوم مفري مخلوط بملعقة كسبرة ناعمة",
+            "2 م سمن"
+          ],
+          "instructions": [
+            "تقطف الأوراق وتخرط",
+            "يسخن المرق ويسقط به قليل من الثوم ثم الملوخية",
+            "تترك بدون غطاء تغلي غلوتين فقط",
+            "تسخن السمن ويضاف الثوم بالكسبرة حتى يصفر",
+            "تؤخذ كبشة من الملوخية وتضاف للتقلية وتسكب عليها"
+          ]
+        },
+        "doc3": {
+          "title": "24- الملوخية / عمل التقلية",
+          "pageNumber": 63,
+          "ingredients": [
+            "1ك ملوخية",
+            "2 كوب مرق",
+            "قليل من الثوم المفري",
+            "نصف رأس ثوم مفري بملعقة كسبرة",
+            "2 م سمن"
+          ],
+          "instructions": [
+            "غسل الملوخية وتجفيفها ثم فرمها بمفرمة الملوخية",
+            "وضع المرق مع الثوم حتى الغليان وإضافة الملوخية وتقليبها بدون غطاء",
+            "تجهيز التقلية بمجرد بدء الملوخية في الغليان"
+          ]
+        }
+      }
+    },
+    {
+      "id": "veg-02",
+      "title": "القلقاس بالسلق والخضرة والتقلية",
+      "titleEn": "Taro with Swiss Chard (Qolqas bil Salq & Coriander)",
+      "chapter": "الباب الثاني: الحساء – السلطات – الخضروات – البقول",
+      "chapterNumber": 2,
+      "category": "خضروات",
+      "cookingMethod": "تسبيك",
+      "prepTime": "30 دقيقة",
+      "cookTime": "45 دقيقة",
+      "servings": "4-6 أفراد",
+      "masterIngredients": [
+        {
+          "id": "vl2-1",
+          "name": "قلقاس بلدي مكعبات",
+          "standardAmount": "1 كيلو قلقاس",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "كيلو قلقاس",
+            "doc2": "كيلو قلقاس",
+            "doc3": "1 ك قلقاس"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl2-2",
+          "name": "سلق وخضرة طازجة",
+          "standardAmount": "2 حزمة سلق + حزمة كسبرة خضراء",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "حزمتان سلق",
+            "doc2": "حزمتان سلق",
+            "doc3": "حزمتان سلق"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl2-3",
+          "name": "لحم أو دجاج مع المرق",
+          "standardAmount": "1 كيلو لحم أو دجاجة مسلوقة + 2 كوب مرق",
+          "category": "meat_poultry",
+          "sourceVariations": {
+            "doc1": "كيلو لحم أو دجاجة – مرق",
+            "doc2": "كيلو لحم أو دجاجة",
+            "doc3": "كيلو لحم أو دجاجة – 2 كوب مرق"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl2-4",
+          "name": "ثوم مفري للتقلية",
+          "standardAmount": "1 رأس ثوم كاملة مفرومة",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "رأس ثوم",
+            "doc2": "رأس ثوم",
+            "doc3": "رأس ثوم صغير"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl2-5",
+          "name": "سمن أو زيت",
+          "standardAmount": "2 ملعقة سمن أو زيت",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "زيت أوسمن",
+            "doc2": "زيت أوسمن",
+            "doc3": "زيت أوسمن"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl2-6",
+          "name": "عصير ليمون وتوابل",
+          "standardAmount": "عصير ليمونة + ملح وفلفل وحبهان",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "عصير الليمون – ملح وفلفل وحبهان",
+            "doc2": "عصير الليمون – ملح وفلفل",
+            "doc3": "عصير ليمون – ملح وفلفل وحبهان"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "تقشير وتنظيف القلقاس: يقشر القلقاس ويقطع مكعبات متوسطة وينقع في الماء الدافئ حتى تزول المادة المخاطية، ثم يشطف بالماء الجاري وعصير الليمون ويجفف تماماً.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "سلق اللحم والقلقاس: يسلق اللحم أو الدجاج مع البصل والملح والفلفل والحبهان ثم يرفع من المرق. يضاف القلقاس لحوالي 2 كوب مرق مغلي على درجة حرارة هادئة حتى يقترب من النضج.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "تحضير السلق الأخضر: تغسل حزمتان من السلق مع نزع العروق الغليظة ثم تضرب الأوراق في الكبة.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "تحمير السلق بالثوم: نحضر طاسة بها زيت أو سمن ساخن فقط ثم نضع فيه السلق حتى يغمق لونه إلى حد ما حوالي 10 دقائق. يضاف الثوم المفري ويخلط بالسلق ويقلب حتى يصفر لون الثوم ثم يهرس جيداً بالملعقة الخشب حتى يصير ناعماً مخملياً.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "إتمام الطبخة: يضاف السلق المحمر بالثوم إلى القلقاس بعد نضجه ويترك حتى يغلي على درجة حرارة هادئة لمدة 5 دقائق ليتشرب القلقاس اللون الأخضر الزمردي والنكهة المميزة.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 3,
+        "mergedIngredientsCount": 6,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 6,
+        "overlapPercentage": 91,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "طريقة القلقاس الأخضر بالسلق والليمون تم توحيدها من النسخ الثلاث، مبرزة تقنية نزع العروق وتحمير السلق مع الثوم والهرس بالملعقة الخشبية."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "القلقاس بالسلق والخضرة",
+          "pageNumber": 89,
+          "ingredients": [
+            "كيلو قلقاس",
+            "كيلو لحم أو دجاجة",
+            "بصلة",
+            "رأس ثوم",
+            "حزمتان سلق",
+            "زيت أو سمن",
+            "ملح وفلفل وحبهان",
+            "عصير ليمون"
+          ],
+          "instructions": [
+            "يقشر القلقاس وينقع في ماء دافئ لإزالة المادة المخاطية",
+            "يسلق اللحم ثم يسلق القلقاس في المرق",
+            "تضرب أوراق السلق في الكبة بدون عروق",
+            "يحمر السلق في السمن حتى يغمق ثم يضاف الثوم ويهرس",
+            "يضاف السلق بالثوم للقلقاس 5 دقائق"
+          ]
+        },
+        "doc3": {
+          "title": "14- القلقاس بالسلق والخضرة",
+          "pageNumber": 54,
+          "ingredients": [
+            "1 ك قلقاس",
+            "موث سأر",
+            "حزمتان سلق",
+            "زيت أوسمن",
+            "ملح - فلفل - حبهان",
+            "2 كوب مرق"
+          ],
+          "instructions": [
+            "يقشر القلقاس ويشطف بالماء وعصير الليمون",
+            "يسلق القلقاس في المرق المغلي",
+            "يحمر السلق حتى يغمق لونه ثم يضاف الثوم المفري",
+            "يضاف السلق بالثوم إلى القلقاس بعد نضجه 5 دقائق"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leg-01",
+      "title": "الكشري المصري الأصيل وصلصة الخل والكمون",
+      "titleEn": "Traditional Egyptian Koshari with Tangy Garlic-Tomato Sauce",
+      "chapter": "الباب الثاني: الحساء – السلطات – الخضروات – البقول",
+      "chapterNumber": 2,
+      "category": "بقوليات",
+      "cookingMethod": "تسبيك",
+      "prepTime": "30 دقيقة",
+      "cookTime": "40 دقيقة",
+      "servings": "6 أفراد",
+      "masterIngredients": [
+        {
+          "id": "vl3-1",
+          "name": "عدس بجبة (بني)",
+          "standardAmount": "1 كوب عدس بجبة",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "كوب عدس بجبه",
+            "doc2": "كوب عدس بجبه",
+            "doc3": "كوب عدس بحبه"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl3-2",
+          "name": "أرز مصري مفلفل",
+          "standardAmount": "1 كوب أرز مصري",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "كوب أرز",
+            "doc2": "كوب أرز",
+            "doc3": "كوب أرز"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl3-3",
+          "name": "مكرونة مشكلة مسلوقة",
+          "standardAmount": "2 كوب مكرونة مسلوقة",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "2 كوب مكرونة مسلوقة",
+            "doc2": "2 كوب مكرونة مسلوقة",
+            "doc3": "2 كوب مكرونة مسلوقة"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl3-4",
+          "name": "بصل للورد المقرمش والتسبيك",
+          "standardAmount": "1 بصلة مفرية + 1-2 بصلة حلقات رفيعة للتحمير",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "بصلة مفرية – بصلة مقطعة حلقات رفيعة للتحمير",
+            "doc2": "بصلة مفرية – بصلة مقطعة حلقات",
+            "doc3": "بصلة مفرية – بصلة مقطعة حلقات رفيعة للتحمير"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl3-5",
+          "name": "طماطم وصلصة للكشري",
+          "standardAmount": "1 إلى 1.5 كوب عصير طماطم أو 2 ملعقة كبيرة صلصة",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "1/2 : 1 كوب طماطم – 2 ملعقة كبيرة خل – كوب ماء",
+            "doc2": "كوب طماطم – خل – ماء",
+            "doc3": "من نصف كوب – كوب طماطم – 2 م ك خل"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl3-6",
+          "name": "خل أبيض وزيت وتوابل",
+          "standardAmount": "2 ملعقة كبيرة خل + زيت كافي + ملح وفلفل وكمون",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "زيت كافي – ملح وفلفل – 2 ملعقة كبيرة خل",
+            "doc2": "زيت كافي – ملح – فلفل",
+            "doc3": "زيت كافي – ملح – فلفل – 2 م ك خل"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "طهو العدس والأرز: ينقى العدس ويغسل ثم يوضع في إناء به ماء مغلي بدون ملح حتى يقترب من النضج، وفي إناء آخر يسلق الأرز بماء وقليل من الملح نصف سلق. يملح العدس عند نضجه ويصفى من مائه، ثم يخلط العدس والأرز معاً في إناء واحد.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "التطعيم بالبصل المفروم: يقدح الزيت أو السمن وتحمر فيه البصلة المفرية ثم تضاف لإناء الأرز والعدس وتقلب جيداً، وتترك على درجة حرارة هادئة جداً لمدة 10 دقائق ليتشرب الأرز نكهة البصل المحمر.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "قلي بصل الورد المقرمش: يحمر البصل المقطع حلقات رفيعة في طاسة بها زيت ساخن حتى يصير لونه ذهبياً ومقرمشاً، ثم يرفع على مناديل ورقية ليظل مقرمشاً.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "عمل صلصة الكشري: يقدح الزيت ويضاف إليه عصير الطماطم أو 2 ملعقة كبيرة صلصة طماطم مخففة بالماء وتترك على درجة حرارة هادئة، ثم يضاف كوب ماء مملح حتى الغليان، ثم يرفع ويضاف إليها الخل والفلفل والكمون.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "التنسيق والتقديم: يغرف الكشري في أطباق التقديم، وتوضع فوقه المكرونة المسلوقة، ثم يجمل بحلقات البصل المحمرة المقرمشة، وتوضع الصلصة في سلطانية بجانبه.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 4,
+        "mergedIngredientsCount": 6,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 6,
+        "overlapPercentage": 93,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "دمج دقيق لمقادير الكشري المصري وصلصة الطماطم بالخل والكمون وبصل الورد المقرمش من النسخ الثلاث."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "الكشري / عمل صلصة الكشري",
+          "pageNumber": 116,
+          "ingredients": [
+            "كوب عدس بجبه",
+            "كوب أرز",
+            "2 كوب مكرونة مسلوقة",
+            "ملح وفلفل",
+            "بصلة مفرية",
+            "بصلة حلقات للتحمير",
+            "زيت كافي",
+            "طماطم وخل للصلصة"
+          ],
+          "instructions": [
+            "يسلق العدس بدون ملح ويسلق الأرز نصف سلق",
+            "يخلط العدس والأرز في إناء واحد",
+            "تحمر بصلة مفرية وتضاف للإناء 10 دقائق هادئة",
+            "يحمر بصل الحلقات ويوضع على مناديل",
+            "عمل الصلصة بالطماطم والخل والماء المملح",
+            "يغرف الكشري وفوقه المكرونة وحلقات البصل والصلصة في سلطانية"
+          ]
+        },
+        "doc3": {
+          "title": "3- الكشري / صلصة الكشري تعمل كالآتي",
+          "pageNumber": 77,
+          "ingredients": [
+            "كوب عدس بحبه",
+            "كوب أرز",
+            "2 كوب مكرونة مسلوقة",
+            "بصلة مفرية وبصلة حلقات",
+            "زيت كافي",
+            "نصف كوب طماطم - 2 م ك خل"
+          ],
+          "instructions": [
+            "ينقي العدس ويغسل ويسلق",
+            "يسلق الأرز ويخلط مع العدس",
+            "يقدح الزيت ويحمر البصل المفروم ويضاف للكشري",
+            "يحمر البصل الحلقات",
+            "يقدح الزيت للصلصة ويضاف الخل والملح"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leg-02",
+      "title": "الطعمية المصرية الأصلية (الفلافل)",
+      "titleEn": "Authentic Egyptian Taameya (Fava Bean Falafel with Sesame)",
+      "chapter": "الباب الثاني: الحساء – السلطات – الخضروات – البقول",
+      "chapterNumber": 2,
+      "category": "بقوليات",
+      "cookingMethod": "تحمير",
+      "prepTime": "12 ساعة نقع + 20 دقيقة",
+      "cookTime": "15 دقيقة",
+      "servings": "6-8 أفراد",
+      "masterIngredients": [
+        {
+          "id": "vl4-1",
+          "name": "فول مدشوش منقوع ومصفى",
+          "standardAmount": "1 كوب فول مدشوش",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "1 كوب فول مدشوش",
+            "doc2": "1 كوب فول مدشوش",
+            "doc3": "1 كوب فول مدشوش"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl4-2",
+          "name": "ثوم مقشر",
+          "standardAmount": "1/4 إلى 1/3 رأس ثوم",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "1/4 : 1/3 رأس ثوم",
+            "doc2": "1/4 : 1/3 رأس ثوم",
+            "doc3": "من ربع – ثلث رأس ثوم"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl4-3",
+          "name": "بصل متوسط وبصل أخضر",
+          "standardAmount": "2 بصلة متوسطة + عود بصل أخضر",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "2 بصلتان متوسطتان – بصل أخضر",
+            "doc2": "2 بصلتان – بصل أخضر",
+            "doc3": "2 بصلتان متوسطتان – بصل أخضر"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl4-4",
+          "name": "خضرة طازجة (بقدونس وشبت وكسبرة خضراء)",
+          "standardAmount": "بقدونس وشبت وكسبرة خضراء",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "بقدونس وشبت – كسبرة",
+            "doc2": "بقدونس وشبت – كسبرة",
+            "doc3": "بقدونس وشبت – كسبرة"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl4-5",
+          "name": "سمسم أبيض للتزيين",
+          "standardAmount": "سمسم للتغطية والرش على السطح",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "سمسم",
+            "doc2": "سمسم",
+            "doc3": "سمسم"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl4-6",
+          "name": "بيكربونات الصوديوم (كربوناتو)",
+          "standardAmount": "ذرة بيكربونات الصوديوم",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "ذرة بيكربونات الصوديوم",
+            "doc2": "ذرة بيكربونات الصوديوم",
+            "doc3": "ذرة بيكربونات الصوديوم"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl4-7",
+          "name": "توابل (كمون، كسبرة جافة، ملح)",
+          "standardAmount": "كمون وكسبرة وملح",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "ملح – كمون – كسبرة",
+            "doc2": "ملح – كمون – كسبرة",
+            "doc3": "ملح – كمون – كسبرة"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "vl4-8",
+          "name": "زيت غزير للقلي",
+          "standardAmount": "زيت كافي للقلي",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "زيت كاف للقلي",
+            "doc2": "زيت كاف للقلي",
+            "doc3": "زيت كاف للقلي"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "نقع الفول: يغسل الفول المدشوش وينقع في الماء لمدة 12 ساعة ثم يصفى تماماً.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "تجهيز الخضار: تغسل الخضر (البقدونس والشبت والكسبرة والبصل الأخضر) ويقشر البصل والثوم وتقطع جميعها قطعاً غليظة.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "الفرم المزدوج في الكبة: تخلط جميع المقادير وتفرم في الكبة مرتين للحصول على عجينة ناعمة وخفيفة القوام.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "التخمير والهشاشة: تضاف إليها التوابل (الكمون والكسبرة والملح) ويضاف إليها ذرة بيكربونات الصوديوم وتترك لمدة نصف ساعة لتختمر وتصبح هشة.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "التشكيل والقلي: تقطع الطعمية قطعاً متساوية وتبسط بالأصابع ويرش سطحها بالسمسم الأبيض، ثم تقلى الكمية المراد تناولها في الزيت الساخن حتى تطفو وتتحمر بلون ذهبي مقرمش.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "طريقة التفريز والحفظ: أما باقي العجينة فيمكن أن توضع في أكياس محكمة بالفريزر مجمدة حتى استعمالها مرة أخرى دون إضافة الكربوناتو إلا قبل القلي مباشرة.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "tip"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 3,
+        "mergedIngredientsCount": 8,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 8,
+        "overlapPercentage": 94,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "وصفة الطعمية المصرية الأصيلة متطابقة في الوثائق الثلاث، مع تفصيل خطوات الفرم مرتين في الكبة وسر التخمير بالكربوناتو والتفريز."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "الطعمية",
+          "pageNumber": 118,
+          "ingredients": [
+            "1 كوب فول مدشوش",
+            "1/4 : 1/3 رأس ثوم",
+            "سمسم",
+            "2 بصلتان متوسطتان",
+            "ملح وكمون وكسبرة",
+            "ذرة بيكربونات الصوديوم",
+            "بقدونس وشبت وبصل أخضر",
+            "زيت كاف للقلي"
+          ],
+          "instructions": [
+            "يغسل الفول وينقع 12 ساعة",
+            "تقطع الخضر والبصل والثوم",
+            "تفرم المقادير في الكبة مرتين",
+            "تضاف التوابل والبيكربونات وتترك نصف ساعة لتختمر",
+            "تشكل ويرش سطحها بالسمسم وتقلى في الزيت",
+            "باقي العجينة يحفظ مجمداً بالفريزر"
+          ]
+        },
+        "doc3": {
+          "title": "5- الطعمية",
+          "pageNumber": 79,
+          "ingredients": [
+            "1 كوب فول مدشوش",
+            "من ربع - ثلث رأس ثوم",
+            "سمسم",
+            "2 بصلتان متوسطتان",
+            "ملح - كمون - كسبرة",
+            "ذرة بيكربونات الصوديوم",
+            "بقدونس وشبت - بصل أخضر",
+            "زيت كاف للقلي"
+          ],
+          "instructions": [
+            "يغسل الفول وينقع 12 ساعة ثم يصفى",
+            "تفرم جميع المقادير في الكبة مرتين",
+            "يضاف البيكربونات وتترك نصف ساعة لتختمر",
+            "تقطع متساوية ويرش بالسمسم وتقلى في الزيت",
+            "باقي العجينة توضع في الفريزر مجمدة"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pasta-01",
+      "title": "المكرونة بالباشاميل والعصاج",
+      "titleEn": "Classic Baked Macaroni Béchamel with Minced Meat Filling",
+      "chapter": "الباب الثالث: النشويات – المحشوات – المعجنات",
+      "chapterNumber": 3,
+      "category": "نشويات",
+      "cookingMethod": "فرن",
+      "prepTime": "25 دقيقة",
+      "cookTime": "40 دقيقة",
+      "servings": "6-8 أفراد",
+      "masterIngredients": [
+        {
+          "id": "pb1-1",
+          "name": "مكرونة فرن (قلم / بيني)",
+          "standardAmount": "1/2 كيلو مكرونة فرن",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "1/2 كيلو مكرونة فرن",
+            "doc2": "1/2 كيلو مكرونة فرن",
+            "doc3": "نصف ك مكرونة فرن"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "pb1-2",
+          "name": "عصاج لحم مفروم أو بصل متبل",
+          "standardAmount": "1/4 إلى 1/2 كيلو عصاج لحم مفروم بالبصل",
+          "category": "meat_poultry",
+          "sourceVariations": {
+            "doc1": "بصلة كبيرة أو عصاج (انظري باب اللحوم)",
+            "doc2": "بصلة كبيرة أو عصاج",
+            "doc3": "بصلة ك أو عصاج"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "pb1-3",
+          "name": "دقيق أبيض للبشاميل",
+          "standardAmount": "3 ملاعق كبيرة دقيق",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "3 ملعقة كبيرة دقيق",
+            "doc2": "3 ملعقة كبيرة دقيق",
+            "doc3": "3 م ك دقيق"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "pb1-4",
+          "name": "حليب (لبن) مغلي دافئ",
+          "standardAmount": "3 أكواب لبن (أو حسب الحاجة)",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "3 أكواب لبن",
+            "doc2": "3 أكواب لبن",
+            "doc3": "3 أكواب لبن"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "pb1-5",
+          "name": "بيض طازج للبشاميل والوجه",
+          "standardAmount": "4 بيضات (أو 2 بيضة مخفوقة)",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "4 بيضات – سمن أو زيت",
+            "doc2": "4 بيضات",
+            "doc3": "4 بيضات"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "pb1-6",
+          "name": "سمن بلدي وزبدة للوجه",
+          "standardAmount": "2 ملعقة كبيرة سمن + قطعة زبد على الوجه",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "سمن أو زيت – قطعة زبد على الوجه",
+            "doc2": "سمن أو زيت – قطعة زبد",
+            "doc3": "سمن أو زيت – قطعة زبد"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "pb1-7",
+          "name": "توابل (ملح وفلفل أسود وجوزة الطيب)",
+          "standardAmount": "ملح وفلفل أسود",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "ملح – فلفل",
+            "doc2": "ملح – فلفل",
+            "doc3": "ملح – فلفل"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "عمل الباشاميل الحريري: يسيح السمن أو الزيت ويضاف له الدقيق مع التحريك الجيد بالملعقة الخشب على درجة حرارة هادئة حتى يصفر لونه دون أن يحترق. يرفع الإناء ويضاف إليه اللبن المغلي تدريجياً مع التقليب السريع بالمضرب السلك حتى لا يتكتل.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "تتبيل وإنهاء الباشاميل: يعاد الإناء على درجة حرارة متوسطة مع استمرار التقليب ويتبل بالملح والفلفل حتى يصل إلى السمك المطلوب (سميكاً نوعاً ما). بعد أن يبرد الخليط يضاف إليه البيض المخفوق بالفلفل ويقلب جيداً.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "سلق المكرونة وتطعيمها: بعد سلق مكرونة الفرن تصفى، ويقدح السمن أو الزيت وتحمر فيه البصلة ثم تخلط بالمكرونة المسلوقة وتقلب جيداً وتتبل بالملح والفلفل (أو استبدال البصل بكمية من العصاج).",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "دمج المكرونة بالصلصة: تسكب 1/3 كمية الباشاميل على المكرونة المسلوقة وتخلط معها جيداً لتتماسك القطع لاحقاً.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "رص الصينية: تدهن الصينية دهناً خفيفاً وتوضع بها نصف المكرونة، ثم تفرد طبقة العصاج المفروم في المنتصف، ثم توضع باقي المكرونة، ويسكب فوقها باقي الباشاميل المخفوق معه البيض.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "الخبز والتحمير: توضع قطعة زبد على الوجه وتدخل فرن متوسط الحرارة حتى يحمر الوجه وتكتسب لوناً ذهبياً غنياً.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 5,
+        "mergedIngredientsCount": 7,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 7,
+        "overlapPercentage": 96,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "وصفة المكرونة بالباشاميل الكلاسيكية متطابقة تماماً بين النسخ الثلاث؛ تم توحيد مقادير الدقيق واللبن والبيض وتقنية خلط ثلث الباشاميل مع المكرونة قبل الرص."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "المكرونة بالباشامل",
+          "pageNumber": 138,
+          "ingredients": [
+            "1/2 كيلو مكرونة فرن",
+            "3 ملعقة كبيرة دقيق",
+            "3 أكواب لبن",
+            "ملح وفلفل",
+            "4 بيضات",
+            "سمن أو زيت",
+            "بصلة كبيرة أو عصاج"
+          ],
+          "instructions": [
+            "يسيح السمن ويضاف الدقيق ثم اللبن المغلي مع الضرب السريع",
+            "يعاد على النار حتى يسمك ثم يضاف البيض المخفوق بعد التبريد",
+            "تسلق المكرونة وتخلط بثلث الباشاميل",
+            "تدهن الصينية وتوضع المكرونة والعصاج ثم باقي الباشاميل والزبد"
+          ]
+        },
+        "doc3": {
+          "title": "23- المكرونة بالباشامل",
+          "pageNumber": 115,
+          "ingredients": [
+            "نصف ك مكرونة فرن",
+            "3 م ك دقيق",
+            "3 أكواب لبن",
+            "ملح - فلفل",
+            "4 بيضات",
+            "سمن أو زيت",
+            "بصلة ك أو عصاج"
+          ],
+          "instructions": [
+            "يسيح السمن ويضاف له الدقيق",
+            "يرفع ويضاف اللبن المغلي مع التقليب السريع",
+            "يسكب 1/3 كمية الباشاميل على المكرونة",
+            "تدهن الصينية وتوضع بها المكرونة ثم باقي الباشاميل مع بيض مخفوق"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pasta-02",
+      "title": "الفتة المصرية بالخل والثوم والصلصة (الثريد)",
+      "titleEn": "Egyptian Fatta with Garlic-Vinegar Sauce & Crispy Flatbread",
+      "chapter": "الباب الثالث: النشويات – المحشوات – المعجنات",
+      "chapterNumber": 3,
+      "category": "نشويات",
+      "cookingMethod": "تسبيك",
+      "prepTime": "20 دقيقة",
+      "cookTime": "30 دقيقة",
+      "servings": "4-6 أفراد",
+      "masterIngredients": [
+        {
+          "id": "pb2-1",
+          "name": "خبز بلدي مقطع مكعبات ومحمص",
+          "standardAmount": "2 رغيف بلدي",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "2 رغيف بلدي",
+            "doc2": "2 رغيف بلدي",
+            "doc3": "2 رغيف بلدي (أو كيس خبز شامي لفتة الزبادي)"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "pb2-2",
+          "name": "أرز أبيض مفلفل",
+          "standardAmount": "1 كوب أرز مصري مطهو أبيض",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "كوب أرز",
+            "doc2": "كوب أرز",
+            "doc3": "كوب أرز"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "pb2-3",
+          "name": "مرق لحم أو ضأن ساخن",
+          "standardAmount": "2 كوب مرق لحم غني",
+          "category": "liquid",
+          "sourceVariations": {
+            "doc1": "2 كوب مرق",
+            "doc2": "2 كوب مرق",
+            "doc3": "2 كوب مرق"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "pb2-4",
+          "name": "ثوم مفري للدقة",
+          "standardAmount": "1/2 رأس ثوم مفري",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "1/2 رأس ثوم مفري",
+            "doc2": "1/2 رأس ثوم مفري",
+            "doc3": "نصف رأس ثوم مفري"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "pb2-5",
+          "name": "صلصة طماطم معصورة",
+          "standardAmount": "2 ملعقة كبيرة صلصة طماطم",
+          "category": "vegetable",
+          "sourceVariations": {
+            "doc1": "2 م صلصة طماطم",
+            "doc2": "2 م صلصة طماطم",
+            "doc3": "2 م صلصة طماطم"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "pb2-6",
+          "name": "خل أبيض نقي",
+          "standardAmount": "2 ملعقة كبيرة خل",
+          "category": "liquid",
+          "sourceVariations": {
+            "doc1": "2 م خل",
+            "doc2": "2 م خل",
+            "doc3": "2 م خل"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "pb2-7",
+          "name": "سمن بلدي وزيت",
+          "standardAmount": "2 ملعقة سمن أو زيت",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "2 م سمن أو زيت",
+            "doc2": "2 م سمن أو زيت",
+            "doc3": "2 م سمن أو زيت"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "pb2-8",
+          "name": "زبادي وثوم ولوز محمر (لفتة الزبادي)",
+          "standardAmount": "4 أكواب زبادي + فص ثوم + لوز محمر",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "4 أكواب زبادي – ملعقة صغيرة ثوم مفري – لوز محمر (في فتة الزبادي)",
+            "doc2": "4 أكواب زبادي – ثوم ولوز",
+            "doc3": "4 أكواب زبادي – م ص ثوم مفري – لوز محمر"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "طهو الأرز الأبيض: يطهى الأرز الأبيض المفلفل بالطريقة المعتادة مع قليل من السمن والملح والماء حتى ينضج.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "تحميص الخبز: يقطع الخبز البلدي قطعاً صغيرة ويحمر في السمن أو الزيت أو يدخل في الفرن حتى يقرمش ويأخذ لوناً ذهبياً.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "طشة الخل والثوم والصلصة: يسخن الزيت أو السمن ويحمر فيه الثوم المفري حتى يصفر لونه، ثم يضاف إليه الخل ويقلب جيداً في درجة حرارة متوسطة، ثم نضيف الصلصة المخففة بقليل من المرق والملح والفلفل، ونأخذ جزءاً من هذه الصلصة جانباً لتجميل الوجه.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "تشريب الخبز: نضيف المرق المملح الساخن إلى بقية الصلصة حتى الغليان، ثم نسكبها على الخبز المحمر حتى يتشرب تماماً ويطرى مع بقاء قرمشة خفيفة.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "الرص الهندسي للفتة: نحضر طبق كبير للتقديم ونضع 1/2 كمية الخبز وفوقه 1/2 كمية الأرز ثم باقي الخبز وباقي الأرز، ونضع الصلصة على شكل خطوط لتجميل وجه الأرز، ويرص اللحم المسلوق المحمر فوقها (ترتيب: خبز – أرز – خبز – أرز – صلصة).",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "طريقة فتة الزبادي باللحم (النسخة الإضافية): يقطع اللحم مكعبات ويسلق مع الملح والفلفل والحبهان. يقطع الخبز الشامي مربعات ويحمر في الزيت. يخلط الزبادي بالثوم المفري. في طبق التقديم نضع الخبز المحمر ثم اللحم ويسكب المرق الساخن ثم الأرز الأبيض المفلفل ويصب الزبادي بالثوم فوق الأرز ويجمل باللوز المحمر بالسمن.",
+          "phase": "alternative",
+          "isAlternative": true,
+          "alternativeLabel": "فتة الزبادي باللحم واللوز المحمر",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "variation"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 4,
+        "mergedIngredientsCount": 8,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 8,
+        "overlapPercentage": 92,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "دمج وصفتي الفتة المصرية بالصلصة والخل والثوم وفتة الزبادي الشامية باللوز المحمر في سجل متكامل مع خطوات الرص الدقيقة."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "الفتة (الثريد) / الفتة بالزبادي",
+          "pageNumber": 125,
+          "ingredients": [
+            "2 رغيف بلدي",
+            "كوب أرز",
+            "2 كوب مرق",
+            "ملح وفلفل",
+            "1/2 رأس ثوم مفري",
+            "2 م صلصة طماطم",
+            "2 م خل",
+            "2 م سمن أو زيت",
+            "كيس خبز شامي",
+            "4 أكواب زبادي",
+            "لوز"
+          ],
+          "instructions": [
+            "يطهى الأرز الأبيض",
+            "يقطع الخبز ويحمر في السمن",
+            "يحمر الثوم ويضاف الخل والصلصة والمرق",
+            "يسكب المرق على الخبز",
+            "رص الطبقات: خبز - أرز - خبز - أرز - صلصة",
+            "فتة الزبادي بخلط الزبادي بالثوم وتزيين اللوز"
+          ]
+        },
+        "doc3": {
+          "title": "2- الفتة ( الثريد ) / 3- الفتة بالزبادي",
+          "pageNumber": 99,
+          "ingredients": [
+            "2 رغيف بلدي",
+            "كوب أرز",
+            "2 كوب مرق",
+            "نصف رأس ثوم مفري",
+            "2 م صلصة طماطم",
+            "2 م خل",
+            "2 م سمن أو زيت"
+          ],
+          "instructions": [
+            "يطهى الأرز الأبيض",
+            "يقطع الخبز قطعاً صغيرة ويحمر في الزيت أو الفرن",
+            "يحمر الثوم ويضاف الخل والصلصة",
+            "يغرف طبقات متناوبة مع الصلصة واللحم"
+          ]
+        }
+      }
+    },
+    {
+      "id": "bake-01",
+      "title": "الجلاش بالبسطرمة والجبن الرومي",
+      "titleEn": "Baked Goulash Pastry with Pastirma & Melted Cheese",
+      "chapter": "الباب الثالث: النشويات – المحشوات – المعجنات",
+      "chapterNumber": 3,
+      "category": "معجنات",
+      "cookingMethod": "فرن",
+      "prepTime": "20 دقيقة",
+      "cookTime": "30 دقيقة",
+      "servings": "6 أفراد",
+      "masterIngredients": [
+        {
+          "id": "pb3-1",
+          "name": "رقائق جلاش طازجة",
+          "standardAmount": "1/2 كيلو لفة جلاش",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "1/2 كيلو جلاش",
+            "doc2": "1/2 كيلو جلاش",
+            "doc3": "سلاج ك 1/2 (جلاش)"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "pb3-2",
+          "name": "بسطرمة بلدي منقاة من الثوم الخارجي",
+          "standardAmount": "1/4 كيلو بسطرمة شرائح",
+          "category": "meat_poultry",
+          "sourceVariations": {
+            "doc1": "1/4 كيلو بسطرمة",
+            "doc2": "1/4 كيلو بسطرمة",
+            "doc3": "1/4 ك بسطرمة"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "pb3-3",
+          "name": "حليب (لبن) وقشطة للتشريب والوجه",
+          "standardAmount": "1 كوب لبن كبير + قطعة قشطة للوجه",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "1 كوب لبن كبير – قشدة للوجه",
+            "doc2": "1 كوب لبن كبير – قشدة",
+            "doc3": "1 كوب لبن كبير – قشدة للوجه"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "pb3-4",
+          "name": "سمن سايح وزيت",
+          "standardAmount": "1/2 كوب زيت أو سمن سايح",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "1/2 كوب زيت أو سمن – زيت",
+            "doc2": "1/2 كوب زيت أو سمن",
+            "doc3": "1/2 كوب زيت أو سمن سايح"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "رص الطبقة الأولى بدون دهن الرقائق: تدهن صينية خفيفاً بالزيت وتوضع فيها 1/2 كمية الجلاش مرة واحدة بدون دهن طبقات الجلاش الفردية (سر التوريق السريع).",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "tip"
+        },
+        {
+          "stepNumber": 2,
+          "text": "وضع الحشوة: ترص البسطرمة بانتظام فوقها ثم تغطى بباقي كمية الجلاش دون تقطيع (يمكن استعمال أي حشوة أخرى كالعصاج أو الجبن).",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "صب السمن الساخن: يسخن الزيت أو السمن السايح تسخيناً جيداً جداً دون أن يقدح، ويصب فوق الجلاش مع مراعاة عدم تقطيع الجلاش ليتغلغل السمن بين الطبقات.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "الخبز المبدئي: يدخل فرن متوسط الحرارة حتى يصبح لونها ذهبياً.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "التشريب باللبن والقشطة: يصب فوقها كوب اللبن الكبير ويضاف إليه قطعة قشطة على الوجه، وتظل في الفرن حتى تتشرب السائل ويحمر الوجه.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "التهدئة والقلب: بعد خروجها مباشرة تغطى حتى تظل طرية، وبعد أن تبرد تقلب في طبق على الوجه الآخر وتقدم مربعات مقرمشة.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "tip"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 3,
+        "mergedIngredientsCount": 4,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 4,
+        "overlapPercentage": 94,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "طريقة مبتكرة للجلاش بدون دهن راق بـ راق، موحدة بين الوثائق الثلاث مع تقنية صب السمن الدافئ ثم تشريبه بالحليب والقشطة."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "الجلاش بالبسطرمة",
+          "pageNumber": 155,
+          "ingredients": [
+            "1/2 كيلو جلاش",
+            "1/2 كوب زيت أو سمن",
+            "1/4 كيلو بسطرمة",
+            "1 كوب لبن كبير",
+            "قشدة للوجه"
+          ],
+          "instructions": [
+            "تدهن صينية ويوضع نصف الجلاش بدون دهن طبقات",
+            "ترص البسطرمة وتغطى بباقي الجلاش",
+            "يسخن السمن ويصب فوق الجلاش",
+            "يدخل فرن متوسط حتى يصير ذهبيا",
+            "يصب كوب اللبن والقشطة حتى يحمر",
+            "تغطى وتقلب على الوجه الآخر"
+          ]
+        },
+        "doc3": {
+          "title": "7- الجلاش بالبسطرمة",
+          "pageNumber": 134,
+          "ingredients": [
+            "1/2 ك جلاش",
+            "1/2 كوب زيت أو سمن",
+            "1/4 ك بسطرمة",
+            "1 كوب لبن كبير - قشدة للوجه"
+          ],
+          "instructions": [
+            "تدهن صينية خفيفا بالزيت وتوضع نصف كمية الجلاش بدون دهن الطبقات",
+            "ترص البسطرمة بانتظام",
+            "يسخن الزيت أو السمن السايح تسخينا جيدا دون أن يقدح",
+            "يصب فوق الجلاش",
+            "يصب كوب اللبن الكبير وتظل في الفرن حتى تتشرب"
+          ]
+        }
+      }
+    },
+    {
+      "id": "des-01",
+      "title": "البسبوسة المصرية المرملة وعمل الشربات",
+      "titleEn": "Egyptian Semolina Basbousa with Aromatic Syrup",
+      "chapter": "الباب الخامس: الحلويات الشرقية",
+      "chapterNumber": 5,
+      "category": "حلويات شرقية",
+      "cookingMethod": "فرن",
+      "prepTime": "20 دقيقة + ساعة راحة",
+      "cookTime": "30 دقيقة",
+      "servings": "8-10 أفراد",
+      "masterIngredients": [
+        {
+          "id": "db1-1",
+          "name": "دقيق سميد خشن / وسط (دقيق بسبوسة)",
+          "standardAmount": "2 كوب دقيق سميد",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "2 كوب دقيق سميد",
+            "doc2": "2 كوب دقيق سميد",
+            "doc3": "2 كوب دقيق سميد"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "db1-2",
+          "name": "سمن بلدي دافئ",
+          "standardAmount": "3/4 كوب سمن بلدي",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "3/4 كوب سمن",
+            "doc2": "3/4 كوب سمن",
+            "doc3": "3/4 كوب سمن"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "db1-3",
+          "name": "سكر أبيض ناعم",
+          "standardAmount": "1 كوب سكر (للبسبوسة) + 1.5 كوب (للشربات)",
+          "category": "sweet_fruit",
+          "sourceVariations": {
+            "doc1": "1 كوب سكر للبسبوسة + 1 1/2 كوب سكر للشربات",
+            "doc2": "1 كوب سكر + 1.5 كوب سكر",
+            "doc3": "1 كوب سكر + 1 1/2 كوب سكر"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "db1-4",
+          "name": "زبادي وقشطة بلدي",
+          "standardAmount": "1 كوب زبادي كبير + 2 ملعقة قشطة",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "1 كوب زبادي كبير – قشدة",
+            "doc2": "1 كوب زبادي – قشدة",
+            "doc3": "1 كوب زبادي ك – قشدة"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "db1-5",
+          "name": "جوز هند ناعم",
+          "standardAmount": "1 كوب جوز هند",
+          "category": "sweet_fruit",
+          "sourceVariations": {
+            "doc1": "1 كوب جوز هند",
+            "doc2": "1 كوب جوز هند",
+            "doc3": "1 كوب جوز هند"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "db1-6",
+          "name": "بيكنج باودر وفانيليا",
+          "standardAmount": "1 ملعقة كبيرة بيكنج باودر + رشة فانيليا",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "ملعقة كبيرة بيكينج باودر – رشة فانيليا",
+            "doc2": "ملعقة كبيرة بيكينج باودر",
+            "doc3": "م ك ب ب – رشة فانيليا"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "db1-7",
+          "name": "ماء وعصير ليمون للشربات",
+          "standardAmount": "3/4 كوب ماء + نصف ملعقة صغيرة عصير ليمون + ملعقة سمن",
+          "category": "liquid",
+          "sourceVariations": {
+            "doc1": "3/4 كوب ماء – ملعقة صغيرة عصير ليمون – ملعقة سمن",
+            "doc2": "3/4 كوب ماء – ليمون",
+            "doc3": "3/4 كوب ماء – م ص عصير ليمون"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "بث السمن والسكر (سر الترمل): يدعك السمن بملعقة خشب أو باليد ثم يضاف السكر ويدعك جيداً حتى يصير الخليط هشاً وكريمياً.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "الخلط الخفيف: يضاف الزبادي ويقلب ثم دقيق السميد والبيكنج باودر والقشطة ويقلبوا معاً بخفة شديدة (دون عجن مفرط) مع إضافة رشة الفانيليا وجوز الهند.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "الراحة والتحديد: يوضع الخليط في صينية مدهونة بالسمن وتترك مدة ساعة أو أكثر لترتاح حبات السميد وتتشرب الدهون، ثم تحدد العجينة بالسكين على شكل مربعات بدون تقطيع كامل.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "tip"
+        },
+        {
+          "stepNumber": 4,
+          "text": "الخبز: تدخل فرن متوسط الحرارة حتى يحمر الوجه والأطراف وتكتسب لوناً ذهبياً متساوياً.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "عمل الشربات المعقود الخفيف: يذاب 1.5 كوب سكر في 3/4 كوب ماء مغلي على درجة حرارة هادئة ثم يضاف عصير الليمون، وتقوى درجة الحرارة ويترك السائل حتى يعقد قليلاً ويصير لزجاً نوعاً ما، ونضع في الشربات ملعقة سمن وفانيليا ثم يرفع عن البوتاجاز.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "التشريب الساخن: تسقى البسبوسة الساخنة فور خروجها بالشربات المعتدل أو البارد وتغطى فوراً بغطاء الصينية حتى تظل طرية ومرملة.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 4,
+        "mergedIngredientsCount": 7,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 7,
+        "overlapPercentage": 95,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "طريقة البسبوسة المصرية التقليدية مطابقة بين الوثائق الثلاث في ترك العجينة ترتاح ساعة وفي خفق السمن بالسكر للحصول على القوام المرمل والشربات المضاف له ملعقة سمن بلدي."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "البسبوسة / عمل الشربات",
+          "pageNumber": 224,
+          "ingredients": [
+            "2 كوب دقيق سميد",
+            "ملعقة كبيرة بيكينج باودر",
+            "3/4 كوب سمن",
+            "1 كوب زبادي كبير",
+            "رشة فانيليا",
+            "1 كوب جوز هند",
+            "1 كوب سكر",
+            "قشدة",
+            "شربات: 1.5 كوب سكر، 3/4 كوب ماء، ليمون، فانيليا وسمن"
+          ],
+          "instructions": [
+            "يدعك السمن باليد ثم يضاف السكر حتى يصير هشا",
+            "يضاف الزبادي والسميد والبيكنج باودر والقشدة بخفة",
+            "تترك في صينية مدهونة ساعة أو أكثر",
+            "تحدد بالسكين وتدخل فرن متوسط",
+            "تسقى بالشربات فور خروجها وتغطى"
+          ]
+        },
+        "doc3": {
+          "title": "البسبوسة / عمل الشربات",
+          "pageNumber": 195,
+          "ingredients": [
+            "2 كوب دقيق سميد",
+            "م ك ب ب",
+            "3/4 كوب سمن",
+            "1 كوب زبادي ك",
+            "رشة فانيليا",
+            "1 كوب جوز هند",
+            "1 كوب سكر",
+            "قشدة"
+          ],
+          "instructions": [
+            "يدعك السمن بملعقة خشب أو باليد ثم يضاف السكر",
+            "يضاف الزبادي والسميد والباودر والقشطة بخفة",
+            "يوضع الخليط في صينية مدهونة وتترك ساعة",
+            "تدخل فرن متوسط الحرارة وتسقى بالشربات"
+          ]
+        }
+      }
+    },
+    {
+      "id": "des-02",
+      "title": "لقمة القاضي (الزلابية المقرمشة) بعرق الحلاوة",
+      "titleEn": "Luqmat Al-Qadi (Crispy Egyptian Dumplings with Soapwort/Rose Water)",
+      "chapter": "الباب الخامس: الحلويات الشرقية",
+      "chapterNumber": 5,
+      "category": "حلويات شرقية",
+      "cookingMethod": "تحمير",
+      "prepTime": "ساعتان تخمير",
+      "cookTime": "20 دقيقة",
+      "servings": "6-8 أفراد",
+      "masterIngredients": [
+        {
+          "id": "db2-1",
+          "name": "دقيق أبيض فاخر",
+          "standardAmount": "1/2 كيلو دقيق (حوالي 3.5 كوب)",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "1/2 كيلو دقيق",
+            "doc2": "1/2 كيلو دقيق",
+            "doc3": "نصف ك دقيق"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "db2-2",
+          "name": "خميرة بيرة طبيعية",
+          "standardAmount": "قطعة خميرة بيرة بحجم عين الجمل",
+          "category": "grain_starch",
+          "sourceVariations": {
+            "doc1": "قطعة خميرة بيرة في حجم عين الجمل",
+            "doc2": "قطعة خميرة بيرة",
+            "doc3": "قطعة خميرة بيرة بحجم عين الجمل"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "db2-3",
+          "name": "عرق حلاوة مدقوق (سر القرمشة الشرقية التراثية)",
+          "standardAmount": "1 ملعقة كبيرة عرق حلاوة مدقوق مذاب في كوب ماء بارد",
+          "category": "spice_seasoning",
+          "sourceVariations": {
+            "doc1": "ملعقة كبيرة من عرق الحلاوة المدقوقة",
+            "doc2": "ملعقة كبيرة عرق الحلاوة",
+            "doc3": "ملعقة ك من عرق الحلاوة المدقوقة"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "db2-4",
+          "name": "سكر أبيض للخميرة",
+          "standardAmount": "1 ملعقة صغيرة سكر",
+          "category": "sweet_fruit",
+          "sourceVariations": {
+            "doc1": "1 ملعقة صغيرة سكر",
+            "doc2": "1 ملعقة صغيرة سكر",
+            "doc3": "1 م ص سكر"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "db2-5",
+          "name": "ماء دافئ للعجين",
+          "standardAmount": "ماء دافئ حسب تماسك العجين",
+          "category": "liquid",
+          "sourceVariations": {
+            "doc1": "ماء دافئ للعجين",
+            "doc2": "ماء دافئ للعجين",
+            "doc3": "ماء دافئ للعجين"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "db2-6",
+          "name": "زيت غزير للقلي على مرحلتين",
+          "standardAmount": "زيت غزير مقدوح للتحمير",
+          "category": "dairy_fat",
+          "sourceVariations": {
+            "doc1": "زيت للتحمير",
+            "doc2": "زيت للتحمير",
+            "doc3": "زيت للتحمير"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "db2-7",
+          "name": "شربات بارد كثيف وجوز هند",
+          "standardAmount": "شربات معقود بارد + جوز هند للتزيين",
+          "category": "sweet_fruit",
+          "sourceVariations": {
+            "doc1": "شربات – جوز الهند",
+            "doc2": "شربات – جوز هند",
+            "doc3": "شربات – جوز الهند"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "إذابة عرق الحلاوة وتنشيط الخميرة: يذاب عرق الحلاوة في 1 كوب ماء بارد ثم يصفى. تدعك الخميرة مع قليل من السكر والماء الدافئ حتى تسيل.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "عجن الدقيق: نضع الدقيق في وعاء ونعمل حفرة في وسطه ويصب بها خليط الخميرة. يعجن الدقيق مع الخميرة حتى يصبح ليناً.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "خفق الرغوة وإدخال الهواء: يدفأ ماء عرق الحلاوة المصفى ويحرك باليد حتى تتكون رغوة غنية، ثم تجمع هذه الرغوة وتضاف للعجينة وتخفق جيداً لإدخال أكبر كمية من الهواء فيها لضمان انتفاخها.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "tip"
+        },
+        {
+          "stepNumber": 4,
+          "text": "التخمير: تغطى العجينة وتترك في مكان دافئ حتى تختمر وتتضاعف.",
+          "phase": "prep",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "التقطيع والقلي الأول: تؤخذ قطعة عجين صغيرة باليد اليسرى وتقطع بملعقة شاي مدهونة بالزيت أو مبللة بالماء البارد، وتحمر في الزيت الغزير المقدوح تحميراً خفيفاً جداً (نصف قلية) ثم تنشل وتوضع على مصفاة حتى تهدأ حرارتها.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "القلي الثاني والتعسيل (سر القرمشة الدائمة): يعاد تحميرها مرة ثانية في الزيت حتى يصبح لونها وردياً ذهبياً مقرمشاً، ثم تنشل وتصفى من الزيت، وتوضع فوراً في الشربات البارد ثم ترفع منه بسرعة وتزين بجوز الهند أو السكر البودرة.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 4,
+        "mergedIngredientsCount": 7,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 7,
+        "overlapPercentage": 96,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "احتفظت الوثائق بالتقنية التراثية النادرة لاستخدام عرق الحلاوة وخفقه لعمل رغوة هوائية مع القلي على مرحلتين للقرمشة المستمرة."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "لقمة القاضي",
+          "pageNumber": 233,
+          "ingredients": [
+            "1/2 كيلو دقيق",
+            "قطعة خميرة بيرة بحجم عين الجمل",
+            "جوز الهند",
+            "1 ملعقة صغيرة سكر",
+            "ملعقة كبيرة عرق الحلاوة المدقوقة",
+            "ماء دافئ للعجين",
+            "زيت للتحمير",
+            "شربات"
+          ],
+          "instructions": [
+            "يذاب عرق الحلاوة في كوب ماء بارد ويصفى",
+            "تدعك الخميرة مع السكر والماء الدافئ",
+            "يعجن الدقيق مع الخميرة حتى يلين",
+            "يحرك ماء عرق الحلاوة حتى تتكون رغوة وتخفق مع العجينة",
+            "تقطع بملعقة شاي وتحمر تحميرا خفيفا ثم ترفع",
+            "يعاد تحميرها حتى تصبح وردية وتوضع في الشربات البارد"
+          ]
+        },
+        "doc3": {
+          "title": "9- لقمة القاضي",
+          "pageNumber": 201,
+          "ingredients": [
+            "1/2 ك دقيق",
+            "قطعة خميرة بيرة بحجم عين الجمل",
+            "جوز الهند",
+            "1 م ص سكر",
+            "ملعقة ك عرق الحلاوة المدقوقة",
+            "ماء دافئ",
+            "زيت",
+            "شربات"
+          ],
+          "instructions": [
+            "يذاب عرق الحلاوة في 1 كوب ماء بارد",
+            "تدعك الخميرة حتى تسيل",
+            "توضع الخميرة في حفرة وسط الدقيق ويعجن",
+            "يحرك ماء عرق الحلاوة باليد لعمل رغوة",
+            "تحمر في الزيت الغزير خفيفا ثم يعاد تحميرها"
+          ]
+        }
+      }
+    },
+    {
+      "id": "bev-01",
+      "title": "مشروب الخروب الطبيعي المركز",
+      "titleEn": "Traditional Egyptian Carob Drink (Kharroub)",
+      "chapter": "الباب الرابع: المشروبات",
+      "chapterNumber": 4,
+      "category": "مشروبات وآيس كريم",
+      "cookingMethod": "سلطات ومشروبات",
+      "prepTime": "10 دقائق",
+      "cookTime": "15 دقيقة",
+      "servings": "6-8 أكواب",
+      "masterIngredients": [
+        {
+          "id": "db3-1",
+          "name": "خروب مجروش قطع صغيرة",
+          "standardAmount": "1 كوب خروب قطع صغيرة",
+          "category": "sweet_fruit",
+          "sourceVariations": {
+            "doc1": "1 كوب خروب قطع صغيرة",
+            "doc2": "1 كوب خروب قطع صغيرة",
+            "doc3": "1 كوب خروب قطع صغيرة"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "db3-2",
+          "name": "سكر أبيض للكرملة",
+          "standardAmount": "3/4 كوب سكر",
+          "category": "sweet_fruit",
+          "sourceVariations": {
+            "doc1": "3/4 كوب سكر",
+            "doc2": "3/4 كوب سكر",
+            "doc3": "3/4 كوب سكر"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        },
+        {
+          "id": "db3-3",
+          "name": "ماء نقي",
+          "standardAmount": "7 إلى 8 أكواب ماء",
+          "category": "liquid",
+          "sourceVariations": {
+            "doc1": "7 : 8 أكواب ماء",
+            "doc2": "7 : 8 أكواب ماء",
+            "doc3": "من 7 – 8 أكواب ماء"
+          },
+          "isMerged": true,
+          "originalOccurrencesCount": 3
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "كرملة السكر مع الخروب: يوضع الخروب المجروش مع السكر في قدر ويرفع على درجة حرارة هادئة مع تقليبهما باستمرار حتى يذوب السكر ويصبح لونه ذهبياً مائلاً للبني (يتكرمل) بدون أن يحترق لاكتساب النكهة المميزة.",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "إضافة الماء والغليان: تضاف كمية المياه ويغطى الإناء على نار هادئة حتى يذوب السكر والخروب مع الماء تماماً، ثم يترك لمدة دقائق معدودة يغلي (حوالي 4 دقائق).",
+          "phase": "cook",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "التبريد والتصفية: يرفع ويترك مغطى حتى يبرد تماماً ويتشرب الطعم، ثم يصفى بمصفاة ضيقة ويدخل الثلاجة ويقدم بارداً ومثلجاً.",
+          "phase": "finish",
+          "sourceDocs": [
+            "doc1",
+            "doc2",
+            "doc3"
+          ],
+          "importance": "core"
+        }
+      ],
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 2,
+        "mergedIngredientsCount": 3,
+        "totalUniqueSteps": 3,
+        "totalMasterIngredients": 3,
+        "overlapPercentage": 97,
+        "documentsPresent": [
+          "doc1",
+          "doc2",
+          "doc3"
+        ],
+        "reconciliationSummary": "نص موحد متطابق في الوثائق الثلاث، يوضح سر كرملة السكر مع الخروب أولاً قبل سكب الماء للحصول على اللون البني الكهرماني والمذاق الغني."
+      },
+      "rawDocVersions": {
+        "doc1": {
+          "title": "مشروب الخروب",
+          "pageNumber": 220,
+          "ingredients": [
+            "1 كوب خروب قطع صغيرة",
+            "3/4 كوب سكر",
+            "7 : 8 أكواب ماء"
+          ],
+          "instructions": [
+            "يوضع الخروب مع السكر على نار هادئة حتى يتكرمل بلون ذهبي بني",
+            "تضاف كمية المياه ويترك يغلي 4 دقائق",
+            "يترك مغطى حتى يبرد ثم يصفى ويدخل الثلاجة"
+          ]
+        },
+        "doc3": {
+          "title": "1- مشروب الخروب",
+          "pageNumber": 190,
+          "ingredients": [
+            "1 كوب خروب قطع صغيرة",
+            "3/4 كوب سكر",
+            "من 7 - 8 أكواب ماء"
+          ],
+          "instructions": [
+            "يوضع الخروب مع السكر على درجة حرارة هادئة مع تقليبهم حتى يصير ذهبيا مائلا للبني",
+            "تضاف كمية المياه ويغطي الإناء حتى يذوب السكر",
+            "يرفع ويترك مغطى حتى يبرد ثم يصفى ويدخل الثلاجة"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Recipes collection: Public read, write allowed for master recipes & admin sync
+    match /recipes/{recipeId} {
+      allow read: if true;
+      allow write: if true;
+    }
+    // Comments on recipes: public read, authenticated or guest review creation
+    match /comments/{commentId} {
+      allow read: if true;
+      allow create: if true;
+      allow update, delete: if true;
+    }
+    // Public memorial tributes
+    match /tributes/{tributeId} {
+      allow read: if true;
+      allow create: if true;
+      allow update, delete: if true;
+    }
+    // Activity logs: shares, views, bookmarks for analytics
+    match /activity_logs/{logId} {
+      allow read: if true;
+      allow create: if true;
+      allow update, delete: if true;
+    }
+    // User personalized profiles and bookmarks
+    match /user_profiles/{userId} {
+      allow read: if true;
+      allow write: if true;
+    }
+    // Metadata and platform stats
+    match /metadata/{docId} {
+      allow read: if true;
+      allow write: if true;
+    }
+  }
+}
