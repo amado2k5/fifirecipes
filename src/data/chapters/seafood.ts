@@ -628,5 +628,1149 @@ export const seafoodRecipes: Recipe[] = [
         instructions: ['ينظف بماء ساخن ويقلب مع الخل', 'غلوة واحدة إذا كان كبيراً', 'يقطع شرائح ويتبل ساعة في الثلاجة', 'يوضع في مصفاة ليجف تماما ثم يغمس في الدقيق ويقلى']
       }
     }
-  }
+  },
+  {
+    id: 'sea-05',
+    title: 'الصلصة البيضاء للبحريات',
+    titleEn: 'White Sauce for Seafood',
+    chapter: 'الباب الأول: اللحوم – الطيور – البحريات (طهو البحريات)',
+    chapterNumber: 1,
+    category: 'بحريات',
+    cookingMethod: 'تسبيك',
+    prepTime: '5 دقائق',
+    cookTime: '10 دقائق',
+    servings: 'يكفي لطاجن بحريات واحد',
+    masterIngredients: [
+      {
+        id: 'sf5-1',
+        name: 'دقيق',
+        nameEn: 'Flour',
+        standardAmount: '1 ملعقة كبيرة',
+        category: 'grain_starch',
+        sourceVariations: {
+          doc1: '1 ملعقة كبيرة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf5-2',
+        name: 'سمن أو زيت',
+        nameEn: 'Ghee or oil',
+        standardAmount: '1 ملعقة كبيرة',
+        category: 'dairy_fat',
+        sourceVariations: {
+          doc1: '1 ملعقة كبيرة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf5-3',
+        name: 'لبن أو مرق',
+        nameEn: 'Milk or fish broth',
+        standardAmount: '1 كوب',
+        category: 'dairy_fat',
+        sourceVariations: {
+          doc1: '1 كوب'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf5-4',
+        name: 'ملح وفلفل',
+        nameEn: 'Salt and pepper',
+        standardAmount: 'حسب الرغبة',
+        category: 'spice_seasoning',
+        sourceVariations: {
+          doc1: 'حسب الرغبة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+    ],
+    uniqueInstructions: [
+      {
+        stepNumber: 1,
+        text: 'يسخن السمن أو الزيت ويضاف إليه الدقيق ويقلب حتى يصفر قليلا.',
+        textEn: 'Heat the ghee or oil, whisk in the flour, and stir until lightly golden.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 2,
+        text: 'يضاف اللبن أو المرق تدريجيا بدون حرارة مع التقليب المستمر حتى يتجانس، ثم يرفع على حرارة متوسطة حتى يغلظ القوام.',
+        textEn: 'Off the heat, whisk in the milk or broth gradually until smooth, then return to medium heat, stirring, until it thickens.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 3,
+        text: 'يتبل بالملح والفلفل.',
+        textEn: 'Season with salt and pepper.',
+        phase: 'finish',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+    ],
+    overlapAnalysis: {
+      duplicateInstructionCount: 0,
+      mergedIngredientsCount: 0,
+      totalUniqueSteps: 3,
+      totalMasterIngredients: 4,
+      overlapPercentage: 0,
+      documentsPresent: ['doc1'],
+      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة.'
+    },
+    rawDocVersions: {
+      doc1: {
+        title: 'الصلصة البيضاء للبحريات',
+        ingredients: ['ملعقة كبيرة دقيق', 'ملعقة كبيرة سمن أو زيت', 'كوب لبن أو مرق', 'ملح', 'فلفل'],
+        instructions: ['يسيح السمن أو الزيت ثم يضاف الدقيق و يقلب جيدا ثم يرفع من البوتاجاز.', 'يضاف اللبن أو المرق تدريجيا ثم يرفع ثانية على البوتاجاز حتى يصل إلى السمك المطلوب مع مراعاة أن تكون الصلصة مائلة إلى السيولة قليلا.', 'يمكن أن يضاف حسب الرغبة ملعقة صغيرة بقدونس مفري أو ملعقة صغيرة من عصير الليمون للصلصة و هي ساخنة.', 'يمكن أيضا أن نخلط جيدا ملعقة صغيرة من المستردة مع ملعقة كبيرة خل و تضاف إلى الصلصة ثم يعاد غليها على البوتاجاز.', 'يمكن أيضا أن نضيف ملعقة صغيرة من المستردة إلى الصلصة و تقلَب جيدا و تترك لتبرد ثم نخلط الصلصة تدريجيا بملعقة كبيرة زيت و بالتبادل مع ملعقة كبيرة خل مع التقليب المستمر.']
+      }
+    }
+  },
+  {
+    id: 'sea-06',
+    title: 'كزبرية السمك',
+    titleEn: 'Fish in Coriander-Garlic Tomato Sauce',
+    chapter: 'الباب الأول: اللحوم – الطيور – البحريات (طهو البحريات)',
+    chapterNumber: 1,
+    category: 'بحريات',
+    cookingMethod: 'تسبيك',
+    prepTime: '15 دقيقة',
+    cookTime: '30 دقيقة',
+    servings: '4-6 أفراد',
+    masterIngredients: [
+      {
+        id: 'sf6-1',
+        name: 'سمك',
+        nameEn: 'Fish',
+        standardAmount: '1.5 كيلو',
+        category: 'seafood',
+        sourceVariations: {
+          doc1: '1.5 كيلو'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf6-2',
+        name: 'بصل مفري',
+        nameEn: 'Grated onion',
+        standardAmount: '1/2 كيلو',
+        category: 'vegetable',
+        sourceVariations: {
+          doc1: '1/2 كيلو'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf6-3',
+        name: 'ثوم مفري',
+        nameEn: 'Crushed garlic',
+        standardAmount: '1/2 رأس ثوم',
+        category: 'vegetable',
+        sourceVariations: {
+          doc1: '1/2 رأس ثوم'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf6-4',
+        name: 'كسبرة ناشفة',
+        nameEn: 'Dried ground coriander',
+        standardAmount: '1 ملعقة كبيرة',
+        category: 'spice_seasoning',
+        sourceVariations: {
+          doc1: '1 ملعقة كبيرة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf6-5',
+        name: 'طماطم معصورة',
+        nameEn: 'Pressed tomatoes',
+        standardAmount: '1/4 كيلو',
+        category: 'vegetable',
+        sourceVariations: {
+          doc1: '1/4 كيلو'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf6-6',
+        name: 'زيت',
+        nameEn: 'Oil',
+        standardAmount: 'حسب الحاجة',
+        category: 'dairy_fat',
+        sourceVariations: {
+          doc1: 'حسب الحاجة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf6-7',
+        name: 'ملح وفلفل',
+        nameEn: 'Salt and pepper',
+        standardAmount: 'حسب الرغبة',
+        category: 'spice_seasoning',
+        sourceVariations: {
+          doc1: 'حسب الرغبة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf6-8',
+        name: 'ماء',
+        nameEn: 'Water',
+        standardAmount: '1/2 كوب',
+        category: 'liquid',
+        sourceVariations: {
+          doc1: '1/2 كوب'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+    ],
+    uniqueInstructions: [
+      {
+        stepNumber: 1,
+        text: 'يشوح البصل المفري في الزيت حتى يصفر لونه، ثم يضاف الثوم المفري والكسبرة الناشفة ويقلبوا.',
+        textEn: 'Sauté the grated onion in oil until golden, then add the crushed garlic and dried coriander and stir.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 2,
+        text: 'تضاف الطماطم المعصورة ويتبل بالملح والفلفل، ثم يضاف نصف كوب ماء وتترك حتى يتسبك القوام.',
+        textEn: 'Add the pressed tomatoes, season with salt and pepper, then add half a cup of water and simmer until the sauce thickens.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 3,
+        text: 'يوضع السمك في الصلصة ويترك على درجة حرارة هادئة حتى النضج.',
+        textEn: 'Add the fish to the sauce and simmer over low heat until cooked through.',
+        phase: 'finish',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+    ],
+    overlapAnalysis: {
+      duplicateInstructionCount: 0,
+      mergedIngredientsCount: 0,
+      totalUniqueSteps: 3,
+      totalMasterIngredients: 8,
+      overlapPercentage: 0,
+      documentsPresent: ['doc1'],
+      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة.'
+    },
+    rawDocVersions: {
+      doc1: {
+        title: 'كزبرية السمك',
+        ingredients: ['½1 كيلو سمك', '½ كيلو بصل مفري', '½ رأس ثوم مفري', 'ملعقة كبيرة كسبرة ناشفة', '¼ كيلو طماطم معصورة', 'زيت', 'ملح', 'فلفل', '½ كوب ماء'],
+        instructions: ['يجهز السمك ويحمر نصف تحمير في الزيت ثم يرفع من الزيت.', 'يحمر البصل ثم نضيف الثوم المخلوط بالكسبرة الناشفة.', 'تضاف الطماطم المضروبة في الخلاط ثم تترك على درجة حرارة هادئة مع تمليحها حسب الحاجة وإضافة قليل من الماء عند الحاجة حتى تنضج الطماطم.', 'يوضع السمك في الخليط ويغطى الإناء ويترك على درجة حرارة هادئة حتى النضج.', 'ممكن استبدال الإناء بالصينية وتغطيتها وإدخالها في الفرن.', 'يقدم مع سلطة الطحينة (انظري باب السلطات) أو صلصة البحريات البيضاء.']
+      }
+    }
+  },
+  {
+    id: 'sea-07',
+    title: 'سمك السنجاري',
+    titleEn: 'Sangari-Style Fish in Cumin-Tomato Sauce',
+    chapter: 'الباب الأول: اللحوم – الطيور – البحريات (طهو البحريات)',
+    chapterNumber: 1,
+    category: 'بحريات',
+    cookingMethod: 'تسبيك',
+    prepTime: '15 دقيقة',
+    cookTime: '25 دقيقة',
+    servings: '4 أفراد',
+    masterIngredients: [
+      {
+        id: 'sf7-1',
+        name: 'سمك بوري',
+        nameEn: 'Mullet fish',
+        standardAmount: '1 كيلو',
+        category: 'seafood',
+        sourceVariations: {
+          doc1: '1 كيلو'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf7-2',
+        name: 'بصل كبير مفري',
+        nameEn: 'Grated large onion',
+        standardAmount: '1 بصلة كبيرة',
+        category: 'vegetable',
+        sourceVariations: {
+          doc1: '1 بصلة كبيرة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf7-3',
+        name: 'ثوم مفري',
+        nameEn: 'Crushed garlic',
+        standardAmount: '1/4 رأس ثوم',
+        category: 'vegetable',
+        sourceVariations: {
+          doc1: '1/4 رأس ثوم'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf7-4',
+        name: 'كمون وعصير ليمون',
+        nameEn: 'Cumin and lemon juice',
+        standardAmount: 'حسب الرغبة',
+        category: 'spice_seasoning',
+        sourceVariations: {
+          doc1: 'حسب الرغبة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf7-5',
+        name: 'طماطم',
+        nameEn: 'Tomatoes',
+        standardAmount: '2 ثمرة',
+        category: 'vegetable',
+        sourceVariations: {
+          doc1: '2 ثمرة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf7-6',
+        name: 'فلفل أخضر',
+        nameEn: 'Green peppers',
+        standardAmount: '2 ثمرة',
+        category: 'vegetable',
+        sourceVariations: {
+          doc1: '2 ثمرة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf7-7',
+        name: 'زيت',
+        nameEn: 'Oil',
+        standardAmount: 'حسب الحاجة',
+        category: 'dairy_fat',
+        sourceVariations: {
+          doc1: 'حسب الحاجة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf7-8',
+        name: 'ملح وفلفل',
+        nameEn: 'Salt and pepper',
+        standardAmount: 'حسب الرغبة',
+        category: 'spice_seasoning',
+        sourceVariations: {
+          doc1: 'حسب الرغبة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+    ],
+    uniqueInstructions: [
+      {
+        stepNumber: 1,
+        text: 'يشوح البصل المفري في الزيت، ثم يضاف الثوم المفري ويقلب حتى يصفر.',
+        textEn: 'Sauté the grated onion in oil, then add the crushed garlic and stir until golden.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 2,
+        text: 'تضاف الطماطم والفلفل الأخضر مقطعين، مع الكمون وعصير الليمون والملح والفلفل، وتترك حتى تنضج الخضار.',
+        textEn: 'Add the chopped tomatoes and green peppers, with the cumin, lemon juice, salt and pepper, and cook until the vegetables soften.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 3,
+        text: 'يوضع السمك في الصلصة ويترك على درجة حرارة هادئة حتى النضج.',
+        textEn: 'Add the fish to the sauce and simmer over low heat until cooked through.',
+        phase: 'finish',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+    ],
+    overlapAnalysis: {
+      duplicateInstructionCount: 0,
+      mergedIngredientsCount: 0,
+      totalUniqueSteps: 3,
+      totalMasterIngredients: 8,
+      overlapPercentage: 0,
+      documentsPresent: ['doc1'],
+      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة.'
+    },
+    rawDocVersions: {
+      doc1: {
+        title: 'سمك السنجاري',
+        ingredients: ['1 كيلوسمك بوري', 'بصلة كبيرة مفرية', '¼ رأس ثوم مفري', 'زيت', 'ملح', 'فلفل', 'كمون وعصير ليمون', '2 ثمرة طماطم', '2 ثمرة فلفل أخضر'],
+        instructions: ['ينظف السمك ويفتح من بطنه كفتح الكتاب ثم يتبل بالبصل والثوم والتوابل وعصير الليمون.', 'تقطع الطماطم والفلفل الأخضر حلقات رفيعة.', 'توضع الخلطة داخل بطن السمك وتترك لفترة.', 'تدهن صينية وترص فيه السمك وعلى الوجه زيت وليمون ثم يدخل الفرن للشي.', 'يقدم مع سلطة الطحينة (انظري باب السلطات) أو صلصة البحريات البيضاء.']
+      }
+    }
+  },
+  {
+    id: 'sea-08',
+    title: 'السمك البياض',
+    titleEn: 'White Fish Stew with Potatoes and Celery',
+    chapter: 'الباب الأول: اللحوم – الطيور – البحريات (طهو البحريات)',
+    chapterNumber: 1,
+    category: 'بحريات',
+    cookingMethod: 'تسبيك',
+    prepTime: '20 دقيقة',
+    cookTime: '35 دقيقة',
+    servings: '4-6 أفراد',
+    masterIngredients: [
+      {
+        id: 'sf8-1',
+        name: 'سمك مقطع',
+        nameEn: 'Fish, cut into pieces',
+        standardAmount: '1 كيلو',
+        category: 'seafood',
+        sourceVariations: {
+          doc1: '1 كيلو'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf8-2',
+        name: 'طماطم كبيرة',
+        nameEn: 'Large tomatoes',
+        standardAmount: '2 ثمرة',
+        category: 'vegetable',
+        sourceVariations: {
+          doc1: '2 ثمرة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf8-3',
+        name: 'بصل كبير',
+        nameEn: 'Large onion',
+        standardAmount: '1 بصلة كبيرة',
+        category: 'vegetable',
+        sourceVariations: {
+          doc1: '1 بصلة كبيرة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf8-4',
+        name: 'ثوم مفري',
+        nameEn: 'Crushed garlic',
+        standardAmount: '3 فصوص',
+        category: 'vegetable',
+        sourceVariations: {
+          doc1: '3 فصوص'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf8-5',
+        name: 'سكر',
+        nameEn: 'Sugar',
+        standardAmount: '1/2 ملعقة كبيرة',
+        category: 'sweet_fruit',
+        sourceVariations: {
+          doc1: '1/2 ملعقة كبيرة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf8-6',
+        name: 'زبدة',
+        nameEn: 'Butter',
+        standardAmount: '3 ملعقة كبيرة',
+        category: 'dairy_fat',
+        sourceVariations: {
+          doc1: '3 ملعقة كبيرة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf8-7',
+        name: 'دقيق',
+        nameEn: 'Flour',
+        standardAmount: '3 ملعقة كبيرة',
+        category: 'grain_starch',
+        sourceVariations: {
+          doc1: '3 ملعقة كبيرة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf8-8',
+        name: 'كرفس وبقدونس',
+        nameEn: 'Celery and parsley',
+        standardAmount: 'حسب الرغبة',
+        category: 'vegetable',
+        sourceVariations: {
+          doc1: 'حسب الرغبة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf8-9',
+        name: 'بطاطس',
+        nameEn: 'Potatoes',
+        standardAmount: '2 حبة',
+        category: 'vegetable',
+        sourceVariations: {
+          doc1: '2 حبة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf8-10',
+        name: 'صلصة طماطم',
+        nameEn: 'Tomato paste',
+        standardAmount: '2 ملعقة كبيرة',
+        category: 'vegetable',
+        sourceVariations: {
+          doc1: '2 ملعقة كبيرة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf8-11',
+        name: 'ملح وفلفل وماء',
+        nameEn: 'Salt, pepper and water',
+        standardAmount: 'حسب الحاجة',
+        category: 'liquid',
+        sourceVariations: {
+          doc1: 'حسب الحاجة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+    ],
+    uniqueInstructions: [
+      {
+        stepNumber: 1,
+        text: 'تحمر الطماطم المقطعة مع البصل والثوم في الزبدة، ويضاف السكر لتوازن الحموضة.',
+        textEn: 'Sauté the chopped tomatoes with the onion and garlic in the butter, adding the sugar to balance the acidity.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 2,
+        text: 'يضاف الدقيق ويقلب جيدا، ثم تضاف صلصة الطماطم والكرفس والبقدونس والملح والفلفل مع كمية من الماء حسب الحاجة.',
+        textEn: 'Stir in the flour, then add the tomato paste, celery, parsley, salt and pepper, along with water as needed.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 3,
+        text: 'تضاف حبات البطاطس المقطعة وتترك حتى تنضج تقريبا.',
+        textEn: 'Add the diced potatoes and cook until nearly done.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 4,
+        text: 'يوضع السمك في الصلصة ويترك على درجة حرارة هادئة حتى النضج.',
+        textEn: 'Add the fish to the sauce and simmer over low heat until cooked through.',
+        phase: 'finish',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+    ],
+    overlapAnalysis: {
+      duplicateInstructionCount: 0,
+      mergedIngredientsCount: 0,
+      totalUniqueSteps: 4,
+      totalMasterIngredients: 11,
+      overlapPercentage: 0,
+      documentsPresent: ['doc1'],
+      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة.'
+    },
+    rawDocVersions: {
+      doc1: {
+        title: 'السمك البياض',
+        ingredients: ['1 كيلو سمك مقطع', '2 ثمرة طماطم كبيرة', '1 بصلة كبيرة', '3 فصوص ثوم مفري', '½ ملعقة كبيرة سكر', '3 ملعقة كبيرة زبده', '3 ملعقة كبيرة دقيق', 'ملح', 'فلفل', 'كرفس', 'بقدونس', 'ماء حسب الحاجة', '2 حبة بطاطس', '2 ملعقة كبيرة صلصة طماطم'],
+        instructions: ['يحمر البصل في الزيت ثم الثوم ثم الطماطم المقطعة ثم يضاف حوالي 1 كوب ماء مع السكر حتى الغليان حوالي 5 دقائق على حرارة متوسطة.', 'تدهن صينية بالزيت ويوضع فيها البصل المحمر بالسائل.', 'تقطع البطاطس مكعبات متوسطة وتضاف إلى هذه الصلصة مع 2 ملعقة كبيرة صلصة طماطم.', 'في نفس الإناء الأول تسيح الزبدة وتقلب مع الدقيق جيدا ثم يضاف لها التوابل والكرافس والبقدونس حتى تصل إلى السمك المتوسط مع إضافة الماء ويفضل أن يكون السمك خفيفا في حالة طهو البطاطس مع السمك.', 'توضع قطع السمك في الخلطة ثم تصب على الصلصة في الصينية مع البطاطس.', 'تغطى الصينية وتدخل الفرن حتى النضج مع ترك قليل من الصوص حتى يسكب على السمك عند التقديم.', 'يقدم مع سلطة الطحينة (انظري باب السلطات) أو صلصة البحريات البيضاء.']
+      }
+    }
+  },
+  {
+    id: 'sea-09',
+    title: 'الحبَار (الكاليماري)',
+    titleEn: 'Fried Squid (Calamari) Rings',
+    chapter: 'الباب الأول: اللحوم – الطيور – البحريات (طهو البحريات)',
+    chapterNumber: 1,
+    category: 'بحريات',
+    cookingMethod: 'قلي',
+    prepTime: '15 دقيقة',
+    cookTime: '10 دقائق',
+    servings: '4 أفراد',
+    masterIngredients: [
+      {
+        id: 'sf9-1',
+        name: 'حبار (سبيط)',
+        nameEn: 'Squid (calamari)',
+        standardAmount: '1 كيلو',
+        category: 'seafood',
+        sourceVariations: {
+          doc1: '1 كيلو'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf9-2',
+        name: 'خل',
+        nameEn: 'Vinegar',
+        standardAmount: '2 ملعقة كبيرة',
+        category: 'liquid',
+        sourceVariations: {
+          doc1: '2 ملعقة كبيرة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf9-3',
+        name: 'ملح وفلفل وكمون',
+        nameEn: 'Salt, pepper and cumin',
+        standardAmount: 'حسب الرغبة',
+        category: 'spice_seasoning',
+        sourceVariations: {
+          doc1: 'حسب الرغبة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf9-4',
+        name: 'عصير ليمون',
+        nameEn: 'Lemon juice',
+        standardAmount: 'عصير 2 ليمونة',
+        category: 'sweet_fruit',
+        sourceVariations: {
+          doc1: 'عصير 2 ليمونة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf9-5',
+        name: 'دقيق',
+        nameEn: 'Flour',
+        standardAmount: '3-4 ملعقة كبيرة',
+        category: 'grain_starch',
+        sourceVariations: {
+          doc1: '3-4 ملعقة كبيرة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf9-6',
+        name: 'زيت للقلي',
+        nameEn: 'Oil, for frying',
+        standardAmount: 'غزير',
+        category: 'dairy_fat',
+        sourceVariations: {
+          doc1: 'غزير'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+    ],
+    uniqueInstructions: [
+      {
+        stepNumber: 1,
+        text: 'يقطع الحبار حلقات ويتبل بالخل والملح والفلفل والكمون وعصير الليمونتين.',
+        textEn: 'Cut the squid into rings and marinate with the vinegar, salt, pepper, cumin and lemon juice.',
+        phase: 'prep',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 2,
+        text: 'تغمس الحلقات في الدقيق وتقلى في زيت غزير حتى تصفر.',
+        textEn: 'Coat the rings in flour and deep-fry until golden.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+    ],
+    overlapAnalysis: {
+      duplicateInstructionCount: 0,
+      mergedIngredientsCount: 0,
+      totalUniqueSteps: 2,
+      totalMasterIngredients: 6,
+      overlapPercentage: 0,
+      documentsPresent: ['doc1'],
+      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة.'
+    },
+    rawDocVersions: {
+      doc1: {
+        title: 'الحبَار (الكاليماري)',
+        ingredients: ['1 كيلو حبَار (سبيط)', '2 ملعقة كبيرة خل', 'ملح', 'فلفل', 'كمون', 'عصير ليمونتين', 'من 3 إلى 4 ملعقة كبيرة دقيق', 'زيت للقلي'],
+        instructions: ['ينظف السبيط بماء ساخن ويغسل جيدا جدا ثم يقلب مع الخل ثم يوضع في مصفاة ويترك لمدة دقيقة واحدة.', 'إذا كان السبيط كبير يغلى الماء ويسقط فيه غلوه واحدة فقط ثم يصفى.', 'تقطع كل واحدة شرائح بالطول مع تقطيع الأطراف.', 'إحضار وعاء عميق تتبل فيه الشرائح بالملح والفلفل والكمون والليمون ويترك لمدة ساعة على الأقل.', 'يوضع في مصفاة ليجف تماما من الماء.', 'يغمس في الدقيق ثم يقلى في الزيت.', 'يقدم مع سلطة الطحينة (انظري باب السلطات) أو صلصة البحريات البيضاء.']
+      }
+    }
+  },
+  {
+    id: 'sea-10',
+    title: 'الجمبري (الروبيان)',
+    titleEn: 'Shrimp Sautéed with Celery, Cumin and Lemon',
+    chapter: 'الباب الأول: اللحوم – الطيور – البحريات (طهو البحريات)',
+    chapterNumber: 1,
+    category: 'بحريات',
+    cookingMethod: 'تسبيك',
+    prepTime: '15 دقيقة',
+    cookTime: '15 دقيقة',
+    servings: '4 أفراد',
+    masterIngredients: [
+      {
+        id: 'sf10-1',
+        name: 'جمبري',
+        nameEn: 'Shrimp',
+        standardAmount: '1 كيلو',
+        category: 'seafood',
+        sourceVariations: {
+          doc1: '1 كيلو'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf10-2',
+        name: 'بصل',
+        nameEn: 'Onion',
+        standardAmount: '3 بصلات',
+        category: 'vegetable',
+        sourceVariations: {
+          doc1: '3 بصلات'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf10-3',
+        name: 'كرفس',
+        nameEn: 'Celery',
+        standardAmount: '1 حزمة',
+        category: 'vegetable',
+        sourceVariations: {
+          doc1: '1 حزمة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf10-4',
+        name: 'كمون وفلفل ومستكة وحبهان',
+        nameEn: 'Cumin, pepper, mastic and cardamom',
+        standardAmount: 'حسب الرغبة',
+        category: 'spice_seasoning',
+        sourceVariations: {
+          doc1: 'حسب الرغبة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf10-5',
+        name: 'ملح',
+        nameEn: 'Salt',
+        standardAmount: 'حسب الرغبة',
+        category: 'spice_seasoning',
+        sourceVariations: {
+          doc1: 'حسب الرغبة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf10-6',
+        name: 'عصير ليمون',
+        nameEn: 'Lemon juice',
+        standardAmount: 'حسب الرغبة',
+        category: 'sweet_fruit',
+        sourceVariations: {
+          doc1: 'حسب الرغبة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+    ],
+    uniqueInstructions: [
+      {
+        stepNumber: 1,
+        text: 'يشوح البصل والكرفس المقطعان في قليل من الزيت.',
+        textEn: 'Sauté the chopped onion and celery in a little oil.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 2,
+        text: 'يضاف الجمبري مع الكمون والفلفل والمستكة والحبهان والملح، ويترك حتى ينضج.',
+        textEn: 'Add the shrimp with the cumin, pepper, mastic, cardamom and salt, and cook until done.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 3,
+        text: 'يضاف عصير الليمون قبل التقديم.',
+        textEn: 'Add the lemon juice just before serving.',
+        phase: 'finish',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+    ],
+    overlapAnalysis: {
+      duplicateInstructionCount: 0,
+      mergedIngredientsCount: 0,
+      totalUniqueSteps: 3,
+      totalMasterIngredients: 6,
+      overlapPercentage: 0,
+      documentsPresent: ['doc1'],
+      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة.'
+    },
+    rawDocVersions: {
+      doc1: {
+        title: 'الجمبري (الروبيان)',
+        ingredients: ['1 كيلو جمبري', '3 بصلات', 'حزمة كرفس', 'كمون', 'فلفل', 'مستكة', 'حبهان', 'ملح', 'عصير الليمون'],
+        instructions: ['يغسل عدة مرات للتخلص من الرمل.', 'يقطع البصل حلقات ويوضع في طبقات متبادلة مع الجمبري والكرفس والتوابل وقليل من الملح وعصير الليمون.', 'ممكن إضافة قليل من الماء للجمبري كبير الحجم.', 'يغطى الإناء ويرفع على درجة حرارة هادئة مع تقليبه باستمرار حتى النضج.', 'يرفع الإناء ويهز ما بداخله حتى لا يلتصق.', 'يقدم حسب الرغبة إما بالقشر أو بعد تقشيره.', 'يقدم مع سلطة الطحينة (انظري باب السلطات) أو صلصة البحريات البيضاء.']
+      }
+    }
+  },
+  {
+    id: 'sea-11',
+    title: 'الجمبري بالمايونيز',
+    titleEn: 'Shrimp with Mayonnaise Sauce',
+    chapter: 'الباب الأول: اللحوم – الطيور – البحريات (طهو البحريات)',
+    chapterNumber: 1,
+    category: 'بحريات',
+    cookingMethod: 'تسبيك',
+    prepTime: '15 دقيقة',
+    cookTime: '15 دقيقة',
+    servings: '4 أفراد',
+    masterIngredients: [
+      {
+        id: 'sf11-1',
+        name: 'جمبري',
+        nameEn: 'Shrimp',
+        standardAmount: '1 كيلو',
+        category: 'seafood',
+        sourceVariations: {
+          doc1: '1 كيلو'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf11-2',
+        name: 'بصل',
+        nameEn: 'Onion',
+        standardAmount: '3 بصلات',
+        category: 'vegetable',
+        sourceVariations: {
+          doc1: '3 بصلات'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf11-3',
+        name: 'كرفس',
+        nameEn: 'Celery',
+        standardAmount: '1 حزمة',
+        category: 'vegetable',
+        sourceVariations: {
+          doc1: '1 حزمة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf11-4',
+        name: 'كمون وفلفل ومستكة وحبهان',
+        nameEn: 'Cumin, pepper, mastic and cardamom',
+        standardAmount: 'حسب الرغبة',
+        category: 'spice_seasoning',
+        sourceVariations: {
+          doc1: 'حسب الرغبة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf11-5',
+        name: 'ملح',
+        nameEn: 'Salt',
+        standardAmount: 'حسب الرغبة',
+        category: 'spice_seasoning',
+        sourceVariations: {
+          doc1: 'حسب الرغبة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf11-6',
+        name: 'عصير ليمون',
+        nameEn: 'Lemon juice',
+        standardAmount: 'حسب الرغبة',
+        category: 'sweet_fruit',
+        sourceVariations: {
+          doc1: 'حسب الرغبة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf11-7',
+        name: 'صلصة مايونيز',
+        nameEn: 'Mayonnaise sauce (see salads section)',
+        standardAmount: '2 ملعقة كبيرة',
+        category: 'other',
+        sourceVariations: {
+          doc1: '2 ملعقة كبيرة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+    ],
+    uniqueInstructions: [
+      {
+        stepNumber: 1,
+        text: 'يشوح البصل والكرفس المقطعان في قليل من الزيت.',
+        textEn: 'Sauté the chopped onion and celery in a little oil.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 2,
+        text: 'يضاف الجمبري مع الكمون والفلفل والمستكة والحبهان والملح وعصير الليمون، ويترك حتى ينضج.',
+        textEn: 'Add the shrimp with the cumin, pepper, mastic, cardamom, salt and lemon juice, and cook until done.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 3,
+        text: 'يترك حتى يبرد ثم يقلب بصلصة المايونيز (انظر باب السلطات) قبل التقديم.',
+        textEn: 'Let it cool, then toss with the mayonnaise sauce (see the salads section) before serving.',
+        phase: 'finish',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+    ],
+    overlapAnalysis: {
+      duplicateInstructionCount: 0,
+      mergedIngredientsCount: 0,
+      totalUniqueSteps: 3,
+      totalMasterIngredients: 7,
+      overlapPercentage: 0,
+      documentsPresent: ['doc1'],
+      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة.'
+    },
+    rawDocVersions: {
+      doc1: {
+        title: 'الجمبري بالمايونيز',
+        ingredients: ['1 كيلو جمبري', '3 بصلات', 'حزمة كرفس', 'كمون', 'فلفل', 'مستكة', 'حبهان', 'ملح', 'عصير الليمون', '2 ملعقة كبيرة صلصة المايونيز (انظري باب السلطات)'],
+        instructions: ['يغسل عدة مرات للتخلص من الرمل.', 'يقطع البصل حلقات ويوضع في طبقات متبادلة مع الجمبري والكرفس والمستكة و الحبهان وقليل من الملح.', 'ممكن إضافة قليل من الماء للجمبري كبير الحجم.', 'يغطى الإناء ويرفع على درجة حرارة هادئة مع تقليبه باستمرار حتى النضج.', 'يرفع الإناء ويهز ما بداخله حتى لا يلتصق.', 'يجفف ويقشر ويتبل بالملح والفلفل والكمون وعصير الليمون.', 'يرص في طبق التقديم ويغطى بصلصة المايونيز.']
+      }
+    }
+  },
+  {
+    id: 'sea-12',
+    title: 'الجمبري بالكاري',
+    titleEn: 'Shrimp Curry',
+    chapter: 'الباب الأول: اللحوم – الطيور – البحريات (طهو البحريات)',
+    chapterNumber: 1,
+    category: 'بحريات',
+    cookingMethod: 'تسبيك',
+    prepTime: '10 دقائق',
+    cookTime: '15 دقيقة',
+    servings: '4 أفراد',
+    masterIngredients: [
+      {
+        id: 'sf12-1',
+        name: 'جمبري',
+        nameEn: 'Shrimp',
+        standardAmount: '1 كيلو',
+        category: 'seafood',
+        sourceVariations: {
+          doc1: '1 كيلو'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf12-2',
+        name: 'بصل مفري',
+        nameEn: 'Grated onion',
+        standardAmount: '3 بصلات',
+        category: 'vegetable',
+        sourceVariations: {
+          doc1: '3 بصلات'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf12-3',
+        name: 'كاري',
+        nameEn: 'Curry powder',
+        standardAmount: '1 ملعقة صغيرة',
+        category: 'spice_seasoning',
+        sourceVariations: {
+          doc1: '1 ملعقة صغيرة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf12-4',
+        name: 'كرفس',
+        nameEn: 'Celery',
+        standardAmount: '1 حزمة',
+        category: 'vegetable',
+        sourceVariations: {
+          doc1: '1 حزمة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf12-5',
+        name: 'ملح وفلفل',
+        nameEn: 'Salt and pepper',
+        standardAmount: 'حسب الرغبة',
+        category: 'spice_seasoning',
+        sourceVariations: {
+          doc1: 'حسب الرغبة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf12-6',
+        name: 'عصير ليمون',
+        nameEn: 'Lemon juice',
+        standardAmount: '1 ملعقة صغيرة',
+        category: 'sweet_fruit',
+        sourceVariations: {
+          doc1: '1 ملعقة صغيرة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf12-7',
+        name: 'زيت',
+        nameEn: 'Oil',
+        standardAmount: 'حسب الحاجة',
+        category: 'dairy_fat',
+        sourceVariations: {
+          doc1: 'حسب الحاجة'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+      {
+        id: 'sf12-8',
+        name: 'ماء',
+        nameEn: 'Water',
+        standardAmount: '1 كوب',
+        category: 'liquid',
+        sourceVariations: {
+          doc1: '1 كوب'
+        },
+        isMerged: false,
+        originalOccurrencesCount: 1
+      },
+    ],
+    uniqueInstructions: [
+      {
+        stepNumber: 1,
+        text: 'يشوح البصل المفري مع الكرفس في الزيت، ثم يضاف الكاري ويقلب.',
+        textEn: 'Sauté the grated onion with the celery in oil, then stir in the curry powder.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 2,
+        text: 'يضاف كوب الماء ويتبل بالملح والفلفل، ويترك حتى الغليان.',
+        textEn: 'Add the cup of water, season with salt and pepper, and bring to a boil.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 3,
+        text: 'يوضع الجمبري في الصلصة مع عصير الليمون ويترك على درجة حرارة هادئة حتى النضج.',
+        textEn: 'Add the shrimp to the sauce with the lemon juice and simmer over low heat until cooked through.',
+        phase: 'finish',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+    ],
+    overlapAnalysis: {
+      duplicateInstructionCount: 0,
+      mergedIngredientsCount: 0,
+      totalUniqueSteps: 3,
+      totalMasterIngredients: 8,
+      overlapPercentage: 0,
+      documentsPresent: ['doc1'],
+      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة.'
+    },
+    rawDocVersions: {
+      doc1: {
+        title: 'الجمبري بالكاري',
+        ingredients: ['1 كيلو جمبري', '3 بصلات مفرية', 'ملعقة صغيرة كاري', 'حزمة كرفس', 'ملح', 'فلفل', 'ملعقة صغيرة عصير ليمون', 'زيت', '1 كوب ماء'],
+        instructions: ['يغسل عدة مرات للتخلص من الرمل.', 'يقطع البصل حلقات ويوضع في طبقات متبادلة مع الجمبري والكرفس والمستكة و الحبهان وقليل من الملح.', 'ممكن إضافة قليل من الماء للجمبري كبير الحجم.', 'يغطى الإناء ويرفع على درجة حرارة هادئة مع تقليبه باستمرارم حتى النضج.', 'يرفع الإناء ويهز ما بداخله حتى لا يلتصق.', 'يجفف جيدا ويقشر.', 'تحمر البصلة المفرية في الزيت حتى تصفر ثم يضاف إليها الكاري وتقلب قليلا ثم يضاف لها الماء مع التحريك حتى الغليان ثم تتبل بالملح والفلفل وعصير الليمون.', 'توضع حبات الجمبري في الصلصة حتى تسخن فقط.', 'تغرف في طبق التقديم وحوله الأرز الأبيض ويجمل بالليمون والبقدونس.']
+      }
+    }
+  },
 ];

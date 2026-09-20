@@ -20,8 +20,9 @@ const CHAPTER_NAMES: Record<number, string> = {
   1: 'Chapter 1: Meats, Poultry & Seafood',
   2: 'Chapter 2: Soups, Salads, Vegetables & Legumes',
   3: 'Chapter 3: Starches, Stuffed Dishes & Pastries',
-  4: 'Chapter 4: Beverages',
-  5: 'Chapter 5: Eastern Desserts'
+  4: 'Chapter 4: Pastries, Light Desserts & Beverages',
+  5: 'Chapter 5: Eastern Desserts',
+  6: 'Chapter 6: Western Desserts'
 };
 
 const CATEGORY_NAMES: Record<string, string> = {
@@ -37,9 +38,18 @@ const CATEGORY_NAMES: Record<string, string> = {
   'شوربات وحساء': 'Soups',
   'سلطات': 'Salads',
   'حلويات شرقية': 'Eastern Desserts',
+  'حلويات غربية': 'Western Desserts',
   'نشويات ومحاشي ومعجنات': 'Starches, Stuffed Dishes & Pastries',
   'شوربة وسلطات': 'Soups & Salads',
-  'خضروات وبقوليات': 'Vegetables & Legumes'
+  'خضروات وبقوليات': 'Vegetables & Legumes',
+  'محشوات': 'Stuffed Dishes',
+  'أكلات شهية': 'Savory Favorites',
+  'وجبات سريعة': 'Quick Meals',
+  'فطائر حلوة': 'Sweet Pastries',
+  'حلويات خفيفة': 'Light Desserts',
+  'خشاف': 'Fruit Compote',
+  'آيس كريم': 'Ice Cream',
+  'مشروبات': 'Beverages'
 };
 
 const COOKING_METHODS: Record<string, string> = {
@@ -48,7 +58,13 @@ const COOKING_METHODS: Record<string, string> = {
   'تسبيك': 'Slow Simmering',
   'تحمير وقلي': 'Pan-Frying & Crisping',
   'شوي': 'Grilling',
-  'خبز وتسوية بالفرن': 'Baking & Oven Cooking'
+  'شي': 'Grilling',
+  'خبز وتسوية بالفرن': 'Baking & Oven Cooking',
+  'سلق': 'Boiling',
+  'تحمير': 'Pan-Frying',
+  'فرن': 'Baking',
+  'قلي': 'Frying',
+  'خبز': 'Baking'
 };
 
 const INGREDIENT_TERMS: Array<[string, string]> = [
@@ -230,7 +246,7 @@ export function getLocalizedIngredientAmount(ingredient: Pick<MasterIngredient, 
   return getLocalizedMeasurement(generatedIngredient?.standardAmount || ingredient.standardAmount, lang, 'amount') || '';
 }
 
-export function getLocalizedInstruction(recipeId: string, stepNumber: number, text: string, lang: SupportedLanguage): string {
+export function getLocalizedInstruction(recipeId: string, stepNumber: number, text: string, lang: SupportedLanguage, textEn?: string): string {
   if (isArabicLocale(lang)) return text;
-  return ENGLISH_RECIPE_TRANSLATIONS[recipeId]?.instructions?.[String(stepNumber)] || text;
+  return ENGLISH_RECIPE_TRANSLATIONS[recipeId]?.instructions?.[String(stepNumber)] || textEn || text;
 }

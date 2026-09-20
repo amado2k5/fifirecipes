@@ -417,7 +417,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                           </span>
                         </div>
                         <p className="recipe-reading-copy text-stone-800">
-                          {getLocalizedInstruction(recipe.id, step.stepNumber, step.text, lang)}
+                          {getLocalizedInstruction(recipe.id, step.stepNumber, step.text, lang, step.textEn)}
                         </p>
                       </div>
                     </div>
