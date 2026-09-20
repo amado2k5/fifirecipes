@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { 
-  Shield, 
-  Lock, 
-  GitCompare, 
+  Shield,
+  GitCompare,
   Layers, 
   Sparkles, 
   Eye, 
@@ -42,7 +41,6 @@ interface AdminDashboardProps {
   lang: SupportedLanguage;
   currentUser: UserProfile | null;
   onSelectRecipe: (recipe: Recipe) => void;
-  onOpenAuthModal?: () => void;
 }
 
 export const AdminDashboard: React.FC<AdminDashboardProps> = ({
@@ -50,8 +48,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
   onRecipeUpdated,
   lang,
   currentUser,
-  onSelectRecipe,
-  onOpenAuthModal
+  onSelectRecipe
 }) => {
   const isAr = lang === 'ar' || lang === 'fa' || lang === 'ur';
   const isAdmin = isUserAdmin(currentUser);
@@ -257,23 +254,14 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
             <p className="text-stone-500 text-[11px]">
               {currentUser.email || 'No email associated with social login'}
             </p>
-            <p className="text-amber-800 bg-amber-50 p-2 rounded-lg text-[11px]">
-              {isAr
-                ? 'ملاحظة: لتفعيل صلاحية المشرف، سجل الدخول بحساب المشرف (مثل ahamdy@gmail.com أو حدد خيار المشرف في نافذة الدخول).'
-                : 'Note: To access admin rights, log in with an admin email (e.g. ahamdy@gmail.com or toggle the Admin option in sign in).'}
-            </p>
           </div>
-        ) : null}
-
-        <div>
-          <button
-            onClick={onOpenAuthModal}
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-stone-900 hover:bg-black text-amber-400 font-bold text-sm shadow-md transition-all"
-          >
-            <Lock className="w-4 h-4" />
-            <span>{isAr ? 'تسجيل دخول المشرف (Admin Sign In)' : 'Sign in as Administrator'}</span>
-          </button>
-        </div>
+        ) : (
+          <div className="p-4 bg-stone-50 rounded-xl border border-stone-200 text-xs text-stone-500">
+            {isAr
+              ? 'تسجيل الدخول معطّل حاليًا في هذا الموقع.'
+              : 'Sign-in is currently disabled on this site.'}
+          </div>
+        )}
       </div>
     );
   }

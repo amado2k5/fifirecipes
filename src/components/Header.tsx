@@ -10,7 +10,6 @@ import {
   Music,
   Shield,
   User,
-  LogIn,
   LogOut,
   Flame,
   Share2
@@ -27,7 +26,6 @@ interface HeaderProps {
   setLang: (l: SupportedLanguage) => void;
   onShareSite: () => void;
   currentUser: UserProfile | null;
-  onOpenAuthModal: () => void;
   onSignOut: () => void;
   savedCount: number;
 }
@@ -40,7 +38,6 @@ export const Header: React.FC<HeaderProps> = ({
   setLang,
   onShareSite,
   currentUser,
-  onOpenAuthModal,
   onSignOut,
   savedCount
 }) => {
@@ -142,15 +139,7 @@ export const Header: React.FC<HeaderProps> = ({
                   <LogOut className="w-3.5 h-3.5" />
                 </button>
               </div>
-            ) : (
-              <button
-                onClick={onOpenAuthModal}
-                className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-bold text-white bg-amber-700 hover:bg-amber-800 transition-colors shadow-xs"
-              >
-                <LogIn className="w-3.5 h-3.5" />
-                <span>{getUIText(lang, 'loginBtn')}</span>
-              </button>
-            )}
+            ) : null}
           </div>
         </div>
 

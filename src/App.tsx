@@ -12,7 +12,6 @@ import { MasterIngredientsView } from './components/MasterIngredientsView';
 import { DocumentComparator } from './components/DocumentComparator';
 import { RecipeDetailModal } from './components/RecipeDetailModal';
 import { SingleRecipeShareModal } from './components/SingleRecipeShareModal';
-import { AuthModal } from './components/AuthModal';
 import { FatmaMemorialSection } from './components/FatmaMemorialSection';
 import { TributePage } from './components/TributePage';
 import { AdminDashboard } from './components/AdminDashboard';
@@ -63,7 +62,6 @@ export default function App() {
   // Active Modals & Selected Items
   const [selectedRecipe, setSelectedRecipe] = useState<Recipe | null>(null);
   const [sharingRecipe, setSharingRecipe] = useState<Recipe | null>(null);
-  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [isExportOpen, setIsExportOpen] = useState(false);
 
   // Authenticated User Profile (Google, Apple, Facebook, X, Instagram, TikTok)
@@ -184,31 +182,6 @@ export default function App() {
       setCurrentUser(updatedProfile);
       saveStoredUser(updatedProfile);
       saveUserProfileToFirestore(updatedProfile).catch(console.error);
-    }
-  };
-
-  // Handle User Sign-In or Profile Change with Automatic Admin Role Detection
-  const handleUserChanged = (user: UserProfile | null) => {
-    setCurrentUser(user);
-    if (user) {
-      if (user.preferredLanguage && user.preferredLanguage !== lang) {
-        setLang(user.preferredLanguage);
-      }
-      // If user is an admin, immediately switch to the admin view (3-doc diff analyzer)
-      if (isUserAdmin(user)) {
-        setActiveTab('admin');
-        setNotification({
-          message: isAr 
-            ? `مرحباً بك (${user.name})! تم تفعيل حساب المشرف وفتح مقارنة وتدقيق الوثائق الثلاث تلقائياً.`
-            : `Welcome (${user.name})! Admin role detected: 3-Doc Diff Analyzer unlocked.`,
-          type: 'success'
-        });
-        setTimeout(() => setNotification(null), 5000);
-      }
-    } else {
-      if (activeTab === 'admin') {
-        setActiveTab('explorer');
-      }
     }
   };
 
@@ -406,7 +379,6 @@ export default function App() {
         setLang={handleSelectLanguage}
         onShareSite={handleShareSite}
         currentUser={currentUser}
-        onOpenAuthModal={() => setIsAuthModalOpen(true)}
         onSignOut={handleSignOut}
         savedCount={bookmarkedIds.length}
       />
@@ -472,7 +444,6 @@ export default function App() {
             lang={lang}
             currentUser={currentUser}
             onSelectRecipe={(recipe) => setSelectedRecipe(recipe)}
-            onOpenAuthModal={() => setIsAuthModalOpen(true)}
           />
         )}
       </main>
@@ -501,16 +472,6 @@ export default function App() {
           currentUser={currentUser}
         />
       )}
-
-      {/* Social Authentication Modal (Google, Apple, Facebook, X, Instagram, TikTok) */}
-      <AuthModal
-        isOpen={isAuthModalOpen}
-        onClose={() => setIsAuthModalOpen(false)}
-        currentUser={currentUser}
-        onUserChanged={handleUserChanged}
-        lang={lang}
-        onSelectLanguage={handleSelectLanguage}
-      />
 
       {/* Database Export Modal (Admin / Academic Research) */}
       <ExportModal
