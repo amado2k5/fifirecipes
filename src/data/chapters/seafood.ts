@@ -693,16 +693,16 @@ export const seafoodRecipes: Recipe[] = [
     uniqueInstructions: [
       {
         stepNumber: 1,
-        text: 'يسخن السمن أو الزيت ويضاف إليه الدقيق ويقلب حتى يصفر قليلا.',
-        textEn: 'Heat the ghee or oil, whisk in the flour, and stir until lightly golden.',
+        text: 'يسيح السمن أو الزيت ثم يضاف إليه الدقيق ويقلب جيداً حتى يصفر قليلا، ثم يرفع الإناء عن البوتاجاز.',
+        textEn: 'Melt the ghee or oil, whisk in the flour, and stir well until lightly golden, then take the pot off the heat.',
         phase: 'cook',
         sourceDocs: ['doc1'],
         importance: 'core'
       },
       {
         stepNumber: 2,
-        text: 'يضاف اللبن أو المرق تدريجيا بدون حرارة مع التقليب المستمر حتى يتجانس، ثم يرفع على حرارة متوسطة حتى يغلظ القوام.',
-        textEn: 'Off the heat, whisk in the milk or broth gradually until smooth, then return to medium heat, stirring, until it thickens.',
+        text: 'يضاف اللبن أو المرق تدريجيا بدون حرارة مع التقليب المستمر حتى يتجانس، ثم يعاد الإناء إلى البوتاجاز على حرارة متوسطة حتى يصل القوام إلى الكثافة المطلوبة، مع مراعاة أن تظل الصلصة مائلة إلى السيولة قليلاً.',
+        textEn: 'Off the heat, whisk in the milk or broth gradually until smooth, then return the pot to medium heat, stirring, until it reaches the desired thickness — keeping the sauce slightly on the runny side.',
         phase: 'cook',
         sourceDocs: ['doc1'],
         importance: 'core'
@@ -715,15 +715,45 @@ export const seafoodRecipes: Recipe[] = [
         sourceDocs: ['doc1'],
         importance: 'core'
       },
+      {
+        stepNumber: 4,
+        text: 'تنويع بالبقدونس أو الليمون: يمكن حسب الرغبة إضافة ملعقة صغيرة بقدونس مفري أو ملعقة صغيرة من عصير الليمون إلى الصلصة وهي لا تزال ساخنة.',
+        textEn: 'Parsley or lemon variation: if desired, stir in a teaspoon of finely chopped parsley or a teaspoon of lemon juice while the sauce is still hot.',
+        phase: 'alternative',
+        isAlternative: true,
+        alternativeLabel: 'تنويع بالبقدونس أو الليمون',
+        sourceDocs: ['doc1'],
+        importance: 'tip'
+      },
+      {
+        stepNumber: 5,
+        text: 'تنويع بالمستردة والخل (الطريقة الأولى): يمكن أيضاً خلط ملعقة صغيرة من المستردة جيداً مع ملعقة كبيرة خل وإضافتها إلى الصلصة، ثم إعادة غليها على البوتاجاز.',
+        textEn: 'Mustard and vinegar variation (method 1): alternatively, mix a teaspoon of mustard well with a tablespoon of vinegar, stir it into the sauce, then bring it back to a boil on the stove.',
+        phase: 'alternative',
+        isAlternative: true,
+        alternativeLabel: 'تنويع بالمستردة والخل',
+        sourceDocs: ['doc1'],
+        importance: 'variation'
+      },
+      {
+        stepNumber: 6,
+        text: 'تنويع بالمستردة والخل (الطريقة الثانية): أو يمكن إضافة ملعقة صغيرة من المستردة إلى الصلصة مباشرة وتقليبها جيداً ثم تركها لتبرد، ثم تخلط الصلصة تدريجياً بملعقة كبيرة زيت بالتبادل مع ملعقة كبيرة خل مع التقليب المستمر حتى تتجانس.',
+        textEn: 'Mustard and vinegar variation (method 2): or stir a teaspoon of mustard directly into the sauce and let it cool, then gradually whisk in a tablespoon of oil alternating with a tablespoon of vinegar, stirring constantly until emulsified.',
+        phase: 'alternative',
+        isAlternative: true,
+        alternativeLabel: 'تنويع بالمستردة والخل - طريقة ثانية',
+        sourceDocs: ['doc1'],
+        importance: 'variation'
+      },
     ],
     overlapAnalysis: {
       duplicateInstructionCount: 0,
       mergedIngredientsCount: 0,
-      totalUniqueSteps: 3,
+      totalUniqueSteps: 6,
       totalMasterIngredients: 4,
       overlapPercentage: 0,
       documentsPresent: ['doc1'],
-      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة.'
+      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة. استُكملت الخطوات لتعكس كل التنويعات الواردة في النص الأصلي (بالبقدونس أو الليمون، أو بالمستردة والخل بطريقتيها).'
     },
     rawDocVersions: {
       doc1: {
@@ -845,37 +875,63 @@ export const seafoodRecipes: Recipe[] = [
     uniqueInstructions: [
       {
         stepNumber: 1,
-        text: 'يشوح البصل المفري في الزيت حتى يصفر لونه، ثم يضاف الثوم المفري والكسبرة الناشفة ويقلبوا.',
-        textEn: 'Sauté the grated onion in oil until golden, then add the crushed garlic and dried coriander and stir.',
-        phase: 'cook',
+        text: 'يجهز السمك ويحمر نصف تحمير فقط في الزيت، ثم يرفع جانباً من الزيت.',
+        textEn: 'Prepare the fish and fry it lightly (only half-fry it) in the oil, then lift it out and set it aside.',
+        phase: 'prep',
         sourceDocs: ['doc1'],
         importance: 'core'
       },
       {
         stepNumber: 2,
-        text: 'تضاف الطماطم المعصورة ويتبل بالملح والفلفل، ثم يضاف نصف كوب ماء وتترك حتى يتسبك القوام.',
-        textEn: 'Add the pressed tomatoes, season with salt and pepper, then add half a cup of water and simmer until the sauce thickens.',
+        text: 'يشوح البصل المفري في نفس الزيت حتى يصفر لونه، ثم يضاف الثوم المفري والكسبرة الناشفة ويقلبوا.',
+        textEn: 'In the same oil, sauté the grated onion until golden, then add the crushed garlic and dried coriander and stir.',
         phase: 'cook',
         sourceDocs: ['doc1'],
         importance: 'core'
       },
       {
         stepNumber: 3,
-        text: 'يوضع السمك في الصلصة ويترك على درجة حرارة هادئة حتى النضج.',
-        textEn: 'Add the fish to the sauce and simmer over low heat until cooked through.',
+        text: 'تضاف الطماطم المضروبة في الخلاط وتترك على درجة حرارة هادئة مع تمليحها حسب الحاجة، وإضافة قليل من الماء عند الحاجة حتى تنضج الطماطم وتتسبك.',
+        textEn: 'Add the blended tomatoes and simmer over low heat, salting to taste and adding a little water as needed until the tomatoes are cooked down into a thick sauce.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 4,
+        text: 'يوضع السمك المحمر نصف التحمير في الخليط ويغطى الإناء ويترك على درجة حرارة هادئة حتى النضج.',
+        textEn: 'Return the half-fried fish to the sauce, cover the pot and simmer over low heat until fully cooked.',
         phase: 'finish',
         sourceDocs: ['doc1'],
         importance: 'core'
+      },
+      {
+        stepNumber: 5,
+        text: 'طريقة الفرن (بديلة): يمكن استبدال الإناء بصينية، توضع فيها المكونات نفسها وتغطى، ثم تدخل الفرن حتى النضج بدلاً من الطهو على البوتاجاز.',
+        textEn: 'Oven method (alternative): the pot can be swapped for a baking tray with the same mixture, covered, and baked in the oven until done instead of cooking on the stovetop.',
+        phase: 'alternative',
+        isAlternative: true,
+        alternativeLabel: 'الطهو في الفرن بدلاً من البوتاجاز',
+        sourceDocs: ['doc1'],
+        importance: 'variation'
+      },
+      {
+        stepNumber: 6,
+        text: 'التقديم: يقدم مع سلطة الطحينة أو صلصة البحريات البيضاء.',
+        textEn: 'To serve: accompany with tahini salad or the white seafood sauce.',
+        phase: 'finish',
+        sourceDocs: ['doc1'],
+        importance: 'tip'
       },
     ],
     overlapAnalysis: {
       duplicateInstructionCount: 0,
       mergedIngredientsCount: 0,
-      totalUniqueSteps: 3,
+      totalUniqueSteps: 6,
       totalMasterIngredients: 8,
       overlapPercentage: 0,
       documentsPresent: ['doc1'],
-      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة.'
+      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة. أُعيدت خطوة التحمير المسبق للسمك والبديل بالفرن واقتراح التقديم التي كانت غائبة عن النسخة الموجزة السابقة.'
     },
     rawDocVersions: {
       doc1: {
@@ -888,11 +944,11 @@ export const seafoodRecipes: Recipe[] = [
   {
     id: 'sea-07',
     title: 'سمك السنجاري',
-    titleEn: 'Sangari-Style Fish in Cumin-Tomato Sauce',
+    titleEn: 'Sangari-Style Whole Fish Stuffed with Tomato & Green Pepper',
     chapter: 'الباب الأول: اللحوم – الطيور – البحريات (طهو البحريات)',
     chapterNumber: 1,
     category: 'بحريات',
-    cookingMethod: 'تسبيك',
+    cookingMethod: 'شي',
     prepTime: '15 دقيقة',
     cookTime: '25 دقيقة',
     servings: '4 أفراد',
@@ -997,37 +1053,53 @@ export const seafoodRecipes: Recipe[] = [
     uniqueInstructions: [
       {
         stepNumber: 1,
-        text: 'يشوح البصل المفري في الزيت، ثم يضاف الثوم المفري ويقلب حتى يصفر.',
-        textEn: 'Sauté the grated onion in oil, then add the crushed garlic and stir until golden.',
-        phase: 'cook',
+        text: 'تنظيف وفتح السمك: ينظف السمك ويفتح من بطنه كفتح الكتاب (فتحة طولية عريضة دون فصل النصفين)، ثم يتبل بالبصل المفري والثوم المفري والتوابل وعصير الليمون من الداخل والخارج.',
+        textEn: 'Clean and butterfly the fish: clean the fish and open it up along its belly like opening a book (a wide lengthwise cut without separating the two halves), then season it inside and out with the grated onion, crushed garlic, spices and lemon juice.',
+        phase: 'prep',
         sourceDocs: ['doc1'],
         importance: 'core'
       },
       {
         stepNumber: 2,
-        text: 'تضاف الطماطم والفلفل الأخضر مقطعين، مع الكمون وعصير الليمون والملح والفلفل، وتترك حتى تنضج الخضار.',
-        textEn: 'Add the chopped tomatoes and green peppers, with the cumin, lemon juice, salt and pepper, and cook until the vegetables soften.',
-        phase: 'cook',
+        text: 'تجهيز الحشوة: تقطع الطماطم والفلفل الأخضر حلقات رفيعة.',
+        textEn: 'Prepare the filling: slice the tomatoes and green peppers into thin rings.',
+        phase: 'prep',
         sourceDocs: ['doc1'],
         importance: 'core'
       },
       {
         stepNumber: 3,
-        text: 'يوضع السمك في الصلصة ويترك على درجة حرارة هادئة حتى النضج.',
-        textEn: 'Add the fish to the sauce and simmer over low heat until cooked through.',
-        phase: 'finish',
+        text: 'الحشو والتتبيل: توضع حلقات الطماطم والفلفل الأخضر داخل بطن السمك المفتوح وتترك السمكة المحشوة فترة حتى تتشرب التتبيلة.',
+        textEn: 'Stuff and rest: place the tomato and green pepper rings inside the opened fish belly and let the stuffed fish rest for a while to absorb the marinade.',
+        phase: 'prep',
         sourceDocs: ['doc1'],
         importance: 'core'
+      },
+      {
+        stepNumber: 4,
+        text: 'الشي في الفرن: تدهن صينية وترص فيها السمكة، ويوضع على وجهها قليل من الزيت وعصير الليمون، ثم تدخل الفرن حتى تمام النضج والتحمر.',
+        textEn: 'Bake: grease a tray and lay the fish on it, drizzle a little oil and lemon juice over the top, then bake in the oven until fully cooked and lightly browned.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 5,
+        text: 'التقديم: يقدم مع سلطة الطحينة أو صلصة البحريات البيضاء.',
+        textEn: 'To serve: accompany with tahini salad or the white seafood sauce.',
+        phase: 'finish',
+        sourceDocs: ['doc1'],
+        importance: 'tip'
       },
     ],
     overlapAnalysis: {
       duplicateInstructionCount: 0,
       mergedIngredientsCount: 0,
-      totalUniqueSteps: 3,
+      totalUniqueSteps: 5,
       totalMasterIngredients: 8,
       overlapPercentage: 0,
       documentsPresent: ['doc1'],
-      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة.'
+      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة. صُححت الطريقة لتعكس أنها سمكة كاملة تُفتح وتُحشى بالطماطم والفلفل وتُشوى في الفرن، وليست صلصة على البوتاجاز كما ورد سابقاً بالخطأ.'
     },
     rawDocVersions: {
       doc1: {
@@ -1040,11 +1112,11 @@ export const seafoodRecipes: Recipe[] = [
   {
     id: 'sea-08',
     title: 'السمك البياض',
-    titleEn: 'White Fish Stew with Potatoes and Celery',
+    titleEn: 'Baked White Fish Tray with Potatoes, Celery and Two Sauces',
     chapter: 'الباب الأول: اللحوم – الطيور – البحريات (طهو البحريات)',
     chapterNumber: 1,
     category: 'بحريات',
-    cookingMethod: 'تسبيك',
+    cookingMethod: 'فرن',
     prepTime: '20 دقيقة',
     cookTime: '35 دقيقة',
     servings: '4-6 أفراد',
@@ -1185,45 +1257,69 @@ export const seafoodRecipes: Recipe[] = [
     uniqueInstructions: [
       {
         stepNumber: 1,
-        text: 'تحمر الطماطم المقطعة مع البصل والثوم في الزبدة، ويضاف السكر لتوازن الحموضة.',
-        textEn: 'Sauté the chopped tomatoes with the onion and garlic in the butter, adding the sugar to balance the acidity.',
+        text: 'تحمر البصل في الزيت ثم يضاف الثوم ثم الطماطم المقطعة، ويضاف حوالي كوب ماء مع السكر ويترك حتى الغليان لمدة 5 دقائق تقريباً على حرارة متوسطة.',
+        textEn: 'Sauté the onion in oil, then add the garlic followed by the chopped tomatoes; add about a cup of water with the sugar and simmer for roughly 5 minutes over medium heat.',
         phase: 'cook',
         sourceDocs: ['doc1'],
         importance: 'core'
       },
       {
         stepNumber: 2,
-        text: 'يضاف الدقيق ويقلب جيدا، ثم تضاف صلصة الطماطم والكرفس والبقدونس والملح والفلفل مع كمية من الماء حسب الحاجة.',
-        textEn: 'Stir in the flour, then add the tomato paste, celery, parsley, salt and pepper, along with water as needed.',
-        phase: 'cook',
+        text: 'تدهن صينية بالزيت ويوضع فيها البصل المحمر بسائله.',
+        textEn: 'Grease a baking tray with oil and spread the browned onion mixture with its liquid over the base.',
+        phase: 'prep',
         sourceDocs: ['doc1'],
         importance: 'core'
       },
       {
         stepNumber: 3,
-        text: 'تضاف حبات البطاطس المقطعة وتترك حتى تنضج تقريبا.',
-        textEn: 'Add the diced potatoes and cook until nearly done.',
-        phase: 'cook',
+        text: 'تقطع البطاطس مكعبات متوسطة وتضاف إلى هذه الصلصة في الصينية مع 2 ملعقة كبيرة صلصة طماطم.',
+        textEn: 'Cut the potatoes into medium cubes and add them to the sauce in the tray along with 2 tablespoons of tomato paste.',
+        phase: 'prep',
         sourceDocs: ['doc1'],
         importance: 'core'
       },
       {
         stepNumber: 4,
-        text: 'يوضع السمك في الصلصة ويترك على درجة حرارة هادئة حتى النضج.',
-        textEn: 'Add the fish to the sauce and simmer over low heat until cooked through.',
-        phase: 'finish',
+        text: 'تحضير صلصة بيضاء خفيفة: في نفس الإناء الأول تُسيح الزبدة ويُقلب معها الدقيق جيداً، ثم تضاف التوابل والكرفس والبقدونس مع كمية من الماء حتى تصل إلى قوام متوسط (يُفضل أن تكون خفيفة السمك إذا كانت البطاطس تُطهى مع السمك).',
+        textEn: 'Make a light white sauce: in the same first pot, melt the butter and stir in the flour well, then add the seasoning, celery and parsley with enough water to reach a medium consistency (best kept on the thin side if the potatoes are cooking alongside the fish).',
+        phase: 'cook',
         sourceDocs: ['doc1'],
         importance: 'core'
+      },
+      {
+        stepNumber: 5,
+        text: 'توضع قطع السمك في هذه الصلصة البيضاء، ثم تُصب فوق الصلصة والبطاطس في الصينية.',
+        textEn: 'Place the fish pieces in this white sauce, then pour it all over the tomato sauce and potatoes in the tray.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 6,
+        text: 'تغطى الصينية وتدخل الفرن حتى النضج، مع ترك قليل من الصوص ليُسكب على السمك عند التقديم.',
+        textEn: 'Cover the tray and bake in the oven until cooked through, keeping a little of the sauce aside to spoon over the fish when serving.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 7,
+        text: 'التقديم: يقدم مع سلطة الطحينة أو صلصة البحريات البيضاء.',
+        textEn: 'To serve: accompany with tahini salad or the white seafood sauce.',
+        phase: 'finish',
+        sourceDocs: ['doc1'],
+        importance: 'tip'
       },
     ],
     overlapAnalysis: {
       duplicateInstructionCount: 0,
       mergedIngredientsCount: 0,
-      totalUniqueSteps: 4,
+      totalUniqueSteps: 7,
       totalMasterIngredients: 11,
       overlapPercentage: 0,
       documentsPresent: ['doc1'],
-      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة.'
+      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة. صُححت الطريقة لتوضيح أنه طبق يُجمَّع في صينية بصلصتين (طماطم وبيضاء) ويُنهى في الفرن، وليس يخنة تُطهى بالكامل على البوتاجاز كما ورد سابقاً.'
     },
     rawDocVersions: {
       doc1: {
@@ -1321,29 +1417,69 @@ export const seafoodRecipes: Recipe[] = [
     uniqueInstructions: [
       {
         stepNumber: 1,
-        text: 'يقطع الحبار حلقات ويتبل بالخل والملح والفلفل والكمون وعصير الليمونتين.',
-        textEn: 'Cut the squid into rings and marinate with the vinegar, salt, pepper, cumin and lemon juice.',
+        text: 'التنظيف: ينظف الحبار بماء ساخن ويغسل جيداً جداً، ثم يُقلب مع الخل ويوضع في مصفاة ويترك لمدة دقيقة واحدة.',
+        textEn: 'Cleaning: clean the squid with hot water and wash it very thoroughly, then toss it with the vinegar, place it in a colander and leave for one minute.',
         phase: 'prep',
         sourceDocs: ['doc1'],
         importance: 'core'
       },
       {
         stepNumber: 2,
-        text: 'تغمس الحلقات في الدقيق وتقلى في زيت غزير حتى تصفر.',
-        textEn: 'Coat the rings in flour and deep-fry until golden.',
+        text: 'إذا كان الحبار كبير الحجم، يُغلى الماء ويُسقط فيه غلوة واحدة فقط ثم يُصفى.',
+        textEn: 'If the squid is large, bring water to a boil and give it a single quick blanch, then drain.',
+        phase: 'prep',
+        sourceDocs: ['doc1'],
+        importance: 'tip'
+      },
+      {
+        stepNumber: 3,
+        text: 'يقطع الحبار حلقات أو شرائح بالطول مع تقطيع الأطراف.',
+        textEn: 'Cut the squid into rings or lengthwise strips, trimming the edges.',
+        phase: 'prep',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 4,
+        text: 'التتبيل: يوضع في وعاء عميق ويتبل بالخل والملح والفلفل والكمون وعصير الليمونتين، ويترك لمدة ساعة على الأقل.',
+        textEn: 'Marinate: place in a deep bowl and season with the vinegar, salt, pepper, cumin and lemon juice, and leave for at least an hour.',
+        phase: 'prep',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 5,
+        text: 'يوضع في مصفاة ليجف تماماً من الماء والتتبيلة الزائدة، ثم تُغمس الحلقات في الدقيق.',
+        textEn: 'Drain in a colander until fully dry of any excess liquid, then coat the rings in flour.',
         phase: 'cook',
         sourceDocs: ['doc1'],
         importance: 'core'
+      },
+      {
+        stepNumber: 6,
+        text: 'تقلى الحلقات في زيت غزير حتى تصفر.',
+        textEn: 'Deep-fry the rings in plenty of oil until golden.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 7,
+        text: 'التقديم: يقدم مع سلطة الطحينة أو صلصة البحريات البيضاء.',
+        textEn: 'To serve: accompany with tahini salad or the white seafood sauce.',
+        phase: 'finish',
+        sourceDocs: ['doc1'],
+        importance: 'tip'
       },
     ],
     overlapAnalysis: {
       duplicateInstructionCount: 0,
       mergedIngredientsCount: 0,
-      totalUniqueSteps: 2,
+      totalUniqueSteps: 7,
       totalMasterIngredients: 6,
       overlapPercentage: 0,
       documentsPresent: ['doc1'],
-      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة.'
+      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة. أُعيدت خطوات التنظيف والسلق الاختياري للحبار الكبير وساعة التتبيل والتجفيف التي كانت مفقودة من النسخة الموجزة السابقة.'
     },
     rawDocVersions: {
       doc1: {
@@ -1441,37 +1577,61 @@ export const seafoodRecipes: Recipe[] = [
     uniqueInstructions: [
       {
         stepNumber: 1,
-        text: 'يشوح البصل والكرفس المقطعان في قليل من الزيت.',
-        textEn: 'Sauté the chopped onion and celery in a little oil.',
-        phase: 'cook',
+        text: 'يغسل الجمبري عدة مرات للتخلص تماماً من الرمل.',
+        textEn: 'Wash the shrimp several times to remove all traces of sand.',
+        phase: 'prep',
         sourceDocs: ['doc1'],
         importance: 'core'
       },
       {
         stepNumber: 2,
-        text: 'يضاف الجمبري مع الكمون والفلفل والمستكة والحبهان والملح، ويترك حتى ينضج.',
-        textEn: 'Add the shrimp with the cumin, pepper, mastic, cardamom and salt, and cook until done.',
-        phase: 'cook',
+        text: 'يقطع البصل حلقات ويوضع في طبقات متبادلة مع الجمبري والكرفس والتوابل وقليل من الملح وعصير الليمون داخل الإناء.',
+        textEn: 'Slice the onion into rings and layer it alternately with the shrimp, celery, spices, a little salt and the lemon juice inside the pot.',
+        phase: 'prep',
         sourceDocs: ['doc1'],
         importance: 'core'
       },
       {
         stepNumber: 3,
-        text: 'يضاف عصير الليمون قبل التقديم.',
-        textEn: 'Add the lemon juice just before serving.',
+        text: 'يمكن إضافة قليل من الماء إذا كان حجم الجمبري كبيراً.',
+        textEn: 'A little water can be added if the shrimp are large.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'tip'
+      },
+      {
+        stepNumber: 4,
+        text: 'يغطى الإناء ويرفع على درجة حرارة هادئة مع تقليبه باستمرار حتى النضج.',
+        textEn: 'Cover the pot and cook over low heat, turning constantly, until done.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 5,
+        text: 'يرفع الإناء عن الحرارة ويُهز جيداً حتى لا يلتصق الجمبري.',
+        textEn: 'Take the pot off the heat and shake it well so the shrimp does not stick.',
         phase: 'finish',
         sourceDocs: ['doc1'],
         importance: 'core'
+      },
+      {
+        stepNumber: 6,
+        text: 'يقدم حسب الرغبة إما بقشره أو بعد تقشيره، مع سلطة الطحينة أو صلصة البحريات البيضاء.',
+        textEn: 'Serve either shell-on or peeled, as preferred, with tahini salad or the white seafood sauce.',
+        phase: 'finish',
+        sourceDocs: ['doc1'],
+        importance: 'tip'
       },
     ],
     overlapAnalysis: {
       duplicateInstructionCount: 0,
       mergedIngredientsCount: 0,
-      totalUniqueSteps: 3,
+      totalUniqueSteps: 6,
       totalMasterIngredients: 6,
       overlapPercentage: 0,
       documentsPresent: ['doc1'],
-      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة.'
+      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة. صُححت الطريقة لتعكس أسلوب الطهو الأصلي بالتبطين والتقليب المتواصل بدلاً من التشويح الذي ورد سابقاً بالخطأ.'
     },
     rawDocVersions: {
       doc1: {
@@ -1581,24 +1741,56 @@ export const seafoodRecipes: Recipe[] = [
     uniqueInstructions: [
       {
         stepNumber: 1,
-        text: 'يشوح البصل والكرفس المقطعان في قليل من الزيت.',
-        textEn: 'Sauté the chopped onion and celery in a little oil.',
-        phase: 'cook',
+        text: 'يغسل الجمبري عدة مرات للتخلص تماماً من الرمل.',
+        textEn: 'Wash the shrimp several times to remove all traces of sand.',
+        phase: 'prep',
         sourceDocs: ['doc1'],
         importance: 'core'
       },
       {
         stepNumber: 2,
-        text: 'يضاف الجمبري مع الكمون والفلفل والمستكة والحبهان والملح وعصير الليمون، ويترك حتى ينضج.',
-        textEn: 'Add the shrimp with the cumin, pepper, mastic, cardamom, salt and lemon juice, and cook until done.',
-        phase: 'cook',
+        text: 'يقطع البصل حلقات ويوضع في طبقات متبادلة مع الجمبري والكرفس والمستكة والحبهان وقليل من الملح داخل الإناء.',
+        textEn: 'Slice the onion into rings and layer it alternately with the shrimp, celery, mastic, cardamom and a little salt inside the pot.',
+        phase: 'prep',
         sourceDocs: ['doc1'],
         importance: 'core'
       },
       {
         stepNumber: 3,
-        text: 'يترك حتى يبرد ثم يقلب بصلصة المايونيز (انظر باب السلطات) قبل التقديم.',
-        textEn: 'Let it cool, then toss with the mayonnaise sauce (see the salads section) before serving.',
+        text: 'يمكن إضافة قليل من الماء إذا كان حجم الجمبري كبيراً.',
+        textEn: 'A little water can be added if the shrimp are large.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'tip'
+      },
+      {
+        stepNumber: 4,
+        text: 'يغطى الإناء ويرفع على درجة حرارة هادئة مع تقليبه باستمرار حتى النضج.',
+        textEn: 'Cover the pot and cook over low heat, turning constantly, until done.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 5,
+        text: 'يرفع الإناء عن الحرارة ويُهز جيداً حتى لا يلتصق الجمبري.',
+        textEn: 'Take the pot off the heat and shake it well so the shrimp does not stick.',
+        phase: 'finish',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 6,
+        text: 'يجفف الجمبري ويقشر، ثم يتبل بالملح والفلفل والكمون وعصير الليمون.',
+        textEn: 'Drain the shrimp and peel it, then season it with salt, pepper, cumin and lemon juice.',
+        phase: 'finish',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 7,
+        text: 'يرص في طبق التقديم ويغطى بصلصة المايونيز (انظري باب السلطات).',
+        textEn: 'Arrange on the serving plate and coat with the mayonnaise sauce (see the salads section).',
         phase: 'finish',
         sourceDocs: ['doc1'],
         importance: 'core'
@@ -1607,11 +1799,11 @@ export const seafoodRecipes: Recipe[] = [
     overlapAnalysis: {
       duplicateInstructionCount: 0,
       mergedIngredientsCount: 0,
-      totalUniqueSteps: 3,
+      totalUniqueSteps: 7,
       totalMasterIngredients: 7,
       overlapPercentage: 0,
       documentsPresent: ['doc1'],
-      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة.'
+      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة. صُححت الطريقة لتعكس أسلوب الطهو الأصلي بالتبطين والتقليب، مع إعادة خطوة التقشير والتتبيل قبل تغطية المايونيز التي كانت مفقودة.'
     },
     rawDocVersions: {
       doc1: {
@@ -1733,37 +1925,53 @@ export const seafoodRecipes: Recipe[] = [
     uniqueInstructions: [
       {
         stepNumber: 1,
-        text: 'يشوح البصل المفري مع الكرفس في الزيت، ثم يضاف الكاري ويقلب.',
-        textEn: 'Sauté the grated onion with the celery in oil, then stir in the curry powder.',
-        phase: 'cook',
+        text: 'التحضير الأولي: يغسل الجمبري عدة مرات للتخلص تماماً من الرمل، ثم يقطع البصل حلقات ويوضع في طبقات متبادلة مع الجمبري والكرفس والمستكة والحبهان وقليل من الملح داخل الإناء (يمكن إضافة قليل من الماء إذا كان حجمه كبيراً).',
+        textEn: 'Initial precook: wash the shrimp several times to remove all sand, then slice the onion into rings and layer it alternately with the shrimp, celery, mastic, cardamom and a little salt in the pot (add a little water if the shrimp are large).',
+        phase: 'prep',
         sourceDocs: ['doc1'],
         importance: 'core'
       },
       {
         stepNumber: 2,
-        text: 'يضاف كوب الماء ويتبل بالملح والفلفل، ويترك حتى الغليان.',
-        textEn: 'Add the cup of water, season with salt and pepper, and bring to a boil.',
-        phase: 'cook',
+        text: 'يغطى الإناء ويرفع على درجة حرارة هادئة مع تقليبه باستمرار حتى النضج، ثم يرفع عن الحرارة ويُهز جيداً حتى لا يلتصق، ثم يجفف الجمبري جيداً ويقشر.',
+        textEn: 'Cover and cook over low heat, turning constantly, until done, then take off the heat and shake well so it does not stick; drain the shrimp thoroughly and peel it.',
+        phase: 'prep',
         sourceDocs: ['doc1'],
         importance: 'core'
       },
       {
         stepNumber: 3,
-        text: 'يوضع الجمبري في الصلصة مع عصير الليمون ويترك على درجة حرارة هادئة حتى النضج.',
-        textEn: 'Add the shrimp to the sauce with the lemon juice and simmer over low heat until cooked through.',
+        text: 'صلصة الكاري: تحمر البصلة المفرية في الزيت حتى تصفر، ثم يضاف إليها الكاري ويقلب قليلاً، ثم يضاف الماء مع التحريك حتى الغليان، ثم يتبل بالملح والفلفل وعصير الليمون.',
+        textEn: 'Curry sauce: brown the grated onion in oil until golden, stir in the curry powder briefly, then add the water, stirring until it boils, and season with salt, pepper and lemon juice.',
+        phase: 'cook',
+        sourceDocs: ['doc1'],
+        importance: 'core'
+      },
+      {
+        stepNumber: 4,
+        text: 'توضع حبات الجمبري المقشر في صلصة الكاري حتى تسخن فقط.',
+        textEn: 'Add the peeled shrimp to the curry sauce, just long enough to heat through.',
         phase: 'finish',
         sourceDocs: ['doc1'],
         importance: 'core'
+      },
+      {
+        stepNumber: 5,
+        text: 'التقديم: تغرف في طبق التقديم وحولها الأرز الأبيض، وتجمل بالليمون والبقدونس.',
+        textEn: 'To serve: spoon onto a serving dish surrounded by white rice, and garnish with lemon and parsley.',
+        phase: 'finish',
+        sourceDocs: ['doc1'],
+        importance: 'tip'
       },
     ],
     overlapAnalysis: {
       duplicateInstructionCount: 0,
       mergedIngredientsCount: 0,
-      totalUniqueSteps: 3,
+      totalUniqueSteps: 5,
       totalMasterIngredients: 8,
       overlapPercentage: 0,
       documentsPresent: ['doc1'],
-      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة.'
+      reconciliationSummary: 'مصدر واحد (كراسة الوصفات الأصلية)، لم تتوفر نسخ إضافية للمقارنة. أعيدت مرحلة التبطين والتقليب الأولى للجمبري التي كانت محذوفة بالكامل، مع اقتراح التقديم مع الأرز الأبيض.'
     },
     rawDocVersions: {
       doc1: {

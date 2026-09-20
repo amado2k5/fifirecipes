@@ -1,15 +1,13 @@
 import React from 'react';
 import { Recipe, SupportedLanguage } from '../types';
-import { 
-  Flame, 
-  Clock, 
-  Users, 
+import {
+  Flame,
+  Clock,
+  Users,
   ArrowLeft,
   ArrowRight,
   Sparkles,
-  Heart,
-  Share2,
-  Star
+  Share2
 } from 'lucide-react';
 import { getRecipeImage } from '../data/recipeImages';
 import { getUIText } from '../data/translations';
@@ -19,22 +17,17 @@ interface RecipeCardProps {
   recipe: Recipe;
   onSelect: (recipe: Recipe) => void;
   lang: SupportedLanguage;
-  isBookmarked: boolean;
-  onToggleBookmark: (recipe: Recipe, e: React.MouseEvent) => void;
   onOpenShare: (recipe: Recipe, e: React.MouseEvent) => void;
 }
 
-export const RecipeCard: React.FC<RecipeCardProps> = ({ 
-  recipe, 
-  onSelect, 
+export const RecipeCard: React.FC<RecipeCardProps> = ({
+  recipe,
+  onSelect,
   lang,
-  isBookmarked,
-  onToggleBookmark,
   onOpenShare
 }) => {
   const isAr = lang === 'ar' || lang === 'fa' || lang === 'ur';
   const imageUrl = getRecipeImage(recipe.id, recipe.imageUrl);
-  const ratingVal = recipe.averageRating || 4.9;
   const localized = getLocalizedRecipe(recipe, lang);
   const localizedIngredientNames = Array.from(new Set(
     recipe.masterIngredients.map(ingredient => getLocalizedIngredient(ingredient, lang))
@@ -65,31 +58,14 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
           >
             <Share2 className="w-4 h-4" />
           </button>
-
-          <button
-            onClick={(e) => onToggleBookmark(recipe, e)}
-            className={`w-8 h-8 rounded-full backdrop-blur-xs flex items-center justify-center shadow-xs transition-transform active:scale-95 ${
-              isBookmarked 
-                ? 'bg-rose-500 text-white hover:bg-rose-600' 
-                : 'bg-white/90 text-stone-700 hover:text-rose-500 hover:bg-white'
-            }`}
-            title={isBookmarked ? getUIText(lang, 'bookmarkRemoved') : getUIText(lang, 'bookmarkSaved')}
-          >
-            <Heart className={`w-4 h-4 ${isBookmarked ? 'fill-current' : ''}`} />
-          </button>
         </div>
 
-        {/* Category & Rating Pill on Image */}
+        {/* Category Pill on Image */}
         <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between z-10 text-white">
           <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-amber-600/90 backdrop-blur-xs text-white shadow-xs">
             <Flame className="w-3 h-3" />
             <span>{localized.category}</span>
           </span>
-
-          <div className="flex items-center gap-1 text-xs font-bold bg-black/50 backdrop-blur-xs px-2 py-0.5 rounded-full text-amber-300">
-            <Star className="w-3 h-3 fill-current text-amber-400" />
-            <span>{ratingVal.toFixed(1)}</span>
-          </div>
         </div>
       </div>
 

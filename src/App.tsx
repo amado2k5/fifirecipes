@@ -3,31 +3,20 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState, useMemo, useEffect, useCallback } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { allRecipes, computeDatabaseStats } from './data/recipes';
-import { Recipe, SupportedLanguage, UserProfile } from './types';
+import { Recipe, SupportedLanguage } from './types';
 import { Header } from './components/Header';
 import { RecipeList } from './components/RecipeList';
 import { MasterIngredientsView } from './components/MasterIngredientsView';
-import { DocumentComparator } from './components/DocumentComparator';
 import { RecipeDetailModal } from './components/RecipeDetailModal';
 import { SingleRecipeShareModal } from './components/SingleRecipeShareModal';
 import { FatmaMemorialSection } from './components/FatmaMemorialSection';
 import { TributePage } from './components/TributePage';
-import { AdminDashboard } from './components/AdminDashboard';
 import { ExportModal } from './components/ExportModal';
-import { 
-  subscribeToRecipes, 
-  syncAllRecipesToFirestore,
-  recordActivityLog,
-  saveUserProfileToFirestore
-} from './services/firestoreRecipeService';
-import { getStoredUser, signOutUser, saveStoredUser, isUserAdmin } from './services/authService';
 import { detectUserLanguage, getUIText, TOP_20_LANGUAGES } from './data/translations';
 import { getLocalizedRecipe } from './utils/recipeLocalization';
-import { ChefHat, Music, Heart, Sparkles, CheckCircle2, AlertCircle } from 'lucide-react';
-
-const BOOKMARKS_STORAGE_KEY = 'fatma_saved_recipes';
+import { CheckCircle2, AlertCircle } from 'lucide-react';
 
 function getSharedLanguage(): SupportedLanguage | null {
   if (typeof window === 'undefined') return null;
@@ -41,208 +30,29 @@ export default function App() {
   // Localization: Auto-detected from browser/OS or user choice (20 languages supported)
   // Defaults to Arabic if user locale is not detected or unrecognized
   const [lang, setLang] = useState<SupportedLanguage>(() => {
-    const storedUser = getStoredUser();
     const sharedLanguage = getSharedLanguage();
     if (sharedLanguage) {
       return sharedLanguage;
-    }
-    if (storedUser?.preferredLanguage) {
-      return storedUser.preferredLanguage === 'ar' ? 'ar' : 'en';
     }
     return detectUserLanguage();
   });
   const isAr = lang === 'ar' || lang === 'fa' || lang === 'ur';
 
-  // Master Recipes State
-  const [recipes, setRecipes] = useState<Recipe[]>(allRecipes);
-  
-  // Navigation Tabs: explorer | saved | biography | ingredients | comparator | admin
-  const [activeTab, setActiveTab] = useState<'explorer' | 'saved' | 'biography' | 'ingredients' | 'comparator' | 'tribute' | 'admin'>('explorer');
-  
+  // Master Recipes (static public archive)
+  const recipes = allRecipes;
+
+  // Navigation Tabs: explorer | biography | ingredients
+  const [activeTab, setActiveTab] = useState<'explorer' | 'biography' | 'ingredients' | 'tribute'>('explorer');
+
   // Active Modals & Selected Items
   const [selectedRecipe, setSelectedRecipe] = useState<Recipe | null>(null);
   const [sharingRecipe, setSharingRecipe] = useState<Recipe | null>(null);
   const [isExportOpen, setIsExportOpen] = useState(false);
 
-  // Authenticated User Profile (Google, Apple, Facebook, X, Instagram, TikTok)
-  const [currentUser, setCurrentUser] = useState<UserProfile | null>(() => getStoredUser());
-
-  // Bookmarks / Favorites State
-  const [bookmarkedIds, setBookmarkedIds] = useState<string[]>(() => {
-    try {
-      const stored = localStorage.getItem(BOOKMARKS_STORAGE_KEY);
-      if (stored) return JSON.parse(stored);
-      const user = getStoredUser();
-      if (user && user.bookmarks) return user.bookmarks;
-      return [];
-    } catch {
-      return [];
-    }
-  });
-
-  // Cloud Firestore Sync State (kept for background persistence; not exposed in public UI)
-  const [cloudStatus, setCloudStatus] = useState<'idle' | 'syncing' | 'connected' | 'error'>('idle');
-  const [cloudRecipeCount, setCloudRecipeCount] = useState<number>(0);
   const [notification, setNotification] = useState<{ message: string; type: 'success' | 'error' } | null>(null);
 
   // Calculate live database statistics
   const stats = useMemo(() => computeDatabaseStats(recipes), [recipes]);
-
-  // Handle bookmark toggle
-  const handleToggleBookmark = useCallback(async (recipe: Recipe, e?: React.MouseEvent) => {
-    if (e) e.stopPropagation();
-    const isCurrentlyBookmarked = bookmarkedIds.includes(recipe.id);
-    let updated: string[];
-
-    if (isCurrentlyBookmarked) {
-      updated = bookmarkedIds.filter(id => id !== recipe.id);
-      setNotification({
-        message: isAr ? `تمت إزالة "${recipe.title}" من المفضلة` : `Removed "${recipe.title}" from saved`,
-        type: 'success'
-      });
-    } else {
-      updated = [...bookmarkedIds, recipe.id];
-      setNotification({
-        message: isAr ? `تمت إضافة "${recipe.title}" إلى المفضلة ❤️` : `Saved "${recipe.title}" to favorites ❤️`,
-        type: 'success'
-      });
-    }
-
-    setBookmarkedIds(updated);
-    try {
-      localStorage.setItem(BOOKMARKS_STORAGE_KEY, JSON.stringify(updated));
-    } catch {
-      // ignore
-    }
-
-    // Sync with User Profile in Firestore if signed in
-    if (currentUser) {
-      const updatedProfile: UserProfile = {
-        ...currentUser,
-        bookmarks: updated,
-        lastActiveAt: new Date().toISOString()
-      };
-      setCurrentUser(updatedProfile);
-      saveStoredUser(updatedProfile);
-      await saveUserProfileToFirestore(updatedProfile);
-
-      // Log activity
-      await recordActivityLog(
-        'bookmark',
-        recipe.id,
-        recipe.title,
-        currentUser.id,
-        currentUser.name,
-        isCurrentlyBookmarked ? 'Removed from favorites' : 'Added to favorites'
-      );
-    }
-
-    setTimeout(() => setNotification(null), 3500);
-  }, [bookmarkedIds, currentUser, isAr]);
-
-  // Handle User Star Rating
-  const handleUserRate = useCallback(async (recipe: Recipe, rating: number) => {
-    if (currentUser) {
-      const updatedRatings = { ...(currentUser.ratings || {}), [recipe.id]: rating };
-      const updatedProfile: UserProfile = {
-        ...currentUser,
-        ratings: updatedRatings,
-        lastActiveAt: new Date().toISOString()
-      };
-      setCurrentUser(updatedProfile);
-      saveStoredUser(updatedProfile);
-      await saveUserProfileToFirestore(updatedProfile);
-
-      await recordActivityLog(
-        'rating',
-        recipe.id,
-        recipe.title,
-        currentUser.id,
-        currentUser.name,
-        `Rated ${rating} stars`
-      );
-    }
-
-    setNotification({
-      message: isAr ? `شكراً لتقييمك (${rating} نجوم) ⭐` : `Thank you for rating (${rating} stars) ⭐`,
-      type: 'success'
-    });
-    setTimeout(() => setNotification(null), 3500);
-  }, [currentUser, isAr]);
-
-  // Handle Language Selection with User Profile Persistence
-  const handleSelectLanguage = (newLang: SupportedLanguage) => {
-    setLang(newLang);
-    if (currentUser) {
-      const updatedProfile: UserProfile = {
-        ...currentUser,
-        preferredLanguage: newLang,
-        lastActiveAt: new Date().toISOString()
-      };
-      setCurrentUser(updatedProfile);
-      saveStoredUser(updatedProfile);
-      saveUserProfileToFirestore(updatedProfile).catch(console.error);
-    }
-  };
-
-  // Handle User Sign-Out
-  const handleSignOut = async () => {
-    await signOutUser();
-    setCurrentUser(null);
-    if (activeTab === 'admin') {
-      setActiveTab('explorer');
-    }
-    setNotification({
-      message: isAr ? 'تم تسجيل الخروج بنجاح' : 'Signed out successfully',
-      type: 'success'
-    });
-    setTimeout(() => setNotification(null), 3500);
-  };
-
-  // Initialize and listen to Firebase Firestore
-  useEffect(() => {
-    let hasAttemptedAutoSeed = false;
-
-    const unsubscribe = subscribeToRecipes(
-      (cloudRecipes) => {
-        if (cloudRecipes && cloudRecipes.length > 0) {
-          setRecipes(cloudRecipes);
-          setCloudRecipeCount(cloudRecipes.length);
-          setCloudStatus('connected');
-        } else if (!hasAttemptedAutoSeed) {
-          hasAttemptedAutoSeed = true;
-          // Auto-seed Firestore with master recipes on first run
-          setCloudStatus('syncing');
-          syncAllRecipesToFirestore(allRecipes).then((res) => {
-            if (res.success) {
-              setCloudStatus('connected');
-              setCloudRecipeCount(res.count);
-              setNotification({
-                message: isAr
-                  ? `تمت مزامنة ${res.count} وصفة لمعمارية د. فاطمة القاوقجي في Firestore بنجاح!`
-                  : `Successfully synced ${res.count} recipes to Firebase Firestore!`,
-                type: 'success'
-              });
-              setTimeout(() => setNotification(null), 5000);
-            } else {
-              setCloudStatus('idle');
-            }
-          }).catch(() => {
-            setCloudStatus('idle');
-          });
-        } else {
-          setCloudStatus('connected');
-          setCloudRecipeCount(0);
-        }
-      },
-      (error) => {
-        console.warn('Firestore subscription status:', error);
-        setCloudStatus('error');
-      }
-    );
-
-    return () => unsubscribe();
-  }, [isAr]);
 
   useEffect(() => {
     const recipeId = typeof window !== 'undefined'
@@ -279,35 +89,6 @@ export default function App() {
     }
   };
 
-  // Handle manual sync button click
-  const handleManualSync = async () => {
-    setCloudStatus('syncing');
-    const res = await syncAllRecipesToFirestore(recipes);
-    if (res.success) {
-      setCloudStatus('connected');
-      setCloudRecipeCount(res.count);
-      setNotification({
-        message: isAr
-          ? `تم تحديث ومزامنة ${res.count} وصفة في Firebase Firestore!`
-          : `Updated and synchronized ${res.count} recipes in Firebase Firestore!`,
-        type: 'success'
-      });
-      setTimeout(() => setNotification(null), 5000);
-    } else {
-      setCloudStatus('error');
-      setNotification({
-        message: isAr
-          ? `تعذرت المزامنة: ${res.error || 'يرجى التحقق من اتصال الشبكة'}`
-          : `Sync error: ${res.error || 'Please check network connection'}`,
-        type: 'error'
-      });
-      setTimeout(() => setNotification(null), 6000);
-    }
-  };
-
-  // Filter public recipes (hiding unpublished recipes from public catalogue)
-  const publicRecipes = useMemo(() => recipes, [recipes]);
-
   useEffect(() => {
     const scriptId = 'public-recipe-structured-data';
     const existingScript = document.getElementById(scriptId);
@@ -323,8 +104,8 @@ export default function App() {
       '@context': 'https://schema.org',
       '@type': 'ItemList',
       name: getUIText(lang, 'appTitle'),
-      numberOfItems: publicRecipes.length,
-      itemListElement: publicRecipes.map((recipe, index) => ({
+      numberOfItems: recipes.length,
+      itemListElement: recipes.map((recipe, index) => ({
         '@type': 'ListItem',
         position: index + 1,
         url: `${siteUrl}?recipe=${encodeURIComponent(recipe.id)}&lang=${lang}`,
@@ -345,10 +126,10 @@ export default function App() {
     });
     document.head.appendChild(script);
     return () => script.remove();
-  }, [lang, publicRecipes]);
+  }, [lang, recipes]);
 
   return (
-    <div 
+    <div
       className="min-h-screen bg-stone-100/60 text-stone-900 font-sans flex flex-col selection:bg-amber-100 selection:text-amber-900"
       dir={isAr ? 'rtl' : 'ltr'}
     >
@@ -373,14 +154,11 @@ export default function App() {
       {/* Main Navigation Header */}
       <Header
         stats={stats}
-        activeTab={activeTab}
+        activeTab={activeTab === 'tribute' ? 'biography' : activeTab}
         setActiveTab={setActiveTab}
         lang={lang}
-        setLang={handleSelectLanguage}
+        setLang={setLang}
         onShareSite={handleShareSite}
-        currentUser={currentUser}
-        onSignOut={handleSignOut}
-        savedCount={bookmarkedIds.length}
       />
 
       {/* Main Content Area */}
@@ -388,11 +166,9 @@ export default function App() {
         {/* TAB 1: ALL RECIPES EXPLORER */}
         {activeTab === 'explorer' && (
           <RecipeList
-            recipes={publicRecipes}
+            recipes={recipes}
             onSelectRecipe={(recipe) => setSelectedRecipe(recipe)}
             lang={lang}
-            bookmarkedIds={bookmarkedIds}
-            onToggleBookmark={handleToggleBookmark}
             onOpenShare={(recipe, e) => {
               e.stopPropagation();
               setSharingRecipe(recipe);
@@ -400,23 +176,7 @@ export default function App() {
           />
         )}
 
-        {/* TAB 2: MY BOOKMARKS / SAVED */}
-        {activeTab === 'saved' && (
-          <RecipeList
-            recipes={publicRecipes}
-            onSelectRecipe={(recipe) => setSelectedRecipe(recipe)}
-            lang={lang}
-            bookmarkedIds={bookmarkedIds}
-            onToggleBookmark={handleToggleBookmark}
-            onOpenShare={(recipe, e) => {
-              e.stopPropagation();
-              setSharingRecipe(recipe);
-            }}
-            onlyBookmarked={true}
-          />
-        )}
-
-        {/* TAB 3: ABOUT DR. FATMA ALKAWOKGY MEMORIAL */}
+        {/* TAB 2: ABOUT DR. FATMA ALKAWOKGY MEMORIAL */}
         {activeTab === 'biography' && (
           <FatmaMemorialSection lang={lang} onOpenTribute={() => setActiveTab('tribute')} />
         )}
@@ -425,40 +185,23 @@ export default function App() {
           <TributePage lang={lang} onBack={() => setActiveTab('biography')} />
         )}
 
-        {/* TAB 4: UNIFIED MASTER INGREDIENTS */}
+        {/* TAB 3: UNIFIED MASTER INGREDIENTS */}
         {activeTab === 'ingredients' && (
           <MasterIngredientsView
-            recipes={publicRecipes}
-            onSelectRecipe={(recipe) => setSelectedRecipe(recipe)}
-            lang={lang}
-          />
-        )}
-
-        {/* TAB 5: ADMIN 3-DOC DIFF & RECONCILIATION DASHBOARD (ADMIN-ONLY) */}
-        {activeTab === 'admin' && (
-          <AdminDashboard
             recipes={recipes}
-            onRecipeUpdated={(updatedRecipe) => {
-              setRecipes(prev => prev.map(r => r.id === updatedRecipe.id ? updatedRecipe : r));
-            }}
-            lang={lang}
-            currentUser={currentUser}
             onSelectRecipe={(recipe) => setSelectedRecipe(recipe)}
+            lang={lang}
           />
         )}
       </main>
 
-      {/* Recipe Detail Modal with Star Rating, Comments & Single Share */}
+      {/* Recipe Detail Modal */}
       {selectedRecipe && (
         <RecipeDetailModal
           recipe={selectedRecipe}
           onClose={() => setSelectedRecipe(null)}
           lang={lang}
-          currentUser={currentUser}
-          isBookmarked={bookmarkedIds.includes(selectedRecipe.id)}
-          onToggleBookmark={(r) => handleToggleBookmark(r)}
           onOpenShareModal={(r) => setSharingRecipe(r)}
-          onUserRate={(r, rating) => handleUserRate(r, rating)}
         />
       )}
 
@@ -469,11 +212,10 @@ export default function App() {
           isOpen={true}
           onClose={() => setSharingRecipe(null)}
           lang={lang}
-          currentUser={currentUser}
         />
       )}
 
-      {/* Database Export Modal (Admin / Academic Research) */}
+      {/* Database Export Modal (Academic Research) */}
       <ExportModal
         recipes={recipes}
         stats={stats}
@@ -495,39 +237,11 @@ export default function App() {
                   {getUIText(lang, 'appTitle')}
                 </span>
                 <span className="text-[11px] text-stone-500">
-                  {isAr 
-                    ? 'إرث الدكتورة فاطمة القاوقجي (1943–2026) • دكتوراه البيانو بكلية التربية الموسيقية، الزمالك، القاهرة' 
+                  {isAr
+                    ? 'إرث الدكتورة فاطمة القاوقجي (1943–2026) • دكتوراه البيانو بكلية التربية الموسيقية، الزمالك، القاهرة'
                     : 'The Culinary Archive of Dr. Fatma Alkawokgy (1943–2026) • Doctorate in Piano, Cairo'}
                 </span>
               </div>
-            </div>
-
-            <div className="flex flex-wrap items-center gap-4 text-stone-600 text-xs">
-              <button
-                onClick={() => setActiveTab('biography')}
-                className="hover:text-amber-800 transition-colors flex items-center gap-1 font-semibold"
-              >
-                <Music className="w-3.5 h-3.5 text-amber-600" />
-                <span>{getUIText(lang, 'navAboutFatma')}</span>
-              </button>
-
-              <button
-                onClick={() => setActiveTab('saved')}
-                className="hover:text-rose-600 transition-colors flex items-center gap-1 font-semibold"
-              >
-                <Heart className="w-3.5 h-3.5 text-rose-500" />
-                <span>{getUIText(lang, 'navMyBookmarks')} ({bookmarkedIds.length})</span>
-              </button>
-
-              {isUserAdmin(currentUser) && (
-                <button
-                  onClick={() => setActiveTab('admin')}
-                  className="hover:text-amber-800 transition-colors text-xs text-amber-800 font-bold flex items-center gap-1 bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-200"
-                >
-                  <span>👑</span>
-                  <span>{getUIText(lang, 'navAdminDashboard')}</span>
-                </button>
-              )}
             </div>
           </div>
 

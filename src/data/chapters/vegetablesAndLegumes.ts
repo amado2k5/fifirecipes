@@ -8540,4 +8540,200 @@ export const vegetablesAndLegumesRecipes: Recipe[] = [
       }
     }
   },
+  {
+    id: 'veg-52',
+    title: 'نصائح حفظ وتجميد الخضروات',
+    titleEn: 'Vegetable Storage & Freezing Tips',
+    chapter: 'الباب الثاني: الحساء – السلطات – الخضروات – البقول',
+    chapterNumber: 2,
+    category: 'خضروات',
+    cookingMethod: 'حفظ وتجميد',
+    prepTime: '15 دقيقة',
+    cookTime: '5 دقائق',
+    servings: 'حسب الكمية',
+    masterIngredients: [
+      {
+        id: 'vl52-1',
+        name: 'خضار طازج للتجميد (أي نوع)',
+        standardAmount: 'حسب الكمية المطلوب حفظها',
+        category: 'vegetable',
+        sourceVariations: {
+          doc1: 'الخضار',
+          doc2: 'الخضار',
+          doc3: 'الخضار'
+        },
+        isMerged: true,
+        originalOccurrencesCount: 3
+      },
+      {
+        id: 'vl52-2',
+        name: 'ماء مغلي مملح مضاف إليه بيكربونات (كربونات)',
+        standardAmount: 'كمية كافية لتغطية الخضار',
+        category: 'liquid',
+        sourceVariations: {
+          doc1: 'الماء المغلي والملح والكربونات',
+          doc2: 'الماء المغلي والملح والكربونات',
+          doc3: 'ماء مع ملح وكربونات'
+        },
+        isMerged: true,
+        originalOccurrencesCount: 3
+      },
+      {
+        id: 'vl52-3',
+        name: 'ماء مثلج (لصدمة التبريد)',
+        standardAmount: 'كمية كافية للتغطية',
+        category: 'liquid',
+        sourceVariations: {
+          doc1: 'الماء المثلج',
+          doc2: 'الماء المثلج',
+          doc3: 'ماء مثلج'
+        },
+        isMerged: true,
+        originalOccurrencesCount: 3
+      },
+      {
+        id: 'vl52-4',
+        name: 'أكياس تفريز محكمة الغلق',
+        standardAmount: 'حسب الحاجة',
+        category: 'other',
+        sourceVariations: {
+          doc1: 'كيس في الثلاجة',
+          doc2: 'كيس في الثلاجة',
+          doc3: 'أكياس داخل الفريزر'
+        },
+        isMerged: true,
+        originalOccurrencesCount: 3
+      },
+      {
+        id: 'vl52-5',
+        name: 'مغرفة مرق أو شوربة ساخنة (لتجميد الملوخية)',
+        standardAmount: '1 مغرفة لكل كمية ملوخية مفرومة',
+        category: 'liquid',
+        sourceVariations: {
+          doc1: 'مغرفة واحدة فقط من الشوربة',
+          doc2: 'مغرفة واحدة فقط من الشوربة',
+          doc3: 'مغرفة واحدة فقط من الشوربة'
+        },
+        isMerged: true,
+        originalOccurrencesCount: 3
+      },
+      {
+        id: 'vl52-6',
+        name: 'زيت زيتون وعصير ليمون كثير (لحفظ الخرشوف)',
+        standardAmount: 'حسب الكمية',
+        category: 'liquid',
+        sourceVariations: {
+          doc1: 'زيت زيتون وعصير ليمون كثير',
+          doc2: 'زيت زيتون وعصير ليمون كثير',
+          doc3: 'زيت زيتون وعصير ليمون كثير'
+        },
+        isMerged: true,
+        originalOccurrencesCount: 3
+      },
+      {
+        id: 'vl52-7',
+        name: 'خل أبيض (لتبريد شرائح البطاطس)',
+        standardAmount: 'قليل، يضاف لماء التبريد',
+        category: 'liquid',
+        sourceVariations: {
+          doc1: 'ماء بارد مضاف إليه خل',
+          doc2: 'ماء بارد مضاف إليه خل',
+          doc3: 'ماء بارد مضاف إليه خل'
+        },
+        isMerged: true,
+        originalOccurrencesCount: 3
+      }
+    ],
+    uniqueInstructions: [
+      {
+        stepNumber: 1,
+        text: 'الحفاظ على اللون الأخضر: يُغلى الماء مع الملح والكربونات، ثم يوضع الخضار فيه لمدة دقيقة واحدة فقط، ثم يُنزع فوراً ويوضع في ماء مثلج لوقف الطهو والحفاظ على لونه الأخضر الزاهي.',
+        textEn: 'Preserving the green color: boil water with salt and baking soda, drop the vegetables in for just one minute, then immediately transfer them into ice water to stop the cooking and lock in their bright green color.',
+        phase: 'prep',
+        isAlternative: true,
+        alternativeLabel: 'حفظ لون الخضار الأخضر',
+        sourceDocs: ['doc1', 'doc2', 'doc3'],
+        importance: 'tip'
+      },
+      {
+        stepNumber: 2,
+        text: 'حفظ الخضار مجمداً: بعد تنظيف الخضار وغسله يوضع في الماء المغلي المملح والمضاف إليه الكربونات كما سبق، ثم يصفى فوراً في مصفاة ويُسكب عليه الماء المثلج مباشرة. يوضع بعدها في كيس، ويُضغط عليه باليد جيداً لتفريغ الهواء، ثم يُغلق ويُكتب عليه التاريخ ويحفظ في الفريزر لمدة تصل إلى 3 أشهر. عند الاستعمال يُسكب مجمداً مباشرة في الشوربة الساخنة.',
+        textEn: 'Freezing vegetables: after washing and cleaning the vegetables, blanch them in the salted, baking-soda water as above, drain immediately in a colander and pour ice water over them right away. Place in a bag, press out the air firmly by hand, seal, label with the date, and keep frozen for up to 3 months. When needed, pour it straight into hot soup while still frozen.',
+        phase: 'prep',
+        isAlternative: true,
+        alternativeLabel: 'حفظ الخضار مجمداً',
+        sourceDocs: ['doc1', 'doc2', 'doc3'],
+        importance: 'tip'
+      },
+      {
+        stepNumber: 3,
+        text: 'حفظ الملوخية مجمدة: بعد غسل الملوخية وتقطيعها وخرطها، تُسكب عليها مغرفة واحدة فقط من الشوربة أو المرق، ثم تُحفظ داخل كيس محكم الغلق في الفريزر حتى الاستعمال.',
+        textEn: 'Freezing molokhia: after washing, cutting and mincing the molokhia leaves, pour just one ladle of broth or soup over it, then keep it in a sealed bag in the freezer until needed.',
+        phase: 'prep',
+        isAlternative: true,
+        alternativeLabel: 'حفظ الملوخية مجمدة',
+        sourceDocs: ['doc1', 'doc2', 'doc3'],
+        importance: 'tip'
+      },
+      {
+        stepNumber: 4,
+        text: 'حفظ الخرشوف في الثلاجة: يوضع الخرشوف في ماء مغلي مضاف إليه زيت زيتون وعصير ليمون كثير، ثم يُرفع ويوضع في إناء زجاجي محكم ويُحفظ في الثلاجة.',
+        textEn: 'Storing artichokes in the fridge: place the artichokes in boiling water with olive oil and plenty of lemon juice added, then lift them out into a sealed glass container and keep refrigerated.',
+        phase: 'prep',
+        isAlternative: true,
+        alternativeLabel: 'حفظ الخرشوف في الثلاجة',
+        sourceDocs: ['doc1', 'doc2', 'doc3'],
+        importance: 'tip'
+      },
+      {
+        stepNumber: 5,
+        text: 'حفظ البطاطس مجمدة: تُقطع البطاطس شرائح متوسطة السُمك وتوضع في ماء مغلي فوق البوتاجاز لمدة 3-4 دقائق، ثم تُنشل وتوضع في ماء بارد مضاف إليه خل. بعد أن تبرد توضع في مصفاة حتى تجف تماماً ثم تُغلف في أكياس داخل الفريزر. عند القلي يجب إخراجها من الفريزر وقليها وهي مجمدة مباشرة.',
+        textEn: 'Freezing potato slices: cut the potatoes into medium-thick slices and boil them for 3-4 minutes, then lift them out into cold water with a little vinegar added. Once cooled, drain in a colander until completely dry, then pack into bags in the freezer. When frying, take them out and fry them straight from frozen.',
+        phase: 'prep',
+        isAlternative: true,
+        alternativeLabel: 'حفظ البطاطس مجمدة',
+        sourceDocs: ['doc1', 'doc2', 'doc3'],
+        importance: 'tip'
+      }
+    ],
+    overlapAnalysis: {
+      duplicateInstructionCount: 5,
+      mergedIngredientsCount: 7,
+      totalUniqueSteps: 5,
+      totalMasterIngredients: 7,
+      overlapPercentage: 95,
+      documentsPresent: ['doc1', 'doc2', 'doc3'],
+      reconciliationSummary: 'مجموعة نصائح متطابقة تقريباً في الوثائق الثلاث حول حفظ وتجميد الخضروات والملوخية والخرشوف والبطاطس، وردت كفقرات قصيرة مستقلة في بداية باب الخضروات ولم تكن مصنّفة كوصفة كاملة، فتم جمعها هنا في وصفة واحدة بخطوات بديلة لكل تقنية حفظ.'
+    },
+    rawDocVersions: {
+      doc1: {
+        title: 'حفظ الخضار مجمداً / حفظ لون الخضار الأخضر / حفظ الملوخية مجمدة / حفظ الخرشوف في الثلاجة / حفظ البطاطس مجمداً',
+        ingredients: ['الخضار', 'ماء مغلي وملح وكربونات', 'ماء مثلج', 'كيس تفريز', 'مغرفة شوربة (للملوخية)', 'زيت زيتون وعصير ليمون كثير (للخرشوف)', 'ماء بارد وخل (للبطاطس)'],
+        instructions: [
+          'ينظف الخضار ويغسل ثم يوضع في الماء المغلي والملح والكربونات لمدة دقيقة.',
+          'يصفى من الماء الساخن في المصفاة وفوراً نسكب عليه الماء المثلج.',
+          'يوضع في كيس في الثلاجة ثم يضغط عليه باليد جيداً لتفريغ الهواء ويغلق ويكتب عليه التاريخ ويظل لمدة 3 شهور.',
+          'عند إخراجه مجمداً يسكب في الشوربة الساخنة فوراً.',
+          'يغلي الماء مع ملح وكربونات ثم يوضع الخضار لمدة دقيقة، ينزع من الماء المغلي ويوضع فوراً في ماء مثلج.',
+          'بعد غسل الملوخية وتقطيعها وخرطها نسكب عليها مغرفة واحدة فقط من الشوربة، ثم تحفظ داخل كيس الثلاجة داخل الفريزر.',
+          'نضع الخرشوف في ماء مغلي مضاف إليه زيت زيتون وعصير ليمون كثير ثم يوضع في إناء زجاجي ويحفظ في الثلاجة.',
+          'يقطع البطاطس شرائح متوسطة السمك ويوضع في ماء مغلي لمدة 3-4 دقائق فوق البوتاجاز، ينشل من الماء الساخن ويوضع في ماء بارد مضاف إليه خل.',
+          'بعد أن يبرد يوضع في مصفاة حتى يجف ويغلف في أكياس داخل الفريزر. عند قلي البطاطس يجب إخراجه مجمداً.'
+        ]
+      },
+      doc3: {
+        title: 'تعليمات خاصة بحفظ الخضروات: 1) للحفاظ على لون الخضار الأخضر، 2) حفظ الخضار مجمداً، 3) حفظ الملوخية مجمدة، 4) حفظ الخرشوف في الثلاجة، 5) حفظ البطاطس مجمداً',
+        ingredients: ['الخضار', 'ماء مع ملح وكربونات', 'ماء مثلج', 'أكياس فريزر', 'مغرفة شوربة (للملوخية)', 'زيت زيتون وعصير ليمون كثير (للخرشوف)', 'ماء بارد وخل (للبطاطس)'],
+        instructions: [
+          'غلي الماء مع ملح وكربونات ثم وضع الخضار لمدة دقيقة، نزع الخضار من الماء المغلي ووضعه فوراً في ماء مثلج.',
+          'ينظف الخضار ويغسل ثم يوضع في الماء المغلي والملح والكربونات كالسابقة، يصفى من الماء الساخن في المصفاة وفوراً نسكب عليه الماء المثلج.',
+          'يوضع في كيس في الثلاجة ثم يضغط عليه باليد جيداً لتفريغ الهواء ويغلق ويكتب عليه التاريخ ويظل لمدة 3 شهور، عند إخراجه مجمداً يسكب في الشوربة الساخنة فوراً.',
+          'بعد غسلها وتقطيعها وخرطها نسكب عليها مغرفة واحدة فقط من الشوربة، ثم تحفظ داخل كيس الثلاجة داخل الفريزر.',
+          'نضع الخرشوف في ماء مغلي مضاف إليه زيت زيتون وعصير ليمون كثير ثم يوضع في إناء زجاجي ويحفظ في الثلاجة.',
+          'يقطع البطاطس شرائح متوسطة السمك ويوضع في ماء مغلي لمدة 3-4 دقائق فوق البوتاجاز، ينشل من الماء الساخن ويوضع في ماء بارد مضاف إليه خل.',
+          'بعد أن يبرد يوضع في مصفاة حتى يجف ويغلف في أكياس داخل الفريزر، عند قلي البطاطس يجب إخراجه مجمداً.'
+        ]
+      }
+    }
+  },
 ];

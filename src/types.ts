@@ -62,11 +62,6 @@ export interface Recipe {
   servings?: string;
   difficulty?: 'easy' | 'medium' | 'master';
   imageUrl?: string;
-  disabled?: boolean;
-  visibility?: boolean;
-  averageRating?: number;
-  ratingsCount?: number;
-  sharesCount?: number;
   masterIngredients: MasterIngredient[];
   uniqueInstructions: UniqueInstruction[];
   alternativeMethods?: {
@@ -108,59 +103,12 @@ export interface LanguageInfo {
   flag: string;
 }
 
-export type AuthProviderType = 'google' | 'apple' | 'facebook' | 'x' | 'instagram' | 'tiktok' | 'email';
-
-export interface UserProfile {
-  id: string;
-  name: string;
-  email?: string;
-  provider: AuthProviderType;
-  avatar?: string;
-  role?: 'admin' | 'user';
-  preferredLanguage?: SupportedLanguage;
-  bookmarks: string[]; // recipe IDs
-  history: {
-    recipeId: string;
-    recipeTitle: string;
-    viewedAt: string;
-  }[];
-  ratings: Record<string, number>; // recipeId -> star rating (1-5)
-  createdAt: string;
-  lastActiveAt: string;
-}
-
-export interface RecipeComment {
-  id: string;
-  recipeId: string;
-  recipeTitle: string;
-  userId: string;
-  userName: string;
-  userAvatar?: string;
-  userProvider: AuthProviderType | 'guest';
-  rating: number;
-  comment: string;
-  createdAt: string;
-}
-
 export interface Tribute {
   id: string;
   name: string;
   message: string;
   location?: string;
   language: SupportedLanguage;
-  createdAt: string;
-}
-
-export interface ActivityLog {
-  id: string;
-  actionType: 'share' | 'bookmark' | 'rating' | 'comment' | 'view';
-  recipeId: string;
-  recipeTitle: string;
-  platform?: 'whatsapp' | 'sms' | 'x' | 'email' | 'copy_link' | 'pdf_export' | 'md_export';
-  userId?: string;
-  userName?: string;
-  userProvider?: string;
-  details?: string;
   createdAt: string;
 }
 

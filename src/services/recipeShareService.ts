@@ -1,5 +1,4 @@
-import { Recipe, SupportedLanguage, UserProfile } from '../types';
-import { logActivityToFirestore } from './firestoreRecipeService';
+import { Recipe, SupportedLanguage } from '../types';
 
 /**
  * Clean URL of the current recipe
@@ -25,7 +24,7 @@ function getIngredientsSummaryText(recipe: Recipe, max: number = 4): string {
 /**
  * Share via WhatsApp
  */
-export async function shareToWhatsApp(recipe: Recipe, lang: SupportedLanguage, user?: UserProfile | null): Promise<void> {
+export async function shareToWhatsApp(recipe: Recipe, lang: SupportedLanguage): Promise<void> {
   const url = getRecipeShareUrl(recipe.id, lang);
   const text = `🍳 *${recipe.title}* (${recipe.chapter})\n` +
     `كتاب وصفات د. فاطمة القاوقجي (1943-2026)\n\n` +
@@ -35,101 +34,45 @@ export async function shareToWhatsApp(recipe: Recipe, lang: SupportedLanguage, u
 
   const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`;
   window.open(whatsappUrl, '_blank');
-
-  await logActivityToFirestore({
-    actionType: 'share',
-    recipeId: recipe.id,
-    recipeTitle: recipe.title,
-    platform: 'whatsapp',
-    userId: user?.id,
-    userName: user?.name,
-    userProvider: user?.provider,
-    details: 'Shared via WhatsApp'
-  });
 }
 
 /**
  * Share via SMS
  */
-export async function shareToSMS(recipe: Recipe, lang: SupportedLanguage, user?: UserProfile | null): Promise<void> {
+export async function shareToSMS(recipe: Recipe, lang: SupportedLanguage): Promise<void> {
   const url = getRecipeShareUrl(recipe.id, lang);
   const body = `وصفة "${recipe.title}" من كتاب د. فاطمة القاوقجي للطهي التراثي:\n${url}`;
   window.location.href = `sms:?body=${encodeURIComponent(body)}`;
-
-  await logActivityToFirestore({
-    actionType: 'share',
-    recipeId: recipe.id,
-    recipeTitle: recipe.title,
-    platform: 'sms',
-    userId: user?.id,
-    userName: user?.name,
-    userProvider: user?.provider,
-    details: 'Shared via SMS'
-  });
 }
 
 /**
  * Share via X (Twitter)
  */
-export async function shareToX(recipe: Recipe, lang: SupportedLanguage, user?: UserProfile | null): Promise<void> {
+export async function shareToX(recipe: Recipe, lang: SupportedLanguage): Promise<void> {
   const url = getRecipeShareUrl(recipe.id, lang);
   const text = `أسرار تحضير "${recipe.title}" من كتاب وصفات د. فاطمة القاوقجي للطهي المصري التراثي 🍲\n#مطبخ_مصري #فاطمة_القاوقجي`;
   const xUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
   window.open(xUrl, '_blank');
-
-  await logActivityToFirestore({
-    actionType: 'share',
-    recipeId: recipe.id,
-    recipeTitle: recipe.title,
-    platform: 'x',
-    userId: user?.id,
-    userName: user?.name,
-    userProvider: user?.provider,
-    details: 'Shared via X'
-  });
 }
 
 /**
  * Share via Email
  */
-export async function shareToEmail(recipe: Recipe, lang: SupportedLanguage, user?: UserProfile | null): Promise<void> {
+export async function shareToEmail(recipe: Recipe, lang: SupportedLanguage): Promise<void> {
   const url = getRecipeShareUrl(recipe.id, lang);
   const subject = `وصفة: ${recipe.title} - كتاب د. فاطمة القاوقجي`;
   const body = `مرحباً،\n\nأشاركك هذه الوصفة الشهية والمضبوطة من كتاب د. فاطمة القاوقجي (1943–2026) للطهي المصري الأصيل:\n\n${recipe.title}\nالقسم: ${recipe.chapter}\nوقت التحضير: ${recipe.prepTime || '-'} | وقت الطهي: ${recipe.cookTime || '-'}\n\nالمقادير:\n${getIngredientsSummaryText(recipe, 8)}\n\nيمكنك مشاهدة الوصفة كاملة مع النصائح والخطوات عبر الرابط التالي:\n${url}\n\nبالهناء والشفاء!`;
 
   window.location.href = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-
-  await logActivityToFirestore({
-    actionType: 'share',
-    recipeId: recipe.id,
-    recipeTitle: recipe.title,
-    platform: 'email',
-    userId: user?.id,
-    userName: user?.name,
-    userProvider: user?.provider,
-    details: 'Shared via Email'
-  });
 }
 
 /**
  * Copy link to clipboard
  */
-export async function copyRecipeLink(recipe: Recipe, lang: SupportedLanguage, user?: UserProfile | null): Promise<boolean> {
+export async function copyRecipeLink(recipe: Recipe, lang: SupportedLanguage): Promise<boolean> {
   try {
     const url = getRecipeShareUrl(recipe.id, lang);
     await navigator.clipboard.writeText(url);
-
-    await logActivityToFirestore({
-      actionType: 'share',
-      recipeId: recipe.id,
-      recipeTitle: recipe.title,
-      platform: 'copy_link',
-      userId: user?.id,
-      userName: user?.name,
-      userProvider: user?.provider,
-      details: 'Copied link to clipboard'
-    });
-
     return true;
   } catch {
     return false;
@@ -139,7 +82,7 @@ export async function copyRecipeLink(recipe: Recipe, lang: SupportedLanguage, us
 /**
  * Export single recipe as formatted Markdown file
  */
-export async function exportRecipeAsMarkdown(recipe: Recipe, lang: SupportedLanguage, user?: UserProfile | null): Promise<void> {
+export async function exportRecipeAsMarkdown(recipe: Recipe, lang: SupportedLanguage): Promise<void> {
   let md = `# ${recipe.title}\n\n`;
   md += `**English Title:** ${recipe.titleEn}\n`;
   md += `**Chapter / الباب:** ${recipe.chapter}\n`;
@@ -179,23 +122,12 @@ export async function exportRecipeAsMarkdown(recipe: Recipe, lang: SupportedLang
   a.click();
   document.body.removeChild(a);
   URL.revokeObjectURL(downloadUrl);
-
-  await logActivityToFirestore({
-    actionType: 'share',
-    recipeId: recipe.id,
-    recipeTitle: recipe.title,
-    platform: 'md_export',
-    userId: user?.id,
-    userName: user?.name,
-    userProvider: user?.provider,
-    details: 'Exported single recipe as Markdown'
-  });
 }
 
 /**
  * Export single recipe as clean printable PDF
  */
-export async function exportRecipeAsPdf(recipe: Recipe, lang: SupportedLanguage, user?: UserProfile | null): Promise<void> {
+export async function exportRecipeAsPdf(recipe: Recipe, lang: SupportedLanguage): Promise<void> {
   const isAr = lang === 'ar' || lang === 'fa' || lang === 'ur';
   const printWindow = window.open('', '_blank');
   if (!printWindow) return;
@@ -297,15 +229,4 @@ export async function exportRecipeAsPdf(recipe: Recipe, lang: SupportedLanguage,
   printWindow.document.open();
   printWindow.document.write(html);
   printWindow.document.close();
-
-  await logActivityToFirestore({
-    actionType: 'share',
-    recipeId: recipe.id,
-    recipeTitle: recipe.title,
-    platform: 'pdf_export',
-    userId: user?.id,
-    userName: user?.name,
-    userProvider: user?.provider,
-    details: 'Exported single recipe as PDF'
-  });
 }

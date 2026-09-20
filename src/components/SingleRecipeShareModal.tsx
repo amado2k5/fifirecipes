@@ -13,15 +13,15 @@ import {
   Sparkles,
   Smartphone
 } from 'lucide-react';
-import { Recipe, SupportedLanguage, UserProfile } from '../types';
-import { 
-  shareToWhatsApp, 
-  shareToSMS, 
-  shareToX, 
-  shareToEmail, 
-  copyRecipeLink, 
-  exportRecipeAsMarkdown, 
-  exportRecipeAsPdf 
+import { Recipe, SupportedLanguage } from '../types';
+import {
+  shareToWhatsApp,
+  shareToSMS,
+  shareToX,
+  shareToEmail,
+  copyRecipeLink,
+  exportRecipeAsMarkdown,
+  exportRecipeAsPdf
 } from '../services/recipeShareService';
 import { getUIText } from '../data/translations';
 
@@ -30,22 +30,20 @@ interface SingleRecipeShareModalProps {
   isOpen: boolean;
   onClose: () => void;
   lang: SupportedLanguage;
-  currentUser: UserProfile | null;
 }
 
 export const SingleRecipeShareModal: React.FC<SingleRecipeShareModalProps> = ({
   recipe,
   isOpen,
   onClose,
-  lang,
-  currentUser
+  lang
 }) => {
   const [copied, setCopied] = useState(false);
 
   if (!isOpen || !recipe) return null;
 
   const handleCopyLink = async () => {
-    const ok = await copyRecipeLink(recipe, lang, currentUser);
+    const ok = await copyRecipeLink(recipe, lang);
     if (ok) {
       setCopied(true);
       setTimeout(() => setCopied(false), 2500);
@@ -113,7 +111,7 @@ export const SingleRecipeShareModal: React.FC<SingleRecipeShareModalProps> = ({
               {/* WhatsApp */}
               <button
                 onClick={() => {
-                  shareToWhatsApp(recipe, lang, currentUser);
+                  shareToWhatsApp(recipe, lang);
                   onClose();
                 }}
                 className="flex items-center gap-2.5 p-3 rounded-xl border border-stone-200 hover:border-emerald-500 hover:bg-emerald-50/50 transition-all text-left group"
@@ -132,7 +130,7 @@ export const SingleRecipeShareModal: React.FC<SingleRecipeShareModalProps> = ({
               {/* X / Twitter */}
               <button
                 onClick={() => {
-                  shareToX(recipe, lang, currentUser);
+                  shareToX(recipe, lang);
                   onClose();
                 }}
                 className="flex items-center gap-2.5 p-3 rounded-xl border border-stone-200 hover:border-stone-800 hover:bg-stone-50 transition-all text-left group"
@@ -151,7 +149,7 @@ export const SingleRecipeShareModal: React.FC<SingleRecipeShareModalProps> = ({
               {/* SMS */}
               <button
                 onClick={() => {
-                  shareToSMS(recipe, lang, currentUser);
+                  shareToSMS(recipe, lang);
                   onClose();
                 }}
                 className="flex items-center gap-2.5 p-3 rounded-xl border border-stone-200 hover:border-sky-500 hover:bg-sky-50/50 transition-all text-left group"
@@ -170,7 +168,7 @@ export const SingleRecipeShareModal: React.FC<SingleRecipeShareModalProps> = ({
               {/* Email */}
               <button
                 onClick={() => {
-                  shareToEmail(recipe, lang, currentUser);
+                  shareToEmail(recipe, lang);
                   onClose();
                 }}
                 className="flex items-center gap-2.5 p-3 rounded-xl border border-stone-200 hover:border-amber-500 hover:bg-amber-50/50 transition-all text-left group"
@@ -197,7 +195,7 @@ export const SingleRecipeShareModal: React.FC<SingleRecipeShareModalProps> = ({
               {/* PDF Print/Export */}
               <button
                 onClick={() => {
-                  exportRecipeAsPdf(recipe, lang, currentUser);
+                  exportRecipeAsPdf(recipe, lang);
                   onClose();
                 }}
                 className="flex items-center gap-2.5 p-3 rounded-xl border border-stone-200 hover:border-rose-400 hover:bg-rose-50/40 transition-all text-left group"
@@ -216,7 +214,7 @@ export const SingleRecipeShareModal: React.FC<SingleRecipeShareModalProps> = ({
               {/* Markdown Export */}
               <button
                 onClick={() => {
-                  exportRecipeAsMarkdown(recipe, lang, currentUser);
+                  exportRecipeAsMarkdown(recipe, lang);
                   onClose();
                 }}
                 className="flex items-center gap-2.5 p-3 rounded-xl border border-stone-200 hover:border-purple-400 hover:bg-purple-50/40 transition-all text-left group"

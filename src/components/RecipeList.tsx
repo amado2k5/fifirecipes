@@ -1,16 +1,15 @@
 import React, { useState, useMemo } from 'react';
 import { Recipe, SupportedLanguage } from '../types';
 import { RecipeCard } from './RecipeCard';
-import { 
-  Search, 
-  Filter, 
-  SlidersHorizontal, 
-  UtensilsCrossed, 
+import {
+  Search,
+  Filter,
+  SlidersHorizontal,
+  UtensilsCrossed,
   X,
   Flame,
   Layers,
-  Sparkles,
-  Heart
+  Sparkles
 } from 'lucide-react';
 import { getUIText } from '../data/translations';
 import { getLocalizedIngredient, getLocalizedRecipe } from '../utils/recipeLocalization';
@@ -19,20 +18,14 @@ interface RecipeListProps {
   recipes: Recipe[];
   onSelectRecipe: (recipe: Recipe) => void;
   lang: SupportedLanguage;
-  bookmarkedIds: string[];
-  onToggleBookmark: (recipe: Recipe, e: React.MouseEvent) => void;
   onOpenShare: (recipe: Recipe, e: React.MouseEvent) => void;
-  onlyBookmarked?: boolean;
 }
 
 export const RecipeList: React.FC<RecipeListProps> = ({
   recipes,
   onSelectRecipe,
   lang,
-  bookmarkedIds,
-  onToggleBookmark,
-  onOpenShare,
-  onlyBookmarked = false
+  onOpenShare
 }) => {
   const isAr = lang === 'ar' || lang === 'fa' || lang === 'ur';
 
@@ -41,13 +34,7 @@ export const RecipeList: React.FC<RecipeListProps> = ({
   const [selectedCookingMethod, setSelectedCookingMethod] = useState<string>('all');
   const [sortBy, setSortBy] = useState<'overlap' | 'title' | 'ingredients' | 'steps'>('overlap');
 
-  // Base list depending on bookmark tab mode
-  const baseRecipes = useMemo(() => {
-    if (onlyBookmarked) {
-      return recipes.filter(r => bookmarkedIds.includes(r.id));
-    }
-    return recipes;
-  }, [recipes, onlyBookmarked, bookmarkedIds]);
+  const baseRecipes = recipes;
 
   const categories = useMemo(() => {
     return Array.from(new Set(recipes.map(r => r.category)));
@@ -179,11 +166,6 @@ export const RecipeList: React.FC<RecipeListProps> = ({
             ? `عرض ${filteredRecipes.length} من أصل ${baseRecipes.length} وصفة`
             : `Showing ${filteredRecipes.length} of ${baseRecipes.length} recipes`}
         </span>
-        {onlyBookmarked && (
-          <span className="text-emerald-700 font-semibold">
-            {isAr ? 'قائمة وصفاتك المفضلة والمحفوظة' : 'Your Bookmarked Recipes'}
-          </span>
-        )}
       </div>
 
       {/* Recipe Grid */}
@@ -195,43 +177,25 @@ export const RecipeList: React.FC<RecipeListProps> = ({
               recipe={recipe}
               onSelect={onSelectRecipe}
               lang={lang}
-              isBookmarked={bookmarkedIds.includes(recipe.id)}
-              onToggleBookmark={onToggleBookmark}
               onOpenShare={onOpenShare}
             />
           ))}
         </div>
       ) : (
         <div className="bg-white rounded-2xl border border-stone-200 p-12 text-center text-stone-500 space-y-3">
-          {onlyBookmarked ? (
-            <>
-              <Heart className="w-12 h-12 text-rose-300 mx-auto" />
-              <h4 className="text-base font-bold text-stone-800">
-                {isAr ? 'لم تقم بحفظ أي وصفات في المفضلة بعد' : 'No bookmarked recipes yet'}
-              </h4>
-              <p className="text-xs max-w-sm mx-auto text-stone-500">
-                {isAr 
-                  ? 'انقر على أيقونة القلب في أي بطاقة وصفة لإضافتها إلى قائمة مفضلتك والرجوع إليها في أي وقت.'
-                  : 'Click the heart icon on any recipe card to save it for quick access anytime.'}
-              </p>
-            </>
-          ) : (
-            <>
-              <UtensilsCrossed className="w-10 h-10 text-stone-300 mx-auto" />
-              <h4 className="text-base font-bold text-stone-800">
-                {isAr ? 'لا توجد وصفات تطابق خيارات البحث' : 'No recipes match your filter criteria'}
-              </h4>
-              <p className="text-xs max-w-sm mx-auto text-stone-500">
-                {isAr ? 'جرّب البحث بكلمات أخرى أو إعادة ضبط الفلاتر لاستعراض كامل قاعدة البيانات.' : 'Try changing your search terms or resetting the active filters.'}
-              </p>
-              <button
-                onClick={resetFilters}
-                className="px-4 py-2 text-xs font-semibold text-amber-800 bg-amber-50 hover:bg-amber-100 rounded-lg transition-colors border border-amber-200"
-              >
-                {isAr ? 'إظهار جميع الوصفات' : 'Show All Recipes'}
-              </button>
-            </>
-          )}
+          <UtensilsCrossed className="w-10 h-10 text-stone-300 mx-auto" />
+          <h4 className="text-base font-bold text-stone-800">
+            {isAr ? 'لا توجد وصفات تطابق خيارات البحث' : 'No recipes match your filter criteria'}
+          </h4>
+          <p className="text-xs max-w-sm mx-auto text-stone-500">
+            {isAr ? 'جرّب البحث بكلمات أخرى أو إعادة ضبط الفلاتر لاستعراض كامل قاعدة البيانات.' : 'Try changing your search terms or resetting the active filters.'}
+          </p>
+          <button
+            onClick={resetFilters}
+            className="px-4 py-2 text-xs font-semibold text-amber-800 bg-amber-50 hover:bg-amber-100 rounded-lg transition-colors border border-amber-200"
+          >
+            {isAr ? 'إظهار جميع الوصفات' : 'Show All Recipes'}
+          </button>
         </div>
       )}
     </div>

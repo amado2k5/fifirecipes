@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { ArrowLeft, ArrowRight, Clock, Heart, Quote, Send } from 'lucide-react';
 import { SupportedLanguage, Tribute } from '../types';
-import { addTributeToFirestore, subscribeToTributes } from '../services/firestoreRecipeService';
+import { addTribute, subscribeToTributes } from '../services/tributeService';
 
 interface TributePageProps {
   lang: SupportedLanguage;
@@ -25,7 +25,7 @@ export const TributePage: React.FC<TributePageProps> = ({ lang, onBack }) => {
 
     setIsSubmitting(true);
     try {
-      await addTributeToFirestore({
+      await addTribute({
         name: name.trim(),
         location: location.trim() || undefined,
         message: message.trim(),
