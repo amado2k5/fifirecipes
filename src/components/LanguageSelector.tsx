@@ -53,7 +53,7 @@ export const LanguageSelector: React.FC<LanguageSelectorProps> = ({
       </button>
 
       {isOpen && (
-        <div className="origin-top-right absolute right-0 mt-2 w-72 rounded-xl shadow-xl bg-white ring-1 ring-black/5 divide-y divide-stone-100 focus:outline-none z-50 overflow-hidden border border-stone-200">
+        <div className="absolute start-0 lg:start-auto lg:end-0 mt-2 w-72 max-w-[calc(100vw-2rem)] rounded-xl shadow-xl bg-white ring-1 ring-black/5 divide-y divide-stone-100 focus:outline-none z-50 overflow-hidden border border-stone-200">
           <div className="p-2.5 bg-stone-50 text-[11px] text-stone-600 border-b border-stone-200">
             <div className="font-bold text-stone-800">Arabic / English</div>
             <div className="text-[10px] text-stone-500">Detected: {detectedLocale}</div>

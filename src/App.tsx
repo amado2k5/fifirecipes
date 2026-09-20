@@ -10,12 +10,12 @@ import { Header } from './components/Header';
 import { RecipeList } from './components/RecipeList';
 import { MasterIngredientsView } from './components/MasterIngredientsView';
 import { RecipeDetailModal } from './components/RecipeDetailModal';
-import { SingleRecipeShareModal } from './components/SingleRecipeShareModal';
 import { FatmaMemorialSection } from './components/FatmaMemorialSection';
 import { TributePage } from './components/TributePage';
 import { ExportModal } from './components/ExportModal';
 import { detectUserLanguage, getUIText, TOP_20_LANGUAGES } from './data/translations';
 import { getLocalizedRecipe } from './utils/recipeLocalization';
+import { shareRecipe } from './services/recipeShareService';
 import { CheckCircle2, AlertCircle, Mail } from 'lucide-react';
 
 const FEEDBACK_EMAIL = 'ahamdy@gmail.com';
@@ -48,7 +48,6 @@ export default function App() {
 
   // Active Modals & Selected Items
   const [selectedRecipe, setSelectedRecipe] = useState<Recipe | null>(null);
-  const [sharingRecipe, setSharingRecipe] = useState<Recipe | null>(null);
   const [isExportOpen, setIsExportOpen] = useState(false);
 
   const [notification, setNotification] = useState<{ message: string; type: 'success' | 'error' } | null>(null);
@@ -87,6 +86,15 @@ export default function App() {
     } else {
       await navigator.clipboard.writeText(url.toString());
       setNotification({ message: isAr ? 'تم نسخ رابط الموقع' : 'Site link copied', type: 'success' });
+      setTimeout(() => setNotification(null), 3500);
+    }
+  };
+
+  const handleShareRecipe = async (recipe: Recipe) => {
+    const title = getLocalizedRecipe(recipe, lang).title;
+    const result = await shareRecipe(recipe, lang, title);
+    if (result.copied) {
+      setNotification({ message: isAr ? 'تم نسخ رابط الوصفة' : 'Recipe link copied', type: 'success' });
       setTimeout(() => setNotification(null), 3500);
     }
   };
@@ -181,7 +189,7 @@ export default function App() {
             lang={lang}
             onOpenShare={(recipe, e) => {
               e.stopPropagation();
-              setSharingRecipe(recipe);
+              handleShareRecipe(recipe);
             }}
           />
         )}
@@ -211,17 +219,7 @@ export default function App() {
           recipe={selectedRecipe}
           onClose={() => setSelectedRecipe(null)}
           lang={lang}
-          onOpenShareModal={(r) => setSharingRecipe(r)}
-        />
-      )}
-
-      {/* Single Recipe Share Modal (Individual recipe share & export only) */}
-      {sharingRecipe && (
-        <SingleRecipeShareModal
-          recipe={sharingRecipe}
-          isOpen={true}
-          onClose={() => setSharingRecipe(null)}
-          lang={lang}
+          onShareRecipe={handleShareRecipe}
         />
       )}
 

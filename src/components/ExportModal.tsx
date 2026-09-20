@@ -187,9 +187,10 @@ CREATE TABLE IF NOT EXISTS recipe_instructions (
   };
 
   return (
-    <div className="fixed inset-0 z-50 overflow-y-auto bg-stone-900/60 backdrop-blur-xs flex items-center justify-center p-4">
-      <div 
-        className="bg-white w-full max-w-xl rounded-2xl shadow-2xl border border-stone-200 overflow-hidden"
+    <div className="fixed inset-0 z-50 overflow-y-auto bg-stone-900/60 backdrop-blur-xs">
+      <div className="min-h-full flex items-center justify-center p-4">
+      <div
+        className="bg-white w-full max-w-xl rounded-2xl shadow-2xl border border-stone-200 overflow-hidden my-auto"
         onClick={e => e.stopPropagation()}
       >
         <div className="bg-stone-900 text-white p-5 flex items-center justify-between">
@@ -293,6 +294,7 @@ CREATE TABLE IF NOT EXISTS recipe_instructions (
             {isAr ? 'إغلاق النافذة' : 'Close'}
           </button>
         </div>
+      </div>
       </div>
     </div>
   );
