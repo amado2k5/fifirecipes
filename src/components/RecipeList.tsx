@@ -34,11 +34,18 @@ export const RecipeList: React.FC<RecipeListProps> = ({
   const [selectedCookingMethod, setSelectedCookingMethod] = useState<string>('all');
   const [sortBy, setSortBy] = useState<'overlap' | 'title' | 'ingredients' | 'steps'>('overlap');
 
+  // Reset localized filter selections when the display language changes,
+  // since category/method labels are language-specific strings.
+  React.useEffect(() => {
+    setSelectedCategory('all');
+    setSelectedCookingMethod('all');
+  }, [lang]);
+
   const baseRecipes = recipes;
 
   const categories = useMemo(() => {
-    return Array.from(new Set(recipes.map(r => r.category)));
-  }, [recipes]);
+    return Array.from(new Set(recipes.map(r => getLocalizedRecipe(r, lang).category)));
+  }, [recipes, lang]);
 
   const cookingMethods = useMemo(() => {
     return Array.from(new Set(recipes.map(r => getLocalizedRecipe(r, lang).cookingMethod)));
@@ -49,12 +56,14 @@ export const RecipeList: React.FC<RecipeListProps> = ({
     return baseRecipes.filter(r => {
       const localized = getLocalizedRecipe(r, lang);
       const normalizedSearch = searchTerm.toLowerCase();
-      const matchSearch = 
+      const matchSearch =
         localized.title.toLowerCase().includes(normalizedSearch) ||
         r.title.toLowerCase().includes(normalizedSearch) ||
+        localized.category.toLowerCase().includes(normalizedSearch) ||
+        r.category.toLowerCase().includes(normalizedSearch) ||
         r.masterIngredients.some(i => getLocalizedIngredient(i, lang).toLowerCase().includes(normalizedSearch));
 
-      const matchCategory = selectedCategory === 'all' || r.category === selectedCategory;
+      const matchCategory = selectedCategory === 'all' || localized.category === selectedCategory;
       const matchMethod = selectedCookingMethod === 'all' || getLocalizedRecipe(r, lang).cookingMethod === selectedCookingMethod;
 
       return matchSearch && matchCategory && matchMethod;
@@ -147,7 +156,7 @@ export const RecipeList: React.FC<RecipeListProps> = ({
             </button>
           ))}
 
-          {(selectedCookingMethod !== 'all' || searchTerm) && (
+          {(selectedCategory !== 'all' || selectedCookingMethod !== 'all' || searchTerm) && (
             <button
               onClick={resetFilters}
               className="mr-auto text-xs text-rose-600 hover:underline flex items-center gap-1 font-semibold"
@@ -156,6 +165,30 @@ export const RecipeList: React.FC<RecipeListProps> = ({
               <span>{isAr ? 'إعادة ضبط الفلاتر' : 'Reset filters'}</span>
             </button>
           )}
+        </div>
+
+        {/* Secondary Filters (Category) */}
+        <div className="flex flex-wrap items-center gap-2 pt-2 text-xs">
+          <span className="text-stone-400 font-medium">{isAr ? 'التصنيف:' : 'Category:'}</span>
+          <button
+            onClick={() => setSelectedCategory('all')}
+            className={`px-2.5 py-1 rounded-md text-xs font-medium transition-colors ${
+              selectedCategory === 'all' ? 'bg-amber-100 text-amber-800' : 'bg-stone-50 text-stone-600 hover:bg-stone-100'
+            }`}
+          >
+            {isAr ? 'الكل' : 'All'}
+          </button>
+          {categories.map(c => (
+            <button
+              key={c}
+              onClick={() => setSelectedCategory(c)}
+              className={`px-2.5 py-1 rounded-md text-xs font-medium transition-colors ${
+                selectedCategory === c ? 'bg-amber-100 text-amber-800 font-bold' : 'bg-stone-50 text-stone-600 hover:bg-stone-100'
+              }`}
+            >
+              {c}
+            </button>
+          ))}
         </div>
       </div>
 
