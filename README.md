@@ -35,7 +35,15 @@ No Google AI, Gemini, or Google Cloud AI API key is required. The recipe archive
 
 ## Optional Firebase configuration
 
-The included Firebase app configuration enables cloud sync and authentication when a Firebase project is available. To use those optional features, configure the desired sign-in providers and authorized domains in Firebase. They are not required to browse or use the local recipe archive.
+The included Firebase app configuration enables cloud sync and real authentication when a Firebase project is available. They are not required to browse or use the local recipe archive.
+
+To enable sign-in on the deployed site, use Firebase Console → **Authentication**:
+
+1. In **Settings → Authorized domains**, add `amado2k5.github.io` (and add a future custom domain such as `fifi.cooking` before using it).
+2. In **Sign-in method**, enable Email/Password and any social providers displayed in the app.
+3. For Apple, Facebook, X, Instagram, and TikTok, enter the client credentials from that provider and register Firebase's callback URL: `https://history-navigator-472603.firebaseapp.com/__/auth/handler`.
+
+The login controls call Firebase Authentication; they do not create mock accounts. Social providers need their own developer-account credentials before they can be used.
 
 ## GitHub Pages
 

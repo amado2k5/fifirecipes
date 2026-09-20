@@ -26,6 +26,31 @@ interface AuthModalProps {
   onSelectLanguage: (lang: SupportedLanguage) => void;
 }
 
+function getAuthErrorMessage(error: unknown, isAr: boolean): string {
+  const authError = error as { code?: string; message?: string };
+  const hostname = typeof window === 'undefined' ? 'this website' : window.location.hostname;
+
+  switch (authError.code) {
+    case 'auth/unauthorized-domain':
+      return isAr
+        ? `هذا النطاق (${hostname}) غير مضاف إلى النطاقات المصرح بها في Firebase Authentication.`
+        : `This site (${hostname}) is not authorized for Firebase Authentication.`;
+    case 'auth/operation-not-allowed':
+      return isAr
+        ? 'طريقة تسجيل الدخول هذه غير مفعّلة في Firebase بعد.'
+        : 'This sign-in method has not been enabled in Firebase yet.';
+    case 'auth/popup-blocked':
+      return isAr ? 'حظر المتصفح نافذة تسجيل الدخول. اسمح بالنوافذ المنبثقة ثم حاول مجدداً.' : 'Your browser blocked the sign-in popup. Allow popups and try again.';
+    case 'auth/invalid-credential':
+    case 'auth/wrong-password':
+      return isAr ? 'البريد الإلكتروني أو كلمة المرور غير صحيحة.' : 'The email address or password is incorrect.';
+    case 'auth/email-already-in-use':
+      return isAr ? 'يوجد حساب بهذا البريد الإلكتروني بالفعل.' : 'An account already exists for this email address.';
+    default:
+      return authError.message || (isAr ? 'تعذر إتمام تسجيل الدخول. حاول مرة أخرى.' : 'Sign-in could not be completed. Please try again.');
+  }
+}
+
 export const AuthModal: React.FC<AuthModalProps> = ({
   isOpen,
   onClose,
@@ -66,7 +91,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
       onUserChanged(user);
       onClose();
     } catch (err: any) {
-      setAuthError(err?.message || (isAr ? 'تعذر تسجيل الدخول عبر Google.' : 'Google sign-in failed.'));
+      setAuthError(getAuthErrorMessage(err, isAr));
     } finally {
       setLoadingProvider(null);
     }
@@ -80,7 +105,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
       onUserChanged(user);
       onClose();
     } catch (err: any) {
-      setAuthError(err?.message || (isAr ? 'تعذر تسجيل الدخول عبر هذا المزوّد.' : 'This provider is not configured or sign-in failed.'));
+      setAuthError(getAuthErrorMessage(err, isAr));
     } finally {
       setLoadingProvider(null);
     }
@@ -97,7 +122,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
       onUserChanged(user);
       onClose();
     } catch (err: any) {
-      setAuthError(err?.message || (isAr ? 'تعذر إتمام العملية.' : 'Email authentication failed.'));
+      setAuthError(getAuthErrorMessage(err, isAr));
     } finally {
       setLoadingProvider(null);
     }

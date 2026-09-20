@@ -74,7 +74,13 @@ function profileFromFirebaseUser(fbUser: FirebaseUser, preferredLanguage?: Suppo
 async function saveFirebaseProfile(fbUser: FirebaseUser, preferredLanguage?: SupportedLanguage): Promise<UserProfile> {
   const profile = profileFromFirebaseUser(fbUser, preferredLanguage);
   saveStoredUser(profile);
-  await saveUserProfileToFirestore(profile);
+  // Authentication succeeds independently of the optional cloud profile sync.
+  // Keep the signed-in local session when Firestore is temporarily unavailable.
+  try {
+    await saveUserProfileToFirestore(profile);
+  } catch (error) {
+    console.warn('Signed in, but could not synchronize the profile to Firestore.', error);
+  }
   return profile;
 }
 
@@ -119,61 +125,6 @@ export async function signInWithOAuthProvider(provider: Exclude<AuthProviderType
   const profile = await saveFirebaseProfile(credential.user, preferredLanguage);
   profile.provider = provider;
   saveStoredUser(profile);
-  return profile;
-}
-
-/**
- * Sign in using any supported social provider (Apple, Facebook, X, Instagram, TikTok)
- */
-export async function signInWithSocialProvider(
-  provider: AuthProviderType,
-  customName?: string,
-  customEmail?: string,
-  preferredLanguage?: SupportedLanguage,
-  forceAdmin?: boolean
-): Promise<UserProfile> {
-  const providerNames: Record<AuthProviderType, string> = {
-    google: 'Google Food Enthusiast',
-    apple: 'Apple Culinary Member',
-    facebook: 'Egyptian Kitchen Fan (FB)',
-    x: 'X Food Critic (@cook)',
-    instagram: 'Instagram Home Chef',
-    tiktok: 'TikTok Recipe Taster',
-    email: 'Email Member'
-  };
-
-  const providerAvatars: Record<AuthProviderType, string> = {
-    google: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=200&q=80',
-    apple: 'https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&w=200&q=80',
-    facebook: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80',
-    x: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80',
-    instagram: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
-    tiktok: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80',
-    email: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=200&q=80'
-  };
-
-  const existing = getStoredUser();
-  const userId = `${provider}_${Date.now().toString(36)}`;
-  const email = (customEmail || existing?.email || '').trim().toLowerCase();
-  const isAdmin = forceAdmin || email === 'ahamdy@gmail.com' || email.includes('admin') || existing?.role === 'admin';
-
-  const profile: UserProfile = {
-    id: existing?.id || userId,
-    name: customName?.trim() || existing?.name || (isAdmin ? 'Admin (' + (customEmail || 'ahamdy@gmail.com') + ')' : providerNames[provider]),
-    email: customEmail || existing?.email || (isAdmin ? 'ahamdy@gmail.com' : undefined),
-    provider,
-    avatar: providerAvatars[provider],
-    role: isAdmin ? 'admin' : 'user',
-    preferredLanguage: preferredLanguage || existing?.preferredLanguage || 'ar',
-    bookmarks: existing?.bookmarks || [],
-    history: existing?.history || [],
-    ratings: existing?.ratings || {},
-    createdAt: existing?.createdAt || new Date().toISOString(),
-    lastActiveAt: new Date().toISOString()
-  };
-
-  saveStoredUser(profile);
-  await saveUserProfileToFirestore(profile);
   return profile;
 }
 
