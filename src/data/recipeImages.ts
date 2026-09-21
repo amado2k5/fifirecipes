@@ -1,17 +1,15 @@
 /**
  * Recipe photos live in public/recipe-images/<recipe id>.jpg.
- * Add a recipe's id here once its photo is in that folder.
+ * Add a recipe's id range here once its photos are in that folder.
  */
 
+// Ids are sequential within each prefix, so photos are listed as ranges.
+const idRange = (prefix: string, from: number, to: number) =>
+  Array.from({ length: to - from + 1 }, (_, i) => `${prefix}-${String(from + i).padStart(2, '0')}`);
+
 const RECIPES_WITH_IMAGES = [
-  'meat-01', 'meat-02', 'meat-03', 'meat-04', 'meat-05',
-  'meat-06', 'meat-07', 'meat-08', 'meat-09', 'meat-10',
-  'meat-11', 'meat-12', 'meat-13', 'meat-14', 'meat-15',
-  'meat-16', 'meat-17', 'meat-18', 'meat-19', 'meat-20',
-  'meat-21', 'meat-22', 'meat-23', 'meat-24', 'meat-25',
-  'meat-26', 'meat-27', 'meat-28', 'meat-29', 'meat-30',
-  'meat-31', 'meat-32', 'meat-33', 'meat-34', 'meat-35',
-  'meat-36', 'meat-37', 'meat-38', 'meat-39', 'meat-40'
+  ...idRange('meat', 1, 40),
+  ...idRange('des', 64, 113)
 ];
 
 export const RECIPE_IMAGES: Record<string, string> = Object.fromEntries(
