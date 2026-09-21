@@ -27,6 +27,8 @@ export const Header: React.FC<HeaderProps> = ({
   onShareSite
 }) => {
   const isAr = lang === 'ar' || lang === 'fa' || lang === 'ur';
+  const isFr = lang === 'fr';
+  const t = (ar: string, en: string, fr: string) => (isAr ? ar : isFr ? fr : en);
 
   return (
     <header className="bg-white border-b border-stone-200 sticky top-0 z-30 shadow-xs">
@@ -78,10 +80,10 @@ export const Header: React.FC<HeaderProps> = ({
             <button
               onClick={onShareSite}
               className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-stone-700 bg-stone-50 hover:bg-stone-100 rounded-xl transition-colors border border-stone-200"
-              title={isAr ? 'مشاركة الموقع' : 'Share this site'}
+              title={t('مشاركة الموقع', 'Share this site', 'Partager ce site')}
             >
               <Share2 className="w-3.5 h-3.5 text-amber-700" />
-              <span className="hidden sm:inline">{isAr ? 'مشاركة الموقع' : 'Share site'}</span>
+              <span className="hidden sm:inline">{t('مشاركة الموقع', 'Share site', 'Partager le site')}</span>
             </button>
           </div>
         </div>
@@ -95,7 +97,7 @@ export const Header: React.FC<HeaderProps> = ({
             <BookOpen className="w-3.5 h-3.5 text-amber-600 shrink-0" />
             <div>
               <span className="font-bold text-stone-900">{stats.totalRecipes}</span>
-              <span className="text-stone-500 text-[11px] ml-1">{isAr ? 'وصفة موحدة' : 'Recipes'}</span>
+              <span className="text-stone-500 text-[11px] ml-1">{t('وصفة موحدة', 'Recipes', 'Recettes')}</span>
             </div>
           </div>
 
@@ -106,7 +108,7 @@ export const Header: React.FC<HeaderProps> = ({
             <Layers className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
             <div>
               <span className="font-bold text-stone-900">{stats.totalMasterIngredients}</span>
-              <span className="text-stone-500 text-[11px] ml-1">{isAr ? 'مكون رئيسي' : 'Ingredients'}</span>
+              <span className="text-stone-500 text-[11px] ml-1">{t('مكون رئيسي', 'Ingredients', 'Ingrédients')}</span>
             </div>
           </div>
 
@@ -116,8 +118,8 @@ export const Header: React.FC<HeaderProps> = ({
           >
             <Music className="w-3.5 h-3.5 text-purple-600 shrink-0" />
             <div>
-              <span className="font-bold text-stone-900">20 {isAr ? 'عاماً' : 'Years'}</span>
-              <span className="text-stone-500 text-[11px] ml-1">{isAr ? 'جمع وتدوين' : 'Collection'}</span>
+              <span className="font-bold text-stone-900">20 {t('عاماً', 'Years', 'Ans')}</span>
+              <span className="text-stone-500 text-[11px] ml-1">{t('جمع وتدوين', 'Collection', 'Collecte')}</span>
             </div>
           </div>
         </div>
@@ -160,7 +162,7 @@ export const Header: React.FC<HeaderProps> = ({
             }`}
           >
             <Layers className="w-4 h-4 text-emerald-600" />
-            <span>{isAr ? 'فهرس المكونات المعيارية' : 'Ingredients Registry'}</span>
+            <span>{getUIText(lang, 'navIngredientsRegistry')}</span>
           </button>
         </div>
       </div>

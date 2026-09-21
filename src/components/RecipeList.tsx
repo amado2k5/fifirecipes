@@ -28,6 +28,8 @@ export const RecipeList: React.FC<RecipeListProps> = ({
   onOpenShare
 }) => {
   const isAr = lang === 'ar' || lang === 'fa' || lang === 'ur';
+  const isFr = lang === 'fr';
+  const t = (ar: string, en: string, fr: string) => (isAr ? ar : isFr ? fr : en);
 
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
@@ -61,7 +63,7 @@ export const RecipeList: React.FC<RecipeListProps> = ({
         r.title.toLowerCase().includes(normalizedSearch) ||
         localized.category.toLowerCase().includes(normalizedSearch) ||
         r.category.toLowerCase().includes(normalizedSearch) ||
-        r.masterIngredients.some(i => getLocalizedIngredient(i, lang).toLowerCase().includes(normalizedSearch));
+        r.masterIngredients.some(i => getLocalizedIngredient(i, lang, r.id).toLowerCase().includes(normalizedSearch));
 
       const matchCategory = selectedCategory === 'all' || localized.category === selectedCategory;
       const matchMethod = selectedCookingMethod === 'all' || getLocalizedRecipe(r, lang).cookingMethod === selectedCookingMethod;
@@ -118,31 +120,31 @@ export const RecipeList: React.FC<RecipeListProps> = ({
 
           <div className="flex items-center gap-2">
             <label className="text-xs font-semibold text-stone-500 whitespace-nowrap">
-              {isAr ? 'ترتيب حسب:' : 'Sort by:'}
+              {t('ترتيب حسب:', 'Sort by:', 'Trier par :')}
             </label>
             <select
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value as any)}
               className="px-3 py-2 text-xs font-medium rounded-xl border border-stone-200 bg-stone-50 focus:bg-white text-stone-800"
             >
-              <option value="overlap">{isAr ? 'نسبة التطابق وإزالة التكرار (الأعلى)' : 'Highest Overlap %'}</option>
-              <option value="title">{isAr ? 'الاسم أبجدياً (أ-ي)' : 'Alphabetical (A-Z)'}</option>
-              <option value="ingredients">{isAr ? 'عدد المقادير المدمجة' : 'Most Ingredients'}</option>
-              <option value="steps">{isAr ? 'عدد الخطوات الفريدة' : 'Most Unique Steps'}</option>
+              <option value="overlap">{t('نسبة التطابق وإزالة التكرار (الأعلى)', 'Highest Overlap %', 'Chevauchement le Plus Élevé (%)')}</option>
+              <option value="title">{t('الاسم أبجدياً (أ-ي)', 'Alphabetical (A-Z)', 'Alphabétique (A-Z)')}</option>
+              <option value="ingredients">{t('عدد المقادير المدمجة', 'Most Ingredients', "Le Plus d'Ingrédients")}</option>
+              <option value="steps">{t('عدد الخطوات الفريدة', 'Most Unique Steps', "Le Plus d'Étapes")}</option>
             </select>
           </div>
         </div>
 
         {/* Secondary Filters (Cooking Method) */}
         <div className="flex flex-wrap items-center gap-2 pt-2 text-xs">
-          <span className="text-stone-400 font-medium">{isAr ? 'طريقة الطهو:' : 'Method:'}</span>
+          <span className="text-stone-400 font-medium">{t('طريقة الطهو:', 'Method:', 'Méthode :')}</span>
           <button
             onClick={() => setSelectedCookingMethod('all')}
             className={`px-2.5 py-1 rounded-md text-xs font-medium transition-colors ${
               selectedCookingMethod === 'all' ? 'bg-amber-100 text-amber-800' : 'bg-stone-50 text-stone-600 hover:bg-stone-100'
             }`}
           >
-            {isAr ? 'الكل' : 'All'}
+            {t('الكل', 'All', 'Tout')}
           </button>
           {cookingMethods.map(m => (
             <button
@@ -162,21 +164,21 @@ export const RecipeList: React.FC<RecipeListProps> = ({
               className="mr-auto text-xs text-rose-600 hover:underline flex items-center gap-1 font-semibold"
             >
               <X className="w-3.5 h-3.5" />
-              <span>{isAr ? 'إعادة ضبط الفلاتر' : 'Reset filters'}</span>
+              <span>{t('إعادة ضبط الفلاتر', 'Reset filters', 'Réinitialiser les filtres')}</span>
             </button>
           )}
         </div>
 
         {/* Secondary Filters (Category) */}
         <div className="flex flex-wrap items-center gap-2 pt-2 text-xs">
-          <span className="text-stone-400 font-medium">{isAr ? 'التصنيف:' : 'Category:'}</span>
+          <span className="text-stone-400 font-medium">{t('التصنيف:', 'Category:', 'Catégorie :')}</span>
           <button
             onClick={() => setSelectedCategory('all')}
             className={`px-2.5 py-1 rounded-md text-xs font-medium transition-colors ${
               selectedCategory === 'all' ? 'bg-amber-100 text-amber-800' : 'bg-stone-50 text-stone-600 hover:bg-stone-100'
             }`}
           >
-            {isAr ? 'الكل' : 'All'}
+            {t('الكل', 'All', 'Tout')}
           </button>
           {categories.map(c => (
             <button
@@ -195,9 +197,11 @@ export const RecipeList: React.FC<RecipeListProps> = ({
       {/* Counter indicator */}
       <div className="flex items-center justify-between text-xs text-stone-500 px-1">
         <span>
-          {isAr
-            ? `عرض ${filteredRecipes.length} من أصل ${baseRecipes.length} وصفة`
-            : `Showing ${filteredRecipes.length} of ${baseRecipes.length} recipes`}
+          {t(
+            `عرض ${filteredRecipes.length} من أصل ${baseRecipes.length} وصفة`,
+            `Showing ${filteredRecipes.length} of ${baseRecipes.length} recipes`,
+            `Affichage de ${filteredRecipes.length} sur ${baseRecipes.length} recettes`
+          )}
         </span>
       </div>
 
@@ -218,16 +222,20 @@ export const RecipeList: React.FC<RecipeListProps> = ({
         <div className="bg-white rounded-2xl border border-stone-200 p-12 text-center text-stone-500 space-y-3">
           <UtensilsCrossed className="w-10 h-10 text-stone-300 mx-auto" />
           <h4 className="text-base font-bold text-stone-800">
-            {isAr ? 'لا توجد وصفات تطابق خيارات البحث' : 'No recipes match your filter criteria'}
+            {t('لا توجد وصفات تطابق خيارات البحث', 'No recipes match your filter criteria', 'Aucune recette ne correspond à vos critères')}
           </h4>
           <p className="text-xs max-w-sm mx-auto text-stone-500">
-            {isAr ? 'جرّب البحث بكلمات أخرى أو إعادة ضبط الفلاتر لاستعراض كامل قاعدة البيانات.' : 'Try changing your search terms or resetting the active filters.'}
+            {t(
+              'جرّب البحث بكلمات أخرى أو إعادة ضبط الفلاتر لاستعراض كامل قاعدة البيانات.',
+              'Try changing your search terms or resetting the active filters.',
+              'Essayez d’autres termes de recherche ou réinitialisez les filtres actifs.'
+            )}
           </p>
           <button
             onClick={resetFilters}
             className="px-4 py-2 text-xs font-semibold text-amber-800 bg-amber-50 hover:bg-amber-100 rounded-lg transition-colors border border-amber-200"
           >
-            {isAr ? 'إظهار جميع الوصفات' : 'Show All Recipes'}
+            {t('إظهار جميع الوصفات', 'Show All Recipes', 'Afficher Toutes les Recettes')}
           </button>
         </div>
       )}

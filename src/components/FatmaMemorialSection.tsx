@@ -1,12 +1,12 @@
 import React from 'react';
-import { 
-  Heart, 
-  Award, 
-  BookOpen, 
-  Music, 
-  Calendar, 
-  Building, 
-  Clock, 
+import {
+  Heart,
+  Award,
+  BookOpen,
+  Music,
+  Calendar,
+  Building,
+  Clock,
   Sparkles,
   Quote
 } from 'lucide-react';
@@ -21,12 +21,20 @@ interface FatmaMemorialSectionProps {
 
 export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang, onOpenTribute }) => {
   const isAr = lang === 'ar' || lang === 'fa' || lang === 'ur';
+  const isFr = lang === 'fr';
+  const t = (ar: string, en: string, fr: string) => (isAr ? ar : isFr ? fr : en);
   const getMilestoneYear = (year: string) => {
     if (isAr) return year;
-    if (year === 'حوالي 1961') return 'c. 1961';
-    if (year === '8 مايو 2026') return 'May 8, 2026';
+    if (year === 'حوالي 1961') return isFr ? 'v. 1961' : 'c. 1961';
+    if (year === '8 مايو 2026') return isFr ? '8 mai 2026' : 'May 8, 2026';
     return year;
   };
+  const name = isAr ? FATMA_BIOGRAPHY.nameAr : isFr ? FATMA_BIOGRAPHY.nameFr : FATMA_BIOGRAPHY.nameEn;
+  const title = isAr ? FATMA_BIOGRAPHY.titleAr : isFr ? FATMA_BIOGRAPHY.titleFr : FATMA_BIOGRAPHY.titleEn;
+  const tagline = isAr ? FATMA_BIOGRAPHY.taglineAr : isFr ? FATMA_BIOGRAPHY.taglineFr : FATMA_BIOGRAPHY.taglineEn;
+  const philosophy = isAr ? FATMA_BIOGRAPHY.philosophyAr : isFr ? FATMA_BIOGRAPHY.philosophyFr : FATMA_BIOGRAPHY.philosophyEn;
+  const biography = isAr ? FATMA_BIOGRAPHY.biographyAr : isFr ? FATMA_BIOGRAPHY.biographyFr : FATMA_BIOGRAPHY.biographyEn;
+  const memorialPlaque = isAr ? FATMA_BIOGRAPHY.memorialPlaqueAr : isFr ? FATMA_BIOGRAPHY.memorialPlaqueFr : FATMA_BIOGRAPHY.memorialPlaqueEn;
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8 space-y-12">
@@ -43,24 +51,24 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
         <div className="relative z-20 p-6 sm:p-12 max-w-3xl">
           <img
             src={`${import.meta.env.BASE_URL}logo-transparent.png`}
-            alt={isAr ? 'شعار د. فاطمة القاوقجي' : 'Dr. Fatma Alkawokgy logo'}
+            alt={t('شعار د. فاطمة القاوقجي', 'Dr. Fatma Alkawokgy logo', 'Logo du Dr Fatma Alkawokgy')}
             className="w-28 h-28 sm:w-36 sm:h-36 object-cover object-center rounded-2xl bg-white/90 p-2 shadow-lg mb-5"
           />
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/20 text-amber-300 border border-amber-500/30 mb-4">
             <Music className="w-3.5 h-3.5" />
-            <span>{isAr ? '1943 – 2026 • كلية التربية الموسيقية بالزمالك' : '1943 – 2026 • Faculty of Music Education, Zamalek, Cairo, Egypt'}</span>
+            <span>{t('1943 – 2026 • كلية التربية الموسيقية بالزمالك', '1943 – 2026 • Faculty of Music Education, Zamalek, Cairo, Egypt', '1943 – 2026 • Faculté d’Éducation Musicale, Zamalek, Le Caire, Égypte')}</span>
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white mb-4">
-            {isAr ? FATMA_BIOGRAPHY.nameAr : FATMA_BIOGRAPHY.nameEn}
+            {name}
           </h1>
 
           <p className="text-base sm:text-xl text-amber-100/90 font-light leading-relaxed mb-6">
-            {isAr ? FATMA_BIOGRAPHY.titleAr : FATMA_BIOGRAPHY.titleEn}
+            {title}
           </p>
 
           <p className="text-sm sm:text-base text-stone-300 leading-relaxed mb-8">
-            {isAr ? FATMA_BIOGRAPHY.taglineAr : FATMA_BIOGRAPHY.taglineEn}
+            {tagline}
           </p>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-6 border-t border-stone-800 text-stone-300 text-xs sm:text-sm">
@@ -68,23 +76,23 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
               <Calendar className="w-5 h-5 text-amber-400 shrink-0" />
               <div>
                 <div className="font-bold text-white">1943 – 2026</div>
-                <div className="text-[11px] text-stone-400">{isAr ? 'رحلة العطاء والأثر' : 'A life of purpose and impact'}</div>
+                <div className="text-[11px] text-stone-400">{t('رحلة العطاء والأثر', 'A life of purpose and impact', 'Une vie de sens et d’impact')}</div>
               </div>
             </div>
 
             <div className="flex items-center gap-2.5">
               <Building className="w-5 h-5 text-amber-400 shrink-0" />
               <div>
-                <div className="font-bold text-white">{isAr ? 'تربية موسيقية - الزمالك' : 'Music Education - Zamalek'}</div>
-                <div className="text-[11px] text-stone-400">{isAr ? 'أستاذة العزف على البيانو' : 'Piano Professor'}</div>
+                <div className="font-bold text-white">{t('تربية موسيقية - الزمالك', 'Music Education - Zamalek', 'Éducation Musicale - Zamalek')}</div>
+                <div className="text-[11px] text-stone-400">{t('أستاذة العزف على البيانو', 'Piano Professor', 'Professeure de Piano')}</div>
               </div>
             </div>
 
             <div className="flex items-center gap-2.5 col-span-2 sm:col-span-1">
               <Clock className="w-5 h-5 text-amber-400 shrink-0" />
               <div>
-                <div className="font-bold text-white">{isAr ? '20 عاماً من البحث' : '20 Years of Research'}</div>
-                <div className="text-[11px] text-stone-400">{isAr ? 'تدوين وتحقيق الوصفات' : 'Recipe documentation and preservation'}</div>
+                <div className="font-bold text-white">{t('20 عاماً من البحث', '20 Years of Research', '20 Années de Recherche')}</div>
+                <div className="text-[11px] text-stone-400">{t('تدوين وتحقيق الوصفات', 'Recipe documentation and preservation', 'Documentation et préservation des recettes')}</div>
               </div>
             </div>
           </div>
@@ -97,13 +105,13 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
         <div className="max-w-3xl">
           <div className="text-xs font-bold text-amber-800 uppercase tracking-wider mb-2 flex items-center gap-2">
             <Sparkles className="w-4 h-4 text-amber-600" />
-            <span>{isAr ? 'فلسفة د. فاطمة: الموسيقى ونغمات الطهي' : "Dr. Fatma's Philosophy: Music & Culinary Harmony"}</span>
+            <span>{t('فلسفة د. فاطمة: الموسيقى ونغمات الطهي', "Dr. Fatma's Philosophy: Music & Culinary Harmony", 'La Philosophie du Dr Fatma : Musique et Harmonie Culinaire')}</span>
           </div>
           <blockquote className="text-base sm:text-xl font-serif text-amber-950 italic leading-relaxed">
-            "{isAr ? FATMA_BIOGRAPHY.philosophyAr : FATMA_BIOGRAPHY.philosophyEn}"
+            "{philosophy}"
           </blockquote>
           <div className="mt-4 text-xs font-bold text-amber-800">
-            — {isAr ? FATMA_BIOGRAPHY.nameAr : FATMA_BIOGRAPHY.nameEn}
+            — {name}
           </div>
         </div>
       </div>
@@ -114,12 +122,12 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
           <div className="flex items-center gap-2.5 border-b border-stone-200 pb-3">
             <BookOpen className="w-5 h-5 text-amber-700" />
             <h2 className="text-xl sm:text-2xl font-bold text-stone-900">
-              {isAr ? 'السيرة التوثيقية ومسيرة جمع التراث' : 'The Life & Legacy of Dr. Fatma'}
+              {t('السيرة التوثيقية ومسيرة جمع التراث', 'The Life & Legacy of Dr. Fatma', 'La Vie et l’Héritage du Dr Fatma')}
             </h2>
           </div>
 
           <div className="space-y-4 text-stone-700 text-sm sm:text-base leading-relaxed">
-            {(isAr ? FATMA_BIOGRAPHY.biographyAr : FATMA_BIOGRAPHY.biographyEn).map((paragraph, idx) => (
+            {biography.map((paragraph, idx) => (
               <p key={idx} className="text-justify">
                 {paragraph}
               </p>
@@ -130,10 +138,10 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
           <div className="p-6 bg-stone-900 text-amber-100 rounded-2xl border border-amber-900/50 shadow-md">
             <div className="flex items-center gap-2 text-amber-400 text-xs font-bold uppercase tracking-wider mb-2">
               <Heart className="w-4 h-4 text-rose-400" />
-              <span>{isAr ? 'لوحة الوفاء والتخليد' : 'Memorial Dedication Plaque'}</span>
+              <span>{t('لوحة الوفاء والتخليد', 'Memorial Dedication Plaque', 'Plaque Commémorative')}</span>
             </div>
             <p className="text-sm sm:text-base font-serif italic leading-relaxed text-stone-200">
-              "{isAr ? FATMA_BIOGRAPHY.memorialPlaqueAr : FATMA_BIOGRAPHY.memorialPlaqueEn}"
+              "{memorialPlaque}"
             </p>
           </div>
         </div>
@@ -143,7 +151,7 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
           <div className="flex items-center gap-2.5 border-b border-stone-200 pb-3">
             <Award className="w-5 h-5 text-amber-700" />
             <h3 className="text-lg font-bold text-stone-900">
-              {isAr ? 'محطات مضيئة' : 'Milestones in Life & Art'}
+              {t('محطات مضيئة', 'Milestones in Life & Art', 'Jalons d’une Vie et d’un Art')}
             </h3>
           </div>
 
@@ -155,10 +163,10 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
                   {getMilestoneYear(ms.year)}
                 </span>
                 <h4 className="text-sm font-bold text-stone-900 mt-1">
-                  {isAr ? ms.titleAr : ms.titleEn}
+                  {isAr ? ms.titleAr : isFr ? ms.titleFr : ms.titleEn}
                 </h4>
                 <p className="text-xs text-stone-600 mt-1 leading-relaxed">
-                  {isAr ? ms.descAr : ms.descEn}
+                  {isAr ? ms.descAr : isFr ? ms.descFr : ms.descEn}
                 </p>
               </div>
             ))}
@@ -168,12 +176,14 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
           <div className="p-4 bg-stone-50 rounded-2xl border border-stone-200">
             <h4 className="font-bold text-xs text-stone-900 mb-2 flex items-center gap-2">
               <BookOpen className="w-4 h-4 text-amber-700" />
-              <span>{isAr ? 'أرشيف الوصفات التراثية' : 'Heritage Recipe Archive'}</span>
+              <span>{t('أرشيف الوصفات التراثية', 'Heritage Recipe Archive', 'Archive des Recettes Patrimoniales')}</span>
             </h4>
             <p className="text-xs text-stone-600 leading-relaxed">
-              {isAr
-                ? 'يجمع هذا الأرشيف وصفات د. فاطمة القاوقجي وملاحظاتها التراثية لخدمة الطهاة والباحثين حول العالم.'
-                : 'This open archive preserves Dr. Fatma Alkawokgy’s recipes and culinary notes for cooks and researchers everywhere.'}
+              {t(
+                'يجمع هذا الأرشيف وصفات د. فاطمة القاوقجي وملاحظاتها التراثية لخدمة الطهاة والباحثين حول العالم.',
+                'This open archive preserves Dr. Fatma Alkawokgy’s recipes and culinary notes for cooks and researchers everywhere.',
+                'Cette archive ouverte préserve les recettes et notes culinaires du Dr Fatma Alkawokgy pour les cuisiniers et chercheurs du monde entier.'
+              )}
             </p>
           </div>
 
@@ -182,7 +192,7 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
             className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-amber-700 px-4 py-3 text-sm font-bold text-white hover:bg-amber-800 transition-colors"
           >
             <MessageSquareHeart className="w-4 h-4" />
-            <span>{isAr ? 'اكتبوا تحية لفاطمة' : 'Write a tribute to Fatma'}</span>
+            <span>{t('اكتبوا تحية لفاطمة', 'Write a tribute to Fatma', 'Écrivez un hommage à Fatma')}</span>
           </button>
         </div>
       </div>

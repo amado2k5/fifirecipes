@@ -35,6 +35,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
   const [showManuscript, setShowManuscript] = useState(false);
 
   const isAr = lang === 'ar' || lang === 'fa' || lang === 'ur';
+  const isFr = lang === 'fr';
+  const t = (ar: string, en: string, fr: string) => (isAr ? ar : isFr ? fr : en);
 
   if (!recipe) return null;
 
@@ -124,13 +126,13 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
               {localized.prepTime && (
                 <div className="flex items-center gap-1.5">
                   <Clock className="w-3.5 h-3.5 text-amber-400" />
-                  <span>{isAr ? `التحضير: ${localized.prepTime}` : `Prep: ${localized.prepTime}`}</span>
+                  <span>{t(`التحضير: ${localized.prepTime}`, `Prep: ${localized.prepTime}`, `Préparation : ${localized.prepTime}`)}</span>
                 </div>
               )}
               {localized.cookTime && (
                 <div className="flex items-center gap-1.5">
                   <Flame className="w-3.5 h-3.5 text-amber-400" />
-                  <span>{isAr ? `الطهو: ${localized.cookTime}` : `Cook: ${localized.cookTime}`}</span>
+                  <span>{t(`الطهو: ${localized.cookTime}`, `Cook: ${localized.cookTime}`, `Cuisson : ${localized.cookTime}`)}</span>
                 </div>
               )}
               {localized.servings && (
@@ -185,9 +187,11 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                 <div className="flex items-start gap-3">
                   <HelpCircle className="w-5 h-5 text-amber-700 shrink-0 mt-0.5" />
                   <p>
-                    {isAr
-                      ? 'المقادير المعيارية المضبوطة بدقة. يمكنك النقر على المربع لتحديد المكونات الجاهزة أثناء الطهو.'
-                      : 'Exact master measurements reconciled across Dr. Fatma’s notes. Check off ingredients as you prepare.'}
+                    {t(
+                      'المقادير المعيارية المضبوطة بدقة. يمكنك النقر على المربع لتحديد المكونات الجاهزة أثناء الطهو.',
+                      'Exact master measurements reconciled across Dr. Fatma’s notes. Check off ingredients as you prepare.',
+                      'Mesures exactes et harmonisées d’après les notes du Dr Fatma. Cochez les ingrédients au fur et à mesure de la préparation.'
+                    )}
                   </p>
                 </div>
                 <button
@@ -213,11 +217,11 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                           />
                           <div className={isChecked ? 'line-through opacity-50' : ''}>
                             <span className="font-bold text-stone-900 text-sm sm:text-base">
-                              {getLocalizedIngredient(ing, lang)}
+                              {getLocalizedIngredient(ing, lang, recipe.id)}
                             </span>
                             <span className="mx-2 text-stone-400">—</span>
                             <span className="text-amber-800 font-semibold text-xs sm:text-sm bg-amber-50 px-2 py-0.5 rounded border border-amber-200/50">
-                              {getLocalizedIngredientAmount(ing, lang)}
+                              {getLocalizedIngredientAmount(ing, lang, recipe.id)}
                             </span>
                             {ing.notes && (
                               <span className="text-stone-500 text-xs mr-2 italic">({ing.notes})</span>
@@ -242,12 +246,14 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                   <Sparkles className="w-5 h-5 text-emerald-700 shrink-0 mt-0.5" />
                   <div>
                     <p className="font-bold">
-                      {isAr ? 'خطوات الطهو الفريدة بعد تنقية وتوحيد الشروح' : 'Step-by-step master cooking instructions'}
+                      {t('خطوات الطهو الفريدة بعد تنقية وتوحيد الشروح', 'Step-by-step master cooking instructions', 'Instructions de cuisson détaillées, étape par étape')}
                     </p>
                     <p className="text-xs text-emerald-800 mt-0.5">
-                      {isAr
-                        ? 'مرتبة بالتسلسل الزمني الدقيق للتحضير مع إبراز الطرق البديلة ونكهات فاطمة القاوقجي الخاصة.'
-                        : 'Sequence verified for optimal culinary results.'}
+                      {t(
+                        'مرتبة بالتسلسل الزمني الدقيق للتحضير مع إبراز الطرق البديلة ونكهات فاطمة القاوقجي الخاصة.',
+                        'Sequence verified for optimal culinary results.',
+                        'Séquence vérifiée pour un résultat culinaire optimal.'
+                      )}
                     </p>
                   </div>
                 </div>

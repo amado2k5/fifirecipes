@@ -12,7 +12,6 @@ import { MasterIngredientsView } from './components/MasterIngredientsView';
 import { RecipeDetailModal } from './components/RecipeDetailModal';
 import { FatmaMemorialSection } from './components/FatmaMemorialSection';
 import { TributePage } from './components/TributePage';
-import { ExportModal } from './components/ExportModal';
 import { detectUserLanguage, getUIText, TOP_20_LANGUAGES } from './data/translations';
 import { getLocalizedRecipe } from './utils/recipeLocalization';
 import { shareRecipe } from './services/recipeShareService';
@@ -39,6 +38,8 @@ export default function App() {
     return detectUserLanguage();
   });
   const isAr = lang === 'ar' || lang === 'fa' || lang === 'ur';
+  const isFr = lang === 'fr';
+  const t = (ar: string, en: string, fr: string) => (isAr ? ar : isFr ? fr : en);
 
   // Master Recipes (static public archive)
   const recipes = allRecipes;
@@ -48,7 +49,6 @@ export default function App() {
 
   // Active Modals & Selected Items
   const [selectedRecipe, setSelectedRecipe] = useState<Recipe | null>(null);
-  const [isExportOpen, setIsExportOpen] = useState(false);
 
   const [notification, setNotification] = useState<{ message: string; type: 'success' | 'error' } | null>(null);
 
@@ -85,7 +85,7 @@ export default function App() {
       await navigator.share(shareData).catch(() => undefined);
     } else {
       await navigator.clipboard.writeText(url.toString());
-      setNotification({ message: isAr ? 'تم نسخ رابط الموقع' : 'Site link copied', type: 'success' });
+      setNotification({ message: t('تم نسخ رابط الموقع', 'Site link copied', 'Lien du site copié'), type: 'success' });
       setTimeout(() => setNotification(null), 3500);
     }
   };
@@ -94,16 +94,22 @@ export default function App() {
     const title = getLocalizedRecipe(recipe, lang).title;
     const result = await shareRecipe(recipe, lang, title);
     if (result.copied) {
-      setNotification({ message: isAr ? 'تم نسخ رابط الوصفة' : 'Recipe link copied', type: 'success' });
+      setNotification({ message: t('تم نسخ رابط الوصفة', 'Recipe link copied', 'Lien de la recette copié'), type: 'success' });
       setTimeout(() => setNotification(null), 3500);
     }
   };
 
   const handleFeedback = () => {
-    const subject = isAr ? '[fifi.cooking] ملاحظات حول موقع وصفات د. فاطمة القاوقجي' : '[fifi.cooking] Feedback on Fatma Alkawokgy Recipes site';
-    const body = isAr
-      ? 'مرحباً،\n\nأود مشاركة السؤال أو الملاحظة أو المشكلة التالية:\n\n'
-      : 'Hello,\n\nI would like to share the following question, comment, or issue:\n\n';
+    const subject = t(
+      '[fifi.cooking] ملاحظات حول موقع وصفات د. فاطمة القاوقجي',
+      '[fifi.cooking] Feedback on Fatma Alkawokgy Recipes site',
+      '[fifi.cooking] Commentaires sur le site des recettes de Fatma Alkawokgy'
+    );
+    const body = t(
+      'مرحباً،\n\nأود مشاركة السؤال أو الملاحظة أو المشكلة التالية:\n\n',
+      'Hello,\n\nI would like to share the following question, comment, or issue:\n\n',
+      'Bonjour,\n\nJe souhaite partager la question, le commentaire ou le problème suivant :\n\n'
+    );
     window.location.href = `mailto:${FEEDBACK_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
 
@@ -223,15 +229,6 @@ export default function App() {
         />
       )}
 
-      {/* Database Export Modal (Academic Research) */}
-      <ExportModal
-        recipes={recipes}
-        stats={stats}
-        isOpen={isExportOpen}
-        onClose={() => setIsExportOpen(false)}
-        lang={lang}
-      />
-
       {/* Modern Footer with Memorial Tribute */}
       <footer className="bg-white border-t border-stone-200 mt-auto py-8 text-xs text-stone-500">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
@@ -245,9 +242,11 @@ export default function App() {
                   {getUIText(lang, 'appTitle')}
                 </span>
                 <span className="text-[11px] text-stone-500">
-                  {isAr
-                    ? 'إرث الدكتورة فاطمة القاوقجي (1943–2026) • دكتوراه البيانو بكلية التربية الموسيقية، الزمالك، القاهرة'
-                    : 'The Culinary Archive of Dr. Fatma Alkawokgy (1943–2026) • Doctorate in Piano, Cairo'}
+                  {t(
+                    'إرث الدكتورة فاطمة القاوقجي (1943–2026) • دكتوراه البيانو بكلية التربية الموسيقية، الزمالك، القاهرة',
+                    'The Culinary Archive of Dr. Fatma Alkawokgy (1943–2026) • Doctorate in Piano, Cairo',
+                    'Les Archives Culinaires du Dr Fatma Alkawokgy (1943–2026) • Doctorat en Piano, Le Caire'
+                  )}
                 </span>
               </div>
             </div>
@@ -257,20 +256,22 @@ export default function App() {
               className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-stone-700 bg-stone-50 hover:bg-stone-100 rounded-xl transition-colors border border-stone-200"
             >
               <Mail className="w-3.5 h-3.5 text-amber-700" />
-              <span>{isAr ? 'أسئلة أو ملاحظات أو مشاكل؟ أرسل ملاحظاتك' : 'Questions, comments, or issues? Submit feedback'}</span>
+              <span>{t('أسئلة أو ملاحظات أو مشاكل؟ أرسل ملاحظاتك', 'Questions, comments, or issues? Submit feedback', 'Questions, commentaires ou problèmes ? Envoyez vos remarques')}</span>
             </button>
           </div>
 
           <div className="pt-4 border-t border-stone-100 flex flex-col sm:flex-row items-center justify-between text-[11px] text-stone-400 gap-2">
             <div>
-              {isAr
-                ? 'جميع حقوق وصفات د. فاطمة القاوقجي محفوظة لعائلتها ومحبي فنها وتراثها الموسيقي والطهوي.'
-                : 'All rights reserved to the culinary and artistic legacy of Dr. Fatma Alkawokgy.'}
+              {t(
+                'جميع حقوق وصفات د. فاطمة القاوقجي محفوظة لعائلتها ومحبي فنها وتراثها الموسيقي والطهوي.',
+                'All rights reserved to the culinary and artistic legacy of Dr. Fatma Alkawokgy.',
+                "Tous droits réservés à l'héritage culinaire et artistique du Dr Fatma Alkawokgy."
+              )}
             </div>
             <div className="flex items-center gap-2">
-              <span>{isAr ? 'العربية والإنجليزية مدعومتان' : 'Arabic and English supported'}</span>
+              <span>{t('العربية والإنجليزية والفرنسية مدعومة', 'Arabic, English, and French supported', 'Arabe, anglais et français pris en charge')}</span>
               <span>•</span>
-              <span>{isAr ? 'مشاركة الوصفة الفردية مفعّلة' : 'Single-Recipe Sharing Enabled'}</span>
+              <span>{t('مشاركة الوصفة الفردية مفعّلة', 'Single-Recipe Sharing Enabled', 'Partage de Recette Individuelle Activé')}</span>
             </div>
           </div>
         </div>
