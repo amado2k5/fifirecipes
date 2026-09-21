@@ -49,7 +49,10 @@ export function computeDatabaseStats(recipes: Recipe[] = allRecipes): DatabaseSt
 }
 
 export interface GlobalIngredientSummary {
+  id: string;
   name: string;
+  nameEn?: string;
+  sourceRecipeId: string;
   category: MasterIngredient['category'];
   recipesCount: number;
   recipeTitles: { id: string; title: string; standardAmount: string }[];
@@ -72,7 +75,10 @@ export function buildGlobalIngredientRegistry(recipes: Recipe[] = allRecipes): G
         });
       } else {
         map.set(key, {
+          id: ing.id,
           name: ing.name,
+          nameEn: ing.nameEn,
+          sourceRecipeId: recipe.id,
           category: ing.category,
           recipesCount: 1,
           recipeTitles: [{

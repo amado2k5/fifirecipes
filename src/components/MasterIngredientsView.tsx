@@ -10,7 +10,7 @@ import {
   Flame,
   UtensilsCrossed
 } from 'lucide-react';
-import { getLocalizedIngredient } from '../utils/recipeLocalization';
+import { getLocalizedIngredient, getLocalizedRecipe } from '../utils/recipeLocalization';
 
 interface MasterIngredientsViewProps {
   recipes: Recipe[];
@@ -47,7 +47,7 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
 
   const filteredItems = useMemo(() => {
     return registry.filter(item => {
-      const matchesSearch = getLocalizedIngredient(item, lang).toLowerCase().includes(searchTerm.toLowerCase());
+      const matchesSearch = getLocalizedIngredient(item, lang, item.sourceRecipeId).toLowerCase().includes(searchTerm.toLowerCase());
       const matchesCategory = selectedCategory === 'all' || item.category === selectedCategory;
       return matchesSearch && matchesCategory;
     });
@@ -142,7 +142,7 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
               </div>
 
               <h3 className="text-base font-bold text-stone-900 mt-2">
-                {getLocalizedIngredient(item, lang)}
+                {getLocalizedIngredient(item, lang, item.sourceRecipeId)}
               </h3>
             </div>
 
@@ -160,7 +160,7 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
                       className="inline-flex items-center text-[11px] px-2 py-0.5 rounded bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200/60 font-medium transition-colors"
                       title={r.standardAmount ? `الكمية القياسية: ${r.standardAmount}` : undefined}
                     >
-                      {getLocalizedIngredient({ name: r.title }, lang)}
+                      {fullRecipe ? getLocalizedRecipe(fullRecipe, lang).title : r.title}
                     </button>
                   );
                 })}
