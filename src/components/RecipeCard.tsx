@@ -28,7 +28,8 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
 }) => {
   const isAr = lang === 'ar' || lang === 'fa' || lang === 'ur';
   const isFr = lang === 'fr';
-  const t = (ar: string, en: string, fr: string) => (isAr ? ar : isFr ? fr : en);
+  const isEs = lang === 'es';
+  const t = (ar: string, en: string, fr: string, es: string) => (isAr ? ar : isFr ? fr : isEs ? es : en);
   const imageUrl = getRecipeImage(recipe.id, recipe.imageUrl);
   const localized = getLocalizedRecipe(recipe, lang);
   const localizedIngredientNames = Array.from(new Set(
@@ -137,11 +138,11 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
         <div className="mt-4 pt-3 border-t border-stone-100 flex items-center justify-between text-xs">
           <div className="flex items-center gap-1 text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200/50 text-[11px]">
             <Sparkles className="w-3 h-3 text-emerald-600" />
-            <span className="font-semibold">{recipe.uniqueInstructions.length} {t('خطوة فريدة', 'steps', 'étapes')}</span>
+            <span className="font-semibold">{recipe.uniqueInstructions.length} {t('خطوة فريدة', 'steps', 'étapes', 'pasos')}</span>
           </div>
 
           <span className="font-semibold text-amber-700 group-hover:text-amber-900 flex items-center gap-1">
-            <span>{t('عرض الوصفة', 'View Recipe', 'Voir la Recette')}</span>
+            <span>{t('عرض الوصفة', 'View Recipe', 'Voir la Recette', 'Ver Receta')}</span>
             {isAr ? <ArrowLeft className="w-3.5 h-3.5" /> : <ArrowRight className="w-3.5 h-3.5" />}
           </span>
         </div>

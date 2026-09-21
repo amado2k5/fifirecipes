@@ -36,7 +36,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
 
   const isAr = lang === 'ar' || lang === 'fa' || lang === 'ur';
   const isFr = lang === 'fr';
-  const t = (ar: string, en: string, fr: string) => (isAr ? ar : isFr ? fr : en);
+  const isEs = lang === 'es';
+  const t = (ar: string, en: string, fr: string, es: string) => (isAr ? ar : isFr ? fr : isEs ? es : en);
 
   if (!recipe) return null;
 
@@ -126,13 +127,13 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
               {localized.prepTime && (
                 <div className="flex items-center gap-1.5">
                   <Clock className="w-3.5 h-3.5 text-amber-400" />
-                  <span>{t(`التحضير: ${localized.prepTime}`, `Prep: ${localized.prepTime}`, `Préparation : ${localized.prepTime}`)}</span>
+                  <span>{t(`التحضير: ${localized.prepTime}`, `Prep: ${localized.prepTime}`, `Préparation : ${localized.prepTime}`, `Preparación: ${localized.prepTime}`)}</span>
                 </div>
               )}
               {localized.cookTime && (
                 <div className="flex items-center gap-1.5">
                   <Flame className="w-3.5 h-3.5 text-amber-400" />
-                  <span>{t(`الطهو: ${localized.cookTime}`, `Cook: ${localized.cookTime}`, `Cuisson : ${localized.cookTime}`)}</span>
+                  <span>{t(`الطهو: ${localized.cookTime}`, `Cook: ${localized.cookTime}`, `Cuisson : ${localized.cookTime}`, `Cocción: ${localized.cookTime}`)}</span>
                 </div>
               )}
               {localized.servings && (
@@ -190,7 +191,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                     {t(
                       'المقادير المعيارية المضبوطة بدقة. يمكنك النقر على المربع لتحديد المكونات الجاهزة أثناء الطهو.',
                       'Exact master measurements reconciled across Dr. Fatma’s notes. Check off ingredients as you prepare.',
-                      'Mesures exactes et harmonisées d’après les notes du Dr Fatma. Cochez les ingrédients au fur et à mesure de la préparation.'
+                      'Mesures exactes et harmonisées d’après les notes du Dr Fatma. Cochez les ingrédients au fur et à mesure de la préparation.',
+                      'Medidas exactas conciliadas a partir de las notas de la Dra. Fatma. Marca los ingredientes a medida que los prepares.'
                     )}
                   </p>
                 </div>
@@ -246,13 +248,14 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                   <Sparkles className="w-5 h-5 text-emerald-700 shrink-0 mt-0.5" />
                   <div>
                     <p className="font-bold">
-                      {t('خطوات الطهو الفريدة بعد تنقية وتوحيد الشروح', 'Step-by-step master cooking instructions', 'Instructions de cuisson détaillées, étape par étape')}
+                      {t('خطوات الطهو الفريدة بعد تنقية وتوحيد الشروح', 'Step-by-step master cooking instructions', 'Instructions de cuisson détaillées, étape par étape', 'Instrucciones de cocina detalladas, paso a paso')}
                     </p>
                     <p className="text-xs text-emerald-800 mt-0.5">
                       {t(
                         'مرتبة بالتسلسل الزمني الدقيق للتحضير مع إبراز الطرق البديلة ونكهات فاطمة القاوقجي الخاصة.',
                         'Sequence verified for optimal culinary results.',
-                        'Séquence vérifiée pour un résultat culinaire optimal.'
+                        'Séquence vérifiée pour un résultat culinaire optimal.',
+                        'Secuencia verificada para obtener resultados culinarios óptimos.'
                       )}
                     </p>
                   </div>

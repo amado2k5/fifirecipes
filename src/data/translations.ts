@@ -3,7 +3,8 @@ import { SupportedLanguage, LanguageInfo } from '../types';
 export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'ar', name: 'Arabic', nativeName: 'العربية', dir: 'rtl', flag: '🇪🇬' },
   { code: 'en', name: 'English', nativeName: 'English', dir: 'ltr', flag: '🇬🇧' },
-  { code: 'fr', name: 'French', nativeName: 'Français', dir: 'ltr', flag: '🇫🇷' }
+  { code: 'fr', name: 'French', nativeName: 'Français', dir: 'ltr', flag: '🇫🇷' },
+  { code: 'es', name: 'Spanish', nativeName: 'Español', dir: 'ltr', flag: '🇪🇸' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -19,6 +20,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'fr') {
       return { language: 'fr', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'es') {
+      return { language: 'es', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
@@ -111,23 +115,30 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'Cuisiner est comme jouer du piano ; cela ne s’accomplit que dans l’harmonie sincère, la patience et l’amour de soi.',
   },
   es: {
-    siteTitle: 'Libro de Cocina Dra. Fatma Alkawokgy',
-    siteSubtitle: 'El Libro Clásico de Cocina Tradicional Egipcia',
-    allRecipes: 'Todas las Recetas',
+    siteTitle: 'Libro de Recetas Dra. Fatma Alkawokgy',
+    appTitle: 'Libro de Recetas Dra. Fatma Alkawokgy',
+    siteSubtitle: 'El Libro de Cocina Patrimonial de la Auténtica Cocina Egipcia',
+    appSubtitle: 'El Libro de Cocina Patrimonial de la Auténtica Cocina Egipcia',
+    allRecipes: 'Explorar Recetas',
+    navAllRecipes: 'Explorar Recetas',
     aboutFatma: 'Sobre la Dra. Fatma',
-    searchPlaceholder: 'Buscar receta, ingrediente o técnica...',
+    navAboutFatma: 'Sobre la Dra. Fatma',
+    ingredientsRegistry: 'Registro de Ingredientes',
+    navIngredientsRegistry: 'Registro de Ingredientes',
+    choosePreferredLanguage: 'Elige el Idioma del Sitio',
+    searchPlaceholder: 'Buscar por receta, ingrediente o técnica...',
     filterByChapter: 'Filtrar por Capítulo',
     prepTime: 'Preparación',
     cookTime: 'Cocción',
     servings: 'Porciones',
     difficulty: 'Dificultad',
     method: 'Método',
-    ingredients: 'Ingredientes & Medidas Exactas',
-    instructions: 'Paso a Paso Detallado',
-    tips: 'Consejos Culinarios de la Dra. Fatma',
+    ingredients: 'Ingredientes Principales y Medidas Exactas',
+    instructions: 'Preparación Paso a Paso',
+    tips: 'Consejos y Notas de la Dra. Fatma Alkawokgy',
     shareRecipe: 'Compartir Receta',
-    noRecipesFound: 'No se encontraron recetas',
-    tributeQuote: 'Cocinar es como tocar el piano: requiere armonía, paciencia y amor.',
+    noRecipesFound: 'No se encontraron recetas que coincidan con tu búsqueda',
+    tributeQuote: 'Cocinar es como tocar el piano; solo se logra con armonía sincera, paciencia y amor propio.',
   },
   de: {
     siteTitle: 'Dr. Fatma Alkawokgy Kochbuch',
