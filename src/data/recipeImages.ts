@@ -9,7 +9,11 @@ const idRange = (prefix: string, from: number, to: number) =>
 
 const RECIPES_WITH_IMAGES = [
   ...idRange('meat', 1, 40),
-  ...idRange('bake', 4, 15),
+  ...idRange('veg', 46, 52),
+  ...idRange('leg', 3, 5),
+  ...idRange('pasta', 1, 26),
+  ...idRange('stuff', 1, 11),
+  ...idRange('bake', 1, 15),
   ...idRange('savory', 1, 12),
   ...idRange('quick', 1, 8),
   ...idRange('des', 1, 113),
