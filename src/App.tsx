@@ -13,7 +13,7 @@ import { RecipeDetailModal } from './components/RecipeDetailModal';
 import { FatmaMemorialSection } from './components/FatmaMemorialSection';
 import { TributePage } from './components/TributePage';
 import { detectUserLanguage, getUIText, TOP_20_LANGUAGES } from './data/translations';
-import { getLocalizedRecipe } from './utils/recipeLocalization';
+import { getLocalizedRecipe, ensureTranslationTable } from './utils/recipeLocalization';
 import { shareRecipe } from './services/recipeShareService';
 import { CheckCircle2, AlertCircle, Mail } from 'lucide-react';
 
@@ -37,6 +37,19 @@ export default function App() {
     }
     return detectUserLanguage();
   });
+  // The active language's recipe-translation JSON is fetched on demand (see
+  // ensureTranslationTable) instead of being bundled for every visitor;
+  // this re-renders once that chunk arrives so translated text appears.
+  const [, forceTranslationsRerender] = useState(0);
+  useEffect(() => {
+    let cancelled = false;
+    ensureTranslationTable(lang).then(() => {
+      if (!cancelled) forceTranslationsRerender(v => v + 1);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [lang]);
   const isAr = lang === 'ar' || lang === 'fa' || lang === 'ur';
   const isFr = lang === 'fr';
   const isEs = lang === 'es';

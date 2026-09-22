@@ -1,9 +1,5 @@
 import { MasterIngredient, Recipe, SupportedLanguage } from '../types';
 import recipeTranslations from '../data/recipeTranslations.json';
-import recipeTranslationsFr from '../data/recipeTranslationsFr.json';
-import recipeTranslationsEs from '../data/recipeTranslationsEs.json';
-import recipeTranslationsJa from '../data/recipeTranslationsJa.json';
-import recipeTranslationsHi from '../data/recipeTranslationsHi.json';
 
 type RecipeTranslation = {
   title?: string;
@@ -18,19 +14,45 @@ type RecipeTranslation = {
   instructions?: Record<string, string>;
 };
 
-const ENGLISH_RECIPE_TRANSLATIONS = recipeTranslations as Record<string, RecipeTranslation>;
-const FRENCH_RECIPE_TRANSLATIONS = recipeTranslationsFr as Record<string, RecipeTranslation>;
-const SPANISH_RECIPE_TRANSLATIONS = recipeTranslationsEs as Record<string, RecipeTranslation>;
-const JAPANESE_RECIPE_TRANSLATIONS = recipeTranslationsJa as Record<string, RecipeTranslation>;
-const HINDI_RECIPE_TRANSLATIONS = recipeTranslationsHi as Record<string, RecipeTranslation>;
+type TranslationTable = Record<string, RecipeTranslation>;
 
-function getTranslationTable(lang: SupportedLanguage): Record<string, RecipeTranslation> | undefined {
+// English is small (~50KB) and is the fallback language for unrecognized
+// locales, so it's bundled eagerly. The other languages' recipe-translation
+// tables are large (~400KB each) and are fetched on demand via
+// ensureTranslationTable() so a visitor only downloads the language(s) they
+// actually use instead of all of them on every page load.
+const ENGLISH_RECIPE_TRANSLATIONS = recipeTranslations as TranslationTable;
+
+const LAZY_TRANSLATION_LOADERS: Partial<Record<SupportedLanguage, () => Promise<{ default: TranslationTable }>>> = {
+  fr: () => import('../data/recipeTranslationsFr.json') as Promise<{ default: TranslationTable }>,
+  es: () => import('../data/recipeTranslationsEs.json') as Promise<{ default: TranslationTable }>,
+  ja: () => import('../data/recipeTranslationsJa.json') as Promise<{ default: TranslationTable }>,
+  hi: () => import('../data/recipeTranslationsHi.json') as Promise<{ default: TranslationTable }>
+};
+
+const lazyTranslationCache: Partial<Record<SupportedLanguage, TranslationTable>> = {};
+const lazyTranslationPromises: Partial<Record<SupportedLanguage, Promise<void>>> = {};
+
+// Kicks off (or reuses) the fetch of a language's recipe-translation JSON
+// chunk. Call this when `lang` changes and re-render once it resolves;
+// getLocalizedRecipe/getLocalizedIngredient/getLocalizedInstruction already
+// fall back to each recipe's embedded English fields while the chunk is
+// still loading, so there's no broken state in between.
+export function ensureTranslationTable(lang: SupportedLanguage): Promise<void> {
+  if (lazyTranslationCache[lang] || !LAZY_TRANSLATION_LOADERS[lang]) {
+    return Promise.resolve();
+  }
+  if (!lazyTranslationPromises[lang]) {
+    lazyTranslationPromises[lang] = LAZY_TRANSLATION_LOADERS[lang]!().then(mod => {
+      lazyTranslationCache[lang] = mod.default;
+    });
+  }
+  return lazyTranslationPromises[lang]!;
+}
+
+function getTranslationTable(lang: SupportedLanguage): TranslationTable | undefined {
   if (lang === 'en') return ENGLISH_RECIPE_TRANSLATIONS;
-  if (lang === 'fr') return FRENCH_RECIPE_TRANSLATIONS;
-  if (lang === 'es') return SPANISH_RECIPE_TRANSLATIONS;
-  if (lang === 'ja') return JAPANESE_RECIPE_TRANSLATIONS;
-  if (lang === 'hi') return HINDI_RECIPE_TRANSLATIONS;
-  return undefined;
+  return lazyTranslationCache[lang];
 }
 
 const CHAPTER_NAMES: Record<number, string> = {
