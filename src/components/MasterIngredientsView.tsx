@@ -18,16 +18,16 @@ interface MasterIngredientsViewProps {
   lang: SupportedLanguage;
 }
 
-const CATEGORY_NAMES: Record<MasterIngredient['category'], { ar: string; en: string; fr: string; es: string; ja: string }> = {
-  meat_poultry: { ar: 'لحوم ودواجن', en: 'Meat & Poultry', fr: 'Viandes et Volailles', es: 'Carnes y Aves', ja: '肉と鶏肉' },
-  seafood: { ar: 'أسماك ومأكولات بحرية', en: 'Seafood', fr: 'Fruits de Mer', es: 'Mariscos', ja: '魚介類' },
-  vegetable: { ar: 'خضروات وأعشاب', en: 'Vegetables & Herbs', fr: 'Légumes et Herbes', es: 'Verduras y Hierbas', ja: '野菜とハーブ' },
-  dairy_fat: { ar: 'ألبان ودهون', en: 'Dairy & Fats', fr: 'Produits Laitiers et Matières Grasses', es: 'Lácteos y Grasas', ja: '乳製品と油脂' },
-  grain_starch: { ar: 'حبوب ونشويات', en: 'Grains & Starches', fr: 'Céréales et Féculents', es: 'Granos y Féculas', ja: '穀物と主食' },
-  spice_seasoning: { ar: 'توابل وبهارات', en: 'Spices & Seasoning', fr: 'Épices et Assaisonnements', es: 'Especias y Condimentos', ja: 'スパイスと調味料' },
-  sweet_fruit: { ar: 'سكريات وفواكه', en: 'Sweets & Fruits', fr: 'Sucreries et Fruits', es: 'Dulces y Frutas', ja: '甘味料と果物' },
-  liquid: { ar: 'سوائل ومشروبات', en: 'Liquids & Broths', fr: 'Liquides et Bouillons', es: 'Líquidos y Caldos', ja: '液体とだし' },
-  other: { ar: 'أخرى', en: 'Other', fr: 'Autres', es: 'Otros', ja: 'その他' }
+const CATEGORY_NAMES: Record<MasterIngredient['category'], { ar: string; en: string; fr: string; es: string; ja: string; hi: string }> = {
+  meat_poultry: { ar: 'لحوم ودواجن', en: 'Meat & Poultry', fr: 'Viandes et Volailles', es: 'Carnes y Aves', ja: '肉と鶏肉', hi: 'मांस और मुर्ग़' },
+  seafood: { ar: 'أسماك ومأكولات بحرية', en: 'Seafood', fr: 'Fruits de Mer', es: 'Mariscos', ja: '魚介類', hi: 'समुद्री भोजन' },
+  vegetable: { ar: 'خضروات وأعشاب', en: 'Vegetables & Herbs', fr: 'Légumes et Herbes', es: 'Verduras y Hierbas', ja: '野菜とハーブ', hi: 'सब्ज़ियां और जड़ी-बूटियां' },
+  dairy_fat: { ar: 'ألبان ودهون', en: 'Dairy & Fats', fr: 'Produits Laitiers et Matières Grasses', es: 'Lácteos y Grasas', ja: '乳製品と油脂', hi: 'डेयरी और वसा' },
+  grain_starch: { ar: 'حبوب ونشويات', en: 'Grains & Starches', fr: 'Céréales et Féculents', es: 'Granos y Féculas', ja: '穀物と主食', hi: 'अनाज और स्टार्च' },
+  spice_seasoning: { ar: 'توابل وبهارات', en: 'Spices & Seasoning', fr: 'Épices et Assaisonnements', es: 'Especias y Condimentos', ja: 'スパイスと調味料', hi: 'मसाले और सीज़निंग' },
+  sweet_fruit: { ar: 'سكريات وفواكه', en: 'Sweets & Fruits', fr: 'Sucreries et Fruits', es: 'Dulces y Frutas', ja: '甘味料と果物', hi: 'मिठास और फल' },
+  liquid: { ar: 'سوائل ومشروبات', en: 'Liquids & Broths', fr: 'Liquides et Bouillons', es: 'Líquidos y Caldos', ja: '液体とだし', hi: 'तरल और शोरबा' },
+  other: { ar: 'أخرى', en: 'Other', fr: 'Autres', es: 'Otros', ja: 'その他', hi: 'अन्य' }
 };
 
 export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
@@ -39,8 +39,9 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
   const isFr = lang === 'fr';
   const isEs = lang === 'es';
   const isJa = lang === 'ja';
-  const langKey: 'ar' | 'en' | 'fr' | 'es' | 'ja' = isAr ? 'ar' : isFr ? 'fr' : isEs ? 'es' : isJa ? 'ja' : 'en';
-  const t = (ar: string, en: string, fr: string, es: string, ja: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : en);
+  const isHi = lang === 'hi';
+  const langKey: 'ar' | 'en' | 'fr' | 'es' | 'ja' | 'hi' = isAr ? 'ar' : isFr ? 'fr' : isEs ? 'es' : isJa ? 'ja' : isHi ? 'hi' : 'en';
+  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : en);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
 
@@ -63,7 +64,7 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
           <div className="space-y-1">
             <h2 className="text-xl sm:text-2xl font-bold text-stone-900 flex items-center gap-2.5">
               <Layers className="w-6 h-6 text-amber-600" />
-              <span>{t('سجل المكونات الموحدة (Master Ingredients Registry)', 'Master Ingredients Registry', 'Registre des Ingrédients Principaux', 'Registro de Ingredientes Principales', '食材一覧')}</span>
+              <span>{t('سجل المكونات الموحدة (Master Ingredients Registry)', 'Master Ingredients Registry', 'Registre des Ingrédients Principaux', 'Registro de Ingredientes Principales', '食材一覧', 'मुख्य सामग्री रजिस्ट्री')}</span>
             </h2>
             <p className="text-xs sm:text-sm text-stone-500">
               {t(
@@ -71,13 +72,14 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
                 `An open catalogue of ${registry.length} canonical ingredients linked to the recipes that use them.`,
                 `Un catalogue ouvert de ${registry.length} ingrédients principaux, chacun relié aux recettes qui l'utilisent.`,
                 `Un catálogo abierto de ${registry.length} ingredientes principales, cada uno vinculado a las recetas que lo utilizan.`,
-                `${registry.length}種類の主要食材を、それぞれ使用しているレシピとともに紹介する公開カタログです。`
+                `${registry.length}種類の主要食材を、それぞれ使用しているレシピとともに紹介する公開カタログです。`,
+                `${registry.length} मानक सामग्रियों की एक खुली सूची, जिसमें हर सामग्री को उसका उपयोग करने वाले व्यंजनों से जोड़ा गया है।`
               )}
             </p>
           </div>
 
           <div className="bg-amber-50 px-4 py-2 rounded-xl border border-amber-200 text-amber-900 text-xs sm:text-sm font-semibold">
-            <span>{t('إجمالي المكونات الموحدة:', 'Total Master Ingredients:', "Total des ingrédients principaux :", 'Total de Ingredientes Principales:', '主要食材の合計数:')}</span>{' '}
+            <span>{t('إجمالي المكونات الموحدة:', 'Total Master Ingredients:', "Total des ingrédients principaux :", 'Total de Ingredientes Principales:', '主要食材の合計数:', 'कुल मुख्य सामग्रियां:')}</span>{' '}
             <strong className="text-base text-amber-700">{registry.length}</strong>
           </div>
         </div>
@@ -88,7 +90,7 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
             <Search className="w-4 h-4 text-stone-400 absolute right-3.5 top-1/2 -translate-y-1/2" />
             <input
               type="text"
-              placeholder={t('ابحث عن مكون (مثل: سمن بلدي، حبهان...)', 'Search ingredient (e.g. Cardamom, Ghee)...', 'Rechercher un ingrédient (ex. cardamome, ghee)...', 'Buscar ingrediente (ej. cardamomo, ghee)...', '食材を検索(例:カルダモン、ギー)...')}
+              placeholder={t('ابحث عن مكون (مثل: سمن بلدي، حبهان...)', 'Search ingredient (e.g. Cardamom, Ghee)...', 'Rechercher un ingrédient (ex. cardamome, ghee)...', 'Buscar ingrediente (ej. cardamomo, ghee)...', '食材を検索(例:カルダモン、ギー)...', 'सामग्री खोजें (जैसे: इलायची, घी...)')}
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="w-full pl-3 pr-10 py-2 text-xs sm:text-sm rounded-xl border border-stone-200 bg-stone-50 focus:bg-white focus:outline-hidden focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500 transition-colors"
@@ -104,7 +106,7 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
                   : 'bg-stone-100 text-stone-600 hover:bg-stone-200'
               }`}
             >
-              {t('الكل', 'All', 'Tout', 'Todos', 'すべて')} ({registry.length})
+              {t('الكل', 'All', 'Tout', 'Todos', 'すべて', 'सभी')} ({registry.length})
             </button>
             {Object.entries(CATEGORY_NAMES).map(([catKey, label]) => {
               const count = registry.filter(r => r.category === catKey).length;
@@ -141,7 +143,7 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
                 </span>
 
                 <span className="text-[11px] font-bold text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">
-                  {t(`${item.recipesCount} وصفات`, `${item.recipesCount} recipes`, `${item.recipesCount} recettes`, `${item.recipesCount} recetas`, `${item.recipesCount}件のレシピ`)}
+                  {t(`${item.recipesCount} وصفات`, `${item.recipesCount} recipes`, `${item.recipesCount} recettes`, `${item.recipesCount} recetas`, `${item.recipesCount}件のレシピ`, `${item.recipesCount} व्यंजन`)}
                 </span>
               </div>
 
@@ -152,7 +154,7 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
 
             <div className="mt-3 pt-3 border-t border-stone-100">
               <span className="text-[11px] text-stone-500 font-semibold block mb-1.5">
-                {t('الوصفات التي تستخدمه:', 'Used in recipes:', 'Utilisé dans les recettes :', 'Usado en las recetas:', '使用しているレシピ:')}
+                {t('الوصفات التي تستخدمه:', 'Used in recipes:', 'Utilisé dans les recettes :', 'Usado en las recetas:', '使用しているレシピ:', 'जिन व्यंजनों में उपयोग होता है:')}
               </span>
               <div className="flex flex-wrap gap-1">
                 {item.recipeTitles.map(r => {
@@ -177,7 +179,7 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
       {filteredItems.length === 0 && (
         <div className="text-center py-12 bg-white rounded-2xl border border-stone-200 text-stone-500">
           <UtensilsCrossed className="w-8 h-8 text-stone-300 mx-auto mb-2" />
-          <p className="font-semibold text-sm">{t('لا توجد مكونات مطابقة لبحثك', 'No ingredients match your query', 'Aucun ingrédient ne correspond à votre recherche', 'Ningún ingrediente coincide con tu búsqueda', '検索条件に一致する食材が見つかりませんでした')}</p>
+          <p className="font-semibold text-sm">{t('لا توجد مكونات مطابقة لبحثك', 'No ingredients match your query', 'Aucun ingrédient ne correspond à votre recherche', 'Ningún ingrediente coincide con tu búsqueda', '検索条件に一致する食材が見つかりませんでした', 'आपकी खोज से मेल खाने वाली कोई सामग्री नहीं मिली')}</p>
         </div>
       )}
     </div>

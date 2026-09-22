@@ -5,7 +5,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'en', name: 'English', nativeName: 'English', dir: 'ltr', flag: '🇬🇧' },
   { code: 'fr', name: 'French', nativeName: 'Français', dir: 'ltr', flag: '🇫🇷' },
   { code: 'es', name: 'Spanish', nativeName: 'Español', dir: 'ltr', flag: '🇪🇸' },
-  { code: 'ja', name: 'Japanese', nativeName: '日本語', dir: 'ltr', flag: '🇯🇵' }
+  { code: 'ja', name: 'Japanese', nativeName: '日本語', dir: 'ltr', flag: '🇯🇵' },
+  { code: 'hi', name: 'Hindi', nativeName: 'हिन्दी', dir: 'ltr', flag: '🇮🇳' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -27,6 +28,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'ja') {
       return { language: 'ja', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'hi') {
+      return { language: 'hi', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
@@ -286,9 +290,16 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
   },
   hi: {
     siteTitle: 'डॉ. फातिमा अलकावोकजी पाक कला पुस्तक',
+    appTitle: 'डॉ. फातिमा अलकावोकजी पाक कला पुस्तक',
     siteSubtitle: 'प्रामाणिक मिस्री व्यंजनों की विरासत',
+    appSubtitle: 'प्रामाणिक मिस्री व्यंजनों की विरासत',
     allRecipes: 'सभी व्यंजन',
+    navAllRecipes: 'सभी व्यंजन',
     aboutFatma: 'डॉ. फातिमा के बारे में',
+    navAboutFatma: 'डॉ. फातिमा के बारे में',
+    ingredientsRegistry: 'सामग्री सूची',
+    navIngredientsRegistry: 'सामग्री सूची',
+    choosePreferredLanguage: 'अपनी पसंदीदा भाषा चुनें',
     searchPlaceholder: 'व्यंजन, सामग्री या विधि खोजें...',
     filterByChapter: 'अध्याय अनुसार',
     prepTime: 'तैयारी का समय',
