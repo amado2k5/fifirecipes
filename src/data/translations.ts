@@ -4,7 +4,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'ar', name: 'Arabic', nativeName: 'العربية', dir: 'rtl', flag: '🇪🇬' },
   { code: 'en', name: 'English', nativeName: 'English', dir: 'ltr', flag: '🇬🇧' },
   { code: 'fr', name: 'French', nativeName: 'Français', dir: 'ltr', flag: '🇫🇷' },
-  { code: 'es', name: 'Spanish', nativeName: 'Español', dir: 'ltr', flag: '🇪🇸' }
+  { code: 'es', name: 'Spanish', nativeName: 'Español', dir: 'ltr', flag: '🇪🇸' },
+  { code: 'ja', name: 'Japanese', nativeName: '日本語', dir: 'ltr', flag: '🇯🇵' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -23,6 +24,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'es') {
       return { language: 'es', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'ja') {
+      return { language: 'ja', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
@@ -236,23 +240,30 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'Cozinhar é como tocar piano: requer harmonia e amor.',
   },
   ja: {
-    siteTitle: 'ファトマ・アルカウォクジ博士の料理本',
-    siteSubtitle: '本場エジプトの伝統料理アーカイブ',
-    allRecipes: 'すべてのレシピ',
+    siteTitle: 'ファトマ・アルカウォクジ博士のレシピ集',
+    appTitle: 'ファトマ・アルカウォクジ博士のレシピ集',
+    siteSubtitle: '本場エジプト料理の伝統を伝える遺産レシピ集',
+    appSubtitle: '本場エジプト料理の伝統を伝える遺産レシピ集',
+    allRecipes: 'レシピを見る',
+    navAllRecipes: 'レシピを見る',
     aboutFatma: 'ファトマ博士について',
-    searchPlaceholder: 'レシピ、材料、調理法を検索...',
+    navAboutFatma: 'ファトマ博士について',
+    ingredientsRegistry: '食材一覧',
+    navIngredientsRegistry: '食材一覧',
+    choosePreferredLanguage: 'サイトの言語を選択',
+    searchPlaceholder: 'レシピ名、材料、調理法で検索...',
     filterByChapter: '章で絞り込む',
-    prepTime: '準備時間',
+    prepTime: '下ごしらえ時間',
     cookTime: '調理時間',
     servings: '分量',
     difficulty: '難易度',
     method: '調理法',
-    ingredients: '材料と正確な分量',
-    instructions: '調理手順ステップバイステップ',
-    tips: 'ファトマ博士のコツとメモ',
+    ingredients: '主な材料と正確な分量',
+    instructions: '作り方(ステップバイステップ)',
+    tips: 'ファトマ博士からのコツとメモ',
     shareRecipe: 'レシピをシェア',
-    noRecipesFound: 'レシピが見つかりませんでした',
-    tributeQuote: '料理はピアノの演奏と同じです。調和と忍耐と愛が必要です。',
+    noRecipesFound: '検索条件に一致するレシピが見つかりませんでした',
+    tributeQuote: '料理はピアノを弾くのと同じです。真心のこもった調和と忍耐、そして自分自身への愛がなければ完成しません。',
   },
   zh: {
     siteTitle: '法特玛·卡沃克吉博士烹饪食谱全书',
