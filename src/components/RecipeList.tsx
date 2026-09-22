@@ -32,7 +32,8 @@ export const RecipeList: React.FC<RecipeListProps> = ({
   const isEs = lang === 'es';
   const isJa = lang === 'ja';
   const isHi = lang === 'hi';
-  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : en);
+  const isPt = lang === 'pt';
+  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : en);
 
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
@@ -123,31 +124,31 @@ export const RecipeList: React.FC<RecipeListProps> = ({
 
           <div className="flex items-center gap-2">
             <label className="text-xs font-semibold text-stone-500 whitespace-nowrap">
-              {t('ترتيب حسب:', 'Sort by:', 'Trier par :', 'Ordenar por:', '並び替え:', 'क्रमबद्ध करें:')}
+              {t('ترتيب حسب:', 'Sort by:', 'Trier par :', 'Ordenar por:', '並び替え:', 'क्रमबद्ध करें:', 'Ordenar por:')}
             </label>
             <select
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value as any)}
               className="px-3 py-2 text-xs font-medium rounded-xl border border-stone-200 bg-stone-50 focus:bg-white text-stone-800"
             >
-              <option value="overlap">{t('نسبة التطابق وإزالة التكرار (الأعلى)', 'Highest Overlap %', 'Chevauchement le Plus Élevé (%)', 'Mayor % de Coincidencia', '一致率が高い順', 'सर्वाधिक मिलान %')}</option>
-              <option value="title">{t('الاسم أبجدياً (أ-ي)', 'Alphabetical (A-Z)', 'Alphabétique (A-Z)', 'Alfabético (A-Z)', '名前順(あいうえお順)', 'वर्णानुक्रम (अ-ज्ञ)')}</option>
-              <option value="ingredients">{t('عدد المقادير المدمجة', 'Most Ingredients', "Le Plus d'Ingrédients", 'Más Ingredientes', '材料が多い順', 'सर्वाधिक सामग्री')}</option>
-              <option value="steps">{t('عدد الخطوات الفريدة', 'Most Unique Steps', "Le Plus d'Étapes", 'Más Pasos Únicos', '手順が多い順', 'सर्वाधिक विशिष्ट चरण')}</option>
+              <option value="overlap">{t('نسبة التطابق وإزالة التكرار (الأعلى)', 'Highest Overlap %', 'Chevauchement le Plus Élevé (%)', 'Mayor % de Coincidencia', '一致率が高い順', 'सर्वाधिक मिलान %', 'Maior % de Coincidência')}</option>
+              <option value="title">{t('الاسم أبجدياً (أ-ي)', 'Alphabetical (A-Z)', 'Alphabétique (A-Z)', 'Alfabético (A-Z)', '名前順(あいうえお順)', 'वर्णानुक्रम (अ-ज्ञ)', 'Alfabético (A-Z)')}</option>
+              <option value="ingredients">{t('عدد المقادير المدمجة', 'Most Ingredients', "Le Plus d'Ingrédients", 'Más Ingredientes', '材料が多い順', 'सर्वाधिक सामग्री', 'Mais Ingredientes')}</option>
+              <option value="steps">{t('عدد الخطوات الفريدة', 'Most Unique Steps', "Le Plus d'Étapes", 'Más Pasos Únicos', '手順が多い順', 'सर्वाधिक विशिष्ट चरण', 'Mais Passos Únicos')}</option>
             </select>
           </div>
         </div>
 
         {/* Secondary Filters (Cooking Method) */}
         <div className="flex flex-wrap items-center gap-2 pt-2 text-xs">
-          <span className="text-stone-400 font-medium">{t('طريقة الطهو:', 'Method:', 'Méthode :', 'Método:', '調理法:', 'विधि:')}</span>
+          <span className="text-stone-400 font-medium">{t('طريقة الطهو:', 'Method:', 'Méthode :', 'Método:', '調理法:', 'विधि:', 'Método:')}</span>
           <button
             onClick={() => setSelectedCookingMethod('all')}
             className={`px-2.5 py-1 rounded-md text-xs font-medium transition-colors ${
               selectedCookingMethod === 'all' ? 'bg-amber-100 text-amber-800' : 'bg-stone-50 text-stone-600 hover:bg-stone-100'
             }`}
           >
-            {t('الكل', 'All', 'Tout', 'Todos', 'すべて', 'सभी')}
+            {t('الكل', 'All', 'Tout', 'Todos', 'すべて', 'सभी', 'Todos')}
           </button>
           {cookingMethods.map(m => (
             <button
@@ -167,21 +168,21 @@ export const RecipeList: React.FC<RecipeListProps> = ({
               className="mr-auto text-xs text-rose-600 hover:underline flex items-center gap-1 font-semibold"
             >
               <X className="w-3.5 h-3.5" />
-              <span>{t('إعادة ضبط الفلاتر', 'Reset filters', 'Réinitialiser les filtres', 'Restablecer filtros', 'フィルターをリセット', 'फ़िल्टर रीसेट करें')}</span>
+              <span>{t('إعادة ضبط الفلاتر', 'Reset filters', 'Réinitialiser les filtres', 'Restablecer filtros', 'フィルターをリセット', 'फ़िल्टर रीसेट करें', 'Redefinir filtros')}</span>
             </button>
           )}
         </div>
 
         {/* Secondary Filters (Category) */}
         <div className="flex flex-wrap items-center gap-2 pt-2 text-xs">
-          <span className="text-stone-400 font-medium">{t('التصنيف:', 'Category:', 'Catégorie :', 'Categoría:', 'カテゴリー:', 'श्रेणी:')}</span>
+          <span className="text-stone-400 font-medium">{t('التصنيف:', 'Category:', 'Catégorie :', 'Categoría:', 'カテゴリー:', 'श्रेणी:', 'Categoria:')}</span>
           <button
             onClick={() => setSelectedCategory('all')}
             className={`px-2.5 py-1 rounded-md text-xs font-medium transition-colors ${
               selectedCategory === 'all' ? 'bg-amber-100 text-amber-800' : 'bg-stone-50 text-stone-600 hover:bg-stone-100'
             }`}
           >
-            {t('الكل', 'All', 'Tout', 'Todos', 'すべて', 'सभी')}
+            {t('الكل', 'All', 'Tout', 'Todos', 'すべて', 'सभी', 'Todos')}
           </button>
           {categories.map(c => (
             <button
@@ -206,7 +207,8 @@ export const RecipeList: React.FC<RecipeListProps> = ({
             `Affichage de ${filteredRecipes.length} sur ${baseRecipes.length} recettes`,
             `Mostrando ${filteredRecipes.length} de ${baseRecipes.length} recetas`,
             `${baseRecipes.length}件中${filteredRecipes.length}件のレシピを表示`,
-            `कुल ${baseRecipes.length} में से ${filteredRecipes.length} रेसिपी दिखाई जा रही हैं`
+            `कुल ${baseRecipes.length} में से ${filteredRecipes.length} रेसिपी दिखाई जा रही हैं`,
+            `Mostrando ${filteredRecipes.length} de ${baseRecipes.length} receitas`
           )}
         </span>
       </div>
@@ -228,7 +230,7 @@ export const RecipeList: React.FC<RecipeListProps> = ({
         <div className="bg-white rounded-2xl border border-stone-200 p-12 text-center text-stone-500 space-y-3">
           <UtensilsCrossed className="w-10 h-10 text-stone-300 mx-auto" />
           <h4 className="text-base font-bold text-stone-800">
-            {t('لا توجد وصفات تطابق خيارات البحث', 'No recipes match your filter criteria', 'Aucune recette ne correspond à vos critères', 'Ninguna receta coincide con tus criterios de búsqueda', '検索条件に一致するレシピが見つかりませんでした', 'आपके खोज मानदंड से मेल खाने वाली कोई रेसिपी नहीं मिली')}
+            {t('لا توجد وصفات تطابق خيارات البحث', 'No recipes match your filter criteria', 'Aucune recette ne correspond à vos critères', 'Ninguna receta coincide con tus criterios de búsqueda', '検索条件に一致するレシピが見つかりませんでした', 'आपके खोज मानदंड से मेल खाने वाली कोई रेसिपी नहीं मिली', 'Nenhuma receita corresponde aos critérios de busca')}
           </h4>
           <p className="text-xs max-w-sm mx-auto text-stone-500">
             {t(
@@ -237,14 +239,15 @@ export const RecipeList: React.FC<RecipeListProps> = ({
               'Essayez d’autres termes de recherche ou réinitialisez les filtres actifs.',
               'Prueba con otros términos de búsqueda o restablece los filtros activos.',
               '検索キーワードを変えるか、フィルターをリセットしてお試しください。',
-              'दूसरे खोज शब्द आज़माएँ या सक्रिय फ़िल्टर रीसेट करें।'
+              'दूसरे खोज शब्द आज़माएँ या सक्रिय फ़िल्टर रीसेट करें।',
+              'Tente alterar os termos de busca ou redefinir os filtros ativos.'
             )}
           </p>
           <button
             onClick={resetFilters}
             className="px-4 py-2 text-xs font-semibold text-amber-800 bg-amber-50 hover:bg-amber-100 rounded-lg transition-colors border border-amber-200"
           >
-            {t('إظهار جميع الوصفات', 'Show All Recipes', 'Afficher Toutes les Recettes', 'Mostrar Todas las Recetas', 'すべてのレシピを表示', 'सभी रेसिपी दिखाएँ')}
+            {t('إظهار جميع الوصفات', 'Show All Recipes', 'Afficher Toutes les Recettes', 'Mostrar Todas las Recetas', 'すべてのレシピを表示', 'सभी रेसिपी दिखाएँ', 'Mostrar Todas as Receitas')}
           </button>
         </div>
       )}

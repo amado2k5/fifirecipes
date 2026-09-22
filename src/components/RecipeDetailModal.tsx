@@ -39,7 +39,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
   const isEs = lang === 'es';
   const isJa = lang === 'ja';
   const isHi = lang === 'hi';
-  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : en);
+  const isPt = lang === 'pt';
+  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : en);
 
   if (!recipe) return null;
 
@@ -129,13 +130,13 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
               {localized.prepTime && (
                 <div className="flex items-center gap-1.5">
                   <Clock className="w-3.5 h-3.5 text-amber-400" />
-                  <span>{t(`التحضير: ${localized.prepTime}`, `Prep: ${localized.prepTime}`, `Préparation : ${localized.prepTime}`, `Preparación: ${localized.prepTime}`, `下ごしらえ: ${localized.prepTime}`, `तैयारी: ${localized.prepTime}`)}</span>
+                  <span>{t(`التحضير: ${localized.prepTime}`, `Prep: ${localized.prepTime}`, `Préparation : ${localized.prepTime}`, `Preparación: ${localized.prepTime}`, `下ごしらえ: ${localized.prepTime}`, `तैयारी: ${localized.prepTime}`, `Preparo: ${localized.prepTime}`)}</span>
                 </div>
               )}
               {localized.cookTime && (
                 <div className="flex items-center gap-1.5">
                   <Flame className="w-3.5 h-3.5 text-amber-400" />
-                  <span>{t(`الطهو: ${localized.cookTime}`, `Cook: ${localized.cookTime}`, `Cuisson : ${localized.cookTime}`, `Cocción: ${localized.cookTime}`, `調理: ${localized.cookTime}`, `पकाना: ${localized.cookTime}`)}</span>
+                  <span>{t(`الطهو: ${localized.cookTime}`, `Cook: ${localized.cookTime}`, `Cuisson : ${localized.cookTime}`, `Cocción: ${localized.cookTime}`, `調理: ${localized.cookTime}`, `पकाना: ${localized.cookTime}`, `Cozimento: ${localized.cookTime}`)}</span>
                 </div>
               )}
               {localized.servings && (
@@ -196,7 +197,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                       'Mesures exactes et harmonisées d’après les notes du Dr Fatma. Cochez les ingrédients au fur et à mesure de la préparation.',
                       'Medidas exactas conciliadas a partir de las notas de la Dra. Fatma. Marca los ingredientes a medida que los prepares.',
                       'ファトマ博士のノートをもとにした正確な分量です。準備が済んだ材料はチェックを入れてください。',
-                      'डॉ. फातिमा के नोट्स के अनुसार सटीक मानक माप। तैयार होते ही सामग्री को चेक करें।'
+                      'डॉ. फातिमा के नोट्स के अनुसार सटीक मानक माप। तैयार होते ही सामग्री को चेक करें।',
+                      'Medidas exatas conciliadas a partir das anotações da Dra. Fatma. Marque os ingredientes à medida que for preparando.'
                     )}
                   </p>
                 </div>
@@ -252,7 +254,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                   <Sparkles className="w-5 h-5 text-emerald-700 shrink-0 mt-0.5" />
                   <div>
                     <p className="font-bold">
-                      {t('خطوات الطهو الفريدة بعد تنقية وتوحيد الشروح', 'Step-by-step master cooking instructions', 'Instructions de cuisson détaillées, étape par étape', 'Instrucciones de cocina detalladas, paso a paso', 'ステップごとの詳しい調理手順', 'चरण-दर-चरण मुख्य पाक विधि')}
+                      {t('خطوات الطهو الفريدة بعد تنقية وتوحيد الشروح', 'Step-by-step master cooking instructions', 'Instructions de cuisson détaillées, étape par étape', 'Instrucciones de cocina detalladas, paso a paso', 'ステップごとの詳しい調理手順', 'चरण-दर-चरण मुख्य पाक विधि', 'Instruções de cozimento detalhadas, passo a passo')}
                     </p>
                     <p className="text-xs text-emerald-800 mt-0.5">
                       {t(
@@ -261,7 +263,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                         'Séquence vérifiée pour un résultat culinaire optimal.',
                         'Secuencia verificada para obtener resultados culinarios óptimos.',
                         '最適な仕上がりになるよう手順を確認済みです。',
-                        'बेहतरीन पाक परिणाम के लिए क्रम की जांच की गई है।'
+                        'बेहतरीन पाक परिणाम के लिए क्रम की जांच की गई है।',
+                        'Sequência verificada para obter os melhores resultados culinários.'
                       )}
                     </p>
                   </div>
