@@ -9,8 +9,11 @@ const idRange = (prefix: string, from: number, to: number) =>
 
 const RECIPES_WITH_IMAGES = [
   ...idRange('meat', 1, 40),
-  ...idRange('des', 18, 113),
-  ...idRange('bev', 2, 5)
+  ...idRange('bake', 4, 15),
+  ...idRange('savory', 1, 12),
+  ...idRange('quick', 1, 8),
+  ...idRange('des', 1, 113),
+  ...idRange('bev', 1, 5)
 ];
 
 export const RECIPE_IMAGES: Record<string, string> = Object.fromEntries(
