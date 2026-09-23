@@ -8,7 +8,7 @@ const idRange = (prefix: string, from: number, to: number) =>
   Array.from({ length: to - from + 1 }, (_, i) => `${prefix}-${String(from + i).padStart(2, '0')}`);
 
 const RECIPES_WITH_IMAGES = [
-  ...idRange('meat', 1, 40),
+  ...idRange('meat', 1, 49),
   ...idRange('salad', 8, 11),
   ...idRange('veg', 1, 35),
   ...idRange('veg', 37, 52),
