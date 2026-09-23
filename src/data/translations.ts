@@ -9,7 +9,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'hi', name: 'Hindi', nativeName: 'हिन्दी', dir: 'ltr', flag: '🇮🇳' },
   { code: 'pt', name: 'Portuguese', nativeName: 'Português', dir: 'ltr', flag: '🇧🇷' },
   { code: 'ru', name: 'Russian', nativeName: 'Русский', dir: 'ltr', flag: '🇷🇺' },
-  { code: 'zh', name: 'Chinese', nativeName: '中文', dir: 'ltr', flag: '🇨🇳' }
+  { code: 'zh', name: 'Chinese', nativeName: '中文', dir: 'ltr', flag: '🇨🇳' },
+  { code: 'de', name: 'German', nativeName: 'Deutsch', dir: 'ltr', flag: '🇩🇪' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -43,6 +44,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'zh') {
       return { language: 'zh', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'de') {
+      return { language: 'de', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
@@ -162,9 +166,16 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
   },
   de: {
     siteTitle: 'Dr. Fatma Alkawokgy Kochbuch',
+    appTitle: 'Dr. Fatma Alkawokgy Kochbuch',
     siteSubtitle: 'Das Erbe der authentischen ägyptischen Küche',
+    appSubtitle: 'Das Erbe der authentischen ägyptischen Küche',
     allRecipes: 'Alle Rezepte',
+    navAllRecipes: 'Alle Rezepte',
     aboutFatma: 'Über Dr. Fatma',
+    navAboutFatma: 'Über Dr. Fatma',
+    ingredientsRegistry: 'Zutatenverzeichnis',
+    navIngredientsRegistry: 'Zutatenverzeichnis',
+    choosePreferredLanguage: 'Wählen Sie die Sprache der Website',
     searchPlaceholder: 'Rezept, Zutat oder Methode suchen...',
     filterByChapter: 'Nach Kapitel filtern',
     prepTime: 'Zubereitung',
