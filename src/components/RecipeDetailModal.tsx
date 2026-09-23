@@ -10,7 +10,9 @@ import {
   HelpCircle,
   Share2,
   BookOpen,
-  ScrollText
+  ScrollText,
+  ArrowRight,
+  ArrowLeft
 } from 'lucide-react';
 import { getRecipeImage } from '../data/recipeImages';
 import { getUIText } from '../data/translations';
@@ -245,6 +247,24 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                   );
                 })}
               </div>
+
+              <button
+                onClick={() => setActiveTab('instructions')}
+                className="w-full flex items-center justify-center gap-2 px-5 py-3 rounded-2xl text-sm font-bold text-white bg-gradient-to-r from-emerald-600 to-emerald-700 hover:from-emerald-700 hover:to-emerald-800 shadow-sm hover:shadow-md transition-all"
+              >
+                <span>{t(
+                  'الانتقال إلى طريقة الإعداد والطهي',
+                  'Continue to Step-by-Step Preparation & Cooking',
+                  'Continuer vers Instructions Étape par Étape',
+                  'Continuar a Preparación Paso a Paso',
+                  '作り方(ステップバイステップ)へ進む',
+                  'कदम-दर-कदम खाना पकाने की विधि पर जाएं',
+                  'Continuar para Passo a Passo Detalhado',
+                  'Перейти к разделу «Пошаговые Инструкции»',
+                  '前往查看分步烹饪指南'
+                )}</span>
+                {isAr ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
+              </button>
 
               {manuscriptTrigger}
             </div>
