@@ -58,7 +58,8 @@ export default function App() {
   const isPt = lang === 'pt';
   const isRu = lang === 'ru';
   const isZh = lang === 'zh';
-  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : en);
+  const isDe = lang === 'de';
+  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : en);
 
   // Master Recipes (static public archive)
   const recipes = allRecipes;
@@ -104,7 +105,7 @@ export default function App() {
       await navigator.share(shareData).catch(() => undefined);
     } else {
       await navigator.clipboard.writeText(url.toString());
-      setNotification({ message: t('تم نسخ رابط الموقع', 'Site link copied', 'Lien du site copié', 'Enlace del sitio copiado', 'サイトのリンクをコピーしました', 'साइट लिंक कॉपी हो गया', 'Link do site copiado', 'Ссылка на сайт скопирована', '网站链接已复制'), type: 'success' });
+      setNotification({ message: t('تم نسخ رابط الموقع', 'Site link copied', 'Lien du site copié', 'Enlace del sitio copiado', 'サイトのリンクをコピーしました', 'साइट लिंक कॉपी हो गया', 'Link do site copiado', 'Ссылка на сайт скопирована', '网站链接已复制', 'Website-Link kopiert'), type: 'success' });
       setTimeout(() => setNotification(null), 3500);
     }
   };
@@ -113,7 +114,7 @@ export default function App() {
     const title = getLocalizedRecipe(recipe, lang).title;
     const result = await shareRecipe(recipe, lang, title);
     if (result.copied) {
-      setNotification({ message: t('تم نسخ رابط الوصفة', 'Recipe link copied', 'Lien de la recette copié', 'Enlace de la receta copiado', 'レシピのリンクをコピーしました', 'रेसिपी लिंक कॉपी हो गया', 'Link da receita copiado', 'Ссылка на рецепт скопирована', '食谱链接已复制'), type: 'success' });
+      setNotification({ message: t('تم نسخ رابط الوصفة', 'Recipe link copied', 'Lien de la recette copié', 'Enlace de la receta copiado', 'レシピのリンクをコピーしました', 'रेसिपी लिंक कॉपी हो गया', 'Link da receita copiado', 'Ссылка на рецепт скопирована', '食谱链接已复制', 'Rezept-Link kopiert'), type: 'success' });
       setTimeout(() => setNotification(null), 3500);
     }
   };
@@ -128,7 +129,8 @@ export default function App() {
       '[fifi.cooking] डॉ. फातिमा अलकावोकजी रेसिपी साइट पर प्रतिक्रिया',
       '[fifi.cooking] Feedback sobre o site de receitas da Dra. Fatma Alkawokgy',
       '[fifi.cooking] Отзыв о сайте рецептов Фатмы Алькавокджи',
-      '[fifi.cooking] 关于法特玛·卡沃克吉食谱网站的反馈'
+      '[fifi.cooking] 关于法特玛·卡沃克吉食谱网站的反馈',
+      '[fifi.cooking] Feedback zur Fatma-Alkawokgy-Rezeptseite'
     );
     const body = t(
       'مرحباً،\n\nأود مشاركة السؤال أو الملاحظة أو المشكلة التالية:\n\n',
@@ -139,7 +141,8 @@ export default function App() {
       'नमस्ते,\n\nमैं निम्नलिखित प्रश्न, टिप्पणी या समस्या साझा करना चाहूंगा/चाहूंगी:\n\n',
       'Olá,\n\nGostaria de compartilhar a seguinte pergunta, comentário ou problema:\n\n',
       'Здравствуйте,\n\nХочу поделиться следующим вопросом, комментарием или проблемой:\n\n',
-      '您好，\n\n我想反馈以下问题、意见或建议：\n\n'
+      '您好，\n\n我想反馈以下问题、意见或建议：\n\n',
+      'Hallo,\n\nIch möchte folgende Frage, Anmerkung oder Problem mitteilen:\n\n'
     );
     window.location.href = `mailto:${FEEDBACK_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
@@ -282,7 +285,8 @@ export default function App() {
                     'डॉ. फातिमा अलकावोकजी (1943–2026) की पाक विरासत • पियानो में डॉक्टरेट, संगीत शिक्षा महाविद्यालय, ज़मालेक, काहिरा',
                     'O Legado Culinário da Dra. Fatma Alkawokgy (1943–2026) • Doutorado em Piano, Cairo',
                     'Кулинарное наследие д-ра Фатмы Алькавокджи (1943–2026) • Доктор фортепиано, Каир',
-                    '法特玛·卡沃克吉博士的美食档案(1943–2026年)• 钢琴博士，开罗'
+                    '法特玛·卡沃克吉博士的美食档案(1943–2026年)• 钢琴博士，开罗',
+                    'Das kulinarische Erbe von Dr. Fatma Alkawokgy (1943–2026) • Doktortitel in Klavier, Kairo'
                   )}
                 </span>
               </div>
@@ -293,7 +297,7 @@ export default function App() {
               className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-stone-700 bg-stone-50 hover:bg-stone-100 rounded-xl transition-colors border border-stone-200"
             >
               <Mail className="w-3.5 h-3.5 text-amber-700" />
-              <span>{t('أسئلة أو ملاحظات أو مشاكل؟ أرسل ملاحظاتك', 'Questions, comments, or issues? Submit feedback', 'Questions, commentaires ou problèmes ? Envoyez vos remarques', '¿Preguntas, comentarios o problemas? Envía tus comentarios', 'ご質問・ご意見・不具合の報告はこちら', 'सवाल, टिप्पणी या समस्या? प्रतिक्रिया भेजें', 'Dúvidas, comentários ou problemas? Envie seu feedback', 'Вопросы, комментарии или проблемы? Отправьте отзыв', '有问题、意见或建议？请提交反馈')}</span>
+              <span>{t('أسئلة أو ملاحظات أو مشاكل؟ أرسل ملاحظاتك', 'Questions, comments, or issues? Submit feedback', 'Questions, commentaires ou problèmes ? Envoyez vos remarques', '¿Preguntas, comentarios o problemas? Envía tus comentarios', 'ご質問・ご意見・不具合の報告はこちら', 'सवाल, टिप्पणी या समस्या? प्रतिक्रिया भेजें', 'Dúvidas, comentários ou problemas? Envie seu feedback', 'Вопросы, комментарии или проблемы? Отправьте отзыв', '有问题、意见或建议？请提交反馈', 'Fragen, Anmerkungen oder Probleme? Feedback senden')}</span>
             </button>
           </div>
 
@@ -308,13 +312,14 @@ export default function App() {
                 'डॉ. फातिमा अलकावोकजी की पाक और कलात्मक विरासत के सभी अधिकार सुरक्षित हैं।',
                 'Todos os direitos reservados ao legado culinário e artístico da Dra. Fatma Alkawokgy.',
                 'Все права на кулинарное и художественное наследие д-ра Фатмы Алькавокджи защищены.',
-                '法特玛·卡沃克吉博士的美食与艺术遗产版权所有。'
+                '法特玛·卡沃克吉博士的美食与艺术遗产版权所有。',
+                'Alle Rechte am kulinarischen und künstlerischen Erbe von Dr. Fatma Alkawokgy vorbehalten.'
               )}
             </div>
             <div className="flex items-center gap-2">
-              <span>{t('العربية والإنجليزية والفرنسية والإسبانية واليابانية والهندية والبرتغالية والروسية والصينية مدعومة', 'Arabic, English, French, Spanish, Japanese, Hindi, Portuguese, Russian, and Chinese supported', 'Arabe, anglais, français, espagnol, japonais, hindi, portugais, russe et chinois pris en charge', 'Árabe, inglés, francés, español, japonés, hindi, portugués, ruso y chino disponibles', 'アラビア語・英語・フランス語・スペイン語・日本語・ヒンディー語・ポルトガル語・ロシア語・中国語に対応', 'अरबी, अंग्रेज़ी, फ़्रेंच, स्पेनिश, जापानी, हिन्दी, पुर्तगाली, रूसी और चीनी उपलब्ध', 'Suporte para árabe, inglês, francês, espanhol, japonês, hindi, português, russo e chinês', 'Поддержка арабского, английского, французского, испанского, японского, хинди, португальского, русского и китайского языков', '支持阿拉伯语、英语、法语、西班牙语、日语、印地语、葡萄牙语、俄语和中文')}</span>
+              <span>{t('العربية والإنجليزية والفرنسية والإسبانية واليابانية والهندية والبرتغالية والروسية والصينية والألمانية مدعومة', 'Arabic, English, French, Spanish, Japanese, Hindi, Portuguese, Russian, Chinese, and German supported', 'Arabe, anglais, français, espagnol, japonais, hindi, portugais, russe, chinois et allemand pris en charge', 'Árabe, inglés, francés, español, japonés, hindi, portugués, ruso, chino y alemán disponibles', 'アラビア語・英語・フランス語・スペイン語・日本語・ヒンディー語・ポルトガル語・ロシア語・中国語・ドイツ語に対応', 'अरबी, अंग्रेज़ी, फ़्रेंच, स्पेनिश, जापानी, हिन्दी, पुर्तगाली, रूसी, चीनी और जर्मन उपलब्ध', 'Suporte para árabe, inglês, francês, espanhol, japonês, hindi, português, russo, chinês e alemão', 'Поддержка арабского, английского, французского, испанского, японского, хинди, португальского, русского, китайского и немецкого языков', '支持阿拉伯语、英语、法语、西班牙语、日语、印地语、葡萄牙语、俄语、中文和德语', 'Unterstützung für Arabisch, Englisch, Französisch, Spanisch, Japanisch, Hindi, Portugiesisch, Russisch, Chinesisch und Deutsch')}</span>
               <span>•</span>
-              <span>{t('مشاركة الوصفة الفردية مفعّلة', 'Single-Recipe Sharing Enabled', 'Partage de Recette Individuelle Activé', 'Compartir Receta Individual Habilitado', '個別レシピの共有が可能', 'एकल रेसिपी साझा करने की सुविधा उपलब्ध', 'Compartilhamento de receita individual habilitado', 'Доступен обмен ссылкой на отдельный рецепт', '支持单个食谱分享')}</span>
+              <span>{t('مشاركة الوصفة الفردية مفعّلة', 'Single-Recipe Sharing Enabled', 'Partage de Recette Individuelle Activé', 'Compartir Receta Individual Habilitado', '個別レシピの共有が可能', 'एकल रेसिपी साझा करने की सुविधा उपलब्ध', 'Compartilhamento de receita individual habilitado', 'Доступен обмен ссылкой на отдельный рецепт', '支持单个食谱分享', 'Teilen einzelner Rezepte aktiviert')}</span>
             </div>
           </div>
         </div>
