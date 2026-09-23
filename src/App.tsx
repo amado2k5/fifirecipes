@@ -59,7 +59,8 @@ export default function App() {
   const isRu = lang === 'ru';
   const isZh = lang === 'zh';
   const isDe = lang === 'de';
-  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : en);
+  const isIt = lang === 'it';
+  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : en);
 
   // Master Recipes (static public archive)
   const recipes = allRecipes;
@@ -105,7 +106,7 @@ export default function App() {
       await navigator.share(shareData).catch(() => undefined);
     } else {
       await navigator.clipboard.writeText(url.toString());
-      setNotification({ message: t('تم نسخ رابط الموقع', 'Site link copied', 'Lien du site copié', 'Enlace del sitio copiado', 'サイトのリンクをコピーしました', 'साइट लिंक कॉपी हो गया', 'Link do site copiado', 'Ссылка на сайт скопирована', '网站链接已复制', 'Website-Link kopiert'), type: 'success' });
+      setNotification({ message: t('تم نسخ رابط الموقع', 'Site link copied', 'Lien du site copié', 'Enlace del sitio copiado', 'サイトのリンクをコピーしました', 'साइट लिंक कॉपी हो गया', 'Link do site copiado', 'Ссылка на сайт скопирована', '网站链接已复制', 'Website-Link kopiert', 'Link del sito copiato'), type: 'success' });
       setTimeout(() => setNotification(null), 3500);
     }
   };
@@ -114,7 +115,7 @@ export default function App() {
     const title = getLocalizedRecipe(recipe, lang).title;
     const result = await shareRecipe(recipe, lang, title);
     if (result.copied) {
-      setNotification({ message: t('تم نسخ رابط الوصفة', 'Recipe link copied', 'Lien de la recette copié', 'Enlace de la receta copiado', 'レシピのリンクをコピーしました', 'रेसिपी लिंक कॉपी हो गया', 'Link da receita copiado', 'Ссылка на рецепт скопирована', '食谱链接已复制', 'Rezept-Link kopiert'), type: 'success' });
+      setNotification({ message: t('تم نسخ رابط الوصفة', 'Recipe link copied', 'Lien de la recette copié', 'Enlace de la receta copiado', 'レシピのリンクをコピーしました', 'रेसिपी लिंक कॉपी हो गया', 'Link da receita copiado', 'Ссылка на рецепт скопирована', '食谱链接已复制', 'Rezept-Link kopiert', 'Link della ricetta copiato'), type: 'success' });
       setTimeout(() => setNotification(null), 3500);
     }
   };
@@ -130,7 +131,8 @@ export default function App() {
       '[fifi.cooking] Feedback sobre o site de receitas da Dra. Fatma Alkawokgy',
       '[fifi.cooking] Отзыв о сайте рецептов Фатмы Алькавокджи',
       '[fifi.cooking] 关于法特玛·卡沃克吉食谱网站的反馈',
-      '[fifi.cooking] Feedback zur Fatma-Alkawokgy-Rezeptseite'
+      '[fifi.cooking] Feedback zur Fatma-Alkawokgy-Rezeptseite',
+      '[fifi.cooking] Feedback sul sito delle ricette di Fatma Alkawokgy'
     );
     const body = t(
       'مرحباً،\n\nأود مشاركة السؤال أو الملاحظة أو المشكلة التالية:\n\n',
@@ -142,7 +144,8 @@ export default function App() {
       'Olá,\n\nGostaria de compartilhar a seguinte pergunta, comentário ou problema:\n\n',
       'Здравствуйте,\n\nХочу поделиться следующим вопросом, комментарием или проблемой:\n\n',
       '您好，\n\n我想反馈以下问题、意见或建议：\n\n',
-      'Hallo,\n\nIch möchte folgende Frage, Anmerkung oder Problem mitteilen:\n\n'
+      'Hallo,\n\nIch möchte folgende Frage, Anmerkung oder Problem mitteilen:\n\n',
+      'Ciao,\n\nVorrei condividere la seguente domanda, commento o problema:\n\n'
     );
     window.location.href = `mailto:${FEEDBACK_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
@@ -286,7 +289,8 @@ export default function App() {
                     'O Legado Culinário da Dra. Fatma Alkawokgy (1943–2026) • Doutorado em Piano, Cairo',
                     'Кулинарное наследие д-ра Фатмы Алькавокджи (1943–2026) • Доктор фортепиано, Каир',
                     '法特玛·卡沃克吉博士的美食档案(1943–2026年)• 钢琴博士，开罗',
-                    'Das kulinarische Erbe von Dr. Fatma Alkawokgy (1943–2026) • Doktortitel in Klavier, Kairo'
+                    'Das kulinarische Erbe von Dr. Fatma Alkawokgy (1943–2026) • Doktortitel in Klavier, Kairo',
+                    'L’Archivio Culinario della Dott.ssa Fatma Alkawokgy (1943–2026) • Dottorato in Pianoforte, Il Cairo'
                   )}
                 </span>
               </div>
@@ -297,29 +301,54 @@ export default function App() {
               className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-stone-700 bg-stone-50 hover:bg-stone-100 rounded-xl transition-colors border border-stone-200"
             >
               <Mail className="w-3.5 h-3.5 text-amber-700" />
-              <span>{t('أسئلة أو ملاحظات أو مشاكل؟ أرسل ملاحظاتك', 'Questions, comments, or issues? Submit feedback', 'Questions, commentaires ou problèmes ? Envoyez vos remarques', '¿Preguntas, comentarios o problemas? Envía tus comentarios', 'ご質問・ご意見・不具合の報告はこちら', 'सवाल, टिप्पणी या समस्या? प्रतिक्रिया भेजें', 'Dúvidas, comentários ou problemas? Envie seu feedback', 'Вопросы, комментарии или проблемы? Отправьте отзыв', '有问题、意见或建议？请提交反馈', 'Fragen, Anmerkungen oder Probleme? Feedback senden')}</span>
+              <span>{t('أسئلة أو ملاحظات أو مشاكل؟ أرسل ملاحظاتك', 'Questions, comments, or issues? Submit feedback', 'Questions, commentaires ou problèmes ? Envoyez vos remarques', '¿Preguntas, comentarios o problemas? Envía tus comentarios', 'ご質問・ご意見・不具合の報告はこちら', 'सवाल, टिप्पणी या समस्या? प्रतिक्रिया भेजें', 'Dúvidas, comentários ou problemas? Envie seu feedback', 'Вопросы, комментарии или проблемы? Отправьте отзыв', '有问题、意见或建议？请提交反馈', 'Fragen, Anmerkungen oder Probleme? Feedback senden', 'Domande, commenti o problemi? Invia un feedback')}</span>
             </button>
           </div>
 
           <div className="pt-4 border-t border-stone-100 flex flex-col sm:flex-row items-center justify-between text-[11px] text-stone-400 gap-2">
-            <div>
-              {t(
-                'جميع حقوق وصفات د. فاطمة القاوقجي محفوظة لعائلتها ومحبي فنها وتراثها الموسيقي والطهوي.',
-                'All rights reserved to the culinary and artistic legacy of Dr. Fatma Alkawokgy.',
-                "Tous droits réservés à l'héritage culinaire et artistique du Dr Fatma Alkawokgy.",
-                'Todos los derechos reservados al legado culinario y artístico de la Dra. Fatma Alkawokgy.',
-                'ファトマ・アルカウォクジ博士の料理と芸術の遺産に関する権利は保護されています。',
-                'डॉ. फातिमा अलकावोकजी की पाक और कलात्मक विरासत के सभी अधिकार सुरक्षित हैं।',
-                'Todos os direitos reservados ao legado culinário e artístico da Dra. Fatma Alkawokgy.',
-                'Все права на кулинарное и художественное наследие д-ра Фатмы Алькавокджи защищены.',
-                '法特玛·卡沃克吉博士的美食与艺术遗产版权所有。',
-                'Alle Rechte am kulinarischen und künstlerischen Erbe von Dr. Fatma Alkawokgy vorbehalten.'
-              )}
+            <div className="space-y-1">
+              <p>
+                {t(
+                  'جميع حقوق وصفات د. فاطمة القاوقجي محفوظة لعائلتها ومحبي فنها وتراثها الموسيقي والطهوي.',
+                  'All rights reserved to the culinary and artistic legacy of Dr. Fatma Alkawokgy.',
+                  "Tous droits réservés à l'héritage culinaire et artistique du Dr Fatma Alkawokgy.",
+                  'Todos los derechos reservados al legado culinario y artístico de la Dra. Fatma Alkawokgy.',
+                  'ファトマ・アルカウォクジ博士の料理と芸術の遺産に関する権利は保護されています。',
+                  'डॉ. फातिमा अलकावोकजी की पाक और कलात्मक विरासत के सभी अधिकार सुरक्षित हैं।',
+                  'Todos os direitos reservados ao legado culinário e artístico da Dra. Fatma Alkawokgy.',
+                  'Все права на кулинарное и художественное наследие д-ра Фатмы Алькавокджи защищены.',
+                  '法特玛·卡沃克吉博士的美食与艺术遗产版权所有。',
+                  'Alle Rechte am kulinarischen und künstlerischen Erbe von Dr. Fatma Alkawokgy vorbehalten.',
+                  'Tutti i diritti riservati all’eredità culinaria e artistica della Dott.ssa Fatma Alkawokgy.'
+                )}
+              </p>
+              <p>
+                <a
+                  href="https://creativecommons.org/publicdomain/zero/1.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-amber-700 transition-colors"
+                >
+                  {t(
+                    'هذا المحتوى متاح مجاناً للجميع للاستخدام والنسخ والاستنساخ وإعادة النشر بأي شكل وفي أي مكان، دون أي قيود.',
+                    'This content is free for anyone to use, copy, replicate, and republish in any form, anywhere, with no restrictions.',
+                    'Ce contenu est libre d’utilisation, de copie, de reproduction et de republication sous toute forme, en tout lieu, sans aucune restriction.',
+                    'Este contenido es libre para que cualquiera lo use, copie, reproduzca y vuelva a publicar de cualquier forma, en cualquier lugar, sin restricciones.',
+                    'このコンテンツは、形式を問わず、場所を問わず、誰でも自由に使用・コピー・複製・再公開できます。制限は一切ありません。',
+                    'यह सामग्री किसी भी रूप में, कहीं भी, बिना किसी सीमा के, उपयोग, प्रतिलिपि, पुनरुत्पादन और पुनःप्रकाशन के लिए स्वतंत्र रूप से उपलब्ध है।',
+                    'Este conteúdo é livre para qualquer pessoa usar, copiar, reproduzir e republicar em qualquer formato, em qualquer lugar, sem restrições.',
+                    'Этот контент можно свободно использовать, копировать, воспроизводить и переиздавать в любой форме и где угодно, без каких-либо ограничений.',
+                    '本内容任何人均可免费使用、复制、转载和再发布，形式不限，地点不限，没有任何限制。',
+                    'Dieser Inhalt darf von jedem frei verwendet, kopiert, vervielfältigt und in jeder Form und an jedem Ort ohne Einschränkungen weiterveröffentlicht werden.',
+                    'Questo contenuto è liberamente utilizzabile da chiunque: può essere usato, copiato, riprodotto e ripubblicato in qualsiasi forma e ovunque, senza alcuna limitazione.'
+                  )}
+                </a>
+              </p>
             </div>
             <div className="flex items-center gap-2">
-              <span>{t('العربية والإنجليزية والفرنسية والإسبانية واليابانية والهندية والبرتغالية والروسية والصينية والألمانية مدعومة', 'Arabic, English, French, Spanish, Japanese, Hindi, Portuguese, Russian, Chinese, and German supported', 'Arabe, anglais, français, espagnol, japonais, hindi, portugais, russe, chinois et allemand pris en charge', 'Árabe, inglés, francés, español, japonés, hindi, portugués, ruso, chino y alemán disponibles', 'アラビア語・英語・フランス語・スペイン語・日本語・ヒンディー語・ポルトガル語・ロシア語・中国語・ドイツ語に対応', 'अरबी, अंग्रेज़ी, फ़्रेंच, स्पेनिश, जापानी, हिन्दी, पुर्तगाली, रूसी, चीनी और जर्मन उपलब्ध', 'Suporte para árabe, inglês, francês, espanhol, japonês, hindi, português, russo, chinês e alemão', 'Поддержка арабского, английского, французского, испанского, японского, хинди, португальского, русского, китайского и немецкого языков', '支持阿拉伯语、英语、法语、西班牙语、日语、印地语、葡萄牙语、俄语、中文和德语', 'Unterstützung für Arabisch, Englisch, Französisch, Spanisch, Japanisch, Hindi, Portugiesisch, Russisch, Chinesisch und Deutsch')}</span>
+              <span>{t('العربية والإنجليزية والفرنسية والإسبانية واليابانية والهندية والبرتغالية والروسية والصينية والألمانية والإيطالية مدعومة', 'Arabic, English, French, Spanish, Japanese, Hindi, Portuguese, Russian, Chinese, German, and Italian supported', 'Arabe, anglais, français, espagnol, japonais, hindi, portugais, russe, chinois, allemand et italien pris en charge', 'Árabe, inglés, francés, español, japonés, hindi, portugués, ruso, chino, alemán e italiano disponibles', 'アラビア語・英語・フランス語・スペイン語・日本語・ヒンディー語・ポルトガル語・ロシア語・中国語・ドイツ語・イタリア語に対応', 'अरबी, अंग्रेज़ी, फ़्रेंच, स्पेनिश, जापानी, हिन्दी, पुर्तगाली, रूसी, चीनी, जर्मन और इतालवी उपलब्ध', 'Suporte para árabe, inglês, francês, espanhol, japonês, hindi, português, russo, chinês, alemão e italiano', 'Поддержка арабского, английского, французского, испанского, японского, хинди, португальского, русского, китайского, немецкого и итальянского языков', '支持阿拉伯语、英语、法语、西班牙语、日语、印地语、葡萄牙语、俄语、中文、德语和意大利语', 'Unterstützung für Arabisch, Englisch, Französisch, Spanisch, Japanisch, Hindi, Portugiesisch, Russisch, Chinesisch, Deutsch und Italienisch', 'Supporto per arabo, inglese, francese, spagnolo, giapponese, hindi, portoghese, russo, cinese, tedesco e italiano')}</span>
               <span>•</span>
-              <span>{t('مشاركة الوصفة الفردية مفعّلة', 'Single-Recipe Sharing Enabled', 'Partage de Recette Individuelle Activé', 'Compartir Receta Individual Habilitado', '個別レシピの共有が可能', 'एकल रेसिपी साझा करने की सुविधा उपलब्ध', 'Compartilhamento de receita individual habilitado', 'Доступен обмен ссылкой на отдельный рецепт', '支持单个食谱分享', 'Teilen einzelner Rezepte aktiviert')}</span>
+              <span>{t('مشاركة الوصفة الفردية مفعّلة', 'Single-Recipe Sharing Enabled', 'Partage de Recette Individuelle Activé', 'Compartir Receta Individual Habilitado', '個別レシピの共有が可能', 'एकल रेसिपी साझा करने की सुविधा उपलब्ध', 'Compartilhamento de receita individual habilitado', 'Доступен обмен ссылкой на отдельный рецепт', '支持单个食谱分享', 'Teilen einzelner Rezepte aktiviert', 'Condivisione della singola ricetta attiva')}</span>
             </div>
           </div>
         </div>

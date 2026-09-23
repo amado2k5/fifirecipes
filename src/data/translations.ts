@@ -10,7 +10,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'pt', name: 'Portuguese', nativeName: 'Português', dir: 'ltr', flag: '🇧🇷' },
   { code: 'ru', name: 'Russian', nativeName: 'Русский', dir: 'ltr', flag: '🇷🇺' },
   { code: 'zh', name: 'Chinese', nativeName: '中文', dir: 'ltr', flag: '🇨🇳' },
-  { code: 'de', name: 'German', nativeName: 'Deutsch', dir: 'ltr', flag: '🇩🇪' }
+  { code: 'de', name: 'German', nativeName: 'Deutsch', dir: 'ltr', flag: '🇩🇪' },
+  { code: 'it', name: 'Italian', nativeName: 'Italiano', dir: 'ltr', flag: '🇮🇹' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -47,6 +48,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'de') {
       return { language: 'de', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'it') {
+      return { language: 'it', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
@@ -191,10 +195,17 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'Kochen ist wie Klavierspielen: Es braucht Harmonie, Geduld und Herz.',
   },
   it: {
+    appTitle: 'Ricettario Dott.ssa Fatma Alkawokgy',
+    appSubtitle: 'Il Ricettario Storico della Cucina Egiziana',
     siteTitle: 'Ricettario Dott.ssa Fatma Alkawokgy',
     siteSubtitle: 'Il Ricettario Storico della Cucina Egiziana',
     allRecipes: 'Tutte le Ricette',
     aboutFatma: 'Su Fatma',
+    navAllRecipes: 'Tutte le Ricette',
+    navAboutFatma: 'Su Fatma',
+    ingredientsRegistry: 'Elenco degli Ingredienti',
+    navIngredientsRegistry: 'Elenco degli Ingredienti',
+    choosePreferredLanguage: 'Scegli la tua lingua preferita',
     searchPlaceholder: 'Cerca ricetta, ingrediente o tecnica...',
     filterByChapter: 'Filtra per Capitolo',
     prepTime: 'Preparazione',

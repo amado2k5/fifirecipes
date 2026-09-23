@@ -29,7 +29,8 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
   const isRu = lang === 'ru';
   const isZh = lang === 'zh';
   const isDe = lang === 'de';
-  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : en);
+  const isIt = lang === 'it';
+  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : en);
   const getMilestoneYear = (year: string) => {
     if (isAr) return year;
     if (year === 'حوالي 1961') return isFr ? 'v. 1961' : isEs ? 'c. 1961' : isJa ? '1961年頃' : isHi ? 'लगभग 1961' : isPt ? 'c. 1961' : isRu ? 'около 1961 г.' : isZh ? '1961年左右' : isDe ? 'um 1961' : 'c. 1961';
@@ -58,12 +59,12 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
         <div className="relative z-20 p-6 sm:p-12 max-w-3xl">
           <img
             src={`${import.meta.env.BASE_URL}logo-transparent.png`}
-            alt={t('شعار د. فاطمة القاوقجي', 'Dr. Fatma Alkawokgy logo', 'Logo du Dr Fatma Alkawokgy', 'Logotipo de la Dra. Fatma Alkawokgy', 'ファトマ・アルカウォクジ博士のロゴ', 'डॉ. फातिमा अल-कावोक्जी का लोगो', 'Logotipo da Dra. Fatma Alkawokgy', 'Логотип д-ра Фатмы Алькавокджи', '法特玛·卡沃克吉博士徽标', 'Logo von Dr. Fatma Alkawokgy')}
+            alt={t('شعار د. فاطمة القاوقجي', 'Dr. Fatma Alkawokgy logo', 'Logo du Dr Fatma Alkawokgy', 'Logotipo de la Dra. Fatma Alkawokgy', 'ファトマ・アルカウォクジ博士のロゴ', 'डॉ. फातिमा अल-कावोक्जी का लोगो', 'Logotipo da Dra. Fatma Alkawokgy', 'Логотип д-ра Фатмы Алькавокджи', '法特玛·卡沃克吉博士徽标', 'Logo von Dr. Fatma Alkawokgy', 'Logo della Dott.ssa Fatma Alkawokgy')}
             className="w-28 h-28 sm:w-36 sm:h-36 object-cover object-center rounded-2xl bg-white/90 p-2 shadow-lg mb-5"
           />
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/20 text-amber-300 border border-amber-500/30 mb-4">
             <Music className="w-3.5 h-3.5" />
-            <span>{t('1943 – 2026 • كلية التربية الموسيقية بالزمالك', '1943 – 2026 • Faculty of Music Education, Zamalek, Cairo, Egypt', '1943 – 2026 • Faculté d’Éducation Musicale, Zamalek, Le Caire, Égypte', '1943 – 2026 • Facultad de Educación Musical, Zamalek, El Cairo, Egipto', '1943年 – 2026年 • ザマレク音楽教育学部(エジプト・カイロ)', '1943 – 2026 • संगीत शिक्षा संकाय, ज़मालेक, काहिरा, मिस्र', '1943 – 2026 • Faculdade de Educação Musical, Zamalek, Cairo, Egito', '1943 – 2026 • Факультет музыкального образования, Замалек, Каир, Египет', '1943年 – 2026年 • 埃及开罗扎马雷克音乐教育学院', '1943 – 2026 • Fakultät für Musikpädagogik, Zamalek, Kairo, Ägypten')}</span>
+            <span>{t('1943 – 2026 • كلية التربية الموسيقية بالزمالك', '1943 – 2026 • Faculty of Music Education, Zamalek, Cairo, Egypt', '1943 – 2026 • Faculté d’Éducation Musicale, Zamalek, Le Caire, Égypte', '1943 – 2026 • Facultad de Educación Musical, Zamalek, El Cairo, Egipto', '1943年 – 2026年 • ザマレク音楽教育学部(エジプト・カイロ)', '1943 – 2026 • संगीत शिक्षा संकाय, ज़मालेक, काहिरा, मिस्र', '1943 – 2026 • Faculdade de Educação Musical, Zamalek, Cairo, Egito', '1943 – 2026 • Факультет музыкального образования, Замалек, Каир, Египет', '1943年 – 2026年 • 埃及开罗扎马雷克音乐教育学院', '1943 – 2026 • Fakultät für Musikpädagogik, Zamalek, Kairo, Ägypten', '1943 – 2026 • Facoltà di Educazione Musicale, Zamalek, Il Cairo, Egitto')}</span>
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white mb-4">
@@ -83,23 +84,23 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
               <Calendar className="w-5 h-5 text-amber-400 shrink-0" />
               <div>
                 <div className="font-bold text-white">1943 – 2026</div>
-                <div className="text-[11px] text-stone-400">{t('رحلة العطاء والأثر', 'A life of purpose and impact', 'Une vie de sens et d’impact', 'Una vida de propósito e impacto', '目的と功績に満ちた人生', 'उद्देश्य और प्रभाव से भरा जीवन', 'Uma vida de propósito e impacto', 'Жизнь, полная смысла и значимости', '充满使命与影响的一生', 'Ein Leben voller Sinn und Wirkung')}</div>
+                <div className="text-[11px] text-stone-400">{t('رحلة العطاء والأثر', 'A life of purpose and impact', 'Une vie de sens et d’impact', 'Una vida de propósito e impacto', '目的と功績に満ちた人生', 'उद्देश्य और प्रभाव से भरा जीवन', 'Uma vida de propósito e impacto', 'Жизнь, полная смысла и значимости', '充满使命与影响的一生', 'Ein Leben voller Sinn und Wirkung', 'Una vita di scopo e impatto')}</div>
               </div>
             </div>
 
             <div className="flex items-center gap-2.5">
               <Building className="w-5 h-5 text-amber-400 shrink-0" />
               <div>
-                <div className="font-bold text-white">{t('تربية موسيقية - الزمالك', 'Music Education - Zamalek', 'Éducation Musicale - Zamalek', 'Educación Musical - Zamalek', '音楽教育 - ザマレク', 'संगीत शिक्षा - ज़मालेक', 'Educação Musical - Zamalek', 'Музыкальное образование - Замалек', '音乐教育 - 扎马雷克', 'Musikpädagogik - Zamalek')}</div>
-                <div className="text-[11px] text-stone-400">{t('أستاذة العزف على البيانو', 'Piano Professor', 'Professeure de Piano', 'Profesora de Piano', 'ピアノ教授', 'पियानो प्रोफेसर', 'Professora de Piano', 'Профессор фортепиано', '钢琴教授', 'Klavierprofessorin')}</div>
+                <div className="font-bold text-white">{t('تربية موسيقية - الزمالك', 'Music Education - Zamalek', 'Éducation Musicale - Zamalek', 'Educación Musical - Zamalek', '音楽教育 - ザマレク', 'संगीत शिक्षा - ज़मालेक', 'Educação Musical - Zamalek', 'Музыкальное образование - Замалек', '音乐教育 - 扎马雷克', 'Musikpädagogik - Zamalek', 'Educazione Musicale - Zamalek')}</div>
+                <div className="text-[11px] text-stone-400">{t('أستاذة العزف على البيانو', 'Piano Professor', 'Professeure de Piano', 'Profesora de Piano', 'ピアノ教授', 'पियानो प्रोफेसर', 'Professora de Piano', 'Профессор фортепиано', '钢琴教授', 'Klavierprofessorin', 'Professoressa di Pianoforte')}</div>
               </div>
             </div>
 
             <div className="flex items-center gap-2.5 col-span-2 sm:col-span-1">
               <Clock className="w-5 h-5 text-amber-400 shrink-0" />
               <div>
-                <div className="font-bold text-white">{t('20 عاماً من البحث', '20 Years of Research', '20 Années de Recherche', '20 Años de Investigación', '20年間の研究', '20 वर्षों का शोध', '20 Anos de Pesquisa', '20 лет исследований', '20年研究历程', '20 Jahre Forschung')}</div>
-                <div className="text-[11px] text-stone-400">{t('تدوين وتحقيق الوصفات', 'Recipe documentation and preservation', 'Documentation et préservation des recettes', 'Documentación y preservación de recetas', 'レシピの記録と保存', 'व्यंजनों का दस्तावेज़ीकरण और संरक्षण', 'Documentação e preservação de receitas', 'Документирование и сохранение рецептов', '食谱的记录与保存', 'Dokumentation und Bewahrung von Rezepten')}</div>
+                <div className="font-bold text-white">{t('20 عاماً من البحث', '20 Years of Research', '20 Années de Recherche', '20 Años de Investigación', '20年間の研究', '20 वर्षों का शोध', '20 Anos de Pesquisa', '20 лет исследований', '20年研究历程', '20 Jahre Forschung', '20 Anni di Ricerca')}</div>
+                <div className="text-[11px] text-stone-400">{t('تدوين وتحقيق الوصفات', 'Recipe documentation and preservation', 'Documentation et préservation des recettes', 'Documentación y preservación de recetas', 'レシピの記録と保存', 'व्यंजनों का दस्तावेज़ीकरण और संरक्षण', 'Documentação e preservação de receitas', 'Документирование и сохранение рецептов', '食谱的记录与保存', 'Dokumentation und Bewahrung von Rezepten', 'Documentazione e conservazione delle ricette')}</div>
               </div>
             </div>
           </div>
@@ -112,7 +113,7 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
         <div className="max-w-3xl">
           <div className="text-xs font-bold text-amber-800 uppercase tracking-wider mb-2 flex items-center gap-2">
             <Sparkles className="w-4 h-4 text-amber-600" />
-            <span>{t('فلسفة د. فاطمة: الموسيقى ونغمات الطهي', "Dr. Fatma's Philosophy: Music & Culinary Harmony", 'La Philosophie du Dr Fatma : Musique et Harmonie Culinaire', 'La Filosofía de la Dra. Fatma: Música y Armonía Culinaria', 'ファトマ博士の哲学:音楽と料理の調和', 'डॉ. फातिमा का दर्शन: संगीत और पाककला का सामंजस्य', 'A Filosofia da Dra. Fatma: Música e Harmonia Culinária', 'Философия д-ра Фатмы: музыка и кулинарная гармония', '法特玛博士的哲学：音乐与烹饪的和谐', 'Dr. Fatmas Philosophie: Musik und kulinarische Harmonie')}</span>
+            <span>{t('فلسفة د. فاطمة: الموسيقى ونغمات الطهي', "Dr. Fatma's Philosophy: Music & Culinary Harmony", 'La Philosophie du Dr Fatma : Musique et Harmonie Culinaire', 'La Filosofía de la Dra. Fatma: Música y Armonía Culinaria', 'ファトマ博士の哲学:音楽と料理の調和', 'डॉ. फातिमा का दर्शन: संगीत और पाककला का सामंजस्य', 'A Filosofia da Dra. Fatma: Música e Harmonia Culinária', 'Философия д-ра Фатмы: музыка и кулинарная гармония', '法特玛博士的哲学：音乐与烹饪的和谐', 'Dr. Fatmas Philosophie: Musik und kulinarische Harmonie', 'La Filosofia della Dott.ssa Fatma: Musica e Armonia Culinaria')}</span>
           </div>
           <blockquote className="text-base sm:text-xl font-serif text-amber-950 italic leading-relaxed">
             "{philosophy}"
@@ -129,7 +130,7 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
           <div className="flex items-center gap-2.5 border-b border-stone-200 pb-3">
             <BookOpen className="w-5 h-5 text-amber-700" />
             <h2 className="text-xl sm:text-2xl font-bold text-stone-900">
-              {t('السيرة التوثيقية ومسيرة جمع التراث', 'The Life & Legacy of Dr. Fatma', 'La Vie et l’Héritage du Dr Fatma', 'La Vida y el Legado de la Dra. Fatma', 'ファトマ博士の生涯と遺産', 'डॉ. फातिमा का जीवन और विरासत', 'A Vida e o Legado da Dra. Fatma', 'Жизнь и наследие д-ра Фатмы', '法特玛博士的生平与遗产', 'Das Leben und Vermächtnis von Dr. Fatma')}
+              {t('السيرة التوثيقية ومسيرة جمع التراث', 'The Life & Legacy of Dr. Fatma', 'La Vie et l’Héritage du Dr Fatma', 'La Vida y el Legado de la Dra. Fatma', 'ファトマ博士の生涯と遺産', 'डॉ. फातिमा का जीवन और विरासत', 'A Vida e o Legado da Dra. Fatma', 'Жизнь и наследие д-ра Фатмы', '法特玛博士的生平与遗产', 'Das Leben und Vermächtnis von Dr. Fatma', 'La Vita e l’Eredità della Dott.ssa Fatma')}
             </h2>
           </div>
 
@@ -145,7 +146,7 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
           <div className="p-6 bg-stone-900 text-amber-100 rounded-2xl border border-amber-900/50 shadow-md">
             <div className="flex items-center gap-2 text-amber-400 text-xs font-bold uppercase tracking-wider mb-2">
               <Heart className="w-4 h-4 text-rose-400" />
-              <span>{t('لوحة الوفاء والتخليد', 'Memorial Dedication Plaque', 'Plaque Commémorative', 'Placa Conmemorativa', '追悼のプレート', 'स्मृति समर्पण पट्टिका', 'Placa Comemorativa', 'Мемориальная посвятительная табличка', '纪念献辞牌匾', 'Gedenktafel zu Ehren')}</span>
+              <span>{t('لوحة الوفاء والتخليد', 'Memorial Dedication Plaque', 'Plaque Commémorative', 'Placa Conmemorativa', '追悼のプレート', 'स्मृति समर्पण पट्टिका', 'Placa Comemorativa', 'Мемориальная посвятительная табличка', '纪念献辞牌匾', 'Gedenktafel zu Ehren', 'Targa Commemorativa')}</span>
             </div>
             <p className="text-sm sm:text-base font-serif italic leading-relaxed text-stone-200">
               "{memorialPlaque}"
@@ -158,7 +159,7 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
           <div className="flex items-center gap-2.5 border-b border-stone-200 pb-3">
             <Award className="w-5 h-5 text-amber-700" />
             <h3 className="text-lg font-bold text-stone-900">
-              {t('محطات مضيئة', 'Milestones in Life & Art', 'Jalons d’une Vie et d’un Art', 'Hitos de una Vida y un Arte', '人生と芸術の歩み', 'जीवन और कला के महत्वपूर्ण पड़ाव', 'Marcos de uma Vida e uma Arte', 'Вехи жизни и творчества', '人生与艺术的重要历程', 'Meilensteine eines Lebens und einer Kunst')}
+              {t('محطات مضيئة', 'Milestones in Life & Art', 'Jalons d’une Vie et d’un Art', 'Hitos de una Vida y un Arte', '人生と芸術の歩み', 'जीवन और कला के महत्वपूर्ण पड़ाव', 'Marcos de uma Vida e uma Arte', 'Вехи жизни и творчества', '人生与艺术的重要历程', 'Meilensteine eines Lebens und einer Kunst', 'Tappe di una Vita e di un’Arte')}
             </h3>
           </div>
 
@@ -170,10 +171,10 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
                   {getMilestoneYear(ms.year)}
                 </span>
                 <h4 className="text-sm font-bold text-stone-900 mt-1">
-                  {isAr ? ms.titleAr : isFr ? ms.titleFr : isEs ? ms.titleEs : isJa ? ms.titleJa : isHi ? ms.titleHi : isPt ? ms.titlePt : isRu ? ms.titleRu : isZh ? ms.titleZh : isDe ? ms.titleDe : ms.titleEn}
+                  {isAr ? ms.titleAr : isFr ? ms.titleFr : isEs ? ms.titleEs : isJa ? ms.titleJa : isHi ? ms.titleHi : isPt ? ms.titlePt : isRu ? ms.titleRu : isZh ? ms.titleZh : isDe ? ms.titleDe : isIt ? ms.titleIt : ms.titleEn}
                 </h4>
                 <p className="text-xs text-stone-600 mt-1 leading-relaxed">
-                  {isAr ? ms.descAr : isFr ? ms.descFr : isEs ? ms.descEs : isJa ? ms.descJa : isHi ? ms.descHi : isPt ? ms.descPt : isRu ? ms.descRu : isZh ? ms.descZh : isDe ? ms.descDe : ms.descEn}
+                  {isAr ? ms.descAr : isFr ? ms.descFr : isEs ? ms.descEs : isJa ? ms.descJa : isHi ? ms.descHi : isPt ? ms.descPt : isRu ? ms.descRu : isZh ? ms.descZh : isDe ? ms.descDe : isIt ? ms.descIt : ms.descEn}
                 </p>
               </div>
             ))}
@@ -183,7 +184,7 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
           <div className="p-4 bg-stone-50 rounded-2xl border border-stone-200">
             <h4 className="font-bold text-xs text-stone-900 mb-2 flex items-center gap-2">
               <BookOpen className="w-4 h-4 text-amber-700" />
-              <span>{t('أرشيف الوصفات التراثية', 'Heritage Recipe Archive', 'Archive des Recettes Patrimoniales', 'Archivo de Recetas Patrimoniales', '伝統レシピのアーカイブ', 'पारंपरिक व्यंजनों का संग्रह', 'Arquivo de Receitas do Patrimônio', 'Архив традиционных рецептов', '传统食谱档案库', 'Archiv der traditionellen Rezepte')}</span>
+              <span>{t('أرشيف الوصفات التراثية', 'Heritage Recipe Archive', 'Archive des Recettes Patrimoniales', 'Archivo de Recetas Patrimoniales', '伝統レシピのアーカイブ', 'पारंपरिक व्यंजनों का संग्रह', 'Arquivo de Receitas do Patrimônio', 'Архив традиционных рецептов', '传统食谱档案库', 'Archiv der traditionellen Rezepte', 'Archivio delle Ricette Tradizionali')}</span>
             </h4>
             <p className="text-xs text-stone-600 leading-relaxed">
               {t(
@@ -196,7 +197,8 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
                 'Este arquivo aberto preserva as receitas e anotações culinárias da Dra. Fatma Alkawokgy para cozinheiros e pesquisadores de todo o mundo.',
                 'Этот открытый архив сохраняет рецепты и кулинарные записи д-ра Фатмы Алькавокджи для поваров и исследователей по всему миру.',
                 '这个开放档案库保存了法特玛·卡沃克吉博士的食谱与烹饪笔记，供世界各地的厨师和研究者使用。',
-                'Dieses offene Archiv bewahrt die Rezepte und kulinarischen Aufzeichnungen von Dr. Fatma Alkawokgy für Köche und Forscher auf der ganzen Welt.'
+                'Dieses offene Archiv bewahrt die Rezepte und kulinarischen Aufzeichnungen von Dr. Fatma Alkawokgy für Köche und Forscher auf der ganzen Welt.',
+                'Questo archivio aperto conserva le ricette e gli appunti culinari della Dott.ssa Fatma Alkawokgy per cuochi e ricercatori di tutto il mondo.'
               )}
             </p>
           </div>
@@ -206,7 +208,7 @@ export const FatmaMemorialSection: React.FC<FatmaMemorialSectionProps> = ({ lang
             className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-amber-700 px-4 py-3 text-sm font-bold text-white hover:bg-amber-800 transition-colors"
           >
             <MessageSquareHeart className="w-4 h-4" />
-            <span>{t('اكتبوا تحية لفاطمة', 'Write a tribute to Fatma', 'Écrivez un hommage à Fatma', 'Escribe un homenaje a Fatma', 'ファトマ博士へメッセージを書く', 'फातिमा को श्रद्धांजलि लिखें', 'Escreva uma homenagem a Fatma', 'Напишите памятное послание Фатме', '为法特玛写一段悼念留言', 'Schreiben Sie eine Würdigung für Fatma')}</span>
+            <span>{t('اكتبوا تحية لفاطمة', 'Write a tribute to Fatma', 'Écrivez un hommage à Fatma', 'Escribe un homenaje a Fatma', 'ファトマ博士へメッセージを書く', 'फातिमा को श्रद्धांजलि लिखें', 'Escreva uma homenagem a Fatma', 'Напишите памятное послание Фатме', '为法特玛写一段悼念留言', 'Schreiben Sie eine Würdigung für Fatma', 'Scrivi un omaggio a Fatma')}</span>
           </button>
         </div>
       </div>
