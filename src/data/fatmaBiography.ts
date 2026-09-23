@@ -11,6 +11,7 @@ export interface FatmaBio {
   nameHi: string;
   namePt: string;
   nameRu: string;
+  nameZh: string;
   titleAr: string;
   titleEn: string;
   titleFr: string;
@@ -19,6 +20,7 @@ export interface FatmaBio {
   titleHi: string;
   titlePt: string;
   titleRu: string;
+  titleZh: string;
   birthYear: number;
   deathDate: string; // 2026-05-08
   institutionAr: string;
@@ -32,6 +34,7 @@ export interface FatmaBio {
   taglineHi: string;
   taglinePt: string;
   taglineRu: string;
+  taglineZh: string;
   biographyAr: string[];
   biographyEn: string[];
   biographyFr: string[];
@@ -40,6 +43,7 @@ export interface FatmaBio {
   biographyHi: string[];
   biographyPt: string[];
   biographyRu: string[];
+  biographyZh: string[];
   philosophyAr: string;
   philosophyEn: string;
   philosophyFr: string;
@@ -48,6 +52,7 @@ export interface FatmaBio {
   philosophyHi: string;
   philosophyPt: string;
   philosophyRu: string;
+  philosophyZh: string;
   memorialPlaqueAr: string;
   memorialPlaqueEn: string;
   memorialPlaqueFr: string;
@@ -56,6 +61,7 @@ export interface FatmaBio {
   memorialPlaqueHi: string;
   memorialPlaquePt: string;
   memorialPlaqueRu: string;
+  memorialPlaqueZh: string;
   milestones: {
     year: string;
     titleAr: string;
@@ -66,6 +72,7 @@ export interface FatmaBio {
     titleHi: string;
     titlePt: string;
     titleRu: string;
+    titleZh: string;
     descAr: string;
     descEn: string;
     descFr: string;
@@ -74,6 +81,7 @@ export interface FatmaBio {
     descHi: string;
     descPt: string;
     descRu: string;
+    descZh: string;
   }[];
 }
 
@@ -86,6 +94,7 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
   nameHi: 'डॉ. फातिमा अलकावोकजी',
   namePt: 'Dra. Fatma Alkawokgy',
   nameRu: 'Д-р Фатма Алькавокджи',
+  nameZh: '法特玛·卡沃克吉博士',
   titleAr: 'عازفة البيانو، الأستاذة الأكاديمية، ومؤرخة فنون الطهي التراثي المصري',
   titleEn: 'Classical Pianist, Academic Professor, and Chronicler of Egyptian Culinary Heritage',
   titleFr: 'Pianiste Classique, Professeure Universitaire et Chroniqueuse du Patrimoine Culinaire Égyptien',
@@ -94,6 +103,7 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
   titleHi: 'शास्त्रीय पियानोवादक, अकादमिक प्रोफ़ेसर, और मिस्री पाक विरासत की संरक्षिका',
   titlePt: 'Pianista Clássica, Professora Acadêmica e Cronista do Patrimônio Culinário Egípcio',
   titleRu: 'Пианистка-классик, профессор университета и летописец египетского кулинарного наследия',
+  titleZh: '古典钢琴家、大学教授、埃及烹饪传统记录者',
   birthYear: 1943,
   deathDate: '2026-05-08',
   institutionAr: 'كلية التربية الموسيقية – الزمالك، جامعة حلوان، القاهرة',
@@ -107,6 +117,7 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
   taglineHi: 'प्रामाणिक मिस्री पारंपरिक व्यंजनों के रहस्यों को संगीत जैसी सटीकता और स्थायी आत्मीयता के साथ दर्ज करने के दशकों का समर्पण',
   taglinePt: 'Décadas de dedicação registrando os segredos autênticos da culinária tradicional egípcia com precisão musical e calor duradouro',
   taglineRu: 'Десятилетия преданного труда по документированию подлинных секретов традиционной египетской кухни с музыкальной точностью и неизменной теплотой',
+  taglineZh: '数十年如一日，以音乐般的精准与历久弥新的温情，记录正宗埃及传统美食的秘诀',
   philosophyAr: 'الطهي مثل العزف على البيانو؛ النغمات لا تكتمل إلا بالتناغم الصادق، والوجبة الأصيلة لا تنضج إلا بضبط الإيقاع وصبر الروح ونقاء المقادير.',
   philosophyEn: 'Cooking is much like playing the piano: a chord is never complete without harmonic balance, and a dish never reaches true soul without rhythm, patient fire, and devotion to pure ingredients.',
   philosophyFr: "Cuisiner ressemble beaucoup à jouer du piano : un accord n'est jamais complet sans un équilibre harmonieux, et un plat n'atteint sa véritable âme que par le rythme, un feu patient et le dévouement à des ingrédients purs.",
@@ -115,6 +126,7 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
   philosophyHi: 'खाना बनाना पियानो बजाने जैसा ही है: कोई भी स्वर-समूह सामंजस्यपूर्ण संतुलन के बिना पूरा नहीं होता, और कोई भी व्यंजन लय, धैर्यपूर्ण आंच, और शुद्ध सामग्री के प्रति समर्पण के बिना अपनी असली आत्मा तक नहीं पहुंच पाता।',
   philosophyPt: 'Cozinhar é muito parecido com tocar piano: um acorde nunca está completo sem equilíbrio harmônico, e um prato nunca alcança sua verdadeira alma sem ritmo, fogo paciente e devoção a ingredientes puros.',
   philosophyRu: 'Готовить — это очень похоже на игру на пианино: аккорд никогда не бывает завершён без гармоничного равновесия, а блюдо никогда не обретает истинную душу без ритма, терпеливого огня и преданности чистым ингредиентам.',
+  philosophyZh: '烹饪就像演奏钢琴：和弦唯有和谐才能圆满，菜肴唯有节奏、耐心的火候与对纯净食材的执着，才能真正拥有灵魂。',
   memorialPlaqueAr: 'تخليداً لذكرى الراحلة الكريمة د. فاطمة القاوقجي (1943 – 2026). امرأة فاضلة جمعت بين رفعة الفن الموسيقي وأصالة البيت المصري العريق. صُنِع هذا الموقع ليبقى إرثها حيّاً في كل مطبخ وبيت.',
   memorialPlaqueEn: 'Dedicated to the immortal memory of Dr. Fatma Alkawokgy (1943–2026). An extraordinary artist who bridged the sublime heights of classical piano with the timeless warmth of the Egyptian culinary hearth. This living cookbook ensures her generous legacy lives on forever.',
   memorialPlaqueFr: "Dédié à la mémoire immortelle du Dr Fatma Alkawokgy (1943–2026). Une artiste extraordinaire qui a su unir les sommets sublimes du piano classique à la chaleur intemporelle du foyer culinaire égyptien. Ce livre de cuisine vivant fait perdurer à jamais son généreux héritage.",
@@ -123,6 +135,7 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
   memorialPlaqueHi: 'डॉ. फातिमा अलकावोकजी (1943–2026) की अमर स्मृति को समर्पित। एक असाधारण कलाकार, जिन्होंने शास्त्रीय पियानो की उदात्त ऊंचाइयों को मिस्री रसोई की कालातीत आत्मीयता से जोड़ा। यह जीवंत रेसिपी संग्रह उनकी उदार विरासत को सदा जीवित रखता है।',
   memorialPlaquePt: 'Dedicado à memória imortal da Dra. Fatma Alkawokgy (1943–2026). Uma artista extraordinária que uniu as alturas sublimes do piano clássico ao calor atemporal do lar culinário egípcio. Este livro de receitas vivo garante que seu generoso legado viva para sempre.',
   memorialPlaqueRu: 'Посвящается бессмертной памяти д-ра Фатмы Алькавокджи (1943–2026). Необыкновенная артистка, соединившая возвышенные высоты классического фортепиано с неизменной теплотой египетского кулинарного очага. Эта живая кулинарная книга навсегда сохраняет её щедрое наследие.',
+  memorialPlaqueZh: '谨此致敬法特玛·卡沃克吉博士（1943–2026年）永恒的记忆。她是一位非凡的艺术家，将古典钢琴的崇高境界与埃及厨房历久不衰的温暖融为一体。这本鲜活的食谱网站，让她慷慨的遗产得以永远延续。',
   biographyAr: [
     'ولدت الدكتورة فاطمة القاوقجي في مصر عام 1943 في زمن كانت فيه تقاليد المطبخ والبيوت المصرية تُروى شفاهة وتتوارثها الأمهات بالخبرة الفطرية والمشاهدة.',
     'التحقت بكلية التربية الموسيقية بالزمالك عندما كانت في نحو الثامنة عشرة من عمرها (حوالي عام 1961)، حيث درست وتدرجت ونالت درجة الدكتوراه في فن البيانو، وعملت أستاذة ومربية لأجيال من الطلاب في قلب القاهرة، وظلت بالكلية حتى غادرتها في عام 1980، حاملة في وجدانها دقة النغم الموسيقي والنظام الصارم المقترن برقة الإحساس.',
@@ -179,6 +192,13 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
     'Её рукописные записи легли в основу этого цифрового архива — ныне сохранённого благодаря современной кулинарной науке и доступу на нескольких языках.',
     'Д-р Фатма скончалась 8 мая 2026 года. Эта интерактивная кулинарная книга остаётся вечным памятником её щедрости, интеллектуальной строгости и безграничной любви к египетской культуре.'
   ],
+  biographyZh: [
+    '法特玛·卡沃克吉博士于1943年出生在埃及，那个年代，埃及厨房里珍贵的智慧都是靠祖母和母亲口耳相传下来的。',
+    '大约18岁那年（约1961年），她考入开罗扎马雷克著名的音乐教育学院。在那里，她刻苦学习，获得了古典钢琴博士学位，并教导了几代有志成为艺术家和音乐家的学生，直到1980年结束她的学术生涯，将严谨的艺术素养与深厚的文化情怀融为一体。',
+    '在音乐成就之外，法特玛博士毕生投身于另一项事业：细致地记录、试验、比对并完善数百道埃及传统菜肴。她走访了众多名厨，以克为单位精确称量食材，反复在炉火上试验不同做法，并记录下各地做法之间微妙的差异。',
+    '她手写的笔记，构成了这个数字档案的核心基础——如今借助现代烹饪科学与多语言支持得以完好保存。',
+    '法特玛博士于2026年5月8日与世长辞。这本互动食谱网站，将永远见证她的慷慨、严谨的治学精神，以及她对埃及文化无尽的热爱。'
+  ],
   milestones: [
     {
       year: '1943',
@@ -197,7 +217,9 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
       titlePt: 'Nascimento e Primeiras Raízes',
       descPt: 'Nasceu no Cairo em uma família egípcia culta, apaixonada por arte, literatura e tradições hospitaleiras.',
       titleRu: 'Рождение и Ранние Корни',
-      descRu: 'Родилась в Каире в культурной египетской семье, увлечённой искусством, литературой и традициями гостеприимства.'
+      descRu: 'Родилась в Каире в культурной египетской семье, увлечённой искусством, литературой и традициями гостеприимства.',
+      titleZh: '出生与早年经历',
+      descZh: '出生于开罗一个热爱艺术、文学与好客传统的教养世家。'
     },
     {
       year: 'حوالي 1961',
@@ -216,7 +238,9 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
       titlePt: 'Ingresso na Faculdade de Música de Zamalek (~18 anos)',
       descPt: 'Ingressou na Faculdade de Educação Musical de Zamalek com aproximadamente 18 anos para estudar piano clássico e educação musical.',
       titleRu: 'Поступление на факультет музыки в Замалеке (~18 лет)',
-      descRu: 'Поступила на факультет музыкального образования в Замалеке примерно в 18 лет, чтобы изучать классическое фортепиано и музыкальное образование.'
+      descRu: 'Поступила на факультет музыкального образования в Замалеке примерно в 18 лет, чтобы изучать классическое фортепиано и музыкальное образование.',
+      titleZh: '考入扎马雷克音乐学院（约18岁）',
+      descZh: '约18岁时考入开罗扎马雷克音乐教育学院，攻读古典钢琴与音乐教育。'
     },
     {
       year: '1980',
@@ -235,7 +259,9 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
       titlePt: 'Conclusão da Carreira na Faculdade de Zamalek',
       descPt: 'Obteve seu Doutorado em Piano, lecionou para gerações de músicos e concluiu seu período na faculdade em 1980.',
       titleRu: 'Завершение карьеры на факультете в Замалеке',
-      descRu: 'Получила докторскую степень по фортепиано, обучала поколения музыкантов и завершила свою работу на факультете в 1980 году.'
+      descRu: 'Получила докторскую степень по фортепиано, обучала поколения музыкантов и завершила свою работу на факультете в 1980 году.',
+      titleZh: '结束扎马雷克学院的学术生涯',
+      descZh: '获得钢琴博士学位，教导了几代音乐家，并于1980年结束在学院的任教生涯。'
     },
     {
       year: '1980 - 2020',
@@ -254,7 +280,9 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
       titlePt: 'Décadas de Pesquisa Culinária',
       descPt: 'Dedicou décadas a coletar, cozinhar, testar e compilar manuscritos de receitas egípcias autênticas.',
       titleRu: 'Десятилетия кулинарных полевых исследований',
-      descRu: 'Посвятила десятилетия сбору, приготовлению, тестированию и составлению подлинных рукописей египетских рецептов.'
+      descRu: 'Посвятила десятилетия сбору, приготовлению, тестированию и составлению подлинных рукописей египетских рецептов.',
+      titleZh: '数十年的烹饪田野调查',
+      descZh: '数十年间致力于收集、烹制、试验并整理正宗埃及食谱手稿。'
     },
     {
       year: '8 مايو 2026',
@@ -266,6 +294,7 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
       titleHi: 'निधन और चिरस्थायी विरासत',
       titlePt: 'Falecimento e Legado Eterno',
       titleRu: 'Кончина и вечное наследие',
+      titleZh: '辞世与永恒的遗产',
       descAr: 'انتقلت إلى رحمة الله في 8 مايو 2026 مخلفة إرثاً إنسانياً وأكاديمياً وطهياً عظيماً يُخلَّد في هذا الموقع.',
       descEn: 'Passed away on May 8, 2026, leaving an indelible artistic, culinary, and human heritage preserved forever.',
       descFr: "S'est éteinte le 8 mai 2026, laissant un héritage artistique, culinaire et humain indélébile, préservé pour toujours.",
@@ -273,7 +302,8 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
       descJa: '2026年5月8日に逝去し、芸術的にも、料理の面でも、人としても消えることのない遺産を残しました。それは永遠に保存されていきます。',
       descHi: '8 मई 2026 को निधन हो गया, जो अपने पीछे एक अमिट कलात्मक, पाक और मानवीय विरासत छोड़ गईं, जो सदा के लिए संरक्षित रहेगी।',
       descPt: 'Faleceu em 8 de maio de 2026, deixando um legado artístico, culinário e humano indelével, preservado para sempre.',
-      descRu: 'Скончалась 8 мая 2026 года, оставив неизгладимое художественное, кулинарное и человеческое наследие, сохранённое навсегда.'
+      descRu: 'Скончалась 8 мая 2026 года, оставив неизгладимое художественное, кулинарное и человеческое наследие, сохранённое навсегда.',
+      descZh: '于2026年5月8日辞世，留下永不磨灭的艺术、烹饪与人格遗产，被永久珍藏。'
     }
   ]
 };

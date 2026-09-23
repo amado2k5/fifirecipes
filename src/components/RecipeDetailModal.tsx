@@ -41,7 +41,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
   const isHi = lang === 'hi';
   const isPt = lang === 'pt';
   const isRu = lang === 'ru';
-  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : en);
+  const isZh = lang === 'zh';
+  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : en);
 
   if (!recipe) return null;
 
@@ -131,13 +132,13 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
               {localized.prepTime && (
                 <div className="flex items-center gap-1.5">
                   <Clock className="w-3.5 h-3.5 text-amber-400" />
-                  <span>{t(`التحضير: ${localized.prepTime}`, `Prep: ${localized.prepTime}`, `Préparation : ${localized.prepTime}`, `Preparación: ${localized.prepTime}`, `下ごしらえ: ${localized.prepTime}`, `तैयारी: ${localized.prepTime}`, `Preparo: ${localized.prepTime}`, `Подготовка: ${localized.prepTime}`)}</span>
+                  <span>{t(`التحضير: ${localized.prepTime}`, `Prep: ${localized.prepTime}`, `Préparation : ${localized.prepTime}`, `Preparación: ${localized.prepTime}`, `下ごしらえ: ${localized.prepTime}`, `तैयारी: ${localized.prepTime}`, `Preparo: ${localized.prepTime}`, `Подготовка: ${localized.prepTime}`, `准备：${localized.prepTime}`)}</span>
                 </div>
               )}
               {localized.cookTime && (
                 <div className="flex items-center gap-1.5">
                   <Flame className="w-3.5 h-3.5 text-amber-400" />
-                  <span>{t(`الطهو: ${localized.cookTime}`, `Cook: ${localized.cookTime}`, `Cuisson : ${localized.cookTime}`, `Cocción: ${localized.cookTime}`, `調理: ${localized.cookTime}`, `पकाना: ${localized.cookTime}`, `Cozimento: ${localized.cookTime}`, `Готовка: ${localized.cookTime}`)}</span>
+                  <span>{t(`الطهو: ${localized.cookTime}`, `Cook: ${localized.cookTime}`, `Cuisson : ${localized.cookTime}`, `Cocción: ${localized.cookTime}`, `調理: ${localized.cookTime}`, `पकाना: ${localized.cookTime}`, `Cozimento: ${localized.cookTime}`, `Готовка: ${localized.cookTime}`, `烹饪：${localized.cookTime}`)}</span>
                 </div>
               )}
               {localized.servings && (
@@ -200,7 +201,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                       'ファトマ博士のノートをもとにした正確な分量です。準備が済んだ材料はチェックを入れてください。',
                       'डॉ. फातिमा के नोट्स के अनुसार सटीक मानक माप। तैयार होते ही सामग्री को चेक करें।',
                       'Medidas exatas conciliadas a partir das anotações da Dra. Fatma. Marque os ingredientes à medida que for preparando.',
-                      'Точные эталонные меры, сверенные по записям д-ра Фатмы. Отмечайте ингредиенты по мере подготовки.'
+                      'Точные эталонные меры, сверенные по записям д-ра Фатмы. Отмечайте ингредиенты по мере подготовки.',
+                      '根据法特玛博士笔记核校的精确标准用量。准备好后即可勾选相应食材。'
                     )}
                   </p>
                 </div>
@@ -256,7 +258,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                   <Sparkles className="w-5 h-5 text-emerald-700 shrink-0 mt-0.5" />
                   <div>
                     <p className="font-bold">
-                      {t('خطوات الطهو الفريدة بعد تنقية وتوحيد الشروح', 'Step-by-step master cooking instructions', 'Instructions de cuisson détaillées, étape par étape', 'Instrucciones de cocina detalladas, paso a paso', 'ステップごとの詳しい調理手順', 'चरण-दर-चरण मुख्य पाक विधि', 'Instruções de cozimento detalhadas, passo a passo', 'Пошаговые основные инструкции по приготовлению')}
+                      {t('خطوات الطهو الفريدة بعد تنقية وتوحيد الشروح', 'Step-by-step master cooking instructions', 'Instructions de cuisson détaillées, étape par étape', 'Instrucciones de cocina detalladas, paso a paso', 'ステップごとの詳しい調理手順', 'चरण-दर-चरण मुख्य पाक विधि', 'Instruções de cozimento detalhadas, passo a passo', 'Пошаговые основные инструкции по приготовлению', '分步式核心烹饪说明')}
                     </p>
                     <p className="text-xs text-emerald-800 mt-0.5">
                       {t(
@@ -267,7 +269,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                         '最適な仕上がりになるよう手順を確認済みです。',
                         'बेहतरीन पाक परिणाम के लिए क्रम की जांच की गई है।',
                         'Sequência verificada para obter os melhores resultados culinários.',
-                        'Последовательность выверена для наилучшего кулинарного результата.'
+                        'Последовательность выверена для наилучшего кулинарного результата.',
+                        '顺序已核实，确保最佳烹饪效果。'
                       )}
                     </p>
                   </div>

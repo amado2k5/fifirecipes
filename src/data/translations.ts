@@ -8,7 +8,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'ja', name: 'Japanese', nativeName: '日本語', dir: 'ltr', flag: '🇯🇵' },
   { code: 'hi', name: 'Hindi', nativeName: 'हिन्दी', dir: 'ltr', flag: '🇮🇳' },
   { code: 'pt', name: 'Portuguese', nativeName: 'Português', dir: 'ltr', flag: '🇧🇷' },
-  { code: 'ru', name: 'Russian', nativeName: 'Русский', dir: 'ltr', flag: '🇷🇺' }
+  { code: 'ru', name: 'Russian', nativeName: 'Русский', dir: 'ltr', flag: '🇷🇺' },
+  { code: 'zh', name: 'Chinese', nativeName: '中文', dir: 'ltr', flag: '🇨🇳' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -39,6 +40,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'ru') {
       return { language: 'ru', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'zh') {
+      return { language: 'zh', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
@@ -293,9 +297,16 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
   },
   zh: {
     siteTitle: '法特玛·卡沃克吉博士烹饪食谱全书',
+    appTitle: '法特玛·卡沃克吉博士烹饪食谱全书',
     siteSubtitle: '埃及纯正传统经典食谱典籍',
+    appSubtitle: '埃及纯正传统经典食谱典籍',
     allRecipes: '全部食谱',
+    navAllRecipes: '全部食谱',
     aboutFatma: '关于法特玛博士',
+    navAboutFatma: '关于法特玛博士',
+    ingredientsRegistry: '食材总览',
+    navIngredientsRegistry: '食材总览',
+    choosePreferredLanguage: '选择网站语言',
     searchPlaceholder: '搜索食谱、食材或烹饪技巧...',
     filterByChapter: '按章节分类',
     prepTime: '准备时间',

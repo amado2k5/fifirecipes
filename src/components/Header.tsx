@@ -33,7 +33,8 @@ export const Header: React.FC<HeaderProps> = ({
   const isHi = lang === 'hi';
   const isPt = lang === 'pt';
   const isRu = lang === 'ru';
-  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : en);
+  const isZh = lang === 'zh';
+  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : en);
 
   return (
     <header className="bg-white border-b border-stone-200 sticky top-0 z-30 shadow-xs">
@@ -85,10 +86,10 @@ export const Header: React.FC<HeaderProps> = ({
             <button
               onClick={onShareSite}
               className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-stone-700 bg-stone-50 hover:bg-stone-100 rounded-xl transition-colors border border-stone-200"
-              title={t('مشاركة الموقع', 'Share this site', 'Partager ce site', 'Compartir este sitio', 'このサイトをシェア', 'इस साइट को शेयर करें', 'Compartilhar este site', 'Поделиться этим сайтом')}
+              title={t('مشاركة الموقع', 'Share this site', 'Partager ce site', 'Compartir este sitio', 'このサイトをシェア', 'इस साइट को शेयर करें', 'Compartilhar este site', 'Поделиться этим сайтом', '分享此网站')}
             >
               <Share2 className="w-3.5 h-3.5 text-amber-700" />
-              <span className="hidden sm:inline">{t('مشاركة الموقع', 'Share site', 'Partager le site', 'Compartir sitio', 'サイトをシェア', 'साइट शेयर करें', 'Compartilhar site', 'Поделиться сайтом')}</span>
+              <span className="hidden sm:inline">{t('مشاركة الموقع', 'Share site', 'Partager le site', 'Compartir sitio', 'サイトをシェア', 'साइट शेयर करें', 'Compartilhar site', 'Поделиться сайтом', '分享网站')}</span>
             </button>
           </div>
         </div>
@@ -102,7 +103,7 @@ export const Header: React.FC<HeaderProps> = ({
             <BookOpen className="w-3.5 h-3.5 text-amber-600 shrink-0" />
             <div>
               <span className="font-bold text-stone-900">{stats.totalRecipes}</span>
-              <span className="text-stone-500 text-[11px] ml-1">{t('وصفة موحدة', 'Recipes', 'Recettes', 'Recetas', 'レシピ', 'व्यंजन', 'Receitas', 'Рецепты')}</span>
+              <span className="text-stone-500 text-[11px] ml-1">{t('وصفة موحدة', 'Recipes', 'Recettes', 'Recetas', 'レシピ', 'व्यंजन', 'Receitas', 'Рецепты', '食谱')}</span>
             </div>
           </div>
 
@@ -113,7 +114,7 @@ export const Header: React.FC<HeaderProps> = ({
             <Layers className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
             <div>
               <span className="font-bold text-stone-900">{stats.totalMasterIngredients}</span>
-              <span className="text-stone-500 text-[11px] ml-1">{t('مكون رئيسي', 'Ingredients', 'Ingrédients', 'Ingredientes', '食材', 'सामग्री', 'Ingredientes', 'Ингредиенты')}</span>
+              <span className="text-stone-500 text-[11px] ml-1">{t('مكون رئيسي', 'Ingredients', 'Ingrédients', 'Ingredientes', '食材', 'सामग्री', 'Ingredientes', 'Ингредиенты', '食材')}</span>
             </div>
           </div>
 
@@ -123,8 +124,8 @@ export const Header: React.FC<HeaderProps> = ({
           >
             <Music className="w-3.5 h-3.5 text-purple-600 shrink-0" />
             <div>
-              <span className="font-bold text-stone-900">20 {t('عاماً', 'Years', 'Ans', 'Años', '年', 'वर्ष', 'Anos', 'Лет')}</span>
-              <span className="text-stone-500 text-[11px] ml-1">{t('جمع وتدوين', 'Collection', 'Collecte', 'Recopilación', '記録収集', 'संकलन', 'Coleção', 'Коллекция')}</span>
+              <span className="font-bold text-stone-900">20 {t('عاماً', 'Years', 'Ans', 'Años', '年', 'वर्ष', 'Anos', 'Лет', '年')}</span>
+              <span className="text-stone-500 text-[11px] ml-1">{t('جمع وتدوين', 'Collection', 'Collecte', 'Recopilación', '記録収集', 'संकलन', 'Coleção', 'Коллекция', '收集整理')}</span>
             </div>
           </div>
         </div>
