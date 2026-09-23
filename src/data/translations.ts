@@ -7,7 +7,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'es', name: 'Spanish', nativeName: 'Español', dir: 'ltr', flag: '🇪🇸' },
   { code: 'ja', name: 'Japanese', nativeName: '日本語', dir: 'ltr', flag: '🇯🇵' },
   { code: 'hi', name: 'Hindi', nativeName: 'हिन्दी', dir: 'ltr', flag: '🇮🇳' },
-  { code: 'pt', name: 'Portuguese', nativeName: 'Português', dir: 'ltr', flag: '🇧🇷' }
+  { code: 'pt', name: 'Portuguese', nativeName: 'Português', dir: 'ltr', flag: '🇧🇷' },
+  { code: 'ru', name: 'Russian', nativeName: 'Русский', dir: 'ltr', flag: '🇷🇺' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -35,6 +36,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'pt') {
       return { language: 'pt', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'ru') {
+      return { language: 'ru', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
@@ -211,9 +215,16 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
   },
   ru: {
     siteTitle: 'Кулинарная Книга Д-ра Фатмы Алькавокджи',
+    appTitle: 'Кулинарная Книга Д-ра Фатмы Алькавокджи',
     siteSubtitle: 'Наследие Аутентичной Египетской Кухни',
+    appSubtitle: 'Наследие Аутентичной Египетской Кухни',
     allRecipes: 'Все Рецепты',
+    navAllRecipes: 'Все Рецепты',
     aboutFatma: 'О Д-ре Фатме',
+    navAboutFatma: 'О Д-ре Фатме',
+    ingredientsRegistry: 'Реестр Ингредиентов',
+    navIngredientsRegistry: 'Реестр Ингредиентов',
+    choosePreferredLanguage: 'Выберите язык сайта',
     searchPlaceholder: 'Поиск рецепта, ингредиента...',
     filterByChapter: 'Фильтр по разделам',
     prepTime: 'Подготовка',
