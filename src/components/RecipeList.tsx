@@ -1,5 +1,5 @@
-import React, { useState, useMemo } from 'react';
-import { Recipe, SupportedLanguage } from '../types';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
+import { RecipeCollection, RecipeSummary, SupportedLanguage } from '../types';
 import { RecipeCard } from './RecipeCard';
 import {
   Search,
@@ -12,18 +12,33 @@ import {
   Sparkles
 } from 'lucide-react';
 import { getUIText } from '../data/translations';
-import { getLocalizedIngredient, getLocalizedRecipe } from '../utils/recipeLocalization';
+import { getLocalizedRecipe } from '../utils/recipeLocalization';
 import { getAdditionalRecipesText } from '../data/additionalRecipesText';
+import { loadSearchIndex, prefetchRecipe } from '../services/recipeData';
 
 interface RecipeListProps {
-  recipes: Recipe[];
-  onSelectRecipe: (recipe: Recipe) => void;
+  recipes: RecipeSummary[];
+  /** Total recipes in this language, known before every index page has arrived. */
+  totalRecipes?: number;
+  /** More index pages are still arriving. */
+  loading: boolean;
+  loadFailed: boolean;
+  openingRecipeId: string | null;
+  onSelectRecipe: (recipe: RecipeSummary) => void;
   lang: SupportedLanguage;
-  onOpenShare: (recipe: Recipe, e: React.MouseEvent) => void;
+  onOpenShare: (recipe: RecipeSummary, e: React.MouseEvent) => void;
 }
+
+// Cards are rendered in batches: enough to fill a large screen a few times
+// over, then another batch each time the visitor nears the end of the list.
+const BATCH_SIZE = 24;
 
 export const RecipeList: React.FC<RecipeListProps> = ({
   recipes,
+  totalRecipes,
+  loading,
+  loadFailed,
+  openingRecipeId,
   onSelectRecipe,
   lang,
   onOpenShare
@@ -51,7 +66,7 @@ export const RecipeList: React.FC<RecipeListProps> = ({
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [selectedCookingMethod, setSelectedCookingMethod] = useState<string>('all');
-  const [collection, setCollection] = useState<'all' | 'archive' | 'additional'>('all');
+  const [collection, setCollection] = useState<'all' | RecipeCollection>('all');
   const additionalText = getAdditionalRecipesText(lang);
   const [sortBy, setSortBy] = useState<'overlap' | 'title' | 'ingredients' | 'steps'>('overlap');
 
@@ -63,6 +78,20 @@ export const RecipeList: React.FC<RecipeListProps> = ({
   }, [lang]);
 
   const baseRecipes = recipes;
+  const totalCount = Math.max(totalRecipes ?? 0, baseRecipes.length);
+
+  // Ingredient-level search uses a per-language search index fetched the first
+  // time the visitor types; until it arrives, titles and categories still match.
+  const [searchIndex, setSearchIndex] = useState<Record<string, string> | null>(null);
+  useEffect(() => {
+    setSearchIndex(null);
+    if (!searchTerm) return;
+    let cancelled = false;
+    loadSearchIndex(lang).then(index => !cancelled && setSearchIndex(index)).catch(() => undefined);
+    return () => {
+      cancelled = true;
+    };
+  }, [lang, searchTerm !== '']);
 
   const categories = useMemo(() => {
     return Array.from(new Set(recipes.map(r => getLocalizedRecipe(r, lang).category)));
@@ -74,37 +103,65 @@ export const RecipeList: React.FC<RecipeListProps> = ({
 
   // Filter and Sort
   const filteredRecipes = useMemo(() => {
+    const normalizedSearch = searchTerm.trim().toLowerCase();
     return baseRecipes.filter(r => {
       const localized = getLocalizedRecipe(r, lang);
-      const normalizedSearch = searchTerm.toLowerCase();
       const matchSearch =
+        !normalizedSearch ||
+        searchIndex?.[r.id]?.includes(normalizedSearch) ||
         localized.title.toLowerCase().includes(normalizedSearch) ||
         r.title.toLowerCase().includes(normalizedSearch) ||
         localized.category.toLowerCase().includes(normalizedSearch) ||
-        r.category.toLowerCase().includes(normalizedSearch) ||
-        r.masterIngredients.some(i => getLocalizedIngredient(i, lang, r.id).toLowerCase().includes(normalizedSearch));
+        r.category.toLowerCase().includes(normalizedSearch);
 
       const matchCategory = selectedCategory === 'all' || localized.category === selectedCategory;
-      const matchMethod = selectedCookingMethod === 'all' || getLocalizedRecipe(r, lang).cookingMethod === selectedCookingMethod;
-      const matchCollection = collection === 'all' || (collection === 'additional') === !!r.source;
+      const matchMethod = selectedCookingMethod === 'all' || localized.cookingMethod === selectedCookingMethod;
+      const matchCollection = collection === 'all' || r.collection === collection;
 
       return matchSearch && matchCategory && matchMethod && matchCollection;
     }).sort((a, b) => {
       if (sortBy === 'overlap') {
-        return b.overlapAnalysis.overlapPercentage - a.overlapAnalysis.overlapPercentage;
+        return b.overlapPercentage - a.overlapPercentage;
       }
       if (sortBy === 'title') {
         return getLocalizedRecipe(a, lang).title.localeCompare(getLocalizedRecipe(b, lang).title);
       }
       if (sortBy === 'ingredients') {
-        return b.masterIngredients.length - a.masterIngredients.length;
+        return b.ingredientCount - a.ingredientCount;
       }
       if (sortBy === 'steps') {
-        return b.uniqueInstructions.length - a.uniqueInstructions.length;
+        return b.stepCount - a.stepCount;
       }
       return 0;
     });
-  }, [baseRecipes, searchTerm, selectedCategory, selectedCookingMethod, collection, sortBy]);
+  }, [baseRecipes, searchTerm, searchIndex, selectedCategory, selectedCookingMethod, collection, sortBy, lang]);
+
+  // Progressive rendering: start with one batch, add another whenever the
+  // sentinel below the grid comes within ~1.5 screens of the viewport.
+  const [visibleCount, setVisibleCount] = useState(BATCH_SIZE);
+  useEffect(() => {
+    setVisibleCount(BATCH_SIZE);
+  }, [searchTerm, selectedCategory, selectedCookingMethod, collection, sortBy, lang]);
+
+  const hasMore = visibleCount < filteredRecipes.length;
+  const sentinelRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const sentinel = sentinelRef.current;
+    if (!sentinel || !hasMore || typeof IntersectionObserver === 'undefined') return;
+    const observer = new IntersectionObserver(
+      entries => {
+        if (entries.some(entry => entry.isIntersecting)) {
+          setVisibleCount(count => count + BATCH_SIZE);
+        }
+      },
+      { rootMargin: '150% 0px' }
+    );
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, [hasMore, filteredRecipes]);
+
+  const visibleRecipes = filteredRecipes.slice(0, visibleCount);
+  const hasBookRecipes = useMemo(() => baseRecipes.some(r => r.collection === 'osool'), [baseRecipes]);
 
   const resetFilters = () => {
     setSearchTerm('');
@@ -195,7 +252,8 @@ export const RecipeList: React.FC<RecipeListProps> = ({
           {([
             ['all', additionalText.collectionAll],
             ['archive', additionalText.collectionArchive],
-            ['additional', additionalText.collectionAdditional]
+            ['chefteta', additionalText.collectionAdditional],
+            ...(hasBookRecipes ? [['osool', additionalText.collectionOsool] as const] : [])
           ] as const).map(([value, label]) => (
             <button
               key={value}
@@ -238,41 +296,69 @@ export const RecipeList: React.FC<RecipeListProps> = ({
       <div className="flex items-center justify-between text-xs text-stone-500 px-1">
         <span>
           {t(
-            `عرض ${filteredRecipes.length} من أصل ${baseRecipes.length} وصفة`,
-            `Showing ${filteredRecipes.length} of ${baseRecipes.length} recipes`,
-            `Affichage de ${filteredRecipes.length} sur ${baseRecipes.length} recettes`,
-            `Mostrando ${filteredRecipes.length} de ${baseRecipes.length} recetas`,
-            `${baseRecipes.length}件中${filteredRecipes.length}件のレシピを表示`,
-            `कुल ${baseRecipes.length} में से ${filteredRecipes.length} रेसिपी दिखाई जा रही हैं`,
-            `Mostrando ${filteredRecipes.length} de ${baseRecipes.length} receitas`,
-            `Показано ${filteredRecipes.length} из ${baseRecipes.length} рецептов`,
-            `显示 ${filteredRecipes.length} / ${baseRecipes.length} 个食谱`,
-            `Zeigt ${filteredRecipes.length} von ${baseRecipes.length} Rezepten`,
-            `Visualizzazione di ${filteredRecipes.length} su ${baseRecipes.length} ricette`,
-            `Εμφάνιση ${filteredRecipes.length} από ${baseRecipes.length} συνταγές`,
-            `${baseRecipes.length} میں سے ${filteredRecipes.length} ترکیبیں دکھائی جا رہی ہیں`,
-            `نمایش ${filteredRecipes.length} از ${baseRecipes.length} دستور`,
-            `${baseRecipes.length} tariften ${filteredRecipes.length} tanesi gösteriliyor`,
-            `${filteredRecipes.length} ji ${baseRecipes.length} reçeteyan têne nîşandan`,
-            `Menampilkan ${filteredRecipes.length} dari ${baseRecipes.length} resep`,
-            `Inaonyesha mapishi ${filteredRecipes.length} kati ya ${baseRecipes.length}`,
-            `레시피 ${baseRecipes.length}개 중 ${filteredRecipes.length}개 표시`
+            `عرض ${filteredRecipes.length} من أصل ${totalCount} وصفة`,
+            `Showing ${filteredRecipes.length} of ${totalCount} recipes`,
+            `Affichage de ${filteredRecipes.length} sur ${totalCount} recettes`,
+            `Mostrando ${filteredRecipes.length} de ${totalCount} recetas`,
+            `${totalCount}件中${filteredRecipes.length}件のレシピを表示`,
+            `कुल ${totalCount} में से ${filteredRecipes.length} रेसिपी दिखाई जा रही हैं`,
+            `Mostrando ${filteredRecipes.length} de ${totalCount} receitas`,
+            `Показано ${filteredRecipes.length} из ${totalCount} рецептов`,
+            `显示 ${filteredRecipes.length} / ${totalCount} 个食谱`,
+            `Zeigt ${filteredRecipes.length} von ${totalCount} Rezepten`,
+            `Visualizzazione di ${filteredRecipes.length} su ${totalCount} ricette`,
+            `Εμφάνιση ${filteredRecipes.length} από ${totalCount} συνταγές`,
+            `${totalCount} میں سے ${filteredRecipes.length} ترکیبیں دکھائی جا رہی ہیں`,
+            `نمایش ${filteredRecipes.length} از ${totalCount} دستور`,
+            `${totalCount} tariften ${filteredRecipes.length} tanesi gösteriliyor`,
+            `${filteredRecipes.length} ji ${totalCount} reçeteyan têne nîşandan`,
+            `Menampilkan ${filteredRecipes.length} dari ${totalCount} resep`,
+            `Inaonyesha mapishi ${filteredRecipes.length} kati ya ${totalCount}`,
+            `레시피 ${totalCount}개 중 ${filteredRecipes.length}개 표시`
           )}
         </span>
       </div>
 
       {/* Recipe Grid */}
       {filteredRecipes.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {filteredRecipes.map((recipe) => (
-            <RecipeCard
-              key={recipe.id}
-              recipe={recipe}
-              onSelect={onSelectRecipe}
-              lang={lang}
-              onOpenShare={onOpenShare}
-            />
+        <>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {visibleRecipes.map((recipe) => (
+              <RecipeCard
+                key={recipe.id}
+                recipe={recipe}
+                onSelect={onSelectRecipe}
+                onPrefetch={prefetchRecipe}
+                isOpening={openingRecipeId === recipe.id}
+                lang={lang}
+                onOpenShare={onOpenShare}
+              />
+            ))}
+          </div>
+
+          <div ref={sentinelRef} className="flex flex-col items-center gap-2 py-4 text-xs text-stone-500" aria-live="polite">
+            {hasMore ? (
+              // Also a plain button, for keyboard users and browsers without IntersectionObserver.
+              <button
+                onClick={() => setVisibleCount(count => count + BATCH_SIZE)}
+                className="px-4 py-2 text-xs font-semibold text-amber-800 bg-amber-50 hover:bg-amber-100 rounded-lg transition-colors border border-amber-200"
+              >
+                {getUIText(lang, 'showMoreRecipes')}
+              </button>
+            ) : loading ? (
+              <span className="animate-pulse">{getUIText(lang, 'loadingMoreRecipes')}</span>
+            ) : null}
+          </div>
+        </>
+      ) : loading ? (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5" aria-busy="true" aria-label={getUIText(lang, 'loadingMoreRecipes')}>
+          {Array.from({ length: 6 }, (_, index) => (
+            <div key={index} className="h-[26rem] rounded-2xl border border-stone-200 bg-white animate-pulse" />
           ))}
+        </div>
+      ) : loadFailed ? (
+        <div className="bg-white rounded-2xl border border-rose-200 p-12 text-center text-rose-800 text-sm font-semibold">
+          {getUIText(lang, 'recipesLoadFailed')}
         </div>
       ) : (
         <div className="bg-white rounded-2xl border border-stone-200 p-12 text-center text-stone-500 space-y-3">

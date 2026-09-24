@@ -1,7 +1,6 @@
 import { MasterIngredient, Recipe, SupportedLanguage } from '../types';
-import recipeTranslations from '../data/recipeTranslations.json';
 
-type RecipeTranslation = {
+export type RecipeTranslation = {
   title?: string;
   chapter?: string;
   category?: string;
@@ -14,58 +13,52 @@ type RecipeTranslation = {
   instructions?: Record<string, string>;
 };
 
-type TranslationTable = Record<string, RecipeTranslation>;
+export type TranslationTable = Record<string, RecipeTranslation>;
 
-// English is small (~50KB) and is the fallback language for unrecognized
-// locales, so it's bundled eagerly. The other languages' recipe-translation
-// tables are large (~400KB each) and are fetched on demand via
-// ensureTranslationTable() so a visitor only downloads the language(s) they
-// actually use instead of all of them on every page load.
-const ENGLISH_RECIPE_TRANSLATIONS = recipeTranslations as TranslationTable;
+function isArabicLocale(lang: SupportedLanguage): boolean {
+  return lang === 'ar';
+}
 
-const LAZY_TRANSLATION_LOADERS: Partial<Record<SupportedLanguage, () => Promise<{ default: TranslationTable }>>> = {
-  fr: () => import('../data/recipeTranslationsFr.json') as Promise<{ default: TranslationTable }>,
-  es: () => import('../data/recipeTranslationsEs.json') as Promise<{ default: TranslationTable }>,
-  ja: () => import('../data/recipeTranslationsJa.json') as Promise<{ default: TranslationTable }>,
-  hi: () => import('../data/recipeTranslationsHi.json') as Promise<{ default: TranslationTable }>,
-  pt: () => import('../data/recipeTranslationsPt.json') as Promise<{ default: TranslationTable }>,
-  ru: () => import('../data/recipeTranslationsRu.json') as Promise<{ default: TranslationTable }>,
-  zh: () => import('../data/recipeTranslationsZh.json') as Promise<{ default: TranslationTable }>,
-  de: () => import('../data/recipeTranslationsDe.json') as Promise<{ default: TranslationTable }>,
-  it: () => import('../data/recipeTranslationsIt.json') as Promise<{ default: TranslationTable }>,
-  el: () => import('../data/recipeTranslationsEl.json') as Promise<{ default: TranslationTable }>,
-  ur: () => import('../data/recipeTranslationsUr.json') as Promise<{ default: TranslationTable }>,
-  fa: () => import('../data/recipeTranslationsFa.json') as Promise<{ default: TranslationTable }>,
-  tr: () => import('../data/recipeTranslationsTr.json') as Promise<{ default: TranslationTable }>,
-  ku: () => import('../data/recipeTranslationsKu.json') as Promise<{ default: TranslationTable }>,
-  id: () => import('../data/recipeTranslationsId.json') as Promise<{ default: TranslationTable }>,
-  sw: () => import('../data/recipeTranslationsSw.json') as Promise<{ default: TranslationTable }>,
-  ko: () => import('../data/recipeTranslationsKo.json') as Promise<{ default: TranslationTable }>
-};
+// Recipe translations are not bundled. The browser receives them in two
+// layers: a small per-language table of card fields (title, category, times,
+// preview ingredients) fetched by ensureTranslationTable(), and each recipe's
+// full translations inside that recipe's own data file, registered when the
+// recipe is opened. Both are merged here, per recipe, so the lookup functions
+// below just read whatever has arrived and fall back to the recipe's own
+// fields for anything that has not.
+const translationTables: Partial<Record<SupportedLanguage, TranslationTable>> = {};
+const cardTablePromises: Partial<Record<SupportedLanguage, Promise<void>>> = {};
 
-const lazyTranslationCache: Partial<Record<SupportedLanguage, TranslationTable>> = {};
-const lazyTranslationPromises: Partial<Record<SupportedLanguage, Promise<void>>> = {};
-
-// Kicks off (or reuses) the fetch of a language's recipe-translation JSON
-// chunk. Call this when `lang` changes and re-render once it resolves;
-// getLocalizedRecipe/getLocalizedIngredient/getLocalizedInstruction already
-// fall back to each recipe's embedded English fields while the chunk is
-// still loading, so there's no broken state in between.
-export function ensureTranslationTable(lang: SupportedLanguage): Promise<void> {
-  if (lazyTranslationCache[lang] || !LAZY_TRANSLATION_LOADERS[lang]) {
-    return Promise.resolve();
+export function registerTranslations(lang: SupportedLanguage, table: TranslationTable): void {
+  const target = (translationTables[lang] ??= {});
+  for (const [recipeId, incoming] of Object.entries(table)) {
+    const existing = target[recipeId];
+    target[recipeId] = existing
+      ? {
+          ...existing,
+          ...incoming,
+          ingredients: { ...existing.ingredients, ...incoming.ingredients },
+          instructions: { ...existing.instructions, ...incoming.instructions }
+        }
+      : incoming;
   }
-  if (!lazyTranslationPromises[lang]) {
-    lazyTranslationPromises[lang] = LAZY_TRANSLATION_LOADERS[lang]!().then(mod => {
-      lazyTranslationCache[lang] = mod.default;
+}
+
+// Fetches (once) the card-level translation table for a language. Call this
+// when `lang` changes and re-render once it resolves.
+export function ensureTranslationTable(lang: SupportedLanguage, load: (lang: SupportedLanguage) => Promise<TranslationTable>): Promise<void> {
+  if (isArabicLocale(lang)) return Promise.resolve();
+  cardTablePromises[lang] ??= load(lang)
+    .then(table => registerTranslations(lang, table))
+    .catch(() => {
+      // Let a later call retry; the untranslated fallbacks keep the UI usable.
+      delete cardTablePromises[lang];
     });
-  }
-  return lazyTranslationPromises[lang]!;
+  return cardTablePromises[lang]!;
 }
 
 function getTranslationTable(lang: SupportedLanguage): TranslationTable | undefined {
-  if (lang === 'en') return ENGLISH_RECIPE_TRANSLATIONS;
-  return lazyTranslationCache[lang];
+  return translationTables[lang];
 }
 
 const CHAPTER_NAMES: Record<number, string> = {
@@ -1868,7 +1861,6 @@ const INGREDIENT_TERMS_KO: Array<[string, string]> = [
   ['ماء', '물']
 ];
 
-const isArabicLocale = (lang: SupportedLanguage) => lang === 'ar';
 
 export function getLocalizedPhase(phase: string, lang: SupportedLanguage): string {
   if (isArabicLocale(lang)) {
@@ -2675,7 +2667,9 @@ export function getLocalizedMeasurement(value: string | undefined, lang: Support
   return translated.trim();
 }
 
-export function getLocalizedRecipe(recipe: Recipe, lang: SupportedLanguage) {
+export type LocalizableRecipe = Pick<Recipe, 'id' | 'title' | 'titleEn' | 'chapter' | 'chapterNumber' | 'category' | 'cookingMethod' | 'prepTime' | 'cookTime' | 'servings' | 'culturalNotes' | 'translations'>;
+
+export function getLocalizedRecipe(recipe: LocalizableRecipe, lang: SupportedLanguage) {
   const translation = recipe.translations?.[lang];
   const table = getTranslationTable(lang);
   const generated = table?.[recipe.id];

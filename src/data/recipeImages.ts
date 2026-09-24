@@ -24,13 +24,20 @@ const RECIPES_WITH_IMAGES = [
   ...idRange('bev', 1, 5)
 ];
 
-export const RECIPE_IMAGES: Record<string, string> = Object.fromEntries(
-  RECIPES_WITH_IMAGES.map(id => [id, `${import.meta.env.BASE_URL}recipe-images/${id}.jpg`])
-);
+const RECIPES_WITH_IMAGES_SET = new Set(RECIPES_WITH_IMAGES);
 
-export const DEFAULT_RECIPE_IMAGE = 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80';
+// The build scripts import this module under Node, where import.meta.env is not defined.
+const BASE_URL = import.meta.env?.BASE_URL ?? '/';
+
+/** Path of the recipe's own photo (relative to the site root), if it has one. */
+export function getRecipeImagePath(id: string): string | undefined {
+  return RECIPES_WITH_IMAGES_SET.has(id) ? `recipe-images/${id}.jpg` : undefined;
+}
+
+export const DEFAULT_RECIPE_IMAGE = 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=75';
 
 export function getRecipeImage(id: string, customImage?: string): string {
   if (customImage && customImage.trim().length > 0) return customImage;
-  return RECIPE_IMAGES[id] || DEFAULT_RECIPE_IMAGE;
+  const path = getRecipeImagePath(id);
+  return path ? `${BASE_URL}${path}` : DEFAULT_RECIPE_IMAGE;
 }

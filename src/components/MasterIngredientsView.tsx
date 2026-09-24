@@ -1,6 +1,6 @@
-import React, { useState, useMemo } from 'react';
-import { Recipe, MasterIngredient, SupportedLanguage } from '../types';
-import { buildGlobalIngredientRegistry, GlobalIngredientSummary } from '../data/recipes';
+import React, { useState, useMemo, useEffect } from 'react';
+import { RecipeSummary, MasterIngredient, SupportedLanguage } from '../types';
+import { IngredientRegistryItem, loadIngredientRegistry } from '../services/recipeData';
 import {
   Search,
   Layers,
@@ -10,11 +10,12 @@ import {
   Flame,
   UtensilsCrossed
 } from 'lucide-react';
-import { getLocalizedIngredient, getLocalizedRecipe } from '../utils/recipeLocalization';
+import { getLocalizedRecipe } from '../utils/recipeLocalization';
+import { getUIText } from '../data/translations';
 
 interface MasterIngredientsViewProps {
-  recipes: Recipe[];
-  onSelectRecipe: (recipe: Recipe) => void;
+  recipes: RecipeSummary[];
+  onSelectRecipe: (recipeId: string) => void;
   lang: SupportedLanguage;
 }
 
@@ -59,11 +60,28 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
 
 
-  const registry = useMemo(() => buildGlobalIngredientRegistry(recipes), [recipes]);
+  // The registry is precomputed and localized at build time; fetched when this tab opens.
+  const [registry, setRegistry] = useState<IngredientRegistryItem[]>([]);
+  const [registryState, setRegistryState] = useState<'loading' | 'ready' | 'failed'>('loading');
+  useEffect(() => {
+    let cancelled = false;
+    setRegistryState('loading');
+    loadIngredientRegistry(lang)
+      .then(items => {
+        if (cancelled) return;
+        setRegistry(items);
+        setRegistryState('ready');
+      })
+      .catch(() => !cancelled && setRegistryState('failed'));
+    return () => {
+      cancelled = true;
+    };
+  }, [lang]);
+  const recipesById = useMemo(() => new Map(recipes.map(recipe => [recipe.id, recipe])), [recipes]);
 
   const filteredItems = useMemo(() => {
     return registry.filter(item => {
-      const matchesSearch = getLocalizedIngredient(item, lang, item.sourceRecipeId).toLowerCase().includes(searchTerm.toLowerCase());
+      const matchesSearch = item.localizedName.toLowerCase().includes(searchTerm.toLowerCase());
       const matchesCategory = selectedCategory === 'all' || item.category === selectedCategory;
       return matchesSearch && matchesCategory;
     });
@@ -174,7 +192,7 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
               </div>
 
               <h3 className="text-base font-bold text-stone-900 mt-2">
-                {getLocalizedIngredient(item, lang, item.sourceRecipeId)}
+                {item.localizedName}
               </h3>
             </div>
 
@@ -184,15 +202,15 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
               </span>
               <div className="flex flex-wrap gap-1">
                 {item.recipeTitles.map(r => {
-                  const fullRecipe = recipes.find(rec => rec.id === r.id);
+                  const summary = recipesById.get(r.id);
                   return (
                     <button
                       key={r.id}
-                      onClick={() => fullRecipe && onSelectRecipe(fullRecipe)}
+                      onClick={() => onSelectRecipe(r.id)}
                       className="inline-flex items-center text-[11px] px-2 py-0.5 rounded bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200/60 font-medium transition-colors"
                       title={r.standardAmount ? `الكمية القياسية: ${r.standardAmount}` : undefined}
                     >
-                      {fullRecipe ? getLocalizedRecipe(fullRecipe, lang).title : r.title}
+                      {summary ? getLocalizedRecipe(summary, lang).title : r.title}
                     </button>
                   );
                 })}
@@ -202,7 +220,13 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
         ))}
       </div>
 
-      {filteredItems.length === 0 && (
+      {registryState !== 'ready' && (
+        <div className={`text-center py-12 bg-white rounded-2xl border text-sm font-semibold ${registryState === 'failed' ? 'border-rose-200 text-rose-800' : 'border-stone-200 text-stone-500 animate-pulse'}`}>
+          {getUIText(lang, registryState === 'failed' ? 'recipesLoadFailed' : 'loadingMoreRecipes')}
+        </div>
+      )}
+
+      {registryState === 'ready' && filteredItems.length === 0 && (
         <div className="text-center py-12 bg-white rounded-2xl border border-stone-200 text-stone-500">
           <UtensilsCrossed className="w-8 h-8 text-stone-300 mx-auto mb-2" />
           <p className="font-semibold text-sm">{t('لا توجد مكونات مطابقة لبحثك', 'No ingredients match your query', 'Aucun ingrédient ne correspond à votre recherche', 'Ningún ingrediente coincide con tu búsqueda', '検索条件に一致する食材が見つかりませんでした', 'आपकी खोज से मेल खाने वाली कोई सामग्री नहीं मिली', 'Nenhum ingrediente corresponde à sua busca', 'Ингредиенты по вашему запросу не найдены', '没有找到匹配的食材', 'Keine Zutaten entsprechen Ihrer Suche', 'Nessun ingrediente corrisponde alla tua ricerca', 'Κανένα υλικό δεν ταιριάζει με την αναζήτησή σας', 'آپ کی تلاش سے کوئی جزو نہیں ملا', 'هیچ ماده اولیه‌ای با جستجوی شما مطابقت ندارد', 'Aramanızla eşleşen malzeme yok', 'Tu pêkhate li gorî lêgerîna te nehat dîtin', 'Tidak ada bahan yang cocok dengan pencarian Anda', 'Hakuna viungo vinavyolingana na utafutaji wako', '검색과 일치하는 재료가 없습니다')}</p>

@@ -10,6 +10,8 @@ export interface AdditionalRecipesText {
   collectionAll: string;
   collectionArchive: string;
   collectionAdditional: string;
+  collectionOsool: string;
+  citationLabel: string;
   tips: string;
 }
 
@@ -21,7 +23,9 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     ingredientsNote: 'المقادير كما وردت في المصدر بعد تنسيقها. يمكنك النقر على المربع لتحديد المكونات الجاهزة أثناء الطهو.',
     collectionAll: 'كل الوصفات',
     collectionArchive: 'أرشيف د. فاطمة',
-    collectionAdditional: 'وصفات إضافية',
+    collectionAdditional: 'وصفات إضافية (Chef Teta)',
+    collectionOsool: 'كتاب أصول الطهي',
+    citationLabel: 'الموضع في الكتاب:',
     tips: 'نصائح وملاحظات'
   },
   en: {
@@ -31,7 +35,9 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     ingredientsNote: 'Measurements as given by the source, tidied into our format. Check off ingredients as you prepare.',
     collectionAll: 'All recipes',
     collectionArchive: 'Dr. Fatma’s archive',
-    collectionAdditional: 'Additional recipes',
+    collectionAdditional: 'Additional recipes (Chef Teta)',
+    collectionOsool: 'Osool El Tahy cookbook',
+    citationLabel: 'In the book:',
     tips: 'Tips & notes'
   },
   fr: {
@@ -41,7 +47,9 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     ingredientsNote: 'Quantités reprises de la source et mises à notre format. Cochez les ingrédients au fur et à mesure de la préparation.',
     collectionAll: 'Toutes les recettes',
     collectionArchive: 'Archive du Dr Fatma',
-    collectionAdditional: 'Recettes supplémentaires',
+    collectionAdditional: 'Recettes supplémentaires (Chef Teta)',
+    collectionOsool: 'Livre Osool El Tahy',
+    citationLabel: 'Dans le livre :',
     tips: 'Conseils et notes'
   },
   es: {
@@ -51,7 +59,9 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     ingredientsNote: 'Cantidades tomadas de la fuente y adaptadas a nuestro formato. Marca los ingredientes a medida que los prepares.',
     collectionAll: 'Todas las recetas',
     collectionArchive: 'Archivo de la Dra. Fatma',
-    collectionAdditional: 'Recetas adicionales',
+    collectionAdditional: 'Recetas adicionales (Chef Teta)',
+    collectionOsool: 'Libro Osool El Tahy',
+    citationLabel: 'En el libro:',
     tips: 'Consejos y notas'
   },
   ja: {
@@ -61,7 +71,9 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     ingredientsNote: '分量は出典に基づき、当サイトの形式に整えたものです。準備が済んだ材料はチェックを入れてください。',
     collectionAll: 'すべてのレシピ',
     collectionArchive: 'ファトマ博士のアーカイブ',
-    collectionAdditional: '追加レシピ',
+    collectionAdditional: '追加レシピ (Chef Teta)',
+    collectionOsool: '料理書『オスール・エル・タヒー』',
+    citationLabel: '書籍内の位置:',
     tips: 'コツとメモ'
   },
   hi: {
@@ -71,7 +83,9 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     ingredientsNote: 'माप स्रोत के अनुसार हैं, हमारे प्रारूप में व्यवस्थित। तैयार होते ही सामग्री को चेक करें।',
     collectionAll: 'सभी व्यंजन',
     collectionArchive: 'डॉ. फातिमा का संग्रह',
-    collectionAdditional: 'अतिरिक्त व्यंजन',
+    collectionAdditional: 'अतिरिक्त व्यंजन (Chef Teta)',
+    collectionOsool: 'ओसूल अल-तही पाकपुस्तक',
+    citationLabel: 'पुस्तक में:',
     tips: 'सुझाव और टिप्पणियाँ'
   },
   pt: {
@@ -81,7 +95,9 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     ingredientsNote: 'Medidas conforme a fonte, organizadas no nosso formato. Marque os ingredientes à medida que for preparando.',
     collectionAll: 'Todas as receitas',
     collectionArchive: 'Arquivo da Dra. Fatma',
-    collectionAdditional: 'Receitas adicionais',
+    collectionAdditional: 'Receitas adicionais (Chef Teta)',
+    collectionOsool: 'Livro Osool El Tahy',
+    citationLabel: 'No livro:',
     tips: 'Dicas e notas'
   },
   ru: {
@@ -91,7 +107,9 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     ingredientsNote: 'Количества взяты из источника и приведены к нашему формату. Отмечайте ингредиенты по мере подготовки.',
     collectionAll: 'Все рецепты',
     collectionArchive: 'Архив д-ра Фатмы',
-    collectionAdditional: 'Дополнительные рецепты',
+    collectionAdditional: 'Дополнительные рецепты (Chef Teta)',
+    collectionOsool: 'Книга «Осуль эт-Тахи»',
+    citationLabel: 'В книге:',
     tips: 'Советы и заметки'
   },
   zh: {
@@ -101,7 +119,9 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     ingredientsNote: '用量依据原出处，并按本站格式整理。准备好后即可勾选相应食材。',
     collectionAll: '全部食谱',
     collectionArchive: '法特玛博士档案',
-    collectionAdditional: '补充食谱',
+    collectionAdditional: '补充食谱 (Chef Teta)',
+    collectionOsool: '《烹饪原理》食谱书',
+    citationLabel: '书中位置：',
     tips: '烹饪贴士'
   },
   de: {
@@ -111,7 +131,9 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     ingredientsNote: 'Mengen laut Quelle, in unser Format übertragen. Haken Sie die Zutaten ab, sobald Sie sie vorbereitet haben.',
     collectionAll: 'Alle Rezepte',
     collectionArchive: 'Archiv von Dr. Fatma',
-    collectionAdditional: 'Zusätzliche Rezepte',
+    collectionAdditional: 'Zusätzliche Rezepte (Chef Teta)',
+    collectionOsool: 'Kochbuch Osool El Tahy',
+    citationLabel: 'Im Buch:',
     tips: 'Tipps & Hinweise'
   },
   it: {
@@ -121,7 +143,9 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     ingredientsNote: 'Dosi riprese dalla fonte e adattate al nostro formato. Spunta gli ingredienti man mano che li prepari.',
     collectionAll: 'Tutte le ricette',
     collectionArchive: 'Archivio della Dott.ssa Fatma',
-    collectionAdditional: 'Ricette aggiuntive',
+    collectionAdditional: 'Ricette aggiuntive (Chef Teta)',
+    collectionOsool: 'Libro Osool El Tahy',
+    citationLabel: 'Nel libro:',
     tips: 'Consigli e note'
   },
   el: {
@@ -131,7 +155,9 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     ingredientsNote: 'Ποσότητες σύμφωνα με την πηγή, προσαρμοσμένες στη μορφή μας. Τσεκάρετε τα υλικά καθώς τα ετοιμάζετε.',
     collectionAll: 'Όλες οι συνταγές',
     collectionArchive: 'Αρχείο της Δρ. Φάτμα',
-    collectionAdditional: 'Επιπλέον συνταγές',
+    collectionAdditional: 'Επιπλέον συνταγές (Chef Teta)',
+    collectionOsool: 'Βιβλίο Osool El Tahy',
+    citationLabel: 'Στο βιβλίο:',
     tips: 'Συμβουλές & σημειώσεις'
   },
   ur: {
@@ -141,7 +167,9 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     ingredientsNote: 'مقداریں ماخذ کے مطابق ہیں اور ہمارے انداز میں ترتیب دی گئی ہیں۔ تیاری کے ساتھ ساتھ اجزاء پر نشان لگاتے جائیں۔',
     collectionAll: 'تمام ترکیبیں',
     collectionArchive: 'ڈاکٹر فاطمہ کا ذخیرہ',
-    collectionAdditional: 'اضافی ترکیبیں',
+    collectionAdditional: 'اضافی ترکیبیں (Chef Teta)',
+    collectionOsool: 'کتاب اصول الطہی',
+    citationLabel: 'کتاب میں:',
     tips: 'مشورے اور نوٹس'
   },
   fa: {
@@ -151,7 +179,9 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     ingredientsNote: 'اندازه‌ها مطابق منبع است و در قالب ما مرتب شده است. هنگام آماده‌سازی، مواد را علامت بزنید.',
     collectionAll: 'همه دستورها',
     collectionArchive: 'آرشیو دکتر فاطمه',
-    collectionAdditional: 'دستورهای افزوده',
+    collectionAdditional: 'دستورهای افزوده (Chef Teta)',
+    collectionOsool: 'کتاب اصول الطهی',
+    citationLabel: 'در کتاب:',
     tips: 'نکات و یادداشت‌ها'
   },
   tr: {
@@ -161,7 +191,9 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     ingredientsNote: 'Ölçüler kaynaktaki gibidir, bizim biçimimize uyarlanmıştır. Hazırladıkça malzemeleri işaretleyin.',
     collectionAll: 'Tüm tarifler',
     collectionArchive: 'Dr. Fatma’nın arşivi',
-    collectionAdditional: 'Ek tarifler',
+    collectionAdditional: 'Ek tarifler (Chef Teta)',
+    collectionOsool: 'Osool El Tahy yemek kitabı',
+    citationLabel: 'Kitapta:',
     tips: 'İpuçları ve notlar'
   },
   ku: {
@@ -171,7 +203,9 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     ingredientsNote: 'Pîvan li gorî çavkaniyê ne û bi forma me hatine rêkxistin. Dema amade dikî pêkhateyan nîşan bike.',
     collectionAll: 'Hemû reçete',
     collectionArchive: 'Arşîva Dr. Fatma',
-    collectionAdditional: 'Reçeteyên zêde',
+    collectionAdditional: 'Reçeteyên zêde (Chef Teta)',
+    collectionOsool: 'Pirtûka Osool El Tahy',
+    citationLabel: 'Di pirtûkê de:',
     tips: 'Şîret û not'
   },
   id: {
@@ -181,7 +215,9 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     ingredientsNote: 'Takaran sesuai sumber, dirapikan ke format kami. Centang bahan saat Anda menyiapkannya.',
     collectionAll: 'Semua resep',
     collectionArchive: 'Arsip Dr. Fatma',
-    collectionAdditional: 'Resep tambahan',
+    collectionAdditional: 'Resep tambahan (Chef Teta)',
+    collectionOsool: 'Buku masak Osool El Tahy',
+    citationLabel: 'Dalam buku:',
     tips: 'Tips & catatan'
   },
   sw: {
@@ -191,7 +227,9 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     ingredientsNote: 'Vipimo ni kama vilivyo kwenye chanzo, vimepangwa kwa mtindo wetu. Weka alama kwenye viungo unapoviandaa.',
     collectionAll: 'Mapishi yote',
     collectionArchive: 'Hifadhi ya Dkt. Fatma',
-    collectionAdditional: 'Mapishi ya ziada',
+    collectionAdditional: 'Mapishi ya ziada (Chef Teta)',
+    collectionOsool: 'Kitabu cha Osool El Tahy',
+    citationLabel: 'Katika kitabu:',
     tips: 'Vidokezo na maelezo'
   },
   ko: {
@@ -201,7 +239,9 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     ingredientsNote: '분량은 출처를 따르되 저희 형식에 맞게 정리했습니다. 준비하면서 재료에 체크하세요.',
     collectionAll: '전체 레시피',
     collectionArchive: '파트마 박사 아카이브',
-    collectionAdditional: '추가 레시피',
+    collectionAdditional: '추가 레시피 (Chef Teta)',
+    collectionOsool: '요리책 《우술 알타히》',
+    citationLabel: '책 속 위치:',
     tips: '팁과 메모'
   }
 };

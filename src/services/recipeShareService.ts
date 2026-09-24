@@ -19,7 +19,7 @@ export function getRecipeShareUrl(recipeId: string, lang: SupportedLanguage): st
  * copying the link to the clipboard when the Web Share API isn't
  * available.
  */
-export async function shareRecipe(recipe: Recipe, lang: SupportedLanguage, title: string): Promise<{ shared: boolean; copied: boolean }> {
+export async function shareRecipe(recipe: Pick<Recipe, 'id'>, lang: SupportedLanguage, title: string): Promise<{ shared: boolean; copied: boolean }> {
   const url = getRecipeShareUrl(recipe.id, lang);
   const shareData = { title, url };
 

@@ -10,7 +10,8 @@ import { LanguageSelector } from './LanguageSelector';
 import { getUIText } from '../data/translations';
 
 interface HeaderProps {
-  stats: DatabaseStats;
+  /** Null until the data manifest has loaded. */
+  stats: DatabaseStats | null;
   activeTab: 'explorer' | 'biography' | 'ingredients';
   setActiveTab: (tab: 'explorer' | 'biography' | 'ingredients') => void;
   lang: SupportedLanguage;
@@ -112,7 +113,7 @@ export const Header: React.FC<HeaderProps> = ({
           >
             <BookOpen className="w-3.5 h-3.5 text-amber-600 shrink-0" />
             <div>
-              <span className="font-bold text-stone-900">{stats.totalRecipes}</span>
+              <span className="font-bold text-stone-900">{stats?.totalRecipes ?? '…'}</span>
               <span className="text-stone-500 text-[11px] ms-1">{t('وصفة موحدة', 'Recipes', 'Recettes', 'Recetas', 'レシピ', 'व्यंजन', 'Receitas', 'Рецепты', '食谱', 'Rezepte', 'Ricette', 'Συνταγές', 'ترکیبیں', 'دستورها', 'Tarif', 'Reçete', 'Resep', 'Mapishi', '레시피')}</span>
             </div>
           </div>
@@ -123,7 +124,7 @@ export const Header: React.FC<HeaderProps> = ({
           >
             <Layers className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
             <div>
-              <span className="font-bold text-stone-900">{stats.totalMasterIngredients}</span>
+              <span className="font-bold text-stone-900">{stats?.totalMasterIngredients ?? '…'}</span>
               <span className="text-stone-500 text-[11px] ms-1">{t('مكون رئيسي', 'Ingredients', 'Ingrédients', 'Ingredientes', '食材', 'सामग्री', 'Ingredientes', 'Ингредиенты', '食材', 'Zutaten', 'Ingredienti', 'Υλικά', 'اجزاء', 'مواد اولیه', 'Malzeme', 'Pêkhate', 'Bahan', 'Viungo', '재료')}</span>
             </div>
           </div>
