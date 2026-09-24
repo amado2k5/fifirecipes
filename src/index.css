@@ -65,6 +65,31 @@
   }
 }
 
+/* Urdu is read in Nastaliq, the style used across Pakistani news and
+   reference sites. Kept outside @layer base so it wins over Tailwind's
+   font-sans utility on <body>. Its tall, sloping letter forms need extra
+   line height so stacked lines and diacritics don't clip into each other. */
+[lang="ur"] body,
+[lang="ur"] .font-sans,
+[lang="ur"] .font-serif,
+[lang="ur"] button,
+[lang="ur"] input,
+[lang="ur"] select,
+[lang="ur"] textarea {
+  font-family: 'Noto Nastaliq Urdu', 'Tajawal', serif;
+}
+
+[lang="ur"] body {
+  line-height: 2.1;
+}
+
+[lang="ur"] h1,
+[lang="ur"] h2,
+[lang="ur"] h3,
+[lang="ur"] h4 {
+  line-height: 1.9;
+}
+
 /* Custom subtle scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
@@ -91,6 +116,10 @@
 [dir="rtl"] .recipe-reading-copy {
   font-size: 1.0625rem;
   line-height: 2;
+}
+
+[lang="ur"] .recipe-reading-copy {
+  line-height: 2.3;
 }
 
 /* Ancient manuscript scroll: deliberately overrides the global RTL

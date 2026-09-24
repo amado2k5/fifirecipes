@@ -12,7 +12,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'zh', name: 'Chinese', nativeName: '中文', dir: 'ltr', flag: '🇨🇳' },
   { code: 'de', name: 'German', nativeName: 'Deutsch', dir: 'ltr', flag: '🇩🇪' },
   { code: 'it', name: 'Italian', nativeName: 'Italiano', dir: 'ltr', flag: '🇮🇹' },
-  { code: 'el', name: 'Greek', nativeName: 'Ελληνικά', dir: 'ltr', flag: '🇬🇷' }
+  { code: 'el', name: 'Greek', nativeName: 'Ελληνικά', dir: 'ltr', flag: '🇬🇷' },
+  { code: 'ur', name: 'Urdu', nativeName: 'اردو', dir: 'rtl', flag: '🇵🇰' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -55,6 +56,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'el') {
       return { language: 'el', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'ur') {
+      return { language: 'ur', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
@@ -514,23 +518,30 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'Matlagning är som att spela piano: det kräver harmoni och kärlek.',
   },
   ur: {
-    siteTitle: 'ڈاکٹر فاطمہ القاوقجی ککنگ بک',
-    siteSubtitle: 'روایتی مصری پکوانوں کا تاریخی انسائیکلوپیڈیا',
-    allRecipes: 'تمام پکوان',
+    siteTitle: 'ڈاکٹر فاطمہ القاوقجی کی ترکیبیں',
+    appTitle: 'ڈاکٹر فاطمہ القاوقجی کی ترکیبیں',
+    siteSubtitle: 'اصل مصری کھانوں کی روایتی ترکیبوں کی کتاب',
+    appSubtitle: 'اصل مصری کھانوں کی روایتی ترکیبوں کی کتاب',
+    allRecipes: 'ترکیبیں دیکھیں',
+    navAllRecipes: 'ترکیبیں دیکھیں',
     aboutFatma: 'ڈاکٹر فاطمہ کے بارے میں',
-    searchPlaceholder: 'پکوان، اجزاء یا طریقہ تلاش کریں...',
-    filterByChapter: 'شعبہ منتخب کریں',
+    navAboutFatma: 'ڈاکٹر فاطمہ کے بارے میں',
+    ingredientsRegistry: 'اجزاء کی فہرست',
+    navIngredientsRegistry: 'اجزاء کی فہرست',
+    choosePreferredLanguage: 'ویب سائٹ کی زبان منتخب کریں',
+    searchPlaceholder: 'ترکیب، جزو یا پکانے کا طریقہ تلاش کریں...',
+    filterByChapter: 'باب کے لحاظ سے فلٹر کریں',
     prepTime: 'تیاری کا وقت',
     cookTime: 'پکانے کا وقت',
     servings: 'افراد',
     difficulty: 'مشکل کی سطح',
     method: 'طریقہ',
-    ingredients: 'اہم اجزاء اور درست پیمائش',
-    instructions: 'تیاری کے مرحلہ وار اقدامات',
-    tips: 'ڈاکٹر فاطمہ کے خاص مشورے',
-    shareRecipe: 'شیئر کریں',
-    noRecipesFound: 'کوئی پکوان نہیں ملا',
-    tributeQuote: 'کھانا پکانا پیانو بجانے جیسا ہے: اس میں صبر اور محبت چاہیے۔',
+    ingredients: 'بنیادی اجزاء اور درست پیمائش',
+    instructions: 'مرحلہ وار تیاری اور پکانا',
+    tips: 'ڈاکٹر فاطمہ القاوقجی کے نوٹس اور مشورے',
+    shareRecipe: 'ترکیب شیئر کریں',
+    noRecipesFound: 'آپ کی تلاش سے کوئی ترکیب نہیں ملی',
+    tributeQuote: 'کھانا پکانا پیانو بجانے جیسا ہے؛ ہم آہنگی، صبر اور محبت ہی اسے کمال تک پہنچاتے ہیں۔',
   }
 };
 
