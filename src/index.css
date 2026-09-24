@@ -90,6 +90,18 @@
   line-height: 1.9;
 }
 
+/* Persian sites use Naskh-style type such as Vazirmatn rather than Urdu's
+   Nastaliq. Kept outside @layer base for the same reason as the Urdu rule. */
+[lang="fa"] body,
+[lang="fa"] .font-sans,
+[lang="fa"] .font-serif,
+[lang="fa"] button,
+[lang="fa"] input,
+[lang="fa"] select,
+[lang="fa"] textarea {
+  font-family: 'Vazirmatn', 'Tajawal', system-ui, sans-serif;
+}
+
 /* Custom subtle scrollbar */
 ::-webkit-scrollbar {
   width: 6px;

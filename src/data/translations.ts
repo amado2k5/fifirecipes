@@ -13,7 +13,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'de', name: 'German', nativeName: 'Deutsch', dir: 'ltr', flag: '🇩🇪' },
   { code: 'it', name: 'Italian', nativeName: 'Italiano', dir: 'ltr', flag: '🇮🇹' },
   { code: 'el', name: 'Greek', nativeName: 'Ελληνικά', dir: 'ltr', flag: '🇬🇷' },
-  { code: 'ur', name: 'Urdu', nativeName: 'اردو', dir: 'rtl', flag: '🇵🇰' }
+  { code: 'ur', name: 'Urdu', nativeName: 'اردو', dir: 'rtl', flag: '🇵🇰' },
+  { code: 'fa', name: 'Persian', nativeName: 'فارسی', dir: 'rtl', flag: '🇮🇷' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -59,6 +60,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'ur') {
       return { language: 'ur', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'fa') {
+      return { language: 'fa', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
@@ -416,23 +420,30 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'Memasak bagaikan bermain piano: membutuhkan harmoni dan kesabaran.',
   },
   fa: {
-    siteTitle: 'کتاب آشپزی دکتر فاطمه القاوقجی',
-    siteSubtitle: 'میراث معتبر و مستند آشپزی کهن مصر (۱۹۴۳–۲۰۱۶)',
-    allRecipes: 'همه دستورها',
+    siteTitle: 'دستورهای آشپزی دکتر فاطمه القاوقجی',
+    appTitle: 'دستورهای آشپزی دکتر فاطمه القاوقجی',
+    siteSubtitle: 'کتاب آشپزی میراث غذاهای اصیل مصری',
+    appSubtitle: 'کتاب آشپزی میراث غذاهای اصیل مصری',
+    allRecipes: 'مرور دستورها',
+    navAllRecipes: 'مرور دستورها',
     aboutFatma: 'درباره دکتر فاطمه',
-    searchPlaceholder: 'جستجوی دستور، مواد اولیه یا روش پخت...',
-    filterByChapter: 'دسته‌بندی‌ها',
+    navAboutFatma: 'درباره دکتر فاطمه',
+    ingredientsRegistry: 'فهرست مواد اولیه',
+    navIngredientsRegistry: 'فهرست مواد اولیه',
+    choosePreferredLanguage: 'زبان وب‌سایت را انتخاب کنید',
+    searchPlaceholder: 'جستجوی دستور، ماده اولیه یا روش پخت...',
+    filterByChapter: 'فیلتر بر اساس فصل',
     prepTime: 'زمان آماده‌سازی',
     cookTime: 'زمان پخت',
     servings: 'تعداد نفرات',
     difficulty: 'درجه سختی',
-    method: 'روش طبخ',
+    method: 'روش پخت',
     ingredients: 'مواد اصلی و اندازه‌های دقیق',
-    instructions: 'مراحل آماده‌سازی و پخت گام‌به‌گام',
-    tips: 'نکات آشپزی دکتر فاطمه',
-    shareRecipe: 'اشتراک‌گذاری',
-    noRecipesFound: 'دستوری یافت نشد',
-    tributeQuote: 'آشپزی مانند نواختن پیانو است؛ به هماهنگی، صبوری و عشق نیاز دارد.',
+    instructions: 'آماده‌سازی و پخت گام‌به‌گام',
+    tips: 'یادداشت‌ها و نکات دکتر فاطمه القاوقجی',
+    shareRecipe: 'اشتراک‌گذاری دستور',
+    noRecipesFound: 'هیچ دستوری با جستجوی شما مطابقت ندارد',
+    tributeQuote: 'آشپزی درست مانند نواختن پیانو است؛ هماهنگی، صبر و عشق آن را به کمال می‌رساند.',
   },
   el: {
     siteTitle: 'Βιβλίο Συνταγών Δρ. Φάτμα Αλκαουόκτζι',
