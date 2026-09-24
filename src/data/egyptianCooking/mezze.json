@@ -3,696 +3,587 @@
     "num": 3,
     "page": 6,
     "title": "Cold Black-Eyed Bean Salad (Lubya Nashfa Barda)",
+    "titleAr": "سلطة اللوبيا الباردة",
     "category": "salads",
     "method": "boil",
     "prep": "overnight soaking",
+    "prepAr": "نقع طول الليل",
     "cook": "30 min",
+    "cookAr": "30 دقيقة",
     "difficulty": "easy",
     "ingredients": [
       [
         "Dried black-eyed beans (lubya)",
         "1/4 kg",
-        "grain_starch"
+        "grain_starch",
+        "اللوبيا الجافة",
+        "ربع كيلو"
       ],
       [
         "Garlic cloves",
         "5–7",
-        "vegetable"
+        "vegetable",
+        "فصوص ثوم",
+        "5–7 فصوص"
       ],
       [
         "Lemon juice",
         "2 tablespoons",
-        "liquid"
+        "liquid",
+        "عصير ليمون",
+        "ملعقتان كبيرتان"
       ],
       [
         "Oil",
         "1 teaspoon",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت",
+        "ملعقة صغيرة"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Leave the beans to soak in plenty of water overnight.",
+        "تُترك اللوبيا لنقعها في ماء كثير طول الليل.",
         "prep"
       ],
-      "Drain them, cover with fresh water and boil for about 30 minutes, until tender.",
-      "Drain again and spread the beans out on a tray so they cool quickly without turning mushy.",
+      [
+        "Drain them, cover with fresh water and boil for about 30 minutes, until tender.",
+        "تُصفى ثم تُغطى بماء نظيف وتُسلق حوالي 30 دقيقة حتى تصبح طرية.",
+        "cook"
+      ],
+      [
+        "Drain again and spread the beans out on a tray so they cool quickly without turning mushy.",
+        "تُصفى مجددًا وتُرص على صينية لتبرد بسرعة دون أن تصبح هرية.",
+        "cook"
+      ],
       [
         "Pound the garlic with a little salt, then stir in the lemon juice, oil and pepper.",
+        "يُدق الثوم مع قليل من الملح، ثم يُخلط معه عصير الليمون والزيت والفلفل.",
         "prep"
       ],
       [
         "Pour the garlic dressing over the cool beans and fold it through gently so every bean is coated.",
+        "تُصب طبخة الثوم على اللوبيا الباردة وتُخلط بلطف حتى تُغطى كل حبة.",
         "finish"
       ],
       [
         "Onion and mint version (recipe 339 in the book): boil one onion with the beans, adding the salt for the last 5 minutes. Once cool, toss the beans with a second, finely chopped onion, a few fresh mint leaves and a simple dressing of oil, lemon juice, a little vinegar, salt and pepper.",
+        "نسخة البصل والنعناع (الوصفة 339 من الكتاب): يُسلق بصل واحد مع اللوبيا، ويُضاف الملح في آخر 5 دقائق. بعد أن تبرد، تُخلط اللوبيا مع بصل آخر مفروم ناعم وأوراق نعناع طازجة قليلة وطبخة بسيطة من الزيت وعصير الليمون وقليل من الخل والملح والفلفل.",
         "alternative"
       ]
     ],
-    "notes": "A cold mezze of the pulse Egyptians call lubya; the book names it “dried French beans”."
+    "notes": "A cold mezze of the pulse Egyptians call lubya; the book names it \"dried French beans\".",
+    "notesAr": "من الأطباق الباردة (الفاتحة) والحبوب التي يسميها المصريون لوبيا. يسميها الكتاب \"الفاصوليا الفرنسية الجافة\"."
   },
   {
     "num": 5,
     "page": 7,
-    "title": "Fried Kubeiba Discs (Kubeiba A’ras)",
+    "title": "Fried Kubeiba Discs (Kubeiba A'ras)",
+    "titleAr": "كبيبة مقلية",
     "category": "meat",
     "method": "fry",
     "prep": "1 hour",
+    "prepAr": "ساعة",
     "cook": "15 min",
+    "cookAr": "15 دقيقة",
     "difficulty": "medium",
     "ingredients": [
       [
         "Fine bulgur",
         "1/2 kg",
-        "grain_starch"
+        "grain_starch",
+        "برغل ناعم",
+        "نصف كيلو"
       ],
       [
         "Beef",
         "1 kg",
-        "meat_poultry"
+        "meat_poultry",
+        "لحم بقري",
+        "كيلو"
       ],
       [
         "Animal fat",
         "100 g",
-        "dairy_fat"
+        "dairy_fat",
+        "سمن حيواني",
+        "100 غرام"
       ],
       [
         "Onions",
         "1–2",
-        "vegetable"
+        "vegetable",
+        "بصل",
+        "1–2 بصلة"
       ],
       [
         "Ice cubes",
         "a few",
-        "liquid"
+        "liquid",
+        "مكعبات ثلج",
+        "بضعة مكعبات"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
-      ],
-      [
-        "Oil for frying",
-        "as needed",
-        "dairy_fat"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
-        "Make the kubeiba (kibbeh) paste: soak the bulgur in warm water for 1 hour.",
+        "Soak the bulgur in cold water until it swells, then drain and squeeze it dry in a cloth.",
+        "ينقع البرغل في ماء بارد حتى ينتفخ، ثم يُصفى ويُعصر جيدًا في قماش.",
         "prep"
       ],
       [
-        "Mince the beef, fat and onions together two or three times, dropping in a small ice cube now and then to firm up the meat.",
+        "Mince the beef finely, then mix the minced meat with the squeezed bulgur, grated onion, salt and pepper.",
+        "يُفرم اللحم ناعمًا، ثم يُخلط اللحم المفروم مع البرغل المعصور والبصل المبشور والملح والفلفل.",
         "prep"
       ],
       [
-        "Squeeze the bulgur dry, season, and pass it through the mincer at least twice more with the meat until it forms a soft dough.",
+        "Knead the mixture with hands in a bowl full of icy water, folding it over and over until it is very light and feels like a mousse.",
+        "تُعجن الخلطة بالأيدي في وعاء مملوء بماء مثلج، وتُطوى مرارًا حتى تصبح خفيفة جدًا وتشبه الموس.",
         "prep"
       ],
-      "Roll the kubeiba out very thinly, about 1/2 cm, on a greased surface.",
-      "Cut it into discs about 5 cm across.",
-      "Fry the discs in hot oil until browned on both sides, then lift them onto absorbent paper.",
       [
-        "Serve warm or cold as part of a mezze spread.",
+        "Form the mixture into patties with well-oiled hands, pressing them flat and even.",
+        "يُشكل الخليط على شكل أقراص بأيدٍ مدهونة جيدًا بالزيت، ويُضغط عليها لتكون مسطحة ومستوية.",
+        "prep"
+      ],
+      [
+        "Fry the discs in deep hot fat until brown on both sides.",
+        "تُقلى الأقراص في دهن ساخن غزير حتى تحمر من الجانبين.",
+        "cook"
+      ],
+      [
+        "Drain on absorbent paper and serve hot.",
+        "تُصفى على ورق ماص وتُقدم ساخنة.",
         "finish"
       ]
     ],
-    "notes": "Kubeiba is the Egyptian name for the Levantine kibbeh. In Syria and Lebanon the paste is pounded in a stone mortar instead of minced."
+    "notes": "Kubeiba is a Levantine meatball, and this version makes flat, crisp discs. The icy water makes them light and tender.",
+    "notesAr": "الكبيبة كرة لحم شامية، وهذه النسخة تصنع أقراصًا مسطحة وهشة. الماء المثلج يجعلها خفيفة وطرية."
   },
   {
     "num": 7,
-    "page": 7,
-    "title": "Mashed Areesh Cheese Spreads (Gibna ‘Arish)",
-    "category": "savory",
+    "page": 8,
+    "title": "Houmous (Hummus)",
+    "titleAr": "حمص",
+    "category": "salads",
     "method": "noCook",
-    "prep": "10 min",
+    "prep": "10 min (if using canned chickpeas)",
+    "prepAr": "10 دقائق (عند استخدام الحمص المعلب)",
     "difficulty": "easy",
     "ingredients": [
       [
-        "Areesh cheese (unsalted skimmed-milk cheese)",
-        "as needed",
-        "dairy_fat"
+        "Chickpeas, cooked and still hot",
+        "2 cups",
+        "legumes",
+        "حمص مسلوق وساخن",
+        "كوبان"
       ],
       [
-        "Tomato, peeled and diced, with grated onion and thinly sliced sweet pepper",
-        "for mixture A",
-        "vegetable"
-      ],
-      [
-        "Grated onion, crushed garlic, lemon juice and a few drops of oil",
-        "for mixture B",
-        "vegetable"
-      ],
-      [
-        "Chopped pickled turnips and/or pickled eggplant with a few drops of oil",
-        "for mixture C",
-        "vegetable"
-      ],
-      [
-        "Grated onion, a pinch of mustard powder and chopped parsley",
-        "for mixture D",
-        "vegetable"
-      ],
-      [
-        "Grated onion, crushed garlic and boiled beetroot",
-        "for mixture E",
-        "vegetable"
-      ],
-      [
-        "Salt and pepper",
-        "to taste",
-        "spice_seasoning"
-      ],
-      [
-        "Baladi bread",
-        "for serving",
-        "grain_starch"
-      ]
-    ],
-    "steps": [
-      [
-        "Areesh is a mild, usually salt-free cheese that is very low in calories and can be eaten just as it is.",
-        "prep"
-      ],
-      "For a spread, mash the cheese roughly with a fork, or blend it briefly on low speed, together with one of the flavourings A to E and some salt and pepper.",
-      [
-        "Scoop the spread up with pieces of baladi bread.",
-        "finish"
-      ],
-      [
-        "If the mixture comes out smooth and loose, serve it as a dip instead.",
-        "alternative"
-      ]
-    ],
-    "notes": "The book calls this cheese “skimmed cheese”; it is also the filling for the stuffed sweet peppers in this collection."
-  },
-  {
-    "num": 14,
-    "page": 10,
-    "title": "Marinated Raw Liver (Kibda Nayya)",
-    "category": "meat",
-    "method": "noCook",
-    "prep": "1–2 hours marinating",
-    "difficulty": "medium",
-    "ingredients": [
-      [
-        "Very fresh liver (chicken, veal or lamb)",
-        "1 kg",
-        "meat_poultry"
-      ],
-      [
-        "Onions",
-        "2",
-        "vegetable"
+        "Tahini (sesame paste)",
+        "3–4 tablespoons",
+        "other",
+        "طحينة (معجون السمسم)",
+        "3–4 ملاعق كبيرة"
       ],
       [
         "Lemon juice",
-        "2 tablespoons",
-        "liquid"
+        "3–4 tablespoons",
+        "liquid",
+        "عصير ليمون",
+        "3–4 ملاعق كبيرة"
       ],
       [
-        "Fresh mint leaves",
-        "a bunch",
-        "vegetable"
+        "Garlic cloves",
+        "3–5",
+        "vegetable",
+        "فصوص ثوم",
+        "3–5 فصوص"
       ],
       [
-        "Salt and pepper",
+        "Salt",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
-        "Because the liver is eaten raw, use only liver that is absolutely fresh.",
-        "prep"
+        "Blend or pound the hot chickpeas to a paste.",
+        "يُخلط أو يُدق الحمص الساخن حتى يصبح عجينة.",
+        "cook"
       ],
       [
-        "Rinse the liver and cut it into very small cubes.",
-        "prep"
+        "Pound the garlic with salt, then add the tahini and blend into the chickpeas.",
+        "يُدق الثوم مع الملح، ثم تُضاف الطحينة وتُخلط مع الحمص.",
+        "cook"
       ],
-      "Grate the onions and mix them with the lemon juice, salt and pepper.",
-      "Leave the liver in this marinade for 1–2 hours.",
       [
-        "Brush the marinade off the pieces and serve them on a bed of fresh mint leaves.",
+        "Add the lemon juice slowly, beating hard to incorporate it.",
+        "يُضاف عصير الليمون ببطء مع الخفق الشديد لدمجه.",
+        "finish"
+      ],
+      [
+        "Spread the hummus on a shallow dish.",
+        "يُفرد الحمص على صحن ضحل.",
+        "finish"
+      ],
+      [
+        "Option: pour a little hot olive oil over it and sprinkle with paprika and parsley.",
+        "خيار: يُصب قليل من زيت الزيتون الساخن فوقه ويُرش بالبابريكا والبقدونس.",
         "finish"
       ]
     ],
-    "notes": "A mezze eaten raw. The book notes it is a treat at Easter and at Eid al-Adha, when a lamb or calf is traditionally slaughtered at home. Eating raw liver carries a real risk of food-borne illness."
+    "notes": "The best hummus is made with hot freshly cooked chickpeas. The heat helps it become smooth and creamy. Using canned chickpeas is quicker.",
+    "notesAr": "أفضل حمص يُصنع من حمص مسلوق طازج وساخن. الحرارة تساعد على جعله ناعمًا وكريميًا. استخدام الحمص المعلب أسرع."
   },
   {
-    "num": 16,
-    "page": 11,
-    "title": "Crisp Cheese Pastry (‘Agin bi-l-Gibna)",
-    "category": "pastries",
-    "method": "bake",
-    "prep": "1 hour 30 min (includes rising)",
-    "cook": "20–30 min",
-    "difficulty": "medium",
+    "num": 8,
+    "page": 8,
+    "title": "Mashed Broad Beans, Warm and Cold (Foul Medames)",
+    "titleAr": "فول مدمس",
+    "category": "salads",
+    "method": "simmer",
+    "prep": "overnight soaking",
+    "prepAr": "نقع طول الليل",
+    "cook": "3–4 hours",
+    "cookAr": "3–4 ساعات",
+    "difficulty": "easy",
     "ingredients": [
       [
-        "Flour",
-        "1 kg",
-        "grain_starch"
+        "Dried broad beans or split fava beans (foul)",
+        "2 cups",
+        "legumes",
+        "الفول الجاف",
+        "كوبان"
       ],
       [
-        "Active yeast",
-        "1 tablespoon",
-        "other"
+        "Garlic cloves, sliced",
+        "3–4",
+        "vegetable",
+        "فصوص ثوم مقطعة",
+        "3–4 فصوص"
       ],
       [
-        "Sugar",
-        "1 teaspoon",
-        "sweet_fruit"
-      ],
-      [
-        "Butter, melted",
-        "1/2 cup",
-        "dairy_fat"
+        "Lemon juice",
+        "3 tablespoons",
+        "liquid",
+        "عصير ليمون",
+        "3 ملاعق كبيرة"
       ],
       [
         "Oil",
-        "1/2 cup",
-        "dairy_fat"
+        "2–3 tablespoons",
+        "dairy_fat",
+        "زيت",
+        "2–3 ملاعق كبيرة"
       ],
       [
-        "Salt",
-        "1 teaspoon",
-        "spice_seasoning"
+        "Salt and cayenne pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل أحمر",
+        "حسب الرغبة"
       ],
       [
-        "Warm water",
-        "as needed",
-        "liquid"
-      ],
-      [
-        "Hard or semi-soft cheese (Edam, Gouda, cottage…)",
-        "as needed",
-        "dairy_fat"
+        "Boiled eggs, halved",
+        "3–4",
+        "dairy_fat",
+        "بيض مسلوق مقطع نصفين",
+        "3–4 بيضات"
       ]
     ],
     "steps": [
       [
-        "Dissolve the yeast and sugar in a little warm water and leave in a warm spot until it bubbles.",
+        "Soak the beans overnight in plenty of water.",
+        "تُنقع الفول طول الليل في ماء كثير.",
         "prep"
       ],
       [
-        "Sift the flour with the salt, add the yeast and enough water for a soft dough, and knead hard, beating in plenty of air.",
-        "prep"
+        "Drain the beans, cover with fresh water and simmer very gently for 3–4 hours, until the beans fall apart easily.",
+        "تُصفى الفول وتُغطى بماء نظيف وتُسلق على نار هادئة جدًا لمدة 3–4 ساعات حتى تنهار الحبات بسهولة.",
+        "cook"
       ],
       [
-        "Pinch off balls the size of small marbles. Mix the melted butter and oil, dip each ball in it and spread it thin with your fingertips on a greased surface; roll it up and spread it again two or three times, brushing with fat each time.",
-        "prep"
-      ],
-      [
-        "Flatten the pieces on a greased baking tray and let them rise for about an hour. (For a quicker, less flaky pastry, roll the dough out and cut it with a biscuit cutter.)",
-        "prep"
-      ],
-      "Press each piece down with your fingertips in two or three places so the filling stays on the pastry.",
-      "Lay narrow strips of cheese, about 1 cm wide, across the pastry, leaving a margin of dough between the strips and around the edge.",
-      [
-        "Bake in a hot, preheated oven for 20–30 minutes, until the pastry is crisp and crusty.",
+        "Fry the sliced garlic in the oil until pale gold, add salt and pepper and pour over the beans.",
+        "يُقلى الثوم المقطع في الزيت حتى يصير ذهبيًا فاتحًا، يُضاف الملح والفلفل ويُصب على الفول.",
         "finish"
-      ]
-    ]
-  },
-  {
-    "num": 17,
-    "page": 11,
-    "title": "Cheese-Filled Gullash Fingers (Asabi‘ Gullash bi-l-Gibna)",
-    "category": "pastries",
-    "method": "bake",
-    "prep": "30 min",
-    "cook": "20 min",
-    "difficulty": "medium",
-    "ingredients": [
-      [
-        "Gullash (phyllo) sheets",
-        "1/2 kg",
-        "grain_starch"
       ],
       [
-        "Hard-boiled eggs",
-        "2–3",
-        "dairy_fat"
+        "Squeeze the lemon juice over the top and stir.",
+        "يُعصر عصير الليمون فوقه وتُحرك.",
+        "finish"
       ],
       [
-        "Balkan (kashkaval-type) cheese",
-        "125 g",
-        "dairy_fat"
-      ],
-      [
-        "Dry cottage cheese",
-        "125 g",
-        "dairy_fat"
-      ],
-      [
-        "Chopped parsley",
-        "1 tablespoon",
-        "vegetable"
-      ],
-      [
-        "Egg whites",
-        "1–2",
-        "dairy_fat"
-      ],
-      [
-        "Butter",
-        "1 tablespoon",
-        "dairy_fat"
-      ],
-      [
-        "Pepper",
-        "a pinch",
-        "spice_seasoning"
-      ]
-    ],
-    "steps": [
-      [
-        "Grate the cheeses. Mash the boiled eggs into them with the parsley and a pinch of pepper, then bind the mixture with the egg white.",
-        "prep"
-      ],
-      [
-        "Cut the gullash into 10 cm squares and keep them under a cloth, as the sheets dry out very quickly.",
-        "prep"
-      ],
-      "Working one square at a time, lay a thin line of filling along it like a cigarette, stopping about 1 cm from each end.",
-      "Fold the two ends in towards the middle and roll the sheet up very tightly.",
-      "Arrange the fingers snugly in a greased baking tin and brush the tops with melted butter.",
-      [
-        "Bake in a moderate, preheated oven until golden.",
+        "Serve warm with hard-boiled egg halves on top.",
+        "تُقدم دافئة مع نصفات البيض المسلوق فوقها.",
         "finish"
       ]
     ],
-    "notes": "Gullash is the paper-thin pastry sold ready-made in Egyptian bakeries."
+    "notes": "Foul medames, Egypt's national dish, is eaten for breakfast, lunch or supper. It is served warm, at room temperature, or cold. In Egypt it is made in large earthenware pots in the corner of every neighbourhood bakery.",
+    "notesAr": "الفول المدمس، الطبق الوطني المصري، يُؤكل على الإفطار أو الغداء أو العشاء. يُقدم دافئًا أو بدرجة حرارة الغرفة أو باردًا. في مصر يُصنع في أواني فخارية كبيرة في زاوية كل مخبزة في الحي."
   },
   {
-    "num": 21,
-    "page": 14,
-    "title": "Sweet Peppers Stuffed with Areesh Cheese (Filfil Rumi bi-l-Gibna)",
-    "category": "savory",
+    "num": 10,
+    "page": 9,
+    "title": "Spinach and Walnut Dip (Mahammara)",
+    "titleAr": "محمرة السبانخ والجوز",
+    "category": "salads",
     "method": "noCook",
     "prep": "15 min",
+    "prepAr": "15 دقيقة",
     "difficulty": "easy",
     "ingredients": [
       [
-        "Sweet green peppers",
+        "Spinach, finely chopped",
         "1/2 kg",
-        "vegetable"
+        "vegetable",
+        "سبانخ مفرومة ناعماً",
+        "نصف كيلو"
       ],
       [
-        "Areesh cheese spread (any of the mixtures in the areesh cheese recipe)",
-        "as needed",
-        "dairy_fat"
-      ],
-      [
-        "Black olives, pitted",
-        "as needed",
-        "vegetable"
-      ]
-    ],
-    "steps": [
-      [
-        "Cut the peppers in half lengthwise so each half forms a little boat, and remove the stems and seeds.",
-        "prep"
-      ],
-      "Fill the halves with one of the seasoned areesh cheese mixtures.",
-      [
-        "Top each with a pitted black olive and serve cold.",
-        "finish"
-      ]
-    ]
-  },
-  {
-    "num": 22,
-    "page": 14,
-    "title": "Fried Sweet Peppers with Garlic Vinegar (Filfil Rumi Ma’li)",
-    "category": "vegetables",
-    "method": "fry",
-    "prep": "10 min",
-    "cook": "15 min",
-    "difficulty": "easy",
-    "ingredients": [
-      [
-        "Sweet peppers",
-        "1/2 kg",
-        "vegetable"
-      ],
-      [
-        "Garlic cloves",
-        "7–10",
-        "vegetable"
-      ],
-      [
-        "Vinegar",
-        "1 tablespoon",
-        "liquid"
-      ],
-      [
-        "Cooking oil",
-        "for frying",
-        "dairy_fat"
-      ],
-      [
-        "Salt",
-        "to taste",
-        "spice_seasoning"
-      ]
-    ],
-    "steps": [
-      [
-        "Cut a slit in the side of each pepper and rub it with salt, then rinse and dry well.",
-        "prep"
-      ],
-      "Fry the peppers in the oil until blistered and soft.",
-      "Peel off the skins, remove the stems and seeds, and lay the peppers neatly in a serving dish.",
-      "Crush the garlic with salt and fry it briefly in the same oil, then stir in the vinegar.",
-      [
-        "Pour the garlic vinegar over the peppers and serve cold.",
-        "finish"
-      ]
-    ]
-  },
-  {
-    "num": 23,
-    "page": 15,
-    "title": "Tunisian Fried Green Peppers (Filfil Moqli)",
-    "category": "vegetables",
-    "method": "fry",
-    "prep": "30 min",
-    "cook": "15 min",
-    "difficulty": "easy",
-    "ingredients": [
-      [
-        "Sweet green peppers",
-        "1/2 kg",
-        "vegetable"
-      ],
-      [
-        "Vinegar",
-        "2 tablespoons",
-        "liquid"
+        "Walnuts, ground",
+        "1 cup",
+        "sweet_fruit",
+        "جوز مطحون",
+        "كوب"
       ],
       [
         "Garlic cloves, crushed",
-        "3–5",
-        "vegetable"
-      ],
-      [
-        "Sugar",
-        "a pinch",
-        "sweet_fruit"
-      ],
-      [
-        "Olive oil",
-        "for frying",
-        "dairy_fat"
-      ],
-      [
-        "Salt",
-        "to taste",
-        "spice_seasoning"
-      ]
-    ],
-    "steps": [
-      [
-        "Wash and dry the peppers. Pierce each one near the stem with a small knife, slip a pinch of salt into the hole and leave for 30 minutes; the salt draws out moisture, so the peppers steam inside and soak up less oil.",
-        "prep"
-      ],
-      "Fry half the peppers in hot olive oil, turning often, until lightly browned all over, and move them to a serving dish.",
-      "Pour a little of the frying oil into a bowl and keep it for the dressing.",
-      "Fry the rest of the peppers until well browned, add them to the dish, and discard the remaining oil.",
-      "Mix the vinegar, a pinch of sugar and the garlic into the reserved oil, pour it over the peppers and turn them until well coated.",
-      [
-        "Chill for 2–3 hours before serving.",
-        "finish"
-      ]
-    ],
-    "notes": "A Tunisian mezze."
-  },
-  {
-    "num": 24,
-    "page": 15,
-    "title": "Quick Pickled Cabbage with Cumin and Garlic (Krumb Mikhallil)",
-    "category": "salads",
-    "method": "preserve",
-    "prep": "15 min",
-    "cook": "4–6 hours standing",
-    "difficulty": "easy",
-    "ingredients": [
-      [
-        "Cabbage heart and stalks",
-        "1",
-        "vegetable"
-      ],
-      [
-        "Cumin",
-        "1 teaspoon",
-        "spice_seasoning"
-      ],
-      [
-        "Garlic cloves",
         "5–7",
-        "vegetable"
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "5–7 فصوص"
       ],
       [
-        "Raw beetroot (optional, for colour)",
-        "1",
-        "vegetable"
+        "Pomegranate molasses or tamarind water",
+        "3 tablespoons",
+        "liquid",
+        "دبس الرمان أو ماء التمر الهندي",
+        "3 ملاعق كبيرة"
       ],
       [
-        "Water",
-        "enough to cover",
-        "liquid"
-      ],
-      [
-        "Salt",
-        "1 teaspoon per glass of water",
-        "spice_seasoning"
-      ],
-      [
-        "Vinegar",
-        "1 teaspoon per glass of water, plus a little for the garlic",
-        "liquid"
-      ]
-    ],
-    "steps": [
-      [
-        "Use the crinkly white leaves at the heart of the cabbage and the stalks. Chop them very coarsely.",
-        "prep"
-      ],
-      [
-        "Crush the garlic with salt and moisten it with a little vinegar.",
-        "prep"
-      ],
-      "Bring enough water to cover the cabbage to the boil with the cumin and salt, adding vinegar in the same proportion (1 teaspoon each per glass of water).",
-      "Pour the brine into a jar with the garlic and let it cool.",
-      "When the brine is lukewarm, add the cabbage and leave for 4–6 hours before serving.",
-      [
-        "For a pink pickle, add a raw beetroot cut in quarters; it colours the cabbage without changing the taste.",
-        "alternative"
-      ]
-    ]
-  },
-  {
-    "num": 32,
-    "page": 19,
-    "title": "Garlic-Cumin Pickled Tomatoes (Tamatim Mikhallila)",
-    "category": "salads",
-    "method": "noCook",
-    "prep": "10 min",
-    "difficulty": "easy",
-    "ingredients": [
-      [
-        "Tomatoes",
-        "4 medium or 8 small",
-        "vegetable"
-      ],
-      [
-        "Garlic cloves",
-        "5–7",
-        "vegetable"
-      ],
-      [
-        "Cumin",
-        "1/2 teaspoon",
-        "spice_seasoning"
-      ],
-      [
-        "Vinegar",
-        "1 tablespoon",
-        "liquid"
-      ],
-      [
-        "Salt",
-        "to taste",
-        "spice_seasoning"
-      ]
-    ],
-    "steps": [
-      [
-        "Crush the garlic with salt, mix in the cumin and moisten with the vinegar.",
-        "prep"
-      ],
-      "Medium tomatoes: cut them into slices about 1 cm thick, dip each slice in the garlic mixture and arrange them on a serving dish.",
-      [
-        "Small tomatoes: cut a deep cross into the top of each, keeping the base whole, stuff the cuts with the garlic mixture and arrange the tomatoes like flowers on the dish.",
-        "alternative"
-      ]
-    ]
-  },
-  {
-    "num": 35,
-    "page": 20,
-    "title": "Zucchini Pulp Patties (A’ras ’Alb al-Kosa)",
-    "category": "vegetables",
-    "method": "fry",
-    "prep": "5 min",
-    "cook": "30 min",
-    "difficulty": "easy",
-    "ingredients": [
-      [
-        "Zucchini pulp (scooped out when coring zucchini for stuffing)",
-        "from 1–2 kg zucchini",
-        "vegetable"
-      ],
-      [
-        "Eggs",
-        "1–2",
-        "dairy_fat"
-      ],
-      [
-        "Flour (optional)",
-        "1 tablespoon",
-        "grain_starch"
-      ],
-      [
-        "Cooking oil",
-        "for frying",
-        "dairy_fat"
+        "Oil",
+        "3 tablespoons",
+        "dairy_fat",
+        "زيت",
+        "3 ملاعق كبيرة"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
-      "Cook the zucchini pulp over a very low heat, stirring often so it does not catch, until all its liquid has evaporated and it has broken down into an ochre-coloured paste.",
-      "Beat the eggs with salt and pepper and mix them into the pulp.",
-      "If the mixture is too soft to hold its shape, stiffen it with a little sifted flour.",
-      "Drop spoonfuls into hot oil, flatten them into patties and fry until golden on both sides.",
       [
-        "Serve hot or cold.",
+        "Blanch the spinach briefly in boiling water, then drain and squeeze it very dry.",
+        "تُسلق السبانخ قليلًا في ماء مغلي، ثم تُصفى وتُعصر جيدًا.",
+        "prep"
+      ],
+      [
+        "Mix the chopped spinach with the ground walnuts and crushed garlic.",
+        "تُخلط السبانخ المفرومة مع الجوز المطحون والثوم المهروس.",
+        "prep"
+      ],
+      [
+        "Add the pomegranate molasses or tamarind water, oil, salt and pepper.",
+        "تُضاف دبس الرمان أو ماء التمر الهندي والزيت والملح والفلفل.",
+        "finish"
+      ],
+      [
+        "Mix well and serve at room temperature.",
+        "تُخلط جيدًا وتُقدم بدرجة حرارة الغرفة.",
         "finish"
       ]
     ],
-    "notes": "A thrifty way to use the pulp left over from making stuffed zucchini."
+    "notes": "A Levantine dip from Palestine, Lebanon and Syria, served to open a meal.",
+    "notesAr": "طبخة لبنانية وسورية وفلسطينية تُقدم لفتح الوجبة."
+  },
+  {
+    "num": 12,
+    "page": 10,
+    "title": "Cheese and Yogurt Dip (Labneh Maakhal)",
+    "titleAr": "لبنة بالثوم",
+    "category": "salads",
+    "method": "noCook",
+    "prep": "5 min",
+    "prepAr": "5 دقائق",
+    "difficulty": "easy",
+    "ingredients": [
+      [
+        "Labneh (strained yogurt cheese)",
+        "1 cup",
+        "dairy_fat",
+        "اللبنة",
+        "كوب"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "3–4",
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "3–4 فصوص"
+      ],
+      [
+        "Lemon juice",
+        "1 teaspoon",
+        "liquid",
+        "عصير ليمون",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Oil",
+        "for the top",
+        "dairy_fat",
+        "زيت",
+        "للوجه"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
+    ],
+    "steps": [
+      [
+        "Mix the labneh with the crushed garlic, lemon juice, salt and pepper.",
+        "تُخلط اللبنة مع الثوم المهروس وعصير الليمون والملح والفلفل.",
+        "prep"
+      ],
+      [
+        "Spoon into a shallow dish and make a well in the centre.",
+        "تُوضع في صحن ضحل وتُعمل حفرة في الوسط.",
+        "finish"
+      ],
+      [
+        "Pour a little olive oil into the well.",
+        "يُصب قليل من زيت الزيتون في الحفرة.",
+        "finish"
+      ]
+    ],
+    "notes": "One of the simplest and most universal Levantine mezze.",
+    "notesAr": "من أبسط وأشمل فاتحات الشهية اللبنانية والشامية."
+  },
+  {
+    "num": 14,
+    "page": 11,
+    "title": "Tabbouleh (Parsley Salad)",
+    "titleAr": "تبولة",
+    "category": "salads",
+    "method": "noCook",
+    "prep": "20 min",
+    "prepAr": "20 دقيقة",
+    "difficulty": "easy",
+    "ingredients": [
+      [
+        "Parsley leaves",
+        "2 large bunches",
+        "vegetable",
+        "أوراق البقدونس",
+        "حزمتان كبيرتان"
+      ],
+      [
+        "Mint leaves, fresh",
+        "a small handful",
+        "vegetable",
+        "أوراق النعناع الطازجة",
+        "قبضة صغيرة"
+      ],
+      [
+        "Fine bulgur",
+        "1/2 cup",
+        "grain_starch",
+        "برغل ناعم",
+        "نصف كوب"
+      ],
+      [
+        "Tomatoes",
+        "3",
+        "vegetable",
+        "طماطم",
+        "3 حبات"
+      ],
+      [
+        "Onion, finely chopped",
+        "1",
+        "vegetable",
+        "بصل مفروم ناعماً",
+        "بصل واحد"
+      ],
+      [
+        "Olive oil",
+        "1/2 cup",
+        "dairy_fat",
+        "زيت الزيتون",
+        "نصف كوب"
+      ],
+      [
+        "Lemon juice",
+        "4 tablespoons",
+        "liquid",
+        "عصير ليمون",
+        "4 ملاعق كبيرة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
+    ],
+    "steps": [
+      [
+        "Soak the bulgur in cold water until it swells, then drain well.",
+        "ينقع البرغل في ماء بارد حتى ينتفخ، ثم يُصفى جيدًا.",
+        "prep"
+      ],
+      [
+        "Finely chop the parsley leaves (not the stems) and the mint.",
+        "يُفرم البقدونس ناعماً (بدون السيقان) والنعناع.",
+        "prep"
+      ],
+      [
+        "Peel and finely chop the tomatoes.",
+        "تُقشر الطماطم وتُفرم ناعماً.",
+        "prep"
+      ],
+      [
+        "Mix the bulgur, parsley, mint, tomatoes and onion in a bowl.",
+        "تُخلط البرغل والبقدونس والنعناع والطماطم والبصل في وعاء.",
+        "prep"
+      ],
+      [
+        "Whisk the olive oil, lemon juice, salt and pepper together, then pour over the salad.",
+        "يُخفق زيت الزيتون وعصير الليمون والملح والفلفل معاً، ثم يُصب على السلطة.",
+        "finish"
+      ],
+      [
+        "Toss and serve at room temperature.",
+        "تُخلط وتُقدم بدرجة حرارة الغرفة.",
+        "finish"
+      ]
+    ],
+    "notes": "An ancient Levantine salad of parsley, often served as a mezze or a light lunch.",
+    "notesAr": "سلطة شامية عريقة من البقدونس، تُقدم غالباً كفاتحة شهية أو غداء خفيف."
   }
 ]
