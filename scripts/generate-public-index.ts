@@ -30,6 +30,7 @@ import {
   type TranslationTable
 } from '../src/utils/recipeLocalization';
 import type { Recipe, RecipeCollection, RecipeSummary, SupportedLanguage } from '../src/types';
+import { isListedIn, type StatsAudience } from '../src/utils/recipeVisibility';
 
 const siteUrl = (process.env.PUBLIC_SITE_URL || 'https://fifi.cooking').replace(/\/$/, '');
 const SUPPORTED_LANGUAGES: SupportedLanguage[] = ['ar', 'en', 'fr', 'es', 'ja', 'hi', 'pt', 'ru', 'zh', 'de', 'it', 'el', 'ur', 'fa', 'tr', 'ku', 'id', 'sw', 'ko'];
@@ -70,6 +71,10 @@ const collectionOf = (recipe: Recipe): RecipeCollection =>
   !recipe.source ? 'archive' : recipe.source.collection ?? 'chefteta';
 // A recipe only has non-Arabic text once it has an English title.
 const isArabicOnly = (recipe: Recipe) => !recipe.titleEn;
+const listedIn = (recipe: Recipe, lang: SupportedLanguage) =>
+  isListedIn({ arabicOnly: isArabicOnly(recipe), englishOnly: recipe.englishOnly }, lang);
+// The language a recipe's own text fields are written in.
+const baseLanguage = (recipe: Recipe) => (recipe.englishOnly ? 'en' : 'ar');
 
 // Same order as the list's default sort (highest overlap first, stable), so
 // the first index page holds exactly the cards a visitor sees first.
@@ -91,6 +96,7 @@ const summaries: RecipeSummary[] = orderedRecipes.map(recipe => ({
   imageUrl: recipe.imageUrl,
   collection: collectionOf(recipe),
   ...(isArabicOnly(recipe) ? { arabicOnly: true } : {}),
+  ...(recipe.englishOnly ? { englishOnly: true } : {}),
   ingredientCount: recipe.masterIngredients.length,
   stepCount: recipe.uniqueInstructions.length,
   overlapPercentage: recipe.overlapAnalysis.overlapPercentage,
@@ -134,7 +140,7 @@ for (const [lang, table] of Object.entries(tables) as [SupportedLanguage, Transl
 for (const lang of SUPPORTED_LANGUAGES) {
   const search: Record<string, string> = {};
   for (const recipe of orderedRecipes) {
-    if (lang !== 'ar' && isArabicOnly(recipe)) continue;
+    if (!listedIn(recipe, lang)) continue;
     const localized = getLocalizedRecipe(recipe, lang);
     search[recipe.id] = [
       localized.title,
@@ -162,7 +168,7 @@ for (const recipe of orderedRecipes) {
 
 // Master-ingredient registry, localized per language.
 for (const lang of SUPPORTED_LANGUAGES) {
-  const recipes = lang === 'ar' ? orderedRecipes : orderedRecipes.filter(recipe => !isArabicOnly(recipe));
+  const recipes = orderedRecipes.filter(recipe => listedIn(recipe, lang));
   put(`ingredients/${lang}.json`, buildGlobalIngredientRegistry(recipes).map(item => ({
     ...item,
     localizedName: getLocalizedIngredient(item, lang, item.sourceRecipeId)
@@ -179,9 +185,11 @@ put('manifest.json', {
   pageCount,
   total: summaries.length,
   stats: {
-    all: computeDatabaseStats(orderedRecipes),
-    translated: computeDatabaseStats(orderedRecipes.filter(recipe => !isArabicOnly(recipe)))
-  }
+    ar: computeDatabaseStats(orderedRecipes.filter(recipe => listedIn(recipe, 'ar'))),
+    en: computeDatabaseStats(orderedRecipes.filter(recipe => listedIn(recipe, 'en'))),
+    // Every other language lists the same recipes as French.
+    other: computeDatabaseStats(orderedRecipes.filter(recipe => listedIn(recipe, 'fr')))
+  } satisfies Record<StatsAudience, unknown>
 });
 
 await rm(DATA_DIR, { recursive: true, force: true });
@@ -219,6 +227,53 @@ const OSOOL_BOOK = {
   url: 'https://archive.org/details/20240330_20240330_1122'
 };
 
+const ABDENNOUR_BOOK = {
+  '@type': 'Book',
+  name: 'Egyptian Cooking and Other Middle Eastern Recipes',
+  author: { '@type': 'Person', name: 'Samia Abdennour' },
+  publisher: { '@type': 'Organization', name: 'The American University in Cairo Press' },
+  isbn: '9781617972669'
+};
+
+const BOOKS: Partial<Record<NonNullable<Recipe['source']>['collection'] & string, object>> = {
+  osool: OSOOL_BOOK,
+  abdennour: ABDENNOUR_BOOK
+};
+
+// Fixed text of the static pages, in the language a recipe is written in.
+const PAGE_TEXT = {
+  ar: {
+    dir: 'rtl',
+    siteName: 'وصفات د. فاطمة القاوقجي',
+    listSeparator: '، ',
+    sourceNotice: 'وصفة إضافية من خارج مخطوطات د. فاطمة القاوقجي، أعدنا صياغتها بأسلوبنا مع حفظ حق المصدر.',
+    sourceLabel: 'المصدر:',
+    archiveNotice: 'من أرشيف وصفات د. فاطمة القاوقجي (1943–2026).',
+    prep: 'التحضير',
+    cook: 'الطهو',
+    serves: 'يكفي',
+    openInApp: 'افتح الوصفة في الموقع التفاعلي',
+    ingredients: 'المقادير',
+    method: 'طريقة التحضير',
+    notes: 'ملاحظات'
+  },
+  en: {
+    dir: 'ltr',
+    siteName: 'Dr. Fatma Alkawokgy Recipes',
+    listSeparator: ', ',
+    sourceNotice: 'An additional recipe, not from Dr. Fatma Alkawokgy’s manuscripts. We rewrote it in our own words and credit the original source.',
+    sourceLabel: 'Source:',
+    archiveNotice: 'From the recipe archive of Dr. Fatma Alkawokgy (1943–2026).',
+    prep: 'Prep',
+    cook: 'Cooking',
+    serves: 'Serves',
+    openInApp: 'Open the recipe in the interactive site',
+    ingredients: 'Ingredients',
+    method: 'Method',
+    notes: 'Notes'
+  }
+} as const;
+
 function recipeJsonLd(recipe: Recipe, estimate: RecipeEstimate | undefined, pageUrl: string, imageUrl: string) {
   const prepTime = toIsoDuration(recipe.prepTime);
   const cookTime = toIsoDuration(recipe.cookTime);
@@ -226,13 +281,17 @@ function recipeJsonLd(recipe: Recipe, estimate: RecipeEstimate | undefined, page
     '@context': 'https://schema.org',
     '@type': 'Recipe',
     name: recipe.title,
-    ...(recipe.titleEn ? { alternateName: recipe.titleEn } : {}),
+    ...(recipe.titleEn && recipe.titleEn !== recipe.title ? { alternateName: recipe.titleEn } : {}),
     url: pageUrl,
     image: imageUrl,
-    inLanguage: 'ar',
-    recipeCategory: recipe.category,
+    inLanguage: baseLanguage(recipe),
+    recipeCategory: recipe.englishOnly ? getLocalizedRecipe(recipe, 'en').category : recipe.category,
     ...(recipe.source
-      ? { isBasedOn: recipe.source.collection === 'osool' ? { ...OSOOL_BOOK, url: recipe.source.url } : recipe.source.url }
+      ? {
+          isBasedOn: recipe.source.collection && BOOKS[recipe.source.collection]
+            ? { ...BOOKS[recipe.source.collection], url: recipe.source.url }
+            : recipe.source.url
+        }
       : { recipeCuisine: 'Egyptian', author: { '@type': 'Person', name: 'د. فاطمة القاوقجي', alternateName: 'Dr. Fatma Alkawokgy' } }),
     ...(prepTime ? { prepTime } : {}),
     ...(cookTime ? { cookTime } : {}),
@@ -260,13 +319,15 @@ function recipeJsonLd(recipe: Recipe, estimate: RecipeEstimate | undefined, page
 function staticRecipePage(recipe: Recipe): string {
   const estimate = RECIPE_ESTIMATES[recipe.id];
   const pageUrl = `${siteUrl}/recipe/${encodeURIComponent(recipe.id)}/`;
-  const appUrl = `${siteUrl}/?recipe=${encodeURIComponent(recipe.id)}&lang=ar`;
+  const lang = baseLanguage(recipe);
+  const text = PAGE_TEXT[lang];
+  const appUrl = `${siteUrl}/?recipe=${encodeURIComponent(recipe.id)}&lang=${lang}`;
   const imagePath = getRecipeImagePath(recipe.id);
   const imageUrl = recipe.imageUrl || (imagePath ? `${siteUrl}/${imagePath}` : `${siteUrl}/logo-transparent.png`);
-  const description = `${recipe.title}: ${recipe.masterIngredients.slice(0, 6).map(ingredient => ingredient.name).join('، ')}.`;
+  const description = `${recipe.title}: ${recipe.masterIngredients.slice(0, 6).map(ingredient => ingredient.name).join(text.listSeparator)}.`;
   const source = recipe.source
-    ? `<p class="source">وصفة إضافية من خارج مخطوطات د. فاطمة القاوقجي، أعدنا صياغتها بأسلوبنا مع حفظ حق المصدر.<br>المصدر: <a href="${escapeHtml(recipe.source.url)}" rel="noopener">${escapeHtml(recipe.source.name)}</a>${recipe.source.citation ? ` — ${escapeHtml(recipe.source.citation)}` : ''}</p>`
-    : '<p class="source">من أرشيف وصفات د. فاطمة القاوقجي (1943–2026).</p>';
+    ? `<p class="source">${text.sourceNotice}<br>${text.sourceLabel} <a href="${escapeHtml(recipe.source.url)}" rel="noopener">${escapeHtml(recipe.source.name)}</a>${recipe.source.citation ? ` — ${escapeHtml(recipe.source.citation)}` : ''}</p>`
+    : `<p class="source">${text.archiveNotice}</p>`;
   const nutrition = estimate
     ? `<h2>القيمة الغذائية والتكلفة (تقديرية)</h2>
 <table>
@@ -282,21 +343,21 @@ function staticRecipePage(recipe: Recipe): string {
 <p class="note">قيم تقريبية محسوبة من المكونات ومتوسط الأسعار، وليست قياساً معملياً.</p>`
     : '';
   const facts = [
-    recipe.prepTime && `التحضير: ${recipe.prepTime}`,
-    recipe.cookTime && `الطهو: ${recipe.cookTime}`,
-    recipe.servings && `يكفي: ${recipe.servings}`
+    recipe.prepTime && `${text.prep}: ${recipe.prepTime}`,
+    recipe.cookTime && `${text.cook}: ${recipe.cookTime}`,
+    recipe.servings && `${text.serves}: ${recipe.servings}`
   ].filter(Boolean).join(' · ');
   const alternates = SUPPORTED_LANGUAGES
-    .filter(lang => lang === 'ar' || !isArabicOnly(recipe))
-    .map(lang => `<link rel="alternate" hreflang="${lang}" href="${escapeHtml(`${siteUrl}/?recipe=${encodeURIComponent(recipe.id)}&lang=${lang}`)}">`)
+    .filter(alternate => listedIn(recipe, alternate))
+    .map(alternate => `<link rel="alternate" hreflang="${alternate}" href="${escapeHtml(`${siteUrl}/?recipe=${encodeURIComponent(recipe.id)}&lang=${alternate}`)}">`)
     .join('\n');
 
   return `<!doctype html>
-<html lang="ar" dir="rtl">
+<html lang="${lang}" dir="${text.dir}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${escapeHtml(recipe.title)} | وصفات د. فاطمة القاوقجي</title>
+<title>${escapeHtml(recipe.title)} | ${text.siteName}</title>
 <meta name="description" content="${escapeHtml(description)}">
 <link rel="canonical" href="${escapeHtml(pageUrl)}">
 ${alternates}
@@ -317,22 +378,22 @@ img{max-width:100%;border-radius:14px}
 </head>
 <body>
 <main>
-<p><a href="${escapeHtml(siteUrl)}/">وصفات د. فاطمة القاوقجي</a> › ${escapeHtml(recipe.category)}</p>
+<p><a href="${escapeHtml(siteUrl)}/">${text.siteName}</a> › ${escapeHtml(getLocalizedRecipe(recipe, lang).category)}</p>
 ${imagePath ? `<img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(recipe.title)}" width="760" loading="lazy">` : ''}
 <h1>${escapeHtml(recipe.title)}</h1>
-${recipe.titleEn ? `<p class="en" lang="en" dir="ltr">${escapeHtml(recipe.titleEn)}</p>` : ''}
+${recipe.titleEn && recipe.titleEn !== recipe.title ? `<p class="en" lang="en" dir="ltr">${escapeHtml(recipe.titleEn)}</p>` : ''}
 ${facts ? `<p class="facts">${escapeHtml(facts)}</p>` : ''}
 ${source}
-<a class="cta" href="${escapeHtml(appUrl)}">افتح الوصفة في الموقع التفاعلي</a>
-<h2>المقادير</h2>
+<a class="cta" href="${escapeHtml(appUrl)}">${text.openInApp}</a>
+<h2>${text.ingredients}</h2>
 <ul>
 ${recipe.masterIngredients.map(ingredient => `<li>${escapeHtml(ingredient.name)}: ${escapeHtml(ingredient.standardAmount)}</li>`).join('\n')}
 </ul>
-<h2>طريقة التحضير</h2>
+<h2>${text.method}</h2>
 <ol>
 ${recipe.uniqueInstructions.map(step => `<li>${escapeHtml(step.text)}</li>`).join('\n')}
 </ol>
-${recipe.culturalNotes ? `<h2>ملاحظات</h2>\n<p>${escapeHtml(recipe.culturalNotes)}</p>` : ''}
+${recipe.culturalNotes ? `<h2>${text.notes}</h2>\n<p>${escapeHtml(recipe.culturalNotes)}</p>` : ''}
 ${nutrition}
 </main>
 </body>
@@ -362,7 +423,7 @@ const urls = [
   ...orderedRecipes.map(recipe => `${siteUrl}/recipe/${encodeURIComponent(recipe.id)}/`),
   ...orderedRecipes.flatMap(recipe =>
     SUPPORTED_LANGUAGES
-      .filter(lang => lang === 'ar' || !isArabicOnly(recipe))
+      .filter(lang => listedIn(recipe, lang))
       .map(lang => `${siteUrl}/?recipe=${encodeURIComponent(recipe.id)}&lang=${lang}`)
   )
 ]

@@ -1,0 +1,537 @@
+[
+  {
+    "num": 42,
+    "page": 23,
+    "title": "Eggs Fried with Garlic and Mint (Beid Ma’li ma‘ Toom)",
+    "category": "savory",
+    "method": "fry",
+    "prep": "5 min",
+    "cook": "5 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Eggs", "4–6", "dairy_fat"],
+      ["Garlic cloves", "5", "vegetable"],
+      ["Lemon juice", "1 teaspoon", "liquid"],
+      ["Dried mint powder", "a pinch", "spice_seasoning"],
+      ["Cooking oil", "as needed", "dairy_fat"],
+      ["Salt and pepper", "to taste", "spice_seasoning"]
+    ],
+    "steps": [
+      ["Crush the garlic with a little salt and stir in the lemon juice.", "prep"],
+      "Fry the garlic mixture briefly in the oil.",
+      "Slide the eggs into the pan and fry them, spooning the hot garlicky oil over them once or twice.",
+      ["Sprinkle with the mint, salt and pepper and serve.", "finish"]
+    ]
+  },
+  {
+    "num": 43,
+    "page": 23,
+    "title": "Eggs Fried with Lemon Juice (Beid Ma’li ma‘ Lamun)",
+    "category": "savory",
+    "method": "fry",
+    "cook": "5 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Eggs", "4–6", "dairy_fat"],
+      ["Lemon juice", "2 tablespoons", "liquid"],
+      ["Cooking oil", "as needed", "dairy_fat"],
+      ["Salt and pepper", "to taste", "spice_seasoning"]
+    ],
+    "steps": [
+      "Heat the oil until it sizzles and slide in the eggs.",
+      "Pour the lemon juice over them straight away.",
+      "Baste the eggs with the pan juices once or twice as they set.",
+      ["Season with salt and pepper and serve.", "finish"]
+    ]
+  },
+  {
+    "num": 44,
+    "page": 24,
+    "title": "Eggs with Pastirma (Beid Ma’li bi-l-Bastirma)",
+    "category": "savory",
+    "method": "fry",
+    "cook": "5 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Eggs", "4–6", "dairy_fat"],
+      ["Pastirma (Egyptian cured beef)", "125 g", "meat_poultry"],
+      ["Cooking oil", "as needed", "dairy_fat"],
+      ["Salt and pepper", "to taste", "spice_seasoning"]
+    ],
+    "steps": [
+      ["Trim away the tough spiced rind of the pastirma.", "prep"],
+      "Put the pastirma in the pan with the cold oil and heat them together, since pastirma crisps within moments once hot.",
+      "Turn the slices so both sides cook, then add the eggs, whole or beaten.",
+      ["As soon as the eggs have set, slide everything onto a plate and season.", "finish"],
+      ["Take care not to overcook the pastirma; it turns bitter.", "finish"]
+    ]
+  },
+  {
+    "num": 45,
+    "page": 24,
+    "title": "Eggs with Tomato and Onion (Beid Ma’li bi-l-Tamatim)",
+    "category": "savory",
+    "method": "fry",
+    "prep": "5 min",
+    "cook": "20 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Eggs", "3–6", "dairy_fat"],
+      ["Onion", "1", "vegetable"],
+      ["Ripe tomatoes", "2–3", "vegetable"],
+      ["Cooking oil", "as needed", "dairy_fat"],
+      ["Salt and pepper", "to taste", "spice_seasoning"]
+    ],
+    "steps": [
+      ["Chop the onion very finely. Peel the tomatoes and cut them into slices about 1 cm thick.", "prep"],
+      "Soften the onion in the oil, then add the tomatoes and cook for 10–12 minutes.",
+      "Break the eggs over the tomato and onion and cook until set.",
+      ["Season with salt and pepper and serve.", "finish"],
+      ["Alexandrian style (Shakshukat Beid Iskandarani, recipe 46 in the book): use shelled hard-boiled eggs instead of raw ones. Slide them in whole and cook for 5 minutes, then halve them, arrange them on a dish and spoon the tomato mixture over.", "alternative"]
+    ]
+  },
+  {
+    "num": 47,
+    "page": 24,
+    "title": "Fried Hard-Boiled Eggs with Cumin (Beid Miza’lil)",
+    "category": "savory",
+    "method": "fry",
+    "cook": "15 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Hard-boiled eggs", "4–6", "dairy_fat"],
+      ["Parsley", "a bunch", "vegetable"],
+      ["Cumin", "to taste", "spice_seasoning"],
+      ["Cooking oil", "for frying", "dairy_fat"],
+      ["Salt and pepper", "to taste", "spice_seasoning"]
+    ],
+    "steps": [
+      ["Peel the eggs, keeping them whole.", "prep"],
+      "Fry them in very hot oil, rolling them around until browned on every side.",
+      ["Serve on a bed of parsley, sprinkled with cumin, salt and pepper.", "finish"]
+    ]
+  },
+  {
+    "num": 48,
+    "page": 25,
+    "title": "Egg and Yogurt Sandwich Spread (Beid bi-l-Zabadi)",
+    "category": "savory",
+    "method": "noCook",
+    "prep": "5 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Hard-boiled eggs", "4–6", "dairy_fat"],
+      ["Yogurt", "3 tablespoons", "dairy_fat"],
+      ["Mustard", "to taste", "spice_seasoning"],
+      ["Salt and pepper", "to taste", "spice_seasoning"]
+    ],
+    "steps": [
+      "Peel the eggs and mash them with a fork.",
+      "Mix in the yogurt, mustard, salt and pepper.",
+      ["Spread on bread for sandwiches.", "finish"]
+    ]
+  },
+  {
+    "num": 52,
+    "page": 26,
+    "title": "Herb and Sumac Omelet (‘Igga bi-l-Tawabil)",
+    "category": "savory",
+    "method": "fry",
+    "cook": "10 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Eggs", "4–6", "dairy_fat"],
+      ["Flour", "1 tablespoon", "grain_starch"],
+      ["Oregano", "a pinch", "spice_seasoning"],
+      ["Sumac", "a pinch", "spice_seasoning"],
+      ["Mixed spices", "a pinch", "spice_seasoning"],
+      ["Onion (optional, as for the plain ‘igga)", "1", "vegetable"],
+      ["Cooking oil", "as needed", "dairy_fat"],
+      ["Salt and pepper", "to taste", "spice_seasoning"]
+    ],
+    "steps": [
+      ["Beat the eggs with the sifted flour, herbs, spices, salt and pepper.", "prep"],
+      "Fry the finely chopped onion in the oil until pale gold, then pour in the eggs over a high heat.",
+      "As the bottom sets, tilt the pan or lift the edge so the runny egg flows underneath.",
+      ["Turn the omelet and fry until both sides are golden and dry.", "finish"]
+    ],
+    "notes": "A spiced take on the everyday Egyptian ‘igga, a flat omelet fried firm on both sides."
+  },
+  {
+    "num": 53,
+    "page": 26,
+    "title": "Stuffed Omelet with Five Fillings (‘Igga Mahshiya)",
+    "category": "savory",
+    "method": "fry",
+    "cook": "10 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Eggs", "4–6", "dairy_fat"],
+      ["Flour", "1 tablespoon", "grain_starch"],
+      ["Onion", "1", "vegetable"],
+      ["Cooking oil", "as needed", "dairy_fat"],
+      ["Salt and pepper", "to taste", "spice_seasoning"],
+      ["Filling A: boiled gizzards, diced very small", "4–6", "meat_poultry"],
+      ["Filling B: fried kidneys, diced very small", "1/4 kg", "meat_poultry"],
+      ["Filling C: fried liver, diced very small", "1/4 kg", "meat_poultry"],
+      ["Filling D: savory minced beef (‘assag)", "1/2 cup", "meat_poultry"],
+      ["Filling E: spinach purée", "1 cup", "vegetable"]
+    ],
+    "steps": [
+      ["Prepare one of the fillings and keep it warm.", "prep"],
+      "Beat the eggs, add the sifted flour, salt and pepper and beat again.",
+      "Fry the very finely chopped onion in the oil until pale gold, pour in the eggs and cook over a high heat.",
+      "When the underside sets, tilt the pan or lift the edge so the liquid egg runs underneath.",
+      "Turn the omelet over and spoon the filling down the middle.",
+      ["Fold the edges over the filling and serve.", "finish"]
+    ]
+  },
+  {
+    "num": 59,
+    "page": 27,
+    "title": "Dukkah Spice and Nut Dip (Du’’a)",
+    "category": "savory",
+    "method": "noCook",
+    "prep": "10 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Salt", "1 measure", "spice_seasoning"],
+      ["Roasted coriander seeds", "1 measure", "spice_seasoning"],
+      ["Peanuts", "1 measure", "other"],
+      ["Split chickpeas", "1/2 measure", "grain_starch"],
+      ["Dried mint leaves", "1/2 measure", "spice_seasoning"],
+      ["Sesame seeds", "1/2 measure", "spice_seasoning"]
+    ],
+    "steps": [
+      "Grind all the ingredients together in a mortar or a blender.",
+      ["Eat by dipping pieces of baladi bread into the mixture.", "finish"]
+    ],
+    "notes": "Use any cup or spoon as the “measure”, keeping the proportions."
+  },
+  {
+    "num": 60,
+    "page": 27,
+    "title": "Homemade Labneh (Labna)",
+    "category": "savory",
+    "method": "preserve",
+    "prep": "10 min",
+    "cook": "24 hours draining",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Yogurt", "4 cups", "dairy_fat"],
+      ["Salt", "1 tablespoon", "spice_seasoning"],
+      ["Olive oil", "for the top", "dairy_fat"],
+      ["Cheesecloth bag", "1", "other"]
+    ],
+    "steps": [
+      ["Stir the salt into the yogurt.", "prep"],
+      "Pour it into a wet cheesecloth bag, tie the top and hang it for 24 hours over a clean bowl.",
+      "Keep the whey that drips out; it is nourishing and can be drunk or used in cooking.",
+      ["Spoon the labneh into a jar and pour a little oil, preferably olive oil, over the top.", "finish"],
+      ["Labneh balls for keeping: hang a larger batch for longer, opening the bag every 24 hours to stir the yogurt (it thickens faster near the cloth) and adding a little more salt each day. When it is thick and even all through, roll small amounts into balls with wet hands and keep them in a jar half full of olive oil.", "alternative"]
+    ],
+    "notes": "Labneh comes from the Levant (Palestine, Lebanon, Syria and Jordan). It was traditionally made from goat’s milk, which gives it a pleasant sourness, but buffalo or cow’s milk yogurt works just as well. The soft, spoonable kind is called labneh khadra."
+  },
+  {
+    "num": 61,
+    "page": 28,
+    "title": "Homemade Pastirma (Bastirma)",
+    "category": "meat",
+    "method": "preserve",
+    "prep": "30 min",
+    "cook": "6–8 days curing and drying",
+    "difficulty": "master",
+    "ingredients": [
+      ["Beef fillet or another prime cut", "1 kg", "meat_poultry"],
+      ["Salt", "1 cup", "spice_seasoning"],
+      ["Ground fenugreek", "3/4 cup", "spice_seasoning"],
+      ["Hot chili pepper", "2 tablespoons", "spice_seasoning"],
+      ["Garlic heads", "3–4", "vegetable"]
+    ],
+    "steps": [
+      ["Trim every bit of fat from the meat, dry it well and make two or three very shallow cuts in the surface.", "prep"],
+      "Roll the meat in 1/4 cup of the salt so it is completely covered.",
+      "Lay it on a rack with a weight on top so the juices drain away, and leave it for 3–4 days.",
+      "Take off the weight, wipe the meat dry and thread a cord through one end, leaving a long loop for hanging.",
+      "Peel and crush the garlic and knead it with the fenugreek, chili and the rest of the salt into a soft paste.",
+      "Coat the meat with the paste in a layer 1/2–1 cm thick.",
+      "Hang it for another 3–4 days, until it is thoroughly dry and dark brown.",
+      ["Slice paper-thin and eat it raw at breakfast, with or without the rind, or fry it with eggs or use it in pastries.", "finish"]
+    ],
+    "notes": "Most families buy pastirma, but it is easy to make at home. When cooking it, heat it together with the oil rather than dropping it into hot fat: it crisps almost at once and turns bitter if overcooked."
+  },
+  {
+    "num": 62,
+    "page": 28,
+    "title": "Sweet Vermicelli with Raisins (Sha‘riya)",
+    "category": "lightDesserts",
+    "method": "simmer",
+    "cook": "20 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Vermicelli", "2 cups", "grain_starch"],
+      ["Hot water", "4 cups", "liquid"],
+      ["Cooking oil", "2 tablespoons", "dairy_fat"],
+      ["Sugar", "1/2–1 cup", "sweet_fruit"],
+      ["Raisins (optional)", "2 tablespoons", "sweet_fruit"],
+      ["Warm milk (optional)", "for serving", "dairy_fat"]
+    ],
+    "steps": [
+      ["Break the vermicelli with your fingers into pieces 2–3 cm long.", "prep"],
+      "Fry the raisins lightly in the oil until they puff up, then lift them out.",
+      "Fry the vermicelli in the same oil until pale brown.",
+      "Dissolve the sugar in the boiling water and pour it over the vermicelli, add the raisins, and cook over a low heat for about 15 minutes.",
+      "If the water is absorbed before the vermicelli is tender, sprinkle in a little more hot water.",
+      ["Serve with warm milk poured over each plate.", "finish"],
+      ["For a buffet dessert, add chopped bananas, strawberries and mixed nuts.", "alternative"]
+    ],
+    "notes": "A breakfast dish for festive mornings, also served among the sweets at open buffets."
+  },
+  {
+    "num": 64,
+    "page": 29,
+    "title": "Eggs with Fried White Cheese (Beid Ma’li ma‘ Jibneh Beida)",
+    "category": "savory",
+    "method": "fry",
+    "cook": "10 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Eggs", "4–6", "dairy_fat"],
+      ["Hard white cheese, in 1 cm slices", "4–6 slices", "dairy_fat"],
+      ["Cooking oil", "as needed", "dairy_fat"],
+      ["Salt and pepper", "to taste", "spice_seasoning"]
+    ],
+    "steps": [
+      "Fry the cheese one slice at a time, turning it to colour both sides, and keep it warm at the side of the serving dish.",
+      "Fry the eggs in the same oil, basting them as they cook.",
+      ["Serve the eggs next to the fried cheese, sprinkled with salt and pepper.", "finish"]
+    ],
+    "notes": "A breakfast dish from Palestine, Lebanon and Jordan."
+  },
+  {
+    "num": 65,
+    "page": 29,
+    "title": "Yemeni Fatut with Fenugreek (Fatut bi-l-Hulba)",
+    "category": "savory",
+    "method": "fry",
+    "prep": "10 min",
+    "cook": "20 min",
+    "difficulty": "medium",
+    "ingredients": [
+      ["Eggs", "4–6", "dairy_fat"],
+      ["Flatbread loaves", "2", "grain_starch"],
+      ["Ghee", "1/2 cup", "dairy_fat"],
+      ["Ground fenugreek", "1 tablespoon", "spice_seasoning"],
+      ["Tomato paste", "1 tablespoon", "vegetable"],
+      ["Zhug (Yemeni green chili paste)", "1/2 teaspoon", "spice_seasoning"],
+      ["Chicken stock", "2 cups", "liquid"],
+      ["Lemon juice", "2 tablespoons", "liquid"],
+      ["Salt and pepper", "to taste", "spice_seasoning"]
+    ],
+    "steps": [
+      ["Blend the fenugreek, tomato paste and zhug into a paste.", "prep"],
+      "Tear the bread into bite-sized pieces and fry them in the ghee until crisp.",
+      "Add the eggs to the pan and stir until they are well set and scrambled with the bread.",
+      "Boil the chicken stock with the fenugreek paste, uncovered and over a high heat, until reduced by half.",
+      "Add the egg and bread mixture and cook for 3–5 minutes more, then season.",
+      ["Serve with a little lemon juice added to each plate.", "finish"]
+    ],
+    "notes": "A Yemeni breakfast. Zhug is in this collection too, among the pastes and spice mixtures."
+  },
+  {
+    "num": 66,
+    "page": 30,
+    "title": "Turkish Eggs on Spinach and Feta (Ispanaklı Yumurta)",
+    "category": "savory",
+    "method": "fry",
+    "prep": "10 min",
+    "cook": "20 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Eggs", "4–6", "dairy_fat"],
+      ["Spinach", "1/2 kg", "vegetable"],
+      ["Onion, very finely chopped", "1", "vegetable"],
+      ["Beyaz peynir (feta cheese), crumbled", "a chunk", "dairy_fat"],
+      ["Cooking oil", "as needed", "dairy_fat"],
+      ["Salt and pepper", "to taste", "spice_seasoning"]
+    ],
+    "steps": [
+      ["Wash the spinach in several changes of water, drain it in a colander and shred it coarsely.", "prep"],
+      "Fry the onion in the oil until it softens.",
+      "Add the spinach and stir over a medium heat until the leaves wilt and release their liquid.",
+      "Turn up the heat and cook until only enough liquid is left to cover the bottom of the pan.",
+      "Stir in the crumbled cheese, salt and pepper.",
+      "Break the eggs onto the spinach, spacing them evenly, cover the pan and cook over a medium heat until the eggs are set.",
+      ["Serve straight from the pan.", "finish"]
+    ],
+    "notes": "A Turkish breakfast dish."
+  },
+  {
+    "num": 67,
+    "page": 30,
+    "title": "Turkish Poached Eggs in Garlic Yogurt (Çılbır)",
+    "category": "savory",
+    "method": "boil",
+    "prep": "5 min",
+    "cook": "15 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Eggs", "4–6", "dairy_fat"],
+      ["Yogurt", "1 cup", "dairy_fat"],
+      ["Garlic cloves, crushed", "3–5", "vegetable"],
+      ["Vinegar", "1 teaspoon", "liquid"],
+      ["Butter", "2 tablespoons", "dairy_fat"],
+      ["Hot paprika", "a dash", "spice_seasoning"],
+      ["Salt and pepper", "to taste", "spice_seasoning"]
+    ],
+    "steps": [
+      "Mix the yogurt with the garlic, salt and pepper and warm it in an ovenproof dish in a moderately hot oven.",
+      "Meanwhile, poach the eggs in simmering water with the vinegar and, once set, lay them on the yogurt.",
+      "Melt the butter, stir in the paprika and drizzle the red butter over the eggs.",
+      ["Return the dish to the oven for 2–3 minutes, then serve on individual plates and season to taste.", "finish"]
+    ],
+    "notes": "A Turkish dish."
+  },
+  {
+    "num": 68,
+    "page": 31,
+    "title": "Lebanese Baked Eggs in Yogurt (Beid bi-l-Laban)",
+    "category": "savory",
+    "method": "bake",
+    "prep": "10 min",
+    "cook": "20 min",
+    "difficulty": "medium",
+    "ingredients": [
+      ["Eggs", "4–6", "dairy_fat"],
+      ["Egg white", "1", "dairy_fat"],
+      ["Yogurt", "2 cups", "dairy_fat"],
+      ["Garlic cloves, crushed", "5–7", "vegetable"],
+      ["Dried mint powder", "1 teaspoon", "spice_seasoning"],
+      ["Ghee", "2–3 tablespoons", "dairy_fat"],
+      ["Salt and pepper", "to taste", "spice_seasoning"]
+    ],
+    "steps": [
+      ["Whisk the egg white until stiff and stir it into the yogurt; this keeps the yogurt from splitting.", "prep"],
+      "Cook the yogurt uncovered over a very low heat for 5–7 minutes, then pour it into a shallow ovenproof dish.",
+      "Fry the garlic in the ghee until golden, stirring all the time so it does not stick, then stir in the mint, salt and pepper.",
+      "Break the eggs over the yogurt, spacing them evenly, and pour the garlic ghee over them.",
+      ["Bake until the eggs are set.", "finish"]
+    ],
+    "notes": "A Lebanese dish."
+  },
+  {
+    "num": 69,
+    "page": 31,
+    "title": "Tunisian Ojja with Merguez and Potatoes (Ojja bi Mergaz)",
+    "category": "savory",
+    "method": "simmer",
+    "prep": "15 min",
+    "cook": "35 min",
+    "difficulty": "medium",
+    "ingredients": [
+      ["Eggs", "4–6", "dairy_fat"],
+      ["Potatoes, peeled and diced very small", "2", "vegetable"],
+      ["Spiced sausages (merguez), chopped small", "5–7", "meat_poultry"],
+      ["Tomato paste", "2 tablespoons", "vegetable"],
+      ["Garlic cloves", "5–7", "vegetable"],
+      ["Harissa", "1 teaspoon", "spice_seasoning"],
+      ["Paprika", "1 teaspoon", "spice_seasoning"],
+      ["Caraway seeds", "1 teaspoon", "spice_seasoning"],
+      ["Olive oil", "as needed", "dairy_fat"],
+      ["Salt and pepper", "to taste", "spice_seasoning"]
+    ],
+    "steps": [
+      ["Pound the garlic with salt, the paprika and the caraway.", "prep"],
+      "Sauté the potatoes in the oil, then add the tomato paste, the garlic mixture, the harissa and just enough water to cover.",
+      "Cook over a low heat for 15 minutes.",
+      "Add the sausages and cook for another 15 minutes.",
+      "Beat the eggs with salt and pepper, pour them over the stew and stir.",
+      ["Serve as soon as the eggs are set.", "finish"]
+    ],
+    "notes": "A Tunisian dish; ojja is the Tunisian cousin of shakshuka."
+  },
+  {
+    "num": 70,
+    "page": 32,
+    "title": "Brain Omelet (Ijjit Nukha’aat)",
+    "category": "savory",
+    "method": "fry",
+    "prep": "20 min",
+    "cook": "15 min",
+    "difficulty": "medium",
+    "ingredients": [
+      ["Eggs", "6", "dairy_fat"],
+      ["Sheep’s brain", "1", "meat_poultry"],
+      ["Onion, grated", "1", "vegetable"],
+      ["Garlic cloves, crushed", "3", "vegetable"],
+      ["Lemon juice", "1 tablespoon", "liquid"],
+      ["Parsley, very finely chopped", "2 tablespoons", "vegetable"],
+      ["Ghee", "as needed", "dairy_fat"],
+      ["Salt and pepper", "to taste", "spice_seasoning"]
+    ],
+    "steps": [
+      ["Parboil the brain in salted water, drain it, remove the veins and mash it.", "prep"],
+      "Soften the onion in ghee, add the garlic and fry until golden, stirring all the time, then take the pan off the heat.",
+      "Beat the eggs and stir in the brain, the onion and garlic, the lemon juice, parsley, salt and pepper.",
+      "Heat more ghee and pour in the egg mixture. As the bottom sets, lift the edge so the runny egg flows underneath.",
+      "Turn the omelet and fry until both sides are golden and set.",
+      ["Cut into thick wedges and serve.", "finish"]
+    ],
+    "notes": "Made in Lebanon, Syria and Jordan."
+  },
+  {
+    "num": 71,
+    "page": 32,
+    "title": "Persian Eggplant Kuku (Kuku-ye Bademjan)",
+    "category": "savory",
+    "method": "fry",
+    "prep": "1 hour 15 min (includes salting)",
+    "cook": "25 min",
+    "difficulty": "medium",
+    "ingredients": [
+      ["Eggs", "6", "dairy_fat"],
+      ["Round brown eggplants", "2", "vegetable"],
+      ["Onion, grated", "1", "vegetable"],
+      ["Cumin", "1/2 teaspoon", "spice_seasoning"],
+      ["Yogurt", "1–2 cups", "dairy_fat"],
+      ["Ghee", "as needed", "dairy_fat"],
+      ["Salt and pepper", "to taste", "spice_seasoning"]
+    ],
+    "steps": [
+      ["Peel and dice the eggplants, sprinkle them with salt and leave for an hour.", "prep"],
+      "Squeeze them dry, fry until golden, then mash them in a deep bowl.",
+      "Beat in the eggs, onion, cumin, salt and pepper until smooth.",
+      "Heat ghee in a pan and pour in the mixture. As the bottom sets, lift the edge so the uncooked egg runs underneath.",
+      "Turn the kuku over and fry until both sides are brown.",
+      ["Cut into thick wedges and serve with yogurt spooned over each plate.", "finish"]
+    ],
+    "notes": "An Iranian dish."
+  },
+  {
+    "num": 72,
+    "page": 33,
+    "title": "Persian Potato Kuku or Patties (Kuku-ye Sibzamini)",
+    "category": "savory",
+    "method": "fry",
+    "prep": "10 min",
+    "cook": "40 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Eggs", "6", "dairy_fat"],
+      ["Potatoes", "1/2 kg", "vegetable"],
+      ["Onion, grated", "1", "vegetable"],
+      ["Turmeric", "1 teaspoon", "spice_seasoning"],
+      ["Ghee", "as needed", "dairy_fat"],
+      ["Salt and pepper", "to taste", "spice_seasoning"]
+    ],
+    "steps": [
+      ["Peel and boil the potatoes, then mash them in a deep bowl.", "prep"],
+      "Mix in the eggs, onion, turmeric, salt and pepper until smooth.",
+      "Heat ghee and fry the mixture like a thick omelet, lifting the edge as the bottom sets so the uncooked egg runs underneath.",
+      "Turn it over and fry until brown on both sides.",
+      ["Cut into thick wedges and serve.", "finish"],
+      ["Patties: drop spoonfuls of the mixture into hot ghee, flatten them and deep-fry, then drain on absorbent paper.", "alternative"]
+    ],
+    "notes": "An Iranian dish."
+  }
+]
