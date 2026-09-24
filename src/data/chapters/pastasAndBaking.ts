@@ -6071,8 +6071,8 @@ export const pastasAndBakingRecipes: Recipe[] = [
       },
       {
         id: 'bk5-6',
-        name: 'لانشون',
-        nameEn: 'Cold cuts (luncheon meat)',
+        name: 'لانشون حلال (بقري أو دجاج)',
+        nameEn: 'Halal beef or chicken luncheon meat',
         standardAmount: 'قطع',
         category: 'meat_poultry',
         sourceVariations: {
@@ -7397,8 +7397,8 @@ export const pastasAndBakingRecipes: Recipe[] = [
       },
       {
         id: 'bk13-7',
-        name: 'طبقة البيتزا (جبن موزاريلا، جبن كيري، جبن أبيض، زيتون، لانشون، تونة، عصاج، شكشوكة، دجاج مفروم، طماطم، فلفل أخضر)',
-        nameEn: 'Toppings, any combination: mozzarella, cream cheese, white cheese, olives, cold cuts, tuna, assag, shakshuka, minced chicken, tomato slices, green pepper',
+        name: 'طبقة البيتزا (جبن موزاريلا، جبن كيري، جبن أبيض، زيتون، لانشون حلال، تونة، عصاج، شكشوكة، دجاج مفروم، طماطم، فلفل أخضر)',
+        nameEn: 'Toppings, any combination: mozzarella, cream cheese, white cheese, olives, halal cold cuts, tuna, assag, shakshuka, minced chicken, tomato slices, green pepper',
         standardAmount: 'حسب الرغبة',
         category: 'other',
         sourceVariations: {
@@ -9301,8 +9301,8 @@ export const pastasAndBakingRecipes: Recipe[] = [
       },
       {
         id: 'sv11-6',
-        name: 'لانشون',
-        nameEn: 'Cold cuts',
+        name: 'لانشون حلال (بقري أو دجاج)',
+        nameEn: 'Halal beef or chicken cold cuts',
         standardAmount: 'قطع',
         category: 'meat_poultry',
         sourceVariations: {
@@ -10573,8 +10573,8 @@ export const pastasAndBakingRecipes: Recipe[] = [
       },
       {
         id: 'qk7-4',
-        name: 'لانشون',
-        nameEn: 'Cold cuts',
+        name: 'لانشون حلال (بقري أو دجاج)',
+        nameEn: 'Halal beef or chicken cold cuts',
         standardAmount: 'قطع',
         category: 'meat_poultry',
         sourceVariations: {
