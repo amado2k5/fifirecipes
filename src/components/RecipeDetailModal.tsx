@@ -14,7 +14,8 @@ import {
   ArrowRight,
   ArrowLeft,
   Activity,
-  Coins
+  Coins,
+  ExternalLink
 } from 'lucide-react';
 import { getRecipeImage } from '../data/recipeImages';
 import { getUIText } from '../data/translations';
@@ -23,6 +24,7 @@ import { OriginalManuscriptModal, getManuscriptSource } from './OriginalManuscri
 import { RecipeEstimatesPanel } from './RecipeEstimatesPanel';
 import { formatUsd, getCostTotal, getRecipeEstimate } from '../data/recipeEstimates';
 import { getEstimateStrings } from '../data/estimateTranslations';
+import { getAdditionalRecipesText } from '../data/additionalRecipesText';
 
 interface RecipeDetailModalProps {
   recipe: Recipe | null;
@@ -70,6 +72,9 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
   const estimateText = getEstimateStrings(lang);
   // The original-manuscript scroll is an Arabic-only archival feature.
   const showManuscriptTrigger = lang === 'ar' && !!getManuscriptSource(recipe);
+  // Additional recipes are not from Dr. Fatma's manuscripts and credit their source.
+  const source = recipe.source;
+  const additionalText = getAdditionalRecipesText(lang);
 
   const toggleIngredientCheck = (id: string) => {
     setCheckedIngredients(prev => ({ ...prev, [id]: !prev[id] }));
@@ -84,6 +89,19 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
         <ScrollText className="w-4 h-4 text-[#8a5a2b] group-hover:scale-110 transition-transform" />
         <span className="manuscript-heading-font">المخطوطة الأصلية</span>
       </button>
+    </div>
+  );
+
+  const sourceNotice = source && (
+    <div className="p-4 rounded-2xl border border-sky-200 bg-sky-50/70 text-xs sm:text-sm text-sky-950 space-y-1.5">
+      <p>{additionalText.notice}</p>
+      <p className="flex items-center gap-1.5 font-semibold">
+        <span>{additionalText.sourceLabel}</span>
+        <a href={source.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-sky-800 underline underline-offset-2 hover:text-sky-950">
+          {source.name}
+          <ExternalLink className="w-3.5 h-3.5" />
+        </a>
+      </p>
     </div>
   );
 
@@ -112,6 +130,11 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
               <span className="px-3 py-1 rounded-full text-xs font-semibold bg-black/60 text-stone-200 backdrop-blur-xs border border-white/10">
                 {localized.cookingMethod}
               </span>
+              {source && (
+                <span className="px-3 py-1 rounded-full text-xs font-semibold bg-sky-700/90 text-white backdrop-blur-xs shadow-xs">
+                  {additionalText.badge}
+                </span>
+              )}
             </div>
 
             <div className="flex items-center gap-2">
@@ -239,7 +262,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                 <div className="flex items-start gap-3">
                   <HelpCircle className="w-5 h-5 text-amber-700 shrink-0 mt-0.5" />
                   <p>
-                    {t(
+                    {source ? additionalText.ingredientsNote : t(
                       'المقادير المعيارية المضبوطة بدقة. يمكنك النقر على المربع لتحديد المكونات الجاهزة أثناء الطهو.',
                       'Exact master measurements reconciled across Dr. Fatma’s notes. Check off ingredients as you prepare.',
                       'Mesures exactes et harmonisées d’après les notes du Dr Fatma. Cochez les ingrédients au fur et à mesure de la préparation.',
@@ -330,6 +353,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                 {isRtl ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
               </button>
 
+              {sourceNotice}
               {manuscriptTrigger}
             </div>
           )}
@@ -346,7 +370,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                     </p>
                     <p className="text-xs text-emerald-800 mt-0.5">
                       {t(
-                        'مرتبة بالتسلسل الزمني الدقيق للتحضير مع إبراز الطرق البديلة ونكهات فاطمة القاوقجي الخاصة.',
+                        source ? 'مرتبة بالتسلسل الزمني للتحضير مع إبراز الطرق البديلة.' : 'مرتبة بالتسلسل الزمني الدقيق للتحضير مع إبراز الطرق البديلة ونكهات فاطمة القاوقجي الخاصة.',
                         'Sequence verified for optimal culinary results.',
                         'Séquence vérifiée pour un résultat culinaire optimal.',
                         'Secuencia verificada para obtener resultados culinarios óptimos.',
@@ -406,7 +430,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                 <div className="p-4 bg-amber-50/80 border border-amber-200 rounded-2xl">
                   <h4 className="font-bold text-xs text-amber-900 mb-1 flex items-center gap-1.5">
                     <BookOpen className="w-4 h-4 text-amber-700" />
-                    <span>{getUIText(lang, 'tips')}</span>
+                    <span>{source ? additionalText.tips : getUIText(lang, 'tips')}</span>
                   </h4>
                   <p className="recipe-reading-copy text-stone-700">
                     {localized.culturalNotes}
@@ -414,6 +438,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                 </div>
               )}
 
+              {sourceNotice}
               {manuscriptTrigger}
             </div>
           )}

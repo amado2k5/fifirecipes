@@ -5,6 +5,7 @@ import { soupsAndSaladsRecipes } from './chapters/soupsAndSalads';
 import { vegetablesAndLegumesRecipes } from './chapters/vegetablesAndLegumes';
 import { pastasAndBakingRecipes } from './chapters/pastasAndBaking';
 import { dessertsAndBeveragesRecipes } from './chapters/dessertsAndBeverages';
+import { additionalRecipes } from './chapters/additionalRecipes';
 
 export const allRecipes: Recipe[] = [
   ...meatsAndPoultryRecipes,
@@ -12,7 +13,8 @@ export const allRecipes: Recipe[] = [
   ...soupsAndSaladsRecipes,
   ...vegetablesAndLegumesRecipes,
   ...pastasAndBakingRecipes,
-  ...dessertsAndBeveragesRecipes
+  ...dessertsAndBeveragesRecipes,
+  ...additionalRecipes
 ];
 
 export function computeDatabaseStats(recipes: Recipe[] = allRecipes): DatabaseStats {

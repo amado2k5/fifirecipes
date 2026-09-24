@@ -84,6 +84,11 @@ export interface Recipe {
     instructionsSummary?: string[];
   }>;
   overlapAnalysis: OverlapAnalysis;
+  /** Set on the additional recipes that do not come from Dr. Fatma's manuscripts. */
+  source?: {
+    name: string;
+    url: string;
+  };
   rawDocVersions: {
     doc1?: RawDocVersion;
     doc2?: RawDocVersion;

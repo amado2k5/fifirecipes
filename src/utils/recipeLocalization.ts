@@ -74,7 +74,8 @@ const CHAPTER_NAMES: Record<number, string> = {
   3: 'Chapter 3: Starches, Stuffed Dishes & Pastries',
   4: 'Chapter 4: Pastries, Light Desserts & Beverages',
   5: 'Chapter 5: Eastern Desserts',
-  6: 'Chapter 6: Western Desserts'
+  6: 'Chapter 6: Western Desserts',
+  7: 'Chapter 7: Additional Recipes'
 };
 
 const CHAPTER_NAMES_FR: Record<number, string> = {
@@ -83,7 +84,8 @@ const CHAPTER_NAMES_FR: Record<number, string> = {
   3: 'Chapitre 3 : Féculents, Plats Farcis et Pâtisseries',
   4: 'Chapitre 4 : Pâtisseries, Desserts Légers et Boissons',
   5: 'Chapitre 5 : Desserts Orientaux',
-  6: 'Chapitre 6 : Desserts Occidentaux'
+  6: 'Chapitre 6 : Desserts Occidentaux',
+  7: 'Chapitre 7 : Recettes supplémentaires'
 };
 
 const CHAPTER_NAMES_ES: Record<number, string> = {
@@ -92,7 +94,8 @@ const CHAPTER_NAMES_ES: Record<number, string> = {
   3: 'Capítulo 3: Féculas, Platos Rellenos y Pasteles Salados',
   4: 'Capítulo 4: Pastelería, Postres Ligeros y Bebidas',
   5: 'Capítulo 5: Postres Orientales',
-  6: 'Capítulo 6: Postres Occidentales'
+  6: 'Capítulo 6: Postres Occidentales',
+  7: 'Capítulo 7: Recetas adicionales'
 };
 
 const CHAPTER_NAMES_JA: Record<number, string> = {
@@ -101,7 +104,8 @@ const CHAPTER_NAMES_JA: Record<number, string> = {
   3: '第3章：主食・詰め物料理・生地料理',
   4: '第4章：焼き菓子・軽いデザート・飲み物',
   5: '第5章：東洋のデザート',
-  6: '第6章：西洋のデザート'
+  6: '第6章：西洋のデザート',
+  7: '第7章：追加レシピ'
 };
 
 const CHAPTER_NAMES_HI: Record<number, string> = {
@@ -110,7 +114,8 @@ const CHAPTER_NAMES_HI: Record<number, string> = {
   3: 'अध्याय 3: स्टार्च, भरवां व्यंजन और पेस्ट्री',
   4: 'अध्याय 4: पेस्ट्री, हल्की मिठाइयां और पेय',
   5: 'अध्याय 5: पूर्वी मिठाइयां',
-  6: 'अध्याय 6: पश्चिमी मिठाइयां'
+  6: 'अध्याय 6: पश्चिमी मिठाइयां',
+  7: 'अध्याय 7: अतिरिक्त व्यंजन'
 };
 
 const CHAPTER_NAMES_PT: Record<number, string> = {
@@ -119,7 +124,8 @@ const CHAPTER_NAMES_PT: Record<number, string> = {
   3: 'Capítulo 3: Amidos, Pratos Recheados e Massas Folhadas',
   4: 'Capítulo 4: Massas, Doces Leves e Bebidas',
   5: 'Capítulo 5: Sobremesas Orientais',
-  6: 'Capítulo 6: Sobremesas Ocidentais'
+  6: 'Capítulo 6: Sobremesas Ocidentais',
+  7: 'Capítulo 7: Receitas adicionais'
 };
 
 const CHAPTER_NAMES_RU: Record<number, string> = {
@@ -128,7 +134,8 @@ const CHAPTER_NAMES_RU: Record<number, string> = {
   3: 'Глава 3: Крахмалистые блюда, Фаршированные блюда и Выпечка',
   4: 'Глава 4: Выпечка, Лёгкие десерты и Напитки',
   5: 'Глава 5: Восточные десерты',
-  6: 'Глава 6: Западные десерты'
+  6: 'Глава 6: Западные десерты',
+  7: 'Глава 7: Дополнительные рецепты'
 };
 
 const CHAPTER_NAMES_ZH: Record<number, string> = {
@@ -137,7 +144,8 @@ const CHAPTER_NAMES_ZH: Record<number, string> = {
   3: '第三章：主食、酿馅菜肴与面点',
   4: '第四章：糕点、清爽甜点与饮品',
   5: '第五章：东方甜点',
-  6: '第六章：西式甜点'
+  6: '第六章：西式甜点',
+  7: '第七章：补充食谱'
 };
 
 const CHAPTER_NAMES_DE: Record<number, string> = {
@@ -146,7 +154,8 @@ const CHAPTER_NAMES_DE: Record<number, string> = {
   3: 'Kapitel 3: Sättigungsbeilagen, gefüllte Gerichte und Gebäck',
   4: 'Kapitel 4: Gebäck, leichte Nachspeisen und Getränke',
   5: 'Kapitel 5: Orientalische Süßspeisen',
-  6: 'Kapitel 6: Westliche Süßspeisen'
+  6: 'Kapitel 6: Westliche Süßspeisen',
+  7: 'Kapitel 7: Zusätzliche Rezepte'
 };
 
 const CHAPTER_NAMES_IT: Record<number, string> = {
@@ -155,7 +164,8 @@ const CHAPTER_NAMES_IT: Record<number, string> = {
   3: 'Capitolo 3: Amidi, Piatti Ripieni e Pasticceria Salata',
   4: 'Capitolo 4: Pasticceria, Dolci Leggeri e Bevande',
   5: 'Capitolo 5: Dolci Orientali',
-  6: 'Capitolo 6: Dolci Occidentali'
+  6: 'Capitolo 6: Dolci Occidentali',
+  7: 'Capitolo 7: Ricette aggiuntive'
 };
 
 const CHAPTER_NAMES_EL: Record<number, string> = {
@@ -164,7 +174,8 @@ const CHAPTER_NAMES_EL: Record<number, string> = {
   3: 'Κεφάλαιο 3: Αμυλούχα, Γεμιστά Πιάτα και Αλμυρή Ζαχαροπλαστική',
   4: 'Κεφάλαιο 4: Ζαχαροπλαστική, Ελαφριά Επιδόρπια και Ροφήματα',
   5: 'Κεφάλαιο 5: Ανατολίτικα Γλυκά',
-  6: 'Κεφάλαιο 6: Δυτικά Γλυκά'
+  6: 'Κεφάλαιο 6: Δυτικά Γλυκά',
+  7: 'Κεφάλαιο 7: Επιπλέον συνταγές'
 };
 
 const CHAPTER_NAMES_UR: Record<number, string> = {
@@ -173,7 +184,8 @@ const CHAPTER_NAMES_UR: Record<number, string> = {
   3: 'باب 3: نشاستہ دار کھانے، بھرے ہوئے پکوان اور پیسٹری',
   4: 'باب 4: پیسٹری، ہلکی میٹھی اشیاء اور مشروبات',
   5: 'باب 5: مشرقی مٹھائیاں',
-  6: 'باب 6: مغربی مٹھائیاں'
+  6: 'باب 6: مغربی مٹھائیاں',
+  7: 'باب 7: اضافی ترکیبیں'
 };
 
 const CHAPTER_NAMES_FA: Record<number, string> = {
@@ -182,7 +194,8 @@ const CHAPTER_NAMES_FA: Record<number, string> = {
   3: 'فصل 3: غذاهای نشاسته‌ای، دلمه‌ها و شیرینی‌های شور',
   4: 'فصل 4: شیرینی‌ها، دسرهای سبک و نوشیدنی‌ها',
   5: 'فصل 5: شیرینی‌های شرقی',
-  6: 'فصل 6: شیرینی‌های غربی'
+  6: 'فصل 6: شیرینی‌های غربی',
+  7: 'فصل ۷: دستورهای افزوده'
 };
 
 const CHAPTER_NAMES_TR: Record<number, string> = {
@@ -191,7 +204,8 @@ const CHAPTER_NAMES_TR: Record<number, string> = {
   3: 'Bölüm 3: Nişastalı Yemekler, Dolmalar ve Hamur İşleri',
   4: 'Bölüm 4: Hamur İşleri, Hafif Tatlılar ve İçecekler',
   5: 'Bölüm 5: Doğu Tatlıları',
-  6: 'Bölüm 6: Batı Tatlıları'
+  6: 'Bölüm 6: Batı Tatlıları',
+  7: 'Bölüm 7: Ek Tarifler'
 };
 
 const CHAPTER_NAMES_KU: Record<number, string> = {
@@ -200,7 +214,8 @@ const CHAPTER_NAMES_KU: Record<number, string> = {
   3: 'Beş 3: Xwarinên Nîşasteyî, Dolme û Hevîrkirî',
   4: 'Beş 4: Hevîrkirî, Şîraniyên Sivik û Vexwarin',
   5: 'Beş 5: Şîraniyên Rojhilatî',
-  6: 'Beş 6: Şîraniyên Rojavayî'
+  6: 'Beş 6: Şîraniyên Rojavayî',
+  7: 'Beşa 7: Reçeteyên Zêde'
 };
 
 const CHAPTER_NAMES_ID: Record<number, string> = {
@@ -209,7 +224,8 @@ const CHAPTER_NAMES_ID: Record<number, string> = {
   3: 'Bab 3: Hidangan Berpati, Isian, dan Aneka Pastri',
   4: 'Bab 4: Aneka Pastri, Makanan Manis Ringan, dan Minuman',
   5: 'Bab 5: Hidangan Manis Timur',
-  6: 'Bab 6: Hidangan Manis Barat'
+  6: 'Bab 6: Hidangan Manis Barat',
+  7: 'Bab 7: Resep Tambahan'
 };
 
 const CHAPTER_NAMES_SW: Record<number, string> = {
@@ -218,7 +234,8 @@ const CHAPTER_NAMES_SW: Record<number, string> = {
   3: 'Sura ya 3: Vyakula vya Wanga, Vilivyojazwa na Vyakula vya Unga',
   4: 'Sura ya 4: Vyakula vya Unga, Vitamu Vyepesi na Vinywaji',
   5: 'Sura ya 5: Vitamu vya Mashariki',
-  6: 'Sura ya 6: Vitamu vya Magharibi'
+  6: 'Sura ya 6: Vitamu vya Magharibi',
+  7: 'Sura ya 7: Mapishi ya Ziada'
 };
 
 const CHAPTER_NAMES_KO: Record<number, string> = {
@@ -227,7 +244,8 @@ const CHAPTER_NAMES_KO: Record<number, string> = {
   3: '제3장: 전분 요리, 속을 채운 요리 및 페이스트리',
   4: '제4장: 페이스트리, 가벼운 디저트 및 음료',
   5: '제5장: 동양 디저트',
-  6: '제6장: 서양 디저트'
+  6: '제6장: 서양 디저트',
+  7: '제7장: 추가 레시피'
 };
 
 const CATEGORY_NAMES: Record<string, string> = {

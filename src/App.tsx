@@ -201,7 +201,8 @@ export default function App() {
           name: recipe.title,
           alternateName: recipe.titleEn,
           recipeCategory: recipe.category,
-          recipeCuisine: 'Egyptian',
+          // Only Dr. Fatma's own archive is Egyptian home cooking; additional recipes credit their source.
+          ...(recipe.source ? { isBasedOn: recipe.source.url } : { recipeCuisine: 'Egyptian' }),
           ...recipeNutritionSchema(recipe.id),
           recipeIngredient: recipe.masterIngredients.map(ingredient => `${ingredient.name}: ${ingredient.standardAmount}`),
           recipeInstructions: recipe.uniqueInstructions.map(instruction => ({
