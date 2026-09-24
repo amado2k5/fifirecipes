@@ -7,6 +7,7 @@ import { pastasAndBakingRecipes } from './chapters/pastasAndBaking';
 import { dessertsAndBeveragesRecipes } from './chapters/dessertsAndBeverages';
 import { additionalRecipes } from './chapters/additionalRecipes';
 import { osoolElTahyRecipes } from './chapters/osoolElTahy';
+import { egyptianCookingRecipes } from './chapters/egyptianCooking';
 
 export const allRecipes: Recipe[] = [
   ...meatsAndPoultryRecipes,
@@ -16,7 +17,8 @@ export const allRecipes: Recipe[] = [
   ...pastasAndBakingRecipes,
   ...dessertsAndBeveragesRecipes,
   ...additionalRecipes,
-  ...osoolElTahyRecipes
+  ...osoolElTahyRecipes,
+  ...egyptianCookingRecipes
 ];
 
 export function computeDatabaseStats(recipes: Recipe[] = allRecipes): DatabaseStats {

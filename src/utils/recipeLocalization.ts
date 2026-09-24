@@ -68,7 +68,8 @@ const CHAPTER_NAMES: Record<number, string> = {
   4: 'Chapter 4: Pastries, Light Desserts & Beverages',
   5: 'Chapter 5: Eastern Desserts',
   6: 'Chapter 6: Western Desserts',
-  7: 'Chapter 7: Additional Recipes'
+  7: 'Chapter 7: Additional Recipes',
+  9: 'Chapter 9: From the Cookbook “Egyptian Cooking”'
 };
 
 const CHAPTER_NAMES_FR: Record<number, string> = {

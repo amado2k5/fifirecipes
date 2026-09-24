@@ -169,7 +169,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
               <h2 className="text-lg sm:text-2xl md:text-3xl font-extrabold tracking-tight text-white drop-shadow-xs">
                 {localized.title}
               </h2>
-              {recipe.titleEn && (
+              {recipe.titleEn && recipe.titleEn !== localized.title && (
                 <p className="[@media(max-height:420px)]:hidden text-xs sm:text-sm text-stone-300 font-medium" dir="ltr">
                   {recipe.titleEn}
                 </p>
