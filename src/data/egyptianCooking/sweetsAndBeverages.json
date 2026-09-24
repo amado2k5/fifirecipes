@@ -1,1 +1,344 @@
-[]
+[
+  {
+    "num": 446,
+    "page": 193,
+    "title": "Lemon Granita (Granittat al-Lamun)",
+    "category": "lightDesserts",
+    "method": "preserve",
+    "prep": "10 min",
+    "cook": "1 hour 30 min (includes chilling)",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Water", "5 cups", "liquid"],
+      ["Sugar", "2 cups", "sweet_fruit"],
+      ["Lemon juice", "1 cup", "sweet_fruit"],
+      ["Grated lemon rind", "from 3–4 lemons", "sweet_fruit"]
+    ],
+    "steps": [
+      "Dissolve the sugar in the water, add the lemon rind and bring to the boil over a low heat.",
+      "Boil for 10 minutes, stirring now and then and skimming as needed.",
+      "Strain and let cool.",
+      "Stir in the lemon juice.",
+      ["Pour into an ice tray and freeze for 60–90 minutes.", "finish"]
+    ]
+  },
+  {
+    "num": 447,
+    "page": 193,
+    "title": "Orange Granita (Granittat al-Burtu’an)",
+    "category": "lightDesserts",
+    "method": "preserve",
+    "prep": "10 min",
+    "cook": "1 hour 30 min (includes chilling)",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Orange juice", "3 cups", "sweet_fruit"],
+      ["Water", "2 cups", "liquid"],
+      ["Sugar", "1–2 cups", "sweet_fruit"],
+      ["Lemon juice", "1 tablespoon", "sweet_fruit"],
+      ["Grated rind of lemons and oranges", "2 of each", "sweet_fruit"]
+    ],
+    "steps": [
+      "Dissolve the sugar in the water, add the grated rinds and boil gently for 10 minutes, skimming as needed.",
+      "Strain and let cool.",
+      "Stir in the orange and lemon juice.",
+      ["Pour into an ice tray and freeze for 60–90 minutes.", "finish"]
+    ],
+    "notes": "Adjust the sugar to the oranges: with sweet (sukkari) oranges, one cup is enough."
+  },
+  {
+    "num": 448,
+    "page": 193,
+    "title": "Rosewater Starch Pudding (Baluza)",
+    "category": "lightDesserts",
+    "method": "simmer",
+    "prep": "5 min + cooling",
+    "cook": "15 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Water", "4 cups", "liquid"],
+      ["Sugar", "3 tablespoons", "sweet_fruit"],
+      ["Cornstarch", "3 tablespoons", "grain_starch"],
+      ["Rosewater", "1 tablespoon", "liquid"],
+      ["Finely crushed roasted nuts mixed with sugar", "2 tablespoons", "other"]
+    ],
+    "steps": [
+      ["Mix the starch into 1 cup of cold water.", "prep"],
+      "Dissolve the sugar in the remaining water in a medium pot over a low heat.",
+      "Add the starch and stir constantly until the baluza thickens like a thin custard.",
+      "Turn off the heat, stir in the rosewater and pour into individual bowls.",
+      ["When cool, sprinkle with the nuts.", "finish"]
+    ],
+    "notes": "For sweet dishes the book mixes finely crushed roasted almonds, hazelnuts, pecans or peanuts with sugar, two parts nuts to one part sugar."
+  },
+  {
+    "num": 453,
+    "page": 195,
+    "title": "Baked Pumpkin with Raisins and Milk Cream (Saniyit ’Ar‘ ‘Asali)",
+    "category": "easternDesserts",
+    "method": "bake",
+    "prep": "20 min",
+    "cook": "1 hour",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Hard, pale pumpkin", "1 kg", "vegetable"],
+      ["Sugar", "1/4 kg", "sweet_fruit"],
+      ["Raisins", "1 tablespoon", "sweet_fruit"],
+      ["Roasted almonds, halved", "1 tablespoon", "other"],
+      ["Milk", "1 cup", "dairy_fat"],
+      ["Cornflour", "1/2 teaspoon", "grain_starch"],
+      ["Sugar (for the cream)", "1 teaspoon", "sweet_fruit"],
+      ["Rosewater (optional)", "1 teaspoon", "liquid"],
+      ["Egg (optional)", "1", "dairy_fat"]
+    ],
+    "steps": [
+      ["Slice the pumpkin into rounds, remove the seeds, peel and chop roughly.", "prep"],
+      "Stew the pumpkin in its own juice over a very low heat, tossing at first and then stirring gently now and then so it does not stick.",
+      "When it is very soft, tilt the pot and pour off as much juice as possible. Add the 1/4 kg sugar and keep over a very low heat until dissolved.",
+      "Sweet white sauce: mix the cornflour into half the cold milk, bring the rest of the milk to the boil with the teaspoon of sugar, add the cornflour mixture and cook, stirring, until like a thin custard. Stir in the rosewater.",
+      "Mash the pumpkin smooth, spread it in a baking pan and scatter over the raisins and almonds.",
+      "Cover with a thin layer of the white sauce; the pumpkin should be twice as thick as the sauce. Pour a beaten egg over the top if you like.",
+      ["Bake in the middle of a preheated oven until bubbling, then brown the top under the grill.", "finish"]
+    ],
+    "notes": "Choose a very hard, pale pumpkin: the harder it is, the drier and riper. The seeds are good roasted with a pinch of salt."
+  },
+  {
+    "num": 460,
+    "page": 198,
+    "title": "Nut-Filled Gullash Fingers in Syrup (Asabi‘ Gullash)",
+    "category": "easternDesserts",
+    "method": "bake",
+    "prep": "40 min",
+    "cook": "25 min",
+    "difficulty": "medium",
+    "ingredients": [
+      ["Gullash (phyllo) sheets", "1/2 kg", "grain_starch"],
+      ["Butter, melted", "2–3 tablespoons", "dairy_fat"],
+      ["Finely crushed roasted nuts mixed with sugar", "1 cup", "other"],
+      ["Ground cinnamon", "1 tablespoon", "spice_seasoning"],
+      ["Syrup: sugar", "1 cup", "sweet_fruit"],
+      ["Syrup: water", "1/2 cup", "liquid"],
+      ["Syrup: lemon juice", "1 teaspoon", "sweet_fruit"]
+    ],
+    "steps": [
+      ["Syrup: boil the sugar and water for 3–5 minutes, add the lemon juice and cook until slightly thickened. Let it cool completely.", "prep"],
+      ["Mix the nuts with the cinnamon. Cut the gullash into 10 cm squares and keep them under a cloth.", "prep"],
+      "Working one square at a time, lay a pencil-thin line of filling 1 cm from the edges, turn in the sides and roll up very tightly.",
+      "Pack the fingers side by side in a greased baking pan.",
+      "Brush each with melted butter and bake in a moderate, preheated oven until golden.",
+      ["Take them out and dip them lightly in the cold syrup.", "finish"]
+    ],
+    "notes": "The book’s rule: pour hot syrup over cold sweets, and cold syrup over hot ones."
+  },
+  {
+    "num": 472,
+    "page": 203,
+    "title": "Hot Aniseed Drink (Yansun)",
+    "category": "beverages",
+    "method": "boil",
+    "cook": "5 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Water", "1 cup per person", "liquid"],
+      ["Aniseed", "1/2–1 teaspoon per cup", "spice_seasoning"],
+      ["Sugar", "to taste", "sweet_fruit"]
+    ],
+    "steps": [
+      "Boil the water with the aniseed for 1–2 minutes, until fragrant.",
+      ["Strain, sweeten to taste and serve.", "finish"]
+    ]
+  },
+  {
+    "num": 473,
+    "page": 204,
+    "title": "Hot Caraway Drink (Karawya)",
+    "category": "beverages",
+    "method": "boil",
+    "cook": "5 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Water", "1 cup per person", "liquid"],
+      ["Roasted caraway seeds", "1 teaspoon per cup", "spice_seasoning"],
+      ["Sugar", "to taste", "sweet_fruit"]
+    ],
+    "steps": [
+      "Boil the water with the caraway for 1–2 minutes, until fragrant.",
+      ["Strain, sweeten to taste and serve.", "finish"]
+    ]
+  },
+  {
+    "num": 474,
+    "page": 204,
+    "title": "Hot Cinnamon Drink with Nuts (’Irfa)",
+    "category": "beverages",
+    "method": "boil",
+    "cook": "5 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Water", "1 cup per person", "liquid"],
+      ["Ground cinnamon", "1/2 teaspoon per cup", "spice_seasoning"],
+      ["Sugar", "to taste", "sweet_fruit"],
+      ["Crushed mixed nuts", "1 teaspoon per cup", "other"]
+    ],
+    "steps": [
+      "Boil the water with the cinnamon for 1–2 minutes, until fragrant.",
+      ["Strain, sweeten to taste and serve with the nuts sprinkled over each cup.", "finish"]
+    ]
+  },
+  {
+    "num": 475,
+    "page": 204,
+    "title": "Egyptian Turkish Coffee (’Ahwa)",
+    "category": "beverages",
+    "method": "boil",
+    "cook": "5 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Water", "1 small coffee cup (about 60 ml) per person", "liquid"],
+      ["Finely ground Turkish coffee", "1 teaspoon per cup", "other"],
+      ["Sugar", "0–2 teaspoons per cup", "sweet_fruit"]
+    ],
+    "steps": [
+      ["Choose the sweetness: sada (no sugar), ‘ar-riha (just a whiff, up to 1/2 teaspoon), mazbut (as much sugar as coffee) or ziyada (twice as much sugar as coffee).", "prep"],
+      "Heat the water in a kanaka (small long-handled coffee pot), then add the coffee and sugar and stir.",
+      "Take it off the heat the moment it rises and forms a layer of foam.",
+      ["Serve at once, pouring with a gentle shake of the hand so all the foam goes into the cup.", "finish"],
+      ["For several cups made in one pot, spoon the foam into the cups first so each gets a share, then pour the coffee gently down the side of each cup.", "alternative"],
+      ["Mehawega (spiced) coffee (recipe 476 in the book): use coffee ground with cardamom, plus a pinch of mastic or powdered dried orange peel.", "alternative"]
+    ]
+  },
+  {
+    "num": 477,
+    "page": 205,
+    "title": "Sweet Fenugreek Drink (Hilba)",
+    "category": "beverages",
+    "method": "boil",
+    "cook": "20 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Water", "1 cup per person", "liquid"],
+      ["Fenugreek seeds", "1 teaspoon per cup", "spice_seasoning"],
+      ["Sugar", "to taste", "sweet_fruit"]
+    ],
+    "steps": [
+      "Boil the fenugreek in the water for 15–20 minutes, until the seeds are tender.",
+      "Sweeten and pour into cups, seeds and all.",
+      ["Once the drink is finished, eat the seeds, with a little more sugar if you like.", "finish"]
+    ]
+  },
+  {
+    "num": 478,
+    "page": 205,
+    "title": "Hot Mint Drink (Na‘na‘)",
+    "category": "beverages",
+    "method": "boil",
+    "cook": "3 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Water", "1 cup per person", "liquid"],
+      ["Dried mint leaves", "1/2 teaspoon per cup", "spice_seasoning"],
+      ["Sugar", "to taste", "sweet_fruit"]
+    ],
+    "steps": [
+      "Bring the water to the boil, add the mint and boil for 1 minute only; longer makes it bitter.",
+      ["Strain, sweeten to taste and serve.", "finish"]
+    ]
+  },
+  {
+    "num": 480,
+    "page": 207,
+    "title": "Turkish Red Pepper Paste (Biber Salçası)",
+    "category": "savory",
+    "method": "preserve",
+    "prep": "10 min + overnight chilling",
+    "cook": "45 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Hot red peppers", "1/2 kg", "vegetable"],
+      ["Small chili pepper", "1", "vegetable"],
+      ["Sugar", "a pinch", "sweet_fruit"],
+      ["Olive oil", "2 tablespoons", "dairy_fat"],
+      ["Salt", "to taste", "spice_seasoning"]
+    ],
+    "steps": [
+      "Blend the peppers, chili, sugar and salt with 2–3 cups of water in a food processor.",
+      "Cook in a pot over a medium heat until thick.",
+      ["Stir in the olive oil and chill overnight before using.", "finish"]
+    ],
+    "notes": "A Turkish paste. The book lists a chili but doesn’t say when to add it; we blend it in with the peppers."
+  },
+  {
+    "num": 481,
+    "page": 207,
+    "title": "Tunisian Hrous (Fermented Onion and Chili Paste)",
+    "category": "savory",
+    "method": "preserve",
+    "prep": "2 days resting",
+    "cook": "30 min soaking",
+    "difficulty": "medium",
+    "ingredients": [
+      ["Hot red chili pepper", "1", "vegetable"],
+      ["Onions, very finely chopped", "2", "vegetable"],
+      ["Salt", "2 tablespoons", "spice_seasoning"],
+      ["Turmeric", "a pinch", "spice_seasoning"],
+      ["Black pepper", "1 teaspoon", "spice_seasoning"],
+      ["Cinnamon", "1/2 teaspoon", "spice_seasoning"],
+      ["Caraway seeds", "1/2 teaspoon", "spice_seasoning"],
+      ["Tabil (Tunisian spice mix)", "1/2 teaspoon", "spice_seasoning"],
+      ["Olive oil", "3 tablespoons, plus extra to cover", "dairy_fat"]
+    ],
+    "steps": [
+      ["Put the onions in a bowl with the turmeric and salt and leave for two days, until wet and soft. Squeeze out the moisture.", "prep"],
+      ["Remove the chili’s stem and seeds, chop it coarsely, soak in boiling water for 30 minutes, then drain and pat dry.", "prep"],
+      "Blend everything into a smooth, thick paste.",
+      ["Pack into a jar, cover with a thin layer of olive oil, close and refrigerate.", "finish"]
+    ],
+    "notes": "A Tunisian condiment."
+  },
+  {
+    "num": 483,
+    "page": 208,
+    "title": "Yemeni Zhug (Green Chili and Coriander Paste)",
+    "category": "savory",
+    "method": "noCook",
+    "prep": "15 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Garlic cloves", "20", "vegetable"],
+      ["Cardamom pods", "5", "spice_seasoning"],
+      ["Caraway seeds", "1 teaspoon", "spice_seasoning"],
+      ["Hot red peppers", "4", "vegetable"],
+      ["Coriander leaves", "1 cup", "vegetable"],
+      ["Black pepper", "1 teaspoon", "spice_seasoning"],
+      ["Salt", "1 tablespoon", "spice_seasoning"]
+    ],
+    "steps": [
+      "Pound everything in a mortar, or blend it, until evenly mixed.",
+      ["Keep in a tightly closed jar.", "finish"]
+    ],
+    "notes": "A Yemeni spice paste, used in the fenugreek fatut in this collection."
+  },
+  {
+    "num": 485,
+    "page": 209,
+    "title": "Tunisian Tabil Spice Mix",
+    "category": "savory",
+    "method": "noCook",
+    "prep": "10 min",
+    "difficulty": "easy",
+    "ingredients": [
+      ["Coriander seeds", "to taste", "spice_seasoning"],
+      ["Caraway seeds", "to taste", "spice_seasoning"],
+      ["Fennel seeds", "to taste", "spice_seasoning"],
+      ["Aniseed", "to taste", "spice_seasoning"],
+      ["Cumin", "to taste", "spice_seasoning"],
+      ["Turmeric", "to taste", "spice_seasoning"],
+      ["Dried garlic", "to taste", "spice_seasoning"],
+      ["Pepper", "to taste", "spice_seasoning"]
+    ],
+    "steps": [
+      ["Crush all the spices together into a powder, in whatever proportions you like.", "finish"]
+    ],
+    "notes": "The Tunisian spice blend used in several dishes in this collection. The book gives no fixed quantities."
+  }
+]
