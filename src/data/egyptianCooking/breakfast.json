@@ -12,18 +12,70 @@
     "cookAr": "5 دقائق",
     "difficulty": "easy",
     "ingredients": [
-      ["Eggs", "4–6", "dairy_fat", "بيض", "4–6 بيضات"],
-      ["Garlic cloves", "5", "vegetable", "فصوص ثوم", "5 فصوص"],
-      ["Lemon juice", "1 teaspoon", "liquid", "عصير ليمون", "ملعقة صغيرة"],
-      ["Dried mint powder", "a pinch", "spice_seasoning", "بودرة نعناع جاف", "رشة"],
-      ["Cooking oil", "as needed", "dairy_fat", "زيت طهي", "حسب الحاجة"],
-      ["Salt and pepper", "to taste", "spice_seasoning", "ملح وفلفل", "حسب الرغبة"]
+      [
+        "Eggs",
+        "4–6",
+        "dairy_fat",
+        "بيض",
+        "4–6 بيضات"
+      ],
+      [
+        "Garlic cloves",
+        "5",
+        "vegetable",
+        "فصوص ثوم",
+        "5 فصوص"
+      ],
+      [
+        "Lemon juice",
+        "1 teaspoon",
+        "liquid",
+        "عصير ليمون",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Dried mint powder",
+        "a pinch",
+        "spice_seasoning",
+        "بودرة نعناع جاف",
+        "رشة"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat",
+        "زيت طهي",
+        "حسب الحاجة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Crush the garlic with a little salt and stir in the lemon juice.", "يُهرس الثوم مع قليل من الملح ثم يُضاف عصير الليمون.", "prep"],
-      ["Fry the garlic mixture briefly in the oil.", "تُقلى طبخة الثوم قليلاً في الزيت.", "cook"],
-      ["Slide the eggs into the pan and fry them, spooning the hot garlicky oil over them once or twice.", "يُنزلق البيض إلى المقلاة ويُقلى مع صب الزيت الساخن بالثوم فوقه مرة أو مرتين.", "cook"],
-      ["Sprinkle with the mint, salt and pepper and serve.", "يُرش عليه النعناع والملح والفلفل ويُقدم.", "finish"]
+      [
+        "Crush the garlic with a little salt and stir in the lemon juice.",
+        "يُهرس الثوم مع قليل من الملح ثم يُضاف عصير الليمون.",
+        "prep"
+      ],
+      [
+        "Fry the garlic mixture briefly in the oil.",
+        "تُقلى طبخة الثوم قليلاً في الزيت.",
+        "cook"
+      ],
+      [
+        "Slide the eggs into the pan and fry them, spooning the hot garlicky oil over them once or twice.",
+        "يُنزلق البيض إلى المقلاة ويُقلى مع صب الزيت الساخن بالثوم فوقه مرة أو مرتين.",
+        "cook"
+      ],
+      [
+        "Sprinkle with the mint, salt and pepper and serve.",
+        "يُرش عليه النعناع والملح والفلفل ويُقدم.",
+        "finish"
+      ]
     ],
     "notes": "A traditional Egyptian fried egg dish, served at breakfast with baladi bread.",
     "notesAr": "طبق بيض مقلي تقليدي مصري يُقدم على الإفطار مع الخبز البلدي."
@@ -39,19 +91,60 @@
     "cookAr": "5 دقائق",
     "difficulty": "easy",
     "ingredients": [
-      ["Eggs", "4–6", "dairy_fat", "بيض", "4–6 بيضات"],
-      ["Lemon juice", "2 tablespoons", "liquid", "عصير ليمون", "ملعقتان كبيرتان"],
-      ["Cooking oil", "as needed", "dairy_fat", "زيت طهي", "حسب الحاجة"],
-      ["Salt and pepper", "to taste", "spice_seasoning", "ملح وفلفل", "حسب الرغبة"]
+      [
+        "Eggs",
+        "4–6",
+        "dairy_fat",
+        "بيض",
+        "4–6 بيضات"
+      ],
+      [
+        "Lemon juice",
+        "2 tablespoons",
+        "liquid",
+        "عصير ليمون",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat",
+        "زيت طهي",
+        "حسب الحاجة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Heat the oil until it sizzles and slide in the eggs.", "يُسخن الزيت حتى يصير ساخناً جداً ثم يُنزلق البيض.", "cook"],
-      ["Pour the lemon juice over them straight away.", "يُصب عصير الليمون عليها فوراً.", "cook"],
-      ["Baste the eggs with the pan juices once or twice as they set.", "تُروى البيضات برطوبة المقلاة مرة أو مرتين وهي تتماسك.", "cook"],
-      ["Season with salt and pepper and serve.", "تُتبل بالملح والفلفل وتُقدم.", "finish"]
+      [
+        "Heat the oil until it sizzles and slide in the eggs.",
+        "يُسخن الزيت حتى يصير ساخناً جداً ثم يُنزلق البيض.",
+        "cook"
+      ],
+      [
+        "Pour the lemon juice over them straight away.",
+        "يُصب عصير الليمون عليها فوراً.",
+        "cook"
+      ],
+      [
+        "Baste the eggs with the pan juices once or twice as they set.",
+        "تُروى البيضات برطوبة المقلاة مرة أو مرتين وهي تتماسك.",
+        "cook"
+      ],
+      [
+        "Season with salt and pepper and serve.",
+        "تُتبل بالملح والفلفل وتُقدم.",
+        "finish"
+      ]
     ],
     "notes": "Simple and light, with bright lemon flavor.",
-    "notesAr": "بسيط وخفيف وبنكهة الليمون الحامضة."
+    "notesAr": "بسيط وخفيف وبنكهة الليمون الحامضة.",
+    "prepAr": "10 دقائق"
   },
   {
     "num": 48,
@@ -64,18 +157,55 @@
     "prepAr": "5 دقائق",
     "difficulty": "easy",
     "ingredients": [
-      ["Hard-boiled eggs", "4–6", "dairy_fat", "بيض مسلوق", "4–6 بيضات"],
-      ["Yogurt", "3 tablespoons", "dairy_fat", "زبادي", "3 ملاعق كبيرة"],
-      ["Mustard", "to taste", "spice_seasoning", "خردل", "حسب الرغبة"],
-      ["Salt and pepper", "to taste", "spice_seasoning", "ملح وفلفل", "حسب الرغبة"]
+      [
+        "Hard-boiled eggs",
+        "4–6",
+        "dairy_fat",
+        "بيض مسلوق",
+        "4–6 بيضات"
+      ],
+      [
+        "Yogurt",
+        "3 tablespoons",
+        "dairy_fat",
+        "زبادي",
+        "3 ملاعق كبيرة"
+      ],
+      [
+        "Mustard",
+        "to taste",
+        "spice_seasoning",
+        "خردل",
+        "حسب الرغبة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Peel the eggs and mash them with a fork.", "تُقشر البيضات وتُهرس بالشوكة.", "prep"],
-      ["Mix in the yogurt, mustard, salt and pepper.", "يُخلط معها الزبادي والخردل والملح والفلفل.", "prep"],
-      ["Spread on bread for sandwiches.", "يُفرد على الخبز لعمل ساندويتش.", "finish"]
+      [
+        "Peel the eggs and mash them with a fork.",
+        "تُقشر البيضات وتُهرس بالشوكة.",
+        "prep"
+      ],
+      [
+        "Mix in the yogurt, mustard, salt and pepper.",
+        "يُخلط معها الزبادي والخردل والملح والفلفل.",
+        "prep"
+      ],
+      [
+        "Spread on bread for sandwiches.",
+        "يُفرد على الخبز لعمل ساندويتش.",
+        "finish"
+      ]
     ],
     "notes": "A simple sandwich filling, quickly prepared.",
-    "notesAr": "حشوة ساندويتش بسيطة تُحضر بسرعة."
+    "notesAr": "حشوة ساندويتش بسيطة تُحضر بسرعة.",
+    "cookAr": "10 دقائق"
   },
   {
     "num": 52,
@@ -88,23 +218,88 @@
     "cookAr": "10 دقائق",
     "difficulty": "easy",
     "ingredients": [
-      ["Eggs", "4–6", "dairy_fat", "بيض", "4–6 بيضات"],
-      ["Flour", "1 tablespoon", "grain_starch", "دقيق", "ملعقة كبيرة"],
-      ["Oregano", "a pinch", "spice_seasoning", "أوريجانو", "رشة"],
-      ["Sumac", "a pinch", "spice_seasoning", "سماق", "رشة"],
-      ["Mixed spices", "a pinch", "spice_seasoning", "بهارات مشكلة", "رشة"],
-      ["Onion (optional, as for the plain 'igga)", "1", "vegetable", "بصل (اختياري)", "بصل واحد"],
-      ["Cooking oil", "as needed", "dairy_fat", "زيت طهي", "حسب الحاجة"],
-      ["Salt and pepper", "to taste", "spice_seasoning", "ملح وفلفل", "حسب الرغبة"]
+      [
+        "Eggs",
+        "4–6",
+        "dairy_fat",
+        "بيض",
+        "4–6 بيضات"
+      ],
+      [
+        "Flour",
+        "1 tablespoon",
+        "grain_starch",
+        "دقيق",
+        "ملعقة كبيرة"
+      ],
+      [
+        "Oregano",
+        "a pinch",
+        "spice_seasoning",
+        "أوريجانو",
+        "رشة"
+      ],
+      [
+        "Sumac",
+        "a pinch",
+        "spice_seasoning",
+        "سماق",
+        "رشة"
+      ],
+      [
+        "Mixed spices",
+        "a pinch",
+        "spice_seasoning",
+        "بهارات مشكلة",
+        "رشة"
+      ],
+      [
+        "Onion (optional, as for the plain 'igga)",
+        "1",
+        "vegetable",
+        "بصل (اختياري)",
+        "بصل واحد"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat",
+        "زيت طهي",
+        "حسب الحاجة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Beat the eggs with the sifted flour, herbs, spices, salt and pepper.", "يُخفق البيض مع الدقيق المنخول والأعشاب والبهارات والملح والفلفل.", "prep"],
-      ["Fry the finely chopped onion in the oil until pale gold, then pour in the eggs over a high heat.", "يُقلى البصل المفروم ناعماً في الزيت حتى يصير ذهبياً فاتحاً، ثم يُصب البيض على نار عالية.", "cook"],
-      ["As the bottom sets, tilt the pan or lift the edge so the runny egg flows underneath.", "مع تماسك القاع، تُمال المقلاة أو يُرفع الطرف لينسكب البيض السائل تحته.", "cook"],
-      ["Turn the omelet and fry until both sides are golden and dry.", "تُقلب العجة وتُقلى حتى يصبح الجانبان ذهبياً وجافاً.", "finish"]
+      [
+        "Beat the eggs with the sifted flour, herbs, spices, salt and pepper.",
+        "يُخفق البيض مع الدقيق المنخول والأعشاب والبهارات والملح والفلفل.",
+        "prep"
+      ],
+      [
+        "Fry the finely chopped onion in the oil until pale gold, then pour in the eggs over a high heat.",
+        "يُقلى البصل المفروم ناعماً في الزيت حتى يصير ذهبياً فاتحاً، ثم يُصب البيض على نار عالية.",
+        "cook"
+      ],
+      [
+        "As the bottom sets, tilt the pan or lift the edge so the runny egg flows underneath.",
+        "مع تماسك القاع، تُمال المقلاة أو يُرفع الطرف لينسكب البيض السائل تحته.",
+        "cook"
+      ],
+      [
+        "Turn the omelet and fry until both sides are golden and dry.",
+        "تُقلب العجة وتُقلى حتى يصبح الجانبان ذهبياً وجافاً.",
+        "finish"
+      ]
     ],
     "notes": "A spiced take on the everyday Egyptian 'igga, a flat omelet fried firm on both sides.",
-    "notesAr": "نسخة بهارات من العجة المصرية اليومية، عجة مسطحة تُقلى صلبة من الجانبين."
+    "notesAr": "نسخة بهارات من العجة المصرية اليومية، عجة مسطحة تُقلى صلبة من الجانبين.",
+    "prepAr": "10 دقائق"
   },
   {
     "num": 59,
@@ -117,19 +312,64 @@
     "prepAr": "10 دقائق",
     "difficulty": "easy",
     "ingredients": [
-      ["Salt", "1 measure", "spice_seasoning", "ملح", "ملعقة"],
-      ["Roasted coriander seeds", "1 measure", "spice_seasoning", "بذور كسبرة محمصة", "ملعقة"],
-      ["Peanuts", "1 measure", "other", "فول سوداني", "ملعقة"],
-      ["Split chickpeas", "1/2 measure", "grain_starch", "حمص أصفر مقسوم", "نصف ملعقة"],
-      ["Dried mint leaves", "1/2 measure", "spice_seasoning", "أوراق نعناع جاف", "نصف ملعقة"],
-      ["Sesame seeds", "1/2 measure", "spice_seasoning", "بذور السمسم", "نصف ملعقة"]
+      [
+        "Salt",
+        "1 measure",
+        "spice_seasoning",
+        "ملح",
+        "ملعقة"
+      ],
+      [
+        "Roasted coriander seeds",
+        "1 measure",
+        "spice_seasoning",
+        "بذور كسبرة محمصة",
+        "ملعقة"
+      ],
+      [
+        "Peanuts",
+        "1 measure",
+        "other",
+        "فول سوداني",
+        "ملعقة"
+      ],
+      [
+        "Split chickpeas",
+        "1/2 measure",
+        "grain_starch",
+        "حمص أصفر مقسوم",
+        "نصف ملعقة"
+      ],
+      [
+        "Dried mint leaves",
+        "1/2 measure",
+        "spice_seasoning",
+        "أوراق نعناع جاف",
+        "نصف ملعقة"
+      ],
+      [
+        "Sesame seeds",
+        "1/2 measure",
+        "spice_seasoning",
+        "بذور السمسم",
+        "نصف ملعقة"
+      ]
     ],
     "steps": [
-      ["Grind all the ingredients together in a mortar or a blender.", "تُطحن جميع المكونات معاً في الهاون أو الخلاط.", "cook"],
-      ["Eat by dipping pieces of baladi bread into the mixture.", "تُؤكل بغمس قطع الخبز البلدي فيها.", "finish"]
+      [
+        "Grind all the ingredients together in a mortar or a blender.",
+        "تُطحن جميع المكونات معاً في الهاون أو الخلاط.",
+        "cook"
+      ],
+      [
+        "Eat by dipping pieces of baladi bread into the mixture.",
+        "تُؤكل بغمس قطع الخبز البلدي فيها.",
+        "finish"
+      ]
     ],
     "notes": "Use any cup or spoon as the \"measure\", keeping the proportions.",
-    "notesAr": "استخدم أي كوب أو ملعقة كمقياس، محافظاً على النسب."
+    "notesAr": "استخدم أي كوب أو ملعقة كمقياس، محافظاً على النسب.",
+    "cookAr": "0 دقيقة"
   },
   {
     "num": 60,
@@ -144,17 +384,61 @@
     "cookAr": "24 ساعة تصفية",
     "difficulty": "easy",
     "ingredients": [
-      ["Yogurt", "4 cups", "dairy_fat", "زبادي", "4 أكواب"],
-      ["Salt", "1 tablespoon", "spice_seasoning", "ملح", "ملعقة كبيرة"],
-      ["Olive oil", "for the top", "dairy_fat", "زيت زيتون", "للوجه"],
-      ["Cheesecloth bag", "1", "other", "كيس شاش", "كيس واحد"]
+      [
+        "Yogurt",
+        "4 cups",
+        "dairy_fat",
+        "زبادي",
+        "4 أكواب"
+      ],
+      [
+        "Salt",
+        "1 tablespoon",
+        "spice_seasoning",
+        "ملح",
+        "ملعقة كبيرة"
+      ],
+      [
+        "Olive oil",
+        "for the top",
+        "dairy_fat",
+        "زيت زيتون",
+        "للوجه"
+      ],
+      [
+        "Cheesecloth bag",
+        "1",
+        "other",
+        "كيس شاش",
+        "كيس واحد"
+      ]
     ],
     "steps": [
-      ["Stir the salt into the yogurt.", "يُضاف الملح إلى الزبادي ويُحرك.", "prep"],
-      ["Pour it into a wet cheesecloth bag, tie the top and hang it for 24 hours over a clean bowl.", "يُصب في كيس شاش مبلول مربوط من الأعلى ويُعلق لمدة 24 ساعة فوق وعاء نظيف.", "cook"],
-      ["Keep the whey that drips out; it is nourishing and can be drunk or used in cooking.", "احتفظ بالمصل الذي ينقطر؛ فهو غني ويمكن شربه أو استخدامه في الطهي.", "cook"],
-      ["Spoon the labneh into a jar and pour a little oil, preferably olive oil, over the top.", "تُوضع اللبنة في برطمان ويُصب قليل من الزيت، ويفضل زيت الزيتون، فوقها.", "finish"],
-      ["Labneh balls for keeping: hang a larger batch for longer, opening the bag every 24 hours to stir the yogurt (it thickens faster near the cloth) and adding a little more salt each day. When it is thick and even all through, roll small amounts into balls with wet hands and keep them in a jar half full of olive oil.", "كرات لبنة للحفظ: علق كمية أكبر لمدة أطول، افتح الكيس كل 24 ساعة لتحريك الزبادي (يسمك بسرعة بالقرب من القماش) وأضف قليل ملح كل يوم. عندما يصبح سميك ومتساوي من كل جهة، لف كميات صغيرة على شكل كرات بأيدٍ مبللة واحفظها في برطمان نصف مملوء بزيت الزيتون.", "alternative"]
+      [
+        "Stir the salt into the yogurt.",
+        "يُضاف الملح إلى الزبادي ويُحرك.",
+        "prep"
+      ],
+      [
+        "Pour it into a wet cheesecloth bag, tie the top and hang it for 24 hours over a clean bowl.",
+        "يُصب في كيس شاش مبلول مربوط من الأعلى ويُعلق لمدة 24 ساعة فوق وعاء نظيف.",
+        "cook"
+      ],
+      [
+        "Keep the whey that drips out; it is nourishing and can be drunk or used in cooking.",
+        "احتفظ بالمصل الذي ينقطر؛ فهو غني ويمكن شربه أو استخدامه في الطهي.",
+        "cook"
+      ],
+      [
+        "Spoon the labneh into a jar and pour a little oil, preferably olive oil, over the top.",
+        "تُوضع اللبنة في برطمان ويُصب قليل من الزيت، ويفضل زيت الزيتون، فوقها.",
+        "finish"
+      ],
+      [
+        "Labneh balls for keeping: hang a larger batch for longer, opening the bag every 24 hours to stir the yogurt (it thickens faster near the cloth) and adding a little more salt each day. When it is thick and even all through, roll small amounts into balls with wet hands and keep them in a jar half full of olive oil.",
+        "كرات لبنة للحفظ: علق كمية أكبر لمدة أطول، افتح الكيس كل 24 ساعة لتحريك الزبادي (يسمك بسرعة بالقرب من القماش) وأضف قليل ملح كل يوم. عندما يصبح سميك ومتساوي من كل جهة، لف كميات صغيرة على شكل كرات بأيدٍ مبللة واحفظها في برطمان نصف مملوء بزيت الزيتون.",
+        "alternative"
+      ]
     ],
     "notes": "Labneh comes from the Levant (Palestine, Lebanon, Syria and Jordan). It was traditionally made from goat's milk, which gives it a pleasant sourness, but buffalo or cow's milk yogurt works just as well. The soft, spoonable kind is called labneh khadra.",
     "notesAr": "اللبنة من بلاد الشام (فلسطين ولبنان وسوريا والأردن). كانت تُصنع تقليدياً من لبن الماعز الذي يعطيها حموضة لطيفة، لكن لبن الجاموس أو البقر يعمل بنفس الجودة. النوع الناعم القابل للدهس يسمى اللبنة الخضراء."
@@ -172,21 +456,83 @@
     "cookAr": "6–8 أيام تخليل وتجفيف",
     "difficulty": "master",
     "ingredients": [
-      ["Beef fillet or another prime cut", "1 kg", "meat_poultry", "شريحة لحم البقر أو قطعة رئيسية", "كيلو"],
-      ["Salt", "1 cup", "spice_seasoning", "ملح", "كوب"],
-      ["Ground fenugreek", "3/4 cup", "spice_seasoning", "حلبة مطحونة", "3/4 كوب"],
-      ["Hot chili pepper", "2 tablespoons", "spice_seasoning", "فلفل حار", "ملعقتان كبيرتان"],
-      ["Garlic heads", "3–4", "vegetable", "رؤوس ثوم", "3–4 رؤوس"]
+      [
+        "Beef fillet or another prime cut",
+        "1 kg",
+        "meat_poultry",
+        "شريحة لحم البقر أو قطعة رئيسية",
+        "كيلو"
+      ],
+      [
+        "Salt",
+        "1 cup",
+        "spice_seasoning",
+        "ملح",
+        "كوب"
+      ],
+      [
+        "Ground fenugreek",
+        "3/4 cup",
+        "spice_seasoning",
+        "حلبة مطحونة",
+        "3/4 كوب"
+      ],
+      [
+        "Hot chili pepper",
+        "2 tablespoons",
+        "spice_seasoning",
+        "فلفل حار",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Garlic heads",
+        "3–4",
+        "vegetable",
+        "رؤوس ثوم",
+        "3–4 رؤوس"
+      ]
     ],
     "steps": [
-      ["Trim every bit of fat from the meat, dry it well and make two or three very shallow cuts in the surface.", "تُزال كل قطعة دهن من اللحم وتُجفف جيداً وتُعمل حفرتان أو ثلاث قطع ضحلة جداً على السطح.", "prep"],
-      ["Roll the meat in 1/4 cup of the salt so it is completely covered.", "يُدحرج اللحم في ربع كوب من الملح حتى يغطيه تماماً.", "cook"],
-      ["Lay it on a rack with a weight on top so the juices drain away, and leave it for 3–4 days.", "يُرص على شبكة مع وزن فوقها لتصريف السوائل، ويُترك لمدة 3–4 أيام.", "cook"],
-      ["Take off the weight, wipe the meat dry and thread a cord through one end, leaving a long loop for hanging.", "يُرفع الوزن، يُمسح اللحم حتى يجف وتُمرر حبل من أحد الطرفين تاركة حلقة طويلة للتعليق.", "cook"],
-      ["Peel and crush the garlic and knead it with the fenugreek, chili and the rest of the salt into a soft paste.", "يُقشر الثوم ويُسحق ويُعجن مع الحلبة والفلفل الحار وبقية الملح إلى عجينة ناعمة.", "prep"],
-      ["Coat the meat with the paste in a layer 1/2–1 cm thick.", "يُغطى اللحم بالعجينة بطبقة سمكها 1/2–1 سنتيمتر.", "cook"],
-      ["Hang it for another 3–4 days, until it is thoroughly dry and dark brown.", "تُعلق لمدة 3–4 أيام أخرى حتى تصبح جافة تماماً وبنية غامقة.", "cook"],
-      ["Slice paper-thin and eat it raw at breakfast, with or without the rind, or fry it with eggs or use it in pastries.", "تُقطع رقيقة جداً وتُؤكل نيئة على الإفطار، مع أو بدون القشرة، أو تُقلى مع البيض أو تُستخدم في المعجنات.", "finish"]
+      [
+        "Trim every bit of fat from the meat, dry it well and make two or three very shallow cuts in the surface.",
+        "تُزال كل قطعة دهن من اللحم وتُجفف جيداً وتُعمل حفرتان أو ثلاث قطع ضحلة جداً على السطح.",
+        "prep"
+      ],
+      [
+        "Roll the meat in 1/4 cup of the salt so it is completely covered.",
+        "يُدحرج اللحم في ربع كوب من الملح حتى يغطيه تماماً.",
+        "cook"
+      ],
+      [
+        "Lay it on a rack with a weight on top so the juices drain away, and leave it for 3–4 days.",
+        "يُرص على شبكة مع وزن فوقها لتصريف السوائل، ويُترك لمدة 3–4 أيام.",
+        "cook"
+      ],
+      [
+        "Take off the weight, wipe the meat dry and thread a cord through one end, leaving a long loop for hanging.",
+        "يُرفع الوزن، يُمسح اللحم حتى يجف وتُمرر حبل من أحد الطرفين تاركة حلقة طويلة للتعليق.",
+        "cook"
+      ],
+      [
+        "Peel and crush the garlic and knead it with the fenugreek, chili and the rest of the salt into a soft paste.",
+        "يُقشر الثوم ويُسحق ويُعجن مع الحلبة والفلفل الحار وبقية الملح إلى عجينة ناعمة.",
+        "prep"
+      ],
+      [
+        "Coat the meat with the paste in a layer 1/2–1 cm thick.",
+        "يُغطى اللحم بالعجينة بطبقة سمكها 1/2–1 سنتيمتر.",
+        "cook"
+      ],
+      [
+        "Hang it for another 3–4 days, until it is thoroughly dry and dark brown.",
+        "تُعلق لمدة 3–4 أيام أخرى حتى تصبح جافة تماماً وبنية غامقة.",
+        "cook"
+      ],
+      [
+        "Slice paper-thin and eat it raw at breakfast, with or without the rind, or fry it with eggs or use it in pastries.",
+        "تُقطع رقيقة جداً وتُؤكل نيئة على الإفطار، مع أو بدون القشرة، أو تُقلى مع البيض أو تُستخدم في المعجنات.",
+        "finish"
+      ]
     ],
     "notes": "Most families buy pastirma, but it is easy to make at home. When cooking it, heat it together with the oil rather than dropping it into hot fat: it crisps almost at once and turns bitter if overcooked.",
     "notesAr": "معظم العائلات تشتري البسطرمة، لكن من السهل صنعها في البيت. عند طهيها، سخنها مع الزيت بدلاً من إسقاطها في دهن ساخن: فهي تصبح مقرمشة فوراً وتصبح مرة إذا طهيت أكثر من اللازم."
@@ -202,24 +548,89 @@
     "cookAr": "20 دقيقة",
     "difficulty": "easy",
     "ingredients": [
-      ["Vermicelli", "2 cups", "grain_starch", "شعرية", "كوبان"],
-      ["Hot water", "4 cups", "liquid", "ماء ساخن", "4 أكواب"],
-      ["Cooking oil", "2 tablespoons", "dairy_fat", "زيت طهي", "ملعقتان كبيرتان"],
-      ["Sugar", "1/2–1 cup", "sweet_fruit", "سكر", "1/2–1 كوب"],
-      ["Raisins (optional)", "2 tablespoons", "sweet_fruit", "زبيب (اختياري)", "ملعقتان كبيرتان"],
-      ["Warm milk (optional)", "for serving", "dairy_fat", "حليب دافئ (اختياري)", "للتقديم"]
+      [
+        "Vermicelli",
+        "2 cups",
+        "grain_starch",
+        "شعرية",
+        "كوبان"
+      ],
+      [
+        "Hot water",
+        "4 cups",
+        "liquid",
+        "ماء ساخن",
+        "4 أكواب"
+      ],
+      [
+        "Cooking oil",
+        "2 tablespoons",
+        "dairy_fat",
+        "زيت طهي",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Sugar",
+        "1/2–1 cup",
+        "sweet_fruit",
+        "سكر",
+        "1/2–1 كوب"
+      ],
+      [
+        "Raisins (optional)",
+        "2 tablespoons",
+        "sweet_fruit",
+        "زبيب (اختياري)",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Warm milk (optional)",
+        "for serving",
+        "dairy_fat",
+        "حليب دافئ (اختياري)",
+        "للتقديم"
+      ]
     ],
     "steps": [
-      ["Break the vermicelli with your fingers into pieces 2–3 cm long.", "تُكسر الشعرية باليدين إلى قطع بطول 2–3 سنتيمتر.", "prep"],
-      ["Fry the raisins lightly in the oil until they puff up, then lift them out.", "تُقلى الزبيب قليلاً في الزيت حتى تنتفخ، ثم تُرفع.", "cook"],
-      ["Fry the vermicelli in the same oil until pale brown.", "تُقلى الشعرية في نفس الزيت حتى تصير بنية فاتحة.", "cook"],
-      ["Dissolve the sugar in the boiling water and pour it over the vermicelli, add the raisins, and cook over a low heat for about 15 minutes.", "يُذاب السكر في الماء المغلي ويُصب على الشعرية، يُضاف الزبيب، وتُطهى على نار منخفضة لمدة 15 دقيقة تقريباً.", "cook"],
-      ["If the water is absorbed before the vermicelli is tender, sprinkle in a little more hot water.", "إذا امتص الماء قبل أن تصبح الشعرية طرية، يُرش قليل من الماء الساخن.", "cook"],
-      ["Serve with warm milk poured over each plate.", "تُقدم مع صب الحليب الدافئ على كل طبق.", "finish"],
-      ["For a buffet dessert, add chopped bananas, strawberries and mixed nuts.", "لحلوى بوفيه، أضف موز مفروم وفراولة ومكسرات مشكلة.", "alternative"]
+      [
+        "Break the vermicelli with your fingers into pieces 2–3 cm long.",
+        "تُكسر الشعرية باليدين إلى قطع بطول 2–3 سنتيمتر.",
+        "prep"
+      ],
+      [
+        "Fry the raisins lightly in the oil until they puff up, then lift them out.",
+        "تُقلى الزبيب قليلاً في الزيت حتى تنتفخ، ثم تُرفع.",
+        "cook"
+      ],
+      [
+        "Fry the vermicelli in the same oil until pale brown.",
+        "تُقلى الشعرية في نفس الزيت حتى تصير بنية فاتحة.",
+        "cook"
+      ],
+      [
+        "Dissolve the sugar in the boiling water and pour it over the vermicelli, add the raisins, and cook over a low heat for about 15 minutes.",
+        "يُذاب السكر في الماء المغلي ويُصب على الشعرية، يُضاف الزبيب، وتُطهى على نار منخفضة لمدة 15 دقيقة تقريباً.",
+        "cook"
+      ],
+      [
+        "If the water is absorbed before the vermicelli is tender, sprinkle in a little more hot water.",
+        "إذا امتص الماء قبل أن تصبح الشعرية طرية، يُرش قليل من الماء الساخن.",
+        "cook"
+      ],
+      [
+        "Serve with warm milk poured over each plate.",
+        "تُقدم مع صب الحليب الدافئ على كل طبق.",
+        "finish"
+      ],
+      [
+        "For a buffet dessert, add chopped bananas, strawberries and mixed nuts.",
+        "لحلوى بوفيه، أضف موز مفروم وفراولة ومكسرات مشكلة.",
+        "alternative"
+      ]
     ],
     "notes": "A breakfast dish for festive mornings, also served among the sweets at open buffets.",
-    "notesAr": "طبق إفطار للصباحات الاحتفالية، يُقدم أيضاً بين الحلويات في البوفيهات المفتوحة."
+    "notesAr": "طبق إفطار للصباحات الاحتفالية، يُقدم أيضاً بين الحلويات في البوفيهات المفتوحة.",
+    "prepAr": "15 دقيقة"
   },
   {
     "num": 64,
@@ -232,18 +643,55 @@
     "cookAr": "10 دقائق",
     "difficulty": "easy",
     "ingredients": [
-      ["Eggs", "4–6", "dairy_fat", "بيض", "4–6 بيضات"],
-      ["Hard white cheese, in 1 cm slices", "4–6 slices", "dairy_fat", "جبنة بيضاء صلبة، شرائح 1 سنتيمتر", "4–6 شرائح"],
-      ["Cooking oil", "as needed", "dairy_fat", "زيت طهي", "حسب الحاجة"],
-      ["Salt and pepper", "to taste", "spice_seasoning", "ملح وفلفل", "حسب الرغبة"]
+      [
+        "Eggs",
+        "4–6",
+        "dairy_fat",
+        "بيض",
+        "4–6 بيضات"
+      ],
+      [
+        "Hard white cheese, in 1 cm slices",
+        "4–6 slices",
+        "dairy_fat",
+        "جبنة بيضاء صلبة، شرائح 1 سنتيمتر",
+        "4–6 شرائح"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat",
+        "زيت طهي",
+        "حسب الحاجة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Fry the cheese one slice at a time, turning it to colour both sides, and keep it warm at the side of the serving dish.", "تُقلى الجبنة شريحة واحدة تلو الأخرى، تُقلب لتلون الجانبين، وتُحتفظ بها دافئة على جانب الطبق.", "cook"],
-      ["Fry the eggs in the same oil, basting them as they cook.", "تُقلى البيضات في نفس الزيت مع سقايتها وهي تطهى.", "cook"],
-      ["Serve the eggs next to the fried cheese, sprinkled with salt and pepper.", "تُقدم البيضات بجانب الجبنة المقلية مع الملح والفلفل.", "finish"]
+      [
+        "Fry the cheese one slice at a time, turning it to colour both sides, and keep it warm at the side of the serving dish.",
+        "تُقلى الجبنة شريحة واحدة تلو الأخرى، تُقلب لتلون الجانبين، وتُحتفظ بها دافئة على جانب الطبق.",
+        "cook"
+      ],
+      [
+        "Fry the eggs in the same oil, basting them as they cook.",
+        "تُقلى البيضات في نفس الزيت مع سقايتها وهي تطهى.",
+        "cook"
+      ],
+      [
+        "Serve the eggs next to the fried cheese, sprinkled with salt and pepper.",
+        "تُقدم البيضات بجانب الجبنة المقلية مع الملح والفلفل.",
+        "finish"
+      ]
     ],
     "notes": "A breakfast dish from Palestine, Lebanon and Jordan.",
-    "notesAr": "طبق إفطار من فلسطين ولبنان والأردن."
+    "notesAr": "طبق إفطار من فلسطين ولبنان والأردن.",
+    "prepAr": "10 دقائق"
   },
   {
     "num": 65,
@@ -258,23 +706,101 @@
     "cookAr": "20 دقيقة",
     "difficulty": "medium",
     "ingredients": [
-      ["Eggs", "4–6", "dairy_fat", "بيض", "4–6 بيضات"],
-      ["Flatbread loaves", "2", "grain_starch", "خبز مفلطح", "رغيفان"],
-      ["Ghee", "1/2 cup", "dairy_fat", "سمن", "نصف كوب"],
-      ["Ground fenugreek", "1 tablespoon", "spice_seasoning", "حلبة مطحونة", "ملعقة كبيرة"],
-      ["Tomato paste", "1 tablespoon", "vegetable", "معجون طماطم", "ملعقة كبيرة"],
-      ["Zhug (Yemeni green chili paste)", "1/2 teaspoon", "spice_seasoning", "ژوق (معجون الفلفل الأخضر اليمني)", "نصف ملعقة صغيرة"],
-      ["Chicken stock", "2 cups", "liquid", "مرق دجاج", "كوبان"],
-      ["Lemon juice", "2 tablespoons", "liquid", "عصير ليمون", "ملعقتان كبيرتان"],
-      ["Salt and pepper", "to taste", "spice_seasoning", "ملح وفلفل", "حسب الرغبة"]
+      [
+        "Eggs",
+        "4–6",
+        "dairy_fat",
+        "بيض",
+        "4–6 بيضات"
+      ],
+      [
+        "Flatbread loaves",
+        "2",
+        "grain_starch",
+        "خبز مفلطح",
+        "رغيفان"
+      ],
+      [
+        "Ghee",
+        "1/2 cup",
+        "dairy_fat",
+        "سمن",
+        "نصف كوب"
+      ],
+      [
+        "Ground fenugreek",
+        "1 tablespoon",
+        "spice_seasoning",
+        "حلبة مطحونة",
+        "ملعقة كبيرة"
+      ],
+      [
+        "Tomato paste",
+        "1 tablespoon",
+        "vegetable",
+        "معجون طماطم",
+        "ملعقة كبيرة"
+      ],
+      [
+        "Zhug (Yemeni green chili paste)",
+        "1/2 teaspoon",
+        "spice_seasoning",
+        "ژوق (معجون الفلفل الأخضر اليمني)",
+        "نصف ملعقة صغيرة"
+      ],
+      [
+        "Chicken stock",
+        "2 cups",
+        "liquid",
+        "مرق دجاج",
+        "كوبان"
+      ],
+      [
+        "Lemon juice",
+        "2 tablespoons",
+        "liquid",
+        "عصير ليمون",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Blend the fenugreek, tomato paste and zhug into a paste.", "تُخلط الحلبة ومعجون الطماطم والژوق إلى عجينة.", "prep"],
-      ["Tear the bread into bite-sized pieces and fry them in the ghee until crisp.", "يُمزق الخبز إلى قطع بحجم اللقمة ويُقلى في السمن حتى يصبح مقرمشاً.", "cook"],
-      ["Add the eggs to the pan and stir until they are well set and scrambled with the bread.", "تُضاف البيضات إلى المقلاة وتُحرك حتى تتماسك وتخلط مع الخبز.", "cook"],
-      ["Boil the chicken stock with the fenugreek paste, uncovered and over a high heat, until reduced by half.", "يُغلي مرق الدجاج مع عجينة الحلبة، بدون غطاء وعلى نار عالية، حتى ينخفض إلى النصف.", "cook"],
-      ["Add the egg and bread mixture and cook for 3–5 minutes more, then season.", "تُضاف خلطة البيض والخبز وتُطهى 3–5 دقائق أخرى، ثم تُتبل.", "cook"],
-      ["Serve with a little lemon juice added to each plate.", "تُقدم مع قليل من عصير الليمون على كل طبق.", "finish"]
+      [
+        "Blend the fenugreek, tomato paste and zhug into a paste.",
+        "تُخلط الحلبة ومعجون الطماطم والژوق إلى عجينة.",
+        "prep"
+      ],
+      [
+        "Tear the bread into bite-sized pieces and fry them in the ghee until crisp.",
+        "يُمزق الخبز إلى قطع بحجم اللقمة ويُقلى في السمن حتى يصبح مقرمشاً.",
+        "cook"
+      ],
+      [
+        "Add the eggs to the pan and stir until they are well set and scrambled with the bread.",
+        "تُضاف البيضات إلى المقلاة وتُحرك حتى تتماسك وتخلط مع الخبز.",
+        "cook"
+      ],
+      [
+        "Boil the chicken stock with the fenugreek paste, uncovered and over a high heat, until reduced by half.",
+        "يُغلي مرق الدجاج مع عجينة الحلبة، بدون غطاء وعلى نار عالية، حتى ينخفض إلى النصف.",
+        "cook"
+      ],
+      [
+        "Add the egg and bread mixture and cook for 3–5 minutes more, then season.",
+        "تُضاف خلطة البيض والخبز وتُطهى 3–5 دقائق أخرى، ثم تُتبل.",
+        "cook"
+      ],
+      [
+        "Serve with a little lemon juice added to each plate.",
+        "تُقدم مع قليل من عصير الليمون على كل طبق.",
+        "finish"
+      ]
     ],
     "notes": "A Yemeni breakfast. Zhug is in this collection too, among the pastes and spice mixtures.",
     "notesAr": "إفطار يمني. الژوق موجود أيضاً في هذه المجموعة، بين المعاجين ومخاليط التوابل."
@@ -292,21 +818,85 @@
     "cookAr": "20 دقيقة",
     "difficulty": "easy",
     "ingredients": [
-      ["Eggs", "4–6", "dairy_fat", "بيض", "4–6 بيضات"],
-      ["Spinach", "1/2 kg", "vegetable", "سبانخ", "نصف كيلو"],
-      ["Onion, very finely chopped", "1", "vegetable", "بصل مفروم ناعماً جداً", "بصل واحد"],
-      ["Beyaz peynir (feta cheese), crumbled", "a chunk", "dairy_fat", "جبنة بيضاء (فيتا) مفتتة", "قطعة"],
-      ["Cooking oil", "as needed", "dairy_fat", "زيت طهي", "حسب الحاجة"],
-      ["Salt and pepper", "to taste", "spice_seasoning", "ملح وفلفل", "حسب الرغبة"]
+      [
+        "Eggs",
+        "4–6",
+        "dairy_fat",
+        "بيض",
+        "4–6 بيضات"
+      ],
+      [
+        "Spinach",
+        "1/2 kg",
+        "vegetable",
+        "سبانخ",
+        "نصف كيلو"
+      ],
+      [
+        "Onion, very finely chopped",
+        "1",
+        "vegetable",
+        "بصل مفروم ناعماً جداً",
+        "بصل واحد"
+      ],
+      [
+        "Beyaz peynir (feta cheese), crumbled",
+        "a chunk",
+        "dairy_fat",
+        "جبنة بيضاء (فيتا) مفتتة",
+        "قطعة"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat",
+        "زيت طهي",
+        "حسب الحاجة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Wash the spinach in several changes of water, drain it in a colander and shred it coarsely.", "تُغسل السبانخ عدة مرات وتُصفى في مصفاة وتُقطع بخشونة.", "prep"],
-      ["Fry the onion in the oil until it softens.", "يُقلى البصل في الزيت حتى يصير ناعماً.", "cook"],
-      ["Add the spinach and stir over a medium heat until the leaves wilt and release their liquid.", "تُضاف السبانخ وتُحرك على نار متوسطة حتى تذبل الأوراق وتطلق سائلها.", "cook"],
-      ["Turn up the heat and cook until only enough liquid is left to cover the bottom of the pan.", "تُرفع النار وتُطهى حتى يبقى سائل يغطي قاع المقلاة فقط.", "cook"],
-      ["Stir in the crumbled cheese, salt and pepper.", "تُضاف الجبنة المفتتة والملح والفلفل وتُحرك.", "cook"],
-      ["Break the eggs onto the spinach, spacing them evenly, cover the pan and cook over a medium heat until the eggs are set.", "تُنزلق البيضات على السبانخ متباعدة، تُغطى المقلاة وتُطهى على نار متوسطة حتى تتماسك البيضات.", "cook"],
-      ["Serve straight from the pan.", "تُقدم مباشرة من المقلاة.", "finish"]
+      [
+        "Wash the spinach in several changes of water, drain it in a colander and shred it coarsely.",
+        "تُغسل السبانخ عدة مرات وتُصفى في مصفاة وتُقطع بخشونة.",
+        "prep"
+      ],
+      [
+        "Fry the onion in the oil until it softens.",
+        "يُقلى البصل في الزيت حتى يصير ناعماً.",
+        "cook"
+      ],
+      [
+        "Add the spinach and stir over a medium heat until the leaves wilt and release their liquid.",
+        "تُضاف السبانخ وتُحرك على نار متوسطة حتى تذبل الأوراق وتطلق سائلها.",
+        "cook"
+      ],
+      [
+        "Turn up the heat and cook until only enough liquid is left to cover the bottom of the pan.",
+        "تُرفع النار وتُطهى حتى يبقى سائل يغطي قاع المقلاة فقط.",
+        "cook"
+      ],
+      [
+        "Stir in the crumbled cheese, salt and pepper.",
+        "تُضاف الجبنة المفتتة والملح والفلفل وتُحرك.",
+        "cook"
+      ],
+      [
+        "Break the eggs onto the spinach, spacing them evenly, cover the pan and cook over a medium heat until the eggs are set.",
+        "تُنزلق البيضات على السبانخ متباعدة، تُغطى المقلاة وتُطهى على نار متوسطة حتى تتماسك البيضات.",
+        "cook"
+      ],
+      [
+        "Serve straight from the pan.",
+        "تُقدم مباشرة من المقلاة.",
+        "finish"
+      ]
     ],
     "notes": "A Turkish breakfast dish.",
     "notesAr": "طبق إفطار تركي."
@@ -324,19 +914,77 @@
     "cookAr": "15 دقيقة",
     "difficulty": "easy",
     "ingredients": [
-      ["Eggs", "4–6", "dairy_fat", "بيض", "4–6 بيضات"],
-      ["Yogurt", "1 cup", "dairy_fat", "زبادي", "كوب"],
-      ["Garlic cloves, crushed", "3–5", "vegetable", "فصوص ثوم مهروسة", "3–5 فصوص"],
-      ["Vinegar", "1 teaspoon", "liquid", "خل", "ملعقة صغيرة"],
-      ["Butter", "2 tablespoons", "dairy_fat", "زبدة", "ملعقتان كبيرتان"],
-      ["Hot paprika", "a dash", "spice_seasoning", "بابريكا حارة", "رشة"],
-      ["Salt and pepper", "to taste", "spice_seasoning", "ملح وفلفل", "حسب الرغبة"]
+      [
+        "Eggs",
+        "4–6",
+        "dairy_fat",
+        "بيض",
+        "4–6 بيضات"
+      ],
+      [
+        "Yogurt",
+        "1 cup",
+        "dairy_fat",
+        "زبادي",
+        "كوب"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "3–5",
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "3–5 فصوص"
+      ],
+      [
+        "Vinegar",
+        "1 teaspoon",
+        "liquid",
+        "خل",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Butter",
+        "2 tablespoons",
+        "dairy_fat",
+        "زبدة",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Hot paprika",
+        "a dash",
+        "spice_seasoning",
+        "بابريكا حارة",
+        "رشة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Mix the yogurt with the garlic, salt and pepper and warm it in an ovenproof dish in a moderately hot oven.", "يُخلط الزبادي مع الثوم والملح والفلفل ويُسخن في صحن آمن للفرن في فرن معتدل الحرارة.", "prep"],
-      ["Meanwhile, poach the eggs in simmering water with the vinegar and, once set, lay them on the yogurt.", "في الوقت نفسه، تُسلق البيضات في ماء يغلي برفق مع الخل، وبعد أن تتماسك، تُرص على الزبادي.", "cook"],
-      ["Melt the butter, stir in the paprika and drizzle the red butter over the eggs.", "تُذاب الزبدة، يُضاف إليها البابريكا وتُسكب الزبدة الحمراء على البيضات.", "cook"],
-      ["Return the dish to the oven for 2–3 minutes, then serve on individual plates and season to taste.", "تُعاد الصحن إلى الفرن لمدة 2–3 دقائق، ثم تُقدم على طبق فردي وتُتبل حسب الرغبة.", "finish"]
+      [
+        "Mix the yogurt with the garlic, salt and pepper and warm it in an ovenproof dish in a moderately hot oven.",
+        "يُخلط الزبادي مع الثوم والملح والفلفل ويُسخن في صحن آمن للفرن في فرن معتدل الحرارة.",
+        "prep"
+      ],
+      [
+        "Meanwhile, poach the eggs in simmering water with the vinegar and, once set, lay them on the yogurt.",
+        "في الوقت نفسه، تُسلق البيضات في ماء يغلي برفق مع الخل، وبعد أن تتماسك، تُرص على الزبادي.",
+        "cook"
+      ],
+      [
+        "Melt the butter, stir in the paprika and drizzle the red butter over the eggs.",
+        "تُذاب الزبدة، يُضاف إليها البابريكا وتُسكب الزبدة الحمراء على البيضات.",
+        "cook"
+      ],
+      [
+        "Return the dish to the oven for 2–3 minutes, then serve on individual plates and season to taste.",
+        "تُعاد الصحن إلى الفرن لمدة 2–3 دقائق، ثم تُقدم على طبق فردي وتُتبل حسب الرغبة.",
+        "finish"
+      ]
     ],
     "notes": "A Turkish dish.",
     "notesAr": "طبق تركي."
@@ -354,20 +1002,82 @@
     "cookAr": "20 دقيقة",
     "difficulty": "medium",
     "ingredients": [
-      ["Eggs", "4–6", "dairy_fat", "بيض", "4–6 بيضات"],
-      ["Egg white", "1", "dairy_fat", "بياض بيضة", "بيضة واحدة"],
-      ["Yogurt", "2 cups", "dairy_fat", "زبادي", "كوبان"],
-      ["Garlic cloves, crushed", "5–7", "vegetable", "فصوص ثوم مهروسة", "5–7 فصوص"],
-      ["Dried mint powder", "1 teaspoon", "spice_seasoning", "بودرة نعناع جاف", "ملعقة صغيرة"],
-      ["Ghee", "2–3 tablespoons", "dairy_fat", "سمن", "2–3 ملاعق كبيرة"],
-      ["Salt and pepper", "to taste", "spice_seasoning", "ملح وفلفل", "حسب الرغبة"]
+      [
+        "Eggs",
+        "4–6",
+        "dairy_fat",
+        "بيض",
+        "4–6 بيضات"
+      ],
+      [
+        "Egg white",
+        "1",
+        "dairy_fat",
+        "بياض بيضة",
+        "بيضة واحدة"
+      ],
+      [
+        "Yogurt",
+        "2 cups",
+        "dairy_fat",
+        "زبادي",
+        "كوبان"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "5–7",
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "5–7 فصوص"
+      ],
+      [
+        "Dried mint powder",
+        "1 teaspoon",
+        "spice_seasoning",
+        "بودرة نعناع جاف",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Ghee",
+        "2–3 tablespoons",
+        "dairy_fat",
+        "سمن",
+        "2–3 ملاعق كبيرة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Whisk the egg white until stiff and stir it into the yogurt; this keeps the yogurt from splitting.", "يُخفق بياض البيضة حتى يصير صلباً ويُخلط في الزبادي؛ هذا يمنع الزبادي من التفتت.", "prep"],
-      ["Cook the yogurt uncovered over a very low heat for 5–7 minutes, then pour it into a shallow ovenproof dish.", "تُطهى الزبادي بدون غطاء على نار منخفضة جداً لمدة 5–7 دقائق، ثم تُسكب في صحن ضحل آمن للفرن.", "cook"],
-      ["Fry the garlic in the ghee until golden, stirring all the time so it does not stick, then stir in the mint, salt and pepper.", "يُقلى الثوم في السمن حتى يصير ذهبياً، مع التحريك المستمر لعدم التصاقه، ثم يُضاف النعناع والملح والفلفل.", "cook"],
-      ["Break the eggs over the yogurt, spacing them evenly, and pour the garlic ghee over them.", "تُنزلق البيضات على الزبادي متباعدة، ويُصب السمن بالثوم فوقها.", "cook"],
-      ["Bake until the eggs are set.", "تُشوى حتى تتماسك البيضات.", "finish"]
+      [
+        "Whisk the egg white until stiff and stir it into the yogurt; this keeps the yogurt from splitting.",
+        "يُخفق بياض البيضة حتى يصير صلباً ويُخلط في الزبادي؛ هذا يمنع الزبادي من التفتت.",
+        "prep"
+      ],
+      [
+        "Cook the yogurt uncovered over a very low heat for 5–7 minutes, then pour it into a shallow ovenproof dish.",
+        "تُطهى الزبادي بدون غطاء على نار منخفضة جداً لمدة 5–7 دقائق، ثم تُسكب في صحن ضحل آمن للفرن.",
+        "cook"
+      ],
+      [
+        "Fry the garlic in the ghee until golden, stirring all the time so it does not stick, then stir in the mint, salt and pepper.",
+        "يُقلى الثوم في السمن حتى يصير ذهبياً، مع التحريك المستمر لعدم التصاقه، ثم يُضاف النعناع والملح والفلفل.",
+        "cook"
+      ],
+      [
+        "Break the eggs over the yogurt, spacing them evenly, and pour the garlic ghee over them.",
+        "تُنزلق البيضات على الزبادي متباعدة، ويُصب السمن بالثوم فوقها.",
+        "cook"
+      ],
+      [
+        "Bake until the eggs are set.",
+        "تُشوى حتى تتماسك البيضات.",
+        "finish"
+      ]
     ],
     "notes": "A Lebanese dish.",
     "notesAr": "طبق لبناني."
@@ -385,24 +1095,108 @@
     "cookAr": "35 دقيقة",
     "difficulty": "medium",
     "ingredients": [
-      ["Eggs", "4–6", "dairy_fat", "بيض", "4–6 بيضات"],
-      ["Potatoes, peeled and diced very small", "2", "vegetable", "بطاطس مقشرة ومكعبة صغيرة جداً", "بطاطتان"],
-      ["Spiced sausages (merguez), chopped small", "5–7", "meat_poultry", "نقانق مبهرة (مرقاز) مفرومة صغيرة", "5–7 نقانق"],
-      ["Tomato paste", "2 tablespoons", "vegetable", "معجون طماطم", "ملعقتان كبيرتان"],
-      ["Garlic cloves", "5–7", "vegetable", "فصوص ثوم", "5–7 فصوص"],
-      ["Harissa", "1 teaspoon", "spice_seasoning", "حريسة", "ملعقة صغيرة"],
-      ["Paprika", "1 teaspoon", "spice_seasoning", "بابريكا", "ملعقة صغيرة"],
-      ["Caraway seeds", "1 teaspoon", "spice_seasoning", "بذور الكمون", "ملعقة صغيرة"],
-      ["Olive oil", "as needed", "dairy_fat", "زيت زيتون", "حسب الحاجة"],
-      ["Salt and pepper", "to taste", "spice_seasoning", "ملح وفلفل", "حسب الرغبة"]
+      [
+        "Eggs",
+        "4–6",
+        "dairy_fat",
+        "بيض",
+        "4–6 بيضات"
+      ],
+      [
+        "Potatoes, peeled and diced very small",
+        "2",
+        "vegetable",
+        "بطاطس مقشرة ومكعبة صغيرة جداً",
+        "بطاطتان"
+      ],
+      [
+        "Spiced sausages (merguez), chopped small",
+        "5–7",
+        "meat_poultry",
+        "نقانق مبهرة (مرقاز) مفرومة صغيرة",
+        "5–7 نقانق"
+      ],
+      [
+        "Tomato paste",
+        "2 tablespoons",
+        "vegetable",
+        "معجون طماطم",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Garlic cloves",
+        "5–7",
+        "vegetable",
+        "فصوص ثوم",
+        "5–7 فصوص"
+      ],
+      [
+        "Harissa",
+        "1 teaspoon",
+        "spice_seasoning",
+        "حريسة",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Paprika",
+        "1 teaspoon",
+        "spice_seasoning",
+        "بابريكا",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Caraway seeds",
+        "1 teaspoon",
+        "spice_seasoning",
+        "بذور الكمون",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Olive oil",
+        "as needed",
+        "dairy_fat",
+        "زيت زيتون",
+        "حسب الحاجة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Pound the garlic with salt, the paprika and the caraway.", "يُدق الثوم مع الملح والبابريكا والكمون.", "prep"],
-      ["Sauté the potatoes in the oil, then add the tomato paste, the garlic mixture, the harissa and just enough water to cover.", "تُقلى البطاطس في الزيت، ثم تُضاف معجون الطماطم وخليط الثوم والحريسة والماء الكافي لتغطيتها.", "cook"],
-      ["Cook over a low heat for 15 minutes.", "تُطهى على نار منخفضة لمدة 15 دقيقة.", "cook"],
-      ["Add the sausages and cook for another 15 minutes.", "تُضاف النقانق وتُطهى 15 دقيقة أخرى.", "cook"],
-      ["Beat the eggs with salt and pepper, pour them over the stew and stir.", "يُخفق البيض مع الملح والفلفل، يُصب على الطبخة وتُحرك.", "cook"],
-      ["Serve as soon as the eggs are set.", "تُقدم بمجرد تماسك البيضات.", "finish"]
+      [
+        "Pound the garlic with salt, the paprika and the caraway.",
+        "يُدق الثوم مع الملح والبابريكا والكمون.",
+        "prep"
+      ],
+      [
+        "Sauté the potatoes in the oil, then add the tomato paste, the garlic mixture, the harissa and just enough water to cover.",
+        "تُقلى البطاطس في الزيت، ثم تُضاف معجون الطماطم وخليط الثوم والحريسة والماء الكافي لتغطيتها.",
+        "cook"
+      ],
+      [
+        "Cook over a low heat for 15 minutes.",
+        "تُطهى على نار منخفضة لمدة 15 دقيقة.",
+        "cook"
+      ],
+      [
+        "Add the sausages and cook for another 15 minutes.",
+        "تُضاف النقانق وتُطهى 15 دقيقة أخرى.",
+        "cook"
+      ],
+      [
+        "Beat the eggs with salt and pepper, pour them over the stew and stir.",
+        "يُخفق البيض مع الملح والفلفل، يُصب على الطبخة وتُحرك.",
+        "cook"
+      ],
+      [
+        "Serve as soon as the eggs are set.",
+        "تُقدم بمجرد تماسك البيضات.",
+        "finish"
+      ]
     ],
     "notes": "A Tunisian dish; ojja is the Tunisian cousin of shakshuka.",
     "notesAr": "طبق تونسي؛ العجة هي نظيرة الشكشوكة التونسية."
@@ -420,22 +1214,94 @@
     "cookAr": "15 دقيقة",
     "difficulty": "medium",
     "ingredients": [
-      ["Eggs", "6", "dairy_fat", "بيض", "6 بيضات"],
-      ["Sheep's brain", "1", "meat_poultry", "مخ خروفي", "مخ واحد"],
-      ["Onion, grated", "1", "vegetable", "بصل مبشور", "بصل واحد"],
-      ["Garlic cloves, crushed", "3", "vegetable", "فصوص ثوم مهروسة", "3 فصوص"],
-      ["Lemon juice", "1 tablespoon", "liquid", "عصير ليمون", "ملعقة كبيرة"],
-      ["Parsley, very finely chopped", "2 tablespoons", "vegetable", "بقدونس مفروم ناعماً جداً", "ملعقتان كبيرتان"],
-      ["Ghee", "as needed", "dairy_fat", "سمن", "حسب الحاجة"],
-      ["Salt and pepper", "to taste", "spice_seasoning", "ملح وفلفل", "حسب الرغبة"]
+      [
+        "Eggs",
+        "6",
+        "dairy_fat",
+        "بيض",
+        "6 بيضات"
+      ],
+      [
+        "Sheep's brain",
+        "1",
+        "meat_poultry",
+        "مخ خروفي",
+        "مخ واحد"
+      ],
+      [
+        "Onion, grated",
+        "1",
+        "vegetable",
+        "بصل مبشور",
+        "بصل واحد"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "3",
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "3 فصوص"
+      ],
+      [
+        "Lemon juice",
+        "1 tablespoon",
+        "liquid",
+        "عصير ليمون",
+        "ملعقة كبيرة"
+      ],
+      [
+        "Parsley, very finely chopped",
+        "2 tablespoons",
+        "vegetable",
+        "بقدونس مفروم ناعماً جداً",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Ghee",
+        "as needed",
+        "dairy_fat",
+        "سمن",
+        "حسب الحاجة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Parboil the brain in salted water, drain it, remove the veins and mash it.", "يُسلق المخ قليلاً في ماء مملح، يُصفى، تُزال الأوردة ويُهرس.", "prep"],
-      ["Soften the onion in ghee, add the garlic and fry until golden, stirring all the time, then take the pan off the heat.", "يُلين البصل في السمن، يُضاف الثوم ويُقلى حتى يصير ذهبياً مع التحريك المستمر، ثم تُرفع المقلاة عن النار.", "cook"],
-      ["Beat the eggs and stir in the brain, the onion and garlic, the lemon juice, parsley, salt and pepper.", "يُخفق البيض ويُضاف إليه المخ والبصل والثوم وعصير الليمون والبقدونس والملح والفلفل.", "cook"],
-      ["Heat more ghee and pour in the egg mixture. As the bottom sets, lift the edge so the runny egg flows underneath.", "يُسخن سمن أكثر ويُصب خليط البيض. مع تماسك القاع، يُرفع الطرف لينسكب البيض السائل تحته.", "cook"],
-      ["Turn the omelet and fry until both sides are golden and set.", "تُقلب العجة وتُقلى حتى يصبح الجانبان ذهبياً ومتماسكاً.", "cook"],
-      ["Cut into thick wedges and serve.", "تُقطع إلى أسافين سميكة وتُقدم.", "finish"]
+      [
+        "Parboil the brain in salted water, drain it, remove the veins and mash it.",
+        "يُسلق المخ قليلاً في ماء مملح، يُصفى، تُزال الأوردة ويُهرس.",
+        "prep"
+      ],
+      [
+        "Soften the onion in ghee, add the garlic and fry until golden, stirring all the time, then take the pan off the heat.",
+        "يُلين البصل في السمن، يُضاف الثوم ويُقلى حتى يصير ذهبياً مع التحريك المستمر، ثم تُرفع المقلاة عن النار.",
+        "cook"
+      ],
+      [
+        "Beat the eggs and stir in the brain, the onion and garlic, the lemon juice, parsley, salt and pepper.",
+        "يُخفق البيض ويُضاف إليه المخ والبصل والثوم وعصير الليمون والبقدونس والملح والفلفل.",
+        "cook"
+      ],
+      [
+        "Heat more ghee and pour in the egg mixture. As the bottom sets, lift the edge so the runny egg flows underneath.",
+        "يُسخن سمن أكثر ويُصب خليط البيض. مع تماسك القاع، يُرفع الطرف لينسكب البيض السائل تحته.",
+        "cook"
+      ],
+      [
+        "Turn the omelet and fry until both sides are golden and set.",
+        "تُقلب العجة وتُقلى حتى يصبح الجانبان ذهبياً ومتماسكاً.",
+        "cook"
+      ],
+      [
+        "Cut into thick wedges and serve.",
+        "تُقطع إلى أسافين سميكة وتُقدم.",
+        "finish"
+      ]
     ],
     "notes": "Made in Lebanon, Syria and Jordan.",
     "notesAr": "تُصنع في لبنان وسوريا والأردن."
@@ -453,21 +1319,87 @@
     "cookAr": "25 دقيقة",
     "difficulty": "medium",
     "ingredients": [
-      ["Eggs", "6", "dairy_fat", "بيض", "6 بيضات"],
-      ["Round brown eggplants", "2", "vegetable", "باذنجان بني مستدير", "باذنجانان"],
-      ["Onion, grated", "1", "vegetable", "بصل مبشور", "بصل واحد"],
-      ["Cumin", "1/2 teaspoon", "spice_seasoning", "كمون", "نصف ملعقة صغيرة"],
-      ["Yogurt", "1–2 cups", "dairy_fat", "زبادي", "1–2 كوب"],
-      ["Ghee", "as needed", "dairy_fat", "سمن", "حسب الحاجة"],
-      ["Salt and pepper", "to taste", "spice_seasoning", "ملح وفلفل", "حسب الرغبة"]
+      [
+        "Eggs",
+        "6",
+        "dairy_fat",
+        "بيض",
+        "6 بيضات"
+      ],
+      [
+        "Round brown eggplants",
+        "2",
+        "vegetable",
+        "باذنجان بني مستدير",
+        "باذنجانان"
+      ],
+      [
+        "Onion, grated",
+        "1",
+        "vegetable",
+        "بصل مبشور",
+        "بصل واحد"
+      ],
+      [
+        "Cumin",
+        "1/2 teaspoon",
+        "spice_seasoning",
+        "كمون",
+        "نصف ملعقة صغيرة"
+      ],
+      [
+        "Yogurt",
+        "1–2 cups",
+        "dairy_fat",
+        "زبادي",
+        "1–2 كوب"
+      ],
+      [
+        "Ghee",
+        "as needed",
+        "dairy_fat",
+        "سمن",
+        "حسب الحاجة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Peel and dice the eggplants, sprinkle them with salt and leave for an hour.", "يُقشر الباذنجان ويُقطع مكعبات، يُرش بالملح ويُترك ساعة.", "prep"],
-      ["Squeeze them dry, fry until golden, then mash them in a deep bowl.", "يُعصر حتى يجف، يُقلى حتى يصير ذهبياً، ثم يُهرس في وعاء عميق.", "cook"],
-      ["Beat in the eggs, onion, cumin, salt and pepper until smooth.", "يُخفق فيه البيض والبصل والكمون والملح والفلفل حتى يصبح ناعماً.", "cook"],
-      ["Heat ghee in a pan and pour in the mixture. As the bottom sets, lift the edge so the uncooked egg runs underneath.", "يُسخن سمن في مقلاة ويُصب الخليط. مع تماسك القاع، يُرفع الطرف لينسكب البيض النيء تحته.", "cook"],
-      ["Turn the kuku over and fry until both sides are brown.", "يُقلب الكوكو ويُقلى حتى يصبح الجانبان بنياً.", "cook"],
-      ["Cut into thick wedges and serve with yogurt spooned over each plate.", "يُقطع إلى أسافين سميكة ويُقدم مع الزبادي على كل طبق.", "finish"]
+      [
+        "Peel and dice the eggplants, sprinkle them with salt and leave for an hour.",
+        "يُقشر الباذنجان ويُقطع مكعبات، يُرش بالملح ويُترك ساعة.",
+        "prep"
+      ],
+      [
+        "Squeeze them dry, fry until golden, then mash them in a deep bowl.",
+        "يُعصر حتى يجف، يُقلى حتى يصير ذهبياً، ثم يُهرس في وعاء عميق.",
+        "cook"
+      ],
+      [
+        "Beat in the eggs, onion, cumin, salt and pepper until smooth.",
+        "يُخفق فيه البيض والبصل والكمون والملح والفلفل حتى يصبح ناعماً.",
+        "cook"
+      ],
+      [
+        "Heat ghee in a pan and pour in the mixture. As the bottom sets, lift the edge so the uncooked egg runs underneath.",
+        "يُسخن سمن في مقلاة ويُصب الخليط. مع تماسك القاع، يُرفع الطرف لينسكب البيض النيء تحته.",
+        "cook"
+      ],
+      [
+        "Turn the kuku over and fry until both sides are brown.",
+        "يُقلب الكوكو ويُقلى حتى يصبح الجانبان بنياً.",
+        "cook"
+      ],
+      [
+        "Cut into thick wedges and serve with yogurt spooned over each plate.",
+        "يُقطع إلى أسافين سميكة ويُقدم مع الزبادي على كل طبق.",
+        "finish"
+      ]
     ],
     "notes": "An Iranian dish.",
     "notesAr": "طبق إيراني."
@@ -485,20 +1417,80 @@
     "cookAr": "40 دقيقة",
     "difficulty": "easy",
     "ingredients": [
-      ["Eggs", "6", "dairy_fat", "بيض", "6 بيضات"],
-      ["Potatoes", "1/2 kg", "vegetable", "بطاطس", "نصف كيلو"],
-      ["Onion, grated", "1", "vegetable", "بصل مبشور", "بصل واحد"],
-      ["Turmeric", "1 teaspoon", "spice_seasoning", "كركم", "ملعقة صغيرة"],
-      ["Ghee", "as needed", "dairy_fat", "سمن", "حسب الحاجة"],
-      ["Salt and pepper", "to taste", "spice_seasoning", "ملح وفلفل", "حسب الرغبة"]
+      [
+        "Eggs",
+        "6",
+        "dairy_fat",
+        "بيض",
+        "6 بيضات"
+      ],
+      [
+        "Potatoes",
+        "1/2 kg",
+        "vegetable",
+        "بطاطس",
+        "نصف كيلو"
+      ],
+      [
+        "Onion, grated",
+        "1",
+        "vegetable",
+        "بصل مبشور",
+        "بصل واحد"
+      ],
+      [
+        "Turmeric",
+        "1 teaspoon",
+        "spice_seasoning",
+        "كركم",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Ghee",
+        "as needed",
+        "dairy_fat",
+        "سمن",
+        "حسب الحاجة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Peel and boil the potatoes, then mash them in a deep bowl.", "تُقشر البطاطس وتُسلق، ثم تُهرس في وعاء عميق.", "prep"],
-      ["Mix in the eggs, onion, turmeric, salt and pepper until smooth.", "يُخلط فيها البيض والبصل والكركم والملح والفلفل حتى يصبح ناعماً.", "prep"],
-      ["Heat ghee and fry the mixture like a thick omelet, lifting the edge as the bottom sets so the uncooked egg runs underneath.", "يُسخن سمن ويُقلى الخليط كعجة سميكة، يُرفع الطرف مع تماسك القاع لينسكب البيض النيء تحته.", "cook"],
-      ["Turn it over and fry until brown on both sides.", "يُقلب ويُقلى حتى يصبح بنياً من الجانبين.", "cook"],
-      ["Cut into thick wedges and serve.", "يُقطع إلى أسافين سميكة ويُقدم.", "finish"],
-      ["Patties: drop spoonfuls of the mixture into hot ghee, flatten them and deep-fry, then drain on absorbent paper.", "فطائر: انثر ملاعق من الخليط في سمن ساخن، اضغطها وقليها بعمق، ثم صفها على ورق ماص.", "alternative"]
+      [
+        "Peel and boil the potatoes, then mash them in a deep bowl.",
+        "تُقشر البطاطس وتُسلق، ثم تُهرس في وعاء عميق.",
+        "prep"
+      ],
+      [
+        "Mix in the eggs, onion, turmeric, salt and pepper until smooth.",
+        "يُخلط فيها البيض والبصل والكركم والملح والفلفل حتى يصبح ناعماً.",
+        "prep"
+      ],
+      [
+        "Heat ghee and fry the mixture like a thick omelet, lifting the edge as the bottom sets so the uncooked egg runs underneath.",
+        "يُسخن سمن ويُقلى الخليط كعجة سميكة، يُرفع الطرف مع تماسك القاع لينسكب البيض النيء تحته.",
+        "cook"
+      ],
+      [
+        "Turn it over and fry until brown on both sides.",
+        "يُقلب ويُقلى حتى يصبح بنياً من الجانبين.",
+        "cook"
+      ],
+      [
+        "Cut into thick wedges and serve.",
+        "يُقطع إلى أسافين سميكة ويُقدم.",
+        "finish"
+      ],
+      [
+        "Patties: drop spoonfuls of the mixture into hot ghee, flatten them and deep-fry, then drain on absorbent paper.",
+        "فطائر: انثر ملاعق من الخليط في سمن ساخن، اضغطها وقليها بعمق، ثم صفها على ورق ماص.",
+        "alternative"
+      ]
     ],
     "notes": "An Iranian dish.",
     "notesAr": "طبق إيراني."

@@ -111,7 +111,9 @@
       [
         "Grated rind of lemons and oranges",
         "2 of each",
-        "sweet_fruit"
+        "sweet_fruit",
+        "ليمون",
+        "2 of each"
       ]
     ],
     "steps": [
@@ -276,17 +278,23 @@
       [
         "Sugar (for the cream)",
         "1 teaspoon",
-        "sweet_fruit"
+        "sweet_fruit",
+        "كريمة",
+        "1 ملعقة صغيرة"
       ],
       [
         "Rosewater (optional)",
         "1 teaspoon",
-        "liquid"
+        "liquid",
+        "ماء",
+        "1 ملعقة صغيرة"
       ],
       [
         "Egg (optional)",
         "1",
-        "dairy_fat"
+        "dairy_fat",
+        "بيض",
+        "1"
       ]
     ],
     "steps": [
@@ -377,7 +385,9 @@
       [
         "Syrup: lemon juice",
         "1 teaspoon",
-        "sweet_fruit"
+        "sweet_fruit",
+        "ليمون",
+        "1 ملعقة صغيرة"
       ]
     ],
     "steps": [
@@ -850,22 +860,30 @@
       [
         "Cinnamon",
         "1/2 teaspoon",
-        "spice_seasoning"
+        "spice_seasoning",
+        "قرفة",
+        "1/2 ملعقة صغيرة"
       ],
       [
         "Caraway seeds",
         "1/2 teaspoon",
-        "spice_seasoning"
+        "spice_seasoning",
+        "[Caraway seeds]",
+        "1/2 ملعقة صغيرة"
       ],
       [
         "Tabil (Tunisian spice mix)",
         "1/2 teaspoon",
-        "spice_seasoning"
+        "spice_seasoning",
+        "[Tabil (Tunisian spice mix)]",
+        "1/2 ملعقة صغيرة"
       ],
       [
         "Olive oil",
         "3 tablespoons, plus extra to cover",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت",
+        "3 ملعقة كبيرةs, plus extra to cover"
       ]
     ],
     "steps": [
@@ -950,7 +968,9 @@
       [
         "Salt",
         "1 tablespoon",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "1 ملعقة كبيرة"
       ]
     ],
     "steps": [
@@ -1025,12 +1045,16 @@
       [
         "Dried garlic",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ثوم",
+        "to taste"
       ],
       [
         "Pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "فلفل",
+        "to taste"
       ]
     ],
     "steps": [

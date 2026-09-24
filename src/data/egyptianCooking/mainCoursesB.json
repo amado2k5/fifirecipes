@@ -761,9 +761,14 @@
         "ضعها في صينية خبز واخبزها لمدة 20–25 دقيقة حتى تصبح ذهبية اللون.",
         "finish"
       ],
-      "Stir the nutmeg into the béchamel and pour it over.",
+      [
+        "Stir the nutmeg into the béchamel and pour it over.",
+        "[ترجمة مطلوبة] Stir the nutmeg into the béchamel and pour it over.",
+        "cook"
+      ],
       [
         "Bake in a moderate, preheated oven for 20 minutes, until the top is browned.",
+        "[اخبز] Bake in a moderate, preheated oven for 20 minutes, until the top is browned.",
         "finish"
       ]
     ],
@@ -820,12 +825,16 @@
       [
         "Cornflour",
         "1 tablespoon",
-        "grain_starch"
+        "grain_starch",
+        "دقيق",
+        "1 ملعقة كبيرة"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "to taste"
       ]
     ],
     "steps": [
@@ -846,6 +855,7 @@
       ],
       [
         "Bake in a moderate, preheated oven for 30–40 minutes.",
+        "[اخبز] Bake in a moderate, preheated oven for 30–40 minutes.",
         "finish"
       ]
     ],
@@ -916,7 +926,9 @@
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "to taste"
       ]
     ],
     "steps": [
@@ -937,6 +949,7 @@
       ],
       [
         "Simmer over a very low heat for 20–30 minutes.",
+        "[اطهِ] Simmer over a very low heat for 20–30 minutes.",
         "finish"
       ]
     ],
@@ -1000,6 +1013,7 @@
       ],
       [
         "Pour the melted butter over and cook over a very low heat for 10–15 minutes more, until the freekeh is soft.",
+        "[اطهِ] Pour the melted butter over and cook over a very low heat for 10–15 minutes more, until the freekeh is soft.",
         "finish"
       ]
     ],
@@ -1226,32 +1240,44 @@
       [
         "Egg (whole, with its crushed shell, to clear the stock)",
         "1",
-        "dairy_fat"
+        "dairy_fat",
+        "بيض",
+        "1"
       ],
       [
         "Shelled peas",
         "250 g",
-        "vegetable"
+        "vegetable",
+        "[Shelled peas]",
+        "250 g"
       ],
       [
         "Carrots, diced very small",
         "3",
-        "vegetable"
+        "vegetable",
+        "[Carrots, diced very small]",
+        "3"
       ],
       [
         "Pickled onions, finely chopped",
         "5",
-        "vegetable"
+        "vegetable",
+        "بصل",
+        "5"
       ],
       [
         "Pickled cucumbers, finely chopped",
         "5",
-        "vegetable"
+        "vegetable",
+        "خيار",
+        "5"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "to taste"
       ]
     ],
     "steps": [
@@ -1280,10 +1306,19 @@
         "أضف الحمص واطهِ لمدة 15 دقيقة أخرى.",
         "finish"
       ],
-      "Cook the peas and diced carrots in salted water until soft, drain, cool and mix with the chopped pickles.",
-      "Line the bottom of a cake mould with meat, cover with the vegetables and finish with another layer of meat.",
+      [
+        "Cook the peas and diced carrots in salted water until soft, drain, cool and mix with the chopped pickles.",
+        "[اطهِ] Cook the peas and diced carrots in salted water until soft, drain, cool and mix with the chopped pickles.",
+        "cook"
+      ],
+      [
+        "Line the bottom of a cake mould with meat, cover with the vegetables and finish with another layer of meat.",
+        "[ترجمة مطلوبة] Line the bottom of a cake mould with meat, cover with the vegetables and finish with another layer of meat.",
+        "cook"
+      ],
       [
         "Pour the stock over and leave to cool. When the jelly has set, turn it out onto a serving dish.",
+        "[ترجمة مطلوبة] Pour the stock over and leave to cool. When the jelly has set, turn it out onto a serving dish.",
         "finish"
       ]
     ],
@@ -1531,6 +1566,7 @@
       ],
       [
         "Serve hot or cold. It should be soft, like a thick porridge.",
+        "[ترجمة مطلوبة] Serve hot or cold. It should be soft, like a thick porridge.",
         "finish"
       ]
     ],
@@ -1678,27 +1714,37 @@
       [
         "Ground cumin",
         "1 teaspoon",
-        "spice_seasoning"
+        "spice_seasoning",
+        "كمون",
+        "1 ملعقة صغيرة"
       ],
       [
         "Cardamom pods, cracked",
         "3",
-        "spice_seasoning"
+        "spice_seasoning",
+        "[Cardamom pods, cracked]",
+        "3"
       ],
       [
         "Ground ginger",
         "a dash",
-        "spice_seasoning"
+        "spice_seasoning",
+        "[Ground ginger]",
+        "a dash"
       ],
       [
         "Cooking oil",
         "as needed",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت",
+        "as needed"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "to taste"
       ]
     ],
     "steps": [
@@ -1722,9 +1768,14 @@
         "أضف القرع واطهِ حتى يصبح اللحم والقرع طريين.",
         "finish"
       ],
-      "Return the kidney, turn up the heat, add the liver and cook for 7–10 minutes, still stirring.",
+      [
+        "Return the kidney, turn up the heat, add the liver and cook for 7–10 minutes, still stirring.",
+        "[اطهِ] Return the kidney, turn up the heat, add the liver and cook for 7–10 minutes, still stirring.",
+        "cook"
+      ],
       [
         "When the liver is browned, add the tomatoes with salt and pepper and cook for about 5 minutes, until the tomatoes are done.",
+        "[اطهِ] When the liver is browned, add the tomatoes with salt and pepper and cook for about 5 minutes, until the tomatoes are done.",
         "finish"
       ]
     ],
@@ -1888,9 +1939,14 @@
         "اطهِ حتى يصبح اللحم والسفرجل طريين.",
         "finish"
       ],
-      "Blend the vegetables with their juices, strain, and return to the pot.",
+      [
+        "Blend the vegetables with their juices, strain, and return to the pot.",
+        "[امزج] Blend the vegetables with their juices, strain, and return to the pot.",
+        "cook"
+      ],
       [
         "Season, stir in the cornflour, cook for 2–3 minutes and pour over the beef.",
+        "[اطهِ] Season, stir in the cornflour, cook for 2–3 minutes and pour over the beef.",
         "finish"
       ]
     ],
@@ -1961,6 +2017,7 @@
       ],
       [
         "Chill before slicing.",
+        "[ترجمة مطلوبة] Chill before slicing.",
         "finish"
       ]
     ],
@@ -2031,22 +2088,30 @@
       [
         "Marinade: nutmeg",
         "1/2 teaspoon",
-        "spice_seasoning"
+        "spice_seasoning",
+        "[Marinade: nutmeg]",
+        "1/2 ملعقة صغيرة"
       ],
       [
         "Marinade: lemon juice",
         "1 tablespoon",
-        "liquid"
+        "liquid",
+        "ليمون",
+        "1 ملعقة كبيرة"
       ],
       [
         "Cooking oil",
         "as needed",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت",
+        "as needed"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "to taste"
       ]
     ],
     "steps": [
@@ -2070,9 +2135,14 @@
         "أضف الفاصوليا واطهِ حتى تمتزج النكهات.",
         "finish"
       ],
-      "Fry the flour in a little oil, take it off the heat and gradually whisk in the strained marinade. Cook for 3–5 minutes and pour over the rolls, adding warm water if the meat is not covered.",
+      [
+        "Fry the flour in a little oil, take it off the heat and gradually whisk in the strained marinade. Cook for 3–5 minutes and pour over the rolls, adding warm water if the meat is not covered.",
+        "[اطهِ] Fry the flour in a little oil, take it off the heat and gradually whisk in the strained marinade. Cook for 3–5 minutes and pour over the rolls, adding warm water if the meat is not covered.",
+        "cook"
+      ],
       [
         "Bake in the middle of a moderate, preheated oven for 30 minutes. Snip off the threads before serving.",
+        "[اخبز] Bake in the middle of a moderate, preheated oven for 30 minutes. Snip off the threads before serving.",
         "finish"
       ]
     ],
@@ -2202,27 +2272,37 @@
       [
         "Cornflour",
         "1 tablespoon",
-        "grain_starch"
+        "grain_starch",
+        "دقيق",
+        "1 ملعقة كبيرة"
       ],
       [
         "Vinegar",
         "1 teaspoon",
-        "liquid"
+        "liquid",
+        "[Vinegar]",
+        "1 ملعقة صغيرة"
       ],
       [
         "Sugar",
         "1 teaspoon",
-        "sweet_fruit"
+        "sweet_fruit",
+        "سكر",
+        "1 ملعقة صغيرة"
       ],
       [
         "Cooking oil",
         "for frying",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت",
+        "for frying"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "to taste"
       ]
     ],
     "steps": [
@@ -2241,9 +2321,14 @@
         "صفِّ وقطّع إلى قطع صغيرة واستخدمها في أطباق أخرى.",
         "finish"
       ],
-      "Drop in the meatballs and simmer for 30 minutes, shaking the pot gently now and then so they do not stick.",
+      [
+        "Drop in the meatballs and simmer for 30 minutes, shaking the pot gently now and then so they do not stick.",
+        "[اطهِ] Drop in the meatballs and simmer for 30 minutes, shaking the pot gently now and then so they do not stick.",
+        "cook"
+      ],
       [
         "Thicken the sauce with the cornflour.",
+        "[ترجمة مطلوبة] Thicken the sauce with the cornflour.",
         "finish"
       ]
     ],
@@ -2300,12 +2385,16 @@
       [
         "Cooking oil",
         "for frying, plus 1 tablespoon",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت",
+        "for frying, plus 1 ملعقة كبيرة"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "to taste"
       ]
     ],
     "steps": [
@@ -2324,9 +2413,14 @@
         "قدّم ساخنة مع خبز.",
         "finish"
       ],
-      "Bring 2 cups of water to the boil with 1 tablespoon of oil and the lemon juice.",
+      [
+        "Bring 2 cups of water to the boil with 1 tablespoon of oil and the lemon juice.",
+        "[اطهِ] Bring 2 cups of water to the boil with 1 tablespoon of oil and the lemon juice.",
+        "cook"
+      ],
       [
         "Slip in the meatballs and simmer for about 30 minutes, shaking the pot gently so they do not stick.",
+        "[اطهِ] Slip in the meatballs and simmer for about 30 minutes, shaking the pot gently so they do not stick.",
         "finish"
       ]
     ],
@@ -2411,10 +2505,19 @@
         "أضف عصير الليمون والملح والفلفل وقدّم.",
         "finish"
       ],
-      "Lift the meat onto a serving dish and keep warm.",
-      "Mash the vegetables into the broth until smooth, bring it to the boil and toss in the fried potatoes. Cook for 3–5 minutes.",
+      [
+        "Lift the meat onto a serving dish and keep warm.",
+        "[ترجمة مطلوبة] Lift the meat onto a serving dish and keep warm.",
+        "cook"
+      ],
+      [
+        "Mash the vegetables into the broth until smooth, bring it to the boil and toss in the fried potatoes. Cook for 3–5 minutes.",
+        "[اطهِ] Mash the vegetables into the broth until smooth, bring it to the boil and toss in the fried potatoes. Cook for 3–5 minutes.",
+        "cook"
+      ],
       [
         "Pour over the meat and serve hot.",
+        "[ترجمة مطلوبة] Pour over the meat and serve hot.",
         "finish"
       ]
     ],
@@ -2492,6 +2595,7 @@
       ],
       [
         "When the meat is ready, add the potatoes and cook for about 10 minutes so they soak up the juices.",
+        "[اطهِ] When the meat is ready, add the potatoes and cook for about 10 minutes so they soak up the juices.",
         "finish"
       ]
     ],
@@ -2569,22 +2673,30 @@
       [
         "Tabil (Tunisian spice mix)",
         "1/2 teaspoon",
-        "spice_seasoning"
+        "spice_seasoning",
+        "[Tabil (Tunisian spice mix)]",
+        "1/2 ملعقة صغيرة"
       ],
       [
         "Cayenne",
         "1/2 teaspoon",
-        "spice_seasoning"
+        "spice_seasoning",
+        "[Cayenne]",
+        "1/2 ملعقة صغيرة"
       ],
       [
         "Olive oil",
         "as needed",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت",
+        "as needed"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "to taste"
       ]
     ],
     "steps": [
@@ -2615,6 +2727,7 @@
       ],
       [
         "Pour into a well-greased ovenproof dish and bake in a moderate oven for 15–20 minutes, until set.",
+        "[اخبز] Pour into a well-greased ovenproof dish and bake in a moderate oven for 15–20 minutes, until set.",
         "finish"
       ]
     ],
@@ -2693,12 +2806,16 @@
       [
         "Ghee",
         "as needed",
-        "dairy_fat"
+        "dairy_fat",
+        "[Ghee]",
+        "as needed"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "to taste"
       ]
     ],
     "steps": [

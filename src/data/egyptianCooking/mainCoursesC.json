@@ -687,7 +687,7 @@
     "titleAr": "بصل لؤلؤي مشوي بالفرن ('عويرما مشوية)",
     "prepAr": "",
     "cookAr": "ساعة واحدة",
-    "notesAr": ""
+    "notesAr": "بصل لؤلؤي مشوي بسيط."
   },
   {
     "num": 267,
@@ -935,7 +935,9 @@
       [
         "Pepper",
         "a pinch",
-        "spice_seasoning"
+        "spice_seasoning",
+        "فلفل",
+        "a pinch"
       ]
     ],
     "steps": [
@@ -1820,7 +1822,9 @@
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "to taste"
       ]
     ],
     "steps": [
@@ -2152,17 +2156,23 @@
       [
         "Garlic clove",
         "1",
-        "vegetable"
+        "vegetable",
+        "ثوم",
+        "1"
       ],
       [
         "Lemon juice",
         "for soaking the onion",
-        "liquid"
+        "liquid",
+        "ليمون",
+        "for soaking the onion"
       ],
       [
         "Salad dressing (oil, lemon, vinegar, salt and pepper)",
         "to taste",
-        "liquid"
+        "liquid",
+        "ملح",
+        "to taste"
       ]
     ],
     "steps": [
