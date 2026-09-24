@@ -4,6 +4,7 @@ import breakfast from '../egyptianCooking/breakfast.json';
 import mainCoursesA from '../egyptianCooking/mainCoursesA.json';
 import mainCoursesB from '../egyptianCooking/mainCoursesB.json';
 import mainCoursesC from '../egyptianCooking/mainCoursesC.json';
+import mainCoursesD from '../egyptianCooking/mainCoursesD.json';
 import sweetsAndBeverages from '../egyptianCooking/sweetsAndBeverages.json';
 
 // Recipes from Samia Abdennour's cookbook "Egyptian Cooking and Other Middle
@@ -135,5 +136,6 @@ export const egyptianCookingRecipes: Recipe[] = ([
   mainCoursesA,
   mainCoursesB,
   mainCoursesC,
+  mainCoursesD,
   sweetsAndBeverages
 ] as unknown as BookRecipe[][]).flat().map(toRecipe);
