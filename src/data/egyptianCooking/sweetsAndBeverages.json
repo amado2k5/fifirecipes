@@ -9,18 +9,66 @@
     "cook": "1 hour 30 min (includes chilling)",
     "difficulty": "easy",
     "ingredients": [
-      ["Water", "5 cups", "liquid"],
-      ["Sugar", "2 cups", "sweet_fruit"],
-      ["Lemon juice", "1 cup", "sweet_fruit"],
-      ["Grated lemon rind", "from 3–4 lemons", "sweet_fruit"]
+      [
+        "Water",
+        "5 cups",
+        "liquid",
+        "عصير ليمون طازج",
+        "كوپ واحد"
+      ],
+      [
+        "Sugar",
+        "2 cups",
+        "sweet_fruit",
+        "سكر",
+        "ثلاثة أرباع كوپ"
+      ],
+      [
+        "Lemon juice",
+        "1 cup",
+        "sweet_fruit",
+        "ماء",
+        "كوپ واحد"
+      ],
+      [
+        "Grated lemon rind",
+        "from 3–4 lemons",
+        "sweet_fruit",
+        "قطع جليد",
+        "حسب الحاجة"
+      ]
     ],
     "steps": [
-      "Dissolve the sugar in the water, add the lemon rind and bring to the boil over a low heat.",
-      "Boil for 10 minutes, stirring now and then and skimming as needed.",
-      "Strain and let cool.",
-      "Stir in the lemon juice.",
-      ["Pour into an ice tray and freeze for 60–90 minutes.", "finish"]
-    ]
+      [
+        "Dissolve the sugar in the water, add the lemon rind and bring to the boil over a low heat.",
+        "اخلط عصير الليمون والسكر والماء حتى يذوب السكر.",
+        "prep"
+      ],
+      [
+        "Boil for 10 minutes, stirring now and then and skimming as needed.",
+        "صفِّ الخليط.",
+        "prep"
+      ],
+      [
+        "Strain and let cool.",
+        "صب في وعاء ضحل واتركه يتجمد لمدة ساعة.",
+        "cook"
+      ],
+      [
+        "Stir in the lemon juice.",
+        "خرط الجليد بشوكة لتفتيته.",
+        "cook"
+      ],
+      [
+        "Pour into an ice tray and freeze for 60–90 minutes.",
+        "أعده للتجميد وكرر كل ساعة حتى تصبح القوام حبيبياً ناعماً.",
+        "finish"
+      ]
+    ],
+    "titleAr": "جرانيتا الليمون (جرانيتة الليمون)",
+    "prepAr": "10 دقائق",
+    "cookAr": "تجميد 6 ساعات",
+    "notesAr": "جرانيتا ليمون منعشة وحلوة الحموضة."
   },
   {
     "num": 447,
@@ -32,19 +80,67 @@
     "cook": "1 hour 30 min (includes chilling)",
     "difficulty": "easy",
     "ingredients": [
-      ["Orange juice", "3 cups", "sweet_fruit"],
-      ["Water", "2 cups", "liquid"],
-      ["Sugar", "1–2 cups", "sweet_fruit"],
-      ["Lemon juice", "1 tablespoon", "sweet_fruit"],
-      ["Grated rind of lemons and oranges", "2 of each", "sweet_fruit"]
+      [
+        "Orange juice",
+        "3 cups",
+        "sweet_fruit",
+        "عصير برتقال طازج",
+        "كوپ واحد ونصف"
+      ],
+      [
+        "Water",
+        "2 cups",
+        "liquid",
+        "سكر",
+        "ثلاثة أرباع كوپ"
+      ],
+      [
+        "Sugar",
+        "1–2 cups",
+        "sweet_fruit",
+        "ماء",
+        "نصف كوپ"
+      ],
+      [
+        "Lemon juice",
+        "1 tablespoon",
+        "sweet_fruit",
+        "قشر برتقال",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Grated rind of lemons and oranges",
+        "2 of each",
+        "sweet_fruit"
+      ]
     ],
     "steps": [
-      "Dissolve the sugar in the water, add the grated rinds and boil gently for 10 minutes, skimming as needed.",
-      "Strain and let cool.",
-      "Stir in the orange and lemon juice.",
-      ["Pour into an ice tray and freeze for 60–90 minutes.", "finish"]
+      [
+        "Dissolve the sugar in the water, add the grated rinds and boil gently for 10 minutes, skimming as needed.",
+        "اخلط عصير البرتقال والسكر والماء وقشر البرتقال حتى يذوب السكر.",
+        "prep"
+      ],
+      [
+        "Strain and let cool.",
+        "صفِّ الخليط.",
+        "prep"
+      ],
+      [
+        "Stir in the orange and lemon juice.",
+        "صب في وعاء ضحل واتركه يتجمد لمدة ساعة.",
+        "cook"
+      ],
+      [
+        "Pour into an ice tray and freeze for 60–90 minutes.",
+        "خرط الجليد بشوكة لتفتيته.",
+        "finish"
+      ]
     ],
-    "notes": "Adjust the sugar to the oranges: with sweet (sukkari) oranges, one cup is enough."
+    "notes": "Adjust the sugar to the oranges: with sweet (sukkari) oranges, one cup is enough.",
+    "titleAr": "جرانيتا البرتقال (جرانيتة البرتقال)",
+    "prepAr": "10 دقائق",
+    "cookAr": "تجميد 6 ساعات",
+    "notesAr": "جرانيتا برتقال مشرقة وحيوية."
   },
   {
     "num": 448,
@@ -56,20 +152,74 @@
     "cook": "15 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Water", "4 cups", "liquid"],
-      ["Sugar", "3 tablespoons", "sweet_fruit"],
-      ["Cornstarch", "3 tablespoons", "grain_starch"],
-      ["Rosewater", "1 tablespoon", "liquid"],
-      ["Finely crushed roasted nuts mixed with sugar", "2 tablespoons", "other"]
+      [
+        "Water",
+        "4 cups",
+        "liquid",
+        "نشا الذرة",
+        "كوپ واحد"
+      ],
+      [
+        "Sugar",
+        "3 tablespoons",
+        "sweet_fruit",
+        "سكر",
+        "كوپ واحد"
+      ],
+      [
+        "Cornstarch",
+        "3 tablespoons",
+        "grain_starch",
+        "ماء",
+        "3 أكواپ"
+      ],
+      [
+        "Rosewater",
+        "1 tablespoon",
+        "liquid",
+        "ماء الورد",
+        "3 ملاعق كبيرة"
+      ],
+      [
+        "Finely crushed roasted nuts mixed with sugar",
+        "2 tablespoons",
+        "other",
+        "صنوبر مقلي",
+        "ربع كوپ"
+      ]
     ],
     "steps": [
-      ["Mix the starch into 1 cup of cold water.", "prep"],
-      "Dissolve the sugar in the remaining water in a medium pot over a low heat.",
-      "Add the starch and stir constantly until the baluza thickens like a thin custard.",
-      "Turn off the heat, stir in the rosewater and pour into individual bowls.",
-      ["When cool, sprinkle with the nuts.", "finish"]
+      [
+        "Mix the starch into 1 cup of cold water.",
+        "امزج النشا والسكر معاً.",
+        "prep"
+      ],
+      [
+        "Dissolve the sugar in the remaining water in a medium pot over a low heat.",
+        "أضف الماء ببطء مع التحريك المستمر لتجنب التكتل.",
+        "cook"
+      ],
+      [
+        "Add the starch and stir constantly until the baluza thickens like a thin custard.",
+        "اطهِ على نار متوسطة مع التحريك حتى تصبح سميكة.",
+        "cook"
+      ],
+      [
+        "Turn off the heat, stir in the rosewater and pour into individual bowls.",
+        "أضف ماء الورد.",
+        "cook"
+      ],
+      [
+        "When cool, sprinkle with the nuts.",
+        "صب في طبق مبطن بقطعة قماش رطبة.",
+        "finish"
+      ]
     ],
-    "notes": "For sweet dishes the book mixes finely crushed roasted almonds, hazelnuts, pecans or peanuts with sugar, two parts nuts to one part sugar."
+    "notes": "For sweet dishes the book mixes finely crushed roasted almonds, hazelnuts, pecans or peanuts with sugar, two parts nuts to one part sugar.",
+    "titleAr": "حلوى نشا ماء الورد (بالوظة)",
+    "prepAr": "10 دقائق",
+    "cookAr": "20 دقيقة",
+    "notesAr": "حلوى نشا ناعمة برائحة الورد."
   },
   {
     "num": 453,
@@ -81,26 +231,96 @@
     "cook": "1 hour",
     "difficulty": "easy",
     "ingredients": [
-      ["Hard, pale pumpkin", "1 kg", "vegetable"],
-      ["Sugar", "1/4 kg", "sweet_fruit"],
-      ["Raisins", "1 tablespoon", "sweet_fruit"],
-      ["Roasted almonds, halved", "1 tablespoon", "other"],
-      ["Milk", "1 cup", "dairy_fat"],
-      ["Cornflour", "1/2 teaspoon", "grain_starch"],
-      ["Sugar (for the cream)", "1 teaspoon", "sweet_fruit"],
-      ["Rosewater (optional)", "1 teaspoon", "liquid"],
-      ["Egg (optional)", "1", "dairy_fat"]
+      [
+        "Hard, pale pumpkin",
+        "1 kg",
+        "vegetable",
+        "قرع عسلي",
+        "كيلو واحد"
+      ],
+      [
+        "Sugar",
+        "1/4 kg",
+        "sweet_fruit",
+        "زبيب",
+        "نصف كوپ"
+      ],
+      [
+        "Raisins",
+        "1 tablespoon",
+        "sweet_fruit",
+        "حليب مكثف محلى",
+        "علبة واحدة"
+      ],
+      [
+        "Roasted almonds, halved",
+        "1 tablespoon",
+        "other",
+        "كريمة",
+        "نصف كوپ"
+      ],
+      [
+        "Milk",
+        "1 cup",
+        "dairy_fat",
+        "سكر",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Cornflour",
+        "1/2 teaspoon",
+        "grain_starch",
+        "قرفة مطحونة",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Sugar (for the cream)",
+        "1 teaspoon",
+        "sweet_fruit"
+      ],
+      [
+        "Rosewater (optional)",
+        "1 teaspoon",
+        "liquid"
+      ],
+      [
+        "Egg (optional)",
+        "1",
+        "dairy_fat"
+      ]
     ],
     "steps": [
-      ["Slice the pumpkin into rounds, remove the seeds, peel and chop roughly.", "prep"],
-      "Stew the pumpkin in its own juice over a very low heat, tossing at first and then stirring gently now and then so it does not stick.",
-      "When it is very soft, tilt the pot and pour off as much juice as possible. Add the 1/4 kg sugar and keep over a very low heat until dissolved.",
-      "Sweet white sauce: mix the cornflour into half the cold milk, bring the rest of the milk to the boil with the teaspoon of sugar, add the cornflour mixture and cook, stirring, until like a thin custard. Stir in the rosewater.",
-      "Mash the pumpkin smooth, spread it in a baking pan and scatter over the raisins and almonds.",
-      "Cover with a thin layer of the white sauce; the pumpkin should be twice as thick as the sauce. Pour a beaten egg over the top if you like.",
-      ["Bake in the middle of a preheated oven until bubbling, then brown the top under the grill.", "finish"]
+      [
+        "Slice the pumpkin into rounds, remove the seeds, peel and chop roughly.",
+        "قطّع القرع إلى قطع وضعه في صينية خبز مدهونة.",
+        "prep"
+      ],
+      [
+        "Stew the pumpkin in its own juice over a very low heat, tossing at first and then stirring gently now and then so it does not stick.",
+        "انثر الزبيب على القطع.",
+        "prep"
+      ],
+      [
+        "When it is very soft, tilt the pot and pour off as much juice as possible. Add the 1/4 kg sugar and keep over a very low heat until dissolved.",
+        "امزج الحليب المكثف والكريمة والسكر والقرفة.",
+        "prep"
+      ],
+      [
+        "Sweet white sauce: mix the cornflour into half the cold milk, bring the rest of the milk to the boil with the teaspoon of sugar, add the cornflour mixture and cook, stirring, until like a thin custard. Stir in the rosewater.",
+        "صب الخليط على القرع.",
+        "cook"
+      ],
+      [
+        "Mash the pumpkin smooth, spread it in a baking pan and scatter over the raisins and almonds.",
+        "اخبز في فرن ساخن 45-50 دقيقة حتى ينضج القرع.",
+        "finish"
+      ]
     ],
-    "notes": "Choose a very hard, pale pumpkin: the harder it is, the drier and riper. The seeds are good roasted with a pinch of salt."
+    "notes": "Choose a very hard, pale pumpkin: the harder it is, the drier and riper. The seeds are good roasted with a pinch of salt.",
+    "titleAr": "قرع عسلي مخبوز بالزبيب وكريمة الحليب (صنية عسلي)",
+    "prepAr": "20 دقيقة",
+    "cookAr": "50 دقيقة",
+    "notesAr": "قرع عسلي مخبوز بصلصة حليب غنية."
   },
   {
     "num": 460,
@@ -112,23 +332,86 @@
     "cook": "25 min",
     "difficulty": "medium",
     "ingredients": [
-      ["Gullash (phyllo) sheets", "1/2 kg", "grain_starch"],
-      ["Butter, melted", "2–3 tablespoons", "dairy_fat"],
-      ["Finely crushed roasted nuts mixed with sugar", "1 cup", "other"],
-      ["Ground cinnamon", "1 tablespoon", "spice_seasoning"],
-      ["Syrup: sugar", "1 cup", "sweet_fruit"],
-      ["Syrup: water", "1/2 cup", "liquid"],
-      ["Syrup: lemon juice", "1 teaspoon", "sweet_fruit"]
+      [
+        "Gullash (phyllo) sheets",
+        "1/2 kg",
+        "grain_starch",
+        "ورق جلاش (فيلو)",
+        "نصف كيلو"
+      ],
+      [
+        "Butter, melted",
+        "2–3 tablespoons",
+        "dairy_fat",
+        "مكسرات مختلطة مفرومة",
+        "كوپ واحد"
+      ],
+      [
+        "Finely crushed roasted nuts mixed with sugar",
+        "1 cup",
+        "other",
+        "سكر",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Ground cinnamon",
+        "1 tablespoon",
+        "spice_seasoning",
+        "قرفة مطحونة",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Syrup: sugar",
+        "1 cup",
+        "sweet_fruit",
+        "زيت ذائب",
+        "نصف كوپ"
+      ],
+      [
+        "Syrup: water",
+        "1/2 cup",
+        "liquid",
+        "شراب (سكر وماء وليمون)",
+        "كوپ واحد"
+      ],
+      [
+        "Syrup: lemon juice",
+        "1 teaspoon",
+        "sweet_fruit"
+      ]
     ],
     "steps": [
-      ["Syrup: boil the sugar and water for 3–5 minutes, add the lemon juice and cook until slightly thickened. Let it cool completely.", "prep"],
-      ["Mix the nuts with the cinnamon. Cut the gullash into 10 cm squares and keep them under a cloth.", "prep"],
-      "Working one square at a time, lay a pencil-thin line of filling 1 cm from the edges, turn in the sides and roll up very tightly.",
-      "Pack the fingers side by side in a greased baking pan.",
-      "Brush each with melted butter and bake in a moderate, preheated oven until golden.",
-      ["Take them out and dip them lightly in the cold syrup.", "finish"]
+      [
+        "Syrup: boil the sugar and water for 3–5 minutes, add the lemon juice and cook until slightly thickened. Let it cool completely.",
+        "امزج المكسرات والسكر والقرفة.",
+        "prep"
+      ],
+      [
+        "Mix the nuts with the cinnamon. Cut the gullash into 10 cm squares and keep them under a cloth.",
+        "ضع ملعقة من الخليط على طرف ورقة جلاش وليّفها بإحكام.",
+        "prep"
+      ],
+      [
+        "Working one square at a time, lay a pencil-thin line of filling 1 cm from the edges, turn in the sides and roll up very tightly.",
+        "رتّب الأصابع على صينية خبز واسكب الزيت عليها.",
+        "cook"
+      ],
+      [
+        "Pack the fingers side by side in a greased baking pan.",
+        "اخبز في فرن ساخن 20-25 دقيقة حتى تصبح ذهبية.",
+        "cook"
+      ],
+      [
+        "Brush each with melted butter and bake in a moderate, preheated oven until golden.",
+        "سخّن الشراب وصبّه على الأصابع الساخنة مباشرة.",
+        "finish"
+      ]
     ],
-    "notes": "The book’s rule: pour hot syrup over cold sweets, and cold syrup over hot ones."
+    "notes": "The book’s rule: pour hot syrup over cold sweets, and cold syrup over hot ones.",
+    "titleAr": "أصابع جلاش محشوة بالمكسرات مع الشراب (أصابع جلاش)",
+    "prepAr": "45 دقيقة",
+    "cookAr": "25 دقيقة",
+    "notesAr": "أصابع جلاش محشوة بالمكسرات والشراب."
   },
   {
     "num": 472,
@@ -139,14 +422,44 @@
     "cook": "5 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Water", "1 cup per person", "liquid"],
-      ["Aniseed", "1/2–1 teaspoon per cup", "spice_seasoning"],
-      ["Sugar", "to taste", "sweet_fruit"]
+      [
+        "Water",
+        "1 cup per person",
+        "liquid",
+        "بذور اليانسون",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Aniseed",
+        "1/2–1 teaspoon per cup",
+        "spice_seasoning",
+        "ماء",
+        "كوپ واحد"
+      ],
+      [
+        "Sugar",
+        "to taste",
+        "sweet_fruit",
+        "سكر",
+        "ملعقة صغيرة"
+      ]
     ],
     "steps": [
-      "Boil the water with the aniseed for 1–2 minutes, until fragrant.",
-      ["Strain, sweeten to taste and serve.", "finish"]
-    ]
+      [
+        "Boil the water with the aniseed for 1–2 minutes, until fragrant.",
+        "احمِّ الماء حتى يغلي.",
+        "cook"
+      ],
+      [
+        "Strain, sweeten to taste and serve.",
+        "أضف بذور اليانسون والسكر.",
+        "finish"
+      ]
+    ],
+    "titleAr": "شراب اليانسون الساخن (يانسون)",
+    "prepAr": "5 دقائق",
+    "cookAr": "10 دقائق",
+    "notesAr": "شراب اليانسون الدافئ والعطري."
   },
   {
     "num": 473,
@@ -157,14 +470,44 @@
     "cook": "5 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Water", "1 cup per person", "liquid"],
-      ["Roasted caraway seeds", "1 teaspoon per cup", "spice_seasoning"],
-      ["Sugar", "to taste", "sweet_fruit"]
+      [
+        "Water",
+        "1 cup per person",
+        "liquid",
+        "بذور الكراوية",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Roasted caraway seeds",
+        "1 teaspoon per cup",
+        "spice_seasoning",
+        "ماء",
+        "كوپ واحد"
+      ],
+      [
+        "Sugar",
+        "to taste",
+        "sweet_fruit",
+        "سكر",
+        "ملعقة صغيرة"
+      ]
     ],
     "steps": [
-      "Boil the water with the caraway for 1–2 minutes, until fragrant.",
-      ["Strain, sweeten to taste and serve.", "finish"]
-    ]
+      [
+        "Boil the water with the caraway for 1–2 minutes, until fragrant.",
+        "احمِّ الماء حتى يغلي.",
+        "cook"
+      ],
+      [
+        "Strain, sweeten to taste and serve.",
+        "أضف بذور الكراوية والسكر.",
+        "finish"
+      ]
+    ],
+    "titleAr": "شراب الكراوية الساخن (كراوية)",
+    "prepAr": "5 دقائق",
+    "cookAr": "10 دقائق",
+    "notesAr": "شراب الكراوية الدافئ والمريح."
   },
   {
     "num": 474,
@@ -175,15 +518,51 @@
     "cook": "5 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Water", "1 cup per person", "liquid"],
-      ["Ground cinnamon", "1/2 teaspoon per cup", "spice_seasoning"],
-      ["Sugar", "to taste", "sweet_fruit"],
-      ["Crushed mixed nuts", "1 teaspoon per cup", "other"]
+      [
+        "Water",
+        "1 cup per person",
+        "liquid",
+        "قرفة مطحونة",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Ground cinnamon",
+        "1/2 teaspoon per cup",
+        "spice_seasoning",
+        "ماء",
+        "كوپ واحد"
+      ],
+      [
+        "Sugar",
+        "to taste",
+        "sweet_fruit",
+        "سكر",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Crushed mixed nuts",
+        "1 teaspoon per cup",
+        "other",
+        "مكسرات مفرومة",
+        "ملعقة كبيرة"
+      ]
     ],
     "steps": [
-      "Boil the water with the cinnamon for 1–2 minutes, until fragrant.",
-      ["Strain, sweeten to taste and serve with the nuts sprinkled over each cup.", "finish"]
-    ]
+      [
+        "Boil the water with the cinnamon for 1–2 minutes, until fragrant.",
+        "احمِّ الماء حتى يغلي.",
+        "cook"
+      ],
+      [
+        "Strain, sweeten to taste and serve with the nuts sprinkled over each cup.",
+        "أضف القرفة والزنجبيل والسكر.",
+        "finish"
+      ]
+    ],
+    "titleAr": "شراب القرفة الساخن مع المكسرات (عرفة)",
+    "prepAr": "10 دقائق",
+    "cookAr": "15 دقيقة",
+    "notesAr": "شراب قرفة دافئ مع مكسرات."
   },
   {
     "num": 475,
@@ -194,18 +573,64 @@
     "cook": "5 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Water", "1 small coffee cup (about 60 ml) per person", "liquid"],
-      ["Finely ground Turkish coffee", "1 teaspoon per cup", "other"],
-      ["Sugar", "0–2 teaspoons per cup", "sweet_fruit"]
+      [
+        "Water",
+        "1 small coffee cup (about 60 ml) per person",
+        "liquid",
+        "قهوة مطحونة ناعمة جداً",
+        "ملعقة كبيرة"
+      ],
+      [
+        "Finely ground Turkish coffee",
+        "1 teaspoon per cup",
+        "other",
+        "ماء",
+        "فنجان واحد"
+      ],
+      [
+        "Sugar",
+        "0–2 teaspoons per cup",
+        "sweet_fruit",
+        "سكر",
+        "ملعقة صغيرة إلى ملعقة ونصف"
+      ]
     ],
     "steps": [
-      ["Choose the sweetness: sada (no sugar), ‘ar-riha (just a whiff, up to 1/2 teaspoon), mazbut (as much sugar as coffee) or ziyada (twice as much sugar as coffee).", "prep"],
-      "Heat the water in a kanaka (small long-handled coffee pot), then add the coffee and sugar and stir.",
-      "Take it off the heat the moment it rises and forms a layer of foam.",
-      ["Serve at once, pouring with a gentle shake of the hand so all the foam goes into the cup.", "finish"],
-      ["For several cups made in one pot, spoon the foam into the cups first so each gets a share, then pour the coffee gently down the side of each cup.", "alternative"],
-      ["Mehawega (spiced) coffee (recipe 476 in the book): use coffee ground with cardamom, plus a pinch of mastic or powdered dried orange peel.", "alternative"]
-    ]
+      [
+        "Choose the sweetness: sada (no sugar), ‘ar-riha (just a whiff, up to 1/2 teaspoon), mazbut (as much sugar as coffee) or ziyada (twice as much sugar as coffee).",
+        "ضع القهوة والسكر والهيل في برطمان القهوة (جزوة).",
+        "prep"
+      ],
+      [
+        "Heat the water in a kanaka (small long-handled coffee pot), then add the coffee and sugar and stir.",
+        "أضف الماء البارد.",
+        "cook"
+      ],
+      [
+        "Take it off the heat the moment it rises and forms a layer of foam.",
+        "ضع على نار عالية حتى يتصاعد الرغوة.",
+        "cook"
+      ],
+      [
+        "Serve at once, pouring with a gentle shake of the hand so all the foam goes into the cup.",
+        "أزل عن النار قبل الغليان تماماً.",
+        "finish"
+      ],
+      [
+        "For several cups made in one pot, spoon the foam into the cups first so each gets a share, then pour the coffee gently down the side of each cup.",
+        "صب قليلاً من الرغوة في كل فنجان.",
+        "alternative"
+      ],
+      [
+        "Mehawega (spiced) coffee (recipe 476 in the book): use coffee ground with cardamom, plus a pinch of mastic or powdered dried orange peel.",
+        "أعد للنار وصب المتبقي.",
+        "alternative"
+      ]
+    ],
+    "titleAr": "قهوة مصرية تركية ('قهوة)",
+    "prepAr": "5 دقائق",
+    "cookAr": "10 دقائق",
+    "notesAr": "قهوة مصرية تركية قوية وسميكة."
   },
   {
     "num": 477,
@@ -216,15 +641,49 @@
     "cook": "20 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Water", "1 cup per person", "liquid"],
-      ["Fenugreek seeds", "1 teaspoon per cup", "spice_seasoning"],
-      ["Sugar", "to taste", "sweet_fruit"]
+      [
+        "Water",
+        "1 cup per person",
+        "liquid",
+        "بذور الحلبة",
+        "ملعقة كبيرة"
+      ],
+      [
+        "Fenugreek seeds",
+        "1 teaspoon per cup",
+        "spice_seasoning",
+        "ماء",
+        "كوپ واحد"
+      ],
+      [
+        "Sugar",
+        "to taste",
+        "sweet_fruit",
+        "سكر",
+        "ملعقتان كبيرتان"
+      ]
     ],
     "steps": [
-      "Boil the fenugreek in the water for 15–20 minutes, until the seeds are tender.",
-      "Sweeten and pour into cups, seeds and all.",
-      ["Once the drink is finished, eat the seeds, with a little more sugar if you like.", "finish"]
-    ]
+      [
+        "Boil the fenugreek in the water for 15–20 minutes, until the seeds are tender.",
+        "احمِّ بذور الحلبة في مقلاة حتى تصبح عطرة.",
+        "cook"
+      ],
+      [
+        "Sweeten and pour into cups, seeds and all.",
+        "أضف الماء والسكر.",
+        "cook"
+      ],
+      [
+        "Once the drink is finished, eat the seeds, with a little more sugar if you like.",
+        "اطهِ 10-12 دقيقة.",
+        "finish"
+      ]
+    ],
+    "titleAr": "شراب الحلبة الحلو (حلبة)",
+    "prepAr": "5 دقائق",
+    "cookAr": "15 دقيقة",
+    "notesAr": "شراب الحلبة الدافئ والحلو."
   },
   {
     "num": 478,
@@ -235,14 +694,44 @@
     "cook": "3 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Water", "1 cup per person", "liquid"],
-      ["Dried mint leaves", "1/2 teaspoon per cup", "spice_seasoning"],
-      ["Sugar", "to taste", "sweet_fruit"]
+      [
+        "Water",
+        "1 cup per person",
+        "liquid",
+        "أوراق نعناع طازجة",
+        "حفنة"
+      ],
+      [
+        "Dried mint leaves",
+        "1/2 teaspoon per cup",
+        "spice_seasoning",
+        "ماء",
+        "كوپ واحد"
+      ],
+      [
+        "Sugar",
+        "to taste",
+        "sweet_fruit",
+        "سكر",
+        "ملعقة صغيرة"
+      ]
     ],
     "steps": [
-      "Bring the water to the boil, add the mint and boil for 1 minute only; longer makes it bitter.",
-      ["Strain, sweeten to taste and serve.", "finish"]
-    ]
+      [
+        "Bring the water to the boil, add the mint and boil for 1 minute only; longer makes it bitter.",
+        "احمِّ الماء حتى يغلي.",
+        "cook"
+      ],
+      [
+        "Strain, sweeten to taste and serve.",
+        "أضف أوراق النعناع والسكر.",
+        "finish"
+      ]
+    ],
+    "titleAr": "شراب النعناع الساخن (نعناع)",
+    "prepAr": "5 دقائق",
+    "cookAr": "10 دقائق",
+    "notesAr": "شراب نعناع منعش ودافئ."
   },
   {
     "num": 480,
@@ -254,18 +743,64 @@
     "cook": "45 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Hot red peppers", "1/2 kg", "vegetable"],
-      ["Small chili pepper", "1", "vegetable"],
-      ["Sugar", "a pinch", "sweet_fruit"],
-      ["Olive oil", "2 tablespoons", "dairy_fat"],
-      ["Salt", "to taste", "spice_seasoning"]
+      [
+        "Hot red peppers",
+        "1/2 kg",
+        "vegetable",
+        "فلفل أحمر حار",
+        "كيلو واحد"
+      ],
+      [
+        "Small chili pepper",
+        "1",
+        "vegetable",
+        "طماطم",
+        "500 غرام"
+      ],
+      [
+        "Sugar",
+        "a pinch",
+        "sweet_fruit",
+        "بصل",
+        "اثنان"
+      ],
+      [
+        "Olive oil",
+        "2 tablespoons",
+        "dairy_fat",
+        "فصوص ثوم",
+        "8-10 فصوص"
+      ],
+      [
+        "Salt",
+        "to taste",
+        "spice_seasoning",
+        "ملح",
+        "ملعقتان كبيرتان"
+      ]
     ],
     "steps": [
-      "Blend the peppers, chili, sugar and salt with 2–3 cups of water in a food processor.",
-      "Cook in a pot over a medium heat until thick.",
-      ["Stir in the olive oil and chill overnight before using.", "finish"]
+      [
+        "Blend the peppers, chili, sugar and salt with 2–3 cups of water in a food processor.",
+        "قطّع الفلفل والطماطم والبصل والثوم.",
+        "prep"
+      ],
+      [
+        "Cook in a pot over a medium heat until thick.",
+        "احمِّ الزيت واقلِ البصل والثوم.",
+        "cook"
+      ],
+      [
+        "Stir in the olive oil and chill overnight before using.",
+        "أضف الفلفل والطماطم والملح والسكر.",
+        "finish"
+      ]
     ],
-    "notes": "A Turkish paste. The book lists a chili but doesn’t say when to add it; we blend it in with the peppers."
+    "notes": "A Turkish paste. The book lists a chili but doesn’t say when to add it; we blend it in with the peppers.",
+    "titleAr": "معجون الفلفل الأحمر التركي (بيبر سلتشة)",
+    "prepAr": "30 دقيقة",
+    "cookAr": "50 دقيقة",
+    "notesAr": "معجون فلفل أحمر تركي حار."
   },
   {
     "num": 481,
@@ -277,23 +812,89 @@
     "cook": "30 min soaking",
     "difficulty": "medium",
     "ingredients": [
-      ["Hot red chili pepper", "1", "vegetable"],
-      ["Onions, very finely chopped", "2", "vegetable"],
-      ["Salt", "2 tablespoons", "spice_seasoning"],
-      ["Turmeric", "a pinch", "spice_seasoning"],
-      ["Black pepper", "1 teaspoon", "spice_seasoning"],
-      ["Cinnamon", "1/2 teaspoon", "spice_seasoning"],
-      ["Caraway seeds", "1/2 teaspoon", "spice_seasoning"],
-      ["Tabil (Tunisian spice mix)", "1/2 teaspoon", "spice_seasoning"],
-      ["Olive oil", "3 tablespoons, plus extra to cover", "dairy_fat"]
+      [
+        "Hot red chili pepper",
+        "1",
+        "vegetable",
+        "بصل مفروم ناعماً جداً",
+        "كيلو واحد"
+      ],
+      [
+        "Onions, very finely chopped",
+        "2",
+        "vegetable",
+        "ملح",
+        "3 ملاعق كبيرة"
+      ],
+      [
+        "Salt",
+        "2 tablespoons",
+        "spice_seasoning",
+        "فلفل حار مفروم",
+        "ملعقة كبيرة"
+      ],
+      [
+        "Turmeric",
+        "a pinch",
+        "spice_seasoning",
+        "كمون مطحون",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Black pepper",
+        "1 teaspoon",
+        "spice_seasoning",
+        "كزبرة مطحونة",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Cinnamon",
+        "1/2 teaspoon",
+        "spice_seasoning"
+      ],
+      [
+        "Caraway seeds",
+        "1/2 teaspoon",
+        "spice_seasoning"
+      ],
+      [
+        "Tabil (Tunisian spice mix)",
+        "1/2 teaspoon",
+        "spice_seasoning"
+      ],
+      [
+        "Olive oil",
+        "3 tablespoons, plus extra to cover",
+        "dairy_fat"
+      ]
     ],
     "steps": [
-      ["Put the onions in a bowl with the turmeric and salt and leave for two days, until wet and soft. Squeeze out the moisture.", "prep"],
-      ["Remove the chili’s stem and seeds, chop it coarsely, soak in boiling water for 30 minutes, then drain and pat dry.", "prep"],
-      "Blend everything into a smooth, thick paste.",
-      ["Pack into a jar, cover with a thin layer of olive oil, close and refrigerate.", "finish"]
+      [
+        "Put the onions in a bowl with the turmeric and salt and leave for two days, until wet and soft. Squeeze out the moisture.",
+        "امزج البصل والملح والفلفل الحار والكمون والكزبرة.",
+        "prep"
+      ],
+      [
+        "Remove the chili’s stem and seeds, chop it coarsely, soak in boiling water for 30 minutes, then drain and pat dry.",
+        "ضع الخليط في جرة زجاجية.",
+        "prep"
+      ],
+      [
+        "Blend everything into a smooth, thick paste.",
+        "غطِّ الجرة وضعها في مكان دافئ للتخمير.",
+        "cook"
+      ],
+      [
+        "Pack into a jar, cover with a thin layer of olive oil, close and refrigerate.",
+        "اترك تخمير 3-5 أيام حتى تصبح الرائحة قوية.",
+        "finish"
+      ]
     ],
-    "notes": "A Tunisian condiment."
+    "notes": "A Tunisian condiment.",
+    "titleAr": "خروص تونسي (معجون بصل وفلفل مخمر)",
+    "prepAr": "30 دقيقة",
+    "cookAr": "تخمير عدة أيام",
+    "notesAr": "معجون بصل وفلفل تونسي مخمر."
   },
   {
     "num": 483,
@@ -304,19 +905,71 @@
     "prep": "15 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Garlic cloves", "20", "vegetable"],
-      ["Cardamom pods", "5", "spice_seasoning"],
-      ["Caraway seeds", "1 teaspoon", "spice_seasoning"],
-      ["Hot red peppers", "4", "vegetable"],
-      ["Coriander leaves", "1 cup", "vegetable"],
-      ["Black pepper", "1 teaspoon", "spice_seasoning"],
-      ["Salt", "1 tablespoon", "spice_seasoning"]
+      [
+        "Garlic cloves",
+        "20",
+        "vegetable",
+        "فلفل أخضر حار",
+        "3-4"
+      ],
+      [
+        "Cardamom pods",
+        "5",
+        "spice_seasoning",
+        "أوراق كزبرة طازجة",
+        "كوپ واحد"
+      ],
+      [
+        "Caraway seeds",
+        "1 teaspoon",
+        "spice_seasoning",
+        "فصوص ثوم",
+        "5-7 فصوص"
+      ],
+      [
+        "Hot red peppers",
+        "4",
+        "vegetable",
+        "عصير ليمون",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Coriander leaves",
+        "1 cup",
+        "vegetable",
+        "زيت زيتون",
+        "ملعقة كبيرة"
+      ],
+      [
+        "Black pepper",
+        "1 teaspoon",
+        "spice_seasoning",
+        "ملح",
+        "حسب الرغبة"
+      ],
+      [
+        "Salt",
+        "1 tablespoon",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      "Pound everything in a mortar, or blend it, until evenly mixed.",
-      ["Keep in a tightly closed jar.", "finish"]
+      [
+        "Pound everything in a mortar, or blend it, until evenly mixed.",
+        "قطّع الفلفل الأخضر والكزبرة والثوم بشكل خشن.",
+        "prep"
+      ],
+      [
+        "Keep in a tightly closed jar.",
+        "اهرس المكونات معاً في هاون حتى تصبح حبيبية.",
+        "finish"
+      ]
     ],
-    "notes": "A Yemeni spice paste, used in the fenugreek fatut in this collection."
+    "notes": "A Yemeni spice paste, used in the fenugreek fatut in this collection.",
+    "titleAr": "ضوق يمني (معجون فلفل أخضر وكزبرة)",
+    "prepAr": "15 دقيقة",
+    "cookAr": "0 دقيقة",
+    "notesAr": "ضوق يمني أخضر حار وطازج."
   },
   {
     "num": 485,
@@ -327,18 +980,70 @@
     "prep": "10 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Coriander seeds", "to taste", "spice_seasoning"],
-      ["Caraway seeds", "to taste", "spice_seasoning"],
-      ["Fennel seeds", "to taste", "spice_seasoning"],
-      ["Aniseed", "to taste", "spice_seasoning"],
-      ["Cumin", "to taste", "spice_seasoning"],
-      ["Turmeric", "to taste", "spice_seasoning"],
-      ["Dried garlic", "to taste", "spice_seasoning"],
-      ["Pepper", "to taste", "spice_seasoning"]
+      [
+        "Coriander seeds",
+        "to taste",
+        "spice_seasoning",
+        "كزبرة مطحونة",
+        "ملعقة كبيرة"
+      ],
+      [
+        "Caraway seeds",
+        "to taste",
+        "spice_seasoning",
+        "كمون مطحون",
+        "ملعقة كبيرة"
+      ],
+      [
+        "Fennel seeds",
+        "to taste",
+        "spice_seasoning",
+        "ريحان مطحون",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Aniseed",
+        "to taste",
+        "spice_seasoning",
+        "قرنفل مطحون",
+        "نصف ملعقة صغيرة"
+      ],
+      [
+        "Cumin",
+        "to taste",
+        "spice_seasoning",
+        "فلفل أسود مطحون",
+        "نصف ملعقة صغيرة"
+      ],
+      [
+        "Turmeric",
+        "to taste",
+        "spice_seasoning",
+        "ملح",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Dried garlic",
+        "to taste",
+        "spice_seasoning"
+      ],
+      [
+        "Pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Crush all the spices together into a powder, in whatever proportions you like.", "finish"]
+      [
+        "Crush all the spices together into a powder, in whatever proportions you like.",
+        "امزج جميع البهارات معاً.",
+        "finish"
+      ]
     ],
-    "notes": "The Tunisian spice blend used in several dishes in this collection. The book gives no fixed quantities."
+    "notes": "The Tunisian spice blend used in several dishes in this collection. The book gives no fixed quantities.",
+    "titleAr": "طابل التونسي (خليط بهارات)",
+    "prepAr": "10 دقائق",
+    "cookAr": "0 دقيقة",
+    "notesAr": "خليط بهارات تونسي تقليدي."
   }
 ]
