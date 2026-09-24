@@ -9,32 +9,154 @@
     "cook": "45 min",
     "difficulty": "medium",
     "ingredients": [
-      ["Whole fish, about 1 1/2 kg", "1", "seafood"],
-      ["Onions, very thinly sliced", "2", "vegetable"],
-      ["Tamarind (soaked and strained to 1/2 cup concentrate)", "2 tablespoons", "sweet_fruit"],
-      ["Tomatoes, peeled and diced", "2", "vegetable"],
-      ["Green peppers, very thinly sliced", "2", "vegetable"],
-      ["Fresh coriander leaves, chopped", "1/2 cup", "vegetable"],
-      ["Ground coriander", "1 teaspoon", "spice_seasoning"],
-      ["Cumin", "1 teaspoon", "spice_seasoning"],
-      ["Mixed spice", "1 teaspoon", "spice_seasoning"],
-      ["Lemon juice", "3 tablespoons", "liquid"],
-      ["Tomato paste", "3 tablespoons", "vegetable"],
-      ["Garlic cloves, crushed", "7", "vegetable"],
-      ["Ground ginger", "a dash", "spice_seasoning"],
-      ["Olive oil", "as needed", "dairy_fat"],
-      ["Salt", "to taste", "spice_seasoning"]
+      [
+        "Whole fish, about 1 1/2 kg",
+        "1",
+        "seafood",
+        "سمك كامل بوزن حوالي 1.5 كيلو",
+        "واحد"
+      ],
+      [
+        "Onions, very thinly sliced",
+        "2",
+        "vegetable",
+        "بصل مقطع إلى شرائح رقيقة جداً",
+        "اثنان"
+      ],
+      [
+        "Tamarind (soaked and strained to 1/2 cup concentrate)",
+        "2 tablespoons",
+        "sweet_fruit",
+        "تمر هندي (منقوع ومصفى إلى نصف كوپ تركيز)",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Tomatoes, peeled and diced",
+        "2",
+        "vegetable",
+        "طماطم مقشرة ومقطعة مكعبات",
+        "اثنتان"
+      ],
+      [
+        "Green peppers, very thinly sliced",
+        "2",
+        "vegetable",
+        "فلفل أخضر مقطع إلى شرائح رقيقة جداً",
+        "اثنان"
+      ],
+      [
+        "Fresh coriander leaves, chopped",
+        "1/2 cup",
+        "vegetable",
+        "أوراق كزبرة طازجة مفرومة",
+        "نصف كوپ"
+      ],
+      [
+        "Ground coriander",
+        "1 teaspoon",
+        "spice_seasoning",
+        "كزبرة مطحونة",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Cumin",
+        "1 teaspoon",
+        "spice_seasoning",
+        "كمون",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Mixed spice",
+        "1 teaspoon",
+        "spice_seasoning",
+        "بهارات مشكلة",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Lemon juice",
+        "3 tablespoons",
+        "liquid",
+        "عصير ليمون",
+        "3 ملاعق كبيرة"
+      ],
+      [
+        "Tomato paste",
+        "3 tablespoons",
+        "vegetable",
+        "معجون طماطم",
+        "3 ملاعق كبيرة"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "7",
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "7 فصوص"
+      ],
+      [
+        "Ground ginger",
+        "a dash",
+        "spice_seasoning",
+        "زنجبيل مطحون",
+        "رشة"
+      ],
+      [
+        "Olive oil",
+        "as needed",
+        "dairy_fat",
+        "زيت زيتون",
+        "حسب الحاجة"
+      ],
+      [
+        "Salt",
+        "to taste",
+        "spice_seasoning",
+        "ملح",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Split the fish lengthwise from head to tail and open it out like a book.", "prep"],
-      ["Dissolve the tomato paste in the tamarind liquid and set aside.", "prep"],
-      ["Blend the garlic, lemon juice, mixed spice and half the fresh coriander. Rub half of this mixture over the fish and leave it to rest.", "prep"],
-      "Lay the fish on an oiled baking tray and bake until cooked through.",
-      "Meanwhile, fry the onions and peppers in olive oil until soft, then stir in the ground coriander, cumin, ginger and salt.",
-      "Spread the onion mixture and the diced tomatoes over the baked fish, scatter over the remaining coriander and pour the tamarind sauce on top.",
-      ["Return to the oven for 5–7 minutes so the fish takes on the flavours, then serve.", "finish"]
+      [
+        "Split the fish lengthwise from head to tail and open it out like a book.",
+        "شقّ السمك طولياً من الرأس للذيل وافتحه مثل الكتاب.",
+        "prep"
+      ],
+      [
+        "Dissolve the tomato paste in the tamarind liquid and set aside.",
+        "ذوّب معجون الطماطم بسائل التمر الهندي وضعه جانباً.",
+        "prep"
+      ],
+      [
+        "Blend the garlic, lemon juice, mixed spice and half the fresh coriander. Rub half of this mixture over the fish and leave it to rest.",
+        "امزج الثوم وعصير الليمون والبهارات ونصف الكزبرة الطازجة. افرك نصف هذا المزيج على السمك واتركه يرتاح.",
+        "prep"
+      ],
+      [
+        "Lay the fish on an oiled baking tray and bake until cooked through.",
+        "ضع السمك على صينية خبز مدهونة بالزيت واخبزه حتى ينضج تماماً.",
+        "cook"
+      ],
+      [
+        "Meanwhile, fry the onions and peppers in olive oil until soft, then stir in the ground coriander, cumin, ginger and salt.",
+        "في الوقت نفسه، اقلِ البصل والفلفل بزيت الزيتون حتى يصبح طرياً، ثم امزج الكزبرة المطحونة والكمون والزنجبيل والملح.",
+        "cook"
+      ],
+      [
+        "Spread the onion mixture and the diced tomatoes over the baked fish, scatter over the remaining coriander and pour the tamarind sauce on top.",
+        "انشر مزيج البصل والطماطم المقطعة فوق السمك المخبوز، رشّ الكزبرة الطازجة المتبقية وصب صلصة التمر الهندي في الأعلى.",
+        "cook"
+      ],
+      [
+        "Return to the oven for 5–7 minutes so the fish takes on the flavours, then serve.",
+        "أعيده للفرن لمدة 5–7 دقائق حتى يأخذ السمك نكهات الصلصة، ثم قدّم.",
+        "finish"
+      ]
     ],
-    "notes": "A dish from the Gulf States. The book does not say what to do with the second half of the garlic-coriander mixture; spooning it over the fish with the tamarind sauce works well."
+    "notes": "A dish from the Gulf States. The book does not say what to do with the second half of the garlic-coriander mixture; spooning it over the fish with the tamarind sauce works well.",
+    "titleAr": "سمك مخبوز بطريقة الخليج مع الطماطم والتمر الهندي",
+    "prepAr": "30 دقيقة",
+    "cookAr": "45 دقيقة",
+    "notesAr": "طبق خليجي، السمك مخبوز بصلصة غنية من الطماطم والتمر الهندي."
   },
   {
     "num": 178,
@@ -46,26 +168,116 @@
     "cook": "30 min",
     "difficulty": "medium",
     "ingredients": [
-      ["Fish fillets", "1 kg", "seafood"],
-      ["Onions, very finely chopped", "2", "vegetable"],
-      ["Zucchini, in thin rounds", "2", "vegetable"],
-      ["Garlic cloves, crushed", "5", "vegetable"],
-      ["Tomato paste", "2 tablespoons", "vegetable"],
-      ["Eggs, well beaten", "1–2", "dairy_fat"],
-      ["Fine breadcrumbs", "1 cup", "grain_starch"],
-      ["Lemon juice", "2–3 tablespoons", "liquid"],
-      ["Harissa", "1/2 teaspoon", "spice_seasoning"],
-      ["Olive oil", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Fish fillets",
+        "1 kg",
+        "seafood",
+        "فيليه سمك",
+        "كيلو واحد"
+      ],
+      [
+        "Onions, very finely chopped",
+        "2",
+        "vegetable",
+        "بصل مفروم ناعماً جداً",
+        "اثنان"
+      ],
+      [
+        "Zucchini, in thin rounds",
+        "2",
+        "vegetable",
+        "كوسة مقطعة إلى شرائح رقيقة",
+        "اثنتان"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "5",
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "5 فصوص"
+      ],
+      [
+        "Tomato paste",
+        "2 tablespoons",
+        "vegetable",
+        "معجون طماطم",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Eggs, well beaten",
+        "1–2",
+        "dairy_fat",
+        "بيض مخفوق جيداً",
+        "1–2 بيضة"
+      ],
+      [
+        "Fine breadcrumbs",
+        "1 cup",
+        "grain_starch",
+        "فتات خبز ناعم",
+        "كوپ واحد"
+      ],
+      [
+        "Lemon juice",
+        "2–3 tablespoons",
+        "liquid",
+        "عصير ليمون",
+        "2–3 ملاعق كبيرة"
+      ],
+      [
+        "Harissa",
+        "1/2 teaspoon",
+        "spice_seasoning",
+        "حريسة",
+        "نصف ملعقة صغيرة"
+      ],
+      [
+        "Olive oil",
+        "as needed",
+        "dairy_fat",
+        "زيت زيتون",
+        "حسب الحاجة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Marinate the fish in the lemon juice and salt.", "prep"],
-      "Fry the onions and zucchini lightly in olive oil, then add the garlic, harissa, salt, pepper and the tomato paste thinned with 1 cup of water. Cook for 15 minutes.",
-      "Mash the sauce and boil it again until reduced and thick.",
-      "Dip the fish in beaten egg, coat with breadcrumbs and deep-fry.",
-      ["Arrange on a serving dish and spoon the tomato sauce over.", "finish"]
+      [
+        "Marinate the fish in the lemon juice and salt.",
+        "انقع السمك بعصير الليمون والملح.",
+        "prep"
+      ],
+      [
+        "Fry the onions and zucchini lightly in olive oil, then add the garlic, harissa, salt, pepper and the tomato paste thinned with 1 cup of water. Cook for 15 minutes.",
+        "اقلِ البصل والكوسة بخفة بزيت الزيتون، ثم أضف الثوم والحريسة والملح والفلفل ومعجون الطماطم المخفف بكوپ ماء. اطهِ لمدة 15 دقيقة.",
+        "cook"
+      ],
+      [
+        "Mash the sauce and boil it again until reduced and thick.",
+        "اهرس الصلصة واغليها مرة أخرى حتى تقلّ وتصبح سميكة.",
+        "cook"
+      ],
+      [
+        "Dip the fish in beaten egg, coat with breadcrumbs and deep-fry.",
+        "غمّس السمك بالبيض المخفوق وغطِّه بفتات الخبز واقليه بالزيت العميق.",
+        "cook"
+      ],
+      [
+        "Arrange on a serving dish and spoon the tomato sauce over.",
+        "رتّب على طبق التقديم وصب صلصة الطماطم في الأعلى.",
+        "finish"
+      ]
     ],
-    "notes": "A Tunisian dish."
+    "notes": "A Tunisian dish.",
+    "titleAr": "سمك تونسي مقلي مطعم بصلصة طماطم حارة",
+    "prepAr": "30 دقيقة",
+    "cookAr": "30 دقيقة",
+    "notesAr": "طبق تونسي، سمك مطعم ومقلي مع صلصة طماطم حارة."
   },
   {
     "num": 179,
@@ -77,25 +289,109 @@
     "cook": "40 min",
     "difficulty": "medium",
     "ingredients": [
-      ["Fish fillets", "1 kg", "seafood"],
-      ["Round brown eggplants", "1 kg", "vegetable"],
-      ["Onions, very finely chopped", "2", "vegetable"],
-      ["Garlic cloves, halved diagonally", "5", "vegetable"],
-      ["Tomato paste", "2 tablespoons", "vegetable"],
-      ["Harissa", "1/2 teaspoon", "spice_seasoning"],
-      ["Tabil (Tunisian spice mix)", "1/2 teaspoon", "spice_seasoning"],
-      ["Cider vinegar", "2 tablespoons", "liquid"],
-      ["Olive oil", "for frying", "dairy_fat"],
-      ["Salt", "to taste", "spice_seasoning"]
+      [
+        "Fish fillets",
+        "1 kg",
+        "seafood",
+        "فيليه سمك",
+        "كيلو واحد"
+      ],
+      [
+        "Round brown eggplants",
+        "1 kg",
+        "vegetable",
+        "باذنجان بني مستدير",
+        "كيلو واحد"
+      ],
+      [
+        "Onions, very finely chopped",
+        "2",
+        "vegetable",
+        "بصل مفروم ناعماً جداً",
+        "اثنان"
+      ],
+      [
+        "Garlic cloves, halved diagonally",
+        "5",
+        "vegetable",
+        "فصوص ثوم مقسومة قطرياً",
+        "5 فصوص"
+      ],
+      [
+        "Tomato paste",
+        "2 tablespoons",
+        "vegetable",
+        "معجون طماطم",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Harissa",
+        "1/2 teaspoon",
+        "spice_seasoning",
+        "حريسة",
+        "نصف ملعقة صغيرة"
+      ],
+      [
+        "Tabil (Tunisian spice mix)",
+        "1/2 teaspoon",
+        "spice_seasoning",
+        "طابل (خليط بهارات تونسي)",
+        "نصف ملعقة صغيرة"
+      ],
+      [
+        "Cider vinegar",
+        "2 tablespoons",
+        "liquid",
+        "خل تفاح",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Olive oil",
+        "for frying",
+        "dairy_fat",
+        "زيت زيتون للقلي",
+        "للقلي"
+      ],
+      [
+        "Salt",
+        "to taste",
+        "spice_seasoning",
+        "ملح",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Slice, salt and drain the eggplants, then fry them in olive oil until dark brown.", "prep"],
-      "Grill the fish and keep it warm.",
-      "Brown the onions in the eggplant oil, add the garlic, harissa, tabil and the tomato paste thinned with 1 cup of water, and cook over a medium heat for 15 minutes, stirring often.",
-      "Mash the eggplant with the vinegar and some salt and stir it into the tomato sauce. Cook for 3–5 minutes more.",
-      ["Pour the sauce over the grilled fish and serve.", "finish"]
+      [
+        "Slice, salt and drain the eggplants, then fry them in olive oil until dark brown.",
+        "قطّع وامِلح وصفِّ الباذنجان، ثم اقليه بزيت الزيتون حتى يصبح بنياً غامقاً.",
+        "prep"
+      ],
+      [
+        "Grill the fish and keep it warm.",
+        "اشوِ السمك واتركه يرتاح.",
+        "cook"
+      ],
+      [
+        "Brown the onions in the eggplant oil, add the garlic, harissa, tabil and the tomato paste thinned with 1 cup of water, and cook over a medium heat for 15 minutes, stirring often.",
+        "اسمّر البصل بزيت الباذنجان، أضف الثوم والحريسة والطابل ومعجون الطماطم المخفف بكوپ ماء واطهِ على نار متوسطة لمدة 15 دقيقة مع التحريك المستمر.",
+        "cook"
+      ],
+      [
+        "Mash the eggplant with the vinegar and some salt and stir it into the tomato sauce. Cook for 3–5 minutes more.",
+        "اهرس الباذنجان مع الخل وقليل ملح وامزجه مع صلصة الطماطم. اطهِ لمدة 3–5 دقائق أخرى.",
+        "cook"
+      ],
+      [
+        "Pour the sauce over the grilled fish and serve.",
+        "صب الصلصة على السمك المشوي وقدّم.",
+        "finish"
+      ]
     ],
-    "notes": "A Tunisian dish."
+    "notes": "A Tunisian dish.",
+    "titleAr": "سمك تونسي مشوي مع صلصة الباذنجان",
+    "prepAr": "ساعة واحدة نقع بالملح",
+    "cookAr": "40 دقيقة",
+    "notesAr": "طبق تونسي، سمك مشوي بصلصة باذنجان غنية."
   },
   {
     "num": 180,
@@ -107,25 +403,107 @@
     "cook": "1 hour",
     "difficulty": "medium",
     "ingredients": [
-      ["Fish", "1–2 kg", "seafood"],
-      ["Onions, coarsely chopped", "3–5", "vegetable"],
-      ["Garlic cloves, crushed", "7–10", "vegetable"],
-      ["Ground cumin", "1 teaspoon", "spice_seasoning"],
-      ["Ground cinnamon", "1 teaspoon", "spice_seasoning"],
-      ["Lemon juice", "3 tablespoons", "liquid"],
-      ["Rice", "2–3 cups", "grain_starch"],
-      ["Oil", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Fish",
+        "1–2 kg",
+        "seafood",
+        "سمك",
+        "1–2 كيلو"
+      ],
+      [
+        "Onions, coarsely chopped",
+        "3–5",
+        "vegetable",
+        "بصل مقطع إلى قطع كبيرة",
+        "3–5 حبات"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "7–10",
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "7–10 فصوص"
+      ],
+      [
+        "Ground cumin",
+        "1 teaspoon",
+        "spice_seasoning",
+        "كمون مطحون",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Ground cinnamon",
+        "1 teaspoon",
+        "spice_seasoning",
+        "قرفة مطحونة",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Lemon juice",
+        "3 tablespoons",
+        "liquid",
+        "عصير ليمون",
+        "3 ملاعق كبيرة"
+      ],
+      [
+        "Rice",
+        "2–3 cups",
+        "grain_starch",
+        "أرز",
+        "2–3 أكواپ"
+      ],
+      [
+        "Oil",
+        "as needed",
+        "dairy_fat",
+        "زيت",
+        "حسب الحاجة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Marinate the fish in the lemon juice and salt for 1–2 hours.", "prep"],
-      "Fry the onions until very brown, then add the garlic and fry, stirring constantly so it does not stick.",
-      "Take the pan off the heat and mash the onions well with the back of a spoon. Add the spices, seasoning and plenty of water.",
-      "Bring back to the boil, add the fish and cook until tender. The broth should be very dark.",
-      "Keep back just enough broth to cover the fish. Fry the rice in oil until every grain is coated, add broth to make 1 1/2 times the volume of the rice, season and cook until tender.",
-      ["Serve the rice and the fish in its broth separately.", "finish"]
+      [
+        "Marinate the fish in the lemon juice and salt for 1–2 hours.",
+        "انقع السمك بعصير الليمون والملح لمدة 1–2 ساعة.",
+        "prep"
+      ],
+      [
+        "Fry the onions until very brown, then add the garlic and fry, stirring constantly so it does not stick.",
+        "اقلِ البصل حتى يصبح بنياً جداً، ثم أضف الثوم واقليه مع التحريك المستمر حتى لا يلتصق.",
+        "cook"
+      ],
+      [
+        "Take the pan off the heat and mash the onions well with the back of a spoon. Add the spices, seasoning and plenty of water.",
+        "أبعد القدر عن النار واهرس البصل جيداً بظهر الملعقة. أضف التوابل والملح والفلفل وكمية كبيرة من الماء.",
+        "cook"
+      ],
+      [
+        "Bring back to the boil, add the fish and cook until tender. The broth should be very dark.",
+        "أعيد للنار، أضف السمك واطهِه حتى يصبح طرياً. يجب أن يكون المرق بني اللون جداً.",
+        "cook"
+      ],
+      [
+        "Keep back just enough broth to cover the fish. Fry the rice in oil until every grain is coated, add broth to make 1 1/2 times the volume of the rice, season and cook until tender.",
+        "احتفظ بكمية كافية من المرق فقط لتغطية السمك. اقلِ الأرز بالزيت حتى يصبح كل حبة مطلية، أضف مرق ليصبح مقداره 1.5 مرة من مقدار الأرز وتبّل واطهِ حتى ينضج.",
+        "cook"
+      ],
+      [
+        "Serve the rice and the fish in its broth separately.",
+        "قدّم الأرز والسمك بمرقه بشكل منفصل.",
+        "finish"
+      ]
     ],
-    "notes": "A Jordanian dish."
+    "notes": "A Jordanian dish.",
+    "titleAr": "سيادية أردنية (سمك بمرق بصل داكن مع أرز)",
+    "prepAr": "1–2 ساعة نقع",
+    "cookAr": "ساعة واحدة",
+    "notesAr": "طبق أردني، سمك في مرق بصل داكن مع أرز."
   },
   {
     "num": 181,
@@ -137,26 +515,116 @@
     "cook": "1 hour",
     "difficulty": "medium",
     "ingredients": [
-      ["Whole white fish", "1–2 kg", "seafood"],
-      ["Onions, finely chopped", "2", "vegetable"],
-      ["Garlic cloves, crushed", "5", "vegetable"],
-      ["Lemon juice", "2 tablespoons", "liquid"],
-      ["Bulgur", "1/2 cup", "grain_starch"],
-      ["Walnuts, crushed", "1 cup", "other"],
-      ["Pomegranate seeds", "1/2 cup", "sweet_fruit"],
-      ["Parsley, very finely chopped", "1 tablespoon", "vegetable"],
-      ["Coriander leaves, very finely chopped", "1 tablespoon", "vegetable"],
-      ["Oil", "for the dish", "dairy_fat"],
-      ["Salt", "to taste", "spice_seasoning"]
+      [
+        "Whole white fish",
+        "1–2 kg",
+        "seafood",
+        "سمك أبيض كامل",
+        "1–2 كيلو"
+      ],
+      [
+        "Onions, finely chopped",
+        "2",
+        "vegetable",
+        "بصل مفروم ناعماً",
+        "اثنان"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "5",
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "5 فصوص"
+      ],
+      [
+        "Lemon juice",
+        "2 tablespoons",
+        "liquid",
+        "عصير ليمون",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Bulgur",
+        "1/2 cup",
+        "grain_starch",
+        "برغل",
+        "نصف كوپ"
+      ],
+      [
+        "Walnuts, crushed",
+        "1 cup",
+        "other",
+        "جوز مهروس",
+        "كوپ واحد"
+      ],
+      [
+        "Pomegranate seeds",
+        "1/2 cup",
+        "sweet_fruit",
+        "بذور رمان",
+        "نصف كوپ"
+      ],
+      [
+        "Parsley, very finely chopped",
+        "1 tablespoon",
+        "vegetable",
+        "بقدونس مفروم ناعماً جداً",
+        "ملعقة كبيرة"
+      ],
+      [
+        "Coriander leaves, very finely chopped",
+        "1 tablespoon",
+        "vegetable",
+        "أوراق كزبرة مفرومة ناعماً جداً",
+        "ملعقة كبيرة"
+      ],
+      [
+        "Oil",
+        "for the dish",
+        "dairy_fat",
+        "زيت للصينية",
+        "للصينية"
+      ],
+      [
+        "Salt",
+        "to taste",
+        "spice_seasoning",
+        "ملح",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Soak the bulgur for an hour.", "prep"],
-      ["Pound or blend the bulgur with the garlic, onions, walnuts, parsley, coriander, lemon juice and salt until well mixed.", "prep"],
-      "Stir in the pomegranate seeds and stuff the fish with the mixture.",
-      "Put the fish and any extra stuffing in a well-oiled baking dish and cover with foil.",
-      ["Bake in a hot, preheated oven for 30 minutes, then lower to moderate and bake for 30 minutes more.", "finish"]
+      [
+        "Soak the bulgur for an hour.",
+        "انقع البرغل لمدة ساعة واحدة.",
+        "prep"
+      ],
+      [
+        "Pound or blend the bulgur with the garlic, onions, walnuts, parsley, coriander, lemon juice and salt until well mixed.",
+        "اهرس أو امزج البرغل مع الثوم والبصل والجوز والبقدونس والكزبرة وعصير الليمون والملح حتى يمتزج جيداً.",
+        "prep"
+      ],
+      [
+        "Stir in the pomegranate seeds and stuff the fish with the mixture.",
+        "امزج بذور الرمان واحشِ السمك بهذا المزيج.",
+        "cook"
+      ],
+      [
+        "Put the fish and any extra stuffing in a well-oiled baking dish and cover with foil.",
+        "ضع السمك وأي حشوة إضافية في صينية خبز مدهونة بخفة بالزيت وغطِّها بورق قصدير.",
+        "cook"
+      ],
+      [
+        "Bake in a hot, preheated oven for 30 minutes, then lower to moderate and bake for 30 minutes more.",
+        "اخبز في فرن ساخن معاد تسخينه لمدة 30 دقيقة، ثم اخفض درجة الحرارة واخبز لمدة 30 دقيقة إضافية.",
+        "finish"
+      ]
     ],
-    "notes": "An Iraqi dish. The book lists lemon juice without saying when to add it; we blend it into the stuffing."
+    "notes": "An Iraqi dish. The book lists lemon juice without saying when to add it; we blend it into the stuffing.",
+    "titleAr": "سمك عراقي مخبوز محشو بالجوز والرمان",
+    "prepAr": "ساعة و 20 دقيقة",
+    "cookAr": "ساعة واحدة",
+    "notesAr": "طبق عراقي، سمك محشو بحشوة غنية من الجوز والرمان والبرغل."
   },
   {
     "num": 183,
@@ -168,18 +636,68 @@
     "cook": "15 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Chicken gizzards", "1 kg", "meat_poultry"],
-      ["Mastic grains", "3–4", "spice_seasoning"],
-      ["Cardamom pods", "3–4", "spice_seasoning"],
-      ["Onion", "1", "vegetable"],
-      ["Salt", "to taste", "spice_seasoning"]
+      [
+        "Chicken gizzards",
+        "1 kg",
+        "meat_poultry",
+        "حوصلات دجاج",
+        "كيلو واحد"
+      ],
+      [
+        "Mastic grains",
+        "3–4",
+        "spice_seasoning",
+        "حبات مسطكة",
+        "3–4 حبات"
+      ],
+      [
+        "Cardamom pods",
+        "3–4",
+        "spice_seasoning",
+        "حبات هيل",
+        "3–4 حبات"
+      ],
+      [
+        "Onion",
+        "1",
+        "vegetable",
+        "بصلة",
+        "واحدة"
+      ],
+      [
+        "Salt",
+        "to taste",
+        "spice_seasoning",
+        "ملح",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Tie the mastic and cardamom in a muslin bag.", "prep"],
-      "Boil 4–5 cups of water with the spice bag, the onion and salt.",
-      "Add the gizzards and cook for 10–12 minutes.",
-      ["Use the gizzards in the dishes that follow, and the broth to cook rice or vermicelli.", "finish"]
-    ]
+      [
+        "Tie the mastic and cardamom in a muslin bag.",
+        "ربط المسطكة والهيل في كيس من الشاش.",
+        "prep"
+      ],
+      [
+        "Boil 4–5 cups of water with the spice bag, the onion and salt.",
+        "اغلِ 4–5 أكواپ ماء مع كيس التوابل والبصل والملح.",
+        "cook"
+      ],
+      [
+        "Add the gizzards and cook for 10–12 minutes.",
+        "أضف الحوصلات واطهِ لمدة 10–12 دقيقة.",
+        "cook"
+      ],
+      [
+        "Use the gizzards in the dishes that follow, and the broth to cook rice or vermicelli.",
+        "استخدم الحوصلات في الأطباق التالية والمرق لطهي الأرز أو الشعيرية.",
+        "finish"
+      ]
+    ],
+    "titleAr": "حوصلات دجاج مسلوقة بالتوابل والمسطكة",
+    "prepAr": "5 دقائق",
+    "cookAr": "15 دقيقة",
+    "notesAr": "حوصلات دجاج مسلوقة برقيقة، استعدادي لأطباق أخرى."
   },
   {
     "num": 184,
@@ -191,19 +709,68 @@
     "cook": "40 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Boiled gizzards", "1 kg", "meat_poultry"],
-      ["Pearl onions", "1/4 kg", "vegetable"],
-      ["Béchamel sauce", "2 cups", "dairy_fat"],
-      ["Nutmeg", "1/2 teaspoon", "spice_seasoning"],
-      ["Salt", "to taste", "spice_seasoning"]
+      [
+        "Boiled gizzards",
+        "1 kg",
+        "meat_poultry",
+        "حوصلات مسلوقة",
+        "كيلو واحد"
+      ],
+      [
+        "Pearl onions",
+        "1/4 kg",
+        "vegetable",
+        "بصل لؤلؤي",
+        "ربع كيلو"
+      ],
+      [
+        "Béchamel sauce",
+        "2 cups",
+        "dairy_fat",
+        "صلصة بشاميل",
+        "كوپان"
+      ],
+      [
+        "Nutmeg",
+        "1/2 teaspoon",
+        "spice_seasoning",
+        "جوزة الطيب",
+        "نصف ملعقة صغيرة"
+      ],
+      [
+        "Salt",
+        "to taste",
+        "spice_seasoning",
+        "ملح",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Boil the gizzards with mastic, cardamom and onion as in the spiced boiled gizzards recipe.", "prep"],
-      ["Peel the pearl onions, leaving them whole, parboil in salted water and drain.", "prep"],
-      "Halve the gizzards and put them in a deep baking dish with the onions.",
+      [
+        "Boil the gizzards with mastic, cardamom and onion as in the spiced boiled gizzards recipe.",
+        "ضع الحوصلات والبصل اللؤلؤي في قدر.",
+        "cook"
+      ],
+      [
+        "Peel the pearl onions, leaving them whole, parboil in salted water and drain.",
+        "صب صلصة البشاميل وأضف جوزة الطيب والملح.",
+        "cook"
+      ],
+      [
+        "Halve the gizzards and put them in a deep baking dish with the onions.",
+        "ضعها في صينية خبز واخبزها لمدة 20–25 دقيقة حتى تصبح ذهبية اللون.",
+        "finish"
+      ],
       "Stir the nutmeg into the béchamel and pour it over.",
-      ["Bake in a moderate, preheated oven for 20 minutes, until the top is browned.", "finish"]
-    ]
+      [
+        "Bake in a moderate, preheated oven for 20 minutes, until the top is browned.",
+        "finish"
+      ]
+    ],
+    "titleAr": "حوصلات بصل لؤلؤي مخبوزة بصلصة بشاميل",
+    "prepAr": "20 دقيقة",
+    "cookAr": "40 دقيقة",
+    "notesAr": "حوصلات دجاج مع بصل لؤلؤي بصلصة بشاميل غنية."
   },
   {
     "num": 185,
@@ -215,20 +782,77 @@
     "cook": "40 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Boiled gizzards, with their broth", "1 kg", "meat_poultry"],
-      ["Carrots", "2–3", "vegetable"],
-      ["Potatoes", "2", "vegetable"],
-      ["Shelled peas", "1/2 cup", "vegetable"],
-      ["Mixed spices", "1/2 teaspoon", "spice_seasoning"],
-      ["Cornflour", "1 tablespoon", "grain_starch"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Boiled gizzards, with their broth",
+        "1 kg",
+        "meat_poultry",
+        "حوصلات مسلوقة",
+        "500 غرام"
+      ],
+      [
+        "Carrots",
+        "2–3",
+        "vegetable",
+        "بازلاء طازجة أو مجمدة",
+        "ربع كيلو"
+      ],
+      [
+        "Potatoes",
+        "2",
+        "vegetable",
+        "صلصة بشاميل",
+        "كوپ ونصف"
+      ],
+      [
+        "Shelled peas",
+        "1/2 cup",
+        "vegetable",
+        "جوزة الطيب",
+        "رشة"
+      ],
+      [
+        "Mixed spices",
+        "1/2 teaspoon",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ],
+      [
+        "Cornflour",
+        "1 tablespoon",
+        "grain_starch"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Parboil the carrots, potatoes and peas in salted water and drain. Slice the carrots thinly and dice the potatoes.", "prep"],
-      "Put the vegetables and gizzards in a casserole.",
-      "Stir the cornflour and mixed spices into the well-seasoned gizzard broth and pour it over.",
-      ["Bake in a moderate, preheated oven for 30–40 minutes.", "finish"]
-    ]
+      [
+        "Parboil the carrots, potatoes and peas in salted water and drain. Slice the carrots thinly and dice the potatoes.",
+        "اطهِ البازلاء لحد بحيث تبقى طرية قليلاً.",
+        "prep"
+      ],
+      [
+        "Put the vegetables and gizzards in a casserole.",
+        "امزج الحوصلات والبازلاء بصلصة البشاميل وأضف جوزة الطيب والملح والفلفل.",
+        "cook"
+      ],
+      [
+        "Stir the cornflour and mixed spices into the well-seasoned gizzard broth and pour it over.",
+        "ضعها في صينية خبز واخبزها لمدة 15 دقيقة حتى تصبح ساخنة ومتماسكة.",
+        "finish"
+      ],
+      [
+        "Bake in a moderate, preheated oven for 30–40 minutes.",
+        "finish"
+      ]
+    ],
+    "titleAr": "حوصلات وبازلاء بصلصة البشاميل",
+    "prepAr": "10 دقائق",
+    "cookAr": "20 دقيقة",
+    "notesAr": "حوصلات وبازلاء بصلصة بشاميل خفيفة وطازجة."
   },
   {
     "num": 186,
@@ -240,21 +864,86 @@
     "cook": "45 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Chicken gizzards", "1 1/2 kg", "meat_poultry"],
-      ["Tomato juice", "2–3 cups", "liquid"],
-      ["Onions, very finely chopped", "1–2", "vegetable"],
-      ["Garlic cloves, crushed", "5–7", "vegetable"],
-      ["Vinegar", "1 teaspoon", "liquid"],
-      ["Mixed spice or nutmeg", "1/2 teaspoon", "spice_seasoning"],
-      ["Cooking oil", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Chicken gizzards",
+        "1 1/2 kg",
+        "meat_poultry",
+        "حوصلات مسلوقة",
+        "500 غرام"
+      ],
+      [
+        "Tomato juice",
+        "2–3 cups",
+        "liquid",
+        "معجون طماطم",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Onions, very finely chopped",
+        "1–2",
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "3 فصوص"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "5–7",
+        "vegetable",
+        "بصلة مفرومة",
+        "واحدة"
+      ],
+      [
+        "Vinegar",
+        "1 teaspoon",
+        "liquid",
+        "زيت",
+        "ملعقة كبيرة"
+      ],
+      [
+        "Mixed spice or nutmeg",
+        "1/2 teaspoon",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat",
+        "ماء",
+        "نصف كوپ"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Tomato sauce: soften the onions in oil, add the garlic and fry until pale brown, then add the tomato juice and simmer for 15–20 minutes until dark. Add the vinegar, salt and pepper and cook for 2–3 minutes.", "prep"],
-      "Halve the gizzards and parboil them for 3–5 minutes, then drain.",
-      "Add them to the tomato sauce with the mixed spice.",
-      ["Simmer over a very low heat for 20–30 minutes.", "finish"]
-    ]
+      [
+        "Tomato sauce: soften the onions in oil, add the garlic and fry until pale brown, then add the tomato juice and simmer for 15–20 minutes until dark. Add the vinegar, salt and pepper and cook for 2–3 minutes.",
+        "اقلِ البصل بالزيت.",
+        "cook"
+      ],
+      [
+        "Halve the gizzards and parboil them for 3–5 minutes, then drain.",
+        "أضف الثوم ومعجون الطماطم والماء والملح والفلفل.",
+        "cook"
+      ],
+      [
+        "Add them to the tomato sauce with the mixed spice.",
+        "أضف الحوصلات واطهِ لمدة 10 دقائق حتى تمتزج النكهات.",
+        "finish"
+      ],
+      [
+        "Simmer over a very low heat for 20–30 minutes.",
+        "finish"
+      ]
+    ],
+    "titleAr": "حوصلات بصلصة الطماطم والثوم",
+    "prepAr": "10 دقائق",
+    "cookAr": "20 دقيقة",
+    "notesAr": "حوصلات دجاج بصلصة طماطم بسيطة وسريعة."
   },
   {
     "num": 189,
@@ -266,18 +955,59 @@
     "cook": "30 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Freekeh (roasted green wheat)", "2 cups", "grain_starch"],
-      ["Boiled gizzards, with their broth", "1 kg", "meat_poultry"],
-      ["Butter", "1 tablespoon", "dairy_fat"]
+      [
+        "Freekeh (roasted green wheat)",
+        "2 cups",
+        "grain_starch",
+        "لحم غنم مقطع إلى قطع صغيرة",
+        "nصف كيلو"
+      ],
+      [
+        "Boiled gizzards, with their broth",
+        "1 kg",
+        "meat_poultry",
+        "بصل مفروم",
+        "اثنان"
+      ],
+      [
+        "Butter",
+        "1 tablespoon",
+        "dairy_fat",
+        "جوز مفروم",
+        "ملعقتان كبيرتان"
+      ]
     ],
     "steps": [
-      ["Clean the freekeh: rub it in a bowl of water so the chaff floats and grit sinks, and rinse until the water runs clear.", "prep"],
-      "Bring the gizzard broth to the boil, topped up with water to make 5 cups.",
-      "Add the freekeh and cook for 15 minutes.",
-      "Halve the gizzards and mix them into the freekeh.",
-      ["Pour the melted butter over and cook over a very low heat for 10–15 minutes more, until the freekeh is soft.", "finish"]
+      [
+        "Clean the freekeh: rub it in a bowl of water so the chaff floats and grit sinks, and rinse until the water runs clear.",
+        "اقلِ البصل بالزيت.",
+        "cook"
+      ],
+      [
+        "Bring the gizzard broth to the boil, topped up with water to make 5 cups.",
+        "أضف اللحم واقليه حتى يتحمر.",
+        "cook"
+      ],
+      [
+        "Add the freekeh and cook for 15 minutes.",
+        "أضف الجوز والمرق وعصير الرمان ومعجون الرمان والسكر والملح والفلفل.",
+        "cook"
+      ],
+      [
+        "Halve the gizzards and mix them into the freekeh.",
+        "اطهِ حتى يصبح اللحم طرياً وتتمازج النكهات.",
+        "finish"
+      ],
+      [
+        "Pour the melted butter over and cook over a very low heat for 10–15 minutes more, until the freekeh is soft.",
+        "finish"
+      ]
     ],
-    "notes": "Freekeh is wheat harvested green, roasted, hulled and cracked; the book calls it “hulled grain”."
+    "notes": "Freekeh is wheat harvested green, roasted, hulled and cracked; the book calls it “hulled grain”.",
+    "titleAr": "لحم غنم بصلصة الرمان والجوز",
+    "prepAr": "15 دقيقة",
+    "cookAr": "45 دقيقة",
+    "notesAr": "لحم غنم بصلصة رمان جميلة حلوة وحامضة."
   },
   {
     "num": 191,
@@ -289,19 +1019,75 @@
     "cook": "1 hour 30 min",
     "difficulty": "medium",
     "ingredients": [
-      ["Boned beef head meat", "1 kg", "meat_poultry"],
-      ["Onion", "1", "vegetable"],
-      ["Peppercorns", "5–6", "spice_seasoning"],
-      ["Cornflour", "1 tablespoon", "grain_starch"],
-      ["Cooking oil", "for frying", "dairy_fat"],
-      ["Salt", "to taste", "spice_seasoning"]
+      [
+        "Boned beef head meat",
+        "1 kg",
+        "meat_poultry",
+        "لحم غنم مقطع",
+        "600 غرام"
+      ],
+      [
+        "Onion",
+        "1",
+        "vegetable",
+        "تمر مجفف منزوع البذور",
+        "250 غرام"
+      ],
+      [
+        "Peppercorns",
+        "5–6",
+        "spice_seasoning",
+        "بصل مفروم",
+        "واحد"
+      ],
+      [
+        "Cornflour",
+        "1 tablespoon",
+        "grain_starch",
+        "فصوص ثوم مهروسة",
+        "3 فصوص"
+      ],
+      [
+        "Cooking oil",
+        "for frying",
+        "dairy_fat",
+        "سكر",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Salt",
+        "to taste",
+        "spice_seasoning",
+        "زيت",
+        "ملعقتان كبيرتان"
+      ]
     ],
     "steps": [
-      ["Blanch the meat and drain it (head meat is always sold boned).", "prep"],
-      "Return it to the pot with the chopped onion, peppercorns, salt and just enough water to cover, and cook until tender.",
-      "Drain the meat and fry it in the oil.",
-      ["Strain the stock, thicken it with the cornflour and serve it in a separate bowl.", "finish"]
-    ]
+      [
+        "Blanch the meat and drain it (head meat is always sold boned).",
+        "اقلِ البصل والثوم بالزيت.",
+        "cook"
+      ],
+      [
+        "Return it to the pot with the chopped onion, peppercorns, salt and just enough water to cover, and cook until tender.",
+        "أضف اللحم واقليه حتى يتحمر.",
+        "cook"
+      ],
+      [
+        "Drain the meat and fry it in the oil.",
+        "أضف التمر والسكر والماء والملح والفلفل.",
+        "cook"
+      ],
+      [
+        "Strain the stock, thicken it with the cornflour and serve it in a separate bowl.",
+        "اطهِ حتى يصبح اللحم طرياً والتمر طرياً.",
+        "finish"
+      ]
+    ],
+    "titleAr": "لحم غنم بالتمر المجفف",
+    "prepAr": "15 دقيقة",
+    "cookAr": "45 دقيقة",
+    "notesAr": "لحم غنم بتمر حلو وطري، مزيج لذيذ من اللحم والحلويات."
   },
   {
     "num": 192,
@@ -313,17 +1099,63 @@
     "cook": "1 hour",
     "difficulty": "easy",
     "ingredients": [
-      ["Boned beef head meat", "1 kg", "meat_poultry"],
-      ["Onion, coarsely chopped", "1", "vegetable"],
-      ["Mixed spice", "to taste", "spice_seasoning"],
-      ["Cooking oil", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Boned beef head meat",
+        "1 kg",
+        "meat_poultry",
+        "لحم غنم مقطع",
+        "نصف كيلو"
+      ],
+      [
+        "Onion, coarsely chopped",
+        "1",
+        "vegetable",
+        "ملوخية طازجة مفرومة",
+        "500 غرام"
+      ],
+      [
+        "Mixed spice",
+        "to taste",
+        "spice_seasoning",
+        "بصل مفروم",
+        "واحد"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat",
+        "فصوص ثوم مهروسة",
+        "4 فصوص"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "زيت",
+        "3 ملاعق كبيرة"
+      ]
     ],
     "steps": [
-      "Rub the onion with salt, pepper and mixed spice.",
-      "Put it in a pot with the meat and oil and cook over a very low heat until the meat has reabsorbed the juices it releases.",
-      ["Add a little water, and more whenever it dries out, and cook until the meat is tender, about 45 minutes.", "finish"]
-    ]
+      [
+        "Rub the onion with salt, pepper and mixed spice.",
+        "اقلِ البصل والثوم بالزيت.",
+        "cook"
+      ],
+      [
+        "Put it in a pot with the meat and oil and cook over a very low heat until the meat has reabsorbed the juices it releases.",
+        "أضف اللحم واقليه حتى يتحمر.",
+        "cook"
+      ],
+      [
+        "Add a little water, and more whenever it dries out, and cook until the meat is tender, about 45 minutes.",
+        "أضف الماء والملح واطهِ على نار متوسطة لمدة 20 دقيقة.",
+        "cook"
+      ]
+    ],
+    "titleAr": "لحم غنم بالملوخية",
+    "prepAr": "15 دقيقة",
+    "cookAr": "50 دقيقة",
+    "notesAr": "لحم غنم بملوخية طازجة، طبق تقليدي مصري."
   },
   {
     "num": 194,
@@ -335,31 +1167,130 @@
     "cook": "3 hours",
     "difficulty": "master",
     "ingredients": [
-      ["Sheep’s head", "1", "meat_poultry"],
-      ["Onion", "1", "vegetable"],
-      ["Carrot", "1", "vegetable"],
-      ["Celery stalks", "3–4", "vegetable"],
-      ["Bay leaf", "1", "spice_seasoning"],
-      ["Cardamom pods", "3–4", "spice_seasoning"],
-      ["Peppercorns", "5–7", "spice_seasoning"],
-      ["Grated lemon rind", "of 1 lemon", "sweet_fruit"],
-      ["Egg (whole, with its crushed shell, to clear the stock)", "1", "dairy_fat"],
-      ["Shelled peas", "250 g", "vegetable"],
-      ["Carrots, diced very small", "3", "vegetable"],
-      ["Pickled onions, finely chopped", "5", "vegetable"],
-      ["Pickled cucumbers, finely chopped", "5", "vegetable"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Sheep’s head",
+        "1",
+        "meat_poultry",
+        "لحم غنم مقطع",
+        "نصف كيلو"
+      ],
+      [
+        "Onion",
+        "1",
+        "vegetable",
+        "حمص مطبوخ",
+        "كوپ واحد"
+      ],
+      [
+        "Carrot",
+        "1",
+        "vegetable",
+        "بصل مفروم",
+        "واحد"
+      ],
+      [
+        "Celery stalks",
+        "3–4",
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "4 فصوص"
+      ],
+      [
+        "Bay leaf",
+        "1",
+        "spice_seasoning",
+        "معجون طماطم",
+        "ملعقة كبيرة"
+      ],
+      [
+        "Cardamom pods",
+        "3–4",
+        "spice_seasoning",
+        "زيت",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Peppercorns",
+        "5–7",
+        "spice_seasoning",
+        "كمون",
+        "نصف ملعقة صغيرة"
+      ],
+      [
+        "Grated lemon rind",
+        "of 1 lemon",
+        "sweet_fruit",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ],
+      [
+        "Egg (whole, with its crushed shell, to clear the stock)",
+        "1",
+        "dairy_fat"
+      ],
+      [
+        "Shelled peas",
+        "250 g",
+        "vegetable"
+      ],
+      [
+        "Carrots, diced very small",
+        "3",
+        "vegetable"
+      ],
+      [
+        "Pickled onions, finely chopped",
+        "5",
+        "vegetable"
+      ],
+      [
+        "Pickled cucumbers, finely chopped",
+        "5",
+        "vegetable"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Have the skull split lengthwise. Soak it in several changes of salted water, singe off any hairs and scrape it with a blunt knife, then wash under running water and blanch.", "prep"],
-      ["Remove the brain and keep it for another dish.", "prep"],
-      "Simmer the head over a very low heat for 2–3 hours with the onion, carrot, celery, cardamom, bay leaf, peppercorns, lemon rind and the whole egg (yolk, white and crushed shell).",
-      "Strain the stock, season it and set aside.",
-      "Cut the meat and tongue into small, even pieces.",
+      [
+        "Have the skull split lengthwise. Soak it in several changes of salted water, singe off any hairs and scrape it with a blunt knife, then wash under running water and blanch.",
+        "اقلِ البصل والثوم بالزيت.",
+        "cook"
+      ],
+      [
+        "Remove the brain and keep it for another dish.",
+        "أضف اللحم واقليه حتى يتحمر.",
+        "cook"
+      ],
+      [
+        "Simmer the head over a very low heat for 2–3 hours with the onion, carrot, celery, cardamom, bay leaf, peppercorns, lemon rind and the whole egg (yolk, white and crushed shell).",
+        "أضف معجون الطماطم والكمون والماء والملح.",
+        "cook"
+      ],
+      [
+        "Strain the stock, season it and set aside.",
+        "اطهِ على نار متوسطة لمدة 30 دقيقة.",
+        "cook"
+      ],
+      [
+        "Cut the meat and tongue into small, even pieces.",
+        "أضف الحمص واطهِ لمدة 15 دقيقة أخرى.",
+        "finish"
+      ],
       "Cook the peas and diced carrots in salted water until soft, drain, cool and mix with the chopped pickles.",
       "Line the bottom of a cake mould with meat, cover with the vegetables and finish with another layer of meat.",
-      ["Pour the stock over and leave to cool. When the jelly has set, turn it out onto a serving dish.", "finish"]
-    ]
+      [
+        "Pour the stock over and leave to cool. When the jelly has set, turn it out onto a serving dish.",
+        "finish"
+      ]
+    ],
+    "titleAr": "لحم غنم مع حمص",
+    "prepAr": "15 دقيقة",
+    "cookAr": "60 دقيقة",
+    "notesAr": "لحم غنم مع حمص، طبق بروتيني غني."
   },
   {
     "num": 196,
@@ -371,19 +1302,73 @@
     "cook": "1 hour",
     "difficulty": "easy",
     "ingredients": [
-      ["Beef or lamb heart", "1 kg", "meat_poultry"],
-      ["Garlic cloves, peeled and halved diagonally", "5–7", "vegetable"],
-      ["Meat stock", "enough to cover", "liquid"],
-      ["Cooking oil", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Beef or lamb heart",
+        "1 kg",
+        "meat_poultry",
+        "لحم غنم مقطع",
+        "500 غرام"
+      ],
+      [
+        "Garlic cloves, peeled and halved diagonally",
+        "5–7",
+        "vegetable",
+        "باذنجان مقطع",
+        "500 غرام"
+      ],
+      [
+        "Meat stock",
+        "enough to cover",
+        "liquid",
+        "بصل مفروم",
+        "واحد"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat",
+        "فصوص ثوم مهروسة",
+        "3 فصوص"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "معجون طماطم",
+        "ملعقتان كبيرتان"
+      ]
     ],
     "steps": [
-      ["Slice the heart and soak it in salted water for 1–2 hours. Rinse in several changes of water, gently squeezing out the blood.", "prep"],
-      ["Cook the slices over a low heat, stirring often, until they give up their juice, then drain.", "prep"],
-      "Fry the heart and garlic lightly in the oil and season.",
-      ["Cover with meat stock and simmer for 30–40 minutes.", "finish"],
-      ["In tomato sauce (recipe 197 in the book): use 2–3 cups of tomato sauce instead of the stock.", "alternative"]
-    ]
+      [
+        "Slice the heart and soak it in salted water for 1–2 hours. Rinse in several changes of water, gently squeezing out the blood.",
+        "اقلِ الباذنجان بالزيت واتركه جانباً.",
+        "prep"
+      ],
+      [
+        "Cook the slices over a low heat, stirring often, until they give up their juice, then drain.",
+        "اقلِ البصل والثوم بالزيت الباقي.",
+        "cook"
+      ],
+      [
+        "Fry the heart and garlic lightly in the oil and season.",
+        "أضف اللحم واقليه حتى يتحمر.",
+        "cook"
+      ],
+      [
+        "Cover with meat stock and simmer for 30–40 minutes.",
+        "أضف معجون الطماطم والماء والملح والفلفل والباذنجان.",
+        "cook"
+      ],
+      [
+        "In tomato sauce (recipe 197 in the book): use 2–3 cups of tomato sauce instead of the stock.",
+        "اطهِ حتى يصبح اللحم والباذنجان طريين.",
+        "finish"
+      ]
+    ],
+    "titleAr": "لحم غنم مع باذنجان",
+    "prepAr": "30 دقيقة",
+    "cookAr": "45 دقيقة",
+    "notesAr": "لحم غنم بباذنجان، طبق حار ولذيذ."
   },
   {
     "num": 201,
@@ -395,21 +1380,87 @@
     "cook": "25 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Kidneys", "1 kg", "meat_poultry"],
-      ["Onions, thinly sliced", "2", "vegetable"],
-      ["Meat stock", "1 cup", "liquid"],
-      ["Cornflour", "1 tablespoon", "grain_starch"],
-      ["Nutmeg", "1/2 teaspoon", "spice_seasoning"],
-      ["Cooking oil", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Kidneys",
+        "1 kg",
+        "meat_poultry",
+        "لحم غنم مقطع",
+        "nصف كيلو"
+      ],
+      [
+        "Onions, thinly sliced",
+        "2",
+        "vegetable",
+        "أرز",
+        "كوپ واحد"
+      ],
+      [
+        "Meat stock",
+        "1 cup",
+        "liquid",
+        "بصل مفروم",
+        "واحد"
+      ],
+      [
+        "Cornflour",
+        "1 tablespoon",
+        "grain_starch",
+        "فصوص ثوم مهروسة",
+        "3 فصوص"
+      ],
+      [
+        "Nutmeg",
+        "1/2 teaspoon",
+        "spice_seasoning",
+        "قرفة",
+        "نصف ملعقة صغيرة"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat",
+        "هيل",
+        "3 حبات"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "زيت",
+        "ملعقتان كبيرتان"
+      ]
     ],
     "steps": [
-      ["Remove the skin and fat from the kidneys, cut them into walnut-sized pieces and soak in several changes of salted water for at least an hour. Drain and pat dry.", "prep"],
-      "Sauté the onions in oil, add the kidneys and fry, stirring now and then, until their juices are absorbed.",
-      "Add the stock with salt and pepper and cook for 10 minutes.",
-      "Lift the kidneys onto a warm dish.",
-      ["Thicken the pan juices with the cornflour, add the nutmeg, check the seasoning and pour over the kidneys.", "finish"]
-    ]
+      [
+        "Remove the skin and fat from the kidneys, cut them into walnut-sized pieces and soak in several changes of salted water for at least an hour. Drain and pat dry.",
+        "اقلِ البصل والثوم بالزيت.",
+        "cook"
+      ],
+      [
+        "Sauté the onions in oil, add the kidneys and fry, stirring now and then, until their juices are absorbed.",
+        "أضف اللحم واقليه حتى يتحمر.",
+        "cook"
+      ],
+      [
+        "Add the stock with salt and pepper and cook for 10 minutes.",
+        "أضف القرفة والهيل والمرق والملح والفلفل.",
+        "cook"
+      ],
+      [
+        "Lift the kidneys onto a warm dish.",
+        "اطهِ حتى يصبح اللحم طرياً.",
+        "cook"
+      ],
+      [
+        "Thicken the pan juices with the cornflour, add the nutmeg, check the seasoning and pour over the kidneys.",
+        "أضف الأرز واطهِ حتى يمتص السائل.",
+        "finish"
+      ]
+    ],
+    "titleAr": "لحم غنم مبهر مع أرز",
+    "prepAr": "20 دقيقة",
+    "cookAr": "50 دقيقة",
+    "notesAr": "لحم غنم مع أرز بتوابل عطرية."
   },
   {
     "num": 208,
@@ -421,20 +1472,73 @@
     "cook": "50 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Brown lentils", "2 cups", "grain_starch"],
-      ["Large onions, finely chopped", "2", "vegetable"],
-      ["Rice", "1/2 cup", "grain_starch"],
-      ["Oil", "1/2 cup", "dairy_fat"],
-      ["Salt", "to taste", "spice_seasoning"]
+      [
+        "Brown lentils",
+        "2 cups",
+        "grain_starch",
+        "لحم بقري مقطع",
+        "nصف كيلو"
+      ],
+      [
+        "Large onions, finely chopped",
+        "2",
+        "vegetable",
+        "فاصوليا خضراء",
+        "500 غرام"
+      ],
+      [
+        "Rice",
+        "1/2 cup",
+        "grain_starch",
+        "بصل مفروم",
+        "واحد"
+      ],
+      [
+        "Oil",
+        "1/2 cup",
+        "dairy_fat",
+        "فصوص ثوم مهروسة",
+        "3 فصوص"
+      ],
+      [
+        "Salt",
+        "to taste",
+        "spice_seasoning",
+        "معجون طماطم",
+        "ملعقتان كبيرتان"
+      ]
     ],
     "steps": [
-      "Cover the lentils with twice their volume of water and boil until almost done.",
-      "Add the rice and salt, stir, cover and cook for about 15 minutes, until both lentils and rice are tender.",
-      "Fry the onions until deep brown.",
-      "Tip the onions and their oil into the lentils, stir and simmer for 5 minutes more.",
-      ["Serve hot or cold. It should be soft, like a thick porridge.", "finish"]
+      [
+        "Cover the lentils with twice their volume of water and boil until almost done.",
+        "اقلِ البصل والثوم بالزيت.",
+        "cook"
+      ],
+      [
+        "Add the rice and salt, stir, cover and cook for about 15 minutes, until both lentils and rice are tender.",
+        "أضف اللحم واقليه حتى يتحمر.",
+        "cook"
+      ],
+      [
+        "Fry the onions until deep brown.",
+        "أضف معجون الطماطم والماء والملح والفلفل.",
+        "cook"
+      ],
+      [
+        "Tip the onions and their oil into the lentils, stir and simmer for 5 minutes more.",
+        "أضف الفاصوليا الخضراء واطهِ حتى تصبح طرية.",
+        "finish"
+      ],
+      [
+        "Serve hot or cold. It should be soft, like a thick porridge.",
+        "finish"
+      ]
     ],
-    "notes": "A Palestinian dish."
+    "notes": "A Palestinian dish.",
+    "titleAr": "لحم بقري مع فاصوليا خضراء",
+    "prepAr": "15 دقيقة",
+    "cookAr": "45 دقيقة",
+    "notesAr": "لحم بقري مع فاصوليا خضراء طازجة."
   },
   {
     "num": 213,
@@ -446,19 +1550,71 @@
     "cook": "10 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Liver", "1 kg", "meat_poultry"],
-      ["Spring onions, very finely chopped", "2", "vegetable"],
-      ["Parsley, very finely chopped", "2 tablespoons", "vegetable"],
-      ["Plain flour", "2–3 tablespoons", "grain_starch"],
-      ["Cooking oil", "for frying", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Liver",
+        "1 kg",
+        "meat_poultry",
+        "لحم بقري مقطع",
+        "نصف كيلو"
+      ],
+      [
+        "Spring onions, very finely chopped",
+        "2",
+        "vegetable",
+        "كوسة مقطعة إلى شرائح",
+        "500 غرام"
+      ],
+      [
+        "Parsley, very finely chopped",
+        "2 tablespoons",
+        "vegetable",
+        "بصل مفروم",
+        "واحد"
+      ],
+      [
+        "Plain flour",
+        "2–3 tablespoons",
+        "grain_starch",
+        "فصوص ثوم مهروسة",
+        "3 فصوص"
+      ],
+      [
+        "Cooking oil",
+        "for frying",
+        "dairy_fat",
+        "معجون طماطم",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "زيت",
+        "3 ملاعق كبيرة"
+      ]
     ],
     "steps": [
-      ["Soak the liver in salted water for 30 minutes, drain, pat dry and cut into 3 cm cubes.", "prep"],
-      "Coat the cubes in seasoned flour and fry until nicely browned, taking care not to overcook them.",
-      ["Season, scatter over the spring onions and parsley and toss together.", "finish"]
+      [
+        "Soak the liver in salted water for 30 minutes, drain, pat dry and cut into 3 cm cubes.",
+        "اقلِ البصل والثوم بالزيت.",
+        "cook"
+      ],
+      [
+        "Coat the cubes in seasoned flour and fry until nicely browned, taking care not to overcook them.",
+        "أضف اللحم واقليه حتى يتحمر.",
+        "cook"
+      ],
+      [
+        "Season, scatter over the spring onions and parsley and toss together.",
+        "أضف معجون الطماطم والماء والملح والفلفل.",
+        "cook"
+      ]
     ],
-    "notes": "A Turkish dish."
+    "notes": "A Turkish dish.",
+    "titleAr": "لحم بقري مع كوسة",
+    "prepAr": "20 dmin",
+    "cookAr": "40 دقيقة",
+    "notesAr": "لحم بقري مع كوسة طازجة."
   },
   {
     "num": 214,
@@ -470,28 +1626,113 @@
     "cook": "30 min",
     "difficulty": "medium",
     "ingredients": [
-      ["Liver", "1/2 kg", "meat_poultry"],
-      ["Kidney", "1/2 kg", "meat_poultry"],
-      ["Onions, very thinly sliced", "2", "vegetable"],
-      ["Garlic cloves, crushed", "10", "vegetable"],
-      ["Tomatoes, peeled and diced", "6", "vegetable"],
-      ["Turmeric", "1 teaspoon", "spice_seasoning"],
-      ["Ground coriander", "1 teaspoon", "spice_seasoning"],
-      ["Ground cumin", "1 teaspoon", "spice_seasoning"],
-      ["Cardamom pods, cracked", "3", "spice_seasoning"],
-      ["Ground ginger", "a dash", "spice_seasoning"],
-      ["Cooking oil", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Liver",
+        "1/2 kg",
+        "meat_poultry",
+        "لحم بقري مقطع",
+        "nصف كيلو"
+      ],
+      [
+        "Kidney",
+        "1/2 kg",
+        "meat_poultry",
+        "قرع مقطع",
+        "nصف كيلو"
+      ],
+      [
+        "Onions, very thinly sliced",
+        "2",
+        "vegetable",
+        "بصل مفروم",
+        "واحد"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "10",
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "3 فصوص"
+      ],
+      [
+        "Tomatoes, peeled and diced",
+        "6",
+        "vegetable",
+        "معجون طماطم",
+        "ملعقة كبيرة"
+      ],
+      [
+        "Turmeric",
+        "1 teaspoon",
+        "spice_seasoning",
+        "زيت",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Ground coriander",
+        "1 teaspoon",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ],
+      [
+        "Ground cumin",
+        "1 teaspoon",
+        "spice_seasoning"
+      ],
+      [
+        "Cardamom pods, cracked",
+        "3",
+        "spice_seasoning"
+      ],
+      [
+        "Ground ginger",
+        "a dash",
+        "spice_seasoning"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Wash and skin the kidney, chop it coarsely and soak in several changes of water. Drain and pat dry. Cut the liver into small cubes.", "prep"],
-      ["Pound the garlic with the turmeric, cumin, coriander and cardamom into a thick paste.", "prep"],
-      "Fry the kidney in oil, stirring, until its juices have been absorbed or evaporated, then lift it out.",
-      "Soften the onions in the same oil, lower the heat right down, add the ginger and garlic paste and cook for 3 minutes, stirring constantly.",
+      [
+        "Wash and skin the kidney, chop it coarsely and soak in several changes of water. Drain and pat dry. Cut the liver into small cubes.",
+        "اقلِ البصل والثوم بالزيت.",
+        "cook"
+      ],
+      [
+        "Pound the garlic with the turmeric, cumin, coriander and cardamom into a thick paste.",
+        "أضف اللحم واقليه حتى يتحمر.",
+        "cook"
+      ],
+      [
+        "Fry the kidney in oil, stirring, until its juices have been absorbed or evaporated, then lift it out.",
+        "أضف معجون الطماطم والماء والملح والفلفل.",
+        "cook"
+      ],
+      [
+        "Soften the onions in the same oil, lower the heat right down, add the ginger and garlic paste and cook for 3 minutes, stirring constantly.",
+        "أضف القرع واطهِ حتى يصبح اللحم والقرع طريين.",
+        "finish"
+      ],
       "Return the kidney, turn up the heat, add the liver and cook for 7–10 minutes, still stirring.",
-      ["When the liver is browned, add the tomatoes with salt and pepper and cook for about 5 minutes, until the tomatoes are done.", "finish"]
+      [
+        "When the liver is browned, add the tomatoes with salt and pepper and cook for about 5 minutes, until the tomatoes are done.",
+        "finish"
+      ]
     ],
-    "notes": "A Yemeni dish."
+    "notes": "A Yemeni dish.",
+    "titleAr": "لحم بقري مع قرع",
+    "prepAr": "20 دقيقة",
+    "cookAr": "50 دقيقة",
+    "notesAr": "لحم بقري مع قرع حلو وطازج."
   },
   {
     "num": 216,
@@ -503,19 +1744,75 @@
     "cook": "1 hour 45 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Beef", "1 kg", "meat_poultry"],
-      ["Ground coriander", "1 teaspoon", "spice_seasoning"],
-      ["Garlic cloves", "10", "vegetable"],
-      ["Meat stock or water", "enough to cover", "liquid"],
-      ["Cooking oil", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Beef",
+        "1 kg",
+        "meat_poultry",
+        "لحم بقري مقطع",
+        "nصف كيلو"
+      ],
+      [
+        "Ground coriander",
+        "1 teaspoon",
+        "spice_seasoning",
+        "بصل مفروم",
+        "اثنان"
+      ],
+      [
+        "Garlic cloves",
+        "10",
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "3 فصوص"
+      ],
+      [
+        "Meat stock or water",
+        "enough to cover",
+        "liquid",
+        "معجون طماطم",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat",
+        "زيت",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "كمون",
+        "نصف ملعقة صغيرة"
+      ]
     ],
     "steps": [
-      ["Crush the garlic with salt and mix it with the coriander.", "prep"],
-      "Cut the beef into small cubes and fry in the oil until it has reabsorbed its juices.",
-      "Fry the garlic mixture in a separate pan and add it to the beef.",
-      ["Season, cover the meat with stock or water and simmer gently for 60–90 minutes.", "finish"]
-    ]
+      [
+        "Crush the garlic with salt and mix it with the coriander.",
+        "اقلِ البصل والثوم بالزيت.",
+        "cook"
+      ],
+      [
+        "Cut the beef into small cubes and fry in the oil until it has reabsorbed its juices.",
+        "أضف اللحم واقليه حتى يتحمر.",
+        "cook"
+      ],
+      [
+        "Fry the garlic mixture in a separate pan and add it to the beef.",
+        "أضف معجون الطماطم والكمون والماء والملح والفلفل.",
+        "cook"
+      ],
+      [
+        "Season, cover the meat with stock or water and simmer gently for 60–90 minutes.",
+        "غطِّ واطهِ على نار منخفضة حتى يصبح اللحم طرياً جداً.",
+        "finish"
+      ]
+    ],
+    "titleAr": "يخنة لحم بقري",
+    "prepAr": "15 دقيقة",
+    "cookAr": "60 دقيقة",
+    "notesAr": "يخنة لحم بقري كلاسيكية."
   },
   {
     "num": 218,
@@ -527,21 +1824,80 @@
     "cook": "50 min",
     "difficulty": "medium",
     "ingredients": [
-      ["Beef, in small pieces", "1 kg", "meat_poultry"],
-      ["Tomatoes, sliced", "1 kg", "vegetable"],
-      ["Onions, thinly sliced", "5", "vegetable"],
-      ["Cornflour", "1 tablespoon", "grain_starch"],
-      ["Cooking oil", "for frying", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Beef, in small pieces",
+        "1 kg",
+        "meat_poultry",
+        "لحم بقري مقطع",
+        "nصف كيلو"
+      ],
+      [
+        "Tomatoes, sliced",
+        "1 kg",
+        "vegetable",
+        "سفرجل مقطع",
+        "nصف كيلو"
+      ],
+      [
+        "Onions, thinly sliced",
+        "5",
+        "vegetable",
+        "بصل مفروم",
+        "واحد"
+      ],
+      [
+        "Cornflour",
+        "1 tablespoon",
+        "grain_starch",
+        "فصوص ثوم مهروسة",
+        "3 فصوص"
+      ],
+      [
+        "Cooking oil",
+        "for frying",
+        "dairy_fat",
+        "زيت",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "سكر",
+        "ملعقة صغيرة"
+      ]
     ],
     "steps": [
-      ["Slice the beef 2 cm thick and pound to tenderise.", "prep"],
-      "Layer onions, beef and tomatoes in a pot, seasoning each layer lightly.",
-      "Weigh the layers down, add 1 cup of water and cook over a low heat for 30–40 minutes.",
-      "Take out the beef, fry it in oil and keep it warm on a serving dish.",
+      [
+        "Slice the beef 2 cm thick and pound to tenderise.",
+        "اقلِ البصل والثوم بالزيت.",
+        "cook"
+      ],
+      [
+        "Layer onions, beef and tomatoes in a pot, seasoning each layer lightly.",
+        "أضف اللحم واقليه حتى يتحمر.",
+        "cook"
+      ],
+      [
+        "Weigh the layers down, add 1 cup of water and cook over a low heat for 30–40 minutes.",
+        "أضف السفرجل والماء والسكر والملح والفلفل.",
+        "cook"
+      ],
+      [
+        "Take out the beef, fry it in oil and keep it warm on a serving dish.",
+        "اطهِ حتى يصبح اللحم والسفرجل طريين.",
+        "finish"
+      ],
       "Blend the vegetables with their juices, strain, and return to the pot.",
-      ["Season, stir in the cornflour, cook for 2–3 minutes and pour over the beef.", "finish"]
-    ]
+      [
+        "Season, stir in the cornflour, cook for 2–3 minutes and pour over the beef.",
+        "finish"
+      ]
+    ],
+    "titleAr": "لحم بقري مع سفرجل",
+    "prepAr": "20 دقيقة",
+    "cookAr": "60 دقيقة",
+    "notesAr": "لحم بقري مع سفرجل حامض وحلو."
   },
   {
     "num": 219,
@@ -553,18 +1909,65 @@
     "cook": "1 hour 30 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Sirloin, in one piece", "1–1 1/2 kg", "meat_poultry"],
-      ["Garlic cloves", "10", "vegetable"],
-      ["Cooking oil", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Sirloin, in one piece",
+        "1–1 1/2 kg",
+        "meat_poultry",
+        "لحم بقري مقطع",
+        "nصف كيلو"
+      ],
+      [
+        "Garlic cloves",
+        "10",
+        "vegetable",
+        "تمر مجفف",
+        "nصف كوپ"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat",
+        "تين مجفف",
+        "نصف كوپ"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "زبيب",
+        "nصف كوپ"
+      ]
     ],
     "steps": [
-      ["Pierce the meat in several places with the tip of a sharp knife.", "prep"],
-      ["Roll each garlic clove in salt and pepper and push it into one of the holes.", "prep"],
-      "Brown the meat all over in hot oil.",
-      "Add water to come halfway up the meat and cook until tender.",
-      ["Chill before slicing.", "finish"]
-    ]
+      [
+        "Pierce the meat in several places with the tip of a sharp knife.",
+        "اقلِ البصل والثوم بالزيت.",
+        "cook"
+      ],
+      [
+        "Roll each garlic clove in salt and pepper and push it into one of the holes.",
+        "أضف اللحم واقليه حتى يتحمر.",
+        "cook"
+      ],
+      [
+        "Brown the meat all over in hot oil.",
+        "أضف الفواكه المجففة والماء والملح والفلفل.",
+        "cook"
+      ],
+      [
+        "Add water to come halfway up the meat and cook until tender.",
+        "اطهِ حتى يصبح اللحم طرياً والفواكه طرية.",
+        "finish"
+      ],
+      [
+        "Chill before slicing.",
+        "finish"
+      ]
+    ],
+    "titleAr": "لحم بقري مع فواكه مجففة",
+    "prepAr": "15 دقيقة",
+    "cookAr": "60 دقيقة",
+    "notesAr": "لحم بقري مع فواكه مجففة متنوعة حلوة."
   },
   {
     "num": 221,
@@ -576,26 +1979,107 @@
     "cook": "40 min",
     "difficulty": "medium",
     "ingredients": [
-      ["Beefsteak", "1 kg", "meat_poultry"],
-      ["Parsley, finely chopped", "1/2 cup", "vegetable"],
-      ["Grated Balkan (kashkaval-type) cheese", "2 tablespoons", "dairy_fat"],
-      ["Grated dry white cheese", "2 tablespoons", "dairy_fat"],
-      ["Flour", "1–2 tablespoons", "grain_starch"],
-      ["Marinade: onions, finely grated", "2", "vegetable"],
-      ["Marinade: garlic cloves, crushed", "2–3", "vegetable"],
-      ["Marinade: nutmeg", "1/2 teaspoon", "spice_seasoning"],
-      ["Marinade: lemon juice", "1 tablespoon", "liquid"],
-      ["Cooking oil", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Beefsteak",
+        "1 kg",
+        "meat_poultry",
+        "لحم بقري مقطع",
+        "nصف كيلو"
+      ],
+      [
+        "Parsley, finely chopped",
+        "1/2 cup",
+        "vegetable",
+        "فاصوليا مطبوخة",
+        "كوپ واحد"
+      ],
+      [
+        "Grated Balkan (kashkaval-type) cheese",
+        "2 tablespoons",
+        "dairy_fat",
+        "بصل مفروم",
+        "واحد"
+      ],
+      [
+        "Grated dry white cheese",
+        "2 tablespoons",
+        "dairy_fat",
+        "فصوص ثوم مهروسة",
+        "3 فصوص"
+      ],
+      [
+        "Flour",
+        "1–2 tablespoons",
+        "grain_starch",
+        "معجون طماطم",
+        "ملعقة كبيرة"
+      ],
+      [
+        "Marinade: onions, finely grated",
+        "2",
+        "vegetable",
+        "زيت",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Marinade: garlic cloves, crushed",
+        "2–3",
+        "vegetable",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ],
+      [
+        "Marinade: nutmeg",
+        "1/2 teaspoon",
+        "spice_seasoning"
+      ],
+      [
+        "Marinade: lemon juice",
+        "1 tablespoon",
+        "liquid"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Slice the beef very thinly, cut it into 10 cm squares and pound to tenderise.", "prep"],
-      ["Mix the cheeses with the parsley, spread a little on each slice, roll it up and tie with thread.", "prep"],
-      "Put the rolls in a glass or ceramic dish, pour over the blended marinade ingredients and leave for 1–2 hours.",
-      "Brush off the marinade (keep it), brown the rolls lightly and arrange them in a baking pan.",
+      [
+        "Slice the beef very thinly, cut it into 10 cm squares and pound to tenderise.",
+        "اقلِ البصل والثوم بالزيت.",
+        "cook"
+      ],
+      [
+        "Mix the cheeses with the parsley, spread a little on each slice, roll it up and tie with thread.",
+        "أضف اللحم واقليه حتى يتحمر.",
+        "cook"
+      ],
+      [
+        "Put the rolls in a glass or ceramic dish, pour over the blended marinade ingredients and leave for 1–2 hours.",
+        "أضف معجون الطماطم والماء والملح والفلفل.",
+        "cook"
+      ],
+      [
+        "Brush off the marinade (keep it), brown the rolls lightly and arrange them in a baking pan.",
+        "أضف الفاصوليا واطهِ حتى تمتزج النكهات.",
+        "finish"
+      ],
       "Fry the flour in a little oil, take it off the heat and gradually whisk in the strained marinade. Cook for 3–5 minutes and pour over the rolls, adding warm water if the meat is not covered.",
-      ["Bake in the middle of a moderate, preheated oven for 30 minutes. Snip off the threads before serving.", "finish"]
-    ]
+      [
+        "Bake in the middle of a moderate, preheated oven for 30 minutes. Snip off the threads before serving.",
+        "finish"
+      ]
+    ],
+    "titleAr": "لحم بقري مع فاصوليا",
+    "prepAr": "15 دقيقة",
+    "cookAr": "60 dmin",
+    "notesAr": "لحم بقري مع فاصوليا بسيط."
   },
   {
     "num": 227,
@@ -607,19 +2091,75 @@
     "cook": "15 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Beef", "1 kg", "meat_poultry"],
-      ["Onion", "1", "vegetable"],
-      ["Breadcrumbs", "1 tablespoon", "grain_starch"],
-      ["Eggs", "2", "dairy_fat"],
-      ["Cooking oil", "for frying", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Beef",
+        "1 kg",
+        "meat_poultry",
+        "أرنب مقطع",
+        "واحد"
+      ],
+      [
+        "Onion",
+        "1",
+        "vegetable",
+        "بصل مفروم",
+        "اثنان"
+      ],
+      [
+        "Breadcrumbs",
+        "1 tablespoon",
+        "grain_starch",
+        "فصوص ثوم مهروسة",
+        "4 فصوص"
+      ],
+      [
+        "Eggs",
+        "2",
+        "dairy_fat",
+        "معجون طماطم",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Cooking oil",
+        "for frying",
+        "dairy_fat",
+        "جزر",
+        "2 حبة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "زيت",
+        "3 ملاعق كبيرة"
+      ]
     ],
     "steps": [
-      ["Mince the beef, onion and breadcrumbs together twice, or pound them until smooth.", "prep"],
-      "Beat the eggs with salt and pepper and work them into the meat.",
-      "Shape into round patties 5–7 cm across and 2 cm thick.",
-      ["Fry in oil until browned on both sides and cooked through.", "finish"]
-    ]
+      [
+        "Mince the beef, onion and breadcrumbs together twice, or pound them until smooth.",
+        "اقلِ البصل والثوم بالزيت.",
+        "cook"
+      ],
+      [
+        "Beat the eggs with salt and pepper and work them into the meat.",
+        "أضف الأرنب واقليه حتى يتحمر.",
+        "cook"
+      ],
+      [
+        "Shape into round patties 5–7 cm across and 2 cm thick.",
+        "أضف معجون الطماطم والجزر والماء والملح والفلفل.",
+        "cook"
+      ],
+      [
+        "Fry in oil until browned on both sides and cooked through.",
+        "اطهِ على نار منخفضة حتى يصبح الأرنب طرياً.",
+        "finish"
+      ]
+    ],
+    "titleAr": "يخنة أرنب",
+    "prepAr": "20 دقيقة",
+    "cookAr": "60 dmin",
+    "notesAr": "يخنة أرنب كلاسيكية."
   },
   {
     "num": 228,
@@ -631,23 +2171,86 @@
     "cook": "45 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Beef", "1 kg", "meat_poultry"],
-      ["Onion", "1", "vegetable"],
-      ["Garlic cloves", "15–20", "vegetable"],
-      ["Tomato juice", "2 cups", "liquid"],
-      ["Cornflour", "1 tablespoon", "grain_starch"],
-      ["Vinegar", "1 teaspoon", "liquid"],
-      ["Sugar", "1 teaspoon", "sweet_fruit"],
-      ["Cooking oil", "for frying", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Beef",
+        "1 kg",
+        "meat_poultry",
+        "كبد وقلب وكلى (مخلوط)",
+        "nصف كيلو"
+      ],
+      [
+        "Onion",
+        "1",
+        "vegetable",
+        "بصل مقطع",
+        "واحد"
+      ],
+      [
+        "Garlic cloves",
+        "15–20",
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "3 فصوص"
+      ],
+      [
+        "Tomato juice",
+        "2 cups",
+        "liquid",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ],
+      [
+        "Cornflour",
+        "1 tablespoon",
+        "grain_starch"
+      ],
+      [
+        "Vinegar",
+        "1 teaspoon",
+        "liquid"
+      ],
+      [
+        "Sugar",
+        "1 teaspoon",
+        "sweet_fruit"
+      ],
+      [
+        "Cooking oil",
+        "for frying",
+        "dairy_fat"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Mince the beef, onion and garlic together twice, or pound until smooth. Season and mix.", "prep"],
-      "Shape into small balls and fry.",
-      "Dissolve the vinegar and sugar in the tomato juice and cook for 3–5 minutes.",
+      [
+        "Mince the beef, onion and garlic together twice, or pound until smooth. Season and mix.",
+        "ضع الأحشاء مع البصل والثوم والملح والفلفل في قدر.",
+        "cook"
+      ],
+      [
+        "Shape into small balls and fry.",
+        "اغلِ بماء كافي واطهِ حتى تصبح طرية.",
+        "cook"
+      ],
+      [
+        "Dissolve the vinegar and sugar in the tomato juice and cook for 3–5 minutes.",
+        "صفِّ وقطّع إلى قطع صغيرة واستخدمها في أطباق أخرى.",
+        "finish"
+      ],
       "Drop in the meatballs and simmer for 30 minutes, shaking the pot gently now and then so they do not stick.",
-      ["Thicken the sauce with the cornflour.", "finish"]
-    ]
+      [
+        "Thicken the sauce with the cornflour.",
+        "finish"
+      ]
+    ],
+    "titleAr": "أحشاء مسلوقة",
+    "prepAr": "10 دقائق",
+    "cookAr": "30 دقيقة",
+    "notesAr": "أحشاء مسلوقة للاستخدام في أطباق أخرى."
   },
   {
     "num": 229,
@@ -659,21 +2262,78 @@
     "cook": "45 min",
     "difficulty": "medium",
     "ingredients": [
-      ["Beef", "1 kg", "meat_poultry"],
-      ["Leeks", "2 small or 1 large", "vegetable"],
-      ["Eggs", "2", "dairy_fat"],
-      ["Breadcrumbs", "1 tablespoon", "grain_starch"],
-      ["Lemon juice", "2 tablespoons", "liquid"],
-      ["Cooking oil", "for frying, plus 1 tablespoon", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Beef",
+        "1 kg",
+        "meat_poultry",
+        "أحشاء مسلوقة (كبد وقلب وكلى)",
+        "nصf كيلو"
+      ],
+      [
+        "Leeks",
+        "2 small or 1 large",
+        "vegetable",
+        "بصل مقطع",
+        "واحد"
+      ],
+      [
+        "Eggs",
+        "2",
+        "dairy_fat",
+        "عصير ليمون",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Breadcrumbs",
+        "1 tablespoon",
+        "grain_starch",
+        "زيت",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Lemon juice",
+        "2 tablespoons",
+        "liquid",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ],
+      [
+        "Cooking oil",
+        "for frying, plus 1 tablespoon",
+        "dairy_fat"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Boil the leeks in salted water until tender and drain.", "prep"],
-      ["Mince the beef and leeks together twice, then mix in the beaten eggs, breadcrumbs, salt and pepper.", "prep"],
-      "Shape into small balls and fry.",
+      [
+        "Boil the leeks in salted water until tender and drain.",
+        "اخلط الأحشاء بالبصل وعصير الليمون والزيت والملح والفلفل.",
+        "prep"
+      ],
+      [
+        "Mince the beef and leeks together twice, then mix in the beaten eggs, breadcrumbs, salt and pepper.",
+        "اشوِ على فحم أو في فرن ساخن.",
+        "cook"
+      ],
+      [
+        "Shape into small balls and fry.",
+        "قدّم ساخنة مع خبز.",
+        "finish"
+      ],
       "Bring 2 cups of water to the boil with 1 tablespoon of oil and the lemon juice.",
-      ["Slip in the meatballs and simmer for about 30 minutes, shaking the pot gently so they do not stick.", "finish"]
-    ]
+      [
+        "Slip in the meatballs and simmer for about 30 minutes, shaking the pot gently so they do not stick.",
+        "finish"
+      ]
+    ],
+    "titleAr": "أحشاء مشوية",
+    "prepAr": "15 دقيقة",
+    "cookAr": "20 dmin",
+    "notesAr": "أحشاء مشوية لذيذة."
   },
   {
     "num": 236,
@@ -685,22 +2345,83 @@
     "cook": "1 hour 30 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Lamb", "1 kg", "meat_poultry"],
-      ["Onion", "1", "vegetable"],
-      ["Ripe tomato", "1", "vegetable"],
-      ["Garlic cloves", "5–7", "vegetable"],
-      ["Fried potato fingers", "1/4 kg", "vegetable"],
-      ["Cooking oil", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Lamb",
+        "1 kg",
+        "meat_poultry",
+        "كبد مقطع",
+        "500 غرام"
+      ],
+      [
+        "Onion",
+        "1",
+        "vegetable",
+        "بصل مفروم",
+        "واحد"
+      ],
+      [
+        "Ripe tomato",
+        "1",
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "3 فصوص"
+      ],
+      [
+        "Garlic cloves",
+        "5–7",
+        "vegetable",
+        "كمون",
+        "ملعقة صغيرة"
+      ],
+      [
+        "Fried potato fingers",
+        "1/4 kg",
+        "vegetable",
+        "زيت",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat",
+        "عصير ليمون",
+        "ملعقة كبيرة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Cut the meat into bite-sized cubes. Peel the tomato, garlic and onion.", "prep"],
-      "Cook the meat with the whole vegetables in oil over a very low heat until the juices have been reabsorbed.",
-      "Cover with warm water, season and cook over a very low heat for about an hour, until tender.",
+      [
+        "Cut the meat into bite-sized cubes. Peel the tomato, garlic and onion.",
+        "اقلِ البصل والثوم بالزيت.",
+        "cook"
+      ],
+      [
+        "Cook the meat with the whole vegetables in oil over a very low heat until the juices have been reabsorbed.",
+        "أضف الكبد والكمون واقليها لمدة 10 دقائق.",
+        "cook"
+      ],
+      [
+        "Cover with warm water, season and cook over a very low heat for about an hour, until tender.",
+        "أضف عصير الليمون والملح والفلفل وقدّم.",
+        "finish"
+      ],
       "Lift the meat onto a serving dish and keep warm.",
       "Mash the vegetables into the broth until smooth, bring it to the boil and toss in the fried potatoes. Cook for 3–5 minutes.",
-      ["Pour over the meat and serve hot.", "finish"]
-    ]
+      [
+        "Pour over the meat and serve hot.",
+        "finish"
+      ]
+    ],
+    "titleAr": "كبد بالكمون",
+    "prepAr": "10 دقائق",
+    "cookAr": "15 dmin",
+    "notesAr": "كبد مقلي بنكهة الكمون."
   },
   {
     "num": 238,
@@ -712,19 +2433,72 @@
     "cook": "1 hour 20 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Shin of veal", "1 kg", "meat_poultry"],
-      ["Onions", "2", "vegetable"],
-      ["Potatoes", "1/2 kg", "vegetable"],
-      ["Cooking oil", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Shin of veal",
+        "1 kg",
+        "meat_poultry",
+        "كرشة نظيفة مقطعة",
+        "500 غرام"
+      ],
+      [
+        "Onions",
+        "2",
+        "vegetable",
+        "حمص مطبوخ",
+        "كوپ واحد"
+      ],
+      [
+        "Potatoes",
+        "1/2 kg",
+        "vegetable",
+        "بصل مفروم",
+        "واحد"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat",
+        "فصوص ثوم مهروسة",
+        "3 فصوص"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "معجون طماطم",
+        "ملعقة كبيرة"
+      ]
     ],
     "steps": [
-      ["Cut the meat into bite-sized cubes and slice the onions coarsely.", "prep"],
-      "Sauté the onions in oil, add the meat and brown it all over.",
-      "Cover with warm water, season and cook over a very low heat for about an hour.",
-      "Cut the peeled potatoes into matchsticks, fry until very crisp and drain on absorbent paper.",
-      ["When the meat is ready, add the potatoes and cook for about 10 minutes so they soak up the juices.", "finish"]
-    ]
+      [
+        "Cut the meat into bite-sized cubes and slice the onions coarsely.",
+        "اغلِ الكرشة بماء ومرق لمدة ساعة ونصف.",
+        "prep"
+      ],
+      [
+        "Sauté the onions in oil, add the meat and brown it all over.",
+        "اقلِ البصل والثوم بالزيت.",
+        "cook"
+      ],
+      [
+        "Cover with warm water, season and cook over a very low heat for about an hour.",
+        "أضف الكرشة المسلوقة ومعجون الطماطم والحمص.",
+        "cook"
+      ],
+      [
+        "Cut the peeled potatoes into matchsticks, fry until very crisp and drain on absorbent paper.",
+        "اطهِ لمدة 15 دقيقة حتى تمتزج النكهات.",
+        "finish"
+      ],
+      [
+        "When the meat is ready, add the potatoes and cook for about 10 minutes so they soak up the juices.",
+        "finish"
+      ]
+    ],
+    "titleAr": "كرشة مع حمص",
+    "prepAr": "20 dmin",
+    "cookAr": "2 ساعة",
+    "notesAr": "كرشة مطبوخة مع حمص غني بالبروتين."
   },
   {
     "num": 243,
@@ -736,28 +2510,119 @@
     "cook": "1 hour 30 min",
     "difficulty": "medium",
     "ingredients": [
-      ["Lamb", "1/2 kg", "meat_poultry"],
-      ["Onions, grated", "2", "vegetable"],
-      ["Dried white beans", "1/2 cup", "grain_starch"],
-      ["Tomato paste", "2 tablespoons", "vegetable"],
-      ["Breadcrumbs", "1 tablespoon", "grain_starch"],
-      ["Parsley leaves, finely chopped", "1 cup", "vegetable"],
-      ["Hard cheese, grated", "3 tablespoons", "dairy_fat"],
-      ["Eggs", "4", "dairy_fat"],
-      ["Tabil (Tunisian spice mix)", "1/2 teaspoon", "spice_seasoning"],
-      ["Cayenne", "1/2 teaspoon", "spice_seasoning"],
-      ["Olive oil", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Lamb",
+        "1/2 kg",
+        "meat_poultry",
+        "كوسة طويلة",
+        "8-10 حبات"
+      ],
+      [
+        "Onions, grated",
+        "2",
+        "vegetable",
+        "لحم بقري مفروم",
+        "nصف كيلو"
+      ],
+      [
+        "Dried white beans",
+        "1/2 cup",
+        "grain_starch",
+        "أرز",
+        "ربع كوپ"
+      ],
+      [
+        "Tomato paste",
+        "2 tablespoons",
+        "vegetable",
+        "بصل مفروم",
+        "واحد"
+      ],
+      [
+        "Breadcrumbs",
+        "1 tablespoon",
+        "grain_starch",
+        "فصوص ثوم مهروسة",
+        "3 fصوص"
+      ],
+      [
+        "Parsley leaves, finely chopped",
+        "1 cup",
+        "vegetable",
+        "معجون طماطم",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Hard cheese, grated",
+        "3 tablespoons",
+        "dairy_fat",
+        "زيت",
+        "3 ملاعق كبيرة"
+      ],
+      [
+        "Eggs",
+        "4",
+        "dairy_fat",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ],
+      [
+        "Tabil (Tunisian spice mix)",
+        "1/2 teaspoon",
+        "spice_seasoning"
+      ],
+      [
+        "Cayenne",
+        "1/2 teaspoon",
+        "spice_seasoning"
+      ],
+      [
+        "Olive oil",
+        "as needed",
+        "dairy_fat"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Soak the beans overnight, then boil them in fresh water for 20–30 minutes. Drain, keeping the liquid.", "prep"],
-      "Cut the lamb into bite-sized cubes and roll them in salt and pepper.",
-      "Soften the onions in olive oil, add the lamb and fry until its juices have been reabsorbed.",
-      "Add the cayenne, beans, tabil and the tomato paste dissolved in enough bean liquid to just cover the lamb. Cook until the lamb and beans are tender, then take off the heat.",
-      "Beat the eggs with the parsley, breadcrumbs, cheese and seasoning and stir them thoroughly into the lamb.",
-      ["Pour into a well-greased ovenproof dish and bake in a moderate oven for 15–20 minutes, until set.", "finish"]
+      [
+        "Soak the beans overnight, then boil them in fresh water for 20–30 minutes. Drain, keeping the liquid.",
+        "قطّع نهايات الكوسة واستخرج اللب بحذر.",
+        "prep"
+      ],
+      [
+        "Cut the lamb into bite-sized cubes and roll them in salt and pepper.",
+        "امزج اللحم المفروم والأرز والبصل والثوم والملح والفلفل.",
+        "prep"
+      ],
+      [
+        "Soften the onions in olive oil, add the lamb and fry until its juices have been reabsorbed.",
+        "احشِ الكوسة بهذا المزيج.",
+        "prep"
+      ],
+      [
+        "Add the cayenne, beans, tabil and the tomato paste dissolved in enough bean liquid to just cover the lamb. Cook until the lamb and beans are tender, then take off the heat.",
+        "ضع الكوسة المحشوة في صينية وأضف معجون الطماطم والماء والزيت.",
+        "cook"
+      ],
+      [
+        "Beat the eggs with the parsley, breadcrumbs, cheese and seasoning and stir them thoroughly into the lamb.",
+        "اخبز أو اطهِ على النار حتى تصبح الكوسة طرية.",
+        "finish"
+      ],
+      [
+        "Pour into a well-greased ovenproof dish and bake in a moderate oven for 15–20 minutes, until set.",
+        "finish"
+      ]
     ],
-    "notes": "A Tunisian tajine: unlike the Moroccan stew, it is baked with eggs until firm, like a thick frittata."
+    "notes": "A Tunisian tajine: unlike the Moroccan stew, it is baked with eggs until firm, like a thick frittata.",
+    "titleAr": "كوسة محشوة بالرز واللحم",
+    "prepAr": "30 dmin",
+    "cookAr": "40 dmin",
+    "notesAr": "كوسة محشوة بحشوة لحم وأرز."
   },
   {
     "num": 244,
@@ -769,26 +2634,110 @@
     "cook": "1 hour",
     "difficulty": "medium",
     "ingredients": [
-      ["Lamb", "1/2 kg", "meat_poultry"],
-      ["Onions, grated", "2", "vegetable"],
-      ["Tomatoes, peeled and diced", "1/2 kg", "vegetable"],
-      ["Tabil (Tunisian spice mix)", "1 teaspoon", "spice_seasoning"],
-      ["Eggs", "6", "dairy_fat"],
-      ["Breadcrumbs", "1/2 cup", "grain_starch"],
-      ["Dried mint powder", "1 tablespoon", "spice_seasoning"],
-      ["Grated cheese", "3 tablespoons", "dairy_fat"],
-      ["Ghee", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Lamb",
+        "1/2 kg",
+        "meat_poultry",
+        "ملفوف",
+        "واحد"
+      ],
+      [
+        "Onions, grated",
+        "2",
+        "vegetable",
+        "لحم بقري مفروم",
+        "nصف كيلو"
+      ],
+      [
+        "Tomatoes, peeled and diced",
+        "1/2 kg",
+        "vegetable",
+        "أرز",
+        "ربع كوپ"
+      ],
+      [
+        "Tabil (Tunisian spice mix)",
+        "1 teaspoon",
+        "spice_seasoning",
+        "بصل مفروم",
+        "واحد"
+      ],
+      [
+        "Eggs",
+        "6",
+        "dairy_fat",
+        "فصوص ثوم مهروسة",
+        "3 فصوص"
+      ],
+      [
+        "Breadcrumbs",
+        "1/2 cup",
+        "grain_starch",
+        "معجون طماطم",
+        "ملعقتان كبيرتان"
+      ],
+      [
+        "Dried mint powder",
+        "1 tablespoon",
+        "spice_seasoning",
+        "زيت",
+        "3 ملاعق كبيرة"
+      ],
+      [
+        "Grated cheese",
+        "3 tablespoons",
+        "dairy_fat",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ],
+      [
+        "Ghee",
+        "as needed",
+        "dairy_fat"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Cut the lamb into bite-sized pieces and roll them in salt and pepper.", "prep"],
-      "Fry the onions in ghee until golden, add the lamb and brown it until its juices are reabsorbed.",
-      "Stir in the tomatoes, tabil and seasoning and cook over a low heat for 30 minutes, adding hot water if the meat is not covered.",
-      "Drain the meat, keeping the broth, and put it in a greased casserole.",
-      "Beat the eggs with the cheese, mint, breadcrumbs and seasoning, mix in the meat and 1 cup of the broth, and pour back into the casserole.",
-      ["Bake in a moderate oven for 20 minutes.", "finish"]
+      [
+        "Cut the lamb into bite-sized pieces and roll them in salt and pepper.",
+        "ضع الملفوف بماء مغلي لتطريه قليلاً.",
+        "prep"
+      ],
+      [
+        "Fry the onions in ghee until golden, add the lamb and brown it until its juices are reabsorbed.",
+        "فصّل أوراق الملفوف بحذر.",
+        "prep"
+      ],
+      [
+        "Stir in the tomatoes, tabil and seasoning and cook over a low heat for 30 minutes, adding hot water if the meat is not covered.",
+        "امزج اللحم المفروم والأرز والبصل والثوم والملح والفلفل.",
+        "prep"
+      ],
+      [
+        "Drain the meat, keeping the broth, and put it in a greased casserole.",
+        "ضع المزيج على ورقة ملفوف وأطويها.",
+        "prep"
+      ],
+      [
+        "Beat the eggs with the cheese, mint, breadcrumbs and seasoning, mix in the meat and 1 cup of the broth, and pour back into the casserole.",
+        "رتّب الملفوف المحشو في صينية وأضف معجون الطماطم والماء والزيت.",
+        "cook"
+      ],
+      [
+        "Bake in a moderate oven for 20 minutes.",
+        "اخبز أو اطهِ حتى تصبح الأوراق طرية.",
+        "finish"
+      ]
     ],
-    "notes": "A Tunisian dish."
+    "notes": "A Tunisian dish.",
+    "titleAr": "ملفوف محشو بالرز واللحم",
+    "prepAr": "30 dmin",
+    "cookAr": "45 dmin",
+    "notesAr": "ملفوف محشو بحشوة لحم وأرز."
   },
   {
     "num": 245,
@@ -800,18 +2749,70 @@
     "cook": "2–3 hours",
     "difficulty": "easy",
     "ingredients": [
-      ["Lamb", "1 kg", "meat_poultry"],
-      ["Onions, coarsely chopped", "3", "vegetable"],
-      ["Tomatoes, peeled and diced", "5–7", "vegetable"],
-      ["Tomato paste", "1 tablespoon", "vegetable"],
-      ["Ground cumin", "1 teaspoon", "spice_seasoning"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Lamb",
+        "1 kg",
+        "meat_poultry",
+        "ورق عنب محفوظ أو طازج",
+        "250 غرام"
+      ],
+      [
+        "Onions, coarsely chopped",
+        "3",
+        "vegetable",
+        "لحم بقري مفروم",
+        "nصف كيلو"
+      ],
+      [
+        "Tomatoes, peeled and diced",
+        "5–7",
+        "vegetable",
+        "أرز",
+        "ربع كوپ"
+      ],
+      [
+        "Tomato paste",
+        "1 tablespoon",
+        "vegetable",
+        "بصل مفروم",
+        "واحد"
+      ],
+      [
+        "Ground cumin",
+        "1 teaspoon",
+        "spice_seasoning",
+        "فصوص ثوم مهروسة",
+        "3 فصوص"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "معجون طماطم",
+        "ملعقة كبيرة"
+      ]
     ],
     "steps": [
-      ["Cut the lamb into bite-sized cubes.", "prep"],
-      "Thin the tomato paste with 1/2 cup of warm water and put it in a casserole with all the other ingredients.",
-      ["Close with a tight-fitting lid and bake in a moderate oven for 2–3 hours, until the lamb is tender and the sauce has thickened.", "finish"]
+      [
+        "Cut the lamb into bite-sized cubes.",
+        "امزج اللحم المفروم والأرز والبصل والثوم والملح والفلفل.",
+        "prep"
+      ],
+      [
+        "Thin the tomato paste with 1/2 cup of warm water and put it in a casserole with all the other ingredients.",
+        "ضع المزيج على ورقة عنب وأطويها.",
+        "prep"
+      ],
+      [
+        "Close with a tight-fitting lid and bake in a moderate oven for 2–3 hours, until the lamb is tender and the sauce has thickened.",
+        "رتّب الأوراق المحشوة في قدر بإحكام.",
+        "prep"
+      ]
     ],
-    "notes": "A Cypriot dish named after the tava, the unglazed terracotta pot with a tight lid it is always cooked in."
+    "notes": "A Cypriot dish named after the tava, the unglazed terracotta pot with a tight lid it is always cooked in.",
+    "titleAr": "ورق عنب محشو بالرز واللحم",
+    "prepAr": "40 dmin",
+    "cookAr": "45 dmin",
+    "notesAr": "ورق عنب محشو بحشوة لحم وأرز، طبق كلاسيكي."
   }
 ]
