@@ -5,6 +5,8 @@
 // Reference/technique entries without a dish (e.g. veg-52 storage tips) are
 // intentionally omitted.
 
+import { ADDITIONAL_RECIPE_ESTIMATES } from './additionalRecipeEstimates';
+
 export type CostGroup =
   | 'protein'     // meat, poultry, fish & seafood (incl. broth made from them)
   | 'dairyEggs'   // milk, yogurt, cheese, cream, butter, ghee, eggs
@@ -366,6 +368,9 @@ export const RECIPE_ESTIMATES: Record<string, RecipeEstimate> = {
   'des-112': { servings: 10, kcal: 120, protein: 0, fat: 9, carbs: 10, fiber: 0, sugar: 10, cost: { dairyEggs: 2, sweeteners: 0.2, produce: 0.5 } },
   'des-113': { servings: 10, kcal: 30, protein: 1, fat: 0, carbs: 7, fiber: 0, sugar: 6, cost: { sweeteners: 0.8, dairyEggs: 0.3 } },
 };
+
+// The additional (non-manuscript) recipes keep their estimates in a separate file.
+Object.assign(RECIPE_ESTIMATES, ADDITIONAL_RECIPE_ESTIMATES);
 
 export function getRecipeEstimate(recipeId: string): RecipeEstimate | undefined {
   return RECIPE_ESTIMATES[recipeId];

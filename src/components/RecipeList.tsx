@@ -13,6 +13,7 @@ import {
 } from 'lucide-react';
 import { getUIText } from '../data/translations';
 import { getLocalizedIngredient, getLocalizedRecipe } from '../utils/recipeLocalization';
+import { getAdditionalRecipesText } from '../data/additionalRecipesText';
 
 interface RecipeListProps {
   recipes: Recipe[];
@@ -50,6 +51,8 @@ export const RecipeList: React.FC<RecipeListProps> = ({
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [selectedCookingMethod, setSelectedCookingMethod] = useState<string>('all');
+  const [collection, setCollection] = useState<'all' | 'archive' | 'additional'>('all');
+  const additionalText = getAdditionalRecipesText(lang);
   const [sortBy, setSortBy] = useState<'overlap' | 'title' | 'ingredients' | 'steps'>('overlap');
 
   // Reset localized filter selections when the display language changes,
@@ -83,8 +86,9 @@ export const RecipeList: React.FC<RecipeListProps> = ({
 
       const matchCategory = selectedCategory === 'all' || localized.category === selectedCategory;
       const matchMethod = selectedCookingMethod === 'all' || getLocalizedRecipe(r, lang).cookingMethod === selectedCookingMethod;
+      const matchCollection = collection === 'all' || (collection === 'additional') === !!r.source;
 
-      return matchSearch && matchCategory && matchMethod;
+      return matchSearch && matchCategory && matchMethod && matchCollection;
     }).sort((a, b) => {
       if (sortBy === 'overlap') {
         return b.overlapAnalysis.overlapPercentage - a.overlapAnalysis.overlapPercentage;
@@ -100,12 +104,13 @@ export const RecipeList: React.FC<RecipeListProps> = ({
       }
       return 0;
     });
-  }, [baseRecipes, searchTerm, selectedCategory, selectedCookingMethod, sortBy]);
+  }, [baseRecipes, searchTerm, selectedCategory, selectedCookingMethod, collection, sortBy]);
 
   const resetFilters = () => {
     setSearchTerm('');
     setSelectedCategory('all');
     setSelectedCookingMethod('all');
+    setCollection('all');
     setSortBy('overlap');
   };
 
@@ -174,7 +179,7 @@ export const RecipeList: React.FC<RecipeListProps> = ({
             </button>
           ))}
 
-          {(selectedCategory !== 'all' || selectedCookingMethod !== 'all' || searchTerm) && (
+          {(selectedCategory !== 'all' || selectedCookingMethod !== 'all' || collection !== 'all' || searchTerm) && (
             <button
               onClick={resetFilters}
               className="mr-auto text-xs text-rose-600 hover:underline flex items-center gap-1 font-semibold"
@@ -183,6 +188,25 @@ export const RecipeList: React.FC<RecipeListProps> = ({
               <span>{t('إعادة ضبط الفلاتر', 'Reset filters', 'Réinitialiser les filtres', 'Restablecer filtros', 'フィルターをリセット', 'फ़िल्टर रीसेट करें', 'Redefinir filtros', 'Сбросить фильтры', '重置筛选', 'Filter zurücksetzen', 'Reimposta filtri', 'Επαναφορά φίλτρων', 'فلٹر ختم کریں', 'پاک کردن فیلترها', 'Filtreleri sıfırla', 'Parzûnan ji nû ve saz bike', 'Atur ulang filter', 'Weka upya vichujio', '필터 초기화')}</span>
             </button>
           )}
+        </div>
+
+        {/* Collection: Dr. Fatma's archive vs. the additional (credited) recipes */}
+        <div className="flex flex-wrap items-center gap-2 pt-2 text-xs">
+          {([
+            ['all', additionalText.collectionAll],
+            ['archive', additionalText.collectionArchive],
+            ['additional', additionalText.collectionAdditional]
+          ] as const).map(([value, label]) => (
+            <button
+              key={value}
+              onClick={() => setCollection(value)}
+              className={`px-2.5 py-1 rounded-md text-xs font-medium transition-colors ${
+                collection === value ? 'bg-sky-100 text-sky-900 font-bold' : 'bg-stone-50 text-stone-600 hover:bg-stone-100'
+              }`}
+            >
+              {label}
+            </button>
+          ))}
         </div>
 
         {/* Secondary Filters (Category) */}

@@ -11,6 +11,7 @@ import {
 } from 'lucide-react';
 import { getRecipeImage } from '../data/recipeImages';
 import { getUIText } from '../data/translations';
+import { getAdditionalRecipesText } from '../data/additionalRecipesText';
 import { getLocalizedIngredient, getLocalizedRecipe } from '../utils/recipeLocalization';
 
 interface RecipeCardProps {
@@ -92,7 +93,12 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
       <div className="p-4 sm:p-5 flex flex-col flex-1 justify-between">
         <div>
           {/* Cooking method header */}
-          <div className="flex items-center justify-end text-[11px] text-stone-500 mb-1.5 font-medium">
+          <div className="flex items-center justify-end gap-1.5 text-[11px] text-stone-500 mb-1.5 font-medium">
+            {recipe.source && (
+              <span className="bg-sky-50 text-sky-800 border border-sky-200 px-2 py-0.5 rounded-md font-semibold shrink-0">
+                {getAdditionalRecipesText(lang).badge}
+              </span>
+            )}
             <span className="bg-stone-100 text-stone-700 px-2 py-0.5 rounded-md font-semibold shrink-0">
               {localized.cookingMethod}
             </span>
