@@ -15,6 +15,7 @@ import { TributePage } from './components/TributePage';
 import { detectUserLanguage, getUIText, TOP_20_LANGUAGES } from './data/translations';
 import { getLocalizedRecipe, ensureTranslationTable } from './utils/recipeLocalization';
 import { shareRecipe } from './services/recipeShareService';
+import { recipeNutritionSchema } from './data/recipeEstimates';
 import { CheckCircle2, AlertCircle, Mail } from 'lucide-react';
 
 const FEEDBACK_EMAIL = 'ahamdy@gmail.com';
@@ -201,6 +202,7 @@ export default function App() {
           alternateName: recipe.titleEn,
           recipeCategory: recipe.category,
           recipeCuisine: 'Egyptian',
+          ...recipeNutritionSchema(recipe.id),
           recipeIngredient: recipe.masterIngredients.map(ingredient => `${ingredient.name}: ${ingredient.standardAmount}`),
           recipeInstructions: recipe.uniqueInstructions.map(instruction => ({
             '@type': 'HowToStep',

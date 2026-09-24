@@ -12,12 +12,17 @@ import {
   BookOpen,
   ScrollText,
   ArrowRight,
-  ArrowLeft
+  ArrowLeft,
+  Activity,
+  Coins
 } from 'lucide-react';
 import { getRecipeImage } from '../data/recipeImages';
 import { getUIText } from '../data/translations';
 import { getLocalizedIngredient, getLocalizedIngredientAmount, getLocalizedInstruction, getLocalizedPhase, getLocalizedRecipe } from '../utils/recipeLocalization';
 import { OriginalManuscriptModal, getManuscriptSource } from './OriginalManuscriptModal';
+import { RecipeEstimatesPanel } from './RecipeEstimatesPanel';
+import { formatUsd, getCostTotal, getRecipeEstimate } from '../data/recipeEstimates';
+import { getEstimateStrings } from '../data/estimateTranslations';
 
 interface RecipeDetailModalProps {
   recipe: Recipe | null;
@@ -32,7 +37,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
   lang,
   onShareRecipe
 }) => {
-  const [activeTab, setActiveTab] = useState<'master' | 'instructions'>('master');
+  const [activeTab, setActiveTab] = useState<'master' | 'instructions' | 'nutrition'>('master');
   const [checkedIngredients, setCheckedIngredients] = useState<Record<string, boolean>>({});
   const [showManuscript, setShowManuscript] = useState(false);
 
@@ -61,6 +66,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
 
   const imageUrl = getRecipeImage(recipe.id, recipe.imageUrl);
   const localized = getLocalizedRecipe(recipe, lang);
+  const estimate = getRecipeEstimate(recipe.id);
+  const estimateText = getEstimateStrings(lang);
   // The original-manuscript scroll is an Arabic-only archival feature.
   const showManuscriptTrigger = lang === 'ar' && !!getManuscriptSource(recipe);
 
@@ -160,6 +167,18 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                   <span>{localized.servings}</span>
                 </div>
               )}
+              {estimate && (
+                <div className="flex items-center gap-1.5">
+                  <Activity className="w-3.5 h-3.5 text-amber-400" />
+                  <span>{estimateText.kcalChip.replace('{v}', String(estimate.kcal))}</span>
+                </div>
+              )}
+              {estimate && (
+                <div className="flex items-center gap-1.5">
+                  <Coins className="w-3.5 h-3.5 text-amber-400" />
+                  <span>{estimateText.costChip.replace('{v}', formatUsd(getCostTotal(estimate) / estimate.servings))}</span>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -195,6 +214,20 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
               {recipe.uniqueInstructions.length}
             </span>
           </button>
+
+          {estimate && (
+            <button
+              onClick={() => setActiveTab('nutrition')}
+              className={`py-3 px-4 font-semibold text-xs sm:text-sm border-b-2 whitespace-nowrap transition-colors flex items-center gap-2 ${
+                activeTab === 'nutrition'
+                  ? 'border-amber-600 text-amber-900 bg-white shadow-2xs font-bold'
+                  : 'border-transparent text-stone-600 hover:text-stone-900'
+              }`}
+            >
+              <Activity className="w-4 h-4 text-rose-600" />
+              <span>{estimateText.tab}</span>
+            </button>
+          )}
         </div>
 
         {/* Tab Content Body */}
@@ -383,6 +416,11 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
 
               {manuscriptTrigger}
             </div>
+          )}
+
+          {/* TAB 3: NUTRITION & COST ESTIMATES */}
+          {activeTab === 'nutrition' && estimate && (
+            <RecipeEstimatesPanel estimate={estimate} lang={lang} />
           )}
         </div>
       </div>

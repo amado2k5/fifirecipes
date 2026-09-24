@@ -1,5 +1,6 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { allRecipes } from '../src/data/recipes';
+import { RECIPE_ESTIMATES } from '../src/data/recipeEstimates';
 
 const siteUrl = (process.env.PUBLIC_SITE_URL || 'https://fifi.cooking').replace(/\/$/, '');
 const publicRecipes = allRecipes;
@@ -9,7 +10,8 @@ await mkdir('public', { recursive: true });
 await writeFile('public/recipes.json', JSON.stringify({
   name: 'Fatma Alkawokgy public recipe archive',
   description: 'Open recipe archive for public use, search, preservation, and research.',
-  recipes: publicRecipes
+  estimatesNote: 'estimates: per-serving nutrition and whole-recipe ingredient cost (USD) are approximations.',
+  recipes: publicRecipes.map(recipe => ({ ...recipe, estimates: RECIPE_ESTIMATES[recipe.id] }))
 }, null, 2));
 
 const urls = [
