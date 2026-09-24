@@ -9,19 +9,51 @@
     "cook": "30 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Dried black-eyed beans (lubya)", "1/4 kg", "grain_starch"],
-      ["Garlic cloves", "5–7", "vegetable"],
-      ["Lemon juice", "2 tablespoons", "liquid"],
-      ["Oil", "1 teaspoon", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Dried black-eyed beans (lubya)",
+        "1/4 kg",
+        "grain_starch"
+      ],
+      [
+        "Garlic cloves",
+        "5–7",
+        "vegetable"
+      ],
+      [
+        "Lemon juice",
+        "2 tablespoons",
+        "liquid"
+      ],
+      [
+        "Oil",
+        "1 teaspoon",
+        "dairy_fat"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Leave the beans to soak in plenty of water overnight.", "prep"],
+      [
+        "Leave the beans to soak in plenty of water overnight.",
+        "prep"
+      ],
       "Drain them, cover with fresh water and boil for about 30 minutes, until tender.",
       "Drain again and spread the beans out on a tray so they cool quickly without turning mushy.",
-      ["Pound the garlic with a little salt, then stir in the lemon juice, oil and pepper.", "prep"],
-      ["Pour the garlic dressing over the cool beans and fold it through gently so every bean is coated.", "finish"],
-      ["Onion and mint version (recipe 339 in the book): boil one onion with the beans, adding the salt for the last 5 minutes. Once cool, toss the beans with a second, finely chopped onion, a few fresh mint leaves and a simple dressing of oil, lemon juice, a little vinegar, salt and pepper.", "alternative"]
+      [
+        "Pound the garlic with a little salt, then stir in the lemon juice, oil and pepper.",
+        "prep"
+      ],
+      [
+        "Pour the garlic dressing over the cool beans and fold it through gently so every bean is coated.",
+        "finish"
+      ],
+      [
+        "Onion and mint version (recipe 339 in the book): boil one onion with the beans, adding the salt for the last 5 minutes. Once cool, toss the beans with a second, finely chopped onion, a few fresh mint leaves and a simple dressing of oil, lemon juice, a little vinegar, salt and pepper.",
+        "alternative"
+      ]
     ],
     "notes": "A cold mezze of the pulse Egyptians call lubya; the book names it “dried French beans”."
   },
@@ -35,22 +67,62 @@
     "cook": "15 min",
     "difficulty": "medium",
     "ingredients": [
-      ["Fine bulgur", "1/2 kg", "grain_starch"],
-      ["Beef", "1 kg", "meat_poultry"],
-      ["Animal fat", "100 g", "dairy_fat"],
-      ["Onions", "1–2", "vegetable"],
-      ["Ice cubes", "a few", "liquid"],
-      ["Salt and pepper", "to taste", "spice_seasoning"],
-      ["Oil for frying", "as needed", "dairy_fat"]
+      [
+        "Fine bulgur",
+        "1/2 kg",
+        "grain_starch"
+      ],
+      [
+        "Beef",
+        "1 kg",
+        "meat_poultry"
+      ],
+      [
+        "Animal fat",
+        "100 g",
+        "dairy_fat"
+      ],
+      [
+        "Onions",
+        "1–2",
+        "vegetable"
+      ],
+      [
+        "Ice cubes",
+        "a few",
+        "liquid"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ],
+      [
+        "Oil for frying",
+        "as needed",
+        "dairy_fat"
+      ]
     ],
     "steps": [
-      ["Make the kubeiba (kibbeh) paste: soak the bulgur in warm water for 1 hour.", "prep"],
-      ["Mince the beef, fat and onions together two or three times, dropping in a small ice cube now and then to firm up the meat.", "prep"],
-      ["Squeeze the bulgur dry, season, and pass it through the mincer at least twice more with the meat until it forms a soft dough.", "prep"],
+      [
+        "Make the kubeiba (kibbeh) paste: soak the bulgur in warm water for 1 hour.",
+        "prep"
+      ],
+      [
+        "Mince the beef, fat and onions together two or three times, dropping in a small ice cube now and then to firm up the meat.",
+        "prep"
+      ],
+      [
+        "Squeeze the bulgur dry, season, and pass it through the mincer at least twice more with the meat until it forms a soft dough.",
+        "prep"
+      ],
       "Roll the kubeiba out very thinly, about 1/2 cm, on a greased surface.",
       "Cut it into discs about 5 cm across.",
       "Fry the discs in hot oil until browned on both sides, then lift them onto absorbent paper.",
-      ["Serve warm or cold as part of a mezze spread.", "finish"]
+      [
+        "Serve warm or cold as part of a mezze spread.",
+        "finish"
+      ]
     ],
     "notes": "Kubeiba is the Egyptian name for the Levantine kibbeh. In Syria and Lebanon the paste is pounded in a stone mortar instead of minced."
   },
@@ -63,48 +135,63 @@
     "prep": "10 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Areesh cheese (unsalted skimmed-milk cheese)", "as needed", "dairy_fat"],
-      ["Tomato, peeled and diced, with grated onion and thinly sliced sweet pepper", "for mixture A", "vegetable"],
-      ["Grated onion, crushed garlic, lemon juice and a few drops of oil", "for mixture B", "vegetable"],
-      ["Chopped pickled turnips and/or pickled eggplant with a few drops of oil", "for mixture C", "vegetable"],
-      ["Grated onion, a pinch of mustard powder and chopped parsley", "for mixture D", "vegetable"],
-      ["Grated onion, crushed garlic and boiled beetroot", "for mixture E", "vegetable"],
-      ["Salt and pepper", "to taste", "spice_seasoning"],
-      ["Baladi bread", "for serving", "grain_starch"]
+      [
+        "Areesh cheese (unsalted skimmed-milk cheese)",
+        "as needed",
+        "dairy_fat"
+      ],
+      [
+        "Tomato, peeled and diced, with grated onion and thinly sliced sweet pepper",
+        "for mixture A",
+        "vegetable"
+      ],
+      [
+        "Grated onion, crushed garlic, lemon juice and a few drops of oil",
+        "for mixture B",
+        "vegetable"
+      ],
+      [
+        "Chopped pickled turnips and/or pickled eggplant with a few drops of oil",
+        "for mixture C",
+        "vegetable"
+      ],
+      [
+        "Grated onion, a pinch of mustard powder and chopped parsley",
+        "for mixture D",
+        "vegetable"
+      ],
+      [
+        "Grated onion, crushed garlic and boiled beetroot",
+        "for mixture E",
+        "vegetable"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ],
+      [
+        "Baladi bread",
+        "for serving",
+        "grain_starch"
+      ]
     ],
     "steps": [
-      ["Areesh is a mild, usually salt-free cheese that is very low in calories and can be eaten just as it is.", "prep"],
+      [
+        "Areesh is a mild, usually salt-free cheese that is very low in calories and can be eaten just as it is.",
+        "prep"
+      ],
       "For a spread, mash the cheese roughly with a fork, or blend it briefly on low speed, together with one of the flavourings A to E and some salt and pepper.",
-      ["Scoop the spread up with pieces of baladi bread.", "finish"],
-      ["If the mixture comes out smooth and loose, serve it as a dip instead.", "alternative"]
+      [
+        "Scoop the spread up with pieces of baladi bread.",
+        "finish"
+      ],
+      [
+        "If the mixture comes out smooth and loose, serve it as a dip instead.",
+        "alternative"
+      ]
     ],
     "notes": "The book calls this cheese “skimmed cheese”; it is also the filling for the stuffed sweet peppers in this collection."
-  },
-  {
-    "num": 9,
-    "page": 9,
-    "title": "Stuffed Eggs with Pickles and Olives (Beid Mahshi)",
-    "category": "savory",
-    "method": "boil",
-    "prep": "15 min",
-    "cook": "10 min",
-    "difficulty": "easy",
-    "ingredients": [
-      ["Hard-boiled eggs", "4–6", "dairy_fat"],
-      ["Yogurt", "2 tablespoons", "dairy_fat"],
-      ["Small onion", "1", "vegetable"],
-      ["Pickled cucumbers", "3–5", "vegetable"],
-      ["Black olives", "8–12", "vegetable"],
-      ["Lettuce leaves", "a few", "vegetable"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
-    ],
-    "steps": [
-      ["Cut the peeled eggs in half lengthwise and lift out the yolks.", "prep"],
-      ["Grate the onion and chop the pickles very finely.", "prep"],
-      "Mash the yolks with the onion, pickles and yogurt, and season with salt and pepper.",
-      "Spoon the filling back into the egg whites and press a black olive on top of each.",
-      ["Arrange on a bed of shredded lettuce and serve.", "finish"]
-    ]
   },
   {
     "num": 14,
@@ -115,18 +202,47 @@
     "prep": "1–2 hours marinating",
     "difficulty": "medium",
     "ingredients": [
-      ["Very fresh liver (chicken, veal or lamb)", "1 kg", "meat_poultry"],
-      ["Onions", "2", "vegetable"],
-      ["Lemon juice", "2 tablespoons", "liquid"],
-      ["Fresh mint leaves", "a bunch", "vegetable"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Very fresh liver (chicken, veal or lamb)",
+        "1 kg",
+        "meat_poultry"
+      ],
+      [
+        "Onions",
+        "2",
+        "vegetable"
+      ],
+      [
+        "Lemon juice",
+        "2 tablespoons",
+        "liquid"
+      ],
+      [
+        "Fresh mint leaves",
+        "a bunch",
+        "vegetable"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Because the liver is eaten raw, use only liver that is absolutely fresh.", "prep"],
-      ["Rinse the liver and cut it into very small cubes.", "prep"],
+      [
+        "Because the liver is eaten raw, use only liver that is absolutely fresh.",
+        "prep"
+      ],
+      [
+        "Rinse the liver and cut it into very small cubes.",
+        "prep"
+      ],
       "Grate the onions and mix them with the lemon juice, salt and pepper.",
       "Leave the liver in this marinade for 1–2 hours.",
-      ["Brush the marinade off the pieces and serve them on a bed of fresh mint leaves.", "finish"]
+      [
+        "Brush the marinade off the pieces and serve them on a bed of fresh mint leaves.",
+        "finish"
+      ]
     ],
     "notes": "A mezze eaten raw. The book notes it is a treat at Easter and at Eid al-Adha, when a lamb or calf is traditionally slaughtered at home. Eating raw liver carries a real risk of food-borne illness."
   },
@@ -140,23 +256,70 @@
     "cook": "20–30 min",
     "difficulty": "medium",
     "ingredients": [
-      ["Flour", "1 kg", "grain_starch"],
-      ["Active yeast", "1 tablespoon", "other"],
-      ["Sugar", "1 teaspoon", "sweet_fruit"],
-      ["Butter, melted", "1/2 cup", "dairy_fat"],
-      ["Oil", "1/2 cup", "dairy_fat"],
-      ["Salt", "1 teaspoon", "spice_seasoning"],
-      ["Warm water", "as needed", "liquid"],
-      ["Hard or semi-soft cheese (Edam, Gouda, cottage…)", "as needed", "dairy_fat"]
+      [
+        "Flour",
+        "1 kg",
+        "grain_starch"
+      ],
+      [
+        "Active yeast",
+        "1 tablespoon",
+        "other"
+      ],
+      [
+        "Sugar",
+        "1 teaspoon",
+        "sweet_fruit"
+      ],
+      [
+        "Butter, melted",
+        "1/2 cup",
+        "dairy_fat"
+      ],
+      [
+        "Oil",
+        "1/2 cup",
+        "dairy_fat"
+      ],
+      [
+        "Salt",
+        "1 teaspoon",
+        "spice_seasoning"
+      ],
+      [
+        "Warm water",
+        "as needed",
+        "liquid"
+      ],
+      [
+        "Hard or semi-soft cheese (Edam, Gouda, cottage…)",
+        "as needed",
+        "dairy_fat"
+      ]
     ],
     "steps": [
-      ["Dissolve the yeast and sugar in a little warm water and leave in a warm spot until it bubbles.", "prep"],
-      ["Sift the flour with the salt, add the yeast and enough water for a soft dough, and knead hard, beating in plenty of air.", "prep"],
-      ["Pinch off balls the size of small marbles. Mix the melted butter and oil, dip each ball in it and spread it thin with your fingertips on a greased surface; roll it up and spread it again two or three times, brushing with fat each time.", "prep"],
-      ["Flatten the pieces on a greased baking tray and let them rise for about an hour. (For a quicker, less flaky pastry, roll the dough out and cut it with a biscuit cutter.)", "prep"],
+      [
+        "Dissolve the yeast and sugar in a little warm water and leave in a warm spot until it bubbles.",
+        "prep"
+      ],
+      [
+        "Sift the flour with the salt, add the yeast and enough water for a soft dough, and knead hard, beating in plenty of air.",
+        "prep"
+      ],
+      [
+        "Pinch off balls the size of small marbles. Mix the melted butter and oil, dip each ball in it and spread it thin with your fingertips on a greased surface; roll it up and spread it again two or three times, brushing with fat each time.",
+        "prep"
+      ],
+      [
+        "Flatten the pieces on a greased baking tray and let them rise for about an hour. (For a quicker, less flaky pastry, roll the dough out and cut it with a biscuit cutter.)",
+        "prep"
+      ],
       "Press each piece down with your fingertips in two or three places so the filling stays on the pastry.",
       "Lay narrow strips of cheese, about 1 cm wide, across the pastry, leaving a margin of dough between the strips and around the edge.",
-      ["Bake in a hot, preheated oven for 20–30 minutes, until the pastry is crisp and crusty.", "finish"]
+      [
+        "Bake in a hot, preheated oven for 20–30 minutes, until the pastry is crisp and crusty.",
+        "finish"
+      ]
     ]
   },
   {
@@ -169,22 +332,63 @@
     "cook": "20 min",
     "difficulty": "medium",
     "ingredients": [
-      ["Gullash (phyllo) sheets", "1/2 kg", "grain_starch"],
-      ["Hard-boiled eggs", "2–3", "dairy_fat"],
-      ["Balkan (kashkaval-type) cheese", "125 g", "dairy_fat"],
-      ["Dry cottage cheese", "125 g", "dairy_fat"],
-      ["Chopped parsley", "1 tablespoon", "vegetable"],
-      ["Egg whites", "1–2", "dairy_fat"],
-      ["Butter", "1 tablespoon", "dairy_fat"],
-      ["Pepper", "a pinch", "spice_seasoning"]
+      [
+        "Gullash (phyllo) sheets",
+        "1/2 kg",
+        "grain_starch"
+      ],
+      [
+        "Hard-boiled eggs",
+        "2–3",
+        "dairy_fat"
+      ],
+      [
+        "Balkan (kashkaval-type) cheese",
+        "125 g",
+        "dairy_fat"
+      ],
+      [
+        "Dry cottage cheese",
+        "125 g",
+        "dairy_fat"
+      ],
+      [
+        "Chopped parsley",
+        "1 tablespoon",
+        "vegetable"
+      ],
+      [
+        "Egg whites",
+        "1–2",
+        "dairy_fat"
+      ],
+      [
+        "Butter",
+        "1 tablespoon",
+        "dairy_fat"
+      ],
+      [
+        "Pepper",
+        "a pinch",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Grate the cheeses. Mash the boiled eggs into them with the parsley and a pinch of pepper, then bind the mixture with the egg white.", "prep"],
-      ["Cut the gullash into 10 cm squares and keep them under a cloth, as the sheets dry out very quickly.", "prep"],
+      [
+        "Grate the cheeses. Mash the boiled eggs into them with the parsley and a pinch of pepper, then bind the mixture with the egg white.",
+        "prep"
+      ],
+      [
+        "Cut the gullash into 10 cm squares and keep them under a cloth, as the sheets dry out very quickly.",
+        "prep"
+      ],
       "Working one square at a time, lay a thin line of filling along it like a cigarette, stopping about 1 cm from each end.",
       "Fold the two ends in towards the middle and roll the sheet up very tightly.",
       "Arrange the fingers snugly in a greased baking tin and brush the tops with melted butter.",
-      ["Bake in a moderate, preheated oven until golden.", "finish"]
+      [
+        "Bake in a moderate, preheated oven until golden.",
+        "finish"
+      ]
     ],
     "notes": "Gullash is the paper-thin pastry sold ready-made in Egyptian bakeries."
   },
@@ -197,14 +401,32 @@
     "prep": "15 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Sweet green peppers", "1/2 kg", "vegetable"],
-      ["Areesh cheese spread (any of the mixtures in the areesh cheese recipe)", "as needed", "dairy_fat"],
-      ["Black olives, pitted", "as needed", "vegetable"]
+      [
+        "Sweet green peppers",
+        "1/2 kg",
+        "vegetable"
+      ],
+      [
+        "Areesh cheese spread (any of the mixtures in the areesh cheese recipe)",
+        "as needed",
+        "dairy_fat"
+      ],
+      [
+        "Black olives, pitted",
+        "as needed",
+        "vegetable"
+      ]
     ],
     "steps": [
-      ["Cut the peppers in half lengthwise so each half forms a little boat, and remove the stems and seeds.", "prep"],
+      [
+        "Cut the peppers in half lengthwise so each half forms a little boat, and remove the stems and seeds.",
+        "prep"
+      ],
       "Fill the halves with one of the seasoned areesh cheese mixtures.",
-      ["Top each with a pitted black olive and serve cold.", "finish"]
+      [
+        "Top each with a pitted black olive and serve cold.",
+        "finish"
+      ]
     ]
   },
   {
@@ -217,18 +439,44 @@
     "cook": "15 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Sweet peppers", "1/2 kg", "vegetable"],
-      ["Garlic cloves", "7–10", "vegetable"],
-      ["Vinegar", "1 tablespoon", "liquid"],
-      ["Cooking oil", "for frying", "dairy_fat"],
-      ["Salt", "to taste", "spice_seasoning"]
+      [
+        "Sweet peppers",
+        "1/2 kg",
+        "vegetable"
+      ],
+      [
+        "Garlic cloves",
+        "7–10",
+        "vegetable"
+      ],
+      [
+        "Vinegar",
+        "1 tablespoon",
+        "liquid"
+      ],
+      [
+        "Cooking oil",
+        "for frying",
+        "dairy_fat"
+      ],
+      [
+        "Salt",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Cut a slit in the side of each pepper and rub it with salt, then rinse and dry well.", "prep"],
+      [
+        "Cut a slit in the side of each pepper and rub it with salt, then rinse and dry well.",
+        "prep"
+      ],
       "Fry the peppers in the oil until blistered and soft.",
       "Peel off the skins, remove the stems and seeds, and lay the peppers neatly in a serving dish.",
       "Crush the garlic with salt and fry it briefly in the same oil, then stir in the vinegar.",
-      ["Pour the garlic vinegar over the peppers and serve cold.", "finish"]
+      [
+        "Pour the garlic vinegar over the peppers and serve cold.",
+        "finish"
+      ]
     ]
   },
   {
@@ -241,20 +489,50 @@
     "cook": "15 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Sweet green peppers", "1/2 kg", "vegetable"],
-      ["Vinegar", "2 tablespoons", "liquid"],
-      ["Garlic cloves, crushed", "3–5", "vegetable"],
-      ["Sugar", "a pinch", "sweet_fruit"],
-      ["Olive oil", "for frying", "dairy_fat"],
-      ["Salt", "to taste", "spice_seasoning"]
+      [
+        "Sweet green peppers",
+        "1/2 kg",
+        "vegetable"
+      ],
+      [
+        "Vinegar",
+        "2 tablespoons",
+        "liquid"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "3–5",
+        "vegetable"
+      ],
+      [
+        "Sugar",
+        "a pinch",
+        "sweet_fruit"
+      ],
+      [
+        "Olive oil",
+        "for frying",
+        "dairy_fat"
+      ],
+      [
+        "Salt",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Wash and dry the peppers. Pierce each one near the stem with a small knife, slip a pinch of salt into the hole and leave for 30 minutes; the salt draws out moisture, so the peppers steam inside and soak up less oil.", "prep"],
+      [
+        "Wash and dry the peppers. Pierce each one near the stem with a small knife, slip a pinch of salt into the hole and leave for 30 minutes; the salt draws out moisture, so the peppers steam inside and soak up less oil.",
+        "prep"
+      ],
       "Fry half the peppers in hot olive oil, turning often, until lightly browned all over, and move them to a serving dish.",
       "Pour a little of the frying oil into a bowl and keep it for the dressing.",
       "Fry the rest of the peppers until well browned, add them to the dish, and discard the remaining oil.",
       "Mix the vinegar, a pinch of sugar and the garlic into the reserved oil, pour it over the peppers and turn them until well coated.",
-      ["Chill for 2–3 hours before serving.", "finish"]
+      [
+        "Chill for 2–3 hours before serving.",
+        "finish"
+      ]
     ],
     "notes": "A Tunisian mezze."
   },
@@ -268,21 +546,58 @@
     "cook": "4–6 hours standing",
     "difficulty": "easy",
     "ingredients": [
-      ["Cabbage heart and stalks", "1", "vegetable"],
-      ["Cumin", "1 teaspoon", "spice_seasoning"],
-      ["Garlic cloves", "5–7", "vegetable"],
-      ["Raw beetroot (optional, for colour)", "1", "vegetable"],
-      ["Water", "enough to cover", "liquid"],
-      ["Salt", "1 teaspoon per glass of water", "spice_seasoning"],
-      ["Vinegar", "1 teaspoon per glass of water, plus a little for the garlic", "liquid"]
+      [
+        "Cabbage heart and stalks",
+        "1",
+        "vegetable"
+      ],
+      [
+        "Cumin",
+        "1 teaspoon",
+        "spice_seasoning"
+      ],
+      [
+        "Garlic cloves",
+        "5–7",
+        "vegetable"
+      ],
+      [
+        "Raw beetroot (optional, for colour)",
+        "1",
+        "vegetable"
+      ],
+      [
+        "Water",
+        "enough to cover",
+        "liquid"
+      ],
+      [
+        "Salt",
+        "1 teaspoon per glass of water",
+        "spice_seasoning"
+      ],
+      [
+        "Vinegar",
+        "1 teaspoon per glass of water, plus a little for the garlic",
+        "liquid"
+      ]
     ],
     "steps": [
-      ["Use the crinkly white leaves at the heart of the cabbage and the stalks. Chop them very coarsely.", "prep"],
-      ["Crush the garlic with salt and moisten it with a little vinegar.", "prep"],
+      [
+        "Use the crinkly white leaves at the heart of the cabbage and the stalks. Chop them very coarsely.",
+        "prep"
+      ],
+      [
+        "Crush the garlic with salt and moisten it with a little vinegar.",
+        "prep"
+      ],
       "Bring enough water to cover the cabbage to the boil with the cumin and salt, adding vinegar in the same proportion (1 teaspoon each per glass of water).",
       "Pour the brine into a jar with the garlic and let it cool.",
       "When the brine is lukewarm, add the cabbage and leave for 4–6 hours before serving.",
-      ["For a pink pickle, add a raw beetroot cut in quarters; it colours the cabbage without changing the taste.", "alternative"]
+      [
+        "For a pink pickle, add a raw beetroot cut in quarters; it colours the cabbage without changing the taste.",
+        "alternative"
+      ]
     ]
   },
   {
@@ -294,16 +609,42 @@
     "prep": "10 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Tomatoes", "4 medium or 8 small", "vegetable"],
-      ["Garlic cloves", "5–7", "vegetable"],
-      ["Cumin", "1/2 teaspoon", "spice_seasoning"],
-      ["Vinegar", "1 tablespoon", "liquid"],
-      ["Salt", "to taste", "spice_seasoning"]
+      [
+        "Tomatoes",
+        "4 medium or 8 small",
+        "vegetable"
+      ],
+      [
+        "Garlic cloves",
+        "5–7",
+        "vegetable"
+      ],
+      [
+        "Cumin",
+        "1/2 teaspoon",
+        "spice_seasoning"
+      ],
+      [
+        "Vinegar",
+        "1 tablespoon",
+        "liquid"
+      ],
+      [
+        "Salt",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Crush the garlic with salt, mix in the cumin and moisten with the vinegar.", "prep"],
+      [
+        "Crush the garlic with salt, mix in the cumin and moisten with the vinegar.",
+        "prep"
+      ],
       "Medium tomatoes: cut them into slices about 1 cm thick, dip each slice in the garlic mixture and arrange them on a serving dish.",
-      ["Small tomatoes: cut a deep cross into the top of each, keeping the base whole, stuff the cuts with the garlic mixture and arrange the tomatoes like flowers on the dish.", "alternative"]
+      [
+        "Small tomatoes: cut a deep cross into the top of each, keeping the base whole, stuff the cuts with the garlic mixture and arrange the tomatoes like flowers on the dish.",
+        "alternative"
+      ]
     ]
   },
   {
@@ -316,18 +657,41 @@
     "cook": "30 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Zucchini pulp (scooped out when coring zucchini for stuffing)", "from 1–2 kg zucchini", "vegetable"],
-      ["Eggs", "1–2", "dairy_fat"],
-      ["Flour (optional)", "1 tablespoon", "grain_starch"],
-      ["Cooking oil", "for frying", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Zucchini pulp (scooped out when coring zucchini for stuffing)",
+        "from 1–2 kg zucchini",
+        "vegetable"
+      ],
+      [
+        "Eggs",
+        "1–2",
+        "dairy_fat"
+      ],
+      [
+        "Flour (optional)",
+        "1 tablespoon",
+        "grain_starch"
+      ],
+      [
+        "Cooking oil",
+        "for frying",
+        "dairy_fat"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
       "Cook the zucchini pulp over a very low heat, stirring often so it does not catch, until all its liquid has evaporated and it has broken down into an ochre-coloured paste.",
       "Beat the eggs with salt and pepper and mix them into the pulp.",
       "If the mixture is too soft to hold its shape, stiffen it with a little sifted flour.",
       "Drop spoonfuls into hot oil, flatten them into patties and fry until golden on both sides.",
-      ["Serve hot or cold.", "finish"]
+      [
+        "Serve hot or cold.",
+        "finish"
+      ]
     ],
     "notes": "A thrifty way to use the pulp left over from making stuffed zucchini."
   }
