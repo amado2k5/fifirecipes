@@ -40,18 +40,39 @@ interface BookRecipe {
 
 const ARCHIVE_ITEM = 'https://archive.org/download/20240330_20240330_1122/';
 
-// Where each printed page sits in the four scanned PDFs on the Internet Archive.
+// Where each printed page sits in the scans. The book is split into four PDFs
+// on the Internet Archive; joined, they form the full 913-page scan (the title
+// page of parts 2-4 aside). A few printed pages are duplicated or missing in
+// the scan, so the distance between the printed number and the scan position
+// shifts along the book; these are the measured distances.
+const SCAN_OFFSETS: [firstPage: number, offset: number][] = [
+  [1, 11],
+  [177, 12],
+  [205, 13],
+  [270, 12],
+  [287, 13],
+  [445, 14],
+  [652, 14],
+  [700, 15],
+  [760, 16],
+  [850, 17]
+];
+
+// Each part's first page in the joined scan (0-based), and how its own page
+// numbering relates to it (parts 2-4 start with a title page of their own).
 const VOLUMES = [
-  { label: 'الجزء الأول', file: 'اصول الطهى لنظيرة نقولا.pdf', lastPage: 101, offset: 11 },
-  { label: 'الجزء الثاني', file: 'اصول الطهى الجزء الثانى.pdf', lastPage: 246, offset: -101 },
-  { label: 'الجزء الثالث', file: 'اصول الطهى .. نظيرة نقولا وبهية عثمان .. الجزء الثالث.pdf', lastPage: 556, offset: -246 },
-  { label: 'الجزء الرابع', file: 'اصول الطهى .. نظيرة نقولا وبهية عثمان .. الجزء الرابع.pdf', lastPage: Infinity, offset: -552 }
+  { label: 'الجزء الأول', file: 'اصول الطهى لنظيرة نقولا.pdf', firstScanPage: 0, ownTitlePage: 0 },
+  { label: 'الجزء الثاني', file: 'اصول الطهى الجزء الثانى.pdf', firstScanPage: 113, ownTitlePage: 1 },
+  { label: 'الجزء الثالث', file: 'اصول الطهى .. نظيرة نقولا وبهية عثمان .. الجزء الثالث.pdf', firstScanPage: 260, ownTitlePage: 1 },
+  { label: 'الجزء الرابع', file: 'اصول الطهى .. نظيرة نقولا وبهية عثمان .. الجزء الرابع.pdf', firstScanPage: 570, ownTitlePage: 1 }
 ];
 
 function bookSource(page: number): NonNullable<Recipe['source']> {
-  const volume = VOLUMES.find(v => page <= v.lastPage)!;
+  const offset = SCAN_OFFSETS.filter(([firstPage]) => page >= firstPage).pop()![1];
+  const scanPage = page + offset;
+  const volume = [...VOLUMES].reverse().find(v => scanPage >= v.firstScanPage)!;
   // PDF viewers number pages from 1.
-  const pdfPage = page + volume.offset + 1;
+  const pdfPage = scanPage - volume.firstScanPage + volume.ownTitlePage + 1;
   return {
     name: 'أصول الطهي النظري والعملي — نظيرة نقولا وبهية عثمان',
     url: `${ARCHIVE_ITEM}${encodeURIComponent(volume.file)}#page=${pdfPage}`,
