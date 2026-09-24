@@ -16,4 +16,4 @@ When estimating nutrition and cost for a recipe:
 
 ## Log
 
-(Empty — fill in as batches complete.)
+- ec-003–ec-052: 20 added (Egyptian Cooking intro recipes: beans, pastries, cheese spreads, pickles, eggs)
