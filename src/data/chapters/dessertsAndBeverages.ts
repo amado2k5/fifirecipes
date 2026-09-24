@@ -2994,8 +2994,8 @@ export const dessertsAndBeveragesRecipes: Recipe[] = [
     masterIngredients: [
       {
         id: 'db20-1',
-        name: 'جيلي (علبة)',
-        nameEn: 'Jelly powder (packet)',
+        name: 'جيلي حلال (علبة)',
+        nameEn: 'Halal jelly powder (packet)',
         standardAmount: '1 علبة',
         category: 'sweet_fruit',
         sourceVariations: {
@@ -7444,8 +7444,8 @@ export const dessertsAndBeveragesRecipes: Recipe[] = [
       },
       {
         id: 'db51-4',
-        name: 'مهلبية شيكولاتة أو جيلي',
-        nameEn: 'Chocolate mahalabia, or jelly',
+        name: 'مهلبية شيكولاتة أو جيلي حلال',
+        nameEn: 'Chocolate mahalabia, or halal jelly',
         standardAmount: 'طبقة خفيفة',
         category: 'other',
         sourceVariations: {
@@ -16400,8 +16400,8 @@ export const dessertsAndBeveragesRecipes: Recipe[] = [
       },
       {
         id: 'db108-7',
-        name: 'جيلي مشمش أو فراولة (علبة)',
-        nameEn: 'Apricot or strawberry jelly powder (packet)',
+        name: 'جيلي مشمش أو فراولة حلال (علبة)',
+        nameEn: 'Halal apricot or strawberry jelly powder (packet)',
         standardAmount: '1 علبة',
         category: 'sweet_fruit',
         sourceVariations: {

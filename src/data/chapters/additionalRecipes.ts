@@ -3391,7 +3391,7 @@ export const additionalRecipes: Recipe[] = [
       },
       {
         "id": "add-020-i8",
-        "name": "جيلاتين",
+        "name": "جيلاتين حلال (بقري)",
         "standardAmount": "2 ملعقة كبيرة + نصف كوب ماء ساخن",
         "category": "other",
         "sourceVariations": {},
@@ -29041,7 +29041,7 @@ export const additionalRecipes: Recipe[] = [
       },
       {
         "id": "add-202-i5",
-        "name": "جيلي فراولة",
+        "name": "جيلي فراولة حلال",
         "standardAmount": "1 كيس",
         "category": "sweet_fruit",
         "sourceVariations": {},

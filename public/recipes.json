@@ -36636,8 +36636,8 @@
         },
         {
           "id": "bk5-6",
-          "name": "لانشون",
-          "nameEn": "Cold cuts (luncheon meat)",
+          "name": "لانشون حلال (بقري أو دجاج)",
+          "nameEn": "Halal beef or chicken luncheon meat",
           "standardAmount": "قطع",
           "category": "meat_poultry",
           "sourceVariations": {
@@ -38324,8 +38324,8 @@
         },
         {
           "id": "bk13-7",
-          "name": "طبقة البيتزا (جبن موزاريلا، جبن كيري، جبن أبيض، زيتون، لانشون، تونة، عصاج، شكشوكة، دجاج مفروم، طماطم، فلفل أخضر)",
-          "nameEn": "Toppings, any combination: mozzarella, cream cheese, white cheese, olives, cold cuts, tuna, assag, shakshuka, minced chicken, tomato slices, green pepper",
+          "name": "طبقة البيتزا (جبن موزاريلا، جبن كيري، جبن أبيض، زيتون، لانشون حلال، تونة، عصاج، شكشوكة، دجاج مفروم، طماطم، فلفل أخضر)",
+          "nameEn": "Toppings, any combination: mozzarella, cream cheese, white cheese, olives, halal cold cuts, tuna, assag, shakshuka, minced chicken, tomato slices, green pepper",
           "standardAmount": "حسب الرغبة",
           "category": "other",
           "sourceVariations": {
@@ -40786,8 +40786,8 @@
         },
         {
           "id": "sv11-6",
-          "name": "لانشون",
-          "nameEn": "Cold cuts",
+          "name": "لانشون حلال (بقري أو دجاج)",
+          "nameEn": "Halal beef or chicken cold cuts",
           "standardAmount": "قطع",
           "category": "meat_poultry",
           "sourceVariations": {
@@ -42409,8 +42409,8 @@
         },
         {
           "id": "qk7-4",
-          "name": "لانشون",
-          "nameEn": "Cold cuts",
+          "name": "لانشون حلال (بقري أو دجاج)",
+          "nameEn": "Halal beef or chicken cold cuts",
           "standardAmount": "قطع",
           "category": "meat_poultry",
           "sourceVariations": {
@@ -46627,8 +46627,8 @@
       "masterIngredients": [
         {
           "id": "db20-1",
-          "name": "جيلي (علبة)",
-          "nameEn": "Jelly powder (packet)",
+          "name": "جيلي حلال (علبة)",
+          "nameEn": "Halal jelly powder (packet)",
           "standardAmount": "1 علبة",
           "category": "sweet_fruit",
           "sourceVariations": {
@@ -52319,8 +52319,8 @@
         },
         {
           "id": "db51-4",
-          "name": "مهلبية شيكولاتة أو جيلي",
-          "nameEn": "Chocolate mahalabia, or jelly",
+          "name": "مهلبية شيكولاتة أو جيلي حلال",
+          "nameEn": "Chocolate mahalabia, or halal jelly",
           "standardAmount": "طبقة خفيفة",
           "category": "other",
           "sourceVariations": {
@@ -63643,8 +63643,8 @@
         },
         {
           "id": "db108-7",
-          "name": "جيلي مشمش أو فراولة (علبة)",
-          "nameEn": "Apricot or strawberry jelly powder (packet)",
+          "name": "جيلي مشمش أو فراولة حلال (علبة)",
+          "nameEn": "Halal apricot or strawberry jelly powder (packet)",
           "standardAmount": "1 علبة",
           "category": "sweet_fruit",
           "sourceVariations": {
@@ -69247,7 +69247,7 @@
         },
         {
           "id": "add-020-i8",
-          "name": "جيلاتين",
+          "name": "جيلاتين حلال (بقري)",
           "standardAmount": "2 ملعقة كبيرة + نصف كوب ماء ساخن",
           "category": "other",
           "sourceVariations": {},
@@ -97620,7 +97620,7 @@
         },
         {
           "id": "add-202-i5",
-          "name": "جيلي فراولة",
+          "name": "جيلي فراولة حلال",
           "standardAmount": "1 كيس",
           "category": "sweet_fruit",
           "sourceVariations": {},
@@ -119461,7 +119461,7 @@
         },
         {
           "id": "osool-204-i3",
-          "name": "ورق جيلاتين",
+          "name": "ورق جيلاتين حلال (بقري)",
           "standardAmount": "3 إلى 4 ورقات",
           "category": "other",
           "sourceVariations": {},
@@ -119933,7 +119933,7 @@
         },
         {
           "id": "osool-207-i10",
-          "name": "قلية التلميع أو صلصة غير حلوة بالجيلي",
+          "name": "قلية التلميع أو صلصة غير حلوة بالجيلي (بجيلاتين حلال)",
           "standardAmount": "للتقديم",
           "category": "liquid",
           "sourceVariations": {},
@@ -147747,7 +147747,7 @@
         },
         {
           "id": "osool-951-i4",
-          "name": "للجلاتينا: ورق جيلاتين (تنقال)",
+          "name": "للجلاتينا: ورق جيلاتين حلال (بقري)",
           "standardAmount": "60 جرام",
           "category": "other",
           "sourceVariations": {},
@@ -171216,8 +171216,8 @@
         },
         {
           "id": "ec-438-i4",
-          "name": "Beer (or sparkling water)",
-          "nameEn": "Beer (or sparkling water)",
+          "name": "Chilled sparkling water",
+          "nameEn": "Chilled sparkling water",
           "standardAmount": "1/2 cup",
           "category": "liquid",
           "sourceVariations": {},
@@ -171246,8 +171246,8 @@
         },
         {
           "stepNumber": 2,
-          "text": "Beat the flour, salt and beer into a smooth batter.",
-          "textEn": "Beat the flour, salt and beer into a smooth batter.",
+          "text": "Beat the flour, salt and sparkling water into a smooth batter.",
+          "textEn": "Beat the flour, salt and sparkling water into a smooth batter.",
           "phase": "cook",
           "sourceDocs": [],
           "importance": "core"
@@ -171261,7 +171261,7 @@
           "importance": "core"
         }
       ],
-      "culturalNotes": "A Turkish dish. The book’s batter uses beer; sparkling water is our suggested alcohol-free swap and gives a similarly light, crisp coating.",
+      "culturalNotes": "A Turkish dish. Chilled sparkling water keeps the batter light and crisp.",
       "source": {
         "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
         "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA189",
