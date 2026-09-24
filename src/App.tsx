@@ -3,19 +3,29 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState, useMemo, useEffect } from 'react';
-import { allRecipes, computeDatabaseStats } from './data/recipes';
-import { Recipe, SupportedLanguage } from './types';
+import React, { useState, useMemo, useEffect, useCallback, useRef, lazy, Suspense } from 'react';
+import { Recipe, RecipeSummary, SupportedLanguage } from './types';
 import { Header } from './components/Header';
 import { RecipeList } from './components/RecipeList';
-import { MasterIngredientsView } from './components/MasterIngredientsView';
-import { RecipeDetailModal } from './components/RecipeDetailModal';
-import { FatmaMemorialSection } from './components/FatmaMemorialSection';
-import { TributePage } from './components/TributePage';
+
+// Views a visitor may never open are split into their own chunks and fetched
+// on first use, keeping the initial download to the recipe list itself.
+const MasterIngredientsView = lazy(() => import('./components/MasterIngredientsView').then(m => ({ default: m.MasterIngredientsView })));
+const RecipeDetailModal = lazy(() => import('./components/RecipeDetailModal').then(m => ({ default: m.RecipeDetailModal })));
+const FatmaMemorialSection = lazy(() => import('./components/FatmaMemorialSection').then(m => ({ default: m.FatmaMemorialSection })));
+const TributePage = lazy(() => import('./components/TributePage').then(m => ({ default: m.TributePage })));
+
+// Once the page is idle, fetch the recipe view's code so the first recipe opens instantly.
+function preloadRecipeView() {
+  const load = () => void import('./components/RecipeDetailModal');
+  if ('requestIdleCallback' in window) window.requestIdleCallback(load, { timeout: 4000 });
+  else setTimeout(load, 2000);
+}
 import { detectUserLanguage, getUIText, TOP_20_LANGUAGES } from './data/translations';
 import { getLocalizedRecipe, ensureTranslationTable } from './utils/recipeLocalization';
 import { shareRecipe } from './services/recipeShareService';
-import { recipeNutritionSchema } from './data/recipeEstimates';
+import { DataManifest, loadCardTranslations, loadManifest, loadRecipe, loadRecipeIndex } from './services/recipeData';
+import { formatServings, getCostTotal, getRecipeEstimate } from './data/recipeEstimates';
 import { CheckCircle2, AlertCircle, Mail } from 'lucide-react';
 
 const FEEDBACK_EMAIL = 'ahamdy@gmail.com';
@@ -44,7 +54,7 @@ export default function App() {
   const [, forceTranslationsRerender] = useState(0);
   useEffect(() => {
     let cancelled = false;
-    ensureTranslationTable(lang).then(() => {
+    ensureTranslationTable(lang, loadCardTranslations).then(() => {
       if (!cancelled) forceTranslationsRerender(v => v + 1);
     });
     return () => {
@@ -72,29 +82,72 @@ export default function App() {
   const isKo = lang === 'ko';
   const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string, fa: string, tr: string, ku: string, id: string, sw: string, ko: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : isFa ? fa : isTr ? tr : isKu ? ku : isId ? id : isSw ? sw : isKo ? ko : en);
 
-  // Master Recipes (static public archive)
-  const recipes = allRecipes;
+  // Recipe cards arrive page by page from the static data files (see
+  // services/recipeData.ts); full recipes are fetched only when opened.
+  const [manifest, setManifest] = useState<DataManifest | null>(null);
+  const [allSummaries, setAllSummaries] = useState<RecipeSummary[]>([]);
+  const [indexComplete, setIndexComplete] = useState(false);
+  const [dataError, setDataError] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+    preloadRecipeView();
+    loadManifest().then(m => !cancelled && setManifest(m)).catch(() => undefined);
+    loadRecipeIndex(
+      (page, done) => {
+        setAllSummaries(previous => [...previous, ...page]);
+        if (done) setIndexComplete(true);
+      },
+      () => cancelled
+    ).catch(() => !cancelled && setDataError(true));
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  // Recipes that exist only in Arabic so far are listed in the Arabic interface only.
+  const recipes = useMemo(
+    () => (lang === 'ar' ? allSummaries : allSummaries.filter(summary => !summary.arabicOnly)),
+    [allSummaries, lang]
+  );
 
   // Navigation Tabs: explorer | biography | ingredients
   const [activeTab, setActiveTab] = useState<'explorer' | 'biography' | 'ingredients' | 'tribute'>('explorer');
 
   // Active Modals & Selected Items
   const [selectedRecipe, setSelectedRecipe] = useState<Recipe | null>(null);
+  const [openingRecipeId, setOpeningRecipeId] = useState<string | null>(null);
 
   const [notification, setNotification] = useState<{ message: string; type: 'success' | 'error' } | null>(null);
 
-  // Calculate live database statistics
-  const stats = useMemo(() => computeDatabaseStats(recipes), [recipes]);
+  // Database statistics are precomputed at build time.
+  const stats = manifest ? (lang === 'ar' ? manifest.stats.all : manifest.stats.translated) : null;
+
+  // Only the most recently requested recipe opens, even if an earlier, slower
+  // request finishes after it.
+  const latestRecipeRequest = useRef<string | null>(null);
+  const openRecipe = useCallback((recipeId: string) => {
+    latestRecipeRequest.current = recipeId;
+    setOpeningRecipeId(recipeId);
+    loadRecipe(recipeId)
+      .then(recipe => {
+        if (latestRecipeRequest.current !== recipeId) return;
+        setOpeningRecipeId(null);
+        setSelectedRecipe(recipe);
+      })
+      .catch(() => {
+        if (latestRecipeRequest.current !== recipeId) return;
+        setOpeningRecipeId(null);
+        setNotification({ message: getUIText(lang, 'loadError'), type: 'error' });
+        setTimeout(() => setNotification(null), 3500);
+      });
+  }, [lang]);
 
   useEffect(() => {
-    const recipeId = typeof window !== 'undefined'
-      ? new URLSearchParams(window.location.search).get('recipe')
-      : null;
-    if (recipeId) {
-      const recipe = recipes.find(item => item.id === recipeId);
-      if (recipe) setSelectedRecipe(recipe);
-    }
-  }, [recipes]);
+    const recipeId = new URLSearchParams(window.location.search).get('recipe');
+    if (recipeId) openRecipe(recipeId);
+    // Only the URL the visitor arrived with.
+  }, []);
 
   useEffect(() => {
     document.documentElement.lang = lang;
@@ -121,7 +174,7 @@ export default function App() {
     }
   };
 
-  const handleShareRecipe = async (recipe: Recipe) => {
+  const handleShareRecipe = async (recipe: Recipe | RecipeSummary) => {
     const title = getLocalizedRecipe(recipe, lang).title;
     const result = await shareRecipe(recipe, lang, title);
     if (result.copied) {
@@ -176,10 +229,12 @@ export default function App() {
     window.location.href = `mailto:${FEEDBACK_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
 
+  // Structured data: a light ItemList of every listed recipe (pointing at the
+  // static, crawlable recipe pages) plus the full Recipe of the open one.
   useEffect(() => {
     const scriptId = 'public-recipe-structured-data';
-    const existingScript = document.getElementById(scriptId);
-    existingScript?.remove();
+    document.getElementById(scriptId)?.remove();
+    if (recipes.length === 0) return;
 
     const script = document.createElement('script');
     script.id = scriptId;
@@ -195,27 +250,54 @@ export default function App() {
       itemListElement: recipes.map((recipe, index) => ({
         '@type': 'ListItem',
         position: index + 1,
-        url: `${siteUrl}?recipe=${encodeURIComponent(recipe.id)}&lang=${lang}`,
-        item: {
-          '@type': 'Recipe',
-          name: recipe.title,
-          alternateName: recipe.titleEn,
-          recipeCategory: recipe.category,
-          // Only Dr. Fatma's own archive is Egyptian home cooking; additional recipes credit their source.
-          ...(recipe.source ? { isBasedOn: recipe.source.url } : { recipeCuisine: 'Egyptian' }),
-          ...recipeNutritionSchema(recipe.id),
-          recipeIngredient: recipe.masterIngredients.map(ingredient => `${ingredient.name}: ${ingredient.standardAmount}`),
-          recipeInstructions: recipe.uniqueInstructions.map(instruction => ({
-            '@type': 'HowToStep',
-            position: instruction.stepNumber,
-            text: instruction.text
-          }))
-        }
+        name: getLocalizedRecipe(recipe, lang).title,
+        url: new URL(`recipe/${encodeURIComponent(recipe.id)}/`, siteUrl).toString()
       }))
     });
     document.head.appendChild(script);
     return () => script.remove();
   }, [lang, recipes]);
+
+  useEffect(() => {
+    if (!selectedRecipe) return;
+    const recipe = selectedRecipe;
+    const estimate = getRecipeEstimate(recipe.id);
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Recipe',
+      name: recipe.title,
+      ...(recipe.titleEn ? { alternateName: recipe.titleEn } : {}),
+      recipeCategory: recipe.category,
+      // Only Dr. Fatma's own archive is Egyptian home cooking; additional recipes credit their source.
+      ...(recipe.source ? { isBasedOn: recipe.source.url } : { recipeCuisine: 'Egyptian' }),
+      ...(estimate
+        ? {
+            recipeYield: `${formatServings(estimate.servings)} servings`,
+            nutrition: {
+              '@type': 'NutritionInformation',
+              servingSize: '1 serving',
+              calories: `${estimate.kcal} calories`,
+              proteinContent: `${estimate.protein} g`,
+              fatContent: `${estimate.fat} g`,
+              carbohydrateContent: `${estimate.carbs} g`,
+              fiberContent: `${estimate.fiber} g`,
+              sugarContent: `${estimate.sugar} g`
+            },
+            estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: getCostTotal(estimate).toFixed(2) }
+          }
+        : {}),
+      recipeIngredient: recipe.masterIngredients.map(ingredient => `${ingredient.name}: ${ingredient.standardAmount}`),
+      recipeInstructions: recipe.uniqueInstructions.map(instruction => ({
+        '@type': 'HowToStep',
+        position: instruction.stepNumber,
+        text: instruction.text
+      }))
+    });
+    document.head.appendChild(script);
+    return () => script.remove();
+  }, [selectedRecipe]);
 
   return (
     <div
@@ -256,7 +338,11 @@ export default function App() {
         {activeTab === 'explorer' && (
           <RecipeList
             recipes={recipes}
-            onSelectRecipe={(recipe) => setSelectedRecipe(recipe)}
+            totalRecipes={stats?.totalRecipes}
+            loading={!indexComplete && !dataError}
+            loadFailed={dataError && recipes.length === 0}
+            openingRecipeId={openingRecipeId}
+            onSelectRecipe={(recipe) => openRecipe(recipe.id)}
             lang={lang}
             onOpenShare={(recipe, e) => {
               e.stopPropagation();
@@ -265,33 +351,40 @@ export default function App() {
           />
         )}
 
-        {/* TAB 2: ABOUT DR. FATMA ALKAWOKGY MEMORIAL */}
-        {activeTab === 'biography' && (
-          <FatmaMemorialSection lang={lang} onOpenTribute={() => setActiveTab('tribute')} />
-        )}
+        <Suspense fallback={<div className="py-16 text-center text-xs text-stone-400 animate-pulse">…</div>}>
+          {/* TAB 2: ABOUT DR. FATMA ALKAWOKGY MEMORIAL */}
+          {activeTab === 'biography' && (
+            <FatmaMemorialSection lang={lang} onOpenTribute={() => setActiveTab('tribute')} />
+          )}
 
-        {activeTab === 'tribute' && (
-          <TributePage lang={lang} onBack={() => setActiveTab('biography')} />
-        )}
+          {activeTab === 'tribute' && (
+            <TributePage lang={lang} onBack={() => setActiveTab('biography')} />
+          )}
 
-        {/* TAB 3: UNIFIED MASTER INGREDIENTS */}
-        {activeTab === 'ingredients' && (
-          <MasterIngredientsView
-            recipes={recipes}
-            onSelectRecipe={(recipe) => setSelectedRecipe(recipe)}
-            lang={lang}
-          />
-        )}
+          {/* TAB 3: UNIFIED MASTER INGREDIENTS */}
+          {activeTab === 'ingredients' && (
+            <MasterIngredientsView
+              recipes={recipes}
+              onSelectRecipe={openRecipe}
+              lang={lang}
+            />
+          )}
+        </Suspense>
       </main>
 
       {/* Recipe Detail Modal */}
       {selectedRecipe && (
-        <RecipeDetailModal
-          recipe={selectedRecipe}
-          onClose={() => setSelectedRecipe(null)}
-          lang={lang}
-          onShareRecipe={handleShareRecipe}
-        />
+        <Suspense fallback={null}>
+          <RecipeDetailModal
+            recipe={selectedRecipe}
+            onClose={() => {
+              latestRecipeRequest.current = null;
+              setSelectedRecipe(null);
+            }}
+            lang={lang}
+            onShareRecipe={handleShareRecipe}
+          />
+        </Suspense>
       )}
 
       {/* Modern Footer with Memorial Tribute */}

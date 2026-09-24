@@ -102,6 +102,12 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
           <ExternalLink className="w-3.5 h-3.5" />
         </a>
       </p>
+      {source.citation && (
+        <p className="flex items-center gap-1.5">
+          <span className="font-semibold">{additionalText.citationLabel}</span>
+          <span>{source.citation}</span>
+        </p>
+      )}
     </div>
   );
 

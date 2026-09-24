@@ -97,6 +97,10 @@ export function detectUserLanguage(): SupportedLanguage {
 
 export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> = {
   ar: {
+    loadError: 'تعذّر تحميل الوصفة. تحقّق من الاتصال وحاول مرة أخرى.',
+    loadingMoreRecipes: 'جارٍ تحميل المزيد من الوصفات…',
+    showMoreRecipes: 'عرض المزيد من الوصفات',
+    recipesLoadFailed: 'تعذّر تحميل الوصفات. تحقّق من الاتصال ثم أعد تحميل الصفحة.',
     siteTitle: 'كتاب وصفات د. فاطمة القاوقجي',
     appTitle: 'كتاب وصفات د. فاطمة القاوقجي',
     siteSubtitle: 'الموسوعة التراثية الموثقة للطهي المصري الأصيل',
@@ -123,6 +127,10 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'الطهي مثل العزف على البيانو؛ لا يكتمل إلا بالتناغم الصادق والصبر ومحبة النفس.',
   },
   en: {
+    loadError: "Couldn't load the recipe. Check your connection and try again.",
+    loadingMoreRecipes: 'Loading more recipes…',
+    showMoreRecipes: 'Show more recipes',
+    recipesLoadFailed: "Couldn't load the recipes. Check your connection and reload the page.",
     siteTitle: 'Fatma Alkawokgy Recipes',
     appTitle: 'Fatma Alkawokgy Recipes',
     siteSubtitle: 'The Heritage Cookbook of Authentic Egyptian Cuisine',
@@ -149,6 +157,10 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'Cooking is just like playing the piano; harmony, patience, and love bring it to perfection.',
   },
   fr: {
+    loadError: 'Impossible de charger la recette. Vérifiez votre connexion et réessayez.',
+    loadingMoreRecipes: 'Chargement d’autres recettes…',
+    showMoreRecipes: 'Afficher plus de recettes',
+    recipesLoadFailed: 'Impossible de charger les recettes. Vérifiez votre connexion puis rechargez la page.',
     siteTitle: 'Livre de Recettes Dr. Fatma Alkawokgy',
     appTitle: 'Livre de Recettes Dr. Fatma Alkawokgy',
     siteSubtitle: 'Le Livre de Cuisine Patrimonial de la Cuisine Égyptienne Authentique',
@@ -175,6 +187,10 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'Cuisiner est comme jouer du piano ; cela ne s’accomplit que dans l’harmonie sincère, la patience et l’amour de soi.',
   },
   es: {
+    loadError: 'No se pudo cargar la receta. Revisa tu conexión e inténtalo de nuevo.',
+    loadingMoreRecipes: 'Cargando más recetas…',
+    showMoreRecipes: 'Mostrar más recetas',
+    recipesLoadFailed: 'No se pudieron cargar las recetas. Revisa tu conexión y recarga la página.',
     siteTitle: 'Libro de Recetas Dra. Fatma Alkawokgy',
     appTitle: 'Libro de Recetas Dra. Fatma Alkawokgy',
     siteSubtitle: 'El Libro de Cocina Patrimonial de la Auténtica Cocina Egipcia',
@@ -201,6 +217,10 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'Cocinar es como tocar el piano; solo se logra con armonía sincera, paciencia y amor propio.',
   },
   de: {
+    loadError: 'Das Rezept konnte nicht geladen werden. Prüfen Sie Ihre Verbindung und versuchen Sie es erneut.',
+    loadingMoreRecipes: 'Weitere Rezepte werden geladen…',
+    showMoreRecipes: 'Mehr Rezepte anzeigen',
+    recipesLoadFailed: 'Die Rezepte konnten nicht geladen werden. Prüfen Sie Ihre Verbindung und laden Sie die Seite neu.',
     siteTitle: 'Dr. Fatma Alkawokgy Kochbuch',
     appTitle: 'Dr. Fatma Alkawokgy Kochbuch',
     siteSubtitle: 'Das Erbe der authentischen ägyptischen Küche',
@@ -227,6 +247,10 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'Kochen ist wie Klavierspielen: Es braucht Harmonie, Geduld und Herz.',
   },
   it: {
+    loadError: 'Impossibile caricare la ricetta. Controlla la connessione e riprova.',
+    loadingMoreRecipes: 'Caricamento di altre ricette…',
+    showMoreRecipes: 'Mostra altre ricette',
+    recipesLoadFailed: 'Impossibile caricare le ricette. Controlla la connessione e ricarica la pagina.',
     appTitle: 'Ricettario Dott.ssa Fatma Alkawokgy',
     appSubtitle: 'Il Ricettario Storico della Cucina Egiziana',
     siteTitle: 'Ricettario Dott.ssa Fatma Alkawokgy',
@@ -253,6 +277,10 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'Cucinare è come suonare il pianoforte: richiede armonia e passione.',
   },
   tr: {
+    loadError: 'Tarif yüklenemedi. Bağlantınızı kontrol edip tekrar deneyin.',
+    loadingMoreRecipes: 'Daha fazla tarif yükleniyor…',
+    showMoreRecipes: 'Daha fazla tarif göster',
+    recipesLoadFailed: 'Tarifler yüklenemedi. Bağlantınızı kontrol edip sayfayı yenileyin.',
     siteTitle: 'Dr. Fatma Alkawokgy Tarifleri',
     appTitle: 'Dr. Fatma Alkawokgy Tarifleri',
     siteSubtitle: 'Otantik Mısır Mutfağının Miras Yemek Kitabı',
@@ -279,6 +307,10 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'Yemek yapmak piyano çalmak gibidir; uyum, sabır ve sevgi onu mükemmelliğe taşır.',
   },
   ru: {
+    loadError: 'Не удалось загрузить рецепт. Проверьте подключение и попробуйте снова.',
+    loadingMoreRecipes: 'Загружаем ещё рецепты…',
+    showMoreRecipes: 'Показать больше рецептов',
+    recipesLoadFailed: 'Не удалось загрузить рецепты. Проверьте подключение и обновите страницу.',
     siteTitle: 'Кулинарная Книга Д-ра Фатмы Алькавокджи',
     appTitle: 'Кулинарная Книга Д-ра Фатмы Алькавокджи',
     siteSubtitle: 'Наследие Аутентичной Египетской Кухни',
@@ -305,6 +337,10 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'Готовить — как играть на пианино: нужна гармония, терпение и душа.',
   },
   pt: {
+    loadError: 'Não foi possível carregar a receita. Verifique sua conexão e tente novamente.',
+    loadingMoreRecipes: 'Carregando mais receitas…',
+    showMoreRecipes: 'Mostrar mais receitas',
+    recipesLoadFailed: 'Não foi possível carregar as receitas. Verifique sua conexão e recarregue a página.',
     siteTitle: 'Livro de Receitas Dra. Fatma Alkawokgy',
     appTitle: 'Livro de Receitas Dra. Fatma Alkawokgy',
     siteSubtitle: 'O Livro Tradicional da Culinária Egípcia',
@@ -331,6 +367,10 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'Cozinhar é como tocar piano: requer harmonia e amor.',
   },
   ja: {
+    loadError: 'レシピを読み込めませんでした。接続を確認して、もう一度お試しください。',
+    loadingMoreRecipes: 'レシピをさらに読み込んでいます…',
+    showMoreRecipes: 'さらにレシピを表示',
+    recipesLoadFailed: 'レシピを読み込めませんでした。接続を確認してページを再読み込みしてください。',
     siteTitle: 'ファトマ・アルカウォクジ博士のレシピ集',
     appTitle: 'ファトマ・アルカウォクジ博士のレシピ集',
     siteSubtitle: '本場エジプト料理の伝統を伝える遺産レシピ集',
@@ -357,6 +397,10 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: '料理はピアノを弾くのと同じです。真心のこもった調和と忍耐、そして自分自身への愛がなければ完成しません。',
   },
   zh: {
+    loadError: '无法加载食谱。请检查网络连接后重试。',
+    loadingMoreRecipes: '正在加载更多食谱…',
+    showMoreRecipes: '显示更多食谱',
+    recipesLoadFailed: '无法加载食谱。请检查网络连接并刷新页面。',
     siteTitle: '法特玛·卡沃克吉博士烹饪食谱全书',
     appTitle: '法特玛·卡沃克吉博士烹饪食谱全书',
     siteSubtitle: '埃及纯正传统经典食谱典籍',
@@ -383,6 +427,10 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: '烹饪就像演奏钢琴：离不开真挚的和谐、耐心与爱。',
   },
   hi: {
+    loadError: 'रेसिपी लोड नहीं हो सकी। अपना कनेक्शन जांचें और फिर से कोशिश करें।',
+    loadingMoreRecipes: 'और रेसिपी लोड हो रही हैं…',
+    showMoreRecipes: 'और रेसिपी दिखाएँ',
+    recipesLoadFailed: 'रेसिपी लोड नहीं हो सकीं। अपना कनेक्शन जांचें और पेज फिर से लोड करें।',
     siteTitle: 'डॉ. फातिमा अलकावोकजी पाक कला पुस्तक',
     appTitle: 'डॉ. फातिमा अलकावोकजी पाक कला पुस्तक',
     siteSubtitle: 'प्रामाणिक मिस्री व्यंजनों की विरासत',
@@ -409,6 +457,10 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'खाना पकाना पियानो बजाने जैसा है: इसके लिए धैर्य और प्रेम चाहिए।',
   },
   ko: {
+    loadError: '레시피를 불러오지 못했습니다. 연결을 확인하고 다시 시도하세요.',
+    loadingMoreRecipes: '레시피를 더 불러오는 중…',
+    showMoreRecipes: '레시피 더 보기',
+    recipesLoadFailed: '레시피를 불러오지 못했습니다. 연결을 확인하고 페이지를 새로고침하세요.',
     siteTitle: '파트마 알카우크지 박사의 레시피',
     appTitle: '파트마 알카우크지 박사의 레시피',
     siteSubtitle: '이집트 정통 요리 유산 레시피북',
@@ -435,6 +487,10 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: '요리는 피아노 연주와 같습니다. 조화와 인내, 그리고 사랑이 완성으로 이끌어 줍니다.'
   },
   id: {
+    loadError: 'Resep tidak dapat dimuat. Periksa koneksi Anda dan coba lagi.',
+    loadingMoreRecipes: 'Memuat resep lainnya…',
+    showMoreRecipes: 'Tampilkan resep lainnya',
+    recipesLoadFailed: 'Resep tidak dapat dimuat. Periksa koneksi Anda lalu muat ulang halaman.',
     siteTitle: 'Resep Dr. Fatma Alkawokgy',
     appTitle: 'Resep Dr. Fatma Alkawokgy',
     siteSubtitle: 'Buku Resep Warisan Masakan Asli Mesir',
@@ -461,6 +517,10 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'Memasak itu seperti bermain piano; harmoni, kesabaran, dan cinta membawanya menuju kesempurnaan.',
   },
   fa: {
+    loadError: 'بارگیری دستور ممکن نشد. اتصال خود را بررسی کنید و دوباره تلاش کنید.',
+    loadingMoreRecipes: 'در حال بارگیری دستورهای بیشتر…',
+    showMoreRecipes: 'نمایش دستورهای بیشتر',
+    recipesLoadFailed: 'بارگیری دستورها ممکن نشد. اتصال خود را بررسی و صفحه را دوباره بارگیری کنید.',
     siteTitle: 'دستورهای آشپزی دکتر فاطمه القاوقجی',
     appTitle: 'دستورهای آشپزی دکتر فاطمه القاوقجی',
     siteSubtitle: 'کتاب آشپزی میراث غذاهای اصیل مصری',
@@ -487,6 +547,10 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'آشپزی درست مانند نواختن پیانو است؛ هماهنگی، صبر و عشق آن را به کمال می‌رساند.',
   },
   el: {
+    loadError: 'Δεν ήταν δυνατή η φόρτωση της συνταγής. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.',
+    loadingMoreRecipes: 'Φόρτωση περισσότερων συνταγών…',
+    showMoreRecipes: 'Εμφάνιση περισσότερων συνταγών',
+    recipesLoadFailed: 'Δεν ήταν δυνατή η φόρτωση των συνταγών. Ελέγξτε τη σύνδεσή σας και ανανεώστε τη σελίδα.',
     siteTitle: 'Βιβλίο Συνταγών Δρ. Φάτμα Αλκαουόκτζι',
     appTitle: 'Βιβλίο Συνταγών Δρ. Φάτμα Αλκαουόκτζι',
     siteSubtitle: 'Το Παραδοσιακό Βιβλίο της Αυθεντικής Αιγυπτιακής Κουζίνας',
@@ -570,6 +634,10 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'Matlagning är som att spela piano: det kräver harmoni och kärlek.',
   },
   ur: {
+    loadError: 'ترکیب لوڈ نہیں ہو سکی۔ اپنا کنکشن چیک کریں اور دوبارہ کوشش کریں۔',
+    loadingMoreRecipes: 'مزید ترکیبیں لوڈ ہو رہی ہیں…',
+    showMoreRecipes: 'مزید ترکیبیں دکھائیں',
+    recipesLoadFailed: 'ترکیبیں لوڈ نہیں ہو سکیں۔ اپنا کنکشن چیک کریں اور صفحہ دوبارہ لوڈ کریں۔',
     siteTitle: 'ڈاکٹر فاطمہ القاوقجی کی ترکیبیں',
     appTitle: 'ڈاکٹر فاطمہ القاوقجی کی ترکیبیں',
     siteSubtitle: 'اصل مصری کھانوں کی روایتی ترکیبوں کی کتاب',
@@ -596,6 +664,10 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'کھانا پکانا پیانو بجانے جیسا ہے؛ ہم آہنگی، صبر اور محبت ہی اسے کمال تک پہنچاتے ہیں۔',
   },
   ku: {
+    loadError: 'Reçete nehat barkirin. Girêdana xwe kontrol bike û dîsa biceribîne.',
+    loadingMoreRecipes: 'Reçeteyên din têne barkirin…',
+    showMoreRecipes: 'Reçeteyên zêdetir nîşan bide',
+    recipesLoadFailed: 'Reçete nehatin barkirin. Girêdana xwe kontrol bike û rûpelê ji nû ve bar bike.',
     siteTitle: 'Reçeteyên Dr. Fatma Alkawokgy',
     appTitle: 'Reçeteyên Dr. Fatma Alkawokgy',
     siteSubtitle: 'Pirtûka Mîrasê ya Metbexa Resen a Misrî',
@@ -622,6 +694,10 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'Xwarinçêkirin mîna lêxistina piyanoyê ye; ahenk, sebir û hezkirin wê digihînin kemalê.'
   },
   sw: {
+    loadError: 'Imeshindikana kupakia mapishi. Angalia muunganisho wako na ujaribu tena.',
+    loadingMoreRecipes: 'Inapakia mapishi zaidi…',
+    showMoreRecipes: 'Onyesha mapishi zaidi',
+    recipesLoadFailed: 'Imeshindikana kupakia mapishi. Angalia muunganisho wako kisha pakia ukurasa upya.',
     siteTitle: 'Mapishi ya Dkt. Fatma Alkawokgy',
     appTitle: 'Mapishi ya Dkt. Fatma Alkawokgy',
     siteSubtitle: 'Kitabu cha Urithi wa Mapishi Asilia ya Kimisri',

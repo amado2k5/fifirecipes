@@ -1,5 +1,5 @@
 import React from 'react';
-import { Recipe, SupportedLanguage } from '../types';
+import { RecipeSummary, SupportedLanguage } from '../types';
 import {
   Flame,
   Clock,
@@ -7,7 +7,8 @@ import {
   ArrowLeft,
   ArrowRight,
   Sparkles,
-  Share2
+  Share2,
+  Loader2
 } from 'lucide-react';
 import { getRecipeImage } from '../data/recipeImages';
 import { getUIText } from '../data/translations';
@@ -15,15 +16,21 @@ import { getAdditionalRecipesText } from '../data/additionalRecipesText';
 import { getLocalizedIngredient, getLocalizedRecipe } from '../utils/recipeLocalization';
 
 interface RecipeCardProps {
-  recipe: Recipe;
-  onSelect: (recipe: Recipe) => void;
+  recipe: RecipeSummary;
+  onSelect: (recipe: RecipeSummary) => void;
+  /** Starts fetching the full recipe when the pointer or focus lands on the card. */
+  onPrefetch?: (recipeId: string) => void;
+  /** The full recipe is being fetched after a click. */
+  isOpening?: boolean;
   lang: SupportedLanguage;
-  onOpenShare: (recipe: Recipe, e: React.MouseEvent) => void;
+  onOpenShare: (recipe: RecipeSummary, e: React.MouseEvent) => void;
 }
 
 export const RecipeCard: React.FC<RecipeCardProps> = ({
   recipe,
   onSelect,
+  onPrefetch,
+  isOpening = false,
   lang,
   onOpenShare
 }) => {
@@ -50,12 +57,25 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
   const imageUrl = getRecipeImage(recipe.id, recipe.imageUrl);
   const localized = getLocalizedRecipe(recipe, lang);
   const localizedIngredientNames = Array.from(new Set(
-    recipe.masterIngredients.map(ingredient => getLocalizedIngredient(ingredient, lang, recipe.id))
+    recipe.previewIngredients.map(ingredient => getLocalizedIngredient(ingredient, lang, recipe.id))
   ));
 
   return (
     <div 
       onClick={() => onSelect(recipe)}
+      onKeyDown={(e) => {
+        if (e.target === e.currentTarget && (e.key === 'Enter' || e.key === ' ')) {
+          e.preventDefault();
+          onSelect(recipe);
+        }
+      }}
+      onPointerEnter={() => onPrefetch?.(recipe.id)}
+      onFocus={() => onPrefetch?.(recipe.id)}
+      role="button"
+      tabIndex={0}
+      aria-busy={isOpening}
+      // Off-screen cards skip layout and paint until they scroll near the viewport.
+      style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 26rem' }}
       className="bg-white rounded-2xl border border-stone-200/90 shadow-2xs hover:shadow-xl hover:border-amber-400/90 transition-all duration-300 cursor-pointer flex flex-col justify-between group overflow-hidden"
     >
       {/* Visual Photography Header */}
@@ -66,7 +86,13 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           referrerPolicy="no-referrer"
           loading="lazy"
+          decoding="async"
         />
+        {isOpening && (
+          <div className="absolute inset-0 z-20 flex items-center justify-center bg-white/40 backdrop-blur-[1px]">
+            <Loader2 className="w-8 h-8 text-amber-700 animate-spin" />
+          </div>
+        )}
         <div className="absolute inset-0 bg-gradient-to-t from-stone-950/70 via-transparent to-black/20" />
 
         {/* Floating Actions on Image */}
@@ -94,7 +120,7 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
         <div>
           {/* Cooking method header */}
           <div className="flex items-center justify-end gap-1.5 text-[11px] text-stone-500 mb-1.5 font-medium">
-            {recipe.source && (
+            {recipe.collection !== 'archive' && (
               <span className="bg-sky-50 text-sky-800 border border-sky-200 px-2 py-0.5 rounded-md font-semibold shrink-0">
                 {getAdditionalRecipesText(lang).badge}
               </span>
@@ -147,9 +173,9 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
                   {ingredientName}
                 </span>
               ))}
-              {recipe.masterIngredients.length > 3 && (
+              {recipe.ingredientCount > 3 && (
                 <span className="text-[10px] text-stone-400 self-center px-1">
-                  +{recipe.masterIngredients.length - 3}
+                  +{recipe.ingredientCount - 3}
                 </span>
               )}
             </div>
@@ -160,7 +186,7 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
         <div className="mt-4 pt-3 border-t border-stone-100 flex items-center justify-between text-xs">
           <div className="flex items-center gap-1 text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200/50 text-[11px]">
             <Sparkles className="w-3 h-3 text-emerald-600" />
-            <span className="font-semibold">{recipe.uniqueInstructions.length} {t('خطوة فريدة', 'steps', 'étapes', 'pasos', 'ステップ', 'चरण', 'passos', 'шагов', '步骤', 'Schritte', 'passaggi', 'βήματα', 'مراحل', 'مرحله', 'adım', 'gav', 'langkah', 'hatua', '단계')}</span>
+            <span className="font-semibold">{recipe.stepCount} {t('خطوة فريدة', 'steps', 'étapes', 'pasos', 'ステップ', 'चरण', 'passos', 'шагов', '步骤', 'Schritte', 'passaggi', 'βήματα', 'مراحل', 'مرحله', 'adım', 'gav', 'langkah', 'hatua', '단계')}</span>
           </div>
 
           <span className="font-semibold text-amber-700 group-hover:text-amber-900 flex items-center gap-1">

@@ -85,10 +85,7 @@ export interface Recipe {
   }>;
   overlapAnalysis: OverlapAnalysis;
   /** Set on the additional recipes that do not come from Dr. Fatma's manuscripts. */
-  source?: {
-    name: string;
-    url: string;
-  };
+  source?: RecipeSource;
   rawDocVersions: {
     doc1?: RawDocVersion;
     doc2?: RawDocVersion;
@@ -96,7 +93,44 @@ export interface Recipe {
   };
 }
 
-export type SupportedLanguage = 
+export interface RecipeSource {
+  name: string;
+  url: string;
+  /** Which outside collection the recipe belongs to (used by the collection filter). */
+  collection?: 'chefteta' | 'osool';
+  /** Where in the source the recipe appears, e.g. "الجزء الثالث، صفحة 298". */
+  citation?: string;
+}
+
+export type RecipeCollection = 'archive' | 'chefteta' | 'osool';
+
+/**
+ * The lightweight slice of a recipe needed to render its card, sort and filter
+ * the list. The full recipe is fetched separately when it is opened.
+ */
+export interface RecipeSummary {
+  id: string;
+  title: string;
+  titleEn: string;
+  chapter: string;
+  chapterNumber: number;
+  category: string;
+  cookingMethod: string;
+  prepTime?: string;
+  cookTime?: string;
+  servings?: string;
+  imageUrl?: string;
+  collection: RecipeCollection;
+  /** Only an Arabic version exists so far; hidden in the other languages until translated. */
+  arabicOnly?: boolean;
+  ingredientCount: number;
+  stepCount: number;
+  overlapPercentage: number;
+  /** The first few ingredients, shown as pills on the card. */
+  previewIngredients: Pick<MasterIngredient, 'id' | 'name' | 'nameEn'>[];
+}
+
+export type SupportedLanguage =
   | 'ar' | 'en' | 'fr' | 'es' | 'de' | 'it' | 'tr' | 'ru' | 'pt' | 'ja' 
   | 'zh' | 'hi' | 'ko' | 'id' | 'fa' | 'el' | 'nl' | 'pl' | 'sv' | 'ur' | 'ku' | 'sw';
 
