@@ -5,6 +5,7 @@
 
 import type { RecipeEstimate } from './recipeEstimates';
 import { ADDITIONAL_RECIPE_ESTIMATES } from './additionalRecipeEstimates';
+import { MISSING_ESTIMATES } from './missingEstimates';
 
 export const RECIPE_ESTIMATES: Record<string, RecipeEstimate> = {
   'meat-01': { servings: 5, kcal: 320, protein: 32, fat: 20, carbs: 4, fiber: 1, sugar: 2, cost: { protein: 10, produce: 1, fats: 0.5, spices: 0.5 } },
@@ -344,3 +345,4 @@ export const RECIPE_ESTIMATES: Record<string, RecipeEstimate> = {
 
 // The additional (non-manuscript) recipes keep their estimates in a separate file.
 Object.assign(RECIPE_ESTIMATES, ADDITIONAL_RECIPE_ESTIMATES);
+Object.assign(RECIPE_ESTIMATES, MISSING_ESTIMATES);
