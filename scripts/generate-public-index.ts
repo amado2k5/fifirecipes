@@ -3,7 +3,7 @@ import { allRecipes } from '../src/data/recipes';
 
 const siteUrl = (process.env.PUBLIC_SITE_URL || 'https://fifi.cooking').replace(/\/$/, '');
 const publicRecipes = allRecipes;
-const SUPPORTED_LANGUAGES = ['ar', 'en', 'fr', 'es', 'ja', 'hi', 'pt', 'ru', 'zh', 'de', 'it', 'el', 'ur', 'fa', 'tr', 'ku', 'id'];
+const SUPPORTED_LANGUAGES = ['ar', 'en', 'fr', 'es', 'ja', 'hi', 'pt', 'ru', 'zh', 'de', 'it', 'el', 'ur', 'fa', 'tr', 'ku', 'id', 'sw'];
 
 await mkdir('public', { recursive: true });
 await writeFile('public/recipes.json', JSON.stringify({
