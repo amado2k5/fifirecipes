@@ -11,6 +11,7 @@ export interface AdditionalRecipesText {
   collectionArchive: string;
   collectionAdditional: string;
   collectionOsool: string;
+  collectionAbdennour: string;
   citationLabel: string;
   tips: string;
 }
@@ -25,6 +26,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionArchive: 'أرشيف د. فاطمة',
     collectionAdditional: 'وصفات إضافية (Chef Teta)',
     collectionOsool: 'كتاب أصول الطهي',
+    collectionAbdennour: 'كتاب Egyptian Cooking (سامية عبد النور)',
     citationLabel: 'الموضع في الكتاب:',
     tips: 'نصائح وملاحظات'
   },
@@ -37,6 +39,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionArchive: 'Dr. Fatma’s archive',
     collectionAdditional: 'Additional recipes (Chef Teta)',
     collectionOsool: 'Osool El Tahy cookbook',
+    collectionAbdennour: 'Egyptian Cooking (Samia Abdennour)',
     citationLabel: 'In the book:',
     tips: 'Tips & notes'
   },
@@ -49,6 +52,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionArchive: 'Archive du Dr Fatma',
     collectionAdditional: 'Recettes supplémentaires (Chef Teta)',
     collectionOsool: 'Livre Osool El Tahy',
+    collectionAbdennour: 'Livre Egyptian Cooking (Samia Abdennour)',
     citationLabel: 'Dans le livre :',
     tips: 'Conseils et notes'
   },
@@ -61,6 +65,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionArchive: 'Archivo de la Dra. Fatma',
     collectionAdditional: 'Recetas adicionales (Chef Teta)',
     collectionOsool: 'Libro Osool El Tahy',
+    collectionAbdennour: 'Libro Egyptian Cooking (Samia Abdennour)',
     citationLabel: 'En el libro:',
     tips: 'Consejos y notas'
   },
@@ -73,6 +78,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionArchive: 'ファトマ博士のアーカイブ',
     collectionAdditional: '追加レシピ (Chef Teta)',
     collectionOsool: '料理書『オスール・エル・タヒー』',
+    collectionAbdennour: '料理書『Egyptian Cooking』(サミア・アブデヌール)',
     citationLabel: '書籍内の位置:',
     tips: 'コツとメモ'
   },
@@ -85,6 +91,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionArchive: 'डॉ. फातिमा का संग्रह',
     collectionAdditional: 'अतिरिक्त व्यंजन (Chef Teta)',
     collectionOsool: 'ओसूल अल-तही पाकपुस्तक',
+    collectionAbdennour: 'Egyptian Cooking पाकपुस्तक (समिया अब्देनूर)',
     citationLabel: 'पुस्तक में:',
     tips: 'सुझाव और टिप्पणियाँ'
   },
@@ -97,6 +104,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionArchive: 'Arquivo da Dra. Fatma',
     collectionAdditional: 'Receitas adicionais (Chef Teta)',
     collectionOsool: 'Livro Osool El Tahy',
+    collectionAbdennour: 'Livro Egyptian Cooking (Samia Abdennour)',
     citationLabel: 'No livro:',
     tips: 'Dicas e notas'
   },
@@ -109,6 +117,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionArchive: 'Архив д-ра Фатмы',
     collectionAdditional: 'Дополнительные рецепты (Chef Teta)',
     collectionOsool: 'Книга «Осуль эт-Тахи»',
+    collectionAbdennour: 'Книга «Egyptian Cooking» (Самия Абденнур)',
     citationLabel: 'В книге:',
     tips: 'Советы и заметки'
   },
@@ -121,6 +130,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionArchive: '法特玛博士档案',
     collectionAdditional: '补充食谱 (Chef Teta)',
     collectionOsool: '《烹饪原理》食谱书',
+    collectionAbdennour: '《Egyptian Cooking》食谱书(萨米娅·阿卜杜努尔)',
     citationLabel: '书中位置：',
     tips: '烹饪贴士'
   },
@@ -133,6 +143,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionArchive: 'Archiv von Dr. Fatma',
     collectionAdditional: 'Zusätzliche Rezepte (Chef Teta)',
     collectionOsool: 'Kochbuch Osool El Tahy',
+    collectionAbdennour: 'Kochbuch Egyptian Cooking (Samia Abdennour)',
     citationLabel: 'Im Buch:',
     tips: 'Tipps & Hinweise'
   },
@@ -145,6 +156,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionArchive: 'Archivio della Dott.ssa Fatma',
     collectionAdditional: 'Ricette aggiuntive (Chef Teta)',
     collectionOsool: 'Libro Osool El Tahy',
+    collectionAbdennour: 'Libro Egyptian Cooking (Samia Abdennour)',
     citationLabel: 'Nel libro:',
     tips: 'Consigli e note'
   },
@@ -157,6 +169,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionArchive: 'Αρχείο της Δρ. Φάτμα',
     collectionAdditional: 'Επιπλέον συνταγές (Chef Teta)',
     collectionOsool: 'Βιβλίο Osool El Tahy',
+    collectionAbdennour: 'Βιβλίο Egyptian Cooking (Samia Abdennour)',
     citationLabel: 'Στο βιβλίο:',
     tips: 'Συμβουλές & σημειώσεις'
   },
@@ -169,6 +182,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionArchive: 'ڈاکٹر فاطمہ کا ذخیرہ',
     collectionAdditional: 'اضافی ترکیبیں (Chef Teta)',
     collectionOsool: 'کتاب اصول الطہی',
+    collectionAbdennour: 'کتاب Egyptian Cooking (سامیہ عبدالنور)',
     citationLabel: 'کتاب میں:',
     tips: 'مشورے اور نوٹس'
   },
@@ -181,6 +195,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionArchive: 'آرشیو دکتر فاطمه',
     collectionAdditional: 'دستورهای افزوده (Chef Teta)',
     collectionOsool: 'کتاب اصول الطهی',
+    collectionAbdennour: 'کتاب Egyptian Cooking (سامیه عبدالنور)',
     citationLabel: 'در کتاب:',
     tips: 'نکات و یادداشت‌ها'
   },
@@ -193,6 +208,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionArchive: 'Dr. Fatma’nın arşivi',
     collectionAdditional: 'Ek tarifler (Chef Teta)',
     collectionOsool: 'Osool El Tahy yemek kitabı',
+    collectionAbdennour: 'Egyptian Cooking yemek kitabı (Samia Abdennour)',
     citationLabel: 'Kitapta:',
     tips: 'İpuçları ve notlar'
   },
@@ -205,6 +221,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionArchive: 'Arşîva Dr. Fatma',
     collectionAdditional: 'Reçeteyên zêde (Chef Teta)',
     collectionOsool: 'Pirtûka Osool El Tahy',
+    collectionAbdennour: 'Pirtûka Egyptian Cooking (Samia Abdennour)',
     citationLabel: 'Di pirtûkê de:',
     tips: 'Şîret û not'
   },
@@ -217,6 +234,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionArchive: 'Arsip Dr. Fatma',
     collectionAdditional: 'Resep tambahan (Chef Teta)',
     collectionOsool: 'Buku masak Osool El Tahy',
+    collectionAbdennour: 'Buku Egyptian Cooking (Samia Abdennour)',
     citationLabel: 'Dalam buku:',
     tips: 'Tips & catatan'
   },
@@ -229,6 +247,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionArchive: 'Hifadhi ya Dkt. Fatma',
     collectionAdditional: 'Mapishi ya ziada (Chef Teta)',
     collectionOsool: 'Kitabu cha Osool El Tahy',
+    collectionAbdennour: 'Kitabu cha Egyptian Cooking (Samia Abdennour)',
     citationLabel: 'Katika kitabu:',
     tips: 'Vidokezo na maelezo'
   },
@@ -241,6 +260,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionArchive: '파트마 박사 아카이브',
     collectionAdditional: '추가 레시피 (Chef Teta)',
     collectionOsool: '요리책 《우술 알타히》',
+    collectionAbdennour: '요리책 《Egyptian Cooking》 (사미아 아브데누르)',
     citationLabel: '책 속 위치:',
     tips: '팁과 메모'
   }

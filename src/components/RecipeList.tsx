@@ -161,7 +161,8 @@ export const RecipeList: React.FC<RecipeListProps> = ({
   }, [hasMore, filteredRecipes]);
 
   const visibleRecipes = filteredRecipes.slice(0, visibleCount);
-  const hasBookRecipes = useMemo(() => baseRecipes.some(r => r.collection === 'osool'), [baseRecipes]);
+  // The cookbook collections are only offered in languages that list their recipes.
+  const presentCollections = useMemo(() => new Set(baseRecipes.map(r => r.collection)), [baseRecipes]);
 
   const resetFilters = () => {
     setSearchTerm('');
@@ -253,7 +254,8 @@ export const RecipeList: React.FC<RecipeListProps> = ({
             ['all', additionalText.collectionAll],
             ['archive', additionalText.collectionArchive],
             ['chefteta', additionalText.collectionAdditional],
-            ...(hasBookRecipes ? [['osool', additionalText.collectionOsool] as const] : [])
+            ...(presentCollections.has('osool') ? [['osool', additionalText.collectionOsool] as const] : []),
+            ...(presentCollections.has('abdennour') ? [['abdennour', additionalText.collectionAbdennour] as const] : [])
           ] as const).map(([value, label]) => (
             <button
               key={value}

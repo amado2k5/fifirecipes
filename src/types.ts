@@ -86,6 +86,11 @@ export interface Recipe {
   overlapAnalysis: OverlapAnalysis;
   /** Set on the additional recipes that do not come from Dr. Fatma's manuscripts. */
   source?: RecipeSource;
+  /**
+   * Only an English version exists so far (the text fields hold English);
+   * hidden in the other languages until translated.
+   */
+  englishOnly?: boolean;
   rawDocVersions: {
     doc1?: RawDocVersion;
     doc2?: RawDocVersion;
@@ -97,12 +102,12 @@ export interface RecipeSource {
   name: string;
   url: string;
   /** Which outside collection the recipe belongs to (used by the collection filter). */
-  collection?: 'chefteta' | 'osool';
+  collection?: 'chefteta' | 'osool' | 'abdennour';
   /** Where in the source the recipe appears, e.g. "الجزء الثالث، صفحة 298". */
   citation?: string;
 }
 
-export type RecipeCollection = 'archive' | 'chefteta' | 'osool';
+export type RecipeCollection = 'archive' | 'chefteta' | 'osool' | 'abdennour';
 
 /**
  * The lightweight slice of a recipe needed to render its card, sort and filter
@@ -123,6 +128,8 @@ export interface RecipeSummary {
   collection: RecipeCollection;
   /** Only an Arabic version exists so far; hidden in the other languages until translated. */
   arabicOnly?: boolean;
+  /** Only an English version exists so far; hidden in the other languages until translated. */
+  englishOnly?: boolean;
   ingredientCount: number;
   stepCount: number;
   overlapPercentage: number;

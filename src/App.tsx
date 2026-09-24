@@ -23,6 +23,7 @@ function preloadRecipeView() {
 }
 import { detectUserLanguage, getUIText, TOP_20_LANGUAGES } from './data/translations';
 import { getLocalizedRecipe, ensureTranslationTable } from './utils/recipeLocalization';
+import { isListedIn, statsAudienceOf } from './utils/recipeVisibility';
 import { shareRecipe } from './services/recipeShareService';
 import { DataManifest, loadCardTranslations, loadManifest, loadRecipe, loadRecipeIndex } from './services/recipeData';
 import { formatServings, getCostTotal, getRecipeEstimate } from './data/recipeEstimates';
@@ -105,9 +106,9 @@ export default function App() {
     };
   }, []);
 
-  // Recipes that exist only in Arabic so far are listed in the Arabic interface only.
+  // Recipes that exist in only one language so far are listed in that language only.
   const recipes = useMemo(
-    () => (lang === 'ar' ? allSummaries : allSummaries.filter(summary => !summary.arabicOnly)),
+    () => allSummaries.filter(summary => isListedIn(summary, lang)),
     [allSummaries, lang]
   );
 
@@ -121,7 +122,7 @@ export default function App() {
   const [notification, setNotification] = useState<{ message: string; type: 'success' | 'error' } | null>(null);
 
   // Database statistics are precomputed at build time.
-  const stats = manifest ? (lang === 'ar' ? manifest.stats.all : manifest.stats.translated) : null;
+  const stats = manifest ? manifest.stats[statsAudienceOf(lang)] : null;
 
   // Only the most recently requested recipe opens, even if an earlier, slower
   // request finishes after it.

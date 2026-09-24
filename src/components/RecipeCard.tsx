@@ -134,7 +134,7 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
           <h3 className="text-base sm:text-lg font-bold text-stone-900 group-hover:text-amber-800 transition-colors leading-snug line-clamp-1">
             {localized.title}
           </h3>
-          {recipe.titleEn && (
+          {recipe.titleEn && recipe.titleEn !== localized.title && (
             <p className="text-xs text-stone-500 font-medium mt-0.5 line-clamp-1" dir="ltr">
               {recipe.titleEn}
             </p>
