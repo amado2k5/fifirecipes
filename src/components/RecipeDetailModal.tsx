@@ -51,7 +51,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
   const isUr = lang === 'ur';
   const isFa = lang === 'fa';
   const isTr = lang === 'tr';
-  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string, fa: string, tr: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : isFa ? fa : isTr ? tr : en);
+  const isKu = lang === 'ku';
+  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string, fa: string, tr: string, ku: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : isFa ? fa : isTr ? tr : isKu ? ku : en);
 
   if (!recipe) return null;
 
@@ -141,13 +142,13 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
               {localized.prepTime && (
                 <div className="flex items-center gap-1.5">
                   <Clock className="w-3.5 h-3.5 text-amber-400" />
-                  <span>{t(`التحضير: ${localized.prepTime}`, `Prep: ${localized.prepTime}`, `Préparation : ${localized.prepTime}`, `Preparación: ${localized.prepTime}`, `下ごしらえ: ${localized.prepTime}`, `तैयारी: ${localized.prepTime}`, `Preparo: ${localized.prepTime}`, `Подготовка: ${localized.prepTime}`, `准备：${localized.prepTime}`, `Vorbereitung: ${localized.prepTime}`, `Preparazione: ${localized.prepTime}`, `Προετοιμασία: ${localized.prepTime}`, `تیاری: ${localized.prepTime}`, `آماده‌سازی: ${localized.prepTime}`, `Hazırlık: ${localized.prepTime}`)}</span>
+                  <span>{t(`التحضير: ${localized.prepTime}`, `Prep: ${localized.prepTime}`, `Préparation : ${localized.prepTime}`, `Preparación: ${localized.prepTime}`, `下ごしらえ: ${localized.prepTime}`, `तैयारी: ${localized.prepTime}`, `Preparo: ${localized.prepTime}`, `Подготовка: ${localized.prepTime}`, `准备：${localized.prepTime}`, `Vorbereitung: ${localized.prepTime}`, `Preparazione: ${localized.prepTime}`, `Προετοιμασία: ${localized.prepTime}`, `تیاری: ${localized.prepTime}`, `آماده‌سازی: ${localized.prepTime}`, `Hazırlık: ${localized.prepTime}`, `Amadekirin: ${localized.prepTime}`)}</span>
                 </div>
               )}
               {localized.cookTime && (
                 <div className="flex items-center gap-1.5">
                   <Flame className="w-3.5 h-3.5 text-amber-400" />
-                  <span>{t(`الطهو: ${localized.cookTime}`, `Cook: ${localized.cookTime}`, `Cuisson : ${localized.cookTime}`, `Cocción: ${localized.cookTime}`, `調理: ${localized.cookTime}`, `पकाना: ${localized.cookTime}`, `Cozimento: ${localized.cookTime}`, `Готовка: ${localized.cookTime}`, `烹饪：${localized.cookTime}`, `Kochen: ${localized.cookTime}`, `Cottura: ${localized.cookTime}`, `Μαγείρεμα: ${localized.cookTime}`, `پکانا: ${localized.cookTime}`, `پخت: ${localized.cookTime}`, `Pişirme: ${localized.cookTime}`)}</span>
+                  <span>{t(`الطهو: ${localized.cookTime}`, `Cook: ${localized.cookTime}`, `Cuisson : ${localized.cookTime}`, `Cocción: ${localized.cookTime}`, `調理: ${localized.cookTime}`, `पकाना: ${localized.cookTime}`, `Cozimento: ${localized.cookTime}`, `Готовка: ${localized.cookTime}`, `烹饪：${localized.cookTime}`, `Kochen: ${localized.cookTime}`, `Cottura: ${localized.cookTime}`, `Μαγείρεμα: ${localized.cookTime}`, `پکانا: ${localized.cookTime}`, `پخت: ${localized.cookTime}`, `Pişirme: ${localized.cookTime}`, `Pijandin: ${localized.cookTime}`)}</span>
                 </div>
               )}
               {localized.servings && (
@@ -217,7 +218,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                       'Ακριβείς βασικές μετρήσεις, επαληθευμένες με τα σημειώματα της Δρ. Φάτμα. Τσεκάρετε τα υλικά καθώς τα ετοιμάζετε.',
                       'ڈاکٹر فاطمہ کے نوٹس سے ملا کر طے کی گئی درست پیمائشیں۔ تیاری کے ساتھ ساتھ اجزاء پر نشان لگاتے جائیں۔',
                       'اندازه‌های دقیق، تطبیق‌داده‌شده با یادداشت‌های دکتر فاطمه. هنگام آماده‌سازی، مواد را علامت بزنید.',
-                      'Dr. Fatma’nın notlarıyla karşılaştırılarak belirlenmiş kesin ölçüler. Hazırladıkça malzemeleri işaretleyin.'
+                      'Dr. Fatma’nın notlarıyla karşılaştırılarak belirlenmiş kesin ölçüler. Hazırladıkça malzemeleri işaretleyin.',
+                      'Pîvanên rastîn ku bi notên Dr. Fatma re hatine berhevkirin. Dema amade dikî pêkhateyan nîşan bike.'
                     )}
                   </p>
                 </div>
@@ -280,7 +282,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                   'Συνέχεια στην Παρασκευή Βήμα προς Βήμα',
                   'مرحلہ وار تیاری اور پکانے کی طرف بڑھیں',
                   'ادامه به مراحل آماده‌سازی و پخت گام‌به‌گام',
-                  'Adım Adım Hazırlık ve Pişirmeye Geç'
+                  'Adım Adım Hazırlık ve Pişirmeye Geç',
+                  'Derbasî Amadekirin û Pijandina Gav bi Gav Bibe'
                 )}</span>
                 {isRtl ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
               </button>
@@ -297,7 +300,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                   <Sparkles className="w-5 h-5 text-emerald-700 shrink-0 mt-0.5" />
                   <div>
                     <p className="font-bold">
-                      {t('خطوات الطهو الفريدة بعد تنقية وتوحيد الشروح', 'Step-by-step master cooking instructions', 'Instructions de cuisson détaillées, étape par étape', 'Instrucciones de cocina detalladas, paso a paso', 'ステップごとの詳しい調理手順', 'चरण-दर-चरण मुख्य पाक विधि', 'Instruções de cozimento detalhadas, passo a passo', 'Пошаговые основные инструкции по приготовлению', '分步式核心烹饪说明', 'Schritt-für-Schritt-Kochanleitung', 'Istruzioni di cottura passo dopo passo', 'Αναλυτικές οδηγίες μαγειρέματος βήμα προς βήμα', 'پکانے کی مرحلہ وار ہدایات', 'دستورالعمل گام‌به‌گام پخت', 'Adım adım pişirme talimatları')}
+                      {t('خطوات الطهو الفريدة بعد تنقية وتوحيد الشروح', 'Step-by-step master cooking instructions', 'Instructions de cuisson détaillées, étape par étape', 'Instrucciones de cocina detalladas, paso a paso', 'ステップごとの詳しい調理手順', 'चरण-दर-चरण मुख्य पाक विधि', 'Instruções de cozimento detalhadas, passo a passo', 'Пошаговые основные инструкции по приготовлению', '分步式核心烹饪说明', 'Schritt-für-Schritt-Kochanleitung', 'Istruzioni di cottura passo dopo passo', 'Αναλυτικές οδηγίες μαγειρέματος βήμα προς βήμα', 'پکانے کی مرحلہ وار ہدایات', 'دستورالعمل گام‌به‌گام پخت', 'Adım adım pişirme talimatları', 'Rêbernameya pijandinê ya gav bi gav')}
                     </p>
                     <p className="text-xs text-emerald-800 mt-0.5">
                       {t(
@@ -315,7 +318,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                         'Η σειρά έχει επαληθευτεί για το καλύτερο δυνατό μαγειρικό αποτέλεσμα.',
                         'بہترین نتائج کے لیے ترتیب کی تصدیق کی گئی ہے۔',
                         'ترتیب مراحل برای بهترین نتیجه بررسی شده است.',
-                        'Adımların sırası en iyi sonuç için doğrulanmıştır.'
+                        'Adımların sırası en iyi sonuç için doğrulanmıştır.',
+                        'Rêza gavan ji bo encama herî baş hatiye piştrastkirin.'
                       )}
                     </p>
                   </div>

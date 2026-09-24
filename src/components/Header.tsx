@@ -40,7 +40,8 @@ export const Header: React.FC<HeaderProps> = ({
   const isUr = lang === 'ur';
   const isFa = lang === 'fa';
   const isTr = lang === 'tr';
-  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string, fa: string, tr: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : isFa ? fa : isTr ? tr : en);
+  const isKu = lang === 'ku';
+  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string, fa: string, tr: string, ku: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : isFa ? fa : isTr ? tr : isKu ? ku : en);
 
   return (
     <header className="bg-white border-b border-stone-200 sticky top-0 z-30 shadow-xs">
@@ -92,10 +93,10 @@ export const Header: React.FC<HeaderProps> = ({
             <button
               onClick={onShareSite}
               className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-stone-700 bg-stone-50 hover:bg-stone-100 rounded-xl transition-colors border border-stone-200"
-              title={t('مشاركة الموقع', 'Share this site', 'Partager ce site', 'Compartir este sitio', 'このサイトをシェア', 'इस साइट को शेयर करें', 'Compartilhar este site', 'Поделиться этим сайтом', '分享此网站', 'Diese Seite teilen', 'Condividi questo sito', 'Κοινοποίηση αυτού του ιστότοπου', 'یہ سائٹ شیئر کریں', 'اشتراک‌گذاری این سایت', 'Bu siteyi paylaş')}
+              title={t('مشاركة الموقع', 'Share this site', 'Partager ce site', 'Compartir este sitio', 'このサイトをシェア', 'इस साइट को शेयर करें', 'Compartilhar este site', 'Поделиться этим сайтом', '分享此网站', 'Diese Seite teilen', 'Condividi questo sito', 'Κοινοποίηση αυτού του ιστότοπου', 'یہ سائٹ شیئر کریں', 'اشتراک‌گذاری این سایت', 'Bu siteyi paylaş', 'Vê malperê parve bike')}
             >
               <Share2 className="w-3.5 h-3.5 text-amber-700" />
-              <span className="hidden sm:inline">{t('مشاركة الموقع', 'Share site', 'Partager le site', 'Compartir sitio', 'サイトをシェア', 'साइट शेयर करें', 'Compartilhar site', 'Поделиться сайтом', '分享网站', 'Seite teilen', 'Condividi sito', 'Κοινοποίηση', 'سائٹ شیئر کریں', 'اشتراک سایت', 'Siteyi paylaş')}</span>
+              <span className="hidden sm:inline">{t('مشاركة الموقع', 'Share site', 'Partager le site', 'Compartir sitio', 'サイトをシェア', 'साइट शेयर करें', 'Compartilhar site', 'Поделиться сайтом', '分享网站', 'Seite teilen', 'Condividi sito', 'Κοινοποίηση', 'سائٹ شیئر کریں', 'اشتراک سایت', 'Siteyi paylaş', 'Malperê parve bike')}</span>
             </button>
           </div>
         </div>
@@ -109,7 +110,7 @@ export const Header: React.FC<HeaderProps> = ({
             <BookOpen className="w-3.5 h-3.5 text-amber-600 shrink-0" />
             <div>
               <span className="font-bold text-stone-900">{stats.totalRecipes}</span>
-              <span className="text-stone-500 text-[11px] ms-1">{t('وصفة موحدة', 'Recipes', 'Recettes', 'Recetas', 'レシピ', 'व्यंजन', 'Receitas', 'Рецепты', '食谱', 'Rezepte', 'Ricette', 'Συνταγές', 'ترکیبیں', 'دستورها', 'Tarif')}</span>
+              <span className="text-stone-500 text-[11px] ms-1">{t('وصفة موحدة', 'Recipes', 'Recettes', 'Recetas', 'レシピ', 'व्यंजन', 'Receitas', 'Рецепты', '食谱', 'Rezepte', 'Ricette', 'Συνταγές', 'ترکیبیں', 'دستورها', 'Tarif', 'Reçete')}</span>
             </div>
           </div>
 
@@ -120,7 +121,7 @@ export const Header: React.FC<HeaderProps> = ({
             <Layers className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
             <div>
               <span className="font-bold text-stone-900">{stats.totalMasterIngredients}</span>
-              <span className="text-stone-500 text-[11px] ms-1">{t('مكون رئيسي', 'Ingredients', 'Ingrédients', 'Ingredientes', '食材', 'सामग्री', 'Ingredientes', 'Ингредиенты', '食材', 'Zutaten', 'Ingredienti', 'Υλικά', 'اجزاء', 'مواد اولیه', 'Malzeme')}</span>
+              <span className="text-stone-500 text-[11px] ms-1">{t('مكون رئيسي', 'Ingredients', 'Ingrédients', 'Ingredientes', '食材', 'सामग्री', 'Ingredientes', 'Ингредиенты', '食材', 'Zutaten', 'Ingredienti', 'Υλικά', 'اجزاء', 'مواد اولیه', 'Malzeme', 'Pêkhate')}</span>
             </div>
           </div>
 
@@ -130,8 +131,8 @@ export const Header: React.FC<HeaderProps> = ({
           >
             <Music className="w-3.5 h-3.5 text-purple-600 shrink-0" />
             <div>
-              <span className="font-bold text-stone-900">20 {t('عاماً', 'Years', 'Ans', 'Años', '年', 'वर्ष', 'Anos', 'Лет', '年', 'Jahre', 'Anni', 'Χρόνια', 'سال', 'سال', 'Yıl')}</span>
-              <span className="text-stone-500 text-[11px] ms-1">{t('جمع وتدوين', 'Collection', 'Collecte', 'Recopilación', '記録収集', 'संकلन', 'Coleção', 'Коллекция', '收集整理', 'Sammlung', 'Raccolta', 'Συλλογή', 'جمع و تدوین', 'گردآوری', 'Derleme')}</span>
+              <span className="font-bold text-stone-900">20 {t('عاماً', 'Years', 'Ans', 'Años', '年', 'वर्ष', 'Anos', 'Лет', '年', 'Jahre', 'Anni', 'Χρόνια', 'سال', 'سال', 'Yıl', 'Sal')}</span>
+              <span className="text-stone-500 text-[11px] ms-1">{t('جمع وتدوين', 'Collection', 'Collecte', 'Recopilación', '記録収集', 'संकلन', 'Coleção', 'Коллекция', '收集整理', 'Sammlung', 'Raccolta', 'Συλλογή', 'جمع و تدوین', 'گردآوری', 'Derleme', 'Berhevkirin')}</span>
             </div>
           </div>
         </div>

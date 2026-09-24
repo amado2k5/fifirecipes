@@ -15,7 +15,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'el', name: 'Greek', nativeName: 'Ελληνικά', dir: 'ltr', flag: '🇬🇷' },
   { code: 'ur', name: 'Urdu', nativeName: 'اردو', dir: 'rtl', flag: '🇵🇰' },
   { code: 'fa', name: 'Persian', nativeName: 'فارسی', dir: 'rtl', flag: '🇮🇷' },
-  { code: 'tr', name: 'Turkish', nativeName: 'Türkçe', dir: 'ltr', flag: '🇹🇷' }
+  { code: 'tr', name: 'Turkish', nativeName: 'Türkçe', dir: 'ltr', flag: '🇹🇷' },
+  { code: 'ku', name: 'Kurdish (Kurmanji)', nativeName: 'Kurdî', dir: 'ltr', flag: '☀️' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -67,6 +68,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'tr') {
       return { language: 'tr', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'ku' || (primaryCode as string) === 'kmr') {
+      return { language: 'ku', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
@@ -564,6 +568,32 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     shareRecipe: 'ترکیب شیئر کریں',
     noRecipesFound: 'آپ کی تلاش سے کوئی ترکیب نہیں ملی',
     tributeQuote: 'کھانا پکانا پیانو بجانے جیسا ہے؛ ہم آہنگی، صبر اور محبت ہی اسے کمال تک پہنچاتے ہیں۔',
+  },
+  ku: {
+    siteTitle: 'Reçeteyên Dr. Fatma Alkawokgy',
+    appTitle: 'Reçeteyên Dr. Fatma Alkawokgy',
+    siteSubtitle: 'Pirtûka Mîrasê ya Metbexa Resen a Misrî',
+    appSubtitle: 'Pirtûka Mîrasê ya Metbexa Resen a Misrî',
+    allRecipes: 'Li Reçeteyan Binêre',
+    navAllRecipes: 'Li Reçeteyan Binêre',
+    aboutFatma: 'Derbarê Dr. Fatma de',
+    navAboutFatma: 'Derbarê Dr. Fatma de',
+    ingredientsRegistry: 'Kataloga Pêkhateyan',
+    navIngredientsRegistry: 'Kataloga Pêkhateyan',
+    choosePreferredLanguage: 'Zimanê Malperê Hilbijêre',
+    searchPlaceholder: 'Li reçete, pêkhate an teknîkeke pijandinê bigere...',
+    filterByChapter: 'Li Gorî Beşê Parzûn Bike',
+    prepTime: 'Dema Amadekirinê',
+    cookTime: 'Dema Pijandinê',
+    servings: 'Parî',
+    difficulty: 'Zehmetî',
+    method: 'Rêbaz',
+    ingredients: 'Pêkhateyên Bingehîn û Pîvanên Rastîn',
+    instructions: 'Amadekirin û Pijandina Gav bi Gav',
+    tips: 'Not û Şîretên Dr. Fatma Alkawokgy',
+    shareRecipe: 'Reçeteyê Parve Bike',
+    noRecipesFound: 'Tu reçete li gorî lêgerîna te nehat dîtin',
+    tributeQuote: 'Xwarinçêkirin mîna lêxistina piyanoyê ye; ahenk, sebir û hezkirin wê digihînin kemalê.'
   }
 };
 
