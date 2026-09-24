@@ -132256,13 +132256,34 @@
       "uniqueInstructions": [
         {
           "stepNumber": 1,
-          "text": "المطمورة بدون البصلية: توضع الكوسة المجهزة واللحم وحلقات الطماطم والبصل والكرفس نيئة في إناء على شكل طبقات متبادلة مع السائل والتوابل، وتُطهى على نار هادئة أو في الفرن حتى تنضج.",
-          "phase": "cook",
+          "text": "تُقشر الكوسة وتُقطع حلقات أو قطعاً متوسطة، ويُقطع اللحم ويُقطع البصل والطماطم حلقات.",
+          "phase": "prep",
           "sourceDocs": [],
           "importance": "core"
         },
         {
           "stepNumber": 2,
+          "text": "توضع الكوسة واللحم وحلقات الطماطم والبصل والكرفس نيئة في إناء على شكل طبقات متبادلة، مع رش التوابل بين كل طبقة وأخرى.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "يُضاف مقدار قليل من السائل (أقل من المعتاد لأن الكوسة مائية) ويُغطى الإناء.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "يُطهى على نار هادئة أو في فرن متوسط حتى ينضج اللحم والكوسة.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
           "text": "المطمورة بالبصلية: يُفرى البصل ويُقلى في السمن ثم يُضاف اللحم ثم الطماطم المصفاة حتى تنضج، ثم يُضاف السائل والكوسة ويُغطى حتى تنضج، مع إضافة قليل من الحمص إذا أُريد.",
           "phase": "alternative",
           "sourceDocs": [],
@@ -132270,7 +132291,7 @@
           "importance": "variation"
         },
         {
-          "stepNumber": 3,
+          "stepNumber": 6,
           "text": "مسقعة الكوسة: تُقشر الكوسة وتُقطع شرائح وتُتبل بالملح ثم تُحمر خفيفاً في السمن، وتُعمل البصلية باللحم المفري، ثم تُرص الكوسة واللحم بالتبادل في حلة أو طاجن، ويُسقى بالسائل المتبل ويُطهى على نار هادئة أو في فرن متوسط حتى يتم النضج.",
           "phase": "alternative",
           "sourceDocs": [],
@@ -132287,7 +132308,7 @@
       "overlapAnalysis": {
         "duplicateInstructionCount": 0,
         "mergedIngredientsCount": 0,
-        "totalUniqueSteps": 3,
+        "totalUniqueSteps": 6,
         "totalMasterIngredients": 8,
         "overlapPercentage": 0,
         "documentsPresent": [],
