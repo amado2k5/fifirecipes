@@ -16,7 +16,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'ur', name: 'Urdu', nativeName: 'اردو', dir: 'rtl', flag: '🇵🇰' },
   { code: 'fa', name: 'Persian', nativeName: 'فارسی', dir: 'rtl', flag: '🇮🇷' },
   { code: 'tr', name: 'Turkish', nativeName: 'Türkçe', dir: 'ltr', flag: '🇹🇷' },
-  { code: 'ku', name: 'Kurdish (Kurmanji)', nativeName: 'Kurdî', dir: 'ltr', flag: '☀️' }
+  { code: 'ku', name: 'Kurdish (Kurmanji)', nativeName: 'Kurdî', dir: 'ltr', flag: '☀️' },
+  { code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia', dir: 'ltr', flag: '🇮🇩' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -71,6 +72,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'ku' || (primaryCode as string) === 'kmr') {
       return { language: 'ku', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'id' || (primaryCode as string) === 'in') {
+      return { language: 'id', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
@@ -416,23 +420,30 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: '요리는 피아노 연주와 같습니다. 조화와 인내, 사랑이 필요합니다.',
   },
   id: {
-    siteTitle: 'Buku Masakan Dr. Fatma Alkawokgy',
-    siteSubtitle: 'Arsip Kuliner Tradisional Mesir',
-    allRecipes: 'Semua Resep',
+    siteTitle: 'Resep Dr. Fatma Alkawokgy',
+    appTitle: 'Resep Dr. Fatma Alkawokgy',
+    siteSubtitle: 'Buku Resep Warisan Masakan Asli Mesir',
+    appSubtitle: 'Buku Resep Warisan Masakan Asli Mesir',
+    allRecipes: 'Jelajahi Resep',
+    navAllRecipes: 'Jelajahi Resep',
     aboutFatma: 'Tentang Dr. Fatma',
-    searchPlaceholder: 'Cari resep, bahan, atau teknik...',
-    filterByChapter: 'Filter Kategori',
-    prepTime: 'Persiapan',
-    cookTime: 'Memasak',
+    navAboutFatma: 'Tentang Dr. Fatma',
+    ingredientsRegistry: 'Katalog Bahan',
+    navIngredientsRegistry: 'Katalog Bahan',
+    choosePreferredLanguage: 'Pilih Bahasa Situs',
+    searchPlaceholder: 'Cari resep, bahan, atau teknik memasak...',
+    filterByChapter: 'Saring Berdasarkan Bab',
+    prepTime: 'Waktu Persiapan',
+    cookTime: 'Waktu Memasak',
     servings: 'Porsi',
     difficulty: 'Tingkat Kesulitan',
     method: 'Metode',
     ingredients: 'Bahan Utama & Takaran Tepat',
-    instructions: 'Langkah Demi Langkah',
-    tips: 'Tips Kuliner Fatma',
+    instructions: 'Persiapan & Memasak Langkah demi Langkah',
+    tips: 'Catatan & Tips Dr. Fatma Alkawokgy',
     shareRecipe: 'Bagikan Resep',
-    noRecipesFound: 'Resep tidak ditemukan',
-    tributeQuote: 'Memasak bagaikan bermain piano: membutuhkan harmoni dan kesabaran.',
+    noRecipesFound: 'Tidak ada resep yang cocok dengan pencarian Anda',
+    tributeQuote: 'Memasak itu seperti bermain piano; harmoni, kesabaran, dan cinta membawanya menuju kesempurnaan.',
   },
   fa: {
     siteTitle: 'دستورهای آشپزی دکتر فاطمه القاوقجی',

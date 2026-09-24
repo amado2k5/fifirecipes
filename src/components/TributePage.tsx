@@ -26,7 +26,8 @@ export const TributePage: React.FC<TributePageProps> = ({ lang, onBack }) => {
   const isFa = lang === 'fa';
   const isTr = lang === 'tr';
   const isKu = lang === 'ku';
-  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string, fa: string, tr: string, ku: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : isFa ? fa : isTr ? tr : isKu ? ku : en);
+  const isId = lang === 'id';
+  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string, fa: string, tr: string, ku: string, id: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : isFa ? fa : isTr ? tr : isKu ? ku : isId ? id : en);
   const [name, setName] = useState('');
   const [location, setLocation] = useState('');
   const [message, setMessage] = useState('');
@@ -52,16 +53,17 @@ export const TributePage: React.FC<TributePageProps> = ({ lang, onBack }) => {
       `[fifi.cooking] ${name.trim()} کی جانب سے ڈاکٹر فاطمہ القاوقجی کو خراجِ عقیدت`,
       `[fifi.cooking] یادبودی برای دکتر فاطمه القاوقجی از طرف ${name.trim()}`,
       `[fifi.cooking] ${name.trim()} tarafından Dr. Fatma Alkawokgy için bir anma yazısı`,
-      `[fifi.cooking] Nivîsareke bîranînê ji bo Dr. Fatma Alkawokgy ji aliyê ${name.trim()} ve`
+      `[fifi.cooking] Nivîsareke bîranînê ji bo Dr. Fatma Alkawokgy ji aliyê ${name.trim()} ve`,
+      `[fifi.cooking] Kenangan untuk Dr. Fatma Alkawokgy dari ${name.trim()}`
     );
     const bodyLines = [
       message.trim(),
       '',
       '---',
-      t(`الاسم: ${name.trim()}`, `Name: ${name.trim()}`, `Nom : ${name.trim()}`, `Nombre: ${name.trim()}`, `お名前: ${name.trim()}`, `नाम: ${name.trim()}`, `Nome: ${name.trim()}`, `Имя: ${name.trim()}`, `姓名：${name.trim()}`, `Name: ${name.trim()}`, `Nome: ${name.trim()}`, `Όνομα: ${name.trim()}`, `نام: ${name.trim()}`, `نام: ${name.trim()}`, `Ad: ${name.trim()}`, `Nav: ${name.trim()}`),
+      t(`الاسم: ${name.trim()}`, `Name: ${name.trim()}`, `Nom : ${name.trim()}`, `Nombre: ${name.trim()}`, `お名前: ${name.trim()}`, `नाम: ${name.trim()}`, `Nome: ${name.trim()}`, `Имя: ${name.trim()}`, `姓名：${name.trim()}`, `Name: ${name.trim()}`, `Nome: ${name.trim()}`, `Όνομα: ${name.trim()}`, `نام: ${name.trim()}`, `نام: ${name.trim()}`, `Ad: ${name.trim()}`, `Nav: ${name.trim()}`, `Nama: ${name.trim()}`),
     ];
     if (location.trim()) {
-      bodyLines.push(t(`المدينة أو البلد: ${location.trim()}`, `City or country: ${location.trim()}`, `Ville ou pays : ${location.trim()}`, `Ciudad o país: ${location.trim()}`, `都市または国: ${location.trim()}`, `शहर या देश: ${location.trim()}`, `Cidade ou país: ${location.trim()}`, `Город или страна: ${location.trim()}`, `城市或国家：${location.trim()}`, `Stadt oder Land: ${location.trim()}`, `Città o paese: ${location.trim()}`, `Πόλη ή χώρα: ${location.trim()}`, `شہر یا ملک: ${location.trim()}`, `شهر یا کشور: ${location.trim()}`, `Şehir veya ülke: ${location.trim()}`, `Bajar an welat: ${location.trim()}`));
+      bodyLines.push(t(`المدينة أو البلد: ${location.trim()}`, `City or country: ${location.trim()}`, `Ville ou pays : ${location.trim()}`, `Ciudad o país: ${location.trim()}`, `都市または国: ${location.trim()}`, `शहर या देश: ${location.trim()}`, `Cidade ou país: ${location.trim()}`, `Город или страна: ${location.trim()}`, `城市或国家：${location.trim()}`, `Stadt oder Land: ${location.trim()}`, `Città o paese: ${location.trim()}`, `Πόλη ή χώρα: ${location.trim()}`, `شہر یا ملک: ${location.trim()}`, `شهر یا کشور: ${location.trim()}`, `Şehir veya ülke: ${location.trim()}`, `Bajar an welat: ${location.trim()}`, `Kota atau negara: ${location.trim()}`));
     }
     const body = bodyLines.join('\n');
 
@@ -78,16 +80,16 @@ export const TributePage: React.FC<TributePageProps> = ({ lang, onBack }) => {
         className="inline-flex items-center gap-2 text-sm font-bold text-stone-600 hover:text-amber-800 transition-colors"
       >
         {isRtl ? <ArrowRight className="w-4 h-4" /> : <ArrowLeft className="w-4 h-4" />}
-        <span>{t('العودة إلى صفحة فاطمة', 'Back to Fatma’s story', 'Retour à l’histoire de Fatma', 'Volver a la historia de Fatma', 'ファトマ博士の物語に戻る', 'फ़ातिमा की कहानी पर वापस जाएं', 'Voltar à história de Fatma', 'Вернуться к истории Фатмы', '返回法特玛的故事', 'Zurück zu Fatmas Geschichte', 'Torna alla storia di Fatma', 'Επιστροφή στην ιστορία της Fatma', 'فاطمہ کی کہانی پر واپس جائیں', 'بازگشت به داستان فاطمه', 'Fatma’nın hikâyesine dön', 'Vegere çîroka Fatma')}</span>
+        <span>{t('العودة إلى صفحة فاطمة', 'Back to Fatma’s story', 'Retour à l’histoire de Fatma', 'Volver a la historia de Fatma', 'ファトマ博士の物語に戻る', 'फ़ातिमा की कहानी पर वापस जाएं', 'Voltar à história de Fatma', 'Вернуться к истории Фатмы', '返回法特玛的故事', 'Zurück zu Fatmas Geschichte', 'Torna alla storia di Fatma', 'Επιστροφή στην ιστορία της Fatma', 'فاطمہ کی کہانی پر واپس جائیں', 'بازگشت به داستان فاطمه', 'Fatma’nın hikâyesine dön', 'Vegere çîroka Fatma', 'Kembali ke kisah Fatma')}</span>
       </button>
 
       <header className="max-w-3xl">
         <div className="inline-flex items-center gap-2 text-amber-700 text-xs font-bold uppercase tracking-wider mb-3">
           <Heart className="w-4 h-4 fill-current" />
-          <span>{t('كتاب الذكريات', 'A Book of Remembrance', 'Un Livre de Souvenirs', 'Un Libro de Recuerdos', '追悼のメッセージ集', 'यादों की किताब', 'Um Livro de Memórias', 'Книга Памяти', '追忆之书', 'Ein Buch der Erinnerung', 'Un Libro del Ricordo', 'Ένα Βιβλίο Μνήμης', 'یادوں کی کتاب', 'دفتر یادبود', 'Anı Defteri', 'Deftera Bîranînan')}</span>
+          <span>{t('كتاب الذكريات', 'A Book of Remembrance', 'Un Livre de Souvenirs', 'Un Libro de Recuerdos', '追悼のメッセージ集', 'यादों की किताब', 'Um Livro de Memórias', 'Книга Памяти', '追忆之书', 'Ein Buch der Erinnerung', 'Un Libro del Ricordo', 'Ένα Βιβλίο Μνήμης', 'یادوں کی کتاب', 'دفتر یادبود', 'Anı Defteri', 'Deftera Bîranînan', 'Buku Kenangan')}</span>
         </div>
         <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-stone-900">
-          {t('اكتبوا تحية لروح فاطمة', 'Leave a tribute to Fatma', 'Laissez un hommage à Fatma', 'Deja un homenaje a Fatma', 'ファトマ博士への追悼メッセージ', 'फ़ातिमा को श्रद्धांजलि लिखें', 'Deixe uma homenagem para Fatma', 'Оставьте дань памяти Фатме', '为法特玛留言悼念', 'Hinterlassen Sie eine Hommage an Fatma', 'Lascia un omaggio a Fatma', 'Αφήστε έναν φόρο τιμής στη Fatma', 'فاطمہ کے لیے خراجِ عقیدت پیش کریں', 'برای فاطمه یادبودی بگذارید', 'Fatma için bir anma yazısı bırakın', 'Ji bo Fatma nivîsareke bîranînê bihêle')}
+          {t('اكتبوا تحية لروح فاطمة', 'Leave a tribute to Fatma', 'Laissez un hommage à Fatma', 'Deja un homenaje a Fatma', 'ファトマ博士への追悼メッセージ', 'फ़ातिमा को श्रद्धांजलि लिखें', 'Deixe uma homenagem para Fatma', 'Оставьте дань памяти Фатме', '为法特玛留言悼念', 'Hinterlassen Sie eine Hommage an Fatma', 'Lascia un omaggio a Fatma', 'Αφήστε έναν φόρο τιμής στη Fatma', 'فاطمہ کے لیے خراجِ عقیدت پیش کریں', 'برای فاطمه یادبودی بگذارید', 'Fatma için bir anma yazısı bırakın', 'Ji bo Fatma nivîsareke bîranînê bihêle', 'Tinggalkan kenangan untuk Fatma')}
         </h1>
         <p className="mt-3 text-base sm:text-lg text-stone-600 leading-relaxed">
           {t(
@@ -106,7 +108,8 @@ export const TributePage: React.FC<TributePageProps> = ({ lang, onBack }) => {
             'کوئی یاد، محبت بھرے الفاظ، یا کوئی واقعہ شیئر کریں کہ ڈاکٹر فاطمہ القاوقجی نے آپ کی زندگی پر کیا نقش چھوڑا۔ آپ کا پیغام ای میل کے ذریعے بھیجا جائے گا۔',
             'خاطره‌ای، سخنی از سر مهر یا داستانی از ردی که دکتر فاطمه القاوقجی بر زندگی شما گذاشت بنویسید. پیام شما با ایمیل ارسال می‌شود.',
             'Dr. Fatma Alkawokgy’nin hayatınızda bıraktığı iz hakkında bir anı, sevgi dolu bir söz ya da bir hikâye paylaşın. Mesajınız e-posta ile gönderilecektir.',
-            'Bîranînek, gotineke bi hezkirin an çîrokek li ser şopa ku Dr. Fatma Alkawokgy di jiyana te de hiştiye parve bike. Peyama te dê bi e-nameyê were şandin.'
+            'Bîranînek, gotineke bi hezkirin an çîrokek li ser şopa ku Dr. Fatma Alkawokgy di jiyana te de hiştiye parve bike. Peyama te dê bi e-nameyê were şandin.',
+            'Bagikan kenangan, ucapan penuh kasih, atau kisah tentang jejak yang ditinggalkan Dr. Fatma Alkawokgy dalam hidup Anda. Pesan Anda akan dikirim melalui email.'
           )}
         </p>
       </header>
@@ -115,25 +118,25 @@ export const TributePage: React.FC<TributePageProps> = ({ lang, onBack }) => {
         <form onSubmit={handleSubmit} className="bg-white border border-stone-200 rounded-2xl p-5 sm:p-7 shadow-sm space-y-4">
           <div>
             <label htmlFor="tribute-name" className="block text-sm font-bold text-stone-800 mb-1.5">
-              {t('الاسم', 'Your name', 'Votre nom', 'Tu nombre', 'お名前', 'आपका नाम', 'Seu nome', 'Ваше имя', '您的姓名', 'Ihr Name', 'Il tuo nome', 'Το όνομά σας', 'آپ کا نام', 'نام شما', 'Adınız', 'Navê te')}
+              {t('الاسم', 'Your name', 'Votre nom', 'Tu nombre', 'お名前', 'आपका नाम', 'Seu nome', 'Ваше имя', '您的姓名', 'Ihr Name', 'Il tuo nome', 'Το όνομά σας', 'آپ کا نام', 'نام شما', 'Adınız', 'Navê te', 'Nama Anda')}
             </label>
             <input id="tribute-name" value={name} onChange={event => setName(event.target.value)} required maxLength={80} className="w-full rounded-xl border border-stone-300 bg-stone-50 px-3 py-2.5 text-sm focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-500/20" />
           </div>
           <div>
             <label htmlFor="tribute-location" className="block text-sm font-bold text-stone-800 mb-1.5">
-              {t('المدينة أو البلد (اختياري)', 'City or country (optional)', 'Ville ou pays (facultatif)', 'Ciudad o país (opcional)', '都市または国(任意)', 'शहर या देश (वैकल्पिक)', 'Cidade ou país (opcional)', 'Город или страна (необязательно)', '城市或国家（选填）', 'Stadt oder Land (optional)', 'Città o paese (facoltativo)', 'Πόλη ή χώρα (προαιρετικό)', 'شہر یا ملک (اختیاری)', 'شهر یا کشور (اختیاری)', 'Şehir veya ülke (isteğe bağlı)', 'Bajar an welat (vebijarkî)')}
+              {t('المدينة أو البلد (اختياري)', 'City or country (optional)', 'Ville ou pays (facultatif)', 'Ciudad o país (opcional)', '都市または国(任意)', 'शहर या देश (वैकल्पिक)', 'Cidade ou país (opcional)', 'Город или страна (необязательно)', '城市或国家（选填）', 'Stadt oder Land (optional)', 'Città o paese (facoltativo)', 'Πόλη ή χώρα (προαιρετικό)', 'شہر یا ملک (اختیاری)', 'شهر یا کشور (اختیاری)', 'Şehir veya ülke (isteğe bağlı)', 'Bajar an welat (vebijarkî)', 'Kota atau negara (opsional)')}
             </label>
             <input id="tribute-location" value={location} onChange={event => setLocation(event.target.value)} maxLength={80} className="w-full rounded-xl border border-stone-300 bg-stone-50 px-3 py-2.5 text-sm focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-500/20" />
           </div>
           <div>
             <label htmlFor="tribute-message" className="block text-sm font-bold text-stone-800 mb-1.5">
-              {t('تحيتك', 'Your tribute', 'Votre hommage', 'Tu homenaje', 'メッセージ', 'आपकी श्रद्धांजलि', 'Sua homenagem', 'Ваше сообщение', '您的悼念寄语', 'Ihre Hommage', 'Il tuo omaggio', 'Ο φόρος τιμής σας', 'آپ کا خراجِ عقیدت', 'یادبود شما', 'Anma yazınız', 'Nivîsara te ya bîranînê')}
+              {t('تحيتك', 'Your tribute', 'Votre hommage', 'Tu homenaje', 'メッセージ', 'आपकी श्रद्धांजलि', 'Sua homenagem', 'Ваше сообщение', '您的悼念寄语', 'Ihre Hommage', 'Il tuo omaggio', 'Ο φόρος τιμής σας', 'آپ کا خراجِ عقیدت', 'یادبود شما', 'Anma yazınız', 'Nivîsara te ya bîranînê', 'Kenangan Anda')}
             </label>
             <textarea id="tribute-message" value={message} onChange={event => setMessage(event.target.value)} required maxLength={1200} rows={7} className="w-full resize-y rounded-xl border border-stone-300 bg-stone-50 px-3 py-2.5 text-sm leading-relaxed focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-500/20" />
           </div>
           <button type="submit" className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-amber-700 px-4 py-3 text-sm font-bold text-white hover:bg-amber-800">
             <Send className="w-4 h-4" />
-            <span>{t('إرسال التحية بالبريد الإلكتروني', 'Send tribute by email', 'Envoyer l’hommage par e-mail', 'Enviar homenaje por correo', 'メールで送信する', 'ईमेल से श्रद्धांजलि भेजें', 'Enviar homenagem por e-mail', 'Отправить дань памяти по эл. почте', '通过邮件发送悼念', 'Hommage per E-Mail senden', 'Invia omaggio via e-mail', 'Αποστολή φόρου τιμής μέσω e-mail', 'ای میل کے ذریعے بھیجیں', 'ارسال یادبود با ایمیل', 'E-posta ile gönder', 'Bi e-nameyê bişîne')}</span>
+            <span>{t('إرسال التحية بالبريد الإلكتروني', 'Send tribute by email', 'Envoyer l’hommage par e-mail', 'Enviar homenaje por correo', 'メールで送信する', 'ईमेल से श्रद्धांजलि भेजें', 'Enviar homenagem por e-mail', 'Отправить дань памяти по эл. почте', '通过邮件发送悼念', 'Hommage per E-Mail senden', 'Invia omaggio via e-mail', 'Αποστολή φόρου τιμής μέσω e-mail', 'ای میل کے ذریعے بھیجیں', 'ارسال یادبود با ایمیل', 'E-posta ile gönder', 'Bi e-nameyê bişîne', 'Kirim melalui email')}</span>
           </button>
           {submitted && (
             <p className="text-sm font-semibold text-emerald-700">
@@ -153,7 +156,8 @@ export const TributePage: React.FC<TributePageProps> = ({ lang, onBack }) => {
                 'آپ کی ای میل ایپ ایک تیار پیغام کے ساتھ کھل گئی ہوگی — اپنا خراجِ عقیدت شیئر کرنے کے لیے اسے بھیج دیں۔',
                 'برنامه ایمیل شما باید با یک پیام آماده باز شده باشد — برای به اشتراک گذاشتن یادبود خود آن را ارسال کنید.',
                 'E-posta uygulamanız hazır bir mesajla açılmış olmalı — anma yazınızı paylaşmak için gönderin.',
-                'Divê sepana te ya e-nameyê bi peyameke amade vebûbe — ji bo parvekirina nivîsara xwe ya bîranînê wê bişîne.'
+                'Divê sepana te ya e-nameyê bi peyameke amade vebûbe — ji bo parvekirina nivîsara xwe ya bîranînê wê bişîne.',
+                'Aplikasi email Anda seharusnya terbuka dengan pesan yang sudah siap — kirimkan untuk membagikan kenangan Anda.'
               )}
             </p>
           )}
