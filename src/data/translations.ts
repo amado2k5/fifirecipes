@@ -18,7 +18,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'tr', name: 'Turkish', nativeName: 'Türkçe', dir: 'ltr', flag: '🇹🇷' },
   { code: 'ku', name: 'Kurdish (Kurmanji)', nativeName: 'Kurdî', dir: 'ltr', flag: '☀️' },
   { code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia', dir: 'ltr', flag: '🇮🇩' },
-  { code: 'sw', name: 'Swahili', nativeName: 'Kiswahili', dir: 'ltr', flag: '🇹🇿' }
+  { code: 'sw', name: 'Swahili', nativeName: 'Kiswahili', dir: 'ltr', flag: '🇹🇿' },
+  { code: 'ko', name: 'Korean', nativeName: '한국어', dir: 'ltr', flag: '🇰🇷' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -79,6 +80,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'sw') {
       return { language: 'sw', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'ko') {
+      return { language: 'ko', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
@@ -405,23 +409,30 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'खाना पकाना पियानो बजाने जैसा है: इसके लिए धैर्य और प्रेम चाहिए।',
   },
   ko: {
-    siteTitle: '파트마 알카워크지 박사 요리책',
-    siteSubtitle: '이집트 정통 요리 헤리티지 아카이브',
-    allRecipes: '모든 요리',
+    siteTitle: '파트마 알카우크지 박사의 레시피',
+    appTitle: '파트마 알카우크지 박사의 레시피',
+    siteSubtitle: '이집트 정통 요리 유산 레시피북',
+    appSubtitle: '이집트 정통 요리 유산 레시피북',
+    allRecipes: '레시피 둘러보기',
+    navAllRecipes: '레시피 둘러보기',
     aboutFatma: '파트마 박사 소개',
-    searchPlaceholder: '요리명, 재료 또는 조리법 검색...',
-    filterByChapter: '카테고리별 필터',
+    navAboutFatma: '파트마 박사 소개',
+    ingredientsRegistry: '재료 목록',
+    navIngredientsRegistry: '재료 목록',
+    choosePreferredLanguage: '사이트 언어 선택',
+    searchPlaceholder: '레시피, 재료 또는 조리 기법 검색...',
+    filterByChapter: '장별 필터',
     prepTime: '준비 시간',
     cookTime: '조리 시간',
     servings: '인분',
     difficulty: '난이도',
     method: '조리법',
-    ingredients: '주요 재료 및 정량',
-    instructions: '단계별 상세 조리법',
-    tips: '파트마 박사의 요리 팁',
+    ingredients: '주요 재료 및 정확한 계량',
+    instructions: '단계별 준비 및 조리',
+    tips: '파트마 알카우크지 박사의 노트와 팁',
     shareRecipe: '레시피 공유',
-    noRecipesFound: '검색된 레시피가 없습니다',
-    tributeQuote: '요리는 피아노 연주와 같습니다. 조화와 인내, 사랑이 필요합니다.',
+    noRecipesFound: '검색과 일치하는 레시피가 없습니다',
+    tributeQuote: '요리는 피아노 연주와 같습니다. 조화와 인내, 그리고 사랑이 완성으로 이끌어 줍니다.'
   },
   id: {
     siteTitle: 'Resep Dr. Fatma Alkawokgy',
