@@ -171278,6 +171278,1715 @@
         "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
       },
       "rawDocVersions": {}
+    },
+    {
+      "id": "ec-446",
+      "title": "Lemon Granita (Granittat al-Lamun)",
+      "titleEn": "Lemon Granita (Granittat al-Lamun)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "حلويات خفيفة",
+      "cookingMethod": "حفظ وتجميد",
+      "prepTime": "10 min",
+      "cookTime": "1 hour 30 min (includes chilling)",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-446-i1",
+          "name": "Water",
+          "nameEn": "Water",
+          "standardAmount": "5 cups",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-446-i2",
+          "name": "Sugar",
+          "nameEn": "Sugar",
+          "standardAmount": "2 cups",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-446-i3",
+          "name": "Lemon juice",
+          "nameEn": "Lemon juice",
+          "standardAmount": "1 cup",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-446-i4",
+          "name": "Grated lemon rind",
+          "nameEn": "Grated lemon rind",
+          "standardAmount": "from 3–4 lemons",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Dissolve the sugar in the water, add the lemon rind and bring to the boil over a low heat.",
+          "textEn": "Dissolve the sugar in the water, add the lemon rind and bring to the boil over a low heat.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Boil for 10 minutes, stirring now and then and skimming as needed.",
+          "textEn": "Boil for 10 minutes, stirring now and then and skimming as needed.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Strain and let cool.",
+          "textEn": "Strain and let cool.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Stir in the lemon juice.",
+          "textEn": "Stir in the lemon juice.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Pour into an ice tray and freeze for 60–90 minutes.",
+          "textEn": "Pour into an ice tray and freeze for 60–90 minutes.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA193",
+        "collection": "abdennour",
+        "citation": "Recipe 446, page 193"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 4,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-447",
+      "title": "Orange Granita (Granittat al-Burtu’an)",
+      "titleEn": "Orange Granita (Granittat al-Burtu’an)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "حلويات خفيفة",
+      "cookingMethod": "حفظ وتجميد",
+      "prepTime": "10 min",
+      "cookTime": "1 hour 30 min (includes chilling)",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-447-i1",
+          "name": "Orange juice",
+          "nameEn": "Orange juice",
+          "standardAmount": "3 cups",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-447-i2",
+          "name": "Water",
+          "nameEn": "Water",
+          "standardAmount": "2 cups",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-447-i3",
+          "name": "Sugar",
+          "nameEn": "Sugar",
+          "standardAmount": "1–2 cups",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-447-i4",
+          "name": "Lemon juice",
+          "nameEn": "Lemon juice",
+          "standardAmount": "1 tablespoon",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-447-i5",
+          "name": "Grated rind of lemons and oranges",
+          "nameEn": "Grated rind of lemons and oranges",
+          "standardAmount": "2 of each",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Dissolve the sugar in the water, add the grated rinds and boil gently for 10 minutes, skimming as needed.",
+          "textEn": "Dissolve the sugar in the water, add the grated rinds and boil gently for 10 minutes, skimming as needed.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Strain and let cool.",
+          "textEn": "Strain and let cool.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Stir in the orange and lemon juice.",
+          "textEn": "Stir in the orange and lemon juice.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Pour into an ice tray and freeze for 60–90 minutes.",
+          "textEn": "Pour into an ice tray and freeze for 60–90 minutes.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "Adjust the sugar to the oranges: with sweet (sukkari) oranges, one cup is enough.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA193",
+        "collection": "abdennour",
+        "citation": "Recipe 447, page 193"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 4,
+        "totalMasterIngredients": 5,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-448",
+      "title": "Rosewater Starch Pudding (Baluza)",
+      "titleEn": "Rosewater Starch Pudding (Baluza)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "حلويات خفيفة",
+      "cookingMethod": "تسبيك",
+      "prepTime": "5 min + cooling",
+      "cookTime": "15 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-448-i1",
+          "name": "Water",
+          "nameEn": "Water",
+          "standardAmount": "4 cups",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-448-i2",
+          "name": "Sugar",
+          "nameEn": "Sugar",
+          "standardAmount": "3 tablespoons",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-448-i3",
+          "name": "Cornstarch",
+          "nameEn": "Cornstarch",
+          "standardAmount": "3 tablespoons",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-448-i4",
+          "name": "Rosewater",
+          "nameEn": "Rosewater",
+          "standardAmount": "1 tablespoon",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-448-i5",
+          "name": "Finely crushed roasted nuts mixed with sugar",
+          "nameEn": "Finely crushed roasted nuts mixed with sugar",
+          "standardAmount": "2 tablespoons",
+          "category": "other",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Mix the starch into 1 cup of cold water.",
+          "textEn": "Mix the starch into 1 cup of cold water.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Dissolve the sugar in the remaining water in a medium pot over a low heat.",
+          "textEn": "Dissolve the sugar in the remaining water in a medium pot over a low heat.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Add the starch and stir constantly until the baluza thickens like a thin custard.",
+          "textEn": "Add the starch and stir constantly until the baluza thickens like a thin custard.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Turn off the heat, stir in the rosewater and pour into individual bowls.",
+          "textEn": "Turn off the heat, stir in the rosewater and pour into individual bowls.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "When cool, sprinkle with the nuts.",
+          "textEn": "When cool, sprinkle with the nuts.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "For sweet dishes the book mixes finely crushed roasted almonds, hazelnuts, pecans or peanuts with sugar, two parts nuts to one part sugar.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA193",
+        "collection": "abdennour",
+        "citation": "Recipe 448, page 193"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 5,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-453",
+      "title": "Baked Pumpkin with Raisins and Milk Cream (Saniyit ’Ar‘ ‘Asali)",
+      "titleEn": "Baked Pumpkin with Raisins and Milk Cream (Saniyit ’Ar‘ ‘Asali)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "حلويات شرقية",
+      "cookingMethod": "خبز وتسوية بالفرن",
+      "prepTime": "20 min",
+      "cookTime": "1 hour",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-453-i1",
+          "name": "Hard, pale pumpkin",
+          "nameEn": "Hard, pale pumpkin",
+          "standardAmount": "1 kg",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-453-i2",
+          "name": "Sugar",
+          "nameEn": "Sugar",
+          "standardAmount": "1/4 kg",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-453-i3",
+          "name": "Raisins",
+          "nameEn": "Raisins",
+          "standardAmount": "1 tablespoon",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-453-i4",
+          "name": "Roasted almonds, halved",
+          "nameEn": "Roasted almonds, halved",
+          "standardAmount": "1 tablespoon",
+          "category": "other",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-453-i5",
+          "name": "Milk",
+          "nameEn": "Milk",
+          "standardAmount": "1 cup",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-453-i6",
+          "name": "Cornflour",
+          "nameEn": "Cornflour",
+          "standardAmount": "1/2 teaspoon",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-453-i7",
+          "name": "Sugar (for the cream)",
+          "nameEn": "Sugar (for the cream)",
+          "standardAmount": "1 teaspoon",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-453-i8",
+          "name": "Rosewater (optional)",
+          "nameEn": "Rosewater (optional)",
+          "standardAmount": "1 teaspoon",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-453-i9",
+          "name": "Egg (optional)",
+          "nameEn": "Egg (optional)",
+          "standardAmount": "1",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Slice the pumpkin into rounds, remove the seeds, peel and chop roughly.",
+          "textEn": "Slice the pumpkin into rounds, remove the seeds, peel and chop roughly.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Stew the pumpkin in its own juice over a very low heat, tossing at first and then stirring gently now and then so it does not stick.",
+          "textEn": "Stew the pumpkin in its own juice over a very low heat, tossing at first and then stirring gently now and then so it does not stick.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "When it is very soft, tilt the pot and pour off as much juice as possible. Add the 1/4 kg sugar and keep over a very low heat until dissolved.",
+          "textEn": "When it is very soft, tilt the pot and pour off as much juice as possible. Add the 1/4 kg sugar and keep over a very low heat until dissolved.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Sweet white sauce: mix the cornflour into half the cold milk, bring the rest of the milk to the boil with the teaspoon of sugar, add the cornflour mixture and cook, stirring, until like a thin custard. Stir in the rosewater.",
+          "textEn": "Sweet white sauce: mix the cornflour into half the cold milk, bring the rest of the milk to the boil with the teaspoon of sugar, add the cornflour mixture and cook, stirring, until like a thin custard. Stir in the rosewater.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Mash the pumpkin smooth, spread it in a baking pan and scatter over the raisins and almonds.",
+          "textEn": "Mash the pumpkin smooth, spread it in a baking pan and scatter over the raisins and almonds.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "Cover with a thin layer of the white sauce; the pumpkin should be twice as thick as the sauce. Pour a beaten egg over the top if you like.",
+          "textEn": "Cover with a thin layer of the white sauce; the pumpkin should be twice as thick as the sauce. Pour a beaten egg over the top if you like.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 7,
+          "text": "Bake in the middle of a preheated oven until bubbling, then brown the top under the grill.",
+          "textEn": "Bake in the middle of a preheated oven until bubbling, then brown the top under the grill.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "Choose a very hard, pale pumpkin: the harder it is, the drier and riper. The seeds are good roasted with a pinch of salt.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA195",
+        "collection": "abdennour",
+        "citation": "Recipe 453, page 195"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 7,
+        "totalMasterIngredients": 9,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-460",
+      "title": "Nut-Filled Gullash Fingers in Syrup (Asabi‘ Gullash)",
+      "titleEn": "Nut-Filled Gullash Fingers in Syrup (Asabi‘ Gullash)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "حلويات شرقية",
+      "cookingMethod": "خبز وتسوية بالفرن",
+      "prepTime": "40 min",
+      "cookTime": "25 min",
+      "difficulty": "medium",
+      "masterIngredients": [
+        {
+          "id": "ec-460-i1",
+          "name": "Gullash (phyllo) sheets",
+          "nameEn": "Gullash (phyllo) sheets",
+          "standardAmount": "1/2 kg",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-460-i2",
+          "name": "Butter, melted",
+          "nameEn": "Butter, melted",
+          "standardAmount": "2–3 tablespoons",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-460-i3",
+          "name": "Finely crushed roasted nuts mixed with sugar",
+          "nameEn": "Finely crushed roasted nuts mixed with sugar",
+          "standardAmount": "1 cup",
+          "category": "other",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-460-i4",
+          "name": "Ground cinnamon",
+          "nameEn": "Ground cinnamon",
+          "standardAmount": "1 tablespoon",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-460-i5",
+          "name": "Syrup: sugar",
+          "nameEn": "Syrup: sugar",
+          "standardAmount": "1 cup",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-460-i6",
+          "name": "Syrup: water",
+          "nameEn": "Syrup: water",
+          "standardAmount": "1/2 cup",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-460-i7",
+          "name": "Syrup: lemon juice",
+          "nameEn": "Syrup: lemon juice",
+          "standardAmount": "1 teaspoon",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Syrup: boil the sugar and water for 3–5 minutes, add the lemon juice and cook until slightly thickened. Let it cool completely.",
+          "textEn": "Syrup: boil the sugar and water for 3–5 minutes, add the lemon juice and cook until slightly thickened. Let it cool completely.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Mix the nuts with the cinnamon. Cut the gullash into 10 cm squares and keep them under a cloth.",
+          "textEn": "Mix the nuts with the cinnamon. Cut the gullash into 10 cm squares and keep them under a cloth.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Working one square at a time, lay a pencil-thin line of filling 1 cm from the edges, turn in the sides and roll up very tightly.",
+          "textEn": "Working one square at a time, lay a pencil-thin line of filling 1 cm from the edges, turn in the sides and roll up very tightly.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Pack the fingers side by side in a greased baking pan.",
+          "textEn": "Pack the fingers side by side in a greased baking pan.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Brush each with melted butter and bake in a moderate, preheated oven until golden.",
+          "textEn": "Brush each with melted butter and bake in a moderate, preheated oven until golden.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "Take them out and dip them lightly in the cold syrup.",
+          "textEn": "Take them out and dip them lightly in the cold syrup.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "The book’s rule: pour hot syrup over cold sweets, and cold syrup over hot ones.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA198",
+        "collection": "abdennour",
+        "citation": "Recipe 460, page 198"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 7,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-472",
+      "title": "Hot Aniseed Drink (Yansun)",
+      "titleEn": "Hot Aniseed Drink (Yansun)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "مشروبات",
+      "cookingMethod": "سلق",
+      "cookTime": "5 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-472-i1",
+          "name": "Water",
+          "nameEn": "Water",
+          "standardAmount": "1 cup per person",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-472-i2",
+          "name": "Aniseed",
+          "nameEn": "Aniseed",
+          "standardAmount": "1/2–1 teaspoon per cup",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-472-i3",
+          "name": "Sugar",
+          "nameEn": "Sugar",
+          "standardAmount": "to taste",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Boil the water with the aniseed for 1–2 minutes, until fragrant.",
+          "textEn": "Boil the water with the aniseed for 1–2 minutes, until fragrant.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Strain, sweeten to taste and serve.",
+          "textEn": "Strain, sweeten to taste and serve.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA203",
+        "collection": "abdennour",
+        "citation": "Recipe 472, page 203"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 2,
+        "totalMasterIngredients": 3,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-473",
+      "title": "Hot Caraway Drink (Karawya)",
+      "titleEn": "Hot Caraway Drink (Karawya)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "مشروبات",
+      "cookingMethod": "سلق",
+      "cookTime": "5 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-473-i1",
+          "name": "Water",
+          "nameEn": "Water",
+          "standardAmount": "1 cup per person",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-473-i2",
+          "name": "Roasted caraway seeds",
+          "nameEn": "Roasted caraway seeds",
+          "standardAmount": "1 teaspoon per cup",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-473-i3",
+          "name": "Sugar",
+          "nameEn": "Sugar",
+          "standardAmount": "to taste",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Boil the water with the caraway for 1–2 minutes, until fragrant.",
+          "textEn": "Boil the water with the caraway for 1–2 minutes, until fragrant.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Strain, sweeten to taste and serve.",
+          "textEn": "Strain, sweeten to taste and serve.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA204",
+        "collection": "abdennour",
+        "citation": "Recipe 473, page 204"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 2,
+        "totalMasterIngredients": 3,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-474",
+      "title": "Hot Cinnamon Drink with Nuts (’Irfa)",
+      "titleEn": "Hot Cinnamon Drink with Nuts (’Irfa)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "مشروبات",
+      "cookingMethod": "سلق",
+      "cookTime": "5 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-474-i1",
+          "name": "Water",
+          "nameEn": "Water",
+          "standardAmount": "1 cup per person",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-474-i2",
+          "name": "Ground cinnamon",
+          "nameEn": "Ground cinnamon",
+          "standardAmount": "1/2 teaspoon per cup",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-474-i3",
+          "name": "Sugar",
+          "nameEn": "Sugar",
+          "standardAmount": "to taste",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-474-i4",
+          "name": "Crushed mixed nuts",
+          "nameEn": "Crushed mixed nuts",
+          "standardAmount": "1 teaspoon per cup",
+          "category": "other",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Boil the water with the cinnamon for 1–2 minutes, until fragrant.",
+          "textEn": "Boil the water with the cinnamon for 1–2 minutes, until fragrant.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Strain, sweeten to taste and serve with the nuts sprinkled over each cup.",
+          "textEn": "Strain, sweeten to taste and serve with the nuts sprinkled over each cup.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA204",
+        "collection": "abdennour",
+        "citation": "Recipe 474, page 204"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 2,
+        "totalMasterIngredients": 4,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-475",
+      "title": "Egyptian Turkish Coffee (’Ahwa)",
+      "titleEn": "Egyptian Turkish Coffee (’Ahwa)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "مشروبات",
+      "cookingMethod": "سلق",
+      "cookTime": "5 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-475-i1",
+          "name": "Water",
+          "nameEn": "Water",
+          "standardAmount": "1 small coffee cup (about 60 ml) per person",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-475-i2",
+          "name": "Finely ground Turkish coffee",
+          "nameEn": "Finely ground Turkish coffee",
+          "standardAmount": "1 teaspoon per cup",
+          "category": "other",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-475-i3",
+          "name": "Sugar",
+          "nameEn": "Sugar",
+          "standardAmount": "0–2 teaspoons per cup",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Choose the sweetness: sada (no sugar), ‘ar-riha (just a whiff, up to 1/2 teaspoon), mazbut (as much sugar as coffee) or ziyada (twice as much sugar as coffee).",
+          "textEn": "Choose the sweetness: sada (no sugar), ‘ar-riha (just a whiff, up to 1/2 teaspoon), mazbut (as much sugar as coffee) or ziyada (twice as much sugar as coffee).",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Heat the water in a kanaka (small long-handled coffee pot), then add the coffee and sugar and stir.",
+          "textEn": "Heat the water in a kanaka (small long-handled coffee pot), then add the coffee and sugar and stir.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Take it off the heat the moment it rises and forms a layer of foam.",
+          "textEn": "Take it off the heat the moment it rises and forms a layer of foam.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Serve at once, pouring with a gentle shake of the hand so all the foam goes into the cup.",
+          "textEn": "Serve at once, pouring with a gentle shake of the hand so all the foam goes into the cup.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "For several cups made in one pot, spoon the foam into the cups first so each gets a share, then pour the coffee gently down the side of each cup.",
+          "textEn": "For several cups made in one pot, spoon the foam into the cups first so each gets a share, then pour the coffee gently down the side of each cup.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        },
+        {
+          "stepNumber": 6,
+          "text": "Mehawega (spiced) coffee (recipe 476 in the book): use coffee ground with cardamom, plus a pinch of mastic or powdered dried orange peel.",
+          "textEn": "Mehawega (spiced) coffee (recipe 476 in the book): use coffee ground with cardamom, plus a pinch of mastic or powdered dried orange peel.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        }
+      ],
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA204",
+        "collection": "abdennour",
+        "citation": "Recipe 475, page 204"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 3,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-477",
+      "title": "Sweet Fenugreek Drink (Hilba)",
+      "titleEn": "Sweet Fenugreek Drink (Hilba)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "مشروبات",
+      "cookingMethod": "سلق",
+      "cookTime": "20 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-477-i1",
+          "name": "Water",
+          "nameEn": "Water",
+          "standardAmount": "1 cup per person",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-477-i2",
+          "name": "Fenugreek seeds",
+          "nameEn": "Fenugreek seeds",
+          "standardAmount": "1 teaspoon per cup",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-477-i3",
+          "name": "Sugar",
+          "nameEn": "Sugar",
+          "standardAmount": "to taste",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Boil the fenugreek in the water for 15–20 minutes, until the seeds are tender.",
+          "textEn": "Boil the fenugreek in the water for 15–20 minutes, until the seeds are tender.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Sweeten and pour into cups, seeds and all.",
+          "textEn": "Sweeten and pour into cups, seeds and all.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Once the drink is finished, eat the seeds, with a little more sugar if you like.",
+          "textEn": "Once the drink is finished, eat the seeds, with a little more sugar if you like.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA205",
+        "collection": "abdennour",
+        "citation": "Recipe 477, page 205"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 3,
+        "totalMasterIngredients": 3,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-478",
+      "title": "Hot Mint Drink (Na‘na‘)",
+      "titleEn": "Hot Mint Drink (Na‘na‘)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "مشروبات",
+      "cookingMethod": "سلق",
+      "cookTime": "3 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-478-i1",
+          "name": "Water",
+          "nameEn": "Water",
+          "standardAmount": "1 cup per person",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-478-i2",
+          "name": "Dried mint leaves",
+          "nameEn": "Dried mint leaves",
+          "standardAmount": "1/2 teaspoon per cup",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-478-i3",
+          "name": "Sugar",
+          "nameEn": "Sugar",
+          "standardAmount": "to taste",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Bring the water to the boil, add the mint and boil for 1 minute only; longer makes it bitter.",
+          "textEn": "Bring the water to the boil, add the mint and boil for 1 minute only; longer makes it bitter.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Strain, sweeten to taste and serve.",
+          "textEn": "Strain, sweeten to taste and serve.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA205",
+        "collection": "abdennour",
+        "citation": "Recipe 478, page 205"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 2,
+        "totalMasterIngredients": 3,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-480",
+      "title": "Turkish Red Pepper Paste (Biber Salçası)",
+      "titleEn": "Turkish Red Pepper Paste (Biber Salçası)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "أكلات شهية",
+      "cookingMethod": "حفظ وتجميد",
+      "prepTime": "10 min + overnight chilling",
+      "cookTime": "45 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-480-i1",
+          "name": "Hot red peppers",
+          "nameEn": "Hot red peppers",
+          "standardAmount": "1/2 kg",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-480-i2",
+          "name": "Small chili pepper",
+          "nameEn": "Small chili pepper",
+          "standardAmount": "1",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-480-i3",
+          "name": "Sugar",
+          "nameEn": "Sugar",
+          "standardAmount": "a pinch",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-480-i4",
+          "name": "Olive oil",
+          "nameEn": "Olive oil",
+          "standardAmount": "2 tablespoons",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-480-i5",
+          "name": "Salt",
+          "nameEn": "Salt",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Blend the peppers, chili, sugar and salt with 2–3 cups of water in a food processor.",
+          "textEn": "Blend the peppers, chili, sugar and salt with 2–3 cups of water in a food processor.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Cook in a pot over a medium heat until thick.",
+          "textEn": "Cook in a pot over a medium heat until thick.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Stir in the olive oil and chill overnight before using.",
+          "textEn": "Stir in the olive oil and chill overnight before using.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "A Turkish paste. The book lists a chili but doesn’t say when to add it; we blend it in with the peppers.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA207",
+        "collection": "abdennour",
+        "citation": "Recipe 480, page 207"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 3,
+        "totalMasterIngredients": 5,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-481",
+      "title": "Tunisian Hrous (Fermented Onion and Chili Paste)",
+      "titleEn": "Tunisian Hrous (Fermented Onion and Chili Paste)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "أكلات شهية",
+      "cookingMethod": "حفظ وتجميد",
+      "prepTime": "2 days resting",
+      "cookTime": "30 min soaking",
+      "difficulty": "medium",
+      "masterIngredients": [
+        {
+          "id": "ec-481-i1",
+          "name": "Hot red chili pepper",
+          "nameEn": "Hot red chili pepper",
+          "standardAmount": "1",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-481-i2",
+          "name": "Onions, very finely chopped",
+          "nameEn": "Onions, very finely chopped",
+          "standardAmount": "2",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-481-i3",
+          "name": "Salt",
+          "nameEn": "Salt",
+          "standardAmount": "2 tablespoons",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-481-i4",
+          "name": "Turmeric",
+          "nameEn": "Turmeric",
+          "standardAmount": "a pinch",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-481-i5",
+          "name": "Black pepper",
+          "nameEn": "Black pepper",
+          "standardAmount": "1 teaspoon",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-481-i6",
+          "name": "Cinnamon",
+          "nameEn": "Cinnamon",
+          "standardAmount": "1/2 teaspoon",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-481-i7",
+          "name": "Caraway seeds",
+          "nameEn": "Caraway seeds",
+          "standardAmount": "1/2 teaspoon",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-481-i8",
+          "name": "Tabil (Tunisian spice mix)",
+          "nameEn": "Tabil (Tunisian spice mix)",
+          "standardAmount": "1/2 teaspoon",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-481-i9",
+          "name": "Olive oil",
+          "nameEn": "Olive oil",
+          "standardAmount": "3 tablespoons, plus extra to cover",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Put the onions in a bowl with the turmeric and salt and leave for two days, until wet and soft. Squeeze out the moisture.",
+          "textEn": "Put the onions in a bowl with the turmeric and salt and leave for two days, until wet and soft. Squeeze out the moisture.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Remove the chili’s stem and seeds, chop it coarsely, soak in boiling water for 30 minutes, then drain and pat dry.",
+          "textEn": "Remove the chili’s stem and seeds, chop it coarsely, soak in boiling water for 30 minutes, then drain and pat dry.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Blend everything into a smooth, thick paste.",
+          "textEn": "Blend everything into a smooth, thick paste.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Pack into a jar, cover with a thin layer of olive oil, close and refrigerate.",
+          "textEn": "Pack into a jar, cover with a thin layer of olive oil, close and refrigerate.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "A Tunisian condiment.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA207",
+        "collection": "abdennour",
+        "citation": "Recipe 481, page 207"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 4,
+        "totalMasterIngredients": 9,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-483",
+      "title": "Yemeni Zhug (Green Chili and Coriander Paste)",
+      "titleEn": "Yemeni Zhug (Green Chili and Coriander Paste)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "أكلات شهية",
+      "cookingMethod": "سلطات ومشروبات",
+      "prepTime": "15 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-483-i1",
+          "name": "Garlic cloves",
+          "nameEn": "Garlic cloves",
+          "standardAmount": "20",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-483-i2",
+          "name": "Cardamom pods",
+          "nameEn": "Cardamom pods",
+          "standardAmount": "5",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-483-i3",
+          "name": "Caraway seeds",
+          "nameEn": "Caraway seeds",
+          "standardAmount": "1 teaspoon",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-483-i4",
+          "name": "Hot red peppers",
+          "nameEn": "Hot red peppers",
+          "standardAmount": "4",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-483-i5",
+          "name": "Coriander leaves",
+          "nameEn": "Coriander leaves",
+          "standardAmount": "1 cup",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-483-i6",
+          "name": "Black pepper",
+          "nameEn": "Black pepper",
+          "standardAmount": "1 teaspoon",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-483-i7",
+          "name": "Salt",
+          "nameEn": "Salt",
+          "standardAmount": "1 tablespoon",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Pound everything in a mortar, or blend it, until evenly mixed.",
+          "textEn": "Pound everything in a mortar, or blend it, until evenly mixed.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Keep in a tightly closed jar.",
+          "textEn": "Keep in a tightly closed jar.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "A Yemeni spice paste, used in the fenugreek fatut in this collection.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA208",
+        "collection": "abdennour",
+        "citation": "Recipe 483, page 208"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 2,
+        "totalMasterIngredients": 7,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-485",
+      "title": "Tunisian Tabil Spice Mix",
+      "titleEn": "Tunisian Tabil Spice Mix",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "أكلات شهية",
+      "cookingMethod": "سلطات ومشروبات",
+      "prepTime": "10 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-485-i1",
+          "name": "Coriander seeds",
+          "nameEn": "Coriander seeds",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-485-i2",
+          "name": "Caraway seeds",
+          "nameEn": "Caraway seeds",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-485-i3",
+          "name": "Fennel seeds",
+          "nameEn": "Fennel seeds",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-485-i4",
+          "name": "Aniseed",
+          "nameEn": "Aniseed",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-485-i5",
+          "name": "Cumin",
+          "nameEn": "Cumin",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-485-i6",
+          "name": "Turmeric",
+          "nameEn": "Turmeric",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-485-i7",
+          "name": "Dried garlic",
+          "nameEn": "Dried garlic",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-485-i8",
+          "name": "Pepper",
+          "nameEn": "Pepper",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Crush all the spices together into a powder, in whatever proportions you like.",
+          "textEn": "Crush all the spices together into a powder, in whatever proportions you like.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "The Tunisian spice blend used in several dishes in this collection. The book gives no fixed quantities.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA209",
+        "collection": "abdennour",
+        "citation": "Recipe 485, page 209"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 1,
+        "totalMasterIngredients": 8,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
     }
   ]
 }
