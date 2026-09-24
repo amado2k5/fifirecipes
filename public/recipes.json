@@ -155200,6 +155200,4356 @@
         "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
       },
       "rawDocVersions": {}
+    },
+    {
+      "id": "ec-246",
+      "title": "Tunisian Lamb and Potato Meatballs (Kabaar)",
+      "titleEn": "Tunisian Lamb and Potato Meatballs (Kabaar)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "لحوم وطيور",
+      "cookingMethod": "تحمير وقلي",
+      "prepTime": "1 hour (includes chilling)",
+      "cookTime": "20 min",
+      "difficulty": "medium",
+      "masterIngredients": [
+        {
+          "id": "ec-246-i1",
+          "name": "Lean lamb",
+          "nameEn": "Lean lamb",
+          "standardAmount": "1/2 kg",
+          "category": "meat_poultry",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-246-i2",
+          "name": "Onions",
+          "nameEn": "Onions",
+          "standardAmount": "2",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-246-i3",
+          "name": "Garlic cloves",
+          "nameEn": "Garlic cloves",
+          "standardAmount": "5–7",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-246-i4",
+          "name": "Potatoes",
+          "nameEn": "Potatoes",
+          "standardAmount": "2",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-246-i5",
+          "name": "Ground cinnamon",
+          "nameEn": "Ground cinnamon",
+          "standardAmount": "1/2 teaspoon",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-246-i6",
+          "name": "Parsley leaves",
+          "nameEn": "Parsley leaves",
+          "standardAmount": "2 tablespoons",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-246-i7",
+          "name": "Coriander leaves",
+          "nameEn": "Coriander leaves",
+          "standardAmount": "2 tablespoons",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-246-i8",
+          "name": "Breadcrumbs",
+          "nameEn": "Breadcrumbs",
+          "standardAmount": "2–3 tablespoons",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-246-i9",
+          "name": "Eggs",
+          "nameEn": "Eggs",
+          "standardAmount": "2–3",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-246-i10",
+          "name": "Cooking oil",
+          "nameEn": "Cooking oil",
+          "standardAmount": "for frying",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-246-i11",
+          "name": "Salt and pepper",
+          "nameEn": "Salt and pepper",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Boil the potatoes until very soft, then peel and mash them.",
+          "textEn": "Boil the potatoes until very soft, then peel and mash them.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Mince the lamb twice with the onions, garlic, parsley, coriander, salt and pepper.",
+          "textEn": "Mince the lamb twice with the onions, garlic, parsley, coriander, salt and pepper.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Mix in the mashed potato, breadcrumbs, cinnamon and well-beaten eggs.",
+          "textEn": "Mix in the mashed potato, breadcrumbs, cinnamon and well-beaten eggs.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Shape into small balls and chill for 30 minutes.",
+          "textEn": "Shape into small balls and chill for 30 minutes.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Fry in very hot oil until browned all over.",
+          "textEn": "Fry in very hot oil until browned all over.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "A Tunisian dish.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA111",
+        "collection": "abdennour",
+        "citation": "Recipe 246, page 111"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 11,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-247",
+      "title": "Baked Kofta Rolls with Pine Nuts (Kafta Mabroomeh / Mkabtaleh)",
+      "titleEn": "Baked Kofta Rolls with Pine Nuts (Kafta Mabroomeh / Mkabtaleh)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "لحوم وطيور",
+      "cookingMethod": "خبز وتسوية بالفرن",
+      "prepTime": "30 min",
+      "cookTime": "35 min",
+      "difficulty": "medium",
+      "masterIngredients": [
+        {
+          "id": "ec-247-i1",
+          "name": "Lamb",
+          "nameEn": "Lamb",
+          "standardAmount": "1 kg",
+          "category": "meat_poultry",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-247-i2",
+          "name": "Onions",
+          "nameEn": "Onions",
+          "standardAmount": "2",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-247-i3",
+          "name": "Garlic cloves",
+          "nameEn": "Garlic cloves",
+          "standardAmount": "5–7",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-247-i4",
+          "name": "Eggs",
+          "nameEn": "Eggs",
+          "standardAmount": "2",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-247-i5",
+          "name": "Pine nuts",
+          "nameEn": "Pine nuts",
+          "standardAmount": "3–4 tablespoons",
+          "category": "other",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-247-i6",
+          "name": "Cooking fat",
+          "nameEn": "Cooking fat",
+          "standardAmount": "as needed",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-247-i7",
+          "name": "Salt and pepper",
+          "nameEn": "Salt and pepper",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Mince the meat twice with the onions, garlic, salt and pepper.",
+          "textEn": "Mince the meat twice with the onions, garlic, salt and pepper.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Beat the eggs, add them to the meat and knead well.",
+          "textEn": "Beat the eggs, add them to the meat and knead well.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Roll the meat out about 1 cm thick on a lightly greased surface and cut it into rounds.",
+          "textEn": "Roll the meat out about 1 cm thick on a lightly greased surface and cut it into rounds.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Put a few pine nuts in the middle of each round and roll it up.",
+          "textEn": "Put a few pine nuts in the middle of each round and roll it up.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Arrange the rolls on a well-greased tray and brush each with fat.",
+          "textEn": "Arrange the rolls on a well-greased tray and brush each with fat.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "Bake in the middle of a moderate oven for 30 minutes, then brown under the grill, shaking the tray so they colour evenly.",
+          "textEn": "Bake in the middle of a moderate oven for 30 minutes, then brown under the grill, shaking the tray so they colour evenly.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "Called kafta mabroomeh in Syria and kafta mkabtaleh in Lebanon; only the name differs.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA112",
+        "collection": "abdennour",
+        "citation": "Recipe 247, page 112"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 7,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-248",
+      "title": "Lebanese Kafta Fatteh with Garlic Yogurt (Fatteet Kafta Madqooqa)",
+      "titleEn": "Lebanese Kafta Fatteh with Garlic Yogurt (Fatteet Kafta Madqooqa)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "لحوم وطيور",
+      "cookingMethod": "تحمير وقلي",
+      "prepTime": "20 min",
+      "cookTime": "15 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-248-i1",
+          "name": "Lamb",
+          "nameEn": "Lamb",
+          "standardAmount": "1 kg",
+          "category": "meat_poultry",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-248-i2",
+          "name": "Fresh mint leaves",
+          "nameEn": "Fresh mint leaves",
+          "standardAmount": "1 tablespoon",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-248-i3",
+          "name": "Dry flatbread loaves",
+          "nameEn": "Dry flatbread loaves",
+          "standardAmount": "2",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-248-i4",
+          "name": "Garlic cloves, crushed",
+          "nameEn": "Garlic cloves, crushed",
+          "standardAmount": "10",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-248-i5",
+          "name": "Thick yogurt",
+          "nameEn": "Thick yogurt",
+          "standardAmount": "2–3 cups",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-248-i6",
+          "name": "Dried mint powder",
+          "nameEn": "Dried mint powder",
+          "standardAmount": "1/2 teaspoon",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-248-i7",
+          "name": "Cooking oil",
+          "nameEn": "Cooking oil",
+          "standardAmount": "for frying",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-248-i8",
+          "name": "Salt and pepper",
+          "nameEn": "Salt and pepper",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Mince the lamb twice with the fresh mint, salt and pepper, and shape into patties.",
+          "textEn": "Mince the lamb twice with the fresh mint, salt and pepper, and shape into patties.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Fry the patties until nicely browned.",
+          "textEn": "Fry the patties until nicely browned.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Break the bread into bite-sized pieces and put them in a deep serving bowl.",
+          "textEn": "Break the bread into bite-sized pieces and put them in a deep serving bowl.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Mix the yogurt with the garlic and dried mint, then stir in the oil left from frying the patties.",
+          "textEn": "Mix the yogurt with the garlic and dried mint, then stir in the oil left from frying the patties.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Pour the yogurt over the bread and top with the kafta.",
+          "textEn": "Pour the yogurt over the bread and top with the kafta.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "A Lebanese dish.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA112",
+        "collection": "abdennour",
+        "citation": "Recipe 248, page 112"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 8,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-249",
+      "title": "Izmir Meatballs in Tomato Sauce (İzmir Köftesi)",
+      "titleEn": "Izmir Meatballs in Tomato Sauce (İzmir Köftesi)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "لحوم وطيور",
+      "cookingMethod": "تسبيك",
+      "prepTime": "30 min",
+      "cookTime": "45 min",
+      "difficulty": "medium",
+      "masterIngredients": [
+        {
+          "id": "ec-249-i1",
+          "name": "Beef",
+          "nameEn": "Beef",
+          "standardAmount": "1 kg",
+          "category": "meat_poultry",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-249-i2",
+          "name": "Onions",
+          "nameEn": "Onions",
+          "standardAmount": "3",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-249-i3",
+          "name": "Thick slices of stale bread",
+          "nameEn": "Thick slices of stale bread",
+          "standardAmount": "2",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-249-i4",
+          "name": "Egg",
+          "nameEn": "Egg",
+          "standardAmount": "1",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-249-i5",
+          "name": "Parsley",
+          "nameEn": "Parsley",
+          "standardAmount": "2 tablespoons",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-249-i6",
+          "name": "Garlic cloves",
+          "nameEn": "Garlic cloves",
+          "standardAmount": "5–7",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-249-i7",
+          "name": "Ground cumin",
+          "nameEn": "Ground cumin",
+          "standardAmount": "1 teaspoon",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-249-i8",
+          "name": "Flour, seasoned",
+          "nameEn": "Flour, seasoned",
+          "standardAmount": "1 tablespoon",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-249-i9",
+          "name": "Sauce: tomato juice",
+          "nameEn": "Sauce: tomato juice",
+          "standardAmount": "2 cups",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-249-i10",
+          "name": "Sauce: sweet green pepper, very finely diced",
+          "nameEn": "Sauce: sweet green pepper, very finely diced",
+          "standardAmount": "1",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-249-i11",
+          "name": "Sauce: sugar",
+          "nameEn": "Sauce: sugar",
+          "standardAmount": "a pinch",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-249-i12",
+          "name": "Cooking oil",
+          "nameEn": "Cooking oil",
+          "standardAmount": "as needed",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-249-i13",
+          "name": "Salt and pepper",
+          "nameEn": "Salt and pepper",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Sprinkle the bread with cold water and squeeze it out.",
+          "textEn": "Sprinkle the bread with cold water and squeeze it out.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Mince the bread twice with the beef, onions, parsley, garlic, cumin, salt and pepper, then knead in the egg.",
+          "textEn": "Mince the bread twice with the beef, onions, parsley, garlic, cumin, salt and pepper, then knead in the egg.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "With wet hands, shape round or oval balls and roll them very lightly in seasoned flour.",
+          "textEn": "With wet hands, shape round or oval balls and roll them very lightly in seasoned flour.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Fry the meatballs lightly and drain them on absorbent paper.",
+          "textEn": "Fry the meatballs lightly and drain them on absorbent paper.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Soften the green pepper in the same oil, add the tomato juice, sugar, salt and pepper and cook for 10–12 minutes.",
+          "textEn": "Soften the green pepper in the same oil, add the tomato juice, sugar, salt and pepper and cook for 10–12 minutes.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "Return the meatballs and simmer for 30 minutes, until the sauce thickens.",
+          "textEn": "Return the meatballs and simmer for 30 minutes, until the sauce thickens.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "A Turkish dish from Izmir.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA113",
+        "collection": "abdennour",
+        "citation": "Recipe 249, page 113"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 13,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-261",
+      "title": "Upper Egyptian Mashed Okra with Beef and Chili (Bamya Weeka Sa‘idi)",
+      "titleEn": "Upper Egyptian Mashed Okra with Beef and Chili (Bamya Weeka Sa‘idi)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "خضروات",
+      "cookingMethod": "تسبيك",
+      "prepTime": "15 min",
+      "cookTime": "50 min",
+      "difficulty": "medium",
+      "masterIngredients": [
+        {
+          "id": "ec-261-i1",
+          "name": "Okra",
+          "nameEn": "Okra",
+          "standardAmount": "1 kg",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-261-i2",
+          "name": "Meat stock",
+          "nameEn": "Meat stock",
+          "standardAmount": "2 cups",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-261-i3",
+          "name": "Beef",
+          "nameEn": "Beef",
+          "standardAmount": "1/2 kg",
+          "category": "meat_poultry",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-261-i4",
+          "name": "Hot chili peppers, finely chopped",
+          "nameEn": "Hot chili peppers, finely chopped",
+          "standardAmount": "2",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-261-i5",
+          "name": "Garlic cloves",
+          "nameEn": "Garlic cloves",
+          "standardAmount": "5",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-261-i6",
+          "name": "Ground coriander",
+          "nameEn": "Ground coriander",
+          "standardAmount": "1 teaspoon",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-261-i7",
+          "name": "Cooking oil",
+          "nameEn": "Cooking oil",
+          "standardAmount": "1 tablespoon",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-261-i8",
+          "name": "Salt and pepper",
+          "nameEn": "Salt and pepper",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Cut the beef into small cubes and boil it in the stock for 20–30 minutes, until tender. Lift it out.",
+          "textEn": "Cut the beef into small cubes and boil it in the stock for 20–30 minutes, until tender. Lift it out.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Add the okra and chilies to the broth, cook for about 10 minutes, then mash with a fork.",
+          "textEn": "Add the okra and chilies to the broth, cook for about 10 minutes, then mash with a fork.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Return the meat to the pot.",
+          "textEn": "Return the meat to the pot.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Make the ta’liya: pound the garlic with the coriander, salt and pepper and fry it in the oil for 3–5 minutes. Tip it into the pot, swirl a spoonful of broth round the frying pan and add that too.",
+          "textEn": "Make the ta’liya: pound the garlic with the coriander, salt and pepper and fry it in the oil for 3–5 minutes. Tip it into the pot, swirl a spoonful of broth round the frying pan and add that too.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Simmer for 5–7 minutes and serve.",
+          "textEn": "Simmer for 5–7 minutes and serve.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "Weeka is the Upper Egyptian name for okra cooked until it breaks down into a thick, silky stew.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA118",
+        "collection": "abdennour",
+        "citation": "Recipe 261, page 118"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 8,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-265",
+      "title": "Iraqi Okra Stew with Tamarind (Bamia Marag)",
+      "titleEn": "Iraqi Okra Stew with Tamarind (Bamia Marag)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "خضروات",
+      "cookingMethod": "تسبيك",
+      "prepTime": "15 min",
+      "cookTime": "1 hour 30 min",
+      "difficulty": "medium",
+      "masterIngredients": [
+        {
+          "id": "ec-265-i1",
+          "name": "Okra",
+          "nameEn": "Okra",
+          "standardAmount": "1 kg",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-265-i2",
+          "name": "Mutton",
+          "nameEn": "Mutton",
+          "standardAmount": "1/2 kg",
+          "category": "meat_poultry",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-265-i3",
+          "name": "Garlic cloves, thinly sliced",
+          "nameEn": "Garlic cloves, thinly sliced",
+          "standardAmount": "4",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-265-i4",
+          "name": "Tomato paste",
+          "nameEn": "Tomato paste",
+          "standardAmount": "3 tablespoons",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-265-i5",
+          "name": "Tamarind (soaked and strained to 1/2 cup)",
+          "nameEn": "Tamarind (soaked and strained to 1/2 cup)",
+          "standardAmount": "1 tablespoon",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-265-i6",
+          "name": "Lemon juice",
+          "nameEn": "Lemon juice",
+          "standardAmount": "1 tablespoon",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-265-i7",
+          "name": "Cumin, coriander, cinnamon, cloves and peppercorns",
+          "nameEn": "Cumin, coriander, cinnamon, cloves and peppercorns",
+          "standardAmount": "a dash of each",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-265-i8",
+          "name": "Ghee",
+          "nameEn": "Ghee",
+          "standardAmount": "as needed",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-265-i9",
+          "name": "Salt and pepper",
+          "nameEn": "Salt and pepper",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Cut the mutton into bite-sized cubes and boil with the spices until tender. Lift it out, keeping the broth.",
+          "textEn": "Cut the mutton into bite-sized cubes and boil with the spices until tender. Lift it out, keeping the broth.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Fry the mutton in ghee, then add the okra and garlic and stir until everything is well fried.",
+          "textEn": "Fry the mutton in ghee, then add the okra and garlic and stir until everything is well fried.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Dissolve the tomato paste in the tamarind liquid, season, and add it to the pot with the broth.",
+          "textEn": "Dissolve the tomato paste in the tamarind liquid, season, and add it to the pot with the broth.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Simmer for 30 minutes.",
+          "textEn": "Simmer for 30 minutes.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Take off the heat and stir in the lemon juice.",
+          "textEn": "Take off the heat and stir in the lemon juice.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "An Iraqi dish.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA119",
+        "collection": "abdennour",
+        "citation": "Recipe 265, page 119"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 9,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-266",
+      "title": "Oven-Roasted Pearl Onions (’Awirma Mashwiya)",
+      "titleEn": "Oven-Roasted Pearl Onions (’Awirma Mashwiya)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "خضروات",
+      "cookingMethod": "خبز وتسوية بالفرن",
+      "cookTime": "1 hour",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-266-i1",
+          "name": "Pearl onions, unpeeled",
+          "nameEn": "Pearl onions, unpeeled",
+          "standardAmount": "1/2 kg",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Put the onions, still in their skins, in a hot oven for about an hour, until thoroughly cooked.",
+          "textEn": "Put the onions, still in their skins, in a hot oven for about an hour, until thoroughly cooked.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Peel them at the table; they should be soft enough to melt in the mouth.",
+          "textEn": "Peel them at the table; they should be soft enough to melt in the mouth.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA120",
+        "collection": "abdennour",
+        "citation": "Recipe 266, page 120"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 2,
+        "totalMasterIngredients": 1,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-267",
+      "title": "Pearl Onion and Beef Casserole (Tagin ’Awirma)",
+      "titleEn": "Pearl Onion and Beef Casserole (Tagin ’Awirma)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "لحوم وطيور",
+      "cookingMethod": "خبز وتسوية بالفرن",
+      "prepTime": "20 min",
+      "cookTime": "1 hour 30 min–2 hours",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-267-i1",
+          "name": "Pearl onions, peeled",
+          "nameEn": "Pearl onions, peeled",
+          "standardAmount": "1/2 kg",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-267-i2",
+          "name": "Beef",
+          "nameEn": "Beef",
+          "standardAmount": "1/2 kg",
+          "category": "meat_poultry",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-267-i3",
+          "name": "Garlic cloves",
+          "nameEn": "Garlic cloves",
+          "standardAmount": "15–20",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-267-i4",
+          "name": "Meat stock",
+          "nameEn": "Meat stock",
+          "standardAmount": "2 cups",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-267-i5",
+          "name": "Mixed spice",
+          "nameEn": "Mixed spice",
+          "standardAmount": "1 teaspoon",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-267-i6",
+          "name": "Cornflour (optional)",
+          "nameEn": "Cornflour (optional)",
+          "standardAmount": "1 tablespoon",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-267-i7",
+          "name": "Cooking oil",
+          "nameEn": "Cooking oil",
+          "standardAmount": "as needed",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-267-i8",
+          "name": "Salt and pepper",
+          "nameEn": "Salt and pepper",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Cut the beef into small cubes. Peel the garlic and halve it diagonally.",
+          "textEn": "Cut the beef into small cubes. Peel the garlic and halve it diagonally.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Fry the beef and onions lightly in oil and move them to a casserole.",
+          "textEn": "Fry the beef and onions lightly in oil and move them to a casserole.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Add the garlic, mixed spice, salt and pepper and cover with the stock.",
+          "textEn": "Add the garlic, mixed spice, salt and pepper and cover with the stock.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Bake in a moderate, preheated oven for 90–120 minutes.",
+          "textEn": "Bake in a moderate, preheated oven for 90–120 minutes.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Thicken the gravy with cornflour if you like.",
+          "textEn": "Thicken the gravy with cornflour if you like.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "Sweet-sour version (recipe 268 in the book): use 2 cups of tomato juice instead of stock, with 1 teaspoon each of sugar and vinegar dissolved in it, and spice with cinnamon or nutmeg.",
+          "textEn": "Sweet-sour version (recipe 268 in the book): use 2 cups of tomato juice instead of stock, with 1 teaspoon each of sugar and vinegar dissolved in it, and spice with cinnamon or nutmeg.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        }
+      ],
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA120",
+        "collection": "abdennour",
+        "citation": "Recipe 267, page 120"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 8,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-271",
+      "title": "Meat-Filled Gullash Fingers (Asabi‘ Gullash bi-l-Lahma)",
+      "titleEn": "Meat-Filled Gullash Fingers (Asabi‘ Gullash bi-l-Lahma)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "معجنات",
+      "cookingMethod": "خبز وتسوية بالفرن",
+      "prepTime": "30 min",
+      "cookTime": "25 min",
+      "difficulty": "medium",
+      "masterIngredients": [
+        {
+          "id": "ec-271-i1",
+          "name": "Gullash (phyllo) sheets",
+          "nameEn": "Gullash (phyllo) sheets",
+          "standardAmount": "1/2 kg",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-271-i2",
+          "name": "Beef, minced",
+          "nameEn": "Beef, minced",
+          "standardAmount": "1/2 kg",
+          "category": "meat_poultry",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-271-i3",
+          "name": "Onion, finely chopped",
+          "nameEn": "Onion, finely chopped",
+          "standardAmount": "1",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-271-i4",
+          "name": "Butter, melted",
+          "nameEn": "Butter, melted",
+          "standardAmount": "as needed",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-271-i5",
+          "name": "Cooking oil",
+          "nameEn": "Cooking oil",
+          "standardAmount": "a little",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-271-i6",
+          "name": "Salt and pepper",
+          "nameEn": "Salt and pepper",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Make the savory minced beef: fry the onion in a little oil until pale gold, add the beef, salt and pepper and cook until the juices are absorbed. You need about 1 cup.",
+          "textEn": "Make the savory minced beef: fry the onion in a little oil until pale gold, add the beef, salt and pepper and cook until the juices are absorbed. You need about 1 cup.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Cut the gullash into 10 cm squares and keep them under a cloth so they do not dry out.",
+          "textEn": "Cut the gullash into 10 cm squares and keep them under a cloth so they do not dry out.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Working one square at a time, lay a narrow strip of meat across the middle, stopping 1 cm from each end.",
+          "textEn": "Working one square at a time, lay a narrow strip of meat across the middle, stopping 1 cm from each end.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Fold in the ends and roll up very tightly.",
+          "textEn": "Fold in the ends and roll up very tightly.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Pack the fingers into a greased baking pan and brush the tops with melted butter.",
+          "textEn": "Pack the fingers into a greased baking pan and brush the tops with melted butter.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "Bake in a moderate, preheated oven until golden.",
+          "textEn": "Bake in a moderate, preheated oven until golden.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA122",
+        "collection": "abdennour",
+        "citation": "Recipe 271, page 122"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 6,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-273",
+      "title": "Crisp Layered Ruqaq with Cheese and Egg (Saniyit Ru’a’ bi-l-Gibna)",
+      "titleEn": "Crisp Layered Ruqaq with Cheese and Egg (Saniyit Ru’a’ bi-l-Gibna)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "معجنات",
+      "cookingMethod": "خبز وتسوية بالفرن",
+      "prepTime": "20 min",
+      "cookTime": "40 min",
+      "difficulty": "medium",
+      "masterIngredients": [
+        {
+          "id": "ec-273-i1",
+          "name": "Ruqaq (dry cracker-bread sheets)",
+          "nameEn": "Ruqaq (dry cracker-bread sheets)",
+          "standardAmount": "2 packets",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-273-i2",
+          "name": "Hot chicken broth",
+          "nameEn": "Hot chicken broth",
+          "standardAmount": "as needed",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-273-i3",
+          "name": "Cooking oil",
+          "nameEn": "Cooking oil",
+          "standardAmount": "2 tablespoons",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-273-i4",
+          "name": "Salted hard Balkan (kashkaval-type) cheese",
+          "nameEn": "Salted hard Balkan (kashkaval-type) cheese",
+          "standardAmount": "1/8 kg",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-273-i5",
+          "name": "Areesh (skimmed) cheese",
+          "nameEn": "Areesh (skimmed) cheese",
+          "standardAmount": "1/8 kg",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-273-i6",
+          "name": "Egg",
+          "nameEn": "Egg",
+          "standardAmount": "1",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-273-i7",
+          "name": "Hard-boiled eggs",
+          "nameEn": "Hard-boiled eggs",
+          "standardAmount": "2",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-273-i8",
+          "name": "Pepper",
+          "nameEn": "Pepper",
+          "standardAmount": "a pinch",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Grate the Balkan cheese. Mash the areesh cheese with the hard-boiled eggs, then mix in the grated cheese, the beaten raw egg and a pinch of pepper.",
+          "textEn": "Grate the Balkan cheese. Mash the areesh cheese with the hard-boiled eggs, then mix in the grated cheese, the beaten raw egg and a pinch of pepper.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Grease a deep baking pan (you will need a second pan the same size). Dip one ruqaq sheet at a time in hot broth and use them to line the pan, sprinkling each layer with a little oil.",
+          "textEn": "Grease a deep baking pan (you will need a second pan the same size). Dip one ruqaq sheet at a time in hot broth and use them to line the pan, sprinkling each layer with a little oil.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "After 3–4 layers, spread the cheese filling evenly, then carry on with more dipped, oiled layers.",
+          "textEn": "After 3–4 layers, spread the cheese filling evenly, then carry on with more dipped, oiled layers.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Pour any remaining oil over the top and bake in a moderate oven.",
+          "textEn": "Pour any remaining oil over the top and bake in a moderate oven.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "When the top is brown, turn it over into the second pan and return it to the oven to brown the other side.",
+          "textEn": "When the top is brown, turn it over into the second pan and return it to the oven to brown the other side.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "Cut into pieces while hot.",
+          "textEn": "Cut into pieces while hot.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "A cheese version of the meat-filled ruqaq; ruqaq is sold in round packets in Egyptian groceries.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA123",
+        "collection": "abdennour",
+        "citation": "Recipe 273, page 123"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 8,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-275",
+      "title": "Lamb and Lisan ‘Asfur Pasta Casserole (Tagin Lisan ‘Asfur)",
+      "titleEn": "Lamb and Lisan ‘Asfur Pasta Casserole (Tagin Lisan ‘Asfur)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "نشويات",
+      "cookingMethod": "خبز وتسوية بالفرن",
+      "prepTime": "15 min",
+      "cookTime": "1 hour",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-275-i1",
+          "name": "Lisan ‘asfur (orzo-shaped pasta)",
+          "nameEn": "Lisan ‘asfur (orzo-shaped pasta)",
+          "standardAmount": "1/4 kg",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-275-i2",
+          "name": "Lean lamb",
+          "nameEn": "Lean lamb",
+          "standardAmount": "1/2 kg",
+          "category": "meat_poultry",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-275-i3",
+          "name": "Onions, thinly sliced",
+          "nameEn": "Onions, thinly sliced",
+          "standardAmount": "2–3",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-275-i4",
+          "name": "Sweet green peppers",
+          "nameEn": "Sweet green peppers",
+          "standardAmount": "2",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-275-i5",
+          "name": "Butter",
+          "nameEn": "Butter",
+          "standardAmount": "1 tablespoon",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-275-i6",
+          "name": "Oil",
+          "nameEn": "Oil",
+          "standardAmount": "1 teaspoon",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-275-i7",
+          "name": "Cinnamon",
+          "nameEn": "Cinnamon",
+          "standardAmount": "1 teaspoon",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-275-i8",
+          "name": "Meat stock",
+          "nameEn": "Meat stock",
+          "standardAmount": "as needed",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-275-i9",
+          "name": "Salt and pepper",
+          "nameEn": "Salt and pepper",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Cut the meat into bite-sized cubes. Seed the peppers and slice them thinly.",
+          "textEn": "Cut the meat into bite-sized cubes. Seed the peppers and slice them thinly.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Sauté the onion in the butter and oil, add the lamb and fry until its juices are absorbed.",
+          "textEn": "Sauté the onion in the butter and oil, add the lamb and fry until its juices are absorbed.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Cover with stock, add the peppers, cinnamon, salt and pepper and cook for 15–20 minutes.",
+          "textEn": "Cover with stock, add the peppers, cinnamon, salt and pepper and cook for 15–20 minutes.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Lift out the meat and vegetables with a slotted spoon and put them in an ovenproof pot.",
+          "textEn": "Lift out the meat and vegetables with a slotted spoon and put them in an ovenproof pot.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Parboil the lisan ‘asfur in the stock for 5–7 minutes and pour it over the meat, adding hot water if it is not covered.",
+          "textEn": "Parboil the lisan ‘asfur in the stock for 5–7 minutes and pour it over the meat, adding hot water if it is not covered.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "Bake in a moderate, preheated oven for 30 minutes.",
+          "textEn": "Bake in a moderate, preheated oven for 30 minutes.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "Made in Palestine and Lebanon. Lisan ‘asfur, “sparrow’s tongue”, is named for its small oval shape.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA124",
+        "collection": "abdennour",
+        "citation": "Recipe 275, page 124"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 9,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-281",
+      "title": "Shishbarak (Meat Dumplings in Garlic Yogurt)",
+      "titleEn": "Shishbarak (Meat Dumplings in Garlic Yogurt)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "معجنات",
+      "cookingMethod": "تسبيك",
+      "prepTime": "1 hour 30 min (includes resting)",
+      "cookTime": "40 min",
+      "difficulty": "master",
+      "masterIngredients": [
+        {
+          "id": "ec-281-i1",
+          "name": "Flour",
+          "nameEn": "Flour",
+          "standardAmount": "2 cups",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-281-i2",
+          "name": "Lean beef, minced",
+          "nameEn": "Lean beef, minced",
+          "standardAmount": "1/2 kg",
+          "category": "meat_poultry",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-281-i3",
+          "name": "Onion, very finely chopped",
+          "nameEn": "Onion, very finely chopped",
+          "standardAmount": "1",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-281-i4",
+          "name": "Pine nuts",
+          "nameEn": "Pine nuts",
+          "standardAmount": "2 tablespoons",
+          "category": "other",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-281-i5",
+          "name": "Mixed spice",
+          "nameEn": "Mixed spice",
+          "standardAmount": "1/2 teaspoon",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-281-i6",
+          "name": "Ground cinnamon",
+          "nameEn": "Ground cinnamon",
+          "standardAmount": "1/2 teaspoon",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-281-i7",
+          "name": "Yogurt",
+          "nameEn": "Yogurt",
+          "standardAmount": "4–5 cups",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-281-i8",
+          "name": "Egg whites",
+          "nameEn": "Egg whites",
+          "standardAmount": "2",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-281-i9",
+          "name": "Garlic cloves, crushed",
+          "nameEn": "Garlic cloves, crushed",
+          "standardAmount": "7–10",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-281-i10",
+          "name": "Dried mint",
+          "nameEn": "Dried mint",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-281-i11",
+          "name": "Ghee and cooking oil",
+          "nameEn": "Ghee and cooking oil",
+          "standardAmount": "as needed",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-281-i12",
+          "name": "Salt and pepper",
+          "nameEn": "Salt and pepper",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Sift the flour with salt and add enough water to knead a smooth dough that comes away from the bowl. Rest it for an hour.",
+          "textEn": "Sift the flour with salt and add enough water to knead a smooth dough that comes away from the bowl. Rest it for an hour.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Fry the pine nuts golden and set aside. Soften the onion in the same oil, add the meat and fry until its juices are gone, then stir in the pine nuts, spices, salt and pepper.",
+          "textEn": "Fry the pine nuts golden and set aside. Soften the onion in the same oil, add the meat and fry until its juices are gone, then stir in the pine nuts, spices, salt and pepper.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Roll the dough out on a floured surface and cut it into small rounds.",
+          "textEn": "Roll the dough out on a floured surface and cut it into small rounds.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Put 1/2 teaspoon of filling on each, fold into a crescent with wet fingers, then wrap it round your finger and pinch the ends together so it looks like a little hat.",
+          "textEn": "Put 1/2 teaspoon of filling on each, fold into a crescent with wet fingers, then wrap it round your finger and pinch the ends together so it looks like a little hat.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Set them on a greased tray, brush with ghee and bake in a moderate oven until crisp and golden.",
+          "textEn": "Set them on a greased tray, brush with ghee and bake in a moderate oven until crisp and golden.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "Fry the garlic in a little ghee until golden, stirring constantly, and stir in the mint.",
+          "textEn": "Fry the garlic in a little ghee until golden, stirring constantly, and stir in the mint.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 7,
+          "text": "Whisk the egg whites until frothy and mix them into the yogurt to keep it from splitting. Heat it uncovered over a low heat and add the garlic mixture.",
+          "textEn": "Whisk the egg whites until frothy and mix them into the yogurt to keep it from splitting. Heat it uncovered over a low heat and add the garlic mixture.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 8,
+          "text": "When the yogurt bubbles, add the shishbarak and cook for 7–10 minutes more.",
+          "textEn": "When the yogurt bubbles, add the shishbarak and cook for 7–10 minutes more.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "A Palestinian dish, also made across the Levant.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA127",
+        "collection": "abdennour",
+        "citation": "Recipe 281, page 127"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 8,
+        "totalMasterIngredients": 12,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-283",
+      "title": "Layered Peas, Rice and Minced Beef Béchamel (Basilla bi-l-Bechamel)",
+      "titleEn": "Layered Peas, Rice and Minced Beef Béchamel (Basilla bi-l-Bechamel)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "خضروات",
+      "cookingMethod": "خبز وتسوية بالفرن",
+      "prepTime": "30 min",
+      "cookTime": "30 min",
+      "difficulty": "medium",
+      "masterIngredients": [
+        {
+          "id": "ec-283-i1",
+          "name": "Shelled peas",
+          "nameEn": "Shelled peas",
+          "standardAmount": "1/2 kg",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-283-i2",
+          "name": "Thin béchamel sauce, well seasoned",
+          "nameEn": "Thin béchamel sauce, well seasoned",
+          "standardAmount": "2 cups",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-283-i3",
+          "name": "Cooked rice",
+          "nameEn": "Cooked rice",
+          "standardAmount": "1 cup",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-283-i4",
+          "name": "Savory minced beef (‘assag)",
+          "nameEn": "Savory minced beef (‘assag)",
+          "standardAmount": "1/2 kg",
+          "category": "meat_poultry",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-283-i5",
+          "name": "Egg",
+          "nameEn": "Egg",
+          "standardAmount": "1",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Parboil the peas in salted water for 10 minutes and drain.",
+          "textEn": "Parboil the peas in salted water for 10 minutes and drain.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Grease a deep ovenproof serving dish, preferably glass.",
+          "textEn": "Grease a deep ovenproof serving dish, preferably glass.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Arrange the rice, peas and minced beef in several thin layers, moistening every layer with béchamel.",
+          "textEn": "Arrange the rice, peas and minced beef in several thin layers, moistening every layer with béchamel.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Pour the beaten egg over the top.",
+          "textEn": "Pour the beaten egg over the top.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Bake in the middle of a moderate, preheated oven for 20–30 minutes, until browned on top.",
+          "textEn": "Bake in the middle of a moderate, preheated oven for 20–30 minutes, until browned on top.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA128",
+        "collection": "abdennour",
+        "citation": "Recipe 283, page 128"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 5,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-308",
+      "title": "Brown Onion Rice for Fish (Ruzz Ahmar)",
+      "titleEn": "Brown Onion Rice for Fish (Ruzz Ahmar)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "نشويات",
+      "cookingMethod": "تسبيك",
+      "prepTime": "20 min soaking",
+      "cookTime": "25 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-308-i1",
+          "name": "Rice",
+          "nameEn": "Rice",
+          "standardAmount": "2 cups",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-308-i2",
+          "name": "Onions, finely chopped",
+          "nameEn": "Onions, finely chopped",
+          "standardAmount": "2",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-308-i3",
+          "name": "Water",
+          "nameEn": "Water",
+          "standardAmount": "2 cups",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-308-i4",
+          "name": "Oil",
+          "nameEn": "Oil",
+          "standardAmount": "2 tablespoons",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-308-i5",
+          "name": "Salt",
+          "nameEn": "Salt",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Soak the rice in warm water for 15–20 minutes and drain.",
+          "textEn": "Soak the rice in warm water for 15–20 minutes and drain.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Fry the onions in the oil until deep brown.",
+          "textEn": "Fry the onions in the oil until deep brown.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Add the water and salt and bring to the boil.",
+          "textEn": "Add the water and salt and bring to the boil.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Stir in the rice, cover, turn the heat to its lowest and cook for 15–20 minutes.",
+          "textEn": "Stir in the rice, cover, turn the heat to its lowest and cook for 15–20 minutes.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "For a redder rice (recipe 309 in the book), stir 1 tablespoon of tomato paste into the water before adding the rice.",
+          "textEn": "For a redder rice (recipe 309 in the book), stir 1 tablespoon of tomato paste into the water before adding the rice.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        }
+      ],
+      "culturalNotes": "In Egypt this rice is always served with fish.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA137",
+        "collection": "abdennour",
+        "citation": "Recipe 308, page 137"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 5,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-310",
+      "title": "Rice Cooked in Shrimp Stock (Ruzz bi-Salsit Gambari)",
+      "titleEn": "Rice Cooked in Shrimp Stock (Ruzz bi-Salsit Gambari)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "بحريات",
+      "cookingMethod": "تسبيك",
+      "prepTime": "20 min",
+      "cookTime": "40 min",
+      "difficulty": "medium",
+      "masterIngredients": [
+        {
+          "id": "ec-310-i1",
+          "name": "Shrimp or prawns",
+          "nameEn": "Shrimp or prawns",
+          "standardAmount": "1 kg",
+          "category": "seafood",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-310-i2",
+          "name": "Onions, quartered",
+          "nameEn": "Onions, quartered",
+          "standardAmount": "3–5",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-310-i3",
+          "name": "Lemons, chopped with their rinds",
+          "nameEn": "Lemons, chopped with their rinds",
+          "standardAmount": "2–3",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-310-i4",
+          "name": "Cumin",
+          "nameEn": "Cumin",
+          "standardAmount": "1 teaspoon",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-310-i5",
+          "name": "Rice",
+          "nameEn": "Rice",
+          "standardAmount": "2 cups",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-310-i6",
+          "name": "Water",
+          "nameEn": "Water",
+          "standardAmount": "2 cups",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-310-i7",
+          "name": "Cooking oil",
+          "nameEn": "Cooking oil",
+          "standardAmount": "1 tablespoon",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-310-i8",
+          "name": "Salt and pepper",
+          "nameEn": "Salt and pepper",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Rinse the shrimp under running water until it runs clear. Put them in a pot with the onions, lemons, cumin, salt and pepper, without any water, and cook over a moderate heat, tossing every few minutes, for about 7 minutes or until done.",
+          "textEn": "Rinse the shrimp under running water until it runs clear. Put them in a pot with the onions, lemons, cumin, salt and pepper, without any water, and cook over a moderate heat, tossing every few minutes, for about 7 minutes or until done.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Cool and shell the shrimp, keeping the heads, shells and juices. Remove the dark vein.",
+          "textEn": "Cool and shell the shrimp, keeping the heads, shells and juices. Remove the dark vein.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Make the shrimp sauce: blend the heads, shells and juices at high speed and strain. You need 1 cup.",
+          "textEn": "Make the shrimp sauce: blend the heads, shells and juices at high speed and strain. You need 1 cup.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Fry the rice in the oil, stirring until every grain is coated.",
+          "textEn": "Fry the rice in the oil, stirring until every grain is coated.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Add 2 cups of water and the cup of shrimp sauce. It is already well seasoned, so add no salt.",
+          "textEn": "Add 2 cups of water and the cup of shrimp sauce. It is already well seasoned, so add no salt.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "Cook uncovered over a moderate heat until the liquid is absorbed, then cover, turn the heat to its lowest and cook for 20–30 minutes.",
+          "textEn": "Cook uncovered over a moderate heat until the liquid is absorbed, then cover, turn the heat to its lowest and cook for 20–30 minutes.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 7,
+          "text": "Serve with the shrimp.",
+          "textEn": "Serve with the shrimp.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "The book also suggests the strained shrimp sauce as a flavouring for tahini and other dishes.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA138",
+        "collection": "abdennour",
+        "citation": "Recipe 310, page 138"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 7,
+        "totalMasterIngredients": 8,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-311",
+      "title": "Rice with Tomatoes, Peppers and Carrots (Ruzz bi-l-Khudar)",
+      "titleEn": "Rice with Tomatoes, Peppers and Carrots (Ruzz bi-l-Khudar)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "نشويات",
+      "cookingMethod": "تسبيك",
+      "prepTime": "20 min",
+      "cookTime": "35 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-311-i1",
+          "name": "Rice",
+          "nameEn": "Rice",
+          "standardAmount": "2 cups",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-311-i2",
+          "name": "Water",
+          "nameEn": "Water",
+          "standardAmount": "3 cups",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-311-i3",
+          "name": "Ripe tomatoes, peeled and chopped",
+          "nameEn": "Ripe tomatoes, peeled and chopped",
+          "standardAmount": "2–3",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-311-i4",
+          "name": "Sweet green peppers, blanched and thinly sliced",
+          "nameEn": "Sweet green peppers, blanched and thinly sliced",
+          "standardAmount": "2–3",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-311-i5",
+          "name": "Carrots, parboiled and diced",
+          "nameEn": "Carrots, parboiled and diced",
+          "standardAmount": "2–3",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-311-i6",
+          "name": "Onion, thinly sliced",
+          "nameEn": "Onion, thinly sliced",
+          "standardAmount": "1",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-311-i7",
+          "name": "Cooking oil",
+          "nameEn": "Cooking oil",
+          "standardAmount": "as needed",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-311-i8",
+          "name": "Salt and pepper",
+          "nameEn": "Salt and pepper",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Sauté the onion until golden and mix it with the tomatoes, peppers and carrots.",
+          "textEn": "Sauté the onion until golden and mix it with the tomatoes, peppers and carrots.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Fry the rice in the same oil, stirring, until every grain is coated.",
+          "textEn": "Fry the rice in the same oil, stirring, until every grain is coated.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Add the vegetables, water, salt and pepper and stir one last time.",
+          "textEn": "Add the vegetables, water, salt and pepper and stir one last time.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Cook uncovered over a high heat until the water is absorbed.",
+          "textEn": "Cook uncovered over a high heat until the water is absorbed.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Cover, turn the heat to its lowest and cook for 15–20 minutes.",
+          "textEn": "Cover, turn the heat to its lowest and cook for 15–20 minutes.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA138",
+        "collection": "abdennour",
+        "citation": "Recipe 311, page 138"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 8,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-313",
+      "title": "Soft Rice Porridge with Beef (Ruzz Lubba bi-l-Lahma)",
+      "titleEn": "Soft Rice Porridge with Beef (Ruzz Lubba bi-l-Lahma)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "نشويات",
+      "cookingMethod": "تسبيك",
+      "prepTime": "10 min",
+      "cookTime": "1 hour",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-313-i1",
+          "name": "Rice",
+          "nameEn": "Rice",
+          "standardAmount": "2 cups",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-313-i2",
+          "name": "Beef",
+          "nameEn": "Beef",
+          "standardAmount": "1/2 kg",
+          "category": "meat_poultry",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-313-i3",
+          "name": "Onions, coarsely chopped",
+          "nameEn": "Onions, coarsely chopped",
+          "standardAmount": "2",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-313-i4",
+          "name": "Cooking oil",
+          "nameEn": "Cooking oil",
+          "standardAmount": "as needed",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-313-i5",
+          "name": "Salt and pepper",
+          "nameEn": "Salt and pepper",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Cut the beef into bite-sized cubes.",
+          "textEn": "Cut the beef into bite-sized cubes.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Fry the onions until golden, add the beef and fry over a high heat until its juices are absorbed.",
+          "textEn": "Fry the onions until golden, add the beef and fry over a high heat until its juices are absorbed.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Season, add water to cover and cook over a low heat for 15–20 minutes.",
+          "textEn": "Season, add water to cover and cook over a low heat for 15–20 minutes.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Top up the water to 4–5 cups, stir in the rice and check the seasoning.",
+          "textEn": "Top up the water to 4–5 cups, stir in the rice and check the seasoning.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Cover and cook slowly for about 30 minutes. It should end up soft and porridge-like.",
+          "textEn": "Cover and cook slowly for about 30 minutes. It should end up soft and porridge-like.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "With gizzards (recipe 314 in the book): stir 5–6 mastic grains into hot oil for 10–15 seconds, add halved boiled gizzards, cover and turn off the heat for 1–2 minutes, then fry them, add 4 cups of water and the rice and cook the same way.",
+          "textEn": "With gizzards (recipe 314 in the book): stir 5–6 mastic grains into hot oil for 10–15 seconds, add halved boiled gizzards, cover and turn off the heat for 1–2 minutes, then fry them, add 4 cups of water and the rice and cook the same way.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        }
+      ],
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA139",
+        "collection": "abdennour",
+        "citation": "Recipe 313, page 139"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 5,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-315",
+      "title": "Turkish Eggplant Pilaf (Patlıcanlı Pilav)",
+      "titleEn": "Turkish Eggplant Pilaf (Patlıcanlı Pilav)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "نشويات",
+      "cookingMethod": "تسبيك",
+      "prepTime": "1 hour 15 min (includes salting)",
+      "cookTime": "45 min",
+      "difficulty": "medium",
+      "masterIngredients": [
+        {
+          "id": "ec-315-i1",
+          "name": "Rice",
+          "nameEn": "Rice",
+          "standardAmount": "2 cups",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-315-i2",
+          "name": "Brown eggplants, round or slender",
+          "nameEn": "Brown eggplants, round or slender",
+          "standardAmount": "1 kg",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-315-i3",
+          "name": "Onion",
+          "nameEn": "Onion",
+          "standardAmount": "1",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-315-i4",
+          "name": "Tomatoes, peeled and diced",
+          "nameEn": "Tomatoes, peeled and diced",
+          "standardAmount": "4",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-315-i5",
+          "name": "Parsley, very finely chopped",
+          "nameEn": "Parsley, very finely chopped",
+          "standardAmount": "1/2 cup",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-315-i6",
+          "name": "Mint leaves, very finely chopped",
+          "nameEn": "Mint leaves, very finely chopped",
+          "standardAmount": "1/2 cup",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-315-i7",
+          "name": "Oil",
+          "nameEn": "Oil",
+          "standardAmount": "as needed",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-315-i8",
+          "name": "Salt and pepper",
+          "nameEn": "Salt and pepper",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Dice the eggplant without peeling, salt it and leave for an hour. Squeeze out the moisture and pat dry.",
+          "textEn": "Dice the eggplant without peeling, salt it and leave for an hour. Squeeze out the moisture and pat dry.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Fry the eggplant until lightly browned and drain on absorbent paper.",
+          "textEn": "Fry the eggplant until lightly browned and drain on absorbent paper.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Soften the chopped onion in the same oil, then add the tomatoes, parsley, mint, eggplant, salt and pepper and bring to the boil.",
+          "textEn": "Soften the chopped onion in the same oil, then add the tomatoes, parsley, mint, eggplant, salt and pepper and bring to the boil.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Add the rice and enough water to cover.",
+          "textEn": "Add the rice and enough water to cover.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Boil hard, then lower the heat and simmer gently for 30 minutes.",
+          "textEn": "Boil hard, then lower the heat and simmer gently for 30 minutes.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "A Turkish dish. The book cooks an onion here without listing it; we added one.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA140",
+        "collection": "abdennour",
+        "citation": "Recipe 315, page 140"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 8,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-316",
+      "title": "Turkish Liver Pilaf with Pine Nuts and Currants (İç Pilav)",
+      "titleEn": "Turkish Liver Pilaf with Pine Nuts and Currants (İç Pilav)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "نشويات",
+      "cookingMethod": "تسبيك",
+      "prepTime": "1 hour soaking",
+      "cookTime": "1 hour",
+      "difficulty": "medium",
+      "masterIngredients": [
+        {
+          "id": "ec-316-i1",
+          "name": "Long-grain rice",
+          "nameEn": "Long-grain rice",
+          "standardAmount": "2 cups",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-316-i2",
+          "name": "Chicken livers",
+          "nameEn": "Chicken livers",
+          "standardAmount": "1/2 kg",
+          "category": "meat_poultry",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-316-i3",
+          "name": "Chicken stock",
+          "nameEn": "Chicken stock",
+          "standardAmount": "3 cups",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-316-i4",
+          "name": "Pine nuts",
+          "nameEn": "Pine nuts",
+          "standardAmount": "2 tablespoons",
+          "category": "other",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-316-i5",
+          "name": "Spring onions, chopped",
+          "nameEn": "Spring onions, chopped",
+          "standardAmount": "3",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-316-i6",
+          "name": "Currants",
+          "nameEn": "Currants",
+          "standardAmount": "2 tablespoons",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-316-i7",
+          "name": "Dill, very finely chopped",
+          "nameEn": "Dill, very finely chopped",
+          "standardAmount": "2 tablespoons",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-316-i8",
+          "name": "Allspice",
+          "nameEn": "Allspice",
+          "standardAmount": "a dash",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-316-i9",
+          "name": "Butter",
+          "nameEn": "Butter",
+          "standardAmount": "as needed",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-316-i10",
+          "name": "Salt and pepper",
+          "nameEn": "Salt and pepper",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Chop the livers and soak them in salted water for an hour. Drain.",
+          "textEn": "Chop the livers and soak them in salted water for an hour. Drain.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Fry the pine nuts in butter until golden and set aside.",
+          "textEn": "Fry the pine nuts in butter until golden and set aside.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Soften the spring onions in the same butter, add the liver and fry for 5–7 minutes. Take off the heat and stir in the allspice.",
+          "textEn": "Soften the spring onions in the same butter, add the liver and fry for 5–7 minutes. Take off the heat and stir in the allspice.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Fry the rice in butter, stirring, until every grain is coated. Add the stock, currants, dill, salt and pepper, stir, cover and cook for 20 minutes.",
+          "textEn": "Fry the rice in butter, stirring, until every grain is coated. Add the stock, currants, dill, salt and pepper, stir, cover and cook for 20 minutes.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Uncover, stir in the liver and pine nuts, cover again and cook for up to 30 minutes more, until the rice is tender.",
+          "textEn": "Uncover, stir in the liver and pine nuts, cover again and cook for up to 30 minutes more, until the rice is tender.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "A Turkish dish.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA140",
+        "collection": "abdennour",
+        "citation": "Recipe 316, page 140"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 10,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-317",
+      "title": "Saffron Rice Kibbeh (Kubbat Halab)",
+      "titleEn": "Saffron Rice Kibbeh (Kubbat Halab)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "نشويات",
+      "cookingMethod": "تحمير وقلي",
+      "prepTime": "45 min",
+      "cookTime": "45 min",
+      "difficulty": "master",
+      "masterIngredients": [
+        {
+          "id": "ec-317-i1",
+          "name": "Rice",
+          "nameEn": "Rice",
+          "standardAmount": "2 cups",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-317-i2",
+          "name": "Saffron",
+          "nameEn": "Saffron",
+          "standardAmount": "1 teaspoon",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-317-i3",
+          "name": "Ground beef",
+          "nameEn": "Ground beef",
+          "standardAmount": "1/2 kg",
+          "category": "meat_poultry",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-317-i4",
+          "name": "Slivered almonds",
+          "nameEn": "Slivered almonds",
+          "standardAmount": "1/2 cup",
+          "category": "other",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-317-i5",
+          "name": "Celery or parsley, very finely chopped",
+          "nameEn": "Celery or parsley, very finely chopped",
+          "standardAmount": "1/2 cup",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-317-i6",
+          "name": "Raisins",
+          "nameEn": "Raisins",
+          "standardAmount": "2 tablespoons",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-317-i7",
+          "name": "Mixed spice",
+          "nameEn": "Mixed spice",
+          "standardAmount": "1/2 teaspoon",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-317-i8",
+          "name": "Turmeric soaked in rose water",
+          "nameEn": "Turmeric soaked in rose water",
+          "standardAmount": "a dash in 1 tablespoon",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-317-i9",
+          "name": "Egg",
+          "nameEn": "Egg",
+          "standardAmount": "1",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-317-i10",
+          "name": "Flour",
+          "nameEn": "Flour",
+          "standardAmount": "1–2 tablespoons",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-317-i11",
+          "name": "Ghee",
+          "nameEn": "Ghee",
+          "standardAmount": "for frying",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-317-i12",
+          "name": "Salt and pepper",
+          "nameEn": "Salt and pepper",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Boil the rice in 4 cups of water with the saffron and salt until soft, breaking up any lumps with a fork. Drain off any water left.",
+          "textEn": "Boil the rice in 4 cups of water with the saffron and salt until soft, breaking up any lumps with a fork. Drain off any water left.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Add the lightly beaten egg and, with fingers dipped in the turmeric rose water, knead the rice into a soft dough that holds its shape.",
+          "textEn": "Add the lightly beaten egg and, with fingers dipped in the turmeric rose water, knead the rice into a soft dough that holds its shape.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Filling: fry the beef, then add the celery or parsley, almonds, raisins, mixed spice, salt and pepper and cook together over a low heat for 10 minutes.",
+          "textEn": "Filling: fry the beef, then add the celery or parsley, almonds, raisins, mixed spice, salt and pepper and cook together over a low heat for 10 minutes.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Take a little rice dough in your palm, moistened with rose water, and hollow it out with a finger of the other hand, turning it into a thin cup.",
+          "textEn": "Take a little rice dough in your palm, moistened with rose water, and hollow it out with a finger of the other hand, turning it into a thin cup.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Fill with the meat, close it into an oval ball with a moistened palm and set it on a floured surface. Repeat until the dough is used up.",
+          "textEn": "Fill with the meat, close it into an oval ball with a moistened palm and set it on a floured surface. Repeat until the dough is used up.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "Deep-fry in ghee until golden.",
+          "textEn": "Deep-fry in ghee until golden.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "An Iraqi dish named after Aleppo (Halab).",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA141",
+        "collection": "abdennour",
+        "citation": "Recipe 317, page 141"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 12,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-318",
+      "title": "Persian Crusty Steamed Rice with Yogurt Tahdig (Chelow Dig)",
+      "titleEn": "Persian Crusty Steamed Rice with Yogurt Tahdig (Chelow Dig)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "نشويات",
+      "cookingMethod": "تسبيك",
+      "prepTime": "10 min",
+      "cookTime": "50 min",
+      "difficulty": "medium",
+      "masterIngredients": [
+        {
+          "id": "ec-318-i1",
+          "name": "Long-grain rice",
+          "nameEn": "Long-grain rice",
+          "standardAmount": "2 cups",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-318-i2",
+          "name": "Yogurt",
+          "nameEn": "Yogurt",
+          "standardAmount": "1 cup",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-318-i3",
+          "name": "Ghee",
+          "nameEn": "Ghee",
+          "standardAmount": "2 tablespoons",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-318-i4",
+          "name": "Salt",
+          "nameEn": "Salt",
+          "standardAmount": "plenty, for the water",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Wash the rice in boiling water and drain.",
+          "textEn": "Wash the rice in boiling water and drain.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Bring 8 cups of heavily salted water to the boil, add the rice, cook for 5 minutes, then drain and rinse in hot water.",
+          "textEn": "Bring 8 cups of heavily salted water to the boil, add the rice, cook for 5 minutes, then drain and rinse in hot water.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Stir the yogurt into one cup of the half-cooked rice.",
+          "textEn": "Stir the yogurt into one cup of the half-cooked rice.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Swirl a tablespoon of ghee round the base and sides of a heavy pan and spread the yogurt rice over the bottom.",
+          "textEn": "Swirl a tablespoon of ghee round the base and sides of a heavy pan and spread the yogurt rice over the bottom.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Pile the rest of the rice on top, sprinkle with the remaining ghee and steam over a moderate heat, breaking up any clusters, until tender and crusty underneath.",
+          "textEn": "Pile the rest of the rice on top, sprinkle with the remaining ghee and steam over a moderate heat, breaking up any clusters, until tender and crusty underneath.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "Mound the steamed rice in the middle of a dish and break the golden crust from the bottom of the pan into pieces around it.",
+          "textEn": "Mound the steamed rice in the middle of a dish and break the golden crust from the bottom of the pan into pieces around it.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "An Iranian dish; the golden crust is known as tahdig.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA141",
+        "collection": "abdennour",
+        "citation": "Recipe 318, page 141"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 4,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-320",
+      "title": "Everyday Egyptian Salad Dressing (Khalta li-l-Salata)",
+      "titleEn": "Everyday Egyptian Salad Dressing (Khalta li-l-Salata)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "سلطات",
+      "cookingMethod": "سلطات ومشروبات",
+      "prepTime": "5 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-320-i1",
+          "name": "Oil",
+          "nameEn": "Oil",
+          "standardAmount": "1 tablespoon",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-320-i2",
+          "name": "Lemon juice",
+          "nameEn": "Lemon juice",
+          "standardAmount": "1 tablespoon",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-320-i3",
+          "name": "Vinegar",
+          "nameEn": "Vinegar",
+          "standardAmount": "1 teaspoon",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-320-i4",
+          "name": "Salt and pepper",
+          "nameEn": "Salt and pepper",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-320-i5",
+          "name": "Crushed garlic (optional)",
+          "nameEn": "Crushed garlic (optional)",
+          "standardAmount": "1–2 cloves",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-320-i6",
+          "name": "Cumin (optional)",
+          "nameEn": "Cumin (optional)",
+          "standardAmount": "a pinch",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-320-i7",
+          "name": "Hot chili (optional)",
+          "nameEn": "Hot chili (optional)",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Mix all the ingredients together.",
+          "textEn": "Mix all the ingredients together.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Pour over the salad just before serving.",
+          "textEn": "Pour over the salad just before serving.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "The basic dressing the book uses for most of its salads.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA142",
+        "collection": "abdennour",
+        "citation": "Recipe 320, page 142"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 2,
+        "totalMasterIngredients": 7,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-323",
+      "title": "Fresh Cabbage Salad with Garlic and Lemon (Salatit Krumb)",
+      "titleEn": "Fresh Cabbage Salad with Garlic and Lemon (Salatit Krumb)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "سلطات",
+      "cookingMethod": "سلطات ومشروبات",
+      "prepTime": "15 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-323-i1",
+          "name": "White cabbage leaves, shredded",
+          "nameEn": "White cabbage leaves, shredded",
+          "standardAmount": "1/2 head",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-323-i2",
+          "name": "Onion, finely chopped",
+          "nameEn": "Onion, finely chopped",
+          "standardAmount": "1",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-323-i3",
+          "name": "Oil",
+          "nameEn": "Oil",
+          "standardAmount": "1 tablespoon",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-323-i4",
+          "name": "Lemon juice",
+          "nameEn": "Lemon juice",
+          "standardAmount": "1–2 tablespoons",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-323-i5",
+          "name": "Garlic cloves, crushed",
+          "nameEn": "Garlic cloves, crushed",
+          "standardAmount": "3–5",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-323-i6",
+          "name": "Salt",
+          "nameEn": "Salt",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Sprinkle the cabbage and onion with salt and rub well, then rinse and drain.",
+          "textEn": "Sprinkle the cabbage and onion with salt and rub well, then rinse and drain.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Mix the oil, lemon juice, garlic and salt.",
+          "textEn": "Mix the oil, lemon juice, garlic and salt.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Pour over the vegetables and toss.",
+          "textEn": "Pour over the vegetables and toss.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA143",
+        "collection": "abdennour",
+        "citation": "Recipe 323, page 143"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 3,
+        "totalMasterIngredients": 6,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-329",
+      "title": "Egyptian Chopped Salad (Salata Baladi)",
+      "titleEn": "Egyptian Chopped Salad (Salata Baladi)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "سلطات",
+      "cookingMethod": "سلطات ومشروبات",
+      "prepTime": "20 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-329-i1",
+          "name": "Tomatoes",
+          "nameEn": "Tomatoes",
+          "standardAmount": "as available",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-329-i2",
+          "name": "Onion",
+          "nameEn": "Onion",
+          "standardAmount": "1",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-329-i3",
+          "name": "Cucumbers",
+          "nameEn": "Cucumbers",
+          "standardAmount": "as available",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-329-i4",
+          "name": "Sweet green peppers",
+          "nameEn": "Sweet green peppers",
+          "standardAmount": "as available",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-329-i5",
+          "name": "Parsley leaves",
+          "nameEn": "Parsley leaves",
+          "standardAmount": "a handful",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-329-i6",
+          "name": "Red radishes",
+          "nameEn": "Red radishes",
+          "standardAmount": "a few",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-329-i7",
+          "name": "Lettuce heart",
+          "nameEn": "Lettuce heart",
+          "standardAmount": "1",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-329-i8",
+          "name": "Pickles",
+          "nameEn": "Pickles",
+          "standardAmount": "a few",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-329-i9",
+          "name": "Garlic clove",
+          "nameEn": "Garlic clove",
+          "standardAmount": "1",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-329-i10",
+          "name": "Lemon juice",
+          "nameEn": "Lemon juice",
+          "standardAmount": "for soaking the onion",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-329-i11",
+          "name": "Salad dressing (oil, lemon, vinegar, salt and pepper)",
+          "nameEn": "Salad dressing (oil, lemon, vinegar, salt and pepper)",
+          "standardAmount": "to taste",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Only onions and tomatoes are essential; add whatever else the season offers.",
+          "textEn": "Only onions and tomatoes are essential; add whatever else the season offers.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Chop everything finely, keeping each vegetable separate.",
+          "textEn": "Chop everything finely, keeping each vegetable separate.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Rub the onion with salt, rinse it and leave it to soak in lemon juice.",
+          "textEn": "Rub the onion with salt, rinse it and leave it to soak in lemon juice.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Rub the inside of the salad bowl with the cut garlic clove and heap the vegetables in it.",
+          "textEn": "Rub the inside of the salad bowl with the cut garlic clove and heap the vegetables in it.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "Just before serving, add the dressing and toss.",
+          "textEn": "Just before serving, add the dressing and toss.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA145",
+        "collection": "abdennour",
+        "citation": "Recipe 329, page 145"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 11,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-331",
+      "title": "Artichoke and Egg Salad (Salatit Kharshuf)",
+      "titleEn": "Artichoke and Egg Salad (Salatit Kharshuf)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "سلطات",
+      "cookingMethod": "سلق",
+      "prepTime": "15 min",
+      "cookTime": "20 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-331-i1",
+          "name": "Artichoke hearts",
+          "nameEn": "Artichoke hearts",
+          "standardAmount": "4–5",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-331-i2",
+          "name": "Hard-boiled eggs, chopped",
+          "nameEn": "Hard-boiled eggs, chopped",
+          "standardAmount": "2–3",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-331-i3",
+          "name": "Salad dressing (oil, lemon, vinegar, salt and pepper)",
+          "nameEn": "Salad dressing (oil, lemon, vinegar, salt and pepper)",
+          "standardAmount": "to taste",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Boil the artichoke hearts in salted water until tender, drain and chop.",
+          "textEn": "Boil the artichoke hearts in salted water until tender, drain and chop.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Add them to the chopped eggs.",
+          "textEn": "Add them to the chopped eggs.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Pour over the dressing and mix well.",
+          "textEn": "Pour over the dressing and mix well.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA146",
+        "collection": "abdennour",
+        "citation": "Recipe 331, page 146"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 3,
+        "totalMasterIngredients": 3,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-332",
+      "title": "Green Bean Salad with Red Onion (Salatit Fasulya Khadra)",
+      "titleEn": "Green Bean Salad with Red Onion (Salatit Fasulya Khadra)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "سلطات",
+      "cookingMethod": "سلق",
+      "prepTime": "15 min",
+      "cookTime": "15 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-332-i1",
+          "name": "Runner (green) beans",
+          "nameEn": "Runner (green) beans",
+          "standardAmount": "1 kg",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-332-i2",
+          "name": "Red onions, thinly sliced",
+          "nameEn": "Red onions, thinly sliced",
+          "standardAmount": "2",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-332-i3",
+          "name": "Oil",
+          "nameEn": "Oil",
+          "standardAmount": "1 tablespoon",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-332-i4",
+          "name": "Lemon juice",
+          "nameEn": "Lemon juice",
+          "standardAmount": "2 tablespoons",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-332-i5",
+          "name": "Salt",
+          "nameEn": "Salt",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "String the beans and trim the tops and tails.",
+          "textEn": "String the beans and trim the tops and tails.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Boil in salted water until tender, drain and spread out to cool.",
+          "textEn": "Boil in salted water until tender, drain and spread out to cool.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Put the sliced onion in the salad bowl to soak in the lemon juice.",
+          "textEn": "Put the sliced onion in the salad bowl to soak in the lemon juice.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Before serving, add the beans and oil and mix.",
+          "textEn": "Before serving, add the beans and oil and mix.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA146",
+        "collection": "abdennour",
+        "citation": "Recipe 332, page 146"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 4,
+        "totalMasterIngredients": 5,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-333",
+      "title": "Beetroot Salad with Garlic Vinegar (Salatit Bangar bi-l-Toom)",
+      "titleEn": "Beetroot Salad with Garlic Vinegar (Salatit Bangar bi-l-Toom)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "سلطات",
+      "cookingMethod": "سلق",
+      "prepTime": "15 min",
+      "cookTime": "1 hour",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-333-i1",
+          "name": "Beetroot",
+          "nameEn": "Beetroot",
+          "standardAmount": "1 kg",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-333-i2",
+          "name": "Garlic cloves",
+          "nameEn": "Garlic cloves",
+          "standardAmount": "10–15",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-333-i3",
+          "name": "Vinegar",
+          "nameEn": "Vinegar",
+          "standardAmount": "1 tablespoon",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-333-i4",
+          "name": "Salt",
+          "nameEn": "Salt",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Boil the beetroot for about an hour, until very tender.",
+          "textEn": "Boil the beetroot for about an hour, until very tender.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Drain, keeping two tablespoons of the cooking water. Cool, peel and cut into small cubes, thin slices or fingers.",
+          "textEn": "Drain, keeping two tablespoons of the cooking water. Cool, peel and cut into small cubes, thin slices or fingers.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Crush the garlic with salt until very smooth and mix in the vinegar.",
+          "textEn": "Crush the garlic with salt until very smooth and mix in the vinegar.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Stir the garlic dressing into the reserved cooking water, pour over the beetroot and mix gently.",
+          "textEn": "Stir the garlic dressing into the reserved cooking water, pour over the beetroot and mix gently.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "With tahini (recipe 334 in the book): dress the beetroot with 2 tablespoons of thin tahini sauce instead.",
+          "textEn": "With tahini (recipe 334 in the book): dress the beetroot with 2 tablespoons of thin tahini sauce instead.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        },
+        {
+          "stepNumber": 6,
+          "text": "With yogurt (recipe 335 in the book): mix the cubed beetroot with 3 diced tomatoes and 3–5 diced cucumbers and cover with 1 cup of garlic yogurt (yogurt, crushed garlic and salt, without mint).",
+          "textEn": "With yogurt (recipe 335 in the book): mix the cubed beetroot with 3 diced tomatoes and 3–5 diced cucumbers and cover with 1 cup of garlic yogurt (yogurt, crushed garlic and salt, without mint).",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        }
+      ],
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA146",
+        "collection": "abdennour",
+        "citation": "Recipe 333, page 146"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 4,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-336",
+      "title": "Blanched Cabbage Salad with Salted Fish (Salatit Krumb)",
+      "titleEn": "Blanched Cabbage Salad with Salted Fish (Salatit Krumb)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "سلطات",
+      "cookingMethod": "سلق",
+      "prepTime": "15 min",
+      "cookTime": "1 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-336-i1",
+          "name": "White cabbage leaves",
+          "nameEn": "White cabbage leaves",
+          "standardAmount": "1/2 head",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-336-i2",
+          "name": "Salted fish (smoked herring, anchovy…)",
+          "nameEn": "Salted fish (smoked herring, anchovy…)",
+          "standardAmount": "a sliver",
+          "category": "seafood",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-336-i3",
+          "name": "Salad dressing (oil, lemon, vinegar, salt and pepper)",
+          "nameEn": "Salad dressing (oil, lemon, vinegar, salt and pepper)",
+          "standardAmount": "to taste",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Shred the cabbage very finely, blanch it for 1 minute, drain and cool.",
+          "textEn": "Shred the cabbage very finely, blanch it for 1 minute, drain and cool.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Chop the fish very finely and stir it into the dressing.",
+          "textEn": "Chop the fish very finely and stir it into the dressing.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Pour over the cabbage and mix well.",
+          "textEn": "Pour over the cabbage and mix well.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA147",
+        "collection": "abdennour",
+        "citation": "Recipe 336, page 147"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 3,
+        "totalMasterIngredients": 3,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-337",
+      "title": "Wilted Spinach Salad with Onion and Lemon (Salatit Sabanikh)",
+      "titleEn": "Wilted Spinach Salad with Onion and Lemon (Salatit Sabanikh)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "سلطات",
+      "cookingMethod": "تسبيك",
+      "prepTime": "15 min",
+      "cookTime": "5 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-337-i1",
+          "name": "Spinach",
+          "nameEn": "Spinach",
+          "standardAmount": "1 kg",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-337-i2",
+          "name": "Onion, grated",
+          "nameEn": "Onion, grated",
+          "standardAmount": "1",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-337-i3",
+          "name": "Lemon juice",
+          "nameEn": "Lemon juice",
+          "standardAmount": "2 tablespoons",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-337-i4",
+          "name": "Oil",
+          "nameEn": "Oil",
+          "standardAmount": "1 tablespoon",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-337-i5",
+          "name": "Salt",
+          "nameEn": "Salt",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Chop the spinach leaves and stems coarsely, sprinkle with salt and rub until they lose some juice. Rinse and pat dry.",
+          "textEn": "Chop the spinach leaves and stems coarsely, sprinkle with salt and rub until they lose some juice. Rinse and pat dry.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Wilt the spinach over a low heat, drain and spread out to cool.",
+          "textEn": "Wilt the spinach over a low heat, drain and spread out to cool.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Mix in the onion, lemon juice, oil and salt.",
+          "textEn": "Mix in the onion, lemon juice, oil and salt.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA147",
+        "collection": "abdennour",
+        "citation": "Recipe 337, page 147"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 3,
+        "totalMasterIngredients": 5,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "ec-338",
+      "title": "Turkish Spinach Salad with Feta (Ispanak Salatası)",
+      "titleEn": "Turkish Spinach Salad with Feta (Ispanak Salatası)",
+      "englishOnly": true,
+      "chapter": "Chapter 9: From the Cookbook “Egyptian Cooking”",
+      "chapterNumber": 9,
+      "category": "سلطات",
+      "cookingMethod": "تسبيك",
+      "prepTime": "15 min",
+      "cookTime": "10 min",
+      "difficulty": "easy",
+      "masterIngredients": [
+        {
+          "id": "ec-338-i1",
+          "name": "Fresh spinach",
+          "nameEn": "Fresh spinach",
+          "standardAmount": "1 kg",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-338-i2",
+          "name": "Onions, very finely chopped",
+          "nameEn": "Onions, very finely chopped",
+          "standardAmount": "2",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-338-i3",
+          "name": "Olive oil",
+          "nameEn": "Olive oil",
+          "standardAmount": "2 tablespoons",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-338-i4",
+          "name": "Parsley, very finely chopped",
+          "nameEn": "Parsley, very finely chopped",
+          "standardAmount": "1/2 cup",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-338-i5",
+          "name": "Beyaz peynir (feta cheese)",
+          "nameEn": "Beyaz peynir (feta cheese)",
+          "standardAmount": "2 tablespoons",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "ec-338-i6",
+          "name": "Salt and pepper",
+          "nameEn": "Salt and pepper",
+          "standardAmount": "to taste",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "Rinse the spinach, chop it coarsely and wilt it in a pot over the heat.",
+          "textEn": "Rinse the spinach, chop it coarsely and wilt it in a pot over the heat.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "Drain in a colander, pressing with a spoon to squeeze out the moisture, and put it in a bowl.",
+          "textEn": "Drain in a colander, pressing with a spoon to squeeze out the moisture, and put it in a bowl.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "Fry the onions in the olive oil until golden and add them to the bowl.",
+          "textEn": "Fry the onions in the olive oil until golden and add them to the bowl.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "Add the parsley, cheese, salt and pepper and toss well.",
+          "textEn": "Add the parsley, cheese, salt and pepper and toss well.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "culturalNotes": "A Turkish dish.",
+      "source": {
+        "name": "Egyptian Cooking and Other Middle Eastern Recipes — Samia Abdennour (AUC Press)",
+        "url": "https://books.google.com/books?vid=ISBN9781617972669&pg=PA147",
+        "collection": "abdennour",
+        "citation": "Recipe 338, page 147"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 4,
+        "totalMasterIngredients": 6,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "A recipe from Samia Abdennour’s cookbook “Egyptian Cooking”, rewritten in our own words with the source credited."
+      },
+      "rawDocVersions": {}
     }
   ]
 }
