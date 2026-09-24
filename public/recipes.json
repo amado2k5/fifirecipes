@@ -139330,6 +139330,2096 @@
         "reconciliationSummary": "وصفة من كتاب «أصول الطهي» لنظيرة نقولا وبهية عثمان، أعيدت صياغتها مع ذكر المصدر."
       },
       "rawDocVersions": {}
+    },
+    {
+      "id": "osool-601",
+      "title": "الفاصوليا البيضاء الجافة المسلوقة وطرق تقديمها",
+      "titleEn": "",
+      "chapter": "الباب الثامن: من كتاب أصول الطهي",
+      "chapterNumber": 8,
+      "category": "بقوليات",
+      "cookingMethod": "سلق",
+      "prepTime": "12 ساعة نقع",
+      "cookTime": "1 ساعة ونصف",
+      "servings": "4 أفراد",
+      "masterIngredients": [
+        {
+          "id": "osool-601-i1",
+          "name": "فاصوليا بيضاء جافة",
+          "standardAmount": "نصف كيلو",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-601-i2",
+          "name": "بصلة صغيرة",
+          "standardAmount": "1 بصلة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-601-i3",
+          "name": "ملح",
+          "standardAmount": "حسب الرغبة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-601-i4",
+          "name": "لكامخ الفاصوليا: بصلة كبيرة مفرية",
+          "standardAmount": "1 بصلة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-601-i5",
+          "name": "لكامخ الفاصوليا: ثوم مفري ناعماً",
+          "standardAmount": "3 إلى 4 فصوص",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-601-i6",
+          "name": "لكامخ الفاصوليا: بقدونس مفري",
+          "standardAmount": "1 ملعقة صغيرة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-601-i7",
+          "name": "صلصة فرنسية (زيت وليمون وملح وفلفل)",
+          "standardAmount": "مقدار",
+          "category": "other",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-601-i8",
+          "name": "للسوتيه: زبد",
+          "standardAmount": "1 ملعقة",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-601-i9",
+          "name": "فلفل أبيض",
+          "standardAmount": "حسب الرغبة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "تُنقى الفاصوليا وتُغسل مراراً بالماء البارد، ثم تُنقع مدة 12 ساعة.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "تُشطف ثم تُسلق في ماء مغلي وبصلة صغيرة، ويُغير ماء السلق إذا دعت الحال، وتُترك على نار هادئة حتى تقرب من النضج.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "يُضاف إليها الملح ويتم نضجها، ثم تُصفى من ماء السلق.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "كامخ الفاصوليا: يُدعك البصل المفري بالملح والفلفل ويُغسل، ويُضاف لباقي المقادير، ويُتبل الكامخ بالصلصة الفرنسية.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "بالزيت والليمون: تُتبل الفاصوليا المسلوقة بالصلصة الفرنسية بالليمون وتُترك مدة، ثم تُجمل بالبقدونس المفري وحلقات الطماطم.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        },
+        {
+          "stepNumber": 6,
+          "text": "سوتيه: يُساح الزبد وتُضاف إليه الفاصوليا المسلوقة والملح والفلفل، وتُقلب قليلاً على النار ثم تُرش بالبقدونس المفري وتُغرف.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        },
+        {
+          "stepNumber": 7,
+          "text": "بيوريه: تُهرس الفاصوليا المسلوقة كما في عمل البطاطس المهروك بالزبد واللبن.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        },
+        {
+          "stepNumber": 8,
+          "text": "المكمورة: تُسلق نصف كيلو فاصوليا ثلثي سلق وتُصفى، وتُضاف للبصلية (بصل مقلي في السمن مع اللحم والطماطم) وتُترك على نار هادئة حتى تنضج.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        },
+        {
+          "stepNumber": 9,
+          "text": "اللوبيا الجافة: تُعمل بكل هذه الطرق بنفس المقادير.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        }
+      ],
+      "culturalNotes": "البقول غنية بالبروتين حتى سُميت لحم الفقير، لكنها فقيرة في الدهن، لذا يُضاف إليها قدر من الدهن أثناء الطهو.",
+      "source": {
+        "name": "أصول الطهي النظري والعملي — نظيرة نقولا وبهية عثمان",
+        "url": "https://archive.org/download/20240330_20240330_1122/%D8%A7%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D8%B7%D9%87%D9%89%20..%20%D9%86%D8%B8%D9%8A%D8%B1%D8%A9%20%D9%86%D9%82%D9%88%D9%84%D8%A7%20%D9%88%D8%A8%D9%87%D9%8A%D8%A9%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86%20..%20%D8%A7%D9%84%D8%AC%D8%B2%D8%A1%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB.pdf#page=80",
+        "collection": "osool",
+        "citation": "الجزء الثالث، صفحة 325"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 9,
+        "totalMasterIngredients": 9,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "وصفة من كتاب «أصول الطهي» لنظيرة نقولا وبهية عثمان، أعيدت صياغتها مع ذكر المصدر."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "osool-602",
+      "title": "اللوبيا الجافة بالسلق (الخضرة)",
+      "titleEn": "",
+      "chapter": "الباب الثامن: من كتاب أصول الطهي",
+      "chapterNumber": 8,
+      "category": "بقوليات",
+      "cookingMethod": "سلق",
+      "prepTime": "12 ساعة نقع",
+      "cookTime": "1 ساعة ونصف",
+      "servings": "4 أفراد",
+      "masterIngredients": [
+        {
+          "id": "osool-602-i1",
+          "name": "لوبيا جافة مسلوقة",
+          "standardAmount": "نصف كيلو",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-602-i2",
+          "name": "لحم",
+          "standardAmount": "نصف كيلو",
+          "category": "meat_poultry",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-602-i3",
+          "name": "بصلة مدعوكة بالملح والفلفل",
+          "standardAmount": "1 بصلة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-602-i4",
+          "name": "سلق",
+          "standardAmount": "حزمتان",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-602-i5",
+          "name": "ثوم",
+          "standardAmount": "رأس",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-602-i6",
+          "name": "سمن",
+          "standardAmount": "2 ملعقة",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-602-i7",
+          "name": "ملح وفلفل",
+          "standardAmount": "حسب الرغبة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "تُسلق اللوبيا حتى تنضج ثلثي نضج ويُستغنى عن ماء السلق.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "يُسلق اللحم في ماء مغلي مضاف إليه بصلة مدعوكة بالملح والفلفل، ويُترك حتى يقرب من النضج.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "تُضاف اللوبيا إلى اللحم وتُترك حتى يتم نضجها.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "يُغسل السلق وتُنزع عروقه ويُخرط، ويُقلى في السمن قليلاً ثم يُضاف الثوم المفري ويُقلب حتى يحمر، ثم يُهرس جيداً حتى ينعم.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "تُضاف الخضرة للوبيا وتغلي مدة 5 دقائق.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "أصول الطهي النظري والعملي — نظيرة نقولا وبهية عثمان",
+        "url": "https://archive.org/download/20240330_20240330_1122/%D8%A7%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D8%B7%D9%87%D9%89%20..%20%D9%86%D8%B8%D9%8A%D8%B1%D8%A9%20%D9%86%D9%82%D9%88%D9%84%D8%A7%20%D9%88%D8%A8%D9%87%D9%8A%D8%A9%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86%20..%20%D8%A7%D9%84%D8%AC%D8%B2%D8%A1%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB.pdf#page=82",
+        "collection": "osool",
+        "citation": "الجزء الثالث، صفحة 327"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 7,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "وصفة من كتاب «أصول الطهي» لنظيرة نقولا وبهية عثمان، أعيدت صياغتها مع ذكر المصدر."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "osool-603",
+      "title": "البازلاء الجافة المسلوقة وطرق تقديمها",
+      "titleEn": "",
+      "chapter": "الباب الثامن: من كتاب أصول الطهي",
+      "chapterNumber": 8,
+      "category": "بقوليات",
+      "cookingMethod": "سلق",
+      "prepTime": "12 ساعة نقع",
+      "cookTime": "1 ساعة",
+      "servings": "4 أفراد",
+      "masterIngredients": [
+        {
+          "id": "osool-603-i1",
+          "name": "بازلاء جافة",
+          "standardAmount": "نصف كيلو",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-603-i2",
+          "name": "بصلة",
+          "standardAmount": "1 بصلة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-603-i3",
+          "name": "نعناع أخضر",
+          "standardAmount": "عرقان",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-603-i4",
+          "name": "ملح",
+          "standardAmount": "حسب الرغبة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-603-i5",
+          "name": "زبد (للسوتيه والبيوريه)",
+          "standardAmount": "1 إلى 2 ملعقة",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-603-i6",
+          "name": "صلصة فرنسية (للطريقة بالزيت والليمون)",
+          "standardAmount": "مقدار",
+          "category": "other",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-603-i7",
+          "name": "فلفل أبيض",
+          "standardAmount": "حسب الرغبة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "تُنقى البازلاء وتُغسل مراراً بالماء البارد، وتُنقع في الماء البارد مدة 12 ساعة.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "تُغسل من ماء النقع وتُسلق في الماء المغلي المضاف إليه بصلة وعرقان من النعناع الأخضر، وعند قرب النضج يُضاف الملح وتُترك حتى تنضج.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "تُصفى من ماء السلق وتُستعمل حسب الرغبة.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "بالزيت والليمون: تُتبل كالبازلاء الخضراء بالصلصة الفرنسية باستعمال نصف المقدار.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        },
+        {
+          "stepNumber": 5,
+          "text": "سوتيه: تُقلب في الزبد على نار هادئة وتُتبل.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        },
+        {
+          "stepNumber": 6,
+          "text": "بيوريه: تُصفى بمنخل وتُضاف إليها الزبد والملح والفلفل وتُقلب على نار هادئة حتى يغلظ قوامها.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        },
+        {
+          "stepNumber": 7,
+          "text": "المطمورة: تُعمل كالبازلاء الخضراء المطمورة بالبصلية (بصل ولحم وطماطم في السمن).",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        }
+      ],
+      "source": {
+        "name": "أصول الطهي النظري والعملي — نظيرة نقولا وبهية عثمان",
+        "url": "https://archive.org/download/20240330_20240330_1122/%D8%A7%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D8%B7%D9%87%D9%89%20..%20%D9%86%D8%B8%D9%8A%D8%B1%D8%A9%20%D9%86%D9%82%D9%88%D9%84%D8%A7%20%D9%88%D8%A8%D9%87%D9%8A%D8%A9%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86%20..%20%D8%A7%D9%84%D8%AC%D8%B2%D8%A1%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB.pdf#page=82",
+        "collection": "osool",
+        "citation": "الجزء الثالث، صفحة 327"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 7,
+        "totalMasterIngredients": 7,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "وصفة من كتاب «أصول الطهي» لنظيرة نقولا وبهية عثمان، أعيدت صياغتها مع ذكر المصدر."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "osool-604",
+      "title": "الطعمية بالفول النابت المقشور",
+      "titleEn": "",
+      "chapter": "الباب الثامن: من كتاب أصول الطهي",
+      "chapterNumber": 8,
+      "category": "بقوليات",
+      "cookingMethod": "قلي",
+      "prepTime": "3 أيام تنبيت",
+      "cookTime": "20 دقيقة",
+      "servings": "6 أفراد",
+      "masterIngredients": [
+        {
+          "id": "osool-604-i1",
+          "name": "فول نابت مقشور",
+          "standardAmount": "ربع قدح",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-604-i2",
+          "name": "بصل متوسط",
+          "standardAmount": "2 بصلة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-604-i3",
+          "name": "ثوم",
+          "standardAmount": "ربع إلى نصف رأس",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-604-i4",
+          "name": "بقدونس وشبت وبصل أخضر",
+          "standardAmount": "قليل",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-604-i5",
+          "name": "ملح وكمون وكسبرة وشطة",
+          "standardAmount": "حسب الرغبة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-604-i6",
+          "name": "ذرة من بيكربونات الصوديوم",
+          "standardAmount": "رشة",
+          "category": "other",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-604-i7",
+          "name": "سمسم",
+          "standardAmount": "قليل",
+          "category": "sweet_fruit",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-604-i8",
+          "name": "زيت كافٍ للقلي",
+          "standardAmount": "حسب الحاجة",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "للتنبيت: يُختار الفول الأبيض الجاف الجيد ويُنقى ويُغسل، ويُنقع في الماء البارد 3 أيام مع تغيير الماء مرتين في اليوم، ثم يُصفى ويُغطى بقطعة مبللة 12 ساعة، ثم يُقشر.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "تُغسل الخضرة ويُقشر البصل والثوم ويُخرط الجميع غليظاً.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "تُخلط جميع المقادير بعضها ببعض وتُفرى في مفراة اللحم الناعمة مرتين، وقد تُدق إذا احتاج الأمر.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "تُضاف إليها التوابل ويُضبط ملحها، وقد يُضاف إليها ذرة من البيكربونات أو تُترك لتختمر مدة نصف ساعة.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "تُقطع الطعمية وتُساوى ويوضع على سطحها قليل من السمسم، ويُستعان على ذلك ببل اليد بقليل من الماء.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "تُقلى في الزيت وتُقدم ساخنة بعد تجميلها بالبقدونس.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "أصول الطهي النظري والعملي — نظيرة نقولا وبهية عثمان",
+        "url": "https://archive.org/download/20240330_20240330_1122/%D8%A7%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D8%B7%D9%87%D9%89%20..%20%D9%86%D8%B8%D9%8A%D8%B1%D8%A9%20%D9%86%D9%82%D9%88%D9%84%D8%A7%20%D9%88%D8%A8%D9%87%D9%8A%D8%A9%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86%20..%20%D8%A7%D9%84%D8%AC%D8%B2%D8%A1%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB.pdf#page=83",
+        "collection": "osool",
+        "citation": "الجزء الثالث، صفحة 328"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 8,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "وصفة من كتاب «أصول الطهي» لنظيرة نقولا وبهية عثمان، أعيدت صياغتها مع ذكر المصدر."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "osool-605",
+      "title": "البصارة باللحم المفري",
+      "titleEn": "",
+      "chapter": "الباب الثامن: من كتاب أصول الطهي",
+      "chapterNumber": 8,
+      "category": "بقوليات",
+      "cookingMethod": "سلق",
+      "prepTime": "15 دقيقة",
+      "cookTime": "1 ساعة ونصف",
+      "servings": "6 أفراد",
+      "masterIngredients": [
+        {
+          "id": "osool-605-i1",
+          "name": "فول مدشوش",
+          "standardAmount": "ربع قدح",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-605-i2",
+          "name": "بصل",
+          "standardAmount": "2 بصلة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-605-i3",
+          "name": "قطعة كرفس وقطعة نعناع أخضر",
+          "standardAmount": "1 من كل",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-605-i4",
+          "name": "ملوخية جافة",
+          "standardAmount": "نصف إلى 1 ملعقة صغيرة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-605-i5",
+          "name": "نعناع جاف",
+          "standardAmount": "نصف إلى 1 ملعقة صغيرة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-605-i6",
+          "name": "كراوية محمصة مدقوقة",
+          "standardAmount": "نصف إلى 1 ملعقة صغيرة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-605-i7",
+          "name": "عصاج (لحم مفري مسبك)",
+          "standardAmount": "ثُمن إلى ربع كيلو",
+          "category": "meat_poultry",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-605-i8",
+          "name": "للتقلية: بصلتان مفريتان",
+          "standardAmount": "2 بصلة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-605-i9",
+          "name": "للتقلية: كسبرة ناعمة",
+          "standardAmount": "1 ملعقة صغيرة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-605-i10",
+          "name": "للتقلية: ثوم",
+          "standardAmount": "نصف رأس صغير",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-605-i11",
+          "name": "للتقلية: سمن",
+          "standardAmount": "1 ونصف ملعقة",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-605-i12",
+          "name": "ملح وشطة",
+          "standardAmount": "حسب الرغبة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "يُنقى الفول ويُغسل ثم يوضع في ماء يغطيه ويُرفع على النار حتى يغلي 5 دقائق، ثم يُلقى الماء.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "يُضاف للفول مقدار آخر من الماء والبصل المقطع رفيعاً والكرفس والنعناع.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "يُطهى الفول على نار هادئة مع عدم تقليبه، وكلما جف ماؤه يُضاف إليه مقدار آخر ويُنزع الزبد كلما ظهر، ويُترك حتى يتهرى تماماً.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "يُصفى الفول بمصفاة ضيقة الثقوب، ويُضاف إليه الملح والتوابل والملوخية والنعناع الجاف والكراوية، ويُترك يغلي مع التقليب ويُضاف قليل من الماء إذا احتاج الأمر حتى يصير قوامها مناسباً.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "يُضاف العصاج للبصارة مع الاحتفاظ بجزء منه لتجميل السطح.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "للتقلية: يُقدح السمن ويُحمر فيه البصل المفري حتى يصفر، ويُنزع نصفه لتجميل الوجه، ثم يُضاف الثوم المدقوق والكسبرة لباقي البصل ويُقلب بسرعة حتى يصير لون التقلية أحمر فاتحاً.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 7,
+          "text": "تُصب التقلية على البصارة ويُعاد تقليبها، ويُضاف إليها قليل من الشطة إذا أُريد.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 8,
+          "text": "تُغرف في الصحون وتُترك حتى تبرد قليلاً، ثم تُجمل بباقي البصل المحمر والعصاج.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "أصول الطهي النظري والعملي — نظيرة نقولا وبهية عثمان",
+        "url": "https://archive.org/download/20240330_20240330_1122/%D8%A7%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D8%B7%D9%87%D9%89%20..%20%D9%86%D8%B8%D9%8A%D8%B1%D8%A9%20%D9%86%D9%82%D9%88%D9%84%D8%A7%20%D9%88%D8%A8%D9%87%D9%8A%D8%A9%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86%20..%20%D8%A7%D9%84%D8%AC%D8%B2%D8%A1%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB.pdf#page=84",
+        "collection": "osool",
+        "citation": "الجزء الثالث، صفحة 329"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 8,
+        "totalMasterIngredients": 12,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "وصفة من كتاب «أصول الطهي» لنظيرة نقولا وبهية عثمان، أعيدت صياغتها مع ذكر المصدر."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "osool-606",
+      "title": "الفول المدمس في الفرن وطرق تقديمه",
+      "titleEn": "",
+      "chapter": "الباب الثامن: من كتاب أصول الطهي",
+      "chapterNumber": 8,
+      "category": "بقوليات",
+      "cookingMethod": "فرن",
+      "prepTime": "15 دقيقة",
+      "cookTime": "8 إلى 10 ساعات",
+      "servings": "6 أفراد",
+      "masterIngredients": [
+        {
+          "id": "osool-606-i1",
+          "name": "فول أبيض جاف جيد النوع",
+          "standardAmount": "ربع قدح",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-606-i2",
+          "name": "عدس أصفر (اختياري)",
+          "standardAmount": "قليل جداً",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-606-i3",
+          "name": "ماء",
+          "standardAmount": "ثلاثة أرباع القدر",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-606-i4",
+          "name": "زيت وليمون أو سمن للتقديم",
+          "standardAmount": "حسب الرغبة",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-606-i5",
+          "name": "لكامخ الفول: بصل أخضر مقطع حلقات وثوم مفري وبقدونس مفري وحلقات طماطم",
+          "standardAmount": "حسب الرغبة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-606-i6",
+          "name": "للفول بالطماطم: بصلة مفرية وطماطم وثوم وسمن",
+          "standardAmount": "حسب الرغبة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-606-i7",
+          "name": "للفول بالعصاج: عصاج",
+          "standardAmount": "2 ملعقة كبيرة",
+          "category": "meat_poultry",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-606-i8",
+          "name": "ملح وفلفل",
+          "standardAmount": "حسب الرغبة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "يُختار الفول الجاف الأبيض الجيد النوع، ويُنقى باحتراس ثم يُغسل جيداً.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "يوضع في قدر ويُضاف إليه قليل جداً من العدس الأصفر إذا أُريد.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "يُملأ القدر بالماء لثلاثة أرباعه ثم تُغطى القدر جيداً ويُربط الغطاء، أو يُلحم بالعجينة.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "توضع في فرن هادئ مدة تتراوح بين 8 و10 ساعات.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "تُترك القدر حتى تهدأ حرارتها قبل فتحها، خوفاً من انفجار البخار المكتوم داخل القدر.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "يُقدم الفول مع الزيت والليمون أو السمن.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 7,
+          "text": "كامخ الفول المدمس: يُخلط الفول مع البصل الأخضر والثوم والبقدونس وحلقات الطماطم، ويُتبل بالملح والفلفل والزيت والليمون.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        },
+        {
+          "stepNumber": 8,
+          "text": "الفول المدمس بالطماطم: يُحمر بصلة مفرية في السمن ثم الثوم والكسبرة، وتُضاف الطماطم المصفاة حتى تتسبك، ثم يُضاف الفول المدمس ويُقلب 5 إلى 10 دقائق.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        },
+        {
+          "stepNumber": 9,
+          "text": "الفول المدمس بالعصاج: كالفول بالطماطم مع إضافة ملعقتين كبيرتين من العصاج.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        }
+      ],
+      "source": {
+        "name": "أصول الطهي النظري والعملي — نظيرة نقولا وبهية عثمان",
+        "url": "https://archive.org/download/20240330_20240330_1122/%D8%A7%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D8%B7%D9%87%D9%89%20..%20%D9%86%D8%B8%D9%8A%D8%B1%D8%A9%20%D9%86%D9%82%D9%88%D9%84%D8%A7%20%D9%88%D8%A8%D9%87%D9%8A%D8%A9%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86%20..%20%D8%A7%D9%84%D8%AC%D8%B2%D8%A1%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB.pdf#page=85",
+        "collection": "osool",
+        "citation": "الجزء الثالث، صفحة 330"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 9,
+        "totalMasterIngredients": 8,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "وصفة من كتاب «أصول الطهي» لنظيرة نقولا وبهية عثمان، أعيدت صياغتها مع ذكر المصدر."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "osool-607",
+      "title": "الفول النابت المقلي بالطماطم",
+      "titleEn": "",
+      "chapter": "الباب الثامن: من كتاب أصول الطهي",
+      "chapterNumber": 8,
+      "category": "بقوليات",
+      "cookingMethod": "تسبيك",
+      "prepTime": "15 دقيقة",
+      "cookTime": "45 دقيقة",
+      "servings": "4 أفراد",
+      "masterIngredients": [
+        {
+          "id": "osool-607-i1",
+          "name": "فول نابت مقشور",
+          "standardAmount": "ربع قدح",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-607-i2",
+          "name": "طماطم",
+          "standardAmount": "ربع كيلو",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-607-i3",
+          "name": "ثوم مفري",
+          "standardAmount": "4 فصوص",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-607-i4",
+          "name": "بصلة مفرية ناعماً",
+          "standardAmount": "1 بصلة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-607-i5",
+          "name": "كسبرة ناعمة",
+          "standardAmount": "نصف ملعقة صغيرة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-607-i6",
+          "name": "زيت أو سمن",
+          "standardAmount": "2 ملعقة",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-607-i7",
+          "name": "بقدونس مفري (اختياري)",
+          "standardAmount": "1 ملعقة صغيرة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-607-i8",
+          "name": "أرز (اختياري)",
+          "standardAmount": "1 ملعقة كبيرة",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-607-i9",
+          "name": "ملح وفلفل أبيض",
+          "standardAmount": "حسب الرغبة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "يُنقى الفول بعد تقشيره ويُغسل جيداً.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "يُحمر البصل في الزيت أو السمن، وعند اصفراره يُضاف إليه الثوم المدقوق والكسبرة.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "تُضاف الطماطم بعد تصفيتها وتُترك على النار حتى تتسبك، فيُضاف إليها الفول ويُقلب 5 إلى 10 دقائق.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "تُضاف كمية من الماء ويُغطى الإناء ويُترك على نار متوسطة حتى ينضج الفول، ويُضاف إليه قليل من الماء كلما احتاج الأمر.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "قد يُضاف للفول ملعقة كبيرة من الأرز قبل تمام نضجه.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "يُضاف البقدونس المفري في حالة الاستعمال ويغلي مع الفول مدة دقيقتين.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 7,
+          "text": "سلق الفول النابت: يُغسل الفول ويُسلق في ماء مغلي مع بصلة صغيرة وعصير ليمون حتى ينضج، ويُقدم بالزيت والليمون.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        }
+      ],
+      "source": {
+        "name": "أصول الطهي النظري والعملي — نظيرة نقولا وبهية عثمان",
+        "url": "https://archive.org/download/20240330_20240330_1122/%D8%A7%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D8%B7%D9%87%D9%89%20..%20%D9%86%D8%B8%D9%8A%D8%B1%D8%A9%20%D9%86%D9%82%D9%88%D9%84%D8%A7%20%D9%88%D8%A8%D9%87%D9%8A%D8%A9%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86%20..%20%D8%A7%D9%84%D8%AC%D8%B2%D8%A1%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB.pdf#page=87",
+        "collection": "osool",
+        "citation": "الجزء الثالث، صفحة 332"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 7,
+        "totalMasterIngredients": 9,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "وصفة من كتاب «أصول الطهي» لنظيرة نقولا وبهية عثمان، أعيدت صياغتها مع ذكر المصدر."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "osool-608",
+      "title": "الفولية (الفول النابت بالخضرة والأرز)",
+      "titleEn": "",
+      "chapter": "الباب الثامن: من كتاب أصول الطهي",
+      "chapterNumber": 8,
+      "category": "بقوليات",
+      "cookingMethod": "سلق",
+      "prepTime": "20 دقيقة",
+      "cookTime": "1 ساعة",
+      "servings": "4 أفراد",
+      "masterIngredients": [
+        {
+          "id": "osool-608-i1",
+          "name": "فول نابت",
+          "standardAmount": "ربع قدح",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-608-i2",
+          "name": "حزمة خضرة (شبت وكسبرة خضراء وسلق)",
+          "standardAmount": "حزمة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-608-i3",
+          "name": "بصلة",
+          "standardAmount": "1 بصلة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-608-i4",
+          "name": "ثوم",
+          "standardAmount": "نصف رأس",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-608-i5",
+          "name": "أرز",
+          "standardAmount": "1 ملعقة",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-608-i6",
+          "name": "زيت",
+          "standardAmount": "2 ونصف ملعقة",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-608-i7",
+          "name": "ملح وفلفل",
+          "standardAmount": "حسب الرغبة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "تُفرى البصلة ناعماً وتُحمر في قليل من الزيت، ثم يُضاف إليها مقدار من الماء ويُترك الإناء ليغلي.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "يُقشر الفول ويُغسل ويُنقى، ثم يُضاف لخليط الماء المغلي ويُترك على النار حتى يقرب من النضج.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "يُغسل الأرز ويُضاف إلى الفول قبل تمام نضجه، ويُترك حتى ينضج الفول والأرز.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "تُجهز الخضرة وتُحمر في باقي مقدار الزيت، ثم يُحمر الثوم المفري.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "يُصفى الزيت على الفول، وتُسحق الخضرة جيداً وتُضاف للفول وتغلي عليه.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "أصول الطهي النظري والعملي — نظيرة نقولا وبهية عثمان",
+        "url": "https://archive.org/download/20240330_20240330_1122/%D8%A7%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D8%B7%D9%87%D9%89%20..%20%D9%86%D8%B8%D9%8A%D8%B1%D8%A9%20%D9%86%D9%82%D9%88%D9%84%D8%A7%20%D9%88%D8%A8%D9%87%D9%8A%D8%A9%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86%20..%20%D8%A7%D9%84%D8%AC%D8%B2%D8%A1%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB.pdf#page=87",
+        "collection": "osool",
+        "citation": "الجزء الثالث، صفحة 332"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 7,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "وصفة من كتاب «أصول الطهي» لنظيرة نقولا وبهية عثمان، أعيدت صياغتها مع ذكر المصدر."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "osool-609",
+      "title": "ثريد (فتة) الفول النابت بالخل والثوم",
+      "titleEn": "",
+      "chapter": "الباب الثامن: من كتاب أصول الطهي",
+      "chapterNumber": 8,
+      "category": "بقوليات",
+      "cookingMethod": "سلق",
+      "prepTime": "15 دقيقة",
+      "cookTime": "1 ساعة",
+      "servings": "4 أفراد",
+      "masterIngredients": [
+        {
+          "id": "osool-609-i1",
+          "name": "حساء الفول النابت (فول مسلوق بالمستكة والليمون)",
+          "standardAmount": "مقدار",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-609-i2",
+          "name": "خبز مقدد",
+          "standardAmount": "رغيف",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-609-i3",
+          "name": "ثوم مفري",
+          "standardAmount": "قليل",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-609-i4",
+          "name": "سمن",
+          "standardAmount": "1 ملعقة",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-609-i5",
+          "name": "خل",
+          "standardAmount": "قليل",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "يُعمل حساء الفول النابت ويُنشل منه الفول.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "يُقطع الخبز المقدد قطعاً مناسبة، ويُصب عليه الحساء ويُغطى ويُترك مدة 5 إلى 10 دقائق.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "توضع طبقة من الثريد وأخرى من الفول الناضج في صحن.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "يُفرى قليل من الثوم ويُحمر في السمن، ثم يُضاف إليه قليل من الخل ويُترك على النار قليلاً.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "يُضاف للثريد ثم يُجمل سطحها بالفول الناضج وتُقدم ساخنة.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "ثريد العدس: يُعمل حساء العدس المصري ويُقطع الخبز المقدد، ويُصب الحساء على الخبز ويُغطى 5 إلى 10 دقائق، ثم تُعمل تقلية الثوم والخل بالسمن وتُصب على الثريد ويُقدم ساخناً.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        }
+      ],
+      "source": {
+        "name": "أصول الطهي النظري والعملي — نظيرة نقولا وبهية عثمان",
+        "url": "https://archive.org/download/20240330_20240330_1122/%D8%A7%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D8%B7%D9%87%D9%89%20..%20%D9%86%D8%B8%D9%8A%D8%B1%D8%A9%20%D9%86%D9%82%D9%88%D9%84%D8%A7%20%D9%88%D8%A8%D9%87%D9%8A%D8%A9%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86%20..%20%D8%A7%D9%84%D8%AC%D8%B2%D8%A1%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB.pdf#page=88",
+        "collection": "osool",
+        "citation": "الجزء الثالث، صفحة 333"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 5,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "وصفة من كتاب «أصول الطهي» لنظيرة نقولا وبهية عثمان، أعيدت صياغتها مع ذكر المصدر."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "osool-610",
+      "title": "كامخ الفول النابت بالطحينة (المحوج)",
+      "titleEn": "",
+      "chapter": "الباب الثامن: من كتاب أصول الطهي",
+      "chapterNumber": 8,
+      "category": "بقوليات",
+      "cookingMethod": "سلق",
+      "prepTime": "15 دقيقة",
+      "cookTime": "1 ساعة",
+      "servings": "4 أفراد",
+      "masterIngredients": [
+        {
+          "id": "osool-610-i1",
+          "name": "فول نابت",
+          "standardAmount": "ربع قدح",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-610-i2",
+          "name": "ماء",
+          "standardAmount": "ما يكفي للتغطية",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-610-i3",
+          "name": "بصلة كبيرة مقطعة",
+          "standardAmount": "1 بصلة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-610-i4",
+          "name": "ثوم",
+          "standardAmount": "ربع رأس",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-610-i5",
+          "name": "طحينة",
+          "standardAmount": "2 إلى 3 ملاعق كبيرة",
+          "category": "other",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-610-i6",
+          "name": "خل",
+          "standardAmount": "2 ملعقة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-610-i7",
+          "name": "بقدونس مفري",
+          "standardAmount": "1 ملعقة صغيرة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-610-i8",
+          "name": "ملح وكمون",
+          "standardAmount": "حسب الرغبة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "يُنقى الفول بعد تقشيره ويُغسل جيداً، ويوضع في إناء ومعه البصل والثوم ومقدار من الماء كافٍ للتغطية.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "يُرفع على النار الهادئة ويُترك حتى ينضج الفول ويتهرى تماماً.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "يُصفى الفول من مصفاة ضيقة الثقوب أو منخل سلك، ويُضاف إليه الملح والكمون.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "يُضاف الخل وملعقتان من الطحينة والبقدونس المفري للفول المصفى ويُقلب الخليط.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "يُغرف في صحون ويُترك حتى يبرد، ثم يُجمل السطح بالطحينة الباقية برشها على هيئة خيوط رفيعة.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "كامخ الفول النابت بالخضار: يُقشر ربع قدح فول نابت ويُسلق حتى يبرد، ويُضاف إليه طماطمة وبصلة متوسطة مقطعتان حلقات وفلفل أخضر حلو مقطع حلقات، ويُتبل بالصلصة الفرنسية ويُجمل بالبقدونس.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        }
+      ],
+      "source": {
+        "name": "أصول الطهي النظري والعملي — نظيرة نقولا وبهية عثمان",
+        "url": "https://archive.org/download/20240330_20240330_1122/%D8%A7%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D8%B7%D9%87%D9%89%20..%20%D9%86%D8%B8%D9%8A%D8%B1%D8%A9%20%D9%86%D9%82%D9%88%D9%84%D8%A7%20%D9%88%D8%A8%D9%87%D9%8A%D8%A9%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86%20..%20%D8%A7%D9%84%D8%AC%D8%B2%D8%A1%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB.pdf#page=89",
+        "collection": "osool",
+        "citation": "الجزء الثالث، صفحة 334"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 6,
+        "totalMasterIngredients": 8,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "وصفة من كتاب «أصول الطهي» لنظيرة نقولا وبهية عثمان، أعيدت صياغتها مع ذكر المصدر."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "osool-611",
+      "title": "العدس المطبوخ بالأرز والعصاج",
+      "titleEn": "",
+      "chapter": "الباب الثامن: من كتاب أصول الطهي",
+      "chapterNumber": 8,
+      "category": "بقوليات",
+      "cookingMethod": "سلق",
+      "prepTime": "10 دقائق",
+      "cookTime": "1 ساعة",
+      "servings": "4 أفراد",
+      "masterIngredients": [
+        {
+          "id": "osool-611-i1",
+          "name": "عدس أصفر",
+          "standardAmount": "ربع كيلو",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-611-i2",
+          "name": "بصلة متوسطة",
+          "standardAmount": "1 بصلة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-611-i3",
+          "name": "ثوم (يمكن الاستغناء عنه)",
+          "standardAmount": "4 فصوص",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-611-i4",
+          "name": "ماء أو خلاصة",
+          "standardAmount": "حسب الحاجة",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-611-i5",
+          "name": "أرز",
+          "standardAmount": "1 ونصف ملعقة كبيرة",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-611-i6",
+          "name": "عصاج",
+          "standardAmount": "ربع رطل",
+          "category": "meat_poultry",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-611-i7",
+          "name": "طماطمة (اختياري)",
+          "standardAmount": "1 حبة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-611-i8",
+          "name": "ملح وكمون ناعم",
+          "standardAmount": "حسب الرغبة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "يُنقى العدس من الحصى والطين ويُغسل عدة مرات بالماء البارد.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "يُقشر البصل ويُقطع وكذا الثوم، ويوضع مع العدس في إناء ويُغطى بالماء أو الخلاصة، ويُرفع على نار هادئة حتى ينضج مع إضافة الماء كلما دعت الحال، وقد تُضاف الطماطم أثناء سلقه.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "يُصفى بمنخل سلك أو مصفاة ضيقة الثقوب، ويُتبل بالملح والكمون على أن يكون قوامه خفيفاً نوعاً.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "يُرفع على النار حتى يغلي، فيُضاف إليه الأرز المغسول ويُترك حتى ينضج الأرز.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "يُرفع من على النار ويُضاف إليه العصاج ويُقدم ساخناً.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        }
+      ],
+      "source": {
+        "name": "أصول الطهي النظري والعملي — نظيرة نقولا وبهية عثمان",
+        "url": "https://archive.org/download/20240330_20240330_1122/%D8%A7%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D8%B7%D9%87%D9%89%20..%20%D9%86%D8%B8%D9%8A%D8%B1%D8%A9%20%D9%86%D9%82%D9%88%D9%84%D8%A7%20%D9%88%D8%A8%D9%87%D9%8A%D8%A9%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86%20..%20%D8%A7%D9%84%D8%AC%D8%B2%D8%A1%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB.pdf#page=91",
+        "collection": "osool",
+        "citation": "الجزء الثالث، صفحة 336"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 8,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "وصفة من كتاب «أصول الطهي» لنظيرة نقولا وبهية عثمان، أعيدت صياغتها مع ذكر المصدر."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "osool-612",
+      "title": "ضلع العدس (كستليتة العدس) وقوالبه",
+      "titleEn": "",
+      "chapter": "الباب الثامن: من كتاب أصول الطهي",
+      "chapterNumber": 8,
+      "category": "بقوليات",
+      "cookingMethod": "قلي",
+      "prepTime": "30 دقيقة",
+      "cookTime": "1 ساعة",
+      "servings": "4-6 أفراد",
+      "masterIngredients": [
+        {
+          "id": "osool-612-i1",
+          "name": "عدس",
+          "standardAmount": "نصف كيلو",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-612-i2",
+          "name": "ماء أو خلاصة",
+          "standardAmount": "كوب",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-612-i3",
+          "name": "بصلة صغيرة مفرية",
+          "standardAmount": "1 بصلة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-612-i4",
+          "name": "طماطمة صغيرة",
+          "standardAmount": "1 حبة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-612-i5",
+          "name": "سمن",
+          "standardAmount": "1 ملعقة صغيرة",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-612-i6",
+          "name": "مسحوق الأرز",
+          "standardAmount": "2 ملعقة كبيرة",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-612-i7",
+          "name": "بيض وبقسماط للتغطية",
+          "standardAmount": "حسب الحاجة",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-612-i8",
+          "name": "قطع مكرونة",
+          "standardAmount": "6 إلى 8 قطع",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-612-i9",
+          "name": "سمن غزير للتحمير",
+          "standardAmount": "حسب الحاجة",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-612-i10",
+          "name": "ملح وفلفل",
+          "standardAmount": "حسب الرغبة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-612-i11",
+          "name": "صلصة طماطم للتقديم",
+          "standardAmount": "كوب",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "يوضع العدس والسمن والبصل والطماطم والماء أو الخلاصة في إناء، ويُرفع على نار هادئة حتى ينضج، ويُضاف إليه مقدار من الماء إذا احتاج الأمر، ثم يُصفى بمنخل سلك أو مصفاة ضيقة الثقوب.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "يُرفع العدس المصفى على النار حتى يغلي، فيُضاف إليه مسحوق الأرز ويُترك على نار هادئة حتى ينضج الأرز.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "يوضع الخليط في صحن مستدير مدهون ويُترك حتى يبرد.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "يُقطع الخليط من 6 إلى 8 قطع وتُشكل على هيئة كستليتة، وتوضع بكل قطعة مكرونة في طرفها المدبب.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 5,
+          "text": "تُغطى بالبيض والبقسماط وتُحمر في السمن الغزير.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 6,
+          "text": "تُقدم مع صلصة الطماطم وتُجمل بالبقدونس.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 7,
+          "text": "قوالب العدس: يوضع الخليط نفسه في قالب أو قوالب صغيرة مدهونة جيداً بالسمن ومغطاة بقليل من البقسماط، ثم يُطهى في الفرن أو على البخار ساعة، ويُقلب ويُصب حوله صلصة الطماطم.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        }
+      ],
+      "source": {
+        "name": "أصول الطهي النظري والعملي — نظيرة نقولا وبهية عثمان",
+        "url": "https://archive.org/download/20240330_20240330_1122/%D8%A7%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D8%B7%D9%87%D9%89%20..%20%D9%86%D8%B8%D9%8A%D8%B1%D8%A9%20%D9%86%D9%82%D9%88%D9%84%D8%A7%20%D9%88%D8%A8%D9%87%D9%8A%D8%A9%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86%20..%20%D8%A7%D9%84%D8%AC%D8%B2%D8%A1%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB.pdf#page=91",
+        "collection": "osool",
+        "citation": "الجزء الثالث، صفحة 336"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 7,
+        "totalMasterIngredients": 11,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "وصفة من كتاب «أصول الطهي» لنظيرة نقولا وبهية عثمان، أعيدت صياغتها مع ذكر المصدر."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "osool-613",
+      "title": "العدس بجبة (العدس البني) المسلوق والمدمس وكامخه",
+      "titleEn": "",
+      "chapter": "الباب الثامن: من كتاب أصول الطهي",
+      "chapterNumber": 8,
+      "category": "بقوليات",
+      "cookingMethod": "سلق",
+      "prepTime": "10 دقائق",
+      "cookTime": "1 ساعة",
+      "servings": "4 أفراد",
+      "masterIngredients": [
+        {
+          "id": "osool-613-i1",
+          "name": "عدس بجبة (عدس بني بقشره)",
+          "standardAmount": "ربع قدح",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-613-i2",
+          "name": "ماء",
+          "standardAmount": "حسب الحاجة",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-613-i3",
+          "name": "ملح",
+          "standardAmount": "حسب الرغبة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-613-i4",
+          "name": "زيت وليمون أو سمن",
+          "standardAmount": "حسب الرغبة",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-613-i5",
+          "name": "لكامخ العدس: بصلتان مقطعتان حلقات رفيعة",
+          "standardAmount": "2 بصلة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-613-i6",
+          "name": "لكامخ العدس: بقدونس مفري",
+          "standardAmount": "1 ملعقة صغيرة",
+          "category": "vegetable",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-613-i7",
+          "name": "صلصة فرنسية",
+          "standardAmount": "مقدار",
+          "category": "other",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-613-i8",
+          "name": "فلفل",
+          "standardAmount": "حسب الرغبة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "يُنقى العدس من الحصى والطين ويُغسل عدة مرات بالماء البارد.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "المسلوق: يُغلى الماء ويوضع به العدس ويُترك حتى يقرب من النضج فيُضاف الملح، ويُترك ليبرد قليلاً ثم يُصفى من السلق.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "بالزيت والليمون: يُضاف للعدس المسلوق البارد مقدار من الزيت والليمون ويُقدم.",
+          "phase": "finish",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "المدمس: يوضع العدس في إناء ويُغطى بالماء ويُحكم الغطاء، ويُترك على نار هادئة حتى ينضج مع إضافة قليل من الماء كلما دعت الحال، ويُضاف الملح قرب النضج، ثم يُغرف ويُضاف إليه السمن أو الزيت.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        },
+        {
+          "stepNumber": 5,
+          "text": "كامخ العدس: يُدعك البصل جيداً بالملح والفلفل ويُغسل بالماء البارد، وتُخلط جميع المقادير مع العدس المسلوق وتُتبل بالصلصة الفرنسية، ويوضع في صحن ويُجمل بالبقدونس المفري.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        }
+      ],
+      "source": {
+        "name": "أصول الطهي النظري والعملي — نظيرة نقولا وبهية عثمان",
+        "url": "https://archive.org/download/20240330_20240330_1122/%D8%A7%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D8%B7%D9%87%D9%89%20..%20%D9%86%D8%B8%D9%8A%D8%B1%D8%A9%20%D9%86%D9%82%D9%88%D9%84%D8%A7%20%D9%88%D8%A8%D9%87%D9%8A%D8%A9%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86%20..%20%D8%A7%D9%84%D8%AC%D8%B2%D8%A1%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB.pdf#page=92",
+        "collection": "osool",
+        "citation": "الجزء الثالث، صفحة 337"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 5,
+        "totalMasterIngredients": 8,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "وصفة من كتاب «أصول الطهي» لنظيرة نقولا وبهية عثمان، أعيدت صياغتها مع ذكر المصدر."
+      },
+      "rawDocVersions": {}
+    },
+    {
+      "id": "osool-614",
+      "title": "الفريك المفلفل والفريك بمرق الطيور",
+      "titleEn": "",
+      "chapter": "الباب الثامن: من كتاب أصول الطهي",
+      "chapterNumber": 8,
+      "category": "نشويات",
+      "cookingMethod": "تسبيك",
+      "prepTime": "10 دقائق",
+      "cookTime": "40 دقيقة",
+      "servings": "4 أفراد",
+      "masterIngredients": [
+        {
+          "id": "osool-614-i1",
+          "name": "فريك",
+          "standardAmount": "فنجان",
+          "category": "grain_starch",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-614-i2",
+          "name": "ماء (أو مرق طيور)",
+          "standardAmount": "فنجان ونصف",
+          "category": "liquid",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-614-i3",
+          "name": "سمن",
+          "standardAmount": "2 ملعقة",
+          "category": "dairy_fat",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        },
+        {
+          "id": "osool-614-i4",
+          "name": "ملح",
+          "standardAmount": "حسب الرغبة",
+          "category": "spice_seasoning",
+          "sourceVariations": {},
+          "isMerged": false,
+          "originalOccurrencesCount": 1
+        }
+      ],
+      "uniqueInstructions": [
+        {
+          "stepNumber": 1,
+          "text": "يُنقى الفريك من الحصى ويُغسل جيداً.",
+          "phase": "prep",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 2,
+          "text": "يُحمر في السمن المقدوح.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 3,
+          "text": "يُضاف الماء والملح ويُترك على نار هادئة حتى ينضج.",
+          "phase": "cook",
+          "sourceDocs": [],
+          "importance": "core"
+        },
+        {
+          "stepNumber": 4,
+          "text": "الفريك المطبوخ بالمرق: يُعمل بنفس الطريقة باستعمال مرق (خلاصة) الطيور بدلاً من الماء، ويُقدم مع الطيور المسلوقة أو المحمرة.",
+          "phase": "alternative",
+          "sourceDocs": [],
+          "isAlternative": true,
+          "importance": "variation"
+        }
+      ],
+      "source": {
+        "name": "أصول الطهي النظري والعملي — نظيرة نقولا وبهية عثمان",
+        "url": "https://archive.org/download/20240330_20240330_1122/%D8%A7%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D8%B7%D9%87%D9%89%20..%20%D9%86%D8%B8%D9%8A%D8%B1%D8%A9%20%D9%86%D9%82%D9%88%D9%84%D8%A7%20%D9%88%D8%A8%D9%87%D9%8A%D8%A9%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86%20..%20%D8%A7%D9%84%D8%AC%D8%B2%D8%A1%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB.pdf#page=94",
+        "collection": "osool",
+        "citation": "الجزء الثالث، صفحة 339"
+      },
+      "overlapAnalysis": {
+        "duplicateInstructionCount": 0,
+        "mergedIngredientsCount": 0,
+        "totalUniqueSteps": 4,
+        "totalMasterIngredients": 4,
+        "overlapPercentage": 0,
+        "documentsPresent": [],
+        "reconciliationSummary": "وصفة من كتاب «أصول الطهي» لنظيرة نقولا وبهية عثمان، أعيدت صياغتها مع ذكر المصدر."
+      },
+      "rawDocVersions": {}
     }
   ]
 }
