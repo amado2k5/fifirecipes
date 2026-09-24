@@ -17,7 +17,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'fa', name: 'Persian', nativeName: 'فارسی', dir: 'rtl', flag: '🇮🇷' },
   { code: 'tr', name: 'Turkish', nativeName: 'Türkçe', dir: 'ltr', flag: '🇹🇷' },
   { code: 'ku', name: 'Kurdish (Kurmanji)', nativeName: 'Kurdî', dir: 'ltr', flag: '☀️' },
-  { code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia', dir: 'ltr', flag: '🇮🇩' }
+  { code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia', dir: 'ltr', flag: '🇮🇩' },
+  { code: 'sw', name: 'Swahili', nativeName: 'Kiswahili', dir: 'ltr', flag: '🇹🇿' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -75,6 +76,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'id' || (primaryCode as string) === 'in') {
       return { language: 'id', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'sw') {
+      return { language: 'sw', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
@@ -605,6 +609,32 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     shareRecipe: 'Reçeteyê Parve Bike',
     noRecipesFound: 'Tu reçete li gorî lêgerîna te nehat dîtin',
     tributeQuote: 'Xwarinçêkirin mîna lêxistina piyanoyê ye; ahenk, sebir û hezkirin wê digihînin kemalê.'
+  },
+  sw: {
+    siteTitle: 'Mapishi ya Dkt. Fatma Alkawokgy',
+    appTitle: 'Mapishi ya Dkt. Fatma Alkawokgy',
+    siteSubtitle: 'Kitabu cha Urithi wa Mapishi Asilia ya Kimisri',
+    appSubtitle: 'Kitabu cha Urithi wa Mapishi Asilia ya Kimisri',
+    allRecipes: 'Vinjari Mapishi',
+    navAllRecipes: 'Vinjari Mapishi',
+    aboutFatma: 'Kuhusu Dkt. Fatma',
+    navAboutFatma: 'Kuhusu Dkt. Fatma',
+    ingredientsRegistry: 'Orodha ya Viungo',
+    navIngredientsRegistry: 'Orodha ya Viungo',
+    choosePreferredLanguage: 'Chagua Lugha ya Tovuti',
+    searchPlaceholder: 'Tafuta mapishi, viungo, au mbinu za upishi...',
+    filterByChapter: 'Chuja kwa Sura',
+    prepTime: 'Muda wa Maandalizi',
+    cookTime: 'Muda wa Kupika',
+    servings: 'Idadi ya Walaji',
+    difficulty: 'Ugumu',
+    method: 'Njia',
+    ingredients: 'Viungo Vikuu na Vipimo Sahihi',
+    instructions: 'Maandalizi na Upishi Hatua kwa Hatua',
+    tips: 'Maelezo na Vidokezo vya Dkt. Fatma Alkawokgy',
+    shareRecipe: 'Shiriki Mapishi',
+    noRecipesFound: 'Hakuna mapishi yanayolingana na utafutaji wako',
+    tributeQuote: 'Kupika ni kama kupiga piano; upatanifu, subira na upendo huvifikisha kwenye ukamilifu.'
   }
 };
 
