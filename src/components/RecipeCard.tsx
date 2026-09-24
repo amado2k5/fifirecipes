@@ -40,7 +40,8 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
   const isEl = lang === 'el';
   const isUr = lang === 'ur';
   const isFa = lang === 'fa';
-  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string, fa: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : isFa ? fa : en);
+  const isTr = lang === 'tr';
+  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string, fa: string, tr: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : isFa ? fa : isTr ? tr : en);
   const imageUrl = getRecipeImage(recipe.id, recipe.imageUrl);
   const localized = getLocalizedRecipe(recipe, lang);
   const localizedIngredientNames = Array.from(new Set(
@@ -149,11 +150,11 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
         <div className="mt-4 pt-3 border-t border-stone-100 flex items-center justify-between text-xs">
           <div className="flex items-center gap-1 text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200/50 text-[11px]">
             <Sparkles className="w-3 h-3 text-emerald-600" />
-            <span className="font-semibold">{recipe.uniqueInstructions.length} {t('خطوة فريدة', 'steps', 'étapes', 'pasos', 'ステップ', 'चरण', 'passos', 'шагов', '步骤', 'Schritte', 'passaggi', 'βήματα', 'مراحل', 'مرحله')}</span>
+            <span className="font-semibold">{recipe.uniqueInstructions.length} {t('خطوة فريدة', 'steps', 'étapes', 'pasos', 'ステップ', 'चरण', 'passos', 'шагов', '步骤', 'Schritte', 'passaggi', 'βήματα', 'مراحل', 'مرحله', 'adım')}</span>
           </div>
 
           <span className="font-semibold text-amber-700 group-hover:text-amber-900 flex items-center gap-1">
-            <span>{t('عرض الوصفة', 'View Recipe', 'Voir la Recette', 'Ver Receta', 'レシピを見る', 'रेसिपी देखें', 'Ver Receita', 'Смотреть Рецепт', '查看食谱', 'Rezept Ansehen', 'Vedi Ricetta', 'Δείτε τη Συνταγή', 'ترکیب دیکھیں', 'مشاهده دستور')}</span>
+            <span>{t('عرض الوصفة', 'View Recipe', 'Voir la Recette', 'Ver Receta', 'レシピを見る', 'रेसिपी देखें', 'Ver Receita', 'Смотреть Рецепт', '查看食谱', 'Rezept Ansehen', 'Vedi Ricetta', 'Δείτε τη Συνταγή', 'ترکیب دیکھیں', 'مشاهده دستور', 'Tarifi Gör')}</span>
             {isRtl ? <ArrowLeft className="w-3.5 h-3.5" /> : <ArrowRight className="w-3.5 h-3.5" />}
           </span>
         </div>

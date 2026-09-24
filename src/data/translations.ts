@@ -14,7 +14,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'it', name: 'Italian', nativeName: 'Italiano', dir: 'ltr', flag: '🇮🇹' },
   { code: 'el', name: 'Greek', nativeName: 'Ελληνικά', dir: 'ltr', flag: '🇬🇷' },
   { code: 'ur', name: 'Urdu', nativeName: 'اردو', dir: 'rtl', flag: '🇵🇰' },
-  { code: 'fa', name: 'Persian', nativeName: 'فارسی', dir: 'rtl', flag: '🇮🇷' }
+  { code: 'fa', name: 'Persian', nativeName: 'فارسی', dir: 'rtl', flag: '🇮🇷' },
+  { code: 'tr', name: 'Turkish', nativeName: 'Türkçe', dir: 'ltr', flag: '🇹🇷' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -63,6 +64,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'fa') {
       return { language: 'fa', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'tr') {
+      return { language: 'tr', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
@@ -233,23 +237,30 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'Cucinare è come suonare il pianoforte: richiede armonia e passione.',
   },
   tr: {
-    siteTitle: 'Fatma Alkawokgy Yemek Tarifleri Kitabı',
-    siteSubtitle: 'Otantik Mısır Mutfağı Miras Kitabı',
-    allRecipes: 'Tüm Tarifler',
+    siteTitle: 'Dr. Fatma Alkawokgy Tarifleri',
+    appTitle: 'Dr. Fatma Alkawokgy Tarifleri',
+    siteSubtitle: 'Otantik Mısır Mutfağının Miras Yemek Kitabı',
+    appSubtitle: 'Otantik Mısır Mutfağının Miras Yemek Kitabı',
+    allRecipes: 'Tariflere Göz At',
+    navAllRecipes: 'Tariflere Göz At',
     aboutFatma: 'Dr. Fatma Hakkında',
-    searchPlaceholder: 'Tarif, malzeme veya yöntem ara...',
+    navAboutFatma: 'Dr. Fatma Hakkında',
+    ingredientsRegistry: 'Malzeme Kataloğu',
+    navIngredientsRegistry: 'Malzeme Kataloğu',
+    choosePreferredLanguage: 'Site Dilini Seçin',
+    searchPlaceholder: 'Tarif, malzeme veya pişirme tekniği ara...',
     filterByChapter: 'Bölüme Göre Filtrele',
-    prepTime: 'Hazırlık',
-    cookTime: 'Pişirme',
+    prepTime: 'Hazırlık Süresi',
+    cookTime: 'Pişirme Süresi',
     servings: 'Porsiyon',
     difficulty: 'Zorluk',
     method: 'Yöntem',
-    ingredients: 'Ana Malzemeler & Tam Ölçüler',
-    instructions: 'Adım Adım Hazırlanış',
-    tips: 'Fatma Alkawokgy İpuçları',
+    ingredients: 'Temel Malzemeler ve Kesin Ölçüler',
+    instructions: 'Adım Adım Hazırlık ve Pişirme',
+    tips: 'Dr. Fatma Alkawokgy’nin Notları ve İpuçları',
     shareRecipe: 'Tarifi Paylaş',
-    noRecipesFound: 'Tarif bulunamadı',
-    tributeQuote: 'Yemek yapmak piyano çalmak gibidir; sevgi ve uyum ister.',
+    noRecipesFound: 'Aramanızla eşleşen tarif bulunamadı',
+    tributeQuote: 'Yemek yapmak piyano çalmak gibidir; uyum, sabır ve sevgi onu mükemmelliğe taşır.',
   },
   ru: {
     siteTitle: 'Кулинарная Книга Д-ра Фатмы Алькавокджи',
