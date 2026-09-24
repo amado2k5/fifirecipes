@@ -36,7 +36,8 @@ const LAZY_TRANSLATION_LOADERS: Partial<Record<SupportedLanguage, () => Promise<
   el: () => import('../data/recipeTranslationsEl.json') as Promise<{ default: TranslationTable }>,
   ur: () => import('../data/recipeTranslationsUr.json') as Promise<{ default: TranslationTable }>,
   fa: () => import('../data/recipeTranslationsFa.json') as Promise<{ default: TranslationTable }>,
-  tr: () => import('../data/recipeTranslationsTr.json') as Promise<{ default: TranslationTable }>
+  tr: () => import('../data/recipeTranslationsTr.json') as Promise<{ default: TranslationTable }>,
+  ku: () => import('../data/recipeTranslationsKu.json') as Promise<{ default: TranslationTable }>
 };
 
 const lazyTranslationCache: Partial<Record<SupportedLanguage, TranslationTable>> = {};
@@ -188,6 +189,15 @@ const CHAPTER_NAMES_TR: Record<number, string> = {
   4: 'Bölüm 4: Hamur İşleri, Hafif Tatlılar ve İçecekler',
   5: 'Bölüm 5: Doğu Tatlıları',
   6: 'Bölüm 6: Batı Tatlıları'
+};
+
+const CHAPTER_NAMES_KU: Record<number, string> = {
+  1: 'Beş 1: Goşt, Mirîşk û Berhemên Deryayê',
+  2: 'Beş 2: Şorbe, Selete, Sebze û Lebûbiyat',
+  3: 'Beş 3: Xwarinên Nîşasteyî, Dolme û Hevîrkirî',
+  4: 'Beş 4: Hevîrkirî, Şîraniyên Sivik û Vexwarin',
+  5: 'Beş 5: Şîraniyên Rojhilatî',
+  6: 'Beş 6: Şîraniyên Rojavayî'
 };
 
 const CATEGORY_NAMES: Record<string, string> = {
@@ -568,6 +578,33 @@ const CATEGORY_NAMES_TR: Record<string, string> = {
   'مشروبات': 'İçecekler'
 };
 
+const CATEGORY_NAMES_KU: Record<string, string> = {
+  'مشروبات وآيس كريم': 'Vexwarin û Qeşa',
+  'لحوم ودواجن': 'Goşt û Mirîşk',
+  'أسماك ومأكولات بحرية': 'Masî û Berhemên Deryayê',
+  'بحريات': 'Masî û Berhemên Deryayê',
+  'لحوم وطيور': 'Goşt û Mirîşk',
+  'نشويات': 'Xwarinên Nîşasteyî',
+  'معجنات': 'Hevîrkirî',
+  'خضروات': 'Sebze',
+  'بقوليات': 'Lebûbiyat',
+  'شوربات وحساء': 'Şorbe',
+  'سلطات': 'Selete',
+  'حلويات شرقية': 'Şîraniyên Rojhilatî',
+  'حلويات غربية': 'Şîraniyên Rojavayî',
+  'نشويات ومحاشي ومعجنات': 'Xwarinên Nîşasteyî, Dolme û Hevîrkirî',
+  'شوربة وسلطات': 'Şorbe û Selete',
+  'خضروات وبقوليات': 'Sebze û Lebûbiyat',
+  'محشوات': 'Dolme',
+  'أكلات شهية': 'Xwarinên Bitam',
+  'وجبات سريعة': 'Xwarinên Bilez',
+  'فطائر حلوة': 'Hevîrkiriyên Şêrîn',
+  'حلويات خفيفة': 'Şîraniyên Sivik',
+  'خشاف': 'Xoşaf',
+  'آيس كريم': 'Qeşa (Dondurma)',
+  'مشروبات': 'Vexwarin'
+};
+
 const COOKING_METHODS: Record<string, string> = {
   'سلطات ومشروبات': 'Salads & Beverages',
   'سلق وتسبيك': 'Boiling & Slow Simmering',
@@ -790,6 +827,22 @@ const COOKING_METHODS_TR: Record<string, string> = {
   'قلي': 'Kızartma',
   'خبز': 'Fırında Pişirme',
   'حفظ وتجميد': 'Saklama ve Dondurma'
+};
+
+const COOKING_METHODS_KU: Record<string, string> = {
+  'سلطات ومشروبات': 'Selete û Vexwarin',
+  'سلق وتسبيك': 'Kelandin û Pijandina li ser Agirê Nizm',
+  'تسبيك': 'Pijandina li ser Agirê Nizm',
+  'تحمير وقلي': 'Sorkirin û Qelandin',
+  'شوي': 'Biraştin',
+  'شي': 'Biraştin',
+  'خبز وتسوية بالفرن': 'Pijandina di Firinê de',
+  'سلق': 'Kelandin',
+  'تحمير': 'Sorkirin',
+  'فرن': 'Di Firinê de',
+  'قلي': 'Qelandin',
+  'خبز': 'Pijandina di Firinê de',
+  'حفظ وتجميد': 'Parastin û Cemidandin'
 };
 
 const INGREDIENT_TERMS: Array<[string, string]> = [
@@ -1450,6 +1503,53 @@ const INGREDIENT_TERMS_TR: Array<[string, string]> = [
   ['ماء', 'su']
 ];
 
+const INGREDIENT_TERMS_KU: Array<[string, string]> = [
+  ['عرق حلاوة مدقوق (سر القرمشة الشرقية التراثية)', 'koka çovenê ya kutayî'],
+  ['خميرة بيرة طبيعية', 'hevîrtirşê teze'],
+  ['شربات بارد كثيف وجوز هند', 'şerbeta sar a tîr û gûza hindî'],
+  ['زيت غزير للقلي على مرحلتين', 'gelek rûn ji bo qelandinê'],
+  ['ماء دافئ للعجين', 'ava şilêr ji bo hevîr'],
+  ['سكر أبيض للخميرة', 'şekirê spî ji bo hevîrtirş'],
+  ['جوز هند', 'gûza hindî'],
+  ['شربات', 'şerbet'],
+  ['خروب مجروش قطع صغيرة', 'xernûba kutayî perçeyên biçûk'],
+  ['سكر أبيض للكرملة', 'şekirê spî ji bo karamelê'],
+  ['ماء نقي', 'ava paqij'],
+  ['بصل', 'pîvaz'],
+  ['ثوم', 'sîr'],
+  ['طماطم', 'bacanê sor'],
+  ['لحم مفروم', 'goştê hêrayî'],
+  ['لحم', 'goşt'],
+  ['دجاج', 'mirîşk'],
+  ['أرانب', 'kêvroşk'],
+  ['سمك', 'masî'],
+  ['جمبري', 'karîdes'],
+  ['كاليماري', 'kalamar'],
+  ['أرز', 'birinc'],
+  ['مكرونة', 'makarone'],
+  ['بطاطس', 'kartol'],
+  ['باذنجان', 'bacanê reş'],
+  ['عدس', 'nîsk'],
+  ['ملوخية', 'molexiye'],
+  ['فول', 'baqil'],
+  ['حمص', 'nok'],
+  ['دقيق', 'ard'],
+  ['سميد', 'simîd'],
+  ['نشا', 'nîşasteya garis'],
+  ['سمن بلدي', 'rûnê nivîşk ê gundî'],
+  ['سمن', 'rûnê nivîşk'],
+  ['زيت', 'rûn'],
+  ['ملح', 'xwê'],
+  ['فلفل أسود', 'îsota reş'],
+  ['كمون', 'zîre'],
+  ['كزبرة', 'gijnîj'],
+  ['قرفة', 'darçîn'],
+  ['سكر', 'şekir'],
+  ['ليمون', 'lîmon'],
+  ['خل', 'sirke'],
+  ['ماء', 'av']
+];
+
 const isArabicLocale = (lang: SupportedLanguage) => lang === 'ar';
 
 export function getLocalizedPhase(phase: string, lang: SupportedLanguage): string {
@@ -1549,6 +1649,15 @@ export function getLocalizedPhase(phase: string, lang: SupportedLanguage): strin
       cook: 'پخت',
       finish: 'سرو',
       alternative: 'روش جایگزین'
+    }[phase] || phase;
+  }
+
+  if (lang === 'ku') {
+    return {
+      prep: 'Amadekirin',
+      cook: 'Pijandin',
+      finish: 'Pêşkêşkirin',
+      alternative: 'Rêbaza alternatîf'
     }[phase] || phase;
   }
 
@@ -2079,11 +2188,39 @@ const MEASUREMENT_REPLACEMENTS_TR: Array<[string, string]> = [
   ['من', '']
 ];
 
+const MEASUREMENT_REPLACEMENTS_KU: Array<[string, string]> = [
+  ['دقائق', 'deq'],
+  ['دقيقة', 'deq'],
+  ['ساعات', 'saet'],
+  ['ساعة', 'saet'],
+  ['أكواب', 'tas'],
+  ['كوب', 'tas'],
+  ['قطع صغيرة', 'perçeyên biçûk'],
+  ['خروب', 'xernûb'],
+  ['ملاعق كبيرة', 'kevçiyê mezin'],
+  ['ملعقة كبيرة', 'kevçiyê mezin'],
+  ['ملاعق صغيرة', 'kevçiyê biçûk'],
+  ['ملعقة صغيرة', 'kevçiyê biçûk'],
+  ['كيلوغرام', 'kg'],
+  ['كيلو', 'kg'],
+  ['جرام', 'g'],
+  ['غرام', 'g'],
+  ['لتر', 'lître'],
+  ['نصف', 'nîv'],
+  ['ربع', 'çarîk'],
+  ['حسب الرغبة', 'li gorî dilxwaziyê'],
+  ['أفراد', 'kes'],
+  ['أشخاص', 'kes'],
+  ['شخص', 'kes'],
+  ['إلى', '–'],
+  ['من', '']
+];
+
 export function getLocalizedMeasurement(value: string | undefined, lang: SupportedLanguage, kind: 'time' | 'servings' | 'amount'): string | undefined {
   if (!value || isArabicLocale(lang)) return value;
 
   let translated = value.replace(/[٠-٩]/g, digit => ARABIC_DIGITS[digit] || digit);
-  const replacements = lang === 'fr' ? MEASUREMENT_REPLACEMENTS_FR : lang === 'es' ? MEASUREMENT_REPLACEMENTS_ES : lang === 'ja' ? MEASUREMENT_REPLACEMENTS_JA : lang === 'hi' ? MEASUREMENT_REPLACEMENTS_HI : lang === 'pt' ? MEASUREMENT_REPLACEMENTS_PT : lang === 'ru' ? MEASUREMENT_REPLACEMENTS_RU : lang === 'zh' ? MEASUREMENT_REPLACEMENTS_ZH : lang === 'de' ? MEASUREMENT_REPLACEMENTS_DE : lang === 'it' ? MEASUREMENT_REPLACEMENTS_IT : lang === 'el' ? MEASUREMENT_REPLACEMENTS_EL : lang === 'ur' ? MEASUREMENT_REPLACEMENTS_UR : lang === 'fa' ? MEASUREMENT_REPLACEMENTS_FA : lang === 'tr' ? MEASUREMENT_REPLACEMENTS_TR : MEASUREMENT_REPLACEMENTS_EN;
+  const replacements = lang === 'fr' ? MEASUREMENT_REPLACEMENTS_FR : lang === 'es' ? MEASUREMENT_REPLACEMENTS_ES : lang === 'ja' ? MEASUREMENT_REPLACEMENTS_JA : lang === 'hi' ? MEASUREMENT_REPLACEMENTS_HI : lang === 'pt' ? MEASUREMENT_REPLACEMENTS_PT : lang === 'ru' ? MEASUREMENT_REPLACEMENTS_RU : lang === 'zh' ? MEASUREMENT_REPLACEMENTS_ZH : lang === 'de' ? MEASUREMENT_REPLACEMENTS_DE : lang === 'it' ? MEASUREMENT_REPLACEMENTS_IT : lang === 'el' ? MEASUREMENT_REPLACEMENTS_EL : lang === 'ur' ? MEASUREMENT_REPLACEMENTS_UR : lang === 'fa' ? MEASUREMENT_REPLACEMENTS_FA : lang === 'tr' ? MEASUREMENT_REPLACEMENTS_TR : lang === 'ku' ? MEASUREMENT_REPLACEMENTS_KU : MEASUREMENT_REPLACEMENTS_EN;
   // Urdu and Persian are written in the same script as the Arabic source, so
   // the cleanup below that drops untranslated Arabic words would also erase
   // their terms. Park each such term behind a placeholder until that has run.
@@ -2104,7 +2241,7 @@ export function getLocalizedMeasurement(value: string | undefined, lang: Support
     .trim();
 
   if (kind === 'time' && /^\d[\d\s-]*$/.test(translated.trim())) {
-    return `${translated.trim()} ${lang === 'ur' ? 'منٹ' : lang === 'fa' ? 'دقیقه' : lang === 'tr' ? 'dk' : 'min'}`;
+    return `${translated.trim()} ${lang === 'ur' ? 'منٹ' : lang === 'fa' ? 'دقیقه' : lang === 'tr' ? 'dk' : lang === 'ku' ? 'deq' : 'min'}`;
   }
   return translated.trim();
 }
@@ -2126,10 +2263,10 @@ export function getLocalizedRecipe(recipe: Recipe, lang: SupportedLanguage) {
     };
   }
 
-  const chapterNames = lang === 'fr' ? CHAPTER_NAMES_FR : lang === 'es' ? CHAPTER_NAMES_ES : lang === 'ja' ? CHAPTER_NAMES_JA : lang === 'hi' ? CHAPTER_NAMES_HI : lang === 'pt' ? CHAPTER_NAMES_PT : lang === 'ru' ? CHAPTER_NAMES_RU : lang === 'zh' ? CHAPTER_NAMES_ZH : lang === 'de' ? CHAPTER_NAMES_DE : lang === 'it' ? CHAPTER_NAMES_IT : lang === 'el' ? CHAPTER_NAMES_EL : lang === 'ur' ? CHAPTER_NAMES_UR : lang === 'fa' ? CHAPTER_NAMES_FA : lang === 'tr' ? CHAPTER_NAMES_TR : CHAPTER_NAMES;
-  const categoryNames = lang === 'fr' ? CATEGORY_NAMES_FR : lang === 'es' ? CATEGORY_NAMES_ES : lang === 'ja' ? CATEGORY_NAMES_JA : lang === 'hi' ? CATEGORY_NAMES_HI : lang === 'pt' ? CATEGORY_NAMES_PT : lang === 'ru' ? CATEGORY_NAMES_RU : lang === 'zh' ? CATEGORY_NAMES_ZH : lang === 'de' ? CATEGORY_NAMES_DE : lang === 'it' ? CATEGORY_NAMES_IT : lang === 'el' ? CATEGORY_NAMES_EL : lang === 'ur' ? CATEGORY_NAMES_UR : lang === 'fa' ? CATEGORY_NAMES_FA : lang === 'tr' ? CATEGORY_NAMES_TR : CATEGORY_NAMES;
-  const cookingMethods = lang === 'fr' ? COOKING_METHODS_FR : lang === 'es' ? COOKING_METHODS_ES : lang === 'ja' ? COOKING_METHODS_JA : lang === 'hi' ? COOKING_METHODS_HI : lang === 'pt' ? COOKING_METHODS_PT : lang === 'ru' ? COOKING_METHODS_RU : lang === 'zh' ? COOKING_METHODS_ZH : lang === 'de' ? COOKING_METHODS_DE : lang === 'it' ? COOKING_METHODS_IT : lang === 'el' ? COOKING_METHODS_EL : lang === 'ur' ? COOKING_METHODS_UR : lang === 'fa' ? COOKING_METHODS_FA : lang === 'tr' ? COOKING_METHODS_TR : COOKING_METHODS;
-  const traditionalCookingLabel = lang === 'fr' ? 'Cuisine traditionnelle' : lang === 'es' ? 'Cocina tradicional' : lang === 'ja' ? '伝統的な調理法' : lang === 'hi' ? 'पारंपरिक पाककला' : lang === 'pt' ? 'Culinária tradicional' : lang === 'ru' ? 'Традиционное приготовление' : lang === 'zh' ? '传统烹饪' : lang === 'de' ? 'Traditionelle Küche' : lang === 'it' ? 'Cucina tradizionale' : lang === 'ur' ? 'روایتی طریقہ' : lang === 'fa' ? 'آشپزی سنتی' : lang === 'tr' ? 'Geleneksel pişirme' : 'Traditional cooking';
+  const chapterNames = lang === 'fr' ? CHAPTER_NAMES_FR : lang === 'es' ? CHAPTER_NAMES_ES : lang === 'ja' ? CHAPTER_NAMES_JA : lang === 'hi' ? CHAPTER_NAMES_HI : lang === 'pt' ? CHAPTER_NAMES_PT : lang === 'ru' ? CHAPTER_NAMES_RU : lang === 'zh' ? CHAPTER_NAMES_ZH : lang === 'de' ? CHAPTER_NAMES_DE : lang === 'it' ? CHAPTER_NAMES_IT : lang === 'el' ? CHAPTER_NAMES_EL : lang === 'ur' ? CHAPTER_NAMES_UR : lang === 'fa' ? CHAPTER_NAMES_FA : lang === 'tr' ? CHAPTER_NAMES_TR : lang === 'ku' ? CHAPTER_NAMES_KU : CHAPTER_NAMES;
+  const categoryNames = lang === 'fr' ? CATEGORY_NAMES_FR : lang === 'es' ? CATEGORY_NAMES_ES : lang === 'ja' ? CATEGORY_NAMES_JA : lang === 'hi' ? CATEGORY_NAMES_HI : lang === 'pt' ? CATEGORY_NAMES_PT : lang === 'ru' ? CATEGORY_NAMES_RU : lang === 'zh' ? CATEGORY_NAMES_ZH : lang === 'de' ? CATEGORY_NAMES_DE : lang === 'it' ? CATEGORY_NAMES_IT : lang === 'el' ? CATEGORY_NAMES_EL : lang === 'ur' ? CATEGORY_NAMES_UR : lang === 'fa' ? CATEGORY_NAMES_FA : lang === 'tr' ? CATEGORY_NAMES_TR : lang === 'ku' ? CATEGORY_NAMES_KU : CATEGORY_NAMES;
+  const cookingMethods = lang === 'fr' ? COOKING_METHODS_FR : lang === 'es' ? COOKING_METHODS_ES : lang === 'ja' ? COOKING_METHODS_JA : lang === 'hi' ? COOKING_METHODS_HI : lang === 'pt' ? COOKING_METHODS_PT : lang === 'ru' ? COOKING_METHODS_RU : lang === 'zh' ? COOKING_METHODS_ZH : lang === 'de' ? COOKING_METHODS_DE : lang === 'it' ? COOKING_METHODS_IT : lang === 'el' ? COOKING_METHODS_EL : lang === 'ur' ? COOKING_METHODS_UR : lang === 'fa' ? COOKING_METHODS_FA : lang === 'tr' ? COOKING_METHODS_TR : lang === 'ku' ? COOKING_METHODS_KU : COOKING_METHODS;
+  const traditionalCookingLabel = lang === 'fr' ? 'Cuisine traditionnelle' : lang === 'es' ? 'Cocina tradicional' : lang === 'ja' ? '伝統的な調理法' : lang === 'hi' ? 'पारंपरिक पाककला' : lang === 'pt' ? 'Culinária tradicional' : lang === 'ru' ? 'Традиционное приготовление' : lang === 'zh' ? '传统烹饪' : lang === 'de' ? 'Traditionelle Küche' : lang === 'it' ? 'Cucina tradizionale' : lang === 'ur' ? 'روایتی طریقہ' : lang === 'fa' ? 'آشپزی سنتی' : lang === 'tr' ? 'Geleneksel pişirme' : lang === 'ku' ? 'Pijandina kevneşopî' : 'Traditional cooking';
 
   return {
     title: translation?.title || generated?.title || recipe.titleEn || recipe.title,
@@ -2324,6 +2461,20 @@ export function getLocalizedIngredient(ingredient: Pick<MasterIngredient, 'name'
       .replace(/\s{2,}/g, ' ')
       .trim();
     return translated || ingredient.nameEn || 'Malzeme';
+  }
+
+  if (lang === 'ku') {
+    let translated = ingredient.name;
+    for (const [arabic, kurdish] of INGREDIENT_TERMS_KU) {
+      translated = translated.replaceAll(arabic, kurdish);
+    }
+    translated = translated
+      .replace(/[؀-ۿ]+/g, '')
+      .replace(/\(\s*[\/:|,-]*\s*\)/g, '')
+      .replace(/\s*[\/:|,-]\s*(?=\s|$)/g, '')
+      .replace(/\s{2,}/g, ' ')
+      .trim();
+    return translated || ingredient.nameEn || 'Pêkhate';
   }
 
   if (ingredient.nameEn) return ingredient.nameEn;

@@ -93,7 +93,7 @@ export interface Recipe {
 
 export type SupportedLanguage = 
   | 'ar' | 'en' | 'fr' | 'es' | 'de' | 'it' | 'tr' | 'ru' | 'pt' | 'ja' 
-  | 'zh' | 'hi' | 'ko' | 'id' | 'fa' | 'el' | 'nl' | 'pl' | 'sv' | 'ur';
+  | 'zh' | 'hi' | 'ko' | 'id' | 'fa' | 'el' | 'nl' | 'pl' | 'sv' | 'ur' | 'ku';
 
 export interface LanguageInfo {
   code: SupportedLanguage;
