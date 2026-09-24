@@ -12,6 +12,7 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'zh', name: 'Chinese', nativeName: '中文', dir: 'ltr', flag: '🇨🇳' },
   { code: 'de', name: 'German', nativeName: 'Deutsch', dir: 'ltr', flag: '🇩🇪' },
   { code: 'it', name: 'Italian', nativeName: 'Italiano', dir: 'ltr', flag: '🇮🇹' },
+  { code: 'el', name: 'Greek', nativeName: 'Ελληνικά', dir: 'ltr', flag: '🇬🇷' },
   { code: 'ur', name: 'Urdu', nativeName: 'اردو', dir: 'rtl', flag: '🇵🇰' }
 ];
 
@@ -52,6 +53,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'it') {
       return { language: 'it', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'el') {
+      return { language: 'el', isKnown: true, rawLocale };
     }
     if (primaryCode === 'ur') {
       return { language: 'ur', isKnown: true, rawLocale };
@@ -431,23 +435,30 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     tributeQuote: 'آشپزی مانند نواختن پیانو است؛ به هماهنگی، صبوری و عشق نیاز دارد.',
   },
   el: {
-    siteTitle: 'Βιβλίο Μαγειρικής Δρ. Φάτμα Αλκαουόκτζι',
-    siteSubtitle: 'Η Αυθεντική Αιγυπτιακή Γαστρονομική Κληρονομιά',
-    allRecipes: 'Όλες οι Συνταγές',
+    siteTitle: 'Βιβλίο Συνταγών Δρ. Φάτμα Αλκαουόκτζι',
+    appTitle: 'Βιβλίο Συνταγών Δρ. Φάτμα Αλκαουόκτζι',
+    siteSubtitle: 'Το Παραδοσιακό Βιβλίο της Αυθεντικής Αιγυπτιακής Κουζίνας',
+    appSubtitle: 'Το Παραδοσιακό Βιβλίο της Αυθεντικής Αιγυπτιακής Κουζίνας',
+    allRecipes: 'Περιήγηση στις Συνταγές',
+    navAllRecipes: 'Περιήγηση στις Συνταγές',
     aboutFatma: 'Σχετικά με τη Δρ. Φάτμα',
-    searchPlaceholder: 'Αναζήτηση συνταγής, υλικών...',
-    filterByChapter: 'Φίλτρο ανά Ενότητα',
-    prepTime: 'Προετοιμασία',
-    cookTime: 'Μαγείρεμα',
+    navAboutFatma: 'Σχετικά με τη Δρ. Φάτμα',
+    ingredientsRegistry: 'Ευρετήριο Υλικών',
+    navIngredientsRegistry: 'Ευρετήριο Υλικών',
+    choosePreferredLanguage: 'Επιλέξτε τη Γλώσσα του Ιστότοπου',
+    searchPlaceholder: 'Αναζήτηση συνταγής, υλικού ή τεχνικής μαγειρέματος...',
+    filterByChapter: 'Φιλτράρισμα ανά Κεφάλαιο',
+    prepTime: 'Χρόνος Προετοιμασίας',
+    cookTime: 'Χρόνος Μαγειρέματος',
     servings: 'Μερίδες',
     difficulty: 'Δυσκολία',
     method: 'Μέθοδος',
-    ingredients: 'Κύρια Υλικά & Ακριβείς Αναλογίες',
+    ingredients: 'Βασικά Υλικά & Ακριβείς Αναλογίες',
     instructions: 'Οδηγίες Βήμα προς Βήμα',
-    tips: 'Συμβουλές & Σημειώσεις',
-    shareRecipe: 'Κοινοποίηση',
-    noRecipesFound: 'Δεν βρέθηκαν συνταγές',
-    tributeQuote: 'Η μαγειρική είναι σαν το πιάνο: απαιτεί αρμονία και υπομονή.',
+    tips: 'Συμβουλές & Σημειώσεις της Δρ. Φάτμα Αλκαουόκτζι',
+    shareRecipe: 'Κοινοποίηση Συνταγής',
+    noRecipesFound: 'Δεν βρέθηκαν συνταγές που να ταιριάζουν με την αναζήτησή σας',
+    tributeQuote: 'Το μαγείρεμα μοιάζει με το πιάνο· ολοκληρώνεται μόνο με ειλικρινή αρμονία, υπομονή και αγάπη για τον εαυτό μας.',
   },
   nl: {
     siteTitle: 'Kookboek Dr. Fatma Alkawokgy',

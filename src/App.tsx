@@ -61,8 +61,9 @@ export default function App() {
   const isZh = lang === 'zh';
   const isDe = lang === 'de';
   const isIt = lang === 'it';
+  const isEl = lang === 'el';
   const isUr = lang === 'ur';
-  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, ur: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isUr ? ur : en);
+  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : en);
 
   // Master Recipes (static public archive)
   const recipes = allRecipes;
@@ -108,7 +109,7 @@ export default function App() {
       await navigator.share(shareData).catch(() => undefined);
     } else {
       await navigator.clipboard.writeText(url.toString());
-      setNotification({ message: t('تم نسخ رابط الموقع', 'Site link copied', 'Lien du site copié', 'Enlace del sitio copiado', 'サイトのリンクをコピーしました', 'साइट लिंक कॉपी हो गया', 'Link do site copiado', 'Ссылка на сайт скопирована', '网站链接已复制', 'Website-Link kopiert', 'Link del sito copiato', 'سائٹ کا لنک کاپی ہو گیا'), type: 'success' });
+      setNotification({ message: t('تم نسخ رابط الموقع', 'Site link copied', 'Lien du site copié', 'Enlace del sitio copiado', 'サイトのリンクをコピーしました', 'साइट लिंक कॉपी हो गया', 'Link do site copiado', 'Ссылка на сайт скопирована', '网站链接已复制', 'Website-Link kopiert', 'Link del sito copiato', 'Ο σύνδεσμος του ιστοτόπου αντιγράφηκε', 'سائٹ کا لنک کاپی ہو گیا'), type: 'success' });
       setTimeout(() => setNotification(null), 3500);
     }
   };
@@ -117,7 +118,7 @@ export default function App() {
     const title = getLocalizedRecipe(recipe, lang).title;
     const result = await shareRecipe(recipe, lang, title);
     if (result.copied) {
-      setNotification({ message: t('تم نسخ رابط الوصفة', 'Recipe link copied', 'Lien de la recette copié', 'Enlace de la receta copiado', 'レシピのリンクをコピーしました', 'रेसिपी लिंक कॉपी हो गया', 'Link da receita copiado', 'Ссылка на рецепт скопирована', '食谱链接已复制', 'Rezept-Link kopiert', 'Link della ricetta copiato', 'ترکیب کا لنک کاپی ہو گیا'), type: 'success' });
+      setNotification({ message: t('تم نسخ رابط الوصفة', 'Recipe link copied', 'Lien de la recette copié', 'Enlace de la receta copiado', 'レシピのリンクをコピーしました', 'रेसिपी लिंक कॉपी हो गया', 'Link da receita copiado', 'Ссылка на рецепт скопирована', '食谱链接已复制', 'Rezept-Link kopiert', 'Link della ricetta copiato', 'Ο σύνδεσμος της συνταγής αντιγράφηκε', 'ترکیب کا لنک کاپی ہو گیا'), type: 'success' });
       setTimeout(() => setNotification(null), 3500);
     }
   };
@@ -135,6 +136,7 @@ export default function App() {
       '[fifi.cooking] 关于法特玛·卡沃克吉食谱网站的反馈',
       '[fifi.cooking] Feedback zur Fatma-Alkawokgy-Rezeptseite',
       '[fifi.cooking] Feedback sul sito delle ricette di Fatma Alkawokgy',
+      '[fifi.cooking] Σχόλια για τον ιστότοπο συνταγών της Φάτμα Αλκαβοκτζή',
       '[fifi.cooking] فاطمہ القاوقجی کی ترکیبوں کی سائٹ کے بارے میں رائے'
     );
     const body = t(
@@ -149,6 +151,7 @@ export default function App() {
       '您好，\n\n我想反馈以下问题、意见或建议：\n\n',
       'Hallo,\n\nIch möchte folgende Frage, Anmerkung oder Problem mitteilen:\n\n',
       'Ciao,\n\nVorrei condividere la seguente domanda, commento o problema:\n\n',
+      'Γεια σας,\n\nΘα ήθελα να μοιραστώ την παρακάτω ερώτηση, σχόλιο ή πρόβλημα:\n\n',
       'السلام علیکم،\n\nمیں درج ذیل سوال، رائے یا مسئلہ شیئر کرنا چاہتا/چاہتی ہوں:\n\n'
     );
     window.location.href = `mailto:${FEEDBACK_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
@@ -295,6 +298,7 @@ export default function App() {
                     '法特玛·卡沃克吉博士的美食档案(1943–2026年)• 钢琴博士，开罗',
                     'Das kulinarische Erbe von Dr. Fatma Alkawokgy (1943–2026) • Doktortitel in Klavier, Kairo',
                     'L’Archivio Culinario della Dott.ssa Fatma Alkawokgy (1943–2026) • Dottorato in Pianoforte, Il Cairo',
+                    'Η Γαστρονομική Κληρονομιά της Δρ. Φάτμα Αλκαβοκτζή (1943–2026) • Διδακτορικό στο Πιάνο, Κάιρο',
                     'ڈاکٹر فاطمہ القاوقجی (1943–2026) کا کھانوں کا ذخیرہ • پیانو میں ڈاکٹریٹ، قاہرہ'
                   )}
                 </span>
@@ -306,7 +310,7 @@ export default function App() {
               className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-stone-700 bg-stone-50 hover:bg-stone-100 rounded-xl transition-colors border border-stone-200"
             >
               <Mail className="w-3.5 h-3.5 text-amber-700" />
-              <span>{t('أسئلة أو ملاحظات أو مشاكل؟ أرسل ملاحظاتك', 'Questions, comments, or issues? Submit feedback', 'Questions, commentaires ou problèmes ? Envoyez vos remarques', '¿Preguntas, comentarios o problemas? Envía tus comentarios', 'ご質問・ご意見・不具合の報告はこちら', 'सवाल, टिप्पणी या समस्या? प्रतिक्रिया भेजें', 'Dúvidas, comentários ou problemas? Envie seu feedback', 'Вопросы, комментарии или проблемы? Отправьте отзыв', '有问题、意见或建议？请提交反馈', 'Fragen, Anmerkungen oder Probleme? Feedback senden', 'Domande, commenti o problemi? Invia un feedback', 'سوالات، رائے یا مسائل؟ اپنی رائے بھیجیں')}</span>
+              <span>{t('أسئلة أو ملاحظات أو مشاكل؟ أرسل ملاحظاتك', 'Questions, comments, or issues? Submit feedback', 'Questions, commentaires ou problèmes ? Envoyez vos remarques', '¿Preguntas, comentarios o problemas? Envía tus comentarios', 'ご質問・ご意見・不具合の報告はこちら', 'सवाल, टिप्पणी या समस्या? प्रतिक्रिया भेजें', 'Dúvidas, comentários ou problemas? Envie seu feedback', 'Вопросы, комментарии или проблемы? Отправьте отзыв', '有问题、意见或建议？请提交反馈', 'Fragen, Anmerkungen oder Probleme? Feedback senden', 'Domande, commenti o problemi? Invia un feedback', 'Ερωτήσεις, σχόλια ή προβλήματα; Στείλτε τα σχόλιά σας', 'سوالات، رائے یا مسائل؟ اپنی رائے بھیجیں')}</span>
             </button>
           </div>
 
@@ -325,6 +329,7 @@ export default function App() {
                   '法特玛·卡沃克吉博士的美食与艺术遗产版权所有。',
                   'Alle Rechte am kulinarischen und künstlerischen Erbe von Dr. Fatma Alkawokgy vorbehalten.',
                   'Tutti i diritti riservati all’eredità culinaria e artistica della Dott.ssa Fatma Alkawokgy.',
+                  'Με επιφύλαξη όλων των δικαιωμάτων επί της γαστρονομικής και καλλιτεχνικής κληρονομιάς της Δρ. Φάτμα Αλκαβοκτζή.',
                   'ڈاکٹر فاطمہ القاوقجی کے کھانوں اور فن کے ورثے کے جملہ حقوق محفوظ ہیں۔'
                 )}
               </p>
@@ -347,15 +352,16 @@ export default function App() {
                     '本内容任何人均可免费使用、复制、转载和再发布，形式不限，地点不限，没有任何限制。',
                     'Dieser Inhalt darf von jedem frei verwendet, kopiert, vervielfältigt und in jeder Form und an jedem Ort ohne Einschränkungen weiterveröffentlicht werden.',
                     'Questo contenuto è liberamente utilizzabile da chiunque: può essere usato, copiato, riprodotto e ripubblicato in qualsiasi forma e ovunque, senza alcuna limitazione.',
+                    'Αυτό το περιεχόμενο διατίθεται ελεύθερα σε όλους για χρήση, αντιγραφή, αναπαραγωγή και αναδημοσίευση σε οποιαδήποτε μορφή, οπουδήποτε, χωρίς κανέναν περιορισμό.',
                     'یہ مواد ہر کسی کے لیے مفت ہے: اسے کسی بھی شکل میں، کہیں بھی، بغیر کسی پابندی کے استعمال، کاپی، نقل اور دوبارہ شائع کیا جا سکتا ہے۔'
                   )}
                 </a>
               </p>
             </div>
             <div className="flex items-center gap-2">
-              <span>{t('العربية والإنجليزية والفرنسية والإسبانية واليابانية والهندية والبرتغالية والروسية والصينية والألمانية والإيطالية والأردية مدعومة', 'Arabic, English, French, Spanish, Japanese, Hindi, Portuguese, Russian, Chinese, German, Italian, and Urdu supported', 'Arabe, anglais, français, espagnol, japonais, hindi, portugais, russe, chinois, allemand, italien et ourdou pris en charge', 'Árabe, inglés, francés, español, japonés, hindi, portugués, ruso, chino, alemán, italiano y urdu disponibles', 'アラビア語・英語・フランス語・スペイン語・日本語・ヒンディー語・ポルトガル語・ロシア語・中国語・ドイツ語・イタリア語・ウルドゥー語に対応', 'अरबी, अंग्रेज़ी, फ़्रेंच, स्पेनिश, जापानी, हिन्दी, पुर्तगाली, रूसी, चीनी, जर्मन, इतालवी और उर्दू उपलब्ध', 'Suporte para árabe, inglês, francês, espanhol, japonês, hindi, português, russo, chinês, alemão, italiano e urdu', 'Поддержка арабского, английского, французского, испанского, японского, хинди, португальского, русского, китайского, немецкого, итальянского и урду', '支持阿拉伯语、英语、法语、西班牙语、日语、印地语、葡萄牙语、俄语、中文、德语、意大利语和乌尔都语', 'Unterstützung für Arabisch, Englisch, Französisch, Spanisch, Japanisch, Hindi, Portugiesisch, Russisch, Chinesisch, Deutsch, Italienisch und Urdu', 'Supporto per arabo, inglese, francese, spagnolo, giapponese, hindi, portoghese, russo, cinese, tedesco, italiano e urdu', 'عربی، انگریزی، فرانسیسی، ہسپانوی، جاپانی، ہندی، پرتگالی، روسی، چینی، جرمن، اطالوی اور اردو دستیاب')}</span>
+              <span>{t('العربية والإنجليزية والفرنسية والإسبانية واليابانية والهندية والبرتغالية والروسية والصينية والألمانية والإيطالية واليونانية والأردية مدعومة', 'Arabic, English, French, Spanish, Japanese, Hindi, Portuguese, Russian, Chinese, German, Italian, Greek, and Urdu supported', 'Arabe, anglais, français, espagnol, japonais, hindi, portugais, russe, chinois, allemand, italien, grec et ourdou pris en charge', 'Árabe, inglés, francés, español, japonés, hindi, portugués, ruso, chino, alemán, italiano, griego y urdu disponibles', 'アラビア語・英語・フランス語・スペイン語・日本語・ヒンディー語・ポルトガル語・ロシア語・中国語・ドイツ語・イタリア語・ギリシャ語・ウルドゥー語に対応', 'अरबी, अंग्रेज़ी, फ़्रेंच, स्पेनिश, जापानी, हिन्दी, पुर्तगाली, रूसी, चीनी, जर्मन, इतालवी, यूनानी और उर्दू उपलब्ध', 'Suporte para árabe, inglês, francês, espanhol, japonês, hindi, português, russo, chinês, alemão, italiano, grego e urdu', 'Поддержка арабского, английского, французского, испанского, японского, хинди, португальского, русского, китайского, немецкого, итальянского, греческого и урду', '支持阿拉伯语、英语、法语、西班牙语、日语、印地语、葡萄牙语、俄语、中文、德语、意大利语、希腊语和乌尔都语', 'Unterstützung für Arabisch, Englisch, Französisch, Spanisch, Japanisch, Hindi, Portugiesisch, Russisch, Chinesisch, Deutsch, Italienisch, Griechisch und Urdu', 'Supporto per arabo, inglese, francese, spagnolo, giapponese, hindi, portoghese, russo, cinese, tedesco, italiano, greco e urdu', 'Υποστήριξη αραβικών, αγγλικών, γαλλικών, ισπανικών, ιαπωνικών, χίντι, πορτογαλικών, ρωσικών, κινεζικών, γερμανικών, ιταλικών, ελληνικών και ουρντού', 'عربی، انگریزی، فرانسیسی، ہسپانوی، جاپانی، ہندی، پرتگالی، روسی، چینی، جرمن، اطالوی، یونانی اور اردو دستیاب')}</span>
               <span>•</span>
-              <span>{t('مشاركة الوصفة الفردية مفعّلة', 'Single-Recipe Sharing Enabled', 'Partage de Recette Individuelle Activé', 'Compartir Receta Individual Habilitado', '個別レシピの共有が可能', 'एकल रेसिपी साझा करने की सुविधा उपलब्ध', 'Compartilhamento de receita individual habilitado', 'Доступен обмен ссылкой на отдельный рецепт', '支持单个食谱分享', 'Teilen einzelner Rezepte aktiviert', 'Condivisione della singola ricetta attiva', 'انفرادی ترکیب شیئر کرنے کی سہولت دستیاب')}</span>
+              <span>{t('مشاركة الوصفة الفردية مفعّلة', 'Single-Recipe Sharing Enabled', 'Partage de Recette Individuelle Activé', 'Compartir Receta Individual Habilitado', '個別レシピの共有が可能', 'एकल रेसिपी साझा करने की सुविधा उपलब्ध', 'Compartilhamento de receita individual habilitado', 'Доступен обмен ссылкой на отдельный рецепт', '支持单个食谱分享', 'Teilen einzelner Rezepte aktiviert', 'Condivisione della singola ricetta attiva', 'Ενεργοποιημένη κοινή χρήση μεμονωμένης συνταγής', 'انفرادی ترکیب شیئر کرنے کی سہولت دستیاب')}</span>
             </div>
           </div>
         </div>
