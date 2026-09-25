@@ -8,7 +8,8 @@ import type { SupportedLanguage } from '../types';
  */
 export const KIDS_TOGGLE_LABELS: Partial<Record<SupportedLanguage, { grownUps: string; kids: string }>> = {
   ar: { grownUps: 'مطبخ الكبار', kids: 'الطبخ مع الأطفال' },
-  en: { grownUps: 'Grown-ups', kids: 'Cooking with Kids' }
+  en: { grownUps: 'Grown-ups', kids: 'Cooking with Kids' },
+  fr: { grownUps: 'Les grands', kids: 'Cuisiner avec les enfants' }
 };
 
 export const hasKidsMode = (lang: SupportedLanguage) => lang in KIDS_TOGGLE_LABELS;

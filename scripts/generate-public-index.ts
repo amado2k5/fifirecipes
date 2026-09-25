@@ -38,7 +38,7 @@ import { KIDS_RECIPES } from '../src/data/kids/recipes';
 import { KIDS_TOGGLE_LABELS } from '../src/kids/languages';
 import { hasArt } from '../src/kids/art';
 import { SCENES } from '../src/kids/KidsArt';
-import { getKidsStrings } from '../src/kids/strings';
+import { getKidsStrings, registerKidsStrings, type KidsStrings } from '../src/kids/strings';
 import { kidsRecipeCard, localizeKidsRecipe, type KidsRecipeTranslation } from '../src/kids/localize';
 
 const siteUrl = (process.env.PUBLIC_SITE_URL || 'https://fifi.cooking').replace(/\/$/, '');
@@ -212,11 +212,23 @@ for (const recipe of orderedRecipes) {
     } catch {
       // Arabic and English live in recipes.ts itself.
     }
+    if (lang !== 'ar' && lang !== 'en') {
+      try {
+        registerKidsStrings(lang, (await import(`../src/kids/i18n/${lang}.ts`) as { default: KidsStrings }).default);
+      } catch {
+        problems.push(`${lang}: no src/kids/i18n/${lang}.ts`);
+        continue;
+      }
+    }
     const toolNames = getKidsStrings(lang).toolNames;
     const cards = [];
     for (const recipe of KIDS_RECIPES) {
       for (const tool of recipe.tools) if (!toolNames[tool]) problems.push(`${lang}: no name for tool "${tool}"`);
-      const localized = localizeKidsRecipe(recipe, lang, translations[recipe.id]);
+      const translation = translations[recipe.id];
+      if (translation && (translation.ingredients.length !== recipe.ingredients.length || translation.steps.length !== recipe.steps.length)) {
+        problems.push(`${recipe.id} (${lang}): translation has ${translation.ingredients.length} ingredients and ${translation.steps.length} steps, recipe has ${recipe.ingredients.length} and ${recipe.steps.length}`);
+      }
+      const localized = localizeKidsRecipe(recipe, lang, translation);
       if (Array.isArray(localized)) {
         problems.push(`${recipe.id} (${lang}): missing ${localized.join(', ')}`);
         continue;
