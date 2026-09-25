@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { RecipeSummary, SupportedLanguage } from '../types';
 import {
   Flame,
@@ -10,7 +10,7 @@ import {
   Share2,
   Loader2
 } from 'lucide-react';
-import { getRecipeImage } from '../data/recipeImages';
+import { getRecipeThumbnail } from '../data/recipeImages';
 import { getUIText } from '../data/translations';
 import { getAdditionalRecipesText } from '../data/additionalRecipesText';
 import { getLocalizedIngredient, getLocalizedRecipe } from '../utils/recipeLocalization';
@@ -54,7 +54,27 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
   const isSw = lang === 'sw';
   const isKo = lang === 'ko';
   const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string, fa: string, tr: string, ku: string, id: string, sw: string, ko: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : isFa ? fa : isTr ? tr : isKu ? ku : isId ? id : isSw ? sw : isKo ? ko : en);
-  const imageUrl = getRecipeImage(recipe.id, recipe.imageUrl);
+  const imageUrl = getRecipeThumbnail(recipe.id, recipe.imageUrl);
+
+  // The photo is requested only while the card is near the viewport, and the
+  // request is dropped if the card leaves before it finishes. With native
+  // lazy loading, every card flicked past during a fast scroll kept its
+  // download going, so on slow connections the cards the reader stopped on
+  // waited behind all of them.
+  const imageBoxRef = useRef<HTMLDivElement>(null);
+  const [nearViewport, setNearViewport] = useState(() => typeof IntersectionObserver === 'undefined');
+  const [loadedUrl, setLoadedUrl] = useState<string | null>(null);
+  const imageLoaded = loadedUrl === imageUrl;
+  useEffect(() => {
+    const box = imageBoxRef.current;
+    if (!box || imageLoaded || typeof IntersectionObserver === 'undefined') return;
+    const observer = new IntersectionObserver(
+      entries => setNearViewport(entries[entries.length - 1].isIntersecting),
+      { rootMargin: '50% 0px' }
+    );
+    observer.observe(box);
+    return () => observer.disconnect();
+  }, [imageLoaded]);
   const localized = getLocalizedRecipe(recipe, lang);
   const localizedIngredientNames = Array.from(new Set(
     recipe.previewIngredients.map(ingredient => getLocalizedIngredient(ingredient, lang, recipe.id))
@@ -74,19 +94,17 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
       role="button"
       tabIndex={0}
       aria-busy={isOpening}
-      // Off-screen cards skip layout and paint until they scroll near the viewport.
-      style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 26rem' }}
       className="bg-white rounded-2xl border border-stone-200/90 shadow-2xs hover:shadow-xl hover:border-amber-400/90 transition-all duration-300 cursor-pointer flex flex-col justify-between group overflow-hidden"
     >
       {/* Visual Photography Header */}
-      <div className="relative h-48 w-full overflow-hidden bg-stone-100">
+      <div ref={imageBoxRef} className="relative h-48 w-full overflow-hidden bg-stone-100">
         <img
-          src={imageUrl}
+          src={nearViewport || imageLoaded ? imageUrl : undefined}
           alt={localized.title}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           referrerPolicy="no-referrer"
-          loading="lazy"
           decoding="async"
+          onLoad={() => setLoadedUrl(imageUrl)}
         />
         {isOpening && (
           <div className="absolute inset-0 z-20 flex items-center justify-center bg-white/40 backdrop-blur-[1px]">

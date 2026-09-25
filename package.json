@@ -11,7 +11,8 @@
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
     "lint": "tsc --noEmit",
-    "indexnow": "tsx scripts/submit-indexnow.ts"
+    "indexnow": "tsx scripts/submit-indexnow.ts",
+    "thumbnails": "tsx scripts/generate-thumbnails.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
@@ -31,6 +32,7 @@
     "@types/react-dom": "^19.3.0",
     "autoprefixer": "^10.4.21",
     "esbuild": "^0.25.0",
+    "sharp": "^0.35.4",
     "tailwindcss": "^4.3.3",
     "tsx": "^4.21.0",
     "typescript": "^7.0.2"
