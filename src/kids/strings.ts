@@ -141,7 +141,21 @@ const ar: KidsStrings = {
     'cookie-cutter': 'قطاعة بسكويت',
     'ice-pop-mold': 'قوالب مصاصات',
     'paper-cup': 'أكواب ورقية',
-    stove: 'بوتاجاز'
+    stove: 'بوتاجاز',
+    toaster: 'محمصة خبز',
+    mug: 'مج',
+    'muffin-tin': 'قالب مافن',
+    'cookie-mold': 'منقاش أو قالب',
+    ladle: 'مغرفة',
+    strainer: 'مصفاة',
+    pitcher: 'إبريق',
+    gloves: 'قفازات',
+    'baking-paper': 'ورق زبدة',
+    'plastic-bag': 'كيس بلاستيك',
+    'cling-film': 'ورق نايلون',
+    'paper-cases': 'أكواب ورقية',
+    juicer: 'عصارة ليمون',
+    sieve: 'مصفاة صغيرة'
   }
 };
 
@@ -228,7 +242,21 @@ const en: KidsStrings = {
     'cookie-cutter': 'Cookie cutter',
     'ice-pop-mold': 'Ice-pop moulds',
     'paper-cup': 'Paper cups',
-    stove: 'Stove'
+    stove: 'Stove',
+    toaster: 'Toaster',
+    mug: 'Mug',
+    'muffin-tin': 'Muffin tin',
+    'cookie-mold': 'Cookie stamp or mould',
+    ladle: 'Ladle',
+    strainer: 'Colander',
+    pitcher: 'Jug',
+    gloves: 'Gloves',
+    'baking-paper': 'Baking paper',
+    'plastic-bag': 'Plastic bag',
+    'cling-film': 'Cling film',
+    'paper-cases': 'Paper cases',
+    juicer: 'Lemon squeezer',
+    sieve: 'Sieve'
   }
 };
 

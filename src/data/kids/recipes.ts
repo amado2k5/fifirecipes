@@ -1,4 +1,6 @@
 import type { KidsRecipe } from '../../kids/types';
+import { GROUPS } from '../../kids/theme';
+import { MORE_KIDS_RECIPES } from './moreRecipes';
 
 /**
  * Recipes for Cooking with Kids mode, written for children: one action per
@@ -9,7 +11,7 @@ import type { KidsRecipe } from '../../kids/types';
  * merged in by scripts/generate-public-index.ts, which also checks that every
  * drawing exists and every text is translated.
  */
-export const KIDS_RECIPES: KidsRecipe[] = [
+const FIRST_RECIPES: KidsRecipe[] = [
   {
     id: 'pancake-animals',
     group: 'breakfast',
@@ -656,3 +658,9 @@ export const KIDS_RECIPES: KidsRecipe[] = [
     tip: { ar: 'جمّد الباقي في قوالب المصاصات.', en: 'Freeze any leftovers in ice-pop moulds.' }
   }
 ];
+
+/** Every kids recipe, grouped in the order of the filter chips (breakfast first). */
+export const KIDS_RECIPES: KidsRecipe[] = [...FIRST_RECIPES, ...MORE_KIDS_RECIPES]
+  .map((recipe, index) => ({ recipe, index }))
+  .sort((a, b) => GROUPS.indexOf(a.recipe.group) - GROUPS.indexOf(b.recipe.group) || a.index - b.index)
+  .map(({ recipe }) => recipe);
