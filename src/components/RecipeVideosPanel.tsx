@@ -3,17 +3,15 @@ import { ExternalLink, Play, RotateCw, Search, X } from 'lucide-react';
 import type { Recipe, SupportedLanguage } from '../types';
 import { getVideoStrings } from '../data/videoTranslations';
 import {
-  PLATFORM_NAMES,
   RecipeVideo,
-  VideoPlatform,
   VIDEO_SEARCH_URL,
   getDishSearchName,
   getLocalizedDishName,
-  platformSearchLinks,
   searchRecipeVideos,
   videoEmbedUrl,
   videoPageUrl,
-  videoThumbnail
+  videoThumbnail,
+  youtubeSearchUrl
 } from '../services/videoSearch';
 
 // Loaded only when the Videos tab is opened (see RecipeDetailModal).
@@ -23,18 +21,11 @@ interface RecipeVideosPanelProps {
   lang: SupportedLanguage;
 }
 
-const PLATFORM_BADGE: Record<VideoPlatform, string> = {
-  youtube: 'bg-red-600',
-  tiktok: 'bg-black',
-  instagram: 'bg-gradient-to-r from-fuchsia-600 to-orange-500',
-  facebook: 'bg-blue-600'
-};
-
 type State = { status: 'loading' } | { status: 'ready'; videos: RecipeVideo[] } | { status: 'error' };
 
 export const RecipeVideosPanel: React.FC<RecipeVideosPanelProps> = ({ recipe, lang }) => {
   const text = getVideoStrings(lang);
-  // Platform searches use the dish's name in the visitor's language when there is one.
+  // The YouTube search link uses the dish's name in the visitor's language when there is one.
   const dish = getLocalizedDishName(recipe, lang) ?? getDishSearchName(recipe);
   const [state, setState] = useState<State>(VIDEO_SEARCH_URL ? { status: 'loading' } : { status: 'ready', videos: [] });
   const [attempt, setAttempt] = useState(0);
@@ -87,31 +78,26 @@ export const RecipeVideosPanel: React.FC<RecipeVideosPanelProps> = ({ recipe, la
       {state.status === 'ready' && state.videos.length > 0 && (
         <ul className="grid grid-cols-2 sm:grid-cols-3 gap-x-3 gap-y-4">
           {state.videos.map(video => (
-            <li key={`${video.platform}:${video.id}`}>
+            <li key={video.id}>
               <button onClick={() => setPlaying(video)} className="group w-full text-start space-y-1.5">
-                <div className="relative aspect-video rounded-xl overflow-hidden bg-gradient-to-br from-stone-700 to-stone-900">
-                  {videoThumbnail(video) ? (
-                    <img
-                      src={videoThumbnail(video)}
-                      alt=""
-                      width={320}
-                      height={180}
-                      loading="lazy"
-                      decoding="async"
-                      referrerPolicy="no-referrer"
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                    />
-                  ) : (
-                    <span className="absolute inset-x-0 bottom-2 text-center text-[11px] font-semibold text-white/70">{PLATFORM_NAMES[video.platform]}</span>
-                  )}
+                <div className="relative aspect-video rounded-xl overflow-hidden bg-stone-200">
+                  <img
+                    src={videoThumbnail(video)}
+                    alt=""
+                    width={320}
+                    height={180}
+                    loading="lazy"
+                    decoding="async"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                  />
                   <span className="absolute inset-0 flex items-center justify-center">
                     <span className="w-10 h-10 rounded-full bg-black/60 flex items-center justify-center group-hover:bg-red-600 transition-colors">
                       <Play className="w-5 h-5 text-white fill-white" />
                     </span>
                   </span>
-                  <span className={`absolute top-1.5 start-1.5 px-1.5 py-0.5 rounded text-[10px] font-bold text-white ${PLATFORM_BADGE[video.platform]}`}>
-                    {video.platform === 'youtube' && video.short ? text.short : PLATFORM_NAMES[video.platform]}
-                  </span>
+                  {video.short && (
+                    <span className="absolute top-1.5 start-1.5 px-1.5 py-0.5 rounded text-[10px] font-bold bg-red-600 text-white">{text.short}</span>
+                  )}
                   {video.duration && (
                     <span className="absolute bottom-1.5 end-1.5 px-1.5 py-0.5 rounded text-[10px] font-semibold bg-black/75 text-white" dir="ltr">{video.duration}</span>
                   )}
@@ -128,28 +114,23 @@ export const RecipeVideosPanel: React.FC<RecipeVideosPanelProps> = ({ recipe, la
         </ul>
       )}
 
-      <div className="pt-2 border-t border-stone-100 space-y-2">
-        <p className="flex items-center gap-1.5 text-xs font-semibold text-stone-600">
+      <div className="pt-3 border-t border-stone-100 flex flex-wrap items-center gap-2">
+        <span className="flex items-center gap-1.5 text-xs font-semibold text-stone-600">
           <Search className="w-3.5 h-3.5" />
           {text.searchOn}
-        </p>
-        <div className="flex flex-wrap gap-2">
-          {platformSearchLinks(dish).map(link => (
-            <a
-              key={link.name}
-              href={link.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border border-stone-300 bg-white text-stone-800 hover:bg-stone-50"
-            >
-              {link.name}
-              <ExternalLink className="w-3 h-3" />
-            </a>
-          ))}
-        </div>
+        </span>
+        <a
+          href={youtubeSearchUrl(dish)}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border border-stone-300 bg-white text-stone-800 hover:bg-stone-50"
+        >
+          YouTube
+          <ExternalLink className="w-3 h-3" />
+        </a>
       </div>
 
-      {playing && <VideoPlayer video={playing} closeLabel={text.close} openLabel={text.openOn.replace('{p}', PLATFORM_NAMES[playing.platform])} onClose={() => setPlaying(null)} />}
+      {playing && <VideoPlayer video={playing} closeLabel={text.close} openLabel={text.openOn.replace('{p}', 'YouTube')} onClose={() => setPlaying(null)} />}
     </div>
   );
 };
@@ -174,7 +155,7 @@ const VideoPlayer: React.FC<{ video: RecipeVideo; closeLabel: string; openLabel:
             href={videoPageUrl(video)}
             target="_blank"
             rel="noopener noreferrer"
-            className={`inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs sm:text-sm font-bold text-white hover:opacity-90 ${PLATFORM_BADGE[video.platform]}`}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs sm:text-sm font-bold bg-red-600 text-white hover:bg-red-700"
           >
             <ExternalLink className="w-4 h-4" />
             {openLabel}

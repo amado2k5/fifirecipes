@@ -7,18 +7,13 @@
  */
 
 export interface VideoResult {
-  platform: 'youtube' | 'tiktok' | 'instagram' | 'facebook';
   id: string;
-  /** The video's page, for platforms whose links cannot be rebuilt from the id. */
-  url?: string;
   title: string;
-  /** Thumbnail image, for platforms whose thumbnails cannot be built from the id. */
-  thumbnail?: string;
   channel?: string;
   duration?: string;
   views?: string;
   published?: string;
-  /** A vertical video (YouTube Short, TikTok, Reel). */
+  /** A YouTube Short (vertical video). */
   short?: boolean;
 }
 
@@ -63,7 +58,6 @@ function fromVideoRenderer(r: Node): VideoResult | undefined {
   const title = text(r.title);
   if (!title) return undefined;
   return {
-    platform: 'youtube',
     id: r.videoId,
     title,
     channel: text(r.ownerText) ?? text(r.longBylineText) ?? text(r.shortBylineText),
@@ -78,14 +72,14 @@ function fromReelItem(r: Node): VideoResult | undefined {
   if (typeof r.videoId !== 'string') return undefined;
   const title = text(r.headline) ?? text(r.accessibility?.accessibilityData?.label);
   if (!title) return undefined;
-  return { platform: 'youtube', id: r.videoId, title, views: text(r.viewCountText), short: true };
+  return { id: r.videoId, title, views: text(r.viewCountText), short: true };
 }
 
 function fromShortsLockup(r: Node): VideoResult | undefined {
   const id = r.onTap?.innertubeCommand?.reelWatchEndpoint?.videoId ?? r.entityId?.replace(/^shorts-shelf-item-/, '');
   const title = text(r.overlayMetadata?.primaryText) ?? r.accessibilityText;
   if (typeof id !== 'string' || !title) return undefined;
-  return { platform: 'youtube', id, title, views: text(r.overlayMetadata?.secondaryText), short: true };
+  return { id, title, views: text(r.overlayMetadata?.secondaryText), short: true };
 }
 
 /** Collects every video in a search response, in the order YouTube ranked them. */
@@ -168,15 +162,13 @@ export function rankVideos(dishName: string, lists: VideoResult[][], limit: numb
   const seen = new Set<string>();
   const scored: { video: VideoResult; score: number; rank: number }[] = [];
   let rank = 0;
-  // Interleave the lists so long videos, Shorts and every platform make the cut.
+  // Interleave the lists so long videos and Shorts both make the cut.
   const longest = Math.max(0, ...lists.map(list => list.length));
   for (let i = 0; i < longest; i++) {
     for (const list of lists) {
       const video = list[i];
-      if (!video) continue;
-      const key = `${video.platform}:${video.id}`;
-      if (seen.has(key)) continue;
-      seen.add(key);
+      if (!video || seen.has(video.id)) continue;
+      seen.add(video.id);
       const score = relevance(dishName, video.title);
       if (score > 0) scored.push({ video, score, rank: rank++ });
     }

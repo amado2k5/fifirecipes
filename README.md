@@ -43,7 +43,7 @@ No API key or `.env` file is required to run or build the site.
 
 ## Recipe videos
 
-Each recipe written in Arabic has a **Videos** tab. When a visitor opens it, the site shows up to 20 matching videos from YouTube, TikTok, Instagram and Facebook, and plays them in an embedded player. The search runs in a small Cloudflare Worker, and nothing loads until the tab is opened. See [workers/video-search/README.md](workers/video-search/README.md) for deployment.
+Each recipe written in Arabic has a **Videos** tab. When a visitor opens it, the site shows up to 20 matching YouTube videos and Shorts, and plays them in an embedded player. The search runs in a small Cloudflare Worker, and nothing loads until the tab is opened. See [workers/video-search/README.md](workers/video-search/README.md) for deployment.
 
 ## GitHub Pages
 

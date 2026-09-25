@@ -3,21 +3,16 @@
  *
  *   GET /search?dish=<dish name>&lang=<site language>  →  { dish, videos: VideoResult[] }
  *
- * The static site cannot run these searches from the browser (no CORS, and
- * the social platforms have no public search API), so this Cloudflare Worker
- * searches YouTube directly and TikTok, Instagram and Facebook through a web
- * search engine, keeps the videos that are about the dish, and caches the
- * answer at the edge, so each dish is searched at most once per cache period
- * no matter how many visitors open it.
+ * The static site cannot query YouTube from the browser (no CORS), so this
+ * Cloudflare Worker runs the search, keeps the videos that are about the dish,
+ * and caches the answer at the edge for a week, so each dish costs YouTube
+ * one pair of searches per week no matter how many visitors open it.
  */
-import { searchSocial } from './social';
 import { rankVideos, searchYouTube } from './youtube';
 
 interface Env {
   /** Comma-separated origins allowed to call the worker. */
   ALLOWED_ORIGINS?: string;
-  /** Brave Search API key (a secret); without it only YouTube is searched. */
-  BRAVE_API_KEY?: string;
 }
 
 interface WorkerContext {
@@ -48,8 +43,7 @@ const LANGUAGES: Record<string, { recipe: string; gl: string }> = {
   sw: { recipe: 'mapishi', gl: 'KE' },
   ku: { recipe: 'reçete', gl: 'IQ' }
 };
-// Two weeks: keeps a free search-API tier well within its monthly quota.
-const CACHE_SECONDS = 14 * 24 * 60 * 60;
+const CACHE_SECONDS = 7 * 24 * 60 * 60;
 const DEFAULT_ORIGINS = 'https://fifi.cooking,https://www.fifi.cooking,https://amado2k5.github.io,http://localhost:3000,http://localhost:4174';
 
 function corsHeaders(request: Request, env: Env): Record<string, string> {
@@ -84,11 +78,8 @@ export default {
 
     const { recipe, gl } = LANGUAGES[lang];
     const queries = lang === 'ar' || lang === 'fa' ? [`${recipe} ${dish}`, `${dish} #shorts`] : [`${dish} ${recipe}`, `${dish} #shorts`];
-    const [settled, social] = await Promise.all([
-      Promise.allSettled(queries.map(query => searchYouTube(query, lang, gl))),
-      env.BRAVE_API_KEY ? searchSocial(queries[0], env.BRAVE_API_KEY, lang).catch(() => []) : Promise.resolve([])
-    ]);
-    const lists = [...settled.flatMap(result => (result.status === 'fulfilled' ? [result.value] : [])), ...social];
+    const settled = await Promise.allSettled(queries.map(query => searchYouTube(query, lang, gl)));
+    const lists = settled.flatMap(result => (result.status === 'fulfilled' ? [result.value] : []));
     if (!lists.length) {
       const reason = settled[0].status === 'rejected' ? String(settled[0].reason) : 'unknown';
       return json({ error: 'search failed', reason }, 502, cors);

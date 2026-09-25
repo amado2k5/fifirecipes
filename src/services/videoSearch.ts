@@ -4,15 +4,9 @@ import { getLocalizedRecipe } from '../utils/recipeLocalization';
 // Client for the video-search worker (workers/video-search). Searching happens
 // only when a visitor opens a recipe's Videos tab; nothing here runs on page load.
 
-export type VideoPlatform = 'youtube' | 'tiktok' | 'instagram' | 'facebook';
-
 export interface RecipeVideo {
-  platform: VideoPlatform;
   id: string;
-  /** The video's page (TikTok, Instagram, Facebook). */
-  url?: string;
   title: string;
-  thumbnail?: string;
   channel?: string;
   duration?: string;
   views?: string;
@@ -20,7 +14,7 @@ export interface RecipeVideo {
   short?: boolean;
 }
 
-/** Set at build time (repository variable VIDEO_SEARCH_URL); without it only the platform links show. */
+/** Set at build time (repository variable VIDEO_SEARCH_URL); without it only the YouTube search link shows. */
 export const VIDEO_SEARCH_URL = ((import.meta.env.VITE_VIDEO_SEARCH_URL as string | undefined) ?? '').replace(/\/$/, '');
 
 const MAX_VIDEOS = 20;
@@ -78,47 +72,18 @@ export async function searchRecipeVideos(recipe: Recipe, lang: SupportedLanguage
   const seen = new Set<string>();
   return settled
     .flatMap(result => (result.status === 'fulfilled' ? result.value : []))
-    .filter(video => !seen.has(`${video.platform}:${video.id}`) && !!seen.add(`${video.platform}:${video.id}`))
+    .filter(video => !seen.has(video.id) && !!seen.add(video.id))
     .slice(0, MAX_VIDEOS);
 }
 
-export const PLATFORM_NAMES: Record<VideoPlatform, string> = {
-  youtube: 'YouTube',
-  tiktok: 'TikTok',
-  instagram: 'Instagram',
-  facebook: 'Facebook'
-};
+// 320×180, about 10 KB each: light enough for a grid of twenty on a slow connection.
+export const videoThumbnail = (video: RecipeVideo) => `https://i.ytimg.com/vi/${video.id}/mqdefault.jpg`;
 
-// YouTube's 320×180 thumbnail, about 10 KB: light enough for a grid of twenty on a slow connection.
-export const videoThumbnail = (video: RecipeVideo): string | undefined =>
-  video.thumbnail ?? (video.platform === 'youtube' ? `https://i.ytimg.com/vi/${video.id}/mqdefault.jpg` : undefined);
+export const videoEmbedUrl = (video: RecipeVideo) =>
+  `https://www.youtube-nocookie.com/embed/${video.id}?autoplay=1&rel=0&playsinline=1`;
 
-export function videoEmbedUrl(video: RecipeVideo): string {
-  switch (video.platform) {
-    case 'tiktok':
-      return `https://www.tiktok.com/embed/v2/${video.id}`;
-    case 'instagram':
-      return `https://www.instagram.com/reel/${video.id}/embed/`;
-    case 'facebook':
-      return `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(video.url ?? `https://www.facebook.com/watch/?v=${video.id}`)}&show_text=false&autoplay=true`;
-    default:
-      return `https://www.youtube-nocookie.com/embed/${video.id}?autoplay=1&rel=0&playsinline=1`;
-  }
-}
+export const videoPageUrl = (video: RecipeVideo) =>
+  video.short ? `https://www.youtube.com/shorts/${video.id}` : `https://www.youtube.com/watch?v=${video.id}`;
 
-export function videoPageUrl(video: RecipeVideo): string {
-  if (video.url) return video.url;
-  if (video.platform !== 'youtube') return videoEmbedUrl(video);
-  return video.short ? `https://www.youtube.com/shorts/${video.id}` : `https://www.youtube.com/watch?v=${video.id}`;
-}
-
-/** Each platform's own search page for the dish, for visitors who want more than the grid shows. */
-export function platformSearchLinks(dish: string): { name: string; url: string }[] {
-  const q = encodeURIComponent(dish);
-  return [
-    { name: 'YouTube', url: `https://www.youtube.com/results?search_query=${q}` },
-    { name: 'TikTok', url: `https://www.tiktok.com/search/video?q=${q}` },
-    { name: 'Instagram', url: `https://www.instagram.com/explore/search/keyword/?q=${q}` },
-    { name: 'Facebook', url: `https://www.facebook.com/search/videos/?q=${q}` }
-  ];
-}
+/** YouTube's own search page for the dish, for visitors who want more than the grid shows. */
+export const youtubeSearchUrl = (dish: string) => `https://www.youtube.com/results?search_query=${encodeURIComponent(dish)}`;
