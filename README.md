@@ -43,7 +43,9 @@ No API key or `.env` file is required to run or build the site.
 
 ## Recipe videos
 
-Each recipe written in Arabic has a **Videos** tab. When a visitor opens it, the site shows up to 20 matching YouTube videos and Shorts, and plays them in an embedded player. The search runs in a small Cloudflare Worker, and nothing loads until the tab is opened. See [workers/video-search/README.md](workers/video-search/README.md) for deployment.
+Each recipe written in Arabic has a **Videos** tab. It shows up to 20 matching YouTube videos and Shorts, which play in a player on the page with Previous and Next buttons. Nothing loads until the tab is opened.
+
+The results are static files: a weekly GitHub Actions workflow ([refresh-recipe-videos.yml](.github/workflows/refresh-recipe-videos.yml)) searches YouTube for every recipe with [scripts/recipe-videos/fetch-videos.ts](scripts/recipe-videos/fetch-videos.ts). It commits `src/data/recipeVideos.json`, then the site redeploys. It needs no API key, and you can also start it by hand from the repository's **Actions** tab.
 
 ## GitHub Pages
 

@@ -10,6 +10,8 @@ export interface VideoStrings {
   /** `{p}` is replaced with the platform name. */
   openOn: string;
   searchOn: string;
+  previous: string;
+  next: string;
   short: string;
   close: string;
 }
@@ -23,6 +25,8 @@ const en: VideoStrings = {
   retry: 'Try again',
   openOn: 'Open on {p}',
   searchOn: 'Search this dish on',
+  previous: 'Previous',
+  next: 'Next',
   short: 'Short',
   close: 'Close'
 };
@@ -38,6 +42,8 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     retry: 'حاول مرة أخرى',
     openOn: 'افتح على {p}',
     searchOn: 'ابحث عن هذا الطبق على',
+    previous: 'السابق',
+    next: 'التالي',
     short: 'شورت',
     close: 'إغلاق'
   },
@@ -50,6 +56,8 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     retry: 'Réessayer',
     openOn: 'Ouvrir sur {p}',
     searchOn: 'Rechercher ce plat sur',
+    previous: 'Précédente',
+    next: 'Suivante',
     short: 'Short',
     close: 'Fermer'
   },
@@ -62,6 +70,8 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     retry: 'Reintentar',
     openOn: 'Abrir en {p}',
     searchOn: 'Buscar este plato en',
+    previous: 'Anterior',
+    next: 'Siguiente',
     short: 'Short',
     close: 'Cerrar'
   },
@@ -74,6 +84,8 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     retry: '再試行',
     openOn: '{p}で開く',
     searchOn: 'この料理を検索:',
+    previous: '前へ',
+    next: '次へ',
     short: 'ショート',
     close: '閉じる'
   },
@@ -86,6 +98,8 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     retry: 'फिर से कोशिश करें',
     openOn: '{p} पर खोलें',
     searchOn: 'यह व्यंजन यहाँ खोजें',
+    previous: 'पिछला',
+    next: 'अगला',
     short: 'शॉर्ट',
     close: 'बंद करें'
   },
@@ -98,6 +112,8 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     retry: 'Tentar novamente',
     openOn: 'Abrir no {p}',
     searchOn: 'Pesquisar este prato no',
+    previous: 'Anterior',
+    next: 'Próximo',
     short: 'Short',
     close: 'Fechar'
   },
@@ -110,6 +126,8 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     retry: 'Повторить',
     openOn: 'Открыть в {p}',
     searchOn: 'Искать блюдо в',
+    previous: 'Назад',
+    next: 'Далее',
     short: 'Shorts',
     close: 'Закрыть'
   },
@@ -122,6 +140,8 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     retry: '重试',
     openOn: '在 {p} 打开',
     searchOn: '在以下平台搜索此菜',
+    previous: '上一个',
+    next: '下一个',
     short: '短视频',
     close: '关闭'
   },
@@ -134,6 +154,8 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     retry: 'Erneut versuchen',
     openOn: 'Auf {p} öffnen',
     searchOn: 'Dieses Gericht suchen auf',
+    previous: 'Zurück',
+    next: 'Weiter',
     short: 'Short',
     close: 'Schließen'
   },
@@ -146,6 +168,8 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     retry: 'Riprova',
     openOn: 'Apri su {p}',
     searchOn: 'Cerca questo piatto su',
+    previous: 'Precedente',
+    next: 'Successivo',
     short: 'Short',
     close: 'Chiudi'
   },
@@ -158,6 +182,8 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     retry: 'Δοκιμάστε ξανά',
     openOn: 'Άνοιγμα στο {p}',
     searchOn: 'Αναζήτηση του πιάτου στο',
+    previous: 'Προηγούμενο',
+    next: 'Επόμενο',
     short: 'Short',
     close: 'Κλείσιμο'
   },
@@ -170,6 +196,8 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     retry: 'دوبارہ کوشش کریں',
     openOn: '{p} پر کھولیں',
     searchOn: 'یہ ڈش تلاش کریں',
+    previous: 'پچھلی',
+    next: 'اگلی',
     short: 'شارٹ',
     close: 'بند کریں'
   },
@@ -182,6 +210,8 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     retry: 'تلاش دوباره',
     openOn: 'باز کردن در {p}',
     searchOn: 'جست‌وجوی این غذا در',
+    previous: 'قبلی',
+    next: 'بعدی',
     short: 'شورت',
     close: 'بستن'
   },
@@ -194,6 +224,8 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     retry: 'Tekrar dene',
     openOn: '{p} üzerinde aç',
     searchOn: 'Bu yemeği şurada ara',
+    previous: 'Önceki',
+    next: 'Sonraki',
     short: 'Short',
     close: 'Kapat'
   },
@@ -206,6 +238,8 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     retry: 'Dîsa biceribîne',
     openOn: 'Li ser {p} veke',
     searchOn: 'Vî xwarinê lê bigere li',
+    previous: 'Berê',
+    next: 'Paşê',
     short: 'Short',
     close: 'Bigire'
   },
@@ -218,6 +252,8 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     retry: 'Coba lagi',
     openOn: 'Buka di {p}',
     searchOn: 'Cari hidangan ini di',
+    previous: 'Sebelumnya',
+    next: 'Berikutnya',
     short: 'Short',
     close: 'Tutup'
   },
@@ -230,6 +266,8 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     retry: 'Jaribu tena',
     openOn: 'Fungua kwenye {p}',
     searchOn: 'Tafuta mlo huu kwenye',
+    previous: 'Iliyotangulia',
+    next: 'Inayofuata',
     short: 'Short',
     close: 'Funga'
   },
@@ -242,6 +280,8 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     retry: '다시 시도',
     openOn: '{p}에서 열기',
     searchOn: '이 요리 검색:',
+    previous: '이전',
+    next: '다음',
     short: '쇼츠',
     close: '닫기'
   }

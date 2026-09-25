@@ -63,6 +63,9 @@ export const loadCardTranslations = (lang: SupportedLanguage) => fetchJson<Trans
 
 export const loadSearchIndex = (lang: SupportedLanguage) => fetchJson<Record<string, string>>(`search/${lang}.json`);
 
+/** The YouTube videos found for a recipe; only its Videos tab asks for them. */
+export const loadRecipeVideos = <T>(id: string) => fetchJson<T>(`videos/${encodeURIComponent(id)}.json`);
+
 export const loadIngredientRegistry = (lang: SupportedLanguage) => fetchJson<IngredientRegistryItem[]>(`ingredients/${lang}.json`);
 
 interface RecipeFile {
