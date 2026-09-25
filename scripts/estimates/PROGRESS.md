@@ -18,3 +18,4 @@ When estimating nutrition and cost for a recipe:
 
 - ec-003–ec-052: 20 added (Egyptian Cooking intro recipes: beans, pastries, cheese spreads, pickles, eggs)
 - ec-053–ec-098: 20 added (Egyptian Cooking egg dishes and stews)
+- ec-105–ec-157: 20 added (Chicken dishes, couscous, and eggplant)
