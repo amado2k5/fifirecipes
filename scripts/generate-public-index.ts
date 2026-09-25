@@ -10,6 +10,8 @@
  *    recipes/<id>.json          a full recipe + its estimate + all its translations
  *    videos/<id>.json           the YouTube videos found for a recipe (Videos tab)
  *    ingredients/<lang>.json    the master-ingredient registry, localized
+ *    kids/<lang>/index.json     Cooking with Kids mode: the recipe cards
+ *    kids/<lang>/<id>.json      one kids recipe in one language
  *  public/recipe/<id>/index.html  a static, JavaScript-free page per recipe for
  *                               search engines and link previews (gitignored)
  *  public/recipes.json          the whole open archive in one file
@@ -32,6 +34,12 @@ import {
 } from '../src/utils/recipeLocalization';
 import type { Recipe, RecipeCollection, RecipeSummary, SupportedLanguage } from '../src/types';
 import { isListedIn, type StatsAudience } from '../src/utils/recipeVisibility';
+import { KIDS_RECIPES } from '../src/data/kids/recipes';
+import { KIDS_TOGGLE_LABELS } from '../src/kids/languages';
+import { hasArt } from '../src/kids/art';
+import { SCENES } from '../src/kids/KidsArt';
+import { getKidsStrings } from '../src/kids/strings';
+import { kidsRecipeCard, localizeKidsRecipe, type KidsRecipeTranslation } from '../src/kids/localize';
 
 const siteUrl = (process.env.PUBLIC_SITE_URL || 'https://fifi.cooking').replace(/\/$/, '');
 const SUPPORTED_LANGUAGES: SupportedLanguage[] = ['ar', 'en', 'fr', 'es', 'ja', 'hi', 'pt', 'ru', 'zh', 'de', 'it', 'el', 'ur', 'fa', 'tr', 'ku', 'id', 'sw', 'ko'];
@@ -180,6 +188,45 @@ for (const recipe of orderedRecipes) {
   if (recipe.englishOnly) continue;
   const found = recipeVideos[recipe.id];
   put(`videos/${recipe.id}.json`, { ar: found?.ar ?? [], ...(found?.en?.length ? { en: found.en } : {}) });
+}
+
+// Cooking with Kids mode, in each language it is offered in. A missing
+// drawing, scene or translation stops the build rather than showing a gap.
+{
+  const problems: string[] = [];
+  const ids = new Set<string>();
+  for (const recipe of KIDS_RECIPES) {
+    if (ids.has(recipe.id)) problems.push(`${recipe.id}: duplicate id`);
+    ids.add(recipe.id);
+    if (recipe.archiveRecipeId && !allRecipes.some(r => r.id === recipe.archiveRecipeId)) {
+      problems.push(`${recipe.id}: unknown archive recipe ${recipe.archiveRecipeId}`);
+    }
+    const drawings = [recipe.cover, ...recipe.tools, ...recipe.ingredients.map(i => i.art), ...recipe.steps.flatMap(s => [...(s.items ?? []), ...(s.on ? [s.on] : []), ...(s.tool ? [s.tool] : [])])];
+    for (const art of new Set(drawings)) if (!hasArt(art)) problems.push(`${recipe.id}: no drawing "${art}"`);
+    for (const step of recipe.steps) if (!SCENES[step.act]) problems.push(`${recipe.id}: no scene "${step.act}"`);
+  }
+  for (const lang of Object.keys(KIDS_TOGGLE_LABELS) as SupportedLanguage[]) {
+    let translations: Record<string, KidsRecipeTranslation> = {};
+    try {
+      translations = JSON.parse(await readFile(`src/data/kids/translations/${lang}.json`, 'utf-8'));
+    } catch {
+      // Arabic and English live in recipes.ts itself.
+    }
+    const toolNames = getKidsStrings(lang).toolNames;
+    const cards = [];
+    for (const recipe of KIDS_RECIPES) {
+      for (const tool of recipe.tools) if (!toolNames[tool]) problems.push(`${lang}: no name for tool "${tool}"`);
+      const localized = localizeKidsRecipe(recipe, lang, translations[recipe.id]);
+      if (Array.isArray(localized)) {
+        problems.push(`${recipe.id} (${lang}): missing ${localized.join(', ')}`);
+        continue;
+      }
+      put(`kids/${lang}/${recipe.id}.json`, localized);
+      cards.push(kidsRecipeCard(localized));
+    }
+    put(`kids/${lang}/index.json`, cards);
+  }
+  if (problems.length) throw new Error(`Kids recipes:\n  ${[...new Set(problems)].join('\n  ')}`);
 }
 
 // Master-ingredient registry, localized per language.

@@ -47,6 +47,12 @@ Each recipe written in Arabic has a **Videos** tab. It shows up to 20 matching Y
 
 The results are static files: a weekly GitHub Actions workflow ([refresh-recipe-videos.yml](.github/workflows/refresh-recipe-videos.yml)) searches YouTube for every recipe with [scripts/recipe-videos/fetch-videos.ts](scripts/recipe-videos/fetch-videos.ts). It commits `src/data/recipeVideos.json`, then the site redeploys. It needs no API key, and you can also start it by hand from the repository's **Actions** tab.
 
+## Cooking with Kids
+
+The **Grown-ups | Cooking with Kids** toggle at the top of the page switches the whole site into a playful kids version in the same language, and back. It shows only recipes that are fun for children to make ([src/data/kids/recipes.ts](src/data/kids/recipes.ts)), with coloured-pencil drawings of every ingredient and step, one short step per screen, read-aloud, timers and a "grown-up helps" badge on every step with a knife, heat or a blender. The link `?kids=1` opens it directly.
+
+The drawings are small hand-drawn SVGs ([src/kids/art.ts](src/kids/art.ts)); each step's picture is built from an action scene plus the step's ingredients ([src/kids/KidsArt.tsx](src/kids/KidsArt.tsx)). Kids mode is loaded only when it is opened, and it is offered only in languages whose kids recipes are translated ([src/kids/languages.ts](src/kids/languages.ts)); the build stops if a drawing or translation is missing.
+
 ## GitHub Pages
 
 The repository includes a GitHub Actions workflow that builds and deploys the site after every push to `main`. In the repository's **Settings → Pages**, select **GitHub Actions** as the publishing source once. The site is served at [fifi.cooking](https://fifi.cooking), with [amado2k5.github.io/fifirecipes](https://amado2k5.github.io/fifirecipes/) as the underlying GitHub Pages URL.

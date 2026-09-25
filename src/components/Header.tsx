@@ -8,6 +8,7 @@ import {
 } from 'lucide-react';
 import { LanguageSelector } from './LanguageSelector';
 import { getUIText } from '../data/translations';
+import { KidsToggle } from '../kids/KidsToggle';
 
 interface HeaderProps {
   /** Null until the data manifest has loaded. */
@@ -17,6 +18,7 @@ interface HeaderProps {
   lang: SupportedLanguage;
   setLang: (l: SupportedLanguage) => void;
   onShareSite: () => void;
+  onEnterKids: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -25,7 +27,8 @@ export const Header: React.FC<HeaderProps> = ({
   setActiveTab,
   lang,
   setLang,
-  onShareSite
+  onShareSite,
+  onEnterKids
 }) => {
   const isAr = lang === 'ar';
   const isFr = lang === 'fr';
@@ -91,6 +94,7 @@ export const Header: React.FC<HeaderProps> = ({
 
           {/* Right Action Controls: Language and sharing */}
           <div className="flex flex-wrap items-center gap-2 sm:gap-3">
+            <KidsToggle lang={lang} kidsMode={false} onChange={kids => kids && onEnterKids()} />
             {/* Arabic / English selector */}
             <LanguageSelector currentLang={lang} onSelectLang={setLang} />
 
