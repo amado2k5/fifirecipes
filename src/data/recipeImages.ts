@@ -41,3 +41,9 @@ export function getRecipeImage(id: string, customImage?: string): string {
   const path = getRecipeImagePath(id);
   return path ? `${BASE_URL}${path}` : DEFAULT_RECIPE_IMAGE;
 }
+
+/** Card-sized copy of the recipe's photo (see scripts/generate-thumbnails.ts). */
+export function getRecipeThumbnail(id: string, customImage?: string): string {
+  if (customImage && customImage.trim().length > 0) return customImage;
+  return RECIPES_WITH_IMAGES_SET.has(id) ? `${BASE_URL}recipe-images/thumbs/${id}.jpg` : DEFAULT_RECIPE_IMAGE;
+}
