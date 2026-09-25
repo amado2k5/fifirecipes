@@ -14,6 +14,7 @@ const MasterIngredientsView = lazy(() => import('./components/MasterIngredientsV
 const RecipeDetailModal = lazy(() => import('./components/RecipeDetailModal').then(m => ({ default: m.RecipeDetailModal })));
 const FatmaMemorialSection = lazy(() => import('./components/FatmaMemorialSection').then(m => ({ default: m.FatmaMemorialSection })));
 const TributePage = lazy(() => import('./components/TributePage').then(m => ({ default: m.TributePage })));
+const KidsApp = lazy(loadKidsApp);
 
 // Once the page is idle, fetch the recipe view's code so the first recipe opens instantly.
 function preloadRecipeView() {
@@ -27,6 +28,7 @@ import { isListedIn, statsAudienceOf } from './utils/recipeVisibility';
 import { shareRecipe } from './services/recipeShareService';
 import { DataManifest, loadCardTranslations, loadManifest, loadRecipe, loadRecipeIndex } from './services/recipeData';
 import { formatServings, getCostTotal, getRecipeEstimate } from './data/recipeEstimates';
+import { hasKidsMode, loadKidsApp } from './kids/languages';
 import { CheckCircle2, AlertCircle, Mail } from 'lucide-react';
 
 const FEEDBACK_EMAIL = 'ahamdy@gmail.com';
@@ -49,6 +51,26 @@ export default function App() {
     }
     return detectUserLanguage();
   });
+  // Cooking with Kids mode replaces the whole page; ?kids=1 opens it directly.
+  const [kidsMode, setKidsModeState] = useState(
+    () => new URLSearchParams(window.location.search).get('kids') === '1' && hasKidsMode(lang)
+  );
+  const setKidsMode = useCallback((on: boolean) => {
+    const url = new URL(window.location.href);
+    if (on) url.searchParams.set('kids', '1');
+    else {
+      url.searchParams.delete('kids');
+      url.searchParams.delete('kid');
+    }
+    window.history.replaceState(null, '', url);
+    setKidsModeState(on);
+    window.scrollTo({ top: 0 });
+  }, []);
+  // Kids mode is offered only in languages its recipes are translated into.
+  useEffect(() => {
+    if (kidsMode && !hasKidsMode(lang)) setKidsMode(false);
+  }, [kidsMode, lang, setKidsMode]);
+
   // The active language's recipe-translation JSON is fetched on demand (see
   // ensureTranslationTable) instead of being bundled for every visitor;
   // this re-renders once that chunk arrives so translated text appears.
@@ -300,6 +322,22 @@ export default function App() {
     return () => script.remove();
   }, [selectedRecipe]);
 
+  if (kidsMode) {
+    return (
+      <Suspense fallback={<div className="min-h-screen bg-[#fff8e7] flex items-center justify-center text-4xl animate-bounce" aria-busy="true">🧑‍🍳</div>}>
+        <KidsApp
+          lang={lang}
+          setLang={setLang}
+          onExit={() => setKidsMode(false)}
+          onOpenArchiveRecipe={id => {
+            setKidsMode(false);
+            openRecipe(id);
+          }}
+        />
+      </Suspense>
+    );
+  }
+
   return (
     <div
       className="min-h-screen bg-stone-100/60 text-stone-900 font-sans flex flex-col selection:bg-amber-100 selection:text-amber-900"
@@ -331,6 +369,7 @@ export default function App() {
         lang={lang}
         setLang={setLang}
         onShareSite={handleShareSite}
+        onEnterKids={() => setKidsMode(true)}
       />
 
       {/* Main Content Area */}
