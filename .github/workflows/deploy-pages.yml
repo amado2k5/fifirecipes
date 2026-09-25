@@ -4,6 +4,12 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Pushes made by a workflow do not trigger this one, so redeploy after the
+  # weekly video refresh commits new results.
+  workflow_run:
+    workflows: [Refresh recipe videos]
+    types: [completed]
+    branches: [main]
 
 permissions:
   contents: read
@@ -16,6 +22,7 @@ concurrency:
 
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -29,9 +36,6 @@ jobs:
         run: npm ci --legacy-peer-deps
       - name: Build site
         run: npm run build
-        env:
-          # URL of the deployed workers/video-search worker (Settings → Variables).
-          VITE_VIDEO_SEARCH_URL: ${{ vars.VIDEO_SEARCH_URL }}
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:

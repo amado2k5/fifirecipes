@@ -8,6 +8,7 @@
  *    i18n/<lang>.json           card-level translations (title, category, times…)
  *    search/<lang>.json         one lowercase search string per recipe
  *    recipes/<id>.json          a full recipe + its estimate + all its translations
+ *    videos/<id>.json           the YouTube videos found for a recipe (Videos tab)
  *    ingredients/<lang>.json    the master-ingredient registry, localized
  *  public/recipe/<id>/index.html  a static, JavaScript-free page per recipe for
  *                               search engines and link previews (gitignored)
@@ -164,6 +165,21 @@ for (const recipe of orderedRecipes) {
     if (table[recipe.id]) translations[lang] = table[recipe.id];
   }
   put(`recipes/${recipe.id}.json`, { recipe, estimate: RECIPE_ESTIMATES[recipe.id], translations });
+}
+
+// Videos tab: what scripts/recipe-videos/fetch-videos.ts found, fetched by the
+// browser only when the tab is opened. Every recipe with the tab gets a file,
+// so a recipe not searched yet reads as "no videos" rather than an error.
+let recipeVideos: Record<string, { ar: unknown[]; en?: unknown[] }> = {};
+try {
+  recipeVideos = JSON.parse(await readFile('src/data/recipeVideos.json', 'utf-8'));
+} catch {
+  // Not fetched yet.
+}
+for (const recipe of orderedRecipes) {
+  if (recipe.englishOnly) continue;
+  const found = recipeVideos[recipe.id];
+  put(`videos/${recipe.id}.json`, { ar: found?.ar ?? [], ...(found?.en?.length ? { en: found.en } : {}) });
 }
 
 // Master-ingredient registry, localized per language.

@@ -1,13 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import { ExternalLink, Play, RotateCw, Search, X } from 'lucide-react';
+import React, { useEffect, useRef, useState } from 'react';
+import { ChevronLeft, ChevronRight, ExternalLink, Play, RotateCw, Search, X } from 'lucide-react';
 import type { Recipe, SupportedLanguage } from '../types';
 import { getVideoStrings } from '../data/videoTranslations';
 import {
   RecipeVideo,
-  VIDEO_SEARCH_URL,
   getDishSearchName,
-  getLocalizedDishName,
-  searchRecipeVideos,
+  loadVideosFor,
   videoEmbedUrl,
   videoPageUrl,
   videoThumbnail,
@@ -25,26 +23,96 @@ type State = { status: 'loading' } | { status: 'ready'; videos: RecipeVideo[] } 
 
 export const RecipeVideosPanel: React.FC<RecipeVideosPanelProps> = ({ recipe, lang }) => {
   const text = getVideoStrings(lang);
-  // The YouTube search link uses the dish's name in the visitor's language when there is one.
-  const dish = getLocalizedDishName(recipe, lang) ?? getDishSearchName(recipe);
-  const [state, setState] = useState<State>(VIDEO_SEARCH_URL ? { status: 'loading' } : { status: 'ready', videos: [] });
+  const isRtl = lang === 'ar' || lang === 'fa' || lang === 'ur';
+  const [state, setState] = useState<State>({ status: 'loading' });
   const [attempt, setAttempt] = useState(0);
-  const [playing, setPlaying] = useState<RecipeVideo | null>(null);
+  const [current, setCurrent] = useState<number | null>(null);
+  const playerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!VIDEO_SEARCH_URL) return;
     let cancelled = false;
     setState({ status: 'loading' });
-    searchRecipeVideos(recipe, lang).then(
+    setCurrent(null);
+    loadVideosFor(recipe, lang).then(
       videos => !cancelled && setState({ status: 'ready', videos }),
       () => !cancelled && setState({ status: 'error' })
     );
     return () => { cancelled = true; };
   }, [recipe, lang, attempt]);
 
+  // Bring the player into view whenever another video starts.
+  useEffect(() => {
+    if (current !== null) playerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, [current]);
+
+  useEffect(() => {
+    if (current === null) return;
+    const onKey = (event: KeyboardEvent) => event.key === 'Escape' && setCurrent(null);
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [current]);
+
+  const videos = state.status === 'ready' ? state.videos : [];
+  const playing = current !== null ? videos[current] : undefined;
+  const PrevIcon = isRtl ? ChevronRight : ChevronLeft;
+  const NextIcon = isRtl ? ChevronLeft : ChevronRight;
+  const navButton = 'inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-semibold border border-stone-300 bg-white text-stone-800 hover:bg-stone-50 disabled:opacity-40 disabled:pointer-events-none';
+
   return (
     <div className="space-y-4">
       <p className="bg-red-50/70 border border-red-200/80 rounded-2xl p-4 text-xs sm:text-sm text-red-950">{text.intro}</p>
+
+      {playing && current !== null && (
+        <div ref={playerRef} className="scroll-mt-2 rounded-2xl border border-stone-200 bg-stone-950 overflow-hidden">
+          <div className={playing.short ? 'mx-auto h-[min(70vh,calc((100vw-3rem)*16/9))] aspect-[9/16]' : 'w-full aspect-video'}>
+            <iframe
+              key={playing.id}
+              src={videoEmbedUrl(playing)}
+              title={playing.title}
+              className="w-full h-full"
+              allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+              allowFullScreen
+              referrerPolicy="strict-origin-when-cross-origin"
+            />
+          </div>
+          <div className="bg-white p-3 sm:p-4 space-y-3">
+            <div className="flex items-start justify-between gap-3">
+              <div className="min-w-0">
+                <p className="text-sm sm:text-base font-bold text-stone-900 line-clamp-2" dir="auto">{playing.title}</p>
+                {playing.channel && <p className="text-xs text-stone-500 truncate" dir="auto">{playing.channel}</p>}
+              </div>
+              <button
+                onClick={() => setCurrent(null)}
+                className="w-8 h-8 shrink-0 rounded-full bg-stone-100 hover:bg-stone-200 text-stone-700 flex items-center justify-center"
+                aria-label={text.close}
+                title={text.close}
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+            <div className="flex flex-wrap items-center gap-2">
+              <button onClick={() => setCurrent(current - 1)} disabled={current === 0} className={navButton}>
+                <PrevIcon className="w-4 h-4" />
+                {text.previous}
+              </button>
+              <span className="text-xs text-stone-500 tabular-nums" dir="ltr">{current + 1} / {videos.length}</span>
+              <button onClick={() => setCurrent(current + 1)} disabled={current === videos.length - 1} className={navButton}>
+                {text.next}
+                <NextIcon className="w-4 h-4" />
+              </button>
+              <a
+                href={videoPageUrl(playing)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="ms-auto inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold bg-red-600 text-white hover:bg-red-700"
+              >
+                <ExternalLink className="w-3.5 h-3.5" />
+                {text.openOn.replace('{p}', 'YouTube')}
+              </a>
+            </div>
+          </div>
+        </div>
+      )}
 
       {state.status === 'loading' && (
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-3" aria-busy="true" aria-label={text.loading}>
@@ -71,16 +139,20 @@ export const RecipeVideosPanel: React.FC<RecipeVideosPanelProps> = ({ recipe, la
         </div>
       )}
 
-      {state.status === 'ready' && VIDEO_SEARCH_URL && state.videos.length === 0 && (
+      {state.status === 'ready' && videos.length === 0 && (
         <p className="py-6 text-center text-sm text-stone-600">{text.empty}</p>
       )}
 
-      {state.status === 'ready' && state.videos.length > 0 && (
+      {videos.length > 0 && (
         <ul className="grid grid-cols-2 sm:grid-cols-3 gap-x-3 gap-y-4">
-          {state.videos.map(video => (
+          {videos.map((video, index) => (
             <li key={video.id}>
-              <button onClick={() => setPlaying(video)} className="group w-full text-start space-y-1.5">
-                <div className="relative aspect-video rounded-xl overflow-hidden bg-stone-200">
+              <button
+                onClick={() => setCurrent(index)}
+                aria-current={index === current}
+                className="group w-full text-start space-y-1.5"
+              >
+                <div className={`relative aspect-video rounded-xl overflow-hidden bg-stone-200 ${index === current ? 'ring-3 ring-red-600 ring-offset-2' : ''}`}>
                   <img
                     src={videoThumbnail(video)}
                     alt=""
@@ -91,7 +163,7 @@ export const RecipeVideosPanel: React.FC<RecipeVideosPanelProps> = ({ recipe, la
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform"
                   />
                   <span className="absolute inset-0 flex items-center justify-center">
-                    <span className="w-10 h-10 rounded-full bg-black/60 flex items-center justify-center group-hover:bg-red-600 transition-colors">
+                    <span className={`w-10 h-10 rounded-full flex items-center justify-center transition-colors ${index === current ? 'bg-red-600' : 'bg-black/60 group-hover:bg-red-600'}`}>
                       <Play className="w-5 h-5 text-white fill-white" />
                     </span>
                   </span>
@@ -120,7 +192,7 @@ export const RecipeVideosPanel: React.FC<RecipeVideosPanelProps> = ({ recipe, la
           {text.searchOn}
         </span>
         <a
-          href={youtubeSearchUrl(dish)}
+          href={youtubeSearchUrl(getDishSearchName(recipe, lang))}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border border-stone-300 bg-white text-stone-800 hover:bg-stone-50"
@@ -128,58 +200,6 @@ export const RecipeVideosPanel: React.FC<RecipeVideosPanelProps> = ({ recipe, la
           YouTube
           <ExternalLink className="w-3 h-3" />
         </a>
-      </div>
-
-      {playing && <VideoPlayer video={playing} closeLabel={text.close} openLabel={text.openOn.replace('{p}', 'YouTube')} onClose={() => setPlaying(null)} />}
-    </div>
-  );
-};
-
-const VideoPlayer: React.FC<{ video: RecipeVideo; closeLabel: string; openLabel: string; onClose: () => void }> = ({
-  video,
-  closeLabel,
-  openLabel,
-  onClose
-}) => {
-  useEffect(() => {
-    const onKey = (event: KeyboardEvent) => event.key === 'Escape' && onClose();
-    window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
-  }, [onClose]);
-
-  return (
-    <div className="fixed inset-0 z-[60] bg-black/90 flex flex-col items-center justify-center p-3 sm:p-6" onClick={onClose} role="dialog" aria-modal="true" aria-label={video.title}>
-      <div className="w-full max-w-4xl flex flex-col items-center gap-3" onClick={event => event.stopPropagation()}>
-        <div className="w-full flex items-center justify-between gap-3">
-          <a
-            href={videoPageUrl(video)}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs sm:text-sm font-bold bg-red-600 text-white hover:bg-red-700"
-          >
-            <ExternalLink className="w-4 h-4" />
-            {openLabel}
-          </a>
-          <button
-            onClick={onClose}
-            className="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center"
-            aria-label={closeLabel}
-            title={closeLabel}
-          >
-            <X className="w-5 h-5" />
-          </button>
-        </div>
-        <div className={video.short ? 'h-[min(78vh,calc(100vw*16/9))] aspect-[9/16]' : 'w-full aspect-video max-h-[78vh]'}>
-          <iframe
-            src={videoEmbedUrl(video)}
-            title={video.title}
-            className="w-full h-full rounded-xl bg-black"
-            allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
-            allowFullScreen
-            referrerPolicy="strict-origin-when-cross-origin"
-          />
-        </div>
-        <p className="w-full text-sm font-semibold text-white line-clamp-2" dir="auto">{video.title}</p>
       </div>
     </div>
   );

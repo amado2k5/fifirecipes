@@ -1,6 +1,0 @@
-name = "fifi-video-search"
-main = "src/index.ts"
-compatibility_date = "2025-09-01"
-
-[vars]
-ALLOWED_ORIGINS = "https://fifi.cooking,https://www.fifi.cooking,https://amado2k5.github.io,http://localhost:3000,http://localhost:4174"

@@ -1,0 +1,48 @@
+name: Refresh recipe videos
+
+# Searches YouTube for every recipe's Videos tab and commits the results
+# (src/data/recipeVideos.json). The site deploy runs after it on main.
+on:
+  schedule:
+    - cron: '17 3 * * 1' # weekly, Monday 03:17 UTC
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/recipe-videos/**
+      - src/utils/videoQuery.ts
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-recipe-videos-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+      - name: Search YouTube
+        run: npx tsx scripts/recipe-videos/fetch-videos.ts
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add src/data/recipeVideos.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "Refresh recipe videos"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
