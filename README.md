@@ -49,7 +49,7 @@ The results are static files: a weekly GitHub Actions workflow ([refresh-recipe-
 
 ## Cooking with Kids
 
-The **Grown-ups | Cooking with Kids** toggle at the top of the page switches the whole site into a playful kids version in the same language, and back. It shows only recipes that are fun for children to make ([src/data/kids/recipes.ts](src/data/kids/recipes.ts)), with coloured-pencil drawings of every ingredient and step, one short step per screen, read-aloud, timers and a "grown-up helps" badge on every step with a knife, heat or a blender. The link `?kids=1` opens it directly.
+The **Grown-ups | Cooking with Kids** toggle at the top of the page switches the whole site into a playful kids version in the same language, and back. It shows 50 recipes that are fun for children to make ([src/data/kids/](src/data/kids/)), with coloured-pencil drawings of every ingredient and step, one short step per screen, read-aloud, timers and a "grown-up helps" badge on every step with a knife, heat or a blender. The link `?kids=1` opens it directly.
 
 The drawings are small hand-drawn SVGs ([src/kids/art.ts](src/kids/art.ts)); each step's picture is built from an action scene plus the step's ingredients ([src/kids/KidsArt.tsx](src/kids/KidsArt.tsx)). Kids mode is loaded only when it is opened, and it is offered only in languages whose kids recipes are translated ([src/kids/languages.ts](src/kids/languages.ts)); the build stops if a drawing or translation is missing.
 

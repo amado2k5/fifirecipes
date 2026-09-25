@@ -84,8 +84,8 @@ export const SCENES: Record<string, Scene> = {
   mash: { layout: 'tool', base: 'bowl', tool: 'fork', marks: ['zig'] },
   spread: { layout: 'tool', base: 'toast', tool: 'butter-knife', marks: ['zig'] },
   cut: { layout: 'tool', base: 'board', tool: 'knife', marks: ['cut'] },
-  cook: { layout: 'stove', tool: 'spatula', marks: ['sidesteam'] },
-  flip: { layout: 'stove', tool: 'spatula', marks: ['flip'] },
+  cook: { layout: 'stove', base: 'pan', tool: 'spatula', marks: ['sidesteam'] },
+  flip: { layout: 'stove', base: 'pan', tool: 'spatula', marks: ['flip'] },
   bake: { layout: 'appliance', base: 'oven', marks: ['heat'] },
   microwave: { layout: 'appliance', base: 'microwave', marks: ['waves'] },
   blend: { layout: 'appliance', base: 'blender', marks: ['zig'] },
@@ -97,6 +97,19 @@ export const SCENES: Record<string, Scene> = {
   knead: { layout: 'hands', marks: ['zig'] },
   roll: { layout: 'hands', marks: ['roll'] },
   press: { layout: 'hands', marks: ['down'] },
+  tear: { layout: 'hands', marks: ['strips'] },
+  wrap: { layout: 'hands', marks: ['roll'] },
+  shake: { layout: 'hands', marks: ['zig'] },
+  fold: { layout: 'hands', marks: ['flip'] },
+  rub: { layout: 'hands', marks: ['zig'] },
+  scoop: { layout: 'into', base: 'bowl', marks: ['down'] },
+  stack: { layout: 'into', base: 'plate', marks: ['down'] },
+  'roll-out': { layout: 'tool', base: 'baking-paper', tool: 'rolling-pin', marks: ['zig'] },
+  shape: { layout: 'tool', base: 'board', tool: 'cookie-cutter', marks: ['down'] },
+  stamp: { layout: 'tool', base: 'board', tool: 'cookie-mold', marks: ['down'] },
+  boil: { layout: 'stove', base: 'pot', marks: ['steam'] },
+  simmer: { layout: 'stove', base: 'pot', tool: 'spoon', marks: ['steam'] },
+  toast: { layout: 'appliance', base: 'toaster', marks: ['heat'] },
   arrange: { layout: 'onto', base: 'plate', marks: ['sparkle'] },
   thread: { layout: 'skewer', marks: ['sparkle'] },
   cool: { layout: 'wait', marks: ['steam'] },
@@ -108,7 +121,8 @@ const APPLIANCE_SLOT: Record<string, { x: number; y: number; size: number }> = {
   oven: { x: 28, y: 36, size: 44 },
   microwave: { x: 20, y: 28, size: 46 },
   blender: { x: 28, y: 14, size: 44 },
-  fridge: { x: -62, y: 30, size: 50 }
+  fridge: { x: -62, y: 30, size: 50 },
+  toaster: { x: 24, y: -14, size: 40 }
 };
 
 const MARKS: Record<Mark, string> = {
@@ -184,9 +198,15 @@ export const StepPicture: React.FC<StepPictureProps> = ({ act, items = [], on, t
     }
     case 'stove':
       pieces.push({ id: 'stove', x: 24, y: 16, size: 104 });
-      pieces.push({ id: 'pan', x: 46, y: 18, size: 64 });
-      shown.slice(0, 1).forEach(id => pieces.push({ id, x: 57, y: 30, size: 30 }));
-      pieces.push({ id: tool ?? scene.tool!, x: 106, y: 4, size: 50, rotate: 35 });
+      if (base === 'pot') {
+        // What goes into the pot is shown tipping in from the side.
+        pieces.push({ id: 'pot', x: 46, y: 8, size: 60 });
+        shown.slice(0, 2).forEach((id, i) => pieces.push({ id, x: 4 + i * 6, y: 4 + i * 34, size: 34, rotate: 30 }));
+      } else {
+        pieces.push({ id: 'pan', x: 46, y: 18, size: 64 });
+        shown.slice(0, 1).forEach(id => pieces.push({ id, x: 57, y: 30, size: 30 }));
+      }
+      if (tool ?? scene.tool) pieces.push({ id: tool ?? scene.tool!, x: 106, y: 4, size: 50, rotate: 35 });
       break;
     case 'hands':
       pieces.push({ id: 'hands', x: 36, y: 40, size: 88 });
