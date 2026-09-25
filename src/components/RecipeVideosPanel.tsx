@@ -64,7 +64,12 @@ export const RecipeVideosPanel: React.FC<RecipeVideosPanelProps> = ({ recipe, la
 
       {playing && current !== null && (
         <div ref={playerRef} className="scroll-mt-2 rounded-2xl border border-stone-200 bg-stone-950 overflow-hidden">
-          <div className={playing.short ? 'mx-auto h-[min(70vh,calc((100vw-3rem)*16/9))] aspect-[9/16]' : 'w-full aspect-video'}>
+          {/* Sized to the modal's visible area so the controls stay on screen on small phones. */}
+          <div
+            className={playing.short
+              ? 'mx-auto h-[40vh] [@media(max-height:420px)]:h-[26vh] aspect-[9/16]'
+              : 'mx-auto w-full max-w-[calc(45vh*16/9)] [@media(max-height:420px)]:max-w-[calc(26vh*16/9)] aspect-video'}
+          >
             <iframe
               key={playing.id}
               src={videoEmbedUrl(playing)}
@@ -75,12 +80,28 @@ export const RecipeVideosPanel: React.FC<RecipeVideosPanelProps> = ({ recipe, la
               referrerPolicy="strict-origin-when-cross-origin"
             />
           </div>
-          <div className="bg-white p-3 sm:p-4 space-y-3">
-            <div className="flex items-start justify-between gap-3">
-              <div className="min-w-0">
-                <p className="text-sm sm:text-base font-bold text-stone-900 line-clamp-2" dir="auto">{playing.title}</p>
-                {playing.channel && <p className="text-xs text-stone-500 truncate" dir="auto">{playing.channel}</p>}
-              </div>
+          <div className="bg-white p-2 sm:p-3 space-y-2">
+            <div className="flex items-center gap-1.5 sm:gap-2">
+              <button onClick={() => setCurrent(current - 1)} disabled={current === 0} className={navButton} aria-label={text.previous} title={text.previous}>
+                <PrevIcon className="w-4 h-4" />
+                <span className="hidden sm:inline">{text.previous}</span>
+              </button>
+              <span className="text-xs text-stone-500 tabular-nums" dir="ltr">{current + 1} / {videos.length}</span>
+              <button onClick={() => setCurrent(current + 1)} disabled={current === videos.length - 1} className={navButton} aria-label={text.next} title={text.next}>
+                <span className="hidden sm:inline">{text.next}</span>
+                <NextIcon className="w-4 h-4" />
+              </button>
+              <a
+                href={videoPageUrl(playing)}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={text.openOn.replace('{p}', 'YouTube')}
+                className="ms-auto inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold bg-red-600 text-white hover:bg-red-700"
+              >
+                <ExternalLink className="w-3.5 h-3.5" />
+                <span className="sm:hidden">YouTube</span>
+                <span className="hidden sm:inline">{text.openOn.replace('{p}', 'YouTube')}</span>
+              </a>
               <button
                 onClick={() => setCurrent(null)}
                 className="w-8 h-8 shrink-0 rounded-full bg-stone-100 hover:bg-stone-200 text-stone-700 flex items-center justify-center"
@@ -90,25 +111,9 @@ export const RecipeVideosPanel: React.FC<RecipeVideosPanelProps> = ({ recipe, la
                 <X className="w-4 h-4" />
               </button>
             </div>
-            <div className="flex flex-wrap items-center gap-2">
-              <button onClick={() => setCurrent(current - 1)} disabled={current === 0} className={navButton}>
-                <PrevIcon className="w-4 h-4" />
-                {text.previous}
-              </button>
-              <span className="text-xs text-stone-500 tabular-nums" dir="ltr">{current + 1} / {videos.length}</span>
-              <button onClick={() => setCurrent(current + 1)} disabled={current === videos.length - 1} className={navButton}>
-                {text.next}
-                <NextIcon className="w-4 h-4" />
-              </button>
-              <a
-                href={videoPageUrl(playing)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="ms-auto inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold bg-red-600 text-white hover:bg-red-700"
-              >
-                <ExternalLink className="w-3.5 h-3.5" />
-                {text.openOn.replace('{p}', 'YouTube')}
-              </a>
+            <div className="min-w-0 px-1">
+              <p className="text-sm sm:text-base font-bold text-stone-900 line-clamp-2" dir="auto">{playing.title}</p>
+              {playing.channel && <p className="text-xs text-stone-500 truncate" dir="auto">{playing.channel}</p>}
             </div>
           </div>
         </div>
