@@ -3,292 +3,1020 @@
     "num": 342,
     "page": 149,
     "title": "Brown Onion Sauce (Salsa Bunniya)",
+    "titleAr": "صلصة بنية بالبصل",
     "category": "savory",
     "method": "simmer",
     "prep": "5 min",
+    "prepAr": "5 دقائق",
     "cook": "20 min",
+    "cookAr": "20 دقيقة",
     "difficulty": "easy",
     "ingredients": [
-      ["Butter", "1 tablespoon", "dairy_fat"],
-      ["Oil", "1 teaspoon", "dairy_fat"],
-      ["Flour", "1 heaped tablespoon", "grain_starch"],
-      ["Onion, finely chopped", "1", "vegetable"],
-      ["Stock", "1 cup, plus more as needed", "liquid"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Butter",
+        "1 tablespoon",
+        "dairy_fat",
+        "زبدة",
+        "1 ملعقة كبيرة"
+      ],
+      [
+        "Oil",
+        "1 teaspoon",
+        "dairy_fat",
+        "زيت",
+        "1 ملعقة صغيرة"
+      ],
+      [
+        "Flour",
+        "1 heaped tablespoon",
+        "grain_starch",
+        "دقيق",
+        "1 ملعقة كبيرة ممتلئة"
+      ],
+      [
+        "Onion, finely chopped",
+        "1",
+        "vegetable",
+        "بصلة مفرومة ناعماً",
+        "1"
+      ],
+      [
+        "Stock",
+        "1 cup, plus more as needed",
+        "liquid",
+        "مرقة",
+        "1 كوب، وأكثر حسب الحاجة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      "Melt the butter with the oil over a low heat and fry the onion until deep brown. Lift the onion out and set aside.",
-      "Stir the flour into the fat until well blended and cook it.",
-      "Add the stock a little at a time, stirring constantly, until you have a smooth, thin cream.",
-      ["Return the onion, season, and cook on, adding more stock for a thin, smooth sauce.", "finish"]
+      [
+        "Melt the butter with the oil over a low heat and fry the onion until deep brown. Lift the onion out and set aside.",
+        "ذوّب الزبدة مع الزيت على نار هادئة وحمّر البصل حتى يصبح بنياً غامقاً. ارفع البصل وضعه جانباً.",
+        "cook"
+      ],
+      [
+        "Stir the flour into the fat until well blended and cook it.",
+        "أضف الدقيق إلى الدهن وقلّب حتى يمتزج جيداً ويتسوى.",
+        "cook"
+      ],
+      [
+        "Add the stock a little at a time, stirring constantly, until you have a smooth, thin cream.",
+        "أضف المرقة تدريجياً مع التقليب المستمر حتى تحصل على كريمة ناعمة خفيفة.",
+        "cook"
+      ],
+      [
+        "Return the onion, season, and cook on, adding more stock for a thin, smooth sauce.",
+        "أعد البصل، وتبّل، واتركها على النار مع إضافة مزيد من المرقة لتحصل على صلصة خفيفة ناعمة.",
+        "finish"
+      ]
     ]
   },
   {
     "num": 344,
     "page": 150,
     "title": "Dried Kishk Cakes for Storing (Kishk li-l-Takhzin)",
+    "titleAr": "أقراص كشك ناشف للتخزين",
     "category": "savory",
     "method": "preserve",
     "prep": "30 min",
+    "prepAr": "30 دقيقة",
     "cook": "about 1–2 weeks fermenting and drying",
+    "cookAr": "حوالي 1–2 أسبوع تخمير وتجفيف",
     "difficulty": "master",
     "ingredients": [
-      ["Milk", "2 cups", "dairy_fat"],
-      ["Salt", "1 tablespoon", "spice_seasoning"],
-      ["Flour, sifted", "enough for a stiff dough", "grain_starch"]
+      [
+        "Milk",
+        "2 cups",
+        "dairy_fat",
+        "لبن حليب",
+        "2 كوب"
+      ],
+      [
+        "Salt",
+        "1 tablespoon",
+        "spice_seasoning",
+        "ملح",
+        "1 ملعقة كبيرة"
+      ],
+      [
+        "Flour, sifted",
+        "enough for a stiff dough",
+        "grain_starch",
+        "دقيق منخول",
+        "كمية تكفي لعجينة متماسكة"
+      ]
     ],
     "steps": [
-      ["Dissolve the salt in the milk.", "prep"],
-      "Gradually work in the sifted flour until you have a thick dough that comes cleanly away from the bowl.",
-      "Leave it to ferment for 4–5 days, sprinkling flour over the top.",
-      "Shape it into small, flat round cakes and dry them in the open air for a few days, turning each cake twice a day, until very hard.",
-      ["Store in a tightly closed box, as cakes or pounded to a powder, ready to cook into kishk.", "finish"],
-      ["With yogurt (recipe 345 in the book): make it the same way with yogurt instead of milk. As yogurt is already fermented it needs only 2–3 days, and the taste is quite different.", "alternative"],
-      ["Upper Egyptian kishk (recipe 346 in the book): rinse fine bulgur and spread it to dry, then cover it with salted soured milk in a large earthenware pot for 5 days, adding more soured milk every 24 hours. On the sixth day knead it into a stiff dough, shape small round cakes and dry them the same way.", "alternative"]
+      [
+        "Dissolve the salt in the milk.",
+        "ذوّب الملح في اللبن.",
+        "prep"
+      ],
+      [
+        "Gradually work in the sifted flour until you have a thick dough that comes cleanly away from the bowl.",
+        "أضف الدقيق المنخول تدريجياً واعجن حتى تحصل على عجينة كثيفة لا تلتصق بالوعاء.",
+        "cook"
+      ],
+      [
+        "Leave it to ferment for 4–5 days, sprinkling flour over the top.",
+        "اتركها تتخمر 4–5 أيام، مع رش الدقيق على وجهها.",
+        "cook"
+      ],
+      [
+        "Shape it into small, flat round cakes and dry them in the open air for a few days, turning each cake twice a day, until very hard.",
+        "شكّلها أقراصاً صغيرة مستديرة ومسطحة، وجفّفها في الهواء الطلق بضعة أيام مع تقليب كل قرص مرتين يومياً حتى تصبح صلبة جداً.",
+        "cook"
+      ],
+      [
+        "Store in a tightly closed box, as cakes or pounded to a powder, ready to cook into kishk.",
+        "خزّنها في علبة محكمة الغلق، أقراصاً أو مدقوقة بودرة، جاهزة لطهي الكشك.",
+        "finish"
+      ],
+      [
+        "With yogurt (recipe 345 in the book): make it the same way with yogurt instead of milk. As yogurt is already fermented it needs only 2–3 days, and the taste is quite different.",
+        "بالزبادي (الوصفة 345 في الكتاب): حضّرها بنفس الطريقة باستخدام الزبادي بدلاً من اللبن. ولأن الزبادي متخمر أصلاً فهو يحتاج 2–3 أيام فقط، وطعمه مختلف تماماً.",
+        "alternative"
+      ],
+      [
+        "Upper Egyptian kishk (recipe 346 in the book): rinse fine bulgur and spread it to dry, then cover it with salted soured milk in a large earthenware pot for 5 days, adding more soured milk every 24 hours. On the sixth day knead it into a stiff dough, shape small round cakes and dry them the same way.",
+        "الكشك الصعيدي (الوصفة 346 في الكتاب): اشطف برغلاً ناعماً وافرده ليجف، ثم غطّه بلبن رائب مملح في زلعة فخار كبيرة 5 أيام، مع إضافة مزيد من اللبن الرائب كل 24 ساعة. في اليوم السادس اعجنه عجينة متماسكة، وشكّله أقراصاً صغيرة مستديرة وجفّفها بنفس الطريقة.",
+        "alternative"
+      ]
     ],
-    "notes": "Kishk cakes keep for months. Soaked and cooked in broth, they become the cold kishk sauce served with fried onions."
+    "notes": "Kishk cakes keep for months. Soaked and cooked in broth, they become the cold kishk sauce served with fried onions.",
+    "notesAr": "تُحفظ أقراص الكشك شهوراً. وعند نقعها وطهيها في المرقة تصبح صلصة الكشك التي تُقدَّم باردة مع البصل المحمر."
   },
   {
     "num": 353,
     "page": 152,
     "title": "Cypriot Garlic and Almond Sauce (Skordalia)",
+    "titleAr": "صلصة الثوم واللوز القبرصية (سكورداليا)",
     "category": "savory",
     "method": "noCook",
     "prep": "20 min",
+    "prepAr": "20 دقيقة",
     "difficulty": "easy",
     "ingredients": [
-      ["Garlic cloves, crushed", "10", "vegetable"],
-      ["White vinegar", "2 tablespoons", "liquid"],
-      ["Lemon juice", "1 tablespoon", "liquid"],
-      ["Olive oil", "2 tablespoons", "dairy_fat"],
-      ["Almonds, crushed", "2 tablespoons", "other"],
-      ["Stale bread", "a chunk", "grain_starch"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Garlic cloves, crushed",
+        "10",
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "10"
+      ],
+      [
+        "White vinegar",
+        "2 tablespoons",
+        "liquid",
+        "خل أبيض",
+        "2 ملعقة كبيرة"
+      ],
+      [
+        "Lemon juice",
+        "1 tablespoon",
+        "liquid",
+        "عصير ليمون",
+        "1 ملعقة كبيرة"
+      ],
+      [
+        "Olive oil",
+        "2 tablespoons",
+        "dairy_fat",
+        "زيت زيتون",
+        "2 ملعقة كبيرة"
+      ],
+      [
+        "Almonds, crushed",
+        "2 tablespoons",
+        "other",
+        "لوز مجروش",
+        "2 ملعقة كبيرة"
+      ],
+      [
+        "Stale bread",
+        "a chunk",
+        "grain_starch",
+        "خبز بائت",
+        "قطعة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Sprinkle the bread with water, squeeze it out and crumble it into a bowl.", "prep"],
-      "Soak the garlic in the vinegar for 10 minutes, then add it to the bread with the almonds, salt and pepper.",
-      ["Beat in the lemon juice and oil alternately, in thin streams, until the sauce is as thick as custard.", "finish"]
+      [
+        "Sprinkle the bread with water, squeeze it out and crumble it into a bowl.",
+        "رشّ الخبز بالماء، واعصره، وفتّته في وعاء.",
+        "prep"
+      ],
+      [
+        "Soak the garlic in the vinegar for 10 minutes, then add it to the bread with the almonds, salt and pepper.",
+        "انقع الثوم في الخل 10 دقائق، ثم أضفه إلى الخبز مع اللوز والملح والفلفل.",
+        "cook"
+      ],
+      [
+        "Beat in the lemon juice and oil alternately, in thin streams, until the sauce is as thick as custard.",
+        "أضف عصير الليمون والزيت بالتبادل، في خيط رفيع مع الخفق، حتى تصبح الصلصة بقوام الكاسترد.",
+        "finish"
+      ]
     ],
-    "notes": "A Cypriot sauce."
+    "notes": "A Cypriot sauce.",
+    "notesAr": "صلصة قبرصية."
   },
   {
     "num": 354,
     "page": 153,
     "title": "Turkish Hazelnut Tarator Sauce",
+    "titleAr": "صلصة طراطور تركية بالبندق",
     "category": "savory",
     "method": "noCook",
     "prep": "15 min + chilling",
+    "prepAr": "15 دقيقة + التبريد",
     "difficulty": "easy",
     "ingredients": [
-      ["Ground hazelnuts", "1 cup", "other"],
-      ["Stale bread", "a chunk", "grain_starch"],
-      ["Garlic cloves, crushed", "3–5", "vegetable"],
-      ["Olive oil", "1 cup", "dairy_fat"],
-      ["White vinegar", "2 tablespoons", "liquid"],
-      ["Salt", "to taste", "spice_seasoning"]
+      [
+        "Ground hazelnuts",
+        "1 cup",
+        "other",
+        "بندق مطحون",
+        "1 كوب"
+      ],
+      [
+        "Stale bread",
+        "a chunk",
+        "grain_starch",
+        "خبز بائت",
+        "قطعة"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "3–5",
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "3–5"
+      ],
+      [
+        "Olive oil",
+        "1 cup",
+        "dairy_fat",
+        "زيت زيتون",
+        "1 كوب"
+      ],
+      [
+        "White vinegar",
+        "2 tablespoons",
+        "liquid",
+        "خل أبيض",
+        "2 ملعقة كبيرة"
+      ],
+      [
+        "Salt",
+        "to taste",
+        "spice_seasoning",
+        "ملح",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Sprinkle the bread with water, squeeze it out and crumble it into a bowl. Add the hazelnuts and garlic.", "prep"],
-      "Beat in the vinegar, salt and oil alternately, in a thin stream, until the sauce is like a thin custard.",
-      ["Chill before using.", "finish"],
-      ["Hazelnuts are the original, but a mix of pine nuts, almonds and/or walnuts is also used, in which case use lemon juice instead of vinegar.", "alternative"]
+      [
+        "Sprinkle the bread with water, squeeze it out and crumble it into a bowl. Add the hazelnuts and garlic.",
+        "رشّ الخبز بالماء، واعصره، وفتّته في وعاء. أضف البندق والثوم.",
+        "prep"
+      ],
+      [
+        "Beat in the vinegar, salt and oil alternately, in a thin stream, until the sauce is like a thin custard.",
+        "أضف الخل والملح والزيت بالتبادل، في خيط رفيع مع الخفق، حتى تصبح الصلصة مثل كاسترد خفيف.",
+        "cook"
+      ],
+      [
+        "Chill before using.",
+        "برّدها قبل الاستخدام.",
+        "finish"
+      ],
+      [
+        "Hazelnuts are the original, but a mix of pine nuts, almonds and/or walnuts is also used, in which case use lemon juice instead of vinegar.",
+        "البندق هو الأصل، لكن يُستخدم أيضاً خليط من الصنوبر واللوز و/أو عين الجمل، وفي هذه الحالة استخدم عصير الليمون بدلاً من الخل.",
+        "alternative"
+      ]
     ],
-    "notes": "A Turkish sauce, served with fried fish and vegetables."
+    "notes": "A Turkish sauce, served with fried fish and vegetables.",
+    "notesAr": "صلصة تركية تُقدَّم مع السمك والخضار المقلية."
   },
   {
     "num": 355,
     "page": 153,
     "title": "Gulf Spiced Onion Sauce for Grilled Meat (Sharmoola)",
+    "titleAr": "شرمولة خليجية (صلصة بصل متبلة للمشويات)",
     "category": "savory",
     "method": "fry",
     "prep": "10 min",
+    "prepAr": "10 دقائق",
     "cook": "15 min",
+    "cookAr": "15 دقيقة",
     "difficulty": "easy",
     "ingredients": [
-      ["Onions, very thinly sliced", "2", "vegetable"],
-      ["Garlic cloves, crushed", "5–7", "vegetable"],
-      ["Parsley, chopped", "1 tablespoon", "vegetable"],
-      ["Coriander leaves, chopped", "1 tablespoon", "vegetable"],
-      ["Ground ginger", "a dash", "spice_seasoning"],
-      ["Saffron powder", "a dash", "spice_seasoning"],
-      ["Cumin", "a dash", "spice_seasoning"],
-      ["Hot pepper", "a dash", "spice_seasoning"],
-      ["Cooking oil", "as needed", "dairy_fat"],
-      ["Salt", "to taste", "spice_seasoning"]
+      [
+        "Onions, very thinly sliced",
+        "2",
+        "vegetable",
+        "بصل مقطع شرائح رفيعة جداً",
+        "2"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "5–7",
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "5–7"
+      ],
+      [
+        "Parsley, chopped",
+        "1 tablespoon",
+        "vegetable",
+        "بقدونس مفروم",
+        "1 ملعقة كبيرة"
+      ],
+      [
+        "Coriander leaves, chopped",
+        "1 tablespoon",
+        "vegetable",
+        "ورق كزبرة خضراء مفروم",
+        "1 ملعقة كبيرة"
+      ],
+      [
+        "Ground ginger",
+        "a dash",
+        "spice_seasoning",
+        "زنجبيل مطحون",
+        "رشة"
+      ],
+      [
+        "Saffron powder",
+        "a dash",
+        "spice_seasoning",
+        "زعفران مطحون",
+        "رشة"
+      ],
+      [
+        "Cumin",
+        "a dash",
+        "spice_seasoning",
+        "كمون",
+        "رشة"
+      ],
+      [
+        "Hot pepper",
+        "a dash",
+        "spice_seasoning",
+        "شطة",
+        "رشة"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat",
+        "زيت للطهي",
+        "حسب الحاجة"
+      ],
+      [
+        "Salt",
+        "to taste",
+        "spice_seasoning",
+        "ملح",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      "Heat the oil and cook the ginger, saffron, cumin and hot pepper in it for 1–2 minutes.",
-      "Lower the heat and add the onions, salt, garlic, parsley and coriander.",
-      ["Cook, stirring constantly, until everything is soft and well blended.", "finish"]
+      [
+        "Heat the oil and cook the ginger, saffron, cumin and hot pepper in it for 1–2 minutes.",
+        "سخّن الزيت وقلّب فيه الزنجبيل والزعفران والكمون والشطة دقيقة أو دقيقتين.",
+        "cook"
+      ],
+      [
+        "Lower the heat and add the onions, salt, garlic, parsley and coriander.",
+        "اخفض النار وأضف البصل والملح والثوم والبقدونس والكزبرة.",
+        "cook"
+      ],
+      [
+        "Cook, stirring constantly, until everything is soft and well blended.",
+        "اتركها على النار مع التقليب المستمر حتى يلين كل شيء ويمتزج جيداً.",
+        "finish"
+      ]
     ],
-    "notes": "From the Gulf States, where it is served especially with game and camel meat."
+    "notes": "From the Gulf States, where it is served especially with game and camel meat.",
+    "notesAr": "من دول الخليج، حيث تُقدَّم خاصة مع لحوم الصيد ولحم الجمل."
   },
   {
     "num": 356,
     "page": 154,
     "title": "Cypriot Tomato Sauce with Cinnamon and Bay (Saltsa Tomata)",
+    "titleAr": "صلصة طماطم قبرصية بالقرفة وورق اللورا",
     "category": "savory",
     "method": "simmer",
     "prep": "10 min",
+    "prepAr": "10 دقائق",
     "cook": "30 min",
+    "cookAr": "30 دقيقة",
     "difficulty": "easy",
     "ingredients": [
-      ["Tomatoes, peeled and diced", "3", "vegetable"],
-      ["Tomato paste", "2 tablespoons", "vegetable"],
-      ["Onion, very finely chopped", "1", "vegetable"],
-      ["Sugar", "1 teaspoon", "sweet_fruit"],
-      ["Bay leaf", "1", "spice_seasoning"],
-      ["Cinnamon bark", "1 piece", "spice_seasoning"],
-      ["Cooking fat or oil", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Tomatoes, peeled and diced",
+        "3",
+        "vegetable",
+        "طماطم مقشرة ومقطعة مكعبات",
+        "3"
+      ],
+      [
+        "Tomato paste",
+        "2 tablespoons",
+        "vegetable",
+        "معجون طماطم",
+        "2 ملعقة كبيرة"
+      ],
+      [
+        "Onion, very finely chopped",
+        "1",
+        "vegetable",
+        "بصلة مفرومة ناعماً جداً",
+        "1"
+      ],
+      [
+        "Sugar",
+        "1 teaspoon",
+        "sweet_fruit",
+        "سكر",
+        "1 ملعقة صغيرة"
+      ],
+      [
+        "Bay leaf",
+        "1",
+        "spice_seasoning",
+        "ورقة لورا",
+        "1"
+      ],
+      [
+        "Cinnamon bark",
+        "1 piece",
+        "spice_seasoning",
+        "عود قرفة",
+        "1 قطعة"
+      ],
+      [
+        "Cooking fat or oil",
+        "as needed",
+        "dairy_fat",
+        "سمن أو زيت للطهي",
+        "حسب الحاجة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      "Fry the onion until golden, add the tomatoes and cook for 3–5 minutes.",
-      "Thin the tomato paste with an equal amount of water and add it with the sugar, bay leaf, cinnamon, salt and pepper.",
-      "Cook uncovered for 20 minutes, until thick.",
-      ["Remove the bay leaf and cinnamon before using.", "finish"]
+      [
+        "Fry the onion until golden, add the tomatoes and cook for 3–5 minutes.",
+        "حمّر البصل حتى يصبح ذهبياً، وأضف الطماطم واتركها 3–5 دقائق.",
+        "cook"
+      ],
+      [
+        "Thin the tomato paste with an equal amount of water and add it with the sugar, bay leaf, cinnamon, salt and pepper.",
+        "خفّف معجون الطماطم بكمية مساوية من الماء، وأضفه مع السكر وورقة اللورا والقرفة والملح والفلفل.",
+        "cook"
+      ],
+      [
+        "Cook uncovered for 20 minutes, until thick.",
+        "اتركها دون غطاء 20 دقيقة حتى تتكاثف.",
+        "cook"
+      ],
+      [
+        "Remove the bay leaf and cinnamon before using.",
+        "انزع ورقة اللورا والقرفة قبل الاستخدام.",
+        "finish"
+      ]
     ],
-    "notes": "A Cypriot sauce."
+    "notes": "A Cypriot sauce.",
+    "notesAr": "صلصة قبرصية."
   },
   {
     "num": 361,
     "page": 156,
     "title": "Crabs Steamed with Lemon and Onion (Kaburya)",
+    "titleAr": "كابوريا مطهوة بالليمون والبصل",
     "category": "fish",
     "method": "simmer",
     "prep": "10 min",
+    "prepAr": "10 دقائق",
     "cook": "10 min",
+    "cookAr": "10 دقائق",
     "difficulty": "easy",
     "ingredients": [
-      ["Crabs", "4–6", "seafood"],
-      ["Onions, quartered", "3", "vegetable"],
-      ["Lemons, chopped with their rinds", "2–3", "sweet_fruit"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Crabs",
+        "4–6",
+        "seafood",
+        "كابوريا",
+        "4–6"
+      ],
+      [
+        "Onions, quartered",
+        "3",
+        "vegetable",
+        "بصل مقطع أرباعاً",
+        "3"
+      ],
+      [
+        "Lemons, chopped with their rinds",
+        "2–3",
+        "sweet_fruit",
+        "ليمون مقطع بقشره",
+        "2–3"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Wash the crabs under running water.", "prep"],
-      "Put everything in a pot, without any water, over a low heat.",
-      "Toss from time to time; depending on their size the crabs should be done in 7–10 minutes.",
-      ["Eat them just as they are: crack the shells of the body and legs and pick out the meat.", "finish"]
+      [
+        "Wash the crabs under running water.",
+        "اغسل الكابوريا تحت ماء جارٍ.",
+        "prep"
+      ],
+      [
+        "Put everything in a pot, without any water, over a low heat.",
+        "ضع كل المكونات في حلة، بدون ماء، على نار هادئة.",
+        "cook"
+      ],
+      [
+        "Toss from time to time; depending on their size the crabs should be done in 7–10 minutes.",
+        "قلّبها من حين لآخر، وحسب حجمها يجب أن تنضج الكابوريا خلال 7–10 دقائق.",
+        "cook"
+      ],
+      [
+        "Eat them just as they are: crack the shells of the body and legs and pick out the meat.",
+        "كُلها كما هي: اكسر قشر الجسم والأرجل واستخرج اللحم.",
+        "finish"
+      ]
     ]
   },
   {
     "num": 364,
     "page": 157,
     "title": "Cumin Batter-Fried Baby Shrimp (Gambari Ma’li)",
+    "titleAr": "جمبري صغير مقلي بعجينة الكمون",
     "category": "fish",
     "method": "fry",
     "prep": "20 min",
+    "prepAr": "20 دقيقة",
     "cook": "15 min",
+    "cookAr": "15 دقيقة",
     "difficulty": "easy",
     "ingredients": [
-      ["Very small shrimp", "1 kg", "seafood"],
-      ["Flour", "2 tablespoons", "grain_starch"],
-      ["Milk", "1/2 cup", "dairy_fat"],
-      ["Water", "1 cup", "liquid"],
-      ["Egg", "1", "dairy_fat"],
-      ["Cumin", "1 teaspoon, plus extra to finish", "spice_seasoning"],
-      ["Oil", "for deep-frying", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Very small shrimp",
+        "1 kg",
+        "seafood",
+        "جمبري صغير جداً",
+        "1 كيلو"
+      ],
+      [
+        "Flour",
+        "2 tablespoons",
+        "grain_starch",
+        "دقيق",
+        "2 ملعقة كبيرة"
+      ],
+      [
+        "Milk",
+        "1/2 cup",
+        "dairy_fat",
+        "لبن حليب",
+        "نصف كوب"
+      ],
+      [
+        "Water",
+        "1 cup",
+        "liquid",
+        "ماء",
+        "1 كوب"
+      ],
+      [
+        "Egg",
+        "1",
+        "dairy_fat",
+        "بيضة",
+        "1"
+      ],
+      [
+        "Cumin",
+        "1 teaspoon, plus extra to finish",
+        "spice_seasoning",
+        "كمون",
+        "1 ملعقة صغيرة، وقليل للرش في النهاية"
+      ],
+      [
+        "Oil",
+        "for deep-frying",
+        "dairy_fat",
+        "زيت",
+        "للقلي الغزير"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Wash the shrimp well and peel them.", "prep"],
-      "Mix the flour, milk, water, egg and cumin into a thin batter.",
-      "Dip the shrimp in the batter and deep-fry in very hot oil.",
-      ["Drain on absorbent paper and sprinkle with salt and cumin.", "finish"]
+      [
+        "Wash the shrimp well and peel them.",
+        "اغسل الجمبري جيداً وقشّره.",
+        "prep"
+      ],
+      [
+        "Mix the flour, milk, water, egg and cumin into a thin batter.",
+        "اخلط الدقيق واللبن والماء والبيضة والكمون حتى تحصل على عجينة سائلة خفيفة.",
+        "cook"
+      ],
+      [
+        "Dip the shrimp in the batter and deep-fry in very hot oil.",
+        "اغمس الجمبري في العجينة واقله في زيت غزير ساخن جداً.",
+        "cook"
+      ],
+      [
+        "Drain on absorbent paper and sprinkle with salt and cumin.",
+        "صفّه على ورق ماص ورشّه بالملح والكمون.",
+        "finish"
+      ]
     ]
   },
   {
     "num": 366,
     "page": 158,
     "title": "Egyptian Chicken Soup with Mastic and Cardamom (Shurbit Firakh)",
+    "titleAr": "شوربة فراخ مصرية بالمستكة والحبهان",
     "category": "soups",
     "method": "boil",
     "prep": "10 min",
+    "prepAr": "10 دقائق",
     "cook": "1 hour",
+    "cookAr": "ساعة واحدة",
     "difficulty": "easy",
     "ingredients": [
-      ["Chicken", "1", "meat_poultry"],
-      ["Onions, quartered", "1–2", "vegetable"],
-      ["Cardamom pods", "3–5", "spice_seasoning"],
-      ["Mastic grains", "3–5", "spice_seasoning"],
-      ["Rice or crushed vermicelli", "1/2 cup", "grain_starch"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Chicken",
+        "1",
+        "meat_poultry",
+        "فرخة",
+        "1"
+      ],
+      [
+        "Onions, quartered",
+        "1–2",
+        "vegetable",
+        "بصل مقطع أرباعاً",
+        "1–2"
+      ],
+      [
+        "Cardamom pods",
+        "3–5",
+        "spice_seasoning",
+        "حبات حبهان",
+        "3–5"
+      ],
+      [
+        "Mastic grains",
+        "3–5",
+        "spice_seasoning",
+        "حبات مستكة",
+        "3–5"
+      ],
+      [
+        "Rice or crushed vermicelli",
+        "1/2 cup",
+        "grain_starch",
+        "أرز أو شعرية مكسرة",
+        "نصف كوب"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Tie the cardamom and mastic in a muslin bag.", "prep"],
-      "Bring 3 cups of water to the boil with the onions and spice bag.",
-      "Lower in the chicken, season and turn down the heat.",
-      "When the chicken is tender, lift it out, discard the spice bag and mash the onion into the broth.",
-      ["Add the rice or vermicelli and cook for 12–15 minutes.", "finish"],
-      ["Palestinian version (recipe 367 in the book): just before serving, add 1–2 tablespoons of pine nuts and 1/2 cup of parsley leaves and heat without boiling.", "alternative"]
+      [
+        "Tie the cardamom and mastic in a muslin bag.",
+        "اربط الحبهان والمستكة في كيس من الشاش.",
+        "prep"
+      ],
+      [
+        "Bring 3 cups of water to the boil with the onions and spice bag.",
+        "اغلِ 3 أكواب ماء مع البصل وكيس البهارات.",
+        "cook"
+      ],
+      [
+        "Lower in the chicken, season and turn down the heat.",
+        "أنزل الفرخة في الماء، وتبّل، واخفض النار.",
+        "cook"
+      ],
+      [
+        "When the chicken is tender, lift it out, discard the spice bag and mash the onion into the broth.",
+        "عندما تنضج الفرخة، ارفعها، وتخلص من كيس البهارات، واهرس البصل في المرقة.",
+        "cook"
+      ],
+      [
+        "Add the rice or vermicelli and cook for 12–15 minutes.",
+        "أضف الأرز أو الشعرية واتركها 12–15 دقيقة.",
+        "finish"
+      ],
+      [
+        "Palestinian version (recipe 367 in the book): just before serving, add 1–2 tablespoons of pine nuts and 1/2 cup of parsley leaves and heat without boiling.",
+        "النسخة الفلسطينية (الوصفة 367 في الكتاب): قبل التقديم مباشرة، أضف 1–2 ملعقة كبيرة من الصنوبر ونصف كوب من ورق البقدونس، وسخّنها دون أن تغلي.",
+        "alternative"
+      ]
     ]
   },
   {
     "num": 373,
     "page": 160,
     "title": "Turkish Wedding Soup (Düğün Çorbası)",
+    "titleAr": "شوربة العرس التركية (دوغون تشورباسي)",
     "category": "soups",
     "method": "simmer",
     "prep": "15 min",
+    "prepAr": "15 دقيقة",
     "cook": "1 hour 15 min",
+    "cookAr": "ساعة و 15 دقيقة",
     "difficulty": "medium",
     "ingredients": [
-      ["Lamb", "1/2 kg", "meat_poultry"],
-      ["Onion, grated", "1", "vegetable"],
-      ["Carrot, very finely diced", "1", "vegetable"],
-      ["Rich meat broth", "2–3 cups", "liquid"],
-      ["Egg yolks", "2", "dairy_fat"],
-      ["Lemon juice", "1–2 tablespoons", "liquid"],
-      ["Flour, seasoned", "1 tablespoon", "grain_starch"],
-      ["Cooking oil", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Lamb",
+        "1/2 kg",
+        "meat_poultry",
+        "لحم ضأن",
+        "نصف كيلو"
+      ],
+      [
+        "Onion, grated",
+        "1",
+        "vegetable",
+        "بصلة مبشورة",
+        "1"
+      ],
+      [
+        "Carrot, very finely diced",
+        "1",
+        "vegetable",
+        "جزرة مقطعة مكعبات صغيرة جداً",
+        "1"
+      ],
+      [
+        "Rich meat broth",
+        "2–3 cups",
+        "liquid",
+        "مرقة لحم غنية",
+        "2–3 أكواب"
+      ],
+      [
+        "Egg yolks",
+        "2",
+        "dairy_fat",
+        "صفار بيض",
+        "2"
+      ],
+      [
+        "Lemon juice",
+        "1–2 tablespoons",
+        "liquid",
+        "عصير ليمون",
+        "1–2 ملعقة كبيرة"
+      ],
+      [
+        "Flour, seasoned",
+        "1 tablespoon",
+        "grain_starch",
+        "دقيق متبل",
+        "1 ملعقة كبيرة"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat",
+        "زيت للطهي",
+        "حسب الحاجة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Cut the lamb into bite-sized cubes, roll them in seasoned flour and fry.", "prep"],
-      "Add the lamb to the broth, bring to the boil and add the carrot, onion and seasoning. Simmer for about an hour.",
-      "Lift out the meat, keep back one ladleful of soup to cool, and mash the vegetables into the rest. Return the meat and keep the soup over a very low heat.",
-      "Beat the egg yolks with the lemon juice, then beat in the cooled ladleful of soup.",
-      ["Stir the egg mixture into the soup and heat for 2–3 minutes. Do not let it boil or the eggs will curdle.", "finish"]
+      [
+        "Cut the lamb into bite-sized cubes, roll them in seasoned flour and fry.",
+        "قطّع اللحم مكعبات بحجم اللقمة، وقلّبها في الدقيق المتبل وحمّرها.",
+        "prep"
+      ],
+      [
+        "Add the lamb to the broth, bring to the boil and add the carrot, onion and seasoning. Simmer for about an hour.",
+        "أضف اللحم إلى المرقة، واتركها حتى تغلي، ثم أضف الجزر والبصل والتتبيل. اتركها على نار هادئة حوالي ساعة.",
+        "cook"
+      ],
+      [
+        "Lift out the meat, keep back one ladleful of soup to cool, and mash the vegetables into the rest. Return the meat and keep the soup over a very low heat.",
+        "ارفع اللحم، واحتفظ بمغرفة من الشوربة لتبرد، واهرس الخضار في الباقي. أعد اللحم واترك الشوربة على نار هادئة جداً.",
+        "cook"
+      ],
+      [
+        "Beat the egg yolks with the lemon juice, then beat in the cooled ladleful of soup.",
+        "اخفق صفار البيض مع عصير الليمون، ثم أضف مغرفة الشوربة المبردة واخفق.",
+        "cook"
+      ],
+      [
+        "Stir the egg mixture into the soup and heat for 2–3 minutes. Do not let it boil or the eggs will curdle.",
+        "أضف خليط البيض إلى الشوربة مع التقليب وسخّنها 2–3 دقائق. لا تتركها تغلي حتى لا يتكتل البيض.",
+        "finish"
+      ]
     ],
-    "notes": "A Turkish festive soup."
+    "notes": "A Turkish festive soup.",
+    "notesAr": "شوربة تركية للمناسبات."
   },
   {
     "num": 374,
     "page": 160,
     "title": "Tunisian Fish and Barley Soup (Chorba bil Hout)",
+    "titleAr": "شوربة سمك تونسية بالشعير (شربة بالحوت)",
     "category": "soups",
     "method": "simmer",
     "prep": "20 min",
+    "prepAr": "20 دقيقة",
     "cook": "1 hour",
+    "cookAr": "ساعة واحدة",
     "difficulty": "medium",
     "ingredients": [
-      ["White fish, filleted", "1 kg", "seafood"],
-      ["Fish head, backbone, tail and trimmings", "from the fish", "seafood"],
-      ["Pearl barley", "1 cup", "grain_starch"],
-      ["Onions, coarsely chopped", "1–2", "vegetable"],
-      ["Garlic cloves, halved diagonally", "5–7", "vegetable"],
-      ["Ground cumin", "1 teaspoon", "spice_seasoning"],
-      ["Ground coriander", "1 teaspoon", "spice_seasoning"],
-      ["Celery leaves and stalks, coarsely chopped", "1/2 cup", "vegetable"],
-      ["Parsley, chopped", "1 tablespoon", "vegetable"],
-      ["Tomato paste", "2 tablespoons", "vegetable"],
-      ["Lemon juice", "2 tablespoons", "liquid"],
-      ["Olive oil", "2 tablespoons", "dairy_fat"],
-      ["Paprika", "a dash", "spice_seasoning"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "White fish, filleted",
+        "1 kg",
+        "seafood",
+        "سمك أبيض فيليه",
+        "1 كيلو"
+      ],
+      [
+        "Fish head, backbone, tail and trimmings",
+        "from the fish",
+        "seafood",
+        "رأس السمك والعمود الفقري والذيل والبقايا",
+        "من نفس السمكة"
+      ],
+      [
+        "Pearl barley",
+        "1 cup",
+        "grain_starch",
+        "شعير مقشور (لؤلؤي)",
+        "1 كوب"
+      ],
+      [
+        "Onions, coarsely chopped",
+        "1–2",
+        "vegetable",
+        "بصل مفروم فرماً خشناً",
+        "1–2"
+      ],
+      [
+        "Garlic cloves, halved diagonally",
+        "5–7",
+        "vegetable",
+        "فصوص ثوم مقسومة نصفين بشكل مائل",
+        "5–7"
+      ],
+      [
+        "Ground cumin",
+        "1 teaspoon",
+        "spice_seasoning",
+        "كمون مطحون",
+        "1 ملعقة صغيرة"
+      ],
+      [
+        "Ground coriander",
+        "1 teaspoon",
+        "spice_seasoning",
+        "كزبرة ناشفة مطحونة",
+        "1 ملعقة صغيرة"
+      ],
+      [
+        "Celery leaves and stalks, coarsely chopped",
+        "1/2 cup",
+        "vegetable",
+        "أوراق وسيقان كرفس مقطعة تقطيعاً خشناً",
+        "نصف كوب"
+      ],
+      [
+        "Parsley, chopped",
+        "1 tablespoon",
+        "vegetable",
+        "بقدونس مفروم",
+        "1 ملعقة كبيرة"
+      ],
+      [
+        "Tomato paste",
+        "2 tablespoons",
+        "vegetable",
+        "معجون طماطم",
+        "2 ملعقة كبيرة"
+      ],
+      [
+        "Lemon juice",
+        "2 tablespoons",
+        "liquid",
+        "عصير ليمون",
+        "2 ملعقة كبيرة"
+      ],
+      [
+        "Olive oil",
+        "2 tablespoons",
+        "dairy_fat",
+        "زيت زيتون",
+        "2 ملعقة كبيرة"
+      ],
+      [
+        "Paprika",
+        "a dash",
+        "spice_seasoning",
+        "بابريكا",
+        "رشة"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
+      ]
     ],
     "steps": [
-      ["Cover the fish head, bones and trimmings with water and bring to the boil, skimming as needed.", "prep"],
-      ["Boil the barley in salted water for 30 minutes, drain and keep warm.", "prep"],
-      "Fry the fillets lightly and set them aside. Soften the onions in the same oil, add the tomato paste and stir for 2–3 minutes.",
-      "Add this to the fish stock with the garlic, cumin, coriander, paprika, parsley, celery, salt and pepper and boil for 20 minutes.",
-      "Let it cool, remove the fish pieces, blend the liquid and strain it through a very fine sieve, ideally lined with muslin.",
-      "Return to the pot with the barley and fish fillets, check the seasoning and boil for 7–10 minutes, until the fish is cooked.",
-      ["Add the lemon juice and serve.", "finish"]
+      [
+        "Cover the fish head, bones and trimmings with water and bring to the boil, skimming as needed.",
+        "غطِّ رأس السمك والعظام والبقايا بالماء واتركها حتى تغلي، مع إزالة الريم حسب الحاجة.",
+        "prep"
+      ],
+      [
+        "Boil the barley in salted water for 30 minutes, drain and keep warm.",
+        "اسلق الشعير في ماء مملح 30 دقيقة، ثم صفّه واحتفظ به دافئاً.",
+        "prep"
+      ],
+      [
+        "Fry the fillets lightly and set them aside. Soften the onions in the same oil, add the tomato paste and stir for 2–3 minutes.",
+        "حمّر قطع الفيليه تحميراً خفيفاً وضعها جانباً. شوّح البصل في نفس الزيت حتى يلين، وأضف معجون الطماطم وقلّب 2–3 دقائق.",
+        "cook"
+      ],
+      [
+        "Add this to the fish stock with the garlic, cumin, coriander, paprika, parsley, celery, salt and pepper and boil for 20 minutes.",
+        "أضف ذلك إلى مرقة السمك مع الثوم والكمون والكزبرة والبابريكا والبقدونس والكرفس والملح والفلفل، واتركها تغلي 20 دقيقة.",
+        "cook"
+      ],
+      [
+        "Let it cool, remove the fish pieces, blend the liquid and strain it through a very fine sieve, ideally lined with muslin.",
+        "اتركها تبرد، وانزع قطع السمك، واضرب السائل في الخلاط وصفّه في مصفاة ناعمة جداً، ويُفضّل أن تكون مبطنة بالشاش.",
+        "cook"
+      ],
+      [
+        "Return to the pot with the barley and fish fillets, check the seasoning and boil for 7–10 minutes, until the fish is cooked.",
+        "أعدها إلى الحلة مع الشعير وقطع الفيليه، وتذوق التتبيل، واتركها تغلي 7–10 دقائق حتى ينضج السمك.",
+        "cook"
+      ],
+      [
+        "Add the lemon juice and serve.",
+        "أضف عصير الليمون وقدّمها.",
+        "finish"
+      ]
     ],
-    "notes": "A Tunisian soup."
+    "notes": "A Tunisian soup.",
+    "notesAr": "شوربة تونسية."
   },
   {
     "num": 376,
@@ -300,23 +1028,73 @@
     "cook": "1 hour 30 min",
     "difficulty": "medium",
     "ingredients": [
-      ["Mutton cutlets", "1 kg", "meat_poultry"],
-      ["Cubes of mutton tail fat", "2–3", "dairy_fat"],
-      ["Onions, coarsely chopped", "1–2", "vegetable"],
-      ["Tomatoes, peeled and diced", "1–2", "vegetable"],
-      ["Zucchini, coarsely chopped", "2–3", "vegetable"],
-      ["Garlic cloves, crushed", "5–7", "vegetable"],
-      ["Chickpeas", "1 cup", "grain_starch"],
-      ["Vermicelli", "1/2 cup", "grain_starch"],
-      ["Ghee", "as needed", "dairy_fat"],
-      ["Saffron", "a pinch", "spice_seasoning"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Mutton cutlets",
+        "1 kg",
+        "meat_poultry"
+      ],
+      [
+        "Cubes of mutton tail fat",
+        "2–3",
+        "dairy_fat"
+      ],
+      [
+        "Onions, coarsely chopped",
+        "1–2",
+        "vegetable"
+      ],
+      [
+        "Tomatoes, peeled and diced",
+        "1–2",
+        "vegetable"
+      ],
+      [
+        "Zucchini, coarsely chopped",
+        "2–3",
+        "vegetable"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "5–7",
+        "vegetable"
+      ],
+      [
+        "Chickpeas",
+        "1 cup",
+        "grain_starch"
+      ],
+      [
+        "Vermicelli",
+        "1/2 cup",
+        "grain_starch"
+      ],
+      [
+        "Ghee",
+        "as needed",
+        "dairy_fat"
+      ],
+      [
+        "Saffron",
+        "a pinch",
+        "spice_seasoning"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Soak the chickpeas in water overnight.", "prep"],
+      [
+        "Soak the chickpeas in water overnight.",
+        "prep"
+      ],
       "Fry the cutlets in ghee, then add everything except the vermicelli, cover with twice their volume of water and cook until tender.",
       "Take out the cutlets, mash the vegetables and return the cutlets to the pot.",
-      ["When the soup boils, check the seasoning, add the vermicelli and cook for 10 minutes more, until it is tender and has taken on the flavour of the soup.", "finish"]
+      [
+        "When the soup boils, check the seasoning, add the vermicelli and cook for 10 minutes more, until it is tender and has taken on the flavour of the soup.",
+        "finish"
+      ]
     ],
     "notes": "From the Gulf States."
   },
@@ -330,33 +1108,115 @@
     "cook": "2 hours",
     "difficulty": "master",
     "ingredients": [
-      ["Hlalem (small homemade noodles)", "1 cup", "grain_starch"],
-      ["Lamb", "1/2 kg", "meat_poultry"],
-      ["Chickpeas", "1/2 cup", "grain_starch"],
-      ["Dried fava beans", "1/2 cup", "grain_starch"],
-      ["Garlic cloves, crushed", "5–7", "vegetable"],
-      ["Onion, coarsely chopped", "1", "vegetable"],
-      ["Celery stalks and leaves, chopped", "1/2 cup", "vegetable"],
-      ["Parsley leaves, chopped", "1/2 cup", "vegetable"],
-      ["Coriander leaves, chopped", "1/2 cup", "vegetable"],
-      ["Artichoke hearts, quartered", "2", "vegetable"],
-      ["Tomato paste", "2 tablespoons", "vegetable"],
-      ["Carrots, peeled and diced", "2", "vegetable"],
-      ["Boiled peas", "1 cup", "vegetable"],
-      ["Sweet peppers, seeded and chopped", "2", "vegetable"],
-      ["Scallions, minced", "1/2 cup", "vegetable"],
-      ["Spinach leaves, chopped and squeezed", "1 cup", "vegetable"],
-      ["Olive oil", "2 tablespoons", "dairy_fat"],
-      ["Paprika", "a dash", "spice_seasoning"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Hlalem (small homemade noodles)",
+        "1 cup",
+        "grain_starch"
+      ],
+      [
+        "Lamb",
+        "1/2 kg",
+        "meat_poultry"
+      ],
+      [
+        "Chickpeas",
+        "1/2 cup",
+        "grain_starch"
+      ],
+      [
+        "Dried fava beans",
+        "1/2 cup",
+        "grain_starch"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "5–7",
+        "vegetable"
+      ],
+      [
+        "Onion, coarsely chopped",
+        "1",
+        "vegetable"
+      ],
+      [
+        "Celery stalks and leaves, chopped",
+        "1/2 cup",
+        "vegetable"
+      ],
+      [
+        "Parsley leaves, chopped",
+        "1/2 cup",
+        "vegetable"
+      ],
+      [
+        "Coriander leaves, chopped",
+        "1/2 cup",
+        "vegetable"
+      ],
+      [
+        "Artichoke hearts, quartered",
+        "2",
+        "vegetable"
+      ],
+      [
+        "Tomato paste",
+        "2 tablespoons",
+        "vegetable"
+      ],
+      [
+        "Carrots, peeled and diced",
+        "2",
+        "vegetable"
+      ],
+      [
+        "Boiled peas",
+        "1 cup",
+        "vegetable"
+      ],
+      [
+        "Sweet peppers, seeded and chopped",
+        "2",
+        "vegetable"
+      ],
+      [
+        "Scallions, minced",
+        "1/2 cup",
+        "vegetable"
+      ],
+      [
+        "Spinach leaves, chopped and squeezed",
+        "1 cup",
+        "vegetable"
+      ],
+      [
+        "Olive oil",
+        "2 tablespoons",
+        "dairy_fat"
+      ],
+      [
+        "Paprika",
+        "a dash",
+        "spice_seasoning"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Soak the chickpeas and fava beans for a few hours. Drain, then boil with the onion in twice their volume of water for 15 minutes. Set aside with their liquid.", "prep"],
+      [
+        "Soak the chickpeas and fava beans for a few hours. Drain, then boil with the onion in twice their volume of water for 15 minutes. Set aside with their liquid.",
+        "prep"
+      ],
       "Cut the lamb into bite-sized cubes and fry in olive oil. Add the scallions and garlic and cook for 5 minutes, stirring constantly.",
       "Stir in the tomato paste and cook for 5 minutes, then add the spinach, celery, parsley, artichokes, carrots, paprika, salt and pepper and stir until coated.",
       "Add the chickpeas and beans with their liquid and simmer for 30–45 minutes. Cool and skim off any excess fat.",
       "About an hour before serving, bring back to the boil, adding more salted water if needed, then add the hlalem and sweet peppers. Cover and simmer until the noodles are plump and soft.",
-      ["Add the peas, check the seasoning and sprinkle with fresh coriander.", "finish"]
+      [
+        "Add the peas, check the seasoning and sprinkle with fresh coriander.",
+        "finish"
+      ]
     ],
     "notes": "A Tunisian soup."
   },
@@ -370,18 +1230,48 @@
     "cook": "35 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Chickpeas", "2 cups", "grain_starch"],
-      ["Onions, thinly sliced", "2", "vegetable"],
-      ["Lemon juice", "2 tablespoons", "liquid"],
-      ["Cumin", "1 teaspoon", "spice_seasoning"],
-      ["Baladi bread", "for croutons", "grain_starch"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Chickpeas",
+        "2 cups",
+        "grain_starch"
+      ],
+      [
+        "Onions, thinly sliced",
+        "2",
+        "vegetable"
+      ],
+      [
+        "Lemon juice",
+        "2 tablespoons",
+        "liquid"
+      ],
+      [
+        "Cumin",
+        "1 teaspoon",
+        "spice_seasoning"
+      ],
+      [
+        "Baladi bread",
+        "for croutons",
+        "grain_starch"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Soak the chickpeas overnight and drain.", "prep"],
+      [
+        "Soak the chickpeas overnight and drain.",
+        "prep"
+      ],
       "Cover with twice their volume of fresh water, add the onions and cook for 20–30 minutes, until tender.",
       "Add the cumin, lemon juice, salt and pepper and boil for 3–5 minutes more.",
-      ["Serve with croutons of baladi bread.", "finish"]
+      [
+        "Serve with croutons of baladi bread.",
+        "finish"
+      ]
     ]
   },
   {
@@ -394,22 +1284,60 @@
     "cook": "40 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Chickpeas", "2 cups", "grain_starch"],
-      ["Onions, sliced", "2", "vegetable"],
-      ["Garlic cloves, crushed", "5–7", "vegetable"],
-      ["Cumin", "1 teaspoon", "spice_seasoning"],
-      ["Lemon juice", "2 tablespoons", "liquid"],
-      ["Oil", "2 tablespoons", "dairy_fat"],
-      ["Baladi bread", "1–2 loaves", "grain_starch"],
-      ["Salt", "to taste", "spice_seasoning"]
+      [
+        "Chickpeas",
+        "2 cups",
+        "grain_starch"
+      ],
+      [
+        "Onions, sliced",
+        "2",
+        "vegetable"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "5–7",
+        "vegetable"
+      ],
+      [
+        "Cumin",
+        "1 teaspoon",
+        "spice_seasoning"
+      ],
+      [
+        "Lemon juice",
+        "2 tablespoons",
+        "liquid"
+      ],
+      [
+        "Oil",
+        "2 tablespoons",
+        "dairy_fat"
+      ],
+      [
+        "Baladi bread",
+        "1–2 loaves",
+        "grain_starch"
+      ],
+      [
+        "Salt",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Soak the chickpeas overnight and drain.", "prep"],
+      [
+        "Soak the chickpeas overnight and drain.",
+        "prep"
+      ],
       "Cook them with the onions in twice their volume of fresh water for 20–30 minutes. Keep back one cup of the broth.",
       "Add the garlic, cumin and lemon juice to the chickpeas and blend or mash into a thin paste.",
       "Return to the heat, add the oil, season, and cook for 3–5 minutes.",
       "Cut the bread into 2–3 cm pieces and line the serving dish with them.",
-      ["Reheat the reserved broth, moisten the bread with it and pour the chickpea soup over.", "finish"]
+      [
+        "Reheat the reserved broth, moisten the bread with it and pour the chickpea soup over.",
+        "finish"
+      ]
     ]
   },
   {
@@ -422,23 +1350,69 @@
     "cook": "1 hour",
     "difficulty": "easy",
     "ingredients": [
-      ["Chickpeas", "2 cups", "grain_starch"],
-      ["Onion, chopped", "1", "vegetable"],
-      ["Marrow bone", "1", "meat_poultry"],
-      ["Garlic cloves, crushed", "5–7", "vegetable"],
-      ["Cumin", "1 teaspoon", "spice_seasoning"],
-      ["Lemon juice", "3 tablespoons", "liquid"],
-      ["Stale bread loaves", "2", "grain_starch"],
-      ["Harissa", "a dash", "spice_seasoning"],
-      ["Olive oil", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Chickpeas",
+        "2 cups",
+        "grain_starch"
+      ],
+      [
+        "Onion, chopped",
+        "1",
+        "vegetable"
+      ],
+      [
+        "Marrow bone",
+        "1",
+        "meat_poultry"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "5–7",
+        "vegetable"
+      ],
+      [
+        "Cumin",
+        "1 teaspoon",
+        "spice_seasoning"
+      ],
+      [
+        "Lemon juice",
+        "3 tablespoons",
+        "liquid"
+      ],
+      [
+        "Stale bread loaves",
+        "2",
+        "grain_starch"
+      ],
+      [
+        "Harissa",
+        "a dash",
+        "spice_seasoning"
+      ],
+      [
+        "Olive oil",
+        "as needed",
+        "dairy_fat"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Soak the chickpeas overnight and drain.", "prep"],
+      [
+        "Soak the chickpeas overnight and drain.",
+        "prep"
+      ],
       "Boil them in fresh water with the onion and marrow bone until tender. Shake the marrow into the soup and mash it with the onion. Season.",
       "Fry the garlic and harissa in olive oil, stirring constantly so they do not stick.",
       "Add the chickpeas and broth and cook for 5 minutes. Off the heat, stir in the lemon juice and cumin.",
-      ["Put bite-sized pieces of bread in a serving bowl, pour the soup over and serve at once.", "finish"]
+      [
+        "Put bite-sized pieces of bread in a serving bowl, pour the soup over and serve at once.",
+        "finish"
+      ]
     ],
     "notes": "A Tunisian street-food favourite."
   },
@@ -452,20 +1426,55 @@
     "cook": "50 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Brown lentils", "2 cups", "grain_starch"],
-      ["Spring onions, finely chopped", "1 cup", "vegetable"],
-      ["Garlic cloves, crushed", "3–5", "vegetable"],
-      ["Parsley leaves, very finely chopped", "2 tablespoons", "vegetable"],
-      ["Cornflour", "1 tablespoon", "grain_starch"],
-      ["Vinegar", "2 tablespoons", "liquid"],
-      ["Olive oil", "2 tablespoons", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Brown lentils",
+        "2 cups",
+        "grain_starch"
+      ],
+      [
+        "Spring onions, finely chopped",
+        "1 cup",
+        "vegetable"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "3–5",
+        "vegetable"
+      ],
+      [
+        "Parsley leaves, very finely chopped",
+        "2 tablespoons",
+        "vegetable"
+      ],
+      [
+        "Cornflour",
+        "1 tablespoon",
+        "grain_starch"
+      ],
+      [
+        "Vinegar",
+        "2 tablespoons",
+        "liquid"
+      ],
+      [
+        "Olive oil",
+        "2 tablespoons",
+        "dairy_fat"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
       "Put the lentils, spring onions, garlic, oil and parsley in a large pot with twice their volume of water and boil until tender.",
       "Season and keep at a gentle simmer.",
       "Mix the cornflour with a tablespoon of cold water and stir it into the boiling soup to thicken it.",
-      ["Just before serving, check the seasoning and stir in the vinegar.", "finish"]
+      [
+        "Just before serving, check the seasoning and stir in the vinegar.",
+        "finish"
+      ]
     ],
     "notes": "A Cypriot soup."
   },
@@ -479,16 +1488,38 @@
     "cook": "15 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Zucchini", "1 kg", "vegetable"],
-      ["Meat stock", "2–3 cups", "liquid"],
-      ["Milk", "1 cup", "dairy_fat"],
-      ["Salt", "to taste", "spice_seasoning"]
+      [
+        "Zucchini",
+        "1 kg",
+        "vegetable"
+      ],
+      [
+        "Meat stock",
+        "2–3 cups",
+        "liquid"
+      ],
+      [
+        "Milk",
+        "1 cup",
+        "dairy_fat"
+      ],
+      [
+        "Salt",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Peel the zucchini and chop coarsely.", "prep"],
+      [
+        "Peel the zucchini and chop coarsely.",
+        "prep"
+      ],
       "Boil in the stock for about 5 minutes, until tender.",
       "Mash or blend, then add the milk.",
-      ["Reheat uncovered with salt over a low heat for 3–5 minutes.", "finish"]
+      [
+        "Reheat uncovered with salt over a low heat for 3–5 minutes.",
+        "finish"
+      ]
     ]
   },
   {
@@ -501,18 +1532,45 @@
     "cook": "20 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Thick yogurt", "2 cups", "dairy_fat"],
-      ["Onions, finely chopped", "2", "vegetable"],
-      ["Chicken broth", "2–3 cups", "liquid"],
-      ["Coriander leaves, very finely chopped", "1 tablespoon", "vegetable"],
-      ["Cooking oil", "as needed", "dairy_fat"],
-      ["Salt", "to taste", "spice_seasoning"]
+      [
+        "Thick yogurt",
+        "2 cups",
+        "dairy_fat"
+      ],
+      [
+        "Onions, finely chopped",
+        "2",
+        "vegetable"
+      ],
+      [
+        "Chicken broth",
+        "2–3 cups",
+        "liquid"
+      ],
+      [
+        "Coriander leaves, very finely chopped",
+        "1 tablespoon",
+        "vegetable"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat"
+      ],
+      [
+        "Salt",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
       "Soften the onions in the oil.",
       "Bring the broth to the boil, add the onions and simmer for about 10 minutes.",
       "Take off the heat and pour in the yogurt gradually, stirring constantly.",
-      ["Return to the heat just until it reaches boiling point, then take off, add salt and sprinkle with coriander.", "finish"]
+      [
+        "Return to the heat just until it reaches boiling point, then take off, add salt and sprinkle with coriander.",
+        "finish"
+      ]
     ],
     "notes": "A Turkish soup."
   },
@@ -526,20 +1584,54 @@
     "cook": "45 min",
     "difficulty": "medium",
     "ingredients": [
-      ["Yogurt", "2–3 cups", "dairy_fat"],
-      ["Onions, very finely chopped", "2", "vegetable"],
-      ["Flour", "2 tablespoons", "grain_starch"],
-      ["Fenugreek seeds", "1 tablespoon", "spice_seasoning"],
-      ["Walnuts, chopped", "2 tablespoons", "other"],
-      ["Cooking oil", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Yogurt",
+        "2–3 cups",
+        "dairy_fat"
+      ],
+      [
+        "Onions, very finely chopped",
+        "2",
+        "vegetable"
+      ],
+      [
+        "Flour",
+        "2 tablespoons",
+        "grain_starch"
+      ],
+      [
+        "Fenugreek seeds",
+        "1 tablespoon",
+        "spice_seasoning"
+      ],
+      [
+        "Walnuts, chopped",
+        "2 tablespoons",
+        "other"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Grind the fenugreek to a powder.", "prep"],
+      [
+        "Grind the fenugreek to a powder.",
+        "prep"
+      ],
       "Fry the onions until golden, add the flour and cook over a very low heat until well blended.",
       "Add the walnuts and fenugreek with 1/2 cup of hot water and stir until smooth.",
       "Add 2 cups of hot water, season and simmer for 30 minutes.",
-      ["Beat a ladle of the hot soup into the yogurt, then stir the yogurt into the soup over the heat and take it off before it boils.", "finish"]
+      [
+        "Beat a ladle of the hot soup into the yogurt, then stir the yogurt into the soup over the heat and take it off before it boils.",
+        "finish"
+      ]
     ],
     "notes": "An Iranian soup."
   },
@@ -553,18 +1645,45 @@
     "cook": "15 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Spinach", "1 kg", "vegetable"],
-      ["Onions, very finely chopped", "2", "vegetable"],
-      ["Garlic cloves, crushed", "5–7", "vegetable"],
-      ["Olive oil", "2 tablespoons", "dairy_fat"],
-      ["Yogurt", "1/2 cup", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Spinach",
+        "1 kg",
+        "vegetable"
+      ],
+      [
+        "Onions, very finely chopped",
+        "2",
+        "vegetable"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "5–7",
+        "vegetable"
+      ],
+      [
+        "Olive oil",
+        "2 tablespoons",
+        "dairy_fat"
+      ],
+      [
+        "Yogurt",
+        "1/2 cup",
+        "dairy_fat"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
       "Wilt the spinach in a pot over a low heat, then drain in a colander, pressing out all the moisture.",
       "Fry the onions in the olive oil until pale brown.",
       "Add the spinach with salt and pepper and cook for 10 minutes, then move to a serving bowl.",
-      ["Mix the yogurt with the garlic, stir it into the spinach and serve cold.", "finish"]
+      [
+        "Mix the yogurt with the garlic, stir it into the spinach and serve cold.",
+        "finish"
+      ]
     ],
     "notes": "A Turkish dish."
   },
@@ -578,18 +1697,49 @@
     "cook": "40 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Spinach", "1 kg", "vegetable"],
-      ["Brown lentils", "1 cup", "grain_starch"],
-      ["Garlic cloves, crushed", "3–4", "vegetable"],
-      ["Ground cumin", "1/2 teaspoon", "spice_seasoning"],
-      ["Ground coriander", "1/2 teaspoon", "spice_seasoning"],
-      ["Butter", "2 tablespoons", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Spinach",
+        "1 kg",
+        "vegetable"
+      ],
+      [
+        "Brown lentils",
+        "1 cup",
+        "grain_starch"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "3–4",
+        "vegetable"
+      ],
+      [
+        "Ground cumin",
+        "1/2 teaspoon",
+        "spice_seasoning"
+      ],
+      [
+        "Ground coriander",
+        "1/2 teaspoon",
+        "spice_seasoning"
+      ],
+      [
+        "Butter",
+        "2 tablespoons",
+        "dairy_fat"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
       "Wilt the spinach in a pot over a low heat and drain it in a colander, pressing out all the moisture.",
       "Boil the lentils until tender, drain and mix them into the spinach.",
-      ["Melt the butter, add the vegetables, garlic, spices, salt and pepper and cook for 5–7 minutes.", "finish"]
+      [
+        "Melt the butter, add the vegetables, garlic, spices, salt and pepper and cook for 5–7 minutes.",
+        "finish"
+      ]
     ],
     "notes": "An Iranian dish; the book spells it Shula kalalambar. It lists garlic without a step, so we cook it with the spices."
   },
@@ -603,20 +1753,57 @@
     "cook": "50 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Ripe tomatoes, peeled and coarsely chopped", "1–2 kg", "vegetable"],
-      ["Beef", "1/2 kg", "meat_poultry"],
-      ["Onions, finely sliced", "3–4", "vegetable"],
-      ["Bay leaf", "1", "spice_seasoning"],
-      ["Cardamom pods", "3–4", "spice_seasoning"],
-      ["Mixed spice", "1/2 teaspoon", "spice_seasoning"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Ripe tomatoes, peeled and coarsely chopped",
+        "1–2 kg",
+        "vegetable"
+      ],
+      [
+        "Beef",
+        "1/2 kg",
+        "meat_poultry"
+      ],
+      [
+        "Onions, finely sliced",
+        "3–4",
+        "vegetable"
+      ],
+      [
+        "Bay leaf",
+        "1",
+        "spice_seasoning"
+      ],
+      [
+        "Cardamom pods",
+        "3–4",
+        "spice_seasoning"
+      ],
+      [
+        "Mixed spice",
+        "1/2 teaspoon",
+        "spice_seasoning"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Cut the beef into bite-sized cubes. Tie the cardamom and bay leaf in a muslin bag.", "prep"],
+      [
+        "Cut the beef into bite-sized cubes. Tie the cardamom and bay leaf in a muslin bag.",
+        "prep"
+      ],
       "Cook the beef in a little water with the spice bag, onions, salt and pepper for about 15 minutes.",
       "Discard the bag and mash the onions.",
-      ["Add the tomatoes and mixed spice and simmer for 20–30 minutes.", "finish"],
-      ["Garlic version (recipe 403 in the book): cook the tomatoes with 10–12 crushed garlic cloves instead of the bay leaf and cardamom.", "alternative"]
+      [
+        "Add the tomatoes and mixed spice and simmer for 20–30 minutes.",
+        "finish"
+      ],
+      [
+        "Garlic version (recipe 403 in the book): cook the tomatoes with 10–12 crushed garlic cloves instead of the bay leaf and cardamom.",
+        "alternative"
+      ]
     ],
     "notes": "From Palestine and Jordan."
   },
@@ -630,19 +1817,46 @@
     "cook": "1 hour",
     "difficulty": "easy",
     "ingredients": [
-      ["Green tomatoes", "1 kg", "vegetable"],
-      ["Onions, sliced", "2", "vegetable"],
-      ["Hard cheese, grated", "2–3 tablespoons", "dairy_fat"],
-      ["Stock", "1/2 cup", "liquid"],
-      ["Olive oil", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Green tomatoes",
+        "1 kg",
+        "vegetable"
+      ],
+      [
+        "Onions, sliced",
+        "2",
+        "vegetable"
+      ],
+      [
+        "Hard cheese, grated",
+        "2–3 tablespoons",
+        "dairy_fat"
+      ],
+      [
+        "Stock",
+        "1/2 cup",
+        "liquid"
+      ],
+      [
+        "Olive oil",
+        "as needed",
+        "dairy_fat"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
       "Soften the onions in olive oil and spread them over the bottom of an ovenproof dish.",
       "Slice the tomatoes thickly and lay them on the onions.",
       "Mix the stock with the rest of the oil, season and pour over.",
       "Cover with foil and bake in a slow oven until the tomatoes are tender.",
-      ["Mash the vegetables, check the seasoning, stir in the cheese and brown the top under the grill.", "finish"]
+      [
+        "Mash the vegetables, check the seasoning, stir in the cheese and brown the top under the grill.",
+        "finish"
+      ]
     ],
     "notes": "A Turkish dish."
   },
@@ -656,22 +1870,69 @@
     "cook": "1 hour 15 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Potatoes, peeled and diced", "3", "vegetable"],
-      ["Zucchini, peeled and sliced into rounds", "1/2 kg", "vegetable"],
-      ["Green sweet peppers, seeded and chopped", "3", "vegetable"],
-      ["Tomatoes, peeled and diced", "4", "vegetable"],
-      ["Onions, chopped", "2", "vegetable"],
-      ["Garlic cloves, crushed", "5–7", "vegetable"],
-      ["Parsley leaves, chopped", "2 tablespoons", "vegetable"],
-      ["Dill or fennel, chopped", "1 tablespoon", "vegetable"],
-      ["Sugar", "a pinch", "sweet_fruit"],
-      ["Olive oil", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Potatoes, peeled and diced",
+        "3",
+        "vegetable"
+      ],
+      [
+        "Zucchini, peeled and sliced into rounds",
+        "1/2 kg",
+        "vegetable"
+      ],
+      [
+        "Green sweet peppers, seeded and chopped",
+        "3",
+        "vegetable"
+      ],
+      [
+        "Tomatoes, peeled and diced",
+        "4",
+        "vegetable"
+      ],
+      [
+        "Onions, chopped",
+        "2",
+        "vegetable"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "5–7",
+        "vegetable"
+      ],
+      [
+        "Parsley leaves, chopped",
+        "2 tablespoons",
+        "vegetable"
+      ],
+      [
+        "Dill or fennel, chopped",
+        "1 tablespoon",
+        "vegetable"
+      ],
+      [
+        "Sugar",
+        "a pinch",
+        "sweet_fruit"
+      ],
+      [
+        "Olive oil",
+        "as needed",
+        "dairy_fat"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
       "Fry the onions lightly until golden, add the peppers and cook for 5 minutes.",
       "Grease an ovenproof dish and add all the ingredients.",
-      ["Cover and bake in a moderate oven until all the vegetables are very tender.", "finish"]
+      [
+        "Cover and bake in a moderate oven until all the vegetables are very tender.",
+        "finish"
+      ]
     ],
     "notes": "A Cypriot dish."
   },
@@ -685,24 +1946,77 @@
     "cook": "45 min",
     "difficulty": "medium",
     "ingredients": [
-      ["Chickpeas", "1/2 cup", "grain_starch"],
-      ["Round brown eggplants", "2", "vegetable"],
-      ["Onions, coarsely chopped", "3", "vegetable"],
-      ["Garlic cloves, sliced diagonally", "7–10", "vegetable"],
-      ["Tomatoes, peeled and diced", "3–5", "vegetable"],
-      ["Coriander leaves, chopped", "2 tablespoons", "vegetable"],
-      ["Parsley leaves, chopped", "2 tablespoons", "vegetable"],
-      ["Dried mint powder", "1/2 teaspoon", "spice_seasoning"],
-      ["Nutmeg or cinnamon", "a pinch", "spice_seasoning"],
-      ["Cooking oil", "for frying", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Chickpeas",
+        "1/2 cup",
+        "grain_starch"
+      ],
+      [
+        "Round brown eggplants",
+        "2",
+        "vegetable"
+      ],
+      [
+        "Onions, coarsely chopped",
+        "3",
+        "vegetable"
+      ],
+      [
+        "Garlic cloves, sliced diagonally",
+        "7–10",
+        "vegetable"
+      ],
+      [
+        "Tomatoes, peeled and diced",
+        "3–5",
+        "vegetable"
+      ],
+      [
+        "Coriander leaves, chopped",
+        "2 tablespoons",
+        "vegetable"
+      ],
+      [
+        "Parsley leaves, chopped",
+        "2 tablespoons",
+        "vegetable"
+      ],
+      [
+        "Dried mint powder",
+        "1/2 teaspoon",
+        "spice_seasoning"
+      ],
+      [
+        "Nutmeg or cinnamon",
+        "a pinch",
+        "spice_seasoning"
+      ],
+      [
+        "Cooking oil",
+        "for frying",
+        "dairy_fat"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Soak the chickpeas overnight and drain.", "prep"],
-      ["Peel and slice the eggplants, salt them and leave for about an hour. Squeeze out the moisture, pat dry, deep-fry and drain on absorbent paper.", "prep"],
+      [
+        "Soak the chickpeas overnight and drain.",
+        "prep"
+      ],
+      [
+        "Peel and slice the eggplants, salt them and leave for about an hour. Squeeze out the moisture, pat dry, deep-fry and drain on absorbent paper.",
+        "prep"
+      ],
       "Fry the onions until dark in the same oil, then add the tomatoes, garlic and chickpeas and cook for about 20 minutes, until the chickpeas are tender, adding hot water if needed.",
       "Add the fried eggplant, a tablespoon each of parsley and coriander, the mint and the nutmeg or cinnamon. Season and simmer for 10 minutes more.",
-      ["Let it cool and serve warm, topped with the rest of the herbs.", "finish"]
+      [
+        "Let it cool and serve warm, topped with the rest of the herbs.",
+        "finish"
+      ]
     ],
     "notes": "Made in Lebanon, Syria and Jordan."
   },
@@ -716,22 +2030,64 @@
     "cook": "45 min",
     "difficulty": "medium",
     "ingredients": [
-      ["Lamb", "1 kg", "meat_poultry"],
-      ["Slices of toast", "4–6", "grain_starch"],
-      ["Tomatoes, peeled and diced", "4–6", "vegetable"],
-      ["Onions, grated", "2", "vegetable"],
-      ["Lemon juice", "2 tablespoons", "liquid"],
-      ["Yogurt", "2 cups", "dairy_fat"],
-      ["Paprika", "1 teaspoon", "spice_seasoning"],
-      ["Cooking oil", "as needed", "dairy_fat"],
-      ["Salt and pepper", "to taste", "spice_seasoning"]
+      [
+        "Lamb",
+        "1 kg",
+        "meat_poultry"
+      ],
+      [
+        "Slices of toast",
+        "4–6",
+        "grain_starch"
+      ],
+      [
+        "Tomatoes, peeled and diced",
+        "4–6",
+        "vegetable"
+      ],
+      [
+        "Onions, grated",
+        "2",
+        "vegetable"
+      ],
+      [
+        "Lemon juice",
+        "2 tablespoons",
+        "liquid"
+      ],
+      [
+        "Yogurt",
+        "2 cups",
+        "dairy_fat"
+      ],
+      [
+        "Paprika",
+        "1 teaspoon",
+        "spice_seasoning"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat"
+      ],
+      [
+        "Salt and pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Cut the lamb into bite-sized cubes and marinate them in the onions, lemon juice and salt for at least an hour.", "prep"],
+      [
+        "Cut the lamb into bite-sized cubes and marinate them in the onions, lemon juice and salt for at least an hour.",
+        "prep"
+      ],
       "Brush off the marinade and fry the lamb slowly until tender. Keep it warm.",
       "Sauté the tomatoes in the same oil, season and cook until the sauce thickens.",
       "Lay the toast in a serving dish, spread with the warm tomato sauce and top with the lamb.",
-      ["Stir the paprika, salt and pepper into the yogurt and pour it over the meat.", "finish"]
+      [
+        "Stir the paprika, salt and pepper into the yogurt and pour it over the meat.",
+        "finish"
+      ]
     ],
     "notes": "A Turkish dish."
   },
@@ -745,17 +2101,43 @@
     "cook": "25 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Large zucchini", "1 kg", "vegetable"],
-      ["Onions", "2", "vegetable"],
-      ["Dried mint", "1 tablespoon", "spice_seasoning"],
-      ["Cooking oil", "as needed", "dairy_fat"],
-      ["Salt", "to taste", "spice_seasoning"]
+      [
+        "Large zucchini",
+        "1 kg",
+        "vegetable"
+      ],
+      [
+        "Onions",
+        "2",
+        "vegetable"
+      ],
+      [
+        "Dried mint",
+        "1 tablespoon",
+        "spice_seasoning"
+      ],
+      [
+        "Cooking oil",
+        "as needed",
+        "dairy_fat"
+      ],
+      [
+        "Salt",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Peel the zucchini and slice into rounds about 2 cm thick. Slice the onions very thinly and rub them with salt.", "prep"],
+      [
+        "Peel the zucchini and slice into rounds about 2 cm thick. Slice the onions very thinly and rub them with salt.",
+        "prep"
+      ],
       "Soften the onions in oil.",
       "Add the zucchini and leave over a very low heat for about 20 minutes, until they have reabsorbed their own juice.",
-      ["Sprinkle with the mint.", "finish"]
+      [
+        "Sprinkle with the mint.",
+        "finish"
+      ]
     ]
   },
   {
@@ -768,18 +2150,44 @@
     "cook": "35 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Large zucchini", "1 kg", "vegetable"],
-      ["Yogurt", "2 cups", "dairy_fat"],
-      ["Egg white", "1", "dairy_fat"],
-      ["Dried mint powder", "1 tablespoon", "spice_seasoning"],
-      ["Salt", "to taste", "spice_seasoning"]
+      [
+        "Large zucchini",
+        "1 kg",
+        "vegetable"
+      ],
+      [
+        "Yogurt",
+        "2 cups",
+        "dairy_fat"
+      ],
+      [
+        "Egg white",
+        "1",
+        "dairy_fat"
+      ],
+      [
+        "Dried mint powder",
+        "1 tablespoon",
+        "spice_seasoning"
+      ],
+      [
+        "Salt",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Peel the zucchini and slice into rounds about 2 cm thick.", "prep"],
+      [
+        "Peel the zucchini and slice into rounds about 2 cm thick.",
+        "prep"
+      ],
       "Cook them over a very low heat until they give up their juice, then drain.",
       "Stir the egg white into the yogurt (it stops the yogurt curdling) and press it through a sieve over the zucchini.",
       "Season and cook uncovered for 15–20 minutes.",
-      ["Sprinkle with mint and serve hot or cold.", "finish"]
+      [
+        "Sprinkle with mint and serve hot or cold.",
+        "finish"
+      ]
     ]
   },
   {
@@ -792,20 +2200,58 @@
     "cook": "15 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Zucchini", "1 kg", "vegetable"],
-      ["Beyaz peynir (feta cheese), crumbled", "1 cup", "dairy_fat"],
-      ["Hard white cheese, grated", "1 tablespoon", "dairy_fat"],
-      ["Dill, very finely chopped", "2 tablespoons", "vegetable"],
-      ["Garlic cloves, crushed", "3–5", "vegetable"],
-      ["Flour", "2 tablespoons", "grain_starch"],
-      ["Butter", "a little", "dairy_fat"],
-      ["Salt and freshly ground black pepper", "to taste", "spice_seasoning"]
+      [
+        "Zucchini",
+        "1 kg",
+        "vegetable"
+      ],
+      [
+        "Beyaz peynir (feta cheese), crumbled",
+        "1 cup",
+        "dairy_fat"
+      ],
+      [
+        "Hard white cheese, grated",
+        "1 tablespoon",
+        "dairy_fat"
+      ],
+      [
+        "Dill, very finely chopped",
+        "2 tablespoons",
+        "vegetable"
+      ],
+      [
+        "Garlic cloves, crushed",
+        "3–5",
+        "vegetable"
+      ],
+      [
+        "Flour",
+        "2 tablespoons",
+        "grain_starch"
+      ],
+      [
+        "Butter",
+        "a little",
+        "dairy_fat"
+      ],
+      [
+        "Salt and freshly ground black pepper",
+        "to taste",
+        "spice_seasoning"
+      ]
     ],
     "steps": [
-      ["Parboil the zucchini in salted water, drain and let cool.", "prep"],
+      [
+        "Parboil the zucchini in salted water, drain and let cool.",
+        "prep"
+      ],
       "Halve them lengthwise and scoop out the pulp.",
       "Mix the cheeses, flour, dill and garlic and fill the zucchini.",
-      ["Top each with a dot of butter, grill until golden and sprinkle with black pepper.", "finish"]
+      [
+        "Top each with a dot of butter, grill until golden and sprinkle with black pepper.",
+        "finish"
+      ]
     ],
     "notes": "A Turkish dish."
   },
@@ -819,16 +2265,42 @@
     "cook": "20 min",
     "difficulty": "easy",
     "ingredients": [
-      ["Zucchini", "1 kg", "vegetable"],
-      ["Flour", "1 cup", "grain_starch"],
-      ["Salt", "1 teaspoon", "spice_seasoning"],
-      ["Chilled sparkling water", "1/2 cup", "liquid"],
-      ["Cooking oil", "for frying", "dairy_fat"]
+      [
+        "Zucchini",
+        "1 kg",
+        "vegetable"
+      ],
+      [
+        "Flour",
+        "1 cup",
+        "grain_starch"
+      ],
+      [
+        "Salt",
+        "1 teaspoon",
+        "spice_seasoning"
+      ],
+      [
+        "Chilled sparkling water",
+        "1/2 cup",
+        "liquid"
+      ],
+      [
+        "Cooking oil",
+        "for frying",
+        "dairy_fat"
+      ]
     ],
     "steps": [
-      ["Peel and slice the zucchini.", "prep"],
+      [
+        "Peel and slice the zucchini.",
+        "prep"
+      ],
       "Beat the flour, salt and sparkling water into a smooth batter.",
-      ["Dip each slice in the batter and shallow-fry in very hot oil until golden.", "finish"]
+      [
+        "Dip each slice in the batter and shallow-fry in very hot oil until golden.",
+        "finish"
+      ]
     ],
     "notes": "A Turkish dish. Chilled sparkling water keeps the batter light and crisp."
   }

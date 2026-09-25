@@ -2009,104 +2009,146 @@
     "num": 320,
     "page": 142,
     "title": "Everyday Egyptian Salad Dressing (Khalta li-l-Salata)",
+    "titleAr": "خلطة السلطة المصرية اليومية",
     "category": "salads",
     "method": "noCook",
     "prep": "5 min",
+    "prepAr": "5 دقائق",
     "difficulty": "easy",
     "ingredients": [
       [
         "Oil",
         "1 tablespoon",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت",
+        "1 ملعقة كبيرة"
       ],
       [
         "Lemon juice",
         "1 tablespoon",
-        "liquid"
+        "liquid",
+        "عصير ليمون",
+        "1 ملعقة كبيرة"
       ],
       [
         "Vinegar",
         "1 teaspoon",
-        "liquid"
+        "liquid",
+        "خل",
+        "1 ملعقة صغيرة"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ],
       [
         "Crushed garlic (optional)",
         "1–2 cloves",
-        "vegetable"
+        "vegetable",
+        "ثوم مهروس (اختياري)",
+        "1–2 فص"
       ],
       [
         "Cumin (optional)",
         "a pinch",
-        "spice_seasoning"
+        "spice_seasoning",
+        "كمون (اختياري)",
+        "رشة"
       ],
       [
         "Hot chili (optional)",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "شطة (اختياري)",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
-      "Mix all the ingredients together.",
+      [
+        "Mix all the ingredients together.",
+        "اخلط كل المكونات معاً.",
+        "cook"
+      ],
       [
         "Pour over the salad just before serving.",
+        "صبّها على السلطة قبل التقديم مباشرة.",
         "finish"
       ]
     ],
-    "notes": "The basic dressing the book uses for most of its salads."
+    "notes": "The basic dressing the book uses for most of its salads.",
+    "notesAr": "الخلطة الأساسية التي يستخدمها الكتاب لمعظم السلطات."
   },
   {
     "num": 323,
     "page": 143,
     "title": "Fresh Cabbage Salad with Garlic and Lemon (Salatit Krumb)",
+    "titleAr": "سلطة كرنب طازج بالثوم والليمون",
     "category": "salads",
     "method": "noCook",
     "prep": "15 min",
+    "prepAr": "15 دقيقة",
     "difficulty": "easy",
     "ingredients": [
       [
         "White cabbage leaves, shredded",
         "1/2 head",
-        "vegetable"
+        "vegetable",
+        "ورق كرنب أبيض مقطع شرائح رفيعة",
+        "نصف رأس"
       ],
       [
         "Onion, finely chopped",
         "1",
-        "vegetable"
+        "vegetable",
+        "بصلة مفرومة ناعماً",
+        "1"
       ],
       [
         "Oil",
         "1 tablespoon",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت",
+        "1 ملعقة كبيرة"
       ],
       [
         "Lemon juice",
         "1–2 tablespoons",
-        "liquid"
+        "liquid",
+        "عصير ليمون",
+        "1–2 ملعقة كبيرة"
       ],
       [
         "Garlic cloves, crushed",
         "3–5",
-        "vegetable"
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "3–5"
       ],
       [
         "Salt",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Sprinkle the cabbage and onion with salt and rub well, then rinse and drain.",
+        "رشّ الكرنب والبصل بالملح وافركهما جيداً، ثم اشطفهما وصفّهما.",
         "prep"
       ],
-      "Mix the oil, lemon juice, garlic and salt.",
+      [
+        "Mix the oil, lemon juice, garlic and salt.",
+        "اخلط الزيت وعصير الليمون والثوم والملح.",
+        "cook"
+      ],
       [
         "Pour over the vegetables and toss.",
+        "صبّ الخلطة على الخضار وقلّب.",
         "finish"
       ]
     ]
@@ -2115,80 +2157,115 @@
     "num": 329,
     "page": 145,
     "title": "Egyptian Chopped Salad (Salata Baladi)",
+    "titleAr": "سلطة بلدي مصرية",
     "category": "salads",
     "method": "noCook",
     "prep": "20 min",
+    "prepAr": "20 دقيقة",
     "difficulty": "easy",
     "ingredients": [
       [
         "Tomatoes",
         "as available",
-        "vegetable"
+        "vegetable",
+        "طماطم",
+        "حسب المتوفر"
       ],
       [
         "Onion",
         "1",
-        "vegetable"
+        "vegetable",
+        "بصلة",
+        "1"
       ],
       [
         "Cucumbers",
         "as available",
-        "vegetable"
+        "vegetable",
+        "خيار",
+        "حسب المتوفر"
       ],
       [
         "Sweet green peppers",
         "as available",
-        "vegetable"
+        "vegetable",
+        "فلفل أخضر حلو",
+        "حسب المتوفر"
       ],
       [
         "Parsley leaves",
         "a handful",
-        "vegetable"
+        "vegetable",
+        "ورق بقدونس",
+        "حفنة"
       ],
       [
         "Red radishes",
         "a few",
-        "vegetable"
+        "vegetable",
+        "فجل أحمر",
+        "بضع حبات"
       ],
       [
         "Lettuce heart",
         "1",
-        "vegetable"
+        "vegetable",
+        "قلب خس",
+        "1"
       ],
       [
         "Pickles",
         "a few",
-        "vegetable"
+        "vegetable",
+        "مخلل",
+        "بضع قطع"
       ],
       [
         "Garlic clove",
         "1",
-        "vegetable"
+        "vegetable",
+        "فص ثوم",
+        "1"
       ],
       [
         "Lemon juice",
         "for soaking the onion",
-        "liquid"
+        "liquid",
+        "عصير ليمون",
+        "لنقع البصل"
       ],
       [
         "Salad dressing (oil, lemon, vinegar, salt and pepper)",
         "to taste",
-        "liquid"
+        "liquid",
+        "خلطة السلطة (زيت وليمون وخل وملح وفلفل)",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Only onions and tomatoes are essential; add whatever else the season offers.",
+        "البصل والطماطم فقط أساسيان، وأضف ما يتوفر في الموسم من خضار أخرى.",
         "prep"
       ],
       [
         "Chop everything finely, keeping each vegetable separate.",
+        "قطّع كل الخضار قطعاً صغيرة، مع إبقاء كل نوع منفصلاً.",
         "prep"
       ],
-      "Rub the onion with salt, rinse it and leave it to soak in lemon juice.",
-      "Rub the inside of the salad bowl with the cut garlic clove and heap the vegetables in it.",
+      [
+        "Rub the onion with salt, rinse it and leave it to soak in lemon juice.",
+        "افرك البصل بالملح، واشطفه، واتركه منقوعاً في عصير الليمون.",
+        "cook"
+      ],
+      [
+        "Rub the inside of the salad bowl with the cut garlic clove and heap the vegetables in it.",
+        "افرك داخل طبق السلطة بفص الثوم المقطوع، وكوّم الخضار فيه.",
+        "cook"
+      ],
       [
         "Just before serving, add the dressing and toss.",
+        "قبل التقديم مباشرة، أضف الخلطة وقلّب.",
         "finish"
       ]
     ]
@@ -2197,33 +2274,51 @@
     "num": 331,
     "page": 146,
     "title": "Artichoke and Egg Salad (Salatit Kharshuf)",
+    "titleAr": "سلطة خرشوف بالبيض",
     "category": "salads",
     "method": "boil",
     "prep": "15 min",
+    "prepAr": "15 دقيقة",
     "cook": "20 min",
+    "cookAr": "20 دقيقة",
     "difficulty": "easy",
     "ingredients": [
       [
         "Artichoke hearts",
         "4–5",
-        "vegetable"
+        "vegetable",
+        "قلوب خرشوف",
+        "4–5"
       ],
       [
         "Hard-boiled eggs, chopped",
         "2–3",
-        "dairy_fat"
+        "dairy_fat",
+        "بيض مسلوق مفروم",
+        "2–3"
       ],
       [
         "Salad dressing (oil, lemon, vinegar, salt and pepper)",
         "to taste",
-        "liquid"
+        "liquid",
+        "خلطة السلطة (زيت وليمون وخل وملح وفلفل)",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
-      "Boil the artichoke hearts in salted water until tender, drain and chop.",
-      "Add them to the chopped eggs.",
+      [
+        "Boil the artichoke hearts in salted water until tender, drain and chop.",
+        "اسلق قلوب الخرشوف في ماء مملح حتى تلين، ثم صفّها وقطّعها.",
+        "cook"
+      ],
+      [
+        "Add them to the chopped eggs.",
+        "أضفها إلى البيض المفروم.",
+        "cook"
+      ],
       [
         "Pour over the dressing and mix well.",
+        "صبّ الخلطة عليها واخلط جيداً.",
         "finish"
       ]
     ]
@@ -2232,47 +2327,70 @@
     "num": 332,
     "page": 146,
     "title": "Green Bean Salad with Red Onion (Salatit Fasulya Khadra)",
+    "titleAr": "سلطة فاصوليا خضراء بالبصل الأحمر",
     "category": "salads",
     "method": "boil",
     "prep": "15 min",
+    "prepAr": "15 دقيقة",
     "cook": "15 min",
+    "cookAr": "15 دقيقة",
     "difficulty": "easy",
     "ingredients": [
       [
         "Runner (green) beans",
         "1 kg",
-        "vegetable"
+        "vegetable",
+        "فاصوليا خضراء",
+        "1 كيلو"
       ],
       [
         "Red onions, thinly sliced",
         "2",
-        "vegetable"
+        "vegetable",
+        "بصل أحمر مقطع شرائح رفيعة",
+        "2"
       ],
       [
         "Oil",
         "1 tablespoon",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت",
+        "1 ملعقة كبيرة"
       ],
       [
         "Lemon juice",
         "2 tablespoons",
-        "liquid"
+        "liquid",
+        "عصير ليمون",
+        "2 ملعقة كبيرة"
       ],
       [
         "Salt",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "String the beans and trim the tops and tails.",
+        "انزع خيوط الفاصوليا واقطع طرفيها.",
         "prep"
       ],
-      "Boil in salted water until tender, drain and spread out to cool.",
-      "Put the sliced onion in the salad bowl to soak in the lemon juice.",
+      [
+        "Boil in salted water until tender, drain and spread out to cool.",
+        "اسلقها في ماء مملح حتى تلين، ثم صفّها وافردها لتبرد.",
+        "cook"
+      ],
+      [
+        "Put the sliced onion in the salad bowl to soak in the lemon juice.",
+        "ضع شرائح البصل في طبق السلطة لتنقع في عصير الليمون.",
+        "cook"
+      ],
       [
         "Before serving, add the beans and oil and mix.",
+        "قبل التقديم، أضف الفاصوليا والزيت واخلط.",
         "finish"
       ]
     ]
@@ -2281,47 +2399,73 @@
     "num": 333,
     "page": 146,
     "title": "Beetroot Salad with Garlic Vinegar (Salatit Bangar bi-l-Toom)",
+    "titleAr": "سلطة بنجر بالثوم والخل",
     "category": "salads",
     "method": "boil",
     "prep": "15 min",
+    "prepAr": "15 دقيقة",
     "cook": "1 hour",
+    "cookAr": "ساعة واحدة",
     "difficulty": "easy",
     "ingredients": [
       [
         "Beetroot",
         "1 kg",
-        "vegetable"
+        "vegetable",
+        "بنجر",
+        "1 كيلو"
       ],
       [
         "Garlic cloves",
         "10–15",
-        "vegetable"
+        "vegetable",
+        "فصوص ثوم",
+        "10–15"
       ],
       [
         "Vinegar",
         "1 tablespoon",
-        "liquid"
+        "liquid",
+        "خل",
+        "1 ملعقة كبيرة"
       ],
       [
         "Salt",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
-      "Boil the beetroot for about an hour, until very tender.",
-      "Drain, keeping two tablespoons of the cooking water. Cool, peel and cut into small cubes, thin slices or fingers.",
-      "Crush the garlic with salt until very smooth and mix in the vinegar.",
+      [
+        "Boil the beetroot for about an hour, until very tender.",
+        "اسلق البنجر حوالي ساعة حتى يصبح طرياً جداً.",
+        "cook"
+      ],
+      [
+        "Drain, keeping two tablespoons of the cooking water. Cool, peel and cut into small cubes, thin slices or fingers.",
+        "صفّه مع الاحتفاظ بملعقتين كبيرتين من ماء السلق. اتركه يبرد، ثم قشّره وقطّعه مكعبات صغيرة أو شرائح رفيعة أو أصابع.",
+        "cook"
+      ],
+      [
+        "Crush the garlic with salt until very smooth and mix in the vinegar.",
+        "اهرس الثوم مع الملح حتى يصبح ناعماً جداً، وأضف الخل واخلط.",
+        "cook"
+      ],
       [
         "Stir the garlic dressing into the reserved cooking water, pour over the beetroot and mix gently.",
+        "أضف خلطة الثوم إلى ماء السلق المحفوظ، وصبّها على البنجر واخلط برفق.",
         "finish"
       ],
       [
         "With tahini (recipe 334 in the book): dress the beetroot with 2 tablespoons of thin tahini sauce instead.",
+        "بالطحينة (الوصفة 334 في الكتاب): تبّل البنجر بملعقتين كبيرتين من صلصة طحينة خفيفة بدلاً من ذلك.",
         "alternative"
       ],
       [
         "With yogurt (recipe 335 in the book): mix the cubed beetroot with 3 diced tomatoes and 3–5 diced cucumbers and cover with 1 cup of garlic yogurt (yogurt, crushed garlic and salt, without mint).",
+        "بالزبادي (الوصفة 335 في الكتاب): اخلط مكعبات البنجر مع 3 حبات طماطم و3–5 حبات خيار مقطعة مكعبات، وغطّها بكوب من الزبادي بالثوم (زبادي وثوم مهروس وملح، بدون نعناع).",
         "alternative"
       ]
     ]
@@ -2330,33 +2474,51 @@
     "num": 336,
     "page": 147,
     "title": "Blanched Cabbage Salad with Salted Fish (Salatit Krumb)",
+    "titleAr": "سلطة كرنب مسلوق بالسمك المملح",
     "category": "salads",
     "method": "boil",
     "prep": "15 min",
+    "prepAr": "15 دقيقة",
     "cook": "1 min",
+    "cookAr": "دقيقة واحدة",
     "difficulty": "easy",
     "ingredients": [
       [
         "White cabbage leaves",
         "1/2 head",
-        "vegetable"
+        "vegetable",
+        "ورق كرنب أبيض",
+        "نصف رأس"
       ],
       [
         "Salted fish (smoked herring, anchovy…)",
         "a sliver",
-        "seafood"
+        "seafood",
+        "سمك مملح (رنجة مدخنة، أنشوجة…)",
+        "قطعة صغيرة"
       ],
       [
         "Salad dressing (oil, lemon, vinegar, salt and pepper)",
         "to taste",
-        "liquid"
+        "liquid",
+        "خلطة السلطة (زيت وليمون وخل وملح وفلفل)",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
-      "Shred the cabbage very finely, blanch it for 1 minute, drain and cool.",
-      "Chop the fish very finely and stir it into the dressing.",
+      [
+        "Shred the cabbage very finely, blanch it for 1 minute, drain and cool.",
+        "قطّع الكرنب شرائح رفيعة جداً، واسلقه دقيقة واحدة، ثم صفّه واتركه يبرد.",
+        "cook"
+      ],
+      [
+        "Chop the fish very finely and stir it into the dressing.",
+        "افرم السمك ناعماً جداً وأضفه إلى الخلطة.",
+        "cook"
+      ],
       [
         "Pour over the cabbage and mix well.",
+        "صبّها على الكرنب واخلط جيداً.",
         "finish"
       ]
     ]
@@ -2365,46 +2527,65 @@
     "num": 337,
     "page": 147,
     "title": "Wilted Spinach Salad with Onion and Lemon (Salatit Sabanikh)",
+    "titleAr": "سلطة سبانخ مسلوقة بالبصل والليمون",
     "category": "salads",
     "method": "simmer",
     "prep": "15 min",
+    "prepAr": "15 دقيقة",
     "cook": "5 min",
+    "cookAr": "5 دقائق",
     "difficulty": "easy",
     "ingredients": [
       [
         "Spinach",
         "1 kg",
-        "vegetable"
+        "vegetable",
+        "سبانخ",
+        "1 كيلو"
       ],
       [
         "Onion, grated",
         "1",
-        "vegetable"
+        "vegetable",
+        "بصلة مبشورة",
+        "1"
       ],
       [
         "Lemon juice",
         "2 tablespoons",
-        "liquid"
+        "liquid",
+        "عصير ليمون",
+        "2 ملعقة كبيرة"
       ],
       [
         "Oil",
         "1 tablespoon",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت",
+        "1 ملعقة كبيرة"
       ],
       [
         "Salt",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Chop the spinach leaves and stems coarsely, sprinkle with salt and rub until they lose some juice. Rinse and pat dry.",
+        "قطّع أوراق السبانخ وسيقانها تقطيعاً خشناً، ورشّها بالملح وافركها حتى تفقد بعض عصارتها. اشطفها وجفّفها.",
         "prep"
       ],
-      "Wilt the spinach over a low heat, drain and spread out to cool.",
+      [
+        "Wilt the spinach over a low heat, drain and spread out to cool.",
+        "ضع السبانخ على نار هادئة حتى تذبل، ثم صفّها وافردها لتبرد.",
+        "cook"
+      ],
       [
         "Mix in the onion, lemon juice, oil and salt.",
+        "أضف البصل وعصير الليمون والزيت والملح واخلط.",
         "finish"
       ]
     ]
@@ -2413,55 +2594,81 @@
     "num": 338,
     "page": 147,
     "title": "Turkish Spinach Salad with Feta (Ispanak Salatası)",
+    "titleAr": "سلطة سبانخ تركية بالجبنة البيضاء (إسبناك سالاطاسي)",
     "category": "salads",
     "method": "simmer",
     "prep": "15 min",
+    "prepAr": "15 دقيقة",
     "cook": "10 min",
+    "cookAr": "10 دقائق",
     "difficulty": "easy",
     "ingredients": [
       [
         "Fresh spinach",
         "1 kg",
-        "vegetable"
+        "vegetable",
+        "سبانخ طازجة",
+        "1 كيلو"
       ],
       [
         "Onions, very finely chopped",
         "2",
-        "vegetable"
+        "vegetable",
+        "بصل مفروم ناعماً جداً",
+        "2"
       ],
       [
         "Olive oil",
         "2 tablespoons",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت زيتون",
+        "2 ملعقة كبيرة"
       ],
       [
         "Parsley, very finely chopped",
         "1/2 cup",
-        "vegetable"
+        "vegetable",
+        "بقدونس مفروم ناعماً جداً",
+        "نصف كوب"
       ],
       [
         "Beyaz peynir (feta cheese)",
         "2 tablespoons",
-        "dairy_fat"
+        "dairy_fat",
+        "جبنة بيضاء تركية (بياز بينير / فيتا)",
+        "2 ملعقة كبيرة"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Rinse the spinach, chop it coarsely and wilt it in a pot over the heat.",
+        "اشطف السبانخ وقطّعها تقطيعاً خشناً، وضعها في حلة على النار حتى تذبل.",
         "prep"
       ],
-      "Drain in a colander, pressing with a spoon to squeeze out the moisture, and put it in a bowl.",
-      "Fry the onions in the olive oil until golden and add them to the bowl.",
+      [
+        "Drain in a colander, pressing with a spoon to squeeze out the moisture, and put it in a bowl.",
+        "صفّها في مصفاة مع الضغط بملعقة لإخراج الماء، وضعها في وعاء.",
+        "cook"
+      ],
+      [
+        "Fry the onions in the olive oil until golden and add them to the bowl.",
+        "حمّر البصل في زيت الزيتون حتى يصبح ذهبياً، وأضفه إلى الوعاء.",
+        "cook"
+      ],
       [
         "Add the parsley, cheese, salt and pepper and toss well.",
+        "أضف البقدونس والجبنة والملح والفلفل وقلّب جيداً.",
         "finish"
       ]
     ],
-    "notes": "A Turkish dish."
+    "notes": "A Turkish dish.",
+    "notesAr": "طبق تركي."
   }
 ]
