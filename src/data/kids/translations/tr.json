@@ -1,0 +1,755 @@
+{
+  "pancake-animals": {
+    "title": "Hayvan Pankekler",
+    "intro": "Yenebilen hayvanlara dönüştürdüğün yumuşacık pankekler!",
+    "ingredients": ["1 su bardağı un", "1 yemek kaşığı şeker", "2 tatlı kaşığı kabartma tozu", "1 yumurta", "1 su bardağı süt", "2 yemek kaşığı sıvı yağ", "1 muz", "Bir avuç yaban mersini", "4 çilek"],
+    "steps": [
+      "Unu, şekeri ve kabartma tozunu kaseye koy.",
+      "Yumurtayı önce bir fincana kır, sonra kaseye dök.",
+      "Sütü ve yağı ekle.",
+      "Karışım pürüzsüz olana ve büyük topak kalmayana kadar çırp.",
+      "Bir büyük, sıcak tavaya bir büyük daire ve kulaklar için iki küçük daire döker.",
+      "Üstünde kabarcıklar patlayınca büyük onu çevirir.",
+      "Muzu ve çilekleri tereyağı bıçağıyla dilimle.",
+      "Bir ayı yüzü yap: muzdan burun, yaban mersininden gözler ve çilekten yanaklar!"
+    ],
+    "tip": "Uzun kulaklı bir tavşan ya da muzdan bıyıkları olan bir kedi dene."
+  },
+  "rainbow-parfait": {
+    "title": "Gökkuşağı Yoğurt Parfe",
+    "intro": "Şeffaf bir bardakta renkli yoğurt ve meyve katları, tıpkı gökkuşağı gibi!",
+    "ingredients": ["2 su bardağı sade yoğurt", "6 çilek", "1 mandalina", "1 muz", "1 kivi", "Bir avuç yaban mersini", "4 yemek kaşığı granola", "2 tatlı kaşığı bal"],
+    "steps": [
+      "Mandalinayı ve muzu soy. Mandalinayı dilimlerine ayır.",
+      "Muzu ve çilekleri tereyağı bıçağıyla kes.",
+      "Bir büyük kiviyi soyar ve keser.",
+      "Her bardağın dibine 2 kaşık yoğurt koy.",
+      "Her seferinde bir renk meyve ekle: kırmızı, turuncu, sarı, yeşil, mavi!",
+      "Üstüne biraz daha yoğurt koy, sonra granola serp.",
+      "Biraz bal gezdir ve kaşıkla ye!"
+    ],
+    "tip": "Gökkuşağını görmek için şeffaf bir bardak kullan."
+  },
+  "foul-face-sandwich": {
+    "title": "Gülen Yüzlü Ful Sandviç",
+    "intro": "Mısır’ın en sevilen kahvaltısı, gülen bir yüzle!",
+    "ingredients": ["1 kutu haşlanmış bakla (ful)", "1 yemek kaşığı zeytinyağı", "Yarım limon", "Bir tutam kimyon", "Bir tutam tuz", "2 baladi ya da pide ekmeği", "1 küçük salatalık, dilimlenmiş", "1 küçük domates, dilimlenmiş"],
+    "steps": [
+      "Bir büyük fulü mikrodalgada 1 dakika ısıtır.",
+      "Fulü çatalla ez. Ez, ez!",
+      "Limonu fulün üstüne sık. Çekirdeklere dikkat!",
+      "Yağı, kimyonu ve tuzu ekle, sonra karıştır.",
+      "Ekmeğin cebini dikkatlice aç ve içine kaşıkla ful koy.",
+      "Ona bir yüz yap: salatalıktan gözler ve domatesten gülümseme!"
+    ],
+    "tip": "Komik bir burun için haşlanmış yumurta ekle."
+  },
+  "smiley-toast": {
+    "title": "Gülen Tost",
+    "intro": "Meyveden gülümsemesi olan çıtır bir tost!",
+    "ingredients": ["2 dilim ekmek", "2 yemek kaşığı labne ya da krem peynir", "4 yaban mersini", "2 çilek", "Yarım muz", "Biraz bal"],
+    "steps": [
+      "Bir büyük ekmeği ekmek kızartma makinesinde kızartır.",
+      "Biraz soğuması için bir dakika bekle.",
+      "Labneyi tereyağı bıçağıyla tosta sür.",
+      "Muzu ve çilekleri dilimle.",
+      "Bir yüz yap: yaban mersininden gözler, çilekten gülümseme ve muzdan saçlar!",
+      "İnce bir çizgi bal gezdir ve ye!"
+    ],
+    "tip": "Kedi yüzü, güneş ya da araba dene!"
+  },
+  "overnight-oats": {
+    "title": "Kavanozda Gece Yulafı",
+    "intro": "Yatmadan önce hazırla, sabah kahvaltın hazır olsun!",
+    "ingredients": ["½ su bardağı yulaf ezmesi", "½ su bardağı süt", "3 yemek kaşığı yoğurt", "1 tatlı kaşığı bal", "Yarım muz", "Bir avuç orman meyvesi ya da sevdiğin bir meyve"],
+    "steps": [
+      "Yulafı kavanoza koy.",
+      "Sütü, yoğurdu ve balı ekle.",
+      "Kapağı sıkıca kapat, sonra kavanozu kuvvetlice salla!",
+      "Bütün gece buzdolabında beklet.",
+      "Sabah muzu tereyağı bıçağıyla dilimle.",
+      "Meyveleri yulafın üstüne koy ve kaşıkla ye!"
+    ],
+    "tip": "Çikolatalı yulaf için bir kaşık kakao ekle."
+  },
+  "labneh-balls": {
+    "title": "Zahterli Labne Topları",
+    "intro": "Yeşil zahtere bulanmış küçük labne topları.",
+    "ingredients": ["1 su bardağı koyu labne", "2 yemek kaşığı zeytinyağı", "3 yemek kaşığı zahter", "Yanında ekmek"],
+    "steps": [
+      "Kolay şekil verebilmek için labneyi 30 dakika buzdolabında soğut.",
+      "Ellerine biraz zeytinyağı sür.",
+      "Bir tatlı kaşığı labne al ve ellerinin arasında yuvarla.",
+      "Her topu zahtere bula.",
+      "Onları bir tabağa diz ve biraz zeytinyağı gezdir.",
+      "Ekmekle ye!"
+    ],
+    "tip": "Farklı renkler için bazılarını susama ya da kırmızı tatlı toz biberine bula."
+  },
+  "mini-manakish": {
+    "title": "Mini Zahterli Manakiş",
+    "intro": "Zahter ve zeytinyağlı küçük ekmekler, bütün evi mis gibi kokutur!",
+    "ingredients": ["4 küçük pide ekmeği", "4 yemek kaşığı zahter", "4 yemek kaşığı zeytinyağı", "Beyaz peynir (isteğe bağlı)"],
+    "steps": [
+      "Zahteri ve zeytinyağını kaseye koy.",
+      "Yeşil bir macun olana kadar karıştır.",
+      "Ekmekleri fırın tepsisine diz.",
+      "Kaşığın arkasıyla zahter karışımını her ekmeğe sür.",
+      "İstersen bazılarının üstüne biraz peynir ufala.",
+      "Bir büyük onları 200 °C’de 8 dakika pişirir.",
+      "2 dakika bekle, sonra kopar ve afiyetle ye."
+    ],
+    "tip": "Pişirdikten sonra üstüne domates ve salatalık koy."
+  },
+  "egg-muffins": {
+    "title": "Sebzeli Yumurta Muffinleri",
+    "intro": "Küçük kalıplarda yumurta, sebze ve peynir, tıpkı cupcake gibi!",
+    "ingredients": ["4 yumurta", "2 yemek kaşığı süt", "Yarım biber, bir büyük tarafından küp küp doğranmış", "4 çeri domates", "½ su bardağı rendelenmiş peynir", "Bir tutam tuz", "Kalıp için biraz yağ"],
+    "steps": [
+      "Muffin kalıbının içine biraz yağ sür.",
+      "Yumurtaları tek tek kaseye kır.",
+      "Sütü ve tuzu ekle.",
+      "Her şey sararana kadar çırp.",
+      "Çeri domatesleri tereyağı bıçağıyla ikiye kes.",
+      "Biberi, domatesleri ve peyniri kalıplara paylaştır.",
+      "Her kalıp yarıya kadar dolana dek üstüne yumurta dök.",
+      "Bir büyük onları 180 °C’de 18 dakika pişirir.",
+      "5 dakika bekle, sonra kaşıkla çıkar."
+    ],
+    "tip": "Mısır, bezelye ya da sevdiğin bir sebze ekle."
+  },
+  "ants-on-a-log": {
+    "title": "Kütük Üstünde Karıncalar",
+    "intro": "Üstünde bir sıra lezzetli “karınca” olan çıtır kereviz kütükleri.",
+    "ingredients": ["4 sap kereviz", "4 yemek kaşığı fıstık ezmesi (ya da tahin veya krem peynir)", "2 yemek kaşığı kuru üzüm"],
+    "steps": [
+      "Kerevizi akan suyun altında yıka ve kurula.",
+      "Bir büyük her sapı 3 kısa kütüğe keser.",
+      "Tereyağı bıçağıyla her kütüğün içini fıstık ezmesiyle doldur.",
+      "Kuru üzüm “karıncaları” her kütüğün üstüne sıra halinde diz.",
+      "Karıncalarını say, sonra kıtır kıtır!"
+    ],
+    "tip": "Kırmızı “uğur böcekleri” için kuru kızılcık dene."
+  },
+  "rainbow-fruit-kebabs": {
+    "title": "Gökkuşağı Meyve Şişleri",
+    "intro": "Gökkuşağının her rengindeki meyveleri şişlere diz.",
+    "ingredients": ["6 çilek", "2 mandalina", "6 parça ananas", "2 kivi", "12 yaban mersini", "6 kırmızı üzüm"],
+    "steps": [
+      "Bütün meyveleri yıka ve kurula.",
+      "Bir büyük kivileri soyar ve büyük meyveleri parçalara keser.",
+      "Mandalinaları soy ve dilimlerine ayır.",
+      "Meyveleri gökkuşağı sırasıyla şişe diz: kırmızı, turuncu, sarı, yeşil, mavi, mor.",
+      "Şişi dikkatli tut: ucu sivri!"
+    ],
+    "tip": "Onları biraz ballı yoğurda batır."
+  },
+  "date-energy-balls": {
+    "title": "Hurmalı Yulaflı Enerji Topları",
+    "intro": "Fırınsız tatlı hurma topları: onları ellerinle yuvarlarsın!",
+    "ingredients": ["1 su bardağı yumuşak, çekirdeksiz hurma", "Ilık su", "1 su bardağı yulaf ezmesi", "2 yemek kaşığı tahin", "1 yemek kaşığı kakao", "3 yemek kaşığı hindistan cevizi"],
+    "steps": [
+      "Bir büyük hurmaların üstüne ılık su döker. 10 dakika bekle.",
+      "Suyu dök, sonra hurmaları çatalla ezip macun yap.",
+      "Yulafı, tahini ve kakaoyu ekle.",
+      "Kaşıkla karıştır, sonra temiz ellerinle hepsini yoğur.",
+      "Büyük bir bilye kadar küçük toplar yuvarla.",
+      "Her topu hindistan cevizine bula, kar gibi!",
+      "Onları 20 dakika buzdolabına koy, sonra afiyet olsun!"
+    ],
+    "tip": "İki renkli bir tabak için bazılarını kakaoya, bazılarını hindistan cevizine bula."
+  },
+  "cucumber-caterpillar": {
+    "title": "Salatalık Tırtıl",
+    "intro": "Salatalık ve domatesten yapılmış sevimli yeşil bir tırtıl.",
+    "ingredients": ["1 salatalık", "1 çeri domates", "2 yemek kaşığı krem peynir", "Gözler için 2 kuru üzüm", "Antenler için 2 ince havuç çubuğu"],
+    "steps": [
+      "Salatalığı yıka ve kurula.",
+      "Bir büyük salatalığı halka halka dilimler.",
+      "Halkaları bir tırtıl gibi dalgalı bir sıraya diz.",
+      "Her halkanın üstüne bir nokta krem peynir koy.",
+      "Domatesten kafa, kuru üzümden gözler ve havuçtan antenler ekle!",
+      "Kuyruğundan başla. Kıtır kıtır!"
+    ],
+    "tip": "Salatalık ve havuç halkalarıyla çizgili bir tırtıl yap."
+  },
+  "apple-donuts": {
+    "title": "Elma “Donutlar”",
+    "intro": "Donut gibi görünen elma halkaları, ama aslında meyve!",
+    "ingredients": ["1 büyük elma", "4 yemek kaşığı süzme yoğurt ya da krem peynir", "1 tatlı kaşığı bal", "Renkli şeker süsleri", "2 yemek kaşığı granola"],
+    "steps": [
+      "Elmayı yıka.",
+      "Bir büyük elmanın çekirdek evini çıkarır ve kalın halkalar keser.",
+      "Yoğurdu balla karıştır.",
+      "Her elma halkasına yoğurt sür.",
+      "Renkli şekerler ve granolayla süsle.",
+      "Yoğurt kaymadan ye!"
+    ],
+    "tip": "Yoğurt yerine fıstık ezmesi ve kuru üzüm dene."
+  },
+  "hummus-veggie-face": {
+    "title": "Humus ve Sebzeden Yüz",
+    "intro": "Sana gülümseyen bir tabak humus, sebzeden gözleri ve saçlarıyla!",
+    "ingredients": ["1 su bardağı hazır humus", "2 havuç", "1 salatalık", "2 çeri domates", "1 kırmızı ya da yeşil biber", "Batırmak için ekmek"],
+    "steps": [
+      "Bütün sebzeleri yıka.",
+      "Bir büyük havuçları çubuk, salatalığı halka ve biberi şerit şeklinde keser.",
+      "Humusu tabağa büyük bir daire olarak yay.",
+      "Salatalıktan gözler, domatesten burun ve biberden gülümseme yap.",
+      "Yüzün çevresine saç olarak havuç çubukları koy!",
+      "Sebzeleri ve ekmeği humusa batır."
+    ],
+    "tip": "Bol havuç saçlı bir aslan yap."
+  },
+  "banana-snowmen": {
+    "title": "Muz Kardan Adamlar",
+    "intro": "Şişte küçük bir kardan adam, hem de yiyebileceğin!",
+    "ingredients": ["2 muz", "2 çilek", "12 damla çikolata", "Burun için minicik bir parça havuç"],
+    "steps": [
+      "Muzları soy.",
+      "Muzları tereyağı bıçağıyla kalın halkalar halinde kes.",
+      "3 muz halkasını şişe diz: işte kardan adamın!",
+      "Bir büyük çileğin tepesini keserek şapka yapar.",
+      "Şapkayı tak, sonra çikolatadan gözler ve düğmeler, havuçtan burun ekle.",
+      "Kararmadan önce ye!"
+    ],
+    "tip": "Gerçekten soğuk bir kardan adam için 30 dakika dondurucuya koy."
+  },
+  "cracker-towers": {
+    "title": "Kraker ve Peynir Kuleleri",
+    "intro": "Yapabildiğin en yüksek kuleyi yap… sonra ye!",
+    "ingredients": ["8 kraker", "4 dilim peynir", "Yarım salatalık, dilimlenmiş", "4 çeri domates", "2 marul yaprağı"],
+    "steps": [
+      "Peyniri kalıpla şekiller halinde kes ya da kareler halinde kır.",
+      "Marulu elinle küçük parçalara ayır.",
+      "Domatesleri tereyağı bıçağıyla ikiye kes.",
+      "Diz: kraker, peynir, marul, salatalık, sonra bir kraker daha!",
+      "En tepeye yarım domates koy.",
+      "En yüksek kuleyi kim yaptı? Şimdi ye!"
+    ],
+    "tip": "Yeni bir kat için zeytin ya da labne dene."
+  },
+  "tortilla-pinwheels": {
+    "title": "Tortilla Rulolar",
+    "intro": "Bir tortillayı rulo yapıp kes, renkli spiralleri gör!",
+    "ingredients": ["2 büyük tortilla", "4 yemek kaşığı krem peynir", "1 rendelenmiş havuç", "4 marul yaprağı", "½ su bardağı rendelenmiş peynir"],
+    "steps": [
+      "Tortillanın her yerine krem peynir sür.",
+      "Rendelenmiş havucu ve peyniri serp.",
+      "Üstünü marul yapraklarıyla kapla.",
+      "Tortillayı bir halı gibi sıkıca rulo yap.",
+      "Bir büyük onu dilimler.",
+      "Dilimleri tabağa koy ve spiralleri gör!"
+    ],
+    "tip": "Daha fazla renk için ıspanak ya da salatalık ekle."
+  },
+  "frozen-yogurt-bark": {
+    "title": "Dondurulmuş Yoğurt Tabletleri",
+    "intro": "Çikolata gibi parçalara ayırdığın meyveli dondurulmuş yoğurt.",
+    "ingredients": ["2 su bardağı süzme yoğurt", "2 yemek kaşığı bal", "6 çilek", "Bir avuç yaban mersini", "3 yemek kaşığı granola"],
+    "steps": [
+      "Yoğurdu ve balı karıştır.",
+      "Tepsiye pişirme kâğıdı ser.",
+      "Kaşığın arkasıyla yoğurdu kâğıda yay.",
+      "Çilekleri küçük parçalara kes.",
+      "Meyveleri ve granolayı yoğurdun üstüne serp.",
+      "3 saat dondur.",
+      "Elinle parçalara ayır ve hemen ye!"
+    ],
+    "tip": "Hindistan cevizi ya da damla çikolata da ekle."
+  },
+  "fruit-ice-pops": {
+    "title": "Meyveli Buzlu Dondurmalar",
+    "intro": "Sıcak günler için meyve suyu ve meyve parçalarından renkli dondurmalar.",
+    "ingredients": ["2 su bardağı portakal ya da mango suyu", "4 çilek", "1 kivi", "Bir avuç yaban mersini"],
+    "steps": [
+      "Çilekleri tereyağı bıçağıyla küçük parçalara kes.",
+      "Bir büyük kiviyi soyar ve keser.",
+      "Meyve parçalarını kalıplara koy.",
+      "Meyve suyunu neredeyse ağzına kadar dök.",
+      "Çubukları ya da kalıbın kapağını tak.",
+      "En az 4 saat dondur.",
+      "Kalıbı birkaç saniye ılık suyun altında tut, dondurmalar kolayca çıksın."
+    ],
+    "tip": "İki kat yap: portakal suyu, sonra çilek suyu."
+  },
+  "pita-pizza-faces": {
+    "title": "Pide Pizza Yüzler",
+    "intro": "Yassı ekmekte küçük pizzalar, her birinde senin yaptığın komik bir yüz!",
+    "ingredients": ["4 küçük pide ya da baladi ekmeği", "8 yemek kaşığı domates sosu", "1 su bardağı rendelenmiş mozzarella", "8 halka siyah zeytin", "1 küçük yeşil biber, bir büyük tarafından şerit şeklinde kesilmiş", "4 çeri domates, ikiye kesilmiş"],
+    "steps": [
+      "Ekmekleri fırın tepsisine diz.",
+      "Kaşığın arkasıyla her ekmeğe 2 kaşık sos sür.",
+      "Bütün ekmeğin üstüne peynir serp.",
+      "Bir yüz yap: zeytinden gözler, domatesten burun ve biberden gülümseme.",
+      "Bir büyük onları 200 °C’de yaklaşık 10 dakika, peynir eriyene kadar pişirir.",
+      "3 dakika bekle, çünkü sıcak peynir yakar! Sonra ye."
+    ],
+    "tip": "Fazladan biber şeritleriyle komik saçlar yap."
+  },
+  "homemade-hummus": {
+    "title": "Ev Yapımı Humus",
+    "intro": "Birkaç dakikada kendin yapacağın pürüzsüz, kremalı humus.",
+    "ingredients": ["1 kutu haşlanmış nohut", "3 yemek kaşığı tahin", "1 limon", "1 küçük diş sarımsak (isteğe bağlı)", "Bir tutam tuz", "3 yemek kaşığı soğuk su", "Üstü için zeytinyağı", "Bir tutam kırmızı toz biber"],
+    "steps": [
+      "Nohutları küçük süzgeçte musluğun altında durula.",
+      "Limonu limon sıkacağında sık.",
+      "Nohutları, tahini, limon suyunu ve tuzu blendere koy.",
+      "Sarımsağı ve soğuk suyu ekle.",
+      "Bir büyük hepsini çok pürüzsüz olana kadar çeker.",
+      "Tabağa yay ve kaşıkla bir girdap yap.",
+      "Üstüne zeytinyağı ve kırmızı toz biber koy."
+    ],
+    "tip": "Pembe humus için haşlanmış pancar ekle!"
+  },
+  "fattoush": {
+    "title": "Fattuş Salatası",
+    "intro": "Kızarmış ekmekli çıtır bir salata, marulu da sen koparıyorsun!",
+    "ingredients": ["1 pide ekmeği", "1 küçük marul", "1 salatalık", "8 çeri domates", "3 turp", "Bir avuç nane", "Yarım limon", "3 yemek kaşığı zeytinyağı", "Bir tutam tuz"],
+    "steps": [
+      "Ekmeği elinle küçük parçalara ayır.",
+      "Bir büyük onları fırında 7 dakika çıtır olana kadar kızartır.",
+      "Bütün sebzeleri yıka.",
+      "Marulu ve naneyi elinle koparıp kaseye at.",
+      "Bir büyük salatalığı ve turpları keser.",
+      "Çeri domatesleri tereyağı bıçağıyla ikiye kes.",
+      "Limonu sık, yağı ve tuzu ekle, sonra karıştır.",
+      "Çıtır ekmeği en son ekle ki çıtır kalsın!"
+    ],
+    "tip": "Varsa üstüne sumak serp."
+  },
+  "pasta-salad": {
+    "title": "Renkli Makarna Salatası",
+    "intro": "Eğlenceli şekilli makarnalar ve her renkten sebze.",
+    "ingredients": ["2 su bardağı şekilli makarna", "½ su bardağı mısır", "8 çeri domates", "1 dolmalık biber", "1 salatalık", "½ su bardağı küp peynir", "3 yemek kaşığı zeytinyağı", "Yarım limon", "Bir tutam tuz"],
+    "steps": [
+      "Bir büyük makarnayı tuzlu suda yaklaşık 10 dakika haşlar.",
+      "Büyük onu süzer ve soğuk suyla durular.",
+      "Bir büyük biberi ve salatalığı küp küp doğrar.",
+      "Çeri domatesleri tereyağı bıçağıyla ikiye kes.",
+      "Makarnayı, mısırı, peyniri ve sebzeleri kaseye koy.",
+      "Limonu sık, yağı ve tuzu ekle.",
+      "Bütün renkler karışana kadar yavaşça karıştır."
+    ],
+    "tip": "Daha doyurucu bir salata için ton balığı ya da zeytin ekle."
+  },
+  "koshari-bowl": {
+    "title": "Kendi Koşari Kaseni Yap",
+    "intro": "Mısır koşarisi, kaseni kat kat kendin hazırlıyorsun!",
+    "ingredients": ["1 su bardağı pişmiş pirinç", "1 su bardağı pişmiş yeşil mercimek", "1 su bardağı haşlanmış küçük makarna", "½ su bardağı haşlanmış nohut", "1 su bardağı domates sosu", "Bir tutam kimyon", "½ su bardağı çıtır kızarmış soğan"],
+    "steps": [
+      "Bir büyük pirinci, mercimeği ve makarnayı pişirir, hazırsa ısıtır.",
+      "Büyük domates sosunu kimyonla ısıtır.",
+      "Kasenin dibine pirinç ve mercimek koy.",
+      "Bir kat makarna ekle.",
+      "Üstüne nohut serp.",
+      "Ilık sosu kepçeyle, dikkatlice dök!",
+      "Üstüne çıtır soğan koy!"
+    ],
+    "tip": "Acı seven büyükler sarımsaklı sirke sosu ekler."
+  },
+  "kofta-fingers": {
+    "title": "Fırında Parmak Köfte",
+    "intro": "Parmak köfteleri ellerinle şekillendir, gerisini fırın yapsın.",
+    "ingredients": ["500 g kıyma", "1 küçük soğan, bir büyük tarafından rendelenmiş", "Bir avuç maydanoz", "3 yemek kaşığı galeta unu", "½ tatlı kaşığı kimyon", "½ tatlı kaşığı tuz"],
+    "steps": [
+      "Maydanoz yapraklarını küçük parçalara kopar.",
+      "Kıymayı, soğanı ve maydanozu kaseye koy.",
+      "Galeta ununu, kimyonu ve tuzu ekle.",
+      "Eldiven giy ve hepsini yoğur.",
+      "Sosis gibi uzun parmaklar yap ve tepsiye diz.",
+      "Çiğ ete dokunduktan sonra ellerini sabunla iyice yıka.",
+      "Bir büyük onları 200 °C’de 20 dakika pişirir.",
+      "Onları ekmek ve salatayla ye!"
+    ],
+    "tip": "Onları tahine batır."
+  },
+  "chicken-nuggets": {
+    "title": "Fırında Çıtır Tavuk Nugget",
+    "intro": "Mısır gevrekli çıtır nuggetlar, kızartma yerine fırında.",
+    "ingredients": ["2 tavuk göğsü", "1 yumurta", "2 su bardağı mısır gevreği", "½ tatlı kaşığı kırmızı toz biber", "Bir tutam tuz"],
+    "steps": [
+      "Bir büyük tavuğu lokmalık parçalara keser.",
+      "Mısır gevreğini, kırmızı toz biberi ve tuzu bir poşete koy ve kapat.",
+      "Her şey ufalanana kadar poşeti ellerinle ez!",
+      "Yumurtayı kaseye kır ve çatalla çırp.",
+      "Eldiven giy ve her parçayı yumurtaya batır.",
+      "Sonra mısır gevreğine bula ve tepsiye koy.",
+      "Çiğ tavuğa dokunduktan sonra ellerini sabunla iyice yıka.",
+      "Bir büyük onları 200 °C’de 20 dakika, içleri iyice pişene kadar pişirir."
+    ],
+    "tip": "Onları ketçaba ya da sarımsaklı yoğurda batır."
+  },
+  "stuffed-pita-pockets": {
+    "title": "Doldurulmuş Pide Cepleri",
+    "intro": "Sevdiğin her şeyle doldurduğun ekmek cepleri!",
+    "ingredients": ["2 pide ekmeği", "4 yemek kaşığı beyaz peynir", "Yarım salatalık", "1 domates", "2 marul yaprağı", "6 çekirdeksiz zeytin"],
+    "steps": [
+      "Bir büyük salatalığı ve domatesi dilimler.",
+      "Ayrıca her ekmeği ikiye keserek iki cep yapar.",
+      "Marulu elinle kopar.",
+      "Bir cebi aç ve içine kaşıkla peynir koy.",
+      "Sebzeleri içine yerleştir.",
+      "Zeytinleri en son ekle ve hafifçe bastır.",
+      "İki elinle tut ve ye!"
+    ],
+    "tip": "Peynir yerine haşlanmış yumurta ya da humus dene."
+  },
+  "cheese-quesadilla": {
+    "title": "Peynirli Quesadilla Üçgenleri",
+    "intro": "Her ısırıkta uzayan erimiş peynirli çıtır tortilla!",
+    "ingredients": ["2 tortilla", "1 su bardağı rendelenmiş peynir", "3 yemek kaşığı mısır", "Biraz doğranmış biber"],
+    "steps": [
+      "Peyniri tortillanın yarısına serp.",
+      "Mısırı ve biberi ekle.",
+      "Tortillayı bir kitap gibi ikiye katla.",
+      "Bir büyük onu tavada 2 dakika pişirir.",
+      "Büyük peynir eriyene kadar onu çevirir.",
+      "Bir büyük onu üçgenler halinde keser.",
+      "2 dakika bekle: peynir çok sıcak!"
+    ],
+    "tip": "Onları yoğurda ya da domates sosuna batır."
+  },
+  "magic-vegetable-soup": {
+    "title": "Sihirli Sebze Çorbası",
+    "intro": "Renkli sebzeleri tencereye koy ve sihrin gerçekleşmesini izle!",
+    "ingredients": ["2 havuç", "1 patates", "1 kabak", "1 soğan", "2 domates", "½ su bardağı dondurulmuş bezelye", "4 su bardağı su", "Bir tutam tuz", "Bir avuç maydanoz"],
+    "steps": [
+      "Bütün sebzeleri iyice yıka.",
+      "Bir büyük sebzeleri soyar ve küp küp doğrar.",
+      "Ocak açılmadan önce sebzeleri soğuk tencereye koy.",
+      "Bezelyeleri ve domatesleri ekle. Yapabilirsen bezelyeleri say!",
+      "Suyu ve tuzu ekle.",
+      "Bir büyük çorbayı sebzeler yumuşayana kadar 25 dakika pişirir.",
+      "Maydanozu kopar ve çorbanın üstüne serp.",
+      "5 dakika bekle ve yemeden önce üfle!"
+    ],
+    "tip": "Daha doyurucu bir çorba için tel şehriye ya da küçük makarna ekle."
+  },
+  "egg-salad-sandwiches": {
+    "title": "Yumurta Salatalı Sandviç",
+    "intro": "Lezzetli bir sandviç için yumurtaları kendin soy ve ez.",
+    "ingredients": ["4 yumurta", "3 yemek kaşığı yoğurt ya da mayonez", "Bir tutam tuz", "Bir tutam kimyon", "4 dilim ekmek", "2 marul yaprağı"],
+    "steps": [
+      "Bir büyük yumurtaları 10 dakika haşlar.",
+      "Büyük yumurtaları soğuması için soğuk suya koyar.",
+      "Yumurtayı masaya vur, sonra soy. Çok eğlenceli!",
+      "Yumurtaları kasede çatalla ez.",
+      "Yoğurdu, tuzu ve kimyonu ekle ve karıştır.",
+      "Yumurta salatasını bir dilim ekmeğe sür.",
+      "Bir marul yaprağı koy ve üstüne diğer dilimi kapat.",
+      "Kurabiye kalıbıyla eğlenceli şekiller kes!"
+    ],
+    "tip": "Biraz dereotu ya da yeşil soğan ekle."
+  },
+  "sweet-potato-wedges": {
+    "title": "Tatlı Patates Dilimleri",
+    "intro": "Fırından çıtır turuncu dilimler, hem tatlı hem tuzlu!",
+    "ingredients": ["2 tatlı patates", "2 yemek kaşığı zeytinyağı", "½ tatlı kaşığı kırmızı toz biber", "Bir tutam tuz"],
+    "steps": [
+      "Tatlı patatesleri iyice yıka ve fırçala.",
+      "Bir büyük onları kalın dilimler halinde keser.",
+      "Onları yağla birlikte kaseye koy.",
+      "Kırmızı toz biberi ve tuzu serp.",
+      "Hepsi kaplanana kadar karıştır.",
+      "Birbirine değmeyecek şekilde tepsiye diz.",
+      "Bir büyük onları 200 °C’de 25 dakika pişirir.",
+      "3 dakika bekle, sonra parmaklarınla ye!"
+    ],
+    "tip": "Onları naneli yoğurda batır."
+  },
+  "ghorayeba": {
+    "title": "Gurayba Kurabiyesi",
+    "intro": "Ağızda dağılan kar beyazı bayram kurabiyeleri, sadece üç malzemeyle!",
+    "ingredients": ["½ su bardağı yumuşak tereyağı ya da sade yağ", "½ su bardağı pudra şekeri", "1,5 su bardağı un", "20 antep fıstığı ya da badem"],
+    "steps": [
+      "Yumuşak tereyağını ve pudra şekerini kremamsı ve beyaz olana kadar karıştır.",
+      "Unu azar azar ekle.",
+      "Ellerinle sıkarak yumuşak bir hamur yap.",
+      "Küçük toplar yuvarla, tepsiye koy ve biraz bastır.",
+      "Her kurabiyenin üstüne bir fıstık bastır.",
+      "Bir büyük onları 160 °C’de 15 dakika pişirir. Beyaz kalmaları lazım!",
+      "Tamamen soğumalarını bekle: sıcak gurayba kolayca kırılır."
+    ],
+    "tip": "Top yerine kalp ya da ay şekli ver."
+  },
+  "chocolate-banana-pops": {
+    "title": "Çikolatalı Muz Çubukları",
+    "intro": "Çubuğa takılı muzlar, çikolataya batırılmış, renkli şekerli ve dondurulmuş!",
+    "ingredients": ["2 muz", "4 dondurma çubuğu", "100 g çikolata", "Renkli şeker süsleri"],
+    "steps": [
+      "Muzları soy.",
+      "Her muzu tereyağı bıçağıyla ikiye kes.",
+      "Her yarımın kesik ucuna bir çubuk batır.",
+      "Bir büyük çikolatayı mikrodalgada 30’ar saniye eritir.",
+      "Her muzu çikolataya batır ve çevir.",
+      "Çabuk! Çikolata donmadan renkli şekerleri serp.",
+      "Onları bir tepside 2 saat dondurucuya koy."
+    ],
+    "tip": "Renkli şeker yerine kırılmış bisküvi dene."
+  },
+  "eid-kahk": {
+    "title": "Bayram Kahk Kurabiyeleri",
+    "intro": "Teta’nın yaptığı gibi hurma dolgulu bayram kahklarını şekillendir ve desenle!",
+    "ingredients": ["2 su bardağı un", "1 su bardağı yumuşak tereyağı ya da sade yağ", "2 yemek kaşığı pudra şekeri", "½ tatlı kaşığı kabartma tozu", "4 yemek kaşığı süt", "½ su bardağı hurma ezmesi", "Üstü için pudra şekeri"],
+    "steps": [
+      "Unu, şekeri ve kabartma tozunu kaseye koy.",
+      "Yumuşak tereyağını ve sütü ekle.",
+      "Ellerinle yapışmayan pürüzsüz bir hamur yoğur.",
+      "Hurma ezmesini minicik toplar yap.",
+      "Bir hamur topunu yassılaştır, ortasına hurma topunu koy ve kapat.",
+      "Üstüne kahk mührüyle desen bas ya da çatalla çizgiler çiz.",
+      "Bir büyük onları 180 °C’de 15 dakika pişirir.",
+      "Soğuyunca üstlerine kar gibi pudra şekeri serp!"
+    ],
+    "tip": "Bazılarının içine lokum ya da çikolata koy."
+  },
+  "one-bowl-basbousa": {
+    "title": "Tek Kasede Basbusa",
+    "intro": "Şerbete bulanmış altın rengi basbusa, hepsi tek bir kasede!",
+    "ingredients": ["1 su bardağı irmik", "½ su bardağı şeker", "½ su bardağı hindistan cevizi", "1 tatlı kaşığı kabartma tozu", "1 su bardağı yoğurt", "½ su bardağı eritilmiş tereyağı", "12 badem", "1 su bardağı soğuk şerbet, bir büyük tarafından önceden hazırlanmış"],
+    "steps": [
+      "Bir büyük tereyağını mikrodalgada eritir.",
+      "İrmiği, şekeri, hindistan cevizini ve kabartma tozunu kaseye koy.",
+      "Yoğurdu ve eritilmiş tereyağını ekle.",
+      "Her şey karışana kadar kaşıkla karıştır.",
+      "Karışımı yağlanmış tepsiye yay ve üstünü düzelt.",
+      "Tereyağı bıçağıyla kare ya da baklava dilimleri çiz.",
+      "Her parçanın ortasına bir badem bastır.",
+      "Bir büyük onu 180 °C’de 30 dakika, altın rengi olana kadar pişirir.",
+      "Büyük soğuk şerbeti sıcak basbusanın üstüne döker. Cızzz!"
+    ],
+    "tip": "Yemeden önce şerbeti çekmesi için bir saat beklet."
+  },
+  "mahalabiya-cups": {
+    "title": "Süslü Muhallebi Kapları",
+    "intro": "Renklerle süslediğin pürüzsüz, beyaz sütlü tatlı!",
+    "ingredients": ["3 su bardağı süt", "4 yemek kaşığı mısır nişastası", "4 yemek kaşığı şeker", "1 tatlı kaşığı vanilya", "Süslemek için dövülmüş antep fıstığı", "Süslemek için çilek", "Renkli şeker süsleri"],
+    "steps": [
+      "Tencereye 1 su bardağı soğuk süt dök.",
+      "Nişastayı ve şekeri ekle.",
+      "Nişasta kaybolana kadar iyice çırp.",
+      "Sütün kalanını ekle.",
+      "Bir büyük onu kısık ateşte koyulaşana kadar karıştırarak pişirir.",
+      "Büyük vanilyayı ekler ve kaplara döker.",
+      "Donması için 2 saat buzdolabında soğut.",
+      "Fıstık, çilek ve renkli şekerlerle istediğin gibi süsle!"
+    ],
+    "tip": "Çikolatalı muhallebi için bir kaşık kakao ekle."
+  },
+  "om-ali-croissants": {
+    "title": "Kruvasanlı Ümmü Ali",
+    "intro": "Sütlü ve kuruyemişli sıcak bir Mısır tatlısı, kruvasanla kolay yoldan.",
+    "ingredients": ["4 sade kruvasan", "3 su bardağı süt", "3 yemek kaşığı şeker", "3 yemek kaşığı kuru üzüm", "3 yemek kaşığı hindistan cevizi", "3 yemek kaşığı kırılmış kuruyemiş", "½ su bardağı krema (isteğe bağlı)"],
+    "steps": [
+      "Kruvasanları elinle büyük parçalara ayır.",
+      "Onları fırın kabına yay.",
+      "Parçaların arasına kuru üzüm, hindistan cevizi ve kuruyemiş serp.",
+      "Bir büyük sütü şekerle kaynayana kadar ısıtır.",
+      "Büyük sıcak sütü kruvasanların üstüne döker.",
+      "İstersen üstüne küçük kaşıklarla krema koy.",
+      "Bir büyük onu 200 °C’de 15 dakika, üstü kızarana kadar pişirir.",
+      "5 dakika bekle: çok sıcak!"
+    ],
+    "tip": "Kuru üzüm yerine muz parçaları dene."
+  },
+  "chocolate-biscuit-salami": {
+    "title": "Mozaik Pasta (Çikolatalı “Salam”)",
+    "intro": "Salama benzeyen fırınsız bir tatlı, ama çikolata ve bisküviden!",
+    "ingredients": ["200 g sade bisküvi", "150 g çikolata", "3 yemek kaşığı tereyağı", "3 yemek kaşığı süt", "Üstü için pudra şekeri"],
+    "steps": [
+      "Bisküvileri bir poşete koy ve kapat.",
+      "Bisküvileri elinle küçük parçalara kır, ama çok ufalama.",
+      "Bir büyük çikolatayı, tereyağını ve sütü mikrodalgada eritir.",
+      "Bisküvileri erimiş çikolataya dök.",
+      "Bütün bisküviler kaplanana kadar karıştır.",
+      "Karışımı streç filmin üstüne koy ve sosis gibi rulo yap.",
+      "Sertleşmesi için 2 saat buzdolabında soğut.",
+      "Üstüne pudra şekeri serp, sonra bir büyük onu dilimler."
+    ],
+    "tip": "Karışıma mini lokum ya da kuru üzüm ekle."
+  },
+  "cookie-cutter-cookies": {
+    "title": "Kalıplı Tereyağlı Kurabiyeler",
+    "intro": "Hamuru aç ve şekillerini seç: yıldızlar, kalpler ve hayvanlar!",
+    "ingredients": ["½ su bardağı yumuşak tereyağı", "½ su bardağı pudra şekeri", "1 yumurta", "1 tatlı kaşığı vanilya", "2 su bardağı un", "Renkli şeker süsleri"],
+    "steps": [
+      "Tereyağını ve şekeri kremamsı olana kadar karıştır.",
+      "Yumurtayı ve vanilyayı ekle ve karıştır.",
+      "Unu azar azar ekle.",
+      "Ellerinle yoğurup pürüzsüz bir top yap.",
+      "Hamuru serçe parmağın kalınlığında olana kadar oklavayla aç.",
+      "Kalıplarla yıldızlar, kalpler ve hayvanlar kes!",
+      "Onları tepsiye diz ve renkli şeker serp.",
+      "Bir büyük onları 180 °C’de 10 dakika pişirir.",
+      "Yemeden önce 15 dakika soğumalarını bekle."
+    ],
+    "tip": "Artan hamurları topla ve yeniden aç."
+  },
+  "mug-cake": {
+    "title": "Çikolatalı Kupa Kek",
+    "intro": "Bir kupada koca bir kek, bir dakikada hazır!",
+    "ingredients": ["4 yemek kaşığı un", "3 yemek kaşığı şeker", "2 yemek kaşığı kakao", "¼ tatlı kaşığı kabartma tozu", "4 yemek kaşığı süt", "2 yemek kaşığı sıvı yağ", "1 yemek kaşığı damla çikolata"],
+    "steps": [
+      "Unu, şekeri, kakaoyu ve kabartma tozunu kupaya koy.",
+      "Çatalla karıştır.",
+      "Sütü ve yağı ekle.",
+      "Beyaz bir yer kalmayana kadar iyice karıştır.",
+      "Üstüne damla çikolata serp.",
+      "Bir büyük onu mikrodalgada yaklaşık 1 dakika pişirir.",
+      "3 dakika bekle: kupa çok sıcak!"
+    ],
+    "tip": "Üstüne bir kaşık yoğurt ya da dondurma koy."
+  },
+  "cornflake-nests": {
+    "title": "Mısır Gevrekli Çikolata Yuvaları",
+    "intro": "İçinde küçük renkli yumurtalar olan çıtır çikolata yuvaları!",
+    "ingredients": ["150 g çikolata", "2 su bardağı mısır gevreği", "Mini çikolata yumurtalar ya da şekerlemeler"],
+    "steps": [
+      "Bir büyük çikolatayı mikrodalgada eritir.",
+      "Mısır gevreğini çikolataya ekle.",
+      "Hepsi kaplanana kadar yavaşça karıştır.",
+      "Her kâğıt kapsüle bir kaşık koy.",
+      "Kaşığın arkasıyla ortasına bastırıp yuva yap.",
+      "Her yuvaya küçük yumurtalar koy!",
+      "30 dakika buzdolabında soğut."
+    ],
+    "tip": "Karlı yuvalar için beyaz çikolata kullan."
+  },
+  "banana-muffins": {
+    "title": "Muzlu Muffinler",
+    "intro": "Kararmış muzları kullanmanın en güzel yolu: yumuşacık, tatlı muffinler!",
+    "ingredients": ["3 çok olgun muz", "1 yumurta", "⅓ su bardağı şeker", "⅓ su bardağı sıvı yağ", "¼ su bardağı süt", "1,5 su bardağı un", "2 tatlı kaşığı kabartma tozu"],
+    "steps": [
+      "Muzları soy.",
+      "Muzları çatalla püre olana kadar ez.",
+      "Yumurtayı muzların üstüne kır.",
+      "Şekeri, yağı ve sütü ekle ve karıştır.",
+      "Unu ve kabartma tozunu ekle.",
+      "Un kaybolana kadar yavaşça karıştır. Fazla karıştırma!",
+      "Kalıba kâğıt kapsüller koy ve her birini üçte ikisine kadar doldur.",
+      "Bir büyük onları 180 °C’de 20 dakika pişirir.",
+      "10 dakika soğumalarını bekle."
+    ],
+    "tip": "Hamura damla çikolata ya da kuru üzüm ekle."
+  },
+  "cream-qatayef": {
+    "title": "Kaymaklı Katayif",
+    "intro": "Kaymakla doldurulmuş Ramazan katayifi, kızartmadan ve fırınsız!",
+    "ingredients": ["12 küçük hazır katayif", "1 su bardağı kaymak (aşta)", "3 yemek kaşığı dövülmüş antep fıstığı", "Üstü için bal ya da şerbet"],
+    "steps": [
+      "Bir katayifi ikiye katla ve sadece alt kenarını sıkıştır, külah gibi açık kalsın.",
+      "Açık kısmı tatlı kaşığıyla kaymakla doldur.",
+      "Kaymaklı ucunu yeşil fıstığa batır.",
+      "Onları tabağa sıra halinde diz.",
+      "Üstüne biraz bal ya da şerbet gezdir.",
+      "Hayırlı Ramazanlar! Soğuk soğuk ye."
+    ],
+    "tip": "Bazılarını fıstık yerine hindistan cevizine batır."
+  },
+  "date-maamoul": {
+    "title": "Hurmalı Mamul",
+    "intro": "Kalıpla ya da çatalla şekil verdiğin hurma dolgulu bayram kurabiyeleri.",
+    "ingredients": ["1 su bardağı irmik", "1 su bardağı un", "¾ su bardağı eritilmiş tereyağı", "2 yemek kaşığı pudra şekeri", "4 yemek kaşığı süt", "1 su bardağı hurma ezmesi"],
+    "steps": [
+      "Bir büyük tereyağını mikrodalgada eritir.",
+      "İrmiği, unu ve şekeri kaseye koy.",
+      "Eritilmiş tereyağını ve sütü ekle.",
+      "Ellerinle yumuşak bir hamur yoğur.",
+      "Hurma ezmesini küçük toplar yap.",
+      "Her hurma topunu bir parça hamurla sar.",
+      "Onu mamul kalıbına bastır ve vurarak çıkar ya da çatalla çizgiler çiz.",
+      "Bir büyük onları 180 °C’de 20 dakika pişirir.",
+      "Soğuyunca üstlerine pudra şekeri serp."
+    ],
+    "tip": "Kimsenin kuruyemiş alerjisi yoksa bazılarını ceviz ya da fıstıkla doldur."
+  },
+  "chocolate-strawberries": {
+    "title": "Çikolatalı Çilekler",
+    "intro": "Çikolataya batırılmış kırmızı çilekler. Kolay ve şirin!",
+    "ingredients": ["12 çilek", "100 g çikolata", "Renkli şeker süsleri", "Hindistan cevizi"],
+    "steps": [
+      "Çilekleri yıka ve çok iyi kurula.",
+      "Bir büyük çikolatayı mikrodalgada eritir.",
+      "Bir çileği yapraklarından tut ve çikolataya batır.",
+      "Renkli şeker ya da hindistan cevizi serp.",
+      "Onları pişirme kâğıdının üstüne koy.",
+      "Çikolata donana kadar 20 dakika buzdolabında soğut."
+    ],
+    "tip": "Yarısını beyaz çikolataya batır."
+  },
+  "rice-pudding": {
+    "title": "Sütlaç",
+    "intro": "Tarçınlı, kremamsı sütlaç, tıpkı Teta’nınki gibi!",
+    "ingredients": ["½ su bardağı pirinç", "1 su bardağı su", "4 su bardağı süt", "½ su bardağı şeker", "Biraz vanilya", "Süslemek için tarçın", "Süslemek için kuru üzüm"],
+    "steps": [
+      "Pirinci küçük süzgeçte su berraklaşana kadar yıka.",
+      "Pirinci ve suyu tencereye koy.",
+      "Bir büyük pirinci suda 10 dakika pişirir.",
+      "Büyük sütü ve şekeri ekler ve kısık ateşte karıştırarak 25 dakika pişirir.",
+      "Büyük vanilyayı ekler ve kaselere paylaştırır.",
+      "Soğumasını bekle, sonra buzdolabına koy.",
+      "Tarçın ve kuru üzümle süsle."
+    ],
+    "tip": "Tarçınla gülen bir yüz çiz!"
+  },
+  "strawberry-banana-smoothie": {
+    "title": "Çilekli Muzlu Smoothie",
+    "intro": "Birkaç dakikada yapılan soğuk, pembe, lezzetli bir içecek.",
+    "ingredients": ["8 çilek", "1 muz", "½ su bardağı yoğurt", "1 su bardağı süt", "1 tatlı kaşığı bal", "4 buz küpü"],
+    "steps": [
+      "Çilekleri yıka ve yeşil yapraklarını kopar.",
+      "Muzu soy ve elinle parçalara ayır.",
+      "Meyveleri ve yoğurdu blendere koy.",
+      "Sütü, balı ve buzu ekle. Kapağı sıkıca kapat!",
+      "Bir büyük onu pürüzsüz ve pembe olana kadar çeker.",
+      "Bardaklara dök ve şerefe de!"
+    ],
+    "tip": "Artanı buzlu dondurma kalıplarında dondur."
+  },
+  "mint-lemonade": {
+    "title": "Naneli Limonata",
+    "intro": "Kendin sıktığın soğuk, taze limonata!",
+    "ingredients": ["4 limon", "4 yemek kaşığı şeker", "4 su bardağı soğuk su", "Bir avuç nane", "Buz küpleri"],
+    "steps": [
+      "Limonları ve naneyi yıka.",
+      "Bir büyük limonları ikiye keser.",
+      "Her yarımı limon sıkacağında sık. Çevir, çevir!",
+      "Suyu sürahiye dök ve şekeri ekle.",
+      "Soğuk suyu ekle ve şeker eriyene kadar karıştır.",
+      "Naneyi kopar ve ekle. Kokla bakalım!",
+      "Bardaklara buz koy ve limonatayı dök."
+    ],
+    "tip": "Pembe limonata için çilek dilimleri ekle."
+  },
+  "hot-sahlab": {
+    "title": "Sıcak Salep",
+    "intro": "Kuruyemiş ve tarçınlı, kremamsı, sıcacık bir kış içeceği.",
+    "ingredients": ["2 su bardağı süt", "2 yemek kaşığı mısır nişastası", "2 yemek kaşığı şeker", "Biraz vanilya", "Hindistan cevizi", "Kırılmış kuruyemiş", "Bir tutam tarçın"],
+    "steps": [
+      "Soğuk sütü tencereye dök.",
+      "Nişastayı ve şekeri ekle.",
+      "Nişasta kaybolana kadar çırp.",
+      "Bir büyük onu vanilyayla kısık ateşte, koyulaşana kadar karıştırarak pişirir.",
+      "Büyük onu kupalara döker.",
+      "Üstüne hindistan cevizi, kuruyemiş ve tarçın serp.",
+      "Biraz bekle ve içmeden önce üfle!"
+    ],
+    "tip": "Üstüne kuru üzüm ya da muz dilimleri koy."
+  },
+  "iced-karkade": {
+    "title": "Soğuk Hibiskus Çayı (Karkade)",
+    "intro": "Yakut kırmızısı bir Mısır içeceği, soğuk ve ferahlatıcı!",
+    "ingredients": ["½ su bardağı kuru hibiskus çiçeği", "4 su bardağı su", "4 yemek kaşığı şeker", "Yarım limon (isteğe bağlı)", "Buz"],
+    "steps": [
+      "Hibiskusu sürahiye koy. Bak ne kadar kırmızı!",
+      "Bir büyük üstüne sıcak su döker.",
+      "Koyu kırmızı olana kadar 15 dakika bekle.",
+      "Büyük onu küçük süzgeçten süzer.",
+      "Şekeri ekle ve eriyene kadar karıştır.",
+      "İyice soğuyana kadar buzdolabında beklet.",
+      "Buzun üstüne dök, istersen biraz limon sık."
+    ],
+    "tip": "Kırmızı buzlu dondurma için kalıplarda dondur."
+  }
+}
