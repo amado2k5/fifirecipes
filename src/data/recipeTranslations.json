@@ -23918,5 +23918,2899 @@
     "culturalNotes": "From the foundational Egyptian cooking textbook Osool El Tahy",
     "ingredients": {},
     "instructions": {}
+  },
+  "ec-003": {
+    "title": "Cold Black-Eyed Bean Salad (Lubya Nashfa Barda)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Salads",
+    "cookingMethod": "Boiling",
+    "prepTime": "overnight soaking",
+    "cookTime": "30 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 3, page 6 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Dried Black-eyed Beans (lubya)",
+        "standardAmount": "1/4 kg"
+      },
+      "1": {
+        "name": "Garlic Cloves",
+        "standardAmount": "5–7"
+      },
+      "2": {
+        "name": "Lemon Juice",
+        "standardAmount": "2 tablespoons"
+      },
+      "3": {
+        "name": "Oil",
+        "standardAmount": "1 teaspoon"
+      },
+      "4": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Leave the beans to soak in plenty of water overnight.",
+      "2": "Drain them, cover with fresh water and boil for about 30 minutes, until tender.",
+      "3": "Drain again and spread the beans out on a tray so they cool quickly without turning mushy.",
+      "4": "Pound the garlic with a little salt, then stir in the lemon juice, oil and pepper.",
+      "5": "Pour the garlic dressing over the cool beans and fold it through gently so every bean is coated.",
+      "6": "Onion and mint version (recipe 339 in the book): boil one onion with the beans, adding the salt for the last 5 minutes. Once cool, toss the beans with a second, finely chopped onion, a few fresh mint leaves and a simple dressing of oil, lemon juice, a little vinegar, salt and pepper."
+    }
+  },
+  "ec-005": {
+    "title": "Fried Kubeiba Discs (Kubeiba A'ras)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Meats & Poultry",
+    "cookingMethod": "Pan-Frying",
+    "prepTime": "1 hour",
+    "cookTime": "15 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 5, page 7 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Fine Bulgur",
+        "standardAmount": "1/2 kg"
+      },
+      "1": {
+        "name": "Beef",
+        "standardAmount": "1 kg"
+      },
+      "2": {
+        "name": "Animal Fat",
+        "standardAmount": "100 g"
+      },
+      "3": {
+        "name": "Onions",
+        "standardAmount": "1–2"
+      },
+      "4": {
+        "name": "Ice Cubes",
+        "standardAmount": "a few"
+      },
+      "5": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Soak the bulgur in cold water until it swells, then drain and squeeze it dry in a cloth.",
+      "2": "Mince the beef finely, then mix the minced meat with the squeezed bulgur, grated onion, salt and pepper.",
+      "3": "Knead the mixture with hands in a bowl full of icy water, folding it over and over until it is very light and feels like a mousse.",
+      "4": "Form the mixture into patties with well-oiled hands, pressing them flat and even.",
+      "5": "Fry the discs in deep hot fat until brown on both sides.",
+      "6": "Drain on absorbent paper and serve hot."
+    }
+  },
+  "ec-007": {
+    "title": "Houmous (Hummus)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Salads",
+    "cookingMethod": "No Cook",
+    "prepTime": "10 min (if using canned chickpeas)",
+    "cookTime": null,
+    "servings": 4,
+    "culturalNotes": "Recipe 7, page 8 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Chickpeas, Cooked And Still Hot",
+        "standardAmount": "2 cups"
+      },
+      "1": {
+        "name": "Tahini (sesame Paste)",
+        "standardAmount": "3–4 tablespoons"
+      },
+      "2": {
+        "name": "Lemon Juice",
+        "standardAmount": "3–4 tablespoons"
+      },
+      "3": {
+        "name": "Garlic Cloves",
+        "standardAmount": "3–5"
+      },
+      "4": {
+        "name": "Salt",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Blend or pound the hot chickpeas to a paste.",
+      "2": "Pound the garlic with salt, then add the tahini and blend into the chickpeas.",
+      "3": "Add the lemon juice slowly, beating hard to incorporate it.",
+      "4": "Spread the hummus on a shallow dish.",
+      "5": "Option: pour a little hot olive oil over it and sprinkle with paprika and parsley."
+    }
+  },
+  "ec-008": {
+    "title": "Mashed Broad Beans, Warm and Cold (Foul Medames)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Salads",
+    "cookingMethod": "Slow Simmering (Tasbeek)",
+    "prepTime": "overnight soaking",
+    "cookTime": "3–4 hours",
+    "servings": 4,
+    "culturalNotes": "Recipe 8, page 8 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Dried Broad Beans Or Split Fava Beans (foul)",
+        "standardAmount": "2 cups"
+      },
+      "1": {
+        "name": "Garlic Cloves, Sliced",
+        "standardAmount": "3–4"
+      },
+      "2": {
+        "name": "Lemon Juice",
+        "standardAmount": "3 tablespoons"
+      },
+      "3": {
+        "name": "Oil",
+        "standardAmount": "2–3 tablespoons"
+      },
+      "4": {
+        "name": "Salt And Cayenne Pepper",
+        "standardAmount": "to taste"
+      },
+      "5": {
+        "name": "Boiled Eggs, Halved",
+        "standardAmount": "3–4"
+      }
+    },
+    "instructions": {
+      "1": "Soak the beans overnight in plenty of water.",
+      "2": "Drain the beans, cover with fresh water and simmer very gently for 3–4 hours, until the beans fall apart easily.",
+      "3": "Fry the sliced garlic in the oil until pale gold, add salt and pepper and pour over the beans.",
+      "4": "Squeeze the lemon juice over the top and stir.",
+      "5": "Serve warm with hard-boiled egg halves on top."
+    }
+  },
+  "ec-010": {
+    "title": "Spinach and Walnut Dip (Mahammara)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Salads",
+    "cookingMethod": "No Cook",
+    "prepTime": "15 min",
+    "cookTime": null,
+    "servings": 4,
+    "culturalNotes": "Recipe 10, page 9 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Spinach, Finely Chopped",
+        "standardAmount": "1/2 kg"
+      },
+      "1": {
+        "name": "Walnuts, Ground",
+        "standardAmount": "1 cup"
+      },
+      "2": {
+        "name": "Garlic Cloves, Crushed",
+        "standardAmount": "5–7"
+      },
+      "3": {
+        "name": "Pomegranate Molasses Or Tamarind Water",
+        "standardAmount": "3 tablespoons"
+      },
+      "4": {
+        "name": "Oil",
+        "standardAmount": "3 tablespoons"
+      },
+      "5": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Blanch the spinach briefly in boiling water, then drain and squeeze it very dry.",
+      "2": "Mix the chopped spinach with the ground walnuts and crushed garlic.",
+      "3": "Add the pomegranate molasses or tamarind water, oil, salt and pepper.",
+      "4": "Mix well and serve at room temperature."
+    }
+  },
+  "ec-012": {
+    "title": "Cheese and Yogurt Dip (Labneh Maakhal)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Salads",
+    "cookingMethod": "No Cook",
+    "prepTime": "5 min",
+    "cookTime": null,
+    "servings": 4,
+    "culturalNotes": "Recipe 12, page 10 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Labneh (strained Yogurt Cheese)",
+        "standardAmount": "1 cup"
+      },
+      "1": {
+        "name": "Garlic Cloves, Crushed",
+        "standardAmount": "3–4"
+      },
+      "2": {
+        "name": "Lemon Juice",
+        "standardAmount": "1 teaspoon"
+      },
+      "3": {
+        "name": "Oil",
+        "standardAmount": "for the top"
+      },
+      "4": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Mix the labneh with the crushed garlic, lemon juice, salt and pepper.",
+      "2": "Spoon into a shallow dish and make a well in the centre.",
+      "3": "Pour a little olive oil into the well."
+    }
+  },
+  "ec-014": {
+    "title": "Tabbouleh (Parsley Salad)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Salads",
+    "cookingMethod": "No Cook",
+    "prepTime": "20 min",
+    "cookTime": null,
+    "servings": 4,
+    "culturalNotes": "Recipe 14, page 11 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Parsley Leaves",
+        "standardAmount": "2 large bunches"
+      },
+      "1": {
+        "name": "Mint Leaves, Fresh",
+        "standardAmount": "a small handful"
+      },
+      "2": {
+        "name": "Fine Bulgur",
+        "standardAmount": "1/2 cup"
+      },
+      "3": {
+        "name": "Tomatoes",
+        "standardAmount": "3"
+      },
+      "4": {
+        "name": "Onion, Finely Chopped",
+        "standardAmount": "1"
+      },
+      "5": {
+        "name": "Olive Oil",
+        "standardAmount": "1/2 cup"
+      },
+      "6": {
+        "name": "Lemon Juice",
+        "standardAmount": "4 tablespoons"
+      },
+      "7": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Soak the bulgur in cold water until it swells, then drain well.",
+      "2": "Finely chop the parsley leaves (not the stems) and the mint.",
+      "3": "Peel and finely chop the tomatoes.",
+      "4": "Mix the bulgur, parsley, mint, tomatoes and onion in a bowl.",
+      "5": "Whisk the olive oil, lemon juice, salt and pepper together, then pour over the salad.",
+      "6": "Toss and serve at room temperature."
+    }
+  },
+  "ec-042": {
+    "title": "Eggs Fried with Garlic and Mint (Beid Ma'li ma' Toom)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Savory Dishes",
+    "cookingMethod": "Pan-Frying",
+    "prepTime": "5 min",
+    "cookTime": "5 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 42, page 23 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Eggs",
+        "standardAmount": "4–6"
+      },
+      "1": {
+        "name": "Garlic Cloves",
+        "standardAmount": "5"
+      },
+      "2": {
+        "name": "Lemon Juice",
+        "standardAmount": "1 teaspoon"
+      },
+      "3": {
+        "name": "Dried Mint Powder",
+        "standardAmount": "a pinch"
+      },
+      "4": {
+        "name": "Cooking Oil",
+        "standardAmount": "as needed"
+      },
+      "5": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Crush the garlic with a little salt and stir in the lemon juice.",
+      "2": "Fry the garlic mixture briefly in the oil.",
+      "3": "Slide the eggs into the pan and fry them, spooning the hot garlicky oil over them once or twice.",
+      "4": "Sprinkle with the mint, salt and pepper and serve."
+    }
+  },
+  "ec-043": {
+    "title": "Eggs Fried with Lemon Juice (Beid Ma'li ma' Lamun)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Savory Dishes",
+    "cookingMethod": "Pan-Frying",
+    "prepTime": null,
+    "cookTime": "5 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 43, page 23 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Eggs",
+        "standardAmount": "4–6"
+      },
+      "1": {
+        "name": "Lemon Juice",
+        "standardAmount": "2 tablespoons"
+      },
+      "2": {
+        "name": "Cooking Oil",
+        "standardAmount": "as needed"
+      },
+      "3": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Heat the oil until it sizzles and slide in the eggs.",
+      "2": "Pour the lemon juice over them straight away.",
+      "3": "Baste the eggs with the pan juices once or twice as they set.",
+      "4": "Season with salt and pepper and serve."
+    }
+  },
+  "ec-048": {
+    "title": "Egg and Yogurt Sandwich Spread (Beid bi-l-Zabadi)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Savory Dishes",
+    "cookingMethod": "No Cook",
+    "prepTime": "5 min",
+    "cookTime": null,
+    "servings": 4,
+    "culturalNotes": "Recipe 48, page 25 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Hard-boiled Eggs",
+        "standardAmount": "4–6"
+      },
+      "1": {
+        "name": "Yogurt",
+        "standardAmount": "3 tablespoons"
+      },
+      "2": {
+        "name": "Mustard",
+        "standardAmount": "to taste"
+      },
+      "3": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Peel the eggs and mash them with a fork.",
+      "2": "Mix in the yogurt, mustard, salt and pepper.",
+      "3": "Spread on bread for sandwiches."
+    }
+  },
+  "ec-052": {
+    "title": "Herb and Sumac Omelet ('Igga bi-l-Tawabil)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Savory Dishes",
+    "cookingMethod": "Pan-Frying",
+    "prepTime": null,
+    "cookTime": "10 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 52, page 26 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Eggs",
+        "standardAmount": "4–6"
+      },
+      "1": {
+        "name": "Flour",
+        "standardAmount": "1 tablespoon"
+      },
+      "2": {
+        "name": "Oregano",
+        "standardAmount": "a pinch"
+      },
+      "3": {
+        "name": "Sumac",
+        "standardAmount": "a pinch"
+      },
+      "4": {
+        "name": "Mixed Spices",
+        "standardAmount": "a pinch"
+      },
+      "5": {
+        "name": "Onion (optional, As For The Plain 'igga)",
+        "standardAmount": "1"
+      },
+      "6": {
+        "name": "Cooking Oil",
+        "standardAmount": "as needed"
+      },
+      "7": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Beat the eggs with the sifted flour, herbs, spices, salt and pepper.",
+      "2": "Fry the finely chopped onion in the oil until pale gold, then pour in the eggs over a high heat.",
+      "3": "As the bottom sets, tilt the pan or lift the edge so the runny egg flows underneath.",
+      "4": "Turn the omelet and fry until both sides are golden and dry."
+    }
+  },
+  "ec-059": {
+    "title": "Dukkah Spice and Nut Dip (Du''a)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Savory Dishes",
+    "cookingMethod": "No Cook",
+    "prepTime": "10 min",
+    "cookTime": null,
+    "servings": 4,
+    "culturalNotes": "Recipe 59, page 27 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Salt",
+        "standardAmount": "1 measure"
+      },
+      "1": {
+        "name": "Roasted Coriander Seeds",
+        "standardAmount": "1 measure"
+      },
+      "2": {
+        "name": "Peanuts",
+        "standardAmount": "1 measure"
+      },
+      "3": {
+        "name": "Split Chickpeas",
+        "standardAmount": "1/2 measure"
+      },
+      "4": {
+        "name": "Dried Mint Leaves",
+        "standardAmount": "1/2 measure"
+      },
+      "5": {
+        "name": "Sesame Seeds",
+        "standardAmount": "1/2 measure"
+      }
+    },
+    "instructions": {
+      "1": "Grind all the ingredients together in a mortar or a blender.",
+      "2": "Eat by dipping pieces of baladi bread into the mixture."
+    }
+  },
+  "ec-060": {
+    "title": "Homemade Labneh (Labna)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Savory Dishes",
+    "cookingMethod": "Preserving",
+    "prepTime": "10 min",
+    "cookTime": "24 hours draining",
+    "servings": 4,
+    "culturalNotes": "Recipe 60, page 27 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Yogurt",
+        "standardAmount": "4 cups"
+      },
+      "1": {
+        "name": "Salt",
+        "standardAmount": "1 tablespoon"
+      },
+      "2": {
+        "name": "Olive Oil",
+        "standardAmount": "for the top"
+      },
+      "3": {
+        "name": "Cheesecloth Bag",
+        "standardAmount": "1"
+      }
+    },
+    "instructions": {
+      "1": "Stir the salt into the yogurt.",
+      "2": "Pour it into a wet cheesecloth bag, tie the top and hang it for 24 hours over a clean bowl.",
+      "3": "Keep the whey that drips out; it is nourishing and can be drunk or used in cooking.",
+      "4": "Spoon the labneh into a jar and pour a little oil, preferably olive oil, over the top.",
+      "5": "Labneh balls for keeping: hang a larger batch for longer, opening the bag every 24 hours to stir the yogurt (it thickens faster near the cloth) and adding a little more salt each day. When it is thick and even all through, roll small amounts into balls with wet hands and keep them in a jar half full of olive oil."
+    }
+  },
+  "ec-061": {
+    "title": "Homemade Pastirma (Bastirma)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Meats & Poultry",
+    "cookingMethod": "Preserving",
+    "prepTime": "30 min",
+    "cookTime": "6–8 days curing and drying",
+    "servings": 4,
+    "culturalNotes": "Recipe 61, page 28 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Beef Fillet Or Another Prime Cut",
+        "standardAmount": "1 kg"
+      },
+      "1": {
+        "name": "Salt",
+        "standardAmount": "1 cup"
+      },
+      "2": {
+        "name": "Ground Fenugreek",
+        "standardAmount": "3/4 cup"
+      },
+      "3": {
+        "name": "Hot Chili Pepper",
+        "standardAmount": "2 tablespoons"
+      },
+      "4": {
+        "name": "Garlic Heads",
+        "standardAmount": "3–4"
+      }
+    },
+    "instructions": {
+      "1": "Trim every bit of fat from the meat, dry it well and make two or three very shallow cuts in the surface.",
+      "2": "Roll the meat in 1/4 cup of the salt so it is completely covered.",
+      "3": "Lay it on a rack with a weight on top so the juices drain away, and leave it for 3–4 days.",
+      "4": "Take off the weight, wipe the meat dry and thread a cord through one end, leaving a long loop for hanging.",
+      "5": "Peel and crush the garlic and knead it with the fenugreek, chili and the rest of the salt into a soft paste.",
+      "6": "Coat the meat with the paste in a layer 1/2–1 cm thick.",
+      "7": "Hang it for another 3–4 days, until it is thoroughly dry and dark brown.",
+      "8": "Slice paper-thin and eat it raw at breakfast, with or without the rind, or fry it with eggs or use it in pastries."
+    }
+  },
+  "ec-062": {
+    "title": "Sweet Vermicelli with Raisins (Sha'riya)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Light Desserts",
+    "cookingMethod": "Slow Simmering (Tasbeek)",
+    "prepTime": null,
+    "cookTime": "20 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 62, page 28 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Vermicelli",
+        "standardAmount": "2 cups"
+      },
+      "1": {
+        "name": "Hot Water",
+        "standardAmount": "4 cups"
+      },
+      "2": {
+        "name": "Cooking Oil",
+        "standardAmount": "2 tablespoons"
+      },
+      "3": {
+        "name": "Sugar",
+        "standardAmount": "1/2–1 cup"
+      },
+      "4": {
+        "name": "Raisins (optional)",
+        "standardAmount": "2 tablespoons"
+      },
+      "5": {
+        "name": "Warm Milk (optional)",
+        "standardAmount": "for serving"
+      }
+    },
+    "instructions": {
+      "1": "Break the vermicelli with your fingers into pieces 2–3 cm long.",
+      "2": "Fry the raisins lightly in the oil until they puff up, then lift them out.",
+      "3": "Fry the vermicelli in the same oil until pale brown.",
+      "4": "Dissolve the sugar in the boiling water and pour it over the vermicelli, add the raisins, and cook over a low heat for about 15 minutes.",
+      "5": "If the water is absorbed before the vermicelli is tender, sprinkle in a little more hot water.",
+      "6": "Serve with warm milk poured over each plate.",
+      "7": "For a buffet dessert, add chopped bananas, strawberries and mixed nuts."
+    }
+  },
+  "ec-064": {
+    "title": "Eggs with Fried White Cheese (Beid Ma'li ma' Jibneh Beida)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Savory Dishes",
+    "cookingMethod": "Pan-Frying",
+    "prepTime": null,
+    "cookTime": "10 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 64, page 29 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Eggs",
+        "standardAmount": "4–6"
+      },
+      "1": {
+        "name": "Hard White Cheese, In 1 Cm Slices",
+        "standardAmount": "4–6 slices"
+      },
+      "2": {
+        "name": "Cooking Oil",
+        "standardAmount": "as needed"
+      },
+      "3": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Fry the cheese one slice at a time, turning it to colour both sides, and keep it warm at the side of the serving dish.",
+      "2": "Fry the eggs in the same oil, basting them as they cook.",
+      "3": "Serve the eggs next to the fried cheese, sprinkled with salt and pepper."
+    }
+  },
+  "ec-065": {
+    "title": "Yemeni Fatut with Fenugreek (Fatut bi-l-Hulba)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Savory Dishes",
+    "cookingMethod": "Pan-Frying",
+    "prepTime": "10 min",
+    "cookTime": "20 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 65, page 29 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Eggs",
+        "standardAmount": "4–6"
+      },
+      "1": {
+        "name": "Flatbread Loaves",
+        "standardAmount": "2"
+      },
+      "2": {
+        "name": "Ghee",
+        "standardAmount": "1/2 cup"
+      },
+      "3": {
+        "name": "Ground Fenugreek",
+        "standardAmount": "1 tablespoon"
+      },
+      "4": {
+        "name": "Tomato Paste",
+        "standardAmount": "1 tablespoon"
+      },
+      "5": {
+        "name": "Zhug (Yemeni Green Chili Paste)",
+        "standardAmount": "1/2 teaspoon"
+      },
+      "6": {
+        "name": "Chicken Stock",
+        "standardAmount": "2 cups"
+      },
+      "7": {
+        "name": "Lemon Juice",
+        "standardAmount": "2 tablespoons"
+      },
+      "8": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Blend the fenugreek, tomato paste and zhug into a paste.",
+      "2": "Tear the bread into bite-sized pieces and fry them in the ghee until crisp.",
+      "3": "Add the eggs to the pan and stir until they are well set and scrambled with the bread.",
+      "4": "Boil the chicken stock with the fenugreek paste, uncovered and over a high heat, until reduced by half.",
+      "5": "Add the egg and bread mixture and cook for 3–5 minutes more, then season.",
+      "6": "Serve with a little lemon juice added to each plate."
+    }
+  },
+  "ec-066": {
+    "title": "Turkish Eggs on Spinach and Feta (Ispanaklı Yumurta)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Savory Dishes",
+    "cookingMethod": "Pan-Frying",
+    "prepTime": "10 min",
+    "cookTime": "20 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 66, page 30 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Eggs",
+        "standardAmount": "4–6"
+      },
+      "1": {
+        "name": "Spinach",
+        "standardAmount": "1/2 kg"
+      },
+      "2": {
+        "name": "Onion, Very Finely Chopped",
+        "standardAmount": "1"
+      },
+      "3": {
+        "name": "Beyaz Peynir (feta Cheese), Crumbled",
+        "standardAmount": "a chunk"
+      },
+      "4": {
+        "name": "Cooking Oil",
+        "standardAmount": "as needed"
+      },
+      "5": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Wash the spinach in several changes of water, drain it in a colander and shred it coarsely.",
+      "2": "Fry the onion in the oil until it softens.",
+      "3": "Add the spinach and stir over a medium heat until the leaves wilt and release their liquid.",
+      "4": "Turn up the heat and cook until only enough liquid is left to cover the bottom of the pan.",
+      "5": "Stir in the crumbled cheese, salt and pepper.",
+      "6": "Break the eggs onto the spinach, spacing them evenly, cover the pan and cook over a medium heat until the eggs are set.",
+      "7": "Serve straight from the pan."
+    }
+  },
+  "ec-067": {
+    "title": "Turkish Poached Eggs in Garlic Yogurt (Çılbır)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Savory Dishes",
+    "cookingMethod": "Boiling",
+    "prepTime": "5 min",
+    "cookTime": "15 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 67, page 30 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Eggs",
+        "standardAmount": "4–6"
+      },
+      "1": {
+        "name": "Yogurt",
+        "standardAmount": "1 cup"
+      },
+      "2": {
+        "name": "Garlic Cloves, Crushed",
+        "standardAmount": "3–5"
+      },
+      "3": {
+        "name": "Vinegar",
+        "standardAmount": "1 teaspoon"
+      },
+      "4": {
+        "name": "Butter",
+        "standardAmount": "2 tablespoons"
+      },
+      "5": {
+        "name": "Hot Paprika",
+        "standardAmount": "a dash"
+      },
+      "6": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Mix the yogurt with the garlic, salt and pepper and warm it in an ovenproof dish in a moderately hot oven.",
+      "2": "Meanwhile, poach the eggs in simmering water with the vinegar and, once set, lay them on the yogurt.",
+      "3": "Melt the butter, stir in the paprika and drizzle the red butter over the eggs.",
+      "4": "Return the dish to the oven for 2–3 minutes, then serve on individual plates and season to taste."
+    }
+  },
+  "ec-068": {
+    "title": "Lebanese Baked Eggs in Yogurt (Beid bi-l-Laban)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Savory Dishes",
+    "cookingMethod": "Baking",
+    "prepTime": "10 min",
+    "cookTime": "20 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 68, page 31 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Eggs",
+        "standardAmount": "4–6"
+      },
+      "1": {
+        "name": "Egg White",
+        "standardAmount": "1"
+      },
+      "2": {
+        "name": "Yogurt",
+        "standardAmount": "2 cups"
+      },
+      "3": {
+        "name": "Garlic Cloves, Crushed",
+        "standardAmount": "5–7"
+      },
+      "4": {
+        "name": "Dried Mint Powder",
+        "standardAmount": "1 teaspoon"
+      },
+      "5": {
+        "name": "Ghee",
+        "standardAmount": "2–3 tablespoons"
+      },
+      "6": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Whisk the egg white until stiff and stir it into the yogurt; this keeps the yogurt from splitting.",
+      "2": "Cook the yogurt uncovered over a very low heat for 5–7 minutes, then pour it into a shallow ovenproof dish.",
+      "3": "Fry the garlic in the ghee until golden, stirring all the time so it does not stick, then stir in the mint, salt and pepper.",
+      "4": "Break the eggs over the yogurt, spacing them evenly, and pour the garlic ghee over them.",
+      "5": "Bake until the eggs are set."
+    }
+  },
+  "ec-069": {
+    "title": "Tunisian Ojja with Merguez and Potatoes (Ojja bi Mergaz)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Savory Dishes",
+    "cookingMethod": "Slow Simmering (Tasbeek)",
+    "prepTime": "15 min",
+    "cookTime": "35 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 69, page 31 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Eggs",
+        "standardAmount": "4–6"
+      },
+      "1": {
+        "name": "Potatoes, Peeled And Diced Very Small",
+        "standardAmount": "2"
+      },
+      "2": {
+        "name": "Spiced Sausages (merguez), Chopped Small",
+        "standardAmount": "5–7"
+      },
+      "3": {
+        "name": "Tomato Paste",
+        "standardAmount": "2 tablespoons"
+      },
+      "4": {
+        "name": "Garlic Cloves",
+        "standardAmount": "5–7"
+      },
+      "5": {
+        "name": "Harissa",
+        "standardAmount": "1 teaspoon"
+      },
+      "6": {
+        "name": "Paprika",
+        "standardAmount": "1 teaspoon"
+      },
+      "7": {
+        "name": "Caraway Seeds",
+        "standardAmount": "1 teaspoon"
+      },
+      "8": {
+        "name": "Olive Oil",
+        "standardAmount": "as needed"
+      },
+      "9": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Pound the garlic with salt, the paprika and the caraway.",
+      "2": "Sauté the potatoes in the oil, then add the tomato paste, the garlic mixture, the harissa and just enough water to cover.",
+      "3": "Cook over a low heat for 15 minutes.",
+      "4": "Add the sausages and cook for another 15 minutes.",
+      "5": "Beat the eggs with salt and pepper, pour them over the stew and stir.",
+      "6": "Serve as soon as the eggs are set."
+    }
+  },
+  "ec-070": {
+    "title": "Brain Omelet (Ijjit Nukha'aat)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Savory Dishes",
+    "cookingMethod": "Pan-Frying",
+    "prepTime": "20 min",
+    "cookTime": "15 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 70, page 32 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Eggs",
+        "standardAmount": "6"
+      },
+      "1": {
+        "name": "Sheep's Brain",
+        "standardAmount": "1"
+      },
+      "2": {
+        "name": "Onion, Grated",
+        "standardAmount": "1"
+      },
+      "3": {
+        "name": "Garlic Cloves, Crushed",
+        "standardAmount": "3"
+      },
+      "4": {
+        "name": "Lemon Juice",
+        "standardAmount": "1 tablespoon"
+      },
+      "5": {
+        "name": "Parsley, Very Finely Chopped",
+        "standardAmount": "2 tablespoons"
+      },
+      "6": {
+        "name": "Ghee",
+        "standardAmount": "as needed"
+      },
+      "7": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Parboil the brain in salted water, drain it, remove the veins and mash it.",
+      "2": "Soften the onion in ghee, add the garlic and fry until golden, stirring all the time, then take the pan off the heat.",
+      "3": "Beat the eggs and stir in the brain, the onion and garlic, the lemon juice, parsley, salt and pepper.",
+      "4": "Heat more ghee and pour in the egg mixture. As the bottom sets, lift the edge so the runny egg flows underneath.",
+      "5": "Turn the omelet and fry until both sides are golden and set.",
+      "6": "Cut into thick wedges and serve."
+    }
+  },
+  "ec-071": {
+    "title": "Persian Eggplant Kuku (Kuku-ye Bademjan)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Savory Dishes",
+    "cookingMethod": "Pan-Frying",
+    "prepTime": "1 hour 15 min (includes salting)",
+    "cookTime": "25 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 71, page 32 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Eggs",
+        "standardAmount": "6"
+      },
+      "1": {
+        "name": "Round Brown Eggplants",
+        "standardAmount": "2"
+      },
+      "2": {
+        "name": "Onion, Grated",
+        "standardAmount": "1"
+      },
+      "3": {
+        "name": "Cumin",
+        "standardAmount": "1/2 teaspoon"
+      },
+      "4": {
+        "name": "Yogurt",
+        "standardAmount": "1–2 cups"
+      },
+      "5": {
+        "name": "Ghee",
+        "standardAmount": "as needed"
+      },
+      "6": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Peel and dice the eggplants, sprinkle them with salt and leave for an hour.",
+      "2": "Squeeze them dry, fry until golden, then mash them in a deep bowl.",
+      "3": "Beat in the eggs, onion, cumin, salt and pepper until smooth.",
+      "4": "Heat ghee in a pan and pour in the mixture. As the bottom sets, lift the edge so the uncooked egg runs underneath.",
+      "5": "Turn the kuku over and fry until both sides are brown.",
+      "6": "Cut into thick wedges and serve with yogurt spooned over each plate."
+    }
+  },
+  "ec-072": {
+    "title": "Persian Potato Kuku or Patties (Kuku-ye Sibzamini)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Savory Dishes",
+    "cookingMethod": "Pan-Frying",
+    "prepTime": "10 min",
+    "cookTime": "40 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 72, page 33 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Eggs",
+        "standardAmount": "6"
+      },
+      "1": {
+        "name": "Potatoes",
+        "standardAmount": "1/2 kg"
+      },
+      "2": {
+        "name": "Onion, Grated",
+        "standardAmount": "1"
+      },
+      "3": {
+        "name": "Turmeric",
+        "standardAmount": "1 teaspoon"
+      },
+      "4": {
+        "name": "Ghee",
+        "standardAmount": "as needed"
+      },
+      "5": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Peel and boil the potatoes, then mash them in a deep bowl.",
+      "2": "Mix in the eggs, onion, turmeric, salt and pepper until smooth.",
+      "3": "Heat ghee and fry the mixture like a thick omelet, lifting the edge as the bottom sets so the uncooked egg runs underneath.",
+      "4": "Turn it over and fry until brown on both sides.",
+      "5": "Cut into thick wedges and serve.",
+      "6": "Patties: drop spoonfuls of the mixture into hot ghee, flatten them and deep-fry, then drain on absorbent paper."
+    }
+  },
+  "ec-076": {
+    "title": "Artichokes and Peas in Garlic Butter (Kharshuf Matbukh)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Vegetables",
+    "cookingMethod": "Boiling",
+    "prepTime": "20 min",
+    "cookTime": "30 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 76, page 35 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Artichokes",
+        "standardAmount": "6–8"
+      },
+      "1": {
+        "name": "Shelled Peas",
+        "standardAmount": "1/4 kg"
+      },
+      "2": {
+        "name": "Garlic Cloves",
+        "standardAmount": "12–15"
+      },
+      "3": {
+        "name": "Butter",
+        "standardAmount": "1 tablespoon"
+      },
+      "4": {
+        "name": "Salt",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Trim the artichokes down to their hearts and cut each heart into 4–6 pieces.",
+      "2": "Parboil the peas, add the artichokes and boil together until both are tender, then drain.",
+      "3": "Crush the garlic with salt and work it into the butter until smooth.",
+      "4": "Warm the garlic butter over a very low heat until the garlic turns pale yellow.",
+      "5": "Add the vegetables and simmer for about 10 minutes, tossing often."
+    }
+  },
+  "ec-081": {
+    "title": "Tunisian Stuffed Artichoke Hearts (Gannariya Mihshiya)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Stuffed Dishes",
+    "cookingMethod": "Slow Simmering (Tasbeek)",
+    "prepTime": "40 min",
+    "cookTime": "40 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 81, page 37 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Artichoke Hearts",
+        "standardAmount": "12–15"
+      },
+      "1": {
+        "name": "Lean Ground Beef",
+        "standardAmount": "1/2 kg"
+      },
+      "2": {
+        "name": "Potato",
+        "standardAmount": "1"
+      },
+      "3": {
+        "name": "Eggs",
+        "standardAmount": "2"
+      },
+      "4": {
+        "name": "Onion, Very Finely Chopped",
+        "standardAmount": "1"
+      },
+      "5": {
+        "name": "Garlic Cloves, Crushed",
+        "standardAmount": "5"
+      },
+      "6": {
+        "name": "Parsley, Very Finely Chopped",
+        "standardAmount": "2 tablespoons"
+      },
+      "7": {
+        "name": "Tomato Paste",
+        "standardAmount": "2 tablespoons"
+      },
+      "8": {
+        "name": "Lemon Juice",
+        "standardAmount": "2 tablespoons"
+      },
+      "9": {
+        "name": "Tabil (Tunisian Spice Mix)",
+        "standardAmount": "1 teaspoon"
+      },
+      "10": {
+        "name": "Paprika",
+        "standardAmount": "a dash"
+      },
+      "11": {
+        "name": "Cooking Fat",
+        "standardAmount": "as needed"
+      },
+      "12": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Sauce: fry half the garlic in hot fat, stirring so it does not stick, then add the tomato paste, paprika, salt and pepper thinned with 2 cups of water and simmer for 5 minutes.",
+      "2": "Filling: put the beef in a pot with half a cup of water over a high heat and stir until the water has evaporated. Add the onion and cook until soft, then add the parsley, the rest of the garlic, the tabil, salt and pepper and cook for 3 minutes more. Leave to cool.",
+      "3": "Boil and mash the potato. Beat the eggs and mix them thoroughly into the meat with the potato.",
+      "4": "Fill the artichoke hearts with the meat mixture and arrange them neatly in a pot.",
+      "5": "Pour the tomato sauce over them and cook gently until the artichokes are tender.",
+      "6": "Add the lemon juice before serving."
+    }
+  },
+  "ec-085": {
+    "title": "Black-Eyed Beans and Beef in Tomato (Lubya Nashfa bi-l-Dim‘a)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Legumes",
+    "cookingMethod": "Slow Simmering (Tasbeek)",
+    "prepTime": "overnight soaking",
+    "cookTime": "1 hour 15 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 85, page 40 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Dried Black-eyed Beans (lubya)",
+        "standardAmount": "1/4 kg"
+      },
+      "1": {
+        "name": "Beef",
+        "standardAmount": "1/2 kg"
+      },
+      "2": {
+        "name": "Onions",
+        "standardAmount": "2"
+      },
+      "3": {
+        "name": "Chopped Parsley",
+        "standardAmount": "2 tablespoons"
+      },
+      "4": {
+        "name": "Chopped Chard Leaves",
+        "standardAmount": "2 tablespoons"
+      },
+      "5": {
+        "name": "Garlic Cloves, Peeled And Halved Diagonally",
+        "standardAmount": "10–12"
+      },
+      "6": {
+        "name": "Tomato Juice",
+        "standardAmount": "3 cups"
+      },
+      "7": {
+        "name": "Cooking Oil",
+        "standardAmount": "as needed"
+      },
+      "8": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Soak the beans overnight, drain, then parboil them in fresh water for 5–7 minutes and drain again.",
+      "2": "Cut the meat into small cubes and chop the onions.",
+      "3": "Soften the onions in the oil, add the meat and fry until the juices it releases have been absorbed again.",
+      "4": "Add the beans, parsley, chard, tomato juice, garlic, salt and pepper.",
+      "5": "Cook over a low heat until the meat and beans are both tender."
+    }
+  },
+  "ec-086": {
+    "title": "White Beans Stewed with Beef and Garlic (Fasulya Beida Matbukha)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Legumes",
+    "cookingMethod": "Slow Simmering (Tasbeek)",
+    "prepTime": "overnight soaking",
+    "cookTime": "1 hour",
+    "servings": 4,
+    "culturalNotes": "Recipe 86, page 40 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Dried Haricot (white) Beans",
+        "standardAmount": "1/2 kg"
+      },
+      "1": {
+        "name": "Beef",
+        "standardAmount": "1/2 kg"
+      },
+      "2": {
+        "name": "Onions, Very Finely Chopped",
+        "standardAmount": "2"
+      },
+      "3": {
+        "name": "Garlic Cloves, Peeled And Halved Diagonally",
+        "standardAmount": "12–15"
+      },
+      "4": {
+        "name": "Cooking Oil",
+        "standardAmount": "as needed"
+      },
+      "5": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Soak the beans overnight, rinse them and boil for 15–30 minutes, until tender, skimming as needed. Drain and set aside.",
+      "2": "Cut the meat into bite-sized pieces.",
+      "3": "Fry the onions until golden brown, add the meat and fry until it has reabsorbed its juices.",
+      "4": "Add the garlic, salt, pepper and just enough water to cover, and cook for about 20 minutes.",
+      "5": "Add the beans and simmer for 10 minutes more.",
+      "6": "In tomato sauce (recipe 87 in the book): fry the cubed meat until it reabsorbs its juices, simmer it in 2 cups of tomato sauce for 20 minutes, then add the boiled beans and simmer for 10 minutes."
+    }
+  },
+  "ec-089": {
+    "title": "Turkish White Bean Stew (Fasulye Pilaki)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Legumes",
+    "cookingMethod": "Slow Simmering (Tasbeek)",
+    "prepTime": "3–4 hours soaking and resting",
+    "cookTime": "1 hour",
+    "servings": 4,
+    "culturalNotes": "Recipe 89, page 41 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Dried Haricot Beans",
+        "standardAmount": "2 cups"
+      },
+      "1": {
+        "name": "Onions, Chopped",
+        "standardAmount": "2"
+      },
+      "2": {
+        "name": "Garlic Cloves, Crushed",
+        "standardAmount": "2"
+      },
+      "3": {
+        "name": "Carrots, Diced",
+        "standardAmount": "2"
+      },
+      "4": {
+        "name": "Celery Stalks And Leaves, Very Finely Sliced",
+        "standardAmount": "1 cup"
+      },
+      "5": {
+        "name": "Parsley, Very Finely Chopped",
+        "standardAmount": "1/2 cup"
+      },
+      "6": {
+        "name": "Tomato Paste",
+        "standardAmount": "2 tablespoons"
+      },
+      "7": {
+        "name": "Lemon Juice",
+        "standardAmount": "1 tablespoon"
+      },
+      "8": {
+        "name": "Sugar",
+        "standardAmount": "1/2 teaspoon"
+      },
+      "9": {
+        "name": "Olive Oil",
+        "standardAmount": "as needed"
+      },
+      "10": {
+        "name": "Chili (optional)",
+        "standardAmount": "a dash"
+      },
+      "11": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Soak the beans for at least 2 hours. Drain, cover with plenty of fresh water, boil for 3–5 minutes, then take off the heat and leave for 1–2 hours.",
+      "2": "Fry the onions in olive oil until soft, add the garlic, carrots and celery and fry for 3–5 minutes, stirring.",
+      "3": "Bring the beans back to the boil and cook for 30 minutes.",
+      "4": "Thin the tomato paste with water, add the sugar, salt and pepper, and add it to the beans with the fried vegetables. Cook until everything is tender.",
+      "5": "Off the heat, stir in the lemon juice, parsley and chili if using, and check the seasoning. Serve hot or cold."
+    }
+  },
+  "ec-098": {
+    "title": "Kibbeh in Yogurt with Chickpeas (Kubeiba Labaniya)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Meats & Poultry",
+    "cookingMethod": "Slow Simmering (Tasbeek)",
+    "prepTime": "overnight soaking + 1 hour",
+    "cookTime": "1 hour 30 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 98, page 45 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Kibbeh Paste (fine Bulgur, Beef, Fat And Onion)",
+        "standardAmount": "about 1 1/2 kg"
+      },
+      "1": {
+        "name": "Savory Minced Beef (‘assag), For Filling (optional)",
+        "standardAmount": "1/2 kg"
+      },
+      "2": {
+        "name": "Pine Nuts (optional)",
+        "standardAmount": "2 tablespoons"
+      },
+      "3": {
+        "name": "Chickpeas",
+        "standardAmount": "1/2 cup"
+      },
+      "4": {
+        "name": "Yogurt",
+        "standardAmount": "2–3 cups"
+      },
+      "5": {
+        "name": "Egg White",
+        "standardAmount": "1"
+      },
+      "6": {
+        "name": "Dried Mint Powder",
+        "standardAmount": "1 teaspoon"
+      }
+    },
+    "instructions": {
+      "1": "Soak the chickpeas overnight, drain, and parboil in fresh water for 5–7 minutes. Drain.",
+      "2": "Make kibbeh paste as for the fried kubeiba discs in this collection (bulgur soaked for an hour, then minced repeatedly with beef, fat and onion into a soft dough).",
+      "3": "Either shape it into hollow balls filled with spiced minced beef and pine nuts, or cut it into thin discs. Do not fry them.",
+      "4": "Put the kibbeh in a pot with the chickpeas.",
+      "5": "Stir the egg white into the yogurt to stop it curdling and press it through a sieve over the kibbeh.",
+      "6": "Cook uncovered for 60–90 minutes.",
+      "7": "Sprinkle with the mint and serve hot or cold."
+    }
+  },
+  "ec-105": {
+    "title": "Cauliflower Stewed with Beef and Tomato (‘Arnabit Matbukh)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Vegetables",
+    "cookingMethod": "Slow Simmering (Tasbeek)",
+    "prepTime": "15 min",
+    "cookTime": "45 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 105, page 49 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Cauliflower",
+        "standardAmount": "1"
+      },
+      "1": {
+        "name": "Beef",
+        "standardAmount": "1/2 kg"
+      },
+      "2": {
+        "name": "Ripe Tomatoes",
+        "standardAmount": "2–3"
+      },
+      "3": {
+        "name": "Onions",
+        "standardAmount": "2"
+      },
+      "4": {
+        "name": "Cooking Oil",
+        "standardAmount": "as needed"
+      },
+      "5": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Break the cauliflower into florets and cut the meat into bite-sized pieces. Peel and dice the tomatoes and chop the onions very finely.",
+      "2": "Fry the onions in the oil until pale yellow, add the tomatoes and cook for 7–10 minutes.",
+      "3": "Add the meat with salt and pepper and cook for about 20 minutes.",
+      "4": "Add the cauliflower and simmer for about 10 minutes, until tender.",
+      "5": "With garlic instead of tomato (recipe 106 in the book): fry the onions, brown the meat until it reabsorbs its juices, cover with water, add 7–10 halved garlic cloves with the seasoning and cook for 20 minutes, then add the cauliflower for 10 minutes."
+    }
+  },
+  "ec-109": {
+    "title": "Baked Chicken with Tomatoes and Onions (Tagin Firakh)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Meats & Poultry",
+    "cookingMethod": "Baking",
+    "prepTime": "15 min",
+    "cookTime": "1 hour–1 hour 30 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 109, page 50 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Chickens, About 1 Kg Each",
+        "standardAmount": "2"
+      },
+      "1": {
+        "name": "Onions, Sliced",
+        "standardAmount": "3–4"
+      },
+      "2": {
+        "name": "Ripe Tomatoes, Peeled And Chopped",
+        "standardAmount": "3–4"
+      },
+      "3": {
+        "name": "Nutmeg Or Cinnamon",
+        "standardAmount": "1/2 teaspoon"
+      },
+      "4": {
+        "name": "Cornflour (optional)",
+        "standardAmount": "1 tablespoon"
+      },
+      "5": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Cut each chicken into 4–6 pieces.",
+      "2": "Mix the spice with salt and pepper and rub it lightly over the chicken.",
+      "3": "Lay the pieces in a lightly greased roasting pan and cover them with the seasoned onions and tomatoes.",
+      "4": "Bake in a moderate, preheated oven for 60–90 minutes, basting with the pan juices.",
+      "5": "Thicken the juices with cornflour if you like.",
+      "6": "With carrots and celery (recipe 110 in the book): brown chopped onions and celery in oil, cover the chicken with them and with parboiled carrot rounds and halved garlic cloves, pour meat stock over and bake the same way."
+    }
+  },
+  "ec-115": {
+    "title": "Chicken in Mastic Milk Sauce (Firakh Matbukha bi-l-Laban)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Meats & Poultry",
+    "cookingMethod": "Slow Simmering (Tasbeek)",
+    "prepTime": "10 min",
+    "cookTime": "40 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 115, page 53 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Chickens, About 1 Kg Each",
+        "standardAmount": "2"
+      },
+      "1": {
+        "name": "Mastic Grains",
+        "standardAmount": "5"
+      },
+      "2": {
+        "name": "Flour",
+        "standardAmount": "2 tablespoons"
+      },
+      "3": {
+        "name": "Milk",
+        "standardAmount": "2 cups"
+      },
+      "4": {
+        "name": "Cooking Oil",
+        "standardAmount": "as needed"
+      },
+      "5": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Cut each chicken into 6–8 pieces.",
+      "2": "Heat the oil, stir in the mastic for 10 seconds, add the chicken, cover at once and turn off the heat. Leave for 1–2 minutes so the chicken takes on the scent.",
+      "3": "Turn the heat back on and brown the chicken, then lift it out.",
+      "4": "Fry the flour in the same oil until light brown. Off the heat, whisk in the milk a little at a time until smooth.",
+      "5": "Return to the heat, season, and when it bubbles add the chicken.",
+      "6": "Cook uncovered for about 20 minutes, until tender."
+    }
+  },
+  "ec-116": {
+    "title": "Chicken with Green Olives (Firakh bi-l-Zatun al-Akhdar)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Meats & Poultry",
+    "cookingMethod": "Slow Simmering (Tasbeek)",
+    "prepTime": "15 min",
+    "cookTime": "40 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 116, page 53 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Chickens, About 1 Kg Each",
+        "standardAmount": "2"
+      },
+      "1": {
+        "name": "Green Olives",
+        "standardAmount": "15–20"
+      },
+      "2": {
+        "name": "Mastic Grains",
+        "standardAmount": "2"
+      },
+      "3": {
+        "name": "Onions, Very Finely Chopped",
+        "standardAmount": "2"
+      },
+      "4": {
+        "name": "Flour",
+        "standardAmount": "2 tablespoons"
+      },
+      "5": {
+        "name": "Lemon Juice",
+        "standardAmount": "1 tablespoon"
+      },
+      "6": {
+        "name": "Cooking Oil",
+        "standardAmount": "as needed"
+      },
+      "7": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Cut each chicken into 4–6 pieces. Boil the olives in fresh water for 1 minute, drain, pit and halve them.",
+      "2": "Heat the oil, stir in the mastic for 10 seconds, add the chicken, cover tightly and turn off the heat for 1–2 minutes, then fry the chicken until browned and lift it out.",
+      "3": "Soften the onion in the same oil and set it aside with the chicken.",
+      "4": "Fry the flour until golden. Off the heat, whisk in 1 cup of warm water a little at a time.",
+      "5": "Return to the heat and, when the gravy bubbles, add the chicken, onion, salt and pepper. Cook over a very low heat for about 20 minutes.",
+      "6": "Add the olives and lemon juice and simmer for 2–3 minutes more."
+    }
+  },
+  "ec-117": {
+    "title": "Giblet-Stuffed Chicken, Boiled then Fried (Firakh Mahshiya wi Mihammara)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Meats & Poultry",
+    "cookingMethod": "Pan-Frying",
+    "prepTime": "20 min",
+    "cookTime": "40 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 117, page 54 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Chickens, About 1 Kg Each, With Giblets",
+        "standardAmount": "2"
+      },
+      "1": {
+        "name": "Onions (2 For The Stuffing, 1 For The Broth)",
+        "standardAmount": "3"
+      },
+      "2": {
+        "name": "Nutmeg Or Cinnamon",
+        "standardAmount": "1/2 teaspoon"
+      },
+      "3": {
+        "name": "Mastic Grains",
+        "standardAmount": "5"
+      },
+      "4": {
+        "name": "Cooking Oil",
+        "standardAmount": "as needed"
+      },
+      "5": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Finely chop two onions and cut the gizzards and hearts into very small pieces. Mix them with the spice, salt and pepper.",
+      "2": "Stuff the chickens with the mixture and sew them up.",
+      "3": "Bring enough water to half-cover the chickens to the boil with the remaining onion and salt, add the chickens and cook for about 20 minutes, then lift them out.",
+      "4": "Heat oil in another pot, stir in the mastic for 10 seconds, add the chickens, cover tightly and turn off the heat for 1–2 minutes.",
+      "5": "Fry the chickens, turning them until browned all over."
+    }
+  },
+  "ec-118": {
+    "title": "Giblet-Stuffed Roast Chicken (Firakh Mahshiya wi Mashwiya)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Meats & Poultry",
+    "cookingMethod": "Baking",
+    "prepTime": "20 min",
+    "cookTime": "1 hour",
+    "servings": 4,
+    "culturalNotes": "Recipe 118, page 54 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Chickens, About 1 Kg Each, With Giblets",
+        "standardAmount": "2"
+      },
+      "1": {
+        "name": "Onions",
+        "standardAmount": "2"
+      },
+      "2": {
+        "name": "Nutmeg Or Cinnamon",
+        "standardAmount": "1/2 teaspoon"
+      },
+      "3": {
+        "name": "Tomato Paste",
+        "standardAmount": "1 teaspoon"
+      },
+      "4": {
+        "name": "Lemon Juice",
+        "standardAmount": "1 tablespoon"
+      },
+      "5": {
+        "name": "Oil",
+        "standardAmount": "1 tablespoon"
+      },
+      "6": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Chop the onions very finely and cut the gizzards and hearts into very small pieces. Season, add the spice and mix.",
+      "2": "Stuff the chickens and sew them up.",
+      "3": "Mix the tomato paste, lemon juice, oil, salt and pepper and rub it all over the chickens.",
+      "4": "Roast in a hot oven, basting two or three times with the juices."
+    }
+  },
+  "ec-120": {
+    "title": "Lebanese Lemon Chicken with Olives (Djaj bi Leimoon Hamed)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Meats & Poultry",
+    "cookingMethod": "Slow Simmering (Tasbeek)",
+    "prepTime": "15 min",
+    "cookTime": "50 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 120, page 56 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Chickens, About 1 Kg Each",
+        "standardAmount": "2"
+      },
+      "1": {
+        "name": "Onions, Thinly Sliced",
+        "standardAmount": "2"
+      },
+      "2": {
+        "name": "Garlic Cloves, Halved Diagonally",
+        "standardAmount": "10–12"
+      },
+      "3": {
+        "name": "Coriander Leaves, Very Finely Chopped",
+        "standardAmount": "1 tablespoon"
+      },
+      "4": {
+        "name": "Parsley, Very Finely Chopped",
+        "standardAmount": "1 tablespoon"
+      },
+      "5": {
+        "name": "Lemon Juice",
+        "standardAmount": "3 tablespoons"
+      },
+      "6": {
+        "name": "Black Olives, Pitted",
+        "standardAmount": "1/2 cup"
+      },
+      "7": {
+        "name": "Saffron",
+        "standardAmount": "a pinch"
+      },
+      "8": {
+        "name": "Cooking Oil",
+        "standardAmount": "as needed"
+      },
+      "9": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Cut the chickens into neat joints and fry them lightly in oil; set aside.",
+      "2": "Put the onions, garlic, coriander and parsley in a pot, add the saffron and leave over a very low heat until soft.",
+      "3": "Add the chicken with its oil, salt, pepper and 1 cup of hot water. Cover and cook slowly, stirring now and then.",
+      "4": "When the chicken is done, move it to a platter. Mash the vegetables well, add the lemon juice and olives and let it bubble for 2–3 minutes.",
+      "5": "Pour the sauce over the chicken and serve."
+    }
+  },
+  "ec-121": {
+    "title": "Chicken in Pomegranate and Walnut Sauce (Fesenjan)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Meats & Poultry",
+    "cookingMethod": "Slow Simmering (Tasbeek)",
+    "prepTime": "10 min",
+    "cookTime": "45 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 121, page 56 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Small Chickens, About 1 Kg Each",
+        "standardAmount": "2"
+      },
+      "1": {
+        "name": "Onions, Grated",
+        "standardAmount": "1–2"
+      },
+      "2": {
+        "name": "Walnuts, Chopped",
+        "standardAmount": "1 tablespoon"
+      },
+      "3": {
+        "name": "Pomegranate Juice",
+        "standardAmount": "1 cup"
+      },
+      "4": {
+        "name": "Chicken Broth",
+        "standardAmount": "1 cup"
+      },
+      "5": {
+        "name": "Sugar",
+        "standardAmount": "a pinch"
+      },
+      "6": {
+        "name": "Cooking Oil",
+        "standardAmount": "as needed"
+      },
+      "7": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Cut the chickens into neat joints, fry them lightly on all sides and keep them warm.",
+      "2": "Soften the onions in the same oil.",
+      "3": "Add the walnuts, broth, sugar, pomegranate juice, salt and pepper and cook until the sauce thickens.",
+      "4": "Return the chicken and cook over a low heat for 20–25 minutes more."
+    }
+  },
+  "ec-122": {
+    "title": "Lebanese Rice-Stuffed Chicken, Boiled then Fried (Djaj Mihshy)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Meats & Poultry",
+    "cookingMethod": "Pan-Frying",
+    "prepTime": "20 min",
+    "cookTime": "45 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 122, page 57 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Chickens, About 1 Kg Each, With Giblets",
+        "standardAmount": "2"
+      },
+      "1": {
+        "name": "Rice",
+        "standardAmount": "1/2 cup"
+      },
+      "2": {
+        "name": "Onion, Quartered",
+        "standardAmount": "1"
+      },
+      "3": {
+        "name": "Cinnamon Or Nutmeg",
+        "standardAmount": "1 teaspoon"
+      },
+      "4": {
+        "name": "Mastic Grains",
+        "standardAmount": "3–5"
+      },
+      "5": {
+        "name": "Cooking Oil",
+        "standardAmount": "as needed"
+      },
+      "6": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Dice the giblets and mix them with the rice, spice, salt and pepper. Stuff the chickens and truss or sew them closed.",
+      "2": "Bring 4 cups of water to the boil with the onion and seasoning, add the chickens and cook for 20–30 minutes. Lift them out and keep warm.",
+      "3": "Heat oil, stir in the mastic for a few seconds, add the chickens, cover tightly and turn off the heat for 2–3 minutes.",
+      "4": "Uncover and fry the chickens until nicely browned.",
+      "5": "Cut them into joints, heap the stuffing in the middle of a dish and arrange the chicken around it. Moisten the stuffing with a little warm broth if you like."
+    }
+  },
+  "ec-123": {
+    "title": "Lebanese Rice-Stuffed Roast Chicken (Djaj Mihshy)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Meats & Poultry",
+    "cookingMethod": "Baking",
+    "prepTime": "20 min",
+    "cookTime": "1 hour",
+    "servings": 4,
+    "culturalNotes": "Recipe 123, page 57 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Chickens, About 1 Kg Each, With Giblets",
+        "standardAmount": "2"
+      },
+      "1": {
+        "name": "Rice, Boiled",
+        "standardAmount": "1/2 cup"
+      },
+      "2": {
+        "name": "Cinnamon Or Nutmeg",
+        "standardAmount": "1 teaspoon"
+      },
+      "3": {
+        "name": "Tomato Paste",
+        "standardAmount": "1 tablespoon"
+      },
+      "4": {
+        "name": "Lemon Juice",
+        "standardAmount": "1 tablespoon"
+      },
+      "5": {
+        "name": "Olive Oil",
+        "standardAmount": "1 tablespoon"
+      },
+      "6": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Dice the giblets and mix them with the rice, spice, salt and pepper. Stuff the chickens and truss or sew them closed.",
+      "2": "Thin the tomato paste with the lemon juice, add salt, pepper and the oil, and rub the mixture over the chickens inside and out.",
+      "3": "Roast, basting often with the lemon mixture."
+    }
+  },
+  "ec-124": {
+    "title": "Chicken Simmered in Yogurt with Mint (Firakh Matbukha bi-l-Zabadi)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Meats & Poultry",
+    "cookingMethod": "Slow Simmering (Tasbeek)",
+    "prepTime": "10 min",
+    "cookTime": "40 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 124, page 58 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Chickens, About 1 Kg Each",
+        "standardAmount": "2"
+      },
+      "1": {
+        "name": "Yogurt",
+        "standardAmount": "2–3 cups"
+      },
+      "2": {
+        "name": "Egg White",
+        "standardAmount": "1"
+      },
+      "3": {
+        "name": "Cornflour",
+        "standardAmount": "1 tablespoon"
+      },
+      "4": {
+        "name": "Dried Mint",
+        "standardAmount": "1 teaspoon"
+      },
+      "5": {
+        "name": "Olive Oil",
+        "standardAmount": "as needed"
+      },
+      "6": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Cut the chickens into neat joints and fry them lightly in olive oil.",
+      "2": "Stir the egg white into the yogurt to keep it from splitting and press it through a sieve over the chicken.",
+      "3": "Season and cook uncovered for about 30 minutes.",
+      "4": "Thicken with the cornflour, move to a serving dish and sprinkle with the mint."
+    }
+  },
+  "ec-125": {
+    "title": "Sumac-Onion Chicken Baked in Bread (Frakh Mashwiya bi-l-Summa’)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Meats & Poultry",
+    "cookingMethod": "Baking",
+    "prepTime": "15 min",
+    "cookTime": "1 hour 30 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 125, page 58 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Small Chickens, 500–700 G Each",
+        "standardAmount": "2"
+      },
+      "1": {
+        "name": "Onions",
+        "standardAmount": "2"
+      },
+      "2": {
+        "name": "Sumac",
+        "standardAmount": "1 tablespoon"
+      },
+      "3": {
+        "name": "Olive Oil",
+        "standardAmount": "2 tablespoons"
+      },
+      "4": {
+        "name": "Flatbread Loaves",
+        "standardAmount": "2"
+      },
+      "5": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Grate the onions and mix with the sumac, salt, pepper and olive oil.",
+      "2": "Rub the chickens with the mixture and push the rest inside them.",
+      "3": "Wrap each chicken in a loaf of bread, then in foil.",
+      "4": "Cook slowly in the middle of a low, preheated oven until the chicken is tender."
+    }
+  },
+  "ec-135": {
+    "title": "Tunisian Fish Couscous with Fish Balls (Couscous bil Hout)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Seafood",
+    "cookingMethod": "Slow Simmering (Tasbeek)",
+    "prepTime": "overnight soaking + 2 hours",
+    "cookTime": "1 hour",
+    "servings": 4,
+    "culturalNotes": "Recipe 135, page 62 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Couscous",
+        "standardAmount": "1/2 kg (3 cups)"
+      },
+      "1": {
+        "name": "Fish Fillets",
+        "standardAmount": "1 kg"
+      },
+      "2": {
+        "name": "Marinade: Olive Oil",
+        "standardAmount": "2 tablespoons"
+      },
+      "3": {
+        "name": "Marinade: Fennel Seeds And Caraway Seeds",
+        "standardAmount": "1 tablespoon each"
+      },
+      "4": {
+        "name": "Marinade: Cayenne And Paprika",
+        "standardAmount": "1/2 teaspoon and 1 teaspoon"
+      },
+      "5": {
+        "name": "Fish Balls: Whiting Fillets",
+        "standardAmount": "1/4 kg"
+      },
+      "6": {
+        "name": "Fish Balls: Grated Onion, 3–5 Crushed Garlic Cloves, 1 Egg And Half A Stale Loaf",
+        "standardAmount": "as listed"
+      },
+      "7": {
+        "name": "Fish Balls: Chopped Parsley, A Dash Of Harissa And Paprika",
+        "standardAmount": "1 tablespoon parsley"
+      },
+      "8": {
+        "name": "Chickpeas",
+        "standardAmount": "1 cup"
+      },
+      "9": {
+        "name": "Onions, Zucchini, Carrots, Artichoke Hearts And Tomatoes",
+        "standardAmount": "2–3 of each"
+      },
+      "10": {
+        "name": "Cloves, A Piece Of Cinnamon Bark And Caraway Seeds",
+        "standardAmount": "2 cloves, 1 teaspoon caraway"
+      },
+      "11": {
+        "name": "Cooking Oil",
+        "standardAmount": "as needed"
+      },
+      "12": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Soak the chickpeas overnight, then boil them in fresh water until tender. Drain, keeping the liquid.",
+      "2": "Mix the marinade ingredients and leave the fish fillets in it for 1–2 hours.",
+      "3": "Fish balls: moisten the bread with water. Steam and flake the whiting and mix it with a purée of the onion and garlic, the paprika, harissa, parsley, beaten egg, bread, salt and pepper. Roll into small balls, fry until brown and keep warm.",
+      "4": "Vegetables: brown the grated onions in oil, then stir in the sliced zucchini and carrots, chopped artichokes and diced tomatoes until coated with oil. Add the spices tied in muslin, the chickpeas and enough of their liquid to cover, and cook over a low heat.",
+      "5": "Sprinkle the couscous with cold water and steam it in a perforated steamer set over the vegetable pot, covered. Once or twice, uncover, sprinkle with a little cold water and fluff the grains with a fork so they do not form lumps. Keep steaming until the vegetables are tender.",
+      "6": "Brush the marinade off the fish and grill the fillets on both sides.",
+      "7": "Pile the couscous in a serving bowl, top with the grilled fish and fish balls, and serve the vegetables separately."
+    }
+  },
+  "ec-136": {
+    "title": "Tunisian Couscous with Mutton and Dates (Couscous bi Tamr)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Grains & Starches",
+    "cookingMethod": "Slow Simmering (Tasbeek)",
+    "prepTime": "20 min",
+    "cookTime": "1 hour 30 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 136, page 64 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Couscous",
+        "standardAmount": "1/2 kg (3 cups)"
+      },
+      "1": {
+        "name": "Mutton",
+        "standardAmount": "1/2 kg"
+      },
+      "2": {
+        "name": "Dates",
+        "standardAmount": "1/2 kg"
+      },
+      "3": {
+        "name": "Carrots",
+        "standardAmount": "3–4"
+      },
+      "4": {
+        "name": "Turnips",
+        "standardAmount": "1–2"
+      },
+      "5": {
+        "name": "Garlic Cloves, Crushed",
+        "standardAmount": "5–7"
+      },
+      "6": {
+        "name": "Harissa",
+        "standardAmount": "1 tablespoon"
+      },
+      "7": {
+        "name": "Hot Chili",
+        "standardAmount": "a dash"
+      },
+      "8": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Cut the meat into bite-sized cubes. Peel and dice the carrots and turnips.",
+      "2": "Boil the meat and vegetables in salted water.",
+      "3": "When the meat is nearly done, sprinkle the couscous with water and steam it over the pot for 5–7 minutes.",
+      "4": "Uncover, sprinkle lightly with water and break up any lumps with a fork.",
+      "5": "Stone and roughly chop the dates, mix them into the couscous and return it to steam over the meat until both are fully cooked. Keep them separate.",
+      "6": "Pour a ladle of the meat broth over the garlic, harissa and chili and boil hard until reduced by half.",
+      "7": "Serve the couscous, the meat and the sauce separately."
+    }
+  },
+  "ec-138": {
+    "title": "Lebanese Chicken Maghrabiyeh",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Grains & Starches",
+    "cookingMethod": "Slow Simmering (Tasbeek)",
+    "prepTime": "10 min",
+    "cookTime": "1 hour",
+    "servings": 4,
+    "culturalNotes": "Recipe 138, page 65 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Chicken, About 1 Kg",
+        "standardAmount": "1"
+      },
+      "1": {
+        "name": "Couscous (maghrabiyeh)",
+        "standardAmount": "1/2 kg (3 cups)"
+      },
+      "2": {
+        "name": "Onions, Thinly Sliced",
+        "standardAmount": "2"
+      },
+      "3": {
+        "name": "Mastic Grains",
+        "standardAmount": "a few"
+      },
+      "4": {
+        "name": "Cooking Oil",
+        "standardAmount": "as needed"
+      },
+      "5": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Cut the chicken into neat joints.",
+      "2": "Bring water to the boil with the onions, mastic, salt and pepper, add the chicken and cook.",
+      "3": "About 10–15 minutes before the chicken is done, sprinkle the couscous with water and steam it over the broth, uncovering once or twice to break up lumps with a fork and sprinkle with more cold water.",
+      "4": "When the couscous is tender, move it to a deep bowl and keep warm.",
+      "5": "Lift out the chicken and fry the joints in oil.",
+      "6": "Mash the onion into the broth, thicken it, check the seasoning and serve it separately as a sauce."
+    }
+  },
+  "ec-147": {
+    "title": "Fried Eggplant Baked in Tahini (Bitingan Ma’li bi-l-Tahina)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Vegetables",
+    "cookingMethod": "Baking",
+    "prepTime": "1 hour salting",
+    "cookTime": "35 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 147, page 68 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Large Round Eggplants (rumi)",
+        "standardAmount": "1 kg"
+      },
+      "1": {
+        "name": "Cooking Oil",
+        "standardAmount": "for deep-frying"
+      },
+      "2": {
+        "name": "Tahini",
+        "standardAmount": "1 cup"
+      },
+      "3": {
+        "name": "Water",
+        "standardAmount": "1 1/2–2 cups"
+      },
+      "4": {
+        "name": "Lemon Juice",
+        "standardAmount": "2 tablespoons"
+      },
+      "5": {
+        "name": "Vinegar",
+        "standardAmount": "1 tablespoon"
+      },
+      "6": {
+        "name": "Cumin",
+        "standardAmount": "1/2 teaspoon"
+      },
+      "7": {
+        "name": "Salt",
+        "standardAmount": "a pinch"
+      },
+      "8": {
+        "name": "Crushed Garlic (optional)",
+        "standardAmount": "3–5 cloves"
+      }
+    },
+    "instructions": {
+      "1": "Slice the eggplants lengthwise about 2 cm thick, sprinkle with salt and leave for at least an hour. Squeeze gently, drain and pat dry.",
+      "2": "Deep-fry the slices until dark brown and drain on absorbent paper.",
+      "3": "Make a thin tahini sauce: whisk the tahini with the water, lemon juice, vinegar, cumin, salt and garlic until smooth.",
+      "4": "Arrange the eggplant in a baking pan and pour the tahini sauce over.",
+      "5": "Bake in the middle of a moderate, preheated oven for 15 minutes."
+    }
+  },
+  "ec-153": {
+    "title": "Mashed Fried Eggplant with Garlic Yogurt (Beitinjan Mifassakh)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Vegetables",
+    "cookingMethod": "Pan-Frying",
+    "prepTime": "1 hour salting",
+    "cookTime": "20 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 153, page 71 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Round Brown Eggplants",
+        "standardAmount": "1 kg"
+      },
+      "1": {
+        "name": "Yogurt",
+        "standardAmount": "1/2 cup"
+      },
+      "2": {
+        "name": "Garlic Cloves, Crushed",
+        "standardAmount": "3–5"
+      },
+      "3": {
+        "name": "Parsley, Very Finely Chopped",
+        "standardAmount": "1 tablespoon"
+      },
+      "4": {
+        "name": "Olive Oil",
+        "standardAmount": "for frying"
+      }
+    },
+    "instructions": {
+      "1": "Slice and salt the eggplants for an hour, then squeeze and pat dry.",
+      "2": "Fry them in olive oil until soft and brown.",
+      "3": "Mash with the yogurt and garlic.",
+      "4": "Stir in the parsley and serve."
+    }
+  },
+  "ec-154": {
+    "title": "Turkish Eggplant Cream (Hünkar Beğendi)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Vegetables",
+    "cookingMethod": "Slow Simmering (Tasbeek)",
+    "prepTime": "10 min",
+    "cookTime": "45 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 154, page 71 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Round Brown Eggplants",
+        "standardAmount": "1 kg"
+      },
+      "1": {
+        "name": "Butter",
+        "standardAmount": "2 tablespoons"
+      },
+      "2": {
+        "name": "Flour",
+        "standardAmount": "2 tablespoons"
+      },
+      "3": {
+        "name": "Hot Milk",
+        "standardAmount": "2 cups"
+      },
+      "4": {
+        "name": "Grated Cheese",
+        "standardAmount": "2 tablespoons"
+      },
+      "5": {
+        "name": "Parsley, Very Finely Chopped",
+        "standardAmount": "2 tablespoons"
+      },
+      "6": {
+        "name": "Salt",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Roast the eggplants whole in their skins, in a hot oven or on a tray over the stove, turning them when one side softens. Peel, drain and mash the flesh.",
+      "2": "Melt the butter and cook the flour in it over a very low heat until golden.",
+      "3": "Off the heat, stir in the hot milk, then return to the heat and let it bubble.",
+      "4": "Stir in the eggplant, season and cook for 10 minutes.",
+      "5": "Off the heat, stir in the cheese and parsley and serve."
+    }
+  },
+  "ec-155": {
+    "title": "Imam Bayildi with Minced Beef and Yogurt",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Vegetables",
+    "cookingMethod": "Slow Simmering (Tasbeek)",
+    "prepTime": "1 hour salting",
+    "cookTime": "45 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 155, page 71 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Large Eggplants, For Frying",
+        "standardAmount": "1 kg"
+      },
+      "1": {
+        "name": "Beef, Minced",
+        "standardAmount": "1/2 kg"
+      },
+      "2": {
+        "name": "Onion, Finely Chopped",
+        "standardAmount": "1"
+      },
+      "3": {
+        "name": "Yogurt",
+        "standardAmount": "2 cups"
+      },
+      "4": {
+        "name": "Garlic Cloves, Crushed",
+        "standardAmount": "2–3"
+      },
+      "5": {
+        "name": "Pine Nuts, Pecans Or Hazelnuts, Chopped",
+        "standardAmount": "1 tablespoon"
+      },
+      "6": {
+        "name": "Cooking Oil",
+        "standardAmount": "as needed"
+      },
+      "7": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Slice, salt and drain the eggplants, then deep-fry them until dark brown.",
+      "2": "Brown the onion in a little oil, add the beef with salt and pepper and cook until its juices are absorbed.",
+      "3": "Put the meat and fried eggplant in a pot over a low heat and cook, stirring often, until the eggplant has completely broken down.",
+      "4": "Press the mixture against the side of the pot with a wooden spoon to squeeze out excess fat, and pour it off.",
+      "5": "Spread in a shallow dish. Mix the yogurt with the garlic and a little salt and spread it over the top.",
+      "6": "Sprinkle with the nuts and serve hot or cold."
+    }
+  },
+  "ec-158": {
+    "title": "Imam Bayildi: Baked Eggplant Shells with Currants",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Stuffed Dishes",
+    "cookingMethod": "Baking",
+    "prepTime": "30 min",
+    "cookTime": "1 hour 15 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 158, page 73 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Slender Brown Eggplants",
+        "standardAmount": "1 kg"
+      },
+      "1": {
+        "name": "Onions, Finely Chopped",
+        "standardAmount": "3"
+      },
+      "2": {
+        "name": "Tomatoes, Peeled And Diced",
+        "standardAmount": "3"
+      },
+      "3": {
+        "name": "Parsley, Very Finely Chopped",
+        "standardAmount": "1/2 cup"
+      },
+      "4": {
+        "name": "Olive Oil",
+        "standardAmount": "1/2 cup"
+      },
+      "5": {
+        "name": "Currants",
+        "standardAmount": "1 cup"
+      },
+      "6": {
+        "name": "Garlic Cloves, Crushed",
+        "standardAmount": "5"
+      },
+      "7": {
+        "name": "Lemon Juice",
+        "standardAmount": "a little"
+      },
+      "8": {
+        "name": "Thyme Sprig And Bay Leaf",
+        "standardAmount": "1 each"
+      },
+      "9": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Soak the currants in lukewarm water.",
+      "2": "Halve the eggplants lengthwise and scoop out the flesh without piercing the skins. Dice or mash the flesh and sprinkle it with lemon juice.",
+      "3": "Fry the eggplant flesh with the onions in the oil, then add the tomatoes, parsley, thyme, bay leaf, salt and pepper. Cover and cook over a low heat for about 20 minutes.",
+      "4": "Off the heat, stir in the garlic and the drained currants.",
+      "5": "Arrange the eggplant shells in a well-greased baking dish and fill them with the mixture.",
+      "6": "Drizzle a little olive oil over each and bake in a slow oven until the shells are soft."
+    }
+  },
+  "ec-161": {
+    "title": "Poached Fish Sayadiya with Brown Onion Rice (Sayadiyit al-Samak)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Seafood",
+    "cookingMethod": "Boiling",
+    "prepTime": "15 min",
+    "cookTime": "45 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 161, page 74 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Whole Fish",
+        "standardAmount": "1 1/2–2 kg"
+      },
+      "1": {
+        "name": "Onion, Very Finely Chopped",
+        "standardAmount": "1"
+      },
+      "2": {
+        "name": "Rice",
+        "standardAmount": "2 cups"
+      },
+      "3": {
+        "name": "Oil",
+        "standardAmount": "2 tablespoons"
+      },
+      "4": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Fry the onion in the oil until deep brown.",
+      "2": "Add about 2 cups of water with salt and pepper and bring to the boil.",
+      "3": "Add the fish and poach over a low heat for 10 minutes.",
+      "4": "Strain the broth, top it up with water and use it to cook the rice (fry the rice briefly in a little oil first, then simmer until the liquid is absorbed).",
+      "5": "Skin, bone and flake the fish and fold it through the rice."
+    }
+  },
+  "ec-164": {
+    "title": "Fried Fish Sayadiya (Sayadiyit Samak Ma’li)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Seafood",
+    "cookingMethod": "Pan-Frying",
+    "prepTime": "15 min",
+    "cookTime": "45 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 164, page 75 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Fish",
+        "standardAmount": "1 1/2–2 kg"
+      },
+      "1": {
+        "name": "Onion, Chopped",
+        "standardAmount": "1"
+      },
+      "2": {
+        "name": "Rice",
+        "standardAmount": "2 cups"
+      },
+      "3": {
+        "name": "Cooking Oil",
+        "standardAmount": "for frying"
+      },
+      "4": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Cut the fish into neat pieces, fry them and drain on absorbent paper.",
+      "2": "Fry the onion in the same oil until deep brown.",
+      "3": "Add the rice and water with salt and cook uncovered until the water has been absorbed.",
+      "4": "Lay the fried fish on top of the rice, turn the heat to its lowest, cover and cook for 15–20 minutes.",
+      "5": "Serve the fish on its rice."
+    }
+  },
+  "ec-167": {
+    "title": "Fish and Vegetables Baked in Tahini (Samak bi-l-Khudar wi-l-Tahina)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Seafood",
+    "cookingMethod": "Baking",
+    "prepTime": "30 min",
+    "cookTime": "30 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 167, page 76 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "White Fish",
+        "standardAmount": "1 1/2–2 kg"
+      },
+      "1": {
+        "name": "Flour, Seasoned",
+        "standardAmount": "2 tablespoons"
+      },
+      "2": {
+        "name": "Onions, Very Thinly Sliced",
+        "standardAmount": "2"
+      },
+      "3": {
+        "name": "Carrots",
+        "standardAmount": "3–4"
+      },
+      "4": {
+        "name": "Sweet Peppers, Seeded And Thinly Sliced",
+        "standardAmount": "2–3"
+      },
+      "5": {
+        "name": "Hard-boiled Eggs, Chopped",
+        "standardAmount": "2–3"
+      },
+      "6": {
+        "name": "Tahini Sauce (tahini Thinned With Water, Lemon, Vinegar, Cumin And Salt)",
+        "standardAmount": "2 cups"
+      },
+      "7": {
+        "name": "Oil",
+        "standardAmount": "for frying"
+      },
+      "8": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Cut the fish into large chunks, coat them in seasoned flour and fry. Drain, cool and flake.",
+      "2": "Parboil the carrots and slice them thinly.",
+      "3": "Sauté the onions and sweet peppers and mix them into the fish with the carrots and eggs.",
+      "4": "Spread the mixture in a baking pan and cover it with the tahini sauce.",
+      "5": "Bake in the middle of a moderate, preheated oven for 15 minutes."
+    }
+  },
+  "ec-177": {
+    "title": "Gulf-Style Baked Fish with Tomato and Tamarind (Samak bi Salsat al-Tamata wal-Sabbar)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Seafood",
+    "cookingMethod": "Baking",
+    "prepTime": "30 min",
+    "cookTime": "45 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 177, page 81 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Whole Fish, About 1 1/2 Kg",
+        "standardAmount": "1"
+      },
+      "1": {
+        "name": "Onions, Very Thinly Sliced",
+        "standardAmount": "2"
+      },
+      "2": {
+        "name": "Tamarind (soaked And Strained To 1/2 Cup Concentrate)",
+        "standardAmount": "2 tablespoons"
+      },
+      "3": {
+        "name": "Tomatoes, Peeled And Diced",
+        "standardAmount": "2"
+      },
+      "4": {
+        "name": "Green Peppers, Very Thinly Sliced",
+        "standardAmount": "2"
+      },
+      "5": {
+        "name": "Fresh Coriander Leaves, Chopped",
+        "standardAmount": "1/2 cup"
+      },
+      "6": {
+        "name": "Ground Coriander",
+        "standardAmount": "1 teaspoon"
+      },
+      "7": {
+        "name": "Cumin",
+        "standardAmount": "1 teaspoon"
+      },
+      "8": {
+        "name": "Mixed Spice",
+        "standardAmount": "1 teaspoon"
+      },
+      "9": {
+        "name": "Lemon Juice",
+        "standardAmount": "3 tablespoons"
+      },
+      "10": {
+        "name": "Tomato Paste",
+        "standardAmount": "3 tablespoons"
+      },
+      "11": {
+        "name": "Garlic Cloves, Crushed",
+        "standardAmount": "7"
+      },
+      "12": {
+        "name": "Ground Ginger",
+        "standardAmount": "a dash"
+      },
+      "13": {
+        "name": "Olive Oil",
+        "standardAmount": "as needed"
+      },
+      "14": {
+        "name": "Salt",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Split the fish lengthwise from head to tail and open it out like a book.",
+      "2": "Dissolve the tomato paste in the tamarind liquid and set aside.",
+      "3": "Blend the garlic, lemon juice, mixed spice and half the fresh coriander. Rub half of this mixture over the fish and leave it to rest.",
+      "4": "Lay the fish on an oiled baking tray and bake until cooked through.",
+      "5": "Meanwhile, fry the onions and peppers in olive oil until soft, then stir in the ground coriander, cumin, ginger and salt.",
+      "6": "Spread the onion mixture and the diced tomatoes over the baked fish, scatter over the remaining coriander and pour the tamarind sauce on top.",
+      "7": "Return to the oven for 5–7 minutes so the fish takes on the flavours, then serve."
+    }
+  },
+  "ec-178": {
+    "title": "Tunisian Breaded Fish in Spicy Tomato Sauce (Hout Moqly)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Seafood",
+    "cookingMethod": "Pan-Frying",
+    "prepTime": "30 min",
+    "cookTime": "30 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 178, page 81 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Fish Fillets",
+        "standardAmount": "1 kg"
+      },
+      "1": {
+        "name": "Onions, Very Finely Chopped",
+        "standardAmount": "2"
+      },
+      "2": {
+        "name": "Zucchini, In Thin Rounds",
+        "standardAmount": "2"
+      },
+      "3": {
+        "name": "Garlic Cloves, Crushed",
+        "standardAmount": "5"
+      },
+      "4": {
+        "name": "Tomato Paste",
+        "standardAmount": "2 tablespoons"
+      },
+      "5": {
+        "name": "Eggs, Well Beaten",
+        "standardAmount": "1–2"
+      },
+      "6": {
+        "name": "Fine Breadcrumbs",
+        "standardAmount": "1 cup"
+      },
+      "7": {
+        "name": "Lemon Juice",
+        "standardAmount": "2–3 tablespoons"
+      },
+      "8": {
+        "name": "Harissa",
+        "standardAmount": "1/2 teaspoon"
+      },
+      "9": {
+        "name": "Olive Oil",
+        "standardAmount": "as needed"
+      },
+      "10": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Marinate the fish in the lemon juice and salt.",
+      "2": "Fry the onions and zucchini lightly in olive oil, then add the garlic, harissa, salt, pepper and the tomato paste thinned with 1 cup of water. Cook for 15 minutes.",
+      "3": "Mash the sauce and boil it again until reduced and thick.",
+      "4": "Dip the fish in beaten egg, coat with breadcrumbs and deep-fry.",
+      "5": "Arrange on a serving dish and spoon the tomato sauce over."
+    }
+  },
+  "ec-179": {
+    "title": "Tunisian Grilled Fish with Eggplant Sauce (Sharmoulit Badinjan)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Seafood",
+    "cookingMethod": "Grilling",
+    "prepTime": "1 hour salting",
+    "cookTime": "40 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 179, page 82 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Fish Fillets",
+        "standardAmount": "1 kg"
+      },
+      "1": {
+        "name": "Round Brown Eggplants",
+        "standardAmount": "1 kg"
+      },
+      "2": {
+        "name": "Onions, Very Finely Chopped",
+        "standardAmount": "2"
+      },
+      "3": {
+        "name": "Garlic Cloves, Halved Diagonally",
+        "standardAmount": "5"
+      },
+      "4": {
+        "name": "Tomato Paste",
+        "standardAmount": "2 tablespoons"
+      },
+      "5": {
+        "name": "Harissa",
+        "standardAmount": "1/2 teaspoon"
+      },
+      "6": {
+        "name": "Tabil (Tunisian Spice Mix)",
+        "standardAmount": "1/2 teaspoon"
+      },
+      "7": {
+        "name": "Cider Vinegar",
+        "standardAmount": "2 tablespoons"
+      },
+      "8": {
+        "name": "Olive Oil",
+        "standardAmount": "for frying"
+      },
+      "9": {
+        "name": "Salt",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Slice, salt and drain the eggplants, then fry them in olive oil until dark brown.",
+      "2": "Grill the fish and keep it warm.",
+      "3": "Brown the onions in the eggplant oil, add the garlic, harissa, tabil and the tomato paste thinned with 1 cup of water, and cook over a medium heat for 15 minutes, stirring often.",
+      "4": "Mash the eggplant with the vinegar and some salt and stir it into the tomato sauce. Cook for 3–5 minutes more.",
+      "5": "Pour the sauce over the grilled fish and serve."
+    }
+  },
+  "ec-180": {
+    "title": "Jordanian Sayadiyeh (Fish in Dark Onion Broth with Rice)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Seafood",
+    "cookingMethod": "Slow Simmering (Tasbeek)",
+    "prepTime": "1–2 hours marinating",
+    "cookTime": "1 hour",
+    "servings": 4,
+    "culturalNotes": "Recipe 180, page 82 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Fish",
+        "standardAmount": "1–2 kg"
+      },
+      "1": {
+        "name": "Onions, Coarsely Chopped",
+        "standardAmount": "3–5"
+      },
+      "2": {
+        "name": "Garlic Cloves, Crushed",
+        "standardAmount": "7–10"
+      },
+      "3": {
+        "name": "Ground Cumin",
+        "standardAmount": "1 teaspoon"
+      },
+      "4": {
+        "name": "Ground Cinnamon",
+        "standardAmount": "1 teaspoon"
+      },
+      "5": {
+        "name": "Lemon Juice",
+        "standardAmount": "3 tablespoons"
+      },
+      "6": {
+        "name": "Rice",
+        "standardAmount": "2–3 cups"
+      },
+      "7": {
+        "name": "Oil",
+        "standardAmount": "as needed"
+      },
+      "8": {
+        "name": "Salt And Pepper",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Marinate the fish in the lemon juice and salt for 1–2 hours.",
+      "2": "Fry the onions until very brown, then add the garlic and fry, stirring constantly so it does not stick.",
+      "3": "Take the pan off the heat and mash the onions well with the back of a spoon. Add the spices, seasoning and plenty of water.",
+      "4": "Bring back to the boil, add the fish and cook until tender. The broth should be very dark.",
+      "5": "Keep back just enough broth to cover the fish. Fry the rice in oil until every grain is coated, add broth to make 1 1/2 times the volume of the rice, season and cook until tender.",
+      "6": "Serve the rice and the fish in its broth separately."
+    }
+  },
+  "ec-181": {
+    "title": "Iraqi Baked Fish Stuffed with Walnuts and Pomegranate (Samaka Harra)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Seafood",
+    "cookingMethod": "Baking",
+    "prepTime": "1 hour 20 min",
+    "cookTime": "1 hour",
+    "servings": 4,
+    "culturalNotes": "Recipe 181, page 83 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Whole White Fish",
+        "standardAmount": "1–2 kg"
+      },
+      "1": {
+        "name": "Onions, Finely Chopped",
+        "standardAmount": "2"
+      },
+      "2": {
+        "name": "Garlic Cloves, Crushed",
+        "standardAmount": "5"
+      },
+      "3": {
+        "name": "Lemon Juice",
+        "standardAmount": "2 tablespoons"
+      },
+      "4": {
+        "name": "Bulgur",
+        "standardAmount": "1/2 cup"
+      },
+      "5": {
+        "name": "Walnuts, Crushed",
+        "standardAmount": "1 cup"
+      },
+      "6": {
+        "name": "Pomegranate Seeds",
+        "standardAmount": "1/2 cup"
+      },
+      "7": {
+        "name": "Parsley, Very Finely Chopped",
+        "standardAmount": "1 tablespoon"
+      },
+      "8": {
+        "name": "Coriander Leaves, Very Finely Chopped",
+        "standardAmount": "1 tablespoon"
+      },
+      "9": {
+        "name": "Oil",
+        "standardAmount": "for the dish"
+      },
+      "10": {
+        "name": "Salt",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Soak the bulgur for an hour.",
+      "2": "Pound or blend the bulgur with the garlic, onions, walnuts, parsley, coriander, lemon juice and salt until well mixed.",
+      "3": "Stir in the pomegranate seeds and stuff the fish with the mixture.",
+      "4": "Put the fish and any extra stuffing in a well-oiled baking dish and cover with foil.",
+      "5": "Bake in a hot, preheated oven for 30 minutes, then lower to moderate and bake for 30 minutes more."
+    }
+  },
+  "ec-183": {
+    "title": "Spiced Boiled Gizzards with Mastic (‘Awanis Maslu’a)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Meats & Poultry",
+    "cookingMethod": "Boiling",
+    "prepTime": "5 min",
+    "cookTime": "15 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 183, page 84 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Chicken Gizzards",
+        "standardAmount": "1 kg"
+      },
+      "1": {
+        "name": "Mastic Grains",
+        "standardAmount": "3–4"
+      },
+      "2": {
+        "name": "Cardamom Pods",
+        "standardAmount": "3–4"
+      },
+      "3": {
+        "name": "Onion",
+        "standardAmount": "1"
+      },
+      "4": {
+        "name": "Salt",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Tie the mastic and cardamom in a muslin bag.",
+      "2": "Boil 4–5 cups of water with the spice bag, the onion and salt.",
+      "3": "Add the gizzards and cook for 10–12 minutes.",
+      "4": "Use the gizzards in the dishes that follow, and the broth to cook rice or vermicelli."
+    }
+  },
+  "ec-184": {
+    "title": "Gizzards and Pearl Onions Baked in Béchamel (‘Awanis bi-l-Bechamel)",
+    "chapter": "Chapter 9: Egyptian Cooking",
+    "category": "Meats & Poultry",
+    "cookingMethod": "Baking",
+    "prepTime": "20 min",
+    "cookTime": "40 min",
+    "servings": 4,
+    "culturalNotes": "Recipe 184, page 84 from Egyptian Cooking and Other Middle Eastern Recipes (Samia Abdennour, AUC Press)",
+    "ingredients": {
+      "0": {
+        "name": "Boiled Gizzards",
+        "standardAmount": "1 kg"
+      },
+      "1": {
+        "name": "Pearl Onions",
+        "standardAmount": "1/4 kg"
+      },
+      "2": {
+        "name": "Béchamel Sauce",
+        "standardAmount": "2 cups"
+      },
+      "3": {
+        "name": "Nutmeg",
+        "standardAmount": "1/2 teaspoon"
+      },
+      "4": {
+        "name": "Salt",
+        "standardAmount": "to taste"
+      }
+    },
+    "instructions": {
+      "1": "Boil the gizzards with mastic, cardamom and onion as in the spiced boiled gizzards recipe.",
+      "2": "Peel the pearl onions, leaving them whole, parboil in salted water and drain.",
+      "3": "Halve the gizzards and put them in a deep baking dish with the onions.",
+      "4": "Stir the nutmeg into the béchamel and pour it over.",
+      "5": "Bake in a moderate, preheated oven for 20 minutes, until the top is browned."
+    }
   }
 }
