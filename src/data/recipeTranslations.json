@@ -16954,5 +16954,1222 @@
       "2": "تخلط العناصر خلطا جيدا ثم تقلب في صحن التقديم.",
       "3": "يسكب عليها زيت الزيتون وترش بالبقدونس المفري."
     }
+  },
+  "salad-08": {
+    "title": "Fattoush Salad",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "سلطات",
+    "cookingMethod": "سلطات ومشروبات",
+    "prepTime": "15 mins",
+    "cookTime": "-",
+    "servings": "4 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "ss13-1": {
+        "name": "Tomato",
+        "standardAmount": "2 ثمرة"
+      },
+      "ss13-2": {
+        "name": "خيار",
+        "standardAmount": "2 ثمرة"
+      },
+      "ss13-3": {
+        "name": "Parsley",
+        "standardAmount": "3 ملعقة كبيرة"
+      },
+      "ss13-4": {
+        "name": "Mint",
+        "standardAmount": "1 ملعقة صغيرة"
+      },
+      "ss13-5": {
+        "name": "أوراق خس",
+        "standardAmount": "حسب الرغبة"
+      },
+      "ss13-6": {
+        "name": "عصير ليمون",
+        "standardAmount": "عصير ليمونة"
+      },
+      "ss13-7": {
+        "name": "خل",
+        "standardAmount": "1 ملعقة كبيرة"
+      },
+      "ss13-8": {
+        "name": "رغيف شامي",
+        "standardAmount": "1 رغيف"
+      },
+      "ss13-9": {
+        "name": "Salt",
+        "standardAmount": "حسب الرغبة"
+      },
+      "ss13-10": {
+        "name": "Oil",
+        "standardAmount": "قليل"
+      }
+    },
+    "instructions": {
+      "1": "تقطع الطماطم مكعبات وكذا الخيار، ويضاف إليهم البقدونس المفري مع النعناع الجاف وأوراق الخس المقطع رفيعا مع عصير الليمونة، ويتبل الخليط بالملح والفلفل والخل.",
+      "2": "يحمص رغيف شامي مقطع صغيرا.",
+      "3": "توضع السلطة في طبق التقديم ويضاف إليها الزيتون الأسود ثم يضاف الخبز المحمص."
+    }
+  },
+  "salad-09": {
+    "title": "Garlic Salad",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "سلطات",
+    "cookingMethod": "سلطات ومشروبات",
+    "prepTime": "10 دقائق",
+    "cookTime": "-",
+    "servings": "حوالي كوب",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "ss14-1": {
+        "name": "بيض",
+        "standardAmount": "3 بيضات"
+      },
+      "ss14-2": {
+        "name": "مستردة",
+        "standardAmount": "2 ملعقة"
+      },
+      "ss14-3": {
+        "name": "Garlic",
+        "standardAmount": "2 ملعقة كبيرة"
+      },
+      "ss14-4": {
+        "name": "Oil",
+        "standardAmount": "1/2 كوب"
+      }
+    },
+    "instructions": {
+      "1": "تخفق المستردة مع البيض إما بضرب الصفار وحده والبياض وحده وإما بضرب البيض كاملا.",
+      "2": "يضاف الثوم المفري مع الزيت ويخفقوا جيدا، ثم يضاف إلى خليط البيض والمستردة ويتبل بالملح مع الخفق الجيد حتى ينعم الخليط ويصير كالكراميل."
+    }
+  },
+  "salad-10": {
+    "title": "Russian Salad",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "سلطات",
+    "cookingMethod": "سلطات ومشروبات",
+    "prepTime": "15 mins",
+    "cookTime": "20 mins",
+    "servings": "4-6 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "ss15-1": {
+        "name": "Peas",
+        "standardAmount": "1/4 كيلو"
+      },
+      "ss15-2": {
+        "name": "Potato",
+        "standardAmount": "1/4 كيلو"
+      },
+      "ss15-3": {
+        "name": "جزر مسلوق",
+        "standardAmount": "2 جزرة"
+      },
+      "ss15-4": {
+        "name": "صلصة مايونيز",
+        "standardAmount": "1 إلى 1.5 كوب"
+      }
+    },
+    "instructions": {
+      "1": "تخلط الخضروات المسلوقة ثم تتبل بنصف مقدار صلصة المايونيز.",
+      "2": "تصب في صحن التقديم ثم يغطى السطح بباقي الصلصة ويجمل بالخيار."
+    }
+  },
+  "salad-11": {
+    "title": "Potato Salad",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "سلطات",
+    "cookingMethod": "سلطات ومشروبات",
+    "prepTime": "20 mins",
+    "cookTime": "25 mins",
+    "servings": "4 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "ss16-1": {
+        "name": "Potato",
+        "standardAmount": "1/4 كيلو"
+      },
+      "ss16-2": {
+        "name": "Tomato",
+        "standardAmount": "2 ثمرة"
+      },
+      "ss16-3": {
+        "name": "Pepper",
+        "standardAmount": "2 ثمرة"
+      },
+      "ss16-4": {
+        "name": "Onion",
+        "standardAmount": "1 بصلة صغيرة"
+      },
+      "ss16-5": {
+        "name": "Garlic",
+        "standardAmount": "2 فص"
+      },
+      "ss16-6": {
+        "name": "Parsley",
+        "standardAmount": "قليل"
+      },
+      "ss16-7": {
+        "name": "Oil",
+        "standardAmount": "2 ملعقة كبيرة"
+      },
+      "ss16-8": {
+        "name": "Salt",
+        "standardAmount": "حسب الرغبة"
+      },
+      "ss16-9": {
+        "name": "عصير ليمون أو خل",
+        "standardAmount": "1 ملعقة كبيرة"
+      }
+    },
+    "instructions": {
+      "1": "تغسل البطاطس بقشرها جيدا.",
+      "2": "تسلق البطاطس بقشرها في ماء مغلي مملح حتى تنضج مع مراعاة ألا تتهرى.",
+      "3": "تقشر البطاطس وتقطع مكعبات متوسطة.",
+      "4": "في طبق عميق نعمل التتبيلة بمزج الزيت مع الملح والكمون، ثم يضاف عصير البصل والثوم المفري وعصير الليمون أو الخل ويقلبوا جيدا.",
+      "5": "تقطع الطماطم قطعا متوسطة وكذا الفلفل الأخضر، ويقطع البقدونس صغيرا، ثم يضافون إلى التتبيلة ويخلطون جيدا.",
+      "6": "توضع مكعبات البطاطس داخل الخلطة وتقلب جيدا.",
+      "7": "تدخل الثلاجة حتى موعد التقديم.",
+      "8": "نصائح عامة لحفظ الخضار: يُسلق الخضار المفروم للتجميد دقيقة واحدة في ماء مغلي مملح به قليل من الكربونات ثم يصفى فورا في ماء مثلج، ثم يجفف ويعبأ في أكياس محكمة الغلق داخل الفريزر لمدة لا تتجاوز 3 أشهر (ويسكب مباشرة في الشوربة الساخنة وهو مجمد). الملوخية تحفظ بعد فرمها بغمرها بمغرفة من الشوربة قبل التجميد. الخرشوف يحفظ في الثلاجة داخل ماء مغلي به زيت زيتون وعصير ليمون كثير. شرائح البطاطس تُسلق 3-4 دقائق ثم تبرد في ماء وخل قبل تجفيفها وتجميدها، وتُقلى وهي لا تزال مجمدة."
+    }
+  },
+  "veg-03": {
+    "title": "Vegetables Cooked with Meat",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "تسبيك",
+    "prepTime": "15 mins",
+    "cookTime": "45 mins",
+    "servings": "4-6 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl5-1": {
+        "name": "Meat",
+        "standardAmount": "1 كيلو"
+      },
+      "vl5-2": {
+        "name": "Vegetables",
+        "standardAmount": "1 كيلو"
+      },
+      "vl5-3": {
+        "name": "Onion",
+        "standardAmount": "1 بصلة كبيرة"
+      },
+      "vl5-4": {
+        "name": "Oil",
+        "standardAmount": "2 ملعقة"
+      },
+      "vl5-5": {
+        "name": "خل",
+        "standardAmount": "1 ملعقة"
+      },
+      "vl5-6": {
+        "name": "Garlic",
+        "standardAmount": "1 فص"
+      },
+      "vl5-7": {
+        "name": "Tomato",
+        "standardAmount": "1/4 كيلو أو 1 ملعقة صلصة"
+      },
+      "vl5-8": {
+        "name": "Salt",
+        "standardAmount": "حسب الحاجة"
+      }
+    },
+    "instructions": {
+      "1": "نضع حوالي 2 ملعقة زيت في إناء ونرفعه على النار ثم نضيف بصلة مبشورة كبيرة ونضع معها اللحم ونقلبهم حتى الاحمرار.",
+      "2": "نضيف الخل والثوم المفروم والطماطم المعصورة أو صلصة الطماطم حتى تنضج الطماطم في حال استعمالها، ثم نضيف الملح والفلفل.",
+      "3": "يضاف الماء، وبعد الغليان نسكب الخضار مع التوابل وتطهى على درجة حرارة هادئة حتى النضج."
+    }
+  },
+  "veg-04": {
+    "title": "Vegetables in Chicken Broth",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "تسبيك",
+    "prepTime": "20 mins",
+    "cookTime": "45 mins",
+    "servings": "4-6 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl6-1": {
+        "name": "Chicken",
+        "standardAmount": "1 دجاجة"
+      },
+      "vl6-2": {
+        "name": "Vegetables",
+        "standardAmount": "1 كيلو"
+      },
+      "vl6-3": {
+        "name": "Onion",
+        "standardAmount": "1 بصلة كبيرة"
+      },
+      "vl6-4": {
+        "name": "حبهان ومستكة",
+        "standardAmount": "حسب الرغبة"
+      },
+      "vl6-5": {
+        "name": "Tomato",
+        "standardAmount": "1/4 كيلو"
+      },
+      "vl6-6": {
+        "name": "Pepper",
+        "standardAmount": "1 ثمرة"
+      },
+      "vl6-7": {
+        "name": "Garlic",
+        "standardAmount": "2 فص"
+      },
+      "vl6-8": {
+        "name": "خل",
+        "standardAmount": "1 ملعقة"
+      },
+      "vl6-9": {
+        "name": "Oil",
+        "standardAmount": "2 ملعقة"
+      },
+      "vl6-10": {
+        "name": "Salt",
+        "standardAmount": "حسب الرغبة"
+      }
+    },
+    "instructions": {
+      "1": "يسلق الدجاج في الماء المغلي مع البصل والحبهان والمستكة والملح والفلفل.",
+      "2": "تنزع الدجاجة في مصفاة، وتتبل بالملح والفلفل.",
+      "3": "يضرب في الخلاط بصلة كبيرة وحوالي 1/4 كيلو طماطم مع ثمرة فلفلة خضراء صغيرة وفصوص من الثوم وملعقة خل.",
+      "4": "نحضر إناء الطهي ونضع به 2 ملعقة زيت أو حسب الرغبة، وبعد أن يسخن الزيت نسكب فيه الخلطة ونتبلها بالملح والفلفل، ونتركها حتى تغلي.",
+      "5": "نضيف لها مقدار من المرق حتى الغليان.",
+      "6": "نسكب الخضر وتهدأ درجة الحرارة حتى النضج."
+    }
+  },
+  "veg-05": {
+    "title": "Sauté Vegetables",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "سلق",
+    "prepTime": "10 دقائق",
+    "cookTime": "20 mins",
+    "servings": "4 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl7-1": {
+        "name": "Beans",
+        "standardAmount": "1 كيلو"
+      },
+      "vl7-2": {
+        "name": "Onion",
+        "standardAmount": "1 بصلة"
+      },
+      "vl7-3": {
+        "name": "خل",
+        "standardAmount": "1 ملعقة"
+      },
+      "vl7-4": {
+        "name": "Oil",
+        "standardAmount": "حسب الحاجة"
+      },
+      "vl7-5": {
+        "name": "عصير ليمون",
+        "standardAmount": "عصير ليمونة"
+      },
+      "vl7-6": {
+        "name": "Salt",
+        "standardAmount": "حسب الرغبة"
+      }
+    },
+    "instructions": {
+      "1": "نحضر إناء الطهي وبه ماء وملح وبصلة صحيحة وخل.",
+      "2": "بعد الغليان نسكب الخضار ونهدئ درجة الحرارة حتى ينضج، ثم نرفعه في مصفاة.",
+      "3": "نحضر صحنا غويطا به زيت وليمون وملح وفلفل ويقلبوا جيدا، ثم نضيف فيه الخضار."
+    }
+  },
+  "veg-06": {
+    "title": "Beans in Chicken Broth",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "تسبيك",
+    "prepTime": "15 mins",
+    "cookTime": "35 mins",
+    "servings": "4 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl8-1": {
+        "name": "Beans",
+        "standardAmount": "1/2 كيلو"
+      },
+      "vl8-2": {
+        "name": "Onion",
+        "standardAmount": "1 بصلة متوسطة"
+      },
+      "vl8-3": {
+        "name": "Tomato",
+        "standardAmount": "3 ثمرات أو 1 ملعقة صلصة"
+      },
+      "vl8-4": {
+        "name": "Pepper",
+        "standardAmount": "1 ثمرة"
+      },
+      "vl8-5": {
+        "name": "Oil",
+        "standardAmount": "2 ملعقة كبيرة"
+      },
+      "vl8-6": {
+        "name": "Garlic",
+        "standardAmount": "1/4 رأس ثوم"
+      },
+      "vl8-7": {
+        "name": "مرق",
+        "standardAmount": "حوالي 2 كوب"
+      },
+      "vl8-8": {
+        "name": "Salt",
+        "standardAmount": "حسب الرغبة"
+      }
+    },
+    "instructions": {
+      "1": "تقطع الفاصوليا نصفين طوليا ثم تقطع صغيرا وتغسل.",
+      "2": "يضرب البصل والطماطم والفلفل الأخضر والثوم مع الملح والفلفل في الخلاط.",
+      "3": "نضع الزيت في إناء الطهي حتى يسخن فقط، ثم نسكب فيه الخليط حتى الغليان على درجة حرارة هادئة.",
+      "4": "نضع الفاصوليا في هذا الخليط ونتركها تتشوح حتى تذبل.",
+      "5": "نسكب عليها المرق ونتركه يغلي، ثم نخفض درجة الحرارة مع تغطية الإناء، وكلما احتاجت إلى المرق نضيفه إليها حتى تنضج."
+    }
+  },
+  "veg-07": {
+    "title": "Beans with Meat",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "تسبيك",
+    "prepTime": "15 mins",
+    "cookTime": "45 mins",
+    "servings": "4 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl9-1": {
+        "name": "Beans",
+        "standardAmount": "1/2 كيلو"
+      },
+      "vl9-2": {
+        "name": "Onion",
+        "standardAmount": "1 بصلة متوسطة"
+      },
+      "vl9-3": {
+        "name": "Tomato",
+        "standardAmount": "3 ثمرات أو 1 ملعقة صلصة"
+      },
+      "vl9-4": {
+        "name": "Pepper",
+        "standardAmount": "1 ثمرة"
+      },
+      "vl9-5": {
+        "name": "Oil",
+        "standardAmount": "2 ملعقة كبيرة"
+      },
+      "vl9-6": {
+        "name": "Garlic",
+        "standardAmount": "1/4 رأس ثوم"
+      },
+      "vl9-7": {
+        "name": "Meat",
+        "standardAmount": "حسب الرغبة"
+      },
+      "vl9-8": {
+        "name": "Salt",
+        "standardAmount": "حسب الحاجة"
+      }
+    },
+    "instructions": {
+      "1": "يضرب البصل والطماطم والفلفل الرومي والثوم والملح والفلفل في الخلاط.",
+      "2": "يوضع اللحم في إناء به زيت ويشوح فقط، ثم يصب عليه خليط البصل والطماطم المضروب حتى تنضج الطماطم.",
+      "3": "نضيف مقدار من الماء يكفي لكمية الفاصوليا ونتركه يغلي، ونضيف له الملح والفلفل.",
+      "4": "بعد الغليان نضيف الفاصوليا ونخفض درجة الحرارة حتى ينضج الخضار واللحم."
+    }
+  },
+  "veg-08": {
+    "title": "Sautéed Beans with Rice",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "تسبيك",
+    "prepTime": "10 دقائق",
+    "cookTime": "30 mins",
+    "servings": "4 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl10-1": {
+        "name": "Beans",
+        "standardAmount": "1/2 كيلو"
+      },
+      "vl10-2": {
+        "name": "Onion",
+        "standardAmount": "1 بصلة متوسطة"
+      },
+      "vl10-3": {
+        "name": "أرز",
+        "standardAmount": "1 كوب"
+      },
+      "vl10-4": {
+        "name": "ماء",
+        "standardAmount": "1 كوب"
+      },
+      "vl10-5": {
+        "name": "Oil",
+        "standardAmount": "2 ملعقة كبيرة"
+      },
+      "vl10-6": {
+        "name": "Salt",
+        "standardAmount": "حسب الرغبة"
+      }
+    },
+    "instructions": {
+      "1": "يقدح زيت أو زبد جيدا في طاسة عميقة، ثم يسكب فيها الفاصوليا مجمدة أو طازجة، وتهدأ الحرارة مع التقليب المستمر.",
+      "2": "يضاف قليل من الماء والملح والفلفل والزعتر، ثم يغطى ويترك حتى تنضج الفاصوليا.",
+      "3": "يسلق الأرز في ماء ساخن، وقبل نضجه بقليل يصفى من مائه.",
+      "4": "تقطع البصلة قطعا صغيرة جدا وتحمر في الزيت.",
+      "5": "يخلط البصل المحمر بالفاصوليا الناضجة ثم يخلط بالأرز، ويقلبان جيدا مع تغطية الإناء حتى يظل ساخنا بالبخار مع إطفاء الحرارة."
+    }
+  },
+  "veg-09": {
+    "title": "Sautéed Beans without Rice",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "تسبيك",
+    "prepTime": "40 mins (+نقع)",
+    "cookTime": "20 mins",
+    "servings": "4 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl11-1": {
+        "name": "Beans",
+        "standardAmount": "1/2 كيلو"
+      },
+      "vl11-2": {
+        "name": "Onion",
+        "standardAmount": "1 بصلة صغيرة"
+      },
+      "vl11-3": {
+        "name": "Garlic",
+        "standardAmount": "2 فص"
+      },
+      "vl11-4": {
+        "name": "خل",
+        "standardAmount": "1 ملعقة كبيرة"
+      },
+      "vl11-5": {
+        "name": "Oil",
+        "standardAmount": "2 ملعقة كبيرة"
+      },
+      "vl11-6": {
+        "name": "ماء",
+        "standardAmount": "1 كوب"
+      },
+      "vl11-7": {
+        "name": "Onion",
+        "standardAmount": "1 بصلة، 2 فص ثوم، 1/2 ملعقة صغيرة سكر"
+      },
+      "vl11-8": {
+        "name": "Salt",
+        "standardAmount": "حسب الرغبة"
+      }
+    },
+    "instructions": {
+      "1": "تنقع الفاصوليا بعد تقشيرها في الماء لمدة نصف ساعة، ثم نسكب الماء ونكرر النقع مرة أخرى، ثم تصفى من الماء.",
+      "2": "نحضر إناء نضع فيه الزيت والفاصوليا مع البصلة الصغيرة المبشورة على درجة حرارة منخفضة، وإضافة الخل والثوم المفري والملح والماء.",
+      "3": "نحضر الصلصة بخلط عصير بصلة صغيرة و2 فص ثوم مقطع صغيرا وملح وفلفل وكمون ونصف ملعقة صغيرة سكر، ويقلب الخليط جيدا بملعقة خشب.",
+      "4": "بعد النضج تخلط الفاصوليا بالصلصة جيدا وتدخل الثلاجة لمدة 3 ساعات."
+    }
+  },
+  "veg-10": {
+    "title": "Peas",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "تسبيك",
+    "prepTime": "15 mins",
+    "cookTime": "30 mins",
+    "servings": "4 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl12-1": {
+        "name": "Peas",
+        "standardAmount": "1 كيلو"
+      },
+      "vl12-2": {
+        "name": "جزر",
+        "standardAmount": "1/4 كيلو"
+      },
+      "vl12-3": {
+        "name": "Onion",
+        "standardAmount": "1 بصلة متوسطة"
+      },
+      "vl12-4": {
+        "name": "Garlic",
+        "standardAmount": "3 فصوص"
+      },
+      "vl12-5": {
+        "name": "Pepper",
+        "standardAmount": "1 ثمرة"
+      },
+      "vl12-6": {
+        "name": "خل",
+        "standardAmount": "1 ملعقة كبيرة"
+      },
+      "vl12-7": {
+        "name": "Tomato",
+        "standardAmount": "1/4 كيلو"
+      },
+      "vl12-8": {
+        "name": "Oil",
+        "standardAmount": "2 ملعقة كبيرة"
+      },
+      "vl12-9": {
+        "name": "مرق",
+        "standardAmount": "2 كوب"
+      }
+    },
+    "instructions": {
+      "1": "تسلق البازلاء في ماء مغلي نصف نضج، ثم يسلق الجزر بمفرده.",
+      "2": "يضرب البصل والثوم والفلفل الأخضر والطماطم والخل في الخلاط.",
+      "3": "نضع الزيت في إناء ونسكب فيه الخليط المضروب، وبعد الغليان نسكب المرق حتى يغلي.",
+      "4": "نضيف البسلة نصف الناضجة والجزر، وتترك على درجة حرارة هادئة حتى تتسبك مع الصلصة."
+    }
+  },
+  "veg-11": {
+    "title": "Peas with Rice",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "تسبيك",
+    "prepTime": "10 دقائق (+نقع الأرز)",
+    "cookTime": "30 mins",
+    "servings": "4 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl13-1": {
+        "name": "أرز منقوع",
+        "standardAmount": "1 كوب"
+      },
+      "vl13-2": {
+        "name": "Peas",
+        "standardAmount": "1/2 كيلو"
+      },
+      "vl13-3": {
+        "name": "جزرة",
+        "standardAmount": "1 جزرة"
+      },
+      "vl13-4": {
+        "name": "Oil",
+        "standardAmount": "حسب الحاجة"
+      },
+      "vl13-5": {
+        "name": "ماء أو مرق",
+        "standardAmount": "2 كوب"
+      },
+      "vl13-6": {
+        "name": "Onion",
+        "standardAmount": "1 بصلة صغيرة"
+      }
+    },
+    "instructions": {
+      "1": "تشوَح البازلاء والجزر في الزبد، ثم يضاف لها حوالي 2 كوب من الماء أو المرق، وتترك على درجة حرارة هادئة حتى تقارب النضج.",
+      "2": "تحمَر بصلة صغيرة مفرومة في الزيت وتسكب على البازلاء، ثم يضاف مقدار قليل من المرق أو الماء ما يكفي لتغطية الأرز مع إضافة الملح.",
+      "3": "نضيف الأرز إلى البازلاء ويطهى على درجة حرارة منخفضة حتى النضج."
+    }
+  },
+  "veg-12": {
+    "title": "Peas with Meat Filling",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "تسبيك",
+    "prepTime": "20 mins",
+    "cookTime": "40 mins",
+    "servings": "6 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl14-1": {
+        "name": "Peas",
+        "standardAmount": "1 كيلو"
+      },
+      "vl14-2": {
+        "name": "جزر",
+        "standardAmount": "4 جزرات"
+      },
+      "vl14-3": {
+        "name": "Pepper",
+        "standardAmount": "1 كوب"
+      },
+      "vl14-4": {
+        "name": "عصاج",
+        "standardAmount": "1/2 كيلو"
+      },
+      "vl14-5": {
+        "name": "Oil",
+        "standardAmount": "2 ملعقة كبيرة"
+      },
+      "vl14-6": {
+        "name": "زبدة",
+        "standardAmount": "حسب الحاجة"
+      },
+      "vl14-7": {
+        "name": "صنوبر",
+        "standardAmount": "حسب الرغبة"
+      }
+    },
+    "instructions": {
+      "1": "تسلق البازلاء في ماء مغلي وملح حتى النضج، ثم يسلق الجزر بمفرده.",
+      "2": "يصفى الخضار من الماء في مصفاة ثم يشوح في الزبدة.",
+      "3": "يطهى أرز مفلفل عادي (انظري باب النشويات).",
+      "4": "يطهى العصاج (انظري باب اللحوم).",
+      "5": "عند التقديم نحضر سلطانية عميقة، نضع في أسفلها كمية من العصاج والصنوبر، يوضع فوقها كمية من الجزر ثم مقدار من الأرز ثم مقدار من البازلاء، وتعاد الكرة مرة أخرى بالعصاج ثم الجزر ثم الأرز ثم البازلاء، ويوضع العصاج في أعلى السلطانية.",
+      "6": "نقلب هذا الخليط باحتراس في طبق التقديم."
+    }
+  },
+  "veg-13": {
+    "title": "Okra in Chicken Broth",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "تسبيك",
+    "prepTime": "15 mins",
+    "cookTime": "30 mins",
+    "servings": "4 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl15-1": {
+        "name": "Okra",
+        "standardAmount": "1 كيلو"
+      },
+      "vl15-2": {
+        "name": "Onion",
+        "standardAmount": "1 بصلة متوسطة"
+      },
+      "vl15-3": {
+        "name": "Tomato",
+        "standardAmount": "3 ثمرات أو 1 ملعقة صلصة"
+      },
+      "vl15-4": {
+        "name": "Pepper",
+        "standardAmount": "1 ثمرة"
+      },
+      "vl15-5": {
+        "name": "Garlic",
+        "standardAmount": "1/4 رأس ثوم"
+      },
+      "vl15-6": {
+        "name": "خل",
+        "standardAmount": "1 ملعقة"
+      },
+      "vl15-7": {
+        "name": "Oil",
+        "standardAmount": "2 ملعقة كبيرة"
+      },
+      "vl15-8": {
+        "name": "مرق",
+        "standardAmount": "2 كوب"
+      },
+      "vl15-9": {
+        "name": "Salt",
+        "standardAmount": "حسب الرغبة"
+      }
+    },
+    "instructions": {
+      "1": "يضرب البصل والفلفل الأخضر والطماطم والخل والثوم في الخلاط.",
+      "2": "يوضع الخضار المضروب في إناء الطهي به زيت أو سمن حتى يغلي.",
+      "3": "يضاف إليه المرق المتبل بالملح والفلفل حتى الغليان.",
+      "4": "تضاف البامية وتهدأ الحرارة حتى تنضج البامية."
+    }
+  },
+  "veg-14": {
+    "title": "Okra Tagine with Meat",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "فرن",
+    "prepTime": "15 mins",
+    "cookTime": "45 mins",
+    "servings": "4-6 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl16-1": {
+        "name": "Okra",
+        "standardAmount": "1 كيلو"
+      },
+      "vl16-2": {
+        "name": "Onion",
+        "standardAmount": "1 بصلة متوسطة"
+      },
+      "vl16-3": {
+        "name": "Garlic",
+        "standardAmount": "4 فصوص"
+      },
+      "vl16-4": {
+        "name": "Oil",
+        "standardAmount": "2 ملعقة كبيرة"
+      },
+      "vl16-5": {
+        "name": "Tomato",
+        "standardAmount": "1 كوب"
+      },
+      "vl16-6": {
+        "name": "خل",
+        "standardAmount": "1 ملعقة"
+      },
+      "vl16-7": {
+        "name": "Meat",
+        "standardAmount": "1/2 كيلو"
+      },
+      "vl16-8": {
+        "name": "ماء",
+        "standardAmount": "2 كوب"
+      },
+      "vl16-9": {
+        "name": "Salt",
+        "standardAmount": "حسب الرغبة"
+      }
+    },
+    "instructions": {
+      "1": "نضع زيتا أو سمنا في الإناء ونشوح فيه البصلة المفرية ثم الثوم المفري، ثم عصير الطماطم أو صلصة الطماطم مع الملح والفلفل والخل.",
+      "2": "بعد تجانسهم نضع اللحم المقطع النيء أو العصاج ونقلبه جيدا معهم، ثم نضع فيها البامية ثم كمية من الماء لتغطيته.",
+      "3": "نسكب البامية في برام أو بايركس مع تغطيته، ثم يدخل الفرن حتى النضج."
+    }
+  },
+  "veg-15": {
+    "title": "Zucchini",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "تسبيك",
+    "prepTime": "15 mins",
+    "cookTime": "30 mins",
+    "servings": "4 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl17-1": {
+        "name": "كوسة",
+        "standardAmount": "1 كيلو"
+      },
+      "vl17-2": {
+        "name": "Onion",
+        "standardAmount": "1 بصلة متوسطة"
+      },
+      "vl17-3": {
+        "name": "Tomato",
+        "standardAmount": "3 ثمرات"
+      },
+      "vl17-4": {
+        "name": "Pepper",
+        "standardAmount": "1 ثمرة"
+      },
+      "vl17-5": {
+        "name": "Oil",
+        "standardAmount": "2 ملعقة كبيرة"
+      },
+      "vl17-6": {
+        "name": "Garlic",
+        "standardAmount": "1/4 رأس ثوم"
+      },
+      "vl17-7": {
+        "name": "مرق",
+        "standardAmount": "1.5 كوب"
+      },
+      "vl17-8": {
+        "name": "Salt",
+        "standardAmount": "حسب الرغبة"
+      }
+    },
+    "instructions": {
+      "1": "يضرب البصل والفلفل الأخضر والطماطم والخل والثوم في الخلاط.",
+      "2": "يشوَح الخضار المضروب في الزيت حتى يغلي على حرارة هادئة.",
+      "3": "تشوَح الكوسة جيدا في هذا الخليط ونسكب عليها المرق حتى الغليان.",
+      "4": "تهدأ الحرارة حتى النضج."
+    }
+  },
+  "veg-16": {
+    "title": "Zucchini in Broth & Yogurt",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "فرن",
+    "prepTime": "15 mins",
+    "cookTime": "30 mins",
+    "servings": "4 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl18-1": {
+        "name": "كوسة مبشورة",
+        "standardAmount": "1 كيلو"
+      },
+      "vl18-2": {
+        "name": "Onion",
+        "standardAmount": "1 بصلة متوسطة"
+      },
+      "vl18-3": {
+        "name": "مرق",
+        "standardAmount": "1 كوب"
+      },
+      "vl18-4": {
+        "name": "لبن",
+        "standardAmount": "1 كوب"
+      },
+      "vl18-5": {
+        "name": "بيض",
+        "standardAmount": "1-2 بيضة"
+      },
+      "vl18-6": {
+        "name": "Oil",
+        "standardAmount": "2 ملعقة كبيرة"
+      },
+      "vl18-7": {
+        "name": "زبدة",
+        "standardAmount": "1 قطعة"
+      },
+      "vl18-8": {
+        "name": "Salt",
+        "standardAmount": "حسب الرغبة"
+      }
+    },
+    "instructions": {
+      "1": "تبشر الكوسة بالبشَارة ثم تشوح في زيت مع البصلة المفرية والملح والفلفل.",
+      "2": "يمكن أيضا بشر حبة بطاطس مع ثمرة فلفل أخضر.",
+      "3": "يضاف لها المرق واللبن، وبعد الغليان نحضر بايركس ونضع فيه الخضار والمرق ونضع على الوجه البيض المخفوق مع ملح وفلفل وقطعة زبد.",
+      "4": "تدخل فرن متوسط الحرارة حتى النضج."
+    }
+  },
+  "veg-17": {
+    "title": "Zucchini with Béchamel Sauce",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "فرن",
+    "prepTime": "20 mins",
+    "cookTime": "35 mins",
+    "servings": "4-6 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl19-1": {
+        "name": "كوسة",
+        "standardAmount": "3/4 كيلو"
+      },
+      "vl19-2": {
+        "name": "مرق أو ماء",
+        "standardAmount": "1 كوب"
+      },
+      "vl19-3": {
+        "name": "Onion",
+        "standardAmount": "1 بصلة متوسطة"
+      },
+      "vl19-4": {
+        "name": "بيضة",
+        "standardAmount": "1 بيضة"
+      },
+      "vl19-5": {
+        "name": "باشاميل (انظري الوصفة التالية)",
+        "standardAmount": "2 كوب"
+      },
+      "vl19-6": {
+        "name": "بقسماط",
+        "standardAmount": "1 ملعقة كبيرة"
+      },
+      "vl19-7": {
+        "name": "Oil",
+        "standardAmount": "حسب الحاجة"
+      },
+      "vl19-8": {
+        "name": "Salt",
+        "standardAmount": "حسب الرغبة"
+      }
+    },
+    "instructions": {
+      "1": "تقشر الكوسة وتقطع شرائح عريضة.",
+      "2": "تبشر بصلة وتدعك بالملح والفلفل.",
+      "3": "تشوح الكوسة مع البصلة في السمن أو الزيت حتى تتماسك أجزاؤها.",
+      "4": "يضاف قليل من الماء أو المرق حسب الحاجة مع تغطية الإناء على درجة حرارة هادئة حتى النضج.",
+      "5": "يدهن قالب بايركس أو صينية بزيت خفيف، ثم ترص فيه الكوسة وتخلط بنصف كمية الباشاميل.",
+      "6": "يخفق البيض في نصف كمية الباشاميل المتبقية وتغطى به الصينية، ويرش الوجه بالبقسماط الناعم وقطعة الزبد.",
+      "7": "تدخل فرن متوسط الحرارة حتى تنضج ويحمر الوجه."
+    }
+  },
+  "veg-18": {
+    "title": "Making Béchamel Sauce",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "تسبيك",
+    "prepTime": "5 دقائق",
+    "cookTime": "15 mins",
+    "servings": "حوالي 3 كوب",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl20-1": {
+        "name": "Oil",
+        "standardAmount": "2 ملعقة كبيرة"
+      },
+      "vl20-2": {
+        "name": "دقيق",
+        "standardAmount": "2 ملعقة كبيرة"
+      },
+      "vl20-3": {
+        "name": "لبن",
+        "standardAmount": "حوالي 3 كوب حسب القوام المطلوب"
+      },
+      "vl20-4": {
+        "name": "بيض",
+        "standardAmount": "2 بيضة"
+      },
+      "vl20-5": {
+        "name": "Salt",
+        "standardAmount": "حسب الرغبة"
+      }
+    },
+    "instructions": {
+      "1": "يسيَح السمن أو الزيت ويضاف له الدقيق مع التحريك المستمر على درجة حرارة هادئة حتى يصفر لونه، وينزع من فوق الحرارة.",
+      "2": "يغلي اللبن ويضاف إلى الدقيق مع التقليب السريع بالمضرب السلكي.",
+      "3": "يعاد الإناء على درجة حرارة هادئة مع التقليب المستمر، ثم يتبل بالملح والفلفل حتى يصل إلى القوام المطلوب.",
+      "4": "بعد أن يهدأ الخليط يضاف له البيض."
+    }
+  },
+  "veg-19": {
+    "title": "Zucchini with Olives",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "فرن",
+    "prepTime": "20 mins",
+    "cookTime": "20 mins",
+    "servings": "4 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl21-1": {
+        "name": "كوسة",
+        "standardAmount": "1 كيلو"
+      },
+      "vl21-2": {
+        "name": "جبن شيدر",
+        "standardAmount": "1/4 كيلو"
+      },
+      "vl21-3": {
+        "name": "Oil",
+        "standardAmount": "1/8 كيلو"
+      },
+      "vl21-4": {
+        "name": "زبدة",
+        "standardAmount": "حسب الحاجة"
+      }
+    },
+    "instructions": {
+      "1": "تقشر الكوسة وتسلق في قليل من الماء المغلي نصف سلق.",
+      "2": "تصفى من الماء ثم تقطع بالطول نصفين.",
+      "3": "ينزع قلب الكوسة باحتراس ويرص في صينية أو بايركس مدهون بالزيت.",
+      "4": "تحشى الكوسة بقطع صغيرة من الزيتون الأسود وترص فوق قلب الكوسة.",
+      "5": "يبشر الجبن الشيدر ويوضع فوق الكوسة مع قليل من الزبد وتدخل الفرن."
+    }
+  },
+  "veg-20": {
+    "title": "Zucchini with Meat Filling",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "فرن",
+    "prepTime": "25 mins",
+    "cookTime": "30 mins",
+    "servings": "4-6 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl22-1": {
+        "name": "كوسة",
+        "standardAmount": "1 كيلو"
+      },
+      "vl22-2": {
+        "name": "Chicken",
+        "standardAmount": "1/4 كيلو أو 1/2 دجاجة"
+      },
+      "vl22-3": {
+        "name": "Vegetables",
+        "standardAmount": "1/4 كيلو"
+      },
+      "vl22-4": {
+        "name": "صلصة المكرونة (انظري باب النشويات)",
+        "standardAmount": "1 ملعقة كبيرة"
+      },
+      "vl22-5": {
+        "name": "باشاميل",
+        "standardAmount": "1 كوب"
+      },
+      "vl22-6": {
+        "name": "جبن مبشور",
+        "standardAmount": "1/8 كيلو"
+      },
+      "vl22-7": {
+        "name": "Oil",
+        "standardAmount": "حسب الحاجة"
+      }
+    },
+    "instructions": {
+      "1": "تقشر الكوسة وتقسم نصفين بالطول بدون سلق.",
+      "2": "ينزع قلب الكوسة وتحشى بالعصاج أو الدجاج المفروم المخلوط بالخضار المشكل المطهو (جزر–بسلة) بعد ضربه مع الدجاج في الكبة.",
+      "3": "يوضع فوقها قليل من صلصة المكرونة مع تقليبها، ثم تغطى بكوب من الباشاميل، ثم بشر جبن شيدر أو أي نوع جبن.",
+      "4": "تدهن صينية بزيت خفيف، ثم ترص حبات الكوسة المحشوة بالعصاج والصلصة والباشاميل والجبن المبشور مع قليل جدا من الماء حتى لا تلتصق.",
+      "5": "تغطى وتدخل فرن متوسط الحرارة حتى تنضج، ثم نرفع عنها الغطاء حتى يسيح الجبن على الوجه."
+    }
+  },
+  "veg-21": {
+    "title": "Taro in Sauce",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "تسبيك",
+    "prepTime": "25 mins",
+    "cookTime": "35 mins",
+    "servings": "4-6 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl23-1": {
+        "name": "قلقاس",
+        "standardAmount": "1 كيلو"
+      },
+      "vl23-2": {
+        "name": "Onion",
+        "standardAmount": "1 بصلة متوسطة"
+      },
+      "vl23-3": {
+        "name": "Tomato",
+        "standardAmount": "3 ثمرات"
+      },
+      "vl23-4": {
+        "name": "Pepper",
+        "standardAmount": "1 ثمرة"
+      },
+      "vl23-5": {
+        "name": "Oil",
+        "standardAmount": "2 ملعقة كبيرة"
+      },
+      "vl23-6": {
+        "name": "Garlic",
+        "standardAmount": "1/4 رأس ثوم"
+      },
+      "vl23-7": {
+        "name": "مرق",
+        "standardAmount": "2 كوب"
+      },
+      "vl23-8": {
+        "name": "Salt",
+        "standardAmount": "حسب الرغبة"
+      },
+      "vl23-9": {
+        "name": "عصير ليمون (للتنظيف)",
+        "standardAmount": "حسب الحاجة"
+      }
+    },
+    "instructions": {
+      "1": "يقشر القلقاس ويقطع مكعبات متوسطة، وينقع في الماء الدافئ (كي تزول المادة المخاطية)، ثم يشطف بالماء وعصير الليمون.",
+      "2": "يضرب البصل والفلفل الأخضر والطماطم والخل والثوم في الخلاط.",
+      "3": "نضع الزيت في إناء الطهي حتى يسخن فقط، ثم نسكب فيه هذا الخليط على درجة حرارة هادئة حتى الغليان.",
+      "4": "نسكب عليه المرق ونتركه يغلي.",
+      "5": "نضيف القلقاس وتخفض درجة الحرارة مع تغطية الإناء حتى النضج."
+    }
+  },
+  "veg-22": {
+    "title": "Eggplant Casserole without Meat",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "فرن",
+    "prepTime": "30 mins",
+    "cookTime": "35 mins",
+    "servings": "4-6 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl24-1": {
+        "name": "Eggplant",
+        "standardAmount": "1 كيلو"
+      },
+      "vl24-2": {
+        "name": "Onion",
+        "standardAmount": "1 بصلة كبيرة"
+      },
+      "vl24-3": {
+        "name": "Tomato",
+        "standardAmount": "2 ثمرة"
+      },
+      "vl24-4": {
+        "name": "Pepper",
+        "standardAmount": "1 ثمرة"
+      },
+      "vl24-5": {
+        "name": "Garlic",
+        "standardAmount": "1/4 رأس ثوم"
+      },
+      "vl24-6": {
+        "name": "خل",
+        "standardAmount": "1 ملعقة كبيرة"
+      },
+      "vl24-7": {
+        "name": "Oil",
+        "standardAmount": "حسب الحاجة للقلي"
+      },
+      "vl24-8": {
+        "name": "مرق",
+        "standardAmount": "1 إلى 1.5 كوب"
+      },
+      "vl24-9": {
+        "name": "Salt",
+        "standardAmount": "حسب الرغبة"
+      }
+    },
+    "instructions": {
+      "1": "يقشر الباذنجان ثم يقطع مستديرات متوسطة، ويوضع في مصفاة فوق إناء ويرش بالملح حتى يتخلص من مائه، ثم يجفف.",
+      "2": "نضع في طاسة القلي زيتا مقدوحا ثم يحمر الباذنجان على الوجهين ويوضع على مناديل ورقية.",
+      "3": "نضرب البصل والطماطم والفلفل والثوم والخل والملح والفلفل في الخلاط.",
+      "4": "نحضر إناء ونضع فيه قليل من الزيت ونسكب عليه الخلطة المضروبة، ثم نضيف حوالي كوب ونصف إلى 2 كوب مرق.",
+      "5": "بعد الغليان نحضر البايركس أو الصينية ونرص فيها الباذنجان المقلي ونسكب عليه المرق الممزوج بالصلصة، ويدخل فرن متوسط الحرارة حتى يتشرب وينضج، وممكن تغطيته في الفرن."
+    }
+  },
+  "veg-23": {
+    "title": "Eggplant Casserole with Meat",
+    "chapter": "Chapter 2: Soups, Salads, Vegetables & Pulses",
+    "category": "خضروات",
+    "cookingMethod": "فرن",
+    "prepTime": "35 mins",
+    "cookTime": "35 mins",
+    "servings": "4-6 servings",
+    "culturalNotes": "Traditional Egyptian vegetable preparation",
+    "ingredients": {
+      "vl25-1": {
+        "name": "Eggplant",
+        "standardAmount": "1 كيلو"
+      },
+      "vl25-2": {
+        "name": "عصاج (انظري باب اللحوم)",
+        "standardAmount": "1/4 كيلو"
+      },
+      "vl25-3": {
+        "name": "مرق",
+        "standardAmount": "1.5 إلى 2 كوب"
+      },
+      "vl25-4": {
+        "name": "Onion",
+        "standardAmount": "1 بصلة كبيرة"
+      },
+      "vl25-5": {
+        "name": "Tomato",
+        "standardAmount": "2 ثمرة"
+      },
+      "vl25-6": {
+        "name": "Pepper",
+        "standardAmount": "1 ثمرة"
+      },
+      "vl25-7": {
+        "name": "Garlic",
+        "standardAmount": "1/4 رأس ثوم"
+      },
+      "vl25-8": {
+        "name": "خل",
+        "standardAmount": "1 ملعقة كبيرة"
+      },
+      "vl25-9": {
+        "name": "Oil",
+        "standardAmount": "حسب الحاجة للقلي"
+      },
+      "vl25-10": {
+        "name": "باشاميل (اختياري)",
+        "standardAmount": "1 كوب"
+      }
+    },
+    "instructions": {
+      "1": "يقشر الباذنجان ثم يقطع مستديرات متوسطة، ويوضع في مصفاة فوق إناء ويرش بالملح حتى يتخلص من مائه، ثم يجفف.",
+      "2": "نضع في طاسة القلي زيتا مقدوحا ثم يحمر الباذنجان على الوجهين ويوضع على مناديل ورقية.",
+      "3": "نضرب البصل والطماطم والفلفل والثوم والخل والملح والفلفل في الخلاط.",
+      "4": "نحضر إناء ونضع فيه قليل من الزيت ونسكب عليه الخلطة المضروبة، ثم نضيف حوالي كوب ونصف إلى 2 كوب مرق.",
+      "5": "بعد الغليان نحضر البايركس أو الصينية، ثم نبدأ في وضع الباذنجان مع العصاج بالتبادل، أي طبقة باذنجان في القاع ثم عصاج، وهكذا حتى تنتهي بطبقة العصاج على الوجه.",
+      "6": "نسكب عليه المرق بالصلصة ويدخل الفرن حتى النضج.",
+      "7": "ممكن إضافة كمية من الباشاميل (1 كوب) على الوجه."
+    }
   }
 }
