@@ -41,6 +41,10 @@ No API key or `.env` file is required to run or build the site.
 
 `scripts/recipe-images/` contains a standalone, offline Python tool that finds or generates a "final plated dish" photo for each recipe — see [its README](scripts/recipe-images/README.md) for setup and usage. It costs no Claude tokens and needs no paid API key.
 
+## Recipe videos
+
+Each recipe written in Arabic has a **Videos** tab. When a visitor opens it, the site shows up to 20 matching videos from YouTube, TikTok, Instagram and Facebook, and plays them in an embedded player. The search runs in a small Cloudflare Worker, and nothing loads until the tab is opened. See [workers/video-search/README.md](workers/video-search/README.md) for deployment.
+
 ## GitHub Pages
 
 The repository includes a GitHub Actions workflow that builds and deploys the site after every push to `main`. In the repository's **Settings → Pages**, select **GitHub Actions** as the publishing source once. The site is served at [fifi.cooking](https://fifi.cooking), with [amado2k5.github.io/fifirecipes](https://amado2k5.github.io/fifirecipes/) as the underlying GitHub Pages URL.

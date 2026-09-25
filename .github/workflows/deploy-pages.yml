@@ -29,6 +29,9 @@ jobs:
         run: npm ci --legacy-peer-deps
       - name: Build site
         run: npm run build
+        env:
+          # URL of the deployed workers/video-search worker (Settings → Variables).
+          VITE_VIDEO_SEARCH_URL: ${{ vars.VIDEO_SEARCH_URL }}
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:

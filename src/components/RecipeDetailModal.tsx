@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { lazy, Suspense, useState } from 'react';
 import { Recipe, SupportedLanguage } from '../types';
 import {
   X,
@@ -15,7 +15,8 @@ import {
   ArrowLeft,
   Activity,
   Coins,
-  ExternalLink
+  ExternalLink,
+  Clapperboard
 } from 'lucide-react';
 import { getRecipeImage } from '../data/recipeImages';
 import { getUIText } from '../data/translations';
@@ -25,6 +26,11 @@ import { RecipeEstimatesPanel } from './RecipeEstimatesPanel';
 import { formatUsd, getCostTotal, getRecipeEstimate } from '../data/recipeEstimates';
 import { getEstimateStrings } from '../data/estimateTranslations';
 import { getAdditionalRecipesText } from '../data/additionalRecipesText';
+import { getVideoStrings } from '../data/videoTranslations';
+import { hasVideosTab } from '../services/videoSearch';
+
+// Its own chunk, downloaded only when a visitor opens the Videos tab.
+const RecipeVideosPanel = lazy(() => import('./RecipeVideosPanel').then(m => ({ default: m.RecipeVideosPanel })));
 
 interface RecipeDetailModalProps {
   recipe: Recipe | null;
@@ -39,7 +45,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
   lang,
   onShareRecipe
 }) => {
-  const [activeTab, setActiveTab] = useState<'master' | 'instructions' | 'nutrition'>('master');
+  const [activeTab, setActiveTab] = useState<'master' | 'instructions' | 'nutrition' | 'videos'>('master');
   const [checkedIngredients, setCheckedIngredients] = useState<Record<string, boolean>>({});
   const [showManuscript, setShowManuscript] = useState(false);
 
@@ -75,6 +81,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
   // Additional recipes are not from Dr. Fatma's manuscripts and credit their source.
   const source = recipe.source;
   const additionalText = getAdditionalRecipesText(lang);
+  // Independent of the nutrition estimate, which some recipes do not have yet.
+  const showVideosTab = hasVideosTab(recipe);
 
   const toggleIngredientCheck = (id: string) => {
     setCheckedIngredients(prev => ({ ...prev, [id]: !prev[id] }));
@@ -255,6 +263,20 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
             >
               <Activity className="w-4 h-4 text-rose-600" />
               <span>{estimateText.tab}</span>
+            </button>
+          )}
+
+          {showVideosTab && (
+            <button
+              onClick={() => setActiveTab('videos')}
+              className={`py-3 px-4 font-semibold text-xs sm:text-sm border-b-2 whitespace-nowrap transition-colors flex items-center gap-2 ${
+                activeTab === 'videos'
+                  ? 'border-amber-600 text-amber-900 bg-white shadow-2xs font-bold'
+                  : 'border-transparent text-stone-600 hover:text-stone-900'
+              }`}
+            >
+              <Clapperboard className="w-4 h-4 text-red-600" />
+              <span>{getVideoStrings(lang).tab}</span>
             </button>
           )}
         </div>
@@ -452,6 +474,13 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
           {/* TAB 3: NUTRITION & COST ESTIMATES */}
           {activeTab === 'nutrition' && estimate && (
             <RecipeEstimatesPanel estimate={estimate} lang={lang} />
+          )}
+
+          {/* TAB 4: VIDEOS (searched on demand) */}
+          {activeTab === 'videos' && showVideosTab && (
+            <Suspense fallback={<p className="py-6 text-center text-sm text-stone-500">{getVideoStrings(lang).loading}</p>}>
+              <RecipeVideosPanel recipe={recipe} lang={lang} />
+            </Suspense>
           )}
         </div>
       </div>
