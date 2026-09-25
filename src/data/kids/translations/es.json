@@ -1,0 +1,755 @@
+{
+  "pancake-animals": {
+    "title": "Tortitas de animales",
+    "intro": "¡Tortitas esponjosas que conviertes en animales para comer!",
+    "ingredients": ["1 taza de harina", "1 cucharada de azúcar", "2 cucharaditas de levadura en polvo", "1 huevo", "1 taza de leche", "2 cucharadas de aceite", "1 plátano", "Un puñado de arándanos", "4 fresas"],
+    "steps": [
+      "Pon la harina, el azúcar y la levadura en el bol.",
+      "Casca primero el huevo en una taza y luego échalo en el bol.",
+      "Añade la leche y el aceite.",
+      "Bate hasta que la masa quede suave, sin grumos grandes.",
+      "Un adulto vierte un círculo grande y dos pequeños para las orejas en la sartén caliente.",
+      "Cuando salgan burbujas por arriba, el adulto le da la vuelta.",
+      "Corta el plátano y las fresas en rodajas con un cuchillo de mantequilla.",
+      "Haz una cara de oso: nariz de plátano, ojos de arándano y mejillas de fresa."
+    ],
+    "tip": "Prueba un conejo con orejas largas o un gato con bigotes de plátano."
+  },
+  "rainbow-parfait": {
+    "title": "Parfait arcoíris de yogur",
+    "intro": "¡Capas de yogur y fruta de colores en un vaso transparente, como un arcoíris!",
+    "ingredients": ["2 tazas de yogur natural", "6 fresas", "1 mandarina o naranja pequeña", "1 plátano", "1 kiwi", "Un puñado de arándanos", "4 cucharadas de granola", "2 cucharaditas de miel"],
+    "steps": [
+      "Pela la mandarina y el plátano. Separa la mandarina en gajos.",
+      "Corta el plátano y las fresas con un cuchillo de mantequilla.",
+      "Un adulto pela y corta el kiwi.",
+      "Pon 2 cucharadas de yogur en el fondo de cada vaso.",
+      "Añade un color de fruta cada vez: ¡rojo, naranja, amarillo, verde y azul!",
+      "Pon un poco más de yogur encima y espolvorea la granola.",
+      "¡Echa un chorrito de miel y cómelo con cuchara!"
+    ],
+    "tip": "Usa un vaso transparente para ver tu arcoíris."
+  },
+  "foul-face-sandwich": {
+    "title": "Bocadillo de ful con cara divertida",
+    "intro": "¡El desayuno favorito de Egipto, con una cara sonriente!",
+    "ingredients": ["1 lata de habas cocidas (ful)", "1 cucharada de aceite de oliva", "Medio limón", "Una pizca de comino", "Una pizca de sal", "2 panes baladi o de pita", "1 pepino pequeño en rodajas", "1 tomate pequeño en rodajas"],
+    "steps": [
+      "Un adulto calienta el ful en el microondas durante 1 minuto.",
+      "Aplasta el ful con un tenedor. ¡Chaf, chaf!",
+      "Exprime el limón sobre el ful. ¡Cuidado con las semillas!",
+      "Añade el aceite, el comino y la sal, y mezcla.",
+      "Abre con cuidado el bolsillo del pan y rellénalo de ful con una cuchara.",
+      "Ponle cara: ¡ojos de pepino y una sonrisa de tomate!"
+    ],
+    "tip": "Añade un huevo duro como nariz divertida."
+  },
+  "smiley-toast": {
+    "title": "Tostada sonriente",
+    "intro": "¡Una tostada crujiente con una sonrisa de fruta!",
+    "ingredients": ["2 rebanadas de pan", "2 cucharadas de labneh o queso crema", "4 arándanos", "2 fresas", "Medio plátano", "Un poco de miel"],
+    "steps": [
+      "Un adulto tuesta el pan en la tostadora.",
+      "Espera un minuto a que se enfríe un poco.",
+      "Unta el labneh en la tostada con un cuchillo de mantequilla.",
+      "Corta el plátano y las fresas en rodajas.",
+      "Haz una cara: ojos de arándano, sonrisa de fresa y pelo de plátano.",
+      "¡Pon un hilito de miel y a comer!"
+    ],
+    "tip": "¡Prueba una cara de gato, un sol o un coche!"
+  },
+  "overnight-oats": {
+    "title": "Avena de la noche en tarro",
+    "intro": "¡Prepárala antes de dormir y el desayuno estará listo por la mañana!",
+    "ingredients": ["½ taza de copos de avena", "½ taza de leche", "3 cucharadas de yogur", "1 cucharadita de miel", "Medio plátano", "Un puñado de frutos rojos o la fruta que te guste"],
+    "steps": [
+      "Pon la avena en el tarro.",
+      "Añade la leche, el yogur y la miel.",
+      "Cierra bien la tapa y ¡agita el tarro con fuerza!",
+      "Guárdalo en la nevera toda la noche.",
+      "Por la mañana, corta el plátano con un cuchillo de mantequilla.",
+      "¡Pon la fruta encima de la avena y cómela con cuchara!"
+    ],
+    "tip": "Añade una cucharada de cacao para avena de chocolate."
+  },
+  "labneh-balls": {
+    "title": "Bolitas de labneh con zaatar",
+    "intro": "Bolitas de labneh rebozadas en zaatar verde.",
+    "ingredients": ["1 taza de labneh espeso", "2 cucharadas de aceite de oliva", "3 cucharadas de zaatar", "Pan para acompañar"],
+    "steps": [
+      "Enfría el labneh 30 minutos para que sea fácil de formar.",
+      "Frota un poco de aceite de oliva en tus manos.",
+      "Toma una cucharadita de labneh y hazla bolita entre tus manos.",
+      "Pasa cada bolita por el zaatar.",
+      "Ponlas en un plato con un poco de aceite de oliva.",
+      "¡Cómelas con pan!"
+    ],
+    "tip": "Reboza algunas en sésamo o pimentón para otros colores."
+  },
+  "mini-manakish": {
+    "title": "Mini manakish de zaatar",
+    "intro": "¡Panecillos con zaatar y aceite de oliva que perfuman toda la casa!",
+    "ingredients": ["4 panes de pita pequeños", "4 cucharadas de zaatar", "4 cucharadas de aceite de oliva", "Queso blanco (opcional)"],
+    "steps": [
+      "Pon el zaatar y el aceite de oliva en el bol.",
+      "Mezcla hasta que sea una pasta verde.",
+      "Coloca los panes en la bandeja del horno.",
+      "Unta la mezcla de zaatar en cada pan con el dorso de una cuchara.",
+      "Desmenuza un poco de queso sobre algunos si quieres.",
+      "Un adulto los hornea a 200 °C durante 8 minutos.",
+      "Espera 2 minutos, luego pártelos y disfruta."
+    ],
+    "tip": "Añade tomate y pepino encima después de hornear."
+  },
+  "egg-muffins": {
+    "title": "Magdalenas de huevo con verduras",
+    "intro": "¡Huevo, verduras y queso en moldecitos, como cupcakes!",
+    "ingredients": ["4 huevos", "2 cucharadas de leche", "Medio pimiento, cortado en dados por un adulto", "4 tomates cherry", "½ taza de queso rallado", "Una pizca de sal", "Un poco de aceite para el molde"],
+    "steps": [
+      "Unta un poco de aceite dentro del molde de magdalenas.",
+      "Casca los huevos en el bol, de uno en uno.",
+      "Añade la leche y la sal.",
+      "Bate hasta que todo quede amarillo.",
+      "Corta los tomates cherry por la mitad con un cuchillo de mantequilla.",
+      "Reparte el pimiento, los tomates y el queso en los moldes.",
+      "Vierte el huevo encima hasta llenar cada molde más o menos hasta la mitad.",
+      "Un adulto los hornea a 180 °C durante 18 minutos.",
+      "Espera 5 minutos y sácalos con una cuchara."
+    ],
+    "tip": "Añade maíz, guisantes o la verdura que te guste."
+  },
+  "ants-on-a-log": {
+    "title": "Hormigas en un tronco",
+    "intro": "Troncos crujientes de apio con una fila de «hormigas» riquísimas encima.",
+    "ingredients": ["4 ramas de apio", "4 cucharadas de crema de cacahuete (o tahini o queso crema)", "2 cucharadas de pasas"],
+    "steps": [
+      "Lava el apio bajo el grifo y sécalo.",
+      "Un adulto corta cada rama en 3 troncos cortos.",
+      "Rellena cada tronco con crema de cacahuete usando un cuchillo de mantequilla.",
+      "Pon las «hormigas» de pasas en fila sobre cada tronco.",
+      "¡Cuenta tus hormigas y luego, a crujir!"
+    ],
+    "tip": "Prueba con arándanos rojos secos para hacer «mariquitas» rojas."
+  },
+  "rainbow-fruit-kebabs": {
+    "title": "Brochetas de fruta arcoíris",
+    "intro": "Ensarta fruta en palitos con todos los colores del arcoíris.",
+    "ingredients": ["6 fresas", "2 mandarinas", "6 trozos de piña", "2 kiwis", "12 arándanos", "6 uvas rojas"],
+    "steps": [
+      "Lava toda la fruta y sécala.",
+      "Un adulto pela el kiwi y corta la fruta grande en trozos.",
+      "Pela las mandarinas y sepáralas en gajos.",
+      "Ensarta la fruta en un palito en orden de arcoíris: rojo, naranja, amarillo, verde, azul y morado.",
+      "¡Sujeta el palito con cuidado: la punta pincha!"
+    ],
+    "tip": "Mójalas en yogur mezclado con un poco de miel."
+  },
+  "date-energy-balls": {
+    "title": "Bolitas energéticas de dátil y avena",
+    "intro": "¡Bolitas dulces de dátil sin horno: las haces con tus manos!",
+    "ingredients": ["1 taza de dátiles blandos sin hueso", "Agua tibia", "1 taza de copos de avena", "2 cucharadas de tahini", "1 cucharada de cacao en polvo", "3 cucharadas de coco rallado"],
+    "steps": [
+      "Un adulto cubre los dátiles con agua tibia. Espera 10 minutos.",
+      "Tira el agua y aplasta los dátiles con un tenedor hasta hacer una pasta.",
+      "Añade la avena, el tahini y el cacao.",
+      "Mezcla con una cuchara y luego amásalo todo con las manos limpias.",
+      "Haz bolitas del tamaño de una canica grande.",
+      "¡Pasa cada bolita por el coco, como si fuera nieve!",
+      "¡Mételas en la nevera 20 minutos y a disfrutar!"
+    ],
+    "tip": "Reboza unas en cacao y otras en coco para un plato de dos colores."
+  },
+  "cucumber-caterpillar": {
+    "title": "Oruga de pepino",
+    "intro": "Una oruga verde muy simpática hecha de pepino y tomate.",
+    "ingredients": ["1 pepino", "1 tomate cherry", "2 cucharadas de queso crema", "2 pasas para los ojos", "2 palitos finos de zanahoria para las antenas"],
+    "steps": [
+      "Lava y seca el pepino.",
+      "Un adulto corta el pepino en rodajas.",
+      "Coloca las rodajas en una línea ondulada, como una oruga.",
+      "Pon un puntito de queso crema en cada rodaja.",
+      "¡Añade una cabeza de tomate, ojos de pasas y antenas de zanahoria!",
+      "Empieza por la cola. ¡Cric, crac!"
+    ],
+    "tip": "Haz una a rayas con rodajas de pepino y zanahoria."
+  },
+  "apple-donuts": {
+    "title": "«Donuts» de manzana",
+    "intro": "¡Aros de manzana que parecen donuts, pero son fruta!",
+    "ingredients": ["1 manzana grande", "4 cucharadas de yogur espeso o queso crema", "1 cucharadita de miel", "Fideos de colores", "2 cucharadas de granola"],
+    "steps": [
+      "Lava la manzana.",
+      "Un adulto quita el corazón y corta la manzana en aros gruesos.",
+      "Mezcla el yogur con la miel.",
+      "Unta el yogur en cada aro de manzana.",
+      "Decora con fideos de colores y granola.",
+      "¡Cómetelos antes de que se resbale el yogur!"
+    ],
+    "tip": "Prueba crema de cacahuete y pasas en lugar de yogur."
+  },
+  "hummus-veggie-face": {
+    "title": "Cara de hummus y verduras",
+    "intro": "¡Un plato de hummus que te sonríe, con ojos y pelo de verduras!",
+    "ingredients": ["1 taza de hummus ya hecho", "2 zanahorias", "1 pepino", "2 tomates cherry", "1 pimiento rojo o verde", "Pan para mojar"],
+    "steps": [
+      "Lava todas las verduras.",
+      "Un adulto corta las zanahorias en palitos, el pepino en rodajas y el pimiento en tiras.",
+      "Extiende el hummus en un círculo grande en el plato.",
+      "Haz ojos de pepino, nariz de tomate y una sonrisa de pimiento.",
+      "¡Pon palitos de zanahoria alrededor de la cara como pelo!",
+      "Moja las verduras y el pan en el hummus."
+    ],
+    "tip": "Haz un león con mucho pelo de zanahoria."
+  },
+  "banana-snowmen": {
+    "title": "Muñecos de nieve de plátano",
+    "intro": "¡Un muñeco de nieve en un palito que te puedes comer!",
+    "ingredients": ["2 plátanos", "2 fresas", "12 pepitas de chocolate", "Un trocito de zanahoria para la nariz"],
+    "steps": [
+      "Pela los plátanos.",
+      "Corta los plátanos en rodajas gruesas con un cuchillo de mantequilla.",
+      "Ensarta 3 rodajas de plátano en un palito: ¡ese es tu muñeco de nieve!",
+      "Un adulto corta la parte de arriba de una fresa para hacer un sombrero.",
+      "Pon el sombrero y añade ojos y botones de chocolate y una nariz de zanahoria.",
+      "¡Cómetelo antes de que se ponga marrón!"
+    ],
+    "tip": "Congélalo 30 minutos para un muñeco bien frío."
+  },
+  "cracker-towers": {
+    "title": "Torres de galletas saladas y queso",
+    "intro": "¡Construye la torre más alta que puedas… y luego cómetela!",
+    "ingredients": ["8 galletas saladas", "4 lonchas de queso", "Medio pepino en rodajas", "4 tomates cherry", "2 hojas de lechuga"],
+    "steps": [
+      "Corta el queso en formas con un cortador o pártelo en cuadrados.",
+      "Rompe la lechuga en trocitos con las manos.",
+      "Corta los tomates por la mitad con un cuchillo de mantequilla.",
+      "Construye: galleta, queso, lechuga, pepino y ¡otra galleta!",
+      "Pon medio tomate en lo más alto.",
+      "¿Quién hizo la torre más alta? ¡Ahora cómetela!"
+    ],
+    "tip": "Prueba aceitunas o labneh para un piso nuevo."
+  },
+  "tortilla-pinwheels": {
+    "title": "Rollitos de tortilla en espiral",
+    "intro": "¡Enrolla una tortilla y córtala para ver espirales de colores!",
+    "ingredients": ["2 tortillas de trigo grandes", "4 cucharadas de queso crema", "1 zanahoria rallada", "4 hojas de lechuga", "½ taza de queso rallado"],
+    "steps": [
+      "Unta queso crema por toda la tortilla.",
+      "Espolvorea la zanahoria rallada y el queso.",
+      "Cúbrela con hojas de lechuga.",
+      "Enrolla la tortilla bien apretada, como una alfombra.",
+      "Un adulto la corta en rodajas.",
+      "¡Ponlas en el plato para ver las espirales!"
+    ],
+    "tip": "Añade espinacas o pepino para más colores."
+  },
+  "frozen-yogurt-bark": {
+    "title": "Tableta de yogur helado",
+    "intro": "Yogur helado con fruta que partes en trozos como si fuera chocolate.",
+    "ingredients": ["2 tazas de yogur espeso", "2 cucharadas de miel", "6 fresas", "Un puñado de arándanos", "3 cucharadas de granola"],
+    "steps": [
+      "Mezcla el yogur y la miel.",
+      "Cubre la bandeja con papel de horno.",
+      "Extiende el yogur sobre el papel con el dorso de una cuchara.",
+      "Corta las fresas en trocitos.",
+      "Espolvorea la fruta y la granola sobre el yogur.",
+      "Congélalo 3 horas.",
+      "¡Pártelo en trozos con las manos y cómelo rápido!"
+    ],
+    "tip": "Añade también coco o pepitas de chocolate."
+  },
+  "fruit-ice-pops": {
+    "title": "Polos de fruta",
+    "intro": "Polos de colores hechos con zumo y trozos de fruta, para los días de calor.",
+    "ingredients": ["2 tazas de zumo de naranja o mango", "4 fresas", "1 kiwi", "Un puñado de arándanos"],
+    "steps": [
+      "Corta las fresas en trocitos con un cuchillo de mantequilla.",
+      "Un adulto pela y corta el kiwi.",
+      "Echa los trozos de fruta en los moldes.",
+      "Vierte el zumo casi hasta arriba.",
+      "Mete los palitos o la tapa del molde.",
+      "Congélalos al menos 4 horas.",
+      "Pon el molde bajo agua tibia unos segundos para que salgan los polos."
+    ],
+    "tip": "Haz dos capas: zumo de naranja y luego zumo de fresa."
+  },
+  "pita-pizza-faces": {
+    "title": "Pizzas de pita con cara",
+    "intro": "¡Pizzas pequeñitas sobre pan plano, cada una con una cara divertida que haces tú!",
+    "ingredients": ["4 panes de pita o baladi pequeños", "8 cucharadas de tomate frito", "1 taza de mozzarella rallada", "8 rodajas de aceituna negra", "1 pimiento verde pequeño, cortado en tiras por un adulto", "4 tomates cherry cortados por la mitad"],
+    "steps": [
+      "Coloca los panes en la bandeja del horno.",
+      "Unta 2 cucharadas de salsa en cada pan con el dorso de una cuchara.",
+      "Espolvorea queso por todo el pan.",
+      "Haz una cara: ojos de aceituna, nariz de tomate y sonrisa de pimiento.",
+      "Un adulto las hornea a 200 °C unos 10 minutos, hasta que el queso se derrita.",
+      "Espera 3 minutos, ¡el queso caliente quema! Luego, a comer."
+    ],
+    "tip": "Haz un pelo divertido con más tiras de pimiento."
+  },
+  "homemade-hummus": {
+    "title": "Hummus casero",
+    "intro": "Hummus suave y cremoso que haces tú en pocos minutos.",
+    "ingredients": ["1 lata de garbanzos cocidos", "3 cucharadas de tahini", "1 limón", "1 diente de ajo pequeño (opcional)", "Una pizca de sal", "3 cucharadas de agua fría", "Aceite de oliva para terminar", "Una pizca de pimentón"],
+    "steps": [
+      "Enjuaga los garbanzos en el colador bajo el grifo.",
+      "Exprime el limón en el exprimidor.",
+      "Pon los garbanzos, el tahini, el zumo de limón y la sal en la batidora.",
+      "Añade el ajo y el agua fría.",
+      "Un adulto lo tritura hasta que quede muy fino.",
+      "Extiéndelo en un plato y haz un remolino con la cuchara.",
+      "Termina con aceite de oliva y pimentón."
+    ],
+    "tip": "¡Añade remolacha cocida para un hummus rosa!"
+  },
+  "fattoush": {
+    "title": "Ensalada fattoush",
+    "intro": "¡Una ensalada crujiente con pan tostado, y tú rompes la lechuga!",
+    "ingredients": ["1 pan de pita", "1 lechuga pequeña", "1 pepino", "8 tomates cherry", "3 rábanos", "Un puñado de hierbabuena", "Medio limón", "3 cucharadas de aceite de oliva", "Una pizca de sal"],
+    "steps": [
+      "Rompe el pan en trocitos con las manos.",
+      "Un adulto los tuesta en el horno 7 minutos hasta que estén crujientes.",
+      "Lava todas las verduras.",
+      "Rompe la lechuga y la hierbabuena dentro del bol.",
+      "Un adulto corta el pepino y los rábanos.",
+      "Corta los tomates cherry por la mitad con un cuchillo de mantequilla.",
+      "Exprime el limón, añade el aceite y la sal, y mezcla.",
+      "¡Añade el pan crujiente al final para que siga crujiente!"
+    ],
+    "tip": "Espolvorea zumaque por encima si tienes."
+  },
+  "pasta-salad": {
+    "title": "Ensalada de pasta de colores",
+    "intro": "Pasta con formas divertidas y verduras de todos los colores.",
+    "ingredients": ["2 tazas de pasta con formas", "½ taza de maíz dulce", "8 tomates cherry", "1 pimiento", "1 pepino", "½ taza de dados de queso", "3 cucharadas de aceite de oliva", "Medio limón", "Una pizca de sal"],
+    "steps": [
+      "Un adulto cuece la pasta en agua con sal unos 10 minutos.",
+      "El adulto la escurre y la enjuaga con agua fría.",
+      "Un adulto corta el pimiento y el pepino en dados.",
+      "Corta los tomates cherry por la mitad con un cuchillo de mantequilla.",
+      "Pon la pasta, el maíz, el queso y las verduras en el bol.",
+      "Exprime el limón y añade el aceite y la sal.",
+      "Mezcla con cuidado hasta que se unan todos los colores."
+    ],
+    "tip": "Añade atún o aceitunas para una ensalada más grande."
+  },
+  "koshari-bowl": {
+    "title": "Bol de koshari a tu gusto",
+    "intro": "¡El koshari egipcio, y tú montas tu bol capa a capa!",
+    "ingredients": ["1 taza de arroz cocido", "1 taza de lentejas pardinas cocidas", "1 taza de pasta pequeña cocida", "½ taza de garbanzos cocidos", "1 taza de salsa de tomate", "Una pizca de comino", "½ taza de cebolla frita crujiente"],
+    "steps": [
+      "Un adulto cocina el arroz, las lentejas y la pasta, o los calienta si ya están hechos.",
+      "El adulto calienta la salsa de tomate con el comino.",
+      "Pon arroz y lentejas en el fondo de tu bol.",
+      "Añade una capa de pasta.",
+      "Espolvorea los garbanzos por encima.",
+      "¡Echa la salsa caliente con un cucharón, con cuidado!",
+      "¡Termina con la cebolla crujiente!"
+    ],
+    "tip": "Los mayores a los que les gusta el picante añaden la salsa de ajo y vinagre."
+  },
+  "kofta-fingers": {
+    "title": "Deditos de kofta al horno",
+    "intro": "Da forma a los deditos de kofta con tus manos y el horno hace el resto.",
+    "ingredients": ["500 g de carne picada", "1 cebolla pequeña, rallada por un adulto", "Un puñado de perejil", "3 cucharadas de pan rallado", "½ cucharadita de comino", "½ cucharadita de sal"],
+    "steps": [
+      "Arranca las hojas de perejil en trocitos.",
+      "Pon la carne, la cebolla y el perejil en el bol.",
+      "Añade el pan rallado, el comino y la sal.",
+      "Ponte guantes y amásalo todo.",
+      "Forma deditos largos como salchichas y ponlos en la bandeja.",
+      "Lávate bien las manos con jabón después de tocar carne cruda.",
+      "Un adulto los hornea a 200 °C durante 20 minutos.",
+      "¡Cómelos con pan y ensalada!"
+    ],
+    "tip": "Mójalos en tahini."
+  },
+  "chicken-nuggets": {
+    "title": "Nuggets de pollo crujientes al horno",
+    "intro": "Nuggets crujientes de copos de maíz, al horno en vez de fritos.",
+    "ingredients": ["2 pechugas de pollo", "1 huevo", "2 tazas de copos de maíz", "½ cucharadita de pimentón", "Una pizca de sal"],
+    "steps": [
+      "Un adulto corta el pollo en trocitos.",
+      "Pon los copos de maíz, el pimentón y la sal en una bolsa y ciérrala.",
+      "¡Aplasta la bolsa con las manos hasta que todo sean migas!",
+      "Casca el huevo en el bol y bátelo con un tenedor.",
+      "Ponte guantes y moja cada trozo en el huevo.",
+      "Luego rebózalo en los copos y ponlo en la bandeja.",
+      "Lávate bien las manos con jabón después de tocar pollo crudo.",
+      "Un adulto los hornea a 200 °C durante 20 minutos, hasta que estén bien hechos por dentro."
+    ],
+    "tip": "Mójalos en kétchup o en yogur con ajo."
+  },
+  "stuffed-pita-pockets": {
+    "title": "Pitas rellenas",
+    "intro": "¡Bolsillos de pan que rellenas con todo lo que te gusta!",
+    "ingredients": ["2 panes de pita", "4 cucharadas de queso blanco", "Medio pepino", "1 tomate", "2 hojas de lechuga", "6 aceitunas sin hueso"],
+    "steps": [
+      "Un adulto corta el pepino y el tomate en rodajas.",
+      "También corta cada pan por la mitad para hacer dos bolsillos.",
+      "Rompe la lechuga con las manos.",
+      "Abre un bolsillo y mete el queso con una cuchara.",
+      "Mete las verduras dentro.",
+      "Añade las aceitunas al final y aprieta con suavidad.",
+      "¡Sujétala con las dos manos y a comer!"
+    ],
+    "tip": "Prueba huevo duro o hummus en lugar de queso."
+  },
+  "cheese-quesadilla": {
+    "title": "Triángulos de quesadilla de queso",
+    "intro": "¡Tortilla crujiente con queso derretido que se estira en cada bocado!",
+    "ingredients": ["2 tortillas de trigo", "1 taza de queso rallado", "3 cucharadas de maíz dulce", "Un poco de pimiento picado"],
+    "steps": [
+      "Espolvorea el queso sobre la mitad de la tortilla.",
+      "Añade el maíz y el pimiento.",
+      "Dobla la tortilla por la mitad como un libro.",
+      "Un adulto la cocina en la sartén 2 minutos.",
+      "El adulto le da la vuelta hasta que se derrita el queso.",
+      "Un adulto la corta en triángulos.",
+      "Espera 2 minutos: ¡el queso está muy caliente!"
+    ],
+    "tip": "Mójalos en yogur o salsa de tomate."
+  },
+  "magic-vegetable-soup": {
+    "title": "Sopa mágica de verduras",
+    "intro": "¡Pon verduras de colores en la olla y mira cómo ocurre la magia!",
+    "ingredients": ["2 zanahorias", "1 patata", "1 calabacín", "1 cebolla", "2 tomates", "½ taza de guisantes congelados", "4 tazas de agua", "Una pizca de sal", "Un puñado de perejil"],
+    "steps": [
+      "Lava bien todas las verduras.",
+      "Un adulto pela las verduras y las corta en cubos.",
+      "Pon las verduras en la olla fría, antes de encender el fuego.",
+      "Añade los guisantes y los tomates. ¡Cuenta los guisantes si puedes!",
+      "Añade el agua y la sal.",
+      "Un adulto cocina la sopa 25 minutos hasta que las verduras estén blandas.",
+      "Rompe el perejil y espárcelo sobre la sopa.",
+      "¡Espera 5 minutos y sopla antes de comer!"
+    ],
+    "tip": "Añade fideos o pasta pequeña para una sopa más completa."
+  },
+  "egg-salad-sandwiches": {
+    "title": "Sándwiches de ensalada de huevo",
+    "intro": "Pela y aplasta tú los huevos para un sándwich riquísimo.",
+    "ingredients": ["4 huevos", "3 cucharadas de yogur o mayonesa", "Una pizca de sal", "Una pizca de comino", "4 rebanadas de pan", "2 hojas de lechuga"],
+    "steps": [
+      "Un adulto cuece los huevos 10 minutos.",
+      "El adulto pone los huevos en agua fría para que se enfríen.",
+      "Golpea el huevo en la mesa y luego pélalo. ¡Qué divertido!",
+      "Aplasta los huevos con un tenedor en el bol.",
+      "Añade el yogur, la sal y el comino, y mezcla.",
+      "Unta la ensalada de huevo en una rebanada de pan.",
+      "Pon una hoja de lechuga y otra rebanada encima.",
+      "¡Córtalo en formas divertidas con un cortador de galletas!"
+    ],
+    "tip": "Añade un poco de eneldo o cebolleta."
+  },
+  "sweet-potato-wedges": {
+    "title": "Gajos de boniato",
+    "intro": "¡Gajos naranjas crujientes del horno, dulces y salados a la vez!",
+    "ingredients": ["2 boniatos", "2 cucharadas de aceite de oliva", "½ cucharadita de pimentón", "Una pizca de sal"],
+    "steps": [
+      "Lava y frota bien los boniatos.",
+      "Un adulto los corta en gajos gruesos.",
+      "Ponlos en el bol con el aceite.",
+      "Espolvorea el pimentón y la sal.",
+      "Mézclalos hasta que estén todos cubiertos.",
+      "Colócalos en la bandeja sin que se toquen.",
+      "Un adulto los hornea a 200 °C durante 25 minutos.",
+      "¡Espera 3 minutos y cómelos con los dedos!"
+    ],
+    "tip": "Mójalos en yogur con hierbabuena."
+  },
+  "ghorayeba": {
+    "title": "Galletas ghorayeba",
+    "intro": "¡Galletas blancas como la nieve para el Eid que se deshacen en la boca, con solo tres ingredientes!",
+    "ingredients": ["½ taza de mantequilla blanda o ghee", "½ taza de azúcar glas", "1 taza y media de harina", "20 pistachos o almendras"],
+    "steps": [
+      "Mezcla la mantequilla blanda y el azúcar glas hasta que quede cremoso y blanco.",
+      "Añade la harina poco a poco.",
+      "Aprieta con las manos hasta formar una masa suave.",
+      "Haz bolitas, ponlas en la bandeja y aplástalas un poco.",
+      "Pon un pistacho encima de cada galleta.",
+      "Un adulto las hornea a 160 °C durante 15 minutos. ¡Tienen que quedar blancas!",
+      "Déjalas enfriar del todo: las ghorayeba calientes se rompen fácilmente."
+    ],
+    "tip": "Dale a la masa forma de corazón o de luna en lugar de bolitas."
+  },
+  "chocolate-banana-pops": {
+    "title": "Piruletas de plátano y chocolate",
+    "intro": "¡Plátanos en un palito, bañados en chocolate, cubiertos de fideos de colores y congelados!",
+    "ingredients": ["2 plátanos", "4 palitos de helado", "100 g de chocolate", "Fideos de colores"],
+    "steps": [
+      "Pela los plátanos.",
+      "Corta cada plátano por la mitad con un cuchillo de mantequilla.",
+      "Clava un palito en el extremo cortado de cada mitad.",
+      "Un adulto derrite el chocolate en el microondas, de 30 en 30 segundos.",
+      "Baña cada plátano en el chocolate dándole vueltas.",
+      "¡Rápido! Pon los fideos antes de que se endurezca el chocolate.",
+      "Ponlos en una bandeja en el congelador 2 horas."
+    ],
+    "tip": "Prueba con galletas trituradas en vez de fideos."
+  },
+  "eid-kahk": {
+    "title": "Galletas kahk del Eid",
+    "intro": "¡Forma y decora los kahk del Eid como hacía Teta, rellenos de dátil!",
+    "ingredients": ["2 tazas de harina", "1 taza de mantequilla blanda o ghee", "2 cucharadas de azúcar glas", "½ cucharadita de levadura en polvo", "4 cucharadas de leche", "½ taza de pasta de dátil", "Azúcar glas para espolvorear"],
+    "steps": [
+      "Pon la harina, el azúcar y la levadura en el bol.",
+      "Añade la mantequilla blanda y la leche.",
+      "Amasa con las manos hasta tener una masa suave que no se pegue.",
+      "Haz bolitas muy pequeñas con la pasta de dátil.",
+      "Aplana una bola de masa, pon una bolita de dátil en el centro y ciérrala.",
+      "Decora la parte de arriba con un sello de kahk o haz rayas con un tenedor.",
+      "Un adulto las hornea a 180 °C durante 15 minutos.",
+      "Cuando se enfríen, ¡espolvoréalas con azúcar glas como si fuera nieve!"
+    ],
+    "tip": "Rellena algunas de delicia turca o chocolate."
+  },
+  "one-bowl-basbousa": {
+    "title": "Basbusa en un solo bol",
+    "intro": "¡Basbusa dorada bañada en almíbar, todo mezclado en un solo bol!",
+    "ingredients": ["1 taza de sémola", "½ taza de azúcar", "½ taza de coco rallado", "1 cucharadita de levadura en polvo", "1 taza de yogur", "½ taza de mantequilla derretida", "12 almendras", "1 taza de almíbar frío, preparado antes por un adulto"],
+    "steps": [
+      "Un adulto derrite la mantequilla en el microondas.",
+      "Pon la sémola, el azúcar, el coco y la levadura en el bol.",
+      "Añade el yogur y la mantequilla derretida.",
+      "Mezcla con la cuchara hasta que todo quede unido.",
+      "Extiende la mezcla en una bandeja engrasada y alisa la superficie.",
+      "Marca cuadrados o rombos con un cuchillo de mantequilla.",
+      "Pon una almendra en el centro de cada trozo.",
+      "Un adulto la hornea a 180 °C durante 30 minutos, hasta que esté dorada.",
+      "El adulto vierte el almíbar frío sobre la basbusa caliente. ¡Chssss!"
+    ],
+    "tip": "Déjala una hora para que absorba el almíbar antes de comerla."
+  },
+  "mahalabiya-cups": {
+    "title": "Vasitos de mahalabiya decorados",
+    "intro": "¡Un pudin de leche blanco y suave que decoras con colores!",
+    "ingredients": ["3 tazas de leche", "4 cucharadas de maicena", "4 cucharadas de azúcar", "1 cucharadita de vainilla", "Pistachos molidos para decorar", "Fresas para decorar", "Fideos de colores"],
+    "steps": [
+      "Echa 1 taza de leche fría en la olla.",
+      "Añade la maicena y el azúcar.",
+      "Bate bien hasta que desaparezca la maicena.",
+      "Añade el resto de la leche.",
+      "Un adulto lo cocina a fuego lento, removiendo hasta que espese.",
+      "El adulto añade la vainilla y lo vierte en vasitos.",
+      "Enfríalo 2 horas hasta que cuaje.",
+      "¡Decóralo con pistachos, fresas y fideos de colores como quieras!"
+    ],
+    "tip": "Añade una cucharada de cacao para mahalabiya de chocolate."
+  },
+  "om-ali-croissants": {
+    "title": "Om Ali con cruasanes",
+    "intro": "Un postre egipcio calentito con leche y frutos secos, en versión fácil con cruasanes.",
+    "ingredients": ["4 cruasanes normales", "3 tazas de leche", "3 cucharadas de azúcar", "3 cucharadas de pasas", "3 cucharadas de coco rallado", "3 cucharadas de frutos secos picados", "½ taza de nata (opcional)"],
+    "steps": [
+      "Rompe los cruasanes en trozos grandes con las manos.",
+      "Repártelos en la fuente de horno.",
+      "Espolvorea las pasas, el coco y los frutos secos entre los trozos.",
+      "Un adulto calienta la leche con el azúcar hasta que hierva.",
+      "El adulto vierte la leche caliente sobre los cruasanes.",
+      "Pon cucharaditas de nata por encima si quieres.",
+      "Un adulto lo hornea a 200 °C durante 15 minutos, hasta que esté dorado por arriba.",
+      "Espera 5 minutos: ¡está muy caliente!"
+    ],
+    "tip": "Prueba con trozos de plátano en lugar de pasas."
+  },
+  "chocolate-biscuit-salami": {
+    "title": "«Salami» de chocolate y galletas",
+    "intro": "¡Un dulce sin horno que parece salami, pero es chocolate y galletas!",
+    "ingredients": ["200 g de galletas María", "150 g de chocolate", "3 cucharadas de mantequilla", "3 cucharadas de leche", "Azúcar glas para espolvorear"],
+    "steps": [
+      "Mete las galletas en una bolsa y ciérrala.",
+      "Rompe las galletas en trocitos con las manos, pero no demasiado finos.",
+      "Un adulto derrite el chocolate, la mantequilla y la leche en el microondas.",
+      "Echa las galletas en el chocolate derretido.",
+      "Mezcla hasta que todas las galletas estén cubiertas.",
+      "Pon la mezcla sobre film transparente y enróllala como una salchicha.",
+      "Enfríalo 2 horas hasta que esté firme.",
+      "Espolvoréalo con azúcar glas y luego un adulto lo corta en rodajas."
+    ],
+    "tip": "Añade mininubes o pasas a la mezcla."
+  },
+  "cookie-cutter-cookies": {
+    "title": "Galletas de mantequilla con cortadores",
+    "intro": "¡Estira la masa y elige tus formas: estrellas, corazones y animales!",
+    "ingredients": ["½ taza de mantequilla blanda", "½ taza de azúcar glas", "1 huevo", "1 cucharadita de vainilla", "2 tazas de harina", "Fideos de colores"],
+    "steps": [
+      "Mezcla la mantequilla y el azúcar hasta que quede cremoso.",
+      "Añade el huevo y la vainilla y mezcla.",
+      "Añade la harina poco a poco.",
+      "Amasa con las manos hasta formar una bola suave.",
+      "Estira la masa con el rodillo hasta que tenga el grosor de tu dedo meñique.",
+      "¡Corta estrellas, corazones y animales con los cortadores!",
+      "Ponlas en la bandeja y añade fideos de colores.",
+      "Un adulto las hornea a 180 °C durante 10 minutos.",
+      "Déjalas enfriar 15 minutos antes de comerlas."
+    ],
+    "tip": "Junta los restos de masa y vuelve a estirarlos."
+  },
+  "mug-cake": {
+    "title": "Bizcocho de chocolate en taza",
+    "intro": "¡Un bizcocho entero en una taza, listo en un minuto!",
+    "ingredients": ["4 cucharadas de harina", "3 cucharadas de azúcar", "2 cucharadas de cacao en polvo", "¼ cucharadita de levadura en polvo", "4 cucharadas de leche", "2 cucharadas de aceite", "1 cucharada de pepitas de chocolate"],
+    "steps": [
+      "Pon la harina, el azúcar, el cacao y la levadura en la taza.",
+      "Mezcla con el tenedor.",
+      "Añade la leche y el aceite.",
+      "Mezcla bien hasta que no quede nada blanco.",
+      "Espolvorea las pepitas de chocolate por encima.",
+      "Un adulto lo mete en el microondas 1 minuto más o menos.",
+      "Espera 3 minutos: ¡la taza quema mucho!"
+    ],
+    "tip": "Ponle encima una cucharada de yogur o helado."
+  },
+  "cornflake-nests": {
+    "title": "Nidos de chocolate y copos de maíz",
+    "intro": "¡Nidos crujientes de chocolate con huevitos de colores dentro!",
+    "ingredients": ["150 g de chocolate", "2 tazas de copos de maíz", "Huevitos de chocolate o caramelos"],
+    "steps": [
+      "Un adulto derrite el chocolate en el microondas.",
+      "Añade los copos de maíz al chocolate.",
+      "Mezcla con cuidado hasta que todos estén cubiertos.",
+      "Pon una cucharada en cada cápsula de papel.",
+      "Aprieta el centro con el dorso de la cuchara para hacer un nido.",
+      "¡Pon huevitos en cada nido!",
+      "Enfríalos 30 minutos."
+    ],
+    "tip": "Usa chocolate blanco para nidos nevados."
+  },
+  "banana-muffins": {
+    "title": "Magdalenas de plátano",
+    "intro": "La mejor manera de usar plátanos maduros: ¡magdalenas tiernas y dulces!",
+    "ingredients": ["3 plátanos muy maduros", "1 huevo", "⅓ taza de azúcar", "⅓ taza de aceite", "¼ taza de leche", "1 taza y media de harina", "2 cucharaditas de levadura en polvo"],
+    "steps": [
+      "Pela los plátanos.",
+      "Aplasta los plátanos con un tenedor hasta que queden como puré.",
+      "Casca el huevo sobre los plátanos.",
+      "Añade el azúcar, el aceite y la leche, y mezcla.",
+      "Añade la harina y la levadura.",
+      "Mezcla con suavidad solo hasta que desaparezca la harina. ¡No mezcles de más!",
+      "Pon cápsulas en el molde y llena cada una hasta dos tercios.",
+      "Un adulto las hornea a 180 °C durante 20 minutos.",
+      "Déjalas enfriar 10 minutos."
+    ],
+    "tip": "Añade pepitas de chocolate o pasas a la masa."
+  },
+  "cream-qatayef": {
+    "title": "Qatayef rellenos de nata",
+    "intro": "¡Qatayef de Ramadán rellenos de nata, sin freír ni hornear!",
+    "ingredients": ["12 qatayef pequeños ya hechos", "1 taza de nata espesa (ashta)", "3 cucharadas de pistachos molidos", "Miel o almíbar para decorar"],
+    "steps": [
+      "Dobla un qatayef por la mitad y pellizca solo el borde de abajo, para que quede abierto como un cono.",
+      "Rellena la abertura de nata con una cucharilla.",
+      "Moja el lado de la nata en los pistachos verdes.",
+      "Colócalos en fila en el plato.",
+      "Echa un hilo de miel o almíbar por encima.",
+      "¡Ramadán Karim! Cómelos fríos."
+    ],
+    "tip": "Moja algunos en coco en lugar de pistachos."
+  },
+  "date-maamoul": {
+    "title": "Maamul de dátiles",
+    "intro": "Galletas del Eid rellenas de dátil que formas con un molde o un tenedor.",
+    "ingredients": ["1 taza de sémola", "1 taza de harina", "¾ taza de mantequilla derretida", "2 cucharadas de azúcar glas", "4 cucharadas de leche", "1 taza de pasta de dátil"],
+    "steps": [
+      "Un adulto derrite la mantequilla en el microondas.",
+      "Pon la sémola, la harina y el azúcar en el bol.",
+      "Añade la mantequilla derretida y la leche.",
+      "Amasa con las manos hasta tener una masa suave.",
+      "Haz bolitas con la pasta de dátil.",
+      "Envuelve cada bolita de dátil en un trozo de masa.",
+      "Presiónala en el molde de maamul y golpéalo para sacarla, o haz rayas con un tenedor.",
+      "Un adulto las hornea a 180 °C durante 20 minutos.",
+      "Cuando se enfríen, espolvoréalas con azúcar glas."
+    ],
+    "tip": "Rellena algunas de nueces o pistachos si nadie tiene alergia a los frutos secos."
+  },
+  "chocolate-strawberries": {
+    "title": "Fresas con chocolate",
+    "intro": "Fresas rojas bañadas en chocolate. ¡Fáciles y bonitas!",
+    "ingredients": ["12 fresas", "100 g de chocolate", "Fideos de colores", "Coco rallado"],
+    "steps": [
+      "Lava las fresas y sécalas muy bien.",
+      "Un adulto derrite el chocolate en el microondas.",
+      "Sujeta una fresa por las hojas y báñala en el chocolate.",
+      "Añade fideos de colores o coco.",
+      "Ponlas sobre papel de horno.",
+      "Enfríalas 20 minutos hasta que el chocolate se endurezca."
+    ],
+    "tip": "Baña la mitad en chocolate blanco."
+  },
+  "rice-pudding": {
+    "title": "Arroz con leche",
+    "intro": "¡Arroz con leche cremoso con canela, como el de Teta!",
+    "ingredients": ["½ taza de arroz redondo", "1 taza de agua", "4 tazas de leche", "½ taza de azúcar", "Un poco de vainilla", "Canela para decorar", "Pasas para decorar"],
+    "steps": [
+      "Lava el arroz en el colador hasta que el agua salga clara.",
+      "Pon el arroz y el agua en la olla.",
+      "Un adulto cuece el arroz en el agua 10 minutos.",
+      "El adulto añade la leche y el azúcar y lo cocina a fuego lento 25 minutos, removiendo.",
+      "El adulto añade la vainilla y lo sirve en cuencos.",
+      "Deja que se enfríe y luego mételo en la nevera.",
+      "Decóralo con canela y pasas."
+    ],
+    "tip": "¡Dibuja una carita sonriente con la canela!"
+  },
+  "strawberry-banana-smoothie": {
+    "title": "Batido de fresa y plátano",
+    "intro": "Una bebida fría, rosa y riquísima que haces en minutos.",
+    "ingredients": ["8 fresas", "1 plátano", "½ taza de yogur", "1 taza de leche", "1 cucharadita de miel", "4 cubitos de hielo"],
+    "steps": [
+      "Lava las fresas y quítales las hojas verdes.",
+      "Pela el plátano y pártelo en trozos con las manos.",
+      "Pon la fruta y el yogur en la batidora.",
+      "Añade la leche, la miel y el hielo. ¡Cierra bien la tapa!",
+      "Un adulto lo bate hasta que quede suave y rosa.",
+      "¡Sírvelo en vasos y brinda!"
+    ],
+    "tip": "Congela lo que sobre en moldes de polos."
+  },
+  "mint-lemonade": {
+    "title": "Limonada con hierbabuena",
+    "intro": "¡Limonada fresquita que exprimes tú mismo!",
+    "ingredients": ["4 limones", "4 cucharadas de azúcar", "4 tazas de agua fría", "Un puñado de hierbabuena", "Cubitos de hielo"],
+    "steps": [
+      "Lava los limones y la hierbabuena.",
+      "Un adulto corta los limones por la mitad.",
+      "Exprime cada mitad en el exprimidor. ¡Gira, gira!",
+      "Echa el zumo en la jarra y añade el azúcar.",
+      "Añade el agua fría y remueve hasta que se disuelva el azúcar.",
+      "Rompe la hierbabuena y añádela. ¡Qué bien huele!",
+      "Pon hielo en los vasos y sirve la limonada."
+    ],
+    "tip": "Añade rodajas de fresa para una limonada rosa."
+  },
+  "hot-sahlab": {
+    "title": "Sahlab caliente",
+    "intro": "Una bebida de invierno cremosa y calentita, con frutos secos y canela.",
+    "ingredients": ["2 tazas de leche", "2 cucharadas de maicena", "2 cucharadas de azúcar", "Un poco de vainilla", "Coco rallado", "Frutos secos picados", "Una pizca de canela"],
+    "steps": [
+      "Echa la leche fría en la olla.",
+      "Añade la maicena y el azúcar.",
+      "Bate hasta que la maicena desaparezca.",
+      "Un adulto lo cocina a fuego lento con la vainilla, removiendo hasta que espese.",
+      "El adulto lo sirve en tazas.",
+      "Decóralo con coco, frutos secos y canela.",
+      "¡Espera un poco y sopla antes de beber!"
+    ],
+    "tip": "Añade pasas o rodajas de plátano por encima."
+  },
+  "iced-karkade": {
+    "title": "Karkadé frío (hibisco)",
+    "intro": "¡Una bebida egipcia de color rojo rubí, fría y refrescante!",
+    "ingredients": ["½ taza de flores de hibisco secas", "4 tazas de agua", "4 cucharadas de azúcar", "Medio limón (opcional)", "Hielo"],
+    "steps": [
+      "Pon el hibisco en la jarra. ¡Mira qué rojo es!",
+      "Un adulto vierte agua caliente encima.",
+      "Espera 15 minutos hasta que se ponga rojo oscuro.",
+      "El adulto lo cuela con el colador.",
+      "Añade el azúcar y remueve hasta que se disuelva.",
+      "Enfríalo en la nevera hasta que esté muy frío.",
+      "Sírvelo con hielo y unas gotas de limón si quieres."
+    ],
+    "tip": "Congélalo en moldes de polos para hacer polos rojos."
+  }
+}
