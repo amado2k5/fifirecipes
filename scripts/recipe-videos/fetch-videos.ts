@@ -21,10 +21,13 @@ const ARABIC_VIDEOS = 20;
 const ENGLISH_VIDEOS = 12;
 const DELAY_MS = 400;
 const CONCURRENCY = 2;
+/** Bump when the search or ranking changes, so the next run redoes every recipe. */
+const RANKING_VERSION = 2;
 
 type StoredVideo = Omit<VideoResult, 'published'>;
 interface RecipeVideosEntry {
   fetched: string;
+  v?: number;
   ar: StoredVideo[];
   en?: StoredVideo[];
 }
@@ -68,7 +71,7 @@ async function save() {
 
 const today = new Date().toISOString().slice(0, 10);
 const isFresh = (entry: RecipeVideosEntry | undefined) =>
-  !!entry && (Date.now() - Date.parse(entry.fetched)) / 86_400_000 < maxAgeDays;
+  !!entry && entry.v === RANKING_VERSION && (Date.now() - Date.parse(entry.fetched)) / 86_400_000 < maxAgeDays;
 
 const queue = allRecipes
   .filter(recipe => !recipe.englishOnly)
@@ -88,7 +91,7 @@ async function worker() {
       const en = recipe.titleEn
         ? rankVideos(cleanDishTitle(recipe.titleEn), [await search(englishVideoQuery(recipe.titleEn), 'en', 'US')], ENGLISH_VIDEOS)
         : [];
-      data[recipe.id] = { fetched: today, ar: store(ar), ...(en.length ? { en: store(en) } : {}) };
+      data[recipe.id] = { fetched: today, v: RANKING_VERSION, ar: store(ar), ...(en.length ? { en: store(en) } : {}) };
       if (!ar.length && !en.length) empty++;
     } catch (error) {
       failed++;

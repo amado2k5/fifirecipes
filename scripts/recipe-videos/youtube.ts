@@ -162,7 +162,6 @@ export function rankVideos(dishName: string, lists: VideoResult[][], limit: numb
   const seen = new Set<string>();
   const scored: { video: VideoResult; score: number; rank: number }[] = [];
   let rank = 0;
-  // Interleave the lists so long videos and Shorts both make the cut.
   const longest = Math.max(0, ...lists.map(list => list.length));
   for (let i = 0; i < longest; i++) {
     for (const list of lists) {
@@ -175,8 +174,27 @@ export function rankVideos(dishName: string, lists: VideoResult[][], limit: numb
   }
   // Coarse buckets so a slightly better word match does not bury a top result.
   const bucket = (score: number) => (score >= 0.99 ? 2 : score >= 0.5 ? 1 : 0);
-  return scored
-    .sort((a, b) => bucket(b.score) - bucket(a.score) || a.rank - b.rank)
-    .slice(0, limit)
-    .map(entry => entry.video);
+  const ranked = scored.sort((a, b) => bucket(b.score) - bucket(a.score) || a.rank - b.rank).map(entry => entry.video);
+  return balanceShorts(ranked, limit);
+}
+
+/**
+ * YouTube search pages are dominated by Shorts. Alternates full videos and
+ * Shorts (full video first), keeping each group in rank order, and lets
+ * Shorts fill at most half of the list unless there are too few full videos.
+ */
+export function balanceShorts(videos: VideoResult[], limit: number): VideoResult[] {
+  const full = videos.filter(video => !video.short);
+  const shorts = videos.filter(video => video.short);
+  const maxShorts = Math.max(Math.ceil(limit / 2), limit - full.length);
+  const result: VideoResult[] = [];
+  let usedShorts = 0;
+  while (result.length < limit && (full.length || (shorts.length && usedShorts < maxShorts))) {
+    if (full.length) result.push(full.shift()!);
+    if (result.length < limit && shorts.length && usedShorts < maxShorts) {
+      result.push(shorts.shift()!);
+      usedShorts++;
+    }
+  }
+  return result;
 }
