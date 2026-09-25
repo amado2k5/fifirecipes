@@ -113,34 +113,34 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="grid grid-cols-3 gap-2.5 py-2.5 text-stone-700 text-xs">
           <div
             onClick={() => setActiveTab('explorer')}
-            className="flex items-center gap-2 bg-stone-50/80 hover:bg-amber-50/50 px-3 py-1.5 rounded-xl border border-stone-200/70 cursor-pointer transition-colors"
+            className="flex items-center gap-1.5 sm:gap-2 min-w-0 bg-stone-50/80 hover:bg-amber-50/50 px-2 sm:px-3 py-1.5 rounded-xl border border-stone-200/70 cursor-pointer transition-colors"
           >
             <BookOpen className="w-3.5 h-3.5 text-amber-600 shrink-0" />
-            <div>
+            <div className="min-w-0 leading-tight">
               <span className="font-bold text-stone-900">{stats?.totalRecipes ?? '…'}</span>
-              <span className="text-stone-500 text-[11px] ms-1">{t('وصفة موحدة', 'Recipes', 'Recettes', 'Recetas', 'レシピ', 'व्यंजन', 'Receitas', 'Рецепты', '食谱', 'Rezepte', 'Ricette', 'Συνταγές', 'ترکیبیں', 'دستورها', 'Tarif', 'Reçete', 'Resep', 'Mapishi', '레시피')}</span>
+              <span className="block sm:inline text-stone-500 text-[11px] sm:ms-1 truncate">{t('وصفة موحدة', 'Recipes', 'Recettes', 'Recetas', 'レシピ', 'व्यंजन', 'Receitas', 'Рецепты', '食谱', 'Rezepte', 'Ricette', 'Συνταγές', 'ترکیبیں', 'دستورها', 'Tarif', 'Reçete', 'Resep', 'Mapishi', '레시피')}</span>
             </div>
           </div>
 
           <div
             onClick={() => setActiveTab('ingredients')}
-            className="flex items-center gap-2 bg-stone-50/80 hover:bg-emerald-50/50 px-3 py-1.5 rounded-xl border border-stone-200/70 cursor-pointer transition-colors"
+            className="flex items-center gap-1.5 sm:gap-2 min-w-0 bg-stone-50/80 hover:bg-emerald-50/50 px-2 sm:px-3 py-1.5 rounded-xl border border-stone-200/70 cursor-pointer transition-colors"
           >
             <Layers className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-            <div>
+            <div className="min-w-0 leading-tight">
               <span className="font-bold text-stone-900">{stats?.totalMasterIngredients ?? '…'}</span>
-              <span className="text-stone-500 text-[11px] ms-1">{t('مكون رئيسي', 'Ingredients', 'Ingrédients', 'Ingredientes', '食材', 'सामग्री', 'Ingredientes', 'Ингредиенты', '食材', 'Zutaten', 'Ingredienti', 'Υλικά', 'اجزاء', 'مواد اولیه', 'Malzeme', 'Pêkhate', 'Bahan', 'Viungo', '재료')}</span>
+              <span className="block sm:inline text-stone-500 text-[11px] sm:ms-1 truncate">{t('مكون رئيسي', 'Ingredients', 'Ingrédients', 'Ingredientes', '食材', 'सामग्री', 'Ingredientes', 'Ингредиенты', '食材', 'Zutaten', 'Ingredienti', 'Υλικά', 'اجزاء', 'مواد اولیه', 'Malzeme', 'Pêkhate', 'Bahan', 'Viungo', '재료')}</span>
             </div>
           </div>
 
           <div
             onClick={() => setActiveTab('biography')}
-            className="flex items-center gap-2 bg-stone-50/80 hover:bg-purple-50/50 px-3 py-1.5 rounded-xl border border-stone-200/70 cursor-pointer transition-colors"
+            className="flex items-center gap-1.5 sm:gap-2 min-w-0 bg-stone-50/80 hover:bg-purple-50/50 px-2 sm:px-3 py-1.5 rounded-xl border border-stone-200/70 cursor-pointer transition-colors"
           >
             <Music className="w-3.5 h-3.5 text-purple-600 shrink-0" />
-            <div>
+            <div className="min-w-0 leading-tight">
               <span className="font-bold text-stone-900">20 {t('عاماً', 'Years', 'Ans', 'Años', '年', 'वर्ष', 'Anos', 'Лет', '年', 'Jahre', 'Anni', 'Χρόνια', 'سال', 'سال', 'Yıl', 'Sal', 'Tahun', 'Miaka', '년')}</span>
-              <span className="text-stone-500 text-[11px] ms-1">{t('جمع وتدوين', 'Collection', 'Collecte', 'Recopilación', '記録収集', 'संकلन', 'Coleção', 'Коллекция', '收集整理', 'Sammlung', 'Raccolta', 'Συλλογή', 'جمع و تدوین', 'گردآوری', 'Derleme', 'Berhevkirin', 'Kompilasi', 'Mkusanyiko', '컬렉션')}</span>
+              <span className="block sm:inline text-stone-500 text-[11px] sm:ms-1 truncate">{t('جمع وتدوين', 'Collection', 'Collecte', 'Recopilación', '記録収集', 'संकلन', 'Coleção', 'Коллекция', '收集整理', 'Sammlung', 'Raccolta', 'Συλλογή', 'جمع و تدوین', 'گردآوری', 'Derleme', 'Berhevkirin', 'Kompilasi', 'Mkusanyiko', '컬렉션')}</span>
             </div>
           </div>
         </div>

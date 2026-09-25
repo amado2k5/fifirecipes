@@ -197,14 +197,14 @@ export const RecipeList: React.FC<RecipeListProps> = ({
             )}
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 min-w-0">
             <label className="text-xs font-semibold text-stone-500 whitespace-nowrap">
               {t('ترتيب حسب:', 'Sort by:', 'Trier par :', 'Ordenar por:', '並び替え:', 'क्रमबद्ध करें:', 'Ordenar por:', 'Сортировать по:', '排序方式：', 'Sortieren nach:', 'Ordina per:', 'Ταξινόμηση κατά:', 'ترتیب:', 'مرتب‌سازی:', 'Sırala:', 'Rêz bike:', 'Urutkan:', 'Panga kwa:', '정렬:')}
             </label>
             <select
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value as any)}
-              className="px-3 py-2 text-xs font-medium rounded-xl border border-stone-200 bg-stone-50 focus:bg-white text-stone-800"
+              className="min-w-0 flex-1 md:flex-none max-w-full truncate px-3 py-2 text-xs font-medium rounded-xl border border-stone-200 bg-stone-50 focus:bg-white text-stone-800"
             >
               <option value="overlap">{t('نسبة التطابق وإزالة التكرار (الأعلى)', 'Highest Overlap %', 'Chevauchement le Plus Élevé (%)', 'Mayor % de Coincidencia', '一致率が高い順', 'सर्वाधिक मिलान %', 'Maior % de Coincidência', 'Наибольшее % совпадения', '重合度最高（%）', 'Höchste Übereinstimmung (%)', 'Sovrapposizione più alta (%)', 'Υψηλότερο Ποσοστό Επικάλυψης (%)', 'سب سے زیادہ مماثلت %', 'بیشترین درصد همپوشانی', 'En Yüksek Örtüşme %', 'Rêjeya Hevgirtinê ya Herî Bilind %', 'Kecocokan Tertinggi %', 'Ulinganifu wa Juu Zaidi %', '일치도 높은 순 %')}</option>
               <option value="title">{t('الاسم أبجدياً (أ-ي)', 'Alphabetical (A-Z)', 'Alphabétique (A-Z)', 'Alfabético (A-Z)', '名前順(あいうえお順)', 'वर्णानुक्रम (अ-ज्ञ)', 'Alfabético (A-Z)', 'По алфавиту (А-Я)', '按字母顺序（A-Z）', 'Alphabetisch (A-Z)', 'Alfabetico (A-Z)', 'Αλφαβητικά (Α-Ω)', 'حروفِ تہجی کے لحاظ سے (A-Z)', 'الفبایی (A-Z)', 'Alfabetik (A-Z)', 'Alfabetîk (A-Z)', 'Alfabetis (A-Z)', 'Kialfabeti (A-Z)', '가나다순 (A-Z)')}</option>
