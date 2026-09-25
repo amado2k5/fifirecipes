@@ -7,7 +7,8 @@ import { KidsToggle } from './KidsToggle';
 import { loadKidsIndex } from '../services/recipeData';
 import { CrayonFilter, KidsArt } from './KidsArt';
 import { KidsRecipeView } from './KidsRecipeView';
-import { fill, getKidsStrings } from './strings';
+import { fill, getKidsStrings, hasKidsStrings } from './strings';
+import { loadKidsStrings } from './loadStrings';
 import { AGES, GROUPS, GROUP_STYLE, ageLabel } from './theme';
 
 // Cooking with Kids mode. Loaded only when the header button is pressed (or
@@ -44,6 +45,7 @@ function writeKidParam(id: string | null) {
 }
 
 export default function KidsApp({ lang, setLang, onExit, onOpenArchiveRecipe }: KidsAppProps) {
+  const [, setStringsLoaded] = useState(0);
   const text = getKidsStrings(lang);
   const [cards, setCards] = useState<KidsRecipeCard[] | null>(null);
   const [failed, setFailed] = useState(false);
@@ -61,6 +63,12 @@ export default function KidsApp({ lang, setLang, onExit, onOpenArchiveRecipe }: 
     link.href = FONT_URL;
     document.head.appendChild(link);
   }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    loadKidsStrings(lang).then(() => !cancelled && setStringsLoaded(n => n + 1), () => undefined);
+    return () => { cancelled = true; };
+  }, [lang]);
 
   useEffect(() => {
     let cancelled = false;
@@ -83,6 +91,12 @@ export default function KidsApp({ lang, setLang, onExit, onOpenArchiveRecipe }: 
     (!noCookOnly || card.noCook) &&
     (age === 'any' || AGES.indexOf(card.ages) <= AGES.indexOf(age))
   ), [cards, group, age, noCookOnly]);
+
+  // Until this language's strings arrive (one small file), show the same
+  // placeholder as while kids mode itself loads.
+  if (!hasKidsStrings(lang)) {
+    return <div className="min-h-screen bg-[#fff8e7] flex items-center justify-center text-4xl animate-bounce" aria-busy="true">🧑‍🍳</div>;
+  }
 
   const chip = (active: boolean, activeClass = 'bg-violet-500 border-violet-600') =>
     `kids-wiggle inline-flex items-center gap-1.5 min-h-11 px-4 rounded-full border-2 text-sm sm:text-base font-bold transition-colors shadow-[0_3px_0_rgba(74,52,38,0.25)] ${

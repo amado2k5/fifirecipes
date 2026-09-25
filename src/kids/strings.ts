@@ -260,12 +260,19 @@ const en: KidsStrings = {
   }
 };
 
-const STRINGS: Partial<Record<SupportedLanguage, KidsStrings>> = { ar, en };
+// Arabic and English ship with kids mode; every other language's strings are
+// a small file in ./i18n/, loaded by loadKidsStrings when it is chosen.
+const loaded: Partial<Record<SupportedLanguage, KidsStrings>> = { ar, en };
 
-export const getKidsStrings = (lang: SupportedLanguage): KidsStrings => STRINGS[lang] ?? en;
+export const registerKidsStrings = (lang: SupportedLanguage, strings: KidsStrings) => { loaded[lang] = strings; };
+export const hasKidsStrings = (lang: SupportedLanguage) => lang in loaded;
+export const getKidsStrings = (lang: SupportedLanguage): KidsStrings => loaded[lang] ?? en;
 
 export const fill = (template: string, values: Record<string, string | number>) =>
   template.replace(/\{(\w+)\}/g, (_, key) => String(values[key] ?? ''));
 
 /** The voice language for reading steps aloud. */
-export const SPEECH_LANG: Partial<Record<SupportedLanguage, string>> = { ar: 'ar-EG', en: 'en-US' };
+export const SPEECH_LANG: Partial<Record<SupportedLanguage, string>> = {
+  ar: 'ar-EG', en: 'en-US', fr: 'fr-FR', es: 'es-ES', ja: 'ja-JP', hi: 'hi-IN', pt: 'pt-BR', ru: 'ru-RU', zh: 'zh-CN',
+  de: 'de-DE', it: 'it-IT', el: 'el-GR', ur: 'ur-PK', fa: 'fa-IR', tr: 'tr-TR', ku: 'ku', id: 'id-ID', sw: 'sw-KE', ko: 'ko-KR'
+};
