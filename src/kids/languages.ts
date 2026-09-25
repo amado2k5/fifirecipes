@@ -23,7 +23,8 @@ export const KIDS_TOGGLE_LABELS: Partial<Record<SupportedLanguage, { grownUps: s
   fa: { grownUps: 'بزرگ‌ترها', kids: 'آشپزی با بچه‌ها' },
   tr: { grownUps: 'Büyükler', kids: 'Çocuklarla Yemek' },
   ku: { grownUps: 'Mezin', kids: 'Bi Zarokan re Çêkirin' },
-  id: { grownUps: 'Dewasa', kids: 'Masak Bersama Anak' }
+  id: { grownUps: 'Dewasa', kids: 'Masak Bersama Anak' },
+  sw: { grownUps: 'Watu wazima', kids: 'Kupika na Watoto' }
 };
 
 export const hasKidsMode = (lang: SupportedLanguage) => lang in KIDS_TOGGLE_LABELS;
