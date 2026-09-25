@@ -20,3 +20,4 @@ When estimating nutrition and cost for a recipe:
 - ec-053–ec-098: 20 added (Egyptian Cooking egg dishes and stews)
 - ec-105–ec-157: 20 added (Chicken dishes, couscous, and eggplant)
 - ec-158–ec-208: 20 added (Fish, organ meats, and lentils)
+- ec-213–osool-006: 20 added (Beef/lamb dishes and technique broths)
