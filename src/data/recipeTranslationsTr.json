@@ -11280,5 +11280,143 @@
       "4": "Sosu yayın, ardından bir kat peynir, sebzeler ve zeytinleri ekleyip üzerine kalan peyniri serpin.",
       "5": "Tavanın kapağını sıkıca kapatın ve hamur pişip peynirler eriyene kadar çok kısık ateşte 10-15 dakika pişirin; kalan karışımla işlemi tekrarlayın."
     }
+  },
+  "add-012": {
+    "title": "Şam Usulü Etli Sfiha",
+    "prepTime": "30 dakika + 1 saat mayalama",
+    "cookTime": "15 dakika",
+    "servings": "yaklaşık 30 adet",
+    "culturalNotes": "Domates ve soğanın fazla suyunun süzülmesi hamurun yumuşamasını engeller. Nar ekşisi ve tahin harca o meşhur Halep lezzetini verir; bu hamur işlerine \"lahmacun\" da denilebilir.",
+    "ingredients": {
+      "add-012-i1": {
+        "name": "Un",
+        "standardAmount": "3 su bardağı"
+      },
+      "add-012-i2": {
+        "name": "Süt tozu",
+        "standardAmount": "2 yemek kaşığı"
+      },
+      "add-012-i3": {
+        "name": "Maya",
+        "standardAmount": "1 yemek kaşığı"
+      },
+      "add-012-i4": {
+        "name": "Şeker",
+        "standardAmount": "1 yemek kaşığı"
+      },
+      "add-012-i5": {
+        "name": "Kabartma tozu ve tuz",
+        "standardAmount": "1'er tatlı kaşığı"
+      },
+      "add-012-i6": {
+        "name": "Mısır yağı",
+        "standardAmount": "¼ su bardağı"
+      },
+      "add-012-i7": {
+        "name": "Ilık su",
+        "standardAmount": "1 su bardağı"
+      },
+      "add-012-i8": {
+        "name": "İnce kıyılmış dana kıyma",
+        "standardAmount": "500 gram"
+      },
+      "add-012-i9": {
+        "name": "Rendelenmiş soğan",
+        "standardAmount": "2 büyük boy soğan"
+      },
+      "add-012-i10": {
+        "name": "Rendelenmiş domates",
+        "standardAmount": "2 büyük boy domates"
+      },
+      "add-012-i11": {
+        "name": "Doğranmış acı yeşil biber",
+        "standardAmount": "2 adet"
+      },
+      "add-012-i12": {
+        "name": "Ezilmiş sarımsak",
+        "standardAmount": "2 diş"
+      },
+      "add-012-i13": {
+        "name": "Nar ekşisi",
+        "standardAmount": "¼ su bardağı"
+      },
+      "add-012-i14": {
+        "name": "Tahin ve yoğurt",
+        "standardAmount": "¼'er su bardağı"
+      },
+      "add-012-i15": {
+        "name": "Tarçın, karışık baharat, tuz ve karabiber",
+        "standardAmount": "1 tatlı kaşığı tarçın + 1 tatlı kaşığı baharat + 1 tatlı kaşığı tuz + ¼ tatlı kaşığı karabiber"
+      },
+      "add-012-i16": {
+        "name": "Dolmalık fıstık",
+        "standardAmount": "Arzuya göre"
+      }
+    },
+    "instructions": {
+      "1": "Hamurun kuru malzemelerini karıştırın, ardından yağ ve ılık suyu ekleyip kap kenarlarından ayrılan pürüzsüz bir hamur elde edene kadar yoğurun; yağlayıp üzerini kapatın ve hacmi iki katına çıkana kadar bir saat bekletin.",
+      "2": "Rendelenmiş soğan ve domatesin fazla suyu süzülür, ardından kıyma, biber ve sarımsakla karıştırılır.",
+      "3": "Nar ekşisi, tahin, yoğurt, baharatlar ve dolmalık fıstık eklenir; karışım homojen hale gelene kadar karıştırılır.",
+      "4": "Hamurdan küçük toplar yapılıp ince daireler şeklinde açılır, üzerine harç paylaştırılır; kenarları kare veya üçgen olacak şekilde kapatılır ya da açık bırakılır.",
+      "5": "Yağlanmış tepsiye dizilir ve kenarları kızarıp et piştiğinde 12-15 dakika boyunca 220 dereceye ısıtılmış fırında pişirilir.",
+      "6": "Limon veya yoğurt ile sıcak olarak servis edilir."
+    }
+  },
+  "add-010": {
+    "title": "Pamuk Hamurlu Donut",
+    "prepTime": "30 dakika + 1,5 saat mayalanma",
+    "cookTime": "15 dakika",
+    "servings": "6 büyük adet",
+    "culturalNotes": "Yağ sıcaklığı işin sırrıdır: Eğer sıcaklık 160 dereceden yüksek olursa donutlar içi pişmeden dışı yanar, eğer daha düşük olursa yağ çekerler.",
+    "ingredients": {
+      "add-010-i1": {
+        "name": "Çok amaçlı un",
+        "standardAmount": "2 ¼ su bardağı"
+      },
+      "add-010-i2": {
+        "name": "Instant maya",
+        "standardAmount": "1 yemek kaşığı"
+      },
+      "add-010-i3": {
+        "name": "Tuz",
+        "standardAmount": "¼ çay kaşığı"
+      },
+      "add-010-i4": {
+        "name": "Ilık süt",
+        "standardAmount": "½ su bardağı"
+      },
+      "add-010-i5": {
+        "name": "Yumuşak tereyağı",
+        "standardAmount": "¼ su bardağı"
+      },
+      "add-010-i6": {
+        "name": "Yumurta",
+        "standardAmount": "1 adet"
+      },
+      "add-010-i7": {
+        "name": "Vanilya",
+        "standardAmount": "1 tatlı kaşığı"
+      },
+      "add-010-i8": {
+        "name": "Şeker",
+        "standardAmount": "2 yemek kaşığı"
+      },
+      "add-010-i9": {
+        "name": "Kızartma yağı",
+        "standardAmount": "İhtiyaç kadar"
+      },
+      "add-010-i10": {
+        "name": "Üzeri için: Şeker ve tarçın veya beyaz ve bitter çikolata sosu",
+        "standardAmount": "Arzuya göre"
+      }
+    },
+    "instructions": {
+      "1": "Süt hariç tüm malzemeler mutfak robotunun haznesine konur, ardından süt yavaş yavaş eklenerek hamur pürüzsüzleşene ve ele hafifçe yapışan bir kıvam alana kadar 10 dakika yoğurulur.",
+      "2": "Hamur top haline getirilir, yağlanmış bir kaba konur, üzeri kapatılır ve bir ila bir buçuk saat mayalanmaya bırakılır.",
+      "3": "Hamur 2 cm kalınlığında açılır, bir bardak yardımıyla yuvarlaklar kesilir, ardından orta kısımları küçük bir kapakla çıkarılır; kalan hamur tekrar açılıp kesilir.",
+      "4": "Kesilen parçalar pişirme kağıdı üzerine dizilir ve ikinci kez mayalanması için 15 dakika bekletilir.",
+      "5": "160 derece sıcaklıktaki bol yağda kızartılır; her iki tarafı da kızarıp renkler eşitlenene kadar çevrilir.",
+      "6": "Sıcakken tarçınlı şeker karışımına batırılır veya soğuduktan sonra beyaz çikolataya batırılıp üzerine bitter çikolata şeritleri gezdirilir."
+    }
   }
 }

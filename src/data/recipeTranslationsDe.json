@@ -11274,5 +11274,301 @@
       "4": "Verteilen Sie die Sauce, dann eine Schicht Käse, gefolgt von Gemüse und Oliven, und geben Sie zum Abschluss den restlichen Käse darüber.",
       "5": "Decken Sie die Pfanne fest ab und lassen Sie sie 10-15 Minuten bei sehr geringer Hitze garen, bis der Teig durchgebacken und der Käse geschmolzen ist; wiederholen Sie den Vorgprung mit dem restlichen Teig."
     }
+  },
+  "add-013": {
+    "title": "Tiramisu ohne Ei",
+    "prepTime": "30 Min.",
+    "cookTime": "3-4 Std. Kühlzeit",
+    "servings": "8-10 Personen",
+    "culturalNotes": "Das originale italienische Tiramisu basiert auf rohen Eiern und Mascarpone. Diese Version verzichtet auf Eier; Gelatine und Kondensmilch sorgen für die Bindung, sodass sie sicher ist und sich sauber schneiden lässt.",
+    "ingredients": {
+      "add-013-i1": {
+        "name": "Kalte Schlagsahne",
+        "standardAmount": "350 ml"
+      },
+      "add-013-i2": {
+        "name": "Frischkäse (Zimmertemperatur)",
+        "standardAmount": "350 g"
+      },
+      "add-013-i3": {
+        "name": "Sahne/Crème (Ashta)",
+        "standardAmount": "170 g"
+      },
+      "add-013-i4": {
+        "name": "Gesüßte Kondensmilch",
+        "standardAmount": "160 ml"
+      },
+      "add-013-i5": {
+        "name": "Rindergelatine",
+        "standardAmount": "10 g + 60 ml kaltes Wasser"
+      },
+      "add-013-i6": {
+        "name": "Löffelbiskuits (Savoiardi)",
+        "standardAmount": "2 Packungen"
+      },
+      "add-013-i7": {
+        "name": "Instantkaffee",
+        "standardAmount": "2 EL + 1 Tasse Wasser"
+      },
+      "add-013-i8": {
+        "name": "Backkakao zum Bestäuben",
+        "standardAmount": "nach Bedarf"
+      }
+    },
+    "instructions": {
+      "1": "Die kalte Schlagsahne in einer gekühlten Schüssel schlagen, bis sie fest und dickflüssig ist.",
+      "2": "Die Gelatine im kalten Wasser einweichen lassen, bis sie aufgesogen ist, dann für einige Sekunden in der Mikrowelle schmelzen und mit zwei Esslöffeln der Sahne mischen, um die Temperatur anzugleichen.",
+      "3": "Den Frischkäse mit der Sahne (Ashta) aufschlagen, dann die Kondensmilch hinzufügen, die geschlagene Sahne vorsichtig unterheben und anschließend die Gelatine unterrühren.",
+      "4": "Den Kaffee im Wasser auflösen, die Löffelbiskuits kurz darin eintauchen und eine Schicht in der Form auslegen.",
+      "5": "Mit der Hälfte der Creme bedecken, dann eine zweite Schicht Biskuits daraufgeben, die restliche Creme verteilen und die Oberfläche glatt streichen.",
+      "6": "Das Tiramisu 3-4 Stunden im Kühlschrank kühlen und unmittelbar vor dem Servieren Kakao über die Oberfläche sieben."
+    }
+  },
+  "add-012": {
+    "title": "Levantinische Sfiha mit Fleisch",
+    "prepTime": "30 Min. + 1 Std. Gehzeit",
+    "cookTime": "15 Min.",
+    "servings": "ca. 30 Stück",
+    "culturalNotes": "Das Abtropfen von Tomaten und Zwiebeln verhindert, dass der Teig aufweicht. Granatapfelsirup und Tahini verleihen der Füllung den typischen Geschmack aus Aleppo; diese Gebäckstücke werden auch „Lahm bi Ajeen“ genannt.",
+    "ingredients": {
+      "add-012-i1": {
+        "name": "Mehl",
+        "standardAmount": "3 Tassen"
+      },
+      "add-012-i2": {
+        "name": "Milchpulver",
+        "standardAmount": "2 EL"
+      },
+      "add-012-i3": {
+        "name": "Hefe",
+        "standardAmount": "1 EL"
+      },
+      "add-012-i4": {
+        "name": "Zucker",
+        "standardAmount": "1 EL"
+      },
+      "add-012-i5": {
+        "name": "Backpulver und Salz",
+        "standardAmount": "je 1 TL"
+      },
+      "add-012-i6": {
+        "name": "Maisöl",
+        "standardAmount": "¼ Tasse"
+      },
+      "add-012-i7": {
+        "name": "Warmes Wasser",
+        "standardAmount": "1 Tasse"
+      },
+      "add-012-i8": {
+        "name": "Fein gehacktes Hackfleisch",
+        "standardAmount": "500 g"
+      },
+      "add-012-i9": {
+        "name": "Geriebene Zwiebeln",
+        "standardAmount": "2 große Zwiebeln"
+      },
+      "add-012-i10": {
+        "name": "Geriebener Tomaten",
+        "standardAmount": "2 große Tomaten"
+      },
+      "add-012-i11": {
+        "name": "Grüne scharfe Chilischoten, gehackt",
+        "standardAmount": "2 Stück"
+      },
+      "add-012-i12": {
+        "name": "Knoblauch, zerdrückt",
+        "standardAmount": "2 Zehen"
+      },
+      "add-012-i13": {
+        "name": "Granatapfelsirup",
+        "standardAmount": "¼ Tasse"
+      },
+      "add-012-i14": {
+        "name": "Tahini und Joghurt",
+        "standardAmount": "je ¼ Tasse"
+      },
+      "add-012-i15": {
+        "name": "Zimt, Gewürzmischung, Salz und schwarzer Pfeffer",
+        "standardAmount": "1 TL Zimt + 1 TL Gewürzmischung + 1 TL Salz + ¼ TL Pfeffer"
+      },
+      "add-012-i16": {
+        "name": "Pinienkerne",
+        "standardAmount": "nach Belieben"
+      }
+    },
+    "instructions": {
+      "1": "Die trockenen Teigzutaten mischen, dann Öl und warmes Wasser hinzufügen und kneten, bis ein glatter Teig entsteht, der sich von der Schüssel löst. Den Teig einölen, abdecken und eine Stunde gehen lassen, bis sich das Volumen verdoppelt hat.",
+      "2": "Die überschüssige Flüssigkeit aus den geriebenen Zwiebeln und Tomaten abgießen, dann diese mit dem Hackfleisch, der Paprika und dem Knoblauch vermischen.",
+      "3": "Granatapfelsirup, Tahini, Joghurt, Gewürze und Pinienkerne hinzufügen und die Mischung gut durchrühren, bis sie gleichmäßig ist.",
+      "4": "Den Teig in kleine Kugeln teilen und zu dünnen Kreisen ausrollen. Die Füllung darauf verteilen und die Ränder zu Quadraten oder Dreiecken formen oder offen lassen.",
+      "5": "Die Sfiha auf ein gefettetes Backblech legen und in einem auf 220 Grad vorgeheizten Ofen 12-15 Minuten backen, bis die Ränder goldbraun sind und das Fleisch gar ist.",
+      "6": "Heiß mit Zitrone oder Joghurt servieren."
+    }
+  },
+  "add-001": {
+    "title": "Räuchriges Hähnchen Mandi",
+    "prepTime": "15 Min.",
+    "cookTime": "65 Min.",
+    "servings": "5-6 Personen",
+    "culturalNotes": "Mandi ist ein Gericht ursprünglich aus dem Jemen, das traditionell in einer Erdgrube gekocht wird. Das Räuchern mit einer glühenden Kohle im Topf verleiht ihm in der heimischen Küche sein charakteristisches Aroma. Es wird meist mit Daquus- oder Sahawiq-Sauce serviert.",
+    "ingredients": {
+      "add-001-i1": {
+        "name": "Ganzes Hähnchen, halbiert",
+        "standardAmount": "1 Hähnchen (ca. 1,2 kg)"
+      },
+      "add-001-i2": {
+        "name": "Basmati-Reis, gewaschen und abgetropft",
+        "standardAmount": "3 Tassen"
+      },
+      "add-001-i3": {
+        "name": "Hühnerbrühe vom Kochen",
+        "standardAmount": "4 ½ Tassen"
+      },
+      "add-001-i4": {
+        "name": "Fein gehackte Zwiebel",
+        "standardAmount": "1 große Zwiebel"
+      },
+      "add-001-i5": {
+        "name": "Ghee oder Öl",
+        "standardAmount": "3 EL"
+      },
+      "add-001-i6": {
+        "name": "In Orangenblütenwasser eingeweichter Safran (oder Kurkuma)",
+        "standardAmount": "½ TL + 2 EL Orangenblütenwasser"
+      },
+      "add-001-i7": {
+        "name": "Mandi-Gewürzmischung (gemahlener Kardamom, weißer Pfeffer, Knoblauchpulver)",
+        "standardAmount": "½ TL"
+      },
+      "add-001-i8": {
+        "name": "Ganze Gewürze (Zimt, Kardamom, Nelken, Lomi, Lorbeerblatt)",
+        "standardAmount": "2 Zimtstangen + 4 Kardamomkapseln + 4 Nelken + 1 Lomi + blatt 1 Lorbeerblatt"
+      },
+      "add-001-i9": {
+        "name": "Salz",
+        "standardAmount": "1 EL und 1 TL"
+      },
+      "add-001-i10": {
+        "name": "Holzkohle für das Räuchern",
+        "standardAmount": "1 Stück"
+      },
+      "add-001-i11": {
+        "name": "Geröstete Nüsse, Rosinen und knusprige Zwiebeln zum Garnieren",
+        "standardAmount": "nach Belieben"
+      }
+    },
+    "instructions": {
+      "1": "Das Hähnchen mit den ganzen Gewürzen und Salz in kochendem Wasser 25-30 Minuten garen, bis es fast fertig ist; dann das Fleisch herausnehmen, die Brühe abseihen und aufbewahren.",
+      "2": "Die Hälfte des eingeweichten Safrans mit einem Löffel Ghee, der Mandi-Gewürzmischung und Salz vermischen und das Hähnchen von allen Seiten damit bestreichen.",
+      "3": "Das Hähnchen in einer Auflaufform anrichten und unter dem Backofengrill etwa 10 Minuten rösten, bis die Haut braun und knusprig ist.",
+      "4": "Die Zwiebeln im restlichen Ghee glasig dünsten, dann den Reis hinzufügen und zwei Minuten unter Rühren garen, bis die Reiskörner mit dem Fett überzogen sind.",
+      "5": "Die kochende Brühe über den Reis gießen, bis sie etwa 1,5 cm über dem Reis steht; auf hoher Hitze köcheln lassen, bis die Flüssigkeit fast vollständig aufgenommen ist, dann die Hitze reduzieren, abdecken und 15 Minuten ziehen lassen.",
+      "6": "Den restlichen Safran über einen Teil der Reisfläche streuen, um Farbe zu geben, und das Hähnchen im Topf darauf anrichten.",
+      "7": "Zum Räuchern: Ein kleines Stück Alufolie mit einem Löffel Öl in der Mitte auf dem Reis platzieren, die glühende Kohle darauf setzen, den Topf fest verschließen und 10 Minuten warten; danach die Kohle entfernen.",
+      "8": "Das Mandi auf einer großen Servierplatte mit Nüssen, Rosinen und knusprigen Zwiebeln garniert servieren."
+    }
+  },
+  "add-016": {
+    "title": "Erdbeer-Bananen-Smoothie",
+    "prepTime": "5 Min.",
+    "cookTime": "ohne Kochen",
+    "servings": "2 Becher",
+    "culturalNotes": "Die Verwendung von gefrorenen Erdbeeren oder Bananen sorgt für eine dicke, kalte Konsistenz, ohne dass Eiswürfel hinzugefügt werden müssen, die den Geschmack verwässern könnten. Ein Löffel Chiasamen oder Haferflocken kann für ein schnelles Frühstück hinzugefügt werden.",
+    "ingredients": {
+      "add-016-i1": {
+        "name": "Frische oder gefrorene Erdbeeren",
+        "standardAmount": "1 Becher"
+      },
+      "add-016-i2": {
+        "name": "Reife Banane",
+        "standardAmount": "1 Stück"
+      },
+      "add-016-i3": {
+        "name": "Milch (oder Mandelmilch)",
+        "standardAmount": "1 Becher"
+      },
+      "add-016-i4": {
+        "name": "Honig",
+        "standardAmount": "1 TL oder nach Belieben"
+      },
+      "add-016-i5": {
+        "name": "Joghurt (optional für eine dickere Konsistenz)",
+        "standardAmount": "2 EL"
+      },
+      "add-016-i6": {
+        "name": "Eiswürfel",
+        "standardAmount": "nach Belieben"
+      }
+    },
+    "instructions": {
+      "1": "Die Erdbeeren waschen und das Grün entfernen, die Banane in Scheiben schneiden.",
+      "2": "Die Früchte zusammen mit der Milch, dem Honig, dem Joghurt und dem Eis in den Mixer geben.",
+      "3": "Die Zutaten mixen, bis die Konsistenz glatt und cremig ist, den Smoothie in Gläser gießen und sofort servieren."
+    }
+  },
+  "add-011": {
+    "title": "Mini-Pizzen",
+    "prepTime": "45 Min. inkl. Gehzeit",
+    "cookTime": "10 Min. pro Blech",
+    "servings": "15 Stück",
+    "culturalNotes": "Mini-Pizzen eignen sich hervorragend für Brotdosen und Kinderpartys. Die Teigböden können nach dem ersten Backen ohne Belag eingefroren und bei Bedarf erst dann belegt und erwärmt werden.",
+    "ingredients": {
+      "add-011-i1": {
+        "name": "Mehl",
+        "standardAmount": "2 Tassen"
+      },
+      "add-011-i2": {
+        "name": "warme Milch",
+        "standardAmount": "½ Tasse"
+      },
+      "add-011-i3": {
+        "name": "Pflanzenöl für den Teig",
+        "standardAmount": "1 EL"
+      },
+      "add-011-i4": {
+        "name": "Trockenhefe",
+        "standardAmount": "2 TL"
+      },
+      "add-011-i5": {
+        "name": "Zucker",
+        "standardAmount": "2 TL"
+      },
+      "add-011-i6": {
+        "name": "Salz",
+        "standardAmount": "½ TL"
+      },
+      "add-011-i7": {
+        "name": "Tomaten, Zwiebel und Knoblauch für die Sauce",
+        "standardAmount": "2 Tomaten + 1 kleine Zwiebel + 2 Knoblauchzehen"
+      },
+      "add-011-i8": {
+        "name": "Ketchup und Tomatenmark",
+        "standardAmount": "je 1 EL"
+      },
+      "add-011-i9": {
+        "name": "Paprikapulver, Thymian und schwarzer Pfeffer",
+        "standardAmount": "1 TL Paprika + 1 TL Thymian + ½ TL Pfeffer"
+      },
+      "add-011-i10": {
+        "name": "geriebener Mozzarella",
+        "standardAmount": "200 g"
+      },
+      "add-011-i11": {
+        "name": "bunte Paprikawürfel und Oliven in Scheiben",
+        "standardAmount": "2 Paprikas + nach Belieben"
+      },
+      "add-011-i12": {
+        "name": "Oregano",
+        "standardAmount": "eine Prise"
+      }
+    },
+    "instructions": {
+      "1": "Tomaten, Zwiebel und Knoblauch im Mixer pürieren, dann mit zwei Esslöffeln Öl, Ketchup, Tomatenmark und den Gewürzen einkochen, bis die Flüssigkeit verdampft ist und die Sauce eingedickt ist.",
+      "2": "Die Hefe 10 Minuten lang in der warmen Milch mit dem Zucker aktivieren lassen, dann Mehl, Salz und Öl hinzufügen und 8-10 Minuten lang kneten, bis der Teig elastisch ist; anschließend 30 Minuten gehen lassen.",
+      "3": "Den Teig auf einer bemehlten Fläche auf mittlere Dicke ausrollen und mit einem Glas oder Ausstecher in Kreise schneiden.",
+      "4": "Die Kreise auf ein gefettetes Backblech legen, mit einer Gabel einstechen, mit der Sauce bestreichen und mit Käse, Paprika, Oliven und Oregano belegen.",
+      "5": "Im vorgeheizten Ofen bei 220 °C für 8-10 Minuten backen, bis die Ränder goldbraun sind und der Käse geschmolzen ist.",
+      "6": "Ohne Ofen: Die Stücke in einer gefetteten, abgedeckten Pfanne bei niedriger Hitze etwa 7 Minuten garen, bis der Boden gar und der Käse geschmolzen ist."
+    }
   }
 }
