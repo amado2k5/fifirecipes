@@ -19,3 +19,7 @@ and run `python /tmp/check_naming.py transcripts/channel-fatma-abu-haty`.
 | 007 | 100 | done |
 | 008 | 100 | done |
 | 009 | 71 | done |
+
+**All 9 batches are named** (871 videos: 729 recipe, 85 multi, 57 other; 937 dishes, 219 marked
+`unclear` for the transcript step). The checker reports 0 problems. Next step on the Mac: fetch
+this branch and run `check_naming.py transcripts/channel-fatma-abu-haty --merge`.
