@@ -9,6 +9,7 @@ import stuffed from '../osoolElTahy/stuffed.json';
 import riceAndPasta from '../osoolElTahy/riceAndPasta.json';
 import eggs from '../osoolElTahy/eggs.json';
 import various from '../osoolElTahy/various.json';
+import titlesEn from '../osoolElTahy/titlesEn.json';
 
 // Recipes from the classic Egyptian cookbook «أصول الطهي النظري والعملي» by
 // Nazira Nicola and Bahia Osman, limited to dishes the site did not already
@@ -95,8 +96,7 @@ function toRecipe(entry: BookRecipe): Recipe {
   return {
     id: entry.id,
     title: entry.title,
-    // Arabic only for now; translations are added later.
-    titleEn: '',
+    titleEn: (titlesEn as Record<string, string>)[entry.id] ?? '',
     chapter: 'الباب الثامن: من كتاب أصول الطهي',
     chapterNumber: 8,
     category: entry.category,
