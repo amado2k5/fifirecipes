@@ -21,7 +21,14 @@ const RECIPES_WITH_IMAGES = [
   ...idRange('savory', 1, 12),
   ...idRange('quick', 1, 8),
   ...idRange('des', 1, 113),
-  ...idRange('bev', 1, 5)
+  ...idRange('bev', 1, 5),
+  // Generated banners (scripts/recipe-images/ship.py)
+  'add-001', 'add-002', 'add-003', 'add-004', 'add-005', 'add-006', 'add-007', 'add-008',
+  'add-009', 'add-010', 'add-011', 'add-012', 'add-013', 'add-014', 'add-015', 'add-016',
+  'add-017', 'add-018', 'add-019', 'add-020', 'add-021', 'add-022', 'add-023', 'add-024',
+  'add-025', 'add-114', 'add-222', 'add-234', 'ec-089', 'ec-124', 'osool-026', 'osool-433',
+  'osool-813',
+  // End of generated banners
 ];
 
 const RECIPES_WITH_IMAGES_SET = new Set(RECIPES_WITH_IMAGES);
