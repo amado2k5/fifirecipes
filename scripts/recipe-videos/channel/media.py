@@ -25,7 +25,10 @@ import yt_dlp
 
 # Set YTDLP_BROWSER=chrome to send requests as the YouTube account signed in
 # to that browser, which gets past YouTube's "confirm you're not a bot" check.
-BROWSER_COOKIES = {"cookiesfrombrowser": (os.environ["YTDLP_BROWSER"],)} if os.environ.get("YTDLP_BROWSER") else {}
+# Signed-in requests get no downloadable formats from YouTube, so downloads only
+# use the browser cookies when MEDIA_USE_COOKIES=1 is set as well.
+BROWSER_COOKIES = ({"cookiesfrombrowser": (os.environ["YTDLP_BROWSER"],)}
+                   if os.environ.get("YTDLP_BROWSER") and os.environ.get("MEDIA_USE_COOKIES") else {})
 
 WHISPER_MODEL = "mlx-community/whisper-large-v3-mlx"
 
