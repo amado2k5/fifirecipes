@@ -11152,5 +11152,165 @@
       "4": "Espalhe o molho, depois uma camada de queijo, os vegetais e as azeitonas, e finalize com o restante do queijo.",
       "5": "Tampe a frigideira firmemente e deixe em fogo muito baixo por 10-15 minutos até que a massa cozinhe e o queijo derreta; repita o processo com o restante da massa."
     }
+  },
+  "add-009": {
+    "title": "Harissa de Coco Fofinha",
+    "prepTime": "15 min",
+    "cookTime": "45 min",
+    "servings": "12 pedaços",
+    "culturalNotes": "A harissa do Levante é semelhante à basbousa egípcia, mas contém ovos e farinha, o que lhe confere uma textura mais parecida com a de um bolo macio.",
+    "ingredients": {
+      "add-009-i1": {
+        "name": "Sêmola",
+        "standardAmount": "1 xícara"
+      },
+      "add-009-i2": {
+        "name": "Farinha de trigo",
+        "standardAmount": "1 xícara"
+      },
+      "add-009-i3": {
+        "name": "Coco ralado",
+        "standardAmount": "½ xícara"
+      },
+      "add-009-i4": {
+        "name": "Açúcar",
+        "standardAmount": "1 xícara"
+      },
+      "add-009-i5": {
+        "name": "Fermento em pó",
+        "standardAmount": "2 colheres de chá"
+      },
+      "add-009-i6": {
+        "name": "Baunilha",
+        "standardAmount": "1 colher de sopa"
+      },
+      "add-009-i7": {
+        "name": "Óleo",
+        "standardAmount": "½ xícara"
+      },
+      "add-009-i8": {
+        "name": "Iogurte",
+        "standardAmount": "1 xícara"
+      },
+      "add-009-i9": {
+        "name": "Ovos em temperatura ambiente",
+        "standardAmount": "3 unidades"
+      },
+      "add-009-i10": {
+        "name": "Xarope: açúcar",
+        "standardAmount": "2½ xícaras"
+      },
+      "add-009-i11": {
+        "name": "Xarope: água",
+        "standardAmount": "2½ xícaras"
+      },
+      "add-009-i12": {
+        "name": "Xarope: suco de limão",
+        "standardAmount": "suco de ½ limão"
+      }
+    },
+    "instructions": {
+      "1": "Ferva o açúcar e a água em fogo médio, adicione o suco de limão e deixe ferver por 10 minutos em fogo baixo; reserve para esfriar.",
+      "2": "Bata os ovos com o açúcar e a baunilha até que o açúcar comece a dissolver, depois adicione o iogurte e o óleo.",
+      "3": "Adicione a sêmola e o coco, seguidos da farinha peneirada com o fermento, e misture até ficar homogêneo.",
+      "4": "Despeje a mistura em uma forma untada de 23 cm de diâmetro e bata a forma levemente na bancada para nivelar.",
+      "5": "Asse em forno pré-aquecido por 10 minutos a 200°C e depois por 30-35 minutos a 180°C até dourar.",
+      "6": "Regue a harissa com o xarope frio assim que retirá-la do forno e deixe descansar antes de cortar."
+    }
+  },
+  "add-016": {
+    "title": "Smoothie de Morango e Banana",
+    "prepTime": "5 min",
+    "cookTime": "sem cozimento",
+    "servings": "2 copos",
+    "culturalNotes": "O uso de morangos ou bananas congelados proporciona uma textura espessa e gelada sem a necessidade de gelo, que pode diluir o sabor. Pode-se adicionar uma colher de sementes de chia ou aveia para um café da manhã rápido.",
+    "ingredients": {
+      "add-016-i1": {
+        "name": "Morangos frescos ou congelados",
+        "standardAmount": "1 xícara"
+      },
+      "add-016-i2": {
+        "name": "Banana madura",
+        "standardAmount": "1 unidade"
+      },
+      "add-016-i3": {
+        "name": "Leite (ou leite de amêndoas)",
+        "standardAmount": "1 xícara"
+      },
+      "add-016-i4": {
+        "name": "Mel",
+        "standardAmount": "1 colher de chá ou a gosto"
+      },
+      "add-016-i5": {
+        "name": "Iogurte (opcional para uma textura mais espessa)",
+        "standardAmount": "2 colheres de sopa"
+      },
+      "add-016-i6": {
+        "name": "Cubos de gelo",
+        "standardAmount": "a gosto"
+      }
+    },
+    "instructions": {
+      "1": "Lave os morangos e remova as folhas, e corte a banana em fatias.",
+      "2": "Coloque as frutas no liquidificador com o leite, o mel, o iogurte e o gelo.",
+      "3": "Bata os ingredientes até obter uma consistência suave e homogênea, despeje o smoothie nos copos e sirva imediatamente."
+    }
+  },
+  "add-010": {
+    "title": "Donuts de Massa Fofinha",
+    "prepTime": "30 min + 1h 30 min de fermentação",
+    "cookTime": "15 min",
+    "servings": "6 unidades grandes",
+    "culturalNotes": "A temperatura do óleo é o segredo: se estiver acima de 160°C, os donuts queimarão por fora antes de cozinhar por dentro; se estiver abaixo, absorverão muito óleo.",
+    "ingredients": {
+      "add-010-i1": {
+        "name": "Farinha de trigo de uso geral",
+        "standardAmount": "2 e ¼ xícaras"
+      },
+      "add-010-i2": {
+        "name": "Fermento biológico instantâneo",
+        "standardAmount": "1 colher de sopa"
+      },
+      "add-010-i3": {
+        "name": "Sal",
+        "standardAmount": "¼ colher de chá"
+      },
+      "add-010-i4": {
+        "name": "Leite morno",
+        "standardAmount": "½ xícara"
+      },
+      "add-010-i5": {
+        "name": "Manteiga amolecida",
+        "standardAmount": "¼ xícara"
+      },
+      "add-010-i6": {
+        "name": "Ovo",
+        "standardAmount": "1 unidade"
+      },
+      "add-010-i7": {
+        "name": "Baunilha",
+        "standardAmount": "1 colher de chá"
+      },
+      "add-010-i8": {
+        "name": "Açúcar",
+        "standardAmount": "2 colheres de sopa"
+      },
+      "add-010-i9": {
+        "name": "Óleo para fritar",
+        "standardAmount": "o quanto baste"
+      },
+      "add-010-i10": {
+        "name": "Cobertura: açúcar e canela ou calda de chocolate branco e amargo",
+        "standardAmount": "a gosto"
+      }
+    },
+    "instructions": {
+      "1": "Misture todos os ingredientes, exceto o leite, na tigela da batedeira planetária; em seguida, adicione o leite gradualmente e sove por 10 minutos até que a massa fique lisa e levemente pegajosa ao toque.",
+      "2": "Modele a massa em formato de bola, coloque em uma tigela untada, cubra e deixe fermentar de uma hora a uma hora e meia.",
+      "3": "Abra a massa com 2 cm de espessura e corte círculos com um copo; depois, faça o furo central com uma tampa pequena e volte a abrir as sobras para cortar mais.",
+      "4": "Disponha os pedaços sobre papel manteiga e deixe descansar por quinze minutos para uma segunda fermentação.",
+      "5": "Frite em óleo abundante a 160°C, virando cada lado quando dourar para que a cor fique uniforme.",
+      "6": "Mergulhe ainda quente na mistura de açúcar e canela, ou deixe esfriar para mergulhar no chocolate branco e decorar com fios de chocolate amargo."
+    }
   }
 }
