@@ -11570,5 +11570,288 @@
       "5": "Im vorgeheizten Ofen bei 220 °C für 8-10 Minuten backen, bis die Ränder goldbraun sind und der Käse geschmolzen ist.",
       "6": "Ohne Ofen: Die Stücke in einer gefetteten, abgedeckten Pfanne bei niedriger Hitze etwa 7 Minuten garen, bis der Boden gar und der Käse geschmolzen ist."
     }
+  },
+  "add-015": {
+    "title": "Hausgemachter Joghurt und Erdbeer-Joghurt",
+    "prepTime": "20 Min.",
+    "cookTime": "6-8 Std. Fermentation",
+    "servings": "7-8 Becher",
+    "culturalNotes": "Das wichtigste Geheimnis bei hausgemachtem Joghurt ist die Milchtemperatur: Ist sie zu heiß, stirbt der Starter ab; ist sie zu kalt, festigt sich der Joghurt nicht. Bewahren Sie zwei Löffel jeder Charge als Starter für die nächste Charge auf.",
+    "ingredients": {
+      "add-015-i1": {
+        "name": "Vollmilch",
+        "standardAmount": "1 Liter"
+      },
+      "add-015-i2": {
+        "name": "Naturjoghurt (Starter)",
+        "standardAmount": "2 EL"
+      },
+      "add-015-i3": {
+        "name": "Milchpulver (optional für festere Konsistenz)",
+        "standardAmount": "1 EL"
+      },
+      "add-015-i4": {
+        "name": "Geschnittene Erdbeeren (für die Erdbeer-Version)",
+        "standardAmount": "1 Tasse"
+      },
+      "add-015-i5": {
+        "name": "Zucker",
+        "standardAmount": "2 EL"
+      },
+      "add-015-i6": {
+        "name": "Zitronensaft",
+        "standardAmount": "Saft einer halben kleinen Zitrone"
+      }
+    },
+    "instructions": {
+      "1": "Die Milch aufkochen und dann abkühlen lassen, bis sie lauwarm ist (ca. 40 °C) – sie sollte so warm sein, dass man den Finger zehn Sekunden lang darin halten kann.",
+      "2": "Den Joghurt-Starter mit dem Milchpulver und etwas lauwarmem Milchanteil glatt rühren, dann die Mischung unter den restlichen Milchanteil rühren.",
+      "3": "Die Milch in Becher oder Gläser füllen und abdecken.",
+      "4": "Die Becher in eine Form mit warmem Wasser in einen ausgeschalteten, warmen Ofen stellen und 6-8 Stunden lang ohne Bewegung stehen lassen, bis der Joghurt fest geworden ist, dann in den Kühlschrank stellen.",
+      "5": "Für Erdbeer-Joghurt: Die Erdbeeren mit Zucker und Zitrone bei schwacher Hitze einkochen, bis sie wie eine leichte Marmelade sind, dann abkühlen lassen. Entweder einen Löffel davon in jeden Becher geben, bevor die Milch eingefüllt wird, oder die Mischung mit der Milch im Mixer pürieren, um einen gleichmäßig rosa Joghurt zu erhalten."
+    }
+  },
+  "add-019": {
+    "title": "Ägyptische Sobia mit hausgemachtem Pulver",
+    "prepTime": "10 Min.",
+    "cookTime": "Kein Kochen",
+    "servings": "3 Gläser",
+    "culturalNotes": "Sobia ist ein beliebtes Ramadan-Getränk in Ägypten, dessen Ursprung in eingeweichtem Reis oder Kokosnuss in Milch liegt. Die hausgemachte Mischung reicht für Dutzende von Gläsern und kann zwei Monate lang an einem trockenen Ort aufbewahrt werden.",
+    "ingredients": {
+      "add-019-i1": {
+        "name": "Milchpulver",
+        "standardAmount": "1 Tasse"
+      },
+      "add-019-i2": {
+        "name": "Schlagsahne-Pulver (Chantilly)",
+        "standardAmount": "1 Tasse"
+      },
+      "add-019-i3": {
+        "name": "Sehr fein geriebene Kokosnuss",
+        "standardAmount": "1 Tasse"
+      },
+      "add-019-i4": {
+        "name": "Stärke",
+        "standardAmount": "4 EL"
+      },
+      "add-019-i5": {
+        "name": "Zucker für die Mischung",
+        "standardAmount": "4 EL"
+      },
+      "add-019-i6": {
+        "name": "Vanille",
+        "standardAmount": "1 TL"
+      },
+      "add-019-i7": {
+        "name": "Zum Servieren: kaltes Wasser",
+        "standardAmount": "2 Tassen"
+      },
+      "add-019-i8": {
+        "name": "Zum Servieren: Zucker",
+        "standardAmount": "3 EL"
+      },
+      "add-019-i9": {
+        "name": "Zum Servieren: Bananen, Mango und Erdbeeren",
+        "standardAmount": "2 Bananen + 1 Mango + 7 Erdbeeren"
+      }
+    },
+    "instructions": {
+      "1": "Die Kokosnuss in einer Gewürzmühle zu feinem Pulver mahlen, dann mit dem Milchpulver, Schlagsahne-Pulver, Stärke, Zucker und Vanille vermischen und in einem luftdichten Glas aufbewahren.",
+      "2": "Das Obst schneiden und in den Serviergläsern verteilen.",
+      "3": "Das kalte Wasser mit dem Zucker und zwei Esslöffeln der Mischung im Mixer eine volle Minute lang auf hoher Stufe mixen, bis ein dicker Schaum entsteht.",
+      "4": "Die Sobia über das Obst gießen und eiskalt servieren.",
+      "5": "Für klassische Sobia ohne Früchte: Die Mischung mit kalter Milch statt Wasser mixen und mit einer Prise Zimt servieren."
+    }
+  },
+  "add-018": {
+    "title": "Basbousa mit Ashta (Sahne)",
+    "prepTime": "30 min",
+    "cookTime": "35 min",
+    "servings": "12 Stücke",
+    "culturalNotes": "Frischkäse und Labneh mit Stärke ergeben eine stabile Ashta, die beim Schneiden nicht verläuft; alternativ kann bei Verfügbarkeit fertige asiatische/arabische Sahne (Ashta) verwendet werden.",
+    "ingredients": {
+      "add-018-i1": {
+        "name": "Grieß",
+        "standardAmount": "1½ Tassen"
+      },
+      "add-018-i2": {
+        "name": "Zucker",
+        "standardAmount": "½ Tasse"
+      },
+      "add-018-i3": {
+        "name": "Kokosraspel",
+        "standardAmount": "½ Tasse"
+      },
+      "add-018-i4": {
+        "name": "Backpulver",
+        "standardAmount": "1 EL"
+      },
+      "add-018-i5": {
+        "name": "Butter, Ghee oder eine Mischung aus Ghee und Öl",
+        "standardAmount": "1 Tasse"
+      },
+      "add-018-i6": {
+        "name": "Eier (optional)",
+        "standardAmount": "2 Stück"
+      },
+      "add-018-i7": {
+        "name": "Milch",
+        "standardAmount": "½ Tasse"
+      },
+      "add-018-i8": {
+        "name": "Dosensahne (Ashta)",
+        "standardAmount": "1 Dose"
+      },
+      "add-018-i9": {
+        "name": "Für die Ashta: Vollmilch",
+        "standardAmount": "1 Liter"
+      },
+      "add-018-i10": {
+        "name": "Für die Ashta: Maisstärke",
+        "standardAmount": "½ Tasse"
+      },
+      "add-018-i11": {
+        "name": "Für die Ashta: ungesalzter Frischkäse",
+        "standardAmount": "200 g"
+      },
+      "add-018-i12": {
+        "name": "Für die Ashta: Labneh",
+        "standardAmount": "2 EL"
+      },
+      "add-018-i13": {
+        "name": "Für die Ashta: Zucker und Vanille",
+        "standardAmount": "1 EL + 1 TL"
+      },
+      "add-018-i14": {
+        "name": "Sirup: Zucker, Wasser und Zitrone",
+        "standardAmount": "1 Tasse Zucker + ¾ Tasse Wasser + Zitronenscheiben"
+      }
+    },
+    "instructions": {
+      "1": "Grieß, Zucker, Kokosraspel und Backpulver vermischen, dann das Fett hinzufügen und rühren, bis der Grieß vollständig umschlossen ist; 5 Minuten ruhen lassen.",
+      "2": "Die Dosensahne, dann die Eier und die Milch hinzufügen und vorsichtig rühren, bis die Masse homogen ist.",
+      "3": "Die Hälfte der Mischung etwa 1 cm dick in eine gefettete Form streichen und bei 190 °C für 20 Minuten backen, bis die Ränder leicht gebräunt sind.",
+      "4": "Für die Ashta: Kalte Milch mit Stärke und Zucker unter Hitze verrühren, bis die Masse dickflüssig wird; dann vom Herd nehmen, Vanille, Frischkäse und Labneh unterrühren und 15 Minuten abkühlen lassen.",
+      "5": "Die Ashta auf der gebackenen Schicht verteilen und 15 Minuten fest werden lassen, dann die restliche Basbousa-Mischung mit einem Löffel darauf verteilen.",
+      "6": "Wieder bei 190 °C für 15 Minuten in den Ofen geben, bis die Oberfläche goldbraun ist.",
+      "7": "Sofort nach dem Backen den heißen Sirup darüber gießen und abdecken; eine Stunde stehen lassen und dann eine Stunde vor dem Schneiden im Kühlschrank kühlen."
+    }
+  },
+  "add-014": {
+    "title": "Knuspriges Musahab (Hähnchenstreifen)",
+    "prepTime": "30 Min. + 2 Std. Gefrierzeit",
+    "cookTime": "15 Min.",
+    "servings": "4 Personen",
+    "culturalNotes": "Der Schritt im Gefrierfach verleiht dem Musahab seine gleichmäßige Form und verhindert das Zerfallen. Die panierten Stücke können eingepackt eingefroren und bei Bedarf direkt frittiert werden.",
+    "ingredients": {
+      "add-014-i1": {
+        "name": "Gehackte Hähnchenbrust",
+        "standardAmount": "500 g"
+      },
+      "add-014-i2": {
+        "name": "Weißer Toast (ohne Ränder)",
+        "standardAmount": "5 Scheiben"
+      },
+      "add-014-i3": {
+        "name": "Ketchup",
+        "standardAmount": "2 EL"
+      },
+      "add-014-i4": {
+        "name": "Paprikapulver und Salz",
+        "standardAmount": "je 1 TL"
+      },
+      "add-014-i5": {
+        "name": "Ingwer, schwarzer Pfeffer und Zwiebelpulver",
+        "standardAmount": "je ½ TL"
+      },
+      "add-014-i6": {
+        "name": "Gehackter Knoblauch",
+        "standardAmount": "2 Zehen"
+      },
+      "add-014-i7": {
+        "name": "Mehl zum Panieren",
+        "standardAmount": "½ Tasse"
+      },
+      "add-014-i8": {
+        "name": "Verquirlte Eier mit Milch",
+        "standardAmount": "2 Eier + ½ Tasse Milch"
+      },
+      "add-014-i9": {
+        "name": "Grobe (knusprige) Semmelbrösel",
+        "standardAmount": "1 große Tasse"
+      },
+      "add-014-i10": {
+        "name": "Öl zum Frittieren",
+        "standardAmount": "nach Bedarf"
+      }
+    },
+    "instructions": {
+      "1": "Den Toast fein zerkleinern, dann das Hähnchen hacken und beides zusammen mit Ketchup, Knoblauch und den Gewürzen in der Küchenmaschine zu einer homogenen Masse vermengen.",
+      "2": "Die Masse gleichmäßig auf einem gefetteten Backblech ausstreichen und für eine Stunde einfrieren.",
+      "3": "Die Masse in gleichmäßige Streifen oder Rechtecke schneiden und jedes Stück erst in Mehl, dann in die Ei-Milch-Mischung und schließlich in die Semmelbrösel wälzen.",
+      "4": "Die panierten Stücke für eine weitere Stunde ins Gefrierfach geben, damit die Panade fest wird.",
+      "5": "In reichlich Öl bei mittlerer Hitze goldbraun frittieren und auf Küchenpapier abtropfen lassen.",
+      "6": "Für eine leichtere Variante die Stücke mit Öl bestreichen und bei 200 °C für 20 Minuten backen, dabei einmal wenden."
+    }
+  },
+  "add-017": {
+    "title": "Geröstete Kräuterkartoffeln mit Tahini-Joghurt-Sauce",
+    "prepTime": "10 Min.",
+    "cookTime": "30 Min.",
+    "servings": "3-4 Personen",
+    "culturalNotes": "Das Abdecken der Kartoffeln zu Beginn lässt sie im eigenen Dampf garen, sodass sie innen weich werden. Das anschließende Entfernen der Abdeckung unter dem Grill sorgt für eine knusprige Kruste ohne viel Öl.",
+    "ingredients": {
+      "add-017-i1": {
+        "name": "Große Kartoffeln",
+        "standardAmount": "2 Stück (ca. 600 g)"
+      },
+      "add-017-i2": {
+        "name": "Olivenöl",
+        "standardAmount": "¼ Tasse"
+      },
+      "add-017-i3": {
+        "name": "Gehackter Knoblauch",
+        "standardAmount": "1 TL"
+      },
+      "add-017-i4": {
+        "name": "Zwiebelpulver und Knoblauchpulver",
+        "standardAmount": "½ TL von jedem"
+      },
+      "add-017-i5": {
+        "name": "Paprikapulver, getrockneter Koriander und getrockneter Thymian",
+        "standardAmount": "1 TL von jedem"
+      },
+      "add-017-i6": {
+        "name": "Salz",
+        "standardAmount": "nach Belieben"
+      },
+      "add-017-i7": {
+        "name": "Tahini",
+        "standardAmount": "2 EL"
+      },
+      "add-017-i8": {
+        "name": "Joghurt",
+        "standardAmount": "2 EL"
+      },
+      "add-017-i9": {
+        "name": "Wasser und weißer Essig",
+        "standardAmount": "2 EL von jedem"
+      },
+      "add-017-i10": {
+        "name": "Geriebener Knoblauch und Kreuzkümmel für die Sauce",
+        "standardAmount": "1 kleine Zehe + ½ TL"
+      },
+      "add-017-i11": {
+        "name": "Petersilie oder frischer Koriander zum Garnieren",
+        "standardAmount": "nach Belieben"
+      }
+    },
+    "instructions": {
+      "1": "Die Kartoffeln schälen, in mittelgroße Würfel oder Spalten schneiden und in einer Schüssel mit Olivenöl, Knoblauch, Gewürzen und Salz vermengen, bis sie gleichmäßig bedeckt sind.",
+      "2": "Die Kartoffeln nebeneinander auf ein Backblech verteilen, mit Backpapier und anschließend mit Alufolie abdecken und bei 200 °C für 20 Minuten backen.",
+      "3": "Die Abdeckung entfernen und die Kartoffeln unter dem Grill rösten, bis sie goldbraun und knusprig sind.",
+      "4": "Tahini, Joghurt, Wasser, Essig, Knoblauch, Kreuzkümmel und Salz vermischen, bis die Sauce cremig ist.",
+      "5": "Die Kartoffeln mit Petersilie bestreuen und mit der Tahini-Joghurt-Sauce servieren."
+    }
   }
 }
