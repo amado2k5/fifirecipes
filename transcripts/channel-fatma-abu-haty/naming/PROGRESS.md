@@ -1,0 +1,21 @@
+# Naming progress
+
+Branch: `claude/jolly-pasteur-xj543v`. Follow `NAMING.md` in this folder.
+
+Resume: `git pull origin claude/jolly-pasteur-xj543v`, then name the first batch below
+that is not done and write its `result_NNN.jsonl`. The checker lives on branch
+`claude/laughing-pascal-t0xocg` (`scripts/recipe-videos/channel/check_naming.py`);
+get it with `git show origin/claude/laughing-pascal-t0xocg:scripts/recipe-videos/channel/check_naming.py > /tmp/check_naming.py`
+and run `python /tmp/check_naming.py transcripts/channel-fatma-abu-haty`.
+
+| Batch | Videos | Status |
+|---|---|---|
+| 001 | 100 | in progress |
+| 002 | 100 | todo |
+| 003 | 100 | todo |
+| 004 | 100 | todo |
+| 005 | 100 | todo |
+| 006 | 100 | todo |
+| 007 | 100 | todo |
+| 008 | 100 | todo |
+| 009 | 71 | todo |
