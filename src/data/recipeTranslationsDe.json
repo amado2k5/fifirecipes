@@ -10678,5 +10678,601 @@
       "2": "Das Eiweiß mit einer Prise Salz steif schlagen.",
       "3": "Das Gelee oder die Marmelade unter das Eiweiß heben und gut schlagen, bis die Masse mittelfest und gut streichfähig ist."
     }
+  },
+  "add-009": {
+    "title": "Fluffige Harissa mit Kokosnuss",
+    "prepTime": "15 Min.",
+    "cookTime": "45 Min.",
+    "servings": "12 Stück",
+    "culturalNotes": "Die levantinische Harissa ähnelt der ägyptischen Basbousa, enthält jedoch Eier und Mehl, was ihr eine Textur verleiht, die eher an einen weichen Kuchen erinnert.",
+    "ingredients": {
+      "add-009-i1": {
+        "name": "Grieß",
+        "standardAmount": "1 Tasse"
+      },
+      "add-009-i2": {
+        "name": "Mehl",
+        "standardAmount": "1 Tasse"
+      },
+      "add-009-i3": {
+        "name": "Kokosraspel",
+        "standardAmount": "½ Tasse"
+      },
+      "add-009-i4": {
+        "name": "Zucker",
+        "standardAmount": "1 Tasse"
+      },
+      "add-009-i5": {
+        "name": "Backpulver",
+        "standardAmount": "2 TL"
+      },
+      "add-009-i6": {
+        "name": "Vanille",
+        "standardAmount": "1 EL"
+      },
+      "add-009-i7": {
+        "name": "Öl",
+        "standardAmount": "½ Tasse"
+      },
+      "add-009-i8": {
+        "name": "Joghurt",
+        "standardAmount": "1 Tasse"
+      },
+      "add-009-i9": {
+        "name": "Eier (Zimmertemperatur)",
+        "standardAmount": "3 Stück"
+      },
+      "add-009-i10": {
+        "name": "Sirup: Zucker",
+        "standardAmount": "2 ½ Tassen"
+      },
+      "add-009-i11": {
+        "name": "Sirup: Wasser",
+        "standardAmount": "2 ½ Tassen"
+      },
+      "add-009-i12": {
+        "name": "Sirup: Zitronensaft",
+        "standardAmount": "Saft einer halben Zitrone"
+      }
+    },
+    "instructions": {
+      "1": "Zucker und Wasser bei mittlerer Hitze aufkochen, dann den Zitronensaft hinzufügen und 10 Minuten bei schwacher Hitze köcheln lassen, danach abkühlen lassen.",
+      "2": "Die Eier mit Zucker und Vanille aufschlagen, bis der Zucker beginnt sich aufzulösen, dann Joghurt und Öl hinzufügen.",
+      "3": "Grieß und Kokosraspel hinzufügen, dann das mit Backpulver gesiebte Mehl unterrühren, bis die Mischung homogen ist.",
+      "4": "Die Mischung in eine gefettete Form (23 cm Durchmesser) gießen und die Form leicht auf die Arbeitsfläche klopfen, um sie zu glätten.",
+      "5": "Im vorgeheizten Ofen erst 10 Minuten bei 200 °C, dann weitere 30-35 Minuten bei 180 °C backen, bis sie goldbraun ist.",
+      "6": "Den kalten Sirup sofort nach dem Herausnehmen aus dem Ofn über die heiße Harissa gießen und vor dem Schneiden ruhen lassen."
+    }
+  },
+  "add-005": {
+    "title": "Cinnabon (Zimtrollen)",
+    "prepTime": "30 Min. + 1½ Std. Gehzeit",
+    "cookTime": "25 Min.",
+    "servings": "12 Stück",
+    "culturalNotes": "Das Schneiden der Rollen mit einem Faden statt mit einem Messer verhindert das Zusammendrücken des Teigs und erhält die runden Formen. Abgedeckt zwei Tage haltbar; vor dem Servieren für einige Sekunden in der Mikrowelle erwärmen.",
+    "ingredients": {
+      "add-005-i1": {
+        "name": "Mehl",
+        "standardAmount": "3 bis 3½ Tassen"
+      },
+      "add-005-i2": {
+        "name": "warmes Wasser",
+        "standardAmount": "1 Tasse"
+      },
+      "add-005-i3": {
+        "name": "Eier",
+        "standardAmount": "2 Stück"
+      },
+      "add-005-i4": {
+        "name": "geschmolzene Butter für den Teig",
+        "standardAmount": "1½ EL"
+      },
+      "add-005-i5": {
+        "name": "Milchpulver",
+        "standardAmount": "3 EL"
+      },
+      "add-005-i6": {
+        "name": "Schlagsahne-Pulver (Chantilly)",
+        "standardAmount": "½ Beutel"
+      },
+      "add-005-i7": {
+        "name": "Instant-Hefe",
+        "standardAmount": "½ EL"
+      },
+      "add-005-i8": {
+        "name": "Zucker für den Teig",
+        "standardAmount": "1½ EL"
+      },
+      "add-005-i9": {
+        "name": "Backpulver und Salz",
+        "standardAmount": "½ TL + ¼ TL"
+      },
+      "add-005-i10": {
+        "name": "weiche Butter für die Füllung",
+        "standardAmount": "100 g"
+      },
+      "add-005-i11": {
+        "name": "brauner Zucker",
+        "standardAmount": "½ Tasse"
+      },
+      "add-005-i12": {
+        "name": "gemahlener Zimt",
+        "standardAmount": "1 EL"
+      },
+      "add-005-i13": {
+        "name": "Frischkäse für den Guss",
+        "standardAmount": "¼ Tasse"
+      },
+      "add-005-i14": {
+        "name": "Puderzucker",
+        "standardAmount": "½ Tasse"
+      },
+      "add-005-i15": {
+        "name": "Milch und Vanille für den Guss",
+        "standardAmount": "1 EL + ¼ TL"
+      }
+    },
+    "instructions": {
+      "1": "Die Hefe im warmen Wasser mit dem Zucker aktivieren, dann die Eier, die Butter, das Milchpulver und das Schlagsahne-Pulver hinzufügen.",
+      "2": "Das Mehl zusammen mit dem Backpulver und dem Salz schrittweise hinzufügen, 10 Minuten lang kneten, bis der Teig glatt ist, dann abdecken und eine Stunde zum Gehen lassen.",
+      "3": "Den Teig zu einem dünnen Rechteck ausrollen, mit der weichen Butter bestreichen und die Mischung aus braunem Zucker und Zimt darüberstreuen.",
+      "4": "Den Teig von der langen Seite fest aufrollen und mit einem Faden in Scheiben schneiden, um die runde Form zu bewahren.",
+      "5": "Die Rollen in eine gefettete Backform legen und 30 Minuten ruhen lassen, dann bei 180 Grad für 20-25 Minuten goldbraun backen.",
+      "6": "Den Frischkäse mit dem Puderzucker, der Milch und der Vanille aufschlagen und auf die noch warmen Rollen verteilen."
+    }
+  },
+  "add-004": {
+    "title": "Sambuse mit Hackfleisch",
+    "prepTime": "45 Min.",
+    "cookTime": "25 Min.",
+    "servings": "20-24 Stück",
+    "culturalNotes": "Sambuse sind eine der bekanntesten Vorspeisen auf dem Ramadan-Tisch im Golf, in der Levante und in Ägypten. Sie können vorbereitet und vor dem Frittieren eingefroren werden, um dann direkt aus dem Gefrierfach frittiert zu werden.",
+    "ingredients": {
+      "add-004-i1": {
+        "name": "Mehl",
+        "standardAmount": "2 Tassen"
+      },
+      "add-004-i2": {
+        "name": "Wasser",
+        "standardAmount": "ca. ½ Tasse"
+      },
+      "add-004-i3": {
+        "name": "Öl für den Teig",
+        "standardAmount": "2 EL"
+      },
+      "add-004-i4": {
+        "name": "Salz und Zucker für den Teig",
+        "standardAmount": "je 1 TL"
+      },
+      "add-004-i5": {
+        "name": "Hackfleisch",
+        "standardAmount": "500 g"
+      },
+      "add-004-i6": {
+        "name": "Fein gehackte Zwiebel",
+        "standardAmount": "1 Zwiebel"
+      },
+      "add-004-i7": {
+        "name": "Zerdrückter Knoblauch",
+        "standardAmount": "2 Zehen"
+      },
+      "add-004-i8": {
+        "name": "Kreuzkümmel, Kurkuma und schwarzer Pfeffer",
+        "standardAmount": "je ½ TL"
+      },
+      "add-004-i9": {
+        "name": "Gehackte Petersilie oder Koriander",
+        "standardAmount": "¼ Tasse"
+      },
+      "add-004-i10": {
+        "name": "Öl zum Frittieren",
+        "standardAmount": "nach Bedarf"
+      }
+    },
+    "instructions": {
+      "1": "Das Mehl mit Salz, Zucker und Öl vermischen, dann das Wasser schrittweise unter Kneten hinzufügen, bis ein glatter Teig entsteht; den Teig abdecken und 30 Minuten ruhen lassen.",
+      "2": "Zwiebeln und Knoblauch in zwei Esslöffeln Öl glasig dünsten, dann das Fleisch hinzufügen und umrühren, bis es krümelig gegart ist.",
+      "3": "Die Gewürze und das Salz hinzufügen und rühren, bis die Fleischsäfte vollständig eingekocht sind; dann die Petersilie unterrühren und die Füllung abkühlen lassen.",
+      "4": "Den Teig dünn ausrollen und in Kreise schneiden. Jeden Kreis halbieren, die Hälften zu Kegeln formen, mit der Füllung füllen und die Ränder mit etwas Wasser versiegeln.",
+      "5": "Die Sambuse in mittelheißem Öl goldbraun und knusprig frittieren, anschließend auf Küchenpapier abtropfen lassen.",
+      "6": "Anstelle des Teigs können auch fertige Sambuse-Teigblätter verwendet werden, oder die Stücke mit Öl bestreichen und bei 200 °C etwa 15 Minuten backen."
+    }
+  },
+  "add-008": {
+    "title": "Libysche Mbakbaka mit Fleisch",
+    "prepTime": "15 min",
+    "cookTime": "60 min",
+    "servings": "4-5 Personen",
+    "culturalNotes": "Mbakbaka bedeutet das Gericht, das im Topf 'blubbert'. Es ist ein libysches One-Pot-Gericht, bei dem die Pasta direkt in der scharfen Brühe gekocht wird, anstatt sie separat in Wasser zu kochen.",
+    "ingredients": {
+      "add-008-i1": {
+        "name": "Lamm- oder Rindfleisch mit Knochen, gewürfelt",
+        "standardAmount": "700 g"
+      },
+      "add-008-i2": {
+        "name": "Kleine Pasta (Ringe oder kurze Nudeln)",
+        "standardAmount": "400 g"
+      },
+      "add-008-i3": {
+        "name": "Gehackte Zwiebel",
+        "standardAmount": "1 große Zwiebel"
+      },
+      "add-008-i4": {
+        "name": "Öl oder Ghee",
+        "standardAmount": "3 EL"
+      },
+      "add-008-i5": {
+        "name": "Ganze grüne Chilischoten",
+        "standardAmount": "2 Stück"
+      },
+      "add-008-i6": {
+        "name": "Zerdrückter Knoblauch",
+        "standardAmount": "3 Zehen"
+      },
+      "add-008-i7": {
+        "name": "Tomatenmark",
+        "standardAmount": "3 EL"
+      },
+      "add-008-i8": {
+        "name": "Tomatensaft",
+        "standardAmount": "2 Tassen"
+      },
+      "add-008-i9": {
+        "name": "Kartoffel, gewürfelt",
+        "standardAmount": "1 große Kartoffel"
+      },
+      "add-008-i10": {
+        "name": "Gekochte Kichererbsen",
+        "standardAmount": "1 Tasse"
+      },
+      "add-008-i11": {
+        "name": "Libysche Gewürze (Hrarat) oder Mischgewürze",
+        "standardAmount": "1 TL"
+      },
+      "add-008-i12": {
+        "name": "Kurkuma und getrockneter Koriander",
+        "standardAmount": "je 1 TL"
+      },
+      "add-008-i13": {
+        "name": "Chili und schwarzer Pfeffer",
+        "standardAmount": "je ½ TL"
+      },
+      "add-008-i14": {
+        "name": "Salz",
+        "standardAmount": "1 ½ TL"
+      },
+      "add-008-i15": {
+        "name": "Kochendes Wasser",
+        "standardAmount": "5-6 Tassen"
+      }
+    },
+    "instructions": {
+      "1": "Das Öl in einem tiefen Topf erhitzen und die Zwiebel mit dem Fleisch anbraten, bis das Fleisch die Farbe ändert und die Zwiebeln goldbraun sind.",
+      "2": "Tomatenmark, Kurkuma, Hrarat, Chili, Koriander und Pfeffer hinzufügen und zwei Minuten lang umrühren, bis die Gewürze duften.",
+      "3": "Tomatensaft und kochendes Wasser hinzufügen, den Topf abdecken und bei schwacher Hitze 35-40 Minuten köcheln lassen, bis das Fleisch fast gar ist.",
+      "4": "Kartoffelwürfel, Kichererbsen, Knoblauch und Chilischoten hinzufügen, mit Salz abschmecken und 10 Minuten köcheln lassen.",
+      "5": "Die ungekochte Pasta direkt in die Brühe geben und gelegentlich 10-12 Minuten lang rühren, bis sie gar ist, die Sauce aufnimmt und die Sauce schön sämig bleibt.",
+      "6": "Den Topf nach dem Ausschalten der Hitze 5 Minuten abgedeckt stehen lassen und dann heiß servieren."
+    }
+  },
+  "add-003": {
+    "title": "Basbousa mit Kokosnuss und Joghurt",
+    "prepTime": "15 Min.",
+    "cookTime": "35 Min.",
+    "servings": "8 Personen",
+    "culturalNotes": "Diese Basbousa kommt ohne Eier aus, wobei die Kokosnuss für eine zugleich mürbe und feuchte Textur sorgt. Das Übergießen der heißen Basbousa mit lauwarmem Sirup stellt sicher, dass sie die Flüssigkeit gut aufnimmt, ohne teigig zu werden.",
+    "ingredients": {
+      "add-003-i1": {
+        "name": "Grobe Semolina",
+        "standardAmount": "½ Tasse"
+      },
+      "add-003-i2": {
+        "name": "Geraspelte Kokosnuss",
+        "standardAmount": "½ Tasse"
+      },
+      "add-003-i3": {
+        "name": "Mehl",
+        "standardAmount": "½ Tasse"
+      },
+      "add-003-i4": {
+        "name": "Zucker",
+        "standardAmount": "½ Tasse"
+      },
+      "add-003-i5": {
+        "name": "Backpulver",
+        "standardAmount": "1 TL"
+      },
+      "add-003-i6": {
+        "name": "Vanille",
+        "standardAmount": "½ TL"
+      },
+      "add-003-i7": {
+        "name": "Salz",
+        "standardAmount": "¼ TL"
+      },
+      "add-003-i8": {
+        "name": "Geschmolzene Butter mit Öl gemischt",
+        "standardAmount": "½ Tasse"
+      },
+      "add-003-i9": {
+        "name": "Joghurt",
+        "standardAmount": "½ Tasse"
+      },
+      "add-003-i10": {
+        "name": "Milch",
+        "standardAmount": "½ Tasse"
+      },
+      "add-003-i11": {
+        "name": "Sirup: Zucker",
+        "standardAmount": "½ Tasse"
+      },
+      "add-003-i12": {
+        "name": "Sirup: Wasser",
+        "standardAmount": "½ Tasse"
+      },
+      "add-003-i13": {
+        "name": "Sirup: Zitronensaft",
+        "standardAmount": "1 TL"
+      }
+    },
+    "instructions": {
+      "1": "Zucker und Wasser bei mittlerer Hitze aufkochen, dann den Zitronensaft hinzufügen, 5 Minuten köcheln lassen und zum Abkühlen beiseite stellen.",
+      "2": "Die trockenen Zutaten mischen: Semolina, Mehl, Kokosnuss, Zucker, Backpulver, Vanille und Salz.",
+      "3": "Joghurt und Milch mit der Butter-Öl-Mischung verrühren, dann die Flüssigkeit zur trockenen Mischung geben und vorsichtig unterheben, ohne zu kneten, bis alles glatt ist.",
+      "4": "Die Mischung in eine gefettete Form gießen, glatt streichen und vor dem Backen in Quadrate schneiden.",
+      "5": "Auf dem mittleren Rost in einem auf 180 Grad vorgeheizten Ofen mit Unterhitze backen, bis die Ränder braun werden, dann mit Oberhitze backen, bis die Oberfläche Farbe annimmt.",
+      "6": "Den lauwarmen Sirup sofort nach dem Backen über die heiße Basbousa gießen und sie vor dem endgültigen Schneiden vollständig durchziehen lassen."
+    }
+  },
+  "add-002": {
+    "title": "Chicken Kabsa",
+    "prepTime": "20 min",
+    "cookTime": "60 min",
+    "servings": "5-6 Personen",
+    "culturalNotes": "Kabsa ist das Nationalgericht in Saudi-Arabien und den Golfstaaten. Loomi (getrocknete schwarze Limette) verleiht dem Gericht seine säuerliche Note und sein charakteristisches Aroma. Dieselbe Methode kann auch mit Fleisch oder Garnelen angewendet werden.",
+    "ingredients": {
+      "add-002-i1": {
+        "name": "Hähnchen, in Viertel geschnitten",
+        "standardAmount": "1 Hähnchen (ca. 1,2 kg)"
+      },
+      "add-002-i2": {
+        "name": "Basmati-Reis, 30 Min. eingeweicht",
+        "standardAmount": "3 Tassen"
+      },
+      "add-002-i3": {
+        "name": "Zwiebeln, gehackt",
+        "standardAmount": "2 Zwiebeln"
+      },
+      "add-002-i4": {
+        "name": "Knoblauch, gehackt",
+        "standardAmount": "4 Zehen"
+      },
+      "add-002-i5": {
+        "name": "Tomaten, gehackt",
+        "standardAmount": "2 Stück"
+      },
+      "add-002-i6": {
+        "name": "Tomatenmark",
+        "standardAmount": "1 EL"
+      },
+      "add-002-i7": {
+        "name": "Karotte, grob gerieben",
+        "standardAmount": "1 Karotte"
+      },
+      "add-002-i8": {
+        "name": "Grüne Chilischote",
+        "standardAmount": "1 Stück"
+      },
+      "add-002-i9": {
+        "name": "Öl oder Ghee",
+        "standardAmount": "3 EL"
+      },
+      "add-002-i10": {
+        "name": "Kabsa-Gewürzmischung",
+        "standardAmount": "1 EL"
+      },
+      "add-002-i11": {
+        "name": "Loomi (schwarze Limette), Kardamom, Zimt und Lorbeerblätter",
+        "standardAmount": "2 Loomi + 4 Kardamomkapseln + 1 Zimtstange + 2 Lorbeerblätter"
+      },
+      "add-002-i12": {
+        "name": "Heißes Wasser",
+        "standardAmount": "4 ½ Tassen"
+      },
+      "add-002-i13": {
+        "name": "Salz",
+        "standardAmount": "nach Belieben"
+      },
+      "add-002-i14": {
+        "name": "Geröstete Mandeln und Rosinen zum Garnieren",
+        "standardAmount": "¼ Tasse"
+      }
+    },
+    "instructions": {
+      "1": "Das Öl in einem weiten Topf erhitzen und die Zwiebeln darin anbraten, bis sie glasig sind, dann Knoblauch und die Chilischote hinzufügen.",
+      "2": "Die Hähnchenstücke hinzufügen und zusammen mit den Zwiebeln anbraten, bis sie von allen Seiten die Farbe verändert haben.",
+      "3": "Tomaten, Tomatenmark, Karotten, Kabsa-Gewürze und die ganzen Gewürze hinzufügen und rühren, bis die Tomaten eingekocht sind.",
+      "4": "Das heiße Wasser eingießen, mit Salz abschmecken und das Hähnchen bei mittlerer Hitze etwa 30 Minuten köcheln lassen, bis es gar ist.",
+      "5": "Das Hähnchen herausnehmen und im Ofen oder in einer Pfanne goldbraun anbraten; die verbleibende Brühe auf etwa 4 Tassen abmessen.",
+      "6": "Den abgetropften Reis zur kochenden Brühe geben und bei hoher Hitze kochen, bis das meiste Wasser aufgenommen wurde, dann abdecken und bei sehr geringer Hitze 20 Minuten ziehen lassen.",
+      "7": "Den Reis vorsichtig auflockern, auf einer Servierplatte ausbreiten, das Hähnchen darauf anrichten und mit Mandeln und Rosinen garnieren."
+    }
+  },
+  "add-007": {
+    "title": "Fluffiger Rosinenkuchen",
+    "prepTime": "20 Min.",
+    "cookTime": "45-50 Min.",
+    "servings": "8 Personen",
+    "culturalNotes": "Die Rosinen zehn Minuten lang in Rosenwasser oder Orangensaft einweichen und dann abtrocknen, bevor sie mit Mehl bestäubt werden, macht sie weicher und verleiht eine frische Note.",
+    "ingredients": {
+      "add-007-i1": {
+        "name": "gesiebtes Mehl",
+        "standardAmount": "2½ Tassen"
+      },
+      "add-007-i2": {
+        "name": "Backpulver",
+        "standardAmount": "1 EL"
+      },
+      "add-007-i3": {
+        "name": "Salz",
+        "standardAmount": "1 Prise"
+      },
+      "add-007-i4": {
+        "name": "Rosinen",
+        "standardAmount": "1 Tasse"
+      },
+      "add-007-i5": {
+        "name": "Eier",
+        "standardAmount": "3 große"
+      },
+      "add-007-i6": {
+        "name": "Zucker",
+        "standardAmount": "1 Tasse"
+      },
+      "add-007-i7": {
+        "name": "Milch",
+        "standardAmount": "¾ Tasse"
+      },
+      "add-007-i8": {
+        "name": "Öl oder geschmolzene Butter",
+        "standardAmount": "½ Tasse"
+      },
+      "add-007-i9": {
+        "name": "Vanille",
+        "standardAmount": "1 EL"
+      },
+      "add-007-i10": {
+        "name": "weißer Essig",
+        "standardAmount": "1 TL"
+      }
+    },
+    "instructions": {
+      "1": "Die Rosinen mit einem Esslöffel Mehl vermengen, bis sie bestäubt sind; dies verhindert, dass sie auf den Boden der Form sinken.",
+      "2": "Die Eier mit Zucker und Vanille schlagen, bis die Masse das Volumen verdoppelt hat und hell ist, dann Öl, Milch und Essig hinzufügen.",
+      "3": "Das gesiebte Mehl zusammen mit dem Backpulver und Salz schrittweise hinzufügen und vorsichtig unterrühren, zum Schluss die Rosinen mit einem Löffel unterheben.",
+      "4": "Die Mischung in eine gefettete Form gießen und in einem auf 180 Grad vorgeheizten Ofen für 45-50 Minuten backen, bis die Stäbchenprobe sauber bleibt.",
+      "5": "Den Kuchen vollständig abkühlen lassen, bevor er angeschnitten wird, damit die Rosinen fest in der Textur bleiben."
+    }
+  },
+  "add-010": {
+    "title": "Fluffige Donuts aus Hefeteig",
+    "prepTime": "30 Min. + 1,5 Std. Gehzeit",
+    "cookTime": "15 Min.",
+    "servings": "6 große Stück",
+    "culturalNotes": "Die Öltemperatur ist das Geheimnis: Wenn sie über 160 Grad liegt, verbrennen die Donuts außen, bevor sie innen gar sind; wenn sie darunter liegt, saugen sie sich mit Öl voll.",
+    "ingredients": {
+      "add-010-i1": {
+        "name": "Allzweckmehl",
+        "standardAmount": "2 ¼ Tassen"
+      },
+      "add-010-i2": {
+        "name": "Trockenhefe",
+        "standardAmount": "1 EL"
+      },
+      "add-010-i3": {
+        "name": "Salz",
+        "standardAmount": "¼ TL"
+      },
+      "add-010-i4": {
+        "name": "warme Milch",
+        "standardAmount": "½ Tasse"
+      },
+      "add-010-i5": {
+        "name": "weiche Butter",
+        "standardAmount": "¼ Tasse"
+      },
+      "add-010-i6": {
+        "name": "Ei",
+        "standardAmount": "1 Stück"
+      },
+      "add-010-i7": {
+        "name": "Vanille",
+        "standardAmount": "1 TL"
+      },
+      "add-010-i8": {
+        "name": "Zucker",
+        "standardAmount": "2 EL"
+      },
+      "add-010-i9": {
+        "name": "Öl zum Frittieren",
+        "standardAmount": "nach Bedarf"
+      },
+      "add-010-i10": {
+        "name": "Zum Glasieren: Zucker und Zimt oder weiße und dunkle Schokoladensauce",
+        "standardAmount": "nach Belieben"
+      }
+    },
+    "instructions": {
+      "1": "Alle Zutaten außer der Milch in die Rührschüssel geben, dann die Milch schrittweise hinzufügen und 10 Minuten kneten, bis der Teig glatt ist und leicht an den Händen klebt.",
+      "2": "Den Teig zu einer Kugel formen, in eine gefettete Schüssel legen, abdecken und eine bis anderthalb Stunden gehen lassen.",
+      "3": "Den Teig 2 cm dick ausrollen und mit einem Glas Kreise ausschneiden, dann die Mitte mit einem kleinen Deckel ausstechen; die Reste erneut ausrollen und ausschneiden.",
+      "4": "Die Teigstücke auf Backpapier auslegen und eine Viertelstunde lang für die zweite Gehzeit ruhen lassen.",
+      "5": "In reichlich Öl bei 160 Grad frittieren; jede Seite wenden, sobald sie goldbraun ist, bis die Farbe gleichmäßig ist.",
+      "6": "Noch heiß in der Zucker-Zimt-Mischung wälzen oder abkühlen lassen und dann in weiße Schokolade tauchen und mit dunklen Schokoladenstreifen verzieren."
+    }
+  },
+  "add-006": {
+    "title": "Pfannen-Pizza ohne Ofen",
+    "prepTime": "10 Min.",
+    "cookTime": "15 Min.",
+    "servings": "2-4 Personen",
+    "culturalNotes": "Diese Pizza erfordert kein Kneten oder langes Gehenlassen. Das Geheimnis ist sehr geringe Hitze und ein fest schließender Deckel, damit der Teig von innen gar wird, bevor der Boden verbrennt.",
+    "ingredients": {
+      "add-006-i1": {
+        "name": "Mehl",
+        "standardAmount": "2 Tassen"
+      },
+      "add-006-i2": {
+        "name": "warmes Wasser",
+        "standardAmount": "1 ¾ Tassen"
+      },
+      "add-006-i3": {
+        "name": "Pflanzenöl",
+        "standardAmount": "70 ml"
+      },
+      "add-006-i4": {
+        "name": "Milchpulver",
+        "standardAmount": "3 EL"
+      },
+      "add-006-i5": {
+        "name": "Zucker",
+        "standardAmount": "1 EL"
+      },
+      "add-006-i6": {
+        "name": "Instant-Hefe und Backpulver",
+        "standardAmount": "je 1 TL"
+      },
+      "add-006-i7": {
+        "name": "Oregano und Salz",
+        "standardAmount": "1 TL + ¼ TL"
+      },
+      "add-006-i8": {
+        "name": "Tomatenmark",
+        "standardAmount": "2 EL"
+      },
+      "add-006-i9": {
+        "name": "Knoblauchpulver, Thymian und getrockneter Basilikum",
+        "standardAmount": "1 TL Knoblauch + 1 TL Thymian + ½ TL Basilikum"
+      },
+      "add-006-i10": {
+        "name": "Mozzarella",
+        "standardAmount": "200 g"
+      },
+      "add-006-i11": {
+        "name": "Paprika und gewürfelte Tomaten",
+        "standardAmount": "1 grüne Paprika + 1 gelbe Paprika + 1 Tomate"
+      },
+      "add-006-i12": {
+        "name": "Oliven in Scheiben",
+        "standardAmount": "nach Belieben"
+      }
+    },
+    "instructions": {
+      "1": "Mischen Sie das Tomatenmark mit Knoblauchpulver, Thymian, Basilikum sowie etwas Zucker und Salz, um eine schnelle Sauce zuzubereiten.",
+      "2": "Vermischen Sie die trockenen Zutaten für den Teig, geben Sie dann Öl und Wasser hinzu und rühren die Mischung von Hand, bis ein glatter, flüssiger Teig entsteht.",
+      "3": "Fetten Sie eine Pfanne mit Öl ein, gießen Sie die Hälfte des Teigs hinein und streichen Sie ihn glatt.",
+      "4": "Verteilen Sie die Sauce, dann eine Schicht Käse, gefolgt von Gemüse und Oliven, und geben Sie zum Abschluss den restlichen Käse darüber.",
+      "5": "Decken Sie die Pfanne fest ab und lassen Sie sie 10-15 Minuten bei sehr geringer Hitze garen, bis der Teig durchgebacken und der Käse geschmolzen ist; wiederholen Sie den Vorgprung mit dem restlichen Teig."
+    }
   }
 }

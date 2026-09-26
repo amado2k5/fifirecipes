@@ -10678,5 +10678,607 @@
       "2": "Yumurta akını bir tutam tuzla sert köpük olana kadar çırpın.",
       "3": "Jöleyi ya da reçeli yumurta akına yavaşça katın ve orta koyulukta olup üzerine kolayca sürülene kadar iyice çırpın."
     }
+  },
+  "add-009": {
+    "title": "Hindistan Cevizli Yumuşak Harisa",
+    "prepTime": "15 dakika",
+    "cookTime": "45 dakika",
+    "servings": "12 parça",
+    "culturalNotes": "Levant bölgesindeki harisa, Mısır basbousasına benzer; ancak yumurta ve un içerdiği için dokusu yumuşak bir kek gibidir.",
+    "ingredients": {
+      "add-009-i1": {
+        "name": "İrmik",
+        "standardAmount": "1 su bardağı"
+      },
+      "add-009-i2": {
+        "name": "Un",
+        "standardAmount": "1 su bardağı"
+      },
+      "add-009-i3": {
+        "name": "Rendelenmiş Hindistan cevizi",
+        "standardAmount": "½ su bardağı"
+      },
+      "add-009-i4": {
+        "name": "Şeker",
+        "standardAmount": "1 su bardağı"
+      },
+      "add-009-i5": {
+        "name": "Kabartma tozu",
+        "standardAmount": "2 tatlı kaşığı"
+      },
+      "add-009-i6": {
+        "name": "Vanilya",
+        "standardAmount": "1 yemek kaşığı"
+      },
+      "add-009-i7": {
+        "name": "Sıvı yağ",
+        "standardAmount": "½ su bardağı"
+      },
+      "add-009-i8": {
+        "name": "Yoğurt",
+        "standardAmount": "1 su bardağı"
+      },
+      "add-009-i9": {
+        "name": "Oda sıcaklığında yumurta",
+        "standardAmount": "3 adet"
+      },
+      "add-009-i10": {
+        "name": "Şerbet: şeker",
+        "standardAmount": "2½ su bardağı"
+      },
+      "add-009-i11": {
+        "name": "Şerbet: su",
+        "standardAmount": "2½ su bardağı"
+      },
+      "add-009-i12": {
+        "name": "Şerbet: limon suyu",
+        "standardAmount": "½ limon suyu"
+      }
+    },
+    "instructions": {
+      "1": "Şeker ve suyu orta ateşte kaynatın, ardından limon suyunu ekleyip kısık ateşte 10 dakika daha kaynatın ve soğumaya bırakın.",
+      "2": "Yumurtaları şeker ve vanilya ile şeker çözünmeye başlayana kadar çırpın, ardından yoğurt ve yağı ekleyin.",
+      "3": "İrmik ve Hindistan cevizini, ardından kabartma tozu ile birlikte elenmiş unu ekleyip homojen bir kıvam alana kadar karıştırın.",
+      "4": "Karışımı yağlanmış 23 cm çapındaki kalıba dökün ve yüzeyin düzleşmesi için kalıba hafifçe vurun.",
+      "5": "Önceden ısıtılmış fırında önce 200 derecede 10 dakika, ardından 180 derecede altın rengini alana kadar 30-35 dakika pişirin.",
+      "6": "Fırından çıkan sıcak harisanın üzerine soğuk şerbeti dökün ve dilimlemeden önce dinlenmeye bırakın."
+    }
+  },
+  "add-005": {
+    "title": "Tarçınlı Sinabon",
+    "prepTime": "30 dakika + 1,5 saat mayalanma",
+    "cookTime": "25 dakika",
+    "servings": "12 adet",
+    "culturalNotes": "Ruloları bıçak yerine bir ip yardımıyla kesmek hamurun ezilmesini önler ve katmanların belirgin kalmasını sağlar. Üzeri kapalı şekilde iki gün saklanabilir; servis etmeden önce mikrodalgada birkaç saniye ısıtılması önerilir.",
+    "ingredients": {
+      "add-005-i1": {
+        "name": "Un",
+        "standardAmount": "3 - 3,5 su bardağı"
+      },
+      "add-005-i2": {
+        "name": "Ilık su",
+        "standardAmount": "1 su bardağı"
+      },
+      "add-005-i3": {
+        "name": "Yumurta",
+        "standardAmount": "2 adet"
+      },
+      "add-005-i4": {
+        "name": "Eritilmiş tereyağı (hamur için)",
+        "standardAmount": "1,5 yemek kaşığı"
+      },
+      "add-005-i5": {
+        "name": "Süt tozu",
+        "standardAmount": "3 yemek kaşığı"
+      },
+      "add-005-i6": {
+        "name": "Şanti tozu",
+        "standardAmount": "½ paket"
+      },
+      "add-005-i7": {
+        "name": "Instant maya",
+        "standardAmount": "½ yemek kaşığı"
+      },
+      "add-005-i8": {
+        "name": "Şeker (hamur için)",
+        "standardAmount": "1,5 yemek kaşığı"
+      },
+      "add-005-i9": {
+        "name": "Kabartma tozu ve tuz",
+        "standardAmount": "½ çay kaşığı + ¼ çay kaşığı"
+      },
+      "add-005-i10": {
+        "name": "Yumuşak tereyağı (iç dolgu için)",
+        "standardAmount": "100 g"
+      },
+      "add-005-i11": {
+        "name": "Esmer şeker",
+        "standardAmount": "½ su bardağı"
+      },
+      "add-005-i12": {
+        "name": "Toz tarçın",
+        "standardAmount": "1 yemek kaşığı"
+      },
+      "add-005-i13": {
+        "name": "Krem peynir (sos için)",
+        "standardAmount": "¼ su bardağı"
+      },
+      "add-005-i14": {
+        "name": "Pudra şekeri",
+        "standardAmount": "½ su bardağı"
+      },
+      "add-005-i15": {
+        "name": "Süt ve vanilya (sos için)",
+        "standardAmount": "1 yemek kaşığı + ¼ çay kaşığı"
+      }
+    },
+    "instructions": {
+      "1": "Maya, şeker ve ılık su ile aktive edildikten sonra yumurta, tereyağı, süt tozu ve şanti tozu eklenir.",
+      "2": "Un, kabartma tozu ve tuz azar azar eklenerek hamur pürüzsüz olana kadar 10 dakika yoğurulur; ardından üzerini kapatıp mayalanması için bir saat bekletilir.",
+      "3": "Hamur ince bir dikdörtgen şeklinde açılır, üzerine yumuşak tereyağı sürülür ve esmer şeker ile tarçın karışımı serpilir.",
+      "4": "Hamur uzun kenarından sıkıca rulo yapılır ve yuvarlak şeklini koruması için bir ip yardımıyla dilimlenir.",
+      "5": "Parçalar yağlanmış tepsiye dizilir ve 30 dakika bekletildikten sonra 180 derece fırında renk alana kadar 20-25 dakika pişirilir.",
+      "6": "Krem peynir, pudra şekeri, süt ve vanilya ile çırpılır; hazırlanan sos sıcak ruloların üzerine gezdirilir."
+    }
+  },
+  "add-004": {
+    "title": "Kıymalı Sambusa",
+    "prepTime": "45 dakika",
+    "cookTime": "25 dakika",
+    "servings": "20-24 adet",
+    "culturalNotes": "Sambusa, Körfez, Şam ve Mısır'da Ramazan sofralarının en meşhur atıştırmalıklarından biridir. Kızartmadan önce hazırlanıp dondurulabilir ve doğrudan dondurucudan çıkarılıp kızartılabilir.",
+    "ingredients": {
+      "add-004-i1": {
+        "name": "Un",
+        "standardAmount": "2 su bardağı"
+      },
+      "add-004-i2": {
+        "name": "Su",
+        "standardAmount": "yaklaşık yarım su bardağı"
+      },
+      "add-004-i3": {
+        "name": "Hamur için yağ",
+        "standardAmount": "2 yemek kaşığı"
+      },
+      "add-004-i4": {
+        "name": "Hamur için tuz ve şeker",
+        "standardAmount": "1'er tatlı kaşığı"
+      },
+      "add-004-i5": {
+        "name": "Kıyma",
+        "standardAmount": "500 gram"
+      },
+      "add-004-i6": {
+        "name": "İnce doğranmış soğan",
+        "standardAmount": "1 adet soğan"
+      },
+      "add-004-i7": {
+        "name": "Ezilmiş sarımsak",
+        "standardAmount": "2 diş"
+      },
+      "add-004-i8": {
+        "name": "Kimyon, zerdeçal ve karabiber",
+        "standardAmount": "yarımşar tatlı kaşığı"
+      },
+      "add-004-i9": {
+        "name": "Doğranmış maydanoz veya kişniş",
+        "standardAmount": "¼ su bardağı"
+      },
+      "add-004-i10": {
+        "name": "Kızartmak için yağ",
+        "standardAmount": "ihtiyaca göre"
+      }
+    },
+    "instructions": {
+      "1": "Unu tuz, şeker ve yağ ile karıştırın; pürüzsüz bir hamur elde edene kadar suyu yavaş yavaş ekleyerek yoğurun, ardından üzerini kapatıp 30 dakika dinlendirin.",
+      "2": "Soğan ve sarımsağı iki yemek kaşığı yağda yumuşayana kadar soteleyin, ardından kıymayı ekleyip parçalanıp pişene kadar karıştırarak kavurun.",
+      "3": "Baharatları ve tuzu ekleyin; etin suyu tamamen çekilene kadar karıştırın, ardından maydanozu ekleyip iç harcın soğumasını bekleyin.",
+      "4": "Hamuru ince açıp daireler şeklinde kesin; her daireyi ikiye bölün, her yarım parçayı bir külah şekline getirip iç harçla doldurun ve kenarlarını az miktarda suyla yapıştırın.",
+      "5": "Sambusaları orta sıcaklıktaki yağda altın sarısı ve çıtır olana kadar kızartın, ardından kağıt havlu üzerine alarak fazla yağını süzün.",
+      "6": "Hamur yerine hazır sambusa yufkaları kullanabilir veya parçaları yağlayıp 200 derecelik fırında yaklaşık 15 dakika pişirebilirsiniz."
+    }
+  },
+  "add-008": {
+    "title": "Etli Libya Mbakbakası",
+    "prepTime": "15 dakika",
+    "cookTime": "60 dakika",
+    "servings": "4-5 kişilik",
+    "culturalNotes": "Mbakbaka, tencerede 'fıkırdayan/kaynayan' yemek anlamına gelir. Her şeyin tek bir tencerede piştiği bir Libya yemeğidir; makarna ayrı suda haşlanmak yerine doğrudan baharatlı sosun içinde pişer.",
+    "ingredients": {
+      "add-008-i1": {
+        "name": "Kemikli kuzu veya dana eti, küp doğranmış",
+        "standardAmount": "700 g"
+      },
+      "add-008-i2": {
+        "name": "Küçük boy makarna (halka veya kısa kesim)",
+        "standardAmount": "400 g"
+      },
+      "add-008-i3": {
+        "name": "Doğranmış soğan",
+        "standardAmount": "1 büyük boy soğan"
+      },
+      "add-008-i4": {
+        "name": "Sıvı yağ veya sade yağ",
+        "standardAmount": "3 yemek kaşığı"
+      },
+      "add-008-i5": {
+        "name": "Bütün yeşil acı biber",
+        "standardAmount": "2 adet"
+      },
+      "add-008-i6": {
+        "name": "Ezilmiş sarımsak",
+        "standardAmount": "3 diş"
+      },
+      "add-008-i7": {
+        "name": "Domates salçası",
+        "standardAmount": "3 yemek kaşığı"
+      },
+      "add-008-i8": {
+        "name": "Domates suyu",
+        "standardAmount": "2 su bardağı"
+      },
+      "add-008-i9": {
+        "name": "Küp doğranmış patates",
+        "standardAmount": "1 büyük boy patates"
+      },
+      "add-008-i10": {
+        "name": "Haşlanmış nohut",
+        "standardAmount": "1 su bardağı"
+      },
+      "add-008-i11": {
+        "name": "Libya baharatı (hrarat) veya karışık baharat",
+        "standardAmount": "1 tatlı kaşığı"
+      },
+      "add-008-i12": {
+        "name": "Zerdeçal ve kuru kişniş",
+        "standardAmount": "Her birinden 1 tatlı kaşığı"
+      },
+      "add-008-i13": {
+        "name": "Acı biber ve karabiber",
+        "standardAmount": "Her birinden yarım tatlı kaşığı"
+      },
+      "add-008-i14": {
+        "name": "Tuz",
+        "standardAmount": "1,5 tatlı kaşığı"
+      },
+      "add-008-i15": {
+        "name": "Kaynar su",
+        "standardAmount": "5-6 su bardağı"
+      }
+    },
+    "instructions": {
+      "1": "Derin bir tencerede yağı ısıtın; etlerin rengi dönene ve soğanlar kızarana kadar eti ve soğanı birlikte soteleyin.",
+      "2": "Domates salçası, zerdeçal, hrarat, acı biber, kişniş ve karabiberi ekleyin; aromalar çıkana kadar iki dakika boyunca karıştırın.",
+      "3": "Domates suyunu ve kaynar suyu ekleyin, tencerenin kapağını kapatın ve etler büyük oranda yumuşayana kadar kısık ateşte 35-40 dakika pişirin.",
+      "4": "Patates, nohut, sarımsak ve acı biberi ekleyip tuzu ayarlayın ve 10 dakika daha pişirin.",
+      "5": "Çiğ makarnayı doğrudan sosun içine ekleyin; sos kıvam alıp makarnalar sosu çekene kadar ara ara karıştırarak 10-12 dakika pişirin.",
+      "6": "Ocağı kapattıktan sonra tencerenin kapağı kapalı halde 5 dakika bekletin, ardından sıcak servis yapın."
+    }
+  },
+  "add-003": {
+    "title": "Hindistan Cevizi ve Yoğurtlu Basbousa",
+    "prepTime": "15 dk",
+    "cookTime": "35 dk",
+    "servings": "8 kişilik",
+    "culturalNotes": "Bu basbousa yumurtasızdır; hindistan cevizi dokusunun hem kıyır hem de nemli olmasını sağlar. Sıcak basbousa üzerine dökülen ılık şerbet, tatlının hamurlaşmadan şerbeti çekmesini sağlar.",
+    "ingredients": {
+      "add-003-i1": {
+        "name": "İri irmik",
+        "standardAmount": "½ su bardağı"
+      },
+      "add-003-i2": {
+        "name": "Rendelenmiş hindistan cevizi",
+        "standardAmount": "½ su bardağı"
+      },
+      "add-003-i3": {
+        "name": "Un",
+        "standardAmount": "½ su bardağı"
+      },
+      "add-003-i4": {
+        "name": "Şeker",
+        "standardAmount": "½ su bardağı"
+      },
+      "add-003-i5": {
+        "name": "Kabartma tozu",
+        "standardAmount": "1 tatlı kaşığı"
+      },
+      "add-003-i6": {
+        "name": "Vanilya",
+        "standardAmount": "½ tatlı kaşığı"
+      },
+      "add-003-i7": {
+        "name": "Tuz",
+        "standardAmount": "¼ tatlı kaşığı"
+      },
+      "add-003-i8": {
+        "name": "Eritilmiş tereyağı ve yağ karışımı",
+        "standardAmount": "½ su bardağı"
+      },
+      "add-003-i9": {
+        "name": "Yoğurt",
+        "standardAmount": "½ su bardağı"
+      },
+      "add-003-i10": {
+        "name": "Süt",
+        "standardAmount": "½ su bardağı"
+      },
+      "add-003-i11": {
+        "name": "Şerbet: Şeker",
+        "standardAmount": "½ su bardağı"
+      },
+      "add-003-i12": {
+        "name": "Şerbet: Su",
+        "standardAmount": "½ su bardağı"
+      },
+      "add-003-i13": {
+        "name": "Şerbet: Limon suyu",
+        "standardAmount": "1 tatlı kaşığı"
+      }
+    },
+    "instructions": {
+      "1": "Şeker ve suyu orta ateşte kaynatın, ardından limon suyunu ekleyip 5 dakika bekletin ve soğuması için kenara alın.",
+      "2": "Kuru malzemeleri karıştırın: irmik, un, hindistan cevizi, şeker, kabartma tozu, vanilya ve tuz.",
+      "3": "Yoğurt ve sütü tereyağı ve yağ karışımıyla çırpın, ardından sıvı karışımı kuru malzemelere ekleyip homojen hale gelene kadar nazikçe (yoğurmadan) karıştırın.",
+      "4": "Karışımı yağlanmış bir tepsiye dökün, yüzeyini düzleştirin ve pişirmeden önce kareler halinde kesin.",
+      "5": "180 dereceye ısıtılmış fırının orta rafında, önce kenarları kızarana kadar alt ısıtma ile, ardından üzeri renk alana kadar üst ısıtma ile pişirin.",
+      "6": "Fırından çıkar çıkmaz ılık şerbeti basbousa üzerine dökün ve dilimlemeden önce şerbeti çekmesi için bekletin."
+    }
+  },
+  "add-002": {
+    "title": "Tavuklu Kabsa",
+    "prepTime": "20 dk",
+    "cookTime": "60 dk",
+    "servings": "5-6 kişilik",
+    "culturalNotes": "Kabsa, Suudi Arabistan ve Körfez ülkelerinin milli yemeğidir. Loomi (kurutulmuş siyah limon) yemeğe kendine has ekşiliğini ve aromasını verir; aynı yöntem et veya karides ile de uygulanabilir.",
+    "ingredients": {
+      "add-002-i1": {
+        "name": "Dörde bölünmüş tavuk",
+        "standardAmount": "1 tavuk (yaklaşık 1.2 kg)"
+      },
+      "add-002-i2": {
+        "name": "30 dakika ıslatılmış Basmati pirinci",
+        "standardAmount": "3 su bardağı"
+      },
+      "add-002-i3": {
+        "name": "Doğranmış soğan",
+        "standardAmount": "2 adet soğan"
+      },
+      "add-002-i4": {
+        "name": "Doğranmış sarımsak",
+        "standardAmount": "4 diş"
+      },
+      "add-002-i5": {
+        "name": "Doğranmış domates",
+        "standardAmount": "2 adet"
+      },
+      "add-002-i6": {
+        "name": "Domates salçası",
+        "standardAmount": "1 yemek kaşığı"
+      },
+      "add-002-i7": {
+        "name": "Kalın rendelenmiş havuç",
+        "standardAmount": "1 adet havuç"
+      },
+      "add-002-i8": {
+        "name": "Yeşil acı biber",
+        "standardAmount": "1 adet"
+      },
+      "add-002-i9": {
+        "name": "Sıvı yağ veya sade yağ",
+        "standardAmount": "3 yemek kaşığı"
+      },
+      "add-002-i10": {
+        "name": "Kabsa baharatı",
+        "standardAmount": "1 yemek kaşığı"
+      },
+      "add-002-i11": {
+        "name": "Loomi (siyah limon), kakule, tarçın ve defne yaprağı",
+        "standardAmount": "2 adet loomi + 4 adet kakule + 1 adet çubuk tarçın + 2 adet defne yaprağı"
+      },
+      "add-002-i12": {
+        "name": "Sıcak su",
+        "standardAmount": "4½ su bardağı"
+      },
+      "add-002-i13": {
+        "name": "Tuz",
+        "standardAmount": "damak tadına göre"
+      },
+      "add-002-i14": {
+        "name": "Süslemek için kavrulmuş badem ve kuru üzüm",
+        "standardAmount": "¼ su bardağı"
+      }
+    },
+    "instructions": {
+      "1": "Geniş bir tencerede yağı kızdırın ve soğanlar şeffaflaşana kadar soteleyin, ardından sarımsak ve acı biberi ekleyin.",
+      "2": "Tavuk parçalarını ekleyin ve her tarafının rengi değişene kadar soğanla birlikte kavurun.",
+      "3": "Domatesi, domates salçasını, havucu, kabsa baharatını ve bütün baharatları ekleyin; domatesler suyunu çekip özleşene kadar karıştırın.",
+      "4": "Sıcak suyu dökün, tuzu ayarlayın ve tavuklar pişene kadar orta ateşte 30 dakika pişmeye bırakın.",
+      "5": "Tavukları tencereden çıkarın ve altın sarısı bir renk alana kadar fırında veya tavada kızartın; kalan et suyunu yaklaşık 4 su bardağı olacak şekilde ölçün.",
+      "6": "Süzülmüş pirinci kaynayan et suyuna ekleyin; suyun çoğu çekilene kadar yüksek ateşte pişirin, ardından kapağını kapatıp çok kısık ateşte 20 dakika bekletin.",
+      "7": "Pirinci nazikçe karıştırıp servis tabağına yayın, tavukları üzerine dizin ve badem ile kuru üzümle süsleyin."
+    }
+  },
+  "add-001": {
+    "title": "Tütsülenmiş Tavuklu Mandi",
+    "prepTime": "15 dk",
+    "cookTime": "65 dk",
+    "servings": "5-6 kişilik",
+    "culturalNotes": "Mandi, kökeni Yemen olan ve geleneksel olarak yer altındaki bir çukurda pişirilen bir yemektir. Tencere içinde közle yapılan tütsüleme işlemi, ev mutfağında o kendine özgü lezzeti verir. Genellikle dakus veya sahawiq sosu ile servis edilir.",
+    "ingredients": {
+      "add-001-i1": {
+        "name": "Bütün tavuk, ikiye bölünmüş",
+        "standardAmount": "1 tavuk (yaklaşık 1.2 kg)"
+      },
+      "add-001-i2": {
+        "name": "Yıkanmış ve süzülmüş basmati pirinci",
+        "standardAmount": "3 su bardağı"
+      },
+      "add-001-i3": {
+        "name": "Haşlamadan kalan tavuk suyu",
+        "standardAmount": "4½ su bardağı"
+      },
+      "add-001-i4": {
+        "name": "İnce doğranmış soğan",
+        "standardAmount": "1 büyük soğan"
+      },
+      "add-001-i5": {
+        "name": "Sade yağ veya yağ",
+        "standardAmount": "3 yemek kaşığı"
+      },
+      "add-001-i6": {
+        "name": "Çiçek suyunda bekletilmiş safran (veya zerdeçal)",
+        "standardAmount": "½ tatlı kaşığı + 2 yemek kaşığı çiçek suyu"
+      },
+      "add-001-i7": {
+        "name": "Mandi baharatı (toz kakule, beyaz biber, sarımsak tozu)",
+        "standardAmount": "½ tatlı kaşığı"
+      },
+      "add-001-i8": {
+        "name": "Tane baharatlar (çubuk tarçın, kakule, karanfil, kurutulmuş misket limonu, defne yaprağı)",
+        "standardAmount": "2 çubuk tarçın + 4 adet kakule + 4 adet karanfil + 1 adet misket limonu + 1 adet defne yaprağı"
+      },
+      "add-001-i9": {
+        "name": "Tuz",
+        "standardAmount": "1 yemek kaşığı ve 1 tatlı kaşığı"
+      },
+      "add-001-i10": {
+        "name": "Tütsüleme için kömür közü",
+        "standardAmount": "1 adet"
+      },
+      "add-001-i11": {
+        "name": "Kavrulmuş kuruyemiş, üzüm ve çıtır soğan (süsleme için)",
+        "standardAmount": "Arzuya göre"
+      }
+    },
+    "instructions": {
+      "1": "Tavukları; tane baharatlar ve tuz ile kaynayan suda, büyük oranda pişene kadar 25-30 dakika haşlayın; ardından tavukları çıkarın, tavuk suyunu süzüp kenara ayırın.",
+      "2": "Bekletilmiş safranın yarısını, bir kaşık sade yağ, mandi baharatı ve tuz ile karıştırarak tavukların her yerine sürülecek şekilde hazırlayın.",
+      "3": "Tavukları bir tepsiye dizin ve derisi kızarıp çıtırlaşana kadar fırının ızgara ayarında yaklaşık 10 dakika pişirin.",
+      "4": "Soğanları kalan sade yağda rengi dönmeden yumuşayana kadar soteleyin, ardından pirinci ekleyip taneler kaplanana kadar 2 dakika kavurun.",
+      "5": "Kaynar tavuk suyunu pirinlerin üzerine, pirinç seviyesinden yaklaşık 1.5 cm yukarıda kalacak şekilde dökün; suyun çoğu çekilene kadar yüksek ateşte, ardından ateşi kısarak kapağı kapalı şekilde 15 dakika pişirin.",
+      "6": "Renk vermesi için pirincin bir kısmına kalan safran karışımını serpin ve tavukları tencerenin içine pirinçlerin üzerine dizin.",
+      "7": "Tütsüleme için: Pirincin ortasına bir kaşık yağ içeren küçük bir alüminyum folyo koyun, üzerine yanan közü yerleştirin; tencerenin kapağını 10 dakika boyunca sıkıca kapatın, ardından közü çıkarın.",
+      "8": "Mandi'yi geniş bir servis tabağına alın; üzerini kavrulmuş kuruyemiş, üzüm ve çıtır soğan ile süsleyerek servis yapın."
+    }
+  },
+  "add-007": {
+    "title": "Yumuşak Kırlangıç Keki (Kuru Üzümlü Kek)",
+    "prepTime": "20 dakika",
+    "cookTime": "45-50 dakika",
+    "servings": "8 kişi",
+    "culturalNotes": "Kuru üzümleri on dakika boyunca gül suyu veya portakal suyunda bekletip, ardından unla kaplamadan önce kurutmak, üzümlerin daha yumuşak olmasını sağlar ve ferah bir aroma katar.",
+    "ingredients": {
+      "add-007-i1": {
+        "name": "Elenmiş un",
+        "standardAmount": "2½ su bardağı"
+      },
+      "add-007-i2": {
+        "name": "Kabartma tozu",
+        "standardAmount": "1 yemek kaşığı"
+      },
+      "add-007-i3": {
+        "name": "Tuz",
+        "standardAmount": "bir tutam"
+      },
+      "add-007-i4": {
+        "name": "Kuru üzüm",
+        "standardAmount": "1 su bardağı"
+      },
+      "add-007-i5": {
+        "name": "Yumurta",
+        "standardAmount": "3 büyük boy"
+      },
+      "add-007-i6": {
+        "name": "Şeker",
+        "standardAmount": "1 su bardağı"
+      },
+      "add-007-i7": {
+        "name": "Süt",
+        "standardAmount": "¾ su bardağı"
+      },
+      "add-007-i8": {
+        "name": "Sıvı yağ veya eritilmiş tereyağı",
+        "standardAmount": "½ su bardağı"
+      },
+      "add-007-i9": {
+        "name": "Vanilya",
+        "standardAmount": "1 yemek kaşığı"
+      },
+      "add-007-i10": {
+        "name": "Beyaz sirke",
+        "standardAmount": "1 tatlı kaşığı"
+      }
+    },
+    "instructions": {
+      "1": "Kuru üzümleri, kalıbın dibine çökmesini önlemek amacıyla bir yemek kaşığı un ile kaplanana kadar karıştırın.",
+      "2": "Yumurtaları şeker ve vanilya ile, hacmi iki katına çıkıp rengi açılana kadar çırpın; ardından yağ, süt ve sirkeyi ekleyin.",
+      "3": "Elenmiş un, kabartma tozu ve tuzu yavaş yavaş ekleyip nazikçe karıştırın; son olarak kuru üzümleri bir kaşıkla harca dahil edin.",
+      "4": "Karışımı yağlanmış bir kalıba dökün ve 180 dereceye ısıtılmış fırında, bir test çubuğu temiz çıkana kadar 45-50 dakika pişirin.",
+      "5": "Kuru üzümlerin içinde sabit kalması için keki dilimlemeden önce tamamen soğumaya bırakın."
+    }
+  },
+  "add-006": {
+    "title": "Tavada Fırınsız Pizza",
+    "prepTime": "10 dakika",
+    "cookTime": "15 dakika",
+    "servings": "2-4 kişi",
+    "culturalNotes": "Bu pizza yoğurma veya uzun mayalanma gerektirmez; sırrı, taban yanmadan hamurun içinin pişmesi için çok kısık ateş ve sıkıca kapatılmış bir kapaktır.",
+    "ingredients": {
+      "add-006-i1": {
+        "name": "Un",
+        "standardAmount": "2 su bardağı"
+      },
+      "add-006-i2": {
+        "name": "Ilık su",
+        "standardAmount": "1 ¾ su bardağı"
+      },
+      "add-006-i3": {
+        "name": "Bitkisel yağ",
+        "standardAmount": "70 ml"
+      },
+      "add-006-i4": {
+        "name": "Süt tozu",
+        "standardAmount": "3 yemek kaşığı"
+      },
+      "add-006-i5": {
+        "name": "Şeker",
+        "standardAmount": "1 yemek kaşığı"
+      },
+      "add-006-i6": {
+        "name": "Instant maya ve kabartma tozu",
+        "standardAmount": "1'er tatlı kaşığı"
+      },
+      "add-006-i7": {
+        "name": "Kekik ve tuz",
+        "standardAmount": "1 tatlı kaşığı + ¼ tatlı kaşığı"
+      },
+      "add-006-i8": {
+        "name": "Domates salçası",
+        "standardAmount": "2 yemek kaşığı"
+      },
+      "add-006-i9": {
+        "name": "Sarımsak tozu, kekik ve kurutulmuş fesleğen",
+        "standardAmount": "1 tatlı kaşığı sarımsak + 1 tatlı kaşığı kekik + yarım tatlı kaşığı fesleğen"
+      },
+      "add-006-i10": {
+        "name": "Mozzarella peyniri",
+        "standardAmount": "200 gram"
+      },
+      "add-006-i11": {
+        "name": "Renkli biberler ve doğranmış domates",
+        "standardAmount": "1 yeşil biber + 1 sarı biber + 1 domates"
+      },
+      "add-006-i12": {
+        "name": "Dilimlenmiş zeytin",
+        "standardAmount": "Arzuya göre"
+      }
+    },
+    "instructions": {
+      "1": "Hızlı bir sos hazırlamak için domates salçasını sarımsak tozu, kekik, fesleğen, az miktarda şeker ve tuz ile karıştırın.",
+      "2": "Hamurun kuru malzemelerini karıştırın, ardından yağ ve suyu ekleyip pürüzsüz, akışkan bir hamur kıvamı alana kadar elle çırpın.",
+      "3": "Yağlanmış tavaya karışımın yarısını dökün ve yüzeyini düzleştirin.",
+      "4": "Sosu yayın, ardından bir kat peynir, sebzeler ve zeytinleri ekleyip üzerine kalan peyniri serpin.",
+      "5": "Tavanın kapağını sıkıca kapatın ve hamur pişip peynirler eriyene kadar çok kısık ateşte 10-15 dakika pişirin; kalan karışımla işlemi tekrarlayın."
+    }
   }
 }
