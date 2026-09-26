@@ -68,17 +68,18 @@ def main() -> None:
     site_keys = [normalize(r["title"]) for r in site]
     dishes = group_dishes(args.data)
 
-    from sentence_transformers import SentenceTransformer
-    embedder = SentenceTransformer(EMBED_MODEL)
-    site_vecs = embedder.encode([f"passage: {r['title']} {r.get('titleEn', '')}" for r in site],
-                                normalize_embeddings=True, batch_size=64)
-
     out_path = args.data / "match.jsonl"
     done = {r["key"] for r in load_jsonl(out_path)}
     todo = [d for d in dishes if d["key"] not in done]
     if args.limit:
         todo = todo[:args.limit]
     print(f"{len(dishes)} distinct dishes, {len(todo)} to match", flush=True)
+
+    if todo:
+        from sentence_transformers import SentenceTransformer
+        embedder = SentenceTransformer(EMBED_MODEL)
+        site_vecs = embedder.encode([f"passage: {r['title']} {r.get('titleEn', '')}" for r in site],
+                                    normalize_embeddings=True, batch_size=64)
 
     with out_path.open("a") as out:
         for n, dish in enumerate(todo, 1):

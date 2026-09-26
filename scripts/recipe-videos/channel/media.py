@@ -92,6 +92,20 @@ def read_screen(video: Path, folder: Path, every: float) -> None:
     out.write_text(json.dumps(lines, ensure_ascii=False, indent=0))
 
 
+def wanted_labels() -> tuple[str, ...]:
+    """SKIP_VARIANTS=1 leaves out dishes that are only variants of site recipes."""
+    return ("new", "unclear") if os.environ.get("SKIP_VARIANTS") else ("new", "unclear", "variant")
+
+
+def priority(row: dict) -> tuple:
+    """New dishes first, then unclear, then variants; most-viewed first within each."""
+    order = {"new": 0, "unclear": 1, "variant": 2}
+    return order.get(row.get("label"), 3), -VIEWS.get(row["videos"][0], 0)
+
+
+VIEWS: dict[str, int] = {}
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("data", type=Path)
@@ -101,10 +115,15 @@ def main() -> None:
     parser.add_argument("--keep-video", action="store_true")
     args = parser.parse_args()
 
+    for line in (args.data / "channel_videos.tsv").read_text().splitlines():
+        cols = line.split("\t")
+        if len(cols) > 2 and cols[2].isdigit():
+            VIEWS[cols[0]] = int(cols[2])
     ids = args.ids
     if not ids:
         rows = [json.loads(l) for l in (args.data / "match.jsonl").read_text().splitlines()]
-        ids = list(dict.fromkeys(r["videos"][0] for r in rows if r.get("label") in ("new", "variant", "unclear")))
+        ids = [r["videos"][0] for r in sorted(rows, key=priority) if r.get("label") in wanted_labels()]
+        ids = list(dict.fromkeys(ids))
     print(f"{len(ids)} videos", flush=True)
 
     for n, video_id in enumerate(ids, 1):

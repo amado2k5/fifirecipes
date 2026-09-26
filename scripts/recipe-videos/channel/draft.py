@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -64,7 +65,8 @@ def main() -> None:
         if "error" not in row:
             meta[row["id"]] = row
     dishes = [json.loads(l) for l in (args.data / "match.jsonl").read_text().splitlines()]
-    dishes = [d for d in dishes if d.get("label") in ("new", "variant", "unclear")]
+    labels = ("new", "unclear") if os.environ.get("SKIP_VARIANTS") else ("new", "variant", "unclear")
+    dishes = [d for d in dishes if d.get("label") in labels]
     out_path = args.data / "drafts.jsonl"
     done = {json.loads(l)["key"] for l in out_path.read_text().splitlines()} if out_path.exists() else set()
     todo = [d for d in dishes if (d["key"] in args.only if args.only else d["key"] not in done)]
@@ -79,7 +81,8 @@ def main() -> None:
             folder = args.data / "media" / video
             m = meta.get(video, {})
             user = "\n\n".join(filter(None, [
-                f"الطبق المطلوب: {dish['name']}" + (" (اسمه غير محدد في العنوان: سمِّه اسمًا دقيقًا من الفيديو، وإن كان الفيديو يعرض عدة أطباق مختلفة فاكتب أهمها فقط)" if dish.get("unclear") else ""),
+                f"الطبق المطلوب: {dish['name']}" + (" (اسمه غير محدد في العنوان: سمِّه اسمًا دقيقًا من الفيديو، وإن كان الفيديو يعرض عدة أطباق مختلفة فاكتب أهمها فقط)"
+                   if dish.get("unclear") or "تحتاج مراجعة" in (dish.get("reason") or "") else ""),
                 f"عنوان الفيديو: {m.get('title', '')}",
                 f"وصف الفيديو:\n{(m.get('description') or '')[:2500]}" if m.get("description") else "",
                 f"النص المكتوب على الشاشة (بالثواني):\n{screen_text(folder)}" if screen_text(folder) else "",
