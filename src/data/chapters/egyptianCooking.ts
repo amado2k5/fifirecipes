@@ -122,6 +122,7 @@ function toRecipe(entry: BookRecipe): Recipe {
         name: nameAr || name,
         nameEn: name,
         standardAmount: standardAmountAr || standardAmount,
+        ...(standardAmountAr ? { standardAmountEn: standardAmount } : {}),
         category: category as MasterIngredient['category'],
         sourceVariations: {},
         isMerged: false,

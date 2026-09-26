@@ -11,6 +11,8 @@ export interface MasterIngredient {
   name: string;
   nameEn?: string;
   standardAmount: string;
+  /** The amount as written in an English source, for recipes whose standardAmount is an Arabic translation. */
+  standardAmountEn?: string;
   unit?: string;
   category: 'meat_poultry' | 'seafood' | 'vegetable' | 'dairy_fat' | 'grain_starch' | 'spice_seasoning' | 'sweet_fruit' | 'liquid' | 'other';
   notes?: string;

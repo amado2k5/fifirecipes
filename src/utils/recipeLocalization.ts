@@ -2957,12 +2957,15 @@ export function getLocalizedIngredient(ingredient: Pick<MasterIngredient, 'name'
   return translated || 'Ingredient';
 }
 
-export function getLocalizedIngredientAmount(ingredient: Pick<MasterIngredient, 'id' | 'standardAmount'>, lang: SupportedLanguage, recipeId?: string): string {
+export function getLocalizedIngredientAmount(ingredient: Pick<MasterIngredient, 'id' | 'standardAmount' | 'standardAmountEn'>, lang: SupportedLanguage, recipeId?: string): string {
   if (isArabicLocale(lang)) return ingredient.standardAmount;
   const table = getTranslationTable(lang);
   const generatedIngredient = table
     ? (recipeId ? table[recipeId] : Object.values(table).find(recipe => recipe.ingredients?.[ingredient.id]))?.ingredients?.[ingredient.id]
     : undefined;
+  // Recipes from an English source keep their original amount; use it rather
+  // than guessing an English one back from the Arabic translation.
+  if (!generatedIngredient?.standardAmount && ingredient.standardAmountEn) return ingredient.standardAmountEn;
   return getLocalizedMeasurement(generatedIngredient?.standardAmount || ingredient.standardAmount, lang, 'amount') || '';
 }
 

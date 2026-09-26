@@ -3,465 +3,696 @@
     "num": 246,
     "page": 111,
     "title": "Tunisian Lamb and Potato Meatballs (Kabaar)",
+    "titleAr": "كفتة تونسية باللحم الضأن والبطاطس (كبار)",
     "category": "meat",
     "method": "fry",
     "prep": "1 hour (includes chilling)",
+    "prepAr": "ساعة واحدة (مع التبريد)",
     "cook": "20 min",
+    "cookAr": "20 دقيقة",
     "difficulty": "medium",
     "ingredients": [
       [
         "Lean lamb",
         "1/2 kg",
-        "meat_poultry"
+        "meat_poultry",
+        "لحم ضأن قليل الدهن",
+        "نصف كيلو"
       ],
       [
         "Onions",
         "2",
-        "vegetable"
+        "vegetable",
+        "بصل",
+        "2"
       ],
       [
         "Garlic cloves",
         "5–7",
-        "vegetable"
+        "vegetable",
+        "فصوص ثوم",
+        "5–7"
       ],
       [
         "Potatoes",
         "2",
-        "vegetable"
+        "vegetable",
+        "بطاطس",
+        "2"
       ],
       [
         "Ground cinnamon",
         "1/2 teaspoon",
-        "spice_seasoning"
+        "spice_seasoning",
+        "قرفة مطحونة",
+        "نصف ملعقة صغيرة"
       ],
       [
         "Parsley leaves",
         "2 tablespoons",
-        "vegetable"
+        "vegetable",
+        "ورق بقدونس",
+        "2 ملعقة كبيرة"
       ],
       [
         "Coriander leaves",
         "2 tablespoons",
-        "vegetable"
+        "vegetable",
+        "ورق كزبرة خضراء",
+        "2 ملعقة كبيرة"
       ],
       [
         "Breadcrumbs",
         "2–3 tablespoons",
-        "grain_starch"
+        "grain_starch",
+        "بقسماط مطحون",
+        "2–3 ملاعق كبيرة"
       ],
       [
         "Eggs",
         "2–3",
-        "dairy_fat"
+        "dairy_fat",
+        "بيض",
+        "2–3"
       ],
       [
         "Cooking oil",
         "for frying",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت للطهي",
+        "للقلي"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Boil the potatoes until very soft, then peel and mash them.",
+        "اسلق البطاطس حتى تصبح طرية جداً، ثم قشّرها واهرسها.",
         "prep"
       ],
       [
         "Mince the lamb twice with the onions, garlic, parsley, coriander, salt and pepper.",
+        "افرم اللحم مرتين مع البصل والثوم والبقدونس والكزبرة والملح والفلفل.",
         "prep"
       ],
-      "Mix in the mashed potato, breadcrumbs, cinnamon and well-beaten eggs.",
-      "Shape into small balls and chill for 30 minutes.",
+      [
+        "Mix in the mashed potato, breadcrumbs, cinnamon and well-beaten eggs.",
+        "أضف البطاطس المهروسة والبقسماط والقرفة والبيض المخفوق جيداً، واخلط.",
+        "cook"
+      ],
+      [
+        "Shape into small balls and chill for 30 minutes.",
+        "شكّل الخليط كرات صغيرة وضعها في الثلاجة 30 دقيقة.",
+        "cook"
+      ],
       [
         "Fry in very hot oil until browned all over.",
+        "اقلها في زيت ساخن جداً حتى يحمرّ لونها من كل الجهات.",
         "finish"
       ]
     ],
-    "notes": "A Tunisian dish."
+    "notes": "A Tunisian dish.",
+    "notesAr": "طبق تونسي."
   },
   {
     "num": 247,
     "page": 112,
     "title": "Baked Kofta Rolls with Pine Nuts (Kafta Mabroomeh / Mkabtaleh)",
+    "titleAr": "أصابع كفتة بالفرن محشوة بالصنوبر (كفتة مبرومة / مقبتلة)",
     "category": "meat",
     "method": "bake",
     "prep": "30 min",
+    "prepAr": "30 دقيقة",
     "cook": "35 min",
+    "cookAr": "35 دقيقة",
     "difficulty": "medium",
     "ingredients": [
       [
         "Lamb",
         "1 kg",
-        "meat_poultry"
+        "meat_poultry",
+        "لحم ضأن",
+        "1 كيلو"
       ],
       [
         "Onions",
         "2",
-        "vegetable"
+        "vegetable",
+        "بصل",
+        "2"
       ],
       [
         "Garlic cloves",
         "5–7",
-        "vegetable"
+        "vegetable",
+        "فصوص ثوم",
+        "5–7"
       ],
       [
         "Eggs",
         "2",
-        "dairy_fat"
+        "dairy_fat",
+        "بيض",
+        "2"
       ],
       [
         "Pine nuts",
         "3–4 tablespoons",
-        "other"
+        "other",
+        "صنوبر",
+        "3–4 ملاعق كبيرة"
       ],
       [
         "Cooking fat",
         "as needed",
-        "dairy_fat"
+        "dairy_fat",
+        "سمن للطهي",
+        "حسب الحاجة"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Mince the meat twice with the onions, garlic, salt and pepper.",
+        "افرم اللحم مرتين مع البصل والثوم والملح والفلفل.",
         "prep"
       ],
-      "Beat the eggs, add them to the meat and knead well.",
-      "Roll the meat out about 1 cm thick on a lightly greased surface and cut it into rounds.",
-      "Put a few pine nuts in the middle of each round and roll it up.",
-      "Arrange the rolls on a well-greased tray and brush each with fat.",
+      [
+        "Beat the eggs, add them to the meat and knead well.",
+        "اخفق البيض وأضفه إلى اللحم واعجن جيداً.",
+        "cook"
+      ],
+      [
+        "Roll the meat out about 1 cm thick on a lightly greased surface and cut it into rounds.",
+        "افرد اللحم بسمك 1 سم تقريباً على سطح مدهون قليلاً، وقطّعه دوائر.",
+        "cook"
+      ],
+      [
+        "Put a few pine nuts in the middle of each round and roll it up.",
+        "ضع قليلاً من الصنوبر في وسط كل دائرة ولفّها.",
+        "cook"
+      ],
+      [
+        "Arrange the rolls on a well-greased tray and brush each with fat.",
+        "رصّ الأصابع في صينية مدهونة جيداً وادهن كل واحدة بالسمن.",
+        "cook"
+      ],
       [
         "Bake in the middle of a moderate oven for 30 minutes, then brown under the grill, shaking the tray so they colour evenly.",
+        "اخبزها في منتصف فرن متوسط الحرارة 30 دقيقة، ثم حمّرها تحت الشواية مع هز الصينية ليتساوى لونها.",
         "finish"
       ]
     ],
-    "notes": "Called kafta mabroomeh in Syria and kafta mkabtaleh in Lebanon; only the name differs."
+    "notes": "Called kafta mabroomeh in Syria and kafta mkabtaleh in Lebanon; only the name differs.",
+    "notesAr": "تُسمى كفتة مبرومة في سوريا وكفتة مقبتلة في لبنان، والاختلاف في الاسم فقط."
   },
   {
     "num": 248,
     "page": 112,
     "title": "Lebanese Kafta Fatteh with Garlic Yogurt (Fatteet Kafta Madqooqa)",
+    "titleAr": "فتة كفتة لبنانية باللبن والثوم (فتة كفتة مدقوقة)",
     "category": "meat",
     "method": "fry",
     "prep": "20 min",
+    "prepAr": "20 دقيقة",
     "cook": "15 min",
+    "cookAr": "15 دقيقة",
     "difficulty": "easy",
     "ingredients": [
       [
         "Lamb",
         "1 kg",
-        "meat_poultry"
+        "meat_poultry",
+        "لحم ضأن",
+        "1 كيلو"
       ],
       [
         "Fresh mint leaves",
         "1 tablespoon",
-        "vegetable"
+        "vegetable",
+        "ورق نعناع طازج",
+        "1 ملعقة كبيرة"
       ],
       [
         "Dry flatbread loaves",
         "2",
-        "grain_starch"
+        "grain_starch",
+        "أرغفة خبز شامي ناشف",
+        "2"
       ],
       [
         "Garlic cloves, crushed",
         "10",
-        "vegetable"
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "10"
       ],
       [
         "Thick yogurt",
         "2–3 cups",
-        "dairy_fat"
+        "dairy_fat",
+        "زبادي كثيف",
+        "2–3 أكواب"
       ],
       [
         "Dried mint powder",
         "1/2 teaspoon",
-        "spice_seasoning"
+        "spice_seasoning",
+        "نعناع ناشف مطحون",
+        "نصف ملعقة صغيرة"
       ],
       [
         "Cooking oil",
         "for frying",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت للطهي",
+        "للقلي"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Mince the lamb twice with the fresh mint, salt and pepper, and shape into patties.",
+        "افرم اللحم مرتين مع النعناع الطازج والملح والفلفل، وشكّله أقراصاً.",
         "prep"
       ],
-      "Fry the patties until nicely browned.",
-      "Break the bread into bite-sized pieces and put them in a deep serving bowl.",
-      "Mix the yogurt with the garlic and dried mint, then stir in the oil left from frying the patties.",
+      [
+        "Fry the patties until nicely browned.",
+        "اقلِ الأقراص حتى يحمرّ لونها جيداً.",
+        "cook"
+      ],
+      [
+        "Break the bread into bite-sized pieces and put them in a deep serving bowl.",
+        "قطّع الخبز قطعاً صغيرة بحجم اللقمة وضعها في طبق تقديم عميق.",
+        "cook"
+      ],
+      [
+        "Mix the yogurt with the garlic and dried mint, then stir in the oil left from frying the patties.",
+        "اخلط الزبادي مع الثوم والنعناع الناشف، ثم أضف الزيت المتبقي من قلي الأقراص.",
+        "cook"
+      ],
       [
         "Pour the yogurt over the bread and top with the kafta.",
+        "صبّ الزبادي فوق الخبز ورصّ الكفتة على الوجه.",
         "finish"
       ]
     ],
-    "notes": "A Lebanese dish."
+    "notes": "A Lebanese dish.",
+    "notesAr": "طبق لبناني."
   },
   {
     "num": 249,
     "page": 113,
     "title": "Izmir Meatballs in Tomato Sauce (İzmir Köftesi)",
+    "titleAr": "كفتة إزمير بصلصة الطماطم (إزمير كوفتيسي)",
     "category": "meat",
     "method": "simmer",
     "prep": "30 min",
+    "prepAr": "30 دقيقة",
     "cook": "45 min",
+    "cookAr": "45 دقيقة",
     "difficulty": "medium",
     "ingredients": [
       [
         "Beef",
         "1 kg",
-        "meat_poultry"
+        "meat_poultry",
+        "لحم بقري",
+        "1 كيلو"
       ],
       [
         "Onions",
         "3",
-        "vegetable"
+        "vegetable",
+        "بصل",
+        "3"
       ],
       [
         "Thick slices of stale bread",
         "2",
-        "grain_starch"
+        "grain_starch",
+        "شرائح سميكة من خبز بائت",
+        "2"
       ],
       [
         "Egg",
         "1",
-        "dairy_fat"
+        "dairy_fat",
+        "بيضة",
+        "1"
       ],
       [
         "Parsley",
         "2 tablespoons",
-        "vegetable"
+        "vegetable",
+        "بقدونس",
+        "2 ملعقة كبيرة"
       ],
       [
         "Garlic cloves",
         "5–7",
-        "vegetable"
+        "vegetable",
+        "فصوص ثوم",
+        "5–7"
       ],
       [
         "Ground cumin",
         "1 teaspoon",
-        "spice_seasoning"
+        "spice_seasoning",
+        "كمون مطحون",
+        "1 ملعقة صغيرة"
       ],
       [
         "Flour, seasoned",
         "1 tablespoon",
-        "grain_starch"
+        "grain_starch",
+        "دقيق متبل",
+        "1 ملعقة كبيرة"
       ],
       [
         "Sauce: tomato juice",
         "2 cups",
-        "liquid"
+        "liquid",
+        "للصلصة: عصير طماطم",
+        "2 كوب"
       ],
       [
         "Sauce: sweet green pepper, very finely diced",
         "1",
-        "vegetable"
+        "vegetable",
+        "للصلصة: فلفل أخضر حلو مقطع مكعبات صغيرة جداً",
+        "1"
       ],
       [
         "Sauce: sugar",
         "a pinch",
-        "sweet_fruit"
+        "sweet_fruit",
+        "للصلصة: سكر",
+        "رشة"
       ],
       [
         "Cooking oil",
         "as needed",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت للطهي",
+        "حسب الحاجة"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Sprinkle the bread with cold water and squeeze it out.",
+        "رشّ الخبز بالماء البارد ثم اعصره.",
         "prep"
       ],
       [
         "Mince the bread twice with the beef, onions, parsley, garlic, cumin, salt and pepper, then knead in the egg.",
+        "افرم الخبز مرتين مع اللحم والبصل والبقدونس والثوم والكمون والملح والفلفل، ثم اعجنه مع البيضة.",
         "prep"
       ],
-      "With wet hands, shape round or oval balls and roll them very lightly in seasoned flour.",
-      "Fry the meatballs lightly and drain them on absorbent paper.",
-      "Soften the green pepper in the same oil, add the tomato juice, sugar, salt and pepper and cook for 10–12 minutes.",
+      [
+        "With wet hands, shape round or oval balls and roll them very lightly in seasoned flour.",
+        "بيدين مبللتين شكّل كرات مستديرة أو بيضاوية، وقلّبها برفق شديد في الدقيق المتبل.",
+        "cook"
+      ],
+      [
+        "Fry the meatballs lightly and drain them on absorbent paper.",
+        "اقلِ الكفتة قلياً خفيفاً وصفّها على ورق ماص.",
+        "cook"
+      ],
+      [
+        "Soften the green pepper in the same oil, add the tomato juice, sugar, salt and pepper and cook for 10–12 minutes.",
+        "شوّح الفلفل الأخضر في نفس الزيت حتى يلين، ثم أضف عصير الطماطم والسكر والملح والفلفل واتركها 10–12 دقيقة.",
+        "cook"
+      ],
       [
         "Return the meatballs and simmer for 30 minutes, until the sauce thickens.",
+        "أعد الكفتة إلى الصلصة واتركها على نار هادئة 30 دقيقة حتى تتكاثف الصلصة.",
         "finish"
       ]
     ],
-    "notes": "A Turkish dish from Izmir."
+    "notes": "A Turkish dish from Izmir.",
+    "notesAr": "طبق تركي من مدينة إزمير."
   },
   {
     "num": 261,
     "page": 118,
     "title": "Upper Egyptian Mashed Okra with Beef and Chili (Bamya Weeka Sa‘idi)",
+    "titleAr": "بامية ويكة صعيدي باللحم والشطة",
     "category": "vegetables",
     "method": "simmer",
     "prep": "15 min",
+    "prepAr": "15 دقيقة",
     "cook": "50 min",
+    "cookAr": "50 دقيقة",
     "difficulty": "medium",
     "ingredients": [
       [
         "Okra",
         "1 kg",
-        "vegetable"
+        "vegetable",
+        "بامية",
+        "1 كيلو"
       ],
       [
         "Meat stock",
         "2 cups",
-        "liquid"
+        "liquid",
+        "مرقة لحم",
+        "2 كوب"
       ],
       [
         "Beef",
         "1/2 kg",
-        "meat_poultry"
+        "meat_poultry",
+        "لحم بقري",
+        "نصف كيلو"
       ],
       [
         "Hot chili peppers, finely chopped",
         "2",
-        "vegetable"
+        "vegetable",
+        "شطة (فلفل حار) مفرومة ناعماً",
+        "2"
       ],
       [
         "Garlic cloves",
         "5",
-        "vegetable"
+        "vegetable",
+        "فصوص ثوم",
+        "5"
       ],
       [
         "Ground coriander",
         "1 teaspoon",
-        "spice_seasoning"
+        "spice_seasoning",
+        "كزبرة ناشفة مطحونة",
+        "1 ملعقة صغيرة"
       ],
       [
         "Cooking oil",
         "1 tablespoon",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت للطهي",
+        "1 ملعقة كبيرة"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Cut the beef into small cubes and boil it in the stock for 20–30 minutes, until tender. Lift it out.",
+        "قطّع اللحم مكعبات صغيرة واسلقه في المرقة 20–30 دقيقة حتى ينضج، ثم ارفعه منها.",
         "prep"
       ],
-      "Add the okra and chilies to the broth, cook for about 10 minutes, then mash with a fork.",
-      "Return the meat to the pot.",
-      "Make the ta’liya: pound the garlic with the coriander, salt and pepper and fry it in the oil for 3–5 minutes. Tip it into the pot, swirl a spoonful of broth round the frying pan and add that too.",
+      [
+        "Add the okra and chilies to the broth, cook for about 10 minutes, then mash with a fork.",
+        "أضف البامية والشطة إلى المرقة واتركها حوالي 10 دقائق، ثم اهرسها بالشوكة.",
+        "cook"
+      ],
+      [
+        "Return the meat to the pot.",
+        "أعد اللحم إلى الحلة.",
+        "cook"
+      ],
+      [
+        "Make the ta’liya: pound the garlic with the coriander, salt and pepper and fry it in the oil for 3–5 minutes. Tip it into the pot, swirl a spoonful of broth round the frying pan and add that too.",
+        "حضّر التقلية: اهرس الثوم مع الكزبرة والملح والفلفل وشوّحه في الزيت 3–5 دقائق. أضفه إلى الحلة، ثم لفّ ملعقة من المرقة في الطاسة وأضفها أيضاً.",
+        "cook"
+      ],
       [
         "Simmer for 5–7 minutes and serve.",
+        "اتركها على نار هادئة 5–7 دقائق وقدّمها.",
         "finish"
       ]
     ],
-    "notes": "Weeka is the Upper Egyptian name for okra cooked until it breaks down into a thick, silky stew."
+    "notes": "Weeka is the Upper Egyptian name for okra cooked until it breaks down into a thick, silky stew.",
+    "notesAr": "الويكة هو الاسم الصعيدي للبامية المطبوخة حتى تتفكك وتصبح يخنة كثيفة ناعمة."
   },
   {
     "num": 265,
     "page": 119,
     "title": "Iraqi Okra Stew with Tamarind (Bamia Marag)",
+    "titleAr": "مرقة بامية عراقية بالتمر الهندي",
     "category": "vegetables",
     "method": "simmer",
     "prep": "15 min",
+    "prepAr": "15 دقيقة",
     "cook": "1 hour 30 min",
+    "cookAr": "ساعة و 30 دقيقة",
     "difficulty": "medium",
     "ingredients": [
       [
         "Okra",
         "1 kg",
-        "vegetable"
+        "vegetable",
+        "بامية",
+        "1 كيلو"
       ],
       [
         "Mutton",
         "1/2 kg",
-        "meat_poultry"
+        "meat_poultry",
+        "لحم ضأن",
+        "نصف كيلو"
       ],
       [
         "Garlic cloves, thinly sliced",
         "4",
-        "vegetable"
+        "vegetable",
+        "فصوص ثوم مقطعة شرائح رفيعة",
+        "4"
       ],
       [
         "Tomato paste",
         "3 tablespoons",
-        "vegetable"
+        "vegetable",
+        "معجون طماطم",
+        "3 ملاعق كبيرة"
       ],
       [
         "Tamarind (soaked and strained to 1/2 cup)",
         "1 tablespoon",
-        "sweet_fruit"
+        "sweet_fruit",
+        "تمر هندي (منقوع ومصفى إلى نصف كوب)",
+        "1 ملعقة كبيرة"
       ],
       [
         "Lemon juice",
         "1 tablespoon",
-        "liquid"
+        "liquid",
+        "عصير ليمون",
+        "1 ملعقة كبيرة"
       ],
       [
         "Cumin, coriander, cinnamon, cloves and peppercorns",
         "a dash of each",
-        "spice_seasoning"
+        "spice_seasoning",
+        "كمون وكزبرة وقرفة وقرنفل وفلفل أسود حب",
+        "رشة من كل نوع"
       ],
       [
         "Ghee",
         "as needed",
-        "dairy_fat"
+        "dairy_fat",
+        "سمن",
+        "حسب الحاجة"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Cut the mutton into bite-sized cubes and boil with the spices until tender. Lift it out, keeping the broth.",
+        "قطّع اللحم مكعبات بحجم اللقمة واسلقه مع البهارات حتى ينضج. ارفعه واحتفظ بالمرقة.",
         "prep"
       ],
-      "Fry the mutton in ghee, then add the okra and garlic and stir until everything is well fried.",
-      "Dissolve the tomato paste in the tamarind liquid, season, and add it to the pot with the broth.",
-      "Simmer for 30 minutes.",
+      [
+        "Fry the mutton in ghee, then add the okra and garlic and stir until everything is well fried.",
+        "حمّر اللحم في السمن، ثم أضف البامية والثوم وقلّب حتى يتحمر الكل جيداً.",
+        "cook"
+      ],
+      [
+        "Dissolve the tomato paste in the tamarind liquid, season, and add it to the pot with the broth.",
+        "ذوّب معجون الطماطم في سائل التمر الهندي، وتبّله، وأضفه إلى الحلة مع المرقة.",
+        "cook"
+      ],
+      [
+        "Simmer for 30 minutes.",
+        "اتركها على نار هادئة 30 دقيقة.",
+        "cook"
+      ],
       [
         "Take off the heat and stir in the lemon juice.",
+        "ارفعها عن النار وأضف عصير الليمون وقلّب.",
         "finish"
       ]
     ],
-    "notes": "An Iraqi dish."
+    "notes": "An Iraqi dish.",
+    "notesAr": "طبق عراقي."
   },
   {
     "num": 266,
     "page": 120,
     "title": "Oven-Roasted Pearl Onions (’Awirma Mashwiya)",
+    "titleAr": "بصل عويرما مشوي في الفرن",
     "category": "vegetables",
     "method": "bake",
     "cook": "1 hour",
+    "cookAr": "ساعة واحدة",
     "difficulty": "easy",
     "ingredients": [
       [
         "Pearl onions, unpeeled",
         "1/2 kg",
-        "vegetable"
+        "vegetable",
+        "بصل عويرما (بصل صغير) بقشره",
+        "نصف كيلو"
       ]
     ],
     "steps": [
-      "Put the onions, still in their skins, in a hot oven for about an hour, until thoroughly cooked.",
+      [
+        "Put the onions, still in their skins, in a hot oven for about an hour, until thoroughly cooked.",
+        "ضع البصل بقشره في فرن ساخن حوالي ساعة حتى ينضج تماماً.",
+        "cook"
+      ],
       [
         "Peel them at the table; they should be soft enough to melt in the mouth.",
+        "يُقشَّر على المائدة، ويجب أن يكون طرياً لدرجة أنه يذوب في الفم.",
         "finish"
       ]
     ]
@@ -470,67 +701,101 @@
     "num": 267,
     "page": 120,
     "title": "Pearl Onion and Beef Casserole (Tagin ’Awirma)",
+    "titleAr": "طاجن عويرما باللحم",
     "category": "meat",
     "method": "bake",
     "prep": "20 min",
+    "prepAr": "20 دقيقة",
     "cook": "1 hour 30 min–2 hours",
+    "cookAr": "ساعة و 30 دقيقة – ساعتان",
     "difficulty": "easy",
     "ingredients": [
       [
         "Pearl onions, peeled",
         "1/2 kg",
-        "vegetable"
+        "vegetable",
+        "بصل عويرما مقشر",
+        "نصف كيلو"
       ],
       [
         "Beef",
         "1/2 kg",
-        "meat_poultry"
+        "meat_poultry",
+        "لحم بقري",
+        "نصف كيلو"
       ],
       [
         "Garlic cloves",
         "15–20",
-        "vegetable"
+        "vegetable",
+        "فصوص ثوم",
+        "15–20"
       ],
       [
         "Meat stock",
         "2 cups",
-        "liquid"
+        "liquid",
+        "مرقة لحم",
+        "2 كوب"
       ],
       [
         "Mixed spice",
         "1 teaspoon",
-        "spice_seasoning"
+        "spice_seasoning",
+        "بهارات مشكلة",
+        "1 ملعقة صغيرة"
       ],
       [
         "Cornflour (optional)",
         "1 tablespoon",
-        "grain_starch"
+        "grain_starch",
+        "نشا ذرة (اختياري)",
+        "1 ملعقة كبيرة"
       ],
       [
         "Cooking oil",
         "as needed",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت للطهي",
+        "حسب الحاجة"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Cut the beef into small cubes. Peel the garlic and halve it diagonally.",
+        "قطّع اللحم مكعبات صغيرة. قشّر الثوم واقسم كل فص نصفين بشكل مائل.",
         "prep"
       ],
-      "Fry the beef and onions lightly in oil and move them to a casserole.",
-      "Add the garlic, mixed spice, salt and pepper and cover with the stock.",
-      "Bake in a moderate, preheated oven for 90–120 minutes.",
+      [
+        "Fry the beef and onions lightly in oil and move them to a casserole.",
+        "حمّر اللحم والبصل قليلاً في الزيت وانقلهما إلى طاجن.",
+        "cook"
+      ],
+      [
+        "Add the garlic, mixed spice, salt and pepper and cover with the stock.",
+        "أضف الثوم والبهارات المشكلة والملح والفلفل، وغطِّ بالمرقة.",
+        "cook"
+      ],
+      [
+        "Bake in a moderate, preheated oven for 90–120 minutes.",
+        "اخبزه في فرن متوسط الحرارة مسخن مسبقاً 90–120 دقيقة.",
+        "cook"
+      ],
       [
         "Thicken the gravy with cornflour if you like.",
+        "كثّف الصلصة بنشا الذرة إذا أردت.",
         "finish"
       ],
       [
         "Sweet-sour version (recipe 268 in the book): use 2 cups of tomato juice instead of stock, with 1 teaspoon each of sugar and vinegar dissolved in it, and spice with cinnamon or nutmeg.",
+        "النسخة الحامضة الحلوة (الوصفة 268 في الكتاب): استخدم كوبين من عصير الطماطم بدلاً من المرقة، مذاباً فيهما ملعقة صغيرة من السكر وأخرى من الخل، وتبّل بالقرفة أو جوزة الطيب.",
         "alternative"
       ]
     ]
@@ -539,57 +804,87 @@
     "num": 271,
     "page": 122,
     "title": "Meat-Filled Gullash Fingers (Asabi‘ Gullash bi-l-Lahma)",
+    "titleAr": "أصابع جلاش باللحمة",
     "category": "pastries",
     "method": "bake",
     "prep": "30 min",
+    "prepAr": "30 دقيقة",
     "cook": "25 min",
+    "cookAr": "25 دقيقة",
     "difficulty": "medium",
     "ingredients": [
       [
         "Gullash (phyllo) sheets",
         "1/2 kg",
-        "grain_starch"
+        "grain_starch",
+        "رقائق جلاش",
+        "نصف كيلو"
       ],
       [
         "Beef, minced",
         "1/2 kg",
-        "meat_poultry"
+        "meat_poultry",
+        "لحم بقري مفروم",
+        "نصف كيلو"
       ],
       [
         "Onion, finely chopped",
         "1",
-        "vegetable"
+        "vegetable",
+        "بصلة مفرومة ناعماً",
+        "1"
       ],
       [
         "Butter, melted",
         "as needed",
-        "dairy_fat"
+        "dairy_fat",
+        "زبدة سايحة",
+        "حسب الحاجة"
       ],
       [
         "Cooking oil",
         "a little",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت للطهي",
+        "قليل"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Make the savory minced beef: fry the onion in a little oil until pale gold, add the beef, salt and pepper and cook until the juices are absorbed. You need about 1 cup.",
+        "حضّر اللحمة المفرومة: شوّح البصل في قليل من الزيت حتى يصفرّ، ثم أضف اللحم والملح والفلفل واتركه حتى تتشرب العصارة. تحتاج حوالي كوب واحد.",
         "prep"
       ],
       [
         "Cut the gullash into 10 cm squares and keep them under a cloth so they do not dry out.",
+        "قطّع الجلاش مربعات 10 سم وغطّها بفوطة حتى لا تجف.",
         "prep"
       ],
-      "Working one square at a time, lay a narrow strip of meat across the middle, stopping 1 cm from each end.",
-      "Fold in the ends and roll up very tightly.",
-      "Pack the fingers into a greased baking pan and brush the tops with melted butter.",
+      [
+        "Working one square at a time, lay a narrow strip of meat across the middle, stopping 1 cm from each end.",
+        "خذ مربعاً واحداً في كل مرة، وضع شريطاً رفيعاً من اللحم في منتصفه مع ترك 1 سم عند كل طرف.",
+        "cook"
+      ],
+      [
+        "Fold in the ends and roll up very tightly.",
+        "اطوِ الطرفين للداخل ولفّه بإحكام شديد.",
+        "cook"
+      ],
+      [
+        "Pack the fingers into a greased baking pan and brush the tops with melted butter.",
+        "رصّ الأصابع متلاصقة في صينية مدهونة وادهن وجهها بالزبدة السايحة.",
+        "cook"
+      ],
       [
         "Bake in a moderate, preheated oven until golden.",
+        "اخبزها في فرن متوسط الحرارة مسخن مسبقاً حتى يصبح لونها ذهبياً.",
         "finish"
       ]
     ]
@@ -598,279 +893,435 @@
     "num": 273,
     "page": 123,
     "title": "Crisp Layered Ruqaq with Cheese and Egg (Saniyit Ru’a’ bi-l-Gibna)",
+    "titleAr": "صينية رقاق بالجبنة",
     "category": "pastries",
     "method": "bake",
     "prep": "20 min",
+    "prepAr": "20 دقيقة",
     "cook": "40 min",
+    "cookAr": "40 دقيقة",
     "difficulty": "medium",
     "ingredients": [
       [
         "Ruqaq (dry cracker-bread sheets)",
         "2 packets",
-        "grain_starch"
+        "grain_starch",
+        "رقاق",
+        "عبوتان"
       ],
       [
         "Hot chicken broth",
         "as needed",
-        "liquid"
+        "liquid",
+        "مرقة دجاج ساخنة",
+        "حسب الحاجة"
       ],
       [
         "Cooking oil",
         "2 tablespoons",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت للطهي",
+        "2 ملعقة كبيرة"
       ],
       [
         "Salted hard Balkan (kashkaval-type) cheese",
         "1/8 kg",
-        "dairy_fat"
+        "dairy_fat",
+        "جبنة رومي مالحة (من نوع القشقوان)",
+        "ثمن كيلو"
       ],
       [
         "Areesh (skimmed) cheese",
         "1/8 kg",
-        "dairy_fat"
+        "dairy_fat",
+        "جبنة قريش",
+        "ثمن كيلو"
       ],
       [
         "Egg",
         "1",
-        "dairy_fat"
+        "dairy_fat",
+        "بيضة",
+        "1"
       ],
       [
         "Hard-boiled eggs",
         "2",
-        "dairy_fat"
+        "dairy_fat",
+        "بيض مسلوق",
+        "2"
       ],
       [
         "Pepper",
         "a pinch",
-        "spice_seasoning"
+        "spice_seasoning",
+        "فلفل",
+        "رشة"
       ]
     ],
     "steps": [
       [
         "Grate the Balkan cheese. Mash the areesh cheese with the hard-boiled eggs, then mix in the grated cheese, the beaten raw egg and a pinch of pepper.",
+        "ابشر الجبنة الرومي. اهرس الجبنة القريش مع البيض المسلوق، ثم أضف الجبنة المبشورة والبيضة النيئة المخفوقة ورشة الفلفل واخلط.",
         "prep"
       ],
-      "Grease a deep baking pan (you will need a second pan the same size). Dip one ruqaq sheet at a time in hot broth and use them to line the pan, sprinkling each layer with a little oil.",
-      "After 3–4 layers, spread the cheese filling evenly, then carry on with more dipped, oiled layers.",
-      "Pour any remaining oil over the top and bake in a moderate oven.",
-      "When the top is brown, turn it over into the second pan and return it to the oven to brown the other side.",
+      [
+        "Grease a deep baking pan (you will need a second pan the same size). Dip one ruqaq sheet at a time in hot broth and use them to line the pan, sprinkling each layer with a little oil.",
+        "ادهن صينية عميقة (ستحتاج صينية ثانية بنفس الحجم). اغمس ورقة رقاق واحدة في كل مرة في المرقة الساخنة وافرشها في الصينية، مع رش كل طبقة بقليل من الزيت.",
+        "cook"
+      ],
+      [
+        "After 3–4 layers, spread the cheese filling evenly, then carry on with more dipped, oiled layers.",
+        "بعد 3–4 طبقات افرد حشوة الجبن بالتساوي، ثم أكمل بطبقات أخرى مغموسة ومرشوشة بالزيت.",
+        "cook"
+      ],
+      [
+        "Pour any remaining oil over the top and bake in a moderate oven.",
+        "صبّ باقي الزيت على الوجه واخبزها في فرن متوسط الحرارة.",
+        "cook"
+      ],
+      [
+        "When the top is brown, turn it over into the second pan and return it to the oven to brown the other side.",
+        "عندما يحمرّ الوجه، اقلبها في الصينية الثانية وأعدها إلى الفرن ليحمرّ الوجه الآخر.",
+        "cook"
+      ],
       [
         "Cut into pieces while hot.",
+        "قطّعها وهي ساخنة.",
         "finish"
       ]
     ],
-    "notes": "A cheese version of the meat-filled ruqaq; ruqaq is sold in round packets in Egyptian groceries."
+    "notes": "A cheese version of the meat-filled ruqaq; ruqaq is sold in round packets in Egyptian groceries.",
+    "notesAr": "نسخة بالجبن من الرقاق باللحمة، ويُباع الرقاق في عبوات دائرية في محلات البقالة المصرية."
   },
   {
     "num": 275,
     "page": 124,
     "title": "Lamb and Lisan ‘Asfur Pasta Casserole (Tagin Lisan ‘Asfur)",
+    "titleAr": "طاجن لسان عصفور باللحم الضأن",
     "category": "starches",
     "method": "bake",
     "prep": "15 min",
+    "prepAr": "15 دقيقة",
     "cook": "1 hour",
+    "cookAr": "ساعة واحدة",
     "difficulty": "easy",
     "ingredients": [
       [
         "Lisan ‘asfur (orzo-shaped pasta)",
         "1/4 kg",
-        "grain_starch"
+        "grain_starch",
+        "لسان عصفور (مكرونة على شكل حبات الأرز)",
+        "ربع كيلو"
       ],
       [
         "Lean lamb",
         "1/2 kg",
-        "meat_poultry"
+        "meat_poultry",
+        "لحم ضأن قليل الدهن",
+        "نصف كيلو"
       ],
       [
         "Onions, thinly sliced",
         "2–3",
-        "vegetable"
+        "vegetable",
+        "بصل مقطع شرائح رفيعة",
+        "2–3"
       ],
       [
         "Sweet green peppers",
         "2",
-        "vegetable"
+        "vegetable",
+        "فلفل أخضر حلو",
+        "2"
       ],
       [
         "Butter",
         "1 tablespoon",
-        "dairy_fat"
+        "dairy_fat",
+        "زبدة",
+        "1 ملعقة كبيرة"
       ],
       [
         "Oil",
         "1 teaspoon",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت",
+        "1 ملعقة صغيرة"
       ],
       [
         "Cinnamon",
         "1 teaspoon",
-        "spice_seasoning"
+        "spice_seasoning",
+        "قرفة",
+        "1 ملعقة صغيرة"
       ],
       [
         "Meat stock",
         "as needed",
-        "liquid"
+        "liquid",
+        "مرقة لحم",
+        "حسب الحاجة"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Cut the meat into bite-sized cubes. Seed the peppers and slice them thinly.",
+        "قطّع اللحم مكعبات بحجم اللقمة. انزع بذور الفلفل وقطّعه شرائح رفيعة.",
         "prep"
       ],
-      "Sauté the onion in the butter and oil, add the lamb and fry until its juices are absorbed.",
-      "Cover with stock, add the peppers, cinnamon, salt and pepper and cook for 15–20 minutes.",
-      "Lift out the meat and vegetables with a slotted spoon and put them in an ovenproof pot.",
-      "Parboil the lisan ‘asfur in the stock for 5–7 minutes and pour it over the meat, adding hot water if it is not covered.",
+      [
+        "Sauté the onion in the butter and oil, add the lamb and fry until its juices are absorbed.",
+        "شوّح البصل في الزبدة والزيت، ثم أضف اللحم وقلّبه حتى تتشرب عصارته.",
+        "cook"
+      ],
+      [
+        "Cover with stock, add the peppers, cinnamon, salt and pepper and cook for 15–20 minutes.",
+        "غطِّه بالمرقة، وأضف الفلفل والقرفة والملح والفلفل واتركه 15–20 دقيقة.",
+        "cook"
+      ],
+      [
+        "Lift out the meat and vegetables with a slotted spoon and put them in an ovenproof pot.",
+        "ارفع اللحم والخضار بمغرفة مثقوبة وضعها في وعاء يصلح للفرن.",
+        "cook"
+      ],
+      [
+        "Parboil the lisan ‘asfur in the stock for 5–7 minutes and pour it over the meat, adding hot water if it is not covered.",
+        "اسلق لسان العصفور سلقاً مبدئياً في المرقة 5–7 دقائق وصبّه فوق اللحم، مع إضافة ماء ساخن إذا لم يكن مغموراً.",
+        "cook"
+      ],
       [
         "Bake in a moderate, preheated oven for 30 minutes.",
+        "اخبزه في فرن متوسط الحرارة مسخن مسبقاً 30 دقيقة.",
         "finish"
       ]
     ],
-    "notes": "Made in Palestine and Lebanon. Lisan ‘asfur, “sparrow’s tongue”, is named for its small oval shape."
+    "notes": "Made in Palestine and Lebanon. Lisan ‘asfur, “sparrow’s tongue”, is named for its small oval shape.",
+    "notesAr": "يُطهى في فلسطين ولبنان. سُمي لسان العصفور بهذا الاسم لشكله البيضاوي الصغير."
   },
   {
     "num": 281,
     "page": 127,
     "title": "Shishbarak (Meat Dumplings in Garlic Yogurt)",
+    "titleAr": "شيش برك (عجينة محشوة باللحم في لبن بالثوم)",
     "category": "pastries",
     "method": "simmer",
     "prep": "1 hour 30 min (includes resting)",
+    "prepAr": "ساعة و 30 دقيقة (مع الراحة)",
     "cook": "40 min",
+    "cookAr": "40 دقيقة",
     "difficulty": "master",
     "ingredients": [
       [
         "Flour",
         "2 cups",
-        "grain_starch"
+        "grain_starch",
+        "دقيق",
+        "2 كوب"
       ],
       [
         "Lean beef, minced",
         "1/2 kg",
-        "meat_poultry"
+        "meat_poultry",
+        "لحم بقري قليل الدهن مفروم",
+        "نصف كيلو"
       ],
       [
         "Onion, very finely chopped",
         "1",
-        "vegetable"
+        "vegetable",
+        "بصلة مفرومة ناعماً جداً",
+        "1"
       ],
       [
         "Pine nuts",
         "2 tablespoons",
-        "other"
+        "other",
+        "صنوبر",
+        "2 ملعقة كبيرة"
       ],
       [
         "Mixed spice",
         "1/2 teaspoon",
-        "spice_seasoning"
+        "spice_seasoning",
+        "بهارات مشكلة",
+        "نصف ملعقة صغيرة"
       ],
       [
         "Ground cinnamon",
         "1/2 teaspoon",
-        "spice_seasoning"
+        "spice_seasoning",
+        "قرفة مطحونة",
+        "نصف ملعقة صغيرة"
       ],
       [
         "Yogurt",
         "4–5 cups",
-        "dairy_fat"
+        "dairy_fat",
+        "زبادي",
+        "4–5 أكواب"
       ],
       [
         "Egg whites",
         "2",
-        "dairy_fat"
+        "dairy_fat",
+        "بياض بيض",
+        "2"
       ],
       [
         "Garlic cloves, crushed",
         "7–10",
-        "vegetable"
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "7–10"
       ],
       [
         "Dried mint",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "نعناع ناشف",
+        "حسب الرغبة"
       ],
       [
         "Ghee and cooking oil",
         "as needed",
-        "dairy_fat"
+        "dairy_fat",
+        "سمن وزيت للطهي",
+        "حسب الحاجة"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Sift the flour with salt and add enough water to knead a smooth dough that comes away from the bowl. Rest it for an hour.",
+        "انخل الدقيق مع الملح وأضف ماءً يكفي لعجن عجينة ناعمة لا تلتصق بالوعاء. اتركها ترتاح ساعة.",
         "prep"
       ],
       [
         "Fry the pine nuts golden and set aside. Soften the onion in the same oil, add the meat and fry until its juices are gone, then stir in the pine nuts, spices, salt and pepper.",
+        "حمّر الصنوبر حتى يصبح ذهبياً وضعه جانباً. شوّح البصل في نفس الزيت حتى يلين، ثم أضف اللحم وقلّبه حتى تجف عصارته، ثم أضف الصنوبر والبهارات والملح والفلفل.",
         "prep"
       ],
-      "Roll the dough out on a floured surface and cut it into small rounds.",
-      "Put 1/2 teaspoon of filling on each, fold into a crescent with wet fingers, then wrap it round your finger and pinch the ends together so it looks like a little hat.",
-      "Set them on a greased tray, brush with ghee and bake in a moderate oven until crisp and golden.",
-      "Fry the garlic in a little ghee until golden, stirring constantly, and stir in the mint.",
-      "Whisk the egg whites until frothy and mix them into the yogurt to keep it from splitting. Heat it uncovered over a low heat and add the garlic mixture.",
+      [
+        "Roll the dough out on a floured surface and cut it into small rounds.",
+        "افرد العجينة على سطح مرشوش بالدقيق وقطّعها دوائر صغيرة.",
+        "cook"
+      ],
+      [
+        "Put 1/2 teaspoon of filling on each, fold into a crescent with wet fingers, then wrap it round your finger and pinch the ends together so it looks like a little hat.",
+        "ضع نصف ملعقة صغيرة من الحشوة على كل دائرة، واطوها على شكل هلال بأصابع مبللة، ثم لفّها حول إصبعك واضغط الطرفين معاً لتبدو مثل قبعة صغيرة.",
+        "cook"
+      ],
+      [
+        "Set them on a greased tray, brush with ghee and bake in a moderate oven until crisp and golden.",
+        "رصّها في صينية مدهونة، وادهنها بالسمن، واخبزها في فرن متوسط الحرارة حتى تصبح مقرمشة وذهبية.",
+        "cook"
+      ],
+      [
+        "Fry the garlic in a little ghee until golden, stirring constantly, and stir in the mint.",
+        "حمّر الثوم في قليل من السمن حتى يصبح ذهبياً مع التقليب المستمر، ثم أضف النعناع.",
+        "cook"
+      ],
+      [
+        "Whisk the egg whites until frothy and mix them into the yogurt to keep it from splitting. Heat it uncovered over a low heat and add the garlic mixture.",
+        "اخفق بياض البيض حتى يظهر الرغو واخلطه مع الزبادي حتى لا يتفرط. سخّنه دون غطاء على نار هادئة وأضف خليط الثوم.",
+        "cook"
+      ],
       [
         "When the yogurt bubbles, add the shishbarak and cook for 7–10 minutes more.",
+        "عندما يبدأ الزبادي في الغليان، أضف الشيش برك واتركه 7–10 دقائق أخرى.",
         "finish"
       ]
     ],
-    "notes": "A Palestinian dish, also made across the Levant."
+    "notes": "A Palestinian dish, also made across the Levant.",
+    "notesAr": "طبق فلسطيني يُطهى أيضاً في بلاد الشام كلها."
   },
   {
     "num": 283,
     "page": 128,
     "title": "Layered Peas, Rice and Minced Beef Béchamel (Basilla bi-l-Bechamel)",
+    "titleAr": "بسلة بالبشاميل مع الأرز واللحمة المفرومة",
     "category": "vegetables",
     "method": "bake",
     "prep": "30 min",
+    "prepAr": "30 دقيقة",
     "cook": "30 min",
+    "cookAr": "30 دقيقة",
     "difficulty": "medium",
     "ingredients": [
       [
         "Shelled peas",
         "1/2 kg",
-        "vegetable"
+        "vegetable",
+        "بسلة مقشرة",
+        "نصف كيلو"
       ],
       [
         "Thin béchamel sauce, well seasoned",
         "2 cups",
-        "dairy_fat"
+        "dairy_fat",
+        "صلصة بشاميل خفيفة متبلة جيداً",
+        "2 كوب"
       ],
       [
         "Cooked rice",
         "1 cup",
-        "grain_starch"
+        "grain_starch",
+        "أرز مطبوخ",
+        "1 كوب"
       ],
       [
         "Savory minced beef (‘assag)",
         "1/2 kg",
-        "meat_poultry"
+        "meat_poultry",
+        "لحمة مفرومة مطبوخة (عصاج)",
+        "نصف كيلو"
       ],
       [
         "Egg",
         "1",
-        "dairy_fat"
+        "dairy_fat",
+        "بيضة",
+        "1"
       ]
     ],
     "steps": [
       [
         "Parboil the peas in salted water for 10 minutes and drain.",
+        "اسلق البسلة في ماء مملح 10 دقائق وصفّها.",
         "prep"
       ],
-      "Grease a deep ovenproof serving dish, preferably glass.",
-      "Arrange the rice, peas and minced beef in several thin layers, moistening every layer with béchamel.",
-      "Pour the beaten egg over the top.",
+      [
+        "Grease a deep ovenproof serving dish, preferably glass.",
+        "ادهن طبقاً عميقاً يصلح للفرن، ويُفضّل أن يكون زجاجياً.",
+        "cook"
+      ],
+      [
+        "Arrange the rice, peas and minced beef in several thin layers, moistening every layer with béchamel.",
+        "رتّب الأرز والبسلة واللحمة المفرومة في عدة طبقات رفيعة، مع ترطيب كل طبقة بالبشاميل.",
+        "cook"
+      ],
+      [
+        "Pour the beaten egg over the top.",
+        "صبّ البيضة المخفوقة على الوجه.",
+        "cook"
+      ],
       [
         "Bake in the middle of a moderate, preheated oven for 20–30 minutes, until browned on top.",
+        "اخبزه في منتصف فرن متوسط الحرارة مسخن مسبقاً 20–30 دقيقة حتى يحمرّ الوجه.",
         "finish"
       ]
     ]
@@ -879,185 +1330,285 @@
     "num": 308,
     "page": 137,
     "title": "Brown Onion Rice for Fish (Ruzz Ahmar)",
+    "titleAr": "أرز أحمر بالبصل للسمك (رز أحمر)",
     "category": "starches",
     "method": "simmer",
     "prep": "20 min soaking",
+    "prepAr": "20 دقيقة نقع",
     "cook": "25 min",
+    "cookAr": "25 دقيقة",
     "difficulty": "easy",
     "ingredients": [
       [
         "Rice",
         "2 cups",
-        "grain_starch"
+        "grain_starch",
+        "أرز",
+        "2 كوب"
       ],
       [
         "Onions, finely chopped",
         "2",
-        "vegetable"
+        "vegetable",
+        "بصل مفروم ناعماً",
+        "2"
       ],
       [
         "Water",
         "2 cups",
-        "liquid"
+        "liquid",
+        "ماء",
+        "2 كوب"
       ],
       [
         "Oil",
         "2 tablespoons",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت",
+        "2 ملعقة كبيرة"
       ],
       [
         "Salt",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Soak the rice in warm water for 15–20 minutes and drain.",
+        "انقع الأرز في ماء دافئ 15–20 دقيقة وصفّه.",
         "prep"
       ],
-      "Fry the onions in the oil until deep brown.",
-      "Add the water and salt and bring to the boil.",
+      [
+        "Fry the onions in the oil until deep brown.",
+        "حمّر البصل في الزيت حتى يصبح بنياً غامقاً.",
+        "cook"
+      ],
+      [
+        "Add the water and salt and bring to the boil.",
+        "أضف الماء والملح واتركه حتى يغلي.",
+        "cook"
+      ],
       [
         "Stir in the rice, cover, turn the heat to its lowest and cook for 15–20 minutes.",
+        "أضف الأرز وقلّب، وغطِّه، واخفض النار لأقل درجة واتركه 15–20 دقيقة.",
         "finish"
       ],
       [
         "For a redder rice (recipe 309 in the book), stir 1 tablespoon of tomato paste into the water before adding the rice.",
+        "للحصول على أرز أكثر احمراراً (الوصفة 309 في الكتاب)، ذوّب ملعقة كبيرة من معجون الطماطم في الماء قبل إضافة الأرز.",
         "alternative"
       ]
     ],
-    "notes": "In Egypt this rice is always served with fish."
+    "notes": "In Egypt this rice is always served with fish.",
+    "notesAr": "في مصر يُقدَّم هذا الأرز دائماً مع السمك."
   },
   {
     "num": 310,
     "page": 138,
     "title": "Rice Cooked in Shrimp Stock (Ruzz bi-Salsit Gambari)",
+    "titleAr": "أرز بصلصة الجمبري",
     "category": "fish",
     "method": "simmer",
     "prep": "20 min",
+    "prepAr": "20 دقيقة",
     "cook": "40 min",
+    "cookAr": "40 دقيقة",
     "difficulty": "medium",
     "ingredients": [
       [
         "Shrimp or prawns",
         "1 kg",
-        "seafood"
+        "seafood",
+        "جمبري",
+        "1 كيلو"
       ],
       [
         "Onions, quartered",
         "3–5",
-        "vegetable"
+        "vegetable",
+        "بصل مقطع أرباعاً",
+        "3–5"
       ],
       [
         "Lemons, chopped with their rinds",
         "2–3",
-        "sweet_fruit"
+        "sweet_fruit",
+        "ليمون مقطع بقشره",
+        "2–3"
       ],
       [
         "Cumin",
         "1 teaspoon",
-        "spice_seasoning"
+        "spice_seasoning",
+        "كمون",
+        "1 ملعقة صغيرة"
       ],
       [
         "Rice",
         "2 cups",
-        "grain_starch"
+        "grain_starch",
+        "أرز",
+        "2 كوب"
       ],
       [
         "Water",
         "2 cups",
-        "liquid"
+        "liquid",
+        "ماء",
+        "2 كوب"
       ],
       [
         "Cooking oil",
         "1 tablespoon",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت للطهي",
+        "1 ملعقة كبيرة"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Rinse the shrimp under running water until it runs clear. Put them in a pot with the onions, lemons, cumin, salt and pepper, without any water, and cook over a moderate heat, tossing every few minutes, for about 7 minutes or until done.",
+        "اغسل الجمبري تحت ماء جارٍ حتى يصبح الماء صافياً. ضعه في حلة مع البصل والليمون والكمون والملح والفلفل بدون ماء، واطهه على نار متوسطة مع التقليب كل بضع دقائق حوالي 7 دقائق أو حتى ينضج.",
         "prep"
       ],
       [
         "Cool and shell the shrimp, keeping the heads, shells and juices. Remove the dark vein.",
+        "اتركه يبرد وقشّر الجمبري، مع الاحتفاظ بالرؤوس والقشر والعصارة. انزع العرق الأسود.",
         "prep"
       ],
-      "Make the shrimp sauce: blend the heads, shells and juices at high speed and strain. You need 1 cup.",
-      "Fry the rice in the oil, stirring until every grain is coated.",
-      "Add 2 cups of water and the cup of shrimp sauce. It is already well seasoned, so add no salt.",
-      "Cook uncovered over a moderate heat until the liquid is absorbed, then cover, turn the heat to its lowest and cook for 20–30 minutes.",
+      [
+        "Make the shrimp sauce: blend the heads, shells and juices at high speed and strain. You need 1 cup.",
+        "حضّر صلصة الجمبري: اضرب الرؤوس والقشر والعصارة في الخلاط على سرعة عالية وصفّها. تحتاج كوباً واحداً.",
+        "cook"
+      ],
+      [
+        "Fry the rice in the oil, stirring until every grain is coated.",
+        "شوّح الأرز في الزيت مع التقليب حتى تتغلف كل حبة.",
+        "cook"
+      ],
+      [
+        "Add 2 cups of water and the cup of shrimp sauce. It is already well seasoned, so add no salt.",
+        "أضف كوبين من الماء وكوب صلصة الجمبري. الصلصة متبلة جيداً، فلا تضف ملحاً.",
+        "cook"
+      ],
+      [
+        "Cook uncovered over a moderate heat until the liquid is absorbed, then cover, turn the heat to its lowest and cook for 20–30 minutes.",
+        "اطهه دون غطاء على نار متوسطة حتى يتشرب السائل، ثم غطِّه واخفض النار لأقل درجة واتركه 20–30 دقيقة.",
+        "cook"
+      ],
       [
         "Serve with the shrimp.",
+        "قدّمه مع الجمبري.",
         "finish"
       ]
     ],
-    "notes": "The book also suggests the strained shrimp sauce as a flavouring for tahini and other dishes."
+    "notes": "The book also suggests the strained shrimp sauce as a flavouring for tahini and other dishes.",
+    "notesAr": "يقترح الكتاب أيضاً استخدام صلصة الجمبري المصفاة لإضافة النكهة إلى الطحينة وأطباق أخرى."
   },
   {
     "num": 311,
     "page": 138,
     "title": "Rice with Tomatoes, Peppers and Carrots (Ruzz bi-l-Khudar)",
+    "titleAr": "أرز بالخضار (طماطم وفلفل وجزر)",
     "category": "starches",
     "method": "simmer",
     "prep": "20 min",
+    "prepAr": "20 دقيقة",
     "cook": "35 min",
+    "cookAr": "35 دقيقة",
     "difficulty": "easy",
     "ingredients": [
       [
         "Rice",
         "2 cups",
-        "grain_starch"
+        "grain_starch",
+        "أرز",
+        "2 كوب"
       ],
       [
         "Water",
         "3 cups",
-        "liquid"
+        "liquid",
+        "ماء",
+        "3 أكواب"
       ],
       [
         "Ripe tomatoes, peeled and chopped",
         "2–3",
-        "vegetable"
+        "vegetable",
+        "طماطم ناضجة مقشرة ومقطعة",
+        "2–3"
       ],
       [
         "Sweet green peppers, blanched and thinly sliced",
         "2–3",
-        "vegetable"
+        "vegetable",
+        "فلفل أخضر حلو مسلوق سلقاً خفيفاً ومقطع شرائح رفيعة",
+        "2–3"
       ],
       [
         "Carrots, parboiled and diced",
         "2–3",
-        "vegetable"
+        "vegetable",
+        "جزر مسلوق سلقاً مبدئياً ومقطع مكعبات",
+        "2–3"
       ],
       [
         "Onion, thinly sliced",
         "1",
-        "vegetable"
+        "vegetable",
+        "بصلة مقطعة شرائح رفيعة",
+        "1"
       ],
       [
         "Cooking oil",
         "as needed",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت للطهي",
+        "حسب الحاجة"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
-      "Sauté the onion until golden and mix it with the tomatoes, peppers and carrots.",
-      "Fry the rice in the same oil, stirring, until every grain is coated.",
-      "Add the vegetables, water, salt and pepper and stir one last time.",
-      "Cook uncovered over a high heat until the water is absorbed.",
+      [
+        "Sauté the onion until golden and mix it with the tomatoes, peppers and carrots.",
+        "شوّح البصل حتى يصبح ذهبياً واخلطه مع الطماطم والفلفل والجزر.",
+        "cook"
+      ],
+      [
+        "Fry the rice in the same oil, stirring, until every grain is coated.",
+        "شوّح الأرز في نفس الزيت مع التقليب حتى تتغلف كل حبة.",
+        "cook"
+      ],
+      [
+        "Add the vegetables, water, salt and pepper and stir one last time.",
+        "أضف الخضار والماء والملح والفلفل وقلّب مرة أخيرة.",
+        "cook"
+      ],
+      [
+        "Cook uncovered over a high heat until the water is absorbed.",
+        "اطهه دون غطاء على نار عالية حتى يتشرب الماء.",
+        "cook"
+      ],
       [
         "Cover, turn the heat to its lowest and cook for 15–20 minutes.",
+        "غطِّه واخفض النار لأقل درجة واتركه 15–20 دقيقة.",
         "finish"
       ]
     ]
@@ -1066,52 +1617,80 @@
     "num": 313,
     "page": 139,
     "title": "Soft Rice Porridge with Beef (Ruzz Lubba bi-l-Lahma)",
+    "titleAr": "أرز لبّة باللحمة",
     "category": "starches",
     "method": "simmer",
     "prep": "10 min",
+    "prepAr": "10 دقائق",
     "cook": "1 hour",
+    "cookAr": "ساعة واحدة",
     "difficulty": "easy",
     "ingredients": [
       [
         "Rice",
         "2 cups",
-        "grain_starch"
+        "grain_starch",
+        "أرز",
+        "2 كوب"
       ],
       [
         "Beef",
         "1/2 kg",
-        "meat_poultry"
+        "meat_poultry",
+        "لحم بقري",
+        "نصف كيلو"
       ],
       [
         "Onions, coarsely chopped",
         "2",
-        "vegetable"
+        "vegetable",
+        "بصل مفروم فرماً خشناً",
+        "2"
       ],
       [
         "Cooking oil",
         "as needed",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت للطهي",
+        "حسب الحاجة"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Cut the beef into bite-sized cubes.",
+        "قطّع اللحم مكعبات بحجم اللقمة.",
         "prep"
       ],
-      "Fry the onions until golden, add the beef and fry over a high heat until its juices are absorbed.",
-      "Season, add water to cover and cook over a low heat for 15–20 minutes.",
-      "Top up the water to 4–5 cups, stir in the rice and check the seasoning.",
+      [
+        "Fry the onions until golden, add the beef and fry over a high heat until its juices are absorbed.",
+        "حمّر البصل حتى يصبح ذهبياً، ثم أضف اللحم وقلّبه على نار عالية حتى تتشرب عصارته.",
+        "cook"
+      ],
+      [
+        "Season, add water to cover and cook over a low heat for 15–20 minutes.",
+        "تبّله، وأضف ماءً يغمره، واتركه على نار هادئة 15–20 دقيقة.",
+        "cook"
+      ],
+      [
+        "Top up the water to 4–5 cups, stir in the rice and check the seasoning.",
+        "أكمل الماء إلى 4–5 أكواب، وأضف الأرز، وتذوق التتبيل.",
+        "cook"
+      ],
       [
         "Cover and cook slowly for about 30 minutes. It should end up soft and porridge-like.",
+        "غطِّه واتركه يُطهى ببطء حوالي 30 دقيقة. يجب أن يصبح طرياً مثل العصيدة.",
         "finish"
       ],
       [
         "With gizzards (recipe 314 in the book): stir 5–6 mastic grains into hot oil for 10–15 seconds, add halved boiled gizzards, cover and turn off the heat for 1–2 minutes, then fry them, add 4 cups of water and the rice and cook the same way.",
+        "بالقوانص (الوصفة 314 في الكتاب): قلّب 5–6 حبات مستكة في زيت ساخن 10–15 ثانية، وأضف قوانص مسلوقة مقسومة نصفين، وغطِّها وأطفئ النار دقيقة أو دقيقتين، ثم حمّرها وأضف 4 أكواب ماء والأرز واطهها بنفس الطريقة.",
         "alternative"
       ]
     ]
@@ -1120,307 +1699,456 @@
     "num": 315,
     "page": 140,
     "title": "Turkish Eggplant Pilaf (Patlıcanlı Pilav)",
+    "titleAr": "أرز بالباذنجان على الطريقة التركية (باتليجانلي بيلاف)",
     "category": "starches",
     "method": "simmer",
     "prep": "1 hour 15 min (includes salting)",
+    "prepAr": "ساعة و 15 دقيقة (مع التمليح)",
     "cook": "45 min",
+    "cookAr": "45 دقيقة",
     "difficulty": "medium",
     "ingredients": [
       [
         "Rice",
         "2 cups",
-        "grain_starch"
+        "grain_starch",
+        "أرز",
+        "2 كوب"
       ],
       [
         "Brown eggplants, round or slender",
         "1 kg",
-        "vegetable"
+        "vegetable",
+        "باذنجان رومي مدور أو رفيع",
+        "1 كيلو"
       ],
       [
         "Onion",
         "1",
-        "vegetable"
+        "vegetable",
+        "بصلة",
+        "1"
       ],
       [
         "Tomatoes, peeled and diced",
         "4",
-        "vegetable"
+        "vegetable",
+        "طماطم مقشرة ومقطعة مكعبات",
+        "4"
       ],
       [
         "Parsley, very finely chopped",
         "1/2 cup",
-        "vegetable"
+        "vegetable",
+        "بقدونس مفروم ناعماً جداً",
+        "نصف كوب"
       ],
       [
         "Mint leaves, very finely chopped",
         "1/2 cup",
-        "vegetable"
+        "vegetable",
+        "ورق نعناع مفروم ناعماً جداً",
+        "نصف كوب"
       ],
       [
         "Oil",
         "as needed",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت",
+        "حسب الحاجة"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Dice the eggplant without peeling, salt it and leave for an hour. Squeeze out the moisture and pat dry.",
+        "قطّع الباذنجان مكعبات دون تقشير، ورشّه بالملح واتركه ساعة. اعصر منه الماء وجفّفه.",
         "prep"
       ],
-      "Fry the eggplant until lightly browned and drain on absorbent paper.",
-      "Soften the chopped onion in the same oil, then add the tomatoes, parsley, mint, eggplant, salt and pepper and bring to the boil.",
-      "Add the rice and enough water to cover.",
+      [
+        "Fry the eggplant until lightly browned and drain on absorbent paper.",
+        "اقلِ الباذنجان حتى يحمرّ قليلاً وصفّه على ورق ماص.",
+        "cook"
+      ],
+      [
+        "Soften the chopped onion in the same oil, then add the tomatoes, parsley, mint, eggplant, salt and pepper and bring to the boil.",
+        "شوّح البصل المفروم في نفس الزيت حتى يلين، ثم أضف الطماطم والبقدونس والنعناع والباذنجان والملح والفلفل واتركه حتى يغلي.",
+        "cook"
+      ],
+      [
+        "Add the rice and enough water to cover.",
+        "أضف الأرز وماءً يكفي لغمره.",
+        "cook"
+      ],
       [
         "Boil hard, then lower the heat and simmer gently for 30 minutes.",
+        "اتركه يغلي بقوة، ثم اخفض النار واتركه على نار هادئة 30 دقيقة.",
         "finish"
       ]
     ],
-    "notes": "A Turkish dish. The book cooks an onion here without listing it; we added one."
+    "notes": "A Turkish dish. The book cooks an onion here without listing it; we added one.",
+    "notesAr": "طبق تركي. يطهو الكتاب بصلة هنا دون أن يذكرها في المكونات، فأضفناها."
   },
   {
     "num": 317,
     "page": 141,
     "title": "Saffron Rice Kibbeh (Kubbat Halab)",
+    "titleAr": "كبة حلب بالأرز والزعفران",
     "category": "starches",
     "method": "fry",
     "prep": "45 min",
+    "prepAr": "45 دقيقة",
     "cook": "45 min",
+    "cookAr": "45 دقيقة",
     "difficulty": "master",
     "ingredients": [
       [
         "Rice",
         "2 cups",
-        "grain_starch"
+        "grain_starch",
+        "أرز",
+        "2 كوب"
       ],
       [
         "Saffron",
         "1 teaspoon",
-        "spice_seasoning"
+        "spice_seasoning",
+        "زعفران",
+        "1 ملعقة صغيرة"
       ],
       [
         "Ground beef",
         "1/2 kg",
-        "meat_poultry"
+        "meat_poultry",
+        "لحم بقري مفروم",
+        "نصف كيلو"
       ],
       [
         "Slivered almonds",
         "1/2 cup",
-        "other"
+        "other",
+        "لوز مقطع شرائح",
+        "نصف كوب"
       ],
       [
         "Celery or parsley, very finely chopped",
         "1/2 cup",
-        "vegetable"
+        "vegetable",
+        "كرفس أو بقدونس مفروم ناعماً جداً",
+        "نصف كوب"
       ],
       [
         "Raisins",
         "2 tablespoons",
-        "sweet_fruit"
+        "sweet_fruit",
+        "زبيب",
+        "2 ملعقة كبيرة"
       ],
       [
         "Mixed spice",
         "1/2 teaspoon",
-        "spice_seasoning"
+        "spice_seasoning",
+        "بهارات مشكلة",
+        "نصف ملعقة صغيرة"
       ],
       [
         "Turmeric soaked in rose water",
         "a dash in 1 tablespoon",
-        "spice_seasoning"
+        "spice_seasoning",
+        "كركم منقوع في ماء الورد",
+        "رشة في ملعقة كبيرة"
       ],
       [
         "Egg",
         "1",
-        "dairy_fat"
+        "dairy_fat",
+        "بيضة",
+        "1"
       ],
       [
         "Flour",
         "1–2 tablespoons",
-        "grain_starch"
+        "grain_starch",
+        "دقيق",
+        "1–2 ملعقة كبيرة"
       ],
       [
         "Ghee",
         "for frying",
-        "dairy_fat"
+        "dairy_fat",
+        "سمن",
+        "للقلي"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Boil the rice in 4 cups of water with the saffron and salt until soft, breaking up any lumps with a fork. Drain off any water left.",
+        "اسلق الأرز في 4 أكواب ماء مع الزعفران والملح حتى يلين، مع تفكيك أي كتل بالشوكة. صفِّ ما تبقى من ماء.",
         "prep"
       ],
       [
         "Add the lightly beaten egg and, with fingers dipped in the turmeric rose water, knead the rice into a soft dough that holds its shape.",
+        "أضف البيضة المخفوقة قليلاً، وبأصابع مغموسة في ماء الورد بالكركم، اعجن الأرز حتى يصبح عجينة طرية تحافظ على شكلها.",
         "prep"
       ],
-      "Filling: fry the beef, then add the celery or parsley, almonds, raisins, mixed spice, salt and pepper and cook together over a low heat for 10 minutes.",
-      "Take a little rice dough in your palm, moistened with rose water, and hollow it out with a finger of the other hand, turning it into a thin cup.",
-      "Fill with the meat, close it into an oval ball with a moistened palm and set it on a floured surface. Repeat until the dough is used up.",
+      [
+        "Filling: fry the beef, then add the celery or parsley, almonds, raisins, mixed spice, salt and pepper and cook together over a low heat for 10 minutes.",
+        "الحشوة: حمّر اللحم، ثم أضف الكرفس أو البقدونس واللوز والزبيب والبهارات والملح والفلفل واتركها معاً على نار هادئة 10 دقائق.",
+        "cook"
+      ],
+      [
+        "Take a little rice dough in your palm, moistened with rose water, and hollow it out with a finger of the other hand, turning it into a thin cup.",
+        "خذ قليلاً من عجينة الأرز في راحة يدك المبللة بماء الورد، واحفر وسطها بإصبع اليد الأخرى لتصبح مثل كوب رفيع.",
+        "cook"
+      ],
+      [
+        "Fill with the meat, close it into an oval ball with a moistened palm and set it on a floured surface. Repeat until the dough is used up.",
+        "احشها باللحم، وأغلقها على شكل كرة بيضاوية براحة يد مبللة، وضعها على سطح مرشوش بالدقيق. كرر حتى تنتهي العجينة.",
+        "cook"
+      ],
       [
         "Deep-fry in ghee until golden.",
+        "اقلها في سمن غزير حتى تصبح ذهبية.",
         "finish"
       ]
     ],
-    "notes": "An Iraqi dish named after Aleppo (Halab)."
+    "notes": "An Iraqi dish named after Aleppo (Halab).",
+    "notesAr": "طبق عراقي يحمل اسم مدينة حلب."
   },
   {
     "num": 318,
     "page": 141,
     "title": "Persian Crusty Steamed Rice with Yogurt Tahdig (Chelow Dig)",
+    "titleAr": "أرز فارسي مطهو بالبخار مع قشرة الزبادي (چلو ته‌دیگ)",
     "category": "starches",
     "method": "simmer",
     "prep": "10 min",
+    "prepAr": "10 دقائق",
     "cook": "50 min",
+    "cookAr": "50 دقيقة",
     "difficulty": "medium",
     "ingredients": [
       [
         "Long-grain rice",
         "2 cups",
-        "grain_starch"
+        "grain_starch",
+        "أرز طويل الحبة",
+        "2 كوب"
       ],
       [
         "Yogurt",
         "1 cup",
-        "dairy_fat"
+        "dairy_fat",
+        "زبادي",
+        "1 كوب"
       ],
       [
         "Ghee",
         "2 tablespoons",
-        "dairy_fat"
+        "dairy_fat",
+        "سمن",
+        "2 ملعقة كبيرة"
       ],
       [
         "Salt",
         "plenty, for the water",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "كمية وفيرة لماء السلق"
       ]
     ],
     "steps": [
       [
         "Wash the rice in boiling water and drain.",
+        "اغسل الأرز بماء مغلي وصفّه.",
         "prep"
       ],
-      "Bring 8 cups of heavily salted water to the boil, add the rice, cook for 5 minutes, then drain and rinse in hot water.",
-      "Stir the yogurt into one cup of the half-cooked rice.",
-      "Swirl a tablespoon of ghee round the base and sides of a heavy pan and spread the yogurt rice over the bottom.",
-      "Pile the rest of the rice on top, sprinkle with the remaining ghee and steam over a moderate heat, breaking up any clusters, until tender and crusty underneath.",
+      [
+        "Bring 8 cups of heavily salted water to the boil, add the rice, cook for 5 minutes, then drain and rinse in hot water.",
+        "اغلِ 8 أكواب ماء مملح بكثرة، وأضف الأرز واتركه 5 دقائق، ثم صفّه واشطفه بماء ساخن.",
+        "cook"
+      ],
+      [
+        "Stir the yogurt into one cup of the half-cooked rice.",
+        "اخلط الزبادي مع كوب واحد من الأرز نصف المطهو.",
+        "cook"
+      ],
+      [
+        "Swirl a tablespoon of ghee round the base and sides of a heavy pan and spread the yogurt rice over the bottom.",
+        "لفّ ملعقة كبيرة من السمن حول قاع وجوانب حلة ثقيلة، وافرد أرز الزبادي في القاع.",
+        "cook"
+      ],
+      [
+        "Pile the rest of the rice on top, sprinkle with the remaining ghee and steam over a moderate heat, breaking up any clusters, until tender and crusty underneath.",
+        "كوّم باقي الأرز فوقه، ورشّ عليه باقي السمن، واطهه بالبخار على نار متوسطة مع تفكيك أي تكتلات، حتى ينضج وتتكون قشرة مقرمشة في القاع.",
+        "cook"
+      ],
       [
         "Mound the steamed rice in the middle of a dish and break the golden crust from the bottom of the pan into pieces around it.",
+        "كوّم الأرز في وسط طبق، واكسر القشرة الذهبية من قاع الحلة قطعاً ورصّها حوله.",
         "finish"
       ]
     ],
-    "notes": "An Iranian dish; the golden crust is known as tahdig."
+    "notes": "An Iranian dish; the golden crust is known as tahdig.",
+    "notesAr": "طبق إيراني، وتُعرف القشرة الذهبية باسم ته‌دیگ (تهديج)."
   },
   {
     "num": 320,
     "page": 142,
     "title": "Everyday Egyptian Salad Dressing (Khalta li-l-Salata)",
+    "titleAr": "خلطة السلطة المصرية اليومية",
     "category": "salads",
     "method": "noCook",
     "prep": "5 min",
+    "prepAr": "5 دقائق",
     "difficulty": "easy",
     "ingredients": [
       [
         "Oil",
         "1 tablespoon",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت",
+        "1 ملعقة كبيرة"
       ],
       [
         "Lemon juice",
         "1 tablespoon",
-        "liquid"
+        "liquid",
+        "عصير ليمون",
+        "1 ملعقة كبيرة"
       ],
       [
         "Vinegar",
         "1 teaspoon",
-        "liquid"
+        "liquid",
+        "خل",
+        "1 ملعقة صغيرة"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ],
       [
         "Crushed garlic (optional)",
         "1–2 cloves",
-        "vegetable"
+        "vegetable",
+        "ثوم مهروس (اختياري)",
+        "1–2 فص"
       ],
       [
         "Cumin (optional)",
         "a pinch",
-        "spice_seasoning"
+        "spice_seasoning",
+        "كمون (اختياري)",
+        "رشة"
       ],
       [
         "Hot chili (optional)",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "شطة (اختياري)",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
-      "Mix all the ingredients together.",
+      [
+        "Mix all the ingredients together.",
+        "اخلط كل المكونات معاً.",
+        "cook"
+      ],
       [
         "Pour over the salad just before serving.",
+        "صبّها على السلطة قبل التقديم مباشرة.",
         "finish"
       ]
     ],
-    "notes": "The basic dressing the book uses for most of its salads."
+    "notes": "The basic dressing the book uses for most of its salads.",
+    "notesAr": "الخلطة الأساسية التي يستخدمها الكتاب لمعظم السلطات."
   },
   {
     "num": 323,
     "page": 143,
     "title": "Fresh Cabbage Salad with Garlic and Lemon (Salatit Krumb)",
+    "titleAr": "سلطة كرنب طازج بالثوم والليمون",
     "category": "salads",
     "method": "noCook",
     "prep": "15 min",
+    "prepAr": "15 دقيقة",
     "difficulty": "easy",
     "ingredients": [
       [
         "White cabbage leaves, shredded",
         "1/2 head",
-        "vegetable"
+        "vegetable",
+        "ورق كرنب أبيض مقطع شرائح رفيعة",
+        "نصف رأس"
       ],
       [
         "Onion, finely chopped",
         "1",
-        "vegetable"
+        "vegetable",
+        "بصلة مفرومة ناعماً",
+        "1"
       ],
       [
         "Oil",
         "1 tablespoon",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت",
+        "1 ملعقة كبيرة"
       ],
       [
         "Lemon juice",
         "1–2 tablespoons",
-        "liquid"
+        "liquid",
+        "عصير ليمون",
+        "1–2 ملعقة كبيرة"
       ],
       [
         "Garlic cloves, crushed",
         "3–5",
-        "vegetable"
+        "vegetable",
+        "فصوص ثوم مهروسة",
+        "3–5"
       ],
       [
         "Salt",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Sprinkle the cabbage and onion with salt and rub well, then rinse and drain.",
+        "رشّ الكرنب والبصل بالملح وافركهما جيداً، ثم اشطفهما وصفّهما.",
         "prep"
       ],
-      "Mix the oil, lemon juice, garlic and salt.",
+      [
+        "Mix the oil, lemon juice, garlic and salt.",
+        "اخلط الزيت وعصير الليمون والثوم والملح.",
+        "cook"
+      ],
       [
         "Pour over the vegetables and toss.",
+        "صبّ الخلطة على الخضار وقلّب.",
         "finish"
       ]
     ]
@@ -1429,80 +2157,115 @@
     "num": 329,
     "page": 145,
     "title": "Egyptian Chopped Salad (Salata Baladi)",
+    "titleAr": "سلطة بلدي مصرية",
     "category": "salads",
     "method": "noCook",
     "prep": "20 min",
+    "prepAr": "20 دقيقة",
     "difficulty": "easy",
     "ingredients": [
       [
         "Tomatoes",
         "as available",
-        "vegetable"
+        "vegetable",
+        "طماطم",
+        "حسب المتوفر"
       ],
       [
         "Onion",
         "1",
-        "vegetable"
+        "vegetable",
+        "بصلة",
+        "1"
       ],
       [
         "Cucumbers",
         "as available",
-        "vegetable"
+        "vegetable",
+        "خيار",
+        "حسب المتوفر"
       ],
       [
         "Sweet green peppers",
         "as available",
-        "vegetable"
+        "vegetable",
+        "فلفل أخضر حلو",
+        "حسب المتوفر"
       ],
       [
         "Parsley leaves",
         "a handful",
-        "vegetable"
+        "vegetable",
+        "ورق بقدونس",
+        "حفنة"
       ],
       [
         "Red radishes",
         "a few",
-        "vegetable"
+        "vegetable",
+        "فجل أحمر",
+        "بضع حبات"
       ],
       [
         "Lettuce heart",
         "1",
-        "vegetable"
+        "vegetable",
+        "قلب خس",
+        "1"
       ],
       [
         "Pickles",
         "a few",
-        "vegetable"
+        "vegetable",
+        "مخلل",
+        "بضع قطع"
       ],
       [
         "Garlic clove",
         "1",
-        "vegetable"
+        "vegetable",
+        "فص ثوم",
+        "1"
       ],
       [
         "Lemon juice",
         "for soaking the onion",
-        "liquid"
+        "liquid",
+        "عصير ليمون",
+        "لنقع البصل"
       ],
       [
         "Salad dressing (oil, lemon, vinegar, salt and pepper)",
         "to taste",
-        "liquid"
+        "liquid",
+        "خلطة السلطة (زيت وليمون وخل وملح وفلفل)",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Only onions and tomatoes are essential; add whatever else the season offers.",
+        "البصل والطماطم فقط أساسيان، وأضف ما يتوفر في الموسم من خضار أخرى.",
         "prep"
       ],
       [
         "Chop everything finely, keeping each vegetable separate.",
+        "قطّع كل الخضار قطعاً صغيرة، مع إبقاء كل نوع منفصلاً.",
         "prep"
       ],
-      "Rub the onion with salt, rinse it and leave it to soak in lemon juice.",
-      "Rub the inside of the salad bowl with the cut garlic clove and heap the vegetables in it.",
+      [
+        "Rub the onion with salt, rinse it and leave it to soak in lemon juice.",
+        "افرك البصل بالملح، واشطفه، واتركه منقوعاً في عصير الليمون.",
+        "cook"
+      ],
+      [
+        "Rub the inside of the salad bowl with the cut garlic clove and heap the vegetables in it.",
+        "افرك داخل طبق السلطة بفص الثوم المقطوع، وكوّم الخضار فيه.",
+        "cook"
+      ],
       [
         "Just before serving, add the dressing and toss.",
+        "قبل التقديم مباشرة، أضف الخلطة وقلّب.",
         "finish"
       ]
     ]
@@ -1511,33 +2274,51 @@
     "num": 331,
     "page": 146,
     "title": "Artichoke and Egg Salad (Salatit Kharshuf)",
+    "titleAr": "سلطة خرشوف بالبيض",
     "category": "salads",
     "method": "boil",
     "prep": "15 min",
+    "prepAr": "15 دقيقة",
     "cook": "20 min",
+    "cookAr": "20 دقيقة",
     "difficulty": "easy",
     "ingredients": [
       [
         "Artichoke hearts",
         "4–5",
-        "vegetable"
+        "vegetable",
+        "قلوب خرشوف",
+        "4–5"
       ],
       [
         "Hard-boiled eggs, chopped",
         "2–3",
-        "dairy_fat"
+        "dairy_fat",
+        "بيض مسلوق مفروم",
+        "2–3"
       ],
       [
         "Salad dressing (oil, lemon, vinegar, salt and pepper)",
         "to taste",
-        "liquid"
+        "liquid",
+        "خلطة السلطة (زيت وليمون وخل وملح وفلفل)",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
-      "Boil the artichoke hearts in salted water until tender, drain and chop.",
-      "Add them to the chopped eggs.",
+      [
+        "Boil the artichoke hearts in salted water until tender, drain and chop.",
+        "اسلق قلوب الخرشوف في ماء مملح حتى تلين، ثم صفّها وقطّعها.",
+        "cook"
+      ],
+      [
+        "Add them to the chopped eggs.",
+        "أضفها إلى البيض المفروم.",
+        "cook"
+      ],
       [
         "Pour over the dressing and mix well.",
+        "صبّ الخلطة عليها واخلط جيداً.",
         "finish"
       ]
     ]
@@ -1546,47 +2327,70 @@
     "num": 332,
     "page": 146,
     "title": "Green Bean Salad with Red Onion (Salatit Fasulya Khadra)",
+    "titleAr": "سلطة فاصوليا خضراء بالبصل الأحمر",
     "category": "salads",
     "method": "boil",
     "prep": "15 min",
+    "prepAr": "15 دقيقة",
     "cook": "15 min",
+    "cookAr": "15 دقيقة",
     "difficulty": "easy",
     "ingredients": [
       [
         "Runner (green) beans",
         "1 kg",
-        "vegetable"
+        "vegetable",
+        "فاصوليا خضراء",
+        "1 كيلو"
       ],
       [
         "Red onions, thinly sliced",
         "2",
-        "vegetable"
+        "vegetable",
+        "بصل أحمر مقطع شرائح رفيعة",
+        "2"
       ],
       [
         "Oil",
         "1 tablespoon",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت",
+        "1 ملعقة كبيرة"
       ],
       [
         "Lemon juice",
         "2 tablespoons",
-        "liquid"
+        "liquid",
+        "عصير ليمون",
+        "2 ملعقة كبيرة"
       ],
       [
         "Salt",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "String the beans and trim the tops and tails.",
+        "انزع خيوط الفاصوليا واقطع طرفيها.",
         "prep"
       ],
-      "Boil in salted water until tender, drain and spread out to cool.",
-      "Put the sliced onion in the salad bowl to soak in the lemon juice.",
+      [
+        "Boil in salted water until tender, drain and spread out to cool.",
+        "اسلقها في ماء مملح حتى تلين، ثم صفّها وافردها لتبرد.",
+        "cook"
+      ],
+      [
+        "Put the sliced onion in the salad bowl to soak in the lemon juice.",
+        "ضع شرائح البصل في طبق السلطة لتنقع في عصير الليمون.",
+        "cook"
+      ],
       [
         "Before serving, add the beans and oil and mix.",
+        "قبل التقديم، أضف الفاصوليا والزيت واخلط.",
         "finish"
       ]
     ]
@@ -1595,47 +2399,73 @@
     "num": 333,
     "page": 146,
     "title": "Beetroot Salad with Garlic Vinegar (Salatit Bangar bi-l-Toom)",
+    "titleAr": "سلطة بنجر بالثوم والخل",
     "category": "salads",
     "method": "boil",
     "prep": "15 min",
+    "prepAr": "15 دقيقة",
     "cook": "1 hour",
+    "cookAr": "ساعة واحدة",
     "difficulty": "easy",
     "ingredients": [
       [
         "Beetroot",
         "1 kg",
-        "vegetable"
+        "vegetable",
+        "بنجر",
+        "1 كيلو"
       ],
       [
         "Garlic cloves",
         "10–15",
-        "vegetable"
+        "vegetable",
+        "فصوص ثوم",
+        "10–15"
       ],
       [
         "Vinegar",
         "1 tablespoon",
-        "liquid"
+        "liquid",
+        "خل",
+        "1 ملعقة كبيرة"
       ],
       [
         "Salt",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
-      "Boil the beetroot for about an hour, until very tender.",
-      "Drain, keeping two tablespoons of the cooking water. Cool, peel and cut into small cubes, thin slices or fingers.",
-      "Crush the garlic with salt until very smooth and mix in the vinegar.",
+      [
+        "Boil the beetroot for about an hour, until very tender.",
+        "اسلق البنجر حوالي ساعة حتى يصبح طرياً جداً.",
+        "cook"
+      ],
+      [
+        "Drain, keeping two tablespoons of the cooking water. Cool, peel and cut into small cubes, thin slices or fingers.",
+        "صفّه مع الاحتفاظ بملعقتين كبيرتين من ماء السلق. اتركه يبرد، ثم قشّره وقطّعه مكعبات صغيرة أو شرائح رفيعة أو أصابع.",
+        "cook"
+      ],
+      [
+        "Crush the garlic with salt until very smooth and mix in the vinegar.",
+        "اهرس الثوم مع الملح حتى يصبح ناعماً جداً، وأضف الخل واخلط.",
+        "cook"
+      ],
       [
         "Stir the garlic dressing into the reserved cooking water, pour over the beetroot and mix gently.",
+        "أضف خلطة الثوم إلى ماء السلق المحفوظ، وصبّها على البنجر واخلط برفق.",
         "finish"
       ],
       [
         "With tahini (recipe 334 in the book): dress the beetroot with 2 tablespoons of thin tahini sauce instead.",
+        "بالطحينة (الوصفة 334 في الكتاب): تبّل البنجر بملعقتين كبيرتين من صلصة طحينة خفيفة بدلاً من ذلك.",
         "alternative"
       ],
       [
         "With yogurt (recipe 335 in the book): mix the cubed beetroot with 3 diced tomatoes and 3–5 diced cucumbers and cover with 1 cup of garlic yogurt (yogurt, crushed garlic and salt, without mint).",
+        "بالزبادي (الوصفة 335 في الكتاب): اخلط مكعبات البنجر مع 3 حبات طماطم و3–5 حبات خيار مقطعة مكعبات، وغطّها بكوب من الزبادي بالثوم (زبادي وثوم مهروس وملح، بدون نعناع).",
         "alternative"
       ]
     ]
@@ -1644,33 +2474,51 @@
     "num": 336,
     "page": 147,
     "title": "Blanched Cabbage Salad with Salted Fish (Salatit Krumb)",
+    "titleAr": "سلطة كرنب مسلوق بالسمك المملح",
     "category": "salads",
     "method": "boil",
     "prep": "15 min",
+    "prepAr": "15 دقيقة",
     "cook": "1 min",
+    "cookAr": "دقيقة واحدة",
     "difficulty": "easy",
     "ingredients": [
       [
         "White cabbage leaves",
         "1/2 head",
-        "vegetable"
+        "vegetable",
+        "ورق كرنب أبيض",
+        "نصف رأس"
       ],
       [
         "Salted fish (smoked herring, anchovy…)",
         "a sliver",
-        "seafood"
+        "seafood",
+        "سمك مملح (رنجة مدخنة، أنشوجة…)",
+        "قطعة صغيرة"
       ],
       [
         "Salad dressing (oil, lemon, vinegar, salt and pepper)",
         "to taste",
-        "liquid"
+        "liquid",
+        "خلطة السلطة (زيت وليمون وخل وملح وفلفل)",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
-      "Shred the cabbage very finely, blanch it for 1 minute, drain and cool.",
-      "Chop the fish very finely and stir it into the dressing.",
+      [
+        "Shred the cabbage very finely, blanch it for 1 minute, drain and cool.",
+        "قطّع الكرنب شرائح رفيعة جداً، واسلقه دقيقة واحدة، ثم صفّه واتركه يبرد.",
+        "cook"
+      ],
+      [
+        "Chop the fish very finely and stir it into the dressing.",
+        "افرم السمك ناعماً جداً وأضفه إلى الخلطة.",
+        "cook"
+      ],
       [
         "Pour over the cabbage and mix well.",
+        "صبّها على الكرنب واخلط جيداً.",
         "finish"
       ]
     ]
@@ -1679,46 +2527,65 @@
     "num": 337,
     "page": 147,
     "title": "Wilted Spinach Salad with Onion and Lemon (Salatit Sabanikh)",
+    "titleAr": "سلطة سبانخ مسلوقة بالبصل والليمون",
     "category": "salads",
     "method": "simmer",
     "prep": "15 min",
+    "prepAr": "15 دقيقة",
     "cook": "5 min",
+    "cookAr": "5 دقائق",
     "difficulty": "easy",
     "ingredients": [
       [
         "Spinach",
         "1 kg",
-        "vegetable"
+        "vegetable",
+        "سبانخ",
+        "1 كيلو"
       ],
       [
         "Onion, grated",
         "1",
-        "vegetable"
+        "vegetable",
+        "بصلة مبشورة",
+        "1"
       ],
       [
         "Lemon juice",
         "2 tablespoons",
-        "liquid"
+        "liquid",
+        "عصير ليمون",
+        "2 ملعقة كبيرة"
       ],
       [
         "Oil",
         "1 tablespoon",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت",
+        "1 ملعقة كبيرة"
       ],
       [
         "Salt",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Chop the spinach leaves and stems coarsely, sprinkle with salt and rub until they lose some juice. Rinse and pat dry.",
+        "قطّع أوراق السبانخ وسيقانها تقطيعاً خشناً، ورشّها بالملح وافركها حتى تفقد بعض عصارتها. اشطفها وجفّفها.",
         "prep"
       ],
-      "Wilt the spinach over a low heat, drain and spread out to cool.",
+      [
+        "Wilt the spinach over a low heat, drain and spread out to cool.",
+        "ضع السبانخ على نار هادئة حتى تذبل، ثم صفّها وافردها لتبرد.",
+        "cook"
+      ],
       [
         "Mix in the onion, lemon juice, oil and salt.",
+        "أضف البصل وعصير الليمون والزيت والملح واخلط.",
         "finish"
       ]
     ]
@@ -1727,55 +2594,81 @@
     "num": 338,
     "page": 147,
     "title": "Turkish Spinach Salad with Feta (Ispanak Salatası)",
+    "titleAr": "سلطة سبانخ تركية بالجبنة البيضاء (إسبناك سالاطاسي)",
     "category": "salads",
     "method": "simmer",
     "prep": "15 min",
+    "prepAr": "15 دقيقة",
     "cook": "10 min",
+    "cookAr": "10 دقائق",
     "difficulty": "easy",
     "ingredients": [
       [
         "Fresh spinach",
         "1 kg",
-        "vegetable"
+        "vegetable",
+        "سبانخ طازجة",
+        "1 كيلو"
       ],
       [
         "Onions, very finely chopped",
         "2",
-        "vegetable"
+        "vegetable",
+        "بصل مفروم ناعماً جداً",
+        "2"
       ],
       [
         "Olive oil",
         "2 tablespoons",
-        "dairy_fat"
+        "dairy_fat",
+        "زيت زيتون",
+        "2 ملعقة كبيرة"
       ],
       [
         "Parsley, very finely chopped",
         "1/2 cup",
-        "vegetable"
+        "vegetable",
+        "بقدونس مفروم ناعماً جداً",
+        "نصف كوب"
       ],
       [
         "Beyaz peynir (feta cheese)",
         "2 tablespoons",
-        "dairy_fat"
+        "dairy_fat",
+        "جبنة بيضاء تركية (بياز بينير / فيتا)",
+        "2 ملعقة كبيرة"
       ],
       [
         "Salt and pepper",
         "to taste",
-        "spice_seasoning"
+        "spice_seasoning",
+        "ملح وفلفل",
+        "حسب الرغبة"
       ]
     ],
     "steps": [
       [
         "Rinse the spinach, chop it coarsely and wilt it in a pot over the heat.",
+        "اشطف السبانخ وقطّعها تقطيعاً خشناً، وضعها في حلة على النار حتى تذبل.",
         "prep"
       ],
-      "Drain in a colander, pressing with a spoon to squeeze out the moisture, and put it in a bowl.",
-      "Fry the onions in the olive oil until golden and add them to the bowl.",
+      [
+        "Drain in a colander, pressing with a spoon to squeeze out the moisture, and put it in a bowl.",
+        "صفّها في مصفاة مع الضغط بملعقة لإخراج الماء، وضعها في وعاء.",
+        "cook"
+      ],
+      [
+        "Fry the onions in the olive oil until golden and add them to the bowl.",
+        "حمّر البصل في زيت الزيتون حتى يصبح ذهبياً، وأضفه إلى الوعاء.",
+        "cook"
+      ],
       [
         "Add the parsley, cheese, salt and pepper and toss well.",
+        "أضف البقدونس والجبنة والملح والفلفل وقلّب جيداً.",
         "finish"
       ]
     ],
-    "notes": "A Turkish dish."
+    "notes": "A Turkish dish.",
+    "notesAr": "طبق تركي."
   }
 ]
