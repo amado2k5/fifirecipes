@@ -45,7 +45,14 @@ const RECIPES_WITH_IMAGES = [
   'add-153', 'add-154', 'add-155', 'add-156', 'add-157', 'add-158', 'add-159', 'add-160',
   'add-161', 'add-162', 'add-163', 'add-164', 'add-165', 'add-166', 'add-167', 'add-168',
   'add-169', 'add-170', 'add-171', 'add-172', 'add-173', 'add-174', 'add-175', 'add-176',
-  'add-222', 'add-234', 'ec-089', 'ec-124', 'osool-026', 'osool-433', 'osool-813',
+  'add-177', 'add-178', 'add-179', 'add-180', 'add-181', 'add-182', 'add-183', 'add-184',
+  'add-185', 'add-186', 'add-187', 'add-188', 'add-189', 'add-190', 'add-191', 'add-192',
+  'add-193', 'add-194', 'add-195', 'add-196', 'add-197', 'add-198', 'add-199', 'add-200',
+  'add-201', 'add-202', 'add-203', 'add-204', 'add-205', 'add-206', 'add-207', 'add-208',
+  'add-209', 'add-210', 'add-211', 'add-212', 'add-213', 'add-214', 'add-215', 'add-216',
+  'add-217', 'add-218', 'add-219', 'add-220', 'add-221', 'add-222', 'add-223', 'add-224',
+  'add-225', 'add-226', 'add-227', 'add-234', 'ec-089', 'ec-124', 'osool-026', 'osool-433',
+  'osool-813',
   // End of generated banners
 ];
 
