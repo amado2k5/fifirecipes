@@ -15,7 +15,7 @@ and run `python /tmp/check_naming.py transcripts/channel-fatma-abu-haty`.
 | 003 | 100 | done |
 | 004 | 100 | done |
 | 005 | 100 | done |
-| 006 | 100 | in progress |
-| 007 | 100 | todo |
+| 006 | 100 | done |
+| 007 | 100 | in progress |
 | 008 | 100 | todo |
 | 009 | 71 | todo |
