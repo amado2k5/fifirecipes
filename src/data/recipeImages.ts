@@ -114,7 +114,8 @@ const RECIPES_WITH_IMAGES = [
   'osool-816', 'osool-817', 'osool-818', 'osool-901', 'osool-902', 'osool-903', 'osool-904', 'osool-905',
   'osool-906', 'osool-907', 'osool-908', 'osool-909', 'osool-910', 'osool-911', 'osool-912', 'osool-913',
   'osool-914', 'osool-915', 'osool-916', 'osool-917', 'osool-918', 'osool-951', 'osool-952', 'osool-953',
-  'osool-954', 'osool-955', 'osool-956', 'osool-957', 'osool-958',
+  'osool-954', 'osool-955', 'osool-956', 'osool-957', 'osool-958', 'osool-959', 'osool-960', 'osool-961',
+  'osool-962', 'osool-963', 'osool-964',
   // End of generated banners
 ];
 
