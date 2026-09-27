@@ -4,7 +4,7 @@ import type { Recipe, SupportedLanguage } from '../types';
 import { getVideoStrings } from '../data/videoTranslations';
 import {
   RecipeVideo,
-  getDishSearchName,
+  getDishVideoQuery,
   loadVideosFor,
   videoEmbedUrl,
   videoPageUrl,
@@ -197,7 +197,7 @@ export const RecipeVideosPanel: React.FC<RecipeVideosPanelProps> = ({ recipe, la
           {text.searchOn}
         </span>
         <a
-          href={youtubeSearchUrl(getDishSearchName(recipe, lang))}
+          href={youtubeSearchUrl(getDishVideoQuery(recipe, lang))}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border border-stone-300 bg-white text-stone-800 hover:bg-stone-50"

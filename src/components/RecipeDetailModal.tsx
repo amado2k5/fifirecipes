@@ -16,7 +16,10 @@ import {
   Activity,
   Coins,
   ExternalLink,
-  Clapperboard
+  Clapperboard,
+  ShoppingCart,
+  UtensilsCrossed,
+  Calendar
 } from 'lucide-react';
 import { getRecipeImage } from '../data/recipeImages';
 import { getUIText } from '../data/translations';
@@ -28,6 +31,10 @@ import { getEstimateStrings } from '../data/estimateTranslations';
 import { getAdditionalRecipesText } from '../data/additionalRecipesText';
 import { getVideoStrings } from '../data/videoTranslations';
 import { hasVideosTab } from '../services/videoSearch';
+import { ActionPopup, ActionItem } from './ActionPopup';
+import { GROCERY_PROVIDERS, DELIVERY_PROVIDERS, getUserCity, filterProvidersByCity, getProviderUrl, Provider } from '../services/providerService';
+import { getUserCityFromLocationOrAddress, LocationInfo } from '../services/locationService';
+import { searchEvents } from '../services/eventService';
 
 // Its own chunk, downloaded only when a visitor opens the Videos tab.
 const RecipeVideosPanel = lazy(() => import('./RecipeVideosPanel').then(m => ({ default: m.RecipeVideosPanel })));
@@ -48,6 +55,12 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
   const [activeTab, setActiveTab] = useState<'master' | 'instructions' | 'nutrition' | 'videos'>('master');
   const [checkedIngredients, setCheckedIngredients] = useState<Record<string, boolean>>({});
   const [showManuscript, setShowManuscript] = useState(false);
+  // Popup state
+  const [popupOpen, setPopupOpen] = useState(false);
+  const [popupTitle, setPopupTitle] = useState('');
+  const [popupItems, setPopupItems] = useState<ActionItem[]>([]);
+  const [showLocationPrompt, setShowLocationPrompt] = useState(false);
+  const [pendingAction, setPendingAction] = useState<'ingredients' | 'dish' | 'festivals' | null>(null);
 
   const isRtl = lang === 'ar' || lang === 'fa' || lang === 'ur';
   const isAr = lang === 'ar';
@@ -86,6 +99,77 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
 
   const toggleIngredientCheck = (id: string) => {
     setCheckedIngredients(prev => ({ ...prev, [id]: !prev[id] }));
+  };
+
+  // Helper to build provider items with localized URLs
+  const buildProviderItems = (providers: Provider[], placeholder: string, replaceKey: string, country: string | null) => {
+    return providers.map(p => ({
+      title: p.name,
+      link: getProviderUrl(p, placeholder, replaceKey, country),
+      source: p.name,
+    }));
+  };
+
+  const openPopup = (title: string, items: ActionItem[], needLocation: boolean, action: 'ingredients' | 'dish' | 'festivals' | null) => {
+    setPopupTitle(title);
+    setPopupItems(items);
+    setShowLocationPrompt(needLocation);
+    setPendingAction(action);
+    setPopupOpen(true);
+  };
+
+  const handleLocationRequest = async (address?: string) => {
+    const location = await getUserCityFromLocationOrAddress(address);
+    if (location) {
+      // recompute based on pending action
+      if (pendingAction === 'ingredients') {
+        const providers = filterProvidersByCity(GROCERY_PROVIDERS, null, location.country);
+        const ingredients = recipe.masterIngredients.map(ing => getLocalizedIngredient(ing, lang, recipe.id)).join(', ');
+        const items = buildProviderItems(providers, ingredients, 'ingredients', location.country);
+        openPopup(getUIText(lang, 'orderIngredients'), items, false, null);
+      } else if (pendingAction === 'dish') {
+        const providers = filterProvidersByCity(DELIVERY_PROVIDERS, null, location.country);
+        const dish = localized.title;
+        const items = buildProviderItems(providers, dish, 'dish', location.country);
+        openPopup(getUIText(lang, 'orderDish'), items, false, null);
+      } else if (pendingAction === 'festivals') {
+        const recipeTitle = localized.title;
+        const events = await searchEvents(recipeTitle, location.city);
+        openPopup(getUIText(lang, 'upcomingEvents'), events, false, null);
+      }
+    }
+    // If still null, keep prompt open
+  };
+
+  const handleOrderIngredients = async () => {
+    const location = await getUserCity();
+    // Always try to filter by country first, even if no city is available
+    const providers = filterProvidersByCity(GROCERY_PROVIDERS, location.city, location.country);
+    const ingredients = recipe.masterIngredients.map(ing => getLocalizedIngredient(ing, lang, recipe.id)).join(', ');
+    const items = buildProviderItems(providers, ingredients, 'ingredients', location.country);
+    
+    // Show location prompt if no country is detected (means IP lookup failed completely)
+    const showLocationPrompt = !location.country;
+    openPopup(getUIText(lang, 'orderIngredients'), items, showLocationPrompt, showLocationPrompt ? 'ingredients' : null);
+  };
+
+  const handleOrderDish = async () => {
+    const location = await getUserCity();
+    const providers = filterProvidersByCity(DELIVERY_PROVIDERS, location.city, location.country);
+    const dish = localized.title;
+    const items = buildProviderItems(providers, dish, 'dish', location.country);
+    
+    const showLocationPrompt = !location.country;
+    openPopup(getUIText(lang, 'orderDish'), items, showLocationPrompt, showLocationPrompt ? 'dish' : null);
+  };
+
+  const handleFestivals = async () => {
+    const location = await getUserCity();
+    const recipeTitle = localized.title;
+    const events = await searchEvents(recipeTitle, location.city);
+    
+    const showLocationPrompt = !location.country;
+    openPopup(getUIText(lang, 'upcomingEvents'), events, showLocationPrompt, showLocationPrompt ? 'festivals' : null);
   };
 
   const manuscriptTrigger = showManuscriptTrigger && (
@@ -381,6 +465,33 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                 {isRtl ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
               </button>
 
+              {/* Action Toolbar */}
+              <div className="bg-gradient-to-r from-amber-500 to-orange-500 rounded-2xl p-4 shadow-lg">
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+                  <button
+                    onClick={handleOrderIngredients}
+                    className="flex items-center gap-2 px-4 py-2.5 bg-white text-amber-700 rounded-xl font-semibold hover:scale-105 transition-transform focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-offset-2"
+                  >
+                    <ShoppingCart className="w-5 h-5" />
+                    <span>{t('طلب المكونات', 'Order Ingredients', 'Commander les ingrédients', 'Pedir ingredientes', '食材を注文', 'सामग्री ऑर्डर करें', 'Pedir ingredientes', 'Заказать ингредиенты', '订购食材', 'Zutaten bestellen', 'Ordina ingredienti', 'Παραγγελία υλικών', 'اجزاء آرڈر کریں', 'سفارش مواد اولیه', 'Malzemeleri Sipariş Et', 'Pêkhateyan Sipariş Bike', 'Pesan Bahan', 'Oda Viungo', '재료 주문')}</span>
+                  </button>
+                  <button
+                    onClick={handleOrderDish}
+                    className="flex items-center gap-2 px-4 py-2.5 bg-white text-amber-700 rounded-xl font-semibold hover:scale-105 transition-transform focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-offset-2"
+                  >
+                    <UtensilsCrossed className="w-5 h-5" />
+                    <span>{t('طلب الطبق', 'Order Dish', 'Commander le plat', 'Pedir plato', '料理を注文', 'व्यंजन ऑर्डर करें', 'Pedir prato', 'Заказать блюдо', '订购菜品', 'Gericht bestellen', 'Ordina piatto', 'Παραγγελία πιάτου', 'دش آرڈر کریں', 'سفارش غذا', 'Yemek Sipariş Et', 'Şîpaş Sipariş Bike', 'Pesan Hidangan', 'Oda Chakula', '요리 주문')}</span>
+                  </button>
+                  <button
+                    onClick={handleFestivals}
+                    className="flex items-center gap-2 px-4 py-2.5 bg-white text-amber-700 rounded-xl font-semibold hover:scale-105 transition-transform focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-offset-2"
+                  >
+                    <Calendar className="w-5 h-5" />
+                    <span>{t('المهرجانات', 'Festivals', 'Festivals', 'Festivales', 'フェスティバル', 'त्योहार', 'Festivais', 'Фестивали', '节日', 'Festivals', 'Festival', 'Φεστιβάλ', 'تہوار', 'جشنواره‌ها', 'Festivaller', 'Festîval', 'Festival', 'Sherehe', '축제')}</span>
+                  </button>
+                </div>
+              </div>
+
               {sourceNotice}
               {manuscriptTrigger}
             </div>
@@ -466,6 +577,67 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                 </div>
               )}
 
+              {estimate && (
+                <button
+                  onClick={() => setActiveTab('nutrition')}
+                  className="w-full flex items-center justify-center gap-2 px-5 py-3 rounded-2xl text-sm font-bold text-white bg-gradient-to-r from-rose-600 to-rose-700 hover:from-rose-700 hover:to-rose-800 shadow-sm hover:shadow-md transition-all"
+                >
+                  <Activity className="w-4 h-4" />
+                  <span>{t(
+                    'الانتقال إلى التغذية والتكلفة',
+                    'Continue to Nutrition & Cost',
+                    'Continuer vers Nutrition & Coût',
+                    'Continuar a Nutrición y Costo',
+                    '栄養とコストへ進む',
+                    'पोषण और लागत पर जाएं',
+                    'Continuar para Nutrição e Custo',
+                    'Перейти к Питательности и Стоимости',
+                    '前往查看营养与成本',
+                    'Weiter zu Nährwerten & Kosten',
+                    'Continua a Nutrizione e Costo',
+                    'Συνέχεια σε Διατροφή & Κόστος',
+                    'غذائیت اور لاگت کی طرف بڑھیں',
+                    'ادامه به تغذیه و هزینه',
+                    'Beslenme ve Maliyete Geç',
+                    'Derbasî Xurek û Mesrefê Bibe',
+                    'Lanjut ke Nutrisi & Biaya',
+                    'Endelea kwa Lishe na Gharama',
+                    '영양 및 비용으로 계속'
+                  )}</span>
+                  {isRtl ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
+                </button>
+              )}
+              {!estimate && showVideosTab && (
+                <button
+                  onClick={() => setActiveTab('videos')}
+                  className="w-full flex items-center justify-center gap-2 px-5 py-3 rounded-2xl text-sm font-bold text-white bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 shadow-sm hover:shadow-md transition-all"
+                >
+                  <Clapperboard className="w-4 h-4" />
+                  <span>{t(
+                    'الانتقال إلى مقاطع الفيديو',
+                    'Continue to Recipe Videos',
+                    'Continuer vers les Vidéos',
+                    'Continuar a los Videos',
+                    '動画へ進む',
+                    'वीडियो पर जाएं',
+                    'Continuar para os Vídeos',
+                    'Перейти к Видео',
+                    '前往观看视频',
+                    'Weiter zu den Videos',
+                    'Continua ai Video',
+                    'Συνέχεια στα Βίντεο',
+                    'ویڈیوز کی طرف بڑھیں',
+                    'ادامه به ویدیوها',
+                    'Videolara Geç',
+                    'Derbasî Vîdeoyan Bibe',
+                    'Lanjut ke Video',
+                    'Endelea kwa Video',
+                    '동영상으로 계속'
+                  )}</span>
+                  {isRtl ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
+                </button>
+              )}
+
               {sourceNotice}
               {manuscriptTrigger}
             </div>
@@ -473,7 +645,39 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
 
           {/* TAB 3: NUTRITION & COST ESTIMATES */}
           {activeTab === 'nutrition' && estimate && (
-            <RecipeEstimatesPanel estimate={estimate} lang={lang} />
+            <div className="space-y-4">
+              <RecipeEstimatesPanel estimate={estimate} lang={lang} />
+              {showVideosTab && (
+                <button
+                  onClick={() => setActiveTab('videos')}
+                  className="w-full flex items-center justify-center gap-2 px-5 py-3 rounded-2xl text-sm font-bold text-white bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 shadow-sm hover:shadow-md transition-all"
+                >
+                  <Clapperboard className="w-4 h-4" />
+                  <span>{t(
+                    'الانتقال إلى مقاطع الفيديو',
+                    'Continue to Recipe Videos',
+                    'Continuer vers les Vidéos',
+                    'Continuar a los Videos',
+                    '動画へ進む',
+                    'वीडियो पर जाएं',
+                    'Continuar para os Vídeos',
+                    'Перейти к Видео',
+                    '前往观看视频',
+                    'Weiter zu den Videos',
+                    'Continua ai Video',
+                    'Συνέχεια στα Βίντεο',
+                    'ویڈیوز کی طرف بڑھیں',
+                    'ادامه به ویدیوها',
+                    'Videolara Geç',
+                    'Derbasî Vîdeoyan Bibe',
+                    'Lanjut ke Video',
+                    'Endelea kwa Video',
+                    '동영상으로 계속'
+                  )}</span>
+                  {isRtl ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
+                </button>
+              )}
+            </div>
           )}
 
           {/* TAB 4: VIDEOS (searched on demand) */}
@@ -487,6 +691,18 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
 
       {showManuscript && (
         <OriginalManuscriptModal recipe={recipe} onClose={() => setShowManuscript(false)} />
+      )}
+
+      {/* Action Popup */}
+      {popupOpen && (
+        <ActionPopup
+          title={popupTitle}
+          items={popupItems}
+          onClose={() => setPopupOpen(false)}
+          lang={lang}
+          showLocationPrompt={showLocationPrompt}
+          onRequestLocation={handleLocationRequest}
+        />
       )}
     </div>
   );

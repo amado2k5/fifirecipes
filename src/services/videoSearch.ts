@@ -1,5 +1,5 @@
 import type { Recipe, SupportedLanguage } from '../types';
-import { cleanDishTitle } from '../utils/videoQuery';
+import { cleanDishTitle, localizedVideoQuery } from '../utils/videoQuery';
 import { getLocalizedRecipe } from '../utils/recipeLocalization';
 import { loadRecipeVideos } from './recipeData';
 
@@ -44,6 +44,15 @@ export async function loadVideosFor(recipe: Recipe, lang: SupportedLanguage): Pr
 export function getDishSearchName(recipe: Recipe, lang: SupportedLanguage): string {
   const localized = lang === 'ar' ? recipe.title : getLocalizedRecipe(recipe, lang).title || recipe.title;
   return cleanDishTitle(localized);
+}
+
+/**
+ * The full YouTube search query for the dish: the localized dish name plus a
+ * "recipe / how to make" term in the visitor's language, so the results page
+ * shows videos in the language the site is being browsed in.
+ */
+export function getDishVideoQuery(recipe: Recipe, lang: SupportedLanguage): string {
+  return localizedVideoQuery(getDishSearchName(recipe, lang), lang);
 }
 
 // 320×180, about 10 KB each: light enough for a grid of twenty on a slow connection.
