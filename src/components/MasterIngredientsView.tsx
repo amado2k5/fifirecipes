@@ -59,7 +59,6 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
 
-
   // The registry is precomputed and localized at build time; fetched when this tab opens.
   const [registry, setRegistry] = useState<IngredientRegistryItem[]>([]);
   const [registryState, setRegistryState] = useState<'loading' | 'ready' | 'failed'>('loading');

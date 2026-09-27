@@ -34,3 +34,4 @@ When estimating nutrition and cost for a recipe:
 - osool-302–osool-416: 115 added (Fish sauces, presentations, advanced cookery, stocks, side dishes, seafood)
 - osool-417–osool-436: 20 added (Fish baked, steamed, molded dishes)
 - osool-437–osool-510: 20 added (Fish molds/puddings, steamed fish; green beans, peas, artichoke dishes)
+- ec-008–ec-485: 78 added (Remaining Egyptian Cooking: legume dips, kofta/kebab dishes, okra stews, rice pilafs, salads, sauces/pastes, soups, vegetable dishes, granitas/puddings, hot drinks, spice blends)
