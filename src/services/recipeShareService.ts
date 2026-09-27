@@ -14,6 +14,20 @@ export function getRecipeShareUrl(recipeId: string, lang: SupportedLanguage): st
 }
 
 /**
+ * Get canonical site URL (no recipe param) for sharing the site.
+ * Includes the language parameter.
+ */
+export function getCanonicalUrl(lang: SupportedLanguage): string {
+  if (typeof window !== 'undefined') {
+    const url = new URL(window.location.href);
+    url.searchParams.delete('recipe');
+    url.searchParams.set('lang', lang);
+    return url.toString();
+  }
+  return `https://fifi.cooking/?lang=${lang}`;
+}
+
+/**
  * Share a single recipe using the operating system's native share sheet
  * (same mechanism as the site-wide share button), falling back to
  * copying the link to the clipboard when the Web Share API isn't

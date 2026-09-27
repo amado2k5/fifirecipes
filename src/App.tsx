@@ -25,7 +25,7 @@ function preloadRecipeView() {
 import { detectUserLanguage, getUIText, TOP_20_LANGUAGES } from './data/translations';
 import { getLocalizedRecipe, ensureTranslationTable } from './utils/recipeLocalization';
 import { isListedIn, statsAudienceOf } from './utils/recipeVisibility';
-import { shareRecipe } from './services/recipeShareService';
+import { shareRecipe, getCanonicalUrl } from './services/recipeShareService';
 import { DataManifest, loadCardTranslations, loadManifest, loadRecipe, loadRecipeIndex } from './services/recipeData';
 import { formatServings, getCostTotal, getRecipeEstimate } from './data/recipeEstimates';
 import { hasKidsMode, loadKidsApp } from './kids/languages';
@@ -181,12 +181,10 @@ export default function App() {
   }, [isRtl, lang, selectedRecipe]);
 
   const handleShareSite = async () => {
-    const url = new URL(window.location.href);
-    url.searchParams.delete('recipe');
-    url.searchParams.set('lang', lang);
+    const url = getCanonicalUrl(lang);
     const shareData = {
       title: getUIText(lang, 'appTitle'),
-      url: url.toString()
+      url,
     };
     if (navigator.share) {
       await navigator.share(shareData).catch(() => undefined);
