@@ -89,7 +89,13 @@ const RECIPES_WITH_IMAGES = [
   'osool-164', 'osool-165', 'osool-166', 'osool-167', 'osool-168', 'osool-169', 'osool-170', 'osool-171',
   'osool-201', 'osool-202', 'osool-203', 'osool-204', 'osool-205', 'osool-206', 'osool-207', 'osool-208',
   'osool-209', 'osool-210', 'osool-211', 'osool-212', 'osool-213', 'osool-214', 'osool-215', 'osool-216',
-  'osool-217', 'osool-218', 'osool-219', 'osool-433', 'osool-813',
+  'osool-217', 'osool-218', 'osool-219', 'osool-220', 'osool-221', 'osool-222', 'osool-223', 'osool-224',
+  'osool-225', 'osool-226', 'osool-227', 'osool-228', 'osool-301', 'osool-302', 'osool-303', 'osool-304',
+  'osool-305', 'osool-401', 'osool-402', 'osool-403', 'osool-404', 'osool-405', 'osool-406', 'osool-407',
+  'osool-408', 'osool-409', 'osool-410', 'osool-411', 'osool-412', 'osool-413', 'osool-414', 'osool-415',
+  'osool-416', 'osool-417', 'osool-418', 'osool-419', 'osool-420', 'osool-421', 'osool-422', 'osool-423',
+  'osool-424', 'osool-425', 'osool-426', 'osool-427', 'osool-428', 'osool-429', 'osool-430', 'osool-431',
+  'osool-432', 'osool-433', 'osool-434', 'osool-435', 'osool-436', 'osool-437', 'osool-813',
   // End of generated banners
 ];
 
