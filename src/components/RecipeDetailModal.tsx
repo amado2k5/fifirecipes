@@ -62,7 +62,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
   const [showLocationPrompt, setShowLocationPrompt] = useState(false);
   const [pendingAction, setPendingAction] = useState<'ingredients' | 'dish' | 'festivals' | null>(null);
 
-  const isRtl = lang === 'ar' || lang === 'fa' || lang === 'ur' || lang === 'ps';
+  const isRtl = lang === 'ar' || lang === 'fa' || lang === 'ur' || lang === 'ps' || lang === 'he';
   const isAr = lang === 'ar';
   const isFr = lang === 'fr';
   const isEs = lang === 'es';
@@ -83,7 +83,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
   const isKo = lang === 'ko';
   const isNl = lang === 'nl';
   const isPs = lang === 'ps';
-  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string, fa: string, tr: string, ku: string, id: string, sw: string, ko: string, nl = en, ps = en) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : isFa ? fa : isTr ? tr : isKu ? ku : isId ? id : isSw ? sw : isKo ? ko : isNl ? nl : isPs ? ps : en);
+  const isHe = lang === 'he';
+  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string, fa: string, tr: string, ku: string, id: string, sw: string, ko: string, nl = en, ps = en, he = en) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : isFa ? fa : isTr ? tr : isKu ? ku : isId ? id : isSw ? sw : isKo ? ko : isNl ? nl : isPs ? ps : isHe ? he : en);
 
   if (!recipe) return null;
 
@@ -275,13 +276,13 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
               {localized.prepTime && (
                 <div className="flex items-center gap-1.5">
                   <Clock className="w-3.5 h-3.5 text-amber-400" />
-                  <span>{t(`التحضير: ${localized.prepTime}`, `Prep: ${localized.prepTime}`, `Préparation : ${localized.prepTime}`, `Preparación: ${localized.prepTime}`, `下ごしらえ: ${localized.prepTime}`, `तैयारी: ${localized.prepTime}`, `Preparo: ${localized.prepTime}`, `Подготовка: ${localized.prepTime}`, `准备：${localized.prepTime}`, `Vorbereitung: ${localized.prepTime}`, `Preparazione: ${localized.prepTime}`, `Προετοιμασία: ${localized.prepTime}`, `تیاری: ${localized.prepTime}`, `آماده‌سازی: ${localized.prepTime}`, `Hazırlık: ${localized.prepTime}`, `Amadekirin: ${localized.prepTime}`, `Persiapan: ${localized.prepTime}`, `Maandalizi: ${localized.prepTime}`, `준비: ${localized.prepTime}`, `Prep: ${localized.prepTime}`, `چمتووالی: ${localized.prepTime}`)}</span>
+                  <span>{t(`التحضير: ${localized.prepTime}`, `Prep: ${localized.prepTime}`, `Préparation : ${localized.prepTime}`, `Preparación: ${localized.prepTime}`, `下ごしらえ: ${localized.prepTime}`, `तैयारी: ${localized.prepTime}`, `Preparo: ${localized.prepTime}`, `Подготовка: ${localized.prepTime}`, `准备：${localized.prepTime}`, `Vorbereitung: ${localized.prepTime}`, `Preparazione: ${localized.prepTime}`, `Προετοιμασία: ${localized.prepTime}`, `تیاری: ${localized.prepTime}`, `آماده‌سازی: ${localized.prepTime}`, `Hazırlık: ${localized.prepTime}`, `Amadekirin: ${localized.prepTime}`, `Persiapan: ${localized.prepTime}`, `Maandalizi: ${localized.prepTime}`, `준비: ${localized.prepTime}`, `Prep: ${localized.prepTime}`, `چمتووالی: ${localized.prepTime}`, `הכנה: ${localized.prepTime}`)}</span>
                 </div>
               )}
               {localized.cookTime && (
                 <div className="flex items-center gap-1.5">
                   <Flame className="w-3.5 h-3.5 text-amber-400" />
-                  <span>{t(`الطهو: ${localized.cookTime}`, `Cook: ${localized.cookTime}`, `Cuisson : ${localized.cookTime}`, `Cocción: ${localized.cookTime}`, `調理: ${localized.cookTime}`, `पकाना: ${localized.cookTime}`, `Cozimento: ${localized.cookTime}`, `Готовка: ${localized.cookTime}`, `烹饪：${localized.cookTime}`, `Kochen: ${localized.cookTime}`, `Cottura: ${localized.cookTime}`, `Μαγείρεμα: ${localized.cookTime}`, `پکانا: ${localized.cookTime}`, `پخت: ${localized.cookTime}`, `Pişirme: ${localized.cookTime}`, `Pijandin: ${localized.cookTime}`, `Memasak: ${localized.cookTime}`, `Kupika: ${localized.cookTime}`, `조리: ${localized.cookTime}`, `Cook: ${localized.cookTime}`, `پخلی: ${localized.cookTime}`)}</span>
+                  <span>{t(`الطهو: ${localized.cookTime}`, `Cook: ${localized.cookTime}`, `Cuisson : ${localized.cookTime}`, `Cocción: ${localized.cookTime}`, `調理: ${localized.cookTime}`, `पकाना: ${localized.cookTime}`, `Cozimento: ${localized.cookTime}`, `Готовка: ${localized.cookTime}`, `烹饪：${localized.cookTime}`, `Kochen: ${localized.cookTime}`, `Cottura: ${localized.cookTime}`, `Μαγείρεμα: ${localized.cookTime}`, `پکانا: ${localized.cookTime}`, `پخت: ${localized.cookTime}`, `Pişirme: ${localized.cookTime}`, `Pijandin: ${localized.cookTime}`, `Memasak: ${localized.cookTime}`, `Kupika: ${localized.cookTime}`, `조리: ${localized.cookTime}`, `Cook: ${localized.cookTime}`, `پخلی: ${localized.cookTime}`, `בישול: ${localized.cookTime}`)}</span>
                 </div>
               )}
               {localized.servings && (
@@ -397,7 +398,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                       'Vipimo sahihi vilivyolinganishwa na maelezo ya Dkt. Fatma. Weka alama kwenye viungo unapoviandaa.',
                       '파트마 박사의 노트와 대조한 정확한 계량입니다. 준비하면서 재료에 체크하세요.',
                       'Exacte hoofdverhoudingen, afgestemd op de aantekeningen van Dr. Fatma. Vink ingrediënten af terwijl u kookt.', 'د ډاکټرې فاطمې د یادونو له مخې کره اصلي اندازې. کله چې چمتو کوئ مواد نښه کړئ.'
-                    )}
+                    , 'מידות מדויקות מהמקור, המתואמות בין פתקי ד"ר פאטמה. סמנו מרכיבים תוך כדי ההכנה.')}
                   </p>
                 </div>
                 <button
@@ -465,7 +466,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                   'Endelea kwa Maandalizi na Upishi Hatua kwa Hatua',
                   '단계별 준비와 조리로 계속하기',
                   'Ga verder naar stapsgewijze bereiding & koken', 'د ګام په ګام چمتوولو او پخلي ته دوام ورکړئ'
-                )}</span>
+                , 'המשך להכנה ובישול צעד-אחר-צעד')}</span>
                 {isRtl ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
               </button>
 
@@ -477,21 +478,21 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                     className="flex items-center gap-2 px-4 py-2.5 bg-white text-amber-700 rounded-xl font-semibold hover:scale-105 transition-transform focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-offset-2"
                   >
                     <ShoppingCart className="w-5 h-5" />
-                    <span>{t('طلب المكونات', 'Order Ingredients', 'Commander les ingrédients', 'Pedir ingredientes', '食材を注文', 'सामग्री ऑर्डर करें', 'Pedir ingredientes', 'Заказать ингредиенты', '订购食材', 'Zutaten bestellen', 'Ordina ingredienti', 'Παραγγελία υλικών', 'اجزاء آرڈر کریں', 'سفارش مواد اولیه', 'Malzemeleri Sipariş Et', 'Pêkhateyan Sipariş Bike', 'Pesan Bahan', 'Oda Viungo', '재료 주문', 'Ingrediënten Bestellen', 'مواد وپیرئ')}</span>
+                    <span>{t('طلب المكونات', 'Order Ingredients', 'Commander les ingrédients', 'Pedir ingredientes', '食材を注文', 'सामग्री ऑर्डर करें', 'Pedir ingredientes', 'Заказать ингредиенты', '订购食材', 'Zutaten bestellen', 'Ordina ingredienti', 'Παραγγελία υλικών', 'اجزاء آرڈر کریں', 'سفارش مواد اولیه', 'Malzemeleri Sipariş Et', 'Pêkhateyan Sipariş Bike', 'Pesan Bahan', 'Oda Viungo', '재료 주문', 'Ingrediënten Bestellen', 'مواد وپیرئ', 'הזמנת מרכיבים')}</span>
                   </button>
                   <button
                     onClick={handleOrderDish}
                     className="flex items-center gap-2 px-4 py-2.5 bg-white text-amber-700 rounded-xl font-semibold hover:scale-105 transition-transform focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-offset-2"
                   >
                     <UtensilsCrossed className="w-5 h-5" />
-                    <span>{t('طلب الطبق', 'Order Dish', 'Commander le plat', 'Pedir plato', '料理を注文', 'व्यंजन ऑर्डर करें', 'Pedir prato', 'Заказать блюдо', '订购菜品', 'Gericht bestellen', 'Ordina piatto', 'Παραγγελία πιάτου', 'دش آرڈر کریں', 'سفارش غذا', 'Yemek Sipariş Et', 'Şîpaş Sipariş Bike', 'Pesan Hidangan', 'Oda Chakula', '요리 주문', 'Gerecht Bestellen', 'چمتو خواړه وپیرئ')}</span>
+                    <span>{t('طلب الطبق', 'Order Dish', 'Commander le plat', 'Pedir plato', '料理を注文', 'व्यंजन ऑर्डर करें', 'Pedir prato', 'Заказать блюдо', '订购菜品', 'Gericht bestellen', 'Ordina piatto', 'Παραγγελία πιάτου', 'دش آرڈر کریں', 'سفارش غذا', 'Yemek Sipariş Et', 'Şîpaş Sipariş Bike', 'Pesan Hidangan', 'Oda Chakula', '요리 주문', 'Gerecht Bestellen', 'چمتو خواړه وپیرئ', 'הזמנת המנה')}</span>
                   </button>
                   <button
                     onClick={handleFestivals}
                     className="flex items-center gap-2 px-4 py-2.5 bg-white text-amber-700 rounded-xl font-semibold hover:scale-105 transition-transform focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-offset-2"
                   >
                     <Calendar className="w-5 h-5" />
-                    <span>{t('المهرجانات', 'Festivals', 'Festivals', 'Festivales', 'フェスティバル', 'त्योहार', 'Festivais', 'Фестивали', '节日', 'Festivals', 'Festival', 'Φεστιβάλ', 'تہوار', 'جشنواره‌ها', 'Festivaller', 'Festîval', 'Festival', 'Sherehe', '축제', 'Festivals', 'جشنونه')}</span>
+                    <span>{t('المهرجانات', 'Festivals', 'Festivals', 'Festivales', 'フェスティバル', 'त्योहार', 'Festivais', 'Фестивали', '节日', 'Festivals', 'Festival', 'Φεστιβάλ', 'تہوار', 'جشنواره‌ها', 'Festivaller', 'Festîval', 'Festival', 'Sherehe', '축제', 'Festivals', 'جشنونه', 'פסטיבלים')}</span>
                   </button>
                 </div>
               </div>
@@ -509,7 +510,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                   <Sparkles className="w-5 h-5 text-emerald-700 shrink-0 mt-0.5" />
                   <div>
                     <p className="font-bold">
-                      {t('خطوات الطهو الفريدة بعد تنقية وتوحيد الشروح', 'Step-by-step master cooking instructions', 'Instructions de cuisson détaillées, étape par étape', 'Instrucciones de cocina detalladas, paso a paso', 'ステップごとの詳しい調理手順', 'चरण-दर-चरण मुख्य पाक विधि', 'Instruções de cozimento detalhadas, passo a passo', 'Пошаговые основные инструкции по приготовлению', '分步式核心烹饪说明', 'Schritt-für-Schritt-Kochanleitung', 'Istruzioni di cottura passo dopo passo', 'Αναλυτικές οδηγίες μαγειρέματος βήμα προς βήμα', 'پکانے کی مرحلہ وار ہدایات', 'دستورالعمل گام‌به‌گام پخت', 'Adım adım pişirme talimatları', 'Rêbernameya pijandinê ya gav bi gav', 'Petunjuk memasak langkah demi langkah', 'Maelekezo ya upishi hatua kwa hatua', '단계별 조리 방법', 'Stapsgewijze hoofdbereidingsinstructies', 'ګام په ګام اصلي د پخلي لارښوونې')}
+                      {t('خطوات الطهو الفريدة بعد تنقية وتوحيد الشروح', 'Step-by-step master cooking instructions', 'Instructions de cuisson détaillées, étape par étape', 'Instrucciones de cocina detalladas, paso a paso', 'ステップごとの詳しい調理手順', 'चरण-दर-चरण मुख्य पाक विधि', 'Instruções de cozimento detalhadas, passo a passo', 'Пошаговые основные инструкции по приготовлению', '分步式核心烹饪说明', 'Schritt-für-Schritt-Kochanleitung', 'Istruzioni di cottura passo dopo passo', 'Αναλυτικές οδηγίες μαγειρέματος βήμα προς βήμα', 'پکانے کی مرحلہ وار ہدایات', 'دستورالعمل گام‌به‌گام پخت', 'Adım adım pişirme talimatları', 'Rêbernameya pijandinê ya gav bi gav', 'Petunjuk memasak langkah demi langkah', 'Maelekezo ya upishi hatua kwa hatua', '단계별 조리 방법', 'Stapsgewijze hoofdbereidingsinstructies', 'ګام په ګام اصلي د پخلي لارښوونې', 'הוראות בישול מלאות צעד-אחר-צעד')}
                     </p>
                     <p className="text-xs text-emerald-800 mt-0.5">
                       {t(
@@ -532,7 +533,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                         'Urutan langkah telah diverifikasi untuk hasil terbaik.',
                         'Mpangilio wa hatua umethibitishwa kwa matokeo bora.',
                         '최상의 결과를 위해 검증된 단계 순서입니다.', 'Sequence verified for optimal culinary results.', 'پرله پسې ترتيب د پخلي غوره پایلو لپاره تایید شوی.'
-                      )}
+                      , 'הרצף אומת לתוצאות קולינריות מיטביות.')}
                     </p>
                   </div>
                 </div>
@@ -608,7 +609,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                     'Endelea kwa Lishe na Gharama',
                     '영양 및 비용으로 계속',
                     'Ga verder naar voeding & kosten', 'د تغذیه او لګښت ته دوام ورکړئ'
-                  )}</span>
+                  , 'המשך לתזונה ועלות')}</span>
                   {isRtl ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
                 </button>
               )}
@@ -639,7 +640,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                     'Endelea kwa Video',
                     '동영상으로 계속',
                     'Ga verder naar receptvideo’s', 'د ترکیب ویډیوګانو ته دوام ورکړئ'
-                  )}</span>
+                  , 'המשך לסרטוני המתכון')}</span>
                   {isRtl ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
                 </button>
               )}
@@ -680,7 +681,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                     'Endelea kwa Video',
                     '동영상으로 계속',
                     'Ga verder naar receptvideo’s', 'د ترکیب ویډیوګانو ته دوام ورکړئ'
-                  )}</span>
+                  , 'המשך לסרטוני המתכון')}</span>
                   {isRtl ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
                 </button>
               )}

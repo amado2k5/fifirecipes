@@ -312,6 +312,20 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     next: 'بله',
     short: 'لنډ',
     close: 'بند کړئ'
+  },
+  he: {
+    tab: 'סרטונים',
+    intro: 'סרטונים שנמצאו אוטומטית לפי שם המנה. הם של היוצרים שלהם ועשויים להיות שונים מהמתכון של ד"ר פאטמה.',
+    loading: 'מחפש סרטונים…',
+    empty: 'עדיין לא נמצאו סרטונים מתאימים.',
+    error: 'לא ניתן לטעון את הסרטונים כרגע.',
+    retry: 'נסו שוב',
+    openOn: 'פתיחה ב-{p}',
+    searchOn: 'חפשו את המנה ב:',
+    previous: 'הקודם',
+    next: 'הבא',
+    short: 'קצר',
+    close: 'סגירה'
   }
 };
 

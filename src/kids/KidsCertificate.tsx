@@ -24,7 +24,7 @@ function artImage(id: string): Promise<HTMLImageElement> {
 }
 
 async function drawCertificate(recipe: LocalizedKidsRecipe, name: string, text: KidsStrings, rtl: boolean): Promise<Blob> {
-  const font = rtl ? "'Baloo Bhaijaan 2', sans-serif" : "'Baloo 2', sans-serif";
+  const font = rtl ? "'Baloo Bhaijaan 2', 'Heebo', sans-serif" : "'Baloo 2', sans-serif";
   await Promise.all([document.fonts.load(`800 60px ${font}`), document.fonts.load(`700 40px ${font}`)]).catch(() => undefined);
   const [cover, star] = await Promise.all([artImage(recipe.cover), artImage('star')]);
 
@@ -66,7 +66,7 @@ async function drawCertificate(recipe: LocalizedKidsRecipe, name: string, text: 
 export const KidsCertificate: React.FC<KidsCertificateProps> = ({ recipe, lang, text }) => {
   const [name, setName] = useState('');
   const [busy, setBusy] = useState(false);
-  const rtl = lang === 'ar' || lang === 'fa' || lang === 'ur' || lang === 'ps';
+  const rtl = lang === 'ar' || lang === 'fa' || lang === 'ur' || lang === 'ps' || lang === 'he';
 
   const save = async () => {
     setBusy(true);

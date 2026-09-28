@@ -23,7 +23,7 @@ type State = { status: 'loading' } | { status: 'ready'; videos: RecipeVideo[] } 
 
 export const RecipeVideosPanel: React.FC<RecipeVideosPanelProps> = ({ recipe, lang }) => {
   const text = getVideoStrings(lang);
-  const isRtl = lang === 'ar' || lang === 'fa' || lang === 'ur' || lang === 'ps';
+  const isRtl = lang === 'ar' || lang === 'fa' || lang === 'ur' || lang === 'ps' || lang === 'he';
   const [state, setState] = useState<State>({ status: 'loading' });
   const [attempt, setAttempt] = useState(0);
   const [current, setCurrent] = useState<number | null>(null);

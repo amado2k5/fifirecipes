@@ -14,11 +14,11 @@ import { AGES, GROUPS, GROUP_STYLE, ageLabel } from './theme';
 // Cooking with Kids mode. Loaded only when the header button is pressed (or
 // the page is opened with ?kids=1), so the rest of the site never pays for it.
 
-const FONT_URL = 'https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Baloo+Bhaijaan+2:wght@500;700;800&display=swap';
+const FONT_URL = 'https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Baloo+Bhaijaan+2:wght@500;700;800&family=Heebo:wght@500;700;800&display=swap';
 
 const KIDS_CSS = `
-[dir] .kids-root, [dir] .kids-root button, [dir] .kids-root input { font-family: 'Baloo 2', 'Baloo Bhaijaan 2', system-ui, sans-serif; }
-[dir="rtl"] .kids-root, [dir="rtl"] .kids-root button, [dir="rtl"] .kids-root input { font-family: 'Baloo Bhaijaan 2', 'Baloo 2', system-ui, sans-serif; }
+[dir] .kids-root, [dir] .kids-root button, [dir] .kids-root input { font-family: 'Baloo 2', 'Baloo Bhaijaan 2', 'Heebo', system-ui, sans-serif; }
+[dir="rtl"] .kids-root, [dir="rtl"] .kids-root button, [dir="rtl"] .kids-root input { font-family: 'Baloo Bhaijaan 2', 'Heebo', 'Baloo 2', system-ui, sans-serif; }
 .kids-root { background-color: #fff8e7; background-image: radial-gradient(#f9d9a6 1.2px, transparent 1.2px); background-size: 22px 22px; }
 @keyframes kids-fall { 0% { transform: translateY(-10vh) rotate(0); opacity: 1; } 100% { transform: translateY(105vh) rotate(720deg); opacity: 0.9; } }
 @keyframes kids-pop { 0% { transform: scale(0.6); opacity: 0; } 70% { transform: scale(1.08); } 100% { transform: scale(1); opacity: 1; } }
