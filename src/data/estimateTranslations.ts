@@ -1089,8 +1089,56 @@ const he: EstimateStrings = {
   costChip: '≈ {v} / מנה'
 };
 
+const pl: EstimateStrings = {
+  tab: 'Odżywianie i koszt',
+  nutritionTitle: 'Wartości odżywcze',
+  perServingBasis: 'Na porcję — przepis daje około {n} porcji',
+  nutrient: 'Składnik odżywczy',
+  perServing: 'Na porcję',
+  calories: 'Kalorie',
+  protein: 'Białko',
+  fat: 'Tłuszcz',
+  carbs: 'Węglowodany',
+  fiber: 'Błonnik',
+  sugar: 'Cukier',
+  kcal: 'kcal',
+  grams: 'g',
+  energySplit: 'Skąd pochodzą kalorie',
+  healthTitle: 'Uwagi zdrowotne',
+  tags: {
+    highProtein: { label: 'Bogate w białko', hint: 'Znaczna część kalorii pochodzi z białka.' },
+    goodFiber: { label: 'Dobre źródło błonnika', hint: 'Około 5 g błonnika lub więcej na porcję.' },
+    light: { label: 'Lekki posiłek', hint: 'Mniej niż 250 kcal na porcję.' },
+    hearty: { label: 'Pożywne i sycące', hint: '600 kcal lub więcej na porcję — dobre jako danie główne.' },
+    highSugar: { label: 'Bogate w cukier', hint: 'Najlepiej delektować się od czasu do czasu.' },
+    highFat: { label: 'Bogate w tłuszcz', hint: 'Połowa lub więcej kalorii pochodzi z tłuszczu.' },
+    lowFat: { label: 'Niskotłuszczowe', hint: '5 g tłuszczu lub mniej na porcję.' },
+    meatFree: { label: 'Bezmięsne', hint: 'Brak mięsa, drobiu i ryb w składnikach.' }
+  },
+  costTitle: 'Szacunkowy koszt przepisu',
+  ingredientGroup: 'Grupa składników',
+  costUsd: 'Koszt (USD)',
+  groups: {
+    protein: 'Mięso, drób i owoce morza',
+    dairyEggs: 'Nabiał, ghee i jajka',
+    produce: 'Warzywa, zioła i owoce',
+    grains: 'Ryż, mąka, makaron i strączki',
+    fats: 'Oleje i tłuszcze do gotowania',
+    sweeteners: 'Cukier, miód i syropy',
+    specialty: 'Orzechy, suszone owoce i składniki specjalne',
+    spices: 'Przyprawy i dodatki smakowe'
+  },
+  total: 'Szacunkowa suma',
+  costPerServing: 'Na porcję',
+  estimated: 'Szacunkowo',
+  nutritionNote: 'Wartości przybliżone, obliczone na podstawie składników przepisu z użyciem typowych danych odżywczych. Nie zastępują profesjonalnej porady dietetyka.',
+  costNote: 'Na podstawie średnich cen spożywczych w USA; rzeczywisty koszt różni się w zależności od kraju, sezonu i marki.',
+  kcalChip: '≈ {v} kcal / porcję',
+  costChip: '≈ {v} / porcję'
+};
+
 const ESTIMATE_STRINGS: Partial<Record<SupportedLanguage, EstimateStrings>> = {
-  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps, he
+  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps, he, pl
 };
 
 export function getEstimateStrings(lang: SupportedLanguage): EstimateStrings {

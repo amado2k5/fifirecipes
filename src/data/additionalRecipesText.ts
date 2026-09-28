@@ -289,6 +289,19 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionAbdennour: 'ספר הבישול Egyptian Cooking (סאמיה עבד א-נור)',
     citationLabel: 'בספר:',
     tips: 'טיפים והערות'
+  },
+  pl: {
+    badge: 'Dodatkowy przepis',
+    notice: 'To jest dodatkowy przepis spoza rękopisów Dr Fatmy Alkawokgy. Przepisaliśmy go własnymi słowami i podajemy źródło oryginału.',
+    sourceLabel: 'Źródło:',
+    ingredientsNote: 'Ilości podane jak w oryginale, uporządkowane w naszym formacie. Odznaczaj składniki w trakcie gotowania.',
+    collectionAll: 'Wszystkie przepisy',
+    collectionArchive: 'Archiwum Dr Fatmy',
+    collectionAdditional: 'Dodatkowe przepisy (Chef Tetta)',
+    collectionOsool: 'Książka kucharska Osool El-Tahy',
+    collectionAbdennour: 'Książka kucharska Egyptian Cooking (Samia Abdennour)',
+    citationLabel: 'W książce:',
+    tips: 'Wskazówki i uwagi'
   }
 };
 
