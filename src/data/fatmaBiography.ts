@@ -22,6 +22,11 @@ export interface FatmaBio {
   nameId: string;
   nameSw: string;
   nameKo: string;
+  nameNl: string;
+  namePs: string;
+  nameHe: string;
+  namePl: string;
+  nameSv: string;
   titleAr: string;
   titleEn: string;
   titleFr: string;
@@ -41,6 +46,11 @@ export interface FatmaBio {
   titleId: string;
   titleSw: string;
   titleKo: string;
+  titleNl: string;
+  titlePs: string;
+  titleHe: string;
+  titlePl: string;
+  titleSv: string;
   birthYear: number;
   deathDate: string; // 2026-05-08
   institutionAr: string;
@@ -65,6 +75,11 @@ export interface FatmaBio {
   taglineId: string;
   taglineSw: string;
   taglineKo: string;
+  taglineNl: string;
+  taglinePs: string;
+  taglineHe: string;
+  taglinePl: string;
+  taglineSv: string;
   biographyAr: string[];
   biographyEn: string[];
   biographyFr: string[];
@@ -84,6 +99,11 @@ export interface FatmaBio {
   biographyId: string[];
   biographySw: string[];
   biographyKo: string[];
+  biographyNl: string[];
+  biographyPs: string[];
+  biographyHe: string[];
+  biographyPl: string[];
+  biographySv: string[];
   philosophyAr: string;
   philosophyEn: string;
   philosophyFr: string;
@@ -103,6 +123,11 @@ export interface FatmaBio {
   philosophyId: string;
   philosophySw: string;
   philosophyKo: string;
+  philosophyNl: string;
+  philosophyPs: string;
+  philosophyHe: string;
+  philosophyPl: string;
+  philosophySv: string;
   memorialPlaqueAr: string;
   memorialPlaqueEn: string;
   memorialPlaqueFr: string;
@@ -122,6 +147,11 @@ export interface FatmaBio {
   memorialPlaqueId: string;
   memorialPlaqueSw: string;
   memorialPlaqueKo: string;
+  memorialPlaqueNl: string;
+  memorialPlaquePs: string;
+  memorialPlaqueHe: string;
+  memorialPlaquePl: string;
+  memorialPlaqueSv: string;
   milestones: {
     year: string;
     titleAr: string;
@@ -143,6 +173,11 @@ export interface FatmaBio {
     titleId: string;
     titleSw: string;
     titleKo: string;
+    titleNl: string;
+    titlePs: string;
+    titleHe: string;
+    titlePl: string;
+    titleSv: string;
     descAr: string;
     descEn: string;
     descFr: string;
@@ -162,6 +197,11 @@ export interface FatmaBio {
     descId: string;
     descSw: string;
     descKo: string;
+    descNl: string;
+    descPs: string;
+    descHe: string;
+    descPl: string;
+    descSv: string;
   }[];
 }
 
@@ -185,6 +225,11 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
   nameId: 'Dr. Fatma Alkawokgy',
   nameSw: 'Dkt. Fatma Alkawokgy',
   nameKo: '파트마 알카우크지 박사',
+  nameNl: 'Dr. Fatma Alkawokgy',
+  namePs: 'ډاکتره فاطمه القاوقجي',
+  nameHe: 'ד"ר פטמה אלקאווקג׳י',
+  namePl: 'Dr Fatma Alkawokgy',
+  nameSv: 'Dr Fatma Alkawokgy',
   titleAr: 'عازفة البيانو، الأستاذة الأكاديمية، ومؤرخة فنون الطهي التراثي المصري',
   titleEn: 'Classical Pianist, Academic Professor, and Chronicler of Egyptian Culinary Heritage',
   titleFr: 'Pianiste Classique, Professeure Universitaire et Chroniqueuse du Patrimoine Culinaire Égyptien',
@@ -204,6 +249,11 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
   titleId: 'Pianis Klasik, Akademisi, dan Pencatat Warisan Kuliner Mesir',
   titleSw: 'Mpiga Piano wa Kiklasiki, Msomi, na Mhifadhi wa Urithi wa Mapishi ya Kimisri',
   titleKo: '클래식 피아니스트, 학자, 그리고 이집트 요리 유산의 수호자',
+  titleNl: 'Klassiek pianiste, academisch hoogleraar en chroniqueur van het Egyptische culinaire erfgoed',
+  titlePs: 'کلاسیکه پیانو غږونکې، اکاډمیکه پروفیسوره او د مصري خوراکي میراث تاریخ‌لیکونکې',
+  titleHe: 'פסנתרנית קלאסית, פרופסורית אקדמית ומתעדת את המורשת הקולינרית המצרית',
+  titlePl: 'Pianistka klasyczna, profesorka akademicka i kronikarka egipskiego dziedzictwa kulinarnego',
+  titleSv: 'Klassisk pianistska, akademisk professor och krönikör av det egyptiska kulinariska arvet',
   birthYear: 1943,
   deathDate: '2026-05-08',
   institutionAr: 'كلية التربية الموسيقية – الزمالك، جامعة حلوان، القاهرة',
@@ -228,6 +278,11 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
   taglineId: 'Puluhan tahun didedikasikan untuk mendokumentasikan rahasia asli masakan tradisional Mesir dengan ketelitian seorang musisi dan kehangatan yang abadi',
   taglineSw: 'Miongo kadhaa iliyojitolea kurekodi siri asilia za mapishi ya jadi ya Kimisri kwa umakini wa kimuziki na uchangamfu wa kudumu',
   taglineKo: '음악가의 섬세함과 변함없는 따뜻함으로 이집트 전통 요리의 비법을 기록하는 데 바친 수십 년',
+  taglineNl: 'Decennia van toewijding aan het vastleggen van de authentieke geheimen van de Egyptische erfgoedkeuken, met muzikale precisie en blijvende warmte',
+  taglinePs: 'لسیزې وقف د مصري میراثي خوراکونو د رښتینیو رازونو ثبتولو ته، د موسیقۍ په دقت او دوامدارې مینې سره',
+  taglineHe: 'עשרות שנות מסירות לתיעוד סודותיה האותנטיים של מטבח המורשת המצרי — בדייקנות מוזיקלית ובחמימות מתמשכת',
+  taglinePl: 'Dekady oddania dokumentowaniu autentycznych sekretów egipskiej kuchni rodowej — z muzyczną precyzją i trwałym ciepłem',
+  taglineSv: 'Årtionden av hängivenhet åt att dokumentera de autentiska hemligheterna i det egyptiska matarvet — med musikalisk precision och bestående värme',
   philosophyAr: 'الطهي مثل العزف على البيانو؛ النغمات لا تكتمل إلا بالتناغم الصادق، والوجبة الأصيلة لا تنضج إلا بضبط الإيقاع وصبر الروح ونقاء المقادير.',
   philosophyEn: 'Cooking is much like playing the piano: a chord is never complete without harmonic balance, and a dish never reaches true soul without rhythm, patient fire, and devotion to pure ingredients.',
   philosophyFr: "Cuisiner ressemble beaucoup à jouer du piano : un accord n'est jamais complet sans un équilibre harmonieux, et un plat n'atteint sa véritable âme que par le rythme, un feu patient et le dévouement à des ingrédients purs.",
@@ -247,6 +302,11 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
   philosophyId: 'Memasak sangat mirip dengan bermain piano: tidak ada akor yang lengkap tanpa keseimbangan yang harmonis, dan tidak ada hidangan yang mencapai jiwa sejatinya tanpa ritme, api yang sabar, dan kesetiaan pada bahan-bahan yang murni.',
   philosophySw: 'Kupika kunafanana sana na kupiga piano: hakuna kiitikio kinachokamilika bila uwiano wenye upatanifu, na hakuna mlo unaofikia roho yake halisi bila mdundo, moto wa subira, na uaminifu kwa viungo safi.',
   philosophyKo: '요리는 피아노 연주와 매우 닮았습니다. 조화로운 균형 없이는 어떤 화음도 완성되지 않으며, 리듬과 인내의 불, 그리고 신선한 재료에 대한 충실함 없이는 어떤 요리도 진정한 영혼에 이르지 못합니다.',
+  philosophyNl: 'Koken lijkt veel op pianospelen: een akkoord is nooit compleet zonder harmonieus evenwicht, en een gerecht bereikt zijn ware ziel pas door ritme, geduldig vuur en toewijding aan pure ingrediënten.',
+  philosophyPs: 'پخلی د پیانو د غږولو په شان دی: هیڅ آکورډ د همغږي توازن پرته بشپړ نه دی، او هیڅ ډېش د ریتم، صبر او پاکو موادو ته د وقف پرته خپل ریښتینی روح ته نه رسي.',
+  philosophyHe: 'בישול דומה מאוד לנגינה בפסנתר: אקורד אינו שלם בלי איזון הרמוני, ומנה אינה מגיעה לנשמתה האמיתית בלי קצב, אש סבלנית ומסירות למרכיבים טהורים.',
+  philosophyPl: 'Gotowanie przypomina grę na pianinie: żaden akord nie jest pełny bez harmonijnej równowagi, a żadna potrawa nie zyskuje prawdziwej duszy bez rytmu, cierpliwego ognia i oddania czystym składnikom.',
+  philosophySv: 'Att laga mat är mycket likt att spela piano: ett ackord är aldrig fullständigt utan harmonisk balans, och en rätt når aldrig sin sanna själ utan rytm, tålmodig eld och hängivenhet till rena råvaror.',
   memorialPlaqueAr: 'تخليداً لذكرى الراحلة الكريمة د. فاطمة القاوقجي (1943 – 2026). امرأة فاضلة جمعت بين رفعة الفن الموسيقي وأصالة البيت المصري العريق. صُنِع هذا الموقع ليبقى إرثها حيّاً في كل مطبخ وبيت.',
   memorialPlaqueEn: 'Dedicated to the immortal memory of Dr. Fatma Alkawokgy (1943–2026). An extraordinary artist who bridged the sublime heights of classical piano with the timeless warmth of the Egyptian culinary hearth. This living cookbook ensures her generous legacy lives on forever.',
   memorialPlaqueFr: "Dédié à la mémoire immortelle du Dr Fatma Alkawokgy (1943–2026). Une artiste extraordinaire qui a su unir les sommets sublimes du piano classique à la chaleur intemporelle du foyer culinaire égyptien. Ce livre de cuisine vivant fait perdurer à jamais son généreux héritage.",
@@ -266,6 +326,11 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
   memorialPlaqueId: 'Didedikasikan untuk mengenang abadi Dr. Fatma Alkawokgy (1943–2026). Seorang seniman luar biasa yang memadukan puncak keagungan piano klasik dengan kehangatan abadi masakan Mesir. Buku resep hidup ini akan menjaga warisan murah hatinya untuk selamanya.',
   memorialPlaqueSw: 'Imetolewa kwa kumbukumbu ya milele ya Dkt. Fatma Alkawokgy (1943–2026). Msanii wa kipekee aliyeunganisha vilele vya piano ya kiklasiki na uchangamfu usio na wakati wa mapishi ya Kimisri. Kitabu hiki hai cha mapishi kitaendeleza urithi wake wa ukarimu milele.',
   memorialPlaqueKo: '파트마 알카우크지 박사(1943–2026)를 영원히 기억하며 바칩니다. 클래식 피아노의 정점과 이집트 요리의 시대를 초월한 따뜻함을 하나로 이은 특별한 예술가. 이 살아 있는 레시피북이 그녀의 너그러운 유산을 영원히 이어 갈 것입니다.',
+  memorialPlaqueNl: 'Opgedragen aan de onsterfelijke nagedachtenis van Dr. Fatma Alkawokgy (1943–2026). Een buitengewone kunstenares die de sublieme hoogten van de klassieke piano verbond met de tijdloze warmte van de Egyptische keukenhaard. Dit levende kookboek zorgt dat haar gulle nalatenschap voor altijd voortleeft.',
+  memorialPlaquePs: 'د ډاکترې فاطمې القاوقجي (1943–2026) تلپاتې یاد ته وقف. یوه غیر عادي هنرمنده چې د کلاسیک پیانو عالي لوړوالي یې د مصري پخلنځي له بې‌وخته تودوخې سره یوځای کړل. دا ژوندۍ خوراکي کتابچه به د هغې سخاوتمند میراث تل ژوندی وساتي.',
+  memorialPlaqueHe: 'מוקדש לזכרה הבלתי נשכח של ד"ר פטמה אלקאווקג׳י (1943–2026). אמנית יוצאת דופן שגישרה בין פסגותיו הנשגבות של הפסנתר הקלאסי לבין החמימות הנצחית של בית המטבח המצרי. ספר הבישול החי הזה מבטיח שהמורשת הנדיבה שלה תמשיך לנצח.',
+  memorialPlaquePl: 'Poświęcone nieśmiertelnej pamięci dr Fatmy Alkawokgy (1943–2026). Niezwykłej artystce, która połączyła wzniosłe szczyty fortepianu klasycznego z ponadczasowym ciepłem egipskiego ogniska kulinarnego. Ta żywa książka kucharska sprawi, że jej hojne dziedzictwo będzie żyć wiecznie.',
+  memorialPlaqueSv: 'Tillägnad Dr Fatma Alkawokgys (1943–2026) oförglömliga minne. En enastående konstnär som förenade det klassiska pianots sublima höjder med den tidlösa värmen från den egyptiska kokeldhärden. Denna levande kokbok ser till att hennes generösa arv lever vidare för alltid.',
   biographyAr: [
     'ولدت الدكتورة فاطمة القاوقجي في مصر عام 1943 في زمن كانت فيه تقاليد المطبخ والبيوت المصرية تُروى شفاهة وتتوارثها الأمهات بالخبرة الفطرية والمشاهدة.',
     'التحقت بكلية التربية الموسيقية بالزمالك عندما كانت في نحو الثامنة عشرة من عمرها (حوالي عام 1961)، حيث درست وتدرجت ونالت درجة الدكتوراه في فن البيانو، وعملت أستاذة ومربية لأجيال من الطلاب في قلب القاهرة، وظلت بالكلية حتى غادرتها في عام 1980، حاملة في وجدانها دقة النغم الموسيقي والنظام الصارم المقترن برقة الإحساس.',
@@ -399,6 +464,41 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
     '그녀의 손글씨 노트는 이 디지털 아카이브의 토대이며, 이제 현대 조리 과학과 다국어 접근성을 통해 보존되고 있습니다.',
     '파트마 박사는 2026년 5월 8일 세상을 떠났습니다. 이 인터랙티브 레시피북은 그녀의 너그러움, 지적인 엄밀함, 그리고 이집트 문화에 대한 끝없는 사랑을 기리는 영원한 기념비입니다.'
   ],
+  biographyNl: [
+    'Dr. Fatma Alkawokgy werd in 1943 in Egypte geboren, in een tijd waarin de kostbare kennis van de Egyptische keukens mondeling werd doorgegeven — van grootmoeders op moeders.',
+    'Op ongeveer 18-jarige leeftijd (circa 1961) trad ze toe aan de prestigieuze Faculteit voor Muziekeducatie in Zamalek, Caïro. Daar studeerde ze, behaalde haar doctoraat in klassiek piano en leidde generaties aspirant-artiesten en musici op tot het einde van haar academische loopbaan in 1980 — waarbij ze rigoureuze artistieke discipline verenigde met een diep cultureel gevoel.',
+    'Naast haar muzikale prestaties wijdde Dr. Fatma haar leven aan een missie: het minutieus documenteren, testen, vergelijken en perfectioneren van honderden Egyptische recepten. Ze interviewde meesterkoks, woog ingrediënten per gram af, testte varianten boven het vuur en noteerde de subtiele verschillen tussen regionale bereidingen.',
+    'Haar handgeschreven notities vormen de fundamenten van dit digitale archief — nu bewaard met moderne culinaire wetenschap en toegankelijk in meerdere talen.',
+    'Dr. Fatma overleed op 8 mei 2026. Dit interactieve kookboek blijft een eeuwig monument voor haar gulheid, haar intellectuele precisie en haar grenzeloze liefde voor de Egyptische cultuur.'
+  ],
+  biographyPs: [
+    'ډاکتره فاطمه القاوقجي په ۱۹۴۳ کال کې په مصر کې وزېږېده، په داسې دوره کې چې د مصري پخلنځیو ارزښتناکه پوهه له نیکونو او میندو څخه په شفاهي توګه لاس ته ورتلله.',
+    'له نږدې ۱۸ کلنۍ څخه (نږدې ۱۹۶۱) هغه د قاهرې په زمالک کې د مشهور موسیقي ښوونې پوهنځي ته ودننه. هلته یې زده کړه وکړه، په کلاسیک پیانو کې یې ډاکترا واخیسته او تر ۱۹۸۰ کال پورې یې د نویو هنرمندانو او موسیقیدانانو نسلونو ته تدریس وکړ، سخت هنري انضباط یې له ژور کلتوري احساس سره یوځای کړ.',
+    'د خپلو موسیقي لاسته‌اورښتونو تر څنګ، ډاکترې فاطمې خپل ژوند یوې ماموریت ته وقف کړ: د سلګونو مصري خوراکي ترکیبونو دقیق ثبتول، ازمویل، پرتله کول او تکمیل. هغې له لویو پخلونکو سره مرکې وکړې، مواد یې په ګرامو وزنل، د اور پر سر یې مختلفې بڼې ازمایلې او د سیمه‌ییزو جوړولو تر منځ یې نرۍ توپیرونه ثبت کړل.',
+    'د هغې لاسي یادښتونه د دې ډیجیټل آرشیف بنسټ جوړوي — چې نن د عصري خوراکي پوهې او څو ژبني لاسرسي سره خوندي دي.',
+    'ډاکتره فاطمه د ۲۰۲۶ کال د مې په ۸مه ووته. دا متقابل خوراکي کتاب د هغې د سخاوت، فکري دقت او د مصر کلتور ته د بې‌بریده مینې دایمي یادګار دی.'
+  ],
+  biographyHe: [
+    'ד"ר פטמה אלקאווקג׳י נולדה במצרים ב-1943, בתקופה שבה הידע היקר של מטבחי מצרים עבר מפה לאוזן — מסבתות לאמהות.',
+    'בגיל 18 בערך (סביב 1961) התקבלה לפקולטה היוקרתית לחינוך מוזיקלי בזמאלכ, קהיר. שם למדה, קיבלה דוקטורט בפסנתר קלאסי ולימדה דורות של אמנים ומוזיקאים צעירים עד תום הקריירה האקדמית שלה ב-1980 — תוך שילוב של משמעת אמנותית קפדנית ורגישות תרבותית עמוקה.',
+    'לצד הישגיה המוזיקליים, ד"ר פטמה הקדישה את חייה למשימה: תיעוד, בדיקה, הצלבה ושכלול קפדניים של מאות מתכונים מצריים. היא ראיינה טבחים מומחים, שקלה מרכיבים בגרמים, בדקה וריאציות על האש ותיעדה את ההבדלים העדינים בין גרסאות אזוריות.',
+    'הערותיה בכתב יד הן הבסיס של הארכיון הדיגיטלי הזה — שנשמר כיום בעזרת מדע קולינרי מודרני וגישה רב-לשונית.',
+    'ד"ר פטמה הלכה לעולמה ב-8 במאי 2026. ספר הבישול האינטראקטיבי הזה הוא אנדרטה נצחית לנדיבותה, לדייקנותה האינטלקטואלית ולאהבתה האין-סופית לתרבות המצרית.'
+  ],
+  biographyPl: [
+    'Dr Fatma Alkawokgy urodziła się w Egipcie w 1943 roku, w czasach, gdy bezcenna wiedza egipskich kuchni przekazywana była ustnie — od babć do matek.',
+    'W wieku około 18 lat (ok. 1961 r.) wstąpiła na prestiżowy Wydział Edukacji Muzycznej w Zamaleku w Kairze. Tam studiowała, uzyskała doktorat z fortepianu klasycznego i uczyła pokolenia młodych artystów i muzyków, aż do zakończenia kariery akademickiej w 1980 roku — łącząc rygorystyczną dyscyplinę artystyczną z głęboką wrażliwością kulturową.',
+    'Równolegle z osiągnięciami muzycznymi dr Fatma poświęciła całe życie jednej misji: skrupulatnemu dokumentowaniu, testowaniu, porównywaniu i doskonaleniu setek egipskich przepisów kulinarnych. Rozmawiała z mistrzami kuchni, ważyła składniki co do grama, sprawdzała warianty na ogniu i notowała subtelne różnice między regionalnymi wersjami potraw.',
+    'Jej ręcznie pisane notatki stanowią fundament tego cyfrowego archiwum — dziś zachowanego dzięki nowoczesnej nauce kulinarnej i dostępowi w wielu językach.',
+    'Dr Fatma odeszła 8 maja 2026 roku. Ta interaktywna książka kucharska pozostaje trwałym pomnikiem jej hojności, intelektualnej rzetelności i bezgranicznej miłości do kultury egipskiej.'
+  ],
+  biographySv: [
+    'Dr Fatma Alkawokgy föddes i Egypten 1943, i en tid då den dyrbara kunskapen i egyptiska kök fördes vidare muntligt — från farmödrar till mödrar.',
+    'Vid omkring 18 års ålder (cirka 1961) antogs hon till den prestigefyllda musikpedagogiska fakulteten i Zamalek, Kairo. Där studerade hon, tog doktorsexamen i klassiskt piano och undervisade generationer av blivande artister och musiker fram till att hon avslutade sin akademiska bana 1980 — med sträng konstnärlig disciplin förenad med djup kulturell känslighet.',
+    'Vid sidan av sina musikaliska bedrifter ägnade Dr Fatma livet åt ett uppdrag: att noggrant dokumentera, testa, jämföra och fullända hundratals egyptiska matrecept. Hon intervjuade mästerkockar, vägde ingredienser på grammet när, provade varianter över eld och noterade de subtila skillnaderna mellan regionala tillredningar.',
+    'Hennes handskrivna anteckningar utgör grunden i detta digitala arkiv — som i dag bevaras med modern kulinarisk vetenskap och flerspråkig tillgång.',
+    'Dr Fatma gick bort den 8 maj 2026. Denna interaktiva kokbok står som ett evigt monument över hennes generositet, intellektuella noggrannhet och gränslösa kärlek till den egyptiska kulturen.'
+  ],
   milestones: [
     {
       year: '1943',
@@ -432,6 +532,11 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
       titleId: 'Kelahiran dan Akar Awal',
       titleSw: 'Kuzaliwa na Mizizi ya Awali',
       titleKo: '탄생과 초기의 뿌리',
+      titleNl: 'Geboorte & vroege wortels',
+      titlePs: 'زیږون او لومړنۍ ریښې',
+      titleHe: 'לידה ושורשים מוקדמים',
+      titlePl: 'Narodziny i wczesne korzenie',
+      titleSv: 'Födelse och tidiga rötter',
       descEl: 'Γεννήθηκε στο Κάιρο σε μια καλλιεργημένη αιγυπτιακή οικογένεια αφοσιωμένη στην τέχνη, τη λογοτεχνία και τις φιλόξενες παραδόσεις.',
       descUr: 'قاہرہ میں ایک مہذب مصری خاندان میں پیدا ہوئیں جو فنون، ادب اور مہمان نوازی کی روایات سے مالا مال تھا۔',
       descFa: 'در قاهره در خانواده‌ای فرهیخته مصری به دنیا آمد که با هنر، ادبیات و سنت‌های مهمان‌نوازی عجین بود.',
@@ -439,7 +544,12 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
       descKu: 'Li Qahîreyê di malbateke Misrî ya rewşenbîr de hat dinê ku dilê wê bi huner, wêje û kevneşopiyên mêvanperweriyê ve girêdayî bû.',
       descId: 'Lahir di Kairo dalam keluarga Mesir terpelajar yang mencintai seni, sastra, dan tradisi keramahtamahan.',
       descSw: 'Alizaliwa Kairo katika familia ya Kimisri iliyoelimika, iliyopenda sanaa, fasihi na mila za ukarimu.',
-      descKo: '예술과 문학, 환대의 전통을 사랑하는 교양 있는 이집트 가정에서 카이로에 태어났습니다.'
+      descKo: '예술과 문학, 환대의 전통을 사랑하는 교양 있는 이집트 가정에서 카이로에 태어났습니다.',
+      descNl: 'Geboren in Caïro in een beschaaft Egyptisch gezin doordrenkt van kunst, literatuur en gastvrije tradities.',
+      descPs: 'په قاهره کې په یوه کلتوري مصري کورنۍ کې وزېږېده چې له هنر، ادبیاتو او میلمه‌پالنې له دودونو ډکه وه.',
+      descHe: 'נולדה בקהיר למשפחה מצרית מטופחת, שרויה באמנות, ספרות ומסורת אירוח.',
+      descPl: 'Urodzona w Kairze w kulturalnej egipskiej rodzinie przesiąkniętej sztuką, literaturą i gościnnymi tradycjami.',
+      descSv: 'Född i Kairo i en bildad egyptisk familj genomsyrad av konst, litteratur och gästfria traditioner.'
     },
     {
       year: 'حوالي 1961',
@@ -473,6 +583,11 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
       titleId: 'Masuk Fakultas Musik Zamalek (~18 Tahun)',
       titleSw: 'Kujiunga na Kitivo cha Muziki cha Zamalek (~Miaka 18)',
       titleKo: '자말렉 음악대학 입학 (~18세)',
+      titleNl: 'Toetreding tot de muziekfaculteit in Zamalek (~18 jaar)',
+      titlePs: 'د زمالک موسیقي پوهنځي ته دننه (نږدې ۱۸ کلنه)',
+      titleHe: 'התקבלה לפקולטה למוזיקה בזמאלכ (גיל ~18)',
+      titlePl: 'Wstąpienie na Wydział Muzyczny w Zamaleku (wiek ~18 lat)',
+      titleSv: 'Antagning till musikfakulteten i Zamalek (~18 år)',
       descEl: 'Εισήχθη στη Σχολή Μουσικής Παιδαγωγικής του Ζαμάλεκ σε ηλικία περίπου 18 ετών για να σπουδάσει κλασικό πιάνο και μουσική εκπαίδευση.',
       descUr: 'تقریباً 18 سال کی عمر میں کلاسیکی پیانو اور موسیقی کی تعلیم کے لیے زمالک کی فیکلٹی آف میوزک ایجوکیشن میں داخلہ لیا۔',
       descFa: 'در حدود 18 سالگی برای تحصیل پیانوی کلاسیک و آموزش موسیقی وارد دانشکده آموزش موسیقی زمالک شد.',
@@ -480,7 +595,12 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
       descKu: 'Di nêzîkî 18 saliya xwe de ket Fakulteya Perwerdeya Mûzîkê ya Zamalekê da ku piyanoya klasîk û perwerdeya mûzîkê bixwîne.',
       descId: 'Pada usia sekitar 18 tahun ia masuk Fakultas Pendidikan Musik di Zamalek untuk mempelajari piano klasik dan pendidikan musik.',
       descSw: 'Akiwa na umri wa takriban miaka 18 alijiunga na Kitivo cha Elimu ya Muziki huko Zamalek kusoma piano ya kiklasiki na elimu ya muziki.',
-      descKo: '약 18세에 자말렉의 음악교육대학에 입학하여 클래식 피아노와 음악 교육을 공부했습니다.'
+      descKo: '약 18세에 자말렉의 음악교육대학에 입학하여 클래식 피아노와 음악 교육을 공부했습니다.',
+      descNl: 'Op ongeveer 18-jarige leeftijd toegelaten tot de Faculteit voor Muziekeducatie in Zamalek om klassiek piano en muziekeducatie te studeren.',
+      descPs: 'نږدې په ۱۸ کلنۍ کې د زمالک د موسیقي ښوونې پوهنځي ته ودننه تر څو کلاسیک پیانو او موسیقي زده کړي.',
+      descHe: 'התקבלה לפקולטה לחינוך מוזיקלי בזמאלכ בגיל 18 בערך, ללימודי פסנתר קלאסי וחינוך מוזיקלי.',
+      descPl: 'W wieku około 18 lat rozpoczęła studia na Wydziale Edukacji Muzycznej w Zamaleku, kształcąc się w fortepianie klasycznym i edukacji muzycznej.',
+      descSv: 'Antogs vid cirka 18 års ålder till musikpedagogiska fakulteten i Zamalek för att studera klassiskt piano och musikpedagogik.'
     },
     {
       year: '1980',
@@ -514,6 +634,11 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
       titleId: 'Akhir Karier Akademis di Zamalek',
       titleSw: 'Mwisho wa Kazi ya Kitaaluma Zamalek',
       titleKo: '자말렉에서의 학계 경력 마무리',
+      titleNl: 'Afsluiting van de carrière aan de Zamalek-faculteit',
+      titlePs: 'د زمالک پوهنځي مسلکي دوره پای ته ورسېده',
+      titleHe: 'סיום הקריירה בפקולטת זמאלכ',
+      titlePl: 'Zakończenie kariery na wydziale w Zamaleku',
+      titleSv: 'Avslutade sin bana vid Zamalek-fakulteten',
       descEl: 'Απέκτησε το διδακτορικό της στο πιάνο, δίδαξε γενιές μουσικών και ολοκλήρωσε τη θητεία της στη σχολή το 1980.',
       descUr: 'پیانو میں ڈاکٹریٹ کی ڈگری حاصل کی، موسیقاروں کی کئی نسلوں کو تعلیم دی، اور 1980 میں فیکلٹی میں اپنی مدتِ ملازمت مکمل کی۔',
       descFa: 'دکترای پیانو گرفت، به نسل‌هایی از نوازندگان آموزش داد و در سال 1980 دوران خدمتش در دانشکده را به پایان رساند.',
@@ -521,7 +646,12 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
       descKu: 'Doktoraya piyanoyê wergirt, nifşên mûzîkjenan perwerde kirin û di 1980ê de erka xwe ya li fakulteyê temam kir.',
       descId: 'Meraih gelar doktor piano, membimbing generasi demi generasi musisi, dan menyelesaikan tugasnya di fakultas pada tahun 1980.',
       descSw: 'Alipata shahada ya uzamivu ya piano, aliwafundisha vizazi vya wanamuziki, na alimaliza utumishi wake kitivoni mwaka 1980.',
-      descKo: '피아노 박사 학위를 받고 여러 세대의 음악가를 가르쳤으며, 1980년 대학에서의 재직을 마쳤습니다.'
+      descKo: '피아노 박사 학위를 받고 여러 세대의 음악가를 가르쳤으며, 1980년 대학에서의 재직을 마쳤습니다.',
+      descNl: 'Ontving haar doctoraat in piano, onderwees generaties musici en voltooide haar aanstelling aan de faculteit in 1980.',
+      descPs: 'په پیانو کې یې ډاکترا واخیسته، د موسیقیدانانو نسلونه یې وښوول او په ۱۹۸۰ کې یې په پوهنځي کې خپله دنده بشپړه کړه.',
+      descHe: 'קיבלה דוקטורט בפסנתר, לימדה דורות של מוזיקאים והשלימה את כהונתה בפקולטה ב-1980.',
+      descPl: 'Otrzymała doktorat z fortepianu, kształciła pokolenia muzyków i zakończyła pracę na wydziale w 1980 roku.',
+      descSv: 'Mottog doktorsexamen i piano, undervisade generationer av musiker och fullbordade sin tjänst vid fakulteten 1980.'
     },
     {
       year: '1980 - 2020',
@@ -555,6 +685,11 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
       titleId: 'Puluhan Tahun Penelitian Kuliner',
       titleSw: 'Miongo ya Utafiti wa Upishi',
       titleKo: '수십 년에 걸친 요리 연구',
+      titleNl: 'Decennia van culinair veldwerk',
+      titlePs: 'د خوراکي ډګري کار لسیزې',
+      titleHe: 'עשרות שנים של עבודת שדה קולינרית',
+      titlePl: 'Dekady kulinarnej pracy terenowej',
+      titleSv: 'Årtionden av kulinariskt fältarbete',
       descEl: 'Αφιέρωσε δεκαετίες στη συλλογή, το μαγείρεμα, τη δοκιμή και τη συγκέντρωση αυθεντικών χειρόγραφων αιγυπτιακών συνταγών.',
       descUr: 'اصل مصری ترکیبوں کے مسودات جمع کرنے، پکانے، آزمانے اور مرتب کرنے میں کئی دہائیاں وقف کیں۔',
       descFa: 'دهه‌ها را صرف گردآوری، پختن، آزمودن و تدوین دست‌نوشته‌های اصیل دستورهای آشپزی مصری کرد.',
@@ -562,7 +697,12 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
       descKu: 'Bi dehan sal ji bo berhevkirin, pijandin, ceribandin û komkirina destnivîsên reçeteyên resen ên Misrî terxan kir.',
       descId: 'Mengabdikan puluhan tahun untuk mengumpulkan, memasak, menguji, dan menyusun naskah resep asli Mesir.',
       descSw: 'Alitumia miongo kadhaa kukusanya, kupika, kujaribu na kuhariri miswada ya mapishi asilia ya Kimisri.',
-      descKo: '수십 년 동안 이집트 정통 레시피 원고를 수집하고, 요리하고, 시험하고, 편집했습니다.'
+      descKo: '수십 년 동안 이집트 정통 레시피 원고를 수집하고, 요리하고, 시험하고, 편집했습니다.',
+      descNl: 'Wijdde tientallen jaren aan het verzamelen, bereiden, testen en samenstellen van authentieke Egyptische receptenmanuscripten.',
+      descPs: 'لسیزې یې د رښتینیو مصري ترکیبونو د راټولولو، پخلولو، ازمویلو او تالیف لپاره وقف کړې.',
+      descHe: 'הקדישה עשרות שנים לאיסוף, בישול, בדיקה ועריכת כתבי יד של מתכונים מצריים אותנטיים.',
+      descPl: 'Przez dziesięciolecia gromadziła, gotowała, testowała i opracowywała rękopisy autentycznych egipskich przepisów.',
+      descSv: 'Ägnade årtionden åt att samla, tillaga, testa och sammanställa autentiska egyptiska receptmanuskript.'
     },
     {
       year: '8 مايو 2026',
@@ -585,6 +725,11 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
       titleId: 'Kepergian dan Warisan Abadi',
       titleSw: 'Kifo na Urithi wa Kudumu',
       titleKo: '별세와 영원한 유산',
+      titleNl: 'Overlijden & eeuwigdurende nalatenschap',
+      titlePs: 'وتل او تلپاتې میراث',
+      titleHe: 'פטירה ומורשת נצחית',
+      titlePl: 'Odejście i wieczne dziedzictwo',
+      titleSv: 'Bortgång och evigt arv',
       descAr: 'انتقلت إلى رحمة الله في 8 مايو 2026 مخلفة إرثاً إنسانياً وأكاديمياً وطهياً عظيماً يُخلَّد في هذا الموقع.',
       descEn: 'Passed away on May 8, 2026, leaving an indelible artistic, culinary, and human heritage preserved forever.',
       descFr: "S'est éteinte le 8 mai 2026, laissant un héritage artistique, culinaire et humain indélébile, préservé pour toujours.",
@@ -603,7 +748,12 @@ export const FATMA_BIOGRAPHY: FatmaBio = {
       descKu: 'Di 8ê Gulana 2026an de koça dawî kir; mîrateke hunerî, metbexî û mirovî ya nayê jêbirin hişt ku dê her û her were parastin.',
       descId: 'Berpulang pada 8 Mei 2026, meninggalkan warisan seni, kuliner, dan kemanusiaan yang tak terhapuskan dan akan dilestarikan selamanya.',
       descSw: 'Alifariki tarehe 8 Mei 2026, akiacha urithi wa kisanaa, wa upishi na wa kibinadamu usiofutika utakaohifadhiwa milele.',
-      descKo: '2026년 5월 8일 세상을 떠나며, 영원히 보존될 지울 수 없는 예술적, 요리적, 인간적 유산을 남겼습니다.'
+      descKo: '2026년 5월 8일 세상을 떠나며, 영원히 보존될 지울 수 없는 예술적, 요리적, 인간적 유산을 남겼습니다.',
+      descNl: 'Overleed op 8 mei 2026, met een onuitwisbaar artistiek, culinair en menselijk erfgoed dat voor altijd bewaard blijft.',
+      descPs: 'د ۲۰۲۶ کال د مې په ۸مه ووته او نه‌لرېدونکی هنري، خوراکي او انساني میراث یې تلپاتې خوندي پرېښود.',
+      descHe: 'הלכה לעולמה ב-8 במאי 2026 והותירה מורשת אמנותית, קולינרית ואנושית בלתי מחיקה, שמורה לעד.',
+      descPl: 'Odeszła 8 maja 2026 roku, pozostawiając niezatarte dziedzictwo artystyczne, kulinarne i ludzkie — zachowane na zawsze.',
+      descSv: 'Gick bort den 8 maj 2026 och lämnade ett outplånligt konstnärligt, kulinariskt och mänskligt arv, bevarat för alltid.'
     }
   ]
 };
