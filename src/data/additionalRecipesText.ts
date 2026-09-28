@@ -264,6 +264,19 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     citationLabel: '책 속 위치:',
     tips: '팁과 메모'
   },
+  nl: {
+    badge: 'Extra recept',
+    notice: 'Dit is een extra recept dat niet uit de manuscripten van Dr. Fatma Alkawokgy komt. We hebben het in eigen woorden herschreven en vermelden de oorspronkelijke bron.',
+    sourceLabel: 'Bron:',
+    ingredientsNote: 'Hoeveelheden zoals opgegeven door de bron, netjes omgezet naar ons formaat. Vink ingrediënten af terwijl je bereidt.',
+    collectionAll: 'Alle recepten',
+    collectionArchive: 'Archief van Dr. Fatma',
+    collectionAdditional: 'Extra recepten (Chef Teta)',
+    collectionOsool: 'Kookboek Osool El Tahy',
+    collectionAbdennour: 'Kookboek Egyptian Cooking (Samia Abdennour)',
+    citationLabel: 'In het boek:',
+    tips: 'Tips & opmerkingen'
+  },
   ps: {
     badge: 'زیاته ترکیب',
     notice: 'دا یوه زیاته ترکیب ده، د ډاکټرې فاطمې القاوقجي له لاسي لیکنو نه نه ده. موږ یې په خپلو خبرو بیا لیکلې او د اصلي سرچینې حق یې یادوو.',

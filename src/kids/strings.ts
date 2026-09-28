@@ -275,5 +275,5 @@ export const fill = (template: string, values: Record<string, string | number>) 
 export const SPEECH_LANG: Partial<Record<SupportedLanguage, string>> = {
   ar: 'ar-EG', en: 'en-US', fr: 'fr-FR', es: 'es-ES', ja: 'ja-JP', hi: 'hi-IN', pt: 'pt-BR', ru: 'ru-RU', zh: 'zh-CN',
   de: 'de-DE', it: 'it-IT', el: 'el-GR', ur: 'ur-PK', fa: 'fa-IR', tr: 'tr-TR', ku: 'ku', id: 'id-ID', sw: 'sw-KE', ko: 'ko-KR',
-  ps: 'ps-AF', he: 'he-IL', pl: 'pl-PL', sv: 'sv-SE'
+  nl: 'nl-NL', ps: 'ps-AF', he: 'he-IL', pl: 'pl-PL', sv: 'sv-SE'
 };
