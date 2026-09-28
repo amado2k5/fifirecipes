@@ -23,7 +23,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'nl', name: 'Dutch', nativeName: 'Nederlands', dir: 'ltr', flag: '🇳🇱' },
   { code: 'ps', name: 'Pashto', nativeName: 'پښتو', dir: 'rtl', flag: '🇦🇫' },
   { code: 'he', name: 'Hebrew', nativeName: 'עברית', dir: 'rtl', flag: '🌐' },
-  { code: 'pl', name: 'Polish', nativeName: 'Polski', dir: 'ltr', flag: '🇵🇱' }
+  { code: 'pl', name: 'Polish', nativeName: 'Polski', dir: 'ltr', flag: '🇵🇱' },
+  { code: 'sv', name: 'Swedish', nativeName: 'Svenska', dir: 'ltr', flag: '🇸🇪' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -96,6 +97,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'pl') {
       return { language: 'pl', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'sv') {
+      return { language: 'sv', isKnown: true, rawLocale };
     }
     if (primaryCode === 'he' || (primaryCode as string) === 'iw') {
       return { language: 'he', isKnown: true, rawLocale };
@@ -833,10 +837,21 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     close: 'Zamknij',
   },
   sv: {
+    loadError: 'Det gick inte att ladda receptet. Kontrollera anslutningen och försök igen.',
+    loadingMoreRecipes: 'Laddar fler recept…',
+    showMoreRecipes: 'Visa fler recept',
+    recipesLoadFailed: 'Recepten kunde inte laddas. Kontrollera anslutningen och ladda om sidan.',
     siteTitle: 'Dr. Fatma Alkawokgy Kokbok',
+    appTitle: 'Dr. Fatma Alkawokgy Kokbok',
     siteSubtitle: 'Det Autentiska Egyptiska Matarvet',
+    appSubtitle: 'Det Autentiska Egyptiska Matarvet',
     allRecipes: 'Alla Recept',
+    navAllRecipes: 'Utforska recept',
     aboutFatma: 'Om Dr. Fatma',
+    navAboutFatma: 'Om Dr. Fatma',
+    ingredientsRegistry: 'Ingrediensregistret',
+    navIngredientsRegistry: 'Ingrediensregistret',
+    choosePreferredLanguage: 'Välj önskat språk för webbplatsen',
     searchPlaceholder: 'Sök recept, ingrediens...',
     filterByChapter: 'Filtrera efter kapitel',
     prepTime: 'Förberedelse',

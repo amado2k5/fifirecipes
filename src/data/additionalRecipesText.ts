@@ -302,6 +302,19 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionAbdennour: 'Książka kucharska Egyptian Cooking (Samia Abdennour)',
     citationLabel: 'W książce:',
     tips: 'Wskazówki i uwagi'
+  },
+  sv: {
+    badge: 'Extra recept',
+    notice: 'Detta är ett extra recept som inte kommer från Dr. Fatma Alkawokgys manuskript. Vi har skrivit om det med egna ord och anger originalkällan.',
+    sourceLabel: 'Källa:',
+    ingredientsNote: 'Måtten anges som i källan, ordnade i vårt format. Markera ingredienserna allt eftersom du förbereder dem.',
+    collectionAll: 'Alla recept',
+    collectionArchive: 'Dr. Fatmas arkiv',
+    collectionAdditional: 'Extra recept (Chef Teta)',
+    collectionOsool: 'Kokboken Osool El Tahy',
+    collectionAbdennour: 'Kokboken Egyptian Cooking (Samia Abdennour)',
+    citationLabel: 'I boken:',
+    tips: 'Tips och anteckningar'
   }
 };
 

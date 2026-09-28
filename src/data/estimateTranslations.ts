@@ -1137,8 +1137,56 @@ const pl: EstimateStrings = {
   costChip: '≈ {v} / porcję'
 };
 
+const sv: EstimateStrings = {
+  tab: 'Näring & kostnad',
+  nutritionTitle: 'Näringsvärde',
+  perServingBasis: 'Per portion — receptet ger cirka {n} portioner',
+  nutrient: 'Näringsämne',
+  perServing: 'Per portion',
+  calories: 'Kalorier',
+  protein: 'Protein',
+  fat: 'Fett',
+  carbs: 'Kolhydrater',
+  fiber: 'Fiber',
+  sugar: 'Socker',
+  kcal: 'kcal',
+  grams: 'g',
+  energySplit: 'Varifrån kalorierna kommer',
+  healthTitle: 'Hälsokommentarer',
+  tags: {
+    highProtein: { label: 'Proteinrikt', hint: 'En stor del av kalorierna kommer från protein.' },
+    goodFiber: { label: 'Bra fiberkälla', hint: 'Cirka 5 g fiber eller mer per portion.' },
+    light: { label: 'Lätt rätt', hint: 'Under 250 kcal per portion.' },
+    hearty: { label: 'Mättande & rejäl', hint: '600 kcal eller mer per portion — passar som huvudrätt.' },
+    highSugar: { label: 'Sockerrikt', hint: 'Njut helst då och då.' },
+    highFat: { label: 'Fettrikt', hint: 'Hälften eller mer av kalorierna kommer från fett.' },
+    lowFat: { label: 'Fettsnålt', hint: '5 g fett eller mindre per portion.' },
+    meatFree: { label: 'Köttfri', hint: 'Inget kött, fågel eller fisk i ingredienserna.' }
+  },
+  costTitle: 'Uppskattad kostnad för receptet',
+  ingredientGroup: 'Ingrediensgrupp',
+  costUsd: 'Kostnad (USD)',
+  groups: {
+    protein: 'Kött, fågel och skaldjur',
+    dairyEggs: 'Mejeri, ghee och ägg',
+    produce: 'Grönsaker, örter och frukt',
+    grains: 'Ris, mjöl, pasta och baljväxter',
+    fats: 'Matoljor och fetter',
+    sweeteners: 'Socker, honung och sirap',
+    specialty: 'Nötter, torkad frukt och specialiteter',
+    spices: 'Kryddor och smaksättare'
+  },
+  total: 'Uppskattad totalsumma',
+  costPerServing: 'Per portion',
+  estimated: 'uppskattat',
+  nutritionNote: 'Ungefärliga värden beräknade från receptets ingredienser med vanliga näringsdata. De ersätter inte professionell kostrådgivning.',
+  costNote: 'Baserat på genomsnittliga amerikanska mataffärspriser; verkliga kostnader varierar med land, säsong och märke.',
+  kcalChip: '≈ {v} kcal / portion',
+  costChip: '≈ {v} / portion'
+};
+
 const ESTIMATE_STRINGS: Partial<Record<SupportedLanguage, EstimateStrings>> = {
-  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps, he, pl
+  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps, he, pl, sv
 };
 
 export function getEstimateStrings(lang: SupportedLanguage): EstimateStrings {
