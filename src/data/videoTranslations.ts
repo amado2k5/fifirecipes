@@ -340,6 +340,20 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     next: 'Następny',
     short: 'Krótkie',
     close: 'Zamknij'
+  },
+  sv: {
+    tab: 'Videor',
+    intro: 'Videor som hittats automatiskt genom sökning på denna rätt. De tillhör sina skapare och kan skilja sig från Dr. Fatmas recept.',
+    loading: 'Söker efter videor…',
+    empty: 'Inga passande videor hittades ännu.',
+    error: 'Videorna kunde inte laddas just nu.',
+    retry: 'Försök igen',
+    openOn: 'Öppna på {p}',
+    searchOn: 'Sök denna rätt på',
+    previous: 'Föregående',
+    next: 'Nästa',
+    short: 'Kort',
+    close: 'Stäng'
   }
 };
 
