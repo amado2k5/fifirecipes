@@ -22,7 +22,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'ko', name: 'Korean', nativeName: '한국어', dir: 'ltr', flag: '🇰🇷' },
   { code: 'nl', name: 'Dutch', nativeName: 'Nederlands', dir: 'ltr', flag: '🇳🇱' },
   { code: 'ps', name: 'Pashto', nativeName: 'پښتو', dir: 'rtl', flag: '🇦🇫' },
-  { code: 'he', name: 'Hebrew', nativeName: 'עברית', dir: 'rtl', flag: '🌐' }
+  { code: 'he', name: 'Hebrew', nativeName: 'עברית', dir: 'rtl', flag: '🌐' },
+  { code: 'pl', name: 'Polish', nativeName: 'Polski', dir: 'ltr', flag: '🇵🇱' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -92,6 +93,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'ps') {
       return { language: 'ps', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'pl') {
+      return { language: 'pl', isKnown: true, rawLocale };
     }
     if (primaryCode === 'he' || (primaryCode as string) === 'iw') {
       return { language: 'he', isKnown: true, rawLocale };
@@ -814,6 +818,17 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     enterAddressPlaceholder: 'Wpisz miasto lub adres...',
     useThisLocation: 'Użyj tej lokalizacji',
     cancel: 'Anuluj',
+    loadError: 'Nie udało się załadować przepisu. Sprawdź połączenie i spróbuj ponownie.',
+    loadingMoreRecipes: 'Ładowanie kolejnych przepisów…',
+    showMoreRecipes: 'Pokaż więcej przepisów',
+    recipesLoadFailed: 'Nie udało się załadować przepisów. Sprawdź połączenie i odśwież stronę.',
+    appTitle: 'Przepisy Fatmy Alkawokgy',
+    appSubtitle: 'Dziedzictwo kuchni – książka autentycznej kuchni egipskiej',
+    navAllRecipes: 'Przeglądaj przepisy',
+    navAboutFatma: 'O Dr Fatmie',
+    ingredientsRegistry: 'Rejestr składników',
+    navIngredientsRegistry: 'Rejestr składników',
+    choosePreferredLanguage: 'Wybierz preferowany język strony',
     noResultsFound: 'Nie znaleziono wyników.',
     close: 'Zamknij',
   },

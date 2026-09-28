@@ -326,6 +326,20 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     next: 'הבא',
     short: 'קצר',
     close: 'סגירה'
+  },
+  pl: {
+    tab: 'Filmy',
+    intro: 'Filmy dobrane automatycznie na podstawie nazwy dania. Należą do ich twórców i mogą różnić się od przepisu Dr Fatmy.',
+    loading: 'Szukanie filmów…',
+    empty: 'Nie znaleziono jeszcze pasujących filmów.',
+    error: 'Nie można teraz załadować filmów.',
+    retry: 'Spróbuj ponownie',
+    openOn: 'Otwórz w {p}',
+    searchOn: 'Wyszukaj danie w:',
+    previous: 'Poprzedni',
+    next: 'Następny',
+    short: 'Krótkie',
+    close: 'Zamknij'
   }
 };
 
