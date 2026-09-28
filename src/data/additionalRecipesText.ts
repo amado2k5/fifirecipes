@@ -276,6 +276,19 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionAbdennour: 'د Egyptian Cooking کتاب (سامیه عبدالنور)',
     citationLabel: 'په کتاب کې:',
     tips: 'لارښوونې او یادونې'
+  },
+  he: {
+    badge: 'מתכון נוסף',
+    notice: 'זהו מתכון נוסף שאינו מכתבי היד של ד"ר פאטמה אלקאווקג׳י. כתבנו אותו מחדש במילים שלנו ונותנים קרדיט למקור המקורי.',
+    sourceLabel: 'מקור:',
+    ingredientsNote: 'הכמויות כפי שנמסרו במקור, מסודרות בפורמט שלנו. סמנו מצרכים ככל שאתם מכינים.',
+    collectionAll: 'כל המתכונים',
+    collectionArchive: 'ארכיון ד"ר פאטמה',
+    collectionAdditional: 'מתכונים נוספים (שף תטה)',
+    collectionOsool: 'ספר הבישול אוסול אל-טחי',
+    collectionAbdennour: 'ספר הבישול Egyptian Cooking (סאמיה עבד א-נור)',
+    citationLabel: 'בספר:',
+    tips: 'טיפים והערות'
   }
 };
 

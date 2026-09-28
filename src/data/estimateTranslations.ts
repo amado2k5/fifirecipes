@@ -1041,8 +1041,56 @@ const ps: EstimateStrings = {
   costChip: '≈ {v} / حصه'
 };
 
+const he: EstimateStrings = {
+  tab: 'תזונה ועלות',
+  nutritionTitle: 'ערכים תזונתיים',
+  perServingBasis: 'למנה — המתכון מכין כ-{n} מנות',
+  nutrient: 'רכיב תזונתי',
+  perServing: 'למנה',
+  calories: 'קלוריות',
+  protein: 'חלבון',
+  fat: 'שומן',
+  carbs: 'פחמימות',
+  fiber: 'סיבים',
+  sugar: 'סוכר',
+  kcal: 'קק"ל',
+  grams: 'גרם',
+  energySplit: 'מאיפה מגיעות הקלוריות',
+  healthTitle: 'הערות בריאות',
+  tags: {
+    highProtein: { label: 'עשיר בחלבון', hint: 'חלק גדול מהקלוריות מגיע מחלבון.' },
+    goodFiber: { label: 'מקור טוב לסיבים', hint: 'כ-5 גרם סיבים או יותר למנה.' },
+    light: { label: 'ארוחה קלה', hint: 'פחות מ-250 קק"ל למנה.' },
+    hearty: { label: 'דשנה ומשביעה', hint: '600 קק"ל או יותר למנה — מתאימה כמנה עיקרית.' },
+    highSugar: { label: 'עשיר בסוכר', hint: 'עדיף ליהנות מדי פעם.' },
+    highFat: { label: 'עשיר בשומן', hint: 'מחצית הקלוריות או יותר מגיעות משומן.' },
+    lowFat: { label: 'דל שומן', hint: '5 גרם שומן או פחות למנה.' },
+    meatFree: { label: 'ללא בשר', hint: 'אין בשר, עוף או דגים במצרכים.' }
+  },
+  costTitle: 'עלות משוערת של המתכון',
+  ingredientGroup: 'קבוצת מצרכים',
+  costUsd: 'עלות (דולר ארה"ב)',
+  groups: {
+    protein: 'בשר, עוף ופירות ים',
+    dairyEggs: 'מוצרי חלב, גהי וביצים',
+    produce: 'ירקות, עשבי תיבול ופירות',
+    grains: 'אורז, קמח, פסטה וקטניות',
+    fats: 'שמנים ושומנים לבישול',
+    sweeteners: 'סוכר, דבש וסירופים',
+    specialty: 'אגוזים, פירות יבשים ומצרכים מיוחדים',
+    spices: 'תבלינים ומרכיבי טעם'
+  },
+  total: 'סה"כ משוער',
+  costPerServing: 'למנה',
+  estimated: 'משוער',
+  nutritionNote: 'ערכים משוערים, מחושבים ממצרכי המתכון לפי נתוני תזונה מקובלים. אינם תחליף לייעוץ של תזונאי.',
+  costNote: 'מבוסס על מחירי סופרמרקט ממוצעים בארה"ב; העלות בפועל משתנה לפי מדינה, עונה ומותג.',
+  kcalChip: '≈ {v} קק"ל / מנה',
+  costChip: '≈ {v} / מנה'
+};
+
 const ESTIMATE_STRINGS: Partial<Record<SupportedLanguage, EstimateStrings>> = {
-  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps
+  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps, he
 };
 
 export function getEstimateStrings(lang: SupportedLanguage): EstimateStrings {

@@ -119,7 +119,7 @@ const Confetti: React.FC = () => {
 
 export const KidsRecipeView: React.FC<KidsRecipeViewProps> = ({ id, lang, onBack, onOpenArchiveRecipe }) => {
   const text = getKidsStrings(lang);
-  const isRtl = lang === 'ar' || lang === 'fa' || lang === 'ur' || lang === 'ps';
+  const isRtl = lang === 'ar' || lang === 'fa' || lang === 'ur' || lang === 'ps' || lang === 'he';
   const [recipe, setRecipe] = useState<LocalizedKidsRecipe | null>(null);
   const [failed, setFailed] = useState(false);
   const [attempt, setAttempt] = useState(0);
@@ -229,7 +229,7 @@ export const KidsRecipeView: React.FC<KidsRecipeViewProps> = ({ id, lang, onBack
                   : recipe.steps.some(s => s.adult) && <span className="px-3 py-1 rounded-full bg-violet-500 text-white">🧑 {text.grownUpHelps}</span>}
               </p>
               {recipe.allergens.length > 0 && (
-                <p className="mt-2 text-sm font-bold text-rose-800">⚠️ {text.contains}: {recipe.allergens.map(a => text.allergens[a]).join(isRtl ? '، ' : ', ')}</p>
+                <p className="mt-2 text-sm font-bold text-rose-800">⚠️ {text.contains}: {recipe.allergens.map(a => text.allergens[a]).join(isRtl && lang !== 'he' ? '، ' : ', ')}</p>
               )}
               {recipe.archiveRecipeId && (
                 <button onClick={() => onOpenArchiveRecipe(recipe.archiveRecipeId!)} className="mt-2 text-sm font-bold text-amber-800 underline underline-offset-4">

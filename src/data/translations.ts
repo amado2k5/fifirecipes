@@ -21,7 +21,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'sw', name: 'Swahili', nativeName: 'Kiswahili', dir: 'ltr', flag: '🇹🇿' },
   { code: 'ko', name: 'Korean', nativeName: '한국어', dir: 'ltr', flag: '🇰🇷' },
   { code: 'nl', name: 'Dutch', nativeName: 'Nederlands', dir: 'ltr', flag: '🇳🇱' },
-  { code: 'ps', name: 'Pashto', nativeName: 'پښتو', dir: 'rtl', flag: '🇦🇫' }
+  { code: 'ps', name: 'Pashto', nativeName: 'پښتو', dir: 'rtl', flag: '🇦🇫' },
+  { code: 'he', name: 'Hebrew', nativeName: 'עברית', dir: 'rtl', flag: '🌐' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -91,6 +92,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'ps') {
       return { language: 'ps', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'he' || (primaryCode as string) === 'iw') {
+      return { language: 'he', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
@@ -1001,6 +1005,46 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     cancel: 'لغوه کړئ',
     noResultsFound: 'هېڅ پایله ونه موندل شوه.',
     close: 'بند کړئ',
+  },
+  he: {
+    loadError: 'לא ניתן לטעון את המתכון. בדקו את החיבור ונסו שוב.',
+    loadingMoreRecipes: 'טוען מתכונים נוספים…',
+    showMoreRecipes: 'הצג מתכונים נוספים',
+    recipesLoadFailed: 'לא ניתן לטעון את המתכונים. בדקו את החיבור וטענו מחדש את הדף.',
+    siteTitle: 'ספר המתכונים של ד"ר פאטמה אלקאווקג׳י',
+    appTitle: 'ספר המתכונים של ד"ר פאטמה אלקאווקג׳י',
+    siteSubtitle: 'ספר הבישול המסורתי של המטבח המצרי האותנטי',
+    appSubtitle: 'ספר הבישול המסורתי של המטבח המצרי האותנטי',
+    allRecipes: 'עיון במתכונים',
+    navAllRecipes: 'עיון במתכונים',
+    aboutFatma: 'על ד"ר פאטמה',
+    navAboutFatma: 'על ד"ר פאטמה',
+    ingredientsRegistry: 'מרשם המצרכים',
+    navIngredientsRegistry: 'מרשם המצרכים',
+    choosePreferredLanguage: 'בחרו את שפת האתר המועדפת',
+    searchPlaceholder: 'חפשו לפי מתכון, מצרך או שיטת בישול...',
+    filterByChapter: 'סינון לפי פרק',
+    prepTime: 'זמן הכנה',
+    cookTime: 'זמן בישול',
+    servings: 'מנות',
+    difficulty: 'רמת קושי',
+    method: 'שיטת הבישול',
+    ingredients: 'המצרכים והמידות המדויקות',
+    instructions: 'הכנה ובישול צעד אחר צעד',
+    tips: 'הערות ועצות של ד"ר פאטמה אלקאווקג׳י',
+    shareRecipe: 'שיתוף המתכון',
+    noRecipesFound: 'לא נמצאו מתכונים התואמים את החיפוש',
+    tributeQuote: 'בישול הוא כמו נגינה בפסנתר; הוא מושלם רק בהרמוניה כנה, בסבלנות ובאהבה.',
+    orderIngredients: 'הזמנת מצרכים',
+    orderDish: 'הזמנת המנה',
+    festivals: 'פסטיבלים',
+    upcomingEvents: 'אירועים קרובים',
+    shareLocationBtn: 'שיתוף מיקום / הזנת כתובת',
+    enterAddressPlaceholder: 'הזינו את העיר או הכתובת שלכם...',
+    useThisLocation: 'השתמשו במיקום הזה',
+    cancel: 'ביטול',
+    noResultsFound: 'לא נמצאו תוצאות.',
+    close: 'סגירה',
   }
 };
 
