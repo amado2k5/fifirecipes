@@ -945,8 +945,56 @@ const ko: EstimateStrings = {
   costChip: '약 {v} / 1인분'
 };
 
+const nl: EstimateStrings = {
+  tab: 'Voeding & Kosten',
+  nutritionTitle: 'Voedingswaarde',
+  perServingBasis: 'Per portie — dit recept is goed voor ongeveer {n} porties',
+  nutrient: 'Voedingsstof',
+  perServing: 'Per portie',
+  calories: 'Calorieën',
+  protein: 'Eiwit',
+  fat: 'Vet',
+  carbs: 'Koolhydraten',
+  fiber: 'Vezels',
+  sugar: 'Suikers',
+  kcal: 'kcal',
+  grams: 'g',
+  energySplit: 'Waar de calorieën vandaan komen',
+  healthTitle: 'Gezondheidsnotities',
+  tags: {
+    highProtein: { label: 'Eiwitrijk', hint: 'Een groot deel van de calorieën komt uit eiwit.' },
+    goodFiber: { label: 'Goede bron van vezels', hint: 'Ongeveer 5 g vezels of meer per portie.' },
+    light: { label: 'Licht gerecht', hint: 'Minder dan 250 kcal per portie.' },
+    hearty: { label: 'Machtig & vullend', hint: '600 kcal of meer per portie — lekker als hoofdgerecht.' },
+    highSugar: { label: 'Veel suiker', hint: 'Lekker als af en toe iets zoets.' },
+    highFat: { label: 'Vetrijk', hint: 'De helft of meer van de calorieën komt uit vet.' },
+    lowFat: { label: 'Vetarm', hint: '5 g vet of minder per portie.' },
+    meatFree: { label: 'Zonder vlees', hint: 'Geen vlees, gevogelte of vis in de ingrediënten.' }
+  },
+  costTitle: 'Geschatte kosten van het recept',
+  ingredientGroup: 'Ingrediëntengroep',
+  costUsd: 'Kosten (USD)',
+  groups: {
+    protein: 'Vlees, gevogelte & zeevruchten',
+    dairyEggs: 'Zuivel, ghee & eieren',
+    produce: 'Groenten, kruiden & fruit',
+    grains: 'Rijst, bloem, pasta & peulvruchten',
+    fats: 'Oliën & vetten om te koken',
+    sweeteners: 'Suiker, honing & siropen',
+    specialty: 'Noten, gedroogd fruit & speciale ingrediënten',
+    spices: 'Specerijen & smaakmakers'
+  },
+  total: 'Geschat totaal',
+  costPerServing: 'Per portie',
+  estimated: 'geschat',
+  nutritionNote: 'Geschatte waarden, berekend uit de ingrediënten van het recept met gangbare voedingsgegevens. Ze vervangen geen advies van een voedingsdeskundige.',
+  costNote: 'Gebaseerd op gemiddelde Amerikaanse supermarktprijzen; de werkelijke kosten verschillen per land, seizoen en merk.',
+  kcalChip: '≈ {v} kcal / portie',
+  costChip: '≈ {v} / portie'
+};
+
 const ESTIMATE_STRINGS: Partial<Record<SupportedLanguage, EstimateStrings>> = {
-  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko
+  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl
 };
 
 export function getEstimateStrings(lang: SupportedLanguage): EstimateStrings {

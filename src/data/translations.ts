@@ -19,7 +19,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'ku', name: 'Kurdish (Kurmanji)', nativeName: 'Kurdî', dir: 'ltr', flag: '☀️' },
   { code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia', dir: 'ltr', flag: '🇮🇩' },
   { code: 'sw', name: 'Swahili', nativeName: 'Kiswahili', dir: 'ltr', flag: '🇹🇿' },
-  { code: 'ko', name: 'Korean', nativeName: '한국어', dir: 'ltr', flag: '🇰🇷' }
+  { code: 'ko', name: 'Korean', nativeName: '한국어', dir: 'ltr', flag: '🇰🇷' },
+  { code: 'nl', name: 'Dutch', nativeName: 'Nederlands', dir: 'ltr', flag: '🇳🇱' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -83,6 +84,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'ko') {
       return { language: 'ko', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'nl') {
+      return { language: 'nl', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
@@ -737,10 +741,21 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     close: 'Κλείσιμο',
   },
   nl: {
+    loadError: 'Het recept kon niet geladen worden. Controleer uw verbinding en probeer het opnieuw.',
+    loadingMoreRecipes: 'Meer recepten worden geladen…',
+    showMoreRecipes: 'Meer recepten tonen',
+    recipesLoadFailed: 'De recepten konden niet geladen worden. Controleer uw verbinding en vernieuw de pagina.',
     siteTitle: 'Kookboek Dr. Fatma Alkawokgy',
+    appTitle: 'Kookboek Dr. Fatma Alkawokgy',
     siteSubtitle: 'Het Erfgoed van de Authentieke Egyptische Keuken',
+    appSubtitle: 'Het Erfgoed van de Authentieke Egyptische Keuken',
     allRecipes: 'Alle Recepten',
+    navAllRecipes: 'Alle Recepten',
     aboutFatma: 'Over Dr. Fatma',
+    navAboutFatma: 'Over Dr. Fatma',
+    ingredientsRegistry: 'Ingrediëntenregister',
+    navIngredientsRegistry: 'Ingrediëntenregister',
+    choosePreferredLanguage: 'Kies de gewenste websitetaal',
     searchPlaceholder: 'Zoek recept, ingrediënt of techniek...',
     filterByChapter: 'Filter op Hoofdstuk',
     prepTime: 'Voorbereiding',

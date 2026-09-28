@@ -284,6 +284,20 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     next: '다음',
     short: '쇼츠',
     close: '닫기'
+  },
+  nl: {
+    tab: 'Video’s',
+    intro: 'Video’s die automatisch zijn gevonden door op de naam van dit gerecht te zoeken. Ze zijn van de makers en kunnen afwijken van het recept van Dr. Fatma.',
+    loading: 'Video’s zoeken…',
+    empty: 'Nog geen passende video’s gevonden.',
+    error: 'De video’s konden nu niet geladen worden.',
+    retry: 'Opnieuw proberen',
+    openOn: 'Openen op {p}',
+    searchOn: 'Zoek dit gerecht op',
+    previous: 'Vorige',
+    next: 'Volgende',
+    short: 'Kort',
+    close: 'Sluiten'
   }
 };
 

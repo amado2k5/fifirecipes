@@ -29,7 +29,8 @@ export const TributePage: React.FC<TributePageProps> = ({ lang, onBack }) => {
   const isId = lang === 'id';
   const isSw = lang === 'sw';
   const isKo = lang === 'ko';
-  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string, fa: string, tr: string, ku: string, id: string, sw: string, ko: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : isFa ? fa : isTr ? tr : isKu ? ku : isId ? id : isSw ? sw : isKo ? ko : en);
+  const isNl = lang === 'nl';
+  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string, fa: string, tr: string, ku: string, id: string, sw: string, ko: string, nl = en) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : isFa ? fa : isTr ? tr : isKu ? ku : isId ? id : isSw ? sw : isKo ? ko : isNl ? nl : en);
   const [name, setName] = useState('');
   const [location, setLocation] = useState('');
   const [message, setMessage] = useState('');
@@ -84,16 +85,16 @@ export const TributePage: React.FC<TributePageProps> = ({ lang, onBack }) => {
         className="inline-flex items-center gap-2 text-sm font-bold text-stone-600 hover:text-amber-800 transition-colors"
       >
         {isRtl ? <ArrowRight className="w-4 h-4" /> : <ArrowLeft className="w-4 h-4" />}
-        <span>{t('العودة إلى صفحة فاطمة', 'Back to Fatma’s story', 'Retour à l’histoire de Fatma', 'Volver a la historia de Fatma', 'ファトマ博士の物語に戻る', 'फ़ातिमा की कहानी पर वापस जाएं', 'Voltar à história de Fatma', 'Вернуться к истории Фатмы', '返回法特玛的故事', 'Zurück zu Fatmas Geschichte', 'Torna alla storia di Fatma', 'Επιστροφή στην ιστορία της Fatma', 'فاطمہ کی کہانی پر واپس جائیں', 'بازگشت به داستان فاطمه', 'Fatma’nın hikâyesine dön', 'Vegere çîroka Fatma', 'Kembali ke kisah Fatma', 'Rudi kwenye hadithi ya Fatma', '파트마의 이야기로 돌아가기')}</span>
+        <span>{t('العودة إلى صفحة فاطمة', 'Back to Fatma’s story', 'Retour à l’histoire de Fatma', 'Volver a la historia de Fatma', 'ファトマ博士の物語に戻る', 'फ़ातिमा की कहानी पर वापस जाएं', 'Voltar à história de Fatma', 'Вернуться к истории Фатмы', '返回法特玛的故事', 'Zurück zu Fatmas Geschichte', 'Torna alla storia di Fatma', 'Επιστροφή στην ιστορία της Fatma', 'فاطمہ کی کہانی پر واپس جائیں', 'بازگشت به داستان فاطمه', 'Fatma’nın hikâyesine dön', 'Vegere çîroka Fatma', 'Kembali ke kisah Fatma', 'Rudi kwenye hadithi ya Fatma', '파트마의 이야기로 돌아가기', 'Terug naar het verhaal van Fatma')}</span>
       </button>
 
       <header className="max-w-3xl">
         <div className="inline-flex items-center gap-2 text-amber-700 text-xs font-bold uppercase tracking-wider mb-3">
           <Heart className="w-4 h-4 fill-current" />
-          <span>{t('كتاب الذكريات', 'A Book of Remembrance', 'Un Livre de Souvenirs', 'Un Libro de Recuerdos', '追悼のメッセージ集', 'यादों की किताब', 'Um Livro de Memórias', 'Книга Памяти', '追忆之书', 'Ein Buch der Erinnerung', 'Un Libro del Ricordo', 'Ένα Βιβλίο Μνήμης', 'یادوں کی کتاب', 'دفتر یادبود', 'Anı Defteri', 'Deftera Bîranînan', 'Buku Kenangan', 'Kitabu cha Kumbukumbu', '추억의 방명록')}</span>
+          <span>{t('كتاب الذكريات', 'A Book of Remembrance', 'Un Livre de Souvenirs', 'Un Libro de Recuerdos', '追悼のメッセージ集', 'यादों की किताब', 'Um Livro de Memórias', 'Книга Памяти', '追忆之书', 'Ein Buch der Erinnerung', 'Un Libro del Ricordo', 'Ένα Βιβλίο Μνήμης', 'یادوں کی کتاب', 'دفتر یادبود', 'Anı Defteri', 'Deftera Bîranînan', 'Buku Kenangan', 'Kitabu cha Kumbukumbu', '추억의 방명록', 'Een gedenkboek')}</span>
         </div>
         <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-stone-900">
-          {t('اكتبوا تحية لروح فاطمة', 'Leave a tribute to Fatma', 'Laissez un hommage à Fatma', 'Deja un homenaje a Fatma', 'ファトマ博士への追悼メッセージ', 'फ़ातिमा को श्रद्धांजलि लिखें', 'Deixe uma homenagem para Fatma', 'Оставьте дань памяти Фатме', '为法特玛留言悼念', 'Hinterlassen Sie eine Hommage an Fatma', 'Lascia un omaggio a Fatma', 'Αφήστε έναν φόρο τιμής στη Fatma', 'فاطمہ کے لیے خراجِ عقیدت پیش کریں', 'برای فاطمه یادبودی بگذارید', 'Fatma için bir anma yazısı bırakın', 'Ji bo Fatma nivîsareke bîranînê bihêle', 'Tinggalkan kenangan untuk Fatma', 'Acha kumbukumbu kwa ajili ya Fatma', '파트마를 위한 추억 남기기')}
+          {t('اكتبوا تحية لروح فاطمة', 'Leave a tribute to Fatma', 'Laissez un hommage à Fatma', 'Deja un homenaje a Fatma', 'ファトマ博士への追悼メッセージ', 'फ़ातिमा को श्रद्धांजलि लिखें', 'Deixe uma homenagem para Fatma', 'Оставьте дань памяти Фатме', '为法特玛留言悼念', 'Hinterlassen Sie eine Hommage an Fatma', 'Lascia un omaggio a Fatma', 'Αφήστε έναν φόρο τιμής στη Fatma', 'فاطمہ کے لیے خراجِ عقیدت پیش کریں', 'برای فاطمه یادبودی بگذارید', 'Fatma için bir anma yazısı bırakın', 'Ji bo Fatma nivîsareke bîranînê bihêle', 'Tinggalkan kenangan untuk Fatma', 'Acha kumbukumbu kwa ajili ya Fatma', '파트마를 위한 추억 남기기', 'Laat een eerbetoon voor Fatma achter')}
         </h1>
         <p className="mt-3 text-base sm:text-lg text-stone-600 leading-relaxed">
           {t(
@@ -115,7 +116,8 @@ export const TributePage: React.FC<TributePageProps> = ({ lang, onBack }) => {
             'Bîranînek, gotineke bi hezkirin an çîrokek li ser şopa ku Dr. Fatma Alkawokgy di jiyana te de hiştiye parve bike. Peyama te dê bi e-nameyê were şandin.',
             'Bagikan kenangan, ucapan penuh kasih, atau kisah tentang jejak yang ditinggalkan Dr. Fatma Alkawokgy dalam hidup Anda. Pesan Anda akan dikirim melalui email.',
             'Shiriki kumbukumbu, neno la upendo, au hadithi kuhusu alama ambayo Dkt. Fatma Alkawokgy aliacha katika maisha yako. Ujumbe wako utatumwa kwa barua pepe.',
-            '파트마 알카우크지 박사가 당신의 삶에 남긴 흔적에 대한 추억, 사랑의 말, 또는 이야기를 나눠 주세요. 메시지는 이메일로 전송됩니다.'
+            '파트마 알카우크지 박사가 당신의 삶에 남긴 흔적에 대한 추억, 사랑의 말, 또는 이야기를 나눠 주세요. 메시지는 이메일로 전송됩니다.',
+            'Deel een herinnering, een liefdevol woord of een verhaal over de indruk die Dr. Fatma Alkawokgy op uw leven heeft achtergelaten. Uw eerbetoon wordt per e-mail verstuurd.'
           )}
         </p>
       </header>
@@ -124,25 +126,25 @@ export const TributePage: React.FC<TributePageProps> = ({ lang, onBack }) => {
         <form onSubmit={handleSubmit} className="bg-white border border-stone-200 rounded-2xl p-5 sm:p-7 shadow-sm space-y-4">
           <div>
             <label htmlFor="tribute-name" className="block text-sm font-bold text-stone-800 mb-1.5">
-              {t('الاسم', 'Your name', 'Votre nom', 'Tu nombre', 'お名前', 'आपका नाम', 'Seu nome', 'Ваше имя', '您的姓名', 'Ihr Name', 'Il tuo nome', 'Το όνομά σας', 'آپ کا نام', 'نام شما', 'Adınız', 'Navê te', 'Nama Anda', 'Jina lako', '이름')}
+              {t('الاسم', 'Your name', 'Votre nom', 'Tu nombre', 'お名前', 'आपका नाम', 'Seu nome', 'Ваше имя', '您的姓名', 'Ihr Name', 'Il tuo nome', 'Το όνομά σας', 'آپ کا نام', 'نام شما', 'Adınız', 'Navê te', 'Nama Anda', 'Jina lako', '이름', 'Uw naam')}
             </label>
             <input id="tribute-name" value={name} onChange={event => setName(event.target.value)} required maxLength={80} className="w-full rounded-xl border border-stone-300 bg-stone-50 px-3 py-2.5 text-sm focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-500/20" />
           </div>
           <div>
             <label htmlFor="tribute-location" className="block text-sm font-bold text-stone-800 mb-1.5">
-              {t('المدينة أو البلد (اختياري)', 'City or country (optional)', 'Ville ou pays (facultatif)', 'Ciudad o país (opcional)', '都市または国(任意)', 'शहर या देश (वैकल्पिक)', 'Cidade ou país (opcional)', 'Город или страна (необязательно)', '城市或国家（选填）', 'Stadt oder Land (optional)', 'Città o paese (facoltativo)', 'Πόλη ή χώρα (προαιρετικό)', 'شہر یا ملک (اختیاری)', 'شهر یا کشور (اختیاری)', 'Şehir veya ülke (isteğe bağlı)', 'Bajar an welat (vebijarkî)', 'Kota atau negara (opsional)', 'Mji au nchi (si lazima)', '도시 또는 국가 (선택)')}
+              {t('المدينة أو البلد (اختياري)', 'City or country (optional)', 'Ville ou pays (facultatif)', 'Ciudad o país (opcional)', '都市または国(任意)', 'शहर या देश (वैकल्पिक)', 'Cidade ou país (opcional)', 'Город или страна (необязательно)', '城市或国家（选填）', 'Stadt oder Land (optional)', 'Città o paese (facoltativo)', 'Πόλη ή χώρα (προαιρετικό)', 'شہر یا ملک (اختیاری)', 'شهر یا کشور (اختیاری)', 'Şehir veya ülke (isteğe bağlı)', 'Bajar an welat (vebijarkî)', 'Kota atau negara (opsional)', 'Mji au nchi (si lazima)', '도시 또는 국가 (선택)', 'Stad of land (optioneel)')}
             </label>
             <input id="tribute-location" value={location} onChange={event => setLocation(event.target.value)} maxLength={80} className="w-full rounded-xl border border-stone-300 bg-stone-50 px-3 py-2.5 text-sm focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-500/20" />
           </div>
           <div>
             <label htmlFor="tribute-message" className="block text-sm font-bold text-stone-800 mb-1.5">
-              {t('تحيتك', 'Your tribute', 'Votre hommage', 'Tu homenaje', 'メッセージ', 'आपकी श्रद्धांजलि', 'Sua homenagem', 'Ваше сообщение', '您的悼念寄语', 'Ihre Hommage', 'Il tuo omaggio', 'Ο φόρος τιμής σας', 'آپ کا خراجِ عقیدت', 'یادبود شما', 'Anma yazınız', 'Nivîsara te ya bîranînê', 'Kenangan Anda', 'Kumbukumbu yako', '나의 추억')}
+              {t('تحيتك', 'Your tribute', 'Votre hommage', 'Tu homenaje', 'メッセージ', 'आपकी श्रद्धांजलि', 'Sua homenagem', 'Ваше сообщение', '您的悼念寄语', 'Ihre Hommage', 'Il tuo omaggio', 'Ο φόρος τιμής σας', 'آپ کا خراجِ عقیدت', 'یادبود شما', 'Anma yazınız', 'Nivîsara te ya bîranînê', 'Kenangan Anda', 'Kumbukumbu yako', '나의 추억', 'Uw eerbetoon')}
             </label>
             <textarea id="tribute-message" value={message} onChange={event => setMessage(event.target.value)} required maxLength={1200} rows={7} className="w-full resize-y rounded-xl border border-stone-300 bg-stone-50 px-3 py-2.5 text-sm leading-relaxed focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-500/20" />
           </div>
           <button type="submit" className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-amber-700 px-4 py-3 text-sm font-bold text-white hover:bg-amber-800">
             <Send className="w-4 h-4" />
-            <span>{t('إرسال التحية بالبريد الإلكتروني', 'Send tribute by email', 'Envoyer l’hommage par e-mail', 'Enviar homenaje por correo', 'メールで送信する', 'ईमेल से श्रद्धांजलि भेजें', 'Enviar homenagem por e-mail', 'Отправить дань памяти по эл. почте', '通过邮件发送悼念', 'Hommage per E-Mail senden', 'Invia omaggio via e-mail', 'Αποστολή φόρου τιμής μέσω e-mail', 'ای میل کے ذریعے بھیجیں', 'ارسال یادبود با ایمیل', 'E-posta ile gönder', 'Bi e-nameyê bişîne', 'Kirim melalui email', 'Tuma kwa barua pepe', '이메일로 보내기')}</span>
+            <span>{t('إرسال التحية بالبريد الإلكتروني', 'Send tribute by email', 'Envoyer l’hommage par e-mail', 'Enviar homenaje por correo', 'メールで送信する', 'ईमेल से श्रद्धांजलि भेजें', 'Enviar homenagem por e-mail', 'Отправить дань памяти по эл. почте', '通过邮件发送悼念', 'Hommage per E-Mail senden', 'Invia omaggio via e-mail', 'Αποστολή φόρου τιμής μέσω e-mail', 'ای میل کے ذریعے بھیجیں', 'ارسال یادبود با ایمیل', 'E-posta ile gönder', 'Bi e-nameyê bişîne', 'Kirim melalui email', 'Tuma kwa barua pepe', '이메일로 보내기', 'Eerbetoon per e-mail versturen')}</span>
           </button>
           {submitted && (
             <p className="text-sm font-semibold text-emerald-700">
@@ -165,7 +167,8 @@ export const TributePage: React.FC<TributePageProps> = ({ lang, onBack }) => {
                 'Divê sepana te ya e-nameyê bi peyameke amade vebûbe — ji bo parvekirina nivîsara xwe ya bîranînê wê bişîne.',
                 'Aplikasi email Anda seharusnya terbuka dengan pesan yang sudah siap — kirimkan untuk membagikan kenangan Anda.',
                 'Programu yako ya barua pepe inapaswa kuwa imefunguka na ujumbe tayari — utume ili kushiriki kumbukumbu yako.',
-                '이메일 앱이 메시지가 준비된 상태로 열렸을 것입니다. 전송하여 추억을 나눠 주세요.'
+                '이메일 앱이 메시지가 준비된 상태로 열렸을 것입니다. 전송하여 추억을 나눠 주세요.',
+                'Uw e-mailprogramma is geopend met een kant-en-klaar bericht — verstuur het om uw eerbetoon te delen.'
               )}
             </p>
           )}

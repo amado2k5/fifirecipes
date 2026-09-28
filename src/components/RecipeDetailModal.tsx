@@ -81,7 +81,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
   const isId = lang === 'id';
   const isSw = lang === 'sw';
   const isKo = lang === 'ko';
-  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string, fa: string, tr: string, ku: string, id: string, sw: string, ko: string) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : isFa ? fa : isTr ? tr : isKu ? ku : isId ? id : isSw ? sw : isKo ? ko : en);
+  const isNl = lang === 'nl';
+  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string, fa: string, tr: string, ku: string, id: string, sw: string, ko: string, nl = en) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : isFa ? fa : isTr ? tr : isKu ? ku : isId ? id : isSw ? sw : isKo ? ko : isNl ? nl : en);
 
   if (!recipe) return null;
 
@@ -393,7 +394,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                       'Pîvanên rastîn ku bi notên Dr. Fatma re hatine berhevkirin. Dema amade dikî pêkhateyan nîşan bike.',
                       'Takaran tepat yang telah dicocokkan dengan catatan Dr. Fatma. Centang bahan saat Anda menyiapkannya.',
                       'Vipimo sahihi vilivyolinganishwa na maelezo ya Dkt. Fatma. Weka alama kwenye viungo unapoviandaa.',
-                      '파트마 박사의 노트와 대조한 정확한 계량입니다. 준비하면서 재료에 체크하세요.'
+                      '파트마 박사의 노트와 대조한 정확한 계량입니다. 준비하면서 재료에 체크하세요.',
+                      'Exacte hoofdverhoudingen, afgestemd op de aantekeningen van Dr. Fatma. Vink ingrediënten af terwijl u kookt.'
                     )}
                   </p>
                 </div>
@@ -460,7 +462,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                   'Derbasî Amadekirin û Pijandina Gav bi Gav Bibe',
                   'Lanjut ke Persiapan dan Memasak Langkah demi Langkah',
                   'Endelea kwa Maandalizi na Upishi Hatua kwa Hatua',
-                  '단계별 준비와 조리로 계속하기'
+                  '단계별 준비와 조리로 계속하기',
+                  'Ga verder naar stapsgewijze bereiding & koken'
                 )}</span>
                 {isRtl ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
               </button>
@@ -473,21 +476,21 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                     className="flex items-center gap-2 px-4 py-2.5 bg-white text-amber-700 rounded-xl font-semibold hover:scale-105 transition-transform focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-offset-2"
                   >
                     <ShoppingCart className="w-5 h-5" />
-                    <span>{t('طلب المكونات', 'Order Ingredients', 'Commander les ingrédients', 'Pedir ingredientes', '食材を注文', 'सामग्री ऑर्डर करें', 'Pedir ingredientes', 'Заказать ингредиенты', '订购食材', 'Zutaten bestellen', 'Ordina ingredienti', 'Παραγγελία υλικών', 'اجزاء آرڈر کریں', 'سفارش مواد اولیه', 'Malzemeleri Sipariş Et', 'Pêkhateyan Sipariş Bike', 'Pesan Bahan', 'Oda Viungo', '재료 주문')}</span>
+                    <span>{t('طلب المكونات', 'Order Ingredients', 'Commander les ingrédients', 'Pedir ingredientes', '食材を注文', 'सामग्री ऑर्डर करें', 'Pedir ingredientes', 'Заказать ингредиенты', '订购食材', 'Zutaten bestellen', 'Ordina ingredienti', 'Παραγγελία υλικών', 'اجزاء آرڈر کریں', 'سفارش مواد اولیه', 'Malzemeleri Sipariş Et', 'Pêkhateyan Sipariş Bike', 'Pesan Bahan', 'Oda Viungo', '재료 주문', 'Ingrediënten Bestellen')}</span>
                   </button>
                   <button
                     onClick={handleOrderDish}
                     className="flex items-center gap-2 px-4 py-2.5 bg-white text-amber-700 rounded-xl font-semibold hover:scale-105 transition-transform focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-offset-2"
                   >
                     <UtensilsCrossed className="w-5 h-5" />
-                    <span>{t('طلب الطبق', 'Order Dish', 'Commander le plat', 'Pedir plato', '料理を注文', 'व्यंजन ऑर्डर करें', 'Pedir prato', 'Заказать блюдо', '订购菜品', 'Gericht bestellen', 'Ordina piatto', 'Παραγγελία πιάτου', 'دش آرڈر کریں', 'سفارش غذا', 'Yemek Sipariş Et', 'Şîpaş Sipariş Bike', 'Pesan Hidangan', 'Oda Chakula', '요리 주문')}</span>
+                    <span>{t('طلب الطبق', 'Order Dish', 'Commander le plat', 'Pedir plato', '料理を注文', 'व्यंजन ऑर्डर करें', 'Pedir prato', 'Заказать блюдо', '订购菜品', 'Gericht bestellen', 'Ordina piatto', 'Παραγγελία πιάτου', 'دش آرڈر کریں', 'سفارش غذا', 'Yemek Sipariş Et', 'Şîpaş Sipariş Bike', 'Pesan Hidangan', 'Oda Chakula', '요리 주문', 'Gerecht Bestellen')}</span>
                   </button>
                   <button
                     onClick={handleFestivals}
                     className="flex items-center gap-2 px-4 py-2.5 bg-white text-amber-700 rounded-xl font-semibold hover:scale-105 transition-transform focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-offset-2"
                   >
                     <Calendar className="w-5 h-5" />
-                    <span>{t('المهرجانات', 'Festivals', 'Festivals', 'Festivales', 'フェスティバル', 'त्योहार', 'Festivais', 'Фестивали', '节日', 'Festivals', 'Festival', 'Φεστιβάλ', 'تہوار', 'جشنواره‌ها', 'Festivaller', 'Festîval', 'Festival', 'Sherehe', '축제')}</span>
+                    <span>{t('المهرجانات', 'Festivals', 'Festivals', 'Festivales', 'フェスティバル', 'त्योहार', 'Festivais', 'Фестивали', '节日', 'Festivals', 'Festival', 'Φεστιβάλ', 'تہوار', 'جشنواره‌ها', 'Festivaller', 'Festîval', 'Festival', 'Sherehe', '축제', 'Festivals')}</span>
                   </button>
                 </div>
               </div>
@@ -505,7 +508,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                   <Sparkles className="w-5 h-5 text-emerald-700 shrink-0 mt-0.5" />
                   <div>
                     <p className="font-bold">
-                      {t('خطوات الطهو الفريدة بعد تنقية وتوحيد الشروح', 'Step-by-step master cooking instructions', 'Instructions de cuisson détaillées, étape par étape', 'Instrucciones de cocina detalladas, paso a paso', 'ステップごとの詳しい調理手順', 'चरण-दर-चरण मुख्य पाक विधि', 'Instruções de cozimento detalhadas, passo a passo', 'Пошаговые основные инструкции по приготовлению', '分步式核心烹饪说明', 'Schritt-für-Schritt-Kochanleitung', 'Istruzioni di cottura passo dopo passo', 'Αναλυτικές οδηγίες μαγειρέματος βήμα προς βήμα', 'پکانے کی مرحلہ وار ہدایات', 'دستورالعمل گام‌به‌گام پخت', 'Adım adım pişirme talimatları', 'Rêbernameya pijandinê ya gav bi gav', 'Petunjuk memasak langkah demi langkah', 'Maelekezo ya upishi hatua kwa hatua', '단계별 조리 방법')}
+                      {t('خطوات الطهو الفريدة بعد تنقية وتوحيد الشروح', 'Step-by-step master cooking instructions', 'Instructions de cuisson détaillées, étape par étape', 'Instrucciones de cocina detalladas, paso a paso', 'ステップごとの詳しい調理手順', 'चरण-दर-चरण मुख्य पाक विधि', 'Instruções de cozimento detalhadas, passo a passo', 'Пошаговые основные инструкции по приготовлению', '分步式核心烹饪说明', 'Schritt-für-Schritt-Kochanleitung', 'Istruzioni di cottura passo dopo passo', 'Αναλυτικές οδηγίες μαγειρέματος βήμα προς βήμα', 'پکانے کی مرحلہ وار ہدایات', 'دستورالعمل گام‌به‌گام پخت', 'Adım adım pişirme talimatları', 'Rêbernameya pijandinê ya gav bi gav', 'Petunjuk memasak langkah demi langkah', 'Maelekezo ya upishi hatua kwa hatua', '단계별 조리 방법', 'Stapsgewijze hoofdbereidingsinstructies')}
                     </p>
                     <p className="text-xs text-emerald-800 mt-0.5">
                       {t(
@@ -602,7 +605,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                     'Derbasî Xurek û Mesrefê Bibe',
                     'Lanjut ke Nutrisi & Biaya',
                     'Endelea kwa Lishe na Gharama',
-                    '영양 및 비용으로 계속'
+                    '영양 및 비용으로 계속',
+                    'Ga verder naar voeding & kosten'
                   )}</span>
                   {isRtl ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
                 </button>
@@ -632,7 +636,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                     'Derbasî Vîdeoyan Bibe',
                     'Lanjut ke Video',
                     'Endelea kwa Video',
-                    '동영상으로 계속'
+                    '동영상으로 계속',
+                    'Ga verder naar receptvideo’s'
                   )}</span>
                   {isRtl ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
                 </button>
@@ -672,7 +677,8 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                     'Derbasî Vîdeoyan Bibe',
                     'Lanjut ke Video',
                     'Endelea kwa Video',
-                    '동영상으로 계속'
+                    '동영상으로 계속',
+                    'Ga verder naar receptvideo’s'
                   )}</span>
                   {isRtl ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
                 </button>
