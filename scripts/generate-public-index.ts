@@ -42,7 +42,7 @@ import { getKidsStrings, registerKidsStrings, type KidsStrings } from '../src/ki
 import { kidsRecipeCard, localizeKidsRecipe, type KidsRecipeTranslation } from '../src/kids/localize';
 
 const siteUrl = (process.env.PUBLIC_SITE_URL || 'https://fifi.cooking').replace(/\/$/, '');
-const SUPPORTED_LANGUAGES: SupportedLanguage[] = ['ar', 'en', 'fr', 'es', 'ja', 'hi', 'pt', 'ru', 'zh', 'de', 'it', 'el', 'ur', 'fa', 'tr', 'ku', 'id', 'sw', 'ko'];
+const SUPPORTED_LANGUAGES: SupportedLanguage[] = ['ar', 'en', 'fr', 'es', 'ja', 'hi', 'pt', 'ru', 'zh', 'de', 'it', 'el', 'ur', 'fa', 'tr', 'ku', 'id', 'sw', 'ko', 'nl'];
 const TRANSLATION_FILES: Partial<Record<SupportedLanguage, string>> = {
   en: 'recipeTranslations.json',
   fr: 'recipeTranslationsFr.json',
@@ -61,7 +61,8 @@ const TRANSLATION_FILES: Partial<Record<SupportedLanguage, string>> = {
   ku: 'recipeTranslationsKu.json',
   id: 'recipeTranslationsId.json',
   sw: 'recipeTranslationsSw.json',
-  ko: 'recipeTranslationsKo.json'
+  ko: 'recipeTranslationsKo.json',
+  nl: 'recipeTranslationsNl.json'
 };
 /** Cards per index page; the first page is all a visitor waits for. */
 const PAGE_SIZE = 100;
