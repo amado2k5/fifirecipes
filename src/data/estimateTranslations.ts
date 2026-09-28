@@ -993,8 +993,56 @@ const nl: EstimateStrings = {
   costChip: '≈ {v} / portie'
 };
 
+const ps: EstimateStrings = {
+  tab: 'تغذیه او لګښت',
+  nutritionTitle: 'غذایی ارزښت',
+  perServingBasis: 'پر یوه حصه — دا ترکیب نږدې {n} حصې جوړوي',
+  nutrient: 'غذایی برخه',
+  perServing: 'پر یوه حصه',
+  calories: 'کالوري',
+  protein: 'پروټین',
+  fat: 'غوړ',
+  carbs: 'کاربوهایډریټ',
+  fiber: 'فیبر',
+  sugar: 'بوره',
+  kcal: 'کیلوکالوري',
+  grams: 'ګرام',
+  energySplit: 'کالورۍ له کومه راځي',
+  healthTitle: 'د روغتیا یادښتونه',
+  tags: {
+    highProtein: { label: 'پر پروټین', hint: 'د کالوریو ستره برخه له پروټین څخه راځي.' },
+    goodFiber: { label: 'د فیبر ښه سرچینه', hint: 'پر هرې حصې نږدې ۵ ګرامه یا ډېر فیبر.' },
+    light: { label: 'سپک خوړه', hint: 'پر هرې حصې له ۲۵۰ کیلوکالوریو څخه لږ.' },
+    hearty: { label: 'ډېر او معده ډکوونکی', hint: 'پر هرې حصې ۶۰۰ کیلوکالوري یا ډېر — د اصلي خواړو په توګه وخورئ.' },
+    highSugar: { label: 'ډېره بوره', hint: 'تر ټولو ښه دی چې کله ناکله وخوړل شي.' },
+    highFat: { label: 'پر غوړ', hint: 'نیمايي یا ډېرې کالورۍ له غوړ څخه راځي.' },
+    lowFat: { label: 'لږ غوړ', hint: 'پر هرې حصې ۵ ګرامه یا لږ غوړ.' },
+    meatFree: { label: 'بې غوښې', hint: 'په موادو کې غوښه، مرغ یا کب نشته.' }
+  },
+  costTitle: 'د ترکیب اټکلی لګښت',
+  ingredientGroup: 'د موادو ډله',
+  costUsd: 'لګښت (امریکایي ډالر)',
+  groups: {
+    protein: 'غوښه، مرغ او سمندري خوړه',
+    dairyEggs: 'شیدې، غښ او هګۍ',
+    produce: 'سبزیجات، بوټي او میوه',
+    grains: 'وریژه، اوړه، پاستا او لوبیا',
+    fats: 'د پخلی غوړ او چربي',
+    sweeteners: 'بوره، شات او شربت',
+    specialty: 'مغزي، وچه میوه او ځانګړي مواد',
+    spices: 'مصالحې او خوندورکوونکي'
+  },
+  total: 'اټکلی ټول',
+  costPerServing: 'پر یوه حصه',
+  estimated: 'اټکلی',
+  nutritionNote: 'اټکل شوي ارزښتونه د ترکیب له موادو او له عامو غذایی معلوماتو څخه محاسبه شوي دي. دا د تغذیې د متخصص لارښوونې ځای نه نیسي.',
+  costNote: 'د امریکایي بازارونو پر منځنیو بیو بڼی دی؛ اصلي لګښت د هېواد، موسم او برانډ له مخې توپیر لري.',
+  kcalChip: '≈ {v} کیلوکالوري / حصه',
+  costChip: '≈ {v} / حصه'
+};
+
 const ESTIMATE_STRINGS: Partial<Record<SupportedLanguage, EstimateStrings>> = {
-  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl
+  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps
 };
 
 export function getEstimateStrings(lang: SupportedLanguage): EstimateStrings {

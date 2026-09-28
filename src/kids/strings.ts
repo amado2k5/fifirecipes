@@ -274,5 +274,6 @@ export const fill = (template: string, values: Record<string, string | number>) 
 /** The voice language for reading steps aloud. */
 export const SPEECH_LANG: Partial<Record<SupportedLanguage, string>> = {
   ar: 'ar-EG', en: 'en-US', fr: 'fr-FR', es: 'es-ES', ja: 'ja-JP', hi: 'hi-IN', pt: 'pt-BR', ru: 'ru-RU', zh: 'zh-CN',
-  de: 'de-DE', it: 'it-IT', el: 'el-GR', ur: 'ur-PK', fa: 'fa-IR', tr: 'tr-TR', ku: 'ku', id: 'id-ID', sw: 'sw-KE', ko: 'ko-KR'
+  de: 'de-DE', it: 'it-IT', el: 'el-GR', ur: 'ur-PK', fa: 'fa-IR', tr: 'tr-TR', ku: 'ku', id: 'id-ID', sw: 'sw-KE', ko: 'ko-KR',
+  ps: 'ps-AF'
 };

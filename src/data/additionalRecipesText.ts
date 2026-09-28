@@ -263,6 +263,19 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionAbdennour: '요리책 《Egyptian Cooking》 (사미아 아브데누르)',
     citationLabel: '책 속 위치:',
     tips: '팁과 메모'
+  },
+  ps: {
+    badge: 'زیاته ترکیب',
+    notice: 'دا یوه زیاته ترکیب ده، د ډاکټرې فاطمې القاوقجي له لاسي لیکنو نه نه ده. موږ یې په خپلو خبرو بیا لیکلې او د اصلي سرچینې حق یې یادوو.',
+    sourceLabel: 'سرچینه:',
+    ingredientsNote: 'اندازې د سرچینې له مخې دي، زموږ بڼې ته تنظیم شوې. کله چې چمتو کوئ مواد نښه کړئ.',
+    collectionAll: 'ټولې ترکیبونه',
+    collectionArchive: 'د ډاکټرې فاطمې آرشیف',
+    collectionAdditional: 'زیاتې ترکیبونه (شیف تیتا)',
+    collectionOsool: 'د اصول الطبخ کتاب',
+    collectionAbdennour: 'د Egyptian Cooking کتاب (سامیه عبدالنور)',
+    citationLabel: 'په کتاب کې:',
+    tips: 'لارښوونې او یادونې'
   }
 };
 

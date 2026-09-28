@@ -20,7 +20,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia', dir: 'ltr', flag: '🇮🇩' },
   { code: 'sw', name: 'Swahili', nativeName: 'Kiswahili', dir: 'ltr', flag: '🇹🇿' },
   { code: 'ko', name: 'Korean', nativeName: '한국어', dir: 'ltr', flag: '🇰🇷' },
-  { code: 'nl', name: 'Dutch', nativeName: 'Nederlands', dir: 'ltr', flag: '🇳🇱' }
+  { code: 'nl', name: 'Dutch', nativeName: 'Nederlands', dir: 'ltr', flag: '🇳🇱' },
+  { code: 'ps', name: 'Pashto', nativeName: 'پښتو', dir: 'rtl', flag: '🇦🇫' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -87,6 +88,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'nl') {
       return { language: 'nl', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'ps') {
+      return { language: 'ps', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
@@ -957,6 +961,46 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     cancel: 'Ghairi',
     noResultsFound: 'Hakuna matokeo yaliyopatikana.',
     close: 'Funga',
+  },
+  ps: {
+    loadError: 'ترکیب لوډ نه شو. خپل نښتی وګورئ او بیا هڅه وکړئ.',
+    loadingMoreRecipes: 'نور ترکیبونه لوډیږي…',
+    showMoreRecipes: 'نور ترکیبونه وښایئ',
+    recipesLoadFailed: 'ترکیبونه لوډ نه شول. خپل نښتی وګورئ او مخ بیا لوډ کړئ.',
+    siteTitle: 'د ډاکټرې فاطمې القاوقجي ترکیبونه',
+    appTitle: 'د ډاکټرې فاطمې القاوقجي ترکیبونه',
+    siteSubtitle: 'د اصیلو مصري خواړو د میراث پخلی کتاب',
+    appSubtitle: 'د اصیلو مصري خواړو د میراث پخلی کتاب',
+    allRecipes: 'ترکیبونه وګورئ',
+    navAllRecipes: 'ترکیبونه وګورئ',
+    aboutFatma: 'د ډاکټرې فاطمې په اړه',
+    navAboutFatma: 'د ډاکټرې فاطمې په اړه',
+    ingredientsRegistry: 'د موادو فهرست',
+    navIngredientsRegistry: 'د موادو فهرست',
+    choosePreferredLanguage: 'د ویبپاڼې ژبه وټاکئ',
+    searchPlaceholder: 'د ترکیب، پخلی مادې یا د پخلی د طریقې له مخې لټون وکړئ...',
+    filterByChapter: 'د باب له مخې فلټر',
+    prepTime: 'د چمتووالو وخت',
+    cookTime: 'د پخلی وخت',
+    servings: 'حصې',
+    difficulty: 'د سختۍ کچه',
+    method: 'طریقه',
+    ingredients: 'اساسي مواد او دقیقه اندازه',
+    instructions: 'ګام په ګام چمتووالی او پخلی',
+    tips: 'د ډاکټرې فاطمې القاوقجي یادښتونه او لارښوونې',
+    shareRecipe: 'ترکیب شریک کړئ',
+    noRecipesFound: 'ستاسې د لټون له مخې هېڅ ترکیب ونه موندل شو',
+    tributeQuote: 'پخلی د پیانو د غږولو په څېر دی؛ همغږي، صبر او مینه یې بشپړتیا ته رسوي.',
+    orderIngredients: 'پخلی مواد سفارش کړئ',
+    orderDish: 'ډېش سفارش کړئ',
+    festivals: 'جشنونه',
+    upcomingEvents: 'راتلونکي پېښې',
+    shareLocationBtn: 'ځای شریک کړئ / پته ولیکئ',
+    enterAddressPlaceholder: 'خپل ښار یا پته ولیکئ...',
+    useThisLocation: 'دا ځای وکاروئ',
+    cancel: 'لغوه کړئ',
+    noResultsFound: 'هېڅ پایله ونه موندل شوه.',
+    close: 'بند کړئ',
   }
 };
 
