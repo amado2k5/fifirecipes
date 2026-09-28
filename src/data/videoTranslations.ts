@@ -298,6 +298,20 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     next: 'Volgende',
     short: 'Kort',
     close: 'Sluiten'
+  },
+  ps: {
+    tab: 'ویډیوګانې',
+    intro: 'دا ویډیوګانې د دې ډېش له نوم له لټون څخه په اتومات ډول موندل شوې دي. دا د جوړوونکو دي او کېدای شي د ډاکټرې فاطمې له ترکیب څخه توپیر ولري.',
+    loading: 'ویډیوګانې لټیږي…',
+    empty: 'تر اوسه اړوند ویډیوګانې ونه موندل شوې.',
+    error: 'ویډیوګانې اوس لوډ نه شوې.',
+    retry: 'بیا هڅه وکړئ',
+    openOn: 'په {p} کې پرانیزئ',
+    searchOn: 'دا ډېش وپلټئ په',
+    previous: 'مخکینی',
+    next: 'بله',
+    short: 'لنډ',
+    close: 'بند کړئ'
   }
 };
 

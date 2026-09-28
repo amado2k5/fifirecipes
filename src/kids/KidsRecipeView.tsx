@@ -119,7 +119,7 @@ const Confetti: React.FC = () => {
 
 export const KidsRecipeView: React.FC<KidsRecipeViewProps> = ({ id, lang, onBack, onOpenArchiveRecipe }) => {
   const text = getKidsStrings(lang);
-  const isRtl = lang === 'ar' || lang === 'fa' || lang === 'ur';
+  const isRtl = lang === 'ar' || lang === 'fa' || lang === 'ur' || lang === 'ps';
   const [recipe, setRecipe] = useState<LocalizedKidsRecipe | null>(null);
   const [failed, setFailed] = useState(false);
   const [attempt, setAttempt] = useState(0);

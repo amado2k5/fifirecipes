@@ -66,7 +66,7 @@ async function drawCertificate(recipe: LocalizedKidsRecipe, name: string, text: 
 export const KidsCertificate: React.FC<KidsCertificateProps> = ({ recipe, lang, text }) => {
   const [name, setName] = useState('');
   const [busy, setBusy] = useState(false);
-  const rtl = lang === 'ar' || lang === 'fa' || lang === 'ur';
+  const rtl = lang === 'ar' || lang === 'fa' || lang === 'ur' || lang === 'ps';
 
   const save = async () => {
     setBusy(true);
