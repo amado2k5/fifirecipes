@@ -40,6 +40,8 @@ import { hasArt } from '../src/kids/art';
 import { SCENES } from '../src/kids/KidsArt';
 import { getKidsStrings, registerKidsStrings, type KidsStrings } from '../src/kids/strings';
 import { kidsRecipeCard, localizeKidsRecipe, type KidsRecipeTranslation } from '../src/kids/localize';
+import { generateTvData } from './generate-tv-index';
+import type { KidsRecipeCard } from '../src/kids/types';
 
 const siteUrl = (process.env.PUBLIC_SITE_URL || 'https://fifi.cooking').replace(/\/$/, '');
 const SUPPORTED_LANGUAGES: SupportedLanguage[] = ['ar', 'en', 'fr', 'es', 'ja', 'hi', 'pt', 'ru', 'zh', 'de', 'it', 'el', 'ur', 'fa', 'tr', 'ku', 'id', 'sw', 'ko', 'nl', 'ps', 'he', 'pl', 'sv'];
@@ -197,6 +199,7 @@ for (const recipe of orderedRecipes) {
 
 // Cooking with Kids mode, in each language it is offered in. A missing
 // drawing, scene or translation stops the build rather than showing a gap.
+const kidsIndex: Partial<Record<SupportedLanguage, KidsRecipeCard[]>> = {};
 {
   const problems: string[] = [];
   const ids = new Set<string>();
@@ -242,6 +245,7 @@ for (const recipe of orderedRecipes) {
       cards.push(kidsRecipeCard(localized));
     }
     put(`kids/${lang}/index.json`, cards);
+    kidsIndex[lang] = cards;
   }
   if (problems.length) throw new Error(`Kids recipes:\n  ${[...new Set(problems)].join('\n  ')}`);
 }
@@ -271,6 +275,10 @@ put('manifest.json', {
     other: computeDatabaseStats(orderedRecipes.filter(recipe => listedIn(recipe, 'fr')))
   } satisfies Record<StatsAudience, unknown>
 });
+
+// TV-optimised layer for the Fire TV client (docs/tv-api.md): shares the
+// content version and the same `files` map, so existing outputs are untouched.
+await generateTvData({ version, orderedRecipes, tables, kidsIndex, videos: recipeVideos, put });
 
 await rm(DATA_DIR, { recursive: true, force: true });
 for (const [path, body] of files) {

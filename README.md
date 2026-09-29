@@ -53,6 +53,10 @@ The **Grown-ups | Cooking with Kids** toggle at the top of the page switches the
 
 The drawings are small hand-drawn SVGs ([src/kids/art.ts](src/kids/art.ts)); each step's picture is built from an action scene plus the step's ingredients ([src/kids/KidsArt.tsx](src/kids/KidsArt.tsx)). Kids mode is loaded only when it is opened, and it is offered only in languages whose kids recipes are translated ([src/kids/languages.ts](src/kids/languages.ts)); the build stops if a drawing or translation is missing.
 
+## TV data API
+
+A versioned, TV-optimised JSON API for the Amazon Fire TV app is generated under `public/data/tv/` at build time — a manifest with endpoint templates, a localised card index, home-feed rows, chapter rails, kids cards and an image-size map. See [docs/tv-api.md](docs/tv-api.md) for the endpoints and the versioning contract, or run `npm run tvdata` to regenerate just that layer.
+
 ## GitHub Pages
 
 The repository includes a GitHub Actions workflow that builds and deploys the site after every push to `main`. In the repository's **Settings → Pages**, select **GitHub Actions** as the publishing source once. The site is served at [fifi.cooking](https://fifi.cooking), with [amado2k5.github.io/fifirecipes](https://amado2k5.github.io/fifirecipes/) as the underlying GitHub Pages URL.
