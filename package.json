@@ -12,6 +12,7 @@
     "clean": "rm -rf dist server.js",
     "lint": "tsc --noEmit",
     "indexnow": "tsx scripts/submit-indexnow.ts",
+    "tvdata": "tsx scripts/generate-tv-index.ts",
     "thumbnails": "tsx scripts/generate-thumbnails.ts"
   },
   "dependencies": {
