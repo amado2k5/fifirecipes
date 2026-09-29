@@ -75,6 +75,16 @@ const PAGE_SIZE = 100;
 const PREVIEW_INGREDIENTS = 3;
 const DATA_DIR = 'public/data';
 
+// Apple Developer Team ID for the iOS app's Universal Links. Still a
+// placeholder: replace 'TEAMID' once the Apple Developer account exists and
+// the real team id is known (member center → Membership details).
+const APPLE_TEAM_ID = 'TEAMID';
+const IOS_BUNDLE_ID = 'cooking.fifi.ios';
+// Site paths the iOS app claims via Universal Links (see docs/tv-api.md).
+// /recipe/* already resolves to a static web page when the app is absent;
+// /chapter/* and /kids/* are app-only deep links.
+const IOS_APP_LINK_PATHS = ['/recipe/*', '/chapter/*', '/kids/*'];
+
 const tables: Partial<Record<SupportedLanguage, TranslationTable>> = {};
 for (const [lang, file] of Object.entries(TRANSLATION_FILES) as [SupportedLanguage, string][]) {
   tables[lang] = JSON.parse(await readFile(`src/data/${file}`, 'utf-8'));
@@ -150,6 +160,28 @@ for (const [lang, table] of Object.entries(tables) as [SupportedLanguage, Transl
     };
   }
   put(`i18n/${lang}.json`, cardTable);
+}
+
+// Arabic is the archive's own language, so it has no translation table — but
+// the API promises /data/i18n/{lang}.json for every language the manifest
+// lists (the site skips fetching it; a native client should not have to).
+{
+  const cardTable: TranslationTable = {};
+  for (const summary of summaries) {
+    const previewIngredients = Object.fromEntries(
+      summary.previewIngredients.map(ingredient => [ingredient.id, { name: ingredient.name }])
+    );
+    cardTable[summary.id] = {
+      title: summary.title,
+      category: summary.category,
+      cookingMethod: summary.cookingMethod,
+      prepTime: summary.prepTime,
+      cookTime: summary.cookTime,
+      servings: summary.servings,
+      ...(Object.keys(previewIngredients).length ? { ingredients: previewIngredients } : {})
+    };
+  }
+  put('i18n/ar.json', cardTable);
 }
 
 // Search strings: the localized and Arabic title, category and every ingredient.
@@ -519,5 +551,24 @@ const urls = [
   .map(url => `  <url><loc>${url.replace(/&/g, '&amp;')}</loc></url>`)
   .join('\n');
 await writeFile('public/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`);
+
+// ---------------------------------------------------------------------------
+// Apple App Site Association: lets the iOS app claim IOS_APP_LINK_PATHS via
+// Universal Links. iOS requests the extensionless file at /.well-known/
+// (iOS 13+) and at the root (older iOS); the .json twin is served as
+// application/json by GitHub Pages, which labels extensionless files
+// application/octet-stream. All three carry the same body.
+{
+  const aasa = JSON.stringify({
+    applinks: {
+      apps: [],
+      details: [{ appID: `${APPLE_TEAM_ID}.${IOS_BUNDLE_ID}`, paths: IOS_APP_LINK_PATHS }]
+    }
+  });
+  await mkdir('public/.well-known', { recursive: true });
+  await writeFile('public/.well-known/apple-app-site-association', aasa);
+  await writeFile('public/apple-app-site-association', aasa);
+  await writeFile('public/apple-app-site-association.json', aasa);
+}
 
 console.log(`Recipe data ${version}: ${summaries.length} recipes in ${pageCount} index pages, ${files.size} data files, ${orderedRecipes.length} static pages.`);

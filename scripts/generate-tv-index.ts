@@ -54,6 +54,11 @@ const FEATURED_COUNT = 20;
 const RECENT_COUNT = 20;
 const TV_DIR = 'public/data/tv';
 
+/** Pixel width of the card thumbnails in public/recipe-images/thumbs/. */
+const CARD_IMAGE_WIDTH = 800;
+/** Originals this wide can serve a full-bleed @3x iPhone hero (~390pt). */
+const RETINA_HERO_MIN_WIDTH = 1200;
+
 // Row titles for the two home rows that are not chapters. The kids row reuses
 // KIDS_TOGGLE_LABELS; anything missing falls back to English.
 const TV_ROW_TITLES: Partial<Record<SupportedLanguage, { featured: string; recent: string }>> = {
@@ -273,7 +278,11 @@ export async function generateTvData({ version, orderedRecipes, tables, kidsInde
   }
 
   // Every recipe photo on disk, with its pixel size for layout math.
-  const images: Record<string, { card: string; full: string; w: number; h: number }> = {};
+  // The archive's originals top out at ~1200px wide: `card2x`/`full2x` point
+  // at the best file a Retina client can use (docs/tv-api.md). `card2x` is
+  // only emitted when it beats the 800px card thumb; `full2x` only when the
+  // original truly reaches @3x-hero resolution.
+  const images: Record<string, { card: string; card2x?: string; full: string; full2x?: string; w: number; h: number }> = {};
   await Promise.all(orderedRecipes.map(async recipe => {
     if (!getRecipeImagePath(recipe.id)) return;
     const full = `/recipe-images/${recipe.id}.jpg`;
@@ -283,7 +292,9 @@ export async function generateTvData({ version, orderedRecipes, tables, kidsInde
       if (!width || !height) return;
       images[recipe.id] = {
         card: `/recipe-images/thumbs/${recipe.id}.jpg`,
+        ...(width > CARD_IMAGE_WIDTH ? { card2x: full } : {}),
         full,
+        ...(width >= RETINA_HERO_MIN_WIDTH ? { full2x: full } : {}),
         w: width,
         h: height
       };

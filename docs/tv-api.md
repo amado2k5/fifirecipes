@@ -136,15 +136,31 @@ Compact kids cards. `cover` is a kids-art drawing id (the app ships its own
 drawings; it is not an image URL). Full step-by-step detail is served per
 recipe at `/data/kids/{lang}/{id}.json` — reuse it unchanged.
 
+Every language in the manifest currently has kids content (this file and the
+matching `/data/kids/{lang}/` directory). Coverage is not contractual: if a
+future language ships without it, the file is simply absent — clients should
+treat a 404 here or on `kids/{lang}/` as "use the `en` kids catalogue".
+
 ### `GET /data/tv/images.json`
 
 ```json
-{ "meat-01": { "card": "/recipe-images/thumbs/meat-01.jpg", "full": "/recipe-images/meat-01.jpg", "w": 1024, "h": 768 } }
+{ "meat-01": { "card": "/recipe-images/thumbs/meat-01.jpg", "card2x": "/recipe-images/meat-01.jpg", "full": "/recipe-images/meat-01.jpg", "full2x": "/recipe-images/meat-01.jpg", "w": 1024, "h": 768 } }
 ```
 
 Pixel dimensions of the full-size photo for every recipe that has one, for
-layout math without fetching the image first. `card` is the 800px-wide
-thumbnail used on cards; `full` is the original photo.
+layout math without fetching the image first.
+
+- `card` — 800px-wide thumbnail for cards (fine for TV and @1x phone lists).
+- `card2x` — the largest file available for Retina cards (@2x/@3x). Present
+  only when it beats the 800px card; today that is the original photo, since
+  archive sources are 1024–1200px wide.
+- `full` — the original photo.
+- `full2x` — present only when the original is ≥1200px wide, i.e. genuinely
+  enough for a full-bleed @3x iPhone hero. When absent, `full` is the best
+  there is; check `w`/`h` before downscaling assumptions.
+
+New photography should be shot ≥1600px wide so future originals can cover
+@3x cards and heroes without approximation.
 
 ### Shared endpoints (unchanged from the web API)
 
@@ -178,3 +194,50 @@ npm run tvdata    # re-run just the tv/ layer against the generated data
 
 `public/data/` is gitignored — the deployed files are produced by CI on every
 push to `main`.
+
+## iOS client
+
+The native SwiftUI app (`amado2k5/fifirecipes-ios`) consumes this same API.
+Everything above applies unchanged; the notes below are iOS-specific.
+
+### Universal Links
+
+`scripts/generate-public-index.ts` emits the Apple App Site Association file
+on every build, at three paths with identical bodies:
+
+- `/.well-known/apple-app-site-association` — the file iOS 13+ fetches
+- `/apple-app-site-association` — the legacy path older iOS checks
+- `/apple-app-site-association.json` — a `.json` twin; GitHub Pages serves
+  extensionless files as `application/octet-stream`, so this variant is the
+  one guaranteed to come back as `application/json` for verification and
+  tooling. Apple only reads the two extensionless paths.
+
+The `appID` is `TEAMID.cooking.fifi.ios`, where `TEAMID` is the
+`APPLE_TEAM_ID` placeholder constant at the top of the generator — replace it
+once the Apple Developer account exists. Claimed paths are `/recipe/*`,
+`/chapter/*` and `/kids/*`. Only `/recipe/{id}/` has a matching web page (the
+static per-recipe pages); chapter and kids links are app-only and can 404 for
+users without the app.
+
+### Images on Retina iPhones
+
+`card` (800px) suits @1x list cells only. For @2x/@3x use `card2x`; for heroes
+prefer `full2x` when present, else `full`. Always read `w`/`h` — sources are
+1024–1200px wide, so a ~1170px @3x hero is slightly undersampled for most
+recipes until new photography arrives.
+
+### Kids content
+
+All 24 manifest languages currently ship `/data/tv/kids/{lang}.json` and
+`/data/kids/{lang}/`. If a language ever lacks kids content the files are
+absent, not stubbed — fall back to `en` on a 404.
+
+### i18n and CORS
+
+`/data/i18n/{lang}.json` exists for every `languages[].code` in the manifest,
+including `ar` (generated from the archive's own Arabic fields; the website
+skips fetching it but a native client can treat it uniformly).
+
+Native clients do not need CORS, but GitHub Pages keeps sending
+`Access-Control-Allow-Origin: *` for the browser-based consumers — nothing to
+configure.

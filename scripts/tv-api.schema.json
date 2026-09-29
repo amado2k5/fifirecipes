@@ -138,7 +138,9 @@
         "additionalProperties": false,
         "properties": {
           "card": { "type": "string", "pattern": "^/" },
+          "card2x": { "type": "string", "pattern": "^/" },
           "full": { "type": "string", "pattern": "^/" },
+          "full2x": { "type": "string", "pattern": "^/" },
           "w": { "type": "integer" },
           "h": { "type": "integer" }
         }
