@@ -105,6 +105,20 @@ const isComplete = (lang: SupportedLanguage, recipes: Recipe[], tables: TvDataCo
   });
 };
 
+/**
+ * The recipes eligible for the TV layer: those fully translated in every
+ * picker language. Recipes still being translated join the index automatically
+ * once their last language lands, instead of dropping every language.
+ */
+export const tvEligibleRecipes = (recipes: Recipe[], tables: TvDataContext['tables']) =>
+  recipes.filter(recipe =>
+    TOP_20_LANGUAGES.every(({ code }) => {
+      if (code === 'ar') return true;
+      const entry = tables[code]?.[recipe.id];
+      return Boolean(entry?.title && entry.ingredients && entry.instructions);
+    })
+  );
+
 // ---------------------------------------------------------------------------
 // Minimal JSON-Schema validator for the subset used by tv-api.schema.json.
 
@@ -246,9 +260,10 @@ export async function generateTvData({ version, orderedRecipes, tables, kidsInde
 
     const titles = rowTitles(code);
     const chapterNumbers = [...new Set(orderedRecipes.map(recipe => recipe.chapterNumber))].sort((a, b) => a - b);
+    const eligibleIds = new Set(orderedRecipes.map(recipe => recipe.id));
     const rows = [
       { key: 'featured', title: titles.featured, items: orderedRecipes.slice(0, FEATURED_COUNT).map(recipe => recipe.id) },
-      { key: 'recent', title: titles.recent, items: [...allRecipes].slice(-RECENT_COUNT).reverse().map(recipe => recipe.id) },
+      { key: 'recent', title: titles.recent, items: [...allRecipes].filter(recipe => eligibleIds.has(recipe.id)).slice(-RECENT_COUNT).reverse().map(recipe => recipe.id) },
       ...chapterNumbers.map(chapter => ({
         key: `chapter:${chapter}`,
         title: getLocalizedRecipe(orderedRecipes.find(recipe => recipe.chapterNumber === chapter)!, code).chapter,
@@ -423,7 +438,10 @@ async function main() {
     }
   }
   const videos = JSON.parse(await readFile('src/data/recipeVideos.json', 'utf-8')) as TvDataContext['videos'];
-  const orderedRecipes = [...allRecipes].sort((a, b) => b.overlapAnalysis.overlapPercentage - a.overlapAnalysis.overlapPercentage);
+  const orderedRecipes = tvEligibleRecipes(
+    [...allRecipes].sort((a, b) => b.overlapAnalysis.overlapPercentage - a.overlapAnalysis.overlapPercentage),
+    tables
+  );
 
   const files = await generateTvData({
     version: manifest.version,

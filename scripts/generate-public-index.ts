@@ -40,7 +40,7 @@ import { hasArt } from '../src/kids/art';
 import { SCENES } from '../src/kids/KidsArt';
 import { getKidsStrings, registerKidsStrings, type KidsStrings } from '../src/kids/strings';
 import { kidsRecipeCard, localizeKidsRecipe, type KidsRecipeTranslation } from '../src/kids/localize';
-import { generateTvData } from './generate-tv-index';
+import { generateTvData, tvEligibleRecipes } from './generate-tv-index';
 import type { KidsRecipeCard } from '../src/kids/types';
 
 const siteUrl = (process.env.PUBLIC_SITE_URL || 'https://fifi.cooking').replace(/\/$/, '');
@@ -321,7 +321,11 @@ put('manifest.json', {
 
 // TV-optimised layer for the Fire TV client (docs/tv-api.md): shares the
 // content version and the same `files` map, so existing outputs are untouched.
-await generateTvData({ version, orderedRecipes, tables, kidsIndex, videos: recipeVideos, put });
+// The TV layer refuses a language unless every listed recipe is fully
+// translated in it, so recipes still being translated (the Fatma Abu Haty
+// chapter) are held back here; each joins the TV index automatically once its
+// last language lands.
+await generateTvData({ version, orderedRecipes: tvEligibleRecipes(orderedRecipes, tables), tables, kidsIndex, videos: recipeVideos, put });
 
 await rm(DATA_DIR, { recursive: true, force: true });
 for (const [path, body] of files) {
