@@ -241,3 +241,30 @@ skips fetching it but a native client can treat it uniformly).
 Native clients do not need CORS, but GitHub Pages keeps sending
 `Access-Control-Allow-Origin: *` for the browser-based consumers — nothing to
 configure.
+
+## Android client
+
+The native Kotlin/Jetpack Compose app (`amado2k5/fifirecipes-android`,
+package `cooking.fifi.android`) consumes this same API unchanged — manifest
+first, `?v=<version>` on every request, `card2x`/`full2x` images on
+high-density screens, and the `en` fallback on a kids 404. Its store pages,
+privacy policy and support page are served from `android.fifi.cooking`.
+
+### App Links
+
+`scripts/generate-public-index.ts` emits `/.well-known/assetlinks.json` on
+every build (Digital Asset Links). The app's manifest claims the same paths as
+the iOS AASA file — `/recipe/*`, `/chapter/*`, `/kids/*` — with
+`android:autoVerify="true"`, so links to fifi.cooking open straight in the app
+when it is installed and on the website otherwise.
+
+`ANDROID_CERT_SHA256` at the top of the generator lists the certificate
+fingerprints Android accepts. It ships with the upload key's fingerprint; once
+the app is in Play Console, append the **Play App Signing** key's SHA-256
+(Play Console › Test and release › App integrity › App signing), because Play
+re-signs every store install with that key. Verify after deploy with:
+
+```bash
+adb shell pm verify-app-links --re-verify cooking.fifi.android
+adb shell pm get-app-links cooking.fifi.android   # fifi.cooking: verified
+```
