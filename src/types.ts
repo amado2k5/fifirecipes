@@ -104,12 +104,12 @@ export interface RecipeSource {
   name: string;
   url: string;
   /** Which outside collection the recipe belongs to (used by the collection filter). */
-  collection?: 'chefteta' | 'osool' | 'abdennour';
+  collection?: 'chefteta' | 'osool' | 'abdennour' | 'abuhaty';
   /** Where in the source the recipe appears, e.g. "الجزء الثالث، صفحة 298". */
   citation?: string;
 }
 
-export type RecipeCollection = 'archive' | 'chefteta' | 'osool' | 'abdennour';
+export type RecipeCollection = 'archive' | 'chefteta' | 'osool' | 'abdennour' | 'abuhaty';
 
 /**
  * The lightweight slice of a recipe needed to render its card, sort and filter

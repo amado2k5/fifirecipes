@@ -8,6 +8,11 @@ import { dessertsAndBeveragesRecipes } from './chapters/dessertsAndBeverages';
 import { additionalRecipes } from './chapters/additionalRecipes';
 import { osoolElTahyRecipes } from './chapters/osoolElTahy';
 import { egyptianCookingRecipes } from './chapters/egyptianCooking';
+// NOTE: fatmaAbuHatyRecipes is added to allRecipes once every recipe is fully
+// translated (the TV data layer requires complete translations for all 24
+// languages); see scripts/channel-recipes/import-drafts.ts.
+import { fatmaAbuHatyRecipes } from './chapters/fatmaAbuHaty';
+void fatmaAbuHatyRecipes;
 
 export const allRecipes: Recipe[] = [
   ...meatsAndPoultryRecipes,

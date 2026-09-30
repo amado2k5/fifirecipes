@@ -201,7 +201,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
       </p>
       {source.citation && (
         <p className="flex items-center gap-1.5">
-          <span className="font-semibold">{additionalText.citationLabel}</span>
+          <span className="font-semibold">{source.collection === 'abuhaty' ? additionalText.citationVideo : additionalText.citationLabel}</span>
           <span>{source.citation}</span>
         </p>
       )}
