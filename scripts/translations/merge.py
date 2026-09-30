@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Merge translated recipes into src/data/recipeTranslations<Xx>.json.
 
-Usage: merge.py <input.jsonl> <lang> [--from fah-001 --to fah-100]
+Usage: merge.py <input.jsonl> <lang> [--from fah-001 --to fah-100] [--dry-run] [--skip-invalid]
 
 Each input line is {"id", "title", "prepTime", "cookTime", "servings",
 "culturalNotes", "ingredients": {id: {"name", "standardAmount"}},
@@ -78,6 +78,7 @@ def main():
     ap.add_argument('--from', dest='start')
     ap.add_argument('--to', dest='end')
     ap.add_argument('--dry-run', action='store_true')
+    ap.add_argument('--skip-invalid', action='store_true')
     args = ap.parse_args()
 
     english = json.loads(table_path('en').read_text(encoding='utf-8'))
@@ -92,7 +93,7 @@ def main():
             return False
         return True
 
-    incoming, failed = {}, {}
+    incoming, notes, failed = {}, {}, {}
     for line in Path(args.input).read_text(encoding='utf-8').splitlines():
         if not line.strip():
             continue
@@ -101,6 +102,11 @@ def main():
         if recipe_id not in english or not in_range(recipe_id):
             continue
         if recipe_id in table:
+            if set(entry) == {'id', 'culturalNotes'} and not table[recipe_id].get('culturalNotes'):
+                if english[recipe_id].get('culturalNotes') and str(entry['culturalNotes']).strip():
+                    notes[recipe_id] = entry['culturalNotes'].strip()
+                else:
+                    failed[recipe_id] = ['empty culturalNotes']
             continue
         errors = validate(entry, english[recipe_id])
         if errors:
@@ -110,23 +116,39 @@ def main():
 
     for recipe_id, errors in failed.items():
         print(f'{args.lang} {recipe_id}: {"; ".join(errors)}', file=sys.stderr)
-    if failed:
+    if failed and not args.skip_invalid:
         sys.exit(f'{args.lang}: {len(failed)} invalid entries, nothing written')
-    if not incoming:
+    if not incoming and not notes:
         print(f'{args.lang}: nothing to merge')
         return
 
     indent = len(re.match(r'\{\n( *)', text).group(1))
-    close = text.rstrip().rfind('}')
-    head = text[:close].rstrip()
-    tail = text[close:]
-    chunk = ',\n'.join(serialize(rid, incoming[rid], indent) for rid in sorted(incoming, key=id_key))
-    new_text = f'{head},\n{chunk}\n{tail}'
+    new_text = text
+    if notes:
+        starts = {}
+        for m in re.finditer(r'^( +)"((?:[^"\\]|\\.)*)": \{\n', text, re.M):
+            starts.setdefault(json.loads(f'"{m.group(2)}"'), []).append(m)
+        for rid in notes:
+            if len(starts.get(rid, [])) != 1:
+                sys.exit(f'{args.lang}: cannot locate entry {rid} for culturalNotes')
+        for rid in sorted(notes, key=lambda r: starts[r][0].end(), reverse=True):
+            m = starts[rid][0]
+            line = ' ' * (len(m.group(1)) + indent) + '"culturalNotes": ' + json.dumps(notes[rid], ensure_ascii=False) + ',\n'
+            new_text = new_text[:m.end()] + line + new_text[m.end():]
+    if incoming:
+        close = new_text.rstrip().rfind('}')
+        head = new_text[:close].rstrip()
+        tail = new_text[close:]
+        chunk = ',\n'.join(serialize(rid, incoming[rid], indent) for rid in sorted(incoming, key=id_key))
+        new_text = f'{head},\n{chunk}\n{tail}'
     merged = json.loads(new_text)
-    assert all(rid in merged for rid in incoming) and len(merged) == len(table) + len(incoming)
+    assert len(merged) == len(table) + len(incoming)
+    assert all(rid in merged for rid in incoming)
+    assert all(merged[rid].get('culturalNotes') == notes[rid] for rid in notes)
+    assert all(merged[rid] == table[rid] for rid in table if rid not in notes)
     if not args.dry_run:
         path.write_text(new_text, encoding='utf-8')
-    print(f'{args.lang}: merged {len(incoming)} entries into {path.name} ({len(merged)} total)')
+    print(f'{args.lang}: merged {len(incoming)} entries and {len(notes)} culturalNotes into {path.name} ({len(merged)} total)')
 
 
 if __name__ == '__main__':
