@@ -8,23 +8,23 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 
 | slug | recipes | en | fr | es | ja | hi | pt | ru | zh | de | it | el | ur | fa | tr | ku | id | sw | ko | nl | ps | he | pl | sv |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| stuffed | 4 | ✅ | | | | | | | | | | | | | | | | | | | | | |
-| legumes | 11 | | | | | | | | | | | | | | | | | | | | | | |
-| iceCream | 13 | | | | | | | | | | | | | | | | | | | | | | |
-| vegetables | 14 | | | | | | | | | | | | | | | | | | | | | | |
-| savory | 16 | | | | | | | | | | | | | | | | | | | | | | |
-| fish | 20 | | | | | | | | | | | | | | | | | | | | | | |
-| beverages | 24 | | | | | | | | | | | | | | | | | | | | | | |
-| salads | 24 | | | | | | | | | | | | | | | | | | | | | | |
-| starches | 47 | | | | | | | | | | | | | | | | | | | | | | |
-| pastries | 48 | | | | | | | | | | | | | | | | | | | | | | |
-| westernDesserts | 57 | | | | | | | | | | | | | | | | | | | | | | |
-| lightDesserts | 73 | | | | | | | | | | | | | | | | | | | | | | |
-| easternDesserts | 76 | | | | | | | | | | | | | | | | | | | | | | |
-| soups | 8 | ✅ | | | | | | | | | | | | | | | | | | | | | |
-| sweetPies | 106 | ✅ | | | | | | | | | | | | | | | | | | | | | |
-| quick | 130 | ✅ | | | | | | | | | | | | | | | | | | | | | |
-| meats | 137 | | | | | | | | | | | | | | | | | | | | | | |
+| stuffed | 4 | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| legumes | 11 | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| iceCream | 13 | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| vegetables | 14 | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| savory | 16 | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| fish | 20 | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| beverages | 24 | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| salads | 24 | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| starches | 47 | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| pastries | 48 | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| westernDesserts | 57 | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| lightDesserts | 73 | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| easternDesserts | 76 | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| soups | 8 | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| sweetPies | 106 | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| quick | 130 | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| meats | 137 | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 ## Rules
 
@@ -86,3 +86,9 @@ Chapter 10: Fatma Abu Haty Channel Recipes — 808 recipes, EN fills authored pe
 | meats | 137 | ✅ merged (warn: fah-078/101 no cookTime in source) |
 
 EN merged so far: **808 / 808 — COMPLETE**
+
+## FR Translation Pass
+
+All 17 files merged into `recipeTranslationsFr.json` — **808 / 808 — COMPLETE**.
+meats merged with 3 non-fatal warnings (fah-040 no cookingMethod,
+fah-078/fah-101 no cookTime — all absent from source META).
