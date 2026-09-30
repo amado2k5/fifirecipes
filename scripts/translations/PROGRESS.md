@@ -1,5 +1,31 @@
 # Recipe Translation Progress
 
+## Fatma Abu Haty channel activation (808 recipes × 24 languages)
+
+Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
+`fills/<lang>/<slug>.json` → `apply-fills.ts` → `write-entries.ts` →
+(en only) `fill-titles.ts`. Ledger below; `✅` = merged into the table.
+
+| slug | recipes | en | fr | es | ja | hi | pt | ru | zh | de | it | el | ur | fa | tr | ku | id | sw | ko | nl | ps | he | pl | sv |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| stuffed | 4 | ✅ | | | | | | | | | | | | | | | | | | | | | |
+| legumes | 11 | | | | | | | | | | | | | | | | | | | | | | |
+| iceCream | 13 | | | | | | | | | | | | | | | | | | | | | | |
+| vegetables | 14 | | | | | | | | | | | | | | | | | | | | | | |
+| savory | 16 | | | | | | | | | | | | | | | | | | | | | | |
+| fish | 20 | | | | | | | | | | | | | | | | | | | | | | |
+| beverages | 24 | | | | | | | | | | | | | | | | | | | | | | |
+| salads | 24 | | | | | | | | | | | | | | | | | | | | | | |
+| starches | 47 | | | | | | | | | | | | | | | | | | | | | | |
+| pastries | 48 | | | | | | | | | | | | | | | | | | | | | | |
+| westernDesserts | 57 | | | | | | | | | | | | | | | | | | | | | | |
+| lightDesserts | 73 | | | | | | | | | | | | | | | | | | | | | | |
+| easternDesserts | 76 | | | | | | | | | | | | | | | | | | | | | | |
+| soups | 8 | ✅ | | | | | | | | | | | | | | | | | | | | | |
+| sweetPies | 106 | ✅ | | | | | | | | | | | | | | | | | | | | | |
+| quick | 130 | ✅ | | | | | | | | | | | | | | | | | | | | | |
+| meats | 137 | | | | | | | | | | | | | | | | | | | | | | |
+
 ## Rules
 
 - Translate title, chapter, category, cookingMethod, timing fields, culturalNotes
@@ -32,3 +58,31 @@
 - **Status**: ✅ COMPLETE
 - **Recipes**: Grilled meats, pan-seared beef, breaded chicken, shawarma, kofta, hamburgers
 - **Notes**: All ingredient names translated, standardAmount preserved in original format
+
+---
+
+## Fatma Abu Haty (fah-*) EN Translation Pass
+
+Chapter 10: Fatma Abu Haty Channel Recipes — 808 recipes, EN fills authored per source file.
+
+| File | Count | Status |
+|------|-------|--------|
+| stuffed | 4 | ✅ merged |
+| legumes | 11 | ✅ merged |
+| iceCream | 13 | ✅ merged |
+| vegetables | 14 | ✅ merged |
+| savory | 16 | ✅ merged |
+| fish | 20 | ✅ merged |
+| beverages | 24 | ✅ merged |
+| salads | 24 | ✅ merged |
+| starches | 47 | ✅ merged |
+| pastries | 48 | ✅ merged |
+| westernDesserts | 57 | ✅ merged |
+| lightDesserts | 73 | ✅ merged |
+| easternDesserts | 76 | ✅ merged (warn: fah-493/495/499/500/526 no cookTime) |
+| sweetPies | 106 | ✅ merged (clean) |
+| soups | 8 | ✅ merged |
+| quick | 130 | ✅ merged (clean) |
+| meats | 137 | ✅ merged (warn: fah-078/101 no cookTime in source) |
+
+EN merged so far: **808 / 808 — COMPLETE**
