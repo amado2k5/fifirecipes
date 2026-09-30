@@ -217,16 +217,27 @@ for (const recipe of orderedRecipes) {
 // Videos tab: what scripts/recipe-videos/fetch-videos.ts found, fetched by the
 // browser only when the tab is opened. Every recipe with the tab gets a file,
 // so a recipe not searched yet reads as "no videos" rather than an error.
-let recipeVideos: Record<string, { ar: unknown[]; en?: unknown[] }> = {};
+let recipeVideos: Record<string, { ar: { id?: string }[]; en?: { id?: string }[] }> = {};
 try {
   recipeVideos = JSON.parse(await readFile('src/data/recipeVideos.json', 'utf-8'));
 } catch {
   // Not fetched yet.
 }
+// Channel recipes pin their own source video(s) at the top of the tab; the
+// weekly fetch keeps adding related videos below them.
+let channelSourceVideos: Record<string, { id?: string }[]> = {};
+try {
+  channelSourceVideos = JSON.parse(await readFile('src/data/fatmaAbuHaty/sourceVideos.json', 'utf-8'));
+} catch {
+  // No channel recipes imported.
+}
 for (const recipe of orderedRecipes) {
   if (recipe.englishOnly) continue;
   const found = recipeVideos[recipe.id];
-  put(`videos/${recipe.id}.json`, { ar: found?.ar ?? [], ...(found?.en?.length ? { en: found.en } : {}) });
+  const own = channelSourceVideos[recipe.id] ?? [];
+  const ownIds = new Set(own.map(v => v.id));
+  const ar = [...own, ...(found?.ar ?? []).filter(v => !ownIds.has(v.id))];
+  put(`videos/${recipe.id}.json`, { ar, ...(found?.en?.length ? { en: found.en } : {}) });
 }
 
 // Cooking with Kids mode, in each language it is offered in. A missing

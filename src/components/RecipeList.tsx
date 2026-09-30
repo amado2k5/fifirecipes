@@ -260,7 +260,8 @@ export const RecipeList: React.FC<RecipeListProps> = ({
             ['archive', additionalText.collectionArchive],
             ['chefteta', additionalText.collectionAdditional],
             ...(presentCollections.has('osool') ? [['osool', additionalText.collectionOsool] as const] : []),
-            ...(presentCollections.has('abdennour') ? [['abdennour', additionalText.collectionAbdennour] as const] : [])
+            ...(presentCollections.has('abdennour') ? [['abdennour', additionalText.collectionAbdennour] as const] : []),
+            ...(presentCollections.has('abuhaty') ? [['abuhaty', additionalText.collectionAbuhaty] as const] : [])
           ] as const).map(([value, label]) => (
             <button
               key={value}
