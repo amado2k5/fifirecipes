@@ -69,6 +69,7 @@ const CHAPTER_NAMES: Record<number, string> = {
   5: 'Chapter 5: Eastern Desserts',
   6: 'Chapter 6: Western Desserts',
   7: 'Chapter 7: Additional Recipes',
+  8: 'Chapter 8: From the Book “Osool El Tahy”',
   9: 'Chapter 9: From the Cookbook “Egyptian Cooking”',
   10: 'Chapter 10: Fatma Abu Haty’s YouTube Channel'
 };
