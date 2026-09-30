@@ -75,12 +75,11 @@ const PAGE_SIZE = 100;
 const PREVIEW_INGREDIENTS = 3;
 const DATA_DIR = 'public/data';
 
-// Apple Developer Team ID for the iOS app's Universal Links. Still a
-// placeholder: replace 'TEAMID' once the Apple Developer account exists and
-// the real team id is known (member center → Membership details).
-const APPLE_TEAM_ID = 'TEAMID';
-const IOS_BUNDLE_ID = 'cooking.fifi.ios';
-// Site paths the iOS app claims via Universal Links (see docs/tv-api.md).
+// Apple Developer Team ID for the apps' Universal Links
+// (member center → Membership details).
+const APPLE_TEAM_ID = 'M25GYMUED8';
+const APP_BUNDLE_IDS = ['cooking.fifi.ios', 'cooking.fifi.ipados', 'cooking.fifi.tvos'];
+// Site paths the apps claim via Universal Links (see docs/tv-api.md).
 // /recipe/* already resolves to a static web page when the app is absent;
 // /chapter/* and /kids/* are app-only deep links.
 const IOS_APP_LINK_PATHS = ['/recipe/*', '/chapter/*', '/kids/*'];
@@ -573,7 +572,7 @@ await writeFile('public/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<
   const aasa = JSON.stringify({
     applinks: {
       apps: [],
-      details: [{ appID: `${APPLE_TEAM_ID}.${IOS_BUNDLE_ID}`, paths: IOS_APP_LINK_PATHS }]
+      details: APP_BUNDLE_IDS.map(id => ({ appID: `${APPLE_TEAM_ID}.${id}`, paths: IOS_APP_LINK_PATHS }))
     }
   });
   await mkdir('public/.well-known', { recursive: true });

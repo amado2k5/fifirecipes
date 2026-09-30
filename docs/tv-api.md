@@ -1,7 +1,9 @@
 # TV data API
 
-A versioned, TV-optimised JSON API for the Amazon Fire TV client, served from
-the same static host as the website. All files live under
+A versioned, TV-optimised JSON API for the TV clients — the Amazon Fire TV
+app (`fifirecipes-amazonfire`) and the Apple TV / tvOS app
+(`fifirecipes-tvos`, bundle ID `cooking.fifi.tvos`, site
+`tvosapp.fifi.cooking`) — served from the same static host as the website. All files live under
 `https://fifi.cooking/data/tv/` and are generated at build time by
 [scripts/generate-tv-index.ts](../scripts/generate-tv-index.ts), which runs as
 part of `npm run dev`/`npm run build` (via `scripts/generate-public-index.ts`)
