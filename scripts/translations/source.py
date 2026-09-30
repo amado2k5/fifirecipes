@@ -2,6 +2,7 @@
 """Dump source text for translators as JSONL.
 
   source.py recipes fah-001 fah-202   English entry + Arabic original per recipe
+  source.py missing <lang> fah-001 fah-202   same, only recipes absent from <lang>
   source.py notes <lang>              English culturalNotes missing in <lang>
   source.py glossary <lang>           English -> <lang> ingredient names already in use
 """
@@ -32,11 +33,14 @@ def emit(obj):
 def main():
     mode = sys.argv[1]
     english = json.loads(table_path('en').read_text(encoding='utf-8'))
-    if mode == 'recipes':
-        start, end = id_key(sys.argv[2]), id_key(sys.argv[3])
+    if mode in ('recipes', 'missing'):
+        args = sys.argv[2:]
+        target = json.loads(table_path(args.pop(0)).read_text(encoding='utf-8')) if mode == 'missing' else {}
+        start, end = id_key(args[0]), id_key(args[1])
         arabic = arabic_originals()
         for rid in sorted((k for k in english if id_key(k)[0] == start[0] and start <= id_key(k) <= end), key=id_key):
-            emit({'id': rid, 'en': english[rid], 'ar': arabic.get(rid)})
+            if rid not in target:
+                emit({'id': rid, 'en': english[rid], 'ar': arabic.get(rid)})
     elif mode == 'notes':
         target = json.loads(table_path(sys.argv[2]).read_text(encoding='utf-8'))
         for rid, entry in english.items():

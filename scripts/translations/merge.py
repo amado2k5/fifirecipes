@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Merge translated recipes into src/data/recipeTranslations<Xx>.json.
 
-Usage: merge.py <input.jsonl> <lang> [--from fah-001 --to fah-100] [--dry-run] [--skip-invalid]
+Usage: merge.py <input.jsonl> <lang> [--from fah-001 --to fah-100] [--dry-run] [--skip-invalid] [--expect-all]
 
 Each input line is {"id", "title", "prepTime", "cookTime", "servings",
 "culturalNotes", "ingredients": {id: {"name", "standardAmount"}},
@@ -19,6 +19,8 @@ import sys
 from pathlib import Path
 
 DATA = Path(__file__).resolve().parents[2] / 'src' / 'data'
+ARABIC_SCRIPT = re.compile(r'[\u0600-\u06ff]')
+ARABIC_SCRIPT_LANGS = {'fa', 'ur', 'ps'}
 FIELDS = ('title', 'prepTime', 'cookTime', 'servings', 'culturalNotes')
 
 
@@ -31,8 +33,10 @@ def id_key(recipe_id):
     return prefix, int(num)
 
 
-def validate(entry, src):
+def validate(entry, src, lang):
     errors = []
+    if lang not in ARABIC_SCRIPT_LANGS and ARABIC_SCRIPT.search(json.dumps(entry, ensure_ascii=False)):
+        errors.append('contains Arabic script')
     for field in ('title',) + tuple(f for f in FIELDS[1:] if src.get(f)):
         if not isinstance(entry.get(field), str) or not entry[field].strip():
             errors.append(f'missing {field}')
@@ -79,6 +83,7 @@ def main():
     ap.add_argument('--to', dest='end')
     ap.add_argument('--dry-run', action='store_true')
     ap.add_argument('--skip-invalid', action='store_true')
+    ap.add_argument('--expect-all', action='store_true', help='fail unless every English id in range ends up translated')
     args = ap.parse_args()
 
     english = json.loads(table_path('en').read_text(encoding='utf-8'))
@@ -108,12 +113,16 @@ def main():
                 else:
                     failed[recipe_id] = ['empty culturalNotes']
             continue
-        errors = validate(entry, english[recipe_id])
+        errors = validate(entry, english[recipe_id], args.lang)
         if errors:
             failed[recipe_id] = errors
         else:
             incoming[recipe_id] = site_entry(entry, english[recipe_id])
 
+    if args.expect_all:
+        for recipe_id in english:
+            if (args.start or args.end) and in_range(recipe_id) and recipe_id not in table and recipe_id not in incoming and recipe_id not in failed:
+                failed[recipe_id] = ['not in input']
     for recipe_id, errors in failed.items():
         print(f'{args.lang} {recipe_id}: {"; ".join(errors)}', file=sys.stderr)
     if failed and not args.skip_invalid:
