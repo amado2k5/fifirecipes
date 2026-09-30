@@ -40,8 +40,9 @@ jobs:
         uses: actions/upload-pages-artifact@v5
         with:
           path: ./dist
-          # .well-known/apple-app-site-association must deploy for iOS
-          # Universal Links; v4 silently dropped dot-directories.
+          # .well-known/apple-app-site-association (iOS Universal Links) and
+          # .well-known/assetlinks.json (Android App Links) must deploy;
+          # upload-pages-artifact v4 silently dropped dot-directories.
           include-hidden-files: true
 
   deploy:
