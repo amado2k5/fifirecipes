@@ -81,7 +81,10 @@ const CHAPTER_NAMES_FR: Record<number, string> = {
   4: 'Chapitre 4 : Pâtisseries, Desserts Légers et Boissons',
   5: 'Chapitre 5 : Desserts Orientaux',
   6: 'Chapitre 6 : Desserts Occidentaux',
-  7: 'Chapitre 7 : Recettes supplémentaires'
+  7: 'Chapitre 7 : Recettes supplémentaires',
+  8: 'Chapitre 8 : Du livre « Osool El Tahy »',
+  9: 'Chapitre 9 : Du livre de cuisine « Egyptian Cooking »',
+  10: 'Chapitre 10 : La chaîne YouTube de Fatma Abu Haty'
 };
 
 const CHAPTER_NAMES_ES: Record<number, string> = {
@@ -91,7 +94,10 @@ const CHAPTER_NAMES_ES: Record<number, string> = {
   4: 'Capítulo 4: Pastelería, Postres Ligeros y Bebidas',
   5: 'Capítulo 5: Postres Orientales',
   6: 'Capítulo 6: Postres Occidentales',
-  7: 'Capítulo 7: Recetas adicionales'
+  7: 'Capítulo 7: Recetas adicionales',
+  8: 'Capítulo 8: Del libro «Osool El Tahy»',
+  9: 'Capítulo 9: Del recetario «Egyptian Cooking»',
+  10: 'Capítulo 10: El canal de YouTube de Fatma Abu Haty'
 };
 
 const CHAPTER_NAMES_JA: Record<number, string> = {
@@ -101,7 +107,10 @@ const CHAPTER_NAMES_JA: Record<number, string> = {
   4: '第4章：焼き菓子・軽いデザート・飲み物',
   5: '第5章：東洋のデザート',
   6: '第6章：西洋のデザート',
-  7: '第7章：追加レシピ'
+  7: '第7章：追加レシピ',
+  8: '第8章：『Osool El Tahy』より',
+  9: '第9章：料理本『Egyptian Cooking』より',
+  10: '第10章：Fatma Abu HatyのYouTubeチャンネル'
 };
 
 const CHAPTER_NAMES_HI: Record<number, string> = {
@@ -111,7 +120,10 @@ const CHAPTER_NAMES_HI: Record<number, string> = {
   4: 'अध्याय 4: पेस्ट्री, हल्की मिठाइयां और पेय',
   5: 'अध्याय 5: पूर्वी मिठाइयां',
   6: 'अध्याय 6: पश्चिमी मिठाइयां',
-  7: 'अध्याय 7: अतिरिक्त व्यंजन'
+  7: 'अध्याय 7: अतिरिक्त व्यंजन',
+  8: 'अध्याय 8: “Osool El Tahy” किताब से',
+  9: 'अध्याय 9: “Egyptian Cooking” कुकबुक से',
+  10: 'अध्याय 10: Fatma Abu Haty का YouTube चैनल'
 };
 
 const CHAPTER_NAMES_PT: Record<number, string> = {
@@ -121,7 +133,10 @@ const CHAPTER_NAMES_PT: Record<number, string> = {
   4: 'Capítulo 4: Massas, Doces Leves e Bebidas',
   5: 'Capítulo 5: Sobremesas Orientais',
   6: 'Capítulo 6: Sobremesas Ocidentais',
-  7: 'Capítulo 7: Receitas adicionais'
+  7: 'Capítulo 7: Receitas adicionais',
+  8: 'Capítulo 8: Do livro «Osool El Tahy»',
+  9: 'Capítulo 9: Do livro de receitas «Egyptian Cooking»',
+  10: 'Capítulo 10: O canal de Fatma Abu Haty no YouTube'
 };
 
 const CHAPTER_NAMES_RU: Record<number, string> = {
@@ -131,7 +146,10 @@ const CHAPTER_NAMES_RU: Record<number, string> = {
   4: 'Глава 4: Выпечка, Лёгкие десерты и Напитки',
   5: 'Глава 5: Восточные десерты',
   6: 'Глава 6: Западные десерты',
-  7: 'Глава 7: Дополнительные рецепты'
+  7: 'Глава 7: Дополнительные рецепты',
+  8: 'Глава 8: Из книги «Osool El Tahy»',
+  9: 'Глава 9: Из кулинарной книги «Egyptian Cooking»',
+  10: 'Глава 10: YouTube-канал Фатмы Абу Хаты'
 };
 
 const CHAPTER_NAMES_ZH: Record<number, string> = {
@@ -141,7 +159,10 @@ const CHAPTER_NAMES_ZH: Record<number, string> = {
   4: '第四章：糕点、清爽甜点与饮品',
   5: '第五章：东方甜点',
   6: '第六章：西式甜点',
-  7: '第七章：补充食谱'
+  7: '第七章：补充食谱',
+  8: '第八章：出自《Osool El Tahy》一书',
+  9: '第九章：出自烹饪书《Egyptian Cooking》',
+  10: '第十章：Fatma Abu Haty 的 YouTube 频道'
 };
 
 const CHAPTER_NAMES_DE: Record<number, string> = {
@@ -151,7 +172,10 @@ const CHAPTER_NAMES_DE: Record<number, string> = {
   4: 'Kapitel 4: Gebäck, leichte Nachspeisen und Getränke',
   5: 'Kapitel 5: Orientalische Süßspeisen',
   6: 'Kapitel 6: Westliche Süßspeisen',
-  7: 'Kapitel 7: Zusätzliche Rezepte'
+  7: 'Kapitel 7: Zusätzliche Rezepte',
+  8: 'Kapitel 8: Aus dem Buch „Osool El Tahy“',
+  9: 'Kapitel 9: Aus dem Kochbuch „Egyptian Cooking“',
+  10: 'Kapitel 10: Fatma Abu Hatys YouTube-Kanal'
 };
 
 const CHAPTER_NAMES_IT: Record<number, string> = {
@@ -161,7 +185,10 @@ const CHAPTER_NAMES_IT: Record<number, string> = {
   4: 'Capitolo 4: Pasticceria, Dolci Leggeri e Bevande',
   5: 'Capitolo 5: Dolci Orientali',
   6: 'Capitolo 6: Dolci Occidentali',
-  7: 'Capitolo 7: Ricette aggiuntive'
+  7: 'Capitolo 7: Ricette aggiuntive',
+  8: 'Capitolo 8: Dal libro «Osool El Tahy»',
+  9: 'Capitolo 9: Dal libro di cucina «Egyptian Cooking»',
+  10: 'Capitolo 10: Il canale YouTube di Fatma Abu Haty'
 };
 
 const CHAPTER_NAMES_EL: Record<number, string> = {
@@ -171,7 +198,10 @@ const CHAPTER_NAMES_EL: Record<number, string> = {
   4: 'Κεφάλαιο 4: Ζαχαροπλαστική, Ελαφριά Επιδόρπια και Ροφήματα',
   5: 'Κεφάλαιο 5: Ανατολίτικα Γλυκά',
   6: 'Κεφάλαιο 6: Δυτικά Γλυκά',
-  7: 'Κεφάλαιο 7: Επιπλέον συνταγές'
+  7: 'Κεφάλαιο 7: Επιπλέον συνταγές',
+  8: 'Κεφάλαιο 8: Από το βιβλίο «Osool El Tahy»',
+  9: 'Κεφάλαιο 9: Από το βιβλίο μαγειρικής «Egyptian Cooking»',
+  10: 'Κεφάλαιο 10: Το κανάλι YouTube της Fatma Abu Haty'
 };
 
 const CHAPTER_NAMES_UR: Record<number, string> = {
@@ -181,7 +211,10 @@ const CHAPTER_NAMES_UR: Record<number, string> = {
   4: 'باب 4: پیسٹری، ہلکی میٹھی اشیاء اور مشروبات',
   5: 'باب 5: مشرقی مٹھائیاں',
   6: 'باب 6: مغربی مٹھائیاں',
-  7: 'باب 7: اضافی ترکیبیں'
+  7: 'باب 7: اضافی ترکیبیں',
+  8: 'باب 8: کتاب «أصول الطهي» سے',
+  9: 'باب 9: کوک بک «Egyptian Cooking» سے',
+  10: 'باب 10: فاطمہ ابو ہاتی کا یوٹیوب چینل'
 };
 
 const CHAPTER_NAMES_FA: Record<number, string> = {
@@ -191,7 +224,10 @@ const CHAPTER_NAMES_FA: Record<number, string> = {
   4: 'فصل 4: شیرینی‌ها، دسرهای سبک و نوشیدنی‌ها',
   5: 'فصل 5: شیرینی‌های شرقی',
   6: 'فصل 6: شیرینی‌های غربی',
-  7: 'فصل ۷: دستورهای افزوده'
+  7: 'فصل ۷: دستورهای افزوده',
+  8: 'فصل 8: از کتاب «أصول الطهی»',
+  9: 'فصل 9: از کتاب آشپزی «Egyptian Cooking»',
+  10: 'فصل 10: کانال یوتیوب فاطمه ابوهاتی'
 };
 
 const CHAPTER_NAMES_TR: Record<number, string> = {
@@ -201,7 +237,10 @@ const CHAPTER_NAMES_TR: Record<number, string> = {
   4: 'Bölüm 4: Hamur İşleri, Hafif Tatlılar ve İçecekler',
   5: 'Bölüm 5: Doğu Tatlıları',
   6: 'Bölüm 6: Batı Tatlıları',
-  7: 'Bölüm 7: Ek Tarifler'
+  7: 'Bölüm 7: Ek Tarifler',
+  8: 'Bölüm 8: “Osool El Tahy” Kitabından',
+  9: 'Bölüm 9: “Egyptian Cooking” Yemek Kitabından',
+  10: 'Bölüm 10: Fatma Abu Haty’nin YouTube Kanalı'
 };
 
 const CHAPTER_NAMES_KU: Record<number, string> = {
@@ -211,7 +250,10 @@ const CHAPTER_NAMES_KU: Record<number, string> = {
   4: 'Beş 4: Hevîrkirî, Şîraniyên Sivik û Vexwarin',
   5: 'Beş 5: Şîraniyên Rojhilatî',
   6: 'Beş 6: Şîraniyên Rojavayî',
-  7: 'Beşa 7: Reçeteyên Zêde'
+  7: 'Beşa 7: Reçeteyên Zêde',
+  8: 'Beş 8: Ji pirtûka “Osool El Tahy”',
+  9: 'Beş 9: Ji pirtûka xwarinê “Egyptian Cooking”',
+  10: 'Beş 10: Kanala YouTube ya Fatma Abu Haty'
 };
 
 const CHAPTER_NAMES_ID: Record<number, string> = {
@@ -221,7 +263,10 @@ const CHAPTER_NAMES_ID: Record<number, string> = {
   4: 'Bab 4: Aneka Pastri, Makanan Manis Ringan, dan Minuman',
   5: 'Bab 5: Hidangan Manis Timur',
   6: 'Bab 6: Hidangan Manis Barat',
-  7: 'Bab 7: Resep Tambahan'
+  7: 'Bab 7: Resep Tambahan',
+  8: 'Bab 8: Dari buku “Osool El Tahy”',
+  9: 'Bab 9: Dari buku masakan “Egyptian Cooking”',
+  10: 'Bab 10: Kanal YouTube Fatma Abu Haty'
 };
 
 const CHAPTER_NAMES_SW: Record<number, string> = {
@@ -231,7 +276,10 @@ const CHAPTER_NAMES_SW: Record<number, string> = {
   4: 'Sura ya 4: Vyakula vya Unga, Vitamu Vyepesi na Vinywaji',
   5: 'Sura ya 5: Vitamu vya Mashariki',
   6: 'Sura ya 6: Vitamu vya Magharibi',
-  7: 'Sura ya 7: Mapishi ya Ziada'
+  7: 'Sura ya 7: Mapishi ya Ziada',
+  8: 'Sura ya 8: Kutoka kitabuni “Osool El Tahy”',
+  9: 'Sura ya 9: Kutoka kitabuni cha mapishi “Egyptian Cooking”',
+  10: 'Sura ya 10: Kituo cha YouTube cha Fatma Abu Haty'
 };
 
 const CHAPTER_NAMES_KO: Record<number, string> = {
@@ -241,7 +289,10 @@ const CHAPTER_NAMES_KO: Record<number, string> = {
   4: '제4장: 페이스트리, 가벼운 디저트 및 음료',
   5: '제5장: 동양 디저트',
   6: '제6장: 서양 디저트',
-  7: '제7장: 추가 레시피'
+  7: '제7장: 추가 레시피',
+  8: '제8장: 『Osool El Tahy』 책에서',
+  9: '제9장: 요리책 『Egyptian Cooking』에서',
+  10: '제10장: Fatma Abu Haty의 YouTube 채널'
 };
 
 const CHAPTER_NAMES_NL: Record<number, string> = {
@@ -252,7 +303,9 @@ const CHAPTER_NAMES_NL: Record<number, string> = {
   5: 'Hoofdstuk 5: Oosterse Desserts',
   6: 'Hoofdstuk 6: Westerse Desserts',
   7: 'Hoofdstuk 7: Aanvullende Recepten',
-  9: 'Hoofdstuk 9: Uit het kookboek “Egyptian Cooking”'
+  9: 'Hoofdstuk 9: Uit het kookboek “Egyptian Cooking”',
+  8: 'Hoofdstuk 8: Uit het boek “Osool El Tahy”',
+  10: 'Hoofdstuk 10: Het YouTube-kanaal van Fatma Abu Haty'
 };
 
 const CHAPTER_NAMES_PS: Record<number, string> = {
@@ -263,7 +316,9 @@ const CHAPTER_NAMES_PS: Record<number, string> = {
   5: 'پنځم باب: ختیځې خوږې خواړه',
   6: 'شپږم باب: لویدیځې خوږې خواړه',
   7: 'اووم باب: اضافي ترکیبونه',
-  9: 'نهم باب: د «Egyptian Cooking» له پخلی کتاب څخه'
+  9: 'نهم باب: د «Egyptian Cooking» له پخلی کتاب څخه',
+  8: 'اتم باب: د «أصول الطهي» له کتاب څخه',
+  10: 'لسم باب: د فاطمه ابو هاتي یوټیوب چینل'
 };
 
 const CHAPTER_NAMES_HE: Record<number, string> = {
@@ -274,7 +329,9 @@ const CHAPTER_NAMES_HE: Record<number, string> = {
   5: 'פרק 5: קינוחים מזרחיים',
   6: 'פרק 6: קינוחים מערביים',
   7: 'פרק 7: מתכונים נוספים',
-  9: 'פרק 9: מתוך ספר הבישול “Egyptian Cooking”'
+  9: 'פרק 9: מתוך ספר הבישול “Egyptian Cooking”',
+  8: 'פרק 8: מתוך הספר “Osool El Tahy”',
+  10: 'פרק 10: ערוץ היוטיוב של Fatma Abu Haty'
 };
 
 const CHAPTER_NAMES_PL: Record<number, string> = {
@@ -285,7 +342,9 @@ const CHAPTER_NAMES_PL: Record<number, string> = {
   5: 'Rozdział 5: Desery wschodnie',
   6: 'Rozdział 6: Desery zachodnie',
   7: 'Rozdział 7: Dodatkowe przepisy',
-  9: 'Rozdział 9: Z książki kucharskiej „Egyptian Cooking”'
+  9: 'Rozdział 9: Z książki kucharskiej „Egyptian Cooking”',
+  8: 'Rozdział 8: Z książki „Osool El Tahy”',
+  10: 'Rozdział 10: Kanał YouTube Fatmy Abu Haty'
 };
 
 const CHAPTER_NAMES_SV: Record<number, string> = {
@@ -296,7 +355,9 @@ const CHAPTER_NAMES_SV: Record<number, string> = {
   5: 'Kapitel 5: Orientaliska desserter',
   6: 'Kapitel 6: Västerländska desserter',
   7: 'Kapitel 7: Ytterligare recept',
-  9: 'Kapitel 9: Ur kokboken ”Egyptian Cooking”'
+  9: 'Kapitel 9: Ur kokboken ”Egyptian Cooking”',
+  8: 'Kapitel 8: Ur boken ”Osool El Tahy”',
+  10: 'Kapitel 10: Fatma Abu Hatys YouTube-kanal'
 };
 
 const CATEGORY_NAMES: Record<string, string> = {
