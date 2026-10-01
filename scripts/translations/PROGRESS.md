@@ -24,7 +24,7 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |soups|8|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅||||||||||||
 |sweetPies|106|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅|✅||||||||||||
 |quick|130|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅| ✅ | ✅ ||||||||||||
-| meats | 137 | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |
+| meats | 137 | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |
 
 ## Rules
 
@@ -270,11 +270,11 @@ in EN source); easternDesserts fah-491 and meats fah-040 cookingMethod filled
 (Ατμός).
 ## UR — Urdu
 
-541/808 — 15 categories merged into `recipeTranslationsUr.json`:
+808/808 — all 17 categories merged into `recipeTranslationsUr.json`:
 stuffed(4), legumes(11), iceCream(13), vegetables(14), savory(16), fish(20),
 beverages(24), salads(24), soups(8), starches(47), pastries(48),
-westernDesserts(57), lightDesserts(73), easternDesserts(76), sweetPies(106).
-Remaining: quick(130), meats(137). All warnings were source-side gaps
+westernDesserts(57), lightDesserts(73), easternDesserts(76), sweetPies(106),
+quick(130), meats(137). All warnings were source-side gaps
 (missing cookTime in EN source); easternDesserts fah-491 cookingMethod
 filled (بخار میں پکانا). fix-amounts.mjs patched: Urdu is Arabic script, so
 the "result must contain no Arabic-range chars" guard rejected every
