@@ -8,23 +8,23 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 
 | slug | recipes | en | fr | es | ja | hi | pt | ru | zh | de | it | el | ur | fa | tr | ku | id | sw | ko | nl | ps | he | pl | sv |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|stuffed|4|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ ||||||||||||||
-|legumes|11|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ ||||||||||||||
-|iceCream|13|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ ||||||||||||||
-|vegetables|14|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ ||||||||||||||
-|savory|16|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ ||||||||||||||
-|fish|20|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ ||||||||||||||
-|beverages|24|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ ||||||||||||||
-|salads|24|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ ||||||||||||||
-|starches|47|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ ||||||||||||||
- |pastries| 48 | ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  | 
-|westernDesserts|57|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ ||||||||||||||
-|lightDesserts|73|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ ||||||||||||||
-|easternDesserts|76|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ ||||||||||||||
-|soups|8|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ ||||||||||||||
-|sweetPies|106|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅||||||||||||||
-|quick|130|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅||||||||||||||
-| meats | 137 | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|stuffed|4|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ | ||||||||||||
+|legumes|11|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ | ||||||||||||
+|iceCream|13|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ | ||||||||||||
+|vegetables|14|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ | ||||||||||||
+|savory|16|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ | ||||||||||||
+|fish|20|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ | ||||||||||||
+|beverages|24|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ | ||||||||||||
+|salads|24|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ | ||||||||||||
+|starches|47|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ | ||||||||||||
+ |pastries| 48 | ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  | 
+|westernDesserts|57|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ | ||||||||||||
+|lightDesserts|73|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ | ||||||||||||
+|easternDesserts|76|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ |✅|||||||||||||
+|soups|8|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ | ||||||||||||
+|sweetPies|106|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅|||||||||||||
+|quick|130|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅| ✅ |||||||||||||
+| meats | 137 | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |
 
 ## Rules
 
@@ -258,3 +258,13 @@ westernDesserts, lightDesserts, easternDesserts, sweetPies, quick, meats.
 All warnings were source-side gaps (missing cookTime in EN source);
 easternDesserts fah-491 cookingMethod filled (Cottura a vapore);
 meats fah-040 cookingMethod filled (Cottura a vapore).
+
+## EL — Greek
+
+808/808 COMPLETE — all 17 categories merged into `recipeTranslationsEl.json`:
+stuffed(4), legumes(11), iceCream(13), vegetables(14), savory(16), fish(20),
+beverages(24), salads(24), soups(8), starches(47), pastries(48),
+westernDesserts(57), lightDesserts(73), easternDesserts(76), sweetPies(106),
+quick(130), meats(137). All warnings were source-side gaps (missing cookTime
+in EN source); easternDesserts fah-491 and meats fah-040 cookingMethod filled
+(Ατμός).
