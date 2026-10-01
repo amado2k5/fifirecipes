@@ -24,7 +24,7 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |soups|8|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |||||||||||
 |sweetPies|106|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅|✅| ✅ |||||||||||
 |quick|130|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅| ✅ | ✅ | ✅ |||||||||||
-| meats | 137 | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |
+| meats | 137 | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |
 
 ## Rules
 
@@ -283,6 +283,6 @@ conversion — now writes any successful, changed translation.
 ## FA — Persian
 
 - Drafts generated for all 17 categories; `norm-fa.mjs` + `fix-amounts` normalize amounts to Persian units.
-- Merged so far: stuffed, legumes, iceCream, vegetables, savory, fish, beverages, salads, soups, starches, pastries, westernDesserts, lightDesserts, easternDesserts, sweetPies, quick → **671 / 808**.
-- Remaining: meats.
+- All 17 categories merged → **808 / 808 COMPLETE**.
+- `meats` merged with 2 non-fatal warnings (fah-078/fah-101 no cookTime in source).
 - Empty `cookTime` fields are source-side gaps (same as other languages).
