@@ -40,7 +40,7 @@ import { hasArt } from '../src/kids/art';
 import { SCENES } from '../src/kids/KidsArt';
 import { getKidsStrings, registerKidsStrings, type KidsStrings } from '../src/kids/strings';
 import { kidsRecipeCard, localizeKidsRecipe, type KidsRecipeTranslation } from '../src/kids/localize';
-import { generateTvData } from './generate-tv-index';
+import { generateTvData, tvEligibleRecipes } from './generate-tv-index';
 import type { KidsRecipeCard } from '../src/kids/types';
 
 const siteUrl = (process.env.PUBLIC_SITE_URL || 'https://fifi.cooking').replace(/\/$/, '');
@@ -83,6 +83,18 @@ const APP_BUNDLE_IDS = ['cooking.fifi.ios', 'cooking.fifi.ipados', 'cooking.fifi
 // /recipe/* already resolves to a static web page when the app is absent;
 // /chapter/* and /kids/* are app-only deep links.
 const IOS_APP_LINK_PATHS = ['/recipe/*', '/chapter/*', '/kids/*'];
+
+// Android App Links for the native Android app (amado2k5/fifirecipes-android),
+// which claims the same paths via an autoVerify intent filter. Android checks
+// the SHA-256 of the certificate that signed the *installed* APK, so list:
+//   1. the upload key (sideloaded / locally built release APKs), and
+//   2. the Play App Signing key — Play re-signs store installs with it. Copy it
+//      from Play Console › Test and release › App integrity › App signing and
+//      append it here, otherwise links from Play installs open in the browser.
+const ANDROID_PACKAGE = 'cooking.fifi.android';
+const ANDROID_CERT_SHA256 = [
+  'EC:E5:11:84:2E:DC:25:B7:F6:7E:94:FF:55:8B:37:16:50:8C:09:A5:CD:DE:BB:93:64:BA:F7:BC:21:5C:4C:78' // upload key
+];
 
 const tables: Partial<Record<SupportedLanguage, TranslationTable>> = {};
 for (const [lang, file] of Object.entries(TRANSLATION_FILES) as [SupportedLanguage, string][]) {
@@ -320,7 +332,11 @@ put('manifest.json', {
 
 // TV-optimised layer for the Fire TV client (docs/tv-api.md): shares the
 // content version and the same `files` map, so existing outputs are untouched.
-await generateTvData({ version, orderedRecipes, tables, kidsIndex, videos: recipeVideos, put });
+// The TV layer refuses a language unless every listed recipe is fully
+// translated in it, so recipes still being translated (the Fatma Abu Haty
+// chapter) are held back here; each joins the TV index automatically once its
+// last language lands.
+await generateTvData({ version, orderedRecipes: tvEligibleRecipes(orderedRecipes, tables), tables, kidsIndex, videos: recipeVideos, put });
 
 await rm(DATA_DIR, { recursive: true, force: true });
 for (const [path, body] of files) {
@@ -579,6 +595,22 @@ await writeFile('public/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<
   await writeFile('public/.well-known/apple-app-site-association', aasa);
   await writeFile('public/apple-app-site-association', aasa);
   await writeFile('public/apple-app-site-association.json', aasa);
+}
+
+// ---------------------------------------------------------------------------
+// Digital Asset Links: verifies the Android app's App Links for fifi.cooking
+// (https://developer.android.com/training/app-links/verify-android-applinks).
+// Android fetches exactly /.well-known/assetlinks.json, which GitHub Pages
+// serves as application/json; paths are declared in the app's manifest.
+{
+  const assetlinks = JSON.stringify([
+    {
+      relation: ['delegate_permission/common.handle_all_urls'],
+      target: { namespace: 'android_app', package_name: ANDROID_PACKAGE, sha256_cert_fingerprints: ANDROID_CERT_SHA256 }
+    }
+  ], null, 2);
+  await mkdir('public/.well-known', { recursive: true });
+  await writeFile('public/.well-known/assetlinks.json', `${assetlinks}\n`);
 }
 
 console.log(`Recipe data ${version}: ${summaries.length} recipes in ${pageCount} index pages, ${files.size} data files, ${orderedRecipes.length} static pages.`);
