@@ -8,13 +8,13 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 
 | slug | recipes | en | fr | es | ja | hi | pt | ru | zh | de | it | el | ur | fa | tr | ku | id | sw | ko | nl | ps | he | pl | sv |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|stuffed|4|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅||||||||||||
-|legumes|11|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅||||||||||||
-|iceCream|13|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅||||||||||||
-|vegetables|14|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅||||||||||||
-|savory|16|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅||||||||||||
-|fish|20|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅||||||||||||
-|beverages|24|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅||||||||||||
+|stuffed|4|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|||||||||||
+|legumes|11|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|||||||||||
+|iceCream|13|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|||||||||||
+|vegetables|14|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|||||||||||
+|savory|16|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|||||||||||
+|fish|20|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|||||||||||
+|beverages|24|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|||||||||||
 |salads|24|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅||||||||||||
 |starches|47|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅||||||||||||
  |pastries| 48 | ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅|  |  |  |  |  |  |  |  |  |  |  | 
@@ -279,3 +279,10 @@ quick(130), meats(137). All warnings were source-side gaps
 filled (بخار میں پکانا). fix-amounts.mjs patched: Urdu is Arabic script, so
 the "result must contain no Arabic-range chars" guard rejected every
 conversion — now writes any successful, changed translation.
+
+## FA — Persian
+
+- Drafts generated for all 17 categories; `norm-fa.mjs` + `fix-amounts` normalize amounts to Persian units.
+- Merged so far: stuffed, legumes, iceCream, vegetables, savory, fish, beverages → **102 / 808**.
+- Remaining: salads, soups, starches, pastries, westernDesserts, lightDesserts, easternDesserts, sweetPies, quick, meats.
+- Empty `cookTime` fields are source-side gaps (same as other languages).
