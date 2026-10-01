@@ -4,7 +4,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { allRecipes } from '../../src/data/recipes';
 
-const SUFFIX: Record<string,string> = { fr:'Fr', es:'Es', de:'De', it:'It', pt:'Pt', nl:'Nl', pl:'Pl', sv:'Sv', ru:'Ru', el:'El', tr:'Tr', id:'Id', sw:'Sw', ku:'Ku', hi:'Hi', ur:'Ur', fa:'Fa', ps:'Ps', he:'He', ja:'Ja', zh:'Zh', ko:'Ko' };
+const SUFFIX: Record<string,string> = { fr:'Fr', es:'Es', de:'De', it:'It', pt:'Pt', nl:'Nl', pl:'Pl', sv:'Sv', ru:'Ru', el:'El', tr:'Tr', id:'Id', sw:'Sw', ku:'Ku', hi:'Hi', ur:'Ur', fa:'Fa', ps:'Ps', he:'He', ja:'Ja', zh:'Zh', ko:'Ko', te:'Te' };
 
 export async function loadMap(lang: string) {
   const map = JSON.parse(await readFile(`scripts/translations/norm/${lang}.json`, 'utf-8'));
@@ -58,13 +58,13 @@ export function makeTr(map: any) {
       }
       const wIdx = s.indexOf(' و ');
       if (wIdx > 0 && /^\d/.test(s.slice(wIdx+3))) {
-        const a = tryParse(s.slice(0,wIdx)), b = tryParse(s.slice(wIdx+3));
+        const a = tryParse(s.slice(0,wIdx), depth+1), b = tryParse(s.slice(wIdx+3), depth+1);
         if (a && b) return a + ' ' + b;
       }
     }
-    return tryParse(s);
+    return tryParse(s, depth);
   }
-  function tryParse(s: string): string | null {
+  function tryParse(s: string, depth=0): string | null {
   let num: string | null = null, rest = s;
   const nm = s.match(NUM_RE);
   if (nm) { num = parseNum(nm[1]); rest = s.slice(nm[0].length).trim(); }
@@ -78,7 +78,7 @@ export function makeTr(map: any) {
         const inner = tail.slice(1,-1);
         const mt = MODS[inner] ?? EXACT[inner];
         if (mt !== undefined) tail = mt ? `(${mt})` : '';
-        else if (inner) tail = ` (${inner})`;
+        else if (inner) { const rec = depth < 2 ? tr(inner, depth+1) : null; tail = rec ? `(${rec})` : ` (${inner})`; }
       } else if (tail) {
         const pt = PREMODS[tail];
         if (pt !== undefined) return (num ? num+' ' : '1 ') + (pt ? pt + ' ' : '') + unit;

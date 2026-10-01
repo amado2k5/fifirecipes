@@ -1185,8 +1185,56 @@ const sv: EstimateStrings = {
   costChip: '≈ {v} / portion'
 };
 
+const te: EstimateStrings = {
+  tab: 'పోషక విలువలు & ఖర్చు',
+  nutritionTitle: 'పోషక విలువ',
+  perServingBasis: 'సర్వింగ్‌కు — ఈ వంటకం సుమారు {n} సర్వింగ్‌లు వస్తుంది',
+  nutrient: 'పోషకం',
+  perServing: 'సర్వింగ్‌కు',
+  calories: 'కేలరీలు',
+  protein: 'ప్రోటీన్',
+  fat: 'కొవ్వు',
+  carbs: 'కార్బోహైడ్రేట్లు',
+  fiber: 'ఫైబర్',
+  sugar: 'చక్కెరలు',
+  kcal: 'కే.కాల్',
+  grams: 'గ్రా',
+  energySplit: 'కేలరీలు ఎక్కడ నుండి వస్తాయి',
+  healthTitle: 'ఆరోగ్య గమనికలు',
+  tags: {
+    highProtein: { label: 'ప్రోటీన్ ఎక్కువ', hint: 'కేలరీల్లో మంచి వాటా ప్రోటీన్ నుండి వస్తుంది.' },
+    goodFiber: { label: 'ఫైబర్ మంచి వనరు', hint: 'సర్వింగ్‌కు సుమారు 5 గ్రా లేదా అంతకుపైన ఫైబర్.' },
+    light: { label: 'తేలికపాటి వంటకం', hint: 'సర్వింగ్‌కు 250 కే.కాల్ కంటే తక్కువ.' },
+    hearty: { label: 'భారీ & నిండుగా', hint: 'సర్వింగ్‌కు 600 కే.కాల్ లేదా అంతకుపైన — ప్రధాన భోజనంగా ఆస్వాదించండి.' },
+    highSugar: { label: 'చక్కెర ఎక్కువ', hint: 'అప్పుడప్పుడు తినే మిఠాయిగా ఆస్వాదించడం మంచిది.' },
+    highFat: { label: 'కొవ్వు ఎక్కువ', hint: 'సగం లేదా అంతకుపైన కేలరీలు కొవ్వు నుండి వస్తాయి.' },
+    lowFat: { label: 'కొవ్వు తక్కువ', hint: 'సర్వింగ్‌కు 5 గ్రా లేదా అంతకంటే తక్కువ కొవ్వు.' },
+    meatFree: { label: 'మాంసం లేదు', hint: 'పదార్థాల్లో మాంసం, కోడి లేదా చేప లేదు.' }
+  },
+  costTitle: 'అంచనా వంటకం ఖర్చు',
+  ingredientGroup: 'పదార్థాల వర్గం',
+  costUsd: 'ఖర్చు (USD)',
+  groups: {
+    protein: 'మాంసం, కోళ్లు & సీఫుడ్',
+    dairyEggs: 'పాల ఉత్పత్తులు, నెయ్యి & గుడ్లు',
+    produce: 'కూరగాయలు, ఆకుకూరలు & పండ్లు',
+    grains: 'బియ్యం, పిండి, పాస్తా & పప్పులు',
+    fats: 'వంట నూనెలు & కొవ్వులు',
+    sweeteners: 'చక్కెర, తేనె & పాకాలు',
+    specialty: 'గింజలు, ఎండుపండ్లు & ప్రత్యేక వస్తువులు',
+    spices: 'మసాలాలు & రుచి పదార్థాలు'
+  },
+  total: 'అంచనా మొత్తం',
+  costPerServing: 'సర్వింగ్‌కు',
+  estimated: 'అంచనా',
+  nutritionNote: 'వంటకం పదార్థాల ఆధారంగా సాధారణ పోషక డేటాతో లెక్కించిన సుమారు విలువలు. ఇవి ప్రొఫెషనల్ ఆహార సలహాకు ప్రత్యామ్నాయం కావు.',
+  costNote: 'సగటు US సూపర్‌మార్కెట్ ధరల ఆధారితం; నిజమైన ఖర్చు దేశం, సీజన్ మరియు బ్రాండ్ బట్టి మారుతుంది.',
+  kcalChip: '≈ సర్వింగ్‌కు {v} కే.కాల్',
+  costChip: '≈ సర్వింగ్‌కు {v}'
+};
+
 const ESTIMATE_STRINGS: Partial<Record<SupportedLanguage, EstimateStrings>> = {
-  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps, he, pl, sv
+  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps, he, pl, sv, te
 };
 
 export function getEstimateStrings(lang: SupportedLanguage): EstimateStrings {

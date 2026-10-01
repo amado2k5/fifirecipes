@@ -141,7 +141,7 @@ export interface RecipeSummary {
 
 export type SupportedLanguage =
   | 'ar' | 'en' | 'fr' | 'es' | 'de' | 'it' | 'tr' | 'ru' | 'pt' | 'ja' 
-  | 'zh' | 'hi' | 'ko' | 'id' | 'fa' | 'el' | 'nl' | 'pl' | 'sv' | 'ur' | 'ku' | 'sw' | 'ps' | 'he';
+  | 'zh' | 'hi' | 'ko' | 'id' | 'fa' | 'el' | 'nl' | 'pl' | 'sv' | 'ur' | 'ku' | 'sw' | 'ps' | 'he' | 'te';
 
 export interface LanguageInfo {
   code: SupportedLanguage;

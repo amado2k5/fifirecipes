@@ -102,6 +102,18 @@
   font-family: 'Vazirmatn', 'Tajawal', system-ui, sans-serif;
 }
 
+/* Telugu UI is set in Noto Sans Telugu. Kept outside @layer base so it
+   wins over Tailwind's font-sans utility on <body>. */
+[lang="te"] body,
+[lang="te"] .font-sans,
+[lang="te"] .font-serif,
+[lang="te"] button,
+[lang="te"] input,
+[lang="te"] select,
+[lang="te"] textarea {
+  font-family: 'Noto Sans Telugu', 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
 /* Custom subtle scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
