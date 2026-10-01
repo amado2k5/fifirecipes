@@ -8,23 +8,23 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 
 | slug | recipes | en | fr | es | ja | hi | pt | ru | zh | de | it | el | ur | fa | tr | ku | id | sw | ko | nl | ps | he | pl | sv |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|stuffed|4|✅|✅|✅|✅|✅|||||||||||||||||||
-|legumes|11|✅|✅|✅|✅|✅|||||||||||||||||||
-|iceCream|13|✅|✅|✅|✅|✅|||||||||||||||||||
-|vegetables|14|✅|✅|✅|✅|✅|||||||||||||||||||
-|savory|16|✅|✅|✅|✅|✅|||||||||||||||||||
-|fish|20|✅|✅|✅|✅|✅|||||||||||||||||||
+|stuffed|4|✅|✅|✅|✅|✅|✅||||||||||||||||||
+|legumes|11|✅|✅|✅|✅|✅|✅||||||||||||||||||
+|iceCream|13|✅|✅|✅|✅|✅|✅||||||||||||||||||
+|vegetables|14|✅|✅|✅|✅|✅|✅||||||||||||||||||
+|savory|16|✅|✅|✅|✅|✅|✅||||||||||||||||||
+|fish|20|✅|✅|✅|✅|✅|✅||||||||||||||||||
 |beverages|24|✅|✅|✅|✅|✅|||||||||||||||||||
-|salads|24|✅|✅|✅|✅|✅|||||||||||||||||||
-|starches|47|✅|✅|✅|✅|✅|||||||||||||||||||
- | pastries | 48 | ✅ | ✅ | ✅ | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
-|westernDesserts|57|✅|✅|✅|✅|✅|||||||||||||||||||
-|lightDesserts|73|✅|✅|✅|✅|✅|||||||||||||||||||
-|easternDesserts|76|✅|✅|✅|✅|✅|||||||||||||||||||
-|soups|8|✅|✅|✅|✅|✅|||||||||||||||||||
-|sweetPies|106|✅|✅|✅|✅|✅|||||||||||||||||||
-|quick|130|✅|✅|✅|✅|✅|||||||||||||||||||
-| meats | 137 | ✅ | ✅ | ✅ | ✅ |✅|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|salads|24|✅|✅|✅|✅|✅|✅||||||||||||||||||
+|starches|47|✅|✅|✅|✅|✅|✅||||||||||||||||||
+ | pastries | 48 | ✅ | ✅ | ✅ | ✅ | ✅ |✅|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+|westernDesserts|57|✅|✅|✅|✅|✅|✅||||||||||||||||||
+|lightDesserts|73|✅|✅|✅|✅|✅|✅||||||||||||||||||
+|easternDesserts|76|✅|✅|✅|✅|✅|✅||||||||||||||||||
+|soups|8|✅|✅|✅|✅|✅|✅||||||||||||||||||
+|sweetPies|106|✅|✅|✅|✅|✅|✅||||||||||||||||||
+|quick|130|✅|✅|✅|✅|✅| ✅ ||||||||||||||||||
+| meats | 137 | ✅ | ✅ | ✅ | ✅ |✅| ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 ## Rules
 
@@ -67,23 +67,23 @@ Chapter 10: Fatma Abu Haty Channel Recipes — 808 recipes, EN fills authored pe
 
 | File | Count | Status |
 |------|-------|--------|
-|stuffed|4|✅ merged||||✅|||||||||||||||||||
-|legumes|11|✅ merged||||✅|||||||||||||||||||
-|iceCream|13|✅ merged||||✅|||||||||||||||||||
-|vegetables|14|✅ merged||||✅|||||||||||||||||||
-|savory|16|✅ merged||||✅|||||||||||||||||||
-|fish|20|✅ merged||||✅|||||||||||||||||||
-|beverages|24|✅ merged||||✅|||||||||||||||||||
-|salads|24|✅ merged||||✅|||||||||||||||||||
-|starches|47|✅ merged||||✅|||||||||||||||||||
- | pastries | 48 | ✅ merged |  |  |  | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
-|westernDesserts|57|✅ merged||||✅|||||||||||||||||||
-|lightDesserts|73|✅ merged||||✅|||||||||||||||||||
-|easternDesserts|76|✅ merged (warn: fah-493/495/499/500/526 no cookTime)|||✅|✅|||||||||||||||||||
-|sweetPies|106|✅ merged (clean)||||✅|||||||||||||||||||
-|soups|8|✅ merged|||✅|✅|||||||||||||||||||
-|quick|130|✅ merged (clean)||||✅|||||||||||||||||||
-| meats | 137 | ✅ merged (warn: fah-078/101 no cookTime in source) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|stuffed|4|✅ merged|
+|legumes|11|✅ merged|
+|iceCream|13|✅ merged|
+|vegetables|14|✅ merged|
+|savory|16|✅ merged|
+|fish|20|✅ merged|
+|beverages|24|✅ merged|
+|salads|24|✅ merged|
+|starches|47|✅ merged|
+ | pastries | 48 | ✅ merged |
+|westernDesserts|57|✅ merged|
+|lightDesserts|73|✅ merged|
+|easternDesserts|76|✅ merged (warn: fah-493/495/499/500/526 no cookTime)|
+|sweetPies|106|✅ merged (clean)|
+|soups|8|✅ merged|
+|quick|130|✅ merged (clean)|
+| meats | 137 | ✅ merged (warn: fah-078/101 no cookTime in source) |
 
 EN merged so far: **808 / 808 — COMPLETE**
 
@@ -97,23 +97,23 @@ fah-078/fah-101 no cookTime — all absent from source META).
 
 | File | Count | Status |
 |------|-------|--------|
-|stuffed|4|✅ merged||||✅|||||||||||||||||||
-|legumes|11|✅ merged||||✅|||||||||||||||||||
-|iceCream|13|✅ merged||||✅|||||||||||||||||||
-|vegetables|14|✅ merged||||✅|||||||||||||||||||
-|savory|16|✅ merged||||✅|||||||||||||||||||
-|fish|20|✅ merged||||✅|||||||||||||||||||
-|beverages|24|✅ merged||||✅|||||||||||||||||||
-|salads|24|✅ merged||||✅|||||||||||||||||||
-|starches|47|✅ merged||||✅|||||||||||||||||||
- | pastries | 48 | ✅ merged |  |  |  | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
-|soups|8|✅ merged|||✅|✅|||||||||||||||||||
-|westernDesserts|57|✅ merged||||✅|||||||||||||||||||
-|lightDesserts|73|✅ merged||||✅|||||||||||||||||||
-|easternDesserts|76|✅ merged|||✅|✅|||||||||||||||||||
-|sweetPies|106|✅ merged||||✅|||||||||||||||||||
-|quick|130|✅ merged (clean)||||✅|||||||||||||||||||
-| meats | 137 | ✅ merged |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|stuffed|4|✅ merged|
+|legumes|11|✅ merged|
+|iceCream|13|✅ merged|
+|vegetables|14|✅ merged|
+|savory|16|✅ merged|
+|fish|20|✅ merged|
+|beverages|24|✅ merged|
+|salads|24|✅ merged|
+|starches|47|✅ merged|
+ | pastries | 48 | ✅ merged |
+|soups|8|✅ merged|
+|westernDesserts|57|✅ merged|
+|lightDesserts|73|✅ merged|
+|easternDesserts|76|✅ merged|
+|sweetPies|106|✅ merged|
+|quick|130|✅ merged (clean)|
+| meats | 137 | ✅ merged |
 
 ES merged so far: **808 / 808 — COMPLETE**
 
@@ -125,23 +125,23 @@ fah-078/fah-101 no cookTime — all absent from source META).
 
 | File | Count | Status |
 |------|-------|--------|
-|stuffed|4|✅ merged||||✅|||||||||||||||||||
-|legumes|11|✅ merged||||✅|||||||||||||||||||
-|iceCream|13|✅ merged||||✅|||||||||||||||||||
-|vegetables|14|✅ merged||||✅|||||||||||||||||||
-|savory|16|✅ merged||||✅|||||||||||||||||||
-|fish|20|✅ merged||||✅|||||||||||||||||||
-|beverages|24|✅ merged||||✅|||||||||||||||||||
-|salads|24|✅ merged||||✅|||||||||||||||||||
-|starches|47|✅ merged||||✅|||||||||||||||||||
- | pastries | 48 | ✅ merged |  |  |  | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
-|soups|8|✅ merged|||✅|✅|||||||||||||||||||
-|westernDesserts|57|✅ merged||||✅|||||||||||||||||||
-|lightDesserts|73|✅ merged||||✅|||||||||||||||||||
-|easternDesserts|76|✅ merged (warn: fah-491 no cookingMethod; fah-493/495/499/500/526 no cookTime — all absent from source)|||✅|✅|||||||||||||||||||
-|sweetPies|106|✅ merged|||✅|✅|||||||||||||||||||
-|quick|130|✅ merged (clean)|||✅|✅|||||||||||||||||||
-| meats | 137 | ✅ merged (warn: fah-040 no cookingMethod; fah-078/101 no cookTime — absent from source) |  |  | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|stuffed|4|✅ merged|
+|legumes|11|✅ merged|
+|iceCream|13|✅ merged|
+|vegetables|14|✅ merged|
+|savory|16|✅ merged|
+|fish|20|✅ merged|
+|beverages|24|✅ merged|
+|salads|24|✅ merged|
+|starches|47|✅ merged|
+ | pastries | 48 | ✅ merged |
+|soups|8|✅ merged|
+|westernDesserts|57|✅ merged|
+|lightDesserts|73|✅ merged|
+|easternDesserts|76|✅ merged (warn: fah-491 no cookingMethod; fah-493/495/499/500/526 no cookTime — all absent from source)|
+|sweetPies|106|✅ merged|
+|quick|130|✅ merged (clean)|
+| meats | 137 | ✅ merged (warn: fah-040 no cookingMethod; fah-078/101 no cookTime — absent from source) |
 
 JA merged so far: **808 / 808 — COMPLETE**
 
@@ -172,3 +172,27 @@ absent from source META; fah-040 cookingMethod filled with "भाप में 
 | meats | 137 | ✅ merged (warn: fah-078/101 no cookTime — absent from source) |
 
 HI merged so far: **808 / 808 — COMPLETE**
+
+## PT Translation Pass
+
+| File | Count | Status |
+|------|-------|--------|
+| stuffed | 4 | ✅ merged |
+| legumes | 11 | ✅ merged |
+| iceCream | 13 | ✅ merged |
+| vegetables | 14 | ✅ merged |
+| savory | 16 | ✅ merged |
+| fish | 20 | ✅ merged |
+| beverages | 24 | ✅ merged |
+| salads | 24 | ✅ merged |
+| starches | 47 | ✅ merged |
+| pastries | 48 | ✅ merged |
+| soups | 8 | ✅ merged |
+| westernDesserts | 57 | ✅ merged |
+| lightDesserts | 73 | ✅ merged |
+| easternDesserts | 76 | ✅ merged |
+| sweetPies | 106 | ✅ merged |
+| quick | 130 | ✅ merged |
+| meats | 137 | ✅ merged |
+
+PT merged so far: **808 / 808** — COMPLETE
