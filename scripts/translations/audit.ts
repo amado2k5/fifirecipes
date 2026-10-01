@@ -12,7 +12,7 @@ import { readFileSync } from 'node:fs';
 import { allRecipes } from '../../src/data/recipes';
 import type { RecipeTranslation } from '../../src/utils/recipeLocalization';
 
-export const LANGS = ['en', 'de', 'el', 'es', 'fa', 'fr', 'he', 'hi', 'id', 'it', 'ja', 'ko', 'ku', 'nl', 'pl', 'ps', 'pt', 'ru', 'sv', 'sw', 'tr', 'ur', 'zh'] as const;
+export const LANGS = ['en', 'de', 'el', 'es', 'fa', 'fr', 'he', 'hi', 'id', 'it', 'ja', 'ko', 'ku', 'nl', 'pl', 'ps', 'pt', 'ru', 'sv', 'sw', 'tr', 'ur', 'zh', 'te'] as const;
 
 export const fileOf = (lang: string) =>
   `src/data/recipeTranslations${lang === 'en' ? '' : lang[0].toUpperCase() + lang.slice(1)}.json`;

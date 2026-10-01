@@ -23,7 +23,7 @@ import { fatmaAbuHatyRecipes } from '../../src/data/chapters/fatmaAbuHaty';
 const SUFFIX: Record<string, string> = {
   en: '', fr: 'Fr', es: 'Es', ja: 'Ja', hi: 'Hi', pt: 'Pt', ru: 'Ru', zh: 'Zh', de: 'De',
   it: 'It', el: 'El', ur: 'Ur', fa: 'Fa', tr: 'Tr', ku: 'Ku', id: 'Id', sw: 'Sw',
-  ko: 'Ko', nl: 'Nl', ps: 'Ps', he: 'He', pl: 'Pl', sv: 'Sv'
+  ko: 'Ko', nl: 'Nl', ps: 'Ps', he: 'He', pl: 'Pl', sv: 'Sv', te: 'Te'
 };
 
 const recipesById = new Map([...allRecipes, ...fatmaAbuHatyRecipes].map(r => [r.id, r]));
