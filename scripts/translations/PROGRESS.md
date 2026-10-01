@@ -8,23 +8,23 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 
 | slug | recipes | en | fr | es | ja | hi | pt | ru | zh | de | it | el | ur | fa | tr | ku | id | sw | ko | nl | ps | he | pl | sv |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|stuffed|4|✅|✅|✅|✅|✅|✅||||||||||||||||||
-|legumes|11|✅|✅|✅|✅|✅|✅||||||||||||||||||
-|iceCream|13|✅|✅|✅|✅|✅|✅||||||||||||||||||
-|vegetables|14|✅|✅|✅|✅|✅|✅||||||||||||||||||
-|savory|16|✅|✅|✅|✅|✅|✅||||||||||||||||||
-|fish|20|✅|✅|✅|✅|✅|✅||||||||||||||||||
-|beverages|24|✅|✅|✅|✅|✅|||||||||||||||||||
-|salads|24|✅|✅|✅|✅|✅|✅||||||||||||||||||
-|starches|47|✅|✅|✅|✅|✅|✅||||||||||||||||||
- | pastries | 48 | ✅ | ✅ | ✅ | ✅ | ✅ |✅|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
-|westernDesserts|57|✅|✅|✅|✅|✅|✅||||||||||||||||||
-|lightDesserts|73|✅|✅|✅|✅|✅|✅||||||||||||||||||
-|easternDesserts|76|✅|✅|✅|✅|✅|✅||||||||||||||||||
-|soups|8|✅|✅|✅|✅|✅|✅||||||||||||||||||
-|sweetPies|106|✅|✅|✅|✅|✅|✅||||||||||||||||||
-|quick|130|✅|✅|✅|✅|✅| ✅ ||||||||||||||||||
-| meats | 137 | ✅ | ✅ | ✅ | ✅ |✅| ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|stuffed|4|✅|✅|✅|✅|✅|✅| ✅ |||||||||||||||||
+|legumes|11|✅|✅|✅|✅|✅|✅| ✅ |||||||||||||||||
+|iceCream|13|✅|✅|✅|✅|✅|✅| ✅ |||||||||||||||||
+|vegetables|14|✅|✅|✅|✅|✅|✅| ✅ |||||||||||||||||
+|savory|16|✅|✅|✅|✅|✅|✅| ✅ |||||||||||||||||
+|fish|20|✅|✅|✅|✅|✅|✅| ✅ |||||||||||||||||
+|beverages|24|✅|✅|✅|✅|✅|| ✅ |||||||||||||||||
+|salads|24|✅|✅|✅|✅|✅|✅| ✅ |||||||||||||||||
+|starches|47|✅|✅|✅|✅|✅|✅| ✅ |||||||||||||||||
+ | pastries | 48 | ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+|westernDesserts|57|✅|✅|✅|✅|✅|✅| ✅ |||||||||||||||||
+|lightDesserts|73|✅|✅|✅|✅|✅|✅| ✅ |||||||||||||||||
+|easternDesserts|76|✅|✅|✅|✅|✅|✅| ✅ |||||||||||||||||
+|soups|8|✅|✅|✅|✅|✅|✅| ✅ |||||||||||||||||
+|sweetPies|106|✅|✅|✅|✅|✅|✅| ✅ |||||||||||||||||
+|quick|130|✅|✅|✅|✅|✅| ✅ | ✅ |||||||||||||||||
+| meats | 137 | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 ## Rules
 
@@ -196,3 +196,27 @@ HI merged so far: **808 / 808 — COMPLETE**
 | meats | 137 | ✅ merged |
 
 PT merged so far: **808 / 808** — COMPLETE
+
+## RU Translation Pass
+
+| File | Count | Status |
+|------|-------|--------|
+| stuffed | 4 | ✅ merged |
+| legumes | 11 | ✅ merged |
+| iceCream | 13 | ✅ merged |
+| vegetables | 14 | ✅ merged |
+| savory | 16 | ✅ merged |
+| fish | 20 | ✅ merged |
+| beverages | 24 | ✅ merged |
+| salads | 24 | ✅ merged |
+| starches | 47 | ✅ merged |
+| pastries | 48 | ✅ merged |
+| soups | 8 | ✅ merged |
+| westernDesserts | 57 | ✅ merged |
+| lightDesserts | 73 | ✅ merged |
+| easternDesserts | 76 | ✅ merged |
+| sweetPies | 106 | ✅ merged |
+| quick | 130 | ✅ merged |
+| meats | 137 | ✅ merged (warn: fah-078/101 no cookTime — absent from source) |
+
+RU merged so far: **808 / 808** — COMPLETE
