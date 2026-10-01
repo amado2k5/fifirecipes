@@ -18,8 +18,8 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |salads|24|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅| ✅ |||||||||||
 |starches|47|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |||||||||||
  |pastries| 48 | ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |  |  |  |  |  |  |  |  |  |  | 
-|westernDesserts|57|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅||||||||||||
-|lightDesserts|73|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅||||||||||||
+|westernDesserts|57|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |||||||||||
+|lightDesserts|73|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |||||||||||
 |easternDesserts|76|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ |✅|✅||||||||||||
 |soups|8|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |||||||||||
 |sweetPies|106|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅|✅||||||||||||
@@ -283,6 +283,6 @@ conversion — now writes any successful, changed translation.
 ## FA — Persian
 
 - Drafts generated for all 17 categories; `norm-fa.mjs` + `fix-amounts` normalize amounts to Persian units.
-- Merged so far: stuffed, legumes, iceCream, vegetables, savory, fish, beverages, salads, soups, starches, pastries → **229 / 808**.
-- Remaining: westernDesserts, lightDesserts, easternDesserts, sweetPies, quick, meats.
+- Merged so far: stuffed, legumes, iceCream, vegetables, savory, fish, beverages, salads, soups, starches, pastries, westernDesserts, lightDesserts → **359 / 808**.
+- Remaining: easternDesserts, sweetPies, quick, meats.
 - Empty `cookTime` fields are source-side gaps (same as other languages).
