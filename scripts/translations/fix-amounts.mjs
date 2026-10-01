@@ -80,7 +80,8 @@ for (const f of files) {
   const fix = (id, label, cur) => {
     if (typeof cur !== 'string' || !AR.test(cur)) return cur;
     const t = tr(cur);
-    if (t !== null && !AR.test(t)) { fixed++; return t; }
+    if (t !== null && t !== cur) { fixed++; return t; }
+    if (t !== null && !AR.test(t)) return cur;
     unmapped.add(`${id}\t${label}\t${cur}`);
     return cur;
   };
