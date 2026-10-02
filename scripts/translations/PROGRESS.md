@@ -23,7 +23,7 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |easternDesserts|76|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ |✅|✅| ✅ |||||||||||
 |soups|8|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |||||||||||
 |sweetPies|106|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅|✅| ✅ |||||||||||
-|quick|130|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅| ✅ | ✅ | ✅ |||||||||||
+|quick|130|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅| ✅ | ✅ | ✅ ||| ✅ ||||||||
 | meats | 137 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |  | ✅ |  |  |  |  |  |  |  |
 
 ## Rules
@@ -294,3 +294,4 @@ conversion — now writes any successful, changed translation.
   `sejumput`, `sesuai selera`).
 - `meats` merged with 3 non-fatal warnings (fah-040 no cookingMethod;
   fah-078/fah-101 no cookTime — all absent from source).
+- `quick` (130) merged — table at 1,340 entries (267/808 fah-*).
