@@ -85,7 +85,8 @@ const TV_ROW_TITLES: Partial<Record<SupportedLanguage, { featured: string; recen
   ps: { featured: 'غوره شوي', recent: 'په وروستي کې ورزیاتې شوي' },
   he: { featured: 'מומלצות', recent: 'נוספו לאחרונה' },
   pl: { featured: 'Polecane', recent: 'Ostatnio dodane' },
-  sv: { featured: 'Utvalda', recent: 'Senast tillagda' }
+  sv: { featured: 'Utvalda', recent: 'Senast tillagda' },
+  te: { featured: 'ప్రత్యేక వంటకాలు', recent: 'ఇటీవల జోడించినవి' }
 };
 
 const rowTitles = (lang: SupportedLanguage) => TV_ROW_TITLES[lang] ?? TV_ROW_TITLES.en!;
