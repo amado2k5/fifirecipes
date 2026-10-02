@@ -19,7 +19,7 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |starches|47|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||✅|||||||||
  |pastries| 48 | ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |  | ✅ |  |  |  |  |  |  |  |  | 
 |westernDesserts|57|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ || ✅ |||||||||
-|lightDesserts|73|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |||||||||||
+|lightDesserts|73|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ || ✅ |||||||||
 |easternDesserts|76|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ |✅|✅| ✅ || ✅ |||||||||
 |soups|8|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||✅|||||||||
 |sweetPies|106|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅|✅| ✅ |||||||||||
@@ -297,4 +297,5 @@ conversion — now writes any successful, changed translation.
 - fah-138..fah-265 batch merged clean: 0 Arabic remnants, 0 empty fields; 15 empty `cookTime` are source-side gaps (same as en).
 - `pastries` (48), `savory` (16), `iceCream` (13), `beverages` (24) merged clean → **496 / 808**.
 - `easternDesserts` (76), `westernDesserts` (57) merged clean → **629 / 808**; 6 empty `cookTime` (fah-495/499/500/526/539/565) are source-side gaps (same as en).
-- Remaining: lightDesserts (73), sweetPies (106) = 179.
+- `lightDesserts` (73) merged clean → **702 / 808**; 12 empty `cookTime` are source-side gaps (no-bake recipes).
+- Remaining: sweetPies (106) = 106.
