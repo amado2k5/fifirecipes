@@ -18,11 +18,11 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |salads|24|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅| ✅ ||| ✅ ||||||||
 |starches|47|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ ||| ✅ ||||||||
  |pastries| 48 | ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |  |  | ✅ |  |  |  |  |  |  |  | 
-|westernDesserts|57|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |||||||||||
-|lightDesserts|73|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |||||||||||
-|easternDesserts|76|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ |✅|✅| ✅ |||||||||||
+|westernDesserts|57|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ ||| ✅ ||||||||
+|lightDesserts|73|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ ||| ✅ ||||||||
+|easternDesserts|76|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ |✅|✅| ✅ ||| ✅ ||||||||
 |soups|8|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ ||| ✅ ||||||||
-|sweetPies|106|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅|✅| ✅ |||||||||||
+|sweetPies|106|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅|✅| ✅ ||| ✅ ||||||||
 |quick|130|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅| ✅ | ✅ | ✅ ||| ✅ ||||||||
 | meats | 137 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |  | ✅ |  |  |  |  |  |  |  |
 
@@ -304,3 +304,7 @@ conversion — now writes any successful, changed translation.
   merged — 101 recipes. Table at 1,569 entries (496/808 fah-*).
   3 no-cookTime warnings (fah-316/782/807) are source-side gaps —
   all confirmed empty in EN source.
+- `westernDesserts` (57), `lightDesserts` (73), `easternDesserts` (76),
+  `sweetPies` (106) merged — 312 recipes. Table at 1,881 entries —
+  **808/808 fah-* complete**. Full audit: 0 incomplete, 0 Arabic leaks.
+  `cookTime` warnings during merge are source-side gaps (no-bake recipes).
