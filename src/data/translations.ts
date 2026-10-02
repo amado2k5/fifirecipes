@@ -24,7 +24,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'ps', name: 'Pashto', nativeName: 'پښتو', dir: 'rtl', flag: '🇦🇫' },
   { code: 'he', name: 'Hebrew', nativeName: 'עברית', dir: 'rtl', flag: '🌐' },
   { code: 'pl', name: 'Polish', nativeName: 'Polski', dir: 'ltr', flag: '🇵🇱' },
-  { code: 'sv', name: 'Swedish', nativeName: 'Svenska', dir: 'ltr', flag: '🇸🇪' }
+  { code: 'sv', name: 'Swedish', nativeName: 'Svenska', dir: 'ltr', flag: '🇸🇪' },
+  { code: 'te', name: 'Telugu', nativeName: 'తెలుగు', dir: 'ltr', flag: '🇮🇳' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -103,6 +104,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'he' || (primaryCode as string) === 'iw') {
       return { language: 'he', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'te') {
+      return { language: 'te', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
