@@ -10,14 +10,14 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |stuffed|4|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||✅|||||||||
 |legumes|11|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||✅|||||||||
-|iceCream|13|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|||||||||||
+|iceCream|13|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|| ✅ |||||||||
 |vegetables|14|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||✅|||||||||
-|savory|16|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|||||||||||
+|savory|16|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|| ✅ |||||||||
 |fish|20|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||✅|||||||||
-|beverages|24|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|||||||||||
+|beverages|24|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|| ✅ |||||||||
 |salads|24|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||✅|||||||||
 |starches|47|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||✅|||||||||
- |pastries| 48 | ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |  |  |  |  |  |  |  |  |  |  | 
+ |pastries| 48 | ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |  | ✅ |  |  |  |  |  |  |  |  | 
 |westernDesserts|57|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |||||||||||
 |lightDesserts|73|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |||||||||||
 |easternDesserts|76|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ |✅|✅| ✅ |||||||||||
@@ -155,14 +155,14 @@ absent from source META; fah-040 cookingMethod filled with "भाप में 
 |------|-------|--------|
 | stuffed | 4 | ✅ merged |
 | legumes | 11 | ✅ merged |
-| iceCream | 13 | ✅ merged |
+| iceCream | 13 | ✅ merged |||||||||||||| ✅ |||||||||
 | vegetables | 14 | ✅ merged |
-| savory | 16 | ✅ merged |
+| savory | 16 | ✅ merged |||||||||||||| ✅ |||||||||
 | fish | 20 | ✅ merged |
-| beverages | 24 | ✅ merged |
+| beverages | 24 | ✅ merged |||||||||||||| ✅ |||||||||
 | salads | 24 | ✅ merged |
 | starches | 47 | ✅ merged |
-| pastries | 48 | ✅ merged |
+| pastries | 48 | ✅ merged |||||||||||||| ✅ |||||||||
 | soups | 8 | ✅ merged |
 | westernDesserts | 57 | ✅ merged |
 | lightDesserts | 73 | ✅ merged |
@@ -179,14 +179,14 @@ HI merged so far: **808 / 808 — COMPLETE**
 |------|-------|--------|
 | stuffed | 4 | ✅ merged |
 | legumes | 11 | ✅ merged |
-| iceCream | 13 | ✅ merged |
+| iceCream | 13 | ✅ merged |||||||||||||| ✅ |||||||||
 | vegetables | 14 | ✅ merged |
-| savory | 16 | ✅ merged |
+| savory | 16 | ✅ merged |||||||||||||| ✅ |||||||||
 | fish | 20 | ✅ merged |
-| beverages | 24 | ✅ merged |
+| beverages | 24 | ✅ merged |||||||||||||| ✅ |||||||||
 | salads | 24 | ✅ merged |
 | starches | 47 | ✅ merged |
-| pastries | 48 | ✅ merged |
+| pastries | 48 | ✅ merged |||||||||||||| ✅ |||||||||
 | soups | 8 | ✅ merged |
 | westernDesserts | 57 | ✅ merged |
 | lightDesserts | 73 | ✅ merged |
@@ -203,14 +203,14 @@ PT merged so far: **808 / 808** — COMPLETE
 |------|-------|--------|
 | stuffed | 4 | ✅ merged |
 | legumes | 11 | ✅ merged |
-| iceCream | 13 | ✅ merged |
+| iceCream | 13 | ✅ merged |||||||||||||| ✅ |||||||||
 | vegetables | 14 | ✅ merged |
-| savory | 16 | ✅ merged |
+| savory | 16 | ✅ merged |||||||||||||| ✅ |||||||||
 | fish | 20 | ✅ merged |
-| beverages | 24 | ✅ merged |
+| beverages | 24 | ✅ merged |||||||||||||| ✅ |||||||||
 | salads | 24 | ✅ merged |
 | starches | 47 | ✅ merged |
-| pastries | 48 | ✅ merged |
+| pastries | 48 | ✅ merged |||||||||||||| ✅ |||||||||
 | soups | 8 | ✅ merged |
 | westernDesserts | 57 | ✅ merged |
 | lightDesserts | 73 | ✅ merged |
@@ -227,14 +227,14 @@ RU merged so far: **808 / 808** — COMPLETE
 |------|-------|--------|
 | stuffed | 4 | ✅ merged |
 | legumes | 11 | ✅ merged |
-| iceCream | 13 | ✅ merged |
+| iceCream | 13 | ✅ merged |||||||||||||| ✅ |||||||||
 | vegetables | 14 | ✅ merged |
-| savory | 16 | ✅ merged |
+| savory | 16 | ✅ merged |||||||||||||| ✅ |||||||||
 | fish | 20 | ✅ merged |
-| beverages | 24 | ✅ merged |
+| beverages | 24 | ✅ merged |||||||||||||| ✅ |||||||||
 | salads | 24 | ✅ merged |
 | starches | 47 | ✅ merged |
-| pastries | 48 | ✅ merged |
+| pastries | 48 | ✅ merged |||||||||||||| ✅ |||||||||
 | soups | 8 | ✅ merged |
 | westernDesserts | 57 | ✅ merged |
 | lightDesserts | 73 | ✅ merged |
@@ -295,4 +295,5 @@ conversion — now writes any successful, changed translation.
 - 3 non-fatal warnings: fah-040 no cookingMethod; fah-078/fah-101 no cookTime — all absent from source.
 - `quick` merged clean: 0 Arabic remnants, 0 empty fields; audit shows 0 incomplete ku fah-* entries.
 - fah-138..fah-265 batch merged clean: 0 Arabic remnants, 0 empty fields; 15 empty `cookTime` are source-side gaps (same as en).
-- Remaining: pastries (48), savory (16), easternDesserts (76), westernDesserts (57), lightDesserts (73), sweetPies (106), iceCream (13), beverages (24) = 413.
+- `pastries` (48), `savory` (16), `iceCream` (13), `beverages` (24) merged clean → **496 / 808**.
+- Remaining: easternDesserts (76), westernDesserts (57), lightDesserts (73), sweetPies (106) = 312.
