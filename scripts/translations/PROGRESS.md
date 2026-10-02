@@ -24,7 +24,7 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |soups|8|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |||||||||||
 |sweetPies|106|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅|✅| ✅ |||||||||||
 |quick|130|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅| ✅ | ✅ | ✅ |||||||||||
-| meats | 137 | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |
+| meats | 137 | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  | ✅ |  |  |  |  |  |  |  |  |
 
 ## Rules
 
@@ -286,3 +286,9 @@ conversion — now writes any successful, changed translation.
 - All 17 categories merged → **808 / 808 COMPLETE**.
 - `meats` merged with 2 non-fatal warnings (fah-078/fah-101 no cookTime in source).
 - Empty `cookTime` fields are source-side gaps (same as other languages).
+
+## KU — Kurdish (Kurmanji)
+
+- `norm/ku.json` extended with Kurdish unit/meta strings (kes, saet, min, etc.); `fix-amounts` `نصف`-before-`نص` parser fix applied.
+- `meats` merged (137/137) → **137 / 808**.
+- 3 non-fatal warnings: fah-040 no cookingMethod; fah-078/fah-101 no cookTime — all absent from source.
