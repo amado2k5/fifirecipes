@@ -8,20 +8,20 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 
 | slug | recipes | en | fr | es | ja | hi | pt | ru | zh | de | it | el | ur | fa | tr | ku | id | sw | ko | nl | ps | he | pl | sv |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|stuffed|4|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|||||||||||
-|legumes|11|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|||||||||||
+|stuffed|4|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||✅|||||||||
+|legumes|11|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||✅|||||||||
 |iceCream|13|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|||||||||||
-|vegetables|14|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|||||||||||
+|vegetables|14|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||✅|||||||||
 |savory|16|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|||||||||||
-|fish|20|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|||||||||||
+|fish|20|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||✅|||||||||
 |beverages|24|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|||||||||||
-|salads|24|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅| ✅ |||||||||||
-|starches|47|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |||||||||||
+|salads|24|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||✅|||||||||
+|starches|47|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||✅|||||||||
  |pastries| 48 | ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |  |  |  |  |  |  |  |  |  |  | 
 |westernDesserts|57|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |||||||||||
 |lightDesserts|73|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |||||||||||
 |easternDesserts|76|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ |✅|✅| ✅ |||||||||||
-|soups|8|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |||||||||||
+|soups|8|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||✅|||||||||
 |sweetPies|106|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅|✅| ✅ |||||||||||
 |quick|130|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅| ✅ | ✅ | ✅ ||✅|||||||||
 | meats | 137 | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  | ✅ |  |  |  |  |  |  |  |  |
@@ -291,5 +291,8 @@ conversion — now writes any successful, changed translation.
 
 - `norm/ku.json` extended with Kurdish unit/meta strings (kes, saet, min, etc.); `fix-amounts` `نصف`-before-`نص` parser fix applied.
 - `meats` merged (137/137); `quick` merged (130/130) → **267 / 808**.
+- `fish` (20), `vegetables` (14), `legumes` (11), `stuffed` (4), `starches` (47), `soups` (8), `salads` (24) merged → **395 / 808**.
 - 3 non-fatal warnings: fah-040 no cookingMethod; fah-078/fah-101 no cookTime — all absent from source.
 - `quick` merged clean: 0 Arabic remnants, 0 empty fields; audit shows 0 incomplete ku fah-* entries.
+- fah-138..fah-265 batch merged clean: 0 Arabic remnants, 0 empty fields; 15 empty `cookTime` are source-side gaps (same as en).
+- Remaining: pastries (48), savory (16), easternDesserts (76), westernDesserts (57), lightDesserts (73), sweetPies (106), iceCream (13), beverages (24) = 413.
