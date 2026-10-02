@@ -10,14 +10,14 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |stuffed|4|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅||| ✅ ||||||||
 |legumes|11|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅||| ✅ ||||||||
-|iceCream|13|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|||||||||||
+|iceCream|13|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅||| ✅ ||||||||
 |vegetables|14|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅||| ✅ ||||||||
-|savory|16|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|||||||||||
+|savory|16|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅||| ✅ ||||||||
 |fish|20|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅||| ✅ ||||||||
-|beverages|24|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅|||||||||||
+|beverages|24|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅|✅||| ✅ ||||||||
 |salads|24|✅|✅|✅|✅|✅|✅| ✅ | ✅| ✅ | ✅ | ✅ |✅| ✅ ||| ✅ ||||||||
 |starches|47|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ ||| ✅ ||||||||
- |pastries| 48 | ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |  |  |  |  |  |  |  |  |  |  | 
+ |pastries| 48 | ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |  |  | ✅ |  |  |  |  |  |  |  | 
 |westernDesserts|57|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |||||||||||
 |lightDesserts|73|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |||||||||||
 |easternDesserts|76|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ |✅|✅| ✅ |||||||||||
@@ -300,3 +300,7 @@ conversion — now writes any successful, changed translation.
   Table at 1,468 entries (395/808 fah-*). 7 no-cookTime warnings
   (fah-146/147/157/165/257/263/265) are source-side gaps — all are
   no-cook recipes (preserves, pickles, sauces).
+- `savory` (16), `iceCream` (13), `beverages` (24), `pastries` (48)
+  merged — 101 recipes. Table at 1,569 entries (496/808 fah-*).
+  3 no-cookTime warnings (fah-316/782/807) are source-side gaps —
+  all confirmed empty in EN source.
