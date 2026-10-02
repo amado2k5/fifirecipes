@@ -22,7 +22,7 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |lightDesserts|73|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ || ✅ |||||||||
 |easternDesserts|76|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ |✅|✅| ✅ || ✅ |||||||||
 |soups|8|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||✅|||||||||
-|sweetPies|106|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅|✅| ✅ |||||||||||
+|sweetPies|106|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅|✅| ✅ || ✅ |||||||||
 |quick|130|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅| ✅ | ✅ | ✅ ||✅|||||||||
 | meats | 137 | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  | ✅ |  |  |  |  |  |  |  |  |
 
@@ -298,4 +298,4 @@ conversion — now writes any successful, changed translation.
 - `pastries` (48), `savory` (16), `iceCream` (13), `beverages` (24) merged clean → **496 / 808**.
 - `easternDesserts` (76), `westernDesserts` (57) merged clean → **629 / 808**; 6 empty `cookTime` (fah-495/499/500/526/539/565) are source-side gaps (same as en).
 - `lightDesserts` (73) merged clean → **702 / 808**; 12 empty `cookTime` are source-side gaps (no-bake recipes).
-- Remaining: sweetPies (106) = 106.
+- `sweetPies` (106) merged clean → **808 / 808 — complete**. Audit: 0 incomplete, 0 Arabic leaks; no source-side `cookTime` gaps in this category.
