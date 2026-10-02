@@ -24,7 +24,7 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |soups|8|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |||||||||||
 |sweetPies|106|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅|✅| ✅ |||||||||||
 |quick|130|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅| ✅ | ✅ | ✅ |||||||||||
-| meats | 137 | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |
+| meats | 137 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |  | ✅ |  |  |  |  |  |  |  |
 
 ## Rules
 
@@ -286,3 +286,11 @@ conversion — now writes any successful, changed translation.
 - All 17 categories merged → **808 / 808 COMPLETE**.
 - `meats` merged with 2 non-fatal warnings (fah-078/fah-101 no cookTime in source).
 - Empty `cookTime` fields are source-side gaps (same as other languages).
+
+## ID — Indonesian
+
+- Glossary built (3,022 ingredient mappings); `norm/id.json` extended with
+  meta/servings/time strings (`orang`, `menit`, `jam`, `potong`, `buah`,
+  `sejumput`, `sesuai selera`).
+- `meats` merged with 3 non-fatal warnings (fah-040 no cookingMethod;
+  fah-078/fah-101 no cookTime — all absent from source).
