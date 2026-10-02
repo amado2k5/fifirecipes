@@ -24,7 +24,7 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |soups|8|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ | ✅ | ✅ |✅| ✅ |||||||||||
 |sweetPies|106|✅|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅|✅| ✅ |||||||||||
 |quick|130|✅|✅|✅|✅|✅| ✅ | ✅ | ✅ |✅|✅| ✅ | ✅ | ✅ |||||||||||
-| meats | 137 | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |  |  |  |  |  |  |  |  |  |
+| meats | 137 | ✅ | ✅ | ✅ | ✅ |✅| ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  |  |  | ✅ |  |  |  |  |  |  |
 
 ## Rules
 
@@ -286,3 +286,11 @@ conversion — now writes any successful, changed translation.
 - All 17 categories merged → **808 / 808 COMPLETE**.
 - `meats` merged with 2 non-fatal warnings (fah-078/fah-101 no cookTime in source).
 - Empty `cookTime` fields are source-side gaps (same as other languages).
+
+## SW — Swahili
+
+- `norm/sw.json` extended with servings/time mappings (watu, vipande, dakika, saa).
+- `fix-amounts.mjs` patched: `نصف` now tokenized before `نص` (NUM_RE alternation order).
+- meats(137) merged → 137/808. warnings: fah-078/fah-101 no cookTime in source.
+- meats fah-040 cookingMethod filled (Kupika kwa Mvuke).
+- Remaining 16 categories pending.
