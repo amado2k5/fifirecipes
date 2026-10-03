@@ -12,16 +12,16 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |legumes|11|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||
 |iceCream|13|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |vegetables|14|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||
-|savory|16|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||||
+|savory|16|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||✅||||||
 |fish|20|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||
 |beverages|24|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
-|salads|24|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
+|salads|24|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||
 |starches|47|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||✅||||||
 |pastries| 48 |✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
-|westernDesserts|57|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
+|westernDesserts|57|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||
 |lightDesserts|73|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |easternDesserts|76|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
-|soups|8|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
+|soups|8|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||
 |sweetPies|106|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |quick|130|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||
 | meats | 137 |✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|  |  |  |  |  |
@@ -354,3 +354,6 @@ Audit: 0 absent, 0 incomplete.
 - quick fah-400..459 (60) + fish fah-138..157 (20) + vegetables fah-158..171 (14) + legumes fah-172..182 (11) = 105 → **312/808 — quick, fish, vegetables, legumes complete.**
 - warnings: fah-146/fah-147/fah-157/fah-165 no cookTime in source (legit gaps).
 - stuffed fah-183..186 (4) + starches fah-187..233 (47) + pastries fah-266..313 (48) = 99 → **411/808 — stuffed, starches, pastries complete.**
+- soups fah-234..241 (8) + salads fah-242..265 (24) + savory fah-314..329 (16) + westernDesserts fah-536..592 (57) = 105 → **516/808 — soups, salads, savory, westernDesserts complete.**
+- `norm/ko.json` extended with servings/time/amount mappings (약 N리터, 다진 것 N쪽/큰술, N시간, 냉장/냉동 times, 틀/컵케이크 counts, ½통(약 간 것 1큰술) etc.).
+- warnings: fah-242/244/246..250/253/257/263/265, fah-316, fah-539, fah-565 no cookTime in source (legit gaps).
