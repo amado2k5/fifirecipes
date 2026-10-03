@@ -17,7 +17,7 @@ const unitKeys = Object.keys(UNITS).sort((a, b) => b.length - a.length);
 
 const AR = /[؀-ۿݐ-ݿﭐ-﷿]/;
 const AR_DIGIT = { '٠': '0', '١': '1', '٢': '2', '٣': '3', '٤': '4', '٥': '5', '٦': '6', '٧': '7', '٨': '8', '٩': '9' };
-const NUM_RE = /^(\d+(?:[./]\d+)?(?:\s*-\s*\d+(?:[./]\d+)?)?|نص|نصف|ربع|تلت|ثلث)\s*/;
+const NUM_RE = /^(\d+(?:[./]\d+)?(?:\s*-\s*\d+(?:[./]\d+)?)?|نصف|نص|ربع|تلت|ثلث)\s*/;
 
 function parseNum(tok) {
   tok = tok.trim().replace(/[٠-٩]/g, d => AR_DIGIT[d]).replace(/\s*-\s*/, '–');
