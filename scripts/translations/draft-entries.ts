@@ -21,6 +21,12 @@ const FILES = ['meats', 'fish', 'vegetables', 'legumes', 'stuffed', 'starches', 
 
 const CHAPTER_EN = 'Chapter 10: Fatma Abu Haty Channel Recipes';
 
+// Arabic names can embed the measure word (e.g. "كوب لبن دافئ" with amount "1").
+// If the amount is a bare number, carry the unit into the draft amount so
+// fix-amounts.mjs translates it instead of losing it (e.g. "1 cup" -> "1").
+const EMBEDDED_UNIT = /^(كوبية|كباية|كوب|علبة|باكيت|باكو|كيس|لفة|رأس|فصوص|فص|شرائح|شريحة|قطعة|قطع|مكعب|ملعقة(?:\s+صغيرة|\s+كبيرة)?|حبة|رغيف|عدد)\s+/;
+const BARE_NUMBER = /^\d+(?:[/.\-]\d+)*$/;
+
 type ChannelRecipe = {
   id: string; title: string; category: string; method: string;
   prep?: string; cook?: string; servings?: string; difficulty?: string;
@@ -58,9 +64,13 @@ async function main() {
       const ingredients: Record<string, unknown> = {};
       r.ingredients.forEach(([name, amount], i) => {
         const gname = g.ingredients.gloss[name];
-        const gamount = g.amounts.gloss[amount];
+        let gamount = g.amounts.gloss[amount] ?? amount;
+        const embedded = EMBEDDED_UNIT.exec(name.trim());
+        if (embedded && BARE_NUMBER.test(String(gamount).trim())) {
+          gamount = `${String(gamount).trim()} ${embedded[1]}`;
+        }
         gname ? glossHits++ : glossMiss++;
-        ingredients[`${r.id}-i${i + 1}`] = { name: gname ?? '', standardAmount: gamount ?? amount };
+        ingredients[`${r.id}-i${i + 1}`] = { name: gname ?? '', standardAmount: gamount };
       });
       const instructions: Record<string, string> = {};
       const arSteps: Record<string, string> = {};
