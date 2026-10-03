@@ -24,7 +24,7 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |soups|8|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |sweetPies|106|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |quick|130|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
-| meats | 137 |✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|  |  |  |  |  |  |
+| meats | 137 |✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|  |  |  |  |  |
 
 ## Rules
 
@@ -349,4 +349,5 @@ Audit: 0 absent, 0 incomplete.
 - `norm/ko.json` extended with servings/time/amount mappings (인분, 분, 시간, 컵, 큰술, 작은술, 개, 조각, 꼬집).
 - `glossary/ko.json` methods.gloss: added `بخار`/`بخاراً` → 찜 (steaming).
 - meats fah-001..106 (106/137) merged → 106/808. warnings: fah-078/fah-101 no cookTime in source; fah-040 cookingMethod filled (찜).
-- meats fah-107..137 pending fills (drafts/ko/meats-b.json).
+- meats fah-107..137 (31) merged → **137/808 — meats complete.**
+- quick fah-330..399 (70) merged → 207/808 (quick-a done; quick-b fah-400..459 pending).
