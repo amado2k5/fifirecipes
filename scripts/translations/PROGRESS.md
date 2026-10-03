@@ -435,3 +435,10 @@ One PR per batch. Glossaries gained `بخار` (steaming) for all five languages
 | b16 | fah-751..808 | ✅ merged |
 
 **808/808 — Hebrew complete.** Warnings: 8 empty cookTime in beverages (no-cook, absent in source).
+
+### PL — Polish
+
+| batch | ids | status |
+|---|---|---|
+| b01 | fah-001..050 | ✅ merged |
+| b02 | fah-051..100 | ✅ merged |
