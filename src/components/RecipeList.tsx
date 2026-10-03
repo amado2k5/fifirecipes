@@ -74,7 +74,7 @@ export const RecipeList: React.FC<RecipeListProps> = ({
   const [selectedCookingMethod, setSelectedCookingMethod] = useState<string>('all');
   const [collection, setCollection] = useState<'all' | RecipeCollection>('all');
   const additionalText = getAdditionalRecipesText(lang);
-  const [sortBy, setSortBy] = useState<'overlap' | 'title' | 'ingredients' | 'steps'>('overlap');
+  const [sortBy, setSortBy] = useState<'random' | 'overlap' | 'title' | 'ingredients' | 'steps'>('random');
 
   // Reset localized filter selections when the display language changes,
   // since category/method labels are language-specific strings.
@@ -84,6 +84,19 @@ export const RecipeList: React.FC<RecipeListProps> = ({
   }, [lang]);
 
   const baseRecipes = recipes;
+
+  // "Shuffled" (the default) orders recipes by a random key drawn once per id per
+  // visit: a different order every visit, but stable while the visitor searches,
+  // filters or scrolls, so those keep working exactly as before.
+  const shuffleKeys = useRef(new Map<string, number>());
+  const shuffleKey = (id: string) => {
+    let key = shuffleKeys.current.get(id);
+    if (key === undefined) {
+      key = Math.random();
+      shuffleKeys.current.set(id, key);
+    }
+    return key;
+  };
   const totalCount = Math.max(totalRecipes ?? 0, baseRecipes.length);
 
   // Ingredient-level search uses a per-language search index fetched the first
@@ -110,6 +123,11 @@ export const RecipeList: React.FC<RecipeListProps> = ({
   // Filter and Sort
   const filteredRecipes = useMemo(() => {
     const normalizedSearch = searchTerm.trim().toLowerCase();
+    // The recipe pages stream in best-overlap first; showing a shuffled list before
+    // they have all arrived would reshuffle the grid under the visitor as pages land.
+    // While loading, hold the skeleton instead (unless they are already searching).
+    const isFiltering = Boolean(normalizedSearch) || selectedCategory !== 'all' || selectedCookingMethod !== 'all' || collection !== 'all';
+    if (sortBy === 'random' && loading && !isFiltering) return [];
     return baseRecipes.filter(r => {
       const localized = getLocalizedRecipe(r, lang);
       const matchSearch =
@@ -126,6 +144,9 @@ export const RecipeList: React.FC<RecipeListProps> = ({
 
       return matchSearch && matchCategory && matchMethod && matchCollection;
     }).sort((a, b) => {
+      if (sortBy === 'random') {
+        return shuffleKey(a.id) - shuffleKey(b.id);
+      }
       if (sortBy === 'overlap') {
         return b.overlapPercentage - a.overlapPercentage;
       }
@@ -140,7 +161,7 @@ export const RecipeList: React.FC<RecipeListProps> = ({
       }
       return 0;
     });
-  }, [baseRecipes, searchTerm, searchIndex, selectedCategory, selectedCookingMethod, collection, sortBy, lang]);
+  }, [baseRecipes, searchTerm, searchIndex, selectedCategory, selectedCookingMethod, collection, sortBy, lang, loading]);
 
   // Progressive rendering: start with one batch, add another whenever the
   // sentinel below the grid comes within ~1.5 screens of the viewport.
@@ -212,6 +233,7 @@ export const RecipeList: React.FC<RecipeListProps> = ({
               onChange={(e) => setSortBy(e.target.value as any)}
               className="min-w-0 flex-1 md:flex-none max-w-full truncate px-3 py-2 text-xs font-medium rounded-xl border border-stone-200 bg-stone-50 focus:bg-white text-stone-800"
             >
+              <option value="random">{t('عشوائي', 'Shuffled', 'Aléatoire', 'Aleatorio', 'ランダム', 'यादृच्छिक', 'Aleatório', 'Случайный порядок', '随机排序', 'Zufällig', 'Casuale', 'Τυχαία', 'بے ترتیب', 'تصادفی', 'Karışık', 'Rasthatî', 'Acak', 'Nasibu', '무작위', 'Willekeurig', 'تصادفي', 'אקראי', 'Losowo', 'Slumpmässig', 'యాదృచ్ఛికం')}</option>
               <option value="overlap">{t('نسبة التطابق وإزالة التكرار (الأعلى)', 'Highest Overlap %', 'Chevauchement le Plus Élevé (%)', 'Mayor % de Coincidencia', '一致率が高い順', 'सर्वाधिक मिलान %', 'Maior % de Coincidência', 'Наибольшее % совпадения', '重合度最高（%）', 'Höchste Übereinstimmung (%)', 'Sovrapposizione più alta (%)', 'Υψηλότερο Ποσοστό Επικάλυψης (%)', 'سب سے زیادہ مماثلت %', 'بیشترین درصد همپوشانی', 'En Yüksek Örtüşme %', 'Rêjeya Hevgirtinê ya Herî Bilind %', 'Kecocokan Tertinggi %', 'Ulinganifu wa Juu Zaidi %', '일치도 높은 순 %', 'Hoogste overlap %', 'تر ټولو لوړ ټکر ٪', 'אחוז חפיפה גבוה', 'Najwyższy współczynnik dopasowania', 'Högsta överlapp %', 'అత్యధిక అవర్లాప్ %')}</option>
               <option value="title">{t('الاسم أبجدياً (أ-ي)', 'Alphabetical (A-Z)', 'Alphabétique (A-Z)', 'Alfabético (A-Z)', '名前順(あいうえお順)', 'वर्णानुक्रम (अ-ज्ञ)', 'Alfabético (A-Z)', 'По алфавиту (А-Я)', '按字母顺序（A-Z）', 'Alphabetisch (A-Z)', 'Alfabetico (A-Z)', 'Αλφαβητικά (Α-Ω)', 'حروفِ تہجی کے لحاظ سے (A-Z)', 'الفبایی (A-Z)', 'Alfabetik (A-Z)', 'Alfabetîk (A-Z)', 'Alfabetis (A-Z)', 'Kialfabeti (A-Z)', '가나다순 (A-Z)', 'Alfabetisch (A-Z)', 'الفبايي (الف-ی)', 'אלפביתי (א-ת)', 'Alfabetycznie (A–Z)', 'Alfabetiskt (A–Ö)', 'అక్షరక్రమం (అ–హ)')}</option>
               <option value="ingredients">{t('عدد المقادير المدمجة', 'Most Ingredients', "Le Plus d'Ingrédients", 'Más Ingredientes', '材料が多い順', 'सर्वाधिक सामग्री', 'Mais Ingredientes', 'Больше всего ингредиентов', '食材最多', 'Meiste Zutaten', 'Più Ingredienti', 'Περισσότερα Υλικά', 'سب سے زیادہ اجزاء', 'بیشترین مواد اولیه', 'En Çok Malzeme', 'Herî Zêde Pêkhate', 'Bahan Terbanyak', 'Viungo Vingi Zaidi', '재료 많은 순', 'Meeste ingrediënten', 'تر ټولو ډېر مواد', 'הכי הרבה מרכיבים', 'Najwięcej składników', 'Flest ingredienser', 'అత్యధిక పదార్థాలు')}</option>
