@@ -19,7 +19,7 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |starches|47|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||✅||||||
 |pastries| 48 |✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |westernDesserts|57|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||
-|lightDesserts|73|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
+|lightDesserts|73|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||
 |easternDesserts|76|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |soups|8|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||
 |sweetPies|106|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
@@ -357,3 +357,6 @@ Audit: 0 absent, 0 incomplete.
 - soups fah-234..241 (8) + salads fah-242..265 (24) + savory fah-314..329 (16) + westernDesserts fah-536..592 (57) = 105 → **516/808 — soups, salads, savory, westernDesserts complete.**
 - `norm/ko.json` extended with servings/time/amount mappings (약 N리터, 다진 것 N쪽/큰술, N시간, 냉장/냉동 times, 틀/컵케이크 counts, ½통(약 간 것 1큰술) etc.).
 - warnings: fah-242/244/246..250/253/257/263/265, fah-316, fah-539, fah-565 no cookTime in source (legit gaps).
+- lightDesserts fah-593..665 (73) + easternDesserts fah-460..489 (30) = 103 → **619/808 — lightDesserts complete; easternDesserts 30/76.**
+- `norm/ko.json` extended with lightDesserts/easternDesserts amount/servings mappings (63 additions).
+- warnings: fah-593/594/599/605/606/608/609/616/621/627/643/662 no cookTime in source (legit gaps).
