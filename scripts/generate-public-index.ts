@@ -90,11 +90,14 @@ const IOS_APP_LINK_PATHS = ['/recipe/*', '/chapter/*', '/kids/*'];
 // the SHA-256 of the certificate that signed the *installed* APK, so list:
 //   1. the upload key (sideloaded / locally built release APKs), and
 //   2. the Play App Signing key — Play re-signs store installs with it. Copy it
-//      from Play Console › Test and release › App integrity › App signing and
-//      append it here, otherwise links from Play installs open in the browser.
+//      from Play Console › Protected with Play › Play Store protection › Manage
+//      Play app signing (or read it from App bundle explorer's "Signed,
+//      universal APK" with `apksigner verify --print-certs --max-sdk-version 36`)
+//      — otherwise links from Play installs open in the browser.
 const ANDROID_PACKAGE = 'cooking.fifi.android';
 const ANDROID_CERT_SHA256 = [
-  'EC:E5:11:84:2E:DC:25:B7:F6:7E:94:FF:55:8B:37:16:50:8C:09:A5:CD:DE:BB:93:64:BA:F7:BC:21:5C:4C:78' // upload key
+  'EC:E5:11:84:2E:DC:25:B7:F6:7E:94:FF:55:8B:37:16:50:8C:09:A5:CD:DE:BB:93:64:BA:F7:BC:21:5C:4C:78', // upload key
+  '18:BB:32:B4:3D:F1:FA:56:73:92:1C:2E:0A:7A:1F:00:8C:D1:F0:CE:5A:F3:37:D6:FA:DA:85:1C:B1:CD:83:13', // Play App Signing key
 ];
 
 const tables: Partial<Record<SupportedLanguage, TranslationTable>> = {};

@@ -379,6 +379,21 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     citationLabel: 'I boken:',
     citationVideo: 'Video:',
     tips: 'Tips och anteckningar'
+  },
+  te: {
+    badge: 'అదనపు రెసిపీ',
+    notice: 'ఇది అదనపు రెసిపీ, డా. ఫాత్మా అల్‌కవోక్గి పాండులిపుల నుండి కాదు. మేము దాన్ని మా స్వంత మాటల్లో తిరిగి రాశాం మరియు అసలు మూలానికి కీర్తి ఇచ్చాం.',
+    sourceLabel: 'మూలం:',
+    ingredientsNote: 'కొలతలు మూలంలో ఉన్నట్లుగానే, మా ఫార్మాట్‌లో అమర్చబడ్డాయి. వంట చేస్తున్నప్పుడు సిద్ధమైన పదార్థాలను గుర్తించడానికి మీరు పెట్టెను క్లిక్ చేయవచ్చు.',
+    collectionAll: 'అన్ని వంటకాలు',
+    collectionArchive: 'డా. ఫాత్మా ఆర్కైవ్',
+    collectionAdditional: 'అదనపు వంటకాలు (Chef Teta)',
+    collectionOsool: 'Osool El Tahy వంట పుస్తకం',
+    collectionAbdennour: 'Egyptian Cooking పుస్తకం (సమియా అబ్దెన్నూర్)',
+    collectionAbuhaty: 'ఫాత్మా అబూ హాటీ ఛానెల్ (యూట్యూబ్)',
+    citationLabel: 'పుస్తకంలోని స్థానం:',
+    citationVideo: 'వీడియో:',
+    tips: 'చిట్కాలు మరియు గమనికలు'
   }
 };
 
