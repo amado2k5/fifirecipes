@@ -20,7 +20,7 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |pastries| 48 |✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||||
 |westernDesserts|57|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |lightDesserts|73|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
-|easternDesserts|76|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||||
+|easternDesserts|76|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |soups|8|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |sweetPies|106|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||||
 |quick|130|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
@@ -340,4 +340,6 @@ Audit: 0 absent, 0 incomplete.
 - savory(16), starches(47), pastries(48), westernDesserts(57) merged → 516/808.
 - `norm/sw.json` extended with dessert-unit mappings (bakitia, kibox, viweo, baking soda, etc.).
 - lightDesserts(73), beverages(24), iceCream(13) merged → 626/808.
-- Remaining: easternDesserts(76), sweetPies(106) = 182 recipes.
+- `norm/sw.json` extended with sweetPies mappings (mعلقات variant, parenthetical unit-equivalents).
+- easternDesserts(76) + sweetPies fah-666..695(30) merged → 732/808.
+- Remaining: sweetPies fah-696..771(76) = 76 recipes.
