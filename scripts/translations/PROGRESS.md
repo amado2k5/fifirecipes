@@ -23,7 +23,7 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |easternDesserts|76|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||||
 |soups|8|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||||
 |sweetPies|106|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||||
-|quick|130|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||||
+|quick|130|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 | meats | 137 |✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|  |  |  |  |  |  |
 
 ## Rules
@@ -335,5 +335,5 @@ Audit: 0 absent, 0 incomplete.
 - `fix-amounts.mjs` patched: `نصف` now tokenized before `نص` (NUM_RE alternation order).
 - meats(137) merged → 137/808. warnings: fah-078/fah-101 no cookTime in source.
 - meats fah-040 cookingMethod filled (Kupika kwa Mvuke).
-- quick(100/130) merged → 237/808 (milestone merge; remaining 30 pending).
-- Remaining: quick tail (30) + 15 categories.
+- quick(130/130) merged → 267/808.
+- Remaining: 15 categories.
