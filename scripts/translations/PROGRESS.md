@@ -400,3 +400,9 @@ One PR per batch. Glossaries gained `بخار` (steaming) for all five languages
 | b16 | fah-751..808 | ✅ merged |
 
 **808/808 — Dutch complete.** Warnings: 23 empty cookTime in iceCream/beverages (no-cook, absent in source).
+
+### PS — Pashto
+
+| batch | ids | status |
+|---|---|---|
+| b01+b02 | fah-001..100 | ✅ merged |
