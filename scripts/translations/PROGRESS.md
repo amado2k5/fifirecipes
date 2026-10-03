@@ -9,11 +9,11 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 | slug | recipes | en | fr | es | ja | hi | pt | ru | zh | de | it | el | ur | fa | tr | ku | id | sw | ko | nl | ps | he | pl | sv |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |stuffed|4|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
-|legumes|11|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
+|legumes|11|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||
 |iceCream|13|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
-|vegetables|14|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
+|vegetables|14|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||
 |savory|16|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||||
-|fish|20|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
+|fish|20|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||
 |beverages|24|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |salads|24|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |starches|47|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||||
@@ -23,7 +23,7 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |easternDesserts|76|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |soups|8|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |sweetPies|106|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
-|quick|130|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
+|quick|130|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||
 | meats | 137 |✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|  |  |  |  |  |
 
 ## Rules
@@ -351,3 +351,5 @@ Audit: 0 absent, 0 incomplete.
 - meats fah-001..106 (106/137) merged → 106/808. warnings: fah-078/fah-101 no cookTime in source; fah-040 cookingMethod filled (찜).
 - meats fah-107..137 (31) merged → **137/808 — meats complete.**
 - quick fah-330..399 (70) merged → 207/808 (quick-a done; quick-b fah-400..459 pending).
+- quick fah-400..459 (60) + fish fah-138..157 (20) + vegetables fah-158..171 (14) + legumes fah-172..182 (11) = 105 → **312/808 — quick, fish, vegetables, legumes complete.**
+- warnings: fah-146/fah-147/fah-157/fah-165 no cookTime in source (legit gaps).
