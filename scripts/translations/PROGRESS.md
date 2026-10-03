@@ -20,7 +20,7 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |pastries| 48 |✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |westernDesserts|57|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||
 |lightDesserts|73|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||
-|easternDesserts|76|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
+|easternDesserts|76|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||
 |soups|8|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||
 |sweetPies|106|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |quick|130|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||
@@ -360,3 +360,6 @@ Audit: 0 absent, 0 incomplete.
 - lightDesserts fah-593..665 (73) + easternDesserts fah-460..489 (30) = 103 → **619/808 — lightDesserts complete; easternDesserts 30/76.**
 - `norm/ko.json` extended with lightDesserts/easternDesserts amount/servings mappings (63 additions).
 - warnings: fah-593/594/599/605/606/608/609/616/621/627/643/662 no cookTime in source (legit gaps).
+- easternDesserts fah-490..535 (46) + sweetPies fah-666..719 (54) = 100 → **719/808 — easternDesserts complete (76/76); sweetPies 54/106.**
+- `norm/ko.json` extended with sweetPies amount/servings mappings (36 additions).
+- warnings: fah-493/495/499/500/526 no cookTime in source (legit gaps).
