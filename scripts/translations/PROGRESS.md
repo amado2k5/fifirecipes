@@ -414,6 +414,10 @@ One PR per batch. Glossaries gained `بخار` (steaming) for all five languages
 | b09+b10 | fah-401..500 | ✅ merged |
 | b11+b12 | fah-501..600 | ✅ merged |
 | b13+b14 | fah-601..700 | ✅ merged |
+| b15 | fah-701..750 | ✅ merged |
+| b16 | fah-751..808 | ✅ merged |
+
+**808/808 — Pashto complete.** Warnings: 23 empty cookTime in iceCream/beverages entries are source-side gaps (no-bake/no-cook recipes).
 
 ### HE — Hebrew
 
