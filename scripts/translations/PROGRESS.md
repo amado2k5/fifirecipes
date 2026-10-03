@@ -22,7 +22,7 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |lightDesserts|73|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |easternDesserts|76|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |soups|8|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
-|sweetPies|106|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||||
+|sweetPies|106|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |quick|130|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 | meats | 137 |✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|  |  |  |  |  |  |
 
@@ -342,4 +342,4 @@ Audit: 0 absent, 0 incomplete.
 - lightDesserts(73), beverages(24), iceCream(13) merged → 626/808.
 - `norm/sw.json` extended with sweetPies mappings (mعلقات variant, parenthetical unit-equivalents).
 - easternDesserts(76) + sweetPies fah-666..695(30) merged → 732/808.
-- Remaining: sweetPies fah-696..771(76) = 76 recipes.
+- sweetPies fah-696..771(76) merged → **808/808 — Swahili complete.**
