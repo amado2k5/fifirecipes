@@ -396,3 +396,4 @@ One PR per batch. Glossaries gained `بخار` (steaming) for all five languages
 | b12 | fah-551..600 | ✅ merged |
 | b13 | fah-601..650 | ✅ merged |
 | b14 | fah-651..700 | ✅ merged |
+| b15 | fah-701..750 | ✅ merged |
