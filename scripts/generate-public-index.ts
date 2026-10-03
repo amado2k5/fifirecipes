@@ -224,7 +224,12 @@ for (const lang of SUPPORTED_LANGUAGES) {
 for (const recipe of orderedRecipes) {
   const translations: Partial<Record<SupportedLanguage, TranslationTable[string]>> = {};
   for (const [lang, table] of Object.entries(tables) as [SupportedLanguage, TranslationTable][]) {
-    if (table[recipe.id]) translations[lang] = table[recipe.id];
+    if (!table[recipe.id]) continue;
+    // Many translation entries carry no chapter/category/cookingMethod (the site
+    // localizes them from name tables). Native clients read only this file, so
+    // bake the localized labels in — otherwise they fall back to the Arabic master.
+    const { chapter, category, cookingMethod } = getLocalizedRecipe(recipe, lang);
+    translations[lang] = { chapter, category, cookingMethod, ...table[recipe.id] };
   }
   put(`recipes/${recipe.id}.json`, { recipe, estimate: RECIPE_ESTIMATES[recipe.id], translations });
 }
