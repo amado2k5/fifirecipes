@@ -1,0 +1,22 @@
+{
+  "_doc": "English→target words for prepTime/cookTime/servings, used by batch.mts when the Arabic value is not covered by norm/{lang}.json. Longest phrase wins; numbers and ranges pass through.",
+  "nl": {
+    "yields a large batch, enough for a week or more": "een grote hoeveelheid, genoeg voor een week of langer",
+    "enough for a batch": "genoeg voor één portie", "depends on quantity": "afhankelijk van de hoeveelheid",
+    "depends on jars": "afhankelijk van het aantal potten", "depends on batch": "afhankelijk van de hoeveelheid",
+    "keeps for a week": "een week houdbaar", "keeps a long time": "lang houdbaar", "keeps": "houdbaar",
+    "as needed": "naar behoefte", "as per method": "volgens de bereiding", "as much as needed": "zoveel als nodig",
+    "different flavours": "verschillende smaken", "min each": "min per stuk",
+    "(chill)": "(koelen)", "(freezer)": "(vriezer)", "(fridge)": "(koelkast)",
+    "about": "ongeveer", "mins": "min", "min": "min", "hrs": "uur", "hours": "uur", "hour": "uur", "hr": "uur",
+    "servings": "personen", "people": "personen", "portions": "porties", "pieces": "stuks", "units": "stuks",
+    "pies": "pasteitjes", "pastries": "gebakjes", "sandwiches": "broodjes", "glasses": "glazen", "loaves": "broden",
+    "loaf": "brood", "cups": "kopjes", "cup": "kopje", "patties": "burgers", "jars": "potten", "rolls": "rolletjes",
+    "discs": "schijven", "roses": "roosjes", "days": "dagen", "months": "maanden", "cupcakes": "cupcakes",
+    "balls": "balletjes", "samosas": "samosa's", "rounds": "rondjes", "manakeesh": "manakish", "cookies": "koekjes",
+    "biscuits": "biscuits", "slices": "plakken", "moulds": "vormpjes", "trays": "bakplaten", "mugs": "mokken",
+    "litres": "liter", "litre": "liter", "warbats": "warbat", "donuts": "donuts", "fingers": "vingers",
+    "braids": "vlechten", "flatbreads": "platte broden", "buns": "broodjes", "bows": "strikjes",
+    "croissants": "croissants", "boats": "bootjes", "g": "g", "kg": "kg"
+  }
+}

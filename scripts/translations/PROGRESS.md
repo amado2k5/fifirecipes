@@ -366,3 +366,20 @@ Audit: 0 absent, 0 incomplete.
 - sweetPies fah-720..771 (52) + iceCream fah-772..784 (13) + beverages fah-785..808 (24) = 89 → **808/808 — Korean complete.**
 - `norm/ko.json` extended with iceCream/beverages mappings (7 additions: time/servings/amount strings).
 - warnings: 23 empty cookTime in iceCream/beverages entries are source-side gaps (no-bake/no-cook recipes; confirmed absent in Arabic source).
+
+## Remaining languages — 50-recipe batches (nl, sv, pl, he, ps)
+
+Pipeline per batch `n` (1–16; batch n = fah-(50n-49)..fah-50n, b16 runs to fah-808):
+`draft-entries.ts <lang> all` (full drafts kept outside the repo) →
+`batch.mts prep <lang> <n> <draftDir>` (writes `drafts/<lang>/bNN.json`, localizes
+times/servings via `meta-words.json`, amounts via `norm/<lang>.json`, and reuses
+ingredient names/steps already translated in the table) → translator notes →
+`batch.mts fills <lang> <n> <notes>` → `apply-fills.ts <lang> bNN` →
+`write-entries.ts <lang> drafts/<lang>/bNN.json` → `validate-translations.mts`.
+One PR per batch. Glossaries gained `بخار` (steaming) for all five languages.
+
+### NL — Dutch
+
+| batch | ids | status |
+|---|---|---|
+| b01 | fah-001..050 | ✅ merged |
