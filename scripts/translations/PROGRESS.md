@@ -411,6 +411,7 @@ One PR per batch. Glossaries gained `بخار` (steaming) for all five languages
 | b07+b08 | fah-301..400 | ✅ merged |
 | b09+b10 | fah-401..500 | ✅ merged |
 | b11+b12 | fah-501..600 | ✅ merged |
+| b13+b14 | fah-601..700 | ✅ merged |
 
 ### HE — Hebrew
 
@@ -430,4 +431,7 @@ One PR per batch. Glossaries gained `بخار` (steaming) for all five languages
 | b12 | fah-551..600 | ✅ merged |
 | b13 | fah-601..650 | ✅ merged |
 | b14 | fah-651..700 | ✅ merged |
-| b13+b14 | fah-601..700 | ✅ merged |
+| b15 | fah-701..750 | ✅ merged |
+| b16 | fah-751..808 | ✅ merged |
+
+**808/808 — Hebrew complete.** Warnings: 8 empty cookTime in beverages (no-cook, absent in source).
