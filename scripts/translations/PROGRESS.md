@@ -293,4 +293,5 @@ conversion — now writes any successful, changed translation.
 - `fix-amounts.mjs` patched: `نصف` now tokenized before `نص` (NUM_RE alternation order).
 - meats(137) merged → 137/808. warnings: fah-078/fah-101 no cookTime in source.
 - meats fah-040 cookingMethod filled (Kupika kwa Mvuke).
-- Remaining 16 categories pending.
+- quick(100/130) merged → 237/808 (milestone merge; remaining 30 pending).
+- Remaining: quick tail (30) + 15 categories.
