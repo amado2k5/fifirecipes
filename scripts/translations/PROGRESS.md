@@ -343,3 +343,10 @@ Audit: 0 absent, 0 incomplete.
 - `norm/sw.json` extended with sweetPies mappings (mعلقات variant, parenthetical unit-equivalents).
 - easternDesserts(76) + sweetPies fah-666..695(30) merged → 732/808.
 - sweetPies fah-696..771(76) merged → **808/808 — Swahili complete.**
+
+## KO — Korean
+
+- `norm/ko.json` extended with servings/time/amount mappings (인분, 분, 시간, 컵, 큰술, 작은술, 개, 조각, 꼬집).
+- `glossary/ko.json` methods.gloss: added `بخار`/`بخاراً` → 찜 (steaming).
+- meats fah-001..106 (106/137) merged → 106/808. warnings: fah-078/fah-101 no cookTime in source; fah-040 cookingMethod filled (찜).
+- meats fah-107..137 pending fills (drafts/ko/meats-b.json).
