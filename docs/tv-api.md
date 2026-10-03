@@ -44,7 +44,7 @@ Entry point. Shape:
 {
   "version": "abc123def456",
   "generatedAt": "2026-09-29T12:00:00.000Z",
-  "recipeCount": 1073,
+  "recipeCount": 1881,
   "pageSize": 100,
   "languages": [
     { "code": "ar", "nativeName": "العربية", "englishName": "Arabic", "dir": "rtl", "complete": true }
