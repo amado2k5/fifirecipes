@@ -207,6 +207,70 @@ function* sitePaths(value: unknown): Generator<string> {
 
 // ---------------------------------------------------------------------------
 
+/** Pre-built home layouts per language; clients pick one at random each time Home is shown. */
+const HOME_VARIANT_COUNT = 30;
+/** Recipes per rail in a home variant (chapter rails are teasers; the full chapter is in Chapters). */
+const HOME_RAIL_SIZE = 20;
+
+/** Small seeded PRNG so a given data version always yields the same variants. */
+const seededRandom = (seed: string) => {
+  let h = 2166136261;
+  for (const ch of seed) h = Math.imul(h ^ ch.charCodeAt(0), 16777619) >>> 0;
+  return () => {
+    h = (h + 0x6d2b79f5) >>> 0;
+    let t = h;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+};
+
+const shuffled = <T,>(items: T[], random: () => number) => {
+  const out = [...items];
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(random() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+};
+
+interface HomeVariant {
+  hero: string;
+  /** featured, recent and one rail per chapter — no recipe appears twice, hero included. */
+  rails: { key: string; items: string[] }[];
+}
+
+/**
+ * Language-independent home layouts: every variant has a different hero (a
+ * recipe with a photo) and fresh, non-overlapping rails drawn from the whole
+ * eligible catalogue, so the page never repeats a recipe.
+ */
+function buildHomeVariants(recipes: Recipe[], seed: string, hasPhoto: (id: string) => boolean): HomeVariant[] {
+  const random = seededRandom(seed);
+  const chapterNumbers = [...new Set(recipes.map(recipe => recipe.chapterNumber))].sort((a, b) => a - b);
+  const heroes = shuffled(recipes.filter(recipe => hasPhoto(recipe.id)).map(recipe => recipe.id), random);
+  return Array.from({ length: HOME_VARIANT_COUNT }, (_, n) => {
+    const hero = heroes[n % heroes.length];
+    const taken = new Set([hero]);
+    const draw = (candidates: Recipe[]) => {
+      const items: string[] = [];
+      for (const recipe of shuffled(candidates, random)) {
+        if (items.length === HOME_RAIL_SIZE) break;
+        if (taken.has(recipe.id)) continue;
+        taken.add(recipe.id);
+        items.push(recipe.id);
+      }
+      return items;
+    };
+    const rails = [
+      { key: 'featured', items: draw(recipes) },
+      { key: 'recent', items: draw(recipes) },
+      ...chapterNumbers.map(chapter => ({ key: `chapter:${chapter}`, items: draw(recipes.filter(recipe => recipe.chapterNumber === chapter)) }))
+    ].filter(rail => rail.items.length > 0);
+    return { hero, rails };
+  });
+}
+
 /**
  * Emits every tv/* file through `put`, validates them, and returns the map of
  * path → JSON body (used by the standalone `npm run tvdata` run to write the
@@ -235,6 +299,8 @@ export async function generateTvData({ version, orderedRecipes, tables, kidsInde
   const imageOf = (id: string) =>
     existsSync(`public/recipe-images/thumbs/${id}.jpg`) ? `/recipe-images/thumbs/${id}.jpg` : undefined;
   const hasVideo = (id: string) => Boolean(videos[id]?.ar?.length || videos[id]?.en?.length);
+
+  const homeVariants = buildHomeVariants(orderedRecipes, version, id => Boolean(imageOf(id)));
 
   // One card index and one home feed per fully translated language.
   for (const { code } of completeLanguages) {
@@ -275,6 +341,20 @@ export async function generateTvData({ version, orderedRecipes, tables, kidsInde
         : [])
     ];
     emit(`tv/feed/${code}.json`, { rows });
+
+    // Random home layouts: same row titles, new hero + items every variant.
+    const titleOf = new Map(rows.map(row => [row.key, row.title]));
+    const kidsRow = rows.find(row => row.key === 'kids');
+    const variantRandom = seededRandom(`${version}:${code}:kids`);
+    emit(`tv/feed-variants/${code}.json`, {
+      variants: homeVariants.map(variant => ({
+        hero: variant.hero,
+        rows: [
+          ...variant.rails.map(rail => ({ key: rail.key, title: titleOf.get(rail.key)!, items: rail.items })),
+          ...(kidsRow ? [{ ...kidsRow, items: shuffled(kidsRow.items, variantRandom) }] : [])
+        ]
+      }))
+    });
 
     emit(`tv/chapters/${code}.json`, chapterNumbers.map(chapter => {
       const recipes = orderedRecipes.filter(recipe => recipe.chapterNumber === chapter);
@@ -335,6 +415,7 @@ export async function generateTvData({ version, orderedRecipes, tables, kidsInde
     endpoints: {
       index: '/data/tv/index/{lang}.json',
       feed: '/data/tv/feed/{lang}.json',
+      feedVariants: '/data/tv/feed-variants/{lang}.json',
       chapters: '/data/tv/chapters/{lang}.json',
       kids: '/data/tv/kids/{lang}.json',
       recipe: '/data/recipes/{id}.json',
@@ -400,6 +481,20 @@ export function validateTvData(tvFiles: Map<string, string>, orderedRecipes: Rec
       const unknown = row.items.filter(id => !ids.has(id));
       if (unknown.length) problems.push(`tv/feed/${code}.json row "${row.key}": unknown ids ${unknown.slice(0, 5).join(', ')}`);
     }
+    const variants = (parsed.get(`tv/feed-variants/${code}.json`) as { variants: { hero: string; rows: { key: string; items: string[] }[] }[] } | undefined)?.variants;
+    if (!variants) problems.push(`tv/feed-variants/${code}.json is missing`);
+    variants?.forEach((variant, n) => {
+      const seen = new Set<string>([variant.hero]);
+      if (!ids.has(variant.hero)) problems.push(`tv/feed-variants/${code}.json #${n}: unknown hero ${variant.hero}`);
+      for (const row of variant.rows) {
+        if (row.key === 'kids') continue;
+        for (const id of row.items) {
+          if (!ids.has(id)) problems.push(`tv/feed-variants/${code}.json #${n} row "${row.key}": unknown id ${id}`);
+          else if (seen.has(id)) problems.push(`tv/feed-variants/${code}.json #${n}: ${id} appears twice`);
+          seen.add(id);
+        }
+      }
+    });
     const chapters = parsed.get(`tv/chapters/${code}.json`) as { id: number }[] | undefined;
     for (const row of feed?.rows ?? []) {
       if (row.key.startsWith('chapter:') && !chapters?.some(chapter => `chapter:${chapter.id}` === row.key)) {
