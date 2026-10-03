@@ -1051,7 +1051,8 @@ const COOKING_METHODS_FR: Record<string, string> = {
   'فرن': 'Cuisson au Four',
   'قلي': 'Friture',
   'خبز': 'Cuisson au Four',
-  'حفظ وتجميد': 'Conservation et Congélation'
+  'حفظ وتجميد': 'Conservation et Congélation',
+  'بخار': 'Cuisson à la Vapeur',
 };
 
 const COOKING_METHODS_ES: Record<string, string> = {
@@ -1067,7 +1068,8 @@ const COOKING_METHODS_ES: Record<string, string> = {
   'فرن': 'Horneado',
   'قلي': 'Fritura',
   'خبز': 'Horneado',
-  'حفظ وتجميد': 'Conservación y Congelación'
+  'حفظ وتجميد': 'Conservación y Congelación',
+  'بخار': 'Cocción al Vapor',
 };
 
 const COOKING_METHODS_JA: Record<string, string> = {
@@ -1083,7 +1085,8 @@ const COOKING_METHODS_JA: Record<string, string> = {
   'فرن': 'オーブン焼き',
   'قلي': '揚げ物',
   'خبز': 'オーブン焼き',
-  'حفظ وتجميد': '保存と冷凍'
+  'حفظ وتجميد': '保存と冷凍',
+  'بخار': '蒸し調理',
 };
 
 const COOKING_METHODS_HI: Record<string, string> = {
@@ -1099,7 +1102,8 @@ const COOKING_METHODS_HI: Record<string, string> = {
   'فرن': 'ओवन में पकाना',
   'قلي': 'तलना',
   'خبز': 'ओवन में पकाना',
-  'حفظ وتجميد': 'संरक्षण और फ्रीज़ करना'
+  'حفظ وتجميد': 'संरक्षण और फ्रीज़ करना',
+  'بخار': 'भाप में पकाना',
 };
 
 const COOKING_METHODS_PT: Record<string, string> = {
@@ -1115,7 +1119,8 @@ const COOKING_METHODS_PT: Record<string, string> = {
   'فرن': 'Assado',
   'قلي': 'Frito',
   'خبز': 'Assado',
-  'حفظ وتجميد': 'Conservação e Congelamento'
+  'حفظ وتجميد': 'Conservação e Congelamento',
+  'بخار': 'Cozimento a Vapor',
 };
 
 const COOKING_METHODS_RU: Record<string, string> = {
@@ -1131,7 +1136,8 @@ const COOKING_METHODS_RU: Record<string, string> = {
   'فرن': 'Выпекание',
   'قلي': 'Жарка',
   'خبز': 'Выпекание',
-  'حفظ وتجميد': 'Консервация и Заморозка'
+  'حفظ وتجميد': 'Консервация и Заморозка',
+  'بخار': 'Приготовление на пару',
 };
 
 const COOKING_METHODS_ZH: Record<string, string> = {
@@ -1147,7 +1153,8 @@ const COOKING_METHODS_ZH: Record<string, string> = {
   'فرن': '烘烤',
   'قلي': '油炸',
   'خبز': '烘烤',
-  'حفظ وتجميد': '保存与冷冻'
+  'حفظ وتجميد': '保存与冷冻',
+  'بخار': '蒸制',
 };
 
 const COOKING_METHODS_DE: Record<string, string> = {
@@ -1163,7 +1170,8 @@ const COOKING_METHODS_DE: Record<string, string> = {
   'فرن': 'Backen',
   'قلي': 'Frittieren',
   'خبز': 'Backen',
-  'حفظ وتجميد': 'Konservieren & Einfrieren'
+  'حفظ وتجميد': 'Konservieren & Einfrieren',
+  'بخار': 'Dampfgaren',
 };
 
 const COOKING_METHODS_IT: Record<string, string> = {
@@ -1179,7 +1187,8 @@ const COOKING_METHODS_IT: Record<string, string> = {
   'فرن': 'Al Forno',
   'قلي': 'Frittura',
   'خبز': 'Cottura al Forno',
-  'حفظ وتجميد': 'Conservazione e Congelamento'
+  'حفظ وتجميد': 'Conservazione e Congelamento',
+  'بخار': 'Cottura a Vapore',
 };
 
 const COOKING_METHODS_EL: Record<string, string> = {
@@ -1195,7 +1204,8 @@ const COOKING_METHODS_EL: Record<string, string> = {
   'فرن': 'Στο Φούρνο',
   'قلي': 'Τηγάνισμα',
   'خبز': 'Ψήσιμο στο Φούρνο',
-  'حفظ وتجميد': 'Συντήρηση και Κατάψυξη'
+  'حفظ وتجميد': 'Συντήρηση και Κατάψυξη',
+  'بخار': 'Μαγείρεμα στον Ατμό',
 };
 
 const COOKING_METHODS_UR: Record<string, string> = {
@@ -1211,7 +1221,8 @@ const COOKING_METHODS_UR: Record<string, string> = {
   'فرن': 'اوون میں بیک کرنا',
   'قلي': 'تلنا',
   'خبز': 'بیک کرنا',
-  'حفظ وتجميد': 'محفوظ کرنا اور فریز کرنا'
+  'حفظ وتجميد': 'محفوظ کرنا اور فریز کرنا',
+  'بخار': 'بھاپ میں پکانا',
 };
 
 const COOKING_METHODS_FA: Record<string, string> = {
@@ -1227,7 +1238,8 @@ const COOKING_METHODS_FA: Record<string, string> = {
   'فرن': 'پخت در فر',
   'قلي': 'سرخ کردن',
   'خبز': 'پخت در فر',
-  'حفظ وتجميد': 'نگهداری و انجماد'
+  'حفظ وتجميد': 'نگهداری و انجماد',
+  'بخار': 'بخارپز کردن',
 };
 
 const COOKING_METHODS_TR: Record<string, string> = {
@@ -1243,7 +1255,8 @@ const COOKING_METHODS_TR: Record<string, string> = {
   'فرن': 'Fırında',
   'قلي': 'Kızartma',
   'خبز': 'Fırında Pişirme',
-  'حفظ وتجميد': 'Saklama ve Dondurma'
+  'حفظ وتجميد': 'Saklama ve Dondurma',
+  'بخار': 'Buharda Pişirme',
 };
 
 const COOKING_METHODS_KU: Record<string, string> = {
@@ -1259,7 +1272,8 @@ const COOKING_METHODS_KU: Record<string, string> = {
   'فرن': 'Di Firinê de',
   'قلي': 'Qelandin',
   'خبز': 'Pijandina di Firinê de',
-  'حفظ وتجميد': 'Parastin û Cemidandin'
+  'حفظ وتجميد': 'Parastin û Cemidandin',
+  'بخار': 'Li Hilmê Çêkirin',
 };
 
 const COOKING_METHODS_ID: Record<string, string> = {
@@ -1275,7 +1289,8 @@ const COOKING_METHODS_ID: Record<string, string> = {
   'فرن': 'Oven',
   'قلي': 'Menggoreng',
   'خبز': 'Memanggang di Oven',
-  'حفظ وتجميد': 'Penyimpanan & Pembekuan'
+  'حفظ وتجميد': 'Penyimpanan & Pembekuan',
+  'بخار': 'Mengukus',
 };
 
 const COOKING_METHODS_SW: Record<string, string> = {
@@ -1291,7 +1306,8 @@ const COOKING_METHODS_SW: Record<string, string> = {
   'فرن': 'Oveni',
   'قلي': 'Kukaanga',
   'خبز': 'Kuoka Ovenini',
-  'حفظ وتجميد': 'Kuhifadhi na Kugandisha'
+  'حفظ وتجميد': 'Kuhifadhi na Kugandisha',
+  'بخار': 'Kupika kwa Mvuke',
 };
 
 const COOKING_METHODS_KO: Record<string, string> = {
@@ -1307,7 +1323,8 @@ const COOKING_METHODS_KO: Record<string, string> = {
   'فرن': '오븐',
   'قلي': '튀기기',
   'خبز': '오븐 굽기',
-  'حفظ وتجميد': '보관 및 냉동'
+  'حفظ وتجميد': '보관 및 냉동',
+  'بخار': '찜',
 };
 
 const COOKING_METHODS_NL: Record<string, string> = {
@@ -1323,7 +1340,8 @@ const COOKING_METHODS_NL: Record<string, string> = {
   'فرن': 'Bakken',
   'قلي': 'Frituren',
   'خبز': 'Bakken',
-  'حفظ وتجميد': 'Conserveren & Invriezen'
+  'حفظ وتجميد': 'Conserveren & Invriezen',
+  'بخار': 'Stomen',
 };
 
 const COOKING_METHODS_PS: Record<string, string> = {
@@ -1339,7 +1357,8 @@ const COOKING_METHODS_PS: Record<string, string> = {
   'فرن': 'په تنور کې پخلی',
   'قلي': 'تلل',
   'خبز': 'په تنور کې پخلی',
-  'حفظ وتجميد': 'ساتل او کنګل کول'
+  'حفظ وتجميد': 'ساتل او کنګل کول',
+  'بخار': 'په بخار پخلی',
 };
 
 const COOKING_METHODS_HE: Record<string, string> = {
@@ -1355,7 +1374,8 @@ const COOKING_METHODS_HE: Record<string, string> = {
   'فرن': 'אפייה בתנור',
   'قلي': 'טיגון',
   'خبز': 'אפייה',
-  'حفظ وتجميد': 'שימור והקפאה'
+  'حفظ وتجميد': 'שימור והקפאה',
+  'بخار': 'בישול באדים',
 };
 
 const COOKING_METHODS_PL: Record<string, string> = {
@@ -1371,7 +1391,8 @@ const COOKING_METHODS_PL: Record<string, string> = {
   'فرن': 'Pieczenie w piekarniku',
   'قلي': 'Smażenie',
   'خبز': 'Pieczenie',
-  'حفظ وتجميد': 'Przechowywanie i mrożenie'
+  'حفظ وتجميد': 'Przechowywanie i mrożenie',
+  'بخار': 'Gotowanie na parze',
 };
 
 const COOKING_METHODS_SV: Record<string, string> = {
@@ -1387,7 +1408,8 @@ const COOKING_METHODS_SV: Record<string, string> = {
   'فرن': 'Bakning i ugn',
   'قلي': 'Stekning',
   'خبز': 'Bakning',
-  'حفظ وتجميد': 'Förvaring och frysning'
+  'حفظ وتجميد': 'Förvaring och frysning',
+  'بخار': 'Ångkokning',
 };
 
 const COOKING_METHODS_TE: Record<string, string> = {

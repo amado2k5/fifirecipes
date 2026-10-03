@@ -228,8 +228,10 @@ for (const recipe of orderedRecipes) {
     // Many translation entries carry no chapter/category/cookingMethod (the site
     // localizes them from name tables). Native clients read only this file, so
     // bake the localized labels in — otherwise they fall back to the Arabic master.
-    const { chapter, category, cookingMethod } = getLocalizedRecipe(recipe, lang);
-    translations[lang] = { chapter, category, cookingMethod, ...table[recipe.id] };
+    // The same applies to prepTime/cookTime/servings: entries that omit them get
+    // the localized measurement instead of an English fallback in the apps.
+    const { chapter, category, cookingMethod, prepTime, cookTime, servings } = getLocalizedRecipe(recipe, lang);
+    translations[lang] = { chapter, category, cookingMethod, prepTime, cookTime, servings, ...table[recipe.id] };
   }
   put(`recipes/${recipe.id}.json`, { recipe, estimate: RECIPE_ESTIMATES[recipe.id], translations });
 }
