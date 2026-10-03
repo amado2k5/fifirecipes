@@ -21,6 +21,14 @@
         "--strictPort"
       ],
       "port": 4174
+    },
+    {
+      "name": "banner-dashboard",
+      "runtimeExecutable": "scripts/recipe-images/.venv-mflux/bin/python",
+      "runtimeArgs": [
+        "scripts/recipe-images/dashboard.py"
+      ],
+      "port": 8765
     }
   ]
 }
