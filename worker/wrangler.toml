@@ -1,0 +1,7 @@
+name = "fifi-home-feed"
+main = "home-feed.js"
+compatibility_date = "2026-10-01"
+
+# Only this path runs the Worker; all other fifi.cooking traffic bypasses it.
+# Requires fifi.cooking to be a Cloudflare zone (proxied/orange-cloud record).
+routes = [{ pattern = "fifi.cooking/data/tv/feed/*", zone_name = "fifi.cooking" }]
