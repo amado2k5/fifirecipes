@@ -17,8 +17,8 @@ Pipeline: `build-glossary.ts` → `draft-entries.ts <lang> <slug>` → author
 |beverages|24|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||||
 |salads|24|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |starches|47|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||||
-|pastries| 48 |✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|  |  |  |  |  |  |  |
-|westernDesserts|57|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||||
+|pastries| 48 |✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||||
+|westernDesserts|57|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
 |lightDesserts|73|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||||
 |easternDesserts|76|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅||||||||
 |soups|8|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|||||||
@@ -337,4 +337,6 @@ Audit: 0 absent, 0 incomplete.
 - meats fah-040 cookingMethod filled (Kupika kwa Mvuke).
 - quick(130/130) merged → 267/808.
 - fish(20), vegetables(14), legumes(11), stuffed(4), soups(8), salads(24) merged → 348/808.
-- Remaining: 9 categories.
+- savory(16), starches(47), pastries(48), westernDesserts(57) merged → 516/808.
+- `norm/sw.json` extended with dessert-unit mappings (bakitia, kibox, viweo, baking soda, etc.).
+- Remaining: 5 categories (easternDesserts 76, lightDesserts 73, sweetPies 106, beverages 24, iceCream 13).
