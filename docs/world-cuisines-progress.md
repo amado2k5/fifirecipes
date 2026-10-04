@@ -18,11 +18,11 @@ Detailed working log lives in the gitignored `world/PROGRESS.md`.
 
 | Step | State | Notes |
 |---|---|---|
-| 0. Setup + banner pipeline | awaiting user OK on 3 test banners | sources rebuilt from bytecode, see `scripts/recipe-images/` |
-| 1. Discovery | not started | `scripts/world/discover.py` |
-| 2. Distill | not started | `scripts/world/distill.py` |
-| 3. Import | not started | `scripts/world/import.ts` |
-| 4–7. Assets | not started | banners, thumbs, translations, estimates |
+| 0. Setup + banner pipeline | done | committed via PR #238 (`06d02e83`) |
+| 1. Discovery | approved by user 2026-10-03 | pilots ma/jp/mx; lists in `world/sources/` |
+| 2. Distill | done | 124 drafts → 115 after manual veto; ledgers in `world/` |
+| 3. Import | done | `src/data/world/{ma,jp,mx}.json`, 115 entries, `ready:false` |
+| 4–7. Assets | in progress | estimates done (115); translations running; banners prepped |
 | 8. Verify | not started | web + tv data + app repos |
 | 9. Ship | not started | PR per ~50-recipe chunk |
 
@@ -41,5 +41,23 @@ documented behavior. All accept `--ids`/`--ids-file`; `generate.py` also
 reads per-recipe `section`/`refs` overrides from `work/recipes.json`.
 
 GPU test (FLUX.2 klein 9B, quantize 8, 4 steps, refs `meat-03`/`veg-05`):
-3 images at ~80 s each, on-style. Pending user sign-off, then the restored
-sources get committed.
+3 images at ~80 s each, on-style. Approved; sources committed via PR #238.
+
+## Step 1 detail
+
+195-country metadata in `world/countries.yaml` (arwiki names, `مطبخ <الدولة>`
+chapters). Discovery: `scripts/world/discover.py` ranks Wikipedia category +
+list-article + local-wiki candidates by pageviews, filters non-dishes
+(wikidata descriptions + category checks), applies the deterministic halal
+name gate, and matches recipe URLs on allowlisted sites (sitemaps, WP REST
+search, fuzzy transliteration matching). Site duplicates logged to
+`world/duplicates.jsonl` (title + e5 embedding suspects).
+
+Pilot results: ma 438 candidates/218 sourced, jp 1,552/303, mx 1,117/256;
+top-130 coverage 85/111/104. Residual ~10% noise (ingredient/meta pages)
+self-eliminates at distill. User reviewed the ranked lists
+(`world/review.html`, `scripts/world/review.py`) and approved 2026-10-03.
+
+Known issue: `dishes.score` inflates cosmetically across resume runs
+(`score*1e6+pageviews` re-applied); ordering stays monotonic but the field
+should be rewritten before scaling to all 195 countries.

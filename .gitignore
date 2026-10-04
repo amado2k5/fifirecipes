@@ -17,7 +17,7 @@ public/apple-app-site-association*
 
 # local scratch assets
 temp_clone/
-world/
+/world/
 
 # recipe-image pipeline: sources are committed, but venvs, caches and work
 # artifacts stay local
@@ -26,3 +26,8 @@ scripts/recipe-images/__pycache__/
 scripts/recipe-images/*.pyc
 scripts/recipe-images/work/
 scripts/recipe-images/disassembly/
+
+# world-cuisines pipeline: same split — sources committed, envs local
+scripts/world/.venv*/
+scripts/world/__pycache__/
+scripts/world/*.pyc

@@ -1,0 +1,118 @@
+# Deterministic halal gate for world recipes.
+# Matching is case/accent-insensitive and word-boundary aware over the
+# normalized ingredient + step text. Seafood is allowed (user ruling).
+# Meat is assumed halal-slaughtered per the chapter intro note.
+
+reject:
+  # pork & pig derivatives
+  - pork
+  - bacon
+  - ham
+  - pancetta
+  - prosciutto
+  - guanciale
+  - speck
+  - chorizo
+  - salami
+  - pepperoni
+  - mortadella
+  - lard
+  - pig
+  - wild boar
+  - boar
+  - chicharron
+  - chicharrones
+  - carnitas
+  - al pastor
+  - blood sausage
+  - black pudding
+  - morcilla
+  - boudin noir
+  # alcohol & alcoholic ingredients
+  - wine
+  - red wine
+  - white wine
+  - cooking wine
+  - mirin
+  - sake
+  - beer
+  - ale
+  - lager
+  - stout
+  - cider
+  - mead
+  - liqueur
+  - amaretto
+  - brandy
+  - cognac
+  - rum
+  - whisky
+  - whiskey
+  - bourbon
+  - vodka
+  - tequila
+  - mezcal
+  - champagne
+  - prosecco
+  - sherry
+  - port
+  - marsala
+  - madeira
+  - vermouth
+  - schnapps
+  - grappa
+  - ouzo
+  - raki
+  - soju
+  - wine vinegar
+  - red wine vinegar
+  - white wine vinegar
+  - sherry vinegar
+  - champagne vinegar
+  - balsamic vinegar of modena
+  - vanilla extract
+  - gelatin
+  - gelatine
+  - rennet
+
+review:
+  # ambiguous — goes to review.jsonl
+  - extract
+  - essence
+  - cooking spray
+  - shortening
+  - marshmallow
+  - worcestershire sauce
+  - oyster sauce
+  - dashi
+  - chicken stock
+  - beef stock
+  - chicken broth
+  - beef broth
+  - bouillon
+  - stock cube
+  - mono and diglycerides
+  - emulsifier
+
+accept:
+  # whitelisted — safe despite partial matches on reject terms
+  - soy sauce
+  - fish sauce
+  - apple cider vinegar
+  - rice vinegar
+  - rice wine vinegar
+  - distilled white vinegar
+  - white vinegar
+  - malt vinegar
+  - grape juice
+  - turkey bacon
+  - beef bacon
+  - vegetarian gelatin
+  - agar
+  - halal gelatin
+  - microbial rennet
+  - vegetarian rennet
+  - ginger ale
+  - root beer
+  - non-alcoholic beer
+  - alcohol-free wine

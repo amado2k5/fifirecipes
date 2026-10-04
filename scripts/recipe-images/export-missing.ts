@@ -15,6 +15,7 @@ import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { allRecipes } from '../../src/data/recipes';
+import { allWorldRecipes } from '../../src/data/chapters/world';
 import { getRecipeImagePath } from '../../src/data/recipeImages';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -73,8 +74,11 @@ function main() {
   const out = argValue('--out') ?? OUT_DEFAULT;
   const dup = variantDuplicates();
 
+  // Site recipes plus world entries not yet ready (still need banners).
+  const seen = new Set(allRecipes.map(r => r.id));
+  const pool = [...allRecipes, ...allWorldRecipes.filter(r => !seen.has(r.id))];
   const rows: ExportRow[] = [];
-  for (const r of allRecipes) {
+  for (const r of pool) {
     if (ids.length && !ids.includes(r.id)) continue;
     const published = getRecipeImagePath(r.id) !== undefined || existsSync(resolve(IMAGES_DIR, `${r.id}.jpg`));
     if (published && !ids.length) continue;

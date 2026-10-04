@@ -13,6 +13,7 @@ export interface AdditionalRecipesText {
   collectionOsool: string;
   collectionAbdennour: string;
   collectionAbuhaty: string;
+  collectionWorld: string;
   citationLabel: string;
   /** Label shown before a video citation instead of "in the book". */
   citationVideo: string;
@@ -31,6 +32,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'كتاب أصول الطهي',
     collectionAbdennour: 'كتاب Egyptian Cooking (سامية عبد النور)',
     collectionAbuhaty: 'قناة فاطمة أبو حاتي (يوتيوب)',
+    collectionWorld: 'مطابخ العالم',
     citationLabel: 'الموضع في الكتاب:',
     citationVideo: 'الفيديو:',
     tips: 'نصائح وملاحظات'
@@ -46,6 +48,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'Osool El Tahy cookbook',
     collectionAbdennour: 'Egyptian Cooking (Samia Abdennour)',
     collectionAbuhaty: 'Fatma Abu Haty channel (YouTube)',
+    collectionWorld: 'World Cuisines',
     citationLabel: 'In the book:',
     citationVideo: 'Video:',
     tips: 'Tips & notes'
@@ -61,6 +64,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'Livre Osool El Tahy',
     collectionAbdennour: 'Livre Egyptian Cooking (Samia Abdennour)',
     collectionAbuhaty: 'Chaîne de Fatma Abu Haty (YouTube)',
+    collectionWorld: 'Cuisines du monde',
     citationLabel: 'Dans le livre :',
     citationVideo: 'Vidéo :',
     tips: 'Conseils et notes'
@@ -76,6 +80,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'Libro Osool El Tahy',
     collectionAbdennour: 'Libro Egyptian Cooking (Samia Abdennour)',
     collectionAbuhaty: 'Canal de Fatma Abu Haty (YouTube)',
+    collectionWorld: 'Cocinas del mundo',
     citationLabel: 'En el libro:',
     citationVideo: 'Vídeo:',
     tips: 'Consejos y notas'
@@ -91,6 +96,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: '料理書『オスール・エル・タヒー』',
     collectionAbdennour: '料理書『Egyptian Cooking』(サミア・アブデヌール)',
     collectionAbuhaty: 'ファトマ・アブ・ハーティーのチャンネル (YouTube)',
+    collectionWorld: '世界の料理',
     citationLabel: '書籍内の位置:',
     citationVideo: '動画:',
     tips: 'コツとメモ'
@@ -106,6 +112,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'ओसूल अल-तही पाकपुस्तक',
     collectionAbdennour: 'Egyptian Cooking पाकपुस्तक (समिया अब्देनूर)',
     collectionAbuhaty: 'फातिमा अबू हाती चैनल (YouTube)',
+    collectionWorld: 'विश्व व्यंजन',
     citationLabel: 'पुस्तक में:',
     citationVideo: 'वीडियो:',
     tips: 'सुझाव और टिप्पणियाँ'
@@ -121,6 +128,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'Livro Osool El Tahy',
     collectionAbdennour: 'Livro Egyptian Cooking (Samia Abdennour)',
     collectionAbuhaty: 'Canal da Fatma Abu Haty (YouTube)',
+    collectionWorld: 'Cozinhas do mundo',
     citationLabel: 'No livro:',
     citationVideo: 'Vídeo:',
     tips: 'Dicas e notas'
@@ -136,6 +144,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'Книга «Осуль эт-Тахи»',
     collectionAbdennour: 'Книга «Egyptian Cooking» (Самия Абденнур)',
     collectionAbuhaty: 'Канал Фатмы Абу Хати (YouTube)',
+    collectionWorld: 'Кухни мира',
     citationLabel: 'В книге:',
     citationVideo: 'Видео:',
     tips: 'Советы и заметки'
@@ -151,6 +160,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: '《烹饪原理》食谱书',
     collectionAbdennour: '《Egyptian Cooking》食谱书(萨米娅·阿卜杜努尔)',
     collectionAbuhaty: 'Fatma Abu Haty 频道 (YouTube)',
+    collectionWorld: '世界美食',
     citationLabel: '书中位置：',
     citationVideo: '视频：',
     tips: '烹饪贴士'
@@ -166,6 +176,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'Kochbuch Osool El Tahy',
     collectionAbdennour: 'Kochbuch Egyptian Cooking (Samia Abdennour)',
     collectionAbuhaty: 'Fatma Abu Hatys Kanal (YouTube)',
+    collectionWorld: 'Weltküchen',
     citationLabel: 'Im Buch:',
     citationVideo: 'Video:',
     tips: 'Tipps & Hinweise'
@@ -181,6 +192,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'Libro Osool El Tahy',
     collectionAbdennour: 'Libro Egyptian Cooking (Samia Abdennour)',
     collectionAbuhaty: 'Canale di Fatma Abu Haty (YouTube)',
+    collectionWorld: 'Cucine del mondo',
     citationLabel: 'Nel libro:',
     citationVideo: 'Video:',
     tips: 'Consigli e note'
@@ -196,6 +208,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'Βιβλίο Osool El Tahy',
     collectionAbdennour: 'Βιβλίο Egyptian Cooking (Samia Abdennour)',
     collectionAbuhaty: 'Κανάλι της Φάτμα Αμπού Χάτι (YouTube)',
+    collectionWorld: 'Κουζίνες του κόσμου',
     citationLabel: 'Στο βιβλίο:',
     citationVideo: 'Βίντεο:',
     tips: 'Συμβουλές & σημειώσεις'
@@ -211,6 +224,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'کتاب اصول الطہی',
     collectionAbdennour: 'کتاب Egyptian Cooking (سامیہ عبدالنور)',
     collectionAbuhaty: 'فاطمہ ابو حاتی کا چینل (YouTube)',
+    collectionWorld: 'عالمی کھانے',
     citationLabel: 'کتاب میں:',
     citationVideo: 'ویڈیو:',
     tips: 'مشورے اور نوٹس'
@@ -226,6 +240,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'کتاب اصول الطهی',
     collectionAbdennour: 'کتاب Egyptian Cooking (سامیه عبدالنور)',
     collectionAbuhaty: 'کانال فاطمه ابو حاتی (یوتیوب)',
+    collectionWorld: 'آشپزی ملل',
     citationLabel: 'در کتاب:',
     citationVideo: 'ویدیو:',
     tips: 'نکات و یادداشت‌ها'
@@ -241,6 +256,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'Osool El Tahy yemek kitabı',
     collectionAbdennour: 'Egyptian Cooking yemek kitabı (Samia Abdennour)',
     collectionAbuhaty: 'Fatma Abu Haty kanalı (YouTube)',
+    collectionWorld: 'Dünya mutfakları',
     citationLabel: 'Kitapta:',
     citationVideo: 'Video:',
     tips: 'İpuçları ve notlar'
@@ -256,6 +272,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'Pirtûka Osool El Tahy',
     collectionAbdennour: 'Pirtûka Egyptian Cooking (Samia Abdennour)',
     collectionAbuhaty: 'Kanala Fatma Ebu Hatî (YouTube)',
+    collectionWorld: 'Xwarinên cîhanê',
     citationLabel: 'Di pirtûkê de:',
     citationVideo: 'Vîdeo:',
     tips: 'Şîret û not'
@@ -271,6 +288,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'Buku masak Osool El Tahy',
     collectionAbdennour: 'Buku Egyptian Cooking (Samia Abdennour)',
     collectionAbuhaty: 'Kanal Fatma Abu Haty (YouTube)',
+    collectionWorld: 'Masakan dunia',
     citationLabel: 'Dalam buku:',
     citationVideo: 'Video:',
     tips: 'Tips & catatan'
@@ -286,6 +304,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'Kitabu cha Osool El Tahy',
     collectionAbdennour: 'Kitabu cha Egyptian Cooking (Samia Abdennour)',
     collectionAbuhaty: 'Channel ya Fatma Abu Haty (YouTube)',
+    collectionWorld: 'Mapishi ya dunia',
     citationLabel: 'Katika kitabu:',
     citationVideo: 'Video:',
     tips: 'Vidokezo na maelezo'
@@ -301,6 +320,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: '요리책 《우술 알타히》',
     collectionAbdennour: '요리책 《Egyptian Cooking》 (사미아 아브데누르)',
     collectionAbuhaty: '파트마 아부 하티 채널 (YouTube)',
+    collectionWorld: '세계 요리',
     citationLabel: '책 속 위치:',
     citationVideo: '동영상:',
     tips: '팁과 메모'
@@ -316,6 +336,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'Kookboek Osool El Tahy',
     collectionAbdennour: 'Kookboek Egyptian Cooking (Samia Abdennour)',
     collectionAbuhaty: 'Kanaal van Fatma Abu Haty (YouTube)',
+    collectionWorld: 'Wereldkeukens',
     citationLabel: 'In het boek:',
     citationVideo: 'Video:',
     tips: 'Tips & opmerkingen'
@@ -331,6 +352,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'د اصول الطبخ کتاب',
     collectionAbdennour: 'د Egyptian Cooking کتاب (سامیه عبدالنور)',
     collectionAbuhaty: 'د فاطمې ابو هاتي چینل (یوټیوب)',
+    collectionWorld: 'د نړۍ خواړه',
     citationLabel: 'په کتاب کې:',
     citationVideo: 'ویډیو:',
     tips: 'لارښوونې او یادونې'
@@ -346,6 +368,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'ספר הבישול אוסול אל-טחי',
     collectionAbdennour: 'ספר הבישול Egyptian Cooking (סאמיה עבד א-נור)',
     collectionAbuhaty: 'הערוץ של פאטמה אבו חאתי (YouTube)',
+    collectionWorld: 'מטבחי העולם',
     citationLabel: 'בספר:',
     citationVideo: 'וידאו:',
     tips: 'טיפים והערות'
@@ -361,6 +384,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'Książka kucharska Osool El-Tahy',
     collectionAbdennour: 'Książka kucharska Egyptian Cooking (Samia Abdennour)',
     collectionAbuhaty: 'Kanał Fatmy Abu Haty (YouTube)',
+    collectionWorld: 'Kuchnie świata',
     citationLabel: 'W książce:',
     citationVideo: 'Wideo:',
     tips: 'Wskazówki i uwagi'
@@ -376,6 +400,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'Kokboken Osool El Tahy',
     collectionAbdennour: 'Kokboken Egyptian Cooking (Samia Abdennour)',
     collectionAbuhaty: 'Fatma Abu Hatys kanal (YouTube)',
+    collectionWorld: 'Världens kök',
     citationLabel: 'I boken:',
     citationVideo: 'Video:',
     tips: 'Tips och anteckningar'
@@ -391,6 +416,7 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionOsool: 'Osool El Tahy వంట పుస్తకం',
     collectionAbdennour: 'Egyptian Cooking పుస్తకం (సమియా అబ్దెన్నూర్)',
     collectionAbuhaty: 'ఫాత్మా అబూ హాటీ ఛానెల్ (యూట్యూబ్)',
+    collectionWorld: 'ప్రపంచ వంటకాలు',
     citationLabel: 'పుస్తకంలోని స్థానం:',
     citationVideo: 'వీడియో:',
     tips: 'చిట్కాలు మరియు గమనికలు'

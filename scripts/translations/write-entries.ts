@@ -19,6 +19,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { allRecipes } from '../../src/data/recipes';
 import { fatmaAbuHatyRecipes } from '../../src/data/chapters/fatmaAbuHaty';
+import { allWorldRecipes } from '../../src/data/chapters/world';
 
 const SUFFIX: Record<string, string> = {
   en: '', fr: 'Fr', es: 'Es', ja: 'Ja', hi: 'Hi', pt: 'Pt', ru: 'Ru', zh: 'Zh', de: 'De',
@@ -26,7 +27,7 @@ const SUFFIX: Record<string, string> = {
   ko: 'Ko', nl: 'Nl', ps: 'Ps', he: 'He', pl: 'Pl', sv: 'Sv', te: 'Te'
 };
 
-const recipesById = new Map([...allRecipes, ...fatmaAbuHatyRecipes].map(r => [r.id, r]));
+const recipesById = new Map([...allRecipes, ...fatmaAbuHatyRecipes, ...allWorldRecipes].map(r => [r.id, r]));
 
 type Entry = {
   title?: string;

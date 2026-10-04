@@ -71,7 +71,10 @@ const CHAPTER_NAMES: Record<number, string> = {
   7: 'Chapter 7: Additional Recipes',
   8: 'Chapter 8: From the Cookbook “Osool El-Tahy”',
   9: 'Chapter 9: From the Cookbook “Egyptian Cooking”',
-  10: 'Chapter 10: Fatma Abu Haty Channel Recipes'
+  10: 'Chapter 10: Fatma Abu Haty Channel Recipes',
+  92: 'Japanese Cuisine',
+  117: 'Mexican Cuisine',
+  123: 'Moroccan Cuisine',
 };
 
 const CHAPTER_NAMES_FR: Record<number, string> = {
@@ -84,7 +87,10 @@ const CHAPTER_NAMES_FR: Record<number, string> = {
   7: 'Chapitre 7 : Recettes supplémentaires',
   8: 'Chapitre 8 : Tiré du livre « Osool El-Tahy »',
   9: 'Chapitre 9 : Tiré du livre « Egyptian Cooking »',
-  10: 'Chapitre 10 : Recettes de la chaîne Fatma Abu Haty'
+  10: 'Chapitre 10 : Recettes de la chaîne Fatma Abu Haty',
+  92: 'Cuisine japonaise',
+  117: 'Cuisine mexicaine',
+  123: 'Cuisine marocaine',
 };
 
 const CHAPTER_NAMES_ES: Record<number, string> = {
@@ -97,7 +103,10 @@ const CHAPTER_NAMES_ES: Record<number, string> = {
   7: 'Capítulo 7: Recetas adicionales',
   8: 'Capítulo 8: Del libro de cocina “Osool El-Tahy”',
   9: 'Capítulo 9: Del libro de cocina “Egyptian Cooking”',
-  10: 'Capítulo 10: Recetas del canal de Fatma Abu Haty'
+  10: 'Capítulo 10: Recetas del canal de Fatma Abu Haty',
+  92: 'Cocina japonesa',
+  117: 'Cocina mexicana',
+  123: 'Cocina marroquí',
 };
 
 const CHAPTER_NAMES_JA: Record<number, string> = {
@@ -110,7 +119,10 @@ const CHAPTER_NAMES_JA: Record<number, string> = {
   7: '第7章：追加レシピ',
   8: '第8章：料理本「オスール・エル＝タヒー」より',
   9: '第9章：料理本「Egyptian Cooking」より',
-  10: '第10章：ファトマ・アブ・ハーティーのチャンネルレシピ'
+  10: '第10章：ファトマ・アブ・ハーティーのチャンネルレシピ',
+  92: '日本料理',
+  117: 'メキシコ料理',
+  123: 'モロッコ料理',
 };
 
 const CHAPTER_NAMES_HI: Record<number, string> = {
@@ -123,7 +135,10 @@ const CHAPTER_NAMES_HI: Record<number, string> = {
   7: 'अध्याय 7: अतिरिक्त व्यंजन',
   8: 'अध्याय 8: पाक-पुस्तक “उसूल ए-तही” से',
   9: 'अध्याय 9: पाक-पुस्तक “Egyptian Cooking” से',
-  10: 'अध्याय 10: फातिमा अबू हाती चैनल की रेसिपियां'
+  10: 'अध्याय 10: फातिमा अबू हाती चैनल की रेसिपियां',
+  92: 'जापानी व्यंजन',
+  117: 'मैक्सिकन व्यंजन',
+  123: 'मोरोक्कन व्यंजन',
 };
 
 const CHAPTER_NAMES_PT: Record<number, string> = {
@@ -136,7 +151,10 @@ const CHAPTER_NAMES_PT: Record<number, string> = {
   7: 'Capítulo 7: Receitas adicionais',
   8: 'Capítulo 8: Do livro de receitas “Osool El-Tahy”',
   9: 'Capítulo 9: Do livro de receitas “Egyptian Cooking”',
-  10: 'Capítulo 10: Receitas do canal Fatma Abu Haty'
+  10: 'Capítulo 10: Receitas do canal Fatma Abu Haty',
+  92: 'Cozinha japonesa',
+  117: 'Cozinha mexicana',
+  123: 'Cozinha marroquina',
 };
 
 const CHAPTER_NAMES_RU: Record<number, string> = {
@@ -149,7 +167,10 @@ const CHAPTER_NAMES_RU: Record<number, string> = {
   7: 'Глава 7: Дополнительные рецепты',
   8: 'Глава 8: Из поваренной книги «Усуль ат-Тахи»',
   9: 'Глава 9: Из поваренной книги «Egyptian Cooking»',
-  10: 'Глава 10: Рецепты канала Фатмы Абу Хати'
+  10: 'Глава 10: Рецепты канала Фатмы Абу Хати',
+  92: 'Японская кухня',
+  117: 'Мексиканская кухня',
+  123: 'Марокканская кухня',
 };
 
 const CHAPTER_NAMES_ZH: Record<number, string> = {
@@ -162,7 +183,10 @@ const CHAPTER_NAMES_ZH: Record<number, string> = {
   7: '第七章：补充食谱',
   8: '第8章：摘自烹饪书《Osool El-Tahy》',
   9: '第9章：摘自烹饪书《Egyptian Cooking》',
-  10: '第10章：法蒂玛·阿布·哈蒂频道食谱'
+  10: '第10章：法蒂玛·阿布·哈蒂频道食谱',
+  92: '日本料理',
+  117: '墨西哥菜',
+  123: '摩洛哥菜',
 };
 
 const CHAPTER_NAMES_DE: Record<number, string> = {
@@ -175,7 +199,10 @@ const CHAPTER_NAMES_DE: Record<number, string> = {
   7: 'Kapitel 7: Zusätzliche Rezepte',
   8: 'Kapitel 8: Aus dem Kochbuch „Osool El-Tahy“',
   9: 'Kapitel 9: Aus dem Kochbuch „Egyptian Cooking“',
-  10: 'Kapitel 10: Rezepte vom Kanal Fatma Abu Haty'
+  10: 'Kapitel 10: Rezepte vom Kanal Fatma Abu Haty',
+  92: 'Japanische Küche',
+  117: 'Mexikanische Küche',
+  123: 'Marokkanische Küche',
 };
 
 const CHAPTER_NAMES_IT: Record<number, string> = {
@@ -188,7 +215,10 @@ const CHAPTER_NAMES_IT: Record<number, string> = {
   7: 'Capitolo 7: Ricette aggiuntive',
   8: 'Capitolo 8: Dal ricettario “Osool El-Tahy”',
   9: 'Capitolo 9: Dal ricettario “Egyptian Cooking”',
-  10: 'Capitolo 10: Ricette del canale Fatma Abu Haty'
+  10: 'Capitolo 10: Ricette del canale Fatma Abu Haty',
+  92: 'Cucina giapponese',
+  117: 'Cucina messicana',
+  123: 'Cucina marocchina',
 };
 
 const CHAPTER_NAMES_EL: Record<number, string> = {
@@ -201,7 +231,10 @@ const CHAPTER_NAMES_EL: Record<number, string> = {
   7: 'Κεφάλαιο 7: Επιπλέον συνταγές',
   8: 'Κεφάλαιο 8: Από το βιβλίο μαγειρικής «Osool El-Tahy»',
   9: 'Κεφάλαιο 9: Από το βιβλίο μαγειρικής «Egyptian Cooking»',
-  10: 'Κεφάλαιο 10: Συνταγές του καναλιού Fatma Abu Haty'
+  10: 'Κεφάλαιο 10: Συνταγές του καναλιού Fatma Abu Haty',
+  92: 'Ιαπωνική κουζίνα',
+  117: 'Μεξικανική κουζίνα',
+  123: 'Μαροκινή κουζίνα',
 };
 
 const CHAPTER_NAMES_UR: Record<number, string> = {
@@ -214,7 +247,10 @@ const CHAPTER_NAMES_UR: Record<number, string> = {
   7: 'باب 7: اضافی ترکیبیں',
   8: 'باب 8: پکوان کی کتاب «اصول الطہی» سے',
   9: 'باب 9: پکوان کی کتاب «Egyptian Cooking» سے',
-  10: 'باب 10: فاطمہ ابو ہاتی چینل کی ترکیبیں'
+  10: 'باب 10: فاطمہ ابو ہاتی چینل کی ترکیبیں',
+  92: 'جاپانی کھانا',
+  117: 'میکسیکی کھانا',
+  123: 'مراکشی کھانا',
 };
 
 const CHAPTER_NAMES_FA: Record<number, string> = {
@@ -227,7 +263,10 @@ const CHAPTER_NAMES_FA: Record<number, string> = {
   7: 'فصل ۷: دستورهای افزوده',
   8: 'فصل 8: از کتاب آشپزی «اصول الطهی»',
   9: 'فصل 9: از کتاب آشپزی «Egyptian Cooking»',
-  10: 'فصل 10: دستورهای کانال فاطمه ابوهاتی'
+  10: 'فصل 10: دستورهای کانال فاطمه ابوهاتی',
+  92: 'آشپزی ژاپنی',
+  117: 'آشپزی مکزیکی',
+  123: 'آشپزی مراکشی',
 };
 
 const CHAPTER_NAMES_TR: Record<number, string> = {
@@ -240,7 +279,10 @@ const CHAPTER_NAMES_TR: Record<number, string> = {
   7: 'Bölüm 7: Ek Tarifler',
   8: 'Bölüm 8: “Osool El-Tahy” yemek kitabından',
   9: 'Bölüm 9: “Egyptian Cooking” yemek kitabından',
-  10: 'Bölüm 10: Fatma Abu Haty kanalından tarifler'
+  10: 'Bölüm 10: Fatma Abu Haty kanalından tarifler',
+  92: 'Japon mutfağı',
+  117: 'Meksika mutfağı',
+  123: 'Fas mutfağı',
 };
 
 const CHAPTER_NAMES_KU: Record<number, string> = {
@@ -253,7 +295,10 @@ const CHAPTER_NAMES_KU: Record<number, string> = {
   7: 'Beşa 7: Reçeteyên Zêde',
   8: 'Beş 8: Ji pirtûka xwarinê “Osool El-Tahy”',
   9: 'Beş 9: Ji pirtûka xwarinê “Egyptian Cooking”',
-  10: 'Beş 10: Reçeteyên kanala Fatma Abu Haty'
+  10: 'Beş 10: Reçeteyên kanala Fatma Abu Haty',
+  92: 'Xwarinên Japonya',
+  117: 'Xwarinên Meksîkoyê',
+  123: 'Xwarinên Meroko',
 };
 
 const CHAPTER_NAMES_ID: Record<number, string> = {
@@ -266,7 +311,10 @@ const CHAPTER_NAMES_ID: Record<number, string> = {
   7: 'Bab 7: Resep Tambahan',
   8: 'Bab 8: Dari buku masak “Osool El-Tahy”',
   9: 'Bab 9: Dari buku masak “Egyptian Cooking”',
-  10: 'Bab 10: Resep dari kanal Fatma Abu Haty'
+  10: 'Bab 10: Resep dari kanal Fatma Abu Haty',
+  92: 'Masakan Jepang',
+  117: 'Masakan Meksiko',
+  123: 'Masakan Maroko',
 };
 
 const CHAPTER_NAMES_SW: Record<number, string> = {
@@ -279,7 +327,10 @@ const CHAPTER_NAMES_SW: Record<number, string> = {
   7: 'Sura ya 7: Mapishi ya Ziada',
   8: 'Sura ya 8: Kutoka kitabu cha mapishi “Osool El-Tahy”',
   9: 'Sura ya 9: Kutoka kitabu cha mapishi “Egyptian Cooking”',
-  10: 'Sura ya 10: Mapishi ya kituo cha Fatma Abu Haty'
+  10: 'Sura ya 10: Mapishi ya kituo cha Fatma Abu Haty',
+  92: 'Mapishi ya Japani',
+  117: 'Mapishi ya Meksiko',
+  123: 'Mapishi ya Moroko',
 };
 
 const CHAPTER_NAMES_KO: Record<number, string> = {
@@ -292,7 +343,10 @@ const CHAPTER_NAMES_KO: Record<number, string> = {
   7: '제7장: 추가 레시피',
   8: '제8장: 요리책 “Osool El-Tahy”에서',
   9: '제9장: 요리책 “Egyptian Cooking”에서',
-  10: '제10장: 파트마 아부 하티 채널 레시피'
+  10: '제10장: 파트마 아부 하티 채널 레시피',
+  92: '일본 요리',
+  117: '멕시코 요리',
+  123: '모로코 요리',
 };
 
 const CHAPTER_NAMES_NL: Record<number, string> = {
@@ -305,7 +359,10 @@ const CHAPTER_NAMES_NL: Record<number, string> = {
   7: 'Hoofdstuk 7: Aanvullende Recepten',
   8: 'Hoofdstuk 8: Uit het kookboek “Osool El-Tahy”',
   9: 'Hoofdstuk 9: Uit het kookboek “Egyptian Cooking”',
-  10: 'Hoofdstuk 10: Recepten van het Fatma Abu Haty-kanaal'
+  10: 'Hoofdstuk 10: Recepten van het Fatma Abu Haty-kanaal',
+  92: 'Japanse keuken',
+  117: 'Mexicaanse keuken',
+  123: 'Marokkaanse keuken',
 };
 
 const CHAPTER_NAMES_PS: Record<number, string> = {
@@ -318,7 +375,10 @@ const CHAPTER_NAMES_PS: Record<number, string> = {
   7: 'اووم باب: اضافي ترکیبونه',
   8: 'اتم باب: د پخلی کتاب «اصول الطهي» څخه',
   9: 'نهم باب: د «Egyptian Cooking» له پخلی کتاب څخه',
-  10: 'لسم باب: د فاطمه ابو هاتي د چینل ترکیبونه'
+  10: 'لسم باب: د فاطمه ابو هاتي د چینل ترکیبونه',
+  92: 'جاپاني پخلی',
+  117: 'مکسيکي پخلی',
+  123: 'مغربي پخلی',
 };
 
 const CHAPTER_NAMES_HE: Record<number, string> = {
@@ -331,7 +391,10 @@ const CHAPTER_NAMES_HE: Record<number, string> = {
   7: 'פרק 7: מתכונים נוספים',
   8: 'פרק 8: מתוך ספר הבישול “Osool El-Tahy”',
   9: 'פרק 9: מתוך ספר הבישול “Egyptian Cooking”',
-  10: 'פרק 10: מתכונים מערוץ פאטמה אבו האטי'
+  10: 'פרק 10: מתכונים מערוץ פאטמה אבו האטי',
+  92: 'מטבח יפני',
+  117: 'מטבח מקסיקני',
+  123: 'מטבח מרוקאי',
 };
 
 const CHAPTER_NAMES_PL: Record<number, string> = {
@@ -344,7 +407,10 @@ const CHAPTER_NAMES_PL: Record<number, string> = {
   7: 'Rozdział 7: Dodatkowe przepisy',
   8: 'Rozdział 8: Z książki kucharskiej „Osool El-Tahy”',
   9: 'Rozdział 9: Z książki kucharskiej „Egyptian Cooking”',
-  10: 'Rozdział 10: Przepisy z kanału Fatma Abu Haty'
+  10: 'Rozdział 10: Przepisy z kanału Fatma Abu Haty',
+  92: 'Kuchnia japońska',
+  117: 'Kuchnia meksykańska',
+  123: 'Kuchnia marokańska',
 };
 
 const CHAPTER_NAMES_SV: Record<number, string> = {
@@ -357,7 +423,10 @@ const CHAPTER_NAMES_SV: Record<number, string> = {
   7: 'Kapitel 7: Ytterligare recept',
   8: 'Kapitel 8: Ur kokboken ”Osool El-Tahy”',
   9: 'Kapitel 9: Ur kokboken ”Egyptian Cooking”',
-  10: 'Kapitel 10: Recept från Fatma Abu Hatys kanal'
+  10: 'Kapitel 10: Recept från Fatma Abu Hatys kanal',
+  92: 'Japanskt kök',
+  117: 'Mexikanskt kök',
+  123: 'Marockanskt kök',
 };
 
 const CHAPTER_NAMES_TE: Record<number, string> = {
@@ -370,7 +439,10 @@ const CHAPTER_NAMES_TE: Record<number, string> = {
   7: 'అధ్యాయం 7: అదనపు వంటకాలు',
   8: 'అధ్యాయం 8: “ఉసూల్ ఎల్-తహీ” వంట పుస్తకం నుండి',
   9: 'అధ్యాయం 9: “ఈజిప్షియన్ కుకింగ్” పుస్తకం నుండి',
-  10: 'అధ్యాయం 10: ఫాత్మా అబూ హాతీ ఛానెల్ వంటకాలు'
+  10: 'అధ్యాయం 10: ఫాత్మా అబూ హాతీ ఛానెల్ వంటకాలు',
+  92: 'జపనీస్ వంటకాలు',
+  117: 'మెక్సికన్ వంటకాలు',
+  123: 'మొరాకన్ వంటకాలు',
 };
 
 const CATEGORY_NAMES: Record<string, string> = {

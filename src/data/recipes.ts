@@ -9,6 +9,7 @@ import { additionalRecipes } from './chapters/additionalRecipes';
 import { osoolElTahyRecipes } from './chapters/osoolElTahy';
 import { egyptianCookingRecipes } from './chapters/egyptianCooking';
 import { fatmaAbuHatyRecipes } from './chapters/fatmaAbuHaty';
+import { worldRecipes } from './chapters/world';
 
 export const allRecipes: Recipe[] = [
   ...meatsAndPoultryRecipes,
@@ -20,7 +21,8 @@ export const allRecipes: Recipe[] = [
   ...additionalRecipes,
   ...osoolElTahyRecipes,
   ...egyptianCookingRecipes,
-  ...fatmaAbuHatyRecipes
+  ...fatmaAbuHatyRecipes,
+  ...worldRecipes
 ];
 
 export function computeDatabaseStats(recipes: Recipe[] = allRecipes): DatabaseStats {
