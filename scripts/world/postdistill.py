@@ -7,18 +7,20 @@
 While the GPU distills country N+1, the CPU can already import country N
 and feed the banner queue — nothing waits on the whole chain ending.
 
-For every country whose drafts are complete (next country started in the
-chain log, chain finished, or drafts untouched for QUIET_SECS with no
-distill process running) and that is not yet imported:
+Per-draft flow: each sweep imports every NEW draft file (import.py is
+idempotent — already-imported ids are skipped), seeds the banner
+pipeline and refreshes world/devin-queue/<iso>.json with:
 
-  1. import.py --iso <iso>            -> src/data/world/<iso>.json (ready:false)
-  2. seed the banner pipeline         -> work/recipes.json rows +
-                                       state.db 'described' + image_brief
-  3. world/devin-queue/<iso>.json     -> per-recipe English source dump
-                                       (title/ings/steps/notes) for the
-                                       translation side, plus a flag
-                                       report (halal hits, mixed-script
-                                       Arabic, dupe titles).
+  - source: per-recipe English dump (title/ings/steps/notes)
+  - flags:  halal hits, latin-in-arabic, dupe titles
+  - audit:  {done: [...], pending: [...]} — the Devin-side halal
+            certification ledger, tracked per recipe; pending grows as
+            drafts land, done grows as each is certified
+  - checks: lint:lang + lint:halal output, once the country is finished
+            (chain moved on, chain done, or drafts quiet)
+
+Batched where it must be: banner generation waits for the GPU (it
+shares it with distill), thumbnails + ready flips happen per chapter.
 
 The Devin side only has to: SEMANTIC HALAL AUDIT of every recipe's
 ingredients/notes (the local model's verdicts are untrusted — it missed
@@ -84,6 +86,10 @@ def is_complete(iso: str, current: str | None, chain_done: bool,
     if not drafts_of(iso):
         return False
     if iso not in order:
+        return False
+    # parallel distill pool: a later marker no longer implies done —
+    # the process itself must have exited
+    if distill_running(iso):
         return False
     if chain_done:
         return True
@@ -207,27 +213,51 @@ def main() -> None:
     while True:
         current, chain_done = chain_position()
         for iso in order:
-            if iso in done or (QUEUE / f'{iso}.json').exists():
+            if iso in done:
                 continue
-            # countries that already have a catalog file are done by hand
-            if (SRC_WORLD / f'{iso}.json').exists():
+            mpath = QUEUE / f'{iso}.json'
+            catalog = SRC_WORLD / f'{iso}.json'
+            drafts = drafts_of(iso)
+            marker = (json.loads(mpath.read_text())
+                      if mpath.exists() else {})
+            # a catalog with no marker is a hand-built chapter — never
+            # re-import it (formatting churn, risks manual fixes)
+            if catalog.exists() and not mpath.exists():
                 done.add(iso)
                 continue
-            if not is_complete(iso, current, chain_done, order):
+            if not drafts:
                 continue
-            n = run_import(iso)
-            ids = imported_ids(iso)
-            img = seed_banners(iso) if ids else 0
-            flags, source = flag_report(iso, ids)
-            checks = run_checks()
-            marker = {'iso': iso, 'imported': len(ids), 'banners_seeded': img,
-                      'status': 'awaiting-halal-audit',
-                      'checks': checks, 'flags': flags, 'source': source}
-            (QUEUE / f'{iso}.json').write_text(
-                json.dumps(marker, ensure_ascii=False, indent=1))
-            print(f'[postdistill] {iso}: imported {len(ids)}, '
-                  f'{img} banner rows, {len(flags)} flags', flush=True)
-            done.add(iso)
+            # per-draft flow: import whenever new drafts have landed
+            seen = marker.get('drafts_seen', 0)
+            if len(drafts) > seen:
+                n = run_import(iso)
+                ids = imported_ids(iso)
+                img = seed_banners(iso) if ids else 0
+                flags, source = flag_report(iso, ids)
+                audited = marker.get('audit', {}).get('done', [])
+                marker.update({
+                    'iso': iso, 'imported': len(ids),
+                    'banners_seeded': marker.get('banners_seeded', 0) + img,
+                    'status': 'awaiting-halal-audit',
+                    'drafts_seen': len(drafts),
+                    'flags': flags, 'source': source,
+                    'audit': {'done': audited,
+                              'pending': sorted(ids - set(audited))},
+                })
+                mpath.write_text(json.dumps(marker, ensure_ascii=False,
+                                            indent=1))
+                print(f'[postdistill] {iso}: {len(drafts)} drafts, '
+                      f'{len(ids)} imported, {img} new banner rows, '
+                      f'{len(flags)} flags', flush=True)
+            # run the lints once, when the country is finished
+            if marker and not marker.get('checks') and \
+                    is_complete(iso, current, chain_done, order):
+                marker['checks'] = run_checks()
+                marker['distill_done'] = True
+                mpath.write_text(json.dumps(marker, ensure_ascii=False,
+                                            indent=1))
+                print(f'[postdistill] {iso}: distill complete, '
+                      f'lints recorded', flush=True)
         if args.once:
             break
         time.sleep(60)
