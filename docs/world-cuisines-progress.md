@@ -69,3 +69,27 @@ self-eliminates at distill. User reviewed the ranked lists
 Known issue: `dishes.score` inflates cosmetically across resume runs
 (`score*1e6+pageviews` re-applied); ordering stays monotonic but the field
 should be rewritten before scaling to all 195 countries.
+
+## Live state (2026-10-05)
+
+**Shipped**: 162 recipes imported across 6 chapters — ma 27, jp 44, mx 49
+(visible, `ready:true`, banners+thumbs on main via PRs #239-241), fr 14,
+cn 21, vn 7 (`ready:false`, banners generating). All 24 translation
+tables 162/162, estimates 162/162, field-level verified.
+
+**Mixed-script corruption fix** (`1d736267`): local model left truncated
+Latin fragments mid-word in Arabic-script text (فrijوليس, اسcoop,
+티ー스poon, بowl, 羊肉börek). Rewrote ~330 fields across the catalog +
+11 translation tables. Detector: `scripts/world/script-mix-audit.py`
+— run after every import/distill batch.
+
+**Chapter names**: `CHAPTER_NAMES` maps now cover all 21 in-flight
+countries (chapters 45/66/69/74/84/85/86/90/92/101/110/117/123/133/144/
+145/169/171/181/189/202) × 24 languages. Chapter number = `10 + order`
+from `world/countries.yaml`; new countries need a name added per map
+when imported.
+
+**Chains running**: GPU banners for fr/cn/vn (42) → then auto-distill
+for 15 banked countries (it es kr in th tr id lb et ir my ng gr pe ph).
+Discovery chain grinding the remaining 87 tier-1/2 countries
+(`world/logs/discover-rest.log`, resumable per-country).
