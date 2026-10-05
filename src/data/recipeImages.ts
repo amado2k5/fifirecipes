@@ -216,7 +216,13 @@ const RECIPES_WITH_IMAGES = [
   'osool-906', 'osool-907', 'osool-908', 'osool-909', 'osool-910', 'osool-911', 'osool-912', 'osool-913',
   'osool-914', 'osool-915', 'osool-916', 'osool-917', 'osool-918', 'osool-951', 'osool-952', 'osool-953',
   'osool-954', 'osool-955', 'osool-956', 'osool-957', 'osool-958', 'osool-959', 'osool-960', 'osool-961',
-  'osool-962', 'osool-963', 'osool-964',
+  'osool-962', 'osool-963', 'osool-964', 'w-jp-001', 'w-jp-002', 'w-jp-003', 'w-jp-004', 'w-jp-005',
+  'w-jp-006', 'w-jp-007', 'w-jp-008', 'w-jp-009', 'w-jp-010', 'w-jp-011', 'w-jp-012', 'w-jp-013',
+  'w-jp-014', 'w-jp-015', 'w-jp-016', 'w-jp-017', 'w-jp-018', 'w-jp-019', 'w-jp-020', 'w-jp-021',
+  'w-jp-022', 'w-jp-023', 'w-jp-024', 'w-jp-025', 'w-jp-026', 'w-jp-027', 'w-jp-028', 'w-jp-029',
+  'w-jp-030', 'w-jp-031', 'w-jp-032', 'w-jp-033', 'w-jp-034', 'w-jp-035', 'w-jp-036', 'w-jp-037',
+  'w-jp-038', 'w-jp-039', 'w-jp-040', 'w-jp-041', 'w-jp-042', 'w-jp-043', 'w-jp-044', 'w-ma-001',
+  'w-ma-002', 'w-ma-003', 'w-ma-004', 'w-ma-005', 'w-ma-006',
   // End of generated banners
 ];
 
