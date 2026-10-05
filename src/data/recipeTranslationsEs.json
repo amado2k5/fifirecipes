@@ -116944,5 +116944,111 @@
    "10": "Sirve la sopa en cuencos individuales con un chorrito de aceite de oliva virgen extra y una pizca de pimienta negra molida."
   },
   "culturalNotes": "La pappa al pomodoro es una sopa toscana tradicional de tomate y pan duro, servida a temperatura ambiente."
+ },
+ "w-it-025": {
+  "title": "Pasta allo scarpariello",
+  "ingredients": {
+   "w-it-025-i1": {
+    "name": "pasta (penne o espaguetis)",
+    "standardAmount": "320 g"
+   },
+   "w-it-025-i2": {
+    "name": "tomates datterini o cherry",
+    "standardAmount": "250 g"
+   },
+   "w-it-025-i3": {
+    "name": "passata de tomate",
+    "standardAmount": "450 g"
+   },
+   "w-it-025-i4": {
+    "name": "dientes de ajo",
+    "standardAmount": "1-2, pelados y machacados"
+   },
+   "w-it-025-i5": {
+    "name": "parmesano",
+    "standardAmount": "40 g, rallado"
+   },
+   "w-it-025-i6": {
+    "name": "pecorino",
+    "standardAmount": "40 g, rallado"
+   },
+   "w-it-025-i7": {
+    "name": "hojas de albahaca fresca",
+    "standardAmount": "1 puñado, desgarradas"
+   },
+   "w-it-025-i8": {
+    "name": "hojuelas de guindilla",
+    "standardAmount": "1 cucharadita (opcional)"
+   },
+   "w-it-025-i9": {
+    "name": "sal",
+    "standardAmount": "al gusto"
+   },
+   "w-it-025-i10": {
+    "name": "pimienta negra",
+    "standardAmount": "al gusto"
+   },
+   "w-it-025-i11": {
+    "name": "aceite de oliva virgen extra",
+    "standardAmount": "3-4 cucharadas"
+   }
+  },
+  "instructions": {
+   "1": "Pon a hervir una olla de agua para la pasta. Añade sal cuando empiece a hervir y espera a que hierva de nuevo.",
+   "2": "Calienta el aceite de oliva en una sartén y agrega el ajo machacado hasta que empiece a ablandarse. Luego añade la guindilla (si la usas) y parte de la albahaca.",
+   "3": "Añade los tomates datterini o cherry cortados en mitades o cuartos (o tomates pelados en lata). Cuando se ablanden, vierte la passata.",
+   "4": "Deja hervir a fuego lento unos 15 minutos, retira el ajo y sazona con sal y pimienta al gusto.",
+   "5": "Cocina la pasta un par de minutos menos de lo necesario para que quede al dente (terminará de cocerse en la salsa), escúrrela y añádela a la sartén.",
+   "6": "Baja el fuego y agrega el parmesano y el pecorino poco a poco removiendo bien. El queso debe fundirse con la salsa.",
+   "7": "Sirve de inmediato con hojas de albahaca fresca y más queso si se desea."
+  },
+  "culturalNotes": "La pasta allo scarpariello es un plato tradicional del sur de Italia, conocido por su rica salsa de tomate y guindilla."
+ },
+ "w-it-026": {
+  "title": "Sopa de pasta y frijoles (Pasta e fagioli)",
+  "ingredients": {
+   "w-it-026-i1": {
+    "name": "frijoles blancos secos",
+    "standardAmount": "1 libra"
+   },
+   "w-it-026-i2": {
+    "name": "aceite de oliva",
+    "standardAmount": "1 taza"
+   },
+   "w-it-026-i3": {
+    "name": "ajo",
+    "standardAmount": "1 diente entero"
+   },
+   "w-it-026-i4": {
+    "name": "hoja de laurel",
+    "standardAmount": "1 hoja"
+   },
+   "w-it-026-i5": {
+    "name": "pimiento rojo picante molido",
+    "standardAmount": "1 cucharadita o más"
+   },
+   "w-it-026-i6": {
+    "name": "perejil fresco",
+    "standardAmount": "al gusto"
+   },
+   "w-it-026-i7": {
+    "name": "macarrones pequeños",
+    "standardAmount": "1/2 libra"
+   },
+   "w-it-026-i8": {
+    "name": "sal",
+    "standardAmount": "al gusto"
+   }
+  },
+  "instructions": {
+   "1": "Lava los frijoles blancos secos y déjalos en remojo en agua salada (3 partes de agua por 1 de frijoles) 12 horas, o hiérvelos 2 minutos y déjalos reposar 1 hora.",
+   "2": "Sin escurrirlos, lleva los frijoles a ebullición. Retira la espuma y añade el aceite de oliva, el ajo y el laurel.",
+   "3": "Cuece los frijoles a fuego lento unas 2 horas, hasta que estén tiernos.",
+   "4": "Cuece los macarrones 6-7 minutos, sin dejar que queden demasiado blandos.",
+   "5": "Escurre la pasta reservando parte del agua de cocción.",
+   "6": "Incorpora la pasta y el pimiento rojo a los frijoles y cuece a fuego lento hasta que la pasta esté al dente, añadiendo agua de cocción si hace falta.",
+   "7": "Decora con pimiento rojo al gusto y perejil fresco."
+  },
+  "culturalNotes": "La pasta e fagioli es un plato italiano tradicional que combina pasta y frijoles en una sopa caliente y reconfortante."
  }
 }

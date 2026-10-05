@@ -118906,6 +118906,112 @@
    "9": "Retirez du feu et laissez tiédir à température ambiante.",
    "10": "Servez la soupe dans des bols individuels avec un filet d’huile d’olive extra vierge et une pincée de poivre noir en grains."
   },
-  "culturalNotes": "La pappa al pomodoro est une soupe italienne traditionnelle de Toscane, réputée pour sa simplicité et la richesse de son goût."
+  "culturalNotes": "La pappa al pomodoro est une soupe toscane traditionnelle de tomates et de pain rassis, servie à température ambiante."
+ },
+ "w-it-025": {
+  "title": "Pasta allo scarpariello",
+  "ingredients": {
+   "w-it-025-i1": {
+    "name": "pâtes (penne ou spaghettis)",
+    "standardAmount": "320 g"
+   },
+   "w-it-025-i2": {
+    "name": "tomates datterini ou cerises",
+    "standardAmount": "250 g"
+   },
+   "w-it-025-i3": {
+    "name": "passata de tomate",
+    "standardAmount": "450 g"
+   },
+   "w-it-025-i4": {
+    "name": "gousses d’ail",
+    "standardAmount": "1 à 2, pelées et écrasées"
+   },
+   "w-it-025-i5": {
+    "name": "parmigiano",
+    "standardAmount": "40 g, râpé"
+   },
+   "w-it-025-i6": {
+    "name": "pecorino",
+    "standardAmount": "40 g, râpé"
+   },
+   "w-it-025-i7": {
+    "name": "feuilles de basilic frais",
+    "standardAmount": "1 poignée, déchirées"
+   },
+   "w-it-025-i8": {
+    "name": "flocons de piment fort",
+    "standardAmount": "1 c. à café (facultatif)"
+   },
+   "w-it-025-i9": {
+    "name": "sel",
+    "standardAmount": "au goût"
+   },
+   "w-it-025-i10": {
+    "name": "poivre noir",
+    "standardAmount": "au goût"
+   },
+   "w-it-025-i11": {
+    "name": "huile d’olive extra vierge",
+    "standardAmount": "3 à 4 c. à soupe"
+   }
+  },
+  "instructions": {
+   "1": "Mettez une casserole d’eau à bouillir pour les pâtes. Salez dès qu’elle bout et ramenez à ébullition.",
+   "2": "Faites chauffer l’huile d’olive dans une poêle et ajoutez l’ail écrasé jusqu’à ce qu’il commence à fondre. Ajoutez ensuite le piment (si vous en mettez) et une partie du basilic.",
+   "3": "Ajoutez les tomates datterini ou cerises coupées en deux ou en quatre (ou des tomates pelées en boîte). Quand elles ont fondu, versez la passata.",
+   "4": "Laissez mijoter environ 15 minutes, retirez l’ail et assaisonnez de sel et de poivre.",
+   "5": "Faites cuire les pâtes deux minutes de moins qu’il ne faut pour qu’elles soient al dente (elles finiront dans la sauce), égouttez-les et ajoutez-les à la poêle.",
+   "6": "Ramenez à feu doux et incorporez le parmigiano et le pecorino par poignées en mélangeant bien, jusqu’à ce que le fromage fonde dans la sauce.",
+   "7": "Servez aussitôt avec des feuilles de basilic frais et du fromage supplémentaire si souhaité."
+  },
+  "culturalNotes": "La pasta allo scarpariello est un plat traditionnel du sud de l’Italie, réputé pour sa riche sauce tomate pimentée."
+ },
+ "w-it-026": {
+  "title": "Soupe de pâtes aux haricots (Pasta e fagioli)",
+  "ingredients": {
+   "w-it-026-i1": {
+    "name": "haricots blancs secs",
+    "standardAmount": "450 g"
+   },
+   "w-it-026-i2": {
+    "name": "huile d’olive",
+    "standardAmount": "240 ml"
+   },
+   "w-it-026-i3": {
+    "name": "ail",
+    "standardAmount": "1 gousse entière"
+   },
+   "w-it-026-i4": {
+    "name": "feuille de laurier",
+    "standardAmount": "1"
+   },
+   "w-it-026-i5": {
+    "name": "piment rouge concassé ou moulu",
+    "standardAmount": "1 c. à café ou plus"
+   },
+   "w-it-026-i6": {
+    "name": "persil frais",
+    "standardAmount": "au goût"
+   },
+   "w-it-026-i7": {
+    "name": "petits macaronis",
+    "standardAmount": "225 g"
+   },
+   "w-it-026-i8": {
+    "name": "sel",
+    "standardAmount": "au goût"
+   }
+  },
+  "instructions": {
+   "1": "Lavez les haricots blancs secs et faites-les tremper dans l’eau salée (3 volumes d’eau pour 1 de haricots) pendant 12 heures, ou portez-les à ébullition 2 minutes et laissez reposer 1 heure.",
+   "2": "Sans les égoutter, portez les haricots à ébullition. Écumez et ajoutez l’huile d’olive, l’ail et le laurier.",
+   "3": "Laissez mijoter environ 2 heures, jusqu’à ce que les haricots soient tendres.",
+   "4": "Faites cuire les macaronis 6 à 7 minutes, sans les laisser devenir trop mous.",
+   "5": "Égouttez les pâtes en réservant un peu d’eau de cuisson.",
+   "6": "Incorporez les pâtes et le piment rouge aux haricots et laissez mijoter jusqu’à ce que les pâtes soient al dente, en ajoutant de l’eau de cuisson si nécessaire.",
+   "7": "Parsemez de piment rouge au goût et de persil frais."
+  },
+  "culturalNotes": "La pasta e fagioli est un plat italien traditionnel qui associe pâtes et haricots dans une soupe chaude et nourrissante."
  }
 }
