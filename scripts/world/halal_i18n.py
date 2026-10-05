@@ -52,6 +52,13 @@ TERMS = {
     'Zh': r'猪|豬|培根|火腿|猪油|料酒|黄酒|米酒|白酒|啤酒|葡萄酒|朗姆|熊|马肉|狗',
     'Ko': r'돼지|베이컨|햄|라드|청주|정종|맛술|미림|소주|와인|맥주|럼주|곰고기|말고기|개고기',
 }
+# Offensive words that mistranslation has produced (not halal, but must never
+# appear): Hebrew "oz" as אונס (rape), Swahili sugar as "kafiri" (infidel) and
+# "shoga", Hindi "floured" as दलित (a caste name).
+OFFENSIVE = {'He': r'אונס', 'Sw': r'kafiri|shoga', 'Hi': r'दलित'}
+for _l, _t in OFFENSIVE.items():
+    TERMS[_l] = TERMS[_l] + '|' + _t
+
 # Words that contain a term but are fine.
 ALLOW = {
     'Sv': {'vinäger', 'vinägern', 'vindruvor'},
