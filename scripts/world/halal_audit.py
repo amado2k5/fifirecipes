@@ -29,7 +29,7 @@ def main():
     for f in sorted((ROOT / 'src/data/world').glob('*.json')):
         for r in json.loads(f.read_text()):
             text = ' '.join([r['titleEn'], r.get('notesEn') or '',
-                             *[g[3] for g in r['ingredients']],
+                             *[f'{g[3]} {g[4]}' for g in r['ingredients']],
                              *[s[1] for s in r['steps']]])
             verdict, hits = gate(text)
             if verdict == 'haram' or (args.review and verdict == 'uncertain'):
