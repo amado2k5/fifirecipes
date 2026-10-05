@@ -60,14 +60,20 @@ What we found, and the rule each finding added:
    translation.
 5. **Units converted.** Inches became cm, °F became °C, cups became ml, and
    tsp and tbsp were swapped. → Keep the English units and numbers. Only
-   the unit word is translated.
+   the unit word is translated, and it must be translated: "inch" was left
+   in English in Sv, Tr, Pl and It text (tum, inç, cal, pollice).
 6. **Broken structure.** Some instruction slots held an ingredient object, a
    nested `{"1": …}` or a Python dict string, and the linter walked
    straight past them. → `lint:lang` now checks the shape of every field.
 7. **Ingredient names and titles are as bad as steps.** "Boneless leg of
    lamb" was wrong in 8 of 24 tables. → Review names and titles too, not
    only instructions.
-8. **Recipes imported without translations.** 16 Italian recipes reached
+8. **Traditional characters in the Simplified Chinese table.** Five
+   recipes (w-jp-010 to 014) were written in Traditional Chinese, and the
+   script linter counts both as Han. Their titles were also wrong ("sushi
+   bread" for shokupan, tamagoyaki for imagawayaki). → `lint:lang` now
+   rejects common Traditional-only characters in `Zh`.
+9. **Recipes imported without translations.** 16 Italian recipes reached
    `main` without any translation entries, and `check:world` failed for
    everyone. → An import commit must include all 24 tables, or stay on its
    branch.
