@@ -1,260 +1,1204 @@
 {
-"w-fr-001": {
-  "title": "Bullabesa",
+ "w-it-001": {
+  "title": "Agnolotti de queso",
   "ingredients": {
-    "w-fr-001-i1": {"name": "cabezón", "standardAmount": "660 g"},
-    "w-fr-001-i2": {"name": "rascacio", "standardAmount": "660 g"},
-    "w-fr-001-i3": {"name": "salmonete", "standardAmount": "660 g"},
-    "w-fr-001-i4": {"name": "congrio", "standardAmount": "660 g"},
-    "w-fr-001-i5": {"name": "rape", "standardAmount": "660 g"},
-    "w-fr-001-i6": {"name": "pez de San Pedro", "standardAmount": "660 g"},
-    "w-fr-001-i7": {"name": "pulpo", "standardAmount": "1 vivo (opcional)"},
-    "w-fr-001-i8": {"name": "erizos de mar", "standardAmount": "10"},
-    "w-fr-001-i9": {"name": "patatas", "standardAmount": "1 kg"},
-    "w-fr-001-i10": {"name": "ajo", "standardAmount": "7 dientes"},
-    "w-fr-001-i11": {"name": "cebollas", "standardAmount": "3"},
-    "w-fr-001-i12": {"name": "tomates", "standardAmount": "5 maduros"},
-    "w-fr-001-i13": {"name": "aceite de oliva", "standardAmount": "240 ml"},
-    "w-fr-001-i14": {"name": "ramillete de hierbas", "standardAmount": "1"},
-    "w-fr-001-i15": {"name": "hinojo", "standardAmount": "1 rama"},
-    "w-fr-001-i16": {"name": "azafrán", "standardAmount": "8 hebras"},
-    "w-fr-001-i17": {"name": "pan de campo", "standardAmount": "10 rebanadas"},
-    "w-fr-001-i18": {"name": "sal", "standardAmount": "al gusto"},
-    "w-fr-001-i19": {"name": "pimienta de Cayena", "standardAmount": "al gusto"}
+   "w-it-001-i1": {
+    "name": "harina de uso general o harina “00”",
+    "standardAmount": "2 tazas"
+   },
+   "w-it-001-i2": {
+    "name": "huevos",
+    "standardAmount": "3 huevos grandes"
+   },
+   "w-it-001-i3": {
+    "name": "queso ricotta",
+    "standardAmount": "12 onzas"
+   },
+   "w-it-001-i4": {
+    "name": "queso parmesano rallado",
+    "standardAmount": "1 onza"
+   },
+   "w-it-001-i5": {
+    "name": "yema de huevo",
+    "standardAmount": "1 yema grande"
+   },
+   "w-it-001-i6": {
+    "name": "perejil italiano finamente picado",
+    "standardAmount": "1/4 taza"
+   },
+   "w-it-001-i7": {
+    "name": "sal kosher",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-it-001-i8": {
+    "name": "pimienta negra recién molida",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-it-001-i9": {
+    "name": "cayena",
+    "standardAmount": "una pizca"
+   }
   },
   "instructions": {
-    "1": "Limpie el pescado y córtelo en rodajas grandes conservando las espinas.",
-    "2": "Caliente el aceite de oliva en una olla grande y profunda.",
-    "3": "Agregue las cebollas, 6 dientes de ajo machacados, el pulpo y los tomates. Sofría a fuego lento 5 minutos removiendo.",
-    "4": "Agregue el pescado: primero las rodajas grandes y luego las pequeñas. Cubra con agua hirviendo y añada sal, pimienta, hinojo, ramillete y azafrán. Cocine a fuego lento.",
-    "5": "Prepare la rouille: machaque el ajo en un mortero, añada la yema y el azafrán, y monte con aceite de oliva como una mayonesa.",
-    "6": "Cueza las patatas en agua salada 15-20 minutos. Abra los erizos con tijeras y extraiga la carne con una cucharita.",
-    "7": "Coloque el pescado en una fuente. Añada la carne de erizo al caldo y remueva.",
-    "8": "Frote el pan con ajo y unte cada rebanada con una cucharada de rouille. Ponga al menos dos por tazón.",
-    "9": "Retire el pescado y las patatas del caldo y colóquelos en una fuente grande.",
-    "10": "Vierta el caldo caliente en cada tazón sobre el pan con rouille. Sirva el pescado y las patatas aparte."
+   "1": "Forma un montón de harina sobre la superficie de trabajo y haz un hueco en el centro. Añade los huevos al hueco y bátelos con un tenedor, incorporando harina de los bordes poco a poco. Cuando la masa esté demasiado espesa para el tenedor, usa una rasqueta para levantar la harina seca restante por encima y cortarla en la masa hasta obtener una masa irregular.",
+   "2": "Amasa a mano hasta tener una bola lisa, unos 3 minutos. Cubre y deja reposar de 10 a 15 minutos. Amasa hasta obtener una bola muy lisa y elástica, unos 4 minutos más. Envuelve bien y deja reposar la masa en el refrigerador al menos 2 horas o hasta el día siguiente.",
+   "3": "Añade la ricotta, el parmesano, la yema, el perejil, la sal, la pimienta negra y la cayena a un bol y mezcla hasta integrar. Cubre y refrigera hasta usar.",
+   "4": "Divide la masa en 4 porciones. Cubre 3 con film, enharina ligeramente la superficie y forma la cuarta en un rectángulo. Estira con el rodillo hasta un rectángulo de 45x23 cm, lo bastante fino para ver tu mano a través.",
+   "5": "Recorta en 2 tiras de unos 45 por 11 cm. Mantén la harina justa en la superficie para este paso y los siguientes, para evitar que la masa se pegue.",
+   "6": "Pasa el relleno a una manga pastelera o una bolsa de plástico con una esquina cortada y dispón un cordón de relleno de 1.25 cm de grosor a lo largo de cada tira de masa, a 5 cm del borde. Rocía cada pieza muy ligeramente con agua.",
+   "7": "Dobla la masa sobre el relleno con cuidado de no atrapar burbujas de aire. Presiona firmemente los dos bordes largos, aplanando la unión al grosor de una sola capa si es posible. Con un cortapastas estriado, recorta el exceso de masa hasta unos 3 mm del relleno.",
+   "8": "Empezando por el extremo donde comienza el relleno, pellizca con dos dedos el relleno y la masa muy firmemente cada 2.5 a 4 cm. Dobla ligeramente hacia adelante las secciones prensadas. Corta entre cada una con el cortapastas para formar los agnolotti. Puede ayudar volver a rociar la masa antes de este paso.",
+   "9": "Pasa los agnolotti a una bandeja forrada con papel y ligeramente enharinada. Cubre y refrigera hasta cocer. También se pueden congelar en la bandeja y luego pasar a bolsas de congelación.",
+   "10": "Hierve una olla grande de agua con sal y cuece los agnolotti 3 minutos antes de pasarlos a la salsa que elijas."
   },
-  "culturalNotes": "La bullabesa es un plato tradicional de Marsella, famoso por su variada mezcla de pescados y mariscos."
-},
-"w-fr-002": {
-  "title": "Calamares con Tzatziki",
+  "culturalNotes": "Los agnolotti son una pasta rellena y doblada, plato tradicional de la región italiana de Piamonte."
+ },
+ "w-it-002": {
+  "title": "Bruschetta",
   "ingredients": {
-    "w-fr-002-i1": {"name": "ajo", "standardAmount": "2 dientes pequeños picados"},
-    "w-fr-002-i2": {"name": "aceite de oliva", "standardAmount": "1 cucharada"},
-    "w-fr-002-i3": {"name": "pepino", "standardAmount": "1 pequeño"},
-    "w-fr-002-i4": {"name": "yogur", "standardAmount": "250 g"},
-    "w-fr-002-i5": {"name": "menta seca", "standardAmount": "1 cucharadita"},
-    "w-fr-002-i6": {"name": "jugo de limón", "standardAmount": "1 cucharadita"},
-    "w-fr-002-i7": {"name": "sal y pimienta", "standardAmount": "al gusto"},
-    "w-fr-002-i8": {"name": "calamar", "standardAmount": "450 g"},
-    "w-fr-002-i9": {"name": "harina de trigo", "standardAmount": "un tazón grande"},
-    "w-fr-002-i10": {"name": "aceite vegetal o de oliva", "standardAmount": "suficiente (2,5 cm en la sartén)"},
-    "w-fr-002-i11": {"name": "jugo de limón fresco", "standardAmount": "al gusto"},
-    "w-fr-002-i12": {"name": "sal, pimienta y orégano griego seco", "standardAmount": "al gusto"}
+   "w-it-002-i1": {
+    "name": "pan italiano o francés",
+    "standardAmount": "1 barra, en rebanadas de 1.25 cm de grosor al bies"
+   },
+   "w-it-002-i2": {
+    "name": "ajo",
+    "standardAmount": "½ cabeza"
+   },
+   "w-it-002-i3": {
+    "name": "sal kosher o sal marina",
+    "standardAmount": "al gusto"
+   },
+   "w-it-002-i4": {
+    "name": "pimienta negra recién molida",
+    "standardAmount": "al gusto"
+   },
+   "w-it-002-i5": {
+    "name": "aceite de oliva virgen extra",
+    "standardAmount": "al gusto"
+   },
+   "w-it-002-i6": {
+    "name": "ingredientes para cubrir a tu elección",
+    "standardAmount": "al gusto"
+   }
   },
   "instructions": {
-    "1": "Agregue el ajo al aceite de oliva en un tazón mediano.",
-    "2": "Pique finamente el pepino. Déjelo escurrir al menos 15 minutos con una pizca de sal.",
-    "3": "Agregue el yogur, el pepino, la menta, el limón, la sal y la pimienta al ajo y al aceite. Mezcle bien; si queda muy líquido, agregue más yogur.",
-    "4": "Limpie el calamar y corte los cuerpos en aros de 2,5 cm o déjelos enteros si son pequeños.",
-    "5": "Prepare un tazón de harina sazonada con sal y pimienta.",
-    "6": "Caliente el aceite a fuego muy alto.",
-    "7": "Rebice cada trozo de calamar por dentro y por fuera.",
-    "8": "Cuando el aceite esté caliente, fría los calamares en tandas pequeñas.",
-    "9": "Se cocinan muy rápido, ~1 minuto por trozo pequeño; los grandes pueden necesitar un minuto más.",
-    "10": "Escurra sobre papel absorbente y sirva de inmediato con el tzatziki."
+   "1": "Tuesta las rebanadas en un horno tostador, bajo el grill o a la parrilla hasta que estén doradas.",
+   "2": "Frota inmediatamente el pan con el lado cortado del ajo.",
+   "3": "Espolvorea con sal y pimienta negra y rocía generosamente con aceite de oliva virgen extra.",
+   "4": "Sirve caliente cubierta con las combinaciones de ingredientes de temporada que prefieras."
   },
-  "culturalNotes": "Los calamares con tzatziki son un plato popular de la cocina mediterránea, sobre todo en Grecia y Chipre."
-},
-"w-fr-003": {
-  "title": "Calisón",
+  "culturalNotes": "La bruschetta es un aperitivo italiano tradicional, conocido por su sencillez y su sabor intenso."
+ },
+ "w-it-003": {
+  "title": "Burrata con habas marinadas",
   "ingredients": {
-    "w-fr-003-i1": {"name": "almendras", "standardAmount": "200 g"},
-    "w-fr-003-i2": {"name": "azúcar glas", "standardAmount": "200 g"},
-    "w-fr-003-i3": {"name": "miel", "standardAmount": "100 g"},
-    "w-fr-003-i4": {"name": "canela", "standardAmount": "½ cucharadita"},
-    "w-fr-003-i5": {"name": "clavos de olor", "standardAmount": "¼ cucharadita"},
-    "w-fr-003-i6": {"name": "pasas", "standardAmount": "50 g"},
-    "w-fr-003-i7": {"name": "harina", "standardAmount": "100 g"},
-    "w-fr-003-i8": {"name": "huevo", "standardAmount": "1"}
+   "w-it-003-i1": {
+    "name": "pan crujiente",
+    "standardAmount": "8 rebanadas"
+   },
+   "w-it-003-i2": {
+    "name": "aceite de oliva virgen extra",
+    "standardAmount": "1/3 taza y un poco más"
+   },
+   "w-it-003-i3": {
+    "name": "habas",
+    "standardAmount": "2 libras"
+   },
+   "w-it-003-i4": {
+    "name": "zumo de limón",
+    "standardAmount": "el zumo de 1/2 limón"
+   },
+   "w-it-003-i5": {
+    "name": "ajo",
+    "standardAmount": "1 diente, pelado y picado"
+   },
+   "w-it-003-i6": {
+    "name": "sal marina",
+    "standardAmount": "al gusto"
+   },
+   "w-it-003-i7": {
+    "name": "pimienta negra en grano molida",
+    "standardAmount": "al gusto"
+   },
+   "w-it-003-i8": {
+    "name": "queso burrata o mozzarella",
+    "standardAmount": "2 bolas"
+   }
   },
   "instructions": {
-    "1": "Mezcle la almendra molida y el azúcar glas en un tazón.",
-    "2": "Agregue la miel, la canela, los clavos y las pasas; mezcle bien.",
-    "3": "Agregue la harina gradualmente hasta obtener una masa firme.",
-    "4": "Cubra la masa y déjela reposar 30 minutos.",
-    "5": "Forme bolas pequeñas y colóquelas en una bandeja con papel de horno.",
-    "6": "Hornee a 180 °C durante 20 minutos hasta que estén dorados.",
-    "7": "Deje enfriar antes de servir."
+   "1": "Escalfa las habas en agua hirviendo con sal durante 2 minutos; escurre y refréscalas en agua fría.",
+   "2": "Retira la piel exterior de cada haba para dejar al descubierto el interior verde brillante.",
+   "3": "Mezcla las habas con el aceite de oliva, el zumo de limón, el ajo picado, la sal y la pimienta; deja marinar al menos 30 minutos.",
+   "4": "Tuesta las rebanadas de pan hasta que estén doradas y crujientes.",
+   "5": "Unta cada rebanada con un poco de aceite de oliva.",
+   "6": "Reparte las habas marinadas sobre el pan.",
+   "7": "Coloca encima trozos de burrata o mozzarella.",
+   "8": "Termina con un hilo de aceite de oliva y una pizca de pimienta negra; sirve enseguida."
   },
-  "culturalNotes": "El calisón es un dulce tradicional del sur de Francia, de aroma suave y especiado."
-},
-"w-fr-004": {
-  "title": "Ajo Confitado",
+  "culturalNotes": "La burrata es un queso italiano suave y cremoso, muy usado en ensaladas y aperitivos."
+ },
+ "w-it-004": {
+  "title": "Calzone de salchicha de ternera halal y berenjena",
   "ingredients": {
-    "w-fr-004-i1": {"name": "ajo", "standardAmount": "2 cabezas"},
-    "w-fr-004-i2": {"name": "tomillo", "standardAmount": "2 ramas"},
-    "w-fr-004-i3": {"name": "aceite de oliva", "standardAmount": "250 ml"},
-    "w-fr-004-i4": {"name": "sal", "standardAmount": "una buena pizca"}
+   "w-it-004-i1": {
+    "name": "masa básica de pizza",
+    "standardAmount": "1 bola"
+   },
+   "w-it-004-i2": {
+    "name": "salsa de tomate",
+    "standardAmount": "1 taza"
+   },
+   "w-it-004-i3": {
+    "name": "cebolla",
+    "standardAmount": "4 cucharadas finamente picada"
+   },
+   "w-it-004-i4": {
+    "name": "ajo",
+    "standardAmount": "1 diente picado"
+   },
+   "w-it-004-i5": {
+    "name": "aceite de oliva",
+    "standardAmount": "3 cucharadas"
+   },
+   "w-it-004-i6": {
+    "name": "sal",
+    "standardAmount": "al gusto"
+   },
+   "w-it-004-i7": {
+    "name": "pimienta negra",
+    "standardAmount": "al gusto"
+   },
+   "w-it-004-i8": {
+    "name": "hojuelas de chile",
+    "standardAmount": "una pizca"
+   },
+   "w-it-004-i9": {
+    "name": "berenjena",
+    "standardAmount": "1 taza en dados"
+   },
+   "w-it-004-i10": {
+    "name": "salchicha de ternera halal",
+    "standardAmount": "2 piezas sin la piel"
+   },
+   "w-it-004-i11": {
+    "name": "albahaca fresca",
+    "standardAmount": "3 cucharaditas picada"
+   },
+   "w-it-004-i12": {
+    "name": "queso ricotta",
+    "standardAmount": "1/2 taza"
+   },
+   "w-it-004-i13": {
+    "name": "queso mozzarella",
+    "standardAmount": "1/2 taza rallada"
+   },
+   "w-it-004-i14": {
+    "name": "queso parmesano",
+    "standardAmount": "3 cucharadas"
+   }
   },
   "instructions": {
-    "1": "Precaliente el horno a 150 °C (130 °C con ventilador).",
-    "2": "Coloque el ajo en una fuente pequeña para horno (~13 cm), agregue el tomillo y una buena pizca de sal.",
-    "3": "Vierta el aceite de oliva cubriendo el ajo por completo.",
-    "4": "Hornee 1 h 20 hasta que el aceite borbotee suavemente y el ajo esté bien dorado. Los dientes deben mantener su forma pero aplastarse con la presión.",
-    "5": "Deje enfriar el ajo en el aceite. Se conserva dos semanas en un frasco esterilizado en el refrigerador."
+   "1": "Precalienta el horno a 220 °C con una piedra o bandeja dentro.",
+   "2": "Saltea la cebolla y el ajo en el aceite de oliva hasta que estén blandos.",
+   "3": "Añade la berenjena en dados y cocina hasta que esté tierna y dorada.",
+   "4": "Desmenuza la salchicha en la sartén y cocina hasta que esté hecha; retira del fuego y deja enfriar un poco.",
+   "5": "Mezcla la salchicha y la berenjena con la ricotta, la mozzarella, el parmesano, la albahaca y las hojuelas de chile; salpimenta.",
+   "6": "Estira la masa en un círculo de unos 30 cm sobre superficie enharinada.",
+   "7": "Extiende la salsa de tomate sobre la mitad, dejando un borde, y reparte el relleno encima.",
+   "8": "Dobla la masa por la mitad sobre el relleno y sella los bordes enrollándolos o presionando con un tenedor.",
+   "9": "Haz unos cortes pequeños en la parte superior para que salga el vapor.",
+   "10": "Hornea de 15 a 20 minutos hasta que esté dorado y crujiente; deja reposar 5 minutos antes de cortar."
   },
-  "culturalNotes": "El ajo confitado es un clásico de la cocina francesa, servido como entrada o para aromatizar muchos platos."
-},
-"w-fr-005": {
-  "title": "Confit de Pato",
+  "culturalNotes": "El calzone es muy popular en Italia, sobre todo en el sur; se come como tentempié o plato principal."
+ },
+ "w-it-005": {
+  "title": "Cassata siciliana",
   "ingredients": {
-    "w-fr-005-i1": {"name": "muslos de pato", "standardAmount": "4 (250 g cada uno)"},
-    "w-fr-005-i2": {"name": "grasa de pato", "standardAmount": "750 ml"},
-    "w-fr-005-i3": {"name": "sal de cocina", "standardAmount": "4 cucharaditas"},
-    "w-fr-005-i4": {"name": "ramas de tomillo", "standardAmount": "⅓ de taza"},
-    "w-fr-005-i5": {"name": "ramas de salvia", "standardAmount": "⅓ de taza"},
-    "w-fr-005-i6": {"name": "ramas de romero", "standardAmount": "⅓ de taza"},
-    "w-fr-005-i7": {"name": "ramas de orégano", "standardAmount": "⅓ de taza"},
-    "w-fr-005-i8": {"name": "dientes de ajo", "standardAmount": "6 (machacados con piel)"},
-    "w-fr-005-i9": {"name": "chalota", "standardAmount": "1 (picada)"},
-    "w-fr-005-i10": {"name": "pimienta negra en grano", "standardAmount": "1 cucharada"},
-    "w-fr-005-i11": {"name": "semillas de cilantro", "standardAmount": "1 cucharada"},
-    "w-fr-005-i12": {"name": "anís estrellado", "standardAmount": "8"},
-    "w-fr-005-i13": {"name": "hojas de laurel", "standardAmount": "2"},
-    "w-fr-005-i14": {"name": "bayas de enebro", "standardAmount": "2 cucharadas"},
-    "w-fr-005-i15": {"name": "clavos de olor", "standardAmount": "8"}
+   "w-it-005-i1": {
+    "name": "queso ricotta",
+    "standardAmount": "1 libra"
+   },
+   "w-it-005-i2": {
+    "name": "azúcar glas",
+    "standardAmount": "1 taza"
+   },
+   "w-it-005-i3": {
+    "name": "canela",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-it-005-i4": {
+    "name": "cacao en polvo",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-it-005-i5": {
+    "name": "galletas trituradas",
+    "standardAmount": "7 onzas"
+   },
+   "w-it-005-i6": {
+    "name": "chocolate negro",
+    "standardAmount": "7 onzas"
+   },
+   "w-it-005-i7": {
+    "name": "pasas",
+    "standardAmount": "1/2 taza"
+   },
+   "w-it-005-i8": {
+    "name": "naranjas",
+    "standardAmount": "2"
+   },
+   "w-it-005-i9": {
+    "name": "mantequilla",
+    "standardAmount": "1/2 taza"
+   },
+   "w-it-005-i10": {
+    "name": "nata para montar",
+    "standardAmount": "1 taza"
+   }
   },
   "instructions": {
-    "1": "Mezcle la sal con las especias en un tazón. Frote los muslos de pato por todos lados.",
-    "2": "Coloque los muslos en una fuente honda, cúbralos de especias, tape y refrigere 24 horas.",
-    "3": "Pasadas 24 horas, enjuague los muslos con agua fría y séquelos.",
-    "4": "Colóquelos en una fuente para asar, agregue la grasa y las especias, y cubra con papel de aluminio.",
-    "5": "Hornee a 100 °C durante 2-3 horas hasta que la carne esté tierna.",
-    "6": "Saque del horno y deje entibiar. Cuele la grasa y guárdela en un recipiente hermético.",
-    "7": "Coloque los muslos en una fuente honda y cúbralos con la grasa colada. Se conservan hasta 6 meses en el refrigerador.",
-    "8": "Para servir, dore los muslos a 200 °C durante 10-15 minutos hasta que la piel esté crujiente."
+   "1": "Bate la ricotta con el azúcar glas, la canela y el cacao hasta que esté suave y cremosa.",
+   "2": "Incorpora las pasas, la ralladura de las naranjas y parte del chocolate picado.",
+   "3": "Forra un molde con las galletas trituradas mezcladas con la mantequilla derretida para formar la base.",
+   "4": "Rellena con la mezcla de ricotta y alisa la superficie.",
+   "5": "Refrigera al menos 4 horas o toda la noche para que asiente.",
+   "6": "Desmolda y cubre con el resto del chocolate fundido y gajos de naranja.",
+   "7": "Sirve fría, cortada en porciones."
   },
-  "culturalNotes": "El confit de pato es un plato tradicional francés de cocción lenta en grasa; se sirve con puré o verduras asadas."
-},
-"w-fr-006": {
-  "title": "Flamiche (Tarta de Puerros)",
+  "culturalNotes": "La cassata siciliana es un postre tradicional de la isla de Sicilia, Italia, conocido por su sabor rico y dulce."
+ },
+ "w-it-006": {
+  "title": "Pizza con tomates cherry y queso de cabra",
   "ingredients": {
-    "w-fr-006-i1": {"name": "harina", "standardAmount": "350 g"},
-    "w-fr-006-i2": {"name": "mantequilla", "standardAmount": "175 g (blanda)"},
-    "w-fr-006-i3": {"name": "flor de sal", "standardAmount": "1 pizca"},
-    "w-fr-006-i4": {"name": "leche", "standardAmount": "7 cucharadas"},
-    "w-fr-006-i5": {"name": "curry en polvo", "standardAmount": "½ cucharadita"},
-    "w-fr-006-i6": {"name": "puerros", "standardAmount": "900 g (picados)"},
-    "w-fr-006-i7": {"name": "mantequilla", "standardAmount": "40 g"},
-    "w-fr-006-i8": {"name": "yemas de huevo", "standardAmount": "4 (3 relleno + 1 barniz)"},
-    "w-fr-006-i9": {"name": "crema fresca", "standardAmount": "200 g (o crema espesa/yogur griego)"},
-    "w-fr-006-i10": {"name": "nuez moscada rallada", "standardAmount": "¼ cucharadita"},
-    "w-fr-006-i11": {"name": "sal y pimienta negra", "standardAmount": "1 pizca"}
+   "w-it-006-i1": {
+    "name": "tomates cherry",
+    "standardAmount": "1 taza, partidos por la mitad"
+   },
+   "w-it-006-i2": {
+    "name": "ajo",
+    "standardAmount": "1 diente grande, picado"
+   },
+   "w-it-006-i3": {
+    "name": "aceite de oliva",
+    "standardAmount": "4 cucharadas"
+   },
+   "w-it-006-i4": {
+    "name": "sal marina y pimienta negra en grano molida",
+    "standardAmount": "al gusto"
+   },
+   "w-it-006-i5": {
+    "name": "albahaca fresca picada",
+    "standardAmount": "1/4 taza"
+   },
+   "w-it-006-i6": {
+    "name": "queso mozzarella",
+    "standardAmount": "1 1/2 tazas, en láminas finas"
+   },
+   "w-it-006-i7": {
+    "name": "queso de cabra",
+    "standardAmount": "3 onzas"
+   },
+   "w-it-006-i8": {
+    "name": "masa de pizza",
+    "standardAmount": "1 bola"
+   },
+   "w-it-006-i9": {
+    "name": "pesto de albahaca",
+    "standardAmount": "2 cucharadas"
+   }
   },
   "instructions": {
-    "1": "En un tazón grande, mezcle la harina, la mantequilla y la sal hasta obtener una textura arenosa.",
-    "2": "Agregue la leche gradualmente hasta formar una masa.",
-    "3": "Cubra y refrigere 30 minutos.",
-    "4": "En una sartén grande, derrita la mantequilla y saltee los puerros hasta que estén tiernos y dorados.",
-    "5": "Agregue el curry y revuelva un minuto.",
-    "6": "En otro tazón, mezcle las yemas, la crema, la nuez moscada, la sal y la pimienta.",
-    "7": "Incorpore los puerros cocidos a la mezcla y revuelva bien.",
-    "8": "Forre un molde de tarta con la masa y vierta el relleno.",
-    "9": "Cubra con la masa superior y selle los bordes.",
-    "10": "Barnice con la yema restante.",
-    "11": "Hornee a 180 °C durante 45 minutos hasta que esté dorada.",
-    "12": "Deje entibiar 10 minutos antes de servir."
+   "1": "Estira la masa de pizza sobre una superficie enharinada hasta el grosor deseado.",
+   "2": "Mezcla los tomates cherry con el ajo, la mitad del aceite de oliva, la sal y la pimienta.",
+   "3": "Unta la masa con el pesto de albahaca.",
+   "4": "Reparte la mozzarella en láminas y el queso de cabra desmenuzado.",
+   "5": "Distribuye los tomates cherry aliñados y la albahaca picada.",
+   "6": "Rocía con el resto del aceite de oliva.",
+   "7": "Hornea a 230 °C de 10 a 12 minutos hasta que el borde esté dorado y el queso burbujee; sirve caliente."
   },
-  "culturalNotes": "La flamiche es una tarta tradicional del norte de Francia, a base de puerros."
-},
-"w-fr-007": {
-  "title": "Patatas Fundentes",
+  "culturalNotes": "Esta pizza es muy popular en la cocina italiana por su sencillez y su sabor intenso."
+ },
+ "w-it-007": {
+  "title": "Pan chapata (ciabatta)",
   "ingredients": {
-    "w-fr-007-i1": {"name": "patatas grandes harinosas", "standardAmount": "4 (400 g cada una)"},
-    "w-fr-007-i2": {"name": "sal de cocina", "standardAmount": "¾ cucharadita"},
-    "w-fr-007-i3": {"name": "pimienta negra", "standardAmount": "½ cucharadita"},
-    "w-fr-007-i4": {"name": "aceite de oliva virgen extra", "standardAmount": "2 cucharadas"},
-    "w-fr-007-i5": {"name": "mantequilla sin sal", "standardAmount": "3 cucharadas (50 g)"},
-    "w-fr-007-i6": {"name": "ramas de tomillo", "standardAmount": "6"},
-    "w-fr-007-i7": {"name": "caldo de pollo o de verduras", "standardAmount": "240 ml (poco salado)"}
+   "w-it-007-i1": {
+    "name": "levadura seca activa",
+    "standardAmount": "1.5 cucharaditas"
+   },
+   "w-it-007-i2": {
+    "name": "agua tibia",
+    "standardAmount": "1.5 tazas"
+   },
+   "w-it-007-i3": {
+    "name": "harina de fuerza",
+    "standardAmount": "1 1/3 tazas"
+   },
+   "w-it-007-i4": {
+    "name": "harina de uso general sin blanquear",
+    "standardAmount": "3 tazas y más para trabajar y dar forma"
+   },
+   "w-it-007-i5": {
+    "name": "sal",
+    "standardAmount": "2 cucharaditas"
+   }
   },
   "instructions": {
-    "1": "Precaliente el horno a 200 °C (180 °C con ventilador).",
-    "2": "Corte cada patata en cilindros de ~6 cm de diámetro y 7 cm de alto, y luego por la mitad: 8 cilindros de 3,5 cm.",
-    "3": "Seque las patatas y mézclelas con la mitad del aceite, la sal y la pimienta.",
-    "4": "En una sartén apta para horno, caliente el resto del aceite a fuego medio-alto. Dore las patatas 6-8 minutos por cara.",
-    "5": "Agregue la mantequilla y el tomillo. Cuando se derrita, bañe las patatas. Agregue el caldo, lleve a ebullición y hornee 30 minutos hasta que estén fundentes.",
-    "6": "Báñelas una última vez y sirva. Versión de restaurante: con un entrecot, salsa bearnesa y guisantes con mantequilla."
+   "1": "Disuelve la levadura en el agua tibia y deja reposar 5 minutos hasta que haga espuma.",
+   "2": "Mezcla la harina de fuerza y la de uso general con la sal en un bol grande.",
+   "3": "Añade el agua con levadura y mezcla hasta obtener una masa pegajosa.",
+   "4": "Cubre y deja fermentar 12 a 18 horas a temperatura ambiente, hasta que esté llena de burbujas.",
+   "5": "Vuelca la masa sobre una superficie bien enharinada.",
+   "6": "Dóblala sobre sí misma un par de veces con las manos enharinadas.",
+   "7": "Divide en dos piezas y forma rectángulos alargados sin apretar demasiado la masa.",
+   "8": "Colócalas en una bandeja forrada con papel y enharinada.",
+   "9": "Cubre y deja levar 45 minutos hasta que estén hinchadas.",
+   "10": "Precalienta el horno a 230 °C.",
+   "11": "Hornea de 20 a 25 minutos hasta que la corteza esté dorada y suene hueca al golpear la base.",
+   "12": "Traslada a una rejilla.",
+   "13": "Deja enfriar al menos 15 minutos antes de cortar.",
+   "14": "La miga debe quedar abierta y alveolada.",
+   "15": "Guarda envuelto en un paño a temperatura ambiente.",
+   "16": "Para recalentar, mete en horno caliente unos minutos.",
+   "17": "Ideal para sándwiches, aceite de oliva y acompañar sopas.",
+   "18": "La fermentación larga es la clave de su sabor y sus alvéolos."
   },
-  "culturalNotes": "Las patatas fundentes son un acompañamiento francés asado al horno, cremoso por dentro y dorado por fuera."
-},
-"w-fr-008": {
-  "title": "Crêpes de Chocolate",
+  "culturalNotes": "La chapata es un pan italiano tradicional, conocido por su forma plana y alargada y su textura característica; suele acompañar varios platos."
+ },
+ "w-it-008": {
+  "title": "Colomba Pasquale",
   "ingredients": {
-    "w-fr-008-i1": {"name": "mantequilla sin sal", "standardAmount": "25 g"},
-    "w-fr-008-i2": {"name": "harina", "standardAmount": "150 g"},
-    "w-fr-008-i3": {"name": "huevos", "standardAmount": "2 grandes"},
-    "w-fr-008-i4": {"name": "leche entera", "standardAmount": "275 ml"},
-    "w-fr-008-i5": {"name": "flor de sal", "standardAmount": "1 pizca"},
-    "w-fr-008-i6": {"name": "vainilla en polvo", "standardAmount": "¼ cucharadita (opcional)"},
-    "w-fr-008-i7": {"name": "azúcar glas", "standardAmount": "1 cucharada"},
-    "w-fr-008-i8": {"name": "cacao en polvo sin azúcar", "standardAmount": "1 cucharada"}
+   "w-it-008-i1": {
+    "name": "harina de uso general",
+    "standardAmount": "3 tazas + 1 taza"
+   },
+   "w-it-008-i2": {
+    "name": "agua fría",
+    "standardAmount": "1/2 taza"
+   },
+   "w-it-008-i3": {
+    "name": "levadura instantánea",
+    "standardAmount": "1/8 cucharadita + 1 cucharada"
+   },
+   "w-it-008-i4": {
+    "name": "sal",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-it-008-i5": {
+    "name": "azúcar",
+    "standardAmount": "1/3 taza"
+   },
+   "w-it-008-i6": {
+    "name": "mantequilla fundida y fría",
+    "standardAmount": "6 cucharadas"
+   },
+   "w-it-008-i7": {
+    "name": "huevos",
+    "standardAmount": "2 grandes + 1 yema"
+   },
+   "w-it-008-i8": {
+    "name": "ralladura de naranja y semillas de vainilla",
+    "standardAmount": "1/2 cucharadita (o semillas de 1 vaina de vainilla y ralladura de 1 naranja)"
+   },
+   "w-it-008-i9": {
+    "name": "cáscara de naranja confitada finamente picada",
+    "standardAmount": "1/3 taza (o ralladura de 1 naranja grande)"
+   },
+   "w-it-008-i10": {
+    "name": "pasas sultanas",
+    "standardAmount": "1 1/2 tazas (picadas si son grandes)"
+   },
+   "w-it-008-i11": {
+    "name": "clara de huevo",
+    "standardAmount": "1 clara grande"
+   },
+   "w-it-008-i12": {
+    "name": "harina de almendra",
+    "standardAmount": "3 cucharadas"
+   },
+   "w-it-008-i13": {
+    "name": "azúcar granulada",
+    "standardAmount": "3 cucharadas"
+   },
+   "w-it-008-i14": {
+    "name": "almendras laminadas",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-it-008-i15": {
+    "name": "azúcar perlado",
+    "standardAmount": "6 cucharaditas"
+   }
   },
   "instructions": {
-    "1": "Derrita la mantequilla en la crepera (mejor aún si queda ligeramente avellanada).",
-    "2": "Mezcle la harina, el azúcar glas, el cacao, la sal y la vainilla en un tazón grande. Haga un hueco y casca los huevos; bata bien.",
-    "3": "Agregue un cuarto de la leche batiendo para evitar grumos, luego el resto gradualmente. La masa quedará muy líquida: es normal.",
-    "4": "Limpie el exceso de mantequilla de la sartén. Caliente a fuego medio-alto, vierta un cucharón de masa y gire para cubrir el fondo.",
-    "5": "Cocine 2-3 minutos hasta que aparezcan burbujas; voltee la crêpe y cocine unos minutos más.",
-    "6": "Baje ligeramente el fuego y repita untando con mantequilla, hasta obtener 6-8 crêpes apiladas."
+   "1": "Prepara el prefermento mezclando el agua fría, 1/8 de cucharadita de levadura y 1 taza de harina; cubre y deja reposar toda la noche.",
+   "2": "Al día siguiente, mezcla el prefermento con el resto de la harina, la levadura, la sal y el azúcar.",
+   "3": "Incorpora los huevos y la yema y amasa hasta obtener una masa suave.",
+   "4": "Añade la mantequilla fundida fría poco a poco, amasando hasta integrarla por completo.",
+   "5": "Incorpora la ralladura y las semillas de vainilla, la naranja confitada y las pasas.",
+   "6": "Cubre y deja levar hasta que doble su volumen, de 2 a 3 horas.",
+   "7": "Da forma de paloma (o coloca en un molde de colomba) y deja levar de nuevo 1 a 2 horas.",
+   "8": "Para la cobertura, bate las claras a punto de nieve, añade la harina de almendra y el azúcar granulada.",
+   "9": "Cubre la superficie con la mezcla de almendra, espolvorea las almendras laminadas y el azúcar perlado.",
+   "10": "Precalienta el horno a 180 °C.",
+   "11": "Hornea de 45 a 55 minutos hasta que esté dorada y al insertar un palillo salga limpio.",
+   "12": "Deja enfriar completamente sobre una rejilla.",
+   "13": "Se conserva varios días bien envuelta."
   },
-  "culturalNotes": "Las crêpes son un desayuno popular en Francia, servidas con chocolate, miel o fresas."
-},
-"w-fr-009": {
-  "title": "Trufas de Ganache de Chocolate",
+  "culturalNotes": "La colomba pasquale es el pan dulce tradicional italiano de Pascua, en forma de paloma."
+ },
+ "w-it-009": {
+  "title": "Escalopes de pollo a la palermitana con salsa de pistachos y alcaparras",
   "ingredients": {
-    "w-fr-009-i1": {"name": "chocolate negro", "standardAmount": "285 g"},
-    "w-fr-009-i2": {"name": "mantequilla sin sal", "standardAmount": "30 g"},
-    "w-fr-009-i3": {"name": "crema", "standardAmount": "125 ml"},
-    "w-fr-009-i4": {"name": "coco rallado", "standardAmount": "125 g"},
-    "w-fr-009-i5": {"name": "cacao en polvo sin azúcar", "standardAmount": "60 g"},
-    "w-fr-009-i6": {"name": "cacahuetes picados", "standardAmount": "125 g"},
-    "w-fr-009-i7": {"name": "fideos de colores", "standardAmount": "85 g"},
-    "w-fr-009-i8": {"name": "azúcar glas", "standardAmount": "60 g"}
+   "w-it-009-i1": {
+    "name": "pechugas de pollo sin piel ni hueso",
+    "standardAmount": "2"
+   },
+   "w-it-009-i2": {
+    "name": "harina de uso general",
+    "standardAmount": "1 taza"
+   },
+   "w-it-009-i3": {
+    "name": "huevos",
+    "standardAmount": "2"
+   },
+   "w-it-009-i4": {
+    "name": "leche",
+    "standardAmount": "1/2 taza"
+   },
+   "w-it-009-i5": {
+    "name": "pan rallado fresco",
+    "standardAmount": "1 1/2 tazas"
+   },
+   "w-it-009-i6": {
+    "name": "perejil fresco finamente picado",
+    "standardAmount": "2 cucharaditas"
+   },
+   "w-it-009-i7": {
+    "name": "pistachos crudos finamente picados",
+    "standardAmount": "1/2 taza"
+   },
+   "w-it-009-i8": {
+    "name": "aceite de oliva",
+    "standardAmount": "2 cucharadas + 3/4 taza"
+   },
+   "w-it-009-i9": {
+    "name": "mantequilla sin sal ablandada",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-it-009-i10": {
+    "name": "zumo de limón",
+    "standardAmount": "el zumo de 1 limón grande"
+   },
+   "w-it-009-i11": {
+    "name": "alcaparras saladas",
+    "standardAmount": "1 cucharada"
+   },
+   "w-it-009-i12": {
+    "name": "hojas de perejil fresco",
+    "standardAmount": "1/4 taza"
+   },
+   "w-it-009-i13": {
+    "name": "pistachos crudos",
+    "standardAmount": "1/3 taza"
+   },
+   "w-it-009-i14": {
+    "name": "sal y pimienta",
+    "standardAmount": "al gusto"
+   }
   },
   "instructions": {
-    "1": "Ponga el chocolate, la crema y la mantequilla en un tazón apto para microondas. Caliente 4 veces 30 segundos removiendo entre cada una.",
-    "2": "Cubra con un plato y deje reposar 5 minutos; remueva hasta que el chocolate esté fundido y liso: es la ganache.",
-    "3": "Refrigere el tazón 6 horas. ¡No use el congelador!",
-    "4": "Enfríe también el plato que recibirá las trufas.",
-    "5": "Pasadas 6 horas, forme bolitas con una cucharadita.",
-    "6": "Reboce las trufas en coco, cacao, cacahuetes, fideos de colores o azúcar glas a elección.",
-    "7": "Colóquelas en el plato frío y déjelas cuajar por completo."
+   "1": "Aplana las pechugas con un mazo hasta dejarlas de grosor uniforme.",
+   "2": "Prepara tres platos: harina, huevos batidos con la leche y pan rallado con el perejil.",
+   "3": "Pasa cada escalope por harina, luego por el huevo y por último por el pan rallado con pistachos.",
+   "4": "Calienta el aceite de oliva en una sartén grande a fuego medio-alto.",
+   "5": "Fríe los escalopes de 3 a 4 minutos por lado hasta que estén dorados y hechos por dentro.",
+   "6": "Escurre sobre papel absorbente.",
+   "7": "Para la salsa, funde la mantequilla con el resto del aceite de oliva.",
+   "8": "Añade el zumo de limón, las alcaparras y los pistachos picados; calienta un minuto.",
+   "9": "Incorpora las hojas de perejil frescas.",
+   "10": "Vierte la salsa caliente sobre los escalopes.",
+   "11": "Sirve enseguida con más pistachos por encima.",
+   "12": "Acompaña con ensalada o verduras al gusto."
   },
-  "culturalNotes": "La ganache es una mezcla cremosa de chocolate y crema, ingrediente clave de muchos postres franceses."
-},
-"w-fr-010": {
-  "title": "Gratinado Dauphinois",
+  "culturalNotes": "La cotoletta es un plato famoso en Sicilia, sobre todo en Palermo, donde se sirve con una salsa de pistachos y alcaparras."
+ },
+ "w-it-010": {
+  "title": "Fettuccine Alfredo",
   "ingredients": {
-    "w-fr-010-i1": {"name": "patatas", "standardAmount": "750 g"},
-    "w-fr-010-i2": {"name": "ajo", "standardAmount": "2-3 dientes picados"},
-    "w-fr-010-i3": {"name": "leche entera", "standardAmount": "275 ml"},
-    "w-fr-010-i4": {"name": "crema doble o espesa", "standardAmount": "150 ml"},
-    "w-fr-010-i5": {"name": "nuez moscada", "standardAmount": "¼ cucharadita"},
-    "w-fr-010-i6": {"name": "sal y pimienta negra", "standardAmount": "al gusto"},
-    "w-fr-010-i7": {"name": "tomillo fresco", "standardAmount": "½ cucharadita"},
-    "w-fr-010-i8": {"name": "mantequilla", "standardAmount": "una nuez (para la fuente)"},
-    "w-fr-010-i9": {"name": "emmental o gruyère", "standardAmount": "100 g rallado (opcional)"}
+   "w-it-010-i1": {
+    "name": "fettuccine frescos",
+    "standardAmount": "3/4 libra"
+   },
+   "w-it-010-i2": {
+    "name": "mantequilla",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-it-010-i3": {
+    "name": "nata para montar",
+    "standardAmount": "1 taza"
+   },
+   "w-it-010-i4": {
+    "name": "caldo de pollo",
+    "standardAmount": "1/2 taza"
+   },
+   "w-it-010-i5": {
+    "name": "yema de huevo",
+    "standardAmount": "1"
+   },
+   "w-it-010-i6": {
+    "name": "queso parmesano rallado",
+    "standardAmount": "1/2 taza"
+   },
+   "w-it-010-i7": {
+    "name": "sal marina",
+    "standardAmount": "al gusto"
+   },
+   "w-it-010-i8": {
+    "name": "pimienta negra en grano molida",
+    "standardAmount": "al gusto"
+   },
+   "w-it-010-i9": {
+    "name": "queso rallado adicional",
+    "standardAmount": "para servir"
+   }
   },
   "instructions": {
-    "1": "Pele las patatas (o conserve la piel bien lavada), séquelas y córtelas en rodajas muy finas (3 mm) con mandolina o cuchillo.",
-    "2": "Precaliente el horno a 190 °C (170 °C con ventilador).",
-    "3": "Caliente la leche, la crema y el ajo hasta hervir. Baje el fuego, agregue la nuez moscada, la sal y la pimienta, luego las patatas.",
-    "4": "Cocine unos 5 minutos volteando las rodajas para que se impregnen de la leche cremosa. Agregue el queso aquí si lo usa.",
-    "5": "Unte la fuente con mantequilla, vierta las patatas y extiéndalas uniformemente.",
-    "6": "Hornee unos 45 minutos hasta que esté dorado."
+   "1": "Cuece los fettuccine en abundante agua con sal siguiendo las indicaciones; reserva una taza del agua de cocción.",
+   "2": "Derrite la mantequilla en una sartén amplia a fuego medio.",
+   "3": "Añade la nata y el caldo de pollo y deja que hierva suavemente unos minutos hasta que espese ligeramente.",
+   "4": "Retira del fuego e incorpora el parmesano rallado hasta fundirlo.",
+   "5": "Bate la yema con unas cucharadas de salsa caliente para templarla y añádela a la sartén.",
+   "6": "Incorpora la pasta escurrida y mezcla bien para cubrirla de salsa.",
+   "7": "Añade agua de cocción poco a poco si la salsa queda demasiado espesa.",
+   "8": "Salpimenta al gusto.",
+   "9": "Sirve enseguida con más parmesano rallado por encima.",
+   "10": "El plato se espesa al enfriarse; sírvelo recién hecho."
   },
-  "culturalNotes": "El gratinado dauphinois es un plato tradicional del Dauphiné: finas rodajas de patata cocidas en leche y crema, perfumadas con nuez moscada y ajo."
-}
+  "culturalNotes": "Los fettuccine Alfredo son un plato italiano tradicional conocido por su rica salsa cremosa de mantequilla y queso."
+ },
+ "w-it-011": {
+  "title": "Hinojo a la parmesana (finocchi alla parmigiana)",
+  "ingredients": {
+   "w-it-011-i1": {
+    "name": "bulbos de hinojo",
+    "standardAmount": "5 medianos"
+   },
+   "w-it-011-i2": {
+    "name": "aceite de oliva",
+    "standardAmount": "3 cucharadas"
+   },
+   "w-it-011-i3": {
+    "name": "cebolla",
+    "standardAmount": "1 pequeña, pelada y picada"
+   },
+   "w-it-011-i4": {
+    "name": "ajo",
+    "standardAmount": "4 dientes, pelados y picados"
+   },
+   "w-it-011-i5": {
+    "name": "tomates troceados",
+    "standardAmount": "2 latas de 14 onzas"
+   },
+   "w-it-011-i6": {
+    "name": "orégano seco",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-it-011-i7": {
+    "name": "hojuelas de chile",
+    "standardAmount": "1/2 cucharadita (opcional)"
+   },
+   "w-it-011-i8": {
+    "name": "hojas de perejil fresco",
+    "standardAmount": "1/4 taza"
+   },
+   "w-it-011-i9": {
+    "name": "albahaca fresca",
+    "standardAmount": "3 cucharadas"
+   },
+   "w-it-011-i10": {
+    "name": "sal y pimienta",
+    "standardAmount": "al gusto"
+   },
+   "w-it-011-i11": {
+    "name": "mozzarella",
+    "standardAmount": "1 taza en dados"
+   },
+   "w-it-011-i12": {
+    "name": "parmesano o pecorino rallado",
+    "standardAmount": "1 1/2 tazas"
+   }
+  },
+  "instructions": {
+   "1": "Corta los tallos de los bulbos de hinojo y luego pártelos por la mitad. Con un cuchillo afilado retira el corazón y córtalos en láminas a lo largo de unos 8 mm.",
+   "2": "Hierve una olla grande de agua ligeramente salada, añade el hinojo y cuece hasta que esté tierno al pinchar con un tenedor, unos 4 o 5 minutos. Escúrrelo bien.",
+   "3": "Pon el aceite en una olla a fuego medio y, cuando humee ligeramente, añade la cebolla. Cocina removiendo a menudo hasta que esté tierna, unos 5 minutos.",
+   "4": "Añade el ajo y cocina hasta que desprenda su aroma, uno o dos minutos más.",
+   "5": "Añade los tomates, el orégano, las hojuelas de chile (si las usas), el perejil, la albahaca, la sal y la pimienta y lleva a ebullición. Baja el fuego y cocina a fuego lento hasta que la salsa espese.",
+   "6": "Precalienta el horno a 190 °C.",
+   "7": "En una fuente de horno grande de 33 x 23 cm, reparte la mitad del hinojo en el fondo. Cubre con salsa y esparce la mitad de la mozzarella en dados.",
+   "8": "Añade el resto del hinojo, cubre con la salsa y el queso restante.",
+   "9": "Hornea de 35 a 40 minutos hasta que burbujee y esté dorado por encima.",
+   "10": "Deja reposar 10 minutos y sirve."
+  },
+  "culturalNotes": "Los finocchi alla parmigiana son un plato italiano tradicional que combina el sabor del hinojo con el queso parmesano."
+ },
+ "w-it-012": {
+  "title": "Focaccia",
+  "ingredients": {
+   "w-it-012-i1": {
+    "name": "levadura",
+    "standardAmount": "2 cucharaditas"
+   },
+   "w-it-012-i2": {
+    "name": "agua",
+    "standardAmount": "1.5 tazas"
+   },
+   "w-it-012-i3": {
+    "name": "harina de uso general",
+    "standardAmount": "2.25 tazas"
+   },
+   "w-it-012-i4": {
+    "name": "aceite de oliva",
+    "standardAmount": "5 cucharadas"
+   },
+   "w-it-012-i5": {
+    "name": "sal",
+    "standardAmount": "2 cucharaditas"
+   }
+  },
+  "instructions": {
+   "1": "Espolvorea una cucharadita de levadura sobre 1/2 taza del agua en un bol mediano. Remueve y deja reposar 10 minutos. Añade 3/4 taza de harina, cubre bien y deja reposar 30 minutos.",
+   "2": "En un bol grande, espolvorea la cucharadita restante de levadura sobre 1 taza de agua tibia, mezcla y deja reposar 10 minutos. Añade la primera mezcla de levadura (ya fermentada), la harina restante y la sal, y mezcla hasta formar una masa.",
+   "3": "Vuelca la masa sobre una superficie ligeramente enharinada y amasa hasta que esté suave, unos 10 minutos.",
+   "4": "Coloca la masa en un bol ligeramente aceitado, cubre bien y deja levar en lugar cálido hasta que doble, unas 1.5 horas.",
+   "5": "Aceita una bandeja de 28 x 36 cm y extiende la masa leudada sobre ella llevándola hasta los bordes. Si la masa retrocede demasiado, déjala reposar unos minutos y continúa.",
+   "6": "Precalienta el horno a 220 °C. Retira el paño y hunde la yema de los dedos en la masa formando hoyuelos; rocía con las 2 cucharadas restantes de aceite de oliva y espolvorea con sal gruesa.",
+   "7": "Saca la focaccia de la bandeja en cuanto salga del horno y deja enfriar sobre una rejilla antes de servir."
+  },
+  "culturalNotes": "La focaccia es un pan plano italiano tradicional, que suele servirse como tentempié o como parte del almuerzo."
+ },
+ "w-it-013": {
+  "title": "Frittata de boniato",
+  "ingredients": {
+   "w-it-013-i1": {
+    "name": "boniato",
+    "standardAmount": "2 tazas, pelado y en dados"
+   },
+   "w-it-013-i2": {
+    "name": "cebolla",
+    "standardAmount": "1/2 taza, picada"
+   },
+   "w-it-013-i3": {
+    "name": "aceite vegetal",
+    "standardAmount": "el necesario"
+   },
+   "w-it-013-i4": {
+    "name": "huevos",
+    "standardAmount": "6"
+   },
+   "w-it-013-i5": {
+    "name": "leche",
+    "standardAmount": "1/4 taza"
+   },
+   "w-it-013-i6": {
+    "name": "sal",
+    "standardAmount": "al gusto"
+   },
+   "w-it-013-i7": {
+    "name": "pimienta negra",
+    "standardAmount": "al gusto"
+   }
+  },
+  "instructions": {
+   "1": "Precalienta el horno a 200 °C.",
+   "2": "En una sartén apta para horno, saltea la cebolla en aceite vegetal hasta que esté blanda.",
+   "3": "Añade el boniato en dados y cocina hasta que esté tierno, removiendo de vez en cuando.",
+   "4": "En un bol aparte, bate los huevos con la leche, la sal y la pimienta.",
+   "5": "Vierte la mezcla de huevo sobre el boniato en la sartén.",
+   "6": "Deja que cuaje por los bordes y luego mete la sartén en el horno precalentado.",
+   "7": "Hornea de 8 a 10 minutos, hasta que esté completamente cuajada.",
+   "8": "Corta la frittata en porciones y sirve caliente."
+  },
+  "culturalNotes": "La frittata es un plato italiano tradicional hecho con huevos y verduras; puede servirse como plato principal o como aperitivo."
+ },
+ "w-it-014": {
+  "title": "Gelato italiano de vainilla",
+  "ingredients": {
+   "w-it-014-i1": {
+    "name": "yemas de huevo",
+    "standardAmount": "5"
+   },
+   "w-it-014-i2": {
+    "name": "azúcar granulada",
+    "standardAmount": "3/4 taza"
+   },
+   "w-it-014-i3": {
+    "name": "leche entera",
+    "standardAmount": "2 1/2 tazas"
+   },
+   "w-it-014-i4": {
+    "name": "nata para montar",
+    "standardAmount": "1 taza"
+   },
+   "w-it-014-i5": {
+    "name": "vaina de vainilla",
+    "standardAmount": "1/2 vaina"
+   },
+   "w-it-014-i6": {
+    "name": "sal",
+    "standardAmount": "una pizca"
+   }
+  },
+  "instructions": {
+   "1": "En un bol grande, bate las yemas con el azúcar hasta que la mezcla esté clara y espesa.",
+   "2": "En un cazo de fondo grueso, calienta la leche, la nata, la vaina de vainilla y la sal a fuego medio hasta que empiecen a formarse burbujas en los bordes.",
+   "3": "Retira el cazo del fuego, toma 1/2 taza de la mezcla caliente y viértela poco a poco sobre los huevos batidos sin dejar de remover.",
+   "4": "A continuación, vierte la mezcla de huevo en el cazo y cocina a fuego lento, removiendo sin parar, hasta que espese, unos 8 a 10 minutos.",
+   "5": "Cuela la mezcla por un colador de malla fina a un bol metálico y refrigera hasta que esté fría.",
+   "6": "Cuando la crema esté fría, pásala a la heladera y sigue las instrucciones del fabricante.",
+   "7": "Sirve el gelato enseguida o congélalo en un recipiente hermético hasta usarlo."
+  },
+  "culturalNotes": "El gelato italiano es un postre helado tradicional de Italia, conocido por su textura cremosa y su sabor intenso."
+ },
+ "w-it-015": {
+  "title": "Ñoquis a la caprese",
+  "ingredients": {
+   "w-it-015-i1": {
+    "name": "patatas",
+    "standardAmount": "4 medianas (unas 2 libras)"
+   },
+   "w-it-015-i2": {
+    "name": "yema de huevo",
+    "standardAmount": "1 grande"
+   },
+   "w-it-015-i3": {
+    "name": "harina",
+    "standardAmount": "1 a 2 tazas"
+   },
+   "w-it-015-i4": {
+    "name": "sal",
+    "standardAmount": "al gusto"
+   },
+   "w-it-015-i5": {
+    "name": "tomates en dados",
+    "standardAmount": "1 lata de 28 onzas"
+   },
+   "w-it-015-i6": {
+    "name": "ajo",
+    "standardAmount": "2 dientes, finamente picados"
+   },
+   "w-it-015-i7": {
+    "name": "aceite de oliva",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-it-015-i8": {
+    "name": "pimienta negra",
+    "standardAmount": "al gusto"
+   },
+   "w-it-015-i9": {
+    "name": "hojuelas de chile",
+    "standardAmount": "una pizca (opcional)"
+   },
+   "w-it-015-i10": {
+    "name": "albahaca fresca",
+    "standardAmount": "3 cucharadas finamente picada"
+   },
+   "w-it-015-i11": {
+    "name": "mozzarella fresca",
+    "standardAmount": "2 tazas en trozos de 2 cm"
+   }
+  },
+  "instructions": {
+   "1": "Precalienta el horno a 190 °C.",
+   "2": "Lava y seca las patatas y hornéalas hasta que estén tiernas al pincharlas, unos 45 minutos.",
+   "3": "Mientras tanto, prepara la salsa de tomate: calienta el aceite en un cazo de fondo grueso a fuego medio y añade el ajo.",
+   "4": "En cuanto el ajo empiece a chasquear, añade los tomates y sube el fuego. Cuando empiece a burbujear, baja a fuego medio y cocina hasta que espese.",
+   "5": "Salpimienta, añade las hojuelas de chile (si las usas) y la albahaca. Cocina un minuto o dos más y retira del fuego.",
+   "6": "Saca las patatas del horno, retira la pulpa de la piel y pásala por un pasapurés.",
+   "7": "Aún caliente, coloca el puré sobre una tabla formando un montón con un hueco en el centro. Pon la yema y la sal en el centro.",
+   "8": "Ve añadiendo la harina poco a poco, mezclando bien con las manos hasta obtener una masa blanda y manejable.",
+   "9": "Amasa suavemente y solo lo justo hasta lograr una masa lisa, maleable y ligeramente pegajosa.",
+   "10": "Para dar forma a los ñoquis, divide la masa en porciones del tamaño de un puño y estira cada una en un cilindro del grosor del pulgar.",
+   "11": "Corta en trozos de 2.5 cm.",
+   "12": "Para terminar, apoya un tenedor en la tabla. Con el dorso hacia ti, presiona cada trozo con el índice contra las púas y déjalo rodar para marcar las estrías.",
+   "13": "Deja caer los ñoquis sobre la tabla y repite con el resto.",
+   "14": "Colócalos en una bandeja ligeramente enharinada y cuécelos enseguida, o refrigéralos hasta usarlos, preferiblemente no más de unas horas.",
+   "15": "Para cocerlos, échalos con cuidado en agua hirviendo con sal y retíralos en cuanto suban todos a la superficie.",
+   "16": "Escurre los ñoquis y cúbrelos con la salsa caliente.",
+   "17": "Añade los trozos de mozzarella y la albahaca picada y remueve con cuidado para que el queso empiece a fundirse.",
+   "18": "Sirve enseguida."
+  },
+  "culturalNotes": "Los ñoquis a la caprese son un plato italiano tradicional que combina ñoquis de patata con salsa de tomate y mozzarella fresca."
+ },
+ "w-it-016": {
+  "title": "Gnudi con salsa rápida de tomate",
+  "ingredients": {
+   "w-it-016-i1": {
+    "name": "queso parmesano rallado",
+    "standardAmount": "1/4 taza"
+   },
+   "w-it-016-i2": {
+    "name": "tomates italianos en dados en lata",
+    "standardAmount": "1 lata de 28 onzas"
+   },
+   "w-it-016-i3": {
+    "name": "ajo finamente picado",
+    "standardAmount": "2 dientes"
+   },
+   "w-it-016-i4": {
+    "name": "aceite de oliva virgen extra",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-it-016-i5": {
+    "name": "sal y pimienta",
+    "standardAmount": "al gusto"
+   },
+   "w-it-016-i6": {
+    "name": "albahaca finamente picada",
+    "standardAmount": "3 cucharadas"
+   },
+   "w-it-016-i7": {
+    "name": "hojuelas de chile",
+    "standardAmount": "una pizca (opcional)"
+   },
+   "w-it-016-i8": {
+    "name": "espinacas tiernas",
+    "standardAmount": "1 bolsa de 9 onzas"
+   },
+   "w-it-016-i9": {
+    "name": "ricotta entera",
+    "standardAmount": "12 onzas"
+   },
+   "w-it-016-i10": {
+    "name": "huevos",
+    "standardAmount": "2"
+   },
+   "w-it-016-i11": {
+    "name": "harina de uso general",
+    "standardAmount": "1 1/4 tazas"
+   },
+   "w-it-016-i12": {
+    "name": "nuez moscada",
+    "standardAmount": "al gusto"
+   },
+   "w-it-016-i13": {
+    "name": "harina de sémola",
+    "standardAmount": "1.5 tazas"
+   }
+  },
+  "instructions": {
+   "1": "Cuece las espinacas al vapor o en el microondas. Escúrrelas y exprime todo el agua sobrante.",
+   "2": "Pícalas finamente y vuelve a escurrirlas.",
+   "3": "Pon las espinacas, la ricotta, los huevos, el parmesano, la nuez moscada, la sal y la harina en un bol y mezcla bien.",
+   "4": "Extiende una taza y media de sémola en una bandeja.",
+   "5": "Forma los gnudi con las manos enharinadas, rodándolos ligeramente para cubrirlos de sémola.",
+   "6": "Coloca los gnudi en el refrigerador toda la noche en una bandeja sin cubrir.",
+   "7": "Para la salsa, calienta el aceite en un cazo de fondo grueso a fuego medio y añade el ajo.",
+   "8": "En cuanto el ajo empiece a chasquear, pero antes de que tome color, añade los tomates.",
+   "9": "Sube el fuego y, cuando la salsa empiece a burbujear, baja a fuego medio-bajo.",
+   "10": "Salpimienta, añade las hojuelas de chile si las usas y la albahaca. Cocina un minuto o dos más y mantén caliente.",
+   "11": "Hierve una olla grande de agua con sal.",
+   "12": "Echa los gnudi en el agua hirviendo y baja a fuego suave.",
+   "13": "Cuando suban a la superficie estarán listos. Sácalos con una espumadera y pásalos a la cazuela.",
+   "14": "Mezcla con cuidado con la salsa de tomate y sirve con parmesano."
+  },
+  "culturalNotes": "Los gnudi son pequeños bocaditos de ricotta y espinacas, plato tradicional de la Toscana, Italia."
+ },
+ "w-it-017": {
+  "title": "Malloreddus (ñoquis sardos) en caldo de cordero",
+  "ingredients": {
+   "w-it-017-i1": {
+    "name": "harina de sémola",
+    "standardAmount": "9 onzas"
+   },
+   "w-it-017-i2": {
+    "name": "agua tibia",
+    "standardAmount": "3.3 onzas"
+   },
+   "w-it-017-i3": {
+    "name": "sal",
+    "standardAmount": "0.5 cucharadita"
+   },
+   "w-it-017-i4": {
+    "name": "huesos de cuello de cordero",
+    "standardAmount": "2.2 libras"
+   },
+   "w-it-017-i5": {
+    "name": "zanahorias",
+    "standardAmount": "2"
+   },
+   "w-it-017-i6": {
+    "name": "ramas de apio",
+    "standardAmount": "2"
+   },
+   "w-it-017-i7": {
+    "name": "cebolla",
+    "standardAmount": "1"
+   },
+   "w-it-017-i8": {
+    "name": "patatas",
+    "standardAmount": "4"
+   },
+   "w-it-017-i9": {
+    "name": "perejil fresco",
+    "standardAmount": "1 puñado"
+   },
+   "w-it-017-i10": {
+    "name": "romero fresco",
+    "standardAmount": "1 ramita"
+   },
+   "w-it-017-i11": {
+    "name": "tomates secos",
+    "standardAmount": "2-3"
+   },
+   "w-it-017-i12": {
+    "name": "pecorino sardo o pecorino romano",
+    "standardAmount": "2 onzas"
+   }
+  },
+  "instructions": {
+   "1": "Empieza el caldo de cordero: pon los huesos de cuello en una olla grande y cubre de agua. Lleva a ebullición, baja el fuego y cocina a fuego lento una hora.",
+   "2": "Añade las zanahorias, el apio, la cebolla, las patatas, el perejil, el romero y los tomates secos. Cuece 30 minutos más.",
+   "3": "En un bol grande, mezcla la sémola con el agua tibia y la sal. Amasa hasta obtener una masa lisa y maleable.",
+   "4": "Estira la masa sobre una superficie enharinada y córtala en trozos pequeños. Da forma de ñoquis pequeños y redondos.",
+   "5": "Añade los malloreddus al caldo que hierve suavemente y cuécelos 10 minutos hasta que estén tiernos.",
+   "6": "Sirve los malloreddus en cuencos y espolvorea con queso rallado."
+  },
+  "culturalNotes": "Los malloreddus son un tipo de ñoquis tradicional de Cerdeña, Italia, que suele servirse en caldo de cordero o con salsas."
+ },
+ "w-it-018": {
+  "title": "Galletas selladas de mazapán con chocolate negro",
+  "ingredients": {
+   "w-it-018-i1": {
+    "name": "harina de uso general",
+    "standardAmount": "2 tazas"
+   },
+   "w-it-018-i2": {
+    "name": "sal",
+    "standardAmount": "una pizca"
+   },
+   "w-it-018-i3": {
+    "name": "mantequilla ablandada",
+    "standardAmount": "10 cucharadas"
+   },
+   "w-it-018-i4": {
+    "name": "mazapán rallado",
+    "standardAmount": "1/3 taza + 1 cucharada"
+   },
+   "w-it-018-i5": {
+    "name": "azúcar",
+    "standardAmount": "1/4 taza"
+   },
+   "w-it-018-i6": {
+    "name": "almendras finamente molidas",
+    "standardAmount": "3 cucharadas"
+   },
+   "w-it-018-i7": {
+    "name": "yema de huevo",
+    "standardAmount": "1 grande"
+   },
+   "w-it-018-i8": {
+    "name": "chocolate negro fundido o mermelada",
+    "standardAmount": "la necesaria"
+   }
+  },
+  "instructions": {
+   "1": "Precalienta el horno a 150 °C y forra dos bandejas con papel de horno.",
+   "2": "En un bol pequeño, mezcla la harina con la sal.",
+   "3": "En un segundo bol, con batidora eléctrica, bate la mantequilla, el azúcar y el mazapán rallado hasta integrar.",
+   "4": "Añade las almendras molidas y la yema y mezcla bien.",
+   "5": "Incorpora la harina a la mezcla de mantequilla y bate a velocidad baja solo hasta mezclar.",
+   "6": "Vuelca el bol sobre la encimera ligeramente enharinada y amasa suavemente un minuto o dos hasta tener una bola lisa.",
+   "7": "Divide la masa en dos, estira a un grosor de unos 8 mm y corta las galletas con un sello o cortapastas.",
+   "8": "Coloca las galletas en las bandejas preparadas y estira el resto de la masa de la misma manera.",
+   "9": "Hornea de 18 a 20 minutos, solo hasta que empiecen a dorarse por los bordes (¡sin dejar que se doren!).",
+   "10": "Sácalas del horno y deja enfriar por completo.",
+   "11": "Si usas sello, rellena el relieve con chocolate fundido o mermelada y deja que cuaje.",
+   "12": "Guárdalas en un recipiente hermético y ¡a disfrutar!"
+  },
+  "culturalNotes": "Las galletas selladas de mazapán con chocolate negro son un dulce italiano tradicional que se sirve en ocasiones especiales."
+ },
+ "w-it-019": {
+  "title": "Minestrone milanés de verano",
+  "ingredients": {
+   "w-it-019-i1": {
+    "name": "calabacín",
+    "standardAmount": "2 medianos, en trozos de 2.5 cm"
+   },
+   "w-it-019-i2": {
+    "name": "cebolla",
+    "standardAmount": "1 grande, en trozos de 2.5 cm"
+   },
+   "w-it-019-i3": {
+    "name": "zanahorias",
+    "standardAmount": "4, en trozos de 2.5 cm"
+   },
+   "w-it-019-i4": {
+    "name": "apio",
+    "standardAmount": "3 ramas, en trozos de 2.5 cm"
+   },
+   "w-it-019-i5": {
+    "name": "patatas",
+    "standardAmount": "2 medianas, en dados de 2.5 cm"
+   },
+   "w-it-019-i6": {
+    "name": "judías verdes",
+    "standardAmount": "4 onzas, en trozos de 2.5 cm"
+   },
+   "w-it-019-i7": {
+    "name": "tomates",
+    "standardAmount": "6 grandes, en trozos de 2.5 cm"
+   },
+   "w-it-019-i8": {
+    "name": "espinacas",
+    "standardAmount": "8 onzas de hojas tiernas"
+   },
+   "w-it-019-i9": {
+    "name": "aceite de oliva",
+    "standardAmount": "4 cucharadas"
+   },
+   "w-it-019-i10": {
+    "name": "sal y pimienta",
+    "standardAmount": "al gusto"
+   },
+   "w-it-019-i11": {
+    "name": "arroz italiano",
+    "standardAmount": "4 onzas (el arborio es el mejor)"
+   },
+   "w-it-019-i12": {
+    "name": "albahaca fresca",
+    "standardAmount": "1/4 taza, picada"
+   },
+   "w-it-019-i13": {
+    "name": "aceite de oliva virgen extra",
+    "standardAmount": "al gusto"
+   },
+   "w-it-019-i14": {
+    "name": "pimienta negra en grano molida",
+    "standardAmount": "al gusto"
+   },
+   "w-it-019-i15": {
+    "name": "parmesano rallado",
+    "standardAmount": "al gusto"
+   }
+  },
+  "instructions": {
+   "1": "Calienta el aceite de oliva en una olla grande, añade la cebolla, las zanahorias, el apio y el calabacín y cocina de 3 a 4 minutos.",
+   "2": "Añade las judías verdes y las patatas y cocina 3 minutos más.",
+   "3": "Añade los tomates y 6 tazas de caldo (las verduras deben quedar cubiertas por unos 2.5 cm de caldo).",
+   "4": "Sazona ligeramente con sal y pimienta, tapa y baja el fuego a cocción lenta.",
+   "5": "Cuece unas 2 horas, añadiendo más caldo si hace falta.",
+   "6": "Añade las espinacas y el arroz y cocina de 20 a 30 minutos más, hasta que el arroz esté casi tierno al bocado.",
+   "7": "La sopa debe quedar espesa, no aguada, y las verduras fundentes.",
+   "8": "Incorpora la albahaca picada, ajusta la sazón y deja que llegue a temperatura ambiente.",
+   "9": "Sirve en cuencos con un hilo de aceite de oliva, pimienta en grano molida y queso rallado al gusto."
+  },
+  "culturalNotes": "El minestrone es una sopa italiana tradicional conocida por su variedad de verduras e ingredientes. Es especialmente popular en Milán durante el verano."
+ },
+ "w-it-020": {
+  "title": "Masa de pizza napolitana con ajo y especias italianas",
+  "ingredients": {
+   "w-it-020-i1": {
+    "name": "harina de uso general sin blanquear",
+    "standardAmount": "3 tazas"
+   },
+   "w-it-020-i2": {
+    "name": "sal",
+    "standardAmount": "1.25 cucharaditas"
+   },
+   "w-it-020-i3": {
+    "name": "levadura seca de acción rápida",
+    "standardAmount": "0.5 cucharadita"
+   },
+   "w-it-020-i4": {
+    "name": "agua helada",
+    "standardAmount": "1.5 tazas"
+   },
+   "w-it-020-i5": {
+    "name": "aceite de oliva",
+    "standardAmount": "2 cucharadas + 0.5 cucharadita"
+   },
+   "w-it-020-i6": {
+    "name": "ajo granulado",
+    "standardAmount": "1 cucharada"
+   },
+   "w-it-020-i7": {
+    "name": "especias italianas",
+    "standardAmount": "1 cucharada"
+   }
+  },
+  "instructions": {
+   "1": "En un bol grande, mezcla la harina, la sal y la levadura hasta integrar.",
+   "2": "Añade el agua helada y mezcla bien hasta formar una masa blanda. Añade 2 cucharadas de aceite de oliva y mezcla.",
+   "3": "Vuelca la masa sobre una superficie enharinada y amasa hasta que esté firme pero ligeramente pegajosa, añadiendo más harina si hace falta.",
+   "4": "Forma una bola, colócala en un bol aceitado, pincela la superficie con 0.5 cucharadita de aceite, cubre con film y deja levar hasta que doble, aproximadamente 1 hora.",
+   "5": "Desgasifica la masa y córtala por la mitad. Forma con cada mitad una base de pizza de 30 cm y colócala en bandejas.",
+   "6": "Coloca una rejilla en la posición más baja del horno y precalienta a 230 °C.",
+   "7": "Hornea las bases en la rejilla inferior hasta que estén firmes, de 3 a 7 minutos. Deja enfriar unos 10 minutos antes de cubrirlas."
+  },
+  "culturalNotes": "La pizza napolitana es un plato tradicional de Nápoles, Italia, conocido por su masa fina y sus bordes abultados."
+ },
+ "w-it-021": {
+  "title": "Panforte de cacao",
+  "ingredients": {
+   "w-it-021-i1": {
+    "name": "miel",
+    "standardAmount": "5 onzas"
+   },
+   "w-it-021-i2": {
+    "name": "azúcar blanca",
+    "standardAmount": "4 onzas"
+   },
+   "w-it-021-i3": {
+    "name": "piñones picados",
+    "standardAmount": "3 onzas"
+   },
+   "w-it-021-i4": {
+    "name": "nueces picadas",
+    "standardAmount": "3 onzas"
+   },
+   "w-it-021-i5": {
+    "name": "almendras picadas",
+    "standardAmount": "3 onzas"
+   },
+   "w-it-021-i6": {
+    "name": "piña confitada picada",
+    "standardAmount": "3 onzas"
+   },
+   "w-it-021-i7": {
+    "name": "jengibre confitado picado",
+    "standardAmount": "3 onzas"
+   },
+   "w-it-021-i8": {
+    "name": "dátiles secos picados",
+    "standardAmount": "3 onzas"
+   },
+   "w-it-021-i9": {
+    "name": "cacao en polvo sin azúcar",
+    "standardAmount": "2 onzas"
+   },
+   "w-it-021-i10": {
+    "name": "cilantro molido",
+    "standardAmount": "0.5 cucharadita"
+   },
+   "w-it-021-i11": {
+    "name": "pimienta de Jamaica molida",
+    "standardAmount": "0.5 cucharadita"
+   },
+   "w-it-021-i12": {
+    "name": "nuez moscada molida",
+    "standardAmount": "1/3 cucharadita"
+   },
+   "w-it-021-i13": {
+    "name": "azúcar glas",
+    "standardAmount": "2 cucharadas"
+   }
+  },
+  "instructions": {
+   "1": "Precalienta el horno a 150 °C. Forra un molde desmontable de 20 a 23 cm con papel de arroz o papel de horno.",
+   "2": "Combina la miel y el azúcar en un cazo a fuego lento y remueve hasta disolver el azúcar, unos 3 minutos. Lleva a ebullición suave.",
+   "3": "Mezcla con todos los frutos secos, las frutas confitadas, el cacao y las especias, y vierte en el molde presionando bien.",
+   "4": "Hornea 25 minutos. Retira del horno y deja enfriar por completo sobre una rejilla.",
+   "5": "Desmolda el panforte y espolvorea con azúcar glas."
+  },
+  "culturalNotes": "El panforte es un dulce italiano tradicional de la ciudad de Siena, conocido por su rica combinación de frutos secos y frutas confitadas."
+ }
 }
