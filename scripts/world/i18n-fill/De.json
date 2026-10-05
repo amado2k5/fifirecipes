@@ -1,139 +1,544 @@
 {
-"w-ma-029": {
-  "title": "Kebab Maghdour",
+"w-fr-001": {
+  "title": "Bouillabaisse",
   "ingredients": {
-    "w-ma-029-i1": {"name": "Lamm-, Kalb- oder Rindfleisch", "standardAmount": "1 kg (2,5-cm-Würfel)"},
-    "w-ma-029-i2": {"name": "Zwiebeln", "standardAmount": "2 mittelgroße (gerieben oder fein gehackt)"},
-    "w-ma-029-i3": {"name": "Knoblauch", "standardAmount": "2-3 Zehen (gerieben oder fein gehackt)"},
-    "w-ma-029-i4": {"name": "Gemahlener Ingwer", "standardAmount": "½ Teelöffel"},
-    "w-ma-029-i5": {"name": "Schwarzer und weißer Pfeffer", "standardAmount": "¼ Teelöffel"},
-    "w-ma-029-i6": {"name": "Glatte Petersilie und Koriander", "standardAmount": "2 Esslöffel (gehackt)"},
-    "w-ma-029-i7": {"name": "Pflanzenöl", "standardAmount": "1 Esslöffel"},
-    "w-ma-029-i8": {"name": "Pflanzenöl und Olivenöl", "standardAmount": "3 Esslöffel (gemischt)"},
-    "w-ma-029-i9": {"name": "Salz", "standardAmount": "1 Teelöffel (nach Geschmack)"},
-    "w-ma-029-i10": {"name": "Zimtstange", "standardAmount": "1 (optional)"},
-    "w-ma-029-i11": {"name": "Edelsüßes Paprikapulver", "standardAmount": "1 Esslöffel"},
-    "w-ma-029-i12": {"name": "Gehackte glatte Petersilie", "standardAmount": "2 Esslöffel"},
-    "w-ma-029-i13": {"name": "Smen", "standardAmount": "1 Esslöffel (oder Ghee)"},
-    "w-ma-029-i14": {"name": "Butter", "standardAmount": "2 Esslöffel"},
-    "w-ma-029-i15": {"name": "Eier", "standardAmount": "3-6 (ein halbes bis ein ganzes Ei pro Person)"},
-    "w-ma-029-i16": {"name": "Olivenöl", "standardAmount": "6 Esslöffel (zum Braten)"},
-    "w-ma-029-i17": {"name": "Gehackte glatte Petersilie oder Koriander", "standardAmount": "1 Esslöffel"}
+    "w-fr-001-i1": {"name": "Roter Knurrhahn", "standardAmount": "660 g"},
+    "w-fr-001-i2": {"name": "Drachenkopf", "standardAmount": "660 g"},
+    "w-fr-001-i3": {"name": "Roter Knurrhahn (Grondin)", "standardAmount": "660 g"},
+    "w-fr-001-i4": {"name": "Meeraal", "standardAmount": "660 g"},
+    "w-fr-001-i5": {"name": "Seeteufel", "standardAmount": "660 g"},
+    "w-fr-001-i6": {"name": "Heringskönig", "standardAmount": "660 g"},
+    "w-fr-001-i7": {"name": "Oktopus", "standardAmount": "1 lebender (optional)"},
+    "w-fr-001-i8": {"name": "Seeigel", "standardAmount": "10"},
+    "w-fr-001-i9": {"name": "Kartoffeln", "standardAmount": "1 kg"},
+    "w-fr-001-i10": {"name": "Knoblauch", "standardAmount": "7 Zehen"},
+    "w-fr-001-i11": {"name": "Zwiebeln", "standardAmount": "3"},
+    "w-fr-001-i12": {"name": "Tomaten", "standardAmount": "5 reife"},
+    "w-fr-001-i13": {"name": "Olivenöl", "standardAmount": "240 ml"},
+    "w-fr-001-i14": {"name": "Bouquet garni", "standardAmount": "1 Bund"},
+    "w-fr-001-i15": {"name": "Fenchel", "standardAmount": "1 Zweig"},
+    "w-fr-001-i16": {"name": "Safran", "standardAmount": "8 Fäden"},
+    "w-fr-001-i17": {"name": "Campagne-Brot", "standardAmount": "10 Scheiben"},
+    "w-fr-001-i18": {"name": "Salz", "standardAmount": "nach Geschmack"},
+    "w-fr-001-i19": {"name": "Cayennepfeffer", "standardAmount": "nach Geschmack"}
   },
   "instructions": {
-    "1": "Das Fleisch in 2,5-cm-Würfel schneiden.",
-    "2": "In einer Schüssel das Fleisch mit geriebener Zwiebel, Knoblauch, Ingwer, Pfeffer, Petersilie, Koriander und Pflanzenöl vermischen. 30 Minuten marinieren lassen.",
-    "3": "In einem Topf Pflanzenöl und Olivenöl erhitzen, die fein gehackte Zwiebel hinzufügen und goldbraun anbraten.",
-    "4": "Das marinierte Fleisch in den Topf geben und 5 Minuten anbraten.",
-    "5": "Wasser hinzufügen, bis das Fleisch bedeckt ist, dann Ingwer, Salz, Zimtstange und Paprikapulver zugeben. Aufkochen, Hitze reduzieren und 45 Minuten köcheln, bis das Fleisch zart ist.",
-    "6": "Die Eier in den Topf geben und 10 Minuten garen.",
-    "7": "Kebab Maghdour heiß servieren, mit gehackter Petersilie garniert."
+    "1": "Fisch säubern und mit Gräten in große Stücke schneiden.",
+    "2": "Olivenöl in einem großen, tiefen Topf erhitzen.",
+    "3": "Zwiebeln, 6 zerdrückte Knoblauchzehen, Oktopus und Tomaten zugeben und bei niedriger Hitze 5 Minuten braten.",
+    "4": "Die größten Fischstücke zuerst zugeben, mit kochendem Wasser bedecken, Salz, Pfeffer, Fenchel, Bouquet garni und Safran zugeben und bei niedriger Hitze köcheln.",
+    "5": "Rouille zubereiten: Knoblauch im Mörser zerstoßen, Eigelb und Safran zugeben und Olivenöl nach und nach zu einer Mayonnaise rühren.",
+    "6": "Kartoffeln 15–20 Minuten in Salzwasser kochen. Seeigel mit der Schere öffnen und das Fleisch mit einem Teelöffel herauslösen.",
+    "7": "Fisch auf eine große Platte legen. Seeigelfleisch in die Suppe rühren.",
+    "8": "Brot mit Knoblauch einreiben und mit Rouille bestreichen. Pro Schüssel mindestens 2 Scheiben.",
+    "9": "Fisch und Kartoffeln aus der Suppe nehmen und auf einer Platte anrichten.",
+    "10": "Heiße Suppe über das mit Rouille bestrichene Brot gießen. Fisch und Kartoffeln separat servieren."
   },
-  "culturalNotes": "Kebab Maghdour ist ein traditionelles marokkanisches Gericht, das zu besonderen Anlässen serviert wird. Es ist bekannt für seine reichen Gewürzaromen und das zarte Fleisch."
+  "culturalNotes": "Bouillabaisse ist ein traditionelles Gericht aus Marseille, bekannt für die Vielfalt an Fisch und Meeresfrüchten."
 },
-"w-mx-006": {
-  "title": "Bolillo (Mexikanische Brötchen)",
+"w-fr-002": {
+  "title": "Frittierte Calamari mit Tzatziki",
   "ingredients": {
-    "w-mx-006-i1": {"name": "Wasser", "standardAmount": "360 ml (plus mehr zum Dämpfen)"},
-    "w-mx-006-i2": {"name": "Aktive Trockenhefe", "standardAmount": "2¼ Teelöffel"},
-    "w-mx-006-i3": {"name": "Kristallzucker", "standardAmount": "1 Esslöffel"},
-    "w-mx-006-i4": {"name": "Weizenmehl", "standardAmount": "500 g"},
-    "w-mx-006-i5": {"name": "Feines Salz", "standardAmount": "2 Teelöffel"},
-    "w-mx-006-i6": {"name": "Pflanzenöl", "standardAmount": "2 Esslöffel (plus mehr zum Einfetten)"}
+    "w-fr-002-i1": {"name": "Knoblauch", "standardAmount": "2 kleine Zehen (gehackt)"},
+    "w-fr-002-i2": {"name": "Olivenöl", "standardAmount": "1 EL"},
+    "w-fr-002-i3": {"name": "Gurke", "standardAmount": "1 kleine"},
+    "w-fr-002-i4": {"name": "Joghurt", "standardAmount": "250 g"},
+    "w-fr-002-i5": {"name": "Getrocknete Minze", "standardAmount": "1 TL"},
+    "w-fr-002-i6": {"name": "Zitronensaft", "standardAmount": "1 TL"},
+    "w-fr-002-i7": {"name": "Salz und Pfeffer", "standardAmount": "nach Geschmack"},
+    "w-fr-002-i8": {"name": "Calamari", "standardAmount": "450 g"},
+    "w-fr-002-i9": {"name": "Mehl", "standardAmount": "1 große Schüssel"},
+    "w-fr-002-i10": {"name": "Frittieröl", "standardAmount": "2,5 cm im Topf"},
+    "w-fr-002-i11": {"name": "Frischer Zitronensaft", "standardAmount": "nach Geschmack"},
+    "w-fr-002-i12": {"name": "Salz, Pfeffer, Oregano", "standardAmount": "nach Geschmack"}
   },
   "instructions": {
-    "1": "Hefe vorbereiten. Das Wasser in einer Tasse oder Schüssel in der Mikrowelle oder auf dem Herd erwärmen (ca. 43-46 °C). Hefe und Zucker zugeben und verrühren. Locker mit Frischhaltefolie abdecken und 5 Minuten stehen lassen, bis es schäumt. Schäumt es nicht, wegwerfen und mit einer neuen Packung Hefe neu beginnen.",
-    "2": "Teig zubereiten. In der Schüssel einer Küchenmaschine (oder einer großen Schüssel) Mehl und Salz verquirlen. Den Knethaken ansetzen, Öl und Hefemischung zugeben. 6-8 Minuten auf mittlerer Stufe kneten (oder von Hand), bis der Teig glatt und elastisch ist. Ist er noch klebrig, je 1 Esslöffel Mehl einkneten; ist er zu trocken, je 1 Esslöffel Wasser zugeben.",
-    "3": "Gehen lassen. Eine große Schüssel mit Öl ausstreichen, den Teig zu einer Kugel formen und hineingeben. Mit einem Küchentuch abdecken und gehen lassen, bis er sich verdoppelt hat, etwa 1-1,5 Stunden.",
-    "4": "Formen und erneut gehen lassen. Den Teig in 6 gleiche Stücke teilen und zu 18 cm langen, an einem Ende zugespitzten Ovalen formen. Je 3 Bolillos auf die vorbereiteten Backbleche legen und die Oberseiten leicht mit Öl bestreichen oder mit Backtrennspray besprühen. Locker mit Frischhaltefolie abdecken und weitere 45 Minuten gehen lassen.",
-    "5": "Ofen vorheizen. 15 Minuten vor Ende der Ruhezeit eine Auflaufform (ca. 23×33 cm) mit 2,4 l Wasser füllen und auf die unterste Schiene stellen, damit der Ofen feucht wird. Den Ofen auf 220 °C vorheizen.",
-    "6": "Bolillos einschneiden. Mit einem sehr scharfen Messer jeden Bolillo längs mittig etwa 6 mm tief einschneiden.",
-    "7": "Backen. Die Oberseiten der Bolillos mit etwas Wasser besprühen, dann in den Ofen geben und 30-35 Minuten goldbraun backen.",
-    "8": "Vor dem Servieren mindestens 10 Minuten abkühlen lassen."
+    "1": "Olivenöl und Knoblauch in eine mittlere Schüssel geben.",
+    "2": "Gurke in dünne Scheiben schneiden, salzen und mindestens 15 Minuten entwässern lassen.",
+    "3": "Joghurt, Gurke, Minze, Zitronensaft, Salz und Pfeffer zum Knoblauchöl geben. Zu flüssig? Mehr Joghurt.",
+    "4": "Calamari säubern, Körper in 2,5-cm-Ringe schneiden (kleine ganz lassen).",
+    "5": "Mit Salz und Pfeffer gewürztes Mehl bereitstellen.",
+    "6": "Öl bei starker Hitze erhitzen.",
+    "7": "Calamari innen und außen mehlieren.",
+    "8": "Portionsweise ins Öl geben.",
+    "9": "Kleine ca. 1 Minute, große eine Minute länger.",
+    "10": "Auf Küchenpapier abtropfen lassen und sofort mit Tzatziki servieren."
   },
-  "culturalNotes": "Bolillo ist ein traditionelles mexikanisches Brot, das für viele Gerichte wie Tacos und Tortas (Sandwiches) verwendet wird."
+  "culturalNotes": "Calamari mit Tzatziki ist ein mediterranes Gericht, besonders beliebt in Griechenland und Zypern."
 },
-"w-mx-046": {
-  "title": "Chile Relleno",
+"w-fr-003": {
+  "title": "Calissons",
   "ingredients": {
-    "w-mx-046-i1": {"name": "Poblano-Chilis", "standardAmount": "6 große"},
-    "w-mx-046-i2": {"name": "Monterey-Jack-Käse", "standardAmount": "225 g (in lange Streifen oder geraspelt)"},
-    "w-mx-046-i3": {"name": "Öl", "standardAmount": "1 Liter (zum Frittieren)"},
-    "w-mx-046-i4": {"name": "Eier", "standardAmount": "3 große"},
-    "w-mx-046-i5": {"name": "Weizenmehl", "standardAmount": "60 g"},
-    "w-mx-046-i6": {"name": "Feines Salz", "standardAmount": "½ Teelöffel"},
-    "w-mx-046-i7": {"name": "Roma-Tomaten", "standardAmount": "6 (geviertelt)"},
-    "w-mx-046-i8": {"name": "Zwiebel", "standardAmount": "½ kleine (halbiert)"},
-    "w-mx-046-i9": {"name": "Knoblauch", "standardAmount": "3 Zehen"},
-    "w-mx-046-i10": {"name": "Jalapeño", "standardAmount": "1 (Stiel und Kerne entfernt, optional)"},
-    "w-mx-046-i11": {"name": "Koriander", "standardAmount": "5 Zweige"},
-    "w-mx-046-i12": {"name": "Koschersalz", "standardAmount": "1 Teelöffel (plus nach Geschmack)"},
-    "w-mx-046-i13": {"name": "Olivenöl", "standardAmount": "1 Teelöffel"}
+    "w-fr-003-i1": {"name": "Mandeln", "standardAmount": "200 g"},
+    "w-fr-003-i2": {"name": "Puderzucker", "standardAmount": "200 g"},
+    "w-fr-003-i3": {"name": "Honig", "standardAmount": "100 g"},
+    "w-fr-003-i4": {"name": "Zimt", "standardAmount": "½ TL"},
+    "w-fr-003-i5": {"name": "Nelken", "standardAmount": "¼ TL"},
+    "w-fr-003-i6": {"name": "Rosinen", "standardAmount": "50 g"},
+    "w-fr-003-i7": {"name": "Mehl", "standardAmount": "100 g"},
+    "w-fr-003-i8": {"name": "Ei", "standardAmount": "1"}
   },
   "instructions": {
-    "1": "Die Poblano-Chilis bei mittlerer Hitze rösten, bis die Haut schwarz ist. 10 Minuten in einen verschlossenen Plastikbeutel geben.",
-    "2": "Die Chilis häuten und den Stiel abschneiden. Vorsichtig öffnen und Kerne sowie Innenhäutchen entfernen.",
-    "3": "Die Chilis mit Monterey-Jack-Käse füllen. Beiseite stellen.",
-    "4": "In einer Schüssel die Eier mit Salz verquirlen. In eine zweite Schüssel das Mehl geben.",
-    "5": "Die gefüllten Chilis zuerst im Mehl, dann im Ei wenden.",
-    "6": "Das Öl in einer tiefen Pfanne bei mittlerer Hitze erhitzen. Die Chilis von allen Seiten goldbraun frittieren.",
-    "7": "Für die Tomatensauce Tomaten, Zwiebel, Knoblauch, Jalapeño, Koriander, Salz und Olivenöl im Mixer glatt pürieren.",
-    "8": "Die gefüllten Chilis mit der Tomatensauce servieren."
+    "1": "Mandelmehl und Puderzucker in einer Schüssel mischen.",
+    "2": "Honig, Zimt, Nelken und Rosinen zugeben und gut vermischen.",
+    "3": "Mehl nach und nach zu einem festen Teig verarbeiten.",
+    "4": "Abdecken und 30 Minuten ruhen lassen.",
+    "5": "Kleine Kugeln formen und auf ein mit Backpapier belegtes Blech setzen.",
+    "6": "Bei 180 °C 20 Minuten goldbraun backen.",
+    "7": "Abkühlen lassen und servieren."
   },
-  "culturalNotes": "Chile relleno ist ein traditionelles mexikanisches Gericht, das oft zu besonderen Anlässen serviert wird."
+  "culturalNotes": "Calissons sind eine traditionelle Süßspeise aus Südfrankreich mit feinem Aroma und Süße."
 },
-"w-mx-048": {
-  "title": "Mexikanischer Zimttee",
+"w-fr-004": {
+  "title": "Knoblauch-Confit",
   "ingredients": {
-    "w-mx-048-i1": {"name": "Wasser", "standardAmount": "1,4 Liter"},
-    "w-mx-048-i2": {"name": "Mexikanische Zimtstangen", "standardAmount": "2 Stangen"},
-    "w-mx-048-i3": {"name": "Honig", "standardAmount": "nach Geschmack"}
+    "w-fr-004-i1": {"name": "Knoblauch", "standardAmount": "2 Knollen"},
+    "w-fr-004-i2": {"name": "Thymian", "standardAmount": "2 Zweige"},
+    "w-fr-004-i3": {"name": "Olivenöl", "standardAmount": "250 ml"},
+    "w-fr-004-i4": {"name": "Salz", "standardAmount": "1 kräftige Prise"}
   },
   "instructions": {
-    "1": "Wasser und Zimt in einen mittelgroßen Topf geben und aufkochen.",
-    "2": "3-5 Minuten kochen lassen, dann vom Herd nehmen.",
-    "3": "Weitere 30 Minuten ziehen lassen oder bis zur gewünschten Stärke.",
-    "4": "Honig nach Geschmack zugeben.",
-    "5": "Warm servieren."
+    "1": "Backofen auf 150 °C (Umluft 130 °C) vorheizen.",
+    "2": "Knoblauch in eine kleine ofenfeste Form (ca. 13 cm) geben, Thymian und Salz zugeben.",
+    "3": "Mit Olivenöl vollständig bedecken.",
+    "4": "1 Stunde 20 Minuten garen, bis das Öl sachte blubbert und der Knoblauch tief goldbraun ist; er soll sich zerdrücken lassen, aber die Form behalten.",
+    "5": "Im Öl abkühlen lassen. In einem sterilen Glas im Kühlschrank 2 Wochen haltbar."
   },
-  "culturalNotes": "Mexikanischer Zimttee ist ein traditionelles Getränk, das in Mexiko sehr beliebt ist, besonders an Feiertagen und bei besonderen Anlässen."
+  "culturalNotes": "Knoblauch-Confit ist ein Klassiker der französischen Küche für Vorspeisen und zum Verfeinern vieler Gerichte."
 },
-"w-mx-049": {
-  "title": "Fischfilet mit Knoblauchsauce",
+"w-fr-005": {
+  "title": "Confit de Canard (Entenconfit)",
   "ingredients": {
-    "w-mx-049-i1": {"name": "Tilapia- oder andere Fischfilets", "standardAmount": "680 g"},
-    "w-mx-049-i2": {"name": "Limette", "standardAmount": "1"},
-    "w-mx-049-i3": {"name": "Salz und Pfeffer", "standardAmount": "nach Geschmack"},
-    "w-mx-049-i4": {"name": "Pflanzenöl (oder zur Hälfte Olivenöl)", "standardAmount": "60 ml"},
-    "w-mx-049-i5": {"name": "Knoblauchzehen", "standardAmount": "6 (in dünne Scheiben)"},
-    "w-mx-049-i6": {"name": "Petersilie", "standardAmount": "3 Esslöffel (fein gehackt)"},
-    "w-mx-049-i7": {"name": "Mehl (optional)", "standardAmount": "2 Esslöffel"}
+    "w-fr-005-i1": {"name": "Entenkeulen", "standardAmount": "4 (à 250 g)"},
+    "w-fr-005-i2": {"name": "Entenfett", "standardAmount": "750 ml"},
+    "w-fr-005-i3": {"name": "Salz", "standardAmount": "4 TL"},
+    "w-fr-005-i4": {"name": "Thymian", "standardAmount": "⅓ Tasse"},
+    "w-fr-005-i5": {"name": "Salbei", "standardAmount": "⅓ Tasse"},
+    "w-fr-005-i6": {"name": "Rosmarin", "standardAmount": "⅓ Tasse"},
+    "w-fr-005-i7": {"name": "Oregano", "standardAmount": "⅓ Tasse"},
+    "w-fr-005-i8": {"name": "Knoblauch", "standardAmount": "6 Zehen (mit Schale angedrückt)"},
+    "w-fr-005-i9": {"name": "Schalotte", "standardAmount": "1 (in feinen Scheiben)"},
+    "w-fr-005-i10": {"name": "Schwarze Pfefferkörner", "standardAmount": "1 EL"},
+    "w-fr-005-i11": {"name": "Koriandersamen", "standardAmount": "1 EL"},
+    "w-fr-005-i12": {"name": "Sternanis", "standardAmount": "8"},
+    "w-fr-005-i13": {"name": "Lorbeerblätter", "standardAmount": "2"},
+    "w-fr-005-i14": {"name": "Wacholderbeeren", "standardAmount": "2 EL"},
+    "w-fr-005-i15": {"name": "Nelken", "standardAmount": "8"}
   },
   "instructions": {
-    "1": "Den Fisch mit Salz, Pfeffer und Limettensaft würzen. Beiseite stellen, während die übrigen Zutaten vorbereitet werden.",
-    "2": "Das Öl in einer großen Pfanne bei schwacher Hitze erhitzen. Die Knoblauchscheiben goldgelb braten. Sobald sie leicht goldfarben sind, sofort herausnehmen — bleiben sie länger drin, werden sie bitter.",
-    "3": "Bei Verwendung von Mehl die Filets leicht damit bestäuben. Die Pfanne auf mittelhohe Hitze stellen. Sobald sie heiß ist, den Fisch hineingeben und von beiden Seiten braten. Filets von 1 cm Dicke brauchen etwa 2-3 Minuten pro Seite, dickere 5-7 Minuten.",
-    "4": "Den Fisch aus der Pfanne nehmen und auf einem Gitter mit Küchenpapier darunter abtropfen lassen.",
-    "5": "Den Fisch mit gehackter Petersilie und den goldenen Knoblauchscheiben garniert servieren. (Und mit einem Klecks Butter — ein Gedicht!)"
+    "1": "Salz und Gewürze in einer Schüssel mischen und die Keulen damit einreiben.",
+    "2": "In eine tiefe Schüssel legen, mit Gewürzen bedecken und abgedeckt 24 Stunden kühlen.",
+    "3": "Nach 24 Stunden kalt abspülen und trocken tupfen.",
+    "4": "In eine Bratform legen, Fett und Gewürze zugeben und mit Folie abdecken.",
+    "5": "Bei 100 °C 2–3 Stunden garen, bis das Fleisch weich ist.",
+    "6": "Herausnehmen, etwas abkühlen lassen und das Fett in ein verschließbares Gefäß abseihen.",
+    "7": "Ente in eine tiefe Schüssel legen und mit dem abgeseihten Fett bedecken. Im Kühlschrank 6 Monate haltbar.",
+    "8": "Zum Servieren bei 200 °C 10–15 Minuten backen, bis die Haut knusprig ist."
   },
-  "culturalNotes": "Dieses Gericht ist eines der beliebtesten der mexikanischen Küche und wird oft als Hauptgericht bei Familienfeiern serviert."
+  "culturalNotes": "Entenconfit ist ein französisches Traditionsgericht, bei dem die Keulen im eigenen Fett schonend gegart werden; serviert mit Kartoffelpüree oder Ofengemüse."
 },
-"w-mx-050": {
-  "title": "Quesadilla mit grüner Chili und Käse",
+"w-fr-006": {
+  "title": "Flamiche (Lauchpastete)",
   "ingredients": {
-    "w-mx-050-i1": {"name": "Weizentortillas", "standardAmount": "4 (25 cm)"},
-    "w-mx-050-i2": {"name": "Cheddar- oder Pepper-Jack-Käse", "standardAmount": "1 Tasse (geraspelt)"},
-    "w-mx-050-i3": {"name": "Geröstete Poblano-Chilis", "standardAmount": "2 (gewürfelt)"},
-    "w-mx-050-i4": {"name": "Salsa (zum Garnieren)", "standardAmount": "nach Geschmack"},
-    "w-mx-050-i5": {"name": "Guacamole (zum Garnieren)", "standardAmount": "nach Geschmack"}
+    "w-fr-006-i1": {"name": "Weizenmehl", "standardAmount": "350 g"},
+    "w-fr-006-i2": {"name": "Butter", "standardAmount": "175 g (Zimmertemperatur)"},
+    "w-fr-006-i3": {"name": "Salz", "standardAmount": "1 Prise"},
+    "w-fr-006-i4": {"name": "Milch", "standardAmount": "7 EL"},
+    "w-fr-006-i5": {"name": "Currypulver", "standardAmount": "½ TL"},
+    "w-fr-006-i6": {"name": "Lauch", "standardAmount": "900 g (gehackt)"},
+    "w-fr-006-i7": {"name": "Butter", "standardAmount": "40 g"},
+    "w-fr-006-i8": {"name": "Eigelb", "standardAmount": "4 (3 für die Füllung + 1 zum Bestreichen)"},
+    "w-fr-006-i9": {"name": "Crème fraîche", "standardAmount": "200 g"},
+    "w-fr-006-i10": {"name": "Muskatnuss", "standardAmount": "¼ TL"},
+    "w-fr-006-i11": {"name": "Salz und schwarzer Pfeffer", "standardAmount": "1 Prise"}
   },
   "instructions": {
-    "1": "Einen Comal bei mittlerer bis schwacher Hitze 1 Minute vorheizen.",
-    "2": "Die Tortillas je 1 Minute pro Seite erwärmen, wenden, eine mit etwas Käse bestreuen, die Chili daraufgeben, mit einer zweiten Tortilla bedecken und mit einem Pfannenwender leicht andrücken.",
-    "3": "Gelegentlich wenden, bis die Quesadillas auf beiden Seiten goldbraun sind und der Käse geschmolzen ist.",
-    "4": "Mit den übrigen Tortillas und Zutaten wiederholen.",
-    "5": "Nach Belieben mit Salsa und Guacamole servieren."
+    "1": "Mehl, Butter und Salz in einer großen Schüssel zu Streuseln verarbeiten.",
+    "2": "Milch nach und nach zugeben und zu einem Teig kneten.",
+    "3": "Abdecken und 30 Minuten kühlen.",
+    "4": "Butter in einer großen Pfanne schmelzen und Lauch weich und goldgelb braten.",
+    "5": "Currypulver zugeben und 1 Minute rühren.",
+    "6": "In einer zweiten Schüssel Eigelb, Crème fraîche, Muskat, Salz und Pfeffer verrühren.",
+    "7": "Gebratenen Lauch unter die Eimasse rühren.",
+    "8": "Pastetenform mit Teig auslegen und Füllung einfüllen.",
+    "9": "Oberen Teig auflegen und Ränder verschließen.",
+    "10": "Mit restlichem Eigelb bestreichen.",
+    "11": "Bei 180 °C 45 Minuten goldbraun backen.",
+    "12": "10 Minuten ruhen lassen und servieren."
   },
-  "culturalNotes": "Quesadilla ist ein sehr beliebtes Gericht in Mexiko und wird als Snack oder als Hauptmahlzeit serviert."
+  "culturalNotes": "Flamiche ist eine traditionelle Lauchpastete aus Nordfrankreich."
+},
+"w-fr-007": {
+  "title": "Fondant-Kartoffeln",
+  "ingredients": {
+    "w-fr-007-i1": {"name": "Große mehlige Kartoffeln", "standardAmount": "4 (à 400 g)"},
+    "w-fr-007-i2": {"name": "Salz", "standardAmount": "¾ TL"},
+    "w-fr-007-i3": {"name": "Schwarzer Pfeffer", "standardAmount": "½ TL"},
+    "w-fr-007-i4": {"name": "Natives Olivenöl extra", "standardAmount": "2 EL"},
+    "w-fr-007-i5": {"name": "Ungesalzene Butter", "standardAmount": "3 EL (50 g)"},
+    "w-fr-007-i6": {"name": "Thymian", "standardAmount": "6 Zweige"},
+    "w-fr-007-i7": {"name": "Hühner- oder Gemüsebrühe", "standardAmount": "240 ml (salzarm)"}
+  },
+  "instructions": {
+    "1": "Backofen auf 200 °C (Umluft 180 °C) vorheizen.",
+    "2": "Kartoffeln zu Zylindern von ca. 6 cm Durchmesser und 7 cm Höhe schneiden, halbieren zu 8 Zylindern à 3,5 cm.",
+    "3": "Trocken tupfen und mit der Hälfte des Öls sowie Salz und Pfeffer einreiben.",
+    "4": "Restliches Öl in einer ofenfesten Pfanne bei mittlerer bis hoher Hitze erhitzen und jede Seite 6–8 Minuten goldbraun braten.",
+    "5": "Butter und Thymian zugeben; wenn geschmolzen, über die Kartoffeln löffeln. Brühe angießen, aufkochen und im Ofen 30 Minuten garen, nach 15 Minuten erneut begießen.",
+    "6": "Nochmals begießen und servieren. Restaurant-Style mit Steak, Sauce Béarnaise und Butterbohnen."
+  },
+  "culturalNotes": "Fondant-Kartoffeln sind ein französisches Ofengericht: außen goldbraun, innen cremig."
+},
+"w-fr-008": {
+  "title": "Schokoladen-Crêpes",
+  "ingredients": {
+    "w-fr-008-i1": {"name": "Ungesalzene Butter", "standardAmount": "25 g"},
+    "w-fr-008-i2": {"name": "Weizenmehl", "standardAmount": "150 g"},
+    "w-fr-008-i3": {"name": "Eier", "standardAmount": "2 große"},
+    "w-fr-008-i4": {"name": "Vollmilch", "standardAmount": "275 ml"},
+    "w-fr-008-i5": {"name": "Salz", "standardAmount": "1 Prise"},
+    "w-fr-008-i6": {"name": "Vanillepulver", "standardAmount": "¼ TL (optional)"},
+    "w-fr-008-i7": {"name": "Puderzucker", "standardAmount": "1 EL"},
+    "w-fr-008-i8": {"name": "Ungesüßtes Kakaopulver", "standardAmount": "1 EL"}
+  },
+  "instructions": {
+    "1": "Butter in der Crêpe-Pfanne schmelzen (leicht bräunen für nussiges Aroma).",
+    "2": "Mehl, Puderzucker, Kakao, Salz und Vanille in einer großen Schüssel mischen, Eier in die Mitte schlagen und mit der geschmolzenen Butter gut verrühren.",
+    "3": "Ein Viertel der Milch einrühren, dann den Rest nach und nach. Der Teig ist recht flüssig – das ist richtig.",
+    "4": "Überschüssige Butter auswischen, Pfanne bei mittlerer bis hoher Hitze erhitzen, eine Kelle Teig eingießen und dünn verlaufen lassen.",
+    "5": "2–3 Minuten backen, bis Blasen entstehen, wenden und einige Minuten weiterbacken.",
+    "6": "Hitze etwas reduzieren, Pfanne zwischendurch auswischen und wiederholen – ergibt 6–8 Crêpes."
+  },
+  "culturalNotes": "Crêpes sind ein beliebtes französisches Frühstück, serviert mit Schokolade, Honig oder Erdbeeren."
+},
+"w-fr-009": {
+  "title": "Schokoladentrüffel mit Ganache",
+  "ingredients": {
+    "w-fr-009-i1": {"name": "Zartbitterschokolade", "standardAmount": "285 g"},
+    "w-fr-009-i2": {"name": "Ungesalzene Butter", "standardAmount": "30 g"},
+    "w-fr-009-i3": {"name": "Sahne", "standardAmount": "125 ml"},
+    "w-fr-009-i4": {"name": "Kokosraspel", "standardAmount": "125 g"},
+    "w-fr-009-i5": {"name": "Ungesüßtes Kakaopulver", "standardAmount": "60 g"},
+    "w-fr-009-i6": {"name": "Zerkleinerte Erdnüsse", "standardAmount": "125 g"},
+    "w-fr-009-i7": {"name": "Farbige Zuckerstreusel", "standardAmount": "85 g"},
+    "w-fr-009-i8": {"name": "Puderzucker", "standardAmount": "60 g"}
+  },
+  "instructions": {
+    "1": "Schokolade, Sahne und Butter in eine hitzefeste Schüssel geben und 4-mal je 30 Sekunden in der Mikrowelle erhitzen, dazwischen rühren.",
+    "2": "Schüssel abdecken, 5 Minuten stehen lassen und glatt rühren – die Ganache ist fertig.",
+    "3": "6 Stunden im Kühlschrank fest werden lassen. Nicht einfrieren.",
+    "4": "Den Teller für die Trüffel ebenfalls kühlen.",
+    "5": "Nach 6 Stunden mit einem Teelöffel kleine Kugeln formen.",
+    "6": "In Kokos, Kakao, Erdnüssen, Streuseln oder Puderzucker wälzen.",
+    "7": "Auf dem kalten Teller vollständig fest werden lassen."
+  },
+  "culturalNotes": "Ganache ist die geschmeidige Mischung aus Schokolade und Sahne und das Herz vieler französischer Konfekte."
+},
+"w-fr-010": {
+  "title": "Gratin Dauphinois",
+  "ingredients": {
+    "w-fr-010-i1": {"name": "Kartoffeln", "standardAmount": "750 g"},
+    "w-fr-010-i2": {"name": "Knoblauch", "standardAmount": "2–3 Zehen (gehackt)"},
+    "w-fr-010-i3": {"name": "Vollmilch", "standardAmount": "275 ml"},
+    "w-fr-010-i4": {"name": "Schlagsahne", "standardAmount": "150 ml"},
+    "w-fr-010-i5": {"name": "Muskatnuss", "standardAmount": "¼ TL"},
+    "w-fr-010-i6": {"name": "Salz und schwarzer Pfeffer", "standardAmount": "nach Geschmack"},
+    "w-fr-010-i7": {"name": "Frischer Thymian", "standardAmount": "½ TL"},
+    "w-fr-010-i8": {"name": "Butter", "standardAmount": "etwas (für die Form)"},
+    "w-fr-010-i9": {"name": "Emmentaler oder Gruyère", "standardAmount": "100 g (optional)"}
+  },
+  "instructions": {
+    "1": "Kartoffeln schälen (oder mit Schale) und in 3 mm dicke Scheiben schneiden.",
+    "2": "Backofen auf 190 °C (Umluft 170 °C) vorheizen.",
+    "3": "Milch, Sahne und Knoblauch aufkochen, Hitze reduzieren und Muskat, Salz, Pfeffer und Kartoffeln zugeben.",
+    "4": "Ca. 5 Minuten köcheln und die Scheiben wenden. Käse kann hier zugegeben werden.",
+    "5": "Form buttern und Kartoffeln gleichmäßig einschichten.",
+    "6": "Ca. 45 Minuten goldbraun backen."
+  },
+  "culturalNotes": "Traditionelles Gericht aus dem Dauphiné: feine Kartoffelscheiben in Milch und Sahne mit Muskat überbacken."
+},
+"w-fr-011": {
+  "title": "Pain d'Épices (Gewürzkuchen)",
+  "ingredients": {
+    "w-fr-011-i1": {"name": "Wasser", "standardAmount": "250 ml"},
+    "w-fr-011-i2": {"name": "Honig", "standardAmount": "255 g"},
+    "w-fr-011-i3": {"name": "Kardamomkapseln", "standardAmount": "4"},
+    "w-fr-011-i4": {"name": "Nelken", "standardAmount": "2"},
+    "w-fr-011-i5": {"name": "Sternanis", "standardAmount": "2"},
+    "w-fr-011-i6": {"name": "Rohrzucker", "standardAmount": "100 g"},
+    "w-fr-011-i7": {"name": "Ungesalzene Butter", "standardAmount": "155 g"},
+    "w-fr-011-i8": {"name": "Roggenmehl", "standardAmount": "255 g"},
+    "w-fr-011-i9": {"name": "Backpulver", "standardAmount": "2 TL"},
+    "w-fr-011-i10": {"name": "Salz", "standardAmount": "1 kräftige Prise"},
+    "w-fr-011-i11": {"name": "Lebkuchengewürz", "standardAmount": "1½ TL"},
+    "w-fr-011-i12": {"name": "Trockenfrüchte", "standardAmount": "1 EL"}
+  },
+  "instructions": {
+    "1": "Kastenform buttern und Ofen auf 180 °C (Umluft 160 °C) vorheizen.",
+    "2": "Wasser, Honig, Zucker und Gewürze in einem Topf aufkochen, Butter darin schmelzen, vom Herd nehmen und 5 Minuten ziehen lassen.",
+    "3": "Roggenmehl, Backpulver, Salz und Lebkuchengewürz in einer Schüssel mischen und die warme Honigmischung nach und nach glatt einrühren.",
+    "4": "Form zu ¾ füllen und 40–50 Minuten tief goldbraun backen. Ein Stäbchen muss sauber herauskommen.",
+    "5": "10 Minuten in der Form abkühlen, dann auf ein Gitter stürzen. Mit Trockenfrüchten und Sternanis dekorieren."
+  },
+  "culturalNotes": "Pain d'Épices ist ein traditioneller französischer Gewürzkuchen mit warmem Aroma."
+},
+"w-fr-012": {
+  "title": "Pissaladière",
+  "ingredients": {
+    "w-fr-012-i1": {"name": "Olivenöl", "standardAmount": "4 EL + etwas für die Form"},
+    "w-fr-012-i2": {"name": "Zwiebeln", "standardAmount": "1 kg (in hauchdünnen Scheiben)"},
+    "w-fr-012-i3": {"name": "Thymian", "standardAmount": "1 kleines Bündel"},
+    "w-fr-012-i4": {"name": "Lorbeerblätter", "standardAmount": "2"},
+    "w-fr-012-i5": {"name": "Sardellenfilets", "standardAmount": "80 g (abgetropft)"},
+    "w-fr-012-i6": {"name": "Schwarze Oliven", "standardAmount": "80 g (entsteint)"},
+    "w-fr-012-i7": {"name": "Parmesan", "standardAmount": "20 g (gerieben)"},
+    "w-fr-012-i8": {"name": "Kalte ungesalzene Butter", "standardAmount": "200 g"},
+    "w-fr-012-i9": {"name": "Zitronensaft", "standardAmount": "1 TL"},
+    "w-fr-012-i10": {"name": "Weizenmehl (Type 550)", "standardAmount": "200 g + zum Bearbeiten"},
+    "w-fr-012-i11": {"name": "Salz", "standardAmount": "1 TL"},
+    "w-fr-012-i12": {"name": "Eiswasser", "standardAmount": "125 ml"}
+  },
+  "instructions": {
+    "1": "Teig: Butter grob reiben, mit Mehl bestreuen in eine Schüssel geben und 30 Minuten einfrieren (oder 1 Stunde kühlen).",
+    "2": "Zitronensaft in 125 ml Eiswasser rühren. Restliches Mehl und Salz in eine große Schüssel geben, gefrorene Butter einstreuen und mit den Fingerspitzen vermischen.",
+    "3": "Zwei Drittel des Zitronenwassers zugießen und mit einem Messer zusammenführen. Bei Bedarf etwas mehr zugeben. Der Teig ist bröckelig, lässt sich aber zusammendrücken.",
+    "4": "Auf bemehlte Fläche geben, leicht zu einem groben Rechteck kneten, einwickeln und 20 Minuten kühlen.",
+    "5": "Zu einem 20×30-cm-Rechteck ausrollen. Butterstreifen bleiben sichtbar.",
+    "6": "Öl in einem großen Topf bei mittlerer Hitze erhitzen, Zwiebeln mit Salz, Thymian und Lorbeer zugeben und 40–45 Minuten unter Rühren zu einer tief goldbraunen, marmeladigen Masse schmoren. Abkühlen lassen.",
+    "7": "Blech leicht ölen, Teig auf 25×35 cm ausrollen, einlegen, Rand formen und 20 Minuten kühlen.",
+    "8": "Ofen auf 220 °C (Umluft 200 °C) heizen. Zwiebeln verteilen, Sardellen rautenförmig auflegen, Oliven in die Mitte setzen. Parmesan bestreuen und 30 Minuten backen.",
+    "9": "Mit Thymian bestreuen, 10 Minuten ruhen lassen und in Quadrate schneiden."
+  },
+  "culturalNotes": "Pissaladière ist eine Spezialität aus der Provence: dünner Teig mit geschmorten Zwiebeln, Sardellen und schwarzen Oliven."
+},
+"w-fr-013": {
+  "title": "Ratatouille",
+  "ingredients": {
+    "w-fr-013-i1": {"name": "Olivenöl", "standardAmount": "⅓–¼ Tasse"},
+    "w-fr-013-i2": {"name": "Zwiebel", "standardAmount": "1 große (in feinen Scheiben)"},
+    "w-fr-013-i3": {"name": "Rote Paprika", "standardAmount": "1 (in mundgerechten Stücken)"},
+    "w-fr-013-i4": {"name": "Gelbe Paprika", "standardAmount": "1 (in mundgerechten Stücken)"},
+    "w-fr-013-i5": {"name": "Knoblauch", "standardAmount": "6 Zehen (in feinen Scheiben)"},
+    "w-fr-013-i6": {"name": "Zucchini", "standardAmount": "680 g (in Scheiben)"},
+    "w-fr-013-i7": {"name": "Aubergine", "standardAmount": "1 kleine (gewürfelt)"},
+    "w-fr-013-i8": {"name": "Roma-Tomaten", "standardAmount": "4 (grob gehackt)"},
+    "w-fr-013-i9": {"name": "Frischer Rosmarin", "standardAmount": "¼ TL (gehackt)"},
+    "w-fr-013-i10": {"name": "Frischer Thymian", "standardAmount": "1 TL (gehackt)"},
+    "w-fr-013-i11": {"name": "Salz", "standardAmount": "nach Geschmack"},
+    "w-fr-013-i12": {"name": "Pfeffer", "standardAmount": "nach Geschmack"}
+  },
+  "instructions": {
+    "1": "Einen großen Topf oder eine Pfanne stark erhitzen.",
+    "2": "Olivenöl, Zwiebel und Paprika zugeben und braten, bis sie Farbe annehmen.",
+    "3": "Knoblauch, Zucchini und Aubergine zugeben und braten, bis sie Farbe annehmen.",
+    "4": "Tomaten, Rosmarin, Thymian, Salz und Pfeffer untermischen.",
+    "5": "Warm oder kalt servieren."
+  },
+  "culturalNotes": "Ratatouille ist das bekannteste französische Gemüsegericht aus sommerlichem Gemüse."
+},
+"w-fr-014": {
+  "title": "Salade Niçoise",
+  "ingredients": {
+    "w-fr-014-i1": {"name": "Knoblauch", "standardAmount": "1 Zehe"},
+    "w-fr-014-i2": {"name": "Salz", "standardAmount": "nach Geschmack"},
+    "w-fr-014-i3": {"name": "Olivenöl", "standardAmount": "80 ml"},
+    "w-fr-014-i4": {"name": "Frischer Zitronensaft", "standardAmount": "2 EL"},
+    "w-fr-014-i5": {"name": "Dijon-Senf", "standardAmount": "1 EL"},
+    "w-fr-014-i6": {"name": "Schalotte", "standardAmount": "1 (fein gehackt)"},
+    "w-fr-014-i7": {"name": "Schwarzer Pfeffer", "standardAmount": "nach Geschmack"},
+    "w-fr-014-i8": {"name": "Kleine neue Kartoffeln", "standardAmount": "450 g (gekocht)"},
+    "w-fr-014-i9": {"name": "Grüne Bohnen", "standardAmount": "225 g (blanchiert)"},
+    "w-fr-014-i10": {"name": "Kirschtomaten", "standardAmount": "340 g (halbiert)"},
+    "w-fr-014-i11": {"name": "Schwarze Oliven (Niçoise)", "standardAmount": "120 ml"},
+    "w-fr-014-i12": {"name": "Marinierte Artischocken", "standardAmount": "225 g"},
+    "w-fr-014-i13": {"name": "Sardellen", "standardAmount": "8 Filets (abgespült, abgetropft)"},
+    "w-fr-014-i14": {"name": "Gekochte Eier", "standardAmount": "4 (halbiert)"},
+    "w-fr-014-i15": {"name": "Gurke", "standardAmount": "1 kleine (in feinen Scheiben)"},
+    "w-fr-014-i16": {"name": "Thunfisch in Öl", "standardAmount": "3 Dosen à 115 g (abgetropft)"},
+    "w-fr-014-i17": {"name": "Rote Zwiebel", "standardAmount": "½ (in feinen Scheiben)"}
+  },
+  "instructions": {
+    "1": "Dressing: Knoblauch hacken, salzen und mit dem Messerrücken zu einer glatten Paste zerreiben. In eine Schüssel geben und Öl, Zitronensaft, Senf, Schalotte, Salz und Pfeffer einrühren.",
+    "2": "Salat: Alle Zutaten in Reihen auf einer großen Platte anrichten, mit Dressing beträufeln und mit Salz und Pfeffer abschmecken."
+  },
+  "culturalNotes": "Salade Niçoise ist die traditionelle Salatkomposition aus Nizza mit buntem Gemüse und Fisch."
+},
+"w-vn-001": {
+  "title": "Bò Bía (Vietnamesische Frühlingsrollen mit Yamswurzel)",
+  "ingredients": {
+    "w-vn-001-i1": {"name": "Getrocknete Garnelen", "standardAmount": "½ Tasse"},
+    "w-vn-001-i2": {"name": "Yamswurzel (Jicama)", "standardAmount": "1 große"},
+    "w-vn-001-i3": {"name": "Möhre", "standardAmount": "1 mittlere"},
+    "w-vn-001-i4": {"name": "Schalotten", "standardAmount": "4 große"},
+    "w-vn-001-i5": {"name": "Halal-Rinderwurst nach chinesischer Art", "standardAmount": "4"},
+    "w-vn-001-i6": {"name": "Eier", "standardAmount": "5"},
+    "w-vn-001-i7": {"name": "Meersalz", "standardAmount": "½ TL"},
+    "w-vn-001-i8": {"name": "Thaibasilikum", "standardAmount": "1 kleiner Bund"},
+    "w-vn-001-i9": {"name": "Getrocknetes Reispapier", "standardAmount": "1 Packung"},
+    "w-vn-001-i10": {"name": "Pflanzenöl", "standardAmount": "3 EL"}
+  },
+  "instructions": {
+    "1": "Getrocknete Garnelen 10 Minuten in heißem Wasser einweichen, bis sie weich sind, dann abgießen.",
+    "2": "Yamswurzel schälen und in Streifen schneiden. Möhre schälen, schräg in Scheiben und dann in Streifen schneiden. Schalotten schälen und fein schneiden.",
+    "3": "Etwa 1 EL Öl in der Pfanne bei starker Hitze erhitzen. Schalotten zugeben und ca. 20 Sekunden braten. Garnelen zugeben und weitere 20 Sekunden braten. Yamswurzel und Möhren zugeben, gleichmäßig braten und ca. 15 Minuten garen, bis sie weich sind. Mit Salz würzen und in eine Schüssel geben.",
+    "4": "Wasser in einer großen beschichteten Pfanne aufkochen und die Wurst ca. 5 Minuten kochen. Herausnehmen, abkühlen lassen und schräg in dünne Scheiben schneiden.",
+    "5": "Etwa 1 EL Öl in der leeren Pfanne bei mittlerer bis hoher Hitze erhitzen und mit einem Pinsel oder durch Schwenken verteilen. Die Hälfte der verquirlten Eier eingießen und zu einer dünnen Schicht schwenken. Ca. 30 Sekunden stocken lassen und auf einen Teller gleiten lassen. Mit weiterem Öl und dem restlichen Ei wiederholen. Beide Eierpfannkuchen übereinanderlegen, aufrollen und in feine Streifen schneiden.",
+    "6": "Reispapier kurz in Wasser tauchen und auf einen großen Teller legen. Unten einige Basilikumblätter auflegen, dann die Yams-Möhren-Garnelen-Mischung. Einige Eistreifen und Wurstscheiben darauflegen. Von unten bis zur Hälfte aufrollen, die Seiten einschlagen und fertig rollen.",
+    "7": "Mit Erdnusssauce servieren."
+  },
+  "culturalNotes": "Diese vietnamesischen Frühlingsrollen heißen auch Bì cuốn und werden als Vorspeise oder leichte Mahlzeit serviert."
+},
+"w-vn-002": {
+  "title": "Bò Nướng Lá Lốt (Gegrilltes Rindfleisch im Betelblatt)",
+  "ingredients": {
+    "w-vn-002-i1": {"name": "Fettes Rinderhack", "standardAmount": "340 g"},
+    "w-vn-002-i2": {"name": "Fein gehackte Schalotten", "standardAmount": "2 EL"},
+    "w-vn-002-i3": {"name": "Fein gehackter Knoblauch", "standardAmount": "1 EL"},
+    "w-vn-002-i4": {"name": "Schwarzer Pfeffer", "standardAmount": "¼ TL"},
+    "w-vn-002-i5": {"name": "Zucker", "standardAmount": "½ TL"},
+    "w-vn-002-i6": {"name": "Fischsauce", "standardAmount": "2 TL"},
+    "w-vn-002-i7": {"name": "Austernsauce", "standardAmount": "1 EL"},
+    "w-vn-002-i8": {"name": "Hühnerbouillonpulver", "standardAmount": "½ TL"},
+    "w-vn-002-i9": {"name": "Glutamat (optional)", "standardAmount": "¼ TL"},
+    "w-vn-002-i10": {"name": "Wilde Betelblätter", "standardAmount": "25–30"}
+  },
+  "instructions": {
+    "1": "Blätter gründlich waschen und mit Küchenpapier trocken tupfen. Ein kleines Stück Stiel belassen, um die Röllchen zu fixieren.",
+    "2": "In einer großen Schüssel Hackfleisch mit Schalotten, Knoblauch, Pfeffer, Zucker, Fischsauce, Austernsauce, Bouillonpulver und Glutamat (optional) vermischen.",
+    "3": "Ein Blatt mit der glänzenden Seite nach unten legen, das schmale Ende unten. Ca. 2 EL Füllung in die Mitte geben, das schmale Ende über die Füllung klappen und vorsichtig aufrollen. Den Stiel in das Röllchen stechen, damit es sich nicht öffnet. Ist der Stiel zu weich, mit einem kleinen Messer ein Loch stechen und den Stiel einführen. Mit dem Stiel nach unten ablegen. Mit den restlichen Blättern wiederholen.",
+    "4": "Die Röllchen für Raucharoma grillen oder mit etwas Pflanzenöl ca. 2 Minuten pro Seite braten.",
+    "5": "In einer Schüssel mit feinen Reisnudeln, geschnittenem Salat und vietnamesischen Kräutern servieren. Mit gerösteten Erdnüssen und Fischsauce-Dip belegen. Alternativ mit Reispapier zum Selberwickeln reichen."
+  },
+  "culturalNotes": "Rindfleisch im Betelblatt ist ein traditionelles vietnamesisches Gericht für besondere Anlässe."
+},
+"w-vn-003": {
+  "title": "Pandan-Waffeln (Bánh Kếp Lá Dứa)",
+  "ingredients": {
+    "w-vn-003-i1": {"name": "Butter", "standardAmount": "2 EL"},
+    "w-vn-003-i2": {"name": "Reismehl", "standardAmount": "1½ Tassen"},
+    "w-vn-003-i3": {"name": "Tapiokastärke", "standardAmount": "½ Tasse"},
+    "w-vn-003-i4": {"name": "Weizenmehl", "standardAmount": "½ Tasse"},
+    "w-vn-003-i5": {"name": "Backpulver", "standardAmount": "1 EL"},
+    "w-vn-003-i6": {"name": "Salz", "standardAmount": "¼ TL"},
+    "w-vn-003-i7": {"name": "Eier", "standardAmount": "2 große"},
+    "w-vn-003-i8": {"name": "Zucker", "standardAmount": "½ Tasse"},
+    "w-vn-003-i9": {"name": "Kokosmilch", "standardAmount": "1½ Tassen"},
+    "w-vn-003-i10": {"name": "Pandanpaste", "standardAmount": "¾ TL"}
+  },
+  "instructions": {
+    "1": "Butter in der Mikrowelle auf niedriger Stufe 30–45 Sekunden schmelzen. Verrühren und abkühlen lassen.",
+    "2": "Reismehl, Tapioka, Mehl, Backpulver und Salz in einen großen Messbecher oder eine Schüssel sieben.",
+    "3": "In einer großen Schüssel Eier und Zucker größtenteils verquirlen. Kokosmilch, geschmolzene Butter und Pandanpaste zugeben und gut verrühren.",
+    "4": "Die Hälfte der trockenen Zutaten zu den feuchten geben und grob einarbeiten. Rest zugeben und vorsichtig weiter rühren, große Klumpen zerteilen. Teig 15 Minuten ruhen lassen.",
+    "5": "Waffeleisen auf höchste Stufe heizen. Ca. ⅔ Tasse Teig eingießen und mit einem Spatel gleichmäßig verteilen. Deckel schließen und 4–5 Minuten goldbraun backen.",
+    "6": "Waffel mit einem Bambusspieß anheben und mit einer Zange auf ein Kuchengitter legen.",
+    "7": "Heiß servieren."
+  },
+  "culturalNotes": "Pandan-Waffeln sind ein traditionelles vietnamesisches Dessert mit Pandan- und Kokosaroma."
+},
+"w-vn-004": {
+  "title": "Bánh pía",
+  "ingredients": {
+    "w-vn-004-i1": {"name": "Weizenmehl", "standardAmount": "500 g"},
+    "w-vn-004-i2": {"name": "Zucker", "standardAmount": "250 g"},
+    "w-vn-004-i3": {"name": "Pflanzenöl", "standardAmount": "100 ml"},
+    "w-vn-004-i4": {"name": "Eier", "standardAmount": "2"},
+    "w-vn-004-i5": {"name": "Milch", "standardAmount": "100 ml"},
+    "w-vn-004-i6": {"name": "Salz", "standardAmount": "½ TL"},
+    "w-vn-004-i7": {"name": "Puddingfüllung", "standardAmount": "400 g"}
+  },
+  "instructions": {
+    "1": "Mehl, Zucker und Salz in einer großen Schüssel mischen.",
+    "2": "Eier, Milch und Öl zugeben und zu einem glatten Teig verarbeiten.",
+    "3": "Teig abdecken und 30 Minuten ruhen lassen.",
+    "4": "Teig in 12 gleiche Stücke teilen und zu Kugeln formen.",
+    "5": "In die Mitte jeder Kugel Füllung geben und mit Teig umschließen.",
+    "6": "In Bánh-pía-Formen setzen und in den auf 180 °C vorgeheizten Ofen geben.",
+    "7": "20–25 Minuten goldbraun backen."
+  },
+  "culturalNotes": "Bánh pía ist ein traditionelles vietnamesisches Blätterteiggebäck für besondere Anlässe."
+},
+"w-vn-005": {
+  "title": "Bánh Tráng Trộn (Vietnamesischer Reispapier-Salat)",
+  "ingredients": {
+    "w-vn-005-i1": {"name": "Tamarindenmark", "standardAmount": "100 g"},
+    "w-vn-005-i2": {"name": "Pflanzenöl", "standardAmount": "4 EL"},
+    "w-vn-005-i3": {"name": "Knoblauchzehen", "standardAmount": "6"},
+    "w-vn-005-i4": {"name": "Fischsauce", "standardAmount": "2 EL"},
+    "w-vn-005-i5": {"name": "Zucker", "standardAmount": "3 EL"},
+    "w-vn-005-i6": {"name": "Glutamat (optional)", "standardAmount": "½ TL"},
+    "w-vn-005-i7": {"name": "Chiliflocken (optional)", "standardAmount": "1 EL"},
+    "w-vn-005-i8": {"name": "Getrockneter Tintenfisch", "standardAmount": "200 g"},
+    "w-vn-005-i9": {"name": "Getrocknete Garnelen", "standardAmount": "100 g"},
+    "w-vn-005-i10": {"name": "Rinder-Jerky", "standardAmount": "100 g"},
+    "w-vn-005-i11": {"name": "Getrocknetes Reispapier", "standardAmount": "170 g"},
+    "w-vn-005-i12": {"name": "Vietnamesisches Chiliöl", "standardAmount": "nach Geschmack"},
+    "w-vn-005-i13": {"name": "Vietnamesisches Frühlingszwiebelöl", "standardAmount": "nach Geschmack"},
+    "w-vn-005-i14": {"name": "Grüne Mango", "standardAmount": "1"},
+    "w-vn-005-i15": {"name": "Gekochte Wachteleier", "standardAmount": "10"},
+    "w-vn-005-i16": {"name": "Frittierte Schalotten", "standardAmount": "nach Geschmack"},
+    "w-vn-005-i17": {"name": "Ungesalzene geröstete Erdnüsse", "standardAmount": "¼ Tasse"},
+    "w-vn-005-i18": {"name": "Vietnamesischer Koriander (Rau răm)", "standardAmount": "2 Tassen"}
+  },
+  "instructions": {
+    "1": "Tamarinde 15 Minuten in 2 Tassen heißem Wasser einweichen, durch ein feines Sieb streichen und das Mark verwerfen.",
+    "2": "Öl in einem kleinen Topf bei mittlerer bis hoher Hitze erhitzen. Knoblauch ca. 15 Sekunden braten. Tamarinde, Fischsauce, Zucker, Glutamat und Chiliflocken zugeben und verrühren. 1 Minute schwach köcheln. In eine kleine Schüssel füllen.",
+    "3": "Pflanzenöl in einer mittleren Pfanne bei mittlerer bis hoher Hitze erhitzen. Tintenfisch 30 Sekunden frittieren; er rollt sich, mit Stäbchen oder Löffel andrücken. Wenden und weitere 30 Sekunden frittieren. Herausnehmen. Nach dem Abkühlen von Hand in lange Streifen zupfen.",
+    "4": "Im selben Öl die Garnelen ca. 1 Minute braten und herausnehmen.",
+    "5": "Jerky von Hand in feine Streifen zupfen.",
+    "6": "Reispapier in eine große Schüssel geben. Tamarindensauce, Chiliöl und Frühlingszwiebelöl zugeben und gut mischen, damit das Papier die Sauce aufnimmt. Es wirkt zunächst trocken, wird aber weich.",
+    "7": "Jerky, Tintenfisch, Garnelen, grüne Mango und Wachteleier zugeben und kurz mischen.",
+    "8": "Mit frittierten Schalotten, Erdnüssen und vietnamesischem Koriander garnieren."
+  },
+  "culturalNotes": "Bánh Tráng Trộn ist ein beliebter vietnamesischer Snack, der als Vorspeise oder leichte Mahlzeit dient."
+},
+"w-vn-006": {
+  "title": "Chè Trôi Nước (Klebreisbällchen in Ingwersirup)",
+  "ingredients": {
+    "w-vn-006-i1": {"name": "Klebreismehl", "standardAmount": "450 g"},
+    "w-vn-006-i2": {"name": "Heißes Wasser", "standardAmount": "1¾ Tassen"},
+    "w-vn-006-i3": {"name": "Geschälte Mungobohnen", "standardAmount": "¾ Tasse"},
+    "w-vn-006-i4": {"name": "Zucker", "standardAmount": "2 TL"},
+    "w-vn-006-i5": {"name": "Salz", "standardAmount": "1 TL"},
+    "w-vn-006-i6": {"name": "Wasser", "standardAmount": "6 Tassen"},
+    "w-vn-006-i7": {"name": "Frischer Ingwer", "standardAmount": "10 cm"},
+    "w-vn-006-i8": {"name": "Palmzucker", "standardAmount": "280 g"},
+    "w-vn-006-i9": {"name": "Kokosmilch", "standardAmount": "optional"},
+    "w-vn-006-i10": {"name": "Gerösteter Sesam", "standardAmount": "¼ Tasse"}
+  },
+  "instructions": {
+    "1": "Klebreismehl und heißes Wasser in einer großen Schüssel zu einem glatten Teig kneten. Kein weiteres Wasser zugeben. Abdecken und 30 Minuten ruhen lassen.",
+    "2": "Teig in 28 Kugeln von ca. 2,5 cm teilen.",
+    "3": "Mungobohnen waschen, bis das Wasser klar ist. In einem mittleren Topf mit 2,5 cm Wasser bedecken, bei mittlerer Hitze aufkochen und bei reduzierter Hitze weich, aber formstabil kochen (ca. 15 Minuten). Sorgfältig überwachen, damit nichts überkocht. Abgießen, auf den ausgeschalteten Herd zurückstellen und Restfeuchtigkeit verdampfen lassen. Salz und Zucker zugeben und mit einem großen Löffel zu einer groben Paste zerdrücken.",
+    "4": "Füllung zu kleinen Kugeln von ca. 1,2 cm rollen (ca. 28 Stück). Ist die Masse zu weich, kurz kühlen.",
+    "5": "Teigkugeln zu dicken Scheiben flachdrücken, eine Füllkugel in die Mitte setzen, Teig darüberschließen und in der Handfläche glatt rollen. Keine Füllung austreten lassen, sonst zerfallen die Bällchen beim Kochen. Restteig zu kleinen Perlen ohne Füllung formen. Abgedeckt aufbewahren.",
+    "6": "In einem großen Topf Wasser mit Palmzucker aufkochen, bis der Zucker gelöst ist. Ingwer mit einem Löffel schälen und in feine Streifen schneiden. Teigbällchen vorsichtig in den Sirup geben und bei mittlerer bis niedriger Hitze sanft köcheln, bis sie aufschwimmen (ca. 20 Minuten).",
+    "7": "Nach Wunsch Kokosmilchsauce zubereiten.",
+    "8": "Einige Bällchen mit Sirup in eine Schüssel geben, mit Kokossauce beträufeln und mit Sesam bestreuen. Warm oder bei Zimmertemperatur genießen."
+  },
+  "culturalNotes": "Chè Trôi Nước ist ein traditionelles vietnamesisches Dessert für Feste und Feierlichkeiten."
+},
+"w-vn-007": {
+  "title": "Grasgelee (Thạch Sương Sáo)",
+  "ingredients": {
+    "w-vn-007-i1": {"name": "Grasgelee-Pulver", "standardAmount": "50 g"},
+    "w-vn-007-i2": {"name": "Zucker", "standardAmount": "⅓ Tasse"},
+    "w-vn-007-i3": {"name": "Wasser", "standardAmount": "4 Tassen (geteilt)"}
+  },
+  "instructions": {
+    "1": "Grasgelee-Pulver in einen mittleren Topf geben. Zucker und 2 Tassen Wasser zugeben und rühren, bis das Pulver gelöst ist.",
+    "2": "Die restlichen 2 Tassen Wasser zugeben und gut verrühren.",
+    "3": "Die Mischung 10 Minuten ruhen lassen.",
+    "4": "Bei mittlerer Hitze erhitzen und mit einem Spatel rühren, dabei den Topfboden abschaben, wo sich das Pulver absetzt.",
+    "5": "Nach 3–4 Minuten dickt die Mischung ein und wird klumpig. Mit dem Schneebesen rasch glatt rühren und weiter rühren, bis sie sanft kocht. Herd ausschalten und 1 Minute weiter rühren, bis alles glatt ist.",
+    "6": "In ein hitzefestes Gefäß füllen und Blasen mit einem Zahnstocher zerstechen oder abschöpfen.",
+    "7": "Bei Zimmertemperatur 1–1,5 Stunden abkühlen lassen.",
+    "8": "Mindestens 2 Stunden in den Kühlschrank stellen.",
+    "9": "Zum Entformen das Gefäß auf ein großes Brett stürzen und das Gelee würfeln.",
+    "10": "Zum Servieren etwas Crushed Ice in eine Dessertschale geben, Geleewürfel daraufgeben und mit etwas Zucker bestreuen.",
+    "11": "Alternativ mit einem Wellenmesser klein schneiden und in ein gekühltes Getränk geben.",
+    "12": "Restliches Gelee hält sich bis zu 1 Woche im Kühlschrank."
+  },
+  "culturalNotes": "Grasgelee ist ein traditionelles vietnamesisches Dessert und wird an heißen Tagen als erfrischender Snack genossen."
 }
 }
