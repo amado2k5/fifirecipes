@@ -29,6 +29,30 @@
         "scripts/recipe-images/dashboard.py"
       ],
       "port": 8765
+    },
+    {
+      "name": "cookwala-sim",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4321",
+        "--directory",
+        "../cookwala"
+      ],
+      "port": 4321
+    },
+    {
+      "name": "cookwala-site",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4322",
+        "--directory",
+        "/private/tmp/claude-501/-Users-ahmedabdelaal-Documents-GitHub-fifirecipes/8ed6937e-4a2e-492e-87d7-e27c54e5c0bf/scratchpad/_site"
+      ],
+      "port": 4322
     }
   ]
 }
