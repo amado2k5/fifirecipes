@@ -28,29 +28,29 @@ ROOT = Path(__file__).resolve().parents[2]
 
 # Stems (prefix match within a word) per language. Keep them specific.
 TERMS = {
-    'Es': r'cerdo|puerco|tocino|manteca de cerdo|jam[oó]n|chorizo|vino|cerveza|ron|jerez|licor|tequila',
-    'Fr': r'porc|lardons?|saindoux|jambon|vin|bi[eè]re|rhum|liqueur|cognac',
-    'De': r'schwein\w*|speck|schmalz|schinken|wein|bier|rum|lik[oö]r|weinbrand',
-    'It': r'maiale|lardo|pancetta|prosciutto|guanciale|salsiccia di maiale|vino|birra|rum|liquore|grappa|marsala',
-    'Nl': r'varken\w*|spek|reuzel|ham|wijn|bier|rum|likeur',
-    'Pt': r'porco|toucinho|banha de porco|presunto|vinho|cerveja|rum|licor|cacha[cç]a',
-    'Pl': r'wieprz\w*|boczek|smalec(?! kacz)|szynk\w*|win[oa]|piw\w*|rum|likier\w*|w[oó]dk\w*',
-    'Sv': r'fl[aä]sk\w*|gris\w*|bacon|ister|skinka|vin|[oö]l|rom|lik[oö]r|tj[aä]der',
-    'Tr': r'domuz|jambon|[şs]arap|bira|rom|lik[oö]r|rak[ıi]',
-    'Id': r'babi(?! laut)|lemak babi|ham|anggur merah|bir|rum|arak|tuak',
-    'Sw': r'nguruwe|bekoni|divai|mvinyo|bia|pombe|ramu',
-    'Ku': r'beraz|[şs]erab|b[iî]re|araq',  # not "bîra": also "memory"
-    'Ru': r'свин\w*|сало|бекон|ветчин\w*|вин[оа]|пив\w*|ром|ликёр\w*|водк\w*|коньяк\w*|медвеж\w*',
-    'El': r'χοιρ\w*|μπέικον|ζαμπόν|κρασ[ίι]\w*|μπύρα|ρούμι|λικέρ|ούζο|αρκούδ\w*',
-    'He': r'חזיר|בייקון|שומן חזיר|יין|בירה|רום|ליקר|דוב',
-    'Fa': r'خوک|گوشت خوک|بیکن|ژامبون|شراب|آبجو|الکل|عرق|خرس',
-    'Ur': r'سور|خنزیر|بیکن|شراب|بیئر|الکحل|تاڑی|بھنگ|ریچھ',
-    'Ps': r'خنزیر|سوږر|بیکن|شراب|بیر|الکول|خرس',
-    'Hi': r'सूअर|पोर्क|बेकन|हैम|शराब|वाइन|बीयर|रम|ताड़ी|भांग|भालू',
-    'Te': r'పంది|బేకన్|హామ్|వైన్|బీర్|మద్యం|సారాయి|కల్లు|ఎలుగుబంటి',
-    'Ja': r'豚|ポーク|ベーコン|ハム|ラード|日本酒|料理酒|みりん|味醂|ワイン|ビール|ラム酒|焼酎|熊',
-    'Zh': r'猪|豬|培根|火腿|猪油|料酒|黄酒|米酒|白酒|啤酒|葡萄酒|朗姆|熊',
-    'Ko': r'돼지|베이컨|햄|라드|청주|정종|맛술|미림|소주|와인|맥주|럼주|곰고기',
+    'Es': r'cerdo|puerco|tocino|manteca de cerdo|jam[oó]n|chorizo|vino|cerveza|ron|jerez|licor|tequila|caballo|perro',
+    'Fr': r'porc|lardons?|saindoux|jambon|vin|bi[eè]re|rhum|liqueur|cognac|cheval|chien',
+    'De': r'schwein\w*|speck|schmalz|schinken|wein|bier|rum|lik[oö]r|weinbrand|pferd\w*|hund\w*',
+    'It': r'maiale|lardo|pancetta|prosciutto|guanciale|salsiccia di maiale|vino|birra|rum|liquore|grappa|marsala|cavallo|cane',
+    'Nl': r'varken\w*|spek|reuzel|ham|wijn|bier|rum|likeur|paard\w*|hond\w*',
+    'Pt': r'porco|toucinho|banha de porco|presunto|vinho|cerveja|rum|licor|cacha[cç]a|cavalo|cachorro|c[aã]o',
+    'Pl': r'wieprz\w*|boczek|smalec(?! kacz)|szynk\w*|win[oa]|piw\w*|rum|likier\w*|w[oó]dk\w*|konin\w*|psie mięso',
+    'Sv': r'fl[aä]sk\w*|gris\w*|bacon|ister|skinka|vin|[oö]l|rom|lik[oö]r|tj[aä]der|hästkött|hundkött',
+    'Tr': r'domuz|jambon|[şs]arap|bira|rom|lik[oö]r|rak[ıi]|at eti|k[oö]pek',
+    'Id': r'babi(?! laut)|lemak babi|ham|anggur merah|bir|rum|arak|tuak|kuda|anjing',
+    'Sw': r'nguruwe|bekoni|divai|mvinyo|bia|pombe|ramu|farasi|mbwa',
+    'Ku': r'beraz|[şs]erab|b[iî]re|araq|hesp|kûçik|se',  # not "bîra": also "memory"
+    'Ru': r'свин\w*|сало|бекон|ветчин\w*|вин[оа]|пив\w*|ром|ликёр\w*|водк\w*|коньяк\w*|медвеж\w*|конин\w*|собач\w*',
+    'El': r'χοιρ\w*|μπέικον|ζαμπόν|κρασ[ίι]\w*|μπύρα|ρούμι|λικέρ|ούζο|αρκούδ\w*|άλογ\w*|σκύλ\w*',
+    'He': r'חזיר|בייקון|שומן חזיר|יין|בירה|רום|ליקר|דוב|סוס|כלב',
+    'Fa': r'خوک|گوشت خوک|بیکن|ژامبون|شراب|آبجو|الکل|عرق|خرس|اسب|سگ',
+    'Ur': r'سور|خنزیر|بیکن|شراب|بیئر|الکحل|تاڑی|بھنگ|ریچھ|گھوڑ\w*|کت[اے]',
+    'Ps': r'خنزیر|سوږر|بیکن|شراب|بیر|الکول|خرس|آس|سپی',
+    'Hi': r'सूअर|पोर्क|बेकन|हैम|शराब|वाइन|बीयर|रम|ताड़ी|भांग|भालू|घोड़\w*|कुत्त\w*',
+    'Te': r'పంది|బేకన్|హామ్|వైన్|బీర్|మద్యం|సారాయి|కల్లు|ఎలుగుబంటి|గుర్రం|కుక్క',
+    'Ja': r'豚|ポーク|ベーコン|ハム|ラード|日本酒|料理酒|みりん|味醂|ワイン|ビール|ラム酒|焼酎|熊|馬肉|犬',
+    'Zh': r'猪|豬|培根|火腿|猪油|料酒|黄酒|米酒|白酒|啤酒|葡萄酒|朗姆|熊|马肉|狗',
+    'Ko': r'돼지|베이컨|햄|라드|청주|정종|맛술|미림|소주|와인|맥주|럼주|곰고기|말고기|개고기',
 }
 # Words that contain a term but are fine.
 ALLOW = {
@@ -62,7 +62,7 @@ ALLOW = {
     'Es': {'vinagre', 'vinagreta', 'ronda'},
     'Pt': {'vinagre', 'vinagrete'},
     'It': {'vinaigrette'},
-    'Zh': {'酒石酸'},
+    'Zh': {'酒石酸', '石狗公'},  # 石狗公 = scorpionfish
     'Fa': {'عرق بهارنارنج', 'عرق گلاب', 'عرق نعناع'},  # flower/herb distillates, not arak
 }
 NON_SPACED = {'Ja', 'Zh', 'Ko'}  # no spaces between words: match anywhere
