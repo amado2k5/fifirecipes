@@ -1,117 +1,544 @@
 {
-"w-ma-029": {
-  "title": "摩洛哥烤肉串（Kebab Maghdour）",
+"w-fr-001": {
+  "title": "马赛鱼汤",
   "ingredients": {
-    "w-ma-029-i1": {"name": "羊肉、小牛肉或牛肉", "standardAmount": "1公斤（切成2.5厘米方块）"},
-    "w-ma-029-i2": {"name": "洋葱", "standardAmount": "中等大小2个（擦碎或切碎）"},
-    "w-ma-029-i3": {"name": "大蒜", "standardAmount": "2-3瓣（擦碎或切碎）"},
-    "w-ma-029-i4": {"name": "姜粉", "standardAmount": "1/2茶匙"},
-    "w-ma-029-i5": {"name": "黑白胡椒", "standardAmount": "1/4茶匙"},
-    "w-ma-029-i6": {"name": "平叶欧芹和香菜", "standardAmount": "2汤匙（切碎）"},
-    "w-ma-029-i7": {"name": "植物油", "standardAmount": "1汤匙"},
-    "w-ma-029-i8": {"name": "植物油和橄榄油", "standardAmount": "3汤匙（混合）"},
-    "w-ma-029-i9": {"name": "盐", "standardAmount": "1茶匙（按口味）"},
-    "w-ma-029-i10": {"name": "肉桂棒", "standardAmount": "1根（可选）"},
-    "w-ma-029-i11": {"name": "甜椒粉", "standardAmount": "1汤匙"},
-    "w-ma-029-i12": {"name": "切碎的平叶欧芹", "standardAmount": "2汤匙"},
-    "w-ma-029-i13": {"name": "斯曼发酵黄油（smen）", "standardAmount": "1汤匙（或用酥油）"},
-    "w-ma-029-i14": {"name": "黄油", "standardAmount": "2汤匙"},
-    "w-ma-029-i15": {"name": "鸡蛋", "standardAmount": "3-6个（每人半至一个）"},
-    "w-ma-029-i16": {"name": "橄榄油", "standardAmount": "6汤匙（煎蛋用）"},
-    "w-ma-029-i17": {"name": "切碎的欧芹或香菜", "standardAmount": "1汤匙"}
+    "w-fr-001-i1": {"name": "红娘鱼", "standardAmount": "660克"},
+    "w-fr-001-i2": {"name": "石狗公", "standardAmount": "660克"},
+    "w-fr-001-i3": {"name": "红鲂鮄", "standardAmount": "660克"},
+    "w-fr-001-i4": {"name": "康吉鳗", "standardAmount": "660克"},
+    "w-fr-001-i5": {"name": "安康鱼", "standardAmount": "660克"},
+    "w-fr-001-i6": {"name": "海鲂", "standardAmount": "660克"},
+    "w-fr-001-i7": {"name": "章鱼", "standardAmount": "活章鱼1只（可选）"},
+    "w-fr-001-i8": {"name": "海胆", "standardAmount": "10个"},
+    "w-fr-001-i9": {"name": "土豆", "standardAmount": "1公斤"},
+    "w-fr-001-i10": {"name": "大蒜", "standardAmount": "7瓣"},
+    "w-fr-001-i11": {"name": "洋葱", "standardAmount": "3个"},
+    "w-fr-001-i12": {"name": "番茄", "standardAmount": "熟透的5个"},
+    "w-fr-001-i13": {"name": "橄榄油", "standardAmount": "240毫升"},
+    "w-fr-001-i14": {"name": "香草束", "standardAmount": "1束"},
+    "w-fr-001-i15": {"name": "茴香", "standardAmount": "1枝"},
+    "w-fr-001-i16": {"name": "藏红花", "standardAmount": "8丝"},
+    "w-fr-001-i17": {"name": "乡村面包", "standardAmount": "10片"},
+    "w-fr-001-i18": {"name": "盐", "standardAmount": "适量"},
+    "w-fr-001-i19": {"name": "卡宴辣椒", "standardAmount": "适量"}
   },
   "instructions": {
-    "1": "将肉切成2.5厘米的方块。",
-    "2": "在碗中把肉与洋葱碎、大蒜、姜、胡椒、欧芹、香菜和植物油拌匀，腌30分钟。",
-    "3": "锅中倒入植物油和橄榄油，加入切碎的洋葱，炒至金黄。",
-    "4": "加入腌好的肉，翻炒5分钟。",
-    "5": "加水没过肉，加入姜、盐、肉桂棒和甜椒粉。煮开后转小火，炖45分钟至肉烂。",
-    "6": "加入鸡蛋，再煮10分钟至熟。",
-    "7": "撒上切碎的欧芹，趁热上桌。"
+    "1": "鱼处理干净，连骨切成大块。",
+    "2": "深底大锅烧热橄榄油。",
+    "3": "加洋葱、压碎的蒜6瓣、章鱼、番茄，小火炒5分钟。",
+    "4": "按大小依次下鱼块，倒入开水没过，加盐、胡椒、茴香、香草束、藏红花小火炖煮。",
+    "5": "做蒜泥蛋黄酱：蒜捣成泥，加蛋黄和藏红花，慢慢搅入橄榄油至蛋黄酱状。",
+    "6": "土豆盐水煮15-20分钟。海胆剪开，用小勺取出肉。",
+    "7": "鱼盛入大盘，海胆肉拌入汤中。",
+    "8": "面包抹蒜，涂上蒜泥蛋黄酱，每碗放2片以上。",
+    "9": "鱼和土豆从汤中取出装盘。",
+    "10": "热汤浇在抹酱面包上，鱼和土豆另盘上桌。"
   },
-  "culturalNotes": "Kebab Maghdour是摩洛哥传统节日菜肴，以浓郁的香料风味和软嫩的肉著称。"
+  "culturalNotes": "马赛鱼汤是马赛传统名菜，以多种鱼鲜搭配著称。"
 },
-"w-mx-046": {
-  "title": "墨西哥酿辣椒（Chile Relleno）",
+"w-fr-002": {
+  "title": "炸鱿鱼配酸奶黄瓜酱",
   "ingredients": {
-    "w-mx-046-i1": {"name": "波布拉诺辣椒", "standardAmount": "大个6根"},
-    "w-mx-046-i2": {"name": "蒙特利杰克奶酪", "standardAmount": "225克（切条或擦丝）"},
-    "w-mx-046-i3": {"name": "食用油", "standardAmount": "1升（炸用）"},
-    "w-mx-046-i4": {"name": "鸡蛋", "standardAmount": "大个3个"},
-    "w-mx-046-i5": {"name": "中筋面粉", "standardAmount": "半杯"},
-    "w-mx-046-i6": {"name": "细盐", "standardAmount": "半茶匙"},
-    "w-mx-046-i7": {"name": "罗马番茄", "standardAmount": "6个（切四瓣）"},
-    "w-mx-046-i8": {"name": "洋葱", "standardAmount": "小个半个（对半切）"},
-    "w-mx-046-i9": {"name": "大蒜", "standardAmount": "3瓣"},
-    "w-mx-046-i10": {"name": "墨西哥辣椒", "standardAmount": "1个（去蒂去籽，可选）"},
-    "w-mx-046-i11": {"name": "香菜", "standardAmount": "5枝"},
-    "w-mx-046-i12": {"name": "粗盐", "standardAmount": "1茶匙（按口味再加）"},
-    "w-mx-046-i13": {"name": "橄榄油", "standardAmount": "1茶匙"}
+    "w-fr-002-i1": {"name": "大蒜", "standardAmount": "小2瓣（切碎）"},
+    "w-fr-002-i2": {"name": "橄榄油", "standardAmount": "1汤匙"},
+    "w-fr-002-i3": {"name": "黄瓜", "standardAmount": "小1根"},
+    "w-fr-002-i4": {"name": "酸奶", "standardAmount": "250克"},
+    "w-fr-002-i5": {"name": "干薄荷", "standardAmount": "1茶匙"},
+    "w-fr-002-i6": {"name": "柠檬汁", "standardAmount": "1茶匙"},
+    "w-fr-002-i7": {"name": "盐和胡椒", "standardAmount": "适量"},
+    "w-fr-002-i8": {"name": "鱿鱼", "standardAmount": "450克"},
+    "w-fr-002-i9": {"name": "面粉", "standardAmount": "大碗1份"},
+    "w-fr-002-i10": {"name": "炸用油", "standardAmount": "锅中2.5厘米深"},
+    "w-fr-002-i11": {"name": "鲜柠檬汁", "standardAmount": "适量"},
+    "w-fr-002-i12": {"name": "盐·胡椒·干牛至", "standardAmount": "适量"}
   },
   "instructions": {
-    "1": "中火烤波布拉诺辣椒至表皮发黑，放入密封塑料袋焖10分钟。",
-    "2": "剥去表皮，切掉蒂部。轻轻掰开辣椒，去籽和内膜。",
-    "3": "将蒙特利杰克奶酪酿入辣椒，备用。",
-    "4": "碗中把鸡蛋加盐打散；另一碗放面粉。",
-    "5": "酿好的辣椒先裹面粉，再裹蛋液。",
-    "6": "深锅热油至中火，将辣椒各面炸至金黄。",
-    "7": "将番茄、洋葱、大蒜、墨西哥辣椒、香菜、盐和橄榄油打成顺滑的番茄酱。",
-    "8": "酿辣椒配番茄酱上桌。"
+    "1": "中碗放入橄榄油和蒜。",
+    "2": "黄瓜切薄片，撒盐静置15分钟以上沥水。",
+    "3": "酸奶、黄瓜、薄荷、柠檬汁、盐胡椒拌入蒜油中。太稀可加酸奶。",
+    "4": "鱿鱼处理干净，身体切成2.5厘米圈（小的可整只）。",
+    "5": "面粉加盐胡椒拌匀。",
+    "6": "油大火烧热。",
+    "7": "鱿鱼内外裹面粉。",
+    "8": "分批下油炸。",
+    "9": "小条约1分钟，大的多1分钟。",
+    "10": "厨房纸吸油，立即配酸奶酱上桌。"
   },
-  "culturalNotes": "Chile relleno是墨西哥传统名菜，常在节日和特殊场合食用。"
+  "culturalNotes": "炸鱿鱼配酸奶酱是地中海菜肴，在希腊和塞浦路斯尤其受欢迎。"
 },
-"w-mx-048": {
-  "title": "墨西哥肉桂茶",
+"w-fr-003": {
+  "title": "卡利松",
   "ingredients": {
-    "w-mx-048-i1": {"name": "水", "standardAmount": "6杯"},
-    "w-mx-048-i2": {"name": "墨西哥肉桂棒", "standardAmount": "2根"},
-    "w-mx-048-i3": {"name": "蜂蜜", "standardAmount": "适量"}
+    "w-fr-003-i1": {"name": "杏仁", "standardAmount": "200克"},
+    "w-fr-003-i2": {"name": "糖粉", "standardAmount": "200克"},
+    "w-fr-003-i3": {"name": "蜂蜜", "standardAmount": "100克"},
+    "w-fr-003-i4": {"name": "肉桂", "standardAmount": "½茶匙"},
+    "w-fr-003-i5": {"name": "丁香", "standardAmount": "¼茶匙"},
+    "w-fr-003-i6": {"name": "葡萄干", "standardAmount": "50克"},
+    "w-fr-003-i7": {"name": "面粉", "standardAmount": "100克"},
+    "w-fr-003-i8": {"name": "鸡蛋", "standardAmount": "1个"}
   },
   "instructions": {
-    "1": "锅中加水和肉桂，煮沸。",
-    "2": "煮3-5分钟后离火。",
-    "3": "再浸泡30分钟，或按口味调整浓淡。",
-    "4": "加适量蜂蜜。",
-    "5": "温热饮用。"
+    "1": "碗中混合杏仁粉和糖粉。",
+    "2": "加蜂蜜、肉桂、丁香、葡萄干拌匀。",
+    "3": "逐渐加面粉揉成硬面团。",
+    "4": "盖好静置30分钟。",
+    "5": "搓成小球排在铺油纸的烤盘上。",
+    "6": "180 °C烤20分钟至金黄。",
+    "7": "放凉后食用。"
   },
-  "culturalNotes": "墨西哥肉桂茶是当地极受欢迎的传统饮品，节日和庆典时尤其常见。"
+  "culturalNotes": "卡利松是南法传统甜点，以淡雅香气和甜味著称。"
 },
-"w-mx-049": {
-  "title": "蒜香酱汁鱼片",
+"w-fr-004": {
+  "title": "油封大蒜",
   "ingredients": {
-    "w-mx-049-i1": {"name": "罗非鱼或其他鱼柳", "standardAmount": "680克"},
-    "w-mx-049-i2": {"name": "青柠", "standardAmount": "1个"},
-    "w-mx-049-i3": {"name": "盐和胡椒", "standardAmount": "适量"},
-    "w-mx-049-i4": {"name": "植物油（或一半橄榄油）", "standardAmount": "1/4杯"},
-    "w-mx-049-i5": {"name": "蒜瓣", "standardAmount": "6瓣（切薄片）"},
-    "w-mx-049-i6": {"name": "欧芹", "standardAmount": "3汤匙（切碎）"},
-    "w-mx-049-i7": {"name": "面粉（可选）", "standardAmount": "2汤匙"}
+    "w-fr-004-i1": {"name": "大蒜", "standardAmount": "2头"},
+    "w-fr-004-i2": {"name": "百里香", "standardAmount": "2枝"},
+    "w-fr-004-i3": {"name": "橄榄油", "standardAmount": "250毫升"},
+    "w-fr-004-i4": {"name": "盐", "standardAmount": "一大撮"}
   },
   "instructions": {
-    "1": "鱼用盐、胡椒和青柠汁调味，腌制的同时准备其他材料。",
-    "2": "大平底锅小火热油，将蒜片炸至金黄。微微上色即捞出，久放会发苦。",
-    "3": "如用面粉，将鱼柳薄薄裹一层。炸蒜的锅转中大火，热后下鱼两面煎。约1厘米厚的鱼柳每面2-3分钟，厚的5-7分钟。",
-    "4": "鱼出锅后放在垫了厨房纸的网架上沥油。",
-    "5": "撒上欧芹碎和金黄蒜片上桌。（抹一点黄油更美味！）"
+    "1": "烤箱预热150 °C（风扇130 °C）。",
+    "2": "大蒜放入小烤盅（约13厘米），加百里香和盐。",
+    "3": "倒入橄榄油完全没过蒜。",
+    "4": "烤1小时20分钟，油面轻沸，蒜呈深金色，按压可碎但保持形状。",
+    "5": "在油中放凉。消毒瓶中冷藏可存2周。"
   },
-  "culturalNotes": "这是墨西哥菜中很受欢迎的一道菜，常作为家庭聚餐的主菜。"
+  "culturalNotes": "油封大蒜是法式烹饪基础，用于开胃菜和为多种菜肴增香。"
 },
-"w-mx-050": {
-  "title": "青椒奶酪馅饼（Quesadilla）",
+"w-fr-005": {
+  "title": "油封鸭腿",
   "ingredients": {
-    "w-mx-050-i1": {"name": "面粉薄饼", "standardAmount": "4张（25厘米）"},
-    "w-mx-050-i2": {"name": "切达或胡椒杰克奶酪", "standardAmount": "1杯（擦丝）"},
-    "w-mx-050-i3": {"name": "烤波布拉诺辣椒", "standardAmount": "2个（切丁）"},
-    "w-mx-050-i4": {"name": "莎莎酱（配菜）", "standardAmount": "适量"},
-    "w-mx-050-i5": {"name": "牛油果酱（配菜）", "standardAmount": "适量"}
+    "w-fr-005-i1": {"name": "鸭腿", "standardAmount": "4只（各250克）"},
+    "w-fr-005-i2": {"name": "鸭油", "standardAmount": "750毫升"},
+    "w-fr-005-i3": {"name": "盐", "standardAmount": "4茶匙"},
+    "w-fr-005-i4": {"name": "百里香", "standardAmount": "⅓杯"},
+    "w-fr-005-i5": {"name": "鼠尾草", "standardAmount": "⅓杯"},
+    "w-fr-005-i6": {"name": "迷迭香", "standardAmount": "⅓杯"},
+    "w-fr-005-i7": {"name": "牛至", "standardAmount": "⅓杯"},
+    "w-fr-005-i8": {"name": "大蒜", "standardAmount": "6瓣（带皮拍碎）"},
+    "w-fr-005-i9": {"name": "小干葱", "standardAmount": "1个（切薄片）"},
+    "w-fr-005-i10": {"name": "黑胡椒粒", "standardAmount": "1汤匙"},
+    "w-fr-005-i11": {"name": "香菜籽", "standardAmount": "1汤匙"},
+    "w-fr-005-i12": {"name": "八角", "standardAmount": "8个"},
+    "w-fr-005-i13": {"name": "月桂叶", "standardAmount": "2片"},
+    "w-fr-005-i14": {"name": "杜松子", "standardAmount": "2汤匙"},
+    "w-fr-005-i15": {"name": "丁香", "standardAmount": "8粒"}
   },
   "instructions": {
-    "1": "平底烤盘（comal）中低火预热1分钟。",
-    "2": "薄饼每面烙1分钟，翻面后在一张上撒奶酪、加辣椒丁，盖上另一张并用锅铲轻压。",
-    "3": "不时翻面，煎至两面金黄、奶酪融化。",
-    "4": "其余材料同样操作。",
-    "5": "按喜好配莎莎酱和牛油果酱上桌。"
+    "1": "碗中混合盐和香料，均匀涂抹在鸭腿上。",
+    "2": "放入深盘，用香料盖住，盖盖冷藏24小时。",
+    "3": "24小时后冷水冲洗，擦干水分。",
+    "4": "放入烤盘，加鸭油和香料，盖锡纸。",
+    "5": "100 °C烤2-3小时至肉软烂。",
+    "6": "取出稍凉，鸭油过滤装密封容器保存。",
+    "7": "鸭腿放深盘，倒入过滤的鸭油没过。冷藏可存6个月。",
+    "8": "食用前200 °C烤10-15分钟至皮脆。"
   },
-  "culturalNotes": "Quesadilla是墨西哥非常流行的小吃，可当点心也可当正餐。"
+  "culturalNotes": "油封鸭是法式传统菜，用油脂低温烹制，配土豆泥或烤蔬菜。"
+},
+"w-fr-006": {
+  "title": "韭葱咸塔（弗拉米什）",
+  "ingredients": {
+    "w-fr-006-i1": {"name": "低筋面粉", "standardAmount": "350克"},
+    "w-fr-006-i2": {"name": "黄油", "standardAmount": "175克（室温）"},
+    "w-fr-006-i3": {"name": "盐", "standardAmount": "一撮"},
+    "w-fr-006-i4": {"name": "牛奶", "standardAmount": "7汤匙"},
+    "w-fr-006-i5": {"name": "咖喱粉", "standardAmount": "½茶匙"},
+    "w-fr-006-i6": {"name": "韭葱", "standardAmount": "900克（切碎）"},
+    "w-fr-006-i7": {"name": "黄油", "standardAmount": "40克"},
+    "w-fr-006-i8": {"name": "蛋黄", "standardAmount": "4个（馅3个＋刷面1个）"},
+    "w-fr-006-i9": {"name": "法式酸奶油", "standardAmount": "200克"},
+    "w-fr-006-i10": {"name": "肉豆蔻", "standardAmount": "¼茶匙"},
+    "w-fr-006-i11": {"name": "盐·黑胡椒", "standardAmount": "一撮"}
+  },
+  "instructions": {
+    "1": "大碗混合面粉、黄油、盐至砂状。",
+    "2": "慢慢加牛奶揉成面团。",
+    "3": "盖好冷藏30分钟。",
+    "4": "大平底锅化黄油，炒韭葱至柔软金黄。",
+    "5": "加咖喱粉炒1分钟。",
+    "6": "另碗混合蛋黄、酸奶油、肉豆蔻、盐、胡椒。",
+    "7": "炒好的韭葱拌入蛋液。",
+    "8": "派盘铺面皮，倒入馅料。",
+    "9": "盖上上面皮，边缘封紧。",
+    "10": "刷剩余蛋黄。",
+    "11": "180 °C烤45分钟至金黄。",
+    "12": "静置10分钟后食用。"
+  },
+  "culturalNotes": "弗拉米什是法国北部的传统韭葱咸塔。"
+},
+"w-fr-007": {
+  "title": "法式黄油烤土豆（Fondant）",
+  "ingredients": {
+    "w-fr-007-i1": {"name": "大个粉质土豆", "standardAmount": "4个（各400克）"},
+    "w-fr-007-i2": {"name": "盐", "standardAmount": "¾茶匙"},
+    "w-fr-007-i3": {"name": "黑胡椒", "standardAmount": "½茶匙"},
+    "w-fr-007-i4": {"name": "特级初榨橄榄油", "standardAmount": "2汤匙"},
+    "w-fr-007-i5": {"name": "无盐黄油", "standardAmount": "3汤匙（50克）"},
+    "w-fr-007-i6": {"name": "百里香", "standardAmount": "6枝"},
+    "w-fr-007-i7": {"name": "鸡汤或蔬菜汤", "standardAmount": "240毫升（低盐）"}
+  },
+  "instructions": {
+    "1": "烤箱预热200 °C（风扇180 °C）。",
+    "2": "土豆削成直径6厘米、高7厘米的圆柱，对半切成8个3.5厘米圆柱。",
+    "3": "擦干水分，抹一半油和盐胡椒。",
+    "4": "可入烤箱的平底锅中高火热剩余油，每面煎6-8分钟至金黄。",
+    "5": "加黄油和百里香，融化后浇在土豆上。倒入高汤煮沸，入烤箱烤30分钟，15分钟时浇油一次。",
+    "6": "再浇一次油上桌。餐厅吃法可配牛排和贝亚恩酱、黄油豆。"
+  },
+  "culturalNotes": "法式黄油烤土豆外酥内绵，是经典法餐配菜。"
+},
+"w-fr-008": {
+  "title": "巧克力可丽饼",
+  "ingredients": {
+    "w-fr-008-i1": {"name": "无盐黄油", "standardAmount": "25克"},
+    "w-fr-008-i2": {"name": "低筋面粉", "standardAmount": "150克"},
+    "w-fr-008-i3": {"name": "鸡蛋", "standardAmount": "大2个"},
+    "w-fr-008-i4": {"name": "全脂牛奶", "standardAmount": "275毫升"},
+    "w-fr-008-i5": {"name": "盐", "standardAmount": "一撮"},
+    "w-fr-008-i6": {"name": "香草粉", "standardAmount": "¼茶匙（可选）"},
+    "w-fr-008-i7": {"name": "糖粉", "standardAmount": "1汤匙"},
+    "w-fr-008-i8": {"name": "无糖可可粉", "standardAmount": "1汤匙"}
+  },
+  "instructions": {
+    "1": "可丽饼锅化黄油（微焦更香）。",
+    "2": "大碗混合面粉、糖粉、可可、盐、香草，中间打入鸡蛋，和融化的黄油一起搅匀。",
+    "3": "先加四分之一牛奶搅匀，再慢慢加剩余的。面糊较稀属正常。",
+    "4": "擦去锅里多余油，中高火加热，倒一勺面糊摊薄。",
+    "5": "煎2-3分钟起泡后翻面再煎几分钟。",
+    "6": "火略调小，边擦油边重复，做6-8张叠起。"
+  },
+  "culturalNotes": "可丽饼是法国人气早餐，常配巧克力、蜂蜜、草莓。"
+},
+"w-fr-009": {
+  "title": "甘纳许巧克力松露",
+  "ingredients": {
+    "w-fr-009-i1": {"name": "黑巧克力", "standardAmount": "285克"},
+    "w-fr-009-i2": {"name": "无盐黄油", "standardAmount": "30克"},
+    "w-fr-009-i3": {"name": "淡奶油", "standardAmount": "125毫升"},
+    "w-fr-009-i4": {"name": "椰蓉", "standardAmount": "125克"},
+    "w-fr-009-i5": {"name": "无糖可可粉", "standardAmount": "60克"},
+    "w-fr-009-i6": {"name": "花生碎", "standardAmount": "125克"},
+    "w-fr-009-i7": {"name": "彩糖针", "standardAmount": "85克"},
+    "w-fr-009-i8": {"name": "糖粉", "standardAmount": "60克"}
+  },
+  "instructions": {
+    "1": "耐热碗放巧克力、奶油、黄油，微波每次30秒共4次，每次搅拌。",
+    "2": "盖盖静置5分钟，搅至顺滑即成甘纳许。",
+    "3": "冷藏6小时凝固，不可冷冻。",
+    "4": "放松露的盘子也提前冷藏。",
+    "5": "6小时后用小勺挖成小球。",
+    "6": "裹上椰蓉、可可、花生碎、糖针或糖粉。",
+    "7": "放冷盘上完全定型。"
+  },
+  "culturalNotes": "甘纳许是巧克力与奶油的顺滑混合物，是法式甜点的核心。"
+},
+"w-fr-010": {
+  "title": "多菲内奶油焗土豆",
+  "ingredients": {
+    "w-fr-010-i1": {"name": "土豆", "standardAmount": "750克"},
+    "w-fr-010-i2": {"name": "大蒜", "standardAmount": "2~3瓣（切碎）"},
+    "w-fr-010-i3": {"name": "全脂牛奶", "standardAmount": "275毫升"},
+    "w-fr-010-i4": {"name": "浓奶油", "standardAmount": "150毫升"},
+    "w-fr-010-i5": {"name": "肉豆蔻", "standardAmount": "¼茶匙"},
+    "w-fr-010-i6": {"name": "盐·黑胡椒", "standardAmount": "适量"},
+    "w-fr-010-i7": {"name": "鲜百里香", "standardAmount": "½茶匙"},
+    "w-fr-010-i8": {"name": "黄油", "standardAmount": "少许（抹模用）"},
+    "w-fr-010-i9": {"name": "埃门塔尔或格鲁耶尔奶酪", "standardAmount": "100克（可选）"}
+  },
+  "instructions": {
+    "1": "土豆去皮（可带皮），切3毫米薄片。",
+    "2": "烤箱预热190 °C（风扇170 °C）。",
+    "3": "牛奶、奶油、蒜煮沸，转小火加肉豆蔻、盐、胡椒和土豆。",
+    "4": "煮约5分钟，翻动土豆片。奶酪可在此步加入。",
+    "5": "烤盘抹黄油，土豆片铺平。",
+    "6": "烤约45分钟至金黄。"
+  },
+  "culturalNotes": "多菲内地区传统菜，薄土豆片加牛奶奶油以肉豆蔻调味焗烤。"
+},
+"w-fr-011": {
+  "title": "香料面包（Pain d'Épices）",
+  "ingredients": {
+    "w-fr-011-i1": {"name": "水", "standardAmount": "250毫升"},
+    "w-fr-011-i2": {"name": "蜂蜜", "standardAmount": "255克"},
+    "w-fr-011-i3": {"name": "豆蔻荚", "standardAmount": "4个"},
+    "w-fr-011-i4": {"name": "丁香", "standardAmount": "2粒"},
+    "w-fr-011-i5": {"name": "八角", "standardAmount": "2个"},
+    "w-fr-011-i6": {"name": "粗蔗糖", "standardAmount": "100克"},
+    "w-fr-011-i7": {"name": "无盐黄油", "standardAmount": "155克"},
+    "w-fr-011-i8": {"name": "黑麦粉", "standardAmount": "255克"},
+    "w-fr-011-i9": {"name": "泡打粉", "standardAmount": "2茶匙"},
+    "w-fr-011-i10": {"name": "盐", "standardAmount": "一大撮"},
+    "w-fr-011-i11": {"name": "姜饼香料", "standardAmount": "1½茶匙"},
+    "w-fr-011-i12": {"name": "果干", "standardAmount": "1汤匙"}
+  },
+  "instructions": {
+    "1": "磅蛋糕模抹黄油，烤箱预热180 °C（风扇160 °C）。",
+    "2": "锅中煮水、蜂蜜、糖、香料至溶化，加入黄油融化，关火浸5分钟。",
+    "3": "碗混黑麦粉、泡打粉、盐、香料粉，慢慢倒入温蜂蜜液搅至顺滑。",
+    "4": "倒入模中¾满，烤40-50分钟至浓金色，竹签插入干净即可。",
+    "5": "模中放10分钟再倒到晾架上。用果干和八角装饰。"
+  },
+  "culturalNotes": "香料面包是法国传统香料蛋糕，以温暖的辛香著称。"
+},
+"w-fr-012": {
+  "title": "尼斯洋葱塔（Pissaladière）",
+  "ingredients": {
+    "w-fr-012-i1": {"name": "橄榄油", "standardAmount": "4汤匙＋抹盘少许"},
+    "w-fr-012-i2": {"name": "洋葱", "standardAmount": "1公斤（切极薄）"},
+    "w-fr-012-i3": {"name": "百里香", "standardAmount": "1小束"},
+    "w-fr-012-i4": {"name": "月桂叶", "standardAmount": "2片"},
+    "w-fr-012-i5": {"name": "鳀鱼柳", "standardAmount": "80克（沥干）"},
+    "w-fr-012-i6": {"name": "黑橄榄", "standardAmount": "80克（去核）"},
+    "w-fr-012-i7": {"name": "帕玛森奶酪", "standardAmount": "20克（刨丝）"},
+    "w-fr-012-i8": {"name": "冷无盐黄油", "standardAmount": "200克"},
+    "w-fr-012-i9": {"name": "柠檬汁", "standardAmount": "1茶匙"},
+    "w-fr-012-i10": {"name": "高筋面粉", "standardAmount": "200克＋手粉"},
+    "w-fr-012-i11": {"name": "盐", "standardAmount": "1茶匙"},
+    "w-fr-012-i12": {"name": "冰水", "standardAmount": "125毫升"}
+  },
+  "instructions": {
+    "1": "饼皮：黄油粗刨丝裹上面粉入碗，冷冻30分钟（或冷藏1小时）。",
+    "2": "柠檬汁调入125毫升冰水。大碗放剩余面粉和盐，撒入冻黄油，指尖拌匀。",
+    "3": "倒入三分之二柠檬水，用刀切拌成团。太干可少量加水。质地粗糙但按压能成团。",
+    "4": "倒在撒粉案板上轻揉成粗长方形，包好冷藏20分钟。",
+    "5": "擀成20×30厘米长方形，能看到黄油条纹。",
+    "6": "大锅中火加热油，下洋葱加盐，放百里香和月桂叶，翻炒40-45分钟至深金色果酱状，放凉。",
+    "7": "烤盘薄刷油，面皮擀成25×35厘米铺入，整边，冷藏20分钟。",
+    "8": "烤箱预热220 °C（风扇200 °C），铺洋葱，鳀鱼摆菱形格，中间放橄榄。撒帕玛森烤30分钟。",
+    "9": "撒百里香，静置10分钟切块。"
+  },
+  "culturalNotes": "尼斯洋葱塔是普罗旺斯名吃，薄饼上铺焦糖洋葱、鳀鱼和黑橄榄。"
+},
+"w-fr-013": {
+  "title": "普罗旺斯炖菜（Ratatouille）",
+  "ingredients": {
+    "w-fr-013-i1": {"name": "橄榄油", "standardAmount": "⅓~¼杯"},
+    "w-fr-013-i2": {"name": "洋葱", "standardAmount": "大1个（切薄片）"},
+    "w-fr-013-i3": {"name": "红甜椒", "standardAmount": "1个（切大块）"},
+    "w-fr-013-i4": {"name": "黄甜椒", "standardAmount": "1个（切大块）"},
+    "w-fr-013-i5": {"name": "大蒜", "standardAmount": "6瓣（切薄片）"},
+    "w-fr-013-i6": {"name": "西葫芦", "standardAmount": "680克（切片）"},
+    "w-fr-013-i7": {"name": "茄子", "standardAmount": "小1个（切丁）"},
+    "w-fr-013-i8": {"name": "罗马番茄", "standardAmount": "4个（粗切）"},
+    "w-fr-013-i9": {"name": "鲜迷迭香", "standardAmount": "¼茶匙（切碎）"},
+    "w-fr-013-i10": {"name": "鲜百里香", "standardAmount": "1茶匙（切碎）"},
+    "w-fr-013-i11": {"name": "盐", "standardAmount": "适量"},
+    "w-fr-013-i12": {"name": "胡椒", "standardAmount": "适量"}
+  },
+  "instructions": {
+    "1": "大锅或平底锅大火烧热。",
+    "2": "下橄榄油、洋葱、甜椒，炒至上色。",
+    "3": "下蒜、西葫芦、茄子，炒至上色。",
+    "4": "拌入番茄、迷迭香、百里香、盐、胡椒。",
+    "5": "热食或冷食皆可。"
+  },
+  "culturalNotes": "普罗旺斯炖菜是法国经典蔬菜料理，以夏季蔬菜烹制。"
+},
+"w-fr-014": {
+  "title": "尼斯沙拉",
+  "ingredients": {
+    "w-fr-014-i1": {"name": "大蒜", "standardAmount": "1瓣"},
+    "w-fr-014-i2": {"name": "盐", "standardAmount": "适量"},
+    "w-fr-014-i3": {"name": "橄榄油", "standardAmount": "80毫升"},
+    "w-fr-014-i4": {"name": "鲜柠檬汁", "standardAmount": "2汤匙"},
+    "w-fr-014-i5": {"name": "第戎芥末", "standardAmount": "1汤匙"},
+    "w-fr-014-i6": {"name": "小干葱", "standardAmount": "1个（切碎）"},
+    "w-fr-014-i7": {"name": "黑胡椒", "standardAmount": "适量"},
+    "w-fr-014-i8": {"name": "小个新土豆", "standardAmount": "450克（煮熟）"},
+    "w-fr-014-i9": {"name": "四季豆", "standardAmount": "225克（焯熟）"},
+    "w-fr-014-i10": {"name": "樱桃番茄", "standardAmount": "340克（对半）"},
+    "w-fr-014-i11": {"name": "黑橄榄（尼斯种）", "standardAmount": "120毫升"},
+    "w-fr-014-i12": {"name": "腌制洋蓟", "standardAmount": "225克"},
+    "w-fr-014-i13": {"name": "鳀鱼", "standardAmount": "8片（洗净沥干）"},
+    "w-fr-014-i14": {"name": "水煮蛋", "standardAmount": "4个（对半）"},
+    "w-fr-014-i15": {"name": "黄瓜", "standardAmount": "小1根（切薄片）"},
+    "w-fr-014-i16": {"name": "油浸金枪鱼", "standardAmount": "115克×3罐（沥干）"},
+    "w-fr-014-i17": {"name": "红洋葱", "standardAmount": "½个（切薄片）"}
+  },
+  "instructions": {
+    "1": "调味汁：蒜切末加盐，用刀碾成细腻蒜泥。转入碗中，拌入油、柠檬汁、芥末、小干葱、盐、胡椒。",
+    "2": "沙拉：所有材料在大盘中排列成行，淋上调味汁，盐胡椒调味。"
+  },
+  "culturalNotes": "尼斯沙拉是尼斯传统名菜，以丰富的蔬菜和鱼类著称。"
+},
+"w-vn-001": {
+  "title": "越南扎肉冬瓜卷（Bò Bía）",
+  "ingredients": {
+    "w-vn-001-i1": {"name": "虾米", "standardAmount": "½杯"},
+    "w-vn-001-i2": {"name": "豆薯（凉薯）", "standardAmount": "大1个"},
+    "w-vn-001-i3": {"name": "胡萝卜", "standardAmount": "中1根"},
+    "w-vn-001-i4": {"name": "小干葱", "standardAmount": "大4个"},
+    "w-vn-001-i5": {"name": "清真中式牛肉香肠", "standardAmount": "4根"},
+    "w-vn-001-i6": {"name": "鸡蛋", "standardAmount": "5个"},
+    "w-vn-001-i7": {"name": "海盐", "standardAmount": "½茶匙"},
+    "w-vn-001-i8": {"name": "泰国罗勒", "standardAmount": "1小把"},
+    "w-vn-001-i9": {"name": "干米纸", "standardAmount": "1包"},
+    "w-vn-001-i10": {"name": "植物油", "standardAmount": "3汤匙"}
+  },
+  "instructions": {
+    "1": "虾米用热水泡10分钟至软，沥干。",
+    "2": "豆薯去皮切丝。胡萝卜去皮斜切片再切丝。小干葱去皮切薄片。",
+    "3": "锅加1汤匙油大火烧热，下小干葱炒香（约20秒），加虾米再炒20秒。下豆薯和胡萝卜炒匀，炒约15分钟至软，加盐调味，盛碗备用。",
+    "4": "大不粘锅加水，煮清真牛肉香肠约5分钟，捞出放凉后斜切薄片。",
+    "5": "空锅加1汤匙油中高火烧热，用刷子或晃锅使油均匀布满锅面。倒入一半蛋液晃成薄层，煎约30秒至不流动，滑到盘子上。再加油重复剩余蛋液。两张蛋皮叠放卷起，切成细蛋丝。",
+    "6": "米纸快速蘸水放到大盘上。底部放几片罗勒，加豆薯胡萝卜虾米馅，加几根蛋丝和几片香肠。从下往上卷到一半，两侧折入继续卷紧封口。",
+    "7": "配花生酱蘸食。"
+  },
+  "culturalNotes": "这道越南春卷又称Bì cuốn，在越南常作开胃菜或轻食。"
+},
+"w-vn-002": {
+  "title": "蒌叶烤牛肉（Bò Nướng Lá Lốt）",
+  "ingredients": {
+    "w-vn-002-i1": {"name": "肥牛肉末", "standardAmount": "340克"},
+    "w-vn-002-i2": {"name": "小干葱末", "standardAmount": "2汤匙"},
+    "w-vn-002-i3": {"name": "蒜末", "standardAmount": "1汤匙"},
+    "w-vn-002-i4": {"name": "黑胡椒粉", "standardAmount": "¼茶匙"},
+    "w-vn-002-i5": {"name": "糖", "standardAmount": "½茶匙"},
+    "w-vn-002-i6": {"name": "鱼露", "standardAmount": "2茶匙"},
+    "w-vn-002-i7": {"name": "蚝油", "standardAmount": "1汤匙"},
+    "w-vn-002-i8": {"name": "鸡精粉", "standardAmount": "½茶匙"},
+    "w-vn-002-i9": {"name": "味精（可选）", "standardAmount": "¼茶匙"},
+    "w-vn-002-i10": {"name": "野生蒌叶", "standardAmount": "25~30片"}
+  },
+  "instructions": {
+    "1": "叶子彻底洗净，厨房纸吸干。留一小段叶柄便于固定卷。",
+    "2": "大碗混合牛肉末、小干葱、蒜、黑胡椒、糖、鱼露、蚝油、鸡精和味精（可选）。",
+    "3": "叶子光滑面向下平铺，窄端朝下。中央放约2汤匙肉馅，把窄端折过馅料小心卷起。叶柄插进卷中固定。叶柄太软可用小刀戳孔再插入。卷柄朝下平放。其余叶和肉馅同法。",
+    "4": "将卷烤出烟熏香，或加少许植物油每面煎约2分钟。",
+    "5": "配细米粉、生菜丝和各色越南香草装碗。撒烤花生，配鱼露蘸汁。也可配米纸自行包卷。"
+  },
+  "culturalNotes": "蒌叶烤牛肉是越南传统名菜，常在特殊场合食用。"
+},
+"w-vn-003": {
+  "title": "香兰华夫饼（Bánh Kếp Lá Dứa）",
+  "ingredients": {
+    "w-vn-003-i1": {"name": "黄油", "standardAmount": "2汤匙"},
+    "w-vn-003-i2": {"name": "粘米粉", "standardAmount": "1½杯"},
+    "w-vn-003-i3": {"name": "木薯淀粉", "standardAmount": "½杯"},
+    "w-vn-003-i4": {"name": "中筋面粉", "standardAmount": "½杯"},
+    "w-vn-003-i5": {"name": "泡打粉", "standardAmount": "1汤匙"},
+    "w-vn-003-i6": {"name": "盐", "standardAmount": "¼茶匙"},
+    "w-vn-003-i7": {"name": "鸡蛋", "standardAmount": "大2个"},
+    "w-vn-003-i8": {"name": "糖", "standardAmount": "½杯"},
+    "w-vn-003-i9": {"name": "椰奶", "standardAmount": "1½杯"},
+    "w-vn-003-i10": {"name": "香兰酱", "standardAmount": "¾茶匙"}
+  },
+  "instructions": {
+    "1": "黄油微波低火30-45秒融化，搅匀放凉。",
+    "2": "大杯或大碗筛入粘米粉、木薯淀粉、面粉、泡打粉和盐。",
+    "3": "大碗打散鸡蛋和糖，加椰奶、融化黄油、香兰酱搅匀。",
+    "4": "一半干粉倒入湿料搅至基本混合，再加剩余干粉轻搅化开大结块，静置15分钟。",
+    "5": "华夫机调最高档预热。倒约⅔杯面糊，用勺子摊匀。盖盖烤4-5分钟至金黄。",
+    "6": "用竹签挑起一角，夹出放晾架上。",
+    "7": "趁热食用。"
+  },
+  "culturalNotes": "香兰华夫饼是越南传统甜点，以香兰和椰奶的芳香著称。"
+},
+"w-vn-004": {
+  "title": "榴莲饼（Bánh pía）",
+  "ingredients": {
+    "w-vn-004-i1": {"name": "面粉", "standardAmount": "500克"},
+    "w-vn-004-i2": {"name": "糖", "standardAmount": "250克"},
+    "w-vn-004-i3": {"name": "植物油", "standardAmount": "100毫升"},
+    "w-vn-004-i4": {"name": "鸡蛋", "standardAmount": "2个"},
+    "w-vn-004-i5": {"name": "牛奶", "standardAmount": "100毫升"},
+    "w-vn-004-i6": {"name": "盐", "standardAmount": "½茶匙"},
+    "w-vn-004-i7": {"name": "布丁馅", "standardAmount": "400克"}
+  },
+  "instructions": {
+    "1": "大碗混合面粉、糖和盐。",
+    "2": "加鸡蛋、牛奶、植物油，搅至面团顺滑。",
+    "3": "盖盖静置30分钟。",
+    "4": "面团分12等份搓圆。",
+    "5": "每球中央放馅，用面皮包好。",
+    "6": "放入榴莲饼模，入180 °C预热烤箱。",
+    "7": "烤20-25分钟至金黄。"
+  },
+  "culturalNotes": "榴莲饼是越南传统酥饼，常在特殊场合食用。"
+},
+"w-vn-005": {
+  "title": "越南米纸沙拉（Bánh Tráng Trộn）",
+  "ingredients": {
+    "w-vn-005-i1": {"name": "罗望子肉", "standardAmount": "100克"},
+    "w-vn-005-i2": {"name": "植物油", "standardAmount": "4汤匙"},
+    "w-vn-005-i3": {"name": "大蒜", "standardAmount": "6瓣"},
+    "w-vn-005-i4": {"name": "鱼露", "standardAmount": "2汤匙"},
+    "w-vn-005-i5": {"name": "砂糖", "standardAmount": "3汤匙"},
+    "w-vn-005-i6": {"name": "味精（可选）", "standardAmount": "½茶匙"},
+    "w-vn-005-i7": {"name": "红辣椒碎（可选）", "standardAmount": "1汤匙"},
+    "w-vn-005-i8": {"name": "鱿鱼干", "standardAmount": "200克"},
+    "w-vn-005-i9": {"name": "虾米", "standardAmount": "100克"},
+    "w-vn-005-i10": {"name": "牛肉干", "standardAmount": "100克"},
+    "w-vn-005-i11": {"name": "干米纸", "standardAmount": "170克"},
+    "w-vn-005-i12": {"name": "越南辣椒油", "standardAmount": "适量"},
+    "w-vn-005-i13": {"name": "越南葱油", "standardAmount": "适量"},
+    "w-vn-005-i14": {"name": "青芒果", "standardAmount": "1个"},
+    "w-vn-005-i15": {"name": "熟鹌鹑蛋", "standardAmount": "10个"},
+    "w-vn-005-i16": {"name": "炸红葱酥", "standardAmount": "适量"},
+    "w-vn-005-i17": {"name": "无盐烤花生", "standardAmount": "¼杯"},
+    "w-vn-005-i18": {"name": "越南香菜叶", "standardAmount": "2杯"}
+  },
+  "instructions": {
+    "1": "如用罗望子肉，用2杯热水泡15分钟，细筛过滤弃渣。",
+    "2": "小锅中高火热油，下蒜炒香（约15秒）。加罗望子水、鱼露、糖、味精、辣椒碎拌匀，小火煮1分钟，倒小碗备用。",
+    "3": "中锅中高火热植物油，下鱿鱼干炸30秒，会卷边，用筷子或木勺按住边缘炸匀。翻面再炸30秒捞出。放凉后手撕成条。",
+    "4": "同锅油中下虾米炒约1分钟捞出。",
+    "5": "牛肉干手撕成细条。",
+    "6": "米纸放大碗，加罗望子汁、辣椒油、葱油拌匀，让米纸吸满酱汁。初看干硬但会变软。",
+    "7": "加入肉类（牛肉干、鱿鱼干、虾米）、青芒果和鹌鹑蛋拌匀。",
+    "8": "撒炸红葱酥、花生和越南香菜。"
+  },
+  "culturalNotes": "越南米纸沙拉是越南人气小吃，作开胃菜或轻食。"
+},
+"w-vn-006": {
+  "title": "姜汁汤圆（Chè Trôi Nước）",
+  "ingredients": {
+    "w-vn-006-i1": {"name": "糯米粉", "standardAmount": "450克"},
+    "w-vn-006-i2": {"name": "热水", "standardAmount": "1¾杯"},
+    "w-vn-006-i3": {"name": "去皮绿豆", "standardAmount": "¾杯"},
+    "w-vn-006-i4": {"name": "糖", "standardAmount": "2茶匙"},
+    "w-vn-006-i5": {"name": "盐", "standardAmount": "1茶匙"},
+    "w-vn-006-i6": {"name": "水", "standardAmount": "6杯"},
+    "w-vn-006-i7": {"name": "鲜姜", "standardAmount": "10厘米"},
+    "w-vn-006-i8": {"name": "棕榈糖", "standardAmount": "280克"},
+    "w-vn-006-i9": {"name": "椰奶", "standardAmount": "可选"},
+    "w-vn-006-i10": {"name": "熟芝麻", "standardAmount": "¼杯"}
+  },
+  "instructions": {
+    "1": "大碗混合糯米粉和热水，揉成光滑面团，不要加水。盖盖静置30分钟。",
+    "2": "面团分成28个直径约2.5厘米的球。",
+    "3": "绿豆洗至水变清。中锅加绿豆和没过1英寸的水，中火煮沸后小火煮至软而不烂（约15分钟），注意防溢。沥干，关火回锅蒸发余水。加盐和糖，用大勺压拌成粗馅，无需细腻。",
+    "4": "馅搓成约1.2厘米小球约28个，太软可冷藏。",
+    "5": "面团球压成厚圆片，中央放馅球，包合后在掌心滚圆。注意别让馅露出，否则煮时会散开。剩余面团可搓无馅小圆子。做好盖盖防干。",
+    "6": "大锅加水和棕榈糖煮至糖化。勺子给姜去皮切丝。轻轻放入汤圆，中小火煮至浮起（约20分钟）。",
+    "7": "如需可做椰奶酱。",
+    "8": "舀几个汤圆带糖水装碗，浇椰浆，撒熟芝麻。温热或室温食用。"
+  },
+  "culturalNotes": "姜汁汤圆是越南传统甜点，常在节庆时食用。"
+},
+"w-vn-007": {
+  "title": "仙草冻（Thạch Sương Sáo）",
+  "ingredients": {
+    "w-vn-007-i1": {"name": "仙草粉", "standardAmount": "50克"},
+    "w-vn-007-i2": {"name": "糖", "standardAmount": "⅓杯"},
+    "w-vn-007-i3": {"name": "水", "standardAmount": "4杯（分次）"}
+  },
+  "instructions": {
+    "1": "仙草粉倒入中锅，加糖和2杯水，搅至粉溶化。",
+    "2": "加剩余2杯水搅匀。",
+    "3": "静置10分钟。",
+    "4": "中火加热，用铲子搅拌并刮起锅底沉淀的粉。",
+    "5": "3-4分钟后变稠结块，用打蛋器快速搅至顺滑，继续搅至微沸，关火再搅1分钟至无结块。",
+    "6": "倒入耐热碗，用牙签戳破气泡或撇去浮沫。",
+    "7": "室温放凉1-1.5小时。",
+    "8": "入冰箱冷藏至少2小时。",
+    "9": "倒扣到大案板上取出冻，切块。",
+    "10": "食用时甜品碗放碎冰，加仙草块，撒少许糖。",
+    "11": "也可用波浪刀切小块加入冰饮。",
+    "12": "剩余仙草冷藏可存一周。"
+  },
+  "culturalNotes": "仙草冻是越南传统甜品，炎热天作清凉小吃。"
 }
 }
