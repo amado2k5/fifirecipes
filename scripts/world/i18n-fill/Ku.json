@@ -1,168 +1,544 @@
 {
-"w-mx-043": {
-  "title": "پۆزۆلە ڕۆخای مەکسیکی",
+"w-fr-001": {
+  "title": "Bouillabaisse",
   "ingredients": {
-    "w-mx-043-i1": {"name": "هۆمینی", "standardAmount": "٢ قوتوو"},
-    "w-mx-043-i2": {"name": "مریشکی تەواو", "standardAmount": "١"},
-    "w-mx-043-i3": {"name": "پیازی سپی", "standardAmount": "١ (چوارکراو)"},
-    "w-mx-043-i4": {"name": "کۆریاندەر", "standardAmount": "٦ لق"},
-    "w-mx-043-i5": {"name": "فلفلە ئانچۆی وشک", "standardAmount": "٢ (شوشتکراو، بنیوەرە و تۆخم لابراو)"},
-    "w-mx-043-i6": {"name": "فلفلە گواخیلۆی وشک", "standardAmount": "٣ (شوشتکراو، بنیوەرە و تۆخم لابراو)"},
-    "w-mx-043-i7": {"name": "پیازی سپی بڕاو", "standardAmount": "¼ کۆپ"},
-    "w-mx-043-i8": {"name": "پەڕگە سیر", "standardAmount": "٣"},
-    "w-mx-043-i9": {"name": "قرەنفەل", "standardAmount": "٢"},
-    "w-mx-043-i10": {"name": "زیرەی هاون", "standardAmount": "½ کۆچەرە"},
-    "w-mx-043-i11": {"name": "خوێ", "standardAmount": "١ کۆچەرە"},
-    "w-mx-043-i12": {"name": "ڕۆنی سەوزە", "standardAmount": "٣ ک.گ"},
-    "w-mx-043-i13": {"name": "لیمۆ", "standardAmount": "٤ (چوارکراو)"},
-    "w-mx-043-i14": {"name": "کاهووی ڕۆمەین یان کەڵەم", "standardAmount": "½ سەر (هاون)"},
-    "w-mx-043-i15": {"name": "توور", "standardAmount": "٦ (بە باریکی بڕاو)"},
-    "w-mx-043-i16": {"name": "پیازی سپی بڕاو", "standardAmount": "½ کۆپ"},
-    "w-mx-043-i17": {"name": "تۆستادا", "standardAmount": "بەپێی پێویست"},
-    "w-mx-043-i18": {"name": "ئۆرێگانۆی وشک", "standardAmount": "بەپێی پێویست"},
-    "w-mx-043-i19": {"name": "تۆزی فلفلە وشک یان تاجین", "standardAmount": "بەپێی پێویست"}
+    "w-fr-001-i1": {"name": "Masiya moray", "standardAmount": "660 g"},
+    "w-fr-001-i2": {"name": "Grenadiêrê sor", "standardAmount": "660 g"},
+    "w-fr-001-i3": {"name": "Bora sor", "standardAmount": "660 g"},
+    "w-fr-001-i4": {"name": "Masiya gurnik", "standardAmount": "660 g"},
+    "w-fr-001-i5": {"name": "Masiya pîroz", "standardAmount": "660 g"},
+    "w-fr-001-i6": {"name": "Masiya kevir", "standardAmount": "660 g"},
+    "w-fr-001-i7": {"name": "Qeşqa", "standardAmount": "1 zindî (bixwestin)"},
+    "w-fr-001-i8": {"name": "Gewreyên deryayê", "standardAmount": "10"},
+    "w-fr-001-i9": {"name": "Kartûfel", "standardAmount": "1 kg"},
+    "w-fr-001-i10": {"name": "Sîr", "standardAmount": "7 dev"},
+    "w-fr-001-i11": {"name": "Pîvaz", "standardAmount": "3"},
+    "w-fr-001-i12": {"name": "Firîngî", "standardAmount": "5 gihîştî"},
+    "w-fr-001-i13": {"name": "Rûnê zeytûnê", "standardAmount": "240 ml"},
+    "w-fr-001-i14": {"name": "Bouquet garni", "standardAmount": "1 deste"},
+    "w-fr-001-i15": {"name": "Raziyane", "standardAmount": "1 xwarikaşîk"},
+    "w-fr-001-i16": {"name": "Zefêran", "standardAmount": "8 rişk"},
+    "w-fr-001-i17": {"name": "Nana gundî", "standardAmount": "10 dîsk"},
+    "w-fr-001-i18": {"name": "Xwê", "standardAmount": "bi tam"},
+    "w-fr-001-i19": {"name": "Bîbara cayenne", "standardAmount": "bi tam"}
   },
   "instructions": {
-    "1": "لە قەزەنێکی گەورەدا، ٢ کۆپ ئاو و هۆمینی ڕێککراوەکە لەبخە.",
-    "2": "لە قەزەنێکی گەورەی جیاوازدا، پارچە مریشکەکان دابنێ و ئاوی پێویست بۆ داپۆشاندنیان بە چەند ئینچێک لەبخە. پیاز، کۆریاندەر، و ١ ک.گ خوێ لەبخە.",
-    "3": "بۆ چەسکاندن بهێنە پاشان ئاگر بۆ مامناوەند-کەم کەم بکە و دابپۆشە. بۆ تەکڕێ ٤٥ خولەک لێ بدە تاکە مریشکەکە برژاو و نەرم ببێت. پارچە مریشکەکان لە قەزەنەکە دەرهێنە، شلە برژانەکە ڕێک بکە و هەڵیبگرە.",
-    "4": "کاتێک مریشکەکە بەڕێکی سارد بوو بۆ دەست لێدان، پێست و ئێسکەکان لاببە و فڕێیان بدە و گۆشتەکە بشڕە.",
-    "5": "مریشک و شلە هەڵگیراوەکە بۆ قەزەنە هۆمینییەکە بخە. قەزەنەکە لەسەر ئاگرێکی مامناوەند دابنێ تاکە گەرم ببێت. ئەگەر پێویست بوو خوێ لەبخە.",
-    "6": "بۆ سۆسە سوورەکە: فلفلەکان لە قەزەنێکی مامناوەنددا دابنێ، ئاوی پێویست بۆ داپۆشاندنیان لەبخە و بۆ چەسکاندن بهێنە. بۆ چەسکاندن کەم بکە تاکە فلفلەکان نەرم بن، تەکڕێ ١٠ خولەک.",
-    "7": "فلفلەکان و ¾ کۆپ لە شلە ترکردنەکە بۆ بڵەندەرێک بخە لەگەڵ پیاز، سیر، قرەنفەل، زیرە، و خوێ. بڵێ تاکە نەرم ببێت.",
-    "8": "ئەمە بە پاڵاوتنێکی وردی تۆر بۆ کوپێک ڕێک بکە بە بەکارهێنانی کێشان بۆ دەرهێنانی هەرچەندە شلەیەک. ئەوەی ناچێتە پاڵاوتنەکە فڕێ بدە.",
-    "9": "ڕۆنی سەوزە لە قەزەنێکدا لەسەر ئاگرێکی مامناوەند-بەرز گەرم بکە تاکە بچەسکێت، شلە فلفلەکە لەبخە و بۆ چەسکاندن بهێنە پاشان بۆ چەسکاندن کەم بکە بە جار بە جار تێکەڵدان. سۆسەکە بە تەواوی ٥-٦ خولەک دەپزێت و ئەستوور دەبێت — لە ئاگر لایببە.",
-    "10": "ئەگەر پۆزۆلەکەت هێشتا گەرمە، پلە گەرمی بۆ مامناوەند-بەرز ببەزێنە. ماددە فلفلەکە تێکەڵ بدە و خوێ بەپێی خواست لەبخە.",
-    "11": "پۆزۆلەکە گەرم لەبەر بکە لەگەڵ لەگەڵدانییە لیستکراوەکان. دڵنیابە لیمۆ لەسەر شۆرباکە بچەقێنە — خواردنەکە تەواو دەکات."
+    "1": "Masiyê paxij bikin û bi parçeyên mezin ên bi hestî birîn.",
+    "2": "Rûnê zeytûnê di qezanek mezin û kûr de germ bikin.",
+    "3": "Pîvaz, 6 devên sîr ên peliqandî, qeşq û firîngî zêde bikin û li ser agirê kêm 5 xulek bipijin.",
+    "4": "Ewil parçeyên masiyê yên mezin bicîh bikin, bi ava kelinî bipêçin, xwê, bîber, raziyane, bouquet û zefêran zêde bikin û bi hêsanî bipijin.",
+    "5": "Rouille amade bikin: sîr di havirgê de biçevirînin, zefêran û zerdîka hêkê zêde bikin û rûnê zeytûnê hêdî hêdî tevlihev bikin heta mayonez bibe.",
+    "6": "Kartûfelan di ava xwêkirî de 15-20 xulek bipijin. Gewreyan bi mekîsê vekin û goştê bi kaşîk derxînin.",
+    "7": "Masiyê di tepsiya mezin de bicîh bikin. Goştê gewreyan di şorbayê de tevlihev bikin.",
+    "8": "Nan bi sîrê bişûyin û rouille bijîn; herî kêm 2 dîsk ji bo her tasê.",
+    "9": "Masî û kartûfelan ji şorbayê derxînin û di tepsiya cuda de bicîh bikin.",
+    "10": "Şorbaya germ li ser nana rouille bijîn. Masî û kartûfelan cuda bidin."
   },
-  "culturalNotes": "پۆزۆلە خواردنێکی نەریتی مەکسیکییە لە بۆنە تایبەتەکان و جێژنەکاندا لەبەردەکرێت — بە تامە دەوڵەمەند و بەهارەکانی ناسراوە."
+  "culturalNotes": "Bouillabaisse xwarina kevnar a Marseillê ye, bi cureyên masî û behreyên xwe yên pirnavdar e."
 },
-"w-mx-044": {
-  "title": "ڕاخاس کۆن کریما",
+"w-fr-002": {
+  "title": "Kalamarê qelandî bi tzatziki",
   "ingredients": {
-    "w-mx-044-i1": {"name": "فلفلە پۆبلانۆ", "standardAmount": "٤٥٠ گ"},
-    "w-mx-044-i2": {"name": "پیاز", "standardAmount": "١"},
-    "w-mx-044-i3": {"name": "کەرە", "standardAmount": "٢ ک.گ"},
-    "w-mx-044-i4": {"name": "کریما مەکسیکانا", "standardAmount": "¾ کۆپ"},
-    "w-mx-044-i5": {"name": "پەنیری ئۆکساکا", "standardAmount": "¾ کۆپ هاون"},
-    "w-mx-044-i6": {"name": "گەنمەشامی", "standardAmount": "ئەگەر دەتەوێت"}
+    "w-fr-002-i1": {"name": "Sîr", "standardAmount": "2 devên biçûk (birîn)"},
+    "w-fr-002-i2": {"name": "Rûnê zeytûnê", "standardAmount": "1 xwarikaşîk"},
+    "w-fr-002-i3": {"name": "Xiyar", "standardAmount": "1 biçûk"},
+    "w-fr-002-i4": {"name": "Mast", "standardAmount": "250 g"},
+    "w-fr-002-i5": {"name": "Neneya ziwî", "standardAmount": "1 çaykaşîk"},
+    "w-fr-002-i6": {"name": "Ava limonê", "standardAmount": "1 çaykaşîk"},
+    "w-fr-002-i7": {"name": "Xwê û bîber", "standardAmount": "bi tam"},
+    "w-fr-002-i8": {"name": "Kalamar", "standardAmount": "450 g"},
+    "w-fr-002-i9": {"name": "Ard", "standardAmount": "1 tasa mezin"},
+    "w-fr-002-i10": {"name": "Rûn ji bo qelandinê", "standardAmount": "2,5 cm di tavayê de"},
+    "w-fr-002-i11": {"name": "Ava limonê ya taze", "standardAmount": "bi tam"},
+    "w-fr-002-i12": {"name": "Xwê, bîber, oregano ziwî", "standardAmount": "bi tam"}
   },
   "instructions": {
-    "1": "پۆبلانۆکان لەسەر ئاگرێکی مامناوەند بگرێنە تاکە لە هەموو لایەک سووتاون، بۆ تەکڕێ ٢٠-٣٠ خولەک، هەر ١٠ خولەکێک فلفلەکان بسوڕێنەوە.",
-    "2": "کاتێک تەواو بوون، فلفلەکان لەسەر پشکێک دابنێ و بە کوپەیەک یان وراپی کلینگ بۆ ٥-١٠ خولەک دابپۆشە بۆ ئەوەی پێستەکان بە هەڵم ڕاز بن.",
-    "3": "پۆبلانۆکان قەڵەم بکە و پێستەکان فڕێ بدە، پاشان بۆ کەڵپە گەورەکانی خواردن بیانبڕە.",
-    "4": "پەنیرییەکە بهێنە.",
-    "5": "پیازەکە لە تاوەیەکی گەورەدا بکوڵێنە تاکە نەرم ببێت.",
-    "6": "پۆبلانۆکان، پەنیری، و کریما مەکسیکانا بۆ پیازەکە لەبخە.",
-    "7": "هەروەها دەتوانیت گەنمەشامی لەبخە لەگەڵ هەر خوێ یان بێبییەک بەپێی خواست. گەرم بکە بە تەواوی."
+    "1": "Rûnê zeytûnê û sîr di tasê navîn de tevlihev bikin.",
+    "2": "Xiyar tenik birîn, xwê birijîn û herî kêm 15 xulek ji bo danezînan bihêlin.",
+    "3": "Di rûna sîrê de mast, xiyar, nene, ava limonê, xwê û bîber tevlihev bikin. Heke şil be mast zêde bikin.",
+    "4": "Kalamar paxij bikin û laşan bi hêlînên 2,5 cm birîn (yên biçûk dikarin temam bimînin).",
+    "5": "Tasa arda xwêkirî-bîberkirî amade bikin.",
+    "6": "Rûn li ser agirê bilind germ bikin.",
+    "7": "Kalamar ji hundir û derve bi ardê bipêçin.",
+    "8": "Bi kêlkeyên biçûk biqelînin.",
+    "9": "Yên biçûk qareman deqe, yên mezin deqeyeke din.",
+    "10": "Li ser tirmikê bicîh bikin û tavilê bi tzatziki bidin."
   },
-  "culturalNotes": "ڕاخاس کۆن کریما خواردنێکی نەریتی مەکسیکییە وەک ئاپەتایزەر یان بەشێکی ژەمی سەرەکی لەبەردەکرێت."
+  "culturalNotes": "Kalamar û tzatziki mezzeya navdar a rojhilata navîn e, bi taybetî li Yewnanistan û Qibrîsê."
 },
-"w-mx-045": {
-  "title": "لۆبیای دووبارە سووتاو لەگەڵ تۆستادا گواکامۆلە",
+"w-fr-003": {
+  "title": "Calisson",
   "ingredients": {
-    "w-mx-045-i1": {"name": "فریخۆلس دێ لا ئۆلای برژاو", "standardAmount": "1½ کۆپ"},
-    "w-mx-045-i2": {"name": "ڕۆنی سەوزە", "standardAmount": "بۆ سوتاندن"},
-    "w-mx-045-i3": {"name": "ڕۆنی زەیتوون یان شۆرتنینگی سەوزە", "standardAmount": "٢ ک.گ"},
-    "w-mx-045-i4": {"name": "خوێ و بێبی", "standardAmount": "بەپێی خواست"},
-    "w-mx-045-i5": {"name": "قەپۆلی تۆستادای تەخت", "standardAmount": "٨"},
-    "w-mx-045-i6": {"name": "کێسۆ فرێسکۆ یان پەنیری دەستخۆش", "standardAmount": "بەپێی خواست"},
-    "w-mx-045-i7": {"name": "کاهوو", "standardAmount": "هەڵبژاردە"},
-    "w-mx-045-i8": {"name": "تەماتەی بڕاو", "standardAmount": "بەپێی خواست"},
-    "w-mx-045-i9": {"name": "گواکامۆلە", "standardAmount": "بەپێی خواست"}
+    "w-fr-003-i1": {"name": "Badem", "standardAmount": "200 g"},
+    "w-fr-003-i2": {"name": "Toza şekirê", "standardAmount": "200 g"},
+    "w-fr-003-i3": {"name": "Eşel", "standardAmount": "100 g"},
+    "w-fr-003-i4": {"name": "Darçîn", "standardAmount": "½ çaykaşîk"},
+    "w-fr-003-i5": {"name": "Qerenfûl", "standardAmount": "¼ çaykaşîk"},
+    "w-fr-003-i6": {"name": "Keçimêş", "standardAmount": "50 g"},
+    "w-fr-003-i7": {"name": "Ard", "standardAmount": "100 g"},
+    "w-fr-003-i8": {"name": "Hêk", "standardAmount": "1"}
   },
   "instructions": {
-    "1": "ڕۆنی سەوزە لە تاوەیەکدا لەسەر ئاگرێکی مامناوەند گەرم بکە.",
-    "2": "ڕۆنی زەیتوون یان شۆرتنینگی سەوزە لەبخە و فریخۆلس دێ لا ئۆلا برژاوەکان بۆ ٥ خولەک تێکەڵ بدە تاکە نەرم بن.",
-    "3": "خوێ و بێبی بەپێی خواست لەبخە و لەسەر ئاگرێکی کەم بۆ ١٠ خولەک لێ بدە تاکە ئەستوور ببێت.",
-    "4": "لە تاوەیەکی دیکەدا، ڕۆنی سەوزە گەرم بکە و قەپۆلی تۆستاداکان بیکە تاکە زەرد و کرێسپی بن.",
-    "5": "قەپۆلی تۆستادا سووتاوەکان لەسەر کاغەزی مەطبەخ دابنێ بۆ ڕێککردنی ڕۆنی زیادە.",
-    "6": "لۆبیا دووبارە سووتاوەکان لەسەر قەپۆلی تۆستاداکان بڵاو بکە، پاشان گواکامۆلە، تەماتەی بڕاو، و کێسۆ فرێسکۆ بەپێی خواست لەبخە.",
-    "7": "گەرم لەبەر بکە."
+    "1": "Di tasê de ardê bademê û toza şekirê tevlihev bikin.",
+    "2": "Eşel, darçîn, qerenfûl û keçimêş zêde bikin û baş tevlihev bikin.",
+    "3": "Ard hêdî hêdî zêde bikin heta hevirek tund bibe.",
+    "4": "Bikulin û 30 xulek bihêlin.",
+    "5": "Bi topên biçûk şekl bikin û di tepsiya bi kaxiz pêçandî de bicîh bikin.",
+    "6": "Di 180 °C de 20 xulek heta zêrîn bipijin.",
+    "7": "Sar bikin û bidin."
   },
-  "culturalNotes": "لۆبیای دووبارە سووتاو بنچینەیەکە لە چێشتی مەکسیکی — بەردەوام وەک ئاپەتایزەر یان بەشێکی خواردنی سەرەکی لەبەردەکرێت."
+  "culturalNotes": "Calisson şîrîniya kevnar a başûrê Fransayê ye bi bîhnxweşiya xwe ya nazik û şîrîniya xwe."
 },
-"w-mx-046": {
-  "title": "چیلە ڕەینۆ",
+"w-fr-004": {
+  "title": "Sîrê confit",
   "ingredients": {
-    "w-mx-046-i1": {"name": "فلفلە پۆبلانۆ", "standardAmount": "٦ گەورە"},
-    "w-mx-046-i2": {"name": "پەنیری مۆنتێرەی جاک", "standardAmount": "٢٢٥ گ (کەڵپە درێژ یان هاون)"},
-    "w-mx-046-i3": {"name": "ڕۆن", "standardAmount": "٤ کۆپ (بۆ سوتاندن)"},
-    "w-mx-046-i4": {"name": "هێلکە", "standardAmount": "٣ گەورە"},
-    "w-mx-046-i5": {"name": "ئاردی سادە", "standardAmount": "½ کۆپ"},
-    "w-mx-046-i6": {"name": "خوێی ورد", "standardAmount": "½ کۆچەرە"},
-    "w-mx-046-i7": {"name": "تەماتەی ڕۆما", "standardAmount": "٦ (چوارکراو)"},
-    "w-mx-046-i8": {"name": "پیاز", "standardAmount": "½ بچووک (نیوەکراو)"},
-    "w-mx-046-i9": {"name": "سیر", "standardAmount": "٣"},
-    "w-mx-046-i10": {"name": "فلفلە خالاپینیۆ", "standardAmount": "١ (هەڵبژاردە)"},
-    "w-mx-046-i11": {"name": "کۆریاندەر", "standardAmount": "٥ لق"},
-    "w-mx-046-i12": {"name": "خوێی کۆشەر", "standardAmount": "١ کۆچەرە + زیاتر"},
-    "w-mx-046-i13": {"name": "ڕۆنی زەیتوون", "standardAmount": "١ کۆچەرە"}
+    "w-fr-004-i1": {"name": "Sîr", "standardAmount": "2 ser"},
+    "w-fr-004-i2": {"name": "Thym", "standardAmount": "2 qîv"},
+    "w-fr-004-i3": {"name": "Rûnê zeytûnê", "standardAmount": "250 ml"},
+    "w-fr-004-i4": {"name": "Xwê", "standardAmount": "pêngavek mezin"}
   },
   "instructions": {
-    "1": "فلفلە پۆبلانۆکان لەسەر ئاگرێکی مامناوەند ببرژێنە تاکە پێستەکە ڕەش ببێت. بۆ ١٠ خولەک لە قیسەیەکی داخراوی پلاستیکیدا دابنێ بۆ ساردبوونەوە.",
-    "2": "فلفلەکان قەڵەم بکە و بنیوەرەکەیان ببڕە. بە نەرمی فلفلەکان بکەرەوە و تۆخم و چوارچێوە ناوەکییەکان لاببە.",
-    "3": "فلفلەکان بە پەنیری مۆنتێرەی جاک بپڕە. فلفلە پڕکراوەکان جودا بنێ.",
-    "4": "لە کوپێکدا، هێلکەکان لەگەڵ خوێ بکە. لە کوپێکی دیکەدا، ئاردەکە دابنێ.",
-    "5": "فلفلە پڕکراوەکان لە ئاردا بمکە، پاشان لە هێلکە لێدراوەکاندا.",
-    "6": "ڕۆنەکە لە تاوەیەکی قوڵدا لەسەر ئاگرێکی مامناوەند گەرم بکە. فلفلەکان بیکە تاکە لە هەموو لایەک زەردی قاوەیی بن.",
-    "7": "سۆسە تەماتەکە دروست بکە بە بڵێندینی تەماتەکان، پیاز، سیر، خالاپینیۆ، کۆریاندەر، خوێ، و ڕۆنی زەیتوون لە بڵەندەرێکدا تاکە نەرم ببێت.",
-    "8": "فلفلە پڕکراوەکان لەبەریان بکە لەگەڵ سۆسە تەماتەکە لە لا."
+    "1": "Firnê li ser 150 °C germ bikin (fan 130).",
+    "2": "Sîr di qûtiya firnê ya biçûk de (qareman 13 cm) bi thym û xwê bicîh bikin.",
+    "3": "Temam bi rûnê zeytûnê bipêçin.",
+    "4": "1 saet û 20 xulek bipijin heta rûn bi hêsanî bikelîne û sîr qehweyî tarî bibe; dihule lê şiklê xwe digire.",
+    "5": "Di rûnê xwe de sar bikin. Di şûşeya paxij de 2 hefte di sarincê de dimîne."
   },
-  "culturalNotes": "چیلە ڕەینۆ خواردنێکی نەریتی مەکسیکییە — بەردەوام لە بۆنە تایبەتەکاندا لەبەردەکرێت."
+  "culturalNotes": "Sîrê confit amûra kevnar a fransî ye ji bo mezzeyan û dewlemendkirina tama xwarinan."
 },
-"w-mx-048": {
-  "title": "چای دارچینی مەکسیکی",
+"w-fr-005": {
+  "title": "Confîtê hewşê",
   "ingredients": {
-    "w-mx-048-i1": {"name": "ئاو", "standardAmount": "٦ کۆپ"},
-    "w-mx-048-i2": {"name": "لەتی دارچینی مەکسیکی", "standardAmount": "٢"},
-    "w-mx-048-i3": {"name": "هەنگوین", "standardAmount": "بەپێی خواست"}
+    "w-fr-005-i1": {"name": "Lingên hewşê", "standardAmount": "4 (250 g her yek)"},
+    "w-fr-005-i2": {"name": "Rûnê hewşê", "standardAmount": "750 ml"},
+    "w-fr-005-i3": {"name": "Xwê", "standardAmount": "4 çaykaşîk"},
+    "w-fr-005-i4": {"name": "Thym", "standardAmount": "⅓ tas"},
+    "w-fr-005-i5": {"name": "Merîwa", "standardAmount": "⅓ tas"},
+    "w-fr-005-i6": {"name": "Bîbiryana", "standardAmount": "⅓ tas"},
+    "w-fr-005-i7": {"name": "Marjoram", "standardAmount": "⅓ tas"},
+    "w-fr-005-i8": {"name": "Sîr", "standardAmount": "6 dev (qalîkirî û nîvkirî)"},
+    "w-fr-005-i9": {"name": "Pîvaza biçûk", "standardAmount": "1 (dîskên tenik)"},
+    "w-fr-005-i10": {"name": "Tozên bîbera reş", "standardAmount": "1 xwarikaşîk"},
+    "w-fr-005-i11": {"name": "Tozên kişnişê", "standardAmount": "1 xwarikaşîk"},
+    "w-fr-005-i12": {"name": "Stêrkên anîs", "standardAmount": "8"},
+    "w-fr-005-i13": {"name": "Pelên defnê", "standardAmount": "2"},
+    "w-fr-005-i14": {"name": "Fêkiyên ardîç", "standardAmount": "2 xwarikaşîk"},
+    "w-fr-005-i15": {"name": "Qerenfûl", "standardAmount": "8"}
   },
   "instructions": {
-    "1": "ئاو و دارچین لە قەزەنێکی مامناوەنددا دابنێ و بۆ چەسکاندن بهێنە.",
-    "2": "با بۆ ٣-٥ خولەک بچەسکێت، پاشان لە ئاگر لایببە.",
-    "3": "با بۆ ٣٠ خولەکی تر ماوە بکە یان بەپێی خواست بەپێی توندی خواستراو.",
-    "4": "هەنگوین بەپێی خواست لەبخە.",
-    "5": "گەرم لەبەر بکە."
+    "1": "Xwê û biharatan di tasê de tevlihev bikin û li ser lingan bişûyin.",
+    "2": "Di qûtiya kûr de bicîh bikin, bi biharatan bipêçin, bikulin û 24 saet di sarincê de bicîh bikin.",
+    "3": "Piştî 24 saetan bi ava sar bişûyin û baş hişk bikin.",
+    "4": "Di tepsiya firnê de bicîh bikin, bi rûn û biharatan bipêçin û bi kaxizê aluminiumê bikulin.",
+    "5": "Di 100 °C de 2-3 saet heta goşt nerm bibe bipijin.",
+    "6": "Derxînin, hinekî sar bikin û rûn parzûn bikin di qûtiya girtî de.",
+    "7": "Hewşê di qûtiya kûr de bicîh bikin û bi rûnê parzûnkirî bipêçin; 6 meh di sarincê de dimîne.",
+    "8": "Ji bo dayînê di 200 °C de 10-15 xulek heta pelika perîq bipijin."
   },
-  "culturalNotes": "چای دارچینی مەکسیکی ڤەرمێکی نەریتییە زۆر بەناوبانگە لە مەکسیکۆ — بەتایبەتی لە کاتی جێژنەکان و بۆنە تایبەتەکاندا."
+  "culturalNotes": "Confîtê hewşê xwarina kevnar a fransî ye ku ling di rûnê xwe de hêdî tên pijandin; bi kartûfelên qelandî an sebzeyan re tê dayîn."
 },
-"w-mx-049": {
-  "title": "فلێتی ماسی لەگەڵ سۆسی سیر",
+"w-fr-006": {
+  "title": "Flamiche (tarta purrê)",
   "ingredients": {
-    "w-mx-049-i1": {"name": "فلێتی تیلاپیا یان ماسی دیکە", "standardAmount": "٦٨٠ گ"},
-    "w-mx-049-i2": {"name": "لیمۆ", "standardAmount": "١"},
-    "w-mx-049-i3": {"name": "خوێ و بێبی", "standardAmount": "بەپێی خواست"},
-    "w-mx-049-i4": {"name": "ڕۆنی سەوزە", "standardAmount": "¼ کۆپ"},
-    "w-mx-049-i5": {"name": "پەڕگە سیر", "standardAmount": "٦ (بە باریکی بڕاو)"},
-    "w-mx-049-i6": {"name": "مەزە", "standardAmount": "٣ ک.گ (ورد بڕاو)"},
-    "w-mx-049-i7": {"name": "ئارد (هەڵبژاردە)", "standardAmount": "٢ ک.گ"}
+    "w-fr-006-i1": {"name": "Ard", "standardAmount": "350 g"},
+    "w-fr-006-i2": {"name": "Masîk", "standardAmount": "175 g (piledana odeyê)"},
+    "w-fr-006-i3": {"name": "Xwê", "standardAmount": "pêngav"},
+    "w-fr-006-i4": {"name": "Şîr", "standardAmount": "7 xwarikaşîk"},
+    "w-fr-006-i5": {"name": "Toza karî", "standardAmount": "½ çaykaşîk"},
+    "w-fr-006-i6": {"name": "Purre", "standardAmount": "900 g (birîn)"},
+    "w-fr-006-i7": {"name": "Masîk", "standardAmount": "40 g"},
+    "w-fr-006-i8": {"name": "Zerdîkên hêkê", "standardAmount": "4 (3 ji bo mil + 1 ji bo xwerûn)"},
+    "w-fr-006-i9": {"name": "Crème fraîche", "standardAmount": "200 g"},
+    "w-fr-006-i10": {"name": "Hengivê muscat", "standardAmount": "¼ çaykaşîk"},
+    "w-fr-006-i11": {"name": "Xwê û bîbera reş", "standardAmount": "pêngav"}
   },
   "instructions": {
-    "1": "ماسییەکە بە خوێ، بێبی، و شەربەتی لیمۆ بەهار بکە. جودا بنێ لە کاتی ئامادەکردنی ماددەکانی تردا.",
-    "2": "ڕۆنەکە لە تاوەیەکی گەورەدا لەسەر ئاگرێکی کەم گەرم بکە. کاتێک گەرم بوو، پارچە سیرەکان بیکە تاکە زەرد بن. دڵنیابە دەستبەجێ دەرهێنە کاتێک سووکی زەرد بن — ئەگەر درێژتر بهێڵیتەوە، تامی توون دەبەن.",
-    "3": "ئەگەر ئاردەکە بەکاردەهێنیت، فلێتەکان بە سووکی بە ئاردەکە بپۆشە. پاشان، ئاگر بۆ مامناوەند-بەرز ببەزێنە لەسەر تاوەکە کە سیرەکەت تێدا برژاند. کاتێک گەرم بوو، ماسییەکە لەبخە و لە هەردوو لایەک لێی بدە. کاتی برژان بەپێی ئەستووری ماسییەکە دەگۆڕێت — تەکڕێ ٢-٣ خولەک لە هەر لایەک بۆ فلێتەکانی ١ سم ئەستوور، و ٥-٧ خولەک بۆ ئەستوورترەکان.",
-    "4": "ماسییەکە لە تاوەکە دەرهێنە و لەسەر ڕاکی ساردبوونەوە دابنێ بە کاغەزی مەطبەخ لە ژێرەوە بۆ هەڵمگرتنی شەحمی زیادە.",
-    "5": "ماسییەکە لەبەر بکە بە مەزە بڕاو و پارچە سیرە زەردەکان ڕازێنراو."
+    "1": "Ard, masîk û xwê di tasê mezin de heta tekstûra qimikî bişûyin.",
+    "2": "Şîr hêdî hêdî zêde bikin heta hevir bibe.",
+    "3": "Bikulin û 30 xulek di sarincê de bicîh bikin.",
+    "4": "Masîk di tavaya mezin de helînin, purrê heta nerm û zêrîn bibe biqelînin.",
+    "5": "Karî zêde bikin û deqeyek tevlihev bikin.",
+    "6": "Di tasê din de zerdîk, crème fraîche, muscat, xwê û bîber tevlihev bikin.",
+    "7": "Purrê qelandî di tevlîheviya hêkê de tevlihev bikin.",
+    "8": "Hevirê li ser quntarê vekin û milê bijîn.",
+    "9": "Bi hevira jorîn bipêçin û derînan bigirin.",
+    "10": "Bi zerdîka mayî xwerûn bikin.",
+    "11": "Di 180 °C de 45 xulek heta zêrîn bipijin.",
+    "12": "10 xulek bihêlin û bidin."
   },
-  "culturalNotes": "ئەم خواردنە یەکێکە لە خواردنە بەناوبانگەکانی چێشتی مەکسیکی — بەردەوام وەک ژەمی سەرەکی لە کۆبوونەوە خێزانییەکاندا لەبەردەکرێت."
+  "culturalNotes": "Flamiche tarta purrê ya kevnar a bakurê Fransayê ye."
 },
-"w-mx-050": {
-  "title": "کێسادیای فلفلە سەوز و پەنیری",
+"w-fr-007": {
+  "title": "Kartûfelên fondant",
   "ingredients": {
-    "w-mx-050-i1": {"name": "تۆرتیلای ئارد", "standardAmount": "٤ دانەی ٢٥ سم"},
-    "w-mx-050-i2": {"name": "پەنیری چێدەر یان پێپەر جاک", "standardAmount": "١ کۆپ (هاون)"},
-    "w-mx-050-i3": {"name": "فلفلە پۆبلانۆی برژاو", "standardAmount": "٢ (وەردکراو)"},
-    "w-mx-050-i4": {"name": "سالسا (بۆ ڕازاندنەوە)", "standardAmount": "بەپێی خواست"},
-    "w-mx-050-i5": {"name": "گواکامۆلە (بۆ ڕازاندنەوە)", "standardAmount": "بەپێی خواست"}
+    "w-fr-007-i1": {"name": "Kartûfelên mezin ên ardkirî", "standardAmount": "4 (400 g her yek)"},
+    "w-fr-007-i2": {"name": "Xwê", "standardAmount": "¾ çaykaşîk"},
+    "w-fr-007-i3": {"name": "Bîbara reş", "standardAmount": "½ çaykaşîk"},
+    "w-fr-007-i4": {"name": "Rûnê zeytûnê yê bêkar", "standardAmount": "2 xwarikaşîk"},
+    "w-fr-007-i5": {"name": "Masîka bê xwê", "standardAmount": "3 xwarikaşîk (50 g)"},
+    "w-fr-007-i6": {"name": "Thym", "standardAmount": "6 qîv"},
+    "w-fr-007-i7": {"name": "Ava goştê mirîşkê an sebzeyan", "standardAmount": "240 ml (xwê kêm)"}
   },
   "instructions": {
-    "1": "کۆمالێک بۆ خولەکێک لەسەر ئاگرێکی مامناوەند-کەم پێشوەختە گەرم بکە.",
-    "2": "تۆرتیلاکان بۆ خولەکێک لە یەک لا گەرم بکە، بیانسوڕێنەوە و کەمێک لە پەنیرییەکە لەسەر یەکێک لە تۆرتیلاکان بڕژێنە، فلفلە لەبخە، و بە تۆرتیلایەکی تر لەسەرەوە دابپۆشە و بە سپاتوولا بە نەرمی فشار بدە.",
-    "3": "جار بە جار بیانسوڕێنەوە تاکە کێسادیاکان لە هەر لایەک زەردی قاوەیی بن و پەنیرییەکە توێتەوە.",
-    "4": "بە تۆرتیلا و ماددە ماوەکان دووبارە بکە.",
-    "5": "ئەگەر دەتەوێت بە سالسا و گواکامۆلە لەسەرەوە ڕازێنە."
+    "1": "Firnê li ser 200 °C germ bikin (fan 180).",
+    "2": "Kartûfelan bi silindirên 6 cm dirêjahiya 7 cm birîn; bi 8 silindiran bibeş bikin.",
+    "3": "Hişk bikin û bi nîv rûn, xwê û bîber bişûyin.",
+    "4": "Rûnê mayî di tavaya firnê de li ser agirê navîn-bilind germ bikin, her alî 6-8 xulek heta zêrîn bipijin.",
+    "5": "Masîk û thym zêde bikin; dema helîne li ser kartûfelan bijîn. Ava goştê bijîn, bikelînin û di firnê de 30 xulek bipijin, piştî 15 xulekan dîsa bijîn.",
+    "6": "Dîsa bijîn û bidin. Bi şêwaza xwaringehê bi steak, sosê béarnaise û fasûlên masîkê re."
   },
-  "culturalNotes": "کێسادیا خواردنێکی بەناوبانگە لە مەکسیکۆیە — وەک چرپە یان ژەمی سەرەکی لەبەردەکرێت."
+  "culturalNotes": "Kartûfelên fondant kartûfelên fransî yên di firnê de ne: ji derve zêrîn, ji hundir nerm."
+},
+"w-fr-008": {
+  "title": "Krêpên çikolata",
+  "ingredients": {
+    "w-fr-008-i1": {"name": "Masîka bê xwê", "standardAmount": "25 g"},
+    "w-fr-008-i2": {"name": "Ard", "standardAmount": "150 g"},
+    "w-fr-008-i3": {"name": "Hêk", "standardAmount": "2 mezin"},
+    "w-fr-008-i4": {"name": "Şîrê temam", "standardAmount": "275 ml"},
+    "w-fr-008-i5": {"name": "Xwê", "standardAmount": "pêngav"},
+    "w-fr-008-i6": {"name": "Toza vanîlî", "standardAmount": "¼ çaykaşîk (bixwestin)"},
+    "w-fr-008-i7": {"name": "Toza şekirê", "standardAmount": "1 xwarikaşîk"},
+    "w-fr-008-i8": {"name": "Kakaoyê bê şekir", "standardAmount": "1 xwarikaşîk"}
+  },
+  "instructions": {
+    "1": "Masîk di tavaya krêpan de helînin (dikarin hinekî sor bikin ji bo bîhnxweşiya gûzoyî).",
+    "2": "Di tasê mezin de ard, toza şekirê, kakao, xwê û vanîlî tevlihev bikin; li navberê hêkan bişkînin û bi masîka helî re heta nerm bibe tevlihev bikin.",
+    "3": "Çarêka şîrê zêde bikin, paşê mayî hêdî hêdî. Tevlîhevî şil e; wisa divê.",
+    "4": "Masîka zêde binefînin, li ser agirê navîn-bilind germ bikin û kepçeyek tevlîheviyê bijîn û bihêlin tenik belav bibe.",
+    "5": "2-3 xulek heta bûlq bipijin, bigerînin û çend xulek din bipijin.",
+    "6": "Agir hinekî kêm bikin, tavayê binefînin û ji bo 6-8 krêpan dubare bikin."
+  },
+  "culturalNotes": "Krêp taşta hezkirî ya fransî ye, bi çikolata, eşel an tirîjan re tê dayîn."
+},
+"w-fr-009": {
+  "title": "Trûfên ganasha çikolata",
+  "ingredients": {
+    "w-fr-009-i1": {"name": "Çikolata tarî", "standardAmount": "285 g"},
+    "w-fr-009-i2": {"name": "Masîka bê xwê", "standardAmount": "30 g"},
+    "w-fr-009-i3": {"name": "Qeşayî", "standardAmount": "125 ml"},
+    "w-fr-009-i4": {"name": "Hindistana hêsandî", "standardAmount": "125 g"},
+    "w-fr-009-i5": {"name": "Kakaoyê bê şekir", "standardAmount": "60 g"},
+    "w-fr-009-i6": {"name": "Bademê erdê yê hêsandî", "standardAmount": "125 g"},
+    "w-fr-009-i7": {"name": "Konfetiyên rengîn", "standardAmount": "85 g"},
+    "w-fr-009-i8": {"name": "Toza şekirê", "standardAmount": "60 g"}
+  },
+  "instructions": {
+    "1": "Çikolata, qeşayî û masîk di tasa li dijî germê de bicîh bikin û di mîkrodalga de 4 caran 30 çirke germ bikin û di navbera wan de tevlihev bikin.",
+    "2": "Tasê bikulin, 5 xulek bihêlin û heta nerm bibe tevlihev bikin; ganash amade ye.",
+    "3": "6 saet di sarincê de bicîh bikin heta tund bibe. Di cemidandirê de nekin.",
+    "4": "Tepsiya trûfan jî sar bikin.",
+    "5": "Piştî 6 saetan bi kaşîk topên biçûk çêbikin.",
+    "6": "Di hindistan, kakao, bademê erdê, konfetî an toza şekirê de bigerînin.",
+    "7": "Li ser tepsiya sar bicîh bikin û temam sar bikin."
+  },
+  "culturalNotes": "Ganash tevlîheviya hevrîşimî ya çikolata û qeşayî ye, dila gelek şîrîniyên fransî ye."
+},
+"w-fr-010": {
+  "title": "Gratin dauphinois",
+  "ingredients": {
+    "w-fr-010-i1": {"name": "Kartûfel", "standardAmount": "750 g"},
+    "w-fr-010-i2": {"name": "Sîr", "standardAmount": "2-3 dev (birîn)"},
+    "w-fr-010-i3": {"name": "Şîrê temam", "standardAmount": "275 ml"},
+    "w-fr-010-i4": {"name": "Qeşayiya giran", "standardAmount": "150 ml"},
+    "w-fr-010-i5": {"name": "Hengivê muscat", "standardAmount": "¼ çaykaşîk"},
+    "w-fr-010-i6": {"name": "Xwê û bîbera reş", "standardAmount": "bi tam"},
+    "w-fr-010-i7": {"name": "Thym taze", "standardAmount": "½ çaykaşîk"},
+    "w-fr-010-i8": {"name": "Masîk", "standardAmount": "hinek (ji bo rûyê)"},
+    "w-fr-010-i9": {"name": "Emmental an gruyère", "standardAmount": "100 g (bixwestin)"}
+  },
+  "instructions": {
+    "1": "Kartûfelan qalî bikin (an pelikê bihêlin) û bi dîskên 3 mm birîn.",
+    "2": "Firnê li ser 190 °C germ bikin (fan 170).",
+    "3": "Şîr, qeşayî û sîr bikelînin, agir kêm bikin û muscat, xwê, bîber û kartûfelan zêde bikin.",
+    "4": "Qareman 5 xulek bi gerîna dîskan bipijin. Penîr dikare li vir zêde bibe.",
+    "5": "Rûyê bi masîkê xwerûn bikin û kartûfelan wekhev bicîh bikin.",
+    "6": "Qareman 45 xulek heta zêrîn bipijin."
+  },
+  "culturalNotes": "Xwarina kevnar a herêma Dauphiné ye: dîskên kartûfelên tenik di şîr, qeşayî û muscat de."
+},
+"w-fr-011": {
+  "title": "Pain d'épices (kêka biharatan)",
+  "ingredients": {
+    "w-fr-011-i1": {"name": "Av", "standardAmount": "250 ml"},
+    "w-fr-011-i2": {"name": "Eşel", "standardAmount": "255 g"},
+    "w-fr-011-i3": {"name": "Hêl", "standardAmount": "4 pakêt"},
+    "w-fr-011-i4": {"name": "Qerenfûl", "standardAmount": "2"},
+    "w-fr-011-i5": {"name": "Stêrka anîs", "standardAmount": "2"},
+    "w-fr-011-i6": {"name": "Şekira şeqa", "standardAmount": "100 g"},
+    "w-fr-011-i7": {"name": "Masîka bê xwê", "standardAmount": "155 g"},
+    "w-fr-011-i8": {"name": "Ardê çewdirê", "standardAmount": "255 g"},
+    "w-fr-011-i9": {"name": "Toza pijandinê", "standardAmount": "2 çaykaşîk"},
+    "w-fr-011-i10": {"name": "Xwê", "standardAmount": "pêngavek mezin"},
+    "w-fr-011-i11": {"name": "Tevlîheviya biharatan", "standardAmount": "1½ çaykaşîk"},
+    "w-fr-011-i12": {"name": "Bademê erdê", "standardAmount": "1 xwarikaşîk"}
+  },
+  "instructions": {
+    "1": "Qalîba kêkê bi masîkê xwerûn bikin û firnê li ser 180 °C germ bikin (fan 160).",
+    "2": "Av, eşel, şekir û biharatan di qezanê de bikelînin, masîk helînin, agir vemirînin û 5 xulek bihêlin.",
+    "3": "Ardê çewdirê, toza pijandinê, xwê û tevlîheviya biharatan di tasê de tevlihev bikin û tevlîheviya eşela germ hêdî hêdî zêde bikin heta nerm bibe.",
+    "4": "Qalîbê bi du sêyî dagirin û 40-50 xulek heta qehweyî kûr bipijin; dirêj divê paxij derkeve.",
+    "5": "10 xulek di qalîbê de bihêlin û li ser torê bigerînin. Bi bademê erdê û stêrka anîs xemlînin."
+  },
+  "culturalNotes": "Pain d'épices kêka biharatan a kevnar a fransî ye bi bîhnxweşiya germ a biharatan."
+},
+"w-fr-012": {
+  "title": "Pissaladière",
+  "ingredients": {
+    "w-fr-012-i1": {"name": "Rûnê zeytûnê", "standardAmount": "4 xwarikaşîk + ji bo tepsiyê"},
+    "w-fr-012-i2": {"name": "Pîvaz", "standardAmount": "1 kg (dîskên pir tenik)"},
+    "w-fr-012-i3": {"name": "Thym", "standardAmount": "desteke biçûk"},
+    "w-fr-012-i4": {"name": "Pelên defnê", "standardAmount": "2"},
+    "w-fr-012-i5": {"name": "Fîlêtên anchovy", "standardAmount": "80 g (parzûnkirî)"},
+    "w-fr-012-i6": {"name": "Zeytûnên reş", "standardAmount": "80 g (bê gûl)"},
+    "w-fr-012-i7": {"name": "Parmezan", "standardAmount": "20 g (hêsandî)"},
+    "w-fr-012-i8": {"name": "Masîka sar a bê xwê", "standardAmount": "200 g"},
+    "w-fr-012-i9": {"name": "Ava limonê", "standardAmount": "1 çaykaşîk"},
+    "w-fr-012-i10": {"name": "Ardê bihêz", "standardAmount": "200 g + ji bo quntarê"},
+    "w-fr-012-i11": {"name": "Xwê", "standardAmount": "1 çaykaşîk"},
+    "w-fr-012-i12": {"name": "Ava qeşayî", "standardAmount": "125 ml"}
+  },
+  "instructions": {
+    "1": "Hevir: masîk bi mezinahiyekê birîn, di ardê de di tasê de birijîn û 30 xulek (an saetek) di sarincê de bicîh bikin.",
+    "2": "Ava limonê û 125 ml ava qeşayî tevlihev bikin. Ardê mayî û xwê di tasê mezin de bicîh bikin, masîka cemidandî zêde bikin û bi tiliyan bişûyin.",
+    "3": "Du sêyî ava limonê bijîn û bi çêrê girêdin. Heke hişk be hinek av zêde bikin. Hevir perîq e lê bi zextê tê girêdan.",
+    "4": "Li ser quntarê vekin, bi sivikî bi sînorê dirêj bikelînin, bipêçin û 20 xulek sar bikin.",
+    "5": "Bi sînorê 20×30 cm vekin; xetên masîkê dimînin xuya.",
+    "6": "Rûnê zeytûnê di tavaya mezin de li ser agirê navîn-bilind germ bikin, pîvaz bi xwê, thym û defnê bicîh bikin û hêdî 40-45 xulek bi tevlihevkirinê bipijin heta wek jelliyê qehweyî kûr bibe. Sar bikin.",
+    "7": "Tepsiyê bi rûnê bi sivikî xwerûn bikin, hevirê 25×35 cm vekin, belav bikin, lûleyan çêbikin û 20 xulek sar bikin.",
+    "8": "Firnê li ser 220 °C germ bikin (fan 200). Pîvaz belav bikin, anchovy bi şêwaza lozengê bicîh bikin, zeytûnan li navberê bicîh bikin. Parmezan birijîn û 30 xulek bipijin.",
+    "9": "Thym birijîn, 10 xulek bihêlin û çargoşe birîn."
+  },
+  "culturalNotes": "Pissaladière xwarina provensal e: hevira tenik bi pîvaza karamelî, anchovy û zeytûnên reş."
+},
+"w-fr-013": {
+  "title": "Ratatouille",
+  "ingredients": {
+    "w-fr-013-i1": {"name": "Rûnê zeytûnê", "standardAmount": "⅓-¼ tas"},
+    "w-fr-013-i2": {"name": "Pîvaz", "standardAmount": "1 mezin (dîskên tenik)"},
+    "w-fr-013-i3": {"name": "Bîbera sor", "standardAmount": "1 (perçe)"},
+    "w-fr-013-i4": {"name": "Bîbera zer", "standardAmount": "1 (perçe)"},
+    "w-fr-013-i5": {"name": "Sîr", "standardAmount": "6 dev (dîskên tenik)"},
+    "w-fr-013-i6": {"name": "Zucchini", "standardAmount": "680 g (perçe)"},
+    "w-fr-013-i7": {"name": "Balincan", "standardAmount": "1 biçûk (perçe)"},
+    "w-fr-013-i8": {"name": "Firîngiyên roma", "standardAmount": "4 (birîn)"},
+    "w-fr-013-i9": {"name": "Bîbiryana taze", "standardAmount": "¼ çaykaşîk (birîn)"},
+    "w-fr-013-i10": {"name": "Thym taze", "standardAmount": "1 çaykaşîk (birîn)"},
+    "w-fr-013-i11": {"name": "Xwê", "standardAmount": "bi tam"},
+    "w-fr-013-i12": {"name": "Bîber", "standardAmount": "bi tam"}
+  },
+  "instructions": {
+    "1": "Tava an qezana mezin baş germ bikin.",
+    "2": "Rûnê zeytûnê, pîvaz û bîber bicîh bikin û heta reng bigirin biqelînin.",
+    "3": "Sîr, zucchini û balincan bicîh bikin û heta reng bigirin biqelînin.",
+    "4": "Firîngî, bîbiryana, thym, xwê û bîber tevlihev bikin.",
+    "5": "Germ an sar bidin."
+  },
+  "culturalNotes": "Ratatouille xwarina sebzeyan a navdar a fransî ye ku ji sebzeyên havînê hatî çêkirin."
+},
+"w-fr-014": {
+  "title": "Salata niçoise",
+  "ingredients": {
+    "w-fr-014-i1": {"name": "Sîr", "standardAmount": "1 dev"},
+    "w-fr-014-i2": {"name": "Xwê", "standardAmount": "bi tam"},
+    "w-fr-014-i3": {"name": "Rûnê zeytûnê", "standardAmount": "80 ml"},
+    "w-fr-014-i4": {"name": "Ava limonê ya taze", "standardAmount": "2 xwarikaşîk"},
+    "w-fr-014-i5": {"name": "Xerdela dijon", "standardAmount": "1 xwarikaşîk"},
+    "w-fr-014-i6": {"name": "Pîvaza biçûk", "standardAmount": "1 (birîn)"},
+    "w-fr-014-i7": {"name": "Bîbara reş", "standardAmount": "bi tam"},
+    "w-fr-014-i8": {"name": "Kartûfelên biçûk ên nû", "standardAmount": "450 g (pijî)"},
+    "w-fr-014-i9": {"name": "Fasûlên kesk", "standardAmount": "225 g (buxarkirî)"},
+    "w-fr-014-i10": {"name": "Firîngiyên cherry", "standardAmount": "340 g (nîvkirî)"},
+    "w-fr-014-i11": {"name": "Zeytûnên reş (niçoise)", "standardAmount": "120 ml"},
+    "w-fr-014-i12": {"name": "Artîşokên hilanîn", "standardAmount": "225 g"},
+    "w-fr-014-i13": {"name": "Anchovy", "standardAmount": "8 fîlêt (şuştî, parzûnkirî)"},
+    "w-fr-014-i14": {"name": "Hêkên tund", "standardAmount": "4 (nîvkirî)"},
+    "w-fr-014-i15": {"name": "Xiyar", "standardAmount": "1 biçûk (dîskên tenik)"},
+    "w-fr-014-i16": {"name": "Tûna di rûnê de", "standardAmount": "3 qûtî (115 g her yek, parzûnkirî)"},
+    "w-fr-014-i17": {"name": "Pîvaza mor", "standardAmount": "½ (dîskên tenik)"}
+  },
+  "instructions": {
+    "1": "Sos: sîr tenik birîn, xwê birijîn û bi çêrê heta sosê bişûyin. Di tasê de bicîh bikin û bi rûn, ava limonê, xerdel, pîvaz, xwê û bîber re tevlihev bikin.",
+    "2": "Salat: hemû xwarinan di rêzan de li ser tepsiya mezin bicîh bikin, sosê bijîn û xwê-bîber bicîh bikin."
+  },
+  "culturalNotes": "Salata niçoise salata kevnar a Niceê ye, dewlemend bi sebze û masiyan."
+},
+"w-vn-001": {
+  "title": "Bò bía (rolên viyetnamî yên jicama û sosîsê)",
+  "ingredients": {
+    "w-vn-001-i1": {"name": "Karîdesê ziwî", "standardAmount": "½ tas"},
+    "w-vn-001-i2": {"name": "Jicama", "standardAmount": "1 mezin"},
+    "w-vn-001-i3": {"name": "Gizêr", "standardAmount": "1 navîn"},
+    "w-vn-001-i4": {"name": "Pîvaza biçûk", "standardAmount": "4 mezin"},
+    "w-vn-001-i5": {"name": "Sosîsên goştê gur ên helal ên çînî", "standardAmount": "4"},
+    "w-vn-001-i6": {"name": "Hêk", "standardAmount": "5"},
+    "w-vn-001-i7": {"name": "Xwêya deryayê", "standardAmount": "½ çaykaşîk"},
+    "w-vn-001-i8": {"name": "Reyhanê taylandî", "standardAmount": "desteke biçûk"},
+    "w-vn-001-i9": {"name": "Kaxizên birincê yên ziwî", "standardAmount": "1 pakêt"},
+    "w-vn-001-i10": {"name": "Rûnê sebzeyan", "standardAmount": "3 xwarikaşîk"}
+  },
+  "instructions": {
+    "1": "Karîdesê ziwî di ava germ de 10 xulek heta nerm bibe hilin, parzûn bikin.",
+    "2": "Jicama qalî bikin û bi lîneyên tenik birîn. Gizêr qalî bikin, ewil aloz birîn û paşê bi lîneyên tenik. Pîvaza biçûk qalî bikin û tenik birîn.",
+    "3": "Qareman xwarikaşîk rûn di wokê de li ser agirê bilind germ bikin. Pîvaz qareman 20 çirke biqelînin. Karîdes zêde bikin û 20 çirke din biqelînin. Jicama û gizêr zêde bikin, wekhev biqelînin û heta nerm bibe qareman 15 xulek bipijin. Xwê zêde bikin û ber bi tasê veguherînin.",
+    "4": "Di woka mezin de av bikelînin û sosîsan qareman 5 xulek bipijin. Derxînin, sar bikin û bi dîskên tenik ên aloz birîn.",
+    "5": "Qareman xwarikaşîk rûn di woka vala de li ser agirê navîn germ bikin, bi firçe an bi danezînê belav bikin. Nîv hêka rijandî bijîn û bihêlin tenik belav bibe. Heta xum bibe qareman 30 çirke bipijin û ber bi tepsiyê veguherînin. Bi rûn û hêka mayî re dubare bikin. Du crepeyan yek li ser yekê bicîh bikin, bigerînin û bi lîneyên tenik birîn.",
+    "6": "Kaxiza birincê bilez hilin û li ser tepsiya mezin belav bikin. Pelên reyhanê li jêr bicîh bikin, paşê tevlîheviya jicama-gizêr-karîdes, lîneyên hêkê û dîskên sosîsê. Ji jêr bigerînin heta nîv, derînan bigerînin nav hundir û bigerînin temam bikin.",
+    "7": "Bi sosê bademê erdê bidin."
+  },
+  "culturalNotes": "Ev rolên viyetnamî wek Bì cuốn jî tên navkirin; wek mezze an xwarina sivik tên dayîn."
+},
+"w-vn-002": {
+  "title": "Bò nướng lá lốt (goştê gur ê girilê di pelê betel de)",
+  "ingredients": {
+    "w-vn-002-i1": {"name": "Kîmaya goştê gur a rûnî", "standardAmount": "340 g"},
+    "w-vn-002-i2": {"name": "Pîvaza biçûk a birîn", "standardAmount": "2 xwarikaşîk"},
+    "w-vn-002-i3": {"name": "Sîrê birîn", "standardAmount": "1 xwarikaşîk"},
+    "w-vn-002-i4": {"name": "Bîbara reş a hêsandî", "standardAmount": "¼ çaykaşîk"},
+    "w-vn-002-i5": {"name": "Şekir", "standardAmount": "½ çaykaşîk"},
+    "w-vn-002-i6": {"name": "Sosa masiyê", "standardAmount": "2 xwarikaşîk"},
+    "w-vn-002-i7": {"name": "Sosa oyster", "standardAmount": "1 xwarikaşîk"},
+    "w-vn-002-i8": {"name": "Toza ava goştê mirîşkê", "standardAmount": "½ çaykaşîk"},
+    "w-vn-002-i9": {"name": "Ajînomoto", "standardAmount": "¼ çaykaşîk (bixwestin)"},
+    "w-vn-002-i10": {"name": "Pelên betel ên kovî", "standardAmount": "25-30"}
+  },
+  "instructions": {
+    "1": "Pelan baş bişûyin û bi tirmikê hişk bikin. Hinek qîv hilanîn ji bo girêdana rolan.",
+    "2": "Di tasê mezin de kîmayê bi pîvaza biçûk, sîr, bîber, şekir, sosa masiyê, sosa oyster, toza avê û ajînomoto (bixwestin) tevlihev bikin.",
+    "3": "Pelek bi aliyê ronahî ber bi jêr ve û devê wî ya tenik ber bi jêr ve bicîh bikin. Li navberê qareman 2 xwarikaşîk mil bicîh bikin, devê tenik li ser milê bigerînin û bi baldarî bigerînin. Qîv di rolê de bitikin ku nevekeve. Heke qîv nerm be bi çêra biçûk kunek çêbikin û qîv bigerînin nav hundir. Qîv ber bi jêr ve bicîh bikin. Bi mayî re dubare bikin.",
+    "4": "Rolan li ser girilê ji bo tama dûmanê bipijin, an di hinek rûn de qareman 2 xulek her alî biqelînin.",
+    "5": "Di tasê de bi noodleyên tenik, marûlê birîn û biharata viyetnamî bidin. Bademê erdê yê bizotî birijîn û bi sosê masiyê ji bo têketinê bidin. Bixwestin kaxizên birincê ji bo gerîna xwe bidin."
+  },
+  "culturalNotes": "Goştê gur di pelê betel de xwarina kevnar a viyetnamî ye ku carinan di bûyerên taybet de tê dayîn."
+},
+"w-vn-003": {
+  "title": "Wafflên pandan (bánh kẹp lá dứa)",
+  "ingredients": {
+    "w-vn-003-i1": {"name": "Masîk", "standardAmount": "2 xwarikaşîk"},
+    "w-vn-003-i2": {"name": "Ardê birincê", "standardAmount": "1½ tas"},
+    "w-vn-003-i3": {"name": "Nîşasteya tapioka", "standardAmount": "½ tas"},
+    "w-vn-003-i4": {"name": "Ardê genim", "standardAmount": "½ tas"},
+    "w-vn-003-i5": {"name": "Toza pijandinê", "standardAmount": "1 xwarikaşîk"},
+    "w-vn-003-i6": {"name": "Xwê", "standardAmount": "¼ çaykaşîk"},
+    "w-vn-003-i7": {"name": "Hêk", "standardAmount": "2 mezin"},
+    "w-vn-003-i8": {"name": "Şekir", "standardAmount": "½ tas"},
+    "w-vn-003-i9": {"name": "Şîrê hindistan", "standardAmount": "1½ tas"},
+    "w-vn-003-i10": {"name": "Sosa pandan", "standardAmount": "¾ çaykaşîk"}
+  },
+  "instructions": {
+    "1": "Masîk di mîkrodalga de li ser hêza kêm 30-45 çirke helînin. Tevlihev bikin û sar bikin.",
+    "2": "Ardê birincê, tapioka, ardê genim, toza pijandinê û xwê di tasê mezin de bigerînin.",
+    "3": "Hêk û şekir di tasê mezin de birijîn. Şîrê hindistan, masîka helî û sosa pandan zêde bikin û baş tevlihev bikin.",
+    "4": "Nîv tevlîheviya hişk zêde bikin, tevlihev bikin. Mayî zêde bikin û bi baldarî tevlihev bikin û kêlkeyên mezin rakirin. Tevlîheviyê 15 xulek bihêlin.",
+    "5": "Makîneya wafflê li ser herî bilind germ bikin. Qareman ⅔ tas tevlîheviyê bijîn û bi spatula belav bikin. Bigirtin û 4-5 xulek heta zêrîn bipijin.",
+    "6": "Wafflê bi darika bambû bilin û bi klîpsan ber bi torê veguherînin.",
+    "7": "Germ bidin."
+  },
+  "culturalNotes": "Wafflên pandan şîrîniya kevnar a viyetnamî ye bi bîhnxweşiya pandan û hindistan."
+},
+"w-vn-004": {
+  "title": "Bánh pía",
+  "ingredients": {
+    "w-vn-004-i1": {"name": "Ard", "standardAmount": "500 g"},
+    "w-vn-004-i2": {"name": "Şekir", "standardAmount": "250 g"},
+    "w-vn-004-i3": {"name": "Rûnê sebzeyan", "standardAmount": "100 ml"},
+    "w-vn-004-i4": {"name": "Hêk", "standardAmount": "2"},
+    "w-vn-004-i5": {"name": "Şîr", "standardAmount": "100 ml"},
+    "w-vn-004-i6": {"name": "Xwê", "standardAmount": "½ çaykaşîk"},
+    "w-vn-004-i7": {"name": "Milê pûdîngê", "standardAmount": "400 g"}
+  },
+  "instructions": {
+    "1": "Ard, şekir û xwê di tasê mezin de tevlihev bikin.",
+    "2": "Hêk, şîr û rûn zêde bikin û hevirek nerm bikelînin.",
+    "3": "Hevirê bikulin û 30 xulek bihêlin.",
+    "4": "Hevirê bi 12 perçeyên wekhev bibeş bikin û bi topan şekl bikin.",
+    "5": "Li navbera her topê mil bicîh bikin û bi hevirê bigirtin.",
+    "6": "Di qalîbên bánh pía de bicîh bikin û di firna 180 °C germkirî de bipijin.",
+    "7": "20-25 xulek heta zêrîn bipijin."
+  },
+  "culturalNotes": "Bánh pía şîrîniya qat-qat a kevnar a viyetnamî ye ji bo bûyerên taybet."
+},
+"w-vn-005": {
+  "title": "Bánh tráng trộn (salata kaxiza birincê ya viyetnamî)",
+  "ingredients": {
+    "w-vn-005-i1": {"name": "Sosa demerahind", "standardAmount": "100 g"},
+    "w-vn-005-i2": {"name": "Rûnê sebzeyan", "standardAmount": "4 xwarikaşîk"},
+    "w-vn-005-i3": {"name": "Devên sîrê", "standardAmount": "6"},
+    "w-vn-005-i4": {"name": "Sosa masiyê", "standardAmount": "2 xwarikaşîk"},
+    "w-vn-005-i5": {"name": "Şekira krîstal", "standardAmount": "3 xwarikaşîk"},
+    "w-vn-005-i6": {"name": "Ajînomoto", "standardAmount": "½ çaykaşîk (bixwestin)"},
+    "w-vn-005-i7": {"name": "Perçeyên bîberê", "standardAmount": "1 xwarikaşîk (bixwestin)"},
+    "w-vn-005-i8": {"name": "Kalamarê ziwî", "standardAmount": "200 g"},
+    "w-vn-005-i9": {"name": "Karîdesê ziwî", "standardAmount": "100 g"},
+    "w-vn-005-i10": {"name": "Goştê gur ê ziwî", "standardAmount": "100 g"},
+    "w-vn-005-i11": {"name": "Kaxiza birincê ya ziwî", "standardAmount": "170 g"},
+    "w-vn-005-i12": {"name": "Rûnê bîberê yê viyetnamî", "standardAmount": "bi tam"},
+    "w-vn-005-i13": {"name": "Rûnê pîvazê yê viyetnamî", "standardAmount": "bi tam"},
+    "w-vn-005-i14": {"name": "Mangoyê negihîştî", "standardAmount": "1"},
+    "w-vn-005-i15": {"name": "Hêkên bildircîn ên tund", "standardAmount": "10"},
+    "w-vn-005-i16": {"name": "Pîvaza biçûk a qelandî", "standardAmount": "bi tam"},
+    "w-vn-005-i17": {"name": "Bademê erdê yê bizotî yê bê xwê", "standardAmount": "¼ tas"},
+    "w-vn-005-i18": {"name": "Pelên kişnişê yên viyetnamî", "standardAmount": "2 tas"}
+  },
+  "instructions": {
+    "1": "Sosa demerahind: di 2 tas ava germ de 15 xulek hilin, di parzûnê tenik de bişûyin û navê derxînin.",
+    "2": "Rûn di qezanê de li ser agirê navîn germ bikin. Sîr qareman 15 çirke biqelînin. Demerahind, sosa masiyê, şekir, ajînomoto û perçeyên bîberê zêde bikin û tevlihev bikin. Bihêlin deqeyek bixweşe. Ber bi tasa biçûk veguherînin.",
+    "3": "Rûnê sebzeyan di tavaya navîn de li ser agirê navîn germ bikin. Kalamar 30 çirke biqelînin; heke xwe bikevin bi chopstickan devê xwe liqînin. Bigerînin û 30 çirke din biqelînin. Derxînin. Dema sar bibe bi destan bi lîneyên dirêj birîn.",
+    "4": "Di heman rûnê de karîdes qareman deqe biqelînin, derxînin.",
+    "5": "Goştê gur bi destan bi lîneyên tenik birîn.",
+    "6": "Kaxiza birincê di tasê mezin de bicîh bikin. Sosa demerahind, rûnê bîberê û rûnê pîvazê zêde bikin û baş tevlihev bikin heta kaxiz sosê bimije. Destpêkê hişk xuya dike lê nerm dibe.",
+    "7": "Goşt, kalamar, karîdes, mango negihîştî û hêkên bildircîn zêde bikin û bi sivikî tevlihev bikin.",
+    "8": "Bi pîvaza qelandî, bademê erdê û kişnişa viyetnamî xemlînin."
+  },
+  "culturalNotes": "Bánh tráng trộn xwarinên navîn ên navdar ên viyetnamî ne ku wek salat an xwarina sivik tên xwarin."
+},
+"w-vn-006": {
+  "title": "Chè trôi nước (topên birinca lêdanî di şerbêta zencefîl de)",
+  "ingredients": {
+    "w-vn-006-i1": {"name": "Ardê birinca lêdanî", "standardAmount": "450 g"},
+    "w-vn-006-i2": {"name": "Ava germ", "standardAmount": "1¾ tas"},
+    "w-vn-006-i3": {"name": "Fasûlên mung ên parçekirî", "standardAmount": "¾ tas"},
+    "w-vn-006-i4": {"name": "Şekir", "standardAmount": "2 xwarikaşîk"},
+    "w-vn-006-i5": {"name": "Xwê", "standardAmount": "1 çaykaşîk"},
+    "w-vn-006-i6": {"name": "Av", "standardAmount": "6 tas"},
+    "w-vn-006-i7": {"name": "Zencefîlê taze", "standardAmount": "10 cm"},
+    "w-vn-006-i8": {"name": "Şekira xurmayê", "standardAmount": "280 g"},
+    "w-vn-006-i9": {"name": "Şîrê hindistan", "standardAmount": "bixwestin"},
+    "w-vn-006-i10": {"name": "Kuncîtê bizotî", "standardAmount": "¼ tas"}
+  },
+  "instructions": {
+    "1": "Ardê birinca lêdanî bi ava germ di tasê mezin de tevlihev bikin û hevirek nerm bikelînin. Avê zêde nekin. Bikulin û 30 xulek bihêlin.",
+    "2": "Hevirê bi 28 topên qareman 2,5 cm bibeş bikin.",
+    "3": "Fasûlên mung bişûyin heta av zelal bibe. Di qezana navîn de bi ava 2,5 cm bilind bipêçin, li ser agirê navîn bikelînin û hêdî bipijin heta nerm bibe di heman demê de şiklê xwe digire (qareman 15 xulek). Balê bikin ku nenepiqe. Parzûn bikin û vegere ser agirê vemirandî ji bo hişkbûnê. Xwê û şekir zêde bikin û bi kaşîka mezin heta sosê gewr hêsîn.",
+    "4": "Milê bi topên qareman 1,2 cm çêbikin (qareman 28). Heke nerm be hinekî sar bikin.",
+    "5": "Topa hevirê bi dîska qalind bikevin, topa milê li navberê bicîh bikin, bi hevirê bipêçin û di kefê destan de bi topê bê qelişandin bigerînin. Bihêlin mil dernekeve, wekî din top di pijandinê de tên şikandin. Bi hevira mayî re topên mirîka biçûk ên bê mil çêbikin. Bipêçandî bicîh bikin.",
+    "6": "Av û şekira xurmayê di qezana mezin de heta şekir helîne bikelînin. Zencefîl bi kaşîk qalî bikin û bi dîskên tenik birîn. Topan di şerbetê de hêdî bicîh bikin û li ser agirê navîn-kêm heta serav bipijin (qareman 20 xulek).",
+    "7": "Sosa hindistan a bixwestin amade bikin.",
+    "8": "Çend top û şerbet di tasê de bicîh bikin, sosa hindistan bijîn û kuncît birijîn. Germ an piledana odeyê bidin."
+  },
+  "culturalNotes": "Chè trôi nước şîrîniya kevnar a viyetnamî ye ji bo cejn û bûyerên taybet."
+},
+"w-vn-007": {
+  "title": "Jelîya giha (thạch sương sáo)",
+  "ingredients": {
+    "w-vn-007-i1": {"name": "Toza jelîya giha", "standardAmount": "50 g"},
+    "w-vn-007-i2": {"name": "Şekir", "standardAmount": "⅓ tas"},
+    "w-vn-007-i3": {"name": "Av", "standardAmount": "4 tas (beşkirî)"}
+  },
+  "instructions": {
+    "1": "Toza jelî di qezana navîn de bicîh bikin. Şekir û 2 tas av zêde bikin û heta toz helîne tevlihev bikin.",
+    "2": "2 tas av din zêde bikin û baş tevlihev bikin.",
+    "3": "Tevlîheviyê 10 xulek bihêlin.",
+    "4": "Li ser agirê navîn bi spatula tevlihev bikin û binê ku toz xistî gerînin.",
+    "5": "Piştî 3-4 xulekan dest bi xweşan dike û kêlk dibe. Bi wîskê bilez tevlihev bikin heta nerm bibe û heta kelînê tevlihev bikin. Agir vemirînin û deqeyek din heta nerm bê kêlk tevlihev bikin.",
+    "6": "Ber bi qûtiya li dijî germê veguherînin û bûlqan bi darikê bişkînin an bi kaşîk derxînin.",
+    "7": "Piledana odeyê saetek-anîv sar bikin.",
+    "8": "Herî kêm 2 saet di sarincê de bicîh bikin.",
+    "9": "Qûtiyê li ser quntara mezin bigerînin û jelî bi kuban birîn.",
+    "10": "Ji bo dayînê qeşa di tasa şîrîniyê de bicîh bikin, kubên jelî zêde bikin û hinek şekir birijîn.",
+    "11": "Bixwestin bi çêra diranên xweşik biçûk birîn û di vexwarina sar de bicîh bikin.",
+    "12": "Jelîya mayî di sarincê de heta hefteyek hilanîn."
+  },
+  "culturalNotes": "Jelîya giha şîrîniya kevnar a viyetnamî ye ku rojên havînê sar dike."
 }
 }
