@@ -8,7 +8,8 @@ Phases (resumable per-URL and per-dish via world/state.db):
   parse    fetch each source url, extract schema.org Recipe via extruct /
            recipe-scrapers, run deterministic halal gate. First clean source
            wins; a dish is 'rejected' only when every source fails or is haram.
-  llm      Qwen2.5-72B-Instruct-4bit halal verdict then bilingual ar/en rewrite
+  llm      Qwen2.5-72B-Instruct-4bit bilingual ar/en rewrite (halal
+           certification happens at the postdistill audit, not here)
            into the compact WorldRecipe authoring format.
 Output: world/distilled/<iso2>/<slug>.json + rejected/review/duplicates ledgers.
 """
@@ -159,15 +160,6 @@ def parse_phase(iso2: str, limit: int = 160) -> None:
 
 # ---------------- llm -------------------------------------------------------
 
-SYSTEM_HALAL = """You are a halal compliance classifier for recipes. Rules:
-- Pork and all pig derivatives are haram.
-- Alcohol (wine, beer, sake, mirin, spirits, liqueurs) and alcoholic
-  extracts/vinegars are haram, even when cooked off.
-- Unspecified gelatin and animal rennet are haram.
-- All seafood is halal. Meat is assumed halal-slaughtered.
-- Soy sauce, plain vinegar (apple/rice/distilled), fish sauce, cheese are halal.
-Reply with JSON only: {"verdict":"halal|haram|uncertain","reasons":[...],"triggering_items":[...]}"""
-
 SYSTEM_REWRITE = """You rewrite recipes for an Arabic-first multilingual cooking site.
 Return ONLY valid JSON with this shape:
 {"title_ar": "...", "title_en": "...",
@@ -265,28 +257,11 @@ def llm_phase(iso2: str) -> None:
         if dest.exists():
             continue
         src = json.loads(path.read_text())
-        # halal verdict
-        v = json_from(llm_call(model, recipe_text(src), SYSTEM_HALAL,
-                               max_tokens=512)) or {}
-        verdict = v.get('verdict', 'uncertain')
-        if verdict == 'haram':
-            with REJECTED.open('a') as f:
-                f.write(json.dumps({'iso2': iso2, 'dish': dish_slug,
-                                    'url': src['url'], 'stage': 'llm',
-                                    'reasons': v.get('reasons')},
-                                   ensure_ascii=False) + '\n')
-            if dish_by_slug.get(dish_slug):
-                c.execute(
-                    'UPDATE dishes SET status=? WHERE iso2=? AND dish=?',
-                    ('rejected', iso2, dish_by_slug[dish_slug]['dish']))
-                c.commit()
-            continue
-        if verdict == 'uncertain':
-            with REVIEW.open('a') as f:
-                f.write(json.dumps({'iso2': iso2, 'dish': dish_slug,
-                                    'url': src['url'],
-                                    'reasons': v.get('reasons')},
-                                   ensure_ascii=False) + '\n')
+        # Halal certification is done Devin-side at the postdistill
+        # handoff audit (plus the deterministic gate in halal.py at
+        # import). The local verdict was unreliable — it missed capocollo
+        # and passed pork salami — and cost an extra LLM call per source.
+        verdict = 'deferred'
         # rewrite — the expected dish name lets the model flag a source page
         # that actually teaches a different recipe (bad search match)
         dish_name = dish_by_slug.get(dish_slug)

@@ -137,8 +137,12 @@ must only match generated files (`public/recipes.json`, `public/sitemap.xml`).
 
 ## Workflow for a new batch or chapter
 
-1. **Import:** run `distill.py`, then `import.py` (the halal gate runs at the
-   distill step). Then run `npm run lint:halal`.
+1. **Import:** run `distill.py`, then `import.py`, then
+   `npm run lint:halal`. Halal certification is NOT done at the distill
+   step — the local model's verdicts missed hidden pork (capocollo,
+   finocchiona, chashu). The gate is `halal.py` at import plus a
+   **semantic audit of every recipe's ingredients/notes at the
+   postdistill handoff**, before any translation or `ready`.
 2. **Write the Arabic catalog text.** Check every title against `titleEn`
    for meaning, and use glossary spellings.
 3. **Build the English table**, then translate every other language **from
