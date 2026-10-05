@@ -1837,5 +1837,80 @@ export const WORLD_RECIPE_ESTIMATES: Record<string, RecipeEstimate> = {
       "fats": 0.95,
       "dairyEggs": 1.4
     }
+  },
+  "w-ma-029": {
+    "servings": 6,
+    "kcal": 430,
+    "protein": 31,
+    "fat": 31,
+    "carbs": 5,
+    "fiber": 1,
+    "sugar": 2,
+    "cost": {
+      "protein": 14.0,
+      "dairyEggs": 2.1,
+      "produce": 1.4,
+      "fats": 0.9,
+      "spices": 0.8
+    }
+  },
+  "w-mx-046": {
+    "servings": 6,
+    "kcal": 390,
+    "protein": 18,
+    "fat": 26,
+    "carbs": 17,
+    "fiber": 3,
+    "sugar": 5,
+    "cost": {
+      "produce": 5.4,
+      "dairyEggs": 5.6,
+      "fats": 1.6,
+      "grains": 0.4
+    }
+  },
+  "w-mx-048": {
+    "servings": 6,
+    "kcal": 35,
+    "protein": 0,
+    "fat": 0,
+    "carbs": 9,
+    "fiber": 0,
+    "sugar": 8,
+    "cost": {
+      "spices": 0.6,
+      "sweeteners": 0.9
+    }
+  },
+  "w-mx-049": {
+    "servings": 4,
+    "kcal": 320,
+    "protein": 34,
+    "fat": 15,
+    "carbs": 6,
+    "fiber": 1,
+    "sugar": 1,
+    "cost": {
+      "protein": 9.0,
+      "produce": 1.1,
+      "fats": 0.6,
+      "grains": 0.2,
+      "spices": 0.3
+    }
+  },
+  "w-mx-050": {
+    "servings": 4,
+    "kcal": 380,
+    "protein": 15,
+    "fat": 18,
+    "carbs": 39,
+    "fiber": 3,
+    "sugar": 3,
+    "cost": {
+      "grains": 1.6,
+      "dairyEggs": 3.0,
+      "produce": 1.7,
+      "spices": 0.2
+    }
   }
 };

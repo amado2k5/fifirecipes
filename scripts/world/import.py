@@ -136,6 +136,11 @@ def main() -> None:
 
     drafts = sorted(DISTILLED.glob(f'{args.iso}/*.json'))
     drafts = [d for d in drafts if d.parent.name == args.iso]
+    # manual vetoes survive re-distillation of alternates
+    vetoed = {ln.split('\t')[0].split('/')[1]
+              for ln in (Path(__file__).parent / 'vetoed.txt').read_text().splitlines()
+              if ln.startswith(f'{args.iso}/')}
+    drafts = [d for d in drafts if d.stem not in vetoed]
     print(f'{len(drafts)} drafts for {args.iso}')
     # idempotent: skip drafts already imported under a previous run
     imported_srcs = {e.get('sourceUrl') for e in existing}

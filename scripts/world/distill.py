@@ -253,8 +253,14 @@ def llm_phase(iso2: str) -> None:
     # primary sources first, then rescue.py alternates (named <slug>__<n>)
     candidates = sorted(src_dir.glob('*.json')) + \
         sorted((out_dir / 'alt').glob('*.json'))
+    vetoed = {ln.split('\t')[0].split('/')[1]
+              for ln in (Path(__file__).parent / 'vetoed.txt').read_text().splitlines()
+              if ln.startswith(f'{iso2}/')} if (Path(__file__).parent / 'vetoed.txt').exists() \
+        else set()
     for path in candidates:
         dish_slug = path.stem.split('__')[0]
+        if dish_slug in vetoed:
+            continue
         dest = out_dir / f'{dish_slug}.json'
         if dest.exists():
             continue
