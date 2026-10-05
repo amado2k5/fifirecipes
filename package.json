@@ -12,6 +12,8 @@
     "clean": "rm -rf dist server.js",
     "lint": "tsc --noEmit",
     "lint:lang": "python3 scripts/world/lint_language.py --quiet",
+    "lint:halal": "python3 scripts/world/halal_audit.py",
+    "check:world": "npm run -s lint:lang && npm run -s lint:halal && tsc --noEmit",
     "indexnow": "tsx scripts/submit-indexnow.ts",
     "tvdata": "tsx scripts/generate-tv-index.ts",
     "thumbnails": "tsx scripts/generate-thumbnails.ts"

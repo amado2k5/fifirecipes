@@ -6,6 +6,9 @@
 English (recipeTranslations.json) is assembled from the bilingual entry
 fields — no model needed. All other languages are translated per recipe by
 the local instruct model in batches; resumable per recipe id.
+
+Local-model output is NOT trusted: after every run, `npm run check:world`
+must pass (see docs/TRANSLATION_GUIDE.md).
 """
 import argparse
 import json
@@ -35,7 +38,14 @@ SYSTEM = """You translate recipe data for a cooking site. You get a JSON object:
 Translate every VALUE into {lang}. Keep keys and structure EXACTLY the same.
 Translate ingredient names and amounts naturally (units may stay in cups/tbsp
 or be metric — whichever reads better). Instructions must be clear and
-actionable. Reply with JSON only — no commentary, no markdown fences."""
+actionable.
+Write every value ONLY in the normal script of {lang} (Kurdish means
+Kurmanji in Latin letters). Never leave English, Spanish, Japanese or any
+other foreign words or characters in the text: translate them, or spell
+dish names in {lang}'s own script. Never mix scripts inside a word. No brand
+names; use the generic product. Do not copy native-script names in
+parentheses (e.g. 紅白なます). Never add pork or alcohol.
+Reply with JSON only — no commentary, no markdown fences."""
 
 
 def en_entry(e: dict) -> dict:

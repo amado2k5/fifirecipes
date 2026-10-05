@@ -2,11 +2,25 @@
 import re
 from pathlib import Path
 
-import yaml
-
 from textnorm import norm_any
 
-_RULES = yaml.safe_load((Path(__file__).parent / 'halal_rules.yaml').read_text())
+
+def _load_rules(text: str) -> dict:
+    try:
+        import yaml
+        return yaml.safe_load(text)
+    except ImportError:  # the rules file is plain "section:" + "- item" lists
+        rules, cur = {}, None
+        for ln in text.splitlines():
+            ln = ln.split('#', 1)[0].rstrip()
+            if ln and not ln.startswith(' ') and ln.endswith(':'):
+                cur = rules.setdefault(ln[:-1], [])
+            elif ln.strip().startswith('- ') and cur is not None:
+                cur.append(ln.strip()[2:].strip())
+        return rules
+
+
+_RULES = _load_rules((Path(__file__).parent / 'halal_rules.yaml').read_text())
 
 
 def _compile(terms: list[str]) -> re.Pattern:

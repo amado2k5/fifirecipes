@@ -1,3 +1,22 @@
+# Recipe text, translations and halal — required rules
+
+Before you add, translate or edit any recipe text (`src/data/world/*.json`,
+`src/data/recipeTranslations*.json`), read
+[docs/TRANSLATION_GUIDE.md](docs/TRANSLATION_GUIDE.md) and follow it. In short:
+
+- `npm run check:world` must exit 0 before any commit that touches `src/data/`.
+  It checks script consistency, structure, the Arabic glossary, halal and types.
+- Translate from the English table and rewrite whole fields. Use one script
+  per language and no foreign words. **Kurdish is Kurmanji in Latin script.**
+- Arabic titles must say what the dish is (compare with `titleEn`). Use the
+  spellings in `scripts/world/glossary_ar.json`.
+- No pork or alcohol, including hidden ones (chashu, mirin). Remove
+  non-halal recipes using the checklist in the guide, and veto their slugs.
+- Manually review a sample per language. The linter can't see wrong meanings
+  or the wrong language written in the right script.
+
+---
+
 # Recipe banner image pipeline — findings (2026-10-03)
 
 ## Location

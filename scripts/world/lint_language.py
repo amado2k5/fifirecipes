@@ -10,6 +10,11 @@ script is not allowed for the field's language is a finding. Catches glued
 fragments ('عصיר', 'ティース푼', 'Farciсsez'), whole fields in the wrong
 script (Sorani Arabic-script entries in the Kurmanji table), leftover English/Spanish words
 in non-Latin languages, and U+FFFD replacement characters.
+
+Also checks, per w-* recipe: every table has an entry; ingredient and
+instruction counts match the catalog; no empty strings; and Arabic
+ingredient names avoid the known mistranslations in glossary_ar.json.
+See docs/TRANSLATION_GUIDE.md.
 """
 import argparse
 import json
@@ -130,25 +135,44 @@ def main():
     args = ap.parse_args()
     findings = []
 
+    catalog = [r for f in sorted((ROOT / 'src/data/world').glob('*.json'))
+               for r in json.loads(f.read_text())]
+    glossary = {k: v for k, v in json.loads(
+        (ROOT / 'scripts/world/glossary_ar.json').read_text()).items() if not k.startswith('_')}
     if args.lang in (None, 'AR'):
-        for f in sorted((ROOT / 'src/data/world').glob('*.json')):
-            for r in json.loads(f.read_text()):
-                for p, s in catalog_fields(r):
-                    bad = check('AR', s)
-                    if bad:
-                        findings.append(dict(lang='AR', id=r['id'], path=p, bad=bad, text=s))
+        for r in catalog:
+            for p, s in catalog_fields(r):
+                bad = check('AR', s)
+                if bad:
+                    findings.append(dict(lang='AR', id=r['id'], path=p, bad=bad, text=s))
+            for i, ing in enumerate(r['ingredients']):
+                for key, g in glossary.items():
+                    hit = [t for t in g['not'] if key in ing[3].lower() and t in ing[0]]
+                    if hit:
+                        findings.append(dict(lang='AR', id=r['id'], path=f'ingredients[{i}][0]',
+                                             bad=[f'glossary:{key} -> {g["use"]}'], text=ing[0]))
 
     for f in sorted((ROOT / 'src/data').glob('recipeTranslations*.json')):
         lang = f.stem.replace('recipeTranslations', '') or 'En'
         if args.lang and args.lang != lang:
             continue
-        for rid, entry in json.loads(f.read_text()).items():
+        table = json.loads(f.read_text())
+        for r in catalog:
+            e = table.get(r['id'])
+            if e is None:
+                findings.append(dict(lang=lang, id=r['id'], path='', bad=['missing entry'], text=''))
+            elif (len(e.get('ingredients', {})), len(e.get('instructions', {}))) != \
+                    (len(r['ingredients']), len(r['steps'])):
+                findings.append(dict(lang=lang, id=r['id'], path='', text='', bad=[
+                    f"counts {len(e.get('ingredients', {}))}/{len(e.get('instructions', {}))} "
+                    f"!= catalog {len(r['ingredients'])}/{len(r['steps'])}"]))
+        for rid, entry in table.items():
             if not rid.startswith('w-'):
                 continue
             for p, s in walk(entry):
                 if p == 'chapter':
                     continue  # runtime uses CHAPTER_NAMES_*[chapterNumber]
-                bad = check(lang, s)
+                bad = check(lang, s) + ([] if s.strip() else ['empty'])
                 if bad:
                     findings.append(dict(lang=lang, id=rid, path=p, bad=bad, text=s))
 
