@@ -1,117 +1,544 @@
 {
-"w-ma-029": {
-  "title": "Kebab Maghdour",
+"w-fr-001": {
+  "title": "Bouillabaisse",
   "ingredients": {
-    "w-ma-029-i1": {"name": "Jagnięcina, cielęcina lub wołowina", "standardAmount": "1 kg (kostki 2,5 cm)"},
-    "w-ma-029-i2": {"name": "Cebula", "standardAmount": "2 średnie (starte lub drobno posiekane)"},
-    "w-ma-029-i3": {"name": "Czosnek", "standardAmount": "2-3 ząbki (starte lub posiekane)"},
-    "w-ma-029-i4": {"name": "Mielony imbir", "standardAmount": "½ łyżeczki"},
-    "w-ma-029-i5": {"name": "Czarny i biały pieprz", "standardAmount": "¼ łyżeczki"},
-    "w-ma-029-i6": {"name": "Natka pietruszki i kolendra", "standardAmount": "2 łyżki (posiekane)"},
-    "w-ma-029-i7": {"name": "Olej roślinny", "standardAmount": "1 łyżka"},
-    "w-ma-029-i8": {"name": "Olej roślinny i oliwa z oliwek", "standardAmount": "3 łyżki (zmieszane)"},
-    "w-ma-029-i9": {"name": "Sól", "standardAmount": "1 łyżeczka (do smaku)"},
-    "w-ma-029-i10": {"name": "Laska cynamonu", "standardAmount": "1 (opcjonalnie)"},
-    "w-ma-029-i11": {"name": "Słodka papryka w proszku", "standardAmount": "1 łyżka"},
-    "w-ma-029-i12": {"name": "Posiekana natka pietruszki", "standardAmount": "2 łyżki"},
-    "w-ma-029-i13": {"name": "Smen (przeterminowane masło)", "standardAmount": "1 łyżka (lub ghee)"},
-    "w-ma-029-i14": {"name": "Masło", "standardAmount": "2 łyżki"},
-    "w-ma-029-i15": {"name": "Jajka", "standardAmount": "3-6 (pół do jednego na osobę)"},
-    "w-ma-029-i16": {"name": "Oliwa z oliwek", "standardAmount": "6 łyżek (do smażenia)"},
-    "w-ma-029-i17": {"name": "Posiekana natka lub kolendra", "standardAmount": "1 łyżka"}
+    "w-fr-001-i1": {"name": "Skorpena", "standardAmount": "660 g"},
+    "w-fr-001-i2": {"name": "Okon morski", "standardAmount": "660 g"},
+    "w-fr-001-i3": {"name": "Czerwona barwena", "standardAmount": "660 g"},
+    "w-fr-001-i4": {"name": "Węgorz morski", "standardAmount": "660 g"},
+    "w-fr-001-i5": {"name": "Żabnica", "standardAmount": "660 g"},
+    "w-fr-001-i6": {"name": "Płaszczka", "standardAmount": "660 g"},
+    "w-fr-001-i7": {"name": "Ośmiornica", "standardAmount": "1 żywa (opcjonalnie)"},
+    "w-fr-001-i8": {"name": "Jezowce", "standardAmount": "10"},
+    "w-fr-001-i9": {"name": "Ziemniaki", "standardAmount": "1 kg"},
+    "w-fr-001-i10": {"name": "Czosnek", "standardAmount": "7 ząbków"},
+    "w-fr-001-i11": {"name": "Cebule", "standardAmount": "3"},
+    "w-fr-001-i12": {"name": "Pomidory", "standardAmount": "5 dojrzałych"},
+    "w-fr-001-i13": {"name": "Oliwa z oliwek", "standardAmount": "240 ml"},
+    "w-fr-001-i14": {"name": "Bukiet ziół", "standardAmount": "1 pęczek"},
+    "w-fr-001-i15": {"name": "Koper włoski", "standardAmount": "1 gałązka"},
+    "w-fr-001-i16": {"name": "Szafran", "standardAmount": "8 nitek"},
+    "w-fr-001-i17": {"name": "Chleb wiejski", "standardAmount": "10 kromek"},
+    "w-fr-001-i18": {"name": "Sól", "standardAmount": "do smaku"},
+    "w-fr-001-i19": {"name": "Pieprz cayenne", "standardAmount": "do smaku"}
   },
   "instructions": {
-    "1": "Pokrój mięso w kostki 2,5 cm.",
-    "2": "W misce wymieszaj mięso ze startą cebulą, czosnkiem, imbirem, pieprzem, natką, kolendrą i olejem roślinnym. Marynuj 30 minut.",
-    "3": "W garnku rozgrzej olej roślinny z oliwą, dodaj posiekaną cebulę i smaż do złocistości.",
-    "4": "Dodaj marynowane mięso i smaż 5 minut.",
-    "5": "Wlej wodę tak, by przykryła mięso, dodaj imbir, sól, laskę cynamonu i paprykę. Zagotuj, zmniejsz ogień i duś 45 minut, aż mięso będzie miękkie.",
-    "6": "Dodaj jajka do garnka i gotuj 10 minut.",
-    "7": "Podawaj Kebab Maghdour na gorąco, posypane posiekaną natką."
+    "1": "Oczyścić ryby i pokroić na duże kawałki z kośćmi.",
+    "2": "Rozgrzać oliwę w dużym, głębokim garnku.",
+    "3": "Dodać cebule, 6 rozgniecionych ząbków czosnku, ośmiornicę i pomidory i dusić 5 minut na małym ogniu.",
+    "4": "Najpierw dodać największe kawałki ryb, zalać wrzącą wodą, dodać sól, pieprz, koper włoski, bukiet ziół i szafran i cicho gotować.",
+    "5": "Przygotować rouille: utłuc czosnek w moździerzu, dodać żółtko i szafran i ubijać z oliwą po trochu do konsystencji majonezu.",
+    "6": "Ugotować ziemniaki 15-20 minut w osolonej wodzie. Otworzyć jezowce nożycami i wybrać miąższ łyżką.",
+    "7": "Ułożyć ryby na dużym półmisku. Wmieszać miąższ jezowców w zupę.",
+    "8": "Natrzeć chleb czosnkiem i posmarować rouille. Minimum 2 kromki na miskę.",
+    "9": "Wyjąć ryby i ziemniaki z zupy i ułożyć na półmisku.",
+    "10": "Wylać gorącą zupę na chleb z rouille. Ryby i ziemniaki podać osobno."
   },
-  "culturalNotes": "Kebab Maghdour to tradycyjne marokańskie danie podawane przy specjalnych okazjach, znane z bogatego smaku przypraw i delikatnego mięsa."
+  "culturalNotes": "Bouillabaisse to tradycyjne danie Marsylii, słynące z różnorodności ryb i owoców morza."
 },
-"w-mx-046": {
-  "title": "Chile Relleno",
+"w-fr-002": {
+  "title": "Smażone kalmary z tzatziki",
   "ingredients": {
-    "w-mx-046-i1": {"name": "Papryki poblano", "standardAmount": "6 dużych"},
-    "w-mx-046-i2": {"name": "Ser Monterey Jack", "standardAmount": "225 g (w paseczki lub starty)"},
-    "w-mx-046-i3": {"name": "Olej", "standardAmount": "1 litr (do smażenia)"},
-    "w-mx-046-i4": {"name": "Jajka", "standardAmount": "3 duże"},
-    "w-mx-046-i5": {"name": "Mąka pszenna", "standardAmount": "½ szklanki"},
-    "w-mx-046-i6": {"name": "Drobna sól", "standardAmount": "½ łyżeczki"},
-    "w-mx-046-i7": {"name": "Pomidory Roma", "standardAmount": "6 (na ćwiartki)"},
-    "w-mx-046-i8": {"name": "Cebula", "standardAmount": "½ małej (na pół)"},
-    "w-mx-046-i9": {"name": "Czosnek", "standardAmount": "3 ząbki"},
-    "w-mx-046-i10": {"name": "Papryczka jalapeño", "standardAmount": "1 (bez szypułki i nasion, opcjonalnie)"},
-    "w-mx-046-i11": {"name": "Kolendra", "standardAmount": "5 gałązek"},
-    "w-mx-046-i12": {"name": "Sól koszerna", "standardAmount": "1 łyżeczka (plus do smaku)"},
-    "w-mx-046-i13": {"name": "Oliwa z oliwek", "standardAmount": "1 łyżeczka"}
+    "w-fr-002-i1": {"name": "Czosnek", "standardAmount": "2 małe ząbki (posiekany)"},
+    "w-fr-002-i2": {"name": "Oliwa z oliwek", "standardAmount": "1 łyżka"},
+    "w-fr-002-i3": {"name": "Ogórek", "standardAmount": "1 mały"},
+    "w-fr-002-i4": {"name": "Jogurt", "standardAmount": "250 g"},
+    "w-fr-002-i5": {"name": "Suszona mięta", "standardAmount": "1 łyżeczka"},
+    "w-fr-002-i6": {"name": "Sok z cytryny", "standardAmount": "1 łyżeczka"},
+    "w-fr-002-i7": {"name": "Sól i pieprz", "standardAmount": "do smaku"},
+    "w-fr-002-i8": {"name": "Kalmary", "standardAmount": "450 g"},
+    "w-fr-002-i9": {"name": "Mąka", "standardAmount": "1 duża miska"},
+    "w-fr-002-i10": {"name": "Olej do smażenia", "standardAmount": "2,5 cm w patelni"},
+    "w-fr-002-i11": {"name": "Świeży sok z cytryny", "standardAmount": "do smaku"},
+    "w-fr-002-i12": {"name": "Sól, pieprz, suszone oregano", "standardAmount": "do smaku"}
   },
   "instructions": {
-    "1": "Piecz papryki poblano na średnim ogniu, aż skórka zczernieje. Włóż do szczelnie zamkniętego woreczka na 10 minut.",
-    "2": "Obierz papryki i odetnij szypułki. Ostrożnie otwórz i usuń nasiona oraz błonki.",
-    "3": "Nadziej papryki serem Monterey Jack. Odłóż.",
-    "4": "W misce ubij jajka z solą. Do drugiej miski wsyp mąkę.",
-    "5": "Obtocz nadziane papryki najpierw w mące, potem w jajku.",
-    "6": "Rozgrzej olej w głębokiej patelni na średnim ogniu. Smaż papryki do złocistości z każdej strony.",
-    "7": "Zblenduj pomidory, cebulę, czosnek, jalapeño, kolendrę, sól i oliwę na gładki sos pomidorowy.",
-    "8": "Podawaj nadziane papryki z sosem pomidorowym."
+    "1": "Wymieszać oliwę i czosnek w średniej misce.",
+    "2": "Pokroić ogórek cienko, posypać solą i odstawić co najmniej 15 minut do odsączenia.",
+    "3": "Wymieszać jogurt, ogórek, miętę, sok z cytryny, sól i pieprz z czosnkową oliwą. Jeśli zbyt rzadkie, dodać jogurtu.",
+    "4": "Oczyścić kalmary i pokroić tułowie na krążki 2,5 cm (małe zostawić w całości).",
+    "5": "Przygotować miskę mąki z solą i pieprzem.",
+    "6": "Rozgrzać olej na dużym ogniu.",
+    "7": "Obtoczyć kalmary z zewnątrz i wewnątrz.",
+    "8": "Smażyć małymi porcjami.",
+    "9": "Małe około 1 minuty, duże o minutę dłużej.",
+    "10": "Osączyć na ręczniku papierowym i od razu podać z tzatziki."
   },
-  "culturalNotes": "Chile relleno to tradycyjne meksykańskie danie podawane przy specjalnych okazjach."
+  "culturalNotes": "Kalmary z tzatziki to danie śródziemnomorskie, szczególnie lubiane w Grecji i na Cyprze."
 },
-"w-mx-048": {
-  "title": "Meksykańska Herbata Cynamonowa",
+"w-fr-003": {
+  "title": "Calissony",
   "ingredients": {
-    "w-mx-048-i1": {"name": "Woda", "standardAmount": "6 szklanek"},
-    "w-mx-048-i2": {"name": "Meksykańskie laski cynamonu", "standardAmount": "2 laski"},
-    "w-mx-048-i3": {"name": "Miód", "standardAmount": "do smaku"}
+    "w-fr-003-i1": {"name": "Migdały", "standardAmount": "200 g"},
+    "w-fr-003-i2": {"name": "Cukier puder", "standardAmount": "200 g"},
+    "w-fr-003-i3": {"name": "Miód", "standardAmount": "100 g"},
+    "w-fr-003-i4": {"name": "Cynamon", "standardAmount": "½ łyżeczki"},
+    "w-fr-003-i5": {"name": "Goździki", "standardAmount": "¼ łyżeczki"},
+    "w-fr-003-i6": {"name": "Rodzynki", "standardAmount": "50 g"},
+    "w-fr-003-i7": {"name": "Mąka", "standardAmount": "100 g"},
+    "w-fr-003-i8": {"name": "Jajko", "standardAmount": "1"}
   },
   "instructions": {
-    "1": "W średnim garnku zagotuj wodę z cynamonem.",
-    "2": "Gotuj 3-5 minut i zdejmij z ognia.",
-    "3": "Pozostaw na 30 minut lub do pożądanej mocy.",
-    "4": "Dodaj miód do smaku.",
-    "5": "Podawaj ciepłą."
+    "1": "Wymieszać mąkę migdałową i cukier puder w misce.",
+    "2": "Dodać miód, cynamon, goździki i rodzynki i dobrze wymieszać.",
+    "3": "Stopniowo dodawać mąkę do zwartego ciasta.",
+    "4": "Przykryć i odstawić na 30 minut.",
+    "5": "Uformować małe kulki i ułożyć na blasze z pergaminem.",
+    "6": "Piec 20 minut w 180 °C do zrumienienia.",
+    "7": "Ostudzić i podać."
   },
-  "culturalNotes": "Meksykańska herbata cynamonowa to bardzo popularny tradycyjny napój w Meksyku, szczególnie w czasie świąt i specjalnych okazji."
+  "culturalNotes": "Calissony to tradycyjne słodycze południowej Francji o delikatnym aromacie i słodyczy."
 },
-"w-mx-049": {
-  "title": "Filet Rybny w Sosie Czosnkowym",
+"w-fr-004": {
+  "title": "Czosnek konfitowany",
   "ingredients": {
-    "w-mx-049-i1": {"name": "Filety z tilapii lub innej ryby", "standardAmount": "680 g"},
-    "w-mx-049-i2": {"name": "Limonka", "standardAmount": "1"},
-    "w-mx-049-i3": {"name": "Sól i pieprz", "standardAmount": "do smaku"},
-    "w-mx-049-i4": {"name": "Olej roślinny (lub połowa oliwy)", "standardAmount": "¼ szklanki"},
-    "w-mx-049-i5": {"name": "Ząbki czosnku", "standardAmount": "6 (w cienkie plasterki)"},
-    "w-mx-049-i6": {"name": "Natka pietruszki", "standardAmount": "3 łyżki (posiekana)"},
-    "w-mx-049-i7": {"name": "Mąka (opcjonalnie)", "standardAmount": "2 łyżki"}
+    "w-fr-004-i1": {"name": "Czosnek", "standardAmount": "2 główki"},
+    "w-fr-004-i2": {"name": "Tymianek", "standardAmount": "2 gałązki"},
+    "w-fr-004-i3": {"name": "Oliwa z oliwek", "standardAmount": "250 ml"},
+    "w-fr-004-i4": {"name": "Sól", "standardAmount": "1 obfita szczypta"}
   },
   "instructions": {
-    "1": "Dopraw ryby solą, pieprzem i sokiem z limonki. Odłóż na czas przygotowania reszty składników.",
-    "2": "W dużej patelni rozgrzej olej na małym ogniu. Smaż plasterki czosnku do złocistości. Wyjmij je od razu po lekkim zarumienieniu — dłużej trzymane zrobią się gorzkie.",
-    "3": "Jeśli używasz mąki, lekko obtocz filety. Rozgrzej patelnię po czosnku na średnio-dużym ogniu. Smaż ryby z obu stron: filety 1 cm — 2-3 minuty na stronę; grubsze — 5-7 minut.",
-    "4": "Wyjmij ryby i ułóż na ruszcie z ręcznikiem papierowym pod spodem.",
-    "5": "Podawaj posypane natką i złotym czosnkiem. (A z odrobiną masła smakuje bosko!)"
+    "1": "Rozgrzać piekarnik do 150 °C (termoobieg 130 °C).",
+    "2": "Włożyć czosnek do małego naczynia (około 13 cm) z tymiankiem i solą.",
+    "3": "Całkowicie zalać oliwą.",
+    "4": "Dusić 1 godzinę 20 minut, aż oliwa cicho bulgoce, a czosnek zezłoci się głęboko; powinien się rozgniatać, ale trzymać formę.",
+    "5": "Ostudzić w oliwie. W sterylnym słoiczku przechowuje się 2 tygodnie w lodówce."
   },
-  "culturalNotes": "To jedna z najpopularniejszych potraw kuchni meksykańskiej, często podawana jako danie główne na rodzinnych spotkaniach."
+  "culturalNotes": "Czosnek konfitowany to klasyka kuchni francuskiej do przystawek i aromatyzowania dań."
 },
-"w-mx-050": {
-  "title": "Quesadilla z Zielonym Chili i Serem",
+"w-fr-005": {
+  "title": "Confit de canard (kaczka konfitowana)",
   "ingredients": {
-    "w-mx-050-i1": {"name": "Tortille pszenne", "standardAmount": "4 (25 cm)"},
-    "w-mx-050-i2": {"name": "Ser cheddar lub pepper jack", "standardAmount": "1 szklanka (starty)"},
-    "w-mx-050-i3": {"name": "Pieczona papryka poblano", "standardAmount": "2 (w kostkę)"},
-    "w-mx-050-i4": {"name": "Salsa (do podania)", "standardAmount": "do smaku"},
-    "w-mx-050-i5": {"name": "Guacamole (do podania)", "standardAmount": "do smaku"}
+    "w-fr-005-i1": {"name": "Udka kacze", "standardAmount": "4 (po 250 g)"},
+    "w-fr-005-i2": {"name": "Smalec kaczy", "standardAmount": "750 ml"},
+    "w-fr-005-i3": {"name": "Sól", "standardAmount": "4 łyżeczki"},
+    "w-fr-005-i4": {"name": "Tymianek", "standardAmount": "⅓ szklanki"},
+    "w-fr-005-i5": {"name": "Szałwia", "standardAmount": "⅓ szklanki"},
+    "w-fr-005-i6": {"name": "Rozmaryn", "standardAmount": "⅓ szklanki"},
+    "w-fr-005-i7": {"name": "Oregano", "standardAmount": "⅓ szklanki"},
+    "w-fr-005-i8": {"name": "Czosnek", "standardAmount": "6 ząbków (rozgniecionych w łupinie)"},
+    "w-fr-005-i9": {"name": "Szalotka", "standardAmount": "1 (w cienkie plasterki)"},
+    "w-fr-005-i10": {"name": "Czarny pieprz w ziarnach", "standardAmount": "1 łyżka"},
+    "w-fr-005-i11": {"name": "Nasiona kolendry", "standardAmount": "1 łyżka"},
+    "w-fr-005-i12": {"name": "Anyż gwiazdkowy", "standardAmount": "8"},
+    "w-fr-005-i13": {"name": "Liście laurowe", "standardAmount": "2"},
+    "w-fr-005-i14": {"name": "Jałowiec", "standardAmount": "2 łyżki"},
+    "w-fr-005-i15": {"name": "Goździki", "standardAmount": "8"}
   },
   "instructions": {
-    "1": "Rozgrzej comal na średnio-małym ogniu przez 1 minutę.",
-    "2": "Podgrzej tortillę po 1 minucie na stronę, odwróć, posyp serem, dodaj chili, przykryj drugą tortillą i lekko dociśnij łopatką.",
-    "3": "Odwracaj od czasu do czasu, aż quesadilla będzie złocista z obu stron, a ser się roztopi.",
-    "4": "Powtórz z pozostałymi tortillami i składnikami.",
-    "5": "Podawaj z salsą i guacamole według uznania."
+    "1": "Wymieszać sól i zioła w misce i natrzeć udka.",
+    "2": "Ułożyć w głębokim naczyniu, przykryć ziołami i schłodzić pod przykryciem na 24 godziny.",
+    "3": "Po 24 godzinach przemyć zimną wodą i osuszyć.",
+    "4": "Ułożyć w brytfannie, zalać smalcem z ziołami i przykryć folią.",
+    "5": "Dusić 2-3 godziny w 100 °C do miękkości mięsa.",
+    "6": "Wyjąć, lekko ostudzić i przecedzić smalec do zamykanej miski.",
+    "7": "Ułożyć kaczkę w głębokim naczyniu i zalać przecedzonym smalcem. Przechowuje się 6 miesięcy w lodówce.",
+    "8": "Przed podaniem zapiec 10-15 minut w 200 °C do chrupiącej skóry."
   },
-  "culturalNotes": "Quesadilla to bardzo popularna potrawa w Meksyku, podawana jako przekąska lub główne danie."
+  "culturalNotes": "Confit de canard to francuska klasyka: udka długo duszone w tłuszczu; podawane z puree lub pieczonymi warzywami."
+},
+"w-fr-006": {
+  "title": "Flamiche (tarta z porów)",
+  "ingredients": {
+    "w-fr-006-i1": {"name": "Mąka", "standardAmount": "350 g"},
+    "w-fr-006-i2": {"name": "Masło", "standardAmount": "175 g (temperatura pokojowa)"},
+    "w-fr-006-i3": {"name": "Sól", "standardAmount": "1 szczypta"},
+    "w-fr-006-i4": {"name": "Mleko", "standardAmount": "7 łyżek"},
+    "w-fr-006-i5": {"name": "Proszek curry", "standardAmount": "½ łyżeczki"},
+    "w-fr-006-i6": {"name": "Pory", "standardAmount": "900 g (posiekane)"},
+    "w-fr-006-i7": {"name": "Masło", "standardAmount": "40 g"},
+    "w-fr-006-i8": {"name": "Żółtka", "standardAmount": "4 (3 do farszu + 1 do smarowania)"},
+    "w-fr-006-i9": {"name": "Śmietana kremowa", "standardAmount": "200 g"},
+    "w-fr-006-i10": {"name": "Gałka muszkatołowa", "standardAmount": "¼ łyżeczki"},
+    "w-fr-006-i11": {"name": "Sól i czarny pieprz", "standardAmount": "1 szczypta"}
+  },
+  "instructions": {
+    "1": "Wcierać mąkę, masło i sól w dużej misce do kruszonki.",
+    "2": "Stopniowo dodawać mleko do powstania ciasta.",
+    "3": "Przykryć i schłodzić 30 minut.",
+    "4": "Roztopić masło na dużej patelni i smażyć pory do miękkości i złocistości.",
+    "5": "Dodać curry i mieszać 1 minutę.",
+    "6": "Wymieszać w innej misce żółtka, śmietanę, gałkę, sól i pieprz.",
+    "7": "Wmieszać smażone pory w mieszankę jajeczną.",
+    "8": "Wyłożyć formę ciastem i wlać farsz.",
+    "9": "Przykryć górnym ciastem i zlepić brzegi.",
+    "10": "Posmarować pozostałym żółtkiem.",
+    "11": "Piec 45 minut w 180 °C do zrumienienia.",
+    "12": "Odstawić na 10 minut i podać."
+  },
+  "culturalNotes": "Flamiche to tradycyjna tarta z porów północnej Francji."
+},
+"w-fr-007": {
+  "title": "Ziemniaki fondant",
+  "ingredients": {
+    "w-fr-007-i1": {"name": "Duże mączyste ziemniaki", "standardAmount": "4 (po 400 g)"},
+    "w-fr-007-i2": {"name": "Sól", "standardAmount": "¾ łyżeczki"},
+    "w-fr-007-i3": {"name": "Czarny pieprz", "standardAmount": "½ łyżeczki"},
+    "w-fr-007-i4": {"name": "Oliwa extra virgin", "standardAmount": "2 łyżki"},
+    "w-fr-007-i5": {"name": "Niesolone masło", "standardAmount": "3 łyżki (50 g)"},
+    "w-fr-007-i6": {"name": "Tymianek", "standardAmount": "6 gałązek"},
+    "w-fr-007-i7": {"name": "Bulion drobiowy lub warzywny", "standardAmount": "240 ml (mało soli)"}
+  },
+  "instructions": {
+    "1": "Rozgrzać piekarnik do 200 °C (termoobieg 180 °C).",
+    "2": "Pokroić ziemniaki na walce około 6 cm średnicy i 7 cm wysokości, podzielić na 8 walcy po 3,5 cm.",
+    "3": "Osuszyć i natrzeć połową oliwy, solą i pieprzem.",
+    "4": "Rozgrzać resztę oliwy na patelni do piekarnika na średnio-dużym ogniu i smażyć każdą stronę 6-8 minut do zrumienienia.",
+    "5": "Dodać masło i tymianek; po roztopieniu polać ziemniaki. Wlać bulion, zagotować i dusić 30 minut w piekarniku, po 15 minutach ponownie polać.",
+    "6": "Jeszcze raz polać i podać. Restauracyjnie ze stekiem, sosem béarnaise i fasolką w maśle."
+  },
+  "culturalNotes": "Ziemniaki fondant to francuskie danie pieczeniowe: złociste z zewnątrz, kremowe w środku."
+},
+"w-fr-008": {
+  "title": "Naleśniki czekoladowe",
+  "ingredients": {
+    "w-fr-008-i1": {"name": "Niesolone masło", "standardAmount": "25 g"},
+    "w-fr-008-i2": {"name": "Mąka", "standardAmount": "150 g"},
+    "w-fr-008-i3": {"name": "Jajka", "standardAmount": "2 duże"},
+    "w-fr-008-i4": {"name": "Mleko pełne", "standardAmount": "275 ml"},
+    "w-fr-008-i5": {"name": "Sól", "standardAmount": "1 szczypta"},
+    "w-fr-008-i6": {"name": "Wanilia w proszku", "standardAmount": "¼ łyżeczki (opcjonalnie)"},
+    "w-fr-008-i7": {"name": "Cukier puder", "standardAmount": "1 łyżka"},
+    "w-fr-008-i8": {"name": "Kakao niesłodzone", "standardAmount": "1 łyżka"}
+  },
+  "instructions": {
+    "1": "Roztopić masło na patelni do naleśników (lekko przyrumienić dla orzechowego aromatu).",
+    "2": "Wymieszać mąkę, cukier puder, kakao, sól i wanilię w dużej misce; rozbić jajka na środku i ubić z roztopionym masłem do gładkości.",
+    "3": "Dodać ćwierć mleka, potem resztę stopniowo. Ciasto jest rzadkie; tak ma być.",
+    "4": "Wyt rzeć nadmiar masła, rozgrzać na średnio-dużym ogniu i wlać chochlę ciasta; pozwolić cienko rozlać.",
+    "5": "Piecz 2-3 minuty do bąbelków, obrócić i piecz jeszcze kilka minut.",
+    "6": "Lekko zmniejszyć ogień, wytrzeć patelnię i powtórzyć dla 6-8 naleśników."
+  },
+  "culturalNotes": "Naleśniki to lubiane francuskie śniadanie, podawane z czekoladą, miodem lub truskawkami."
+},
+"w-fr-009": {
+  "title": "Trufle czekoladowe z ganache",
+  "ingredients": {
+    "w-fr-009-i1": {"name": "Gorzka czekolada", "standardAmount": "285 g"},
+    "w-fr-009-i2": {"name": "Niesolone masło", "standardAmount": "30 g"},
+    "w-fr-009-i3": {"name": "Śmietana", "standardAmount": "125 ml"},
+    "w-fr-009-i4": {"name": "Wiórki kokosowe", "standardAmount": "125 g"},
+    "w-fr-009-i5": {"name": "Kakao niesłodzone", "standardAmount": "60 g"},
+    "w-fr-009-i6": {"name": "Mielone orzeszki", "standardAmount": "125 g"},
+    "w-fr-009-i7": {"name": "Kolorowa posypka", "standardAmount": "85 g"},
+    "w-fr-009-i8": {"name": "Cukier puder", "standardAmount": "60 g"}
+  },
+  "instructions": {
+    "1": "Włożyć czekoladę, śmietanę i masło do żaroodpornej miski i podgrzewać w mikrofali 4 razy po 30 sekund, mieszając.",
+    "2": "Przykryć miskę, odstawić na 5 minut i wymieszać do gładkości; ganache gotowy.",
+    "3": "Odstawić do stwardnienia w lodówce na 6 godzin. Nie mrozić.",
+    "4": "Schłodzić też talerz na trufle.",
+    "5": "Po 6 godzinach uformować małe kulki łyżeczką.",
+    "6": "Obtoczyć w kokosie, kakao, orzeszkach, posypce lub cukrze pudrze.",
+    "7": "Ułożyć na zimnym talerzu i pozwolić całkowicie stwardnieć."
+  },
+  "culturalNotes": "Ganache to aksamitna mieszanka czekolady i śmietany, serce wielu francuskich słodyczy."
+},
+"w-fr-010": {
+  "title": "Gratin dauphinois",
+  "ingredients": {
+    "w-fr-010-i1": {"name": "Ziemniaki", "standardAmount": "750 g"},
+    "w-fr-010-i2": {"name": "Czosnek", "standardAmount": "2-3 ząbki (posiekany)"},
+    "w-fr-010-i3": {"name": "Mleko pełne", "standardAmount": "275 ml"},
+    "w-fr-010-i4": {"name": "Gęsta śmietana", "standardAmount": "150 ml"},
+    "w-fr-010-i5": {"name": "Gałka muszkatołowa", "standardAmount": "¼ łyżeczki"},
+    "w-fr-010-i6": {"name": "Sól i czarny pieprz", "standardAmount": "do smaku"},
+    "w-fr-010-i7": {"name": "Świeży tymianek", "standardAmount": "½ łyżeczki"},
+    "w-fr-010-i8": {"name": "Masło", "standardAmount": "trochę (do formy)"},
+    "w-fr-010-i9": {"name": "Emmentaler lub Gruyère", "standardAmount": "100 g (opcjonalnie)"}
+  },
+  "instructions": {
+    "1": "Obrać ziemniaki (lub zostawić skórkę) i pokroić na plasterki 3 mm.",
+    "2": "Rozgrzać piekarnik do 190 °C (termoobieg 170 °C).",
+    "3": "Zagotować mleko, śmietanę i czosnek, zmniejszyć ogień i dodać gałkę, sól, pieprz i ziemniaki.",
+    "4": "Gotować około 5 minut, obracając plasterki. Tu można dodać ser.",
+    "5": "Wysmarować formę i równomiernie rozłożyć ziemniaki.",
+    "6": "Piec około 45 minut do zrumienienia."
+  },
+  "culturalNotes": "Tradycyjne danie z Dauphiné: cienkie plasterki ziemniaków zapiekane z mlekiem, śmietaną i gałką."
+},
+"w-fr-011": {
+  "title": "Pain d'épices (piernik)",
+  "ingredients": {
+    "w-fr-011-i1": {"name": "Woda", "standardAmount": "250 ml"},
+    "w-fr-011-i2": {"name": "Miód", "standardAmount": "255 g"},
+    "w-fr-011-i3": {"name": "Torebki kardamonu", "standardAmount": "4"},
+    "w-fr-011-i4": {"name": "Goździki", "standardAmount": "2"},
+    "w-fr-011-i5": {"name": "Anyż gwiazdkowy", "standardAmount": "2"},
+    "w-fr-011-i6": {"name": "Surowy cukier trzcinowy", "standardAmount": "100 g"},
+    "w-fr-011-i7": {"name": "Niesolone masło", "standardAmount": "155 g"},
+    "w-fr-011-i8": {"name": "Mąka żytnia", "standardAmount": "255 g"},
+    "w-fr-011-i9": {"name": "Proszek do pieczenia", "standardAmount": "2 łyżeczki"},
+    "w-fr-011-i10": {"name": "Sól", "standardAmount": "1 obfita szczypta"},
+    "w-fr-011-i11": {"name": "Mieszanka przypraw", "standardAmount": "1½ łyżeczki"},
+    "w-fr-011-i12": {"name": "Suszone owoce", "standardAmount": "1 łyżka"}
+  },
+  "instructions": {
+    "1": "Wysmarować keksówkę i rozgrzać piekarnik do 180 °C (termoobieg 160 °C).",
+    "2": "Zagotować wodę, miód, cukier i przyprawy w rondlu, roztopić masło, wyłączyć ogień i odstawić na 5 minut.",
+    "3": "Wymieszać mąkę żytnią, proszek, sól i mielone przyprawy w misce i stopniowo wmieszać ciepłą miodową mieszankę do gładkości.",
+    "4": "Napełnić formę do trzech czwartych i piec 40-50 minut do głębokiego złocenia; wykałaczka powinna wyjść czysta.",
+    "5": "Ostudzić 10 minut w formie i wyłożyć na kratkę. Udekorować suszonymi owocami i anyżem."
+  },
+  "culturalNotes": "Pain d'épices to tradycyjny francuski piernik o ciepłym, korzennym aromacie."
+},
+"w-fr-012": {
+  "title": "Pissaladière",
+  "ingredients": {
+    "w-fr-012-i1": {"name": "Oliwa z oliwek", "standardAmount": "4 łyżki + do formy"},
+    "w-fr-012-i2": {"name": "Cebule", "standardAmount": "1 kg (w bardzo cienkie plasterki)"},
+    "w-fr-012-i3": {"name": "Tymianek", "standardAmount": "1 mały pęczek"},
+    "w-fr-012-i4": {"name": "Liście laurowe", "standardAmount": "2"},
+    "w-fr-012-i5": {"name": "Filety anchois", "standardAmount": "80 g (odsączone)"},
+    "w-fr-012-i6": {"name": "Czarne oliwki", "standardAmount": "80 g (wydrylowane)"},
+    "w-fr-012-i7": {"name": "Parmezan", "standardAmount": "20 g (tarty)"},
+    "w-fr-012-i8": {"name": "Zimne niesolone masło", "standardAmount": "200 g"},
+    "w-fr-012-i9": {"name": "Sok z cytryny", "standardAmount": "1 łyżeczka"},
+    "w-fr-012-i10": {"name": "Mocna mąka", "standardAmount": "200 g + do blatu"},
+    "w-fr-012-i11": {"name": "Sól", "standardAmount": "1 łyżeczka"},
+    "w-fr-012-i12": {"name": "Lodowata woda", "standardAmount": "125 ml"}
+  },
+  "instructions": {
+    "1": "Ciasto: grubo zetrzeć masło, posypać mąką w misce i zamrozić na 30 minut (lub schłodzić 1 godzinę).",
+    "2": "Wymieszać sok z cytryny ze 125 ml lodowatej wody. Włożyć resztę mąki i sól do dużej miski, dodać zamrożone masło i wymieszać opuszkami palców.",
+    "3": "Wlać dwie trzecie wody cytrynowej i zebrać nożem. Jeśli za suche, dodać trochę wody. Ciasto kruszonkowate, ale lepi się przy nacisku.",
+    "4": "Wywrócić na oprószoną mąką powierzchnię, lekko wyrabiać w szorstki prostokąt, zawinąć i schłodzić 20 minut.",
+    "5": "Rozwałkować na prostokąt 20×30 cm; smugi masła pozostają widoczne.",
+    "6": "Rozgrzać oliwę na dużej patelni na średnio-dużym ogniu, dodać cebule z solą, tymiankiem i laurowcem i dusić 40-45 minut mieszając do głęboko złocistej, dżemowatej masy. Ostudzić.",
+    "7": "Lekko naoliwić blachę, rozwałkować ciasto do 25×35 cm, ułożyć, uformować brzeg i schłodzić 20 minut.",
+    "8": "Rozgrzać piekarnik do 220 °C (termoobieg 200 °C). Rozłożyć cebule, ułożyć anchois w romby i oliwki pośrodku. Posypać parmezanem i piec 30 minut.",
+    "9": "Posypać tymiankiem, odstawić na 10 minut i pokroić na kwadraty."
+  },
+  "culturalNotes": "Pissaladière to specjał Prowansji: cienkie ciasto z duszoną cebulą, anchois i czarnymi oliwkami."
+},
+"w-fr-013": {
+  "title": "Ratatouille",
+  "ingredients": {
+    "w-fr-013-i1": {"name": "Oliwa z oliwek", "standardAmount": "⅓-¼ szklanki"},
+    "w-fr-013-i2": {"name": "Cebula", "standardAmount": "1 duża (w cienkie plasterki)"},
+    "w-fr-013-i3": {"name": "Czerwona papryka", "standardAmount": "1 (w kawałki)"},
+    "w-fr-013-i4": {"name": "Żółta papryka", "standardAmount": "1 (w kawałki)"},
+    "w-fr-013-i5": {"name": "Czosnek", "standardAmount": "6 ząbków (w cienkie plasterki)"},
+    "w-fr-013-i6": {"name": "Cukinia", "standardAmount": "680 g (w plasterki)"},
+    "w-fr-013-i7": {"name": "Bakłażan", "standardAmount": "1 mały (w kostkę)"},
+    "w-fr-013-i8": {"name": "Pomidory roma", "standardAmount": "4 (grubo pokrojone)"},
+    "w-fr-013-i9": {"name": "Świeży rozmaryn", "standardAmount": "¼ łyżeczki (posiekany)"},
+    "w-fr-013-i10": {"name": "Świeży tymianek", "standardAmount": "1 łyżeczka (posiekany)"},
+    "w-fr-013-i11": {"name": "Sól", "standardAmount": "do smaku"},
+    "w-fr-013-i12": {"name": "Pieprz", "standardAmount": "do smaku"}
+  },
+  "instructions": {
+    "1": "Dobrze rozgrzać dużą patelnię lub garnek.",
+    "2": "Dodać oliwę, cebulę i papryki i smażyć do zabarwienia.",
+    "3": "Dodać czosnek, cukinię i bakłażan i smażyć do zabarwienia.",
+    "4": "Wmieszać pomidory, rozmaryn, tymianek, sól i pieprz.",
+    "5": "Podawać gorące lub zimne."
+  },
+  "culturalNotes": "Ratatouille to najsłynniejsze francuskie danie warzywne z letnich warzyw."
+},
+"w-fr-014": {
+  "title": "Sałatka nicejska",
+  "ingredients": {
+    "w-fr-014-i1": {"name": "Czosnek", "standardAmount": "1 ząbek"},
+    "w-fr-014-i2": {"name": "Sól", "standardAmount": "do smaku"},
+    "w-fr-014-i3": {"name": "Oliwa z oliwek", "standardAmount": "80 ml"},
+    "w-fr-014-i4": {"name": "Świeży sok z cytryny", "standardAmount": "2 łyżki"},
+    "w-fr-014-i5": {"name": "Musztarda dijon", "standardAmount": "1 łyżka"},
+    "w-fr-014-i6": {"name": "Szalotka", "standardAmount": "1 (posiekana)"},
+    "w-fr-014-i7": {"name": "Czarny pieprz", "standardAmount": "do smaku"},
+    "w-fr-014-i8": {"name": "Małe młode ziemniaki", "standardAmount": "450 g (ugotowane)"},
+    "w-fr-014-i9": {"name": "Fasolka szparagowa", "standardAmount": "225 g (blanszowana)"},
+    "w-fr-014-i10": {"name": "Pomidorki cherry", "standardAmount": "340 g (na pół)"},
+    "w-fr-014-i11": {"name": "Czarne oliwki (nicejskie)", "standardAmount": "120 ml"},
+    "w-fr-014-i12": {"name": "Marynowane karczochy", "standardAmount": "225 g"},
+    "w-fr-014-i13": {"name": "Anchois", "standardAmount": "8 filetów (przemyte, odsączone)"},
+    "w-fr-014-i14": {"name": "Ugotowane jajka", "standardAmount": "4 (na pół)"},
+    "w-fr-014-i15": {"name": "Ogórek", "standardAmount": "1 mały (w cienkie plasterki)"},
+    "w-fr-014-i16": {"name": "Tuńczyk w oliwie", "standardAmount": "3 puszki po 115 g (odsączony)"},
+    "w-fr-014-i17": {"name": "Czerwona cebula", "standardAmount": "½ (w cienkie plasterki)"}
+  },
+  "instructions": {
+    "1": "Dressing: posiekać czosnek, posypać solą i rozt rzeć nożem na gładką pastę. Włożyć do miski i wymieszać z oliwą, sokiem z cytryny, musztardą, szalotką, solą i pieprzem.",
+    "2": "Sałatka: rozłożyć wszystkie składniki rzędami na dużym półmisku, skropić dressingiem i przyprawić solą i pieprzem."
+  },
+  "culturalNotes": "Sałatka nicejska to tradycyjna sałatka z Nicei, bogata w warzywa i ryby."
+},
+"w-vn-001": {
+  "title": "Bò Bía (wietnamskie sajgonki z jicamą i kiełbasą)",
+  "ingredients": {
+    "w-vn-001-i1": {"name": "Suszone krewetki", "standardAmount": "½ szklanki"},
+    "w-vn-001-i2": {"name": "Jicama", "standardAmount": "1 duża"},
+    "w-vn-001-i3": {"name": "Marchew", "standardAmount": "1 średnia"},
+    "w-vn-001-i4": {"name": "Szalotki", "standardAmount": "4 duże"},
+    "w-vn-001-i5": {"name": "Halal kiełbasa wołowa w stylu chińskim", "standardAmount": "4"},
+    "w-vn-001-i6": {"name": "Jajka", "standardAmount": "5"},
+    "w-vn-001-i7": {"name": "Sól morska", "standardAmount": "½ łyżeczki"},
+    "w-vn-001-i8": {"name": "Tajska bazylia", "standardAmount": "1 mały pęczek"},
+    "w-vn-001-i9": {"name": "Suszony papier ryżowy", "standardAmount": "1 opakowanie"},
+    "w-vn-001-i10": {"name": "Olej roślinny", "standardAmount": "3 łyżki"}
+  },
+  "instructions": {
+    "1": "Namoczyć suszone krewetki 10 minut w gorącej wodzie do mięknięcia i odcedzić.",
+    "2": "Obrać jicamę i pokroić w słupki. Obrać marchew, pokroić ukośnie w plasterki i potem w słupki. Obrać szalotki i cienko pokroić.",
+    "3": "Rozgrzać około 1 łyżkę oleju na patelni na dużym ogniu. Smażyć szalotki około 20 sekund. Dodać krewetki i smażyć jeszcze 20 sekund. Dodać jicamę i marchew, równomiernie podsmażyć i gotować około 15 minut do miękkości. Posolić i przełożyć do miski.",
+    "4": "Zagotować wodę na dużej patelni nieprzywierającej i gotować kiełbasy około 5 minut. Wyjąć, ostudzić i pokroić cienko ukośnie.",
+    "5": "Rozgrzać około 1 łyżkę oleju na pustej patelni na średnim ogniu i rozprowadzić pędzelkiem lub przechylaniem. Wlać połowę ubitego jajka i pozwolić cienko rozlać. Gotować około 30 sekund do ścięcia i przełożyć na talerz. Powtórzyć z olejem i resztą jajka. Położyć dwa omlety na sobie, zwinąć i pokroić w cienkie wstążki.",
+    "6": "Szybko zmoczyć papier ryżowy i położyć na dużym talerzu. Na dole ułożyć liście bazylii, potem mieszankę jicamy-marchwi-krewetek, wstążki jajka i plasterki kiełbasy. Zwinąć od dołu do połowy, zawinąć boki i dokończyć zwijanie.",
+    "7": "Podawać z sosem orzechowym."
+  },
+  "culturalNotes": "Te wietnamskie sajgonki nazywają się też Bì cuốn i podaje się je jako przystawkę lub lekki posiłek."
+},
+"w-vn-002": {
+  "title": "Bò Nướng Lá Lốt (grillowana wołowina w liściach betelu)",
+  "ingredients": {
+    "w-vn-002-i1": {"name": "Tłusta mielona wołowina", "standardAmount": "340 g"},
+    "w-vn-002-i2": {"name": "Posiekane szalotki", "standardAmount": "2 łyżki"},
+    "w-vn-002-i3": {"name": "Posiekany czosnek", "standardAmount": "1 łyżka"},
+    "w-vn-002-i4": {"name": "Mielony czarny pieprz", "standardAmount": "¼ łyżeczki"},
+    "w-vn-002-i5": {"name": "Cukier", "standardAmount": "½ łyżeczki"},
+    "w-vn-002-i6": {"name": "Sos rybny", "standardAmount": "2 łyżeczki"},
+    "w-vn-002-i7": {"name": "Sos ostrygowy", "standardAmount": "1 łyżka"},
+    "w-vn-002-i8": {"name": "Bulion drobiowy w proszku", "standardAmount": "½ łyżeczki"},
+    "w-vn-002-i9": {"name": "Glutaminian (opcjonalnie)", "standardAmount": "¼ łyżeczki"},
+    "w-vn-002-i10": {"name": "Liście dzikiego betelu", "standardAmount": "25-30"}
+  },
+  "instructions": {
+    "1": "Dokładnie umyć liście i osuszyć papierowym ręcznikiem. Zostawić kawałek ogonka do przypięcia roladek.",
+    "2": "Wymieszać w dużej misce mięso mielone z szalotkami, czosnkiem, pieprzem, cukrem, sosem rybnym, sosem ostrygowym, bulionem w proszku i glutaminianem (opcjonalnie).",
+    "3": "Położyć liść błyszczącą stroną w dół wąskim końcem na dole. Położyć około 2 łyżki farszu na środku, zawinąć wąski koniec na farsz i ostrożnie zwinąć. Wbić ogonek w roladkę, żeby się nie rozwijała. Jeśli ogonek za miękki, przekłuć otworek małym nożem i włożyć ogonek. Układać ogonkiem w dół. Powtórzyć z resztą.",
+    "4": "Grillować roladki dla dymnego aromatu lub smażyć z odrobiną oleju roślinnego około 2 minuty z każdej strony.",
+    "5": "Podawać w misce z cienkim makaronem ryżowym, pokrojoną sałatą i wietnamskimi ziołami. Posypać prażonymi orzeszkami i podać z dipem rybny. Opcjonalnie podać z papierem ryżowym do samodzielnego zawijania."
+  },
+  "culturalNotes": "Wołowina w liściach betelu to tradycyjne wietnamskie danie często podawane na specjalne okazje."
+},
+"w-vn-003": {
+  "title": "Gofry pandanowe (Bánh Kếp Lá Dứa)",
+  "ingredients": {
+    "w-vn-003-i1": {"name": "Masło", "standardAmount": "2 łyżki"},
+    "w-vn-003-i2": {"name": "Mąka ryżowa", "standardAmount": "1½ szklanki"},
+    "w-vn-003-i3": {"name": "Skrobia tapiokowa", "standardAmount": "½ szklanki"},
+    "w-vn-003-i4": {"name": "Mąka pszenna", "standardAmount": "½ szklanki"},
+    "w-vn-003-i5": {"name": "Proszek do pieczenia", "standardAmount": "1 łyżka"},
+    "w-vn-003-i6": {"name": "Sól", "standardAmount": "¼ łyżeczki"},
+    "w-vn-003-i7": {"name": "Jajka", "standardAmount": "2 duże"},
+    "w-vn-003-i8": {"name": "Cukier", "standardAmount": "½ szklanki"},
+    "w-vn-003-i9": {"name": "Mleko kokosowe", "standardAmount": "1½ szklanki"},
+    "w-vn-003-i10": {"name": "Pasta pandanowa", "standardAmount": "¾ łyżeczki"}
+  },
+  "instructions": {
+    "1": "Roztopić masło 30-45 sekund w mikrofali na małej mocy. Wymieszać i ostudzić.",
+    "2": "Przesiać mąkę ryżową, tapiokę, mąkę pszenną, proszek i sól do dużej miski.",
+    "3": "Ubić jajka i cukier w dużej misce. Dodać mleko kokosowe, roztopione masło i pastę pandanową i dobrze wymieszać.",
+    "4": "Dodać połowę suchych składników i wymieszać. Dodać resztę i ostrożnie mieszać, rozbijając większe grudki. Odstawić ciasto na 15 minut.",
+    "5": "Rozgrzać gofrnicę na najwyższą moc. Wlać około ⅔ szklanki ciasta i rozprowadzić szpatułką. Zamknąć i piec 4-5 minut do zrumienienia.",
+    "6": "Podnieść gofr bambusową wykałaczką i przełożyć szczypcami na kratkę.",
+    "7": "Podawać gorące."
+  },
+  "culturalNotes": "Gofry pandanowe to tradycyjny wietnamski deser o aromacie pandanu i kokosa."
+},
+"w-vn-004": {
+  "title": "Bánh pía",
+  "ingredients": {
+    "w-vn-004-i1": {"name": "Mąka", "standardAmount": "500 g"},
+    "w-vn-004-i2": {"name": "Cukier", "standardAmount": "250 g"},
+    "w-vn-004-i3": {"name": "Olej roślinny", "standardAmount": "100 ml"},
+    "w-vn-004-i4": {"name": "Jajka", "standardAmount": "2"},
+    "w-vn-004-i5": {"name": "Mleko", "standardAmount": "100 ml"},
+    "w-vn-004-i6": {"name": "Sól", "standardAmount": "½ łyżeczki"},
+    "w-vn-004-i7": {"name": "Nadzienie puddingowe", "standardAmount": "400 g"}
+  },
+  "instructions": {
+    "1": "Wymieszać mąkę, cukier i sól w dużej misce.",
+    "2": "Dodać jajka, mleko i olej i wyrabiać gładkie ciasto.",
+    "3": "Przykryć ciasto i odstawić na 30 minut.",
+    "4": "Podzielić ciasto na 12 równych części i uformować kulki.",
+    "5": "Położyć nadzienie na środku każdej kulki i zamknąć ciastem.",
+    "6": "Ułożyć w foremkach do bánh pía i wstawić do rozgrzanego do 180 °C piekarnika.",
+    "7": "Piec 20-25 minut do zrumienienia."
+  },
+  "culturalNotes": "Bánh pía to tradycyjne wietnamskie ciastko francuskie na specjalne okazje."
+},
+"w-vn-005": {
+  "title": "Bánh Tráng Trộn (wietnamska sałatka z papieru ryżowego)",
+  "ingredients": {
+    "w-vn-005-i1": {"name": "Miąższ tamaryndu", "standardAmount": "100 g"},
+    "w-vn-005-i2": {"name": "Olej roślinny", "standardAmount": "4 łyżki"},
+    "w-vn-005-i3": {"name": "Ząbki czosnku", "standardAmount": "6"},
+    "w-vn-005-i4": {"name": "Sos rybny", "standardAmount": "2 łyżki"},
+    "w-vn-005-i5": {"name": "Cukier kryształowy", "standardAmount": "3 łyżki"},
+    "w-vn-005-i6": {"name": "Glutaminian (opcjonalnie)", "standardAmount": "½ łyżeczki"},
+    "w-vn-005-i7": {"name": "Płatki chili (opcjonalnie)", "standardAmount": "1 łyżka"},
+    "w-vn-005-i8": {"name": "Suszone kalmary", "standardAmount": "200 g"},
+    "w-vn-005-i9": {"name": "Suszone krewetki", "standardAmount": "100 g"},
+    "w-vn-005-i10": {"name": "Suszona wołowina (jerky)", "standardAmount": "100 g"},
+    "w-vn-005-i11": {"name": "Suszony papier ryżowy", "standardAmount": "170 g"},
+    "w-vn-005-i12": {"name": "Wietnamski olej chili", "standardAmount": "do smaku"},
+    "w-vn-005-i13": {"name": "Wietnamski olej ze szczypiorku", "standardAmount": "do smaku"},
+    "w-vn-005-i14": {"name": "Zielone mango", "standardAmount": "1"},
+    "w-vn-005-i15": {"name": "Ugotowane jajka przepiórcze", "standardAmount": "10"},
+    "w-vn-005-i16": {"name": "Smażone szalotki", "standardAmount": "do smaku"},
+    "w-vn-005-i17": {"name": "Niesolone prażone orzeszki", "standardAmount": "¼ szklanki"},
+    "w-vn-005-i18": {"name": "Liście wietnamskiej kolendry", "standardAmount": "2 szklanki"}
+  },
+  "instructions": {
+    "1": "Przy użyciu miąższu tamaryndu: namoczyć 15 minut w 2 szklankach gorącej wody, przetrzeć przez drobne sito i wyrzucić miąższ.",
+    "2": "Rozgrzać olej w rondlu na średnim ogniu. Smażyć czosnek około 15 sekund. Dodać tamarynd, sos rybny, cukier, glutaminian i płatki chili i wymieszać. Pozwolić 1 minutę cicho gotować. Przelać do miseczki.",
+    "3": "Rozgrzać olej roślinny na średniej patelni na średnim ogniu. Smażyć kalmary 30 sekund; zwijają się, docisnąć brzegi pałeczkami dla równomiernego smażenia. Obrócić i smażyć jeszcze 30 sekund. Wyjąć. Po ostudzeniu rozdzierać rękami na długie paski.",
+    "4": "W tym samym tłuszczu smażyć krewetki około 1 minuty i wyjąć.",
+    "5": "Rozdzierać jerky rękami na cienkie paski.",
+    "6": "Włożyć papier ryżowy do dużej miski. Dodać sos tamaryndowy, olej chili i olej ze szczypiorku i dobrze wymieszać, aby papier wchłonął sos. Na początku wydaje się suchy, ale zmięka.",
+    "7": "Dodać jerky, kalmary, krewetki, zielone mango i jajka przepiórcze i krótko wymieszać.",
+    "8": "Udekorować smażonymi szalotkami, orzeszkami i wietnamską kolendrą."
+  },
+  "culturalNotes": "Bánh Tráng Trộn to popularna wietnamska przekąska, służąca jako przystawka lub lekki posiłek."
+},
+"w-vn-006": {
+  "title": "Chè Trôi Nước (kulki kleistego ryżu w syropie imbirowym)",
+  "ingredients": {
+    "w-vn-006-i1": {"name": "Mąka z kleistego ryżu", "standardAmount": "450 g"},
+    "w-vn-006-i2": {"name": "Gorąca woda", "standardAmount": "1¾ szklanki"},
+    "w-vn-006-i3": {"name": "Fasola mung łuskana", "standardAmount": "¾ szklanki"},
+    "w-vn-006-i4": {"name": "Cukier", "standardAmount": "2 łyżeczki"},
+    "w-vn-006-i5": {"name": "Sól", "standardAmount": "1 łyżeczka"},
+    "w-vn-006-i6": {"name": "Woda", "standardAmount": "6 szklanek"},
+    "w-vn-006-i7": {"name": "Świeży imbir", "standardAmount": "10 cm"},
+    "w-vn-006-i8": {"name": "Cukier palmowy", "standardAmount": "280 g"},
+    "w-vn-006-i9": {"name": "Mleko kokosowe", "standardAmount": "opcjonalnie"},
+    "w-vn-006-i10": {"name": "Prażony sezam", "standardAmount": "¼ szklanki"}
+  },
+  "instructions": {
+    "1": "Wymieszać mąkę z kleistego ryżu z gorącą wodą w dużej misce i wyrabiać gładkie ciasto. Nie dodawać więcej wody. Przykryć i odstawić na 30 minut.",
+    "2": "Podzielić ciasto na 28 kulek około 2,5 cm.",
+    "3": "Przemyć fasolę mung do czystej wody. Zalać w średnim garnku 2,5 cm wody, zagotować na średnim ogniu i cicho gotować do miękkości z zachowaniem formy (około 15 minut). Pilnować, żeby nie wykipiało. Odcedzić i wrócić na wyłączoną kuchenkę do podsuszenia. Dodać sól i cukier i utłuc dużą łyżką na grubą pastę.",
+    "4": "Uformować nadzienie w kulki około 1,2 cm (około 28). Jeśli mieszanka zbyt miękka, krótko schłodzić.",
+    "5": "Spłaszczyć kulkę ciasta na gruby krążek, położyć kulkę nadzienia na środku, zamknąć ciastem i uformować w dłoni gładką kulkę. Nie wypuszczać nadzienia, inaczej kulki rozpadną się przy gotowaniu. Z reszty ciasta uformować małe perełki bez nadzienia. Przechować przykryte.",
+    "6": "Zagotować wodę z cukrem palmowym w dużym garnku do rozpuszczenia. Obrać imbir łyżką i pokroić w cienkie paski. Ostrożnie wpuszczać kulki do syropu i cicho gotować na średnio-małym ogniu do wypłynięcia (około 20 minut).",
+    "7": "W razie potrzeby zrobić sos kokosowy.",
+    "8": "Nakłaść kilka kulek z syropem do miski, polać sosem kokosowym i posypać sezamem. Podawać ciepłe lub w temperaturze pokojowej."
+  },
+  "culturalNotes": "Chè Trôi Nước to tradycyjny wietnamski deser na święta i uroczystości."
+},
+"w-vn-007": {
+  "title": "Galaretka ziołowa (Thạch Sương Sáo)",
+  "ingredients": {
+    "w-vn-007-i1": {"name": "Proszek galaretki ziołowej", "standardAmount": "50 g"},
+    "w-vn-007-i2": {"name": "Cukier", "standardAmount": "⅓ szklanki"},
+    "w-vn-007-i3": {"name": "Woda", "standardAmount": "4 szklanki (podzielić)"}
+  },
+  "instructions": {
+    "1": "Włożyć proszek galaretki do średniego garnka. Dodać cukier i 2 szklanki wody i wymieszać do rozpuszczenia proszku.",
+    "2": "Dodać pozostałe 2 szklanki wody i dobrze wymieszać.",
+    "3": "Odstawić mieszankę na 10 minut.",
+    "4": "Podgrzewać na średnim ogniu mieszając szpatułką, skrobąc osad ze dna.",
+    "5": "Po 3-4 minutach gęstnieje i robi się grudkowata. Szybko rozbełtać trzepaczką do gładkości i mieszać dalej do cichego gotowania. Wyłączyć ogień i mieszać jeszcze 1 minutę do gładkości bez grudek.",
+    "6": "Przelać do żaroodpornego naczynia i przekłuć bąbelki wykałaczką lub zebrać łyżką.",
+    "7": "Odstawić do ostygnięcia 1-1,5 godziny w temperaturze pokojowej.",
+    "8": "Wstawić do lodówki na minimum 2 godziny.",
+    "9": "Wywrócić naczynie na dużą deskę i pokroić galaretkę w kostkę.",
+    "10": "Do podania włożyć lód do pucharka, dodać kostki galaretki i posypać odrobiną cukru.",
+    "11": "Opcjonalnie pokroić drobniej ząbkowanym nożem i dodać do zimnego napoju.",
+    "12": "Przechować resztę galaretki do 1 tygodnia w lodówce."
+  },
+  "culturalNotes": "Galaretka ziołowa to tradycyjny wietnamski deser, orzeźwiający deser w gorące dni."
 }
 }
