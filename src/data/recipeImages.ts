@@ -228,7 +228,10 @@ const RECIPES_WITH_IMAGES = [
   'w-ma-026', 'w-ma-029', 'w-mx-001', 'w-mx-002', 'w-mx-003', 'w-mx-004', 'w-mx-005', 'w-mx-006',
   'w-mx-007', 'w-mx-008', 'w-mx-009', 'w-mx-010', 'w-mx-011', 'w-mx-012', 'w-mx-013', 'w-mx-014',
   'w-mx-015', 'w-mx-016', 'w-mx-017', 'w-mx-018', 'w-mx-019', 'w-mx-020', 'w-mx-021', 'w-mx-022',
-  'w-mx-023', 'w-mx-024', 'w-mx-025', 'w-mx-026', 'w-mx-027', 'w-mx-028', 'w-mx-029',
+  'w-mx-023', 'w-mx-024', 'w-mx-025', 'w-mx-026', 'w-mx-027', 'w-mx-028', 'w-mx-029', 'w-mx-030',
+  'w-mx-031', 'w-mx-032', 'w-mx-033', 'w-mx-034', 'w-mx-035', 'w-mx-036', 'w-mx-037', 'w-mx-038',
+  'w-mx-039', 'w-mx-040', 'w-mx-041', 'w-mx-042', 'w-mx-043', 'w-mx-044', 'w-mx-045', 'w-mx-046',
+  'w-mx-048', 'w-mx-049', 'w-mx-050',
   // End of generated banners
 ];
 
