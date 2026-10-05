@@ -281,6 +281,12 @@ def main() -> None:
             'chapter': f'مطبخ {name_ar}' if name_ar else f'مطبخ {name_en}',
             'chapterEn': f'{name_en} Cuisine',
         })
+    # merge tier data when tier_probe.py has run (tier 1/2 = in scope, 3 = skip)
+    tiers_path = WORLD / 'tiers.json'
+    if tiers_path.exists():
+        tiers = json.loads(tiers_path.read_text())
+        for r in rows:
+            r['tier'] = tiers.get(r['iso2'], {}).get('tier', 3)
     WORLD.mkdir(exist_ok=True)
     path = WORLD / 'countries.yaml'
     path.write_text(yaml.safe_dump({'countries': rows}, allow_unicode=True, sort_keys=False))

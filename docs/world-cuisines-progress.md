@@ -43,6 +43,14 @@ reads per-recipe `section`/`refs` overrides from `work/recipes.json`.
 GPU test (FLUX.2 klein 9B, quantize 8, 4 steps, refs `meat-03`/`veg-05`):
 3 images at ~80 s each, on-style. Approved; sources committed via PR #238.
 
+## Scope (updated 2026-10-04)
+
+User decision: tier-1/tier-2 countries only, **max 50 recipes/country**.
+`world/tiers.json` ranks all 195 countries by enwiki "X cuisine" category
+size: 31 tier-1 (>=80 members), 77 tier-2 (25-79), 87 tier-3 (<25, skipped).
+Scope = 108 countries. `discover.py` refuses tier-3 unless `--force`;
+`import.py` caps at `MAX_PER_COUNTRY = 50`; parse `--limit` lowered to 110.
+
 ## Step 1 detail
 
 195-country metadata in `world/countries.yaml` (arwiki names, `مطبخ <الدولة>`

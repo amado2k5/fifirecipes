@@ -23,6 +23,7 @@ from worldutil import COUNTRIES, DISH_OWNER, DUPLICATES, REPO, WORLD
 
 DISTILLED = WORLD / 'distilled'
 SRC_DATA = REPO / 'src' / 'data'
+MAX_PER_COUNTRY = 50  # per-country recipe cap (user decision)
 READY_CHECKERS = []  # filled below
 
 HARD_TO_MASTER = {'hard': 'master', 'easy': 'easy', 'medium': 'medium',
@@ -153,6 +154,11 @@ def main() -> None:
             dupes.log_duplicate(dish, args.iso, m, 'import-title')
             continue
         kept.append((d, draft))
+    slots = max(0, MAX_PER_COUNTRY - len(existing))
+    if len(kept) > slots:
+        print(f'    cap {MAX_PER_COUNTRY}/country: dropping '
+              f'{len(kept) - slots} lower-ranked drafts')
+        kept = kept[:slots]
     ids = next_ids(args.iso, len(kept), existing)
     entries = existing[:]
     for (d, draft), rid in zip(kept, ids):

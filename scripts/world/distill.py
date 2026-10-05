@@ -333,7 +333,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument('--iso', required=True)
     ap.add_argument('--llm', action='store_true')
-    ap.add_argument('--limit', type=int, default=160)
+    ap.add_argument('--limit', type=int, default=110)  # attrition buffer vs 50 cap
     args = ap.parse_args()
     parse_phase(args.iso, args.limit)
     if args.llm:

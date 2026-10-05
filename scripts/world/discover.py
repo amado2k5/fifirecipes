@@ -9,6 +9,7 @@ Output:    world/sources/<iso2>.yaml + dishes/urls tables.
 import argparse
 import json
 import re
+import sys
 import time
 import urllib.parse
 import urllib.request
@@ -402,14 +403,18 @@ def ddg_links(dish: str, allowed: set[str]) -> list[str]:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument('--iso', required=True)
-    ap.add_argument('--limit', type=int, default=130)
+    ap.add_argument('--limit', type=int, default=90)  # buffer vs 50/country cap
     ap.add_argument('--no-pageviews', action='store_true')
     ap.add_argument('--no-urls', action='store_true')
+    ap.add_argument('--force', action='store_true',
+                    help='run even for tier-3 countries')
     args = ap.parse_args()
 
     countries = {c['iso2']: c for c in
                  yaml.safe_load(COUNTRIES.read_text())['countries']}
     country = countries[args.iso]
+    if country.get('tier', 3) == 3 and not args.force:
+        sys.exit(f"{args.iso} is tier 3 — out of scope (use --force)")
     sites = yaml.safe_load(SITES.read_text())['sites']
     # yaml parses unquoted yes/no as booleans — normalise to bool
     for s in sites:
