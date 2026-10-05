@@ -1,117 +1,366 @@
 {
-"w-ma-029": {
-  "title": "Kebab Maghdour",
+"w-fr-001": {
+  "title": "Bouillabaisse",
   "ingredients": {
-    "w-ma-029-i1": {"name": "Agneau, veau ou bœuf", "standardAmount": "1 kg (en dés de 2,5 cm)"},
-    "w-ma-029-i2": {"name": "Oignons", "standardAmount": "2 moyens (râpés ou finement hachés)"},
-    "w-ma-029-i3": {"name": "Ail", "standardAmount": "2-3 gousses (râpées ou finement hachées)"},
-    "w-ma-029-i4": {"name": "Gingembre moulu", "standardAmount": "½ c. à café"},
-    "w-ma-029-i5": {"name": "Poivre noir et blanc", "standardAmount": "¼ c. à café"},
-    "w-ma-029-i6": {"name": "Persil plat et coriandre", "standardAmount": "2 c. à soupe (hachés)"},
-    "w-ma-029-i7": {"name": "Huile végétale", "standardAmount": "1 c. à soupe"},
-    "w-ma-029-i8": {"name": "Huile végétale et huile d'olive", "standardAmount": "3 c. à soupe (mélangées)"},
-    "w-ma-029-i9": {"name": "Sel", "standardAmount": "1 c. à café (selon le goût)"},
-    "w-ma-029-i10": {"name": "Bâton de cannelle", "standardAmount": "1 (facultatif)"},
-    "w-ma-029-i11": {"name": "Paprika doux moulu", "standardAmount": "1 c. à soupe"},
-    "w-ma-029-i12": {"name": "Persil plat haché", "standardAmount": "2 c. à soupe"},
-    "w-ma-029-i13": {"name": "Smen", "standardAmount": "1 c. à soupe (ou ghee)"},
-    "w-ma-029-i14": {"name": "Beurre", "standardAmount": "2 c. à soupe"},
-    "w-ma-029-i15": {"name": "Œufs", "standardAmount": "3-6 (un demi à un œuf par personne)"},
-    "w-ma-029-i16": {"name": "Huile d'olive", "standardAmount": "6 c. à soupe (pour la friture)"},
-    "w-ma-029-i17": {"name": "Persil plat ou coriandre haché", "standardAmount": "1 c. à soupe"}
+    "w-fr-001-i1": {"name": "grondin", "standardAmount": "660 g"},
+    "w-fr-001-i2": {"name": "rascasse", "standardAmount": "660 g"},
+    "w-fr-001-i3": {"name": "grondin rouge", "standardAmount": "660 g"},
+    "w-fr-001-i4": {"name": "congre", "standardAmount": "660 g"},
+    "w-fr-001-i5": {"name": "lotte", "standardAmount": "660 g"},
+    "w-fr-001-i6": {"name": "saint-pierre", "standardAmount": "660 g"},
+    "w-fr-001-i7": {"name": "poulpe", "standardAmount": "1 vivant (facultatif)"},
+    "w-fr-001-i8": {"name": "oursins", "standardAmount": "10"},
+    "w-fr-001-i9": {"name": "pommes de terre", "standardAmount": "1 kg"},
+    "w-fr-001-i10": {"name": "ail", "standardAmount": "7 gousses"},
+    "w-fr-001-i11": {"name": "oignons", "standardAmount": "3"},
+    "w-fr-001-i12": {"name": "tomates", "standardAmount": "5 mûres"},
+    "w-fr-001-i13": {"name": "huile d'olive", "standardAmount": "240 ml"},
+    "w-fr-001-i14": {"name": "bouquet garni", "standardAmount": "1"},
+    "w-fr-001-i15": {"name": "fenouil", "standardAmount": "1 branche"},
+    "w-fr-001-i16": {"name": "safran", "standardAmount": "8 fils"},
+    "w-fr-001-i17": {"name": "pain de campagne", "standardAmount": "10 tranches"},
+    "w-fr-001-i18": {"name": "sel", "standardAmount": "au goût"},
+    "w-fr-001-i19": {"name": "poivre de Cayenne", "standardAmount": "au goût"}
   },
   "instructions": {
-    "1": "Préparez la viande en la coupant en dés de 2,5 cm.",
-    "2": "Dans un saladier, mélangez la viande avec l'oignon râpé, l'ail, le gingembre, le poivre, le persil, la coriandre et l'huile végétale. Laissez mariner 30 minutes.",
-    "3": "Dans une marmite, chauffez l'huile végétale et l'huile d'olive, ajoutez l'oignon finement haché et faites revenir jusqu'à ce qu'il soit doré.",
-    "4": "Ajoutez la viande marinée dans la marmite et faites revenir 5 minutes.",
-    "5": "Couvrez la viande d'eau, ajoutez le gingembre, le sel, le bâton de cannelle et le paprika doux. Portez à ébullition, baissez le feu et laissez mijoter 45 minutes jusqu'à ce que la viande soit tendre.",
-    "6": "Ajoutez les œufs dans la marmite et faites cuire 10 minutes.",
-    "7": "Servez le Kebab Maghdour chaud, garni de persil haché."
+    "1": "Nettoyez les poissons et coupez-les en grosses tranches en gardant les arêtes.",
+    "2": "Chauffez l'huile d'olive dans une grande cocotte profonde.",
+    "3": "Ajoutez les oignons, 6 gousses d'ail écrasées, les morceaux de poulpe et les tomates. Faites revenir à feu doux 5 minutes en remuant.",
+    "4": "Ajoutez le poisson : d'abord les grosses tranches puis les petites. Couvrez d'eau bouillante et ajoutez sel, poivre, fenouil, bouquet garni et safran. Laissez mijoter à feu doux.",
+    "5": "Préparez la rouille : écrasez l'ail au mortier, ajoutez le jaune d'œuf et le safran, puis montez à l'huile d'olive comme une mayonnaise.",
+    "6": "Faites cuire les pommes de terre à l'eau salée 15-20 minutes. Ouvrez les oursins aux ciseaux et prélevez la chair à la petite cuillère.",
+    "7": "Disposez le poisson sur un plat. Ajoutez la chair d'oursin au bouillon et remuez.",
+    "8": "Frottez le pain à l'ail et tartinez chaque tranche d'une cuillère de rouille. Mettez-en au moins deux par bol.",
+    "9": "Retirez le poisson et les pommes de terre du bouillon et disposez-les sur un grand plat.",
+    "10": "Versez le bouillon chaud dans chaque bol sur le pain à la rouille. Servez le poisson et les pommes de terre à part."
   },
-  "culturalNotes": "Le Kebab Maghdour est un plat marocain traditionnel servi lors d'occasions spéciales. Il est réputé pour ses riches saveurs d'épices et sa viande fondante."
+  "culturalNotes": "La bouillabaisse est un plat traditionnel de Marseille, réputé pour son mélange varié de poissons et de crustacés."
 },
-"w-mx-046": {
-  "title": "Chile Relleno",
+"w-fr-002": {
+  "title": "Calamars au Tzatziki",
   "ingredients": {
-    "w-mx-046-i1": {"name": "Piments poblano", "standardAmount": "6 gros"},
-    "w-mx-046-i2": {"name": "Fromage Monterey Jack", "standardAmount": "225 g (en lamelles ou râpé)"},
-    "w-mx-046-i3": {"name": "Huile", "standardAmount": "1 litre (pour la friture)"},
-    "w-mx-046-i4": {"name": "Œufs", "standardAmount": "3 gros"},
-    "w-mx-046-i5": {"name": "Farine tout usage", "standardAmount": "½ tasse"},
-    "w-mx-046-i6": {"name": "Sel fin", "standardAmount": "½ c. à café"},
-    "w-mx-046-i7": {"name": "Tomates roma", "standardAmount": "6 (en quartiers)"},
-    "w-mx-046-i8": {"name": "Oignon", "standardAmount": "½ petit (coupé en deux)"},
-    "w-mx-046-i9": {"name": "Ail", "standardAmount": "3 gousses"},
-    "w-mx-046-i10": {"name": "Piment jalapeño", "standardAmount": "1 (épépiné, facultatif)"},
-    "w-mx-046-i11": {"name": "Coriandre", "standardAmount": "5 brins"},
-    "w-mx-046-i12": {"name": "Sel kasher", "standardAmount": "1 c. à café (plus selon le goût)"},
-    "w-mx-046-i13": {"name": "Huile d'olive", "standardAmount": "1 c. à café"}
+    "w-fr-002-i1": {"name": "ail", "standardAmount": "2 petites gousses hachées"},
+    "w-fr-002-i2": {"name": "huile d'olive", "standardAmount": "1 c. à soupe"},
+    "w-fr-002-i3": {"name": "concombre", "standardAmount": "1 petit"},
+    "w-fr-002-i4": {"name": "yaourt", "standardAmount": "250 g"},
+    "w-fr-002-i5": {"name": "menthe séchée", "standardAmount": "1 c. à café"},
+    "w-fr-002-i6": {"name": "jus de citron", "standardAmount": "1 c. à café"},
+    "w-fr-002-i7": {"name": "sel et poivre", "standardAmount": "au goût"},
+    "w-fr-002-i8": {"name": "calamar", "standardAmount": "450 g"},
+    "w-fr-002-i9": {"name": "farine tout usage", "standardAmount": "un grand bol"},
+    "w-fr-002-i10": {"name": "huile végétale ou d'olive", "standardAmount": "suffisamment (2,5 cm dans la poêle)"},
+    "w-fr-002-i11": {"name": "jus de citron frais", "standardAmount": "au goût"},
+    "w-fr-002-i12": {"name": "sel, poivre et origan grec sec", "standardAmount": "au goût"}
   },
   "instructions": {
-    "1": "Faites griller les piments poblano à feu moyen jusqu'à ce que la peau noircisse. Placez-les dans un sac plastique fermé pendant 10 minutes.",
-    "2": "Épluchez les piments et coupez le pédoncule. Ouvrez-les délicatement et retirez les graines et la membrane intérieure.",
-    "3": "Farcissez les piments de fromage Monterey Jack. Réservez.",
-    "4": "Dans un bol, battez les œufs avec le sel. Dans un autre bol, placez la farine.",
-    "5": "Trempez les piments farcis dans la farine, puis dans les œufs battus.",
-    "6": "Chauffez l'huile dans une poêle profonde à feu moyen. Faites frire les piments jusqu'à ce qu'ils soient dorés de tous les côtés.",
-    "7": "Préparez la sauce tomate en mixant les tomates, l'oignon, l'ail, le jalapeño, la coriandre, le sel et l'huile d'olive jusqu'à consistance lisse.",
-    "8": "Servez les piments farcis avec la sauce tomate à côté."
+    "1": "Ajoutez l'ail à l'huile d'olive dans un bol moyen.",
+    "2": "Émincez finement le concombre. Laissez-le dégorger au moins 15 minutes avec une pincée de sel.",
+    "3": "Ajoutez le yaourt, le concombre, la menthe, le citron, le sel et le poivre à l'ail et à l'huile. Mélangez bien ; si trop liquide, ajoutez du yaourt.",
+    "4": "Nettoyez le calamar et coupez les corps en anneaux de 2,5 cm ou laissez-les entiers s'ils sont petits.",
+    "5": "Préparez un bol de farine assaisonnée de sel et poivre.",
+    "6": "Chauffez l'huile à feu très vif.",
+    "7": "Farinez chaque morceau de calamar à l'intérieur comme à l'extérieur.",
+    "8": "Une fois l'huile chaude, faites frire les calamars par petites quantités.",
+    "9": "Ils cuisent très vite, ~1 minute par petit morceau ; les gros peuvent demander une minute de plus.",
+    "10": "Égouttez sur du papier absorbant et servez aussitôt avec le tzatziki."
   },
-  "culturalNotes": "Le chile relleno est un plat mexicain traditionnel souvent servi lors d'occasions spéciales."
+  "culturalNotes": "Les calamars au tzatziki sont un plat populaire de la cuisine méditerranéenne, surtout en Grèce et à Chypre."
 },
-"w-mx-048": {
-  "title": "Thé à la Cannelle Mexicain",
+"w-fr-003": {
+  "title": "Calisson",
   "ingredients": {
-    "w-mx-048-i1": {"name": "Eau", "standardAmount": "6 tasses"},
-    "w-mx-048-i2": {"name": "Bâtons de cannelle mexicaine", "standardAmount": "2 bâtons"},
-    "w-mx-048-i3": {"name": "Miel", "standardAmount": "selon le goût"}
+    "w-fr-003-i1": {"name": "amandes", "standardAmount": "200 g"},
+    "w-fr-003-i2": {"name": "sucre glace", "standardAmount": "200 g"},
+    "w-fr-003-i3": {"name": "miel", "standardAmount": "100 g"},
+    "w-fr-003-i4": {"name": "cannelle", "standardAmount": "½ c. à café"},
+    "w-fr-003-i5": {"name": "clous de girofle", "standardAmount": "¼ c. à café"},
+    "w-fr-003-i6": {"name": "raisins secs", "standardAmount": "50 g"},
+    "w-fr-003-i7": {"name": "farine", "standardAmount": "100 g"},
+    "w-fr-003-i8": {"name": "œuf", "standardAmount": "1"}
   },
   "instructions": {
-    "1": "Placez l'eau et la cannelle dans une casserole moyenne et portez à ébullition.",
-    "2": "Laissez bouillir 3 à 5 minutes, puis retirez du feu.",
-    "3": "Laissez infuser encore 30 minutes ou selon l'intensité désirée.",
-    "4": "Ajoutez du miel selon le goût.",
-    "5": "Servez chaud."
+    "1": "Mélangez les amandes en poudre et le sucre glace dans un bol.",
+    "2": "Ajoutez le miel, la cannelle, les clous de girofle et les raisins secs ; mélangez bien.",
+    "3": "Ajoutez la farine progressivement jusqu'à obtenir une pâte ferme.",
+    "4": "Couvrez la pâte et laissez reposer 30 minutes.",
+    "5": "Formez de petites boules et déposez-les sur une plaque tapissée de papier sulfurisé.",
+    "6": "Enfournez à 180 °C pendant 20 minutes jusqu'à ce qu'ils soient dorés.",
+    "7": "Laissez refroidir avant de servir."
   },
-  "culturalNotes": "Le thé à la cannelle mexicain est une boisson traditionnelle très populaire au Mexique, surtout pendant les fêtes et les occasions spéciales."
+  "culturalNotes": "Le calisson est une friandise traditionnelle du sud de la France, au parfum doux et aromatique."
 },
-"w-mx-049": {
-  "title": "Filet de Poisson à la Sauce à l'Ail",
+"w-fr-004": {
+  "title": "Ail Confit",
   "ingredients": {
-    "w-mx-049-i1": {"name": "Filets de tilapia ou autre poisson", "standardAmount": "680 g"},
-    "w-mx-049-i2": {"name": "Citron vert", "standardAmount": "1"},
-    "w-mx-049-i3": {"name": "Sel et poivre", "standardAmount": "selon le goût"},
-    "w-mx-049-i4": {"name": "Huile végétale (ou moitié olive, moitié végétale)", "standardAmount": "¼ tasse"},
-    "w-mx-049-i5": {"name": "Gousses d'ail", "standardAmount": "6 (en fines lamelles)"},
-    "w-mx-049-i6": {"name": "Persil", "standardAmount": "3 c. à soupe (finement haché)"},
-    "w-mx-049-i7": {"name": "Farine (facultatif)", "standardAmount": "2 c. à soupe"}
+    "w-fr-004-i1": {"name": "ail", "standardAmount": "2 têtes"},
+    "w-fr-004-i2": {"name": "thym", "standardAmount": "2 brins"},
+    "w-fr-004-i3": {"name": "huile d'olive", "standardAmount": "250 ml"},
+    "w-fr-004-i4": {"name": "sel", "standardAmount": "une bonne pincée"}
   },
   "instructions": {
-    "1": "Assaisonnez le poisson de sel, poivre et jus de citron vert. Réservez le temps de préparer les autres ingrédients.",
-    "2": "Chauffez l'huile dans une grande poêle à feu doux. Faites dorer les lamelles d'ail. Retirez-les dès qu'elles sont légèrement dorées ; sinon elles deviennent amères.",
-    "3": "Si vous utilisez la farine, saupoudrez-en légèrement les filets. Montez le feu à moyen-vif dans la poêle où vous avez fait dorer l'ail. Ajoutez le poisson et faites cuire des deux côtés. Comptez 2-3 minutes par côté pour des filets de 1 cm, et 5-7 minutes pour des filets plus épais.",
-    "4": "Retirez le poisson de la poêle et placez-le sur une grille avec du papier absorbant dessous.",
-    "5": "Servez le poisson garni de persil haché et de lamelles d'ail dorées. (Et avec une noisette de beurre, c'est divin !)"
+    "1": "Préchauffez le four à 150 °C (130 °C chaleur tournante).",
+    "2": "Placez l'ail dans un petit plat allant au four (~13 cm), ajoutez le thym et une bonne pincée de sel.",
+    "3": "Versez l'huile d'olive en recouvrant complètement l'ail.",
+    "4": "Enfournez 1 h 20 jusqu'à ce que l'huile frémisse doucement et que l'ail soit bien doré. Les gousses doivent garder leur forme mais s'écraser sous la pression.",
+    "5": "Laissez refroidir l'ail dans l'huile. Il se conserve deux semaines dans un bocal stérilisé au réfrigérateur."
   },
-  "culturalNotes": "Ce plat est l'un des plus populaires de la cuisine mexicaine, souvent servi en plat principal lors de réunions de famille."
+  "culturalNotes": "L'ail confit est un classique de la cuisine française, servi en entrée ou pour parfumer de nombreux plats."
 },
-"w-mx-050": {
-  "title": "Quesadilla au Piment Vert et au Fromage",
+"w-fr-005": {
+  "title": "Confit de Canard",
   "ingredients": {
-    "w-mx-050-i1": {"name": "Tortillas de blé", "standardAmount": "4 (de 25 cm)"},
-    "w-mx-050-i2": {"name": "Cheddar ou pepper jack", "standardAmount": "1 tasse (râpé)"},
-    "w-mx-050-i3": {"name": "Piments poblano grillés", "standardAmount": "2 (en dés)"},
-    "w-mx-050-i4": {"name": "Salsa (pour accompagner)", "standardAmount": "selon le goût"},
-    "w-mx-050-i5": {"name": "Guacamole (pour accompagner)", "standardAmount": "selon le goût"}
+    "w-fr-005-i1": {"name": "cuisses de canard", "standardAmount": "4 (250 g chacune)"},
+    "w-fr-005-i2": {"name": "graisse de canard", "standardAmount": "750 ml"},
+    "w-fr-005-i3": {"name": "sel de cuisine/kosher", "standardAmount": "4 c. à café"},
+    "w-fr-005-i4": {"name": "brins de thym", "standardAmount": "⅓ de tasse"},
+    "w-fr-005-i5": {"name": "brins de sauge", "standardAmount": "⅓ de tasse"},
+    "w-fr-005-i6": {"name": "brins de romarin", "standardAmount": "⅓ de tasse"},
+    "w-fr-005-i7": {"name": "brins d'origan", "standardAmount": "⅓ de tasse"},
+    "w-fr-005-i8": {"name": "gousses d'ail", "standardAmount": "6 (écrasées avec la peau)"},
+    "w-fr-005-i9": {"name": "échalote", "standardAmount": "1 (émincée)"},
+    "w-fr-005-i10": {"name": "poivre noir en grains", "standardAmount": "1 c. à soupe"},
+    "w-fr-005-i11": {"name": "graines de coriandre", "standardAmount": "1 c. à soupe"},
+    "w-fr-005-i12": {"name": "anis étoilé", "standardAmount": "8"},
+    "w-fr-005-i13": {"name": "feuilles de laurier", "standardAmount": "2"},
+    "w-fr-005-i14": {"name": "baies de genièvre", "standardAmount": "2 c. à soupe"},
+    "w-fr-005-i15": {"name": "clous de girofle", "standardAmount": "8"}
   },
   "instructions": {
-    "1": "Préchauffez un comal 1 minute à feu moyen-doux.",
-    "2": "Chauffez les tortillas 1 minute d'un côté, retournez-les et parsemez de fromage sur l'une, ajoutez le piment, couvrez d'une autre tortilla et pressez doucement avec une spatule.",
-    "3": "Retournez de temps en temps jusqu'à ce que les quesadillas soient dorées des deux côtés et que le fromage ait fondu.",
-    "4": "Recommencez avec les tortillas et ingrédients restants.",
-    "5": "Servez avec salsa et guacamole si désiré."
+    "1": "Mélangez le sel avec les épices dans un bol. Frottez-en les cuisses de canard sur tous les côtés.",
+    "2": "Placez les cuisses dans un plat creux, couvrez-les d'épices, couvrez le plat et réfrigérez 24 heures.",
+    "3": "Au bout de 24 heures, rincez les cuisses à l'eau froide et séchez-les.",
+    "4": "Placez-les dans un plat à rôtir, ajoutez la graisse et les épices, et couvrez de papier d'aluminium.",
+    "5": "Enfournez à 100 °C pendant 2-3 heures jusqu'à ce que la viande soit tendre.",
+    "6": "Sortez du four et laissez tiédir. Filtrez la graisse et conservez-la dans un récipient hermétique.",
+    "7": "Placez les cuisses dans un plat creux et recouvrez-les de graisse filtrée. Elles se conservent jusqu'à 6 mois au réfrigérateur.",
+    "8": "Pour servir, faites dorer les cuisses à 200 °C pendant 10-15 minutes jusqu'à ce que la peau soit croustillante."
   },
-  "culturalNotes": "La quesadilla est un plat très populaire au Mexique, servi en collation ou en repas principal."
+  "culturalNotes": "Le confit de canard est un plat français traditionnel à cuisson lente dans la graisse ; servi avec une purée ou des légumes rôtis."
+},
+"w-fr-006": {
+  "title": "Flamiche (Tarte aux Poireaux)",
+  "ingredients": {
+    "w-fr-006-i1": {"name": "farine", "standardAmount": "350 g"},
+    "w-fr-006-i2": {"name": "beurre", "standardAmount": "175 g (mou)"},
+    "w-fr-006-i3": {"name": "fleur de sel", "standardAmount": "1 pincée"},
+    "w-fr-006-i4": {"name": "lait", "standardAmount": "7 c. à soupe"},
+    "w-fr-006-i5": {"name": "curry en poudre", "standardAmount": "½ c. à café"},
+    "w-fr-006-i6": {"name": "poireaux", "standardAmount": "900 g (émincés)"},
+    "w-fr-006-i7": {"name": "beurre", "standardAmount": "40 g"},
+    "w-fr-006-i8": {"name": "jaunes d'œufs", "standardAmount": "4 (3 garniture + 1 dorure)"},
+    "w-fr-006-i9": {"name": "crème fraîche", "standardAmount": "200 g (ou crème épaisse/yaourt grec)"},
+    "w-fr-006-i10": {"name": "muscade râpée", "standardAmount": "¼ c. à café"},
+    "w-fr-006-i11": {"name": "sel et poivre noir", "standardAmount": "1 pincée"}
+  },
+  "instructions": {
+    "1": "Dans un grand bol, mélangez la farine, le beurre et le sel jusqu'à obtenir une texture sableuse.",
+    "2": "Ajoutez le lait progressivement jusqu'à former une pâte.",
+    "3": "Couvrez et réfrigérez 30 minutes.",
+    "4": "Dans une grande poêle, faites fondre le beurre et faites revenir les poireaux jusqu'à ce qu'ils soient tendres et dorés.",
+    "5": "Ajoutez le curry et remuez une minute.",
+    "6": "Dans un autre bol, mélangez les jaunes, la crème fraîche, la muscade, le sel et le poivre.",
+    "7": "Incorporez les poireaux cuits au mélange et remuez bien.",
+    "8": "Foncez un moule à tarte avec la pâte et versez la garniture.",
+    "9": "Recouvrez de l'abaisse supérieure et soudez les bords.",
+    "10": "Dorez au jaune d'œuf restant.",
+    "11": "Enfournez à 180 °C pendant 45 minutes jusqu'à ce que ce soit doré.",
+    "12": "Laissez tiédir 10 minutes avant de servir."
+  },
+  "culturalNotes": "La flamiche est une tarte traditionnelle du nord de la France, aux poireaux."
+},
+"w-fr-007": {
+  "title": "Pommes de Terre Fondantes",
+  "ingredients": {
+    "w-fr-007-i1": {"name": "grosses pommes de terre farineuses", "standardAmount": "4 (400 g chacune)"},
+    "w-fr-007-i2": {"name": "sel de cuisine/kosher", "standardAmount": "¾ c. à café"},
+    "w-fr-007-i3": {"name": "poivre noir", "standardAmount": "½ c. à café"},
+    "w-fr-007-i4": {"name": "huile d'olive extra-vierge", "standardAmount": "2 c. à soupe"},
+    "w-fr-007-i5": {"name": "beurre doux", "standardAmount": "3 c. à soupe (50 g)"},
+    "w-fr-007-i6": {"name": "brins de thym", "standardAmount": "6"},
+    "w-fr-007-i7": {"name": "bouillon de volaille ou de légumes", "standardAmount": "240 ml (peu salé)"}
+  },
+  "instructions": {
+    "1": "Préchauffez le four à 200 °C (180 °C chaleur tournante).",
+    "2": "Taillez chaque pomme de terre en cylindres de ~6 cm de diamètre et 7 cm de haut, puis coupez en deux : 8 cylindres de 3,5 cm.",
+    "3": "Séchez les pommes de terre et mélangez-les avec la moitié de l'huile, le sel et le poivre.",
+    "4": "Dans une poêle allant au four, chauffez le reste de l'huile à feu moyen-vif. Faites dorer les pommes de terre 6-8 minutes par face.",
+    "5": "Ajoutez le beurre et le thym. Une fois fondu, arrosez les pommes de terre. Ajoutez le bouillon, portez à ébullition et enfournez 30 minutes jusqu'à ce qu'elles soient fondantes.",
+    "6": "Arrosez une dernière fois et servez. Version restaurant : avec une entrecôte, une sauce béarnaise et des petits pois au beurre."
+  },
+  "culturalNotes": "Les pommes de terre fondantes sont un accompagnement français rôti au four, crémeux à l'intérieur et doré à l'extérieur."
+},
+"w-fr-008": {
+  "title": "Crêpes au Chocolat",
+  "ingredients": {
+    "w-fr-008-i1": {"name": "beurre doux", "standardAmount": "25 g"},
+    "w-fr-008-i2": {"name": "farine", "standardAmount": "150 g"},
+    "w-fr-008-i3": {"name": "œufs", "standardAmount": "2 gros"},
+    "w-fr-008-i4": {"name": "lait entier", "standardAmount": "275 ml"},
+    "w-fr-008-i5": {"name": "fleur de sel", "standardAmount": "1 pincée"},
+    "w-fr-008-i6": {"name": "vanille en poudre", "standardAmount": "¼ c. à café (facultatif)"},
+    "w-fr-008-i7": {"name": "sucre glace", "standardAmount": "1 c. à soupe"},
+    "w-fr-008-i8": {"name": "cacao en poudre non sucré", "standardAmount": "1 c. à soupe"}
+  },
+  "instructions": {
+    "1": "Faites fondre le beurre dans la crêpière (encore meilleur s'il est légèrement noisette).",
+    "2": "Mélangez la farine, le sucre glace, le cacao, le sel et la vanille dans un grand bol. Creusez un puits et cassez les œufs ; fouettez bien.",
+    "3": "Ajoutez un quart du lait en fouettant pour éviter les grumeaux, puis le reste progressivement. La pâte sera très liquide : c'est normal.",
+    "4": "Essuyez l'excès de beurre de la poêle. Chauffez à feu moyen-vif, versez une louche de pâte et faites tourner pour couvrir le fond.",
+    "5": "Cuisez 2-3 minutes jusqu'à l'apparition de bulles ; retournez la crêpe et cuisez encore quelques minutes.",
+    "6": "Baissez légèrement le feu et répétez en beurrant, jusqu'à obtenir 6-8 crêpes empilées."
+  },
+  "culturalNotes": "Les crêpes sont un petit-déjeuner populaire en France, servies avec du chocolat, du miel ou des fraises."
+},
+"w-fr-009": {
+  "title": "Truffes au Ganache de Chocolat",
+  "ingredients": {
+    "w-fr-009-i1": {"name": "chocolat noir", "standardAmount": "285 g"},
+    "w-fr-009-i2": {"name": "beurre doux", "standardAmount": "30 g"},
+    "w-fr-009-i3": {"name": "crème", "standardAmount": "125 ml"},
+    "w-fr-009-i4": {"name": "noix de coco râpée", "standardAmount": "125 g"},
+    "w-fr-009-i5": {"name": "cacao en poudre non sucré", "standardAmount": "60 g"},
+    "w-fr-009-i6": {"name": "cacahuètes concassées", "standardAmount": "125 g"},
+    "w-fr-009-i7": {"name": "vermicelles colorés", "standardAmount": "85 g"},
+    "w-fr-009-i8": {"name": "sucre glace", "standardAmount": "60 g"}
+  },
+  "instructions": {
+    "1": "Mettez le chocolat, la crème et le beurre dans un bol allant au micro-ondes. Chauffez 4 fois 30 secondes en remuant entre chaque.",
+    "2": "Couvrez d'une assiette et laissez reposer 5 minutes ; remuez jusqu'à ce que le chocolat soit fondu et lisse : c'est la ganache.",
+    "3": "Réfrigérez le bol 6 heures. Ne passez pas par le congélateur !",
+    "4": "Mettez aussi au frais l'assiette qui recevra les truffes.",
+    "5": "Au bout de 6 heures, formez des boulettes à la cuillère à café.",
+    "6": "Roulez les truffes dans la coco, le cacao, les cacahuètes, les vermicelles ou le sucre glace au choix.",
+    "7": "Déposez-les sur l'assiette froide et laissez-les prendre complètement."
+  },
+  "culturalNotes": "La ganache est un mélange onctueux de chocolat et de crème, ingrédient clé de nombreux desserts français."
+},
+"w-fr-010": {
+  "title": "Gratin Dauphinois",
+  "ingredients": {
+    "w-fr-010-i1": {"name": "pommes de terre", "standardAmount": "750 g"},
+    "w-fr-010-i2": {"name": "ail", "standardAmount": "2-3 gousses hachées"},
+    "w-fr-010-i3": {"name": "lait entier", "standardAmount": "275 ml"},
+    "w-fr-010-i4": {"name": "crème double ou crème épaisse", "standardAmount": "150 ml"},
+    "w-fr-010-i5": {"name": "muscade", "standardAmount": "¼ c. à café"},
+    "w-fr-010-i6": {"name": "sel et poivre noir", "standardAmount": "au goût"},
+    "w-fr-010-i7": {"name": "thym frais", "standardAmount": "½ c. à café"},
+    "w-fr-010-i8": {"name": "beurre", "standardAmount": "une noix (pour le plat)"},
+    "w-fr-010-i9": {"name": "emmental ou gruyère", "standardAmount": "100 g râpé (facultatif)"}
+  },
+  "instructions": {
+    "1": "Pelez les pommes de terre (ou gardez la peau bien lavée), séchez-les et coupez-les en rondelles très fines (3 mm) à la mandoline ou au couteau.",
+    "2": "Préchauffez le four à 190 °C (170 °C chaleur tournante).",
+    "3": "Faites chauffer le lait, la crème et l'ail jusqu'à ébullition. Baissez le feu, ajoutez la muscade, le sel et le poivre, puis les pommes de terre.",
+    "4": "Cuisez environ 5 minutes en retournant les rondelles pour bien les enrober de lait crémeux. Ajoutez le fromage ici si vous en mettez.",
+    "5": "Beurrez le plat, versez les pommes de terre et étalez-les uniformément.",
+    "6": "Enfournez environ 45 minutes jusqu'à ce que ce soit doré."
+  },
+  "culturalNotes": "Le gratin dauphinois est un plat traditionnel du Dauphiné : fines rondelles de pommes de terre cuites au lait et à la crème, parfumées à la muscade et à l'ail."
+},
+"w-fr-011": {
+  "title": "Pain d'épices",
+  "ingredients": {
+    "w-fr-011-i1": {"name": "eau", "standardAmount": "250 ml"},
+    "w-fr-011-i2": {"name": "miel", "standardAmount": "255 g"},
+    "w-fr-011-i3": {"name": "cardamome", "standardAmount": "4 capsules"},
+    "w-fr-011-i4": {"name": "clous de girofle", "standardAmount": "2"},
+    "w-fr-011-i5": {"name": "anis étoilé", "standardAmount": "2"},
+    "w-fr-011-i6": {"name": "sucre de canne", "standardAmount": "100 g"},
+    "w-fr-011-i7": {"name": "beurre doux", "standardAmount": "155 g"},
+    "w-fr-011-i8": {"name": "farine de seigle", "standardAmount": "255 g"},
+    "w-fr-011-i9": {"name": "levure chimique", "standardAmount": "2 c. à café"},
+    "w-fr-011-i10": {"name": "sel", "standardAmount": "une bonne pincée"},
+    "w-fr-011-i11": {"name": "mélange d'épices à pain d'épices", "standardAmount": "1½ c. à café"},
+    "w-fr-011-i12": {"name": "fruits confits", "standardAmount": "1 c. à soupe"}
+  },
+  "instructions": {
+    "1": "Beurrez le moule à cake et préchauffez le four à 180 °C (160 °C chaleur tournante).",
+    "2": "Faites bouillir l'eau, le miel, le sucre et les épices entières jusqu'à dissolution. Faites fondre le beurre dedans. Coupez le feu et laissez infuser les épices.",
+    "3": "Dans un bol, mélangez la farine de seigle, la levure, le sel et les épices moulues. Ajoutez progressivement le mélange au miel tiède en fouettant jusqu'à obtenir un appareil lisse.",
+    "4": "Versez dans le moule aux ¾. Enfournez 40-50 minutes jusqu'à ce que ce soit brun foncé ; une pique doit ressortir propre.",
+    "5": "Laissez 10 minutes dans le moule avant de démouler sur une grille. Décorez de fruits confits et de l'anis restant."
+  },
+  "culturalNotes": "Le pain d'épices est un gâteau d'épices traditionnel français aux parfums chaleureux et aromatiques."
+},
+"w-fr-012": {
+  "title": "Pissaladière",
+  "ingredients": {
+    "w-fr-012-i1": {"name": "huile d'olive", "standardAmount": "4 c. à soupe + un peu pour la plaque"},
+    "w-fr-012-i2": {"name": "oignons", "standardAmount": "1 kg émincés très finement"},
+    "w-fr-012-i3": {"name": "thym", "standardAmount": "1 petit bouquet"},
+    "w-fr-012-i4": {"name": "feuilles de laurier", "standardAmount": "2"},
+    "w-fr-012-i5": {"name": "filets d'anchois", "standardAmount": "80 g égouttés"},
+    "w-fr-012-i6": {"name": "olives noires", "standardAmount": "80 g dénoyautées"},
+    "w-fr-012-i7": {"name": "parmesan", "standardAmount": "20 g râpé"},
+    "w-fr-012-i8": {"name": "beurre doux froid", "standardAmount": "200 g"},
+    "w-fr-012-i9": {"name": "jus de citron", "standardAmount": "1 c. à café"},
+    "w-fr-012-i10": {"name": "farine de force", "standardAmount": "200 g + un peu pour le plan"},
+    "w-fr-012-i11": {"name": "sel", "standardAmount": "1 c. à café"},
+    "w-fr-012-i12": {"name": "eau glacée", "standardAmount": "125 ml"}
+  },
+  "instructions": {
+    "1": "Pour la pâte, râpez grossièrement le beurre dans un bol en le mêlant à une cuillerée de farine. Congelez 30 minutes ou réfrigérez 1 heure.",
+    "2": "Mélangez le jus de citron à 125 ml d'eau glacée. Mettez le reste de farine et le sel dans un grand bol, puis ajoutez le beurre râpé congelé.",
+    "3": "Versez les deux tiers de l'eau citronnée et rassemblez la pâte au couteau. Ajoutez un peu plus d'eau si elle est sèche : elle doit être grossière mais se tenir.",
+    "4": "Versez sur un plan fariné et pétrissez doucement. Formez un rectangle grossier, enveloppez et réfrigérez 20 minutes.",
+    "5": "Étalez en rectangle de 20x30 cm avec des marbrures de beurre visibles, pas un bloc lisse.",
+    "6": "Chauffez l'huile dans une grande cocotte à feu moyen. Ajoutez les oignons, salez et remuez jusqu'à ce qu'ils soient brillants et commencent à fondre avec le thym et le laurier.",
+    "7": "Huilez légèrement une plaque. Étalez la pâte en rectangle de 25x35 cm, posez-la sur la plaque et ajustez les bords. Réfrigérez.",
+    "8": "Chauffez le four à 220 °C (200 °C chaleur tournante). Étalez les oignons refroidis sur la pâte en laissant un bord, disposez les anchois en treillis et parsemez d'olives.",
+    "9": "Parsemez de thym. Laissez reposer au moins 10 minutes avant de couper en carrés."
+  },
+  "culturalNotes": "La pissaladière est une spécialité de Provence : pâte fine garnie d'oignons confits, d'anchois et d'olives noires."
+},
+"w-fr-013": {
+  "title": "Ratatouille",
+  "ingredients": {
+    "w-fr-013-i1": {"name": "huile d'olive", "standardAmount": "⅓-¼ tasse"},
+    "w-fr-013-i2": {"name": "oignon", "standardAmount": "1 gros émincé"},
+    "w-fr-013-i3": {"name": "poivron rouge", "standardAmount": "1 en morceaux"},
+    "w-fr-013-i4": {"name": "poivron jaune", "standardAmount": "1 en morceaux"},
+    "w-fr-013-i5": {"name": "ail", "standardAmount": "6 gousses émincées"},
+    "w-fr-013-i6": {"name": "courgette", "standardAmount": "680 g en rondelles"},
+    "w-fr-013-i7": {"name": "aubergine", "standardAmount": "1 petite en dés"},
+    "w-fr-013-i8": {"name": "tomates roma", "standardAmount": "4 concassées"},
+    "w-fr-013-i9": {"name": "romarin frais ciselé", "standardAmount": "¼ c. à café"},
+    "w-fr-013-i10": {"name": "thym frais ciselé", "standardAmount": "1 c. à café"},
+    "w-fr-013-i11": {"name": "sel", "standardAmount": "au goût"},
+    "w-fr-013-i12": {"name": "poivre", "standardAmount": "au goût"}
+  },
+  "instructions": {
+    "1": "Faites chauffer une grande cocotte ou poêle jusqu'à ce qu'elle soit très chaude.",
+    "2": "Ajoutez l'huile d'olive, l'oignon et les poivrons. Faites revenir jusqu'à coloration.",
+    "3": "Ajoutez l'ail, la courgette et l'aubergine. Faites revenir jusqu'à coloration.",
+    "4": "Incorporez les tomates, le romarin, le thym, le sel et le poivre.",
+    "5": "Servez la ratatouille chaude ou froide."
+  },
+  "culturalNotes": "La ratatouille est un plat de légumes d'été — courgettes, aubergines, poivrons — emblématique de la cuisine française."
+},
+"w-fr-014": {
+  "title": "Salade Niçoise",
+  "ingredients": {
+    "w-fr-014-i1": {"name": "ail", "standardAmount": "1 gousse"},
+    "w-fr-014-i2": {"name": "sel", "standardAmount": "au goût"},
+    "w-fr-014-i3": {"name": "huile d'olive", "standardAmount": "80 ml"},
+    "w-fr-014-i4": {"name": "jus de citron frais", "standardAmount": "2 c. à soupe"},
+    "w-fr-014-i5": {"name": "moutarde de Dijon", "standardAmount": "1 c. à soupe"},
+    "w-fr-014-i6": {"name": "échalote", "standardAmount": "1 (émincée)"},
+    "w-fr-014-i7": {"name": "poivre noir fraîchement moulu", "standardAmount": "au goût"},
+    "w-fr-014-i8": {"name": "petites pommes de terre nouvelles", "standardAmount": "450 g (cuites)"},
+    "w-fr-014-i9": {"name": "haricots verts", "standardAmount": "225 g (blanchis)"},
+    "w-fr-014-i10": {"name": "tomates cerises", "standardAmount": "340 g (coupées en deux)"},
+    "w-fr-014-i11": {"name": "olives noires niçoises", "standardAmount": "120 ml"},
+    "w-fr-014-i12": {"name": "cœurs d'artichauts marinés", "standardAmount": "225 g"},
+    "w-fr-014-i13": {"name": "anchois", "standardAmount": "8 (rincés et égouttés)"},
+    "w-fr-014-i14": {"name": "œufs durs", "standardAmount": "4 (coupés en deux)"},
+    "w-fr-014-i15": {"name": "concombre", "standardAmount": "1 petit en rondelles fines"},
+    "w-fr-014-i16": {"name": "thon à l'huile", "standardAmount": "3 boîtes de 115 g (égoutté)"},
+    "w-fr-014-i17": {"name": "oignon rouge", "standardAmount": "½ émincé finement"}
+  },
+  "instructions": {
+    "1": "Sauce : hachez l'ail et saupoudrez de sel ; écrasez au couteau en une pâte lisse. Mélangez-la à l'huile, au citron, à la moutarde, à l'échalote et au poivre.",
+    "2": "Salade : disposez tous les ingrédients en rangées séparées sur un grand plat. Arrosez de sauce et assaisonnez de sel et poivre."
+  },
+  "culturalNotes": "La salade niçoise est un plat traditionnel de Nice, réputé pour sa variété de légumes et de poisson."
 }
 }

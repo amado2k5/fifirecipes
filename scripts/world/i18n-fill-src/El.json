@@ -1,564 +1,2411 @@
 {
  "_lang": "Greek",
- "w-ma-024": {
-  "title": "Moroccan Tagine (Lamb with Prunes and Apricots)",
+ "w-cn-001": {
+  "title": "Alkaline Noodles (Ramen Noodles)",
   "ingredients": {
-   "w-ma-024-i1": {
-    "name": "olive oil",
+   "w-cn-001-i1": {
+    "name": "all-purpose flour",
+    "standardAmount": "500 g"
+   },
+   "w-cn-001-i2": {
+    "name": "salt",
+    "standardAmount": "½ teaspoon"
+   },
+   "w-cn-001-i3": {
+    "name": "water",
+    "standardAmount": "210 g"
+   },
+   "w-cn-001-i4": {
+    "name": "lye water (Kansui)",
+    "standardAmount": "1½ teaspoon"
+   },
+   "w-cn-001-i5": {
+    "name": "cornstarch",
+    "standardAmount": "as needed"
+   }
+  },
+  "instructions": {
+   "1": "Mix the flour and salt in a large bowl.",
+   "2": "Add the water and lye water gradually and knead until the dough is smooth and elastic.",
+   "3": "Cover the dough and let it rest for 30 minutes.",
+   "4": "Roll out the dough using a pasta machine or rolling pin until it is very thin.",
+   "5": "Cut the dough into thin strips to form noodles.",
+   "6": "Bring a pot of water to a boil and add the noodles, cooking for 10 minutes.",
+   "7": "Drain the noodles and let them cool before storing."
+  },
+  "culturalNotes": "Alkaline noodles are a key ingredient in many Japanese ramen dishes, known for their unique flavor and texture."
+ },
+ "w-cn-002": {
+  "title": "Baked Baozi",
+  "ingredients": {
+   "w-cn-002-i1": {
+    "name": "all-purpose flour",
+    "standardAmount": "300 g (2 1/2 cups)"
+   },
+   "w-cn-002-i2": {
+    "name": "salt",
+    "standardAmount": "1/2 teaspoon"
+   },
+   "w-cn-002-i3": {
+    "name": "vegetable oil",
     "standardAmount": "2 tablespoons"
    },
-   "w-ma-024-i2": {
-    "name": "blanched almonds",
-    "standardAmount": "2 tablespoons"
+   "w-cn-002-i4": {
+    "name": "egg",
+    "standardAmount": "1 egg"
    },
-   "w-ma-024-i3": {
-    "name": "red onion",
-    "standardAmount": "1 (finely chopped)"
+   "w-cn-002-i5": {
+    "name": "warm water",
+    "standardAmount": "1/2 cup"
    },
-   "w-ma-024-i4": {
+   "w-cn-002-i6": {
+    "name": "lamb leg meat",
+    "standardAmount": "1 lb"
+   },
+   "w-cn-002-i7": {
+    "name": "salt",
+    "standardAmount": "1 1/2 teaspoons"
+   },
+   "w-cn-002-i8": {
+    "name": "cumin powder",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-002-i9": {
+    "name": "ground black pepper",
+    "standardAmount": "1 1/2 teaspoons"
+   },
+   "w-cn-002-i10": {
+    "name": "toasted sesame oil",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-cn-002-i11": {
+    "name": "onion",
+    "standardAmount": "1 small onion (minced)"
+   },
+   "w-cn-002-i12": {
+    "name": "egg yolk",
+    "standardAmount": "1 egg yolk"
+   },
+   "w-cn-002-i13": {
+    "name": "milk",
+    "standardAmount": "1 teaspoon (or water)"
+   },
+   "w-cn-002-i14": {
+    "name": "toasted sesame seeds",
+    "standardAmount": "as needed"
+   }
+  },
+  "instructions": {
+   "1": "In a large bowl, mix the flour and salt. Add the vegetable oil, egg, and warm water, and mix until the dough is smooth. Cover the dough and let it rest for 30 minutes.",
+   "2": "In another bowl, mix the ground lamb, salt, cumin, black pepper, toasted sesame oil, and minced onion. Mix the ingredients well.",
+   "3": "Divide the dough into small balls. Roll each ball out with a fork or a rolling pin until it is thin.",
+   "4": "Place a small spoonful of the filling in the center of each piece of dough. Seal the edges tightly.",
+   "5": "Place the baozi on a greased baking sheet. Brush the surface of the baozi with the beaten egg yolk mixed with milk. Sprinkle the toasted sesame seeds on top.",
+   "6": "Bake the baozi in a preheated oven at 180°C (350°F) for 20 minutes or until golden brown."
+  },
+  "culturalNotes": "Baked baozi is a type of traditional Chinese baozi, but it is baked instead of steamed. It is often served as a breakfast or snack."
+ },
+ "w-cn-003": {
+  "title": "Bean Sprout Salad",
+  "ingredients": {
+   "w-cn-003-i1": {
+    "name": "salt",
+    "standardAmount": "1 teaspoon"
+   },
+   "w-cn-003-i2": {
+    "name": "bean sprouts",
+    "standardAmount": "12 oz"
+   },
+   "w-cn-003-i3": {
+    "name": "Anaheim pepper",
+    "standardAmount": "1"
+   },
+   "w-cn-003-i4": {
+    "name": "green onions",
+    "standardAmount": "2"
+   },
+   "w-cn-003-i5": {
     "name": "garlic",
-    "standardAmount": "2 cloves (minced)"
+    "standardAmount": "4 cloves"
    },
-   "w-ma-024-i5": {
-    "name": "ginger",
-    "standardAmount": "1 inch (finely chopped)"
+   "w-cn-003-i6": {
+    "name": "soy sauce",
+    "standardAmount": "1 tablespoon"
    },
-   "w-ma-024-i6": {
-    "name": "saffron threads",
-    "standardAmount": "1 pinch"
+   "w-cn-003-i7": {
+    "name": "Chinkiang vinegar",
+    "standardAmount": "2 teaspoons"
    },
-   "w-ma-024-i7": {
-    "name": "cinnamon sticks",
-    "standardAmount": "2 sticks"
+   "w-cn-003-i8": {
+    "name": "sugar",
+    "standardAmount": "1/2 teaspoon"
    },
-   "w-ma-024-i8": {
-    "name": "coriander seeds",
-    "standardAmount": "2 teaspoons (crushed)"
+   "w-cn-003-i9": {
+    "name": "ground Sichuan peppercorn",
+    "standardAmount": "1/4 teaspoon"
    },
-   "w-ma-024-i9": {
-    "name": "lamb",
-    "standardAmount": "1 lb (from shoulder, leg, or shanks, cubed)"
-   },
-   "w-ma-024-i10": {
-    "name": "prunes",
-    "standardAmount": "12 (soaked for 1 hour and drained)"
-   },
-   "w-ma-024-i11": {
-    "name": "dried apricots",
-    "standardAmount": "6 (soaked for 1 hour and drained)"
-   },
-   "w-ma-024-i12": {
-    "name": "orange peel",
-    "standardAmount": "4 strips"
-   },
-   "w-ma-024-i13": {
-    "name": "dark honey",
+   "w-cn-003-i10": {
+    "name": "peanut oil",
     "standardAmount": "2 tablespoons"
    },
-   "w-ma-024-i14": {
+   "w-cn-003-i11": {
+    "name": "toasted sesame oil",
+    "standardAmount": "1 teaspoon"
+   }
+  },
+  "instructions": {
+   "1": "Bring a medium-sized pot of water to a boil. Add the salt and stir to dissolve completely. Add the bean sprouts and cook for 40 seconds, or until al dente. Immediately drain and transfer the bean sprouts to a colander. Rinse with cold tap water to stop cooking. Once cooled completely, drain thoroughly, then pat dry with paper towels. Transfer to a big bowl.",
+   "2": "Add the sliced pepper, green onion, and garlic to the bowl with the bean sprouts. Do not stir. Make sure the garlic is on the very top of the bowl.",
+   "3": "Add the soy sauce, Chinkiang vinegar, sugar, and Sichuan peppercorns.",
+   "4": "Heat the peanut oil over medium heat until hot. Immediately drizzle the oil into the bowl, directly over the garlic and Sichuan peppercorns. You should see the ingredients sizzle in the hot oil.",
+   "5": "Mix everything together and pour in the sesame oil (or chili oil, if you prefer a spicy dish). Mix again and serve as an appetizer."
+  },
+  "culturalNotes": "This Chinese salad is light and full of flavors, typically served as an appetizer in Chinese cuisine."
+ },
+ "w-cn-004": {
+  "title": "Beef Shank Noodle Soup",
+  "ingredients": {
+   "w-cn-004-i1": {
+    "name": "peanut oil",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-004-i2": {
+    "name": "onion",
+    "standardAmount": "1/2 onion (minced)"
+   },
+   "w-cn-004-i3": {
+    "name": "carrot",
+    "standardAmount": "1 carrot (sliced)"
+   },
+   "w-cn-004-i4": {
+    "name": "water",
+    "standardAmount": "1 1/2 cup"
+   },
+   "w-cn-004-i5": {
+    "name": "beef braising liquid",
+    "standardAmount": "1 cup"
+   },
+   "w-cn-004-i6": {
+    "name": "ketchup",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-cn-004-i7": {
+    "name": "fresh wheat noodles",
+    "standardAmount": "8 oz"
+   },
+   "w-cn-004-i8": {
+    "name": "dried noodles",
+    "standardAmount": "5 oz"
+   },
+   "w-cn-004-i9": {
+    "name": "baby bok choy",
+    "standardAmount": "4 heads"
+   },
+   "w-cn-004-i10": {
+    "name": "braised beef shank",
+    "standardAmount": "1 cup (chopped)"
+   },
+   "w-cn-004-i11": {
+    "name": "salt",
+    "standardAmount": "to taste"
+   },
+   "w-cn-004-i12": {
+    "name": "white pepper",
+    "standardAmount": "1/8 teaspoon"
+   },
+   "w-cn-004-i13": {
+    "name": "Chinese pickled radish",
+    "standardAmount": "1 tablespoon (Optional)"
+   },
+   "w-cn-004-i14": {
+    "name": "homemade chili oil",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-cn-004-i15": {
+    "name": "chopped cilantro",
+    "standardAmount": "for garnish"
+   }
+  },
+  "instructions": {
+   "1": "Heat the oil in a medium-sized pot over medium-high heat until hot. Add the onion and carrot. Cook and stir until the onion turns golden, about 3 minutes.",
+   "2": "Add the water, beef braising liquid, and ketchup. Simmer until the onions turn very soft, 5 to 10 minutes.",
+   "3": "In a separate pot, bring water to a boil and cook the noodles according to the package instructions. Once done, rinse the noodles with tap water for a few seconds to stop cooking, then drain and transfer them into two serving bowls.",
+   "4": "Add the baby bok choy into the noodle boiling water. Cook for 1 minute or until the desired doneness. Transfer the bok choy onto the noodles.",
+   "5": "If the braised beef shank is cold, add it to the broth. Cook for 1 minute or so, to warm it up.",
+   "6": "Once the broth is ready, taste it carefully and adjust the flavor by adding a pinch of salt and the white pepper. Transfer it to the noodle bowls. Top with the braised beef shank and pickles (if using). Drizzle with chili oil and garnish with cilantro. Serve hot as a main dish."
+  },
+  "culturalNotes": "Beef shank noodle soup is a popular dish in China, especially in the northern regions where it is served as a warm and comforting meal in the winter."
+ },
+ "w-cn-005": {
+  "title": "Buddha's Delight",
+  "ingredients": {
+   "w-cn-005-i1": {
+    "name": "dried lily flowers",
+    "standardAmount": "25 g (1/2 cup)"
+   },
+   "w-cn-005-i2": {
+    "name": "dried shiitake mushrooms",
+    "standardAmount": "25 g (8 medium)"
+   },
+   "w-cn-005-i3": {
+    "name": "dried wood ear mushrooms",
+    "standardAmount": "10 g (2 tablespoons)"
+   },
+   "w-cn-005-i4": {
+    "name": "mung bean vermicelli noodles",
+    "standardAmount": "40 g (1 small bundle, yields about 1 cup once rehydrated)"
+   },
+   "w-cn-005-i5": {
+    "name": "light soy sauce",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-cn-005-i6": {
+    "name": "vegetarian oyster sauce",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-005-i7": {
+    "name": "dark soy sauce",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-005-i8": {
+    "name": "sugar",
+    "standardAmount": "1 teaspoon"
+   },
+   "w-cn-005-i9": {
+    "name": "salt",
+    "standardAmount": "1/4 teaspoon"
+   },
+   "w-cn-005-i10": {
+    "name": "soaking water from the lily flower and mushroom",
+    "standardAmount": "1 cup"
+   },
+   "w-cn-005-i11": {
+    "name": "sesame oil",
+    "standardAmount": "1 teaspoon"
+   },
+   "w-cn-005-i12": {
+    "name": "cornstarch",
+    "standardAmount": "1 teaspoon"
+   },
+   "w-cn-005-i13": {
+    "name": "water",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-005-i14": {
+    "name": "peanut oil",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-cn-005-i15": {
+    "name": "green onion",
+    "standardAmount": "4 (chopped)"
+   },
+   "w-cn-005-i16": {
+    "name": "minced ginger",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-005-i17": {
+    "name": "carrot",
+    "standardAmount": "1 (sliced)"
+   },
+   "w-cn-005-i18": {
+    "name": "deep fried tofu puffs",
+    "standardAmount": "10 pieces (halved)"
+   },
+   "w-cn-005-i19": {
+    "name": "baby bok choy",
+    "standardAmount": "4 heads (quartered)"
+   },
+   "w-cn-005-i20": {
+    "name": "napa cabbage",
+    "standardAmount": "230 g (4 cups, chopped)"
+   },
+   "w-cn-005-i21": {
+    "name": "bamboo shoots",
+    "standardAmount": "1/2 cup (sliced)"
+   }
+  },
+  "instructions": {
+   "1": "Soak the dried ingredients (lily flowers, shiitake mushrooms, wood ear mushrooms) in water for 30 minutes until softened.",
+   "2": "Soak the mung bean vermicelli noodles in hot water for 10 minutes until softened, then drain them.",
+   "3": "In a small bowl, mix the light soy sauce, vegetarian oyster sauce, dark soy sauce, sugar, salt, and 1 cup of soaking water.",
+   "4": "In another bowl, mix the cornstarch with 1 tablespoon of water to make the slurry.",
+   "5": "Heat the peanut oil in a large wok or skillet over medium heat.",
+   "6": "Add the green onion and minced ginger, and stir-fry for 1 minute.",
+   "7": "Add the carrot, deep-fried tofu puffs, baby bok choy, napa cabbage, and bamboo shoots, and stir-fry for 5 minutes.",
+   "8": "Add the soaked dried ingredients and the mung bean vermicelli, and stir-fry for 2 minutes.",
+   "9": "Add the sauce mixture, and stir-fry for 2 minutes.",
+   "10": "Add the slurry, and stir until the sauce thickens.",
+   "11": "Serve hot."
+  },
+  "culturalNotes": "Buddha's Delight is a traditional Chinese vegetarian dish, often served during holidays and special occasions."
+ },
+ "w-cn-006": {
+  "title": "Tofu with Century Egg Salad",
+  "ingredients": {
+   "w-cn-006-i1": {
+    "name": "silken tofu",
+    "standardAmount": "1 block (16 oz / 450 g)"
+   },
+   "w-cn-006-i2": {
+    "name": "century eggs",
+    "standardAmount": "2 eggs"
+   },
+   "w-cn-006-i3": {
+    "name": "light soy sauce",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-006-i4": {
+    "name": "toasted sesame oil",
+    "standardAmount": "1 teaspoon"
+   },
+   "w-cn-006-i5": {
+    "name": "green onion",
+    "standardAmount": "1 green onion, thinly sliced"
+   }
+  },
+  "instructions": {
+   "1": "Add the cubed silken tofu to a large bowl.",
+   "2": "Top with the cubed century eggs.",
+   "3": "Drizzle light soy sauce and toasted sesame oil over the top.",
+   "4": "Garnish with thinly sliced green onion.",
+   "5": "Serve the salad cold as an appetizer."
+  },
+  "culturalNotes": "This Chinese salad is traditional and is considered a delicious appetizer in Chinese cuisine."
+ },
+ "w-cn-007": {
+  "title": "Shrimp Egg Foo Young",
+  "ingredients": {
+   "w-cn-007-i1": {
+    "name": "chicken broth",
+    "standardAmount": "1/2 cup"
+   },
+   "w-cn-007-i2": {
+    "name": "ketchup",
+    "standardAmount": "1/4 cup"
+   },
+   "w-cn-007-i3": {
+    "name": "soy sauce",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-007-i4": {
+    "name": "rice vinegar",
+    "standardAmount": "1 1/2 tablespoons"
+   },
+   "w-cn-007-i5": {
+    "name": "sugar",
+    "standardAmount": "1 1/2 tablespoons"
+   },
+   "w-cn-007-i6": {
+    "name": "cornstarch",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-cn-007-i7": {
+    "name": "eggs",
+    "standardAmount": "6 large eggs"
+   },
+   "w-cn-007-i8": {
+    "name": "bean sprouts",
+    "standardAmount": "1/3 cup"
+   },
+   "w-cn-007-i9": {
+    "name": "jalapeno pepper",
+    "standardAmount": "1 jalapeno pepper, sliced"
+   },
+   "w-cn-007-i10": {
+    "name": "green onions",
+    "standardAmount": "2 green onions, finely chopped"
+   },
+   "w-cn-007-i11": {
+    "name": "shrimp",
+    "standardAmount": "1 cup cooked and chopped shrimp"
+   },
+   "w-cn-007-i12": {
+    "name": "salt",
+    "standardAmount": "1/8 teaspoon"
+   },
+   "w-cn-007-i13": {
+    "name": "white pepper powder",
+    "standardAmount": "1/8 teaspoon"
+   },
+   "w-cn-007-i14": {
+    "name": "vegetable oil",
+    "standardAmount": "2-8 tablespoons"
+   }
+  },
+  "instructions": {
+   "1": "Whisk together the sauce ingredients (chicken broth, ketchup, soy sauce, rice vinegar, sugar, cornstarch) in a saucepan over medium-low heat until the sauce simmers and thickens, about 5 minutes.",
+   "2": "Beat together the eggs, bean sprouts, green onions, shrimp, salt, and white pepper powder in a bowl until well-combined.",
+   "3": "Heat the oil in a skillet over medium heat, and scoop about 1/2 cup of the egg mixture into the skillet to make a patty.",
+   "4": "Fry until golden brown, about 4 minutes per side, and repeat with the remaining egg mixture. Set the patties aside.",
+   "5": "Spoon the sauce over the patties."
+  },
+  "culturalNotes": "Egg Foo Young is a traditional Chinese dish often served on special occasions."
+ },
+ "w-cn-008": {
+  "title": "Egg Tart (蛋撻)",
+  "ingredients": {
+   "w-cn-008-i1": {
+    "name": "all-purpose flour",
+    "standardAmount": "1 1/2 cups + 1 cup"
+   },
+   "w-cn-008-i2": {
+    "name": "chilled unsalted butter",
+    "standardAmount": "7 tablespoons"
+   },
+   "w-cn-008-i3": {
+    "name": "softened unsalted butter",
+    "standardAmount": "3 tablespoons"
+   },
+   "w-cn-008-i4": {
+    "name": "sugar",
+    "standardAmount": "4 tablespoons + 1/4 cup"
+   },
+   "w-cn-008-i5": {
+    "name": "salt",
+    "standardAmount": "1/4 teaspoon + pinch"
+   },
+   "w-cn-008-i6": {
+    "name": "large egg",
+    "standardAmount": "1 + 4"
+   },
+   "w-cn-008-i7": {
+    "name": "ice water",
+    "standardAmount": "1/4 cup"
+   },
+   "w-cn-008-i8": {
+    "name": "hot water",
+    "standardAmount": "5/6 cup"
+   },
+   "w-cn-008-i9": {
+    "name": "evaporated milk",
+    "standardAmount": "1/2 cup"
+   },
+   "w-cn-008-i10": {
+    "name": "fluted pastry cutter",
+    "standardAmount": "4 1/2”"
+   },
+   "w-cn-008-i11": {
+    "name": "egg tart mold",
+    "standardAmount": "base 2”+, top 3” for inner edge, 3.3” for outer edge"
+   }
+  },
+  "instructions": {
+   "1": "Prepare the water dough: In a bowl, mix the flour, chilled butter, sugar, and salt. Add the egg and ice water, and knead until the dough is smooth.",
+   "2": "Prepare the oil dough: In a bowl, mix the flour, softened butter, and sugar. Add the hot water, and knead until the dough is smooth.",
+   "3": "Assemble the pastry dough: Divide both doughs into small balls. Place each ball of water dough inside a ball of oil dough. Seal the oil dough around the water dough and let it rest for 30 minutes.",
+   "4": "Make the filling: In a bowl, mix the eggs, sugar, salt, and evaporated milk until well combined.",
+   "5": "Shape the egg tarts: Press the dough into the egg tart molds and fill them with the filling.",
+   "6": "Bake the egg tarts: Place the molds in a preheated oven at 180°C and bake for 20 minutes until golden brown."
+  },
+  "culturalNotes": "Egg tarts (蛋撻) are a popular dessert in Hong Kong, known for their crispy crust and creamy filling."
+ },
+ "w-cn-009": {
+  "title": "Glutinous Rice Ball with Crushed Peanuts",
+  "ingredients": {
+   "w-cn-009-i1": {
+    "name": "glutinous rice flour",
+    "standardAmount": "1 cup"
+   },
+   "w-cn-009-i2": {
+    "name": "plain rice flour",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-009-i3": {
+    "name": "lukewarm water",
+    "standardAmount": "1/2 cup or slightly more to adjust"
+   },
+   "w-cn-009-i4": {
+    "name": "crushed peanuts",
+    "standardAmount": "20 g"
+   },
+   "w-cn-009-i5": {
+    "name": "sesame seeds",
+    "standardAmount": "10 g"
+   },
+   "w-cn-009-i6": {
+    "name": "desiccated coconut",
+    "standardAmount": "20 g"
+   },
+   "w-cn-009-i7": {
+    "name": "water",
+    "standardAmount": "1 cup"
+   },
+   "w-cn-009-i8": {
+    "name": "brown sugar",
+    "standardAmount": "1 piece"
+   },
+   "w-cn-009-i9": {
+    "name": "old ginger",
+    "standardAmount": "3 slices"
+   }
+  },
+  "instructions": {
+   "1": "In a large bowl, place glutinous rice flour and rice flour. Add warm water and knead to form dough. Divide the dough into 7-10 portions; roll each portion into a round ball.",
+   "2": "Bring some water to a boil in a pot and add all glutinous rice balls. Cook until they float on the surface. Stir to prevent them from sticking; transfer the balls out.",
+   "3": "Add brown sugar and water in a saucepan. Cook until the sugar dissolves into syrup over medium heat. Then lower the heat and cook for another minute or two until the syrup thickens as desired.",
+   "4": "Roast or pan fry the peanuts until crispy and then crush.",
+   "5": "Serve the balls with the syrup, crushed peanuts, sesame seeds, and desiccated coconut."
+  },
+  "culturalNotes": "Glutinous rice balls with crushed peanuts are a traditional Chinese dessert, often served on special occasions."
+ },
+ "w-cn-010": {
+  "title": "Hainanese Chicken Rice",
+  "ingredients": {
+   "w-cn-010-i1": {
+    "name": "whole chicken",
+    "standardAmount": "2.5-3 lbs"
+   },
+   "w-cn-010-i2": {
+    "name": "ginger",
+    "standardAmount": "1 thumb"
+   },
+   "w-cn-010-i3": {
+    "name": "green onions",
+    "standardAmount": "3 pieces"
+   },
+   "w-cn-010-i4": {
+    "name": "sea salt",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-010-i5": {
+    "name": "sesame oil",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-010-i6": {
+    "name": "sweet soy sauce",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-cn-010-i7": {
+    "name": "chopped cilantro",
+    "standardAmount": "optional"
+   },
+   "w-cn-010-i8": {
+    "name": "butter and/or chicken fat",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-cn-010-i9": {
+    "name": "chopped green onions",
+    "standardAmount": "3 pieces"
+   },
+   "w-cn-010-i10": {
+    "name": "minced ginger",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-010-i11": {
+    "name": "minced garlic",
+    "standardAmount": "3 cloves"
+   },
+   "w-cn-010-i12": {
+    "name": "jasmine rice",
+    "standardAmount": "2 cups"
+   },
+   "w-cn-010-i13": {
+    "name": "chicken broth",
+    "standardAmount": "3 cups"
+   },
+   "w-cn-010-i14": {
+    "name": "Thai chili peppers",
+    "standardAmount": "3 pieces"
+   },
+   "w-cn-010-i15": {
+    "name": "red bell pepper",
+    "standardAmount": "1/4 piece"
+   },
+   "w-cn-010-i16": {
+    "name": "small white onion",
+    "standardAmount": "1/4 piece"
+   },
+   "w-cn-010-i17": {
+    "name": "minced ginger",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-cn-010-i18": {
+    "name": "minced garlic",
+    "standardAmount": "2 cloves"
+   },
+   "w-cn-010-i19": {
+    "name": "salt",
+    "standardAmount": "1/2 teaspoon"
+   },
+   "w-cn-010-i20": {
+    "name": "lime juice",
+    "standardAmount": "1/3 cup"
+   },
+   "w-cn-010-i21": {
+    "name": "light soy sauce",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-010-i22": {
+    "name": "Chinkiang vinegar",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-010-i23": {
+    "name": "thinly sliced ginger",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-010-i24": {
+    "name": "sugar",
+    "standardAmount": "1 teaspoon"
+   },
+   "w-cn-010-i25": {
+    "name": "sesame oil",
+    "standardAmount": "1 teaspoon"
+   }
+  },
+  "instructions": {
+   "1": "Wash the chicken and clean it thoroughly. Place it in a large pot with ginger, green onions, and salt. Add enough water to cover the chicken.",
+   "2": "Cover the pot and bring it to a boil over medium heat. Then reduce the heat and simmer for 30 minutes.",
+   "3": "Remove the chicken from the pot and let it cool slightly. Brush the chicken with sesame oil and let it cool completely.",
+   "4": "In another pot, melt the butter and fat in a pan over medium heat. Add the chopped green onions, minced ginger, and minced garlic and stir for a minute.",
+   "5": "Add the rice and broth and bring to a boil. Then reduce the heat, cover the pot, and simmer for 20 minutes or until the rice is cooked.",
+   "6": "In a small bowl, mix the Thai chili peppers, red bell pepper, white onion, minced ginger, minced garlic, salt, lime juice, light soy sauce, Chinkiang vinegar, thinly sliced ginger, sugar, and sesame oil. Mix well.",
+   "7": "Serve the rice with sliced chicken and the chili sauce on the side. Garnish with chopped cilantro if desired."
+  },
+  "culturalNotes": "Hainanese Chicken Rice is a popular dish in Hainan, China, known for its delicious taste and traditional cooking method."
+ },
+ "w-cn-011": {
+  "title": "Beijing Hot Pot Dipping Sauce",
+  "ingredients": {
+   "w-cn-011-i1": {
+    "name": "Chinese sesame paste",
+    "standardAmount": "1/4 cup"
+   },
+   "w-cn-011-i2": {
+    "name": "water",
+    "standardAmount": "1/4 cup"
+   },
+   "w-cn-011-i3": {
+    "name": "red fermented bean curd",
+    "standardAmount": "1 block"
+   },
+   "w-cn-011-i4": {
+    "name": "Chinese fermented leek flower sauce",
+    "standardAmount": "2-3 teaspoons (optional)"
+   },
+   "w-cn-011-i5": {
+    "name": "soy sauce",
+    "standardAmount": "2 teaspoons (or to taste)"
+   },
+   "w-cn-011-i6": {
+    "name": "toasted sesame oil",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-011-i7": {
+    "name": "garlic",
+    "standardAmount": "1 teaspoon (2 cloves)"
+   },
+   "w-cn-011-i8": {
+    "name": "minced cilantro",
+    "standardAmount": "2 tablespoons (optional)"
+   }
+  },
+  "instructions": {
+   "1": "Add the sesame paste to a large bowl. Add the water gradually, one tablespoon at a time, and use a spoon or spatula to blend the water until the paste is smooth.",
+   "2": "Add the red fermented bean curd and break it apart while mixing it into the sauce until fully incorporated.",
+   "3": "Add the remaining ingredients and mix until everything is fully dissolved into the sauce. Taste the sauce and adjust it according to your taste. If you do not use the leek flower sauce, the sauce will be milder. You can add more soy sauce, sesame oil, and garlic to boost the flavor."
+  },
+  "culturalNotes": "This dipping sauce is an essential part of the Beijing hot pot experience, where it is used to dip foods cooked in the hot broth."
+ },
+ "w-cn-012": {
+  "title": "Kung Pao Chicken",
+  "ingredients": {
+   "w-cn-012-i1": {
+    "name": "peanut oil",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-012-i2": {
+    "name": "raw peanuts",
+    "standardAmount": "1/3 cup"
+   },
+   "w-cn-012-i3": {
+    "name": "chicken breast",
+    "standardAmount": "250 grams"
+   },
+   "w-cn-012-i4": {
+    "name": "light soy sauce",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-cn-012-i5": {
+    "name": "cornstarch",
+    "standardAmount": "3 teaspoons"
+   },
+   "w-cn-012-i6": {
+    "name": "Chinkiang vinegar",
+    "standardAmount": "1.5 tablespoons"
+   },
+   "w-cn-012-i7": {
+    "name": "sugar",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-cn-012-i8": {
+    "name": "chili garlic sauce",
+    "standardAmount": "4 tablespoons"
+   },
+   "w-cn-012-i9": {
+    "name": "Chinese scallion",
+    "standardAmount": "1/3 cup chopped"
+   },
+   "w-cn-012-i10": {
+    "name": "cucumber",
+    "standardAmount": "1/2 cup cubed"
+   }
+  },
+  "instructions": {
+   "1": "Heat peanut oil in a nonstick skillet over medium high heat until warm. Add raw peanuts and turn down to medium heat. Stir occasionally until the peanuts turn brown and have a nice nutty aroma. Transfer the peanuts to a plate lined with several layers of paper towel to cool. Save the rest of the oil in the skillet for later use.",
+   "2": "Cut chicken breast into 1 to 1.5 cm (1/2 inch) cubes and transfer to a bowl. Add 1 tablespoon light soy sauce and mix well. Add 2 teaspoons cornstarch. Mix by hand until the chicken is evenly coated with a thin layer of starch. Set aside.",
+   "3": "Combine the remaining 1 tablespoon light soy sauce, Chinkiang vinegar, sugar, chili garlic sauce, and the remaining 1 teaspoon cornstarch to a small bowl. Mix well.",
+   "4": "Cut and prepare the rest of the veggies.",
+   "5": "Heat the same nonstick skillet again, over medium high heat. If there is not enough oil to cover the bottom of the skillet, add a bit more. When the oil is hot, spread the chicken across the skillet without overlapping. Let it cook without stirring for 20 seconds. Flip to cook the other side for another 20 seconds. Stir a few times until all surfaces are cooked and slightly browned, but the inside is still raw.",
+   "6": "Add the scallion and stir another few times. Mix the kung pao sauce again and pour it over the chicken. Immediately stir a few times to mix well until the sauce thickens, 20 seconds. Stop heat. Add peanuts and cucumber. Give it one last stir to mix well. Transfer everything to a plate.",
+   "7": "Serve warm over steamed rice."
+  },
+  "culturalNotes": "Kung Pao chicken is a famous dish in Chinese cuisine, known for its spicy, sweet, and salty flavors."
+ },
+ "w-cn-013": {
+  "title": "Honey Lotus Root with Sticky Rice",
+  "ingredients": {
+   "w-cn-013-i1": {
+    "name": "glutinous rice",
+    "standardAmount": "150 grams (5 ounces)"
+   },
+   "w-cn-013-i2": {
+    "name": "white sugar",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-cn-013-i3": {
+    "name": "lotus root",
+    "standardAmount": "400 grams"
+   },
+   "w-cn-013-i4": {
+    "name": "rock sugar",
+    "standardAmount": "100 grams (3.5 ounces)"
+   },
+   "w-cn-013-i5": {
+    "name": "brown sugar",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-cn-013-i6": {
+    "name": "osmanthus syrup",
+    "standardAmount": "4 tablespoons"
+   }
+  },
+  "instructions": {
+   "1": "Rinse the glutinous rice and soak it in a small bowl with water covering it by about 1 cm for 4-5 hours or overnight in the fridge.",
+   "2": "Drain the rice, add white sugar, and mix well.",
+   "3": "Wash the lotus root carefully, peel it, and cut off the tough ends without cutting too much.",
+   "4": "Cut about 2 cm from one end of the lotus root and save the small piece to use as a lid.",
+   "5": "Stuff the lotus root with glutinous rice using a spoon and a chopstick to push the rice into the holes. Compress the rice inside the holes.",
+   "6": "Place the small piece back as a lid in its original position and secure it with 6-8 toothpicks.",
+   "7": "Add the lotus root to a small pot with 2 cups of water and rock sugar (or white sugar) and brown sugar. Bring to a boil over high heat, stirring to dissolve the sugar.",
+   "8": "Reduce heat, cover, and boil for 1 hour. Flip the lotus root after 30 minutes and add more water if necessary.",
+   "9": "Reduce heat to the lowest setting and simmer for another 20 minutes, flipping the lotus root 4-5 times during cooking.",
+   "10": "After cooking, transfer the lotus root to a cutting board and let it cool. Cut into evenly thick slices when cool enough to handle.",
+   "11": "Drizzle osmanthus syrup (or honey) on top and serve warm or cold."
+  },
+  "culturalNotes": "This dish is a traditional Chinese recipe that combines the sweetness of sticky rice with the flavor of lotus root."
+ },
+ "w-cn-014": {
+  "title": "Chinese Steamed Buns (Mantou)",
+  "ingredients": {
+   "w-cn-014-i1": {
+    "name": "all-purpose flour",
+    "standardAmount": "250 g"
+   },
+   "w-cn-014-i2": {
+    "name": "instant yeast",
+    "standardAmount": "1 teaspoon"
+   },
+   "w-cn-014-i3": {
+    "name": "baking powder",
+    "standardAmount": "¾ teaspoon"
+   },
+   "w-cn-014-i4": {
+    "name": "sugar",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-014-i5": {
+    "name": "lukewarm water",
+    "standardAmount": "130 g"
+   },
+   "w-cn-014-i6": {
+    "name": "Chinese dates (optional)",
+    "standardAmount": "4 pieces"
+   }
+  },
+  "instructions": {
+   "1": "Mix the flour, yeast, baking powder, and sugar in a large bowl.",
+   "2": "Gradually add the lukewarm water and knead the dough until it is smooth and elastic.",
+   "3": "Cover the dough and let it rest for 30 minutes in a warm place.",
+   "4": "Shape the dough into small ball-sized buns.",
+   "5": "Place the buns in a steamer basket lined with parchment paper or bamboo leaves.",
+   "6": "Let the buns rest for 15 minutes.",
+   "7": "Bring the water to a boil in a steamer pot and add the basket. Steam the buns for 20 minutes.",
+   "8": "Let the buns cool slightly before serving."
+  },
+  "culturalNotes": "Mantou is a traditional Chinese steamed bun, often served with main meals."
+ },
+ "w-cn-015": {
+  "title": "Oyster Omelette",
+  "ingredients": {
+   "w-cn-015-i1": {
+    "name": "chicken broth",
+    "standardAmount": "1/2 cup"
+   },
+   "w-cn-015-i2": {
+    "name": "ketchup",
+    "standardAmount": "1/4 cup"
+   },
+   "w-cn-015-i3": {
+    "name": "light soy sauce",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-015-i4": {
+    "name": "rice vinegar",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-015-i5": {
+    "name": "sugar",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-015-i6": {
+    "name": "cornstarch",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-cn-015-i7": {
+    "name": "shucked oysters",
+    "standardAmount": "1/2 lb"
+   },
+   "w-cn-015-i8": {
+    "name": "peanut oil",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-cn-015-i9": {
+    "name": "potato starch",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-cn-015-i10": {
+    "name": "eggs",
+    "standardAmount": "3 eggs"
+   },
+   "w-cn-015-i11": {
+    "name": "salt",
+    "standardAmount": "1/4 teaspoon"
+   },
+   "w-cn-015-i12": {
+    "name": "white pepper",
+    "standardAmount": "1/4 teaspoon"
+   },
+   "w-cn-015-i13": {
+    "name": "green onion",
+    "standardAmount": "4 green onions"
+   }
+  },
+  "instructions": {
+   "1": "Whisk together the sauce ingredients in a saucepan over medium-low heat. Simmer until the sauce thickens.",
+   "2": "Add the oysters into a colander and sprinkle evenly with cornstarch. Rub the oysters gently with the cornstarch, then use cold running water to rinse them off. This helps to clean the oysters from any shell fragments and debris. Drain thoroughly and gently pat dry with paper towels.",
+   "3": "Heat 1/2 tablespoon of oil in a 9-inch skillet over medium heat until hot but not smoking hot. Add the oysters. Let cook until the bottom has turned white, 30 seconds or so. Flip to cook the other side until it just turns white. Drain off the liquid and transfer the oysters onto a plate to cool off slightly.",
+   "4": "Mix the potato starch with 1 tablespoon of water in a small bowl until fully dissolved.",
+   "5": "Beat the eggs in a large bowl with salt and white pepper. Add the potato starch slurry. Mix until fully dissolved. Add the green onion and cooled-off oysters. Mix again.",
+   "6": "Add the remaining 1 1/2 tablespoons of oil into the same skillet and heat over medium-high heat until hot. Pour in the egg batter and turn to medium heat. Cook until the bottom turns golden. Carefully flip the omelet. Keep cooking until the bottom has set and the inside has cooked. Transfer to a large serving plate. Serve hot along with the sauce as an appetizer or main dish."
+  },
+  "culturalNotes": "Oyster omelette is a popular dish in Chinese cuisine, especially in southern China. It is usually served as an appetizer or main dish."
+ },
+ "w-cn-016": {
+  "title": "Prawn Crackers",
+  "ingredients": {
+   "w-cn-016-i1": {
+    "name": "fresh shrimp",
+    "standardAmount": "180 g"
+   },
+   "w-cn-016-i2": {
+    "name": "minced ginger",
+    "standardAmount": "1 small piece"
+   },
+   "w-cn-016-i3": {
+    "name": "water",
+    "standardAmount": "150 ml"
+   },
+   "w-cn-016-i4": {
+    "name": "tapioca starch",
+    "standardAmount": "400 g"
+   },
+   "w-cn-016-i5": {
+    "name": "salt",
+    "standardAmount": "1/4 tsp"
+   },
+   "w-cn-016-i6": {
+    "name": "sugar",
+    "standardAmount": "1/2 tsp"
+   }
+  },
+  "instructions": {
+   "1": "Clean the shrimp and wash them thoroughly, then blend them in a food processor.",
+   "2": "Add the minced ginger and water to the blended shrimp and mix well.",
+   "3": "Gradually add the tapioca starch while continuing to knead until you get a firm dough.",
+   "4": "Add the salt and sugar and mix well.",
+   "5": "Cover the dough and let it rest for 30 minutes.",
+   "6": "Cut the dough into small pieces and shape them into thin circles.",
+   "7": "Heat the oil in a deep pan and fry the crackers until they turn golden brown.",
+   "8": "Drain the crackers on paper towels to remove excess oil."
+  },
+  "culturalNotes": "Prawn crackers are a popular dish in Chinese cuisine, served as an appetizer or snack."
+ },
+ "w-cn-017": {
+  "title": "Sticky Rice Cake with Red Bean Paste",
+  "ingredients": {
+   "w-cn-017-i1": {
+    "name": "red bean paste",
+    "standardAmount": "420 g (1 1/2 cups)"
+   },
+   "w-cn-017-i2": {
+    "name": "glutinous rice flour",
+    "standardAmount": "250 g (2 1/4 cups)"
+   },
+   "w-cn-017-i3": {
+    "name": "water",
+    "standardAmount": "225 ml (1 cup minus 1 tablespoon)"
+   },
+   "w-cn-017-i4": {
+    "name": "white roasted sesame seeds",
+    "standardAmount": "1/4 cup"
+   },
+   "w-cn-017-i5": {
+    "name": "vegetable oil",
+    "standardAmount": "as needed"
+   }
+  },
+  "instructions": {
+   "1": "Prepare the filling: Use ready-made red bean paste.",
+   "2": "Prepare the dough: Mix glutinous rice flour and water in a large bowl until the dough is smooth. Cover the dough and let it rest for 15 minutes.",
+   "3": "Shape the cakes: Dust a work surface with a little glutinous rice flour. Divide the dough into small balls. Flatten each ball and place a small amount of red bean paste in the center. Seal the cake tightly to form a ball.",
+   "4": "Cook the cakes: Heat a non-stick pan over medium heat and add a little vegetable oil. Place the cakes in the pan and fry for 2-3 minutes on each side until golden brown.",
+   "5": "Serve: Serve the cakes hot, sprinkled with white roasted sesame seeds."
+  },
+  "culturalNotes": "Sticky rice cake with red bean paste is a traditional Chinese dessert, often served on special occasions."
+ },
+ "w-cn-018": {
+  "title": "Soy Sauce Eggs",
+  "ingredients": {
+   "w-cn-018-i1": {
+    "name": "Eggs",
+    "standardAmount": "6-12 large eggs"
+   },
+   "w-cn-018-i2": {
+    "name": "Soy Sauce",
+    "standardAmount": "3/4 cup"
+   },
+   "w-cn-018-i3": {
+    "name": "Brown Sugar",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-cn-018-i4": {
+    "name": "Rice Vinegar",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-018-i5": {
+    "name": "Dried Chilis",
+    "standardAmount": "4 dried chilis"
+   },
+   "w-cn-018-i6": {
+    "name": "Star Anise Pods",
+    "standardAmount": "2 star anise pods"
+   },
+   "w-cn-018-i7": {
+    "name": "Water",
+    "standardAmount": "3-4 cups"
+   }
+  },
+  "instructions": {
+   "1": "Wash the eggs thoroughly and place them in a pot with enough water to cover them by about 1 inch. Bring the water to a boil over high heat, then reduce the heat and boil the eggs for 10 minutes.",
+   "2": "Transfer the eggs to a bowl of cold water for a few minutes to cool them down.",
+   "3": "In another pot, combine the soy sauce, brown sugar, rice vinegar, dried chilis, star anise, and water. Bring the mixture to a boil over high heat, then reduce the heat and simmer for 5 minutes.",
+   "4": "Add the cooled eggs to the hot mixture and let them marinate for at least 30 minutes or overnight for a stronger flavor."
+  },
+  "culturalNotes": "Soy Sauce Eggs are a popular dish in Chinese cuisine, often served as an appetizer or part of a breakfast meal."
+ },
+ "w-cn-019": {
+  "title": "Chicken Spring Rolls with Peanut Sauce",
+  "ingredients": {
+   "w-cn-019-i1": {
+    "name": "chicken breast",
+    "standardAmount": "1 lb"
+   },
+   "w-cn-019-i2": {
+    "name": "vegetable oil",
+    "standardAmount": "1 teaspoon"
+   },
+   "w-cn-019-i3": {
+    "name": "salt",
+    "standardAmount": "1/2 teaspoon"
+   },
+   "w-cn-019-i4": {
+    "name": "black pepper",
+    "standardAmount": "1/4 teaspoon"
+   },
+   "w-cn-019-i5": {
+    "name": "unsalted natural peanut butter",
+    "standardAmount": "4 heaping tablespoons"
+   },
+   "w-cn-019-i6": {
+    "name": "Chinkiang vinegar",
+    "standardAmount": "4 tablespoons"
+   },
+   "w-cn-019-i7": {
+    "name": "light soy sauce",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-cn-019-i8": {
+    "name": "maple syrup",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-cn-019-i9": {
+    "name": "toasted sesame oil",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-cn-019-i10": {
+    "name": "garlic",
+    "standardAmount": "4 cloves"
+   },
+   "w-cn-019-i11": {
+    "name": "ginger",
+    "standardAmount": "4 slices"
+   },
+   "w-cn-019-i12": {
+    "name": "homemade chili oil (Optional)",
+    "standardAmount": "2-3 tablespoons"
+   },
+   "w-cn-019-i13": {
+    "name": "round rice paper wrappers",
+    "standardAmount": "12 wrappers (8\" / 22cm)"
+   },
+   "w-cn-019-i14": {
+    "name": "English cucumber",
+    "standardAmount": "1 cucumber (cut into strips)"
+   },
+   "w-cn-019-i15": {
+    "name": "carrots",
+    "standardAmount": "3 carrots (shredded)"
+   },
+   "w-cn-019-i16": {
+    "name": "bean sprouts",
+    "standardAmount": "2 cups"
+   },
+   "w-cn-019-i17": {
+    "name": "green onions",
+    "standardAmount": "4 green onions (cut to strips)"
+   },
+   "w-cn-019-i18": {
+    "name": "cooked rice vermicelli",
+    "standardAmount": "2 cups"
+   },
+   "w-cn-019-i19": {
+    "name": "cilantro",
+    "standardAmount": "1 small batch"
+   }
+  },
+  "instructions": {
+   "1": "Boil the chicken breast in boiling water for 10 minutes until cooked. Let it cool, then cut it into small pieces.",
+   "2": "In a small bowl, mix peanut butter, Chinkiang vinegar, light soy sauce, maple syrup, toasted sesame oil, minced garlic, ginger, and chili oil (if using). Stir well until the ingredients are well combined.",
+   "3": "Dip the rice paper wrappers in warm water for 10-15 seconds until they become soft. Place them on a work surface.",
+   "4": "Place a small amount of the chopped chicken, cucumber, carrots, bean sprouts, green onions, cooked rice vermicelli, and cilantro in the center of the wrapper.",
+   "5": "Fold the edges and roll the spring roll carefully. Repeat with the remaining wrappers.",
+   "6": "Heat the oil in a pan over medium heat. Fry the spring rolls until golden brown and crispy.",
+   "7": "Serve the spring rolls with the peanut sauce on the side."
+  },
+  "culturalNotes": "Spring rolls are a popular dish in China, often served as an appetizer at special occasions."
+ },
+ "w-cn-020": {
+  "title": "Youtiao - Chinese Doughnut",
+  "ingredients": {
+   "w-cn-020-i1": {
+    "name": "oil for deep-frying",
+    "standardAmount": "as needed"
+   },
+   "w-cn-020-i2": {
+    "name": "vegetable oil for brushing",
+    "standardAmount": "1 tbsp"
+   },
+   "w-cn-020-i3": {
+    "name": "all-purpose flour",
+    "standardAmount": "2 cups"
+   },
+   "w-cn-020-i4": {
+    "name": "baking powder",
+    "standardAmount": "1 tsp"
+   },
+   "w-cn-020-i5": {
+    "name": "baking soda",
+    "standardAmount": "1/4 tsp"
+   },
+   "w-cn-020-i6": {
+    "name": "egg",
+    "standardAmount": "1"
+   },
+   "w-cn-020-i7": {
+    "name": "water",
+    "standardAmount": "120 ml (+5 ml for adjusting based on the size of the egg)"
+   },
+   "w-cn-020-i8": {
+    "name": "vegetable oil",
+    "standardAmount": "1/2 tbsp"
+   },
+   "w-cn-020-i9": {
+    "name": "salt",
+    "standardAmount": "1/2 tsp"
+   },
+   "w-cn-020-i10": {
+    "name": "sugar",
+    "standardAmount": "1/2 tsp"
+   }
+  },
+  "instructions": {
+   "1": "Mix the flour, baking powder, baking soda, salt, and sugar in a large bowl.",
+   "2": "Add the egg, water, and vegetable oil and mix well until the dough is smooth and consistent.",
+   "3": "Cover the dough and let it rest for 30 minutes.",
+   "4": "Spread the dough on a floured surface and cut it into long, thin strips.",
+   "5": "Place two strips together and brush them with vegetable oil, then fold them together and brush again.",
+   "6": "Heat the oil in a deep pot until hot, then fry the strips until golden brown.",
+   "7": "Drain the youtiao on paper towels to remove excess oil.",
+   "8": "Serve hot with tea or coffee."
+  },
+  "culturalNotes": "Youtiao is a traditional dish in China and is usually served with tea or coffee in the morning."
+ },
+ "w-cn-021": {
+  "title": "Zongzi with Red Bean Paste",
+  "ingredients": {
+   "w-cn-021-i1": {
+    "name": "dried or fresh bamboo leaves",
+    "standardAmount": "20-30 leaves"
+   },
+   "w-cn-021-i2": {
+    "name": "glutinous rice",
+    "standardAmount": "2 cups (400 grams)"
+   },
+   "w-cn-021-i3": {
+    "name": "red bean paste",
+    "standardAmount": "1 cup"
+   },
+   "w-cn-021-i4": {
+    "name": "cotton twine or narrow stalks",
+    "standardAmount": "as needed"
+   }
+  },
+  "instructions": {
+   "1": "Rinse the glutinous rice with water 2-3 times. Place the rice in a large bowl and add water to cover. Let it soak overnight.",
+   "2": "If using dried bamboo leaves, soak them in hot water for 30 minutes and then rinse them well. If using fresh bamboo leaves, rinse them well only.",
+   "3": "Arrange the leaves with the inner side facing down. Place a portion of the glutinous rice in the center of the leaf, then add a spoonful of red bean paste, and cover it with another layer of rice.",
+   "4": "Fold the leaves around the filling and tie them with cotton twine or narrow stalks.",
+   "5": "Place the zongzi in a large pot and add water to cover them. Bring to a boil over medium heat and cook for 3 hours.",
+   "6": "After cooking, let them cool slightly before opening and enjoy."
+  },
+  "culturalNotes": "Zongzi is a traditional Chinese dish served during the Dragon Boat Festival. It is often eaten for breakfast or as a snack."
+ },
+ "w-fr-001": {
+  "title": "Bouillabaisse",
+  "ingredients": {
+   "w-fr-001-i1": {
+    "name": "sea robin",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i2": {
+    "name": "scorpionfish",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i3": {
+    "name": "red gurnard",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i4": {
+    "name": "conger",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i5": {
+    "name": "monkfish",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i6": {
+    "name": "John Dory",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i7": {
+    "name": "octopus",
+    "standardAmount": "1 live octopus (optional)"
+   },
+   "w-fr-001-i8": {
+    "name": "sea urchins",
+    "standardAmount": "10 sea urchins"
+   },
+   "w-fr-001-i9": {
+    "name": "potatoes",
+    "standardAmount": "1 kg"
+   },
+   "w-fr-001-i10": {
+    "name": "garlic",
+    "standardAmount": "7 cloves"
+   },
+   "w-fr-001-i11": {
+    "name": "onions",
+    "standardAmount": "3 onions"
+   },
+   "w-fr-001-i12": {
+    "name": "tomatoes",
+    "standardAmount": "5 ripe tomatoes"
+   },
+   "w-fr-001-i13": {
+    "name": "olive oil",
+    "standardAmount": "1 cup"
+   },
+   "w-fr-001-i14": {
+    "name": "bouquet garni",
+    "standardAmount": "1 bouquet garni"
+   },
+   "w-fr-001-i15": {
+    "name": "fennel",
+    "standardAmount": "1 branch"
+   },
+   "w-fr-001-i16": {
+    "name": "saffron",
+    "standardAmount": "8 threads"
+   },
+   "w-fr-001-i17": {
+    "name": "country bread",
+    "standardAmount": "10 slices"
+   },
+   "w-fr-001-i18": {
+    "name": "salt",
+    "standardAmount": "to taste"
+   },
+   "w-fr-001-i19": {
+    "name": "cayenne pepper",
+    "standardAmount": "to taste"
+   }
+  },
+  "instructions": {
+   "1": "Clean the fish and cut them into large slices, leaving the bones.",
+   "2": "Heat the olive oil in a large, deep saucepan.",
+   "3": "Add the onions, along with 6 crushed garlic cloves, the octopus pieces, and tomatoes. Sauté over low heat, stirring gently for 5 minutes.",
+   "4": "Add the fish slices; first the large slices then the smaller ones. Cover with boiling water and add salt, pepper, fennel, bouquet garni, and saffron. Simmer over low heat, stirring occasionally for 20 minutes.",
+   "5": "Prepare the rouille: Crush the garlic cloves in a mortar until they form a paste, then add the egg yolk and saffron, and blend in the olive oil little by little to make a mayonnaise.",
+   "6": "Cook the potatoes in salted water for 15-20 minutes. Open the sea urchins with a pair of scissors and remove the roe with a small spoon.",
+   "7": "Arrange the fish on a platter. Add the sea urchin roe into the broth and stir.",
+   "8": "Rub several slices of bread with garlic and spread a tablespoon of rouille on each. Place at least two slices per serving bowl.",
+   "9": "Remove the fish and potatoes from the broth and place them on a large serving platter.",
+   "10": "Pour the hot broth into each bowl containing a slice of bread spread with rouille. Serve the fish and potatoes on a separate platter."
+  },
+  "culturalNotes": "Bouillabaisse is a traditional dish from Marseille in southern France, known for its diverse mix of fish and shellfish."
+ },
+ "w-fr-002": {
+  "title": "Calamari with Tzatziki",
+  "ingredients": {
+   "w-fr-002-i1": {
+    "name": "garlic",
+    "standardAmount": "2 small cloves, finely chopped"
+   },
+   "w-fr-002-i2": {
+    "name": "olive oil",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-fr-002-i3": {
+    "name": "cucumber",
+    "standardAmount": "1 small cucumber"
+   },
+   "w-fr-002-i4": {
+    "name": "yogurt",
+    "standardAmount": "250 grams"
+   },
+   "w-fr-002-i5": {
+    "name": "dried mint",
+    "standardAmount": "1 teaspoon"
+   },
+   "w-fr-002-i6": {
+    "name": "lemon juice",
+    "standardAmount": "1 teaspoon"
+   },
+   "w-fr-002-i7": {
     "name": "salt and pepper",
     "standardAmount": "to taste"
    },
-   "w-ma-024-i15": {
-    "name": "fresh cilantro",
-    "standardAmount": "a handful (chopped)"
+   "w-fr-002-i8": {
+    "name": "squid",
+    "standardAmount": "1 lb"
+   },
+   "w-fr-002-i9": {
+    "name": "all-purpose flour",
+    "standardAmount": "a large bowl full"
+   },
+   "w-fr-002-i10": {
+    "name": "vegetable or olive oil",
+    "standardAmount": "enough (at least 1 inch deep in the pan)"
+   },
+   "w-fr-002-i11": {
+    "name": "freshly squeezed lemon juice",
+    "standardAmount": "to taste"
+   },
+   "w-fr-002-i12": {
+    "name": "salt, pepper, and dried Greek oregano",
+    "standardAmount": "to taste"
    }
   },
   "instructions": {
-   "1": "Heat the oil in a tagine, add the almonds and cook until golden.",
-   "2": "Add the onions and garlic and sauté until translucent.",
-   "3": "Add the ginger, saffron, cinnamon sticks, and coriander seeds, and stir well.",
-   "4": "Add the lamb and coat it well, sauté for a minute or two.",
-   "5": "Pour in enough water to cover the meat and bring it to a boil.",
-   "6": "Reduce the heat, cover the tagine, and let it cook for about an hour.",
-   "7": "Add the prunes, apricots, and orange peel, and simmer for 20 more minutes covered.",
-   "8": "Add salt and pepper to taste.",
-   "9": "Stir in the honey and half of the chopped cilantro leaves, and add a little water if necessary.",
-   "10": "Simmer for 10 more minutes covered.",
-   "11": "Adjust the seasoning as necessary, garnish with cilantro, and serve."
+   "1": "Add the garlic to the olive oil in a medium-sized bowl.",
+   "2": "Finely slice the small cucumber. Then strain the cucumber for at least 15 minutes. Sprinkle a little salt on top of the sliced cucumber to encourage excess liquid to be released.",
+   "3": "Add the yogurt, cucumber, mint, lemon juice, and salt and pepper to the garlic and olive oil. Mix together well. If the mixture appears runny, add a touch more yogurt.",
+   "4": "Clean the squid and cut the bodies into rings of about 1 inch big or leave them whole if they are small.",
+   "5": "Prepare a bowl of flour. Sprinkle some salt and pepper into the flour and mix together.",
+   "6": "Heat the oil to a very high heat.",
+   "7": "Dip a piece of calamari into the flour and make sure it is well coated outside and inside.",
+   "8": "Once the oil is hot, add the flour-coated calamari a few pieces at a time.",
+   "9": "They will cook extremely fast, about 1 minute per piece of small calamari, the larger pieces may need an extra minute.",
+   "10": "Remove from the oil and place on a paper towel to remove any excess oil. Serve immediately with the tzatziki."
   },
-  "culturalNotes": "Tagine is a traditional Moroccan dish cooked in a special pot called a tagine. It is usually served with couscous or bread."
+  "culturalNotes": "Calamari with Tzatziki is a popular dish in Mediterranean cuisine, especially in Greece and Cyprus."
  },
- "w-ma-029": {
-  "title": "Kebab Maghdour",
+ "w-fr-003": {
+  "title": "Calisson",
   "ingredients": {
-   "w-ma-029-i1": {
-    "name": "Lamb, veal, or beef",
-    "standardAmount": "2.2 lbs (1-inch cubes)"
+   "w-fr-003-i1": {
+    "name": "Almonds",
+    "standardAmount": "7 oz"
    },
-   "w-ma-029-i2": {
-    "name": "Onions",
-    "standardAmount": "2 medium onions (grated or finely chopped)"
+   "w-fr-003-i2": {
+    "name": "Powdered sugar",
+    "standardAmount": "7 oz"
    },
-   "w-ma-029-i3": {
-    "name": "Garlic",
-    "standardAmount": "2-3 cloves (grated or finely chopped)"
+   "w-fr-003-i3": {
+    "name": "Honey",
+    "standardAmount": "3.5 oz"
    },
-   "w-ma-029-i4": {
-    "name": "Ground ginger",
+   "w-fr-003-i4": {
+    "name": "Cinnamon",
+    "standardAmount": "1/2 teaspoon"
+   },
+   "w-fr-003-i5": {
+    "name": "Cloves",
+    "standardAmount": "1/4 teaspoon"
+   },
+   "w-fr-003-i6": {
+    "name": "Raisins",
+    "standardAmount": "1.75 oz"
+   },
+   "w-fr-003-i7": {
+    "name": "Flour",
+    "standardAmount": "3.5 oz"
+   },
+   "w-fr-003-i8": {
+    "name": "Egg",
+    "standardAmount": "1"
+   }
+  },
+  "instructions": {
+   "1": "Mix the ground almonds and powdered sugar in a bowl.",
+   "2": "Add the honey, cinnamon, cloves, and raisins and mix well.",
+   "3": "Gradually add the flour and mix until you get a firm dough.",
+   "4": "Cover the dough and let it rest for 30 minutes.",
+   "5": "Shape the dough into small balls and place them on a baking sheet lined with parchment paper.",
+   "6": "Bake in a preheated oven at 180°C (350°F) for 20 minutes or until golden brown.",
+   "7": "Let them cool before serving."
+  },
+  "culturalNotes": "Calisson is a traditional sweet from the city of Avignon in southern France, known for its aromatic and sweet flavor."
+ },
+ "w-fr-004": {
+  "title": "Confit Garlic",
+  "ingredients": {
+   "w-fr-004-i1": {
+    "name": "garlic",
+    "standardAmount": "2 bulbs"
+   },
+   "w-fr-004-i2": {
+    "name": "thyme",
+    "standardAmount": "2 sprigs"
+   },
+   "w-fr-004-i3": {
+    "name": "olive oil",
+    "standardAmount": "250ml"
+   },
+   "w-fr-004-i4": {
+    "name": "salt",
+    "standardAmount": "a generous pinch"
+   }
+  },
+  "instructions": {
+   "1": "Preheat the oven to 150C/130C fan/gas 2.",
+   "2": "Place the garlic in a small ovenproof dish (about 13cm wide), add the thyme and a generous pinch of salt.",
+   "3": "Pour the olive oil into the dish, making sure it completely covers the garlic. Add a little more oil if needed.",
+   "4": "Put the dish in the oven and cook for 1 hour and 20 minutes until the oil is gently bubbling and the garlic is deeply golden. The cloves should still hold their shape but collapse completely when pressed.",
+   "5": "Leave the garlic to cool in the oil. It will keep for two weeks in a sterilized, sealed jar in the fridge."
+  },
+  "culturalNotes": "Confit garlic is a common dish in French cuisine, used as an appetizer or to add rich flavor to many dishes."
+ },
+ "w-fr-005": {
+  "title": "Duck Confit",
+  "ingredients": {
+   "w-fr-005-i1": {
+    "name": "duck legs",
+    "standardAmount": "4 pieces (250g / 8oz each)"
+   },
+   "w-fr-005-i2": {
+    "name": "duck fat",
+    "standardAmount": "750 ml / 25 oz"
+   },
+   "w-fr-005-i3": {
+    "name": "cooking/kosher salt",
+    "standardAmount": "4 tsp"
+   },
+   "w-fr-005-i4": {
+    "name": "thyme sprigs",
+    "standardAmount": "1/3 cup (lightly packed)"
+   },
+   "w-fr-005-i5": {
+    "name": "sage sprigs",
+    "standardAmount": "1/3 cup (lightly packed)"
+   },
+   "w-fr-005-i6": {
+    "name": "rosemary sprigs",
+    "standardAmount": "1/3 cup (lightly packed)"
+   },
+   "w-fr-005-i7": {
+    "name": "oregano sprigs",
+    "standardAmount": "1/3 cup (lightly packed)"
+   },
+   "w-fr-005-i8": {
+    "name": "garlic cloves",
+    "standardAmount": "6 cloves (smashed with skin on)"
+   },
+   "w-fr-005-i9": {
+    "name": "shallot",
+    "standardAmount": "1 (sliced 0.7cm / 1/3&quot; thick)"
+   },
+   "w-fr-005-i10": {
+    "name": "black peppercorns",
+    "standardAmount": "1 tbsp"
+   },
+   "w-fr-005-i11": {
+    "name": "coriander seeds",
+    "standardAmount": "1 tbsp"
+   },
+   "w-fr-005-i12": {
+    "name": "star anise",
+    "standardAmount": "8"
+   },
+   "w-fr-005-i13": {
+    "name": "bay leaves",
+    "standardAmount": "2"
+   },
+   "w-fr-005-i14": {
+    "name": "juniper berries",
+    "standardAmount": "2 tbsp"
+   },
+   "w-fr-005-i15": {
+    "name": "cloves",
+    "standardAmount": "8"
+   }
+  },
+  "instructions": {
+   "1": "Mix the salt with the spices in a bowl. Rub the duck legs with the mixture on all sides.",
+   "2": "Place the duck legs in a deep dish, and cover them with the spices. Cover the dish and refrigerate for 24 hours.",
+   "3": "After 24 hours, rinse the duck legs with cold water and pat them dry.",
+   "4": "Place the duck legs in a roasting pan, and add the fat and spices. Cover the pan with aluminum foil.",
+   "5": "Place the pan in the preheated oven at 100°C (212°F) and cook for 2-3 hours until the meat is tender.",
+   "6": "Remove the pan from the oven, and let the duck legs cool slightly. Strain the fat and store it in an airtight container.",
+   "7": "Place the duck legs in a deep dish, and cover them with the strained fat. Store them in the refrigerator for up to 6 months.",
+   "8": "To serve the confit, crisp the duck legs in the preheated oven at 200°C (392°F) for 10-15 minutes until the skin is crispy."
+  },
+  "culturalNotes": "Duck confit is a traditional French dish characterized by slow-cooking duck in fat. It is typically served with mashed potatoes or roasted vegetables."
+ },
+ "w-fr-006": {
+  "title": "Flamiche (French Leek Pie)",
+  "ingredients": {
+   "w-fr-006-i1": {
+    "name": "Plain flour",
+    "standardAmount": "350 g (12oz/ 3 cups)"
+   },
+   "w-fr-006-i2": {
+    "name": "Butter",
+    "standardAmount": "175 g (6oz/ ¾ cup) (softened)"
+   },
+   "w-fr-006-i3": {
+    "name": "Sea salt",
+    "standardAmount": "pinch"
+   },
+   "w-fr-006-i4": {
+    "name": "Milk",
+    "standardAmount": "7 tbsp"
+   },
+   "w-fr-006-i5": {
+    "name": "Curry powder",
     "standardAmount": "1/2 tsp"
    },
-   "w-ma-029-i5": {
-    "name": "Black and white pepper",
+   "w-fr-006-i6": {
+    "name": "Leeks",
+    "standardAmount": "900 g (2lb) (about 4-5 medium) (chopped)"
+   },
+   "w-fr-006-i7": {
+    "name": "Butter",
+    "standardAmount": "40 g (1.5oz/ 3 tbsp)"
+   },
+   "w-fr-006-i8": {
+    "name": "Egg yolks",
+    "standardAmount": "4 (3 for filling and 1 for glaze)"
+   },
+   "w-fr-006-i9": {
+    "name": "Crème fraîche",
+    "standardAmount": "200 g (7oz/ ¾ cup) 12% fat (or heavy cream/plain Greek yoghurt)"
+   },
+   "w-fr-006-i10": {
+    "name": "Freshly grated nutmeg",
     "standardAmount": "1/4 tsp"
    },
-   "w-ma-029-i6": {
-    "name": "Flat parsley leaves and coriander",
-    "standardAmount": "2 tbsp (chopped)"
+   "w-fr-006-i11": {
+    "name": "Sea salt & black pepper",
+    "standardAmount": "pinch"
+   }
+  },
+  "instructions": {
+   "1": "In a large bowl, mix the flour, butter, and salt until the mixture resembles sand.",
+   "2": "Gradually add the milk and mix until the dough comes together.",
+   "3": "Cover the dough and refrigerate for 30 minutes.",
+   "4": "In a large pan, melt the butter and sauté the leeks until they are soft and golden.",
+   "5": "Add the curry powder and stir for a minute.",
+   "6": "In another bowl, mix the egg yolks, crème fraîche, nutmeg, salt, and pepper.",
+   "7": "Add the cooked leeks to the egg and crème fraîche mixture and stir well.",
+   "8": "Line a pie dish with the dough and add the filling.",
+   "9": "Cover the filling with the top part of the dough and seal the edges.",
+   "10": "Brush the dough with the remaining egg yolk.",
+   "11": "Bake the pie in a preheated oven at 180°C for 45 minutes or until golden brown.",
+   "12": "Let the pie cool for 10 minutes before serving."
+  },
+  "culturalNotes": "Flamiche is a traditional pie from Northern France, known for its use of French leeks as the main ingredient."
+ },
+ "w-fr-007": {
+  "title": "Fondant Potatoes",
+  "ingredients": {
+   "w-fr-007-i1": {
+    "name": "large floury potatoes",
+    "standardAmount": "4 (400g / 14 oz each)"
    },
-   "w-ma-029-i7": {
-    "name": "Vegetable oil",
-    "standardAmount": "1 tbsp"
+   "w-fr-007-i2": {
+    "name": "cooking salt / kosher salt",
+    "standardAmount": "3/4 tsp"
    },
-   "w-ma-029-i8": {
-    "name": "Vegetable and olive oil",
-    "standardAmount": "3 tbsp (mixed)"
+   "w-fr-007-i3": {
+    "name": "black pepper",
+    "standardAmount": "1/2 tsp"
    },
-   "w-ma-029-i9": {
-    "name": "Salt",
-    "standardAmount": "1 tsp (to taste)"
-   },
-   "w-ma-029-i10": {
-    "name": "Cinnamon stick",
-    "standardAmount": "1 (optional)"
-   },
-   "w-ma-029-i11": {
-    "name": "Ground sweet paprika",
-    "standardAmount": "1 tbsp"
-   },
-   "w-ma-029-i12": {
-    "name": "Chopped flat leaf parsley",
+   "w-fr-007-i4": {
+    "name": "extra virgin olive oil",
     "standardAmount": "2 tbsp"
    },
-   "w-ma-029-i13": {
-    "name": "Smen",
-    "standardAmount": "1 tbsp (or ghee)"
+   "w-fr-007-i5": {
+    "name": "unsalted butter",
+    "standardAmount": "3 tbsp (50g)"
    },
-   "w-ma-029-i14": {
-    "name": "Butter",
-    "standardAmount": "2 tbsp"
+   "w-fr-007-i6": {
+    "name": "thyme sprigs",
+    "standardAmount": "6 sprigs"
    },
-   "w-ma-029-i15": {
-    "name": "Eggs",
-    "standardAmount": "3-6 (counting half to a whole egg per person)"
+   "w-fr-007-i7": {
+    "name": "chicken stock / broth",
+    "standardAmount": "1 cup (low sodium or vegetable)"
+   }
+  },
+  "instructions": {
+   "1": "Preheat the oven to 200°C / 390°F (180°C fan-forced).",
+   "2": "Cut each potato into cylinders about 6 cm in diameter and 7 cm tall. Then cut them in half to get 8 short cylinders 3.5 cm tall.",
+   "3": "Pat the potatoes dry and place them in a large bowl. Toss with half the oil and all the salt and pepper.",
+   "4": "In an ovenproof heavy-based skillet, heat the remaining oil over medium-high heat. Add the potatoes and cook each side for 6-8 minutes until golden.",
+   "5": "Add the butter and thyme. Once melted, spoon the butter over the potatoes (basting). Add the stock, bring to a boil, then transfer to the oven and bake for 30 minutes until the potatoes are tender, basting at the 15-minute mark.",
+   "6": "Baste one more time then serve! For a restaurant-style option, serve alongside steak with béarnaise sauce and buttered peas."
+  },
+  "culturalNotes": "Fondant potatoes are a traditional French oven dish served as a side to meats. They are known for their creamy, soft interior and golden, crispy exterior."
+ },
+ "w-fr-008": {
+  "title": "French Chocolate Crêpes",
+  "ingredients": {
+   "w-fr-008-i1": {
+    "name": "unsalted butter",
+    "standardAmount": "25 g (1oz / 2 tbsp)"
    },
-   "w-ma-029-i16": {
-    "name": "Olive oil",
-    "standardAmount": "6 tbsp (for frying)"
+   "w-fr-008-i2": {
+    "name": "plain flour",
+    "standardAmount": "150 g (5oz / 1 cup)"
    },
-   "w-ma-029-i17": {
-    "name": "Chopped flat leaf parsley or coriander",
+   "w-fr-008-i3": {
+    "name": "eggs",
+    "standardAmount": "2 large eggs"
+   },
+   "w-fr-008-i4": {
+    "name": "whole milk",
+    "standardAmount": "275 ml (10 floz)"
+   },
+   "w-fr-008-i5": {
+    "name": "sea salt",
+    "standardAmount": "pinch"
+   },
+   "w-fr-008-i6": {
+    "name": "vanilla powder or extract",
+    "standardAmount": "¼ tsp (optional)"
+   },
+   "w-fr-008-i7": {
+    "name": "icing or powdered sugar",
+    "standardAmount": "1 tbsp"
+   },
+   "w-fr-008-i8": {
+    "name": "unsweetened cacao powder",
     "standardAmount": "1 tbsp"
    }
   },
   "instructions": {
-   "1": "Prepare the meat by cutting it into 1-inch cubes.",
-   "2": "In a bowl, mix the meat with grated onion, garlic, ginger, pepper, parsley and coriander, and vegetable oil. Let the mixture marinate for 30 minutes.",
-   "3": "In a pot, add the vegetable and olive oil, then add the finely chopped onion and sauté until golden brown.",
-   "4": "Add the marinated meat to the pot and sauté for 5 minutes.",
-   "5": "Add water to cover the meat, then add ginger, salt, cinnamon stick, and ground sweet paprika. Bring to a boil, then reduce heat and simmer for 45 minutes until the meat is tender.",
-   "6": "Add the eggs to the pot and cook for 10 minutes until they are done.",
-   "7": "Serve the Kebab Maghdour hot, garnished with chopped parsley."
+   "1": "Melt the butter in the crêpe pan (it's even better if it's slightly browned to add extra flavor).",
+   "2": "Stir the flour, icing sugar, cacao powder, salt, and optional vanilla in a large bowl. Make a well in the middle and break the eggs into it. Using a hand whisk, beat the mixture well with the melted butter until a smooth, thick paste.",
+   "3": "Add about a quarter of the milk to the eggs and whisk well to ensure no lumps. Gradually add the rest of the milk. The batter will look quite runny, but this is perfectly normal.",
+   "4": "Wipe the buttery pan with kitchen paper to remove any excess. Heat the pan on medium-high. Ladle one small quantity of the batter into the hot pan. Swirl the batter around the pan quickly, as thinly as possible, covering the surface of the pan and remove any excess back into the batter bowl.",
+   "5": "Cook over a medium-high heat for about 2-3 minutes until bubbles form on the surface. Using a spatula or your fingertips, quickly flip the crêpe over and cook for another couple of minutes.",
+   "6": "Turn down the heat slightly (but still at medium) and repeat the process, topping up with wiping of butter in the pan, until you have about 6-8 crêpes (depending on pan size), stacking them aside on a large plate."
   },
-  "culturalNotes": "Kebab Maghdour is a traditional Moroccan dish served on special occasions. It is known for its rich spice flavors and tender meat."
+  "culturalNotes": "French crêpes are a popular breakfast dish in France, often served with chocolate, honey, or strawberries."
  },
- "w-mx-032": {
-  "title": "Huarache (food)",
+ "w-fr-009": {
+  "title": "Chocolate Ganache Truffles",
   "ingredients": {
-   "w-mx-032-i1": {
-    "name": "olive oil",
-    "standardAmount": "2 tablespoons"
+   "w-fr-009-i1": {
+    "name": "dark chocolate",
+    "standardAmount": "285g (10 oz)"
    },
-   "w-mx-032-i2": {
-    "name": "beef chuck steak",
-    "standardAmount": "1 ½ pound (diced into small bite-sized cubes)"
+   "w-fr-009-i2": {
+    "name": "unsalted butter",
+    "standardAmount": "30g (2 tbsp)"
    },
-   "w-mx-032-i3": {
-    "name": "onion",
-    "standardAmount": "¼ onion (thinly sliced)"
+   "w-fr-009-i3": {
+    "name": "cream",
+    "standardAmount": "125ml (1/2 cup)"
    },
-   "w-mx-032-i4": {
+   "w-fr-009-i4": {
+    "name": "desiccated coconut",
+    "standardAmount": "125g (1/2 cup)"
+   },
+   "w-fr-009-i5": {
+    "name": "unsweetened cocoa powder",
+    "standardAmount": "60g (1/4 cup)"
+   },
+   "w-fr-009-i6": {
+    "name": "crushed peanuts",
+    "standardAmount": "125g (1/2 cup)"
+   },
+   "w-fr-009-i7": {
+    "name": "sprinkles",
+    "standardAmount": "85g (1/3 cup)"
+   },
+   "w-fr-009-i8": {
+    "name": "icing sugar / powdered sugar",
+    "standardAmount": "60g (1/4 cup)"
+   }
+  },
+  "instructions": {
+   "1": "Place the chocolate, cream, and butter in a microwave-safe bowl. Microwave on high for 4 x 30-second bursts, stirring in between.",
+   "2": "Cover the bowl with a plate and let it stand for 5 minutes, then stir until the chocolate is melted and smooth (this is the ganache!).",
+   "3": "Place the bowl in the refrigerator for 6 hours. Do not be tempted to shortcut it by freezing it!",
+   "4": "Put a dinner plate or tray that you will use to place the rolled truffles on in the fridge as well.",
+   "5": "After 6 hours, take the ganache out of the fridge and start shaping small balls with a teaspoon.",
+   "6": "Roll the truffle balls in desiccated coconut, unsweetened cocoa powder, crushed peanuts, sprinkles, or powdered sugar as desired.",
+   "7": "Place the truffle balls on the chilled plate and let them cool completely."
+  },
+  "culturalNotes": "Ganache is a creamy mixture of chocolate and cream, a key ingredient in many French desserts."
+ },
+ "w-fr-010": {
+  "title": "Gratin Dauphinois",
+  "ingredients": {
+   "w-fr-010-i1": {
+    "name": "potatoes",
+    "standardAmount": "750 g (1lb 10oz)"
+   },
+   "w-fr-010-i2": {
     "name": "garlic",
-    "standardAmount": "2 cloves (minced)"
+    "standardAmount": "2-3 cloves (finely chopped)"
    },
-   "w-mx-032-i5": {
-    "name": "kosher salt",
-    "standardAmount": "1 teaspoon (plus more as needed)"
+   "w-fr-010-i3": {
+    "name": "full fat milk",
+    "standardAmount": "275 ml (10fl oz/ 1 cup)"
    },
-   "w-mx-032-i6": {
-    "name": "freshly ground black pepper",
-    "standardAmount": "½ teaspoon"
+   "w-fr-010-i4": {
+    "name": "double or heavy cream",
+    "standardAmount": "150 ml (5.5fl oz/ 0.6 cup)"
    },
-   "w-mx-032-i7": {
-    "name": "masa harina",
-    "standardAmount": "2 cups (plus more as needed)"
+   "w-fr-010-i5": {
+    "name": "nutmeg",
+    "standardAmount": "1/4 tsp (freshly grated or ground)"
    },
-   "w-mx-032-i8": {
-    "name": "fine salt",
-    "standardAmount": "1 teaspoon"
+   "w-fr-010-i6": {
+    "name": "salt and ground black pepper",
+    "standardAmount": "to taste"
    },
-   "w-mx-032-i9": {
+   "w-fr-010-i7": {
+    "name": "fresh thyme",
+    "standardAmount": "1/2 tsp"
+   },
+   "w-fr-010-i8": {
+    "name": "butter",
+    "standardAmount": "knob (to grease the dish)"
+   },
+   "w-fr-010-i9": {
+    "name": "emmental or gruyère cheese",
+    "standardAmount": "100 g (3.5oz/ 1 cup) (finely grated) (optional)"
+   }
+  },
+  "instructions": {
+   "1": "Peel the potatoes (although not always necessary - I love them cleaned with skins still on), wash and pat dry on kitchen paper. Slice them as thin as you can (3mm) either by hand or with a mandoline (watch your fingers!) or the slicer attachment of a food processor.",
+   "2": "Preheat oven to 190°C/ 375°F (170°C fan/Gas 5).",
+   "3": "Heat the milk, cream, and chopped garlic in a medium saucepan until boiling. Turn down the heat to low, add the nutmeg, salt, and pepper, then add the sliced potatoes.",
+   "4": "Cook for about 5 minutes, turning the slices over with a spoon so that the potatoes are well covered and heated in the creamy milk. If adding cheese, either add it in the pan here or sprinkle on at the end on top.",
+   "5": "Butter the baking dish. Add the potato mixture to the dish, spreading them out evenly with a spatula.",
+   "6": "Bake for about 45 minutes or until golden brown."
+  },
+  "culturalNotes": "Gratin Dauphinois is a traditional French dish from the Dauphiné region. It features thinly sliced potatoes cooked in milk and heavy cream, seasoned with nutmeg and garlic."
+ },
+ "w-fr-011": {
+  "title": "Pain d'épices (gâteau)",
+  "ingredients": {
+   "w-fr-011-i1": {
     "name": "water",
-    "standardAmount": "1 ½ cups (plus more as needed)"
+    "standardAmount": "9 fl oz / 1 cup"
    },
-   "w-mx-032-i10": {
-    "name": "vegetable oil",
-    "standardAmount": "for frying (optional)"
+   "w-fr-011-i2": {
+    "name": "honey",
+    "standardAmount": "9 oz / 2/3 cup"
    },
-   "w-mx-032-i11": {
-    "name": "refried beans",
-    "standardAmount": "as needed (warmed)"
+   "w-fr-011-i3": {
+    "name": "cardamom pods",
+    "standardAmount": "4 pods"
    },
-   "w-mx-032-i12": {
-    "name": "salsa roja",
-    "standardAmount": "as needed"
-   },
-   "w-mx-032-i13": {
-    "name": "salsa verde or guacamole salsa",
-    "standardAmount": "as needed"
-   },
-   "w-mx-032-i14": {
-    "name": "avocados",
-    "standardAmount": "diced"
-   },
-   "w-mx-032-i15": {
-    "name": "cotija cheese or queso fresco",
-    "standardAmount": "crumbled"
-   }
-  },
-  "instructions": {
-   "1": "Heat the olive oil in a large skillet over medium-high heat. Add the steak, onion, garlic, salt, and black pepper and cook for 5 to 6 minutes, stirring occasionally, until the meat is no longer pink. Remove from heat and cover until ready to serve.",
-   "2": "Combine the masa harina and salt in a large bowl. Stir in the water until a dough forms. Knead the dough with your hands until it fully comes together and all the water is absorbed. To make sure it’s ready, grab a small piece and roll it into a ball. Press down on it with a finger. If the edges of the dough crack, the dough is too dry. If the dough sticks to your skin, it’s too wet. Add more water or masa harina as necessary.",
-   "3": "Divide the dough into 8 equal portions, then roll each portion into balls and cover them with a clean damp cloth or plastic wrap to keep the dough moist while you press and cook the huaraches.",
-   "4": "Heat a griddle or large skillet over medium-high heat until hot.",
-   "5": "Shape each dough portion into a 5 to 6-inch log. Working one at a time, place the dough between two sheets of parchment paper or plastic wrap and flatten gently with a tortilla press, a heavy glass baking dish, or the palm of your hand until it’s about ¼-inch thick. Using your hands, shape the flattened dough into an oblong shape so that it looks like the outline of a sandal. Carefully peel the plastic wrap or parchment paper back and transfer the huarache to your hand.",
-   "6": "Cook: Cooking 1 or 2 at a time, place the huarache on the hot griddle and cook for 1 minute, or until light brown spots appear on the bottom. Flip and cook the other side for 1 more minute. You can eat the huaraches like this or continue to fry them for a crispier and more delicious dish.",
-   "7": "Fry (optional): Fill a large sauté pan or deep skillet with about 1 inch of oil and heat over medium-high heat until the temperature reaches 350°F. (To test, drop a small piece of dough in the oil. If it sizzles, it's ready.) Cooking in batches, carefully add 1 or 2 huaraches into the frying oil and fry for about 1 minute per side until golden brown. Transfer them to a large plate or baking sheet lined with paper towels to soak up any excess oil.",
-   "8": "Assemble and serve: Spread a spoonful of warm refried beans onto each huarache, then top with the cooked meat. Drizzle with salsa roja or your favorite hot sauce, salsa verde or guacamole salsa, diced avocados, and crumbled cotija cheese or queso fresco."
-  },
-  "culturalNotes": "Huarache is a traditional Mexican dish, often served on special occasions and family gatherings."
- },
- "w-mx-035": {
-  "title": "Mexican Green Rice",
-  "ingredients": {
-   "w-mx-035-i1": {
-    "name": "short grain rice",
-    "standardAmount": "2 cups"
-   },
-   "w-mx-035-i2": {
-    "name": "cilantro",
-    "standardAmount": "1 bunch"
-   },
-   "w-mx-035-i3": {
-    "name": "white onion",
-    "standardAmount": "1/2 medium white onion"
-   },
-   "w-mx-035-i4": {
-    "name": "garlic",
+   "w-fr-011-i4": {
+    "name": "cloves",
     "standardAmount": "2 cloves"
    },
-   "w-mx-035-i5": {
+   "w-fr-011-i5": {
+    "name": "star anise",
+    "standardAmount": "2 star anise"
+   },
+   "w-fr-011-i6": {
+    "name": "cane sugar",
+    "standardAmount": "3.5 oz / ½ cup"
+   },
+   "w-fr-011-i7": {
+    "name": "unsalted butter",
+    "standardAmount": "5.5 oz / 2/3 cup"
+   },
+   "w-fr-011-i8": {
+    "name": "rye flour",
+    "standardAmount": "9 oz / 2 cups"
+   },
+   "w-fr-011-i9": {
+    "name": "baking powder",
+    "standardAmount": "2 tsp"
+   },
+   "w-fr-011-i10": {
     "name": "salt",
-    "standardAmount": "1 tsp"
+    "standardAmount": "a good pinch"
    },
-   "w-mx-035-i6": {
-    "name": "water",
-    "standardAmount": "4-5 cups"
+   "w-fr-011-i11": {
+    "name": "gingerbread spice",
+    "standardAmount": "1½ tsp"
    },
-   "w-mx-035-i7": {
-    "name": "oil",
-    "standardAmount": "2 tbsp"
+   "w-fr-011-i12": {
+    "name": "candied fruits",
+    "standardAmount": "1 tbsp"
    }
   },
   "instructions": {
-   "1": "Add cilantro, onion, garlic, and 1/2 cup of water to a blender and blend until smooth for about 1 minute.",
-   "2": "Preheat 2 tablespoons of oil in a pot over medium heat.",
-   "3": "Add the uncooked rice to the hot oil and stir for about 30 seconds until the rice starts to brown and becomes fragrant.",
-   "4": "Add the cilantro mixture to the rice.",
-   "5": "Add 4 cups of water and 1 teaspoon of salt to the rice and stir once to evenly disperse the cilantro mixture.",
-   "6": "Reduce the heat to low (do not cover) and cook the rice for about 20 minutes until it has completely absorbed the liquid.",
-   "7": "If the rice isn't fully cooked after it has absorbed the liquid, add 1/4 cup of water as needed until the rice is fully cooked and the water has been absorbed.",
-   "8": "Once the rice is done cooking, turn off the heat and fluff the rice with a fork. Let it rest for 5 minutes before serving.",
-   "9": "Garnish with a sprig of cilantro before serving."
+   "1": "Grease the loaf tin with a little butter and preheat the oven to 180°C/360°F (160°C fan/Gas 4).",
+   "2": "Boil the water, honey, sugar, and whole spices together in a saucepan until the liquids dissolve. Once all dissolved, melt in the butter. Turn off the heat and leave the spices to infuse for 5 minutes. Remove the cloves and star anise to decorate the loaf at the end.",
+   "3": "In a bowl, stir together the rye flour, baking powder, salt, and ground spices. Gradually add the warm honey mixture and whisk or stir until the mixture is smooth. The result will be a batter that is quite liquid.",
+   "4": "Pour the batter into the loaf tin, 3/4 to the top. Bake for 40–50 minutes, until dark brown. The loaf should feel firm and springy in the centre; a skewer should come out clean or with a few moist crumbs.",
+   "5": "Leave in the tin for about 10 minutes to cool slightly before turning out on to a wire tray. Decorate with candied fruits and the leftover star anise."
   },
-  "culturalNotes": "Mexican green rice is a popular side dish in Mexican cuisine, often served with a variety of main dishes."
+  "culturalNotes": "Pain d'épices is a traditional French spice cake known for its warm, aromatic flavors."
  },
- "w-mx-036": {
-  "title": "Mole de Olla",
+ "w-fr-012": {
+  "title": "Pissaladière",
   "ingredients": {
-   "w-mx-036-i1": {
-    "name": "Oxtail",
-    "standardAmount": "1 ½ pound"
+   "w-fr-012-i1": {
+    "name": "olive oil",
+    "standardAmount": "4 tbsp + extra for the tray"
    },
-   "w-mx-036-i2": {
-    "name": "Beef shank",
-    "standardAmount": "1 ½ pound"
+   "w-fr-012-i2": {
+    "name": "onions",
+    "standardAmount": "1kg, halved and sliced as thinly as possible"
    },
-   "w-mx-036-i3": {
-    "name": "medium white onion",
-    "standardAmount": "½ medium"
+   "w-fr-012-i3": {
+    "name": "thyme",
+    "standardAmount": "small bunch + extra mini sprigs to serve"
    },
-   "w-mx-036-i4": {
-    "name": "garlic cloves",
-    "standardAmount": "3 cloves"
-   },
-   "w-mx-036-i5": {
+   "w-fr-012-i4": {
     "name": "bay leaves",
     "standardAmount": "2 leaves"
    },
-   "w-mx-036-i6": {
-    "name": "Ancho peppers",
-    "standardAmount": "2 peppers"
+   "w-fr-012-i5": {
+    "name": "anchovy fillets",
+    "standardAmount": "80g, drained and halved lengthways"
    },
-   "w-mx-036-i7": {
-    "name": "Pasilla Peppers",
-    "standardAmount": "3 peppers"
+   "w-fr-012-i6": {
+    "name": "black olives",
+    "standardAmount": "80g, small, dry, pitted"
    },
-   "w-mx-036-i8": {
-    "name": "garlic clove",
-    "standardAmount": "1 clove"
+   "w-fr-012-i7": {
+    "name": "parmesan",
+    "standardAmount": "20g, finely grated"
    },
-   "w-mx-036-i9": {
-    "name": "medium white onion",
-    "standardAmount": "¼ medium"
+   "w-fr-012-i8": {
+    "name": "cold unsalted butter",
+    "standardAmount": "200g"
    },
-   "w-mx-036-i10": {
-    "name": "medium size tomato",
-    "standardAmount": "1 medium"
+   "w-fr-012-i9": {
+    "name": "lemon juice",
+    "standardAmount": "1 tsp"
    },
-   "w-mx-036-i11": {
-    "name": "Epazote sprigs",
-    "standardAmount": "2 sprigs"
+   "w-fr-012-i10": {
+    "name": "strong white bread flour",
+    "standardAmount": "200g + extra for dusting"
    },
-   "w-mx-036-i12": {
-    "name": "Salt and pepper",
+   "w-fr-012-i11": {
+    "name": "salt",
+    "standardAmount": "1 tsp"
+   },
+   "w-fr-012-i12": {
+    "name": "ice-cold water",
+    "standardAmount": "125ml"
+   }
+  },
+  "instructions": {
+   "1": "To make the pastry, coarsely grate the butter into a bowl, tossing it with a spoonful of the flour as you go. Freeze for at least 30 mins, or chill for 1 hr until firm.",
+   "2": "Stir the lemon juice into 125ml ice-cold water. Tip the remaining flour and 1 tsp salt into a large bowl, then scatter in the frozen grated butter. Toss the butter and flour together using your fingertips. Don’t rub it in like you would for crumble – you want flakes and shards of butter running throughout the flour.",
+   "3": "Pour in two-thirds of the lemon water and use a cutlery knife to bring the mixture together. Drizzle in a little more water if it’s dry – the dough should be shaggy, but hold together when pressed.",
+   "4": "Tip the dough out onto a lightly floured work surface and bring together using your hands by gently kneading. Shape into a rough rectangle, then wrap and chill for 20 mins.",
+   "5": "Roll the pastry out into a rough 20 x 30cm rectangle, nudging the edges straight as you do. You’re aiming for a marbled dough with streaks of butter, not a smooth, uniform block. Cut the rectangle crosswise into three even, smaller rectangles, then neatly stack them on top of each other and roll out again to a 20 x 30cm rectangle. Cut and stack again, then wrap and chill for at least 30 mins.",
+   "6": "Heat the oil in a large, shallow, flameproof casserole dish or frying pan over a medium heat. Tip in the onions, season well and stir until glossy and starting to sizzle. Tie the thyme and bay together using kitchen string and drop into the pan. Cook the onions for 40-45 mins, stirring often. For the first 15-20 mins, they’ll look like they’re swimming in their own juices, but don’t worry – the liquid will bubble away. Once the onions start to turn golden and sticky, keep a close eye on them, stirring in the caramelised bits from the base. When the onions are deep golden, collapsed and jammy, remove the herb bundle, then leave the onions to cool fully.",
+   "7": "Lightly oil a baking tray. Roll out the pastry on a lightly floured surface into a rough 25 x 35cm rectangle, then carefully lift it onto the tray and trim the edges to neaten. Chill for 20 mins.",
+   "8": "Heat the oven to 220C/ 200C fan/gas 7. Spread the cooled onions over the pastry, leaving a thin border. Arrange the anchovies on top in a lattice-style pattern, then put the olives in the centre of the diamonds. Sprinkle over the parmesan and bake for 30 mins until the pastry is puffed up and deep golden at the edges and underneath, and the onions are bubbling and burnished.",
+   "9": "Scatter over some thyme, or put a mini sprig over each anchovy cross. Rest for at least 10 mins before cutting into squares. Once completely cool, will keep well wrapped and frozen for up to three months. Reheat from frozen in the oven before serving."
+  },
+  "culturalNotes": "Pissaladière is a traditional dish from the Provence region in southern France, known for its thin pastry topped with caramelized onions, anchovies, and black olives."
+ },
+ "w-fr-013": {
+  "title": "Ratatouille",
+  "ingredients": {
+   "w-fr-013-i1": {
+    "name": "olive oil",
+    "standardAmount": "1/3-1/4 cup"
+   },
+   "w-fr-013-i2": {
+    "name": "onion",
+    "standardAmount": "1 large, sliced"
+   },
+   "w-fr-013-i3": {
+    "name": "red bell pepper",
+    "standardAmount": "1, cut into 1-inch pieces"
+   },
+   "w-fr-013-i4": {
+    "name": "yellow bell pepper",
+    "standardAmount": "1, cut into 1-inch pieces"
+   },
+   "w-fr-013-i5": {
+    "name": "garlic",
+    "standardAmount": "6 cloves, sliced"
+   },
+   "w-fr-013-i6": {
+    "name": "zucchini",
+    "standardAmount": "1 1/2 lb, sliced into rounds"
+   },
+   "w-fr-013-i7": {
+    "name": "eggplant",
+    "standardAmount": "1 small, cubed"
+   },
+   "w-fr-013-i8": {
+    "name": "roma tomatoes",
+    "standardAmount": "4, chopped"
+   },
+   "w-fr-013-i9": {
+    "name": "rosemary",
+    "standardAmount": "1/4 tsp, freshly chopped"
+   },
+   "w-fr-013-i10": {
+    "name": "thyme",
+    "standardAmount": "1 tsp, freshly chopped"
+   },
+   "w-fr-013-i11": {
+    "name": "salt",
     "standardAmount": "to taste"
    },
-   "w-mx-036-i13": {
-    "name": "corn cobs",
-    "standardAmount": "2 cobs (each cut into 3 pieces)"
-   },
-   "w-mx-036-i14": {
-    "name": "chayote",
-    "standardAmount": "1 cut in quarters"
-   },
-   "w-mx-036-i15": {
-    "name": "carrot",
-    "standardAmount": "3 small or 1 large (cut into large pieces)"
-   },
-   "w-mx-036-i16": {
-    "name": "xoconostles",
-    "standardAmount": "3 (peeled, cut into thick slices)"
-   },
-   "w-mx-036-i17": {
-    "name": "potatoes",
-    "standardAmount": "2 small or 1 large (optional)"
-   },
-   "w-mx-036-i18": {
-    "name": "squashes",
-    "standardAmount": "2 small or 1 large (cut in quarters)"
-   },
-   "w-mx-036-i19": {
-    "name": "green beans",
-    "standardAmount": "6 oz"
-   },
-   "w-mx-036-i20": {
-    "name": "finely chopped white onion",
-    "standardAmount": "½ cup"
-   },
-   "w-mx-036-i21": {
-    "name": "finely chopped cilantro",
-    "standardAmount": "½ cup"
-   },
-   "w-mx-036-i22": {
-    "name": "Serrano peppers",
-    "standardAmount": "2 (thinly sliced or chopped)"
-   },
-   "w-mx-036-i23": {
-    "name": "lime wedges",
-    "standardAmount": "4-6 wedges"
-   },
-   "w-mx-036-i24": {
-    "name": "fresh epazote",
-    "standardAmount": "2 tablespoons (finely chopped)"
+   "w-fr-013-i12": {
+    "name": "pepper",
+    "standardAmount": "to taste"
    }
   },
   "instructions": {
-   "1": "Rinse the meat and pat dry thoroughly with a paper towel. In a large stockpot, place the meat, onion, garlic, and bay leaves. Cover with 8 cups of water. Bring to a boil, cover, and reduce heat to simmer gently. Use a slotted spoon to remove any foam that rises to the surface. The meat will take about 1 ½ to 2 hours to cook.",
-   "2": "While the meat is cooking, prepare the sauce. Fill a small pot with 2 cups of hot water and set aside. I like roasting the ingredients of the salsa since it gives a rustic flavor to the soup. Now, slightly roast the peppers in a hot griddle, turning once. Remember, this step takes only a few seconds if you leave the peppers longer on the hot griddle they will have a bitter taste. Place the roasted peppers in the pot with the hot water to soften them, at least 15 minutes.",
-   "3": "Roast the tomato, garlic, and onion on the hot griddle. The garlic will take less time to roast, so remove promptly. Remove its peel and place in your blender pitcher. Once the tomato and onion are roasted, place them into the blender as well. Once the peppers have softened, add them into the blender along with a cup of the soaking water. Proceed to puree until you have a very smooth sauce. Set aside.",
-   "4": "To cook the vegetables: In another medium size saucepan, add 3 cups of water and the pieces of corn to cook over medium-high heat. 8-10 minutes later, add the xoconostle, chayote, and carrots. About 3 minutes after that, add the potatoes (if using) and finally the squash and green beans to cook for 4 more minutes. Don’t worry if they still look uncooked after this time, they will finish cooking with the meat and sauce.",
-   "5": "Check your meat. If it is already cooked and tender, remove the garlic, onion, and bay leaf. Now, add the sauce and the Epazote sprigs, stir, and keep simmering for about 8 more minutes. Add the vegetables and stir well. Let it simmer for another 6 minutes to allow all the flavors to blend. You can pour it using a strainer if you want, personally, I don’t use a strainer with this soup since I like how the sauce gives the soup a thicker texture.",
-   "6": "To serve, ladle the soup in large bowls with some portions of meat, corn, carrots, chayote, xoconostle, squash, potato, and green beans. Garnish with chopped onion, cilantro, epazote, and lime juice.",
-   "7": "Serve with some warm corn tortillas. There you have it, a whole meal in a bowl!"
+   "1": "Heat a large pot or skillet until very hot.",
+   "2": "Add olive oil, sliced onions, and peppers. Cook until browned.",
+   "3": "Add garlic, zucchini, and eggplant. Cook until browned.",
+   "4": "Stir in tomatoes, rosemary, thyme, salt, and pepper.",
+   "5": "Serve the ratatouille hot or chilled."
   },
-  "culturalNotes": "Mole de Olla is a traditional Mexican soup rich in flavors, often served on special occasions and family gatherings."
+  "culturalNotes": "Ratatouille is a vegetable dish made from summer vegetables such as zucchini, eggplant, and bell peppers, and is popular in French cuisine."
  },
- "w-mx-046": {
-  "title": "Chile Relleno",
+ "w-fr-014": {
+  "title": "Salade Niçoise",
   "ingredients": {
-   "w-mx-046-i1": {
-    "name": "poblano peppers",
-    "standardAmount": "6 large"
+   "w-fr-014-i1": {
+    "name": "garlic",
+    "standardAmount": "1 clove"
    },
-   "w-mx-046-i2": {
-    "name": "Monterey Jack cheese",
-    "standardAmount": "8 ounces (cut into long strips or shredded)"
+   "w-fr-014-i2": {
+    "name": "kosher salt",
+    "standardAmount": "to taste"
    },
-   "w-mx-046-i3": {
-    "name": "oil",
-    "standardAmount": "4 cups (for frying)"
+   "w-fr-014-i3": {
+    "name": "olive oil",
+    "standardAmount": "1/3 cup"
    },
-   "w-mx-046-i4": {
+   "w-fr-014-i4": {
+    "name": "fresh lemon juice",
+    "standardAmount": "2 Tbsp"
+   },
+   "w-fr-014-i5": {
+    "name": "Dijon mustard",
+    "standardAmount": "1 tbsp"
+   },
+   "w-fr-014-i6": {
+    "name": "shallot",
+    "standardAmount": "1 (minced)"
+   },
+   "w-fr-014-i7": {
+    "name": "freshly ground black pepper",
+    "standardAmount": "to taste"
+   },
+   "w-fr-014-i8": {
+    "name": "small new potatoes",
+    "standardAmount": "1 lb (boiled)"
+   },
+   "w-fr-014-i9": {
+    "name": "haricot verts",
+    "standardAmount": "8 oz (blanched)"
+   },
+   "w-fr-014-i10": {
+    "name": "cherry tomatoes",
+    "standardAmount": "12 oz (halved)"
+   },
+   "w-fr-014-i11": {
+    "name": "black Niçoise olives",
+    "standardAmount": "1/2 cup (divided)"
+   },
+   "w-fr-014-i12": {
+    "name": "marinated artichoke hearts",
+    "standardAmount": "8 oz (divided)"
+   },
+   "w-fr-014-i13": {
+    "name": "anchovies",
+    "standardAmount": "8 (rinsed and drained)"
+   },
+   "w-fr-014-i14": {
+    "name": "hard-boiled eggs",
+    "standardAmount": "4 (halved lengthwise)"
+   },
+   "w-fr-014-i15": {
+    "name": "cucumber",
+    "standardAmount": "1 small (thinly sliced)"
+   },
+   "w-fr-014-i16": {
+    "name": "oil-packed tuna",
+    "standardAmount": "3 4 oz cans (drained)"
+   },
+   "w-fr-014-i17": {
+    "name": "red onion",
+    "standardAmount": "1/2 (sliced thinly)"
+   }
+  },
+  "instructions": {
+   "1": "Make the dressing: Mince the garlic on a cutting board and sprinkle heavily with salt. Using a knife, scrape the garlic and salt together to form a smooth paste. Transfer the paste to a bowl and whisk in the oil, lemon juice, mustard, shallot, salt, and pepper. Set aside.",
+   "2": "Make the salad: Arrange all ingredients in separate rows on a large serving platter. Drizzle the dressing over all ingredients and season with salt and pepper to taste."
+  },
+  "culturalNotes": "Salade Niçoise is a traditional dish from the city of Nice in southern France, known for its variety of vegetables and fish."
+ },
+ "w-vn-001": {
+  "title": "Bò Bía (Vietnamese Jicama & Sausage Spring Rolls)",
+  "ingredients": {
+   "w-vn-001-i1": {
+    "name": "dried shrimp",
+    "standardAmount": "1/2 cup"
+   },
+   "w-vn-001-i2": {
+    "name": "jicama",
+    "standardAmount": "1 large"
+   },
+   "w-vn-001-i3": {
+    "name": "carrot",
+    "standardAmount": "1 medium"
+   },
+   "w-vn-001-i4": {
+    "name": "shallots",
+    "standardAmount": "4 large"
+   },
+   "w-vn-001-i5": {
+    "name": "halal Chinese-style beef sausage",
+    "standardAmount": "4"
+   },
+   "w-vn-001-i6": {
     "name": "eggs",
-    "standardAmount": "3 large"
+    "standardAmount": "5 whole"
    },
-   "w-mx-046-i5": {
-    "name": "all-purpose flour",
-    "standardAmount": "½ cup"
+   "w-vn-001-i7": {
+    "name": "sea salt",
+    "standardAmount": "1/2 teaspoon"
    },
-   "w-mx-046-i6": {
-    "name": "fine salt",
+   "w-vn-001-i8": {
+    "name": "Thai basil",
+    "standardAmount": "1 small bunch"
+   },
+   "w-vn-001-i9": {
+    "name": "dried rice paper wrapper",
+    "standardAmount": "1 pack"
+   },
+   "w-vn-001-i10": {
+    "name": "vegetable oil",
+    "standardAmount": "3 tablespoons"
+   }
+  },
+  "instructions": {
+   "1": "Soak the dried shrimp in hot water for 10 minutes until softened, then drain.",
+   "2": "Peel the jicama and slice it into matchsticks. Peel the carrot and slice at a diagonal for more surface area then slice into matchsticks. Peel and thinly slice the shallots.",
+   "3": "Add about 1 tablespoon of vegetable oil to the skillet. Heat on high. Add sliced shallots and sauté until fragrant (about 20 seconds). Add dried shrimp. Pan fry for another 20 seconds. Add sliced jicama and carrots. Stir evenly and cook for about 15 minutes or until limp. Season with salt then transfer the mixture into a bowl and set aside.",
+   "4": "Add water to a large nonstick skillet and boil the halal Chinese-style beef sausage for about 5 minutes. Remove from water and once cooled, thinly slice at a diagonal and set aside.",
+   "5": "Add about a tablespoon of vegetable oil to the empty skillet and heat on medium-high. Use a pastry brush or tilt the skillet to spread the oil evenly all over the skillet, including the slides. Add half of the beaten eggs. Swirl it around to get a thin layer. Cook for about 30 seconds or until it is no longer runny. Slide the thin sheet of eggs onto a plate and set it aside. Repeat with another tablespoon of vegetable oil and the remaining half of the beaten eggs. Place the two egg sheets on top of each other. Roll them up then thinly slice them into ribbons. Set aside.",
+   "6": "Wet your rice paper quickly in water then transfer it to a large plate or a clean flat surface. Place a few basil leaves towards the bottom of the moistened rice paper. Next, add the jicama, carrot, and shrimp mixture. Add a few ribbons of egg then a few slices of halal Chinese-style beef sausage. Start rolling everything up from the bottom, tucking and rolling until you get halfway up on the rice paper. Fold in the sides then continue to roll up to seal.",
+   "7": "Serve with peanut sauce and enjoy."
+  },
+  "culturalNotes": "These Vietnamese spring rolls are also known as 'Bì cuốn' and are a popular dish in Vietnam, served as an appetizer or light meal."
+ },
+ "w-vn-002": {
+  "title": "Vietnamese Grilled Beef in Wild Betel Leaves (Bò Nướng Lá Lốt)",
+  "ingredients": {
+   "w-vn-002-i1": {
+    "name": "ground fatty beef",
+    "standardAmount": "12 oz"
+   },
+   "w-vn-002-i2": {
+    "name": "finely minced shallots",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-vn-002-i3": {
+    "name": "finely minced garlic",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-vn-002-i4": {
+    "name": "ground black pepper",
+    "standardAmount": "¼ teaspoon"
+   },
+   "w-vn-002-i5": {
+    "name": "sugar",
     "standardAmount": "½ teaspoon"
    },
-   "w-mx-046-i7": {
-    "name": "roma tomatoes",
-    "standardAmount": "6 (quartered)"
+   "w-vn-002-i6": {
+    "name": "fish sauce",
+    "standardAmount": "2 teaspoons"
    },
-   "w-mx-046-i8": {
-    "name": "onion",
-    "standardAmount": "½ small (halved)"
+   "w-vn-002-i7": {
+    "name": "oyster sauce",
+    "standardAmount": "1 tablespoon"
    },
-   "w-mx-046-i9": {
-    "name": "garlic",
-    "standardAmount": "3 cloves"
+   "w-vn-002-i8": {
+    "name": "chicken bouillon powder",
+    "standardAmount": "½ teaspoon"
    },
-   "w-mx-046-i10": {
-    "name": "jalapeño pepper",
-    "standardAmount": "1 (stem and seeds removed, optional)"
+   "w-vn-002-i9": {
+    "name": "MSG (optional)",
+    "standardAmount": "¼ teaspoon"
    },
-   "w-mx-046-i11": {
-    "name": "cilantro",
-    "standardAmount": "5 sprigs"
-   },
-   "w-mx-046-i12": {
-    "name": "kosher salt",
-    "standardAmount": "1 teaspoon (plus more to taste)"
-   },
-   "w-mx-046-i13": {
-    "name": "olive oil",
-    "standardAmount": "1 teaspoon"
+   "w-vn-002-i10": {
+    "name": "wild betel leaves",
+    "standardAmount": "25-30 leaves"
    }
   },
   "instructions": {
-   "1": "Roast the poblano peppers over medium heat until the skin is blackened. Place them in a sealed plastic bag for 10 minutes to cool.",
-   "2": "Peel the peppers and cut off the stem. Gently open the peppers and remove the seeds and inner membrane.",
-   "3": "Stuff the peppers with Monterey Jack cheese. Set the stuffed peppers aside.",
-   "4": "In a bowl, beat the eggs with salt. In another bowl, place the flour.",
-   "5": "Dip the stuffed peppers in the flour, then in the beaten eggs.",
-   "6": "Heat the oil in a deep skillet over medium heat. Fry the peppers until golden brown on all sides.",
-   "7": "Make the tomato sauce by blending the tomatoes, onion, garlic, jalapeño, cilantro, salt, and olive oil in a blender until smooth.",
-   "8": "Serve the stuffed peppers with the tomato sauce on the side."
+   "1": "Rinse the leaves thoroughly and pat dry with paper towels. Leave a small piece of stem intact to secure the rolls.",
+   "2": "In a large bowl, mix together ground beef with shallots, garlic, black pepper, sugar, fish sauce, oyster sauce, chicken bouillon powder, and MSG (optional).",
+   "3": "Lay a leaf flat with the glossy side face down and the narrow end at the bottom. Place about 2 tablespoons of filling in the center of the leaf, then fold the narrow end over the filling and roll it up carefully. Pierce the stem into the roll to prevent it from unraveling. If the stem is too flimsy, pierce a hole in the roll with a small knife and insert the stem. Place the roll flat with the stem-side down. Repeat the process with the remaining leaves and beef mixture.",
+   "4": "Grill the rolls to get a smokey flavor or pan-fry them with a bit of vegetable oil for about 2 minutes per side.",
+   "5": "Serve the rolls in a bowl with thin rice noodles, chopped lettuce, and assorted Vietnamese herbs. Top with roasted peanuts and a Vietnamese fish sauce dipping sauce. You can also serve the rolls with rice paper on the side for a more self-assembly dish."
   },
-  "culturalNotes": "Chile relleno is a traditional Mexican dish often served on special occasions."
+  "culturalNotes": "Grilled beef in betel leaves is a traditional Vietnamese dish often served on special occasions."
  },
- "w-mx-048": {
-  "title": "Mexican Cinnamon Tea",
+ "w-vn-003": {
+  "title": "Pandan Waffles (Bánh Kếp Lá Dứa)",
   "ingredients": {
-   "w-mx-048-i1": {
+   "w-vn-003-i1": {
+    "name": "butter",
+    "standardAmount": "2 Tbsp"
+   },
+   "w-vn-003-i2": {
+    "name": "rice flour",
+    "standardAmount": "1 1/2 cups"
+   },
+   "w-vn-003-i3": {
+    "name": "tapioca starch",
+    "standardAmount": "1/2 cup"
+   },
+   "w-vn-003-i4": {
+    "name": "all-purpose flour",
+    "standardAmount": "1/2 cup"
+   },
+   "w-vn-003-i5": {
+    "name": "baking powder",
+    "standardAmount": "1 Tbsp"
+   },
+   "w-vn-003-i6": {
+    "name": "salt",
+    "standardAmount": "1/4 tsp"
+   },
+   "w-vn-003-i7": {
+    "name": "eggs",
+    "standardAmount": "2 large"
+   },
+   "w-vn-003-i8": {
+    "name": "sugar",
+    "standardAmount": "1/2 cup"
+   },
+   "w-vn-003-i9": {
+    "name": "coconut milk",
+    "standardAmount": "1 1/2 cups"
+   },
+   "w-vn-003-i10": {
+    "name": "pandan paste",
+    "standardAmount": "3/4 tsp"
+   }
+  },
+  "instructions": {
+   "1": "Melt the butter in the microwave on Low power for 30-45 seconds. Stir to combine and allow to cool.",
+   "2": "In a large measuring cup or mixing bowl, sift together the rice flour, tapioca starch, all-purpose flour, baking powder, and salt.",
+   "3": "In a large mixing bowl, whisk the eggs and sugar until mostly combined. Add the coconut milk, melted butter, and pandan paste. Whisk together until well combined.",
+   "4": "Add half of the dry ingredients to the wet ingredients and combine until mostly incorporated. Add the remaining dry ingredients and continue whisking gently, breaking up the bigger lumps. Let the batter rest for 15 minutes.",
+   "5": "Set the waffle maker to the 'Max' or highest setting and heat until hot. Pour about 2/3 cup of batter into the waffle maker. Using a spatula or spoon, spread the batter evenly over the peaks of the waffle maker. Close the lid and cook for 4-5 minutes until golden brown.",
+   "6": "Use a bamboo skewer to lift a section of the waffle and then use tongs to remove and transfer to a wire cooling rack.",
+   "7": "Serve the waffles hot."
+  },
+  "culturalNotes": "Pandan waffles (Bánh Kếp Lá Dứa) are a traditional Vietnamese dessert known for their aromatic pandan and coconut milk flavors."
+ },
+ "w-vn-004": {
+  "title": "Bánh pía",
+  "ingredients": {
+   "w-vn-004-i1": {
+    "name": "Wheat flour",
+    "standardAmount": "500 grams"
+   },
+   "w-vn-004-i2": {
+    "name": "Sugar",
+    "standardAmount": "250 grams"
+   },
+   "w-vn-004-i3": {
+    "name": "Vegetable oil",
+    "standardAmount": "100 ml"
+   },
+   "w-vn-004-i4": {
+    "name": "Eggs",
+    "standardAmount": "2"
+   },
+   "w-vn-004-i5": {
+    "name": "Milk",
+    "standardAmount": "100 ml"
+   },
+   "w-vn-004-i6": {
+    "name": "Salt",
+    "standardAmount": "1/2 teaspoon"
+   },
+   "w-vn-004-i7": {
+    "name": "Pudding filling",
+    "standardAmount": "400 grams"
+   }
+  },
+  "instructions": {
+   "1": "Mix the flour, sugar, and salt in a large bowl.",
+   "2": "Add the eggs, milk, and vegetable oil and mix the ingredients well until the dough is smooth.",
+   "3": "Cover the dough and let it rest for 30 minutes.",
+   "4": "Divide the dough into 12 equal pieces and shape each piece into a ball.",
+   "5": "Add the filling to the center of each ball and wrap it with the dough.",
+   "6": "Place the ball in Bánh pía molds and put them in a preheated oven at 180 degrees Celsius.",
+   "7": "Bake for 20-25 minutes until golden brown."
+  },
+  "culturalNotes": "Bánh pía is a traditional Vietnamese pastry, often served on special occasions."
+ },
+ "w-vn-005": {
+  "title": "Vietnamese Rice Paper Salad (Bánh Tráng Trộn)",
+  "ingredients": {
+   "w-vn-005-i1": {
+    "name": "tamarind pulp",
+    "standardAmount": "100g"
+   },
+   "w-vn-005-i2": {
+    "name": "vegetable oil",
+    "standardAmount": "4 tablespoons"
+   },
+   "w-vn-005-i3": {
+    "name": "garlic cloves",
+    "standardAmount": "6 cloves"
+   },
+   "w-vn-005-i4": {
+    "name": "fish sauce",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-vn-005-i5": {
+    "name": "granulated sugar",
+    "standardAmount": "3 tablespoons"
+   },
+   "w-vn-005-i6": {
+    "name": "MSG (optional)",
+    "standardAmount": "1/2 teaspoon"
+   },
+   "w-vn-005-i7": {
+    "name": "red pepper flakes (optional)",
+    "standardAmount": "1 tablespoon"
+   },
+   "w-vn-005-i8": {
+    "name": "dried squid",
+    "standardAmount": "200g"
+   },
+   "w-vn-005-i9": {
+    "name": "dried shrimp",
+    "standardAmount": "100g"
+   },
+   "w-vn-005-i10": {
+    "name": "beef jerky",
+    "standardAmount": "100g"
+   },
+   "w-vn-005-i11": {
+    "name": "dried rice paper",
+    "standardAmount": "6 oz"
+   },
+   "w-vn-005-i12": {
+    "name": "Vietnamese chili oil",
+    "standardAmount": "to taste"
+   },
+   "w-vn-005-i13": {
+    "name": "Vietnamese scallion oil",
+    "standardAmount": "to taste"
+   },
+   "w-vn-005-i14": {
+    "name": "green mango",
+    "standardAmount": "1 piece"
+   },
+   "w-vn-005-i15": {
+    "name": "hard boiled quail eggs",
+    "standardAmount": "10 eggs"
+   },
+   "w-vn-005-i16": {
+    "name": "fried shallots",
+    "standardAmount": "to taste"
+   },
+   "w-vn-005-i17": {
+    "name": "unsalted roasted peanuts",
+    "standardAmount": "1/4 cup"
+   },
+   "w-vn-005-i18": {
+    "name": "Vietnamese coriander leaves",
+    "standardAmount": "2 cups"
+   }
+  },
+  "instructions": {
+   "1": "If using tamarind pulp, soak it in 2 cups of hot water for 15 minutes, then strain through a fine sieve and discard the pulp.",
+   "2": "In a small saucepan, heat the oil over medium-high heat. Add the garlic and sauté until fragrant (about 15 seconds). Add the tamarind, fish sauce, sugar, MSG, and red pepper flakes. Mix until combined. Cook on low simmer for 1 minute. Pour into a small bowl and set aside.",
+   "3": "In a medium skillet, heat the vegetable oil over medium-high heat. Add the dried squid to the hot oil and fry for 30 seconds. The squid will curl, so use chopsticks or a wooden spoon to push down the sides to prevent curling and ensure even frying. Flip and fry the other side for another 30 seconds. Remove from the oil. Once cooled, hand shred the squid into long strips and set aside.",
+   "4": "In the same oil, add the dried shrimp. Pan fry for about 1 minute. Remove from the oil and set aside.",
+   "5": "For the beef jerky, hand shred it into thin strips and set aside.",
+   "6": "Place the rice paper in a large bowl. Add the tamarind sauce, chili oil, and scallion oil. Toss the rice paper evenly so it soaks up all the sauces. It will appear dry at first, but it will soften.",
+   "7": "Add the proteins (beef jerky, dried squid, and dried shrimp), green mango, and hard-boiled quail eggs. Give it a quick mix.",
+   "8": "Garnish with fried shallots, peanuts, and Vietnamese coriander."
+  },
+  "culturalNotes": "Vietnamese Rice Paper Salad (Bánh Tráng Trộn) is a popular dish in Vietnam, served as an appetizer or a light meal."
+ },
+ "w-vn-006": {
+  "title": "Chè Trôi Nước (Vietnamese Glutinous Rice Balls in Ginger Syrup)",
+  "ingredients": {
+   "w-vn-006-i1": {
+    "name": "glutinous rice flour",
+    "standardAmount": "16 oz"
+   },
+   "w-vn-006-i2": {
+    "name": "hot water",
+    "standardAmount": "1 3/4 cups"
+   },
+   "w-vn-006-i3": {
+    "name": "split mung beans",
+    "standardAmount": "3/4 cup"
+   },
+   "w-vn-006-i4": {
+    "name": "sugar",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-vn-006-i5": {
+    "name": "salt",
+    "standardAmount": "1 teaspoon"
+   },
+   "w-vn-006-i6": {
     "name": "water",
     "standardAmount": "6 cups"
    },
-   "w-mx-048-i2": {
-    "name": "Mexican cinnamon sticks",
-    "standardAmount": "2 sticks"
+   "w-vn-006-i7": {
+    "name": "fresh ginger",
+    "standardAmount": "4-inch"
    },
-   "w-mx-048-i3": {
-    "name": "honey",
-    "standardAmount": "to taste"
-   }
-  },
-  "instructions": {
-   "1": "Place the water and cinnamon in a medium-sized saucepan and bring to a boil.",
-   "2": "Let it boil for 3-5 minutes, then remove from heat.",
-   "3": "Let it steep for an additional 30 minutes or to taste based on desired strength.",
-   "4": "Add honey to taste.",
-   "5": "Serve warm."
-  },
-  "culturalNotes": "Mexican cinnamon tea is a traditional drink that is very popular in Mexico, especially during holidays and special occasions."
- },
- "w-mx-049": {
-  "title": "Fish Fillet with Garlic Sauce",
-  "ingredients": {
-   "w-mx-049-i1": {
-    "name": "Tilapia or other fish fillets",
-    "standardAmount": "1.5 lbs"
+   "w-vn-006-i8": {
+    "name": "palm sugar",
+    "standardAmount": "10 oz"
    },
-   "w-mx-049-i2": {
-    "name": "Lime",
-    "standardAmount": "1"
+   "w-vn-006-i9": {
+    "name": "coconut milk",
+    "standardAmount": "optional"
    },
-   "w-mx-049-i3": {
-    "name": "Salt and pepper",
-    "standardAmount": "to taste"
-   },
-   "w-mx-049-i4": {
-    "name": "Vegetable oil (or a mix of half olive oil and half vegetable oil)",
+   "w-vn-006-i10": {
+    "name": "roasted sesame seeds",
     "standardAmount": "1/4 cup"
-   },
-   "w-mx-049-i5": {
-    "name": "Garlic cloves",
-    "standardAmount": "6 cloves (thinly sliced)"
-   },
-   "w-mx-049-i6": {
-    "name": "Parsley",
-    "standardAmount": "3 tablespoons (finely chopped)"
-   },
-   "w-mx-049-i7": {
-    "name": "Flour (optional)",
-    "standardAmount": "2 tablespoons"
    }
   },
   "instructions": {
-   "1": "Season the fish with salt, pepper, and lime juice. Set aside while you prepare the rest of the ingredients.",
-   "2": "Heat the oil in a large frying pan over low heat. Once hot, fry the garlic slices until they are golden. Make sure to remove them promptly once they are lightly golden; if you leave them longer, they will get a bitter taste.",
-   "3": "If using the flour, dust the fillets with the flour lightly. Then, turn the heat to medium-high on the frying pan where you cooked the garlic. Once hot, add the fish and cook on both sides. The cooking time will depend on the fish’s thickness. It will be about 2-3 minutes per side for those fillets about 1/3 inch thick, and about 5-7 minutes for thicker fillets.",
-   "4": "Remove the fish from the frying pan and place it on a cooling rack with paper towel underneath to absorb any excess fat.",
-   "5": "Serve the fish garnished with the chopped parsley and golden garlic slices. (And if you add a little dab of butter, oh heavens!)"
+   "1": "In a large mixing bowl, combine glutinous rice flour and hot water. Mix and knead until you get a smooth dough. Do not add more water. Cover and rest for 30 minutes.",
+   "2": "Once the dough has rested, divide the dough mixture into 28 balls, about 1 inch in diameter.",
+   "3": "Rinse the peeled mung beans until the water runs clear. In a medium pan, add the rinsed mung beans and enough water to cover them by 1 inch. Cook over medium heat until it boils, then reduce the heat and continue cooking until the beans are softened but still maintain their shape (about 15 minutes). Monitor the pot carefully and reduce the heat as needed to prevent it from boiling over. Drain the beans and return them to the stove with the heat off to evaporate any residual moisture. Add salt and sugar. Then use a large spoon to smash and mix them into a rough paste. It doesn’t need to be smooth.",
+   "4": "Roll the filling into small balls, about ½ inch in diameter (about 28 pieces). If you find that the mixture is too soft to handle, chill it in the fridge.",
+   "5": "Flatten the mochi wrapper ball into a thick disc. Place a mung bean filling ball in the center. Fold the dough over to close, gently encasing the filling by rolling it back and forth in your palm into a smooth ball. Be careful not to let the mung bean filling spill out of the wrapper, as cooking it will cause the filling to leak and the ball to fall apart. Use any leftover dough to form small pearls without filling. Once you’re done, cover and set aside to prevent drying.",
+   "6": "In a large pot, boil water with the palm sugar until sugar dissolves. Use a spoon to peel the ginger and cut into matchstick-sized strips. Gently drop the dough balls into the syrup. Simmer gently on medium-low heat until they float (about 20 minutes).",
+   "7": "Make the coconut milk sauce if desired.",
+   "8": "Scoop a few cooked rice balls with syrup into a bowl. Drizzle with the coconut sauce. Top with roasted sesame seeds. Enjoy it warm or room temperature."
   },
-  "culturalNotes": "This dish is one of the popular dishes in Mexican cuisine, often served as a main course at family gatherings."
+  "culturalNotes": "Chè Trôi Nước is a traditional Vietnamese dessert usually served on special occasions and celebrations."
  },
- "w-mx-050": {
-  "title": "Green Chile and Cheese Quesadilla",
+ "w-vn-007": {
+  "title": "Grass Jelly (Thạch Sương Sáo)",
   "ingredients": {
-   "w-mx-050-i1": {
-    "name": "flour tortillas",
-    "standardAmount": "4 (10-inch) flour tortillas"
+   "w-vn-007-i1": {
+    "name": "grass jelly powder",
+    "standardAmount": "1.8 oz"
    },
-   "w-mx-050-i2": {
-    "name": "cheddar or pepper jack cheese",
-    "standardAmount": "1 cup (shredded)"
+   "w-vn-007-i2": {
+    "name": "sugar",
+    "standardAmount": "1/3 cup"
    },
-   "w-mx-050-i3": {
-    "name": "roasted Poblano chile peppers",
-    "standardAmount": "2 peppers (diced)"
-   },
-   "w-mx-050-i4": {
-    "name": "salsa (for garnish)",
-    "standardAmount": "to taste"
-   },
-   "w-mx-050-i5": {
-    "name": "guacamole (for garnish)",
-    "standardAmount": "to taste"
+   "w-vn-007-i3": {
+    "name": "water",
+    "standardAmount": "4 cups (divided)"
    }
   },
   "instructions": {
-   "1": "Preheat a comal for 1 minute over medium-low heat.",
-   "2": "Warm tortillas for 1 minute on one side, flip and sprinkle some of the cheese on one of the tortillas, add chile, and top with another tortilla and press gently with a spatula.",
-   "3": "Flip occasionally until quesadillas are golden brown on each side and cheese has melted.",
-   "4": "Repeat with remaining tortillas and ingredients.",
-   "5": "Top them with salsa and guacamole, if desired."
+   "1": "Transfer the grass jelly powder into a medium saucepan. Add the sugar and 2 cups of water. Stir together until the powder dissolves.",
+   "2": "Add the remaining 2 cups of water and mix well.",
+   "3": "Let the mixture rest for 10 minutes.",
+   "4": "Heat the mixture over medium heat. Use a spatula to stir the mixture, scraping the bottom of the pan where the powder settles.",
+   "5": "After 3-4 minutes, the mixture will thicken and become lumpy. Use a whisk to quickly stir until the mixture is smooth. Continue stirring until the mixture comes to a gentle boil. Turn off the heat and continue stirring for 1 minute to ensure the mixture is smooth and free of lumps.",
+   "6": "Transfer the grass jelly mixture to a heat-safe dish or bowl. Pop any bubbles with a toothpick or skim with a spoon.",
+   "7": "Allow the mixture to cool at room temperature for 1-1.5 hours.",
+   "8": "Transfer the dish to the refrigerator and chill for at least 2 hours.",
+   "9": "To remove the jelly, invert the dish onto a large cutting board. Cut the grass jelly into cubes.",
+   "10": "To serve, add some crushed ice to a dessert bowl. Add the grass jelly cubes. Sprinkle the jelly with a bit of sugar.",
+   "11": "You can also use a wavy knife to cut the jelly into smaller pieces and add it to your favorite icy beverage.",
+   "12": "Store any remaining grass jelly in the refrigerator for up to 1 week."
   },
-  "culturalNotes": "Quesadilla is a popular dish in Mexico, served as a snack or main meal."
+  "culturalNotes": "Grass jelly is a traditional Vietnamese dessert, often served on hot days as a refreshing drink."
  }
 }
