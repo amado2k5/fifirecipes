@@ -1,226 +1,544 @@
 {
-"w-mx-038": {
-  "title": "Licuado de Nopal (Smoothie ya Kaktasi)",
+"w-fr-001": {
+  "title": "Bouillabaisse",
   "ingredients": {
-    "w-mx-038-i1": {"name": "nopal (majani ya kaktasi)", "standardAmount": "½ kikombe"},
-    "w-mx-038-i2": {"name": "tango", "standardAmount": "½ (iliyomenywa na kukatwa)"},
-    "w-mx-038-i3": {"name": "ndimu", "standardAmount": "1 (iliyokamuliwa)"},
-    "w-mx-038-i4": {"name": "maji", "standardAmount": "1 kikombe"},
-    "w-mx-038-i5": {"name": "barafu iliyopondwa (hiari)", "standardAmount": "kadiri unavyopenda"}
+    "w-fr-001-i1": {"name": "Samaki wa nge", "standardAmount": "g 660"},
+    "w-fr-001-i2": {"name": "Gurnard nyekundu", "standardAmount": "g 660"},
+    "w-fr-001-i3": {"name": "Mullet nyekundu", "standardAmount": "g 660"},
+    "w-fr-001-i4": {"name": "Mkunga", "standardAmount": "g 660"},
+    "w-fr-001-i5": {"name": "Samaki monk", "standardAmount": "g 660"},
+    "w-fr-001-i6": {"name": "Samaki wa mwamba", "standardAmount": "g 660"},
+    "w-fr-001-i7": {"name": "Pweza", "standardAmount": "1 hai (si lazima)"},
+    "w-fr-001-i8": {"name": "Mianzi ya bahari", "standardAmount": "10"},
+    "w-fr-001-i9": {"name": "Viazi", "standardAmount": "kg 1"},
+    "w-fr-001-i10": {"name": "Kitunguu saumu", "standardAmount": "vipande 7"},
+    "w-fr-001-i11": {"name": "Kitunguu", "standardAmount": "3"},
+    "w-fr-001-i12": {"name": "Nyanya", "standardAmount": "5 zilizoiva"},
+    "w-fr-001-i13": {"name": "Mafuta ya mizeituni", "standardAmount": "ml 240"},
+    "w-fr-001-i14": {"name": "Bouquet garni", "standardAmount": "kichoche 1"},
+    "w-fr-001-i15": {"name": "Fennel", "standardAmount": "kijiko 1"},
+    "w-fr-001-i16": {"name": "Zafarani", "standardAmount": "nyuzi 8"},
+    "w-fr-001-i17": {"name": "Mkate wa vijijini", "standardAmount": "vipande 10"},
+    "w-fr-001-i18": {"name": "Chumvi", "standardAmount": "kulingana na ladha"},
+    "w-fr-001-i19": {"name": "Pilipili cayenne", "standardAmount": "kulingana na ladha"}
   },
   "instructions": {
-    "1": "Hifadhi nopal iliyokatwa nyembamba kwenye mifuko midogo kwenye friza.",
-    "2": "Ili kutengeneza smoothie moja, tumia nusu tu ya mfuko wa nopal.",
-    "3": "Weka viungo vyote kwenye blender na uchanganye hadi laini."
+    "1": "Safisha samaki na ukate vipande vikubwa vyenye mifupa.",
+    "2": "Pasha mafuta ya mizeituni katika sufuria kubwa na ya kina.",
+    "3": "Weka kitunguu, vipande 6 vya saumu vilivyochujwa, pweza na nyanya, kaanga kwa moto mdogo dakika 5.",
+    "4": "Weka vipande vikubwa vya samaki kwanza, funika kwa maji yanayochemka, ongeza chumvi, pilipili, fennel, bouquet garni na zafarani, chemsha polepole.",
+    "5": "Tengeneza rouille: pondesa saumu kwenye kinu, ongeza zafarani na kini cha yai, piga kwa mafuta ya mizeituni kidogo kidogo hadi iwe mayonezi.",
+    "6": "Chemsha viazi kwa maji ya chumvi dakika 15-20. Fungua mianzi ya bahari kwa mkasi na uondoe nyama kwa kijiko.",
+    "7": "Panga samaki kwenye sahani kubwa. Changanya nyama ya mianzi katika supu.",
+    "8": "Sugua mkate kwa saumu na upake rouille. Angalau vipande 2 kwa kila bakuli.",
+    "9": "Ondoa samaki na viazi kutoka supuni, panga kwenye sahani tofauti.",
+    "10": "Mimina supu moto juu ya mkate wa rouille. Toa samaki na viazi tofauti."
   },
-  "culturalNotes": "Nopales ni majani ya kaktasi yanayotumika sana katika chakula cha Kimexiko — ni vyeo vya fiber na vitamini."
+  "culturalNotes": "Bouillabaisse ni chakula cha jadi cha Marseille, maarufu kwa aina za samaki na vyakula vya bahari."
 },
-"w-mx-041": {
-  "title": "Pastel Azteca",
+"w-fr-002": {
+  "title": "Kalamari waliokaangwa na tzatziki",
   "ingredients": {
-    "w-mx-041-i1": {"name": "mafuta ya mizeituni", "standardAmount": "1 kijiko kikubwa + ⅓ kikombe"},
-    "w-mx-041-i2": {"name": "tomatillos", "standardAmount": "450 g"},
-    "w-mx-041-i3": {"name": "kitunguu cha njano", "standardAmount": "½ kikatwa + ½ vipande"},
-    "w-mx-041-i4": {"name": "jalapeños", "standardAmount": "2"},
-    "w-mx-041-i5": {"name": "kitunguu saumu", "standardAmount": "4"},
-    "w-mx-041-i6": {"name": "mchuzi wa mboga", "standardAmount": "1 kikombe"},
-    "w-mx-041-i7": {"name": "juisi ya ndimu", "standardAmount": "2 vijiko vikubwa"},
-    "w-mx-041-i8": {"name": "chumvi ya kosher", "standardAmount": "2 vijiko vidogo (kimegawiwa)"},
-    "w-mx-041-i9": {"name": "mahindi ya njano ya makopo", "standardAmount": "kopo 1 la 425 g"},
-    "w-mx-041-i10": {"name": "poda ya kitunguu saumu", "standardAmount": "½ kijiko kidogo"},
-    "w-mx-041-i11": {"name": "poda ya kitunguu", "standardAmount": "½ kijiko kidogo"},
-    "w-mx-041-i12": {"name": "jeera iliyosagwa", "standardAmount": "¼ kijiko kidogo"},
-    "w-mx-041-i13": {"name": "pilipili nyeusi", "standardAmount": "¼ kijiko kidogo"},
-    "w-mx-041-i14": {"name": "kuku uliosagwa", "standardAmount": "3 vikombe"},
-    "w-mx-041-i15": {"name": "pilipili poblano", "standardAmount": "6"},
-    "w-mx-041-i16": {"name": "mafuta ya mboga", "standardAmount": "⅓ kikombe"},
-    "w-mx-041-i17": {"name": "tortillas za mahindi", "standardAmount": "21"},
-    "w-mx-041-i18": {"name": "jibini ya quesadilla", "standardAmount": "2½ vikombe"},
-    "w-mx-041-i19": {"name": "jibini Monterey Jack", "standardAmount": "2½ vikombe"},
-    "w-mx-041-i20": {"name": "crema ya Kimexiko", "standardAmount": "¾ kikombe"}
+    "w-fr-002-i1": {"name": "Kitunguu saumu", "standardAmount": "vipande 2 vidogo (vimekatwa)"},
+    "w-fr-002-i2": {"name": "Mafuta ya mizeituni", "standardAmount": "1 kijiko kikubwa"},
+    "w-fr-002-i3": {"name": "Tango", "standardAmount": "1 kidogo"},
+    "w-fr-002-i4": {"name": "Mtindi", "standardAmount": "g 250"},
+    "w-fr-002-i5": {"name": "Pudina kavu", "standardAmount": "1 kijiko cha chai"},
+    "w-fr-002-i6": {"name": "Juisi ya ndimu", "standardAmount": "1 kijiko cha chai"},
+    "w-fr-002-i7": {"name": "Chumvi na pilipili", "standardAmount": "kulingana na ladha"},
+    "w-fr-002-i8": {"name": "Kalamari", "standardAmount": "g 450"},
+    "w-fr-002-i9": {"name": "Unga", "standardAmount": "bakuli kubwa 1"},
+    "w-fr-002-i10": {"name": "Mafuta ya kukaanga", "standardAmount": "sm 2,5 kwenye kikaango"},
+    "w-fr-002-i11": {"name": "Juisi ya ndimu mpya", "standardAmount": "kulingana na ladha"},
+    "w-fr-002-i12": {"name": "Chumvi, pilipili, oregano kavu", "standardAmount": "kulingana na ladha"}
   },
   "instructions": {
-    "1": "Fanya salsa verde: pasha kijiko 1 cha mafuta ya mizeituni kwenye sufuria kubwa. Ongeza tomatillos, kitunguu, jalapeños, na kitunguu saumu. Pika dakika 10 ukikoroga mara kwa mara.",
-    "2": "Hamisha vyote kwenye blender na umimine mchuzi wa mboga, chumvi, na juisi ya ndimu. Changanya hadi laini na uweke kando.",
-    "3": "Fanya kijazo cha kuku na mahindi: pasha kijiko 1 cha mafuta kwenye sufuria ile ile. Ongeza mahindi, kitunguu, chumvi, poda ya kitunguu saumu, poda ya kitunguu, jeera, na pilipili nyeusi. Pika dakika 5 hadi vitunguu vilainishe. Ondoa motoni, ongeza kuku na salsa verde, changanya na uachie kupoa.",
-    "4": "Oka pilipili poblano: wakati mchanganyiko unapooa, panga poblanos kwenye kikaango na uziokwe dakika 5 kila upande hadi ngozi ziwe nyeusi.",
-    "5": "Funika kikaango kwa foli ya alumini kushikilia joto na uache ngozi zilainishe dakika 5.",
-    "6": "Menya ngozi kwa kisu cha siagi au mikono. Fanya mkato wa wima katikati na utoe mbegu. Kata poblanos vipande na uweke kando.",
-    "7": "Pasha oveni hadi 175°C.",
-    "8": "Andaa tortillas: pasha ⅓ kikombe cha mafuta kwenye kikaango. Kaanga kila tortilla sekunde 10-15 kila upande. Chuja kwenye taulo za karatasi.",
-    "9": "Changanya jibini kwenye bakuli kubwa.",
-    "10": "Jaza: kwenye sahani ya kuoka ya 23x33 cm, weka tabaka ya tortillas (3 katikati, 2 kila mwisho). Paka ¼ kikombe cha crema juu, kisha ongeza ⅓ ya mchanganyiko wa kuku, ⅓ ya poblanos, na ⅓ ya jibini. Rudia kwa tabaka 2 zaidi. Oka hadi jibini iyeyuke."
+    "1": "Changanya mafuta ya mizeituni na saumu katika bakuli ya kati.",
+    "2": "Kata tango mwembamba, nyunyiza chumvi na uache yamwagike angalau dakika 15.",
+    "3": "Changanya mtindi, tango, pudina, juisi ya ndimu, chumvi na pilipili kwenye mafuta ya saumu. Ikiwa ni mepesi, ongeza mtindi.",
+    "4": "Safisha kalamari na ukate miili kuwa pete za sm 2,5 (wadogo wanaweza kubaki wazima).",
+    "5": "Anda bakuli la unga wenye chumvi na pilipili.",
+    "6": "Pasha mafuta kwa moto mkubwa.",
+    "7": "Funika kalamari kwa unga ndani na nje.",
+    "8": "Kaanga kwa vikundi vidogo.",
+    "9": "Wadogo takriban dakika 1, wakubwa dakika moja zaidi.",
+    "10": "Acha kwenye taulo na utoe mara moja na tzatziki."
   },
-  "culturalNotes": "Pastel Azteca ni chakula cha jadi cha Kimexiko chenye tabaka za tortillas, kijazo, na jibini."
+  "culturalNotes": "Kalamari na tzatziki ni saladi ya Mediterania inayopendwa hasa Ugiriki na Kupro."
 },
-"w-mx-042": {
-  "title": "Picadillo ya Kimexiko",
+"w-fr-003": {
+  "title": "Calisson",
   "ingredients": {
-    "w-mx-042-i1": {"name": "nyama ya ng'ombe iliyosagwa ya mafuta kidogo", "standardAmount": "900 g"},
-    "w-mx-042-i2": {"name": "viazi", "standardAmount": "2 vya kati"},
-    "w-mx-042-i3": {"name": "karoti", "standardAmount": "2 za kati"},
-    "w-mx-042-i4": {"name": "njegere", "standardAmount": "1 kikombe (za friza)"},
-    "w-mx-042-i5": {"name": "zabibu", "standardAmount": "½ kikombe"},
-    "w-mx-042-i6": {"name": "mchuzi wa nyanya", "standardAmount": "1 kikombe"},
-    "w-mx-042-i7": {"name": "chumvi", "standardAmount": "1 kijiko kidogo"},
-    "w-mx-042-i8": {"name": "pilipili nyeusi", "standardAmount": "½ kijiko kidogo"},
-    "w-mx-042-i9": {"name": "jeera iliyosagwa", "standardAmount": "¼ kijiko kidogo (hiari)"},
-    "w-mx-042-i10": {"name": "majani ya bay", "standardAmount": "2 (ondoa kabla ya kuhudumia)"},
-    "w-mx-042-i11": {"name": "mafuta ya kupikia", "standardAmount": "2 vijiko vikubwa"}
+    "w-fr-003-i1": {"name": "Lozi", "standardAmount": "g 200"},
+    "w-fr-003-i2": {"name": "Sukari ya unga", "standardAmount": "g 200"},
+    "w-fr-003-i3": {"name": "Asali", "standardAmount": "g 100"},
+    "w-fr-003-i4": {"name": "Mdalasini", "standardAmount": "½ kijiko cha chai"},
+    "w-fr-003-i5": {"name": "Karafuu", "standardAmount": "¼ kijiko cha chai"},
+    "w-fr-003-i6": {"name": "Zabibu kavu", "standardAmount": "g 50"},
+    "w-fr-003-i7": {"name": "Unga", "standardAmount": "g 100"},
+    "w-fr-003-i8": {"name": "Yai", "standardAmount": "1"}
   },
   "instructions": {
-    "1": "Menya karoti na viazi.",
-    "2": "Kata viazi na karoti vipande vidogo.",
-    "3": "Pasha vijiko 2 vya mafuta kwenye kikaango kikubwa kwa moto wa kati-mkubwa.",
-    "4": "Ongeza nyama iliyosagwa na ukaange hadi kahawia (dakika 5).",
-    "5": "Ongeza viazi na karoti, koroga na upike dakika 6.",
-    "6": "Ongeza zabibu na njegere na ukoroge.",
-    "7": "Ongeza mchuzi wa nyanya, chumvi, na pilipili nyeusi na ukoroge.",
-    "8": "Punguza moto hadi kati-dogo na upike dakika 20 hadi maji yamepungua na viazi na karoti vilainishe.",
-    "9": "Onja na uongeze chumvi ikiwa lazima."
+    "1": "Changanya unga wa lozi na sukari ya unga katika bakuli.",
+    "2": "Ongeza asali, mdalasini, karafuu na zabibu kavu, changanya vizuri.",
+    "3": "Ongeza unga kidogo kidogo hadi unga mgumu.",
+    "4": "Funika na uache dakika 30.",
+    "5": "Tengeneza mipira midogo na uipange kwenye sinia iliyopakwa karatasi.",
+    "6": "Oka kwa 180 °C dakika 20 hadi iwe ya dhahabu.",
+    "7": "Poozesha na utoe."
   },
-  "culturalNotes": "Picadillo ni chakula maarufu nchini Mexico kinachohudumiwa na mchele au tortillas."
+  "culturalNotes": "Calisson ni pipi za jadi za kusini mwa Ufaransa zenye harufu nyororo na utamu."
 },
-"w-mx-043": {
-  "title": "Pozole Rojo ya Kimexiko",
+"w-fr-004": {
+  "title": "Saumu ya konfi",
   "ingredients": {
-    "w-mx-043-i1": {"name": "hominy", "standardAmount": "makopo 2"},
-    "w-mx-043-i2": {"name": "kuku mzima", "standardAmount": "1"},
-    "w-mx-043-i3": {"name": "kitunguu cheupe", "standardAmount": "1 (robo)"},
-    "w-mx-043-i4": {"name": "giligilani", "standardAmount": "6"},
-    "w-mx-043-i5": {"name": "pilipili ancho kavu", "standardAmount": "2 (zilizooshwa, bila shina na mbegu)"},
-    "w-mx-043-i6": {"name": "pilipili guajillo kavu", "standardAmount": "3 (zilizooshwa, bila shina na mbegu)"},
-    "w-mx-043-i7": {"name": "kitunguu cheupe kikatwa", "standardAmount": "¼ kikombe"},
-    "w-mx-043-i8": {"name": "vikombe vya kitunguu saumu", "standardAmount": "3"},
-    "w-mx-043-i9": {"name": "karafuu", "standardAmount": "2"},
-    "w-mx-043-i10": {"name": "jeera iliyosagwa", "standardAmount": "½ kijiko kidogo"},
-    "w-mx-043-i11": {"name": "chumvi", "standardAmount": "1 kijiko kidogo"},
-    "w-mx-043-i12": {"name": "mafuta ya mboga", "standardAmount": "3 vijiko vikubwa"},
-    "w-mx-043-i13": {"name": "ndimu", "standardAmount": "4 (robo)"},
-    "w-mx-043-i14": {"name": "saladi romaine au kabichi", "standardAmount": "½ kichwa (kikusagwa)"},
-    "w-mx-043-i15": {"name": "figili", "standardAmount": "6 (zilizokatwa nyembamba)"},
-    "w-mx-043-i16": {"name": "kitunguu cheupe kikatwa", "standardAmount": "½ kikombe"},
-    "w-mx-043-i17": {"name": "tostadas", "standardAmount": "kadiri inavyohitajika"},
-    "w-mx-043-i18": {"name": "oregano kavu", "standardAmount": "kadiri inavyohitajika"},
-    "w-mx-043-i19": {"name": "pilipili kavu iliyosagwa au tajin", "standardAmount": "kadiri inavyohitajika"}
+    "w-fr-004-i1": {"name": "Kitunguu saumu", "standardAmount": "vilundo 2"},
+    "w-fr-004-i2": {"name": "Thyme", "standardAmount": "vijiko 2"},
+    "w-fr-004-i3": {"name": "Mafuta ya mizeituni", "standardAmount": "ml 250"},
+    "w-fr-004-i4": {"name": "Chumvi", "standardAmount": "kiasi 1 kikubwa"}
   },
   "instructions": {
-    "1": "Kwenye sufuria kubwa, weka maji 2 vikombe na hominy iliyochujwa.",
-    "2": "Kwenye sufuria nyingine kubwa, weka vipande vya kuku na uongeze maji kufunika kwa inchi kadhaa. Ongeza kitunguu, giligilani, na kijiko 1 cha chumvi.",
-    "3": "Leta kuchemka kisha punguza moto na uchemse kwa moto wa kati-dogo ukifunika. Pika dakika 45 hadi kuku apikwe na laini. Toa vipande vya kuku, chuja na uhifadhi maji ya kupikia.",
-    "4": "Kuku ikisha pooa kutosha, ondoa na utupie ngozi na mifupa na kusaga nyama.",
-    "5": "Weka kuku na maji yaliyohifadhiwa kwenye sufuria yenye hominy. Pasha kwa moto wa kati hadi joto. Ongeza chumvi ikiwa lazima.",
-    "6": "Kwa mchuzi mwekundu: weka pilipili kwenye sufuria ya kati, ongeza maji ya kufunika tu na ulete kuchemka. Punguza hadi kuchemka polepole hadi pilipili ziwe laini, dakika 10.",
-    "7": "Weka pilipili na ¾ kikombe cha maji ya kuloweka kwenye blender pamoja na kitunguu, kitunguu saumu, karafuu, jeera, na chumvi. Changanya hadi laini.",
-    "8": "Pitisha kupitia chujio chenye mashimo madogo kwenye bakuli, ukitumia kijiko kukamua maji. Tupa iliyobaki.",
-    "9": "Pasha mafuta ya mboga kwenye sufuria kwa moto wa kati-mkubwa, ongeza maji ya pilipili na ulete kuchemka kisha punguza, ukikoroga mara kwa mara. Mchuzi utanena — pika jumla dakika 5-6 kisha ondoa motoni.",
-    "10": "Pozole ikiwa bado ni ya joto, pasha moto hadi kati-mkubwa. Koroga mchanganyiko wa pilipili na uongeze chumvi kadiri unavyopenda.",
-    "11": "Hudumia pozole moto na vionjo vilivyoorodheshwa. Hakikisha unakamua ndimu juu ya supu — hufanya chakula kikamilike."
+    "1": "Pasha oveni hadi 150 °C (fan 130 °C).",
+    "2": "Weka saumu kwenye chombo kidogo cha oveni (takriban sm 13) na thyme na chumvi.",
+    "3": "Funika kabisa kwa mafuta ya mizeituni.",
+    "4": "Chemsha saa 1 dakika 20 hadi mafuta yachemke polepole na saumu iwe ya dhahabu nzito; yaliyeyuka lakini kubaki umbo lake.",
+    "5": "Poozesha katika mafuta yake. Katika chupa iliyosafishwa huhifadhiwa wiki 2 jokofu."
   },
-  "culturalNotes": "Pozole ni chakula cha jadi cha Kimexiko kinachohudumiwa kwenye hafla maalum na sherehe — kinajulikana kwa ladha zake za pilipili."
+  "culturalNotes": "Saumu ya konfi ni kitu cha jadi cha Ufaransa kwa saladi na kuongeza ladha vyakula."
 },
-"w-mx-044": {
-  "title": "Rajas con Crema",
+"w-fr-005": {
+  "title": "Confit de canard (bata wa konfi)",
   "ingredients": {
-    "w-mx-044-i1": {"name": "poblanos", "standardAmount": "450 g"},
-    "w-mx-044-i2": {"name": "kitunguu", "standardAmount": "1"},
-    "w-mx-044-i3": {"name": "siagi", "standardAmount": "2 vijiko vikubwa"},
-    "w-mx-044-i4": {"name": "crema ya Kimexiko", "standardAmount": "¾ kikombe"},
-    "w-mx-044-i5": {"name": "jibini ya Oaxaca", "standardAmount": "¾ kikombe iliyosagwa"},
-    "w-mx-044-i6": {"name": "mahindi", "standardAmount": "ikiwa unapenda"}
+    "w-fr-005-i1": {"name": "Miguu ya bata", "standardAmount": "4 (g 250 kila moja)"},
+    "w-fr-005-i2": {"name": "Mafuta ya bata", "standardAmount": "ml 750"},
+    "w-fr-005-i3": {"name": "Chumvi", "standardAmount": "vijiko 4 vya chai"},
+    "w-fr-005-i4": {"name": "Thyme", "standardAmount": "⅓ kikombe"},
+    "w-fr-005-i5": {"name": "Sage", "standardAmount": "⅓ kikombe"},
+    "w-fr-005-i6": {"name": "Rosemary", "standardAmount": "⅓ kikombe"},
+    "w-fr-005-i7": {"name": "Marjoram", "standardAmount": "⅓ kikombe"},
+    "w-fr-005-i8": {"name": "Kitunguu saumu", "standardAmount": "vipande 6 (vilivyochujwa na ganda)"},
+    "w-fr-005-i9": {"name": "Kitunguu kidogo", "standardAmount": "1 (vipande vyembamba)"},
+    "w-fr-005-i10": {"name": "Pilipili nyeusi za mbegu", "standardAmount": "1 kijiko kikubwa"},
+    "w-fr-005-i11": {"name": "Mbegu za kotimiri", "standardAmount": "1 kijiko kikubwa"},
+    "w-fr-005-i12": {"name": "Nyota ya anisi", "standardAmount": "8"},
+    "w-fr-005-i13": {"name": "Majani ya bay", "standardAmount": "2"},
+    "w-fr-005-i14": {"name": "Matunda ya juniper", "standardAmount": "vijiko 2 vikubwa"},
+    "w-fr-005-i15": {"name": "Karafuu", "standardAmount": "8"}
   },
   "instructions": {
-    "1": "Oka poblanos kwa moto wa kati hadi ziwe nyeusi pande zote, dakika 20-30, ukizigeuza kila dakika 10.",
-    "2": "Zikisha kupikwa, weka pilipili kwenye sahani na uifunike kwa bakuli au plastiki dakika 5-10 ili ngozi zitoke.",
-    "3": "Menya poblanos na utupie ngozi, kisha kate vipande vidogo.",
-    "4": "Saga jibini.",
-    "5": "Pika kitunguu kwenye sufuria kubwa hadi kilainishe.",
-    "6": "Ongeza poblanos, jibini, na crema kwenye kitunguu.",
-    "7": "Unaweza pia kuongeza mahindi pamoja na chumvi au pilipili unavyotaka. Pasha kupitia."
+    "1": "Changanya chumvi na viungo katika bakuli, sugua miguu.",
+    "2": "Weka kwenye chombo cha kina, funika kwa viungo, funika na uweke jokofu masaa 24.",
+    "3": "Baada ya masaa 24 osha kwa maji baridi na ukaushe vizuri.",
+    "4": "Weka kwenye sinia ya oveni, funika kwa mafuta na viungo, funika kwa karatasi ya alumini.",
+    "5": "Chemsha kwa 100 °C masaa 2-3 hadi nyama ilainike.",
+    "6": "Ondoa, poozesha kidogo na uchuje mafuta kwenye chombo kilichofungwa.",
+    "7": "Weka bata kwenye chombo cha kina, funika kwa mafuta yaliyochujwa. Huhifadhiwa miezi 6 jokofu.",
+    "8": "Kutoa, oka kwa 200 °C dakika 10-15 hadi ngozi ikauke."
   },
-  "culturalNotes": "Rajas con Crema ni chakula cha jadi cha Kimexiko kinachohudumiwa kama kitafunio au sehemu ya mlo mkuu."
+  "culturalNotes": "Bata wa konfi ni kitu cha jadi cha Ufaransa ambapo miguu huchemshwa polepole kwa mafuta yake; hutolewa na viazi vya kuvuruga au mboga za kuchoma."
 },
-"w-mx-046": {
-  "title": "Chile Relleno",
+"w-fr-006": {
+  "title": "Flamiche (tarti ya leek)",
   "ingredients": {
-    "w-mx-046-i1": {"name": "pilipili poblano", "standardAmount": "6 kubwa"},
-    "w-mx-046-i2": {"name": "jibini Monterey Jack", "standardAmount": "225 g (vipande au iliyosagwa)"},
-    "w-mx-046-i3": {"name": "mafuta", "standardAmount": "4 vikombe (kukaangia)"},
-    "w-mx-046-i4": {"name": "mayai", "standardAmount": "3 makubwa"},
-    "w-mx-046-i5": {"name": "unga wa ngano", "standardAmount": "½ kikombe"},
-    "w-mx-046-i6": {"name": "chumvi laini", "standardAmount": "½ kijiko kidogo"},
-    "w-mx-046-i7": {"name": "nyanya roma", "standardAmount": "6 (robo)"},
-    "w-mx-046-i8": {"name": "kitunguu", "standardAmount": "½ kidogo (nusu)"},
-    "w-mx-046-i9": {"name": "kitunguu saumu", "standardAmount": "3"},
-    "w-mx-046-i10": {"name": "pilipili jalapeño", "standardAmount": "1 (hiari)"},
-    "w-mx-046-i11": {"name": "giligilani", "standardAmount": "5"},
-    "w-mx-046-i12": {"name": "chumvi ya kosher", "standardAmount": "1 kijiko kidogo + zaidi"},
-    "w-mx-046-i13": {"name": "mafuta ya mizeituni", "standardAmount": "1 kijiko kidogo"}
+    "w-fr-006-i1": {"name": "Unga", "standardAmount": "g 350"},
+    "w-fr-006-i2": {"name": "Siagi", "standardAmount": "g 175 (halijoto)"},
+    "w-fr-006-i3": {"name": "Chumvi", "standardAmount": "kiasi 1"},
+    "w-fr-006-i4": {"name": "Maziwa", "standardAmount": "vijiko 7 vikubwa"},
+    "w-fr-006-i5": {"name": "Unga wa kari", "standardAmount": "½ kijiko cha chai"},
+    "w-fr-006-i6": {"name": "Leek", "standardAmount": "g 900 (imekatwa)"},
+    "w-fr-006-i7": {"name": "Siagi", "standardAmount": "g 40"},
+    "w-fr-006-i8": {"name": "Kini cha mayai", "standardAmount": "4 (3 kiini + 1 kupaka)"},
+    "w-fr-006-i9": {"name": "Crème fraîche", "standardAmount": "g 200"},
+    "w-fr-006-i10": {"name": "Kungumanga", "standardAmount": "¼ kijiko cha chai"},
+    "w-fr-006-i11": {"name": "Chumvi na pilipili nyeusi", "standardAmount": "kiasi 1"}
   },
   "instructions": {
-    "1": "Oka pilipili poblano kwa moto wa kati hadi ngozi ziwe nyeusi. Weka kwenye mfuko wa plastiki uliofungwa dakika 10 kupoa.",
-    "2": "Menya pilipili na ukate shina. Fungua pilipili taratibu na utoe mbegu na utando wa ndani.",
-    "3": "Jaza pilipili na jibini Monterey Jack. Weka pilipili zilizojazwa kando.",
-    "4": "Kwenye bakuli, pigia mayai na chumvi. Kwenye bakuli nyingine, weka unga.",
-    "5": "Chovya pilipili zilizojazwa kwenye unga, kisha kwenye mayai yaliyopigwa.",
-    "6": "Pasha mafuta kwenye kikaango cha kina kwa moto wa kati. Kaanga pilipili hadi rangi ya dhahabu pande zote.",
-    "7": "Fanya mchuzi wa nyanya kwa kuchanganya nyanya, kitunguu, kitunguu saumu, jalapeño, giligilani, chumvi, na mafuta ya mizeituni kwenye blender hadi laini.",
-    "8": "Hudumia pilipili zilizojazwa na mchuzi wa nyanya kando."
+    "1": "Sugua unga, siagi na chumvi katika bakuli kubwa hadi iwe kama vumbi.",
+    "2": "Ongeza maziwa kidogo kidogo hadi unga.",
+    "3": "Funika na uweke jokofu dakika 30.",
+    "4": "Yeyusha siagi katika kikaango kikubwa, kaanga leek hadi ilainike na iwe ya dhahabu.",
+    "5": "Ongeza kari, changanya dakika 1.",
+    "6": "Katika bakuli nyingine changanya kini, crème fraîche, kungumanga, chumvi na pilipili.",
+    "7": "Changanya leek iliyokaangwa kwenye mchanganyiko wa mayai.",
+    "8": "Tandaza unga kwenye kiolesura na umimine kiini.",
+    "9": "Funika kwa unga wa juu na ufunge kingo.",
+    "10": "Paka kwa kini kilichobaki.",
+    "11": "Oka kwa 180 °C dakika 45 hadi iwe ya dhahabu.",
+    "12": "Acha dakika 10 na utoe."
   },
-  "culturalNotes": "Chile relleno ni chakula cha jadi cha Kimexiko kinachohudumiwa kwenye hafla maalum."
+  "culturalNotes": "Flamiche ni tarti ya jadi ya leek ya kaskazini mwa Ufaransa."
 },
-"w-mx-048": {
-  "title": "Chai ya Mdalasini ya Kimexiko",
+"w-fr-007": {
+  "title": "Viazi vya fondant",
   "ingredients": {
-    "w-mx-048-i1": {"name": "maji", "standardAmount": "6 vikombe"},
-    "w-mx-048-i2": {"name": "vipande vya mdalasini ya Kimexiko", "standardAmount": "2"},
-    "w-mx-048-i3": {"name": "asali", "standardAmount": "kadiri unavyopenda"}
+    "w-fr-007-i1": {"name": "Viazi vikubwa vya unga", "standardAmount": "4 (g 400 kila kimoja)"},
+    "w-fr-007-i2": {"name": "Chumvi", "standardAmount": "¾ kijiko cha chai"},
+    "w-fr-007-i3": {"name": "Pilipili nyeusi", "standardAmount": "½ kijiko cha chai"},
+    "w-fr-007-i4": {"name": "Mafuta ya mizeituni ya virgin", "standardAmount": "vijiko 2 vikubwa"},
+    "w-fr-007-i5": {"name": "Siagi isiyo na chumvi", "standardAmount": "vijiko 3 vikubwa (g 50)"},
+    "w-fr-007-i6": {"name": "Thyme", "standardAmount": "vijiko 6"},
+    "w-fr-007-i7": {"name": "Mchuzi wa kuku au mboga", "standardAmount": "ml 240 (chumvi kidogo)"}
   },
   "instructions": {
-    "1": "Weka maji na mdalasini kwenye sufuria ya kati na ulete kuchemka.",
-    "2": "Acha ichemke dakika 3-5, kisha ondoa motoni.",
-    "3": "Acha ichongwe dakika 30 zaidi au kadiri unavyotaka nguvu.",
-    "4": "Ongeza asali kadiri unavyopenda.",
-    "5": "Hudumia ya joto."
+    "1": "Pasha oveni hadi 200 °C (fan 180 °C).",
+    "2": "Kata viazi kuwa visilinda vya sm 6, urefu sm 7, gawanya kuwa visilinda 8 vya sm 3,5.",
+    "3": "Kaushe na usugue kwa nusu ya mafuta, chumvi na pilipili.",
+    "4": "Pasha mafuta yaliyobaki katika kikaango cha oveni kwa moto wa kati-juu, chemsha kila upande dakika 6-8 hadi iwe ya dhahabu.",
+    "5": "Weka siagi na thyme; likiyeyuka, mimina juu ya viazi. Mimina mchuzi, chemsha na uchemshe ovenini dakika 30, ukiwamiminia tena baada ya dakika 15.",
+    "6": "Mimina tena na utoe. Kama mgahawa na bifu, sosi ya bearnaise na maharagwe ya siagi."
   },
-  "culturalNotes": "Chai ya mdalasini ya Kimexiko ni kinywaji cha jadi kinachopendwa sana nchini Mexico, hasa wakati wa likizo na hafla maalum."
+  "culturalNotes": "Viazi vya fondant ni viazi vya oveni vya Ufaransa: dhahabu nje, laini ndani."
 },
-"w-mx-049": {
-  "title": "Fillet ya Samaki na Mchuzi wa Kitunguu Saumu",
+"w-fr-008": {
+  "title": "Crepes za chokoleti",
   "ingredients": {
-    "w-mx-049-i1": {"name": "tilapia au fillet nyingine za samaki", "standardAmount": "680 g"},
-    "w-mx-049-i2": {"name": "ndimu", "standardAmount": "1"},
-    "w-mx-049-i3": {"name": "chumvi na pilipili", "standardAmount": "kadiri unavyopenda"},
-    "w-mx-049-i4": {"name": "mafuta ya mboga", "standardAmount": "¼ kikombe"},
-    "w-mx-049-i5": {"name": "vikombe vya kitunguu saumu", "standardAmount": "6 (vilivyokatwa nyembamba)"},
-    "w-mx-049-i6": {"name": "parsley", "standardAmount": "3 vijiko vikubwa (yaliyokatwa)"},
-    "w-mx-049-i7": {"name": "unga (hiari)", "standardAmount": "2 vijiko vikubwa"}
+    "w-fr-008-i1": {"name": "Siagi isiyo na chumvi", "standardAmount": "g 25"},
+    "w-fr-008-i2": {"name": "Unga", "standardAmount": "g 150"},
+    "w-fr-008-i3": {"name": "Mayai", "standardAmount": "2 makubwa"},
+    "w-fr-008-i4": {"name": "Maziwa mazima", "standardAmount": "ml 275"},
+    "w-fr-008-i5": {"name": "Chumvi", "standardAmount": "kiasi 1"},
+    "w-fr-008-i6": {"name": "Unga wa vanilla", "standardAmount": "¼ kijiko cha chai (si lazima)"},
+    "w-fr-008-i7": {"name": "Sukari ya unga", "standardAmount": "1 kijiko kikubwa"},
+    "w-fr-008-i8": {"name": "Kakao bila sukari", "standardAmount": "1 kijiko kikubwa"}
   },
   "instructions": {
-    "1": "Paka samaki chumvi, pilipili, na juisi ya ndimu. Weka kando unapoandaa viungo vingine.",
-    "2": "Pasha mafuta kwenye kikaango kikubwa kwa moto mdogo. Moto ukishafika, kaanga vipande vya kitunguu saumu hadi viwe vya dhahabu. Hakikisha kuondoa mara moja — ukiacha zaidi vitakuwa vya uchungu.",
-    "3": "Ikiwa unatumia unga, nyunyiza fillet kwa unga kidogo. Kisha pasha moto hadi kati-mkubwa kwenye kikaango ule ule. Moto ukishafika, ongeza samaki na upike pande mbili. Muda unategemea unene — dakika 2-3 kila upande kwa fillet nyembamba, dakika 5-7 kwa nzito.",
-    "4": "Ondoa samaki kutoka kikaangoni na uweke kwenye racki ya kupooza na taulo ya karatasi chini kunyonya mafuta ya ziada.",
-    "5": "Hudumia samaki ukipamba kwa parsley iliyokatwa na vipande vya kitunguu saumu vya dhahabu. (Na ukiongeza dabu ya siagi — wahe!)"
+    "1": "Yeyusha siagi katika kikaango cha crepe (acha ibrown kidogo kwa harufu ya karanga).",
+    "2": "Changanya unga, sukari ya unga, kakao, chumvi na vanilla katika bakuli kubwa; vunja mayai katikati na upige na siagi iliyoyeyuka hadi uwe laini.",
+    "3": "Ongeza robo ya maziwa, kisha yaliyobaki kidogo kidogo. Mchanganyiko ni mepesi; hivyo ndivyo unavyopaswa.",
+    "4": "Futa siagi iliyozidi, pasha kwa moto wa kati-juu na umimine mchanganyiko mmoja; acha ueneze mwembamba.",
+    "5": "Chemsha dakika 2-3 hadi povu litokee, geuza na uchemshe dakika chache zaidi.",
+    "6": "Punguza moto kidogo, futa kikaango na urudie kwa crepes 6-8."
   },
-  "culturalNotes": "Chakula hiki ni kimojawapo cha vyakula maarufu vya Kimexiko — huhudumiwa kama chakula kikuu kwenye kutaniko za familia."
+  "culturalNotes": "Crepes ni kifungua kinywa kinachopendwa cha Ufaransa, kinachotolewa na chokoleti, asali au stroberi."
 },
-"w-mx-050": {
-  "title": "Quesadilla ya Pilipili ya Kijani na Jibini",
+"w-fr-009": {
+  "title": "Truffles za chokoleti na ganache",
   "ingredients": {
-    "w-mx-050-i1": {"name": "tortillas za unga", "standardAmount": "4 (25 cm)"},
-    "w-mx-050-i2": {"name": "jibini cheddar au pepper jack", "standardAmount": "1 kikombe (iliyosagwa)"},
-    "w-mx-050-i3": {"name": "pilipili poblano zilizoiva", "standardAmount": "2 (zilizokatwa)"},
-    "w-mx-050-i4": {"name": "salsa (kwa mapambo)", "standardAmount": "kadiri unavyopenda"},
-    "w-mx-050-i5": {"name": "guacamole (kwa mapambo)", "standardAmount": "kadiri unavyopenda"}
+    "w-fr-009-i1": {"name": "Chokoleti nyeusi", "standardAmount": "g 285"},
+    "w-fr-009-i2": {"name": "Siagi isiyo na chumvi", "standardAmount": "g 30"},
+    "w-fr-009-i3": {"name": "Krimu", "standardAmount": "ml 125"},
+    "w-fr-009-i4": {"name": "Nazi iliyokuswa", "standardAmount": "g 125"},
+    "w-fr-009-i5": {"name": "Kakao bila sukari", "standardAmount": "g 60"},
+    "w-fr-009-i6": {"name": "Karanga zilizosagwa", "standardAmount": "g 125"},
+    "w-fr-009-i7": {"name": "Vifinyezi vya rangi", "standardAmount": "g 85"},
+    "w-fr-009-i8": {"name": "Sukari ya unga", "standardAmount": "g 60"}
   },
   "instructions": {
-    "1": "Pasha comal dakika 1 kwa moto wa kati-dogo.",
-    "2": "Pasha tortillas dakika 1 upande mmoja, geuza na unyunyize jibini kwenye moja, ongeza pilipili, na uweke tortilla nyingine juu na ubonyeze taratibu kwa spatula.",
-    "3": "Geuza mara kwa mara hadi quesadillas ziwe za dhahabu kila upande na jibini imeyeyuka.",
-    "4": "Rudia kwa tortillas na viungo vilivyobaki.",
-    "5": "Weka juu salsa na guacamole, ikiwa unapenda."
+    "1": "Weka chokoleti, krimu na siagi kwenye bakuli linalostahimili joto, pasha kwenye microwave mara 4 za sekunde 30, ukichanganya kati.",
+    "2": "Funika bakuli, acha dakika 5 na uchanganye hadi uwe laini; ganache iko tayari.",
+    "3": "Weka jokofu masaa 6 hadi igande. Usiifridjishe.",
+    "4": "Poozesha pia sahani ya truffles.",
+    "5": "Baada ya masaa 6 tengeneza mipira midogo kwa kijiko cha chai.",
+    "6": "Viringisha kwenye nazi, kakao, karanga, vifinyezi au sukari ya unga.",
+    "7": "Weka kwenye sahani baridi na uache igande kabisa."
   },
-  "culturalNotes": "Quesadilla ni chakula maarufu nchini Mexico kinachohudumiwa kama kitafunio au mlo mkuu."
+  "culturalNotes": "Ganache ni mchanganyiko wa hariri wa chokoleti na krimu, moyo wa pipi nyingi za Ufaransa."
+},
+"w-fr-010": {
+  "title": "Gratin dauphinois",
+  "ingredients": {
+    "w-fr-010-i1": {"name": "Viazi", "standardAmount": "g 750"},
+    "w-fr-010-i2": {"name": "Kitunguu saumu", "standardAmount": "vipande 2-3 (vimekatwa)"},
+    "w-fr-010-i3": {"name": "Maziwa mazima", "standardAmount": "ml 275"},
+    "w-fr-010-i4": {"name": "Krimu nzito", "standardAmount": "ml 150"},
+    "w-fr-010-i5": {"name": "Kungumanga", "standardAmount": "¼ kijiko cha chai"},
+    "w-fr-010-i6": {"name": "Chumvi na pilipili nyeusi", "standardAmount": "kulingana na ladha"},
+    "w-fr-010-i7": {"name": "Thyme mpya", "standardAmount": "½ kijiko cha chai"},
+    "w-fr-010-i8": {"name": "Siagi", "standardAmount": "kidogo (kwa kiolesura)"},
+    "w-fr-010-i9": {"name": "Emmental au Gruyère", "standardAmount": "g 100 (si lazima)"}
+  },
+  "instructions": {
+    "1": "Menya viazi (au acha gamba) na ukate vipande vya mm 3.",
+    "2": "Pasha oveni hadi 190 °C (fan 170 °C).",
+    "3": "Chemsha maziwa, krimu na saumu, punguza moto na ongeza kungumanga, chumvi, pilipili na viazi.",
+    "4": "Chemsha takriban dakika 5 ukigeuza vipande. Jibini linaweza kuongezwa hapa.",
+    "5": "Paka kiolesura siagi na upange viazi sawasawa.",
+    "6": "Oka takriban dakika 45 hadi iwe ya dhahabu."
+  },
+  "culturalNotes": "Chakula cha jadi cha eneo la Dauphiné: vipande vyembamba vya viazi vilivyogratenishwa na maziwa, krimu na kungumanga."
+},
+"w-fr-011": {
+  "title": "Pain d'épices (keki ya viungo)",
+  "ingredients": {
+    "w-fr-011-i1": {"name": "Maji", "standardAmount": "ml 250"},
+    "w-fr-011-i2": {"name": "Asali", "standardAmount": "g 255"},
+    "w-fr-011-i3": {"name": "Iliki", "standardAmount": "vifusi 4"},
+    "w-fr-011-i4": {"name": "Karafuu", "standardAmount": "2"},
+    "w-fr-011-i5": {"name": "Nyota ya anisi", "standardAmount": "2"},
+    "w-fr-011-i6": {"name": "Sukari ya miwa", "standardAmount": "g 100"},
+    "w-fr-011-i7": {"name": "Siagi isiyo na chumvi", "standardAmount": "g 155"},
+    "w-fr-011-i8": {"name": "Unga wa rye", "standardAmount": "g 255"},
+    "w-fr-011-i9": {"name": "Unga wa kuoka", "standardAmount": "vijiko 2 vya chai"},
+    "w-fr-011-i10": {"name": "Chumvi", "standardAmount": "kiasi 1 kikubwa"},
+    "w-fr-011-i11": {"name": "Mchanganyiko wa viungo", "standardAmount": "1½ kijiko cha chai"},
+    "w-fr-011-i12": {"name": "Karanga", "standardAmount": "1 kijiko kikubwa"}
+  },
+  "instructions": {
+    "1": "Paka kiolesura cha keki siagi na upashe oveni hadi 180 °C (fan 160 °C).",
+    "2": "Chemsha maji, asali, sukari na viungo sufuriini, yeyusha siagi, zima moto na uache dakika 5.",
+    "3": "Changanya unga wa rye, unga wa kuoka, chumvi na unga wa viungo bakulini, ingiza mchanganyiko wa asali moto kidogo kidogo hadi uwe laini.",
+    "4": "Jaza kiolesura theluthi mbili na uoke dakika 40-50 hadi iwe ya dhahabu nzito; kijiti kinapaswa kutoka kisicho na kitu.",
+    "5": "Acha dakika 10 kwenye kiolesura na ugeuze kwenye gridi. Pamba kwa karanga na nyota ya anisi."
+  },
+  "culturalNotes": "Pain d'épices ni keki ya jadi ya viungo ya Ufaransa yenye harufu ya joto."
+},
+"w-fr-012": {
+  "title": "Pissaladière",
+  "ingredients": {
+    "w-fr-012-i1": {"name": "Mafuta ya mizeituni", "standardAmount": "vijiko 4 vikubwa + kwa sinia"},
+    "w-fr-012-i2": {"name": "Kitunguu", "standardAmount": "kg 1 (vipande vyembamba sana)"},
+    "w-fr-012-i3": {"name": "Thyme", "standardAmount": "kichoche kidogo"},
+    "w-fr-012-i4": {"name": "Majani ya bay", "standardAmount": "2"},
+    "w-fr-012-i5": {"name": "Fileti za anchovy", "standardAmount": "g 80 (zilizochujwa)"},
+    "w-fr-012-i6": {"name": "Mizeituni meusi", "standardAmount": "g 80 (bila mbegu)"},
+    "w-fr-012-i7": {"name": "Parmesan", "standardAmount": "g 20 (imekuswa)"},
+    "w-fr-012-i8": {"name": "Siagi baridi isiyo na chumvi", "standardAmount": "g 200"},
+    "w-fr-012-i9": {"name": "Juisi ya ndimu", "standardAmount": "1 kijiko cha chai"},
+    "w-fr-012-i10": {"name": "Unga imara", "standardAmount": "g 200 + kwa ubao"},
+    "w-fr-012-i11": {"name": "Chumvi", "standardAmount": "1 kijiko cha chai"},
+    "w-fr-012-i12": {"name": "Maji ya barafu", "standardAmount": "ml 125"}
+  },
+  "instructions": {
+    "1": "Unga: kata siagi kwa ukubwa, nyunyiza kwa unga bakulini na uifridjishe dakika 30 (au jokofu saa 1).",
+    "2": "Changanya juisi ya ndimu na ml 125 za maji ya barafu. Weka unga uliobaki na chumvi kwenye bakuli kubwa, ongeza siagi iliyoganda na uchanganye kwa vidole.",
+    "3": "Mimina theluthi mbili za maji ya ndimu na uunganishe kwa kisu. Ikiwa ni kavu, ongeza maji kidogo. Unga umevunjika lakini hujiunga ukibonyeza.",
+    "4": "Geuza kwenye uso wenye unga, ukande kidogo kuwa mstatili mrefu, funga na upoozeshe dakika 20.",
+    "5": "Kunja kuwa mstatili wa sm 20×30; mistari ya siagi inabaki inayoonekana.",
+    "6": "Pasha mafuta ya mizeituni katika kikaango kikubwa kwa moto wa kati-juu, weka kitunguu na chumvi, thyme na bay, chemsha polepole dakika 40-45 ukichanganya hadi kiwe chekundu cheusi, kama jamu. Poozesha.",
+    "7": "Paka sinia mafuta kidogo, kunja unga sm 25×35, tandaza, tengeneza kando na upoozeshe dakika 20.",
+    "8": "Pasha oveni hadi 220 °C (fan 200 °C). Tandaza kitunguu, panga anchovy kwa umbo la almasi, weka mizeituni katikati. Nyunyiza parmesan na uoke dakika 30.",
+    "9": "Nyunyiza thyme, acha dakika 10 na ukate miraba."
+  },
+  "culturalNotes": "Pissaladière ni kitu maalum cha Provence: unga mwembamba na kitunguu cha karameli, anchovy na mizeituni meusi."
+},
+"w-fr-013": {
+  "title": "Ratatouille",
+  "ingredients": {
+    "w-fr-013-i1": {"name": "Mafuta ya mizeituni", "standardAmount": "⅓-¼ kikombe"},
+    "w-fr-013-i2": {"name": "Kitunguu", "standardAmount": "1 kikubwa (vipande vyembamba)"},
+    "w-fr-013-i3": {"name": "Pilipili hoho nyekundu", "standardAmount": "1 (vipande)"},
+    "w-fr-013-i4": {"name": "Pilipili hoho njano", "standardAmount": "1 (vipande)"},
+    "w-fr-013-i5": {"name": "Kitunguu saumu", "standardAmount": "vipande 6 (vipande vyembamba)"},
+    "w-fr-013-i6": {"name": "Zucchini", "standardAmount": "g 680 (vipande)"},
+    "w-fr-013-i7": {"name": "Biringani", "standardAmount": "1 kidogo (vipande)"},
+    "w-fr-013-i8": {"name": "Nyanya Roma", "standardAmount": "4 (zilizokatwa)"},
+    "w-fr-013-i9": {"name": "Rosemary mpya", "standardAmount": "¼ kijiko cha chai (imekatwa)"},
+    "w-fr-013-i10": {"name": "Thyme mpya", "standardAmount": "1 kijiko cha chai (imekatwa)"},
+    "w-fr-013-i11": {"name": "Chumvi", "standardAmount": "kulingana na ladha"},
+    "w-fr-013-i12": {"name": "Pilipili", "standardAmount": "kulingana na ladha"}
+  },
+  "instructions": {
+    "1": "Pasha kikaango kikubwa au sufuria vizuri.",
+    "2": "Weka mafuta ya mizeituni, kitunguu na pilipili hoho, kaanga hadi vipate rangi.",
+    "3": "Weka saumu, zucchini na biringani, kaanga hadi vipate rangi.",
+    "4": "Changanya nyanya, rosemary, thyme, chumvi na pilipili.",
+    "5": "Toa motoni au baridi."
+  },
+  "culturalNotes": "Ratatouille ni chakula cha mboga cha Ufaransa maarufu zaidi kutoka mboga za kiangazi."
+},
+"w-fr-014": {
+  "title": "Salade niçoise",
+  "ingredients": {
+    "w-fr-014-i1": {"name": "Kitunguu saumu", "standardAmount": "kipande 1"},
+    "w-fr-014-i2": {"name": "Chumvi", "standardAmount": "kulingana na ladha"},
+    "w-fr-014-i3": {"name": "Mafuta ya mizeituni", "standardAmount": "ml 80"},
+    "w-fr-014-i4": {"name": "Juisi ya ndimu mpya", "standardAmount": "vijiko 2 vikubwa"},
+    "w-fr-014-i5": {"name": "Haradali ya Dijon", "standardAmount": "1 kijiko kikubwa"},
+    "w-fr-014-i6": {"name": "Kitunguu kidogo", "standardAmount": "1 (kimekatwa)"},
+    "w-fr-014-i7": {"name": "Pilipili nyeusi", "standardAmount": "kulingana na ladha"},
+    "w-fr-014-i8": {"name": "Viazi vidogo vipya", "standardAmount": "g 450 (vilivyochemshwa)"},
+    "w-fr-014-i9": {"name": "Maharagwe mabichi", "standardAmount": "g 225 (yaliyopishwa motoni)"},
+    "w-fr-014-i10": {"name": "Nyanya cherry", "standardAmount": "g 340 (zilizogawanywa)"},
+    "w-fr-014-i11": {"name": "Mizeituni meusi (niçoise)", "standardAmount": "ml 120"},
+    "w-fr-014-i12": {"name": "Artichokes za dawa", "standardAmount": "g 225"},
+    "w-fr-014-i13": {"name": "Anchovy", "standardAmount": "fileti 8 (zilizooshwa, zilizochujwa)"},
+    "w-fr-014-i14": {"name": "Mayai yaliyochemshwa", "standardAmount": "4 (yaliyogawanywa)"},
+    "w-fr-014-i15": {"name": "Tango", "standardAmount": "1 kidogo (vipande vyembamba)"},
+    "w-fr-014-i16": {"name": "Tuna ya mafuta", "standardAmount": "mikopo 3 (g 115 kila moja, imechujwa)"},
+    "w-fr-014-i17": {"name": "Kitunguu chekundu", "standardAmount": "½ (vipande vyembamba)"}
+  },
+  "instructions": {
+    "1": "Dressing: kata saumu vizuri, nyunyiza chumvi na usugue kwa kisu hadi iwe paste. Weka bakulini na uchanganye na mafuta, juisi ya ndimu, haradali, kitunguu kidogo, chumvi na pilipili.",
+    "2": "Saladi: panga vyakula vyote kwa mistari kwenye sahani kubwa, mimina dressing na uweke chumvi-pilipili."
+  },
+  "culturalNotes": "Salade niçoise ni saladi ya jadi ya Nice, yenye mboga na samaki tele."
+},
+"w-vn-001": {
+  "title": "Bò Bía (roli za Kivietinamu za jicama na soseji)",
+  "ingredients": {
+    "w-vn-001-i1": {"name": "Kamba kavu", "standardAmount": "½ kikombe"},
+    "w-vn-001-i2": {"name": "Jicama", "standardAmount": "1 kubwa"},
+    "w-vn-001-i3": {"name": "Karoti", "standardAmount": "1 ya kati"},
+    "w-vn-001-i4": {"name": "Kitunguu kidogo", "standardAmount": "4 vikubwa"},
+    "w-vn-001-i5": {"name": "Soseji halali za Kichina za ng'ombe", "standardAmount": "4"},
+    "w-vn-001-i6": {"name": "Mayai", "standardAmount": "5"},
+    "w-vn-001-i7": {"name": "Chumvi ya bahari", "standardAmount": "½ kijiko cha chai"},
+    "w-vn-001-i8": {"name": "Basil ya Thailand", "standardAmount": "kichoche kidogo"},
+    "w-vn-001-i9": {"name": "Karatasi za mchele kavu", "standardAmount": "pakiti 1"},
+    "w-vn-001-i10": {"name": "Mafuta ya mboga", "standardAmount": "vijiko 3 vikubwa"}
+  },
+  "instructions": {
+    "1": "Loweka kamba kavu kwa maji moto dakika 10 hadi zilainike, zichuje.",
+    "2": "Menya jicama na ukate vipande vyembamba. Menya karoti, kata kwanza kipinjo vipande, kisha vipande vyembamba. Menya kitunguu kidogo na ukate vizuri.",
+    "3": "Pasha takriban kijiko 1 cha mafuta katika kikaango kwa moto mkubwa. Kaanga kitunguu kidogo takriban sekunde 20. Weka kamba, kaanga sekunde 20 zaidi. Ongeza jicama na karoti, kaanga sawasawa na uchemshe hadi vilainike takriban dakika 15. Weka chumvi na uhamishe bakulini.",
+    "4": "Chemsha maji katika kikaango kikubwa, chemsha soseji takriban dakika 5. Ondoa, poozesha na ukate vipande vyembamba kipinjo.",
+    "5": "Pasha takriban kijiko 1 cha mafuta katika kikaango tupu kwa moto wa kati, eneza kwa brashi au kukinamisha. Mimina nusu ya yai lililopigwa na liache lieneze mwembamba. Chemsha hadi ligande takriban sekunde 30, sogeza kwenye sahani. Rudia na mafuta na yai lililobaki. Weka omeleti mbili juu ya kila moja, kunja na ukate vipande vyembamba.",
+    "6": "Loweka karatasi ya mchele haraka na uitandaze kwenye sahani kubwa. Weka majani ya basil chini, kisha mchanganyiko wa jicama-karoti-kamba, vipande vya yai na vipande vya soseji. Kunja kutoka chini hadi nusu, kunja kingo na umalizie kukunja.",
+    "7": "Toa na sosi ya karanga."
+  },
+  "culturalNotes": "Roli hizi za Kivietinamu huitwa pia Bì cuốn; hutolewa kama saladi au chakula chepesi."
+},
+"w-vn-002": {
+  "title": "Bò Nướng Lá Lốt (ng'ombe wa kuchoma kwenye jani la betel)",
+  "ingredients": {
+    "w-vn-002-i1": {"name": "Nyama ya kusaga ya ng'ombe ya mafuta", "standardAmount": "g 340"},
+    "w-vn-002-i2": {"name": "Kitunguu kidogo kilichokatwa", "standardAmount": "vijiko 2 vikubwa"},
+    "w-vn-002-i3": {"name": "Kitunguu saumu kilichokatwa", "standardAmount": "1 kijiko kikubwa"},
+    "w-vn-002-i4": {"name": "Pilipili nyeusi iliyosagwa", "standardAmount": "¼ kijiko cha chai"},
+    "w-vn-002-i5": {"name": "Sukari", "standardAmount": "½ kijiko cha chai"},
+    "w-vn-002-i6": {"name": "Sosi ya samaki", "standardAmount": "vijiko 2 vikubwa"},
+    "w-vn-002-i7": {"name": "Sosi ya osteri", "standardAmount": "1 kijiko kikubwa"},
+    "w-vn-002-i8": {"name": "Unga wa mchuzi wa kuku", "standardAmount": "½ kijiko cha chai"},
+    "w-vn-002-i9": {"name": "Glutamat (si lazima)", "standardAmount": "¼ kijiko cha chai"},
+    "w-vn-002-i10": {"name": "Majani ya betel pori", "standardAmount": "25-30"}
+  },
+  "instructions": {
+    "1": "Osha majani vizuri na ukaushe kwa taulo. Hifadhi sehemu ya kikonyo kwa kufunga roli.",
+    "2": "Katika bakuli kubwa changanya nyama ya kusaga na kitunguu kidogo, saumu, pilipili, sukari, sosi ya samaki, sosi ya osteri, unga wa mchuzi na glutamat (si lazima).",
+    "3": "Weka jani moja upande wa kung'aa chini na ncha nyembamba chini. Weka takriban vijiko 2 vya kiini katikati, kunja ncha nyembamba juu ya kiini na ukunje kwa uangalifu. Funga kikonyo kwenye roli isifunguke. Ikiwa kikonyo ni laini, fanya tundu kwa kisu kidogo na uingize kikonyo. Weka kikonyo chini. Rudia na yaliyobaki.",
+    "4": "Oka roli grillini kwa ladha ya moshi, au kaanga kwa mafuta kidogo takriban dakika 2 kila upande.",
+    "5": "Toa kwenye bakuli na tambi nyembamba, saladi iliyokatwa na viungo vya Kivietinamu. Nyunyiza karanga zilizookwa na utoe na dipu ya sosi ya samaki. Kwa hiari toa na karatasi za mchele kwa kukunja mwenyewe."
+  },
+  "culturalNotes": "Ng'ombe kwenye jani la betel ni chakula cha jadi cha Kivietinamu kinachotolewa mara nyingi matukio maalum."
+},
+"w-vn-003": {
+  "title": "Waffles za pandan (Bánh Kếp Lá Dứa)",
+  "ingredients": {
+    "w-vn-003-i1": {"name": "Siagi", "standardAmount": "vijiko 2 vikubwa"},
+    "w-vn-003-i2": {"name": "Unga wa mchele", "standardAmount": "vikombe 1½"},
+    "w-vn-003-i3": {"name": "Unga wa tapioka", "standardAmount": "½ kikombe"},
+    "w-vn-003-i4": {"name": "Unga wa ngano", "standardAmount": "½ kikombe"},
+    "w-vn-003-i5": {"name": "Unga wa kuoka", "standardAmount": "1 kijiko kikubwa"},
+    "w-vn-003-i6": {"name": "Chumvi", "standardAmount": "¼ kijiko cha chai"},
+    "w-vn-003-i7": {"name": "Mayai", "standardAmount": "2 makubwa"},
+    "w-vn-003-i8": {"name": "Sukari", "standardAmount": "½ kikombe"},
+    "w-vn-003-i9": {"name": "Maziwa ya nazi", "standardAmount": "vikombe 1½"},
+    "w-vn-003-i10": {"name": "Pasta ya pandan", "standardAmount": "¾ kijiko cha chai"}
+  },
+  "instructions": {
+    "1": "Yeyusha siagi kwenye microwave kwa nguvu ndogo sekunde 30-45. Changanya na poozesha.",
+    "2": "Chuja unga wa mchele, tapioka, unga wa ngano, unga wa kuoka na chumvi kwenye bakuli kubwa.",
+    "3": "Piga mayai na sukari katika bakuli kubwa. Ongeza maziwa ya nazi, siagi iliyoyeyuka na pasta ya pandan, changanya vizuri.",
+    "4": "Ongeza nusu ya mchanganyiko mkavu, changanya. Ongeza uliobaki na uchanganye kwa uangalifu ukiondoa matuta makubwa. Acha mchanganyiko dakika 15.",
+    "5": "Pasha mashine ya waffle kwa juu kabisa. Mimina takriban ⅔ kikombe cha mchanganyiko na ueneze kwa spatula. Funga na uoke dakika 4-5 hadi iwe ya dhahabu.",
+    "6": "Inua waffle kwa fimbo ya mianzi na uihamishe kwa kibano kwenye gridi.",
+    "7": "Toa motoni."
+  },
+  "culturalNotes": "Waffles za pandan ni kitu tamu cha jadi cha Kivietinamu chenye harufu ya pandan na nazi."
+},
+"w-vn-004": {
+  "title": "Bánh pía",
+  "ingredients": {
+    "w-vn-004-i1": {"name": "Unga", "standardAmount": "g 500"},
+    "w-vn-004-i2": {"name": "Sukari", "standardAmount": "g 250"},
+    "w-vn-004-i3": {"name": "Mafuta ya mboga", "standardAmount": "ml 100"},
+    "w-vn-004-i4": {"name": "Mayai", "standardAmount": "2"},
+    "w-vn-004-i5": {"name": "Maziwa", "standardAmount": "ml 100"},
+    "w-vn-004-i6": {"name": "Chumvi", "standardAmount": "½ kijiko cha chai"},
+    "w-vn-004-i7": {"name": "Kiini cha pudini", "standardAmount": "g 400"}
+  },
+  "instructions": {
+    "1": "Changanya unga, sukari na chumvi katika bakuli kubwa.",
+    "2": "Ongeza mayai, maziwa na mafuta, ukande hadi unga laini.",
+    "3": "Funika unga na uache dakika 30.",
+    "4": "Gawanya unga vipande 12 sawa na utengeneze mipira.",
+    "5": "Weka kiini katikati ya kila mpira na ufunge kwa unga.",
+    "6": "Weka kwenye violesura vya bánh pía na uoke kwenye oveni ya 180 °C iliyowashwa.",
+    "7": "Oka dakika 20-25 hadi iwe ya dhahabu."
+  },
+  "culturalNotes": "Bánh pía ni kitu tamu cha tabaka cha jadi cha Kivietinamu kwa matukio maalum."
+},
+"w-vn-005": {
+  "title": "Bánh Tráng Trộn (saladi ya karatasi ya mchele ya Kivietinamu)",
+  "ingredients": {
+    "w-vn-005-i1": {"name": "Pasta ya ukwaju", "standardAmount": "g 100"},
+    "w-vn-005-i2": {"name": "Mafuta ya mboga", "standardAmount": "vijiko 4 vikubwa"},
+    "w-vn-005-i3": {"name": "Vipande vya saumu", "standardAmount": "6"},
+    "w-vn-005-i4": {"name": "Sosi ya samaki", "standardAmount": "vijiko 2 vikubwa"},
+    "w-vn-005-i5": {"name": "Sukari ya kristali", "standardAmount": "vijiko 3 vikubwa"},
+    "w-vn-005-i6": {"name": "Glutamat (si lazima)", "standardAmount": "½ kijiko cha chai"},
+    "w-vn-005-i7": {"name": "Vipande vya pilipili (si lazima)", "standardAmount": "1 kijiko kikubwa"},
+    "w-vn-005-i8": {"name": "Kalamari kavu", "standardAmount": "g 200"},
+    "w-vn-005-i9": {"name": "Kamba kavu", "standardAmount": "g 100"},
+    "w-vn-005-i10": {"name": "Nyama ya ng'ombe iliyokaushwa", "standardAmount": "g 100"},
+    "w-vn-005-i11": {"name": "Karatasi ya mchele kavu", "standardAmount": "g 170"},
+    "w-vn-005-i12": {"name": "Mafuta ya pilipili ya Kivietinamu", "standardAmount": "kulingana na ladha"},
+    "w-vn-005-i13": {"name": "Mafuta ya kitunguu ya Kivietinamu", "standardAmount": "kulingana na ladha"},
+    "w-vn-005-i14": {"name": "Embe mbichi", "standardAmount": "1"},
+    "w-vn-005-i15": {"name": "Mayai ya kanga yaliyochemshwa", "standardAmount": "10"},
+    "w-vn-005-i16": {"name": "Kitunguu kidogo kilichokaangwa", "standardAmount": "kulingana na ladha"},
+    "w-vn-005-i17": {"name": "Karanga zilizookwa bila chumvi", "standardAmount": "¼ kikombe"},
+    "w-vn-005-i18": {"name": "Majani ya kotimiri ya Kivietinamu", "standardAmount": "vikombe 2"}
+  },
+  "instructions": {
+    "1": "Na pasta ya ukwaju: loweka kwa vikombe 2 vya maji moto dakika 15, sugua kupitia chujio chembamba na utupu kivumbi.",
+    "2": "Pasha mafuta katika sufuria kwa moto wa kati. Kaanga saumu takriban sekunde 15. Ongeza ukwaju, sosi ya samaki, sukari, glutamat na vipande vya pilipili, changanya. Acha ichemke dakika 1. Mimina kwenye bakuli ndogo.",
+    "3": "Pasha mafuta ya mboga katika kikaango cha kati kwa moto wa kati. Kaanga kalamari sekunde 30; hukunjika, bonyeza kingo kwa fimbo kwa kukaanga sawasawa. Geuza na ukaange sekunde 30 zaidi. Ondoa. Inapopooa, pasua kwa mikono vipande virefu.",
+    "4": "Katika mafuta yale kaanga kamba takriban dakika 1, ondoa.",
+    "5": "Pasua nyama kwa mikono vipande vyembamba.",
+    "6": "Weka karatasi ya mchele kwenye bakuli kubwa. Ongeza sosi ya ukwaju, mafuta ya pilipili na mafuta ya kitunguu, changanya vizuri hadi karatasi ionywe sosi. Inaonekana kavu mwanzoni lakini hulainika.",
+    "7": "Ongeza nyama, kalamari, kamba, embe mbichi na mayai ya kanga, changanya kidogo.",
+    "8": "Pamba kwa kitunguu kilichokaangwa, karanga na kotimiri ya Kivietinamu."
+  },
+  "culturalNotes": "Bánh Tráng Trộn ni kiamshakinywa maarufu cha Kivietinamu kinacholiwa kama saladi au chakula chepesi."
+},
+"w-vn-006": {
+  "title": "Chè Trôi Nước (mipira ya mchele mtamu katika siropu ya tangawizi)",
+  "ingredients": {
+    "w-vn-006-i1": {"name": "Unga wa mchele mtamu", "standardAmount": "g 450"},
+    "w-vn-006-i2": {"name": "Maji moto", "standardAmount": "vikombe 1¾"},
+    "w-vn-006-i3": {"name": "Maharagwe ya mung yaliyopasuliwa", "standardAmount": "¾ kikombe"},
+    "w-vn-006-i4": {"name": "Sukari", "standardAmount": "vijiko 2 vikubwa"},
+    "w-vn-006-i5": {"name": "Chumvi", "standardAmount": "1 kijiko cha chai"},
+    "w-vn-006-i6": {"name": "Maji", "standardAmount": "vikombe 6"},
+    "w-vn-006-i7": {"name": "Tangawizi mpya", "standardAmount": "sm 10"},
+    "w-vn-006-i8": {"name": "Sukari ya mchikichi", "standardAmount": "g 280"},
+    "w-vn-006-i9": {"name": "Maziwa ya nazi", "standardAmount": "si lazima"},
+    "w-vn-006-i10": {"name": "Ufuta uliookwa", "standardAmount": "¼ kikombe"}
+  },
+  "instructions": {
+    "1": "Changanya unga wa mchele mtamu na maji moto katika bakuli kubwa na ukande hadi unga laini. Usiongeze maji zaidi. Funika na uache dakika 30.",
+    "2": "Gawanya unga kuwa mipira 28 takriban sm 2,5.",
+    "3": "Osha maharagwe ya mung hadi maji yasafike. Funika katika sufuria ya kati kwa maji ya sm 2,5, chemsha kwa moto wa kati na uchemsha polepole hadi yalainike yakibaki umbo lake (takriban dakika 15). Hakikisha hayamwagiki. Chuja na urudishe kwenye jiko zima kukausha. Ongeza chumvi na sukari, pondesa kwa kijiko kikubwa kuwa paste mbaya.",
+    "4": "Tengeneza kiini kuwa mipira takriban sm 1,2 (takriban 28). Ikiwa ni laini, poozesha kidogo.",
+    "5": "Bonyeza mpira wa unga kuwa duara nene, weka mpira wa kiini katikati, funika kwa unga na uviringishe kwenye kiganja kuwa mpira laini. Usiache kiini kitoke nje, vinginevyo mipira huvunjika inapochemshwa. Kwa unga uliobaki tengeneza mipira midogo ya lulu bila kiini. Weka imefunikwa.",
+    "6": "Chemsha maji na sukari ya mchikichi katika sufuria kubwa hadi sukari iyeyuke. Menya tangawizi kwa kijiko na ukate vipande vyembamba. Weka mipira kwenye siropu taratibu na uchemsha kwa moto wa kati-mdogo hadi inyooshe (takriban dakika 20).",
+    "7": "Tengeneza sosi ya nazi kwa hiari.",
+    "8": "Toa mipira kadhaa na siropu kwenye bakuli, mimina sosi ya nazi na unyunyize ufuta. Toa motoni au halijoto."
+  },
+  "culturalNotes": "Chè Trôi Nước ni kitu tamu cha jadi cha Kivietinamu kwa sikukuu na sherehe."
+},
+"w-vn-007": {
+  "title": "Jelly ya mitishamba (Thạch Sương Sáo)",
+  "ingredients": {
+    "w-vn-007-i1": {"name": "Unga wa jelly ya mitishamba", "standardAmount": "g 50"},
+    "w-vn-007-i2": {"name": "Sukari", "standardAmount": "⅓ kikombe"},
+    "w-vn-007-i3": {"name": "Maji", "standardAmount": "vikombe 4 (vimegawanywa)"}
+  },
+  "instructions": {
+    "1": "Weka unga wa jelly kwenye sufuria ya kati. Ongeza sukari na vikombe 2 vya maji, changanya hadi unga ueyuke.",
+    "2": "Ongeza vikombe 2 vingine vya maji, changanya vizuri.",
+    "3": "Acha mchanganyiko dakika 10.",
+    "4": "Pasha kwa moto wa kati ukichanganya kwa spatula, ukikora chini ambako unga umekaa.",
+    "5": "Baada ya dakika 3-4 huanza kuchemka na kuwa na matuta. Changanya haraka kwa kipigo hadi uwe laini na uendelee kuchanganya hadi uchemdishe. Zima moto na uchanganye dakika 1 zaidi hadi uwe laini bila matuta.",
+    "6": "Mimina kwenye chombo kinachostahimili joto na uvunje povu kwa kijiti au uondoe kwa kijiko.",
+    "7": "Poozesha kwa halijoto saa 1-1,5.",
+    "8": "Weka jokofu angalau masaa 2.",
+    "9": "Geuza chombo kwenye ubao mkubwa na ukate jelly kuwa viu.",
+    "10": "Kutoa weka barafu kwenye bakuli la kitu tamu, ongeza viu vya jelly na unyunyize sukari kidogo.",
+    "11": "Kwa hiari kata vidogo kwa kisu chenye meno na uweke kwenye kinywaji baridi.",
+    "12": "Hifadhi jelly iliyobaki jokofu hadi wiki 1."
+  },
+  "culturalNotes": "Jelly ya mitishamba ni kitu tamu cha jadi cha Kivietinamu, cha kuburudisha siku za joto."
 }
 }
