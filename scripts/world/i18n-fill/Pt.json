@@ -1,169 +1,544 @@
 {
-"w-ma-018": {
-  "title": "Pastilla Marroquina",
+"w-fr-001": {
+  "title": "Bouillabaisse",
   "ingredients": {
-    "w-ma-018-i1": {"name": "Azeite de oliva", "standardAmount": "1 colher de sopa"},
-    "w-ma-018-i2": {"name": "Coxas de frango sem osso", "standardAmount": "4-6 peças"},
-    "w-ma-018-i3": {"name": "Manteiga", "standardAmount": "1 colher de sopa"},
-    "w-ma-018-i4": {"name": "Cebolas", "standardAmount": "2 (finamente picadas)"},
-    "w-ma-018-i5": {"name": "Dentes de alho", "standardAmount": "2 (finamente picados)"},
-    "w-ma-018-i6": {"name": "Gengibre em pó", "standardAmount": "1 colher de chá"},
-    "w-ma-018-i7": {"name": "Canela", "standardAmount": "½ colher de chá"},
-    "w-ma-018-i8": {"name": "Cúrcuma", "standardAmount": "½ colher de chá"},
-    "w-ma-018-i9": {"name": "Açafrão", "standardAmount": "uma pitada"},
-    "w-ma-018-i10": {"name": "Caldo de galinha", "standardAmount": "2 chávenas"},
-    "w-ma-018-i11": {"name": "Ovos", "standardAmount": "4 (batidos)"},
-    "w-ma-018-i12": {"name": "Amêndoa moída", "standardAmount": "½ chávena"},
-    "w-ma-018-i13": {"name": "Tâmaras secas", "standardAmount": "¼ chávena (finamente picadas)"},
-    "w-ma-018-i14": {"name": "Água de flor de laranjeira", "standardAmount": "1 colher de sopa"},
-    "w-ma-018-i15": {"name": "Raspas de laranja", "standardAmount": "1 colher de chá"},
-    "w-ma-018-i16": {"name": "Salsa finamente picada", "standardAmount": "4 colheres de sopa"},
-    "w-ma-018-i17": {"name": "Sal e pimenta-preta moída na hora", "standardAmount": "a gosto"},
-    "w-ma-018-i18": {"name": "Massa filo", "standardAmount": "6 folhas"},
-    "w-ma-018-i19": {"name": "Manteiga derretida", "standardAmount": "½ chávena"},
-    "w-ma-018-i20": {"name": "Açúcar em pó", "standardAmount": "1 colher de sopa"},
-    "w-ma-018-i21": {"name": "Canela", "standardAmount": "1 colher de chá"}
+    "w-fr-001-i1": {"name": "Rascasso", "standardAmount": "660 g"},
+    "w-fr-001-i2": {"name": "Cantarilho", "standardAmount": "660 g"},
+    "w-fr-001-i3": {"name": "Salmonete", "standardAmount": "660 g"},
+    "w-fr-001-i4": {"name": "Congro", "standardAmount": "660 g"},
+    "w-fr-001-i5": {"name": "Tamboril", "standardAmount": "660 g"},
+    "w-fr-001-i6": {"name": "Peixe-galo", "standardAmount": "660 g"},
+    "w-fr-001-i7": {"name": "Polvo", "standardAmount": "1 vivo (opcional)"},
+    "w-fr-001-i8": {"name": "Ouriços-do-mar", "standardAmount": "10"},
+    "w-fr-001-i9": {"name": "Batatas", "standardAmount": "1 kg"},
+    "w-fr-001-i10": {"name": "Alho", "standardAmount": "7 dentes"},
+    "w-fr-001-i11": {"name": "Cebolas", "standardAmount": "3"},
+    "w-fr-001-i12": {"name": "Tomates", "standardAmount": "5 maduros"},
+    "w-fr-001-i13": {"name": "Azeite", "standardAmount": "240 ml"},
+    "w-fr-001-i14": {"name": "Bouquet garni", "standardAmount": "1 molho"},
+    "w-fr-001-i15": {"name": "Funcho", "standardAmount": "1 raminho"},
+    "w-fr-001-i16": {"name": "Açafrão", "standardAmount": "8 fios"},
+    "w-fr-001-i17": {"name": "Pão rústico", "standardAmount": "10 fatias"},
+    "w-fr-001-i18": {"name": "Sal", "standardAmount": "q.b."},
+    "w-fr-001-i19": {"name": "Pimenta-caiena", "standardAmount": "q.b."}
   },
   "instructions": {
-    "1": "Aqueça o azeite numa frigideira grande.",
-    "2": "Adicione o frango e frite até dourar.",
-    "3": "Vire as coxas e cozinhe mais alguns minutos, depois retire-as da frigideira.",
-    "4": "Adicione a manteiga à frigideira e, quando derreter, junte as cebolas e frite em lume brando até amolecerem.",
-    "5": "Adicione o alho e as especiarias e frite mais alguns minutos.",
-    "6": "Volte a colocar o frango na frigideira e adicione o caldo.",
-    "7": "Tempere, tape a frigideira e deixe cozinhar cerca de meia hora ou até o frango estar tenro. Retire o frango e reserve.",
-    "8": "Quando o frango estiver frio o suficiente para manusear, pique a carne finamente.",
-    "9": "Volte a levar o líquido ao lume e reduza-o para metade.",
-    "10": "Junte os ovos ao líquido e continue a cozinhar em lume brando até obter uma mistura semelhante a ovos mexidos soltos.",
-    "11": "Adicione a amêndoa moída e mexa, depois junte as tâmaras, a água de flor de laranjeira, as raspas e, por fim, o frango.",
-    "12": "Retire a frigideira do lume e deixe arrefecer.",
-    "13": "Pré-aqueça o forno a 190 °C.",
-    "14": "Para montar a pastilla, use uma forma de tarte de 23 cm.",
-    "15": "Pincele uma folha de massa filo com manteiga derretida e coloque-a na forma, pressionando suavemente nas bordas sem rasgar.",
-    "16": "Repita com outra folha de filo, desta vez em ângulo reto em relação à primeira.",
-    "17": "Repita com mais duas folhas de filo, colocando-as na diagonal.",
-    "18": "Espalhe o recheio sobre a massa. Dobre as pontas soltas do filo por cima, na ordem inversa — devem cobrir o recheio.",
-    "19": "Corte as duas últimas folhas de filo para caberem na forma.",
-    "20": "Pincele-as com manteiga e cubra a pastilla, dobrando as bordas para dentro.",
-    "21": "Leve ao forno cerca de 30 minutos, até a massa estar crocante e dourada.",
-    "22": "Retire do forno, deixe arrefecer um pouco e polvilhe com açúcar em pó e canela.",
-    "23": "Sirva morna."
+    "1": "Limpar o peixe e cortar em pedaços grandes com espinhas.",
+    "2": "Aquecer o azeite numa panela grande e funda.",
+    "3": "Juntar as cebolas, 6 dentes de alho esmagados, o polvo e os tomates e cozinhar 5 minutos em lume brando.",
+    "4": "Juntar primeiro os pedaços maiores de peixe, cobrir com água a ferver, juntar sal, pimenta, funcho, bouquet garni e açafrão e deixar ferver suavemente.",
+    "5": "Fazer o rouille: esmagar o alho num almofariz, juntar a gema e o açafrão e bater com o azeite aos poucos até obter uma maionese.",
+    "6": "Cozer as batatas 15-20 minutos em água com sal. Abrir os ouriços com uma tesoura e retirar a carne com uma colher.",
+    "7": "Dispor o peixe numa travessa grande. Envolver a carne dos ouriços na sopa.",
+    "8": "Esfregar o pão com alho e barrar com rouille. Pelo menos 2 fatias por tigela.",
+    "9": "Retirar o peixe e as batatas da sopa e dispor numa travessa.",
+    "10": "Verter a sopa quente sobre o pão com rouille. Servir o peixe e as batatas à parte."
   },
-  "culturalNotes": "A pastilla é um prato tradicional marroquino que combina sabores doces e salgados, servido frequentemente em ocasiões especiais."
+  "culturalNotes": "A bouillabaisse é o prato tradicional de Marselha, famoso pela variedade de peixes e mariscos."
 },
-"w-ma-029": {
-  "title": "Kebab Maghdour",
+"w-fr-002": {
+  "title": "Lulas fritas com tzatziki",
   "ingredients": {
-    "w-ma-029-i1": {"name": "Carne de cordeiro, vitela ou vaca", "standardAmount": "1 kg (cubos de 2,5 cm)"},
-    "w-ma-029-i2": {"name": "Cebolas", "standardAmount": "2 médias (raladas ou finamente picadas)"},
-    "w-ma-029-i3": {"name": "Alho", "standardAmount": "2-3 dentes (ralados ou picados)"},
-    "w-ma-029-i4": {"name": "Gengibre em pó", "standardAmount": "½ colher de chá"},
-    "w-ma-029-i5": {"name": "Pimenta-preta e branca", "standardAmount": "¼ colher de chá"},
-    "w-ma-029-i6": {"name": "Salsa e coentros", "standardAmount": "2 colheres de sopa (picados)"},
-    "w-ma-029-i7": {"name": "Óleo vegetal", "standardAmount": "1 colher de sopa"},
-    "w-ma-029-i8": {"name": "Óleo vegetal e azeite", "standardAmount": "3 colheres de sopa (misturados)"},
-    "w-ma-029-i9": {"name": "Sal", "standardAmount": "1 colher de chá (a gosto)"},
-    "w-ma-029-i10": {"name": "Pau de canela", "standardAmount": "1 (opcional)"},
-    "w-ma-029-i11": {"name": "Colorau doce", "standardAmount": "1 colher de sopa"},
-    "w-ma-029-i12": {"name": "Salsa picada", "standardAmount": "2 colheres de sopa"},
-    "w-ma-029-i13": {"name": "Smen (manteiga fermentada)", "standardAmount": "1 colher de sopa (ou ghee)"},
-    "w-ma-029-i14": {"name": "Manteiga", "standardAmount": "2 colheres de sopa"},
-    "w-ma-029-i15": {"name": "Ovos", "standardAmount": "3-6 (meio a um ovo por pessoa)"},
-    "w-ma-029-i16": {"name": "Azeite", "standardAmount": "6 colheres de sopa (para fritar)"},
-    "w-ma-029-i17": {"name": "Salsa ou coentros picados", "standardAmount": "1 colher de sopa"}
+    "w-fr-002-i1": {"name": "Alho", "standardAmount": "2 dentes pequenos (picado)"},
+    "w-fr-002-i2": {"name": "Azeite", "standardAmount": "1 colher de sopa"},
+    "w-fr-002-i3": {"name": "Pepino", "standardAmount": "1 pequeno"},
+    "w-fr-002-i4": {"name": "Iogurte", "standardAmount": "250 g"},
+    "w-fr-002-i5": {"name": "Hortelã seca", "standardAmount": "1 colher de chá"},
+    "w-fr-002-i6": {"name": "Sumo de limão", "standardAmount": "1 colher de chá"},
+    "w-fr-002-i7": {"name": "Sal e pimenta", "standardAmount": "q.b."},
+    "w-fr-002-i8": {"name": "Lulas", "standardAmount": "450 g"},
+    "w-fr-002-i9": {"name": "Farinha", "standardAmount": "1 tigela grande"},
+    "w-fr-002-i10": {"name": "Óleo para fritar", "standardAmount": "2,5 cm na frigideira"},
+    "w-fr-002-i11": {"name": "Sumo de limão fresco", "standardAmount": "q.b."},
+    "w-fr-002-i12": {"name": "Sal, pimenta, orégãos secos", "standardAmount": "q.b."}
   },
   "instructions": {
-    "1": "Corte a carne em cubos de 2,5 cm.",
-    "2": "Numa tigela, misture a carne com a cebola ralada, alho, gengibre, pimenta, salsa, coentros e óleo vegetal. Deixe marinar 30 minutos.",
-    "3": "Num tacho, aqueça o óleo vegetal e o azeite, junte a cebola picada e refogue até dourar.",
-    "4": "Adicione a carne marinada e refogue 5 minutos.",
-    "5": "Cubra a carne com água, adicione gengibre, sal, o pau de canela e o colorau. Deixe ferver, reduza o lume e cozinhe 45 minutos até a carne estar tenra.",
-    "6": "Junte os ovos ao tacho e cozinhe 10 minutos.",
-    "7": "Sirva o Kebab Maghdour quente, polvilhado com salsa picada."
+    "1": "Misturar o azeite e o alho numa tigela média.",
+    "2": "Cortar o pepino fino, polvilhar com sal e deixar escorrer pelo menos 15 minutos.",
+    "3": "Misturar o iogurte, o pepino, a hortelã, o sumo de limão, o sal e a pimenta no azeite com alho. Se ficar líquido, juntar mais iogurte.",
+    "4": "Limpar as lulas e cortar o corpo em anéis de 2,5 cm (as pequenas inteiras).",
+    "5": "Preparar uma tigela de farinha com sal e pimenta.",
+    "6": "Aquecer o óleo em lume alto.",
+    "7": "Panar as lulas por dentro e por fora.",
+    "8": "Fritar em pequenas porções.",
+    "9": "As pequenas cerca de 1 minuto, as grandes mais um minuto.",
+    "10": "Escorrer em papel absorvente e servir imediatamente com tzatziki."
   },
-  "culturalNotes": "O Kebab Maghdour é um prato tradicional marroquino servido em ocasiões especiais, conhecido pelos seus ricos sabores de especiarias e carne tenra."
+  "culturalNotes": "As lulas com tzatziki são um prato mediterrânico, muito apreciado na Grécia e em Chipre."
 },
-"w-mx-046": {
-  "title": "Chile Relleno",
+"w-fr-003": {
+  "title": "Calissons",
   "ingredients": {
-    "w-mx-046-i1": {"name": "Pimentões poblano", "standardAmount": "6 grandes"},
-    "w-mx-046-i2": {"name": "Queijo Monterey Jack", "standardAmount": "225 g (em tiras ou ralado)"},
-    "w-mx-046-i3": {"name": "Óleo", "standardAmount": "1 litro (para fritar)"},
-    "w-mx-046-i4": {"name": "Ovos", "standardAmount": "3 grandes"},
-    "w-mx-046-i5": {"name": "Farinha de trigo", "standardAmount": "½ chávena"},
-    "w-mx-046-i6": {"name": "Sal fino", "standardAmount": "½ colher de chá"},
-    "w-mx-046-i7": {"name": "Tomates Roma", "standardAmount": "6 (em quartos)"},
-    "w-mx-046-i8": {"name": "Cebola", "standardAmount": "½ pequena (ao meio)"},
-    "w-mx-046-i9": {"name": "Alho", "standardAmount": "3 dentes"},
-    "w-mx-046-i10": {"name": "Pimenta jalapeño", "standardAmount": "1 (sem talo nem sementes, opcional)"},
-    "w-mx-046-i11": {"name": "Coentros", "standardAmount": "5 ramos"},
-    "w-mx-046-i12": {"name": "Sal grosso", "standardAmount": "1 colher de chá (mais a gosto)"},
-    "w-mx-046-i13": {"name": "Azeite", "standardAmount": "1 colher de chá"}
+    "w-fr-003-i1": {"name": "Amêndoas", "standardAmount": "200 g"},
+    "w-fr-003-i2": {"name": "Açúcar em pó", "standardAmount": "200 g"},
+    "w-fr-003-i3": {"name": "Mel", "standardAmount": "100 g"},
+    "w-fr-003-i4": {"name": "Canela", "standardAmount": "½ colher de chá"},
+    "w-fr-003-i5": {"name": "Cravinho", "standardAmount": "¼ colher de chá"},
+    "w-fr-003-i6": {"name": "Passas", "standardAmount": "50 g"},
+    "w-fr-003-i7": {"name": "Farinha", "standardAmount": "100 g"},
+    "w-fr-003-i8": {"name": "Ovo", "standardAmount": "1"}
   },
   "instructions": {
-    "1": "Asse os pimentões poblano em lume médio até a pele enegrecer. Coloque-os num saco de plástico fechado por 10 minutos.",
-    "2": "Descasque os pimentões e corte o talo. Abra-os com cuidado e retire as sementes e as membranas internas.",
-    "3": "Recheie os pimentões com o queijo Monterey Jack. Reserve.",
-    "4": "Numa tigela, bata os ovos com o sal. Noutra, coloque a farinha.",
-    "5": "Passe os pimentões recheados primeiro pela farinha, depois pelo ovo.",
-    "6": "Aqueça o óleo numa frigideira funda em lume médio. Frite os pimentões até dourarem de todos os lados.",
-    "7": "Faça o molho de tomate triturando os tomates, a cebola, o alho, o jalapeño, os coentros, o sal e o azeite no liquidificador até ficar liso.",
-    "8": "Sirva os pimentões recheados com o molho de tomate à parte."
+    "1": "Misturar a farinha de amêndoa e o açúcar em pó numa tigela.",
+    "2": "Juntar o mel, a canela, o cravinho e as passas e misturar bem.",
+    "3": "Juntar a farinha aos poucos até obter uma massa firme.",
+    "4": "Cobrir e deixar repousar 30 minutos.",
+    "5": "Formar pequenas bolas e dispor num tabuleiro forrado com papel vegetal.",
+    "6": "Assar 20 minutos a 180 °C até dourar.",
+    "7": "Deixar arrefecer e servir."
   },
-  "culturalNotes": "O chile relleno é um prato tradicional mexicano servido frequentemente em ocasiões especiais."
+  "culturalNotes": "Os calissons são doces tradicionais do sul de França, de aroma fino e doçura delicada."
 },
-"w-mx-048": {
-  "title": "Chá de Canela Mexicano",
+"w-fr-004": {
+  "title": "Alho confitado",
   "ingredients": {
-    "w-mx-048-i1": {"name": "Água", "standardAmount": "6 chávenas"},
-    "w-mx-048-i2": {"name": "Paus de canela mexicanos", "standardAmount": "2 paus"},
-    "w-mx-048-i3": {"name": "Mel", "standardAmount": "a gosto"}
+    "w-fr-004-i1": {"name": "Alho", "standardAmount": "2 cabeças"},
+    "w-fr-004-i2": {"name": "Tomilho", "standardAmount": "2 raminhos"},
+    "w-fr-004-i3": {"name": "Azeite", "standardAmount": "250 ml"},
+    "w-fr-004-i4": {"name": "Sal", "standardAmount": "1 pitada generosa"}
   },
   "instructions": {
-    "1": "Coloque a água e a canela num tacho médio e leve a ferver.",
-    "2": "Deixe ferver 3-5 minutos e retire do lume.",
-    "3": "Deixe em infusão mais 30 minutos ou até atingir a intensidade desejada.",
-    "4": "Adicione mel a gosto.",
-    "5": "Sirva morno."
+    "1": "Pré-aquecer o forno a 150 °C (ventilado 130 °C).",
+    "2": "Colocar o alho numa assadeira pequena (cerca de 13 cm) com o tomilho e o sal.",
+    "3": "Cobrir completamente com azeite.",
+    "4": "Cozinhar 1 hora e 20 minutos até o azeite borbulhar suavemente e o alho ficar bem dourado; deve esmagar-se mas manter a forma.",
+    "5": "Deixar arrefecer no azeite. Num frasco esterilizado conserva-se 2 semanas no frigorífico."
   },
-  "culturalNotes": "O chá de canela mexicano é uma bebida tradicional muito popular no México, especialmente durante festas e ocasiões especiais."
+  "culturalNotes": "O alho confitado é um clássico da cozinha francesa para entradas e para aromatizar pratos."
 },
-"w-mx-049": {
-  "title": "Filé de Peixe com Molho de Alho",
+"w-fr-005": {
+  "title": "Confit de canard (pato confitado)",
   "ingredients": {
-    "w-mx-049-i1": {"name": "Filés de tilápia ou outro peixe", "standardAmount": "680 g"},
-    "w-mx-049-i2": {"name": "Lima", "standardAmount": "1"},
-    "w-mx-049-i3": {"name": "Sal e pimenta", "standardAmount": "a gosto"},
-    "w-mx-049-i4": {"name": "Óleo vegetal (ou metade azeite)", "standardAmount": "¼ chávena"},
-    "w-mx-049-i5": {"name": "Dentes de alho", "standardAmount": "6 (em fatias finas)"},
-    "w-mx-049-i6": {"name": "Salsa", "standardAmount": "3 colheres de sopa (finamente picada)"},
-    "w-mx-049-i7": {"name": "Farinha (opcional)", "standardAmount": "2 colheres de sopa"}
+    "w-fr-005-i1": {"name": "Pernas de pato", "standardAmount": "4 (de 250 g)"},
+    "w-fr-005-i2": {"name": "Gordura de pato", "standardAmount": "750 ml"},
+    "w-fr-005-i3": {"name": "Sal", "standardAmount": "4 colheres de chá"},
+    "w-fr-005-i4": {"name": "Tomilho", "standardAmount": "⅓ chávena"},
+    "w-fr-005-i5": {"name": "Salva", "standardAmount": "⅓ chávena"},
+    "w-fr-005-i6": {"name": "Alecrim", "standardAmount": "⅓ chávena"},
+    "w-fr-005-i7": {"name": "Orégãos", "standardAmount": "⅓ chávena"},
+    "w-fr-005-i8": {"name": "Alho", "standardAmount": "6 dentes (esmagados com casca)"},
+    "w-fr-005-i9": {"name": "Chalota", "standardAmount": "1 (às fatias finas)"},
+    "w-fr-005-i10": {"name": "Pimenta preta em grão", "standardAmount": "1 colher de sopa"},
+    "w-fr-005-i11": {"name": "Sementes de coentro", "standardAmount": "1 colher de sopa"},
+    "w-fr-005-i12": {"name": "Anis estrelado", "standardAmount": "8"},
+    "w-fr-005-i13": {"name": "Folhas de louro", "standardAmount": "2"},
+    "w-fr-005-i14": {"name": "Zimbro", "standardAmount": "2 colheres de sopa"},
+    "w-fr-005-i15": {"name": "Cravinho", "standardAmount": "8"}
   },
   "instructions": {
-    "1": "Tempere o peixe com sal, pimenta e sumo de lima. Reserve enquanto prepara os restantes ingredientes.",
-    "2": "Aqueça o óleo numa frigideira grande em lume brando. Frite as fatias de alho até dourarem. Retire-as logo que fiquem levemente douradas; se ficarem mais tempo ficam amargas.",
-    "3": "Se usar farinha, polvilhe os filés levemente. Aumente o lume da frigideira para médio-alto. Quando quente, frite o peixe dos dois lados. Filés de 1 cm levam 2-3 minutos por lado; mais grossos, 5-7 minutos.",
-    "4": "Retire o peixe e coloque-o sobre uma grelha com papel de cozinha por baixo para escorrer a gordura.",
-    "5": "Sirva o peixe guarnecido com salsa picada e as fatias de alho douradas. (E com um pouco de manteiga, fica divinal!)"
+    "1": "Misturar o sal e as ervas numa tigela e esfregar nas pernas.",
+    "2": "Dispor numa travessa funda, cobrir com as ervas e refrigerar tapado 24 horas.",
+    "3": "Ao fim de 24 horas, passar por água fria e secar bem.",
+    "4": "Colocar num tabuleiro de forno, cobrir com a gordura e as ervas e tapar com papel de alumínio.",
+    "5": "Cozinhar 2-3 horas a 100 °C até a carne ficar macia.",
+    "6": "Retirar, deixar arrefecer um pouco e clarificar a gordura num recipiente com tampa.",
+    "7": "Dispor o pato numa travessa funda e cobrir com a gordura clarificada. Conserva-se 6 meses no frigorífico.",
+    "8": "Para servir, assar 10-15 minutos a 200 °C até a pele ficar crocante."
   },
-  "culturalNotes": "Este é um dos pratos mais populares da cozinha mexicana, frequentemente servido como prato principal em reuniões familiares."
+  "culturalNotes": "O confit de canard é um clássico francês em que as pernas cozem lentamente na gordura; servido com puré ou legumes assados."
 },
-"w-mx-050": {
-  "title": "Quesadilla de Poblano e Queijo",
+"w-fr-006": {
+  "title": "Flamiche (tarte de alho-porro)",
   "ingredients": {
-    "w-mx-050-i1": {"name": "Tortilhas de trigo", "standardAmount": "4 (25 cm)"},
-    "w-mx-050-i2": {"name": "Queijo cheddar ou pepper jack", "standardAmount": "1 chávena (ralado)"},
-    "w-mx-050-i3": {"name": "Pimentões poblano assados", "standardAmount": "2 (em cubos)"},
-    "w-mx-050-i4": {"name": "Salsa (para acompanhar)", "standardAmount": "a gosto"},
-    "w-mx-050-i5": {"name": "Guacamole (para acompanhar)", "standardAmount": "a gosto"}
+    "w-fr-006-i1": {"name": "Farinha", "standardAmount": "350 g"},
+    "w-fr-006-i2": {"name": "Manteiga", "standardAmount": "175 g (à temperatura ambiente)"},
+    "w-fr-006-i3": {"name": "Sal", "standardAmount": "1 pitada"},
+    "w-fr-006-i4": {"name": "Leite", "standardAmount": "7 colheres de sopa"},
+    "w-fr-006-i5": {"name": "Caril em pó", "standardAmount": "½ colher de chá"},
+    "w-fr-006-i6": {"name": "Alho-porro", "standardAmount": "900 g (picado)"},
+    "w-fr-006-i7": {"name": "Manteiga", "standardAmount": "40 g"},
+    "w-fr-006-i8": {"name": "Gemas", "standardAmount": "4 (3 para o recheio + 1 para pincelar)"},
+    "w-fr-006-i9": {"name": "Crème fraîche", "standardAmount": "200 g"},
+    "w-fr-006-i10": {"name": "Noz-moscada", "standardAmount": "¼ colher de chá"},
+    "w-fr-006-i11": {"name": "Sal e pimenta preta", "standardAmount": "1 pitada"}
   },
   "instructions": {
-    "1": "Aqueça um comal em lume médio-baixo por 1 minuto.",
-    "2": "Aqueça a tortilha 1 minuto de cada lado, vire, polvilhe queijo numa delas, junte o chili, cubra com outra tortilha e pressione levemente com uma espátula.",
-    "3": "Vire de vez em quando até a quesadilla estar dourada dos dois lados e o queijo derretido.",
-    "4": "Repita com as restantes tortilhas e ingredientes.",
-    "5": "Sirva com salsa e guacamole, se desejar."
+    "1": "Esfregar a farinha, a manteiga e o sal numa tigela grande até obter uma textura areada.",
+    "2": "Juntar o leite aos poucos até formar massa.",
+    "3": "Cobrir e refrigerar 30 minutos.",
+    "4": "Derreter a manteiga numa frigideira grande e fritar o alho-porro até ficar macio e dourado.",
+    "5": "Juntar o caril e mexer 1 minuto.",
+    "6": "Misturar noutra tigela as gemas, o crème fraîche, a noz-moscada, o sal e a pimenta.",
+    "7": "Envolver o alho-porro frito na mistura de ovos.",
+    "8": "Forrar a tarteira com massa e verter o recheio.",
+    "9": "Cobrir com a massa de cima e fechar as bordas.",
+    "10": "Pincelar com a gema restante.",
+    "11": "Assar 45 minutos a 180 °C até dourar.",
+    "12": "Deixar repousar 10 minutos e servir."
   },
-  "culturalNotes": "A quesadilla é um prato muito popular no México, servido como lanche ou refeição principal."
+  "culturalNotes": "A flamiche é a tarte de alho-porro tradicional do norte de França."
+},
+"w-fr-007": {
+  "title": "Batatas fondant",
+  "ingredients": {
+    "w-fr-007-i1": {"name": "Batatas grandes farinhentas", "standardAmount": "4 (de 400 g)"},
+    "w-fr-007-i2": {"name": "Sal", "standardAmount": "¾ colher de chá"},
+    "w-fr-007-i3": {"name": "Pimenta preta", "standardAmount": "½ colher de chá"},
+    "w-fr-007-i4": {"name": "Azeite extra virgem", "standardAmount": "2 colheres de sopa"},
+    "w-fr-007-i5": {"name": "Manteiga sem sal", "standardAmount": "3 colheres de sopa (50 g)"},
+    "w-fr-007-i6": {"name": "Tomilho", "standardAmount": "6 raminhos"},
+    "w-fr-007-i7": {"name": "Caldo de galinha ou legumes", "standardAmount": "240 ml (pobre em sal)"}
+  },
+  "instructions": {
+    "1": "Pré-aquecer o forno a 200 °C (ventilado 180 °C).",
+    "2": "Cortar as batatas em cilindros de cerca de 6 cm de diâmetro e 7 cm de altura, dividir em 8 cilindros de 3,5 cm.",
+    "3": "Secar e esfregar com metade do azeite, o sal e a pimenta.",
+    "4": "Aquecer o restante azeite numa frigideira apta para forno em lume médio-alto e fritar cada lado 6-8 minutos até dourar.",
+    "5": "Juntar a manteiga e o tomilho; quando derreter, regar as batatas. Verter o caldo, levar a ferver e cozer 30 minutos no forno, regando de novo ao fim de 15 minutos.",
+    "6": "Regar mais uma vez e servir. À moda de restaurante com bife, molho béarnaise e feijão-verde com manteiga."
+  },
+  "culturalNotes": "As batatas fondant são um prato de forno francês: douradas por fora, cremosas por dentro."
+},
+"w-fr-008": {
+  "title": "Crepes de chocolate",
+  "ingredients": {
+    "w-fr-008-i1": {"name": "Manteiga sem sal", "standardAmount": "25 g"},
+    "w-fr-008-i2": {"name": "Farinha", "standardAmount": "150 g"},
+    "w-fr-008-i3": {"name": "Ovos", "standardAmount": "2 grandes"},
+    "w-fr-008-i4": {"name": "Leite gordo", "standardAmount": "275 ml"},
+    "w-fr-008-i5": {"name": "Sal", "standardAmount": "1 pitada"},
+    "w-fr-008-i6": {"name": "Baunilha em pó", "standardAmount": "¼ colher de chá (opcional)"},
+    "w-fr-008-i7": {"name": "Açúcar em pó", "standardAmount": "1 colher de sopa"},
+    "w-fr-008-i8": {"name": "Cacau em pó", "standardAmount": "1 colher de sopa"}
+  },
+  "instructions": {
+    "1": "Derreter a manteiga na crepeira (deixar dourar ligeiramente para aroma a noz).",
+    "2": "Misturar a farinha, o açúcar em pó, o cacau, o sal e a baunilha numa tigela grande; partir os ovos no centro e bater com a manteiga derretida até ficar liso.",
+    "3": "Juntar um quarto do leite e depois o restante aos poucos. A massa fica líquida; é mesmo assim.",
+    "4": "Limpar o excesso de manteiga, aquecer em lume médio-alto e verter uma concha de massa; deixar espalhar fina.",
+    "5": "Cozer 2-3 minutos até formar bolhas, virar e cozer mais alguns minutos.",
+    "6": "Baixar um pouco o lume, limpar a frigideira e repetir para 6-8 crepes."
+  },
+  "culturalNotes": "Os crepes são um pequeno-almoço francês muito apreciado, servidos com chocolate, mel ou morangos."
+},
+"w-fr-009": {
+  "title": "Trufas de chocolate com ganache",
+  "ingredients": {
+    "w-fr-009-i1": {"name": "Chocolate negro", "standardAmount": "285 g"},
+    "w-fr-009-i2": {"name": "Manteiga sem sal", "standardAmount": "30 g"},
+    "w-fr-009-i3": {"name": "Natas", "standardAmount": "125 ml"},
+    "w-fr-009-i4": {"name": "Coco ralado", "standardAmount": "125 g"},
+    "w-fr-009-i5": {"name": "Cacau em pó", "standardAmount": "60 g"},
+    "w-fr-009-i6": {"name": "Amendoim moído", "standardAmount": "125 g"},
+    "w-fr-009-i7": {"name": "Granulado colorido", "standardAmount": "85 g"},
+    "w-fr-009-i8": {"name": "Açúcar em pó", "standardAmount": "60 g"}
+  },
+  "instructions": {
+    "1": "Colocar o chocolate, as natas e a manteiga numa tigela resistente ao calor e aquecer 4 vezes 30 segundos no micro-ondas, mexendo entre cada vez.",
+    "2": "Tapar a tigela, deixar repousar 5 minutos e mexer até ficar liso; a ganache está pronta.",
+    "3": "Deixar solidificar 6 horas no frigorífico. Não congelar.",
+    "4": "Refrigerar também o prato para as trufas.",
+    "5": "Ao fim de 6 horas, formar pequenas bolas com uma colher de chá.",
+    "6": "Passar por coco, cacau, amendoim, granulado ou açúcar em pó.",
+    "7": "Dispor no prato frio e deixar solidificar completamente."
+  },
+  "culturalNotes": "A ganache é a mistura aveludada de chocolate e natas, o coração de muitos doces franceses."
+},
+"w-fr-010": {
+  "title": "Gratin dauphinois",
+  "ingredients": {
+    "w-fr-010-i1": {"name": "Batatas", "standardAmount": "750 g"},
+    "w-fr-010-i2": {"name": "Alho", "standardAmount": "2-3 dentes (picado)"},
+    "w-fr-010-i3": {"name": "Leite gordo", "standardAmount": "275 ml"},
+    "w-fr-010-i4": {"name": "Natas espessas", "standardAmount": "150 ml"},
+    "w-fr-010-i5": {"name": "Noz-moscada", "standardAmount": "¼ colher de chá"},
+    "w-fr-010-i6": {"name": "Sal e pimenta preta", "standardAmount": "q.b."},
+    "w-fr-010-i7": {"name": "Tomilho fresco", "standardAmount": "½ colher de chá"},
+    "w-fr-010-i8": {"name": "Manteiga", "standardAmount": "um pouco (para a forma)"},
+    "w-fr-010-i9": {"name": "Emmental ou Gruyère", "standardAmount": "100 g (opcional)"}
+  },
+  "instructions": {
+    "1": "Descascar as batatas (ou deixar a casca) e cortar em rodelas de 3 mm.",
+    "2": "Pré-aquecer o forno a 190 °C (ventilado 170 °C).",
+    "3": "Levar o leite, as natas e o alho a ferver, baixar o lume e juntar a noz-moscada, o sal, a pimenta e as batatas.",
+    "4": "Cozer cerca de 5 minutos virando as rodelas. O queijo pode ser adicionado aqui.",
+    "5": "Untar a forma e dispor as batatas uniformemente.",
+    "6": "Assar cerca de 45 minutos até dourar."
+  },
+  "culturalNotes": "Prato tradicional do Dauphiné: finas rodelas de batata gratinadas com leite, natas e noz-moscada."
+},
+"w-fr-011": {
+  "title": "Pain d'épices (pão de especiarias)",
+  "ingredients": {
+    "w-fr-011-i1": {"name": "Água", "standardAmount": "250 ml"},
+    "w-fr-011-i2": {"name": "Mel", "standardAmount": "255 g"},
+    "w-fr-011-i3": {"name": "Vagens de cardamomo", "standardAmount": "4"},
+    "w-fr-011-i4": {"name": "Cravinho", "standardAmount": "2"},
+    "w-fr-011-i5": {"name": "Anis estrelado", "standardAmount": "2"},
+    "w-fr-011-i6": {"name": "Açúcar de cana bruto", "standardAmount": "100 g"},
+    "w-fr-011-i7": {"name": "Manteiga sem sal", "standardAmount": "155 g"},
+    "w-fr-011-i8": {"name": "Farinha de centeio", "standardAmount": "255 g"},
+    "w-fr-011-i9": {"name": "Fermento em pó", "standardAmount": "2 colheres de chá"},
+    "w-fr-011-i10": {"name": "Sal", "standardAmount": "1 pitada generosa"},
+    "w-fr-011-i11": {"name": "Mistura de especiarias", "standardAmount": "1½ colher de chá"},
+    "w-fr-011-i12": {"name": "Frutos secos", "standardAmount": "1 colher de sopa"}
+  },
+  "instructions": {
+    "1": "Untar uma forma de bolo inglês e pré-aquecer o forno a 180 °C (ventilado 160 °C).",
+    "2": "Levar a água, o mel, o açúcar e as especiarias a ferver num tacho, derreter a manteiga, desligar o lume e deixar infundir 5 minutos.",
+    "3": "Misturar a farinha de centeio, o fermento, o sal e as especiarias em pó numa tigela e envolver aos poucos a mistura de mel quente até ficar lisa.",
+    "4": "Encher a forma até três quartos e assar 40-50 minutos até ficar bem dourado; um palito deve sair limpo.",
+    "5": "Deixar arrefecer 10 minutos na forma e desenformar para uma rede. Decorar com frutos secos e anis estrelado."
+  },
+  "culturalNotes": "O pain d'épices é o pão de especiarias tradicional francês, de aroma quente e especiado."
+},
+"w-fr-012": {
+  "title": "Pissaladière",
+  "ingredients": {
+    "w-fr-012-i1": {"name": "Azeite", "standardAmount": "4 colheres de sopa + para a forma"},
+    "w-fr-012-i2": {"name": "Cebolas", "standardAmount": "1 kg (às fatias muito finas)"},
+    "w-fr-012-i3": {"name": "Tomilho", "standardAmount": "1 molho pequeno"},
+    "w-fr-012-i4": {"name": "Folhas de louro", "standardAmount": "2"},
+    "w-fr-012-i5": {"name": "Filetes de anchova", "standardAmount": "80 g (escorridos)"},
+    "w-fr-012-i6": {"name": "Azeitonas pretas", "standardAmount": "80 g (descaroçadas)"},
+    "w-fr-012-i7": {"name": "Parmesão", "standardAmount": "20 g (ralado)"},
+    "w-fr-012-i8": {"name": "Manteiga sem sal fria", "standardAmount": "200 g"},
+    "w-fr-012-i9": {"name": "Sumo de limão", "standardAmount": "1 colher de chá"},
+    "w-fr-012-i10": {"name": "Farinha forte", "standardAmount": "200 g + para a bancada"},
+    "w-fr-012-i11": {"name": "Sal", "standardAmount": "1 colher de chá"},
+    "w-fr-012-i12": {"name": "Água gelada", "standardAmount": "125 ml"}
+  },
+  "instructions": {
+    "1": "Massa: ralar a manteiga grosso, polvilhar com farinha numa tigela e congelar 30 minutos (ou refrigerar 1 hora).",
+    "2": "Misturar o sumo de limão com 125 ml de água gelada. Colocar o restante da farinha e o sal numa tigela grande, juntar a manteiga congelada e misturar com as pontas dos dedos.",
+    "3": "Verter dois terços da água de limão e juntar com uma faca. Se estiver seco, juntar um pouco de água. A massa fica granulada mas compacta ao pressionar.",
+    "4": "Virar para uma superfície enfarinhada, amassar levemente até um retângulo tosco, embrulhar e refrigerar 20 minutos.",
+    "5": "Estender até um retângulo de 20×30 cm; as veias de manteiga ficam visíveis.",
+    "6": "Aquecer o azeite numa frigideira grande em lume médio-alto, juntar as cebolas com sal, tomilho e louro e estufar 40-45 minutos mexendo até obter uma massa dourada tipo compota. Deixar arrefecer.",
+    "7": "Untar levemente o tabuleiro, estender a massa até 25×35 cm, dispor, formar um rebordo e refrigerar 20 minutos.",
+    "8": "Aquecer o forno a 220 °C (ventilado 200 °C). Distribuir as cebolas, dispor as anchovas em losangos e as azeitonas no centro. Polvilhar com parmesão e assar 30 minutos.",
+    "9": "Polvilhar com tomilho, deixar repousar 10 minutos e cortar em quadrados."
+  },
+  "culturalNotes": "A pissaladière é a especialidade da Provença: massa fina com cebolas estufadas, anchovas e azeitonas pretas."
+},
+"w-fr-013": {
+  "title": "Ratatouille",
+  "ingredients": {
+    "w-fr-013-i1": {"name": "Azeite", "standardAmount": "⅓-¼ chávena"},
+    "w-fr-013-i2": {"name": "Cebola", "standardAmount": "1 grande (às fatias finas)"},
+    "w-fr-013-i3": {"name": "Pimento vermelho", "standardAmount": "1 (em pedaços)"},
+    "w-fr-013-i4": {"name": "Pimento amarelo", "standardAmount": "1 (em pedaços)"},
+    "w-fr-013-i5": {"name": "Alho", "standardAmount": "6 dentes (às fatias finas)"},
+    "w-fr-013-i6": {"name": "Curgete", "standardAmount": "680 g (às rodelas)"},
+    "w-fr-013-i7": {"name": "Beringela", "standardAmount": "1 pequena (em cubos)"},
+    "w-fr-013-i8": {"name": "Tomates Roma", "standardAmount": "4 (cortados grosseiramente)"},
+    "w-fr-013-i9": {"name": "Alecrim fresco", "standardAmount": "¼ colher de chá (picado)"},
+    "w-fr-013-i10": {"name": "Tomilho fresco", "standardAmount": "1 colher de chá (picado)"},
+    "w-fr-013-i11": {"name": "Sal", "standardAmount": "q.b."},
+    "w-fr-013-i12": {"name": "Pimenta", "standardAmount": "q.b."}
+  },
+  "instructions": {
+    "1": "Aquecer bem uma frigideira ou tacho grande.",
+    "2": "Juntar o azeite, a cebola e os pimentos e fritar até ganharem cor.",
+    "3": "Juntar o alho, a curgete e a beringela e fritar até ganharem cor.",
+    "4": "Envolver os tomates, o alecrim, o tomilho, o sal e a pimenta.",
+    "5": "Servir quente ou frio."
+  },
+  "culturalNotes": "A ratatouille é o prato de legumes francês mais conhecido, feito com legumes de verão."
+},
+"w-fr-014": {
+  "title": "Salada niçoise",
+  "ingredients": {
+    "w-fr-014-i1": {"name": "Alho", "standardAmount": "1 dente"},
+    "w-fr-014-i2": {"name": "Sal", "standardAmount": "q.b."},
+    "w-fr-014-i3": {"name": "Azeite", "standardAmount": "80 ml"},
+    "w-fr-014-i4": {"name": "Sumo de limão fresco", "standardAmount": "2 colheres de sopa"},
+    "w-fr-014-i5": {"name": "Mostarda de Dijon", "standardAmount": "1 colher de sopa"},
+    "w-fr-014-i6": {"name": "Chalota", "standardAmount": "1 (picada)"},
+    "w-fr-014-i7": {"name": "Pimenta preta", "standardAmount": "q.b."},
+    "w-fr-014-i8": {"name": "Batatas novas pequenas", "standardAmount": "450 g (cozidas)"},
+    "w-fr-014-i9": {"name": "Feijão-verde", "standardAmount": "225 g (escaldado)"},
+    "w-fr-014-i10": {"name": "Tomates cherry", "standardAmount": "340 g (ao meio)"},
+    "w-fr-014-i11": {"name": "Azeitonas pretas (niçoise)", "standardAmount": "120 ml"},
+    "w-fr-014-i12": {"name": "Alcachofras marinadas", "standardAmount": "225 g"},
+    "w-fr-014-i13": {"name": "Anchovas", "standardAmount": "8 filetes (lavados, escorridos)"},
+    "w-fr-014-i14": {"name": "Ovos cozidos", "standardAmount": "4 (ao meio)"},
+    "w-fr-014-i15": {"name": "Pepino", "standardAmount": "1 pequeno (às fatias finas)"},
+    "w-fr-014-i16": {"name": "Atum em azeite", "standardAmount": "3 latas de 115 g (escorrido)"},
+    "w-fr-014-i17": {"name": "Cebola roxa", "standardAmount": "½ (às fatias finas)"}
+  },
+  "instructions": {
+    "1": "Molho: picar o alho, polvilhar com sal e esmagar com a faca até obter uma pasta lisa. Colocar numa tigela e misturar com o azeite, o sumo de limão, a mostarda, a chalota, o sal e a pimenta.",
+    "2": "Salada: dispor todos os ingredientes em filas numa travessa grande, regar com o molho e temperar com sal e pimenta."
+  },
+  "culturalNotes": "A salada niçoise é a salada tradicional de Nice, rica em legumes e peixe."
+},
+"w-vn-001": {
+  "title": "Bò Bía (rolinhos vietnamitas de jicama e salsicha)",
+  "ingredients": {
+    "w-vn-001-i1": {"name": "Camarão seco", "standardAmount": "½ chávena"},
+    "w-vn-001-i2": {"name": "Jicama", "standardAmount": "1 grande"},
+    "w-vn-001-i3": {"name": "Cenoura", "standardAmount": "1 média"},
+    "w-vn-001-i4": {"name": "Chalotas", "standardAmount": "4 grandes"},
+    "w-vn-001-i5": {"name": "Salsicha de vaca halal estilo chinês", "standardAmount": "4"},
+    "w-vn-001-i6": {"name": "Ovos", "standardAmount": "5"},
+    "w-vn-001-i7": {"name": "Sal marinho", "standardAmount": "½ colher de chá"},
+    "w-vn-001-i8": {"name": "Manjericão tailandês", "standardAmount": "1 molho pequeno"},
+    "w-vn-001-i9": {"name": "Folhas de arroz secas", "standardAmount": "1 embalagem"},
+    "w-vn-001-i10": {"name": "Óleo vegetal", "standardAmount": "3 colheres de sopa"}
+  },
+  "instructions": {
+    "1": "Demolhar o camarão seco 10 minutos em água quente até amolecer e escorrer.",
+    "2": "Descascar a jicama e cortar em palitos. Descascar a cenoura, cortar em diagonal em rodelas e depois em palitos. Descascar as chalotas e fatiar finas.",
+    "3": "Aquecer cerca de 1 colher de sopa de óleo na frigideira em lume alto. Fritar as chalotas cerca de 20 segundos. Juntar o camarão e fritar mais 20 segundos. Juntar a jicama e a cenoura, saltear uniformemente e cozer cerca de 15 minutos até amolecerem. Temperar com sal e passar para uma tigela.",
+    "4": "Ferver água numa frigideira grande antiaderente e cozer as salsichas cerca de 5 minutos. Retirar, deixar arrefecer e fatiar finas em diagonal.",
+    "5": "Aquecer cerca de 1 colher de sopa de óleo na frigideira vazia em lume médio e distribuir com um pincel ou inclinando. Verter metade do ovo batido e deixar espalhar fino. Cozer cerca de 30 segundos até solidificar e passar para um prato. Repetir com mais óleo e o restante ovo. Sobrepor as duas omeletas, enrolar e cortar em tiras finas.",
+    "6": "Molhar rapidamente a folha de arroz e dispor num prato grande. Colocar na base algumas folhas de manjericão, depois a mistura de jicama-cenoura-camarão, algumas tiras de ovo e rodelas de salsicha. Enrolar de baixo até meio, dobrar os lados e terminar de enrolar.",
+    "7": "Servir com molho de amendoim."
+  },
+  "culturalNotes": "Estes rolinhos vietnamitas também se chamam Bì cuốn e servem-se como entrada ou refeição ligeira."
+},
+"w-vn-002": {
+  "title": "Bò Nướng Lá Lốt (vaca grelhada em folha de betel)",
+  "ingredients": {
+    "w-vn-002-i1": {"name": "Carne de vaca picada gorda", "standardAmount": "340 g"},
+    "w-vn-002-i2": {"name": "Chalotas picadas", "standardAmount": "2 colheres de sopa"},
+    "w-vn-002-i3": {"name": "Alho picado", "standardAmount": "1 colher de sopa"},
+    "w-vn-002-i4": {"name": "Pimenta preta moída", "standardAmount": "¼ colher de chá"},
+    "w-vn-002-i5": {"name": "Açúcar", "standardAmount": "½ colher de chá"},
+    "w-vn-002-i6": {"name": "Molho de peixe", "standardAmount": "2 colheres de chá"},
+    "w-vn-002-i7": {"name": "Molho de ostras", "standardAmount": "1 colher de sopa"},
+    "w-vn-002-i8": {"name": "Caldo de galinha em pó", "standardAmount": "½ colher de chá"},
+    "w-vn-002-i9": {"name": "Glutamato (opcional)", "standardAmount": "¼ colher de chá"},
+    "w-vn-002-i10": {"name": "Folhas de betel selvagem", "standardAmount": "25-30"}
+  },
+  "instructions": {
+    "1": "Lavar bem as folhas e secar com papel de cozinha. Deixar um pedaço de talo para prender os rolinhos.",
+    "2": "Misturar numa tigela grande a carne picada com as chalotas, o alho, a pimenta, o açúcar, o molho de peixe, o molho de ostras, o caldo em pó e o glutamato (opcional).",
+    "3": "Dispor uma folha com o lado brilhante para baixo e a ponta estreita em baixo. Colocar cerca de 2 colheres de sopa de recheio no centro, dobrar a ponta sobre o recheio e enrolar com cuidado. Espetar o talo no rolinho para não abrir. Se o talo estiver mole, fazer um furo com uma faca pequena e inserir o talo. Dispor com o talo para baixo. Repetir com o restante.",
+    "4": "Grelhar os rolinhos para um aroma fumado ou fritar com um pouco de óleo vegetal cerca de 2 minutos de cada lado.",
+    "5": "Servir numa tigela com noodles de arroz finos, alface cortada e ervas vietnamitas. Polvilhar com amendoins torrados e servir com molho de peixe. Servir opcionalmente com folhas de arroz para enrolar."
+  },
+  "culturalNotes": "A vaca em folha de betel é um prato tradicional vietnamita servido frequentemente em ocasiões especiais."
+},
+"w-vn-003": {
+  "title": "Waffles de pandan (Bánh Kếp Lá Dứa)",
+  "ingredients": {
+    "w-vn-003-i1": {"name": "Manteiga", "standardAmount": "2 colheres de sopa"},
+    "w-vn-003-i2": {"name": "Farinha de arroz", "standardAmount": "1½ chávena"},
+    "w-vn-003-i3": {"name": "Fécula de tapioca", "standardAmount": "½ chávena"},
+    "w-vn-003-i4": {"name": "Farinha de trigo", "standardAmount": "½ chávena"},
+    "w-vn-003-i5": {"name": "Fermento em pó", "standardAmount": "1 colher de sopa"},
+    "w-vn-003-i6": {"name": "Sal", "standardAmount": "¼ colher de chá"},
+    "w-vn-003-i7": {"name": "Ovos", "standardAmount": "2 grandes"},
+    "w-vn-003-i8": {"name": "Açúcar", "standardAmount": "½ chávena"},
+    "w-vn-003-i9": {"name": "Leite de coco", "standardAmount": "1½ chávena"},
+    "w-vn-003-i10": {"name": "Pasta de pandan", "standardAmount": "¾ colher de chá"}
+  },
+  "instructions": {
+    "1": "Derreter a manteiga 30-45 segundos no micro-ondas em potência baixa. Mexer e deixar arrefecer.",
+    "2": "Peneirar a farinha de arroz, a tapioca, a farinha, o fermento e o sal numa tigela grande.",
+    "3": "Bater os ovos e o açúcar numa tigela grande. Juntar o leite de coco, a manteiga derretida e a pasta de pandan e misturar bem.",
+    "4": "Juntar metade dos ingredientes secos e misturar. Juntar o restante e mexer com cuidado desfazendo os grumos maiores. Deixar a massa repousar 15 minutos.",
+    "5": "Aquecer a máquina de waffles na potência máxima. Verter cerca de ⅔ chávena de massa e espalhar com uma espátula. Fechar e cozer 4-5 minutos até dourar.",
+    "6": "Levantar o waffle com um palito de bambu e colocar com uma pinça numa rede.",
+    "7": "Servir quente."
+  },
+  "culturalNotes": "Os waffles de pandan são uma sobremesa tradicional vietnamita com aroma de pandan e coco."
+},
+"w-vn-004": {
+  "title": "Bánh pía",
+  "ingredients": {
+    "w-vn-004-i1": {"name": "Farinha", "standardAmount": "500 g"},
+    "w-vn-004-i2": {"name": "Açúcar", "standardAmount": "250 g"},
+    "w-vn-004-i3": {"name": "Óleo vegetal", "standardAmount": "100 ml"},
+    "w-vn-004-i4": {"name": "Ovos", "standardAmount": "2"},
+    "w-vn-004-i5": {"name": "Leite", "standardAmount": "100 ml"},
+    "w-vn-004-i6": {"name": "Sal", "standardAmount": "½ colher de chá"},
+    "w-vn-004-i7": {"name": "Recheio de pudim", "standardAmount": "400 g"}
+  },
+  "instructions": {
+    "1": "Misturar a farinha, o açúcar e o sal numa tigela grande.",
+    "2": "Juntar os ovos, o leite e o óleo e trabalhar até obter uma massa lisa.",
+    "3": "Cobrir a massa e deixar repousar 30 minutos.",
+    "4": "Dividir a massa em 12 partes iguais e formar bolas.",
+    "5": "Colocar o recheio no centro de cada bola e fechar com a massa.",
+    "6": "Dispor em formas de bánh pía e levar ao forno pré-aquecido a 180 °C.",
+    "7": "Assar 20-25 minutos até dourar."
+  },
+  "culturalNotes": "O bánh pía é um folhado tradicional vietnamita para ocasiões especiais."
+},
+"w-vn-005": {
+  "title": "Bánh Tráng Trộn (salada vietnamita de folhas de arroz)",
+  "ingredients": {
+    "w-vn-005-i1": {"name": "Polpa de tamarindo", "standardAmount": "100 g"},
+    "w-vn-005-i2": {"name": "Óleo vegetal", "standardAmount": "4 colheres de sopa"},
+    "w-vn-005-i3": {"name": "Dentes de alho", "standardAmount": "6"},
+    "w-vn-005-i4": {"name": "Molho de peixe", "standardAmount": "2 colheres de sopa"},
+    "w-vn-005-i5": {"name": "Açúcar cristal", "standardAmount": "3 colheres de sopa"},
+    "w-vn-005-i6": {"name": "Glutamato (opcional)", "standardAmount": "½ colher de chá"},
+    "w-vn-005-i7": {"name": "Flocos de malagueta (opcional)", "standardAmount": "1 colher de sopa"},
+    "w-vn-005-i8": {"name": "Lulas secas", "standardAmount": "200 g"},
+    "w-vn-005-i9": {"name": "Camarão seco", "standardAmount": "100 g"},
+    "w-vn-005-i10": {"name": "Jerky de vaca", "standardAmount": "100 g"},
+    "w-vn-005-i11": {"name": "Folhas de arroz secas", "standardAmount": "170 g"},
+    "w-vn-005-i12": {"name": "Óleo de malagueta vietnamita", "standardAmount": "q.b."},
+    "w-vn-005-i13": {"name": "Óleo de cebolinho vietnamita", "standardAmount": "q.b."},
+    "w-vn-005-i14": {"name": "Manga verde", "standardAmount": "1"},
+    "w-vn-005-i15": {"name": "Ovos de codorniz cozidos", "standardAmount": "10"},
+    "w-vn-005-i16": {"name": "Chalotas fritas", "standardAmount": "q.b."},
+    "w-vn-005-i17": {"name": "Amendoins torrados sem sal", "standardAmount": "¼ chávena"},
+    "w-vn-005-i18": {"name": "Folhas de coentro vietnamita", "standardAmount": "2 chávenas"}
+  },
+  "instructions": {
+    "1": "Ao usar polpa de tamarindo: demolhar 15 minutos em 2 chávenas de água quente, passar por um passador fino e deitar fora a polpa.",
+    "2": "Aquecer o óleo num tacho em lume médio. Fritar o alho cerca de 15 segundos. Juntar o tamarindo, o molho de peixe, o açúcar, o glutamato e os flocos de malagueta e misturar. Deixar ferver suavemente 1 minuto. Verter numa tigela pequena.",
+    "3": "Aquecer óleo vegetal numa frigideira média em lume médio. Fritar as lulas 30 segundos; enrolam-se, pressionar as bordas com pauzinhos para fritar uniformemente. Virar e fritar mais 30 segundos. Retirar. Quando frias, rasgar à mão em tiras compridas.",
+    "4": "Fritar na mesma gordura o camarão cerca de 1 minuto e retirar.",
+    "5": "Rasgar o jerky à mão em tiras finas.",
+    "6": "Colocar a folha de arroz numa tigela grande. Juntar o molho de tamarindo, o óleo de malagueta e o óleo de cebolinho e misturar bem para a folha absorver o molho. Parece seca no início mas amolece.",
+    "7": "Juntar o jerky, as lulas, o camarão, a manga verde e os ovos de codorniz e misturar brevemente.",
+    "8": "Decorar com chalotas fritas, amendoins e coentro vietnamita."
+  },
+  "culturalNotes": "O Bánh Tráng Trộn é um petisco vietnamita popular que serve de entrada ou refeição ligeira."
+},
+"w-vn-006": {
+  "title": "Chè Trôi Nước (bolas de arroz glutinoso em calda de gengibre)",
+  "ingredients": {
+    "w-vn-006-i1": {"name": "Farinha de arroz glutinoso", "standardAmount": "450 g"},
+    "w-vn-006-i2": {"name": "Água quente", "standardAmount": "1¾ chávena"},
+    "w-vn-006-i3": {"name": "Feijão mungo partido", "standardAmount": "¾ chávena"},
+    "w-vn-006-i4": {"name": "Açúcar", "standardAmount": "2 colheres de chá"},
+    "w-vn-006-i5": {"name": "Sal", "standardAmount": "1 colher de chá"},
+    "w-vn-006-i6": {"name": "Água", "standardAmount": "6 chávenas"},
+    "w-vn-006-i7": {"name": "Gengibre fresco", "standardAmount": "10 cm"},
+    "w-vn-006-i8": {"name": "Açúcar de palma", "standardAmount": "280 g"},
+    "w-vn-006-i9": {"name": "Leite de coco", "standardAmount": "opcional"},
+    "w-vn-006-i10": {"name": "Sésamo torrado", "standardAmount": "¼ chávena"}
+  },
+  "instructions": {
+    "1": "Misturar a farinha de arroz glutinoso com a água quente numa tigela grande e amassar até obter uma massa lisa. Não juntar mais água. Cobrir e repousar 30 minutos.",
+    "2": "Dividir a massa em 28 bolas de cerca de 2,5 cm.",
+    "3": "Passar o feijão mungo por água até sair limpa. Cobrir num tacho médio com 2,5 cm de água, levar a ferver em lume médio e cozer suavemente até ficar macio mas manter a forma (cerca de 15 minutos). Vigiar para não transbordar. Escorrer e voltar ao fogão desligado para secar. Juntar sal e açúcar e esmagar com uma colher grande até obter uma pasta grossa.",
+    "4": "Formar o recheio em bolinhas de cerca de 1,2 cm (cerca de 28). Se a mistura estiver mole, refrigerar um pouco.",
+    "5": "Achatarr uma bola de massa num disco grosso, colocar uma bolinha de recheio no centro, fechar a massa por cima e rolar na palma até ficar lisa. Não deixar o recheio sair, senão as bolas abrem-se ao cozer. Com a massa restante formar pequenas pérolas sem recheio. Guardar tapadas.",
+    "6": "Levar a água com o açúcar de palma a ferver num tacho grande até dissolver. Descascar o gengibre com uma colher e cortar em tiras finas. Deixar as bolas deslizar com cuidado para a calda e cozer suavemente em lume médio-baixo até virem ao de cima (cerca de 20 minutos).",
+    "7": "Fazer o molho de coco se desejado.",
+    "8": "Servir algumas bolas com calda numa tigela, regar com molho de coco e polvilhar com sésamo. Servir quente ou à temperatura ambiente."
+  },
+  "culturalNotes": "O Chè Trôi Nước é uma sobremesa tradicional vietnamita para festas e celebrações."
+},
+"w-vn-007": {
+  "title": "Gelatina de erva (Thạch Sương Sáo)",
+  "ingredients": {
+    "w-vn-007-i1": {"name": "Gelatina de erva em pó", "standardAmount": "50 g"},
+    "w-vn-007-i2": {"name": "Açúcar", "standardAmount": "⅓ chávena"},
+    "w-vn-007-i3": {"name": "Água", "standardAmount": "4 chávenas (divididas)"}
+  },
+  "instructions": {
+    "1": "Colocar a gelatina em pó num tacho médio. Juntar o açúcar e 2 chávenas de água e mexer até dissolver o pó.",
+    "2": "Juntar as restantes 2 chávenas de água e misturar bem.",
+    "3": "Deixar a mistura repousar 10 minutos.",
+    "4": "Aquecer em lume médio mexendo com uma espátula, raspando o fundo onde o pó assenta.",
+    "5": "Ao fim de 3-4 minutos engrossa e fica granulada. Mexer rapidamente com uma vara de arames até ficar lisa e continuar a mexer até ferver suavemente. Desligar o lume e mexer mais 1 minuto até ficar lisa e sem grumos.",
+    "6": "Verter numa travessa resistente ao calor e furar as bolhas com um palito ou retirá-las com uma colher.",
+    "7": "Deixar arrefecer 1-1,5 horas à temperatura ambiente.",
+    "8": "Refrigerar pelo menos 2 horas.",
+    "9": "Desenformar numa tábua grande e cortar a gelatina em cubos.",
+    "10": "Para servir, colocar gelo numa taça de sobremesa, juntar cubos de gelatina e polvilhar com um pouco de açúcar.",
+    "11": "Cortar opcionalmente mais fino com uma faca serrilhada e juntar a uma bebida gelada.",
+    "12": "Conservar a gelatina restante até 1 semana no frigorífico."
+  },
+  "culturalNotes": "A gelatina de erva é uma sobremesa tradicional vietnamita, um doce refrescante nos dias quentes."
 }
 }
