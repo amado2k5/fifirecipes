@@ -80,8 +80,13 @@ tables 162/162, estimates 162/162, field-level verified.
 **Mixed-script corruption fix** (`1d736267`): local model left truncated
 Latin fragments mid-word in Arabic-script text (فrijوليس, اسcoop,
 티ー스poon, بowl, 羊肉börek). Rewrote ~330 fields across the catalog +
-11 translation tables. Detector: `scripts/world/script-mix-audit.py`
-— run after every import/distill batch.
+11 translation tables. That detector only caught Latin next to native
+script; it missed Kurmanji-Latin Kurdish (76 recipes), Hangul/Han/Thai/
+Arabic fragments in other scripts, and U+FFFD. Replaced by
+`scripts/world/lint_language.py` (`npm run lint:lang`): every field is
+split into single-script runs and any run outside the language's allowed
+script fails. Run it after every import/distill/translate batch; it must
+exit 0.
 
 **Chapter names**: `CHAPTER_NAMES` maps now cover all 21 in-flight
 countries (chapters 45/66/69/74/84/85/86/90/92/101/110/117/123/133/144/
