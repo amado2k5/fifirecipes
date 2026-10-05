@@ -73,7 +73,12 @@ What we found, and the rule each finding added:
    script linter counts both as Han. Their titles were also wrong ("sushi
    bread" for shokupan, tamagoyaki for imagawayaki). → `lint:lang` now
    rejects common Traditional-only characters in `Zh`.
-9. **Recipes imported without translations.** 16 Italian recipes reached
+9. **Translations made from a different draft.** French entries for 8
+   Italian recipes (w-it-003 to w-it-010) followed another version of each
+   recipe: the steps did not match the English step numbers. → Translate
+   only from the current `recipeTranslations.json` entry, after the
+   catalog is final, and compare step counts *and* content.
+10. **Recipes imported without translations.** 16 Italian recipes reached
    `main` without any translation entries, and `check:world` failed for
    everyone. → An import commit must include all 24 tables, or stay on its
    branch.
