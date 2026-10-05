@@ -112146,5 +112146,322 @@
   },
   "culturalNotes": "Taiyaki adalah makanan manis tradisional Jepang yang dibuat di cetakan bentuk ikan khusus. Biasanya dimakan panas dan sering ditemukan di tempat umum dan pasar.",
   "chapter": "مطبخ اليابان"
+ },
+ "w-ma-029": {
+  "title": "Kebab Maghdour",
+  "ingredients": {
+   "w-ma-029-i1": {
+    "name": "Daging domba, sapi muda, atau sapi",
+    "standardAmount": "1 kg (potong dadu 2,5 cm)"
+   },
+   "w-ma-029-i2": {
+    "name": "Bawang bombai",
+    "standardAmount": "2 buah sedang (diparut atau dicincang halus)"
+   },
+   "w-ma-029-i3": {
+    "name": "Bawang putih",
+    "standardAmount": "2-3 siung (diparut atau dicincang)"
+   },
+   "w-ma-029-i4": {
+    "name": "Jahe bubuk",
+    "standardAmount": "½ sendok teh"
+   },
+   "w-ma-029-i5": {
+    "name": "Lada hitam dan putih",
+    "standardAmount": "¼ sendok teh"
+   },
+   "w-ma-029-i6": {
+    "name": "Daun peterseli dan ketumbar",
+    "standardAmount": "2 sendok makan (dicincang)"
+   },
+   "w-ma-029-i7": {
+    "name": "Minyak sayur",
+    "standardAmount": "1 sendok makan"
+   },
+   "w-ma-029-i8": {
+    "name": "Minyak sayur dan minyak zaitun",
+    "standardAmount": "3 sendok makan (dicampur)"
+   },
+   "w-ma-029-i9": {
+    "name": "Garam",
+    "standardAmount": "1 sendok teh (sesuai selera)"
+   },
+   "w-ma-029-i10": {
+    "name": "Kayu manis",
+    "standardAmount": "1 batang (opsional)"
+   },
+   "w-ma-029-i11": {
+    "name": "Paprika manis bubuk",
+    "standardAmount": "1 sendok makan"
+   },
+   "w-ma-029-i12": {
+    "name": "Daun peterseli cincang",
+    "standardAmount": "2 sendok makan"
+   },
+   "w-ma-029-i13": {
+    "name": "Smen (mentega fermentasi)",
+    "standardAmount": "1 sendok makan (atau ghee)"
+   },
+   "w-ma-029-i14": {
+    "name": "Mentega",
+    "standardAmount": "2 sendok makan"
+   },
+   "w-ma-029-i15": {
+    "name": "Telur",
+    "standardAmount": "3-6 butir (setengah sampai satu per orang)"
+   },
+   "w-ma-029-i16": {
+    "name": "Minyak zaitun",
+    "standardAmount": "6 sendok makan (untuk menggoreng)"
+   },
+   "w-ma-029-i17": {
+    "name": "Peterseli atau ketumbar cincang",
+    "standardAmount": "1 sendok makan"
+   }
+  },
+  "instructions": {
+   "1": "Potong daging menjadi dadu 2,5 cm.",
+   "2": "Dalam mangkuk, campur daging dengan bawang parut, bawang putih, jahe, lada, peterseli, ketumbar, dan minyak sayur. Biarkan terendam 30 menit.",
+   "3": "Dalam panci, masukkan minyak sayur dan minyak zaitun, lalu bawang cincang, tumis hingga keemasan.",
+   "4": "Masukkan daging yang telah direndam, tumis 5 menit.",
+   "5": "Tuang air hingga menutupi daging, tambahkan jahe, garam, kayu manis, dan paprika. Didihkan, lalu kecilkan api dan masak 45 menit hingga daging empuk.",
+   "6": "Masukkan telur ke dalam panci, masak 10 menit hingga matang.",
+   "7": "Sajikan Kebab Maghdour panas, ditaburi peterseli cincang."
+  },
+  "culturalNotes": "Kebab Maghdour adalah hidangan tradisional Maroko yang disajikan pada acara-acara khusus. Terkenal dengan rempah yang kaya dan daging yang empuk.",
+  "chapter": "مطبخ المغرب"
+ },
+ "w-mx-027": {
+  "title": "Escabeche (Acar Sayuran)",
+  "ingredients": {
+   "w-mx-027-i1": {
+    "name": "Air",
+    "standardAmount": "2 cangkir"
+   },
+   "w-mx-027-i2": {
+    "name": "Cuka putih",
+    "standardAmount": "2 cangkir"
+   },
+   "w-mx-027-i3": {
+    "name": "Gula",
+    "standardAmount": "1 sendok makan"
+   },
+   "w-mx-027-i4": {
+    "name": "Garam kosher",
+    "standardAmount": "1 sendok makan"
+   },
+   "w-mx-027-i5": {
+    "name": "Oregano",
+    "standardAmount": "1 sendok teh"
+   },
+   "w-mx-027-i6": {
+    "name": "Merica butir",
+    "standardAmount": "1 sendok teh"
+   },
+   "w-mx-027-i7": {
+    "name": "Daun salam",
+    "standardAmount": "2 lembar"
+   },
+   "w-mx-027-i8": {
+    "name": "Bawang putih",
+    "standardAmount": "1 siung (digeprek)"
+   },
+   "w-mx-027-i9": {
+    "name": "Cabai jalapeño",
+    "standardAmount": "5 besar (iris tipis)"
+   },
+   "w-mx-027-i10": {
+    "name": "Cabai serrano",
+    "standardAmount": "2 (iris tipis)"
+   },
+   "w-mx-027-i11": {
+    "name": "Wortel",
+    "standardAmount": "4 (kupas, iris tipis)"
+   },
+   "w-mx-027-i12": {
+    "name": "Bawang manis",
+    "standardAmount": "1 (diiris)"
+   }
+  },
+  "instructions": {
+   "1": "Siapkan empat hingga lima toples bertutup rapat. Bersihkan di mesin cuci piring atau dengan air sabun panas.",
+   "2": "Dalam panci besar, campur air, cuka, gula, garam, oregano, merica butir, daun salam, dan bawang putih. Didihkan dengan api besar.",
+   "3": "Kecilkan api ke sedang-besar, masukkan irisan jalapeño, serrano, wortel, dan bawang. Masak hingga warna cabai berubah dari hijau cerah menjadi agak pudar, sekitar 10-15 menit.",
+   "4": "Gunakan sendok berlubang untuk memindahkan sayuran ke toples, bagi rata (sisihkan bawang putih dan daun salam). Tuang cairan acar ke tiap toples hingga 1 cm di bawah bibir.",
+   "5": "Tutup toples rapat-rapat. Dinginkan sepenuhnya, lalu simpan di kulkas hingga 2 bulan."
+  },
+  "culturalNotes": "Escabeche adalah hidangan tradisional masakan Meksiko, disajikan sebagai pembuka atau pendamping hidangan utama.",
+  "chapter": "مطبخ المكسيك"
+ },
+ "w-mx-046": {
+  "title": "Chile Relleno",
+  "ingredients": {
+   "w-mx-046-i1": {
+    "name": "Cabai poblano",
+    "standardAmount": "6 besar"
+   },
+   "w-mx-046-i2": {
+    "name": "Keju Monterey Jack",
+    "standardAmount": "225 g (potong memanjang atau diparut)"
+   },
+   "w-mx-046-i3": {
+    "name": "Minyak",
+    "standardAmount": "1 liter (untuk menggoreng)"
+   },
+   "w-mx-046-i4": {
+    "name": "Telur",
+    "standardAmount": "3 butir besar"
+   },
+   "w-mx-046-i5": {
+    "name": "Tepung terigu",
+    "standardAmount": "½ cangkir"
+   },
+   "w-mx-046-i6": {
+    "name": "Garam halus",
+    "standardAmount": "½ sendok teh"
+   },
+   "w-mx-046-i7": {
+    "name": "Tomat roma",
+    "standardAmount": "6 (dibelah empat)"
+   },
+   "w-mx-046-i8": {
+    "name": "Bawang bombai",
+    "standardAmount": "½ kecil (dibelah dua)"
+   },
+   "w-mx-046-i9": {
+    "name": "Bawang putih",
+    "standardAmount": "3 siung"
+   },
+   "w-mx-046-i10": {
+    "name": "Cabai jalapeño",
+    "standardAmount": "1 (buang tangkai dan biji, opsional)"
+   },
+   "w-mx-046-i11": {
+    "name": "Daun ketumbar",
+    "standardAmount": "5 tangkai"
+   },
+   "w-mx-046-i12": {
+    "name": "Garam kosher",
+    "standardAmount": "1 sendok teh (plus sesuai selera)"
+   },
+   "w-mx-046-i13": {
+    "name": "Minyak zaitun",
+    "standardAmount": "1 sendok teh"
+   }
+  },
+  "instructions": {
+   "1": "Panggang cabai poblano di atas api sedang hingga kulitnya menghitam. Masukkan ke kantong plastik tertutup selama 10 menit.",
+   "2": "Kupas kulit cabai dan potong tangkainya. Buka perlahan, buang biji dan selaput dalamnya.",
+   "3": "Isi cabai dengan keju Monterey Jack. Sisihkan.",
+   "4": "Kocok telur dengan garam dalam mangkuk. Letakkan tepung di mangkuk lain.",
+   "5": "Celupkan cabai isi ke tepung, lalu ke telur kocok.",
+   "6": "Panaskan minyak di wajan dalam dengan api sedang. Goreng cabai hingga keemasan di semua sisi.",
+   "7": "Buat saus tomat dengan menghaluskan tomat, bawang, bawang putih, jalapeño, ketumbar, garam, dan minyak zaitun dalam blender.",
+   "8": "Sajikan cabai isi dengan saus tomat."
+  },
+  "culturalNotes": "Chile relleno adalah hidangan tradisional Meksiko yang sering disajikan pada acara-acara khusus.",
+  "chapter": "مطبخ المكسيك"
+ },
+ "w-mx-048": {
+  "title": "Teh Kayu Manis Meksiko",
+  "ingredients": {
+   "w-mx-048-i1": {
+    "name": "Air",
+    "standardAmount": "6 cangkir"
+   },
+   "w-mx-048-i2": {
+    "name": "Kayu manis Meksiko",
+    "standardAmount": "2 batang"
+   },
+   "w-mx-048-i3": {
+    "name": "Madu",
+    "standardAmount": "sesuai selera"
+   }
+  },
+  "instructions": {
+   "1": "Masukkan air dan kayu manis ke panci sedang, didihkan.",
+   "2": "Biarkan mendidih 3-5 menit, lalu angkat dari api.",
+   "3": "Biarkan terendam 30 menit lagi atau sesuai kepekatan yang diinginkan.",
+   "4": "Tambahkan madu sesuai selera.",
+   "5": "Sajikan hangat."
+  },
+  "culturalNotes": "Teh kayu manis Meksiko adalah minuman tradisional yang sangat populer di Meksiko, terutama saat hari raya dan acara khusus.",
+  "chapter": "مطبخ المكسيك"
+ },
+ "w-mx-049": {
+  "title": "Fillet Ikan dengan Saus Bawang Putih",
+  "ingredients": {
+   "w-mx-049-i1": {
+    "name": "Fillet tilapia atau ikan lain",
+    "standardAmount": "680 g"
+   },
+   "w-mx-049-i2": {
+    "name": "Jeruk nipis",
+    "standardAmount": "1 buah"
+   },
+   "w-mx-049-i3": {
+    "name": "Garam dan lada",
+    "standardAmount": "sesuai selera"
+   },
+   "w-mx-049-i4": {
+    "name": "Minyak sayur (atau setengah minyak zaitun)",
+    "standardAmount": "¼ cangkir"
+   },
+   "w-mx-049-i5": {
+    "name": "Bawang putih",
+    "standardAmount": "6 siung (iris tipis)"
+   },
+   "w-mx-049-i6": {
+    "name": "Peterseli",
+    "standardAmount": "3 sendok makan (cincang halus)"
+   },
+   "w-mx-049-i7": {
+    "name": "Tepung (opsional)",
+    "standardAmount": "2 sendok makan"
+   }
+  },
+  "instructions": {
+   "1": "Bumbui ikan dengan garam, lada, dan air jeruk nipis. Sisihkan sambil menyiapkan bahan lain.",
+   "2": "Panaskan minyak di wajan besar dengan api kecil. Goreng irisan bawang putih hingga keemasan. Angkat segera setelah mulai keemasan; jika dibiarkan lebih lama akan pahit.",
+   "3": "Jika memakai tepung, baluri fillet tipis-tipis. Besarkan api wajan bekas bawang ke sedang-besar. Setelah panas, masukkan ikan dan masak kedua sisinya. Fillet setebal 1 cm perlu 2-3 menit per sisi; yang lebih tebal 5-7 menit.",
+   "4": "Angkat ikan dan letakkan di rak pendingin beralas tisu dapur.",
+   "5": "Sajikan ikan dengan taburan peterseli cincang dan irisan bawang putih keemasan. (Ditambah sedikit mentega, sungguh lezat!)"
+  },
+  "culturalNotes": "Hidangan ini salah satu yang terpopuler dalam masakan Meksiko, sering menjadi menu utama di pertemuan keluarga.",
+  "chapter": "مطبخ المكسيك"
+ },
+ "w-mx-050": {
+  "title": "Quesadilla Cabai Hijau dan Keju",
+  "ingredients": {
+   "w-mx-050-i1": {
+    "name": "Tortilla tepung",
+    "standardAmount": "4 lembar (25 cm)"
+   },
+   "w-mx-050-i2": {
+    "name": "Keju cheddar atau pepper jack",
+    "standardAmount": "1 cangkir (diparut)"
+   },
+   "w-mx-050-i3": {
+    "name": "Cabai poblano panggang",
+    "standardAmount": "2 (potong dadu)"
+   },
+   "w-mx-050-i4": {
+    "name": "Salsa (pelengkap)",
+    "standardAmount": "sesuai selera"
+   },
+   "w-mx-050-i5": {
+    "name": "Guacamole (pelengkap)",
+    "standardAmount": "sesuai selera"
+   }
+  },
+  "instructions": {
+   "1": "Panaskan comal (wajan datar) 1 menit dengan api sedang-kecil.",
+   "2": "Hangatkan tortilla 1 menit per sisi, balik, taburi keju, tambahkan cabai, tutup dengan tortilla kedua, tekan perlahan dengan spatula.",
+   "3": "Balik sesekali hingga quesadilla keemasan di kedua sisi dan keju meleleh.",
+   "4": "Ulangi dengan tortilla dan bahan yang tersisa.",
+   "5": "Sajikan dengan salsa dan guacamole sesuai selera."
+  },
+  "culturalNotes": "Quesadilla adalah hidangan yang sangat populer di Meksiko, disajikan sebagai camilan atau makanan utama.",
+  "chapter": "مطبخ المكسيك"
  }
 }
