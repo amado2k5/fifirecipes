@@ -21,8 +21,12 @@ distill process running) and that is not yet imported:
                                        Arabic, dupe titles).
 
 The Devin side only has to: review flags -> translate 24 tables ->
-estimates -> lint_language.py -> commit. Banners generate on the GPU
-whenever it is free, no manual seeding needed.
+estimates -> check:world + manual review -> commit. Banners generate on
+the GPU whenever it is free, no manual seeding needed.
+
+Rules for everything this produces: docs/TRANSLATION_GUIDE.md. In
+particular, never set ready:true until `npm run check:world` passes and
+the guide's step-5 manual review is done.
 """
 import argparse
 import json
@@ -131,6 +135,20 @@ def seed_banners(iso: str) -> int:
     return added
 
 
+def run_checks() -> dict:
+    """lint:lang + lint:halal right after import (guide workflow step 1).
+
+    Output is stored in the handoff so the translation side sees the
+    state of the world catalog before it starts."""
+    out = {}
+    for name in ('lint:lang', 'lint:halal'):
+        r = subprocess.run(['npm', 'run', '-s', name], cwd=REPO,
+                           capture_output=True, text=True)
+        out[name] = {'exit': r.returncode,
+                     'tail': (r.stdout + r.stderr).strip()[-2000:]}
+    return out
+
+
 def flag_report(iso: str, ids: set[str]) -> tuple[list[dict], dict]:
     """Halal-gate + dupe-title + mixed-script scan over imported entries."""
     entries = {e['id']: e for e in
@@ -199,8 +217,9 @@ def main() -> None:
             ids = imported_ids(iso)
             img = seed_banners(iso) if ids else 0
             flags, source = flag_report(iso, ids)
+            checks = run_checks()
             marker = {'iso': iso, 'imported': len(ids), 'banners_seeded': img,
-                      'flags': flags, 'source': source}
+                      'checks': checks, 'flags': flags, 'source': source}
             (QUEUE / f'{iso}.json').write_text(
                 json.dumps(marker, ensure_ascii=False, indent=1))
             print(f'[postdistill] {iso}: imported {len(ids)}, '
