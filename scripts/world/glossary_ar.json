@@ -1,0 +1,19 @@
+{
+ "_comment": "Canonical Arabic spellings for world-cuisine ingredients. Use these in distill/translate output; variants on the right are wrong or deprecated.",
+ "allspice": {"use": "بهار حلو (بهار جامايكي)", "not": ["الهيل"]},
+ "cilantro": {"use": "كزبرة خضراء", "not": ["كرفس"]},
+ "peanuts": {"use": "فول سوداني", "not": ["فستق", "فولية"]},
+ "bean sprouts": {"use": "براعم الفاصولياء", "not": ["فول الصويا", "البراعم"]},
+ "daikon": {"use": "فجل أبيض (دايكون)", "not": ["جاكون"]},
+ "heavy cream": {"use": "كريمة خفق", "not": ["كريمة ثقيلة"]},
+ "baking powder": {"use": "بيكنج بودر", "not": ["مسحوق الخبز", "بودرة الخبز", "بيكينغ بودر", "البودرة"]},
+ "tofu": {"use": "توفو", "not": ["توافو", "تو فو"]},
+ "miso": {"use": "ميسو", "not": ["ميزو"]},
+ "tortilla": {"use": "تورتيا", "not": ["تورتيليا", "تورتيليات"]},
+ "queso fresco": {"use": "جبن كيسو فريسكو", "not": ["كويسو", "كاسو فريسكو", "جبنة فريسكو"]},
+ "chipotle": {"use": "تشيبوتلي", "not": ["تشيبوتل"]},
+ "jalapeño": {"use": "فلفل هالابينو", "not": ["جالابينو", "جالابيو", "فلفل حار"]},
+ "yellowtail (buri)": {"use": "سمك الذيل الأصفر", "not": ["البوري"]},
+ "coconut": {"use": "جوز الهند", "not": ["كوكوس"]},
+ "cabbage": {"use": "ملفوف / كرنب", "not": ["كابتشي"]}
+}
