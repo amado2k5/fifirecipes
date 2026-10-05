@@ -28,6 +28,12 @@ reject:
   - black pudding
   - morcilla
   - boudin noir
+  # pork-by-default toppings/broths that hide under Japanese/Chinese names
+  - chashu
+  - chāshū
+  - char siu
+  - cha siu
+  - tonkotsu
   # pork-by-default sausages that hide under generic names
   - chinese sausage
   - lap cheong

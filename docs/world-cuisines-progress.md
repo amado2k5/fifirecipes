@@ -72,10 +72,14 @@ should be rewritten before scaling to all 195 countries.
 
 ## Live state (2026-10-05)
 
-**Shipped**: 162 recipes imported across 6 chapters — ma 27, jp 44, mx 49
+**Shipped**: 161 recipes across 6 chapters — ma 27, jp 43, mx 49
 (visible, `ready:true`, banners+thumbs on main via PRs #239-241), fr 14,
 cn 21, vn 7 (`ready:false`, banners generating). All 24 translation
-tables 162/162, estimates 162/162, field-level verified.
+tables 161/161, estimates 161/161, field-level verified.
+
+**Removed**: w-jp-041 Tsukemen — chashu topping is pork by default and
+slipped through the gate (no rule for chashu). Vetoed as `jp/tsukemen`;
+chashu / char siu / tonkotsu added to `halal_rules.yaml` reject list.
 
 **Mixed-script corruption fix** (`1d736267`): local model left truncated
 Latin fragments mid-word in Arabic-script text (فrijوليس, اسcoop,

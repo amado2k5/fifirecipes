@@ -1166,22 +1166,6 @@ export const WORLD_RECIPE_ESTIMATES: Record<string, RecipeEstimate> = {
       "sweeteners": 0.15
     }
   },
-  "w-jp-041": {
-    "servings": 2,
-    "kcal": 480,
-    "protein": 22,
-    "fat": 28,
-    "carbs": 45,
-    "fiber": 4,
-    "sugar": 6,
-    "cost": {
-      "dairyEggs": 1.2,
-      "produce": 1.8,
-      "grains": 0.9,
-      "fats": 1.1,
-      "spices": 0.5
-    }
-  },
   "w-jp-042": {
     "servings": 5,
     "kcal": 120,
