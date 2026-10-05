@@ -41,8 +41,11 @@ CREATE TABLE IF NOT EXISTS meta (k TEXT PRIMARY KEY, v TEXT);
 
 
 def conn() -> sqlite3.Connection:
-    c = sqlite3.connect(DB)
+    # busy_timeout: several distills run in parallel and share this db —
+    # writers wait for the lock instead of raising "database is locked"
+    c = sqlite3.connect(DB, timeout=60)
     c.row_factory = sqlite3.Row
+    c.execute('PRAGMA busy_timeout=60000')
     c.executescript(SCHEMA)
     return c
 
