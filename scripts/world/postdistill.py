@@ -20,9 +20,11 @@ distill process running) and that is not yet imported:
                                        report (halal hits, mixed-script
                                        Arabic, dupe titles).
 
-The Devin side only has to: review flags -> translate 24 tables ->
-estimates -> check:world + manual review -> commit. Banners generate on
-the GPU whenever it is free, no manual seeding needed.
+The Devin side only has to: SEMANTIC HALAL AUDIT of every recipe's
+ingredients/notes (the local model's verdicts are untrusted — it missed
+capocollo and passed pork salami) -> translate 24 tables -> estimates
+-> check:world + manual review -> commit. Banners generate on the GPU
+whenever it is free, no manual seeding needed.
 
 Rules for everything this produces: docs/TRANSLATION_GUIDE.md. In
 particular, never set ready:true until `npm run check:world` passes and
@@ -219,6 +221,7 @@ def main() -> None:
             flags, source = flag_report(iso, ids)
             checks = run_checks()
             marker = {'iso': iso, 'imported': len(ids), 'banners_seeded': img,
+                      'status': 'awaiting-halal-audit',
                       'checks': checks, 'flags': flags, 'source': source}
             (QUEUE / f'{iso}.json').write_text(
                 json.dumps(marker, ensure_ascii=False, indent=1))
