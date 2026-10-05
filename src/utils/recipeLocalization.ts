@@ -75,6 +75,9 @@ const CHAPTER_NAMES: Record<number, string> = {
   92: 'Japanese Cuisine',
   117: 'Mexican Cuisine',
   123: 'Moroccan Cuisine',
+  45: 'Chinese Cuisine',
+  69: 'French Cuisine',
+  202: 'Vietnamese Cuisine',
 };
 
 const CHAPTER_NAMES_FR: Record<number, string> = {
@@ -91,6 +94,9 @@ const CHAPTER_NAMES_FR: Record<number, string> = {
   92: 'Cuisine japonaise',
   117: 'Cuisine mexicaine',
   123: 'Cuisine marocaine',
+  45: 'Cuisine chinoise',
+  69: 'Cuisine française',
+  202: 'Cuisine vietnamienne',
 };
 
 const CHAPTER_NAMES_ES: Record<number, string> = {
@@ -107,6 +113,9 @@ const CHAPTER_NAMES_ES: Record<number, string> = {
   92: 'Cocina japonesa',
   117: 'Cocina mexicana',
   123: 'Cocina marroquí',
+  45: 'Cocina china',
+  69: 'Cocina francesa',
+  202: 'Cocina vietnamita',
 };
 
 const CHAPTER_NAMES_JA: Record<number, string> = {
@@ -123,6 +132,9 @@ const CHAPTER_NAMES_JA: Record<number, string> = {
   92: '日本料理',
   117: 'メキシコ料理',
   123: 'モロッコ料理',
+  45: '中国料理',
+  69: 'フランス料理',
+  202: 'ベトナム料理',
 };
 
 const CHAPTER_NAMES_HI: Record<number, string> = {
@@ -139,6 +151,9 @@ const CHAPTER_NAMES_HI: Record<number, string> = {
   92: 'जापानी व्यंजन',
   117: 'मैक्सिकन व्यंजन',
   123: 'मोरोक्कन व्यंजन',
+  45: 'चीनी व्यंजन',
+  69: 'फ्रेंच व्यंजन',
+  202: 'वियतनामी व्यंजन',
 };
 
 const CHAPTER_NAMES_PT: Record<number, string> = {
@@ -155,6 +170,9 @@ const CHAPTER_NAMES_PT: Record<number, string> = {
   92: 'Cozinha japonesa',
   117: 'Cozinha mexicana',
   123: 'Cozinha marroquina',
+  45: 'Cozinha chinesa',
+  69: 'Cozinha francesa',
+  202: 'Cozinha vietnamita',
 };
 
 const CHAPTER_NAMES_RU: Record<number, string> = {
@@ -171,6 +189,9 @@ const CHAPTER_NAMES_RU: Record<number, string> = {
   92: 'Японская кухня',
   117: 'Мексиканская кухня',
   123: 'Марокканская кухня',
+  45: 'Китайская кухня',
+  69: 'Французская кухня',
+  202: 'Вьетнамская кухня',
 };
 
 const CHAPTER_NAMES_ZH: Record<number, string> = {
@@ -187,6 +208,9 @@ const CHAPTER_NAMES_ZH: Record<number, string> = {
   92: '日本料理',
   117: '墨西哥菜',
   123: '摩洛哥菜',
+  45: '中国菜',
+  69: '法国菜',
+  202: '越南菜',
 };
 
 const CHAPTER_NAMES_DE: Record<number, string> = {
@@ -203,6 +227,9 @@ const CHAPTER_NAMES_DE: Record<number, string> = {
   92: 'Japanische Küche',
   117: 'Mexikanische Küche',
   123: 'Marokkanische Küche',
+  45: 'Chinesische Küche',
+  69: 'Französische Küche',
+  202: 'Vietnamesische Küche',
 };
 
 const CHAPTER_NAMES_IT: Record<number, string> = {
@@ -219,6 +246,9 @@ const CHAPTER_NAMES_IT: Record<number, string> = {
   92: 'Cucina giapponese',
   117: 'Cucina messicana',
   123: 'Cucina marocchina',
+  45: 'Cucina cinese',
+  69: 'Cucina francese',
+  202: 'Cucina vietnamita',
 };
 
 const CHAPTER_NAMES_EL: Record<number, string> = {
@@ -235,6 +265,9 @@ const CHAPTER_NAMES_EL: Record<number, string> = {
   92: 'Ιαπωνική κουζίνα',
   117: 'Μεξικανική κουζίνα',
   123: 'Μαροκινή κουζίνα',
+  45: 'Κινεζική κουζίνα',
+  69: 'Γαλλική κουζίνα',
+  202: 'Βιετναμέζικη κουζίνα',
 };
 
 const CHAPTER_NAMES_UR: Record<number, string> = {
@@ -251,6 +284,9 @@ const CHAPTER_NAMES_UR: Record<number, string> = {
   92: 'جاپانی کھانا',
   117: 'میکسیکی کھانا',
   123: 'مراکشی کھانا',
+  45: 'چینی کھانا',
+  69: 'فرانسیسی کھانا',
+  202: 'ویتنامی کھانا',
 };
 
 const CHAPTER_NAMES_FA: Record<number, string> = {
@@ -267,6 +303,9 @@ const CHAPTER_NAMES_FA: Record<number, string> = {
   92: 'آشپزی ژاپنی',
   117: 'آشپزی مکزیکی',
   123: 'آشپزی مراکشی',
+  45: 'آشپزی چینی',
+  69: 'آشپزی فرانسوی',
+  202: 'آشپزی ویتنامی',
 };
 
 const CHAPTER_NAMES_TR: Record<number, string> = {
@@ -283,6 +322,9 @@ const CHAPTER_NAMES_TR: Record<number, string> = {
   92: 'Japon mutfağı',
   117: 'Meksika mutfağı',
   123: 'Fas mutfağı',
+  45: 'Çin mutfağı',
+  69: 'Fransız mutfağı',
+  202: 'Vietnam mutfağı',
 };
 
 const CHAPTER_NAMES_KU: Record<number, string> = {
@@ -299,6 +341,9 @@ const CHAPTER_NAMES_KU: Record<number, string> = {
   92: 'Xwarinên Japonya',
   117: 'Xwarinên Meksîkoyê',
   123: 'Xwarinên Meroko',
+  45: 'Xwarinên Çînê',
+  69: 'Xwarinên Fransayê',
+  202: 'Xwarinên Viyetnamê',
 };
 
 const CHAPTER_NAMES_ID: Record<number, string> = {
@@ -315,6 +360,9 @@ const CHAPTER_NAMES_ID: Record<number, string> = {
   92: 'Masakan Jepang',
   117: 'Masakan Meksiko',
   123: 'Masakan Maroko',
+  45: 'Masakan Tiongkok',
+  69: 'Masakan Prancis',
+  202: 'Masakan Vietnam',
 };
 
 const CHAPTER_NAMES_SW: Record<number, string> = {
@@ -331,6 +379,9 @@ const CHAPTER_NAMES_SW: Record<number, string> = {
   92: 'Mapishi ya Japani',
   117: 'Mapishi ya Meksiko',
   123: 'Mapishi ya Moroko',
+  45: 'Mapishi ya Uchina',
+  69: 'Mapishi ya Ufaransa',
+  202: 'Mapishi ya Vietnam',
 };
 
 const CHAPTER_NAMES_KO: Record<number, string> = {
@@ -347,6 +398,9 @@ const CHAPTER_NAMES_KO: Record<number, string> = {
   92: '일본 요리',
   117: '멕시코 요리',
   123: '모로코 요리',
+  45: '중국 요리',
+  69: '프랑스 요리',
+  202: '베트남 요리',
 };
 
 const CHAPTER_NAMES_NL: Record<number, string> = {
@@ -363,6 +417,9 @@ const CHAPTER_NAMES_NL: Record<number, string> = {
   92: 'Japanse keuken',
   117: 'Mexicaanse keuken',
   123: 'Marokkaanse keuken',
+  45: 'Chinese keuken',
+  69: 'Franse keuken',
+  202: 'Vietnamese keuken',
 };
 
 const CHAPTER_NAMES_PS: Record<number, string> = {
@@ -379,6 +436,9 @@ const CHAPTER_NAMES_PS: Record<number, string> = {
   92: 'جاپاني پخلی',
   117: 'مکسيکي پخلی',
   123: 'مغربي پخلی',
+  45: 'چيني پخلی',
+  69: 'فرانسوي پخلی',
+  202: 'ويتنامي پخلی',
 };
 
 const CHAPTER_NAMES_HE: Record<number, string> = {
@@ -395,6 +455,9 @@ const CHAPTER_NAMES_HE: Record<number, string> = {
   92: 'מטבח יפני',
   117: 'מטבח מקסיקני',
   123: 'מטבח מרוקאי',
+  45: 'מטבח סיני',
+  69: 'מטבח צרפתי',
+  202: 'מטבח וייטנאמי',
 };
 
 const CHAPTER_NAMES_PL: Record<number, string> = {
@@ -411,6 +474,9 @@ const CHAPTER_NAMES_PL: Record<number, string> = {
   92: 'Kuchnia japońska',
   117: 'Kuchnia meksykańska',
   123: 'Kuchnia marokańska',
+  45: 'Kuchnia chińska',
+  69: 'Kuchnia francuska',
+  202: 'Kuchnia wietnamska',
 };
 
 const CHAPTER_NAMES_SV: Record<number, string> = {
@@ -427,6 +493,9 @@ const CHAPTER_NAMES_SV: Record<number, string> = {
   92: 'Japanskt kök',
   117: 'Mexikanskt kök',
   123: 'Marockanskt kök',
+  45: 'Kinesiskt kök',
+  69: 'Franskt kök',
+  202: 'Vietnamesiskt kök',
 };
 
 const CHAPTER_NAMES_TE: Record<number, string> = {
@@ -443,6 +512,9 @@ const CHAPTER_NAMES_TE: Record<number, string> = {
   92: 'జపనీస్ వంటకాలు',
   117: 'మెక్సికన్ వంటకాలు',
   123: 'మొరాకన్ వంటకాలు',
+  45: 'చైనీస్ వంటకాలు',
+  69: 'ఫ్రెంచ్ వంటకాలు',
+  202: 'వియత్నామీ వంటకాలు',
 };
 
 const CATEGORY_NAMES: Record<string, string> = {
