@@ -12,8 +12,12 @@ Before you add, translate or edit any recipe text (`src/data/world/*.json`,
   spellings in `scripts/world/glossary_ar.json`.
 - No pork or alcohol, including hidden ones (chashu, mirin). Remove
   non-halal recipes using the checklist in the guide, and veto their slugs.
-- Manually review a sample per language. The linter can't see wrong meanings
-  or the wrong language written in the right script.
+- Compare **every** translated field with the English, not a sample. In
+  October 2026, 35–60% of the fields were wrong in every language even
+  though the linter passed. See "What went wrong" in the guide.
+- Translations can break halal on their own ("bacon", "pork broth", "сало"
+  where the English is halal). Run `npm run lint:halal-i18n` as well.
+- Keep the English units and every sentence. Never convert or shorten.
 
 ---
 

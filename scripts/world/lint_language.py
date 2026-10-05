@@ -87,10 +87,20 @@ def runs(s):
     return out
 
 
+# Common characters that exist only in Traditional Chinese. The Zh table is
+# Simplified; whole recipes were once found in Traditional (w-jp-010..014).
+TRADITIONAL_ONLY = set('們個這東鍋麵雞魚鹽湯醬燒蝦豬薑蔥蘿蔔餅糰熱將與為過後時開關點邊攪鐘'
+                       '進煉蘇醃滷燉糧蠔壓鬆盤裡當應從間溫爐壺蓋塊條絲攤捲餡麥穀會讓還變請給說層濃軟')
+
+
 def check(lang, s):
     bad = []
     if '�' in s:
         bad.append('U+FFFD')
+    if lang == 'Zh':
+        trad = sorted({c for c in s if c in TRADITIONAL_ONLY})
+        if trad:
+            bad.append('traditional:' + ''.join(trad))
     allow = ALLOWED[lang]
     for sc, tok in runs(s):
         if sc in allow:
@@ -169,6 +179,18 @@ def main():
         for rid, entry in table.items():
             if not rid.startswith('w-'):
                 continue
+            # Shape: every step is a plain string and every ingredient is
+            # {name, standardAmount}. Model output has put ingredient objects
+            # and Python dict reprs into step slots, which walk() would accept.
+            for k, v in entry.get('instructions', {}).items():
+                if not isinstance(v, str) or v.lstrip().startswith(('{', '[')):
+                    findings.append(dict(lang=lang, id=rid, path=f'instructions.{k}',
+                                         bad=['not a plain string'], text=str(v)))
+            for k, v in entry.get('ingredients', {}).items():
+                if not (isinstance(v, dict) and all(isinstance(v.get(f), str)
+                                                    for f in ('name', 'standardAmount'))):
+                    findings.append(dict(lang=lang, id=rid, path=f'ingredients.{k}',
+                                         bad=['bad ingredient shape'], text=str(v)))
             for p, s in walk(entry):
                 if p == 'chapter':
                     continue  # runtime uses CHAPTER_NAMES_*[chapterNumber]

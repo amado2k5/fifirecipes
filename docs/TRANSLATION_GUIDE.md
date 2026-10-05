@@ -12,9 +12,15 @@ npm run check:world
 ```
 
 It runs three checks:
-- `lint:lang` (script consistency, structure, Arabic glossary)
-- `lint:halal` (halal audit of the whole world catalog)
+- `lint:lang` (script consistency, structure, Arabic glossary). Every
+  step must be a plain string and every ingredient `{name, standardAmount}`.
+- `lint:halal` (halal audit of the English source of the world catalog)
 - `tsc --noEmit`
+
+Also run `npm run lint:halal-i18n`. It scans the **translations** for pork,
+alcohol and non-halal-animal words, which `lint:halal` never sees. It is
+not in `check:world` yet, because w-jp-040 (tonkatsu sauce) is still under
+review. Any other hit is a bug.
 
 It must exit 0 before you commit anything under `src/data/`. Also run
 `npm run build` before you open a PR. **Never commit with known findings,
@@ -27,6 +33,50 @@ The checker cannot catch everything. Text can pass and still be wrong:
 - a wrong but real word (e.g. "celery" for cilantro)
 
 That's why the manual review in step 5 below is required.
+
+## What went wrong in October 2026 (read this first)
+
+All 161 world recipes passed `check:world` and three chapters went live.
+A field-by-field comparison with the English then showed that **35–60% of
+the instruction fields in every language were wrong**. Swahili, Pashto and
+Hebrew were close to 100% wrong. The script linter could not see any of it.
+What we found, and the rule each finding added:
+
+1. **Filler and wrong-language text in the right script.** Swahili "kikombe
+   cha kikombe", Pashto written in Persian, Hebrew "השווה" for every verb.
+   → Compare **every** field with the English, not a sample (step 5).
+2. **Wrong but real words.** Eggplant became "baklava" (El), "cookie" (Fa)
+   and "almond-coloured" (Ur). Rice became "flour", tbsp became "dollar"
+   (Fa), pot became "suit" (Pl), cloves became "teeth" (Ur), and serve
+   became "submit" (El). → See the known-mistranslations table.
+3. **Halal broken by translation alone.** The English was halal, but the
+   translation said "bacon" (Ur), "bear meat" and "toddy" (Hi), "сало"
+   (pork fat, Ru), "pork broth" (Te), "Schweinefilet" (De), "bonito pork"
+   and "pork salt" (Sv), and "pork onions" (Es). → `lint:halal-i18n`, and
+   halal is part of the per-field review.
+4. **Dropped content.** Steps were shortened and lost actions,
+   temperatures, °F and gas marks, and negations ("so the rice does *not*
+   stick"). → Never shorten. Every sentence of the English must be in the
+   translation.
+5. **Units converted.** Inches became cm, °F became °C, cups became ml, and
+   tsp and tbsp were swapped. → Keep the English units and numbers. Only
+   the unit word is translated, and it must be translated: "inch" was left
+   in English in Sv, Tr, Pl and It text (tum, inç, cal, pollice).
+6. **Broken structure.** Some instruction slots held an ingredient object, a
+   nested `{"1": …}` or a Python dict string, and the linter walked
+   straight past them. → `lint:lang` now checks the shape of every field.
+7. **Ingredient names and titles are as bad as steps.** "Boneless leg of
+   lamb" was wrong in 8 of 24 tables. → Review names and titles too, not
+   only instructions.
+8. **Traditional characters in the Simplified Chinese table.** Five
+   recipes (w-jp-010 to 014) were written in Traditional Chinese, and the
+   script linter counts both as Han. Their titles were also wrong ("sushi
+   bread" for shokupan, tamagoyaki for imagawayaki). → `lint:lang` now
+   rejects common Traditional-only characters in `Zh`.
+9. **Recipes imported without translations.** 16 Italian recipes reached
+   `main` without any translation entries, and `check:world` failed for
+   everyone. → An import commit must include all 24 tables, or stay on its
+   branch.
 
 ## Where the text lives
 
@@ -104,7 +154,16 @@ and single capital section letters (`A`, `B`).
 | bean sprouts | soybeans (فول الصويا) | براعم الفاصولياء |
 | ground cumin/coriander | "ground-meat cumin" (挽き肉のクミン), "of kidneys" | كمون مطحون |
 | caul fat | "uterine membrane fat" (الغشاء الرحمي) | ثرب الغنم |
-| eggplant | avocado | باذنجان |
+| eggplant | avocado, baklava, cookie, "almond-coloured", melon | باذنجان |
+| rice | flour, wheat, oats | أرز |
+| currants / raisins | cherries, grapes, dates, strawberries, gooseberry | زبيب / كشمش |
+| peas | green peppers, lentils, green beans | بازلاء |
+| cloves | cardamom, "teeth", "hooves", "small nails", toddy | قرنفل |
+| lamb | beef, veal, goat, "bear", "bacon", "child" | لحم ضأن |
+| broth / stock | butter, sugar, ice, broccoli, "salt water" | مرق |
+| bonito flakes | "bonito pork" (bonitofläsk) | رقائق البونيتو |
+| tbsp / tsp | swapped, "dollar", "artillery", "spoon" | ملعقة كبيرة / صغيرة |
+| serve | "submit" (υποβάλετε) | يُقدَّم |
 
 ## Halal rules (enforced by `lint:halal`)
 
@@ -115,6 +174,18 @@ and single capital section letters (`A`, `B`).
 - Seafood is allowed. Meat is assumed to be halal-slaughtered.
 - A halal substitute is fine (e.g. "halal Chinese-style beef sausage"), but
   it must be written into the **English source text** so the gate sees it.
+- **A translation can break halal on its own.** Run `lint:halal-i18n`, and
+  when you review a field, check the meat, fat and liquids against the
+  English. Words that look alike are the danger: سور / سورج, "smalec"
+  (lard) vs "smalec kaczy" (duck fat), "bulu babi" (sea urchin).
+- **Hidden alcohol in ready-made products.** Store-bought teriyaki sauce
+  and ponzu usually contain mirin, and vanilla and orange *extract* are
+  alcohol-based. Write a halal version into the English
+  ("vanilla powder", "halal teriyaki sauce made without mirin or sake").
+  This includes alternatives written in the **amount** column
+  ("… (or 2 tsp vanilla extract)"). `halal_audit.py` now scans it too.
+- **Notes that name a pork dish** (e.g. "Bì cuốn", "tonkatsu") need
+  rewording, even when the recipe itself is halal.
 - When `lint:halal` flags a recipe: substitute the ingredient in the source,
   or remove the recipe. **If you meet a new pork or alcohol term, add it to
   the `reject:` list in `halal_rules.yaml` in the same commit.**
@@ -150,14 +221,32 @@ must only match generated files (`public/recipes.json`, `public/sitemap.xml`).
 4. **Run `npm run check:world`** and fix every finding by retranslating the
    whole field.
 5. **Do a manual review**, which the checker can't do:
-   - For each language, compare about 10 random fields against the English.
-   - Check every title.
+   - Compare **every** step, note, ingredient name and title in every
+     language with the English. A sample of 10 missed most errors.
+   - Check that the numbers in each field match the English (see the
+     number check in "For agents running a batch" below).
    - Check every row of the known-mistranslations table above.
    - For Pashto, confirm it is Pashto and not Persian.
+   - Run `npm run lint:halal-i18n`.
 6. **Only then** set `ready: true` for the chapter.
 7. Commit in small commits by area (catalog, Kurdish, other languages).
    The PR must list before/after `check:world` counts and a few before → after
    examples.
+
+## For agents running a batch (Claude, Devin)
+
+- Split the work by language, about 40 recipes per agent. Give each agent
+  the English plus the current text, and have it output **only the fields
+  it changes**. This roughly halves the cost when a table is mostly right.
+- Save output in parts as you go, under file names unique to the agent
+  (`tmp-<Lang>-<chunk>-*`). Two agents sharing a helper file overwrote
+  each other's input. A scratch directory can also be wiped when the
+  session restarts, so don't keep the only copy there.
+- Before merging, compare the digits in each changed field with the
+  English. Any extra number is usually a unit conversion that has to be
+  reverted.
+- Commit one language per commit, with `check:world` passing. Then a stop
+  at any point leaves finished work behind.
 
 ## For local-model output
 
