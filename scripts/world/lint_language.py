@@ -169,6 +169,18 @@ def main():
         for rid, entry in table.items():
             if not rid.startswith('w-'):
                 continue
+            # Shape: every step is a plain string and every ingredient is
+            # {name, standardAmount}. Model output has put ingredient objects
+            # and Python dict reprs into step slots, which walk() would accept.
+            for k, v in entry.get('instructions', {}).items():
+                if not isinstance(v, str) or v.lstrip().startswith(('{', '[')):
+                    findings.append(dict(lang=lang, id=rid, path=f'instructions.{k}',
+                                         bad=['not a plain string'], text=str(v)))
+            for k, v in entry.get('ingredients', {}).items():
+                if not (isinstance(v, dict) and all(isinstance(v.get(f), str)
+                                                    for f in ('name', 'standardAmount'))):
+                    findings.append(dict(lang=lang, id=rid, path=f'ingredients.{k}',
+                                         bad=['bad ingredient shape'], text=str(v)))
             for p, s in walk(entry):
                 if p == 'chapter':
                     continue  # runtime uses CHAPTER_NAMES_*[chapterNumber]
