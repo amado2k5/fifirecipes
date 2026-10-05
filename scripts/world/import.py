@@ -106,7 +106,8 @@ def artifacts_ready(rid: str) -> bool:
     for f in (SRC_DATA / 'recipeEstimatesData.ts',
               SRC_DATA / 'additionalRecipeEstimates.ts',
               SRC_DATA / 'worldRecipeEstimates.ts'):
-        if f.exists() and f"'{rid}'" in f.read_text():
+        if f.exists() and (f"'{rid}'" in f.read_text()
+                           or f'"{rid}"' in f.read_text()):
             return True
     return False
 
