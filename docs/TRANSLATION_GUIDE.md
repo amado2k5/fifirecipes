@@ -62,6 +62,8 @@ What we found, and the rule each finding added:
    tsp and tbsp were swapped. → Keep the English units and numbers. Only
    the unit word is translated, and it must be translated: "inch" was left
    in English in Sv, Tr, Pl and It text (tum, inç, cal, pollice).
+   Watch false friends: Dutch "ons" is 100 g and "pond" is 500 g, so oz and lb
+   stay "ounce"/"pound" there; check every language for the same trap.
 6. **Broken structure.** Some instruction slots held an ingredient object, a
    nested `{"1": …}` or a Python dict string, and the linter walked
    straight past them. → `lint:lang` now checks the shape of every field.
@@ -189,6 +191,9 @@ and single capital section letters (`A`, `B`).
   ("vanilla powder", "halal teriyaki sauce made without mirin or sake").
   This includes alternatives written in the **amount** column
   ("… (or 2 tsp vanilla extract)"). `halal_audit.py` now scans it too.
+- **Generic "minced/ground meat" can default to pork** (e.g. Japanese
+  挽き肉 usually means a pork mix). Always name the animal from the English
+  ("ground beef" → 牛挽き肉).
 - **Notes that name a pork dish** (e.g. "Bì cuốn", "tonkatsu") need
   rewording, even when the recipe itself is halal.
 - When `lint:halal` flags a recipe: substitute the ingredient in the source,

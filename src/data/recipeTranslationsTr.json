@@ -105514,14 +105514,14 @@
   }
  },
  "w-ma-002": {
-  "title": "Kavurulmuş Sarımsaklı Baba Ghanoush",
+  "title": "Fırında sarımsaklı baba gannuş",
   "ingredients": {
    "w-ma-002-i1": {
     "name": "patlıcan",
     "standardAmount": "3 büyük"
    },
    "w-ma-002-i2": {
-    "name": "sarımısak",
+    "name": "sarımsak",
     "standardAmount": "1 baş"
    },
    "w-ma-002-i3": {
@@ -105534,7 +105534,7 @@
    },
    "w-ma-002-i5": {
     "name": "tahin",
-    "standardAmount": "1 yedek kaşık"
+    "standardAmount": "1 yemek kaşığı"
    },
    "w-ma-002-i6": {
     "name": "çam fıstığı",
@@ -105550,7 +105550,7 @@
    },
    "w-ma-002-i9": {
     "name": "karabiber",
-    "standardAmount": "tatlılıkta"
+    "standardAmount": "damak tadına göre"
    }
   },
   "instructions": {
@@ -105567,22 +105567,22 @@
   "chapter": "مطبخ المغرب"
  },
  "w-ma-003": {
-  "title": "Fırınlanmış Semolina Pancakları - Beghrir",
+  "title": "Fas usulü irmik pankeki - Beghrir",
   "ingredients": {
    "w-ma-003-i1": {
-    "name": "ince semolina",
+    "name": "ince irmik",
     "standardAmount": "1 1/2 su bardağı"
    },
    "w-ma-003-i2": {
-    "name": "ekmek unu",
+    "name": "çok amaçlı un",
     "standardAmount": "3/4 su bardağı + 1/2 su bardağı"
    },
    "w-ma-003-i3": {
     "name": "kuru maya",
-    "standardAmount": "1 yedek kaşık + 1 yedek kaşık"
+    "standardAmount": "1 yemek kaşığı + 1 yemek kaşığı"
    },
    "w-ma-003-i4": {
-    "name": "hamur kabartma tozu",
+    "name": "kabartma tozu",
     "standardAmount": "2 çay kaşığı"
    },
    "w-ma-003-i5": {
@@ -105613,16 +105613,16 @@
   "title": "Bessara",
   "ingredients": {
    "w-ma-004-i1": {
-    "name": "kuru bölünmüş kuru fasulye",
-    "standardAmount": "12 oz (yaklaşık 2,25 su bardağı)"
+    "name": "kuru ikiye bölünmüş bakla",
+    "standardAmount": "12 ons (yaklaşık 2,25 su bardağı)"
    },
    "w-ma-004-i2": {
     "name": "zeytinyağı",
     "standardAmount": "⅓ su bardağı"
    },
    "w-ma-004-i3": {
-    "name": "sarımısak",
-    "standardAmount": "6-7 pençe (ezilmiş)"
+    "name": "sarımsak",
+    "standardAmount": "6-7 diş (ezilmiş)"
    },
    "w-ma-004-i4": {
     "name": "su",
@@ -105638,27 +105638,27 @@
    },
    "w-ma-004-i7": {
     "name": "tuz",
-    "standardAmount": "1,5 çay kaşığı veya tatlılıkta"
+    "standardAmount": "1,5 çay kaşığı veya damak tadına göre"
    },
    "w-ma-004-i8": {
     "name": "limon suyu",
-    "standardAmount": "1-2 yemek kaşığı veya tatlılıkta (isteğe bağlı)"
+    "standardAmount": "1-2 yemek kaşığı veya damak tadına göre (isteğe bağlı)"
    },
    "w-ma-004-i9": {
-    "name": "toz karanfil (servis için)",
-    "standardAmount": "tatlılıkta"
+    "name": "kimyon (servis için)",
+    "standardAmount": "damak tadına göre"
    },
    "w-ma-004-i10": {
-    "name": "toz kırmızı biber (servis için)",
-    "standardAmount": "tatlılıkta"
+    "name": "toz acı kırmızı biber (kayen, servis için)",
+    "standardAmount": "damak tadına göre"
    },
    "w-ma-004-i11": {
     "name": "harissa (servis için)",
-    "standardAmount": "tatlılıkta"
+    "standardAmount": "damak tadına göre"
    },
    "w-ma-004-i12": {
     "name": "ekstra virjin zeytinyağı (servis için)",
-    "standardAmount": "tatlılıkta"
+    "standardAmount": "damak tadına göre"
    }
   },
   "instructions": {
@@ -105678,27 +105678,27 @@
   "ingredients": {
    "w-ma-005-i1": {
     "name": "kuzu veya sığır karaciğeri",
-    "standardAmount": "2,2 lb"
+    "standardAmount": "2,2 libre"
    },
    "w-ma-005-i2": {
-    "name": "koyu koyu kuzu kabak yağı",
-    "standardAmount": "1,1 lb"
+    "name": "ince bir kat koyun gömleği (ağ yağı)",
+    "standardAmount": "1,1 libre"
    },
    "w-ma-005-i3": {
     "name": "toz kimyon",
     "standardAmount": "2 yemek kaşığı"
    },
    "w-ma-005-i4": {
-    "name": "tatlı biber",
+    "name": "tatlı toz kırmızı biber",
     "standardAmount": "2 çay kaşığı"
    },
    "w-ma-005-i5": {
-    "name": "kırmızı biber",
-    "standardAmount": "1,5 çay kaşığı (tatlılıkta)"
+    "name": "kayen biberi",
+    "standardAmount": "1,5 çay kaşığı (damak tadına göre)"
    },
    "w-ma-005-i6": {
     "name": "tuz",
-    "standardAmount": "1,5 çay kaşığı (tatlılıkta)"
+    "standardAmount": "1,5 çay kaşığı (damak tadına göre)"
    },
    "w-ma-005-i7": {
     "name": "toz kişniş tohumu",
@@ -105716,23 +105716,23 @@
   "chapter": "مطبخ المغرب"
  },
  "w-ma-006": {
-  "title": "Fındık Briouat",
+  "title": "Bademli Briouat",
   "ingredients": {
    "w-ma-006-i1": {
-    "name": "tüm fındık",
-    "standardAmount": "35 oz"
+    "name": "bütün çiğ badem",
+    "standardAmount": "35 ons"
    },
    "w-ma-006-i2": {
     "name": "bitkisel yağ",
-    "standardAmount": "4 kupa (kızartmak için)"
+    "standardAmount": "4 su bardağı (kızartmak için)"
    },
    "w-ma-006-i3": {
-    "name": "pul biber",
-    "standardAmount": "1 3/4 kupa"
+    "name": "toz şeker",
+    "standardAmount": "1 3/4 su bardağı"
    },
    "w-ma-006-i4": {
     "name": "toz tarçın",
-    "standardAmount": "1/2 çay kaşığı (veya isteğe göre daha fazla)"
+    "standardAmount": "1/2 çay kaşığı (veya damak tadına göre daha fazla)"
    },
    "w-ma-006-i5": {
     "name": "tuz",
@@ -105744,15 +105744,15 @@
    },
    "w-ma-006-i7": {
     "name": "tuzsuz tereyağı",
-    "standardAmount": "1/2 kupa (yumuşatılmış) + 1/3 kupa (eritilmiş)"
+    "standardAmount": "1/2 su bardağı (yumuşatılmış) + 1/3 su bardağı (eritilmiş)"
    },
    "w-ma-006-i8": {
     "name": "portakal çiçeği suyu",
-    "standardAmount": "1/3 kupa + 1-2 yemek kaşığı"
+    "standardAmount": "1/3 su bardağı + 1-2 yemek kaşığı"
    },
    "w-ma-006-i9": {
-    "name": "warqa",
-    "standardAmount": "2,2 lbs"
+    "name": "warqa yufkası",
+    "standardAmount": "2,2 libre"
    },
    "w-ma-006-i10": {
     "name": "yumurta sarısı",
@@ -105760,10 +105760,10 @@
    },
    "w-ma-006-i11": {
     "name": "bal",
-    "standardAmount": "45 oz"
+    "standardAmount": "45 ons"
    },
    "w-ma-006-i12": {
-    "name": "hindistan cevizi tohumu",
+    "name": "susam",
     "standardAmount": "gerekli kadar"
    }
   },
@@ -105779,15 +105779,15 @@
   "chapter": "مطبخ المغرب"
  },
  "w-ma-007": {
-  "title": "Çekbakia",
+  "title": "Şebakiya",
   "ingredients": {
    "w-ma-007-i1": {
-    "name": "kabuğundan arındırılmamış hindistan cevizi tohumu",
-    "standardAmount": "7 oz (yaklaşık 1,5 kupa)"
+    "name": "kabuklu susam",
+    "standardAmount": "7 ons (yaklaşık 1,5 su bardağı)"
    },
    "w-ma-007-i2": {
     "name": "un",
-    "standardAmount": "4 kupa"
+    "standardAmount": "4 su bardağı"
    },
    "w-ma-007-i3": {
     "name": "hamur kabartma tozu",
@@ -105806,15 +105806,15 @@
     "standardAmount": "1,5 çay kaşığı"
    },
    "w-ma-007-i7": {
-    "name": "karanfil iplikleri",
+    "name": "safran iplikleri",
     "standardAmount": "1/2 çay kaşığı, toz haline getirilmiş"
    },
    "w-ma-007-i8": {
-    "name": "karabiber",
+    "name": "zerdeçal",
     "standardAmount": "1/2 çay kaşığı"
    },
    "w-ma-007-i9": {
-    "name": "mastik veya arap gümüşü damlaları",
+    "name": "mastik veya arap zamkı damlaları",
     "standardAmount": "1/4 çay kaşığı, 1/4 çay kaşığı şekerle karıştırılmış ve toz haline getirilmiş"
    },
    "w-ma-007-i10": {
@@ -105823,35 +105823,35 @@
    },
    "w-ma-007-i11": {
     "name": "tuzsuz tereyağı",
-    "standardAmount": "1/4 kupa (eritilmiş)"
+    "standardAmount": "1/4 su bardağı (eritilmiş)"
    },
    "w-ma-007-i12": {
     "name": "zeytinyağı",
-    "standardAmount": "1/4 kupa"
+    "standardAmount": "1/4 su bardağı"
    },
    "w-ma-007-i13": {
     "name": "sirke",
-    "standardAmount": "1/4 kupa"
+    "standardAmount": "1/4 su bardağı"
    },
    "w-ma-007-i14": {
     "name": "portakal çiçeği suyu",
-    "standardAmount": "1/4 kupa + 2 yemek kaşığı"
+    "standardAmount": "1/4 su bardağı + 2 yemek kaşığı"
    },
    "w-ma-007-i15": {
-    "name": "mayad",
-    "standardAmount": "1 çay kaşığı (1/4 kupa ılık suyla eritilmiş)"
+    "name": "maya",
+    "standardAmount": "1 çay kaşığı (1/4 su bardağı ılık suyla eritilmiş)"
    },
    "w-ma-007-i16": {
     "name": "bal",
-    "standardAmount": "36 oz (yaklaşık)"
+    "standardAmount": "36 ons (yaklaşık)"
    },
    "w-ma-007-i17": {
     "name": "bitkisel yağ",
-    "standardAmount": "6 kupa (kızartmak için)"
+    "standardAmount": "6 su bardağı (kızartmak için)"
    },
    "w-ma-007-i18": {
-    "name": "kızartılmış kabuğundan arındırılmamış hindistan cevizi tohumu",
-    "standardAmount": "1/2 kupa"
+    "name": "kavrulmuş kabuklu susam",
+    "standardAmount": "1/2 su bardağı"
    }
   },
   "instructions": {
@@ -105868,23 +105868,23 @@
   "chapter": "مطبخ المغرب"
  },
  "w-ma-009": {
-  "title": "Şekerli Kusçu (Bil Zbib)",
+  "title": "Tatlı Kuskus (Bil Zbib)",
   "ingredients": {
    "w-ma-009-i1": {
-    "name": "altın üzümü",
-    "standardAmount": "1/4 kupa"
+    "name": "sarı kuru üzüm",
+    "standardAmount": "1/4 su bardağı"
    },
    "w-ma-009-i2": {
-    "name": "kuru erik",
-    "standardAmount": "4 dilim"
+    "name": "kuru kayısı",
+    "standardAmount": "4 adet, doğranmış"
    },
    "w-ma-009-i3": {
     "name": "su",
-    "standardAmount": "1/12 kupa"
+    "standardAmount": "1/12 su bardağı"
    },
    "w-ma-009-i4": {
-    "name": "kusçu",
-    "standardAmount": "1 1/8 kupa"
+    "name": "kuskus",
+    "standardAmount": "1 1/8 su bardağı"
    },
    "w-ma-009-i5": {
     "name": "tereyağı",
@@ -105899,8 +105899,8 @@
     "standardAmount": "1 çay kaşığı"
    },
    "w-ma-009-i8": {
-    "name": "toz şeker",
-    "standardAmount": "1/8 kupa"
+    "name": "pudra şekeri",
+    "standardAmount": "1/8 su bardağı"
    }
   },
   "instructions": {
@@ -105914,7 +105914,7 @@
   "chapter": "مطبخ المغرب"
  },
  "w-ma-010": {
-  "title": "Bal ile Ghoriba",
+  "title": "Ballı Ghoriba",
   "ingredients": {
    "w-ma-010-i1": {
     "name": "yumurta",
@@ -105926,11 +105926,11 @@
    },
    "w-ma-010-i3": {
     "name": "şeker",
-    "standardAmount": "1/3 kupa"
+    "standardAmount": "1/3 su bardağı"
    },
    "w-ma-010-i4": {
     "name": "bitkisel yağ veya eritilmiş tereyağı",
-    "standardAmount": "1/3 kupa"
+    "standardAmount": "1/3 su bardağı"
    },
    "w-ma-010-i5": {
     "name": "vanilya",
@@ -105942,7 +105942,7 @@
    },
    "w-ma-010-i7": {
     "name": "un",
-    "standardAmount": "2 2/3 kupa"
+    "standardAmount": "2 2/3 su bardağı"
    },
    "w-ma-010-i8": {
     "name": "hamur kabartma tozu",
@@ -105950,7 +105950,7 @@
    },
    "w-ma-010-i9": {
     "name": "tuz",
-    "standardAmount": "bir çay kaşığı"
+    "standardAmount": "bir tutam"
    },
    "w-ma-010-i10": {
     "name": "limon kabuğu",
@@ -105974,14 +105974,14 @@
   "chapter": "مطبخ المغرب"
  },
  "w-ma-011": {
-  "title": "Anason, Kuruüzüm ve Susamlı Fırınlanmış Marokolu Semolina Kurabiyeleri - Pişmiş Harcha",
+  "title": "Anasonlu, Kuru Üzümlü ve Susamlı Fas İrmik Kurabiyeleri - Fırında Harcha",
   "ingredients": {
    "w-ma-011-i1": {
-    "name": "ince semolina",
+    "name": "ince irmik",
     "standardAmount": "2 su bardağı"
    },
    "w-ma-011-i2": {
-    "name": "kuru un",
+    "name": "çok amaçlı un",
     "standardAmount": "1/2 su bardağı"
    },
    "w-ma-011-i3": {
@@ -105990,7 +105990,7 @@
    },
    "w-ma-011-i4": {
     "name": "hamur kabartma tozu",
-    "standardAmount": "3 çorba kaşığı"
+    "standardAmount": "3 çay kaşığı"
    },
    "w-ma-011-i5": {
     "name": "tuz",
@@ -106025,7 +106025,7 @@
     "standardAmount": "1/2 su bardağı (yaklaşık)"
    },
    "w-ma-011-i13": {
-    "name": "semolina (ince veya kaba)",
+    "name": "irmik (kaba veya ince)",
     "standardAmount": "4 çorba kaşığı"
    },
    "w-ma-011-i14": {
@@ -106046,14 +106046,14 @@
   "chapter": "مطبخ المغرب"
  },
  "w-ma-012": {
-  "title": "Marokolu Harira Çorbası",
+  "title": "Fas Usulü Harira Çorbası",
   "ingredients": {
    "w-ma-012-i1": {
     "name": "kuzu, sığır veya tavuk",
     "standardAmount": "8 ons"
    },
    "w-ma-012-i2": {
-    "name": "sebze yağı veya zeytinyağı",
+    "name": "bitkisel yağ veya zeytinyağı",
     "standardAmount": "3 yemek kaşığı"
    },
    "w-ma-012-i3": {
@@ -106062,7 +106062,7 @@
    },
    "w-ma-012-i4": {
     "name": "olgun domates",
-    "standardAmount": "2 pound (yaklaşık 6 büyük)"
+    "standardAmount": "2 libre (yaklaşık 6 büyük)"
    },
    "w-ma-012-i5": {
     "name": "kuru nohut, ıslatılmış ve kabukları çıkarılmış",
@@ -106077,16 +106077,16 @@
     "standardAmount": "1 büyük"
    },
    "w-ma-012-i8": {
-    "name": "yaprakları olan kabak kavunu, doğranmış",
-    "standardAmount": "1 kavun"
+    "name": "yapraklı kereviz sapı, doğranmış",
+    "standardAmount": "1 sap"
    },
    "w-ma-012-i9": {
     "name": "yapraklı maydanoz, ince doğranmış",
-    "standardAmount": "1 küçük avuç"
+    "standardAmount": "1 küçük demet"
    },
    "w-ma-012-i10": {
     "name": "kişniş, ince doğranmış",
-    "standardAmount": "1 küçük avuç"
+    "standardAmount": "1 küçük demet"
    },
    "w-ma-012-i11": {
     "name": "smen (isteğe bağlı)",
@@ -106097,11 +106097,11 @@
     "standardAmount": "1 yemek kaşığı"
    },
    "w-ma-012-i13": {
-    "name": "zerdeçal",
+    "name": "zencefil",
     "standardAmount": "1 yemek kaşığı"
    },
    "w-ma-012-i14": {
-    "name": "siyah biber",
+    "name": "karabiber",
     "standardAmount": "1.5 çay kaşığı"
    },
    "w-ma-012-i15": {
@@ -106141,22 +106141,22 @@
   "chapter": "مطبخ المغرب"
  },
  "w-ma-013": {
-  "title": "Marokolu Khlea",
+  "title": "Fas Usulü Khlea",
   "ingredients": {
    "w-ma-013-i1": {
     "name": "gueddid",
-    "standardAmount": "6 pound"
+    "standardAmount": "6 libre"
    },
    "w-ma-013-i2": {
-    "name": "sığır karaciğeri yağı (böbrek yağı)",
+    "name": "sığır içyağı (böbrek yağı)",
     "standardAmount": "18 ons"
    },
    "w-ma-013-i3": {
     "name": "su",
-    "standardAmount": "2.2-3.3 kova"
+    "standardAmount": "2.2-3.3 kuart"
    },
    "w-ma-013-i4": {
-    "name": "ekstra virjın zeytinyağı",
+    "name": "sızma zeytinyağı",
     "standardAmount": "4.5 su bardağı"
    },
    "w-ma-013-i5": {
@@ -106193,19 +106193,19 @@
   "chapter": "مطبخ المغرب"
  },
  "w-ma-014": {
-  "title": "Méchoui (Kuru Meyveli Kuzu Bacak Kebabı)",
+  "title": "Méchoui (Kuru Meyve Dolgulu Kuzu But)",
   "ingredients": {
    "w-ma-014-i1": {
-    "name": "kemiksiz kuzu bacağı",
-    "standardAmount": "3.5-4 pound"
+    "name": "kemiksiz kuzu but",
+    "standardAmount": "3.5-4 libre"
    },
    "w-ma-014-i2": {
     "name": "kuruüzüm",
     "standardAmount": "1/4 su bardağı"
    },
    "w-ma-014-i3": {
-    "name": "kuru hurma",
-    "standardAmount": "2 adet (çekirdekli)"
+    "name": "hurma",
+    "standardAmount": "2 adet (çekirdeği çıkarılmış)"
    },
    "w-ma-014-i4": {
     "name": "kuru incir",
@@ -106229,11 +106229,11 @@
    },
    "w-ma-014-i9": {
     "name": "tuz",
-    "standardAmount": "tatlılık göre"
+    "standardAmount": "damak tadına göre"
    },
    "w-ma-014-i10": {
     "name": "siyah biber",
-    "standardAmount": "tatlılık göre"
+    "standardAmount": "damak tadına göre"
    }
   },
   "instructions": {
@@ -106252,7 +106252,7 @@
   "title": "Makroudh",
   "ingredients": {
    "w-ma-015-i1": {
-    "name": "kuru un",
+    "name": "çok amaçlı un",
     "standardAmount": "3 su bardağı"
    },
    "w-ma-015-i2": {
@@ -106260,7 +106260,7 @@
     "standardAmount": "1 1/2 yemek kaşığı"
    },
    "w-ma-015-i3": {
-    "name": "sıcak su",
+    "name": "ılık su",
     "standardAmount": "3/4 su bardağı (gerekli kadar)"
    },
    "w-ma-015-i4": {
@@ -106284,7 +106284,7 @@
   "ingredients": {
    "w-ma-016-i1": {
     "name": "Kırpılmış kuzu eti",
-    "standardAmount": "2.2 lbs"
+    "standardAmount": "2.2 libre"
    },
    "w-ma-016-i2": {
     "name": "M'rouzia için Ras-el-hanout",
@@ -106295,11 +106295,11 @@
     "standardAmount": "1/2 çay kaşığı"
    },
    "w-ma-016-i4": {
-    "name": "Sebze yağı veya zeytinyağı",
+    "name": "Bitkisel yağ veya zeytinyağı",
     "standardAmount": "2 yemek kaşığı"
    },
    "w-ma-016-i5": {
-    "name": "Zeytinyağı ve sebze yağı",
+    "name": "Zeytinyağı ve bitkisel yağ",
     "standardAmount": "4 yemek kaşığı"
    },
    "w-ma-016-i6": {
@@ -106319,16 +106319,16 @@
     "standardAmount": "1 çay kaşığı"
    },
    "w-ma-016-i10": {
-    "name": "Kırmızı karanfil çubuğu",
+    "name": "Çubuk tarçın",
     "standardAmount": "1 çubuk"
    },
    "w-ma-016-i11": {
-    "name": "Saffron iplikleri",
+    "name": "Safran iplikleri",
     "standardAmount": "1/2 çay kaşığı"
    },
    "w-ma-016-i12": {
     "name": "Koyu kuru üzüm",
-    "standardAmount": "1.1 lbs"
+    "standardAmount": "1.1 libre"
    },
    "w-ma-016-i13": {
     "name": "Ras el Hanout (M'rouzia karışımı)",
@@ -106344,7 +106344,7 @@
    },
    "w-ma-016-i16": {
     "name": "Kabukları soyulmuş badem",
-    "standardAmount": "5.2 oz"
+    "standardAmount": "5.2 ons"
    }
   },
   "instructions": {
@@ -106360,15 +106360,15 @@
   "chapter": "مطبخ المغرب"
  },
  "w-ma-017": {
-  "title": "Moroccan Msemen",
+  "title": "Fas Usulü Msemen",
   "ingredients": {
    "w-ma-017-i1": {
     "name": "beyaz un",
-    "standardAmount": "3 1/2 kase"
+    "standardAmount": "3 1/2 su bardağı"
    },
    "w-ma-017-i2": {
-    "name": "ince semol veya durum unu",
-    "standardAmount": "1/2 kase"
+    "name": "ince irmik veya durum unu",
+    "standardAmount": "1/2 su bardağı"
    },
    "w-ma-017-i3": {
     "name": "şeker",
@@ -106384,19 +106384,19 @@
    },
    "w-ma-017-i6": {
     "name": "ılık su",
-    "standardAmount": "1 1/2 kase"
+    "standardAmount": "1 1/2 su bardağı"
    },
    "w-ma-017-i7": {
-    "name": "sebze yağı",
-    "standardAmount": "1 kase (gerekirse daha fazla)"
+    "name": "bitkisel yağ",
+    "standardAmount": "1 su bardağı (gerekirse daha fazla)"
    },
    "w-ma-017-i8": {
-    "name": "ince semol",
-    "standardAmount": "1/2 kase (daha kaba kalınlıkta isterseniz kullanabilirsiniz)"
+    "name": "ince irmik",
+    "standardAmount": "1/2 su bardağı (daha kaba kalınlıkta isterseniz kullanabilirsiniz)"
    },
    "w-ma-017-i9": {
     "name": "çok yumuşak tuzsuz tereyağı",
-    "standardAmount": "1/4 kase (gerekirse daha fazla)"
+    "standardAmount": "1/4 su bardağı (gerekirse daha fazla)"
    }
   },
   "instructions": {
@@ -106414,14 +106414,14 @@
   "chapter": "مطبخ المغرب"
  },
  "w-ma-018": {
-  "title": "Moroccan Pastilla",
+  "title": "Fas Usulü Pastilla",
   "ingredients": {
    "w-ma-018-i1": {
     "name": "zeytinyağı",
     "standardAmount": "1 yemek kaşığı"
    },
    "w-ma-018-i2": {
-    "name": "kemikli tavuk bacakları",
+    "name": "kemiksiz tavuk butu",
     "standardAmount": "4-6 parça"
    },
    "w-ma-018-i3": {
@@ -106429,11 +106429,11 @@
     "standardAmount": "1 yemek kaşığı"
    },
    "w-ma-018-i4": {
-    "name": "soğanlar",
+    "name": "soğan",
     "standardAmount": "2 (ince doğranmış)"
    },
    "w-ma-018-i5": {
-    "name": "sarımısak dişleri",
+    "name": "sarımsak dişleri",
     "standardAmount": "2 (ince doğranmış)"
    },
    "w-ma-018-i6": {
@@ -106441,32 +106441,32 @@
     "standardAmount": "1 çay kaşığı"
    },
    "w-ma-018-i7": {
-    "name": "karanfil",
+    "name": "tarçın",
     "standardAmount": "1/2 çay kaşığı"
    },
    "w-ma-018-i8": {
-    "name": "turmeric",
+    "name": "zerdeçal",
     "standardAmount": "1/2 çay kaşığı"
    },
    "w-ma-018-i9": {
-    "name": "saffron",
+    "name": "safran",
     "standardAmount": "bir tutam"
    },
    "w-ma-018-i10": {
     "name": "tavuk suyu",
-    "standardAmount": "2 kase"
+    "standardAmount": "2 su bardağı"
    },
    "w-ma-018-i11": {
-    "name": "yumurtalar",
-    "standardAmount": "4 (çırpmış)"
+    "name": "yumurta",
+    "standardAmount": "4 (çırpılmış)"
    },
    "w-ma-018-i12": {
     "name": "toz badem",
-    "standardAmount": "1/2 kase"
+    "standardAmount": "1/2 su bardağı"
    },
    "w-ma-018-i13": {
     "name": "kuru hurma",
-    "standardAmount": "1/4 kase (ince doğranmış)"
+    "standardAmount": "1/4 su bardağı (ince doğranmış)"
    },
    "w-ma-018-i14": {
     "name": "portakal çiçeği suyu",
@@ -106482,7 +106482,7 @@
    },
    "w-ma-018-i17": {
     "name": "tuz ve taze öğütülmüş karabiber",
-    "standardAmount": "tatlıya göre"
+    "standardAmount": "damak tadına göre"
    },
    "w-ma-018-i18": {
     "name": "filo hamuru",
@@ -106490,14 +106490,14 @@
    },
    "w-ma-018-i19": {
     "name": "eritilmiş tereyağı",
-    "standardAmount": "1/2 kase"
+    "standardAmount": "1/2 su bardağı"
    },
    "w-ma-018-i20": {
-    "name": "toz şeker",
+    "name": "pudra şekeri",
     "standardAmount": "1 yemek kaşığı"
    },
    "w-ma-018-i21": {
-    "name": "karanfil",
+    "name": "tarçın",
     "standardAmount": "1 çay kaşığı"
    }
   },
@@ -106530,30 +106530,30 @@
   "chapter": "مطبخ المغرب"
  },
  "w-ma-020": {
-  "title": "Meknes Style Rfissa",
+  "title": "Meknes Usulü Rfissa",
   "ingredients": {
    "w-ma-020-i1": {
-    "name": "tüm tavuk",
-    "standardAmount": "2 kg / 4.5 lbs"
+    "name": "bütün tavuk",
+    "standardAmount": "2 kg / 4.5 libre"
    },
    "w-ma-020-i2": {
-    "name": "soğanlar",
-    "standardAmount": "1 lb"
+    "name": "soğan",
+    "standardAmount": "1 libre"
    },
    "w-ma-020-i3": {
     "name": "ras el hanout",
     "standardAmount": "3 yemek kaşığı"
    },
    "w-ma-020-i4": {
-    "name": "siyah karabiber",
+    "name": "karabiber",
     "standardAmount": "1 yemek kaşığı"
    },
    "w-ma-020-i5": {
-    "name": "zerdeçal",
+    "name": "zencefil",
     "standardAmount": "1 yemek kaşığı"
    },
    "w-ma-020-i6": {
-    "name": "turmeric",
+    "name": "zerdeçal",
     "standardAmount": "1 yemek kaşığı"
    },
    "w-ma-020-i7": {
@@ -106561,23 +106561,23 @@
     "standardAmount": "2 çay kaşığı"
    },
    "w-ma-020-i8": {
-    "name": "kayınca biber",
-    "standardAmount": "1 çay kaşığı (tatlıya göre)"
+    "name": "kayen biberi",
+    "standardAmount": "1 çay kaşığı (damak tadına göre)"
    },
    "w-ma-020-i9": {
-    "name": "saffron iplikleri",
+    "name": "safran iplikleri",
     "standardAmount": "1 çay kaşığı"
    },
    "w-ma-020-i10": {
     "name": "zeytinyağı",
-    "standardAmount": "1/2 kase"
+    "standardAmount": "1/2 su bardağı"
    },
    "w-ma-020-i11": {
-    "name": "domatesler",
+    "name": "domates",
     "standardAmount": "2 domates (kabukları soyulmuş)"
    },
    "w-ma-020-i12": {
-    "name": "sarımısak",
+    "name": "sarımsak",
     "standardAmount": "1 baş (kabukları soyulmuş)"
    },
    "w-ma-020-i13": {
@@ -106601,7 +106601,7 @@
     "standardAmount": "2 çay kaşığı"
    },
    "w-ma-020-i18": {
-    "name": "fenugreek tohumları",
+    "name": "çemen otu tohumu",
     "standardAmount": "2-3 yemek kaşığı"
    },
    "w-ma-020-i19": {
@@ -106610,7 +106610,7 @@
    },
    "w-ma-020-i20": {
     "name": "mercimek",
-    "standardAmount": "1/4 kase (temizlenmiş ve durulmuş)"
+    "standardAmount": "1/4 su bardağı (temizlenmiş ve durulmuş)"
    },
    "w-ma-020-i21": {
     "name": "smen",
@@ -106618,18 +106618,18 @@
    },
    "w-ma-020-i22": {
     "name": "msemen",
-    "standardAmount": "1.5 hamur (parçalı)"
+    "standardAmount": "1.5 tariflik (didiklenmiş)"
    },
    "w-ma-020-i23": {
     "name": "kızartılmış badem",
-    "standardAmount": "1/2 kase (kaba öğütülmüş)"
+    "standardAmount": "1/2 su bardağı (kaba öğütülmüş)"
    },
    "w-ma-020-i24": {
     "name": "hurma",
     "standardAmount": "12-15 tane"
    },
    "w-ma-020-i25": {
-    "name": "pişmiş sert yumurta",
+    "name": "haşlanmış yumurta",
     "standardAmount": "4-6 tane"
    }
   },
@@ -106648,22 +106648,22 @@
   "chapter": "مطبخ المغرب"
  },
  "w-ma-022": {
-  "title": "Marokalı Sellou",
+  "title": "Fas Usulü Sellou",
   "ingredients": {
    "w-ma-022-i1": {
-    "name": "tüm hamur fındığı",
-    "standardAmount": "1 kg"
+    "name": "bütün çiğ badem",
+    "standardAmount": "2.2 libre"
    },
    "w-ma-022-i2": {
     "name": "kabuklu susam tohumu",
-    "standardAmount": "1 kg"
+    "standardAmount": "2.2 libre"
    },
    "w-ma-022-i3": {
-    "name": "ekmek unu",
-    "standardAmount": "1 kg"
+    "name": "çok amaçlı un",
+    "standardAmount": "2.2 libre"
    },
    "w-ma-022-i4": {
-    "name": "toz şeker",
+    "name": "pudra şekeri",
     "standardAmount": "2 1/4 su bardağı"
    },
    "w-ma-022-i5": {
@@ -106684,11 +106684,11 @@
    },
    "w-ma-022-i9": {
     "name": "tuzsuz tereyağı",
-    "standardAmount": "1 kg"
+    "standardAmount": "1 libre"
    },
    "w-ma-022-i10": {
-    "name": "sebzeler yağı",
-    "standardAmount": "fındıkları kızartmak için"
+    "name": "bitkisel yağ",
+    "standardAmount": "bademleri kızartmak için"
    }
   },
   "instructions": {
@@ -106708,7 +106708,7 @@
   "title": "Şakşuka",
   "ingredients": {
    "w-ma-023-i1": {
-    "name": "kırmızı biber",
+    "name": "kırmızı dolmalık biber",
     "standardAmount": "2 büyük, doğranmış"
    },
    "w-ma-023-i2": {
@@ -106729,7 +106729,7 @@
    },
    "w-ma-023-i6": {
     "name": "domates",
-    "standardAmount": "28 oz (1 kavanoz, kabukları soyulmuş)"
+    "standardAmount": "28 ons (1 kutu, kabuğu soyulmuş)"
    },
    "w-ma-023-i7": {
     "name": "paprika",
@@ -106741,15 +106741,15 @@
    },
    "w-ma-023-i9": {
     "name": "tuz",
-    "standardAmount": "tatlılık göre"
+    "standardAmount": "damak tadına göre"
    },
    "w-ma-023-i10": {
     "name": "yumurta",
-    "standardAmount": "isteğe bağlı (pişirmek için)"
+    "standardAmount": "isteğe göre (suda pişirmek için)"
    },
    "w-ma-023-i11": {
     "name": "ekmek",
-    "standardAmount": "batırma için, tercihen baguette"
+    "standardAmount": "batırmak için, tercihen baget"
    },
    "w-ma-023-i12": {
     "name": "maydanoz",
@@ -106766,14 +106766,14 @@
   "chapter": "مطبخ المغرب"
  },
  "w-ma-024": {
-  "title": "Marokalı Tagine (Kuru üzüm ve ıspanakla Kuzu)",
+  "title": "Fas Usulü Tajin (Kuru Erikli ve Kayısılı Kuzu)",
   "ingredients": {
    "w-ma-024-i1": {
     "name": "zeytinyağı",
     "standardAmount": "2 yemek kaşığı"
    },
    "w-ma-024-i2": {
-    "name": "kabuklu fındık",
+    "name": "kabuğu soyulmuş badem",
     "standardAmount": "2 yemek kaşığı"
    },
    "w-ma-024-i3": {
@@ -106781,19 +106781,19 @@
     "standardAmount": "1 adet (ince doğranmış)"
    },
    "w-ma-024-i4": {
-    "name": "sarımısak",
+    "name": "sarımsak",
     "standardAmount": "2 diş (ince doğranmış)"
    },
    "w-ma-024-i5": {
-    "name": "karabiber",
+    "name": "zencefil",
     "standardAmount": "1 inç (ince doğranmış)"
    },
    "w-ma-024-i6": {
-    "name": "zerdeçal tırnakları",
-    "standardAmount": "1 çay kaşığı"
+    "name": "safran iplikleri",
+    "standardAmount": "1 tutam"
    },
    "w-ma-024-i7": {
-    "name": "karanfil çubukları",
+    "name": "çubuk tarçın",
     "standardAmount": "2 çubuk"
    },
    "w-ma-024-i8": {
@@ -106802,27 +106802,27 @@
    },
    "w-ma-024-i9": {
     "name": "kuzu",
-    "standardAmount": "1 kg (omzundan, bacağında veya kavalından, küp halinde)"
+    "standardAmount": "1 libre (kol, but veya incikten, küp doğranmış)"
    },
    "w-ma-024-i10": {
-    "name": "kuru üzüm",
+    "name": "kuru erik",
     "standardAmount": "12 adet (1 saat ıslatılmış ve süzülmüş)"
    },
    "w-ma-024-i11": {
-    "name": "kuru hurma",
+    "name": "kuru kayısı",
     "standardAmount": "6 adet (1 saat ıslatılmış ve süzülmüş)"
    },
    "w-ma-024-i12": {
     "name": "portakal kabuğu",
-    "standardAmount": "4 dilim"
+    "standardAmount": "4 şerit"
    },
    "w-ma-024-i13": {
     "name": "koyu bal",
     "standardAmount": "2 yemek kaşığı"
    },
    "w-ma-024-i14": {
-    "name": "tuz ve biber",
-    "standardAmount": "tatlılık göre"
+    "name": "tuz ve karabiber",
+    "standardAmount": "damak tadına göre"
    },
    "w-ma-024-i15": {
     "name": "taze kişniş",
@@ -106846,19 +106846,19 @@
   "chapter": "مطبخ المغرب"
  },
  "w-ma-025": {
-  "title": "Marokalı Dolgulu Karaciğer",
+  "title": "Fas Usulü Dalak Dolması",
   "ingredients": {
    "w-ma-025-i1": {
-    "name": "sığır veya inek karaciğeri",
+    "name": "dana veya sığır dalağı",
     "standardAmount": "1 parça"
    },
    "w-ma-025-i2": {
     "name": "ince öğütülmüş et (sığır veya kuzu)",
-    "standardAmount": "18 oz"
+    "standardAmount": "18 ons"
    },
    "w-ma-025-i3": {
-    "name": "ince doğranmış yağ",
-    "standardAmount": "8 oz"
+    "name": "ince doğranmış içyağı",
+    "standardAmount": "8 ons"
    },
    "w-ma-025-i4": {
     "name": "pişmiş pirinç",
@@ -106878,18 +106878,18 @@
    },
    "w-ma-025-i8": {
     "name": "ezilmiş sarımsak",
-    "standardAmount": "1 başlık"
+    "standardAmount": "1 baş"
    },
    "w-ma-025-i9": {
     "name": "doğranmış maydanoz",
-    "standardAmount": "1 avuç"
+    "standardAmount": "1 demet"
    },
    "w-ma-025-i10": {
     "name": "doğranmış kişniş",
-    "standardAmount": "1 avuç"
+    "standardAmount": "1 demet"
    },
    "w-ma-025-i11": {
-    "name": "hafifçe karıştırılmış yumurta",
+    "name": "hafifçe çırpılmış yumurta",
     "standardAmount": "2 yumurta"
    },
    "w-ma-025-i12": {
@@ -106913,7 +106913,7 @@
     "standardAmount": "1 çay kaşığı"
    },
    "w-ma-025-i17": {
-    "name": "pişmiş yumurta",
+    "name": "haşlanmış yumurta",
     "standardAmount": "3-4 yumurta"
    }
   },
@@ -106940,7 +106940,7 @@
     "standardAmount": "2 orta veya büyük"
    },
    "w-ma-026-i3": {
-    "name": "sarımısak",
+    "name": "sarımsak dişleri",
     "standardAmount": "6 diş"
    },
    "w-ma-026-i4": {
@@ -106968,20 +106968,20 @@
     "standardAmount": "4 yemek kaşığı"
    },
    "w-ma-026-i10": {
-    "name": "kayınca biberi veya tam biber (isteğe bağlı)",
-    "standardAmount": "tatlılık kadar"
+    "name": "kayen biberi veya bütün acı biber (isteğe bağlı)",
+    "standardAmount": "damak tadına göre"
    },
    "w-ma-026-i11": {
     "name": "limon suyu veya küçük bir limon dilimi (isteğe bağlı)",
-    "standardAmount": "tatlılık kadar"
+    "standardAmount": "damak tadına göre"
    },
    "w-ma-026-i12": {
     "name": "doğranmış maydanoz veya kişniş (garnitür için)",
-    "standardAmount": "tatlılık kadar"
+    "standardAmount": "damak tadına göre"
    },
    "w-ma-026-i13": {
     "name": "zeytinyağı (garnitür için)",
-    "standardAmount": "tatlılık kadar"
+    "standardAmount": "damak tadına göre"
    }
   },
   "instructions": {
@@ -107016,7 +107016,7 @@
     "standardAmount": "2 su bardağı"
    },
    "w-jp-001-i5": {
-    "name": "ekşi sıcak su",
+    "name": "kaynar su",
     "standardAmount": "2 yemek kaşığı + 2 çay kaşığı"
    },
    "w-jp-001-i6": {
@@ -107040,7 +107040,7 @@
     "standardAmount": "1 çay kaşığı"
    },
    "w-jp-001-i11": {
-    "name": "eritilmiş tereyağı",
+    "name": "doğranmış tereyağı",
     "standardAmount": "3 yemek kaşığı"
    }
   },
@@ -107077,7 +107077,7 @@
     "standardAmount": "2 çay kaşığı"
    },
    "w-jp-002-i5": {
-    "name": "Kombu kelp dilimi",
+    "name": "Kombu yosunu şeridi",
     "standardAmount": "1 parça"
    },
    "w-jp-002-i6": {
@@ -107089,12 +107089,12 @@
     "standardAmount": "5 yaprak"
    },
    "w-jp-002-i8": {
-    "name": "İkinci el karides eti (Kanikama)",
+    "name": "Yengeç taklidi surimi (kanikama)",
     "standardAmount": "6 parça"
    },
    "w-jp-002-i9": {
-    "name": "kabak",
-    "standardAmount": "1 kabak"
+    "name": "salatalık",
+    "standardAmount": "1 salatalık"
    },
    "w-jp-002-i10": {
     "name": "avokado",
@@ -107127,14 +107127,14 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-003": {
-  "title": "Kırmızı Kebap Ekmek (Karee Pan)",
+  "title": "Körili ekmek (Karee Pan)",
   "ingredients": {
    "w-jp-003-i1": {
     "name": "ekmekçi unu",
     "standardAmount": "180 g"
    },
    "w-jp-003-i2": {
-    "name": "düz un",
+    "name": "sade un",
     "standardAmount": "20 g"
    },
    "w-jp-003-i3": {
@@ -107163,7 +107163,7 @@
    },
    "w-jp-003-i9": {
     "name": "zeytinyağı",
-    "standardAmount": "isteğe bağlı"
+    "standardAmount": "gerektiği kadar"
    },
    "w-jp-003-i10": {
     "name": "kıyma",
@@ -107182,7 +107182,7 @@
     "standardAmount": "1 soğan"
    },
    "w-jp-003-i14": {
-    "name": "sarımısak",
+    "name": "sarımsak",
     "standardAmount": "1 diş"
    },
    "w-jp-003-i15": {
@@ -107190,7 +107190,7 @@
     "standardAmount": "250 ml"
    },
    "w-jp-003-i16": {
-    "name": "Japon karışımlı karı",
+    "name": "Japon köri sos tableti",
     "standardAmount": "70 g"
    },
    "w-jp-003-i17": {
@@ -107226,7 +107226,7 @@
   "title": "Daifuku (Tatlı Dolgulu Mochi)",
   "ingredients": {
    "w-jp-004-i1": {
-    "name": "patates unu",
+    "name": "patates nişastası",
     "standardAmount": "~½ su bardağı"
    },
    "w-jp-004-i2": {
@@ -107243,7 +107243,7 @@
    },
    "w-jp-004-i5": {
     "name": "anko dolgusu",
-    "standardAmount": "12 küçük, mermi büyüklüğünde top"
+    "standardAmount": "12 küçük, bilye büyüklüğünde top"
    }
   },
   "instructions": {
@@ -107260,10 +107260,10 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-005": {
-  "title": "Halloween Üç Renkli Dango",
+  "title": "Cadılar Bayramı için üç renkli dango",
   "ingredients": {
    "w-jp-005-i1": {
-    "name": "mor mor tatlı patates tozu",
+    "name": "mor tatlı patates tozu",
     "standardAmount": "5 g"
    },
    "w-jp-005-i2": {
@@ -107283,7 +107283,7 @@
     "standardAmount": "90 g"
    },
    "w-jp-005-i6": {
-    "name": "Pürüzsüz tofu",
+    "name": "İpek tofu",
     "standardAmount": "120 g"
    }
   },
@@ -107313,15 +107313,15 @@
   "ingredients": {
    "w-jp-006-i1": {
     "name": "Kuru kombu deniz yosunu",
-    "standardAmount": "0.5 oz"
+    "standardAmount": "0,5 ons"
    },
    "w-jp-006-i2": {
-    "name": "Katsuo bonito kuru balığı",
-    "standardAmount": "0.5 oz"
+    "name": "Katsuo palamut pulları",
+    "standardAmount": "0,5 ons"
    },
    "w-jp-006-i3": {
     "name": "su",
-    "standardAmount": "4 kupa"
+    "standardAmount": "4 su bardağı"
    }
   },
   "instructions": {
@@ -107337,11 +107337,11 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-007": {
-  "title": "Dorayaki (Japon Kırmızı Fasulye Pancakı)",
+  "title": "Dorayaki (Japon kırmızı fasulyeli pankek)",
   "ingredients": {
    "w-jp-007-i1": {
     "name": "tatlı kırmızı fasulye ezmesi (anko)",
-    "standardAmount": "17,6 oz"
+    "standardAmount": "17,6 ons"
    },
    "w-jp-007-i2": {
     "name": "büyük yumurtalar",
@@ -107353,11 +107353,11 @@
    },
    "w-jp-007-i4": {
     "name": "şeker",
-    "standardAmount": "⅔ kupa"
+    "standardAmount": "⅔ su bardağı"
    },
    "w-jp-007-i5": {
-    "name": "kuru toz un",
-    "standardAmount": "1⅓ kupa"
+    "name": "çok amaçlı un",
+    "standardAmount": "1⅓ su bardağı"
    },
    "w-jp-007-i6": {
     "name": "hamur kabartma tozu",
@@ -107390,10 +107390,10 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-008": {
-  "title": "Kavurulmuş Zerde (Gari)",
+  "title": "Zencefil turşusu (Gari)",
   "ingredients": {
    "w-jp-008-i1": {
-    "name": "taze zerde",
+    "name": "taze zencefil",
     "standardAmount": "150 g"
    },
    "w-jp-008-i2": {
@@ -107402,7 +107402,7 @@
    },
    "w-jp-008-i3": {
     "name": "pirinç sirkesi",
-    "standardAmount": "1/2 kupa"
+    "standardAmount": "1/2 su bardağı"
    },
    "w-jp-008-i4": {
     "name": "şeker",
@@ -107467,10 +107467,10 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-015": {
-  "title": "Somon Tavuğuyla Kamaboko",
+  "title": "Somon havyarlı kamaboko",
   "ingredients": {
    "w-jp-015-i1": {
-    "name": "kamaboko (balık pastası)",
+    "name": "kamaboko (balık keki)",
     "standardAmount": "1 paket"
    },
    "w-jp-015-i2": {
@@ -107478,7 +107478,7 @@
     "standardAmount": "8-10 yaprak"
    },
    "w-jp-015-i3": {
-    "name": "somon tavuğu (ikura)",
+    "name": "somon havyarı (ikura)",
     "standardAmount": "8-10 yemek kaşığı"
    }
   },
@@ -107508,7 +107508,7 @@
     "standardAmount": "1 yemek kaşığı"
    },
    "w-jp-016-i4": {
-    "name": "söğüt yağı",
+    "name": "susam yağı",
     "standardAmount": "1/2 yemek kaşığı"
    },
    "w-jp-016-i5": {
@@ -107516,7 +107516,7 @@
     "standardAmount": "1 çay kaşığı"
    },
    "w-jp-016-i6": {
-    "name": "söğüt tohumu",
+    "name": "susam",
     "standardAmount": "1 çay kaşığı"
    },
    "w-jp-016-i7": {
@@ -107525,18 +107525,18 @@
    },
    "w-jp-016-i8": {
     "name": "salata yaprakları",
-    "standardAmount": "2 kase"
+    "standardAmount": "2 su bardağı"
    },
    "w-jp-016-i9": {
-    "name": "çilek domatesleri",
-    "standardAmount": "6 tane dilimlenmiş"
+    "name": "çeri domates",
+    "standardAmount": "6 adet, dörde bölünmüş"
    },
    "w-jp-016-i10": {
     "name": "kırmızı soğan",
     "standardAmount": "2 yemek kaşığı dilimlenmiş"
    },
    "w-jp-016-i11": {
-    "name": "tavuk bacak filosu",
+    "name": "kemiksiz tavuk but",
     "standardAmount": "1 karaage"
    },
    "w-jp-016-i12": {
@@ -107545,7 +107545,7 @@
    },
    "w-jp-016-i13": {
     "name": "doğranmış kişniş",
-    "standardAmount": "tatlılıkta"
+    "standardAmount": "damak tadına göre"
    }
   },
   "instructions": {
@@ -107566,23 +107566,23 @@
   "ingredients": {
    "w-jp-017-i1": {
     "name": "Patates",
-    "standardAmount": "1 pound"
+    "standardAmount": "1 libre"
    },
    "w-jp-017-i2": {
     "name": "Kıyma",
-    "standardAmount": "0.3 pound"
+    "standardAmount": "0,3 libre"
    },
    "w-jp-017-i3": {
     "name": "Soğan",
-    "standardAmount": "0.15 pound"
+    "standardAmount": "0,15 libre"
    },
    "w-jp-017-i4": {
     "name": "Havuç",
-    "standardAmount": "0.15 pound"
+    "standardAmount": "0,15 libre"
    },
    "w-jp-017-i5": {
     "name": "Zeytinyağı",
-    "standardAmount": "1.5 yemek kaşığı"
+    "standardAmount": "1,5 yemek kaşığı"
    },
    "w-jp-017-i6": {
     "name": "Kızartma için yağ",
@@ -107605,8 +107605,8 @@
     "standardAmount": "1 yemek kaşığı"
    },
    "w-jp-017-i11": {
-    "name": "Japon panko unu",
-    "standardAmount": "2 kase"
+    "name": "Japon panko ekmek kırıntısı",
+    "standardAmount": "2 su bardağı"
    }
   },
   "instructions": {
@@ -107631,19 +107631,19 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-018": {
-  "title": "Kuromitsu (Siyah Şeker Suyu)",
+  "title": "Kuromitsu (siyah şeker şurubu)",
   "ingredients": {
    "w-jp-018-i1": {
     "name": "siyah şeker",
-    "standardAmount": "3.5 ons"
+    "standardAmount": "3,5 ons"
    },
    "w-jp-018-i2": {
     "name": "toz şeker",
-    "standardAmount": "1/2 kase (tatlılıkta)"
+    "standardAmount": "½ su bardağı (damak tadına göre)"
    },
    "w-jp-018-i3": {
     "name": "su",
-    "standardAmount": "1/2 kase"
+    "standardAmount": "½ su bardağı"
    }
   },
   "instructions": {
@@ -107659,28 +107659,28 @@
   "title": "Manjū",
   "ingredients": {
    "w-jp-019-i1": {
-    "name": "koyu şeker",
-    "standardAmount": "1/2 kase (yoğun)"
+    "name": "esmer şeker",
+    "standardAmount": "1/2 su bardağı (bastırılmış)"
    },
    "w-jp-019-i2": {
     "name": "su",
     "standardAmount": "3 yemek kaşığı"
    },
    "w-jp-019-i3": {
-    "name": "hamur kabartma tozu",
+    "name": "kabartma tozu",
     "standardAmount": "1/2 çay kaşığı"
    },
    "w-jp-019-i4": {
-    "name": "hamur kabartma tozu için su",
+    "name": "su (kabartma tozuyla karıştırmak için)",
     "standardAmount": "1/2 çay kaşığı"
    },
    "w-jp-019-i5": {
     "name": "kek unu",
-    "standardAmount": "1 kase (daha fazla dökülmesi için)"
+    "standardAmount": "1 su bardağı (serpmek için biraz daha)"
    },
    "w-jp-019-i6": {
-    "name": "tatlı kırmızı nohut ezmesi (anko)",
-    "standardAmount": "8.5 ons"
+    "name": "tatlı kırmızı fasulye ezmesi (anko)",
+    "standardAmount": "8,5 ons"
    }
   },
   "instructions": {
@@ -107708,14 +107708,14 @@
   "ingredients": {
    "w-jp-020-i1": {
     "name": "su",
-    "standardAmount": "2 kupa"
+    "standardAmount": "2 su bardağı"
    },
    "w-jp-020-i2": {
     "name": "dashi tozu",
     "standardAmount": "1 çay kaşığı"
    },
    "w-jp-020-i3": {
-    "name": "miso pastası",
+    "name": "miso ezmesi",
     "standardAmount": "2 yemek kaşığı"
    },
    "w-jp-020-i4": {
@@ -107724,7 +107724,7 @@
    },
    "w-jp-020-i5": {
     "name": "bebek ıspanak yaprakları",
-    "standardAmount": "2 kupa"
+    "standardAmount": "2 su bardağı"
    }
   },
   "instructions": {
@@ -107754,7 +107754,7 @@
    },
    "w-jp-021-i4": {
     "name": "su",
-    "standardAmount": "1 kupa"
+    "standardAmount": "1 su bardağı"
    },
    "w-jp-021-i5": {
     "name": "tuz",
@@ -107769,48 +107769,48 @@
     "standardAmount": "orta boy bir lahananın 1/8'i, ince doğranmış"
    },
    "w-jp-021-i8": {
-    "name": "yaşlanmış ama (tempura kırıkları)",
+    "name": "agedama (tempura kırıntısı)",
     "standardAmount": "2 yemek kaşığı"
    },
    "w-jp-021-i9": {
     "name": "natto",
-    "standardAmount": "tatlıya göre"
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-021-i10": {
     "name": "mısır",
-    "standardAmount": "tatlıya göre"
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-021-i11": {
     "name": "vegan mentaiko",
-    "standardAmount": "tatlıya göre"
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-021-i12": {
     "name": "vegan kimchi",
-    "standardAmount": "tatlıya göre"
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-021-i13": {
-    "name": "soğan",
-    "standardAmount": "tatlıya göre"
+    "name": "taze soğan",
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-021-i14": {
     "name": "aonori",
-    "standardAmount": "tatlıya göre"
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-021-i15": {
     "name": "nori",
-    "standardAmount": "tatlıya göre"
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-021-i16": {
     "name": "peynir",
-    "standardAmount": "tatlıya göre"
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-021-i17": {
-    "name": "şoga",
-    "standardAmount": "tatlıya göre"
+    "name": "shoga (zencefil turşusu)",
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-021-i18": {
-    "name": "Sebze bebek yıldız ramen veya herhangi bir ramen atıştırmalığı",
-    "standardAmount": "tatlıya göre"
+    "name": "Sebzeli Baby Star ramen veya başka bir ramen atıştırmalığı",
+    "standardAmount": "damak tadına göre"
    }
   },
   "instructions": {
@@ -107880,11 +107880,11 @@
     "standardAmount": "1/2 çay kaşığı"
    },
    "w-jp-023-i4": {
-    "name": "bitki yağı",
+    "name": "bitkisel yağ",
     "standardAmount": "1 damla"
    },
    "w-jp-023-i5": {
-    "name": "bonito taneleri",
+    "name": "palamut pulları",
     "standardAmount": "1 avuç"
    },
    "w-jp-023-i6": {
@@ -107892,11 +107892,11 @@
     "standardAmount": "150 g"
    },
    "w-jp-023-i7": {
-    "name": "doğranmış soğan",
+    "name": "doğranmış taze soğan",
     "standardAmount": "15 g"
    },
    "w-jp-023-i8": {
-    "name": "nohut filizi",
+    "name": "fasulye filizi",
     "standardAmount": "50 g"
    },
    "w-jp-023-i9": {
@@ -107904,11 +107904,11 @@
     "standardAmount": "2 yemek kaşığı"
    },
    "w-jp-023-i10": {
-    "name": "deniz yosunu taneleri",
+    "name": "deniz yosunu pulları",
     "standardAmount": "1 yemek kaşığı"
    },
    "w-jp-023-i11": {
-    "name": "yakisoba makarna",
+    "name": "yakisoba eriştesi",
     "standardAmount": "1 paket"
    },
    "w-jp-023-i12": {
@@ -107943,7 +107943,7 @@
   "ingredients": {
    "w-jp-024-i1": {
     "name": "pişmiş pirinç",
-    "standardAmount": "2 kupa"
+    "standardAmount": "2 su bardağı"
    },
    "w-jp-024-i2": {
     "name": "tavuk göğsü",
@@ -107958,8 +107958,8 @@
     "standardAmount": "1/2 orta havuç"
    },
    "w-jp-024-i5": {
-    "name": "donmuş yeşil nohut",
-    "standardAmount": "1/4 kupa"
+    "name": "dondurulmuş bezelye",
+    "standardAmount": "1/4 su bardağı"
    },
    "w-jp-024-i6": {
     "name": "ketchup",
@@ -107971,7 +107971,7 @@
    },
    "w-jp-024-i8": {
     "name": "tuz ve karabiber",
-    "standardAmount": "tatlıya göre"
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-024-i9": {
     "name": "yumurta",
@@ -108003,47 +108003,47 @@
   "ingredients": {
    "w-jp-025-i1": {
     "name": "Japon tarzı kısa taneli pirinç",
-    "standardAmount": "100 ml (yarım kase) pişmeden önce"
+    "standardAmount": "100 ml (½ su bardağı) çiğ"
    },
    "w-jp-025-i2": {
     "name": "Tercih edilen dolgu",
-    "standardAmount": "tatlılıkta"
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-025-i3": {
-    "name": "Umeboshi (turşu hurma)",
-    "standardAmount": "tatlılıkta"
+    "name": "Umeboshi (erik turşusu)",
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-025-i4": {
     "name": "Konserveli ton balığı",
-    "standardAmount": "tatlılıkta"
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-025-i5": {
-    "name": "Kırpılmış nohut",
-    "standardAmount": "tatlılıkta"
+    "name": "Doğranmış pırasa",
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-025-i6": {
-    "name": "Soy sosu",
-    "standardAmount": "tatlılıkta"
+    "name": "Soya sosu",
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-025-i7": {
-    "name": "Biberler",
-    "standardAmount": "tatlılıkta"
+    "name": "Acı biber",
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-025-i8": {
-    "name": "Pişmiş salmon",
-    "standardAmount": "tatlılıkta"
+    "name": "Pişmiş somon",
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-025-i9": {
     "name": "Pişmiş yumurta",
-    "standardAmount": "tatlılıkta"
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-025-i10": {
-    "name": "Katsuobushi (kuru bonito tırmığı)",
-    "standardAmount": "tatlılıkta"
+    "name": "Katsuobushi (kurutulmuş palamut pulları)",
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-025-i11": {
     "name": "Nori yaprakları",
-    "standardAmount": "tatlılıkta"
+    "standardAmount": "damak tadına göre"
    }
   },
   "instructions": {
@@ -108059,7 +108059,7 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-026": {
-  "title": "Sarmısak ve Onsen Tamago Miso Çorbası",
+  "title": "Lahanalı ve onsen tamagolu miso çorbası",
   "ingredients": {
    "w-jp-026-i1": {
     "name": "sarı soğan",
@@ -108067,35 +108067,35 @@
    },
    "w-jp-026-i2": {
     "name": "su",
-    "standardAmount": "3 kase"
+    "standardAmount": "3 su bardağı"
    },
    "w-jp-026-i3": {
     "name": "dashi paketleri",
     "standardAmount": "2 paket"
    },
    "w-jp-026-i4": {
-    "name": "yeşil sarmısak",
+    "name": "yeşil lahana",
     "standardAmount": "1/8 baş"
    },
    "w-jp-026-i5": {
     "name": "miso",
-    "standardAmount": "3 yedek kaşık (daha fazla tatlılıkta)"
+    "standardAmount": "3 yemek kaşığı (damak tadına göre daha fazla)"
    },
    "w-jp-026-i6": {
     "name": "büyük yumurtalar",
-    "standardAmount": "3 büyük yumurta (kabuk olmadan 50 g) "
+    "standardAmount": "3 büyük yumurta (her biri kabuksuz 50 g)"
    },
    "w-jp-026-i7": {
-    "name": "yeşil soğan/kıvırcık soğan",
-    "standardAmount": "1 yeşil soğan"
+    "name": "taze soğan",
+    "standardAmount": "1 taze soğan"
    },
    "w-jp-026-i8": {
     "name": "shichimi togarashi",
-    "standardAmount": "tatlılıkta (isteğe bağlı)"
+    "standardAmount": "damak tadına göre (isteğe bağlı)"
    },
    "w-jp-026-i9": {
     "name": "Japon sansho biberi",
-    "standardAmount": "tatlılıkta (isteğe bağlı)"
+    "standardAmount": "damak tadına göre (isteğe bağlı)"
    }
   },
   "instructions": {
@@ -108114,19 +108114,19 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-027": {
-  "title": "Sudachi Limonu ile Soğuk Somen Nohutları",
+  "title": "Sudachi limonlu soğuk somen eriştesi",
   "ingredients": {
    "w-jp-027-i1": {
     "name": "sudachi",
-    "standardAmount": "5 adet (veya 2-3 limon)"
+    "standardAmount": "5 adet (veya 2-3 misket limonu)"
    },
    "w-jp-027-i2": {
     "name": "shiro dashi",
-    "standardAmount": "1⅓ kase buzlu su"
+    "standardAmount": "1⅓ su bardağı buzlu su"
    },
    "w-jp-027-i3": {
-    "name": "kuru somen nohutları",
-    "standardAmount": "4 demet (7 oz, 200 g)"
+    "name": "kuru somen eriştesi",
+    "standardAmount": "4 demet (7 ons, 200 g)"
    }
   },
   "instructions": {
@@ -108140,30 +108140,30 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-028": {
-  "title": "Çikolata Tuzlu Ekmek",
+  "title": "Çikolatalı tuzlu ekmek",
   "ingredients": {
    "w-jp-028-i1": {
     "name": "ekmek unu",
-    "standardAmount": "1 1/3 kase (170 g)"
+    "standardAmount": "1 1/3 su bardağı (170 g)"
    },
    "w-jp-028-i2": {
     "name": "kek unu",
-    "standardAmount": "1/3 kase (30 g)"
+    "standardAmount": "1/3 su bardağı (30 g)"
    },
    "w-jp-028-i3": {
-    "name": "kakaopul",
-    "standardAmount": "1 yedek kaşık + 1 çay kaşığı (10 g)"
+    "name": "kakao tozu",
+    "standardAmount": "1 yemek kaşığı + 1 çay kaşığı (10 g)"
    },
    "w-jp-028-i4": {
-    "name": "yoğurt tozu",
-    "standardAmount": "1,5 yedek kaşık (12 g)"
+    "name": "yağsız süt tozu",
+    "standardAmount": "1,5 yemek kaşığı (12 g)"
    },
    "w-jp-028-i5": {
     "name": "şeker",
-    "standardAmount": "1,5 yedek kaşık (18 g)"
+    "standardAmount": "1,5 yemek kaşığı (18 g)"
    },
    "w-jp-028-i6": {
-    "name": "hızlı kurutma mayası",
+    "name": "hazır kuru maya",
     "standardAmount": "2/3 çay kaşığı (3,4 g)"
    },
    "w-jp-028-i7": {
@@ -108172,23 +108172,23 @@
    },
    "w-jp-028-i8": {
     "name": "su",
-    "standardAmount": "1/2 kase + 2 yedek kaşık (150 ml)"
+    "standardAmount": "1/2 su bardağı + 2 yemek kaşığı (150 ml)"
    },
    "w-jp-028-i9": {
     "name": "tuzsuz tereyağı",
-    "standardAmount": "1 yedek kaşık (15 g)"
+    "standardAmount": "1 yemek kaşığı (15 g)"
    },
    "w-jp-028-i10": {
     "name": "tuzlu tereyağı",
     "standardAmount": "6 x 10 g"
    },
    "w-jp-028-i11": {
-    "name": "koyu veya yarı tatlı çikolata",
+    "name": "bitter veya yarı tatlı çikolata",
     "standardAmount": "6 x 10 g"
    },
    "w-jp-028-i12": {
-    "name": "kaya tuzu, perle tuzu veya tuzlu tuz",
-    "standardAmount": "tatlılıkta"
+    "name": "kaya tuzu, inci tuzu veya pul tuz",
+    "standardAmount": "damak tadına göre"
    }
   },
   "instructions": {
@@ -108211,32 +108211,32 @@
   "title": "Japon Sashimi",
   "ingredients": {
    "w-jp-029-i1": {
-    "name": "sashimi kalitesi salmon",
-    "standardAmount": "1/2 lb"
+    "name": "sashimilik somon",
+    "standardAmount": "1/2 libre"
    },
    "w-jp-029-i2": {
-    "name": "sashimi kalitesi ton balığı",
-    "standardAmount": "1/2 lb"
+    "name": "sashimilik ton balığı",
+    "standardAmount": "1/2 libre"
    },
    "w-jp-029-i3": {
     "name": "wasabi",
-    "standardAmount": "1 yedek kaşık"
+    "standardAmount": "1 yemek kaşığı"
    },
    "w-jp-029-i4": {
     "name": "rendelenmiş daikon turpu",
-    "standardAmount": "1/2 lb"
+    "standardAmount": "1/2 libre"
    },
    "w-jp-029-i5": {
-    "name": "turşu soğan",
+    "name": "zencefil turşusu",
     "standardAmount": "1 kap"
    },
    "w-jp-029-i6": {
-    "name": "soy sosu",
-    "standardAmount": "tatlılıkta"
+    "name": "soya sosu",
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-029-i7": {
-    "name": "kaviar (İsteğe bağlı)",
-    "standardAmount": "tatlılıkta"
+    "name": "balık yumurtası (isteğe bağlı)",
+    "standardAmount": "damak tadına göre"
    }
   },
   "instructions": {
@@ -108249,23 +108249,23 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-030": {
-  "title": "Şiruko (Tatlı Kırmızı Bakla Çorbası)",
+  "title": "Şiruko (tatlı kırmızı fasulye çorbası)",
   "ingredients": {
    "w-jp-030-i1": {
-    "name": "Şiratama Dango (Mochi Küreği)",
+    "name": "Shiratama dango (mochi topları)",
     "standardAmount": "10 adet"
    },
    "w-jp-030-i2": {
-    "name": "Tatlı Kırmızı Bakla Püresi (Anko)",
-    "standardAmount": "7 oz"
+    "name": "Tatlı kırmızı fasulye ezmesi (anko)",
+    "standardAmount": "7 ons"
    },
    "w-jp-030-i3": {
     "name": "Su",
-    "standardAmount": "7 fl oz (ayrık)"
+    "standardAmount": "7 sıvı ons (bölünmüş)"
    },
    "w-jp-030-i4": {
-    "name": "Kosher Tuzu (isteğe bağlı)",
-    "standardAmount": "bir çay kaşığı"
+    "name": "Koşer tuzu (isteğe bağlı)",
+    "standardAmount": "bir tutam"
    }
   },
   "instructions": {
@@ -108312,15 +108312,15 @@
   "title": "Soba",
   "ingredients": {
    "w-jp-032-i1": {
-    "name": "kuru soba makarna",
+    "name": "kuru soba eriştesi",
     "standardAmount": "1 porsiyon"
    },
    "w-jp-032-i2": {
     "name": "su",
-    "standardAmount": "12 kupa"
+    "standardAmount": "12 su bardağı"
    },
    "w-jp-032-i3": {
-    "name": "sebzeler yağı",
+    "name": "bitkisel yağ",
     "standardAmount": "1 yemek kaşığı"
    }
   },
@@ -108342,7 +108342,7 @@
   "ingredients": {
    "w-jp-034-i1": {
     "name": "un",
-    "standardAmount": "1 kupa"
+    "standardAmount": "1 su bardağı"
    },
    "w-jp-034-i2": {
     "name": "yumurta",
@@ -108350,22 +108350,22 @@
    },
    "w-jp-034-i3": {
     "name": "dashi suyu",
-    "standardAmount": "1,25 kupa"
+    "standardAmount": "1,25 su bardağı"
    },
    "w-jp-034-i4": {
     "name": "pişmiş ahtapot",
-    "standardAmount": "1,8 oz"
+    "standardAmount": "1,8 ons"
    },
    "w-jp-034-i5": {
-    "name": "ince doğranmış soğan",
-    "standardAmount": "1/4 kupa"
+    "name": "ince doğranmış taze soğan",
+    "standardAmount": "1/4 su bardağı"
    },
    "w-jp-034-i6": {
     "name": "tenkasu",
-    "standardAmount": "1/4 kupa"
+    "standardAmount": "1/4 su bardağı"
    },
    "w-jp-034-i7": {
-    "name": "kırmızı turşu soğanı",
+    "name": "kırmızı zencefil turşusu",
     "standardAmount": "2 yemek kaşığı"
    },
    "w-jp-034-i8": {
@@ -108377,11 +108377,11 @@
     "standardAmount": "1 yemek kaşığı"
    },
    "w-jp-034-i10": {
-    "name": "deniz kıyafeti tozu",
+    "name": "deniz yosunu pulları",
     "standardAmount": "1 yemek kaşığı"
    },
    "w-jp-034-i11": {
-    "name": "bonito tozu",
+    "name": "palamut pulları",
     "standardAmount": "2 yemek kaşığı"
    }
   },
@@ -108415,8 +108415,8 @@
     "standardAmount": "az miktarda"
    },
    "w-jp-035-i4": {
-    "name": "tahminen istediğiniz ek malzemeler",
-    "standardAmount": "tatlıca"
+    "name": "isteğe göre üst malzemeler",
+    "standardAmount": "damak tadına göre"
    }
   },
   "instructions": {
@@ -108433,15 +108433,15 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-037": {
-  "title": "Tuna Tataki",
+  "title": "Ton balığı tataki",
   "ingredients": {
    "w-jp-037-i1": {
-    "name": "yeşil soğan/kıvırcık soğan",
+    "name": "taze soğan",
     "standardAmount": "1 (1 yemek kaşığı, doğranmış)"
    },
    "w-jp-037-i2": {
     "name": "zencefil",
-    "standardAmount": "1 çay kaşığı (doğranmış, suyuyla birlikte)"
+    "standardAmount": "1 çay kaşığı (rendelenmiş, suyuyla birlikte)"
    },
    "w-jp-037-i3": {
     "name": "ponzu",
@@ -108464,16 +108464,16 @@
     "standardAmount": "2 yemek kaşığı"
    },
    "w-jp-037-i8": {
-    "name": "sashimi kalitesinde sarıbalık/ahi ton balığı",
-    "standardAmount": "½ lb (yaklaşık 225 g)"
+    "name": "sashimilik sarı yüzgeçli ton balığı (ahi)",
+    "standardAmount": "½ libre (yaklaşık 225 g)"
    },
    "w-jp-037-i9": {
     "name": "limon",
     "standardAmount": "½"
    },
    "w-jp-037-i10": {
-    "name": "Kore çili ipliği",
-    "standardAmount": "tatlıca"
+    "name": "Kore acı biber ipliği",
+    "standardAmount": "damak tadına göre"
    }
   },
   "instructions": {
@@ -108506,7 +108506,7 @@
     "standardAmount": "3 yaprak"
    },
    "w-jp-038-i5": {
-    "name": "kuru un",
+    "name": "çok amaçlı un",
     "standardAmount": "7 yemek kaşığı"
    },
    "w-jp-038-i6": {
@@ -108518,7 +108518,7 @@
     "standardAmount": "100 ml"
    },
    "w-jp-038-i8": {
-    "name": "derin kızartma için yağ",
+    "name": "kızartma için yağ",
     "standardAmount": "50 ml"
    }
   },
@@ -108540,12 +108540,12 @@
   "title": "Buri Teriyaki",
   "ingredients": {
    "w-jp-039-i1": {
-    "name": "Sarıbalık filetosu",
+    "name": "Sarıkuyruk balığı filetosu",
     "standardAmount": "150 g"
    },
    "w-jp-039-i2": {
     "name": "Teriyaki sosu",
-    "standardAmount": "1/4 kupa"
+    "standardAmount": "1/4 su bardağı"
    },
    "w-jp-039-i3": {
     "name": "Tereyağı",
@@ -108556,12 +108556,12 @@
     "standardAmount": "1 yaprak"
    },
    "w-jp-039-i5": {
-    "name": "Amzu havuç",
-    "standardAmount": "1 havuç"
+    "name": "Tatlı sirkede turp (amazu)",
+    "standardAmount": "1 turp"
    },
    "w-jp-039-i6": {
-    "name": "Kikka Kabu (Zeytin havucu)",
-    "standardAmount": "1 çiçek"
+    "name": "Kikka kabu (krizantem şeklinde turp)",
+    "standardAmount": "1 demet"
    },
    "w-jp-039-i7": {
     "name": "Pirinç sirkesi",
@@ -108597,7 +108597,7 @@
    },
    "w-jp-040-i2": {
     "name": "şeker",
-    "standardAmount": "2 yemek kaşığı (veya tatına göre)"
+    "standardAmount": "2 yemek kaşığı (veya damak tadına göre)"
    },
    "w-jp-040-i3": {
     "name": "ketchup",
@@ -108619,14 +108619,14 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-042": {
-  "title": "Tsukemono-Nukazuke (Bulamaç Kavrulmuş Pirinç Kavrulmuşu)",
+  "title": "Tsukemono-Nukazuke (pirinç kepeği turşusu)",
   "ingredients": {
    "w-jp-042-i1": {
     "name": "su",
     "standardAmount": "800 ml"
    },
    "w-jp-042-i2": {
-    "name": "kavrulmuş pirinç kavrulmuşu",
+    "name": "kavrulmuş pirinç kepeği",
     "standardAmount": "800 g"
    },
    "w-jp-042-i3": {
@@ -108634,11 +108634,11 @@
     "standardAmount": "80 g"
    },
    "w-jp-042-i4": {
-    "name": "olgunlaşmış pirinç kavrulmuşu karışımı",
+    "name": "olgunlaşmış pirinç kepeği karışımı",
     "standardAmount": "250 g (isteğe bağlı)"
    },
    "w-jp-042-i5": {
-    "name": "kelp",
+    "name": "kombu yosunu",
     "standardAmount": "2 inçlik parça (5 cm)"
    },
    "w-jp-042-i6": {
@@ -108646,7 +108646,7 @@
     "standardAmount": "1 parça"
    },
    "w-jp-042-i7": {
-    "name": "dış kabak yaprakları",
+    "name": "dış lahana yaprakları",
     "standardAmount": "6-8 yaprak"
    }
   },
@@ -108671,10 +108671,10 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-043": {
-  "title": "Kurabi Udon",
+  "title": "Körili udon",
   "ingredients": {
    "w-jp-043-i1": {
-    "name": "ince dilimlenmiş beef",
+    "name": "ince dilimlenmiş dana eti",
     "standardAmount": "150 g"
    },
    "w-jp-043-i2": {
@@ -108694,15 +108694,15 @@
     "standardAmount": "1 paket"
    },
    "w-jp-043-i6": {
-    "name": "karıştırılmış karabiber sosu",
+    "name": "köri sos tableti",
     "standardAmount": "2 parça"
    },
    "w-jp-043-i7": {
-    "name": "ince doğranmış soğan",
+    "name": "doğranmış taze soğan",
     "standardAmount": "2 parça"
    },
    "w-jp-043-i8": {
-    "name": "donmuş udon noodles",
+    "name": "dondurulmuş udon eriştesi",
     "standardAmount": "2 parça"
    }
   },
@@ -108724,7 +108724,7 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-044": {
-  "title": "Umeboshi Onigiri (Turşu Şeritli Pirinç Topları)",
+  "title": "Umeboshi Onigiri (erik turşulu pirinç topları)",
   "ingredients": {
    "w-jp-044-i1": {
     "name": "kısa taneli pirinç",
@@ -108772,11 +108772,11 @@
     "standardAmount": "2 ¼ çay kaşığı"
    },
    "w-mx-006-i3": {
-    "name": "pul biber şekeri",
+    "name": "toz şeker",
     "standardAmount": "1 yemek kaşığı"
    },
    "w-mx-006-i4": {
-    "name": "kuru un",
+    "name": "çok amaçlı un",
     "standardAmount": "4 su bardağı"
    },
    "w-mx-006-i5": {
@@ -108809,7 +108809,7 @@
     "standardAmount": "1 parça"
    },
    "w-mx-007-i2": {
-    "name": "Karanfil çubuğu",
+    "name": "Çubuk tarçın",
     "standardAmount": "1 çubuk"
    },
    "w-mx-007-i3": {
@@ -108846,7 +108846,7 @@
    },
    "w-mx-007-i11": {
     "name": "tuz",
-    "standardAmount": "2 çay kaşığı"
+    "standardAmount": "2 tutam"
    },
    "w-mx-007-i12": {
     "name": "kızartmak için bitkisel yağ",
@@ -108877,7 +108877,7 @@
    },
    "w-mx-008-i3": {
     "name": "Roma domatesleri",
-    "standardAmount": "4 adet (kabaklanmış)"
+    "standardAmount": "4 adet (doğranmış)"
    },
    "w-mx-008-i4": {
     "name": "beyaz soğan",
@@ -108889,14 +108889,14 @@
    },
    "w-mx-008-i6": {
     "name": "Yukon gold patatesleri",
-    "standardAmount": "2 adet (soğanlı, küp şeklinde kesilmiş)"
+    "standardAmount": "2 adet (soyulmuş ve küp doğranmış)"
    },
    "w-mx-008-i7": {
-    "name": "broth (sebze veya tavuk)",
+    "name": "sebze veya tavuk suyu",
     "standardAmount": "6 su bardağı"
    },
    "w-mx-008-i8": {
-    "name": "kuzu tuzu",
+    "name": "koşer tuz",
     "standardAmount": "1 çay kaşığı"
    },
    "w-mx-008-i9": {
@@ -108904,8 +108904,8 @@
     "standardAmount": "½ çay kaşığı"
    },
    "w-mx-008-i10": {
-    "name": "tüm süt",
-    "standardAmount": "1 su bardağı (ısınmış)"
+    "name": "tam yağlı süt",
+    "standardAmount": "1 su bardağı (ılıtılmış)"
    },
    "w-mx-008-i11": {
     "name": "queso panela veya queso fresco",
@@ -108931,7 +108931,7 @@
   "ingredients": {
    "w-mx-009-i1": {
     "name": "kemiği olan, derisi olmayan tavuk bacakları",
-    "standardAmount": "2 pound"
+    "standardAmount": "2 libre"
    },
    "w-mx-009-i2": {
     "name": "su",
@@ -108939,18 +108939,18 @@
    },
    "w-mx-009-i3": {
     "name": "beyaz soğan",
-    "standardAmount": "¼ beyaz soğan, kabaklanmış"
+    "standardAmount": "¼ beyaz soğan, iri doğranmış"
    },
    "w-mx-009-i4": {
     "name": "sarımsak",
     "standardAmount": "4 diş"
    },
    "w-mx-009-i5": {
-    "name": "kuzu tuzu",
+    "name": "koşer tuz",
     "standardAmount": "2 çay kaşığı"
    },
    "w-mx-009-i6": {
-    "name": "yenilmez yapraklar",
+    "name": "defne yaprağı",
     "standardAmount": "2 yaprak"
    },
    "w-mx-009-i7": {
@@ -108979,7 +108979,7 @@
    },
    "w-mx-009-i13": {
     "name": "nohut",
-    "standardAmount": "1 (15 ons) kavanoz, suyu boşaltılıp durulmuş"
+    "standardAmount": "1 (15 ons) kutu, süzülmüş ve durulanmış"
    },
    "w-mx-009-i14": {
     "name": "epazote yaprakları",
@@ -109027,15 +109027,15 @@
     "standardAmount": "12 ons veya 1 1/2 su bardağı sıkıştırılmış"
    },
    "w-mx-010-i4": {
-    "name": "karanfil çubukları",
+    "name": "çubuk tarçın",
     "standardAmount": "4 adet"
    },
    "w-mx-010-i5": {
-    "name": "karabiber",
+    "name": "karanfil",
     "standardAmount": "6 adet"
    },
    "w-mx-010-i6": {
-    "name": "çürütülmüş peynir (Longhorn Cheddar, Colby veya tercihinizdeki peynir)",
+    "name": "rendelenmiş peynir (Longhorn Cheddar, Colby veya tercih ettiğiniz peynir)",
     "standardAmount": "3 su bardağı"
    },
    "w-mx-010-i7": {
@@ -109043,7 +109043,7 @@
     "standardAmount": "1 su bardağı"
    },
    "w-mx-010-i8": {
-    "name": "tereyağı veya fırın spreyi",
+    "name": "tereyağı veya sprey tereyağı",
     "standardAmount": "4 yemek kaşığı"
    }
   },
@@ -109058,7 +109058,7 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-mx-011": {
-  "title": "Tampiko Tavuğu",
+  "title": "Carne a la Tampiqueña (Tampico Usulü Biftek)",
   "ingredients": {
    "w-mx-011-i1": {
     "name": "tereyağı",
@@ -109066,26 +109066,26 @@
    },
    "w-mx-011-i2": {
     "name": "beyaz soğan",
-    "standardAmount": "2 (soğanı dilimlemeden)"
+    "standardAmount": "2 (dilimlenmiş)"
    },
    "w-mx-011-i3": {
     "name": "Anaheim veya Hatch biberi",
     "standardAmount": "4 (kavurulmuş, kabukları soyulmuş, dilimlenmiş)"
    },
    "w-mx-011-i4": {
-    "name": "kızartma bıçaklığı",
-    "standardAmount": "1 pound"
+    "name": "dana etek bifteği",
+    "standardAmount": "1 libre"
    },
    "w-mx-011-i5": {
     "name": "Kosher veya deniz tuzu",
-    "standardAmount": "tatlılık kadar"
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-011-i6": {
     "name": "taze öğütülmüş karabiber",
-    "standardAmount": "tatlılık kadar"
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-011-i7": {
-    "name": "ayıklanmış Oaxaca veya asadero peyniri",
+    "name": "rendelenmiş Oaxaca veya asadero peyniri",
     "standardAmount": "1 su bardağı"
    }
   },
@@ -109102,7 +109102,7 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-mx-012": {
-  "title": "Cemita Kekleri (Meksika Susamlı Ekmek)",
+  "title": "Cemita Çörekleri (Meksika Susamlı Ekmeği)",
   "ingredients": {
    "w-mx-012-i1": {
     "name": "sıcak su",
@@ -109160,8 +109160,8 @@
   "title": "Ceviche",
   "ingredients": {
    "w-mx-013-i1": {
-    "name": "Taze balık fileosu (tilapia, deniz baltası veya mahi-mahi gibi)",
-    "standardAmount": "1 pound"
+    "name": "Taze balık fileto (tilapya, levrek veya mahi-mahi gibi)",
+    "standardAmount": "1 libre"
    },
    "w-mx-013-i2": {
     "name": "Küçük beyaz soğan",
@@ -109172,7 +109172,7 @@
     "standardAmount": "2 diş"
    },
    "w-mx-013-i4": {
-    "name": "Orta boy çilek domatesi veya Romano domatesi",
+    "name": "Orta boy dalında olgunlaşmış domates veya Romano domatesi",
     "standardAmount": "2 orta"
    },
    "w-mx-013-i5": {
@@ -109184,8 +109184,8 @@
     "standardAmount": "1 küçük"
    },
    "w-mx-013-i7": {
-    "name": "Limon",
-    "standardAmount": "10 limon"
+    "name": "Misket limonu",
+    "standardAmount": "10 misket limonu"
    },
    "w-mx-013-i8": {
     "name": "Beyaz sirke",
@@ -109204,11 +109204,11 @@
     "standardAmount": "1/4 çay kaşığı"
    },
    "w-mx-013-i12": {
-    "name": "Sarımsak suyu veya 7-up",
+    "name": "Zencefilli gazoz veya 7-up",
     "standardAmount": "1/2 su bardağı"
    },
    "w-mx-013-i13": {
-    "name": "Avokado ve/veya mangos",
+    "name": "Avokado ve/veya mango",
     "standardAmount": "2"
    }
   },
@@ -109231,7 +109231,7 @@
   "title": "Çalupa (yemek)",
   "ingredients": {
    "w-mx-014-i1": {
-    "name": "kuru un",
+    "name": "çok amaçlı un",
     "standardAmount": "2 su bardağı"
    },
    "w-mx-014-i2": {
@@ -109263,32 +109263,32 @@
     "standardAmount": "½ orta beyaz soğan"
    },
    "w-mx-014-i9": {
-    "name": "doğranmış karaciğer",
-    "standardAmount": "1 pound"
+    "name": "dana kıyma",
+    "standardAmount": "1 libre"
    },
    "w-mx-014-i10": {
     "name": "taco baharatı",
     "standardAmount": "3 yemek kaşığı"
    },
    "w-mx-014-i11": {
-    "name": "ayıklanmış peynir (isteğe bağlı)",
-    "standardAmount": "tatlılık kadar"
+    "name": "rendelenmiş peynir (isteğe bağlı)",
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-014-i12": {
     "name": "doğranmış domates (isteğe bağlı)",
-    "standardAmount": "tatlılık kadar"
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-014-i13": {
-    "name": "ayıklanmış lahana (isteğe bağlı)",
-    "standardAmount": "tatlılık kadar"
+    "name": "ince doğranmış marul (isteğe bağlı)",
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-014-i14": {
-    "name": "yoğurt (isteğe bağlı)",
-    "standardAmount": "tatlılık kadar"
+    "name": "ekşi krema (isteğe bağlı)",
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-014-i15": {
     "name": "salsa veya acı sos (isteğe bağlı)",
-    "standardAmount": "tatlılık kadar"
+    "standardAmount": "damak tadına göre"
    }
   },
   "instructions": {
@@ -109303,7 +109303,7 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-mx-015": {
-  "title": "Dondurulmuş Mangonada Meksikalı (yani Chamoyada)",
+  "title": "Buzlu Meksika Mangonadası (diğer adıyla Chamoyada)",
   "ingredients": {
    "w-mx-015-i1": {
     "name": "Tajin",
@@ -109318,8 +109318,8 @@
     "standardAmount": "1 su bardağı"
    },
    "w-mx-015-i4": {
-    "name": "limon suyu",
-    "standardAmount": "2 limonun suyu"
+    "name": "misket limonu suyu",
+    "standardAmount": "2 misket limonunun suyu"
    },
    "w-mx-015-i5": {
     "name": "mango nektarı",
@@ -109330,8 +109330,8 @@
     "standardAmount": "1 su bardağı"
    },
    "w-mx-015-i7": {
-    "name": "tamarind şekerli çubuklar",
-    "standardAmount": "isteğe bağlı"
+    "name": "demirhindi şekerli pipetler",
+    "standardAmount": "gerektiği kadar"
    }
   },
   "instructions": {
@@ -109346,11 +109346,11 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-mx-016": {
-  "title": "Tavuk ve Turşu Limon Çorbası",
+  "title": "Tavuklu ve Misket Limonu Turşulu Çorba",
   "ingredients": {
    "w-mx-016-i1": {
-    "name": "tavuk bacakları",
-    "standardAmount": "450 gram"
+    "name": "tavuk butu",
+    "standardAmount": "1 libre"
    },
    "w-mx-016-i2": {
     "name": "sarımsak",
@@ -109362,10 +109362,10 @@
    },
    "w-mx-016-i4": {
     "name": "su",
-    "standardAmount": "1 litre"
+    "standardAmount": "4 su bardağı"
    },
    "w-mx-016-i5": {
-    "name": "turşu limon",
+    "name": "misket limonu turşusu",
     "standardAmount": "1 (dilimlenmiş)"
    },
    "w-mx-016-i6": {
@@ -109374,7 +109374,7 @@
    },
    "w-mx-016-i7": {
     "name": "tuz ve karabiber",
-    "standardAmount": "tatlıya göre"
+    "standardAmount": "damak tadına göre"
    }
   },
   "instructions": {
@@ -109387,15 +109387,15 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-mx-017": {
-  "title": "Çilaquiles",
+  "title": "Çilakiles",
   "ingredients": {
    "w-mx-017-i1": {
     "name": "tomatillo",
     "standardAmount": "1 su bardağı"
    },
    "w-mx-017-i2": {
-    "name": "kuru çile de árbol",
-    "standardAmount": "4-6 kuru çile"
+    "name": "kuru árbol biberi",
+    "standardAmount": "4-6 kuru biber"
    },
    "w-mx-017-i3": {
     "name": "sarımsak",
@@ -109407,11 +109407,11 @@
    },
    "w-mx-017-i5": {
     "name": "tuz",
-    "standardAmount": "tatlıya göre"
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-017-i6": {
     "name": "karabiber",
-    "standardAmount": "tatlıya göre"
+    "standardAmount": "damak tadına göre"
    }
   },
   "instructions": {
@@ -109425,27 +109425,27 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-mx-018": {
-  "title": "Çimichanga",
+  "title": "Çimiçanga",
   "ingredients": {
    "w-mx-018-i1": {
-    "name": "kızartma veya kavurma türü tavuk",
-    "standardAmount": "680 gram"
+    "name": "dana etek veya böğür bifteği",
+    "standardAmount": "1 1/2 libre"
    },
    "w-mx-018-i2": {
     "name": "beyaz soğan",
-    "standardAmount": "60 ml"
+    "standardAmount": "1/4 su bardağı"
    },
    "w-mx-018-i3": {
     "name": "sarımsak dişi",
     "standardAmount": "2 diş"
    },
    "w-mx-018-i4": {
-    "name": "yağmur yaprağı",
+    "name": "defne yaprağı",
     "standardAmount": "1 yaprak"
    },
    "w-mx-018-i5": {
     "name": "beyaz veya Yukon patatesi",
-    "standardAmount": "680 gram"
+    "standardAmount": "1 1/2 libre"
    },
    "w-mx-018-i6": {
     "name": "sarımsak tozu",
@@ -109456,40 +109456,40 @@
     "standardAmount": "1/2 çay kaşığı"
    },
    "w-mx-018-i8": {
-    "name": "tuz ve karabiber tatlıya göre",
-    "standardAmount": "tatlıya göre"
+    "name": "tuz ve karabiber (damak tadına göre)",
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-018-i9": {
     "name": "burrito boyutunda unlu tortilla",
     "standardAmount": "6 tane"
    },
    "w-mx-018-i10": {
-    "name": "bitki yağı",
-    "standardAmount": "360 ml"
+    "name": "bitkisel yağ",
+    "standardAmount": "1 1/2 su bardağı"
    },
    "w-mx-018-i11": {
-    "name": "ince doğranmış buzlu lahana",
-    "standardAmount": "720 ml"
+    "name": "ince doğranmış aysberg marul",
+    "standardAmount": "3 su bardağı"
    },
    "w-mx-018-i12": {
     "name": "ince doğranmış beyaz soğan",
-    "standardAmount": "120 ml"
+    "standardAmount": "1/2 su bardağı"
    },
    "w-mx-018-i13": {
     "name": "ince doğranmış domates",
-    "standardAmount": "240 ml"
+    "standardAmount": "1 su bardağı"
    },
    "w-mx-018-i14": {
     "name": "mayonez (isteğe bağlı)",
-    "standardAmount": "80 ml"
+    "standardAmount": "1/3 su bardağı"
    },
    "w-mx-018-i15": {
     "name": "Meksika kreması",
-    "standardAmount": "120 ml"
+    "standardAmount": "1/2 su bardağı"
    },
    "w-mx-018-i16": {
     "name": "parçalanmış queso fresco veya rendelenmiş panela",
-    "standardAmount": "240 ml"
+    "standardAmount": "1 su bardağı"
    }
   },
   "instructions": {
@@ -109504,11 +109504,11 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-mx-019": {
-  "title": "Çochoyotes (Bolita de Masa)",
+  "title": "Çoçoyotes (Bolita de Masa)",
   "ingredients": {
    "w-mx-019-i1": {
     "name": "masa unu",
-    "standardAmount": "240 ml"
+    "standardAmount": "1 su bardağı"
    },
    "w-mx-019-i2": {
     "name": "ince tuz",
@@ -109516,7 +109516,7 @@
    },
    "w-mx-019-i3": {
     "name": "sıcak su",
-    "standardAmount": "240 ml"
+    "standardAmount": "1 su bardağı"
    },
    "w-mx-019-i4": {
     "name": "Roma domatesi",
@@ -109524,19 +109524,19 @@
    },
    "w-mx-019-i5": {
     "name": "beyaz soğan",
-    "standardAmount": "1 orta boy beyaz soğan"
+    "standardAmount": "1/2 orta boy beyaz soğan"
    },
    "w-mx-019-i6": {
     "name": "sarımsak",
     "standardAmount": "2 diş"
    },
    "w-mx-019-i7": {
-    "name": "bitki çorbası",
+    "name": "sebze bulyonu",
     "standardAmount": "2 çay kaşığı"
    },
    "w-mx-019-i8": {
     "name": "su",
-    "standardAmount": "240 ml"
+    "standardAmount": "1 su bardağı"
    },
    "w-mx-019-i9": {
     "name": "zeytinyağı",
@@ -109544,11 +109544,11 @@
    },
    "w-mx-019-i10": {
     "name": "havuç",
-    "standardAmount": "1 büyük havuç (soyulmuş ve 1,25 cm'lik parçalara kesilmiş)"
+    "standardAmount": "1 büyük havuç (soyulmuş ve 1/2 inçlik parçalar halinde doğranmış)"
    },
    "w-mx-019-i11": {
     "name": "sebze suyu",
-    "standardAmount": "1,2 litre"
+    "standardAmount": "5 su bardağı"
    },
    "w-mx-019-i12": {
     "name": "kabak",
@@ -109556,7 +109556,7 @@
    },
    "w-mx-019-i13": {
     "name": "sarı mısır",
-    "standardAmount": "120 ml"
+    "standardAmount": "1/2 su bardağı"
    },
    "w-mx-019-i14": {
     "name": "toz kimyon",
@@ -109567,8 +109567,8 @@
     "standardAmount": "2 çay kaşığı"
    },
    "w-mx-019-i16": {
-    "name": "kuzu tuzu",
-    "standardAmount": "1,5 çay kaşığı (daha fazla tatlıya göre)"
+    "name": "koşer tuz",
+    "standardAmount": "1,5 çay kaşığı (artı damak tadına göre)"
    },
    "w-mx-019-i17": {
     "name": "taze öğütülmüş karabiber",
@@ -109580,15 +109580,15 @@
    },
    "w-mx-019-i19": {
     "name": "queso fresco",
-    "standardAmount": "tatlıya göre"
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-019-i20": {
-    "name": "taze limon suyu",
-    "standardAmount": "tatlıya göre"
+    "name": "taze misket limonu suyu",
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-019-i21": {
     "name": "avokado",
-    "standardAmount": "tatlıya göre (dilimlenmiş veya doğranmış)"
+    "standardAmount": "damak tadına göre (dilimlenmiş veya doğranmış)"
    }
   },
   "instructions": {
@@ -109603,18 +109603,18 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-mx-020": {
-  "title": "Çürro",
+  "title": "Çurro",
   "ingredients": {
    "w-mx-020-i1": {
     "name": "düz un",
     "standardAmount": "400 gram (~3¼ su bardağı)"
    },
    "w-mx-020-i2": {
-    "name": "ebek suyu",
+    "name": "kaynar su",
     "standardAmount": "400 ml (~1⅔ su bardağı)"
    },
    "w-mx-020-i3": {
-    "name": "fırın tozu",
+    "name": "karbonat",
     "standardAmount": "1 çay kaşığı"
    },
    "w-mx-020-i4": {
@@ -109622,16 +109622,16 @@
     "standardAmount": "½ çay kaşığı"
    },
    "w-mx-020-i5": {
-    "name": "karabiber",
+    "name": "tarçın",
     "standardAmount": "¼ çay kaşığı (isteğe bağlı)"
    },
    "w-mx-020-i6": {
-    "name": "bitki yağı",
+    "name": "bitkisel yağ",
     "standardAmount": "gerekli kadar"
    },
    "w-mx-020-i7": {
     "name": "şeker",
-    "standardAmount": "tatlıya göre"
+    "standardAmount": "damak tadına göre"
    }
   },
   "instructions": {
@@ -109656,7 +109656,7 @@
    },
    "w-mx-021-i2": {
     "name": "beyaz mısır",
-    "standardAmount": "2 sap"
+    "standardAmount": "2 koçan"
    },
    "w-mx-021-i3": {
     "name": "çayot",
@@ -109668,10 +109668,10 @@
    },
    "w-mx-021-i5": {
     "name": "yeşil fasulye",
-    "standardAmount": "1/3 lb"
+    "standardAmount": "1/3 libre"
    },
    "w-mx-021-i6": {
-    "name": "zucchini kabak",
+    "name": "sakız kabağı",
     "standardAmount": "2 parça"
    },
    "w-mx-021-i7": {
@@ -109687,19 +109687,19 @@
     "standardAmount": "1 baş"
    },
    "w-mx-021-i10": {
-    "name": "limon",
+    "name": "misket limonu",
     "standardAmount": "6 parça"
    },
    "w-mx-021-i11": {
     "name": "su",
-    "standardAmount": "8 kupa"
+    "standardAmount": "8 su bardağı"
    },
    "w-mx-021-i12": {
     "name": "tuz",
-    "standardAmount": "1 çay kaşığı + isteğe bağlı"
+    "standardAmount": "1 çay kaşığı + gerektiği kadar"
    },
    "w-mx-021-i13": {
-    "name": "mısır ekmeği",
+    "name": "mısır tortillası",
     "standardAmount": "18 parça"
    }
   },
@@ -109729,23 +109729,23 @@
   "ingredients": {
    "w-mx-022-i1": {
     "name": "su",
-    "standardAmount": "1 kupa"
+    "standardAmount": "1 su bardağı"
    },
    "w-mx-022-i2": {
     "name": "şeker",
-    "standardAmount": "2 kupa"
+    "standardAmount": "2 su bardağı"
    },
    "w-mx-022-i3": {
-    "name": "karabiber",
-    "standardAmount": "4 tane tam karabiber"
+    "name": "karanfil",
+    "standardAmount": "4 adet bütün karanfil"
    },
    "w-mx-022-i4": {
-    "name": "inceltlenmiş hindistan cevizi",
-    "standardAmount": "4 kupa"
+    "name": "rendelenmiş hindistan cevizi",
+    "standardAmount": "4 su bardağı"
    },
    "w-mx-022-i5": {
     "name": "süt",
-    "standardAmount": "1,5 kupa"
+    "standardAmount": "1,5 su bardağı"
    },
    "w-mx-022-i6": {
     "name": "toz tarçın",
@@ -109762,15 +109762,15 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-mx-023": {
-  "title": "Mısır Ekmeği",
+  "title": "Mısır Tortillası",
   "ingredients": {
    "w-mx-023-i1": {
-    "name": "masa harinası",
-    "standardAmount": "2 kupa"
+    "name": "masa harina",
+    "standardAmount": "2 su bardağı"
    },
    "w-mx-023-i2": {
     "name": "su",
-    "standardAmount": "1 1/4 kupa"
+    "standardAmount": "1 1/4 su bardağı"
    },
    "w-mx-023-i3": {
     "name": "tuz",
@@ -109787,38 +109787,38 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-mx-024": {
-  "title": "Curtido (Kabak Salatası)",
+  "title": "Curtido (Lahana Salatası)",
   "ingredients": {
    "w-mx-024-i1": {
-    "name": "kabak",
+    "name": "lahana",
     "standardAmount": "1/2 baş (ince doğranmış)"
    },
    "w-mx-024-i2": {
     "name": "havuç",
-    "standardAmount": "1 havuç (doğranmış)"
+    "standardAmount": "1 havuç (rendelenmiş)"
    },
    "w-mx-024-i3": {
     "name": "yeşil soğan",
     "standardAmount": "3 yeşil soğan (ince doğranmış)"
    },
    "w-mx-024-i4": {
-    "name": "ebenlik suyu",
-    "standardAmount": "1 kova"
+    "name": "kaynar su",
+    "standardAmount": "1 kuart"
    },
    "w-mx-024-i5": {
     "name": "beyaz sirke",
-    "standardAmount": "1 kupa"
+    "standardAmount": "1 su bardağı"
    },
    "w-mx-024-i6": {
     "name": "su",
-    "standardAmount": "1/2 kupa"
+    "standardAmount": "1/2 su bardağı"
    },
    "w-mx-024-i7": {
-    "name": "meksikalı kekik",
+    "name": "kekik",
     "standardAmount": "2 çay kaşığı"
    },
    "w-mx-024-i8": {
-    "name": "kırmızı biber tozu",
+    "name": "pul biber",
     "standardAmount": "1 çay kaşığı (isteğe bağlı)"
    }
   },
@@ -109838,7 +109838,7 @@
   "ingredients": {
    "w-mx-025-i1": {
     "name": "siyah veya pinto fasulye",
-    "standardAmount": "2 (15 ons) kavanoz (suyuyla birlikte)"
+    "standardAmount": "2 (15 ons) kutu (suyuyla birlikte)"
    },
    "w-mx-025-i2": {
     "name": "adobo sosu içindeki chipotle biberleri",
@@ -109846,10 +109846,10 @@
    },
    "w-mx-025-i3": {
     "name": "doğranmış soğan",
-    "standardAmount": "½ kupa"
+    "standardAmount": "½ su bardağı"
    },
    "w-mx-025-i4": {
-    "name": "doğranmış sarımsak",
+    "name": "kıyılmış sarımsak",
     "standardAmount": "3 diş"
    },
    "w-mx-025-i5": {
@@ -109858,35 +109858,35 @@
    },
    "w-mx-025-i6": {
     "name": "bitkisel yağ",
-    "standardAmount": "1 yemek kaşığı (daha fazla kızartma için)"
+    "standardAmount": "1 yemek kaşığı (artı kızartmak için fazlası)"
    },
    "w-mx-025-i7": {
-    "name": "bitkisel su",
-    "standardAmount": "1 ½ kupa"
+    "name": "sebze suyu",
+    "standardAmount": "1 ½ su bardağı"
    },
    "w-mx-025-i8": {
-    "name": "kasher tuz",
+    "name": "koşer tuz",
     "standardAmount": "1 ½ çay kaşığı"
    },
    "w-mx-025-i9": {
-    "name": "mısır ekmeği",
-    "standardAmount": "12 ekmeği"
+    "name": "mısır tortillası",
+    "standardAmount": "12 tortilla"
    },
    "w-mx-025-i10": {
     "name": "queso fresco",
-    "standardAmount": "8 ons (daha fazla eklemek için)"
+    "standardAmount": "8 ons (artı üzeri için fazlası)"
    },
    "w-mx-025-i11": {
     "name": "dilimlenmiş kırmızı soğan",
-    "standardAmount": "isteğe bağlı"
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-025-i12": {
     "name": "doğranmış kişniş",
-    "standardAmount": "isteğe bağlı"
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-025-i13": {
     "name": "Meksikalı krema",
-    "standardAmount": "isteğe bağlı"
+    "standardAmount": "damak tadına göre"
    }
   },
   "instructions": {
@@ -109901,7 +109901,7 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-mx-031": {
-  "title": "Ananas Horchata",
+  "title": "Ananaslı Horchata",
   "ingredients": {
    "w-mx-031-i1": {
     "name": "ananas",
@@ -109909,15 +109909,15 @@
    },
    "w-mx-031-i2": {
     "name": "su",
-    "standardAmount": "12 kupa"
+    "standardAmount": "12 su bardağı"
    },
    "w-mx-031-i3": {
     "name": "beyaz pirinç",
-    "standardAmount": "1 kupa"
+    "standardAmount": "1 su bardağı"
    },
    "w-mx-031-i4": {
     "name": "şeker",
-    "standardAmount": "1 kupa veya tatlılık göre"
+    "standardAmount": "1 su bardağı veya damak tadına göre"
    }
   },
   "instructions": {
@@ -109939,8 +109939,8 @@
     "standardAmount": "2 yemek kaşığı"
    },
    "w-mx-032-i2": {
-    "name": "sığır ızgara eti",
-    "standardAmount": "1,5 pound (küçük ısırık boyutunda doğranmış)"
+    "name": "dana kol eti",
+    "standardAmount": "1 ½ libre (küçük lokma büyüklüğünde küp doğranmış)"
    },
    "w-mx-032-i3": {
     "name": "soğan",
@@ -109948,43 +109948,43 @@
    },
    "w-mx-032-i4": {
     "name": "sarımsak",
-    "standardAmount": "2 diş (inciklenmiş)"
+    "standardAmount": "2 diş (kıyılmış)"
    },
    "w-mx-032-i5": {
-    "name": "kuzu tuzu",
-    "standardAmount": "1 çorba kaşığı (daha fazla isteğe bağlı)"
+    "name": "koşer tuz",
+    "standardAmount": "1 çay kaşığı (artı gerektiği kadar)"
    },
    "w-mx-032-i6": {
     "name": "taze öğütülmüş karabiber",
-    "standardAmount": "½ çorba kaşığı"
+    "standardAmount": "½ çay kaşığı"
    },
    "w-mx-032-i7": {
-    "name": "masa harinası",
-    "standardAmount": "2 kupa (daha fazla isteğe bağlı)"
+    "name": "masa harina",
+    "standardAmount": "2 su bardağı (artı gerektiği kadar)"
    },
    "w-mx-032-i8": {
     "name": "ince tuz",
-    "standardAmount": "1 çorba kaşığı"
+    "standardAmount": "1 çay kaşığı"
    },
    "w-mx-032-i9": {
     "name": "su",
-    "standardAmount": "1,5 kupa (daha fazla isteğe bağlı)"
+    "standardAmount": "1 ½ su bardağı (artı gerektiği kadar)"
    },
    "w-mx-032-i10": {
-    "name": "sebzeler yağı",
+    "name": "bitkisel yağ",
     "standardAmount": "kızartmak için (isteğe bağlı)"
    },
    "w-mx-032-i11": {
-    "name": "kızarmış fasulye",
-    "standardAmount": "isteğe bağlı (ısınmış)"
+    "name": "fasulye ezmesi (refried)",
+    "standardAmount": "gerektiği kadar (ısıtılmış)"
    },
    "w-mx-032-i12": {
     "name": "salsa roja",
-    "standardAmount": "isteğe bağlı"
+    "standardAmount": "gerektiği kadar"
    },
    "w-mx-032-i13": {
     "name": "salsa verde veya guacamole sosu",
-    "standardAmount": "isteğe bağlı"
+    "standardAmount": "gerektiği kadar"
    },
    "w-mx-032-i14": {
     "name": "avokado",
@@ -110028,35 +110028,35 @@
     "standardAmount": "¼"
    },
    "w-mx-033-i5": {
-    "name": "sarımısak",
+    "name": "sarımsak",
     "standardAmount": "1 diş"
    },
    "w-mx-033-i6": {
-    "name": "taze tereyağı",
-    "standardAmount": "½ çorba kaşığı"
+    "name": "kekik",
+    "standardAmount": "½ çay kaşığı"
    },
    "w-mx-033-i7": {
     "name": "pişirme yağı",
-    "standardAmount": "½ kupa + 1 yemek kaşığı"
+    "standardAmount": "½ su bardağı + 1 yemek kaşığı"
    },
    "w-mx-033-i8": {
     "name": "su",
     "standardAmount": "2-3 yemek kaşığı"
    },
    "w-mx-033-i9": {
-    "name": "mısır ekmeği",
+    "name": "mısır tortillası",
     "standardAmount": "4"
    },
    "w-mx-033-i10": {
     "name": "tuz",
-    "standardAmount": "tatlılık göre"
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-033-i11": {
-    "name": "kızarmış fasulye",
-    "standardAmount": "½ kupa"
+    "name": "fasulye ezmesi (refried)",
+    "standardAmount": "½ su bardağı"
    },
    "w-mx-033-i12": {
-    "name": "ekmek çipsi",
+    "name": "tortilla cipsi",
     "standardAmount": "6"
    }
   },
@@ -110086,7 +110086,7 @@
   "title": "Machacado con Huevo",
   "ingredients": {
    "w-mx-034-i1": {
-    "name": "tercih edilen tereyağı veya margarin",
+    "name": "tereyağı veya margarin",
     "standardAmount": "1 yemek kaşığı"
    },
    "w-mx-034-i2": {
@@ -110094,24 +110094,24 @@
     "standardAmount": "6 büyük yumurta"
    },
    "w-mx-034-i3": {
-    "name": "doğranmış et",
-    "standardAmount": "2 kupa"
+    "name": "didiklenmiş dana eti",
+    "standardAmount": "2 su bardağı"
    },
    "w-mx-034-i4": {
-    "name": "yumuşak taco boyutunda un ekmeği",
-    "standardAmount": "10 adet, 20 cm boyutunda yumuşak taco boyutunda un ekmeği"
+    "name": "yumuşak taco boyutunda un tortillası",
+    "standardAmount": "10 adet, 8 inç yumuşak taco boyutunda un tortillası"
    },
    "w-mx-034-i5": {
-    "name": "kızarmış fasulye",
-    "standardAmount": "1 kavanoz (475 gram)"
+    "name": "fasulye ezmesi (refried)",
+    "standardAmount": "1 kutu (16 ons)"
    },
    "w-mx-034-i6": {
     "name": "cheddar veya Monterey Jack peyniri",
-    "standardAmount": "2 kupa (225 gram)"
+    "standardAmount": "2 su bardağı (8 ons)"
    },
    "w-mx-034-i7": {
-    "name": "sos",
-    "standardAmount": "tatlılık göre"
+    "name": "salsa",
+    "standardAmount": "damak tadına göre"
    }
   },
   "instructions": {
@@ -110128,27 +110128,27 @@
   "ingredients": {
    "w-mx-035-i1": {
     "name": "kısa taneli pirinç",
-    "standardAmount": "2 kupa"
+    "standardAmount": "2 su bardağı"
    },
    "w-mx-035-i2": {
     "name": "kişniş",
-    "standardAmount": "1 çiçekli kavak"
+    "standardAmount": "1 demet"
    },
    "w-mx-035-i3": {
     "name": "beyaz soğan",
     "standardAmount": "½ orta boy beyaz soğan"
    },
    "w-mx-035-i4": {
-    "name": "sarımısak",
+    "name": "sarımsak",
     "standardAmount": "2 diş"
    },
    "w-mx-035-i5": {
     "name": "tuz",
-    "standardAmount": "1 çorba kaşığı"
+    "standardAmount": "1 çay kaşığı"
    },
    "w-mx-035-i6": {
     "name": "su",
-    "standardAmount": "4-5 kupa"
+    "standardAmount": "4-5 su bardağı"
    },
    "w-mx-035-i7": {
     "name": "yağ",
@@ -110170,26 +110170,26 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-mx-036": {
-  "title": "Oda Mole'su",
+  "title": "Mole de Olla",
   "ingredients": {
    "w-mx-036-i1": {
-    "name": "Kuzu kuyruğu",
-    "standardAmount": "1,5 pound"
+    "name": "Sığır kuyruğu",
+    "standardAmount": "1 ½ libre"
    },
    "w-mx-036-i2": {
-    "name": "Biftek kapağı",
-    "standardAmount": "1,5 pound"
+    "name": "Dana incik",
+    "standardAmount": "1 ½ libre"
    },
    "w-mx-036-i3": {
-    "name": "ortanca beyaz soğan",
-    "standardAmount": "½ ortanca"
+    "name": "orta boy beyaz soğan",
+    "standardAmount": "½ orta boy"
    },
    "w-mx-036-i4": {
     "name": "sarımsak dişleri",
     "standardAmount": "3 diş"
    },
    "w-mx-036-i5": {
-    "name": "yenilmez yaprakları",
+    "name": "defne yaprağı",
     "standardAmount": "2 yaprak"
    },
    "w-mx-036-i6": {
@@ -110205,28 +110205,28 @@
     "standardAmount": "1 diş"
    },
    "w-mx-036-i9": {
-    "name": "ortanca beyaz soğan",
-    "standardAmount": "¼ ortanca"
+    "name": "orta boy beyaz soğan",
+    "standardAmount": "¼ orta boy"
    },
    "w-mx-036-i10": {
-    "name": "ortanca boyutunda domates",
-    "standardAmount": "1 ortanca"
+    "name": "orta boy domates",
+    "standardAmount": "1 orta boy"
    },
    "w-mx-036-i11": {
-    "name": "Epazote çubukları",
-    "standardAmount": "2 çubuk"
+    "name": "Epazote dalları",
+    "standardAmount": "2 dal"
    },
    "w-mx-036-i12": {
     "name": "Tuz ve karabiber",
-    "standardAmount": "tatlılık kadar"
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-036-i13": {
-    "name": "Mısır sapları",
-    "standardAmount": "2 sap (her biri 3 parçaya bölünmüş)"
+    "name": "Mısır koçanları",
+    "standardAmount": "2 koçan (her biri 3 parçaya bölünmüş)"
    },
    "w-mx-036-i14": {
     "name": "Çayot",
-    "standardAmount": "1 parça dört eş parçaya bölünmüş"
+    "standardAmount": "1 adet, dörde bölünmüş"
    },
    "w-mx-036-i15": {
     "name": "Havuç",
@@ -110234,7 +110234,7 @@
    },
    "w-mx-036-i16": {
     "name": "Xoconostle",
-    "standardAmount": "3 (soğutulmuş, kalın dilimlere bölünmüş)"
+    "standardAmount": "3 (soyulmuş, kalın dilimler halinde kesilmiş)"
    },
    "w-mx-036-i17": {
     "name": "Patates",
@@ -110246,7 +110246,7 @@
    },
    "w-mx-036-i19": {
     "name": "Yeşil fasulye",
-    "standardAmount": "6 oz"
+    "standardAmount": "6 ons"
    },
    "w-mx-036-i20": {
     "name": "İnce doğranmış beyaz soğan",
@@ -110261,7 +110261,7 @@
     "standardAmount": "2 (ince dilimlere bölünmüş veya doğranmış)"
    },
    "w-mx-036-i23": {
-    "name": "Limon dilimleri",
+    "name": "Misket limonu dilimleri",
     "standardAmount": "4-6 dilim"
    },
    "w-mx-036-i24": {
@@ -110282,18 +110282,18 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-mx-037": {
-  "title": "Kazan-Çip Nachos",
+  "title": "Kettle Cipsli Nachos",
   "ingredients": {
    "w-mx-037-i1": {
-    "name": "Kazan çipsi",
+    "name": "Kettle cipsi",
     "standardAmount": "14 ons"
    },
    "w-mx-037-i2": {
-    "name": "Avokado yağı, çilekli biber",
-    "standardAmount": "isteğe bağlı"
+    "name": "Biberli ve misket limonlu avokado yağı",
+    "standardAmount": "gerektiği kadar"
    },
    "w-mx-037-i3": {
-    "name": "Tropikal sos",
+    "name": "Tropikal salsa",
     "standardAmount": "1 su bardağı"
    },
    "w-mx-037-i4": {
@@ -110309,7 +110309,7 @@
     "standardAmount": "1 su bardağı"
    },
    "w-mx-037-i7": {
-    "name": "Mango ve avokado sosu",
+    "name": "Mango ve avokado salsası",
     "standardAmount": "1 su bardağı"
    },
    "w-mx-037-i8": {
@@ -110317,7 +110317,7 @@
     "standardAmount": "1 su bardağı"
    },
    "w-mx-037-i9": {
-    "name": "Doğranmış ev yapımı tavuk",
+    "name": "Didiklenmiş çevirme tavuk",
     "standardAmount": "2 su bardağı"
    },
    "w-mx-037-i10": {
@@ -110333,11 +110333,11 @@
     "standardAmount": "1/2 su bardağı"
    },
    "w-mx-037-i13": {
-    "name": "Kırpılmış turp",
+    "name": "Dilimlenmiş turp",
     "standardAmount": "1 su bardağı"
    },
    "w-mx-037-i14": {
-    "name": "Kırmızı üzüm tohumları",
+    "name": "Nar taneleri",
     "standardAmount": "1/2 su bardağı"
    },
    "w-mx-037-i15": {
@@ -110345,7 +110345,7 @@
     "standardAmount": "1/4 su bardağı"
    },
    "w-mx-037-i16": {
-    "name": "Kırpılmış jalapeño",
+    "name": "Dilimlenmiş jalapeño",
     "standardAmount": "2 biber"
    },
    "w-mx-037-i17": {
@@ -110353,7 +110353,7 @@
     "standardAmount": "1/4 su bardağı"
    },
    "w-mx-037-i18": {
-    "name": "Limon dilimleri",
+    "name": "Misket limonu dilimleri",
     "standardAmount": "4 dilim"
    }
   },
@@ -110373,12 +110373,12 @@
     "standardAmount": "1/2 su bardağı"
    },
    "w-mx-038-i2": {
-    "name": "kabak",
-    "standardAmount": "1/2 kabak (soğutulmuş ve doğranmış)"
+    "name": "salatalık",
+    "standardAmount": "1/2 salatalık (soyulmuş ve doğranmış)"
    },
    "w-mx-038-i3": {
-    "name": "limon",
-    "standardAmount": "1 limon (suyu sıkılmış)"
+    "name": "misket limonu",
+    "standardAmount": "1 misket limonu (suyu sıkılmış)"
    },
    "w-mx-038-i4": {
     "name": "su",
@@ -110386,7 +110386,7 @@
    },
    "w-mx-038-i5": {
     "name": "ezilmiş buz (isteğe bağlı)",
-    "standardAmount": "tatlılık kadar"
+    "standardAmount": "damak tadına göre"
    }
   },
   "instructions": {
@@ -110398,7 +110398,7 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-mx-039": {
-  "title": "Ölüm Ekmekleri",
+  "title": "Pan de Muerto (Ölüler Ekmeği)",
   "ingredients": {
    "w-mx-039-i1": {
     "name": "un",
@@ -110417,7 +110417,7 @@
     "standardAmount": "2 ons"
    },
    "w-mx-039-i5": {
-    "name": "yumurtalar",
+    "name": "yumurta",
     "standardAmount": "2 yumurta"
    },
    "w-mx-039-i6": {
@@ -110461,11 +110461,11 @@
   "title": "Orejas (Palmiers) - Şekerli Ekmek",
   "ingredients": {
    "w-mx-040-i1": {
-    "name": "puff pastry",
-    "standardAmount": "2 sayfa"
+    "name": "milföy hamuru",
+    "standardAmount": "2 yaprak"
    },
    "w-mx-040-i2": {
-    "name": "pul biber",
+    "name": "toz şeker",
     "standardAmount": "1 su bardağı"
    },
    "w-mx-040-i3": {
@@ -110473,8 +110473,8 @@
     "standardAmount": "2 çay kaşığı"
    },
    "w-mx-040-i4": {
-    "name": "erimiş tereyağı",
-    "standardAmount": "isteğe bağlı"
+    "name": "eritilmiş tereyağı",
+    "standardAmount": "gerektiği kadar"
    }
   },
   "instructions": {
@@ -110491,7 +110491,7 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-mx-041": {
-  "title": "Aztek Pasteli",
+  "title": "Pastel Azteca",
   "ingredients": {
    "w-mx-041-i1": {
     "name": "zeytinyağı",
@@ -110499,7 +110499,7 @@
    },
    "w-mx-041-i2": {
     "name": "tomatillo",
-    "standardAmount": "1 pound"
+    "standardAmount": "1 libre"
    },
    "w-mx-041-i3": {
     "name": "sarı soğan",
@@ -110518,16 +110518,16 @@
     "standardAmount": "1 su bardağı"
    },
    "w-mx-041-i7": {
-    "name": "limon suyu",
+    "name": "misket limonu suyu",
     "standardAmount": "2 yemek kaşığı"
    },
    "w-mx-041-i8": {
-    "name": "kuzu tuzu",
+    "name": "koşer tuz",
     "standardAmount": "1 çay kaşığı + 1 çay kaşığı"
    },
    "w-mx-041-i9": {
-    "name": "kuru sarı mısır",
-    "standardAmount": "1 (15 ons) kavanoz"
+    "name": "konserve sarı mısır",
+    "standardAmount": "1 (15 ons) kutu"
    },
    "w-mx-041-i10": {
     "name": "sarımsak tozu",
@@ -110542,7 +110542,7 @@
     "standardAmount": "1/4 çay kaşığı"
    },
    "w-mx-041-i13": {
-    "name": "siyah biber",
+    "name": "karabiber",
     "standardAmount": "1/4 çay kaşığı"
    },
    "w-mx-041-i14": {
@@ -110550,16 +110550,16 @@
     "standardAmount": "3 su bardağı"
    },
    "w-mx-041-i15": {
-    "name": "poblanos biber",
-    "standardAmount": "6 poblanos biber"
+    "name": "poblano biberi",
+    "standardAmount": "6 poblano biberi"
    },
    "w-mx-041-i16": {
-    "name": "sebze yağı",
+    "name": "bitkisel yağ",
     "standardAmount": "1/3 su bardağı"
    },
    "w-mx-041-i17": {
-    "name": "mısır ekmeği",
-    "standardAmount": "21 ekmeğin"
+    "name": "mısır tortillası",
+    "standardAmount": "21 tortilla"
    },
    "w-mx-041-i18": {
     "name": "quesadilla peyniri",
@@ -110570,7 +110570,7 @@
     "standardAmount": "2.5 su bardağı"
    },
    "w-mx-041-i20": {
-    "name": "Meksikalı krema",
+    "name": "Meksika kreması",
     "standardAmount": "3/4 su bardağı"
    }
   },
@@ -110593,8 +110593,8 @@
   "title": "Meksikalı Picadillo",
   "ingredients": {
    "w-mx-042-i1": {
-    "name": "düşük yağlı doğranmış sığır eti",
-    "standardAmount": "2 kg"
+    "name": "az yağlı dana kıyma",
+    "standardAmount": "2 libre"
    },
    "w-mx-042-i2": {
     "name": "patates",
@@ -110605,8 +110605,8 @@
     "standardAmount": "2 orta"
    },
    "w-mx-042-i4": {
-    "name": "yeşil mercimek",
-    "standardAmount": "1 su bardağı (özellikle dondurulmuş olanı tercih edin)"
+    "name": "yeşil bezelye",
+    "standardAmount": "1 su bardağı (tercihen dondurulmuş)"
    },
    "w-mx-042-i5": {
     "name": "kuru üzüm",
@@ -110621,7 +110621,7 @@
     "standardAmount": "1 çay kaşığı"
    },
    "w-mx-042-i8": {
-    "name": "siyah biber",
+    "name": "karabiber",
     "standardAmount": "½ çay kaşığı"
    },
    "w-mx-042-i9": {
@@ -110629,8 +110629,8 @@
     "standardAmount": "¼ çay kaşığı (isteğe bağlı)"
    },
    "w-mx-042-i10": {
-    "name": "yağmur yaprağı",
-    "standardAmount": "2 yaprak (hazırlanmadan önce çıkarın)"
+    "name": "defne yaprağı",
+    "standardAmount": "2 yaprak (servis etmeden önce çıkarın)"
    },
    "w-mx-042-i11": {
     "name": "pişirme yağı veya zeytinyağı",
@@ -110655,8 +110655,8 @@
   "title": "Meksikalı Pozole Roja",
   "ingredients": {
    "w-mx-043-i1": {
-    "name": "hominy",
-    "standardAmount": "2 kavanoz"
+    "name": "hominy (iri beyaz mısır)",
+    "standardAmount": "2 kutu"
    },
    "w-mx-043-i2": {
     "name": "bütün tavuk",
@@ -110683,11 +110683,11 @@
     "standardAmount": "1/4 su bardağı"
    },
    "w-mx-043-i8": {
-    "name": "sarımısak dişi",
+    "name": "sarımsak dişi",
     "standardAmount": "3"
    },
    "w-mx-043-i9": {
-    "name": "kavun çekirdeği",
+    "name": "karanfil",
     "standardAmount": "2"
    },
    "w-mx-043-i10": {
@@ -110699,11 +110699,11 @@
     "standardAmount": "1 çay kaşığı"
    },
    "w-mx-043-i12": {
-    "name": "sebze yağı",
+    "name": "bitkisel yağ",
     "standardAmount": "3 yemek kaşığı"
    },
    "w-mx-043-i13": {
-    "name": "limon",
+    "name": "misket limonu",
     "standardAmount": "4 (dörde bölünmüş)"
    },
    "w-mx-043-i14": {
@@ -110711,7 +110711,7 @@
     "standardAmount": "1/2 baş (doğranmış)"
    },
    "w-mx-043-i15": {
-    "name": "radis",
+    "name": "turp",
     "standardAmount": "6 (ince dilimlenmiş)"
    },
    "w-mx-043-i16": {
@@ -110719,7 +110719,7 @@
     "standardAmount": "1/2 su bardağı"
    },
    "w-mx-043-i17": {
-    "name": "tostadas",
+    "name": "tostada",
     "standardAmount": "gerekli kadar"
    },
    "w-mx-043-i18": {
@@ -110748,11 +110748,11 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-mx-044": {
-  "title": "Krema ile Rajas",
+  "title": "Kremalı Rajas (Rajas con Crema)",
   "ingredients": {
    "w-mx-044-i1": {
-    "name": "poblanos",
-    "standardAmount": "1 kg"
+    "name": "poblano biberi",
+    "standardAmount": "1 libre"
    },
    "w-mx-044-i2": {
     "name": "soğan",
@@ -110763,12 +110763,12 @@
     "standardAmount": "2 yemek kaşığı"
    },
    "w-mx-044-i4": {
-    "name": "meksikalı krema",
+    "name": "Meksika kreması",
     "standardAmount": "3/4 su bardağı"
    },
    "w-mx-044-i5": {
     "name": "oaxaca peyniri",
-    "standardAmount": "3/4 su bardağı doğranmış"
+    "standardAmount": "3/4 su bardağı rendelenmiş"
    },
    "w-mx-044-i6": {
     "name": "mısır",
@@ -110788,22 +110788,22 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-mx-045": {
-  "title": "Guacamole Tostadas ile Kızartılmış Fasulye",
+  "title": "Fasulye Ezmeli ve Guacamoleli Tostadalar",
   "ingredients": {
    "w-mx-045-i1": {
     "name": "pişmiş Frijoles de la Olla",
     "standardAmount": "1 ½ su bardağı"
    },
    "w-mx-045-i2": {
-    "name": "sebze yağı",
+    "name": "bitkisel yağ",
     "standardAmount": "kızartmak için"
    },
    "w-mx-045-i3": {
-    "name": "zeytinyağı veya sebze kıvamı",
+    "name": "zeytinyağı veya bitkisel katı yağ",
     "standardAmount": "2 yemek kaşığı"
    },
    "w-mx-045-i4": {
-    "name": "tuz ve biber",
+    "name": "tuz ve karabiber",
     "standardAmount": "tadına göre"
    },
    "w-mx-045-i5": {
@@ -110851,12 +110851,12 @@
     "standardAmount": "1 adet, ince doğranmış"
    },
    "w-ma-001-i3": {
-    "name": "sarımısak",
-    "standardAmount": "2 pençe, ince doğranmış"
+    "name": "sarımsak",
+    "standardAmount": "2 diş, ince kıyılmış"
    },
    "w-ma-001-i4": {
-    "name": "kuzu eti",
-    "standardAmount": "600g / 1,2 lb"
+    "name": "kuzu kıyması",
+    "standardAmount": "600 g / 1,2 libre"
    },
    "w-ma-001-i5": {
     "name": "toz kimyon",
@@ -110883,7 +110883,7 @@
     "standardAmount": "1/2 çay kaşığı"
    },
    "w-ma-001-i11": {
-    "name": "siyah biber",
+    "name": "karabiber",
     "standardAmount": "1/2 çay kaşığı"
    },
    "w-ma-001-i12": {
@@ -110891,15 +110891,15 @@
     "standardAmount": "1 1/4 çay kaşığı"
    },
    "w-ma-001-i13": {
-    "name": "kuru üzüm",
+    "name": "kuş üzümü",
     "standardAmount": "1/3 su bardağı"
    },
    "w-ma-001-i14": {
     "name": "çam fıstığı",
-    "standardAmount": "1/3 su bardağı, kızartılmış"
+    "standardAmount": "1/3 su bardağı, kavrulmuş"
    },
    "w-ma-001-i15": {
-    "name": "domates passata",
+    "name": "süzme domates püresi",
     "standardAmount": "1 su bardağı"
    },
    "w-ma-001-i16": {
@@ -110916,15 +110916,15 @@
    },
    "w-ma-001-i19": {
     "name": "tuzsuz tereyağı",
-    "standardAmount": "30g / 2 yemek kaşığı"
+    "standardAmount": "30 g / 2 yemek kaşığı"
    },
    "w-ma-001-i20": {
-    "name": "phyllo hamuru",
+    "name": "filo hamuru",
     "standardAmount": "12 yaprak"
    },
    "w-ma-001-i21": {
     "name": "tuzsuz tereyağı",
-    "standardAmount": "25g / 1 1/2 yemek kaşığı"
+    "standardAmount": "25 g / 1 1/2 yemek kaşığı"
    },
    "w-ma-001-i22": {
     "name": "beyaz susam tohumu",
@@ -110935,7 +110935,7 @@
     "standardAmount": "1 su bardağı"
    },
    "w-ma-001-i24": {
-    "name": "sarımısak",
+    "name": "sarımsak",
     "standardAmount": "1/4 çay kaşığı, ince rendelenmiş"
    },
    "w-ma-001-i25": {
@@ -110948,7 +110948,7 @@
    },
    "w-ma-001-i27": {
     "name": "tuz",
-    "standardAmount": "bir çay kaşığı"
+    "standardAmount": "bir tutam"
    }
   },
   "instructions": {
@@ -110967,19 +110967,19 @@
   "chapter": "مطبخ المغرب"
  },
  "w-ma-008": {
-  "title": "Patlıcan Çermuha Salatası",
+  "title": "Şermulalı Patlıcan Salatası",
   "ingredients": {
    "w-ma-008-i1": {
     "name": "patlıcan",
     "standardAmount": "2 büyük (veya 4 orta boy)"
    },
    "w-ma-008-i2": {
-    "name": "çermuha pastası",
+    "name": "şermula ezmesi",
     "standardAmount": "1 su bardağı"
    },
    "w-ma-008-i3": {
     "name": "tuz",
-    "standardAmount": "1 çay kaşığı (veya tatlıya göre)"
+    "standardAmount": "1 çay kaşığı (veya damak tadına göre)"
    },
    "w-ma-008-i4": {
     "name": "zeytinyağı",
@@ -110987,7 +110987,7 @@
    },
    "w-ma-008-i5": {
     "name": "beyaz sirke",
-    "standardAmount": "2 yemek kaşığı (veya taze limon suyu, tatlıya göre)"
+    "standardAmount": "2 yemek kaşığı (veya damak tadına göre taze limon suyu)"
    }
   },
   "instructions": {
@@ -111004,7 +111004,7 @@
   "title": "Gyudon Bento",
   "ingredients": {
    "w-jp-010-i1": {
-    "name": "piyazlı Japon kısa taneli pirinç",
+    "name": "pişmiş Japon kısa taneli pirinç",
     "standardAmount": "1,5 su bardağı"
    },
    "w-jp-010-i2": {
@@ -111016,7 +111016,7 @@
     "standardAmount": "birkaç yaprak"
    },
    "w-jp-010-i4": {
-    "name": "Tamagoyaki (Japon Sarma Omeleti) (önceden pişirilmiş)",
+    "name": "Tamagoyaki (Japon rulo omleti) (önceden pişirilmiş)",
     "standardAmount": "1 parça"
    },
    "w-jp-010-i5": {
@@ -111042,7 +111042,7 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-011": {
-  "title": "Hayashi Pirinci",
+  "title": "Hayashi pilavı",
   "ingredients": {
    "w-jp-011-i1": {
     "name": "sarı soğan",
@@ -111053,32 +111053,32 @@
     "standardAmount": "4 (113 g)"
    },
    "w-jp-011-i3": {
-    "name": "ince dilimlenmiş beef",
-    "standardAmount": "10 oz"
+    "name": "ince dilimlenmiş dana eti",
+    "standardAmount": "10 ons"
    },
    "w-jp-011-i4": {
     "name": "tuzsuz tereyağı",
     "standardAmount": "1 yemek kaşığı"
    },
    "w-jp-011-i5": {
-    "name": "Diamond Crystal tuzsuz tuz",
-    "standardAmount": "tatlılık göre"
+    "name": "Diamond Crystal koşer tuzu",
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-011-i6": {
     "name": "taze öğütülmüş karabiber",
-    "standardAmount": "tatlılık göre"
+    "standardAmount": "damak tadına göre"
    },
    "w-jp-011-i7": {
     "name": "su",
     "standardAmount": "1¾ su bardağı"
    },
    "w-jp-011-i8": {
-    "name": "Hayashi Pirinci Sosu (Rouz)",
+    "name": "Hayashi sos tableti",
     "standardAmount": "½ kutu (80 g)"
    },
    "w-jp-011-i9": {
-    "name": "piyazlı Japon kısa taneli pirinç",
-    "standardAmount": "4 porisyon"
+    "name": "pişmiş Japon kısa taneli pirinç",
+    "standardAmount": "4 porsiyon"
    }
   },
   "instructions": {
@@ -111098,35 +111098,35 @@
   "ingredients": {
    "w-jp-012-i1": {
     "name": "yumurta",
-    "standardAmount": "2 büyük yumurta (kabuksız 50 g) "
+    "standardAmount": "2 büyük yumurta (her biri kabuksuz 50 g)"
    },
    "w-jp-012-i2": {
     "name": "şeker",
-    "standardAmount": "2 yedek kaşık"
+    "standardAmount": "2 yemek kaşığı"
    },
    "w-jp-012-i3": {
     "name": "bal",
-    "standardAmount": "2 yedek kaşık"
+    "standardAmount": "2 yemek kaşığı"
    },
    "w-jp-012-i4": {
-    "name": "tüm süt",
-    "standardAmount": "1¼ kase"
+    "name": "tam yağlı süt",
+    "standardAmount": "1¼ su bardağı"
    },
    "w-jp-012-i5": {
-    "name": "kuru un",
-    "standardAmount": "2 kase"
+    "name": "çok amaçlı un",
+    "standardAmount": "2 su bardağı"
    },
    "w-jp-012-i6": {
     "name": "hamur kabartma tozu",
     "standardAmount": "2 çay kaşığı"
    },
    "w-jp-012-i7": {
-    "name": "tatlı kırmızı nohut pastası (anko)",
+    "name": "tatlı kırmızı fasulye ezmesi (anko)",
     "standardAmount": "14 ons"
    },
    "w-jp-012-i8": {
     "name": "nötr yağ",
-    "standardAmount": "1 yedek kaşık (tavayı yağlamak için)"
+    "standardAmount": "1 yemek kaşığı (tavayı yağlamak için)"
    }
   },
   "instructions": {
@@ -111143,43 +111143,43 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-013": {
-  "title": "Japon Süt Ekmek (Shokupan)",
+  "title": "Japon süt ekmeği (Shokupan)",
   "ingredients": {
    "w-jp-013-i1": {
     "name": "ekmek unu",
-    "standardAmount": "250g + 20g yukone için ve ekstra toz olarak"
+    "standardAmount": "250 g + yukone için 20 g ve serpmek için ekstra"
    },
    "w-jp-013-i2": {
-    "name": "hızlı kurutulmuş maya",
-    "standardAmount": "5g"
+    "name": "hazır kuru maya",
+    "standardAmount": "5 g"
    },
    "w-jp-013-i3": {
-    "name": "kum şekeri",
-    "standardAmount": "30g"
+    "name": "ince toz şeker",
+    "standardAmount": "30 g"
    },
    "w-jp-013-i4": {
     "name": "ince tuz",
-    "standardAmount": "5g"
+    "standardAmount": "5 g"
    },
    "w-jp-013-i5": {
-    "name": "hafif ısıl tüm süt",
-    "standardAmount": "80ml"
+    "name": "ılık tam yağlı süt",
+    "standardAmount": "80 ml"
    },
    "w-jp-013-i6": {
     "name": "yumurta",
-    "standardAmount": "1 karıştırılmış"
+    "standardAmount": "1, çırpılmış"
    },
    "w-jp-013-i7": {
     "name": "tuzsuz tereyağı",
-    "standardAmount": "25g"
+    "standardAmount": "25 g"
    },
    "w-jp-013-i8": {
     "name": "süt veya eritilmiş tereyağı",
-    "standardAmount": "1 yedek kaşık"
+    "standardAmount": "1 yemek kaşığı"
    },
    "w-jp-013-i9": {
     "name": "yağ",
-    "standardAmount": "kabartma ve teneke için"
+    "standardAmount": "mayalandırma ve kalıp için"
    }
   },
   "instructions": {
@@ -111196,23 +111196,23 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-014": {
-  "title": "Japon Kırık Noodle Çorbası",
+  "title": "Japon cam erişte çorbası",
   "ingredients": {
    "w-jp-014-i1": {
     "name": "Yumurta",
-    "standardAmount": "2 büyük yumurta (kabukları çıkarıldıktan sonra 50 g her biri)"
+    "standardAmount": "2 büyük yumurta (her biri kabuksuz 50 g)"
    },
    "w-jp-014-i2": {
-    "name": "Yeşil soğan",
-    "standardAmount": "2 adet yeşil soğan/kıvırcık soğan"
+    "name": "Taze soğan",
+    "standardAmount": "2 taze soğan"
    },
    "w-jp-014-i3": {
     "name": "Orta sert tofu",
-    "standardAmount": "3,5 oz (1/4 blok)"
+    "standardAmount": "3,5 ons (¼ kalıp)"
    },
    "w-jp-014-i4": {
-    "name": "Kurutulmuş wakame deniz yaprağı",
-    "standardAmount": "2 yedek kaşık"
+    "name": "Kurutulmuş wakame yosunu",
+    "standardAmount": "2 yemek kaşığı"
    },
    "w-jp-014-i5": {
     "name": "Kavrulmuş susam yağı",
@@ -111220,18 +111220,18 @@
    },
    "w-jp-014-i6": {
     "name": "Tavuk suyu",
-    "standardAmount": "2 kupa (vegan/vejeteryen için sebze suyu kullanın)"
+    "standardAmount": "2 su bardağı (vegan/vejetaryen için sebze suyu kullanın)"
    },
    "w-jp-014-i7": {
     "name": "Su",
-    "standardAmount": "2 kupa"
+    "standardAmount": "2 su bardağı"
    },
    "w-jp-014-i8": {
-    "name": "Soy sosu",
-    "standardAmount": "1,5 yedek kaşık (glutensiz soy sosu kullanın, glütensiz için)"
+    "name": "Soya sosu",
+    "standardAmount": "1½ yemek kaşığı (glutensiz için glutensiz soya sosu kullanın)"
    },
    "w-jp-014-i9": {
-    "name": "Kosher tuzu",
+    "name": "Koşer tuzu",
     "standardAmount": "1 çay kaşığı"
    },
    "w-jp-014-i10": {
@@ -111239,8 +111239,8 @@
     "standardAmount": "1/4 çay kaşığı"
    },
    "w-jp-014-i11": {
-    "name": "Kurutulmuş kırık noodles",
-    "standardAmount": "1 oz"
+    "name": "Kurutulmuş cam erişte",
+    "standardAmount": "1 ons"
    },
    "w-jp-014-i12": {
     "name": "Kavrulmuş beyaz susam tohumu",
@@ -111270,16 +111270,16 @@
   "title": "Taiyaki",
   "ingredients": {
    "w-jp-033-i1": {
-    "name": "tatlı kırmızı nohut pastası (An)",
+    "name": "tatlı kırmızı fasulye ezmesi (an)",
     "standardAmount": "240 g"
    },
    "w-jp-033-i2": {
-    "name": "sıvı un",
-    "standardAmount": "1 kupa"
+    "name": "un",
+    "standardAmount": "1 su bardağı"
    },
    "w-jp-033-i3": {
     "name": "şeker",
-    "standardAmount": "1,5 yedek kaşık"
+    "standardAmount": "1 ½ yemek kaşığı"
    },
    "w-jp-033-i4": {
     "name": "hamur kabartma tozu",
@@ -111287,11 +111287,11 @@
    },
    "w-jp-033-i5": {
     "name": "su",
-    "standardAmount": "1/3 kupa"
+    "standardAmount": "⅓ su bardağı"
    },
    "w-jp-033-i6": {
     "name": "süt",
-    "standardAmount": "1/3 kupa"
+    "standardAmount": "⅓ su bardağı"
    },
    "w-jp-033-i7": {
     "name": "büyük yumurta",
@@ -111373,15 +111373,15 @@
     "standardAmount": "4 adet"
    },
    "w-mx-001-i3": {
-    "name": "ortam boyutlu beyaz soğan",
+    "name": "orta boy beyaz soğan",
     "standardAmount": "1/2 adet"
    },
    "w-mx-001-i4": {
-    "name": "sarımısak",
+    "name": "sarımsak",
     "standardAmount": "2 diş"
    },
    "w-mx-001-i5": {
-    "name": "koyu şeker",
+    "name": "esmer şeker",
     "standardAmount": "1 yemek kaşığı"
    },
    "w-mx-001-i6": {
@@ -111416,15 +111416,15 @@
   "ingredients": {
    "w-mx-002-i1": {
     "name": "karides",
-    "standardAmount": "1,5 kilo"
+    "standardAmount": "1 ½ libre"
    },
    "w-mx-002-i2": {
-    "name": "taze sıkılmış limon suyu",
+    "name": "taze sıkılmış misket limonu suyu",
     "standardAmount": "1 su bardağı"
    },
    "w-mx-002-i3": {
-    "name": "kasher tuzu",
-    "standardAmount": "1 çay kaşığı + tatlılık için ekstra"
+    "name": "koşer tuz",
+    "standardAmount": "1 çay kaşığı + damak tadına göre fazlası"
    },
    "w-mx-002-i4": {
     "name": "taze öğütülmüş karabiber",
@@ -111447,7 +111447,7 @@
     "standardAmount": "3 diş"
    },
    "w-mx-002-i9": {
-    "name": "Jugo Maggi Tuzlama Şerbeti",
+    "name": "Jugo Maggi çeşnisi",
     "standardAmount": "1 çay kaşığı"
    },
    "w-mx-002-i10": {
@@ -111459,7 +111459,7 @@
     "standardAmount": "¼ su bardağı"
    },
    "w-mx-002-i12": {
-    "name": "kabak",
+    "name": "salatalık",
     "standardAmount": "1 adet"
    },
    "w-mx-002-i13": {
@@ -111494,11 +111494,11 @@
     "standardAmount": "5 adet"
    },
    "w-mx-003-i2": {
-    "name": "kuru un",
-    "standardAmount": "1 su bardağı (zımparalanmış)"
+    "name": "çok amaçlı un",
+    "standardAmount": "1 su bardağı (elenmiş)"
    },
    "w-mx-003-i3": {
-    "name": "mısır unu",
+    "name": "mısır nişastası",
     "standardAmount": "1/4-1/2 su bardağı (gerekli kadar)"
    },
    "w-mx-003-i4": {
@@ -111514,7 +111514,7 @@
     "standardAmount": "2 yemek kaşığı"
    },
    "w-mx-003-i7": {
-    "name": "toz şeker",
+    "name": "pudra şekeri",
     "standardAmount": "gerekli kadar"
    }
   },
@@ -111547,7 +111547,7 @@
     "standardAmount": "1.5 su bardağı"
    },
    "w-mx-004-i4": {
-    "name": "Sarı soğan",
+    "name": "Sarımsak",
     "standardAmount": "1 küçük diş"
    },
    "w-mx-004-i5": {
@@ -111555,20 +111555,20 @@
     "standardAmount": "3 yemek kaşığı"
    },
    "w-mx-004-i6": {
-    "name": "Sebze yağı",
+    "name": "Bitkisel yağ",
     "standardAmount": "2 yemek kaşığı"
    },
    "w-mx-004-i7": {
     "name": "Tuz",
-    "standardAmount": "tatlılık kadar"
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-004-i8": {
-    "name": "Limon veya limon suyu",
+    "name": "Misket limonu veya limon suyu",
     "standardAmount": "birkaç damla"
    },
    "w-mx-004-i9": {
     "name": "Maydanoz veya kişniş",
-    "standardAmount": "1-2 çiçek (isteğe bağlı)"
+    "standardAmount": "1-2 dal (isteğe bağlı)"
    },
    "w-mx-004-i10": {
     "name": "Serrano biberi",
@@ -111589,7 +111589,7 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-mx-005": {
-  "title": "Meksikalı Barbekü",
+  "title": "Meksika Usulü Barbacoa",
   "ingredients": {
    "w-mx-005-i1": {
     "name": "İspanyol soğanı",
@@ -111604,7 +111604,7 @@
     "standardAmount": "2 domates (dört parçaya bölünmüş)"
    },
    "w-mx-005-i4": {
-    "name": "Sarı soğan dişi",
+    "name": "Sarımsak dişi",
     "standardAmount": "3 diş (kabukları soyulmuş)"
    },
    "w-mx-005-i5": {
@@ -111621,39 +111621,39 @@
    },
    "w-mx-005-i8": {
     "name": "Tuz",
-    "standardAmount": "tatlılık kadar"
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-005-i9": {
-    "name": "Kuzu bacak eti",
-    "standardAmount": "2.5 kilo (kemikleri çıkarılmış)"
+    "name": "Kuzu but",
+    "standardAmount": "2 1/2 libre (kemikleri çıkarılmış)"
    },
    "w-mx-005-i10": {
-    "name": "Agave balı",
+    "name": "Agave şurubu",
     "standardAmount": "2 yemek kaşığı"
    },
    "w-mx-005-i11": {
-    "name": "Mısır ekmeği",
-    "standardAmount": "16-24 ekmek"
+    "name": "Mısır tortillası",
+    "standardAmount": "16-24 tortilla"
    },
    "w-mx-005-i12": {
     "name": "Jikama dilimleri",
-    "standardAmount": "tatlılık kadar"
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-005-i13": {
     "name": "Avokado",
-    "standardAmount": "tatlılık kadar (küçük parçalar)"
+    "standardAmount": "damak tadına göre (küp doğranmış)"
    },
    "w-mx-005-i14": {
     "name": "Chile Colorado sosu",
-    "standardAmount": "tatlılık kadar"
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-005-i15": {
     "name": "Doğranmış taze kişniş",
-    "standardAmount": "tatlılık kadar"
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-005-i16": {
-    "name": "Limon dilimleri",
-    "standardAmount": "tatlılık kadar"
+    "name": "Misket limonu dilimleri",
+    "standardAmount": "damak tadına göre"
    }
   },
   "instructions": {
@@ -111684,10 +111684,10 @@
    },
    "w-mx-026-i4": {
     "name": "sarımsak",
-    "standardAmount": "1 pençe"
+    "standardAmount": "1 diş"
    },
    "w-mx-026-i5": {
-    "name": "kasher tuz",
+    "name": "koşer tuz",
     "standardAmount": "1 çay kaşığı"
    },
    "w-mx-026-i6": {
@@ -111699,7 +111699,7 @@
     "standardAmount": "¼ çay kaşığı"
    },
    "w-mx-026-i8": {
-    "name": "broth (tavuk veya sebze)",
+    "name": "tavuk veya sebze suyu",
     "standardAmount": "½ su bardağı"
    },
    "w-mx-026-i9": {
@@ -111707,11 +111707,11 @@
     "standardAmount": "1 çay kaşığı"
    },
    "w-mx-026-i10": {
-    "name": "sebze yağı",
+    "name": "bitkisel yağ",
     "standardAmount": "½ su bardağı (ve daha fazla gerekirse)"
    },
    "w-mx-026-i11": {
-    "name": "mısır ekmeği",
+    "name": "mısır tortillası",
     "standardAmount": "12 adet"
    },
    "w-mx-026-i12": {
@@ -111720,15 +111720,15 @@
    },
    "w-mx-026-i13": {
     "name": "Meksikalı krema veya ekşi krema",
-    "standardAmount": "kullanım için"
+    "standardAmount": "üzeri için"
    },
    "w-mx-026-i14": {
     "name": "parçalanmış kotija peyniri veya daha fazla queso fresco",
-    "standardAmount": "kullanım için"
+    "standardAmount": "üzeri için"
    },
    "w-mx-026-i15": {
     "name": "doğranmış kişniş",
-    "standardAmount": "kullanım için"
+    "standardAmount": "üzeri için"
    }
   },
   "instructions": {
@@ -111742,23 +111742,23 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-mx-027": {
-  "title": "Escabeche (Tuzlu Sebzeler)",
+  "title": "Escabeche (Sebze Turşusu)",
   "ingredients": {
    "w-mx-027-i1": {
     "name": "su",
     "standardAmount": "2 su bardağı"
    },
    "w-mx-027-i2": {
-    "name": "damıtma sirkesi",
+    "name": "damıtılmış sirke",
     "standardAmount": "2 su bardağı"
    },
    "w-mx-027-i3": {
     "name": "şeker",
-    "standardAmount": "1 çay kaşığı"
+    "standardAmount": "1 yemek kaşığı"
    },
    "w-mx-027-i4": {
-    "name": "kasher tuz",
-    "standardAmount": "1 çay kaşığı"
+    "name": "koşer tuz",
+    "standardAmount": "1 yemek kaşığı"
    },
    "w-mx-027-i5": {
     "name": "kekik",
@@ -111769,12 +111769,12 @@
     "standardAmount": "1 çay kaşığı"
    },
    "w-mx-027-i7": {
-    "name": "yenidünya yaprağı",
+    "name": "defne yaprağı",
     "standardAmount": "2 yaprak"
    },
    "w-mx-027-i8": {
-    "name": "sarımısak",
-    "standardAmount": "1 pençe (ezilmiş)"
+    "name": "sarımsak",
+    "standardAmount": "1 diş (ezilmiş)"
    },
    "w-mx-027-i9": {
     "name": "jalapeño biberleri",
@@ -111786,7 +111786,7 @@
    },
    "w-mx-027-i11": {
     "name": "havuç",
-    "standardAmount": "4 (soğanı soyulmuş, 1/8 inç kalınlığında halkalar halinde kesilmiş)"
+    "standardAmount": "4 (soyulmuş, 1/8 inç kalınlığında halkalar halinde kesilmiş)"
    },
    "w-mx-027-i12": {
     "name": "tatlı soğan",
@@ -111808,43 +111808,43 @@
   "ingredients": {
    "w-mx-028-i1": {
     "name": "Meksikalı beyaz mısır",
-    "standardAmount": "4 sap"
+    "standardAmount": "4 koçan"
    },
    "w-mx-028-i2": {
     "name": "Tavuk veya sebze suyu",
-    "standardAmount": "1 kupa"
+    "standardAmount": "1 su bardağı"
    },
    "w-mx-028-i3": {
     "name": "Su",
-    "standardAmount": "2 kupa"
+    "standardAmount": "2 su bardağı"
    },
    "w-mx-028-i4": {
     "name": "Epazote yaprakları",
     "standardAmount": "2 yaprak"
    },
    "w-mx-028-i5": {
-    "name": "Limon suyu",
-    "standardAmount": "tatlılık kadar"
+    "name": "Misket limonu suyu",
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-028-i6": {
     "name": "Mayonez",
-    "standardAmount": "tatlılık kadar"
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-028-i7": {
-    "name": "Rozetlenmiş peynir (queso fresco)",
-    "standardAmount": "tatlılık kadar"
+    "name": "Rendelenmiş peynir (queso fresco)",
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-028-i8": {
     "name": "Biber tozu",
-    "standardAmount": "tatlılık kadar"
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-028-i9": {
-    "name": "Erimeye hazırlanan tereyağı",
-    "standardAmount": "tatlılık kadar"
+    "name": "Eritilmiş tereyağı",
+    "standardAmount": "damak tadına göre"
    },
    "w-mx-028-i10": {
     "name": "Acı sos",
-    "standardAmount": "tatlılık kadar"
+    "standardAmount": "damak tadına göre"
    }
   },
   "instructions": {
@@ -111862,14 +111862,14 @@
   "ingredients": {
    "w-mx-029-i1": {
     "name": "Poblano biberleri",
-    "standardAmount": "5 adet, yarısı, sapları çıkarılmış, çekirdekleri alınmış"
+    "standardAmount": "5 adet, ikiye bölünmüş, sapları çıkarılmış, çekirdekleri alınmış"
    },
    "w-mx-029-i2": {
     "name": "Zeytinyağı",
     "standardAmount": "2 yemek kaşığı"
    },
    "w-mx-029-i3": {
-    "name": "Sarımsak dipleri",
+    "name": "Sarımsak dişleri",
     "standardAmount": "4 diş, doğranmış"
    },
    "w-mx-029-i4": {
@@ -111927,11 +111927,11 @@
    },
    "w-mx-030-i5": {
     "name": "kişniş",
-    "standardAmount": "3 yemek kaşığı doğranmış kereviz"
+    "standardAmount": "3 yemek kaşığı kıyılmış kişniş"
    },
    "w-mx-030-i6": {
     "name": "tuz",
-    "standardAmount": "tatlılık göre (genellikle yaklaşık ¾ çay kaşığı)"
+    "standardAmount": "damak tadına göre (genellikle yaklaşık ¾ çay kaşığı)"
    }
   },
   "instructions": {
@@ -111944,11 +111944,11 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-ma-019": {
-  "title": "Turunçlu ve Zeytinli Fas Usulü Tavuk",
+  "title": "Tuzlanmış Limonlu ve Zeytinli Fas Usulü Tavuk",
   "ingredients": {
    "w-ma-019-i1": {
     "name": "Tavuk",
-    "standardAmount": "1,5 kg"
+    "standardAmount": "3.3 libre"
    },
    "w-ma-019-i2": {
     "name": "Tuz",
@@ -112003,7 +112003,7 @@
     "standardAmount": "3-4 parça (isteğe bağlı)"
    },
    "w-ma-019-i15": {
-    "name": "Turunç (tuzda limon)",
+    "name": "Tuzlanmış limon",
     "standardAmount": "½ adet (sadece iç kısmı)"
    },
    "w-ma-019-i16": {
@@ -112011,7 +112011,7 @@
     "standardAmount": "¼ su bardağı"
    },
    "w-ma-019-i17": {
-    "name": "Turunç kabuğu",
+    "name": "Tuzlanmış limon kabuğu",
     "standardAmount": "1 adet (iç kısmı çıkarılmış)"
    }
   },
@@ -112030,7 +112030,7 @@
   "ingredients": {
    "w-ma-021-i1": {
     "name": "Kırık tel şehriye",
-    "standardAmount": "1 kg"
+    "standardAmount": "2.2 libre"
    },
    "w-ma-021-i2": {
     "name": "Sıvı yağ veya zeytinyağı",
@@ -112133,7 +112133,7 @@
   "ingredients": {
    "w-ma-029-i1": {
     "name": "Kuzu, dana veya sığır eti",
-    "standardAmount": "1 kg (2,5 cm küpler)"
+    "standardAmount": "2.2 libre (1 inç küpler)"
    },
    "w-ma-029-i2": {
     "name": "Soğan",
@@ -112221,11 +112221,11 @@
    },
    "w-mx-046-i2": {
     "name": "Monterey Jack peyniri",
-    "standardAmount": "225 g (uzun şeritler veya rendelenmiş)"
+    "standardAmount": "8 ons (uzun şeritler halinde kesilmiş veya rendelenmiş)"
    },
    "w-mx-046-i3": {
     "name": "Yağ",
-    "standardAmount": "1 litre (kızartmak için)"
+    "standardAmount": "4 su bardağı (kızartmak için)"
    },
    "w-mx-046-i4": {
     "name": "Yumurta",
@@ -112312,7 +112312,7 @@
   "ingredients": {
    "w-mx-049-i1": {
     "name": "Tilapya veya başka balık filetosu",
-    "standardAmount": "680 g"
+    "standardAmount": "1.5 libre"
    },
    "w-mx-049-i2": {
     "name": "Misket limonu",
@@ -112354,7 +112354,7 @@
   "ingredients": {
    "w-mx-050-i1": {
     "name": "Un tortillası",
-    "standardAmount": "4 adet (25 cm)"
+    "standardAmount": "4 adet (10 inç)"
    },
    "w-mx-050-i2": {
     "name": "Cheddar veya pepper jack peyniri",
@@ -112424,7 +112424,7 @@
   "ingredients": {
    "w-cn-002-i1": {
     "name": "Buğday unu",
-    "standardAmount": "300 g"
+    "standardAmount": "300 g (2 1/2 su bardağı)"
    },
    "w-cn-002-i2": {
     "name": "Tuz",
@@ -112440,11 +112440,11 @@
    },
    "w-cn-002-i5": {
     "name": "Ilık su",
-    "standardAmount": "120 ml"
+    "standardAmount": "1/2 su bardağı"
    },
    "w-cn-002-i6": {
     "name": "Kuzu budu",
-    "standardAmount": "450 g"
+    "standardAmount": "1 libre"
    },
    "w-cn-002-i7": {
     "name": "Tuz",
@@ -112499,7 +112499,7 @@
    },
    "w-cn-003-i2": {
     "name": "Soya filizi",
-    "standardAmount": "340 g"
+    "standardAmount": "12 ons"
    },
    "w-cn-003-i3": {
     "name": "Anaheim biberi",
@@ -112514,7 +112514,7 @@
     "standardAmount": "4 diş"
    },
    "w-cn-003-i6": {
-    "name": "Açık soya sosu",
+    "name": "Soya sosu",
     "standardAmount": "1 yemek kaşığı"
    },
    "w-cn-003-i7": {
@@ -112526,7 +112526,7 @@
     "standardAmount": "½ çay kaşığı"
    },
    "w-cn-003-i9": {
-    "name": "Sichuan biberi",
+    "name": "Öğütülmüş Sichuan biberi",
     "standardAmount": "¼ çay kaşığı"
    },
    "w-cn-003-i10": {
@@ -112549,7 +112549,7 @@
   "chapter": "مطبخ الصين"
  },
  "w-cn-004": {
-  "title": "Dana döşü noodle çorbası",
+  "title": "Dana incikli erişte çorbası",
   "ingredients": {
    "w-cn-004-i1": {
     "name": "Fıstık yağı",
@@ -112565,11 +112565,11 @@
    },
    "w-cn-004-i4": {
     "name": "Su",
-    "standardAmount": "360 ml"
+    "standardAmount": "1 1/2 su bardağı"
    },
    "w-cn-004-i5": {
-    "name": "Dana haşlama suyu",
-    "standardAmount": "240 ml"
+    "name": "Dana incik pişirme suyu",
+    "standardAmount": "1 su bardağı"
    },
    "w-cn-004-i6": {
     "name": "Ketçap",
@@ -112577,19 +112577,19 @@
    },
    "w-cn-004-i7": {
     "name": "Taze erişte",
-    "standardAmount": "225 g"
+    "standardAmount": "8 ons"
    },
    "w-cn-004-i8": {
     "name": "Kuru erişte",
-    "standardAmount": "140 g"
+    "standardAmount": "5 ons"
    },
    "w-cn-004-i9": {
-    "name": "Pak choi",
+    "name": "Bebek pak choi",
     "standardAmount": "4"
    },
    "w-cn-004-i10": {
-    "name": "Haşlanmış dana döşü",
-    "standardAmount": "240 ml (doğranmış)"
+    "name": "Kısık ateşte pişmiş dana incik",
+    "standardAmount": "1 su bardağı (doğranmış)"
    },
    "w-cn-004-i11": {
     "name": "Tuz",
@@ -112600,7 +112600,7 @@
     "standardAmount": "⅛ çay kaşığı"
    },
    "w-cn-004-i13": {
-    "name": "Çin turşusu şalgam",
+    "name": "Çin usulü turp turşusu",
     "standardAmount": "1 yemek kaşığı (isteğe bağlı)"
    },
    "w-cn-004-i14": {
@@ -112627,20 +112627,20 @@
   "title": "Luohan Zhai (Budist güveci)",
   "ingredients": {
    "w-cn-005-i1": {
-    "name": "Kurutulmuş zambak",
-    "standardAmount": "25 g"
+    "name": "Kurutulmuş zambak çiçeği",
+    "standardAmount": "25 g (1/2 su bardağı)"
    },
    "w-cn-005-i2": {
     "name": "Kurutulmuş shiitake",
-    "standardAmount": "25 g"
+    "standardAmount": "25 g (8 orta boy)"
    },
    "w-cn-005-i3": {
-    "name": "Kurutulmuş mu-er mantarı",
-    "standardAmount": "10 g"
+    "name": "Kurutulmuş kulak mantarı",
+    "standardAmount": "10 g (2 yemek kaşığı)"
    },
    "w-cn-005-i4": {
-    "name": "Maş fasulyesi vermicelli",
-    "standardAmount": "40 g"
+    "name": "Maş fasulyesi şehriyesi",
+    "standardAmount": "40 g (1 küçük demet, ıslatıldıktan sonra yaklaşık 1 su bardağı)"
    },
    "w-cn-005-i5": {
     "name": "Açık soya sosu",
@@ -112663,8 +112663,8 @@
     "standardAmount": "¼ çay kaşığı"
    },
    "w-cn-005-i10": {
-    "name": "Islatma suyu",
-    "standardAmount": "240 ml"
+    "name": "Zambak çiçeği ve mantarların ıslatma suyu",
+    "standardAmount": "1 su bardağı"
    },
    "w-cn-005-i11": {
     "name": "Susam yağı",
@@ -112695,20 +112695,20 @@
     "standardAmount": "1 (halka doğranmış)"
    },
    "w-cn-005-i18": {
-    "name": "Kızarmış tofu",
+    "name": "Kızarmış tofu topları",
     "standardAmount": "10 adet (ikiye bölünmüş)"
    },
    "w-cn-005-i19": {
-    "name": "Pak choi",
+    "name": "Bebek pak choi",
     "standardAmount": "4 (dörde bölünmüş)"
    },
    "w-cn-005-i20": {
     "name": "Çin lahanası",
-    "standardAmount": "230 g (doğranmış)"
+    "standardAmount": "230 g (4 su bardağı, doğranmış)"
    },
    "w-cn-005-i21": {
     "name": "Bambu filizi",
-    "standardAmount": "120 g (halka doğranmış)"
+    "standardAmount": "1/2 su bardağı (dilimlenmiş)"
    }
   },
   "instructions": {
@@ -112732,7 +112732,7 @@
   "ingredients": {
    "w-cn-006-i1": {
     "name": "İpek tofu",
-    "standardAmount": "1 paket (450 g)"
+    "standardAmount": "1 kalıp (16 ons / 450 g)"
    },
    "w-cn-006-i2": {
     "name": "Yüz yıllık yumurta",
@@ -112766,14 +112766,14 @@
   "ingredients": {
    "w-cn-007-i1": {
     "name": "Tavuk suyu",
-    "standardAmount": "120 ml"
+    "standardAmount": "1/2 su bardağı"
    },
    "w-cn-007-i2": {
     "name": "Ketçap",
-    "standardAmount": "60 ml"
+    "standardAmount": "1/4 su bardağı"
    },
    "w-cn-007-i3": {
-    "name": "Açık soya sosu",
+    "name": "Soya sosu",
     "standardAmount": "1 yemek kaşığı"
    },
    "w-cn-007-i4": {
@@ -112794,7 +112794,7 @@
    },
    "w-cn-007-i8": {
     "name": "Soya filizi",
-    "standardAmount": "80 g"
+    "standardAmount": "1/3 su bardağı"
    },
    "w-cn-007-i9": {
     "name": "Jalapeño",
@@ -112806,7 +112806,7 @@
    },
    "w-cn-007-i11": {
     "name": "Karides",
-    "standardAmount": "haşlanmış ve kıyılmış, 240 ml"
+    "standardAmount": "1 su bardağı haşlanmış ve doğranmış karides"
    },
    "w-cn-007-i12": {
     "name": "Tuz",
@@ -112832,23 +112832,23 @@
   "chapter": "مطبخ الصين"
  },
  "w-cn-008": {
-  "title": "Çin yumurtalı tartları",
+  "title": "Çin usulü yumurtalı tart",
   "ingredients": {
    "w-cn-008-i1": {
     "name": "Buğday unu",
-    "standardAmount": "360 g + 240 g"
+    "standardAmount": "1 1/2 su bardağı + 1 su bardağı"
    },
    "w-cn-008-i2": {
-    "name": "Soğuk tereyağı",
+    "name": "Soğuk tuzsuz tereyağı",
     "standardAmount": "7 yemek kaşığı"
    },
    "w-cn-008-i3": {
-    "name": "Yumuşak tereyağı",
+    "name": "Yumuşamış tuzsuz tereyağı",
     "standardAmount": "3 yemek kaşığı"
    },
    "w-cn-008-i4": {
     "name": "Şeker",
-    "standardAmount": "4 yemek kaşığı + 60 ml"
+    "standardAmount": "4 yemek kaşığı + 1/4 su bardağı"
    },
    "w-cn-008-i5": {
     "name": "Tuz",
@@ -112860,23 +112860,23 @@
    },
    "w-cn-008-i7": {
     "name": "Buzlu su",
-    "standardAmount": "60 ml"
+    "standardAmount": "1/4 su bardağı"
    },
    "w-cn-008-i8": {
     "name": "Sıcak su",
-    "standardAmount": "200 ml"
+    "standardAmount": "5/6 su bardağı"
    },
    "w-cn-008-i9": {
-    "name": "Koyulaştırılmış süt",
-    "standardAmount": "120 ml"
+    "name": "Buharlaştırılmış süt (şekersiz)",
+    "standardAmount": "1/2 su bardağı"
    },
    "w-cn-008-i10": {
     "name": "Tırtıklı kalıp",
-    "standardAmount": "11 cm"
+    "standardAmount": "4 1/2 inç"
    },
    "w-cn-008-i11": {
     "name": "Tart kalıpları",
-    "standardAmount": "taban >5 cm, ağız 7,5 cm"
+    "standardAmount": "taban 2 inç+, iç kenar için üst 3 inç, dış kenar için 3,3 inç"
    }
   },
   "instructions": {
@@ -112895,7 +112895,7 @@
   "ingredients": {
    "w-cn-009-i1": {
     "name": "Yapışkan pirinç unu",
-    "standardAmount": "240 ml"
+    "standardAmount": "1 su bardağı"
    },
    "w-cn-009-i2": {
     "name": "Pirinç unu",
@@ -112903,10 +112903,10 @@
    },
    "w-cn-009-i3": {
     "name": "Ilık su",
-    "standardAmount": "120 ml"
+    "standardAmount": "1/2 su bardağı veya ayarlamak için biraz daha"
    },
    "w-cn-009-i4": {
-    "name": "Çekilmiş fıstık",
+    "name": "Ezilmiş yer fıstığı",
     "standardAmount": "20 g"
    },
    "w-cn-009-i5": {
@@ -112919,7 +112919,7 @@
    },
    "w-cn-009-i7": {
     "name": "Su",
-    "standardAmount": "240 ml"
+    "standardAmount": "1 su bardağı"
    },
    "w-cn-009-i8": {
     "name": "Esmer şeker",
@@ -112945,11 +112945,11 @@
   "ingredients": {
    "w-cn-010-i1": {
     "name": "Bütün tavuk",
-    "standardAmount": "1,2-1,4 kg"
+    "standardAmount": "2,5-3 libre"
    },
    "w-cn-010-i2": {
     "name": "Zencefil",
-    "standardAmount": "başparmak büyüklüğünde parça"
+    "standardAmount": "1 başparmak büyüklüğünde parça"
    },
    "w-cn-010-i3": {
     "name": "Taze soğan",
@@ -112989,18 +112989,18 @@
    },
    "w-cn-010-i12": {
     "name": "Yasemin pirinci",
-    "standardAmount": "400 g"
+    "standardAmount": "2 su bardağı"
    },
    "w-cn-010-i13": {
     "name": "Tavuk suyu",
-    "standardAmount": "720 ml"
+    "standardAmount": "3 su bardağı"
    },
    "w-cn-010-i14": {
     "name": "Tay biberi",
     "standardAmount": "3"
    },
    "w-cn-010-i15": {
-    "name": "Kırmızı biber",
+    "name": "Kırmızı dolmalık biber",
     "standardAmount": "¼"
    },
    "w-cn-010-i16": {
@@ -113021,7 +113021,7 @@
    },
    "w-cn-010-i20": {
     "name": "Misket limonu suyu",
-    "standardAmount": "80 ml"
+    "standardAmount": "1/3 su bardağı"
    },
    "w-cn-010-i21": {
     "name": "Açık soya sosu",
@@ -113061,23 +113061,23 @@
   "ingredients": {
    "w-cn-011-i1": {
     "name": "Susam ezmesi",
-    "standardAmount": "60 ml"
+    "standardAmount": "1/4 su bardağı"
    },
    "w-cn-011-i2": {
     "name": "Su",
-    "standardAmount": "60 ml"
+    "standardAmount": "1/4 su bardağı"
    },
    "w-cn-011-i3": {
     "name": "Kırmızı fermente tofu",
     "standardAmount": "1 küp"
    },
    "w-cn-011-i4": {
-    "name": "Soğan çiçeği ezmesi",
+    "name": "Çin usulü fermente pırasa çiçeği sosu",
     "standardAmount": "2-3 çay kaşığı (isteğe bağlı)"
    },
    "w-cn-011-i5": {
-    "name": "Açık soya sosu",
-    "standardAmount": "2 çay kaşığı (isteğe bağlı)"
+    "name": "Soya sosu",
+    "standardAmount": "2 çay kaşığı (veya damak tadına göre)"
    },
    "w-cn-011-i6": {
     "name": "Susam yağı",
@@ -113109,7 +113109,7 @@
    },
    "w-cn-012-i2": {
     "name": "Çiğ fıstık",
-    "standardAmount": "80 g"
+    "standardAmount": "1/3 su bardağı"
    },
    "w-cn-012-i3": {
     "name": "Tavuk göğsü",
@@ -113136,12 +113136,12 @@
     "standardAmount": "4 yemek kaşığı"
    },
    "w-cn-012-i9": {
-    "name": "Taze soğan",
-    "standardAmount": "80 g (doğranmış)"
+    "name": "Çin taze soğanı",
+    "standardAmount": "1/3 su bardağı, doğranmış"
    },
    "w-cn-012-i10": {
     "name": "Salatalık",
-    "standardAmount": "120 ml küp doğranmış"
+    "standardAmount": "1/2 su bardağı, küp doğranmış"
    }
   },
   "instructions": {
@@ -113161,7 +113161,7 @@
   "ingredients": {
    "w-cn-013-i1": {
     "name": "Yapışkan pirinç",
-    "standardAmount": "150 g"
+    "standardAmount": "150 g (5 ons)"
    },
    "w-cn-013-i2": {
     "name": "Beyaz şeker",
@@ -113172,8 +113172,8 @@
     "standardAmount": "400 g"
    },
    "w-cn-013-i4": {
-    "name": "Şeker kamışı kristali",
-    "standardAmount": "100 g"
+    "name": "Kaya şekeri",
+    "standardAmount": "100 g (3,5 ons)"
    },
    "w-cn-013-i5": {
     "name": "Esmer şeker",
@@ -113224,7 +113224,7 @@
     "standardAmount": "130 g"
    },
    "w-cn-014-i6": {
-    "name": "Hurma (isteğe bağlı)",
+    "name": "Hünnap (isteğe bağlı)",
     "standardAmount": "4"
    }
   },
@@ -113246,11 +113246,11 @@
   "ingredients": {
    "w-cn-015-i1": {
     "name": "Tavuk suyu",
-    "standardAmount": "120 ml"
+    "standardAmount": "1/2 su bardağı"
    },
    "w-cn-015-i2": {
     "name": "Ketçap",
-    "standardAmount": "60 ml"
+    "standardAmount": "1/4 su bardağı"
    },
    "w-cn-015-i3": {
     "name": "Açık soya sosu",
@@ -113270,7 +113270,7 @@
    },
    "w-cn-015-i7": {
     "name": "Kabuksuz istiridye",
-    "standardAmount": "225 g"
+    "standardAmount": "1/2 libre"
    },
    "w-cn-015-i8": {
     "name": "Fıstık yağı",
@@ -113350,23 +113350,23 @@
   "chapter": "مطبخ الصين"
  },
  "w-cn-017": {
-  "title": "Kırmızı fasulye ezmeli yapışkan pirinç pankeki",
+  "title": "Kırmızı fasulye ezmeli yapışkan pirinç keki",
   "ingredients": {
    "w-cn-017-i1": {
     "name": "Kırmızı fasulye ezmesi",
-    "standardAmount": "420 g"
+    "standardAmount": "420 g (1 1/2 su bardağı)"
    },
    "w-cn-017-i2": {
     "name": "Yapışkan pirinç unu",
-    "standardAmount": "250 g"
+    "standardAmount": "250 g (2 1/4 su bardağı)"
    },
    "w-cn-017-i3": {
     "name": "Su",
-    "standardAmount": "225 ml"
+    "standardAmount": "225 ml (1 su bardağı eksi 1 yemek kaşığı)"
    },
    "w-cn-017-i4": {
     "name": "Kavrulmuş beyaz susam",
-    "standardAmount": "60 ml"
+    "standardAmount": "1/4 su bardağı"
    },
    "w-cn-017-i5": {
     "name": "Bitkisel yağ",
@@ -113392,7 +113392,7 @@
    },
    "w-cn-018-i2": {
     "name": "Soya sosu",
-    "standardAmount": "180 ml"
+    "standardAmount": "3/4 su bardağı"
    },
    "w-cn-018-i3": {
     "name": "Esmer şeker",
@@ -113412,7 +113412,7 @@
    },
    "w-cn-018-i7": {
     "name": "Su",
-    "standardAmount": "720-960 ml"
+    "standardAmount": "3-4 su bardağı"
    }
   },
   "instructions": {
@@ -113425,11 +113425,11 @@
   "chapter": "مطبخ الصين"
  },
  "w-cn-019": {
-  "title": "Fıstık soslu tavuklu börek",
+  "title": "Fıstık soslu tavuklu pirinç kâğıdı sarması",
   "ingredients": {
    "w-cn-019-i1": {
     "name": "Tavuk göğsü",
-    "standardAmount": "450 g"
+    "standardAmount": "1 libre"
    },
    "w-cn-019-i2": {
     "name": "Bitkisel yağ",
@@ -113445,7 +113445,7 @@
    },
    "w-cn-019-i5": {
     "name": "Tuzsuz fıstık ezmesi",
-    "standardAmount": "4 dolu yemek kaşığı"
+    "standardAmount": "4 tepeleme yemek kaşığı"
    },
    "w-cn-019-i6": {
     "name": "Chinkiang sirkesi",
@@ -113477,7 +113477,7 @@
    },
    "w-cn-019-i13": {
     "name": "Yuvarlak pirinç yufkası",
-    "standardAmount": "12 (22 cm)"
+    "standardAmount": "12 yaprak (8 inç / 22 cm)"
    },
    "w-cn-019-i14": {
     "name": "Salatalık",
@@ -113545,7 +113545,7 @@
    },
    "w-cn-020-i7": {
     "name": "Su",
-    "standardAmount": "120 ml"
+    "standardAmount": "120 ml (yumurtanın büyüklüğüne göre ayarlamak için +5 ml)"
    },
    "w-cn-020-i8": {
     "name": "Bitkisel yağ",
@@ -113582,14 +113582,14 @@
    },
    "w-cn-021-i2": {
     "name": "Yapışkan pirinç",
-    "standardAmount": "400 g"
+    "standardAmount": "2 su bardağı (400 g)"
    },
    "w-cn-021-i3": {
     "name": "Kırmızı fasulye ezmesi",
-    "standardAmount": "240 ml"
+    "standardAmount": "1 su bardağı"
    },
    "w-cn-021-i4": {
-    "name": "Pamuk ipi",
+    "name": "Pamuk ip veya ince saplar",
     "standardAmount": "gerektiği kadar"
    }
   },
@@ -113608,27 +113608,27 @@
   "title": "Bouillabaisse",
   "ingredients": {
    "w-fr-001-i1": {
-    "name": "İskorpit",
+    "name": "Öksüz balığı",
     "standardAmount": "660 g"
    },
    "w-fr-001-i2": {
-    "name": "Kırlangıç balığı",
+    "name": "İskorpit",
     "standardAmount": "660 g"
    },
    "w-fr-001-i3": {
-    "name": "Barbunya",
+    "name": "Kırmızı kırlangıç balığı",
     "standardAmount": "660 g"
    },
    "w-fr-001-i4": {
-    "name": "Yılan balığı",
+    "name": "Mığrı balığı",
     "standardAmount": "660 g"
    },
    "w-fr-001-i5": {
-    "name": "Dil balığı",
+    "name": "Fener balığı",
     "standardAmount": "660 g"
    },
    "w-fr-001-i6": {
-    "name": "Kaya balığı",
+    "name": "Dülger balığı",
     "standardAmount": "660 g"
    },
    "w-fr-001-i7": {
@@ -113657,7 +113657,7 @@
    },
    "w-fr-001-i13": {
     "name": "Zeytinyağı",
-    "standardAmount": "240 ml"
+    "standardAmount": "1 su bardağı"
    },
    "w-fr-001-i14": {
     "name": "Buke garni",
@@ -113732,22 +113732,22 @@
    },
    "w-fr-002-i8": {
     "name": "Kalamar",
-    "standardAmount": "450 g"
+    "standardAmount": "1 libre"
    },
    "w-fr-002-i9": {
     "name": "Un",
-    "standardAmount": "1 büyük kase"
+    "standardAmount": "büyük bir kase dolusu"
    },
    "w-fr-002-i10": {
     "name": "Kızartma yağı",
-    "standardAmount": "tavada 2,5 cm"
+    "standardAmount": "yeterli miktarda (tavada en az 1 inç derinlikte)"
    },
    "w-fr-002-i11": {
     "name": "Taze limon suyu",
     "standardAmount": "damak tadına göre"
    },
    "w-fr-002-i12": {
-    "name": "Tuz, biber, kuru kekik",
+    "name": "Tuz, biber ve kuru Yunan kekiği",
     "standardAmount": "damak tadına göre"
    }
   },
@@ -113771,15 +113771,15 @@
   "ingredients": {
    "w-fr-003-i1": {
     "name": "Badem",
-    "standardAmount": "200 g"
+    "standardAmount": "7 ons"
    },
    "w-fr-003-i2": {
     "name": "Pudra şekeri",
-    "standardAmount": "200 g"
+    "standardAmount": "7 ons"
    },
    "w-fr-003-i3": {
     "name": "Bal",
-    "standardAmount": "100 g"
+    "standardAmount": "3,5 ons"
    },
    "w-fr-003-i4": {
     "name": "Tarçın",
@@ -113791,11 +113791,11 @@
    },
    "w-fr-003-i6": {
     "name": "Kuru üzüm",
-    "standardAmount": "50 g"
+    "standardAmount": "1,75 ons"
    },
    "w-fr-003-i7": {
     "name": "Un",
-    "standardAmount": "100 g"
+    "standardAmount": "3,5 ons"
    },
    "w-fr-003-i8": {
     "name": "Yumurta",
@@ -113831,7 +113831,7 @@
    },
    "w-fr-004-i4": {
     "name": "Tuz",
-    "standardAmount": "1 cömert tutam"
+    "standardAmount": "bol bir tutam"
    }
   },
   "instructions": {
@@ -113849,11 +113849,11 @@
   "ingredients": {
    "w-fr-005-i1": {
     "name": "Ördek butları",
-    "standardAmount": "4 (250'şer g)"
+    "standardAmount": "4 adet (her biri 250 g / 8 ons)"
    },
    "w-fr-005-i2": {
     "name": "Ördek yağı",
-    "standardAmount": "750 ml"
+    "standardAmount": "750 ml / 25 ons"
    },
    "w-fr-005-i3": {
     "name": "Tuz",
@@ -113872,7 +113872,7 @@
     "standardAmount": "⅓ su bardağı"
    },
    "w-fr-005-i7": {
-    "name": "Mercanköşk",
+    "name": "İzmir kekiği dalları",
     "standardAmount": "⅓ su bardağı"
    },
    "w-fr-005-i8": {
@@ -113881,7 +113881,7 @@
    },
    "w-fr-005-i9": {
     "name": "Şalot",
-    "standardAmount": "1 (ince dilimli)"
+    "standardAmount": "1 (0,7 cm / 1/3 inç kalınlığında dilimlenmiş)"
    },
    "w-fr-005-i10": {
     "name": "Tane karabiber",
@@ -113926,15 +113926,15 @@
   "ingredients": {
    "w-fr-006-i1": {
     "name": "Un",
-    "standardAmount": "350 g"
+    "standardAmount": "350 g (12 ons/ 3 su bardağı)"
    },
    "w-fr-006-i2": {
     "name": "Tereyağı",
-    "standardAmount": "175 g (oda sıcaklığı)"
+    "standardAmount": "175 g (6 ons / ¾ su bardağı) (yumuşatılmış)"
    },
    "w-fr-006-i3": {
     "name": "Tuz",
-    "standardAmount": "1 tutam"
+    "standardAmount": "bir tutam"
    },
    "w-fr-006-i4": {
     "name": "Süt",
@@ -113946,11 +113946,11 @@
    },
    "w-fr-006-i6": {
     "name": "Pırasa",
-    "standardAmount": "900 g (ince kıyılmış)"
+    "standardAmount": "900 g (2 libre) (yaklaşık 4-5 orta boy) (doğranmış)"
    },
    "w-fr-006-i7": {
     "name": "Tereyağı",
-    "standardAmount": "40 g"
+    "standardAmount": "40 g (1,5 ons/ 3 yemek kaşığı)"
    },
    "w-fr-006-i8": {
     "name": "Yumurta sarısı",
@@ -113958,15 +113958,15 @@
    },
    "w-fr-006-i9": {
     "name": "Crème fraîche",
-    "standardAmount": "200 g"
+    "standardAmount": "200 g (7 ons / ¾ su bardağı) %12 yağlı (veya krema / sade Yunan yoğurdu)"
    },
    "w-fr-006-i10": {
-    "name": "Hindistan cevizi (muscat)",
+    "name": "Taze rendelenmiş muskat",
     "standardAmount": "¼ çay kaşığı"
    },
    "w-fr-006-i11": {
     "name": "Tuz ve karabiber",
-    "standardAmount": "1 tutam"
+    "standardAmount": "bir tutam"
    }
   },
   "instructions": {
@@ -113991,7 +113991,7 @@
   "ingredients": {
    "w-fr-007-i1": {
     "name": "Büyük unlu patates",
-    "standardAmount": "4 (400'er g)"
+    "standardAmount": "4 adet (her biri 400 g / 14 ons)"
    },
    "w-fr-007-i2": {
     "name": "Tuz",
@@ -114015,7 +114015,7 @@
    },
    "w-fr-007-i7": {
     "name": "Tavuk veya sebze suyu",
-    "standardAmount": "240 ml (düşük tuzlu)"
+    "standardAmount": "1 su bardağı (az tuzlu veya sebze suyu)"
    }
   },
   "instructions": {
@@ -114034,11 +114034,11 @@
   "ingredients": {
    "w-fr-008-i1": {
     "name": "Tuzsuz tereyağı",
-    "standardAmount": "25 g"
+    "standardAmount": "25 g (1 ons / 2 yemek kaşığı)"
    },
    "w-fr-008-i2": {
     "name": "Un",
-    "standardAmount": "150 g"
+    "standardAmount": "150 g (5 ons / 1 su bardağı)"
    },
    "w-fr-008-i3": {
     "name": "Yumurta",
@@ -114046,11 +114046,11 @@
    },
    "w-fr-008-i4": {
     "name": "Tam yağlı süt",
-    "standardAmount": "275 ml"
+    "standardAmount": "275 ml (10 sıvı ons)"
    },
    "w-fr-008-i5": {
     "name": "Tuz",
-    "standardAmount": "1 tutam"
+    "standardAmount": "bir tutam"
    },
    "w-fr-008-i6": {
     "name": "Vanilya tozu",
@@ -114081,35 +114081,35 @@
   "ingredients": {
    "w-fr-009-i1": {
     "name": "Bitter çikolata",
-    "standardAmount": "285 g"
+    "standardAmount": "285 g (10 ons)"
    },
    "w-fr-009-i2": {
     "name": "Tuzsuz tereyağı",
-    "standardAmount": "30 g"
+    "standardAmount": "30 g (2 yemek kaşığı)"
    },
    "w-fr-009-i3": {
     "name": "Krema",
-    "standardAmount": "125 ml"
+    "standardAmount": "125 ml (1/2 su bardağı)"
    },
    "w-fr-009-i4": {
     "name": "Rendelenmiş hindistan cevizi",
-    "standardAmount": "125 g"
+    "standardAmount": "125 g (1/2 su bardağı)"
    },
    "w-fr-009-i5": {
     "name": "Şekersiz kakao",
-    "standardAmount": "60 g"
+    "standardAmount": "60 g (1/4 su bardağı)"
    },
    "w-fr-009-i6": {
     "name": "Çekilmiş yer fıstığı",
-    "standardAmount": "125 g"
+    "standardAmount": "125 g (1/2 su bardağı)"
    },
    "w-fr-009-i7": {
     "name": "Renkli şekerlemeler",
-    "standardAmount": "85 g"
+    "standardAmount": "85 g (1/3 su bardağı)"
    },
    "w-fr-009-i8": {
     "name": "Pudra şekeri",
-    "standardAmount": "60 g"
+    "standardAmount": "60 g (1/4 su bardağı)"
    }
   },
   "instructions": {
@@ -114129,7 +114129,7 @@
   "ingredients": {
    "w-fr-010-i1": {
     "name": "Patates",
-    "standardAmount": "750 g"
+    "standardAmount": "750 g (1 libre 10 ons)"
    },
    "w-fr-010-i2": {
     "name": "Sarımsak",
@@ -114137,14 +114137,14 @@
    },
    "w-fr-010-i3": {
     "name": "Tam yağlı süt",
-    "standardAmount": "275 ml"
+    "standardAmount": "275 ml (10 sıvı ons/ 1 su bardağı)"
    },
    "w-fr-010-i4": {
     "name": "Koyu krema",
-    "standardAmount": "150 ml"
+    "standardAmount": "150 ml (5,5 sıvı ons/ 0,6 su bardağı)"
    },
    "w-fr-010-i5": {
-    "name": "Muscat",
+    "name": "Muskat",
     "standardAmount": "¼ çay kaşığı"
    },
    "w-fr-010-i6": {
@@ -114161,7 +114161,7 @@
    },
    "w-fr-010-i9": {
     "name": "Emmental veya Gruyère",
-    "standardAmount": "100 g (isteğe bağlı)"
+    "standardAmount": "100 g (3,5 ons / 1 su bardağı) (ince rendelenmiş) (isteğe bağlı)"
    }
   },
   "instructions": {
@@ -114180,11 +114180,11 @@
   "ingredients": {
    "w-fr-011-i1": {
     "name": "Su",
-    "standardAmount": "250 ml"
+    "standardAmount": "9 sıvı ons / 1 su bardağı"
    },
    "w-fr-011-i2": {
     "name": "Bal",
-    "standardAmount": "255 g"
+    "standardAmount": "9 ons / 2/3 su bardağı"
    },
    "w-fr-011-i3": {
     "name": "Kakule kapsülü",
@@ -114200,15 +114200,15 @@
    },
    "w-fr-011-i6": {
     "name": "Esmer kamış şekeri",
-    "standardAmount": "100 g"
+    "standardAmount": "3,5 ons / ½ su bardağı"
    },
    "w-fr-011-i7": {
     "name": "Tuzsuz tereyağı",
-    "standardAmount": "155 g"
+    "standardAmount": "5,5 ons / 2/3 su bardağı"
    },
    "w-fr-011-i8": {
     "name": "Çavdar unu",
-    "standardAmount": "255 g"
+    "standardAmount": "9 ons / 2 su bardağı"
    },
    "w-fr-011-i9": {
     "name": "Kabartma tozu",
@@ -114216,14 +114216,14 @@
    },
    "w-fr-011-i10": {
     "name": "Tuz",
-    "standardAmount": "1 cömert tutam"
+    "standardAmount": "bol bir tutam"
    },
    "w-fr-011-i11": {
-    "name": "Baharat karışımı",
+    "name": "Zencefilli kek baharatı",
     "standardAmount": "1½ çay kaşığı"
    },
    "w-fr-011-i12": {
-    "name": "Kuruyemiş",
+    "name": "Şekerlenmiş meyve",
     "standardAmount": "1 yemek kaşığı"
    }
   },
@@ -114246,11 +114246,11 @@
    },
    "w-fr-012-i2": {
     "name": "Soğan",
-    "standardAmount": "1 kg (çok ince dilimli)"
+    "standardAmount": "1 kg, ikiye bölünmüş ve olabildiğince ince dilimlenmiş"
    },
    "w-fr-012-i3": {
     "name": "Kekik",
-    "standardAmount": "1 küçük demet"
+    "standardAmount": "küçük bir demet + servis için ekstra küçük dallar"
    },
    "w-fr-012-i4": {
     "name": "Defne yaprağı",
@@ -114315,12 +114315,12 @@
     "standardAmount": "1 büyük (ince dilimli)"
    },
    "w-fr-013-i3": {
-    "name": "Kırmızı biber",
-    "standardAmount": "1 (parçalı)"
+    "name": "Kırmızı dolmalık biber",
+    "standardAmount": "1, 1 inçlik parçalar halinde doğranmış"
    },
    "w-fr-013-i4": {
-    "name": "Sarı biber",
-    "standardAmount": "1 (parçalı)"
+    "name": "Sarı dolmalık biber",
+    "standardAmount": "1, 1 inçlik parçalar halinde doğranmış"
    },
    "w-fr-013-i5": {
     "name": "Sarımsak",
@@ -114328,7 +114328,7 @@
    },
    "w-fr-013-i6": {
     "name": "Kabak",
-    "standardAmount": "680 g (dilimli)"
+    "standardAmount": "1 1/2 libre, halka halinde dilimlenmiş"
    },
    "w-fr-013-i7": {
     "name": "Patlıcan",
@@ -114378,7 +114378,7 @@
    },
    "w-fr-014-i3": {
     "name": "Zeytinyağı",
-    "standardAmount": "80 ml"
+    "standardAmount": "1/3 su bardağı"
    },
    "w-fr-014-i4": {
     "name": "Taze limon suyu",
@@ -114398,23 +114398,23 @@
    },
    "w-fr-014-i8": {
     "name": "Küçük taze patates",
-    "standardAmount": "450 g (haşlanmış)"
+    "standardAmount": "1 libre (haşlanmış)"
    },
    "w-fr-014-i9": {
     "name": "Yeşil fasulye",
-    "standardAmount": "225 g (hafif haşlanmış)"
+    "standardAmount": "8 ons (hafif haşlanmış)"
    },
    "w-fr-014-i10": {
     "name": "Kiraz domates",
-    "standardAmount": "340 g (ikiye bölünmüş)"
+    "standardAmount": "12 ons (ikiye bölünmüş)"
    },
    "w-fr-014-i11": {
     "name": "Siyah zeytin (niçoise)",
-    "standardAmount": "120 ml"
+    "standardAmount": "1/2 su bardağı (bölünmüş)"
    },
    "w-fr-014-i12": {
     "name": "Marinelenmiş enginar",
-    "standardAmount": "225 g"
+    "standardAmount": "8 ons (bölünmüş)"
    },
    "w-fr-014-i13": {
     "name": "Ançuez",
@@ -114430,7 +114430,7 @@
    },
    "w-fr-014-i16": {
     "name": "Yağlı konserve ton balığı",
-    "standardAmount": "3 kutu (115'er g, süzdürülmüş)"
+    "standardAmount": "3 adet 4 onsluk kutu (süzülmüş)"
    },
    "w-fr-014-i17": {
     "name": "Kırmızı soğan",
@@ -114505,7 +114505,7 @@
   "ingredients": {
    "w-vn-002-i1": {
     "name": "Yağlı dana kıyması",
-    "standardAmount": "340 g"
+    "standardAmount": "12 ons"
    },
    "w-vn-002-i2": {
     "name": "Kıyılmış şalot",
@@ -114525,7 +114525,7 @@
    },
    "w-vn-002-i6": {
     "name": "Balık sosu",
-    "standardAmount": "2 yemek kaşığı"
+    "standardAmount": "2 çay kaşığı"
    },
    "w-vn-002-i7": {
     "name": "İstiridye sosu",
@@ -114699,7 +114699,7 @@
    },
    "w-vn-005-i11": {
     "name": "Kuru pirinç yufkası",
-    "standardAmount": "170 g"
+    "standardAmount": "6 ons"
    },
    "w-vn-005-i12": {
     "name": "Vietnam acı yağı",
@@ -114748,7 +114748,7 @@
   "ingredients": {
    "w-vn-006-i1": {
     "name": "Yapışkan pirinç unu",
-    "standardAmount": "450 g"
+    "standardAmount": "16 ons"
    },
    "w-vn-006-i2": {
     "name": "Sıcak su",
@@ -114760,7 +114760,7 @@
    },
    "w-vn-006-i4": {
     "name": "Şeker",
-    "standardAmount": "2 yemek kaşığı"
+    "standardAmount": "2 çay kaşığı"
    },
    "w-vn-006-i5": {
     "name": "Tuz",
@@ -114772,11 +114772,11 @@
    },
    "w-vn-006-i7": {
     "name": "Taze zencefil",
-    "standardAmount": "10 cm"
+    "standardAmount": "4 inç"
    },
    "w-vn-006-i8": {
     "name": "Palm şekeri",
-    "standardAmount": "280 g"
+    "standardAmount": "10 ons"
    },
    "w-vn-006-i9": {
     "name": "Hindistan cevizi sütü",
@@ -114805,7 +114805,7 @@
   "ingredients": {
    "w-vn-007-i1": {
     "name": "Bitkisel jöle tozu",
-    "standardAmount": "50 g"
+    "standardAmount": "1.8 ons"
    },
    "w-vn-007-i2": {
     "name": "Şeker",

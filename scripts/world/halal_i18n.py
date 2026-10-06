@@ -38,20 +38,27 @@ TERMS = {
     'Sv': r'fl[aä]sk\w*|gris\w*|bacon|ister|skinka|vin|[oö]l|rom|lik[oö]r|tj[aä]der|hästkött|hundkött',
     'Tr': r'domuz|jambon|[şs]arap|bira|rom|lik[oö]r|rak[ıi]|at eti|k[oö]pek',
     'Id': r'babi(?! laut)|lemak babi|ham|anggur merah|bir|rum|arak|tuak|kuda|anjing',
-    'Sw': r'nguruwe|bekoni|divai|mvinyo|bia|pombe|ramu|farasi|mbwa',
+    'Sw': r'nguruwe|bekoni|divai|mvinyo|bia|pombe|ramu|farasi|mbwa|punda',
     'Ku': r'beraz|[şs]erab|b[iî]re|araq|hesp|kûçik|se',  # not "bîra": also "memory"
     'Ru': r'свин\w*|сало|бекон|ветчин\w*|вин[оа]|пив\w*|ром|ликёр\w*|водк\w*|коньяк\w*|медвеж\w*|конин\w*|собач\w*',
-    'El': r'χοιρ\w*|μπέικον|ζαμπόν|κρασ[ίι]\w*|μπύρα|ρούμι|λικέρ|ούζο|αρκούδ\w*|άλογ\w*|σκύλ\w*',
+    'El': r'χοιρ\w*|μπέικον|ζαμπόν|κρασ[ίι]\w*|μπύρα|ρούμι|λικέρ|ούζο|αρκούδ\w*|άλογ\w*|σκύλ\w*|οίν\w*|οιν[οό]\w*',
     'He': r'חזיר|בייקון|שומן חזיר|יין|בירה|רום|ליקר|דוב|סוס|כלב',
     'Fa': r'خوک|گوشت خوک|بیکن|ژامبون|شراب|آبجو|الکل|عرق|خرس|اسب|سگ',
     'Ur': r'سور|خنزیر|بیکن|شراب|بیئر|الکحل|تاڑی|بھنگ|ریچھ|گھوڑ\w*|کت[اے]',
     'Ps': r'خنزیر|سوږر|بیکن|شراب|بیر|الکول|خرس|آس|سپی',
     'Hi': r'सूअर|पोर्क|बेकन|हैम|शराब|वाइन|बीयर|रम|ताड़ी|भांग|भालू|घोड़\w*|कुत्त\w*',
-    'Te': r'పంది|బేకన్|హామ్|వైన్|బీర్|మద్యం|సారాయి|కల్లు|ఎలుగుబంటి|గుర్రం|కుక్క',
+    'Te': r'పంది[\u0C00-\u0C7F]*|బేకన్|హామ్|వైన్|బీర్|మద్యం|సారాయి|కల్లు[\u0C00-\u0C7F]*|ఎలుగుబంటి|గుర్ర[\u0C00-\u0C7F]*|కుక్క(?:లు|ల|ను|కు)?(?:\s*మాంసం)?',
     'Ja': r'豚|ポーク|ベーコン|ハム|ラード|日本酒|料理酒|みりん|味醂|ワイン|ビール|ラム酒|焼酎|熊|馬肉|犬',
     'Zh': r'猪|豬|培根|火腿|猪油|料酒|黄酒|米酒|白酒|啤酒|葡萄酒|朗姆|熊|马肉|狗',
     'Ko': r'돼지|베이컨|햄|라드|청주|정종|맛술|미림|소주|와인|맥주|럼주|곰고기|말고기|개고기',
 }
+# Offensive words that mistranslation has produced (not halal, but must never
+# appear): Hebrew "oz" as אונס (rape), Swahili sugar as "kafiri" (infidel) and
+# "shoga", Hindi "floured" as दलित (a caste name).
+OFFENSIVE = {'He': r'אונס', 'Sw': r'kafiri|shoga', 'Hi': r'दलित'}
+for _l, _t in OFFENSIVE.items():
+    TERMS[_l] = TERMS[_l] + '|' + _t
+
 # Words that contain a term but are fine.
 ALLOW = {
     'Sv': {'vinäger', 'vinägern', 'vindruvor'},
@@ -71,17 +78,28 @@ INDIC = {'Hi': '\u0900-\u097F', 'Te': '\u0C00-\u0C7F'}
 ARABIC = {'Fa', 'Ur', 'Ps'}
 
 
+# Compounding languages glue words together ("bonitofläsk" = bonito pork,
+# "Schweinefilet"), so these stems also match inside a word.
+COMPOUND = {'Sv': 'fläsk|skink|gris(?:kött|fett)|vinsvinäger|vitvinäger', 'De': 'schwein|schmalz|speck(?!s)',
+            'Nl': 'varkens?|reuzel', 'Pl': 'wieprz'}
+
+
 def pattern(lang):
     t = TERMS[lang]
+    if lang in COMPOUND:
+        t = t + '|' + r'\w*(?:' + COMPOUND[lang] + r')\w*'
     if lang in NON_SPACED:
         return re.compile(t)
     if lang in INDIC:
         r = INDIC[lang]
         return re.compile(f'(?<![{r}])(?:{t})(?![{r}])')
     if lang in ARABIC:
-        return re.compile(r'(?<![؀-ۿ])(?:ال)?(?:' + t + r')(?![؀-ۿ])')
+        # Letters only: Arabic punctuation (، ؛ ؟) shares the Unicode block and
+        # must still end a word ("بیکن، گوشت" = "bacon, meat" was missed).
+        letters = '\\u0620-\\u064A\\u066E-\\u06D3\\u06D5\\u06EE-\\u06FF'
+        return re.compile(f'(?<![{letters}])(?:ال)?(?:{t})(?![{letters}])')
     if lang == 'He':
-        return re.compile(r'(?<![֐-׿])[הובלמש]?(?:' + t + r')(?![֐-׿])')
+        return re.compile('(?<![\\u05D0-\\u05EA])[הובלמש]?(?:' + t + ')(?![\\u05D0-\\u05EA])')
     return re.compile(r'(?<!\w)(?:' + t + r')(?!\w)', re.I)
 
 
