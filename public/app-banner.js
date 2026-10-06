@@ -36,27 +36,72 @@
     catch (e) { return false; }
   }
 
+  // Text per site language. {d} is the device name; Arabic keeps its own
+  // per-device sentences (APPS[kind].ar). cta[1] is used for Google Play.
+  var T = {
+    en: { t: 'FiFi Recipes is also an app for your {d}', cta: ['View', 'Get it'], close: 'Close' },
+    fr: { t: 'FiFi Recipes existe aussi en application pour votre {d}', cta: ['Voir', 'Obtenir'], close: 'Fermer' },
+    es: { t: 'FiFi Recipes también está disponible como app para tu {d}', cta: ['Ver', 'Obtener'], close: 'Cerrar' },
+    ja: { t: 'FiFi Recipes は{d}向けのアプリもあります', cta: ['表示', '入手'], close: '閉じる' },
+    hi: { t: 'FiFi Recipes आपके {d} के लिए ऐप के रूप में भी उपलब्ध है', cta: ['देखें', 'पाएँ'], close: 'बंद करें' },
+    pt: { t: 'FiFi Recipes também está disponível como app para o seu {d}', cta: ['Ver', 'Obter'], close: 'Fechar' },
+    ru: { t: 'FiFi Recipes также доступно как приложение для {d}', cta: ['Открыть', 'Скачать'], close: 'Закрыть' },
+    zh: { t: 'FiFi Recipes 也有适用于 {d} 的应用', cta: ['查看', '获取'], close: '关闭' },
+    de: { t: 'FiFi Recipes gibt es auch als App für {d}', cta: ['Ansehen', 'Holen'], close: 'Schließen' },
+    it: { t: 'FiFi Recipes è disponibile anche come app per {d}', cta: ['Vedi', 'Scarica'], close: 'Chiudi' },
+    el: { t: 'Το FiFi Recipes διατίθεται και ως εφαρμογή για {d}', cta: ['Προβολή', 'Λήψη'], close: 'Κλείσιμο' },
+    ur: { t: 'FiFi Recipes آپ کے {d} کے لیے ایپ کے طور پر بھی دستیاب ہے', cta: ['کھولیں', 'حاصل کریں'], close: 'بند کریں' },
+    fa: { t: 'FiFi Recipes به‌صورت اپلیکیشن برای {d} شما هم در دسترس است', cta: ['باز کردن', 'دریافت'], close: 'بستن' },
+    tr: { t: 'FiFi Recipes, {d} için uygulama olarak da mevcut', cta: ['Görüntüle', 'İndir'], close: 'Kapat' },
+    ku: { t: 'FiFi Recipes wekî sepanek ji bo {d} jî heye', cta: ['Veke', 'Bistîne'], close: 'Bigire' },
+    id: { t: 'FiFi Recipes juga tersedia sebagai aplikasi untuk {d} Anda', cta: ['Lihat', 'Dapatkan'], close: 'Tutup' },
+    sw: { t: 'FiFi Recipes inapatikana pia kama programu ya {d} yako', cta: ['Tazama', 'Pata'], close: 'Funga' },
+    ko: { t: 'FiFi Recipes는 {d}용 앱으로도 제공됩니다', cta: ['보기', '받기'], close: '닫기' }
+  };
+  var DEVICE = { iphone: 'iPhone', ipad: 'iPad', tvos: 'Apple TV', android: 'Android', firetv: 'Fire TV' };
+  var RTL = { ar: 1, ur: 1, fa: 1, ps: 1, he: 1 };
+
+  // The page starts as lang="ar" in index.html and the app switches it to the
+  // visitor's language after it loads, so read it on every change, not once.
+  function render(bar, kind) {
+    var app = APPS[kind];
+    var lang = (document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+    var text, cta, close;
+    if (lang === 'ar') {
+      text = app.ar; cta = 'افتح'; close = 'إغلاق';
+    } else {
+      var l = T[lang] || T.en;
+      var device = (l === T.en && kind === 'android') ? 'Android device' : DEVICE[kind];
+      text = l.t.replace('{d}', device); cta = l.cta[kind === 'android' ? 1 : 0]; close = l.close;
+    }
+    bar.setAttribute('dir', RTL[lang] ? 'rtl' : 'ltr');
+    bar.setAttribute('lang', lang);
+    bar.querySelector('button').setAttribute('aria-label', close);
+    bar.querySelector('.fifi-ab-text').textContent = text;
+    bar.querySelector('a').textContent = cta;
+  }
+
   function show() {
     var kind = detect();
     if (!kind || dismissed() || document.getElementById('fifi-app-banner')) return;
     var app = APPS[kind];
-    var ar = /^ar|^ur|^fa|^ku|^ps|^he/i.test(document.documentElement.lang || '');
-    var text = ar ? app.ar : app.en;
-    var cta = ar ? 'افتح' : (kind === 'android' ? 'Get it' : 'View');
     var bar = document.createElement('div');
     bar.id = 'fifi-app-banner';
     bar.setAttribute('role', 'region');
     bar.setAttribute('aria-label', 'FiFi Recipes app');
-    bar.setAttribute('dir', ar ? 'rtl' : 'ltr');
     bar.style.cssText = 'display:flex;align-items:center;gap:10px;padding:8px 12px;background:#fdf4e3;' +
       'border-bottom:1.5px solid #f0e2c8;color:#43311f;font:600 14px/1.3 -apple-system,"Segoe UI",Roboto,sans-serif;position:relative;z-index:1000';
     bar.innerHTML =
-      '<button type="button" aria-label="' + (ar ? 'إغلاق' : 'Close') + '" style="all:unset;cursor:pointer;font-size:22px;line-height:1;padding:4px 6px;color:#6f5b41">&times;</button>' +
+      '<button type="button" style="all:unset;cursor:pointer;font-size:22px;line-height:1;padding:4px 6px;color:#6f5b41">&times;</button>' +
       '<svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" style="flex:none;color:#43311f">' + ICONS[app.icon] + '</svg>' +
-      '<span style="flex:1;min-width:0">' + text + '<br><span style="font-weight:500;color:#6f5b41;font-size:12px">' + app.store + '</span></span>' +
-      '<a href="' + app.url + '" style="flex:none;background:#4d9426;color:#fff;text-decoration:none;border-radius:999px;padding:7px 16px;font-weight:700">' + cta + '</a>';
+      '<span style="flex:1;min-width:0"><span class="fifi-ab-text"></span><br><span style="font-weight:500;color:#6f5b41;font-size:12px">' + app.store + '</span></span>' +
+      '<a href="' + app.url + '" style="flex:none;background:#4d9426;color:#fff;text-decoration:none;border-radius:999px;padding:7px 16px;font-weight:700"></a>';
+    render(bar, kind);
+    var observer = new MutationObserver(function () { render(bar, kind); });
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
     bar.querySelector('button').addEventListener('click', function () {
       try { localStorage.setItem('fifi-app-banner-dismissed', String(Date.now())); } catch (e) {}
+      observer.disconnect();
       bar.remove();
     });
     document.body.insertBefore(bar, document.body.firstChild);
