@@ -1,544 +1,2205 @@
 {
-"w-fr-001": {
+ "w-fr-001": {
   "title": "Bouillabaisse",
   "ingredients": {
-    "w-fr-001-i1": {"name": "Krabbfisk", "standardAmount": "660 g"},
-    "w-fr-001-i2": {"name": "Röd knut", "standardAmount": "660 g"},
-    "w-fr-001-i3": {"name": "Röd mullet", "standardAmount": "660 g"},
-    "w-fr-001-i4": {"name": "Ål", "standardAmount": "660 g"},
-    "w-fr-001-i5": {"name": "Marulk", "standardAmount": "660 g"},
-    "w-fr-001-i6": {"name": "Bergfisk", "standardAmount": "660 g"},
-    "w-fr-001-i7": {"name": "Bläckfisk", "standardAmount": "1 levande (valfritt)"},
-    "w-fr-001-i8": {"name": "Sjöborrar", "standardAmount": "10"},
-    "w-fr-001-i9": {"name": "Potatis", "standardAmount": "1 kg"},
-    "w-fr-001-i10": {"name": "Vitlök", "standardAmount": "7 klyftor"},
-    "w-fr-001-i11": {"name": "Lök", "standardAmount": "3"},
-    "w-fr-001-i12": {"name": "Tomater", "standardAmount": "5 mogna"},
-    "w-fr-001-i13": {"name": "Olivolja", "standardAmount": "240 ml"},
-    "w-fr-001-i14": {"name": "Bouquet garni", "standardAmount": "1 knippa"},
-    "w-fr-001-i15": {"name": "Fänkål", "standardAmount": "1 gren"},
-    "w-fr-001-i16": {"name": "Saffran", "standardAmount": "8 trådar"},
-    "w-fr-001-i17": {"name": "Lantbröd", "standardAmount": "10 skivor"},
-    "w-fr-001-i18": {"name": "Salt", "standardAmount": "efter smak"},
-    "w-fr-001-i19": {"name": "Cayennepeppar", "standardAmount": "efter smak"}
+   "w-fr-001-i1": {
+    "name": "Krabbfisk",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i2": {
+    "name": "Röd knut",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i3": {
+    "name": "Röd mullet",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i4": {
+    "name": "Ål",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i5": {
+    "name": "Marulk",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i6": {
+    "name": "Bergfisk",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i7": {
+    "name": "Bläckfisk",
+    "standardAmount": "1 levande (valfritt)"
+   },
+   "w-fr-001-i8": {
+    "name": "Sjöborrar",
+    "standardAmount": "10"
+   },
+   "w-fr-001-i9": {
+    "name": "Potatis",
+    "standardAmount": "1 kg"
+   },
+   "w-fr-001-i10": {
+    "name": "Vitlök",
+    "standardAmount": "7 klyftor"
+   },
+   "w-fr-001-i11": {
+    "name": "Lök",
+    "standardAmount": "3"
+   },
+   "w-fr-001-i12": {
+    "name": "Tomater",
+    "standardAmount": "5 mogna"
+   },
+   "w-fr-001-i13": {
+    "name": "Olivolja",
+    "standardAmount": "240 ml"
+   },
+   "w-fr-001-i14": {
+    "name": "Bouquet garni",
+    "standardAmount": "1 knippa"
+   },
+   "w-fr-001-i15": {
+    "name": "Fänkål",
+    "standardAmount": "1 gren"
+   },
+   "w-fr-001-i16": {
+    "name": "Saffran",
+    "standardAmount": "8 trådar"
+   },
+   "w-fr-001-i17": {
+    "name": "Lantbröd",
+    "standardAmount": "10 skivor"
+   },
+   "w-fr-001-i18": {
+    "name": "Salt",
+    "standardAmount": "efter smak"
+   },
+   "w-fr-001-i19": {
+    "name": "Cayennepeppar",
+    "standardAmount": "efter smak"
+   }
   },
   "instructions": {
-    "1": "Rensa fiskarna och skär i stora bitar med ben.",
-    "2": "Hetta olivoljan i en stor, djup gryta.",
-    "3": "Tillsätt lök, 6 krossade vitlöksklyftor, bläckfisk och tomater, fräs på låg värme 5 minuter.",
-    "4": "Lägg i de största fiskbitarna först, täck med kokande vatten, tillsätt salt, peppar, fänkål, bouquet garni och saffran, sjuda.",
-    "5": "Gör rouille: mortla vitlök, tillsätt saffran och äggula, vispa med olivolja lite i taget tills majonnäs.",
-    "6": "Koka potatisen i saltat vatten 15-20 minuter. Öppna sjöborrarna med sax och skopa ut köttet med sked.",
-    "7": "Lägg fisken på ett stort fat. Blanda sjöborrsköttet i soppan.",
-    "8": "Gnid brödet med vitlök och bred rouille. Minst 2 skivor per skål.",
-    "9": "Ta upp fisk och potatis ur soppan, lägg på separat fat.",
-    "10": "Häll varm soppa över rouillebrödet. Servera fisk och potatis separat."
+   "1": "Rensa fiskarna och skär i stora bitar med ben.",
+   "2": "Hetta olivoljan i en stor, djup gryta.",
+   "3": "Tillsätt lök, 6 krossade vitlöksklyftor, bläckfisk och tomater, fräs på låg värme 5 minuter.",
+   "4": "Lägg i de största fiskbitarna först, täck med kokande vatten, tillsätt salt, peppar, fänkål, bouquet garni och saffran, sjuda.",
+   "5": "Gör rouille: mortla vitlök, tillsätt saffran och äggula, vispa med olivolja lite i taget tills majonnäs.",
+   "6": "Koka potatisen i saltat vatten 15-20 minuter. Öppna sjöborrarna med sax och skopa ut köttet med sked.",
+   "7": "Lägg fisken på ett stort fat. Blanda sjöborrsköttet i soppan.",
+   "8": "Gnid brödet med vitlök och bred rouille. Minst 2 skivor per skål.",
+   "9": "Ta upp fisk och potatis ur soppan, lägg på separat fat.",
+   "10": "Häll varm soppa över rouillebrödet. Servera fisk och potatis separat."
   },
   "culturalNotes": "Bouillabaisse är Marseilles traditionella rätt, känd för sin mångfald av fisk och skaldjur."
-},
-"w-fr-002": {
+ },
+ "w-fr-002": {
   "title": "Friterad bläckfisk med tzatziki",
   "ingredients": {
-    "w-fr-002-i1": {"name": "Vitlök", "standardAmount": "2 små klyftor (finhackad)"},
-    "w-fr-002-i2": {"name": "Olivolja", "standardAmount": "1 msk"},
-    "w-fr-002-i3": {"name": "Gurka", "standardAmount": "1 liten"},
-    "w-fr-002-i4": {"name": "Yoghurt", "standardAmount": "250 g"},
-    "w-fr-002-i5": {"name": "Torkad mynta", "standardAmount": "1 tsk"},
-    "w-fr-002-i6": {"name": "Citronjuice", "standardAmount": "1 tsk"},
-    "w-fr-002-i7": {"name": "Salt och peppar", "standardAmount": "efter smak"},
-    "w-fr-002-i8": {"name": "Bläckfisk", "standardAmount": "450 g"},
-    "w-fr-002-i9": {"name": "Mjöl", "standardAmount": "1 stor skål"},
-    "w-fr-002-i10": {"name": "Friteringsolja", "standardAmount": "2,5 cm i pannan"},
-    "w-fr-002-i11": {"name": "Färsk citronjuice", "standardAmount": "efter smak"},
-    "w-fr-002-i12": {"name": "Salt, peppar, torkad oregano", "standardAmount": "efter smak"}
+   "w-fr-002-i1": {
+    "name": "Vitlök",
+    "standardAmount": "2 små klyftor (finhackad)"
+   },
+   "w-fr-002-i2": {
+    "name": "Olivolja",
+    "standardAmount": "1 msk"
+   },
+   "w-fr-002-i3": {
+    "name": "Gurka",
+    "standardAmount": "1 liten"
+   },
+   "w-fr-002-i4": {
+    "name": "Yoghurt",
+    "standardAmount": "250 g"
+   },
+   "w-fr-002-i5": {
+    "name": "Torkad mynta",
+    "standardAmount": "1 tsk"
+   },
+   "w-fr-002-i6": {
+    "name": "Citronjuice",
+    "standardAmount": "1 tsk"
+   },
+   "w-fr-002-i7": {
+    "name": "Salt och peppar",
+    "standardAmount": "efter smak"
+   },
+   "w-fr-002-i8": {
+    "name": "Bläckfisk",
+    "standardAmount": "450 g"
+   },
+   "w-fr-002-i9": {
+    "name": "Mjöl",
+    "standardAmount": "1 stor skål"
+   },
+   "w-fr-002-i10": {
+    "name": "Friteringsolja",
+    "standardAmount": "2,5 cm i pannan"
+   },
+   "w-fr-002-i11": {
+    "name": "Färsk citronjuice",
+    "standardAmount": "efter smak"
+   },
+   "w-fr-002-i12": {
+    "name": "Salt, peppar, torkad oregano",
+    "standardAmount": "efter smak"
+   }
   },
   "instructions": {
-    "1": "Blanda olivolja och vitlök i medelstor skål.",
-    "2": "Skiva gurkan tunt, strö salt och låt rinna av minst 15 minuter.",
-    "3": "Blanda yoghurt, gurka, mynta, citronjuice, salt och peppar i vitlöksoljan. Om lös, tillsätt yoghurt.",
-    "4": "Rensa bläckfisken och skär kropparna i 2,5 cm ringar (små kan vara hela).",
-    "5": "Förbered en skål mjöl med salt och peppar.",
-    "6": "Hetta oljan på hög värme.",
-    "7": "Panera bläckfisken in- och utvändigt.",
-    "8": "Fritera i små omgångar.",
-    "9": "Små ca 1 minut, stora en minut till.",
-    "10": "Låt rinna av på hushållspapper och servera direkt med tzatziki."
+   "1": "Blanda olivolja och vitlök i medelstor skål.",
+   "2": "Skiva gurkan tunt, strö salt och låt rinna av minst 15 minuter.",
+   "3": "Blanda yoghurt, gurka, mynta, citronjuice, salt och peppar i vitlöksoljan. Om lös, tillsätt yoghurt.",
+   "4": "Rensa bläckfisken och skär kropparna i 2,5 cm ringar (små kan vara hela).",
+   "5": "Förbered en skål mjöl med salt och peppar.",
+   "6": "Hetta oljan på hög värme.",
+   "7": "Panera bläckfisken in- och utvändigt.",
+   "8": "Fritera i små omgångar.",
+   "9": "Små ca 1 minut, stora en minut till.",
+   "10": "Låt rinna av på hushållspapper och servera direkt med tzatziki."
   },
   "culturalNotes": "Bläckfisk med tzatziki är en medelhavsförrätt som är omtyckt särskilt i Grekland och på Cypern."
-},
-"w-fr-003": {
+ },
+ "w-fr-003": {
   "title": "Calisson",
   "ingredients": {
-    "w-fr-003-i1": {"name": "Mandel", "standardAmount": "200 g"},
-    "w-fr-003-i2": {"name": "Pulversocker", "standardAmount": "200 g"},
-    "w-fr-003-i3": {"name": "Honung", "standardAmount": "100 g"},
-    "w-fr-003-i4": {"name": "Kanel", "standardAmount": "½ tsk"},
-    "w-fr-003-i5": {"name": "Nejlika", "standardAmount": "¼ tsk"},
-    "w-fr-003-i6": {"name": "Russin", "standardAmount": "50 g"},
-    "w-fr-003-i7": {"name": "Mjöl", "standardAmount": "100 g"},
-    "w-fr-003-i8": {"name": "Ägg", "standardAmount": "1"}
+   "w-fr-003-i1": {
+    "name": "Mandel",
+    "standardAmount": "200 g"
+   },
+   "w-fr-003-i2": {
+    "name": "Pulversocker",
+    "standardAmount": "200 g"
+   },
+   "w-fr-003-i3": {
+    "name": "Honung",
+    "standardAmount": "100 g"
+   },
+   "w-fr-003-i4": {
+    "name": "Kanel",
+    "standardAmount": "½ tsk"
+   },
+   "w-fr-003-i5": {
+    "name": "Nejlika",
+    "standardAmount": "¼ tsk"
+   },
+   "w-fr-003-i6": {
+    "name": "Russin",
+    "standardAmount": "50 g"
+   },
+   "w-fr-003-i7": {
+    "name": "Mjöl",
+    "standardAmount": "100 g"
+   },
+   "w-fr-003-i8": {
+    "name": "Ägg",
+    "standardAmount": "1"
+   }
   },
   "instructions": {
-    "1": "Blanda mandelmjöl och pulversocker i skål.",
-    "2": "Tillsätt honung, kanel, nejlika och russin, blanda väl.",
-    "3": "Tillsätt mjöl lite i taget tills fast deg.",
-    "4": "Täck och låt stå 30 minuter.",
-    "5": "Forma små bollar och lägg på pappersklädd plåt.",
-    "6": "Grädda på 180 °C i 20 minuter tills gyllene.",
-    "7": "Kyl och servera."
+   "1": "Blanda mandelmjöl och pulversocker i skål.",
+   "2": "Tillsätt honung, kanel, nejlika och russin, blanda väl.",
+   "3": "Tillsätt mjöl lite i taget tills fast deg.",
+   "4": "Täck och låt stå 30 minuter.",
+   "5": "Forma små bollar och lägg på pappersklädd plåt.",
+   "6": "Grädda på 180 °C i 20 minuter tills gyllene.",
+   "7": "Kyl och servera."
   },
   "culturalNotes": "Calisson är södra Frankrikes traditionella konfekt med fin arom och sötma."
-},
-"w-fr-004": {
+ },
+ "w-fr-004": {
   "title": "Vitlökskonfit",
   "ingredients": {
-    "w-fr-004-i1": {"name": "Vitlök", "standardAmount": "2 huvuden"},
-    "w-fr-004-i2": {"name": "Timjan", "standardAmount": "2 grenar"},
-    "w-fr-004-i3": {"name": "Olivolja", "standardAmount": "250 ml"},
-    "w-fr-004-i4": {"name": "Salt", "standardAmount": "1 generös nypa"}
+   "w-fr-004-i1": {
+    "name": "Vitlök",
+    "standardAmount": "2 huvuden"
+   },
+   "w-fr-004-i2": {
+    "name": "Timjan",
+    "standardAmount": "2 grenar"
+   },
+   "w-fr-004-i3": {
+    "name": "Olivolja",
+    "standardAmount": "250 ml"
+   },
+   "w-fr-004-i4": {
+    "name": "Salt",
+    "standardAmount": "1 generös nypa"
+   }
   },
   "instructions": {
-    "1": "Förvärm ugnen till 150 °C (fläkt 130 °C).",
-    "2": "Lägg vitlöken i liten ugnsform (ca 13 cm) med timjan och salt.",
-    "3": "Täck helt med olivolja.",
-    "4": "Tillaga 1 timme 20 minuter tills oljan sjunder lätt och vitlöken mörkgyllene; ska smälta men behålla formen.",
-    "5": "Kyl i oljan. I steriliserad burk håller den 2 veckor i kylen."
+   "1": "Förvärm ugnen till 150 °C (fläkt 130 °C).",
+   "2": "Lägg vitlöken i liten ugnsform (ca 13 cm) med timjan och salt.",
+   "3": "Täck helt med olivolja.",
+   "4": "Tillaga 1 timme 20 minuter tills oljan sjunder lätt och vitlöken mörkgyllene; ska smälta men behålla formen.",
+   "5": "Kyl i oljan. I steriliserad burk håller den 2 veckor i kylen."
   },
   "culturalNotes": "Vitlökskonfit är en fransk klassiker för förrätter och för att aromatisera rätter."
-},
-"w-fr-005": {
+ },
+ "w-fr-005": {
   "title": "Confit de canard (ankkonfit)",
   "ingredients": {
-    "w-fr-005-i1": {"name": "Anklår", "standardAmount": "4 (à 250 g)"},
-    "w-fr-005-i2": {"name": "Ankfett", "standardAmount": "750 ml"},
-    "w-fr-005-i3": {"name": "Salt", "standardAmount": "4 tsk"},
-    "w-fr-005-i4": {"name": "Timjan", "standardAmount": "⅓ dl"},
-    "w-fr-005-i5": {"name": "Salvia", "standardAmount": "⅓ dl"},
-    "w-fr-005-i6": {"name": "Rosmarin", "standardAmount": "⅓ dl"},
-    "w-fr-005-i7": {"name": "Mejram", "standardAmount": "⅓ dl"},
-    "w-fr-005-i8": {"name": "Vitlök", "standardAmount": "6 klyftor (krossade med skal)"},
-    "w-fr-005-i9": {"name": "Schalottenlök", "standardAmount": "1 (tunt skivad)"},
-    "w-fr-005-i10": {"name": "Hela svartpepparkorn", "standardAmount": "1 msk"},
-    "w-fr-005-i11": {"name": "Korianderfrö", "standardAmount": "1 msk"},
-    "w-fr-005-i12": {"name": "Stjärnanis", "standardAmount": "8"},
-    "w-fr-005-i13": {"name": "Lagerblad", "standardAmount": "2"},
-    "w-fr-005-i14": {"name": "Enbär", "standardAmount": "2 msk"},
-    "w-fr-005-i15": {"name": "Nejlikor", "standardAmount": "8"}
+   "w-fr-005-i1": {
+    "name": "Anklår",
+    "standardAmount": "4 (à 250 g)"
+   },
+   "w-fr-005-i2": {
+    "name": "Ankfett",
+    "standardAmount": "750 ml"
+   },
+   "w-fr-005-i3": {
+    "name": "Salt",
+    "standardAmount": "4 tsk"
+   },
+   "w-fr-005-i4": {
+    "name": "Timjan",
+    "standardAmount": "⅓ dl"
+   },
+   "w-fr-005-i5": {
+    "name": "Salvia",
+    "standardAmount": "⅓ dl"
+   },
+   "w-fr-005-i6": {
+    "name": "Rosmarin",
+    "standardAmount": "⅓ dl"
+   },
+   "w-fr-005-i7": {
+    "name": "Mejram",
+    "standardAmount": "⅓ dl"
+   },
+   "w-fr-005-i8": {
+    "name": "Vitlök",
+    "standardAmount": "6 klyftor (krossade med skal)"
+   },
+   "w-fr-005-i9": {
+    "name": "Schalottenlök",
+    "standardAmount": "1 (tunt skivad)"
+   },
+   "w-fr-005-i10": {
+    "name": "Hela svartpepparkorn",
+    "standardAmount": "1 msk"
+   },
+   "w-fr-005-i11": {
+    "name": "Korianderfrö",
+    "standardAmount": "1 msk"
+   },
+   "w-fr-005-i12": {
+    "name": "Stjärnanis",
+    "standardAmount": "8"
+   },
+   "w-fr-005-i13": {
+    "name": "Lagerblad",
+    "standardAmount": "2"
+   },
+   "w-fr-005-i14": {
+    "name": "Enbär",
+    "standardAmount": "2 msk"
+   },
+   "w-fr-005-i15": {
+    "name": "Nejlikor",
+    "standardAmount": "8"
+   }
   },
   "instructions": {
-    "1": "Blanda salt och örter i skål, gnid in låren.",
-    "2": "Lägg i djupt kärl, täck med örter, täck och förvara i kylen 24 timmar.",
-    "3": "Efter 24 timmar skölj i kallt vatten och torka väl.",
-    "4": "Lägg i ugnsform, täck med fett och örter, täck med aluminiumfolie.",
-    "5": "Tillaga på 100 °C i 2-3 timmar tills köttet är mört.",
-    "6": "Ta upp, kyl lite och sila fettet i tätt kärl.",
-    "7": "Lägg ankan i djupt kärl, täck med det silade fettet. Håller 6 månader i kylen.",
-    "8": "Vid servering, grädda på 200 °C i 10-15 minuter tills skinnet är krispigt."
+   "1": "Blanda salt och örter i skål, gnid in låren.",
+   "2": "Lägg i djupt kärl, täck med örter, täck och förvara i kylen 24 timmar.",
+   "3": "Efter 24 timmar skölj i kallt vatten och torka väl.",
+   "4": "Lägg i ugnsform, täck med fett och örter, täck med aluminiumfolie.",
+   "5": "Tillaga på 100 °C i 2-3 timmar tills köttet är mört.",
+   "6": "Ta upp, kyl lite och sila fettet i tätt kärl.",
+   "7": "Lägg ankan i djupt kärl, täck med det silade fettet. Håller 6 månader i kylen.",
+   "8": "Vid servering, grädda på 200 °C i 10-15 minuter tills skinnet är krispigt."
   },
   "culturalNotes": "Ankkonfit är en fransk klassiker där låren tillagas långsamt i sitt fett; serveras med potatispuré eller ugnsrostade grönsaker."
-},
-"w-fr-006": {
+ },
+ "w-fr-006": {
   "title": "Flamiche (purjolökspaj)",
   "ingredients": {
-    "w-fr-006-i1": {"name": "Mjöl", "standardAmount": "350 g"},
-    "w-fr-006-i2": {"name": "Smör", "standardAmount": "175 g (rumstemperatur)"},
-    "w-fr-006-i3": {"name": "Salt", "standardAmount": "1 nypa"},
-    "w-fr-006-i4": {"name": "Mjölk", "standardAmount": "7 msk"},
-    "w-fr-006-i5": {"name": "Currypulver", "standardAmount": "½ tsk"},
-    "w-fr-006-i6": {"name": "Purjolök", "standardAmount": "900 g (finhackad)"},
-    "w-fr-006-i7": {"name": "Smör", "standardAmount": "40 g"},
-    "w-fr-006-i8": {"name": "Äggulor", "standardAmount": "4 (3 till fyllning + 1 till pensling)"},
-    "w-fr-006-i9": {"name": "Crème fraîche", "standardAmount": "200 g"},
-    "w-fr-006-i10": {"name": "Muskotnöt", "standardAmount": "¼ tsk"},
-    "w-fr-006-i11": {"name": "Salt och svartpeppar", "standardAmount": "1 nypa"}
+   "w-fr-006-i1": {
+    "name": "Mjöl",
+    "standardAmount": "350 g"
+   },
+   "w-fr-006-i2": {
+    "name": "Smör",
+    "standardAmount": "175 g (rumstemperatur)"
+   },
+   "w-fr-006-i3": {
+    "name": "Salt",
+    "standardAmount": "1 nypa"
+   },
+   "w-fr-006-i4": {
+    "name": "Mjölk",
+    "standardAmount": "7 msk"
+   },
+   "w-fr-006-i5": {
+    "name": "Currypulver",
+    "standardAmount": "½ tsk"
+   },
+   "w-fr-006-i6": {
+    "name": "Purjolök",
+    "standardAmount": "900 g (finhackad)"
+   },
+   "w-fr-006-i7": {
+    "name": "Smör",
+    "standardAmount": "40 g"
+   },
+   "w-fr-006-i8": {
+    "name": "Äggulor",
+    "standardAmount": "4 (3 till fyllning + 1 till pensling)"
+   },
+   "w-fr-006-i9": {
+    "name": "Crème fraîche",
+    "standardAmount": "200 g"
+   },
+   "w-fr-006-i10": {
+    "name": "Muskotnöt",
+    "standardAmount": "¼ tsk"
+   },
+   "w-fr-006-i11": {
+    "name": "Salt och svartpeppar",
+    "standardAmount": "1 nypa"
+   }
   },
   "instructions": {
-    "1": "Gnid mjöl, smör och salt i stor skål tills smulig konsistens.",
-    "2": "Tillsätt mjölk lite i taget tills deg.",
-    "3": "Täck och kyl 30 minuter.",
-    "4": "Smält smör i stor stekpanna, fräs purjolöken tills mjuk och gyllene.",
-    "5": "Tillsätt curry, rör 1 minut.",
-    "6": "Blanda äggulor, crème fraîche, muskot, salt och peppar i annan skål.",
-    "7": "Blanda den stekta purjolöken i äggblandningen.",
-    "8": "Klä formen med deg och häll i fyllningen.",
-    "9": "Täck med överdelen och förslut kanterna.",
-    "10": "Pensla med resterande äggula.",
-    "11": "Grädda på 180 °C i 45 minuter tills gyllene.",
-    "12": "Låt stå 10 minuter och servera."
+   "1": "Gnid mjöl, smör och salt i stor skål tills smulig konsistens.",
+   "2": "Tillsätt mjölk lite i taget tills deg.",
+   "3": "Täck och kyl 30 minuter.",
+   "4": "Smält smör i stor stekpanna, fräs purjolöken tills mjuk och gyllene.",
+   "5": "Tillsätt curry, rör 1 minut.",
+   "6": "Blanda äggulor, crème fraîche, muskot, salt och peppar i annan skål.",
+   "7": "Blanda den stekta purjolöken i äggblandningen.",
+   "8": "Klä formen med deg och häll i fyllningen.",
+   "9": "Täck med överdelen och förslut kanterna.",
+   "10": "Pensla med resterande äggula.",
+   "11": "Grädda på 180 °C i 45 minuter tills gyllene.",
+   "12": "Låt stå 10 minuter och servera."
   },
   "culturalNotes": "Flamiche är norra Frankrikes traditionella purjolökspaj."
-},
-"w-fr-007": {
+ },
+ "w-fr-007": {
   "title": "Fondantpotatis",
   "ingredients": {
-    "w-fr-007-i1": {"name": "Stora mjöliga potatisar", "standardAmount": "4 (à 400 g)"},
-    "w-fr-007-i2": {"name": "Salt", "standardAmount": "¾ tsk"},
-    "w-fr-007-i3": {"name": "Svartpeppar", "standardAmount": "½ tsk"},
-    "w-fr-007-i4": {"name": "Extra virgin olivolja", "standardAmount": "2 msk"},
-    "w-fr-007-i5": {"name": "Osaltat smör", "standardAmount": "3 msk (50 g)"},
-    "w-fr-007-i6": {"name": "Timjan", "standardAmount": "6 grenar"},
-    "w-fr-007-i7": {"name": "Kyckling- eller grönsaksbuljong", "standardAmount": "240 ml (lågsalt)"}
+   "w-fr-007-i1": {
+    "name": "Stora mjöliga potatisar",
+    "standardAmount": "4 (à 400 g)"
+   },
+   "w-fr-007-i2": {
+    "name": "Salt",
+    "standardAmount": "¾ tsk"
+   },
+   "w-fr-007-i3": {
+    "name": "Svartpeppar",
+    "standardAmount": "½ tsk"
+   },
+   "w-fr-007-i4": {
+    "name": "Extra virgin olivolja",
+    "standardAmount": "2 msk"
+   },
+   "w-fr-007-i5": {
+    "name": "Osaltat smör",
+    "standardAmount": "3 msk (50 g)"
+   },
+   "w-fr-007-i6": {
+    "name": "Timjan",
+    "standardAmount": "6 grenar"
+   },
+   "w-fr-007-i7": {
+    "name": "Kyckling- eller grönsaksbuljong",
+    "standardAmount": "240 ml (lågsalt)"
+   }
   },
   "instructions": {
-    "1": "Förvärm ugnen till 200 °C (fläkt 180 °C).",
-    "2": "Skär potatisen i cylindrar ca 6 cm diameter, 7 cm höga, dela i 8 cylindrar à 3,5 cm.",
-    "3": "Torka och gnid med halva oljan, salt och peppar.",
-    "4": "Hetta resterande olja i ugnssäker stekpanna på medelhög värme, stek varje sida 6-8 minuter tills gyllene.",
-    "5": "Tillsätt smör och timjan; så fort det smälter, ringla över potatisen. Häll buljongen, koka och tillaga i ugnen 30 minuter, ringla igen efter 15 minuter.",
-    "6": "Ringla igen och servera. Restaurangstil med biff, bearnaisesås och smörkokta haricots verts."
+   "1": "Förvärm ugnen till 200 °C (fläkt 180 °C).",
+   "2": "Skär potatisen i cylindrar ca 6 cm diameter, 7 cm höga, dela i 8 cylindrar à 3,5 cm.",
+   "3": "Torka och gnid med halva oljan, salt och peppar.",
+   "4": "Hetta resterande olja i ugnssäker stekpanna på medelhög värme, stek varje sida 6-8 minuter tills gyllene.",
+   "5": "Tillsätt smör och timjan; så fort det smälter, ringla över potatisen. Häll buljongen, koka och tillaga i ugnen 30 minuter, ringla igen efter 15 minuter.",
+   "6": "Ringla igen och servera. Restaurangstil med biff, bearnaisesås och smörkokta haricots verts."
   },
   "culturalNotes": "Fondantpotatis är fransk ugnspotatis: gyllene utanpå, krämig inuti."
-},
-"w-fr-008": {
+ },
+ "w-fr-008": {
   "title": "Chokladpannkakor",
   "ingredients": {
-    "w-fr-008-i1": {"name": "Osaltat smör", "standardAmount": "25 g"},
-    "w-fr-008-i2": {"name": "Mjöl", "standardAmount": "150 g"},
-    "w-fr-008-i3": {"name": "Ägg", "standardAmount": "2 stora"},
-    "w-fr-008-i4": {"name": "Helmjölk", "standardAmount": "275 ml"},
-    "w-fr-008-i5": {"name": "Salt", "standardAmount": "1 nypa"},
-    "w-fr-008-i6": {"name": "Vaniljpulver", "standardAmount": "¼ tsk (valfritt)"},
-    "w-fr-008-i7": {"name": "Pulversocker", "standardAmount": "1 msk"},
-    "w-fr-008-i8": {"name": "Osockrat kakao", "standardAmount": "1 msk"}
+   "w-fr-008-i1": {
+    "name": "Osaltat smör",
+    "standardAmount": "25 g"
+   },
+   "w-fr-008-i2": {
+    "name": "Mjöl",
+    "standardAmount": "150 g"
+   },
+   "w-fr-008-i3": {
+    "name": "Ägg",
+    "standardAmount": "2 stora"
+   },
+   "w-fr-008-i4": {
+    "name": "Helmjölk",
+    "standardAmount": "275 ml"
+   },
+   "w-fr-008-i5": {
+    "name": "Salt",
+    "standardAmount": "1 nypa"
+   },
+   "w-fr-008-i6": {
+    "name": "Vaniljpulver",
+    "standardAmount": "¼ tsk (valfritt)"
+   },
+   "w-fr-008-i7": {
+    "name": "Pulversocker",
+    "standardAmount": "1 msk"
+   },
+   "w-fr-008-i8": {
+    "name": "Osockrat kakao",
+    "standardAmount": "1 msk"
+   }
   },
   "instructions": {
-    "1": "Smält smöret i pannkakspannan (låt det brynna lätt för nötig arom).",
-    "2": "Blanda mjöl, pulversocker, kakao, salt och vanilj i stor skål; knäck äggen i mitten och vispa med det smälta smöret till slät.",
-    "3": "Tillsätt en fjärdedel av mjölken, sedan resten lite i taget. Smeten är tunn; så ska det vara.",
-    "4": "Torka överflödigt smör, hetta på medelhög värme och häll en slevgång smet; låt den rinna ut tunt.",
-    "5": "Stek 2-3 minuter tills bubblor bildas, vänd och stek några minuter till.",
-    "6": "Sänk värmen lite, torka pannan och upprepa för 6-8 pannkakor."
+   "1": "Smält smöret i pannkakspannan (låt det brynna lätt för nötig arom).",
+   "2": "Blanda mjöl, pulversocker, kakao, salt och vanilj i stor skål; knäck äggen i mitten och vispa med det smälta smöret till slät.",
+   "3": "Tillsätt en fjärdedel av mjölken, sedan resten lite i taget. Smeten är tunn; så ska det vara.",
+   "4": "Torka överflödigt smör, hetta på medelhög värme och häll en slevgång smet; låt den rinna ut tunt.",
+   "5": "Stek 2-3 minuter tills bubblor bildas, vänd och stek några minuter till.",
+   "6": "Sänk värmen lite, torka pannan och upprepa för 6-8 pannkakor."
   },
   "culturalNotes": "Pannkakor är en omtyckt fransk frukost, serverad med choklad, honung eller jordgubbar."
-},
-"w-fr-009": {
+ },
+ "w-fr-009": {
   "title": "Chokladtryfflar med ganache",
   "ingredients": {
-    "w-fr-009-i1": {"name": "Mörk choklad", "standardAmount": "285 g"},
-    "w-fr-009-i2": {"name": "Osaltat smör", "standardAmount": "30 g"},
-    "w-fr-009-i3": {"name": "Grädde", "standardAmount": "125 ml"},
-    "w-fr-009-i4": {"name": "Rivad kokos", "standardAmount": "125 g"},
-    "w-fr-009-i5": {"name": "Osockrat kakao", "standardAmount": "60 g"},
-    "w-fr-009-i6": {"name": "Malda nötter", "standardAmount": "125 g"},
-    "w-fr-009-i7": {"name": "Färgglada strössel", "standardAmount": "85 g"},
-    "w-fr-009-i8": {"name": "Pulversocker", "standardAmount": "60 g"}
+   "w-fr-009-i1": {
+    "name": "Mörk choklad",
+    "standardAmount": "285 g"
+   },
+   "w-fr-009-i2": {
+    "name": "Osaltat smör",
+    "standardAmount": "30 g"
+   },
+   "w-fr-009-i3": {
+    "name": "Grädde",
+    "standardAmount": "125 ml"
+   },
+   "w-fr-009-i4": {
+    "name": "Rivad kokos",
+    "standardAmount": "125 g"
+   },
+   "w-fr-009-i5": {
+    "name": "Osockrat kakao",
+    "standardAmount": "60 g"
+   },
+   "w-fr-009-i6": {
+    "name": "Malda nötter",
+    "standardAmount": "125 g"
+   },
+   "w-fr-009-i7": {
+    "name": "Färgglada strössel",
+    "standardAmount": "85 g"
+   },
+   "w-fr-009-i8": {
+    "name": "Pulversocker",
+    "standardAmount": "60 g"
+   }
   },
   "instructions": {
-    "1": "Lägg choklad, grädde och smör i värmesäker skål, värm i mikron 4×30 sekunder, rör mellan.",
-    "2": "Täck skålen, låt stå 5 minuter och rör till slät; ganachen är klar.",
-    "3": "Kyl i kylen 6 timmar tills fast. Frys inte.",
-    "4": "Kyl även tallriken för tryfflarna.",
-    "5": "Efter 6 timmar forma små bollar med tesked.",
-    "6": "Rulla i kokos, kakao, nötter, strössel eller pulversocker.",
-    "7": "Lägg på kall tallrik och låt stelna helt."
+   "1": "Lägg choklad, grädde och smör i värmesäker skål, värm i mikron 4×30 sekunder, rör mellan.",
+   "2": "Täck skålen, låt stå 5 minuter och rör till slät; ganachen är klar.",
+   "3": "Kyl i kylen 6 timmar tills fast. Frys inte.",
+   "4": "Kyl även tallriken för tryfflarna.",
+   "5": "Efter 6 timmar forma små bollar med tesked.",
+   "6": "Rulla i kokos, kakao, nötter, strössel eller pulversocker.",
+   "7": "Lägg på kall tallrik och låt stelna helt."
   },
   "culturalNotes": "Ganache är den sammetlena choklad-gräddblandningen, hjärtat i många franska desserter."
-},
-"w-fr-010": {
+ },
+ "w-fr-010": {
   "title": "Gratin dauphinois",
   "ingredients": {
-    "w-fr-010-i1": {"name": "Potatis", "standardAmount": "750 g"},
-    "w-fr-010-i2": {"name": "Vitlök", "standardAmount": "2-3 klyftor (finhackad)"},
-    "w-fr-010-i3": {"name": "Helmjölk", "standardAmount": "275 ml"},
-    "w-fr-010-i4": {"name": "Tjock grädde", "standardAmount": "150 ml"},
-    "w-fr-010-i5": {"name": "Muskotnöt", "standardAmount": "¼ tsk"},
-    "w-fr-010-i6": {"name": "Salt och svartpeppar", "standardAmount": "efter smak"},
-    "w-fr-010-i7": {"name": "Färsk timjan", "standardAmount": "½ tsk"},
-    "w-fr-010-i8": {"name": "Smör", "standardAmount": "lite (till formen)"},
-    "w-fr-010-i9": {"name": "Emmental eller Gruyère", "standardAmount": "100 g (valfritt)"}
+   "w-fr-010-i1": {
+    "name": "Potatis",
+    "standardAmount": "750 g"
+   },
+   "w-fr-010-i2": {
+    "name": "Vitlök",
+    "standardAmount": "2-3 klyftor (finhackad)"
+   },
+   "w-fr-010-i3": {
+    "name": "Helmjölk",
+    "standardAmount": "275 ml"
+   },
+   "w-fr-010-i4": {
+    "name": "Tjock grädde",
+    "standardAmount": "150 ml"
+   },
+   "w-fr-010-i5": {
+    "name": "Muskotnöt",
+    "standardAmount": "¼ tsk"
+   },
+   "w-fr-010-i6": {
+    "name": "Salt och svartpeppar",
+    "standardAmount": "efter smak"
+   },
+   "w-fr-010-i7": {
+    "name": "Färsk timjan",
+    "standardAmount": "½ tsk"
+   },
+   "w-fr-010-i8": {
+    "name": "Smör",
+    "standardAmount": "lite (till formen)"
+   },
+   "w-fr-010-i9": {
+    "name": "Emmental eller Gruyère",
+    "standardAmount": "100 g (valfritt)"
+   }
   },
   "instructions": {
-    "1": "Skala potatisen (eller behåll skalet) och skiva 3 mm.",
-    "2": "Förvärm ugnen till 190 °C (fläkt 170 °C).",
-    "3": "Koka mjölk, grädde och vitlök, sänk och tillsätt muskot, salt, peppar och potatis.",
-    "4": "Koka ca 5 minuter och vänd skivorna. Osten kan tillsättas här.",
-    "5": "Smöra formen och lägg potatisen jämnt.",
-    "6": "Grädda ca 45 minuter tills gyllene."
+   "1": "Skala potatisen (eller behåll skalet) och skiva 3 mm.",
+   "2": "Förvärm ugnen till 190 °C (fläkt 170 °C).",
+   "3": "Koka mjölk, grädde och vitlök, sänk och tillsätt muskot, salt, peppar och potatis.",
+   "4": "Koka ca 5 minuter och vänd skivorna. Osten kan tillsättas här.",
+   "5": "Smöra formen och lägg potatisen jämnt.",
+   "6": "Grädda ca 45 minuter tills gyllene."
   },
   "culturalNotes": "Traditionell rätt från Dauphiné: tunna potatisskivor gratinerade med mjölk, grädde och muskot."
-},
-"w-fr-011": {
+ },
+ "w-fr-011": {
   "title": "Pain d'épices (kryddkaka)",
   "ingredients": {
-    "w-fr-011-i1": {"name": "Vatten", "standardAmount": "250 ml"},
-    "w-fr-011-i2": {"name": "Honung", "standardAmount": "255 g"},
-    "w-fr-011-i3": {"name": "Kardemummakapslar", "standardAmount": "4"},
-    "w-fr-011-i4": {"name": "Nejlikor", "standardAmount": "2"},
-    "w-fr-011-i5": {"name": "Stjärnanis", "standardAmount": "2"},
-    "w-fr-011-i6": {"name": "Rörrobrunt socker", "standardAmount": "100 g"},
-    "w-fr-011-i7": {"name": "Osaltat smör", "standardAmount": "155 g"},
-    "w-fr-011-i8": {"name": "Rågmjöl", "standardAmount": "255 g"},
-    "w-fr-011-i9": {"name": "Bakpulver", "standardAmount": "2 tsk"},
-    "w-fr-011-i10": {"name": "Salt", "standardAmount": "1 generös nypa"},
-    "w-fr-011-i11": {"name": "Kryddblandning", "standardAmount": "1½ tsk"},
-    "w-fr-011-i12": {"name": "Nötter", "standardAmount": "1 msk"}
+   "w-fr-011-i1": {
+    "name": "Vatten",
+    "standardAmount": "250 ml"
+   },
+   "w-fr-011-i2": {
+    "name": "Honung",
+    "standardAmount": "255 g"
+   },
+   "w-fr-011-i3": {
+    "name": "Kardemummakapslar",
+    "standardAmount": "4"
+   },
+   "w-fr-011-i4": {
+    "name": "Nejlikor",
+    "standardAmount": "2"
+   },
+   "w-fr-011-i5": {
+    "name": "Stjärnanis",
+    "standardAmount": "2"
+   },
+   "w-fr-011-i6": {
+    "name": "Rörrobrunt socker",
+    "standardAmount": "100 g"
+   },
+   "w-fr-011-i7": {
+    "name": "Osaltat smör",
+    "standardAmount": "155 g"
+   },
+   "w-fr-011-i8": {
+    "name": "Rågmjöl",
+    "standardAmount": "255 g"
+   },
+   "w-fr-011-i9": {
+    "name": "Bakpulver",
+    "standardAmount": "2 tsk"
+   },
+   "w-fr-011-i10": {
+    "name": "Salt",
+    "standardAmount": "1 generös nypa"
+   },
+   "w-fr-011-i11": {
+    "name": "Kryddblandning",
+    "standardAmount": "1½ tsk"
+   },
+   "w-fr-011-i12": {
+    "name": "Nötter",
+    "standardAmount": "1 msk"
+   }
   },
   "instructions": {
-    "1": "Smöra kakform och förvärm ugnen till 180 °C (fläkt 160 °C).",
-    "2": "Koka vatten, honung, socker och kryddor i kastrull, smält smöret, ta av värmen och låt stå 5 minuter.",
-    "3": "Blanda rågmjöl, bakpulver, salt och kryddpulver i skål, rör i den varma honungsblandningen lite i taget till slät.",
-    "4": "Fyll formen till två tredjedelar och grädda 40-50 minuter tills mörkgyllene; en tandpetare ska komma ut ren.",
-    "5": "Låt stå 10 minuter i formen, vältra på galler. Garnera med nötter och stjärnanis."
+   "1": "Smöra kakform och förvärm ugnen till 180 °C (fläkt 160 °C).",
+   "2": "Koka vatten, honung, socker och kryddor i kastrull, smält smöret, ta av värmen och låt stå 5 minuter.",
+   "3": "Blanda rågmjöl, bakpulver, salt och kryddpulver i skål, rör i den varma honungsblandningen lite i taget till slät.",
+   "4": "Fyll formen till två tredjedelar och grädda 40-50 minuter tills mörkgyllene; en tandpetare ska komma ut ren.",
+   "5": "Låt stå 10 minuter i formen, vältra på galler. Garnera med nötter och stjärnanis."
   },
   "culturalNotes": "Pain d'épices är Frankrikes traditionella kryddkaka med varm, aromatisk doft."
-},
-"w-fr-012": {
+ },
+ "w-fr-012": {
   "title": "Pissaladière",
   "ingredients": {
-    "w-fr-012-i1": {"name": "Olivolja", "standardAmount": "4 msk + till plåten"},
-    "w-fr-012-i2": {"name": "Lök", "standardAmount": "1 kg (mycket tunt skivad)"},
-    "w-fr-012-i3": {"name": "Timjan", "standardAmount": "1 liten knippa"},
-    "w-fr-012-i4": {"name": "Lagerblad", "standardAmount": "2"},
-    "w-fr-012-i5": {"name": "Ansjovisfilé", "standardAmount": "80 g (avrunna)"},
-    "w-fr-012-i6": {"name": "Svarta oliver", "standardAmount": "80 g (kärnfria)"},
-    "w-fr-012-i7": {"name": "Parmesan", "standardAmount": "20 g (riven)"},
-    "w-fr-012-i8": {"name": "Kallt osaltat smör", "standardAmount": "200 g"},
-    "w-fr-012-i9": {"name": "Citronjuice", "standardAmount": "1 tsk"},
-    "w-fr-012-i10": {"name": "Starkt mjöl", "standardAmount": "200 g + till bänken"},
-    "w-fr-012-i11": {"name": "Salt", "standardAmount": "1 tsk"},
-    "w-fr-012-i12": {"name": "Isvatten", "standardAmount": "125 ml"}
+   "w-fr-012-i1": {
+    "name": "Olivolja",
+    "standardAmount": "4 msk + till plåten"
+   },
+   "w-fr-012-i2": {
+    "name": "Lök",
+    "standardAmount": "1 kg (mycket tunt skivad)"
+   },
+   "w-fr-012-i3": {
+    "name": "Timjan",
+    "standardAmount": "1 liten knippa"
+   },
+   "w-fr-012-i4": {
+    "name": "Lagerblad",
+    "standardAmount": "2"
+   },
+   "w-fr-012-i5": {
+    "name": "Ansjovisfilé",
+    "standardAmount": "80 g (avrunna)"
+   },
+   "w-fr-012-i6": {
+    "name": "Svarta oliver",
+    "standardAmount": "80 g (kärnfria)"
+   },
+   "w-fr-012-i7": {
+    "name": "Parmesan",
+    "standardAmount": "20 g (riven)"
+   },
+   "w-fr-012-i8": {
+    "name": "Kallt osaltat smör",
+    "standardAmount": "200 g"
+   },
+   "w-fr-012-i9": {
+    "name": "Citronjuice",
+    "standardAmount": "1 tsk"
+   },
+   "w-fr-012-i10": {
+    "name": "Starkt mjöl",
+    "standardAmount": "200 g + till bänken"
+   },
+   "w-fr-012-i11": {
+    "name": "Salt",
+    "standardAmount": "1 tsk"
+   },
+   "w-fr-012-i12": {
+    "name": "Isvatten",
+    "standardAmount": "125 ml"
+   }
   },
   "instructions": {
-    "1": "Deg: riv smöret grovt, pudra med mjöl i skål och frys 30 minuter (eller kyl 1 timme).",
-    "2": "Blanda citronjuicen med 125 ml isvatten. Lägg resterande mjöl och salt i stor skål, tillsätt fryst smör och arbeta med fingertopparna.",
-    "3": "Häll två tredjedelar av citronvattnet och förena med kniv. Om torrt, tillsätt lite vatten. Degen är smulig men håller ihop vid tryck.",
-    "4": "Vält ut på mjölad yta, knåda lätt till tjock rektangel, linda och kyl 20 minuter.",
-    "5": "Kavla till rektangel 20×30 cm; smörränderna syns.",
-    "6": "Hetta olivolja i stor stekpanna på medelhög värme, tillsätt lök med salt, timjan och lager, sjuda 40-45 minuter med omrörning tills mörkgyllen, marmeladlik massa. Kyl.",
-    "7": "Olja plåten lätt, kavla degen 25×35 cm, bred ut, forma kant och kyl 20 minuter.",
-    "8": "Förvärm ugnen till 220 °C (fläkt 200 °C). Bred ut löken, lägg ansjovis i rombmönster, oliver i mitten. Strö parmesan och grädda 30 minuter.",
-    "9": "Strö timjan, låt stå 10 minuter och skär i rutor."
+   "1": "Deg: riv smöret grovt, pudra med mjöl i skål och frys 30 minuter (eller kyl 1 timme).",
+   "2": "Blanda citronjuicen med 125 ml isvatten. Lägg resterande mjöl och salt i stor skål, tillsätt fryst smör och arbeta med fingertopparna.",
+   "3": "Häll två tredjedelar av citronvattnet och förena med kniv. Om torrt, tillsätt lite vatten. Degen är smulig men håller ihop vid tryck.",
+   "4": "Vält ut på mjölad yta, knåda lätt till tjock rektangel, linda och kyl 20 minuter.",
+   "5": "Kavla till rektangel 20×30 cm; smörränderna syns.",
+   "6": "Hetta olivolja i stor stekpanna på medelhög värme, tillsätt lök med salt, timjan och lager, sjuda 40-45 minuter med omrörning tills mörkgyllen, marmeladlik massa. Kyl.",
+   "7": "Olja plåten lätt, kavla degen 25×35 cm, bred ut, forma kant och kyl 20 minuter.",
+   "8": "Förvärm ugnen till 220 °C (fläkt 200 °C). Bred ut löken, lägg ansjovis i rombmönster, oliver i mitten. Strö parmesan och grädda 30 minuter.",
+   "9": "Strö timjan, låt stå 10 minuter och skär i rutor."
   },
   "culturalNotes": "Pissaladière är Provences specialitet: tunn deg med karamelliserad lök, ansjovis och svarta oliver."
-},
-"w-fr-013": {
+ },
+ "w-fr-013": {
   "title": "Ratatouille",
   "ingredients": {
-    "w-fr-013-i1": {"name": "Olivolja", "standardAmount": "⅓-¼ dl"},
-    "w-fr-013-i2": {"name": "Lök", "standardAmount": "1 stor (tunt skivad)"},
-    "w-fr-013-i3": {"name": "Röd paprika", "standardAmount": "1 (i bitar)"},
-    "w-fr-013-i4": {"name": "Gul paprika", "standardAmount": "1 (i bitar)"},
-    "w-fr-013-i5": {"name": "Vitlök", "standardAmount": "6 klyftor (tunt skivade)"},
-    "w-fr-013-i6": {"name": "Zucchini", "standardAmount": "680 g (i skivor)"},
-    "w-fr-013-i7": {"name": "Aubergine", "standardAmount": "1 liten (i tärningar)"},
-    "w-fr-013-i8": {"name": "Roma-tomater", "standardAmount": "4 (grovhackade)"},
-    "w-fr-013-i9": {"name": "Färsk rosmarin", "standardAmount": "¼ tsk (finhackad)"},
-    "w-fr-013-i10": {"name": "Färsk timjan", "standardAmount": "1 tsk (finhackad)"},
-    "w-fr-013-i11": {"name": "Salt", "standardAmount": "efter smak"},
-    "w-fr-013-i12": {"name": "Peppar", "standardAmount": "efter smak"}
+   "w-fr-013-i1": {
+    "name": "Olivolja",
+    "standardAmount": "⅓-¼ dl"
+   },
+   "w-fr-013-i2": {
+    "name": "Lök",
+    "standardAmount": "1 stor (tunt skivad)"
+   },
+   "w-fr-013-i3": {
+    "name": "Röd paprika",
+    "standardAmount": "1 (i bitar)"
+   },
+   "w-fr-013-i4": {
+    "name": "Gul paprika",
+    "standardAmount": "1 (i bitar)"
+   },
+   "w-fr-013-i5": {
+    "name": "Vitlök",
+    "standardAmount": "6 klyftor (tunt skivade)"
+   },
+   "w-fr-013-i6": {
+    "name": "Zucchini",
+    "standardAmount": "680 g (i skivor)"
+   },
+   "w-fr-013-i7": {
+    "name": "Aubergine",
+    "standardAmount": "1 liten (i tärningar)"
+   },
+   "w-fr-013-i8": {
+    "name": "Roma-tomater",
+    "standardAmount": "4 (grovhackade)"
+   },
+   "w-fr-013-i9": {
+    "name": "Färsk rosmarin",
+    "standardAmount": "¼ tsk (finhackad)"
+   },
+   "w-fr-013-i10": {
+    "name": "Färsk timjan",
+    "standardAmount": "1 tsk (finhackad)"
+   },
+   "w-fr-013-i11": {
+    "name": "Salt",
+    "standardAmount": "efter smak"
+   },
+   "w-fr-013-i12": {
+    "name": "Peppar",
+    "standardAmount": "efter smak"
+   }
   },
   "instructions": {
-    "1": "Hetta stor stekpanna eller gryta ordentligt.",
-    "2": "Tillsätt olivolja, lök och paprika, fräs tills färg.",
-    "3": "Tillsätt vitlök, zucchini och aubergine, fräs tills färg.",
-    "4": "Blanda i tomater, rosmarin, timjan, salt och peppar.",
-    "5": "Servera varm eller kall."
+   "1": "Hetta stor stekpanna eller gryta ordentligt.",
+   "2": "Tillsätt olivolja, lök och paprika, fräs tills färg.",
+   "3": "Tillsätt vitlök, zucchini och aubergine, fräs tills färg.",
+   "4": "Blanda i tomater, rosmarin, timjan, salt och peppar.",
+   "5": "Servera varm eller kall."
   },
   "culturalNotes": "Ratatouille är Frankrikes mest kända grönsaksrätt av sommarens grönsaker."
-},
-"w-fr-014": {
+ },
+ "w-fr-014": {
   "title": "Salade niçoise",
   "ingredients": {
-    "w-fr-014-i1": {"name": "Vitlök", "standardAmount": "1 klyfta"},
-    "w-fr-014-i2": {"name": "Salt", "standardAmount": "efter smak"},
-    "w-fr-014-i3": {"name": "Olivolja", "standardAmount": "80 ml"},
-    "w-fr-014-i4": {"name": "Färsk citronjuice", "standardAmount": "2 msk"},
-    "w-fr-014-i5": {"name": "Dijonsenap", "standardAmount": "1 msk"},
-    "w-fr-014-i6": {"name": "Schalottenlök", "standardAmount": "1 (finhackad)"},
-    "w-fr-014-i7": {"name": "Svartpeppar", "standardAmount": "efter smak"},
-    "w-fr-014-i8": {"name": "Små färskpotatisar", "standardAmount": "450 g (kokta)"},
-    "w-fr-014-i9": {"name": "Haricots verts", "standardAmount": "225 g (blancherade)"},
-    "w-fr-014-i10": {"name": "Körsbärstomater", "standardAmount": "340 g (halverade)"},
-    "w-fr-014-i11": {"name": "Svarta oliver (niçoise)", "standardAmount": "120 ml"},
-    "w-fr-014-i12": {"name": "Marinerade kronärtskockor", "standardAmount": "225 g"},
-    "w-fr-014-i13": {"name": "Ansjovis", "standardAmount": "8 filéer (sköljda, avrunna)"},
-    "w-fr-014-i14": {"name": "Kokta ägg", "standardAmount": "4 (halverade)"},
-    "w-fr-014-i15": {"name": "Gurka", "standardAmount": "1 liten (tunt skivad)"},
-    "w-fr-014-i16": {"name": "Tonfisk i olja", "standardAmount": "3 burkar (à 115 g, avrunna)"},
-    "w-fr-014-i17": {"name": "Rödlök", "standardAmount": "½ (tunt skivad)"}
+   "w-fr-014-i1": {
+    "name": "Vitlök",
+    "standardAmount": "1 klyfta"
+   },
+   "w-fr-014-i2": {
+    "name": "Salt",
+    "standardAmount": "efter smak"
+   },
+   "w-fr-014-i3": {
+    "name": "Olivolja",
+    "standardAmount": "80 ml"
+   },
+   "w-fr-014-i4": {
+    "name": "Färsk citronjuice",
+    "standardAmount": "2 msk"
+   },
+   "w-fr-014-i5": {
+    "name": "Dijonsenap",
+    "standardAmount": "1 msk"
+   },
+   "w-fr-014-i6": {
+    "name": "Schalottenlök",
+    "standardAmount": "1 (finhackad)"
+   },
+   "w-fr-014-i7": {
+    "name": "Svartpeppar",
+    "standardAmount": "efter smak"
+   },
+   "w-fr-014-i8": {
+    "name": "Små färskpotatisar",
+    "standardAmount": "450 g (kokta)"
+   },
+   "w-fr-014-i9": {
+    "name": "Haricots verts",
+    "standardAmount": "225 g (blancherade)"
+   },
+   "w-fr-014-i10": {
+    "name": "Körsbärstomater",
+    "standardAmount": "340 g (halverade)"
+   },
+   "w-fr-014-i11": {
+    "name": "Svarta oliver (niçoise)",
+    "standardAmount": "120 ml"
+   },
+   "w-fr-014-i12": {
+    "name": "Marinerade kronärtskockor",
+    "standardAmount": "225 g"
+   },
+   "w-fr-014-i13": {
+    "name": "Ansjovis",
+    "standardAmount": "8 filéer (sköljda, avrunna)"
+   },
+   "w-fr-014-i14": {
+    "name": "Kokta ägg",
+    "standardAmount": "4 (halverade)"
+   },
+   "w-fr-014-i15": {
+    "name": "Gurka",
+    "standardAmount": "1 liten (tunt skivad)"
+   },
+   "w-fr-014-i16": {
+    "name": "Tonfisk i olja",
+    "standardAmount": "3 burkar (à 115 g, avrunna)"
+   },
+   "w-fr-014-i17": {
+    "name": "Rödlök",
+    "standardAmount": "½ (tunt skivad)"
+   }
   },
   "instructions": {
-    "1": "Dressing: finhacka vitlöken, pudra med salt och mortla med kniv till slät pasta. Lägg i skål och rör med olja, citronjuice, senap, schalottenlök, salt och peppar.",
-    "2": "Sallad: lägg alla ingredienser i rader på stort fat, ringla dressingen och salta-peppa."
+   "1": "Dressing: finhacka vitlöken, pudra med salt och mortla med kniv till slät pasta. Lägg i skål och rör med olja, citronjuice, senap, schalottenlök, salt och peppar.",
+   "2": "Sallad: lägg alla ingredienser i rader på stort fat, ringla dressingen och salta-peppa."
   },
   "culturalNotes": "Salade niçoise är Nice traditionella sallad, rik på grönsaker och fisk."
-},
-"w-vn-001": {
+ },
+ "w-vn-001": {
   "title": "Bò Bía (vietnamesiska rullar med jicama och korv)",
   "ingredients": {
-    "w-vn-001-i1": {"name": "Torkade räkor", "standardAmount": "½ dl"},
-    "w-vn-001-i2": {"name": "Jicama", "standardAmount": "1 stor"},
-    "w-vn-001-i3": {"name": "Morot", "standardAmount": "1 medel"},
-    "w-vn-001-i4": {"name": "Schalottenlök", "standardAmount": "4 stora"},
-    "w-vn-001-i5": {"name": "Halal kinesisk nötkorv", "standardAmount": "4"},
-    "w-vn-001-i6": {"name": "Ägg", "standardAmount": "5"},
-    "w-vn-001-i7": {"name": "Havssalt", "standardAmount": "½ tsk"},
-    "w-vn-001-i8": {"name": "Thaibasilika", "standardAmount": "1 liten knippa"},
-    "w-vn-001-i9": {"name": "Torkade rispapper", "standardAmount": "1 paket"},
-    "w-vn-001-i10": {"name": "Vegetabilisk olja", "standardAmount": "3 msk"}
+   "w-vn-001-i1": {
+    "name": "Torkade räkor",
+    "standardAmount": "½ dl"
+   },
+   "w-vn-001-i2": {
+    "name": "Jicama",
+    "standardAmount": "1 stor"
+   },
+   "w-vn-001-i3": {
+    "name": "Morot",
+    "standardAmount": "1 medel"
+   },
+   "w-vn-001-i4": {
+    "name": "Schalottenlök",
+    "standardAmount": "4 stora"
+   },
+   "w-vn-001-i5": {
+    "name": "Halal kinesisk nötkorv",
+    "standardAmount": "4"
+   },
+   "w-vn-001-i6": {
+    "name": "Ägg",
+    "standardAmount": "5"
+   },
+   "w-vn-001-i7": {
+    "name": "Havssalt",
+    "standardAmount": "½ tsk"
+   },
+   "w-vn-001-i8": {
+    "name": "Thaibasilika",
+    "standardAmount": "1 liten knippa"
+   },
+   "w-vn-001-i9": {
+    "name": "Torkade rispapper",
+    "standardAmount": "1 paket"
+   },
+   "w-vn-001-i10": {
+    "name": "Vegetabilisk olja",
+    "standardAmount": "3 msk"
+   }
   },
   "instructions": {
-    "1": "Blötlägg torkade räkor i varmt vatten 10 minuter tills mjuka, häll av.",
-    "2": "Skala jicaman och skär i tändstickor. Skala moroten, skär först snett i skivor, sedan i tändstickor. Skala schalottenlöken och skär tunt.",
-    "3": "Hetta ca 1 msk olja i stekpanna på hög värme. Fräs schalottenlöken ca 20 sekunder. Tillsätt räkorna, fräs 20 sekunder till. Tillsätt jicama och morot, fräs jämnt och tillaga tills mjuka ca 15 minuter. Salta och flytta till skål.",
-    "4": "Koka vatten i stor non-stick stekpanna, koka korvarna ca 5 minuter. Ta upp, kyl och skär tunt snett.",
-    "5": "Hetta ca 1 msk olja i tom panna på medelvärme, fördela med pensel eller lutning. Häll halva det vispade ägget och låt rinna ut tunt. Tillaga tills det stelnar ca 30 sekunder, skjut till tallrik. Upprepa med olja och resterande ägg. Lägg de två omeletterna på varandra, rulla och skär tunna remsor.",
-    "6": "Blöt rispappret snabbt och lägg på stor tallrik. Lägg basilikablad underst, sedan jicama-morot-räkblandningen, äggremsor och korvskivor. Rulla underifrån till hälften, vik in sidorna och avsluta rullningen.",
-    "7": "Servera med jordnötssås."
+   "1": "Blötlägg torkade räkor i varmt vatten 10 minuter tills mjuka, häll av.",
+   "2": "Skala jicaman och skär i tändstickor. Skala moroten, skär först snett i skivor, sedan i tändstickor. Skala schalottenlöken och skär tunt.",
+   "3": "Hetta ca 1 msk olja i stekpanna på hög värme. Fräs schalottenlöken ca 20 sekunder. Tillsätt räkorna, fräs 20 sekunder till. Tillsätt jicama och morot, fräs jämnt och tillaga tills mjuka ca 15 minuter. Salta och flytta till skål.",
+   "4": "Koka vatten i stor non-stick stekpanna, koka korvarna ca 5 minuter. Ta upp, kyl och skär tunt snett.",
+   "5": "Hetta ca 1 msk olja i tom panna på medelvärme, fördela med pensel eller lutning. Häll halva det vispade ägget och låt rinna ut tunt. Tillaga tills det stelnar ca 30 sekunder, skjut till tallrik. Upprepa med olja och resterande ägg. Lägg de två omeletterna på varandra, rulla och skär tunna remsor.",
+   "6": "Blöt rispappret snabbt och lägg på stor tallrik. Lägg basilikablad underst, sedan jicama-morot-räkblandningen, äggremsor och korvskivor. Rulla underifrån till hälften, vik in sidorna och avsluta rullningen.",
+   "7": "Servera med jordnötssås."
   },
   "culturalNotes": "Dessa vietnamesiska rullar kallas också Bì cuốn; serveras som förrätt eller lätt måltid."
-},
-"w-vn-002": {
+ },
+ "w-vn-002": {
   "title": "Bò Nướng Lá Lốt (grillad nöt i betelblad)",
   "ingredients": {
-    "w-vn-002-i1": {"name": "Fet nötfärs", "standardAmount": "340 g"},
-    "w-vn-002-i2": {"name": "Hackad schalottenlök", "standardAmount": "2 msk"},
-    "w-vn-002-i3": {"name": "Hackad vitlök", "standardAmount": "1 msk"},
-    "w-vn-002-i4": {"name": "Malen svartpeppar", "standardAmount": "¼ tsk"},
-    "w-vn-002-i5": {"name": "Socker", "standardAmount": "½ tsk"},
-    "w-vn-002-i6": {"name": "Fisksås", "standardAmount": "2 msk"},
-    "w-vn-002-i7": {"name": "Ostronsås", "standardAmount": "1 msk"},
-    "w-vn-002-i8": {"name": "Kycklingbuljongpulver", "standardAmount": "½ tsk"},
-    "w-vn-002-i9": {"name": "Glutamat (valfritt)", "standardAmount": "¼ tsk"},
-    "w-vn-002-i10": {"name": "Vilda betelblad", "standardAmount": "25-30"}
+   "w-vn-002-i1": {
+    "name": "Fet nötfärs",
+    "standardAmount": "340 g"
+   },
+   "w-vn-002-i2": {
+    "name": "Hackad schalottenlök",
+    "standardAmount": "2 msk"
+   },
+   "w-vn-002-i3": {
+    "name": "Hackad vitlök",
+    "standardAmount": "1 msk"
+   },
+   "w-vn-002-i4": {
+    "name": "Malen svartpeppar",
+    "standardAmount": "¼ tsk"
+   },
+   "w-vn-002-i5": {
+    "name": "Socker",
+    "standardAmount": "½ tsk"
+   },
+   "w-vn-002-i6": {
+    "name": "Fisksås",
+    "standardAmount": "2 msk"
+   },
+   "w-vn-002-i7": {
+    "name": "Ostronsås",
+    "standardAmount": "1 msk"
+   },
+   "w-vn-002-i8": {
+    "name": "Kycklingbuljongpulver",
+    "standardAmount": "½ tsk"
+   },
+   "w-vn-002-i9": {
+    "name": "Glutamat (valfritt)",
+    "standardAmount": "¼ tsk"
+   },
+   "w-vn-002-i10": {
+    "name": "Vilda betelblad",
+    "standardAmount": "25-30"
+   }
   },
   "instructions": {
-    "1": "Tvätta bladen väl och torka med hushållspapper. Spara en bit stjälk för att binda rullarna.",
-    "2": "Blanda färsen i stor skål med schalottenlök, vitlök, peppar, socker, fisksås, ostronsås, buljongpulver och glutamat (valfritt).",
-    "3": "Lägg ett blad med den blanka sidan nedåt och den smala änden neråt. Lägg ca 2 msk fyllning i mitten, vik den smala änden över fyllningen och rulla försiktigt. Fäst stjälken i rullen så den inte öppnar. Om stjälken är mjuk, gör ett hål med liten kniv och stoppa in stjälken. Lägg med stjälken nedåt. Upprepa med resten.",
-    "4": "Grilla rullarna på grillen för rökig smak, eller fritera i lite vegetabilisk olja ca 2 minuter per sida.",
-    "5": "Servera i skål med tunna risnudlar, skuren sallad och vietnamesiska örter. Strö rostade jordnötter och servera med fisksåsdip. Servera gärna med rispapper för egen rullning."
+   "1": "Tvätta bladen väl och torka med hushållspapper. Spara en bit stjälk för att binda rullarna.",
+   "2": "Blanda färsen i stor skål med schalottenlök, vitlök, peppar, socker, fisksås, ostronsås, buljongpulver och glutamat (valfritt).",
+   "3": "Lägg ett blad med den blanka sidan nedåt och den smala änden neråt. Lägg ca 2 msk fyllning i mitten, vik den smala änden över fyllningen och rulla försiktigt. Fäst stjälken i rullen så den inte öppnar. Om stjälken är mjuk, gör ett hål med liten kniv och stoppa in stjälken. Lägg med stjälken nedåt. Upprepa med resten.",
+   "4": "Grilla rullarna på grillen för rökig smak, eller fritera i lite vegetabilisk olja ca 2 minuter per sida.",
+   "5": "Servera i skål med tunna risnudlar, skuren sallad och vietnamesiska örter. Strö rostade jordnötter och servera med fisksåsdip. Servera gärna med rispapper för egen rullning."
   },
   "culturalNotes": "Nöt i betelblad är en traditionell vietnamesisk rätt som ofta serveras på speciella tillfällen."
-},
-"w-vn-003": {
+ },
+ "w-vn-003": {
   "title": "Pandanvåfflor (Bánh Kếp Lá Dứa)",
   "ingredients": {
-    "w-vn-003-i1": {"name": "Smör", "standardAmount": "2 msk"},
-    "w-vn-003-i2": {"name": "Rismjöl", "standardAmount": "1½ dl"},
-    "w-vn-003-i3": {"name": "Tapiokastärkelse", "standardAmount": "½ dl"},
-    "w-vn-003-i4": {"name": "Vetemjöl", "standardAmount": "½ dl"},
-    "w-vn-003-i5": {"name": "Bakpulver", "standardAmount": "1 msk"},
-    "w-vn-003-i6": {"name": "Salt", "standardAmount": "¼ tsk"},
-    "w-vn-003-i7": {"name": "Ägg", "standardAmount": "2 stora"},
-    "w-vn-003-i8": {"name": "Socker", "standardAmount": "½ dl"},
-    "w-vn-003-i9": {"name": "Kokosmjölk", "standardAmount": "1½ dl"},
-    "w-vn-003-i10": {"name": "Pandanpasta", "standardAmount": "¾ tsk"}
+   "w-vn-003-i1": {
+    "name": "Smör",
+    "standardAmount": "2 msk"
+   },
+   "w-vn-003-i2": {
+    "name": "Rismjöl",
+    "standardAmount": "1½ dl"
+   },
+   "w-vn-003-i3": {
+    "name": "Tapiokastärkelse",
+    "standardAmount": "½ dl"
+   },
+   "w-vn-003-i4": {
+    "name": "Vetemjöl",
+    "standardAmount": "½ dl"
+   },
+   "w-vn-003-i5": {
+    "name": "Bakpulver",
+    "standardAmount": "1 msk"
+   },
+   "w-vn-003-i6": {
+    "name": "Salt",
+    "standardAmount": "¼ tsk"
+   },
+   "w-vn-003-i7": {
+    "name": "Ägg",
+    "standardAmount": "2 stora"
+   },
+   "w-vn-003-i8": {
+    "name": "Socker",
+    "standardAmount": "½ dl"
+   },
+   "w-vn-003-i9": {
+    "name": "Kokosmjölk",
+    "standardAmount": "1½ dl"
+   },
+   "w-vn-003-i10": {
+    "name": "Pandanpasta",
+    "standardAmount": "¾ tsk"
+   }
   },
   "instructions": {
-    "1": "Smält smöret i micron på låg effekt 30-45 sekunder. Rör och kyl.",
-    "2": "Sikta rismjöl, tapioka, vetemjöl, bakpulver och salt i stor skål.",
-    "3": "Vispa ägg och socker i stor skål. Tillsätt kokosmjölk, smält smör och pandanpasta, rör väl.",
-    "4": "Tillsätt hälften av de torra, rör. Tillsätt resten och rör försiktigt och lös stora klumpar. Låt smeten stå 15 minuter.",
-    "5": "Värm våffeljärnet på högsta. Häll ca ⅔ dl smet och bred med spatel. Stäng och grädda 4-5 minuter tills gyllene.",
-    "6": "Lyft våfflan med bambupinne och flytta med tång till galler.",
-    "7": "Servera varma."
+   "1": "Smält smöret i micron på låg effekt 30-45 sekunder. Rör och kyl.",
+   "2": "Sikta rismjöl, tapioka, vetemjöl, bakpulver och salt i stor skål.",
+   "3": "Vispa ägg och socker i stor skål. Tillsätt kokosmjölk, smält smör och pandanpasta, rör väl.",
+   "4": "Tillsätt hälften av de torra, rör. Tillsätt resten och rör försiktigt och lös stora klumpar. Låt smeten stå 15 minuter.",
+   "5": "Värm våffeljärnet på högsta. Häll ca ⅔ dl smet och bred med spatel. Stäng och grädda 4-5 minuter tills gyllene.",
+   "6": "Lyft våfflan med bambupinne och flytta med tång till galler.",
+   "7": "Servera varma."
   },
   "culturalNotes": "Pandanvåfflor är traditionell vietnamesisk dessert med pandan- och kokosarom."
-},
-"w-vn-004": {
+ },
+ "w-vn-004": {
   "title": "Bánh pía",
   "ingredients": {
-    "w-vn-004-i1": {"name": "Mjöl", "standardAmount": "500 g"},
-    "w-vn-004-i2": {"name": "Socker", "standardAmount": "250 g"},
-    "w-vn-004-i3": {"name": "Vegetabilisk olja", "standardAmount": "100 ml"},
-    "w-vn-004-i4": {"name": "Ägg", "standardAmount": "2"},
-    "w-vn-004-i5": {"name": "Mjölk", "standardAmount": "100 ml"},
-    "w-vn-004-i6": {"name": "Salt", "standardAmount": "½ tsk"},
-    "w-vn-004-i7": {"name": "Puddingfyllning", "standardAmount": "400 g"}
+   "w-vn-004-i1": {
+    "name": "Mjöl",
+    "standardAmount": "500 g"
+   },
+   "w-vn-004-i2": {
+    "name": "Socker",
+    "standardAmount": "250 g"
+   },
+   "w-vn-004-i3": {
+    "name": "Vegetabilisk olja",
+    "standardAmount": "100 ml"
+   },
+   "w-vn-004-i4": {
+    "name": "Ägg",
+    "standardAmount": "2"
+   },
+   "w-vn-004-i5": {
+    "name": "Mjölk",
+    "standardAmount": "100 ml"
+   },
+   "w-vn-004-i6": {
+    "name": "Salt",
+    "standardAmount": "½ tsk"
+   },
+   "w-vn-004-i7": {
+    "name": "Puddingfyllning",
+    "standardAmount": "400 g"
+   }
   },
   "instructions": {
-    "1": "Blanda mjöl, socker och salt i stor skål.",
-    "2": "Tillsätt ägg, mjölk och olja, arbeta till slät deg.",
-    "3": "Täck degen och låt stå 30 minuter.",
-    "4": "Dela degen i 12 lika delar och forma bollar.",
-    "5": "Lägg fyllning i mitten av varje boll och slut med degen.",
-    "6": "Lägg i bánh pía-formar och grädda i förvärmd ugn 180 °C.",
-    "7": "Grädda 20-25 minuter tills gyllene."
+   "1": "Blanda mjöl, socker och salt i stor skål.",
+   "2": "Tillsätt ägg, mjölk och olja, arbeta till slät deg.",
+   "3": "Täck degen och låt stå 30 minuter.",
+   "4": "Dela degen i 12 lika delar och forma bollar.",
+   "5": "Lägg fyllning i mitten av varje boll och slut med degen.",
+   "6": "Lägg i bánh pía-formar och grädda i förvärmd ugn 180 °C.",
+   "7": "Grädda 20-25 minuter tills gyllene."
   },
   "culturalNotes": "Bánh pía är traditionell vietnamesisk bläddradegssötsak för speciella tillfällen."
-},
-"w-vn-005": {
+ },
+ "w-vn-005": {
   "title": "Bánh Tráng Trộn (vietnamesisk rispappersallad)",
   "ingredients": {
-    "w-vn-005-i1": {"name": "Tamarindpasta", "standardAmount": "100 g"},
-    "w-vn-005-i2": {"name": "Vegetabilisk olja", "standardAmount": "4 msk"},
-    "w-vn-005-i3": {"name": "Vitlöksklyftor", "standardAmount": "6"},
-    "w-vn-005-i4": {"name": "Fisksås", "standardAmount": "2 msk"},
-    "w-vn-005-i5": {"name": "Kristallsocker", "standardAmount": "3 msk"},
-    "w-vn-005-i6": {"name": "Glutamat (valfritt)", "standardAmount": "½ tsk"},
-    "w-vn-005-i7": {"name": "Chiliflakes (valfritt)", "standardAmount": "1 msk"},
-    "w-vn-005-i8": {"name": "Torkad bläckfisk", "standardAmount": "200 g"},
-    "w-vn-005-i9": {"name": "Torkade räkor", "standardAmount": "100 g"},
-    "w-vn-005-i10": {"name": "Beef jerky", "standardAmount": "100 g"},
-    "w-vn-005-i11": {"name": "Torkat rispapper", "standardAmount": "170 g"},
-    "w-vn-005-i12": {"name": "Vietnamesisk chiliolja", "standardAmount": "efter smak"},
-    "w-vn-005-i13": {"name": "Vietnamesisk lök olja", "standardAmount": "efter smak"},
-    "w-vn-005-i14": {"name": "Grön mango", "standardAmount": "1"},
-    "w-vn-005-i15": {"name": "Kokta vaktelägg", "standardAmount": "10"},
-    "w-vn-005-i16": {"name": "Friterad schalottenlök", "standardAmount": "efter smak"},
-    "w-vn-005-i17": {"name": "Osaltade rostade jordnötter", "standardAmount": "¼ dl"},
-    "w-vn-005-i18": {"name": "Vietnamesiska korianderblad", "standardAmount": "2 dl"}
+   "w-vn-005-i1": {
+    "name": "Tamarindpasta",
+    "standardAmount": "100 g"
+   },
+   "w-vn-005-i2": {
+    "name": "Vegetabilisk olja",
+    "standardAmount": "4 msk"
+   },
+   "w-vn-005-i3": {
+    "name": "Vitlöksklyftor",
+    "standardAmount": "6"
+   },
+   "w-vn-005-i4": {
+    "name": "Fisksås",
+    "standardAmount": "2 msk"
+   },
+   "w-vn-005-i5": {
+    "name": "Kristallsocker",
+    "standardAmount": "3 msk"
+   },
+   "w-vn-005-i6": {
+    "name": "Glutamat (valfritt)",
+    "standardAmount": "½ tsk"
+   },
+   "w-vn-005-i7": {
+    "name": "Chiliflakes (valfritt)",
+    "standardAmount": "1 msk"
+   },
+   "w-vn-005-i8": {
+    "name": "Torkad bläckfisk",
+    "standardAmount": "200 g"
+   },
+   "w-vn-005-i9": {
+    "name": "Torkade räkor",
+    "standardAmount": "100 g"
+   },
+   "w-vn-005-i10": {
+    "name": "Beef jerky",
+    "standardAmount": "100 g"
+   },
+   "w-vn-005-i11": {
+    "name": "Torkat rispapper",
+    "standardAmount": "170 g"
+   },
+   "w-vn-005-i12": {
+    "name": "Vietnamesisk chiliolja",
+    "standardAmount": "efter smak"
+   },
+   "w-vn-005-i13": {
+    "name": "Vietnamesisk lök olja",
+    "standardAmount": "efter smak"
+   },
+   "w-vn-005-i14": {
+    "name": "Grön mango",
+    "standardAmount": "1"
+   },
+   "w-vn-005-i15": {
+    "name": "Kokta vaktelägg",
+    "standardAmount": "10"
+   },
+   "w-vn-005-i16": {
+    "name": "Friterad schalottenlök",
+    "standardAmount": "efter smak"
+   },
+   "w-vn-005-i17": {
+    "name": "Osaltade rostade jordnötter",
+    "standardAmount": "¼ dl"
+   },
+   "w-vn-005-i18": {
+    "name": "Vietnamesiska korianderblad",
+    "standardAmount": "2 dl"
+   }
   },
   "instructions": {
-    "1": "Med tamarindpasta: blötlägg i 2 dl varmt vatten 15 minuter, gnid genom fin sil och kasta massan.",
-    "2": "Hetta olja i kastrull på medelvärme. Fräs vitlöken ca 15 sekunder. Tillsätt tamarind, fisksås, socker, glutamat och chiliflakes, rör. Låt sjuda 1 minut. Häll i liten skål.",
-    "3": "Hetta vegetabilisk olja i medelstor stekpanna på medelvärme. Fritera bläckfisken 30 sekunder; den rullar sig, tryck kanterna med ätpinnar för jämn fritering. Vänd och fritera 30 sekunder till. Ta upp. När sval, riv med händerna i långa remsor.",
-    "4": "I samma olja fritera räkorna ca 1 minut, ta upp.",
-    "5": "Riv beef jerky med händerna i tunna remsor.",
-    "6": "Lägg rispappret i stor skål. Tillsätt tamarindsås, chiliolja och lök olja, rör väl tills pappret sugit upp såsen. Ser torrt ut först men mjuknar.",
-    "7": "Tillsätt jerky, bläckfisk, räkor, grön mango och vaktelägg, rör kort.",
-    "8": "Garnera med friterad schalottenlök, jordnötter och vietnamesisk koriander."
+   "1": "Med tamarindpasta: blötlägg i 2 dl varmt vatten 15 minuter, gnid genom fin sil och kasta massan.",
+   "2": "Hetta olja i kastrull på medelvärme. Fräs vitlöken ca 15 sekunder. Tillsätt tamarind, fisksås, socker, glutamat och chiliflakes, rör. Låt sjuda 1 minut. Häll i liten skål.",
+   "3": "Hetta vegetabilisk olja i medelstor stekpanna på medelvärme. Fritera bläckfisken 30 sekunder; den rullar sig, tryck kanterna med ätpinnar för jämn fritering. Vänd och fritera 30 sekunder till. Ta upp. När sval, riv med händerna i långa remsor.",
+   "4": "I samma olja fritera räkorna ca 1 minut, ta upp.",
+   "5": "Riv beef jerky med händerna i tunna remsor.",
+   "6": "Lägg rispappret i stor skål. Tillsätt tamarindsås, chiliolja och lök olja, rör väl tills pappret sugit upp såsen. Ser torrt ut först men mjuknar.",
+   "7": "Tillsätt jerky, bläckfisk, räkor, grön mango och vaktelägg, rör kort.",
+   "8": "Garnera med friterad schalottenlök, jordnötter och vietnamesisk koriander."
   },
   "culturalNotes": "Bánh Tráng Trộn är ett populärt vietnamesiskt mellanmål som äts som förrätt eller lätt måltid."
-},
-"w-vn-006": {
+ },
+ "w-vn-006": {
   "title": "Chè Trôi Nước (klibbrisbollar i ingefärssirap)",
   "ingredients": {
-    "w-vn-006-i1": {"name": "Klibbrismjöl", "standardAmount": "450 g"},
-    "w-vn-006-i2": {"name": "Hett vatten", "standardAmount": "1¾ dl"},
-    "w-vn-006-i3": {"name": "Klyvade mungbönor", "standardAmount": "¾ dl"},
-    "w-vn-006-i4": {"name": "Socker", "standardAmount": "2 msk"},
-    "w-vn-006-i5": {"name": "Salt", "standardAmount": "1 tsk"},
-    "w-vn-006-i6": {"name": "Vatten", "standardAmount": "6 dl"},
-    "w-vn-006-i7": {"name": "Färsk ingefära", "standardAmount": "10 cm"},
-    "w-vn-006-i8": {"name": "Palmsocker", "standardAmount": "280 g"},
-    "w-vn-006-i9": {"name": "Kokosmjölk", "standardAmount": "valfritt"},
-    "w-vn-006-i10": {"name": "Rostat sesamfrö", "standardAmount": "¼ dl"}
+   "w-vn-006-i1": {
+    "name": "Klibbrismjöl",
+    "standardAmount": "450 g"
+   },
+   "w-vn-006-i2": {
+    "name": "Hett vatten",
+    "standardAmount": "1¾ dl"
+   },
+   "w-vn-006-i3": {
+    "name": "Klyvade mungbönor",
+    "standardAmount": "¾ dl"
+   },
+   "w-vn-006-i4": {
+    "name": "Socker",
+    "standardAmount": "2 msk"
+   },
+   "w-vn-006-i5": {
+    "name": "Salt",
+    "standardAmount": "1 tsk"
+   },
+   "w-vn-006-i6": {
+    "name": "Vatten",
+    "standardAmount": "6 dl"
+   },
+   "w-vn-006-i7": {
+    "name": "Färsk ingefära",
+    "standardAmount": "10 cm"
+   },
+   "w-vn-006-i8": {
+    "name": "Palmsocker",
+    "standardAmount": "280 g"
+   },
+   "w-vn-006-i9": {
+    "name": "Kokosmjölk",
+    "standardAmount": "valfritt"
+   },
+   "w-vn-006-i10": {
+    "name": "Rostat sesamfrö",
+    "standardAmount": "¼ dl"
+   }
   },
   "instructions": {
-    "1": "Blanda klibbrismjölet med hett vatten i stor skål och knåda till slät deg. Tillsätt inte mer vatten. Täck och låt stå 30 minuter.",
-    "2": "Dela degen i 28 bollar ca 2,5 cm.",
-    "3": "Skölj mungbönorna tills vattnet är klart. Täck i medelstor kastrull med 2,5 cm vatten, koka på medelvärme och sjuda tills mjuka men i form (ca 15 minuter). Se till att det inte kokar över. Häll av och torka på avstängd platta. Tillsätt salt och socker, mosa med stor sked till grov pasta.",
-    "4": "Forma fyllningen till bollar ca 1,2 cm (ca 28). Om mjuk, kyl lite.",
-    "5": "Platta ut en degboll till tjock skiva, lägg fyllningsboll i mitten, slut degen och rulla i handflatan till slät boll. Låt inte fyllningen komma ut, annars faller bollarna sönder vid kokning. Med resterande deg forma små pärlbollar utan fyllning. Håll täckta.",
-    "6": "Koka vatten med palmsocker i stor gryta tills sockret smälter. Skala ingefäran med sked och skär tunna remsor. Sänk bollarna försiktigt i sirapen och sjuda på medellåg värme tills de flyter (ca 20 minuter).",
-    "7": "Gör eventuellt kokossåsen.",
-    "8": "Servera några bollar med sirap i skål, ringla kokossås och strö sesam. Servera varma eller rumstempererade."
+   "1": "Blanda klibbrismjölet med hett vatten i stor skål och knåda till slät deg. Tillsätt inte mer vatten. Täck och låt stå 30 minuter.",
+   "2": "Dela degen i 28 bollar ca 2,5 cm.",
+   "3": "Skölj mungbönorna tills vattnet är klart. Täck i medelstor kastrull med 2,5 cm vatten, koka på medelvärme och sjuda tills mjuka men i form (ca 15 minuter). Se till att det inte kokar över. Häll av och torka på avstängd platta. Tillsätt salt och socker, mosa med stor sked till grov pasta.",
+   "4": "Forma fyllningen till bollar ca 1,2 cm (ca 28). Om mjuk, kyl lite.",
+   "5": "Platta ut en degboll till tjock skiva, lägg fyllningsboll i mitten, slut degen och rulla i handflatan till slät boll. Låt inte fyllningen komma ut, annars faller bollarna sönder vid kokning. Med resterande deg forma små pärlbollar utan fyllning. Håll täckta.",
+   "6": "Koka vatten med palmsocker i stor gryta tills sockret smälter. Skala ingefäran med sked och skär tunna remsor. Sänk bollarna försiktigt i sirapen och sjuda på medellåg värme tills de flyter (ca 20 minuter).",
+   "7": "Gör eventuellt kokossåsen.",
+   "8": "Servera några bollar med sirap i skål, ringla kokossås och strö sesam. Servera varma eller rumstempererade."
   },
   "culturalNotes": "Chè Trôi Nước är traditionell vietnamesisk dessert för högtider och fester."
-},
-"w-vn-007": {
+ },
+ "w-vn-007": {
   "title": "Örtagelé (Thạch Sương Sáo)",
   "ingredients": {
-    "w-vn-007-i1": {"name": "Örtagelépulver", "standardAmount": "50 g"},
-    "w-vn-007-i2": {"name": "Socker", "standardAmount": "⅓ dl"},
-    "w-vn-007-i3": {"name": "Vatten", "standardAmount": "4 dl (fördelat)"}
+   "w-vn-007-i1": {
+    "name": "Örtagelépulver",
+    "standardAmount": "50 g"
+   },
+   "w-vn-007-i2": {
+    "name": "Socker",
+    "standardAmount": "⅓ dl"
+   },
+   "w-vn-007-i3": {
+    "name": "Vatten",
+    "standardAmount": "4 dl (fördelat)"
+   }
   },
   "instructions": {
-    "1": "Lägg gelépulvret i medelstor kastrull. Tillsätt socker och 2 dl vatten, rör tills pulvret lösts.",
-    "2": "Tillsätt resterande 2 dl vatten, rör väl.",
-    "3": "Låt blandningen stå 10 minuter.",
-    "4": "Värm på medelvärme med omrörning med spatel, skrapa botten där pulvret sätter sig.",
-    "5": "Efter 3-4 minuter börjar det koka och blir klumpigt. Rör snabbt med visp till slät och fortsätt röra tills det sjunder. Ta av värmen och rör 1 minut till tills slät utan klumpar.",
-    "6": "Häll i värmesäkert kärl och stick sönder bubblor med tandpetare eller ta bort med sked.",
-    "7": "Kyl i rumstemperatur 1-1,5 timme.",
-    "8": "Ställ i kylen minst 2 timmar.",
-    "9": "Vält formen på stor skärbräda och skär geleen i kuber.",
-    "10": "Vid servering lägg is i dessertskål, tillsätt gelékuber och strö lite socker.",
-    "11": "Eventuellt skär mindre med tandad kniv och lägg i kall dryck.",
-    "12": "Förvara resterande gele i kylen upp till 1 vecka."
+   "1": "Lägg gelépulvret i medelstor kastrull. Tillsätt socker och 2 dl vatten, rör tills pulvret lösts.",
+   "2": "Tillsätt resterande 2 dl vatten, rör väl.",
+   "3": "Låt blandningen stå 10 minuter.",
+   "4": "Värm på medelvärme med omrörning med spatel, skrapa botten där pulvret sätter sig.",
+   "5": "Efter 3-4 minuter börjar det koka och blir klumpigt. Rör snabbt med visp till slät och fortsätt röra tills det sjunder. Ta av värmen och rör 1 minut till tills slät utan klumpar.",
+   "6": "Häll i värmesäkert kärl och stick sönder bubblor med tandpetare eller ta bort med sked.",
+   "7": "Kyl i rumstemperatur 1-1,5 timme.",
+   "8": "Ställ i kylen minst 2 timmar.",
+   "9": "Vält formen på stor skärbräda och skär geleen i kuber.",
+   "10": "Vid servering lägg is i dessertskål, tillsätt gelékuber och strö lite socker.",
+   "11": "Eventuellt skär mindre med tandad kniv och lägg i kall dryck.",
+   "12": "Förvara resterande gele i kylen upp till 1 vecka."
   },
   "culturalNotes": "Örtagelé är traditionell vietnamesisk dessert, uppfriskande sötsak på varma dagar."
-}
+ },
+ "w-es-001": {
+  "title": "Arroz Negro (svart ris med bläckfisk)",
+  "ingredients": {
+   "w-es-001-i1": {
+    "name": "fiskbuljong",
+    "standardAmount": "7,1 dl"
+   },
+   "w-es-001-i2": {
+    "name": "saffranstrådar",
+    "standardAmount": "1/4 tsk"
+   },
+   "w-es-001-i3": {
+    "name": "extra virgin olivolja",
+    "standardAmount": "60 ml"
+   },
+   "w-es-001-i4": {
+    "name": "bläckfisk",
+    "standardAmount": "1 st"
+   },
+   "w-es-001-i5": {
+    "name": "lök",
+    "standardAmount": "1/2 st"
+   },
+   "w-es-001-i6": {
+    "name": "söt grön paprika",
+    "standardAmount": "1/2 st"
+   },
+   "w-es-001-i7": {
+    "name": "vitlök",
+    "standardAmount": "4 klyftor"
+   },
+   "w-es-001-i8": {
+    "name": "söt rökt spansk paprika",
+    "standardAmount": "1/2 tsk"
+   },
+   "w-es-001-i9": {
+    "name": "tomater",
+    "standardAmount": "2 st"
+   },
+   "w-es-001-i10": {
+    "name": "spanskt rundkornigt ris",
+    "standardAmount": "220 g"
+   },
+   "w-es-001-i11": {
+    "name": "bläckfiskbläck",
+    "standardAmount": "4 g"
+   },
+   "w-es-001-i12": {
+    "name": "finhackad persilja",
+    "standardAmount": "en näve"
+   },
+   "w-es-001-i13": {
+    "name": "citron",
+    "standardAmount": "1 st"
+   },
+   "w-es-001-i14": {
+    "name": "havssalt",
+    "standardAmount": "en nypa"
+   },
+   "w-es-001-i15": {
+    "name": "svartpeppar",
+    "standardAmount": "en nypa"
+   }
+  },
+  "instructions": {
+   "1": "Häll 7 dl fiskbuljong i en kastrull med en nypa saffranstrådar och värm på medelvärme.",
+   "2": "Finhacka en halv lök, grovhacka 4 vitlöksklyftor, finhacka en halv grön paprika, riv 2 tomater fint och skär en rengjord bläckfisk i medelstora kuber.",
+   "3": "Värm en paellapanna på medelvärme och tillsätt 60 ml olivolja.",
+   "4": "Efter 1 minut, salta oljan med havssalt och tillsätt bläckfiskbitarna; efter 2 minuter, när den lätt frästs, ta ur och ställ åt sidan.",
+   "5": "I samma panna och värme, tillsätt lök och paprika; efter 3 minuter, när löken är genomskinlig, tillsätt vitlöken. Efter 30 sekunder tillsätt paprikan, rör snabbt och tillsätt den rivna tomaten; sjud.",
+   "6": "När tomatsåsen tjocknat (ca 3 minuter), tillsätt riset, bläcket, salt och peppar och rör 2 minuter; häll i saffransbuljongen och bläckfisken, rör en sista gång och rör inte mer.",
+   "7": "8-9 minuter efter att värmen höjts, när det mesta av buljongen absorberats, sänk värmen och sjud 3-5 minuter tills allt absorberats; höj värmen igen i 90 sekunder för socarrat. Ta av från värmen, täck med en duk och låt vila 5 minuter.",
+   "8": "Garnera med citronklyftor och färsk persilja. Smaklig måltid!"
+  },
+  "culturalNotes": "Arroz Negro är en traditionell spansk rätt, särskilt från Valencia, känd för sin djupa svarta färg och rika bläckfisksmak.",
+  "chapter": "es"
+ },
+ "w-es-002": {
+  "title": "Arroz a la Cubana (kubanskt ris)",
+  "ingredients": {
+   "w-es-002-i1": {
+    "name": "vegetabilisk olja",
+    "standardAmount": "1 msk"
+   },
+   "w-es-002-i2": {
+    "name": "potatis",
+    "standardAmount": "1 medelstor, tärnad"
+   },
+   "w-es-002-i3": {
+    "name": "morot",
+    "standardAmount": "1 medelstor, tärnad"
+   },
+   "w-es-002-i4": {
+    "name": "lök",
+    "standardAmount": "1/2 medelstor, tärnad"
+   },
+   "w-es-002-i5": {
+    "name": "vitlök",
+    "standardAmount": "2 klyftor, hackade"
+   },
+   "w-es-002-i6": {
+    "name": "nötfärs",
+    "standardAmount": "450 g"
+   },
+   "w-es-002-i7": {
+    "name": "vatten",
+    "standardAmount": "60 ml"
+   },
+   "w-es-002-i8": {
+    "name": "sojasås",
+    "standardAmount": "2 msk"
+   },
+   "w-es-002-i9": {
+    "name": "salt",
+    "standardAmount": "efter smak"
+   },
+   "w-es-002-i10": {
+    "name": "malen svartpeppar",
+    "standardAmount": "efter smak"
+   },
+   "w-es-002-i11": {
+    "name": "paprika",
+    "standardAmount": "1 medelstor, tärnad"
+   },
+   "w-es-002-i12": {
+    "name": "russin",
+    "standardAmount": "2 msk"
+   },
+   "w-es-002-i13": {
+    "name": "ärter",
+    "standardAmount": "2 msk"
+   },
+   "w-es-002-i14": {
+    "name": "kokt ris",
+    "standardAmount": "2 koppar"
+   }
+  },
+  "instructions": {
+   "1": "Värm oljan i en stor stekpanna på medelvärme. Tillsätt potatis och morot och fräs 3 minuter. Flytta till en skål.",
+   "2": "Tillsätt lök och vitlök i den varma pannan och fräs tills lätt gyllene, 5-7 minuter. Tillsätt färsen och bryn 5-7 minuter tills smulig.",
+   "3": "Lägg tillbaka potatis-morotsblandningen i pannan med vatten, sojasås, salt och peppar. Täck och sjud tills potatisen är mjuk, 5-8 minuter.",
+   "4": "Tillsätt paprika, russin och ärtor och värm 2 minuter. Servera över varmt kokt ris."
+  },
+  "culturalNotes": "Arroz a la Cubana är en populär rätt i Spanien: en blandning av nötfärs, grönsaker och kryddor serverad över ris.",
+  "chapter": "es"
+ },
+ "w-es-003": {
+  "title": "Baskisk vitlökssoppa (zurrukutuna)",
+  "ingredients": {
+   "w-es-003-i1": {
+    "name": "extra virgin olivolja",
+    "standardAmount": "60 ml"
+   },
+   "w-es-003-i2": {
+    "name": "baguette",
+    "standardAmount": "100 g"
+   },
+   "w-es-003-i3": {
+    "name": "vitlök",
+    "standardAmount": "6 klyftor, tunt skivade"
+   },
+   "w-es-003-i4": {
+    "name": "chiliflakes",
+    "standardAmount": "1/4 tsk"
+   },
+   "w-es-003-i5": {
+    "name": "söt rökt paprika",
+    "standardAmount": "1 tsk"
+   },
+   "w-es-003-i6": {
+    "name": "tomater",
+    "standardAmount": "2, fint rivna"
+   },
+   "w-es-003-i7": {
+    "name": "grönsaksbuljong",
+    "standardAmount": "1 liter"
+   },
+   "w-es-003-i8": {
+    "name": "lagerblad",
+    "standardAmount": "1"
+   },
+   "w-es-003-i9": {
+    "name": "torsklfilé",
+    "standardAmount": "225 g"
+   },
+   "w-es-003-i10": {
+    "name": "ägg",
+    "standardAmount": "2"
+   },
+   "w-es-003-i11": {
+    "name": "havssalt och svartpeppar",
+    "standardAmount": "efter smak"
+   },
+   "w-es-003-i12": {
+    "name": "hackad persilja",
+    "standardAmount": "till garnering"
+   }
+  },
+  "instructions": {
+   "1": "Skär baguetten i 1,25 cm tjocka skivor, lägg på en folieklädd plåt och rosta i 200°C ugn i 10 minuter tills lätt rostade; ställ åt sidan.",
+   "2": "Värm en gryta på medelvärme och tillsätt olivoljan.",
+   "3": "Efter några minuter, tillsätt vitlöken och chiliflakes och rör 1 minut; tillsätt de rostade brödskivorna och rör 3 minuter, sedan paprikan och därefter de rivna tomaterna; salta och peppra.",
+   "4": "3 minuter efter tomaterna, tillsätt grönsaksbuljongen och lagerbladet, höj värmen och när det kokar, täck och sänk värmen; rör var 2-3 minut så brödet faller sönder.",
+   "5": "Medan soppan sjuder, torka torskfilén med hushållspapper, salta, peppra och finhacka; vispa äggen i en skål med salt.",
+   "6": "Efter 15 minuter, ta ur lagerbladet, tillsätt torsken och sjud 3 minuter; häll långsamt i de vispade äggen under försiktig omrörning, täck och stäng av värmen.",
+   "7": "Efter några minuter, servera soppan i djupa tallrikar och garnera med persilja. Smaklig måltid!"
+  },
+  "culturalNotes": "Zurrukutuna är en traditionell vitlökssoppa från Baskien i Spanien, känd för sin rika och kraftiga smak.",
+  "chapter": "es"
+ },
+ "w-es-004": {
+  "title": "Boquerones en Vinagre (marinerade sardiner)",
+  "ingredients": {
+   "w-es-004-i1": {
+    "name": "sardiner",
+    "standardAmount": "450 g"
+   },
+   "w-es-004-i2": {
+    "name": "citronsaft",
+    "standardAmount": "efter behov"
+   },
+   "w-es-004-i3": {
+    "name": "äppelcidervinäger",
+    "standardAmount": "efter behov"
+   },
+   "w-es-004-i4": {
+    "name": "havssalt",
+    "standardAmount": "efter smak"
+   },
+   "w-es-004-i5": {
+    "name": "svartpeppar",
+    "standardAmount": "efter smak"
+   },
+   "w-es-004-i6": {
+    "name": "persilja",
+    "standardAmount": "efter behov"
+   }
+  },
+  "instructions": {
+   "1": "Börja med att rensa sardinerna: ta bort huvud, inälvor och ryggrad med tummen. Skölj under kallt vatten och lägg i en skål med lite havssalt.",
+   "2": "Lägg sardinerna plant i en ugnsform av glas. Använd glas, inte metall, för att undvika metallsmak.",
+   "3": "Täck sardinerna med citronsaft och vinäger. Tips: använd mer vinäger än citronsaft — citronsmaken blir bitter dagen efter.",
+   "4": "Finhacka persiljan och strö över sardinerna.",
+   "5": "Lägg ett andra lager sardiner och upprepa.",
+   "6": "Täck formen med plastfolie och ställ i kylen minst 4 timmar.",
+   "7": "Skölj sardinerna med kallt vatten före servering, garnera med persilja och havssalt. Servera med bondbröd."
+  },
+  "culturalNotes": "Boquerones en Vinagre är en traditionell tapasrätt i Spanien, ofta serverad som aperitif på barer och kaféer.",
+  "chapter": "es"
+ },
+ "w-es-005": {
+  "title": "Crema Catalana (katalansk kräm)",
+  "ingredients": {
+   "w-es-005-i1": {
+    "name": "mjölk",
+    "standardAmount": "6 dl"
+   },
+   "w-es-005-i2": {
+    "name": "vaniljstång",
+    "standardAmount": "1"
+   },
+   "w-es-005-i3": {
+    "name": "kanelstång",
+    "standardAmount": "1"
+   },
+   "w-es-005-i4": {
+    "name": "citronskal",
+    "standardAmount": "8"
+   },
+   "w-es-005-i5": {
+    "name": "äggulor",
+    "standardAmount": "5"
+   },
+   "w-es-005-i6": {
+    "name": "socker",
+    "standardAmount": "60 ml + extra för karamellisering"
+   },
+   "w-es-005-i7": {
+    "name": "majsstärkelse",
+    "standardAmount": "1 msk"
+   }
+  },
+  "instructions": {
+   "1": "Häll 5 dl mjölk i en kastrull med 8 citronskal, 1 kanelstång, 1 klyven vaniljstång och 2 msk socker. Koka lätt upp på medelvärme, stäng av och låt dra 10 minuter.",
+   "2": "Separera gulorna från 5 ägg (kasta vitorna). Vispa gulorna med 2 msk socker. Blanda i en annan skål 1,2 dl kall mjölk med 1 msk majsstärkelse tills slät och häll i gulorna.",
+   "3": "Sila den dragna mjölken i äggblandningen och vispa väl. Häll tillbaka i kastrullen på medelvärme, vispa konstant 9-10 minuter tills den tjocknat. Stäng av och vispa 30 sekunder till.",
+   "4": "Fördela i 4 portionsformar. Efter 20 minuter, täck med plastfolie och kyl minst 4 timmar.",
+   "5": "Före servering, strö 1 msk socker på varje form och karamellisera med köksbrännare tills djupt gyllene."
+  },
+  "culturalNotes": "Crema Catalana är en traditionell dessert från Katalonien i Spanien, känd för sin rika smak och krispiga karamelliserade yta.",
+  "chapter": "es"
+ },
+ "w-es-006": {
+  "title": "Fabada Asturiana (asturisk böngryta)",
+  "ingredients": {
+   "w-es-006-i1": {
+    "name": "vitlök",
+    "standardAmount": "3 klyftor"
+   },
+   "w-es-006-i2": {
+    "name": "lök",
+    "standardAmount": "1/2"
+   },
+   "w-es-006-i3": {
+    "name": "halal nötkorv",
+    "standardAmount": "2 st"
+   },
+   "w-es-006-i4": {
+    "name": "vita bönor",
+    "standardAmount": "570 g"
+   },
+   "w-es-006-i5": {
+    "name": "extra virgin olivolja",
+    "standardAmount": "1 msk"
+   },
+   "w-es-006-i6": {
+    "name": "söt rökt paprika",
+    "standardAmount": "1 tsk"
+   },
+   "w-es-006-i7": {
+    "name": "kallt vatten",
+    "standardAmount": "3,6 dl"
+   },
+   "w-es-006-i8": {
+    "name": "saffranstrådar",
+    "standardAmount": "1/2 tsk"
+   },
+   "w-es-006-i9": {
+    "name": "havssalt",
+    "standardAmount": "efter smak"
+   },
+   "w-es-006-i10": {
+    "name": "svartpeppar",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Häll av vita bönor i en sil och skölj under kallt rinnande vatten.",
+   "2": "Skala 3 vitlöksklyftor och finhacka, tärna en halv lök och skär korvarna i 2,5 cm bitar.",
+   "3": "Värm en stor kastrull på medelvärme med en generös matsked olivolja. Efter 2 minuter, tillsätt korvarna och stek 4 minuter tills brynta; ta ur.",
+   "4": "I samma kastrull, tillsätt lök och vitlök och fräs 3 minuter tills löken är genomskinlig. Tillsätt paprikan och rör snabbt.",
+   "5": "Lägg tillbaka korvarna, tillsätt bönorna och rör om väl. Häll i 3,6 dl kallt vatten, en nypa salt och saffran, rör försiktigt.",
+   "6": "Täck och koka 8 minuter på medelvärme. Öppna och stäng av värmen; vattnet ska ha tjocknat till en rik buljong.",
+   "7": "Fördela fabadan i djupa tallrikar och servera varm."
+  },
+  "culturalNotes": "Fabada Asturiana är en traditionell rätt från Asturien i norra Spanien, känd för sin rika smak och karakteristiska kryddor.",
+  "chapter": "es"
+ },
+ "w-es-007": {
+  "title": "Spansk fisk- och tomatgryta",
+  "ingredients": {
+   "w-es-007-i1": {
+    "name": "extra virgin olivolja",
+    "standardAmount": "45 ml"
+   },
+   "w-es-007-i2": {
+    "name": "lök",
+    "standardAmount": "1 medelstor"
+   },
+   "w-es-007-i3": {
+    "name": "vitlök",
+    "standardAmount": "4 klyftor"
+   },
+   "w-es-007-i4": {
+    "name": "selleri",
+    "standardAmount": "2 stjälkar"
+   },
+   "w-es-007-i5": {
+    "name": "morot",
+    "standardAmount": "1"
+   },
+   "w-es-007-i6": {
+    "name": "söt rökt paprika",
+    "standardAmount": "2 tsk"
+   },
+   "w-es-007-i7": {
+    "name": "torkad timjan",
+    "standardAmount": "1/2 tsk"
+   },
+   "w-es-007-i8": {
+    "name": "tärnade tomater",
+    "standardAmount": "1 burk (425 g)"
+   },
+   "w-es-007-i9": {
+    "name": "fiskbuljong",
+    "standardAmount": "3,6 dl"
+   },
+   "w-es-007-i10": {
+    "name": "saffranstrådar",
+    "standardAmount": "1/4 tsk"
+   },
+   "w-es-007-i11": {
+    "name": "småpotatis",
+    "standardAmount": "450 g"
+   },
+   "w-es-007-i12": {
+    "name": "torsklfiléer",
+    "standardAmount": "3 (225 g styck)"
+   },
+   "w-es-007-i13": {
+    "name": "citronsaft",
+    "standardAmount": "1 msk"
+   },
+   "w-es-007-i14": {
+    "name": "havssalt och svartpeppar",
+    "standardAmount": "efter smak"
+   },
+   "w-es-007-i15": {
+    "name": "hackad persilja",
+    "standardAmount": "till garnering"
+   }
+  },
+  "instructions": {
+   "1": "Värm en stor kastrull på medelvärme och tillsätt olivoljan.",
+   "2": "Efter några minuter, tillsätt hackad lök, vitlök, selleri och morot och fräs 5 minuter.",
+   "3": "Tillsätt paprika och timjan, rör snabbt; tillsätt tärnade tomater, fiskbuljong och saffran, salta, peppra och höj värmen.",
+   "4": "Halvera under tiden småpotatisen (eller skär större i 2 cm bitar).",
+   "5": "När buljongen kokar, tillsätt potatisen, täck och sänk värmen.",
+   "6": "Medan grytan sjuder, torka torskfiléerna, salta, peppra och skär varje filé itu (6 bitar).",
+   "7": "Efter 20 minuter, när potatisen är kokt, lägg fisken i ett lager, vänd varje bit i buljongen, täck och sjud 5 minuter.",
+   "8": "Servera direkt ur grytan eller i djupa tallrikar med citronsaft och persilja."
+  },
+  "culturalNotes": "Denna spanska fisk-tomatgryta är en traditionell rätt som ofta serveras vid speciella tillfällen och familjesammankomster.",
+  "chapter": "es"
+ },
+ "w-es-008": {
+  "title": "Pommes frites",
+  "ingredients": {
+   "w-es-008-i1": {
+    "name": "stora potatisar",
+    "standardAmount": "2 extra stora"
+   },
+   "w-es-008-i2": {
+    "name": "vegetabilisk olja",
+    "standardAmount": "1 liter"
+   },
+   "w-es-008-i3": {
+    "name": "salt",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Skär potatisens kanter till en rektangel. Skär i 1 cm skivor och sedan i stavar.",
+   "2": "Lägg stavarna i kallt vatten minst 30 minuter (eller över natten i kylen). Alternativt, skölj tills vattnet är klart — för att få bort stärkelsen.",
+   "3": "Torka potatisen noggrant med handdukar precis före stekning.",
+   "4": "Värm oljan till 160°C. Fritera stavarna i små omgångar ca 5 minuter tills genomstekta men inte bruna. Låt oljan återhämta värmen mellan omgångarna. Låt rinna av.",
+   "5": "Låt vila 30 minuter.",
+   "6": "Värm oljan till 190°C. Fritera tills ljusbruna och krispiga, 2-4 minuter. Låt rinna av.",
+   "7": "Strö med salt och servera direkt."
+  },
+  "culturalNotes": "Pommes frites är en populär rätt i Spanien, känd som 'papas fritas'.",
+  "chapter": "es"
+ },
+ "w-es-009": {
+  "title": "Croquetas de Pavo (kalkonkroket)",
+  "ingredients": {
+   "w-es-009-i1": {
+    "name": "osaltat smör",
+    "standardAmount": "55 g"
+   },
+   "w-es-009-i2": {
+    "name": "extra virgin olivolja",
+    "standardAmount": "60 ml"
+   },
+   "w-es-009-i3": {
+    "name": "mjöl",
+    "standardAmount": "115 g"
+   },
+   "w-es-009-i4": {
+    "name": "medelstor lök",
+    "standardAmount": "1"
+   },
+   "w-es-009-i5": {
+    "name": "helmjölk",
+    "standardAmount": "1 liter"
+   },
+   "w-es-009-i6": {
+    "name": "muskotnöt",
+    "standardAmount": "1/2 tsk"
+   },
+   "w-es-009-i7": {
+    "name": "halal kalkonskinka",
+    "standardAmount": "255 g"
+   },
+   "w-es-009-i8": {
+    "name": "mjöl (för panering)",
+    "standardAmount": "efter behov"
+   },
+   "w-es-009-i9": {
+    "name": "ägg",
+    "standardAmount": "2"
+   },
+   "w-es-009-i10": {
+    "name": "ströbröd",
+    "standardAmount": "efter behov"
+   }
+  },
+  "instructions": {
+   "1": "Smält smöret med olivoljan i en panna på låg värme.",
+   "2": "Tillsätt finhackad lök och fräs 5-6 minuter tills gyllene.",
+   "3": "Tillsätt en nypa salt och muskotnöt och rör väl.",
+   "4": "Tillsätt finhackad halal kalkonskinka och rör 1 minut.",
+   "5": "Tillsätt mjölet och rör konstant 1 minut.",
+   "6": "Häll gradvis i mjölken under ständig omrörning i 15-20 minuter tills blandningen tjocknat och blivit krämig.",
+   "7": "Häll blandningen i en stor skål, låt svalna till rumstemperatur, täck med plastfolie och kyl minst 4 timmar eller över natten.",
+   "8": "Forma små kroket av den kalla blandningen och vänd i mjöl, sedan uppvispat ägg, sedan ströbröd.",
+   "9": "Värm olja i en panna och stek kroketerna tills gyllenbruna runt om.",
+   "10": "Låt kroketerna rinna av på hushållspapper."
+  },
+  "culturalNotes": "Kroket är en populär rätt i Spanien, ofta serverad som aperitif på barer och kaféer.",
+  "chapter": "es"
+ },
+ "w-es-010": {
+  "title": "Leche Frita (friterad mjölk)",
+  "ingredients": {
+   "w-es-010-i1": {
+    "name": "mjölk",
+    "standardAmount": "1 liter"
+   },
+   "w-es-010-i2": {
+    "name": "majsstärkelse",
+    "standardAmount": "125 g"
+   },
+   "w-es-010-i3": {
+    "name": "strösocker",
+    "standardAmount": "150 g"
+   },
+   "w-es-010-i4": {
+    "name": "kanelpulver",
+    "standardAmount": "1/2 tsk"
+   },
+   "w-es-010-i5": {
+    "name": "kanelstång",
+    "standardAmount": "1"
+   },
+   "w-es-010-i6": {
+    "name": "citronskal",
+    "standardAmount": "4"
+   },
+   "w-es-010-i7": {
+    "name": "citron",
+    "standardAmount": "1/2"
+   },
+   "w-es-010-i8": {
+    "name": "ägg",
+    "standardAmount": "2"
+   },
+   "w-es-010-i9": {
+    "name": "solrosolja",
+    "standardAmount": "125 ml"
+   }
+  },
+  "instructions": {
+   "1": "Häll 7,1 dl mjölk i en kastrull med kanelstången och 4 citronskal. Värm på medelvärme tills lätt kokande och stäng av.",
+   "2": "Medan mjölken drar, häll 2,4 dl mjölk i en skål och tillsätt gradvis majsstärkelsen under ständig vispning.",
+   "3": "Smörj en form på 25x15 cm med 1 tsk solrosolja.",
+   "4": "Efter 20 minuters dragning, ta ur skalen och kanelstången; värm mjölken och tillsätt gradvis stärkelseblandningen och sockret under vispning 20-25 minuter tills tjock och krämig.",
+   "5": "Häll den tjocka blandningen i formen, låt svalna, täck och kyl minst 2 timmar.",
+   "6": "Efter några timmar, vänd formen upp och ner på en skärbräda och skär blandningen i rutor om 4x4 cm.",
+   "7": "Häll majsstärkelse i en skål och vispa äggen i en annan. Vänd varje ruta i stärkelse, sedan ägg, och lägg på en tallrik med bakplåtspapper.",
+   "8": "Värm 125 ml solrosolja i en liten stekpanna på medelvärme. Fritera rutorna i omgångar, 45-60 sekunder per sida. Låt rinna av på papper.",
+   "9": "Blanda socker med kanelpulver och vänd de friterade rutorna. Lägg på serveringsfat, strö med citronzest och servera direkt."
+  },
+  "culturalNotes": "Leche Frita är en traditionell spansk dessert som ofta serveras vid speciella tillfällen och familjesammankomster.",
+  "chapter": "es"
+ },
+ "w-es-011": {
+  "title": "Natillas (spansk vaniljkräm)",
+  "ingredients": {
+   "w-es-011-i1": {
+    "name": "mjölk",
+    "standardAmount": "5,3 dl"
+   },
+   "w-es-011-i2": {
+    "name": "socker",
+    "standardAmount": "80 ml"
+   },
+   "w-es-011-i3": {
+    "name": "ägg",
+    "standardAmount": "3"
+   },
+   "w-es-011-i4": {
+    "name": "vaniljstång",
+    "standardAmount": "1"
+   },
+   "w-es-011-i5": {
+    "name": "kanelstång",
+    "standardAmount": "1"
+   },
+   "w-es-011-i6": {
+    "name": "citronskal",
+    "standardAmount": "3"
+   },
+   "w-es-011-i7": {
+    "name": "kanelpulver",
+    "standardAmount": "1 tsk"
+   },
+   "w-es-011-i8": {
+    "name": "María-kex",
+    "standardAmount": "4"
+   }
+  },
+  "instructions": {
+   "1": "Knäck 3 ägg i en skål, vispa, tillsätt halva sockret och blanda väl.",
+   "2": "Värm en kastrull på medelvärme med mjölken, resterande socker, kanel, vanilj och citronskal.",
+   "3": "Häll ca 80 ml varm mjölk i äggskålen under ständig vispning för att temperera äggen.",
+   "4": "Innan du tillsätter äggblandningen, ta ur kanel, vanilj och citronskal.",
+   "5": "Häll långsamt i äggblandningen under konstant omrörning. Koka tills krämen tjocknat lätt.",
+   "6": "Fördela krämen i 3 skålar, strö med kanel och lägg ett María-kex i varje.",
+   "7": "Täck varje skål med plastfolie och kyl minst 2 timmar.",
+   "8": "Smaklig måltid!"
+  },
+  "culturalNotes": "Natillas är en traditionell spansk dessert som vanligtvis serveras vid speciella tillfällen.",
+  "chapter": "es"
+ },
+ "w-es-012": {
+  "title": "Turrón de Alicante (hård mandelnougat)",
+  "ingredients": {
+   "w-es-012-i1": {
+    "name": "skalade mandlar",
+    "standardAmount": "3,6 dl"
+   },
+   "w-es-012-i2": {
+    "name": "honung",
+    "standardAmount": "1,2 dl"
+   },
+   "w-es-012-i3": {
+    "name": "socker",
+    "standardAmount": "1,2 dl"
+   },
+   "w-es-012-i4": {
+    "name": "äggvita",
+    "standardAmount": "1"
+   },
+   "w-es-012-i5": {
+    "name": "extra virgin olivolja",
+    "standardAmount": "efter behov"
+   }
+  },
+  "instructions": {
+   "1": "Förvärm ugnen till 210°C.",
+   "2": "Fördela mandlarna i ett lager på en plåt med bakplåtspapper och rosta tills doftande och gyllene.",
+   "3": "Ställ 1 äggvita i rumstemperatur i en skål.",
+   "4": "Värm en stor panna på LÅG värme och tillsätt honungen. Koka 15 minuter utan att röra, tillsätt sedan sockret och koka 15 minuter till.",
+   "5": "Efter 30 minuter, vispa äggvitan till hårt skum med elvispen.",
+   "6": "Tillsätt de rostade mandlarna i turrónen och rör med spateln tills homogen.",
+   "7": "Häll turrónen i en avlång form klädd med lätt oljat bakplåtspapper.",
+   "8": "Två alternativ: låt turrónen vila över natten för att stelna, eller kyl för att påskynda."
+  },
+  "culturalNotes": "Turrón de Alicante är en traditionell söt produkt från Alicante-regionen i Spanien, särskilt tillverkad vid jul.",
+  "chapter": "es"
+ },
+ "w-es-013": {
+  "title": "Pa amb Tomàquet (bröd med tomat och vitlök)",
+  "ingredients": {
+   "w-es-013-i1": {
+    "name": "bondbröd",
+    "standardAmount": "4 tjocka skivor"
+   },
+   "w-es-013-i2": {
+    "name": "vitlök",
+    "standardAmount": "4 klyftor"
+   },
+   "w-es-013-i3": {
+    "name": "tomat",
+    "standardAmount": "1"
+   },
+   "w-es-013-i4": {
+    "name": "olivolja",
+    "standardAmount": "60 ml"
+   },
+   "w-es-013-i5": {
+    "name": "salt",
+    "standardAmount": "efter smak"
+   },
+   "w-es-013-i6": {
+    "name": "nypmalen peppar",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Rosta brödskivorna under grillen eller på en het grillpanna ca 30 sekunder per sida.",
+   "2": "Bär in det rostade brödet till bordet. Ge var och en en vitlöksklyfta att gnida på sin egen skiva.",
+   "3": "Gnid tomatens halvor över det rostade brödet.",
+   "4": "Ringla över olivolja och smaka av med salt och nypmalen peppar.",
+   "5": "Servera varmt."
+  },
+  "culturalNotes": "Pa amb tomàquet är en traditionell katalansk rätt, serverad som aperitif eller lätt måltid.",
+  "chapter": "es"
+ },
+ "w-es-014": {
+  "title": "Patatas Bravas (potatis med stark sås)",
+  "ingredients": {
+   "w-es-014-i1": {
+    "name": "potatis",
+    "standardAmount": "1 stor"
+   },
+   "w-es-014-i2": {
+    "name": "passerade tomater",
+    "standardAmount": "2,4 dl"
+   },
+   "w-es-014-i3": {
+    "name": "vitlök",
+    "standardAmount": "1 klyfta"
+   },
+   "w-es-014-i4": {
+    "name": "torkad het chili",
+    "standardAmount": "1 liten"
+   },
+   "w-es-014-i5": {
+    "name": "rökt paprika",
+    "standardAmount": "1/2 tsk"
+   },
+   "w-es-014-i6": {
+    "name": "strösocker",
+    "standardAmount": "1/4 tsk"
+   },
+   "w-es-014-i7": {
+    "name": "extra virgin olivolja",
+    "standardAmount": "2 msk"
+   },
+   "w-es-014-i8": {
+    "name": "färsk persilja",
+    "standardAmount": "efter smak"
+   },
+   "w-es-014-i9": {
+    "name": "havssalt",
+    "standardAmount": "efter smak"
+   },
+   "w-es-014-i10": {
+    "name": "nypmalen svartpeppar",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Förvärm ugnen på högsta temperatur.",
+   "2": "Finhacka vitlöken och den torkade hetan chilin.",
+   "3": "Värm en liten kastrull på medelvärme med 1 msk olivolja.",
+   "4": "När oljan är varm, tillsätt vitlök och chili, rör 15 sekunder och tillsätt passerade tomater med paprika, socker och salt; sjud på låg värme.",
+   "5": "Skär potatisen i ca 2 mm tjocka skivor.",
+   "6": "Lägg skivorna i ett lager på en plåt med bakplåtspapper, ringla över resterande olja och salta.",
+   "7": "Grädda 20 minuter tills potatisen är kokt.",
+   "8": "Lägg skivorna på serveringsfat, häll tomatsåsen över och garnera med persilja."
+  },
+  "culturalNotes": "Patatas bravas är mycket populära i Spanien, särskilt i Alicante-regionen, där de serveras som tapas.",
+  "chapter": "es"
+ },
+ "w-es-015": {
+  "title": "Pisto Andaluz (andalusisk grönsaksgryta)",
+  "ingredients": {
+   "w-es-015-i1": {
+    "name": "extra virgin olivolja",
+    "standardAmount": "60 ml"
+   },
+   "w-es-015-i2": {
+    "name": "potatis",
+    "standardAmount": "1 medelstor, tärnad"
+   },
+   "w-es-015-i3": {
+    "name": "lök",
+    "standardAmount": "1 stor"
+   },
+   "w-es-015-i4": {
+    "name": "vitlök",
+    "standardAmount": "3 klyftor"
+   },
+   "w-es-015-i5": {
+    "name": "röd paprika",
+    "standardAmount": "1 stor"
+   },
+   "w-es-015-i6": {
+    "name": "grön paprika",
+    "standardAmount": "1 stor"
+   },
+   "w-es-015-i7": {
+    "name": "zucchini",
+    "standardAmount": "1 medelstor"
+   },
+   "w-es-015-i8": {
+    "name": "söt rökt paprika",
+    "standardAmount": "1 tsk"
+   },
+   "w-es-015-i9": {
+    "name": "spiskummin",
+    "standardAmount": "3/4 tsk"
+   },
+   "w-es-015-i10": {
+    "name": "tomater",
+    "standardAmount": "4"
+   },
+   "w-es-015-i11": {
+    "name": "havssalt och svartpeppar",
+    "standardAmount": "efter smak"
+   },
+   "w-es-015-i12": {
+    "name": "färsk persilja",
+    "standardAmount": "till garnering"
+   }
+  },
+  "instructions": {
+   "1": "Värm en stor stekpanna på medelvärme och tillsätt olivoljan.",
+   "2": "Tärna under tiden potatisen i små kuber.",
+   "3": "När oljan är varm, tillsätt potatisen och vänd i oljan; rör var någon minut.",
+   "4": "Medan potatisen steker, grovhacka lök och vitlök och finhacka paprikor och zucchini.",
+   "5": "Efter ca 20 minuter, när potatisen är gyllene, ta ur den ur pannan.",
+   "6": "I samma panna, sänk värmen, tillsätt lök, vitlök och paprikor och fräs under omrörning.",
+   "7": "Efter 6-8 minuter, när grönsakerna lätt brynts, tillsätt zucchinin och rör om.",
+   "8": "När zucchinin lätt brynts (ca 4 minuter), tillsätt paprika och spiskummin, rör snabbt och tillsätt de hackade tomaterna.",
+   "9": "Koka tills tomaterna fallit sönder, lägg tillbaka potatisen, rör om och servera på ett stort fat med färsk persilja. Smaklig måltid!"
+  },
+  "culturalNotes": "Pisto andaluz är en traditionell spansk rätt av stekta och frästa grönsaker, serverad som huvudrätt eller tillbehör.",
+  "chapter": "es"
+ },
+ "w-es-016": {
+  "title": "Arroz con Leche (risgrynsgröt)",
+  "ingredients": {
+   "w-es-016-i1": {
+    "name": "vatten",
+    "standardAmount": "2,4 dl"
+   },
+   "w-es-016-i2": {
+    "name": "vitt ris",
+    "standardAmount": "1,2 dl"
+   },
+   "w-es-016-i3": {
+    "name": "salt",
+    "standardAmount": "en nypa"
+   },
+   "w-es-016-i4": {
+    "name": "kanelstång",
+    "standardAmount": "1"
+   },
+   "w-es-016-i5": {
+    "name": "mjölk",
+    "standardAmount": "9,5 dl"
+   },
+   "w-es-016-i6": {
+    "name": "socker",
+    "standardAmount": "1,2 dl"
+   },
+   "w-es-016-i7": {
+    "name": "äggulor",
+    "standardAmount": "3"
+   },
+   "w-es-016-i8": {
+    "name": "kanelpulver",
+    "standardAmount": "efter smak"
+   },
+   "w-es-016-i9": {
+    "name": "citronzest",
+    "standardAmount": "efter smak"
+   },
+   "w-es-016-i10": {
+    "name": "mandelflarn",
+    "standardAmount": "efter smak"
+   },
+   "w-es-016-i11": {
+    "name": "russin",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "I en medelstor kastrull, koka upp vattnet.",
+   "2": "Tillsätt ris, salt, kanelstången och citronskalet. Täck och sjud 16 minuter tills riset är mjukt.",
+   "3": "I en stor kastrull, värm mjölken med sockret tills varmt och upplöst.",
+   "4": "Rör några skedar varm mjölk i gulorna för att temperera dem.",
+   "5": "Häll de tempererade gulorna tillbaka i den varma mjölken under omrörning.",
+   "6": "Tillsätt det kokta riset (med kanel och skal) i mjölken och tjockna på låg värme.",
+   "7": "Garnera med kanel, citronzest, russin och mandelflarn."
+  },
+  "culturalNotes": "Arroz con leche är en traditionell dessert i Spanien, ofta serverad vid speciella tillfällen och familjesammankomster.",
+  "chapter": "es"
+ },
+ "w-es-017": {
+  "title": "Spansk tortilla (tortilla de patatas)",
+  "ingredients": {
+   "w-es-017-i1": {
+    "name": "ägg",
+    "standardAmount": "8"
+   },
+   "w-es-017-i2": {
+    "name": "potatis",
+    "standardAmount": "1 kg"
+   },
+   "w-es-017-i3": {
+    "name": "lök",
+    "standardAmount": "1"
+   },
+   "w-es-017-i4": {
+    "name": "olivolja",
+    "standardAmount": "500 ml"
+   },
+   "w-es-017-i5": {
+    "name": "salt",
+    "standardAmount": "en nypa"
+   }
+  },
+  "instructions": {
+   "1": "Skala potatisen, tvätta och torka med en handduk. Skär i 1 cm kuber eller 2 mm skivor.",
+   "2": "Värm oljan i en stekpanna. Fritera potatisen utan att den bryns tills mjuk; låt rinna av.",
+   "3": "Skär löken i kuber eller skivor och fräs tills genomskinlig.",
+   "4": "Vispa de 8 äggen i en skål med en nypa salt tills homogena; blanda med potatis och lök.",
+   "5": "Värm 3 msk olivolja i en ren stekpanna.",
+   "6": "När pannan är varm, häll i ägg-lök-potatisblandningen.",
+   "7": "Efter 7-8 minuter ska undersidan ha stelnat. Lägg en tallrik över pannan och vänd försiktigt.",
+   "8": "Några minuter till och den är redo att serveras."
+  },
+  "culturalNotes": "Den spanska tortillan är en traditionell spansk rätt, även känd som tortilla de patatas; den serveras som lätt måltid eller tapa.",
+  "chapter": "es"
+ },
+ "w-es-018": {
+  "title": "Tarta de Santiago (Santiago-mandelkaka)",
+  "ingredients": {
+   "w-es-018-i1": {
+    "name": "skalade mandlar",
+    "standardAmount": "6 dl"
+   },
+   "w-es-018-i2": {
+    "name": "strösocker",
+    "standardAmount": "3 dl"
+   },
+   "w-es-018-i3": {
+    "name": "stora ägg",
+    "standardAmount": "5"
+   },
+   "w-es-018-i4": {
+    "name": "kanelpulver",
+    "standardAmount": "1 tsk"
+   },
+   "w-es-018-i5": {
+    "name": "citronzest",
+    "standardAmount": "1 tsk"
+   },
+   "w-es-018-i6": {
+    "name": "florsocker",
+    "standardAmount": "2 msk"
+   },
+   "w-es-018-i7": {
+    "name": "bakspray",
+    "standardAmount": "efter behov"
+   }
+  },
+  "instructions": {
+   "1": "Fördela 350 g skalade mandlar på en plåt med bakplåtspapper och rosta i ugnen.",
+   "2": "Ta ur mandlarna, låt svalna och mala i matberedaren till mandelmjöl.",
+   "3": "I en stor skål, blanda 250 g socker med 5 ägg, tillsätt sedan kanel och citronzest.",
+   "4": "Rör gradvis in mandelblandningen i ägg-sockerblandningen tills homogen.",
+   "5": "Klä en rund form på 22 cm med bakplåtspapper och spraya kanterna.",
+   "6": "Grädda på 170°C i 55 minuter tills kakan är genomgräddad och gyllene.",
+   "7": "Ta ur ur ugnen, låt svalna, lossa ur formen och lägg på ett fat.",
+   "8": "Lägg Santiago-korsets schablon på kakan och strö med florsocker; ta försiktigt bort schablonen."
+  },
+  "culturalNotes": "Tarta de Santiago är en traditionell mandeldessert från Galicien i Spanien, ofta dekorerad med Santiago-korset.",
+  "chapter": "es"
+ },
+ "w-es-019": {
+  "title": "Zarangollo Murciano (äggröra med zucchini)",
+  "ingredients": {
+   "w-es-019-i1": {
+    "name": "ägg",
+    "standardAmount": "4"
+   },
+   "w-es-019-i2": {
+    "name": "lök",
+    "standardAmount": "1/2"
+   },
+   "w-es-019-i3": {
+    "name": "zucchini",
+    "standardAmount": "1"
+   },
+   "w-es-019-i4": {
+    "name": "extra virgin olivolja",
+    "standardAmount": "2 msk"
+   },
+   "w-es-019-i5": {
+    "name": "havssalt och svartpeppar",
+    "standardAmount": "efter smak"
+   },
+   "w-es-019-i6": {
+    "name": "hackad färsk gräslök",
+    "standardAmount": "en näve"
+   }
+  },
+  "instructions": {
+   "1": "Knäck 4 ägg i en skål, smaka av med havssalt och svartpeppar och vispa lätt.",
+   "2": "Skär en halv lök i tunna skivor.",
+   "3": "Skala en medelstor zucchini och skär i ca 3 mm tjocka skivor.",
+   "4": "Värm en stor nonstick-stekpanna på medelhög värme med 2 msk olivolja.",
+   "5": "Efter 1 minut, tillsätt löken och vänd i oljan; efter 2 minuter, tillsätt zucchiniskivorna och stek tills mjuka.",
+   "6": "Sänk värmen, häll i äggblandningen och rör var 30 sekund tills äggen är krämiga men stelnade.",
+   "7": "Lägg över på ett serveringsfat och strö med färsk gräslök. Smaklig måltid!"
+  },
+  "culturalNotes": "Zarangollo murciano är en traditionell rätt från Murcia-regionen i Spanien, känd för sin enkelhet och rika smak.",
+  "chapter": "es"
+ }
 }
