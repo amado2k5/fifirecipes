@@ -13,9 +13,10 @@ import w_lb from './lb.json';
 import w_ma from './ma.json';
 import w_mx from './mx.json';
 import w_my from './my.json';
+import w_ng from './ng.json';
 import w_th from './th.json';
 import w_tr from './tr.json';
 import w_vn from './vn.json';
 
-const worldEntries = [...w_cn, ...w_es, ...w_et, ...w_fr, ...w_id, ...w_in, ...w_ir, ...w_it, ...w_jp, ...w_kr, ...w_lb, ...w_ma, ...w_mx, ...w_my, ...w_th, ...w_tr, ...w_vn];
+const worldEntries = [...w_cn, ...w_es, ...w_et, ...w_fr, ...w_id, ...w_in, ...w_ir, ...w_it, ...w_jp, ...w_kr, ...w_lb, ...w_ma, ...w_mx, ...w_my, ...w_ng, ...w_th, ...w_tr, ...w_vn];
 export default worldEntries;
