@@ -86,9 +86,12 @@ def pattern(lang):
         r = INDIC[lang]
         return re.compile(f'(?<![{r}])(?:{t})(?![{r}])')
     if lang in ARABIC:
-        return re.compile(r'(?<![؀-ۿ])(?:ال)?(?:' + t + r')(?![؀-ۿ])')
+        # Letters only: Arabic punctuation (، ؛ ؟) shares the Unicode block and
+        # must still end a word ("بیکن، گوشت" = "bacon, meat" was missed).
+        letters = '\\u0620-\\u064A\\u066E-\\u06D3\\u06D5\\u06EE-\\u06FF'
+        return re.compile(f'(?<![{letters}])(?:ال)?(?:{t})(?![{letters}])')
     if lang == 'He':
-        return re.compile(r'(?<![֐-׿])[הובלמש]?(?:' + t + r')(?![֐-׿])')
+        return re.compile('(?<![\\u05D0-\\u05EA])[הובלמש]?(?:' + t + ')(?![\\u05D0-\\u05EA])')
     return re.compile(r'(?<!\w)(?:' + t + r')(?!\w)', re.I)
 
 
