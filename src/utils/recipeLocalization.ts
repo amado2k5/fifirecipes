@@ -901,7 +901,15 @@ const CATEGORY_NAMES: Record<string, string> = {
   'حلويات خفيفة': 'Light Desserts',
   'خشاف': 'Fruit Compote',
   'آيس كريم': 'Ice Cream',
-  'مشروبات': 'Beverages'
+  'مشروبات': 'Beverages',
+  // World-kitchen categories
+  'مخبوزات': 'Baked Goods',
+  'مقبلات وسلطات': 'Appetizers & Salads',
+  'حلويات': 'Desserts',
+  'شوربات': 'Soups',
+  'إفطار': 'Breakfast',
+  'أطباق رئيسية': 'Main Dishes',
+  'حشوات': 'Fillings'
 };
 
 const CATEGORY_NAMES_FR: Record<string, string> = {
@@ -928,7 +936,15 @@ const CATEGORY_NAMES_FR: Record<string, string> = {
   'حلويات خفيفة': 'Desserts Légers',
   'خشاف': 'Compote de Fruits',
   'آيس كريم': 'Glace',
-  'مشروبات': 'Boissons'
+  'مشروبات': 'Boissons',
+  // World-kitchen categories
+  'مخبوزات': 'Boulangerie',
+  'مقبلات وسلطات': 'Entrées et Salades',
+  'حلويات': 'Desserts',
+  'شوربات': 'Soupes',
+  'إفطار': 'Petit-déjeuner',
+  'أطباق رئيسية': 'Plats Principaux',
+  'حشوات': 'Garnitures'
 };
 
 const CATEGORY_NAMES_ES: Record<string, string> = {
@@ -955,7 +971,15 @@ const CATEGORY_NAMES_ES: Record<string, string> = {
   'حلويات خفيفة': 'Postres Ligeros',
   'خشاف': 'Compota de Frutas',
   'آيس كريم': 'Helado',
-  'مشروبات': 'Bebidas'
+  'مشروبات': 'Bebidas',
+  // World-kitchen categories
+  'مخبوزات': 'Panadería',
+  'مقبلات وسلطات': 'Entrantes y Ensaladas',
+  'حلويات': 'Postres',
+  'شوربات': 'Sopas',
+  'إفطار': 'Desayuno',
+  'أطباق رئيسية': 'Platos Principales',
+  'حشوات': 'Rellenos'
 };
 
 const CATEGORY_NAMES_JA: Record<string, string> = {
@@ -982,7 +1006,15 @@ const CATEGORY_NAMES_JA: Record<string, string> = {
   'حلويات خفيفة': '軽いデザート',
   'خشاف': 'フルーツコンポート',
   'آيس كريم': 'アイスクリーム',
-  'مشروبات': '飲み物'
+  'مشروبات': '飲み物',
+  // World-kitchen categories
+  'مخبوزات': 'パン・焼き菓子',
+  'مقبلات وسلطات': '前菜とサラダ',
+  'حلويات': 'デザート',
+  'شوربات': 'スープ',
+  'إفطار': '朝食',
+  'أطباق رئيسية': 'メイン料理',
+  'حشوات': 'フィリング'
 };
 
 const CATEGORY_NAMES_HI: Record<string, string> = {
@@ -1009,7 +1041,15 @@ const CATEGORY_NAMES_HI: Record<string, string> = {
   'حلويات خفيفة': 'हल्की मिठाइयां',
   'خشاف': 'फलों का मुरब्बा',
   'آيس كريم': 'आइसक्रीम',
-  'مشروبات': 'पेय'
+  'مشروبات': 'पेय',
+  // World-kitchen categories
+  'مخبوزات': 'बेकरी व्यंजन',
+  'مقبلات وسلطات': 'स्टार्टर और सलाद',
+  'حلويات': 'मिठाइयां',
+  'شوربات': 'सूप',
+  'إفطار': 'नाश्ता',
+  'أطباق رئيسية': 'मुख्य व्यंजन',
+  'حشوات': 'भरावन'
 };
 
 const CATEGORY_NAMES_PT: Record<string, string> = {
@@ -1036,7 +1076,15 @@ const CATEGORY_NAMES_PT: Record<string, string> = {
   'حلويات خفيفة': 'Sobremesas Leves',
   'خشاف': 'Compota de Frutas',
   'آيس كريم': 'Sorvete',
-  'مشروبات': 'Bebidas'
+  'مشروبات': 'Bebidas',
+  // World-kitchen categories
+  'مخبوزات': 'Padaria',
+  'مقبلات وسلطات': 'Entradas e Saladas',
+  'حلويات': 'Sobremesas',
+  'شوربات': 'Sopas',
+  'إفطار': 'Café da Manhã',
+  'أطباق رئيسية': 'Pratos Principais',
+  'حشوات': 'Recheios'
 };
 
 const CATEGORY_NAMES_RU: Record<string, string> = {
@@ -1063,7 +1111,15 @@ const CATEGORY_NAMES_RU: Record<string, string> = {
   'حلويات خفيفة': 'Лёгкие десерты',
   'خشاف': 'Фруктовый компот',
   'آيس كريم': 'Мороженое',
-  'مشروبات': 'Напитки'
+  'مشروبات': 'Напитки',
+  // World-kitchen categories
+  'مخبوزات': 'Хлеб и выпечка',
+  'مقبلات وسلطات': 'Закуски и салаты',
+  'حلويات': 'Десерты',
+  'شوربات': 'Супы',
+  'إفطار': 'Завтрак',
+  'أطباق رئيسية': 'Основные блюда',
+  'حشوات': 'Начинки'
 };
 
 const CATEGORY_NAMES_ZH: Record<string, string> = {
@@ -1090,7 +1146,15 @@ const CATEGORY_NAMES_ZH: Record<string, string> = {
   'حلويات خفيفة': '清爽甜点',
   'خشاف': '水果蜜饯',
   'آيس كريم': '冰淇淋',
-  'مشروبات': '饮品'
+  'مشروبات': '饮品',
+  // World-kitchen categories
+  'مخبوزات': '烘焙面包',
+  'مقبلات وسلطات': '开胃菜与沙拉',
+  'حلويات': '甜点',
+  'شوربات': '汤品',
+  'إفطار': '早餐',
+  'أطباق رئيسية': '主菜',
+  'حشوات': '馅料'
 };
 
 const CATEGORY_NAMES_DE: Record<string, string> = {
@@ -1117,7 +1181,15 @@ const CATEGORY_NAMES_DE: Record<string, string> = {
   'حلويات خفيفة': 'Leichte Nachspeisen',
   'خشاف': 'Fruchtkompott',
   'آيس كريم': 'Eiscreme',
-  'مشروبات': 'Getränke'
+  'مشروبات': 'Getränke',
+  // World-kitchen categories
+  'مخبوزات': 'Brot & Backwaren',
+  'مقبلات وسلطات': 'Vorspeisen & Salate',
+  'حلويات': 'Desserts',
+  'شوربات': 'Suppen',
+  'إفطار': 'Frühstück',
+  'أطباق رئيسية': 'Hauptgerichte',
+  'حشوات': 'Füllungen'
 };
 
 const CATEGORY_NAMES_IT: Record<string, string> = {
@@ -1144,7 +1216,15 @@ const CATEGORY_NAMES_IT: Record<string, string> = {
   'حلويات خفيفة': 'Dolci Leggeri',
   'خشاف': 'Composta di Frutta',
   'آيس كريم': 'Gelato',
-  'مشروبات': 'Bevande'
+  'مشروبات': 'Bevande',
+  // World-kitchen categories
+  'مخبوزات': 'Prodotti da Forno',
+  'مقبلات وسلطات': 'Antipasti e Insalate',
+  'حلويات': 'Dolci',
+  'شوربات': 'Zuppe',
+  'إفطار': 'Colazione',
+  'أطباق رئيسية': 'Piatti Principali',
+  'حشوات': 'Ripieni'
 };
 
 const CATEGORY_NAMES_EL: Record<string, string> = {
@@ -1171,7 +1251,15 @@ const CATEGORY_NAMES_EL: Record<string, string> = {
   'حلويات خفيفة': 'Ελαφριά Επιδόρπια',
   'خشاف': 'Κομπόστα Φρούτων',
   'آيس كريم': 'Παγωτό',
-  'مشروبات': 'Ροφήματα'
+  'مشروبات': 'Ροφήματα',
+  // World-kitchen categories
+  'مخبوزات': 'Αρτοποιήματα',
+  'مقبلات وسلطات': 'Ορεκτικά και Σαλάτες',
+  'حلويات': 'Επιδόρπια',
+  'شوربات': 'Σούπες',
+  'إفطار': 'Πρωινό',
+  'أطباق رئيسية': 'Κυρίως Πιάτα',
+  'حشوات': 'Γεμίσεις'
 };
 
 const CATEGORY_NAMES_UR: Record<string, string> = {
@@ -1198,7 +1286,15 @@ const CATEGORY_NAMES_UR: Record<string, string> = {
   'حلويات خفيفة': 'ہلکی میٹھی اشیاء',
   'خشاف': 'خشک میوے کا شربت (خشاف)',
   'آيس كريم': 'آئس کریم',
-  'مشروبات': 'مشروبات'
+  'مشروبات': 'مشروبات',
+  // World-kitchen categories
+  'مخبوزات': 'بیکری کی اشیاء',
+  'مقبلات وسلطات': 'ابتدائی پکوان اور سلاد',
+  'حلويات': 'میٹھے',
+  'شوربات': 'سوپ',
+  'إفطار': 'ناشتہ',
+  'أطباق رئيسية': 'مرکزی پکوان',
+  'حشوات': 'بھرائی'
 };
 
 const CATEGORY_NAMES_FA: Record<string, string> = {
@@ -1225,7 +1321,15 @@ const CATEGORY_NAMES_FA: Record<string, string> = {
   'حلويات خفيفة': 'دسرهای سبک',
   'خشاف': 'خوشاب میوه',
   'آيس كريم': 'بستنی',
-  'مشروبات': 'نوشیدنی‌ها'
+  'مشروبات': 'نوشیدنی‌ها',
+  // World-kitchen categories
+  'مخبوزات': 'نان و فرآورده‌های پختنی',
+  'مقبلات وسلطات': 'پیش‌غذا و سالاد',
+  'حلويات': 'دسرها',
+  'شوربات': 'سوپ‌ها',
+  'إفطار': 'صبحانه',
+  'أطباق رئيسية': 'غذاهای اصلی',
+  'حشوات': 'مواد پرکننده'
 };
 
 const CATEGORY_NAMES_TR: Record<string, string> = {
@@ -1252,7 +1356,15 @@ const CATEGORY_NAMES_TR: Record<string, string> = {
   'حلويات خفيفة': 'Hafif Tatlılar',
   'خشاف': 'Hoşaf',
   'آيس كريم': 'Dondurma',
-  'مشروبات': 'İçecekler'
+  'مشروبات': 'İçecekler',
+  // World-kitchen categories
+  'مخبوزات': 'Fırın Ürünleri',
+  'مقبلات وسلطات': 'Mezeler ve Salatalar',
+  'حلويات': 'Tatlılar',
+  'شوربات': 'Çorbalar',
+  'إفطار': 'Kahvaltı',
+  'أطباق رئيسية': 'Ana Yemekler',
+  'حشوات': 'İç Harçlar'
 };
 
 const CATEGORY_NAMES_KU: Record<string, string> = {
@@ -1279,7 +1391,15 @@ const CATEGORY_NAMES_KU: Record<string, string> = {
   'حلويات خفيفة': 'Şîraniyên Sivik',
   'خشاف': 'Xoşaf',
   'آيس كريم': 'Qeşa (Dondurma)',
-  'مشروبات': 'Vexwarin'
+  'مشروبات': 'Vexwarin',
+  // World-kitchen categories
+  'مخبوزات': 'Berhemên Firinê',
+  'مقبلات وسلطات': 'Pêşxwarin û Selete',
+  'حلويات': 'Şîranî',
+  'شوربات': 'Şorbe',
+  'إفطار': 'Taştê',
+  'أطباق رئيسية': 'Xwarinên Sereke',
+  'حشوات': 'Tijekirin'
 };
 
 const CATEGORY_NAMES_ID: Record<string, string> = {
@@ -1306,7 +1426,15 @@ const CATEGORY_NAMES_ID: Record<string, string> = {
   'حلويات خفيفة': 'Makanan Manis Ringan',
   'خشاف': 'Khoshaf',
   'آيس كريم': 'Es Krim',
-  'مشروبات': 'Minuman'
+  'مشروبات': 'Minuman',
+  // World-kitchen categories
+  'مخبوزات': 'Roti & Kue Panggang',
+  'مقبلات وسلطات': 'Hidangan Pembuka & Salad',
+  'حلويات': 'Hidangan Penutup',
+  'شوربات': 'Sup',
+  'إفطار': 'Sarapan',
+  'أطباق رئيسية': 'Hidangan Utama',
+  'حشوات': 'Isian'
 };
 
 const CATEGORY_NAMES_SW: Record<string, string> = {
@@ -1333,7 +1461,15 @@ const CATEGORY_NAMES_SW: Record<string, string> = {
   'حلويات خفيفة': 'Vitamu Vyepesi',
   'خشاف': 'Khoshaf',
   'آيس كريم': 'Aiskrimu',
-  'مشروبات': 'Vinywaji'
+  'مشروبات': 'Vinywaji',
+  // World-kitchen categories
+  'مخبوزات': 'Mikate na Vyakula vya Kuoka',
+  'مقبلات وسلطات': 'Vitafunwa na Saladi',
+  'حلويات': 'Vitindamlo',
+  'شوربات': 'Supu',
+  'إفطار': 'Kifungua Kinywa',
+  'أطباق رئيسية': 'Vyakula Vikuu',
+  'حشوات': 'Vijazo'
 };
 
 const CATEGORY_NAMES_KO: Record<string, string> = {
@@ -1360,7 +1496,15 @@ const CATEGORY_NAMES_KO: Record<string, string> = {
   'حلويات خفيفة': '가벼운 디저트',
   'خشاف': '호샤프',
   'آيس كريم': '아이스크림',
-  'مشروبات': '음료'
+  'مشروبات': '음료',
+  // World-kitchen categories
+  'مخبوزات': '빵과 구움과자',
+  'مقبلات وسلطات': '전채와 샐러드',
+  'حلويات': '디저트',
+  'شوربات': '수프',
+  'إفطار': '아침 식사',
+  'أطباق رئيسية': '메인 요리',
+  'حشوات': '속재료'
 };
 
 const CATEGORY_NAMES_NL: Record<string, string> = {
@@ -1387,7 +1531,15 @@ const CATEGORY_NAMES_NL: Record<string, string> = {
   'حلويات خفيفة': 'Lichte Desserts',
   'خشاف': 'Vruchtencompote',
   'آيس كريم': 'IJs',
-  'مشروبات': 'Dranken'
+  'مشروبات': 'Dranken',
+  // World-kitchen categories
+  'مخبوزات': 'Brood & Gebak',
+  'مقبلات وسلطات': 'Voorgerechten & Salades',
+  'حلويات': 'Desserts',
+  'شوربات': 'Soepen',
+  'إفطار': 'Ontbijt',
+  'أطباق رئيسية': 'Hoofdgerechten',
+  'حشوات': 'Vullingen'
 };
 
 const CATEGORY_NAMES_PS: Record<string, string> = {
@@ -1414,7 +1566,15 @@ const CATEGORY_NAMES_PS: Record<string, string> = {
   'حلويات خفيفة': 'سپکې خوږې خواړه',
   'خشاف': 'خوشاف',
   'آيس كريم': 'بستني',
-  'مشروبات': 'څښاکونه'
+  'مشروبات': 'څښاکونه',
+  // World-kitchen categories
+  'مخبوزات': 'د تنور توکي',
+  'مقبلات وسلطات': 'پیلامه خواړه او سلاتونه',
+  'حلويات': 'خوږې',
+  'شوربات': 'سوپونه',
+  'إفطار': 'سهارنۍ',
+  'أطباق رئيسية': 'اصلي خواړه',
+  'حشوات': 'ډکوونکي توکي'
 };
 
 const CATEGORY_NAMES_HE: Record<string, string> = {
@@ -1441,7 +1601,15 @@ const CATEGORY_NAMES_HE: Record<string, string> = {
   'حلويات خفيفة': 'קינוחים קלים',
   'خشاف': 'חושאף',
   'آيس كريم': 'גלידה',
-  'مشروبات': 'שתייה'
+  'مشروبات': 'שתייה',
+  // World-kitchen categories
+  'مخبوزات': 'לחמים ומאפים',
+  'مقبلات وسلطات': 'מנות פתיחה וסלטים',
+  'حلويات': 'קינוחים',
+  'شوربات': 'מרקים',
+  'إفطار': 'ארוחת בוקר',
+  'أطباق رئيسية': 'מנות עיקריות',
+  'حشوات': 'מליות'
 };
 
 const CATEGORY_NAMES_PL: Record<string, string> = {
@@ -1468,7 +1636,15 @@ const CATEGORY_NAMES_PL: Record<string, string> = {
   'حلويات خفيفة': 'Lekkie desery',
   'خشاف': 'Choszaf',
   'آيس كريم': 'Lody',
-  'مشروبات': 'Napoje'
+  'مشروبات': 'Napoje',
+  // World-kitchen categories
+  'مخبوزات': 'Pieczywo',
+  'مقبلات وسلطات': 'Przystawki i sałatki',
+  'حلويات': 'Desery',
+  'شوربات': 'Zupy',
+  'إفطار': 'Śniadanie',
+  'أطباق رئيسية': 'Dania główne',
+  'حشوات': 'Nadzienia'
 };
 
 const CATEGORY_NAMES_SV: Record<string, string> = {
@@ -1495,7 +1671,15 @@ const CATEGORY_NAMES_SV: Record<string, string> = {
   'حلويات خفيفة': 'Lätta desserter',
   'خشاف': 'Khoshaf',
   'آيس كريم': 'Glass',
-  'مشروبات': 'Drycker'
+  'مشروبات': 'Drycker',
+  // World-kitchen categories
+  'مخبوزات': 'Bröd & bakverk',
+  'مقبلات وسلطات': 'Förrätter & sallader',
+  'حلويات': 'Desserter',
+  'شوربات': 'Soppor',
+  'إفطار': 'Frukost',
+  'أطباق رئيسية': 'Huvudrätter',
+  'حشوات': 'Fyllningar'
 };
 
 const CATEGORY_NAMES_TE: Record<string, string> = {
@@ -1522,7 +1706,15 @@ const CATEGORY_NAMES_TE: Record<string, string> = {
   'حلويات خفيفة': 'తేలికపాటి మిఠాయిలు',
   'خشاف': 'పండ్ల కొమ్పోట్ (ఖోషాఫ్)',
   'آيس كريم': 'ఐస్ క్రీమ్',
-  'مشروبات': 'పానీయాలు'
+  'مشروبات': 'పానీయాలు',
+  // World-kitchen categories
+  'مخبوزات': 'బేకరీ వంటకాలు',
+  'مقبلات وسلطات': 'స్టార్టర్లు & సలాడ్‌లు',
+  'حلويات': 'డెజర్ట్‌లు',
+  'شوربات': 'సూప్స్',
+  'إفطار': 'అల్పాహారం',
+  'أطباق رئيسية': 'ప్రధాన వంటకాలు',
+  'حشوات': 'ఫిల్లింగ్‌లు'
 };
 
 const COOKING_METHODS: Record<string, string> = {
@@ -4348,7 +4540,7 @@ export function getLocalizedRecipe(recipe: LocalizableRecipe, lang: SupportedLan
   return {
     title: translation?.title || generated?.title || recipe.titleEn || recipe.title,
     chapter: chapterNames[recipe.chapterNumber] || recipe.chapter,
-    category: translation?.category || generated?.category || categoryNames[recipe.category] || recipe.category,
+    category: translation?.category || generated?.category || categoryNames[recipe.category] || CATEGORY_NAMES[recipe.category] || recipe.category,
     cookingMethod: translation?.cookingMethod || generated?.cookingMethod || cookingMethods[recipe.cookingMethod] || traditionalCookingLabel,
     prepTime: getLocalizedMeasurement(translation?.prepTime || generated?.prepTime || recipe.prepTime, lang, 'time'),
     cookTime: getLocalizedMeasurement(translation?.cookTime || generated?.cookTime || recipe.cookTime, lang, 'time'),
