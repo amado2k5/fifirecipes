@@ -1,544 +1,1730 @@
 {
-"w-fr-001": {
-  "title": "Bouillabaisse",
+ "w-it-001": {
+  "title": "Käse-Agnolotti",
   "ingredients": {
-    "w-fr-001-i1": {"name": "Roter Knurrhahn", "standardAmount": "660 g"},
-    "w-fr-001-i2": {"name": "Drachenkopf", "standardAmount": "660 g"},
-    "w-fr-001-i3": {"name": "Roter Knurrhahn (Grondin)", "standardAmount": "660 g"},
-    "w-fr-001-i4": {"name": "Meeraal", "standardAmount": "660 g"},
-    "w-fr-001-i5": {"name": "Seeteufel", "standardAmount": "660 g"},
-    "w-fr-001-i6": {"name": "Heringskönig", "standardAmount": "660 g"},
-    "w-fr-001-i7": {"name": "Oktopus", "standardAmount": "1 lebender (optional)"},
-    "w-fr-001-i8": {"name": "Seeigel", "standardAmount": "10"},
-    "w-fr-001-i9": {"name": "Kartoffeln", "standardAmount": "1 kg"},
-    "w-fr-001-i10": {"name": "Knoblauch", "standardAmount": "7 Zehen"},
-    "w-fr-001-i11": {"name": "Zwiebeln", "standardAmount": "3"},
-    "w-fr-001-i12": {"name": "Tomaten", "standardAmount": "5 reife"},
-    "w-fr-001-i13": {"name": "Olivenöl", "standardAmount": "240 ml"},
-    "w-fr-001-i14": {"name": "Bouquet garni", "standardAmount": "1 Bund"},
-    "w-fr-001-i15": {"name": "Fenchel", "standardAmount": "1 Zweig"},
-    "w-fr-001-i16": {"name": "Safran", "standardAmount": "8 Fäden"},
-    "w-fr-001-i17": {"name": "Campagne-Brot", "standardAmount": "10 Scheiben"},
-    "w-fr-001-i18": {"name": "Salz", "standardAmount": "nach Geschmack"},
-    "w-fr-001-i19": {"name": "Cayennepfeffer", "standardAmount": "nach Geschmack"}
+   "w-it-001-i1": {
+    "name": "Mehl (Type 405 oder „00“)",
+    "standardAmount": "2 Tassen"
+   },
+   "w-it-001-i2": {
+    "name": "Eier",
+    "standardAmount": "3 große"
+   },
+   "w-it-001-i3": {
+    "name": "Ricotta",
+    "standardAmount": "340 g"
+   },
+   "w-it-001-i4": {
+    "name": "geriebener Parmesan",
+    "standardAmount": "30 g"
+   },
+   "w-it-001-i5": {
+    "name": "Eigelb",
+    "standardAmount": "1 großes"
+   },
+   "w-it-001-i6": {
+    "name": "fein gehackte italienische Petersilie",
+    "standardAmount": "1/4 Tasse"
+   },
+   "w-it-001-i7": {
+    "name": "koscheres Salz",
+    "standardAmount": "1 TL"
+   },
+   "w-it-001-i8": {
+    "name": "frisch gemahlener schwarzer Pfeffer",
+    "standardAmount": "1/2 TL"
+   },
+   "w-it-001-i9": {
+    "name": "Cayennepfeffer",
+    "standardAmount": "eine Prise"
+   }
   },
   "instructions": {
-    "1": "Fisch säubern und mit Gräten in große Stücke schneiden.",
-    "2": "Olivenöl in einem großen, tiefen Topf erhitzen.",
-    "3": "Zwiebeln, 6 zerdrückte Knoblauchzehen, Oktopus und Tomaten zugeben und bei niedriger Hitze 5 Minuten braten.",
-    "4": "Die größten Fischstücke zuerst zugeben, mit kochendem Wasser bedecken, Salz, Pfeffer, Fenchel, Bouquet garni und Safran zugeben und bei niedriger Hitze köcheln.",
-    "5": "Rouille zubereiten: Knoblauch im Mörser zerstoßen, Eigelb und Safran zugeben und Olivenöl nach und nach zu einer Mayonnaise rühren.",
-    "6": "Kartoffeln 15–20 Minuten in Salzwasser kochen. Seeigel mit der Schere öffnen und das Fleisch mit einem Teelöffel herauslösen.",
-    "7": "Fisch auf eine große Platte legen. Seeigelfleisch in die Suppe rühren.",
-    "8": "Brot mit Knoblauch einreiben und mit Rouille bestreichen. Pro Schüssel mindestens 2 Scheiben.",
-    "9": "Fisch und Kartoffeln aus der Suppe nehmen und auf einer Platte anrichten.",
-    "10": "Heiße Suppe über das mit Rouille bestrichene Brot gießen. Fisch und Kartoffeln separat servieren."
+   "1": "Häufen Sie das Mehl auf der Arbeitsfläche und drücken Sie eine Mulde in die Mitte. Geben Sie die Eier in die Mulde und verquirlen Sie sie mit einer Gabel, wobei Sie nach und nach Mehl vom Rand einarbeiten. Wenn der Teig zu dick für die Gabel wird, ziehen Sie das restliche Mehl mit einer Teigkarte unter und schneiden Sie es ein, bis ein grober Teig entsteht.",
+   "2": "Kneten Sie von Hand, bis eine glatte Kugel entsteht, etwa 3 Minuten. Abdecken und 10 bis 15 Minuten ruhen lassen. Nochmals zu einer sehr glatten, elastischen Kugel kneten, etwa 4 Minuten mehr. Gut einpacken und den Teig mindestens 2 Stunden oder über Nacht im Kühlschrank ruhen lassen.",
+   "3": "In einer Schüssel Ricotta, Parmesan, Eigelb, Petersilie, Salz, Pfeffer und Cayennepfeffer zu einer gleichmäßigen Füllung verrühren. Zudecken und bis zur Verwendung kühlen.",
+   "4": "Den Teig in 4 Portionen teilen. Drei mit Folie abdecken, die Arbeitsfläche leicht bemehlen und die vierte zu einem Rechteck formen. Zu einem Rechteck von 45 x 23 cm ausrollen, so dünn, dass die Hand hindurchschimmert.",
+   "5": "In 2 Streifen von je etwa 45 x 11 cm zuschneiden. Nur so viel Mehl auf der Fläche belassen, dass der Teig bei diesen Schritten nicht klebt.",
+   "6": "Die Füllung in einen Spritzbeutel oder einen Beutel mit abgeschnittener Ecke füllen und einen Strang von 1,25 cm Dicke längs auf jeden Streifen spritzen, 5 cm vom Rand entfernt. Die Streifen sehr leicht mit Wasser besprühen.",
+   "7": "Den Teig über der Füllung umklappen, ohne Luftblasen einzuschließen. Die beiden Ränder fest aufeinanderdrücken und die Naht möglichst auf die Dicke einer einzigen Teigschicht ausdrücken. Mit einem geriffelten Teigrad den überschüssigen Teig bis etwa 3 mm an die Füllung abschneiden.",
+   "8": "Vom Ende der Füllung her Füllung und Teig mit zwei Fingern alle 2,5 bis 4 cm fest zusammendrücken. Die abgedrückten Abschnitte leicht nach vorn klappen. Zwischen den Abdrückungen mit dem Teigrad schneiden, um die Agnolotti zu formen. Bei Bedarf den Teig vor diesem Schritt mit Wasser besprühen.",
+   "9": "Die Agnolotti auf ein mit Backpapier ausgelegtes, leicht bemehltes Blech legen. Abdecken und bis zum Kochen kühlen. Sie können auch auf dem Blech eingefroren und dann in Beuteln aufbewahrt werden.",
+   "10": "In einem großen Topf Salzwasser aufkochen und die Agnolotti 3 Minuten garen, dann in die gewünschte Sauce geben."
   },
-  "culturalNotes": "Bouillabaisse ist ein traditionelles Gericht aus Marseille, bekannt für die Vielfalt an Fisch und Meeresfrüchten."
-},
-"w-fr-002": {
-  "title": "Frittierte Calamari mit Tzatziki",
+  "culturalNotes": "Agnolotti sind gefüllte, gefaltete Teigtaschen, ein traditionelles Gericht aus dem Piemont in Italien."
+ },
+ "w-it-002": {
+  "title": "Bruschetta",
   "ingredients": {
-    "w-fr-002-i1": {"name": "Knoblauch", "standardAmount": "2 kleine Zehen (gehackt)"},
-    "w-fr-002-i2": {"name": "Olivenöl", "standardAmount": "1 EL"},
-    "w-fr-002-i3": {"name": "Gurke", "standardAmount": "1 kleine"},
-    "w-fr-002-i4": {"name": "Joghurt", "standardAmount": "250 g"},
-    "w-fr-002-i5": {"name": "Getrocknete Minze", "standardAmount": "1 TL"},
-    "w-fr-002-i6": {"name": "Zitronensaft", "standardAmount": "1 TL"},
-    "w-fr-002-i7": {"name": "Salz und Pfeffer", "standardAmount": "nach Geschmack"},
-    "w-fr-002-i8": {"name": "Calamari", "standardAmount": "450 g"},
-    "w-fr-002-i9": {"name": "Mehl", "standardAmount": "1 große Schüssel"},
-    "w-fr-002-i10": {"name": "Frittieröl", "standardAmount": "2,5 cm im Topf"},
-    "w-fr-002-i11": {"name": "Frischer Zitronensaft", "standardAmount": "nach Geschmack"},
-    "w-fr-002-i12": {"name": "Salz, Pfeffer, Oregano", "standardAmount": "nach Geschmack"}
+   "w-it-002-i1": {
+    "name": "italienisches oder französisches Brot",
+    "standardAmount": "1 Laib, schräg in 1,25 cm dicke Scheiben"
+   },
+   "w-it-002-i2": {
+    "name": "Knoblauch",
+    "standardAmount": "½ Knolle"
+   },
+   "w-it-002-i3": {
+    "name": "koscheres Salz oder Meersalz",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-002-i4": {
+    "name": "frisch gemahlener schwarzer Pfeffer",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-002-i5": {
+    "name": "natives Olivenöl extra",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-002-i6": {
+    "name": "Beläge nach Wahl",
+    "standardAmount": "nach Geschmack"
+   }
   },
   "instructions": {
-    "1": "Olivenöl und Knoblauch in eine mittlere Schüssel geben.",
-    "2": "Gurke in dünne Scheiben schneiden, salzen und mindestens 15 Minuten entwässern lassen.",
-    "3": "Joghurt, Gurke, Minze, Zitronensaft, Salz und Pfeffer zum Knoblauchöl geben. Zu flüssig? Mehr Joghurt.",
-    "4": "Calamari säubern, Körper in 2,5-cm-Ringe schneiden (kleine ganz lassen).",
-    "5": "Mit Salz und Pfeffer gewürztes Mehl bereitstellen.",
-    "6": "Öl bei starker Hitze erhitzen.",
-    "7": "Calamari innen und außen mehlieren.",
-    "8": "Portionsweise ins Öl geben.",
-    "9": "Kleine ca. 1 Minute, große eine Minute länger.",
-    "10": "Auf Küchenpapier abtropfen lassen und sofort mit Tzatziki servieren."
+   "1": "Die Scheiben im Toaster, unter dem Grill oder auf dem Rost goldbraun rösten.",
+   "2": "Das Brot sofort mit der Schnittseite des Knoblauchs einreiben.",
+   "3": "Mit Salz und schwarzem Pfeffer bestreuen und großzügig mit nativem Olivenöl extra beträufeln.",
+   "4": "Warm servieren, mit saisonalen Belägen nach Wahl."
   },
-  "culturalNotes": "Calamari mit Tzatziki ist ein mediterranes Gericht, besonders beliebt in Griechenland und Zypern."
-},
-"w-fr-003": {
-  "title": "Calissons",
+  "culturalNotes": "Bruschetta ist eine traditionelle italienische Vorspeise, bekannt für ihre Einfachheit und ihren intensiven Geschmack."
+ },
+ "w-it-003": {
+  "title": "Burrata mit marinierten Saubohnen",
   "ingredients": {
-    "w-fr-003-i1": {"name": "Mandeln", "standardAmount": "200 g"},
-    "w-fr-003-i2": {"name": "Puderzucker", "standardAmount": "200 g"},
-    "w-fr-003-i3": {"name": "Honig", "standardAmount": "100 g"},
-    "w-fr-003-i4": {"name": "Zimt", "standardAmount": "½ TL"},
-    "w-fr-003-i5": {"name": "Nelken", "standardAmount": "¼ TL"},
-    "w-fr-003-i6": {"name": "Rosinen", "standardAmount": "50 g"},
-    "w-fr-003-i7": {"name": "Mehl", "standardAmount": "100 g"},
-    "w-fr-003-i8": {"name": "Ei", "standardAmount": "1"}
+   "w-it-003-i1": {
+    "name": "knuspriges Brot",
+    "standardAmount": "8 Scheiben"
+   },
+   "w-it-003-i2": {
+    "name": "natives Olivenöl extra",
+    "standardAmount": "1/3 Tasse und etwas mehr"
+   },
+   "w-it-003-i3": {
+    "name": "Saubohnen",
+    "standardAmount": "900 g"
+   },
+   "w-it-003-i4": {
+    "name": "Zitronensaft",
+    "standardAmount": "Saft einer halben Zitrone"
+   },
+   "w-it-003-i5": {
+    "name": "Knoblauch",
+    "standardAmount": "1 Zehe, geschält und gehackt"
+   },
+   "w-it-003-i6": {
+    "name": "Meersalz",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-003-i7": {
+    "name": "gemahlener schwarzer Pfeffer",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-003-i8": {
+    "name": "Burrata oder Mozzarella",
+    "standardAmount": "2 Kugeln"
+   }
   },
   "instructions": {
-    "1": "Mandelmehl und Puderzucker in einer Schüssel mischen.",
-    "2": "Honig, Zimt, Nelken und Rosinen zugeben und gut vermischen.",
-    "3": "Mehl nach und nach zu einem festen Teig verarbeiten.",
-    "4": "Abdecken und 30 Minuten ruhen lassen.",
-    "5": "Kleine Kugeln formen und auf ein mit Backpapier belegtes Blech setzen.",
-    "6": "Bei 180 °C 20 Minuten goldbraun backen.",
-    "7": "Abkühlen lassen und servieren."
+   "1": "Die Saubohnen in kochendem Salzwasser 2 Minuten blanchieren; abgießen und in kaltem Wasser abschrecken.",
+   "2": "Die äußere Haut jeder Bohne abziehen, um das leuchtend grüne Innere freizulegen.",
+   "3": "Die Bohnen mit Olivenöl, Zitronensaft, Knoblauch, Salz und Pfeffer mischen; mindestens 30 Minuten marinieren lassen.",
+   "4": "Die Brotscheiben goldbraun und knusprig rösten.",
+   "5": "Jede Scheibe mit etwas Olivenöl beträufeln.",
+   "6": "Die marinierten Bohnen auf dem Brot verteilen.",
+   "7": "Stücke Burrata oder Mozzarella daraufsetzen.",
+   "8": "Mit einem Schuss Olivenöl und einer Prise schwarzem Pfeffer vollenden; sofort servieren."
   },
-  "culturalNotes": "Calissons sind eine traditionelle Süßspeise aus Südfrankreich mit feinem Aroma und Süße."
-},
-"w-fr-004": {
-  "title": "Knoblauch-Confit",
+  "culturalNotes": "Burrata ist ein weicher, cremiger italienischer Käse, der oft in Salaten oder als Vorspeise serviert wird."
+ },
+ "w-it-004": {
+  "title": "Calzone mit halal-Rindfleischwurst und Aubergine",
   "ingredients": {
-    "w-fr-004-i1": {"name": "Knoblauch", "standardAmount": "2 Knollen"},
-    "w-fr-004-i2": {"name": "Thymian", "standardAmount": "2 Zweige"},
-    "w-fr-004-i3": {"name": "Olivenöl", "standardAmount": "250 ml"},
-    "w-fr-004-i4": {"name": "Salz", "standardAmount": "1 kräftige Prise"}
+   "w-it-004-i1": {
+    "name": "einfacher Pizzateig",
+    "standardAmount": "1 Kugel"
+   },
+   "w-it-004-i2": {
+    "name": "Tomatensoße",
+    "standardAmount": "1 Tasse"
+   },
+   "w-it-004-i3": {
+    "name": "Zwiebel",
+    "standardAmount": "4 EL, fein gehackt"
+   },
+   "w-it-004-i4": {
+    "name": "Knoblauch",
+    "standardAmount": "1 Zehe, gehackt"
+   },
+   "w-it-004-i5": {
+    "name": "Olivenöl",
+    "standardAmount": "3 EL"
+   },
+   "w-it-004-i6": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-004-i7": {
+    "name": "schwarzer Pfeffer",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-004-i8": {
+    "name": "Chiliflocken",
+    "standardAmount": "eine Prise"
+   },
+   "w-it-004-i9": {
+    "name": "Aubergine",
+    "standardAmount": "1 Tasse, gewürfelt"
+   },
+   "w-it-004-i10": {
+    "name": "halal-Rindfleischwurst",
+    "standardAmount": "2 Stück, aus der Haut gelöst"
+   },
+   "w-it-004-i11": {
+    "name": "frisches Basilikum",
+    "standardAmount": "3 TL, gehackt"
+   },
+   "w-it-004-i12": {
+    "name": "Ricotta",
+    "standardAmount": "1/2 Tasse"
+   },
+   "w-it-004-i13": {
+    "name": "Mozzarella",
+    "standardAmount": "1/2 Tasse, gerieben"
+   },
+   "w-it-004-i14": {
+    "name": "Parmesan",
+    "standardAmount": "3 EL"
+   }
   },
   "instructions": {
-    "1": "Backofen auf 150 °C (Umluft 130 °C) vorheizen.",
-    "2": "Knoblauch in eine kleine ofenfeste Form (ca. 13 cm) geben, Thymian und Salz zugeben.",
-    "3": "Mit Olivenöl vollständig bedecken.",
-    "4": "1 Stunde 20 Minuten garen, bis das Öl sachte blubbert und der Knoblauch tief goldbraun ist; er soll sich zerdrücken lassen, aber die Form behalten.",
-    "5": "Im Öl abkühlen lassen. In einem sterilen Glas im Kühlschrank 2 Wochen haltbar."
+   "1": "Den Ofen auf 220 °C mit einem Stein oder Blech darin vorheizen.",
+   "2": "Zwiebel und Knoblauch in Olivenöl weich dünsten.",
+   "3": "Die Auberginenwürfel zugeben und weich und goldbraun braten.",
+   "4": "Die Wurst in die Pfanne bröckeln und durchgaren; vom Herd nehmen und etwas abkühlen lassen.",
+   "5": "Wurst und Aubergine mit Ricotta, Mozzarella, Parmesan, Basilikum und Chiliflocken mischen; salzen und pfeffern.",
+   "6": "Den Teig auf einer bemehlten Fläche zu einem Kreis von etwa 30 cm ausrollen.",
+   "7": "Die Tomatensoße auf eine Hälfte streichen, einen Rand frei lassen, dann die Füllung darauf verteilen.",
+   "8": "Den Teig über der Füllung zusammenklappen und die Ränder rollend oder mit der Gabel versiegeln.",
+   "9": "Einige kleine Schlitze in die Oberseite schneiden, damit Dampf entweichen kann.",
+   "10": "15 bis 20 Minuten backen, bis der Calzone goldbraun und knusprig ist; 5 Minuten ruhen lassen, dann aufschneiden."
   },
-  "culturalNotes": "Knoblauch-Confit ist ein Klassiker der französischen Küche für Vorspeisen und zum Verfeinern vieler Gerichte."
-},
-"w-fr-005": {
-  "title": "Confit de Canard (Entenconfit)",
+  "culturalNotes": "Der Calzone ist in Italien sehr beliebt, besonders im Süden; er wird als Snack oder Hauptgericht gegessen."
+ },
+ "w-it-005": {
+  "title": "Cassata Siciliana",
   "ingredients": {
-    "w-fr-005-i1": {"name": "Entenkeulen", "standardAmount": "4 (à 250 g)"},
-    "w-fr-005-i2": {"name": "Entenfett", "standardAmount": "750 ml"},
-    "w-fr-005-i3": {"name": "Salz", "standardAmount": "4 TL"},
-    "w-fr-005-i4": {"name": "Thymian", "standardAmount": "⅓ Tasse"},
-    "w-fr-005-i5": {"name": "Salbei", "standardAmount": "⅓ Tasse"},
-    "w-fr-005-i6": {"name": "Rosmarin", "standardAmount": "⅓ Tasse"},
-    "w-fr-005-i7": {"name": "Oregano", "standardAmount": "⅓ Tasse"},
-    "w-fr-005-i8": {"name": "Knoblauch", "standardAmount": "6 Zehen (mit Schale angedrückt)"},
-    "w-fr-005-i9": {"name": "Schalotte", "standardAmount": "1 (in feinen Scheiben)"},
-    "w-fr-005-i10": {"name": "Schwarze Pfefferkörner", "standardAmount": "1 EL"},
-    "w-fr-005-i11": {"name": "Koriandersamen", "standardAmount": "1 EL"},
-    "w-fr-005-i12": {"name": "Sternanis", "standardAmount": "8"},
-    "w-fr-005-i13": {"name": "Lorbeerblätter", "standardAmount": "2"},
-    "w-fr-005-i14": {"name": "Wacholderbeeren", "standardAmount": "2 EL"},
-    "w-fr-005-i15": {"name": "Nelken", "standardAmount": "8"}
+   "w-it-005-i1": {
+    "name": "Ricotta",
+    "standardAmount": "450 g"
+   },
+   "w-it-005-i2": {
+    "name": "Puderzucker",
+    "standardAmount": "1 Tasse"
+   },
+   "w-it-005-i3": {
+    "name": "Zimt",
+    "standardAmount": "1/2 TL"
+   },
+   "w-it-005-i4": {
+    "name": "Kakaopulver",
+    "standardAmount": "2 EL"
+   },
+   "w-it-005-i5": {
+    "name": "zerbröselte Kekse",
+    "standardAmount": "200 g"
+   },
+   "w-it-005-i6": {
+    "name": "Zartbitterschokolade",
+    "standardAmount": "200 g"
+   },
+   "w-it-005-i7": {
+    "name": "Rosinen",
+    "standardAmount": "1/2 Tasse"
+   },
+   "w-it-005-i8": {
+    "name": "Orangen",
+    "standardAmount": "2"
+   },
+   "w-it-005-i9": {
+    "name": "Butter",
+    "standardAmount": "115 g"
+   },
+   "w-it-005-i10": {
+    "name": "Sahne",
+    "standardAmount": "1 Tasse"
+   }
   },
   "instructions": {
-    "1": "Salz und Gewürze in einer Schüssel mischen und die Keulen damit einreiben.",
-    "2": "In eine tiefe Schüssel legen, mit Gewürzen bedecken und abgedeckt 24 Stunden kühlen.",
-    "3": "Nach 24 Stunden kalt abspülen und trocken tupfen.",
-    "4": "In eine Bratform legen, Fett und Gewürze zugeben und mit Folie abdecken.",
-    "5": "Bei 100 °C 2–3 Stunden garen, bis das Fleisch weich ist.",
-    "6": "Herausnehmen, etwas abkühlen lassen und das Fett in ein verschließbares Gefäß abseihen.",
-    "7": "Ente in eine tiefe Schüssel legen und mit dem abgeseihten Fett bedecken. Im Kühlschrank 6 Monate haltbar.",
-    "8": "Zum Servieren bei 200 °C 10–15 Minuten backen, bis die Haut knusprig ist."
+   "1": "Ricotta mit Puderzucker, Zimt und Kakao zu einer glatten Creme verrühren.",
+   "2": "Rosinen, Orangenschale und einen Teil der gehackten Schokolade unterrühren.",
+   "3": "Eine Form mit den zerbröselten Keksen auslegen, die mit der geschmolzenen Butter vermischt sind, und so den Boden formen.",
+   "4": "Mit der Ricotta-Mischung füllen und glatt streichen.",
+   "5": "Mindestens 4 Stunden oder über Nacht kühlen, damit die Cassata fest wird.",
+   "6": "Stürzen und mit der restlichen geschmolzenen Schokolade und Orangenspalten bedecken.",
+   "7": "Kalt servieren, in Stücken."
   },
-  "culturalNotes": "Entenconfit ist ein französisches Traditionsgericht, bei dem die Keulen im eigenen Fett schonend gegart werden; serviert mit Kartoffelpüree oder Ofengemüse."
-},
-"w-fr-006": {
-  "title": "Flamiche (Lauchpastete)",
+  "culturalNotes": "Die Cassata Siciliana ist ein traditionelles Dessert der Insel Sizilien in Italien, bekannt für ihren Reichtum und ihre Süße."
+ },
+ "w-it-006": {
+  "title": "Pizza mit Kirschtomaten und Ziegenkäse",
   "ingredients": {
-    "w-fr-006-i1": {"name": "Weizenmehl", "standardAmount": "350 g"},
-    "w-fr-006-i2": {"name": "Butter", "standardAmount": "175 g (Zimmertemperatur)"},
-    "w-fr-006-i3": {"name": "Salz", "standardAmount": "1 Prise"},
-    "w-fr-006-i4": {"name": "Milch", "standardAmount": "7 EL"},
-    "w-fr-006-i5": {"name": "Currypulver", "standardAmount": "½ TL"},
-    "w-fr-006-i6": {"name": "Lauch", "standardAmount": "900 g (gehackt)"},
-    "w-fr-006-i7": {"name": "Butter", "standardAmount": "40 g"},
-    "w-fr-006-i8": {"name": "Eigelb", "standardAmount": "4 (3 für die Füllung + 1 zum Bestreichen)"},
-    "w-fr-006-i9": {"name": "Crème fraîche", "standardAmount": "200 g"},
-    "w-fr-006-i10": {"name": "Muskatnuss", "standardAmount": "¼ TL"},
-    "w-fr-006-i11": {"name": "Salz und schwarzer Pfeffer", "standardAmount": "1 Prise"}
+   "w-it-006-i1": {
+    "name": "Kirschtomaten",
+    "standardAmount": "1 Tasse, halbiert"
+   },
+   "w-it-006-i2": {
+    "name": "Knoblauch",
+    "standardAmount": "1 große Zehe, gehackt"
+   },
+   "w-it-006-i3": {
+    "name": "Olivenöl",
+    "standardAmount": "4 EL"
+   },
+   "w-it-006-i4": {
+    "name": "Meersalz und gemahlener schwarzer Pfeffer",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-006-i5": {
+    "name": "gehacktes frisches Basilikum",
+    "standardAmount": "1/4 Tasse"
+   },
+   "w-it-006-i6": {
+    "name": "Mozzarella",
+    "standardAmount": "1 1/2 Tassen, in dünnen Scheiben"
+   },
+   "w-it-006-i7": {
+    "name": "Ziegenkäse",
+    "standardAmount": "85 g"
+   },
+   "w-it-006-i8": {
+    "name": "Pizzateig",
+    "standardAmount": "1 Kugel"
+   },
+   "w-it-006-i9": {
+    "name": "Basilikumpesto",
+    "standardAmount": "2 EL"
+   }
   },
   "instructions": {
-    "1": "Mehl, Butter und Salz in einer großen Schüssel zu Streuseln verarbeiten.",
-    "2": "Milch nach und nach zugeben und zu einem Teig kneten.",
-    "3": "Abdecken und 30 Minuten kühlen.",
-    "4": "Butter in einer großen Pfanne schmelzen und Lauch weich und goldgelb braten.",
-    "5": "Currypulver zugeben und 1 Minute rühren.",
-    "6": "In einer zweiten Schüssel Eigelb, Crème fraîche, Muskat, Salz und Pfeffer verrühren.",
-    "7": "Gebratenen Lauch unter die Eimasse rühren.",
-    "8": "Pastetenform mit Teig auslegen und Füllung einfüllen.",
-    "9": "Oberen Teig auflegen und Ränder verschließen.",
-    "10": "Mit restlichem Eigelb bestreichen.",
-    "11": "Bei 180 °C 45 Minuten goldbraun backen.",
-    "12": "10 Minuten ruhen lassen und servieren."
+   "1": "Den Ofen auf die höchste Stufe vorheizen.",
+   "2": "Tomaten, Knoblauch, Olivenöl, Salz, Pfeffer und gehacktes Basilikum in einer Schüssel mischen. Gut verrühren und beiseitestellen.",
+   "3": "Den Pizzateig mit den Händen zu einem Kreis von 30 cm ziehen und auf eine mit Maisgrieß bestreute Pizzaschaufel legen, damit er nicht klebt.",
+   "4": "2 EL Olivenöl mit dem Pesto verrühren und den Teig damit bestreichen, dabei einen 2,5 cm breiten Rand freilassen.",
+   "5": "Die Mozzarellascheiben gleichmäßig auf dem Teig verteilen, dann die Tomaten.",
+   "6": "Den Ziegenkäse über der Pizza zerbröseln.",
+   "7": "12 bis 15 Minuten backen, bis der Rand leicht gebräunt und der Käse blubbernd ist."
   },
-  "culturalNotes": "Flamiche ist eine traditionelle Lauchpastete aus Nordfrankreich."
-},
-"w-fr-007": {
-  "title": "Fondant-Kartoffeln",
+  "culturalNotes": "Diese Pizza ist ein beliebtes Gericht der italienischen Küche, bekannt für ihre Einfachheit und ihren vollen Geschmack."
+ },
+ "w-it-007": {
+  "title": "Ciabatta",
   "ingredients": {
-    "w-fr-007-i1": {"name": "Große mehlige Kartoffeln", "standardAmount": "4 (à 400 g)"},
-    "w-fr-007-i2": {"name": "Salz", "standardAmount": "¾ TL"},
-    "w-fr-007-i3": {"name": "Schwarzer Pfeffer", "standardAmount": "½ TL"},
-    "w-fr-007-i4": {"name": "Natives Olivenöl extra", "standardAmount": "2 EL"},
-    "w-fr-007-i5": {"name": "Ungesalzene Butter", "standardAmount": "3 EL (50 g)"},
-    "w-fr-007-i6": {"name": "Thymian", "standardAmount": "6 Zweige"},
-    "w-fr-007-i7": {"name": "Hühner- oder Gemüsebrühe", "standardAmount": "240 ml (salzarm)"}
+   "w-it-007-i1": {
+    "name": "Trockenhefe",
+    "standardAmount": "1,5 TL"
+   },
+   "w-it-007-i2": {
+    "name": "warmes Wasser",
+    "standardAmount": "1,5 Tassen"
+   },
+   "w-it-007-i3": {
+    "name": "Brotmehl",
+    "standardAmount": "1 1/3 Tassen"
+   },
+   "w-it-007-i4": {
+    "name": "ungebleichtes Allzweckmehl",
+    "standardAmount": "3 Tassen und mehr zum Arbeiten und Formen"
+   },
+   "w-it-007-i5": {
+    "name": "Salz",
+    "standardAmount": "2 TL"
+   }
   },
   "instructions": {
-    "1": "Backofen auf 200 °C (Umluft 180 °C) vorheizen.",
-    "2": "Kartoffeln zu Zylindern von ca. 6 cm Durchmesser und 7 cm Höhe schneiden, halbieren zu 8 Zylindern à 3,5 cm.",
-    "3": "Trocken tupfen und mit der Hälfte des Öls sowie Salz und Pfeffer einreiben.",
-    "4": "Restliches Öl in einer ofenfesten Pfanne bei mittlerer bis hoher Hitze erhitzen und jede Seite 6–8 Minuten goldbraun braten.",
-    "5": "Butter und Thymian zugeben; wenn geschmolzen, über die Kartoffeln löffeln. Brühe angießen, aufkochen und im Ofen 30 Minuten garen, nach 15 Minuten erneut begießen.",
-    "6": "Nochmals begießen und servieren. Restaurant-Style mit Steak, Sauce Béarnaise und Butterbohnen."
+   "1": "Für die Biga die Hefe über das Wasser in einer großen Schüssel streuen und 5 bis 10 Minuten stehen lassen.",
+   "2": "Die Mehle zugeben und verrühren (der Teig wirkt fest, wird aber beim Ruhen weicher).",
+   "3": "Die Biga dicht mit Folie abdecken und 6 Stunden bei Raumtemperatur stehen lassen.",
+   "4": "Umrühren und bis zum nächsten Tag oder mindestens 12 Stunden kühlen.",
+   "5": "Mehl, Salz und Hefe in einer großen Schüssel mischen, dann Wasser und Biga zugeben und verrühren, bis sich ein Teig bildet (er ist sehr feucht und grob).",
+   "6": "Den Teig auf eine bemehlte Fläche stürzen und mit möglichst wenig Mehl 5 Minuten kneten, bis er glatt ist (keine Sorge, wenn er noch sehr weich wirkt: er festigt sich beim Gehen).",
+   "7": "Den Teig in eine große, leicht geölte Schüssel legen, die dreimal so groß ist.",
+   "8": "Dicht mit Folie abdecken und an einem warmen Ort 2 bis 3 Stunden gehen lassen, bis er sich verdoppelt hat; dabei etwa alle 30 Minuten den Teig zusammendrücken und wenden.",
+   "9": "Bei Verwendung von Backblechen diese leicht mit Maisgrieß bestreuen.",
+   "10": "Den Teig in zwei Stücke teilen und jedes zu einem Rechteck falten.",
+   "11": "Das Rechteck auf etwa 30 bis 35 cm Länge ziehen.",
+   "12": "Jedes Brot auf ein Blech legen und locker mit einem Tuch abdecken.",
+   "13": "Bei Verwendung eines Backsteins zwei Küchentücher oder Brotschieber bemehlen und die geformten Brote darauf gehen lassen.",
+   "14": "Locker mit Tüchern abdecken.",
+   "15": "Den Ofen auf 230 °C vorheizen.",
+   "16": "Nach 45 Minuten die Bleche in den heißen Ofen schieben oder die Brote auf den heißen Stein setzen.",
+   "17": "Etwa 30 Minuten backen, die Brote einmal wenden, bis sie ringsum dunkel goldbraun sind.",
+   "18": "Herausnehmen und auf einem Gitter auskühlen lassen."
   },
-  "culturalNotes": "Fondant-Kartoffeln sind ein französisches Ofengericht: außen goldbraun, innen cremig."
-},
-"w-fr-008": {
-  "title": "Schokoladen-Crêpes",
+  "culturalNotes": "Ciabatta ist ein traditionelles italienisches Brot, bekannt für seine flache, längliche Form und seine typische Textur; es begleitet viele Gerichte."
+ },
+ "w-it-008": {
+  "title": "Colomba Pasquale",
   "ingredients": {
-    "w-fr-008-i1": {"name": "Ungesalzene Butter", "standardAmount": "25 g"},
-    "w-fr-008-i2": {"name": "Weizenmehl", "standardAmount": "150 g"},
-    "w-fr-008-i3": {"name": "Eier", "standardAmount": "2 große"},
-    "w-fr-008-i4": {"name": "Vollmilch", "standardAmount": "275 ml"},
-    "w-fr-008-i5": {"name": "Salz", "standardAmount": "1 Prise"},
-    "w-fr-008-i6": {"name": "Vanillepulver", "standardAmount": "¼ TL (optional)"},
-    "w-fr-008-i7": {"name": "Puderzucker", "standardAmount": "1 EL"},
-    "w-fr-008-i8": {"name": "Ungesüßtes Kakaopulver", "standardAmount": "1 EL"}
+   "w-it-008-i1": {
+    "name": "Allzweckmehl",
+    "standardAmount": "3 Tassen + 1 Tasse"
+   },
+   "w-it-008-i2": {
+    "name": "kaltes Wasser",
+    "standardAmount": "1/2 Tasse"
+   },
+   "w-it-008-i3": {
+    "name": "Instanthefe",
+    "standardAmount": "1/8 TL + 1 EL"
+   },
+   "w-it-008-i4": {
+    "name": "Salz",
+    "standardAmount": "1 TL"
+   },
+   "w-it-008-i5": {
+    "name": "Zucker",
+    "standardAmount": "1/3 Tasse"
+   },
+   "w-it-008-i6": {
+    "name": "geschmolzene, abgekühlte Butter",
+    "standardAmount": "6 EL"
+   },
+   "w-it-008-i7": {
+    "name": "Eier",
+    "standardAmount": "2 große + 1 Eigelb"
+   },
+   "w-it-008-i8": {
+    "name": "Orangenschale und Vanillemark",
+    "standardAmount": "1/2 TL (oder das Mark einer Vanilleschote und die Schale einer Orange)"
+   },
+   "w-it-008-i9": {
+    "name": "fein gehackte kandierte Orangenschale",
+    "standardAmount": "1/3 Tasse (oder die Schale einer großen Orange)"
+   },
+   "w-it-008-i10": {
+    "name": "goldene Rosinen",
+    "standardAmount": "1 1/2 Tassen (gehackt, wenn groß)"
+   },
+   "w-it-008-i11": {
+    "name": "Eiweiß",
+    "standardAmount": "1 großes"
+   },
+   "w-it-008-i12": {
+    "name": "Mandelmehl",
+    "standardAmount": "3 EL"
+   },
+   "w-it-008-i13": {
+    "name": "Kristallzucker",
+    "standardAmount": "3 EL"
+   },
+   "w-it-008-i14": {
+    "name": "Mandelblättchen",
+    "standardAmount": "2 EL"
+   },
+   "w-it-008-i15": {
+    "name": "Hagelzucker",
+    "standardAmount": "6 TL"
+   }
   },
   "instructions": {
-    "1": "Butter in der Crêpe-Pfanne schmelzen (leicht bräunen für nussiges Aroma).",
-    "2": "Mehl, Puderzucker, Kakao, Salz und Vanille in einer großen Schüssel mischen, Eier in die Mitte schlagen und mit der geschmolzenen Butter gut verrühren.",
-    "3": "Ein Viertel der Milch einrühren, dann den Rest nach und nach. Der Teig ist recht flüssig – das ist richtig.",
-    "4": "Überschüssige Butter auswischen, Pfanne bei mittlerer bis hoher Hitze erhitzen, eine Kelle Teig eingießen und dünn verlaufen lassen.",
-    "5": "2–3 Minuten backen, bis Blasen entstehen, wenden und einige Minuten weiterbacken.",
-    "6": "Hitze etwas reduzieren, Pfanne zwischendurch auswischen und wiederholen – ergibt 6–8 Crêpes."
+   "1": "Am Vorabend die Zutaten der Biga in einer kleinen Schüssel mischen, abdecken und über Nacht gehen lassen.",
+   "2": "Am nächsten Tag in einer großen Schüssel den Biga-Vorteig, das Mehl, Salz, Hefe, Zucker, Butter, Eier und die Orangenschale mit dem Vanillemark zugeben.",
+   "3": "Mit einem Holzlöffel zu einem groben Teig verrühren, dann die kandierte Orange und die Rosinen zugeben.",
+   "4": "Den Teig auf eine leicht bemehlte Fläche stürzen und von Hand kneten, bis er sehr glatt und elastisch ist, etwa 7 bis 8 Minuten.",
+   "5": "Alternativ die Zutaten in einer Küchenmaschine mit Knethaken glatt kneten.",
+   "6": "Den Teig in eine leicht geölte Schüssel legen, mit Folie abdecken und an einem warmen Ort 2 bis 3 Stunden gehen lassen, bis er weich und fast verdoppelt ist.",
+   "7": "Den Teig in zwei Teile teilen und in die Colomba-Form legen oder von Hand zu einem Kreuz formen.",
+   "8": "Auf ein mit Backpapier belegtes Blech setzen, mit gefetteter Folie abdecken und weitere 2 Stunden gehen lassen.",
+   "9": "Am Ende der Gehzeit den Ofen auf 180 °C vorheizen.",
+   "10": "Für den Belag das Eiweiß schaumig schlagen, dann Mandelmehl und Zucker zugeben.",
+   "11": "Oberseite und Seiten des Brotes großzügig mit der Eiweißmischung bestreichen und mit Hagelzucker und Mandelblättchen bestreuen.",
+   "12": "25 bis 30 Minuten backen, bis ein Stäbchen sauber aus der Mitte kommt. (Falls das Brot zu dunkel wird, mit Alufolie abdecken.)",
+   "13": "Vollständig auskühlen lassen, in Scheiben schneiden und genießen!"
   },
-  "culturalNotes": "Crêpes sind ein beliebtes französisches Frühstück, serviert mit Schokolade, Honig oder Erdbeeren."
-},
-"w-fr-009": {
-  "title": "Schokoladentrüffel mit Ganache",
+  "culturalNotes": "Die Colomba Pasquale ist das traditionelle italienische Osterbrot, das zur Osterzeit in Taubenform gebacken wird."
+ },
+ "w-it-009": {
+  "title": "Hähnchenschnitzel nach Palermo-Art mit Pistazien-Kapern-Sauce",
   "ingredients": {
-    "w-fr-009-i1": {"name": "Zartbitterschokolade", "standardAmount": "285 g"},
-    "w-fr-009-i2": {"name": "Ungesalzene Butter", "standardAmount": "30 g"},
-    "w-fr-009-i3": {"name": "Sahne", "standardAmount": "125 ml"},
-    "w-fr-009-i4": {"name": "Kokosraspel", "standardAmount": "125 g"},
-    "w-fr-009-i5": {"name": "Ungesüßtes Kakaopulver", "standardAmount": "60 g"},
-    "w-fr-009-i6": {"name": "Zerkleinerte Erdnüsse", "standardAmount": "125 g"},
-    "w-fr-009-i7": {"name": "Farbige Zuckerstreusel", "standardAmount": "85 g"},
-    "w-fr-009-i8": {"name": "Puderzucker", "standardAmount": "60 g"}
+   "w-it-009-i1": {
+    "name": "Hähnchenbrust ohne Haut und Knochen",
+    "standardAmount": "2"
+   },
+   "w-it-009-i2": {
+    "name": "Allzweckmehl",
+    "standardAmount": "1 Tasse"
+   },
+   "w-it-009-i3": {
+    "name": "Eier",
+    "standardAmount": "2"
+   },
+   "w-it-009-i4": {
+    "name": "Milch",
+    "standardAmount": "1/2 Tasse"
+   },
+   "w-it-009-i5": {
+    "name": "frische Semmelbrösel",
+    "standardAmount": "1 1/2 Tassen"
+   },
+   "w-it-009-i6": {
+    "name": "fein gehackte frische Petersilie",
+    "standardAmount": "2 TL"
+   },
+   "w-it-009-i7": {
+    "name": "fein gehackte rohe Pistazien",
+    "standardAmount": "1/2 Tasse"
+   },
+   "w-it-009-i8": {
+    "name": "Olivenöl",
+    "standardAmount": "2 EL + 3/4 Tasse"
+   },
+   "w-it-009-i9": {
+    "name": "weiche ungesalzene Butter",
+    "standardAmount": "2 EL"
+   },
+   "w-it-009-i10": {
+    "name": "Saft einer großen Zitrone",
+    "standardAmount": "Saft einer großen Zitrone"
+   },
+   "w-it-009-i11": {
+    "name": "gesalzene Kapern",
+    "standardAmount": "1 EL"
+   },
+   "w-it-009-i12": {
+    "name": "frische Petersilienblätter",
+    "standardAmount": "1/4 Tasse"
+   },
+   "w-it-009-i13": {
+    "name": "rohe Pistazien",
+    "standardAmount": "1/3 Tasse"
+   },
+   "w-it-009-i14": {
+    "name": "Salz und Pfeffer",
+    "standardAmount": "nach Geschmack"
+   }
   },
   "instructions": {
-    "1": "Schokolade, Sahne und Butter in eine hitzefeste Schüssel geben und 4-mal je 30 Sekunden in der Mikrowelle erhitzen, dazwischen rühren.",
-    "2": "Schüssel abdecken, 5 Minuten stehen lassen und glatt rühren – die Ganache ist fertig.",
-    "3": "6 Stunden im Kühlschrank fest werden lassen. Nicht einfrieren.",
-    "4": "Den Teller für die Trüffel ebenfalls kühlen.",
-    "5": "Nach 6 Stunden mit einem Teelöffel kleine Kugeln formen.",
-    "6": "In Kokos, Kakao, Erdnüssen, Streuseln oder Puderzucker wälzen.",
-    "7": "Auf dem kalten Teller vollständig fest werden lassen."
+   "1": "Den Ofen auf 190 °C vorheizen.",
+   "2": "Die Hähnchenbrüste der Länge nach in drei Stücke schneiden und mit einem Fleischklopfer auf gleiche Dicke klopfen.",
+   "3": "Das gewürzte Mehl in einen Plastikbeutel geben und jedes Schnitzel einzeln hineinlegen und schwenken, bis es überzogen ist.",
+   "4": "Eier und Milch in einer Schüssel verquirlen.",
+   "5": "Die Zutaten der Panade in einer anderen Schüssel mischen.",
+   "6": "Ein Backblech mit Rand von 33 x 23 cm mit Alufolie auslegen und mit Öl und Butter bestreichen.",
+   "7": "Jedes bemehlte Schnitzel zuerst in die Eimischung, dann in die Bröselmischung tauchen.",
+   "8": "Die panierten Schnitzel nebeneinander auf das Blech legen und 10 Minuten backen.",
+   "9": "Die Schnitzel wenden und weitere 8 Minuten backen, bis sie golden und durchgegart sind.",
+   "10": "Währenddessen die Zutaten der Sauce in einen kleinen Mixer geben und fein hacken, aber nicht glatt pürieren.",
+   "11": "Die fertigen Schnitzel auf einer Platte anrichten und mit etwas Sauce beträufeln.",
+   "12": "Servieren und die restliche Sauce am Tisch anbieten."
   },
-  "culturalNotes": "Ganache ist die geschmeidige Mischung aus Schokolade und Sahne und das Herz vieler französischer Konfekte."
-},
-"w-fr-010": {
-  "title": "Gratin Dauphinois",
+  "culturalNotes": "Die Cotoletta ist ein berühmtes Gericht Siziliens, besonders in Palermo, wo sie mit einer Pistazien-Kapern-Sauce serviert wird."
+ },
+ "w-it-010": {
+  "title": "Fettuccine Alfredo",
   "ingredients": {
-    "w-fr-010-i1": {"name": "Kartoffeln", "standardAmount": "750 g"},
-    "w-fr-010-i2": {"name": "Knoblauch", "standardAmount": "2–3 Zehen (gehackt)"},
-    "w-fr-010-i3": {"name": "Vollmilch", "standardAmount": "275 ml"},
-    "w-fr-010-i4": {"name": "Schlagsahne", "standardAmount": "150 ml"},
-    "w-fr-010-i5": {"name": "Muskatnuss", "standardAmount": "¼ TL"},
-    "w-fr-010-i6": {"name": "Salz und schwarzer Pfeffer", "standardAmount": "nach Geschmack"},
-    "w-fr-010-i7": {"name": "Frischer Thymian", "standardAmount": "½ TL"},
-    "w-fr-010-i8": {"name": "Butter", "standardAmount": "etwas (für die Form)"},
-    "w-fr-010-i9": {"name": "Emmentaler oder Gruyère", "standardAmount": "100 g (optional)"}
+   "w-it-010-i1": {
+    "name": "frische Fettuccine",
+    "standardAmount": "340 g"
+   },
+   "w-it-010-i2": {
+    "name": "Butter",
+    "standardAmount": "2 EL"
+   },
+   "w-it-010-i3": {
+    "name": "Sahne",
+    "standardAmount": "240 ml"
+   },
+   "w-it-010-i4": {
+    "name": "Hühnerbrühe",
+    "standardAmount": "120 ml"
+   },
+   "w-it-010-i5": {
+    "name": "Eigelb",
+    "standardAmount": "1"
+   },
+   "w-it-010-i6": {
+    "name": "geriebener Parmesan",
+    "standardAmount": "1/2 Tasse"
+   },
+   "w-it-010-i7": {
+    "name": "Meersalz",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-010-i8": {
+    "name": "gemahlener schwarzer Pfeffer",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-010-i9": {
+    "name": "zusätzlicher geriebener Käse",
+    "standardAmount": "zum Servieren"
+   }
   },
   "instructions": {
-    "1": "Kartoffeln schälen (oder mit Schale) und in 3 mm dicke Scheiben schneiden.",
-    "2": "Backofen auf 190 °C (Umluft 170 °C) vorheizen.",
-    "3": "Milch, Sahne und Knoblauch aufkochen, Hitze reduzieren und Muskat, Salz, Pfeffer und Kartoffeln zugeben.",
-    "4": "Ca. 5 Minuten köcheln und die Scheiben wenden. Käse kann hier zugegeben werden.",
-    "5": "Form buttern und Kartoffeln gleichmäßig einschichten.",
-    "6": "Ca. 45 Minuten goldbraun backen."
+   "1": "Einen großen Topf Wasser für die Pasta aufkochen.",
+   "2": "4 EL Sahne in eine separate Schüssel geben und das Eigelb hineinquirlen.",
+   "3": "In einem Topf die übrige Sahne und die Hühnerbrühe erhitzen.",
+   "4": "Die Pasta al dente kochen, abgießen und in den Topf zurückgeben.",
+   "5": "Die Butter unter die Pasta rühren, bis sie geschmolzen ist und jede Nudel überzieht.",
+   "6": "Etwas von der heißen Sahne in die Ei-Sahne-Mischung quirlen (so wird das Ei erwärmt, ohne zu stocken).",
+   "7": "Dann die restliche heiße Sahne und Brühe in die Eimischung geben und gut verrühren.",
+   "8": "Zum Schluss die vermischte Ei-Sahne-Mischung über die Pasta gießen und gleichmäßig unterheben.",
+   "9": "Den geriebenen Käse und eine Prise Meersalz nach Geschmack zugeben.",
+   "10": "Die Pasta auf 4 Teller verteilen, mit schwarzem Pfeffer bestreuen und zusätzlichen Käse anbieten."
   },
-  "culturalNotes": "Traditionelles Gericht aus dem Dauphiné: feine Kartoffelscheiben in Milch und Sahne mit Muskat überbacken."
-},
-"w-fr-011": {
-  "title": "Pain d'Épices (Gewürzkuchen)",
+  "culturalNotes": "Fettuccine Alfredo sind ein traditionelles italienisches Gericht, bekannt für ihre reichhaltige, cremige Butter-Käse-Sauce."
+ },
+ "w-it-011": {
+  "title": "Finocchi alla Parmigiana (Fenchel-Parmesan)",
   "ingredients": {
-    "w-fr-011-i1": {"name": "Wasser", "standardAmount": "250 ml"},
-    "w-fr-011-i2": {"name": "Honig", "standardAmount": "255 g"},
-    "w-fr-011-i3": {"name": "Kardamomkapseln", "standardAmount": "4"},
-    "w-fr-011-i4": {"name": "Nelken", "standardAmount": "2"},
-    "w-fr-011-i5": {"name": "Sternanis", "standardAmount": "2"},
-    "w-fr-011-i6": {"name": "Rohrzucker", "standardAmount": "100 g"},
-    "w-fr-011-i7": {"name": "Ungesalzene Butter", "standardAmount": "155 g"},
-    "w-fr-011-i8": {"name": "Roggenmehl", "standardAmount": "255 g"},
-    "w-fr-011-i9": {"name": "Backpulver", "standardAmount": "2 TL"},
-    "w-fr-011-i10": {"name": "Salz", "standardAmount": "1 kräftige Prise"},
-    "w-fr-011-i11": {"name": "Lebkuchengewürz", "standardAmount": "1½ TL"},
-    "w-fr-011-i12": {"name": "Trockenfrüchte", "standardAmount": "1 EL"}
+   "w-it-011-i1": {
+    "name": "Fenchelknollen",
+    "standardAmount": "5 mittelgroße"
+   },
+   "w-it-011-i2": {
+    "name": "Olivenöl",
+    "standardAmount": "3 EL"
+   },
+   "w-it-011-i3": {
+    "name": "Zwiebel",
+    "standardAmount": "1 kleine, geschält und gewürfelt"
+   },
+   "w-it-011-i4": {
+    "name": "Knoblauch",
+    "standardAmount": "4 Zehen, geschält und gehackt"
+   },
+   "w-it-011-i5": {
+    "name": "gehackte Tomaten",
+    "standardAmount": "2 Dosen à 400 g"
+   },
+   "w-it-011-i6": {
+    "name": "getrockneter Oregano",
+    "standardAmount": "1 TL"
+   },
+   "w-it-011-i7": {
+    "name": "scharfe Chiliflocken",
+    "standardAmount": "1/2 TL (optional)"
+   },
+   "w-it-011-i8": {
+    "name": "frische Petersilienblätter",
+    "standardAmount": "1/4 Tasse"
+   },
+   "w-it-011-i9": {
+    "name": "frisches Basilikum",
+    "standardAmount": "3 EL"
+   },
+   "w-it-011-i10": {
+    "name": "Salz und Pfeffer",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-011-i11": {
+    "name": "Mozzarella",
+    "standardAmount": "1 Tasse, gewürfelt"
+   },
+   "w-it-011-i12": {
+    "name": "Parmesan oder Pecorino, gerieben",
+    "standardAmount": "1 1/2 Tassen"
+   }
   },
   "instructions": {
-    "1": "Kastenform buttern und Ofen auf 180 °C (Umluft 160 °C) vorheizen.",
-    "2": "Wasser, Honig, Zucker und Gewürze in einem Topf aufkochen, Butter darin schmelzen, vom Herd nehmen und 5 Minuten ziehen lassen.",
-    "3": "Roggenmehl, Backpulver, Salz und Lebkuchengewürz in einer Schüssel mischen und die warme Honigmischung nach und nach glatt einrühren.",
-    "4": "Form zu ¾ füllen und 40–50 Minuten tief goldbraun backen. Ein Stäbchen muss sauber herauskommen.",
-    "5": "10 Minuten in der Form abkühlen, dann auf ein Gitter stürzen. Mit Trockenfrüchten und Sternanis dekorieren."
+   "1": "Die Stiele der Fenchelknollen abschneiden und die Knollen halbieren. Mit einem scharfen Messer den Strunk herausschneiden, dann der Länge nach in etwa 1 cm dicke Scheiben schneiden.",
+   "2": "Einen großen Topf leicht gesalzenes Wasser zum Kochen bringen, den Fenchel zugeben und nur bis zur Gabelweichheit garen, etwa 4 bis 5 Minuten. Abgießen und beiseitestellen.",
+   "3": "Das Öl in einem Topf bei mittlerer Hitze erhitzen und, sobald es leicht raucht, die Zwiebeln zugeben. Unter häufigem Rühren etwa 5 Minuten weich dünsten.",
+   "4": "Den Knoblauch zugeben und noch eine bis zwei Minuten braten, bis er duftet.",
+   "5": "Tomaten, Oregano, Chiliflocken (falls verwendet), Petersilie, Basilikum, Salz und Pfeffer zugeben und aufkochen. Die Hitze reduzieren und 15 bis 20 Minuten einköcheln lassen, bis die Sauce eingedickt ist.",
+   "6": "Den Ofen auf 190 °C vorheizen.",
+   "7": "In einer großen ofenfesten Form von 33 x 23 cm die Hälfte des Fenchels auf dem Boden verteilen. Mit gerade so viel Sauce bedecken und die Hälfte des gewürfelten Mozzarella und des geriebenen Käses darüberstreuen.",
+   "8": "Den restlichen Fenchel zugeben, mit Sauce und restlichem Käse bedecken.",
+   "9": "Die Auflaufform 35 bis 40 Minuten backen, bis sie blubbert und oben golden ist.",
+   "10": "10 Minuten ruhen lassen, dann servieren."
   },
-  "culturalNotes": "Pain d'Épices ist ein traditioneller französischer Gewürzkuchen mit warmem Aroma."
-},
-"w-fr-012": {
-  "title": "Pissaladière",
+  "culturalNotes": "Finocchi alla Parmigiana ist ein traditionelles italienisches Gericht, das den Geschmack von Fenchel mit Parmesan verbindet."
+ },
+ "w-it-012": {
+  "title": "Focaccia",
   "ingredients": {
-    "w-fr-012-i1": {"name": "Olivenöl", "standardAmount": "4 EL + etwas für die Form"},
-    "w-fr-012-i2": {"name": "Zwiebeln", "standardAmount": "1 kg (in hauchdünnen Scheiben)"},
-    "w-fr-012-i3": {"name": "Thymian", "standardAmount": "1 kleines Bündel"},
-    "w-fr-012-i4": {"name": "Lorbeerblätter", "standardAmount": "2"},
-    "w-fr-012-i5": {"name": "Sardellenfilets", "standardAmount": "80 g (abgetropft)"},
-    "w-fr-012-i6": {"name": "Schwarze Oliven", "standardAmount": "80 g (entsteint)"},
-    "w-fr-012-i7": {"name": "Parmesan", "standardAmount": "20 g (gerieben)"},
-    "w-fr-012-i8": {"name": "Kalte ungesalzene Butter", "standardAmount": "200 g"},
-    "w-fr-012-i9": {"name": "Zitronensaft", "standardAmount": "1 TL"},
-    "w-fr-012-i10": {"name": "Weizenmehl (Type 550)", "standardAmount": "200 g + zum Bearbeiten"},
-    "w-fr-012-i11": {"name": "Salz", "standardAmount": "1 TL"},
-    "w-fr-012-i12": {"name": "Eiswasser", "standardAmount": "125 ml"}
+   "w-it-012-i1": {
+    "name": "Hefe",
+    "standardAmount": "2 TL"
+   },
+   "w-it-012-i2": {
+    "name": "Wasser",
+    "standardAmount": "1,5 Tassen"
+   },
+   "w-it-012-i3": {
+    "name": "Allzweckmehl",
+    "standardAmount": "2,25 Tassen"
+   },
+   "w-it-012-i4": {
+    "name": "Olivenöl",
+    "standardAmount": "5 EL"
+   },
+   "w-it-012-i5": {
+    "name": "Salz",
+    "standardAmount": "2 TL"
+   }
   },
   "instructions": {
-    "1": "Teig: Butter grob reiben, mit Mehl bestreuen in eine Schüssel geben und 30 Minuten einfrieren (oder 1 Stunde kühlen).",
-    "2": "Zitronensaft in 125 ml Eiswasser rühren. Restliches Mehl und Salz in eine große Schüssel geben, gefrorene Butter einstreuen und mit den Fingerspitzen vermischen.",
-    "3": "Zwei Drittel des Zitronenwassers zugießen und mit einem Messer zusammenführen. Bei Bedarf etwas mehr zugeben. Der Teig ist bröckelig, lässt sich aber zusammendrücken.",
-    "4": "Auf bemehlte Fläche geben, leicht zu einem groben Rechteck kneten, einwickeln und 20 Minuten kühlen.",
-    "5": "Zu einem 20×30-cm-Rechteck ausrollen. Butterstreifen bleiben sichtbar.",
-    "6": "Öl in einem großen Topf bei mittlerer Hitze erhitzen, Zwiebeln mit Salz, Thymian und Lorbeer zugeben und 40–45 Minuten unter Rühren zu einer tief goldbraunen, marmeladigen Masse schmoren. Abkühlen lassen.",
-    "7": "Blech leicht ölen, Teig auf 25×35 cm ausrollen, einlegen, Rand formen und 20 Minuten kühlen.",
-    "8": "Ofen auf 220 °C (Umluft 200 °C) heizen. Zwiebeln verteilen, Sardellen rautenförmig auflegen, Oliven in die Mitte setzen. Parmesan bestreuen und 30 Minuten backen.",
-    "9": "Mit Thymian bestreuen, 10 Minuten ruhen lassen und in Quadrate schneiden."
+   "1": "Einen Teelöffel der Hefe über 1/2 Tasse Wasser in einer mittleren Schüssel streuen. Verrühren und 10 Minuten stehen lassen. 3/4 Tasse Mehl zugeben, dicht mit Folie abdecken und an einem warmen Ort gehen lassen, bis sich der Ansatz verdoppelt, etwa 45 Minuten.",
+   "2": "In einer großen Schüssel den restlichen Teelöffel Hefe über 1 Tasse warmes Wasser streuen, verrühren und 10 Minuten stehen lassen. Die erste Hefemischung (nun aufgegangen) zusammen mit 3 EL Olivenöl und 2 TL Salz zugeben und gut verrühren. Das restliche Mehl nach und nach zugeben und nach jeder Zugabe gut einarbeiten.",
+   "3": "Auf einer leicht bemehlten Arbeitsfläche den Teig ausgeben und etwa 10 Minuten weich kneten.",
+   "4": "Den Teig in eine leicht geölte Schüssel legen, dicht abdecken und an einem warmen Ort etwa 1 1/2 Stunden gehen lassen, bis er sich verdoppelt hat.",
+   "5": "Eine Backform von 28 x 36 cm ölen und den aufgegangenen Teig hineingeben und bis zu den Rändern flachdrücken. Springt der Teig zu stark zurück, 10 Minuten ruhen lassen und dann weitermachen. Mit einem sauberen Tuch abdecken und 45 Minuten bis 1 Stunde gehen lassen.",
+   "6": "Den Ofen auf 220 °C vorheizen. Das Tuch abnehmen, mit den Fingerspitzen Vertiefungen in den Teig drücken, mit den restlichen 2 EL Olivenöl beträufeln, mit Meersalz bestreuen und in den Ofen stellen. 20 bis 25 Minuten backen, bis die Oberseite golden ist.",
+   "7": "Die Focaccia sofort nach dem Backen aus der Form lösen und vor dem Servieren auf einem Gitter auskühlen lassen."
   },
-  "culturalNotes": "Pissaladière ist eine Spezialität aus der Provence: dünner Teig mit geschmorten Zwiebeln, Sardellen und schwarzen Oliven."
-},
-"w-fr-013": {
-  "title": "Ratatouille",
+  "culturalNotes": "Focaccia ist ein traditionelles italienisches Fladenbrot, das oft als Snack oder Teil eines Mittagessens serviert wird."
+ },
+ "w-it-013": {
+  "title": "Süßkartoffel-Frittata",
   "ingredients": {
-    "w-fr-013-i1": {"name": "Olivenöl", "standardAmount": "⅓–¼ Tasse"},
-    "w-fr-013-i2": {"name": "Zwiebel", "standardAmount": "1 große (in feinen Scheiben)"},
-    "w-fr-013-i3": {"name": "Rote Paprika", "standardAmount": "1 (in mundgerechten Stücken)"},
-    "w-fr-013-i4": {"name": "Gelbe Paprika", "standardAmount": "1 (in mundgerechten Stücken)"},
-    "w-fr-013-i5": {"name": "Knoblauch", "standardAmount": "6 Zehen (in feinen Scheiben)"},
-    "w-fr-013-i6": {"name": "Zucchini", "standardAmount": "680 g (in Scheiben)"},
-    "w-fr-013-i7": {"name": "Aubergine", "standardAmount": "1 kleine (gewürfelt)"},
-    "w-fr-013-i8": {"name": "Roma-Tomaten", "standardAmount": "4 (grob gehackt)"},
-    "w-fr-013-i9": {"name": "Frischer Rosmarin", "standardAmount": "¼ TL (gehackt)"},
-    "w-fr-013-i10": {"name": "Frischer Thymian", "standardAmount": "1 TL (gehackt)"},
-    "w-fr-013-i11": {"name": "Salz", "standardAmount": "nach Geschmack"},
-    "w-fr-013-i12": {"name": "Pfeffer", "standardAmount": "nach Geschmack"}
+   "w-it-013-i1": {
+    "name": "Süßkartoffel",
+    "standardAmount": "2 Tassen, geschält und gewürfelt"
+   },
+   "w-it-013-i2": {
+    "name": "Zwiebel",
+    "standardAmount": "1/2 Tasse, gewürfelt"
+   },
+   "w-it-013-i3": {
+    "name": "Pflanzenöl",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-it-013-i4": {
+    "name": "Eier",
+    "standardAmount": "6"
+   },
+   "w-it-013-i5": {
+    "name": "Milch",
+    "standardAmount": "1/4 Tasse"
+   },
+   "w-it-013-i6": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-013-i7": {
+    "name": "schwarzer Pfeffer",
+    "standardAmount": "nach Geschmack"
+   }
   },
   "instructions": {
-    "1": "Einen großen Topf oder eine Pfanne stark erhitzen.",
-    "2": "Olivenöl, Zwiebel und Paprika zugeben und braten, bis sie Farbe annehmen.",
-    "3": "Knoblauch, Zucchini und Aubergine zugeben und braten, bis sie Farbe annehmen.",
-    "4": "Tomaten, Rosmarin, Thymian, Salz und Pfeffer untermischen.",
-    "5": "Warm oder kalt servieren."
+   "1": "Den Ofen auf 200 °C vorheizen.",
+   "2": "In einer ofenfesten Pfanne die Zwiebel in Pflanzenöl weich dünsten.",
+   "3": "Die gewürfelten Süßkartoffeln zugeben und unter gelegentlichem Rühren weich garen.",
+   "4": "In einer separaten Schüssel Eier, Milch, Salz und Pfeffer verquirlen.",
+   "5": "Die Eimischung über die Süßkartoffelmischung in der Pfanne gießen.",
+   "6": "An den Rändern stocken lassen, dann die Pfanne in den vorgeheizten Ofen stellen.",
+   "7": "8 bis 10 Minuten backen, bis sie vollständig gestockt ist.",
+   "8": "Die Frittata in Stücke schneiden und heiß servieren."
   },
-  "culturalNotes": "Ratatouille ist das bekannteste französische Gemüsegericht aus sommerlichem Gemüse."
-},
-"w-fr-014": {
-  "title": "Salade Niçoise",
+  "culturalNotes": "Die Frittata ist ein traditionelles italienisches Gericht aus Eiern und Gemüse; sie kann als Hauptgang oder Vorspeise serviert werden."
+ },
+ "w-it-014": {
+  "title": "Vanille-Gelato Italiano",
   "ingredients": {
-    "w-fr-014-i1": {"name": "Knoblauch", "standardAmount": "1 Zehe"},
-    "w-fr-014-i2": {"name": "Salz", "standardAmount": "nach Geschmack"},
-    "w-fr-014-i3": {"name": "Olivenöl", "standardAmount": "80 ml"},
-    "w-fr-014-i4": {"name": "Frischer Zitronensaft", "standardAmount": "2 EL"},
-    "w-fr-014-i5": {"name": "Dijon-Senf", "standardAmount": "1 EL"},
-    "w-fr-014-i6": {"name": "Schalotte", "standardAmount": "1 (fein gehackt)"},
-    "w-fr-014-i7": {"name": "Schwarzer Pfeffer", "standardAmount": "nach Geschmack"},
-    "w-fr-014-i8": {"name": "Kleine neue Kartoffeln", "standardAmount": "450 g (gekocht)"},
-    "w-fr-014-i9": {"name": "Grüne Bohnen", "standardAmount": "225 g (blanchiert)"},
-    "w-fr-014-i10": {"name": "Kirschtomaten", "standardAmount": "340 g (halbiert)"},
-    "w-fr-014-i11": {"name": "Schwarze Oliven (Niçoise)", "standardAmount": "120 ml"},
-    "w-fr-014-i12": {"name": "Marinierte Artischocken", "standardAmount": "225 g"},
-    "w-fr-014-i13": {"name": "Sardellen", "standardAmount": "8 Filets (abgespült, abgetropft)"},
-    "w-fr-014-i14": {"name": "Gekochte Eier", "standardAmount": "4 (halbiert)"},
-    "w-fr-014-i15": {"name": "Gurke", "standardAmount": "1 kleine (in feinen Scheiben)"},
-    "w-fr-014-i16": {"name": "Thunfisch in Öl", "standardAmount": "3 Dosen à 115 g (abgetropft)"},
-    "w-fr-014-i17": {"name": "Rote Zwiebel", "standardAmount": "½ (in feinen Scheiben)"}
+   "w-it-014-i1": {
+    "name": "Eigelb",
+    "standardAmount": "5"
+   },
+   "w-it-014-i2": {
+    "name": "Kristallzucker",
+    "standardAmount": "3/4 Tasse"
+   },
+   "w-it-014-i3": {
+    "name": "Vollmilch",
+    "standardAmount": "2 1/2 Tassen"
+   },
+   "w-it-014-i4": {
+    "name": "Sahne",
+    "standardAmount": "1 Tasse"
+   },
+   "w-it-014-i5": {
+    "name": "Vanilleschote",
+    "standardAmount": "1/2 Schote"
+   },
+   "w-it-014-i6": {
+    "name": "Salz",
+    "standardAmount": "eine Prise"
+   }
   },
   "instructions": {
-    "1": "Dressing: Knoblauch hacken, salzen und mit dem Messerrücken zu einer glatten Paste zerreiben. In eine Schüssel geben und Öl, Zitronensaft, Senf, Schalotte, Salz und Pfeffer einrühren.",
-    "2": "Salat: Alle Zutaten in Reihen auf einer großen Platte anrichten, mit Dressing beträufeln und mit Salz und Pfeffer abschmecken."
+   "1": "In einer großen Schüssel Eigelb und Zucker schlagen, bis die Mischung hell und dick ist.",
+   "2": "In einem schweren Topf Milch, Sahne, Vanilleschote und Salz bei mittlerer Hitze erhitzen, bis sich am Rand Blasen bilden.",
+   "3": "Den Topf vom Herd nehmen, 1/2 Tasse der heißen Milchmischung entnehmen und langsam unter die geschlagenen Eier quirlen.",
+   "4": "Dann die Eimischung unter Rühren in den Topf geben und bei schwacher Hitze unter ständigem Rühren eindicken lassen, etwa 8 bis 10 Minuten.",
+   "5": "Die Mischung durch ein feines Sieb in eine Metallschüssel gießen und kalt stellen.",
+   "6": "Ist die Creme kalt, in eine Eismaschine geben und nach Herstelleranleitung gefrieren lassen.",
+   "7": "Das Gelato sofort servieren oder bis zur Verwendung in einem dichten Behälter einfrieren."
   },
-  "culturalNotes": "Salade Niçoise ist die traditionelle Salatkomposition aus Nizza mit buntem Gemüse und Fisch."
-},
-"w-vn-001": {
-  "title": "Bò Bía (Vietnamesische Frühlingsrollen mit Yamswurzel)",
+  "culturalNotes": "Italienisches Gelato ist das traditionelle Eis Italiens, bekannt für seine cremige Textur und seinen vollen Geschmack."
+ },
+ "w-it-015": {
+  "title": "Gnocchi Caprese",
   "ingredients": {
-    "w-vn-001-i1": {"name": "Getrocknete Garnelen", "standardAmount": "½ Tasse"},
-    "w-vn-001-i2": {"name": "Yamswurzel (Jicama)", "standardAmount": "1 große"},
-    "w-vn-001-i3": {"name": "Möhre", "standardAmount": "1 mittlere"},
-    "w-vn-001-i4": {"name": "Schalotten", "standardAmount": "4 große"},
-    "w-vn-001-i5": {"name": "Halal-Rinderwurst nach chinesischer Art", "standardAmount": "4"},
-    "w-vn-001-i6": {"name": "Eier", "standardAmount": "5"},
-    "w-vn-001-i7": {"name": "Meersalz", "standardAmount": "½ TL"},
-    "w-vn-001-i8": {"name": "Thaibasilikum", "standardAmount": "1 kleiner Bund"},
-    "w-vn-001-i9": {"name": "Getrocknetes Reispapier", "standardAmount": "1 Packung"},
-    "w-vn-001-i10": {"name": "Pflanzenöl", "standardAmount": "3 EL"}
+   "w-it-015-i1": {
+    "name": "Kartoffeln",
+    "standardAmount": "4 mittelgroße (ca. 900 g)"
+   },
+   "w-it-015-i2": {
+    "name": "Eigelb",
+    "standardAmount": "1 großes"
+   },
+   "w-it-015-i3": {
+    "name": "Mehl",
+    "standardAmount": "1-2 Tassen"
+   },
+   "w-it-015-i4": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-015-i5": {
+    "name": "gewürfelte Tomaten",
+    "standardAmount": "1 Dose à 800 g"
+   },
+   "w-it-015-i6": {
+    "name": "Knoblauch",
+    "standardAmount": "2 Zehen, fein gehackt"
+   },
+   "w-it-015-i7": {
+    "name": "Olivenöl",
+    "standardAmount": "2 EL"
+   },
+   "w-it-015-i8": {
+    "name": "schwarzer Pfeffer",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-015-i9": {
+    "name": "Chiliflocken",
+    "standardAmount": "eine Prise (optional)"
+   },
+   "w-it-015-i10": {
+    "name": "frisches Basilikum",
+    "standardAmount": "3 EL, fein gehackt"
+   },
+   "w-it-015-i11": {
+    "name": "frischer Mozzarella",
+    "standardAmount": "2 Tassen, in 2-cm-Stücken"
+   }
   },
   "instructions": {
-    "1": "Getrocknete Garnelen 10 Minuten in heißem Wasser einweichen, bis sie weich sind, dann abgießen.",
-    "2": "Yamswurzel schälen und in Streifen schneiden. Möhre schälen, schräg in Scheiben und dann in Streifen schneiden. Schalotten schälen und fein schneiden.",
-    "3": "Etwa 1 EL Öl in der Pfanne bei starker Hitze erhitzen. Schalotten zugeben und ca. 20 Sekunden braten. Garnelen zugeben und weitere 20 Sekunden braten. Yamswurzel und Möhren zugeben, gleichmäßig braten und ca. 15 Minuten garen, bis sie weich sind. Mit Salz würzen und in eine Schüssel geben.",
-    "4": "Wasser in einer großen beschichteten Pfanne aufkochen und die Wurst ca. 5 Minuten kochen. Herausnehmen, abkühlen lassen und schräg in dünne Scheiben schneiden.",
-    "5": "Etwa 1 EL Öl in der leeren Pfanne bei mittlerer bis hoher Hitze erhitzen und mit einem Pinsel oder durch Schwenken verteilen. Die Hälfte der verquirlten Eier eingießen und zu einer dünnen Schicht schwenken. Ca. 30 Sekunden stocken lassen und auf einen Teller gleiten lassen. Mit weiterem Öl und dem restlichen Ei wiederholen. Beide Eierpfannkuchen übereinanderlegen, aufrollen und in feine Streifen schneiden.",
-    "6": "Reispapier kurz in Wasser tauchen und auf einen großen Teller legen. Unten einige Basilikumblätter auflegen, dann die Yams-Möhren-Garnelen-Mischung. Einige Eistreifen und Wurstscheiben darauflegen. Von unten bis zur Hälfte aufrollen, die Seiten einschlagen und fertig rollen.",
-    "7": "Mit Erdnusssauce servieren."
+   "1": "Den Ofen auf 190 °C vorheizen.",
+   "2": "Die Kartoffeln waschen, abtrocknen und backen, bis sie gabelweich sind, etwa 45 Minuten.",
+   "3": "Während die Kartoffeln backen, die Tomatensauce zubereiten: Das Öl in einem schweren Topf bei mittlerer Hitze erhitzen und den Knoblauch zugeben.",
+   "4": "Sobald der Knoblauch zu brutzeln beginnt, die Tomaten zugeben und die Hitze erhöhen. Sobald die Sauce blubbert, wieder auf mittlere bis schwache Hitze zurückschalten.",
+   "5": "Mit Salz, schwarzem Pfeffer und Chiliflocken (falls verwendet) würzen und das Basilikum zugeben. Noch ein bis zwei Minuten kochen und vom Herd nehmen.",
+   "6": "Die Kartoffeln aus dem Ofen nehmen, das Fruchtfleisch aus der Schale löffeln und durch eine Kartoffelpresse drücken.",
+   "7": "Die gepressten Kartoffeln noch warm auf einem großen Brett zu einem Haufen mit einer Mulde formen. Eigelb und Salz in die Mitte geben.",
+   "8": "Das Mehl langsam nach und nach zugeben und mit den Händen einarbeiten, bis ein weicher, formbarer Teig entsteht.",
+   "9": "Nur kurz und sanft kneten, bis ein glatter, geschmeidiger, leicht klebriger Teig entsteht.",
+   "10": "Zum Formen der Gnocchi den Teig in faustgroße Stücke teilen und jedes zu einer Rolle von Daumendicke rollen.",
+   "11": "In 2,5 cm lange Stücke schneiden.",
+   "12": "Zum Fertigstellen eine Gabel mit dem Rücken zu sich an das Brett legen und jedes Teigstück mit dem Zeigefinger fest über die Zinken rollen.",
+   "13": "Die Gnocchi auf das Brett zurückfallen lassen und mit den restlichen Stücken ebenso verfahren.",
+   "14": "Die fertigen Gnocchi auf ein leicht bemehltes Blech legen und sofort kochen oder gekühlt aufbewahren, vorzugsweise nicht länger als 3 Stunden.",
+   "15": "Zum Kochen vorsichtig in kochendes Salzwasser geben und herausnehmen, sobald sie alle an die Oberfläche gestiegen sind.",
+   "16": "Die Gnocchi abgießen und mit der heißen Sauce bedecken.",
+   "17": "Die Käsestücke mit dem gehackten Basilikum zugeben und vorsichtig verrühren, damit der Käse weich wird und schmilzt.",
+   "18": "Sofort servieren."
   },
-  "culturalNotes": "Diese vietnamesischen Frühlingsrollen heißen auch Bì cuốn und werden als Vorspeise oder leichte Mahlzeit serviert."
-},
-"w-vn-002": {
-  "title": "Bò Nướng Lá Lốt (Gegrilltes Rindfleisch im Betelblatt)",
+  "culturalNotes": "Gnocchi Caprese ist ein traditionelles italienisches Gericht, das Kartoffelgnocchi mit Tomatensauce und frischem Mozzarella verbindet."
+ },
+ "w-it-016": {
+  "title": "Gnudi mit schneller Tomatensauce",
   "ingredients": {
-    "w-vn-002-i1": {"name": "Fettes Rinderhack", "standardAmount": "340 g"},
-    "w-vn-002-i2": {"name": "Fein gehackte Schalotten", "standardAmount": "2 EL"},
-    "w-vn-002-i3": {"name": "Fein gehackter Knoblauch", "standardAmount": "1 EL"},
-    "w-vn-002-i4": {"name": "Schwarzer Pfeffer", "standardAmount": "¼ TL"},
-    "w-vn-002-i5": {"name": "Zucker", "standardAmount": "½ TL"},
-    "w-vn-002-i6": {"name": "Fischsauce", "standardAmount": "2 TL"},
-    "w-vn-002-i7": {"name": "Austernsauce", "standardAmount": "1 EL"},
-    "w-vn-002-i8": {"name": "Hühnerbouillonpulver", "standardAmount": "½ TL"},
-    "w-vn-002-i9": {"name": "Glutamat (optional)", "standardAmount": "¼ TL"},
-    "w-vn-002-i10": {"name": "Wilde Betelblätter", "standardAmount": "25–30"}
+   "w-it-016-i1": {
+    "name": "geriebener Parmesan",
+    "standardAmount": "1/4 Tasse"
+   },
+   "w-it-016-i2": {
+    "name": "gewürfelte italienische Tomaten aus der Dose",
+    "standardAmount": "1 Dose à 800 g"
+   },
+   "w-it-016-i3": {
+    "name": "Knoblauch, fein gehackt",
+    "standardAmount": "2 Zehen"
+   },
+   "w-it-016-i4": {
+    "name": "natives Olivenöl extra",
+    "standardAmount": "2 EL"
+   },
+   "w-it-016-i5": {
+    "name": "Salz und Pfeffer",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-016-i6": {
+    "name": "fein gehacktes Basilikum",
+    "standardAmount": "3 EL"
+   },
+   "w-it-016-i7": {
+    "name": "Chiliflocken",
+    "standardAmount": "eine Prise (optional)"
+   },
+   "w-it-016-i8": {
+    "name": "Babyspinat",
+    "standardAmount": "1 Beutel à 250 g"
+   },
+   "w-it-016-i9": {
+    "name": "Vollfett-Ricotta",
+    "standardAmount": "340 g"
+   },
+   "w-it-016-i10": {
+    "name": "Eier",
+    "standardAmount": "2"
+   },
+   "w-it-016-i11": {
+    "name": "Allzweckmehl",
+    "standardAmount": "1 1/4 Tassen"
+   },
+   "w-it-016-i12": {
+    "name": "Muskatnuss",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-016-i13": {
+    "name": "Hartweizengrieß",
+    "standardAmount": "1,5 Tassen"
+   }
   },
   "instructions": {
-    "1": "Blätter gründlich waschen und mit Küchenpapier trocken tupfen. Ein kleines Stück Stiel belassen, um die Röllchen zu fixieren.",
-    "2": "In einer großen Schüssel Hackfleisch mit Schalotten, Knoblauch, Pfeffer, Zucker, Fischsauce, Austernsauce, Bouillonpulver und Glutamat (optional) vermischen.",
-    "3": "Ein Blatt mit der glänzenden Seite nach unten legen, das schmale Ende unten. Ca. 2 EL Füllung in die Mitte geben, das schmale Ende über die Füllung klappen und vorsichtig aufrollen. Den Stiel in das Röllchen stechen, damit es sich nicht öffnet. Ist der Stiel zu weich, mit einem kleinen Messer ein Loch stechen und den Stiel einführen. Mit dem Stiel nach unten ablegen. Mit den restlichen Blättern wiederholen.",
-    "4": "Die Röllchen für Raucharoma grillen oder mit etwas Pflanzenöl ca. 2 Minuten pro Seite braten.",
-    "5": "In einer Schüssel mit feinen Reisnudeln, geschnittenem Salat und vietnamesischen Kräutern servieren. Mit gerösteten Erdnüssen und Fischsauce-Dip belegen. Alternativ mit Reispapier zum Selberwickeln reichen."
+   "1": "Den Spinat dämpfen oder in der Mikrowelle garen. Abgießen und alles überschüssige Wasser ausdrücken.",
+   "2": "Fein hacken und noch einmal abtropfen lassen.",
+   "3": "Spinat, Ricotta, Eier, Parmesan, Muskatnuss, Salz und Mehl in eine Schüssel geben und gut vermengen.",
+   "4": "Anderthalb Tassen Hartweizengrieß auf einem Blech verteilen.",
+   "5": "Mit bemehlten Händen Nocken formen und leicht im Grieß wälzen.",
+   "6": "Die Nocken über Nacht unbedeckt auf einem Blech in den Kühlschrank stellen.",
+   "7": "Für die Sauce das Öl in einem schweren Topf bei mittlerer Hitze erhitzen und den Knoblauch zugeben.",
+   "8": "Sobald der Knoblauch zu brutzeln beginnt, aber bevor er Farbe annimmt, die Tomaten zugeben.",
+   "9": "Die Hitze erhöhen und, sobald die Sauce blubbert, auf mittlere bis schwache Hitze zurückschalten.",
+   "10": "Mit Salz und Pfeffer und gegebenenfalls Chiliflocken würzen und das Basilikum zugeben. Noch ein bis zwei Minuten kochen und warm halten.",
+   "11": "Einen großen Topf Salzwasser aufkochen.",
+   "12": "Die Nocken in das kochende Wasser geben und die Hitze auf ein Köcheln reduzieren.",
+   "13": "Sobald die Nocken an die Oberfläche steigen, sind sie gar. Mit einem Schaumlöffel herausnehmen und zurück in den Topf geben.",
+   "14": "Behutsam mit der Tomatensauce mischen und mit Parmesan servieren."
   },
-  "culturalNotes": "Rindfleisch im Betelblatt ist ein traditionelles vietnamesisches Gericht für besondere Anlässe."
-},
-"w-vn-003": {
-  "title": "Pandan-Waffeln (Bánh Kếp Lá Dứa)",
+  "culturalNotes": "Gnudi sind kleine Ricotta-Spinat-Nocken, ein traditionelles Gericht aus der Toskana, Italien."
+ },
+ "w-it-017": {
+  "title": "Malloreddus (sardische Gnocchi) in Lammbrühe",
   "ingredients": {
-    "w-vn-003-i1": {"name": "Butter", "standardAmount": "2 EL"},
-    "w-vn-003-i2": {"name": "Reismehl", "standardAmount": "1½ Tassen"},
-    "w-vn-003-i3": {"name": "Tapiokastärke", "standardAmount": "½ Tasse"},
-    "w-vn-003-i4": {"name": "Weizenmehl", "standardAmount": "½ Tasse"},
-    "w-vn-003-i5": {"name": "Backpulver", "standardAmount": "1 EL"},
-    "w-vn-003-i6": {"name": "Salz", "standardAmount": "¼ TL"},
-    "w-vn-003-i7": {"name": "Eier", "standardAmount": "2 große"},
-    "w-vn-003-i8": {"name": "Zucker", "standardAmount": "½ Tasse"},
-    "w-vn-003-i9": {"name": "Kokosmilch", "standardAmount": "1½ Tassen"},
-    "w-vn-003-i10": {"name": "Pandanpaste", "standardAmount": "¾ TL"}
+   "w-it-017-i1": {
+    "name": "Hartweizengrieß",
+    "standardAmount": "250 g"
+   },
+   "w-it-017-i2": {
+    "name": "warmes Wasser",
+    "standardAmount": "95 ml"
+   },
+   "w-it-017-i3": {
+    "name": "Salz",
+    "standardAmount": "1/2 TL"
+   },
+   "w-it-017-i4": {
+    "name": "Lammhalsknochen",
+    "standardAmount": "1 kg"
+   },
+   "w-it-017-i5": {
+    "name": "Karotten",
+    "standardAmount": "2"
+   },
+   "w-it-017-i6": {
+    "name": "Selleriestangen",
+    "standardAmount": "2"
+   },
+   "w-it-017-i7": {
+    "name": "Zwiebel",
+    "standardAmount": "1"
+   },
+   "w-it-017-i8": {
+    "name": "Kartoffeln",
+    "standardAmount": "4"
+   },
+   "w-it-017-i9": {
+    "name": "frische Petersilie",
+    "standardAmount": "1 Handvoll"
+   },
+   "w-it-017-i10": {
+    "name": "frischer Rosmarin",
+    "standardAmount": "1 Zweig"
+   },
+   "w-it-017-i11": {
+    "name": "getrocknete Tomaten",
+    "standardAmount": "2 bis 3"
+   },
+   "w-it-017-i12": {
+    "name": "Pecorino Sardo oder Pecorino Romano",
+    "standardAmount": "60 g"
+   }
   },
   "instructions": {
-    "1": "Butter in der Mikrowelle auf niedriger Stufe 30–45 Sekunden schmelzen. Verrühren und abkühlen lassen.",
-    "2": "Reismehl, Tapioka, Mehl, Backpulver und Salz in einen großen Messbecher oder eine Schüssel sieben.",
-    "3": "In einer großen Schüssel Eier und Zucker größtenteils verquirlen. Kokosmilch, geschmolzene Butter und Pandanpaste zugeben und gut verrühren.",
-    "4": "Die Hälfte der trockenen Zutaten zu den feuchten geben und grob einarbeiten. Rest zugeben und vorsichtig weiter rühren, große Klumpen zerteilen. Teig 15 Minuten ruhen lassen.",
-    "5": "Waffeleisen auf höchste Stufe heizen. Ca. ⅔ Tasse Teig eingießen und mit einem Spatel gleichmäßig verteilen. Deckel schließen und 4–5 Minuten goldbraun backen.",
-    "6": "Waffel mit einem Bambusspieß anheben und mit einer Zange auf ein Kuchengitter legen.",
-    "7": "Heiß servieren."
+   "1": "Die Lammbrühe ansetzen: Die Lammhalsknochen in einen großen Topf legen und mit Wasser bedecken. Aufkochen, dann die Hitze reduzieren und 1 Stunde köcheln lassen.",
+   "2": "Karotten, Sellerie, Zwiebel, Kartoffeln, Petersilie, Rosmarin und getrocknete Tomaten zugeben. Weitere 30 Minuten köcheln lassen.",
+   "3": "In einer großen Schüssel den Hartweizengrieß mit dem warmen Wasser und dem Salz mischen. Zu einem glatten, geschmeidigen Teig kneten.",
+   "4": "Den Teig auf einer bemehlten Fläche auslegen und in kleine Stücke schneiden. Die Stücke zu kleinen, runden Gnocchi formen.",
+   "5": "Die Malloreddus in die köchelnde Brühe geben und 10 Minuten weich kochen.",
+   "6": "Die Malloreddus in Schüsseln servieren und mit geriebenem Käse bestreuen."
   },
-  "culturalNotes": "Pandan-Waffeln sind ein traditionelles vietnamesisches Dessert mit Pandan- und Kokosaroma."
-},
-"w-vn-004": {
-  "title": "Bánh pía",
+  "culturalNotes": "Malloreddus ist eine traditionelle Gnocchi-Art aus Sardinien, Italien, die üblicherweise in Lammbrühe oder mit Saucen serviert wird."
+ },
+ "w-it-018": {
+  "title": "Marzipan-Stempelkekse mit Zartbitterschokolade",
   "ingredients": {
-    "w-vn-004-i1": {"name": "Weizenmehl", "standardAmount": "500 g"},
-    "w-vn-004-i2": {"name": "Zucker", "standardAmount": "250 g"},
-    "w-vn-004-i3": {"name": "Pflanzenöl", "standardAmount": "100 ml"},
-    "w-vn-004-i4": {"name": "Eier", "standardAmount": "2"},
-    "w-vn-004-i5": {"name": "Milch", "standardAmount": "100 ml"},
-    "w-vn-004-i6": {"name": "Salz", "standardAmount": "½ TL"},
-    "w-vn-004-i7": {"name": "Puddingfüllung", "standardAmount": "400 g"}
+   "w-it-018-i1": {
+    "name": "Allzweckmehl",
+    "standardAmount": "2 Tassen"
+   },
+   "w-it-018-i2": {
+    "name": "Salz",
+    "standardAmount": "eine Prise"
+   },
+   "w-it-018-i3": {
+    "name": "weiche Butter",
+    "standardAmount": "10 EL"
+   },
+   "w-it-018-i4": {
+    "name": "geriebenes Marzipan",
+    "standardAmount": "1/3 Tasse + 1 EL"
+   },
+   "w-it-018-i5": {
+    "name": "Zucker",
+    "standardAmount": "1/4 Tasse"
+   },
+   "w-it-018-i6": {
+    "name": "fein gemahlene Mandeln",
+    "standardAmount": "3 EL"
+   },
+   "w-it-018-i7": {
+    "name": "Eigelb",
+    "standardAmount": "1 großes"
+   },
+   "w-it-018-i8": {
+    "name": "geschmolzene Zartbitterschokolade oder Marmelade",
+    "standardAmount": "nach Bedarf"
+   }
   },
   "instructions": {
-    "1": "Mehl, Zucker und Salz in einer großen Schüssel mischen.",
-    "2": "Eier, Milch und Öl zugeben und zu einem glatten Teig verarbeiten.",
-    "3": "Teig abdecken und 30 Minuten ruhen lassen.",
-    "4": "Teig in 12 gleiche Stücke teilen und zu Kugeln formen.",
-    "5": "In die Mitte jeder Kugel Füllung geben und mit Teig umschließen.",
-    "6": "In Bánh-pía-Formen setzen und in den auf 180 °C vorgeheizten Ofen geben.",
-    "7": "20–25 Minuten goldbraun backen."
+   "1": "Den Ofen auf 150 °C vorheizen und zwei Bleche mit Backpapier auslegen.",
+   "2": "In einer kleinen Schüssel Mehl und Salz verrühren.",
+   "3": "In einer zweiten Schüssel mit dem Handrührgerät Butter, Zucker und geriebenes Marzipan verrühren, bis sie verbunden sind.",
+   "4": "Die fein gemahlenen Mandeln und das Eigelb zugeben und gut verrühren.",
+   "5": "Das Mehl zur Buttermischung geben und auf kleiner Stufe nur bis zum Verbinden mischen.",
+   "6": "Die Schüssel auf eine leicht bemehlte Fläche leeren und ein bis zwei Minuten sanft von Hand zu einer glatten Kugel kneten.",
+   "7": "Den Teig halbieren, etwa 1 cm dick ausrollen und mit einem Keksstempel oder Ausstecher die Kekse ausstechen.",
+   "8": "Die Kekse auf die vorbereiteten Bleche legen und den restlichen Teig ebenso ausrollen.",
+   "9": "Die Kekse 18 bis 20 Minuten backen, nur bis sie an den Rändern zu bräunen beginnen (die Kekse nicht bräunen lassen!).",
+   "10": "Die Kekse aus dem Ofen nehmen und vollständig auskühlen lassen.",
+   "11": "Bei Verwendung eines Keksstempels die Vertiefung mit geschmolzener Schokolade oder Marmelade füllen und fest werden lassen.",
+   "12": "Die Kekse in einer dichten Dose aufbewahren und genießen!"
   },
-  "culturalNotes": "Bánh pía ist ein traditionelles vietnamesisches Blätterteiggebäck für besondere Anlässe."
-},
-"w-vn-005": {
-  "title": "Bánh Tráng Trộn (Vietnamesischer Reispapier-Salat)",
+  "culturalNotes": "Marzipan-Stempelkekse mit Zartbitterschokolade sind eine traditionelle italienische Süßigkeit für besondere Anlässe."
+ },
+ "w-it-019": {
+  "title": "Sommerliche Minestrone Milanese",
   "ingredients": {
-    "w-vn-005-i1": {"name": "Tamarindenmark", "standardAmount": "100 g"},
-    "w-vn-005-i2": {"name": "Pflanzenöl", "standardAmount": "4 EL"},
-    "w-vn-005-i3": {"name": "Knoblauchzehen", "standardAmount": "6"},
-    "w-vn-005-i4": {"name": "Fischsauce", "standardAmount": "2 EL"},
-    "w-vn-005-i5": {"name": "Zucker", "standardAmount": "3 EL"},
-    "w-vn-005-i6": {"name": "Glutamat (optional)", "standardAmount": "½ TL"},
-    "w-vn-005-i7": {"name": "Chiliflocken (optional)", "standardAmount": "1 EL"},
-    "w-vn-005-i8": {"name": "Getrockneter Tintenfisch", "standardAmount": "200 g"},
-    "w-vn-005-i9": {"name": "Getrocknete Garnelen", "standardAmount": "100 g"},
-    "w-vn-005-i10": {"name": "Rinder-Jerky", "standardAmount": "100 g"},
-    "w-vn-005-i11": {"name": "Getrocknetes Reispapier", "standardAmount": "170 g"},
-    "w-vn-005-i12": {"name": "Vietnamesisches Chiliöl", "standardAmount": "nach Geschmack"},
-    "w-vn-005-i13": {"name": "Vietnamesisches Frühlingszwiebelöl", "standardAmount": "nach Geschmack"},
-    "w-vn-005-i14": {"name": "Grüne Mango", "standardAmount": "1"},
-    "w-vn-005-i15": {"name": "Gekochte Wachteleier", "standardAmount": "10"},
-    "w-vn-005-i16": {"name": "Frittierte Schalotten", "standardAmount": "nach Geschmack"},
-    "w-vn-005-i17": {"name": "Ungesalzene geröstete Erdnüsse", "standardAmount": "¼ Tasse"},
-    "w-vn-005-i18": {"name": "Vietnamesischer Koriander (Rau răm)", "standardAmount": "2 Tassen"}
+   "w-it-019-i1": {
+    "name": "Zucchini",
+    "standardAmount": "2 mittelgroße, in 2,5-cm-Stücken"
+   },
+   "w-it-019-i2": {
+    "name": "Zwiebel",
+    "standardAmount": "1 große, in 2,5-cm-Stücken"
+   },
+   "w-it-019-i3": {
+    "name": "Karotten",
+    "standardAmount": "4, in 2,5-cm-Stücken"
+   },
+   "w-it-019-i4": {
+    "name": "Sellerie",
+    "standardAmount": "3 Stangen, in 2,5-cm-Stücken"
+   },
+   "w-it-019-i5": {
+    "name": "Kartoffeln",
+    "standardAmount": "2 mittelgroße, in 2,5-cm-Würfeln"
+   },
+   "w-it-019-i6": {
+    "name": "grüne Bohnen",
+    "standardAmount": "115 g, in 2,5-cm-Stücken"
+   },
+   "w-it-019-i7": {
+    "name": "Tomaten",
+    "standardAmount": "6 große, in 2,5-cm-Stücken"
+   },
+   "w-it-019-i8": {
+    "name": "Spinat",
+    "standardAmount": "225 g Babyblätter"
+   },
+   "w-it-019-i9": {
+    "name": "Olivenöl",
+    "standardAmount": "4 EL"
+   },
+   "w-it-019-i10": {
+    "name": "Salz und Pfeffer",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-019-i11": {
+    "name": "italienischer Reis",
+    "standardAmount": "115 g (Arborio eignet sich am besten)"
+   },
+   "w-it-019-i12": {
+    "name": "frisches Basilikum",
+    "standardAmount": "1/4 Tasse, gehackt"
+   },
+   "w-it-019-i13": {
+    "name": "natives Olivenöl extra",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-019-i14": {
+    "name": "gemahlener schwarzer Pfeffer",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-019-i15": {
+    "name": "geriebener Parmesan",
+    "standardAmount": "nach Geschmack"
+   }
   },
   "instructions": {
-    "1": "Tamarinde 15 Minuten in 2 Tassen heißem Wasser einweichen, durch ein feines Sieb streichen und das Mark verwerfen.",
-    "2": "Öl in einem kleinen Topf bei mittlerer bis hoher Hitze erhitzen. Knoblauch ca. 15 Sekunden braten. Tamarinde, Fischsauce, Zucker, Glutamat und Chiliflocken zugeben und verrühren. 1 Minute schwach köcheln. In eine kleine Schüssel füllen.",
-    "3": "Pflanzenöl in einer mittleren Pfanne bei mittlerer bis hoher Hitze erhitzen. Tintenfisch 30 Sekunden frittieren; er rollt sich, mit Stäbchen oder Löffel andrücken. Wenden und weitere 30 Sekunden frittieren. Herausnehmen. Nach dem Abkühlen von Hand in lange Streifen zupfen.",
-    "4": "Im selben Öl die Garnelen ca. 1 Minute braten und herausnehmen.",
-    "5": "Jerky von Hand in feine Streifen zupfen.",
-    "6": "Reispapier in eine große Schüssel geben. Tamarindensauce, Chiliöl und Frühlingszwiebelöl zugeben und gut mischen, damit das Papier die Sauce aufnimmt. Es wirkt zunächst trocken, wird aber weich.",
-    "7": "Jerky, Tintenfisch, Garnelen, grüne Mango und Wachteleier zugeben und kurz mischen.",
-    "8": "Mit frittierten Schalotten, Erdnüssen und vietnamesischem Koriander garnieren."
+   "1": "Das Olivenöl in einem großen Suppentopf erhitzen, dann Zwiebeln, Karotten, Sellerie und Zucchini zugeben und 3 bis 4 Minuten dünsten.",
+   "2": "Die grünen Bohnen und Kartoffeln zugeben und weitere 3 Minuten garen.",
+   "3": "Die Tomaten und 1,5 Liter der Brühe zugeben (das Gemüse sollte bedeckt sein, die Brühe etwa 2,5 cm über dem Gemüse stehen).",
+   "4": "Leicht mit Salz und Pfeffer würzen, abdecken und die Hitze auf ein Köcheln reduzieren.",
+   "5": "Etwa 2 Stunden kochen, bei Bedarf weitere Brühe zugeben.",
+   "6": "Den Spinat und den Reis zugeben und weitere 20 bis 30 Minuten kochen, bis der Reis fast bissfest ist.",
+   "7": "Die Suppe sollte eingedickt sein, nicht zu dünn oder wässrig, und das Gemüse butterweich.",
+   "8": "Das gehackte Basilikum unterrühren, abschmecken und auf Zimmertemperatur abkühlen lassen.",
+   "9": "In einzelnen Schüsseln servieren, mit einem Schuss Olivenöl, schwarzem Pfeffer und geriebenem Käse nach Wunsch."
   },
-  "culturalNotes": "Bánh Tráng Trộn ist ein beliebter vietnamesischer Snack, der als Vorspeise oder leichte Mahlzeit dient."
-},
-"w-vn-006": {
-  "title": "Chè Trôi Nước (Klebreisbällchen in Ingwersirup)",
+  "culturalNotes": "Minestrone ist eine traditionelle italienische Suppe, bekannt für ihre Vielfalt an Gemüse und Getreide; dieses Gericht ist im Sommer in Mailand besonders beliebt."
+ },
+ "w-it-020": {
+  "title": "Neapolitanischer Pizzateig mit Knoblauch und italienischen Kräutern",
   "ingredients": {
-    "w-vn-006-i1": {"name": "Klebreismehl", "standardAmount": "450 g"},
-    "w-vn-006-i2": {"name": "Heißes Wasser", "standardAmount": "1¾ Tassen"},
-    "w-vn-006-i3": {"name": "Geschälte Mungobohnen", "standardAmount": "¾ Tasse"},
-    "w-vn-006-i4": {"name": "Zucker", "standardAmount": "2 TL"},
-    "w-vn-006-i5": {"name": "Salz", "standardAmount": "1 TL"},
-    "w-vn-006-i6": {"name": "Wasser", "standardAmount": "6 Tassen"},
-    "w-vn-006-i7": {"name": "Frischer Ingwer", "standardAmount": "10 cm"},
-    "w-vn-006-i8": {"name": "Palmzucker", "standardAmount": "280 g"},
-    "w-vn-006-i9": {"name": "Kokosmilch", "standardAmount": "optional"},
-    "w-vn-006-i10": {"name": "Gerösteter Sesam", "standardAmount": "¼ Tasse"}
+   "w-it-020-i1": {
+    "name": "ungebleichtes Allzweckmehl",
+    "standardAmount": "3 Tassen"
+   },
+   "w-it-020-i2": {
+    "name": "Salz",
+    "standardAmount": "1 1/4 TL"
+   },
+   "w-it-020-i3": {
+    "name": "Schnellhefe",
+    "standardAmount": "1/2 TL"
+   },
+   "w-it-020-i4": {
+    "name": "Eiswasser",
+    "standardAmount": "1,5 Tassen"
+   },
+   "w-it-020-i5": {
+    "name": "Olivenöl",
+    "standardAmount": "2 EL + 1/2 TL"
+   },
+   "w-it-020-i6": {
+    "name": "Knoblauchgranulat",
+    "standardAmount": "1 EL"
+   },
+   "w-it-020-i7": {
+    "name": "italienische Kräutermischung",
+    "standardAmount": "1 EL"
+   }
   },
   "instructions": {
-    "1": "Klebreismehl und heißes Wasser in einer großen Schüssel zu einem glatten Teig kneten. Kein weiteres Wasser zugeben. Abdecken und 30 Minuten ruhen lassen.",
-    "2": "Teig in 28 Kugeln von ca. 2,5 cm teilen.",
-    "3": "Mungobohnen waschen, bis das Wasser klar ist. In einem mittleren Topf mit 2,5 cm Wasser bedecken, bei mittlerer Hitze aufkochen und bei reduzierter Hitze weich, aber formstabil kochen (ca. 15 Minuten). Sorgfältig überwachen, damit nichts überkocht. Abgießen, auf den ausgeschalteten Herd zurückstellen und Restfeuchtigkeit verdampfen lassen. Salz und Zucker zugeben und mit einem großen Löffel zu einer groben Paste zerdrücken.",
-    "4": "Füllung zu kleinen Kugeln von ca. 1,2 cm rollen (ca. 28 Stück). Ist die Masse zu weich, kurz kühlen.",
-    "5": "Teigkugeln zu dicken Scheiben flachdrücken, eine Füllkugel in die Mitte setzen, Teig darüberschließen und in der Handfläche glatt rollen. Keine Füllung austreten lassen, sonst zerfallen die Bällchen beim Kochen. Restteig zu kleinen Perlen ohne Füllung formen. Abgedeckt aufbewahren.",
-    "6": "In einem großen Topf Wasser mit Palmzucker aufkochen, bis der Zucker gelöst ist. Ingwer mit einem Löffel schälen und in feine Streifen schneiden. Teigbällchen vorsichtig in den Sirup geben und bei mittlerer bis niedriger Hitze sanft köcheln, bis sie aufschwimmen (ca. 20 Minuten).",
-    "7": "Nach Wunsch Kokosmilchsauce zubereiten.",
-    "8": "Einige Bällchen mit Sirup in eine Schüssel geben, mit Kokossauce beträufeln und mit Sesam bestreuen. Warm oder bei Zimmertemperatur genießen."
+   "1": "In einer großen Schüssel Mehl, Salz und Hefe gründlich vermengen.",
+   "2": "Das Eiswasser zugeben und gut verrühren, bis ein weicher Teig entsteht. 2 EL Olivenöl zugeben und vermengen.",
+   "3": "Den Teig auf eine bemehlte Arbeitsfläche stürzen und kneten, bis er fest, aber leicht klebrig ist; bei Bedarf mehr Mehl zugeben. Das Knoblauchgranulat und die italienischen Kräuter einkneten.",
+   "4": "Den Teig zu einer Kugel formen und in eine geölte Schüssel legen. Die Oberseite mit 1/2 TL Olivenöl bestreichen, die Schüssel mit Folie abdecken und den Teig 1 bis 2 Stunden gehen lassen, bis er sich verdoppelt hat.",
+   "5": "Den Teig zusammendrücken und halbieren. Jede Hälfte zu einem Pizzaboden von 30 cm formen und auf Pizzableche legen.",
+   "6": "Einen Rost auf die unterste Schiene im Ofen schieben und den Ofen auf 230 °C vorheizen.",
+   "7": "Die Pizzaböden auf der untersten Schiene 3 bis 7 Minuten fest backen. Die Böden etwa 10 Minuten abkühlen lassen, bevor sie mit Sauce, Käse oder anderen Zutaten belegt und wieder gebacken werden."
   },
-  "culturalNotes": "Chè Trôi Nước ist ein traditionelles vietnamesisches Dessert für Feste und Feierlichkeiten."
-},
-"w-vn-007": {
-  "title": "Grasgelee (Thạch Sương Sáo)",
+  "culturalNotes": "Die neapolitanische Pizza ist ein traditionelles Gericht aus Neapel, Italien, bekannt für ihren dünnen Boden und die aufgeblähten Ränder."
+ },
+ "w-es-004": {
+  "title": "Boquerones en Vinagre",
   "ingredients": {
-    "w-vn-007-i1": {"name": "Grasgelee-Pulver", "standardAmount": "50 g"},
-    "w-vn-007-i2": {"name": "Zucker", "standardAmount": "⅓ Tasse"},
-    "w-vn-007-i3": {"name": "Wasser", "standardAmount": "4 Tassen (geteilt)"}
+   "w-es-004-i1": {
+    "name": "Sardinen",
+    "standardAmount": "450 g"
+   },
+   "w-es-004-i2": {
+    "name": "Zitronensaft",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-es-004-i3": {
+    "name": "Apfelessig",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-es-004-i4": {
+    "name": "Meersalz",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-es-004-i5": {
+    "name": "schwarzer Pfeffer",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-es-004-i6": {
+    "name": "Petersilie",
+    "standardAmount": "nach Bedarf"
+   }
   },
   "instructions": {
-    "1": "Grasgelee-Pulver in einen mittleren Topf geben. Zucker und 2 Tassen Wasser zugeben und rühren, bis das Pulver gelöst ist.",
-    "2": "Die restlichen 2 Tassen Wasser zugeben und gut verrühren.",
-    "3": "Die Mischung 10 Minuten ruhen lassen.",
-    "4": "Bei mittlerer Hitze erhitzen und mit einem Spatel rühren, dabei den Topfboden abschaben, wo sich das Pulver absetzt.",
-    "5": "Nach 3–4 Minuten dickt die Mischung ein und wird klumpig. Mit dem Schneebesen rasch glatt rühren und weiter rühren, bis sie sanft kocht. Herd ausschalten und 1 Minute weiter rühren, bis alles glatt ist.",
-    "6": "In ein hitzefestes Gefäß füllen und Blasen mit einem Zahnstocher zerstechen oder abschöpfen.",
-    "7": "Bei Zimmertemperatur 1–1,5 Stunden abkühlen lassen.",
-    "8": "Mindestens 2 Stunden in den Kühlschrank stellen.",
-    "9": "Zum Entformen das Gefäß auf ein großes Brett stürzen und das Gelee würfeln.",
-    "10": "Zum Servieren etwas Crushed Ice in eine Dessertschale geben, Geleewürfel daraufgeben und mit etwas Zucker bestreuen.",
-    "11": "Alternativ mit einem Wellenmesser klein schneiden und in ein gekühltes Getränk geben.",
-    "12": "Restliches Gelee hält sich bis zu 1 Woche im Kühlschrank."
+   "1": "Zuerst die Sardinen säubern: Kopf, Innereien und Gräte mit dem Daumen entfernen. Die Sardinen dann unter kaltem Wasser abspülen, in eine Schüssel geben und etwas Meersalz zugeben.",
+   "2": "Die Sardinen flach in eine Glasform legen. Es ist wichtig, Glas statt Metall zu verwenden, damit der Fisch keinen Metallgeschmack annimmt.",
+   "3": "Die Sardinen mit Zitronensaft und Essig bedecken. Tipp: mehr Essig als Zitronensaft nehmen, da der Zitronengeschmack am nächsten Tag bitter wird.",
+   "4": "Die Petersilie fein hacken und über die Sardinen streuen.",
+   "5": "Eine zweite Schicht Sardinen auflegen und den Vorgang wiederholen.",
+   "6": "Die Glasform mit Folie abdecken und mindestens 4 Stunden in den Kühlschrank stellen.",
+   "7": "Vor dem Servieren die Sardinen mit kaltem Wasser abspülen, dann mit gehackter Petersilie und etwas Meersalz garnieren. Mit rustikalem Brot servieren."
   },
-  "culturalNotes": "Grasgelee ist ein traditionelles vietnamesisches Dessert und wird an heißen Tagen als erfrischender Snack genossen."
-}
+  "culturalNotes": "Boquerones en Vinagre sind eine klassische spanische Tapa, oft als Vorspeise in Bars und Cafés serviert."
+ },
+ "w-it-021": {
+  "title": "Kakao-Panforte",
+  "ingredients": {
+   "w-it-021-i1": {
+    "name": "Honig",
+    "standardAmount": "140 g"
+   },
+   "w-it-021-i2": {
+    "name": "weißer Zucker",
+    "standardAmount": "115 g"
+   },
+   "w-it-021-i3": {
+    "name": "gehackte Pinienkerne",
+    "standardAmount": "85 g"
+   },
+   "w-it-021-i4": {
+    "name": "gehackte Walnüsse",
+    "standardAmount": "85 g"
+   },
+   "w-it-021-i5": {
+    "name": "gehackte Mandeln",
+    "standardAmount": "85 g"
+   },
+   "w-it-021-i6": {
+    "name": "gehackte kandierte Ananas",
+    "standardAmount": "85 g"
+   },
+   "w-it-021-i7": {
+    "name": "gehackter kristallisierter Ingwer",
+    "standardAmount": "85 g"
+   },
+   "w-it-021-i8": {
+    "name": "gehackte getrocknete Datteln",
+    "standardAmount": "85 g"
+   },
+   "w-it-021-i9": {
+    "name": "ungesüßtes Kakaopulver",
+    "standardAmount": "55 g"
+   },
+   "w-it-021-i10": {
+    "name": "gemahlener Koriander",
+    "standardAmount": "1/2 TL"
+   },
+   "w-it-021-i11": {
+    "name": "gemahlenes Piment",
+    "standardAmount": "1/2 TL"
+   },
+   "w-it-021-i12": {
+    "name": "gemahlene Muskatnuss",
+    "standardAmount": "1/3 TL"
+   },
+   "w-it-021-i13": {
+    "name": "Puderzucker",
+    "standardAmount": "2 EL"
+   }
+  },
+  "instructions": {
+   "1": "Den Ofen auf 150 °C vorheizen. Eine Springform von 20 bis 23 cm mit Oblatenpapier oder Backpapier auslegen, einschließlich der Seiten.",
+   "2": "Honig und Zucker in einem kleinen Topf bei schwacher Hitze verrühren, bis der Zucker aufgelöst ist, etwa 3 Minuten. Sanft aufkochen und nicht mehr rühren, sobald der Sirup kocht. Auf 115 °C erhitzen, oder bis eine kleine Menge Sirup, in kaltes Wasser getropft, eine weiche Kugel bildet, die sich außerhalb des Wassers flach drückt. Vom Herd nehmen und Pinienkerne, Walnüsse, Mandeln, Ananas, Ingwer, Datteln, Kakaopulver, Koriander, Piment und Muskatnuss einrühren. Die Mischung wird sehr fest.",
+   "3": "Die Mischung in die vorbereitete Form drücken.",
+   "4": "Im vorgeheizten Ofen 25 Minuten backen. Aus dem Ofen nehmen und die Form auf einem Gitter vollständig auskühlen lassen.",
+   "5": "Den Panforte aus der Form lösen und mit Puderzucker bestäuben."
+  },
+  "culturalNotes": "Panforte ist eine traditionelle italienische Süßigkeit aus der Stadt Siena, bekannt für ihre reichhaltige Mischung aus Trockenfrüchten und Nüssen."
+ },
+ "w-it-022": {
+  "title": "Panini (italienisches Sandwichbrot)",
+  "ingredients": {
+   "w-it-022-i1": {
+    "name": "Trockenhefe",
+    "standardAmount": "1/4 TL"
+   },
+   "w-it-022-i2": {
+    "name": "warmes Wasser",
+    "standardAmount": "1 Tasse (ca. 43 °C)"
+   },
+   "w-it-022-i3": {
+    "name": "Brotmehl",
+    "standardAmount": "1 1/3 Tassen"
+   },
+   "w-it-022-i4": {
+    "name": "ungebleichtes Allzweckmehl",
+    "standardAmount": "2/3 Tasse"
+   },
+   "w-it-022-i5": {
+    "name": "Biga (am Vortag zubereitet)",
+    "standardAmount": "1 Rezept"
+   },
+   "w-it-022-i6": {
+    "name": "ungebleichtes Allzweckmehl",
+    "standardAmount": "3 Tassen (und mehr zum Arbeiten und Formen)"
+   },
+   "w-it-022-i7": {
+    "name": "Trockenhefe",
+    "standardAmount": "1 1/2 TL"
+   },
+   "w-it-022-i8": {
+    "name": "Salz",
+    "standardAmount": "2 TL"
+   },
+   "w-it-022-i9": {
+    "name": "warmes Wasser",
+    "standardAmount": "1 1/2 Tassen"
+   },
+   "w-it-022-i10": {
+    "name": "Maisgrieß",
+    "standardAmount": "eine leichte Bestreuung"
+   }
+  },
+  "instructions": {
+   "1": "Für die Biga die Hefe über das Wasser in einer großen Schüssel streuen und 5 bis 10 Minuten stehen lassen.",
+   "2": "Die Mehle zugeben und verrühren. (Der Teig wirkt fest, wird aber beim Stehen weicher.)",
+   "3": "Die Biga dicht mit Folie abdecken und 6 Stunden bei Raumtemperatur stehen lassen.",
+   "4": "Die Biga umrühren und bis zum nächsten Tag oder mindestens 12 Stunden kühlen.",
+   "5": "Für die Brötchen Mehl, Salz und Hefe in einer großen Schüssel vermengen.",
+   "6": "Wasser und Biga zugeben und verrühren, bis sich ein Teig bildet. (Er wird sehr feucht und grob sein.)",
+   "7": "Den Teig auf eine bemehlte Fläche stürzen und mit möglichst wenig Mehl 5 Minuten kneten, bis er glatt ist. (Keine Sorge, wenn er noch sehr weich und feucht wirkt — er festigt sich beim Gehen.)",
+   "8": "Den Teig in eine leicht geölte Schüssel legen, die dreimal so groß ist.",
+   "9": "Dicht mit Folie abdecken und an einem warmen Ort 1 1/2 bis 2 Stunden gehen lassen, bis er sich verdoppelt hat; dabei etwa alle 30 Minuten zusammendrücken und wenden.",
+   "10": "Bei Verwendung von Backblechen diese leicht mit Maisgrieß bestreuen.",
+   "11": "Den Teig in Kugeln von etwa 7,5 cm Durchmesser teilen.",
+   "12": "Mit den Händen bearbeiten, bis sie gleichmäßig geformt sind.",
+   "13": "Leicht in extra Mehl wälzen und auf das vorbereitete Blech oder den Brotschieber legen.",
+   "14": "Jede Kugel mit dem Handballen leicht zu einer Scheibe flachdrücken.",
+   "15": "Locker mit Tüchern abdecken.",
+   "16": "Den Ofen auf 200 °C vorheizen.",
+   "17": "Eine flache Auflaufform mit Wasser füllen und 10 Minuten vor den Brötchen in den Ofen stellen.",
+   "18": "Nach 45 Minuten die Bleche in den heißen Ofen schieben oder die Brötchen mit dem Schieber auf den heißen Backstein setzen.",
+   "19": "Etwa 20 Minuten backen, die Brötchen einmal wenden, bis sie ringsum hell goldbraun sind.",
+   "20": "Herausnehmen und auf einem Gitter auskühlen lassen."
+  },
+  "culturalNotes": "Panini sind eine Art kleines italienisches Brot, das häufig für Sandwiches verwendet wird."
+ },
+ "w-it-023": {
+  "title": "Panzerotti",
+  "ingredients": {
+   "w-it-023-i1": {
+    "name": "Pizzateig",
+    "standardAmount": "450 g"
+   },
+   "w-it-023-i2": {
+    "name": "Mozzarella",
+    "standardAmount": "280 g"
+   },
+   "w-it-023-i3": {
+    "name": "Salz und Pfeffer",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-023-i4": {
+    "name": "frisches Basilikum",
+    "standardAmount": "2 EL"
+   },
+   "w-it-023-i5": {
+    "name": "Rapsöl",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-it-023-i6": {
+    "name": "Olivenöl",
+    "standardAmount": "1 EL"
+   },
+   "w-it-023-i7": {
+    "name": "Knoblauch",
+    "standardAmount": "2 Zehen"
+   },
+   "w-it-023-i8": {
+    "name": "gewürfelte Tomaten",
+    "standardAmount": "1 Dose à 400 g"
+   },
+   "w-it-023-i9": {
+    "name": "getrockneter Oregano",
+    "standardAmount": "1/2 TL"
+   }
+  },
+  "instructions": {
+   "1": "Das Öl in einem kleinen Topf erhitzen und den Knoblauch ein bis zwei Minuten braten, bis er duftet.",
+   "2": "Die Tomaten, den Oregano, Salz und Pfeffer zugeben und etwa 10 Minuten zu einer dicken Sauce einkochen.",
+   "3": "Den Teig nach der ersten Gehzeit nehmen, zu einer langen Rolle formen, in 10 Stücke teilen und zu Kugeln formen.",
+   "4": "Jede Kugel auf einer leicht bemehlten Fläche zu einem Kreis von 10 cm Durchmesser ausrollen.",
+   "5": "Einen Löffel der Tomatenmischung auf jeden Kreis geben, mit frischem Basilikum, Salz und Pfeffer bestreuen und mit etwas Mozzarella bedecken.",
+   "6": "Die Ränder leicht mit Wasser anfeuchten und zum Versiegeln zusammendrücken.",
+   "7": "Das Öl in einer beschweren Pfanne auf 190 °C erhitzen.",
+   "8": "Portionsweise goldbraun frittieren, dann auf Küchenpapier gut abtropfen lassen und heiß servieren."
+  },
+  "culturalNotes": "Panzerotti sind ein beliebtes Gericht Süditaliens, besonders in der Region Apulien; sie werden als Snack oder Hauptgericht serviert."
+ },
+ "w-it-024": {
+  "title": "Pappa al Pomodoro",
+  "ingredients": {
+   "w-it-024-i1": {
+    "name": "natives Olivenöl extra",
+    "standardAmount": "4 EL"
+   },
+   "w-it-024-i2": {
+    "name": "gemahlener schwarzer Pfeffer",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-024-i3": {
+    "name": "mittelgroße Zwiebel",
+    "standardAmount": "1, fein gehackt"
+   },
+   "w-it-024-i4": {
+    "name": "Knoblauchzehen",
+    "standardAmount": "4, gehackt"
+   },
+   "w-it-024-i5": {
+    "name": "vorbereitete Tomaten",
+    "standardAmount": "1,4 Liter"
+   },
+   "w-it-024-i6": {
+    "name": "Hühnerbrühe",
+    "standardAmount": "950 ml"
+   },
+   "w-it-024-i7": {
+    "name": "frische Basilikumblätter",
+    "standardAmount": "1/2 Tasse, zerrissen"
+   },
+   "w-it-024-i8": {
+    "name": "altbackenes italienisches Brot",
+    "standardAmount": "5 bis 6 Tassen, gewürfelt"
+   },
+   "w-it-024-i9": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   }
+  },
+  "instructions": {
+   "1": "In einem großen Topf die Zwiebeln im Öl bei mittlerer Hitze glasig dünsten.",
+   "2": "Den Knoblauch zugeben und braten, bis er duftet.",
+   "3": "Die Tomaten zugeben und aufkochen.",
+   "4": "Die Hitze auf ein Köcheln reduzieren und 20 Minuten eindicken lassen.",
+   "5": "Die Brühe zugeben, gut verrühren und weitere 10 Minuten kochen.",
+   "6": "Die Brotwürfel und das Basilikum zugeben und mit Salz und Pfeffer abschmecken.",
+   "7": "Weitere 10 Minuten köcheln lassen.",
+   "8": "Mit einem Schneebesen das Brot aufbrechen und die Suppe eindicken.",
+   "9": "Vom Herd nehmen und auf Zimmertemperatur abkühlen lassen.",
+   "10": "Die Suppe in einzelnen Schüsseln mit einem Schuss nativem Olivenöl extra und einer Prise schwarzem Pfeffer servieren."
+  },
+  "culturalNotes": "Pappa al Pomodoro ist eine traditionelle italienische Suppe aus der Toskana, bekannt für ihre Einfachheit und ihren vollen Geschmack."
+ },
+ "w-it-025": {
+  "title": "Pasta allo Scarpariello",
+  "ingredients": {
+   "w-it-025-i1": {
+    "name": "Pasta (Penne oder Spaghetti)",
+    "standardAmount": "320 g"
+   },
+   "w-it-025-i2": {
+    "name": "Datterini- oder Kirschtomaten",
+    "standardAmount": "250 g"
+   },
+   "w-it-025-i3": {
+    "name": "Tomatenpassata",
+    "standardAmount": "450 g"
+   },
+   "w-it-025-i4": {
+    "name": "Knoblauchzehen",
+    "standardAmount": "1 bis 2, geschält und angedrückt"
+   },
+   "w-it-025-i5": {
+    "name": "Parmigiano",
+    "standardAmount": "40 g, gerieben"
+   },
+   "w-it-025-i6": {
+    "name": "Pecorino",
+    "standardAmount": "40 g, gerieben"
+   },
+   "w-it-025-i7": {
+    "name": "frische Basilikumblätter",
+    "standardAmount": "1 Handvoll, in Stücke gerissen"
+   },
+   "w-it-025-i8": {
+    "name": "Peperoncino-Flocken",
+    "standardAmount": "1 TL (optional)"
+   },
+   "w-it-025-i9": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-025-i10": {
+    "name": "schwarzer Pfeffer",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-025-i11": {
+    "name": "natives Olivenöl extra",
+    "standardAmount": "3 bis 4 EL"
+   }
+  },
+  "instructions": {
+   "1": "Einen Topf Wasser für die Pasta aufsetzen. Sobald das Wasser kocht, Salz zugeben und wieder aufkochen lassen.",
+   "2": "Das Olivenöl in einer Pfanne erhitzen und den angedrückten Knoblauch zugeben, bis er weich wird. Dann den Peperoncino (falls verwendet) und etwas Basilikum zugeben.",
+   "3": "Die halbierten oder geviertelten Datterini- oder Kirschtomaten (oder geschälte Dosentomaten) zugeben. Sobald die Tomaten weich sind, die Passata angießen.",
+   "4": "Etwa 15 Minuten köcheln lassen, den Knoblauch entfernen und mit Salz und Pfeffer abschmecken.",
+   "5": "Die Pasta ein paar Minuten kürzer kochen als für al dente nötig (sie gart in der Sauce zu Ende), abgießen und zur Sauce geben. Beides noch 2 bis 3 Minuten zusammen garen, bis die Pasta fertig ist.",
+   "6": "Die Hitze reduzieren und Parmigiano und Pecorino eine Handvoll nach der anderen zugeben und gut unterrühren. Der Käse soll in der heißen Sauce schmelzen.",
+   "7": "Sofort mit frischen Basilikumblättern und bei Bedarf mehr Käse servieren."
+  },
+  "culturalNotes": "Pasta allo Scarpariello ist ein traditionelles Gericht aus Süditalien, bekannt für seine reichhaltige Tomaten-Chili-Sauce."
+ },
+ "w-it-026": {
+  "title": "Pasta-Bohnen-Suppe (Pasta e Fagioli)",
+  "ingredients": {
+   "w-it-026-i1": {
+    "name": "getrocknete weiße Bohnen",
+    "standardAmount": "450 g"
+   },
+   "w-it-026-i2": {
+    "name": "Olivenöl",
+    "standardAmount": "240 ml"
+   },
+   "w-it-026-i3": {
+    "name": "Knoblauch",
+    "standardAmount": "1 ganze Zehe"
+   },
+   "w-it-026-i4": {
+    "name": "Lorbeerblatt",
+    "standardAmount": "1"
+   },
+   "w-it-026-i5": {
+    "name": "zerstoßener oder gemahlener scharfer Paprika",
+    "standardAmount": "1 TL oder mehr"
+   },
+   "w-it-026-i6": {
+    "name": "frische Petersilie",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-it-026-i7": {
+    "name": "kleine Makkaroni",
+    "standardAmount": "225 g"
+   },
+   "w-it-026-i8": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   }
+  },
+  "instructions": {
+   "1": "Die getrockneten weißen Bohnen waschen und 12 Stunden in Salzwasser einweichen (3 Teile Wasser auf 1 Teil Bohnen), oder 2 Minuten aufkochen und 1 Stunde zugedeckt stehen lassen.",
+   "2": "Die Bohnen nicht abgießen, sondern aufkochen. Den Schaum abschöpfen und Olivenöl, Knoblauch und Lorbeerblatt zugeben.",
+   "3": "Die Bohnen etwa 2 Stunden köcheln lassen, bis sie weich sind.",
+   "4": "Die Makkaroni 6 bis 7 Minuten kochen, ohne sie zu weich werden zu lassen.",
+   "5": "Die Pasta abgießen und etwas Kochwasser aufbewahren.",
+   "6": "Pasta und Paprika unter die Bohnen rühren und köcheln lassen, bis die Pasta al dente ist; bei Bedarf etwas Kochwasser zugeben.",
+   "7": "Mit Paprika nach Geschmack und frischer Petersilie bestreuen."
+  },
+  "culturalNotes": "Pasta e Fagioli ist ein traditionelles italienisches Gericht, das Pasta und Bohnen zu einer warmen, nahrhaften Suppe verbindet."
+ },
+ "w-es-001": {
+  "title": "Arroz Negro (Arròs Negre)",
+  "ingredients": {
+   "w-es-001-i1": {
+    "name": "Fischbrühe",
+    "standardAmount": "710 ml"
+   },
+   "w-es-001-i2": {
+    "name": "Safranfäden",
+    "standardAmount": "1/4 TL"
+   },
+   "w-es-001-i3": {
+    "name": "natives Olivenöl extra",
+    "standardAmount": "60 ml"
+   },
+   "w-es-001-i4": {
+    "name": "Tintenfisch (Sepia)",
+    "standardAmount": "1 Stück"
+   },
+   "w-es-001-i5": {
+    "name": "Zwiebel",
+    "standardAmount": "1/2 Stück"
+   },
+   "w-es-001-i6": {
+    "name": "italienische süße grüne Paprika",
+    "standardAmount": "1/2 Stück"
+   },
+   "w-es-001-i7": {
+    "name": "Knoblauch",
+    "standardAmount": "4 Zehen"
+   },
+   "w-es-001-i8": {
+    "name": "süßes geräuchertes spanisches Paprikapulver",
+    "standardAmount": "1/2 TL"
+   },
+   "w-es-001-i9": {
+    "name": "Tomaten",
+    "standardAmount": "2 Stück"
+   },
+   "w-es-001-i10": {
+    "name": "spanischer Rundkornreis",
+    "standardAmount": "220 g"
+   },
+   "w-es-001-i11": {
+    "name": "Tintenfischtinte",
+    "standardAmount": "4 g"
+   },
+   "w-es-001-i12": {
+    "name": "fein gehackte Petersilie",
+    "standardAmount": "eine Handvoll"
+   },
+   "w-es-001-i13": {
+    "name": "Zitrone",
+    "standardAmount": "1 Stück"
+   },
+   "w-es-001-i14": {
+    "name": "Meersalz",
+    "standardAmount": "eine Prise"
+   },
+   "w-es-001-i15": {
+    "name": "schwarzer Pfeffer",
+    "standardAmount": "eine Prise"
+   }
+  },
+  "instructions": {
+   "1": "710 ml Fischbrühe in einen Topf geben, eine Prise Safranfäden zugeben und bei mittlerer Hitze erwärmen.",
+   "2": "1/2 Zwiebel fein hacken, 4 Knoblauchzehen grob hacken, 1/2 italienische süße grüne Paprika fein hacken, 2 Tomaten fein reiben und einen gesäuberten Tintenfisch (ohne Tentakel) in mittelgroße Würfel schneiden.",
+   "3": "Eine Paellapfanne bei mittlerer Hitze erhitzen und 60 ml natives Olivenöl extra zugeben.",
+   "4": "Nach 1 Minute das Olivenöl mit Meersalz würzen, die Tintenfischstücke zugeben und mit dem Öl vermengen. Nach 2 Minuten, wenn der Tintenfisch leicht angedünstet ist, aus der Pfanne nehmen und beiseitestellen.",
+   "5": "In derselben Pfanne bei gleicher Hitze die gehackte Zwiebel und Paprika zugeben und mit dem Olivenöl vermengen. Nach 3 Minuten, wenn die Zwiebel glasig ist, den gehackten Knoblauch zugeben und weiter vermengen. Nach 30 Sekunden 1/2 TL süßes geräuchertes Paprikapulver zugeben, schnell verrühren, dann die fein geriebene Tomate (etwa 115 g) zugeben, vermengen und köcheln lassen.",
+   "6": "Nach 3 Minuten, wenn die Tomatensauce eingedickt ist, 220 g ungekochten spanischen Rundkornreis und 4 g Tintenfischtinte zugeben, alles mit Meersalz und schwarzem Pfeffer würzen, etwa 2 Minuten ständig verrühren, dann die mit Safran angereicherte Fischbrühe und den zuvor gegarten Tintenfisch angießen, ein letztes Mal vermengen, damit alles gleichmäßig verteilt ist, und dann nicht mehr rühren.",
+   "7": "Etwa 8 bis 9 Minuten nach dem Erhöhen der Hitze, wenn ein Großteil der Brühe vom Reis aufgenommen ist, aber noch etwas übrig bleibt, das Feuer auf niedrig-mittlere Stufe reduzieren, 3 bis 5 Minuten köcheln lassen, bis die ganze Brühe aufgenommen ist, dann die Hitze wieder auf mittelhoch stellen und 90 Sekunden für den Socarrat gehen lassen, dann die Pfanne vom Herd nehmen, mit einem Geschirrtuch abdecken und 5 Minuten ruhen lassen.",
+   "8": "Die Pfanne aufdecken, mit Zitronenspalten garnieren und mit fein gehackter frischer Petersilie bestreuen — guten Appetit!"
+  },
+  "culturalNotes": "Arroz Negro (Arròs Negre) ist ein traditionelles Gericht aus Spanien, besonders aus der Region Valencia, bekannt für seine tiefschwarze Farbe und den reichen Tintenfischgeschmack."
+ },
+ "w-es-002": {
+  "title": "Arroz a la Cubana",
+  "ingredients": {
+   "w-es-002-i1": {
+    "name": "Pflanzenöl",
+    "standardAmount": "1 EL"
+   },
+   "w-es-002-i2": {
+    "name": "Kartoffel",
+    "standardAmount": "1 mittelgroße, gewürfelt"
+   },
+   "w-es-002-i3": {
+    "name": "Karotte",
+    "standardAmount": "1 mittelgroße, gewürfelt"
+   },
+   "w-es-002-i4": {
+    "name": "Zwiebel",
+    "standardAmount": "1/2 mittelgroße, gewürfelt"
+   },
+   "w-es-002-i5": {
+    "name": "Knoblauch",
+    "standardAmount": "2 Zehen, gehackt"
+   },
+   "w-es-002-i6": {
+    "name": "Rinderhackfleisch",
+    "standardAmount": "450 g"
+   },
+   "w-es-002-i7": {
+    "name": "Wasser",
+    "standardAmount": "1/4 Tasse"
+   },
+   "w-es-002-i8": {
+    "name": "Sojasauce",
+    "standardAmount": "2 EL"
+   },
+   "w-es-002-i9": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-es-002-i10": {
+    "name": "gemahlener schwarzer Pfeffer",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-es-002-i11": {
+    "name": "Paprika",
+    "standardAmount": "1 mittelgroße, gewürfelt"
+   },
+   "w-es-002-i12": {
+    "name": "Rosinen",
+    "standardAmount": "2 EL"
+   },
+   "w-es-002-i13": {
+    "name": "Erbsen",
+    "standardAmount": "2 EL"
+   },
+   "w-es-002-i14": {
+    "name": "gekochter Reis",
+    "standardAmount": "2 Tassen"
+   }
+  },
+  "instructions": {
+   "1": "Das Öl in einer großen Pfanne bei mittlerer Hitze erhitzen. Kartoffel und Karotte zugeben und 3 Minuten anbraten. In eine Schüssel umfüllen.",
+   "2": "Zwiebel und Knoblauch in die heiße Pfanne geben und 5 bis 7 Minuten dünsten, bis sie leicht braun sind. Das Hackfleisch zugeben und unter Rühren 5 bis 7 Minuten bräunen und zerkleinern.",
+   "3": "Die Kartoffel-Karotten-Mischung mit Wasser, Sojasauce, Salz und Pfeffer zurück in die Pfanne geben. Zugedeckt köcheln lassen, bis die Kartoffeln weich sind, 5 bis 8 Minuten.",
+   "4": "Paprika, Rosinen und Erbsen zugeben und etwa 2 Minuten heiß werden lassen. Auf heißem gekochtem Reis servieren."
+  },
+  "culturalNotes": "Arroz a la Cubana ist ein beliebtes Gericht in Spanien — eine Mischung aus Hackfleisch, Gemüse und Gewürzen, serviert auf Reis."
+ },
+ "w-es-003": {
+  "title": "Baskische Knoblauchsuppe (Zurrukutuna)",
+  "ingredients": {
+   "w-es-003-i1": {
+    "name": "natives Olivenöl extra",
+    "standardAmount": "60 ml"
+   },
+   "w-es-003-i2": {
+    "name": "Baguette",
+    "standardAmount": "100 g"
+   },
+   "w-es-003-i3": {
+    "name": "Knoblauch",
+    "standardAmount": "6 Zehen, in dünnen Scheiben"
+   },
+   "w-es-003-i4": {
+    "name": "zerstoßener scharfer Paprika",
+    "standardAmount": "1/4 TL"
+   },
+   "w-es-003-i5": {
+    "name": "süßes geräuchertes spanisches Paprikapulver",
+    "standardAmount": "1 TL"
+   },
+   "w-es-003-i6": {
+    "name": "Tomaten",
+    "standardAmount": "2, fein gerieben"
+   },
+   "w-es-003-i7": {
+    "name": "Gemüsebrühe",
+    "standardAmount": "1 Liter"
+   },
+   "w-es-003-i8": {
+    "name": "Lorbeerblatt",
+    "standardAmount": "1"
+   },
+   "w-es-003-i9": {
+    "name": "Kabeljaufilet",
+    "standardAmount": "225 g"
+   },
+   "w-es-003-i10": {
+    "name": "Eier",
+    "standardAmount": "2"
+   },
+   "w-es-003-i11": {
+    "name": "Meersalz und schwarzer Pfeffer",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-es-003-i12": {
+    "name": "gehackte Petersilie",
+    "standardAmount": "zum Garnieren"
+   }
+  },
+  "instructions": {
+   "1": "Das Baguette in 1,25 cm dicke Scheiben schneiden, auf ein mit Folie ausgelegtes Blech legen und im vorgeheizten Ofen bei 200 °C 10 Minuten rösten, bis die Scheiben leicht geröstet sind; beiseitestellen.",
+   "2": "Einen Suppentopf bei mittlerer Hitze erhitzen und das Olivenöl zugeben.",
+   "3": "Nach ein paar Minuten den geschnittenen Knoblauch und den zerstoßenen Paprika zugeben und 1 Minute ständig rühren, dann die gerösteten Baguettescheiben zugeben und 3 Minuten weiterrühren, dann das süße geräucherte Paprikapulver zugeben und schnell verrühren, dann die geriebenen Tomaten zugeben, mit Salz und Pfeffer würzen und weiter verrühren.",
+   "4": "Etwa 3 Minuten nach Zugabe der geriebenen Tomaten die Gemüsebrühe und das Lorbeerblatt zugeben, auf hohe Hitze stellen und verrühren; sobald es kocht, den Topf zudecken und auf schwache Hitze stellen; alle 2 bis 3 Minuten rühren, damit die Brotstücke auseinanderfallen.",
+   "5": "Während die Suppe köchelt, das Kabeljaufilet auf Küchenpapier trocken tupfen, mit Salz und Pfeffer würzen und fein hacken; die Eier in eine Schüssel aufschlagen, salzen und verquirlen.",
+   "6": "Nach 15 Minuten Köcheln, wenn die Brotstücke zerfallen sind, das Lorbeerblatt entfernen, den gehackten Kabeljau zugeben und unterrühren, 3 Minuten köcheln lassen, dann die verquirlten Eier langsam unter sanftem Rühren zugeben, den Topf zudecken und die Hitze abstellen.",
+   "7": "Nach ein paar Minuten den Deckel abnehmen und die Suppe in flache Schüsseln verteilen, mit gehackter Petersilie garnieren und genießen!"
+  },
+  "culturalNotes": "Die baskische Knoblauchsuppe (Zurrukutuna) ist ein traditionelles Gericht aus dem Baskenland in Spanien, bekannt für ihren reichen und kräftigen Geschmack."
+ }
 }

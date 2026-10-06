@@ -115652,11 +115652,11 @@
    },
    "w-it-003-i3": {
     "name": "habas",
-    "standardAmount": "2 libras"
+    "standardAmount": "900 g"
    },
    "w-it-003-i4": {
     "name": "zumo de limón",
-    "standardAmount": "el zumo de 1/2 limón"
+    "standardAmount": "el zumo de medio limón"
    },
    "w-it-003-i5": {
     "name": "ajo",
@@ -115671,28 +115671,27 @@
     "standardAmount": "al gusto"
    },
    "w-it-003-i8": {
-    "name": "queso burrata o mozzarella",
+    "name": "burrata o mozzarella",
     "standardAmount": "2 bolas"
    }
   },
   "instructions": {
-   "1": "Escalfa las habas en agua hirviendo con sal durante 2 minutos; escurre y refréscalas en agua fría.",
-   "2": "Retira la piel exterior de cada haba para dejar al descubierto el interior verde brillante.",
-   "3": "Mezcla las habas con el aceite de oliva, el zumo de limón, el ajo picado, la sal y la pimienta; deja marinar al menos 30 minutos.",
-   "4": "Tuesta las rebanadas de pan hasta que estén doradas y crujientes.",
-   "5": "Unta cada rebanada con un poco de aceite de oliva.",
-   "6": "Reparte las habas marinadas sobre el pan.",
-   "7": "Coloca encima trozos de burrata o mozzarella.",
-   "8": "Termina con un hilo de aceite de oliva y una pizca de pimienta negra; sirve enseguida."
+   "1": "Desvaina las habas y ponlas en un cuenco.",
+   "2": "Lleva una olla de agua a ebullición y agrega las habas desvainadas. Hierve 4-5 minutos, escurre y enjuaga con agua fría.",
+   "3": "Pellizca la piel exterior de cada haba por un extremo para rasgarla, aprieta suavemente y saca la haba al cuenco desechando la piel. Repite con todas.",
+   "4": "Agrega el zumo de limón, el aceite de oliva, el ajo, la sal y la pimienta a las habas y mezcla.",
+   "5": "Deja reposar las habas en la marinada 30 minutos.",
+   "6": "Corta el queso en lonchas y repártelo en cuatro platos individuales.",
+   "7": "Reparte la mezcla de habas por encima y añade dos rebanadas de pan tostado a cada plato.",
+   "8": "¡A disfrutar!"
   },
-  "culturalNotes": "La burrata es un queso italiano suave y cremoso, muy usado en ensaladas y aperitivos.",
-  "chapter": "مطبخ إيطاليا"
+  "culturalNotes": "La burrata es un queso italiano suave y cremoso, que suele servirse en ensaladas o como aperitivo."
  },
  "w-it-004": {
-  "title": "Calzone de salchicha de ternera halal y berenjena",
+  "title": "Calzone de salchicha de res halal y berenjena",
   "ingredients": {
    "w-it-004-i1": {
-    "name": "masa básica de pizza",
+    "name": "masa de pizza básica",
     "standardAmount": "1 bola"
    },
    "w-it-004-i2": {
@@ -115728,47 +115727,46 @@
     "standardAmount": "1 taza en dados"
    },
    "w-it-004-i10": {
-    "name": "salchicha de ternera halal",
-    "standardAmount": "2 piezas sin la piel"
+    "name": "salchicha de res halal",
+    "standardAmount": "2 piezas sin piel"
    },
    "w-it-004-i11": {
     "name": "albahaca fresca",
     "standardAmount": "3 cucharaditas picada"
    },
    "w-it-004-i12": {
-    "name": "queso ricotta",
+    "name": "ricotta",
     "standardAmount": "1/2 taza"
    },
    "w-it-004-i13": {
-    "name": "queso mozzarella",
+    "name": "mozzarella",
     "standardAmount": "1/2 taza rallada"
    },
    "w-it-004-i14": {
-    "name": "queso parmesano",
+    "name": "parmesano",
     "standardAmount": "3 cucharadas"
    }
   },
   "instructions": {
-   "1": "Precalienta el horno a 220 °C con una piedra o bandeja dentro.",
-   "2": "Saltea la cebolla y el ajo en el aceite de oliva hasta que estén blandos.",
-   "3": "Añade la berenjena en dados y cocina hasta que esté tierna y dorada.",
-   "4": "Desmenuza la salchicha en la sartén y cocina hasta que esté hecha; retira del fuego y deja enfriar un poco.",
-   "5": "Mezcla la salchicha y la berenjena con la ricotta, la mozzarella, el parmesano, la albahaca y las hojuelas de chile; salpimenta.",
-   "6": "Estira la masa en un círculo de unos 30 cm sobre superficie enharinada.",
-   "7": "Extiende la salsa de tomate sobre la mitad, dejando un borde, y reparte el relleno encima.",
-   "8": "Dobla la masa por la mitad sobre el relleno y sella los bordes enrollándolos o presionando con un tenedor.",
-   "9": "Haz unos cortes pequeños en la parte superior para que salga el vapor.",
-   "10": "Hornea de 15 a 20 minutos hasta que esté dorado y crujiente; deja reposar 5 minutos antes de cortar."
+   "1": "Precalienta el horno a su temperatura máxima.",
+   "2": "Calienta el aceite en una sartén y saltea el ajo y las cebollas hasta que estén translúcidos.",
+   "3": "Añade la berenjena y la salchicha de res desmenuzada y cocina hasta que ambas estén doradas.",
+   "4": "Añade la salsa de tomate, una pizca de hojuelas de chile, sal, pimienta y la albahaca picada, y cocina a fuego lento 20 minutos hasta que esté muy espeso.",
+   "5": "Mezcla la ricotta, la mozzarella y el parmesano y reserva.",
+   "6": "Prepara la masa de pizza y, tras la primera levada, estírala en un círculo de 30 cm y colócala sobre una bandeja ligeramente aceitada o espolvoreada con sémola de maíz.",
+   "7": "Reparte la mezcla de salchicha y berenjena sobre la mitad del calzone, dejando un borde de 2,5 cm libre.",
+   "8": "Añade la mezcla de quesos y extiéndela sobre la berenjena.",
+   "9": "Dobla la mitad superior de la masa y pellizca los bordes para sellar.",
+   "10": "Hornea unos 10 minutos, hasta que esté hinchado y dorado."
   },
-  "culturalNotes": "El calzone es muy popular en Italia, sobre todo en el sur; se come como tentempié o plato principal.",
-  "chapter": "مطبخ إيطاليا"
+  "culturalNotes": "El calzone es muy popular en Italia, sobre todo en el sur; se come como aperitivo o plato principal."
  },
  "w-it-005": {
   "title": "Cassata siciliana",
   "ingredients": {
    "w-it-005-i1": {
-    "name": "queso ricotta",
-    "standardAmount": "1 libra"
+    "name": "ricotta",
+    "standardAmount": "450 g"
    },
    "w-it-005-i2": {
     "name": "azúcar glas",
@@ -115784,11 +115782,11 @@
    },
    "w-it-005-i5": {
     "name": "galletas trituradas",
-    "standardAmount": "7 onzas"
+    "standardAmount": "200 g"
    },
    "w-it-005-i6": {
     "name": "chocolate negro",
-    "standardAmount": "7 onzas"
+    "standardAmount": "200 g"
    },
    "w-it-005-i7": {
     "name": "pasas",
@@ -115800,24 +115798,23 @@
    },
    "w-it-005-i9": {
     "name": "mantequilla",
-    "standardAmount": "1/2 taza"
+    "standardAmount": "115 g"
    },
    "w-it-005-i10": {
-    "name": "nata para montar",
+    "name": "nata líquida",
     "standardAmount": "1 taza"
    }
   },
   "instructions": {
-   "1": "Bate la ricotta con el azúcar glas, la canela y el cacao hasta que esté suave y cremosa.",
-   "2": "Incorpora las pasas, la ralladura de las naranjas y parte del chocolate picado.",
-   "3": "Forra un molde con las galletas trituradas mezcladas con la mantequilla derretida para formar la base.",
-   "4": "Rellena con la mezcla de ricotta y alisa la superficie.",
-   "5": "Refrigera al menos 4 horas o toda la noche para que asiente.",
-   "6": "Desmolda y cubre con el resto del chocolate fundido y gajos de naranja.",
-   "7": "Sirve fría, cortada en porciones."
+   "1": "Pon las pasas en remojo en el zumo de naranja 30 minutos.",
+   "2": "Mezcla la ricotta con el azúcar glas, la canela y el cacao en polvo.",
+   "3": "Añade las pasas escurridas y las galletas trituradas a la mezcla de ricotta.",
+   "4": "Vierte la mezcla de ricotta en un molde redondo engrasado.",
+   "5": "Hierve la nata y el chocolate en un cazo pequeño hasta que el chocolate se derrita y la mezcla esté lisa.",
+   "6": "Vierte la mezcla de chocolate sobre la cassata y deja enfriar en el refrigerador al menos 4 horas.",
+   "7": "Corta la cassata en porciones y sirve."
   },
-  "culturalNotes": "La cassata siciliana es un postre tradicional de la isla de Sicilia, Italia, conocido por su sabor rico y dulce.",
-  "chapter": "مطبخ إيطاليا"
+  "culturalNotes": "La cassata siciliana es un postre tradicional de la isla de Sicilia, en Italia, famoso por su riqueza y dulzura."
  },
  "w-it-006": {
   "title": "Pizza con tomates cherry y queso de cabra",
@@ -115844,11 +115841,11 @@
    },
    "w-it-006-i6": {
     "name": "queso mozzarella",
-    "standardAmount": "1 1/2 tazas, en láminas finas"
+    "standardAmount": "1 1/2 tazas, en lonchas finas"
    },
    "w-it-006-i7": {
     "name": "queso de cabra",
-    "standardAmount": "3 onzas"
+    "standardAmount": "85 g"
    },
    "w-it-006-i8": {
     "name": "masa de pizza",
@@ -115860,27 +115857,26 @@
    }
   },
   "instructions": {
-   "1": "Estira la masa de pizza sobre una superficie enharinada hasta el grosor deseado.",
-   "2": "Mezcla los tomates cherry con el ajo, la mitad del aceite de oliva, la sal y la pimienta.",
-   "3": "Unta la masa con el pesto de albahaca.",
-   "4": "Reparte la mozzarella en láminas y el queso de cabra desmenuzado.",
-   "5": "Distribuye los tomates cherry aliñados y la albahaca picada.",
-   "6": "Rocía con el resto del aceite de oliva.",
-   "7": "Hornea a 230 °C de 10 a 12 minutos hasta que el borde esté dorado y el queso burbujee; sirve caliente."
+   "1": "Precalienta el horno a su temperatura máxima.",
+   "2": "Mezcla los tomates, el ajo, el aceite de oliva, la sal, la pimienta y la albahaca picada en un cuenco. Remueve bien y reserva.",
+   "3": "Con las manos, estira la masa hasta formar un círculo de 30 cm y colócala sobre una pala para pizza espolvoreada con sémola de maíz para que no se pegue.",
+   "4": "Mezcla 2 cucharadas de aceite de oliva con el pesto y pincela la masa con esta mezcla, dejando un borde de 2,5 cm.",
+   "5": "Reparte las lonchas de mozzarella uniformemente sobre la masa y luego los tomates.",
+   "6": "Desmenuza el queso de cabra sobre la pizza.",
+   "7": "Hornea 12-15 minutos, hasta que el borde esté ligeramente dorado y el queso burbujee."
   },
-  "culturalNotes": "Esta pizza es muy popular en la cocina italiana por su sencillez y su sabor intenso.",
-  "chapter": "مطبخ إيطاليا"
+  "culturalNotes": "Esta pizza es muy apreciada en la cocina italiana por su sencillez y su sabor intenso."
  },
  "w-it-007": {
-  "title": "Pan chapata (ciabatta)",
+  "title": "Pan ciabatta",
   "ingredients": {
    "w-it-007-i1": {
     "name": "levadura seca activa",
-    "standardAmount": "1.5 cucharaditas"
+    "standardAmount": "1,5 cucharaditas"
    },
    "w-it-007-i2": {
     "name": "agua tibia",
-    "standardAmount": "1.5 tazas"
+    "standardAmount": "1,5 tazas"
    },
    "w-it-007-i3": {
     "name": "harina de fuerza",
@@ -115888,7 +115884,7 @@
    },
    "w-it-007-i4": {
     "name": "harina de uso general sin blanquear",
-    "standardAmount": "3 tazas y más para trabajar y dar forma"
+    "standardAmount": "3 tazas y más para trabajar y formar"
    },
    "w-it-007-i5": {
     "name": "sal",
@@ -115896,27 +115892,26 @@
    }
   },
   "instructions": {
-   "1": "Disuelve la levadura en el agua tibia y deja reposar 5 minutos hasta que haga espuma.",
-   "2": "Mezcla la harina de fuerza y la de uso general con la sal en un bol grande.",
-   "3": "Añade el agua con levadura y mezcla hasta obtener una masa pegajosa.",
-   "4": "Cubre y deja fermentar 12 a 18 horas a temperatura ambiente, hasta que esté llena de burbujas.",
-   "5": "Vuelca la masa sobre una superficie bien enharinada.",
-   "6": "Dóblala sobre sí misma un par de veces con las manos enharinadas.",
-   "7": "Divide en dos piezas y forma rectángulos alargados sin apretar demasiado la masa.",
-   "8": "Colócalas en una bandeja forrada con papel y enharinada.",
-   "9": "Cubre y deja levar 45 minutos hasta que estén hinchadas.",
-   "10": "Precalienta el horno a 230 °C.",
-   "11": "Hornea de 20 a 25 minutos hasta que la corteza esté dorada y suene hueca al golpear la base.",
-   "12": "Traslada a una rejilla.",
-   "13": "Deja enfriar al menos 15 minutos antes de cortar.",
-   "14": "La miga debe quedar abierta y alveolada.",
-   "15": "Guarda envuelto en un paño a temperatura ambiente.",
-   "16": "Para recalentar, mete en horno caliente unos minutos.",
-   "17": "Ideal para sándwiches, aceite de oliva y acompañar sopas.",
-   "18": "La fermentación larga es la clave de su sabor y sus alvéolos."
+   "1": "Para la biga, espolvorea la levadura sobre el agua en un cuenco grande y deja reposar 5 a 10 minutos.",
+   "2": "Añade las harinas y remueve para mezclar (la masa puede parecer firme, pero se ablandará al reposar).",
+   "3": "Cubre la biga bien con film y déjala 6 horas a temperatura ambiente.",
+   "4": "Remuévela y refrigérala hasta el día siguiente, o al menos 12 horas.",
+   "5": "Mezcla la harina, la sal y la levadura en un cuenco grande, luego añade el agua y la biga y remueve hasta integrar (la masa quedará muy húmeda y de textura rugosa).",
+   "6": "Vuelca la masa sobre una superficie enharinada y amasa 5 minutos usando la menor harina posible, hasta que esté lisa (no te preocupes si sigue muy suelta y húmeda: se afirmará al levar).",
+   "7": "Coloca la masa en un cuenco grande ligeramente aceitado, tres veces su tamaño.",
+   "8": "Cubre bien con film y deja en un lugar cálido 2 a 3 horas, hasta que doble, desgasificando y dando la vuelta cada 30 minutos aproximadamente.",
+   "9": "Si usas bandejas, espolvoréalas ligeramente con sémola de maíz.",
+   "10": "Divide la masa en dos piezas y dobla cada una en un rectángulo.",
+   "11": "Estira el rectángulo hasta unos 30-35 cm de largo.",
+   "12": "Coloca cada pan en una bandeja y cubre ligeramente con un paño.",
+   "13": "Si usas piedra de hornear, enharina dos paños de cocina o palas de pan y coloca sobre ellos los panes formados para levar.",
+   "14": "Cubre sin apretar con paños.",
+   "15": "Precalienta el horno a 230 °C.",
+   "16": "Tras 45 minutos, mete las bandejas en el horno caliente o pasa los panes a la piedra caliente.",
+   "17": "Hornea unos 30 minutos, girándolos una vez, hasta que estén bien dorados por todas partes.",
+   "18": "Retira y deja enfriar sobre una rejilla."
   },
-  "culturalNotes": "La chapata es un pan italiano tradicional, conocido por su forma plana y alargada y su textura característica; suele acompañar varios platos.",
-  "chapter": "مطبخ إيطاليا"
+  "culturalNotes": "La ciabatta es un pan italiano tradicional, conocido por su forma plana y alargada y su textura característica; acompaña muchos platos."
  },
  "w-it-008": {
   "title": "Colomba Pasquale",
@@ -115942,7 +115937,7 @@
     "standardAmount": "1/3 taza"
    },
    "w-it-008-i6": {
-    "name": "mantequilla fundida y fría",
+    "name": "mantequilla derretida y fría",
     "standardAmount": "6 cucharadas"
    },
    "w-it-008-i7": {
@@ -115951,11 +115946,11 @@
    },
    "w-it-008-i8": {
     "name": "ralladura de naranja y semillas de vainilla",
-    "standardAmount": "1/2 cucharadita (o 2 cucharaditas de vainilla y 1/2 cucharadita de extracto de naranja)"
+    "standardAmount": "1/2 cucharadita (o las semillas de una vaina de vainilla y la ralladura de una naranja)"
    },
    "w-it-008-i9": {
     "name": "cáscara de naranja confitada finamente picada",
-    "standardAmount": "1/3 taza (o ralladura de 1 naranja grande)"
+    "standardAmount": "1/3 taza (o la ralladura de una naranja grande)"
    },
    "w-it-008-i10": {
     "name": "pasas sultanas",
@@ -115963,7 +115958,7 @@
    },
    "w-it-008-i11": {
     "name": "clara de huevo",
-    "standardAmount": "1 clara grande"
+    "standardAmount": "1 grande"
    },
    "w-it-008-i12": {
     "name": "harina de almendra",
@@ -115983,25 +115978,24 @@
    }
   },
   "instructions": {
-   "1": "Prepara el prefermento mezclando el agua fría, 1/8 de cucharadita de levadura y 1 taza de harina; cubre y deja reposar toda la noche.",
-   "2": "Al día siguiente, mezcla el prefermento con el resto de la harina, la levadura, la sal y el azúcar.",
-   "3": "Incorpora los huevos y la yema y amasa hasta obtener una masa suave.",
-   "4": "Añade la mantequilla fundida fría poco a poco, amasando hasta integrarla por completo.",
-   "5": "Incorpora la ralladura y las semillas de vainilla, la naranja confitada y las pasas.",
-   "6": "Cubre y deja levar hasta que doble su volumen, de 2 a 3 horas.",
-   "7": "Da forma de paloma (o coloca en un molde de colomba) y deja levar de nuevo 1 a 2 horas.",
-   "8": "Para la cobertura, bate las claras a punto de nieve, añade la harina de almendra y el azúcar granulada.",
-   "9": "Cubre la superficie con la mezcla de almendra, espolvorea las almendras laminadas y el azúcar perlado.",
-   "10": "Precalienta el horno a 180 °C.",
-   "11": "Hornea de 45 a 55 minutos hasta que esté dorada y al insertar un palillo salga limpio.",
-   "12": "Deja enfriar completamente sobre una rejilla.",
-   "13": "Se conserva varios días bien envuelta."
+   "1": "La noche anterior, mezcla los ingredientes de la biga en un cuenco pequeño, cubre y deja levar toda la noche.",
+   "2": "Al día siguiente, en un cuenco grande, añade el fermento de biga, la harina, la sal, la levadura, el azúcar, la mantequilla, los huevos y la ralladura de naranja con las semillas de vainilla.",
+   "3": "Mezcla con una cuchara de madera hasta formar una masa rugosa, luego agrega la naranja confitada y las pasas.",
+   "4": "Vuelca la masa sobre una superficie ligeramente enharinada y amasa a mano hasta que esté muy lisa y elástica, unos 7-8 minutos.",
+   "5": "También puedes mezclar los ingredientes en una batidora con gancho hasta que esté lisa.",
+   "6": "Coloca la masa en un cuenco ligeramente aceitado, cubre con film y deja levar en un lugar cálido 2-3 horas, hasta que esté blanda y casi doblada.",
+   "7": "Divide la masa en dos piezas y colócalas en el molde de colomba, o fórmalas a mano en forma de cruz.",
+   "8": "Coloca la masa en una bandeja forrada con papel de horno, cubre con film engrasado y deja levar otras 2 horas.",
+   "9": "Al terminar la levada, precalienta el horno a 180 °C.",
+   "10": "Prepara la cobertura batiendo las claras hasta que espumen, y añade la harina de almendra y el azúcar.",
+   "11": "Pincela generosamente la parte superior y los lados del pan con la mezcla de clara y espolvorea el azúcar perlado y las almendras laminadas por encima.",
+   "12": "Hornea 25-30 minutos, hasta que un probador salga limpio al insertarlo en el centro. (Si el pan se oscurece demasiado, cúbrelo con papel de aluminio.)",
+   "13": "Deja enfriar por completo, corta en rebanadas y disfruta."
   },
-  "culturalNotes": "La colomba pasquale es el pan dulce tradicional italiano de Pascua, en forma de paloma.",
-  "chapter": "مطبخ إيطاليا"
+  "culturalNotes": "La colomba pasquale es el pan brioche tradicional italiano de Pascua, con forma de paloma."
  },
  "w-it-009": {
-  "title": "Escalopes de pollo a la palermitana con salsa de pistachos y alcaparras",
+  "title": "Filetes de pollo al estilo Palermo con salsa de pistachos y alcaparras",
   "ingredients": {
    "w-it-009-i1": {
     "name": "pechugas de pollo sin piel ni hueso",
@@ -116036,12 +116030,12 @@
     "standardAmount": "2 cucharadas + 3/4 taza"
    },
    "w-it-009-i9": {
-    "name": "mantequilla sin sal ablandada",
+    "name": "mantequilla sin sal, blanda",
     "standardAmount": "2 cucharadas"
    },
    "w-it-009-i10": {
-    "name": "zumo de limón",
-    "standardAmount": "el zumo de 1 limón grande"
+    "name": "zumo de 1 limón grande",
+    "standardAmount": "el zumo de un limón grande"
    },
    "w-it-009-i11": {
     "name": "alcaparras saladas",
@@ -116061,40 +116055,39 @@
    }
   },
   "instructions": {
-   "1": "Aplana las pechugas con un mazo hasta dejarlas de grosor uniforme.",
-   "2": "Prepara tres platos: harina, huevos batidos con la leche y pan rallado con el perejil.",
-   "3": "Pasa cada escalope por harina, luego por el huevo y por último por el pan rallado con pistachos.",
-   "4": "Calienta el aceite de oliva en una sartén grande a fuego medio-alto.",
-   "5": "Fríe los escalopes de 3 a 4 minutos por lado hasta que estén dorados y hechos por dentro.",
-   "6": "Escurre sobre papel absorbente.",
-   "7": "Para la salsa, funde la mantequilla con el resto del aceite de oliva.",
-   "8": "Añade el zumo de limón, las alcaparras y los pistachos picados; calienta un minuto.",
-   "9": "Incorpora las hojas de perejil frescas.",
-   "10": "Vierte la salsa caliente sobre los escalopes.",
-   "11": "Sirve enseguida con más pistachos por encima.",
-   "12": "Acompaña con ensalada o verduras al gusto."
+   "1": "Precalienta el horno a 190 °C.",
+   "2": "Corta las pechugas en tres piezas a lo largo y golpéalas con un mazo hasta que tengan el mismo grosor.",
+   "3": "Pon la harina sazonada en una bolsa de plástico e introduce cada filete uno a uno, agitando para cubrirlo.",
+   "4": "Pon los huevos y la leche en un cuenco y bate hasta mezclar.",
+   "5": "Pon los ingredientes del empanado en otro cuenco y remueve.",
+   "6": "Forra una bandeja con borde de 33 x 23 cm con papel de aluminio y úntala con el aceite y la mantequilla.",
+   "7": "Pasa cada filete enharinado primero por la mezcla de huevo y luego por la de pan rallado.",
+   "8": "Coloca los filetes empanados uno junto a otro en la bandeja y hornea 10 minutos.",
+   "9": "Da la vuelta a los filetes y hornea otros 8 minutos, hasta que estén dorados y bien hechos.",
+   "10": "Mientras tanto, pon los ingredientes de la salsa en una batidora pequeña y tritura hasta que estén finamente picados, pero no lisos.",
+   "11": "Coloca los filetes cocidos en una fuente y cubre con parte de la salsa.",
+   "12": "Sirve ofreciendo más salsa en la mesa."
   },
-  "culturalNotes": "La cotoletta es un plato famoso en Sicilia, sobre todo en Palermo, donde se sirve con una salsa de pistachos y alcaparras.",
-  "chapter": "مطبخ إيطاليا"
+  "culturalNotes": "La cotoletta es un plato famoso de Sicilia, sobre todo de Palermo, donde se sirve con una salsa de pistachos y alcaparras."
  },
  "w-it-010": {
   "title": "Fettuccine Alfredo",
   "ingredients": {
    "w-it-010-i1": {
     "name": "fettuccine frescos",
-    "standardAmount": "3/4 libra"
+    "standardAmount": "340 g"
    },
    "w-it-010-i2": {
     "name": "mantequilla",
     "standardAmount": "2 cucharadas"
    },
    "w-it-010-i3": {
-    "name": "nata para montar",
-    "standardAmount": "1 taza"
+    "name": "nata líquida",
+    "standardAmount": "240 ml"
    },
    "w-it-010-i4": {
     "name": "caldo de pollo",
-    "standardAmount": "1/2 taza"
+    "standardAmount": "120 ml"
    },
    "w-it-010-i5": {
     "name": "yema de huevo",
@@ -116118,19 +116111,18 @@
    }
   },
   "instructions": {
-   "1": "Cuece los fettuccine en abundante agua con sal siguiendo las indicaciones; reserva una taza del agua de cocción.",
-   "2": "Derrite la mantequilla en una sartén amplia a fuego medio.",
-   "3": "Añade la nata y el caldo de pollo y deja que hierva suavemente unos minutos hasta que espese ligeramente.",
-   "4": "Retira del fuego e incorpora el parmesano rallado hasta fundirlo.",
-   "5": "Bate la yema con unas cucharadas de salsa caliente para templarla y añádela a la sartén.",
-   "6": "Incorpora la pasta escurrida y mezcla bien para cubrirla de salsa.",
-   "7": "Añade agua de cocción poco a poco si la salsa queda demasiado espesa.",
-   "8": "Salpimenta al gusto.",
-   "9": "Sirve enseguida con más parmesano rallado por encima.",
-   "10": "El plato se espesa al enfriarse; sírvelo recién hecho."
+   "1": "Lleva una olla grande de agua a ebullición para la pasta.",
+   "2": "Aparta 4 cucharadas de nata en un cuenco y bate la yema de huevo en ella.",
+   "3": "En un cazo, calienta el resto de la nata y el caldo de pollo.",
+   "4": "Cuece la pasta al dente, escúrrela y devuélvela a la olla.",
+   "5": "Incorpora la mantequilla a la pasta hasta que se derrita y cubra cada hebra.",
+   "6": "Añade un poco de la mezcla de nata caliente a la mezcla de huevo y nata y remueve (esto templa el huevo sin cocerlo del todo).",
+   "7": "Añade luego el resto de la nata y el caldo calientes a la mezcla de huevo y mezcla bien.",
+   "8": "Por último, vierte la mezcla combinada de huevo y nata sobre la pasta y remueve para cubrir uniformemente.",
+   "9": "Añade el queso rallado y una pizca de sal marina al gusto.",
+   "10": "Reparte la pasta en 4 platos y corona con pimienta negra molida, ofreciendo más queso."
   },
-  "culturalNotes": "Los fettuccine Alfredo son un plato italiano tradicional conocido por su rica salsa cremosa de mantequilla y queso.",
-  "chapter": "مطبخ إيطاليا"
+  "culturalNotes": "Los fettuccine Alfredo son un plato italiano tradicional famoso por su rica salsa cremosa de mantequilla y queso."
  },
  "w-it-011": {
   "title": "Hinojo a la parmesana (finocchi alla parmigiana)",
