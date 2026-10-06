@@ -78,8 +78,16 @@ INDIC = {'Hi': '\u0900-\u097F', 'Te': '\u0C00-\u0C7F'}
 ARABIC = {'Fa', 'Ur', 'Ps'}
 
 
+# Compounding languages glue words together ("bonitofläsk" = bonito pork,
+# "Schweinefilet"), so these stems also match inside a word.
+COMPOUND = {'Sv': 'fläsk|skink|gris(?:kött|fett)|vinsvinäger|vitvinäger', 'De': 'schwein|schmalz|speck(?!s)',
+            'Nl': 'varkens?|reuzel', 'Pl': 'wieprz'}
+
+
 def pattern(lang):
     t = TERMS[lang]
+    if lang in COMPOUND:
+        t = t + '|' + r'\w*(?:' + COMPOUND[lang] + r')\w*'
     if lang in NON_SPACED:
         return re.compile(t)
     if lang in INDIC:
