@@ -39,7 +39,9 @@ TERMS = {
     'Tr': r'domuz|jambon|[şs]arap|bira|rom|lik[oö]r|rak[ıi]|at eti|k[oö]pek',
     'Id': r'babi(?! laut)|lemak babi|ham|anggur merah|bir|rum|arak|tuak|kuda|anjing',
     'Sw': r'nguruwe|bekoni|divai|mvinyo|bia|pombe|ramu|farasi|mbwa|punda',
-    'Ku': r'beraz|[şs]erab|b[iî]re|araq|hesp|kûçik|se',  # not "bîra": also "memory"
+    # not "bîra": also "memory". "şirab"/"şîrab" was used for syrup and read as
+    # wine; "bozkurt" (grey wolf) was used for turkey. Syrup is "şerbet".
+    'Ku': r'beraz|[şs]erab\w*|[şs][iî]rab\w*|b[iî]re|araq|hesp|kûçik|se|bozkur[tk]\w*|gur',
     'Ru': r'свин\w*|сало|бекон|ветчин\w*|вин[оа]|пив\w*|ром|ликёр\w*|водк\w*|коньяк\w*|медвеж\w*|конин\w*|собач\w*',
     'El': r'χοιρ\w*|μπέικον|ζαμπόν|κρασ[ίι]\w*|μπύρα|ρούμι|λικέρ|ούζο|αρκούδ\w*|άλογ\w*|σκύλ\w*|οίν\w*|οιν[οό]\w*',
     'He': r'חזיר|בייקון|שומן חזיר|יין|בירה|רום|ליקר|דוב|סוס|כלב',
