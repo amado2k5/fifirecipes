@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Halal scan of the translated w-* recipe text.
+"""Halal scan of the translated recipe text (world and core recipes).
 
     python3 scripts/world/halal_i18n.py            # exit 1 on any hit
     python3 scripts/world/halal_i18n.py --lang Sv  # one table
@@ -35,13 +35,14 @@ TERMS = {
     'Nl': r'varken\w*|spek|reuzel|ham|wijn|bier|rum|likeur|paard\w*|hond\w*',
     'Pt': r'porco|toucinho|banha de porco|presunto|vinho|cerveja|rum|licor|cacha[cç]a|cavalo|cachorro|c[aã]o|pernil(?! de (?:cordeiro|borrego|carneiro|vaca))|limoncel+o',
     'Pl': r'wieprz\w*|boczek|smalec(?! kacz)|szynk\w*|win[oa]|piw\w*|rum|likier\w*|w[oó]dk\w*|konin\w*|psie mięso',
-    'Sv': r'fl[aä]sk\w*|gris\w*|bacon|ister|skinka|vin|[oö]l|rom|lik[oö]r|tj[aä]der|hästkött|hundkött',
+    'Sv': r'fläsk\w*|gris\w*|bacon|ister|skinka|vin|[oö]l|rom|lik[oö]r|tj[aä]der|hästkött|hundkött',
     'Tr': r'domuz|jambon|[şs]arap|bira|rom|lik[oö]r|rak[ıi]|at eti|k[oö]pek',
     'Id': r'babi(?! laut)|lemak babi|ham|anggur merah|bir|rum|arak|tuak|kuda|anjing',
     'Sw': r'nguruwe|bekoni|divai|mvinyo|bia|pombe|ramu|farasi|mbwa|punda',
     'Ku': r'beraz|[şs]erab|b[iî]re|araq|hesp|kûçik|se',  # not "bîra": also "memory"
     'Ru': r'свин\w*|сало|бекон|ветчин\w*|вин[оа]|пив\w*|ром|ликёр\w*|водк\w*|коньяк\w*|медвеж\w*|конин\w*|собач\w*',
-    'El': r'χοιρ\w*|μπέικον|ζαμπόν|κρασ[ίι]\w*|μπύρα|ρούμι|λικέρ|ούζο|αρκούδ\w*|άλογ\w*|σκύλ\w*|οίν\w*|οιν[οό]\w*',
+    # Not ρούμι: it is also Rumi cheese, which the Egyptian recipes use often.
+    'El': r'χοιρ\w*|μπέικον|ζαμπόν|κρασ[ίι]\w*|μπύρα|λικέρ|ούζο|αρκούδ\w*|άλογ\w*|σκύλ\w*|οίν\w*|οιν[οό]\w*',
     'He': r'חזיר|בייקון|שומן חזיר|יין|בירה|רום|ליקר|דוב|סוס|כלב',
     'Fa': r'خوک|گوشت خوک|بیکن|ژامبون|شراب|آبجو|الکل|عرق|خرس|اسب|سگ',
     'Ur': r'سور|خنزیر|بیکن|شراب|بیئر|الکحل|تاڑی|بھنگ|ریچھ|گھوڑ\w*|کت[اے]',
@@ -61,16 +62,27 @@ for _l, _t in OFFENSIVE.items():
 
 # Words that contain a term but are fine.
 ALLOW = {
-    'Sv': {'vinäger', 'vinägern', 'vindruvor'},
+    'Sv': {'vinäger', 'vinägern', 'vindruvor', 'vin- eller', 'vinblad'},
     'Nl': {'hamburger'},
-    'Id': {'bulu babi'},  # sea urchin
-    'Ru': {'винегрет'},
+    'Id': {'bulu babi', 'anggur merah tanpa biji', 'selai anggur merah', 'ragi bir'},  # sea urchin; red grapes; brewer's yeast
+    'Ru': {'винегрет', 'пивные дрожжи'},
     'Fr': {'vinaigre', 'vinaigrette'},
     'Es': {'vinagre', 'vinagreta', 'ronda'},
     'Pt': {'vinagre', 'vinagrete'},
-    'It': {'vinaigrette'},
-    'Zh': {'酒石酸', '石狗公'},  # 石狗公 = scorpionfish
-    'Fa': {'عرق بهارنارنج', 'عرق گلاب', 'عرق نعناع'},  # flower/herb distillates, not arak
+    'It': {'vinaigrette', 'lievito di birra'},  # the normal Italian word for fresh yeast
+    'De': {'butterschmalz', 'lammschmalz', 'rinderschmalz', 'weinblätter', 'wein- oder'},  # ghee; vine leaves
+    'Zh': {'酒石酸', '石狗公', '啤酒酵母'},  # 石狗公 = scorpionfish; brewer's yeast
+    'Ja': {'刻みりんご', 'ビール酵母', 'タビール', 'ラハム', 'ルラード'},  # apple; brewer's yeast; tabil; lahm; roulade
+    'Ko': {'맥주 효모', '룰라드'},
+    'He': {'שמרי בירה'},  # brewer's yeast
+    'Pl': {'drożdże piwne'},
+    'Te': {'బీర్ యీస్ట్'},
+    'Tr': {'bira mayası'},
+    'Fa': {'عرق بهارنارنج', 'عرق گلاب', 'عرق نعناع', 'عرق\u200cسوس', 'عرق سوس', 'بدون الکل'},  # distillates, licorice
+    'Ur': {'بغیر شراب'},
+    'Ps': {'بې الکول'},
+    'Hi': {'बिना शराब'},
+    'Sw': {'bila pombe'},
 }
 NON_SPACED = {'Ja', 'Zh', 'Ko'}  # no spaces between words: match anywhere
 # Indic scripts: \w misses vowel signs, so bound words by the script's range.
@@ -128,6 +140,7 @@ def main():
     ap.add_argument('--lang')
     args = ap.parse_args()
     hits = 0
+    english = json.loads((ROOT / 'src/data/recipeTranslations.json').read_text())
     for lang in sorted(TERMS):
         if args.lang and args.lang != lang:
             continue
@@ -135,7 +148,7 @@ def main():
         allow = ALLOW.get(lang, set())
         table = json.loads((ROOT / f'src/data/recipeTranslations{lang}.json').read_text())
         for rid, entry in table.items():
-            if not rid.startswith('w-'):
+            if rid not in english:  # orphaned ids are never shown
                 continue
             for path, text in fields(entry):
                 low = text.lower()

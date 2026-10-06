@@ -146,7 +146,7 @@
     "standardAmount": "3 col. sopa"
    },
    "bk5-6": {
-    "name": "Frios (presunto tipo luncheon) (halal)",
+    "name": "Frios halal (de vaca ou frango)",
     "standardAmount": "1 pedaços"
    },
    "bk5-7": {
@@ -7042,7 +7042,7 @@
  "meat-47": {
   "ingredients": {
    "mp47-1": {
-    "name": "Pernil de vitela",
+    "name": "Perna de vitela",
     "standardAmount": "1 coxa"
    },
    "mp47-2": {
@@ -7071,13 +7071,13 @@
    }
   },
   "instructions": {
-   "1": "Sele o pernil em uma assadeira com óleo ou ghee, junto com anéis de cebola amassados com sal, pimenta, especiarias variadas e canela.",
-   "2": "Espete dentes de alho inteiros no pernil, ou deixe-os ao lado sem espetar.",
-   "3": "Adicione suco de cebola e o vinagre ao pernil.",
+   "1": "Sele a perna em uma assadeira com óleo ou ghee, junto com anéis de cebola amassados com sal, pimenta, especiarias variadas e canela.",
+   "2": "Espete dentes de alho inteiros na perna, ou deixe-os ao lado sem espetar.",
+   "3": "Adicione suco de cebola e o vinagre à perna.",
    "4": "Envolva bem em papel-alumínio dentro da assadeira e despeje um pouco de água ao redor.",
    "5": "Asse no forno, completando com água conforme necessário, até cozinhar completamente."
   },
-  "title": "Pernil de Vitela Assado no Forno"
+  "title": "Perna de Vitela Assada no Forno"
  },
  "meat-48": {
   "ingredients": {
@@ -7113,13 +7113,13 @@
   "instructions": {
    "1": "Bata a cebola no liquidificador com sal, pimenta, alho, tomates e temperos, depois misture o iogurte (ou use qualquer uma das marinadas para forno mencionadas acima).",
    "2": "Faça um corte profundo ao lado do osso e despeje metade da marinada.",
-   "3": "Vire o pernil, adicione o restante da marinada e depois o óleo.",
+   "3": "Vire a perna, adicione o restante da marinada e depois o óleo.",
    "4": "Envolva em papel-alumínio, coloque na assadeira e asse até cozinhar completamente.",
-   "5": "Depois que o pernil estiver pronto, recolha o molho restante em uma panela. Dissolva o amido de milho ou a farinha, na proporção do molho, em um pouco de água, depois misture ao molho em fogo baixo até engrossar um pouco.",
-   "6": "Abra o papel-alumínio e despeje o molho sobre o pernil.",
-   "7": "É possível preparar legumes refogados para servir ao lado do pernil."
+   "5": "Depois que a perna estiver pronta, recolha o molho restante em uma panela. Dissolva o amido de milho ou a farinha, na proporção do molho, em um pouco de água, depois misture ao molho em fogo baixo até engrossar um pouco.",
+   "6": "Abra o papel-alumínio e despeje o molho sobre a perna.",
+   "7": "É possível preparar legumes refogados para servir ao lado da perna."
   },
-  "title": "Outra Receita de Pernil de Vitela Assado com Iogurte e Molho Encorpado"
+  "title": "Outra Receita de Perna de Vitela Assada com Iogurte e Molho Encorpado"
  },
  "meat-49": {
   "ingredients": {
@@ -99222,7 +99222,7 @@
   "culturalNotes": "Sirva a tagine com arroz ou macarrão. Dura 2 dias na geladeira.",
   "ingredients": {
    "fah-067-i1": {
-    "name": "Carne de pernil (mozza)",
+    "name": "Carne de músculo (mozza)",
     "standardAmount": "500 g (½ kg)"
    },
    "fah-067-i2": {
@@ -99451,10 +99451,10 @@
   "prepTime": "20 min",
   "cookTime": "45 min",
   "servings": "6 pessoas",
-  "culturalNotes": "Use cortes adequados como o pernil (sen) para um resultado macio e saboroso. Você pode adicionar um pedaço de osso para um caldo rico e encorpado.",
+  "culturalNotes": "Use cortes adequados como o músculo (sen) para um resultado macio e saboroso. Você pode adicionar um pedaço de osso para um caldo rico e encorpado.",
   "ingredients": {
    "fah-069-i1": {
-    "name": "Pedaços de carne (corte do pernil)",
+    "name": "Pedaços de carne (corte do músculo)",
     "standardAmount": "500 g"
    },
    "fah-069-i2": {
@@ -105174,14 +105174,14 @@
   }
  },
  "fah-134": {
-  "title": "Pernil de Vitela Defumado",
+  "title": "Perna de Vitela Defumada",
   "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
   "category": "Carnes e Aves",
   "cookingMethod": "Fervura Lenta",
   "prepTime": "20 min",
   "cookTime": "45 min",
   "servings": "4 pessoas",
-  "culturalNotes": "Você pode usar pernil de cordeiro em vez de pernil de vitela. Temperar o pernil uma hora antes de cozinhar dá um sabor melhor. O pernil cozido dura 2 dias na geladeira.",
+  "culturalNotes": "Você pode usar perna de cordeiro em vez de perna de vitela. Temperar a perna uma hora antes de cozinhar dá um sabor melhor. A perna cozida dura 2 dias na geladeira.",
   "ingredients": {
    "fah-134-i1": {
     "name": "Canela de vitela",
@@ -105249,13 +105249,13 @@
    }
   },
   "instructions": {
-   "1": "Prepare o pernil: tempere-o com o sal, a pimenta, as sete especiarias e o cardamomo.",
-   "2": "Sele o pernil: coloque o ghee numa panela em fogo médio, depois adicione o pernil e doure-o de todos os lados até ficar dourado.",
+   "1": "Prepare a perna: tempere-a com o sal, a pimenta, as sete especiarias e o cardamomo.",
+   "2": "Sele a perna: coloque o ghee numa panela em fogo médio, depois adicione a perna e doure-a de todos os lados até ficar dourado.",
    "3": "Adicione os vegetais: adicione a cebola, o pimentão, as cenouras e as ervas (alecrim, sálvia, tomilho, folhas de louro).",
    "4": "Adicione a água e o caldo:",
-   "5": "Ferva e cozinhe: adicione a água fervente e o cubo de caldo de galinha, depois tampe a panela e deixe o pernil cozinhando em fogo baixo até pronto.",
-   "6": "Defume: coloque o pernil numa assadeira com um pouco de carvão e óleo, depois coloque-a no forno até pegar um aroma defumado.",
-   "7": "Sirva: sirva o pernil com arroz defumado e castanhas."
+   "5": "Ferva e cozinhe: adicione a água fervente e o cubo de caldo de galinha, depois tampe a panela e deixe a perna cozinhando em fogo baixo até pronto.",
+   "6": "Defume: coloque a perna numa assadeira com um pouco de carvão e óleo, depois coloque-a no forno até pegar um aroma defumado.",
+   "7": "Sirva: sirva a perna com arroz defumado e castanhas."
   }
  },
  "fah-135": {
