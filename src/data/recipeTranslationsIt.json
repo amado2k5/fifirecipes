@@ -105524,7 +105524,7 @@
    },
    "w-ma-001-i4": {
     "name": "agnello macinato",
-    "standardAmount": "600g / 1,2 lb"
+    "standardAmount": "600 g / 1,2 libbre"
    },
    "w-ma-001-i5": {
     "name": "cumino macinato",
@@ -105547,7 +105547,7 @@
     "standardAmount": "1/2 cucchiaino"
    },
    "w-ma-001-i10": {
-    "name": "peperoncino",
+    "name": "pepe di Cayenna",
     "standardAmount": "1/2 cucchiaino"
    },
    "w-ma-001-i11": {
@@ -105559,7 +105559,7 @@
     "standardAmount": "1 1/4 cucchiaini"
    },
    "w-ma-001-i13": {
-    "name": "uva passa",
+    "name": "uvetta di Corinto",
     "standardAmount": "1/3 tazza"
    },
    "w-ma-001-i14": {
@@ -105587,8 +105587,8 @@
     "standardAmount": "30g / 2 cucchiai"
    },
    "w-ma-001-i20": {
-    "name": "sfoglia di fillo",
-    "standardAmount": "12 foglie"
+    "name": "pasta fillo",
+    "standardAmount": "12 fogli"
    },
    "w-ma-001-i21": {
     "name": "burro non salato",
@@ -105688,7 +105688,7 @@
   "chapter": "مطبخ المغرب"
  },
  "w-ma-003": {
-  "title": "Pancake di Semola Marocchina - Beghrir",
+  "title": "Beghrir (pancake marocchini di semola)",
   "ingredients": {
    "w-ma-003-i1": {
     "name": "semola fine",
@@ -105703,7 +105703,7 @@
     "standardAmount": "1 cucchiaio + 1 cucchiaio"
    },
    "w-ma-003-i4": {
-    "name": "lievito istantaneo",
+    "name": "lievito in polvere per dolci",
     "standardAmount": "2 cucchiaini"
    },
    "w-ma-003-i5": {
@@ -105802,7 +105802,7 @@
     "standardAmount": "2,2 libbre"
    },
    "w-ma-005-i2": {
-    "name": "sottile strato di grasso di sottile di pecora",
+    "name": "sottile strato di omento (rete) di pecora",
     "standardAmount": "1,1 libbre"
    },
    "w-ma-005-i3": {
@@ -105837,7 +105837,7 @@
   "chapter": "مطبخ المغرب"
  },
  "w-ma-006": {
-  "title": "Briouat all'arachide",
+  "title": "Briouat alle mandorle",
   "ingredients": {
    "w-ma-006-i1": {
     "name": "mandorle crude intere",
@@ -105848,7 +105848,7 @@
     "standardAmount": "4 tazze (per friggere)"
    },
    "w-ma-006-i3": {
-    "name": "zucchero a velo",
+    "name": "zucchero semolato",
     "standardAmount": "1 3/4 tazza"
    },
    "w-ma-006-i4": {
@@ -106030,8 +106030,8 @@
     "standardAmount": "1/4 tazza"
    },
    "w-ma-009-i2": {
-    "name": "datteri secchi",
-    "standardAmount": "4 tagliati"
+    "name": "albicocche secche",
+    "standardAmount": "4 tagliate"
    },
    "w-ma-009-i3": {
     "name": "acqua",
@@ -106145,7 +106145,7 @@
    },
    "w-ma-011-i4": {
     "name": "lievito in polvere",
-    "standardAmount": "3 cucchiai"
+    "standardAmount": "3 cucchiaini"
    },
    "w-ma-011-i5": {
     "name": "sale",
@@ -106153,11 +106153,11 @@
    },
    "w-ma-011-i6": {
     "name": "semi di sesamo",
-    "standardAmount": "2 cucchiai"
+    "standardAmount": "2 cucchiaini"
    },
    "w-ma-011-i7": {
     "name": "semi di anice",
-    "standardAmount": "1 cucchiaio"
+    "standardAmount": "1 cucchiaino"
    },
    "w-ma-011-i8": {
     "name": "uvetta",
@@ -106165,7 +106165,7 @@
    },
    "w-ma-011-i9": {
     "name": "vaniglia",
-    "standardAmount": "2 cucchiai"
+    "standardAmount": "2 cucchiaini"
    },
    "w-ma-011-i10": {
     "name": "uova",
@@ -106236,7 +106236,7 @@
     "standardAmount": "1 costa"
    },
    "w-ma-012-i9": {
-    "name": "prezzemolo fogliame piatto, tritato finemente",
+    "name": "prezzemolo a foglia piatta, tritato finemente",
     "standardAmount": "1 mazzetto piccolo"
    },
    "w-ma-012-i10": {
@@ -106438,8 +106438,8 @@
   "title": "M'rouzia",
   "ingredients": {
    "w-ma-016-i1": {
-    "name": "Agnello spellato",
-    "standardAmount": "1 kg"
+    "name": "Agnello rifilato",
+    "standardAmount": "2,2 libbre"
    },
    "w-ma-016-i2": {
     "name": "Ras-el-hanout per Mrouzia",
@@ -106483,7 +106483,7 @@
    },
    "w-ma-016-i12": {
     "name": "Uva passa scura",
-    "standardAmount": "500 g"
+    "standardAmount": "1,1 libbre"
    },
    "w-ma-016-i13": {
     "name": "Ras el Hanout (miscela Mrouzia)",
@@ -106499,7 +106499,7 @@
    },
    "w-ma-016-i16": {
     "name": "Mandorle sbiancate",
-    "standardAmount": "150 g"
+    "standardAmount": "5,2 once"
    }
   },
   "instructions": {
@@ -106519,11 +106519,11 @@
   "ingredients": {
    "w-ma-017-i1": {
     "name": "farina bianca",
-    "standardAmount": "850 g"
+    "standardAmount": "3 1/2 tazze"
    },
    "w-ma-017-i2": {
     "name": "semola fine o farina di grano duro",
-    "standardAmount": "125 g"
+    "standardAmount": "1/2 tazza"
    },
    "w-ma-017-i3": {
     "name": "zucchero",
@@ -106539,19 +106539,19 @@
    },
    "w-ma-017-i6": {
     "name": "acqua calda",
-    "standardAmount": "375 ml"
+    "standardAmount": "1 1/2 tazze"
    },
    "w-ma-017-i7": {
     "name": "olio vegetale",
-    "standardAmount": "250 ml (più se necessario)"
+    "standardAmount": "1 tazza (più se necessario)"
    },
    "w-ma-017-i8": {
     "name": "semola fine",
-    "standardAmount": "125 g (puoi usare una granulometria più grossa se preferisci)"
+    "standardAmount": "1/2 tazza (puoi usare una granulometria più grossa se preferisci)"
    },
    "w-ma-017-i9": {
     "name": "burro non salato molto morbido",
-    "standardAmount": "60 g (più se necessario)"
+    "standardAmount": "1/4 tazza (più se necessario)"
    }
   },
   "instructions": {
@@ -106588,7 +106588,7 @@
     "standardAmount": "2 (tritate finemente)"
    },
    "w-ma-018-i5": {
-    "name": "aglici",
+    "name": "spicchi d'aglio",
     "standardAmount": "2 (tritati finemente)"
    },
    "w-ma-018-i6": {
@@ -106609,7 +106609,7 @@
    },
    "w-ma-018-i10": {
     "name": "brodo di pollo",
-    "standardAmount": "500 ml"
+    "standardAmount": "2 tazze"
    },
    "w-ma-018-i11": {
     "name": "uova",
@@ -106617,11 +106617,11 @@
    },
    "w-ma-018-i12": {
     "name": "mandorle macinate",
-    "standardAmount": "125 g"
+    "standardAmount": "1/2 tazza"
    },
    "w-ma-018-i13": {
     "name": "datteri secchi",
-    "standardAmount": "60 g (tritati finemente)"
+    "standardAmount": "1/4 tazza (tritati finemente)"
    },
    "w-ma-018-i14": {
     "name": "acqua di fiori d'arancio",
@@ -106645,7 +106645,7 @@
    },
    "w-ma-018-i19": {
     "name": "burro fuso",
-    "standardAmount": "125 ml"
+    "standardAmount": "1/2 tazza"
    },
    "w-ma-018-i20": {
     "name": "zucchero a velo",
@@ -106689,11 +106689,11 @@
   "ingredients": {
    "w-ma-020-i1": {
     "name": "pollo intero",
-    "standardAmount": "2 kg"
+    "standardAmount": "2 kg / 4,5 libbre"
    },
    "w-ma-020-i2": {
     "name": "cipolle",
-    "standardAmount": "450 g"
+    "standardAmount": "1 libbra"
    },
    "w-ma-020-i3": {
     "name": "ras el hanout",
@@ -106725,7 +106725,7 @@
    },
    "w-ma-020-i10": {
     "name": "olio d'oliva",
-    "standardAmount": "125 ml"
+    "standardAmount": "1/2 tazza"
    },
    "w-ma-020-i11": {
     "name": "pomodori",
@@ -106765,7 +106765,7 @@
    },
    "w-ma-020-i20": {
     "name": "lenticchie",
-    "standardAmount": "60 g (setacciate e sciacquate)"
+    "standardAmount": "1/4 tazza (mondate e sciacquate)"
    },
    "w-ma-020-i21": {
     "name": "smen",
@@ -106777,7 +106777,7 @@
    },
    "w-ma-020-i23": {
     "name": "mandorle fritte",
-    "standardAmount": "125 g (macinate grossolanamente)"
+    "standardAmount": "1/2 tazza (macinate grossolanamente)"
    },
    "w-ma-020-i24": {
     "name": "datteri",
@@ -106807,7 +106807,7 @@
   "ingredients": {
    "w-ma-021-i1": {
     "name": "vermicelli spezzato",
-    "standardAmount": "1 kg"
+    "standardAmount": "2,2 libbre"
    },
    "w-ma-021-i2": {
     "name": "olio vegetale o d'oliva",
@@ -106823,11 +106823,11 @@
    },
    "w-ma-021-i5": {
     "name": "zucchero a velo",
-    "standardAmount": "125 ml"
+    "standardAmount": "1/2 tazza"
    },
    "w-ma-021-i6": {
     "name": "uva passa",
-    "standardAmount": "250 ml"
+    "standardAmount": "1 tazza"
    },
    "w-ma-021-i7": {
     "name": "pollo intero",
@@ -106850,7 +106850,7 @@
     "standardAmount": "1/2 cucchiaino"
    },
    "w-ma-021-i12": {
-    "name": "chiodi di garofano",
+    "name": "stecche di cannella",
     "standardAmount": "2 pezzi piccoli"
    },
    "w-ma-021-i13": {
@@ -106867,19 +106867,19 @@
    },
    "w-ma-021-i16": {
     "name": "olio d'oliva",
-    "standardAmount": "60 ml"
+    "standardAmount": "1/4 tazza"
    },
    "w-ma-021-i17": {
     "name": "coriandolo fresco tritato",
-    "standardAmount": "60 ml"
+    "standardAmount": "1/4 tazza"
    },
    "w-ma-021-i18": {
-    "name": "mandorle tostate e macinate",
-    "standardAmount": "250 ml"
+    "name": "mandorle fritte e macinate",
+    "standardAmount": "1 tazza"
    },
    "w-ma-021-i19": {
     "name": "zucchero a velo",
-    "standardAmount": "250 ml"
+    "standardAmount": "1 tazza"
    },
    "w-ma-021-i20": {
     "name": "cannella in polvere",
@@ -106910,19 +106910,19 @@
   "ingredients": {
    "w-ma-022-i1": {
     "name": "mandorle grezze intere",
-    "standardAmount": "1 kg"
+    "standardAmount": "2,2 libbre"
    },
    "w-ma-022-i2": {
     "name": "semi di sesamo non sbucciati",
-    "standardAmount": "1 kg"
+    "standardAmount": "2,2 libbre"
    },
    "w-ma-022-i3": {
     "name": "farina per tutti gli usi",
-    "standardAmount": "1 kg"
+    "standardAmount": "2,2 libbre"
    },
    "w-ma-022-i4": {
     "name": "zucchero a velo",
-    "standardAmount": "560 ml"
+    "standardAmount": "2 1/4 tazze"
    },
    "w-ma-022-i5": {
     "name": "cannella in polvere",
@@ -106942,7 +106942,7 @@
    },
    "w-ma-022-i9": {
     "name": "burro non salato",
-    "standardAmount": "450 g"
+    "standardAmount": "1 libbra"
    },
    "w-ma-022-i10": {
     "name": "olio vegetale",
@@ -106983,11 +106983,11 @@
    },
    "w-ma-023-i5": {
     "name": "olio d'oliva",
-    "standardAmount": "80 ml"
+    "standardAmount": "1/3 tazza"
    },
    "w-ma-023-i6": {
     "name": "pomodoro",
-    "standardAmount": "790 g (1 lattina, pelato)"
+    "standardAmount": "28 once (1 lattina, pelati)"
    },
    "w-ma-023-i7": {
     "name": "paprika",
@@ -107003,7 +107003,7 @@
    },
    "w-ma-023-i10": {
     "name": "uovo",
-    "standardAmount": "a piacere (per la bollitura)"
+    "standardAmount": "a piacere (da cuocere in camicia)"
    },
    "w-ma-023-i11": {
     "name": "pane",
@@ -107044,23 +107044,23 @@
    },
    "w-ma-024-i5": {
     "name": "zenzero",
-    "standardAmount": "2,5 cm (finemente tritato)"
+    "standardAmount": "1 pollice (tritato finemente)"
    },
    "w-ma-024-i6": {
     "name": "filamenti di zafferano",
     "standardAmount": "1 pizzico"
    },
    "w-ma-024-i7": {
-    "name": "chiodi di garofano",
-    "standardAmount": "2 bastoncini"
+    "name": "stecche di cannella",
+    "standardAmount": "2 stecche"
    },
    "w-ma-024-i8": {
     "name": "semi di coriandolo",
-    "standardAmount": "2 cucchiai (schiacciati)"
+    "standardAmount": "2 cucchiaini (schiacciati)"
    },
    "w-ma-024-i9": {
     "name": "agnello",
-    "standardAmount": "450 g (dalla spalla, coscia o costine, tagliato a pezzi)"
+    "standardAmount": "1 libbra (dalla spalla, dalla coscia o dallo stinco, a cubetti)"
    },
    "w-ma-024-i10": {
     "name": "prugne",
@@ -107104,27 +107104,27 @@
   "chapter": "مطبخ المغرب"
  },
  "w-ma-025": {
-  "title": "Fegato Ripieno Marocchino",
+  "title": "Milza ripiena marocchina",
   "ingredients": {
    "w-ma-025-i1": {
-    "name": "fegato di vitello o manzo",
+    "name": "milza di vitello o di manzo",
     "standardAmount": "1 pezzo"
    },
    "w-ma-025-i2": {
     "name": "carne macinata di manzo o agnello",
-    "standardAmount": "510 g"
+    "standardAmount": "18 once"
    },
    "w-ma-025-i3": {
     "name": "grasso di manzo tritato",
-    "standardAmount": "225 g"
+    "standardAmount": "8 once"
    },
    "w-ma-025-i4": {
     "name": "riso cotto",
-    "standardAmount": "240-360 ml"
+    "standardAmount": "1-1,5 tazze"
    },
    "w-ma-025-i5": {
     "name": "olive verdi snocciolate, tritate",
-    "standardAmount": "120 ml"
+    "standardAmount": "1/2 tazza"
    },
    "w-ma-025-i6": {
     "name": "limoni conservati",
@@ -107262,7 +107262,7 @@
     "standardAmount": "1/4 tazza"
    },
    "w-jp-001-i2": {
-    "name": "zucchero a velo",
+    "name": "zucchero semolato fine",
     "standardAmount": "1/4 tazza"
    },
    "w-jp-001-i3": {
@@ -107275,7 +107275,7 @@
    },
    "w-jp-001-i5": {
     "name": "acqua bollente",
-    "standardAmount": "2 cucchiai + 2 pizzichi"
+    "standardAmount": "2 cucchiai + 2 cucchiaini"
    },
    "w-jp-001-i6": {
     "name": "latte",
@@ -107316,7 +107316,7 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-002": {
-  "title": "Rotolo della California",
+  "title": "California roll (sushi)",
   "ingredients": {
    "w-jp-002-i1": {
     "name": "Riso per sushi",
@@ -107335,7 +107335,7 @@
     "standardAmount": "2 cucchiaini"
    },
    "w-jp-002-i5": {
-    "name": "Fettina di kelp kombu",
+    "name": "alga kombu",
     "standardAmount": "1 pezzo"
    },
    "w-jp-002-i6": {
@@ -107343,11 +107343,11 @@
     "standardAmount": "1,8 tazze"
    },
    "w-jp-002-i7": {
-    "name": "Foglie di alga nori",
-    "standardAmount": "5 foglie"
+    "name": "fogli di alga nori",
+    "standardAmount": "5 fogli"
    },
    "w-jp-002-i8": {
-    "name": "Mozzarella di granchio (kanikama)",
+    "name": "bastoncini di surimi di granchio (kanikama)",
     "standardAmount": "6 pezzi"
    },
    "w-jp-002-i9": {
@@ -107416,7 +107416,7 @@
     "standardAmount": "30 g"
    },
    "w-jp-003-i8": {
-    "name": "Breadcrumbs",
+    "name": "Pangrattato",
     "standardAmount": "1 tazza"
    },
    "w-jp-003-i9": {
@@ -107488,7 +107488,7 @@
     "standardAmount": "~½ tazza"
    },
    "w-jp-004-i2": {
-    "name": "farina glutinosa dolce",
+    "name": "farina di riso glutinoso dolce",
     "standardAmount": "1 tazza"
    },
    "w-jp-004-i3": {
@@ -107571,11 +107571,11 @@
   "ingredients": {
    "w-jp-006-i1": {
     "name": "Kombu secco",
-    "standardAmount": "0,5 oz"
+    "standardAmount": "0,5 oncia"
    },
    "w-jp-006-i2": {
-    "name": "Foglie di katsuo (bonito)",
-    "standardAmount": "0,5 oz"
+    "name": "Scaglie di tonnetto essiccato (katsuobushi)",
+    "standardAmount": "0,5 oncia"
    },
    "w-jp-006-i3": {
     "name": "Acqua",
@@ -107599,7 +107599,7 @@
   "ingredients": {
    "w-jp-007-i1": {
     "name": "crema di fagioli rossi dolci (anko)",
-    "standardAmount": "17,6 oz"
+    "standardAmount": "17,6 once"
    },
    "w-jp-007-i2": {
     "name": "uova grandi",
@@ -107667,7 +107667,7 @@
     "standardAmount": "3 cucchiai"
    },
    "w-jp-008-i5": {
-    "name": "polvere di brodo di alga kelp",
+    "name": "dashi di alga kombu in polvere",
     "standardAmount": "1/2 cucchiaino"
    }
   },
@@ -107701,7 +107701,7 @@
     "standardAmount": "2"
    },
    "w-jp-009-i4": {
-    "name": "Zucchero a velo",
+    "name": "Zucchero semolato fine",
     "standardAmount": "75 g"
    },
    "w-jp-009-i5": {
@@ -107728,7 +107728,7 @@
   "title": "Gyudon Bento",
   "ingredients": {
    "w-jp-010-i1": {
-    "name": "riso giapponese breve e farinoso cotto",
+    "name": "riso giapponese a chicco corto cotto",
     "standardAmount": "1,5 tazze"
    },
    "w-jp-010-i2": {
@@ -107777,8 +107777,8 @@
     "standardAmount": "4 (113 g)"
    },
    "w-jp-011-i3": {
-    "name": "carne affettata sottile",
-    "standardAmount": "10 oz"
+    "name": "manzo affettato sottile",
+    "standardAmount": "10 once"
    },
    "w-jp-011-i4": {
     "name": "burro non salato",
@@ -107801,7 +107801,7 @@
     "standardAmount": "½ confezione (80 g)"
    },
    "w-jp-011-i9": {
-    "name": "riso giapponese breve e farinoso cotto",
+    "name": "riso giapponese a chicco corto cotto",
     "standardAmount": "4 porzioni"
    }
   },
@@ -107841,16 +107841,16 @@
     "standardAmount": "2 tazze"
    },
    "w-jp-012-i6": {
-    "name": "lievito istantaneo",
+    "name": "lievito in polvere per dolci",
     "standardAmount": "2 cucchiaini"
    },
    "w-jp-012-i7": {
     "name": "pasta di fagioli dolci (anko)",
-    "standardAmount": "14 oz"
+    "standardAmount": "14 once"
    },
    "w-jp-012-i8": {
     "name": "olio neutro",
-    "standardAmount": "1 cucchiaio (per imburrare la padella)"
+    "standardAmount": "1 cucchiaio (per ungere la padella)"
    }
   },
   "instructions": {
@@ -107878,7 +107878,7 @@
     "standardAmount": "5g"
    },
    "w-jp-013-i3": {
-    "name": "zucchero a velo",
+    "name": "zucchero semolato fine",
     "standardAmount": "30g"
    },
    "w-jp-013-i4": {
@@ -107928,11 +107928,11 @@
    },
    "w-jp-014-i2": {
     "name": "cipollotti",
-    "standardAmount": "2 cipollotti/scalogni"
+    "standardAmount": "2 cipollotti"
    },
    "w-jp-014-i3": {
-    "name": "tofu medio-fresco",
-    "standardAmount": "3,5 oz (¼ blocco)"
+    "name": "tofu medio-sodo",
+    "standardAmount": "3,5 once (¼ di panetto)"
    },
    "w-jp-014-i4": {
     "name": "alga wakame secca",
@@ -107964,7 +107964,7 @@
    },
    "w-jp-014-i11": {
     "name": "noodles di vetro secchi",
-    "standardAmount": "1 oz"
+    "standardAmount": "1 oncia"
    },
    "w-jp-014-i12": {
     "name": "semi di sesamo bianco tostati",
@@ -108053,14 +108053,14 @@
    },
    "w-jp-016-i9": {
     "name": "pomodorini ciliegia",
-    "standardAmount": "6 tagliati a metà"
+    "standardAmount": "6 (in quarti)"
    },
    "w-jp-016-i10": {
     "name": "cipolla rossa",
     "standardAmount": "2 cucchiai affettata"
    },
    "w-jp-016-i11": {
-    "name": "petto di pollo",
+    "name": "filetto di coscia di pollo",
     "standardAmount": "1 karaage"
    },
    "w-jp-016-i12": {
@@ -108129,7 +108129,7 @@
     "standardAmount": "1 cucchiaio"
    },
    "w-jp-017-i11": {
-    "name": "Breadcrumbs giapponesi panko",
+    "name": "Pangrattato giapponese panko",
     "standardAmount": "2 tazze"
    }
   },
@@ -108236,7 +108236,7 @@
    },
    "w-jp-020-i2": {
     "name": "polvere di dashi",
-    "standardAmount": "1 cucchiaio"
+    "standardAmount": "1 cucchiaino"
    },
    "w-jp-020-i3": {
     "name": "pasta di miso",
@@ -108266,11 +108266,11 @@
   "ingredients": {
    "w-jp-021-i1": {
     "name": "farina per pasticceria",
-    "standardAmount": "2 cucchiai + 1 tè"
+    "standardAmount": "2 cucchiai + 1 cucchiaino"
    },
    "w-jp-021-i2": {
     "name": "granuli di dashi di kombu",
-    "standardAmount": "1 tè"
+    "standardAmount": "1 cucchiaino"
    },
    "w-jp-021-i3": {
     "name": "salsa Tonkatsu Vegetale e Fruttata Bull Dog",
@@ -108282,11 +108282,11 @@
    },
    "w-jp-021-i5": {
     "name": "sale",
-    "standardAmount": "1/8 tè"
+    "standardAmount": "1/8 cucchiaino"
    },
    "w-jp-021-i6": {
     "name": "pepe",
-    "standardAmount": "1/8 tè"
+    "standardAmount": "1/8 cucchiaino"
    },
    "w-jp-021-i7": {
     "name": "cavolo cappuccio",
@@ -108333,7 +108333,7 @@
     "standardAmount": "a piacere"
    },
    "w-jp-021-i18": {
-    "name": "ramen per bambini Vegetable baby star o qualsiasi snack di ramen",
+    "name": "snack di ramen Baby Star alle verdure o altro snack di ramen",
     "standardAmount": "a piacere"
    }
   },
@@ -108360,7 +108360,7 @@
    },
    "w-jp-022-i3": {
     "name": "sale marino",
-    "standardAmount": "1 cucchiaio"
+    "standardAmount": "1 cucchiaino"
    },
    "w-jp-022-i4": {
     "name": "aceto di riso",
@@ -108372,7 +108372,7 @@
    },
    "w-jp-022-i6": {
     "name": "semi di sesamo tostati",
-    "standardAmount": "1 cucchiaio"
+    "standardAmount": "1 cucchiaino"
    }
   },
   "instructions": {
@@ -108401,7 +108401,7 @@
    },
    "w-jp-023-i3": {
     "name": "polvere di dashi",
-    "standardAmount": "1/2 cucchiaio"
+    "standardAmount": "1/2 cucchiaino"
    },
    "w-jp-023-i4": {
     "name": "olio vegetale",
@@ -108420,11 +108420,11 @@
     "standardAmount": "15 g"
    },
    "w-jp-023-i8": {
-    "name": "fagioli germogliati",
+    "name": "germogli di soia",
     "standardAmount": "50 g"
    },
    "w-jp-023-i9": {
-    "name": "crispi di tempura",
+    "name": "briciole di tempura",
     "standardAmount": "2 cucchiai"
    },
    "w-jp-023-i10": {
@@ -108526,7 +108526,7 @@
   "title": "Onigiri",
   "ingredients": {
    "w-jp-025-i1": {
-    "name": "riso breve di tipo giapponese",
+    "name": "riso giapponese a chicco corto",
     "standardAmount": "100 ml (½ tazza) crudo"
    },
    "w-jp-025-i2": {
@@ -108542,7 +108542,7 @@
     "standardAmount": "secondo il gusto"
    },
    "w-jp-025-i5": {
-    "name": "cipollotti tritati",
+    "name": "porri tritati",
     "standardAmount": "secondo il gusto"
    },
    "w-jp-025-i6": {
@@ -108554,7 +108554,7 @@
     "standardAmount": "secondo il gusto"
    },
    "w-jp-025-i8": {
-    "name": "salmoncino cotto",
+    "name": "salmone cotto",
     "standardAmount": "secondo il gusto"
    },
    "w-jp-025-i9": {
@@ -108583,7 +108583,7 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-026": {
-  "title": "Zuppa di cavolo e uovo poached (onsen tamago) con miso",
+  "title": "Zuppa di miso con cavolo e uovo onsen (onsen tamago)",
   "ingredients": {
    "w-jp-026-i1": {
     "name": "cipolla gialla",
@@ -108638,11 +108638,11 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-027": {
-  "title": "Somen freddi con limone sudachi",
+  "title": "Somen freddi con agrume sudachi",
   "ingredients": {
    "w-jp-027-i1": {
     "name": "sudachi",
-    "standardAmount": "5 (o 2-3 limoni)"
+    "standardAmount": "5 (o 2-3 lime)"
    },
    "w-jp-027-i2": {
     "name": "dashi bianco",
@@ -108650,7 +108650,7 @@
    },
    "w-jp-027-i3": {
     "name": "somen secchi",
-    "standardAmount": "4 fasci (7 oz, 200 g)"
+    "standardAmount": "4 matasse (7 once, 200 g)"
    }
   },
   "instructions": {
@@ -108676,7 +108676,7 @@
    },
    "w-jp-028-i3": {
     "name": "cacao in polvere",
-    "standardAmount": "1 cucchiaio + 1 pizzico (10 g)"
+    "standardAmount": "1 cucchiaio + 1 cucchiaino (10 g)"
    },
    "w-jp-028-i4": {
     "name": "latte in polvere magro",
@@ -108735,11 +108735,11 @@
   "title": "Sashimi giapponese",
   "ingredients": {
    "w-jp-029-i1": {
-    "name": "salmon sashimi",
+    "name": "salmone da sashimi",
     "standardAmount": "1/2 libbra"
    },
    "w-jp-029-i2": {
-    "name": "tonno sashimi",
+    "name": "tonno da sashimi",
     "standardAmount": "1/2 libbra"
    },
    "w-jp-029-i3": {
@@ -108781,11 +108781,11 @@
    },
    "w-jp-030-i2": {
     "name": "Crema di fagioli rossi dolci (Anko)",
-    "standardAmount": "200 g"
+    "standardAmount": "7 once"
    },
    "w-jp-030-i3": {
     "name": "Acqua",
-    "standardAmount": "200 ml (divisi)"
+    "standardAmount": "7 once fluide (divise)"
    },
    "w-jp-030-i4": {
     "name": "Sale kosher (opzionale)",
@@ -108841,7 +108841,7 @@
    },
    "w-jp-032-i2": {
     "name": "acqua",
-    "standardAmount": "2,8 litri"
+    "standardAmount": "12 tazze"
    },
    "w-jp-032-i3": {
     "name": "olio vegetale",
@@ -108878,7 +108878,7 @@
    },
    "w-jp-034-i4": {
     "name": "polpo cotto",
-    "standardAmount": "50 g"
+    "standardAmount": "1,8 once"
    },
    "w-jp-034-i5": {
     "name": "cipollotti tritati finemente",
@@ -108889,7 +108889,7 @@
     "standardAmount": "1/4 tazza"
    },
    "w-jp-034-i7": {
-    "name": "germe di zenzero rosso sottaceto",
+    "name": "zenzero rosso sottaceto (beni shoga)",
     "standardAmount": "2 cucchiai"
    },
    "w-jp-034-i8": {
@@ -108901,11 +108901,11 @@
     "standardAmount": "1 cucchiaio"
    },
    "w-jp-034-i10": {
-    "name": "paprika di alghe",
+    "name": "scaglie di alghe",
     "standardAmount": "1 cucchiaio"
    },
    "w-jp-034-i11": {
-    "name": "foglie di bonito",
+    "name": "scaglie di bonito",
     "standardAmount": "2 cucchiai"
    }
   },
@@ -109005,10 +109005,10 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-037": {
-  "title": "Tuna Tataki",
+  "title": "Tataki di tonno",
   "ingredients": {
    "w-jp-037-i1": {
-    "name": "cipolla verde/scallio",
+    "name": "cipollotto",
     "standardAmount": "1 (1 cucchiaio, tritato)"
    },
    "w-jp-037-i2": {
@@ -109112,7 +109112,7 @@
   "title": "Buri Teriyaki",
   "ingredients": {
    "w-jp-039-i1": {
-    "name": "filetto di pesce arancione",
+    "name": "filetto di ricciola",
     "standardAmount": "150 g"
    },
    "w-jp-039-i2": {
@@ -109128,11 +109128,11 @@
     "standardAmount": "1 foglia"
    },
    "w-jp-039-i5": {
-    "name": "radice di daikon",
+    "name": "ravanello marinato in amazu",
     "standardAmount": "1 radice"
    },
    "w-jp-039-i6": {
-    "name": "Kikka Kabu (radice di crisantemo)",
+    "name": "Kikka kabu (rapa a crisantemo)",
     "standardAmount": "1 mazzetto"
    },
    "w-jp-039-i7": {
@@ -109191,14 +109191,14 @@
   "chapter": "مطبخ اليابان"
  },
  "w-jp-042": {
-  "title": "Tsukemono-Nukazuke (Sottaceti con farina di riso tostata)",
+  "title": "Tsukemono-Nukazuke (sottaceti nella crusca di riso)",
   "ingredients": {
    "w-jp-042-i1": {
     "name": "acqua",
     "standardAmount": "800 ml"
    },
    "w-jp-042-i2": {
-    "name": "farina di riso tostata",
+    "name": "crusca di riso tostata",
     "standardAmount": "800 g"
    },
    "w-jp-042-i3": {
@@ -109206,11 +109206,11 @@
     "standardAmount": "80 g"
    },
    "w-jp-042-i4": {
-    "name": "miscela di farina di riso matura",
+    "name": "miscela di crusca di riso maturata",
     "standardAmount": "250 g (opzionale)"
    },
    "w-jp-042-i5": {
-    "name": "alga kelp",
+    "name": "alga kombu",
     "standardAmount": "pezzo di 5 cm (2 pollici)"
    },
    "w-jp-042-i6": {
@@ -109299,7 +109299,7 @@
   "title": "Umeboshi Onigiri (Palline di riso con prugna acida)",
   "ingredients": {
    "w-jp-044-i1": {
-    "name": "riso per sushi",
+    "name": "riso a chicco corto",
     "standardAmount": "180 g"
    },
    "w-jp-044-i2": {
@@ -109390,7 +109390,7 @@
     "standardAmount": "1,5 libbre"
    },
    "w-mx-002-i2": {
-    "name": "succo di limone appena spremuto",
+    "name": "succo di lime appena spremuto",
     "standardAmount": "1 tazza"
    },
    "w-mx-002-i3": {
@@ -109418,7 +109418,7 @@
     "standardAmount": "3 spicchi"
    },
    "w-mx-002-i9": {
-    "name": "sugo Maggi per condire",
+    "name": "condimento Jugo Maggi",
     "standardAmount": "1 cucchiaino"
    },
    "w-mx-002-i10": {
@@ -109534,7 +109534,7 @@
     "standardAmount": "a piacere"
    },
    "w-mx-004-i8": {
-    "name": "succo di limone o arancia",
+    "name": "succo di lime o di limone",
     "standardAmount": "qualche goccia"
    },
    "w-mx-004-i9": {
@@ -109564,7 +109564,7 @@
   "ingredients": {
    "w-mx-005-i1": {
     "name": "cipolla spagnola",
-    "standardAmount": "1 cipolla (tagliata a metà)"
+    "standardAmount": "1 cipolla (tagliata in quarti)"
    },
    "w-mx-005-i2": {
     "name": "tomatillos",
@@ -109572,7 +109572,7 @@
    },
    "w-mx-005-i3": {
     "name": "pomodori",
-    "standardAmount": "2 pomodori (tagliati a metà)"
+    "standardAmount": "2 pomodori (tagliati in quarti)"
    },
    "w-mx-005-i4": {
     "name": "spicchi d'aglio",
@@ -109623,7 +109623,7 @@
     "standardAmount": "a piacere"
    },
    "w-mx-005-i16": {
-    "name": "spicchi di limone",
+    "name": "spicchi di lime",
     "standardAmount": "a piacere"
    }
   },
@@ -109856,7 +109856,7 @@
     "standardAmount": "2 tazze tagliati"
    },
    "w-mx-009-i13": {
-    "name": "fagioli da ceci",
+    "name": "ceci",
     "standardAmount": "1 (15 once) lattina, scolati e risciacquati"
    },
    "w-mx-009-i14": {
@@ -109865,7 +109865,7 @@
    },
    "w-mx-009-i15": {
     "name": "coriandolo",
-    "standardAmount": "4 mazzetti"
+    "standardAmount": "4 rametti"
    },
    "w-mx-009-i16": {
     "name": "queso fresco",
@@ -109951,7 +109951,7 @@
     "standardAmount": "4 (arrostiti, sbucciati, tagliati a strisce)"
    },
    "w-mx-011-i4": {
-    "name": "bistecca di fesa",
+    "name": "diaframma di manzo (skirt steak)",
     "standardAmount": "1 libbra"
    },
    "w-mx-011-i5": {
@@ -110141,7 +110141,7 @@
     "standardAmount": "½ cipolla bianca media"
    },
    "w-mx-014-i9": {
-    "name": "carne macinata",
+    "name": "carne macinata di manzo",
     "standardAmount": "1 libbra"
    },
    "w-mx-014-i10": {
@@ -110157,7 +110157,7 @@
     "standardAmount": "quanto basta"
    },
    "w-mx-014-i13": {
-    "name": "insalata lattuga tagliata",
+    "name": "lattuga sminuzzata (opzionale)",
     "standardAmount": "quanto basta"
    },
    "w-mx-014-i14": {
@@ -110208,7 +110208,7 @@
     "standardAmount": "1 tazza"
    },
    "w-mx-015-i7": {
-    "name": "canne di caramello di tamarindo",
+    "name": "cannucce di caramella al tamarindo",
     "standardAmount": "a piacere"
    }
   },
@@ -110228,27 +110228,27 @@
   "ingredients": {
    "w-mx-016-i1": {
     "name": "cosce di pollo",
-    "standardAmount": "450 g"
+    "standardAmount": "1 libbra"
    },
    "w-mx-016-i2": {
     "name": "aglio",
     "standardAmount": "4 spicchi"
    },
    "w-mx-016-i3": {
-    "name": "bambù limone",
+    "name": "citronella",
     "standardAmount": "1 pezzo (opzionale)"
    },
    "w-mx-016-i4": {
     "name": "acqua",
-    "standardAmount": "1 litro"
+    "standardAmount": "4 tazze"
    },
    "w-mx-016-i5": {
-    "name": "lima in salamoia",
+    "name": "lime in salamoia",
     "standardAmount": "1 (affettata)"
    },
    "w-mx-016-i6": {
     "name": "cipolla verde",
-    "standardAmount": "240 ml (affettata)"
+    "standardAmount": "1 tazza (affettata)"
    },
    "w-mx-016-i7": {
     "name": "sale e pepe",
@@ -110269,7 +110269,7 @@
   "ingredients": {
    "w-mx-017-i1": {
     "name": "tomatillos",
-    "standardAmount": "240 ml"
+    "standardAmount": "1 tazza"
    },
    "w-mx-017-i2": {
     "name": "chili secchi de árbol",
@@ -110281,7 +110281,7 @@
    },
    "w-mx-017-i4": {
     "name": "acqua",
-    "standardAmount": "120 ml"
+    "standardAmount": "½ tazza"
    },
    "w-mx-017-i5": {
     "name": "sale",
@@ -110306,12 +110306,12 @@
   "title": "Chimichanga",
   "ingredients": {
    "w-mx-018-i1": {
-    "name": "costa di manzo o di flanco",
-    "standardAmount": "680 g"
+    "name": "diaframma o fianco di manzo",
+    "standardAmount": "1 1/2 libbre"
    },
    "w-mx-018-i2": {
     "name": "cipolla bianca",
-    "standardAmount": "60 ml"
+    "standardAmount": "1/4 tazza"
    },
    "w-mx-018-i3": {
     "name": "spicchi d'aglio",
@@ -110323,7 +110323,7 @@
    },
    "w-mx-018-i5": {
     "name": "patate bianche o di Yukon",
-    "standardAmount": "680 g"
+    "standardAmount": "1 1/2 libbre"
    },
    "w-mx-018-i6": {
     "name": "polvere d'aglio",
@@ -110343,31 +110343,31 @@
    },
    "w-mx-018-i10": {
     "name": "olio vegetale",
-    "standardAmount": "360 ml"
+    "standardAmount": "1 1/2 tazze"
    },
    "w-mx-018-i11": {
     "name": "lattuga iceberg finemente sminuzzata",
-    "standardAmount": "720 ml"
+    "standardAmount": "3 tazze"
    },
    "w-mx-018-i12": {
     "name": "cipolla bianca finemente tritata",
-    "standardAmount": "120 ml"
+    "standardAmount": "1/2 tazza"
    },
    "w-mx-018-i13": {
     "name": "pomodori finemente tritati",
-    "standardAmount": "240 ml"
+    "standardAmount": "1 tazza"
    },
    "w-mx-018-i14": {
     "name": "maionese (opzionale)",
-    "standardAmount": "80 ml"
+    "standardAmount": "1/3 tazza"
    },
    "w-mx-018-i15": {
     "name": "crema messicana",
-    "standardAmount": "120 ml"
+    "standardAmount": "1/2 tazza"
    },
    "w-mx-018-i16": {
     "name": "queso fresco sbriciolato o formaggio panela grattugiato",
-    "standardAmount": "240 ml"
+    "standardAmount": "1 tazza"
    }
   },
   "instructions": {
@@ -110566,7 +110566,7 @@
   "chapter": "مطبخ المكسيك"
  },
  "w-mx-024": {
-  "title": "Curtido (Insalata di Cavo)",
+  "title": "Curtido (insalata di cavolo)",
   "ingredients": {
    "w-mx-024-i1": {
     "name": "cavolo",
@@ -110582,7 +110582,7 @@
    },
    "w-mx-024-i4": {
     "name": "acqua bollente",
-    "standardAmount": "1 litro"
+    "standardAmount": "1 quarto"
    },
    "w-mx-024-i5": {
     "name": "aceto bianco",
@@ -110593,11 +110593,11 @@
     "standardAmount": "1/2 tazza"
    },
    "w-mx-024-i7": {
-    "name": "origano messicano secco",
+    "name": "origano",
     "standardAmount": "2 cucchiaini"
    },
    "w-mx-024-i8": {
-    "name": "peperoncino rosso in polvere",
+    "name": "peperoncino rosso in fiocchi",
     "standardAmount": "1 cucchiaino (opzionale)"
    }
   },
@@ -110773,7 +110773,7 @@
     "standardAmount": "2"
    },
    "w-mx-028-i5": {
-    "name": "succo di limone",
+    "name": "succo di lime",
     "standardAmount": "a piacere"
    },
    "w-mx-028-i6": {
@@ -110932,7 +110932,7 @@
     "standardAmount": "2 cucchiai"
    },
    "w-mx-032-i2": {
-    "name": "filetto di manzo",
+    "name": "bistecca di reale di manzo",
     "standardAmount": "1,5 libbre (tagliato in pezzi piccoli da mangiare)"
    },
    "w-mx-032-i3": {
@@ -111049,7 +111049,7 @@
     "standardAmount": "½ tazza"
    },
    "w-mx-033-i12": {
-    "name": "crispi di tortilla",
+    "name": "chips di tortilla",
     "standardAmount": "6"
    }
   },
@@ -111087,20 +111087,20 @@
     "standardAmount": "6 uova grandi"
    },
    "w-mx-034-i3": {
-    "name": "carne di manzo tritata",
+    "name": "manzo sfilacciato",
     "standardAmount": "2 tazze"
    },
    "w-mx-034-i4": {
     "name": "tortillas di farina morbide da taco",
-    "standardAmount": "10 pezzi, 20 cm di diametro"
+    "standardAmount": "10 tortillas di farina morbide da taco, da 8 pollici"
    },
    "w-mx-034-i5": {
     "name": "fagioli fritti",
-    "standardAmount": "1 lattina (450 grammi)"
+    "standardAmount": "1 lattina (16 once)"
    },
    "w-mx-034-i6": {
     "name": "formaggio cheddar o Monterey Jack",
-    "standardAmount": "2 tazze (225 grammi)"
+    "standardAmount": "2 tazze (8 once)"
    },
    "w-mx-034-i7": {
     "name": "salsa",
@@ -111120,7 +111120,7 @@
   "title": "Riso Verde Messicano",
   "ingredients": {
    "w-mx-035-i1": {
-    "name": "riso corto",
+    "name": "riso a chicco corto",
     "standardAmount": "2 tazze"
    },
    "w-mx-035-i2": {
@@ -111170,7 +111170,7 @@
     "standardAmount": "1,5 libbre"
    },
    "w-mx-036-i2": {
-    "name": "Soprano di manzo",
+    "name": "Stinco di manzo",
     "standardAmount": "1,5 libbre"
    },
    "w-mx-036-i3": {
@@ -111219,7 +111219,7 @@
    },
    "w-mx-036-i14": {
     "name": "chayote",
-    "standardAmount": "1 tagliato a metà"
+    "standardAmount": "1 tagliato in quarti"
    },
    "w-mx-036-i15": {
     "name": "carota",
@@ -111254,8 +111254,8 @@
     "standardAmount": "2 (tagliati sottilmente o tritati)"
    },
    "w-mx-036-i23": {
-    "name": "fettine di limone",
-    "standardAmount": "4-6 fettine"
+    "name": "spicchi di lime",
+    "standardAmount": "4-6 spicchi"
    },
    "w-mx-036-i24": {
     "name": "epazote fresco",
@@ -111282,7 +111282,7 @@
     "standardAmount": "14 once"
    },
    "w-mx-037-i2": {
-    "name": "olio di avocado con sapore di peperoncino e limone",
+    "name": "olio di avocado al peperoncino e lime",
     "standardAmount": "secondo necessità"
    },
    "w-mx-037-i3": {
@@ -111346,8 +111346,8 @@
     "standardAmount": "1/4 tazza"
    },
    "w-mx-037-i18": {
-    "name": "fettine di limone",
-    "standardAmount": "4 fettine"
+    "name": "spicchi di lime",
+    "standardAmount": "4 spicchi"
    }
   },
   "instructions": {
@@ -111370,8 +111370,8 @@
     "standardAmount": "1/2 cetriolo (pelato e tagliato a pezzi)"
    },
    "w-mx-038-i3": {
-    "name": "limone",
-    "standardAmount": "1 limone (spremuto)"
+    "name": "lime",
+    "standardAmount": "1 lime (spremuto)"
    },
    "w-mx-038-i4": {
     "name": "acqua",
@@ -111511,7 +111511,7 @@
     "standardAmount": "1 tazza"
    },
    "w-mx-041-i7": {
-    "name": "succo di limone",
+    "name": "succo di lime",
     "standardAmount": "2 cucchiai"
    },
    "w-mx-041-i8": {
@@ -111539,7 +111539,7 @@
     "standardAmount": "1/4 cucchiaino"
    },
    "w-mx-041-i14": {
-    "name": "pollo strappato",
+    "name": "pollo sfilacciato",
     "standardAmount": "3 tazze"
    },
    "w-mx-041-i15": {
@@ -111586,7 +111586,7 @@
   "title": "Picadillo messicano",
   "ingredients": {
    "w-mx-042-i1": {
-    "name": "carne macinata magra",
+    "name": "carne macinata magra di manzo",
     "standardAmount": "2 libbre"
    },
    "w-mx-042-i2": {
@@ -111648,7 +111648,7 @@
   "title": "Pozole rojo messicano",
   "ingredients": {
    "w-mx-043-i1": {
-    "name": "girasoli",
+    "name": "mais nixtamalizzato (hominy)",
     "standardAmount": "2 scatole"
    },
    "w-mx-043-i2": {
@@ -111657,7 +111657,7 @@
    },
    "w-mx-043-i3": {
     "name": "cipolla bianca",
-    "standardAmount": "1 (tagliata a metà)"
+    "standardAmount": "1 (tagliata in quarti)"
    },
    "w-mx-043-i4": {
     "name": "coriandolo",
@@ -111696,8 +111696,8 @@
     "standardAmount": "3 cucchiai"
    },
    "w-mx-043-i13": {
-    "name": "limoni",
-    "standardAmount": "4 (tagliati a metà)"
+    "name": "lime",
+    "standardAmount": "4 (tagliati in quarti)"
    },
    "w-mx-043-i14": {
     "name": "lattuga romana o cavolo",
@@ -111837,7 +111837,7 @@
   "ingredients": {
    "w-ma-019-i1": {
     "name": "pollo",
-    "standardAmount": "1,5 kg"
+    "standardAmount": "3,3 libbre"
    },
    "w-ma-019-i2": {
     "name": "sale",
@@ -111845,7 +111845,7 @@
    },
    "w-ma-019-i3": {
     "name": "filamenti di zafferano",
-    "standardAmount": "una generosa punta di cucchiaino"
+    "standardAmount": "un pizzico generoso"
    },
    "w-ma-019-i4": {
     "name": "zenzero in polvere",
@@ -111856,7 +111856,7 @@
     "standardAmount": "1 cucchiaino"
    },
    "w-ma-019-i6": {
-    "name": "pepe nero/rosso in polvere",
+    "name": "pepe nero/bianco in polvere",
     "standardAmount": "1/2 cucchiaino"
    },
    "w-ma-019-i7": {
@@ -112002,7 +112002,7 @@
    },
    "w-mx-019-i10": {
     "name": "carota",
-    "standardAmount": "1 carota grande (pelata e tagliata a pezzi di 1,2 cm)"
+    "standardAmount": "1 carota grande (pelata e tagliata a pezzi da 1/2 pollice)"
    },
    "w-mx-019-i11": {
     "name": "brodo vegetale",
@@ -112010,7 +112010,7 @@
    },
    "w-mx-019-i12": {
     "name": "zucchina",
-    "standardAmount": "1 zucchina (tagliata a metà e affettata)"
+    "standardAmount": "1 zucchina (tagliata in quarti e affettata)"
    },
    "w-mx-019-i13": {
     "name": "mais giallo",
@@ -112041,7 +112041,7 @@
     "standardAmount": "a piacere"
    },
    "w-mx-019-i20": {
-    "name": "succo di limone fresco",
+    "name": "succo di lime fresco",
     "standardAmount": "a piacere"
    },
    "w-mx-019-i21": {
@@ -112084,7 +112084,7 @@
     "standardAmount": "1 cucchiaino"
    },
    "w-mx-027-i6": {
-    "name": "peperoncini neri",
+    "name": "pepe in grani",
     "standardAmount": "1 cucchiaino"
    },
    "w-mx-027-i7": {
@@ -112097,15 +112097,15 @@
    },
    "w-mx-027-i9": {
     "name": "peperoncini jalapeño",
-    "standardAmount": "5 grandi (tagliati a anelli di 3 mm)"
+    "standardAmount": "5 grandi (tagliati ad anelli spessi 1/8 di pollice)"
    },
    "w-mx-027-i10": {
     "name": "peperoncini serrano",
-    "standardAmount": "2 (tagliati a anelli di 3 mm)"
+    "standardAmount": "2 (tagliati ad anelli spessi 1/8 di pollice)"
    },
    "w-mx-027-i11": {
     "name": "carote",
-    "standardAmount": "4 (pelate, tagliate a anelli di 3 mm)"
+    "standardAmount": "4 (pelate, tagliate ad anelli spessi 1/8 di pollice)"
    },
    "w-mx-027-i12": {
     "name": "cipolla dolce",
@@ -112127,7 +112127,7 @@
   "ingredients": {
    "w-ma-029-i1": {
     "name": "Agnello, vitello o manzo",
-    "standardAmount": "1 kg (a cubetti da 2,5 cm)"
+    "standardAmount": "2,2 libbre (cubetti da 1 pollice)"
    },
    "w-ma-029-i2": {
     "name": "Cipolle",
@@ -112215,11 +112215,11 @@
    },
    "w-mx-046-i2": {
     "name": "Formaggio Monterey Jack",
-    "standardAmount": "225 g (a listarelle o grattugiato)"
+    "standardAmount": "8 once (a listarelle o grattugiato)"
    },
    "w-mx-046-i3": {
     "name": "Olio",
-    "standardAmount": "1 litro (per friggere)"
+    "standardAmount": "4 tazze (per friggere)"
    },
    "w-mx-046-i4": {
     "name": "Uova",
@@ -112306,7 +112306,7 @@
   "ingredients": {
    "w-mx-049-i1": {
     "name": "Filetti di tilapia o altro pesce",
-    "standardAmount": "680 g"
+    "standardAmount": "1,5 libbre"
    },
    "w-mx-049-i2": {
     "name": "Lime",
@@ -112322,7 +112322,7 @@
    },
    "w-mx-049-i5": {
     "name": "Spicchi d'aglio",
-    "standardAmount": "6 (a fettine sottili)"
+    "standardAmount": "6 spicchi (a fettine sottili)"
    },
    "w-mx-049-i6": {
     "name": "Prezzemolo",
@@ -112348,7 +112348,7 @@
   "ingredients": {
    "w-mx-050-i1": {
     "name": "Tortillas di farina",
-    "standardAmount": "4 (da 25 cm)"
+    "standardAmount": "4 (da 10 pollici)"
    },
    "w-mx-050-i2": {
     "name": "Cheddar o pepper jack",
@@ -112418,7 +112418,7 @@
   "ingredients": {
    "w-cn-002-i1": {
     "name": "Farina di grano",
-    "standardAmount": "300 g"
+    "standardAmount": "300 g (2 1/2 tazze)"
    },
    "w-cn-002-i2": {
     "name": "Sale",
@@ -112434,11 +112434,11 @@
    },
    "w-cn-002-i5": {
     "name": "Acqua tiepida",
-    "standardAmount": "120 ml"
+    "standardAmount": "1/2 tazza"
    },
    "w-cn-002-i6": {
     "name": "Cosciotto d'agnello",
-    "standardAmount": "450 g"
+    "standardAmount": "1 libbra"
    },
    "w-cn-002-i7": {
     "name": "Sale",
@@ -112493,7 +112493,7 @@
    },
    "w-cn-003-i2": {
     "name": "Germogli di soia",
-    "standardAmount": "340 g"
+    "standardAmount": "12 once"
    },
    "w-cn-003-i3": {
     "name": "Peperone Anaheim",
@@ -112543,7 +112543,7 @@
   "chapter": "مطبخ الصين"
  },
  "w-cn-004": {
-  "title": "Noodles con stinco di manzo brasato",
+  "title": "Zuppa di noodles con stinco di manzo",
   "ingredients": {
    "w-cn-004-i1": {
     "name": "Olio di arachidi",
@@ -112559,11 +112559,11 @@
    },
    "w-cn-004-i4": {
     "name": "Acqua",
-    "standardAmount": "360 ml"
+    "standardAmount": "1 1/2 tazze"
    },
    "w-cn-004-i5": {
     "name": "Fondo di brasato di manzo",
-    "standardAmount": "240 ml"
+    "standardAmount": "1 tazza"
    },
    "w-cn-004-i6": {
     "name": "Ketchup",
@@ -112571,11 +112571,11 @@
    },
    "w-cn-004-i7": {
     "name": "Noodles freschi",
-    "standardAmount": "225 g"
+    "standardAmount": "8 once"
    },
    "w-cn-004-i8": {
     "name": "Noodles secchi",
-    "standardAmount": "140 g"
+    "standardAmount": "5 once"
    },
    "w-cn-004-i9": {
     "name": "Pak choi",
@@ -112583,7 +112583,7 @@
    },
    "w-cn-004-i10": {
     "name": "Stinco di manzo brasato",
-    "standardAmount": "240 ml (tritato)"
+    "standardAmount": "1 tazza (tritato)"
    },
    "w-cn-004-i11": {
     "name": "Sale",
@@ -112621,20 +112621,20 @@
   "title": "Luohan Zhai (stufato buddhista)",
   "ingredients": {
    "w-cn-005-i1": {
-    "name": "Gigli di giorno secchi",
-    "standardAmount": "25 g"
+    "name": "Fiori di giglio secchi",
+    "standardAmount": "25 g (1/2 tazza)"
    },
    "w-cn-005-i2": {
     "name": "Shiitake secchi",
-    "standardAmount": "25 g"
+    "standardAmount": "25 g (8 medi)"
    },
    "w-cn-005-i3": {
     "name": "Funghi mu-err secchi",
-    "standardAmount": "10 g"
+    "standardAmount": "10 g (2 cucchiai)"
    },
    "w-cn-005-i4": {
     "name": "Vermicelli di fagioli mung",
-    "standardAmount": "40 g"
+    "standardAmount": "40 g (1 matassa piccola, circa 1 tazza una volta reidratata)"
    },
    "w-cn-005-i5": {
     "name": "Salsa di soia chiara",
@@ -112658,7 +112658,7 @@
    },
    "w-cn-005-i10": {
     "name": "Acqua di ammollo",
-    "standardAmount": "240 ml"
+    "standardAmount": "1 tazza"
    },
    "w-cn-005-i11": {
     "name": "Olio di sesamo",
@@ -112698,11 +112698,11 @@
    },
    "w-cn-005-i20": {
     "name": "Cavolo cinese",
-    "standardAmount": "230 g (tagliato)"
+    "standardAmount": "230 g (4 tazze, tritato)"
    },
    "w-cn-005-i21": {
     "name": "Germogli di bambù",
-    "standardAmount": "120 g (a fette)"
+    "standardAmount": "1/2 tazza (a fette)"
    }
   },
   "instructions": {
@@ -112726,7 +112726,7 @@
   "ingredients": {
    "w-cn-006-i1": {
     "name": "Tofu seta",
-    "standardAmount": "1 panetto (450 g)"
+    "standardAmount": "1 panetto (16 once / 450 g)"
    },
    "w-cn-006-i2": {
     "name": "Uova centenarie",
@@ -112760,11 +112760,11 @@
   "ingredients": {
    "w-cn-007-i1": {
     "name": "Brodo di pollo",
-    "standardAmount": "120 ml"
+    "standardAmount": "1/2 tazza"
    },
    "w-cn-007-i2": {
     "name": "Ketchup",
-    "standardAmount": "60 ml"
+    "standardAmount": "1/4 tazza"
    },
    "w-cn-007-i3": {
     "name": "Salsa di soia chiara",
@@ -112788,7 +112788,7 @@
    },
    "w-cn-007-i8": {
     "name": "Germogli di soia",
-    "standardAmount": "80 g"
+    "standardAmount": "1/3 tazza"
    },
    "w-cn-007-i9": {
     "name": "Jalapeño",
@@ -112800,7 +112800,7 @@
    },
    "w-cn-007-i11": {
     "name": "Gamberi",
-    "standardAmount": "cotti e tritati, 240 ml"
+    "standardAmount": "1 tazza di gamberi cotti e tritati"
    },
    "w-cn-007-i12": {
     "name": "Sale",
@@ -112826,11 +112826,11 @@
   "chapter": "مطبخ الصين"
  },
  "w-cn-008": {
-  "title": "Pastel de nata cinese (Egg tart)",
+  "title": "Tartellette all'uovo cinesi",
   "ingredients": {
    "w-cn-008-i1": {
     "name": "Farina 00",
-    "standardAmount": "360 g + 240 g"
+    "standardAmount": "1 1/2 tazze + 1 tazza"
    },
    "w-cn-008-i2": {
     "name": "Burro freddo",
@@ -112842,7 +112842,7 @@
    },
    "w-cn-008-i4": {
     "name": "Zucchero",
-    "standardAmount": "4 cucchiai + 60 ml"
+    "standardAmount": "4 cucchiai + 1/4 tazza"
    },
    "w-cn-008-i5": {
     "name": "Sale",
@@ -112854,23 +112854,23 @@
    },
    "w-cn-008-i7": {
     "name": "Acqua ghiacciata",
-    "standardAmount": "60 ml"
+    "standardAmount": "1/4 tazza"
    },
    "w-cn-008-i8": {
     "name": "Acqua calda",
-    "standardAmount": "200 ml"
+    "standardAmount": "5/6 tazza"
    },
    "w-cn-008-i9": {
     "name": "Latte evaporato",
-    "standardAmount": "120 ml"
+    "standardAmount": "1/2 tazza"
    },
    "w-cn-008-i10": {
     "name": "Tagliapasta dentellato",
-    "standardAmount": "11 cm"
+    "standardAmount": "4 1/2 pollici"
    },
    "w-cn-008-i11": {
-    "name": "Stampi da egg tart",
-    "standardAmount": "base oltre 5 cm, bordo 7,5 cm"
+    "name": "Stampini per tartellette all'uovo",
+    "standardAmount": "base oltre 2 pollici, bordo interno superiore 3 pollici, bordo esterno 3,3 pollici"
    }
   },
   "instructions": {
@@ -112889,7 +112889,7 @@
   "ingredients": {
    "w-cn-009-i1": {
     "name": "Farina di riso glutinoso",
-    "standardAmount": "240 ml"
+    "standardAmount": "1 tazza"
    },
    "w-cn-009-i2": {
     "name": "Farina di riso",
@@ -112897,7 +112897,7 @@
    },
    "w-cn-009-i3": {
     "name": "Acqua tiepida",
-    "standardAmount": "120 ml"
+    "standardAmount": "1/2 tazza o poco più, secondo necessità"
    },
    "w-cn-009-i4": {
     "name": "Arachidi tritate",
@@ -112913,7 +112913,7 @@
    },
    "w-cn-009-i7": {
     "name": "Acqua",
-    "standardAmount": "240 ml"
+    "standardAmount": "1 tazza"
    },
    "w-cn-009-i8": {
     "name": "Zucchero di canna",
@@ -112939,7 +112939,7 @@
   "ingredients": {
    "w-cn-010-i1": {
     "name": "Pollo intero",
-    "standardAmount": "1,2-1,4 kg"
+    "standardAmount": "2,5-3 libbre"
    },
    "w-cn-010-i2": {
     "name": "Zenzero",
@@ -112983,11 +112983,11 @@
    },
    "w-cn-010-i12": {
     "name": "Riso jasmine",
-    "standardAmount": "400 g"
+    "standardAmount": "2 tazze"
    },
    "w-cn-010-i13": {
     "name": "Brodo di pollo",
-    "standardAmount": "720 ml"
+    "standardAmount": "3 tazze"
    },
    "w-cn-010-i14": {
     "name": "Peperoncini thai",
@@ -113015,7 +113015,7 @@
    },
    "w-cn-010-i20": {
     "name": "Succo di lime",
-    "standardAmount": "80 ml"
+    "standardAmount": "1/3 tazza"
    },
    "w-cn-010-i21": {
     "name": "Salsa di soia chiara",
@@ -113055,23 +113055,23 @@
   "ingredients": {
    "w-cn-011-i1": {
     "name": "Pasta di sesamo",
-    "standardAmount": "60 ml"
+    "standardAmount": "1/4 tazza"
    },
    "w-cn-011-i2": {
     "name": "Acqua",
-    "standardAmount": "60 ml"
+    "standardAmount": "1/4 tazza"
    },
    "w-cn-011-i3": {
     "name": "Tofu fermentato rosso",
     "standardAmount": "1 cubetto"
    },
    "w-cn-011-i4": {
-    "name": "Pasta di fiori d'aglio cinese",
+    "name": "Salsa cinese di fiori di porro fermentati",
     "standardAmount": "2-3 cucchiaini (facoltativa)"
    },
    "w-cn-011-i5": {
     "name": "Salsa di soia chiara",
-    "standardAmount": "2 cucchiaini (facoltativa)"
+    "standardAmount": "2 cucchiaini (o q.b.)"
    },
    "w-cn-011-i6": {
     "name": "Olio di sesamo",
@@ -113103,7 +113103,7 @@
    },
    "w-cn-012-i2": {
     "name": "Arachidi crude",
-    "standardAmount": "80 g"
+    "standardAmount": "1/3 tazza"
    },
    "w-cn-012-i3": {
     "name": "Petto di pollo",
@@ -113131,11 +113131,11 @@
    },
    "w-cn-012-i9": {
     "name": "Cipollotti",
-    "standardAmount": "80 g (tritati)"
+    "standardAmount": "1/3 tazza (tritati)"
    },
    "w-cn-012-i10": {
     "name": "Cetriolo",
-    "standardAmount": "120 ml a dadini"
+    "standardAmount": "1/2 tazza a dadini"
    }
   },
   "instructions": {
@@ -113155,7 +113155,7 @@
   "ingredients": {
    "w-cn-013-i1": {
     "name": "Riso glutinoso",
-    "standardAmount": "150 g"
+    "standardAmount": "150 g (5 once)"
    },
    "w-cn-013-i2": {
     "name": "Zucchero bianco",
@@ -113167,7 +113167,7 @@
    },
    "w-cn-013-i4": {
     "name": "Zucchero candi",
-    "standardAmount": "100 g"
+    "standardAmount": "100 g (3,5 once)"
    },
    "w-cn-013-i5": {
     "name": "Zucchero di canna",
@@ -113240,11 +113240,11 @@
   "ingredients": {
    "w-cn-015-i1": {
     "name": "Brodo di pollo",
-    "standardAmount": "120 ml"
+    "standardAmount": "1/2 tazza"
    },
    "w-cn-015-i2": {
     "name": "Ketchup",
-    "standardAmount": "60 ml"
+    "standardAmount": "1/4 tazza"
    },
    "w-cn-015-i3": {
     "name": "Salsa di soia chiara",
@@ -113264,7 +113264,7 @@
    },
    "w-cn-015-i7": {
     "name": "Ostriche sgusciate",
-    "standardAmount": "225 g"
+    "standardAmount": "1/2 libbra"
    },
    "w-cn-015-i8": {
     "name": "Olio di arachidi",
@@ -113348,19 +113348,19 @@
   "ingredients": {
    "w-cn-017-i1": {
     "name": "Pasta di fagioli rossi",
-    "standardAmount": "420 g"
+    "standardAmount": "420 g (1 1/2 tazze)"
    },
    "w-cn-017-i2": {
     "name": "Farina di riso glutinoso",
-    "standardAmount": "250 g"
+    "standardAmount": "250 g (2 1/4 tazze)"
    },
    "w-cn-017-i3": {
     "name": "Acqua",
-    "standardAmount": "225 ml"
+    "standardAmount": "225 ml (1 tazza meno 1 cucchiaio)"
    },
    "w-cn-017-i4": {
     "name": "Sesamo bianco tostato",
-    "standardAmount": "60 ml"
+    "standardAmount": "1/4 tazza"
    },
    "w-cn-017-i5": {
     "name": "Olio vegetale",
@@ -113386,7 +113386,7 @@
    },
    "w-cn-018-i2": {
     "name": "Salsa di soia",
-    "standardAmount": "180 ml"
+    "standardAmount": "3/4 tazza"
    },
    "w-cn-018-i3": {
     "name": "Zucchero di canna",
@@ -113406,7 +113406,7 @@
    },
    "w-cn-018-i7": {
     "name": "Acqua",
-    "standardAmount": "720-960 ml"
+    "standardAmount": "3-4 tazze"
    }
   },
   "instructions": {
@@ -113423,7 +113423,7 @@
   "ingredients": {
    "w-cn-019-i1": {
     "name": "Petto di pollo",
-    "standardAmount": "450 g"
+    "standardAmount": "1 libbra"
    },
    "w-cn-019-i2": {
     "name": "Olio vegetale",
@@ -113471,7 +113471,7 @@
    },
    "w-cn-019-i13": {
     "name": "Carta di riso rotonda",
-    "standardAmount": "12 fogli (22 cm)"
+    "standardAmount": "12 fogli (8 pollici / 22 cm)"
    },
    "w-cn-019-i14": {
     "name": "Cetriolo",
@@ -113539,7 +113539,7 @@
    },
    "w-cn-020-i7": {
     "name": "Acqua",
-    "standardAmount": "120 ml"
+    "standardAmount": "120 ml (+5 ml da regolare in base alla grandezza dell'uovo)"
    },
    "w-cn-020-i8": {
     "name": "Olio vegetale",
@@ -113576,11 +113576,11 @@
    },
    "w-cn-021-i2": {
     "name": "Riso glutinoso",
-    "standardAmount": "400 g"
+    "standardAmount": "2 tazze (400 g)"
    },
    "w-cn-021-i3": {
     "name": "Pasta di fagioli rossi",
-    "standardAmount": "240 ml"
+    "standardAmount": "1 tazza"
    },
    "w-cn-021-i4": {
     "name": "Spago di cotone",
@@ -113651,7 +113651,7 @@
    },
    "w-fr-001-i13": {
     "name": "Olio d'oliva",
-    "standardAmount": "240 ml"
+    "standardAmount": "1 tazza"
    },
    "w-fr-001-i14": {
     "name": "Bouquet garni",
@@ -113726,7 +113726,7 @@
    },
    "w-fr-002-i8": {
     "name": "Calamari",
-    "standardAmount": "450 g"
+    "standardAmount": "1 libbra"
    },
    "w-fr-002-i9": {
     "name": "Farina",
@@ -113734,7 +113734,7 @@
    },
    "w-fr-002-i10": {
     "name": "Olio per friggere",
-    "standardAmount": "2,5 cm in pentola"
+    "standardAmount": "quanto basta (almeno 1 pollice di profondità nella padella)"
    },
    "w-fr-002-i11": {
     "name": "Succo di limone fresco",
@@ -113765,15 +113765,15 @@
   "ingredients": {
    "w-fr-003-i1": {
     "name": "Mandorle",
-    "standardAmount": "200 g"
+    "standardAmount": "7 once"
    },
    "w-fr-003-i2": {
     "name": "Zucchero a velo",
-    "standardAmount": "200 g"
+    "standardAmount": "7 once"
    },
    "w-fr-003-i3": {
     "name": "Miele",
-    "standardAmount": "100 g"
+    "standardAmount": "3,5 once"
    },
    "w-fr-003-i4": {
     "name": "Cannella",
@@ -113785,11 +113785,11 @@
    },
    "w-fr-003-i6": {
     "name": "Uvetta",
-    "standardAmount": "50 g"
+    "standardAmount": "1,75 once"
    },
    "w-fr-003-i7": {
     "name": "Farina",
-    "standardAmount": "100 g"
+    "standardAmount": "3,5 once"
    },
    "w-fr-003-i8": {
     "name": "Uovo",
@@ -113843,11 +113843,11 @@
   "ingredients": {
    "w-fr-005-i1": {
     "name": "Cosce d'anatra",
-    "standardAmount": "4 (da 250 g)"
+    "standardAmount": "4 pezzi (250 g / 8 once ciascuno)"
    },
    "w-fr-005-i2": {
     "name": "Grasso d'anatra",
-    "standardAmount": "750 ml"
+    "standardAmount": "750 ml / 25 once"
    },
    "w-fr-005-i3": {
     "name": "Sale",
@@ -113875,7 +113875,7 @@
    },
    "w-fr-005-i9": {
     "name": "Scalogno",
-    "standardAmount": "1 (a fettine)"
+    "standardAmount": "1 (a fette di 0,7 cm / 1/3 pollice di spessore)"
    },
    "w-fr-005-i10": {
     "name": "Pepe nero in grani",
@@ -113920,11 +113920,11 @@
   "ingredients": {
    "w-fr-006-i1": {
     "name": "Farina",
-    "standardAmount": "350 g"
+    "standardAmount": "350 g (12 once/ 3 tazze)"
    },
    "w-fr-006-i2": {
     "name": "Burro",
-    "standardAmount": "175 g (a temperatura ambiente)"
+    "standardAmount": "175 g (6 once / ¾ tazza) (ammorbidito)"
    },
    "w-fr-006-i3": {
     "name": "Sale",
@@ -113940,11 +113940,11 @@
    },
    "w-fr-006-i6": {
     "name": "Porri",
-    "standardAmount": "900 g (tritati)"
+    "standardAmount": "900 g (2 libbre) (circa 4-5 medi) (tritati)"
    },
    "w-fr-006-i7": {
     "name": "Burro",
-    "standardAmount": "40 g"
+    "standardAmount": "40 g (1,5 once/ 3 cucchiai)"
    },
    "w-fr-006-i8": {
     "name": "Tuorli",
@@ -113952,7 +113952,7 @@
    },
    "w-fr-006-i9": {
     "name": "Crème fraîche",
-    "standardAmount": "200 g"
+    "standardAmount": "200 g (7 once / ¾ tazza) al 12% di grassi (o panna densa / yogurt greco bianco)"
    },
    "w-fr-006-i10": {
     "name": "Noce moscata",
@@ -113985,7 +113985,7 @@
   "ingredients": {
    "w-fr-007-i1": {
     "name": "Patate grandi a pasta farinosa",
-    "standardAmount": "4 (da 400 g)"
+    "standardAmount": "4 (400 g / 14 once ciascuna)"
    },
    "w-fr-007-i2": {
     "name": "Sale",
@@ -114009,7 +114009,7 @@
    },
    "w-fr-007-i7": {
     "name": "Brodo di pollo o vegetale",
-    "standardAmount": "240 ml (povero di sale)"
+    "standardAmount": "1 tazza (iposodico o vegetale)"
    }
   },
   "instructions": {
@@ -114028,11 +114028,11 @@
   "ingredients": {
    "w-fr-008-i1": {
     "name": "Burro non salato",
-    "standardAmount": "25 g"
+    "standardAmount": "25 g (1 oncia / 2 cucchiai)"
    },
    "w-fr-008-i2": {
     "name": "Farina",
-    "standardAmount": "150 g"
+    "standardAmount": "150 g (5 once / 1 tazza)"
    },
    "w-fr-008-i3": {
     "name": "Uova",
@@ -114040,7 +114040,7 @@
    },
    "w-fr-008-i4": {
     "name": "Latte intero",
-    "standardAmount": "275 ml"
+    "standardAmount": "275 ml (10 once fluide)"
    },
    "w-fr-008-i5": {
     "name": "Sale",
@@ -114075,35 +114075,35 @@
   "ingredients": {
    "w-fr-009-i1": {
     "name": "Cioccolato fondente",
-    "standardAmount": "285 g"
+    "standardAmount": "285 g (10 once)"
    },
    "w-fr-009-i2": {
     "name": "Burro non salato",
-    "standardAmount": "30 g"
+    "standardAmount": "30 g (2 cucchiai)"
    },
    "w-fr-009-i3": {
     "name": "Panna",
-    "standardAmount": "125 ml"
+    "standardAmount": "125 ml (1/2 tazza)"
    },
    "w-fr-009-i4": {
     "name": "Cocco essiccato",
-    "standardAmount": "125 g"
+    "standardAmount": "125 g (1/2 tazza)"
    },
    "w-fr-009-i5": {
     "name": "Cacao amaro",
-    "standardAmount": "60 g"
+    "standardAmount": "60 g (1/4 tazza)"
    },
    "w-fr-009-i6": {
     "name": "Arachidi tritate",
-    "standardAmount": "125 g"
+    "standardAmount": "125 g (1/2 tazza)"
    },
    "w-fr-009-i7": {
     "name": "Codette colorate",
-    "standardAmount": "85 g"
+    "standardAmount": "85 g (1/3 tazza)"
    },
    "w-fr-009-i8": {
     "name": "Zucchero a velo",
-    "standardAmount": "60 g"
+    "standardAmount": "60 g (1/4 tazza)"
    }
   },
   "instructions": {
@@ -114123,7 +114123,7 @@
   "ingredients": {
    "w-fr-010-i1": {
     "name": "Patate",
-    "standardAmount": "750 g"
+    "standardAmount": "750 g (1 libbra 10 once)"
    },
    "w-fr-010-i2": {
     "name": "Aglio",
@@ -114131,11 +114131,11 @@
    },
    "w-fr-010-i3": {
     "name": "Latte intero",
-    "standardAmount": "275 ml"
+    "standardAmount": "275 ml (10 once fluide/ 1 tazza)"
    },
    "w-fr-010-i4": {
     "name": "Panna densa",
-    "standardAmount": "150 ml"
+    "standardAmount": "150 ml (5,5 once fluide/ 0,6 tazza)"
    },
    "w-fr-010-i5": {
     "name": "Noce moscata",
@@ -114155,7 +114155,7 @@
    },
    "w-fr-010-i9": {
     "name": "Emmental o Gruyère",
-    "standardAmount": "100 g (facoltativo)"
+    "standardAmount": "100 g (3,5 once / 1 tazza) (grattugiato fine) (facoltativo)"
    }
   },
   "instructions": {
@@ -114174,11 +114174,11 @@
   "ingredients": {
    "w-fr-011-i1": {
     "name": "Acqua",
-    "standardAmount": "250 ml"
+    "standardAmount": "9 once fluide / 1 tazza"
    },
    "w-fr-011-i2": {
     "name": "Miele",
-    "standardAmount": "255 g"
+    "standardAmount": "9 once / 2/3 tazza"
    },
    "w-fr-011-i3": {
     "name": "Cardamomo",
@@ -114194,15 +114194,15 @@
    },
    "w-fr-011-i6": {
     "name": "Zucchero di canna grezzo",
-    "standardAmount": "100 g"
+    "standardAmount": "3,5 once / ½ tazza"
    },
    "w-fr-011-i7": {
     "name": "Burro non salato",
-    "standardAmount": "155 g"
+    "standardAmount": "5,5 once / 2/3 tazza"
    },
    "w-fr-011-i8": {
     "name": "Farina di segale",
-    "standardAmount": "255 g"
+    "standardAmount": "9 once / 2 tazze"
    },
    "w-fr-011-i9": {
     "name": "Lievito in polvere",
@@ -114217,7 +114217,7 @@
     "standardAmount": "1½ cucchiaino"
    },
    "w-fr-011-i12": {
-    "name": "Frutta secca",
+    "name": "Frutta candita",
     "standardAmount": "1 cucchiaio"
    }
   },
@@ -114244,7 +114244,7 @@
    },
    "w-fr-012-i3": {
     "name": "Timo",
-    "standardAmount": "1 mazzetto"
+    "standardAmount": "un mazzetto piccolo + altri rametti piccoli per servire"
    },
    "w-fr-012-i4": {
     "name": "Alloro",
@@ -114271,7 +114271,7 @@
     "standardAmount": "1 cucchiaino"
    },
    "w-fr-012-i10": {
-    "name": "Farina forte",
+    "name": "Farina di forza",
     "standardAmount": "200 g + per il piano"
    },
    "w-fr-012-i11": {
@@ -114310,11 +114310,11 @@
    },
    "w-fr-013-i3": {
     "name": "Peperone rosso",
-    "standardAmount": "1 (a pezzettoni)"
+    "standardAmount": "1, tagliato a pezzi di 1 pollice"
    },
    "w-fr-013-i4": {
     "name": "Peperone giallo",
-    "standardAmount": "1 (a pezzettoni)"
+    "standardAmount": "1, tagliato a pezzi di 1 pollice"
    },
    "w-fr-013-i5": {
     "name": "Aglio",
@@ -114322,7 +114322,7 @@
    },
    "w-fr-013-i6": {
     "name": "Zucchine",
-    "standardAmount": "680 g (a rondelle)"
+    "standardAmount": "1 1/2 libbre, a rondelle"
    },
    "w-fr-013-i7": {
     "name": "Melanzana",
@@ -114372,7 +114372,7 @@
    },
    "w-fr-014-i3": {
     "name": "Olio d'oliva",
-    "standardAmount": "80 ml"
+    "standardAmount": "1/3 tazza"
    },
    "w-fr-014-i4": {
     "name": "Succo di limone fresco",
@@ -114392,23 +114392,23 @@
    },
    "w-fr-014-i8": {
     "name": "Patate novelle piccole",
-    "standardAmount": "450 g (lessate)"
+    "standardAmount": "1 libbra (lessate)"
    },
    "w-fr-014-i9": {
     "name": "Fagiolini",
-    "standardAmount": "225 g (sbollentati)"
+    "standardAmount": "8 once (sbollentati)"
    },
    "w-fr-014-i10": {
     "name": "Pomodorini",
-    "standardAmount": "340 g (dimezzati)"
+    "standardAmount": "12 once (dimezzati)"
    },
    "w-fr-014-i11": {
     "name": "Olive nere di Nizza",
-    "standardAmount": "120 ml"
+    "standardAmount": "1/2 tazza (divise)"
    },
    "w-fr-014-i12": {
     "name": "Carciofi marinati",
-    "standardAmount": "225 g"
+    "standardAmount": "8 once (divisi)"
    },
    "w-fr-014-i13": {
     "name": "Acciughe",
@@ -114424,7 +114424,7 @@
    },
    "w-fr-014-i16": {
     "name": "Tonno sott'olio",
-    "standardAmount": "3 lattine da 115 g (sgocciolato)"
+    "standardAmount": "3 lattine da 4 once (sgocciolato)"
    },
    "w-fr-014-i17": {
     "name": "Cipolla rossa",
@@ -114499,7 +114499,7 @@
   "ingredients": {
    "w-vn-002-i1": {
     "name": "Manzo macinato grasso",
-    "standardAmount": "340 g"
+    "standardAmount": "12 once"
    },
    "w-vn-002-i2": {
     "name": "Scalogni tritati fini",
@@ -114661,7 +114661,7 @@
    },
    "w-vn-005-i3": {
     "name": "Spicchi d'aglio",
-    "standardAmount": "6"
+    "standardAmount": "6 spicchi"
    },
    "w-vn-005-i4": {
     "name": "Salsa di pesce",
@@ -114693,7 +114693,7 @@
    },
    "w-vn-005-i11": {
     "name": "Carta di riso secca",
-    "standardAmount": "170 g"
+    "standardAmount": "6 once"
    },
    "w-vn-005-i12": {
     "name": "Olio al peperoncino vietnamita",
@@ -114742,7 +114742,7 @@
   "ingredients": {
    "w-vn-006-i1": {
     "name": "Farina di riso glutinoso",
-    "standardAmount": "450 g"
+    "standardAmount": "16 once"
    },
    "w-vn-006-i2": {
     "name": "Acqua calda",
@@ -114766,11 +114766,11 @@
    },
    "w-vn-006-i7": {
     "name": "Zenzero fresco",
-    "standardAmount": "10 cm"
+    "standardAmount": "4 pollici"
    },
    "w-vn-006-i8": {
     "name": "Zucchero di palma",
-    "standardAmount": "280 g"
+    "standardAmount": "10 once"
    },
    "w-vn-006-i9": {
     "name": "Latte di cocco",
@@ -114799,7 +114799,7 @@
   "ingredients": {
    "w-vn-007-i1": {
     "name": "Polvere di gelatina d'erba",
-    "standardAmount": "50 g"
+    "standardAmount": "1,8 once"
    },
    "w-vn-007-i2": {
     "name": "Zucchero",
