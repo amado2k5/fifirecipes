@@ -1,544 +1,2205 @@
 {
-"w-fr-001": {
+ "w-fr-001": {
   "title": "Bouillabaisse",
   "ingredients": {
-    "w-fr-001-i1": {"name": "Ikan kalajengking", "standardAmount": "660 g"},
-    "w-fr-001-i2": {"name": "Gurnard merah", "standardAmount": "660 g"},
-    "w-fr-001-i3": {"name": "Biji nangka merah", "standardAmount": "660 g"},
-    "w-fr-001-i4": {"name": "Belut", "standardAmount": "660 g"},
-    "w-fr-001-i5": {"name": "Ikan monk", "standardAmount": "660 g"},
-    "w-fr-001-i6": {"name": "Ikan karang", "standardAmount": "660 g"},
-    "w-fr-001-i7": {"name": "Gurita", "standardAmount": "1 hidup (opsional)"},
-    "w-fr-001-i8": {"name": "Bulu babi", "standardAmount": "10"},
-    "w-fr-001-i9": {"name": "Kentang", "standardAmount": "1 kg"},
-    "w-fr-001-i10": {"name": "Bawang putih", "standardAmount": "7 siung"},
-    "w-fr-001-i11": {"name": "Bawang bombai", "standardAmount": "3"},
-    "w-fr-001-i12": {"name": "Tomat", "standardAmount": "5 matang"},
-    "w-fr-001-i13": {"name": "Minyak zaitun", "standardAmount": "240 ml"},
-    "w-fr-001-i14": {"name": "Bouquet garni", "standardAmount": "1 ikat"},
-    "w-fr-001-i15": {"name": "Adas", "standardAmount": "1 tangkai"},
-    "w-fr-001-i16": {"name": "Saffron", "standardAmount": "8 helai"},
-    "w-fr-001-i17": {"name": "Roti desa", "standardAmount": "10 iris"},
-    "w-fr-001-i18": {"name": "Garam", "standardAmount": "secukupnya"},
-    "w-fr-001-i19": {"name": "Cabai cayenne", "standardAmount": "secukupnya"}
+   "w-fr-001-i1": {
+    "name": "Ikan kalajengking",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i2": {
+    "name": "Gurnard merah",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i3": {
+    "name": "Biji nangka merah",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i4": {
+    "name": "Belut",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i5": {
+    "name": "Ikan monk",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i6": {
+    "name": "Ikan karang",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i7": {
+    "name": "Gurita",
+    "standardAmount": "1 hidup (opsional)"
+   },
+   "w-fr-001-i8": {
+    "name": "Bulu babi",
+    "standardAmount": "10"
+   },
+   "w-fr-001-i9": {
+    "name": "Kentang",
+    "standardAmount": "1 kg"
+   },
+   "w-fr-001-i10": {
+    "name": "Bawang putih",
+    "standardAmount": "7 siung"
+   },
+   "w-fr-001-i11": {
+    "name": "Bawang bombai",
+    "standardAmount": "3"
+   },
+   "w-fr-001-i12": {
+    "name": "Tomat",
+    "standardAmount": "5 matang"
+   },
+   "w-fr-001-i13": {
+    "name": "Minyak zaitun",
+    "standardAmount": "240 ml"
+   },
+   "w-fr-001-i14": {
+    "name": "Bouquet garni",
+    "standardAmount": "1 ikat"
+   },
+   "w-fr-001-i15": {
+    "name": "Adas",
+    "standardAmount": "1 tangkai"
+   },
+   "w-fr-001-i16": {
+    "name": "Saffron",
+    "standardAmount": "8 helai"
+   },
+   "w-fr-001-i17": {
+    "name": "Roti desa",
+    "standardAmount": "10 iris"
+   },
+   "w-fr-001-i18": {
+    "name": "Garam",
+    "standardAmount": "secukupnya"
+   },
+   "w-fr-001-i19": {
+    "name": "Cabai cayenne",
+    "standardAmount": "secukupnya"
+   }
   },
   "instructions": {
-    "1": "Bersihkan ikan dan potong-potong besar bertulang.",
-    "2": "Panaskan minyak zaitun dalam panci besar dan dalam.",
-    "3": "Masukkan bawang, 6 siung bawang putih geprek, gurita dan tomat, tumis di api kecil 5 menit.",
-    "4": "Masukkan potongan ikan besar dulu, tutup dengan air mendidih, tambahkan garam, lada, adas, bouquet garni dan saffron, masak perlahan.",
-    "5": "Buat rouille: tumbuk bawang putih di lumpang, tambahkan saffron dan kuning telur, kocok sambil tuang minyak zaitun sedikit-sedikit hingga jadi mayones.",
-    "6": "Rebus kentang dalam air garam 15-20 menit. Buka bulu babi dengan gunting dan ambil dagingnya dengan sendok.",
-    "7": "Susun ikan di piring besar. Masukkan daging bulu babi ke sup.",
-    "8": "Gosok roti dengan bawang putih dan olesi rouille. Minimal 2 iris per mangkuk.",
-    "9": "Angkat ikan dan kentang dari sup, susun di piring terpisah.",
-    "10": "Tuang sup panas ke atas roti ber-rouille. Sajikan ikan dan kentang terpisah."
+   "1": "Bersihkan ikan dan potong-potong besar bertulang.",
+   "2": "Panaskan minyak zaitun dalam panci besar dan dalam.",
+   "3": "Masukkan bawang, 6 siung bawang putih geprek, gurita dan tomat, tumis di api kecil 5 menit.",
+   "4": "Masukkan potongan ikan besar dulu, tutup dengan air mendidih, tambahkan garam, lada, adas, bouquet garni dan saffron, masak perlahan.",
+   "5": "Buat rouille: tumbuk bawang putih di lumpang, tambahkan saffron dan kuning telur, kocok sambil tuang minyak zaitun sedikit-sedikit hingga jadi mayones.",
+   "6": "Rebus kentang dalam air garam 15-20 menit. Buka bulu babi dengan gunting dan ambil dagingnya dengan sendok.",
+   "7": "Susun ikan di piring besar. Masukkan daging bulu babi ke sup.",
+   "8": "Gosok roti dengan bawang putih dan olesi rouille. Minimal 2 iris per mangkuk.",
+   "9": "Angkat ikan dan kentang dari sup, susun di piring terpisah.",
+   "10": "Tuang sup panas ke atas roti ber-rouille. Sajikan ikan dan kentang terpisah."
   },
   "culturalNotes": "Bouillabaisse adalah hidangan tradisional Marseille yang terkenal dengan keragaman ikan dan makanan lautnya."
-},
-"w-fr-002": {
+ },
+ "w-fr-002": {
   "title": "Cumi goreng dengan tzatziki",
   "ingredients": {
-    "w-fr-002-i1": {"name": "Bawang putih", "standardAmount": "2 siung kecil (cincang halus)"},
-    "w-fr-002-i2": {"name": "Minyak zaitun", "standardAmount": "1 sdm"},
-    "w-fr-002-i3": {"name": "Mentimun", "standardAmount": "1 kecil"},
-    "w-fr-002-i4": {"name": "Yogurt", "standardAmount": "250 g"},
-    "w-fr-002-i5": {"name": "Mint kering", "standardAmount": "1 sdt"},
-    "w-fr-002-i6": {"name": "Air lemon", "standardAmount": "1 sdt"},
-    "w-fr-002-i7": {"name": "Garam dan lada", "standardAmount": "secukupnya"},
-    "w-fr-002-i8": {"name": "Cumi", "standardAmount": "450 g"},
-    "w-fr-002-i9": {"name": "Tepung", "standardAmount": "1 mangkuk besar"},
-    "w-fr-002-i10": {"name": "Minyak goreng", "standardAmount": "2,5 cm dalam wajan"},
-    "w-fr-002-i11": {"name": "Air lemon segar", "standardAmount": "secukupnya"},
-    "w-fr-002-i12": {"name": "Garam, lada, oregano kering", "standardAmount": "secukupnya"}
+   "w-fr-002-i1": {
+    "name": "Bawang putih",
+    "standardAmount": "2 siung kecil (cincang halus)"
+   },
+   "w-fr-002-i2": {
+    "name": "Minyak zaitun",
+    "standardAmount": "1 sdm"
+   },
+   "w-fr-002-i3": {
+    "name": "Mentimun",
+    "standardAmount": "1 kecil"
+   },
+   "w-fr-002-i4": {
+    "name": "Yogurt",
+    "standardAmount": "250 g"
+   },
+   "w-fr-002-i5": {
+    "name": "Mint kering",
+    "standardAmount": "1 sdt"
+   },
+   "w-fr-002-i6": {
+    "name": "Air lemon",
+    "standardAmount": "1 sdt"
+   },
+   "w-fr-002-i7": {
+    "name": "Garam dan lada",
+    "standardAmount": "secukupnya"
+   },
+   "w-fr-002-i8": {
+    "name": "Cumi",
+    "standardAmount": "450 g"
+   },
+   "w-fr-002-i9": {
+    "name": "Tepung",
+    "standardAmount": "1 mangkuk besar"
+   },
+   "w-fr-002-i10": {
+    "name": "Minyak goreng",
+    "standardAmount": "2,5 cm dalam wajan"
+   },
+   "w-fr-002-i11": {
+    "name": "Air lemon segar",
+    "standardAmount": "secukupnya"
+   },
+   "w-fr-002-i12": {
+    "name": "Garam, lada, oregano kering",
+    "standardAmount": "secukupnya"
+   }
   },
   "instructions": {
-    "1": "Campur minyak zaitun dan bawang putih dalam mangkuk sedang.",
-    "2": "Iris mentimun tipis, taburi garam dan biarkan berair minimal 15 menit.",
-    "3": "Campur yogurt, mentimun, mint, air lemon, garam dan lada ke minyak bawang. Jika encer, tambah yogurt.",
-    "4": "Bersihkan cumi dan potong badannya jadi cincin 2,5 cm (yang kecil bisa utuh).",
-    "5": "Siapkan semangkuk tepung bergaram dan berlada.",
-    "6": "Panaskan minyak di api besar.",
-    "7": "Balur cumi dengan tepung luar dalam.",
-    "8": "Goreng dalam kelompok kecil.",
-    "9": "Yang kecil sekitar 1 menit, yang besar semenit lebih.",
-    "10": "Tiriskan di tisu dapur dan segera sajikan dengan tzatziki."
+   "1": "Campur minyak zaitun dan bawang putih dalam mangkuk sedang.",
+   "2": "Iris mentimun tipis, taburi garam dan biarkan berair minimal 15 menit.",
+   "3": "Campur yogurt, mentimun, mint, air lemon, garam dan lada ke minyak bawang. Jika encer, tambah yogurt.",
+   "4": "Bersihkan cumi dan potong badannya jadi cincin 2,5 cm (yang kecil bisa utuh).",
+   "5": "Siapkan semangkuk tepung bergaram dan berlada.",
+   "6": "Panaskan minyak di api besar.",
+   "7": "Balur cumi dengan tepung luar dalam.",
+   "8": "Goreng dalam kelompok kecil.",
+   "9": "Yang kecil sekitar 1 menit, yang besar semenit lebih.",
+   "10": "Tiriskan di tisu dapur dan segera sajikan dengan tzatziki."
   },
   "culturalNotes": "Cumi dengan tzatziki adalah lalapan Mediterania yang digemari terutama di Yunani dan Siprus."
-},
-"w-fr-003": {
+ },
+ "w-fr-003": {
   "title": "Calisson",
   "ingredients": {
-    "w-fr-003-i1": {"name": "Almond", "standardAmount": "200 g"},
-    "w-fr-003-i2": {"name": "Gula halus", "standardAmount": "200 g"},
-    "w-fr-003-i3": {"name": "Madu", "standardAmount": "100 g"},
-    "w-fr-003-i4": {"name": "Kayu manis", "standardAmount": "½ sdt"},
-    "w-fr-003-i5": {"name": "Cengkeh", "standardAmount": "¼ sdt"},
-    "w-fr-003-i6": {"name": "Kismis", "standardAmount": "50 g"},
-    "w-fr-003-i7": {"name": "Tepung", "standardAmount": "100 g"},
-    "w-fr-003-i8": {"name": "Telur", "standardAmount": "1"}
+   "w-fr-003-i1": {
+    "name": "Almond",
+    "standardAmount": "200 g"
+   },
+   "w-fr-003-i2": {
+    "name": "Gula halus",
+    "standardAmount": "200 g"
+   },
+   "w-fr-003-i3": {
+    "name": "Madu",
+    "standardAmount": "100 g"
+   },
+   "w-fr-003-i4": {
+    "name": "Kayu manis",
+    "standardAmount": "½ sdt"
+   },
+   "w-fr-003-i5": {
+    "name": "Cengkeh",
+    "standardAmount": "¼ sdt"
+   },
+   "w-fr-003-i6": {
+    "name": "Kismis",
+    "standardAmount": "50 g"
+   },
+   "w-fr-003-i7": {
+    "name": "Tepung",
+    "standardAmount": "100 g"
+   },
+   "w-fr-003-i8": {
+    "name": "Telur",
+    "standardAmount": "1"
+   }
   },
   "instructions": {
-    "1": "Campur tepung almond dan gula halus dalam mangkuk.",
-    "2": "Tambahkan madu, kayu manis, cengkeh dan kismis, aduk rata.",
-    "3": "Tambahkan tepung sedikit-sedikit hingga jadi adonan kaku.",
-    "4": "Tutup dan diamkan 30 menit.",
-    "5": "Bentuk bola kecil dan susun di loyang beralas kertas.",
-    "6": "Panggang pada 180 °C selama 20 menit hingga keemasan.",
-    "7": "Dinginkan dan sajikan."
+   "1": "Campur tepung almond dan gula halus dalam mangkuk.",
+   "2": "Tambahkan madu, kayu manis, cengkeh dan kismis, aduk rata.",
+   "3": "Tambahkan tepung sedikit-sedikit hingga jadi adonan kaku.",
+   "4": "Tutup dan diamkan 30 menit.",
+   "5": "Bentuk bola kecil dan susun di loyang beralas kertas.",
+   "6": "Panggang pada 180 °C selama 20 menit hingga keemasan.",
+   "7": "Dinginkan dan sajikan."
   },
   "culturalNotes": "Calisson adalah manisan tradisional Prancis selatan dengan aroma halus dan rasa manis."
-},
-"w-fr-004": {
+ },
+ "w-fr-004": {
   "title": "Bawang putih konfi",
   "ingredients": {
-    "w-fr-004-i1": {"name": "Bawang putih", "standardAmount": "2 kepala"},
-    "w-fr-004-i2": {"name": "Thyme", "standardAmount": "2 tangkai"},
-    "w-fr-004-i3": {"name": "Minyak zaitun", "standardAmount": "250 ml"},
-    "w-fr-004-i4": {"name": "Garam", "standardAmount": "1 cubit besar"}
+   "w-fr-004-i1": {
+    "name": "Bawang putih",
+    "standardAmount": "2 kepala"
+   },
+   "w-fr-004-i2": {
+    "name": "Thyme",
+    "standardAmount": "2 tangkai"
+   },
+   "w-fr-004-i3": {
+    "name": "Minyak zaitun",
+    "standardAmount": "250 ml"
+   },
+   "w-fr-004-i4": {
+    "name": "Garam",
+    "standardAmount": "1 cubit besar"
+   }
   },
   "instructions": {
-    "1": "Panaskan oven 150 °C (kipas 130 °C).",
-    "2": "Masukkan bawang putih ke wadah oven kecil (sekitar 13 cm) dengan thyme dan garam.",
-    "3": "Tutup sepenuhnya dengan minyak zaitun.",
-    "4": "Masak 1 jam 20 menit hingga minyak mendidih perlahan dan bawang keemasan tua; harus lumer tapi tetap berbentuk.",
-    "5": "Dinginkan dalam minyaknya. Dalam jar steril tahan 2 minggu di kulkas."
+   "1": "Panaskan oven 150 °C (kipas 130 °C).",
+   "2": "Masukkan bawang putih ke wadah oven kecil (sekitar 13 cm) dengan thyme dan garam.",
+   "3": "Tutup sepenuhnya dengan minyak zaitun.",
+   "4": "Masak 1 jam 20 menit hingga minyak mendidih perlahan dan bawang keemasan tua; harus lumer tapi tetap berbentuk.",
+   "5": "Dinginkan dalam minyaknya. Dalam jar steril tahan 2 minggu di kulkas."
   },
   "culturalNotes": "Bawang putih konfi adalah bumbu klasik Prancis untuk hidangan pembuka dan penyedap masakan."
-},
-"w-fr-005": {
+ },
+ "w-fr-005": {
   "title": "Confit de canard (bebek konfi)",
   "ingredients": {
-    "w-fr-005-i1": {"name": "Paha bebek", "standardAmount": "4 (masing-masing 250 g)"},
-    "w-fr-005-i2": {"name": "Lemak bebek", "standardAmount": "750 ml"},
-    "w-fr-005-i3": {"name": "Garam", "standardAmount": "4 sdt"},
-    "w-fr-005-i4": {"name": "Thyme", "standardAmount": "⅓ cangkir"},
-    "w-fr-005-i5": {"name": "Sage", "standardAmount": "⅓ cangkir"},
-    "w-fr-005-i6": {"name": "Rosemary", "standardAmount": "⅓ cangkir"},
-    "w-fr-005-i7": {"name": "Marjoram", "standardAmount": "⅓ cangkir"},
-    "w-fr-005-i8": {"name": "Bawang putih", "standardAmount": "6 siung (geprek berkulit)"},
-    "w-fr-005-i9": {"name": "Bawang merah", "standardAmount": "1 (iris tipis)"},
-    "w-fr-005-i10": {"name": "Lada hitam utuh", "standardAmount": "1 sdm"},
-    "w-fr-005-i11": {"name": "Biji ketumbar", "standardAmount": "1 sdm"},
-    "w-fr-005-i12": {"name": "Bunga lawang", "standardAmount": "8"},
-    "w-fr-005-i13": {"name": "Daun salam", "standardAmount": "2"},
-    "w-fr-005-i14": {"name": "Buah juniper", "standardAmount": "2 sdm"},
-    "w-fr-005-i15": {"name": "Cengkeh", "standardAmount": "8"}
+   "w-fr-005-i1": {
+    "name": "Paha bebek",
+    "standardAmount": "4 (masing-masing 250 g)"
+   },
+   "w-fr-005-i2": {
+    "name": "Lemak bebek",
+    "standardAmount": "750 ml"
+   },
+   "w-fr-005-i3": {
+    "name": "Garam",
+    "standardAmount": "4 sdt"
+   },
+   "w-fr-005-i4": {
+    "name": "Thyme",
+    "standardAmount": "⅓ cangkir"
+   },
+   "w-fr-005-i5": {
+    "name": "Sage",
+    "standardAmount": "⅓ cangkir"
+   },
+   "w-fr-005-i6": {
+    "name": "Rosemary",
+    "standardAmount": "⅓ cangkir"
+   },
+   "w-fr-005-i7": {
+    "name": "Marjoram",
+    "standardAmount": "⅓ cangkir"
+   },
+   "w-fr-005-i8": {
+    "name": "Bawang putih",
+    "standardAmount": "6 siung (geprek berkulit)"
+   },
+   "w-fr-005-i9": {
+    "name": "Bawang merah",
+    "standardAmount": "1 (iris tipis)"
+   },
+   "w-fr-005-i10": {
+    "name": "Lada hitam utuh",
+    "standardAmount": "1 sdm"
+   },
+   "w-fr-005-i11": {
+    "name": "Biji ketumbar",
+    "standardAmount": "1 sdm"
+   },
+   "w-fr-005-i12": {
+    "name": "Bunga lawang",
+    "standardAmount": "8"
+   },
+   "w-fr-005-i13": {
+    "name": "Daun salam",
+    "standardAmount": "2"
+   },
+   "w-fr-005-i14": {
+    "name": "Buah juniper",
+    "standardAmount": "2 sdm"
+   },
+   "w-fr-005-i15": {
+    "name": "Cengkeh",
+    "standardAmount": "8"
+   }
   },
   "instructions": {
-    "1": "Campur garam dan rempah dalam mangkuk, gosokkan ke paha bebek.",
-    "2": "Susun di wadah dalam, tutup dengan rempah, tutup rapat dan simpan di kulkas 24 jam.",
-    "3": "Setelah 24 jam bilas dengan air dingin dan keringkan sempurna.",
-    "4": "Letakkan di loyang, tutup dengan lemak dan rempah, lapisi aluminium foil.",
-    "5": "Masak pada 100 °C selama 2-3 jam hingga daging empuk.",
-    "6": "Angkat, dinginkan sebentar dan saring lemaknya ke wadah tertutup.",
-    "7": "Masukkan bebek ke wadah dalam, tutup dengan lemak saringan. Tahan 6 bulan di kulkas.",
-    "8": "Untuk menyajikan, panggang pada 200 °C selama 10-15 menit hingga kulit renyah."
+   "1": "Campur garam dan rempah dalam mangkuk, gosokkan ke paha bebek.",
+   "2": "Susun di wadah dalam, tutup dengan rempah, tutup rapat dan simpan di kulkas 24 jam.",
+   "3": "Setelah 24 jam bilas dengan air dingin dan keringkan sempurna.",
+   "4": "Letakkan di loyang, tutup dengan lemak dan rempah, lapisi aluminium foil.",
+   "5": "Masak pada 100 °C selama 2-3 jam hingga daging empuk.",
+   "6": "Angkat, dinginkan sebentar dan saring lemaknya ke wadah tertutup.",
+   "7": "Masukkan bebek ke wadah dalam, tutup dengan lemak saringan. Tahan 6 bulan di kulkas.",
+   "8": "Untuk menyajikan, panggang pada 200 °C selama 10-15 menit hingga kulit renyah."
   },
   "culturalNotes": "Konfi bebek adalah klasik Prancis di mana paha dimasak perlahan dalam lemaknya; disajikan dengan kentang tumbuk atau sayur panggang."
-},
-"w-fr-006": {
+ },
+ "w-fr-006": {
   "title": "Flamiche (tart daun bawang)",
   "ingredients": {
-    "w-fr-006-i1": {"name": "Tepung", "standardAmount": "350 g"},
-    "w-fr-006-i2": {"name": "Mentega", "standardAmount": "175 g (suhu ruang)"},
-    "w-fr-006-i3": {"name": "Garam", "standardAmount": "1 cubit"},
-    "w-fr-006-i4": {"name": "Susu", "standardAmount": "7 sdm"},
-    "w-fr-006-i5": {"name": "Bubuk kari", "standardAmount": "½ sdt"},
-    "w-fr-006-i6": {"name": "Daun bawang", "standardAmount": "900 g (cincang halus)"},
-    "w-fr-006-i7": {"name": "Mentega", "standardAmount": "40 g"},
-    "w-fr-006-i8": {"name": "Kuning telur", "standardAmount": "4 (3 untuk isi + 1 untuk olesan)"},
-    "w-fr-006-i9": {"name": "Crème fraîche", "standardAmount": "200 g"},
-    "w-fr-006-i10": {"name": "Pala", "standardAmount": "¼ sdt"},
-    "w-fr-006-i11": {"name": "Garam dan lada hitam", "standardAmount": "1 cubit"}
+   "w-fr-006-i1": {
+    "name": "Tepung",
+    "standardAmount": "350 g"
+   },
+   "w-fr-006-i2": {
+    "name": "Mentega",
+    "standardAmount": "175 g (suhu ruang)"
+   },
+   "w-fr-006-i3": {
+    "name": "Garam",
+    "standardAmount": "1 cubit"
+   },
+   "w-fr-006-i4": {
+    "name": "Susu",
+    "standardAmount": "7 sdm"
+   },
+   "w-fr-006-i5": {
+    "name": "Bubuk kari",
+    "standardAmount": "½ sdt"
+   },
+   "w-fr-006-i6": {
+    "name": "Daun bawang",
+    "standardAmount": "900 g (cincang halus)"
+   },
+   "w-fr-006-i7": {
+    "name": "Mentega",
+    "standardAmount": "40 g"
+   },
+   "w-fr-006-i8": {
+    "name": "Kuning telur",
+    "standardAmount": "4 (3 untuk isi + 1 untuk olesan)"
+   },
+   "w-fr-006-i9": {
+    "name": "Crème fraîche",
+    "standardAmount": "200 g"
+   },
+   "w-fr-006-i10": {
+    "name": "Pala",
+    "standardAmount": "¼ sdt"
+   },
+   "w-fr-006-i11": {
+    "name": "Garam dan lada hitam",
+    "standardAmount": "1 cubit"
+   }
   },
   "instructions": {
-    "1": "Gosok tepung, mentega dan garam dalam mangkuk besar hingga seperti remah.",
-    "2": "Tambahkan susu sedikit-sedikit hingga jadi adonan.",
-    "3": "Tutup dan dinginkan 30 menit.",
-    "4": "Lelehkan mentega dalam wajan besar, tumis daun bawang hingga lunak dan keemasan.",
-    "5": "Tambahkan kari, aduk 1 menit.",
-    "6": "Di mangkuk lain campur kuning telur, crème fraîche, pala, garam dan lada.",
-    "7": "Masukkan daun bawang tumis ke campuran telur.",
-    "8": "Bentangkan adonan di cetakan dan tuang isian.",
-    "9": "Tutup dengan adonan atas dan rapatkan pinggirnya.",
-    "10": "Olesi dengan sisa kuning telur.",
-    "11": "Panggang pada 180 °C selama 45 menit hingga keemasan.",
-    "12": "Diamkan 10 menit lalu sajikan."
+   "1": "Gosok tepung, mentega dan garam dalam mangkuk besar hingga seperti remah.",
+   "2": "Tambahkan susu sedikit-sedikit hingga jadi adonan.",
+   "3": "Tutup dan dinginkan 30 menit.",
+   "4": "Lelehkan mentega dalam wajan besar, tumis daun bawang hingga lunak dan keemasan.",
+   "5": "Tambahkan kari, aduk 1 menit.",
+   "6": "Di mangkuk lain campur kuning telur, crème fraîche, pala, garam dan lada.",
+   "7": "Masukkan daun bawang tumis ke campuran telur.",
+   "8": "Bentangkan adonan di cetakan dan tuang isian.",
+   "9": "Tutup dengan adonan atas dan rapatkan pinggirnya.",
+   "10": "Olesi dengan sisa kuning telur.",
+   "11": "Panggang pada 180 °C selama 45 menit hingga keemasan.",
+   "12": "Diamkan 10 menit lalu sajikan."
   },
   "culturalNotes": "Flamiche adalah tart daun bawang tradisional Prancis utara."
-},
-"w-fr-007": {
+ },
+ "w-fr-007": {
   "title": "Kentang fondant",
   "ingredients": {
-    "w-fr-007-i1": {"name": "Kentang besar bertepung", "standardAmount": "4 (masing-masing 400 g)"},
-    "w-fr-007-i2": {"name": "Garam", "standardAmount": "¾ sdt"},
-    "w-fr-007-i3": {"name": "Lada hitam", "standardAmount": "½ sdt"},
-    "w-fr-007-i4": {"name": "Minyak zaitun extra virgin", "standardAmount": "2 sdm"},
-    "w-fr-007-i5": {"name": "Mentega tawar", "standardAmount": "3 sdm (50 g)"},
-    "w-fr-007-i6": {"name": "Thyme", "standardAmount": "6 tangkai"},
-    "w-fr-007-i7": {"name": "Kaldu ayam atau sayur", "standardAmount": "240 ml (rendah garam)"}
+   "w-fr-007-i1": {
+    "name": "Kentang besar bertepung",
+    "standardAmount": "4 (masing-masing 400 g)"
+   },
+   "w-fr-007-i2": {
+    "name": "Garam",
+    "standardAmount": "¾ sdt"
+   },
+   "w-fr-007-i3": {
+    "name": "Lada hitam",
+    "standardAmount": "½ sdt"
+   },
+   "w-fr-007-i4": {
+    "name": "Minyak zaitun extra virgin",
+    "standardAmount": "2 sdm"
+   },
+   "w-fr-007-i5": {
+    "name": "Mentega tawar",
+    "standardAmount": "3 sdm (50 g)"
+   },
+   "w-fr-007-i6": {
+    "name": "Thyme",
+    "standardAmount": "6 tangkai"
+   },
+   "w-fr-007-i7": {
+    "name": "Kaldu ayam atau sayur",
+    "standardAmount": "240 ml (rendah garam)"
+   }
   },
   "instructions": {
-    "1": "Panaskan oven 200 °C (kipas 180 °C).",
-    "2": "Potong kentang menjadi silinder diameter sekitar 6 cm, tinggi 7 cm, bagi jadi 8 silinder 3,5 cm.",
-    "3": "Keringkan dan gosok dengan setengah minyak, garam dan lada.",
-    "4": "Panaskan sisa minyak dalam wajan tahan oven di api sedang-besar, goreng tiap sisi 6-8 menit hingga keemasan.",
-    "5": "Tambahkan mentega dan thyme; begitu leleh, siramkan ke kentang. Tuang kaldu, didihkan dan masak di oven 30 menit, sirami lagi setelah 15 menit.",
-    "6": "Sirami lagi dan sajikan. Gaya restoran dengan steak, saus béarnaise dan buncis mentega."
+   "1": "Panaskan oven 200 °C (kipas 180 °C).",
+   "2": "Potong kentang menjadi silinder diameter sekitar 6 cm, tinggi 7 cm, bagi jadi 8 silinder 3,5 cm.",
+   "3": "Keringkan dan gosok dengan setengah minyak, garam dan lada.",
+   "4": "Panaskan sisa minyak dalam wajan tahan oven di api sedang-besar, goreng tiap sisi 6-8 menit hingga keemasan.",
+   "5": "Tambahkan mentega dan thyme; begitu leleh, siramkan ke kentang. Tuang kaldu, didihkan dan masak di oven 30 menit, sirami lagi setelah 15 menit.",
+   "6": "Sirami lagi dan sajikan. Gaya restoran dengan steak, saus béarnaise dan buncis mentega."
   },
   "culturalNotes": "Kentang fondant adalah kentang oven Prancis: keemasan di luar, lembut di dalam."
-},
-"w-fr-008": {
+ },
+ "w-fr-008": {
   "title": "Crêpe cokelat",
   "ingredients": {
-    "w-fr-008-i1": {"name": "Mentega tawar", "standardAmount": "25 g"},
-    "w-fr-008-i2": {"name": "Tepung", "standardAmount": "150 g"},
-    "w-fr-008-i3": {"name": "Telur", "standardAmount": "2 besar"},
-    "w-fr-008-i4": {"name": "Susu murni", "standardAmount": "275 ml"},
-    "w-fr-008-i5": {"name": "Garam", "standardAmount": "1 cubit"},
-    "w-fr-008-i6": {"name": "Bubuk vanila", "standardAmount": "¼ sdt (opsional)"},
-    "w-fr-008-i7": {"name": "Gula halus", "standardAmount": "1 sdm"},
-    "w-fr-008-i8": {"name": "Kakao tawar", "standardAmount": "1 sdm"}
+   "w-fr-008-i1": {
+    "name": "Mentega tawar",
+    "standardAmount": "25 g"
+   },
+   "w-fr-008-i2": {
+    "name": "Tepung",
+    "standardAmount": "150 g"
+   },
+   "w-fr-008-i3": {
+    "name": "Telur",
+    "standardAmount": "2 besar"
+   },
+   "w-fr-008-i4": {
+    "name": "Susu murni",
+    "standardAmount": "275 ml"
+   },
+   "w-fr-008-i5": {
+    "name": "Garam",
+    "standardAmount": "1 cubit"
+   },
+   "w-fr-008-i6": {
+    "name": "Bubuk vanila",
+    "standardAmount": "¼ sdt (opsional)"
+   },
+   "w-fr-008-i7": {
+    "name": "Gula halus",
+    "standardAmount": "1 sdm"
+   },
+   "w-fr-008-i8": {
+    "name": "Kakao tawar",
+    "standardAmount": "1 sdm"
+   }
   },
   "instructions": {
-    "1": "Lelehkan mentega di wajan crêpe (biarkan sedikit kecoklatan untuk aroma kacang).",
-    "2": "Campur tepung, gula halus, kakao, garam dan vanila dalam mangkuk besar; pecahkan telur di tengah dan kocok dengan mentega leleh hingga licin.",
-    "3": "Tambahkan seperempat susu, lalu sisanya sedikit-sedikit. Adonan encer; memang begitu.",
-    "4": "Lap sisa mentega, panaskan di api sedang-besar dan tuang sesendok sayur adonan; biarkan menyebar tipis.",
-    "5": "Masak 2-3 menit hingga berbuih, balik dan masak beberapa menit lagi.",
-    "6": "Kecilkan api sedikit, lap wajan dan ulangi untuk 6-8 crêpe."
+   "1": "Lelehkan mentega di wajan crêpe (biarkan sedikit kecoklatan untuk aroma kacang).",
+   "2": "Campur tepung, gula halus, kakao, garam dan vanila dalam mangkuk besar; pecahkan telur di tengah dan kocok dengan mentega leleh hingga licin.",
+   "3": "Tambahkan seperempat susu, lalu sisanya sedikit-sedikit. Adonan encer; memang begitu.",
+   "4": "Lap sisa mentega, panaskan di api sedang-besar dan tuang sesendok sayur adonan; biarkan menyebar tipis.",
+   "5": "Masak 2-3 menit hingga berbuih, balik dan masak beberapa menit lagi.",
+   "6": "Kecilkan api sedikit, lap wajan dan ulangi untuk 6-8 crêpe."
   },
   "culturalNotes": "Crêpe adalah sarapan Prancis kesukaan, disajikan dengan cokelat, madu atau stroberi."
-},
-"w-fr-009": {
+ },
+ "w-fr-009": {
   "title": "Truffle cokelat dengan ganache",
   "ingredients": {
-    "w-fr-009-i1": {"name": "Cokelat hitam", "standardAmount": "285 g"},
-    "w-fr-009-i2": {"name": "Mentega tawar", "standardAmount": "30 g"},
-    "w-fr-009-i3": {"name": "Krim", "standardAmount": "125 ml"},
-    "w-fr-009-i4": {"name": "Kelapa parut", "standardAmount": "125 g"},
-    "w-fr-009-i5": {"name": "Kakao tawar", "standardAmount": "60 g"},
-    "w-fr-009-i6": {"name": "Kacang tumbuk", "standardAmount": "125 g"},
-    "w-fr-009-i7": {"name": "Meses warna-warni", "standardAmount": "85 g"},
-    "w-fr-009-i8": {"name": "Gula halus", "standardAmount": "60 g"}
+   "w-fr-009-i1": {
+    "name": "Cokelat hitam",
+    "standardAmount": "285 g"
+   },
+   "w-fr-009-i2": {
+    "name": "Mentega tawar",
+    "standardAmount": "30 g"
+   },
+   "w-fr-009-i3": {
+    "name": "Krim",
+    "standardAmount": "125 ml"
+   },
+   "w-fr-009-i4": {
+    "name": "Kelapa parut",
+    "standardAmount": "125 g"
+   },
+   "w-fr-009-i5": {
+    "name": "Kakao tawar",
+    "standardAmount": "60 g"
+   },
+   "w-fr-009-i6": {
+    "name": "Kacang tumbuk",
+    "standardAmount": "125 g"
+   },
+   "w-fr-009-i7": {
+    "name": "Meses warna-warni",
+    "standardAmount": "85 g"
+   },
+   "w-fr-009-i8": {
+    "name": "Gula halus",
+    "standardAmount": "60 g"
+   }
   },
   "instructions": {
-    "1": "Masukkan cokelat, krim dan mentega ke mangkuk tahan panas, panaskan di microwave 4×30 detik sambil diaduk.",
-    "2": "Tutup mangkuk, diamkan 5 menit dan aduk hingga licin; ganache siap.",
-    "3": "Dinginkan di kulkas 6 jam hingga mengeras. Jangan dibekukan.",
-    "4": "Dinginkan juga piring untuk truffle.",
-    "5": "Setelah 6 jam bentuk bola kecil dengan sendok makan.",
-    "6": "Gulingkan di kelapa, kakao, kacang, meses atau gula halus.",
-    "7": "Susun di piring dingin dan biarkan mengeras sempurna."
+   "1": "Masukkan cokelat, krim dan mentega ke mangkuk tahan panas, panaskan di microwave 4×30 detik sambil diaduk.",
+   "2": "Tutup mangkuk, diamkan 5 menit dan aduk hingga licin; ganache siap.",
+   "3": "Dinginkan di kulkas 6 jam hingga mengeras. Jangan dibekukan.",
+   "4": "Dinginkan juga piring untuk truffle.",
+   "5": "Setelah 6 jam bentuk bola kecil dengan sendok makan.",
+   "6": "Gulingkan di kelapa, kakao, kacang, meses atau gula halus.",
+   "7": "Susun di piring dingin dan biarkan mengeras sempurna."
   },
   "culturalNotes": "Ganache adalah campuran cokelat-krim yang lembut, jantung banyak manisan Prancis."
-},
-"w-fr-010": {
+ },
+ "w-fr-010": {
   "title": "Gratin dauphinois",
   "ingredients": {
-    "w-fr-010-i1": {"name": "Kentang", "standardAmount": "750 g"},
-    "w-fr-010-i2": {"name": "Bawang putih", "standardAmount": "2-3 siung (cincang halus)"},
-    "w-fr-010-i3": {"name": "Susu murni", "standardAmount": "275 ml"},
-    "w-fr-010-i4": {"name": "Krim kental", "standardAmount": "150 ml"},
-    "w-fr-010-i5": {"name": "Pala", "standardAmount": "¼ sdt"},
-    "w-fr-010-i6": {"name": "Garam dan lada hitam", "standardAmount": "secukupnya"},
-    "w-fr-010-i7": {"name": "Thyme segar", "standardAmount": "½ sdt"},
-    "w-fr-010-i8": {"name": "Mentega", "standardAmount": "sedikit (untuk cetakan)"},
-    "w-fr-010-i9": {"name": "Emmental atau Gruyère", "standardAmount": "100 g (opsional)"}
+   "w-fr-010-i1": {
+    "name": "Kentang",
+    "standardAmount": "750 g"
+   },
+   "w-fr-010-i2": {
+    "name": "Bawang putih",
+    "standardAmount": "2-3 siung (cincang halus)"
+   },
+   "w-fr-010-i3": {
+    "name": "Susu murni",
+    "standardAmount": "275 ml"
+   },
+   "w-fr-010-i4": {
+    "name": "Krim kental",
+    "standardAmount": "150 ml"
+   },
+   "w-fr-010-i5": {
+    "name": "Pala",
+    "standardAmount": "¼ sdt"
+   },
+   "w-fr-010-i6": {
+    "name": "Garam dan lada hitam",
+    "standardAmount": "secukupnya"
+   },
+   "w-fr-010-i7": {
+    "name": "Thyme segar",
+    "standardAmount": "½ sdt"
+   },
+   "w-fr-010-i8": {
+    "name": "Mentega",
+    "standardAmount": "sedikit (untuk cetakan)"
+   },
+   "w-fr-010-i9": {
+    "name": "Emmental atau Gruyère",
+    "standardAmount": "100 g (opsional)"
+   }
   },
   "instructions": {
-    "1": "Kupas kentang (atau biarkan berkulit) dan iris 3 mm.",
-    "2": "Panaskan oven 190 °C (kipas 170 °C).",
-    "3": "Didihkan susu, krim dan bawang putih, kecilkan api dan tambahkan pala, garam, lada dan kentang.",
-    "4": "Rebus sekitar 5 menit sambil membalik irisan. Keju bisa ditambahkan di sini.",
-    "5": "Olesi cetakan dengan mentega dan susun kentang merata.",
-    "6": "Panggang sekitar 45 menit hingga keemasan."
+   "1": "Kupas kentang (atau biarkan berkulit) dan iris 3 mm.",
+   "2": "Panaskan oven 190 °C (kipas 170 °C).",
+   "3": "Didihkan susu, krim dan bawang putih, kecilkan api dan tambahkan pala, garam, lada dan kentang.",
+   "4": "Rebus sekitar 5 menit sambil membalik irisan. Keju bisa ditambahkan di sini.",
+   "5": "Olesi cetakan dengan mentega dan susun kentang merata.",
+   "6": "Panggang sekitar 45 menit hingga keemasan."
   },
   "culturalNotes": "Hidangan tradisional daerah Dauphiné: irisan tipis kentang digratin dengan susu, krim dan pala."
-},
-"w-fr-011": {
+ },
+ "w-fr-011": {
   "title": "Pain d'épices (roti rempah)",
   "ingredients": {
-    "w-fr-011-i1": {"name": "Air", "standardAmount": "250 ml"},
-    "w-fr-011-i2": {"name": "Madu", "standardAmount": "255 g"},
-    "w-fr-011-i3": {"name": "Kapulaga", "standardAmount": "4 polong"},
-    "w-fr-011-i4": {"name": "Cengkeh", "standardAmount": "2"},
-    "w-fr-011-i5": {"name": "Bunga lawang", "standardAmount": "2"},
-    "w-fr-011-i6": {"name": "Gula tebu cokelat", "standardAmount": "100 g"},
-    "w-fr-011-i7": {"name": "Mentega tawar", "standardAmount": "155 g"},
-    "w-fr-011-i8": {"name": "Tepung gandum hitam", "standardAmount": "255 g"},
-    "w-fr-011-i9": {"name": "Baking powder", "standardAmount": "2 sdt"},
-    "w-fr-011-i10": {"name": "Garam", "standardAmount": "1 cubit besar"},
-    "w-fr-011-i11": {"name": "Campuran rempah", "standardAmount": "1½ sdt"},
-    "w-fr-011-i12": {"name": "Kacang-kacangan", "standardAmount": "1 sdm"}
+   "w-fr-011-i1": {
+    "name": "Air",
+    "standardAmount": "250 ml"
+   },
+   "w-fr-011-i2": {
+    "name": "Madu",
+    "standardAmount": "255 g"
+   },
+   "w-fr-011-i3": {
+    "name": "Kapulaga",
+    "standardAmount": "4 polong"
+   },
+   "w-fr-011-i4": {
+    "name": "Cengkeh",
+    "standardAmount": "2"
+   },
+   "w-fr-011-i5": {
+    "name": "Bunga lawang",
+    "standardAmount": "2"
+   },
+   "w-fr-011-i6": {
+    "name": "Gula tebu cokelat",
+    "standardAmount": "100 g"
+   },
+   "w-fr-011-i7": {
+    "name": "Mentega tawar",
+    "standardAmount": "155 g"
+   },
+   "w-fr-011-i8": {
+    "name": "Tepung gandum hitam",
+    "standardAmount": "255 g"
+   },
+   "w-fr-011-i9": {
+    "name": "Baking powder",
+    "standardAmount": "2 sdt"
+   },
+   "w-fr-011-i10": {
+    "name": "Garam",
+    "standardAmount": "1 cubit besar"
+   },
+   "w-fr-011-i11": {
+    "name": "Campuran rempah",
+    "standardAmount": "1½ sdt"
+   },
+   "w-fr-011-i12": {
+    "name": "Kacang-kacangan",
+    "standardAmount": "1 sdm"
+   }
   },
   "instructions": {
-    "1": "Olesi cetakan kue dengan mentega dan panaskan oven 180 °C (kipas 160 °C).",
-    "2": "Didihkan air, madu, gula dan rempah dalam panci, lelehkan mentega, matikan api dan diamkan 5 menit.",
-    "3": "Campur tepung gandum hitam, baking powder, garam dan bubuk rempah dalam mangkuk, masukkan campuran madu panas sedikit-sedikit hingga licin.",
-    "4": "Isi cetakan dua pertiga dan panggang 40-50 menit hingga keemasan tua; tusuk gigi harus keluar bersih.",
-    "5": "Diamkan 10 menit dalam cetakan lalu balik ke rak. Hias dengan kacang dan bunga lawang."
+   "1": "Olesi cetakan kue dengan mentega dan panaskan oven 180 °C (kipas 160 °C).",
+   "2": "Didihkan air, madu, gula dan rempah dalam panci, lelehkan mentega, matikan api dan diamkan 5 menit.",
+   "3": "Campur tepung gandum hitam, baking powder, garam dan bubuk rempah dalam mangkuk, masukkan campuran madu panas sedikit-sedikit hingga licin.",
+   "4": "Isi cetakan dua pertiga dan panggang 40-50 menit hingga keemasan tua; tusuk gigi harus keluar bersih.",
+   "5": "Diamkan 10 menit dalam cetakan lalu balik ke rak. Hias dengan kacang dan bunga lawang."
   },
   "culturalNotes": "Pain d'épices adalah roti rempah tradisional Prancis dengan aroma hangat dan wangi."
-},
-"w-fr-012": {
+ },
+ "w-fr-012": {
   "title": "Pissaladière",
   "ingredients": {
-    "w-fr-012-i1": {"name": "Minyak zaitun", "standardAmount": "4 sdm + untuk loyang"},
-    "w-fr-012-i2": {"name": "Bawang bombai", "standardAmount": "1 kg (iris sangat tipis)"},
-    "w-fr-012-i3": {"name": "Thyme", "standardAmount": "1 ikat kecil"},
-    "w-fr-012-i4": {"name": "Daun salam", "standardAmount": "2"},
-    "w-fr-012-i5": {"name": "Fillet teri", "standardAmount": "80 g (ditiriskan)"},
-    "w-fr-012-i6": {"name": "Zaitun hitam", "standardAmount": "80 g (tanpa biji)"},
-    "w-fr-012-i7": {"name": "Parmesan", "standardAmount": "20 g (diparut)"},
-    "w-fr-012-i8": {"name": "Mentega tawar dingin", "standardAmount": "200 g"},
-    "w-fr-012-i9": {"name": "Air lemon", "standardAmount": "1 sdt"},
-    "w-fr-012-i10": {"name": "Tepung protein tinggi", "standardAmount": "200 g + untuk meja"},
-    "w-fr-012-i11": {"name": "Garam", "standardAmount": "1 sdt"},
-    "w-fr-012-i12": {"name": "Air es", "standardAmount": "125 ml"}
+   "w-fr-012-i1": {
+    "name": "Minyak zaitun",
+    "standardAmount": "4 sdm + untuk loyang"
+   },
+   "w-fr-012-i2": {
+    "name": "Bawang bombai",
+    "standardAmount": "1 kg (iris sangat tipis)"
+   },
+   "w-fr-012-i3": {
+    "name": "Thyme",
+    "standardAmount": "1 ikat kecil"
+   },
+   "w-fr-012-i4": {
+    "name": "Daun salam",
+    "standardAmount": "2"
+   },
+   "w-fr-012-i5": {
+    "name": "Fillet teri",
+    "standardAmount": "80 g (ditiriskan)"
+   },
+   "w-fr-012-i6": {
+    "name": "Zaitun hitam",
+    "standardAmount": "80 g (tanpa biji)"
+   },
+   "w-fr-012-i7": {
+    "name": "Parmesan",
+    "standardAmount": "20 g (diparut)"
+   },
+   "w-fr-012-i8": {
+    "name": "Mentega tawar dingin",
+    "standardAmount": "200 g"
+   },
+   "w-fr-012-i9": {
+    "name": "Air lemon",
+    "standardAmount": "1 sdt"
+   },
+   "w-fr-012-i10": {
+    "name": "Tepung protein tinggi",
+    "standardAmount": "200 g + untuk meja"
+   },
+   "w-fr-012-i11": {
+    "name": "Garam",
+    "standardAmount": "1 sdt"
+   },
+   "w-fr-012-i12": {
+    "name": "Air es",
+    "standardAmount": "125 ml"
+   }
   },
   "instructions": {
-    "1": "Adonan: parut kasar mentega, taburi tepung dalam mangkuk dan bekukan 30 menit (atau dinginkan 1 jam).",
-    "2": "Campur air lemon dengan 125 ml air es. Masukkan sisa tepung dan garam ke mangkuk besar, tambahkan mentega beku dan aduk dengan ujung jari.",
-    "3": "Tuang dua pertiga air lemon dan satukan dengan pisau. Jika kering, tambah sedikit air. Adonan beremah tapi menyatu saat ditekan.",
-    "4": "Balik ke permukaan bertepung, uleni ringan menjadi persegi tebal, bungkus dan dinginkan 20 menit.",
-    "5": "Giling menjadi persegi 20×30 cm; garis mentega tetap terlihat.",
-    "6": "Panaskan minyak zaitun dalam wajan besar di api sedang-besar, masukkan bawang dengan garam, thyme dan salam, masak perlahan 40-45 menit sambil diaduk hingga keemasan tua seperti selai. Dinginkan.",
-    "7": "Olesi loyang tipis, giling adonan 25×35 cm, bentangkan, buat tepian dan dinginkan 20 menit.",
-    "8": "Panaskan oven 220 °C (kipas 200 °C). Sebarkan bawang, susun teri pola belah ketupat, letakkan zaitun di tengah. Taburi parmesan dan panggang 30 menit.",
-    "9": "Taburi thyme, diamkan 10 menit dan potong kotak-kotak."
+   "1": "Adonan: parut kasar mentega, taburi tepung dalam mangkuk dan bekukan 30 menit (atau dinginkan 1 jam).",
+   "2": "Campur air lemon dengan 125 ml air es. Masukkan sisa tepung dan garam ke mangkuk besar, tambahkan mentega beku dan aduk dengan ujung jari.",
+   "3": "Tuang dua pertiga air lemon dan satukan dengan pisau. Jika kering, tambah sedikit air. Adonan beremah tapi menyatu saat ditekan.",
+   "4": "Balik ke permukaan bertepung, uleni ringan menjadi persegi tebal, bungkus dan dinginkan 20 menit.",
+   "5": "Giling menjadi persegi 20×30 cm; garis mentega tetap terlihat.",
+   "6": "Panaskan minyak zaitun dalam wajan besar di api sedang-besar, masukkan bawang dengan garam, thyme dan salam, masak perlahan 40-45 menit sambil diaduk hingga keemasan tua seperti selai. Dinginkan.",
+   "7": "Olesi loyang tipis, giling adonan 25×35 cm, bentangkan, buat tepian dan dinginkan 20 menit.",
+   "8": "Panaskan oven 220 °C (kipas 200 °C). Sebarkan bawang, susun teri pola belah ketupat, letakkan zaitun di tengah. Taburi parmesan dan panggang 30 menit.",
+   "9": "Taburi thyme, diamkan 10 menit dan potong kotak-kotak."
   },
   "culturalNotes": "Pissaladière adalah spesialisasi Provence: adonan tipis dengan bawang karamel, teri dan zaitun hitam."
-},
-"w-fr-013": {
+ },
+ "w-fr-013": {
   "title": "Ratatouille",
   "ingredients": {
-    "w-fr-013-i1": {"name": "Minyak zaitun", "standardAmount": "⅓-¼ cangkir"},
-    "w-fr-013-i2": {"name": "Bawang bombai", "standardAmount": "1 besar (iris tipis)"},
-    "w-fr-013-i3": {"name": "Paprika merah", "standardAmount": "1 (potongan)"},
-    "w-fr-013-i4": {"name": "Paprika kuning", "standardAmount": "1 (potongan)"},
-    "w-fr-013-i5": {"name": "Bawang putih", "standardAmount": "6 siung (iris tipis)"},
-    "w-fr-013-i6": {"name": "Zucchini", "standardAmount": "680 g (irisan)"},
-    "w-fr-013-i7": {"name": "Terong", "standardAmount": "1 kecil (dadu)"},
-    "w-fr-013-i8": {"name": "Tomat roma", "standardAmount": "4 (cincang kasar)"},
-    "w-fr-013-i9": {"name": "Rosemary segar", "standardAmount": "¼ sdt (cincang halus)"},
-    "w-fr-013-i10": {"name": "Thyme segar", "standardAmount": "1 sdt (cincang halus)"},
-    "w-fr-013-i11": {"name": "Garam", "standardAmount": "secukupnya"},
-    "w-fr-013-i12": {"name": "Lada", "standardAmount": "secukupnya"}
+   "w-fr-013-i1": {
+    "name": "Minyak zaitun",
+    "standardAmount": "⅓-¼ cangkir"
+   },
+   "w-fr-013-i2": {
+    "name": "Bawang bombai",
+    "standardAmount": "1 besar (iris tipis)"
+   },
+   "w-fr-013-i3": {
+    "name": "Paprika merah",
+    "standardAmount": "1 (potongan)"
+   },
+   "w-fr-013-i4": {
+    "name": "Paprika kuning",
+    "standardAmount": "1 (potongan)"
+   },
+   "w-fr-013-i5": {
+    "name": "Bawang putih",
+    "standardAmount": "6 siung (iris tipis)"
+   },
+   "w-fr-013-i6": {
+    "name": "Zucchini",
+    "standardAmount": "680 g (irisan)"
+   },
+   "w-fr-013-i7": {
+    "name": "Terong",
+    "standardAmount": "1 kecil (dadu)"
+   },
+   "w-fr-013-i8": {
+    "name": "Tomat roma",
+    "standardAmount": "4 (cincang kasar)"
+   },
+   "w-fr-013-i9": {
+    "name": "Rosemary segar",
+    "standardAmount": "¼ sdt (cincang halus)"
+   },
+   "w-fr-013-i10": {
+    "name": "Thyme segar",
+    "standardAmount": "1 sdt (cincang halus)"
+   },
+   "w-fr-013-i11": {
+    "name": "Garam",
+    "standardAmount": "secukupnya"
+   },
+   "w-fr-013-i12": {
+    "name": "Lada",
+    "standardAmount": "secukupnya"
+   }
   },
   "instructions": {
-    "1": "Panaskan wajan besar atau panci hingga benar-benar panas.",
-    "2": "Masukkan minyak zaitun, bawang dan paprika, tumis hingga berwarna.",
-    "3": "Tambahkan bawang putih, zucchini dan terong, tumis hingga berwarna.",
-    "4": "Masukkan tomat, rosemary, thyme, garam dan lada.",
-    "5": "Sajikan panas atau dingin."
+   "1": "Panaskan wajan besar atau panci hingga benar-benar panas.",
+   "2": "Masukkan minyak zaitun, bawang dan paprika, tumis hingga berwarna.",
+   "3": "Tambahkan bawang putih, zucchini dan terong, tumis hingga berwarna.",
+   "4": "Masukkan tomat, rosemary, thyme, garam dan lada.",
+   "5": "Sajikan panas atau dingin."
   },
   "culturalNotes": "Ratatouille adalah hidangan sayur Prancis paling terkenal dari sayuran musim panas."
-},
-"w-fr-014": {
+ },
+ "w-fr-014": {
   "title": "Salade niçoise",
   "ingredients": {
-    "w-fr-014-i1": {"name": "Bawang putih", "standardAmount": "1 siung"},
-    "w-fr-014-i2": {"name": "Garam", "standardAmount": "secukupnya"},
-    "w-fr-014-i3": {"name": "Minyak zaitun", "standardAmount": "80 ml"},
-    "w-fr-014-i4": {"name": "Air lemon segar", "standardAmount": "2 sdm"},
-    "w-fr-014-i5": {"name": "Mustard Dijon", "standardAmount": "1 sdm"},
-    "w-fr-014-i6": {"name": "Bawang merah", "standardAmount": "1 (cincang halus)"},
-    "w-fr-014-i7": {"name": "Lada hitam", "standardAmount": "secukupnya"},
-    "w-fr-014-i8": {"name": "Kentang muda kecil", "standardAmount": "450 g (rebus)"},
-    "w-fr-014-i9": {"name": "Buncis", "standardAmount": "225 g (blansir)"},
-    "w-fr-014-i10": {"name": "Tomat ceri", "standardAmount": "340 g (belah dua)"},
-    "w-fr-014-i11": {"name": "Zaitun hitam (niçoise)", "standardAmount": "120 ml"},
-    "w-fr-014-i12": {"name": "Artichoke marinasi", "standardAmount": "225 g"},
-    "w-fr-014-i13": {"name": "Teri", "standardAmount": "8 fillet (dibasuh, ditiriskan)"},
-    "w-fr-014-i14": {"name": "Telur rebus", "standardAmount": "4 (belah dua)"},
-    "w-fr-014-i15": {"name": "Mentimun", "standardAmount": "1 kecil (iris tipis)"},
-    "w-fr-014-i16": {"name": "Tuna kaleng berminyak", "standardAmount": "3 kaleng (masing-masing 115 g, ditiriskan)"},
-    "w-fr-014-i17": {"name": "Bawang merah", "standardAmount": "½ (iris tipis)"}
+   "w-fr-014-i1": {
+    "name": "Bawang putih",
+    "standardAmount": "1 siung"
+   },
+   "w-fr-014-i2": {
+    "name": "Garam",
+    "standardAmount": "secukupnya"
+   },
+   "w-fr-014-i3": {
+    "name": "Minyak zaitun",
+    "standardAmount": "80 ml"
+   },
+   "w-fr-014-i4": {
+    "name": "Air lemon segar",
+    "standardAmount": "2 sdm"
+   },
+   "w-fr-014-i5": {
+    "name": "Mustard Dijon",
+    "standardAmount": "1 sdm"
+   },
+   "w-fr-014-i6": {
+    "name": "Bawang merah",
+    "standardAmount": "1 (cincang halus)"
+   },
+   "w-fr-014-i7": {
+    "name": "Lada hitam",
+    "standardAmount": "secukupnya"
+   },
+   "w-fr-014-i8": {
+    "name": "Kentang muda kecil",
+    "standardAmount": "450 g (rebus)"
+   },
+   "w-fr-014-i9": {
+    "name": "Buncis",
+    "standardAmount": "225 g (blansir)"
+   },
+   "w-fr-014-i10": {
+    "name": "Tomat ceri",
+    "standardAmount": "340 g (belah dua)"
+   },
+   "w-fr-014-i11": {
+    "name": "Zaitun hitam (niçoise)",
+    "standardAmount": "120 ml"
+   },
+   "w-fr-014-i12": {
+    "name": "Artichoke marinasi",
+    "standardAmount": "225 g"
+   },
+   "w-fr-014-i13": {
+    "name": "Teri",
+    "standardAmount": "8 fillet (dibasuh, ditiriskan)"
+   },
+   "w-fr-014-i14": {
+    "name": "Telur rebus",
+    "standardAmount": "4 (belah dua)"
+   },
+   "w-fr-014-i15": {
+    "name": "Mentimun",
+    "standardAmount": "1 kecil (iris tipis)"
+   },
+   "w-fr-014-i16": {
+    "name": "Tuna kaleng berminyak",
+    "standardAmount": "3 kaleng (masing-masing 115 g, ditiriskan)"
+   },
+   "w-fr-014-i17": {
+    "name": "Bawang merah",
+    "standardAmount": "½ (iris tipis)"
+   }
   },
   "instructions": {
-    "1": "Dressing: cincang bawang putih halus, taburi garam dan giling dengan pisau hingga jadi pasta. Masukkan mangkuk dan aduk dengan minyak, air lemon, mustard, bawang merah, garam dan lada.",
-    "2": "Salad: susun semua bahan berbaris di piring besar, siram dressing dan bumbui garam-lada."
+   "1": "Dressing: cincang bawang putih halus, taburi garam dan giling dengan pisau hingga jadi pasta. Masukkan mangkuk dan aduk dengan minyak, air lemon, mustard, bawang merah, garam dan lada.",
+   "2": "Salad: susun semua bahan berbaris di piring besar, siram dressing dan bumbui garam-lada."
   },
   "culturalNotes": "Salade niçoise adalah salad tradisional Nice yang kaya sayuran dan ikan."
-},
-"w-vn-001": {
+ },
+ "w-vn-001": {
   "title": "Bò Bía (lumpia Vietnam jicama dan sosis)",
   "ingredients": {
-    "w-vn-001-i1": {"name": "Udang kering", "standardAmount": "½ cangkir"},
-    "w-vn-001-i2": {"name": "Jicama", "standardAmount": "1 besar"},
-    "w-vn-001-i3": {"name": "Wortel", "standardAmount": "1 sedang"},
-    "w-vn-001-i4": {"name": "Bawang merah", "standardAmount": "4 besar"},
-    "w-vn-001-i5": {"name": "Sosis sapi ala Tiongkok halal", "standardAmount": "4"},
-    "w-vn-001-i6": {"name": "Telur", "standardAmount": "5"},
-    "w-vn-001-i7": {"name": "Garam laut", "standardAmount": "½ sdt"},
-    "w-vn-001-i8": {"name": "Kemangi Thailand", "standardAmount": "1 ikat kecil"},
-    "w-vn-001-i9": {"name": "Kulit beras kering", "standardAmount": "1 kemasan"},
-    "w-vn-001-i10": {"name": "Minyak sayur", "standardAmount": "3 sdm"}
+   "w-vn-001-i1": {
+    "name": "Udang kering",
+    "standardAmount": "½ cangkir"
+   },
+   "w-vn-001-i2": {
+    "name": "Jicama",
+    "standardAmount": "1 besar"
+   },
+   "w-vn-001-i3": {
+    "name": "Wortel",
+    "standardAmount": "1 sedang"
+   },
+   "w-vn-001-i4": {
+    "name": "Bawang merah",
+    "standardAmount": "4 besar"
+   },
+   "w-vn-001-i5": {
+    "name": "Sosis sapi ala Tiongkok halal",
+    "standardAmount": "4"
+   },
+   "w-vn-001-i6": {
+    "name": "Telur",
+    "standardAmount": "5"
+   },
+   "w-vn-001-i7": {
+    "name": "Garam laut",
+    "standardAmount": "½ sdt"
+   },
+   "w-vn-001-i8": {
+    "name": "Kemangi Thailand",
+    "standardAmount": "1 ikat kecil"
+   },
+   "w-vn-001-i9": {
+    "name": "Kulit beras kering",
+    "standardAmount": "1 kemasan"
+   },
+   "w-vn-001-i10": {
+    "name": "Minyak sayur",
+    "standardAmount": "3 sdm"
+   }
   },
   "instructions": {
-    "1": "Rendam udang kering dalam air panas 10 menit hingga lunak, tiriskan.",
-    "2": "Kupas jicama dan potong batang korek. Kupas wortel, iris serong lalu potong korek. Kupas bawang merah dan iris tipis.",
-    "3": "Panaskan sekitar 1 sdm minyak dalam wajan di api besar. Tumis bawang merah sekitar 20 detik. Masukkan udang, tumis 20 detik lagi. Tambahkan jicama dan wortel, tumis merata dan masak hingga lunak sekitar 15 menit. Garami dan pindahkan ke mangkuk.",
-    "4": "Didihkan air dalam wajan antilengket besar, rebus sosis sekitar 5 menit. Angkat, dinginkan dan iris tipis serong.",
-    "5": "Panaskan sekitar 1 sdm minyak dalam wajan kosong di api sedang, ratakan dengan kuas atau miringkan. Tuang setengah telur kocok dan biarkan menyebar tipis. Masak hingga mengeras sekitar 30 detik, geser ke piring. Ulangi dengan minyak dan sisa telur. Tumpuk kedua omelet, gulung dan iris pita tipis.",
-    "6": "Celup kulit beras sebentar ke air dan bentangkan di piring besar. Letakkan daun kemangi di bawah, lalu campuran jicama-wortel-udang, pita telur dan irisan sosis. Gulung dari bawah hingga setengah, lipat sisi dan selesaikan gulungan.",
-    "7": "Sajikan dengan saus kacang."
+   "1": "Rendam udang kering dalam air panas 10 menit hingga lunak, tiriskan.",
+   "2": "Kupas jicama dan potong batang korek. Kupas wortel, iris serong lalu potong korek. Kupas bawang merah dan iris tipis.",
+   "3": "Panaskan sekitar 1 sdm minyak dalam wajan di api besar. Tumis bawang merah sekitar 20 detik. Masukkan udang, tumis 20 detik lagi. Tambahkan jicama dan wortel, tumis merata dan masak hingga lunak sekitar 15 menit. Garami dan pindahkan ke mangkuk.",
+   "4": "Didihkan air dalam wajan antilengket besar, rebus sosis sekitar 5 menit. Angkat, dinginkan dan iris tipis serong.",
+   "5": "Panaskan sekitar 1 sdm minyak dalam wajan kosong di api sedang, ratakan dengan kuas atau miringkan. Tuang setengah telur kocok dan biarkan menyebar tipis. Masak hingga mengeras sekitar 30 detik, geser ke piring. Ulangi dengan minyak dan sisa telur. Tumpuk kedua omelet, gulung dan iris pita tipis.",
+   "6": "Celup kulit beras sebentar ke air dan bentangkan di piring besar. Letakkan daun kemangi di bawah, lalu campuran jicama-wortel-udang, pita telur dan irisan sosis. Gulung dari bawah hingga setengah, lipat sisi dan selesaikan gulungan.",
+   "7": "Sajikan dengan saus kacang."
   },
   "culturalNotes": "Lumpia Vietnam ini juga disebut Bì cuốn; disajikan sebagai lalapan atau makanan ringan."
-},
-"w-vn-002": {
+ },
+ "w-vn-002": {
   "title": "Bò Nướng Lá Lốt (sapi panggang daun sirih)",
   "ingredients": {
-    "w-vn-002-i1": {"name": "Daging sapi cincang berlemak", "standardAmount": "340 g"},
-    "w-vn-002-i2": {"name": "Bawang merah cincang", "standardAmount": "2 sdm"},
-    "w-vn-002-i3": {"name": "Bawang putih cincang", "standardAmount": "1 sdm"},
-    "w-vn-002-i4": {"name": "Lada hitam tumbuk", "standardAmount": "¼ sdt"},
-    "w-vn-002-i5": {"name": "Gula", "standardAmount": "½ sdt"},
-    "w-vn-002-i6": {"name": "Kecap ikan", "standardAmount": "2 sdm"},
-    "w-vn-002-i7": {"name": "Saus tiram", "standardAmount": "1 sdm"},
-    "w-vn-002-i8": {"name": "Bubuk kaldu ayam", "standardAmount": "½ sdt"},
-    "w-vn-002-i9": {"name": "Glutamat (opsional)", "standardAmount": "¼ sdt"},
-    "w-vn-002-i10": {"name": "Daun sirih liar", "standardAmount": "25-30"}
+   "w-vn-002-i1": {
+    "name": "Daging sapi cincang berlemak",
+    "standardAmount": "340 g"
+   },
+   "w-vn-002-i2": {
+    "name": "Bawang merah cincang",
+    "standardAmount": "2 sdm"
+   },
+   "w-vn-002-i3": {
+    "name": "Bawang putih cincang",
+    "standardAmount": "1 sdm"
+   },
+   "w-vn-002-i4": {
+    "name": "Lada hitam tumbuk",
+    "standardAmount": "¼ sdt"
+   },
+   "w-vn-002-i5": {
+    "name": "Gula",
+    "standardAmount": "½ sdt"
+   },
+   "w-vn-002-i6": {
+    "name": "Kecap ikan",
+    "standardAmount": "2 sdm"
+   },
+   "w-vn-002-i7": {
+    "name": "Saus tiram",
+    "standardAmount": "1 sdm"
+   },
+   "w-vn-002-i8": {
+    "name": "Bubuk kaldu ayam",
+    "standardAmount": "½ sdt"
+   },
+   "w-vn-002-i9": {
+    "name": "Glutamat (opsional)",
+    "standardAmount": "¼ sdt"
+   },
+   "w-vn-002-i10": {
+    "name": "Daun sirih liar",
+    "standardAmount": "25-30"
+   }
   },
   "instructions": {
-    "1": "Cuci daun bersih dan keringkan dengan tisu dapur. Sisihkan sebagian tangkai untuk mengikat gulungan.",
-    "2": "Dalam mangkuk besar campur daging cincang dengan bawang merah, bawang putih, lada, gula, kecap ikan, saus tiram, bubuk kaldu dan glutamat (opsional).",
-    "3": "Letakkan satu daun dengan sisi mengilap di bawah dan ujung sempit menghadap bawah. Letakkan sekitar 2 sdm isian di tengah, lipat ujung sempit ke atas isian dan gulung hati-hati. Sematkan tangkai ke gulungan agar tidak terbuka. Jika tangkai lunak, buat lubang dengan pisau kecil dan masukkan tangkai. Letakkan dengan tangkai di bawah. Ulangi dengan sisanya.",
-    "4": "Bakar gulungan di panggangan untuk aroma asap, atau goreng dengan sedikit minyak sayur sekitar 2 menit per sisi.",
-    "5": "Sajikan dalam mangkuk dengan bihun tipis, selada potong dan rempah Vietnam. Taburi kacang sangrai dan sajikan dengan saus celup kecap ikan. Bila suka sajikan dengan kulit beras untuk membungkus sendiri."
+   "1": "Cuci daun bersih dan keringkan dengan tisu dapur. Sisihkan sebagian tangkai untuk mengikat gulungan.",
+   "2": "Dalam mangkuk besar campur daging cincang dengan bawang merah, bawang putih, lada, gula, kecap ikan, saus tiram, bubuk kaldu dan glutamat (opsional).",
+   "3": "Letakkan satu daun dengan sisi mengilap di bawah dan ujung sempit menghadap bawah. Letakkan sekitar 2 sdm isian di tengah, lipat ujung sempit ke atas isian dan gulung hati-hati. Sematkan tangkai ke gulungan agar tidak terbuka. Jika tangkai lunak, buat lubang dengan pisau kecil dan masukkan tangkai. Letakkan dengan tangkai di bawah. Ulangi dengan sisanya.",
+   "4": "Bakar gulungan di panggangan untuk aroma asap, atau goreng dengan sedikit minyak sayur sekitar 2 menit per sisi.",
+   "5": "Sajikan dalam mangkuk dengan bihun tipis, selada potong dan rempah Vietnam. Taburi kacang sangrai dan sajikan dengan saus celup kecap ikan. Bila suka sajikan dengan kulit beras untuk membungkus sendiri."
   },
   "culturalNotes": "Daging dalam daun sirih adalah hidangan tradisional Vietnam yang sering disajikan pada acara khusus."
-},
-"w-vn-003": {
+ },
+ "w-vn-003": {
   "title": "Wafel pandan (Bánh Kếp Lá Dứa)",
   "ingredients": {
-    "w-vn-003-i1": {"name": "Mentega", "standardAmount": "2 sdm"},
-    "w-vn-003-i2": {"name": "Tepung beras", "standardAmount": "1½ cangkir"},
-    "w-vn-003-i3": {"name": "Tepung tapioka", "standardAmount": "½ cangkir"},
-    "w-vn-003-i4": {"name": "Tepung terigu", "standardAmount": "½ cangkir"},
-    "w-vn-003-i5": {"name": "Baking powder", "standardAmount": "1 sdm"},
-    "w-vn-003-i6": {"name": "Garam", "standardAmount": "¼ sdt"},
-    "w-vn-003-i7": {"name": "Telur", "standardAmount": "2 besar"},
-    "w-vn-003-i8": {"name": "Gula", "standardAmount": "½ cangkir"},
-    "w-vn-003-i9": {"name": "Santan", "standardAmount": "1½ cangkir"},
-    "w-vn-003-i10": {"name": "Pasta pandan", "standardAmount": "¾ sdt"}
+   "w-vn-003-i1": {
+    "name": "Mentega",
+    "standardAmount": "2 sdm"
+   },
+   "w-vn-003-i2": {
+    "name": "Tepung beras",
+    "standardAmount": "1½ cangkir"
+   },
+   "w-vn-003-i3": {
+    "name": "Tepung tapioka",
+    "standardAmount": "½ cangkir"
+   },
+   "w-vn-003-i4": {
+    "name": "Tepung terigu",
+    "standardAmount": "½ cangkir"
+   },
+   "w-vn-003-i5": {
+    "name": "Baking powder",
+    "standardAmount": "1 sdm"
+   },
+   "w-vn-003-i6": {
+    "name": "Garam",
+    "standardAmount": "¼ sdt"
+   },
+   "w-vn-003-i7": {
+    "name": "Telur",
+    "standardAmount": "2 besar"
+   },
+   "w-vn-003-i8": {
+    "name": "Gula",
+    "standardAmount": "½ cangkir"
+   },
+   "w-vn-003-i9": {
+    "name": "Santan",
+    "standardAmount": "1½ cangkir"
+   },
+   "w-vn-003-i10": {
+    "name": "Pasta pandan",
+    "standardAmount": "¾ sdt"
+   }
   },
   "instructions": {
-    "1": "Lelehkan mentega di microwave daya rendah 30-45 detik. Aduk dan dinginkan.",
-    "2": "Ayak tepung beras, tapioka, terigu, baking powder dan garam ke mangkuk besar.",
-    "3": "Kocok telur dan gula dalam mangkuk besar. Tambahkan santan, mentega leleh dan pasta pandan, aduk rata.",
-    "4": "Masukkan setengah campuran kering, aduk. Masukkan sisanya dan aduk hati-hati sambil menghilangkan gumpalan besar. Diamkan adonan 15 menit.",
-    "5": "Panaskan cetakan wafel pada daya tertinggi. Tuang sekitar ⅔ cangkir adonan dan ratakan dengan spatula. Tutup dan panggang 4-5 menit hingga keemasan.",
-    "6": "Angkat wafel dengan sumpit bambu dan pindahkan dengan penjepit ke rak.",
-    "7": "Sajikan hangat."
+   "1": "Lelehkan mentega di microwave daya rendah 30-45 detik. Aduk dan dinginkan.",
+   "2": "Ayak tepung beras, tapioka, terigu, baking powder dan garam ke mangkuk besar.",
+   "3": "Kocok telur dan gula dalam mangkuk besar. Tambahkan santan, mentega leleh dan pasta pandan, aduk rata.",
+   "4": "Masukkan setengah campuran kering, aduk. Masukkan sisanya dan aduk hati-hati sambil menghilangkan gumpalan besar. Diamkan adonan 15 menit.",
+   "5": "Panaskan cetakan wafel pada daya tertinggi. Tuang sekitar ⅔ cangkir adonan dan ratakan dengan spatula. Tutup dan panggang 4-5 menit hingga keemasan.",
+   "6": "Angkat wafel dengan sumpit bambu dan pindahkan dengan penjepit ke rak.",
+   "7": "Sajikan hangat."
   },
   "culturalNotes": "Wafel pandan adalah manisan tradisional Vietnam beraroma pandan dan kelapa."
-},
-"w-vn-004": {
+ },
+ "w-vn-004": {
   "title": "Bánh pía",
   "ingredients": {
-    "w-vn-004-i1": {"name": "Tepung", "standardAmount": "500 g"},
-    "w-vn-004-i2": {"name": "Gula", "standardAmount": "250 g"},
-    "w-vn-004-i3": {"name": "Minyak sayur", "standardAmount": "100 ml"},
-    "w-vn-004-i4": {"name": "Telur", "standardAmount": "2"},
-    "w-vn-004-i5": {"name": "Susu", "standardAmount": "100 ml"},
-    "w-vn-004-i6": {"name": "Garam", "standardAmount": "½ sdt"},
-    "w-vn-004-i7": {"name": "Isian puding", "standardAmount": "400 g"}
+   "w-vn-004-i1": {
+    "name": "Tepung",
+    "standardAmount": "500 g"
+   },
+   "w-vn-004-i2": {
+    "name": "Gula",
+    "standardAmount": "250 g"
+   },
+   "w-vn-004-i3": {
+    "name": "Minyak sayur",
+    "standardAmount": "100 ml"
+   },
+   "w-vn-004-i4": {
+    "name": "Telur",
+    "standardAmount": "2"
+   },
+   "w-vn-004-i5": {
+    "name": "Susu",
+    "standardAmount": "100 ml"
+   },
+   "w-vn-004-i6": {
+    "name": "Garam",
+    "standardAmount": "½ sdt"
+   },
+   "w-vn-004-i7": {
+    "name": "Isian puding",
+    "standardAmount": "400 g"
+   }
   },
   "instructions": {
-    "1": "Campur tepung, gula dan garam dalam mangkuk besar.",
-    "2": "Tambahkan telur, susu dan minyak, uleni menjadi adonan licin.",
-    "3": "Tutup adonan dan diamkan 30 menit.",
-    "4": "Bagi adonan menjadi 12 bagian sama dan bentuk bola.",
-    "5": "Letakkan isian di tengah tiap bola dan tutup dengan adonan.",
-    "6": "Masukkan ke cetakan bánh pía dan panggang dalam oven 180 °C yang telah dipanaskan.",
-    "7": "Panggang 20-25 menit hingga keemasan."
+   "1": "Campur tepung, gula dan garam dalam mangkuk besar.",
+   "2": "Tambahkan telur, susu dan minyak, uleni menjadi adonan licin.",
+   "3": "Tutup adonan dan diamkan 30 menit.",
+   "4": "Bagi adonan menjadi 12 bagian sama dan bentuk bola.",
+   "5": "Letakkan isian di tengah tiap bola dan tutup dengan adonan.",
+   "6": "Masukkan ke cetakan bánh pía dan panggang dalam oven 180 °C yang telah dipanaskan.",
+   "7": "Panggang 20-25 menit hingga keemasan."
   },
   "culturalNotes": "Bánh pía adalah manisan berlapis tradisional Vietnam untuk acara khusus."
-},
-"w-vn-005": {
+ },
+ "w-vn-005": {
   "title": "Bánh Tráng Trộn (salad kulit beras Vietnam)",
   "ingredients": {
-    "w-vn-005-i1": {"name": "Pasta asam", "standardAmount": "100 g"},
-    "w-vn-005-i2": {"name": "Minyak sayur", "standardAmount": "4 sdm"},
-    "w-vn-005-i3": {"name": "Siung bawang putih", "standardAmount": "6"},
-    "w-vn-005-i4": {"name": "Kecap ikan", "standardAmount": "2 sdm"},
-    "w-vn-005-i5": {"name": "Gula kristal", "standardAmount": "3 sdm"},
-    "w-vn-005-i6": {"name": "Glutamat (opsional)", "standardAmount": "½ sdt"},
-    "w-vn-005-i7": {"name": "Serpih cabai (opsional)", "standardAmount": "1 sdm"},
-    "w-vn-005-i8": {"name": "Cumi kering", "standardAmount": "200 g"},
-    "w-vn-005-i9": {"name": "Udang kering", "standardAmount": "100 g"},
-    "w-vn-005-i10": {"name": "Dendeng sapi", "standardAmount": "100 g"},
-    "w-vn-005-i11": {"name": "Kulit beras kering", "standardAmount": "170 g"},
-    "w-vn-005-i12": {"name": "Minyak cabai Vietnam", "standardAmount": "secukupnya"},
-    "w-vn-005-i13": {"name": "Minyak bawang Vietnam", "standardAmount": "secukupnya"},
-    "w-vn-005-i14": {"name": "Mangga muda", "standardAmount": "1"},
-    "w-vn-005-i15": {"name": "Telur puyuh rebus", "standardAmount": "10"},
-    "w-vn-005-i16": {"name": "Bawang merah goreng", "standardAmount": "secukupnya"},
-    "w-vn-005-i17": {"name": "Kacang sangrai tawar", "standardAmount": "¼ cangkir"},
-    "w-vn-005-i18": {"name": "Daun ketumbar Vietnam", "standardAmount": "2 cangkir"}
+   "w-vn-005-i1": {
+    "name": "Pasta asam",
+    "standardAmount": "100 g"
+   },
+   "w-vn-005-i2": {
+    "name": "Minyak sayur",
+    "standardAmount": "4 sdm"
+   },
+   "w-vn-005-i3": {
+    "name": "Siung bawang putih",
+    "standardAmount": "6"
+   },
+   "w-vn-005-i4": {
+    "name": "Kecap ikan",
+    "standardAmount": "2 sdm"
+   },
+   "w-vn-005-i5": {
+    "name": "Gula kristal",
+    "standardAmount": "3 sdm"
+   },
+   "w-vn-005-i6": {
+    "name": "Glutamat (opsional)",
+    "standardAmount": "½ sdt"
+   },
+   "w-vn-005-i7": {
+    "name": "Serpih cabai (opsional)",
+    "standardAmount": "1 sdm"
+   },
+   "w-vn-005-i8": {
+    "name": "Cumi kering",
+    "standardAmount": "200 g"
+   },
+   "w-vn-005-i9": {
+    "name": "Udang kering",
+    "standardAmount": "100 g"
+   },
+   "w-vn-005-i10": {
+    "name": "Dendeng sapi",
+    "standardAmount": "100 g"
+   },
+   "w-vn-005-i11": {
+    "name": "Kulit beras kering",
+    "standardAmount": "170 g"
+   },
+   "w-vn-005-i12": {
+    "name": "Minyak cabai Vietnam",
+    "standardAmount": "secukupnya"
+   },
+   "w-vn-005-i13": {
+    "name": "Minyak bawang Vietnam",
+    "standardAmount": "secukupnya"
+   },
+   "w-vn-005-i14": {
+    "name": "Mangga muda",
+    "standardAmount": "1"
+   },
+   "w-vn-005-i15": {
+    "name": "Telur puyuh rebus",
+    "standardAmount": "10"
+   },
+   "w-vn-005-i16": {
+    "name": "Bawang merah goreng",
+    "standardAmount": "secukupnya"
+   },
+   "w-vn-005-i17": {
+    "name": "Kacang sangrai tawar",
+    "standardAmount": "¼ cangkir"
+   },
+   "w-vn-005-i18": {
+    "name": "Daun ketumbar Vietnam",
+    "standardAmount": "2 cangkir"
+   }
   },
   "instructions": {
-    "1": "Dengan pasta asam: rendam dalam 2 cangkir air panas 15 menit, gosok melalui saringan halus dan buang ampasnya.",
-    "2": "Panaskan minyak dalam panci di api sedang. Tumis bawang putih sekitar 15 detik. Tambahkan asam, kecap ikan, gula, glutamat dan serpih cabai, aduk. Biarkan mendidih perlahan 1 menit. Tuang ke mangkuk kecil.",
-    "3": "Panaskan minyak sayur dalam wajan sedang di api sedang. Goreng cumi 30 detik; menggulung, tekan ujungnya dengan sumpit agar matang merata. Balik dan goreng 30 detik lagi. Angkat. Setelah dingin, sobek dengan tangan jadi strip panjang.",
-    "4": "Di minyak yang sama goreng udang sekitar 1 menit, angkat.",
-    "5": "Sobek dendeng dengan tangan jadi strip tipis.",
-    "6": "Masukkan kulit beras ke mangkuk besar. Tambahkan saus asam, minyak cabai dan minyak bawang, aduk rata hingga kulit menyerap saus. Awalnya tampak kering tapi akan melunak.",
-    "7": "Tambahkan dendeng, cumi, udang, mangga muda dan telur puyuh, aduk sebentar.",
-    "8": "Hias dengan bawang goreng, kacang dan ketumbar Vietnam."
+   "1": "Dengan pasta asam: rendam dalam 2 cangkir air panas 15 menit, gosok melalui saringan halus dan buang ampasnya.",
+   "2": "Panaskan minyak dalam panci di api sedang. Tumis bawang putih sekitar 15 detik. Tambahkan asam, kecap ikan, gula, glutamat dan serpih cabai, aduk. Biarkan mendidih perlahan 1 menit. Tuang ke mangkuk kecil.",
+   "3": "Panaskan minyak sayur dalam wajan sedang di api sedang. Goreng cumi 30 detik; menggulung, tekan ujungnya dengan sumpit agar matang merata. Balik dan goreng 30 detik lagi. Angkat. Setelah dingin, sobek dengan tangan jadi strip panjang.",
+   "4": "Di minyak yang sama goreng udang sekitar 1 menit, angkat.",
+   "5": "Sobek dendeng dengan tangan jadi strip tipis.",
+   "6": "Masukkan kulit beras ke mangkuk besar. Tambahkan saus asam, minyak cabai dan minyak bawang, aduk rata hingga kulit menyerap saus. Awalnya tampak kering tapi akan melunak.",
+   "7": "Tambahkan dendeng, cumi, udang, mangga muda dan telur puyuh, aduk sebentar.",
+   "8": "Hias dengan bawang goreng, kacang dan ketumbar Vietnam."
   },
   "culturalNotes": "Bánh Tráng Trộn adalah camilan populer Vietnam yang disantap sebagai lalapan atau makanan ringan."
-},
-"w-vn-006": {
+ },
+ "w-vn-006": {
   "title": "Chè Trôi Nước (bola ketan dalam sirup jahe)",
   "ingredients": {
-    "w-vn-006-i1": {"name": "Tepung ketan", "standardAmount": "450 g"},
-    "w-vn-006-i2": {"name": "Air panas", "standardAmount": "1¾ cangkir"},
-    "w-vn-006-i3": {"name": "Kacang hijau kupas", "standardAmount": "¾ cangkir"},
-    "w-vn-006-i4": {"name": "Gula", "standardAmount": "2 sdm"},
-    "w-vn-006-i5": {"name": "Garam", "standardAmount": "1 sdt"},
-    "w-vn-006-i6": {"name": "Air", "standardAmount": "6 cangkir"},
-    "w-vn-006-i7": {"name": "Jahe segar", "standardAmount": "10 cm"},
-    "w-vn-006-i8": {"name": "Gula palem", "standardAmount": "280 g"},
-    "w-vn-006-i9": {"name": "Santan", "standardAmount": "opsional"},
-    "w-vn-006-i10": {"name": "Wijen sangrai", "standardAmount": "¼ cangkir"}
+   "w-vn-006-i1": {
+    "name": "Tepung ketan",
+    "standardAmount": "450 g"
+   },
+   "w-vn-006-i2": {
+    "name": "Air panas",
+    "standardAmount": "1¾ cangkir"
+   },
+   "w-vn-006-i3": {
+    "name": "Kacang hijau kupas",
+    "standardAmount": "¾ cangkir"
+   },
+   "w-vn-006-i4": {
+    "name": "Gula",
+    "standardAmount": "2 sdm"
+   },
+   "w-vn-006-i5": {
+    "name": "Garam",
+    "standardAmount": "1 sdt"
+   },
+   "w-vn-006-i6": {
+    "name": "Air",
+    "standardAmount": "6 cangkir"
+   },
+   "w-vn-006-i7": {
+    "name": "Jahe segar",
+    "standardAmount": "10 cm"
+   },
+   "w-vn-006-i8": {
+    "name": "Gula palem",
+    "standardAmount": "280 g"
+   },
+   "w-vn-006-i9": {
+    "name": "Santan",
+    "standardAmount": "opsional"
+   },
+   "w-vn-006-i10": {
+    "name": "Wijen sangrai",
+    "standardAmount": "¼ cangkir"
+   }
   },
   "instructions": {
-    "1": "Campur tepung ketan dengan air panas dalam mangkuk besar dan uleni menjadi adonan licin. Jangan tambah air. Tutup dan diamkan 30 menit.",
-    "2": "Bagi adonan menjadi 28 bola sekitar 2,5 cm.",
-    "3": "Bilas kacang hijau hingga air jernih. Tutup dalam panci sedang dengan air 2,5 cm, rebus di api sedang dan masak perlahan hingga lunak tapi tetap berbentuk (sekitar 15 menit). Jangan sampai meluap. Tiriskan dan kembalikan ke kompor mati agar kering. Tambahkan garam dan gula, tumbuk dengan sendok besar jadi pasta kasar.",
-    "4": "Bentuk isian menjadi bola sekitar 1,2 cm (sekitar 28). Jika lunak, dinginkan sebentar.",
-    "5": "Pipihkan satu bola adonan jadi cakram tebal, letakkan bola isian di tengah, tutup dengan adonan dan gulingkan di telapak tangan menjadi bola licin. Jangan sampai isian keluar, karena bola akan hancur saat direbus. Dengan sisa adonan buat bola mutiara kecil tanpa isian. Jaga tetap tertutup.",
-    "6": "Didihkan air dengan gula palem dalam panci besar hingga gula larut. Kupas jahe dengan sendok dan iris pita tipis. Masukkan bola ke sirup perlahan, masak di api sedang-kecil hingga mengapung (sekitar 20 menit).",
-    "7": "Siapkan saus santan bila dipakai.",
-    "8": "Sajikan beberapa bola dengan sirup dalam mangkuk, siram saus santan dan taburi wijen. Sajikan panas atau suhu ruang."
+   "1": "Campur tepung ketan dengan air panas dalam mangkuk besar dan uleni menjadi adonan licin. Jangan tambah air. Tutup dan diamkan 30 menit.",
+   "2": "Bagi adonan menjadi 28 bola sekitar 2,5 cm.",
+   "3": "Bilas kacang hijau hingga air jernih. Tutup dalam panci sedang dengan air 2,5 cm, rebus di api sedang dan masak perlahan hingga lunak tapi tetap berbentuk (sekitar 15 menit). Jangan sampai meluap. Tiriskan dan kembalikan ke kompor mati agar kering. Tambahkan garam dan gula, tumbuk dengan sendok besar jadi pasta kasar.",
+   "4": "Bentuk isian menjadi bola sekitar 1,2 cm (sekitar 28). Jika lunak, dinginkan sebentar.",
+   "5": "Pipihkan satu bola adonan jadi cakram tebal, letakkan bola isian di tengah, tutup dengan adonan dan gulingkan di telapak tangan menjadi bola licin. Jangan sampai isian keluar, karena bola akan hancur saat direbus. Dengan sisa adonan buat bola mutiara kecil tanpa isian. Jaga tetap tertutup.",
+   "6": "Didihkan air dengan gula palem dalam panci besar hingga gula larut. Kupas jahe dengan sendok dan iris pita tipis. Masukkan bola ke sirup perlahan, masak di api sedang-kecil hingga mengapung (sekitar 20 menit).",
+   "7": "Siapkan saus santan bila dipakai.",
+   "8": "Sajikan beberapa bola dengan sirup dalam mangkuk, siram saus santan dan taburi wijen. Sajikan panas atau suhu ruang."
   },
   "culturalNotes": "Chè Trôi Nước adalah manisan tradisional Vietnam untuk perayaan dan hari raya."
-},
-"w-vn-007": {
+ },
+ "w-vn-007": {
   "title": "Jeli herbal (Thạch Sương Sáo)",
   "ingredients": {
-    "w-vn-007-i1": {"name": "Bubuk jeli herbal", "standardAmount": "50 g"},
-    "w-vn-007-i2": {"name": "Gula", "standardAmount": "⅓ cangkir"},
-    "w-vn-007-i3": {"name": "Air", "standardAmount": "4 cangkir (terbagi)"}
+   "w-vn-007-i1": {
+    "name": "Bubuk jeli herbal",
+    "standardAmount": "50 g"
+   },
+   "w-vn-007-i2": {
+    "name": "Gula",
+    "standardAmount": "⅓ cangkir"
+   },
+   "w-vn-007-i3": {
+    "name": "Air",
+    "standardAmount": "4 cangkir (terbagi)"
+   }
   },
   "instructions": {
-    "1": "Masukkan bubuk jeli ke panci sedang. Tambahkan gula dan 2 cangkir air, aduk hingga bubuk larut.",
-    "2": "Tambahkan sisa 2 cangkir air, aduk rata.",
-    "3": "Diamkan campuran 10 menit.",
-    "4": "Panaskan di api sedang sambil diaduk dengan spatula, keruk dasar tempat bubuk mengendap.",
-    "5": "Setelah 3-4 menit mulai mendidih dan bergumpal. Aduk cepat dengan pengocok hingga licin dan terus aduk hingga mendidih perlahan. Matikan api dan aduk 1 menit lagi hingga licin tanpa gumpalan.",
-    "6": "Tuang ke wadah tahan panas dan pecahkan gelembung dengan tusuk gigi atau ambil dengan sendok.",
-    "7": "Dinginkan pada suhu ruang 1-1,5 jam.",
-    "8": "Masukkan kulkas minimal 2 jam.",
-    "9": "Balik wadah ke talenan besar dan potong jeli menjadi kubus.",
-    "10": "Untuk menyajikan, isi mangkuk dessert dengan es, tambahkan kubus jeli dan taburi sedikit gula.",
-    "11": "Bila suka potong lebih kecil dengan pisau bergerigi dan masukkan ke minuman dingin.",
-    "12": "Simpan sisa jeli di kulkas hingga 1 minggu."
+   "1": "Masukkan bubuk jeli ke panci sedang. Tambahkan gula dan 2 cangkir air, aduk hingga bubuk larut.",
+   "2": "Tambahkan sisa 2 cangkir air, aduk rata.",
+   "3": "Diamkan campuran 10 menit.",
+   "4": "Panaskan di api sedang sambil diaduk dengan spatula, keruk dasar tempat bubuk mengendap.",
+   "5": "Setelah 3-4 menit mulai mendidih dan bergumpal. Aduk cepat dengan pengocok hingga licin dan terus aduk hingga mendidih perlahan. Matikan api dan aduk 1 menit lagi hingga licin tanpa gumpalan.",
+   "6": "Tuang ke wadah tahan panas dan pecahkan gelembung dengan tusuk gigi atau ambil dengan sendok.",
+   "7": "Dinginkan pada suhu ruang 1-1,5 jam.",
+   "8": "Masukkan kulkas minimal 2 jam.",
+   "9": "Balik wadah ke talenan besar dan potong jeli menjadi kubus.",
+   "10": "Untuk menyajikan, isi mangkuk dessert dengan es, tambahkan kubus jeli dan taburi sedikit gula.",
+   "11": "Bila suka potong lebih kecil dengan pisau bergerigi dan masukkan ke minuman dingin.",
+   "12": "Simpan sisa jeli di kulkas hingga 1 minggu."
   },
   "culturalNotes": "Jeli herbal adalah manisan tradisional Vietnam yang menyegarkan di hari panas."
-}
+ },
+ "w-es-001": {
+  "title": "Arroz Negro (Nasi Hitam Sotong)",
+  "ingredients": {
+   "w-es-001-i1": {
+    "name": "kaldu ikan",
+    "standardAmount": "3 cangkir (710 ml)"
+   },
+   "w-es-001-i2": {
+    "name": "benang safron",
+    "standardAmount": "1/4 sdt"
+   },
+   "w-es-001-i3": {
+    "name": "minyak zaitun extra virgin",
+    "standardAmount": "1/4 cangkir (60 ml)"
+   },
+   "w-es-001-i4": {
+    "name": "sotong",
+    "standardAmount": "1 ekor"
+   },
+   "w-es-001-i5": {
+    "name": "bawang bombay",
+    "standardAmount": "1/2 buah"
+   },
+   "w-es-001-i6": {
+    "name": "paprika hijau manis",
+    "standardAmount": "1/2 buah"
+   },
+   "w-es-001-i7": {
+    "name": "bawang putih",
+    "standardAmount": "4 siung"
+   },
+   "w-es-001-i8": {
+    "name": "paprika asap manis Spanyol",
+    "standardAmount": "1/2 sdt"
+   },
+   "w-es-001-i9": {
+    "name": "tomat",
+    "standardAmount": "2 buah"
+   },
+   "w-es-001-i10": {
+    "name": "beras bulat Spanyol",
+    "standardAmount": "1 cangkir (220 g)"
+   },
+   "w-es-001-i11": {
+    "name": "tinta sotong",
+    "standardAmount": "4 g"
+   },
+   "w-es-001-i12": {
+    "name": "peterseli cincang halus",
+    "standardAmount": "segenggam"
+   },
+   "w-es-001-i13": {
+    "name": "lemon",
+    "standardAmount": "1 buah"
+   },
+   "w-es-001-i14": {
+    "name": "garam laut",
+    "standardAmount": "sejumput"
+   },
+   "w-es-001-i15": {
+    "name": "lada hitam",
+    "standardAmount": "sejumput"
+   }
+  },
+  "instructions": {
+   "1": "Tuangkan 3 cangkir kaldu ikan ke panci dengan sejumput safron dan panaskan di api sedang.",
+   "2": "Cincang halus 1/2 bawang bombay, cincang kasar 4 siung bawang putih, cincang halus 1/2 paprika hijau, parut halus 2 tomat, dan potong satu sotong bersih (tentakel dibuang) menjadi dadu sedang.",
+   "3": "Panaskan wajan paella di api sedang dan tuangkan 1/4 cangkir minyak zaitun.",
+   "4": "Setelah 1 menit, bumbui minyak dengan garam laut dan masukkan potongan sotong, aduk dengan minyak; setelah 2 menit dan sotong sedikit ditumis, angkat dan sisihkan.",
+   "5": "Di wajan yang sama dan api yang sama, masukkan bawang dan paprika cincang; setelah 3 menit dan bawang layu, masukkan bawang putih. Setelah 30 detik, masukkan paprika asap, aduk cepat, lalu masukkan tomat parut; didihkan pelan.",
+   "6": "Setelah saus tomat mengental (sekitar 3 menit), masukkan beras, tinta sotong, garam dan lada, aduk 2 menit; tuang kaldu safron dan sotong, aduk sekali terakhir, lalu jangan diaduk lagi.",
+   "7": "8-9 menit setelah api dinaikkan, ketika sebagian besar kaldu terserap, kecilkan api dan didihkan 3-5 menit hingga semua kaldu terserap; naikkan api lagi selama 90 detik untuk socarrat. Angkat dari api, tutup dengan kain dan diamkan 5 menit.",
+   "8": "Buka dan hiasi dengan irisan lemon dan peterseli segar. Selamat makan!"
+  },
+  "culturalNotes": "Arroz Negro adalah hidangan tradisional Spanyol, terutama dari wilayah Valencia, dikenal dengan warna hitam pekat dan rasa sotong yang kaya.",
+  "chapter": "es"
+ },
+ "w-es-002": {
+  "title": "Arroz a la Cubana (Nasi ala Kuba)",
+  "ingredients": {
+   "w-es-002-i1": {
+    "name": "minyak sayur",
+    "standardAmount": "1 sdm"
+   },
+   "w-es-002-i2": {
+    "name": "kentang",
+    "standardAmount": "1 sedang, potong dadu"
+   },
+   "w-es-002-i3": {
+    "name": "wortel",
+    "standardAmount": "1 sedang, potong dadu"
+   },
+   "w-es-002-i4": {
+    "name": "bawang bombay",
+    "standardAmount": "1/2 sedang, potong dadu"
+   },
+   "w-es-002-i5": {
+    "name": "bawang putih",
+    "standardAmount": "2 siung, cincang"
+   },
+   "w-es-002-i6": {
+    "name": "daging sapi giling",
+    "standardAmount": "450 g"
+   },
+   "w-es-002-i7": {
+    "name": "air",
+    "standardAmount": "1/4 cangkir"
+   },
+   "w-es-002-i8": {
+    "name": "kecap asin",
+    "standardAmount": "2 sdm"
+   },
+   "w-es-002-i9": {
+    "name": "garam",
+    "standardAmount": "secukupnya"
+   },
+   "w-es-002-i10": {
+    "name": "lada hitam bubuk",
+    "standardAmount": "secukupnya"
+   },
+   "w-es-002-i11": {
+    "name": "paprika",
+    "standardAmount": "1 sedang, potong dadu"
+   },
+   "w-es-002-i12": {
+    "name": "kismis",
+    "standardAmount": "2 sdm"
+   },
+   "w-es-002-i13": {
+    "name": "kacang polong",
+    "standardAmount": "2 sdm"
+   },
+   "w-es-002-i14": {
+    "name": "nasi matang",
+    "standardAmount": "2 cangkir"
+   }
+  },
+  "instructions": {
+   "1": "Panaskan minyak di wajan besar di api sedang. Masukkan kentang dan wortel, tumis 3 menit. Pindahkan ke mangkuk.",
+   "2": "Masukkan bawang bombay dan bawang putih ke wajan panas, tumis hingga sedikit kecoklatan, 5-7 menit. Masukkan daging giling dan masak hingga kecoklatan dan pecah, 5-7 menit.",
+   "3": "Kembalikan campuran kentang-wortel ke wajan dengan air, kecap asin, garam dan lada. Tutup dan didihkan hingga kentang empuk, 5-8 menit.",
+   "4": "Masukkan paprika, kismis dan kacang polong, panaskan sekitar 2 menit. Sajikan di atas nasi hangat."
+  },
+  "culturalNotes": "Arroz a la Cubana adalah hidangan populer di Spanyol: campuran daging giling, sayuran dan rempah yang disajikan di atas nasi.",
+  "chapter": "es"
+ },
+ "w-es-003": {
+  "title": "Sup Bawang Putih Basque (Zurrukutuna)",
+  "ingredients": {
+   "w-es-003-i1": {
+    "name": "minyak zaitun extra virgin",
+    "standardAmount": "1/4 cangkir (60 ml)"
+   },
+   "w-es-003-i2": {
+    "name": "baguette",
+    "standardAmount": "100 g"
+   },
+   "w-es-003-i3": {
+    "name": "bawang putih",
+    "standardAmount": "6 siung, iris tipis"
+   },
+   "w-es-003-i4": {
+    "name": "cabai merah serpih",
+    "standardAmount": "1/4 sdt"
+   },
+   "w-es-003-i5": {
+    "name": "paprika asap manis",
+    "standardAmount": "1 sdt"
+   },
+   "w-es-003-i6": {
+    "name": "tomat",
+    "standardAmount": "2, parut halus"
+   },
+   "w-es-003-i7": {
+    "name": "kaldu sayur",
+    "standardAmount": "1 liter"
+   },
+   "w-es-003-i8": {
+    "name": "daun salam",
+    "standardAmount": "1 lembar"
+   },
+   "w-es-003-i9": {
+    "name": "fillet ikan kod",
+    "standardAmount": "225 g"
+   },
+   "w-es-003-i10": {
+    "name": "telur",
+    "standardAmount": "2 butir"
+   },
+   "w-es-003-i11": {
+    "name": "garam laut dan lada hitam",
+    "standardAmount": "secukupnya"
+   },
+   "w-es-003-i12": {
+    "name": "peterseli cincang",
+    "standardAmount": "untuk hiasan"
+   }
+  },
+  "instructions": {
+   "1": "Potong baguette menjadi irisan 1,25 cm, susun di loyang beralas foil dan panggang dalam oven 200°C selama 10 menit hingga sedikit panggang; sisihkan.",
+   "2": "Panaskan panci di api sedang dan tuangkan minyak zaitun.",
+   "3": "Setelah beberapa menit, masukkan irisan bawang putih dan cabai serpih, aduk 1 menit; masukkan irisan roti panggang dan aduk 3 menit, lalu paprika asap, kemudian tomat parut; bumbui dengan garam dan lada.",
+   "4": "3 menit setelah tomat, tuangkan kaldu sayur dan daun salam, naikkan api dan setelah mendidih, tutup dan kecilkan api; aduk setiap 2-3 menit agar roti hancur.",
+   "5": "Sambil sup mendidih, keringkan fillet kod dengan tisu dapur, bumbui dan cincang halus; kocok telur di mangkuk dengan garam.",
+   "6": "Setelah 15 menit, buang daun salam, masukkan kod cincang dan didihkan 3 menit; tuang telur kocok perlahan sambil diaduk lembut, tutup dan matikan api.",
+   "7": "Setelah beberapa menit, sajikan sup di mangkuk dangkal dan hiasi dengan peterseli. Selamat makan!"
+  },
+  "culturalNotes": "Zurrukutuna adalah sup bawang putih tradisional dari Basque Country di Spanyol, dikenal dengan rasa yang kaya dan kuat.",
+  "chapter": "es"
+ },
+ "w-es-004": {
+  "title": "Boquerones en Vinagre (Sarden Bercuka)",
+  "ingredients": {
+   "w-es-004-i1": {
+    "name": "sarden",
+    "standardAmount": "450 g"
+   },
+   "w-es-004-i2": {
+    "name": "air lemon",
+    "standardAmount": "secukupnya"
+   },
+   "w-es-004-i3": {
+    "name": "cuka apel",
+    "standardAmount": "secukupnya"
+   },
+   "w-es-004-i4": {
+    "name": "garam laut",
+    "standardAmount": "secukupnya"
+   },
+   "w-es-004-i5": {
+    "name": "lada hitam",
+    "standardAmount": "secukupnya"
+   },
+   "w-es-004-i6": {
+    "name": "peterseli",
+    "standardAmount": "secukupnya"
+   }
+  },
+  "instructions": {
+   "1": "Mulai dengan membersihkan sarden: buang kepala, isi perut dan tulang punggung dengan ibu jari. Bilas dengan air dingin dan masukkan ke mangkuk dengan sedikit garam laut.",
+   "2": "Susun sarden rata di loyang kaca. Penting menggunakan kaca, bukan logam, agar ikan tidak terasa logam.",
+   "3": "Tutup sarden dengan air lemon dan cuka. Tips: gunakan lebih banyak cuka daripada air lemon — rasa lemon akan menjadi pahit keesokan harinya.",
+   "4": "Cincang peterseli halus dan taburkan di atas sarden.",
+   "5": "Buat lapisan kedua sarden dan ulangi.",
+   "6": "Tutup loyang dengan plastik wrap dan masukkan ke kulkas minimal 4 jam.",
+   "7": "Sebelum disajikan, bilas sarden dengan air dingin, hiasi dengan peterseli dan garam laut. Sajikan dengan roti rustic."
+  },
+  "culturalNotes": "Boquerones en Vinagre adalah tapas tradisional di Spanyol, sering disajikan sebagai pembuka di bar dan kafe.",
+  "chapter": "es"
+ },
+ "w-es-005": {
+  "title": "Crema Catalana (Krim Katalan)",
+  "ingredients": {
+   "w-es-005-i1": {
+    "name": "susu",
+    "standardAmount": "2 1/2 cangkir"
+   },
+   "w-es-005-i2": {
+    "name": "polong vanila",
+    "standardAmount": "1"
+   },
+   "w-es-005-i3": {
+    "name": "kayu manis batang",
+    "standardAmount": "1"
+   },
+   "w-es-005-i4": {
+    "name": "kulit lemon",
+    "standardAmount": "8"
+   },
+   "w-es-005-i5": {
+    "name": "kuning telur",
+    "standardAmount": "5"
+   },
+   "w-es-005-i6": {
+    "name": "gula",
+    "standardAmount": "1/4 cangkir + ekstra untuk karamel"
+   },
+   "w-es-005-i7": {
+    "name": "tepung maizena",
+    "standardAmount": "1 sdm"
+   }
+  },
+  "instructions": {
+   "1": "Tuangkan 2 cangkir susu ke panci dengan 8 kulit lemon, 1 kayu manis, 1 polong vanila belah dan 2 sdm gula. Didihkan ringan di api sedang, matikan dan biarkan terendam 10 menit.",
+   "2": "Pisahkan kuning dari putih 5 telur (buang putihnya). Kocok kuning telur dengan 2 sdm gula. Di mangkuk lain, campur 1/2 cangkir susu dingin dengan 1 sdm maizena hingga halus dan tuang ke kuning telur.",
+   "3": "Saring susu rendaman ke campuran telur dan kocok baik. Kembali ke panci di api sedang, kocok terus 9-10 menit hingga mengental. Matikan api dan kocok 30 detik lagi.",
+   "4": "Bagi ke 4 ramekin. Setelah 20 menit, tutup dengan plastik dan dinginkan minimal 4 jam.",
+   "5": "Sebelum disajikan, taburi tiap ramekin dengan 1 sdm gula dan karamelkan dengan torch dapur hingga keemasan pekat."
+  },
+  "culturalNotes": "Crema Catalana adalah hidangan penutup tradisional dari Katalonia, Spanyol, dikenal dengan rasa kaya dan lapisan karamel renyah.",
+  "chapter": "es"
+ },
+ "w-es-006": {
+  "title": "Fabada Asturiana (Rebusan Kacang Asturias)",
+  "ingredients": {
+   "w-es-006-i1": {
+    "name": "bawang putih",
+    "standardAmount": "3 siung"
+   },
+   "w-es-006-i2": {
+    "name": "bawang bombay",
+    "standardAmount": "1/2"
+   },
+   "w-es-006-i3": {
+    "name": "sosis sapi halal",
+    "standardAmount": "2 buah"
+   },
+   "w-es-006-i4": {
+    "name": "kacang putih",
+    "standardAmount": "570 g"
+   },
+   "w-es-006-i5": {
+    "name": "minyak zaitun extra virgin",
+    "standardAmount": "1 sdm"
+   },
+   "w-es-006-i6": {
+    "name": "paprika asap manis",
+    "standardAmount": "1 sdt"
+   },
+   "w-es-006-i7": {
+    "name": "air dingin",
+    "standardAmount": "1,5 cangkir"
+   },
+   "w-es-006-i8": {
+    "name": "benang safron",
+    "standardAmount": "1/2 sdt"
+   },
+   "w-es-006-i9": {
+    "name": "garam laut",
+    "standardAmount": "secukupnya"
+   },
+   "w-es-006-i10": {
+    "name": "lada hitam",
+    "standardAmount": "secukupnya"
+   }
+  },
+  "instructions": {
+   "1": "Tiriskan kacang putih di saringan dan bilas dengan air dingin mengalir.",
+   "2": "Kupas 3 siung bawang putih dan cincang halus, potong dadu setengah bawang bombay, dan potong sosis menjadi potongan 2,5 cm.",
+   "3": "Panaskan panci besar di api sedang dengan satu sendok minyak zaitun yang royal. Setelah 2 menit, masukkan sosis dan goreng 4 menit hingga kecoklatan; angkat dan sisihkan.",
+   "4": "Di panci yang sama, masukkan bawang bombay dan bawang putih, tumis 3 menit hingga bawang layu. Masukkan paprika dan aduk cepat.",
+   "5": "Kembalikan sosis, masukkan kacang dan aduk rata. Tuang 1,5 cangkir air dingin, sejumput garam dan safron, aduk perlahan.",
+   "6": "Tutup dan masak 8 menit di api sedang. Buka dan matikan api; air harus sudah mengental menjadi kaldu kaya.",
+   "7": "Bagi fabada ke mangkuk dangkal dan sajikan hangat."
+  },
+  "culturalNotes": "Fabada Asturiana adalah hidangan tradisional dari Asturias di Spanyol utara, dikenal dengan rasa kaya dan rempah khasnya.",
+  "chapter": "es"
+ },
+ "w-es-007": {
+  "title": "Rebusan Ikan dan Tomat Spanyol",
+  "ingredients": {
+   "w-es-007-i1": {
+    "name": "minyak zaitun extra virgin",
+    "standardAmount": "45 ml"
+   },
+   "w-es-007-i2": {
+    "name": "bawang bombay",
+    "standardAmount": "1 sedang"
+   },
+   "w-es-007-i3": {
+    "name": "bawang putih",
+    "standardAmount": "4 siung"
+   },
+   "w-es-007-i4": {
+    "name": "seledri",
+    "standardAmount": "2 batang"
+   },
+   "w-es-007-i5": {
+    "name": "wortel",
+    "standardAmount": "1 buah"
+   },
+   "w-es-007-i6": {
+    "name": "paprika asap manis",
+    "standardAmount": "2 sdt"
+   },
+   "w-es-007-i7": {
+    "name": "timi kering",
+    "standardAmount": "1/2 sdt"
+   },
+   "w-es-007-i8": {
+    "name": "tomat potong dadu",
+    "standardAmount": "1 kaleng (425 g)"
+   },
+   "w-es-007-i9": {
+    "name": "kaldu ikan",
+    "standardAmount": "1 1/2 cangkir (360 ml)"
+   },
+   "w-es-007-i10": {
+    "name": "benang safron",
+    "standardAmount": "1/4 sdt"
+   },
+   "w-es-007-i11": {
+    "name": "kentang kecil",
+    "standardAmount": "450 g"
+   },
+   "w-es-007-i12": {
+    "name": "fillet ikan kod",
+    "standardAmount": "3 (225 g masing-masing)"
+   },
+   "w-es-007-i13": {
+    "name": "air lemon",
+    "standardAmount": "1 sdm"
+   },
+   "w-es-007-i14": {
+    "name": "garam laut dan lada hitam",
+    "standardAmount": "secukupnya"
+   },
+   "w-es-007-i15": {
+    "name": "peterseli cincang",
+    "standardAmount": "untuk hiasan"
+   }
+  },
+  "instructions": {
+   "1": "Panaskan panci besar di api sedang dan tuangkan minyak zaitun.",
+   "2": "Setelah beberapa menit, masukkan bawang, bawang putih, seledri dan wortel cincang, tumis 5 menit.",
+   "3": "Masukkan paprika dan timi, aduk cepat; masukkan tomat dadu, kaldu ikan dan safron, bumbui dan naikkan api.",
+   "4": "Sementara itu, belah kentang kecil menjadi dua (atau potong 2 cm jika besar).",
+   "5": "Setelah kaldu mendidih, masukkan kentang, tutup dan kecilkan api.",
+   "6": "Sambil rebusan mendidih, keringkan fillet kod dengan tisu, bumbui, dan potong tiap fillet menjadi dua (6 potong).",
+   "7": "Setelah 20 menit dan kentang matang, susun ikan dalam satu lapisan, balik tiap potong ke kaldu, tutup dan didihkan 5 menit.",
+   "8": "Sajikan langsung dari panci atau di mangkuk dangkal dengan perasan lemon dan peterseli."
+  },
+  "culturalNotes": "Rebusan ikan-tomat Spanyol ini adalah hidangan tradisional yang sering disajikan pada acara khusus dan pertemuan keluarga.",
+  "chapter": "es"
+ },
+ "w-es-008": {
+  "title": "Kentang Goreng",
+  "ingredients": {
+   "w-es-008-i1": {
+    "name": "kentang besar",
+    "standardAmount": "2 ekstra besar"
+   },
+   "w-es-008-i2": {
+    "name": "minyak sayur",
+    "standardAmount": "1 liter"
+   },
+   "w-es-008-i3": {
+    "name": "garam",
+    "standardAmount": "secukupnya"
+   }
+  },
+  "instructions": {
+   "1": "Potong pinggiran kentang menjadi bentuk persegi. Iris menjadi lempengan 1 cm lalu potong menjadi stik.",
+   "2": "Rendam stik dalam air dingin minimal 30 menit (atau semalaman di kulkas). Alternatif: bilas hingga air bening — tujuannya menghilangkan pati.",
+   "3": "Keringkan kentang dengan handuk tepat sebelum menggoreng.",
+   "4": "Panaskan minyak hingga 160°C. Goreng stik dalam batch kecil sekitar 5 menit hingga matang tapi tidak coklat. Biarkan minyak panas lagi antar batch. Tiriskan.",
+   "5": "Diamkan 30 menit.",
+   "6": "Panaskan minyak hingga 190°C. Goreng hingga coklat muda dan renyah, 2-4 menit. Tiriskan.",
+   "7": "Taburi garam dan sajikan segera."
+  },
+  "culturalNotes": "Kentang goreng adalah hidangan populer di Spanyol, dikenal sebagai 'papas fritas'.",
+  "chapter": "es"
+ },
+ "w-es-009": {
+  "title": "Croquetas de Pavo (Kroket Kalkun)",
+  "ingredients": {
+   "w-es-009-i1": {
+    "name": "mentega tawar",
+    "standardAmount": "55 g"
+   },
+   "w-es-009-i2": {
+    "name": "minyak zaitun extra virgin",
+    "standardAmount": "60 ml"
+   },
+   "w-es-009-i3": {
+    "name": "tepung terigu",
+    "standardAmount": "115 g"
+   },
+   "w-es-009-i4": {
+    "name": "bawang bombay sedang",
+    "standardAmount": "1"
+   },
+   "w-es-009-i5": {
+    "name": "susu full cream",
+    "standardAmount": "1 liter"
+   },
+   "w-es-009-i6": {
+    "name": "pala bubuk",
+    "standardAmount": "1/2 sdt"
+   },
+   "w-es-009-i7": {
+    "name": "ham kalkun halal",
+    "standardAmount": "255 g"
+   },
+   "w-es-009-i8": {
+    "name": "tepung terigu (pelapis)",
+    "standardAmount": "secukupnya"
+   },
+   "w-es-009-i9": {
+    "name": "telur",
+    "standardAmount": "2 butir"
+   },
+   "w-es-009-i10": {
+    "name": "tepung roti",
+    "standardAmount": "secukupnya"
+   }
+  },
+  "instructions": {
+   "1": "Lelehkan mentega dengan minyak zaitun di wajan di api kecil.",
+   "2": "Masukkan bawang bombay cincang halus dan tumis 5-6 menit hingga keemasan.",
+   "3": "Masukkan sejumput garam dan pala, aduk rata.",
+   "4": "Masukkan ham kalkun halal cincang halus dan aduk 1 menit.",
+   "5": "Masukkan tepung terigu dan aduk terus 1 menit.",
+   "6": "Tuang susu sedikit demi sedikit sambil diaduk terus 15-20 menit hingga mengental dan creamy.",
+   "7": "Tuang adonan ke mangkuk besar, dinginkan hingga suhu ruang, tutup plastik dan dinginkan di kulkas minimal 4 jam atau semalaman.",
+   "8": "Bentuk kroket kecil dari adonan dingin dan lumuri dengan tepung, lalu telur kocok, lalu tepung roti.",
+   "9": "Panaskan minyak di wajan dan goreng kroket hingga coklat keemasan di semua sisi.",
+   "10": "Tiriskan kroket di atas tisu dapur."
+  },
+  "culturalNotes": "Kroket adalah hidangan populer di Spanyol, sering disajikan sebagai pembuka di bar dan kafe.",
+  "chapter": "es"
+ },
+ "w-es-010": {
+  "title": "Leche Frita (Susu Goreng)",
+  "ingredients": {
+   "w-es-010-i1": {
+    "name": "susu",
+    "standardAmount": "1 liter"
+   },
+   "w-es-010-i2": {
+    "name": "tepung maizena",
+    "standardAmount": "1 cangkir (125 g)"
+   },
+   "w-es-010-i3": {
+    "name": "gula pasir",
+    "standardAmount": "3/4 cangkir (150 g)"
+   },
+   "w-es-010-i4": {
+    "name": "kayu manis bubuk",
+    "standardAmount": "1/2 sdt"
+   },
+   "w-es-010-i5": {
+    "name": "kayu manis batang",
+    "standardAmount": "1"
+   },
+   "w-es-010-i6": {
+    "name": "kulit lemon",
+    "standardAmount": "4"
+   },
+   "w-es-010-i7": {
+    "name": "lemon",
+    "standardAmount": "1/2 buah"
+   },
+   "w-es-010-i8": {
+    "name": "telur",
+    "standardAmount": "2 butir"
+   },
+   "w-es-010-i9": {
+    "name": "minyak bunga matahari",
+    "standardAmount": "1/2 cangkir (125 ml)"
+   }
+  },
+  "instructions": {
+   "1": "Tuangkan 3 cangkir susu ke panci dengan kayu manis batang dan 4 kulit lemon. Panaskan di api sedang hingga mendidih ringan, lalu matikan.",
+   "2": "Sambil susu terendam, tuang 1 cangkir susu ke mangkuk dan tambahkan maizena sedikit demi sedikit sambil dikocok terus.",
+   "3": "Olesi loyang 25x15 cm dengan 1 sdt minyak bunga matahari.",
+   "4": "Setelah 20 menit terendam, buang kulit lemon dan kayu manis; panaskan susu dan tuang campuran maizena serta gula sedikit demi sedikit sambil dikocok 20-25 menit hingga kental dan creamy.",
+   "5": "Tuang adonan kental ke loyang, dinginkan, tutup plastik dan masukkan kulkas minimal 2 jam.",
+   "6": "Setelah beberapa jam, balik loyang ke talenan dan potong adonan menjadi kotak 4x4 cm.",
+   "7": "Isi satu mangkuk dengan maizena dan kocok telur di mangkuk lain. Lumuri tiap kotak dengan maizena lalu telur, susun di piring beralas kertas.",
+   "8": "Panaskan 1/2 cangkir minyak bunga matahari di wajan kecil di api sedang. Goreng kotak dalam batch, 45-60 detik per sisi. Tiriskan di tisu.",
+   "9": "Campur gula dengan kayu manis bubuk dan lumuri kotak goreng. Susun di piring saji, taburi parutan kulit lemon dan sajikan segera."
+  },
+  "culturalNotes": "Leche Frita adalah hidangan penutup tradisional Spanyol yang sering disajikan pada acara khusus dan pertemuan keluarga.",
+  "chapter": "es"
+ },
+ "w-es-011": {
+  "title": "Natillas (Puding Susu Spanyol)",
+  "ingredients": {
+   "w-es-011-i1": {
+    "name": "susu",
+    "standardAmount": "2 1/4 cangkir"
+   },
+   "w-es-011-i2": {
+    "name": "gula",
+    "standardAmount": "1/3 cangkir"
+   },
+   "w-es-011-i3": {
+    "name": "telur",
+    "standardAmount": "3 butir"
+   },
+   "w-es-011-i4": {
+    "name": "polong vanila",
+    "standardAmount": "1"
+   },
+   "w-es-011-i5": {
+    "name": "kayu manis batang",
+    "standardAmount": "1"
+   },
+   "w-es-011-i6": {
+    "name": "kulit lemon",
+    "standardAmount": "3"
+   },
+   "w-es-011-i7": {
+    "name": "kayu manis bubuk",
+    "standardAmount": "1 sdt"
+   },
+   "w-es-011-i8": {
+    "name": "biskuit María",
+    "standardAmount": "4"
+   }
+  },
+  "instructions": {
+   "1": "Pecahkan 3 telur ke mangkuk, kocok, tambahkan setengah gula dan aduk rata.",
+   "2": "Panaskan panci di api sedang dengan susu, sisa gula, kayu manis, vanila dan kulit lemon.",
+   "3": "Tuang sekitar 1/3 cangkir susu panas ke mangkuk telur sambil dikocok terus, untuk menghangatkan telur.",
+   "4": "Sebelum memasukkan campuran telur, buang kayu manis, vanila dan kulit lemon.",
+   "5": "Tuang campuran telur perlahan ke panci sambil diaduk terus. Masak hingga krim sedikit mengental.",
+   "6": "Bagi krim ke 3 mangkuk, taburi kayu manis dan letakkan satu biskuit María di tiap mangkuk.",
+   "7": "Tutup tiap mangkuk dengan plastik dan dinginkan minimal 2 jam.",
+   "8": "Selamat makan!"
+  },
+  "culturalNotes": "Natillas adalah hidangan penutup tradisional Spanyol yang biasanya disajikan pada acara khusus.",
+  "chapter": "es"
+ },
+ "w-es-012": {
+  "title": "Turrón de Alicante (Nougat Almond Keras)",
+  "ingredients": {
+   "w-es-012-i1": {
+    "name": "almond kupas",
+    "standardAmount": "1 1/2 cangkir"
+   },
+   "w-es-012-i2": {
+    "name": "madu",
+    "standardAmount": "1/2 cangkir"
+   },
+   "w-es-012-i3": {
+    "name": "gula",
+    "standardAmount": "1/2 cangkir"
+   },
+   "w-es-012-i4": {
+    "name": "putih telur",
+    "standardAmount": "1"
+   },
+   "w-es-012-i5": {
+    "name": "minyak zaitun extra virgin",
+    "standardAmount": "secukupnya"
+   }
+  },
+  "instructions": {
+   "1": "Panaskan oven hingga 210°C.",
+   "2": "Susun almond dalam satu lapisan di loyang beralas kertas dan panggang hingga wangi dan keemasan.",
+   "3": "Sisihkan 1 putih telur di mangkuk suhu ruang.",
+   "4": "Panaskan wajan besar di api KECIL dan masukkan madu. Masak 15 menit tanpa diaduk, lalu masukkan gula dan masak 15 menit lagi.",
+   "5": "Setelah 30 menit, kocok putih telur hingga kaku dengan mixer.",
+   "6": "Masukkan almond panggang ke turrón dan aduk dengan spatula hingga homogen.",
+   "7": "Tuang turrón ke loyang loaf beralas kertas yang sedikit diolesi minyak.",
+   "8": "Dua pilihan: biarkan turrón semalaman agar mengeras, atau dinginkan untuk mempercepat."
+  },
+  "culturalNotes": "Turrón de Alicante adalah manisan tradisional dari wilayah Alicante di Spanyol, terutama diproduksi saat Natal.",
+  "chapter": "es"
+ },
+ "w-es-013": {
+  "title": "Pa amb Tomàquet (Roti Tomat-Bawang Putih)",
+  "ingredients": {
+   "w-es-013-i1": {
+    "name": "roti rustic",
+    "standardAmount": "4 iris tebal"
+   },
+   "w-es-013-i2": {
+    "name": "bawang putih",
+    "standardAmount": "4 siung"
+   },
+   "w-es-013-i3": {
+    "name": "tomat",
+    "standardAmount": "1 buah"
+   },
+   "w-es-013-i4": {
+    "name": "minyak zaitun",
+    "standardAmount": "1/4 cangkir"
+   },
+   "w-es-013-i5": {
+    "name": "garam",
+    "standardAmount": "secukupnya"
+   },
+   "w-es-013-i6": {
+    "name": "lada hitam baru digiling",
+    "standardAmount": "secukupnya"
+   }
+  },
+  "instructions": {
+   "1": "Panggang irisan roti di bawah grill atau di grill pan panas sekitar 30 detik per sisi.",
+   "2": "Bawa roti panggang ke meja. Beri tiap orang satu siung bawang putih untuk digosokkan ke irisannya.",
+   "3": "Gosokkan belahan tomat ke roti panggang.",
+   "4": "Siram dengan minyak zaitun dan bumbui dengan garam dan lada hitam.",
+   "5": "Sajikan hangat."
+  },
+  "culturalNotes": "Pa amb tomàquet adalah hidangan tradisional Katalan, disajikan sebagai pembuka atau makanan ringan.",
+  "chapter": "es"
+ },
+ "w-es-014": {
+  "title": "Patatas Bravas (Kentang Saus Pedas)",
+  "ingredients": {
+   "w-es-014-i1": {
+    "name": "kentang",
+    "standardAmount": "1 besar"
+   },
+   "w-es-014-i2": {
+    "name": "pure tomat",
+    "standardAmount": "1 cangkir"
+   },
+   "w-es-014-i3": {
+    "name": "bawang putih",
+    "standardAmount": "1 siung"
+   },
+   "w-es-014-i4": {
+    "name": "cabai kering pedas",
+    "standardAmount": "1 kecil"
+   },
+   "w-es-014-i5": {
+    "name": "paprika asap",
+    "standardAmount": "1/2 sdt"
+   },
+   "w-es-014-i6": {
+    "name": "gula pasir",
+    "standardAmount": "1/4 sdt"
+   },
+   "w-es-014-i7": {
+    "name": "minyak zaitun extra virgin",
+    "standardAmount": "2 sdm"
+   },
+   "w-es-014-i8": {
+    "name": "peterseli segar",
+    "standardAmount": "secukupnya"
+   },
+   "w-es-014-i9": {
+    "name": "garam laut",
+    "standardAmount": "secukupnya"
+   },
+   "w-es-014-i10": {
+    "name": "lada hitam baru digiling",
+    "standardAmount": "secukupnya"
+   }
+  },
+  "instructions": {
+   "1": "Panaskan oven ke suhu maksimum.",
+   "2": "Cincang halus bawang putih dan cabai kering.",
+   "3": "Panaskan panci kecil di api sedang dengan 1 sdm minyak zaitun.",
+   "4": "Saat minyak panas, masukkan bawang putih dan cabai, aduk 15 detik, lalu masukkan pure tomat dengan paprika, gula dan garam; didihkan pelan.",
+   "5": "Iris kentang setebal sekitar 2 mm.",
+   "6": "Susun irisan dalam satu lapisan di loyang beralas kertas, siram sisa minyak dan beri garam.",
+   "7": "Panggang 20 menit hingga kentang matang.",
+   "8": "Susun irisan di piring saji, tuang saus tomat di atasnya dan hiasi dengan peterseli."
+  },
+  "culturalNotes": "Patatas bravas sangat populer di Spanyol, terutama di wilayah Alicante, disajikan sebagai tapas.",
+  "chapter": "es"
+ },
+ "w-es-015": {
+  "title": "Pisto Andaluz (Tumis Sayur Andalusia)",
+  "ingredients": {
+   "w-es-015-i1": {
+    "name": "minyak zaitun extra virgin",
+    "standardAmount": "1/4 cangkir (60 ml)"
+   },
+   "w-es-015-i2": {
+    "name": "kentang",
+    "standardAmount": "1 sedang, potong dadu"
+   },
+   "w-es-015-i3": {
+    "name": "bawang bombay",
+    "standardAmount": "1 besar"
+   },
+   "w-es-015-i4": {
+    "name": "bawang putih",
+    "standardAmount": "3 siung"
+   },
+   "w-es-015-i5": {
+    "name": "paprika merah",
+    "standardAmount": "1 besar"
+   },
+   "w-es-015-i6": {
+    "name": "paprika hijau",
+    "standardAmount": "1 besar"
+   },
+   "w-es-015-i7": {
+    "name": "zucchini",
+    "standardAmount": "1 sedang"
+   },
+   "w-es-015-i8": {
+    "name": "paprika asap manis",
+    "standardAmount": "1 sdt"
+   },
+   "w-es-015-i9": {
+    "name": "jintan bubuk",
+    "standardAmount": "3/4 sdt"
+   },
+   "w-es-015-i10": {
+    "name": "tomat",
+    "standardAmount": "4 buah"
+   },
+   "w-es-015-i11": {
+    "name": "garam laut dan lada hitam",
+    "standardAmount": "secukupnya"
+   },
+   "w-es-015-i12": {
+    "name": "peterseli segar",
+    "standardAmount": "untuk hiasan"
+   }
+  },
+  "instructions": {
+   "1": "Panaskan wajan besar di api sedang dan tuangkan minyak zaitun.",
+   "2": "Sementara itu, potong kentang menjadi dadu kecil.",
+   "3": "Saat minyak panas, masukkan kentang dan aduk dengan minyak; aduk setiap beberapa menit.",
+   "4": "Sambil kentang digoreng, cincang kasar bawang dan bawang putih, cincang halus paprika dan zucchini.",
+   "5": "Setelah sekitar 20 menit dan kentang keemasan, angkat dari wajan.",
+   "6": "Di wajan yang sama, kecilkan api, masukkan bawang, bawang putih dan paprika, tumis sambil diaduk.",
+   "7": "Setelah 6-8 menit dan sayuran sedikit kecoklatan, masukkan zucchini dan aduk.",
+   "8": "Saat zucchini sedikit kecoklatan (sekitar 4 menit), masukkan paprika dan jintan, aduk cepat dan masukkan tomat cincang.",
+   "9": "Masak hingga tomat hancur, kembalikan kentang, aduk dan sajikan di piring besar dengan peterseli segar. Selamat makan!"
+  },
+  "culturalNotes": "Pisto andaluz adalah hidangan tradisional Spanyol dari sayuran yang ditumis dan digoreng, disajikan sebagai hidangan utama atau pendamping.",
+  "chapter": "es"
+ },
+ "w-es-016": {
+  "title": "Arroz con Leche (Puding Nasi)",
+  "ingredients": {
+   "w-es-016-i1": {
+    "name": "air",
+    "standardAmount": "1 cangkir"
+   },
+   "w-es-016-i2": {
+    "name": "beras putih",
+    "standardAmount": "1/2 cangkir"
+   },
+   "w-es-016-i3": {
+    "name": "garam",
+    "standardAmount": "sejumput"
+   },
+   "w-es-016-i4": {
+    "name": "kayu manis batang",
+    "standardAmount": "1"
+   },
+   "w-es-016-i5": {
+    "name": "susu",
+    "standardAmount": "4 cangkir"
+   },
+   "w-es-016-i6": {
+    "name": "gula",
+    "standardAmount": "1/2 cangkir"
+   },
+   "w-es-016-i7": {
+    "name": "kuning telur",
+    "standardAmount": "3"
+   },
+   "w-es-016-i8": {
+    "name": "kayu manis bubuk",
+    "standardAmount": "secukupnya"
+   },
+   "w-es-016-i9": {
+    "name": "parutan kulit lemon",
+    "standardAmount": "secukupnya"
+   },
+   "w-es-016-i10": {
+    "name": "irisan almond",
+    "standardAmount": "secukupnya"
+   },
+   "w-es-016-i11": {
+    "name": "kismis",
+    "standardAmount": "secukupnya"
+   }
+  },
+  "instructions": {
+   "1": "Di panci sedang, didihkan air.",
+   "2": "Masukkan beras, garam, kayu manis dan kulit lemon. Tutup dan didihkan pelan 16 menit hingga beras empuk.",
+   "3": "Di panci besar, panaskan susu dengan gula hingga hangat dan larut.",
+   "4": "Tuang beberapa sendok susu panas ke kuning telur untuk menghangatkan.",
+   "5": "Kembalikan kuning telur ke susu panas sambil diaduk.",
+   "6": "Masukkan nasi matang (dengan kayu manis dan kulit) ke susu dan kentalkan di api kecil.",
+   "7": "Hiasi dengan kayu manis, parutan kulit lemon, kismis dan irisan almond."
+  },
+  "culturalNotes": "Arroz con leche adalah hidangan penutup tradisional di Spanyol, sering disajikan pada acara khusus dan pertemuan keluarga.",
+  "chapter": "es"
+ },
+ "w-es-017": {
+  "title": "Tortilla Spanyol (Tortilla de Patatas)",
+  "ingredients": {
+   "w-es-017-i1": {
+    "name": "telur",
+    "standardAmount": "8 butir"
+   },
+   "w-es-017-i2": {
+    "name": "kentang",
+    "standardAmount": "1 kg"
+   },
+   "w-es-017-i3": {
+    "name": "bawang bombay",
+    "standardAmount": "1 buah"
+   },
+   "w-es-017-i4": {
+    "name": "minyak zaitun",
+    "standardAmount": "500 ml"
+   },
+   "w-es-017-i5": {
+    "name": "garam",
+    "standardAmount": "sejumput"
+   }
+  },
+  "instructions": {
+   "1": "Kupas kentang, cuci dan keringkan dengan handuk. Potong dadu 1 cm atau iris 2 mm.",
+   "2": "Panaskan minyak di wajan. Goreng kentang tanpa kecoklatan hingga empuk; tiriskan.",
+   "3": "Potong bawang menjadi dadu atau irisan dan tumis hingga layu.",
+   "4": "Kocok 8 telur di mangkuk dengan sejumput garam hingga homogen; campur dengan kentang dan bawang.",
+   "5": "Panaskan 3 sdm minyak zaitun di wajan bersih.",
+   "6": "Saat wajan panas, tuang campuran telur-bawang-kentang.",
+   "7": "Setelah 7-8 menit bagian bawah harus sudah padat. Letakkan piring di atas wajan dan balik dengan hati-hati.",
+   "8": "Beberapa menit lagi dan siap disajikan."
+  },
+  "culturalNotes": "Tortilla Spanyol adalah hidangan tradisional Spanyol, dikenal juga sebagai tortilla de patatas; disajikan sebagai makanan ringan atau tapa.",
+  "chapter": "es"
+ },
+ "w-es-018": {
+  "title": "Tarta de Santiago (Kue Almond Santiago)",
+  "ingredients": {
+   "w-es-018-i1": {
+    "name": "almond kupas",
+    "standardAmount": "2 1/2 cangkir"
+   },
+   "w-es-018-i2": {
+    "name": "gula pasir",
+    "standardAmount": "1 1/4 cangkir"
+   },
+   "w-es-018-i3": {
+    "name": "telur besar",
+    "standardAmount": "5 butir"
+   },
+   "w-es-018-i4": {
+    "name": "kayu manis bubuk",
+    "standardAmount": "1 sdt"
+   },
+   "w-es-018-i5": {
+    "name": "parutan kulit lemon",
+    "standardAmount": "1 sdt"
+   },
+   "w-es-018-i6": {
+    "name": "gula bubuk",
+    "standardAmount": "2 sdm"
+   },
+   "w-es-018-i7": {
+    "name": "semprotan antilengket",
+    "standardAmount": "secukupnya"
+   }
+  },
+  "instructions": {
+   "1": "Susun 350 g almond kupas di loyang beralas kertas dan panggang di oven.",
+   "2": "Angkat almond, dinginkan dan haluskan di food processor hingga menjadi tepung almond.",
+   "3": "Di mangkuk besar, campur 250 g gula dengan 5 telur, lalu masukkan kayu manis dan parutan kulit lemon.",
+   "4": "Masukkan campuran almond sedikit demi sedikit ke adonan telur-gula sambil diaduk hingga homogen.",
+   "5": "Lapisi loyang bulat 22 cm dengan kertas dan semprot pinggirannya.",
+   "6": "Panggang di 170°C selama 55 menit hingga kue matang dan keemasan.",
+   "7": "Keluarkan dari oven, dinginkan, keluarkan dari loyang dan pindahkan ke piring saji.",
+   "8": "Letakkan stensil salib Santiago di atas kue dan taburi gula bubuk; angkat stensil dengan hati-hati."
+  },
+  "culturalNotes": "Tarta de Santiago adalah manisan almond tradisional dari Galicia di Spanyol, sering dihiasi salib Santiago.",
+  "chapter": "es"
+ },
+ "w-es-019": {
+  "title": "Zarangollo Murciano (Orak-arik Telur Zucchini)",
+  "ingredients": {
+   "w-es-019-i1": {
+    "name": "telur",
+    "standardAmount": "4 butir"
+   },
+   "w-es-019-i2": {
+    "name": "bawang bombay",
+    "standardAmount": "1/2 buah"
+   },
+   "w-es-019-i3": {
+    "name": "zucchini",
+    "standardAmount": "1 buah"
+   },
+   "w-es-019-i4": {
+    "name": "minyak zaitun extra virgin",
+    "standardAmount": "2 sdm"
+   },
+   "w-es-019-i5": {
+    "name": "garam laut dan lada hitam",
+    "standardAmount": "secukupnya"
+   },
+   "w-es-019-i6": {
+    "name": "daun bawang segar cincang",
+    "standardAmount": "segenggam"
+   }
+  },
+  "instructions": {
+   "1": "Pecahkan 4 telur ke mangkuk, bumbui dengan garam laut dan lada hitam, kocok ringan.",
+   "2": "Iris setengah bawang bombay tipis-tipis.",
+   "3": "Kupas satu zucchini sedang dan iris setebal sekitar 3 mm.",
+   "4": "Panaskan wajan antilengket besar di api sedang-besar dengan 2 sdm minyak zaitun.",
+   "5": "Setelah 1 menit, masukkan bawang dan aduk dengan minyak; setelah 2 menit masukkan irisan zucchini dan masak hingga empuk.",
+   "6": "Kecilkan api, tuang campuran telur dan aduk setiap 30 detik hingga telur creamy tapi padat.",
+   "7": "Pindahkan ke piring saji dan taburi daun bawang segar. Selamat makan!"
+  },
+  "culturalNotes": "Zarangollo murciano adalah hidangan tradisional dari wilayah Murcia di Spanyol, dikenal dengan kesederhanaan dan rasanya yang kaya.",
+  "chapter": "es"
+ }
 }
