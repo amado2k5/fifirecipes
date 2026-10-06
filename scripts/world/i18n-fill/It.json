@@ -1,544 +1,997 @@
 {
-"w-fr-001": {
-  "title": "Bouillabaisse",
+ "w-es-001": {
+  "title": "Arroz Negro (Arròs Negre)",
   "ingredients": {
-    "w-fr-001-i1": {"name": "Gallinella di mare", "standardAmount": "660 g"},
-    "w-fr-001-i2": {"name": "Scorfano", "standardAmount": "660 g"},
-    "w-fr-001-i3": {"name": "Cappone rosso", "standardAmount": "660 g"},
-    "w-fr-001-i4": {"name": "Grongo", "standardAmount": "660 g"},
-    "w-fr-001-i5": {"name": "Rana pescatrice", "standardAmount": "660 g"},
-    "w-fr-001-i6": {"name": "Pesce San Pietro", "standardAmount": "660 g"},
-    "w-fr-001-i7": {"name": "Polpo", "standardAmount": "1 vivo (facoltativo)"},
-    "w-fr-001-i8": {"name": "Ricci di mare", "standardAmount": "10"},
-    "w-fr-001-i9": {"name": "Patate", "standardAmount": "1 kg"},
-    "w-fr-001-i10": {"name": "Aglio", "standardAmount": "7 spicchi"},
-    "w-fr-001-i11": {"name": "Cipolle", "standardAmount": "3"},
-    "w-fr-001-i12": {"name": "Pomodori", "standardAmount": "5 maturi"},
-    "w-fr-001-i13": {"name": "Olio d'oliva", "standardAmount": "240 ml"},
-    "w-fr-001-i14": {"name": "Bouquet garni", "standardAmount": "1 mazzo"},
-    "w-fr-001-i15": {"name": "Finocchietto", "standardAmount": "1 rametto"},
-    "w-fr-001-i16": {"name": "Zafferano", "standardAmount": "8 fili"},
-    "w-fr-001-i17": {"name": "Pane di campagna", "standardAmount": "10 fette"},
-    "w-fr-001-i18": {"name": "Sale", "standardAmount": "q.b."},
-    "w-fr-001-i19": {"name": "Pepe di Cayenna", "standardAmount": "q.b."}
+   "w-es-001-i1": {
+    "name": "brodo di pesce",
+    "standardAmount": "3 tazze (710 ml)"
+   },
+   "w-es-001-i2": {
+    "name": "pistilli di zafferano",
+    "standardAmount": "1/4 cucchiaino (0,17 g)"
+   },
+   "w-es-001-i3": {
+    "name": "olio extravergine di oliva",
+    "standardAmount": "1/4 tazza (60 ml)"
+   },
+   "w-es-001-i4": {
+    "name": "seppia",
+    "standardAmount": "1 pezzo"
+   },
+   "w-es-001-i5": {
+    "name": "cipolla",
+    "standardAmount": "1/2 pezzo"
+   },
+   "w-es-001-i6": {
+    "name": "peperone verde dolce italiano",
+    "standardAmount": "1/2 pezzo"
+   },
+   "w-es-001-i7": {
+    "name": "aglio",
+    "standardAmount": "4 spicchi"
+   },
+   "w-es-001-i8": {
+    "name": "paprika dolce affumicata spagnola",
+    "standardAmount": "1/2 cucchiaino (1,15 g)"
+   },
+   "w-es-001-i9": {
+    "name": "pomodori",
+    "standardAmount": "2 pezzi"
+   },
+   "w-es-001-i10": {
+    "name": "riso tondo spagnolo",
+    "standardAmount": "1 tazza (220 g)"
+   },
+   "w-es-001-i11": {
+    "name": "nero di seppia",
+    "standardAmount": "4 g"
+   },
+   "w-es-001-i12": {
+    "name": "prezzemolo tritato finemente",
+    "standardAmount": "una manciata"
+   },
+   "w-es-001-i13": {
+    "name": "limone",
+    "standardAmount": "1 pezzo"
+   },
+   "w-es-001-i14": {
+    "name": "sale marino",
+    "standardAmount": "un pizzico"
+   },
+   "w-es-001-i15": {
+    "name": "pepe nero",
+    "standardAmount": "un tocco"
+   }
   },
   "instructions": {
-    "1": "Pulire i pesci e tagliarli in grossi pezzi con la lisca.",
-    "2": "Scaldare l'olio d'oliva in una pentola ampia e profonda.",
-    "3": "Unire cipolle, 6 spicchi d'aglio schiacciati, polpo e pomodori e cuocere 5 minuti a fuoco dolce.",
-    "4": "Unire i pezzi di pesce dal più grande, coprire di acqua bollente, salare, pepare e aggiungere finocchietto, bouquet garni e zafferano; cuocere a fuoco dolce.",
-    "5": "Preparare la rouille: pestare l'aglio nel mortaio, unire tuorlo e zafferano e montare con l'olio a filo come una maionese.",
-    "6": "Lessare le patate in acqua salata 15-20 minuti. Aprire i ricci con le forbici e raccogliere la polpa con un cucchiaino.",
-    "7": "Disporre il pesce su un piatto grande. Unire la polpa dei ricci alla zuppa.",
-    "8": "Strofinare il pane con l'aglio e spalmare di rouille. Almeno 2 fette per scodella.",
-    "9": "Togliere pesce e patate dalla zuppa e disporli su un piatto.",
-    "10": "Versare la zuppa bollente sul pane con la rouille. Servire pesce e patate a parte."
+   "1": "Versa le 3 tazze di brodo di pesce in un pentolino con un pizzico di zafferano e scalda a fuoco medio.",
+   "2": "Trita finemente 1/2 cipolla, trita grossolanamente 4 spicchi d'aglio, trita finemente 1/2 peperone verde, grattugia finemente 2 pomodori e taglia la seppia pulita a pezzi.",
+   "3": "Scalda una paellera a fuoco medio e versa 1/4 tazza di olio extravergine di oliva.",
+   "4": "Dopo 1 minuto, insaporisci l'olio con sale marino e aggiungi i pezzi di seppia; mescola. Dopo 2 minuti, quando la seppia è leggermente dorata, toglila.",
+   "5": "Nella stessa paellera e allo stesso fuoco, aggiungi cipolla e peperone verde tritati; dopo 3 minuti, quando la cipolla è translucida, incorpora il pomodoro grattugiato.",
+   "6": "Dopo 3 minuti, quando il pomodoro si è addensato, aggiungi 1 tazza di riso tondo crudo, il nero di seppia e insaporisci con sale marino; mescola bene.",
+   "7": "Circa 8-9 minuti dopo aver alzato la fiamma, quando gran parte del brodo è assorbita ma ne resta ancora un po', abbassa il fuoco e lascia finire la cottura.",
+   "8": "Scopri la paellera, guarnisci con spicchi di limone e spolvera con prezzemolo fresco tritato. Buon appetito!"
   },
-  "culturalNotes": "La bouillabaisse è il piatto tradizionale di Marsiglia, celebre per la varietà di pesci e crostacei."
-},
-"w-fr-002": {
-  "title": "Calamari fritti con tzatziki",
+  "culturalNotes": "L'arroz negro (arròs negre) è un piatto tradizionale spagnolo, in particolare della regione di Valencia, noto per il suo intenso colore nero e il sapore di seppia.",
+  "chapter": "es"
+ },
+ "w-es-002": {
+  "title": "Arroz a la Cubana",
   "ingredients": {
-    "w-fr-002-i1": {"name": "Aglio", "standardAmount": "2 spicchi piccoli (tritati)"},
-    "w-fr-002-i2": {"name": "Olio d'oliva", "standardAmount": "1 cucchiaio"},
-    "w-fr-002-i3": {"name": "Cetriolo", "standardAmount": "1 piccolo"},
-    "w-fr-002-i4": {"name": "Yogurt", "standardAmount": "250 g"},
-    "w-fr-002-i5": {"name": "Menta secca", "standardAmount": "1 cucchiaino"},
-    "w-fr-002-i6": {"name": "Succo di limone", "standardAmount": "1 cucchiaino"},
-    "w-fr-002-i7": {"name": "Sale e pepe", "standardAmount": "q.b."},
-    "w-fr-002-i8": {"name": "Calamari", "standardAmount": "450 g"},
-    "w-fr-002-i9": {"name": "Farina", "standardAmount": "1 ciotola capiente"},
-    "w-fr-002-i10": {"name": "Olio per friggere", "standardAmount": "2,5 cm in pentola"},
-    "w-fr-002-i11": {"name": "Succo di limone fresco", "standardAmount": "q.b."},
-    "w-fr-002-i12": {"name": "Sale, pepe, origano secco", "standardAmount": "q.b."}
+   "w-es-002-i1": {
+    "name": "olio vegetale",
+    "standardAmount": "1 cucchiaio"
+   },
+   "w-es-002-i2": {
+    "name": "patata",
+    "standardAmount": "1 media, a dadini"
+   },
+   "w-es-002-i3": {
+    "name": "carota",
+    "standardAmount": "1 media, a dadini"
+   },
+   "w-es-002-i4": {
+    "name": "cipolla",
+    "standardAmount": "1/2 media, a dadini"
+   },
+   "w-es-002-i5": {
+    "name": "aglio",
+    "standardAmount": "2 spicchi, tritati"
+   },
+   "w-es-002-i6": {
+    "name": "carne macinata di manzo",
+    "standardAmount": "450 g"
+   },
+   "w-es-002-i7": {
+    "name": "acqua",
+    "standardAmount": "1/4 tazza"
+   },
+   "w-es-002-i8": {
+    "name": "salsa di soia",
+    "standardAmount": "2 cucchiai"
+   },
+   "w-es-002-i9": {
+    "name": "sale",
+    "standardAmount": "a piacere"
+   },
+   "w-es-002-i10": {
+    "name": "pepe nero macinato",
+    "standardAmount": "a piacere"
+   },
+   "w-es-002-i11": {
+    "name": "peperone",
+    "standardAmount": "1 medio, a dadini"
+   },
+   "w-es-002-i12": {
+    "name": "uvetta",
+    "standardAmount": "2 cucchiai"
+   },
+   "w-es-002-i13": {
+    "name": "piselli",
+    "standardAmount": "2 cucchiai"
+   },
+   "w-es-002-i14": {
+    "name": "riso cotto",
+    "standardAmount": "2 tazze"
+   }
   },
   "instructions": {
-    "1": "Mettere olio e aglio in una ciotola media.",
-    "2": "Affettare il cetriolo sottilmente, salarlo e lasciarlo scolare almeno 15 minuti.",
-    "3": "Mescolare yogurt, cetriolo, menta, limone, sale e pepe con l'aglio all'olio. Se troppo liquido, aggiungere yogurt.",
-    "4": "Pulire i calamari e tagliare il corpo ad anelli di 2,5 cm (i piccoli interi).",
-    "5": "Preparare la farina con sale e pepe.",
-    "6": "Scaldare l'olio a fuoco alto.",
-    "7": "Infarinare i calamari dentro e fuori.",
-    "8": "Friggere a piccoli lotti.",
-    "9": "Circa 1 minuto per i piccoli, un minuto in più per i grandi.",
-    "10": "Scolare su carta assorbente e servire subito con lo tzatziki."
+   "1": "Scalda l'olio in una padella capiente a fuoco medio. Aggiungi patata e carota e rosola 3 minuti. Metti da parte in una ciotola.",
+   "2": "Aggiungi cipolla e aglio nella padella calda e rosola fino a leggera doratura, 5-7 minuti. Unisci la carne macinata e cuoci mescolando finché è dorata e sgranata.",
+   "3": "Rimetti il mix di patata e carota in padella con acqua, salsa di soia, sale e pepe. Copri e lascia sobbollire finché le patate sono tenere, 5-8 minuti.",
+   "4": "Aggiungi peperone, uvetta e piselli e cuoci finché tutto è caldo, circa 2 minuti. Servi su riso caldo."
   },
-  "culturalNotes": "I calamari con tzatziki sono un piatto mediterraneo molto amato in Grecia e a Cipro."
-},
-"w-fr-003": {
-  "title": "Calissons",
+  "culturalNotes": "L'arroz a la cubana è un piatto popolare in Spagna che combina carne macinata, verdure e spezie, servito su riso.",
+  "chapter": "es"
+ },
+ "w-es-003": {
+  "title": "Zuppa all'Aglio Basca (Zurrukutuna)",
   "ingredients": {
-    "w-fr-003-i1": {"name": "Mandorle", "standardAmount": "200 g"},
-    "w-fr-003-i2": {"name": "Zucchero a velo", "standardAmount": "200 g"},
-    "w-fr-003-i3": {"name": "Miele", "standardAmount": "100 g"},
-    "w-fr-003-i4": {"name": "Cannella", "standardAmount": "½ cucchiaino"},
-    "w-fr-003-i5": {"name": "Chiodi di garofano", "standardAmount": "¼ cucchiaino"},
-    "w-fr-003-i6": {"name": "Uvetta", "standardAmount": "50 g"},
-    "w-fr-003-i7": {"name": "Farina", "standardAmount": "100 g"},
-    "w-fr-003-i8": {"name": "Uovo", "standardAmount": "1"}
+   "w-es-003-i1": {
+    "name": "olio extravergine di oliva",
+    "standardAmount": "1/4 tazza (60 ml)"
+   },
+   "w-es-003-i2": {
+    "name": "baguette",
+    "standardAmount": "100 g"
+   },
+   "w-es-003-i3": {
+    "name": "aglio",
+    "standardAmount": "6 spicchi a lamelle sottili"
+   },
+   "w-es-003-i4": {
+    "name": "peperoncino tritato",
+    "standardAmount": "1/4 cucchiaino (0,625 g)"
+   },
+   "w-es-003-i5": {
+    "name": "paprika dolce affumicata",
+    "standardAmount": "1 cucchiaino (2,5 g)"
+   },
+   "w-es-003-i6": {
+    "name": "pomodori",
+    "standardAmount": "2, finemente grattugiati"
+   },
+   "w-es-003-i7": {
+    "name": "brodo vegetale",
+    "standardAmount": "1 litro"
+   },
+   "w-es-003-i8": {
+    "name": "foglia di alloro",
+    "standardAmount": "1"
+   },
+   "w-es-003-i9": {
+    "name": "filetto di merluzzo",
+    "standardAmount": "225 g"
+   },
+   "w-es-003-i10": {
+    "name": "uova",
+    "standardAmount": "2"
+   },
+   "w-es-003-i11": {
+    "name": "sale marino e pepe nero",
+    "standardAmount": "a piacere"
+   },
+   "w-es-003-i12": {
+    "name": "prezzemolo tritato",
+    "standardAmount": "per guarnire"
+   }
   },
   "instructions": {
-    "1": "Mescolare farina di mandorle e zucchero a velo in una ciotola.",
-    "2": "Unire miele, cannella, chiodi di garofano e uvetta e mescolare bene.",
-    "3": "Unire la farina poco alla volta formando un impasto sodo.",
-    "4": "Coprire e riposare 30 minuti.",
-    "5": "Formare palline e disporle su una teglia con carta forno.",
-    "6": "Cuocere a 180 °C per 20 minuti fino a doratura.",
-    "7": "Far raffreddare e servire."
+   "1": "Taglia la baguette a fette di 1,25 cm, disponile su una teglia con carta forno e inforna a 200°C finché sono dorate.",
+   "2": "Scalda una casseruola a fuoco medio e aggiungi l'olio d'oliva.",
+   "3": "Dopo un paio di minuti, aggiungi l'aglio a lamelle e il peperoncino, mescola 1 minuto di continuo, poi incorpora le fette di baguette tostate continuando a mescolare.",
+   "4": "Circa 3 minuti dopo aver aggiunto i pomodori grattugiati, versa il brodo vegetale e la foglia di alloro, porta a bollore a fuoco vivo, poi abbassa a fuoco dolce e copri.",
+   "5": "Mentre la zuppa sobbolle, asciuga il filetto di merluzzo con carta da cucina, sala, pepa e tritalo finemente; rompi le uova in una ciotola.",
+   "6": "Dopo 15 minuti di sobbollitura, quando il pane si è sfaldato, togli l'alloro, aggiungi il merluzzo tritato e mescola; versa le uova sbattute mescolando per formare fili.",
+   "7": "Dopo un paio di minuti, togli il coperchio e servi la zuppa in piatti fondi, guarnita di prezzemolo tritato. Buon appetito!"
   },
-  "culturalNotes": "I calissons sono dolcetti tradizionali del sud della Francia, dall'aroma delicato."
-},
-"w-fr-004": {
-  "title": "Aglio confit",
+  "culturalNotes": "La zuppa all'aglio basca (zurrukutuna) è un piatto tradizionale dei Paesi Baschi, noto per il suo intenso sapore di aglio, pane e merluzzo.",
+  "chapter": "es"
+ },
+ "w-es-004": {
+  "title": "Boquerones en Vinagre",
   "ingredients": {
-    "w-fr-004-i1": {"name": "Aglio", "standardAmount": "2 teste"},
-    "w-fr-004-i2": {"name": "Timo", "standardAmount": "2 rametti"},
-    "w-fr-004-i3": {"name": "Olio d'oliva", "standardAmount": "250 ml"},
-    "w-fr-004-i4": {"name": "Sale", "standardAmount": "1 pizzico abbondante"}
+   "w-es-004-i1": {
+    "name": "sardine",
+    "standardAmount": "450 g"
+   },
+   "w-es-004-i2": {
+    "name": "succo di limone",
+    "standardAmount": "quanto basta"
+   },
+   "w-es-004-i3": {
+    "name": "aceto di mele",
+    "standardAmount": "quanto basta"
+   },
+   "w-es-004-i4": {
+    "name": "sale marino",
+    "standardAmount": "a piacere"
+   },
+   "w-es-004-i5": {
+    "name": "pepe nero",
+    "standardAmount": "a piacere"
+   },
+   "w-es-004-i6": {
+    "name": "prezzemolo",
+    "standardAmount": "quanto basta"
+   }
   },
   "instructions": {
-    "1": "Preriscaldare il forno a 150 °C (ventilato 130 °C).",
-    "2": "Mettere l'aglio in una pirofila piccola (circa 13 cm) con timo e sale.",
-    "3": "Coprire completamente di olio d'oliva.",
-    "4": "Cuocere 1 ora e 20 minuti finché l'olio frigge dolcemente e l'aglio è dorato intenso: deve schiacciarsi ma mantenere la forma.",
-    "5": "Far raffreddare nell'olio. In barattolo sterilizzato in frigo dura 2 settimane."
+   "1": "Pulisci le sardine: togli testa, interiora e spina centrale con il pollice. Sciacquale sotto acqua fredda.",
+   "2": "Disponi le sardine distese in una pirofila di vetro; usa il vetro e non il metallo per evitare il sapore metallico.",
+   "3": "Copri le sardine con succo di limone e aceto. Consiglio: usa più aceto che succo di limone, perché il limone domina.",
+   "4": "Trita finemente il prezzemolo e cospargilo sulle sardine.",
+   "5": "Aggiungi un secondo strato di sardine e ripeti l'operazione.",
+   "6": "Copri la pirofila con pellicola e refrigera almeno 4 ore.",
+   "7": "Prima di servire, sciacqua le sardine con acqua fredda, guarnisci con prezzemolo tritato e un pizzico di sale marino. Servi fredde."
   },
-  "culturalNotes": "L'aglio confit è un classico della cucina francese, usato per antipasti e per insaporire molti piatti."
-},
-"w-fr-005": {
-  "title": "Confit de canard (anatra confit)",
+  "culturalNotes": "I boquerones en vinagre sono una tapa tradizionale spagnola, spesso servita come aperitivo nei bar e nei caffè.",
+  "chapter": "es"
+ },
+ "w-es-005": {
+  "title": "Crema Catalana",
   "ingredients": {
-    "w-fr-005-i1": {"name": "Cosce d'anatra", "standardAmount": "4 (da 250 g)"},
-    "w-fr-005-i2": {"name": "Grasso d'anatra", "standardAmount": "750 ml"},
-    "w-fr-005-i3": {"name": "Sale", "standardAmount": "4 cucchiaini"},
-    "w-fr-005-i4": {"name": "Timo", "standardAmount": "⅓ tazza"},
-    "w-fr-005-i5": {"name": "Salvia", "standardAmount": "⅓ tazza"},
-    "w-fr-005-i6": {"name": "Rosmarino", "standardAmount": "⅓ tazza"},
-    "w-fr-005-i7": {"name": "Origano", "standardAmount": "⅓ tazza"},
-    "w-fr-005-i8": {"name": "Aglio", "standardAmount": "6 spicchi (schiacciati con la buccia)"},
-    "w-fr-005-i9": {"name": "Scalogno", "standardAmount": "1 (a fettine)"},
-    "w-fr-005-i10": {"name": "Pepe nero in grani", "standardAmount": "1 cucchiaio"},
-    "w-fr-005-i11": {"name": "Semi di coriandolo", "standardAmount": "1 cucchiaio"},
-    "w-fr-005-i12": {"name": "Anice stellato", "standardAmount": "8"},
-    "w-fr-005-i13": {"name": "Alloro", "standardAmount": "2 foglie"},
-    "w-fr-005-i14": {"name": "Bacche di ginepro", "standardAmount": "2 cucchiai"},
-    "w-fr-005-i15": {"name": "Chiodi di garofano", "standardAmount": "8"}
+   "w-es-005-i1": {
+    "name": "latte biologico",
+    "standardAmount": "2 1/2 tazze"
+   },
+   "w-es-005-i2": {
+    "name": "baccello di vaniglia",
+    "standardAmount": "1"
+   },
+   "w-es-005-i3": {
+    "name": "stecca di cannella",
+    "standardAmount": "1"
+   },
+   "w-es-005-i4": {
+    "name": "scorze di limone",
+    "standardAmount": "8"
+   },
+   "w-es-005-i5": {
+    "name": "tuorli d'uovo",
+    "standardAmount": "5"
+   },
+   "w-es-005-i6": {
+    "name": "zucchero",
+    "standardAmount": "1/4 tazza + extra per spolverare"
+   },
+   "w-es-005-i7": {
+    "name": "amido di mais",
+    "standardAmount": "1 cucchiaio"
+   }
   },
   "instructions": {
-    "1": "Mescolare sale e spezie in una ciotola e massaggiare le cosce.",
-    "2": "Disporle in un contenitore profondo, coprirle con le spezie e refrigerare coperte 24 ore.",
-    "3": "Dopo 24 ore sciacquare sotto acqua fredda e asciugare.",
-    "4": "Disporle in una teglia, coprire con il grasso e le spezie e sigillare con alluminio.",
-    "5": "Cuocere a 100 °C per 2-3 ore finché la carne è tenerissima.",
-    "6": "Togliere, far intiepidire e filtrare il grasso in un contenitore ermetico.",
-    "7": "Coprire l'anatra con il grasso filtrato. In frigo si conserva 6 mesi.",
-    "8": "Per servire, cuocere a 200 °C per 10-15 minuti finché la pelle è croccante."
+   "1": "Versa 2 tazze di latte biologico in un pentolino con le scorze di limone, la stecca di cannella e il baccello di vaniglia inciso; scalda a fuoco medio per insaporire.",
+   "2": "Separa i tuorli dagli albumi di 5 uova grandi (butta gli albumi). Aggiungi 2 cucchiai di zucchero e l'amido di mais ai tuorli e sbatti fino a ottenere un composto omogeneo.",
+   "3": "Filtra il latte aromatizzato sul composto di uova e mescola bene. Rimetti nel pentolino e addensa a fuoco medio mescolando continuamente.",
+   "4": "Distribuisci la crema in 4 cocotte. Dopo 20 minuti, copri con pellicola e refrigera almeno 2 ore.",
+   "5": "Prima di servire, spolvera 1 cucchiaio di zucchero su ogni cocotte e caramellizza con il cannello da cucina per formare una crosta croccante."
   },
-  "culturalNotes": "Il confit d'anatra è un piatto tradizionale francese di cottura lenta nel grasso; si serve con purè o verdure arrosto."
-},
-"w-fr-006": {
-  "title": "Flamiche (torta di porri)",
+  "culturalNotes": "La crema catalana è un dolce tradizionale della Catalogna, in Spagna, famoso per il suo gusto ricco e la crosta croccante di zucchero caramellato.",
+  "chapter": "es"
+ },
+ "w-es-006": {
+  "title": "Fabada Asturiana",
   "ingredients": {
-    "w-fr-006-i1": {"name": "Farina", "standardAmount": "350 g"},
-    "w-fr-006-i2": {"name": "Burro", "standardAmount": "175 g (a temperatura ambiente)"},
-    "w-fr-006-i3": {"name": "Sale", "standardAmount": "1 pizzico"},
-    "w-fr-006-i4": {"name": "Latte", "standardAmount": "7 cucchiai"},
-    "w-fr-006-i5": {"name": "Curry in polvere", "standardAmount": "½ cucchiaino"},
-    "w-fr-006-i6": {"name": "Porri", "standardAmount": "900 g (tritati)"},
-    "w-fr-006-i7": {"name": "Burro", "standardAmount": "40 g"},
-    "w-fr-006-i8": {"name": "Tuorli", "standardAmount": "4 (3 per il ripieno + 1 per spennellare)"},
-    "w-fr-006-i9": {"name": "Crème fraîche", "standardAmount": "200 g"},
-    "w-fr-006-i10": {"name": "Noce moscata", "standardAmount": "¼ cucchiaino"},
-    "w-fr-006-i11": {"name": "Sale e pepe nero", "standardAmount": "1 pizzico"}
+   "w-es-006-i1": {
+    "name": "aglio",
+    "standardAmount": "3 spicchi"
+   },
+   "w-es-006-i2": {
+    "name": "cipolla",
+    "standardAmount": "1/2"
+   },
+   "w-es-006-i3": {
+    "name": "salsicce di manzo halal",
+    "standardAmount": "2 pezzi"
+   },
+   "w-es-006-i4": {
+    "name": "fagioli bianchi",
+    "standardAmount": "570 g"
+   },
+   "w-es-006-i5": {
+    "name": "olio extravergine di oliva",
+    "standardAmount": "1 cucchiaio"
+   },
+   "w-es-006-i6": {
+    "name": "paprika dolce affumicata",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-es-006-i7": {
+    "name": "acqua fredda",
+    "standardAmount": "1,5 tazze"
+   },
+   "w-es-006-i8": {
+    "name": "pistilli di zafferano",
+    "standardAmount": "1/2 cucchiaino"
+   },
+   "w-es-006-i9": {
+    "name": "sale marino",
+    "standardAmount": "a piacere"
+   },
+   "w-es-006-i10": {
+    "name": "pepe nero",
+    "standardAmount": "a piacere"
+   }
   },
   "instructions": {
-    "1": "Lavorare farina, burro e sale in una ciotola capiente fino a ottenere un composto sabbioso.",
-    "2": "Unire il latte a poco a poco formando un impasto.",
-    "3": "Coprire e refrigerare 30 minuti.",
-    "4": "Sciogliere il burro in una padella ampia e cuocere i porri finché morbidi e dorati.",
-    "5": "Unire il curry e mescolare 1 minuto.",
-    "6": "In un'altra ciotola mescolare tuorli, crème fraîche, noce moscata, sale e pepe.",
-    "7": "Unire i porri al composto di uova.",
-    "8": "Foderare la tortiera con la pasta e versare il ripieno.",
-    "9": "Coprire con la pasta superiore e sigillare i bordi.",
-    "10": "Spennellare con il tuorlo restante.",
-    "11": "Cuocere a 180 °C per 45 minuti fino a doratura.",
-    "12": "Riposare 10 minuti e servire."
+   "1": "Scola i fagioli bianchi in un colino e sciacquali sotto acqua fredda corrente.",
+   "2": "Sbuccia 3 spicchi d'aglio e tritali finemente; taglia la mezza cipolla a dadini e le salsicce a rondelle di 2,5 cm.",
+   "3": "Scalda una pentola grande a fuoco medio con un generoso cucchiaio di olio d'oliva; dopo 2 minuti dora le salsicce e toglile.",
+   "4": "Nella stessa pentola, aggiungi cipolla e aglio e mescola 3 minuti finché la cipolla è translucida; aggiungi la paprika.",
+   "5": "Rimetti le salsicce in pentola, unisci i fagioli scolati e mescola bene. Aggiungi 1,5 tazze di acqua fredda, zafferano, sale e pepe.",
+   "6": "Copri la pentola e cuoci a fuoco medio 8 minuti. Scopri e spegni il fuoco; l'acqua dev'essere quasi assorbita.",
+   "7": "Servi la fabada ben calda in piatti fondi."
   },
-  "culturalNotes": "La flamiche è la torta di porri tradizionale del nord della Francia."
-},
-"w-fr-007": {
-  "title": "Patate fondenti",
+  "culturalNotes": "La fabada asturiana è un piatto tradizionale delle Asturie, nel nord della Spagna, famoso per il suo sapore intenso e le spezie caratteristiche.",
+  "chapter": "es"
+ },
+ "w-es-007": {
+  "title": "Stufato Spagnolo di Pesce e Pomodoro",
   "ingredients": {
-    "w-fr-007-i1": {"name": "Patate grandi a pasta farinosa", "standardAmount": "4 (da 400 g)"},
-    "w-fr-007-i2": {"name": "Sale", "standardAmount": "¾ cucchiaino"},
-    "w-fr-007-i3": {"name": "Pepe nero", "standardAmount": "½ cucchiaino"},
-    "w-fr-007-i4": {"name": "Olio evo", "standardAmount": "2 cucchiai"},
-    "w-fr-007-i5": {"name": "Burro non salato", "standardAmount": "3 cucchiai (50 g)"},
-    "w-fr-007-i6": {"name": "Timo", "standardAmount": "6 rametti"},
-    "w-fr-007-i7": {"name": "Brodo di pollo o vegetale", "standardAmount": "240 ml (povero di sale)"}
+   "w-es-007-i1": {
+    "name": "olio extravergine di oliva",
+    "standardAmount": "45 ml"
+   },
+   "w-es-007-i2": {
+    "name": "cipolla",
+    "standardAmount": "1 media"
+   },
+   "w-es-007-i3": {
+    "name": "aglio",
+    "standardAmount": "4 spicchi"
+   },
+   "w-es-007-i4": {
+    "name": "sedano",
+    "standardAmount": "2 coste"
+   },
+   "w-es-007-i5": {
+    "name": "carota",
+    "standardAmount": "1"
+   },
+   "w-es-007-i6": {
+    "name": "paprika dolce affumicata",
+    "standardAmount": "2 cucchiaini"
+   },
+   "w-es-007-i7": {
+    "name": "timo essiccato",
+    "standardAmount": "1/2 cucchiaino"
+   },
+   "w-es-007-i8": {
+    "name": "pomodori a cubetti",
+    "standardAmount": "1 lattina (425 g)"
+   },
+   "w-es-007-i9": {
+    "name": "brodo di pesce",
+    "standardAmount": "1 1/2 tazza (360 ml)"
+   },
+   "w-es-007-i10": {
+    "name": "pistilli di zafferano",
+    "standardAmount": "1/4 cucchiaino"
+   },
+   "w-es-007-i11": {
+    "name": "patate novelle",
+    "standardAmount": "450 g"
+   },
+   "w-es-007-i12": {
+    "name": "filetti di merluzzo",
+    "standardAmount": "3 (225 g ciascuno)"
+   },
+   "w-es-007-i13": {
+    "name": "succo di limone",
+    "standardAmount": "1 cucchiaio"
+   },
+   "w-es-007-i14": {
+    "name": "sale marino e pepe nero",
+    "standardAmount": "a piacere"
+   },
+   "w-es-007-i15": {
+    "name": "prezzemolo tritato",
+    "standardAmount": "per guarnire"
+   }
   },
   "instructions": {
-    "1": "Preriscaldare il forno a 200 °C (ventilato 180 °C).",
-    "2": "Tornire le patate in cilindri di circa 6 cm di diametro e 7 cm di altezza, dimezzarle in 8 cilindri da 3,5 cm.",
-    "3": "Asciugare e condire con metà dell'olio, sale e pepe.",
-    "4": "Scaldare il resto dell'olio in una padella adatta al forno a fuoco medio-alto e rosolare ogni lato 6-8 minuti finché dorato.",
-    "5": "Unire burro e timo; quando fuso, versarlo sulle patate. Aggiungere il brodo, portare a bollore e infornare 30 minuti, irrorando a metà cottura.",
-    "6": "Irrorare ancora e servire. Da ristorante: con bistecca, salsa béarnaise e fagioli al burro."
+   "1": "Scalda una pentola grande a fuoco medio e aggiungi l'olio d'oliva.",
+   "2": "Dopo un paio di minuti, aggiungi cipolla, aglio, sedano e carota tritati e mescola per 5 minuti di continuo.",
+   "3": "Aggiungi paprika e timo e mescola rapidamente; incorpora i pomodori a cubetti e il brodo di pesce con lo zafferano.",
+   "4": "Intanto, taglia le patate novelle a metà; quelle più grandi a rondelle di 2 cm.",
+   "5": "Quando il brodo bolle, aggiungi le patate, mescola, copri la pentola e abbassa la fiamma.",
+   "6": "Mentre lo stufato sobbolle, asciuga i filetti di merluzzo con carta da cucina, sala e pepa.",
+   "7": "Dopo 20 minuti di sobbollitura, quando le patate sono tenere, adagia i filetti di merluzzo sullo stufato e cuoci coperto altri 5 minuti.",
+   "8": "Servi lo stufato direttamente dalla pentola o in piatti fondi, con una spruzzata di succo di limone e prezzemolo."
   },
-  "culturalNotes": "Le patate fondenti sono un piatto francese al forno: dorate fuori e cremose dentro."
-},
-"w-fr-008": {
-  "title": "Crêpes al cioccolato",
+  "culturalNotes": "Questo stufato spagnolo di pesce e pomodoro è un piatto tradizionale della cucina spagnola, spesso servito in occasioni speciali e riunioni di famiglia.",
+  "chapter": "es"
+ },
+ "w-es-008": {
+  "title": "Patatine Fritte",
   "ingredients": {
-    "w-fr-008-i1": {"name": "Burro non salato", "standardAmount": "25 g"},
-    "w-fr-008-i2": {"name": "Farina", "standardAmount": "150 g"},
-    "w-fr-008-i3": {"name": "Uova", "standardAmount": "2 grandi"},
-    "w-fr-008-i4": {"name": "Latte intero", "standardAmount": "275 ml"},
-    "w-fr-008-i5": {"name": "Sale", "standardAmount": "1 pizzico"},
-    "w-fr-008-i6": {"name": "Vaniglia in polvere", "standardAmount": "¼ cucchiaino (facoltativa)"},
-    "w-fr-008-i7": {"name": "Zucchero a velo", "standardAmount": "1 cucchiaio"},
-    "w-fr-008-i8": {"name": "Cacao amaro", "standardAmount": "1 cucchiaio"}
+   "w-es-008-i1": {
+    "name": "patate russet",
+    "standardAmount": "2 extra grandi"
+   },
+   "w-es-008-i2": {
+    "name": "olio vegetale",
+    "standardAmount": "1 litro"
+   },
+   "w-es-008-i3": {
+    "name": "sale",
+    "standardAmount": "a piacere"
+   }
   },
   "instructions": {
-    "1": "Sciogliere il burro nella crepiera (lasciarlo imbrunire appena per un aroma nocciola).",
-    "2": "Mescolare farina, zucchero a velo, cacao, sale e vaniglia in una ciotola capiente; rompere le uova al centro e sbattere con il burro fuso.",
-    "3": "Unire un quarto del latte, poi il resto a filo. La pastella sarà piuttosto fluida: è corretto.",
-    "4": "Asciugare l'eccesso di burro, scaldare a fuoco medio-alto e versare un mestolo di pastella distribuendola sottile.",
-    "5": "Cuocere 2-3 minuti finché si formano bolle, girare e cuocere qualche minuto.",
-    "6": "Abbassare leggermente e ripetere asciugando la padella: si ottengono 6-8 crêpes."
+   "1": "Rifila i bordi delle patate per formare un rettangolo. Tagliale a fette di 1,25 cm e poi a bastoncini.",
+   "2": "Immergi i bastoncini in acqua fredda per almeno 30 minuti (o tutta la notte in frigo).",
+   "3": "Asciuga bene le patate con dei canovacci appena prima di friggere.",
+   "4": "Preriscalda l'olio a 160°C. Friggi i bastoncini in piccole quantità per circa 5 minuti; non devono ancora dorarsi.",
+   "5": "Lascia riposare i bastoncini circa 30 minuti.",
+   "6": "Scalda l'olio a 190°C e friggi i bastoncini finché sono dorati e croccanti, circa 2-4 minuti. Scola su carta assorbente.",
+   "7": "Spolvera di sale e servi immediatamente."
   },
-  "culturalNotes": "Le crêpes sono una colazione francese amatissima, servite con cioccolato, miele o fragole."
-},
-"w-fr-009": {
-  "title": "Tartufi al cioccolato alla ganache",
+  "culturalNotes": "Le patatine fritte sono molto popolari in Spagna, note come papas fritas o patatas fritas.",
+  "chapter": "es"
+ },
+ "w-es-009": {
+  "title": "Crocchette di Tacchino",
   "ingredients": {
-    "w-fr-009-i1": {"name": "Cioccolato fondente", "standardAmount": "285 g"},
-    "w-fr-009-i2": {"name": "Burro non salato", "standardAmount": "30 g"},
-    "w-fr-009-i3": {"name": "Panna", "standardAmount": "125 ml"},
-    "w-fr-009-i4": {"name": "Cocco essiccato", "standardAmount": "125 g"},
-    "w-fr-009-i5": {"name": "Cacao amaro", "standardAmount": "60 g"},
-    "w-fr-009-i6": {"name": "Arachidi tritate", "standardAmount": "125 g"},
-    "w-fr-009-i7": {"name": "Codette colorate", "standardAmount": "85 g"},
-    "w-fr-009-i8": {"name": "Zucchero a velo", "standardAmount": "60 g"}
+   "w-es-009-i1": {
+    "name": "burro non salato",
+    "standardAmount": "57 g"
+   },
+   "w-es-009-i2": {
+    "name": "olio extravergine di oliva",
+    "standardAmount": "1/4 tazza"
+   },
+   "w-es-009-i3": {
+    "name": "farina",
+    "standardAmount": "113 g"
+   },
+   "w-es-009-i4": {
+    "name": "cipolla",
+    "standardAmount": "1 media"
+   },
+   "w-es-009-i5": {
+    "name": "latte intero",
+    "standardAmount": "1 litro"
+   },
+   "w-es-009-i6": {
+    "name": "noce moscata",
+    "standardAmount": "1/2 cucchiaino"
+   },
+   "w-es-009-i7": {
+    "name": "prosciutto di tacchino halal",
+    "standardAmount": "255 g"
+   },
+   "w-es-009-i8": {
+    "name": "farina",
+    "standardAmount": "quanto basta"
+   },
+   "w-es-009-i9": {
+    "name": "uova",
+    "standardAmount": "2"
+   },
+   "w-es-009-i10": {
+    "name": "pangrattato",
+    "standardAmount": "quanto basta"
+   }
   },
   "instructions": {
-    "1": "Mettere cioccolato, panna e burro in una ciotola resistente al calore e scaldare al microonde 4 volte da 30 secondi, mescolando ogni volta.",
-    "2": "Coprire e lasciar riposare 5 minuti, poi mescolare finché liscio: la ganache è pronta.",
-    "3": "Refrigerare 6 ore finché solida. Non congelare.",
-    "4": "Raffreddare anche il piatto dove andranno i tartufi.",
-    "5": "Dopo 6 ore formare palline con un cucchiaino.",
-    "6": "Rotolare in cocco, cacao, arachidi, codette o zucchero a velo.",
-    "7": "Disporre sul piatto freddo e far solidificare del tutto."
+   "1": "Scalda il burro e l'olio d'oliva in una padella a fuoco medio.",
+   "2": "Aggiungi la cipolla tritata finemente e rosola 5-6 minuti finché è dorata.",
+   "3": "Aggiungi un pizzico di sale e la noce moscata; mescola bene.",
+   "4": "Incorpora il prosciutto di tacchino halal tritato finemente e mescola 1 minuto.",
+   "5": "Aggiungi la farina e mescola di continuo per 1 minuto.",
+   "6": "Versa il latte gradualmente mescolando costantemente per 15-20 minuti, finché il composto si addensa e si stacca dalla padella.",
+   "7": "Versa il composto in una ciotola grande, lascia raffreddare a temperatura ambiente, copri con pellicola e refrigera finché è ben freddo.",
+   "8": "Forma piccole crocchette con l'impasto freddo e passale nella farina, poi nelle uova sbattute, infine nel pangrattato.",
+   "9": "Scalda l'olio in una padella e friggi le crocchette finché sono dorate su tutti i lati.",
+   "10": "Scola le crocchette su carta assorbente."
   },
-  "culturalNotes": "La ganache è la miscela vellutata di cioccolato e panna, cuore di molti dolci francesi."
-},
-"w-fr-010": {
-  "title": "Gratin Dauphinois",
+  "culturalNotes": "Le crocchette sono un piatto molto popolare in Spagna, spesso servito come tapas nei bar e nei caffè.",
+  "chapter": "es"
+ },
+ "w-es-010": {
+  "title": "Leche Frita (Latte Fritto)",
   "ingredients": {
-    "w-fr-010-i1": {"name": "Patate", "standardAmount": "750 g"},
-    "w-fr-010-i2": {"name": "Aglio", "standardAmount": "2-3 spicchi (tritati)"},
-    "w-fr-010-i3": {"name": "Latte intero", "standardAmount": "275 ml"},
-    "w-fr-010-i4": {"name": "Panna densa", "standardAmount": "150 ml"},
-    "w-fr-010-i5": {"name": "Noce moscata", "standardAmount": "¼ cucchiaino"},
-    "w-fr-010-i6": {"name": "Sale e pepe nero", "standardAmount": "q.b."},
-    "w-fr-010-i7": {"name": "Timo fresco", "standardAmount": "½ cucchiaino"},
-    "w-fr-010-i8": {"name": "Burro", "standardAmount": "un po' (per la teglia)"},
-    "w-fr-010-i9": {"name": "Emmental o Gruyère", "standardAmount": "100 g (facoltativo)"}
+   "w-es-010-i1": {
+    "name": "latte",
+    "standardAmount": "1 litro"
+   },
+   "w-es-010-i2": {
+    "name": "amido di mais",
+    "standardAmount": "1 tazza (125 g)"
+   },
+   "w-es-010-i3": {
+    "name": "zucchero semolato",
+    "standardAmount": "3/4 tazza (150 g)"
+   },
+   "w-es-010-i4": {
+    "name": "cannella in polvere",
+    "standardAmount": "1/2 cucchiaino"
+   },
+   "w-es-010-i5": {
+    "name": "stecca di cannella",
+    "standardAmount": "1"
+   },
+   "w-es-010-i6": {
+    "name": "scorze di limone",
+    "standardAmount": "4"
+   },
+   "w-es-010-i7": {
+    "name": "limone",
+    "standardAmount": "1/2"
+   },
+   "w-es-010-i8": {
+    "name": "uova",
+    "standardAmount": "2"
+   },
+   "w-es-010-i9": {
+    "name": "olio di girasole",
+    "standardAmount": "1/2 tazza (125 ml)"
+   }
   },
   "instructions": {
-    "1": "Pelare le patate (o lasciarle con la buccia) e affettarle a 3 mm.",
-    "2": "Preriscaldare il forno a 190 °C (ventilato 170 °C).",
-    "3": "Portare a bollore latte, panna e aglio, abbassare e unire noce moscata, sale, pepe e patate.",
-    "4": "Cuocere circa 5 minuti girando le fette. Il formaggio può essere aggiunto qui.",
-    "5": "Imburrare la teglia e disporre le patate in strato uniforme.",
-    "6": "Cuocere circa 45 minuti fino a doratura."
+   "1": "Versa 3 tazze di latte in un pentolino con la stecca di cannella e le scorze di limone; scalda a fuoco medio per insaporire.",
+   "2": "Intanto versa 1 tazza di latte in una ciotola e incorpora l'amido di mais poco alla volta sbattendo per non formare grumi.",
+   "3": "Ungi una teglia da 25×15 cm con 1 cucchiaino di olio di girasole.",
+   "4": "Dopo 20 minuti di infusione, togli scorze e cannella; aggiungi lo zucchero e il mix di amido e cuoci mescolando finché si addensa.",
+   "5": "Versa il composto addensato nella teglia, lascia raffreddare, copri con pellicola e refrigera finché è sodo.",
+   "6": "Dopo un paio d'ore, togli la teglia dal frigo, rovesciala su un tagliere e taglia il latte rassodato a quadrotti.",
+   "7": "Metti l'amido in una ciotola e sbatti le uova in un'altra. Passa ogni quadrotto prima nell'amido poi nell'uovo.",
+   "8": "Scalda una padella piccola a fuoco medio con 1/2 tazza di olio di girasole e friggi i quadrotti finché sono dorati.",
+   "9": "Mescola zucchero e cannella in una ciotola e rotolavi i quadrotti fritti; servi tiepidi."
   },
-  "culturalNotes": "Piatto tradizionale del Delfinato: sottili fette di patate in latte e panna aromatizzati alla noce moscata."
-},
-"w-fr-011": {
-  "title": "Pain d'épices (pan di spezie)",
+  "culturalNotes": "La leche frita è un dolce tradizionale spagnolo spesso servito in occasioni speciali e riunioni di famiglia.",
+  "chapter": "es"
+ },
+ "w-es-011": {
+  "title": "Natillas",
   "ingredients": {
-    "w-fr-011-i1": {"name": "Acqua", "standardAmount": "250 ml"},
-    "w-fr-011-i2": {"name": "Miele", "standardAmount": "255 g"},
-    "w-fr-011-i3": {"name": "Cardamomo", "standardAmount": "4 baccelli"},
-    "w-fr-011-i4": {"name": "Chiodi di garofano", "standardAmount": "2"},
-    "w-fr-011-i5": {"name": "Anice stellato", "standardAmount": "2"},
-    "w-fr-011-i6": {"name": "Zucchero di canna grezzo", "standardAmount": "100 g"},
-    "w-fr-011-i7": {"name": "Burro non salato", "standardAmount": "155 g"},
-    "w-fr-011-i8": {"name": "Farina di segale", "standardAmount": "255 g"},
-    "w-fr-011-i9": {"name": "Lievito in polvere", "standardAmount": "2 cucchiaini"},
-    "w-fr-011-i10": {"name": "Sale", "standardAmount": "1 pizzico abbondante"},
-    "w-fr-011-i11": {"name": "Spezie per pan di zenzero", "standardAmount": "1½ cucchiaino"},
-    "w-fr-011-i12": {"name": "Frutta secca", "standardAmount": "1 cucchiaio"}
+   "w-es-011-i1": {
+    "name": "latte biologico",
+    "standardAmount": "2 1/4 tazze"
+   },
+   "w-es-011-i2": {
+    "name": "zucchero",
+    "standardAmount": "1/3 tazza"
+   },
+   "w-es-011-i3": {
+    "name": "uova biologiche",
+    "standardAmount": "3"
+   },
+   "w-es-011-i4": {
+    "name": "baccello di vaniglia",
+    "standardAmount": "1"
+   },
+   "w-es-011-i5": {
+    "name": "stecca di cannella",
+    "standardAmount": "1"
+   },
+   "w-es-011-i6": {
+    "name": "scorze di limone",
+    "standardAmount": "3"
+   },
+   "w-es-011-i7": {
+    "name": "cannella in polvere",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-es-011-i8": {
+    "name": "biscotti María",
+    "standardAmount": "4"
+   }
   },
   "instructions": {
-    "1": "Imburrare uno stampo da plumcake e preriscaldare il forno a 180 °C (ventilato 160 °C).",
-    "2": "In un pentolino scaldare acqua, miele, zucchero e spezie fino a sciogliere, unire il burro, spegnere e lasciare in infusione 5 minuti.",
-    "3": "Mescolare farina di segale, lievito, sale e spezie in polvere in una ciotola e unire il liquido al miele tiepido a poco a poco fino a un composto liscio.",
-    "4": "Versare nello stampo per ¾ e cuocere 40-50 minuti finché dorato intenso: uno stecchino deve uscire pulito.",
-    "5": "Riposare 10 minuti nello stampo, poi sformare su una gratella. Decorare con frutta secca e anice."
+   "1": "Rompi 3 uova in una ciotola, sbattile, aggiungi metà dello zucchero e mescola bene.",
+   "2": "Scalda una padella antiaderente a fuoco medio con il latte, lo zucchero restante, la cannella, la vaniglia e le scorze di limone.",
+   "3": "Versa circa 1/3 tazza di latte caldo nella ciotola delle uova continuando a sbattere, per stemperarle.",
+   "4": "Prima di incorporare il composto di uova, togli cannella, vaniglia e scorze di limone.",
+   "5": "Versa lentamente il composto di uova nella padella mescolando continuamente. Cuoci finché la crema si addensa leggermente.",
+   "6": "Distribuisci la crema in 3 ciotoline, spolvera di cannella e metti un biscotto María in ciascuna.",
+   "7": "Copri ogni ciotola con pellicola e refrigera almeno 2 ore.",
+   "8": "Buon appetito!"
   },
-  "culturalNotes": "Il pain d'épices è il tradizionale pan di spezie francese, dall'aroma caldo e speziato."
-},
-"w-fr-012": {
-  "title": "Pissaladière",
+  "culturalNotes": "Le natillas sono un dolce tradizionale spagnolo servito di solito in occasioni speciali.",
+  "chapter": "es"
+ },
+ "w-es-012": {
+  "title": "Turrón de Alicante",
   "ingredients": {
-    "w-fr-012-i1": {"name": "Olio d'oliva", "standardAmount": "4 cucchiai + poco per la teglia"},
-    "w-fr-012-i2": {"name": "Cipolle", "standardAmount": "1 kg (a fettine finissime)"},
-    "w-fr-012-i3": {"name": "Timo", "standardAmount": "1 mazzetto"},
-    "w-fr-012-i4": {"name": "Alloro", "standardAmount": "2 foglie"},
-    "w-fr-012-i5": {"name": "Filetti di acciuga", "standardAmount": "80 g (sgocciolati)"},
-    "w-fr-012-i6": {"name": "Olive nere", "standardAmount": "80 g (denocciolate)"},
-    "w-fr-012-i7": {"name": "Parmigiano", "standardAmount": "20 g (grattugiato)"},
-    "w-fr-012-i8": {"name": "Burro non salato freddo", "standardAmount": "200 g"},
-    "w-fr-012-i9": {"name": "Succo di limone", "standardAmount": "1 cucchiaino"},
-    "w-fr-012-i10": {"name": "Farina forte", "standardAmount": "200 g + per il piano"},
-    "w-fr-012-i11": {"name": "Sale", "standardAmount": "1 cucchiaino"},
-    "w-fr-012-i12": {"name": "Acqua ghiacciata", "standardAmount": "125 ml"}
+   "w-es-012-i1": {
+    "name": "mandorle sbucciate",
+    "standardAmount": "1 1/2 tazze"
+   },
+   "w-es-012-i2": {
+    "name": "miele",
+    "standardAmount": "1/2 tazza"
+   },
+   "w-es-012-i3": {
+    "name": "zucchero",
+    "standardAmount": "1/2 tazza"
+   },
+   "w-es-012-i4": {
+    "name": "albume",
+    "standardAmount": "1"
+   },
+   "w-es-012-i5": {
+    "name": "olio extravergine di oliva",
+    "standardAmount": "quanto basta"
+   }
   },
   "instructions": {
-    "1": "Pasta: grattugiare il burro grossolanamente, infarinarlo in una ciotola e congelare 30 minuti (o refrigerare 1 ora).",
-    "2": "Sciogliere il limone in 125 ml d'acqua ghiacciata. Mettere il resto della farina e il sale in una ciotola capiente, distribuire il burro congelato e mescolare con la punta delle dita.",
-    "3": "Versare due terzi dell'acqua al limone e amalgamare con un coltello. Se troppo asciutto, aggiungere poca acqua. L'impasto resta bricioloso ma si compatta premendo.",
-    "4": "Rovesciare sul piano infarinato, impastare leggermente in un rettangolo grezzo, avvolgere e refrigerare 20 minuti.",
-    "5": "Stendere in un rettangolo di 20×30 cm; le striature di burro restano visibili.",
-    "6": "Scaldare l'olio in una pentola ampia a fuoco medio, unire le cipolle con il sale, il timo e l'alloro e cuocere 40-45 minuti mescolando fino a un composto dorato e marmellatoso. Far raffreddare.",
-    "7": "Oliare la teglia, stendere la pasta a 25×35 cm, adagiarla, formare il bordo e refrigerare 20 minuti.",
-    "8": "Scaldare il forno a 220 °C (ventilato 200 °C). Distribuire le cipolle, disporre le acciughe a losanga e le olive al centro. Cospargere di parmigiano e cuocere 30 minuti.",
-    "9": "Cospargere di timo, riposare 10 minuti e tagliare a quadrotti."
+   "1": "Preriscalda il forno a 210°C con la funzione forno/grill.",
+   "2": "Disponi le mandorle in un solo strato su una teglia con carta forno e tostale finché sono profumate e dorate.",
+   "3": "Metti da parte 1 albume in una ciotola a temperatura ambiente.",
+   "4": "Scalda una padella grande a fuoco BASSO e aggiungi il miele. Cuoci 15 minuti senza mescolare, poi aggiungi lo zucchero e prosegui 15 minuti.",
+   "5": "Dopo 30 minuti di cottura di miele e zucchero, monta l'albume a neve con lo sbattitore.",
+   "6": "Aggiungi le mandorle tostate al torrone e mescola con la spatola finché il composto è omogeneo.",
+   "7": "Versa il torrone in uno stampo da plumcake (5×15 o 8×20 cm) foderato con carta forno leggermente oliata.",
+   "8": "Hai due opzioni: lasciare il torrone a riposo tutta la notte per indurirlo, oppure refrigerarlo per accelerare."
   },
-  "culturalNotes": "La pissaladière è la specialità provenzale con base sottile, cipolle caramellate, acciughe e olive nere."
-},
-"w-fr-013": {
-  "title": "Ratatouille",
+  "culturalNotes": "Il turrón de Alicante è un dolce tradizionale prodotto nella regione di Alicante in Spagna, soprattutto a Natale.",
+  "chapter": "es"
+ },
+ "w-es-013": {
+  "title": "Pa amb Tomàquet (Pane con Aglio e Pomodoro)",
   "ingredients": {
-    "w-fr-013-i1": {"name": "Olio d'oliva", "standardAmount": "⅓-¼ tazza"},
-    "w-fr-013-i2": {"name": "Cipolla", "standardAmount": "1 grande (a fettine)"},
-    "w-fr-013-i3": {"name": "Peperone rosso", "standardAmount": "1 (a pezzettoni)"},
-    "w-fr-013-i4": {"name": "Peperone giallo", "standardAmount": "1 (a pezzettoni)"},
-    "w-fr-013-i5": {"name": "Aglio", "standardAmount": "6 spicchi (a fettine)"},
-    "w-fr-013-i6": {"name": "Zucchine", "standardAmount": "680 g (a rondelle)"},
-    "w-fr-013-i7": {"name": "Melanzana", "standardAmount": "1 piccola (a dadini)"},
-    "w-fr-013-i8": {"name": "Pomodori Roma", "standardAmount": "4 (a pezzi)"},
-    "w-fr-013-i9": {"name": "Rosmarino fresco", "standardAmount": "¼ cucchiaino (tritato)"},
-    "w-fr-013-i10": {"name": "Timo fresco", "standardAmount": "1 cucchiaino (tritato)"},
-    "w-fr-013-i11": {"name": "Sale", "standardAmount": "q.b."},
-    "w-fr-013-i12": {"name": "Pepe", "standardAmount": "q.b."}
+   "w-es-013-i1": {
+    "name": "pane casereccio",
+    "standardAmount": "4 fette spesse"
+   },
+   "w-es-013-i2": {
+    "name": "aglio",
+    "standardAmount": "4 spicchi"
+   },
+   "w-es-013-i3": {
+    "name": "pomodoro",
+    "standardAmount": "1"
+   },
+   "w-es-013-i4": {
+    "name": "olio d'oliva",
+    "standardAmount": "1/4 tazza"
+   },
+   "w-es-013-i5": {
+    "name": "sale",
+    "standardAmount": "a piacere"
+   },
+   "w-es-013-i6": {
+    "name": "pepe appena macinato",
+    "standardAmount": "a piacere"
+   }
   },
   "instructions": {
-    "1": "Scaldare bene una pentola o padella ampia.",
-    "2": "Unire olio, cipolla e peperoni e cuocere finché prendono colore.",
-    "3": "Unire aglio, zucchine e melanzana e cuocere finché colorati.",
-    "4": "Unire pomodori, rosmarino, timo, sale e pepe.",
-    "5": "Servire tiepida o fredda."
+   "1": "Tosta le fette di pane sotto il grill o su una griglia calda per circa 30 secondi per lato.",
+   "2": "Porta il pane tostato in tavola. Dai a ciascuno uno spicchio d'aglio da strofinare sulla propria fetta.",
+   "3": "Strofina le metà di pomodoro sul pane tostato.",
+   "4": "Irrora con olio d'oliva e insaporisci con sale e pepe appena macinato a piacere.",
+   "5": "Servi caldo."
   },
-  "culturalNotes": "La ratatouille è il più celebre piatto di verdure francese, a base di verdure estive."
-},
-"w-fr-014": {
-  "title": "Insalata nizzarda",
+  "culturalNotes": "Il pa amb tomàquet è un piatto tradizionale catalano servito come antipasto o pasto leggero.",
+  "chapter": "es"
+ },
+ "w-es-014": {
+  "title": "Patatas Bravas in Stile Alicante",
   "ingredients": {
-    "w-fr-014-i1": {"name": "Aglio", "standardAmount": "1 spicchio"},
-    "w-fr-014-i2": {"name": "Sale", "standardAmount": "q.b."},
-    "w-fr-014-i3": {"name": "Olio d'oliva", "standardAmount": "80 ml"},
-    "w-fr-014-i4": {"name": "Succo di limone fresco", "standardAmount": "2 cucchiai"},
-    "w-fr-014-i5": {"name": "Senape di Digione", "standardAmount": "1 cucchiaio"},
-    "w-fr-014-i6": {"name": "Scalogno", "standardAmount": "1 (tritato)"},
-    "w-fr-014-i7": {"name": "Pepe nero", "standardAmount": "q.b."},
-    "w-fr-014-i8": {"name": "Patate novelle piccole", "standardAmount": "450 g (lessate)"},
-    "w-fr-014-i9": {"name": "Fagiolini", "standardAmount": "225 g (sbollentati)"},
-    "w-fr-014-i10": {"name": "Pomodorini", "standardAmount": "340 g (dimezzati)"},
-    "w-fr-014-i11": {"name": "Olive nere di Nizza", "standardAmount": "120 ml"},
-    "w-fr-014-i12": {"name": "Carciofi marinati", "standardAmount": "225 g"},
-    "w-fr-014-i13": {"name": "Acciughe", "standardAmount": "8 filetti (sciacquati e sgocciolati)"},
-    "w-fr-014-i14": {"name": "Uova sode", "standardAmount": "4 (dimezzate)"},
-    "w-fr-014-i15": {"name": "Cetriolo", "standardAmount": "1 piccolo (a fettine)"},
-    "w-fr-014-i16": {"name": "Tonno sott'olio", "standardAmount": "3 lattine da 115 g (sgocciolato)"},
-    "w-fr-014-i17": {"name": "Cipolla rossa", "standardAmount": "½ (a fettine)"}
+   "w-es-014-i1": {
+    "name": "patata Yukon Gold",
+    "standardAmount": "1 grande"
+   },
+   "w-es-014-i2": {
+    "name": "passata di pomodoro",
+    "standardAmount": "1 tazza"
+   },
+   "w-es-014-i3": {
+    "name": "aglio",
+    "standardAmount": "1 spicchio"
+   },
+   "w-es-014-i4": {
+    "name": "peperoncino di Cayenna essiccato",
+    "standardAmount": "1 piccolo"
+   },
+   "w-es-014-i5": {
+    "name": "paprika affumicata",
+    "standardAmount": "1/2 cucchiaino"
+   },
+   "w-es-014-i6": {
+    "name": "zucchero bianco",
+    "standardAmount": "1/4 cucchiaino"
+   },
+   "w-es-014-i7": {
+    "name": "olio extravergine di oliva",
+    "standardAmount": "2 cucchiai"
+   },
+   "w-es-014-i8": {
+    "name": "prezzemolo fresco",
+    "standardAmount": "a piacere"
+   },
+   "w-es-014-i9": {
+    "name": "sale marino",
+    "standardAmount": "a piacere"
+   },
+   "w-es-014-i10": {
+    "name": "pepe nero appena macinato",
+    "standardAmount": "a piacere"
+   }
   },
   "instructions": {
-    "1": "Condimento: tritare l'aglio, salarlo e ridurlo in pasta liscia con la lama del coltello. Trasferire in una ciotola e mescolare con olio, limone, senape, scalogno, sale e pepe.",
-    "2": "Insalata: disporre tutti gli ingredienti a file su un grande piatto, irrorare con il condimento e regolare di sale e pepe."
+   "1": "Preriscalda il forno con la funzione forno/grill alla temperatura massima.",
+   "2": "Trita finemente 1 spicchio d'aglio e 1 piccolo peperoncino di Cayenna essiccato.",
+   "3": "Scalda un pentolino a fuoco medio con 1 cucchiaio di olio d'oliva.",
+   "4": "Quando l'olio è caldo, aggiungi aglio e peperoncino tritati, mescola 15 secondi, poi incorpora la passata con paprika, zucchero e sale; lascia sobbollire.",
+   "5": "Taglia la patata in rondelle sottili di circa 2 mm.",
+   "6": "Disponi le rondelle in un solo strato su una teglia con carta forno, irrorale con l'olio restante e insaporisci.",
+   "7": "Inforna la teglia 20 minuti finché le patate sono cotte.",
+   "8": "Una volta cotte, disponi le rondelle in un piatto da portata, versaci sopra la salsa di pomodoro e guarnisci con prezzemolo."
   },
-  "culturalNotes": "L'insalata nizzarda è il piatto tradizionale di Nizza, ricco di verdure e pesce."
-},
-"w-vn-001": {
-  "title": "Bò Bía (involtini vietnamiti di jicama e salsiccia)",
+  "culturalNotes": "Le patatas bravas sono molto popolari in Spagna, soprattutto nella regione di Alicante, dove sono servite come tapa.",
+  "chapter": "es"
+ },
+ "w-es-015": {
+  "title": "Pisto Andaluso",
   "ingredients": {
-    "w-vn-001-i1": {"name": "Gamberetti essiccati", "standardAmount": "½ tazza"},
-    "w-vn-001-i2": {"name": "Jicama (patata messicana)", "standardAmount": "1 grande"},
-    "w-vn-001-i3": {"name": "Carota", "standardAmount": "1 media"},
-    "w-vn-001-i4": {"name": "Scalogni", "standardAmount": "4 grandi"},
-    "w-vn-001-i5": {"name": "Salsiccia di manzo halal stile cinese", "standardAmount": "4"},
-    "w-vn-001-i6": {"name": "Uova", "standardAmount": "5"},
-    "w-vn-001-i7": {"name": "Sale marino", "standardAmount": "½ cucchiaino"},
-    "w-vn-001-i8": {"name": "Basilico thai", "standardAmount": "1 mazzetto"},
-    "w-vn-001-i9": {"name": "Carta di riso secca", "standardAmount": "1 confezione"},
-    "w-vn-001-i10": {"name": "Olio vegetale", "standardAmount": "3 cucchiai"}
+   "w-es-015-i1": {
+    "name": "olio extravergine di oliva",
+    "standardAmount": "1/4 tazza (60 ml)"
+   },
+   "w-es-015-i2": {
+    "name": "patata",
+    "standardAmount": "1 media, sbucciata e a dadini"
+   },
+   "w-es-015-i3": {
+    "name": "cipolla",
+    "standardAmount": "1 grande"
+   },
+   "w-es-015-i4": {
+    "name": "aglio",
+    "standardAmount": "3 spicchi"
+   },
+   "w-es-015-i5": {
+    "name": "peperone rosso",
+    "standardAmount": "1 grande"
+   },
+   "w-es-015-i6": {
+    "name": "peperone verde",
+    "standardAmount": "1 grande"
+   },
+   "w-es-015-i7": {
+    "name": "zucchina",
+    "standardAmount": "1 media"
+   },
+   "w-es-015-i8": {
+    "name": "paprika dolce affumicata",
+    "standardAmount": "1 cucchiaino (2,5 g)"
+   },
+   "w-es-015-i9": {
+    "name": "cumino macinato",
+    "standardAmount": "3/4 cucchiaino (2 g)"
+   },
+   "w-es-015-i10": {
+    "name": "pomodori",
+    "standardAmount": "4"
+   },
+   "w-es-015-i11": {
+    "name": "sale marino e pepe nero",
+    "standardAmount": "a piacere"
+   },
+   "w-es-015-i12": {
+    "name": "prezzemolo fresco",
+    "standardAmount": "per guarnire"
+   }
   },
   "instructions": {
-    "1": "Ammollare i gamberetti 10 minuti in acqua calda finché morbidi, poi scolare.",
-    "2": "Pelare la jicama e tagliarla a fiammiferi. Pelare la carota, tagliarla in diagonale e poi a fiammiferi. Pelare e affettare gli scalogni.",
-    "3": "Scaldare circa 1 cucchiaio d'olio in padella a fuoco alto. Unire gli scalogni e soffriggere circa 20 secondi. Unire i gamberetti e cuocere altri 20 secondi. Unire jicama e carota, mescolare e cuocere circa 15 minuti finché appassiscono. Salare e trasferire in una ciotola.",
-    "4": "Bollire l'acqua in una grande padella antiaderente e lessare la salsiccia circa 5 minuti. Scolare, raffreddare e affettare finemente in diagonale.",
-    "5": "Scaldare circa 1 cucchiaio d'olio nella padella vuota a fuoco medio-alto, distribuirlo con un pennello o inclinando la padella. Versare metà delle uova sbattute formando uno strato sottile e cuocere circa 30 secondi finché rappreso. Far scivolare la frittatina su un piatto. Ripetere con altro olio e le uova restanti. Sovrapporre le due frittatine, arrotolare e tagliare a striscioline.",
-    "6": "Bagnare velocemente la carta di riso e stenderla su un piatto capiente. Disporre qualche foglia di basilico in basso, poi il ripieno di jicama, carota e gamberetti, qualche striscia di uovo e qualche fetta di salsiccia. Arrotolare dal basso fino a metà, piegare i lati e completare il rotolo.",
-    "7": "Servire con salsa di arachidi."
+   "1": "Scalda una padella grande a fuoco medio e aggiungi l'olio d'oliva.",
+   "2": "Intanto, taglia la patata a dadini piccoli.",
+   "3": "Quando l'olio è caldo, aggiungi la patata e mescolala per coprirla d'olio; mescola ogni pochi minuti.",
+   "4": "Mentre le patate friggono, trita grossolanamente cipolla e aglio e finemente peperoni e zucchina.",
+   "5": "Dopo circa 20 minuti di frittura, quando le patate sono dorate, toglile dalla padella.",
+   "6": "Nella stessa padella, abbassa a fuoco medio-basso, aggiungi cipolla, aglio e peperoni e rosola mescolando.",
+   "7": "Dopo 6-8 minuti, quando le verdure sono leggermente rosolate, aggiungi la zucchina e mescola.",
+   "8": "Quando la zucchina è leggermente rosolata, circa 4 minuti, aggiungi paprika e cumino, mescola in fretta e incorpora i pomodori tritati.",
+   "9": "Cuoci finché i pomodori si sfaldano, rimetti le patate, mescola e servi in un grande piatto con prezzemolo fresco. Buon appetito!"
   },
-  "culturalNotes": "Questi involtini vietnamiti, detti anche Bì cuốn, sono un piatto popolare servito come antipasto o pasto leggero."
-},
-"w-vn-002": {
-  "title": "Bò Nướng Lá Lốt (manzo alla griglia in foglie di betel)",
+  "culturalNotes": "Il pisto andaluso è un piatto tradizionale spagnolo servito come piatto principale o contorno, a base di verdure saltate e fritte.",
+  "chapter": "es"
+ },
+ "w-es-016": {
+  "title": "Riso al Latte",
   "ingredients": {
-    "w-vn-002-i1": {"name": "Manzo macinato grasso", "standardAmount": "340 g"},
-    "w-vn-002-i2": {"name": "Scalogni tritati fini", "standardAmount": "2 cucchiai"},
-    "w-vn-002-i3": {"name": "Aglio tritato fino", "standardAmount": "1 cucchiaio"},
-    "w-vn-002-i4": {"name": "Pepe nero macinato", "standardAmount": "¼ cucchiaino"},
-    "w-vn-002-i5": {"name": "Zucchero", "standardAmount": "½ cucchiaino"},
-    "w-vn-002-i6": {"name": "Salsa di pesce", "standardAmount": "2 cucchiaini"},
-    "w-vn-002-i7": {"name": "Salsa di ostriche", "standardAmount": "1 cucchiaio"},
-    "w-vn-002-i8": {"name": "Dado di pollo in polvere", "standardAmount": "½ cucchiaino"},
-    "w-vn-002-i9": {"name": "Glutammato (facoltativo)", "standardAmount": "¼ cucchiaino"},
-    "w-vn-002-i10": {"name": "Foglie di betel selvatiche", "standardAmount": "25-30"}
+   "w-es-016-i1": {
+    "name": "acqua",
+    "standardAmount": "1 tazza"
+   },
+   "w-es-016-i2": {
+    "name": "riso bianco",
+    "standardAmount": "1/2 tazza"
+   },
+   "w-es-016-i3": {
+    "name": "sale",
+    "standardAmount": "un pizzico"
+   },
+   "w-es-016-i4": {
+    "name": "stecca di cannella",
+    "standardAmount": "1"
+   },
+   "w-es-016-i5": {
+    "name": "latte",
+    "standardAmount": "4 tazze"
+   },
+   "w-es-016-i6": {
+    "name": "zucchero",
+    "standardAmount": "1/2 tazza"
+   },
+   "w-es-016-i7": {
+    "name": "tuorli d'uovo",
+    "standardAmount": "3"
+   },
+   "w-es-016-i8": {
+    "name": "cannella macinata",
+    "standardAmount": "a piacere"
+   },
+   "w-es-016-i9": {
+    "name": "scorza di limone",
+    "standardAmount": "a piacere"
+   },
+   "w-es-016-i10": {
+    "name": "mandorle a lamelle",
+    "standardAmount": "a piacere"
+   },
+   "w-es-016-i11": {
+    "name": "uvetta",
+    "standardAmount": "a piacere"
+   }
   },
   "instructions": {
-    "1": "Lavare bene le foglie e asciugarle con carta assorbente. Lasciare un pezzetto di gambo per fermare gli involtini.",
-    "2": "In una ciotola capiente mescolare il manzo con scalogni, aglio, pepe, zucchero, salsa di pesce, salsa di ostriche, dado e glutammato (facoltativo).",
-    "3": "Stendere una foglia con il lato lucido verso il basso e l'estremità stretta in basso. Mettere circa 2 cucchiai di ripieno al centro, piegare l'estremità stretta sul ripieno e arrotolare con cura. Fissare infilando il gambo nel rotolo; se troppo fragile, praticare un forellino con un coltellino e inserirlo. Disporre con il gambo verso il basso. Ripetere con le foglie e il ripieno restanti.",
-    "4": "Grigliare gli involtini per il profumo affumicato oppure friggerli con poco olio circa 2 minuti per lato.",
-    "5": "Servire in ciotola con vermicelli di riso, insalata tagliata ed erbe vietnamite. Guarnire con arachidi tostate e salsa di pesce per intingere. Si può servire anche con carta di riso per comporre da sé."
+   "1": "In una pentola media, porta l'acqua a bollore.",
+   "2": "Aggiungi riso, sale, stecca di cannella e scorza di limone. Copri e fai sobbollire 16 minuti, finché il riso è tenero.",
+   "3": "In una pentola grande, scalda il latte con lo zucchero finché il composto è caldo e lo zucchero sciolto.",
+   "4": "Incorpora qualche cucchiaio di latte caldo ai tuorli per stemperarli.",
+   "5": "Rimetti i tuorli stemperati nel latte caldo mescolando.",
+   "6": "Aggiungi il riso cotto (con cannella e scorza) al latte e addensa a fuoco dolce.",
+   "7": "Guarnisci con cannella, scorza di limone, uvetta e mandorle a lamelle."
   },
-  "culturalNotes": "Il manzo in foglie di betel è un piatto tradizionale vietnamita servito nelle occasioni speciali."
-},
-"w-vn-003": {
-  "title": "Waffle al pandan (Bánh Kếp Lá Dứa)",
+  "culturalNotes": "Il riso al latte è un dolce tradizionale in Spagna, spesso servito in occasioni speciali e riunioni di famiglia.",
+  "chapter": "es"
+ },
+ "w-es-017": {
+  "title": "Tortilla Spagnola di Patate",
   "ingredients": {
-    "w-vn-003-i1": {"name": "Burro", "standardAmount": "2 cucchiai"},
-    "w-vn-003-i2": {"name": "Farina di riso", "standardAmount": "1½ tazze"},
-    "w-vn-003-i3": {"name": "Fecola di tapioca", "standardAmount": "½ tazza"},
-    "w-vn-003-i4": {"name": "Farina di grano", "standardAmount": "½ tazza"},
-    "w-vn-003-i5": {"name": "Lievito in polvere", "standardAmount": "1 cucchiaio"},
-    "w-vn-003-i6": {"name": "Sale", "standardAmount": "¼ cucchiaino"},
-    "w-vn-003-i7": {"name": "Uova", "standardAmount": "2 grandi"},
-    "w-vn-003-i8": {"name": "Zucchero", "standardAmount": "½ tazza"},
-    "w-vn-003-i9": {"name": "Latte di cocco", "standardAmount": "1½ tazze"},
-    "w-vn-003-i10": {"name": "Pasta di pandan", "standardAmount": "¾ cucchiaino"}
+   "w-es-017-i1": {
+    "name": "uova",
+    "standardAmount": "8"
+   },
+   "w-es-017-i2": {
+    "name": "patate",
+    "standardAmount": "1 kg"
+   },
+   "w-es-017-i3": {
+    "name": "cipolla",
+    "standardAmount": "1"
+   },
+   "w-es-017-i4": {
+    "name": "olio d'oliva",
+    "standardAmount": "500 ml"
+   },
+   "w-es-017-i5": {
+    "name": "sale",
+    "standardAmount": "un pizzico"
+   }
   },
   "instructions": {
-    "1": "Sciogliere il burro al microonde a bassa potenza per 30-45 secondi. Mescolare e far raffreddare.",
-    "2": "Setacciare farina di riso, tapioca, farina, lievito e sale in un misurino o una ciotola.",
-    "3": "In una ciotola capiente sbattere uova e zucchero finché quasi amalgamati. Unire latte di cocco, burro fuso e pasta di pandan e mescolare bene.",
-    "4": "Unire metà degli ingredienti secchi a quelli umidi finché quasi incorporati, poi il resto mescolando delicatamente e rompendo i grumi. Riposare la pastella 15 minuti.",
-    "5": "Portare la piastra alla massima temperatura. Versare circa ⅔ di tazza di pastella e distribuirla con una spatola. Chiudere e cuocere 4-5 minuti fino a doratura.",
-    "6": "Sollevare un angolo del waffle con uno spiedino di bambù e trasferirlo con le pinze su una gratella.",
-    "7": "Servire caldi."
+   "1": "Sbuccia le patate, lavale e asciugale con un canovaccio. Tagliale a cubetti di 1 cm o a fette di 2 mm.",
+   "2": "Scalda l'olio in una padella. Quando è caldo, friggi le patate senza farle dorare; quando sono tenere, scolale.",
+   "3": "Taglia la cipolla a dadini o a fette; falla rosolare finché è translucida.",
+   "4": "Sbatti le 8 uova in una ciotola con un pizzico di sale finché sono omogenee; mescolale con patate e cipolla.",
+   "5": "Scalda 3 cucchiai di olio d'oliva in una padella pulita (puoi riusare la precedente dopo aver tolto l'olio in eccesso).",
+   "6": "Quando la padella è calda, versa il composto di uova, cipolla e patate.",
+   "7": "Dopo 7-8 minuti la parte inferiore dev'essere rappresa. Metti un piatto sopra la padella e girala con attenzione.",
+   "8": "Qualche altro minuto ed è pronta da servire."
   },
-  "culturalNotes": "I waffle al pandan sono un dolce tradizionale vietnamita dal profumo di pandan e cocco."
-},
-"w-vn-004": {
-  "title": "Bánh pía",
+  "culturalNotes": "La tortilla spagnola è un piatto tradizionale della Spagna, noto anche come tortilla de patatas; si serve come pasto leggero o tapa.",
+  "chapter": "es"
+ },
+ "w-es-018": {
+  "title": "Tarta de Santiago",
   "ingredients": {
-    "w-vn-004-i1": {"name": "Farina", "standardAmount": "500 g"},
-    "w-vn-004-i2": {"name": "Zucchero", "standardAmount": "250 g"},
-    "w-vn-004-i3": {"name": "Olio vegetale", "standardAmount": "100 ml"},
-    "w-vn-004-i4": {"name": "Uova", "standardAmount": "2"},
-    "w-vn-004-i5": {"name": "Latte", "standardAmount": "100 ml"},
-    "w-vn-004-i6": {"name": "Sale", "standardAmount": "½ cucchiaino"},
-    "w-vn-004-i7": {"name": "Ripieno di budino", "standardAmount": "400 g"}
+   "w-es-018-i1": {
+    "name": "mandorle sbucciate",
+    "standardAmount": "2 1/2 tazze"
+   },
+   "w-es-018-i2": {
+    "name": "zucchero semolato",
+    "standardAmount": "1 1/4 tazze"
+   },
+   "w-es-018-i3": {
+    "name": "uova grandi",
+    "standardAmount": "5"
+   },
+   "w-es-018-i4": {
+    "name": "cannella in polvere",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-es-018-i5": {
+    "name": "scorza di limone",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-es-018-i6": {
+    "name": "zucchero a velo",
+    "standardAmount": "2 cucchiai"
+   },
+   "w-es-018-i7": {
+    "name": "spray antiaderente",
+    "standardAmount": "quanto basta"
+   }
   },
   "instructions": {
-    "1": "Mescolare farina, zucchero e sale in una ciotola capiente.",
-    "2": "Unire uova, latte e olio e lavorare fino a un impasto liscio.",
-    "3": "Coprire e riposare 30 minuti.",
-    "4": "Dividere l'impasto in 12 parti uguali e formare palline.",
-    "5": "Mettere il ripieno al centro di ogni pallina e chiudere con l'impasto.",
-    "6": "Disporre negli stampi da bánh pía e infornare a 180 °C preriscaldato.",
-    "7": "Cuocere 20-25 minuti fino a doratura."
+   "1": "Disponi 350 g di mandorle sbucciate su una teglia con carta forno e tostale in forno.",
+   "2": "Togli le mandorle, lasciale raffreddare e frullale nel mixer fino a ottenere una farina di mandorle.",
+   "3": "In una ciotola grande, mescola 250 g di zucchero con 5 uova, poi aggiungi cannella e scorza di limone.",
+   "4": "Incorpora gradualmente il mix di mandorle al composto di uova e zucchero, mescolando finché è omogeneo.",
+   "5": "Fodera uno stampo rotondo da 22 cm con carta forno e spruzza i bordi con spray antiaderente.",
+   "6": "Inforna a 170°C per 55 minuti, finché la torta è cotta e dorata.",
+   "7": "Togli dal forno, lascia raffreddare, sforma e trasferisci su un piatto.",
+   "8": "Posiziona lo stencil della croce di Santiago sulla torta e spolvera di zucchero a velo; togli delicatamente lo stencil."
   },
-  "culturalNotes": "Il bánh pía è una pasta sfoglia dolce vietnamita tradizionale, servita nelle occasioni speciali."
-},
-"w-vn-005": {
-  "title": "Bánh Tráng Trộn (insalata di carta di riso)",
+  "culturalNotes": "La tarta de Santiago è un dolce alle mandorle tradizionale della Galizia, in Spagna, spesso decorato con la croce di Santiago.",
+  "chapter": "es"
+ },
+ "w-es-019": {
+  "title": "Zarangollo Murciano (Uova Strapazzate con Zucchine)",
   "ingredients": {
-    "w-vn-005-i1": {"name": "Polpa di tamarindo", "standardAmount": "100 g"},
-    "w-vn-005-i2": {"name": "Olio vegetale", "standardAmount": "4 cucchiai"},
-    "w-vn-005-i3": {"name": "Spicchi d'aglio", "standardAmount": "6"},
-    "w-vn-005-i4": {"name": "Salsa di pesce", "standardAmount": "2 cucchiai"},
-    "w-vn-005-i5": {"name": "Zucchero semolato", "standardAmount": "3 cucchiai"},
-    "w-vn-005-i6": {"name": "Glutammato (facoltativo)", "standardAmount": "½ cucchiaino"},
-    "w-vn-005-i7": {"name": "Peperoncino in fiocchi (facoltativo)", "standardAmount": "1 cucchiaio"},
-    "w-vn-005-i8": {"name": "Calamaro essiccato", "standardAmount": "200 g"},
-    "w-vn-005-i9": {"name": "Gamberetti essiccati", "standardAmount": "100 g"},
-    "w-vn-005-i10": {"name": "Carne secca di manzo", "standardAmount": "100 g"},
-    "w-vn-005-i11": {"name": "Carta di riso secca", "standardAmount": "170 g"},
-    "w-vn-005-i12": {"name": "Olio al peperoncino vietnamita", "standardAmount": "a piacere"},
-    "w-vn-005-i13": {"name": "Olio al cipollotto vietnamita", "standardAmount": "a piacere"},
-    "w-vn-005-i14": {"name": "Mango verde", "standardAmount": "1"},
-    "w-vn-005-i15": {"name": "Uova di quaglia sode", "standardAmount": "10"},
-    "w-vn-005-i16": {"name": "Scalogni fritti", "standardAmount": "a piacere"},
-    "w-vn-005-i17": {"name": "Arachidi tostate non salate", "standardAmount": "¼ tazza"},
-    "w-vn-005-i18": {"name": "Foglie di coriandolo vietnamita", "standardAmount": "2 tazze"}
+   "w-es-019-i1": {
+    "name": "uova",
+    "standardAmount": "4"
+   },
+   "w-es-019-i2": {
+    "name": "cipolla",
+    "standardAmount": "1/2"
+   },
+   "w-es-019-i3": {
+    "name": "zucchina",
+    "standardAmount": "1"
+   },
+   "w-es-019-i4": {
+    "name": "olio extravergine di oliva",
+    "standardAmount": "2 cucchiai"
+   },
+   "w-es-019-i5": {
+    "name": "sale marino e pepe nero",
+    "standardAmount": "a piacere"
+   },
+   "w-es-019-i6": {
+    "name": "erba cipollina fresca tritata",
+    "standardAmount": "una manciata"
+   }
   },
   "instructions": {
-    "1": "Se si usa la polpa di tamarindo, ammollarla in 2 tazze di acqua calda per 15 minuti, filtrare con un colino fine e scartare la polpa.",
-    "2": "Scaldare l'olio in un pentolino a fuoco medio-alto. Unire l'aglio e soffriggere circa 15 secondi. Unire tamarindo, salsa di pesce, zucchero, glutammato e peperoncino. Mescolare e sobbollire 1 minuto. Versare in una ciotolina.",
-    "3": "Scaldare l'olio vegetale in una padella media a fuoco medio-alto. Friggere il calamaro 30 secondi; tenderà ad arricciarsi, premerne i bordi con bacchette o cucchiaio per una frittura uniforme. Girare e friggere altri 30 secondi. Scolare, raffreddare e sfilacciare a mano in strisce lunghe.",
-    "4": "Nello stesso olio friggere i gamberetti circa 1 minuto e scolare.",
-    "5": "Sfilacciare la carne secca a mano in strisce sottili.",
-    "6": "Mettere la carta di riso in una ciotola capiente. Unire la salsa di tamarindo, l'olio al peperoncino e l'olio al cipollotto e mescolare bene per far assorbire la salsa. Sembrerà secca, ma si ammorbidirà.",
-    "7": "Unire carne secca, calamaro, gamberetti, mango verde e uova di quaglia e mescolare velocemente.",
-    "8": "Guarnire con scalogni fritti, arachidi e coriandolo vietnamita."
+   "1": "Rompi 4 uova in una ciotola, insaporisci con sale marino e pepe nero e sbattile leggermente.",
+   "2": "Taglia mezza cipolla a fette sottili.",
+   "3": "Sbuccia una zucchina media e tagliala a rondelle di circa 3 mm.",
+   "4": "Scalda una padella antiaderente grande a fuoco medio-alto con 2 cucchiai di olio d'oliva.",
+   "5": "Dopo 1 minuto, aggiungi la cipolla e mescolala nell'olio; dopo 2 minuti incorpora le rondelle di zucchina e cuoci finché sono tenere.",
+   "6": "Abbassa a fuoco medio-basso, versa il composto di uova e mescola ogni 30 secondi finché le uova sono cremose ma rapprese.",
+   "7": "Trasferisci in un piatto da portata e spolvera di erba cipollina fresca. Buon appetito!"
   },
-  "culturalNotes": "Il Bánh Tráng Trộn è un piatto vietnamita molto popolare, servito come antipasto o pasto leggero."
-},
-"w-vn-006": {
-  "title": "Chè Trôi Nước (palline di riso glutinoso in sciroppo di zenzero)",
-  "ingredients": {
-    "w-vn-006-i1": {"name": "Farina di riso glutinoso", "standardAmount": "450 g"},
-    "w-vn-006-i2": {"name": "Acqua calda", "standardAmount": "1¾ tazze"},
-    "w-vn-006-i3": {"name": "Fagioli mung decorticati", "standardAmount": "¾ tazza"},
-    "w-vn-006-i4": {"name": "Zucchero", "standardAmount": "2 cucchiaini"},
-    "w-vn-006-i5": {"name": "Sale", "standardAmount": "1 cucchiaino"},
-    "w-vn-006-i6": {"name": "Acqua", "standardAmount": "6 tazze"},
-    "w-vn-006-i7": {"name": "Zenzero fresco", "standardAmount": "10 cm"},
-    "w-vn-006-i8": {"name": "Zucchero di palma", "standardAmount": "280 g"},
-    "w-vn-006-i9": {"name": "Latte di cocco", "standardAmount": "facoltativo"},
-    "w-vn-006-i10": {"name": "Sesamo tostato", "standardAmount": "¼ tazza"}
-  },
-  "instructions": {
-    "1": "Mescolare farina e acqua calda in una ciotola capiente e impastare fino a un impasto liscio. Non aggiungere altra acqua. Coprire e riposare 30 minuti.",
-    "2": "Dividere l'impasto in 28 palline da circa 2,5 cm.",
-    "3": "Sciacquare i fagioli mung finché l'acqua è limpida. In una pentola media coprirli di 2,5 cm d'acqua, portare a bollore a fuoco medio e cuocere a fuoco ridotto finché morbidi ma sodi (circa 15 minuti), sorvegliando per evitare fuoriuscite. Scolare, riportare sul fornello spento per asciugare l'umidità. Unire sale e zucchero e schiacciare con un cucchiaione in una pasta grossolana.",
-    "4": "Formare palline di ripieno da circa 1,2 cm (circa 28). Se troppo morbide, raffreddarle in frigo.",
-    "5": "Appiattire ogni pallina di impasto in un disco spesso, porre la pallina di ripieno al centro, chiudere e rotolare nel palmo fino a una sfera liscia. Non far fuoriuscire il ripieno, altrimenti le palline si rompono in cottura. Con l'impasto avanzato formare piccole perle senza ripieno. Coprire per non far seccare.",
-    "6": "In una pentola capiente bollire l'acqua con lo zucchero di palma finché sciolto. Pelare lo zenzero con un cucchiaio e tagliarlo a fiammiferi. Calare delicatamente le palline nello sciroppo e sobbollire a fuoco medio-basso finché affiorano (circa 20 minuti).",
-    "7": "Volendo, preparare la salsa al latte di cocco.",
-    "8": "Servire qualche pallina con lo sciroppo in una ciotola, irrorare di salsa al cocco e cospargere di sesamo. Ottime tiepide o a temperatura ambiente."
-  },
-  "culturalNotes": "Il Chè Trôi Nước è un dolce tradizionale vietnamita servito in feste e celebrazioni."
-},
-"w-vn-007": {
-  "title": "Gelatina d'erba (Thạch Sương Sáo)",
-  "ingredients": {
-    "w-vn-007-i1": {"name": "Polvere di gelatina d'erba", "standardAmount": "50 g"},
-    "w-vn-007-i2": {"name": "Zucchero", "standardAmount": "⅓ tazza"},
-    "w-vn-007-i3": {"name": "Acqua", "standardAmount": "4 tazze (divise)"}
-  },
-  "instructions": {
-    "1": "Versare la polvere in un pentolino. Unire lo zucchero e 2 tazze d'acqua e mescolare finché sciolta.",
-    "2": "Unire le altre 2 tazze d'acqua e mescolare bene.",
-    "3": "Lasciare riposare 10 minuti.",
-    "4": "Scaldare a fuoco medio mescolando con una spatola e raschiando il fondo dove la polvere si deposita.",
-    "5": "Dopo 3-4 minuti la miscela si addensa e fa grumi: mescolare rapidamente con la frusta finché liscia, continuare finché sobbolle, spegnere e mescolare 1 minuto per eliminare i grumi.",
-    "6": "Versare in un contenitore resistente al calore e far scoppiare le bolle con uno stecchino o schiumare con un cucchiaio.",
-    "7": "Far raffreddare a temperatura ambiente 1-1,5 ore.",
-    "8": "Refrigerare almeno 2 ore.",
-    "9": "Per sformare, capovolgere su un tagliere ampio e tagliare la gelatina a cubetti.",
-    "10": "Per servire, mettere ghiaccio tritato in una coppa, unire i cubetti e spolverare con poco zucchero.",
-    "11": "Si può anche tagliare con un coltello ondulato e unire a una bevanda ghiacciata.",
-    "12": "La gelatina avanzata si conserva in frigo fino a una settimana."
-  },
-  "culturalNotes": "La gelatina d'erba è un dolce tradizionale vietnamita, apprezzato nelle giornate calde come spuntino rinfrescante."
-}
+  "culturalNotes": "Lo zarangollo murciano è un piatto tradizionale della regione di Murcia, in Spagna, noto per la sua semplicità e il gusto ricco.",
+  "chapter": "es"
+ }
 }

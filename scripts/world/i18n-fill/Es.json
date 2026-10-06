@@ -1,1272 +1,997 @@
 {
- "w-it-001": {
-  "title": "Agnolotti de queso",
+ "w-es-001": {
+  "title": "Arroz Negro (Arròs Negre)",
   "ingredients": {
-   "w-it-001-i1": {
-    "name": "harina de uso general o harina “00”",
-    "standardAmount": "2 tazas"
+   "w-es-001-i1": {
+    "name": "caldo de pescado",
+    "standardAmount": "3 tazas (710 ml)"
    },
-   "w-it-001-i2": {
-    "name": "huevos",
-    "standardAmount": "3 huevos grandes"
+   "w-es-001-i2": {
+    "name": "hebras de azafrán",
+    "standardAmount": "1/4 cdta (0.17 g)"
    },
-   "w-it-001-i3": {
-    "name": "queso ricotta",
-    "standardAmount": "12 onzas"
-   },
-   "w-it-001-i4": {
-    "name": "queso parmesano rallado",
-    "standardAmount": "1 onza"
-   },
-   "w-it-001-i5": {
-    "name": "yema de huevo",
-    "standardAmount": "1 yema grande"
-   },
-   "w-it-001-i6": {
-    "name": "perejil italiano finamente picado",
-    "standardAmount": "1/4 taza"
-   },
-   "w-it-001-i7": {
-    "name": "sal kosher",
-    "standardAmount": "1 cucharadita"
-   },
-   "w-it-001-i8": {
-    "name": "pimienta negra recién molida",
-    "standardAmount": "1/2 cucharadita"
-   },
-   "w-it-001-i9": {
-    "name": "cayena",
-    "standardAmount": "una pizca"
-   }
-  },
-  "instructions": {
-   "1": "Forma un montón de harina sobre la superficie de trabajo y haz un hueco en el centro. Añade los huevos al hueco y bátelos con un tenedor, incorporando harina de los bordes poco a poco. Cuando la masa esté demasiado espesa para el tenedor, usa una rasqueta para levantar la harina seca restante por encima y cortarla en la masa hasta obtener una masa irregular.",
-   "2": "Amasa a mano hasta tener una bola lisa, unos 3 minutos. Cubre y deja reposar de 10 a 15 minutos. Amasa hasta obtener una bola muy lisa y elástica, unos 4 minutos más. Envuelve bien y deja reposar la masa en el refrigerador al menos 2 horas o hasta el día siguiente.",
-   "3": "Añade la ricotta, el parmesano, la yema, el perejil, la sal, la pimienta negra y la cayena a un bol y mezcla hasta integrar. Cubre y refrigera hasta usar.",
-   "4": "Divide la masa en 4 porciones. Cubre 3 con film, enharina ligeramente la superficie y forma la cuarta en un rectángulo. Estira con el rodillo hasta un rectángulo de 45x23 cm, lo bastante fino para ver tu mano a través.",
-   "5": "Recorta en 2 tiras de unos 45 por 11 cm. Mantén la harina justa en la superficie para este paso y los siguientes, para evitar que la masa se pegue.",
-   "6": "Pasa el relleno a una manga pastelera o una bolsa de plástico con una esquina cortada y dispón un cordón de relleno de 1.25 cm de grosor a lo largo de cada tira de masa, a 5 cm del borde. Rocía cada pieza muy ligeramente con agua.",
-   "7": "Dobla la masa sobre el relleno con cuidado de no atrapar burbujas de aire. Presiona firmemente los dos bordes largos, aplanando la unión al grosor de una sola capa si es posible. Con un cortapastas estriado, recorta el exceso de masa hasta unos 3 mm del relleno.",
-   "8": "Empezando por el extremo donde comienza el relleno, pellizca con dos dedos el relleno y la masa muy firmemente cada 2.5 a 4 cm. Dobla ligeramente hacia adelante las secciones prensadas. Corta entre cada una con el cortapastas para formar los agnolotti. Puede ayudar volver a rociar la masa antes de este paso.",
-   "9": "Pasa los agnolotti a una bandeja forrada con papel y ligeramente enharinada. Cubre y refrigera hasta cocer. También se pueden congelar en la bandeja y luego pasar a bolsas de congelación.",
-   "10": "Hierve una olla grande de agua con sal y cuece los agnolotti 3 minutos antes de pasarlos a la salsa que elijas."
-  },
-  "culturalNotes": "Los agnolotti son una pasta rellena y doblada, plato tradicional de la región italiana de Piamonte."
- },
- "w-it-002": {
-  "title": "Bruschetta",
-  "ingredients": {
-   "w-it-002-i1": {
-    "name": "pan italiano o francés",
-    "standardAmount": "1 barra, en rebanadas de 1.25 cm de grosor al bies"
-   },
-   "w-it-002-i2": {
-    "name": "ajo",
-    "standardAmount": "½ cabeza"
-   },
-   "w-it-002-i3": {
-    "name": "sal kosher o sal marina",
-    "standardAmount": "al gusto"
-   },
-   "w-it-002-i4": {
-    "name": "pimienta negra recién molida",
-    "standardAmount": "al gusto"
-   },
-   "w-it-002-i5": {
+   "w-es-001-i3": {
     "name": "aceite de oliva virgen extra",
-    "standardAmount": "al gusto"
+    "standardAmount": "1/4 taza (60 ml)"
    },
-   "w-it-002-i6": {
-    "name": "ingredientes para cubrir a tu elección",
-    "standardAmount": "al gusto"
-   }
-  },
-  "instructions": {
-   "1": "Tuesta las rebanadas en un horno tostador, bajo el grill o a la parrilla hasta que estén doradas.",
-   "2": "Frota inmediatamente el pan con el lado cortado del ajo.",
-   "3": "Espolvorea con sal y pimienta negra y rocía generosamente con aceite de oliva virgen extra.",
-   "4": "Sirve caliente cubierta con las combinaciones de ingredientes de temporada que prefieras."
-  },
-  "culturalNotes": "La bruschetta es un aperitivo italiano tradicional, conocido por su sencillez y su sabor intenso."
- },
- "w-it-003": {
-  "title": "Burrata con habas marinadas",
-  "ingredients": {
-   "w-it-003-i1": {
-    "name": "pan crujiente",
-    "standardAmount": "8 rebanadas"
+   "w-es-001-i4": {
+    "name": "sepia",
+    "standardAmount": "1 pieza"
    },
-   "w-it-003-i2": {
-    "name": "aceite de oliva virgen extra",
-    "standardAmount": "1/3 taza y un poco más"
-   },
-   "w-it-003-i3": {
-    "name": "habas",
-    "standardAmount": "2 libras"
-   },
-   "w-it-003-i4": {
-    "name": "zumo de limón",
-    "standardAmount": "el zumo de 1/2 limón"
-   },
-   "w-it-003-i5": {
-    "name": "ajo",
-    "standardAmount": "1 diente, pelado y picado"
-   },
-   "w-it-003-i6": {
-    "name": "sal marina",
-    "standardAmount": "al gusto"
-   },
-   "w-it-003-i7": {
-    "name": "pimienta negra en grano molida",
-    "standardAmount": "al gusto"
-   },
-   "w-it-003-i8": {
-    "name": "queso burrata o mozzarella",
-    "standardAmount": "2 bolas"
-   }
-  },
-  "instructions": {
-   "1": "Escalfa las habas en agua hirviendo con sal durante 2 minutos; escurre y refréscalas en agua fría.",
-   "2": "Retira la piel exterior de cada haba para dejar al descubierto el interior verde brillante.",
-   "3": "Mezcla las habas con el aceite de oliva, el zumo de limón, el ajo picado, la sal y la pimienta; deja marinar al menos 30 minutos.",
-   "4": "Tuesta las rebanadas de pan hasta que estén doradas y crujientes.",
-   "5": "Unta cada rebanada con un poco de aceite de oliva.",
-   "6": "Reparte las habas marinadas sobre el pan.",
-   "7": "Coloca encima trozos de burrata o mozzarella.",
-   "8": "Termina con un hilo de aceite de oliva y una pizca de pimienta negra; sirve enseguida."
-  },
-  "culturalNotes": "La burrata es un queso italiano suave y cremoso, muy usado en ensaladas y aperitivos."
- },
- "w-it-004": {
-  "title": "Calzone de salchicha de ternera halal y berenjena",
-  "ingredients": {
-   "w-it-004-i1": {
-    "name": "masa básica de pizza",
-    "standardAmount": "1 bola"
-   },
-   "w-it-004-i2": {
-    "name": "salsa de tomate",
-    "standardAmount": "1 taza"
-   },
-   "w-it-004-i3": {
+   "w-es-001-i5": {
     "name": "cebolla",
-    "standardAmount": "4 cucharadas finamente picada"
+    "standardAmount": "1/2 pieza"
    },
-   "w-it-004-i4": {
+   "w-es-001-i6": {
+    "name": "pimiento verde italiano dulce",
+    "standardAmount": "1/2 pieza"
+   },
+   "w-es-001-i7": {
     "name": "ajo",
-    "standardAmount": "1 diente picado"
+    "standardAmount": "4 dientes"
    },
-   "w-it-004-i5": {
-    "name": "aceite de oliva",
-    "standardAmount": "3 cucharadas"
+   "w-es-001-i8": {
+    "name": "pimentón dulce ahumado",
+    "standardAmount": "1/2 cdta (1.15 g)"
    },
-   "w-it-004-i6": {
-    "name": "sal",
-    "standardAmount": "al gusto"
+   "w-es-001-i9": {
+    "name": "tomates",
+    "standardAmount": "2 piezas"
    },
-   "w-it-004-i7": {
-    "name": "pimienta negra",
-    "standardAmount": "al gusto"
+   "w-es-001-i10": {
+    "name": "arroz redondo español",
+    "standardAmount": "1 taza (220 g)"
    },
-   "w-it-004-i8": {
-    "name": "hojuelas de chile",
+   "w-es-001-i11": {
+    "name": "tinta de calamar",
+    "standardAmount": "4 g"
+   },
+   "w-es-001-i12": {
+    "name": "perejil finamente picado",
+    "standardAmount": "un puñado"
+   },
+   "w-es-001-i13": {
+    "name": "limón",
+    "standardAmount": "1 pieza"
+   },
+   "w-es-001-i14": {
+    "name": "sal marina",
     "standardAmount": "una pizca"
    },
-   "w-it-004-i9": {
-    "name": "berenjena",
-    "standardAmount": "1 taza en dados"
-   },
-   "w-it-004-i10": {
-    "name": "salchicha de ternera halal",
-    "standardAmount": "2 piezas sin la piel"
-   },
-   "w-it-004-i11": {
-    "name": "albahaca fresca",
-    "standardAmount": "3 cucharaditas picada"
-   },
-   "w-it-004-i12": {
-    "name": "queso ricotta",
-    "standardAmount": "1/2 taza"
-   },
-   "w-it-004-i13": {
-    "name": "queso mozzarella",
-    "standardAmount": "1/2 taza rallada"
-   },
-   "w-it-004-i14": {
-    "name": "queso parmesano",
-    "standardAmount": "3 cucharadas"
+   "w-es-001-i15": {
+    "name": "pimienta negra",
+    "standardAmount": "un toque"
    }
   },
   "instructions": {
-   "1": "Precalienta el horno a 220 °C con una piedra o bandeja dentro.",
-   "2": "Saltea la cebolla y el ajo en el aceite de oliva hasta que estén blandos.",
-   "3": "Añade la berenjena en dados y cocina hasta que esté tierna y dorada.",
-   "4": "Desmenuza la salchicha en la sartén y cocina hasta que esté hecha; retira del fuego y deja enfriar un poco.",
-   "5": "Mezcla la salchicha y la berenjena con la ricotta, la mozzarella, el parmesano, la albahaca y las hojuelas de chile; salpimenta.",
-   "6": "Estira la masa en un círculo de unos 30 cm sobre superficie enharinada.",
-   "7": "Extiende la salsa de tomate sobre la mitad, dejando un borde, y reparte el relleno encima.",
-   "8": "Dobla la masa por la mitad sobre el relleno y sella los bordes enrollándolos o presionando con un tenedor.",
-   "9": "Haz unos cortes pequeños en la parte superior para que salga el vapor.",
-   "10": "Hornea de 15 a 20 minutos hasta que esté dorado y crujiente; deja reposar 5 minutos antes de cortar."
+   "1": "Pon las 3 tazas de caldo de pescado en un cazo con una pizca de hebras de azafrán y calienta a fuego medio.",
+   "2": "Pica finamente 1/2 cebolla, pica grueso 4 dientes de ajo, pica finamente 1/2 pimiento verde italiano, ralla finamente 2 tomates y corta la sepia limpia en trozos.",
+   "3": "Calienta una paellera a fuego medio y añade 1/4 taza de aceite de oliva virgen extra.",
+   "4": "Al minuto, sazona el aceite con sal marina y añade los trozos de sepia; mezcla con el aceite. Pasados 2 minutos y cuando la sepia esté ligeramente dorada, retírala.",
+   "5": "En la misma paellera y al mismo fuego, añade la cebolla y el pimiento verde picados y mezcla con el aceite. A los 3 minutos, cuando la cebolla esté translúcida, incorpora el tomate rallado.",
+   "6": "A los 3 minutos, cuando el tomate haya espesado, añade 1 taza de arroz redondo sin cocer, la tinta de calamar y sazona con sal marina; mezcla bien.",
+   "7": "Unos 8-9 minutos después de subir el fuego, cuando gran parte del caldo se haya absorbido pero aún quede algo, baja el fuego y deja que termine de cocerse.",
+   "8": "Destapa la paellera, decora con gajos de limón y espolvorea con perejil fresco picado. ¡Buen provecho!"
   },
-  "culturalNotes": "El calzone es muy popular en Italia, sobre todo en el sur; se come como tentempié o plato principal."
+  "culturalNotes": "El arroz negro (arròs negre) es un plato tradicional español, especialmente de la Comunidad Valenciana, famoso por su intenso color negro y su sabor a sepia.",
+  "chapter": "es"
  },
- "w-it-005": {
-  "title": "Cassata siciliana",
+ "w-es-002": {
+  "title": "Arroz a la Cubana",
   "ingredients": {
-   "w-it-005-i1": {
-    "name": "queso ricotta",
-    "standardAmount": "1 libra"
-   },
-   "w-it-005-i2": {
-    "name": "azúcar glas",
-    "standardAmount": "1 taza"
-   },
-   "w-it-005-i3": {
-    "name": "canela",
-    "standardAmount": "1/2 cucharadita"
-   },
-   "w-it-005-i4": {
-    "name": "cacao en polvo",
-    "standardAmount": "2 cucharadas"
-   },
-   "w-it-005-i5": {
-    "name": "galletas trituradas",
-    "standardAmount": "7 onzas"
-   },
-   "w-it-005-i6": {
-    "name": "chocolate negro",
-    "standardAmount": "7 onzas"
-   },
-   "w-it-005-i7": {
-    "name": "pasas",
-    "standardAmount": "1/2 taza"
-   },
-   "w-it-005-i8": {
-    "name": "naranjas",
-    "standardAmount": "2"
-   },
-   "w-it-005-i9": {
-    "name": "mantequilla",
-    "standardAmount": "1/2 taza"
-   },
-   "w-it-005-i10": {
-    "name": "nata para montar",
-    "standardAmount": "1 taza"
-   }
-  },
-  "instructions": {
-   "1": "Bate la ricotta con el azúcar glas, la canela y el cacao hasta que esté suave y cremosa.",
-   "2": "Incorpora las pasas, la ralladura de las naranjas y parte del chocolate picado.",
-   "3": "Forra un molde con las galletas trituradas mezcladas con la mantequilla derretida para formar la base.",
-   "4": "Rellena con la mezcla de ricotta y alisa la superficie.",
-   "5": "Refrigera al menos 4 horas o toda la noche para que asiente.",
-   "6": "Desmolda y cubre con el resto del chocolate fundido y gajos de naranja.",
-   "7": "Sirve fría, cortada en porciones."
-  },
-  "culturalNotes": "La cassata siciliana es un postre tradicional de la isla de Sicilia, Italia, conocido por su sabor rico y dulce."
- },
- "w-it-006": {
-  "title": "Pizza con tomates cherry y queso de cabra",
-  "ingredients": {
-   "w-it-006-i1": {
-    "name": "tomates cherry",
-    "standardAmount": "1 taza, partidos por la mitad"
-   },
-   "w-it-006-i2": {
-    "name": "ajo",
-    "standardAmount": "1 diente grande, picado"
-   },
-   "w-it-006-i3": {
-    "name": "aceite de oliva",
-    "standardAmount": "4 cucharadas"
-   },
-   "w-it-006-i4": {
-    "name": "sal marina y pimienta negra en grano molida",
-    "standardAmount": "al gusto"
-   },
-   "w-it-006-i5": {
-    "name": "albahaca fresca picada",
-    "standardAmount": "1/4 taza"
-   },
-   "w-it-006-i6": {
-    "name": "queso mozzarella",
-    "standardAmount": "1 1/2 tazas, en láminas finas"
-   },
-   "w-it-006-i7": {
-    "name": "queso de cabra",
-    "standardAmount": "3 onzas"
-   },
-   "w-it-006-i8": {
-    "name": "masa de pizza",
-    "standardAmount": "1 bola"
-   },
-   "w-it-006-i9": {
-    "name": "pesto de albahaca",
-    "standardAmount": "2 cucharadas"
-   }
-  },
-  "instructions": {
-   "1": "Estira la masa de pizza sobre una superficie enharinada hasta el grosor deseado.",
-   "2": "Mezcla los tomates cherry con el ajo, la mitad del aceite de oliva, la sal y la pimienta.",
-   "3": "Unta la masa con el pesto de albahaca.",
-   "4": "Reparte la mozzarella en láminas y el queso de cabra desmenuzado.",
-   "5": "Distribuye los tomates cherry aliñados y la albahaca picada.",
-   "6": "Rocía con el resto del aceite de oliva.",
-   "7": "Hornea a 230 °C de 10 a 12 minutos hasta que el borde esté dorado y el queso burbujee; sirve caliente."
-  },
-  "culturalNotes": "Esta pizza es muy popular en la cocina italiana por su sencillez y su sabor intenso."
- },
- "w-it-007": {
-  "title": "Pan chapata (ciabatta)",
-  "ingredients": {
-   "w-it-007-i1": {
-    "name": "levadura seca activa",
-    "standardAmount": "1.5 cucharaditas"
-   },
-   "w-it-007-i2": {
-    "name": "agua tibia",
-    "standardAmount": "1.5 tazas"
-   },
-   "w-it-007-i3": {
-    "name": "harina de fuerza",
-    "standardAmount": "1 1/3 tazas"
-   },
-   "w-it-007-i4": {
-    "name": "harina de uso general sin blanquear",
-    "standardAmount": "3 tazas y más para trabajar y dar forma"
-   },
-   "w-it-007-i5": {
-    "name": "sal",
-    "standardAmount": "2 cucharaditas"
-   }
-  },
-  "instructions": {
-   "1": "Disuelve la levadura en el agua tibia y deja reposar 5 minutos hasta que haga espuma.",
-   "2": "Mezcla la harina de fuerza y la de uso general con la sal en un bol grande.",
-   "3": "Añade el agua con levadura y mezcla hasta obtener una masa pegajosa.",
-   "4": "Cubre y deja fermentar 12 a 18 horas a temperatura ambiente, hasta que esté llena de burbujas.",
-   "5": "Vuelca la masa sobre una superficie bien enharinada.",
-   "6": "Dóblala sobre sí misma un par de veces con las manos enharinadas.",
-   "7": "Divide en dos piezas y forma rectángulos alargados sin apretar demasiado la masa.",
-   "8": "Colócalas en una bandeja forrada con papel y enharinada.",
-   "9": "Cubre y deja levar 45 minutos hasta que estén hinchadas.",
-   "10": "Precalienta el horno a 230 °C.",
-   "11": "Hornea de 20 a 25 minutos hasta que la corteza esté dorada y suene hueca al golpear la base.",
-   "12": "Traslada a una rejilla.",
-   "13": "Deja enfriar al menos 15 minutos antes de cortar.",
-   "14": "La miga debe quedar abierta y alveolada.",
-   "15": "Guarda envuelto en un paño a temperatura ambiente.",
-   "16": "Para recalentar, mete en horno caliente unos minutos.",
-   "17": "Ideal para sándwiches, aceite de oliva y acompañar sopas.",
-   "18": "La fermentación larga es la clave de su sabor y sus alvéolos."
-  },
-  "culturalNotes": "La chapata es un pan italiano tradicional, conocido por su forma plana y alargada y su textura característica; suele acompañar varios platos."
- },
- "w-it-008": {
-  "title": "Colomba Pasquale",
-  "ingredients": {
-   "w-it-008-i1": {
-    "name": "harina de uso general",
-    "standardAmount": "3 tazas + 1 taza"
-   },
-   "w-it-008-i2": {
-    "name": "agua fría",
-    "standardAmount": "1/2 taza"
-   },
-   "w-it-008-i3": {
-    "name": "levadura instantánea",
-    "standardAmount": "1/8 cucharadita + 1 cucharada"
-   },
-   "w-it-008-i4": {
-    "name": "sal",
-    "standardAmount": "1 cucharadita"
-   },
-   "w-it-008-i5": {
-    "name": "azúcar",
-    "standardAmount": "1/3 taza"
-   },
-   "w-it-008-i6": {
-    "name": "mantequilla fundida y fría",
-    "standardAmount": "6 cucharadas"
-   },
-   "w-it-008-i7": {
-    "name": "huevos",
-    "standardAmount": "2 grandes + 1 yema"
-   },
-   "w-it-008-i8": {
-    "name": "ralladura de naranja y semillas de vainilla",
-    "standardAmount": "1/2 cucharadita (o semillas de 1 vaina de vainilla y ralladura de 1 naranja)"
-   },
-   "w-it-008-i9": {
-    "name": "cáscara de naranja confitada finamente picada",
-    "standardAmount": "1/3 taza (o ralladura de 1 naranja grande)"
-   },
-   "w-it-008-i10": {
-    "name": "pasas sultanas",
-    "standardAmount": "1 1/2 tazas (picadas si son grandes)"
-   },
-   "w-it-008-i11": {
-    "name": "clara de huevo",
-    "standardAmount": "1 clara grande"
-   },
-   "w-it-008-i12": {
-    "name": "harina de almendra",
-    "standardAmount": "3 cucharadas"
-   },
-   "w-it-008-i13": {
-    "name": "azúcar granulada",
-    "standardAmount": "3 cucharadas"
-   },
-   "w-it-008-i14": {
-    "name": "almendras laminadas",
-    "standardAmount": "2 cucharadas"
-   },
-   "w-it-008-i15": {
-    "name": "azúcar perlado",
-    "standardAmount": "6 cucharaditas"
-   }
-  },
-  "instructions": {
-   "1": "Prepara el prefermento mezclando el agua fría, 1/8 de cucharadita de levadura y 1 taza de harina; cubre y deja reposar toda la noche.",
-   "2": "Al día siguiente, mezcla el prefermento con el resto de la harina, la levadura, la sal y el azúcar.",
-   "3": "Incorpora los huevos y la yema y amasa hasta obtener una masa suave.",
-   "4": "Añade la mantequilla fundida fría poco a poco, amasando hasta integrarla por completo.",
-   "5": "Incorpora la ralladura y las semillas de vainilla, la naranja confitada y las pasas.",
-   "6": "Cubre y deja levar hasta que doble su volumen, de 2 a 3 horas.",
-   "7": "Da forma de paloma (o coloca en un molde de colomba) y deja levar de nuevo 1 a 2 horas.",
-   "8": "Para la cobertura, bate las claras a punto de nieve, añade la harina de almendra y el azúcar granulada.",
-   "9": "Cubre la superficie con la mezcla de almendra, espolvorea las almendras laminadas y el azúcar perlado.",
-   "10": "Precalienta el horno a 180 °C.",
-   "11": "Hornea de 45 a 55 minutos hasta que esté dorada y al insertar un palillo salga limpio.",
-   "12": "Deja enfriar completamente sobre una rejilla.",
-   "13": "Se conserva varios días bien envuelta."
-  },
-  "culturalNotes": "La colomba pasquale es el pan dulce tradicional italiano de Pascua, en forma de paloma."
- },
- "w-it-009": {
-  "title": "Escalopes de pollo a la palermitana con salsa de pistachos y alcaparras",
-  "ingredients": {
-   "w-it-009-i1": {
-    "name": "pechugas de pollo sin piel ni hueso",
-    "standardAmount": "2"
-   },
-   "w-it-009-i2": {
-    "name": "harina de uso general",
-    "standardAmount": "1 taza"
-   },
-   "w-it-009-i3": {
-    "name": "huevos",
-    "standardAmount": "2"
-   },
-   "w-it-009-i4": {
-    "name": "leche",
-    "standardAmount": "1/2 taza"
-   },
-   "w-it-009-i5": {
-    "name": "pan rallado fresco",
-    "standardAmount": "1 1/2 tazas"
-   },
-   "w-it-009-i6": {
-    "name": "perejil fresco finamente picado",
-    "standardAmount": "2 cucharaditas"
-   },
-   "w-it-009-i7": {
-    "name": "pistachos crudos finamente picados",
-    "standardAmount": "1/2 taza"
-   },
-   "w-it-009-i8": {
-    "name": "aceite de oliva",
-    "standardAmount": "2 cucharadas + 3/4 taza"
-   },
-   "w-it-009-i9": {
-    "name": "mantequilla sin sal ablandada",
-    "standardAmount": "2 cucharadas"
-   },
-   "w-it-009-i10": {
-    "name": "zumo de limón",
-    "standardAmount": "el zumo de 1 limón grande"
-   },
-   "w-it-009-i11": {
-    "name": "alcaparras saladas",
+   "w-es-002-i1": {
+    "name": "aceite vegetal",
     "standardAmount": "1 cucharada"
    },
-   "w-it-009-i12": {
-    "name": "hojas de perejil fresco",
+   "w-es-002-i2": {
+    "name": "patata",
+    "standardAmount": "1 mediana, en dados"
+   },
+   "w-es-002-i3": {
+    "name": "zanahoria",
+    "standardAmount": "1 mediana, en dados"
+   },
+   "w-es-002-i4": {
+    "name": "cebolla",
+    "standardAmount": "1/2 mediana, en dados"
+   },
+   "w-es-002-i5": {
+    "name": "ajo",
+    "standardAmount": "2 dientes, picados"
+   },
+   "w-es-002-i6": {
+    "name": "carne de res molida",
+    "standardAmount": "1 libra (450 g)"
+   },
+   "w-es-002-i7": {
+    "name": "agua",
     "standardAmount": "1/4 taza"
    },
-   "w-it-009-i13": {
-    "name": "pistachos crudos",
-    "standardAmount": "1/3 taza"
+   "w-es-002-i8": {
+    "name": "salsa de soja",
+    "standardAmount": "2 cucharadas"
    },
-   "w-it-009-i14": {
-    "name": "sal y pimienta",
+   "w-es-002-i9": {
+    "name": "sal",
     "standardAmount": "al gusto"
+   },
+   "w-es-002-i10": {
+    "name": "pimienta negra molida",
+    "standardAmount": "al gusto"
+   },
+   "w-es-002-i11": {
+    "name": "pimiento",
+    "standardAmount": "1 mediano, en dados"
+   },
+   "w-es-002-i12": {
+    "name": "pasas",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-es-002-i13": {
+    "name": "guisantes",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-es-002-i14": {
+    "name": "arroz cocido",
+    "standardAmount": "2 tazas"
    }
   },
   "instructions": {
-   "1": "Aplana las pechugas con un mazo hasta dejarlas de grosor uniforme.",
-   "2": "Prepara tres platos: harina, huevos batidos con la leche y pan rallado con el perejil.",
-   "3": "Pasa cada escalope por harina, luego por el huevo y por último por el pan rallado con pistachos.",
-   "4": "Calienta el aceite de oliva en una sartén grande a fuego medio-alto.",
-   "5": "Fríe los escalopes de 3 a 4 minutos por lado hasta que estén dorados y hechos por dentro.",
-   "6": "Escurre sobre papel absorbente.",
-   "7": "Para la salsa, funde la mantequilla con el resto del aceite de oliva.",
-   "8": "Añade el zumo de limón, las alcaparras y los pistachos picados; calienta un minuto.",
-   "9": "Incorpora las hojas de perejil frescas.",
-   "10": "Vierte la salsa caliente sobre los escalopes.",
-   "11": "Sirve enseguida con más pistachos por encima.",
-   "12": "Acompaña con ensalada o verduras al gusto."
+   "1": "Calienta el aceite en una sartén grande a fuego medio. Añade la patata y la zanahoria y saltea 3 minutos. Retira a un bol.",
+   "2": "Añade la cebolla y el ajo a la sartén caliente y sofríe hasta que doren ligeramente, 5-7 minutos. Incorpora la carne molida y cocina removiendo hasta que se dore y se desmenuce.",
+   "3": "Devuelve la mezcla de patata y zanahoria a la sartén con el agua, la salsa de soja, la sal y la pimienta. Tapa y cocina a fuego lento hasta que las patatas estén tiernas, 5-8 minutos.",
+   "4": "Añade el pimiento, las pasas y los guisantes y cocina hasta que todo esté caliente, unos 2 minutos. Sirve sobre arroz caliente."
   },
-  "culturalNotes": "La cotoletta es un plato famoso en Sicilia, sobre todo en Palermo, donde se sirve con una salsa de pistachos y alcaparras."
+  "culturalNotes": "El arroz a la cubana es un plato popular en España que combina carne molida, verduras y especias servidas sobre arroz.",
+  "chapter": "es"
  },
- "w-it-010": {
-  "title": "Fettuccine Alfredo",
+ "w-es-003": {
+  "title": "Sopa de Ajo Vasca (Zurrukutuna)",
   "ingredients": {
-   "w-it-010-i1": {
-    "name": "fettuccine frescos",
-    "standardAmount": "3/4 libra"
+   "w-es-003-i1": {
+    "name": "aceite de oliva virgen extra",
+    "standardAmount": "1/4 taza (60 ml)"
    },
-   "w-it-010-i2": {
-    "name": "mantequilla",
-    "standardAmount": "2 cucharadas"
+   "w-es-003-i2": {
+    "name": "baguette",
+    "standardAmount": "3.5 oz (100 g)"
    },
-   "w-it-010-i3": {
-    "name": "nata para montar",
-    "standardAmount": "1 taza"
+   "w-es-003-i3": {
+    "name": "ajo",
+    "standardAmount": "6 dientes en láminas finas"
    },
-   "w-it-010-i4": {
-    "name": "caldo de pollo",
-    "standardAmount": "1/2 taza"
+   "w-es-003-i4": {
+    "name": "guindilla picada",
+    "standardAmount": "1/4 cdta (0.625 g)"
    },
-   "w-it-010-i5": {
-    "name": "yema de huevo",
+   "w-es-003-i5": {
+    "name": "pimentón dulce ahumado",
+    "standardAmount": "1 cdta (2.5 g)"
+   },
+   "w-es-003-i6": {
+    "name": "tomates",
+    "standardAmount": "2, finamente rallados"
+   },
+   "w-es-003-i7": {
+    "name": "caldo de verduras",
+    "standardAmount": "4 1/4 tazas (1 litro)"
+   },
+   "w-es-003-i8": {
+    "name": "hoja de laurel",
     "standardAmount": "1"
    },
-   "w-it-010-i6": {
-    "name": "queso parmesano rallado",
-    "standardAmount": "1/2 taza"
+   "w-es-003-i9": {
+    "name": "filete de bacalao",
+    "standardAmount": "8 oz (225 g)"
    },
-   "w-it-010-i7": {
+   "w-es-003-i10": {
+    "name": "huevos",
+    "standardAmount": "2"
+   },
+   "w-es-003-i11": {
+    "name": "sal marina y pimienta negra",
+    "standardAmount": "al gusto"
+   },
+   "w-es-003-i12": {
+    "name": "perejil picado",
+    "standardAmount": "para decorar"
+   }
+  },
+  "instructions": {
+   "1": "Corta la baguette en rebanadas de 1.25 cm y colócalas en una bandeja con papel de horno; hornea en horno precalentado a 200°C hasta que estén tostadas.",
+   "2": "Calienta una olla a fuego medio y añade el aceite de oliva.",
+   "3": "Al cabo de un par de minutos, añade el ajo laminado y la guindilla, remueve 1 minuto sin parar, luego incorpora las rebanadas de baguette tostadas y continúa removiendo.",
+   "4": "Unos 3 minutos después de añadir el tomate rallado, vierte el caldo de verduras y la hoja de laurel, sube a fuego alto y, cuando hierva, baja a fuego lento y tapa.",
+   "5": "Mientras la sopa cuece, seca el filete de bacalao con papel de cocina, sazona con sal y pimienta y pícalo fino; casca los huevos en un bol.",
+   "6": "Tras 15 minutos de cocción lenta, cuando el pan se haya deshecho, retira el laurel, añade el bacalao picado y mezcla; vierte los huevos batidos removiendo para formar hebras.",
+   "7": "Pasados un par de minutos, destapa y sirve la sopa en cuencos llanos, decora con perejil picado y disfruta."
+  },
+  "culturalNotes": "La sopa de ajo vasca (zurrukutuna) es un plato tradicional del País Vasco, conocido por su sabor intenso a ajo, pan y bacalao.",
+  "chapter": "es"
+ },
+ "w-es-004": {
+  "title": "Boquerones en Vinagre",
+  "ingredients": {
+   "w-es-004-i1": {
+    "name": "sardinas",
+    "standardAmount": "1 libra (450 g)"
+   },
+   "w-es-004-i2": {
+    "name": "zumo de limón",
+    "standardAmount": "lo necesario"
+   },
+   "w-es-004-i3": {
+    "name": "vinagre de sidra de manzana",
+    "standardAmount": "lo necesario"
+   },
+   "w-es-004-i4": {
     "name": "sal marina",
     "standardAmount": "al gusto"
    },
-   "w-it-010-i8": {
-    "name": "pimienta negra en grano molida",
-    "standardAmount": "al gusto"
-   },
-   "w-it-010-i9": {
-    "name": "queso rallado adicional",
-    "standardAmount": "para servir"
-   }
-  },
-  "instructions": {
-   "1": "Cuece los fettuccine en abundante agua con sal siguiendo las indicaciones; reserva una taza del agua de cocción.",
-   "2": "Derrite la mantequilla en una sartén amplia a fuego medio.",
-   "3": "Añade la nata y el caldo de pollo y deja que hierva suavemente unos minutos hasta que espese ligeramente.",
-   "4": "Retira del fuego e incorpora el parmesano rallado hasta fundirlo.",
-   "5": "Bate la yema con unas cucharadas de salsa caliente para templarla y añádela a la sartén.",
-   "6": "Incorpora la pasta escurrida y mezcla bien para cubrirla de salsa.",
-   "7": "Añade agua de cocción poco a poco si la salsa queda demasiado espesa.",
-   "8": "Salpimenta al gusto.",
-   "9": "Sirve enseguida con más parmesano rallado por encima.",
-   "10": "El plato se espesa al enfriarse; sírvelo recién hecho."
-  },
-  "culturalNotes": "Los fettuccine Alfredo son un plato italiano tradicional conocido por su rica salsa cremosa de mantequilla y queso."
- },
- "w-it-011": {
-  "title": "Hinojo a la parmesana (finocchi alla parmigiana)",
-  "ingredients": {
-   "w-it-011-i1": {
-    "name": "bulbos de hinojo",
-    "standardAmount": "5 medianos"
-   },
-   "w-it-011-i2": {
-    "name": "aceite de oliva",
-    "standardAmount": "3 cucharadas"
-   },
-   "w-it-011-i3": {
-    "name": "cebolla",
-    "standardAmount": "1 pequeña, pelada y picada"
-   },
-   "w-it-011-i4": {
-    "name": "ajo",
-    "standardAmount": "4 dientes, pelados y picados"
-   },
-   "w-it-011-i5": {
-    "name": "tomates troceados",
-    "standardAmount": "2 latas de 14 onzas"
-   },
-   "w-it-011-i6": {
-    "name": "orégano seco",
-    "standardAmount": "1 cucharadita"
-   },
-   "w-it-011-i7": {
-    "name": "hojuelas de chile",
-    "standardAmount": "1/2 cucharadita (opcional)"
-   },
-   "w-it-011-i8": {
-    "name": "hojas de perejil fresco",
-    "standardAmount": "1/4 taza"
-   },
-   "w-it-011-i9": {
-    "name": "albahaca fresca",
-    "standardAmount": "3 cucharadas"
-   },
-   "w-it-011-i10": {
-    "name": "sal y pimienta",
-    "standardAmount": "al gusto"
-   },
-   "w-it-011-i11": {
-    "name": "mozzarella",
-    "standardAmount": "1 taza en dados"
-   },
-   "w-it-011-i12": {
-    "name": "parmesano o pecorino rallado",
-    "standardAmount": "1 1/2 tazas"
-   }
-  },
-  "instructions": {
-   "1": "Corta los tallos de los bulbos de hinojo y luego pártelos por la mitad. Con un cuchillo afilado retira el corazón y córtalos en láminas a lo largo de unos 8 mm.",
-   "2": "Hierve una olla grande de agua ligeramente salada, añade el hinojo y cuece hasta que esté tierno al pinchar con un tenedor, unos 4 o 5 minutos. Escúrrelo bien.",
-   "3": "Pon el aceite en una olla a fuego medio y, cuando humee ligeramente, añade la cebolla. Cocina removiendo a menudo hasta que esté tierna, unos 5 minutos.",
-   "4": "Añade el ajo y cocina hasta que desprenda su aroma, uno o dos minutos más.",
-   "5": "Añade los tomates, el orégano, las hojuelas de chile (si las usas), el perejil, la albahaca, la sal y la pimienta y lleva a ebullición. Baja el fuego y cocina a fuego lento hasta que la salsa espese.",
-   "6": "Precalienta el horno a 190 °C.",
-   "7": "En una fuente de horno grande de 33 x 23 cm, reparte la mitad del hinojo en el fondo. Cubre con salsa y esparce la mitad de la mozzarella en dados.",
-   "8": "Añade el resto del hinojo, cubre con la salsa y el queso restante.",
-   "9": "Hornea de 35 a 40 minutos hasta que burbujee y esté dorado por encima.",
-   "10": "Deja reposar 10 minutos y sirve."
-  },
-  "culturalNotes": "Los finocchi alla parmigiana son un plato italiano tradicional que combina el sabor del hinojo con el queso parmesano."
- },
- "w-it-012": {
-  "title": "Focaccia",
-  "ingredients": {
-   "w-it-012-i1": {
-    "name": "levadura",
-    "standardAmount": "2 cucharaditas"
-   },
-   "w-it-012-i2": {
-    "name": "agua",
-    "standardAmount": "1.5 tazas"
-   },
-   "w-it-012-i3": {
-    "name": "harina de uso general",
-    "standardAmount": "2.25 tazas"
-   },
-   "w-it-012-i4": {
-    "name": "aceite de oliva",
-    "standardAmount": "5 cucharadas"
-   },
-   "w-it-012-i5": {
-    "name": "sal",
-    "standardAmount": "2 cucharaditas"
-   }
-  },
-  "instructions": {
-   "1": "Espolvorea una cucharadita de levadura sobre 1/2 taza del agua en un bol mediano. Remueve y deja reposar 10 minutos. Añade 3/4 taza de harina, cubre bien y deja reposar 30 minutos.",
-   "2": "En un bol grande, espolvorea la cucharadita restante de levadura sobre 1 taza de agua tibia, mezcla y deja reposar 10 minutos. Añade la primera mezcla de levadura (ya fermentada), la harina restante y la sal, y mezcla hasta formar una masa.",
-   "3": "Vuelca la masa sobre una superficie ligeramente enharinada y amasa hasta que esté suave, unos 10 minutos.",
-   "4": "Coloca la masa en un bol ligeramente aceitado, cubre bien y deja levar en lugar cálido hasta que doble, unas 1.5 horas.",
-   "5": "Aceita una bandeja de 28 x 36 cm y extiende la masa leudada sobre ella llevándola hasta los bordes. Si la masa retrocede demasiado, déjala reposar unos minutos y continúa.",
-   "6": "Precalienta el horno a 220 °C. Retira el paño y hunde la yema de los dedos en la masa formando hoyuelos; rocía con las 2 cucharadas restantes de aceite de oliva y espolvorea con sal gruesa.",
-   "7": "Saca la focaccia de la bandeja en cuanto salga del horno y deja enfriar sobre una rejilla antes de servir."
-  },
-  "culturalNotes": "La focaccia es un pan plano italiano tradicional, que suele servirse como tentempié o como parte del almuerzo."
- },
- "w-it-013": {
-  "title": "Frittata de boniato",
-  "ingredients": {
-   "w-it-013-i1": {
-    "name": "boniato",
-    "standardAmount": "2 tazas, pelado y en dados"
-   },
-   "w-it-013-i2": {
-    "name": "cebolla",
-    "standardAmount": "1/2 taza, picada"
-   },
-   "w-it-013-i3": {
-    "name": "aceite vegetal",
-    "standardAmount": "el necesario"
-   },
-   "w-it-013-i4": {
-    "name": "huevos",
-    "standardAmount": "6"
-   },
-   "w-it-013-i5": {
-    "name": "leche",
-    "standardAmount": "1/4 taza"
-   },
-   "w-it-013-i6": {
-    "name": "sal",
-    "standardAmount": "al gusto"
-   },
-   "w-it-013-i7": {
+   "w-es-004-i5": {
     "name": "pimienta negra",
     "standardAmount": "al gusto"
+   },
+   "w-es-004-i6": {
+    "name": "perejil",
+    "standardAmount": "lo necesario"
    }
   },
   "instructions": {
-   "1": "Precalienta el horno a 200 °C.",
-   "2": "En una sartén apta para horno, saltea la cebolla en aceite vegetal hasta que esté blanda.",
-   "3": "Añade el boniato en dados y cocina hasta que esté tierno, removiendo de vez en cuando.",
-   "4": "En un bol aparte, bate los huevos con la leche, la sal y la pimienta.",
-   "5": "Vierte la mezcla de huevo sobre el boniato en la sartén.",
-   "6": "Deja que cuaje por los bordes y luego mete la sartén en el horno precalentado.",
-   "7": "Hornea de 8 a 10 minutos, hasta que esté completamente cuajada.",
-   "8": "Corta la frittata en porciones y sirve caliente."
+   "1": "Limpia las sardinas: retira la cabeza, las vísceras y la espina con el pulgar. Enjuágalas bajo agua fría.",
+   "2": "Coloca las sardinas extendidas en una fuente de vidrio; usa vidrio y no metal para evitar un sabor metálico.",
+   "3": "Cubre las sardinas con zumo de limón y vinagre. Consejo: añade más vinagre que zumo de limón, pues el limón domina.",
+   "4": "Pica el perejil finamente y espolvoréalo sobre las sardinas.",
+   "5": "Añade una segunda capa de sardinas y repite el proceso.",
+   "6": "Cubre la fuente con film transparente y refrigera al menos 4 horas.",
+   "7": "Antes de servir, enjuaga las sardinas con agua fría, decora con perejil picado y una pizca de sal marina. Sírvelas frías."
   },
-  "culturalNotes": "La frittata es un plato italiano tradicional hecho con huevos y verduras; puede servirse como plato principal o como aperitivo."
+  "culturalNotes": "Los boquerones en vinagre son una tapa tradicional española, habitual como aperitivo en bares y cafeterías.",
+  "chapter": "es"
  },
- "w-it-014": {
-  "title": "Gelato italiano de vainilla",
+ "w-es-005": {
+  "title": "Crema Catalana",
   "ingredients": {
-   "w-it-014-i1": {
+   "w-es-005-i1": {
+    "name": "leche ecológica",
+    "standardAmount": "2 1/2 tazas"
+   },
+   "w-es-005-i2": {
+    "name": "vaina de vainilla",
+    "standardAmount": "1 vaina"
+   },
+   "w-es-005-i3": {
+    "name": "rama de canela",
+    "standardAmount": "1"
+   },
+   "w-es-005-i4": {
+    "name": "cáscaras de limón",
+    "standardAmount": "8"
+   },
+   "w-es-005-i5": {
     "name": "yemas de huevo",
     "standardAmount": "5"
    },
-   "w-it-014-i2": {
-    "name": "azúcar granulada",
-    "standardAmount": "3/4 taza"
+   "w-es-005-i6": {
+    "name": "azúcar",
+    "standardAmount": "1/4 taza + extra para espolvorear"
    },
-   "w-it-014-i3": {
-    "name": "leche entera",
-    "standardAmount": "2 1/2 tazas"
-   },
-   "w-it-014-i4": {
-    "name": "nata para montar",
-    "standardAmount": "1 taza"
-   },
-   "w-it-014-i5": {
-    "name": "vaina de vainilla",
-    "standardAmount": "1/2 vaina"
-   },
-   "w-it-014-i6": {
-    "name": "sal",
-    "standardAmount": "una pizca"
+   "w-es-005-i7": {
+    "name": "maicena",
+    "standardAmount": "1 cucharada"
    }
   },
   "instructions": {
-   "1": "En un bol grande, bate las yemas con el azúcar hasta que la mezcla esté clara y espesa.",
-   "2": "En un cazo de fondo grueso, calienta la leche, la nata, la vaina de vainilla y la sal a fuego medio hasta que empiecen a formarse burbujas en los bordes.",
-   "3": "Retira el cazo del fuego, toma 1/2 taza de la mezcla caliente y viértela poco a poco sobre los huevos batidos sin dejar de remover.",
-   "4": "A continuación, vierte la mezcla de huevo en el cazo y cocina a fuego lento, removiendo sin parar, hasta que espese, unos 8 a 10 minutos.",
-   "5": "Cuela la mezcla por un colador de malla fina a un bol metálico y refrigera hasta que esté fría.",
-   "6": "Cuando la crema esté fría, pásala a la heladera y sigue las instrucciones del fabricante.",
-   "7": "Sirve el gelato enseguida o congélalo en un recipiente hermético hasta usarlo."
+   "1": "Pon 2 tazas de leche en un cazo con las cáscaras de limón, la rama de canela y la vaina de vainilla abierta; calienta a fuego medio hasta infusionar.",
+   "2": "Separa las yemas de las claras de 5 huevos (descarta las claras). Añade 2 cucharadas de azúcar y la maicena a las yemas y bate hasta integrar.",
+   "3": "Cuela la leche infusionada sobre la mezcla de yemas y bate bien. Devuelve al cazo y cocina a fuego medio sin dejar de remover hasta que espese.",
+   "4": "Reparte la crema en 4 ramequines. A los 20 minutos, cúbrelos con film y refrigera hasta cuajar, al menos 2 horas.",
+   "5": "Antes de servir, espolvorea 1 cucharada de azúcar sobre cada ramequín y carameliza con un soplete de cocina hasta formar una costra crujiente."
   },
-  "culturalNotes": "El gelato italiano es un postre helado tradicional de Italia, conocido por su textura cremosa y su sabor intenso."
+  "culturalNotes": "La crema catalana es un postre tradicional de Cataluña, famoso por su rico sabor y su cobertura de azúcar caramelizada y crujiente.",
+  "chapter": "es"
  },
- "w-it-015": {
-  "title": "Ñoquis a la caprese",
+ "w-es-006": {
+  "title": "Fabada Asturiana",
   "ingredients": {
-   "w-it-015-i1": {
-    "name": "patatas",
-    "standardAmount": "4 medianas (unas 2 libras)"
+   "w-es-006-i1": {
+    "name": "ajo",
+    "standardAmount": "3 dientes"
    },
-   "w-it-015-i2": {
-    "name": "yema de huevo",
-    "standardAmount": "1 grande"
+   "w-es-006-i2": {
+    "name": "cebolla",
+    "standardAmount": "1/2"
    },
-   "w-it-015-i3": {
-    "name": "harina",
-    "standardAmount": "1 a 2 tazas"
+   "w-es-006-i3": {
+    "name": "salchichas de res halal",
+    "standardAmount": "2 piezas"
    },
-   "w-it-015-i4": {
-    "name": "sal",
+   "w-es-006-i4": {
+    "name": "judías blancas",
+    "standardAmount": "570 g"
+   },
+   "w-es-006-i5": {
+    "name": "aceite de oliva virgen extra",
+    "standardAmount": "1 cucharada"
+   },
+   "w-es-006-i6": {
+    "name": "pimentón dulce ahumado",
+    "standardAmount": "1 cdta"
+   },
+   "w-es-006-i7": {
+    "name": "agua fría",
+    "standardAmount": "1.5 tazas"
+   },
+   "w-es-006-i8": {
+    "name": "hebras de azafrán",
+    "standardAmount": "1/2 cdta"
+   },
+   "w-es-006-i9": {
+    "name": "sal marina",
     "standardAmount": "al gusto"
    },
-   "w-it-015-i5": {
-    "name": "tomates en dados",
-    "standardAmount": "1 lata de 28 onzas"
-   },
-   "w-it-015-i6": {
-    "name": "ajo",
-    "standardAmount": "2 dientes, finamente picados"
-   },
-   "w-it-015-i7": {
-    "name": "aceite de oliva",
-    "standardAmount": "2 cucharadas"
-   },
-   "w-it-015-i8": {
+   "w-es-006-i10": {
     "name": "pimienta negra",
     "standardAmount": "al gusto"
-   },
-   "w-it-015-i9": {
-    "name": "hojuelas de chile",
-    "standardAmount": "una pizca (opcional)"
-   },
-   "w-it-015-i10": {
-    "name": "albahaca fresca",
-    "standardAmount": "3 cucharadas finamente picada"
-   },
-   "w-it-015-i11": {
-    "name": "mozzarella fresca",
-    "standardAmount": "2 tazas en trozos de 2 cm"
    }
   },
   "instructions": {
-   "1": "Precalienta el horno a 190 °C.",
-   "2": "Lava y seca las patatas y hornéalas hasta que estén tiernas al pincharlas, unos 45 minutos.",
-   "3": "Mientras tanto, prepara la salsa de tomate: calienta el aceite en un cazo de fondo grueso a fuego medio y añade el ajo.",
-   "4": "En cuanto el ajo empiece a chasquear, añade los tomates y sube el fuego. Cuando empiece a burbujear, baja a fuego medio y cocina hasta que espese.",
-   "5": "Salpimienta, añade las hojuelas de chile (si las usas) y la albahaca. Cocina un minuto o dos más y retira del fuego.",
-   "6": "Saca las patatas del horno, retira la pulpa de la piel y pásala por un pasapurés.",
-   "7": "Aún caliente, coloca el puré sobre una tabla formando un montón con un hueco en el centro. Pon la yema y la sal en el centro.",
-   "8": "Ve añadiendo la harina poco a poco, mezclando bien con las manos hasta obtener una masa blanda y manejable.",
-   "9": "Amasa suavemente y solo lo justo hasta lograr una masa lisa, maleable y ligeramente pegajosa.",
-   "10": "Para dar forma a los ñoquis, divide la masa en porciones del tamaño de un puño y estira cada una en un cilindro del grosor del pulgar.",
-   "11": "Corta en trozos de 2.5 cm.",
-   "12": "Para terminar, apoya un tenedor en la tabla. Con el dorso hacia ti, presiona cada trozo con el índice contra las púas y déjalo rodar para marcar las estrías.",
-   "13": "Deja caer los ñoquis sobre la tabla y repite con el resto.",
-   "14": "Colócalos en una bandeja ligeramente enharinada y cuécelos enseguida, o refrigéralos hasta usarlos, preferiblemente no más de unas horas.",
-   "15": "Para cocerlos, échalos con cuidado en agua hirviendo con sal y retíralos en cuanto suban todos a la superficie.",
-   "16": "Escurre los ñoquis y cúbrelos con la salsa caliente.",
-   "17": "Añade los trozos de mozzarella y la albahaca picada y remueve con cuidado para que el queso empiece a fundirse.",
-   "18": "Sirve enseguida."
+   "1": "Escurre las judías blancas en un colador y enjuágalas bajo agua fría.",
+   "2": "Pela 3 dientes de ajo y pícalos finamente; pica la media cebolla en dados y corta las salchichas en rodajas de 2.5 cm.",
+   "3": "Calienta una olla grande a fuego medio con una generosa cucharada de aceite de oliva; a los 2 minutos dora las salchichas y retíralas.",
+   "4": "En la misma olla, añade la cebolla y el ajo y remueve 3 minutos hasta que la cebolla esté translúcida; añade el pimentón.",
+   "5": "Devuelve las salchichas a la olla, incorpora las judías escurridas y mezcla bien. Añade 1.5 tazas de agua fría, el azafrán, sal y pimienta.",
+   "6": "Tapa la olla y cocina a fuego medio 8 minutos. Destapa y apaga el fuego; el agua debe estar casi absorbida.",
+   "7": "Sirve la fabada en cuencos llanos, bien caliente."
   },
-  "culturalNotes": "Los ñoquis a la caprese son un plato italiano tradicional que combina ñoquis de patata con salsa de tomate y mozzarella fresca."
+  "culturalNotes": "La fabada asturiana es un plato tradicional de Asturias, en el norte de España, famoso por su sabor intenso y sus especias características.",
+  "chapter": "es"
  },
- "w-it-016": {
-  "title": "Gnudi con salsa rápida de tomate",
+ "w-es-007": {
+  "title": "Guiso Español de Pescado y Tomate",
   "ingredients": {
-   "w-it-016-i1": {
-    "name": "queso parmesano rallado",
-    "standardAmount": "1/4 taza"
-   },
-   "w-it-016-i2": {
-    "name": "tomates italianos en dados en lata",
-    "standardAmount": "1 lata de 28 onzas"
-   },
-   "w-it-016-i3": {
-    "name": "ajo finamente picado",
-    "standardAmount": "2 dientes"
-   },
-   "w-it-016-i4": {
+   "w-es-007-i1": {
     "name": "aceite de oliva virgen extra",
-    "standardAmount": "2 cucharadas"
+    "standardAmount": "45 ml"
    },
-   "w-it-016-i5": {
-    "name": "sal y pimienta",
+   "w-es-007-i2": {
+    "name": "cebolla",
+    "standardAmount": "1 mediana"
+   },
+   "w-es-007-i3": {
+    "name": "ajo",
+    "standardAmount": "4 dientes"
+   },
+   "w-es-007-i4": {
+    "name": "apio",
+    "standardAmount": "2 ramas"
+   },
+   "w-es-007-i5": {
+    "name": "zanahoria",
+    "standardAmount": "1"
+   },
+   "w-es-007-i6": {
+    "name": "pimentón dulce ahumado",
+    "standardAmount": "2 cdtas"
+   },
+   "w-es-007-i7": {
+    "name": "tomillo seco",
+    "standardAmount": "1/2 cdta"
+   },
+   "w-es-007-i8": {
+    "name": "tomates en dados",
+    "standardAmount": "1 lata (425 g)"
+   },
+   "w-es-007-i9": {
+    "name": "caldo de pescado",
+    "standardAmount": "1 1/2 tazas (360 ml)"
+   },
+   "w-es-007-i10": {
+    "name": "hebras de azafrán",
+    "standardAmount": "1/4 cdta"
+   },
+   "w-es-007-i11": {
+    "name": "patatas baby doradas",
+    "standardAmount": "1 lb (450 g)"
+   },
+   "w-es-007-i12": {
+    "name": "filetes de bacalao",
+    "standardAmount": "3 (225 g cada uno)"
+   },
+   "w-es-007-i13": {
+    "name": "zumo de limón",
+    "standardAmount": "1 cucharada"
+   },
+   "w-es-007-i14": {
+    "name": "sal marina y pimienta negra",
     "standardAmount": "al gusto"
    },
-   "w-it-016-i6": {
-    "name": "albahaca finamente picada",
-    "standardAmount": "3 cucharadas"
+   "w-es-007-i15": {
+    "name": "perejil picado",
+    "standardAmount": "para decorar"
+   }
+  },
+  "instructions": {
+   "1": "Calienta una olla grande a fuego medio y añade el aceite de oliva.",
+   "2": "Al cabo de un par de minutos, añade la cebolla, el ajo, el apio y la zanahoria picados y remueve 5 minutos sin parar.",
+   "3": "Añade el pimentón y el tomillo y mezcla rápido; incorpora los tomates en dados y el caldo de pescado con el azafrán.",
+   "4": "Mientras tanto, corta las patatas baby por la mitad; si son grandes, córtalas en rodajas de 2 cm.",
+   "5": "Cuando el caldo hierva, añade las patatas, mezcla, tapa la olla y baja a fuego lento.",
+   "6": "Mientras cuece, seca los filetes de bacalao con papel de cocina, sazona con sal y pimienta y reserva.",
+   "7": "Tras 20 minutos de cocción lenta, cuando las patatas estén tiernas, coloca los filetes de bacalao sobre el guiso y cuece tapado 5 minutos más.",
+   "8": "Sirve el guiso directamente de la olla o en cuencos llanos, con un chorro de zumo de limón fresco y perejil picado."
+  },
+  "culturalNotes": "Este guiso español de pescado y tomate es un plato tradicional de la cocina española, habitual en ocasiones especiales y reuniones familiares.",
+  "chapter": "es"
+ },
+ "w-es-008": {
+  "title": "Patatas Fritas",
+  "ingredients": {
+   "w-es-008-i1": {
+    "name": "patatas russet",
+    "standardAmount": "2 extra grandes"
    },
-   "w-it-016-i7": {
-    "name": "hojuelas de chile",
-    "standardAmount": "una pizca (opcional)"
+   "w-es-008-i2": {
+    "name": "aceite vegetal",
+    "standardAmount": "1 litro"
    },
-   "w-it-016-i8": {
-    "name": "espinacas tiernas",
-    "standardAmount": "1 bolsa de 9 onzas"
+   "w-es-008-i3": {
+    "name": "sal",
+    "standardAmount": "al gusto"
+   }
+  },
+  "instructions": {
+   "1": "Recorta los bordes de las patatas para formar un rectángulo. Córtalas en láminas de 1.25 cm y luego en bastones.",
+   "2": "Sumerge los bastones en agua fría al menos 30 minutos (puedes dejarlos en la nevera toda la noche).",
+   "3": "Seca bien las patatas con paños justo antes de freír.",
+   "4": "Precalienta el aceite a 160°C. Fríe los bastones en tandas pequeñas durante unos 5 minutos; aún no deben dorarse.",
+   "5": "Deja reposar los bastones unos 30 minutos.",
+   "6": "Calienta el aceite a 190°C. Fríe los bastones hasta que estén dorados y crujientes, unos 2-4 minutos. Escurre sobre papel.",
+   "7": "Espolvorea con sal y sirve de inmediato."
+  },
+  "culturalNotes": "Las patatas fritas son un plato muy popular en España, conocidas como papas fritas o patatas fritas.",
+  "chapter": "es"
+ },
+ "w-es-009": {
+  "title": "Croquetas de Pavo",
+  "ingredients": {
+   "w-es-009-i1": {
+    "name": "mantequilla sin sal",
+    "standardAmount": "2 oz (57 g)"
    },
-   "w-it-016-i9": {
-    "name": "ricotta entera",
-    "standardAmount": "12 onzas"
+   "w-es-009-i2": {
+    "name": "aceite de oliva virgen extra",
+    "standardAmount": "1/4 taza"
    },
-   "w-it-016-i10": {
+   "w-es-009-i3": {
+    "name": "harina",
+    "standardAmount": "4 oz (113 g)"
+   },
+   "w-es-009-i4": {
+    "name": "cebolla",
+    "standardAmount": "1 mediana"
+   },
+   "w-es-009-i5": {
+    "name": "leche entera",
+    "standardAmount": "1 litro"
+   },
+   "w-es-009-i6": {
+    "name": "nuez moscada",
+    "standardAmount": "1/2 cdta"
+   },
+   "w-es-009-i7": {
+    "name": "jamón de pavo halal",
+    "standardAmount": "9 oz (255 g)"
+   },
+   "w-es-009-i8": {
+    "name": "harina",
+    "standardAmount": "la necesaria"
+   },
+   "w-es-009-i9": {
     "name": "huevos",
     "standardAmount": "2"
    },
-   "w-it-016-i11": {
-    "name": "harina de uso general",
-    "standardAmount": "1 1/4 tazas"
-   },
-   "w-it-016-i12": {
-    "name": "nuez moscada",
-    "standardAmount": "al gusto"
-   },
-   "w-it-016-i13": {
-    "name": "harina de sémola",
-    "standardAmount": "1.5 tazas"
+   "w-es-009-i10": {
+    "name": "pan rallado",
+    "standardAmount": "el necesario"
    }
   },
   "instructions": {
-   "1": "Cuece las espinacas al vapor o en el microondas. Escúrrelas y exprime todo el agua sobrante.",
-   "2": "Pícalas finamente y vuelve a escurrirlas.",
-   "3": "Pon las espinacas, la ricotta, los huevos, el parmesano, la nuez moscada, la sal y la harina en un bol y mezcla bien.",
-   "4": "Extiende una taza y media de sémola en una bandeja.",
-   "5": "Forma los gnudi con las manos enharinadas, rodándolos ligeramente para cubrirlos de sémola.",
-   "6": "Coloca los gnudi en el refrigerador toda la noche en una bandeja sin cubrir.",
-   "7": "Para la salsa, calienta el aceite en un cazo de fondo grueso a fuego medio y añade el ajo.",
-   "8": "En cuanto el ajo empiece a chasquear, pero antes de que tome color, añade los tomates.",
-   "9": "Sube el fuego y, cuando la salsa empiece a burbujear, baja a fuego medio-bajo.",
-   "10": "Salpimienta, añade las hojuelas de chile si las usas y la albahaca. Cocina un minuto o dos más y mantén caliente.",
-   "11": "Hierve una olla grande de agua con sal.",
-   "12": "Echa los gnudi en el agua hirviendo y baja a fuego suave.",
-   "13": "Cuando suban a la superficie estarán listos. Sácalos con una espumadera y pásalos a la cazuela.",
-   "14": "Mezcla con cuidado con la salsa de tomate y sirve con parmesano."
+   "1": "Calienta la mantequilla y el aceite de oliva en una sartén a fuego medio.",
+   "2": "Añade la cebolla finamente picada y sofríe 5-6 minutos hasta que dore.",
+   "3": "Añade una pizca de sal y la nuez moscada; remueve bien.",
+   "4": "Incorpora el jamón de pavo halal finamente picado y remueve 1 minuto.",
+   "5": "Añade la harina y remueve sin parar durante 1 minuto.",
+   "6": "Vierte la leche poco a poco removiendo constantemente 15-20 minutos hasta que la masa espese y se despegue de la sartén.",
+   "7": "Vierte la masa en un bol grande, deja enfriar a temperatura ambiente, cubre con film y refrigera hasta que esté bien fría.",
+   "8": "Forma croquetas pequeñas con la masa fría y pásalas por harina, luego huevo batido y después pan rallado.",
+   "9": "Calienta aceite en una sartén y fríe las croquetas hasta que estén doradas por todos lados.",
+   "10": "Escurre las croquetas sobre papel de cocina para retirar el exceso de aceite."
   },
-  "culturalNotes": "Los gnudi son pequeños bocaditos de ricotta y espinacas, plato tradicional de la Toscana, Italia."
+  "culturalNotes": "Las croquetas son un plato muy popular en España, habitual como tapa en bares y cafeterías.",
+  "chapter": "es"
  },
- "w-it-017": {
-  "title": "Malloreddus (ñoquis sardos) en caldo de cordero",
+ "w-es-010": {
+  "title": "Leche Frita",
   "ingredients": {
-   "w-it-017-i1": {
-    "name": "harina de sémola",
-    "standardAmount": "9 onzas"
+   "w-es-010-i1": {
+    "name": "leche",
+    "standardAmount": "4 tazas (1 litro)"
    },
-   "w-it-017-i2": {
-    "name": "agua tibia",
-    "standardAmount": "3.3 onzas"
+   "w-es-010-i2": {
+    "name": "maicena",
+    "standardAmount": "1 taza (125 g)"
    },
-   "w-it-017-i3": {
-    "name": "sal",
-    "standardAmount": "0.5 cucharadita"
+   "w-es-010-i3": {
+    "name": "azúcar granulada",
+    "standardAmount": "3/4 taza (150 g)"
    },
-   "w-it-017-i4": {
-    "name": "huesos de cuello de cordero",
-    "standardAmount": "2.2 libras"
+   "w-es-010-i4": {
+    "name": "canela en polvo",
+    "standardAmount": "1/2 cdta"
    },
-   "w-it-017-i5": {
-    "name": "zanahorias",
-    "standardAmount": "2"
-   },
-   "w-it-017-i6": {
-    "name": "ramas de apio",
-    "standardAmount": "2"
-   },
-   "w-it-017-i7": {
-    "name": "cebolla",
+   "w-es-010-i5": {
+    "name": "rama de canela",
     "standardAmount": "1"
    },
-   "w-it-017-i8": {
-    "name": "patatas",
+   "w-es-010-i6": {
+    "name": "cáscaras de limón",
     "standardAmount": "4"
    },
-   "w-it-017-i9": {
-    "name": "perejil fresco",
-    "standardAmount": "1 puñado"
+   "w-es-010-i7": {
+    "name": "limón",
+    "standardAmount": "1/2"
    },
-   "w-it-017-i10": {
-    "name": "romero fresco",
-    "standardAmount": "1 ramita"
+   "w-es-010-i8": {
+    "name": "huevos",
+    "standardAmount": "2"
    },
-   "w-it-017-i11": {
-    "name": "tomates secos",
-    "standardAmount": "2-3"
-   },
-   "w-it-017-i12": {
-    "name": "pecorino sardo o pecorino romano",
-    "standardAmount": "2 onzas"
+   "w-es-010-i9": {
+    "name": "aceite de girasol",
+    "standardAmount": "1/2 taza (125 ml)"
    }
   },
   "instructions": {
-   "1": "Empieza el caldo de cordero: pon los huesos de cuello en una olla grande y cubre de agua. Lleva a ebullición, baja el fuego y cocina a fuego lento una hora.",
-   "2": "Añade las zanahorias, el apio, la cebolla, las patatas, el perejil, el romero y los tomates secos. Cuece 30 minutos más.",
-   "3": "En un bol grande, mezcla la sémola con el agua tibia y la sal. Amasa hasta obtener una masa lisa y maleable.",
-   "4": "Estira la masa sobre una superficie enharinada y córtala en trozos pequeños. Da forma de ñoquis pequeños y redondos.",
-   "5": "Añade los malloreddus al caldo que hierve suavemente y cuécelos 10 minutos hasta que estén tiernos.",
-   "6": "Sirve los malloreddus en cuencos y espolvorea con queso rallado."
+   "1": "Pon 3 tazas de leche en un cazo con la rama de canela y las cáscaras de limón; calienta a fuego medio para infusionar.",
+   "2": "Mientras se infusiona, pon 1 taza de leche en un bol e incorpora la maicena poco a poco batiendo para que no haya grumos.",
+   "3": "Engrasa un molde de 25×15 cm con 1 cucharadita de aceite de girasol.",
+   "4": "Tras 20 minutos de infusión, retira las cáscaras y la canela; añade el azúcar y la mezcla de maicena y cocina removiendo hasta que espese.",
+   "5": "Vierte la mezcla espesa en el molde, deja enfriar, cubre con film y refrigera hasta que esté firme.",
+   "6": "Pasadas un par de horas, saca el molde de la nevera, voltea sobre una tabla y corta la leche cuajada en cuadrados.",
+   "7": "Pon maicena en un bol y bate los huevos en otro. Reboza cada cuadrado en maicena y luego en huevo.",
+   "8": "Calienta una sartén pequeña a fuego medio con 1/2 taza de aceite de girasol. A los 4 minutos fríe los cuadrados hasta dorarlos.",
+   "9": "Mezcla azúcar y canela en un bol y reboza los cuadrados fritos; sirve templados."
   },
-  "culturalNotes": "Los malloreddus son un tipo de ñoquis tradicional de Cerdeña, Italia, que suele servirse en caldo de cordero o con salsas."
+  "culturalNotes": "La leche frita es un postre tradicional español que se suele servir en ocasiones especiales y reuniones familiares.",
+  "chapter": "es"
  },
- "w-it-018": {
-  "title": "Galletas selladas de mazapán con chocolate negro",
+ "w-es-011": {
+  "title": "Natillas",
   "ingredients": {
-   "w-it-018-i1": {
-    "name": "harina de uso general",
-    "standardAmount": "2 tazas"
+   "w-es-011-i1": {
+    "name": "leche ecológica",
+    "standardAmount": "2 1/4 tazas"
    },
-   "w-it-018-i2": {
+   "w-es-011-i2": {
+    "name": "azúcar",
+    "standardAmount": "1/3 taza"
+   },
+   "w-es-011-i3": {
+    "name": "huevos ecológicos",
+    "standardAmount": "3"
+   },
+   "w-es-011-i4": {
+    "name": "vaina de vainilla",
+    "standardAmount": "1"
+   },
+   "w-es-011-i5": {
+    "name": "rama de canela",
+    "standardAmount": "1"
+   },
+   "w-es-011-i6": {
+    "name": "cáscaras de limón",
+    "standardAmount": "3"
+   },
+   "w-es-011-i7": {
+    "name": "canela en polvo",
+    "standardAmount": "1 cdta"
+   },
+   "w-es-011-i8": {
+    "name": "galletas María",
+    "standardAmount": "4"
+   }
+  },
+  "instructions": {
+   "1": "Casca 3 huevos en un bol, bátelos, añade la mitad del azúcar y mezcla bien.",
+   "2": "Calienta una sartén antiadherente a fuego medio con la leche, el azúcar restante, la canela, la vainilla y las cáscaras de limón.",
+   "3": "Vierte unas 1/3 taza de leche caliente en el bol de los huevos sin dejar de batir, para atemperarlos.",
+   "4": "Antes de incorporar la mezcla de huevos, retira la canela, la vainilla y las cáscaras de limón.",
+   "5": "Vierte despacio la mezcla de huevos a la sartén batiendo la leche sin parar. Cocina hasta que espese ligeramente.",
+   "6": "Reparte la crema en 3 cuencos pequeños, espolvorea canela en polvo y coloca una galleta María en cada uno.",
+   "7": "Cubre cada cuenco con film y refrigera al menos 2 horas.",
+   "8": "¡Disfruta!"
+  },
+  "culturalNotes": "Las natillas son un postre tradicional español que se sirve habitualmente en ocasiones especiales.",
+  "chapter": "es"
+ },
+ "w-es-012": {
+  "title": "Turrón de Alicante",
+  "ingredients": {
+   "w-es-012-i1": {
+    "name": "almendras blanqueadas",
+    "standardAmount": "1 1/2 tazas"
+   },
+   "w-es-012-i2": {
+    "name": "miel",
+    "standardAmount": "1/2 taza"
+   },
+   "w-es-012-i3": {
+    "name": "azúcar",
+    "standardAmount": "1/2 taza"
+   },
+   "w-es-012-i4": {
+    "name": "clara de huevo",
+    "standardAmount": "1"
+   },
+   "w-es-012-i5": {
+    "name": "aceite de oliva virgen extra",
+    "standardAmount": "el necesario"
+   }
+  },
+  "instructions": {
+   "1": "Precalienta el horno a 210°C con la función hornear/gratinar.",
+   "2": "Pon las almendras en una bandeja con papel de horno en una sola capa y tuéstalas hasta que huelan y doren.",
+   "3": "Reserva 1 clara de huevo en un bol a temperatura ambiente.",
+   "4": "Calienta una sartén grande a fuego BAJO y añade la miel. Cocina 15 minutos sin remover; luego añade el azúcar y cocina otros 15 minutos.",
+   "5": "A los 30 minutos de cocción de miel y azúcar, bate la clara a punto de nieve en una batidora.",
+   "6": "Añade las almendras tostadas al bol del turrón y mezcla con espátula hasta que quede homogéneo.",
+   "7": "Vierte el turrón en un molde de plumcake (5×15 u 8×20 cm) forrado con papel de horno ligeramente aceitado.",
+   "8": "Tienes dos opciones: dejar que el turrón repose toda la noche hasta endurecer, o refrigerarlo para acelerar el proceso."
+  },
+  "culturalNotes": "El turrón de Alicante es un dulce tradicional elaborado en la región de Alicante, España, especialmente en Navidad.",
+  "chapter": "es"
+ },
+ "w-es-013": {
+  "title": "Pa amb Tomàquet (Pan con Ajo y Tomate)",
+  "ingredients": {
+   "w-es-013-i1": {
+    "name": "pan de pueblo",
+    "standardAmount": "4 rebanadas gruesas"
+   },
+   "w-es-013-i2": {
+    "name": "ajo",
+    "standardAmount": "4 dientes"
+   },
+   "w-es-013-i3": {
+    "name": "tomate",
+    "standardAmount": "1"
+   },
+   "w-es-013-i4": {
+    "name": "aceite de oliva",
+    "standardAmount": "1/4 taza"
+   },
+   "w-es-013-i5": {
+    "name": "sal",
+    "standardAmount": "al gusto"
+   },
+   "w-es-013-i6": {
+    "name": "pimienta recién molida",
+    "standardAmount": "al gusto"
+   }
+  },
+  "instructions": {
+   "1": "Tuesta las rebanadas de pan bajo el grill o en una parrilla caliente unos 30 segundos por lado.",
+   "2": "Lleva el pan tostado a la mesa. Da a cada comensal un diente de ajo para frotarlo sobre su tostada.",
+   "3": "Frota las mitades de tomate sobre el pan tostado.",
+   "4": "Riega con aceite de oliva y sazona con sal y pimienta recién molida al gusto.",
+   "5": "Sirve caliente."
+  },
+  "culturalNotes": "El pa amb tomàquet es un plato tradicional catalán que se sirve como aperitivo o comida ligera.",
+  "chapter": "es"
+ },
+ "w-es-014": {
+  "title": "Patatas Bravas al Estilo de Alicante",
+  "ingredients": {
+   "w-es-014-i1": {
+    "name": "patata Yukon Gold",
+    "standardAmount": "1 grande"
+   },
+   "w-es-014-i2": {
+    "name": "puré de tomate",
+    "standardAmount": "1 taza"
+   },
+   "w-es-014-i3": {
+    "name": "ajo",
+    "standardAmount": "1 diente"
+   },
+   "w-es-014-i4": {
+    "name": "guindilla de cayena seca",
+    "standardAmount": "1 pequeña"
+   },
+   "w-es-014-i5": {
+    "name": "pimentón ahumado",
+    "standardAmount": "1/2 cdta"
+   },
+   "w-es-014-i6": {
+    "name": "azúcar blanca",
+    "standardAmount": "1/4 cdta"
+   },
+   "w-es-014-i7": {
+    "name": "aceite de oliva virgen extra",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-es-014-i8": {
+    "name": "perejil fresco",
+    "standardAmount": "al gusto"
+   },
+   "w-es-014-i9": {
+    "name": "sal marina",
+    "standardAmount": "al gusto"
+   },
+   "w-es-014-i10": {
+    "name": "pimienta negra recién molida",
+    "standardAmount": "al gusto"
+   }
+  },
+  "instructions": {
+   "1": "Precalienta el horno con la función hornear/gratinar a su temperatura máxima.",
+   "2": "Pica finamente 1 diente de ajo y 1 guindilla de cayena seca.",
+   "3": "Calienta un cazo pequeño a fuego medio con 1 cucharada de aceite de oliva.",
+   "4": "Cuando el aceite esté caliente, añade el ajo y la guindilla picados, remueve 15 segundos y luego incorpora el puré de tomate con el pimentón, el azúcar y sal; cocina a fuego lento.",
+   "5": "Corta la patata en rodajas finas de unos 2 mm.",
+   "6": "Coloca las rodajas en una bandeja con papel de horno en una sola capa, riega con la cucharada de aceite restante y sazona.",
+   "7": "Hornea la bandeja 20 minutos hasta que las patatas estén cocidas.",
+   "8": "Una vez cocidas, coloca las rodajas en una fuente, vierte la salsa de tomate por encima y decora con perejil."
+  },
+  "culturalNotes": "Las patatas bravas son un plato muy popular en España, especialmente en la región de Alicante, donde se sirven como tapa.",
+  "chapter": "es"
+ },
+ "w-es-015": {
+  "title": "Pisto Andaluz",
+  "ingredients": {
+   "w-es-015-i1": {
+    "name": "aceite de oliva virgen extra",
+    "standardAmount": "1/4 taza (60 ml)"
+   },
+   "w-es-015-i2": {
+    "name": "patata",
+    "standardAmount": "1 mediana, pelada y en dados"
+   },
+   "w-es-015-i3": {
+    "name": "cebolla",
+    "standardAmount": "1 grande"
+   },
+   "w-es-015-i4": {
+    "name": "ajo",
+    "standardAmount": "3 dientes"
+   },
+   "w-es-015-i5": {
+    "name": "pimiento rojo",
+    "standardAmount": "1 grande"
+   },
+   "w-es-015-i6": {
+    "name": "pimiento verde",
+    "standardAmount": "1 grande"
+   },
+   "w-es-015-i7": {
+    "name": "calabacín",
+    "standardAmount": "1 mediano"
+   },
+   "w-es-015-i8": {
+    "name": "pimentón dulce ahumado",
+    "standardAmount": "1 cdta (2.5 g)"
+   },
+   "w-es-015-i9": {
+    "name": "comino molido",
+    "standardAmount": "3/4 cdta (2 g)"
+   },
+   "w-es-015-i10": {
+    "name": "tomates",
+    "standardAmount": "4"
+   },
+   "w-es-015-i11": {
+    "name": "sal marina y pimienta negra",
+    "standardAmount": "al gusto"
+   },
+   "w-es-015-i12": {
+    "name": "perejil fresco",
+    "standardAmount": "para decorar"
+   }
+  },
+  "instructions": {
+   "1": "Calienta una sartén grande a fuego medio y añade el aceite de oliva.",
+   "2": "Mientras tanto, corta la patata en dados pequeños.",
+   "3": "Cuando el aceite esté caliente, añade la patata y mézclala para cubrirla de aceite; remueve cada pocos minutos.",
+   "4": "Mientras se fríen las patatas, pica grueso la cebolla y el ajo, y finamente los pimientos y el calabacín.",
+   "5": "Tras unos 20 minutos de fritura, cuando las patatas estén doradas, retíralas de la sartén.",
+   "6": "En la misma sartén, baja a fuego medio-bajo, añade la cebolla, el ajo y los pimientos y sofríe removiendo.",
+   "7": "A los 6-8 minutos, cuando las verduras estén ligeramente pochadas, añade el calabacín y mezcla.",
+   "8": "Cuando el calabacín esté ligeramente sofrito, unos 4 minutos, añade el pimentón y el comino, mezcla rápido e incorpora los tomates picados.",
+   "9": "Cocina hasta que el tomate se deshaga, devuelve las patatas, mezcla y sirve en una fuente grande con perejil fresco. ¡Buen provecho!"
+  },
+  "culturalNotes": "El pisto andaluz es un plato tradicional español que se sirve como plato principal o acompañamiento, a base de verduras salteadas y fritas.",
+  "chapter": "es"
+ },
+ "w-es-016": {
+  "title": "Arroz con Leche",
+  "ingredients": {
+   "w-es-016-i1": {
+    "name": "agua",
+    "standardAmount": "1 taza"
+   },
+   "w-es-016-i2": {
+    "name": "arroz blanco",
+    "standardAmount": "1/2 taza"
+   },
+   "w-es-016-i3": {
     "name": "sal",
     "standardAmount": "una pizca"
    },
-   "w-it-018-i3": {
-    "name": "mantequilla ablandada",
-    "standardAmount": "10 cucharadas"
+   "w-es-016-i4": {
+    "name": "rama de canela",
+    "standardAmount": "1"
    },
-   "w-it-018-i4": {
-    "name": "mazapán rallado",
-    "standardAmount": "1/3 taza + 1 cucharada"
+   "w-es-016-i5": {
+    "name": "leche",
+    "standardAmount": "4 tazas"
    },
-   "w-it-018-i5": {
+   "w-es-016-i6": {
     "name": "azúcar",
-    "standardAmount": "1/4 taza"
+    "standardAmount": "1/2 taza"
    },
-   "w-it-018-i6": {
-    "name": "almendras finamente molidas",
-    "standardAmount": "3 cucharadas"
+   "w-es-016-i7": {
+    "name": "yemas de huevo",
+    "standardAmount": "3"
    },
-   "w-it-018-i7": {
-    "name": "yema de huevo",
-    "standardAmount": "1 grande"
+   "w-es-016-i8": {
+    "name": "canela molida",
+    "standardAmount": "al gusto"
    },
-   "w-it-018-i8": {
-    "name": "chocolate negro fundido o mermelada",
-    "standardAmount": "la necesaria"
+   "w-es-016-i9": {
+    "name": "ralladura de limón",
+    "standardAmount": "al gusto"
+   },
+   "w-es-016-i10": {
+    "name": "almendras en láminas",
+    "standardAmount": "al gusto"
+   },
+   "w-es-016-i11": {
+    "name": "pasas",
+    "standardAmount": "al gusto"
    }
   },
   "instructions": {
-   "1": "Precalienta el horno a 150 °C y forra dos bandejas con papel de horno.",
-   "2": "En un bol pequeño, mezcla la harina con la sal.",
-   "3": "En un segundo bol, con batidora eléctrica, bate la mantequilla, el azúcar y el mazapán rallado hasta integrar.",
-   "4": "Añade las almendras molidas y la yema y mezcla bien.",
-   "5": "Incorpora la harina a la mezcla de mantequilla y bate a velocidad baja solo hasta mezclar.",
-   "6": "Vuelca el bol sobre la encimera ligeramente enharinada y amasa suavemente un minuto o dos hasta tener una bola lisa.",
-   "7": "Divide la masa en dos, estira a un grosor de unos 8 mm y corta las galletas con un sello o cortapastas.",
-   "8": "Coloca las galletas en las bandejas preparadas y estira el resto de la masa de la misma manera.",
-   "9": "Hornea de 18 a 20 minutos, solo hasta que empiecen a dorarse por los bordes (¡sin dejar que se doren!).",
-   "10": "Sácalas del horno y deja enfriar por completo.",
-   "11": "Si usas sello, rellena el relieve con chocolate fundido o mermelada y deja que cuaje.",
-   "12": "Guárdalas en un recipiente hermético y ¡a disfrutar!"
+   "1": "En una olla mediana, lleva el agua a ebullición.",
+   "2": "Añade el arroz, la sal, la rama de canela y la ralladura de limón. Tapa y cuece a fuego lento 16 minutos o hasta que el arroz esté tierno.",
+   "3": "En una olla grande, calienta la leche con el azúcar hasta que esté caliente y el azúcar disuelto.",
+   "4": "Incorpora unas cucharadas de la leche caliente a las yemas para atemperarlas.",
+   "5": "Devuelve las yemas atemperadas a la leche caliente batiendo para integrar.",
+   "6": "Añade el arroz cocido (con la canela y la ralladura) a la leche y cocina a fuego suave hasta que espese.",
+   "7": "Decora con canela, ralladura de limón, pasas y almendras en láminas."
   },
-  "culturalNotes": "Las galletas selladas de mazapán con chocolate negro son un dulce italiano tradicional que se sirve en ocasiones especiales."
+  "culturalNotes": "El arroz con leche es un postre tradicional en España que se sirve en ocasiones especiales y reuniones familiares.",
+  "chapter": "es"
  },
- "w-it-019": {
-  "title": "Minestrone milanés de verano",
+ "w-es-017": {
+  "title": "Tortilla Española de Patatas",
   "ingredients": {
-   "w-it-019-i1": {
-    "name": "calabacín",
-    "standardAmount": "2 medianos, en trozos de 2.5 cm"
+   "w-es-017-i1": {
+    "name": "huevos",
+    "standardAmount": "8"
    },
-   "w-it-019-i2": {
-    "name": "cebolla",
-    "standardAmount": "1 grande, en trozos de 2.5 cm"
-   },
-   "w-it-019-i3": {
-    "name": "zanahorias",
-    "standardAmount": "4, en trozos de 2.5 cm"
-   },
-   "w-it-019-i4": {
-    "name": "apio",
-    "standardAmount": "3 ramas, en trozos de 2.5 cm"
-   },
-   "w-it-019-i5": {
+   "w-es-017-i2": {
     "name": "patatas",
-    "standardAmount": "2 medianas, en dados de 2.5 cm"
+    "standardAmount": "1 kg"
    },
-   "w-it-019-i6": {
-    "name": "judías verdes",
-    "standardAmount": "4 onzas, en trozos de 2.5 cm"
+   "w-es-017-i3": {
+    "name": "cebolla",
+    "standardAmount": "1"
    },
-   "w-it-019-i7": {
-    "name": "tomates",
-    "standardAmount": "6 grandes, en trozos de 2.5 cm"
-   },
-   "w-it-019-i8": {
-    "name": "espinacas",
-    "standardAmount": "8 onzas de hojas tiernas"
-   },
-   "w-it-019-i9": {
+   "w-es-017-i4": {
     "name": "aceite de oliva",
-    "standardAmount": "4 cucharadas"
+    "standardAmount": "500 ml"
    },
-   "w-it-019-i10": {
-    "name": "sal y pimienta",
-    "standardAmount": "al gusto"
-   },
-   "w-it-019-i11": {
-    "name": "arroz italiano",
-    "standardAmount": "4 onzas (el arborio es el mejor)"
-   },
-   "w-it-019-i12": {
-    "name": "albahaca fresca",
-    "standardAmount": "1/4 taza, picada"
-   },
-   "w-it-019-i13": {
-    "name": "aceite de oliva virgen extra",
-    "standardAmount": "al gusto"
-   },
-   "w-it-019-i14": {
-    "name": "pimienta negra en grano molida",
-    "standardAmount": "al gusto"
-   },
-   "w-it-019-i15": {
-    "name": "parmesano rallado",
-    "standardAmount": "al gusto"
-   }
-  },
-  "instructions": {
-   "1": "Calienta el aceite de oliva en una olla grande, añade la cebolla, las zanahorias, el apio y el calabacín y cocina de 3 a 4 minutos.",
-   "2": "Añade las judías verdes y las patatas y cocina 3 minutos más.",
-   "3": "Añade los tomates y 6 tazas de caldo (las verduras deben quedar cubiertas por unos 2.5 cm de caldo).",
-   "4": "Sazona ligeramente con sal y pimienta, tapa y baja el fuego a cocción lenta.",
-   "5": "Cuece unas 2 horas, añadiendo más caldo si hace falta.",
-   "6": "Añade las espinacas y el arroz y cocina de 20 a 30 minutos más, hasta que el arroz esté casi tierno al bocado.",
-   "7": "La sopa debe quedar espesa, no aguada, y las verduras fundentes.",
-   "8": "Incorpora la albahaca picada, ajusta la sazón y deja que llegue a temperatura ambiente.",
-   "9": "Sirve en cuencos con un hilo de aceite de oliva, pimienta en grano molida y queso rallado al gusto."
-  },
-  "culturalNotes": "El minestrone es una sopa italiana tradicional conocida por su variedad de verduras e ingredientes. Es especialmente popular en Milán durante el verano."
- },
- "w-it-020": {
-  "title": "Masa de pizza napolitana con ajo y especias italianas",
-  "ingredients": {
-   "w-it-020-i1": {
-    "name": "harina de uso general sin blanquear",
-    "standardAmount": "3 tazas"
-   },
-   "w-it-020-i2": {
+   "w-es-017-i5": {
     "name": "sal",
-    "standardAmount": "1.25 cucharaditas"
-   },
-   "w-it-020-i3": {
-    "name": "levadura seca de acción rápida",
-    "standardAmount": "0.5 cucharadita"
-   },
-   "w-it-020-i4": {
-    "name": "agua helada",
-    "standardAmount": "1.5 tazas"
-   },
-   "w-it-020-i5": {
-    "name": "aceite de oliva",
-    "standardAmount": "2 cucharadas + 0.5 cucharadita"
-   },
-   "w-it-020-i6": {
-    "name": "ajo granulado",
-    "standardAmount": "1 cucharada"
-   },
-   "w-it-020-i7": {
-    "name": "especias italianas",
-    "standardAmount": "1 cucharada"
+    "standardAmount": "una pizca"
    }
   },
   "instructions": {
-   "1": "En un bol grande, mezcla la harina, la sal y la levadura hasta integrar.",
-   "2": "Añade el agua helada y mezcla bien hasta formar una masa blanda. Añade 2 cucharadas de aceite de oliva y mezcla.",
-   "3": "Vuelca la masa sobre una superficie enharinada y amasa hasta que esté firme pero ligeramente pegajosa, añadiendo más harina si hace falta.",
-   "4": "Forma una bola, colócala en un bol aceitado, pincela la superficie con 0.5 cucharadita de aceite, cubre con film y deja levar hasta que doble, aproximadamente 1 hora.",
-   "5": "Desgasifica la masa y córtala por la mitad. Forma con cada mitad una base de pizza de 30 cm y colócala en bandejas.",
-   "6": "Coloca una rejilla en la posición más baja del horno y precalienta a 230 °C.",
-   "7": "Hornea las bases en la rejilla inferior hasta que estén firmes, de 3 a 7 minutos. Deja enfriar unos 10 minutos antes de cubrirlas."
+   "1": "Pela las patatas, lávalas y sécalas con un paño. Córtalas en dados de 1 cm o en rodajas de 2 mm.",
+   "2": "Calienta el aceite en una sartén. Cuando esté caliente, fríe las patatas sin que lleguen a dorarse; una vez blandas, escúrrelas.",
+   "3": "Pica o corta la cebolla en láminas; fríela hasta que esté translúcida.",
+   "4": "Bate los 8 huevos en un bol con una pizca de sal hasta que queden homogéneos; mezcla con las patatas y la cebolla.",
+   "5": "Calienta 3 cucharadas de aceite de oliva en una sartén limpia (puedes reutilizar la anterior retirando el aceite sobrante).",
+   "6": "Cuando la sartén esté caliente, vierte la mezcla de huevo, cebolla y patata.",
+   "7": "Pasados 7-8 minutos la parte inferior estará cuajada. Pon un plato sobre la sartén y dale la vuelta con cuidado.",
+   "8": "Un par de minutos más y estará lista para servir."
   },
-  "culturalNotes": "La pizza napolitana es un plato tradicional de Nápoles, Italia, conocido por su masa fina y sus bordes abultados."
+  "culturalNotes": "La tortilla española es un plato tradicional de España, también conocida como tortilla de patatas; se sirve como comida ligera o tapa.",
+  "chapter": "es"
  },
- "w-it-021": {
-  "title": "Panforte de cacao",
+ "w-es-018": {
+  "title": "Tarta de Santiago",
   "ingredients": {
-   "w-it-021-i1": {
-    "name": "miel",
-    "standardAmount": "5 onzas"
+   "w-es-018-i1": {
+    "name": "almendras blanqueadas",
+    "standardAmount": "2 1/2 tazas"
    },
-   "w-it-021-i2": {
-    "name": "azúcar blanca",
-    "standardAmount": "4 onzas"
+   "w-es-018-i2": {
+    "name": "azúcar granulada",
+    "standardAmount": "1 1/4 tazas"
    },
-   "w-it-021-i3": {
-    "name": "piñones picados",
-    "standardAmount": "3 onzas"
+   "w-es-018-i3": {
+    "name": "huevos grandes",
+    "standardAmount": "5"
    },
-   "w-it-021-i4": {
-    "name": "nueces picadas",
-    "standardAmount": "3 onzas"
+   "w-es-018-i4": {
+    "name": "canela en polvo",
+    "standardAmount": "1 cdta"
    },
-   "w-it-021-i5": {
-    "name": "almendras picadas",
-    "standardAmount": "3 onzas"
+   "w-es-018-i5": {
+    "name": "ralladura de limón",
+    "standardAmount": "1 cdta"
    },
-   "w-it-021-i6": {
-    "name": "piña confitada picada",
-    "standardAmount": "3 onzas"
-   },
-   "w-it-021-i7": {
-    "name": "jengibre confitado picado",
-    "standardAmount": "3 onzas"
-   },
-   "w-it-021-i8": {
-    "name": "dátiles secos picados",
-    "standardAmount": "3 onzas"
-   },
-   "w-it-021-i9": {
-    "name": "cacao en polvo sin azúcar",
-    "standardAmount": "2 onzas"
-   },
-   "w-it-021-i10": {
-    "name": "cilantro molido",
-    "standardAmount": "0.5 cucharadita"
-   },
-   "w-it-021-i11": {
-    "name": "pimienta de Jamaica molida",
-    "standardAmount": "0.5 cucharadita"
-   },
-   "w-it-021-i12": {
-    "name": "nuez moscada molida",
-    "standardAmount": "1/3 cucharadita"
-   },
-   "w-it-021-i13": {
+   "w-es-018-i6": {
     "name": "azúcar glas",
     "standardAmount": "2 cucharadas"
+   },
+   "w-es-018-i7": {
+    "name": "spray antiadherente",
+    "standardAmount": "el necesario"
    }
   },
   "instructions": {
-   "1": "Precalienta el horno a 150 °C. Forra un molde desmontable de 20 a 23 cm con papel de arroz o papel de horno.",
-   "2": "Combina la miel y el azúcar en un cazo a fuego lento y remueve hasta disolver el azúcar, unos 3 minutos. Lleva a ebullición suave.",
-   "3": "Mezcla con todos los frutos secos, las frutas confitadas, el cacao y las especias, y vierte en el molde presionando bien.",
-   "4": "Hornea 25 minutos. Retira del horno y deja enfriar por completo sobre una rejilla.",
-   "5": "Desmolda el panforte y espolvorea con azúcar glas."
+   "1": "Pon 350 g de almendras blanqueadas en una bandeja con papel de horno y tuéstalas en el horno.",
+   "2": "Saca las almendras, deja enfriar y tritúralas en un procesador hasta obtener harina de almendra.",
+   "3": "En un bol grande, mezcla 250 g de azúcar con 5 huevos, luego añade la canela y la ralladura de limón.",
+   "4": "Incorpora la mezcla de almendra a la de huevo y azúcar poco a poco, removiendo hasta que quede homogénea.",
+   "5": "Forra un molde redondo de 22 cm con papel de horno y pulveriza los lados con spray antiadherente.",
+   "6": "Hornea en horno precalentado a 170°C durante 55 minutos hasta que la tarta esté cuajada y dorada.",
+   "7": "Saca del horno, deja enfriar, desmolda y pasa a una fuente.",
+   "8": "Coloca la plantilla de la cruz de Santiago sobre la tarta y espolvorea azúcar glas; retira la plantilla con cuidado."
   },
-  "culturalNotes": "El panforte es un dulce italiano tradicional de la ciudad de Siena, conocido por su rica combinación de frutos secos y frutas confitadas."
+  "culturalNotes": "La tarta de Santiago es un pastel de almendra tradicional de Galicia, España, decorado habitualmente con la cruz de Santiago.",
+  "chapter": "es"
  },
- "w-it-022": {
-  "title": "Panini (pan italiano para bocadillos)",
+ "w-es-019": {
+  "title": "Zarangollo Murciano",
   "ingredients": {
-   "w-it-022-i1": {
-    "name": "levadura seca activa",
-    "standardAmount": "1/4 cucharadita"
+   "w-es-019-i1": {
+    "name": "huevos",
+    "standardAmount": "4"
    },
-   "w-it-022-i2": {
-    "name": "agua tibia",
-    "standardAmount": "1 taza (unos 43 °C)"
+   "w-es-019-i2": {
+    "name": "cebolla",
+    "standardAmount": "1/2"
    },
-   "w-it-022-i3": {
-    "name": "harina de fuerza",
-    "standardAmount": "1 1/3 tazas"
+   "w-es-019-i3": {
+    "name": "calabacín",
+    "standardAmount": "1"
    },
-   "w-it-022-i4": {
-    "name": "harina de uso general sin blanquear",
-    "standardAmount": "2/3 taza"
+   "w-es-019-i4": {
+    "name": "aceite de oliva virgen extra",
+    "standardAmount": "2 cucharadas"
    },
-   "w-it-022-i5": {
-    "name": "biga (preparada el día anterior)",
-    "standardAmount": "1 receta"
+   "w-es-019-i5": {
+    "name": "sal marina y pimienta negra",
+    "standardAmount": "al gusto"
    },
-   "w-it-022-i6": {
-    "name": "harina de uso general sin blanquear",
-    "standardAmount": "3 tazas y más para trabajar y dar forma"
-   },
-   "w-it-022-i7": {
-    "name": "levadura seca activa",
-    "standardAmount": "1 1/2 cucharaditas"
-   },
-   "w-it-022-i8": {
-    "name": "sal",
-    "standardAmount": "2 cucharaditas"
-   },
-   "w-it-022-i9": {
-    "name": "agua tibia",
-    "standardAmount": "1 1/2 tazas"
-   },
-   "w-it-022-i10": {
-    "name": "harina de maíz",
-    "standardAmount": "una ligera capa"
+   "w-es-019-i6": {
+    "name": "cebollino fresco picado",
+    "standardAmount": "un puñado"
    }
   },
   "instructions": {
-   "1": "Para la biga, espolvorea la levadura sobre el agua en un bol grande donde quepan todos los ingredientes y deja reposar de 5 a 10 minutos.",
-   "2": "Añade las harinas y remueve hasta mezclar. (La masa puede parecer dura, pero se ablandará al reposar.)",
-   "3": "Cubre la biga bien con film y déjala reposar 6 horas a temperatura ambiente.",
-   "4": "Remueve la biga y refrigérala hasta el día siguiente, o al menos 12 horas.",
-   "5": "Para los panecillos, mezcla la harina, la sal y la levadura en un bol grande.",
-   "6": "Añade el agua y la biga y remueve hasta integrar la masa. (Quedará bastante húmeda e irregular.)",
-   "7": "Vuelca la masa sobre la encimera enharinada y, usando la menor harina posible, amasa 5 minutos hasta que esté lisa.",
-   "8": "Coloca la masa en un bol grande ligeramente aceitado, unas tres veces su tamaño.",
-   "9": "Cubre bien con film y deja en lugar cálido de 1.5 a 2 horas hasta que doble, desgasificando y girando la masa cada 30 minutos aproximadamente.",
-   "10": "Si usas bandejas, espolvoréalas ligeramente con harina de maíz.",
-   "11": "Divide la masa en bolas de unos 7.5 cm de diámetro.",
-   "12": "Trabájalas con las manos hasta que tengan forma uniforme.",
-   "13": "Enharínalas ligeramente y colócalas en la bandeja preparada o en la pala de horno.",
-   "14": "Aplana ligeramente cada bola con el talón de la mano para formar un disco.",
-   "15": "Cúbrelas holgadamente con paños.",
-   "16": "Precalienta el horno a 205 °C.",
-   "17": "Llena una fuente honda de agua y métela en el horno 10 minutos antes de introducir los panecillos.",
-   "18": "Pasados 45 minutos, mete las bandejas en el horno caliente o desliza los panecillos sobre la piedra caliente.",
-   "19": "Hornea unos 20 minutos, girándolos una vez, hasta que estén dorados por todas partes.",
-   "20": "Sácalos y deja enfriar sobre una rejilla."
+   "1": "Casca 4 huevos en un bol, sazona con sal marina y pimienta negra y bátelos ligeramente.",
+   "2": "Corta media cebolla en láminas finas.",
+   "3": "Pela un calabacín mediano y córtalo en rodajas de unos 3 mm.",
+   "4": "Calienta una sartén antiadherente grande a fuego medio-alto con 2 cucharadas de aceite de oliva.",
+   "5": "Al minuto, añade la cebolla y mezcla con el aceite; a los 2 minutos incorpora el calabacín en láminas y cocina hasta que esté tierno.",
+   "6": "Baja a fuego medio-bajo, añade la mezcla de huevo y remueve cada 30 segundos hasta que el huevo esté cremoso pero cuajado.",
+   "7": "Pasa a una fuente y espolvorea con cebollino fresco picado. ¡Disfruta!"
   },
-  "culturalNotes": "El panini es un tipo de panecillo italiano, muy usado para hacer bocadillos."
+  "culturalNotes": "El zarangollo murciano es un plato tradicional de la región de Murcia, España, conocido por su sencillez y su rico sabor.",
+  "chapter": "es"
  }
 }

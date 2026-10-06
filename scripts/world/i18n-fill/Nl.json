@@ -1,544 +1,2205 @@
 {
-"w-fr-001": {
+ "w-fr-001": {
   "title": "Bouillabaisse",
   "ingredients": {
-    "w-fr-001-i1": {"name": "Zeedonderpad", "standardAmount": "660 g"},
-    "w-fr-001-i2": {"name": "Roodbaars", "standardAmount": "660 g"},
-    "w-fr-001-i3": {"name": "Rode poon", "standardAmount": "660 g"},
-    "w-fr-001-i4": {"name": "Zeeaal", "standardAmount": "660 g"},
-    "w-fr-001-i5": {"name": "Zeeduivel", "standardAmount": "660 g"},
-    "w-fr-001-i6": {"name": "Zonnevis", "standardAmount": "660 g"},
-    "w-fr-001-i7": {"name": "Octopus", "standardAmount": "1 levende (optioneel)"},
-    "w-fr-001-i8": {"name": "Zee-egels", "standardAmount": "10"},
-    "w-fr-001-i9": {"name": "Aardappelen", "standardAmount": "1 kg"},
-    "w-fr-001-i10": {"name": "Knoflook", "standardAmount": "7 teentjes"},
-    "w-fr-001-i11": {"name": "Uien", "standardAmount": "3"},
-    "w-fr-001-i12": {"name": "Tomaten", "standardAmount": "5 rijpe"},
-    "w-fr-001-i13": {"name": "Olijfolie", "standardAmount": "240 ml"},
-    "w-fr-001-i14": {"name": "Bouquet garni", "standardAmount": "1 bos"},
-    "w-fr-001-i15": {"name": "Venkel", "standardAmount": "1 takje"},
-    "w-fr-001-i16": {"name": "Saffraan", "standardAmount": "8 draden"},
-    "w-fr-001-i17": {"name": "Boerenbrood", "standardAmount": "10 sneden"},
-    "w-fr-001-i18": {"name": "Zout", "standardAmount": "naar smaak"},
-    "w-fr-001-i19": {"name": "Cayennepeper", "standardAmount": "naar smaak"}
+   "w-fr-001-i1": {
+    "name": "Zeedonderpad",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i2": {
+    "name": "Roodbaars",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i3": {
+    "name": "Rode poon",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i4": {
+    "name": "Zeeaal",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i5": {
+    "name": "Zeeduivel",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i6": {
+    "name": "Zonnevis",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i7": {
+    "name": "Octopus",
+    "standardAmount": "1 levende (optioneel)"
+   },
+   "w-fr-001-i8": {
+    "name": "Zee-egels",
+    "standardAmount": "10"
+   },
+   "w-fr-001-i9": {
+    "name": "Aardappelen",
+    "standardAmount": "1 kg"
+   },
+   "w-fr-001-i10": {
+    "name": "Knoflook",
+    "standardAmount": "7 teentjes"
+   },
+   "w-fr-001-i11": {
+    "name": "Uien",
+    "standardAmount": "3"
+   },
+   "w-fr-001-i12": {
+    "name": "Tomaten",
+    "standardAmount": "5 rijpe"
+   },
+   "w-fr-001-i13": {
+    "name": "Olijfolie",
+    "standardAmount": "240 ml"
+   },
+   "w-fr-001-i14": {
+    "name": "Bouquet garni",
+    "standardAmount": "1 bos"
+   },
+   "w-fr-001-i15": {
+    "name": "Venkel",
+    "standardAmount": "1 takje"
+   },
+   "w-fr-001-i16": {
+    "name": "Saffraan",
+    "standardAmount": "8 draden"
+   },
+   "w-fr-001-i17": {
+    "name": "Boerenbrood",
+    "standardAmount": "10 sneden"
+   },
+   "w-fr-001-i18": {
+    "name": "Zout",
+    "standardAmount": "naar smaak"
+   },
+   "w-fr-001-i19": {
+    "name": "Cayennepeper",
+    "standardAmount": "naar smaak"
+   }
   },
   "instructions": {
-    "1": "Maak de vis schoon en snijd in grote stukken met graat.",
-    "2": "Verhit olijfolie in een grote, diepe pan.",
-    "3": "Voeg uien, 6 fijngeknepen knoflookteentjes, octopus en tomaten toe en bak 5 minuten op laag vuur.",
-    "4": "Voeg de grootste stukken vis eerst toe, bedek met kokend water, voeg zout, peper, venkel, bouquet garni en saffraan toe en laat zachtjes sudderen.",
-    "5": "Maak de rouille: plet knoflook in een vijzel, voeg eigeel en saffraan toe en klop olijfolie er beetje bij beetje door tot een mayonaise.",
-    "6": "Kook de aardappelen 15-20 minuten in gezouten water. Open de zee-egels met een schaar en lepel het vlees eruit.",
-    "7": "Leg de vis op een grote schaal. Roer het zee-egelvlees door de soep.",
-    "8": "Wrijf het brood in met knoflook en besmeer met rouille. Minstens 2 sneden per kom.",
-    "9": "Haal vis en aardappelen uit de soep en leg op een schaal.",
-    "10": "Giet de hete soep over het met rouille besmeerde brood. Serveer vis en aardappelen apart."
+   "1": "Maak de vis schoon en snijd in grote stukken met graat.",
+   "2": "Verhit olijfolie in een grote, diepe pan.",
+   "3": "Voeg uien, 6 fijngeknepen knoflookteentjes, octopus en tomaten toe en bak 5 minuten op laag vuur.",
+   "4": "Voeg de grootste stukken vis eerst toe, bedek met kokend water, voeg zout, peper, venkel, bouquet garni en saffraan toe en laat zachtjes sudderen.",
+   "5": "Maak de rouille: plet knoflook in een vijzel, voeg eigeel en saffraan toe en klop olijfolie er beetje bij beetje door tot een mayonaise.",
+   "6": "Kook de aardappelen 15-20 minuten in gezouten water. Open de zee-egels met een schaar en lepel het vlees eruit.",
+   "7": "Leg de vis op een grote schaal. Roer het zee-egelvlees door de soep.",
+   "8": "Wrijf het brood in met knoflook en besmeer met rouille. Minstens 2 sneden per kom.",
+   "9": "Haal vis en aardappelen uit de soep en leg op een schaal.",
+   "10": "Giet de hete soep over het met rouille besmeerde brood. Serveer vis en aardappelen apart."
   },
   "culturalNotes": "Bouillabaisse is het traditionele gerecht van Marseille, beroemd om de verscheidenheid aan vis en schaaldieren."
-},
-"w-fr-002": {
+ },
+ "w-fr-002": {
   "title": "Gefrituurde calamari met tzatziki",
   "ingredients": {
-    "w-fr-002-i1": {"name": "Knoflook", "standardAmount": "2 kleine teentjes (fijngehakt)"},
-    "w-fr-002-i2": {"name": "Olijfolie", "standardAmount": "1 el"},
-    "w-fr-002-i3": {"name": "Komkommer", "standardAmount": "1 kleine"},
-    "w-fr-002-i4": {"name": "Yoghurt", "standardAmount": "250 g"},
-    "w-fr-002-i5": {"name": "Gedroogde munt", "standardAmount": "1 tl"},
-    "w-fr-002-i6": {"name": "Citroensap", "standardAmount": "1 tl"},
-    "w-fr-002-i7": {"name": "Zout en peper", "standardAmount": "naar smaak"},
-    "w-fr-002-i8": {"name": "Calamari", "standardAmount": "450 g"},
-    "w-fr-002-i9": {"name": "Bloem", "standardAmount": "1 grote kom"},
-    "w-fr-002-i10": {"name": "Frituurolie", "standardAmount": "2,5 cm in de pan"},
-    "w-fr-002-i11": {"name": "Vers citroensap", "standardAmount": "naar smaak"},
-    "w-fr-002-i12": {"name": "Zout, peper, gedroogde oregano", "standardAmount": "naar smaak"}
+   "w-fr-002-i1": {
+    "name": "Knoflook",
+    "standardAmount": "2 kleine teentjes (fijngehakt)"
+   },
+   "w-fr-002-i2": {
+    "name": "Olijfolie",
+    "standardAmount": "1 el"
+   },
+   "w-fr-002-i3": {
+    "name": "Komkommer",
+    "standardAmount": "1 kleine"
+   },
+   "w-fr-002-i4": {
+    "name": "Yoghurt",
+    "standardAmount": "250 g"
+   },
+   "w-fr-002-i5": {
+    "name": "Gedroogde munt",
+    "standardAmount": "1 tl"
+   },
+   "w-fr-002-i6": {
+    "name": "Citroensap",
+    "standardAmount": "1 tl"
+   },
+   "w-fr-002-i7": {
+    "name": "Zout en peper",
+    "standardAmount": "naar smaak"
+   },
+   "w-fr-002-i8": {
+    "name": "Calamari",
+    "standardAmount": "450 g"
+   },
+   "w-fr-002-i9": {
+    "name": "Bloem",
+    "standardAmount": "1 grote kom"
+   },
+   "w-fr-002-i10": {
+    "name": "Frituurolie",
+    "standardAmount": "2,5 cm in de pan"
+   },
+   "w-fr-002-i11": {
+    "name": "Vers citroensap",
+    "standardAmount": "naar smaak"
+   },
+   "w-fr-002-i12": {
+    "name": "Zout, peper, gedroogde oregano",
+    "standardAmount": "naar smaak"
+   }
   },
   "instructions": {
-    "1": "Doe olijfolie en knoflook in een middelgrote kom.",
-    "2": "Snijd de komkommer dun, bestrooi met zout en laat minstens 15 minuten uitlekken.",
-    "3": "Meng yoghurt, komkommer, munt, citroensap, zout en peper door de knoflookolie. Te dun? Meer yoghurt.",
-    "4": "Maak de calamari schoon en snijd het lijf in ringen van 2,5 cm (kleine heel laten).",
-    "5": "Zet bloem met zout en peper klaar.",
-    "6": "Verhit de olie op hoog vuur.",
-    "7": "Paneer de calamari binnen en buiten.",
-    "8": "Frituur in kleine porties.",
-    "9": "Kleine ca. 1 minuut, grote een minuut langer.",
-    "10": "Laat uitlekken op keukenpapier en serveer direct met tzatziki."
+   "1": "Doe olijfolie en knoflook in een middelgrote kom.",
+   "2": "Snijd de komkommer dun, bestrooi met zout en laat minstens 15 minuten uitlekken.",
+   "3": "Meng yoghurt, komkommer, munt, citroensap, zout en peper door de knoflookolie. Te dun? Meer yoghurt.",
+   "4": "Maak de calamari schoon en snijd het lijf in ringen van 2,5 cm (kleine heel laten).",
+   "5": "Zet bloem met zout en peper klaar.",
+   "6": "Verhit de olie op hoog vuur.",
+   "7": "Paneer de calamari binnen en buiten.",
+   "8": "Frituur in kleine porties.",
+   "9": "Kleine ca. 1 minuut, grote een minuut langer.",
+   "10": "Laat uitlekken op keukenpapier en serveer direct met tzatziki."
   },
   "culturalNotes": "Calamari met tzatziki is een mediterraan gerecht, vooral geliefd in Griekenland en Cyprus."
-},
-"w-fr-003": {
+ },
+ "w-fr-003": {
   "title": "Calissons",
   "ingredients": {
-    "w-fr-003-i1": {"name": "Amandelen", "standardAmount": "200 g"},
-    "w-fr-003-i2": {"name": "Poedersuiker", "standardAmount": "200 g"},
-    "w-fr-003-i3": {"name": "Honing", "standardAmount": "100 g"},
-    "w-fr-003-i4": {"name": "Kaneel", "standardAmount": "½ tl"},
-    "w-fr-003-i5": {"name": "Kruidnagel", "standardAmount": "¼ tl"},
-    "w-fr-003-i6": {"name": "Rozijnen", "standardAmount": "50 g"},
-    "w-fr-003-i7": {"name": "Bloem", "standardAmount": "100 g"},
-    "w-fr-003-i8": {"name": "Ei", "standardAmount": "1"}
+   "w-fr-003-i1": {
+    "name": "Amandelen",
+    "standardAmount": "200 g"
+   },
+   "w-fr-003-i2": {
+    "name": "Poedersuiker",
+    "standardAmount": "200 g"
+   },
+   "w-fr-003-i3": {
+    "name": "Honing",
+    "standardAmount": "100 g"
+   },
+   "w-fr-003-i4": {
+    "name": "Kaneel",
+    "standardAmount": "½ tl"
+   },
+   "w-fr-003-i5": {
+    "name": "Kruidnagel",
+    "standardAmount": "¼ tl"
+   },
+   "w-fr-003-i6": {
+    "name": "Rozijnen",
+    "standardAmount": "50 g"
+   },
+   "w-fr-003-i7": {
+    "name": "Bloem",
+    "standardAmount": "100 g"
+   },
+   "w-fr-003-i8": {
+    "name": "Ei",
+    "standardAmount": "1"
+   }
   },
   "instructions": {
-    "1": "Meng amandelmeel en poedersuiker in een kom.",
-    "2": "Voeg honing, kaneel, kruidnagel en rozijnen toe en meng goed.",
-    "3": "Voeg de bloem geleidelijk toe tot een stevig deeg.",
-    "4": "Dek af en laat 30 minuten rusten.",
-    "5": "Vorm kleine bolletjes en leg op een met bakpapier beklede plaat.",
-    "6": "Bak 20 minuten op 180 °C tot goudbruin.",
-    "7": "Laat afkoelen en serveer."
+   "1": "Meng amandelmeel en poedersuiker in een kom.",
+   "2": "Voeg honing, kaneel, kruidnagel en rozijnen toe en meng goed.",
+   "3": "Voeg de bloem geleidelijk toe tot een stevig deeg.",
+   "4": "Dek af en laat 30 minuten rusten.",
+   "5": "Vorm kleine bolletjes en leg op een met bakpapier beklede plaat.",
+   "6": "Bak 20 minuten op 180 °C tot goudbruin.",
+   "7": "Laat afkoelen en serveer."
   },
   "culturalNotes": "Calissons zijn traditionele zoetigheden uit Zuid-Frankrijk met een fijn aroma en zoetheid."
-},
-"w-fr-004": {
+ },
+ "w-fr-004": {
   "title": "Knoflookconfit",
   "ingredients": {
-    "w-fr-004-i1": {"name": "Knoflook", "standardAmount": "2 bollen"},
-    "w-fr-004-i2": {"name": "Tijm", "standardAmount": "2 takjes"},
-    "w-fr-004-i3": {"name": "Olijfolie", "standardAmount": "250 ml"},
-    "w-fr-004-i4": {"name": "Zout", "standardAmount": "1 ruime snuf"}
+   "w-fr-004-i1": {
+    "name": "Knoflook",
+    "standardAmount": "2 bollen"
+   },
+   "w-fr-004-i2": {
+    "name": "Tijm",
+    "standardAmount": "2 takjes"
+   },
+   "w-fr-004-i3": {
+    "name": "Olijfolie",
+    "standardAmount": "250 ml"
+   },
+   "w-fr-004-i4": {
+    "name": "Zout",
+    "standardAmount": "1 ruime snuf"
+   }
   },
   "instructions": {
-    "1": "Verwarm de oven voor op 150 °C (hetelucht 130 °C).",
-    "2": "Doe de knoflook in een kleine ovenschaal (ca. 13 cm) met tijm en zout.",
-    "3": "Bedek volledig met olijfolie.",
-    "4": "Gaar 1 uur 20 minuten tot de olie zachtjes borrelt en de knoflook diep goudbruin is; hij moet pletten maar zijn vorm behouden.",
-    "5": "Laat in de olie afkoelen. In een gesteriliseerd potje in de koelkast 2 weken houdbaar."
+   "1": "Verwarm de oven voor op 150 °C (hetelucht 130 °C).",
+   "2": "Doe de knoflook in een kleine ovenschaal (ca. 13 cm) met tijm en zout.",
+   "3": "Bedek volledig met olijfolie.",
+   "4": "Gaar 1 uur 20 minuten tot de olie zachtjes borrelt en de knoflook diep goudbruin is; hij moet pletten maar zijn vorm behouden.",
+   "5": "Laat in de olie afkoelen. In een gesteriliseerd potje in de koelkast 2 weken houdbaar."
   },
   "culturalNotes": "Knoflookconfit is een klassieker uit de Franse keuken voor voorgerechten en om gerechten op smaak te brengen."
-},
-"w-fr-005": {
+ },
+ "w-fr-005": {
   "title": "Confit de canard (geconfijte eend)",
   "ingredients": {
-    "w-fr-005-i1": {"name": "Eendenbouten", "standardAmount": "4 (à 250 g)"},
-    "w-fr-005-i2": {"name": "Eendenvet", "standardAmount": "750 ml"},
-    "w-fr-005-i3": {"name": "Zout", "standardAmount": "4 tl"},
-    "w-fr-005-i4": {"name": "Tijm", "standardAmount": "⅓ kopje"},
-    "w-fr-005-i5": {"name": "Salie", "standardAmount": "⅓ kopje"},
-    "w-fr-005-i6": {"name": "Rozemarijn", "standardAmount": "⅓ kopje"},
-    "w-fr-005-i7": {"name": "Oregano", "standardAmount": "⅓ kopje"},
-    "w-fr-005-i8": {"name": "Knoflook", "standardAmount": "6 teentjes (met schil aangedrukt)"},
-    "w-fr-005-i9": {"name": "Sjalot", "standardAmount": "1 (in fijne plakjes)"},
-    "w-fr-005-i10": {"name": "Zwarte peperkorrels", "standardAmount": "1 el"},
-    "w-fr-005-i11": {"name": "Korianderzaad", "standardAmount": "1 el"},
-    "w-fr-005-i12": {"name": "Steranijs", "standardAmount": "8"},
-    "w-fr-005-i13": {"name": "Laurierbladeren", "standardAmount": "2"},
-    "w-fr-005-i14": {"name": "Jeneverbessen", "standardAmount": "2 el"},
-    "w-fr-005-i15": {"name": "Kruidnagels", "standardAmount": "8"}
+   "w-fr-005-i1": {
+    "name": "Eendenbouten",
+    "standardAmount": "4 (à 250 g)"
+   },
+   "w-fr-005-i2": {
+    "name": "Eendenvet",
+    "standardAmount": "750 ml"
+   },
+   "w-fr-005-i3": {
+    "name": "Zout",
+    "standardAmount": "4 tl"
+   },
+   "w-fr-005-i4": {
+    "name": "Tijm",
+    "standardAmount": "⅓ kopje"
+   },
+   "w-fr-005-i5": {
+    "name": "Salie",
+    "standardAmount": "⅓ kopje"
+   },
+   "w-fr-005-i6": {
+    "name": "Rozemarijn",
+    "standardAmount": "⅓ kopje"
+   },
+   "w-fr-005-i7": {
+    "name": "Oregano",
+    "standardAmount": "⅓ kopje"
+   },
+   "w-fr-005-i8": {
+    "name": "Knoflook",
+    "standardAmount": "6 teentjes (met schil aangedrukt)"
+   },
+   "w-fr-005-i9": {
+    "name": "Sjalot",
+    "standardAmount": "1 (in fijne plakjes)"
+   },
+   "w-fr-005-i10": {
+    "name": "Zwarte peperkorrels",
+    "standardAmount": "1 el"
+   },
+   "w-fr-005-i11": {
+    "name": "Korianderzaad",
+    "standardAmount": "1 el"
+   },
+   "w-fr-005-i12": {
+    "name": "Steranijs",
+    "standardAmount": "8"
+   },
+   "w-fr-005-i13": {
+    "name": "Laurierbladeren",
+    "standardAmount": "2"
+   },
+   "w-fr-005-i14": {
+    "name": "Jeneverbessen",
+    "standardAmount": "2 el"
+   },
+   "w-fr-005-i15": {
+    "name": "Kruidnagels",
+    "standardAmount": "8"
+   }
   },
   "instructions": {
-    "1": "Meng zout en kruiden in een kom en wrijf de bouten ermee in.",
-    "2": "Leg in een diepe schaal, bedek met de kruiden en koel afgedekt 24 uur.",
-    "3": "Spoel na 24 uur koud af en dep droog.",
-    "4": "Leg in een braadslee, bedek met vet en kruiden en dek af met folie.",
-    "5": "Gaar 2-3 uur op 100 °C tot het vlees zacht is.",
-    "6": "Haal eruit, laat iets afkoelen en zuiver het vet in een afsluitbaar vat.",
-    "7": "Leg de eend in een diepe schaal en bedek met het gezuiverde vet. In de koelkast 6 maanden houdbaar.",
-    "8": "Bak voor het serveren 10-15 minuten op 200 °C tot de huid krokant is."
+   "1": "Meng zout en kruiden in een kom en wrijf de bouten ermee in.",
+   "2": "Leg in een diepe schaal, bedek met de kruiden en koel afgedekt 24 uur.",
+   "3": "Spoel na 24 uur koud af en dep droog.",
+   "4": "Leg in een braadslee, bedek met vet en kruiden en dek af met folie.",
+   "5": "Gaar 2-3 uur op 100 °C tot het vlees zacht is.",
+   "6": "Haal eruit, laat iets afkoelen en zuiver het vet in een afsluitbaar vat.",
+   "7": "Leg de eend in een diepe schaal en bedek met het gezuiverde vet. In de koelkast 6 maanden houdbaar.",
+   "8": "Bak voor het serveren 10-15 minuten op 200 °C tot de huid krokant is."
   },
   "culturalNotes": "Confit de canard is een Frans klassiek gerecht waarbij de bouten langzaam in vet garen; geserveerd met puree of ovengroenten."
-},
-"w-fr-006": {
+ },
+ "w-fr-006": {
   "title": "Flamiche (preitaart)",
   "ingredients": {
-    "w-fr-006-i1": {"name": "Bloem", "standardAmount": "350 g"},
-    "w-fr-006-i2": {"name": "Boter", "standardAmount": "175 g (kamertemperatuur)"},
-    "w-fr-006-i3": {"name": "Zout", "standardAmount": "1 snufje"},
-    "w-fr-006-i4": {"name": "Melk", "standardAmount": "7 el"},
-    "w-fr-006-i5": {"name": "Kerriepoeder", "standardAmount": "½ tl"},
-    "w-fr-006-i6": {"name": "Prei", "standardAmount": "900 g (fijngehakt)"},
-    "w-fr-006-i7": {"name": "Boter", "standardAmount": "40 g"},
-    "w-fr-006-i8": {"name": "Eidooiers", "standardAmount": "4 (3 voor de vulling + 1 om te bestrijken)"},
-    "w-fr-006-i9": {"name": "Crème fraîche", "standardAmount": "200 g"},
-    "w-fr-006-i10": {"name": "Nootmuskaat", "standardAmount": "¼ tl"},
-    "w-fr-006-i11": {"name": "Zout en zwarte peper", "standardAmount": "1 snufje"}
+   "w-fr-006-i1": {
+    "name": "Bloem",
+    "standardAmount": "350 g"
+   },
+   "w-fr-006-i2": {
+    "name": "Boter",
+    "standardAmount": "175 g (kamertemperatuur)"
+   },
+   "w-fr-006-i3": {
+    "name": "Zout",
+    "standardAmount": "1 snufje"
+   },
+   "w-fr-006-i4": {
+    "name": "Melk",
+    "standardAmount": "7 el"
+   },
+   "w-fr-006-i5": {
+    "name": "Kerriepoeder",
+    "standardAmount": "½ tl"
+   },
+   "w-fr-006-i6": {
+    "name": "Prei",
+    "standardAmount": "900 g (fijngehakt)"
+   },
+   "w-fr-006-i7": {
+    "name": "Boter",
+    "standardAmount": "40 g"
+   },
+   "w-fr-006-i8": {
+    "name": "Eidooiers",
+    "standardAmount": "4 (3 voor de vulling + 1 om te bestrijken)"
+   },
+   "w-fr-006-i9": {
+    "name": "Crème fraîche",
+    "standardAmount": "200 g"
+   },
+   "w-fr-006-i10": {
+    "name": "Nootmuskaat",
+    "standardAmount": "¼ tl"
+   },
+   "w-fr-006-i11": {
+    "name": "Zout en zwarte peper",
+    "standardAmount": "1 snufje"
+   }
   },
   "instructions": {
-    "1": "Wrijf bloem, boter en zout in een grote kom tot een kruimelige massa.",
-    "2": "Voeg de melk geleidelijk toe tot een deeg.",
-    "3": "Dek af en koel 30 minuten.",
-    "4": "Smelt de boter in een grote pan en bak de prei zacht en goudgeel.",
-    "5": "Voeg het kerriepoeder toe en roer 1 minuut.",
-    "6": "Meng in een andere kom eidooiers, crème fraîche, nootmuskaat, zout en peper.",
-    "7": "Roer de gebakken prei door het eimengsel.",
-    "8": "Bekleed de taartvorm met deeg en giet de vulling erin.",
-    "9": "Leg het bovenste deeg erop en sluit de randen.",
-    "10": "Bestrijk met de resterende dooier.",
-    "11": "Bak 45 minuten op 180 °C tot goudbruin.",
-    "12": "Laat 10 minuten rusten en serveer."
+   "1": "Wrijf bloem, boter en zout in een grote kom tot een kruimelige massa.",
+   "2": "Voeg de melk geleidelijk toe tot een deeg.",
+   "3": "Dek af en koel 30 minuten.",
+   "4": "Smelt de boter in een grote pan en bak de prei zacht en goudgeel.",
+   "5": "Voeg het kerriepoeder toe en roer 1 minuut.",
+   "6": "Meng in een andere kom eidooiers, crème fraîche, nootmuskaat, zout en peper.",
+   "7": "Roer de gebakken prei door het eimengsel.",
+   "8": "Bekleed de taartvorm met deeg en giet de vulling erin.",
+   "9": "Leg het bovenste deeg erop en sluit de randen.",
+   "10": "Bestrijk met de resterende dooier.",
+   "11": "Bak 45 minuten op 180 °C tot goudbruin.",
+   "12": "Laat 10 minuten rusten en serveer."
   },
   "culturalNotes": "Flamiche is de traditionele preitaart uit Noord-Frankrijk."
-},
-"w-fr-007": {
+ },
+ "w-fr-007": {
   "title": "Fondant-aardappelen",
   "ingredients": {
-    "w-fr-007-i1": {"name": "Grote kruimige aardappelen", "standardAmount": "4 (à 400 g)"},
-    "w-fr-007-i2": {"name": "Zout", "standardAmount": "¾ tl"},
-    "w-fr-007-i3": {"name": "Zwarte peper", "standardAmount": "½ tl"},
-    "w-fr-007-i4": {"name": "Extra vierge olijfolie", "standardAmount": "2 el"},
-    "w-fr-007-i5": {"name": "Ongezouten boter", "standardAmount": "3 el (50 g)"},
-    "w-fr-007-i6": {"name": "Tijm", "standardAmount": "6 takjes"},
-    "w-fr-007-i7": {"name": "Kip- of groentebouillon", "standardAmount": "240 ml (zoutarm)"}
+   "w-fr-007-i1": {
+    "name": "Grote kruimige aardappelen",
+    "standardAmount": "4 (à 400 g)"
+   },
+   "w-fr-007-i2": {
+    "name": "Zout",
+    "standardAmount": "¾ tl"
+   },
+   "w-fr-007-i3": {
+    "name": "Zwarte peper",
+    "standardAmount": "½ tl"
+   },
+   "w-fr-007-i4": {
+    "name": "Extra vierge olijfolie",
+    "standardAmount": "2 el"
+   },
+   "w-fr-007-i5": {
+    "name": "Ongezouten boter",
+    "standardAmount": "3 el (50 g)"
+   },
+   "w-fr-007-i6": {
+    "name": "Tijm",
+    "standardAmount": "6 takjes"
+   },
+   "w-fr-007-i7": {
+    "name": "Kip- of groentebouillon",
+    "standardAmount": "240 ml (zoutarm)"
+   }
   },
   "instructions": {
-    "1": "Verwarm de oven voor op 200 °C (hetelucht 180 °C).",
-    "2": "Snijd de aardappelen in cilinders van ca. 6 cm doorsnede en 7 cm hoog, halveer tot 8 cilinders van 3,5 cm.",
-    "3": "Dep droog en wrijf in met de helft van de olie, zout en peper.",
-    "4": "Verhit de rest van de olie in een ovenbestendige pan op middelhoog vuur en bak elke kant 6-8 minuten goudbruin.",
-    "5": "Voeg boter en tijm toe; als het gesmolten is, over de aardappelen lepelen. Giet de bouillon erbij, breng aan de kook en gaar 30 minuten in de oven, na 15 minuten opnieuw begieten.",
-    "6": "Nogmaals begieten en serveren. Restaurantstijl met biefstuk, bearnaisesaus en boterbonen."
+   "1": "Verwarm de oven voor op 200 °C (hetelucht 180 °C).",
+   "2": "Snijd de aardappelen in cilinders van ca. 6 cm doorsnede en 7 cm hoog, halveer tot 8 cilinders van 3,5 cm.",
+   "3": "Dep droog en wrijf in met de helft van de olie, zout en peper.",
+   "4": "Verhit de rest van de olie in een ovenbestendige pan op middelhoog vuur en bak elke kant 6-8 minuten goudbruin.",
+   "5": "Voeg boter en tijm toe; als het gesmolten is, over de aardappelen lepelen. Giet de bouillon erbij, breng aan de kook en gaar 30 minuten in de oven, na 15 minuten opnieuw begieten.",
+   "6": "Nogmaals begieten en serveren. Restaurantstijl met biefstuk, bearnaisesaus en boterbonen."
   },
   "culturalNotes": "Fondant-aardappelen zijn een Frans ovenschotel: goudbruin van buiten, romig van binnen."
-},
-"w-fr-008": {
+ },
+ "w-fr-008": {
   "title": "Chocoladecrêpes",
   "ingredients": {
-    "w-fr-008-i1": {"name": "Ongezouten boter", "standardAmount": "25 g"},
-    "w-fr-008-i2": {"name": "Bloem", "standardAmount": "150 g"},
-    "w-fr-008-i3": {"name": "Eieren", "standardAmount": "2 grote"},
-    "w-fr-008-i4": {"name": "Volle melk", "standardAmount": "275 ml"},
-    "w-fr-008-i5": {"name": "Zout", "standardAmount": "1 snufje"},
-    "w-fr-008-i6": {"name": "Vanillepoeder", "standardAmount": "¼ tl (optioneel)"},
-    "w-fr-008-i7": {"name": "Poedersuiker", "standardAmount": "1 el"},
-    "w-fr-008-i8": {"name": "Ongezoete cacao", "standardAmount": "1 el"}
+   "w-fr-008-i1": {
+    "name": "Ongezouten boter",
+    "standardAmount": "25 g"
+   },
+   "w-fr-008-i2": {
+    "name": "Bloem",
+    "standardAmount": "150 g"
+   },
+   "w-fr-008-i3": {
+    "name": "Eieren",
+    "standardAmount": "2 grote"
+   },
+   "w-fr-008-i4": {
+    "name": "Volle melk",
+    "standardAmount": "275 ml"
+   },
+   "w-fr-008-i5": {
+    "name": "Zout",
+    "standardAmount": "1 snufje"
+   },
+   "w-fr-008-i6": {
+    "name": "Vanillepoeder",
+    "standardAmount": "¼ tl (optioneel)"
+   },
+   "w-fr-008-i7": {
+    "name": "Poedersuiker",
+    "standardAmount": "1 el"
+   },
+   "w-fr-008-i8": {
+    "name": "Ongezoete cacao",
+    "standardAmount": "1 el"
+   }
   },
   "instructions": {
-    "1": "Smelt de boter in de crêpepan (laat licht aanbraden voor een nootaroma).",
-    "2": "Meng bloem, poedersuiker, cacao, zout en vanille in een grote kom; breek de eieren in het midden en klop met de gesmolten boter glad.",
-    "3": "Voeg een kwart van de melk toe, daarna de rest geleidelijk. Het beslag is dun; dat hoort zo.",
-    "4": "Veeg overtollige boter uit, verhit op middelhoog vuur en giet een lepel beslag erin; laat dun uitlopen.",
-    "5": "Bak 2-3 minuten tot er belletjes komen, keer en bak nog enkele minuten.",
-    "6": "Zet het vuur iets lager, veeg de pan uit en herhaal voor 6-8 crêpes."
+   "1": "Smelt de boter in de crêpepan (laat licht aanbraden voor een nootaroma).",
+   "2": "Meng bloem, poedersuiker, cacao, zout en vanille in een grote kom; breek de eieren in het midden en klop met de gesmolten boter glad.",
+   "3": "Voeg een kwart van de melk toe, daarna de rest geleidelijk. Het beslag is dun; dat hoort zo.",
+   "4": "Veeg overtollige boter uit, verhit op middelhoog vuur en giet een lepel beslag erin; laat dun uitlopen.",
+   "5": "Bak 2-3 minuten tot er belletjes komen, keer en bak nog enkele minuten.",
+   "6": "Zet het vuur iets lager, veeg de pan uit en herhaal voor 6-8 crêpes."
   },
   "culturalNotes": "Crêpes zijn een geliefd Frans ontbijt, geserveerd met chocolade, honing of aardbeien."
-},
-"w-fr-009": {
+ },
+ "w-fr-009": {
   "title": "Chocoladetruffels met ganache",
   "ingredients": {
-    "w-fr-009-i1": {"name": "Pure chocolade", "standardAmount": "285 g"},
-    "w-fr-009-i2": {"name": "Ongezouten boter", "standardAmount": "30 g"},
-    "w-fr-009-i3": {"name": "Slagroom", "standardAmount": "125 ml"},
-    "w-fr-009-i4": {"name": "Kokosrasp", "standardAmount": "125 g"},
-    "w-fr-009-i5": {"name": "Ongezoete cacao", "standardAmount": "60 g"},
-    "w-fr-009-i6": {"name": "Gemalen pinda's", "standardAmount": "125 g"},
-    "w-fr-009-i7": {"name": "Gekleurde hagelslag", "standardAmount": "85 g"},
-    "w-fr-009-i8": {"name": "Poedersuiker", "standardAmount": "60 g"}
+   "w-fr-009-i1": {
+    "name": "Pure chocolade",
+    "standardAmount": "285 g"
+   },
+   "w-fr-009-i2": {
+    "name": "Ongezouten boter",
+    "standardAmount": "30 g"
+   },
+   "w-fr-009-i3": {
+    "name": "Slagroom",
+    "standardAmount": "125 ml"
+   },
+   "w-fr-009-i4": {
+    "name": "Kokosrasp",
+    "standardAmount": "125 g"
+   },
+   "w-fr-009-i5": {
+    "name": "Ongezoete cacao",
+    "standardAmount": "60 g"
+   },
+   "w-fr-009-i6": {
+    "name": "Gemalen pinda's",
+    "standardAmount": "125 g"
+   },
+   "w-fr-009-i7": {
+    "name": "Gekleurde hagelslag",
+    "standardAmount": "85 g"
+   },
+   "w-fr-009-i8": {
+    "name": "Poedersuiker",
+    "standardAmount": "60 g"
+   }
   },
   "instructions": {
-    "1": "Doe chocolade, room en boter in een hittebestendige kom en verwarm 4 keer 30 seconden in de magnetron, telkens roeren.",
-    "2": "Dek de kom af, laat 5 minuten staan en roer glad; de ganache is klaar.",
-    "3": "Laat 6 uur in de koelkast opstijven. Niet invriezen.",
-    "4": "Koel ook het bord voor de truffels.",
-    "5": "Vorm na 6 uur kleine bolletjes met een theelepel.",
-    "6": "Rol door kokos, cacao, pinda, hagelslag of poedersuiker.",
-    "7": "Leg op het koude bord en laat volledig opstijven."
+   "1": "Doe chocolade, room en boter in een hittebestendige kom en verwarm 4 keer 30 seconden in de magnetron, telkens roeren.",
+   "2": "Dek de kom af, laat 5 minuten staan en roer glad; de ganache is klaar.",
+   "3": "Laat 6 uur in de koelkast opstijven. Niet invriezen.",
+   "4": "Koel ook het bord voor de truffels.",
+   "5": "Vorm na 6 uur kleine bolletjes met een theelepel.",
+   "6": "Rol door kokos, cacao, pinda, hagelslag of poedersuiker.",
+   "7": "Leg op het koude bord en laat volledig opstijven."
   },
   "culturalNotes": "Ganache is het fluwelige mengsel van chocolade en room, het hart van veel Franse zoetigheden."
-},
-"w-fr-010": {
+ },
+ "w-fr-010": {
   "title": "Gratin dauphinois",
   "ingredients": {
-    "w-fr-010-i1": {"name": "Aardappelen", "standardAmount": "750 g"},
-    "w-fr-010-i2": {"name": "Knoflook", "standardAmount": "2-3 teentjes (fijngehakt)"},
-    "w-fr-010-i3": {"name": "Volle melk", "standardAmount": "275 ml"},
-    "w-fr-010-i4": {"name": "Dikke room", "standardAmount": "150 ml"},
-    "w-fr-010-i5": {"name": "Nootmuskaat", "standardAmount": "¼ tl"},
-    "w-fr-010-i6": {"name": "Zout en zwarte peper", "standardAmount": "naar smaak"},
-    "w-fr-010-i7": {"name": "Verse tijm", "standardAmount": "½ tl"},
-    "w-fr-010-i8": {"name": "Boter", "standardAmount": "een beetje (voor de vorm)"},
-    "w-fr-010-i9": {"name": "Emmentaler of Gruyère", "standardAmount": "100 g (optioneel)"}
+   "w-fr-010-i1": {
+    "name": "Aardappelen",
+    "standardAmount": "750 g"
+   },
+   "w-fr-010-i2": {
+    "name": "Knoflook",
+    "standardAmount": "2-3 teentjes (fijngehakt)"
+   },
+   "w-fr-010-i3": {
+    "name": "Volle melk",
+    "standardAmount": "275 ml"
+   },
+   "w-fr-010-i4": {
+    "name": "Dikke room",
+    "standardAmount": "150 ml"
+   },
+   "w-fr-010-i5": {
+    "name": "Nootmuskaat",
+    "standardAmount": "¼ tl"
+   },
+   "w-fr-010-i6": {
+    "name": "Zout en zwarte peper",
+    "standardAmount": "naar smaak"
+   },
+   "w-fr-010-i7": {
+    "name": "Verse tijm",
+    "standardAmount": "½ tl"
+   },
+   "w-fr-010-i8": {
+    "name": "Boter",
+    "standardAmount": "een beetje (voor de vorm)"
+   },
+   "w-fr-010-i9": {
+    "name": "Emmentaler of Gruyère",
+    "standardAmount": "100 g (optioneel)"
+   }
   },
   "instructions": {
-    "1": "Schil de aardappelen (of laat de schil) en snijd in plakjes van 3 mm.",
-    "2": "Verwarm de oven voor op 190 °C (hetelucht 170 °C).",
-    "3": "Breng melk, room en knoflook aan de kook, zet laag en voeg nootmuskaat, zout, peper en aardappelen toe.",
-    "4": "Kook ca. 5 minuten en keer de plakjes om. De kaas kan hier worden toegevoegd.",
-    "5": "Vet de vorm in en schik de aardappelen er gelijkmatig in.",
-    "6": "Bak ca. 45 minuten tot goudbruin."
+   "1": "Schil de aardappelen (of laat de schil) en snijd in plakjes van 3 mm.",
+   "2": "Verwarm de oven voor op 190 °C (hetelucht 170 °C).",
+   "3": "Breng melk, room en knoflook aan de kook, zet laag en voeg nootmuskaat, zout, peper en aardappelen toe.",
+   "4": "Kook ca. 5 minuten en keer de plakjes om. De kaas kan hier worden toegevoegd.",
+   "5": "Vet de vorm in en schik de aardappelen er gelijkmatig in.",
+   "6": "Bak ca. 45 minuten tot goudbruin."
   },
   "culturalNotes": "Traditioneel gerecht uit de Dauphiné: dunne aardappelschijfjes met melk en room en nootmuskaat gegratineerd."
-},
-"w-fr-011": {
+ },
+ "w-fr-011": {
   "title": "Pain d'épices (kruidkoek)",
   "ingredients": {
-    "w-fr-011-i1": {"name": "Water", "standardAmount": "250 ml"},
-    "w-fr-011-i2": {"name": "Honing", "standardAmount": "255 g"},
-    "w-fr-011-i3": {"name": "Kardemompeulen", "standardAmount": "4"},
-    "w-fr-011-i4": {"name": "Kruidnagels", "standardAmount": "2"},
-    "w-fr-011-i5": {"name": "Steranijs", "standardAmount": "2"},
-    "w-fr-011-i6": {"name": "Ruwe rietsuiker", "standardAmount": "100 g"},
-    "w-fr-011-i7": {"name": "Ongezouten boter", "standardAmount": "155 g"},
-    "w-fr-011-i8": {"name": "Roggemeel", "standardAmount": "255 g"},
-    "w-fr-011-i9": {"name": "Bakpoeder", "standardAmount": "2 tl"},
-    "w-fr-011-i10": {"name": "Zout", "standardAmount": "1 ruime snuf"},
-    "w-fr-011-i11": {"name": "Speculaaskruiden", "standardAmount": "1½ tl"},
-    "w-fr-011-i12": {"name": "Gedroogd fruit", "standardAmount": "1 el"}
+   "w-fr-011-i1": {
+    "name": "Water",
+    "standardAmount": "250 ml"
+   },
+   "w-fr-011-i2": {
+    "name": "Honing",
+    "standardAmount": "255 g"
+   },
+   "w-fr-011-i3": {
+    "name": "Kardemompeulen",
+    "standardAmount": "4"
+   },
+   "w-fr-011-i4": {
+    "name": "Kruidnagels",
+    "standardAmount": "2"
+   },
+   "w-fr-011-i5": {
+    "name": "Steranijs",
+    "standardAmount": "2"
+   },
+   "w-fr-011-i6": {
+    "name": "Ruwe rietsuiker",
+    "standardAmount": "100 g"
+   },
+   "w-fr-011-i7": {
+    "name": "Ongezouten boter",
+    "standardAmount": "155 g"
+   },
+   "w-fr-011-i8": {
+    "name": "Roggemeel",
+    "standardAmount": "255 g"
+   },
+   "w-fr-011-i9": {
+    "name": "Bakpoeder",
+    "standardAmount": "2 tl"
+   },
+   "w-fr-011-i10": {
+    "name": "Zout",
+    "standardAmount": "1 ruime snuf"
+   },
+   "w-fr-011-i11": {
+    "name": "Speculaaskruiden",
+    "standardAmount": "1½ tl"
+   },
+   "w-fr-011-i12": {
+    "name": "Gedroogd fruit",
+    "standardAmount": "1 el"
+   }
   },
   "instructions": {
-    "1": "Vet een cakevorm in en verwarm de oven voor op 180 °C (hetelucht 160 °C).",
-    "2": "Breng water, honing, suiker en specerijen in een pan aan de kook, smelt de boter erin, zet het vuur uit en laat 5 minuten trekken.",
-    "3": "Meng roggemeel, bakpoeder, zout en kruidenpoeder in een kom en roer het warme honingmengsel er geleidelijk glad door.",
-    "4": "Giet de vorm voor driekwart vol en bak 40-50 minuten tot diep goudbruin; een prikker moet schoon uitkomen.",
-    "5": "Laat 10 minuten in de vorm afkoelen en stort op een rooster. Versier met gedroogd fruit en steranijs."
+   "1": "Vet een cakevorm in en verwarm de oven voor op 180 °C (hetelucht 160 °C).",
+   "2": "Breng water, honing, suiker en specerijen in een pan aan de kook, smelt de boter erin, zet het vuur uit en laat 5 minuten trekken.",
+   "3": "Meng roggemeel, bakpoeder, zout en kruidenpoeder in een kom en roer het warme honingmengsel er geleidelijk glad door.",
+   "4": "Giet de vorm voor driekwart vol en bak 40-50 minuten tot diep goudbruin; een prikker moet schoon uitkomen.",
+   "5": "Laat 10 minuten in de vorm afkoelen en stort op een rooster. Versier met gedroogd fruit en steranijs."
   },
   "culturalNotes": "Pain d'épices is de traditionele Franse kruidkoek met een warm, gekruid aroma."
-},
-"w-fr-012": {
+ },
+ "w-fr-012": {
   "title": "Pissaladière",
   "ingredients": {
-    "w-fr-012-i1": {"name": "Olijfolie", "standardAmount": "4 el + wat voor de vorm"},
-    "w-fr-012-i2": {"name": "Uien", "standardAmount": "1 kg (in zeer dunne plakjes)"},
-    "w-fr-012-i3": {"name": "Tijm", "standardAmount": "1 klein bosje"},
-    "w-fr-012-i4": {"name": "Laurierbladeren", "standardAmount": "2"},
-    "w-fr-012-i5": {"name": "Ansjovisfilets", "standardAmount": "80 g (uitgelekt)"},
-    "w-fr-012-i6": {"name": "Zwarte olijven", "standardAmount": "80 g (ontpit)"},
-    "w-fr-012-i7": {"name": "Parmezaan", "standardAmount": "20 g (geraspt)"},
-    "w-fr-012-i8": {"name": "Koude ongezouten boter", "standardAmount": "200 g"},
-    "w-fr-012-i9": {"name": "Citroensap", "standardAmount": "1 tl"},
-    "w-fr-012-i10": {"name": "Sterke bloem", "standardAmount": "200 g + voor het werkblad"},
-    "w-fr-012-i11": {"name": "Zout", "standardAmount": "1 tl"},
-    "w-fr-012-i12": {"name": "IJswater", "standardAmount": "125 ml"}
+   "w-fr-012-i1": {
+    "name": "Olijfolie",
+    "standardAmount": "4 el + wat voor de vorm"
+   },
+   "w-fr-012-i2": {
+    "name": "Uien",
+    "standardAmount": "1 kg (in zeer dunne plakjes)"
+   },
+   "w-fr-012-i3": {
+    "name": "Tijm",
+    "standardAmount": "1 klein bosje"
+   },
+   "w-fr-012-i4": {
+    "name": "Laurierbladeren",
+    "standardAmount": "2"
+   },
+   "w-fr-012-i5": {
+    "name": "Ansjovisfilets",
+    "standardAmount": "80 g (uitgelekt)"
+   },
+   "w-fr-012-i6": {
+    "name": "Zwarte olijven",
+    "standardAmount": "80 g (ontpit)"
+   },
+   "w-fr-012-i7": {
+    "name": "Parmezaan",
+    "standardAmount": "20 g (geraspt)"
+   },
+   "w-fr-012-i8": {
+    "name": "Koude ongezouten boter",
+    "standardAmount": "200 g"
+   },
+   "w-fr-012-i9": {
+    "name": "Citroensap",
+    "standardAmount": "1 tl"
+   },
+   "w-fr-012-i10": {
+    "name": "Sterke bloem",
+    "standardAmount": "200 g + voor het werkblad"
+   },
+   "w-fr-012-i11": {
+    "name": "Zout",
+    "standardAmount": "1 tl"
+   },
+   "w-fr-012-i12": {
+    "name": "IJswater",
+    "standardAmount": "125 ml"
+   }
   },
   "instructions": {
-    "1": "Deeg: rasp de boter grof, strooi bloem erover in een kom en vries 30 minuten in (of 1 uur koelen).",
-    "2": "Roer het citroensap door 125 ml ijlswater. Doe de rest van de bloem en het zout in een grote kom, strooi de bevroren boter erdoor en meng met de vingertoppen.",
-    "3": "Giet twee derde van het citroenwater erbij en breng met een mes samen. Voeg bij te droog wat water toe. Het deeg is kruimelig maar laat zich samendrukken.",
-    "4": "Kant op een bebloemd oppervlak, kneed licht tot een grof rechthoek, pak in en koel 20 minuten.",
-    "5": "Rol uit tot een rechthoek van 20×30 cm; boterstrepen blijven zichtbaar.",
-    "6": "Verhit olie in een grote pan op middelhoog vuur, voeg uien met zout, tijm en laurier toe en smoor 40-45 minuten al roerend tot een diep goudbruine, jamachtige massa. Laat afkoelen.",
-    "7": "Olie de bakplaat licht in, rol het deeg uit tot 25×35 cm, leg erin, vorm een rand en koel 20 minuten.",
-    "8": "Verhit de oven op 220 °C (hetelucht 200 °C). Verdeel de uien, leg ansjovis in ruitpatroon en olijven in het midden. Bestrooi met parmezaan en bak 30 minuten.",
-    "9": "Bestrooi met tijm, laat 10 minuten rusten en snijd in vierkanten."
+   "1": "Deeg: rasp de boter grof, strooi bloem erover in een kom en vries 30 minuten in (of 1 uur koelen).",
+   "2": "Roer het citroensap door 125 ml ijlswater. Doe de rest van de bloem en het zout in een grote kom, strooi de bevroren boter erdoor en meng met de vingertoppen.",
+   "3": "Giet twee derde van het citroenwater erbij en breng met een mes samen. Voeg bij te droog wat water toe. Het deeg is kruimelig maar laat zich samendrukken.",
+   "4": "Kant op een bebloemd oppervlak, kneed licht tot een grof rechthoek, pak in en koel 20 minuten.",
+   "5": "Rol uit tot een rechthoek van 20×30 cm; boterstrepen blijven zichtbaar.",
+   "6": "Verhit olie in een grote pan op middelhoog vuur, voeg uien met zout, tijm en laurier toe en smoor 40-45 minuten al roerend tot een diep goudbruine, jamachtige massa. Laat afkoelen.",
+   "7": "Olie de bakplaat licht in, rol het deeg uit tot 25×35 cm, leg erin, vorm een rand en koel 20 minuten.",
+   "8": "Verhit de oven op 220 °C (hetelucht 200 °C). Verdeel de uien, leg ansjovis in ruitpatroon en olijven in het midden. Bestrooi met parmezaan en bak 30 minuten.",
+   "9": "Bestrooi met tijm, laat 10 minuten rusten en snijd in vierkanten."
   },
   "culturalNotes": "Pissaladière is de specialiteit uit de Provence: dun deeg met gesmoorde uien, ansjovis en zwarte olijven."
-},
-"w-fr-013": {
+ },
+ "w-fr-013": {
   "title": "Ratatouille",
   "ingredients": {
-    "w-fr-013-i1": {"name": "Olijfolie", "standardAmount": "⅓-¼ kopje"},
-    "w-fr-013-i2": {"name": "Ui", "standardAmount": "1 grote (in fijne plakjes)"},
-    "w-fr-013-i3": {"name": "Rode paprika", "standardAmount": "1 (in hapklare stukken)"},
-    "w-fr-013-i4": {"name": "Gele paprika", "standardAmount": "1 (in hapklare stukken)"},
-    "w-fr-013-i5": {"name": "Knoflook", "standardAmount": "6 teentjes (in fijne plakjes)"},
-    "w-fr-013-i6": {"name": "Courgette", "standardAmount": "680 g (in plakjes)"},
-    "w-fr-013-i7": {"name": "Aubergine", "standardAmount": "1 kleine (in blokjes)"},
-    "w-fr-013-i8": {"name": "Roma-tomaten", "standardAmount": "4 (grof gesneden)"},
-    "w-fr-013-i9": {"name": "Verse rozemarijn", "standardAmount": "¼ tl (fijngehakt)"},
-    "w-fr-013-i10": {"name": "Verse tijm", "standardAmount": "1 tl (fijngehakt)"},
-    "w-fr-013-i11": {"name": "Zout", "standardAmount": "naar smaak"},
-    "w-fr-013-i12": {"name": "Peper", "standardAmount": "naar smaak"}
+   "w-fr-013-i1": {
+    "name": "Olijfolie",
+    "standardAmount": "⅓-¼ kopje"
+   },
+   "w-fr-013-i2": {
+    "name": "Ui",
+    "standardAmount": "1 grote (in fijne plakjes)"
+   },
+   "w-fr-013-i3": {
+    "name": "Rode paprika",
+    "standardAmount": "1 (in hapklare stukken)"
+   },
+   "w-fr-013-i4": {
+    "name": "Gele paprika",
+    "standardAmount": "1 (in hapklare stukken)"
+   },
+   "w-fr-013-i5": {
+    "name": "Knoflook",
+    "standardAmount": "6 teentjes (in fijne plakjes)"
+   },
+   "w-fr-013-i6": {
+    "name": "Courgette",
+    "standardAmount": "680 g (in plakjes)"
+   },
+   "w-fr-013-i7": {
+    "name": "Aubergine",
+    "standardAmount": "1 kleine (in blokjes)"
+   },
+   "w-fr-013-i8": {
+    "name": "Roma-tomaten",
+    "standardAmount": "4 (grof gesneden)"
+   },
+   "w-fr-013-i9": {
+    "name": "Verse rozemarijn",
+    "standardAmount": "¼ tl (fijngehakt)"
+   },
+   "w-fr-013-i10": {
+    "name": "Verse tijm",
+    "standardAmount": "1 tl (fijngehakt)"
+   },
+   "w-fr-013-i11": {
+    "name": "Zout",
+    "standardAmount": "naar smaak"
+   },
+   "w-fr-013-i12": {
+    "name": "Peper",
+    "standardAmount": "naar smaak"
+   }
   },
   "instructions": {
-    "1": "Verhit een grote pan of steelpan goed.",
-    "2": "Voeg olijfolie, ui en paprika toe en bak tot ze kleuren.",
-    "3": "Voeg knoflook, courgette en aubergine toe en bak tot ze kleuren.",
-    "4": "Meng tomaten, rozemarijn, tijm, zout en peper erdoor.",
-    "5": "Warm of koud serveren."
+   "1": "Verhit een grote pan of steelpan goed.",
+   "2": "Voeg olijfolie, ui en paprika toe en bak tot ze kleuren.",
+   "3": "Voeg knoflook, courgette en aubergine toe en bak tot ze kleuren.",
+   "4": "Meng tomaten, rozemarijn, tijm, zout en peper erdoor.",
+   "5": "Warm of koud serveren."
   },
   "culturalNotes": "Ratatouille is het bekendste Franse groentegerecht, gemaakt van zomergroenten."
-},
-"w-fr-014": {
+ },
+ "w-fr-014": {
   "title": "Salade niçoise",
   "ingredients": {
-    "w-fr-014-i1": {"name": "Knoflook", "standardAmount": "1 teentje"},
-    "w-fr-014-i2": {"name": "Zout", "standardAmount": "naar smaak"},
-    "w-fr-014-i3": {"name": "Olijfolie", "standardAmount": "80 ml"},
-    "w-fr-014-i4": {"name": "Vers citroensap", "standardAmount": "2 el"},
-    "w-fr-014-i5": {"name": "Dijonmosterd", "standardAmount": "1 el"},
-    "w-fr-014-i6": {"name": "Sjalot", "standardAmount": "1 (fijngehakt)"},
-    "w-fr-014-i7": {"name": "Zwarte peper", "standardAmount": "naar smaak"},
-    "w-fr-014-i8": {"name": "Kleine nieuwe aardappelen", "standardAmount": "450 g (gekookt)"},
-    "w-fr-014-i9": {"name": "Sperziebonen", "standardAmount": "225 g (geblancheerd)"},
-    "w-fr-014-i10": {"name": "Cherrytomaten", "standardAmount": "340 g (gehalveerd)"},
-    "w-fr-014-i11": {"name": "Zwarte olijven (niçoise)", "standardAmount": "120 ml"},
-    "w-fr-014-i12": {"name": "Gemarineerde artisjokken", "standardAmount": "225 g"},
-    "w-fr-014-i13": {"name": "Ansjovis", "standardAmount": "8 filets (afgespoeld, uitgelekt)"},
-    "w-fr-014-i14": {"name": "Gekookte eieren", "standardAmount": "4 (gehalveerd)"},
-    "w-fr-014-i15": {"name": "Komkommer", "standardAmount": "1 kleine (in fijne plakjes)"},
-    "w-fr-014-i16": {"name": "Tonijn in olie", "standardAmount": "3 blikjes à 115 g (uitgelekt)"},
-    "w-fr-014-i17": {"name": "Rode ui", "standardAmount": "½ (in fijne plakjes)"}
+   "w-fr-014-i1": {
+    "name": "Knoflook",
+    "standardAmount": "1 teentje"
+   },
+   "w-fr-014-i2": {
+    "name": "Zout",
+    "standardAmount": "naar smaak"
+   },
+   "w-fr-014-i3": {
+    "name": "Olijfolie",
+    "standardAmount": "80 ml"
+   },
+   "w-fr-014-i4": {
+    "name": "Vers citroensap",
+    "standardAmount": "2 el"
+   },
+   "w-fr-014-i5": {
+    "name": "Dijonmosterd",
+    "standardAmount": "1 el"
+   },
+   "w-fr-014-i6": {
+    "name": "Sjalot",
+    "standardAmount": "1 (fijngehakt)"
+   },
+   "w-fr-014-i7": {
+    "name": "Zwarte peper",
+    "standardAmount": "naar smaak"
+   },
+   "w-fr-014-i8": {
+    "name": "Kleine nieuwe aardappelen",
+    "standardAmount": "450 g (gekookt)"
+   },
+   "w-fr-014-i9": {
+    "name": "Sperziebonen",
+    "standardAmount": "225 g (geblancheerd)"
+   },
+   "w-fr-014-i10": {
+    "name": "Cherrytomaten",
+    "standardAmount": "340 g (gehalveerd)"
+   },
+   "w-fr-014-i11": {
+    "name": "Zwarte olijven (niçoise)",
+    "standardAmount": "120 ml"
+   },
+   "w-fr-014-i12": {
+    "name": "Gemarineerde artisjokken",
+    "standardAmount": "225 g"
+   },
+   "w-fr-014-i13": {
+    "name": "Ansjovis",
+    "standardAmount": "8 filets (afgespoeld, uitgelekt)"
+   },
+   "w-fr-014-i14": {
+    "name": "Gekookte eieren",
+    "standardAmount": "4 (gehalveerd)"
+   },
+   "w-fr-014-i15": {
+    "name": "Komkommer",
+    "standardAmount": "1 kleine (in fijne plakjes)"
+   },
+   "w-fr-014-i16": {
+    "name": "Tonijn in olie",
+    "standardAmount": "3 blikjes à 115 g (uitgelekt)"
+   },
+   "w-fr-014-i17": {
+    "name": "Rode ui",
+    "standardAmount": "½ (in fijne plakjes)"
+   }
   },
   "instructions": {
-    "1": "Dressing: hak de knoflook, bestrooi met zout en wrijf met het mes tot een gladde pasta. Doe in een kom en meng met olie, citroensap, mosterd, sjalot, zout en peper.",
-    "2": "Salade: schik alle ingrediënten in rijen op een grote schaal, besprenkel met de dressing en breng op smaak met zout en peper."
+   "1": "Dressing: hak de knoflook, bestrooi met zout en wrijf met het mes tot een gladde pasta. Doe in een kom en meng met olie, citroensap, mosterd, sjalot, zout en peper.",
+   "2": "Salade: schik alle ingrediënten in rijen op een grote schaal, besprenkel met de dressing en breng op smaak met zout en peper."
   },
   "culturalNotes": "Salade niçoise is de traditionele salade uit Nice, rijk aan groenten en vis."
-},
-"w-vn-001": {
+ },
+ "w-vn-001": {
   "title": "Bò Bía (Vietnamese loempia's met yamboontje en worst)",
   "ingredients": {
-    "w-vn-001-i1": {"name": "Gedroogde garnalen", "standardAmount": "½ kopje"},
-    "w-vn-001-i2": {"name": "Yamboontje (jicama)", "standardAmount": "1 grote"},
-    "w-vn-001-i3": {"name": "Wortel", "standardAmount": "1 middelgrote"},
-    "w-vn-001-i4": {"name": "Sjalotten", "standardAmount": "4 grote"},
-    "w-vn-001-i5": {"name": "Halal rundworst op Chinese wijze", "standardAmount": "4"},
-    "w-vn-001-i6": {"name": "Eieren", "standardAmount": "5"},
-    "w-vn-001-i7": {"name": "Zeezout", "standardAmount": "½ tl"},
-    "w-vn-001-i8": {"name": "Thaise basilicum", "standardAmount": "1 klein bosje"},
-    "w-vn-001-i9": {"name": "Gedroogde rijstvellen", "standardAmount": "1 pak"},
-    "w-vn-001-i10": {"name": "Plantaardige olie", "standardAmount": "3 el"}
+   "w-vn-001-i1": {
+    "name": "Gedroogde garnalen",
+    "standardAmount": "½ kopje"
+   },
+   "w-vn-001-i2": {
+    "name": "Yamboontje (jicama)",
+    "standardAmount": "1 grote"
+   },
+   "w-vn-001-i3": {
+    "name": "Wortel",
+    "standardAmount": "1 middelgrote"
+   },
+   "w-vn-001-i4": {
+    "name": "Sjalotten",
+    "standardAmount": "4 grote"
+   },
+   "w-vn-001-i5": {
+    "name": "Halal rundworst op Chinese wijze",
+    "standardAmount": "4"
+   },
+   "w-vn-001-i6": {
+    "name": "Eieren",
+    "standardAmount": "5"
+   },
+   "w-vn-001-i7": {
+    "name": "Zeezout",
+    "standardAmount": "½ tl"
+   },
+   "w-vn-001-i8": {
+    "name": "Thaise basilicum",
+    "standardAmount": "1 klein bosje"
+   },
+   "w-vn-001-i9": {
+    "name": "Gedroogde rijstvellen",
+    "standardAmount": "1 pak"
+   },
+   "w-vn-001-i10": {
+    "name": "Plantaardige olie",
+    "standardAmount": "3 el"
+   }
   },
   "instructions": {
-    "1": "Week de gedroogde garnalen 10 minuten in heet water tot zacht en giet af.",
-    "2": "Schil de jicama en snijd in lucifers. Schil de wortel, snijd schuin in plakjes en dan in lucifers. Schil de sjalotten en snijd dun.",
-    "3": "Verhit ca. 1 el olie in de pan op hoog vuur. Bak de sjalotten ca. 20 seconden. Voeg de garnalen toe en bak nog 20 seconden. Voeg jicama en wortel toe, roerbak gelijkmatig en gaar ca. 15 minuten tot ze slap zijn. Zouten en in een kom doen.",
-    "4": "Kook water in een grote antiaanbakpan en kook de worst ca. 5 minuten. Haal eruit, laat afkoelen en snijd schuin in dunne plakjes.",
-    "5": "Verhit ca. 1 el olie in de lege pan op middelhoog vuur en verdeel met een kwast of door te kantelen. Giet de helft van het geklopte ei erin en laat dun uitlopen. Gaar ca. 30 seconden tot gestold en schuif op een bord. Herhaal met meer olie en de rest van het ei. Leg de twee omeletten op elkaar, rol op en snijd in fijne linten.",
-    "6": "Maak het rijstvel snel nat en leg op een groot bord. Leg onderin wat basilicumbladeren, dan het jicama-wortel-garnalenmengsel, wat ei-linten en worstplakjes. Rol vanaf onder tot halverwege, vouw de zijkanten in en rol verder af.",
-    "7": "Serveer met pindasaus."
+   "1": "Week de gedroogde garnalen 10 minuten in heet water tot zacht en giet af.",
+   "2": "Schil de jicama en snijd in lucifers. Schil de wortel, snijd schuin in plakjes en dan in lucifers. Schil de sjalotten en snijd dun.",
+   "3": "Verhit ca. 1 el olie in de pan op hoog vuur. Bak de sjalotten ca. 20 seconden. Voeg de garnalen toe en bak nog 20 seconden. Voeg jicama en wortel toe, roerbak gelijkmatig en gaar ca. 15 minuten tot ze slap zijn. Zouten en in een kom doen.",
+   "4": "Kook water in een grote antiaanbakpan en kook de worst ca. 5 minuten. Haal eruit, laat afkoelen en snijd schuin in dunne plakjes.",
+   "5": "Verhit ca. 1 el olie in de lege pan op middelhoog vuur en verdeel met een kwast of door te kantelen. Giet de helft van het geklopte ei erin en laat dun uitlopen. Gaar ca. 30 seconden tot gestold en schuif op een bord. Herhaal met meer olie en de rest van het ei. Leg de twee omeletten op elkaar, rol op en snijd in fijne linten.",
+   "6": "Maak het rijstvel snel nat en leg op een groot bord. Leg onderin wat basilicumbladeren, dan het jicama-wortel-garnalenmengsel, wat ei-linten en worstplakjes. Rol vanaf onder tot halverwege, vouw de zijkanten in en rol verder af.",
+   "7": "Serveer met pindasaus."
   },
   "culturalNotes": "Deze Vietnamese loempia's heten ook Bì cuốn en worden als voorgerecht of lichte maaltijd geserveerd."
-},
-"w-vn-002": {
+ },
+ "w-vn-002": {
   "title": "Bò Nướng Lá Lốt (gegrild rundvlees in betelblad)",
   "ingredients": {
-    "w-vn-002-i1": {"name": "Vet rundergehakt", "standardAmount": "340 g"},
-    "w-vn-002-i2": {"name": "Fijngehakte sjalotten", "standardAmount": "2 el"},
-    "w-vn-002-i3": {"name": "Fijngehakte knoflook", "standardAmount": "1 el"},
-    "w-vn-002-i4": {"name": "Gemalen zwarte peper", "standardAmount": "¼ tl"},
-    "w-vn-002-i5": {"name": "Suiker", "standardAmount": "½ tl"},
-    "w-vn-002-i6": {"name": "Vissaus", "standardAmount": "2 tl"},
-    "w-vn-002-i7": {"name": "Oestersaus", "standardAmount": "1 el"},
-    "w-vn-002-i8": {"name": "Kippenbouillonpoeder", "standardAmount": "½ tl"},
-    "w-vn-002-i9": {"name": "Glutamaat (optioneel)", "standardAmount": "¼ tl"},
-    "w-vn-002-i10": {"name": "Wilde betelbladeren", "standardAmount": "25-30"}
+   "w-vn-002-i1": {
+    "name": "Vet rundergehakt",
+    "standardAmount": "340 g"
+   },
+   "w-vn-002-i2": {
+    "name": "Fijngehakte sjalotten",
+    "standardAmount": "2 el"
+   },
+   "w-vn-002-i3": {
+    "name": "Fijngehakte knoflook",
+    "standardAmount": "1 el"
+   },
+   "w-vn-002-i4": {
+    "name": "Gemalen zwarte peper",
+    "standardAmount": "¼ tl"
+   },
+   "w-vn-002-i5": {
+    "name": "Suiker",
+    "standardAmount": "½ tl"
+   },
+   "w-vn-002-i6": {
+    "name": "Vissaus",
+    "standardAmount": "2 tl"
+   },
+   "w-vn-002-i7": {
+    "name": "Oestersaus",
+    "standardAmount": "1 el"
+   },
+   "w-vn-002-i8": {
+    "name": "Kippenbouillonpoeder",
+    "standardAmount": "½ tl"
+   },
+   "w-vn-002-i9": {
+    "name": "Glutamaat (optioneel)",
+    "standardAmount": "¼ tl"
+   },
+   "w-vn-002-i10": {
+    "name": "Wilde betelbladeren",
+    "standardAmount": "25-30"
+   }
   },
   "instructions": {
-    "1": "Was de bladeren grondig en dep droog met keukenpapier. Laat een stukje steel zitten om de rolletjes vast te zetten.",
-    "2": "Meng in een grote kom het gehakt met sjalotten, knoflook, peper, suiker, vissaus, oestersaus, bouillonpoeder en glutamaat (optioneel).",
-    "3": "Leg een blad met de glanzende kant naar beneden en het smalle uiteinde onderaan. Leg ca. 2 el vulling in het midden, vouw het smalle uiteinde over de vulling en rol voorzichtig op. Steek de steel in het rolletje zodat het niet opent. Is de steel te slap, prik dan met een klein mesje een gaatje en steek de steel erin. Leg met de steel naar beneden neer. Herhaal met de rest.",
-    "4": "Grill de rolletjes voor een rokerig aroma of bak ze met wat plantaardige olie ca. 2 minuten per kant.",
-    "5": "Serveer in een kom met dunne rijstnoedels, gesneden sla en Vietnamese kruiden. Bestrooi met geroosterde pinda's en geef vissausdip erbij. Serveer eventueel met rijstvellen om zelf te rollen."
+   "1": "Was de bladeren grondig en dep droog met keukenpapier. Laat een stukje steel zitten om de rolletjes vast te zetten.",
+   "2": "Meng in een grote kom het gehakt met sjalotten, knoflook, peper, suiker, vissaus, oestersaus, bouillonpoeder en glutamaat (optioneel).",
+   "3": "Leg een blad met de glanzende kant naar beneden en het smalle uiteinde onderaan. Leg ca. 2 el vulling in het midden, vouw het smalle uiteinde over de vulling en rol voorzichtig op. Steek de steel in het rolletje zodat het niet opent. Is de steel te slap, prik dan met een klein mesje een gaatje en steek de steel erin. Leg met de steel naar beneden neer. Herhaal met de rest.",
+   "4": "Grill de rolletjes voor een rokerig aroma of bak ze met wat plantaardige olie ca. 2 minuten per kant.",
+   "5": "Serveer in een kom met dunne rijstnoedels, gesneden sla en Vietnamese kruiden. Bestrooi met geroosterde pinda's en geef vissausdip erbij. Serveer eventueel met rijstvellen om zelf te rollen."
   },
   "culturalNotes": "Rundvlees in betelblad is een traditioneel Vietnamese gerecht dat vaak bij speciale gelegenheden wordt geserveerd."
-},
-"w-vn-003": {
+ },
+ "w-vn-003": {
   "title": "Pandanwafels (Bánh Kếp Lá Dứa)",
   "ingredients": {
-    "w-vn-003-i1": {"name": "Boter", "standardAmount": "2 el"},
-    "w-vn-003-i2": {"name": "Rijstemeel", "standardAmount": "1½ kopje"},
-    "w-vn-003-i3": {"name": "Tapiocazetmeel", "standardAmount": "½ kopje"},
-    "w-vn-003-i4": {"name": "Tarwebloem", "standardAmount": "½ kopje"},
-    "w-vn-003-i5": {"name": "Bakpoeder", "standardAmount": "1 el"},
-    "w-vn-003-i6": {"name": "Zout", "standardAmount": "¼ tl"},
-    "w-vn-003-i7": {"name": "Eieren", "standardAmount": "2 grote"},
-    "w-vn-003-i8": {"name": "Suiker", "standardAmount": "½ kopje"},
-    "w-vn-003-i9": {"name": "Kokosmelk", "standardAmount": "1½ kopje"},
-    "w-vn-003-i10": {"name": "Pandanpasta", "standardAmount": "¾ tl"}
+   "w-vn-003-i1": {
+    "name": "Boter",
+    "standardAmount": "2 el"
+   },
+   "w-vn-003-i2": {
+    "name": "Rijstemeel",
+    "standardAmount": "1½ kopje"
+   },
+   "w-vn-003-i3": {
+    "name": "Tapiocazetmeel",
+    "standardAmount": "½ kopje"
+   },
+   "w-vn-003-i4": {
+    "name": "Tarwebloem",
+    "standardAmount": "½ kopje"
+   },
+   "w-vn-003-i5": {
+    "name": "Bakpoeder",
+    "standardAmount": "1 el"
+   },
+   "w-vn-003-i6": {
+    "name": "Zout",
+    "standardAmount": "¼ tl"
+   },
+   "w-vn-003-i7": {
+    "name": "Eieren",
+    "standardAmount": "2 grote"
+   },
+   "w-vn-003-i8": {
+    "name": "Suiker",
+    "standardAmount": "½ kopje"
+   },
+   "w-vn-003-i9": {
+    "name": "Kokosmelk",
+    "standardAmount": "1½ kopje"
+   },
+   "w-vn-003-i10": {
+    "name": "Pandanpasta",
+    "standardAmount": "¾ tl"
+   }
   },
   "instructions": {
-    "1": "Smelt de boter 30-45 seconden in de magnetron op laag vermogen. Roer en laat afkoelen.",
-    "2": "Zeef rijstemeel, tapioca, bloem, bakpoeder en zout in een grote maatbeker of kom.",
-    "3": "Klop in een grote kom eieren en suiker grotendeels samen. Voeg kokosmelk, gesmolten boter en pandanpasta toe en meng goed.",
-    "4": "Voeg de helft van de droge ingrediënten toe en meng grotendeels. Voeg de rest toe en roer voorzichtig verder, de grotere klontjes fijnmakend. Laat het beslag 15 minuten rusten.",
-    "5": "Zet het wafelijzer op de hoogste stand. Giet ca. ⅔ kopje beslag erin en verdeel met een spatel. Sluit en bak 4-5 minuten tot goudbruin.",
-    "6": "Til de wafel met een bamboeprikker op en leg met een tang op een rooster.",
-    "7": "Heet serveren."
+   "1": "Smelt de boter 30-45 seconden in de magnetron op laag vermogen. Roer en laat afkoelen.",
+   "2": "Zeef rijstemeel, tapioca, bloem, bakpoeder en zout in een grote maatbeker of kom.",
+   "3": "Klop in een grote kom eieren en suiker grotendeels samen. Voeg kokosmelk, gesmolten boter en pandanpasta toe en meng goed.",
+   "4": "Voeg de helft van de droge ingrediënten toe en meng grotendeels. Voeg de rest toe en roer voorzichtig verder, de grotere klontjes fijnmakend. Laat het beslag 15 minuten rusten.",
+   "5": "Zet het wafelijzer op de hoogste stand. Giet ca. ⅔ kopje beslag erin en verdeel met een spatel. Sluit en bak 4-5 minuten tot goudbruin.",
+   "6": "Til de wafel met een bamboeprikker op en leg met een tang op een rooster.",
+   "7": "Heet serveren."
   },
   "culturalNotes": "Pandanwafels zijn een traditioneel Vietnamees dessert met pandan- en kokosaroma."
-},
-"w-vn-004": {
+ },
+ "w-vn-004": {
   "title": "Bánh pía",
   "ingredients": {
-    "w-vn-004-i1": {"name": "Bloem", "standardAmount": "500 g"},
-    "w-vn-004-i2": {"name": "Suiker", "standardAmount": "250 g"},
-    "w-vn-004-i3": {"name": "Plantaardige olie", "standardAmount": "100 ml"},
-    "w-vn-004-i4": {"name": "Eieren", "standardAmount": "2"},
-    "w-vn-004-i5": {"name": "Melk", "standardAmount": "100 ml"},
-    "w-vn-004-i6": {"name": "Zout", "standardAmount": "½ tl"},
-    "w-vn-004-i7": {"name": "Puddingvulling", "standardAmount": "400 g"}
+   "w-vn-004-i1": {
+    "name": "Bloem",
+    "standardAmount": "500 g"
+   },
+   "w-vn-004-i2": {
+    "name": "Suiker",
+    "standardAmount": "250 g"
+   },
+   "w-vn-004-i3": {
+    "name": "Plantaardige olie",
+    "standardAmount": "100 ml"
+   },
+   "w-vn-004-i4": {
+    "name": "Eieren",
+    "standardAmount": "2"
+   },
+   "w-vn-004-i5": {
+    "name": "Melk",
+    "standardAmount": "100 ml"
+   },
+   "w-vn-004-i6": {
+    "name": "Zout",
+    "standardAmount": "½ tl"
+   },
+   "w-vn-004-i7": {
+    "name": "Puddingvulling",
+    "standardAmount": "400 g"
+   }
   },
   "instructions": {
-    "1": "Meng bloem, suiker en zout in een grote kom.",
-    "2": "Voeg eieren, melk en olie toe en werk tot een glad deeg.",
-    "3": "Dek het deeg af en laat 30 minuten rusten.",
-    "4": "Verdeel het deeg in 12 gelijke stukken en vorm bolletjes.",
-    "5": "Leg vulling in het midden van elk bolletje en sluit met het deeg.",
-    "6": "Leg in bánh-pía-vormpjes en zet in een voorverwarmde oven van 180 °C.",
-    "7": "Bak 20-25 minuten tot goudbruin."
+   "1": "Meng bloem, suiker en zout in een grote kom.",
+   "2": "Voeg eieren, melk en olie toe en werk tot een glad deeg.",
+   "3": "Dek het deeg af en laat 30 minuten rusten.",
+   "4": "Verdeel het deeg in 12 gelijke stukken en vorm bolletjes.",
+   "5": "Leg vulling in het midden van elk bolletje en sluit met het deeg.",
+   "6": "Leg in bánh-pía-vormpjes en zet in een voorverwarmde oven van 180 °C.",
+   "7": "Bak 20-25 minuten tot goudbruin."
   },
   "culturalNotes": "Bánh pía is een traditioneel Vietnamees bladerdeeggebak voor speciale gelegenheden."
-},
-"w-vn-005": {
+ },
+ "w-vn-005": {
   "title": "Bánh Tráng Trộn (Vietnamese rijstvellen-salade)",
   "ingredients": {
-    "w-vn-005-i1": {"name": "Tamarindepulp", "standardAmount": "100 g"},
-    "w-vn-005-i2": {"name": "Plantaardige olie", "standardAmount": "4 el"},
-    "w-vn-005-i3": {"name": "Knoflookteentjes", "standardAmount": "6"},
-    "w-vn-005-i4": {"name": "Vissaus", "standardAmount": "2 el"},
-    "w-vn-005-i5": {"name": "Kristalsuiker", "standardAmount": "3 el"},
-    "w-vn-005-i6": {"name": "Glutamaat (optioneel)", "standardAmount": "½ tl"},
-    "w-vn-005-i7": {"name": "Chilivlokken (optioneel)", "standardAmount": "1 el"},
-    "w-vn-005-i8": {"name": "Gedroogde inktvis", "standardAmount": "200 g"},
-    "w-vn-005-i9": {"name": "Gedroogde garnalen", "standardAmount": "100 g"},
-    "w-vn-005-i10": {"name": "Rundvlees-jerky", "standardAmount": "100 g"},
-    "w-vn-005-i11": {"name": "Gedroogde rijstvellen", "standardAmount": "170 g"},
-    "w-vn-005-i12": {"name": "Vietnamese chili-olie", "standardAmount": "naar smaak"},
-    "w-vn-005-i13": {"name": "Vietnamese lente-uiolie", "standardAmount": "naar smaak"},
-    "w-vn-005-i14": {"name": "Groene mango", "standardAmount": "1"},
-    "w-vn-005-i15": {"name": "Gekookte kwarteleitjes", "standardAmount": "10"},
-    "w-vn-005-i16": {"name": "Gebakken sjalotten", "standardAmount": "naar smaak"},
-    "w-vn-005-i17": {"name": "Ongezouten geroosterde pinda's", "standardAmount": "¼ kopje"},
-    "w-vn-005-i18": {"name": "Vietnamese korianderbladeren", "standardAmount": "2 kopjes"}
+   "w-vn-005-i1": {
+    "name": "Tamarindepulp",
+    "standardAmount": "100 g"
+   },
+   "w-vn-005-i2": {
+    "name": "Plantaardige olie",
+    "standardAmount": "4 el"
+   },
+   "w-vn-005-i3": {
+    "name": "Knoflookteentjes",
+    "standardAmount": "6"
+   },
+   "w-vn-005-i4": {
+    "name": "Vissaus",
+    "standardAmount": "2 el"
+   },
+   "w-vn-005-i5": {
+    "name": "Kristalsuiker",
+    "standardAmount": "3 el"
+   },
+   "w-vn-005-i6": {
+    "name": "Glutamaat (optioneel)",
+    "standardAmount": "½ tl"
+   },
+   "w-vn-005-i7": {
+    "name": "Chilivlokken (optioneel)",
+    "standardAmount": "1 el"
+   },
+   "w-vn-005-i8": {
+    "name": "Gedroogde inktvis",
+    "standardAmount": "200 g"
+   },
+   "w-vn-005-i9": {
+    "name": "Gedroogde garnalen",
+    "standardAmount": "100 g"
+   },
+   "w-vn-005-i10": {
+    "name": "Rundvlees-jerky",
+    "standardAmount": "100 g"
+   },
+   "w-vn-005-i11": {
+    "name": "Gedroogde rijstvellen",
+    "standardAmount": "170 g"
+   },
+   "w-vn-005-i12": {
+    "name": "Vietnamese chili-olie",
+    "standardAmount": "naar smaak"
+   },
+   "w-vn-005-i13": {
+    "name": "Vietnamese lente-uiolie",
+    "standardAmount": "naar smaak"
+   },
+   "w-vn-005-i14": {
+    "name": "Groene mango",
+    "standardAmount": "1"
+   },
+   "w-vn-005-i15": {
+    "name": "Gekookte kwarteleitjes",
+    "standardAmount": "10"
+   },
+   "w-vn-005-i16": {
+    "name": "Gebakken sjalotten",
+    "standardAmount": "naar smaak"
+   },
+   "w-vn-005-i17": {
+    "name": "Ongezouten geroosterde pinda's",
+    "standardAmount": "¼ kopje"
+   },
+   "w-vn-005-i18": {
+    "name": "Vietnamese korianderbladeren",
+    "standardAmount": "2 kopjes"
+   }
   },
   "instructions": {
-    "1": "Bij gebruik van tamarindepulp: week 15 minuten in 2 kopjes heet water, wrijf door een fijne zeef en gooi de pulp weg.",
-    "2": "Verhit olie in een steelpan op middelhoog vuur. Bak de knoflook ca. 15 seconden. Voeg tamarinde, vissaus, suiker, glutamaat en chilivlokken toe en meng. Laat 1 minuut zachtjes koken. Schenk in een kommetje.",
-    "3": "Verhit plantaardige olie in een middelgrote pan op middelhoog vuur. Frituur de inktvis 30 seconden; hij krult, druk de randen aan met eetstokjes voor gelijke friturering. Keer en frituur nog 30 seconden. Haal eruit. Zodra afgekoeld met de hand in lange reepjes scheuren.",
-    "4": "Frituur in dezelfde olie de garnalen ca. 1 minuut en haal eruit.",
-    "5": "Scheur de jerky met de hand in dunne reepjes.",
-    "6": "Doe het rijstvel in een grote kom. Voeg tamarindsaus, chili-olie en lente-uiolie toe en meng goed zodat het vel de saus opneemt. Het lijkt eerst droog maar wordt zacht.",
-    "7": "Voeg jerky, inktvis, garnalen, groene mango en kwarteleitjes toe en meng kort.",
-    "8": "Garneer met gebakken sjalotten, pinda's en Vietnamese koriander."
+   "1": "Bij gebruik van tamarindepulp: week 15 minuten in 2 kopjes heet water, wrijf door een fijne zeef en gooi de pulp weg.",
+   "2": "Verhit olie in een steelpan op middelhoog vuur. Bak de knoflook ca. 15 seconden. Voeg tamarinde, vissaus, suiker, glutamaat en chilivlokken toe en meng. Laat 1 minuut zachtjes koken. Schenk in een kommetje.",
+   "3": "Verhit plantaardige olie in een middelgrote pan op middelhoog vuur. Frituur de inktvis 30 seconden; hij krult, druk de randen aan met eetstokjes voor gelijke friturering. Keer en frituur nog 30 seconden. Haal eruit. Zodra afgekoeld met de hand in lange reepjes scheuren.",
+   "4": "Frituur in dezelfde olie de garnalen ca. 1 minuut en haal eruit.",
+   "5": "Scheur de jerky met de hand in dunne reepjes.",
+   "6": "Doe het rijstvel in een grote kom. Voeg tamarindsaus, chili-olie en lente-uiolie toe en meng goed zodat het vel de saus opneemt. Het lijkt eerst droog maar wordt zacht.",
+   "7": "Voeg jerky, inktvis, garnalen, groene mango en kwarteleitjes toe en meng kort.",
+   "8": "Garneer met gebakken sjalotten, pinda's en Vietnamese koriander."
   },
   "culturalNotes": "Bánh Tráng Trộn is een populaire Vietnamese snack die als voorgerecht of lichte maaltijd dient."
-},
-"w-vn-006": {
+ },
+ "w-vn-006": {
   "title": "Chè Trôi Nước (kleefrijstballetjes in gembersiroop)",
   "ingredients": {
-    "w-vn-006-i1": {"name": "Kleefrijstmeel", "standardAmount": "450 g"},
-    "w-vn-006-i2": {"name": "Heet water", "standardAmount": "1¾ kopje"},
-    "w-vn-006-i3": {"name": "Gespleten mungbonen", "standardAmount": "¾ kopje"},
-    "w-vn-006-i4": {"name": "Suiker", "standardAmount": "2 tl"},
-    "w-vn-006-i5": {"name": "Zout", "standardAmount": "1 tl"},
-    "w-vn-006-i6": {"name": "Water", "standardAmount": "6 kopjes"},
-    "w-vn-006-i7": {"name": "Verse gember", "standardAmount": "10 cm"},
-    "w-vn-006-i8": {"name": "Palmsuiker", "standardAmount": "280 g"},
-    "w-vn-006-i9": {"name": "Kokosmelk", "standardAmount": "optioneel"},
-    "w-vn-006-i10": {"name": "Geroosterde sesamzaad", "standardAmount": "¼ kopje"}
+   "w-vn-006-i1": {
+    "name": "Kleefrijstmeel",
+    "standardAmount": "450 g"
+   },
+   "w-vn-006-i2": {
+    "name": "Heet water",
+    "standardAmount": "1¾ kopje"
+   },
+   "w-vn-006-i3": {
+    "name": "Gespleten mungbonen",
+    "standardAmount": "¾ kopje"
+   },
+   "w-vn-006-i4": {
+    "name": "Suiker",
+    "standardAmount": "2 tl"
+   },
+   "w-vn-006-i5": {
+    "name": "Zout",
+    "standardAmount": "1 tl"
+   },
+   "w-vn-006-i6": {
+    "name": "Water",
+    "standardAmount": "6 kopjes"
+   },
+   "w-vn-006-i7": {
+    "name": "Verse gember",
+    "standardAmount": "10 cm"
+   },
+   "w-vn-006-i8": {
+    "name": "Palmsuiker",
+    "standardAmount": "280 g"
+   },
+   "w-vn-006-i9": {
+    "name": "Kokosmelk",
+    "standardAmount": "optioneel"
+   },
+   "w-vn-006-i10": {
+    "name": "Geroosterde sesamzaad",
+    "standardAmount": "¼ kopje"
+   }
   },
   "instructions": {
-    "1": "Meng kleefrijstmeel en heet water in een grote kom en kneed tot een glad deeg. Geen extra water toevoegen. Dek af en laat 30 minuten rusten.",
-    "2": "Verdeel het deeg in 28 bolletjes van ca. 2,5 cm.",
-    "3": "Spoel de mungbonen tot het water helder is. Bedek in een middelgrote pan met 2,5 cm water, breng op middelhoog vuur aan de kook en kook zacht tot ze zacht zijn maar hun vorm houden (ca. 15 minuten). Let op dat het niet overkookt. Giet af en zet terug op het uitgezette fornuis om te drogen. Voeg zout en suiker toe en plet met een grote lepel tot een grove pasta.",
-    "4": "Rol de vulling tot kleine bolletjes van ca. 1,2 cm (ca. 28 stuks). Is het mengsel te zacht, koel dan even.",
-    "5": "Druk een deegbolletje plat tot een dikke schijf, leg een vulbolletje in het midden, sluit het deeg eroverheen en rol in de palm tot een glad bolletje. Laat de vulling niet uitlopen, anders vallen de balletjes bij het koken uit elkaar. Vorm van restdeeg kleine pareltjes zonder vulling. Afgedekt bewaren.",
-    "6": "Breng in een grote pan water met palmsuiker aan de kook tot de suiker smelt. Schil de gember met een lepel en snijd in dunne reepjes. Laat de balletjes voorzichtig in de siroop zakken en laat op middellaag vuur zachtjes koken tot ze boven drijven (ca. 20 minuten).",
-    "7": "Maak desgewenst de kokosmelksaus.",
-    "8": "Schep enkele balletjes met siroop in een kom, besprenkel met kokossaus en bestrooi met sesam. Warm of op kamertemperatuur serveren."
+   "1": "Meng kleefrijstmeel en heet water in een grote kom en kneed tot een glad deeg. Geen extra water toevoegen. Dek af en laat 30 minuten rusten.",
+   "2": "Verdeel het deeg in 28 bolletjes van ca. 2,5 cm.",
+   "3": "Spoel de mungbonen tot het water helder is. Bedek in een middelgrote pan met 2,5 cm water, breng op middelhoog vuur aan de kook en kook zacht tot ze zacht zijn maar hun vorm houden (ca. 15 minuten). Let op dat het niet overkookt. Giet af en zet terug op het uitgezette fornuis om te drogen. Voeg zout en suiker toe en plet met een grote lepel tot een grove pasta.",
+   "4": "Rol de vulling tot kleine bolletjes van ca. 1,2 cm (ca. 28 stuks). Is het mengsel te zacht, koel dan even.",
+   "5": "Druk een deegbolletje plat tot een dikke schijf, leg een vulbolletje in het midden, sluit het deeg eroverheen en rol in de palm tot een glad bolletje. Laat de vulling niet uitlopen, anders vallen de balletjes bij het koken uit elkaar. Vorm van restdeeg kleine pareltjes zonder vulling. Afgedekt bewaren.",
+   "6": "Breng in een grote pan water met palmsuiker aan de kook tot de suiker smelt. Schil de gember met een lepel en snijd in dunne reepjes. Laat de balletjes voorzichtig in de siroop zakken en laat op middellaag vuur zachtjes koken tot ze boven drijven (ca. 20 minuten).",
+   "7": "Maak desgewenst de kokosmelksaus.",
+   "8": "Schep enkele balletjes met siroop in een kom, besprenkel met kokossaus en bestrooi met sesam. Warm of op kamertemperatuur serveren."
   },
   "culturalNotes": "Chè Trôi Nước is een traditioneel Vietnamees dessert voor feesten en vieringen."
-},
-"w-vn-007": {
+ },
+ "w-vn-007": {
   "title": "Grasgelei (Thạch Sương Sáo)",
   "ingredients": {
-    "w-vn-007-i1": {"name": "Grasgeleipoeder", "standardAmount": "50 g"},
-    "w-vn-007-i2": {"name": "Suiker", "standardAmount": "⅓ kopje"},
-    "w-vn-007-i3": {"name": "Water", "standardAmount": "4 kopjes (verdeeld)"}
+   "w-vn-007-i1": {
+    "name": "Grasgeleipoeder",
+    "standardAmount": "50 g"
+   },
+   "w-vn-007-i2": {
+    "name": "Suiker",
+    "standardAmount": "⅓ kopje"
+   },
+   "w-vn-007-i3": {
+    "name": "Water",
+    "standardAmount": "4 kopjes (verdeeld)"
+   }
   },
   "instructions": {
-    "1": "Doe het geleipoeder in een middelgrote pan. Voeg suiker en 2 kopjes water toe en roer tot het poeder is opgelost.",
-    "2": "Voeg de resterende 2 kopjes water toe en meng goed.",
-    "3": "Laat het mengsel 10 minuten rusten.",
-    "4": "Verhit op middelhoog vuur en roer met een spatel, waarbij je de bodem schraapt waar het poeder neerslaat.",
-    "5": "Na 3-4 minuten wordt het dik en klonterig. Roer snel met een garde glad en blijf roeren tot het zachtjes kookt. Zet het vuur uit en roer nog 1 minuut tot glad en klontervrij.",
-    "6": "Schenk in een hittebestendige schaal en prik belletjes met een prikker of schep ze eraf.",
-    "7": "Laat 1-1,5 uur op kamertemperatuur afkoelen.",
-    "8": "Zet minimaal 2 uur in de koelkast.",
-    "9": "Stort de schaal om op een grote plank en snijd de gelei in blokjes.",
-    "10": "Doe voor het serveren wat ijs in een dessertkom, voeg geleiblokjes toe en bestrooi met wat suiker.",
-    "11": "Snijd eventueel met een kartelmes kleiner en doe in een ijzige drank.",
-    "12": "Bewaar restjes gelei tot 1 week in de koelkast."
+   "1": "Doe het geleipoeder in een middelgrote pan. Voeg suiker en 2 kopjes water toe en roer tot het poeder is opgelost.",
+   "2": "Voeg de resterende 2 kopjes water toe en meng goed.",
+   "3": "Laat het mengsel 10 minuten rusten.",
+   "4": "Verhit op middelhoog vuur en roer met een spatel, waarbij je de bodem schraapt waar het poeder neerslaat.",
+   "5": "Na 3-4 minuten wordt het dik en klonterig. Roer snel met een garde glad en blijf roeren tot het zachtjes kookt. Zet het vuur uit en roer nog 1 minuut tot glad en klontervrij.",
+   "6": "Schenk in een hittebestendige schaal en prik belletjes met een prikker of schep ze eraf.",
+   "7": "Laat 1-1,5 uur op kamertemperatuur afkoelen.",
+   "8": "Zet minimaal 2 uur in de koelkast.",
+   "9": "Stort de schaal om op een grote plank en snijd de gelei in blokjes.",
+   "10": "Doe voor het serveren wat ijs in een dessertkom, voeg geleiblokjes toe en bestrooi met wat suiker.",
+   "11": "Snijd eventueel met een kartelmes kleiner en doe in een ijzige drank.",
+   "12": "Bewaar restjes gelei tot 1 week in de koelkast."
   },
   "culturalNotes": "Grasgelei is een traditioneel Vietnamees dessert, op warme dagen een verfrissend toetje."
-}
+ },
+ "w-es-001": {
+  "title": "Arroz Negro (Zwart Inktvisrijst)",
+  "ingredients": {
+   "w-es-001-i1": {
+    "name": "visbouillon",
+    "standardAmount": "3 kopjes (710 ml)"
+   },
+   "w-es-001-i2": {
+    "name": "saffraandraadjes",
+    "standardAmount": "1/4 theelepel"
+   },
+   "w-es-001-i3": {
+    "name": "extra vierge olijfolie",
+    "standardAmount": "1/4 kopje (60 ml)"
+   },
+   "w-es-001-i4": {
+    "name": "sepiotis",
+    "standardAmount": "1 stuk"
+   },
+   "w-es-001-i5": {
+    "name": "ui",
+    "standardAmount": "1/2 stuk"
+   },
+   "w-es-001-i6": {
+    "name": "zoete groene paprika",
+    "standardAmount": "1/2 stuk"
+   },
+   "w-es-001-i7": {
+    "name": "knoflook",
+    "standardAmount": "4 teentjes"
+   },
+   "w-es-001-i8": {
+    "name": "zoete gerookte Spaanse paprika",
+    "standardAmount": "1/2 theelepel"
+   },
+   "w-es-001-i9": {
+    "name": "tomaten",
+    "standardAmount": "2 stuks"
+   },
+   "w-es-001-i10": {
+    "name": "Spaanse ronde rijst",
+    "standardAmount": "1 kopje (220 g)"
+   },
+   "w-es-001-i11": {
+    "name": "inktvisinkt",
+    "standardAmount": "4 g"
+   },
+   "w-es-001-i12": {
+    "name": "fijngehakte peterselie",
+    "standardAmount": "een handvol"
+   },
+   "w-es-001-i13": {
+    "name": "citroen",
+    "standardAmount": "1 stuk"
+   },
+   "w-es-001-i14": {
+    "name": "zeezout",
+    "standardAmount": "een snufje"
+   },
+   "w-es-001-i15": {
+    "name": "zwarte peper",
+    "standardAmount": "een snufje"
+   }
+  },
+  "instructions": {
+   "1": "Doe 3 kopjes visbouillon in een steelpan met een snufje saffraandraadjes en verhit op middelhoog vuur.",
+   "2": "Snijd een halve ui fijn, hak 4 teentjes knoflook grof, snijd een halve zoete groene paprika fijn, rasp 2 tomaten fijn en snijd een schoongemaakte sepiotis in middelgrote blokjes.",
+   "3": "Verhit een paellapan op middelhoog vuur en voeg 1/4 kopje extra vierge olijfolie toe.",
+   "4": "Breng de olijfolie na 1 minuut op smaak met zeezout en voeg de stukjes sepiotis toe; roer door de olie. Haal na 2 minuten, als de sepiotis licht is aangefruit, uit de pan en zet apart.",
+   "5": "Voeg in dezelfde pan op hetzelfde vuur de gehakte ui en paprika toe en meng met de olie; na 3 minuten, als de ui glazig is, voeg de knoflook toe. Voeg na 30 seconden de gerookte paprika toe, roer snel en voeg dan de geraspte tomaat toe; laat zachtjes sudderen.",
+   "6": "Als de tomatensaus na 3 minuten is ingedikt, voeg de rijst, de inktvisinkt, zout en peper toe en roer 2 minuten; giet dan de saffraanbouillon en de sepiotis erbij, roer eenmaal goed door en roer daarna niet meer.",
+   "7": "Nadat het vuur 8-9 minuten hoger heeft gestaan en het meeste vocht is opgenomen, zet het vuur laag en laat 3-5 minuten sudderen tot al het vocht is opgenomen; zet dan het vuur weer hoog en gaar 90 seconden voor de socarrat. Haal de pan van het vuur, dek af met een theedoek en laat 5 minuten rusten.",
+   "8": "Garneer met citroenpartjes en fijngehakte verse peterselie. Eet smakelijk!"
+  },
+  "culturalNotes": "Arroz Negro is een traditioneel Spaans gerecht, vooral uit de regio Valencia; het staat bekend om zijn diepe zwarte kleur en rijke sepiotissmaak.",
+  "chapter": "es"
+ },
+ "w-es-002": {
+  "title": "Arroz a la Cubana (Cubaanse Rijst)",
+  "ingredients": {
+   "w-es-002-i1": {
+    "name": "plantaardige olie",
+    "standardAmount": "1 eetlepel"
+   },
+   "w-es-002-i2": {
+    "name": "aardappel",
+    "standardAmount": "1 middelgrote, in blokjes"
+   },
+   "w-es-002-i3": {
+    "name": "wortel",
+    "standardAmount": "1 middelgrote, in blokjes"
+   },
+   "w-es-002-i4": {
+    "name": "ui",
+    "standardAmount": "1/2 middelgrote, in blokjes"
+   },
+   "w-es-002-i5": {
+    "name": "knoflook",
+    "standardAmount": "2 teentjes, fijngehakt"
+   },
+   "w-es-002-i6": {
+    "name": "rundergehakt",
+    "standardAmount": "450 g"
+   },
+   "w-es-002-i7": {
+    "name": "water",
+    "standardAmount": "1/4 kopje"
+   },
+   "w-es-002-i8": {
+    "name": "sojasaus",
+    "standardAmount": "2 eetlepels"
+   },
+   "w-es-002-i9": {
+    "name": "zout",
+    "standardAmount": "naar smaak"
+   },
+   "w-es-002-i10": {
+    "name": "zwarte peper",
+    "standardAmount": "naar smaak"
+   },
+   "w-es-002-i11": {
+    "name": "paprika",
+    "standardAmount": "1 middelgrote, in blokjes"
+   },
+   "w-es-002-i12": {
+    "name": "rozijnen",
+    "standardAmount": "2 eetlepels"
+   },
+   "w-es-002-i13": {
+    "name": "doperwten",
+    "standardAmount": "2 eetlepels"
+   },
+   "w-es-002-i14": {
+    "name": "gekookte rijst",
+    "standardAmount": "2 kopjes"
+   }
+  },
+  "instructions": {
+   "1": "Verhit de olie in een grote koekenpan op middelhoog vuur. Voeg aardappel en wortel toe en bak 3 minuten. Schep in een kom.",
+   "2": "Voeg ui en knoflook toe aan de hete pan en fruit 5-7 minuten tot lichtbruin. Voeg het gehakt toe en bak 5-7 minuten tot bruin en kruimelig.",
+   "3": "Doe het aardappel-wortelmengsel terug in de pan met het water, de sojasaus, zout en peper. Dek af en laat 5-8 minuten sudderen tot de aardappels gaar zijn.",
+   "4": "Voeg paprika, rozijnen en doperwten toe en verwarm 2 minuten. Serveer over warme gekookte rijst."
+  },
+  "culturalNotes": "Arroz a la Cubana is een populair gerecht in Spanje: een mix van gehakt, groenten en kruiden, geserveerd over rijst.",
+  "chapter": "es"
+ },
+ "w-es-003": {
+  "title": "Baskische Knoflooksoep (Zurrukutuna)",
+  "ingredients": {
+   "w-es-003-i1": {
+    "name": "extra vierge olijfolie",
+    "standardAmount": "1/4 kopje (60 ml)"
+   },
+   "w-es-003-i2": {
+    "name": "stokbrood",
+    "standardAmount": "100 g"
+   },
+   "w-es-003-i3": {
+    "name": "knoflook",
+    "standardAmount": "6 teentjes, dun gesneden"
+   },
+   "w-es-003-i4": {
+    "name": "chilivlokken",
+    "standardAmount": "1/4 theelepel"
+   },
+   "w-es-003-i5": {
+    "name": "zoete gerookte paprika",
+    "standardAmount": "1 theelepel"
+   },
+   "w-es-003-i6": {
+    "name": "tomaten",
+    "standardAmount": "2 stuks, fijn geraspt"
+   },
+   "w-es-003-i7": {
+    "name": "groentebouillon",
+    "standardAmount": "1 liter"
+   },
+   "w-es-003-i8": {
+    "name": "laurierblad",
+    "standardAmount": "1 stuk"
+   },
+   "w-es-003-i9": {
+    "name": "kabeljauwfilet",
+    "standardAmount": "225 g"
+   },
+   "w-es-003-i10": {
+    "name": "eieren",
+    "standardAmount": "2 stuks"
+   },
+   "w-es-003-i11": {
+    "name": "zeezout en zwarte peper",
+    "standardAmount": "naar smaak"
+   },
+   "w-es-003-i12": {
+    "name": "gehakte peterselie",
+    "standardAmount": "ter garnering"
+   }
+  },
+  "instructions": {
+   "1": "Snijd het stokbrood in plakken van 1,25 cm, leg ze op een met folie beklede bakplaat en rooster 10 minuten in een voorverwarmde oven van 200°C; zet apart.",
+   "2": "Verhit een soeppan op middelhoog vuur en voeg de olijfolie toe.",
+   "3": "Voeg na enkele minuten de knoflook en chilivlokken toe en roer 1 minuut; voeg de geroosterde broodplakken toe en roer 3 minuten, dan de gerookte paprika, en daarna de geraspte tomaten; breng op smaak met zout en peper.",
+   "4": "Voeg 3 minuten na de tomaten de groentebouillon en het laurierblad toe, breng aan de kook, dek af en laat op laag vuur sudderen; roer elke 2-3 minuten om het brood te laten uiteenvallen.",
+   "5": "Dep terwijl de soep suddert de kabeljauwfilet droog, breng op smaak en snijd fijn; klop de eieren in een kom met zout.",
+   "6": "Verwijder na 15 minuten sudderen het laurierblad, voeg de kabeljauw toe en laat 3 minuten meekoken; giet dan langzaam de geklopte eieren erbij al roerend, dek af en zet het vuur uit.",
+   "7": "Schep na enkele minuten de soep in ondiepe kommen en garneer met peterselie. Eet smakelijk!"
+  },
+  "culturalNotes": "Zurrukutuna is een traditionele knoflooksoep uit Baskenland in Spanje, bekend om haar rijke en krachtige smaak.",
+  "chapter": "es"
+ },
+ "w-es-004": {
+  "title": "Boquerones en Vinagre (Gemarineerde Sardientjes)",
+  "ingredients": {
+   "w-es-004-i1": {
+    "name": "sardientjes",
+    "standardAmount": "450 g"
+   },
+   "w-es-004-i2": {
+    "name": "citroensap",
+    "standardAmount": "naar behoefte"
+   },
+   "w-es-004-i3": {
+    "name": "appelazijn",
+    "standardAmount": "naar behoefte"
+   },
+   "w-es-004-i4": {
+    "name": "zeezout",
+    "standardAmount": "naar smaak"
+   },
+   "w-es-004-i5": {
+    "name": "zwarte peper",
+    "standardAmount": "naar smaak"
+   },
+   "w-es-004-i6": {
+    "name": "peterselie",
+    "standardAmount": "naar behoefte"
+   }
+  },
+  "instructions": {
+   "1": "Maak de sardientjes schoon: verwijder kop, ingewanden en graat met je duim. Spoel af onder koud water en doe in een kom met wat zeezout.",
+   "2": "Leg de sardientjes plat in een glazen ovenschaal. Gebruik glas, geen metaal, om een metalige smaak te voorkomen.",
+   "3": "Bedek de sardientjes met citroensap en azijn. Tip: gebruik meer azijn dan citroensap; de citroensmaak wordt de volgende dag bitter.",
+   "4": "Hak de peterselie fijn en strooi over de sardientjes.",
+   "5": "Leg een tweede laag sardientjes en herhaal.",
+   "6": "Dek de schaal af met folie en zet minimaal 4 uur in de koelkast.",
+   "7": "Spoel de sardientjes voor het serveren af met koud water en garneer met peterselie en zeezout. Serveer met boerenbrood."
+  },
+  "culturalNotes": "Boquerones en Vinagre is een traditionele tapas in Spanje, vaak geserveerd als aperitief in bars en cafés.",
+  "chapter": "es"
+ },
+ "w-es-005": {
+  "title": "Crema Catalana (Catalaanse Room)",
+  "ingredients": {
+   "w-es-005-i1": {
+    "name": "volle melk",
+    "standardAmount": "2 1/2 kopjes"
+   },
+   "w-es-005-i2": {
+    "name": "vanillestokje",
+    "standardAmount": "1 stuk"
+   },
+   "w-es-005-i3": {
+    "name": "kaneelstokje",
+    "standardAmount": "1 stuk"
+   },
+   "w-es-005-i4": {
+    "name": "citroenschillen",
+    "standardAmount": "8 stuks"
+   },
+   "w-es-005-i5": {
+    "name": "eidooiers",
+    "standardAmount": "5 stuks"
+   },
+   "w-es-005-i6": {
+    "name": "suiker",
+    "standardAmount": "1/4 kopje + extra voor de korst"
+   },
+   "w-es-005-i7": {
+    "name": "maïszetmeel",
+    "standardAmount": "1 eetlepel"
+   }
+  },
+  "instructions": {
+   "1": "Doe 2 kopjes melk in een steelpan met 8 citroenschillen, 1 kaneelstokje, 1 geopend vanillestokje en 2 eetlepels suiker. Breng op middelhoog vuur licht aan de kook, zet het vuur uit en laat 10 minuten trekken.",
+   "2": "Scheid de dooiers van 5 eieren (gooi de eiwitten weg). Klop de dooiers met 2 eetlepels suiker. Meng in een aparte kom 1/2 kopje koude melk met 1 eetlepel maïszetmeel en voeg toe aan de dooiers.",
+   "3": "Zeef de getrokken melk in het eimengsel en klop goed. Zet terug op middelhoog vuur en klop 9-10 minuten tot het mengsel indikt. Zet het vuur uit en klop nog 30 seconden.",
+   "4": "Verdeel over 4 schaaltjes. Dek na 20 minuten af met folie en zet minimaal 4 uur in de koelkast.",
+   "5": "Strooi voor het serveren 1 eetlepel suiker op elk schaaltje en karamelliseer met een keukenbrander tot diep goudbruin."
+  },
+  "culturalNotes": "Crema Catalana is een traditioneel dessert uit Catalonië, Spanje, bekend om zijn rijke smaak en knapperig gekaramelliseerd laagje.",
+  "chapter": "es"
+ },
+ "w-es-006": {
+  "title": "Fabada Asturiana (Asturische Bonenschotel)",
+  "ingredients": {
+   "w-es-006-i1": {
+    "name": "knoflook",
+    "standardAmount": "3 teentjes"
+   },
+   "w-es-006-i2": {
+    "name": "ui",
+    "standardAmount": "1/2 stuk"
+   },
+   "w-es-006-i3": {
+    "name": "halal rundworst",
+    "standardAmount": "2 stuks"
+   },
+   "w-es-006-i4": {
+    "name": "witte bonen",
+    "standardAmount": "570 g"
+   },
+   "w-es-006-i5": {
+    "name": "extra vierge olijfolie",
+    "standardAmount": "1 eetlepel"
+   },
+   "w-es-006-i6": {
+    "name": "zoete gerookte paprika",
+    "standardAmount": "1 theelepel"
+   },
+   "w-es-006-i7": {
+    "name": "koud water",
+    "standardAmount": "1,5 kopje"
+   },
+   "w-es-006-i8": {
+    "name": "saffraandraadjes",
+    "standardAmount": "1/2 theelepel"
+   },
+   "w-es-006-i9": {
+    "name": "zeezout",
+    "standardAmount": "naar smaak"
+   },
+   "w-es-006-i10": {
+    "name": "zwarte peper",
+    "standardAmount": "naar smaak"
+   }
+  },
+  "instructions": {
+   "1": "Laat de witte bonen uitlekken in een zeef en spoel af onder koud water.",
+   "2": "Pel 3 teentjes knoflook en snijd fijn, snijd een halve ui in blokjes en snijd de worsten in stukken van 2,5 cm.",
+   "3": "Verhit een grote pan op middelhoog vuur met een royale eetlepel olijfolie. Voeg na 2 minuten de worsten toe en bak 4 minuten bruin; schep uit de pan.",
+   "4": "Voeg in dezelfde pan ui en knoflook toe en fruit 3 minuten tot de ui glazig is. Voeg de paprika toe en roer snel.",
+   "5": "Zet de worsten terug in de pan, voeg de bonen toe en roer goed. Voeg 1,5 kopje koud water, een snufje zeezout en de saffraan toe en roer zachtjes.",
+   "6": "Dek de pan af en kook 8 minuten op middelhoog vuur. Haal de deksel eraf en zet het vuur uit; het vocht moet tot een rijke bouillon zijn ingedikt.",
+   "7": "Verdeel de fabada over ondiepe kommen en serveer warm."
+  },
+  "culturalNotes": "Fabada Asturiana is een traditioneel gerecht uit Asturië in Noord-Spanje, bekend om zijn rijke smaak en karakteristieke kruiden.",
+  "chapter": "es"
+ },
+ "w-es-007": {
+  "title": "Spaanse Vis-Tomatenstoof",
+  "ingredients": {
+   "w-es-007-i1": {
+    "name": "extra vierge olijfolie",
+    "standardAmount": "45 ml"
+   },
+   "w-es-007-i2": {
+    "name": "ui",
+    "standardAmount": "1 middelgrote"
+   },
+   "w-es-007-i3": {
+    "name": "knoflook",
+    "standardAmount": "4 teentjes"
+   },
+   "w-es-007-i4": {
+    "name": "selderij",
+    "standardAmount": "2 stengels"
+   },
+   "w-es-007-i5": {
+    "name": "wortel",
+    "standardAmount": "1 stuk"
+   },
+   "w-es-007-i6": {
+    "name": "zoete gerookte paprika",
+    "standardAmount": "2 theelepels"
+   },
+   "w-es-007-i7": {
+    "name": "gedroogde tijm",
+    "standardAmount": "1/2 theelepel"
+   },
+   "w-es-007-i8": {
+    "name": "tomatenblokjes",
+    "standardAmount": "1 blik (425 g)"
+   },
+   "w-es-007-i9": {
+    "name": "visbouillon",
+    "standardAmount": "1 1/2 kopje (360 ml)"
+   },
+   "w-es-007-i10": {
+    "name": "saffraandraadjes",
+    "standardAmount": "1/4 theelepel"
+   },
+   "w-es-007-i11": {
+    "name": "kleine aardappeltjes",
+    "standardAmount": "450 g"
+   },
+   "w-es-007-i12": {
+    "name": "kabeljauwfilets",
+    "standardAmount": "3 stuks (225 g elk)"
+   },
+   "w-es-007-i13": {
+    "name": "citroensap",
+    "standardAmount": "1 eetlepel"
+   },
+   "w-es-007-i14": {
+    "name": "zeezout en zwarte peper",
+    "standardAmount": "naar smaak"
+   },
+   "w-es-007-i15": {
+    "name": "gehakte peterselie",
+    "standardAmount": "ter garnering"
+   }
+  },
+  "instructions": {
+   "1": "Verhit een grote pan op middelhoog vuur en voeg de olijfolie toe.",
+   "2": "Voeg na enkele minuten ui, knoflook, selderij en wortel toe en fruit 5 minuten.",
+   "3": "Voeg de paprika en tijm toe en roer snel; voeg dan tomatenblokjes, visbouillon en saffraan toe, breng op smaak en zet het vuur hoog.",
+   "4": "Halveer ondertussen de kleine aardappeltjes; bij grotere aardappels, snijd in hapklare stukken van 2 cm.",
+   "5": "Zodra de bouillon kookt, voeg de aardappels toe, dek af en zet het vuur laag.",
+   "6": "Dep terwijl de stoof suddert de kabeljauwfilets droog, breng op smaak en snijd elk filet doormidden.",
+   "7": "Voeg na 20 minuten sudderen de vis in één laag toe, keer elk stuk om in de bouillon, dek af en laat 5 minuten garen.",
+   "8": "Serveer direct uit de pan of in ondiepe kommen met een scheutje citroensap en peterselie."
+  },
+  "culturalNotes": "Deze Spaanse vis-tomatenstoof is een traditioneel gerecht dat vaak bij speciale gelegenheden en familiebijeenkomsten wordt geserveerd.",
+  "chapter": "es"
+ },
+ "w-es-008": {
+  "title": "Patat (Friet)",
+  "ingredients": {
+   "w-es-008-i1": {
+    "name": "grote aardappels",
+    "standardAmount": "2 extra grote"
+   },
+   "w-es-008-i2": {
+    "name": "plantaardige olie",
+    "standardAmount": "1 liter"
+   },
+   "w-es-008-i3": {
+    "name": "zout",
+    "standardAmount": "naar smaak"
+   }
+  },
+  "instructions": {
+   "1": "Snijd de randen van de aardappels tot een rechthoek. Snijd in plakken van 1 cm en vervolgens in frieten.",
+   "2": "Leg de frieten minstens 30 minuten in koud water (of een nacht in de koelkast). Je kunt ze ook spoelen tot het water helder blijft — om het losse zetmeel kwijt te raken.",
+   "3": "Droog de aardappels vlak voor het frituren goed af met een theedoek.",
+   "4": "Verhit de olie tot 160°C. Frituur de frieten in kleine porties ongeveer 5 minuten tot gaar maar niet bruin. Laat de olie tussen de porties op temperatuur komen. Laat uitlekken.",
+   "5": "Laat 30 minuten rusten.",
+   "6": "Verhit de olie tot 190°C. Frituur de frieten 2-4 minuten tot lichtbruin en knapperig. Laat uitlekken.",
+   "7": "Bestrooi met zout en serveer direct."
+  },
+  "culturalNotes": "Friet is een populair gerecht in Spanje, bekend als 'papas fritas'.",
+  "chapter": "es"
+ },
+ "w-es-009": {
+  "title": "Croquetas de Pavo (Kalkoenkroketten)",
+  "ingredients": {
+   "w-es-009-i1": {
+    "name": "ongezouten boter",
+    "standardAmount": "55 g"
+   },
+   "w-es-009-i2": {
+    "name": "extra vierge olijfolie",
+    "standardAmount": "60 ml"
+   },
+   "w-es-009-i3": {
+    "name": "bloem",
+    "standardAmount": "115 g"
+   },
+   "w-es-009-i4": {
+    "name": "middelgrote ui",
+    "standardAmount": "1 stuk"
+   },
+   "w-es-009-i5": {
+    "name": "volle melk",
+    "standardAmount": "1 liter"
+   },
+   "w-es-009-i6": {
+    "name": "nootmuskaat",
+    "standardAmount": "1/2 theelepel"
+   },
+   "w-es-009-i7": {
+    "name": "halal kalkoenham",
+    "standardAmount": "255 g"
+   },
+   "w-es-009-i8": {
+    "name": "bloem (om te paneren)",
+    "standardAmount": "naar behoefte"
+   },
+   "w-es-009-i9": {
+    "name": "eieren",
+    "standardAmount": "2 stuks"
+   },
+   "w-es-009-i10": {
+    "name": "paneermeel",
+    "standardAmount": "naar behoefte"
+   }
+  },
+  "instructions": {
+   "1": "Smelt de boter met de olijfolie in een pan op laag vuur.",
+   "2": "Voeg de fijngehakte ui toe en fruit 5-6 minuten tot goudbruin.",
+   "3": "Voeg een snufje zout en nootmuskaat toe en roer goed.",
+   "4": "Voeg de fijngehakte halal kalkoenham toe en roer 1 minuut.",
+   "5": "Voeg de bloem toe en roer 1 minuut constant.",
+   "6": "Voeg de melk geleidelijk toe terwijl je 15-20 minuten blijft roeren tot het mengsel dik en romig is.",
+   "7": "Schenk het mengsel in een grote kom en laat afkoelen tot kamertemperatuur; dek af met folie en zet minimaal 4 uur of een nacht in de koelkast.",
+   "8": "Vorm kleine kroketten van het koude mengsel en haal ze door bloem, dan losgeklopt ei, dan paneermeel.",
+   "9": "Verhit olie in een pan en bak de kroketten rondom goudbruin.",
+   "10": "Laat de kroketten uitlekken op keukenpapier."
+  },
+  "culturalNotes": "Kroketten zijn een populair gerecht in Spanje, vaak geserveerd als aperitief in bars en cafés.",
+  "chapter": "es"
+ },
+ "w-es-010": {
+  "title": "Leche Frita (Gebakken Melk)",
+  "ingredients": {
+   "w-es-010-i1": {
+    "name": "melk",
+    "standardAmount": "1 liter"
+   },
+   "w-es-010-i2": {
+    "name": "maïszetmeel",
+    "standardAmount": "1 kopje (125 g)"
+   },
+   "w-es-010-i3": {
+    "name": "kristalsuiker",
+    "standardAmount": "3/4 kopje (150 g)"
+   },
+   "w-es-010-i4": {
+    "name": "kaneelpoeder",
+    "standardAmount": "1/2 theelepel"
+   },
+   "w-es-010-i5": {
+    "name": "kaneelstokje",
+    "standardAmount": "1 stuk"
+   },
+   "w-es-010-i6": {
+    "name": "citroenschillen",
+    "standardAmount": "4 stuks"
+   },
+   "w-es-010-i7": {
+    "name": "citroen",
+    "standardAmount": "1/2 stuk"
+   },
+   "w-es-010-i8": {
+    "name": "eieren",
+    "standardAmount": "2 stuks"
+   },
+   "w-es-010-i9": {
+    "name": "zonnebloemolie",
+    "standardAmount": "1/2 kopje (125 ml)"
+   }
+  },
+  "instructions": {
+   "1": "Doe 3 kopjes melk in een steelpan met het kaneelstokje en 4 citroenschillen. Verhit op middelhoog vuur tot licht aan de kook en zet het vuur uit.",
+   "2": "Doe terwijl de melk trekt 1 kopje melk in een kom en voeg al kloppend geleidelijk het maïszetmeel toe.",
+   "3": "Vet een ovenschaal van 25x15 cm in met 1 theelepel zonnebloemolie.",
+   "4": "Verwijder na 20 minuten trekken de schillen en het kaneelstokje; verhit de melk en voeg het zetmeelmengsel en de suiker geleidelijk toe terwijl je 20-25 minuten klopt tot dik en romig.",
+   "5": "Giet het dikke mengsel in de schaal, laat afkoelen, dek af en zet minstens 2 uur in de koelkast.",
+   "6": "Keer de schaal na enkele uren om op een snijplank en snijd het mengsel in vierkantjes van 4x4 cm.",
+   "7": "Doe maïszetmeel in een kom en klop de eieren in een andere. Haal elk vierkantje door zetmeel, dan door het ei, en leg op een met bakpapier beklede bord.",
+   "8": "Verhit 1/2 kopje zonnebloemolie in een kleine pan op middelhoog vuur. Bak de vierkantjes in porties 45-60 seconden per kant. Laat uitlekken op keukenpapier.",
+   "9": "Meng suiker met kaneelpoeder en wentel de gebakken vierkantjes erin. Leg op een serveerschaal, bestrooi met citroenrasp en serveer direct."
+  },
+  "culturalNotes": "Leche Frita is een traditioneel Spaans dessert dat vaak bij speciale gelegenheden en familiebijeenkomsten wordt geserveerd.",
+  "chapter": "es"
+ },
+ "w-es-011": {
+  "title": "Natillas (Spaanse Vla)",
+  "ingredients": {
+   "w-es-011-i1": {
+    "name": "volle melk",
+    "standardAmount": "2 1/4 kopjes"
+   },
+   "w-es-011-i2": {
+    "name": "suiker",
+    "standardAmount": "1/3 kopje"
+   },
+   "w-es-011-i3": {
+    "name": "eieren",
+    "standardAmount": "3 stuks"
+   },
+   "w-es-011-i4": {
+    "name": "vanillestokje",
+    "standardAmount": "1 stuk"
+   },
+   "w-es-011-i5": {
+    "name": "kaneelstokje",
+    "standardAmount": "1 stuk"
+   },
+   "w-es-011-i6": {
+    "name": "citroenschillen",
+    "standardAmount": "3 stuks"
+   },
+   "w-es-011-i7": {
+    "name": "kaneelpoeder",
+    "standardAmount": "1 theelepel"
+   },
+   "w-es-011-i8": {
+    "name": "María-koekjes",
+    "standardAmount": "4 stuks"
+   }
+  },
+  "instructions": {
+   "1": "Klop 3 eieren in een kom, voeg de helft van de suiker toe en meng goed.",
+   "2": "Verhit een pan op middelhoog vuur met de melk, de resterende suiker, kaneel, vanille en citroenschillen.",
+   "3": "Giet ongeveer 1/3 kopje warme melk in de eikom terwijl je blijft kloppen, om de eieren te temperen.",
+   "4": "Verwijder kaneel, vanille en citroenschillen voordat je het eimengsel toevoegt.",
+   "5": "Giet het eimengsel langzaam in de pan terwijl je constant roert. Kook tot de vla licht indikt.",
+   "6": "Verdeel de vla over 3 kommetjes, bestrooi met kaneel en leg een María-koekje in elk.",
+   "7": "Dek elk kommetje af met folie en zet minstens 2 uur in de koelkast.",
+   "8": "Eet smakelijk!"
+  },
+  "culturalNotes": "Natillas zijn een traditioneel Spaans dessert dat meestal bij speciale gelegenheden wordt geserveerd.",
+  "chapter": "es"
+ },
+ "w-es-012": {
+  "title": "Turrón de Alicante (Harde Amandelnoga)",
+  "ingredients": {
+   "w-es-012-i1": {
+    "name": "geshelde amandelen",
+    "standardAmount": "1 1/2 kopje"
+   },
+   "w-es-012-i2": {
+    "name": "honing",
+    "standardAmount": "1/2 kopje"
+   },
+   "w-es-012-i3": {
+    "name": "suiker",
+    "standardAmount": "1/2 kopje"
+   },
+   "w-es-012-i4": {
+    "name": "eiwit",
+    "standardAmount": "1 stuk"
+   },
+   "w-es-012-i5": {
+    "name": "extra vierge olijfolie",
+    "standardAmount": "naar behoefte"
+   }
+  },
+  "instructions": {
+   "1": "Verwarm de oven voor op 210°C.",
+   "2": "Verdeel de amandelen in één laag op een met bakpapier beklede plaat en rooster tot geurig en goudbruin.",
+   "3": "Zet 1 eiwit op kamertemperatuur apart in een kom.",
+   "4": "Verhit een grote pan op LAAG vuur en voeg de honing toe. Kook 15 minuten zonder te roeren, voeg dan de suiker toe en kook nog 15 minuten.",
+   "5": "Klop na 30 minuten het eiwit stijf met de mixer.",
+   "6": "Voeg de geroosterde amandelen toe aan de turrón en meng met een spatel tot een homogeen geheel.",
+   "7": "Giet de turrón in een met licht geolied bakpapier bekleed cakeblik.",
+   "8": "Twee opties: laat de turrón een nacht rusten om hard te worden, of zet in de koelkast om het te versnellen."
+  },
+  "culturalNotes": "Turrón de Alicante is een traditioneel zoet uit de regio Alicante in Spanje, vooral rond de kerst geproduceerd.",
+  "chapter": "es"
+ },
+ "w-es-013": {
+  "title": "Pa amb Tomàquet (Brood met Tomaat en Knoflook)",
+  "ingredients": {
+   "w-es-013-i1": {
+    "name": "boerenbrood",
+    "standardAmount": "4 dikke plakken"
+   },
+   "w-es-013-i2": {
+    "name": "knoflook",
+    "standardAmount": "4 teentjes"
+   },
+   "w-es-013-i3": {
+    "name": "tomaat",
+    "standardAmount": "1 stuk"
+   },
+   "w-es-013-i4": {
+    "name": "olijfolie",
+    "standardAmount": "1/4 kopje"
+   },
+   "w-es-013-i5": {
+    "name": "zout",
+    "standardAmount": "naar smaak"
+   },
+   "w-es-013-i6": {
+    "name": "versgemalen peper",
+    "standardAmount": "naar smaak"
+   }
+  },
+  "instructions": {
+   "1": "Rooster de broodplakken onder de grill of op een hete grillplaat ongeveer 30 seconden per kant.",
+   "2": "Breng het geroosterde brood naar tafel. Geef iedereen een teentje knoflook om op zijn eigen plak te wrijven.",
+   "3": "Wrijf de tomaathalfjes over het geroosterde brood.",
+   "4": "Besprenkel met olijfolie en breng op smaak met zout en versgemalen peper.",
+   "5": "Serveer warm."
+  },
+  "culturalNotes": "Pa amb tomàquet is een traditioneel Catalaans gerecht, geserveerd als aperitief of lichte maaltijd.",
+  "chapter": "es"
+ },
+ "w-es-014": {
+  "title": "Patatas Bravas (Aardappels in Pittige Saus)",
+  "ingredients": {
+   "w-es-014-i1": {
+    "name": "aardappel",
+    "standardAmount": "1 grote"
+   },
+   "w-es-014-i2": {
+    "name": "tomatenpulp",
+    "standardAmount": "1 kopje"
+   },
+   "w-es-014-i3": {
+    "name": "knoflook",
+    "standardAmount": "1 teentje"
+   },
+   "w-es-014-i4": {
+    "name": "gedroogd chilipepertje",
+    "standardAmount": "1 klein"
+   },
+   "w-es-014-i5": {
+    "name": "gerookte paprika",
+    "standardAmount": "1/2 theelepel"
+   },
+   "w-es-014-i6": {
+    "name": "kristalsuiker",
+    "standardAmount": "1/4 theelepel"
+   },
+   "w-es-014-i7": {
+    "name": "extra vierge olijfolie",
+    "standardAmount": "2 eetlepels"
+   },
+   "w-es-014-i8": {
+    "name": "verse peterselie",
+    "standardAmount": "naar smaak"
+   },
+   "w-es-014-i9": {
+    "name": "zeezout",
+    "standardAmount": "naar smaak"
+   },
+   "w-es-014-i10": {
+    "name": "versgemalen zwarte peper",
+    "standardAmount": "naar smaak"
+   }
+  },
+  "instructions": {
+   "1": "Verwarm de oven voor op de hoogste stand.",
+   "2": "Hak de knoflook en het gedroogde chilipepertje fijn.",
+   "3": "Verhit een steelpanje op middelhoog vuur met 1 eetlepel olijfolie.",
+   "4": "Voeg als de olie heet is knoflook en chili toe, roer 15 seconden en voeg dan tomatenpulp, paprika, suiker en zout toe; laat zachtjes sudderen.",
+   "5": "Snijd de aardappel in plakjes van ongeveer 2 mm.",
+   "6": "Leg de plakjes in één laag op een met bakpapier beklede plaat, besprenkel met de resterende olie en bestrooi met zout.",
+   "7": "Bak 20 minuten in de oven tot de aardappels gaar zijn.",
+   "8": "Leg de plakjes op een serveerschaal, giet de tomatensaus erover en garneer met peterselie."
+  },
+  "culturalNotes": "Patatas bravas zijn erg populair in Spanje, vooral in de regio Alicante, waar ze als tapas worden geserveerd.",
+  "chapter": "es"
+ },
+ "w-es-015": {
+  "title": "Pisto Andaluz (Andalusische Groentestoof)",
+  "ingredients": {
+   "w-es-015-i1": {
+    "name": "extra vierge olijfolie",
+    "standardAmount": "1/4 kopje (60 ml)"
+   },
+   "w-es-015-i2": {
+    "name": "aardappel",
+    "standardAmount": "1 middelgrote, in blokjes"
+   },
+   "w-es-015-i3": {
+    "name": "ui",
+    "standardAmount": "1 grote"
+   },
+   "w-es-015-i4": {
+    "name": "knoflook",
+    "standardAmount": "3 teentjes"
+   },
+   "w-es-015-i5": {
+    "name": "rode paprika",
+    "standardAmount": "1 grote"
+   },
+   "w-es-015-i6": {
+    "name": "groene paprika",
+    "standardAmount": "1 grote"
+   },
+   "w-es-015-i7": {
+    "name": "courgette",
+    "standardAmount": "1 middelgrote"
+   },
+   "w-es-015-i8": {
+    "name": "zoete gerookte paprika",
+    "standardAmount": "1 theelepel"
+   },
+   "w-es-015-i9": {
+    "name": "komijn",
+    "standardAmount": "3/4 theelepel"
+   },
+   "w-es-015-i10": {
+    "name": "tomaten",
+    "standardAmount": "4 stuks"
+   },
+   "w-es-015-i11": {
+    "name": "zeezout en zwarte peper",
+    "standardAmount": "naar smaak"
+   },
+   "w-es-015-i12": {
+    "name": "verse peterselie",
+    "standardAmount": "ter garnering"
+   }
+  },
+  "instructions": {
+   "1": "Verhit een grote pan op middelhoog vuur en voeg de olijfolie toe.",
+   "2": "Snijd ondertussen de aardappel in kleine blokjes.",
+   "3": "Voeg als de olie heet is de aardappel toe en meng met de olie; roer om de paar minuten.",
+   "4": "Snijd terwijl de aardappels bakken ui en knoflook grof en paprika's en courgette fijn.",
+   "5": "Haal de aardappels na ongeveer 20 minuten bakken, als ze goudbruin zijn, uit de pan.",
+   "6": "Zet in dezelfde pan het vuur lager, voeg ui, knoflook en paprika's toe en fruit al roerend.",
+   "7": "Voeg na 6-8 minuten, als de groenten licht zijn aangefruit, de courgette toe en meng.",
+   "8": "Als de courgette na ongeveer 4 minuten licht is aangefruit, voeg paprika en komijn toe, roer snel en voeg de gehakte tomaten toe.",
+   "9": "Kook tot de tomaten uiteenvallen, zet de aardappels terug en meng; serveer op een groot bord met verse peterselie. Eet smakelijk!"
+  },
+  "culturalNotes": "Pisto andaluz is een traditioneel Spaans gerecht van gebakken en gefruitte groenten, geserveerd als hoofdgerecht of bijgerecht.",
+  "chapter": "es"
+ },
+ "w-es-016": {
+  "title": "Arroz con Leche (Rijstepap)",
+  "ingredients": {
+   "w-es-016-i1": {
+    "name": "water",
+    "standardAmount": "1 kopje"
+   },
+   "w-es-016-i2": {
+    "name": "witte rijst",
+    "standardAmount": "1/2 kopje"
+   },
+   "w-es-016-i3": {
+    "name": "zout",
+    "standardAmount": "een snufje"
+   },
+   "w-es-016-i4": {
+    "name": "kaneelstokje",
+    "standardAmount": "1 stuk"
+   },
+   "w-es-016-i5": {
+    "name": "melk",
+    "standardAmount": "4 kopjes"
+   },
+   "w-es-016-i6": {
+    "name": "suiker",
+    "standardAmount": "1/2 kopje"
+   },
+   "w-es-016-i7": {
+    "name": "eidooiers",
+    "standardAmount": "3 stuks"
+   },
+   "w-es-016-i8": {
+    "name": "kaneelpoeder",
+    "standardAmount": "naar smaak"
+   },
+   "w-es-016-i9": {
+    "name": "citroenrasp",
+    "standardAmount": "naar smaak"
+   },
+   "w-es-016-i10": {
+    "name": "amandelschaafsel",
+    "standardAmount": "naar smaak"
+   },
+   "w-es-016-i11": {
+    "name": "rozijnen",
+    "standardAmount": "naar smaak"
+   }
+  },
+  "instructions": {
+   "1": "Breng in een middelgrote pan het water aan de kook.",
+   "2": "Voeg rijst, zout, het kaneelstokje en citroenschil toe. Dek af en laat 16 minuten zachtjes koken tot de rijst gaar is.",
+   "3": "Verhit in een grote pan de melk met de suiker tot warm en opgelost.",
+   "4": "Roer enkele lepels warme melk door de dooiers om ze te temperen.",
+   "5": "Giet de getemperde dooiers terug in de warme melk terwijl je roert.",
+   "6": "Voeg de gekookte rijst (met kaneel en schil) toe aan de melk en laat op laag vuur indikken.",
+   "7": "Garneer met kaneel, citroenrasp, rozijnen en amandelschaafsel."
+  },
+  "culturalNotes": "Arroz con leche is een traditioneel Spaans dessert, vaak geserveerd bij speciale gelegenheden en familiebijeenkomsten.",
+  "chapter": "es"
+ },
+ "w-es-017": {
+  "title": "Spaanse Tortilla (Tortilla de Patatas)",
+  "ingredients": {
+   "w-es-017-i1": {
+    "name": "eieren",
+    "standardAmount": "8 stuks"
+   },
+   "w-es-017-i2": {
+    "name": "aardappels",
+    "standardAmount": "1 kg"
+   },
+   "w-es-017-i3": {
+    "name": "ui",
+    "standardAmount": "1 stuk"
+   },
+   "w-es-017-i4": {
+    "name": "olijfolie",
+    "standardAmount": "500 ml"
+   },
+   "w-es-017-i5": {
+    "name": "zout",
+    "standardAmount": "een snufje"
+   }
+  },
+  "instructions": {
+   "1": "Schil de aardappels, was en dep ze droog. Snijd in blokjes van 1 cm of plakjes van 2 mm.",
+   "2": "Verhit de olie in een pan. Bak de aardappels zonder bruin te worden tot ze gaar zijn; laat uitlekken.",
+   "3": "Snijd de ui in blokjes of plakjes en fruit tot glazig.",
+   "4": "Klop de 8 eieren in een kom met een snufje zout tot homogeen; meng met aardappels en ui.",
+   "5": "Verhit 3 eetlepels olijfolie in een schone pan.",
+   "6": "Giet als de pan heet is het ei-ui-aardappelmengsel erin.",
+   "7": "Na 7-8 minuten moet de onderkant gestold zijn. Leg een bord op de pan en keer voorzichtig om.",
+   "8": "Nog een paar minuten en hij is klaar om te serveren."
+  },
+  "culturalNotes": "De Spaanse tortilla is een traditioneel Spaans gerecht, ook bekend als tortilla de patatas; het wordt geserveerd als lichte maaltijd of tapa.",
+  "chapter": "es"
+ },
+ "w-es-018": {
+  "title": "Tarta de Santiago (Santiago-amandelcake)",
+  "ingredients": {
+   "w-es-018-i1": {
+    "name": "geshelde amandelen",
+    "standardAmount": "2 1/2 kopjes"
+   },
+   "w-es-018-i2": {
+    "name": "kristalsuiker",
+    "standardAmount": "1 1/4 kopjes"
+   },
+   "w-es-018-i3": {
+    "name": "grote eieren",
+    "standardAmount": "5 stuks"
+   },
+   "w-es-018-i4": {
+    "name": "kaneelpoeder",
+    "standardAmount": "1 theelepel"
+   },
+   "w-es-018-i5": {
+    "name": "citroenrasp",
+    "standardAmount": "1 theelepel"
+   },
+   "w-es-018-i6": {
+    "name": "poedersuiker",
+    "standardAmount": "2 eetlepels"
+   },
+   "w-es-018-i7": {
+    "name": "antiaanbakspray",
+    "standardAmount": "naar behoefte"
+   }
+  },
+  "instructions": {
+   "1": "Verdeel 350 g geshelde amandelen op een met bakpapier beklede plaat en rooster in de oven.",
+   "2": "Haal de amandelen eruit, laat afkoelen en maal in de keukenmachine tot amandelmeel.",
+   "3": "Meng in een grote kom 250 g suiker met 5 eieren, voeg dan kaneel en citroenrasp toe.",
+   "4": "Voeg het amandelmengsel geleidelijk toe aan het ei-suikermengsel en roer tot homogeen.",
+   "5": "Bekleed een ronde vorm van 22 cm met bakpapier en spray de randen in.",
+   "6": "Bak 55 minuten op 170°C tot de cake gaar en goudbruin is.",
+   "7": "Haal uit de oven, laat afkoelen, ontvorm en zet op een serveerschaal.",
+   "8": "Leg de sjabloon van het Santiago-kruis op de cake en bestrooi met poedersuiker; verwijder de sjabloon voorzichtig."
+  },
+  "culturalNotes": "Tarta de Santiago is een traditioneel amandeldessert uit Galicië in Spanje, vaak versierd met het kruis van Santiago.",
+  "chapter": "es"
+ },
+ "w-es-019": {
+  "title": "Zarangollo Murciano (Roeirei met Courgette)",
+  "ingredients": {
+   "w-es-019-i1": {
+    "name": "eieren",
+    "standardAmount": "4 stuks"
+   },
+   "w-es-019-i2": {
+    "name": "ui",
+    "standardAmount": "1/2 stuk"
+   },
+   "w-es-019-i3": {
+    "name": "courgette",
+    "standardAmount": "1 stuk"
+   },
+   "w-es-019-i4": {
+    "name": "extra vierge olijfolie",
+    "standardAmount": "2 eetlepels"
+   },
+   "w-es-019-i5": {
+    "name": "zeezout en zwarte peper",
+    "standardAmount": "naar smaak"
+   },
+   "w-es-019-i6": {
+    "name": "fijngehakte verse bieslook",
+    "standardAmount": "een handvol"
+   }
+  },
+  "instructions": {
+   "1": "Breek 4 eieren in een kom, breng op smaak met zeezout en zwarte peper en klop licht.",
+   "2": "Snijd een halve ui in dunne plakjes.",
+   "3": "Schil een middelgrote courgette en snijd in plakjes van ongeveer 3 mm.",
+   "4": "Verhit een grote antiaanbakpan op middelhoog vuur met 2 eetlepels olijfolie.",
+   "5": "Voeg na 1 minuut de ui toe en meng met de olie; voeg na 2 minuten de courgetteplakjes toe en bak tot zacht.",
+   "6": "Zet het vuur lager, giet het eimengsel erbij en roer elke 30 seconden tot de eieren romig maar gestold zijn.",
+   "7": "Schep op een serveerschaal en bestrooi met verse bieslook. Eet smakelijk!"
+  },
+  "culturalNotes": "Zarangollo murciano is een traditioneel gerecht uit de regio Murcia in Spanje, bekend om zijn eenvoud en rijke smaak.",
+  "chapter": "es"
+ }
 }
