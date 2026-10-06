@@ -38,7 +38,7 @@ TERMS = {
     'Sv': r'fl[aä]sk\w*|gris\w*|bacon|ister|skinka|vin|[oö]l|rom|lik[oö]r|tj[aä]der|hästkött|hundkött',
     'Tr': r'domuz|jambon|[şs]arap|bira|rom|lik[oö]r|rak[ıi]|at eti|k[oö]pek',
     'Id': r'babi(?! laut)|lemak babi|ham|anggur merah|bir|rum|arak|tuak|kuda|anjing',
-    'Sw': r'nguruwe|bekoni|divai|mvinyo|bia|pombe|ramu|farasi|mbwa|punda',
+    'Sw': r'nguruwe|bekoni|divai|mvinyo|bia|pombe|ramu|farasi|mbwa|punda|mgema',
     'Ku': r'beraz|[şs]erab|b[iî]re|araq|hesp|kûçik|se',  # not "bîra": also "memory"
     'Ru': r'свин\w*|сало|бекон|ветчин\w*|вин[оа]|пив\w*|ром|ликёр\w*|водк\w*|коньяк\w*|медвеж\w*|конин\w*|собач\w*',
     'El': r'χοιρ\w*|μπέικον|ζαμπόν|κρασ[ίι]\w*|μπύρα|ρούμι|λικέρ|ούζο|αρκούδ\w*|άλογ\w*|σκύλ\w*|οίν\w*|οιν[οό]\w*',
@@ -55,7 +55,7 @@ TERMS = {
 # Offensive words that mistranslation has produced (not halal, but must never
 # appear): Hebrew "oz" as אונס (rape), Swahili sugar as "kafiri" (infidel) and
 # "shoga", Hindi "floured" as दलित (a caste name).
-OFFENSIVE = {'He': r'אונס', 'Sw': r'kafiri|shoga', 'Hi': r'दलित'}
+OFFENSIVE = {'He': r'אונס', 'Sw': r'kafiri|shoga|kunya|mzinzi|mbolea', 'Hi': r'दलित'}
 for _l, _t in OFFENSIVE.items():
     TERMS[_l] = TERMS[_l] + '|' + _t
 
