@@ -191,6 +191,9 @@ and single capital section letters (`A`, `B`).
   ("vanilla powder", "halal teriyaki sauce made without mirin or sake").
   This includes alternatives written in the **amount** column
   ("… (or 2 tsp vanilla extract)"). `halal_audit.py` now scans it too.
+- **Generic "minced/ground meat" can default to pork** (e.g. Japanese
+  挽き肉 usually means a pork mix). Always name the animal from the English
+  ("ground beef" → 牛挽き肉).
 - **Notes that name a pork dish** (e.g. "Bì cuốn", "tonkatsu") need
   rewording, even when the recipe itself is halal.
 - When `lint:halal` flags a recipe: substitute the ingredient in the source,
