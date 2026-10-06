@@ -2,12 +2,16 @@
 import cn from './cn.json';
 import es from './es.json';
 import fr from './fr.json';
+import id from './id.json';
+import in from './in.json';
 import it from './it.json';
 import jp from './jp.json';
 import kr from './kr.json';
 import ma from './ma.json';
 import mx from './mx.json';
+import th from './th.json';
+import tr from './tr.json';
 import vn from './vn.json';
 
-const worldEntries = [...cn, ...es, ...fr, ...it, ...jp, ...kr, ...ma, ...mx, ...vn];
+const worldEntries = [...cn, ...es, ...fr, ...id, ...in, ...it, ...jp, ...kr, ...ma, ...mx, ...th, ...tr, ...vn];
 export default worldEntries;
