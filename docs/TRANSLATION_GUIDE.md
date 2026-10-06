@@ -17,10 +17,15 @@ It runs three checks:
 - `lint:halal` (halal audit of the English source of the world catalog)
 - `tsc --noEmit`
 
-Also run `npm run lint:halal-i18n`. It scans the **translations** for pork,
-alcohol and non-halal-animal words, which `lint:halal` never sees. It is
-not in `check:world` yet, because w-jp-040 (tonkatsu sauce) is still under
-review. Any other hit is a bug.
+- `lint:halal-i18n`: scans the **translations** for pork, alcohol and
+  non-halal-animal words, which `lint:halal` never sees. Any hit is a bug.
+
+Halal wording decisions (Oct 2026): name the halal animal instead of a
+pork dish ("Katsu Sauce" for chicken or beef cutlets, not "tonkatsu");
+don't call a dish by another name that is a pork dish (w-vn-001 is not
+"Bì cuốn"); "animal fat" and sausages name the animal ("beef or lamb fat",
+"lamb or beef merguez"). Store-bought sauces and roux (teriyaki, ponzu,
+curry roux) don't need a halal qualifier.
 
 It must exit 0 before you commit anything under `src/data/`. Also run
 `npm run build` before you open a PR. **Never commit with known findings,

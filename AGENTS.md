@@ -16,7 +16,7 @@ Before you add, translate or edit any recipe text (`src/data/world/*.json`,
   October 2026, 35–60% of the fields were wrong in every language even
   though the linter passed. See "What went wrong" in the guide.
 - Translations can break halal on their own ("bacon", "pork broth", "сало"
-  where the English is halal). Run `npm run lint:halal-i18n` as well.
+  where the English is halal). `check:world` runs `lint:halal-i18n` for this.
 - Keep the English units and every sentence. Never convert or shorten.
 
 ---
