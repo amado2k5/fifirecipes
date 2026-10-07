@@ -2,12 +2,24 @@
  "w-lb-026": {
   "title": "Muhallebi",
   "ingredients": {
-   "w-lb-026-i1": {"name": "sữa nguyên"},
-   "w-lb-026-i2": {"name": "đường cát"},
-   "w-lb-026-i3": {"name": "bột ngô"},
-   "w-lb-026-i4": {"name": "nước hoa hồng"},
-   "w-lb-026-i5": {"name": "hạt dẻ cười xay"},
-   "w-lb-026-i6": {"name": "cánh hoa hồng ăn được"}
+   "w-lb-026-i1": {
+    "name": "sữa nguyên"
+   },
+   "w-lb-026-i2": {
+    "name": "đường cát"
+   },
+   "w-lb-026-i3": {
+    "name": "bột ngô"
+   },
+   "w-lb-026-i4": {
+    "name": "nước hoa hồng"
+   },
+   "w-lb-026-i5": {
+    "name": "hạt dẻ cười xay"
+   },
+   "w-lb-026-i6": {
+    "name": "cánh hoa hồng ăn được"
+   }
   },
   "instructions": {
    "1": "Trong nồi nhỏ trên lửa vừa, thêm sữa, đường, và bột ngô, và khuấy đều để trộn tất cả nguyên liệu.",
@@ -23,16 +35,36 @@
  "w-lb-027": {
   "title": "Mujaddara",
   "ingredients": {
-   "w-lb-027-i1": {"name": "đậu lăng khô"},
-   "w-lb-027-i2": {"name": "dầu ô liu"},
-   "w-lb-027-i3": {"name": "muối"},
-   "w-lb-027-i4": {"name": "baharat"},
-   "w-lb-027-i5": {"name": "cumin"},
-   "w-lb-027-i6": {"name": "bạch đậu khấu xay"},
-   "w-lb-027-i7": {"name": "nước"},
-   "w-lb-027-i8": {"name": "gạo chưa nấu"},
-   "w-lb-027-i9": {"name": "tiêu đen"},
-   "w-lb-027-i10": {"name": "hành tây"}
+   "w-lb-027-i1": {
+    "name": "đậu lăng khô"
+   },
+   "w-lb-027-i2": {
+    "name": "dầu ô liu"
+   },
+   "w-lb-027-i3": {
+    "name": "muối"
+   },
+   "w-lb-027-i4": {
+    "name": "baharat"
+   },
+   "w-lb-027-i5": {
+    "name": "cumin"
+   },
+   "w-lb-027-i6": {
+    "name": "bạch đậu khấu xay"
+   },
+   "w-lb-027-i7": {
+    "name": "nước"
+   },
+   "w-lb-027-i8": {
+    "name": "gạo chưa nấu"
+   },
+   "w-lb-027-i9": {
+    "name": "tiêu đen"
+   },
+   "w-lb-027-i10": {
+    "name": "hành tây"
+   }
   },
   "instructions": {
    "1": "Rửa đậu lăng và rửa kỹ. Chiên đậu lăng trong dầu ô liu 3-4 phút, khuấy liên tục cho đến khi một số đậu lăng có dấu cháy.",
@@ -51,20 +83,48 @@
  "w-lb-028": {
   "title": "Qatayef",
   "ingredients": {
-   "w-lb-028-i1": {"name": "bột mì đa dụng"},
-   "w-lb-028-i2": {"name": "semolina mịn"},
-   "w-lb-028-i3": {"name": "đường cát"},
-   "w-lb-028-i4": {"name": "baking powder"},
-   "w-lb-028-i5": {"name": "men nhanh"},
-   "w-lb-028-i6": {"name": "muối"},
-   "w-lb-028-i7": {"name": "sữa ấm"},
-   "w-lb-028-i8": {"name": "xịt nấu"},
-   "w-lb-028-i9": {"name": "đường cát"},
-   "w-lb-028-i10": {"name": "nước"},
-   "w-lb-028-i11": {"name": "nước hoa cam"},
-   "w-lb-028-i12": {"name": "nước chanh"},
-   "w-lb-028-i13": {"name": "phô mai ricotta"},
-   "w-lb-028-i14": {"name": "phô mai mozzarella sợi"}
+   "w-lb-028-i1": {
+    "name": "bột mì đa dụng"
+   },
+   "w-lb-028-i2": {
+    "name": "semolina mịn"
+   },
+   "w-lb-028-i3": {
+    "name": "đường cát"
+   },
+   "w-lb-028-i4": {
+    "name": "baking powder"
+   },
+   "w-lb-028-i5": {
+    "name": "men nhanh"
+   },
+   "w-lb-028-i6": {
+    "name": "muối"
+   },
+   "w-lb-028-i7": {
+    "name": "sữa ấm"
+   },
+   "w-lb-028-i8": {
+    "name": "xịt nấu"
+   },
+   "w-lb-028-i9": {
+    "name": "đường cát"
+   },
+   "w-lb-028-i10": {
+    "name": "nước"
+   },
+   "w-lb-028-i11": {
+    "name": "nước hoa cam"
+   },
+   "w-lb-028-i12": {
+    "name": "nước chanh"
+   },
+   "w-lb-028-i13": {
+    "name": "phô mai ricotta"
+   },
+   "w-lb-028-i14": {
+    "name": "phô mai mozzarella sợi"
+   }
   },
   "instructions": {
    "1": "Trong máy xay lớn, trộn bột, semolina, đường, baking powder, men nhanh, muối, và sữa ấm. Độ đặc nên như bột bánh xèo rất loãng.",
@@ -83,21 +143,51 @@
  "w-lb-029": {
   "title": "Sayadieh",
   "ingredients": {
-   "w-lb-029-i1": {"name": "dầu ô liu"},
-   "w-lb-029-i2": {"name": "hành tây"},
-   "w-lb-029-i3": {"name": "gạo basmati"},
-   "w-lb-029-i4": {"name": "7 gia vị"},
-   "w-lb-029-i5": {"name": "gừng"},
-   "w-lb-029-i6": {"name": "quế"},
-   "w-lb-029-i7": {"name": "cumin"},
-   "w-lb-029-i8": {"name": "nghệ"},
-   "w-lb-029-i9": {"name": "muối"},
-   "w-lb-029-i10": {"name": "tiêu đen"},
-   "w-lb-029-i11": {"name": "nước"},
-   "w-lb-029-i12": {"name": "hạnh nhân sợi rang"},
-   "w-lb-029-i13": {"name": "phi lê cá tuyết"},
-   "w-lb-029-i14": {"name": "bột mì đa dụng"},
-   "w-lb-029-i15": {"name": "mùi tây băm"}
+   "w-lb-029-i1": {
+    "name": "dầu ô liu"
+   },
+   "w-lb-029-i2": {
+    "name": "hành tây"
+   },
+   "w-lb-029-i3": {
+    "name": "gạo basmati"
+   },
+   "w-lb-029-i4": {
+    "name": "7 gia vị"
+   },
+   "w-lb-029-i5": {
+    "name": "gừng"
+   },
+   "w-lb-029-i6": {
+    "name": "quế"
+   },
+   "w-lb-029-i7": {
+    "name": "cumin"
+   },
+   "w-lb-029-i8": {
+    "name": "nghệ"
+   },
+   "w-lb-029-i9": {
+    "name": "muối"
+   },
+   "w-lb-029-i10": {
+    "name": "tiêu đen"
+   },
+   "w-lb-029-i11": {
+    "name": "nước"
+   },
+   "w-lb-029-i12": {
+    "name": "hạnh nhân sợi rang"
+   },
+   "w-lb-029-i13": {
+    "name": "phi lê cá tuyết"
+   },
+   "w-lb-029-i14": {
+    "name": "bột mì đa dụng"
+   },
+   "w-lb-029-i15": {
+    "name": "mùi tây băm"
+   }
   },
   "instructions": {
    "1": "Đun nóng 2 tablespoons dầu ô liu trong chảo sâu lớn trên lửa vừa và chiên hành băm cho đến khi hơi vàng nâu, khoảng 10-15 phút.",
@@ -115,24 +205,60 @@
  "w-lb-030": {
   "title": "Bánh dẹt Sfeha",
   "ingredients": {
-   "w-lb-030-i1": {"name": "men khô hoạt"},
-   "w-lb-030-i2": {"name": "nước ấm"},
-   "w-lb-030-i3": {"name": "bột mì đa dụng không tẩy"},
-   "w-lb-030-i4": {"name": "muối kosher"},
-   "w-lb-030-i5": {"name": "dầu ô liu nguyên chất"},
-   "w-lb-030-i6": {"name": "laban"},
-   "w-lb-030-i7": {"name": "thịt bò xay"},
-   "w-lb-030-i8": {"name": "hành vàng nhỏ"},
-   "w-lb-030-i9": {"name": "siro lựu"},
-   "w-lb-030-i10": {"name": "laban"},
-   "w-lb-030-i11": {"name": "tahini"},
-   "w-lb-030-i12": {"name": "tương cà"},
-   "w-lb-030-i13": {"name": "muối kosher"},
-   "w-lb-030-i14": {"name": "bột tỏi"},
-   "w-lb-030-i15": {"name": "quế hoặc 7 gia vị Liban"},
-   "w-lb-030-i16": {"name": "hạt thông rang"},
-   "w-lb-030-i17": {"name": "hạt lựu"},
-   "w-lb-030-i18": {"name": "mùi tây lá phẳng hoặc lá bạc hà, hoặc kết hợp, băm mịn"}
+   "w-lb-030-i1": {
+    "name": "men khô hoạt"
+   },
+   "w-lb-030-i2": {
+    "name": "nước ấm"
+   },
+   "w-lb-030-i3": {
+    "name": "bột mì đa dụng không tẩy"
+   },
+   "w-lb-030-i4": {
+    "name": "muối kosher"
+   },
+   "w-lb-030-i5": {
+    "name": "dầu ô liu nguyên chất"
+   },
+   "w-lb-030-i6": {
+    "name": "laban"
+   },
+   "w-lb-030-i7": {
+    "name": "thịt bò xay"
+   },
+   "w-lb-030-i8": {
+    "name": "hành vàng nhỏ"
+   },
+   "w-lb-030-i9": {
+    "name": "siro lựu"
+   },
+   "w-lb-030-i10": {
+    "name": "laban"
+   },
+   "w-lb-030-i11": {
+    "name": "tahini"
+   },
+   "w-lb-030-i12": {
+    "name": "tương cà"
+   },
+   "w-lb-030-i13": {
+    "name": "muối kosher"
+   },
+   "w-lb-030-i14": {
+    "name": "bột tỏi"
+   },
+   "w-lb-030-i15": {
+    "name": "quế hoặc 7 gia vị Liban"
+   },
+   "w-lb-030-i16": {
+    "name": "hạt thông rang"
+   },
+   "w-lb-030-i17": {
+    "name": "hạt lựu"
+   },
+   "w-lb-030-i18": {
+    "name": "mùi tây lá phẳng hoặc lá bạc hà, hoặc kết hợp, băm mịn"
+   }
   },
   "instructions": {
    "1": "Trong tô nhỏ, khuấy men với 1/4 cup nước ấm cho tan. Để sang một bên cho đến khi kem và sủi/bọt, khoảng 10 phút.",
@@ -153,15 +279,33 @@
  "w-lb-031": {
   "title": "Sfouf (bánh nghệ)",
   "ingredients": {
-   "w-lb-031-i1": {"name": "tahini"},
-   "w-lb-031-i2": {"name": "bột semolina mịn"},
-   "w-lb-031-i3": {"name": "bột mì đa dụng"},
-   "w-lb-031-i4": {"name": "nghệ"},
-   "w-lb-031-i5": {"name": "baking powder"},
-   "w-lb-031-i6": {"name": "đường cát"},
-   "w-lb-031-i7": {"name": "sữa nguyên"},
-   "w-lb-031-i8": {"name": "dầu trung tính"},
-   "w-lb-031-i9": {"name": "hạt thông"}
+   "w-lb-031-i1": {
+    "name": "tahini"
+   },
+   "w-lb-031-i2": {
+    "name": "bột semolina mịn"
+   },
+   "w-lb-031-i3": {
+    "name": "bột mì đa dụng"
+   },
+   "w-lb-031-i4": {
+    "name": "nghệ"
+   },
+   "w-lb-031-i5": {
+    "name": "baking powder"
+   },
+   "w-lb-031-i6": {
+    "name": "đường cát"
+   },
+   "w-lb-031-i7": {
+    "name": "sữa nguyên"
+   },
+   "w-lb-031-i8": {
+    "name": "dầu trung tính"
+   },
+   "w-lb-031-i9": {
+    "name": "hạt thông"
+   }
   },
   "instructions": {
    "1": "Làm nóng lò ở 350°F. Quét chảo nướng 9×9-inch bằng tahini.",
@@ -178,19 +322,45 @@
  "w-lb-032": {
   "title": "Shawarma bò",
   "ingredients": {
-   "w-lb-032-i1": {"name": "thịt nạc sườn (cắt sợi)"},
-   "w-lb-032-i2": {"name": "dầu ô liu"},
-   "w-lb-032-i3": {"name": "giấm"},
-   "w-lb-032-i4": {"name": "nước chanh"},
-   "w-lb-032-i5": {"name": "gia vị shawarma"},
-   "w-lb-032-i6": {"name": "tỏi (băm)"},
-   "w-lb-032-i7": {"name": "hành tây (thái lát)"},
-   "w-lb-032-i8": {"name": "lá nguyệt quế"},
-   "w-lb-032-i9": {"name": "tương tahini"},
-   "w-lb-032-i10": {"name": "nước chanh"},
-   "w-lb-032-i11": {"name": "tỏi (nghiền)"},
-   "w-lb-032-i12": {"name": "muối"},
-   "w-lb-032-i13": {"name": "nước"}
+   "w-lb-032-i1": {
+    "name": "thịt nạc sườn (cắt sợi)"
+   },
+   "w-lb-032-i2": {
+    "name": "dầu ô liu"
+   },
+   "w-lb-032-i3": {
+    "name": "giấm"
+   },
+   "w-lb-032-i4": {
+    "name": "nước chanh"
+   },
+   "w-lb-032-i5": {
+    "name": "gia vị shawarma"
+   },
+   "w-lb-032-i6": {
+    "name": "tỏi (băm)"
+   },
+   "w-lb-032-i7": {
+    "name": "hành tây (thái lát)"
+   },
+   "w-lb-032-i8": {
+    "name": "lá nguyệt quế"
+   },
+   "w-lb-032-i9": {
+    "name": "tương tahini"
+   },
+   "w-lb-032-i10": {
+    "name": "nước chanh"
+   },
+   "w-lb-032-i11": {
+    "name": "tỏi (nghiền)"
+   },
+   "w-lb-032-i12": {
+    "name": "muối"
+   },
+   "w-lb-032-i13": {
+    "name": "nước"
+   }
   },
   "instructions": {
    "1": "Chuẩn bị nước ướp bằng cách đánh dầu ô liu, giấm, nước chanh, gia vị shawarma, và tỏi trong tô lớn cho đến khi quyện đều.",
@@ -205,12 +375,24 @@
  "w-lb-033": {
   "title": "Shish Kebab",
   "ingredients": {
-   "w-lb-033-i1": {"name": "thịt cừu"},
-   "w-lb-033-i2": {"name": "hành đỏ ngọt"},
-   "w-lb-033-i3": {"name": "ớt chuông"},
-   "w-lb-033-i4": {"name": "muối kosher"},
-   "w-lb-033-i5": {"name": "tiêu đen"},
-   "w-lb-033-i6": {"name": "dầu ô liu nguyên chất"}
+   "w-lb-033-i1": {
+    "name": "thịt cừu"
+   },
+   "w-lb-033-i2": {
+    "name": "hành đỏ ngọt"
+   },
+   "w-lb-033-i3": {
+    "name": "ớt chuông"
+   },
+   "w-lb-033-i4": {
+    "name": "muối kosher"
+   },
+   "w-lb-033-i5": {
+    "name": "tiêu đen"
+   },
+   "w-lb-033-i6": {
+    "name": "dầu ô liu nguyên chất"
+   }
   },
   "instructions": {
    "1": "Nêm các khối cừu hào phóng bằng muối và tiêu đen, rồi để chúng nghỉ và đến nhiệt độ phòng.",
@@ -227,16 +409,36 @@
  "w-lb-034": {
   "title": "Shish Taouk",
   "ingredients": {
-   "w-lb-034-i1": {"name": "dầu ô liu nguyên chất"},
-   "w-lb-034-i2": {"name": "bạc hà khô"},
-   "w-lb-034-i3": {"name": "vảy ớt đỏ nghiền"},
-   "w-lb-034-i4": {"name": "thyme tươi băm mịn"},
-   "w-lb-034-i5": {"name": "ớt Aleppo"},
-   "w-lb-034-i6": {"name": "tương cà"},
-   "w-lb-034-i7": {"name": "tương ớt đỏ ngọt Thổ Nhĩ Kỳ (Biber Salçası)"},
-   "w-lb-034-i8": {"name": "tiêu đen"},
-   "w-lb-034-i9": {"name": "muối"},
-   "w-lb-034-i10": {"name": "đùi gà không xương không da"}
+   "w-lb-034-i1": {
+    "name": "dầu ô liu nguyên chất"
+   },
+   "w-lb-034-i2": {
+    "name": "bạc hà khô"
+   },
+   "w-lb-034-i3": {
+    "name": "vảy ớt đỏ nghiền"
+   },
+   "w-lb-034-i4": {
+    "name": "thyme tươi băm mịn"
+   },
+   "w-lb-034-i5": {
+    "name": "ớt Aleppo"
+   },
+   "w-lb-034-i6": {
+    "name": "tương cà"
+   },
+   "w-lb-034-i7": {
+    "name": "tương ớt đỏ ngọt Thổ Nhĩ Kỳ (Biber Salçası)"
+   },
+   "w-lb-034-i8": {
+    "name": "tiêu đen"
+   },
+   "w-lb-034-i9": {
+    "name": "muối"
+   },
+   "w-lb-034-i10": {
+    "name": "đùi gà không xương không da"
+   }
   },
   "instructions": {
    "1": "Làm nước ướp. Trong tô lớn, trộn dầu ô liu, bạc hà khô, vảy ớt đỏ nghiền, thyme tươi, ớt Aleppo, tương cà, tương ớt đỏ ngọt Thổ, tiêu đen, và muối. Đánh để trộn.",
@@ -252,21 +454,51 @@
  "w-my-014": {
   "title": "Mee Goreng",
   "ingredients": {
-   "w-my-014-i1": {"name": "dầu nấu"},
-   "w-my-014-i2": {"name": "tỏi"},
-   "w-my-014-i3": {"name": "khoai tây"},
-   "w-my-014-i4": {"name": "đậu phụ chiên"},
-   "w-my-014-i5": {"name": "mực"},
-   "w-my-014-i6": {"name": "mì vàng"},
-   "w-my-014-i7": {"name": "trứng"},
-   "w-my-014-i8": {"name": "giá đỗ"},
-   "w-my-014-i9": {"name": "lá xà lách"},
-   "w-my-014-i10": {"name": "chanh"},
-   "w-my-014-i11": {"name": "ớt đỏ khô"},
-   "w-my-014-i12": {"name": "nước tương"},
-   "w-my-014-i13": {"name": "nước tương đậm"},
-   "w-my-014-i14": {"name": "tương cà"},
-   "w-my-014-i15": {"name": "đường"}
+   "w-my-014-i1": {
+    "name": "dầu nấu"
+   },
+   "w-my-014-i2": {
+    "name": "tỏi"
+   },
+   "w-my-014-i3": {
+    "name": "khoai tây"
+   },
+   "w-my-014-i4": {
+    "name": "đậu phụ chiên"
+   },
+   "w-my-014-i5": {
+    "name": "mực"
+   },
+   "w-my-014-i6": {
+    "name": "mì vàng"
+   },
+   "w-my-014-i7": {
+    "name": "trứng"
+   },
+   "w-my-014-i8": {
+    "name": "giá đỗ"
+   },
+   "w-my-014-i9": {
+    "name": "lá xà lách"
+   },
+   "w-my-014-i10": {
+    "name": "chanh"
+   },
+   "w-my-014-i11": {
+    "name": "ớt đỏ khô"
+   },
+   "w-my-014-i12": {
+    "name": "nước tương"
+   },
+   "w-my-014-i13": {
+    "name": "nước tương đậm"
+   },
+   "w-my-014-i14": {
+    "name": "tương cà"
+   },
+   "w-my-014-i15": {
+    "name": "đường"
+   }
   },
   "instructions": {
    "1": "Trộn tất cả nguyên liệu cho tương ớt và xay đều dùng máy xay.",
@@ -274,9 +506,7 @@
    "3": "Trong tô nhỏ, trộn tất cả nguyên liệu cho sốt. Để sang một bên.",
    "4": "Đun nóng wok trên lửa lớn và thêm 2 tablespoons dầu nấu. Thêm tỏi, 3 tablespoons tương ớt, khoai, đậu phụ, và mực. Xào cho thơm. Thêm mì vàng và sốt, rồi tiếp tục khuấy. Đẩy mì sang bên wok.",
    "5": "Thêm 1/2 tablespoon dầu nấu còn lại và đập trứng lên dầu. Xào trứng và trộn với mì. Thêm giá đỗ và khuấy nhanh khoảng 1 phút.",
-   "6": "Múc mì ra và trang trí bằng lá xà lách thái lát và miếng chanh. Vắt một ít nước chanh lên mì trước khi dùng.",
-   "7": "",
-   "8": ""
+   "6": "Múc mì ra và trang trí bằng lá xà lách thái lát và miếng chanh. Vắt một ít nước chanh lên mì trước khi dùng."
   },
   "culturalNotes": "Mee Goreng là món ăn phổ biến ở Malaysia, thường được phục vụ trong nhà hàng và quán đường phố.",
   "chapter": "Ẩm thực Malaysia"
@@ -284,13 +514,27 @@
  "w-my-015": {
   "title": "Bánh trung thu vỏ tuyết",
   "ingredients": {
-   "w-my-015-i1": {"name": "bột gạo nếp đã nấu"},
-   "w-my-015-i2": {"name": "đường bột"},
-   "w-my-015-i3": {"name": "nước cà rốt đun"},
-   "w-my-015-i4": {"name": "sữa tươi"},
-   "w-my-015-i5": {"name": "shortening"},
-   "w-my-015-i6": {"name": "tương bánh trung thu"},
-   "w-my-015-i7": {"name": "hạt dưa"}
+   "w-my-015-i1": {
+    "name": "bột gạo nếp đã nấu"
+   },
+   "w-my-015-i2": {
+    "name": "đường bột"
+   },
+   "w-my-015-i3": {
+    "name": "nước cà rốt đun"
+   },
+   "w-my-015-i4": {
+    "name": "sữa tươi"
+   },
+   "w-my-015-i5": {
+    "name": "shortening"
+   },
+   "w-my-015-i6": {
+    "name": "tương bánh trung thu"
+   },
+   "w-my-015-i7": {
+    "name": "hạt dưa"
+   }
   },
   "instructions": {
    "1": "Vắt nước và đun cho đến khi đạt điểm sôi. Làm lạnh nước trong tủ lạnh khoảng 4 đến 6 giờ.",
@@ -305,15 +549,33 @@
  "w-my-016": {
   "title": "Nasi Goreng (cơm chiên)",
   "ingredients": {
-   "w-my-016-i1": {"name": "hành tím"},
-   "w-my-016-i2": {"name": "tỏi"},
-   "w-my-016-i3": {"name": "ớt đỏ"},
-   "w-my-016-i4": {"name": "belacan rang"},
-   "w-my-016-i5": {"name": "đường thốt nốt"},
-   "w-my-016-i6": {"name": "kecap manis"},
-   "w-my-016-i7": {"name": "cơm qua đêm"},
-   "w-my-016-i8": {"name": "trứng chiên"},
-   "w-my-016-i9": {"name": "dầu"}
+   "w-my-016-i1": {
+    "name": "hành tím"
+   },
+   "w-my-016-i2": {
+    "name": "tỏi"
+   },
+   "w-my-016-i3": {
+    "name": "ớt đỏ"
+   },
+   "w-my-016-i4": {
+    "name": "belacan rang"
+   },
+   "w-my-016-i5": {
+    "name": "đường thốt nốt"
+   },
+   "w-my-016-i6": {
+    "name": "kecap manis"
+   },
+   "w-my-016-i7": {
+    "name": "cơm qua đêm"
+   },
+   "w-my-016-i8": {
+    "name": "trứng chiên"
+   },
+   "w-my-016-i9": {
+    "name": "dầu"
+   }
   },
   "instructions": {
    "1": "Phá cơm còn lại dùng mặt sau thìa để không vón.",
@@ -330,24 +592,60 @@
  "w-my-017": {
   "title": "Nasi Lemak",
   "ingredients": {
-   "w-my-017-i1": {"name": "gạo"},
-   "w-my-017-i2": {"name": "nước"},
-   "w-my-017-i3": {"name": "nước cốt dừa"},
-   "w-my-017-i4": {"name": "muối"},
-   "w-my-017-i5": {"name": "lá dứa"},
-   "w-my-017-i6": {"name": "hành tím"},
-   "w-my-017-i7": {"name": "tỏi"},
-   "w-my-017-i8": {"name": "ớt đỏ khô"},
-   "w-my-017-i9": {"name": "belacan (mắm tôm)"},
-   "w-my-017-i10": {"name": "bột me"},
-   "w-my-017-i11": {"name": "đường"},
-   "w-my-017-i12": {"name": "cá cơm khô"},
-   "w-my-017-i13": {"name": "dầu"},
-   "w-my-017-i14": {"name": "hành tím"},
-   "w-my-017-i15": {"name": "cá nhỏ (sardine hoặc thu)"},
-   "w-my-017-i16": {"name": "trứng luộc chín"},
-   "w-my-017-i17": {"name": "đậu phộng rang"},
-   "w-my-017-i18": {"name": "dưa chuột"}
+   "w-my-017-i1": {
+    "name": "gạo"
+   },
+   "w-my-017-i2": {
+    "name": "nước"
+   },
+   "w-my-017-i3": {
+    "name": "nước cốt dừa"
+   },
+   "w-my-017-i4": {
+    "name": "muối"
+   },
+   "w-my-017-i5": {
+    "name": "lá dứa"
+   },
+   "w-my-017-i6": {
+    "name": "hành tím"
+   },
+   "w-my-017-i7": {
+    "name": "tỏi"
+   },
+   "w-my-017-i8": {
+    "name": "ớt đỏ khô"
+   },
+   "w-my-017-i9": {
+    "name": "belacan (mắm tôm)"
+   },
+   "w-my-017-i10": {
+    "name": "bột me"
+   },
+   "w-my-017-i11": {
+    "name": "đường"
+   },
+   "w-my-017-i12": {
+    "name": "cá cơm khô"
+   },
+   "w-my-017-i13": {
+    "name": "dầu"
+   },
+   "w-my-017-i14": {
+    "name": "hành tím"
+   },
+   "w-my-017-i15": {
+    "name": "cá nhỏ (sardine hoặc thu)"
+   },
+   "w-my-017-i16": {
+    "name": "trứng luộc chín"
+   },
+   "w-my-017-i17": {
+    "name": "đậu phộng rang"
+   },
+   "w-my-017-i18": {
+    "name": "dưa chuột"
+   }
   },
   "instructions": {
    "1": "Rửa gạo bằng nước máy chảy vài lần cho đến khi nước trong. Để ráo nước hoàn toàn.",
@@ -365,22 +663,54 @@
  "w-my-018": {
   "title": "Salad cơm thảo mộc Malaysia | Nasi Ulam",
   "ingredients": {
-   "w-my-018-i1": {"name": "gạo hạt dài"},
-   "w-my-018-i2": {"name": "nước"},
-   "w-my-018-i3": {"name": "muối"},
-   "w-my-018-i4": {"name": "húng Thái"},
-   "w-my-018-i5": {"name": "bạc hà"},
-   "w-my-018-i6": {"name": "hành lá"},
-   "w-my-018-i7": {"name": "ngò tươi"},
-   "w-my-018-i8": {"name": "lá chanh kaffir"},
-   "w-my-018-i9": {"name": "sả"},
-   "w-my-018-i10": {"name": "đậu phộng"},
-   "w-my-018-i11": {"name": "dừa"},
-   "w-my-018-i12": {"name": "tỏi"},
-   "w-my-018-i13": {"name": "gừng"},
-   "w-my-018-i14": {"name": "nước mắm"},
-   "w-my-018-i15": {"name": "nước chanh"},
-   "w-my-018-i16": {"name": "ớt chim Thái"}
+   "w-my-018-i1": {
+    "name": "gạo hạt dài"
+   },
+   "w-my-018-i2": {
+    "name": "nước"
+   },
+   "w-my-018-i3": {
+    "name": "muối"
+   },
+   "w-my-018-i4": {
+    "name": "húng Thái"
+   },
+   "w-my-018-i5": {
+    "name": "bạc hà"
+   },
+   "w-my-018-i6": {
+    "name": "hành lá"
+   },
+   "w-my-018-i7": {
+    "name": "ngò tươi"
+   },
+   "w-my-018-i8": {
+    "name": "lá chanh kaffir"
+   },
+   "w-my-018-i9": {
+    "name": "sả"
+   },
+   "w-my-018-i10": {
+    "name": "đậu phộng"
+   },
+   "w-my-018-i11": {
+    "name": "dừa"
+   },
+   "w-my-018-i12": {
+    "name": "tỏi"
+   },
+   "w-my-018-i13": {
+    "name": "gừng"
+   },
+   "w-my-018-i14": {
+    "name": "nước mắm"
+   },
+   "w-my-018-i15": {
+    "name": "nước chanh"
+   },
+   "w-my-018-i16": {
+    "name": "ớt chim Thái"
+   }
   },
   "instructions": {
    "1": "Đun nước sôi trong nồi. Thêm muối và gạo. Đun sôi lại, rồi đậy và hạ lửa đun nhỏ. Nấu nhẹ khoảng 16 phút. Lấy ra khỏi bếp và để hấp 5 phút. Xới bằng nĩa và để nguội đến nhiệt độ phòng.",
