@@ -382,6 +382,20 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     next: 'পরেরটি',
     short: 'ছোট',
     close: 'বন্ধ করুন'
+  },
+  vi: {
+    tab: 'Video',
+    intro: 'Các video được tìm tự động theo tên món ăn này. Chúng thuộc về người tạo và có thể khác với công thức của Dr. Fatma.',
+    loading: 'Đang tìm video…',
+    empty: 'Chưa tìm thấy video phù hợp nào.',
+    error: 'Hiện không tải được video.',
+    retry: 'Thử lại',
+    openOn: 'Mở trên {p}',
+    searchOn: 'Tìm món này trên',
+    previous: 'Trước',
+    next: 'Tiếp',
+    short: 'Ngắn',
+    close: 'Đóng'
   }
 };
 

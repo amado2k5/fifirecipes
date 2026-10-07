@@ -1281,8 +1281,56 @@ const bn: EstimateStrings = {
   costChip: '≈ প্রতি পরিবেশনে {v}'
 };
 
+const vi: EstimateStrings = {
+  tab: 'Dinh dưỡng & Chi phí',
+  nutritionTitle: 'Giá trị dinh dưỡng',
+  perServingBasis: 'Mỗi khẩu phần — công thức này được khoảng {n} khẩu phần',
+  nutrient: 'Chất dinh dưỡng',
+  perServing: 'Mỗi khẩu phần',
+  calories: 'Calo',
+  protein: 'Protein',
+  fat: 'Chất béo',
+  carbs: 'Carbohydrate',
+  fiber: 'Chất xơ',
+  sugar: 'Đường',
+  kcal: 'kcal',
+  grams: 'g',
+  energySplit: 'Calo đến từ đâu',
+  healthTitle: 'Ghi chú sức khỏe',
+  tags: {
+    highProtein: { label: 'Giàu protein', hint: 'Phần đáng kể calo đến từ protein.' },
+    goodFiber: { label: 'Nguồn chất xơ tốt', hint: 'Khoảng 5 g chất xơ trở lên mỗi khẩu phần.' },
+    light: { label: 'Món nhẹ', hint: 'Dưới 250 kcal mỗi khẩu phần.' },
+    hearty: { label: 'Thịnh soạn & no bụng', hint: 'Từ 600 kcal trở lên mỗi khẩu phần — thưởng thức như bữa chính.' },
+    highSugar: { label: 'Nhiều đường', hint: 'Nên thưởng thức như món tráng miệng thỉnh thoảng.' },
+    highFat: { label: 'Nhiều chất béo', hint: 'Một nửa lượng calo trở lên đến từ chất béo.' },
+    lowFat: { label: 'Ít chất béo', hint: '5 g chất béo trở xuống mỗi khẩu phần.' },
+    meatFree: { label: 'Không thịt', hint: 'Không có thịt, gia cầm hay cá trong nguyên liệu.' }
+  },
+  costTitle: 'Chi phí công thức ước tính',
+  ingredientGroup: 'Nhóm nguyên liệu',
+  costUsd: 'Chi phí (USD)',
+  groups: {
+    protein: 'Thịt, gia cầm & hải sản',
+    dairyEggs: 'Sữa, bơ & trứng',
+    produce: 'Rau, rau thơm & trái cây',
+    grains: 'Gạo, bột, mì ống & đậu',
+    fats: 'Dầu & mỡ nấu ăn',
+    sweeteners: 'Đường, mật ong & siro',
+    specialty: 'Các loại hạt, trái cây khô & đặc sản',
+    spices: 'Gia vị & hương liệu'
+  },
+  total: 'Tổng ước tính',
+  costPerServing: 'Mỗi khẩu phần',
+  estimated: 'ước tính',
+  nutritionNote: 'Giá trị gần đúng được tính từ nguyên liệu của công thức với dữ liệu dinh dưỡng phổ thông. Chúng không thay thế tư vấn dinh dưỡng chuyên nghiệp.',
+  costNote: 'Dựa trên giá siêu thị trung bình tại Mỹ; chi phí thực tế thay đổi theo quốc gia, mùa và thương hiệu.',
+  kcalChip: '≈ {v} kcal / khẩu phần',
+  costChip: '≈ {v} / khẩu phần'
+};
+
 const ESTIMATE_STRINGS: Partial<Record<SupportedLanguage, EstimateStrings>> = {
-  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps, he, pl, sv, te, bn
+  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps, he, pl, sv, te, bn, vi
 };
 
 export function getEstimateStrings(lang: SupportedLanguage): EstimateStrings {
