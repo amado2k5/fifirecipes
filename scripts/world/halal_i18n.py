@@ -52,6 +52,9 @@ TERMS = {
     'Hi': r'सूअर|पोर्क|बेकन|हैम|शराब|वाइन|बीयर|रम|ताड़ी|भांग|भालू|घोड़\w*|कुत्त\w*',
     'Te': r'పంది[\u0C00-\u0C7F]*|బేకన్|హామ్|వైన్|బీర్|మద్యం|సారాయి|కల్లు[\u0C00-\u0C7F]*|ఎలుగుబంటి|గుర్ర[\u0C00-\u0C7F]*|కుక్క(?:లు|ల|ను|కు)?(?:\s*మాంసం)?',
     'Bn': r'শূকর|শুকর|পোর্ক|বেকন|হ্যাম|লার্ড|ওয়াইন|মদ|মদ্য|শরাব|অ্যালকোহল|বিয়ার|রম|ভোদকা|উইস্কি|ব্র্যান্ডি|লিকার|জিন|ভালুক|ঘোড়া|কুকুর',
+    # vín- also starts "vinné listy" (vine leaves) and pivo "pivní kvasnice"
+    # (brewer's yeast) — covered by ALLOW below.
+    'Cs': r'vepř\w*|sviň\w*|slanin\w*|šunk\w*|vín\w*|piv\w*|rum\w*|likér\w*|koňak\w*|brandy|whisky|vodk\w*|alkohol\w*|medvěd\w*|konin\w*|koňsk\w*|psí maso',
     'Ja': r'豚|ポーク|ベーコン|ハム|ラード|日本酒|料理酒|みりん|味醂|ワイン|ビール|ラム酒|焼酎|熊|馬肉|犬',
     'Zh': r'猪|豬|培根|火腿|猪油|料酒|黄酒|米酒|白酒|啤酒|葡萄酒|朗姆|熊|马肉|狗',
     'Ko': r'돼지|베이컨|햄|라드|청주|정종|맛술|미림|소주|와인|맥주|럼주|곰고기|말고기|개고기',
@@ -90,6 +93,11 @@ ALLOW = {
            'stinë e verës', 'stine e veres', 'stinë së verës', 'stine se veres',
            'sallamurë', 'sallamurës', 'sallamurën', 'sallamura',
            'gjatë verës', 'gjate veres', 'në verë', 'ne vere'},  # brewer's yeast; summer season; brine
+    'Cs': {'vinné listy', 'vinných listů', 'vinný list', 'listy vinné révy', 'vinná réva',
+           'pivní kvasnice', 'pivovarské kvasnice', 'ruměnka', 'ruměnky', 'ruměnce',
+           'rumi', 'rumí',  # sýr rumi/rumí = Egyptian Rumi cheese, not rum
+           'krůtí šunka', 'krůtí šunku', 'krůtí šunky',  # turkey ham (halal)
+           'bez alkoholu'},  # "without alcohol" negation
     'Tr': {'bira mayası'},
     'Fa': {'عرق بهارنارنج', 'عرق گلاب', 'عرق نعناع', 'عرق\u200cسوس', 'عرق سوس', 'بدون الکل'},  # distillates, licorice
     'Ur': {'بغیر شراب'},

@@ -468,6 +468,22 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     citationLabel: 'Vendi në libër:',
     citationVideo: 'Video:',
     tips: 'Këshilla dhe shënime'
+  },
+  cs: {
+    badge: 'Dodatečný recept',
+    notice: 'Toto je dodatečný recept, který nepochází z rukopisů dr. Fatmy Alkawokgy. Přepsali jsme ho vlastními slovy a uvádíme původní zdroj.',
+    sourceLabel: 'Zdroj:',
+    ingredientsNote: 'Množství jsou uvedena podle zdroje, upravena do našeho formátu. Při přípravě si ingredience odškrtávejte.',
+    collectionAll: 'Všechny recepty',
+    collectionArchive: 'Archiv dr. Fatmy',
+    collectionAdditional: 'Dodatečné recepty (Chef Teta)',
+    collectionOsool: 'Kuchařka Osool El Tahy',
+    collectionAbdennour: 'Kuchařka Egyptian Cooking (Samia Abdennour)',
+    collectionAbuhaty: 'Kanál Fatmy Abu Haty (YouTube)',
+    collectionWorld: 'Kuchyně světa',
+    citationLabel: 'V knize:',
+    citationVideo: 'Video:',
+    tips: 'Tipy a poznámky'
   }
 };
 

@@ -1377,8 +1377,55 @@ const sq: EstimateStrings = {
   costChip: '≈ {v} / porsion'
 };
 
+const cs: EstimateStrings = {
+  tab: 'Výživa a náklady',
+  nutritionTitle: 'Nutriční hodnota',
+  perServingBasis: 'Na porci — recept vydává přibližně na {n} porcí',
+  nutrient: 'Živina',
+  perServing: 'Na porci',
+  calories: 'Kalorie',
+  protein: 'Bílkoviny',
+  fat: 'Tuky',
+  carbs: 'Sacharidy',
+  fiber: 'Vláknina',
+  sugar: 'Cukry',
+  kcal: 'kcal',
+  grams: 'g',
+  energySplit: 'Odkud pocházejí kalorie',
+  healthTitle: 'Zdravotní poznámky',
+  tags: {
+    highProtein: { label: 'Bohaté na bílkoviny', hint: 'Velký podíl kalorií pochází z bílkovin.' },
+    goodFiber: { label: 'Dobrý zdroj vlákniny', hint: 'Přibližně 5 g vlákniny nebo více na porci.' },
+    light: { label: 'Lehké jídlo', hint: 'Méně než 250 kcal na porci.' },
+    hearty: { label: 'Vydatné a syté', hint: '600 kcal nebo více na porci — vhodné jako hlavní chod.' },
+    highSugar: { label: 'Bohaté na cukr', hint: 'Nejlepší jako příležitostná sladkost.' },
+    highFat: { label: 'Bohaté na tuk', hint: 'Polovina nebo více kalorií pochází z tuku.' },
+    lowFat: { label: 'Nízkotučné', hint: '5 g tuku nebo méně na porci.' },
+    meatFree: { label: 'Bez masa', hint: 'V ingrediencích není maso, drůbež ani ryby.' }
+  },
+  costTitle: 'Odhadovaná cena receptu',
+  ingredientGroup: 'Skupina ingrediencí',
+  costUsd: 'Cena (USD)',
+  groups: {
+    protein: 'Maso, drůbež a mořské plody',
+    dairyEggs: 'Mléčné výrobky, ghee a vejce',
+    produce: 'Zelenina, bylinky a ovoce',
+    grains: 'Rýže, mouka, těstoviny a luštěniny',
+    fats: 'Oleje a tuky na vaření',
+    sweeteners: 'Cukr, med a sirupy',
+    specialty: 'Ořechy, sušené ovoce a speciální suroviny',
+    spices: 'Koření a dochucovadla'
+  },
+  total: 'Odhadovaný součet',
+  costPerServing: 'Na porci',
+  estimated: 'odhad',
+  nutritionNote: 'Přibližné hodnoty vypočítané z ingrediencí receptu podle běžných nutričních údajů. Nenahrazují odborné dietetické poradenství.',
+  costNote: 'Na základě průměrných cen v amerických supermarketech; skutečné náklady se liší podle země, sezóny a značky.',
+  kcalChip: '≈ {v} kcal / porce',
+  costChip: '≈ {v} / porce'
+};
 const ESTIMATE_STRINGS: Partial<Record<SupportedLanguage, EstimateStrings>> = {
-  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps, he, pl, sv, te, bn, vi, sq
+  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps, he, pl, sv, te, bn, vi, sq, cs
 };
 
 export function getEstimateStrings(lang: SupportedLanguage): EstimateStrings {

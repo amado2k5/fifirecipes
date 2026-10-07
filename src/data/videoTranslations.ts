@@ -410,6 +410,20 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     next: 'Para',
     short: 'Të shkurtra',
     close: 'Mbyll'
+  },
+  cs: {
+    tab: 'Videa',
+    intro: 'Videa nalezená automaticky vyhledáním tohoto pokrmu. Patří svým autorům a mohou se lišit od receptu dr. Fatmy.',
+    loading: 'Hledání videí…',
+    empty: 'Zatím nebyla nalezena žádná odpovídající videa.',
+    error: 'Videa se nyní nepodařilo načíst.',
+    retry: 'Zkusit znovu',
+    openOn: 'Otevřít na {p}',
+    searchOn: 'Vyhledat tento pokrm na',
+    previous: 'Předchozí',
+    next: 'Další',
+    short: 'Krátké',
+    close: 'Zavřít'
   }
 };
 
