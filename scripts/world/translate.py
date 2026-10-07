@@ -27,7 +27,7 @@ LANGS = {
     'Ku': 'Kurdish (Kurmanji)', 'Nl': 'Dutch', 'Pl': 'Polish',
     'Ps': 'Pashto', 'Pt': 'Portuguese', 'Ru': 'Russian', 'Sv': 'Swedish',
     'Sw': 'Swahili', 'Te': 'Telugu', 'Tr': 'Turkish', 'Ur': 'Urdu',
-    'Zh': 'Simplified Chinese', 'Bn': 'Bengali',
+    'Zh': 'Simplified Chinese', 'Bn': 'Bengali', 'Vi': 'Vietnamese',
 }
 EN_FILE = SRC_DATA / 'recipeTranslations.json'
 

@@ -28,7 +28,7 @@ LANGS = {'De': 'German', 'El': 'Greek', 'Es': 'Spanish', 'Fa': 'Persian',
          'It': 'Italian', 'Ja': 'Japanese', 'Ko': 'Korean', 'Ku': 'Kurdish',
          'Nl': 'Dutch', 'Pl': 'Polish', 'Ps': 'Pashto', 'Pt': 'Portuguese',
          'Ru': 'Russian', 'Sv': 'Swedish', 'Sw': 'Swahili', 'Te': 'Telugu',
-         'Tr': 'Turkish', 'Ur': 'Urdu', 'Zh': 'Chinese', 'Bn': 'Bengali'}
+         'Tr': 'Turkish', 'Ur': 'Urdu', 'Zh': 'Chinese', 'Bn': 'Bengali', 'Vi': 'Vietnamese'}
 
 
 def world_entries() -> list[dict]:
