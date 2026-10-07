@@ -136,7 +136,7 @@ export const Header: React.FC<HeaderProps> = ({
             <Layers className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
             <div className="min-w-0 leading-tight">
               <span className="font-bold text-stone-900">{stats?.totalMasterIngredients ?? '…'}</span>
-              <span className="block sm:inline text-stone-500 text-[11px] sm:ms-1 truncate">{t('مكون رئيسي', 'Ingredients', 'Ingrédients', 'Ingredientes', '食材', 'सामग्री', 'Ingredientes', 'Ингредиенты', '食材', 'Zutaten', 'Ingredienti', 'Υλικά', 'اجزاء', 'مواد اولیه', 'Malzeme', 'Pêkhate', 'Bahan', 'Viungo', '재료', 'Ingrediënten', 'مواد', 'מרכיבים', 'Składniki', 'Ingredienser', 'పదార్థాలు', 'উপকরণ')}</span>
+              <span className="block sm:inline text-stone-500 text-[11px] sm:ms-1 truncate">{t('مكون رئيسي', 'Ingredients', 'Ingrédients', 'Ingredientes', '食材', 'सामग्री', 'Ingredientes', 'Ингредиенты', '食材', 'Zutaten', 'Ingredienti', 'Υλικά', 'اجزاء', 'مواد اولیه', 'Malzeme', 'Pêkhate', 'Bahan', 'Viungo', '재료', 'Ingrediënten', 'مواد', 'מצרכים', 'Składniki', 'Ingredienser', 'పదార్థాలు', 'উপকরণ')}</span>
             </div>
           </div>
 
@@ -147,7 +147,7 @@ export const Header: React.FC<HeaderProps> = ({
             <Music className="w-3.5 h-3.5 text-purple-600 shrink-0" />
             <div className="min-w-0 leading-tight">
               <span className="font-bold text-stone-900">20 {t('عاماً', 'Years', 'Ans', 'Años', '年', 'वर्ष', 'Anos', 'Лет', '年', 'Jahre', 'Anni', 'Χρόνια', 'سال', 'سال', 'Yıl', 'Sal', 'Tahun', 'Miaka', '년', 'Jaren', 'کلونه', 'שנים', 'lat', 'år', 'సంవత్సరాలు', 'বছর')}</span>
-              <span className="block sm:inline text-stone-500 text-[11px] sm:ms-1 truncate">{t('جمع وتدوين', 'Collection', 'Collecte', 'Recopilación', '記録収集', 'संकلन', 'Coleção', 'Коллекция', '收集整理', 'Sammlung', 'Raccolta', 'Συλλογή', 'جمع و تدوین', 'گردآوری', 'Derleme', 'Berhevkirin', 'Kompilasi', 'Mkusanyiko', '컬렉션', 'Collectie', 'ټولګه', 'אוסף', 'Kolekcja', 'Samling', 'సేకరణ', 'সংগ্রহ')}</span>
+              <span className="block sm:inline text-stone-500 text-[11px] sm:ms-1 truncate">{t('جمع وتدوين', 'Collection', 'Collection', 'Recopilación', '収集と記録', 'संकलन', 'Coleção', 'Коллекция', '收集整理', 'Sammlung', 'Raccolta', 'Συλλογή', 'جمع و تدوین', 'گردآوری', 'Derleme', 'Berhevkirin', 'Kompilasi', 'Mkusanyiko', '컬렉션', 'Collectie', 'ټولګه', 'אוסף', 'Kolekcja', 'Samling', 'సేకరణ', 'সংগ্রহ')}</span>
             </div>
           </div>
         </div>

@@ -128,7 +128,7 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     searchOn: 'Искать блюдо в',
     previous: 'Назад',
     next: 'Далее',
-    short: 'Shorts',
+    short: 'Шортс',
     close: 'Закрыть'
   },
   zh: {
@@ -231,13 +231,13 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
   },
   ku: {
     tab: 'Vîdyo',
-    intro: 'Vîdyoyên ku bi lêgerîna navê vî xwarinê bixweber hatine dîtin. Yên afirînerên wan in û dibe ku ji reçeteya Dr. Fatma cuda bin.',
+    intro: 'Vîdyoyên ku bi lêgerîna navê vê xwarinê bixweber hatine dîtin. Yên afirînerên wan in û dibe ku ji reçeteya Dr. Fatma cuda bin.',
     loading: 'Li vîdyoyan tê gerîn…',
     empty: 'Hîn vîdyoyek li hev nehat dîtin.',
     error: 'Niha vîdyo nehatin barkirin.',
     retry: 'Dîsa biceribîne',
     openOn: 'Li ser {p} veke',
-    searchOn: 'Vî xwarinê lê bigere li',
+    searchOn: 'Vê xwarinê li vir bigere:',
     previous: 'Berê',
     next: 'Paşê',
     short: 'Short',
@@ -309,7 +309,7 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     openOn: 'په {p} کې پرانیزئ',
     searchOn: 'دا ډېش وپلټئ په',
     previous: 'مخکینی',
-    next: 'بله',
+    next: 'راتلونکی',
     short: 'لنډ',
     close: 'بند کړئ'
   },

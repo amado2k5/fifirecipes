@@ -20,7 +20,7 @@ const he: KidsStrings = {
   getReady: 'מתכוננים!',
   readyWash: 'שטפו את הידיים עם סבון',
   readyApron: 'לבשו סינר',
-  readyGrownUp: 'בקשו ממבוגר לבשל אתכם',
+  readyGrownUp: 'בקשו ממבוגר לבשל איתכם',
   whatYouNeed: 'מה צריך',
   tapToTick: 'סמנו כל דבר שכבר יש לכם.',
   tools: 'כלי מטבח',

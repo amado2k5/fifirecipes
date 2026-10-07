@@ -49,7 +49,7 @@ const el: KidsStrings = {
   tipTitle: 'Την επόμενη φορά δοκίμασε:',
   certificate: 'Δίπλωμα σεφ',
   yourName: 'Γράψε το όνομά σου',
-  certificateLine: '{name}: έφτιαξα {recipe}!',
+  certificateLine: '{name} έφτιαξε {recipe}!',
   superChef: 'Σούπερ Σεφ',
   saveCertificate: 'Αποθήκευση διπλώματος',
   cookAgain: 'Φτιάξ’ το ξανά',
