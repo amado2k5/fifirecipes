@@ -31,7 +31,7 @@ TERMS = {
     'Es': r'cerdo|puerco|tocino|manteca de cerdo|jam[oó]n|chorizo|vino|cerveza|ron|jerez|licor|tequila|caballo|perro',
     'Fr': r'porc|lardons?|saindoux|jambon|vin|bi[eè]re|rhum|liqueur|cognac|cheval|chien',
     'De': r'schwein\w*|speck|schmalz|schinken|wein|bier|rum|lik[oö]r|weinbrand|pferd\w*|hund\w*',
-    'It': r'maiale|lardo|pancetta|prosciutto|guanciale|salsiccia di maiale|vino|birra|rum|liquore|grappa|marsala|cavallo|cane|limoncello',
+    'It': r'maiale|lardo|sugna|strutto|pancetta|prosciutto|guanciale|salsiccia di maiale|vino|birra|rum|liquore|grappa|marsala|cavallo|cane|limoncello',
     'Nl': r'varken\w*|spek|reuzel|ham|wijn|bier|rum|likeur|paard\w*|hond\w*',
     'Pt': r'porco|toucinho|banha de porco|presunto|vinho|cerveja|rum|licor|cacha[cç]a|cavalo|cachorro|c[aã]o|pernil(?! de (?:cordeiro|borrego|carneiro|vaca))|limoncel+o',
     'Pl': r'wieprz\w*|boczek|smalec(?! kacz)|szynk\w*|win[oa]|piw\w*|rum|likier\w*|w[oó]dk\w*|konin\w*|psie mięso',
@@ -51,12 +51,14 @@ TERMS = {
     'Ps': r'خنزیر|سوږر|بیکن|شراب|بیر|الکول|خرس|آس|سپی',
     'Hi': r'सूअर|पोर्क|बेकन|हैम|शराब|वाइन|बीयर|रम|ताड़ी|भांग|भालू|घोड़\w*|कुत्त\w*',
     'Te': r'పంది[\u0C00-\u0C7F]*|బేకన్|హామ్|వైన్|బీర్|మద్యం|సారాయి|కల్లు[\u0C00-\u0C7F]*|ఎలుగుబంటి|గుర్ర[\u0C00-\u0C7F]*|కుక్క(?:లు|ల|ను|కు)?(?:\s*మాంసం)?',
+    'Bn': r'শূকর|শুকর|পোর্ক|বেকন|হ্যাম|লার্ড|ওয়াইন|মদ|মদ্য|শরাব|অ্যালকোহল|বিয়ার|রম|ভোদকা|উইস্কি|ব্র্যান্ডি|লিকার|জিন|ভালুক|ঘোড়া|কুকুর',
     # vín- also starts "vinné listy" (vine leaves) and pivo "pivní kvasnice"
     # (brewer's yeast) — covered by ALLOW below.
     'Cs': r'vepř\w*|sviň\w*|slanin\w*|šunk\w*|vín\w*|piv\w*|rum\w*|likér\w*|koňak\w*|brandy|whisky|vodk\w*|alkohol\w*|medvěd\w*|konin\w*|koňsk\w*|psí maso',
     'Ja': r'豚|ポーク|ベーコン|ハム|ラード|日本酒|料理酒|みりん|味醂|ワイン|ビール|ラム酒|焼酎|熊|馬肉|犬',
     'Zh': r'猪|豬|培根|火腿|猪油|料酒|黄酒|米酒|白酒|啤酒|葡萄酒|朗姆|熊|马肉|狗',
     'Ko': r'돼지|베이컨|햄|라드|청주|정종|맛술|미림|소주|와인|맥주|럼주|곰고기|말고기|개고기',
+    'Vi': r'lợn|heo|giăm bông|ba rọi|rượu|cồn|bia|vodka|whisky|whiskey|brandy|gấu|ngựa|chó',
 }
 # Offensive words that mistranslation has produced (not halal, but must never
 # appear): Hebrew "oz" as אונס (rape), Swahili sugar as "kafiri" (infidel) and
@@ -82,6 +84,8 @@ ALLOW = {
     'He': {'שמרי בירה'},  # brewer's yeast
     'Pl': {'drożdże piwne'},
     'Te': {'బీర్ యీస్ట్'},
+    'Bn': {'বিয়ার ইস্ট'},
+    'Vi': {'men bia', 'óc chó'},
     'Cs': {'vinné listy', 'vinných listů', 'vinný list', 'listy vinné révy', 'vinná réva',
            'pivní kvasnice', 'pivovarské kvasnice', 'ruměnka', 'ruměnky', 'ruměnce',
            'rumi', 'rumí',  # sýr rumi/rumí = Egyptian Rumi cheese, not rum
@@ -96,7 +100,7 @@ ALLOW = {
 }
 NON_SPACED = {'Ja', 'Zh', 'Ko'}  # no spaces between words: match anywhere
 # Indic scripts: \w misses vowel signs, so bound words by the script's range.
-INDIC = {'Hi': '\u0900-\u097F', 'Te': '\u0C00-\u0C7F'}
+INDIC = {'Hi': '\u0900-\u097F', 'Te': '\u0C00-\u0C7F', 'Bn': '\u0980-\u09FF'}
 ARABIC = {'Fa', 'Ur', 'Ps'}
 
 

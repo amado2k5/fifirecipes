@@ -48,6 +48,8 @@ const VIDEO_SEARCH_QUERIES: Record<SupportedLanguage, (dish: string) => string> 
   ps: dish => `د ${dish} جوړولو طریقه`,
   he: dish => `מתכון ל${dish}`,
   te: dish => `${dish} రెసిపీ`,
+  bn: dish => `${dish} রেসিপি`,
+  vi: dish => `cách làm ${dish}`,
   cs: dish => `${dish} recept`,
 };
 

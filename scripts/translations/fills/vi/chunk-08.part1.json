@@ -1,0 +1,377 @@
+{
+ "add-256": {
+  "title": "Qashtouta (Bánh phyllo nhân hạt với ashta)",
+  "prepTime": "30 phút",
+  "cookTime": "30 phút",
+  "servings": "20 cái",
+  "culturalNotes": "Qashtouta là món ngọt Ai Cập hiện đại lan truyền vào Ramadan, kết hợp filo giòn với ashta mềm và hạt trong một miếng cắn.",
+  "ingredients": {
+   "add-256-i1": {"name": "Lá filo (phyllo)"},
+   "add-256-i2": {"name": "Mỡ hoặc bơ tan chảy"},
+   "add-256-i3": {"name": "Ashta đặc"},
+   "add-256-i4": {"name": "Hạt giã hỗn hợp (hồ trăn, hạnh nhân, óc chó, phỉ)"},
+   "add-256-i5": {"name": "Dừa"},
+   "add-256-i6": {"name": "Đường và quế cho hạt"},
+   "add-256-i7": {"name": "Siro đặc với nước hoa hồng"}
+  },
+  "instructions": {
+   "1": "Trộn hạt với dừa, đường và quế.",
+   "2": "Cắt filo thành ô vuông lớn và quét 3 lớp mỡ, chồng lên nhau.",
+   "3": "Đặt một thìa ashta và một thìa hạt ở giữa, gom mép lên thành gói ('quả bom') và ấn.",
+   "4": "Xếp các gói sát nhau trong khay quét mỡ và quét mỡ.",
+   "5": "Nướng ở 180°C trong 25-30 phút cho vàng giòn.",
+   "6": "Rưới siro lạnh ngay khi ra lò và trang trí hồ trăn."
+  }
+ },
+ "add-257": {
+  "title": "Harrak Osbao (Đậu lăng với mì ống, me và lựu)",
+  "prepTime": "30 phút",
+  "cookTime": "45 phút",
+  "servings": "6 phần",
+  "culturalNotes": "Harrak osbao là món chay Damascus, tên nghĩa là 'bỏng ngón', vì người ta vội ăn trước khi nguội. Vị chua của mật lựu và me làm nó khác biệt.",
+  "ingredients": {
+   "add-257-i1": {"name": "Đậu lăng nâu"},
+   "add-257-i2": {"name": "Bột nhào (bột mì, nước, muối) cắt ô vuông nhỏ, hoặc mì ống nhỏ"},
+   "add-257-i3": {"name": "Hành tây"},
+   "add-257-i4": {"name": "Tỏi"},
+   "add-257-i5": {"name": "Ngò tươi"},
+   "add-257-i6": {"name": "Dầu ô liu"},
+   "add-257-i7": {"name": "Mật lựu"},
+   "add-257-i8": {"name": "Me ngâm hoặc nước chanh"},
+   "add-257-i9": {"name": "Thì là, muối và tiêu"},
+   "add-257-i10": {"name": "Bánh mì vuông nướng để trang trí"}
+  },
+  "instructions": {
+   "1": "Luộc đậu lăng trong nhiều nước cho chín nhưng còn giữ hình.",
+   "2": "Nhào bột cứng với bột mì, nước và muối, cán mỏng và cắt ô vuông nhỏ; chiên một nửa cho giòn và giữ để trang trí.",
+   "3": "Thêm nửa bột còn lại vào đậu lăng và nấu cho chín sệt, rồi thêm mật lựu, me, thì là và muối.",
+   "4": "Chiên một nửa hành thái lát trong dầu ô liu cho nâu giòn; thái nhỏ phần còn lại xào với tỏi và ngò, rồi thêm vào đậu lăng.",
+   "5": "Múc ra đĩa, để nguội bớt, và trang trí hành giòn, bột chiên, bánh mì nướng và ngò; dọn ấm hoặc lạnh."
+  }
+ },
+ "meat-08": {
+  "title": "Thịt cừu nướng miếng",
+  "chapter": "Chương 1: Thịt, gia cầm & hải sản",
+  "category": "Thịt & gia cầm",
+  "cookingMethod": "Nướng",
+  "prepTime": "2 giờ (ướp)",
+  "cookTime": "30 phút",
+  "servings": "4 phần",
+  "culturalNotes": "Món nướng này thể hiện tình yêu của người Ai Cập với thịt cháy cạnh thơm. Ướp lâu là chìa khóa cho độ mềm và thấm vị.",
+  "ingredients": {
+   "mp8-1": {"name": "Thịt cừu hoặc bê"},
+   "mp8-2": {"name": "Hành tây"},
+   "mp8-3": {"name": "Muối & tiêu đen"},
+   "mp8-4": {"name": "Nước chanh"},
+   "mp8-5": {"name": "Giấm"},
+   "mp8-6": {"name": "Dầu thực vật"}
+  },
+  "instructions": {
+   "1": "Nêm thịt với hành băm, muối, tiêu, nước chanh, giấm và dầu. Ướp trong tủ lạnh ít nhất 2 giờ, đến 12 giờ.",
+   "2": "Chuẩn bị vỉ nướng và đặt miếng thịt với ít dầu và hành đã nêm để giữ chúng cùng nhau trên vỉ. Nướng cho chín trong.",
+   "3": "Chuyển thịt ra khay nướng, đậy lại, và nướng trong lò đã nung trước 1.5 giờ cho chín hẳn."
+  }
+ },
+ "meat-09": {
+  "title": "Gà nguyên con nướng",
+  "chapter": "Chương 1: Thịt, gia cầm & hải sản",
+  "category": "Thịt & gia cầm",
+  "cookingMethod": "Nướng",
+  "prepTime": "2 giờ (ướp)",
+  "cookTime": "35 phút",
+  "servings": "4 phần",
+  "culturalNotes": "Món nướng này thể hiện tình yêu của người Ai Cập với thịt cháy cạnh thơm. Ướp lâu là chìa khóa cho độ mềm và thấm vị.",
+  "ingredients": {
+   "mp9-1": {"name": "Gà nguyên con"},
+   "mp9-2": {"name": "Hành tây vừa"},
+   "mp9-3": {"name": "Nước chanh"},
+   "mp9-4": {"name": "Giấm"},
+   "mp9-5": {"name": "Muối & tiêu đen"},
+   "mp9-6": {"name": "Dầu hoặc mỡ"}
+  },
+  "instructions": {
+   "1": "Chẻ mỗi con gà đôi theo chiều dọc và dần kỹ. Ướp trong nước cốt hai củ hành bào, nước chanh, giấm, muối và tiêu ít nhất 2 giờ.",
+   "2": "Quét các miếng với dầu hoặc mỡ, rồi nướng trên than, lật đều.",
+   "3": "Xếp ra đĩa dọn với múi chanh và khoai chiên."
+  }
+ },
+ "meat-10": {
+  "title": "Shish taouk gà",
+  "chapter": "Chương 1: Thịt, gia cầm & hải sản",
+  "category": "Thịt & gia cầm",
+  "cookingMethod": "Nướng",
+  "prepTime": "4 giờ (ướp)",
+  "cookTime": "20 phút",
+  "servings": "4 phần",
+  "culturalNotes": "",
+  "ingredients": {
+   "mp10-1": {"name": "thịt gà không xương"},
+   "mp10-2": {"name": "hành tây vừa, băm"},
+   "mp10-3": {"name": "muối, tiêu và gia vị hỗn hợp"},
+   "mp10-4": {"name": "mù tạt"},
+   "mp10-5": {"name": "giấm"},
+   "mp10-6": {"name": "nước chanh"},
+   "mp10-7": {"name": "dầu"},
+   "mp10-8": {"name": "ớt xanh, cà chua và hành để xiên"}
+  },
+  "instructions": {
+   "1": "Cắt gà thành hạt lựu và ướp với hành băm, muối, tiêu, gia vị, 1 thìa mù tạt, 2 thìa giấm, nước chanh và dầu.",
+   "2": "Đậy và để trong tủ lạnh 4 giờ.",
+   "3": "Thái ớt xanh và cắt hành thành bốn múi, rồi xiên miếng gà xen kẽ với rau.",
+   "4": "Nướng gà trên than, và ngay trước khi xong, xiên cà chua vào que để nướng nhanh."
+  }
+ },
+ "meat-11": {
+  "title": "Thăn bò hoặc ức gà trong nước dùng",
+  "chapter": "Chương 1: Thịt, gia cầm & hải sản",
+  "category": "Thịt & gia cầm",
+  "cookingMethod": "Hầm chậm (Tasbeek)",
+  "prepTime": "10 phút",
+  "cookTime": "35 phút",
+  "servings": "4 phần",
+  "culturalNotes": "",
+  "ingredients": {
+   "mp11-1": {"name": "Thịt bê hoặc ức gà"},
+   "mp11-2": {"name": "Hành tây nhỏ"},
+   "mp11-3": {"name": "Tỏi băm"},
+   "mp11-4": {"name": "Mùi tây hoặc ớt xanh"},
+   "mp11-5": {"name": "Dầu để chiên"},
+   "mp11-6": {"name": "Muối và tiêu"},
+   "mp11-7": {"name": "Nước"},
+   "mp11-8": {"name": "Giấm, nước chanh và mỡ"},
+   "mp11-9": {"name": "Khoai tây"}
+  },
+  "instructions": {
+   "1": "Nêm thịt hoặc gà với tiêu đen.",
+   "2": "Chuẩn bị chảo với 2 thìa dầu và một củ hành nhỏ nguyên, rồi áp chảo thịt hoặc gà.",
+   "3": "Xào tỏi băm với mùi tây thái nhỏ hoặc ớt xanh thái nhỏ, ít nước và muối; để lửa rất nhỏ, thêm nước khi cần cho chín và nước cạn hết.",
+   "4": "Cách khác: Thêm 1 thìa giấm, nước một quả chanh, 2 thìa mỡ hoặc dầu, muối và tiêu vào thịt hoặc gà, và để lửa rất nhỏ vừa khuấy liên tục.",
+   "5": "Thêm nước dần khi cần cho chín, rồi gắp thịt ra.",
+   "6": "Chiên hai củ khoai cắt hạt lựu, rồi cho vào sốt đến khi thấm vị."
+  }
+ },
+ "meat-12": {
+  "title": "Thịt với ớt xanh",
+  "chapter": "Chương 1: Thịt, gia cầm & hải sản",
+  "category": "Thịt & gia cầm",
+  "cookingMethod": "Hầm chậm (Tasbeek)",
+  "prepTime": "10 phút",
+  "cookTime": "40 phút",
+  "servings": "4 phần",
+  "culturalNotes": "Đây là món truyền thống Ai Cập chế biến với nguyên liệu tươi và gia vị thơm.",
+  "ingredients": {
+   "mp12-1": {"name": "Thịt"},
+   "mp12-2": {"name": "Hành tây to"},
+   "mp12-3": {"name": "Ớt xanh"},
+   "mp12-4": {"name": "Dầu hoặc mỡ"},
+   "mp12-5": {"name": "Muối & tiêu đen"},
+   "mp12-6": {"name": "Nước"}
+  },
+  "instructions": {
+   "1": "Thái lát thịt cùng hành và ớt xanh.",
+   "2": "Xào thịt trong dầu hoặc mỡ cho vàng, rồi gắp riêng.",
+   "3": "Thêm hành và xào, rồi thêm ớt xanh, trả thịt lại nồi, nêm muối tiêu, thêm ít nước khi cần, đậy nắp cho chín."
+  }
+ },
+ "meat-13": {
+  "title": "Thịt cừu với thì là (Kammuniya)",
+  "chapter": "Chương 1: Thịt, gia cầm & hải sản",
+  "category": "Thịt & gia cầm",
+  "cookingMethod": "Hầm chậm (Tasbeek)",
+  "prepTime": "10 phút",
+  "cookTime": "45 phút",
+  "servings": "4 phần",
+  "culturalNotes": "Món thịt gia vị này là trụ cột của bếp nhà Ai Cập, với thì là cho nốt ấm đất đặc trưng.",
+  "ingredients": {
+   "mp13-1": {"name": "Thịt"},
+   "mp13-2": {"name": "Tỏi băm"},
+   "mp13-3": {"name": "Giấm"},
+   "mp13-4": {"name": "Hành tây nhỏ nguyên"},
+   "mp13-5": {"name": "Nước"},
+   "mp13-6": {"name": "Dầu hoặc mỡ"},
+   "mp13-7": {"name": "Thì là"}
+  },
+  "instructions": {
+   "1": "Cắt thịt thành miếng nhỏ và xào vàng trong dầu hoặc mỡ.",
+   "2": "Thêm tỏi giã theo tỷ lệ thịt, rồi thêm thì là, đảo cho tỏi vàng.",
+   "3": "Thêm một chén rưỡi nước với thìa giấm và hành nguyên, và hầm lửa nhỏ cho chín."
+  }
+ },
+ "meat-14": {
+  "title": "Thịt với sốt nước mắt",
+  "chapter": "Chương 1: Thịt, gia cầm & hải sản",
+  "category": "Thịt & gia cầm",
+  "cookingMethod": "Hầm chậm (Tasbeek)",
+  "prepTime": "10 phút",
+  "cookTime": "50 phút",
+  "servings": "4 phần",
+  "culturalNotes": "Đây là món truyền thống Ai Cập chế biến với nguyên liệu tươi và gia vị thơm.",
+  "ingredients": {
+   "mp14-1": {"name": "Thịt"},
+   "mp14-2": {"name": "Tỏi băm"},
+   "mp14-3": {"name": "Dầu hoặc mỡ"},
+   "mp14-4": {"name": "Muối & tiêu đen"},
+   "mp14-5": {"name": "Cà chua hoặc sốt cà chua"},
+   "mp14-6": {"name": "Giấm"},
+   "mp14-7": {"name": "Nước"}
+  },
+  "instructions": {
+   "1": "Cắt thịt miếng vừa và xào vàng trong dầu hoặc mỡ, rồi thêm tỏi giã đảo cho vàng, nêm muối tiêu.",
+   "2": "Xay cà chua và thêm vào thịt cho sốt đặc và sệt.",
+   "3": "Thêm giấm và khuấy kỹ, rồi thêm khoảng 2 chén nước, và hầm lửa nhỏ cho chín hẳn."
+  }
+ },
+ "meat-15": {
+  "title": "Thịt bò áp chảo",
+  "chapter": "Chương 1: Thịt, gia cầm & hải sản",
+  "category": "Thịt & gia cầm",
+  "cookingMethod": "Hầm chậm (Tasbeek)",
+  "prepTime": "10 phút",
+  "cookTime": "45 phút",
+  "servings": "4 phần",
+  "culturalNotes": "Đây là món truyền thống Ai Cập chế biến với nguyên liệu tươi và gia vị thơm.",
+  "ingredients": {
+   "mp15-1": {"name": "Thịt"},
+   "mp15-2": {"name": "Hành tây to, vắt lấy nước"},
+   "mp15-3": {"name": "Nước chanh hoặc giấm"},
+   "mp15-4": {"name": "Muối & tiêu đen"},
+   "mp15-5": {"name": "Nước"},
+   "mp15-6": {"name": "Dầu hoặc mỡ"}
+  },
+  "instructions": {
+   "1": "Ướp thịt trong nước hành, nước chanh hoặc giấm, muối và tiêu.",
+   "2": "Đặt thịt đã ướp vào nồi với dầu hoặc mỡ lửa nhỏ, đậy nắp, cho cạn nước của chính nó; thêm ít dầu hoặc mỡ và đảo cho vàng, rồi thêm nước cho chín hẳn."
+  }
+ },
+ "meat-16": {
+  "title": "Thịt thái lát trong sốt",
+  "chapter": "Chương 1: Thịt, gia cầm & hải sản",
+  "category": "Thịt & gia cầm",
+  "cookingMethod": "Hầm chậm (Tasbeek)",
+  "prepTime": "10 phút",
+  "cookTime": "40 phút",
+  "servings": "4 phần",
+  "culturalNotes": "",
+  "ingredients": {
+   "mp16-1": {"name": "thịt bò"},
+   "mp16-2": {"name": "hành tây vừa"},
+   "mp16-3": {"name": "tương cà chua"},
+   "mp16-4": {"name": "muối, tiêu và gia vị"},
+   "mp16-5": {"name": "sữa"},
+   "mp16-6": {"name": "nước"},
+   "mp16-7": {"name": "dầu hoặc mỡ"}
+  },
+  "instructions": {
+   "1": "Thái thịt bò dọc thành dải và nêm muối, tiêu và gia vị.",
+   "2": "Đun nóng dầu hoặc mỡ trong nồi, thêm lát thịt cho vàng, rồi gắp ra.",
+   "3": "Trong cùng nồi, thêm hành thái lát và xào, rồi thêm lát thịt cùng thìa tương cà; đậy và để lửa nhỏ.",
+   "4": "Thêm nước khi thịt cần cho gần chín.",
+   "5": "Thêm nửa chén sữa vào thịt lửa nhỏ 5 phút, thỉnh thoảng khuấy."
+  }
+ },
+ "meat-17": {
+  "title": "Ức gà sốt kem",
+  "chapter": "Chương 1: Thịt, gia cầm & hải sản",
+  "category": "Thịt & gia cầm",
+  "cookingMethod": "Hầm chậm (Tasbeek)",
+  "prepTime": "10 phút",
+  "cookTime": "30 phút",
+  "servings": "4 phần",
+  "culturalNotes": "",
+  "ingredients": {
+   "mp17-1": {"name": "ức gà"},
+   "mp17-2": {"name": "hành tây vừa, thái nhỏ"},
+   "mp17-3": {"name": "tỏi băm"},
+   "mp17-4": {"name": "muối và tiêu"},
+   "mp17-5": {"name": "dầu hoặc mỡ"},
+   "mp17-6": {"name": "ớt chuông xanh"},
+   "mp17-7": {"name": "kem tươi"},
+   "mp17-8": {"name": "mù tạt"},
+   "mp17-9": {"name": "nước"}
+  },
+  "instructions": {
+   "1": "Nêm gà với tiêu đen.",
+   "2": "Đun nóng dầu hoặc mỡ trong chảo và áp chảo toàn bộ gà cùng lúc lửa lớn; lật cho vàng mặt còn lại, rồi gắp ra.",
+   "3": "Trong cùng chảo, thêm hành thái nhỏ và tỏi băm xào, rồi thêm ít nước và muối đun sôi.",
+   "4": "Thái nhỏ ớt xanh và trộn với nửa chén kem và thìa mù tạt, khuấy kỹ (có thể thay kem bằng 1 thìa kem váng hòa với ít sữa).",
+   "5": "Thêm gà đã áp chảo vào hỗn hợp này, trả lại chảo, đậy nắp, và hầm lửa nhỏ cho chín."
+  }
+ },
+ "meat-18": {
+  "title": "Ức gà áo bột",
+  "chapter": "Chương 1: Thịt, gia cầm & hải sản",
+  "category": "Thịt & gia cầm",
+  "cookingMethod": "Hầm chậm (Tasbeek)",
+  "prepTime": "10 phút",
+  "cookTime": "30 phút",
+  "servings": "4 phần",
+  "culturalNotes": "",
+  "ingredients": {
+   "mp18-1": {"name": "ức gà"},
+   "mp18-2": {"name": "bột để áo"},
+   "mp18-3": {"name": "thì là và ngò"},
+   "mp18-4": {"name": "hành tây vừa"},
+   "mp18-5": {"name": "tỏi băm"},
+   "mp18-6": {"name": "muối, tiêu và cỏ xạ hương"},
+   "mp18-7": {"name": "nước ép cà chua hoặc tương cà chua"},
+   "mp18-8": {"name": "dầu"}
+  },
+  "instructions": {
+   "1": "Nêm gà trong bột trộn với thì là, ngò và muối.",
+   "2": "Chiên trong dầu cho vàng, rồi gắp ra.",
+   "3": "Trong cùng chảo, xào hành thái nhỏ, rồi thêm tỏi băm, muối, tiêu và cỏ xạ hương vừa khuấy.",
+   "4": "Thêm nước ép cà chua hoặc tương cà và nấu cho đặc, rồi đặt gà lên sốt, đậy chảo, và thêm ít nước nếu cần cho chín.",
+   "5": "Ngay trước khi xong, rắc ít mùi tây thái nhỏ."
+  }
+ },
+ "meat-19": {
+  "title": "Ức gà trong sốt thơm",
+  "chapter": "Chương 1: Thịt, gia cầm & hải sản",
+  "category": "Thịt & gia cầm",
+  "cookingMethod": "Hầm chậm (Tasbeek)",
+  "prepTime": "2 giờ (ướp)",
+  "cookTime": "35 phút",
+  "servings": "4 phần",
+  "culturalNotes": "",
+  "ingredients": {
+   "mp19-1": {"name": "ức gà"},
+   "mp19-2": {"name": "hành tây to"},
+   "mp19-3": {"name": "tỏi băm"},
+   "mp19-4": {"name": "bạch đậu khấu băm"},
+   "mp19-5": {"name": "bột mì"},
+   "mp19-6": {"name": "muối, tiêu và quế"},
+   "mp19-7": {"name": "sữa"},
+   "mp19-8": {"name": "nước"},
+   "mp19-9": {"name": "dầu"}
+  },
+  "instructions": {
+   "1": "Ướp gà chỉ với nước nửa củ hành cùng muối và tiêu, rồi đậy trong tủ lạnh ít nhất hai giờ.",
+   "2": "Áo gà trong bột, đảm bảo phủ kỹ hai mặt, rồi chiên trong dầu cho vàng và gắp ra.",
+   "3": "Trộn tỏi băm và bạch đậu khấu băm với muối, tiêu và quế, rồi xào trong cùng chảo dầu.",
+   "4": "Thái hạt lựu nhỏ nửa củ hành còn lại và xào cùng các gia vị thơm.",
+   "5": "Thêm sữa và nước đun sôi, rồi đặt gà chiên vào chất lỏng và hầm cho chín, đảm bảo còn ít sốt trắng."
+  }
+ },
+ "meat-20": {
+  "title": "Gà cà ri",
+  "chapter": "Chương 1: Thịt, gia cầm & hải sản",
+  "category": "Thịt & gia cầm",
+  "cookingMethod": "Hầm chậm (Tasbeek)",
+  "prepTime": "10 phút",
+  "cookTime": "35 phút",
+  "servings": "4 phần",
+  "culturalNotes": "Cà ri thể hiện ảnh hưởng toàn cầu trong ẩm thực Ai Cập hiện đại, thêm phức hợp ấm vào các món truyền thống.",
+  "ingredients": {
+   "mp20-1": {"name": "Thịt gà"},
+   "mp20-2": {"name": "Bột đa dụng"},
+   "mp20-3": {"name": "Bột cà ri"},
+   "mp20-4": {"name": "Nước"},
+   "mp20-5": {"name": "Dầu thực vật"}
+  },
+  "instructions": {
+   "1": "Cắt gà thành miếng nhỏ và xào trong dầu rất nóng, đậy nắp khi xào vàng, cho vàng, rồi gắp khỏi dầu.",
+   "2": "Trộn bột với bột cà ri, rồi thêm 2 chén nước từ từ cho độ sệt vừa.",
+   "3": "Trả gà lại hỗn hợp này và hầm đậy nắp lửa nhỏ cho chín."
+  }
+ }
+}

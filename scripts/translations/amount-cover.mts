@@ -4,7 +4,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { allRecipes } from '../../src/data/recipes';
 
-const SUFFIX: Record<string,string> = { fr:'Fr', es:'Es', de:'De', it:'It', pt:'Pt', nl:'Nl', pl:'Pl', sv:'Sv', ru:'Ru', el:'El', tr:'Tr', id:'Id', sw:'Sw', ku:'Ku', hi:'Hi', ur:'Ur', fa:'Fa', ps:'Ps', he:'He', ja:'Ja', zh:'Zh', ko:'Ko', te:'Te' };
+const SUFFIX: Record<string,string> = { fr:'Fr', es:'Es', de:'De', it:'It', pt:'Pt', nl:'Nl', pl:'Pl', sv:'Sv', ru:'Ru', el:'El', tr:'Tr', id:'Id', sw:'Sw', ku:'Ku', hi:'Hi', ur:'Ur', fa:'Fa', ps:'Ps', he:'He', ja:'Ja', zh:'Zh', ko:'Ko', te:'Te', bn:'Bn', vi:'Vi' };
 
 export async function loadMap(lang: string) {
   const map = JSON.parse(await readFile(`scripts/translations/norm/${lang}.json`, 'utf-8'));

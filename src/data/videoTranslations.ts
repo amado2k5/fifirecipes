@@ -128,7 +128,7 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     searchOn: 'Искать блюдо в',
     previous: 'Назад',
     next: 'Далее',
-    short: 'Shorts',
+    short: 'Шортс',
     close: 'Закрыть'
   },
   zh: {
@@ -231,13 +231,13 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
   },
   ku: {
     tab: 'Vîdyo',
-    intro: 'Vîdyoyên ku bi lêgerîna navê vî xwarinê bixweber hatine dîtin. Yên afirînerên wan in û dibe ku ji reçeteya Dr. Fatma cuda bin.',
+    intro: 'Vîdyoyên ku bi lêgerîna navê vê xwarinê bixweber hatine dîtin. Yên afirînerên wan in û dibe ku ji reçeteya Dr. Fatma cuda bin.',
     loading: 'Li vîdyoyan tê gerîn…',
     empty: 'Hîn vîdyoyek li hev nehat dîtin.',
     error: 'Niha vîdyo nehatin barkirin.',
     retry: 'Dîsa biceribîne',
     openOn: 'Li ser {p} veke',
-    searchOn: 'Vî xwarinê lê bigere li',
+    searchOn: 'Vê xwarinê li vir bigere:',
     previous: 'Berê',
     next: 'Paşê',
     short: 'Short',
@@ -309,7 +309,7 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     openOn: 'په {p} کې پرانیزئ',
     searchOn: 'دا ډېش وپلټئ په',
     previous: 'مخکینی',
-    next: 'بله',
+    next: 'راتلونکی',
     short: 'لنډ',
     close: 'بند کړئ'
   },
@@ -368,6 +368,34 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     next: 'తదుపరి',
     short: 'చిన్నది',
     close: 'మూసివేయండి'
+  },
+  bn: {
+    tab: 'ভিডিও',
+    intro: 'এই পদের নামে স্বয়ংক্রিয়ভাবে খুঁজে পাওয়া ভিডিও। সেগুলো তাদের নির্মাতাদের এবং ডা. ফাতমার রেসিপি থেকে আলাদা হতে পারে।',
+    loading: 'ভিডিও খোঁজা হচ্ছে…',
+    empty: 'এখনও কোনো মিলে যাওয়া ভিডিও পাওয়া যায়নি।',
+    error: 'এই মুহূর্তে ভিডিও লোড করা যায়নি।',
+    retry: 'আবার চেষ্টা করুন',
+    openOn: '{p}-এ খুলুন',
+    searchOn: 'এই পদটি এখানে খুঁজুন:',
+    previous: 'আগেরটি',
+    next: 'পরেরটি',
+    short: 'ছোট',
+    close: 'বন্ধ করুন'
+  },
+  vi: {
+    tab: 'Video',
+    intro: 'Các video được tìm tự động theo tên món ăn này. Chúng thuộc về người tạo và có thể khác với công thức của Dr. Fatma.',
+    loading: 'Đang tìm video…',
+    empty: 'Chưa tìm thấy video phù hợp nào.',
+    error: 'Hiện không tải được video.',
+    retry: 'Thử lại',
+    openOn: 'Mở trên {p}',
+    searchOn: 'Tìm món này trên',
+    previous: 'Trước',
+    next: 'Tiếp',
+    short: 'Ngắn',
+    close: 'Đóng',
   },
   cs: {
     tab: 'Videa',

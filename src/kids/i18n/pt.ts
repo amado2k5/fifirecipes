@@ -5,7 +5,7 @@ const pt: KidsStrings = {
   subtitle: 'Receitas divertidas para pequenos chefs. Cozinhe sempre com um adulto por perto!',
   all: 'Tudo',
   groups: { breakfast: 'Café da manhã', snack: 'Lanches', savoury: 'Salgados', sweet: 'Doces', drink: 'Bebidas' },
-  noCook: 'Sem fogão',
+  noCook: 'Sem cozinhar',
   ages: '{a} anos',
   anyAge: 'Todas as idades',
   minutes: '{n} min',

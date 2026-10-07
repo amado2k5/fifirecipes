@@ -145,7 +145,7 @@ const ar: KidsStrings = {
     toaster: 'محمصة خبز',
     mug: 'مج',
     'muffin-tin': 'قالب مافن',
-    'cookie-mold': 'منقاش أو قالب',
+    'cookie-mold': 'ختم أو قالب بسكويت',
     ladle: 'مغرفة',
     strainer: 'مصفاة',
     pitcher: 'إبريق',
@@ -153,7 +153,7 @@ const ar: KidsStrings = {
     'baking-paper': 'ورق زبدة',
     'plastic-bag': 'كيس بلاستيك',
     'cling-film': 'ورق نايلون',
-    'paper-cases': 'أكواب ورقية',
+    'paper-cases': 'قوالب ورقية',
     juicer: 'عصارة ليمون',
     sieve: 'مصفاة صغيرة'
   }
@@ -275,5 +275,5 @@ export const fill = (template: string, values: Record<string, string | number>) 
 export const SPEECH_LANG: Partial<Record<SupportedLanguage, string>> = {
   ar: 'ar-EG', en: 'en-US', fr: 'fr-FR', es: 'es-ES', ja: 'ja-JP', hi: 'hi-IN', pt: 'pt-BR', ru: 'ru-RU', zh: 'zh-CN',
   de: 'de-DE', it: 'it-IT', el: 'el-GR', ur: 'ur-PK', fa: 'fa-IR', tr: 'tr-TR', ku: 'ku', id: 'id-ID', sw: 'sw-KE', ko: 'ko-KR',
-  nl: 'nl-NL', ps: 'ps-AF', he: 'he-IL', pl: 'pl-PL', sv: 'sv-SE', te: 'te-IN', cs: 'cs-CZ'
+  nl: 'nl-NL', ps: 'ps-AF', he: 'he-IL', pl: 'pl-PL', sv: 'sv-SE', te: 'te-IN', bn: 'bn-BD', vi: 'vi-VN', cs: 'cs-CZ'
 };

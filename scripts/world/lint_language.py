@@ -36,7 +36,7 @@ RANGES = [
     ((0x0400, 0x04FF), 'Cyrillic'),
     ((0x0590, 0x05FF), 'Hebrew'),
     ((0x0900, 0x097F), 'Devanagari'),
-    ((0x0C00, 0x0C7F), 'Telugu'),
+    ((0x0C00, 0x0C7F), 'Telugu'), ((0x0980, 0x09FF), 'Bengali'),
     ((0x3040, 0x309F), 'Hiragana'), ((0x30A0, 0x30FF), 'Katakana'),
     ((0x31F0, 0x31FF), 'Katakana'), ((0xFF66, 0xFF9F), 'Katakana'),
     ((0x3400, 0x4DBF), 'Han'), ((0x4E00, 0x9FFF), 'Han'),
@@ -47,12 +47,12 @@ RANGES = [
 ]
 
 # Kurdish is Kurmanji (Latin script) everywhere in the app — UI, chapter names, core recipes.
-LATIN_LANGS = ['En', 'Es', 'Fr', 'De', 'It', 'Nl', 'Pt', 'Pl', 'Sv', 'Tr', 'Id', 'Sw', 'Ku', 'Cs']
+LATIN_LANGS = ['En', 'Es', 'Fr', 'De', 'It', 'Nl', 'Pt', 'Pl', 'Sv', 'Tr', 'Id', 'Sw', 'Ku', 'Vi', 'Cs']
 ALLOWED = {**{l: {'Latin'} for l in LATIN_LANGS},
            'AR': {'Arabic'}, 'Fa': {'Arabic'}, 'Ur': {'Arabic'},
            'Ps': {'Arabic'},
            'El': {'Greek'}, 'Ru': {'Cyrillic'}, 'He': {'Hebrew'},
-           'Hi': {'Devanagari'}, 'Te': {'Telugu'}, 'Ko': {'Hangul'},
+           'Hi': {'Devanagari'}, 'Te': {'Telugu'}, 'Bn': {'Bengali'}, 'Ko': {'Hangul'},
            'Zh': {'Han'}, 'Ja': {'Hiragana', 'Katakana', 'Han'}}
 # Latin tokens tolerated inside non-Latin languages
 UNITS = re.compile(r'^(?:g|kg|ml|l|cm|mm|C|F|x)$')

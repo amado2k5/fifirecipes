@@ -96,7 +96,7 @@ const ko: KidsStrings = {
     'plastic-bag': '비닐봉지',
     'cling-film': '랩',
     'paper-cases': '머핀 종이컵',
-    juicer: '레몬 즙짜개',
+    juicer: '레몬 착즙기',
     sieve: '작은 체'
   }
 };

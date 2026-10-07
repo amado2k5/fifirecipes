@@ -108,7 +108,7 @@ const ar: EstimateStrings = {
     meatFree: { label: 'خالٍ من اللحوم', hint: 'لا يحتوي على لحوم أو دواجن أو أسماك.' }
   },
   costTitle: 'التكلفة المالية للوصفة',
-  ingredientGroup: 'المكونات',
+  ingredientGroup: 'مجموعة المكونات',
   costUsd: 'التكلفة بالدولار ($)',
   groups: {
     protein: 'لحوم ودواجن ومأكولات بحرية',
@@ -285,15 +285,15 @@ const hi: EstimateStrings = {
   carbs: 'कार्बोहाइड्रेट',
   fiber: 'फाइबर',
   sugar: 'शर्करा',
-  kcal: 'kcal',
+  kcal: 'कैलोरी',
   grams: 'ग्राम',
   energySplit: 'कैलोरी कहाँ से आती है',
   healthTitle: 'स्वास्थ्य नोट्स',
   tags: {
     highProtein: { label: 'उच्च प्रोटीन', hint: 'कैलोरी का बड़ा हिस्सा प्रोटीन से आता है।' },
     goodFiber: { label: 'फाइबर का अच्छा स्रोत', hint: 'प्रति सर्विंग लगभग 5 ग्राम या अधिक फाइबर।' },
-    light: { label: 'हल्का व्यंजन', hint: 'प्रति सर्विंग 250 kcal से कम।' },
-    hearty: { label: 'भरपेट और पौष्टिक', hint: 'प्रति सर्विंग 600 kcal या अधिक — मुख्य भोजन के रूप में उपयुक्त।' },
+    light: { label: 'हल्का व्यंजन', hint: 'प्रति सर्विंग 250 कैलोरी से कम।' },
+    hearty: { label: 'भरपेट और पौष्टिक', hint: 'प्रति सर्विंग 600 कैलोरी या अधिक — मुख्य भोजन के रूप में उपयुक्त।' },
     highSugar: { label: 'अधिक शर्करा', hint: 'कभी-कभार के लिए बेहतर।' },
     highFat: { label: 'वसा से भरपूर', hint: 'आधी या अधिक कैलोरी वसा से आती है।' },
     lowFat: { label: 'कम वसा', hint: 'प्रति सर्विंग 5 ग्राम या कम वसा।' },
@@ -301,7 +301,7 @@ const hi: EstimateStrings = {
   },
   costTitle: 'रेसिपी की अनुमानित लागत',
   ingredientGroup: 'सामग्री समूह',
-  costUsd: 'लागत (USD)',
+  costUsd: 'लागत (अमेरिकी डॉलर)',
   groups: {
     protein: 'मांस, चिकन और समुद्री भोजन',
     dairyEggs: 'डेयरी, घी और अंडे',
@@ -317,7 +317,7 @@ const hi: EstimateStrings = {
   estimated: 'अनुमानित',
   nutritionNote: 'रेसिपी की सामग्री और सामान्य पोषण आँकड़ों से निकाले गए अनुमानित मान। ये किसी पोषण विशेषज्ञ की सलाह का विकल्प नहीं हैं।',
   costNote: 'अमेरिकी सुपरमार्केट की औसत कीमतों पर आधारित; वास्तविक लागत देश, मौसम और ब्रांड के अनुसार बदलती है।',
-  kcalChip: '≈ {v} kcal / सर्विंग',
+  kcalChip: '≈ {v} कैलोरी / सर्विंग',
   costChip: '≈ {v} / सर्विंग'
 };
 
@@ -372,7 +372,7 @@ const pt: EstimateStrings = {
 const ru: EstimateStrings = {
   tab: 'Питание и стоимость',
   nutritionTitle: 'Пищевая ценность',
-  perServingBasis: 'На порцию — рецепт рассчитан примерно на {n} порций',
+  perServingBasis: 'На порцию — порций в рецепте: около {n}',
   nutrient: 'Нутриент',
   perServing: 'На порцию',
   calories: 'Калории',
@@ -397,7 +397,7 @@ const ru: EstimateStrings = {
   },
   costTitle: 'Примерная стоимость рецепта',
   ingredientGroup: 'Группа продуктов',
-  costUsd: 'Стоимость (USD)',
+  costUsd: 'Стоимость (долл. США)',
   groups: {
     protein: 'Мясо, птица и морепродукты',
     dairyEggs: 'Молочные продукты, топлёное масло и яйца',
@@ -786,7 +786,7 @@ const ku: EstimateStrings = {
     protein: 'Goşt, mirîşk û berhemên deryayê',
     dairyEggs: 'Berhemên şîr, rûnê nivîşk û hêk',
     produce: 'Sebze, giya û fêkî',
-    grains: 'Birinc, ard, makarne û lebat',
+    grains: 'Birinc, ard, makarone û lebûbiyat',
     fats: 'Rûnên xwarinçêkirinê',
     sweeteners: 'Şekir, hingiv û şerbet',
     specialty: 'Gwîz, fêkiyên hişk û hêmanên taybet',
@@ -928,7 +928,7 @@ const ko: EstimateStrings = {
   costUsd: '비용 (USD)',
   groups: {
     protein: '육류, 가금류 및 해산물',
-    dairyEggs: '유제품, 기(ghee) 및 달걀',
+    dairyEggs: '유제품, 기 및 달걀',
     produce: '채소, 허브 및 과일',
     grains: '쌀, 밀가루, 파스타 및 콩류',
     fats: '식용유 및 유지류',
@@ -1010,12 +1010,12 @@ const ps: EstimateStrings = {
   energySplit: 'کالورۍ له کومه راځي',
   healthTitle: 'د روغتیا یادښتونه',
   tags: {
-    highProtein: { label: 'پر پروټین', hint: 'د کالوریو ستره برخه له پروټین څخه راځي.' },
+    highProtein: { label: 'ډېر پروټین', hint: 'د کالوریو ستره برخه له پروټین څخه راځي.' },
     goodFiber: { label: 'د فیبر ښه سرچینه', hint: 'پر هرې حصې نږدې ۵ ګرامه یا ډېر فیبر.' },
     light: { label: 'سپک خوړه', hint: 'پر هرې حصې له ۲۵۰ کیلوکالوریو څخه لږ.' },
     hearty: { label: 'ډېر او معده ډکوونکی', hint: 'پر هرې حصې ۶۰۰ کیلوکالوري یا ډېر — د اصلي خواړو په توګه وخورئ.' },
     highSugar: { label: 'ډېره بوره', hint: 'تر ټولو ښه دی چې کله ناکله وخوړل شي.' },
-    highFat: { label: 'پر غوړ', hint: 'نیمايي یا ډېرې کالورۍ له غوړ څخه راځي.' },
+    highFat: { label: 'ډېر غوړ', hint: 'نیمايي یا ډېرې کالورۍ له غوړ څخه راځي.' },
     lowFat: { label: 'لږ غوړ', hint: 'پر هرې حصې ۵ ګرامه یا لږ غوړ.' },
     meatFree: { label: 'بې غوښې', hint: 'په موادو کې غوښه، مرغ یا کب نشته.' }
   },
@@ -1024,7 +1024,7 @@ const ps: EstimateStrings = {
   costUsd: 'لګښت (امریکایي ډالر)',
   groups: {
     protein: 'غوښه، مرغ او سمندري خوړه',
-    dairyEggs: 'شیدې، غښ او هګۍ',
+    dairyEggs: 'شیدې، غوړي او هګۍ',
     produce: 'سبزیجات، بوټي او میوه',
     grains: 'وریژه، اوړه، پاستا او لوبیا',
     fats: 'د پخلی غوړ او چربي',
@@ -1036,7 +1036,7 @@ const ps: EstimateStrings = {
   costPerServing: 'پر یوه حصه',
   estimated: 'اټکلی',
   nutritionNote: 'اټکل شوي ارزښتونه د ترکیب له موادو او له عامو غذایی معلوماتو څخه محاسبه شوي دي. دا د تغذیې د متخصص لارښوونې ځای نه نیسي.',
-  costNote: 'د امریکایي بازارونو پر منځنیو بیو بڼی دی؛ اصلي لګښت د هېواد، موسم او برانډ له مخې توپیر لري.',
+  costNote: 'د امریکا د بازارونو د منځنیو بیو پر بنسټ؛ اصلي لګښت د هېواد، موسم او برانډ له مخې توپیر لري.',
   kcalChip: '≈ {v} کیلوکالوري / حصه',
   costChip: '≈ {v} / حصه'
 };
@@ -1061,7 +1061,7 @@ const he: EstimateStrings = {
     highProtein: { label: 'עשיר בחלבון', hint: 'חלק גדול מהקלוריות מגיע מחלבון.' },
     goodFiber: { label: 'מקור טוב לסיבים', hint: 'כ-5 גרם סיבים או יותר למנה.' },
     light: { label: 'ארוחה קלה', hint: 'פחות מ-250 קק"ל למנה.' },
-    hearty: { label: 'דשנה ומשביעה', hint: '600 קק"ל או יותר למנה — מתאימה כמנה עיקרית.' },
+    hearty: { label: 'מזינה ומשביעה', hint: '600 קק"ל או יותר למנה — מתאימה כמנה עיקרית.' },
     highSugar: { label: 'עשיר בסוכר', hint: 'עדיף ליהנות מדי פעם.' },
     highFat: { label: 'עשיר בשומן', hint: 'מחצית הקלוריות או יותר מגיעות משומן.' },
     lowFat: { label: 'דל שומן', hint: '5 גרם שומן או פחות למנה.' },
@@ -1213,7 +1213,7 @@ const te: EstimateStrings = {
   },
   costTitle: 'అంచనా వంటకం ఖర్చు',
   ingredientGroup: 'పదార్థాల వర్గం',
-  costUsd: 'ఖర్చు (USD)',
+  costUsd: 'ఖర్చు (అమెరికన్ డాలర్లు)',
   groups: {
     protein: 'మాంసం, కోళ్లు & సీఫుడ్',
     dairyEggs: 'పాల ఉత్పత్తులు, నెయ్యి & గుడ్లు',
@@ -1228,9 +1228,105 @@ const te: EstimateStrings = {
   costPerServing: 'సర్వింగ్‌కు',
   estimated: 'అంచనా',
   nutritionNote: 'వంటకం పదార్థాల ఆధారంగా సాధారణ పోషక డేటాతో లెక్కించిన సుమారు విలువలు. ఇవి ప్రొఫెషనల్ ఆహార సలహాకు ప్రత్యామ్నాయం కావు.',
-  costNote: 'సగటు US సూపర్‌మార్కెట్ ధరల ఆధారితం; నిజమైన ఖర్చు దేశం, సీజన్ మరియు బ్రాండ్ బట్టి మారుతుంది.',
+  costNote: 'సగటు అమెరికా సూపర్‌మార్కెట్ ధరల ఆధారితం; నిజమైన ఖర్చు దేశం, సీజన్ మరియు బ్రాండ్ బట్టి మారుతుంది.',
   kcalChip: '≈ సర్వింగ్‌కు {v} కే.కాల్',
   costChip: '≈ సర్వింగ్‌కు {v}'
+};
+
+const bn: EstimateStrings = {
+  tab: 'পুষ্টিগুণ ও খরচ',
+  nutritionTitle: 'পুষ্টিগুণ',
+  perServingBasis: 'প্রতি পরিবেশনে — এই রেসিপি প্রায় {n} পরিবেশন হয়',
+  nutrient: 'পুষ্টি উপাদান',
+  perServing: 'প্রতি পরিবেশনে',
+  calories: 'ক্যালরি',
+  protein: 'প্রোটিন',
+  fat: 'চর্বি',
+  carbs: 'কার্বোহাইড্রেট',
+  fiber: 'আঁশ',
+  sugar: 'চিনি',
+  kcal: 'ক্যা.',
+  grams: 'গ্রা',
+  energySplit: 'ক্যালরি কোথা থেকে আসে',
+  healthTitle: 'স্বাস্থ্য নোট',
+  tags: {
+    highProtein: { label: 'প্রোটিন সমৃদ্ধ', hint: 'ক্যালরির উল্লেখযোগ্য অংশ প্রোটিন থেকে আসে।' },
+    goodFiber: { label: 'ভালো আঁশের উৎস', hint: 'প্রতি পরিবেশনে প্রায় 5 গ্রাম বা বেশি আঁশ।' },
+    light: { label: 'হালকা পদ', hint: 'প্রতি পরিবেশনে 250 ক্যালরির কম।' },
+    hearty: { label: 'ভারী ও পেট ভরা', hint: 'প্রতি পরিবেশনে 600 ক্যালরি বা বেশি — প্রধান খাবার হিসেবে উপভোগ করুন।' },
+    highSugar: { label: 'চিনি বেশি', hint: 'মাঝে মাঝে খাওয়া মিষ্টি হিসেবে উপভোগ করুন।' },
+    highFat: { label: 'চর্বি বেশি', hint: 'অর্ধেক বা বেশি ক্যালরি চর্বি থেকে আসে।' },
+    lowFat: { label: 'চর্বি কম', hint: 'প্রতি পরিবেশনে 5 গ্রাম বা কম চর্বি।' },
+    meatFree: { label: 'মাংস নেই', hint: 'উপকরণে মাংস, মুরগি বা মাছ নেই।' }
+  },
+  costTitle: 'আনুমানিক রেসিপির খরচ',
+  ingredientGroup: 'উপকরণের ধরন',
+  costUsd: 'খরচ (USD)',
+  groups: {
+    protein: 'মাংস, পোল্ট্রি ও সীফুড',
+    dairyEggs: 'দুগ্ধজাতীয়, ঘি ও ডিম',
+    produce: 'সবজি, সবুজ শাক ও ফল',
+    grains: 'চাল, আটা, পাস্তা ও ডাল',
+    fats: 'রান্নার তেল ও চর্বি',
+    sweeteners: 'চিনি, মধু ও সিরা',
+    specialty: 'বাদাম, শুকনো ফল ও বিশেষ জিনিস',
+    spices: 'মসলা ও স্বাদবর্ধক'
+  },
+  total: 'আনুমানিক মোট',
+  costPerServing: 'প্রতি পরিবেশনে',
+  estimated: 'আনুমানিক',
+  nutritionNote: 'রেসিপির উপকরণ ও সাধারণ পুষ্টি তথ্যের ভিত্তিতে হিসাব করা আনুমানিক মান। এগুলো পেশাদার পুষ্টি পরামর্শের বিকল্প নয়।',
+  costNote: 'মার্কিন সুপারমার্কেটের গড় দামের ভিত্তিতে; প্রকৃত খরচ দেশ, মৌসুম ও ব্র্যান্ড অনুযায়ী বদলায়।',
+  kcalChip: '≈ প্রতি পরিবেশনে {v} ক্যা.',
+  costChip: '≈ প্রতি পরিবেশনে {v}'
+};
+
+const vi: EstimateStrings = {
+  tab: 'Dinh dưỡng & Chi phí',
+  nutritionTitle: 'Giá trị dinh dưỡng',
+  perServingBasis: 'Mỗi khẩu phần — công thức này được khoảng {n} khẩu phần',
+  nutrient: 'Chất dinh dưỡng',
+  perServing: 'Mỗi khẩu phần',
+  calories: 'Calo',
+  protein: 'Protein',
+  fat: 'Chất béo',
+  carbs: 'Carbohydrate',
+  fiber: 'Chất xơ',
+  sugar: 'Đường',
+  kcal: 'kcal',
+  grams: 'g',
+  energySplit: 'Calo đến từ đâu',
+  healthTitle: 'Ghi chú sức khỏe',
+  tags: {
+    highProtein: { label: 'Giàu protein', hint: 'Phần đáng kể calo đến từ protein.' },
+    goodFiber: { label: 'Nguồn chất xơ tốt', hint: 'Khoảng 5 g chất xơ trở lên mỗi khẩu phần.' },
+    light: { label: 'Món nhẹ', hint: 'Dưới 250 kcal mỗi khẩu phần.' },
+    hearty: { label: 'Thịnh soạn & no bụng', hint: 'Từ 600 kcal trở lên mỗi khẩu phần — thưởng thức như bữa chính.' },
+    highSugar: { label: 'Nhiều đường', hint: 'Nên thưởng thức như món tráng miệng thỉnh thoảng.' },
+    highFat: { label: 'Nhiều chất béo', hint: 'Một nửa lượng calo trở lên đến từ chất béo.' },
+    lowFat: { label: 'Ít chất béo', hint: '5 g chất béo trở xuống mỗi khẩu phần.' },
+    meatFree: { label: 'Không thịt', hint: 'Không có thịt, gia cầm hay cá trong nguyên liệu.' }
+  },
+  costTitle: 'Chi phí công thức ước tính',
+  ingredientGroup: 'Nhóm nguyên liệu',
+  costUsd: 'Chi phí (USD)',
+  groups: {
+    protein: 'Thịt, gia cầm & hải sản',
+    dairyEggs: 'Sữa, bơ & trứng',
+    produce: 'Rau, rau thơm & trái cây',
+    grains: 'Gạo, bột, mì ống & đậu',
+    fats: 'Dầu & mỡ nấu ăn',
+    sweeteners: 'Đường, mật ong & siro',
+    specialty: 'Các loại hạt, trái cây khô & đặc sản',
+    spices: 'Gia vị & hương liệu'
+  },
+  total: 'Tổng ước tính',
+  costPerServing: 'Mỗi khẩu phần',
+  estimated: 'ước tính',
+  nutritionNote: 'Giá trị gần đúng được tính từ nguyên liệu của công thức với dữ liệu dinh dưỡng phổ thông. Chúng không thay thế tư vấn dinh dưỡng chuyên nghiệp.',
+  costNote: 'Dựa trên giá siêu thị trung bình tại Mỹ; chi phí thực tế thay đổi theo quốc gia, mùa và thương hiệu.',
+  kcalChip: '≈ {v} kcal / khẩu phần',
+  costChip: '≈ {v} / khẩu phần'
 };
 
 const cs: EstimateStrings = {
@@ -1280,9 +1376,9 @@ const cs: EstimateStrings = {
   kcalChip: '≈ {v} kcal / porce',
   costChip: '≈ {v} / porce'
 };
-
 const ESTIMATE_STRINGS: Partial<Record<SupportedLanguage, EstimateStrings>> = {
-  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps, he, pl, sv, te, cs
+  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps, he, pl, sv, te, bn, vi, cs
+
 };
 
 export function getEstimateStrings(lang: SupportedLanguage): EstimateStrings {
