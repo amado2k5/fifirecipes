@@ -56,6 +56,9 @@ TERMS = {
     'Zh': r'猪|豬|培根|火腿|猪油|料酒|黄酒|米酒|白酒|啤酒|葡萄酒|朗姆|熊|马肉|狗',
     'Ko': r'돼지|베이컨|햄|라드|청주|정종|맛술|미림|소주|와인|맥주|럼주|곰고기|말고기|개고기',
     'Vi': r'lợn|heo|giăm bông|ba rọi|rượu|cồn|bia|vodka|whisky|whiskey|brandy|gấu|ngựa|chó',
+    # "verë/vera" is both wine and summer in Albanian — allowlisted below as a
+    # phrase ("stinë e verës"); word-bounded matching keeps "veranda" etc. safe.
+    'Sq': r'derr\w*|proshut\w*|pancet\w*|bekon\w*|bacon|sallam\w*|mortadel\w*|lard\w*|verë|vera|verën|verës|birr\w*|raki\w*|vodk\w*|uiski|whisky|brendi|konjak|likër\w*|shampanj\w*|vermut|arak|tequila|alkohol\w*|ari\b|arin\b|ariu\b|kalë|kali\b|kuaj\w*|qen\b|qeni\b|qentë\b|hotdog\w*',
 }
 # Offensive words that mistranslation has produced (not halal, but must never
 # appear): Hebrew "oz" as אונס (rape), Swahili sugar as "kafiri" (infidel) and
@@ -83,6 +86,7 @@ ALLOW = {
     'Te': {'బీర్ యీస్ట్'},
     'Bn': {'বিয়ার ইস্ট'},
     'Vi': {'men bia', 'óc chó'},
+    'Sq': {'maja e birrës', 'maja e birres', 'stinë e verës', 'stine e veres'},  # brewer's yeast; summer season
     'Tr': {'bira mayası'},
     'Fa': {'عرق بهارنارنج', 'عرق گلاب', 'عرق نعناع', 'عرق\u200cسوس', 'عرق سوس', 'بدون الکل'},  # distillates, licorice
     'Ur': {'بغیر شراب'},
