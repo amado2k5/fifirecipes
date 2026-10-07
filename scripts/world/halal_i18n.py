@@ -31,7 +31,7 @@ TERMS = {
     'Es': r'cerdo|puerco|tocino|manteca de cerdo|jam[oó]n|chorizo|vino|cerveza|ron|jerez|licor|tequila|caballo|perro',
     'Fr': r'porc|lardons?|saindoux|jambon|vin|bi[eè]re|rhum|liqueur|cognac|cheval|chien',
     'De': r'schwein\w*|speck|schmalz|schinken|wein|bier|rum|lik[oö]r|weinbrand|pferd\w*|hund\w*',
-    'It': r'maiale|lardo|pancetta|prosciutto|guanciale|salsiccia di maiale|vino|birra|rum|liquore|grappa|marsala|cavallo|cane|limoncello',
+    'It': r'maiale|lardo|sugna|strutto|pancetta|prosciutto|guanciale|salsiccia di maiale|vino|birra|rum|liquore|grappa|marsala|cavallo|cane|limoncello',
     'Nl': r'varken\w*|spek|reuzel|ham|wijn|bier|rum|likeur|paard\w*|hond\w*',
     'Pt': r'porco|toucinho|banha de porco|presunto|vinho|cerveja|rum|licor|cacha[cç]a|cavalo|cachorro|c[aã]o|pernil(?! de (?:cordeiro|borrego|carneiro|vaca))|limoncel+o',
     'Pl': r'wieprz\w*|boczek|smalec(?! kacz)|szynk\w*|win[oa]|piw\w*|rum|likier\w*|w[oó]dk\w*|konin\w*|psie mięso',

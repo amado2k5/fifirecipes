@@ -211,7 +211,7 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
         <div className="mt-4 pt-3 border-t border-stone-100 flex items-center justify-between text-xs">
           <div className="flex items-center gap-1 text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200/50 text-[11px]">
             <Sparkles className="w-3 h-3 text-emerald-600" />
-            <span className="font-semibold">{recipe.stepCount} {t('خطوة فريدة', 'steps', 'étapes', 'pasos', 'ステップ', 'चरण', 'passos', 'шагов', '步骤', 'Schritte', 'passaggi', 'βήματα', 'مراحل', 'مرحله', 'adım', 'gav', 'langkah', 'hatua', '단계', 'stappen', 'ګامونه', 'שלבים', 'kroków', 'steg', 'దశలు', 'ধাপ')}</span>
+            <span className="font-semibold">{recipe.stepCount} {t('خطوة فريدة', 'steps', 'étapes', 'pasos', 'ステップ', 'चरण', 'passos', (recipe.stepCount % 10 === 1 && recipe.stepCount % 100 !== 11 ? 'шаг' : [2, 3, 4].includes(recipe.stepCount % 10) && ![12, 13, 14].includes(recipe.stepCount % 100) ? 'шага' : 'шагов'), '步骤', 'Schritte', 'passaggi', 'βήματα', 'مراحل', 'مرحله', 'adım', 'gav', 'langkah', 'hatua', '단계', 'stappen', 'ګامونه', 'שלבים', 'kroków', 'steg', 'దశలు', 'ধাপ')}</span>
           </div>
 
           <span className="font-semibold text-amber-700 group-hover:text-amber-900 flex items-center gap-1">

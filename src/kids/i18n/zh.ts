@@ -45,7 +45,7 @@ const zh: KidsStrings = {
   contains: '含有',
   allergens: { nuts: '坚果', peanuts: '花生', eggs: '鸡蛋', milk: '牛奶', gluten: '小麦', sesame: '芝麻' },
   madeIt: '你做到了！',
-  madeItSub: '快和大家一起分享享用吧。',
+  madeItSub: '快和大家一起分享美味吧。',
   tipTitle: '下次试试这个：',
   certificate: '小厨师证书',
   yourName: '写下你的名字',

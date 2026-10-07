@@ -145,7 +145,7 @@ const ar: KidsStrings = {
     toaster: 'محمصة خبز',
     mug: 'مج',
     'muffin-tin': 'قالب مافن',
-    'cookie-mold': 'منقاش أو قالب',
+    'cookie-mold': 'ختم أو قالب بسكويت',
     ladle: 'مغرفة',
     strainer: 'مصفاة',
     pitcher: 'إبريق',
@@ -153,7 +153,7 @@ const ar: KidsStrings = {
     'baking-paper': 'ورق زبدة',
     'plastic-bag': 'كيس بلاستيك',
     'cling-film': 'ورق نايلون',
-    'paper-cases': 'أكواب ورقية',
+    'paper-cases': 'قوالب ورقية',
     juicer: 'عصارة ليمون',
     sieve: 'مصفاة صغيرة'
   }

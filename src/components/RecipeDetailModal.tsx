@@ -280,13 +280,13 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
               {localized.prepTime && (
                 <div className="flex items-center gap-1.5">
                   <Clock className="w-3.5 h-3.5 text-amber-400" />
-                  <span>{t(`التحضير: ${localized.prepTime}`, `Prep: ${localized.prepTime}`, `Préparation : ${localized.prepTime}`, `Preparación: ${localized.prepTime}`, `下ごしらえ: ${localized.prepTime}`, `तैयारी: ${localized.prepTime}`, `Preparo: ${localized.prepTime}`, `Подготовка: ${localized.prepTime}`, `准备：${localized.prepTime}`, `Vorbereitung: ${localized.prepTime}`, `Preparazione: ${localized.prepTime}`, `Προετοιμασία: ${localized.prepTime}`, `تیاری: ${localized.prepTime}`, `آماده‌سازی: ${localized.prepTime}`, `Hazırlık: ${localized.prepTime}`, `Amadekirin: ${localized.prepTime}`, `Persiapan: ${localized.prepTime}`, `Maandalizi: ${localized.prepTime}`, `준비: ${localized.prepTime}`, `Prep: ${localized.prepTime}`, `چمتووالی: ${localized.prepTime}`, `הכנה: ${localized.prepTime}`, `Przygotowanie: ${localized.prepTime}`, `Förberedelse: ${localized.prepTime}`, `సిద్ధం: ${localized.prepTime}`, `প্রস্তুতি: ${localized.prepTime}`)}</span>
+                  <span>{t(`التحضير: ${localized.prepTime}`, `Voorbereiding: ${localized.prepTime}`, `Préparation : ${localized.prepTime}`, `Preparación: ${localized.prepTime}`, `下ごしらえ: ${localized.prepTime}`, `तैयारी: ${localized.prepTime}`, `Preparo: ${localized.prepTime}`, `Подготовка: ${localized.prepTime}`, `准备：${localized.prepTime}`, `Vorbereitung: ${localized.prepTime}`, `Preparazione: ${localized.prepTime}`, `Προετοιμασία: ${localized.prepTime}`, `تیاری: ${localized.prepTime}`, `آماده‌سازی: ${localized.prepTime}`, `Hazırlık: ${localized.prepTime}`, `Amadekirin: ${localized.prepTime}`, `Persiapan: ${localized.prepTime}`, `Maandalizi: ${localized.prepTime}`, `준비: ${localized.prepTime}`, `Voorbereiding: ${localized.prepTime}`, `چمتووالی: ${localized.prepTime}`, `הכנה: ${localized.prepTime}`, `Przygotowanie: ${localized.prepTime}`, `Förberedelse: ${localized.prepTime}`, `సిద్ధం: ${localized.prepTime}`, `প্রস্তুতি: ${localized.prepTime}`)}</span>
                 </div>
               )}
               {localized.cookTime && (
                 <div className="flex items-center gap-1.5">
                   <Flame className="w-3.5 h-3.5 text-amber-400" />
-                  <span>{t(`الطهو: ${localized.cookTime}`, `Cook: ${localized.cookTime}`, `Cuisson : ${localized.cookTime}`, `Cocción: ${localized.cookTime}`, `調理: ${localized.cookTime}`, `पकाना: ${localized.cookTime}`, `Cozimento: ${localized.cookTime}`, `Готовка: ${localized.cookTime}`, `烹饪：${localized.cookTime}`, `Kochen: ${localized.cookTime}`, `Cottura: ${localized.cookTime}`, `Μαγείρεμα: ${localized.cookTime}`, `پکانا: ${localized.cookTime}`, `پخت: ${localized.cookTime}`, `Pişirme: ${localized.cookTime}`, `Pijandin: ${localized.cookTime}`, `Memasak: ${localized.cookTime}`, `Kupika: ${localized.cookTime}`, `조리: ${localized.cookTime}`, `Cook: ${localized.cookTime}`, `پخلی: ${localized.cookTime}`, `בישול: ${localized.cookTime}`, `Gotowanie: ${localized.cookTime}`, `Tillagning: ${localized.cookTime}`, `వంట: ${localized.cookTime}`, `রান্না: ${localized.cookTime}`)}</span>
+                  <span>{t(`الطهو: ${localized.cookTime}`, `Kooktijd: ${localized.cookTime}`, `Cuisson : ${localized.cookTime}`, `Cocción: ${localized.cookTime}`, `調理: ${localized.cookTime}`, `पकाना: ${localized.cookTime}`, `Cozimento: ${localized.cookTime}`, `Готовка: ${localized.cookTime}`, `烹饪：${localized.cookTime}`, `Kochen: ${localized.cookTime}`, `Cottura: ${localized.cookTime}`, `Μαγείρεμα: ${localized.cookTime}`, `پکانا: ${localized.cookTime}`, `پخت: ${localized.cookTime}`, `Pişirme: ${localized.cookTime}`, `Pijandin: ${localized.cookTime}`, `Memasak: ${localized.cookTime}`, `Kupika: ${localized.cookTime}`, `조리: ${localized.cookTime}`, `Kooktijd: ${localized.cookTime}`, `پخلی: ${localized.cookTime}`, `בישול: ${localized.cookTime}`, `Gotowanie: ${localized.cookTime}`, `Tillagning: ${localized.cookTime}`, `వంట: ${localized.cookTime}`, `রান্না: ${localized.cookTime}`)}</span>
                 </div>
               )}
               {localized.servings && (
@@ -389,7 +389,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                       'ファトマ博士のノートをもとにした正確な分量です。準備が済んだ材料はチェックを入れてください。',
                       'डॉ. फातिमा के नोट्स के अनुसार सटीक मानक माप। तैयार होते ही सामग्री को चेक करें।',
                       'Medidas exatas conciliadas a partir das anotações da Dra. Fatma. Marque os ingredientes à medida que for preparando.',
-                      'Точные эталонные меры, сверенные по записям д-ра Фатмы. Отмечайте ингредиенты по мере подготовки.',
+                      'Точные эталонные количества, сверенные по записям д-ра Фатмы. Отмечайте ингредиенты по мере подготовки.',
                       '根据法特玛博士笔记核校的精确标准用量。准备好后即可勾选相应食材。',
                       'Exakte Standardmengen, abgeglichen mit den Notizen von Dr. Fatma. Haken Sie die Zutaten ab, sobald Sie sie vorbereitet haben.',
                       'Misure esatte, riconciliate con gli appunti della Dott.ssa Fatma. Spunta gli ingredienti man mano che li prepari.',
@@ -402,7 +402,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                       'Vipimo sahihi vilivyolinganishwa na maelezo ya Dkt. Fatma. Weka alama kwenye viungo unapoviandaa.',
                       '파트마 박사의 노트와 대조한 정확한 계량입니다. 준비하면서 재료에 체크하세요.',
                       'Exacte hoofdverhoudingen, afgestemd op de aantekeningen van Dr. Fatma. Vink ingrediënten af terwijl u kookt.', 'د ډاکټرې فاطمې د یادونو له مخې کره اصلي اندازې. کله چې چمتو کوئ مواد نښه کړئ.'
-                    , 'מידות מדויקות מהמקור, המתואמות בין פתקי ד"ר פאטמה. סמנו מרכיבים תוך כדי ההכנה.', 'Dokładne miary z oryginału, uzgodnione w notatkach dr Fatmy. Odhaczaj składniki podczas gotowania.', 'Exakta mått från originalet, avstämda mot Dr. Fatmas anteckningar. Markera ingredienserna allt eftersom du förbereder dem.', 'డా. ఫాత్మా గమనికల ఆధారంగా సరిచేసిన ఖచ్చితమైన ప్రామాణిక కొలతలు. తయారు చేసేటప్పుడు పదార్థాలను చెక్ చేసుకోండి.', 'ডা. ফাতমার নোট জুড়ে মিলিয়ে নেওয়া সঠিক পরিমাণ। প্রস্তুত করার সাথে সাথে উপকরণগুলো টিক দিন।')}
+                    , 'מידות מדויקות מהמקור, המתואמות בין פתקי ד"ר פאטמה. סמנו מצרכים תוך כדי ההכנה.', 'Dokładne miary z oryginału, uzgodnione w notatkach dr Fatmy. Odhaczaj składniki podczas gotowania.', 'Exakta mått från originalet, avstämda mot Dr. Fatmas anteckningar. Markera ingredienserna allt eftersom du förbereder dem.', 'డా. ఫాత్మా గమనికల ఆధారంగా సరిచేసిన ఖచ్చితమైన ప్రామాణిక కొలతలు. తయారు చేసేటప్పుడు పదార్థాలను చెక్ చేసుకోండి.', 'ডা. ফাতমার নোট জুড়ে মিলিয়ে নেওয়া সঠিক পরিমাণ। প্রস্তুত করার সাথে সাথে উপকরণগুলো টিক দিন।')}
                   </p>
                 </div>
                 <button
@@ -452,7 +452,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                 <span>{t(
                   'الانتقال إلى طريقة الإعداد والطهي',
                   'Continue to Step-by-Step Preparation & Cooking',
-                  'Continuer vers Instructions Étape par Étape',
+                  'Continuer vers les Instructions Étape par Étape',
                   'Continuar a Preparación Paso a Paso',
                   '作り方(ステップバイステップ)へ進む',
                   'कदम-दर-कदम खाना पकाने की विधि पर जाएं',
@@ -482,14 +482,14 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                     className="flex items-center gap-2 px-4 py-2.5 bg-white text-amber-700 rounded-xl font-semibold hover:scale-105 transition-transform focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-offset-2"
                   >
                     <ShoppingCart className="w-5 h-5" />
-                    <span>{t('طلب المكونات', 'Order Ingredients', 'Commander les ingrédients', 'Pedir ingredientes', '食材を注文', 'सामग्री ऑर्डर करें', 'Pedir ingredientes', 'Заказать ингредиенты', '订购食材', 'Zutaten bestellen', 'Ordina ingredienti', 'Παραγγελία υλικών', 'اجزاء آرڈر کریں', 'سفارش مواد اولیه', 'Malzemeleri Sipariş Et', 'Pêkhateyan Sipariş Bike', 'Pesan Bahan', 'Oda Viungo', '재료 주문', 'Ingrediënten Bestellen', 'مواد وپیرئ', 'הזמנת מרכיבים', 'Zamów składniki', 'Beställ ingredienser', 'పదార్థాలు ఆర్డర్ చేయండి', 'উপকরণ অর্ডার করুন')}</span>
+                    <span>{t('طلب المكونات', 'Order Ingredients', 'Commander les ingrédients', 'Pedir ingredientes', '食材を注文', 'सामग्री ऑर्डर करें', 'Pedir ingredientes', 'Заказать ингредиенты', '订购食材', 'Zutaten bestellen', 'Ordina ingredienti', 'Παραγγελία υλικών', 'اجزاء آرڈر کریں', 'سفارش مواد اولیه', 'Malzemeleri Sipariş Et', 'Pêkhateyan Sipariş Bike', 'Pesan Bahan', 'Oda Viungo', '재료 주문', 'Ingrediënten Bestellen', 'مواد وپیرئ', 'הזמנת מצרכים', 'Zamów składniki', 'Beställ ingredienser', 'పదార్థాలు ఆర్డర్ చేయండి', 'উপকরণ অর্ডার করুন')}</span>
                   </button>
                   <button
                     onClick={handleOrderDish}
                     className="flex items-center gap-2 px-4 py-2.5 bg-white text-amber-700 rounded-xl font-semibold hover:scale-105 transition-transform focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-offset-2"
                   >
                     <UtensilsCrossed className="w-5 h-5" />
-                    <span>{t('طلب الطبق', 'Order Dish', 'Commander le plat', 'Pedir plato', '料理を注文', 'व्यंजन ऑर्डर करें', 'Pedir prato', 'Заказать блюдо', '订购菜品', 'Gericht bestellen', 'Ordina piatto', 'Παραγγελία πιάτου', 'دش آرڈر کریں', 'سفارش غذا', 'Yemek Sipariş Et', 'Şîpaş Sipariş Bike', 'Pesan Hidangan', 'Oda Chakula', '요리 주문', 'Gerecht Bestellen', 'چمتو خواړه وپیرئ', 'הזמנת המנה', 'Zamów danie', 'Beställ rätt', 'వంటకం ఆర్డర్ చేయండి', 'পদটি অর্ডার করুন')}</span>
+                    <span>{t('طلب الطبق', 'Order Dish', 'Commander le plat', 'Pedir plato', '料理を注文', 'व्यंजन ऑर्डर करें', 'Pedir prato', 'Заказать блюдо', '订购菜品', 'Gericht bestellen', 'Ordina piatto', 'Παραγγελία πιάτου', 'ڈش آرڈر کریں', 'سفارش غذا', 'Yemek Sipariş Et', 'Xwarinê Sipariş Bike', 'Pesan Hidangan', 'Oda Chakula', '요리 주문', 'Gerecht Bestellen', 'چمتو خواړه وپیرئ', 'הזמנת המנה', 'Zamów danie', 'Beställ rätt', 'వంటకం ఆర్డర్ చేయండి', 'পদটি অর্ডার করুন')}</span>
                   </button>
                   <button
                     onClick={handleFestivals}
@@ -600,15 +600,15 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                     '栄養とコストへ進む',
                     'पोषण और लागत पर जाएं',
                     'Continuar para Nutrição e Custo',
-                    'Перейти к Питательности и Стоимости',
+                    'Перейти к разделу «Питание и стоимость»',
                     '前往查看营养与成本',
                     'Weiter zu Nährwerten & Kosten',
                     'Continua a Nutrizione e Costo',
                     'Συνέχεια σε Διατροφή & Κόστος',
                     'غذائیت اور لاگت کی طرف بڑھیں',
                     'ادامه به تغذیه و هزینه',
-                    'Beslenme ve Maliyete Geç',
-                    'Derbasî Xurek û Mesrefê Bibe',
+                    'Besin Değeri ve Maliyete Geç',
+                    'Derbasî Xurek û Lêçûnê Bibe',
                     'Lanjut ke Nutrisi & Biaya',
                     'Endelea kwa Lishe na Gharama',
                     '영양 및 비용으로 계속',
@@ -639,7 +639,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                     'ویڈیوز کی طرف بڑھیں',
                     'ادامه به ویدیوها',
                     'Videolara Geç',
-                    'Derbasî Vîdeoyan Bibe',
+                    'Derbasî Vîdyoyan Bibe',
                     'Lanjut ke Video',
                     'Endelea kwa Video',
                     '동영상으로 계속',
@@ -680,7 +680,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                     'ویڈیوز کی طرف بڑھیں',
                     'ادامه به ویدیوها',
                     'Videolara Geç',
-                    'Derbasî Vîdeoyan Bibe',
+                    'Derbasî Vîdyoyan Bibe',
                     'Lanjut ke Video',
                     'Endelea kwa Video',
                     '동영상으로 계속',

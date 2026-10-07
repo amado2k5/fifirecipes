@@ -95,7 +95,7 @@ const ur: KidsStrings = {
     'baking-paper': 'بیکنگ پیپر',
     'plastic-bag': 'پلاسٹک کی تھیلی',
     'cling-film': 'کلنگ فلم',
-    'paper-cases': 'کاغذ کے کپ کیس',
+    'paper-cases': 'کاغذ کے سانچے',
     juicer: 'لیموں نچوڑنے والا',
     sieve: 'چھوٹی چھلنی'
   }
