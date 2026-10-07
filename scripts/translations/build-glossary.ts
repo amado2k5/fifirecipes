@@ -22,7 +22,7 @@ import * as loc from '../../src/utils/recipeLocalization';
 const SUFFIX: Record<string, string> = {
   en: '', fr: 'Fr', es: 'Es', ja: 'Ja', hi: 'Hi', pt: 'Pt', ru: 'Ru', zh: 'Zh', de: 'De',
   it: 'It', el: 'El', ur: 'Ur', fa: 'Fa', tr: 'Tr', ku: 'Ku', id: 'Id', sw: 'Sw',
-  ko: 'Ko', nl: 'Nl', ps: 'Ps', he: 'He', pl: 'Pl', sv: 'Sv', te: 'Te', bn: 'Bn', vi: 'Vi'
+  ko: 'Ko', nl: 'Nl', ps: 'Ps', he: 'He', pl: 'Pl', sv: 'Sv', te: 'Te', bn: 'Bn', vi: 'Vi', sq: 'Sq'
 };
 
 type Table = Record<string, {

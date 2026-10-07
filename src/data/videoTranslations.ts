@@ -395,7 +395,21 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     previous: 'Trước',
     next: 'Tiếp',
     short: 'Ngắn',
-    close: 'Đóng',
+    close: 'Đóng'
+  },
+  sq: {
+    tab: 'Video',
+    intro: 'Videot gjenden automatikisht sipas emrit të kësaj pjate. Ato u përkasin krijuesve të tyre dhe mund të ndryshojnë nga receta e Dr. Fatma.',
+    loading: 'Duke kërkuar video…',
+    empty: 'Nuk u gjet ende asnjë video e përshtatshme.',
+    error: 'Videot nuk po ngarkohen për momentin.',
+    retry: 'Provo përsëri',
+    openOn: 'Hap në {p}',
+    searchOn: 'Kërko këtë pjatë në',
+    previous: 'Mbrapa',
+    next: 'Para',
+    short: 'Të shkurtra',
+    close: 'Mbyll'
   },
   cs: {
     tab: 'Videa',

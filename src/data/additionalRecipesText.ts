@@ -451,7 +451,23 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     collectionWorld: 'Ẩm thực thế giới',
     citationLabel: 'Vị trí trong sách:',
     citationVideo: 'Video:',
-    tips: 'Mẹo và ghi chú',
+    tips: 'Mẹo và ghi chú'
+  },
+  sq: {
+    badge: 'Recetë shtesë',
+    notice: 'Kjo është një recetë shtesë dhe nuk është pjesë e dorëshkrimit të Dr. Fatma Alkawokgy. Ne e kemi rishkruar me fjalët tona dhe i japin meritën burimit.',
+    sourceLabel: 'Burimi:',
+    ingredientsNote: 'Masat janë mbajtur si në burim, të renditura sipas formatit tonë. Mund t\'i shënoni përbërësit ndërsa i përgatisni.',
+    collectionAll: 'Të gjitha recetat',
+    collectionArchive: 'Arkivi i Dr. Fatma',
+    collectionAdditional: 'Receta shtesë (Chef Teta)',
+    collectionOsool: 'Libri i gatimit Osool El Tahy',
+    collectionAbdennour: 'Libri Egyptian Cooking (Samia Abdennour)',
+    collectionAbuhaty: 'Kanali Fatma Abu Haty (YouTube)',
+    collectionWorld: 'Kuzhina botërore',
+    citationLabel: 'Vendi në libër:',
+    citationVideo: 'Video:',
+    tips: 'Këshilla dhe shënime'
   },
   cs: {
     badge: 'Dodatečný recept',

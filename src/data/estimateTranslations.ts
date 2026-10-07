@@ -1329,6 +1329,54 @@ const vi: EstimateStrings = {
   costChip: '≈ {v} / khẩu phần'
 };
 
+const sq: EstimateStrings = {
+  tab: 'Ushqyesit & kostoja',
+  nutritionTitle: 'Vlera ushqyese',
+  perServingBasis: 'Për porsion — receta nxjerr rreth {n} porsione',
+  nutrient: 'Ushqyesi',
+  perServing: 'Për porsion',
+  calories: 'Kalori',
+  protein: 'Proteina',
+  fat: 'Yndyrë',
+  carbs: 'Karbohidratet',
+  fiber: 'Fibra',
+  sugar: 'Sheqerna',
+  kcal: 'kcal',
+  grams: 'g',
+  energySplit: 'Nga vijnë kaloritë',
+  healthTitle: 'Shënime shëndetësore',
+  tags: {
+    highProtein: { label: 'I pasur me proteinë', hint: 'Një pjesë e konsiderueshme e kalorive vjen nga proteina.' },
+    goodFiber: { label: 'Burim i mirë fibrash', hint: 'Rreth 5 g fibra ose më shumë për porsion.' },
+    light: { label: 'Pjatë e lehtë', hint: 'Nën 250 kcal për porsion.' },
+    hearty: { label: 'E bollshme & ngopëse', hint: '600 kcal ose më shumë për porsion — shijojeni si vakt kryesor.' },
+    highSugar: { label: 'E pasur me sheqer', hint: 'Më e mirë si ëmbëlsirë herë pas here.' },
+    highFat: { label: 'E pasur me yndyrë', hint: 'Gjysma ose më shumë e kalorive vjen nga yndyra.' },
+    lowFat: { label: 'Pak yndyrë', hint: '5 g yndyrë ose më pak për porsion.' },
+    meatFree: { label: 'Pa mish', hint: 'Pa mish, shpendë apo peshk te përbërësit.' }
+  },
+  costTitle: 'Kostoja e parashikuar e recetës',
+  ingredientGroup: 'Grupi i përbërësve',
+  costUsd: 'Kostoja (USD)',
+  groups: {
+    protein: 'Mish, shpendë & ushqime deti',
+    dairyEggs: 'Bulmet, gjalpë i shkrirë & vezë',
+    produce: 'Perime, barishte & fruta',
+    grains: 'Oriz, miell, makarona & bishtajore',
+    fats: 'Vajra & yndyrë gatimi',
+    sweeteners: 'Sheqer, mjaltë & shurupa',
+    specialty: 'Arra, fruta të thara & artikuj specialë',
+    spices: 'Erëza & salcra'
+  },
+  total: 'Totali i parashikuar',
+  costPerServing: 'Për porsion',
+  estimated: 'e parashikuar',
+  nutritionNote: 'Vlera të përafërta të llogaritura nga përbërësit e recetës me të dhëna tipike ushqyese. Ato nuk zëvendësojnë këshillën e një dietologu profesionist.',
+  costNote: 'Bazuar në çmimet mesatare të supermarketeve amerikane; kostot reale ndryshojnë sipas vendit, stinës dhe markës.',
+  kcalChip: '≈ {v} kcal / porsion',
+  costChip: '≈ {v} / porsion'
+};
+
 const cs: EstimateStrings = {
   tab: 'Výživa a náklady',
   nutritionTitle: 'Nutriční hodnota',
@@ -1377,8 +1425,7 @@ const cs: EstimateStrings = {
   costChip: '≈ {v} / porce'
 };
 const ESTIMATE_STRINGS: Partial<Record<SupportedLanguage, EstimateStrings>> = {
-  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps, he, pl, sv, te, bn, vi, cs
-
+  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps, he, pl, sv, te, bn, vi, sq, cs
 };
 
 export function getEstimateStrings(lang: SupportedLanguage): EstimateStrings {
