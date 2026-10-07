@@ -6,15 +6,33 @@
   "servings": "4 phần",
   "culturalNotes": "Bột nở là bí quyết cho ojja xốp nhẹ, và khoai nghiền giữ bánh mềm chắc không vỡ khi lật.",
   "ingredients": {
-   "add-096-i1": {"name": "Khoai tây luộc nghiền"},
-   "add-096-i2": {"name": "Hành tây, thái nhỏ"},
-   "add-096-i3": {"name": "Ớt chuông xanh và đỏ, hạt lựu nhỏ"},
-   "add-096-i4": {"name": "Rau mùi tây thái nhỏ"},
-   "add-096-i5": {"name": "Trứng to"},
-   "add-096-i6": {"name": "Bột mì đã rây"},
-   "add-096-i7": {"name": "Bột nở"},
-   "add-096-i8": {"name": "Mỡ baladi và dầu"},
-   "add-096-i9": {"name": "Muối, tiêu đen, thì là, ngò xay và một nhúm ớt"}
+   "add-096-i1": {
+    "name": "Khoai tây luộc nghiền"
+   },
+   "add-096-i2": {
+    "name": "Hành tây, thái nhỏ"
+   },
+   "add-096-i3": {
+    "name": "Ớt chuông xanh và đỏ, hạt lựu nhỏ"
+   },
+   "add-096-i4": {
+    "name": "Rau mùi tây thái nhỏ"
+   },
+   "add-096-i5": {
+    "name": "Trứng to"
+   },
+   "add-096-i6": {
+    "name": "Bột mì đã rây"
+   },
+   "add-096-i7": {
+    "name": "Bột nở"
+   },
+   "add-096-i8": {
+    "name": "Mỡ baladi và dầu"
+   },
+   "add-096-i9": {
+    "name": "Muối, tiêu đen, thì là, ngò xay và một nhúm ớt"
+   }
   },
   "instructions": {
    "1": "Quấy trứng với gia vị, rồi thêm bột mì và bột nở, quấy cho hết vón.",
@@ -32,9 +50,15 @@
   "servings": "khoảng 1 chén",
   "culturalNotes": "Mật lựu là thứ thiết yếu trong bếp Levant cho salad, muhammara và sfiha. Lựu chua hoặc chua ngọt cho cân bằng tốt nhất.",
   "ingredients": {
-   "add-097-i1": {"name": "Nước lựu tươi (từ khoảng 8 quả)"},
-   "add-097-i2": {"name": "Đường"},
-   "add-097-i3": {"name": "Nước chanh"}
+   "add-097-i1": {
+    "name": "Nước lựu tươi (từ khoảng 8 quả)"
+   },
+   "add-097-i2": {
+    "name": "Đường"
+   },
+   "add-097-i3": {
+    "name": "Nước chanh"
+   }
   },
   "instructions": {
    "1": "Tách hạt lựu, xay nhấp ngắn trong máy xay và lọc qua rây mịn.",
@@ -50,10 +74,18 @@
   "servings": "3-4 ly",
   "culturalNotes": "Uống nước cam ngay khi vắt, vì nó mất vitamin và hóa đắng theo thời gian. Cam vắt nước địa phương cho nhiều nước hơn cam navel.",
   "ingredients": {
-   "add-098-i1": {"name": "Cam vắt nước"},
-   "add-098-i2": {"name": "Đường hoặc mật ong (tùy chọn)"},
-   "add-098-i3": {"name": "Cà rốt luộc (tùy chọn, nước đặc hơn)"},
-   "add-098-i4": {"name": "Đá viên"}
+   "add-098-i1": {
+    "name": "Cam vắt nước"
+   },
+   "add-098-i2": {
+    "name": "Đường hoặc mật ong (tùy chọn)"
+   },
+   "add-098-i3": {
+    "name": "Cà rốt luộc (tùy chọn, nước đặc hơn)"
+   },
+   "add-098-i4": {
+    "name": "Đá viên"
+   }
   },
   "instructions": {
    "1": "Rửa cam, cắt đôi và vắt bằng dụng cụ vắt, hoặc gọt vỏ xay rồi lọc.",
@@ -68,13 +100,27 @@
   "servings": "15-20 cuộn",
   "culturalNotes": "Musakhan là món Palestine truyền thống dọn trên bánh taboon với gà nguyên con. Bản cuộn là cách hiện đại dọn làm khai vị; sumac và dầu ô liu là linh hồn của nó.",
   "ingredients": {
-   "add-099-i1": {"name": "Ức gà luộc, xé"},
-   "add-099-i2": {"name": "Hành tây, thái lát mỏng"},
-   "add-099-i3": {"name": "Dầu ô liu extra-virgin"},
-   "add-099-i4": {"name": "Sumac"},
-   "add-099-i5": {"name": "Muối, tiêu đen và một nhúm thì là"},
-   "add-099-i6": {"name": "Bánh saj hoặc shrak, cắt tam giác"},
-   "add-099-i7": {"name": "Hạt thông rang"}
+   "add-099-i1": {
+    "name": "Ức gà luộc, xé"
+   },
+   "add-099-i2": {
+    "name": "Hành tây, thái lát mỏng"
+   },
+   "add-099-i3": {
+    "name": "Dầu ô liu extra-virgin"
+   },
+   "add-099-i4": {
+    "name": "Sumac"
+   },
+   "add-099-i5": {
+    "name": "Muối, tiêu đen và một nhúm thì là"
+   },
+   "add-099-i6": {
+    "name": "Bánh saj hoặc shrak, cắt tam giác"
+   },
+   "add-099-i7": {
+    "name": "Hạt thông rang"
+   }
   },
   "instructions": {
    "1": "Nấu hành trong dầu ô liu lửa nhỏ 15-20 phút cho mềm ngọt hẳn mà không cháy.",
@@ -91,16 +137,36 @@
   "servings": "3-4 phần",
   "culturalNotes": "Chanh và mù tạt làm dịu mùi tanh của cá ngừ. Bản nhẹ hơn: thay hết mayonnaise bằng sữa chua.",
   "ingredients": {
-   "add-100-i1": {"name": "Cá ngừ miếng, để ráo"},
-   "add-100-i2": {"name": "Ngô ngọt"},
-   "add-100-i3": {"name": "Ớt chuông hỗn hợp, hạt lựu nhỏ"},
-   "add-100-i4": {"name": "Hành đỏ nhỏ, thái nhỏ"},
-   "add-100-i5": {"name": "Rau mùi tây thái nhỏ"},
-   "add-100-i6": {"name": "Dưa chuột muối thái nhỏ (tùy chọn)"},
-   "add-100-i7": {"name": "Mayonnaise hoặc sữa chua"},
-   "add-100-i8": {"name": "Mù tạt"},
-   "add-100-i9": {"name": "Nước chanh"},
-   "add-100-i10": {"name": "Muối và tiêu đen"}
+   "add-100-i1": {
+    "name": "Cá ngừ miếng, để ráo"
+   },
+   "add-100-i2": {
+    "name": "Ngô ngọt"
+   },
+   "add-100-i3": {
+    "name": "Ớt chuông hỗn hợp, hạt lựu nhỏ"
+   },
+   "add-100-i4": {
+    "name": "Hành đỏ nhỏ, thái nhỏ"
+   },
+   "add-100-i5": {
+    "name": "Rau mùi tây thái nhỏ"
+   },
+   "add-100-i6": {
+    "name": "Dưa chuột muối thái nhỏ (tùy chọn)"
+   },
+   "add-100-i7": {
+    "name": "Mayonnaise hoặc sữa chua"
+   },
+   "add-100-i8": {
+    "name": "Mù tạt"
+   },
+   "add-100-i9": {
+    "name": "Nước chanh"
+   },
+   "add-100-i10": {
+    "name": "Muối và tiêu đen"
+   }
   },
   "instructions": {
    "1": "Vắt ráo cá ngừ hết dầu hoặc nước và xé nhỏ bằng nĩa.",
@@ -116,16 +182,36 @@
   "servings": "4-6 phần",
   "culturalNotes": "Ướp muối cà trước khi chiên giảm nhiều dầu hút vào. Tahini trong sữa chua giúp không tách và cho kết cấu nhung.",
   "ingredients": {
-   "add-101-i1": {"name": "Cà tím to, cắt hạt lựu"},
-   "add-101-i2": {"name": "Bánh mì Ả Rập, hạt lựu, nướng hoặc chiên"},
-   "add-101-i3": {"name": "Thịt xay xào với hành và gia vị (tùy chọn)"},
-   "add-101-i4": {"name": "Sữa chua"},
-   "add-101-i5": {"name": "Tahini"},
-   "add-101-i6": {"name": "Tỏi, giã"},
-   "add-101-i7": {"name": "Nước chanh và muối"},
-   "add-101-i8": {"name": "Dầu để chiên"},
-   "add-101-i9": {"name": "Mỡ và hạt thông hoặc hạnh nhân để trang trí"},
-   "add-101-i10": {"name": "Lựu và rau mùi tây để trang trí"}
+   "add-101-i1": {
+    "name": "Cà tím to, cắt hạt lựu"
+   },
+   "add-101-i2": {
+    "name": "Bánh mì Ả Rập, hạt lựu, nướng hoặc chiên"
+   },
+   "add-101-i3": {
+    "name": "Thịt xay xào với hành và gia vị (tùy chọn)"
+   },
+   "add-101-i4": {
+    "name": "Sữa chua"
+   },
+   "add-101-i5": {
+    "name": "Tahini"
+   },
+   "add-101-i6": {
+    "name": "Tỏi, giã"
+   },
+   "add-101-i7": {
+    "name": "Nước chanh và muối"
+   },
+   "add-101-i8": {
+    "name": "Dầu để chiên"
+   },
+   "add-101-i9": {
+    "name": "Mỡ và hạt thông hoặc hạnh nhân để trang trí"
+   },
+   "add-101-i10": {
+    "name": "Lựu và rau mùi tây để trang trí"
+   }
   },
   "instructions": {
    "1": "Rắc muối lên hạt lựu cà và để trong rổ 20 phút cho ra nước, rồi thấm khô.",
@@ -142,8 +228,12 @@
   "servings": "khoảng 500 g",
   "culturalNotes": "Sữa chua Hy Lạp đơn giản là sữa chua thường lọc bớt nước váng, nên nhiều protein hơn và đặc hơn. Lọc càng lâu càng gần labneh.",
   "ingredients": {
-   "add-102-i1": {"name": "Sữa nguyên kem"},
-   "add-102-i2": {"name": "Sữa chua nguyên vị (men cái)"}
+   "add-102-i1": {
+    "name": "Sữa nguyên kem"
+   },
+   "add-102-i2": {
+    "name": "Sữa chua nguyên vị (men cái)"
+   }
   },
   "instructions": {
    "1": "Đun sữa cho gần sôi, rồi để nguội còn âm ấm (khoảng 43°C).",
@@ -160,15 +250,33 @@
   "servings": "1 pizza lớn",
   "culturalNotes": "Đặt pepperoni trên phô mai thay vì dưới giúp mép giòn cuộn thành chén nhỏ, mỡ gia vị chảy vào phô mai.",
   "ingredients": {
-   "add-103-i1": {"name": "Bột mì"},
-   "add-103-i2": {"name": "Nước ấm"},
-   "add-103-i3": {"name": "Men tức thì"},
-   "add-103-i4": {"name": "Đường và muối"},
-   "add-103-i5": {"name": "Dầu ô liu"},
-   "add-103-i6": {"name": "Sốt cà chua pizza"},
-   "add-103-i7": {"name": "Oregano"},
-   "add-103-i8": {"name": "Mozzarella bào"},
-   "add-103-i9": {"name": "Pepperoni lát (halal)"}
+   "add-103-i1": {
+    "name": "Bột mì"
+   },
+   "add-103-i2": {
+    "name": "Nước ấm"
+   },
+   "add-103-i3": {
+    "name": "Men tức thì"
+   },
+   "add-103-i4": {
+    "name": "Đường và muối"
+   },
+   "add-103-i5": {
+    "name": "Dầu ô liu"
+   },
+   "add-103-i6": {
+    "name": "Sốt cà chua pizza"
+   },
+   "add-103-i7": {
+    "name": "Oregano"
+   },
+   "add-103-i8": {
+    "name": "Mozzarella bào"
+   },
+   "add-103-i9": {
+    "name": "Pepperoni lát (halal)"
+   }
   },
   "instructions": {
    "1": "Nhào các nguyên liệu bột cho mịn đàn hồi và để một giờ cho gấp đôi.",
@@ -185,13 +293,27 @@
   "servings": "khoảng 1 chén",
   "culturalNotes": "Pesto đến từ Genoa, Ý. Một lớp dầu trên mặt và ít chanh giữ nó xanh. Trộn với mì ống nóng và hai thìa nước luộc mì.",
   "ingredients": {
-   "add-104-i1": {"name": "Lá húng quế tươi"},
-   "add-104-i2": {"name": "Parmesan bào"},
-   "add-104-i3": {"name": "Hạt thông, óc chó hoặc hạnh nhân"},
-   "add-104-i4": {"name": "Tỏi"},
-   "add-104-i5": {"name": "Dầu ô liu extra-virgin"},
-   "add-104-i6": {"name": "Nước chanh (tùy chọn)"},
-   "add-104-i7": {"name": "Muối và tiêu"}
+   "add-104-i1": {
+    "name": "Lá húng quế tươi"
+   },
+   "add-104-i2": {
+    "name": "Parmesan bào"
+   },
+   "add-104-i3": {
+    "name": "Hạt thông, óc chó hoặc hạnh nhân"
+   },
+   "add-104-i4": {
+    "name": "Tỏi"
+   },
+   "add-104-i5": {
+    "name": "Dầu ô liu extra-virgin"
+   },
+   "add-104-i6": {
+    "name": "Nước chanh (tùy chọn)"
+   },
+   "add-104-i7": {
+    "name": "Muối và tiêu"
+   }
   },
   "instructions": {
    "1": "Rang hạt thông trong chảo khô 2 phút cho hơi vàng, để nguội.",
@@ -207,16 +329,36 @@
   "servings": "4 phần",
   "culturalNotes": "Caramel hóa hành chậm là toàn bộ bí quyết của súp Pháp này; vội trên lửa lớn làm cháy và đắng thay vì ngọt.",
   "ingredients": {
-   "add-105-i1": {"name": "Hành tây, thái lát mỏng"},
-   "add-105-i2": {"name": "Bơ"},
-   "add-105-i3": {"name": "Dầu ô liu"},
-   "add-105-i4": {"name": "Đường"},
-   "add-105-i5": {"name": "Bột mì"},
-   "add-105-i6": {"name": "Nước dùng bò hoặc gà"},
-   "add-105-i7": {"name": "Húng tây và lá nguyệt quế"},
-   "add-105-i8": {"name": "Muối và tiêu đen"},
-   "add-105-i9": {"name": "Lát baguette nướng"},
-   "add-105-i10": {"name": "Gruyère hoặc mozzarella bào"}
+   "add-105-i1": {
+    "name": "Hành tây, thái lát mỏng"
+   },
+   "add-105-i2": {
+    "name": "Bơ"
+   },
+   "add-105-i3": {
+    "name": "Dầu ô liu"
+   },
+   "add-105-i4": {
+    "name": "Đường"
+   },
+   "add-105-i5": {
+    "name": "Bột mì"
+   },
+   "add-105-i6": {
+    "name": "Nước dùng bò hoặc gà"
+   },
+   "add-105-i7": {
+    "name": "Húng tây và lá nguyệt quế"
+   },
+   "add-105-i8": {
+    "name": "Muối và tiêu đen"
+   },
+   "add-105-i9": {
+    "name": "Lát baguette nướng"
+   },
+   "add-105-i10": {
+    "name": "Gruyère hoặc mozzarella bào"
+   }
   },
   "instructions": {
    "1": "Đun tan bơ với dầu, thêm hành và khuấy cho mềm, rồi thêm đường và muối.",
@@ -231,14 +373,26 @@
   "prepTime": "5 phút",
   "cookTime": "Không cần nấu",
   "servings": "2 ly",
-  "culturalNotes": "Sinh tố nhiệt đới gần piña colada không cồn. Dứa đông lạnh cho kết cấu đặc lạnh.",
+  "culturalNotes": "Sinh tố nhiệt đới kiểu piña colada. Dứa đông lạnh cho kết cấu đặc lạnh.",
   "ingredients": {
-   "add-106-i1": {"name": "Miếng dứa tươi hoặc đông lạnh"},
-   "add-106-i2": {"name": "Nước cốt dừa"},
-   "add-106-i3": {"name": "Chuối (tùy chọn, cho đặc)"},
-   "add-106-i4": {"name": "Sữa chua"},
-   "add-106-i5": {"name": "Mật ong"},
-   "add-106-i6": {"name": "Đá"}
+   "add-106-i1": {
+    "name": "Miếng dứa tươi hoặc đông lạnh"
+   },
+   "add-106-i2": {
+    "name": "Nước cốt dừa"
+   },
+   "add-106-i3": {
+    "name": "Chuối (tùy chọn, cho đặc)"
+   },
+   "add-106-i4": {
+    "name": "Sữa chua"
+   },
+   "add-106-i5": {
+    "name": "Mật ong"
+   },
+   "add-106-i6": {
+    "name": "Đá"
+   }
   },
   "instructions": {
    "1": "Cho nước cốt dừa và sữa chua vào máy xay trước, rồi dứa, chuối, mật ong và đá.",
@@ -252,18 +406,42 @@
   "servings": "4 phần",
   "culturalNotes": "Tagine này là món yêu thích của các tiệm gan Ai Cập. Áp chảo gan nhanh trên lửa rất lớn giữ độ mềm, và nó chín nốt trong lò.",
   "ingredients": {
-   "add-107-i1": {"name": "Gan bò, lát mỏng"},
-   "add-107-i2": {"name": "Orzo"},
-   "add-107-i3": {"name": "Mỡ hoặc bơ"},
-   "add-107-i4": {"name": "Nước dùng thịt hoặc nước nóng"},
-   "add-107-i5": {"name": "Hành tây, thái nhỏ"},
-   "add-107-i6": {"name": "Tỏi, thái nhỏ"},
-   "add-107-i7": {"name": "Ớt xanh và ớt chuông"},
-   "add-107-i8": {"name": "Nước ép cà chua"},
-   "add-107-i9": {"name": "Sốt cà chua"},
-   "add-107-i10": {"name": "Thì là, tiêu đen và ớt"},
-   "add-107-i11": {"name": "Nước chanh và muối"},
-   "add-107-i12": {"name": "Dầu"}
+   "add-107-i1": {
+    "name": "Gan bò, lát mỏng"
+   },
+   "add-107-i2": {
+    "name": "Orzo"
+   },
+   "add-107-i3": {
+    "name": "Mỡ hoặc bơ"
+   },
+   "add-107-i4": {
+    "name": "Nước dùng thịt hoặc nước nóng"
+   },
+   "add-107-i5": {
+    "name": "Hành tây, thái nhỏ"
+   },
+   "add-107-i6": {
+    "name": "Tỏi, thái nhỏ"
+   },
+   "add-107-i7": {
+    "name": "Ớt xanh và ớt chuông"
+   },
+   "add-107-i8": {
+    "name": "Nước ép cà chua"
+   },
+   "add-107-i9": {
+    "name": "Sốt cà chua"
+   },
+   "add-107-i10": {
+    "name": "Thì là, tiêu đen và ớt"
+   },
+   "add-107-i11": {
+    "name": "Nước chanh và muối"
+   },
+   "add-107-i12": {
+    "name": "Dầu"
+   }
   },
   "instructions": {
    "1": "Rang orzo trong mỡ cho vàng, rồi thêm nước dùng và muối, nấu cho hút một nửa nước.",
@@ -281,14 +459,30 @@
   "servings": "20 viên",
   "culturalNotes": "Lớp áo bột vụn đôi và đông lạnh trước khi chiên ngăn phô mai rò vào dầu.",
   "ingredients": {
-   "add-108-i1": {"name": "Cheddar bào"},
-   "add-108-i2": {"name": "Kem phô mai"},
-   "add-108-i3": {"name": "Jalapeño muối thái nhỏ"},
-   "add-108-i4": {"name": "Bột tỏi và paprika"},
-   "add-108-i5": {"name": "Bột mì"},
-   "add-108-i6": {"name": "Trứng đánh"},
-   "add-108-i7": {"name": "Bột vụn bánh mì (panko)"},
-   "add-108-i8": {"name": "Dầu để chiên"}
+   "add-108-i1": {
+    "name": "Cheddar bào"
+   },
+   "add-108-i2": {
+    "name": "Kem phô mai"
+   },
+   "add-108-i3": {
+    "name": "Jalapeño muối thái nhỏ"
+   },
+   "add-108-i4": {
+    "name": "Bột tỏi và paprika"
+   },
+   "add-108-i5": {
+    "name": "Bột mì"
+   },
+   "add-108-i6": {
+    "name": "Trứng đánh"
+   },
+   "add-108-i7": {
+    "name": "Bột vụn bánh mì (panko)"
+   },
+   "add-108-i8": {
+    "name": "Dầu để chiên"
+   }
   },
   "instructions": {
    "1": "Trộn cheddar, kem phô mai, jalapeño và gia vị cho hỗn hợp dính.",
@@ -306,18 +500,42 @@
   "servings": "16 miếng",
   "culturalNotes": "Tahini quét đáy khay là truyền thống Levant cho harissa đáy vàng giòn và hương vị đặc trưng tinh tế.",
   "ingredients": {
-   "add-109-i1": {"name": "Semolina thô"},
-   "add-109-i2": {"name": "Mỡ baladi"},
-   "add-109-i3": {"name": "Đường"},
-   "add-109-i4": {"name": "Dừa nạo"},
-   "add-109-i5": {"name": "Sữa chua"},
-   "add-109-i6": {"name": "Sữa"},
-   "add-109-i7": {"name": "Bột nở"},
-   "add-109-i8": {"name": "Ashta (kem váng)"},
-   "add-109-i9": {"name": "Óc chó giã"},
-   "add-109-i10": {"name": "Quế"},
-   "add-109-i11": {"name": "Tahini để quét khay"},
-   "add-109-i12": {"name": "Siro: đường, nước, chanh và nước hoa cam"}
+   "add-109-i1": {
+    "name": "Semolina thô"
+   },
+   "add-109-i2": {
+    "name": "Mỡ baladi"
+   },
+   "add-109-i3": {
+    "name": "Đường"
+   },
+   "add-109-i4": {
+    "name": "Dừa nạo"
+   },
+   "add-109-i5": {
+    "name": "Sữa chua"
+   },
+   "add-109-i6": {
+    "name": "Sữa"
+   },
+   "add-109-i7": {
+    "name": "Bột nở"
+   },
+   "add-109-i8": {
+    "name": "Ashta (kem váng)"
+   },
+   "add-109-i9": {
+    "name": "Óc chó giã"
+   },
+   "add-109-i10": {
+    "name": "Quế"
+   },
+   "add-109-i11": {
+    "name": "Tahini để quét khay"
+   },
+   "add-109-i12": {
+    "name": "Siro: đường, nước, chanh và nước hoa cam"
+   }
   },
   "instructions": {
    "1": "Đun sôi đường, nước và chanh 10 phút, thêm nước hoa cam và để nguội.",
@@ -336,12 +554,24 @@
   "servings": "6-8 phần",
   "culturalNotes": "Harees là món của lễ hội, Ramadan và đám cưới ở Emirates và vùng Vịnh, truyền thống nấu qua đêm trong nồi trên than hồng cho thịt tan vào lúa mì.",
   "ingredients": {
-   "add-110-i1": {"name": "Lúa mì harees (lúa mì bóc vỏ)"},
-   "add-110-i2": {"name": "Thịt cừu còn xương"},
-   "add-110-i3": {"name": "Nước"},
-   "add-110-i4": {"name": "Muối"},
-   "add-110-i5": {"name": "Bạch đậu khấu và quế xay"},
-   "add-110-i6": {"name": "Mỡ baladi để dọn"}
+   "add-110-i1": {
+    "name": "Lúa mì harees (lúa mì bóc vỏ)"
+   },
+   "add-110-i2": {
+    "name": "Thịt cừu còn xương"
+   },
+   "add-110-i3": {
+    "name": "Nước"
+   },
+   "add-110-i4": {
+    "name": "Muối"
+   },
+   "add-110-i5": {
+    "name": "Bạch đậu khấu và quế xay"
+   },
+   "add-110-i6": {
+    "name": "Mỡ baladi để dọn"
+   }
   },
   "instructions": {
    "1": "Vo lúa mì kỹ, ngâm qua đêm và để ráo.",
