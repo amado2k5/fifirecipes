@@ -116085,5 +116085,902 @@
   },
   "culturalNotes": "Niter kibbeh, Etiyopya mutfağında yemeklerin lezzetini artırmak için kullanılan baharatlı bir sadeyağdır.",
   "chapter": "مطبخ إثيوبيا"
+ },
+ "w-gr-001": {
+  "title": "Diples",
+  "ingredients": {
+   "w-gr-001-i1": {
+    "name": "Un",
+    "standardAmount": "2 su bardağı"
+   },
+   "w-gr-001-i2": {
+    "name": "Bitkisel yağ",
+    "standardAmount": "kızartmak için"
+   },
+   "w-gr-001-i3": {
+    "name": "Tereyağı",
+    "standardAmount": "1/2 su bardağı"
+   },
+   "w-gr-001-i4": {
+    "name": "Bal",
+    "standardAmount": "1/2 su bardağı"
+   },
+   "w-gr-001-i5": {
+    "name": "Tarçın",
+    "standardAmount": "1/2 çay kaşığı"
+   }
+  },
+  "instructions": {
+   "1": "Unu suyla sert bir hamur olana kadar karıştırın.",
+   "2": "Hamuru 30 dakika dinlendirin.",
+   "3": "Hamuru küçük parçalara kesin ve ince açın.",
+   "4": "Parçaları sıcak yağda altın-kahverengi olana kadar kızartın.",
+   "5": "Diplesleri kâğıt havlu üzerinde süzdürün.",
+   "6": "Eritilmiş tereyağını ve balı dipleslerin üzerine dökün ve tarçın serpin.",
+   "7": "İsteğe bağlı olarak sıcak veya soğuk servis yapın."
+  },
+  "culturalNotes": "Diples, özel günlerde servis edilen geleneksel bir Yunan tatlısıdır.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-002": {
+  "title": "Galaktoboureko",
+  "ingredients": {
+   "w-gr-002-i1": {
+    "name": "beyaz toz şeker",
+    "standardAmount": "150 g"
+   },
+   "w-gr-002-i2": {
+    "name": "yumurta",
+    "standardAmount": "6 adet"
+   },
+   "w-gr-002-i3": {
+    "name": "irmik",
+    "standardAmount": "150 g"
+   },
+   "w-gr-002-i4": {
+    "name": "süt",
+    "standardAmount": "1 litre"
+   },
+   "w-gr-002-i5": {
+    "name": "vanilya çubukları",
+    "standardAmount": "2 adet"
+   },
+   "w-gr-002-i6": {
+    "name": "limon suyu",
+    "standardAmount": "yarım limonun suyu"
+   },
+   "w-gr-002-i7": {
+    "name": "tuz",
+    "standardAmount": "bir tutam"
+   },
+   "w-gr-002-i8": {
+    "name": "yufka (filo hamuru)",
+    "standardAmount": "450 g"
+   },
+   "w-gr-002-i9": {
+    "name": "eritilmiş tereyağı",
+    "standardAmount": "gerektiği kadar"
+   }
+  },
+  "instructions": {
+   "1": "Bir tencerede şeker, yumurta ve irmiği karıştırın. Süt ve vanilya çubuklarını ekleyin. Limon suyunu karıştırın.",
+   "2": "Karışımı sürekli çatalla karıştırarak kaynamaya getirin. Kaynamaya başlayınca ateşi kısın ve 10 dakika daha karıştırın. Karışımı ateşten alın ve soğumaya bırakın.",
+   "3": "Her yufka yaprağına eritilmiş tereyağı sürün.",
+   "4": "Fırın kabını yağlayın ve yufkaların yarısını tek tek içine yerleştirin. Soğumuş irmikli pudingi hamurun üzerine dökün ve kalan yağlanmış yufka yapraklarıyla örtün.",
+   "5": "Tatlının üzerine biraz su serpin.",
+   "6": "Tatlıyı önceden ısıtılmış 180°C fırında 1 saat pişirin. Servis etmeden önce soğutun."
+  },
+  "culturalNotes": "Galaktoboureko, süt ve irmikten yapılan, yufkaya sarılmış geleneksel bir Yunan tatlısıdır. Genellikle soğuk servis edilir.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-003": {
+  "title": "Giouvetsi (geleneksel fırınlanmış Yunan arpa şehriyesi)",
+  "ingredients": {
+   "w-gr-003-i1": {
+    "name": "zeytinyağı",
+    "standardAmount": "0.5 su bardağı (120 ml)"
+   },
+   "w-gr-003-i2": {
+    "name": "kuşbaşı kuzu eti",
+    "standardAmount": "1.4 kg"
+   },
+   "w-gr-003-i3": {
+    "name": "konserve bütün soyulmuş domates",
+    "standardAmount": "1 kutu 800 g"
+   },
+   "w-gr-003-i4": {
+    "name": "sarımsak",
+    "standardAmount": "4 diş"
+   },
+   "w-gr-003-i5": {
+    "name": "beyaz şeker",
+    "standardAmount": "0.5 çay kaşığı"
+   },
+   "w-gr-003-i6": {
+    "name": "tuz ve karabiber",
+    "standardAmount": "damak tadına göre"
+   },
+   "w-gr-003-i7": {
+    "name": "tereyağı",
+    "standardAmount": "0.5 su bardağı"
+   },
+   "w-gr-003-i8": {
+    "name": "arpa şehriye (orzo)",
+    "standardAmount": "450 g"
+   },
+   "w-gr-003-i9": {
+    "name": "sıcak su",
+    "standardAmount": "3 su bardağı (710 ml)"
+   }
+  },
+  "instructions": {
+   "1": "Büyük bir tencerede orta ateşte zeytinyağını ısıtın; eti her tarafı kahverengi olana kadar kızartın, yaklaşık 5 dakika.",
+   "2": "Ezilmiş domatesleri, sarımsağı, şekeri, tuzu ve karabiberi ekleyin. Üzerini kapatın ve arada karıştırarak 1 saat kısık ateşte pişirin. Kenara alın.",
+   "3": "Fırını 175°C'ye önceden ısıtın.",
+   "4": "Orta boy tavada orta ateşte tereyağını eritin ve arpa şehriyeyi ekleyin. Hafifçe kızarana kadar 3-5 dakika pişirin.",
+   "5": "Şehriyeyi fırın kabına alıp eşit şekilde yayın. Eti şehriyenin üzerine yerleştirin ve domates sosunu etin üzerine dökün. Sıcak suyu ekleyin.",
+   "6": "Alüminyum folyoyla kapatın ve önceden ısıtılmış fırında tüm su emilene ve şehriye yumuşayana kadar pişirin, yaklaşık 1 saat. Yemek çok kurursa, pişirme sırasında daha fazla su ekleyin."
+  },
+  "culturalNotes": "Giouvetsi, genellikle özel günlerde servis edilen geleneksel bir Yunan yemeğidir. Genellikle Yunan salatasıyla servis edilir.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-004": {
+  "title": "Yağsız fritözde dana kıyma köfte şişleri",
+  "ingredients": {
+   "w-gr-004-i1": {
+    "name": "dana kıyma",
+    "standardAmount": "450 g"
+   },
+   "w-gr-004-i2": {
+    "name": "ince doğranmış sarı soğan",
+    "standardAmount": "1/4 su bardağı"
+   },
+   "w-gr-004-i3": {
+    "name": "ince kıyılmış taze maydanoz",
+    "standardAmount": "1/4 su bardağı"
+   },
+   "w-gr-004-i4": {
+    "name": "ince kıyılmış sarımsak",
+    "standardAmount": "2 diş"
+   },
+   "w-gr-004-i5": {
+    "name": "kimyon",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-gr-004-i6": {
+    "name": "öğütülmüş kişniş",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-gr-004-i7": {
+    "name": "tuz",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-gr-004-i8": {
+    "name": "öğütülmüş karabiber",
+    "standardAmount": "1/4 çay kaşığı"
+   },
+   "w-gr-004-i9": {
+    "name": "öğütülmüş tarçın",
+    "standardAmount": "1/4 çay kaşığı"
+   },
+   "w-gr-004-i10": {
+    "name": "şiş",
+    "standardAmount": "8 adet"
+   },
+   "w-gr-004-i11": {
+    "name": "sade süzme yoğurt",
+    "standardAmount": "1 su bardağı"
+   },
+   "w-gr-004-i12": {
+    "name": "rendelenmiş salatalık, suyu sıkılmış",
+    "standardAmount": "1/2 su bardağı"
+   },
+   "w-gr-004-i13": {
+    "name": "ince kıyılmış sarımsak",
+    "standardAmount": "1 diş"
+   },
+   "w-gr-004-i14": {
+    "name": "limon suyu",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-gr-004-i15": {
+    "name": "kuru dereotu",
+    "standardAmount": "1/4 çay kaşığı"
+   },
+   "w-gr-004-i16": {
+    "name": "iri tuz",
+    "standardAmount": "1/4 çay kaşığı"
+   }
+  },
+  "instructions": {
+   "1": "Büyük bir kasede dana kıymayı, soğanı, maydanozu, sarımsağı, kimyonu, kişnişi, tuzu, karabiberi ve tarçını iyice karışana kadar karıştırın.",
+   "2": "Karışımı 8 parçaya ayırın ve şişlerin etrafında oval köfteler şeklinde şekillendirin, şişin ucunun kapalı olduğundan emin olun.",
+   "3": "Şişleri bir tabağa yerleştirin ve buzdolabına koyun.",
+   "4": "Yağsız fritözü 188°C'ye önceden ısıtın.",
+   "5": "Yoğurdu, salatalığı, sarımsağı, limon suyunu, dereotunu ve iri tuzu küçük bir kapta karıştırın ve kullanana kadar buzdolabında bekletin.",
+   "6": "4 şişi yağsız fritözün sepetine yerleştirin ve 10 dakika pişirin. Şişleri tabağa aktarın. Kalan şişlerle tekrarlayın.",
+   "7": "Şişleri cacık (tzatziki) sosuyla servis edin."
+  },
+  "culturalNotes": "Köfte, birçok Arap ve Orta Doğu ülkesinde popüler bir yemektir ve genellikle cacık sosuyla servis edilir.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-005": {
+  "title": "Melomakarono",
+  "ingredients": {
+   "w-gr-005-i1": {
+    "name": "un",
+    "standardAmount": "4 su bardağı"
+   },
+   "w-gr-005-i2": {
+    "name": "öğütülmüş tarçın",
+    "standardAmount": "2 çay kaşığı"
+   },
+   "w-gr-005-i3": {
+    "name": "kabartma tozu",
+    "standardAmount": "2 çay kaşığı"
+   },
+   "w-gr-005-i4": {
+    "name": "öğütülmüş karanfil",
+    "standardAmount": "2 çay kaşığı"
+   },
+   "w-gr-005-i5": {
+    "name": "karbonat",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-gr-005-i6": {
+    "name": "öğütülmüş muskat",
+    "standardAmount": "0.5 çay kaşığı"
+   },
+   "w-gr-005-i7": {
+    "name": "tuzsuz tereyağı",
+    "standardAmount": "450 g"
+   },
+   "w-gr-005-i8": {
+    "name": "beyaz şeker",
+    "standardAmount": "0.75 su bardağı"
+   },
+   "w-gr-005-i9": {
+    "name": "yumurta sarısı",
+    "standardAmount": "3 adet"
+   },
+   "w-gr-005-i10": {
+    "name": "taze sıkılmış portakal suyu",
+    "standardAmount": "0.5 su bardağı (120 ml)"
+   },
+   "w-gr-005-i11": {
+    "name": "bal",
+    "standardAmount": "1 çay kaşığı + 1 su bardağı"
+   },
+   "w-gr-005-i12": {
+    "name": "su",
+    "standardAmount": "1 su bardağı (240 ml)"
+   },
+   "w-gr-005-i13": {
+    "name": "ince dövülmüş ceviz",
+    "standardAmount": "0.5 su bardağı"
+   },
+   "w-gr-005-i14": {
+    "name": "öğütülmüş tarçın",
+    "standardAmount": "bir tutam"
+   },
+   "w-gr-005-i15": {
+    "name": "öğütülmüş karanfil",
+    "standardAmount": "bir tutam"
+   }
+  },
+  "instructions": {
+   "1": "Fırını 175°C'ye önceden ısıtın.",
+   "2": "Büyük bir kapta unu, tarçını, kabartma tozunu, karanfili, karbonatı ve muskatı çırpın.",
+   "3": "Ayrı bir kapta tereyağını açık renkli ve köpüklü olana kadar çırpın; şekeri ekleyin ve iyice karıştırın.",
+   "4": "Yumurta sarılarını ve portakal suyunu başka bir kapta çırpın. Yumurtalı karışımı karıştırarak yavaş yavaş tereyağlı karışıma ekleyin.",
+   "5": "Unlu karışımı yavaş yavaş tereyağlı karışıma ekleyin, her eklemeden sonra karıştırın. Balı ekleyin ve yumuşak bir hamur olana kadar karıştırın.",
+   "6": "Hamuru örtün ve şekil vermeye yetecek kadar sertleşene kadar buzdolabında bekletin, yaklaşık 30 dakika.",
+   "7": "Hamuru küçük ovaller şeklinde şekillendirin ve fırın tepsilerine birkaç santim aralıkla yerleştirin. Hafifçe bastırın; kurabiyeler yayılacaktır.",
+   "8": "Önceden ısıtılmış fırında açık altın-kahverengi olana kadar 15-20 dakika pişirin.",
+   "9": "Bu arada, bal, su ve şekeri bir tencerede orta-düşük ateşte şeker eriyene kadar ısıtın. Şerbeti soğumaya bırakın.",
+   "10": "Bir kapta ceviz, tarçın ve karanfili üst süsleme için karıştırın.",
+   "11": "Kurabiyeleri soğumuş şerbette her iki taraftan 10-15 saniye batırın. Ceviz süsünü şerbetin üzerine serpin ve tamamen kurumasını bekleyin.",
+   "12": "Kurabiyeleri muffin kalıplarında veya yağlı kâğıt katmanları arasında saklayın."
+  },
+  "culturalNotes": "Melomakarono, genellikle Noel zamanında servis edilen geleneksel bir Yunan kurabiyesidir.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-006": {
+  "title": "Isırgan otu çorbası",
+  "ingredients": {
+   "w-gr-006-i1": {
+    "name": "ısırgan otu",
+    "standardAmount": "450 g"
+   },
+   "w-gr-006-i2": {
+    "name": "tuz",
+    "standardAmount": "2 çay kaşığı"
+   },
+   "w-gr-006-i3": {
+    "name": "sızma zeytinyağı",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-gr-006-i4": {
+    "name": "beyaz soğan",
+    "standardAmount": "1 adet, doğranmış"
+   },
+   "w-gr-006-i5": {
+    "name": "basmati pirinci",
+    "standardAmount": "0.25 su bardağı"
+   },
+   "w-gr-006-i6": {
+    "name": "tavuk suyu",
+    "standardAmount": "4 su bardağı (950 ml)"
+   },
+   "w-gr-006-i7": {
+    "name": "karabiber",
+    "standardAmount": "damak tadına göre"
+   }
+  },
+  "instructions": {
+   "1": "Büyük bir tencerede suyu 2 çay kaşığı tuzla kaynatın. Isırganları ekleyin ve solana kadar 1-2 dakika pişirin. Bu, yakıcılıklarının çoğunu giderir. Süzgeçte süzün ve soğuk suyla durulayın. Sert sapları koparıp atın ve kaba doğrayın.",
+   "2": "Tencerede orta-düşük ateşte zeytinyağını ısıtın ve soğanı ekleyin. Soğan yumuşayıp şeffaflaşana kadar pişirin, yaklaşık 5 dakika. Pirinci, tavuk suyunu ve doğranmış ısırganları ekleyin. Kaynatın, sonra ateşi orta-düşüğe alın, üzerini kapatın ve pirinç yumuşayana kadar pişirin, yaklaşık 15 dakika.",
+   "3": "Çorbayı el blenderiyle püre yapın ve damak tadına göre tuz ve karabiberle tatlandırın."
+  },
+  "culturalNotes": "Isırgan otu, Yunanistan'da doğal olarak yetişen ve birçok geleneksel tarifte kullanılan bir bitkidir.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-007": {
+  "title": "Yunan portakallı yufka keki (Portokalopita)",
+  "ingredients": {
+   "w-gr-007-i1": {
+    "name": "beyaz şeker",
+    "standardAmount": "2 su bardağı"
+   },
+   "w-gr-007-i2": {
+    "name": "su",
+    "standardAmount": "1.5 su bardağı (360 ml)"
+   },
+   "w-gr-007-i3": {
+    "name": "öğütülmüş tarçın",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-gr-007-i4": {
+    "name": "portakal",
+    "standardAmount": "3 adet"
+   },
+   "w-gr-007-i5": {
+    "name": "yufka (filo hamuru)",
+    "standardAmount": "1 paket 450 g"
+   },
+   "w-gr-007-i6": {
+    "name": "yumurta",
+    "standardAmount": "5 adet"
+   },
+   "w-gr-007-i7": {
+    "name": "süzme yoğurt",
+    "standardAmount": "1 kutu 200 g"
+   },
+   "w-gr-007-i8": {
+    "name": "zeytinyağı",
+    "standardAmount": "0.75 su bardağı (180 ml)"
+   },
+   "w-gr-007-i9": {
+    "name": "beyaz şeker",
+    "standardAmount": "0.5 su bardağı"
+   },
+   "w-gr-007-i10": {
+    "name": "kabartma tozu",
+    "standardAmount": "1 çorba kaşığı"
+   }
+  },
+  "instructions": {
+   "1": "Bir tencerede orta-yüksek ateşte 2 su bardağı şekeri, 1.5 su bardağı suyu ve 1 çay kaşığı öğütülmüş tarçını karıştırın. Portakal suyunu içine sıkın ve sıkılmış yarımları ekleyin. Kaynatın ve 8 dakika kuvvetlice kaynatın. Ateşten alın ve şerbeti soğumaya bırakın.",
+   "2": "Fırını 175°C'ye önceden ısıtın. 23x33 cm'lik fırın kabını hafifçe yağlayın.",
+   "3": "Yufka yapraklarını paketten çıkarın ve yırtın veya parçalara kesin. Yırtılmış yufkayı fırın kabına yerleştirin ve biraz kurumasını bekleyin.",
+   "4": "1 portakalı yarıya kesin ve keki süslemek için 1 yarısını çok ince yarım ay dilimlerine kesin. Kalan 2 1/2 portakalın kabuğunu rendeleyin ve suyunu sıkın.",
+   "5": "Blender veya mutfak robotunda portakal suyunu, portakal kabuğu rendesini, yumurtaları, süzme yoğurdu, zeytinyağını, 0.5 su bardağı şekeri ve kabartma tozunu karıştırın. Karışım pürüzsüz ve tüm malzemeler iyice karışana kadar blend edin.",
+   "6": "Karışımı fırın kabındaki yırtılmış yufkanın üzerine dökün. Islak karışımın eşit dağılması ve hiç kuru yufka parçası kalmaması için nazikçe karıştırın. Kekin üstünü portakal dilimleriyle süsleyin.",
+   "7": "Önceden ısıtılmış fırında üstü altın rengi ve ortası sertleşene kadar pişirin, yaklaşık 45 dakika. Ortaya batırılan bir kürdan temiz çıkmalıdır.",
+   "8": "Keki fırından çıkarın ve soğumuş şerbeti hemen sıcak kekin üzerine dökün.",
+   "9": "Keki en az 1 saat veya bir gece kenara koyun, şerbetin çoğu emilene kadar. Kareler halinde kesin ve servis yapın."
+  },
+  "culturalNotes": "Portokalopita, yufka ve portakalla yapılan, genellikle özel günlerde servis edilen geleneksel bir Yunan kekidir.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-008": {
+  "title": "Tavada kızarmış salamura beyaz peynir (Saganaki)",
+  "ingredients": {
+   "w-gr-008-i1": {
+    "name": "salamurada bekleyen tuzlu beyaz peynirin büyük dilimi (örn. feta, sirene)",
+    "standardAmount": "1 dilim"
+   },
+   "w-gr-008-i2": {
+    "name": "zeytinyağı (sızma değil)",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-gr-008-i3": {
+    "name": "büyük limon dilimi",
+    "standardAmount": "1 dilim"
+   },
+   "w-gr-008-i4": {
+    "name": "un (isteğe bağlı)",
+    "standardAmount": "az miktarda"
+   },
+   "w-gr-008-i5": {
+    "name": "pide veya başka ekmek (isteğe bağlı)",
+    "standardAmount": "gerektiği kadar"
+   }
+  },
+  "instructions": {
+   "1": "Küçük bir tavayı orta-yüksek ateşte ısıtın.",
+   "2": "Tava ısınırken, peyniri istenen boyut ve kalınlıkta dilimlere kesin. Daha kalın dilimlerin erimesi daha uzun sürer ve yanabilir, ince dilimlerin ise kızarma şansı daha azdır.",
+   "3": "İsterseniz dilimleri una bulayın — bu, daha koyu ve biraz daha çıtır bir kabuk verir, ancak isteğe bağlı bir adımdır çünkü peynir yağ ve yüksek ısı sayesinde kendi başına çok ince bir kabuk elde eder. Ayrıca sıçramayı da biraz azaltır.",
+   "4": "Yağı sıcak tavaya ekleyin ve çevirin. Yağ parladığında ve daha akışkan göründüğünde hazırdır. Peyniri ekleyin ve geri çekilin — peynirin üzerindeki salamura suyu nedeniyle sıçrayacaktır.",
+   "5": "Bir veya iki dakika sonra peyniri çevirin. ¾ santimetre kalınlığındaki bir dilim, her tarafta yaklaşık 1-2 dakika gerektirecektir.",
+   "6": "Hemen limon ve (isteğe bağlı) ekmekle servis yapın."
+  },
+  "culturalNotes": "Saganaki, meze olarak servis edilen geleneksel bir Yunan yemeğidir. Genellikle limon ve ekmekle servis edilir.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-009": {
+  "title": "Spanakorizo",
+  "ingredients": {
+   "w-gr-009-i1": {
+    "name": "su",
+    "standardAmount": "2 su bardağı (480 ml)"
+   },
+   "w-gr-009-i2": {
+    "name": "uzun taneli pirinç",
+    "standardAmount": "1 su bardağı"
+   },
+   "w-gr-009-i3": {
+    "name": "zeytinyağı",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-gr-009-i4": {
+    "name": "soğan",
+    "standardAmount": "1 küçük, doğranmış"
+   },
+   "w-gr-009-i5": {
+    "name": "taze ıspanak",
+    "standardAmount": "1 demet"
+   },
+   "w-gr-009-i6": {
+    "name": "limon kabuğu rendesi",
+    "standardAmount": "1 limonun rendesi"
+   },
+   "w-gr-009-i7": {
+    "name": "limon suyu",
+    "standardAmount": "1 limonun suyu"
+   },
+   "w-gr-009-i8": {
+    "name": "feta peyniri",
+    "standardAmount": "0.25 su bardağı, ufalanmış"
+   },
+   "w-gr-009-i9": {
+    "name": "taze dereotu",
+    "standardAmount": "0.25 su bardağı, kıyılmış"
+   },
+   "w-gr-009-i10": {
+    "name": "tuz",
+    "standardAmount": "damak tadına göre"
+   },
+   "w-gr-009-i11": {
+    "name": "öğütülmüş karabiber",
+    "standardAmount": "damak tadına göre"
+   }
+  },
+  "instructions": {
+   "1": "Tencerede suyu ve pirinci kaynatın. Ateşi orta-düşüğe alın, üzerini kapatın ve pirinç yumuşayıp su emilene kadar pişirin, 20-25 dakika.",
+   "2": "Tencerede orta-yüksek ateşte yağı ısıtın. Soğanı yumuşayana kadar pişirin, yaklaşık 5 dakika.",
+   "3": "Pişmiş pirinci ve ıspanağı ekleyin; ıspanak solana kadar pişirin ve karıştırın, 3-5 dakika.",
+   "4": "Limon suyunu, kabuğunu, fetayı ve dereotunu ekleyin. Ateşten alın. Damak tadına göre tuz ve karabiberle tatlandırın."
+  },
+  "culturalNotes": "Spanakorizo, ana yemek veya yan yemek olarak servis edilen geleneksel bir Yunan yemeğidir. Taze ve ekşi tatlarıyla bilinir.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-010": {
+  "title": "Pirinç ve nohut salatasıyla Strapatsada",
+  "ingredients": {
+   "w-gr-010-i1": {
+    "name": "domates",
+    "standardAmount": "2 orta boy"
+   },
+   "w-gr-010-i2": {
+    "name": "zeytinyağı",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-gr-010-i3": {
+    "name": "sarımsak",
+    "standardAmount": "3 diş, kıyılmış"
+   },
+   "w-gr-010-i4": {
+    "name": "yumurta",
+    "standardAmount": "6 büyük"
+   },
+   "w-gr-010-i5": {
+    "name": "tuz",
+    "standardAmount": "0.75 çay kaşığı, bölünmüş"
+   },
+   "w-gr-010-i6": {
+    "name": "öğütülmüş karabiber",
+    "standardAmount": "0.5 çay kaşığı, bölünmüş"
+   },
+   "w-gr-010-i7": {
+    "name": "ufalanmış feta peyniri",
+    "standardAmount": "0.25 su bardağı"
+   },
+   "w-gr-010-i8": {
+    "name": "ince kıyılmış taze kekik",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-gr-010-i9": {
+    "name": "pişmiş esmer pirinç",
+    "standardAmount": "3 su bardağı sıcak"
+   },
+   "w-gr-010-i10": {
+    "name": "konserve nohut",
+    "standardAmount": "1 kutu 425 g, süzülmüş ve durulanmış"
+   },
+   "w-gr-010-i11": {
+    "name": "çekirdeksiz Kalamata zeytini, kıyılmış",
+    "standardAmount": "0.25 su bardağı"
+   },
+   "w-gr-010-i12": {
+    "name": "ince kıyılmış taze maydanoz",
+    "standardAmount": "3 çorba kaşığı"
+   },
+   "w-gr-010-i13": {
+    "name": "limon kabuğu rendesi",
+    "standardAmount": "2 çay kaşığı"
+   },
+   "w-gr-010-i14": {
+    "name": "limon suyu",
+    "standardAmount": "3 çorba kaşığı"
+   },
+   "w-gr-010-i15": {
+    "name": "tahin",
+    "standardAmount": "2 çorba kaşığı"
+   }
+  },
+  "instructions": {
+   "1": "Domatesleri rende ile rendeleyin (bu yaklaşık 1 su bardağı rendelenmiş domates vermelidir).",
+   "2": "Büyük bir tavada orta ateşte zeytinyağını ısıtın. Rendelenmiş domatesi ve sarımsağı ekleyin. Ara sıra karıştırarak, domatesler koyulaşana ve suyun çoğu buharlaşana kadar pişirin, yaklaşık 7 dakika.",
+   "3": "Domates karışımına yumurtaları, 0.5 çay kaşığı tuzu ve 0.25 çay kaşığı karabiberi ekleyin. Yumurtalar kıvam alana kadar nazikçe karıştırarak pişirin, yaklaşık 3 dakika. Yumuşak ama sulu olmamalıdır. Fetayı ve kekiği katın. Sıcak tutun.",
+   "4": "Büyük bir kapta pirinci, nohutu, zeytinleri, maydanozu, limon kabuğunu ve kalan 0.25'er çay kaşığı tuzu ve karabiberi karıştırın. Küçük bir kapta limon suyu ve tahini çırpın ve pirinç karışımının üzerine dökün. Kaplamak için nazikçe karıştırın.",
+   "5": "Yumurtalı karışımı pirinç karışımının üzerine servis edin. İsterseniz ekstra domates, kekik ve maydanozla serpin."
+  },
+  "culturalNotes": "Strapatsada, genellikle meze veya basit bir ana yemek olarak servis edilen geleneksel bir Yunan yemeğidir. Yumurta, domates ve feta peynirini birleştirir ve hazırlaması kolay ve hızlıdır.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-011": {
+  "title": "Taramasalata",
+  "ingredients": {
+   "w-gr-011-i1": {
+    "name": "ekmek",
+    "standardAmount": "370 g (kabuk çıkarılmış)"
+   },
+   "w-gr-011-i2": {
+    "name": "soğuk su",
+    "standardAmount": "ekmeği kaplayacak kadar"
+   },
+   "w-gr-011-i3": {
+    "name": "zeytinyağı",
+    "standardAmount": "0.5 su bardağı (120 ml)"
+   },
+   "w-gr-011-i4": {
+    "name": "soğan",
+    "standardAmount": "1 küçük, kaba doğranmış"
+   },
+   "w-gr-011-i5": {
+    "name": "limon suyu",
+    "standardAmount": "1 büyük limonun suyu"
+   },
+   "w-gr-011-i6": {
+    "name": "tarama (tuzlu balık yumurtası)",
+    "standardAmount": "1 su bardağı"
+   }
+  },
+  "instructions": {
+   "1": "Ekmeği bir kaseye koyun, soğuk suyla kaplayın ve iyice yumuşayana kadar bekletin, 5-10 dakika. Kasedeki suyu süzün ve fazla suyu çıkarmak için ekmeği sıkın.",
+   "2": "Ekmeği, zeytinyağını, soğanı ve limon suyunu mutfak robotuna koyun ve pürüzsüz olana kadar işleyin.",
+   "3": "Taramayı ekleyin ve iyice karışana kadar işleyin."
+  },
+  "culturalNotes": "Taramasalata, genellikle taze ekmek veya krakerle servis edilen geleneksel bir Yunan mezesidir.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-012": {
+  "title": "Közlenmiş sarımsaklı Tirokafteri",
+  "ingredients": {
+   "w-gr-012-i1": {
+    "name": "közlenmiş kırmızı biberler",
+    "standardAmount": "170 g"
+   },
+   "w-gr-012-i2": {
+    "name": "közlenmiş sarımsak",
+    "standardAmount": "0.25 su bardağı"
+   },
+   "w-gr-012-i3": {
+    "name": "acı biber sosu",
+    "standardAmount": "1 çay kaşığı veya damak tadına göre"
+   },
+   "w-gr-012-i4": {
+    "name": "taze sıkılmış limon suyu",
+    "standardAmount": "0.5 su bardağı (120 ml)"
+   },
+   "w-gr-012-i5": {
+    "name": "kuru kekik",
+    "standardAmount": "0.25 çay kaşığı"
+   },
+   "w-gr-012-i6": {
+    "name": "öğütülmüş beyaz biber",
+    "standardAmount": "0.125 çay kaşığı"
+   },
+   "w-gr-012-i7": {
+    "name": "ufalanmış feta",
+    "standardAmount": "225 g"
+   },
+   "w-gr-012-i8": {
+    "name": "krem peynir",
+    "standardAmount": "115 g, yumuşatılmış"
+   },
+   "w-gr-012-i9": {
+    "name": "sızma zeytinyağı",
+    "standardAmount": "0.25 su bardağı (60 ml)"
+   },
+   "w-gr-012-i10": {
+    "name": "krema",
+    "standardAmount": "0.25 su bardağı (60 ml)"
+   }
+  },
+  "instructions": {
+   "1": "Közlenmiş kırmızı biberleri, közlenmiş sarımsağı, acı sosu, limon suyunu, kekiği ve beyaz biberi blendera koyun ve pürüzsüz olana kadar blend edin.",
+   "2": "Ufalanmış fetayı ve krem peyniri ekleyin ve pürüzsüz olana kadar blend edin.",
+   "3": "Blender çalışırken zeytinyağını yavaşça içine dökün, karışana ve koyulaşana kadar.",
+   "4": "Gerekirse dip kıvamına ulaşmak için kremayı karıştırın.",
+   "5": "Örtün ve dipi servis edilene kadar buzdolabında saklayın."
+  },
+  "culturalNotes": "Tirokafteri, meze olarak servis edilen geleneksel bir Yunan dibi. Kremalı ve acı tadıyla bilinir.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-013": {
+  "title": "Domates ve feta mücverleri",
+  "ingredients": {
+   "w-gr-013-i1": {
+    "name": "küp doğranmış taze domates",
+    "standardAmount": "2 su bardağı suyuyla"
+   },
+   "w-gr-013-i2": {
+    "name": "rendelenmiş kabak",
+    "standardAmount": "0.5 su bardağı, sıkıştırılmış"
+   },
+   "w-gr-013-i3": {
+    "name": "doğranmış yeşil soğan",
+    "standardAmount": "0.33 su bardağı"
+   },
+   "w-gr-013-i4": {
+    "name": "iri tuz",
+    "standardAmount": "2 çay kaşığı veya damak tadına göre"
+   },
+   "w-gr-013-i5": {
+    "name": "beyaz şeker",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-gr-013-i6": {
+    "name": "taze çekilmiş karabiber",
+    "standardAmount": "0.5 çay kaşığı"
+   },
+   "w-gr-013-i7": {
+    "name": "kuru kekik",
+    "standardAmount": "0.25 çay kaşığı"
+   },
+   "w-gr-013-i8": {
+    "name": "kırmızı acı toz biber",
+    "standardAmount": "bir tutam"
+   },
+   "w-gr-013-i9": {
+    "name": "ince kıyılmış taze İtalyan maydanozu",
+    "standardAmount": "0.25 su bardağı"
+   },
+   "w-gr-013-i10": {
+    "name": "ince kıyılmış taze nane",
+    "standardAmount": "2 çorba kaşığı"
+   },
+   "w-gr-013-i11": {
+    "name": "ince kıyılmış taze fesleğen",
+    "standardAmount": "2 çorba kaşığı"
+   },
+   "w-gr-013-i12": {
+    "name": "ufalanmış feta peyniri",
+    "standardAmount": "85 g"
+   },
+   "w-gr-013-i13": {
+    "name": "un",
+    "standardAmount": "0.75 su bardağı veya gerektiği kadar daha fazla"
+   },
+   "w-gr-013-i14": {
+    "name": "kabartma tozu",
+    "standardAmount": "0.75 çay kaşığı"
+   },
+   "w-gr-013-i15": {
+    "name": "kızartmalık bitkisel yağ",
+    "standardAmount": "gerektiği kadar"
+   }
+  },
+  "instructions": {
+   "1": "Tüm malzemeleri toplayın.",
+   "2": "Bir kapta domatesleri, kabağı, yeşil soğanı, iri tuzu, şekeri, karabiberi, kekiği ve acı toz biberi karıştırın. Şeker ve tuzun sebzelerden nemi çekmesi için 15 dakika bekletin.",
+   "3": "Domates karışımını karıştırın; maydanozu, naneyi ve fesleğeni ekleyin. Fetayı içine ufalayın. Unu ve kabartma tozunu ekleyin; kaşıkla karışana kadar karıştırın. Hamur oldukça gevşek olmalı ancak kaşıkta şeklini korumalıdır. Çok gevşekse daha fazla un ekleyin; çok kurusa istenen kıvama gelene kadar biraz su ekleyin. Kaseyi streç filmle örtün ve buzdolabında en az 30 dakika soğutun.",
+   "4": "Tavada 2.5 cm bitkisel yağı orta-yüksek ateşte 175°C'ye ısıtın veya fritöz kullanın.",
+   "5": "Dolu çorba kaşıklarıyla hamuru sıcak yağa koyun; ateşi ortaya alın. Altın rengi ve içleri pişene kadar kızartın, her tarafta 2-3 dakika.",
+   "6": "İsterseniz bir kez daha çevirin ve 30 saniye daha kızartın.",
+   "7": "Sıcak veya oda sıcaklığında servis yapın."
+  },
+  "culturalNotes": "Bu mücverler, Yunanistan'da meze veya hafif bir öğünün parçası olarak servis edilen popüler bir yemektir.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-014": {
+  "title": "Yunan tsoureki",
+  "ingredients": {
+   "w-gr-014-i1": {
+    "name": "aktif kuru maya",
+    "standardAmount": "2 paket 7 g"
+   },
+   "w-gr-014-i2": {
+    "name": "ılık su",
+    "standardAmount": "0.25 su bardağı (43°C)"
+   },
+   "w-gr-014-i3": {
+    "name": "un",
+    "standardAmount": "6.25 su bardağı, bölünmüş"
+   },
+   "w-gr-014-i4": {
+    "name": "tereyağı",
+    "standardAmount": "0.5 su bardağı"
+   },
+   "w-gr-014-i5": {
+    "name": "bitkisel katı yağ",
+    "standardAmount": "0.25 su bardağı"
+   },
+   "w-gr-014-i6": {
+    "name": "öğütülmüş damla sakızı",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-gr-014-i7": {
+    "name": "süt",
+    "standardAmount": "1 su bardağı (240 ml)"
+   },
+   "w-gr-014-i8": {
+    "name": "beyaz şeker",
+    "standardAmount": "1 su bardağı"
+   },
+   "w-gr-014-i9": {
+    "name": "tuz",
+    "standardAmount": "0.5 çay kaşığı"
+   },
+   "w-gr-014-i10": {
+    "name": "yumurta",
+    "standardAmount": "4 adet, 3 çırpılmış ve 1 süsleme için"
+   },
+   "w-gr-014-i11": {
+    "name": "dilimli badem",
+    "standardAmount": "0.5 su bardağı"
+   },
+   "w-gr-014-i12": {
+    "name": "oda sıcaklığında su",
+    "standardAmount": "0.5 su bardağı (120 ml)"
+   },
+   "w-gr-014-i13": {
+    "name": "kırmızıya boyanmış yumurtalar",
+    "standardAmount": "2 adet"
+   },
+   "w-gr-014-i14": {
+    "name": "susam",
+    "standardAmount": "2 çorba kaşığı"
+   }
+  },
+  "instructions": {
+   "1": "Mayayı küçük bir kaseye koyun; ılık suyu ve 0.25 su bardağı unu ekleyin. Karıştırın, iki nemli mutfak havlusuyla örtün ve köpürene kadar sıcak bir yerde bekletin, yaklaşık 2.5 saat.",
+   "2": "Bir tencerede orta-düşük ateşte tereyağını, bitkisel katı yağı ve damla sakızını karıştırın.",
+   "3": "Başka bir tencerede orta-düşük ateşte süt ve şekeri, şeker eriyip karışım ılana kadar karıştırın. Ateşten alın.",
+   "4": "2 su bardağı unu tereyağlı karışıma dökün ve iyice karıştırın. Tuzu ekleyin, sonra maya karışımını karıştırın. 2 su bardağı daha un ekleyin ve iyice karıştırın. 3 çırpılmış yumurtayı karıştırın. Sütlü karışımı ve 1 su bardağı unu yavaş yavaş ekleyin ve iyice karıştırın. Oda sıcaklığındaki suyu ve son su bardağı unu ekleyin ve hamur yapışkan olmayana kadar karıştırın.",
+   "5": "Hafif unlanmış bir yüzeyde hafif unlanmış ellerle hamuru 20 dakika yoğurun. Hamuru top şekline getirin. Nemli havlularla örtün ve hacmi iki katına çıkana kadar sıcak bir yerde bekletin, yaklaşık 2 saat.",
+   "6": "Fırını 165°C'ye önceden ısıtın. İki fırın tepsisini yağlayın.",
+   "7": "Hamuru iki parçaya bölün ve her parçayı üç şeride bölün. Her 3 şeridi örerek 2 örgülü ekmek yapın. Tepsilere yerleştirin. Kırmızı boyanmış yumurtaları şeritlerin arasına yerleştirin. Hamuru kalan çırpılmış yumurtayla fırçalayın. Üstlerini badem ve susamla süsleyin.",
+   "8": "Önceden ısıtılmış fırında altın-kahverengi olana kadar pişirin, yaklaşık 25 dakika."
+  },
+  "culturalNotes": "Tsoureki, Yunanistan'da Paskalya zamanında yapılan geleneksel bir ekmektir. Tatlı tadı ve yumuşak dokusuyla bilinir ve genellikle kırmızı boyanmış yumurtalarla süslenir.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-015": {
+  "title": "Tzatziki (cacık) sosu",
+  "ingredients": {
+   "w-gr-015-i1": {
+    "name": "sade az yağlı yoğurt",
+    "standardAmount": "1 kutu 450 g"
+   },
+   "w-gr-015-i2": {
+    "name": "salatalık",
+    "standardAmount": "1 adet, soyulmuş, çekirdeksiz ve rendelenmiş"
+   },
+   "w-gr-015-i3": {
+    "name": "ince kıyılmış taze maydanoz",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-gr-015-i4": {
+    "name": "ince kıyılmış taze nane",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-gr-015-i5": {
+    "name": "taze limon suyu",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-gr-015-i6": {
+    "name": "ince kıyılmış sarımsak",
+    "standardAmount": "1 diş"
+   },
+   "w-gr-015-i7": {
+    "name": "tuz ve karabiber",
+    "standardAmount": "damak tadına göre"
+   }
+  },
+  "instructions": {
+   "1": "Süzgeci iki kat tülbentle kaplayın; orta boy bir kasenin üzerine yerleştirin. Yoğurdu tülbent kaplı süzgece koyun, sonra streç filmle örtün. Yoğurdu buzdolabında 8 saatten bir geceye kadar süzdürün.",
+   "2": "Rendelenmiş salatalığı kâğıt havlu kaplı bir tabağa yerleştirin; 1-2 saat süzdürün.",
+   "3": "Bir kapta yoğurdu, salatalığı, maydanozu, naneyi, limon suyunu, sarımsağı, tuzu ve karabiberi karıştırın. Servis etmeden önce buzdolabında en az 2 saat soğutun."
+  },
+  "culturalNotes": "Tzatziki, meze olarak veya ana yemeklerle birlikte servis edilen geleneksel bir Yunan sosudur.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-016": {
+  "title": "Vasilopita - Yunan yeni yıl keki",
+  "ingredients": {
+   "w-gr-016-i1": {
+    "name": "beyaz şeker",
+    "standardAmount": "2 su bardağı"
+   },
+   "w-gr-016-i2": {
+    "name": "tereyağı",
+    "standardAmount": "1 su bardağı"
+   },
+   "w-gr-016-i3": {
+    "name": "un",
+    "standardAmount": "3 su bardağı"
+   },
+   "w-gr-016-i4": {
+    "name": "yumurta",
+    "standardAmount": "6 adet"
+   },
+   "w-gr-016-i5": {
+    "name": "kabartma tozu",
+    "standardAmount": "2 çay kaşığı"
+   },
+   "w-gr-016-i6": {
+    "name": "ılık süt",
+    "standardAmount": "1 su bardağı (45°C)"
+   },
+   "w-gr-016-i7": {
+    "name": "karbonat",
+    "standardAmount": "0.5 çay kaşığı"
+   },
+   "w-gr-016-i8": {
+    "name": "taze limon suyu",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-gr-016-i9": {
+    "name": "kabuğu soyulmuş dilimli badem",
+    "standardAmount": "0.25 su bardağı"
+   },
+   "w-gr-016-i10": {
+    "name": "beyaz şeker",
+    "standardAmount": "2 çorba kaşığı"
+   }
+  },
+  "instructions": {
+   "1": "Fırını 175°C'ye önceden ısıtın. 25 cm'lik yuvarlak kek kalıbını bolca yağlayın.",
+   "2": "Orta boy bir kapta şekeri ve tereyağını rengi açılana kadar çırpın. Unu ekleyin ve karışım kırıntılı olana kadar karıştırın. Yumurtaları birer birer ekleyin, her eklemeden sonra iyice karıştırın.",
+   "3": "Kabartma tozu ve sütü karıştırın; yumurtalı karışıma ekleyin ve iyice karıştırın. Limon suyu ve karbonatı karıştırın; hamura karıştırın. Hamuru hazırlanmış kalıba dökün.",
+   "4": "Keki önceden ısıtılmış fırında 20 dakika pişirin. Çıkarın ve kekin üzerine badem ve şeker serpin, sonra dokunulduğunda geri yaylanana kadar fırına geri koyun, yaklaşık 20-30 dakika daha.",
+   "5": "Kekin içine dikkatlice küçük bir delik açın ve içine bir madeni para yerleştirin. Deliği şekerle kapatmaya çalışın. Keki bir tabağa çevirmeden önce tel ızgarada 10 dakika soğutun.",
+   "6": "Keki sıcak servis yapın."
+  },
+  "culturalNotes": "Vasilopita, Yunanistan'da yeni yıl gününde servis edilen geleneksel bir kektir.",
+  "chapter": "مطبخ اليونان"
  }
 }
