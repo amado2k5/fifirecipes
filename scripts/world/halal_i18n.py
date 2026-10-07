@@ -83,7 +83,10 @@ ALLOW = {
     'Pl': {'drożdże piwne'},
     'Te': {'బీర్ యీస్ట్'},
     'Cs': {'vinné listy', 'vinných listů', 'vinný list', 'listy vinné révy', 'vinná réva',
-           'pivní kvasnice', 'pivovarské kvasnice', 'ruměnka', 'ruměnky', 'ruměnce'},
+           'pivní kvasnice', 'pivovarské kvasnice', 'ruměnka', 'ruměnky', 'ruměnce',
+           'rumi', 'rumí',  # sýr rumi/rumí = Egyptian Rumi cheese, not rum
+           'krůtí šunka', 'krůtí šunku', 'krůtí šunky',  # turkey ham (halal)
+           'bez alkoholu'},  # "without alcohol" negation
     'Tr': {'bira mayası'},
     'Fa': {'عرق بهارنارنج', 'عرق گلاب', 'عرق نعناع', 'عرق\u200cسوس', 'عرق سوس', 'بدون الکل'},  # distillates, licorice
     'Ur': {'بغیر شراب'},
