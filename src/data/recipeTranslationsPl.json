@@ -116028,5 +116028,902 @@
   },
   "culturalNotes": "Niter kibbeh to przyprawione masło klarowane używane w kuchni etiopskiej do wzmacniania smaku potraw.",
   "chapter": "مطبخ إثيوبيا"
+ },
+ "w-gr-001": {
+  "title": "Diples",
+  "ingredients": {
+   "w-gr-001-i1": {
+    "name": "Mąka",
+    "standardAmount": "2 szklanki"
+   },
+   "w-gr-001-i2": {
+    "name": "Olej roślinny",
+    "standardAmount": "do smażenia"
+   },
+   "w-gr-001-i3": {
+    "name": "Masło",
+    "standardAmount": "1/2 szklanki"
+   },
+   "w-gr-001-i4": {
+    "name": "Miód",
+    "standardAmount": "1/2 szklanki"
+   },
+   "w-gr-001-i5": {
+    "name": "Cynamon",
+    "standardAmount": "1/2 łyżeczki"
+   }
+  },
+  "instructions": {
+   "1": "Wymieszaj mąkę z wodą na zwarte ciasto.",
+   "2": "Odłóż ciasto na 30 minut do odpoczynku.",
+   "3": "Pokrój ciasto na małe kawałki i rozwałkuj je cienko.",
+   "4": "Smaż kawałki na gorącym oleju na złotobrązowo.",
+   "5": "Odsącz diples na papierowych ręcznikach.",
+   "6": "Polej diples roztopionym masłem i miodem oraz posyp cynamonem.",
+   "7": "Podawaj na gorąco lub na zimno, według uznania."
+  },
+  "culturalNotes": "Diples to tradycyjne greckie ciastko podawane przy wyjątkowych okazjach.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-002": {
+  "title": "Galaktoboureko",
+  "ingredients": {
+   "w-gr-002-i1": {
+    "name": "biały cukier kryształ",
+    "standardAmount": "150 g"
+   },
+   "w-gr-002-i2": {
+    "name": "jajka",
+    "standardAmount": "6 jajek"
+   },
+   "w-gr-002-i3": {
+    "name": "kasza manna",
+    "standardAmount": "150 g"
+   },
+   "w-gr-002-i4": {
+    "name": "mleko",
+    "standardAmount": "1 litr"
+   },
+   "w-gr-002-i5": {
+    "name": "laski wanilii",
+    "standardAmount": "2 laski"
+   },
+   "w-gr-002-i6": {
+    "name": "sok z cytryny",
+    "standardAmount": "sok z 1/2 cytryny"
+   },
+   "w-gr-002-i7": {
+    "name": "sól",
+    "standardAmount": "szczypta"
+   },
+   "w-gr-002-i8": {
+    "name": "ciasto filo",
+    "standardAmount": "450 g"
+   },
+   "w-gr-002-i9": {
+    "name": "roztopione masło",
+    "standardAmount": "tyle ile potrzeba"
+   }
+  },
+  "instructions": {
+   "1": "Połącz w rondlu cukier, jajka i kaszę mannę. Dodaj mleko i laski wanilii. Wmieszaj sok z cytryny.",
+   "2": "Doprowadź mieszankę do wrzenia, ciągle mieszając widelcem. Gdy zacznie wrzeć, zmniejsz ogień i mieszaj jeszcze przez 10 minut. Zdejmij mieszankę z ognia i ostudź.",
+   "3": "Posmaruj każdy płat ciasta filo roztopionym masłem.",
+   "4": "Natłuść formę i ułóż w niej połowę płatów filo, jeden po drugim. Wlej ostudzony budyń z kaszy manny na ciasto i przykryj pozostałymi posmarowanymi płatami filo.",
+   "5": "Spryskaj wierzch ciasta odrobiną wody.",
+   "6": "Piecz ciasto w nagrzanym piekarniku w 180°C przez 1 godzinę. Przestudź przed podaniem."
+  },
+  "culturalNotes": "Galaktoboureko to tradycyjny grecki deser z budyniu mleczno-mannowego zawiniętego w ciasto filo. Zazwyczaj podaje się go na zimno.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-003": {
+  "title": "Giouvetsi (tradycyjna grecka zapiekanka z orzo)",
+  "ingredients": {
+   "w-gr-003-i1": {
+    "name": "oliwa z oliwek",
+    "standardAmount": "0.5 szklanki (120 ml)"
+   },
+   "w-gr-003-i2": {
+    "name": "jagnięcina gulaszowa w kostkę",
+    "standardAmount": "1.4 kg"
+   },
+   "w-gr-003-i3": {
+    "name": "całe obrane pomidory z puszki",
+    "standardAmount": "1 puszka 800 g"
+   },
+   "w-gr-003-i4": {
+    "name": "czosnek",
+    "standardAmount": "4 ząbki"
+   },
+   "w-gr-003-i5": {
+    "name": "biały cukier",
+    "standardAmount": "0.5 łyżeczki"
+   },
+   "w-gr-003-i6": {
+    "name": "sól i pieprz",
+    "standardAmount": "do smaku"
+   },
+   "w-gr-003-i7": {
+    "name": "masło",
+    "standardAmount": "0.5 szklanki"
+   },
+   "w-gr-003-i8": {
+    "name": "makaron orzo",
+    "standardAmount": "450 g"
+   },
+   "w-gr-003-i9": {
+    "name": "gorąca woda",
+    "standardAmount": "3 szklanki (710 ml)"
+   }
+  },
+  "instructions": {
+   "1": "Rozgrzej oliwę w dużym rondlu na średnim ogniu; smaż mięso, aż zbrązowieje z każdej strony, około 5 minut.",
+   "2": "Dodaj przecierane pomidory, czosnek, cukier, sól i pieprz. Przykryj i duś 1 godzinę, od czasu do czasu mieszając. Odłóż na bok.",
+   "3": "Nagrzej piekarnik do 175°C.",
+   "4": "Rozpuść masło na średniej patelni na średnim ogniu i dodaj orzo. Smaż do lekkiego zbrązowienia, 3 do 5 minut.",
+   "5": "Przełóż orzo do naczynia żaroodpornego, rozprowadzając je równomiernie. Ułóż mięso na orzo i polej mięso sosem pomidorowym. Dodaj gorącą wodę.",
+   "6": "Przykryj folią aluminiową i piecz w nagrzanym piekarniku, aż cała woda zostanie wchłonięta i orzo zmięknie, około 1 godziny. Jeśli potrawa stanie się zbyt sucha, dodaj w trakcie pieczenia więcej wody."
+  },
+  "culturalNotes": "Giouvetsi to tradycyjna grecka potrawa często podawana przy wyjątkowych okazjach. Zazwyczaj podaje się ją z grecką sałatką.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-004": {
+  "title": "Szaszłyki kofta z wołowiny z frytkownicy beztłuszczowej",
+  "ingredients": {
+   "w-gr-004-i1": {
+    "name": "mielona wołowina",
+    "standardAmount": "450 g"
+   },
+   "w-gr-004-i2": {
+    "name": "posiekana żółta cebula",
+    "standardAmount": "1/4 szklanki"
+   },
+   "w-gr-004-i3": {
+    "name": "posiekana świeża natka pietruszki",
+    "standardAmount": "1/4 szklanki"
+   },
+   "w-gr-004-i4": {
+    "name": "posiekany czosnek",
+    "standardAmount": "2 ząbki"
+   },
+   "w-gr-004-i5": {
+    "name": "kumin",
+    "standardAmount": "1 łyżeczka"
+   },
+   "w-gr-004-i6": {
+    "name": "mielona kolendra",
+    "standardAmount": "1 łyżeczka"
+   },
+   "w-gr-004-i7": {
+    "name": "sól",
+    "standardAmount": "1 łyżeczka"
+   },
+   "w-gr-004-i8": {
+    "name": "mielony czarny pieprz",
+    "standardAmount": "1/4 łyżeczki"
+   },
+   "w-gr-004-i9": {
+    "name": "mielony cynamon",
+    "standardAmount": "1/4 łyżeczki"
+   },
+   "w-gr-004-i10": {
+    "name": "szpikulce",
+    "standardAmount": "8 szpikulców"
+   },
+   "w-gr-004-i11": {
+    "name": "naturalny jogurt grecki",
+    "standardAmount": "1 szklanka"
+   },
+   "w-gr-004-i12": {
+    "name": "starty ogórek, odsączony",
+    "standardAmount": "1/2 szklanki"
+   },
+   "w-gr-004-i13": {
+    "name": "posiekany czosnek",
+    "standardAmount": "1 ząbek"
+   },
+   "w-gr-004-i14": {
+    "name": "sok z cytryny",
+    "standardAmount": "1 łyżeczka"
+   },
+   "w-gr-004-i15": {
+    "name": "suszony koperek",
+    "standardAmount": "1/4 łyżeczki"
+   },
+   "w-gr-004-i16": {
+    "name": "sól koszerna",
+    "standardAmount": "1/4 łyżeczki"
+   }
+  },
+  "instructions": {
+   "1": "Wymieszaj w dużej misce mieloną wołowinę, cebulę, natkę, czosnek, kumin, kolendrę, sól, czarny pieprz i cynamon na jednolitą masę.",
+   "2": "Podziel mieszankę na 8 porcji i uformuj z nich owalne kotleciki wokół szpikulców, pilnując by czubek szpikulca był przykryty.",
+   "3": "Ułóż kebaby na talerzu i wstaw do lodówki.",
+   "4": "Nagrzej frytkownicę beztłuszczową do 188°C.",
+   "5": "Wymieszaj w małej misce jogurt, ogórek, czosnek, sok z cytryny, koperek i sól koszerną i schłodź do czasu użycia.",
+   "6": "Ułóż 4 szpikulce w koszu frytkownicy i piecz 10 minut. Przełóż kebaby na talerz. Powtórz z pozostałymi szpikulcami.",
+   "7": "Podawaj kebaby z sosem tzatziki."
+  },
+  "culturalNotes": "Kofta to popularne danie w wielu krajach arabskich i Bliskiego Wschodu, często podawane z sosem tzatziki.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-005": {
+  "title": "Melomakarono",
+  "ingredients": {
+   "w-gr-005-i1": {
+    "name": "mąka uniwersalna",
+    "standardAmount": "4 szklanki"
+   },
+   "w-gr-005-i2": {
+    "name": "mielony cynamon",
+    "standardAmount": "2 łyżeczki"
+   },
+   "w-gr-005-i3": {
+    "name": "proszek do pieczenia",
+    "standardAmount": "2 łyżeczki"
+   },
+   "w-gr-005-i4": {
+    "name": "mielone goździki",
+    "standardAmount": "2 łyżeczki"
+   },
+   "w-gr-005-i5": {
+    "name": "soda oczyszczona",
+    "standardAmount": "1 łyżeczka"
+   },
+   "w-gr-005-i6": {
+    "name": "mielona gałka muszkatołowa",
+    "standardAmount": "0.5 łyżeczki"
+   },
+   "w-gr-005-i7": {
+    "name": "niesolone masło",
+    "standardAmount": "450 g"
+   },
+   "w-gr-005-i8": {
+    "name": "biały cukier",
+    "standardAmount": "0.75 szklanki"
+   },
+   "w-gr-005-i9": {
+    "name": "żółtka",
+    "standardAmount": "3"
+   },
+   "w-gr-005-i10": {
+    "name": "świeżo wyciśnięty sok pomarańczowy",
+    "standardAmount": "0.5 szklanki (120 ml)"
+   },
+   "w-gr-005-i11": {
+    "name": "miód",
+    "standardAmount": "1 łyżeczka + 1 szklanka"
+   },
+   "w-gr-005-i12": {
+    "name": "woda",
+    "standardAmount": "1 szklanka (240 ml)"
+   },
+   "w-gr-005-i13": {
+    "name": "drobno rozkruszone orzechy włoskie",
+    "standardAmount": "0.5 szklanki"
+   },
+   "w-gr-005-i14": {
+    "name": "mielony cynamon",
+    "standardAmount": "szczypta"
+   },
+   "w-gr-005-i15": {
+    "name": "mielone goździki",
+    "standardAmount": "szczypta"
+   }
+  },
+  "instructions": {
+   "1": "Nagrzej piekarnik do 175°C.",
+   "2": "Wymieszaj trzepaczką w dużej misce mąkę, cynamon, proszek do pieczenia, goździki, sodę oczyszczoną i gałkę muszkatołową.",
+   "3": "W osobnej misce ubij masło na jasną, puszystą masę; dodaj cukier i dobrze wymieszaj.",
+   "4": "Ubij żółtka z sokiem pomarańczowym w innej misce. Wlewaj mieszankę jajeczną stopniowo do masy maślanej, mieszając.",
+   "5": "Powoli dodawaj mieszankę mączną do masy maślanej, mieszając po każdym dodaniu. Dodaj miód i mieszaj, aż powstanie miękkie ciasto.",
+   "6": "Przykryj ciasto i schładzaj, aż będzie wystarczająco zwarte do formowania, około 30 minut.",
+   "7": "Formuj z ciasta małe owale i układaj je co kilka centymetrów na blachach. Lekko spłaszcz; ciastka się rozpłyną.",
+   "8": "Piecz w nagrzanym piekarniku do jasnego złotobrązowego koloru, 15 do 20 minut.",
+   "9": "W międzyczasie podgrzewaj w rondlu miód, wodę i cukier na średnio-słabym ogniu, aż cukier się rozpuści. Pozostaw syrop do ostygnięcia.",
+   "10": "Wymieszaj w misce orzechy, cynamon i goździki na posypkę.",
+   "11": "Zanurzaj ciastka w ostudzonym syropie po 10-15 sekund na stronę. Posyp syrop posypką orzechową i pozostaw do całkowitego wyschnięcia.",
+   "12": "Przechowuj ciastka w papilotkach lub między warstwami pergaminu."
+  },
+  "culturalNotes": "Melomakarono to tradycyjne greckie ciastko zwykle podawane w okresie Bożego Narodzenia.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-006": {
+  "title": "Zupa z pokrzyw",
+  "ingredients": {
+   "w-gr-006-i1": {
+    "name": "pokrzywy",
+    "standardAmount": "450 g"
+   },
+   "w-gr-006-i2": {
+    "name": "sól",
+    "standardAmount": "2 łyżeczki"
+   },
+   "w-gr-006-i3": {
+    "name": "oliwa z oliwek extra virgin",
+    "standardAmount": "1 łyżka"
+   },
+   "w-gr-006-i4": {
+    "name": "biała cebula",
+    "standardAmount": "1, w kostkę"
+   },
+   "w-gr-006-i5": {
+    "name": "ryż basmati",
+    "standardAmount": "0.25 szklanki"
+   },
+   "w-gr-006-i6": {
+    "name": "bulion drobiowy",
+    "standardAmount": "4 szklanki (950 ml)"
+   },
+   "w-gr-006-i7": {
+    "name": "czarny pieprz",
+    "standardAmount": "do smaku"
+   }
+  },
+  "instructions": {
+   "1": "Zagotuj w dużym garnku wodę z 2 łyżeczkami soli. Dodaj pokrzywy i gotuj 1-2 minuty, aż zmiękną. Usunie to większość ich parzącej właściwości. Odcedź na durszlaku i opłucz zimną wodą. Odłam twarde łodygi i grubo posiekaj.",
+   "2": "Rozgrzej oliwę w rondlu na średnio-słabym ogniu i dodaj cebulę. Smaż, aż cebula zmięknie i zrobi się szklista, około 5 minut. Dodaj ryż, bulion drobiowy i posiekane pokrzywy. Zagotuj, następnie zmniejsz ogień do średnio-słabego, przykryj i duś, aż ryż zmięknie, około 15 minut.",
+   "3": "Zblenduj zupę blenderem ręcznym i dopraw do smaku solą i pieprzem."
+  },
+  "culturalNotes": "Pokrzywy to roślina rosnąca naturalnie w Grecji, używana w wielu tradycyjnych przepisach.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-007": {
+  "title": "Greckie ciasto pomarańczowe z ciasta filo (Portokalopita)",
+  "ingredients": {
+   "w-gr-007-i1": {
+    "name": "biały cukier",
+    "standardAmount": "2 szklanki"
+   },
+   "w-gr-007-i2": {
+    "name": "woda",
+    "standardAmount": "1.5 szklanki (360 ml)"
+   },
+   "w-gr-007-i3": {
+    "name": "mielony cynamon",
+    "standardAmount": "1 łyżeczka"
+   },
+   "w-gr-007-i4": {
+    "name": "pomarańcza",
+    "standardAmount": "3 pomarańcze"
+   },
+   "w-gr-007-i5": {
+    "name": "ciasto filo",
+    "standardAmount": "1 opakowanie 450 g"
+   },
+   "w-gr-007-i6": {
+    "name": "jajka",
+    "standardAmount": "5 jajek"
+   },
+   "w-gr-007-i7": {
+    "name": "jogurt grecki",
+    "standardAmount": "1 pojemnik 200 g"
+   },
+   "w-gr-007-i8": {
+    "name": "oliwa z oliwek",
+    "standardAmount": "0.75 szklanki (180 ml)"
+   },
+   "w-gr-007-i9": {
+    "name": "biały cukier",
+    "standardAmount": "0.5 szklanki"
+   },
+   "w-gr-007-i10": {
+    "name": "proszek do pieczenia",
+    "standardAmount": "1 łyżka"
+   }
+  },
+  "instructions": {
+   "1": "Połącz w rondlu na średnio-mocnym ogniu 2 szklanki cukru, 1.5 szklanki wody i 1 łyżeczkę cynamonu. Wyciśnij do nich sok z pomarańczy i dodaj wyciśnięte połówki. Zagotuj i gotuj energicznie przez 8 minut. Zdejmij z ognia i pozostaw syrop do ostygnięcia.",
+   "2": "Nagrzej piekarnik do 175°C. Lekko natłuść naczynie żaroodporne 23x33 cm.",
+   "3": "Wyjmij płaty filo z opakowania i porwij lub pokrój je na strzępy. Ułóż strzępy filo w naczyniu i pozostaw do lekkiego podschnięcia.",
+   "4": "Przekrój 1 pomarańczę na pół i pokrój 1 połówkę na bardzo cienkie półksiężyce do dekoracji ciasta. Zetrzyj skórkę i wyciśnij sok z pozostałych 2 1/2 pomarańczy.",
+   "5": "Połącz sok pomarańczowy, skórkę, jajka, jogurt grecki, oliwę, 0.5 szklanki cukru i proszek do pieczenia w blenderze lub robocie kuchennym. Blenduj, aż mieszanka będzie gładka i wszystkie składniki dobrze się połączą.",
+   "6": "Wylej mieszankę na strzępy filo w naczyniu. Delikatnie wymieszaj, by wilgotna mieszanka rozprowadziła się równomiernie i nie zostały suche strzępy filo. Udekoruj wierzch ciasta plasterkami pomarańczy.",
+   "7": "Piecz w nagrzanym piekarniku, aż wierzch będzie złoty i masa się zetnie, około 45 minut. Wykałaczka wbity w środek powinna wyjść czysta.",
+   "8": "Wyjmij ciasto z piekarnika i natychmiast polej ostudzonym syropem gorące ciasto.",
+   "9": "Odłóż ciasto na co najmniej 1 godzinę lub na noc, aż większość syropu się wchłonie. Pokrój na kwadraty i podawaj."
+  },
+  "culturalNotes": "Portokalopita to tradycyjne greckie ciasto z ciasta filo i pomarańczy, zwykle podawane przy wyjątkowych okazjach.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-008": {
+  "title": "Smażony na patelni biały ser w solance (Saganaki)",
+  "ingredients": {
+   "w-gr-008-i1": {
+    "name": "duży plaster słonego, białego sera w solance (np. feta, sirene)",
+    "standardAmount": "1 plaster"
+   },
+   "w-gr-008-i2": {
+    "name": "oliwa z oliwek (nie extra virgin)",
+    "standardAmount": "1 łyżka"
+   },
+   "w-gr-008-i3": {
+    "name": "duża cząstka cytryny",
+    "standardAmount": "1 cząstka"
+   },
+   "w-gr-008-i4": {
+    "name": "mąka (opcjonalnie)",
+    "standardAmount": "niewielka ilość"
+   },
+   "w-gr-008-i5": {
+    "name": "pita lub inny chleb (opcjonalnie)",
+    "standardAmount": "tyle ile potrzeba"
+   }
+  },
+  "instructions": {
+   "1": "Rozgrzej małą patelnię na średnio-mocnym ogniu.",
+   "2": "W trakcie gdy patelnia się nagrzewa, pokrój ser na plastry o pożądanej wielkości i grubości. Grubsze plastry dłużej się roztapią i mogą się przypalić, a cieńsze mają mniejszą szansę na zbrązowienie.",
+   "3": "Opcjonalnie obtocz plastry w mące — da to ciemniejszą i nieco chrupiącą skórkę, ale to krok opcjonalny, bo ser sam uzyska bardzo lekką skórkę dzięki oliwie i wysokiej temperaturze. To też trochę zmniejszy rozpryskiwanie.",
+   "4": "Wlej oliwę na rozgrzaną patelnię i rozprowadź. Gdy oliwa się błyszczy i staje się płynniejsza, jest gotowa. Dodaj ser i odsuń się — będzie pryskać z powodu solanki na serze.",
+   "5": "Przewróć ser po minucie lub dwóch. Plaster o grubości ¾ centymetra potrzebuje około 1-2 minut na stronę.",
+   "6": "Podawaj natychmiast, z cytryną i (opcjonalnie) pieczywem."
+  },
+  "culturalNotes": "Saganaki to tradycyjne greckie danie podawane jako przystawka. Zazwyczaj podaje się je z cytryną i pieczywem.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-009": {
+  "title": "Spanakorizo",
+  "ingredients": {
+   "w-gr-009-i1": {
+    "name": "woda",
+    "standardAmount": "2 szklanki (480 ml)"
+   },
+   "w-gr-009-i2": {
+    "name": "ryż długoziarnisty",
+    "standardAmount": "1 szklanka"
+   },
+   "w-gr-009-i3": {
+    "name": "oliwa z oliwek",
+    "standardAmount": "1 łyżeczka"
+   },
+   "w-gr-009-i4": {
+    "name": "cebula",
+    "standardAmount": "1 mała, posiekana"
+   },
+   "w-gr-009-i5": {
+    "name": "świeży szpinak",
+    "standardAmount": "1 pęczek"
+   },
+   "w-gr-009-i6": {
+    "name": "skórka cytrynowa",
+    "standardAmount": "1 cytryna, otarta"
+   },
+   "w-gr-009-i7": {
+    "name": "sok z cytryny",
+    "standardAmount": "sok z 1 cytryny"
+   },
+   "w-gr-009-i8": {
+    "name": "ser feta",
+    "standardAmount": "0.25 szklanki, pokruszony"
+   },
+   "w-gr-009-i9": {
+    "name": "świeży koperek",
+    "standardAmount": "0.25 szklanki, posiekany"
+   },
+   "w-gr-009-i10": {
+    "name": "sól",
+    "standardAmount": "do smaku"
+   },
+   "w-gr-009-i11": {
+    "name": "mielony czarny pieprz",
+    "standardAmount": "do smaku"
+   }
+  },
+  "instructions": {
+   "1": "Zagotuj w rondlu wodę z ryżem. Zmniejsz ogień do średnio-słabego, przykryj i duś, aż ryż zmięknie i płyn zostanie wchłonięty, 20 do 25 minut.",
+   "2": "Rozgrzej oliwę w rondlu na średnio-mocnym ogniu. Smaż cebulę, aż zmięknie, około 5 minut.",
+   "3": "Dodaj ugotowany ryż i szpinak; smaż i mieszaj, aż szpinak zwiędnie, 3 do 5 minut.",
+   "4": "Dodaj sok z cytryny, skórkę, fetę i koperek. Zdejmij z ognia. Dopraw do smaku solą i pieprzem."
+  },
+  "culturalNotes": "Spanakorizo to tradycyjne greckie danie podawane jako danie główne lub dodatek. Wyróżnia się świeżymi, kwaskowatymi smakami.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-010": {
+  "title": "Strapatsada z sałatką z ryżu i ciecierzycy",
+  "ingredients": {
+   "w-gr-010-i1": {
+    "name": "pomidory",
+    "standardAmount": "2 średnie"
+   },
+   "w-gr-010-i2": {
+    "name": "oliwa z oliwek",
+    "standardAmount": "1 łyżka"
+   },
+   "w-gr-010-i3": {
+    "name": "czosnek",
+    "standardAmount": "3 ząbki, posiekane"
+   },
+   "w-gr-010-i4": {
+    "name": "jajka",
+    "standardAmount": "6 duże"
+   },
+   "w-gr-010-i5": {
+    "name": "sól",
+    "standardAmount": "0.75 łyżeczki, podzielona"
+   },
+   "w-gr-010-i6": {
+    "name": "mielony czarny pieprz",
+    "standardAmount": "0.5 łyżeczki, podzielony"
+   },
+   "w-gr-010-i7": {
+    "name": "pokruszony ser feta",
+    "standardAmount": "0.25 szklanki"
+   },
+   "w-gr-010-i8": {
+    "name": "posiekane świeże oregano",
+    "standardAmount": "1 łyżka"
+   },
+   "w-gr-010-i9": {
+    "name": "ugotowany brązowy ryż",
+    "standardAmount": "3 szklanki, gorący"
+   },
+   "w-gr-010-i10": {
+    "name": "ciecierzyca z puszki",
+    "standardAmount": "1 puszka 425 g, opłukana i odcedzona"
+   },
+   "w-gr-010-i11": {
+    "name": "oliwki Kalamata bez pestek, posiekane",
+    "standardAmount": "0.25 szklanki"
+   },
+   "w-gr-010-i12": {
+    "name": "posiekana świeża natka pietruszki",
+    "standardAmount": "3 łyżki"
+   },
+   "w-gr-010-i13": {
+    "name": "skórka cytrynowa",
+    "standardAmount": "2 łyżeczki"
+   },
+   "w-gr-010-i14": {
+    "name": "sok z cytryny",
+    "standardAmount": "3 łyżki"
+   },
+   "w-gr-010-i15": {
+    "name": "tahini",
+    "standardAmount": "2 łyżki"
+   }
+  },
+  "instructions": {
+   "1": "Zetrzyj pomidory na tarce z grubymi oczkami (powinno dać około 1 szklanki startego pomidora).",
+   "2": "Rozgrzej oliwę na dużej patelni na średnim ogniu. Dodaj startego pomidora i czosnek. Smaż, często mieszając, aż pomidory się rozpadną i większość wody odparuje, około 7 minut.",
+   "3": "Dodaj jajka, 1/2 łyżeczki soli i 1/4 łyżeczki pieprzu do mieszanki pomidorowej. Smaż, delikatnie mieszając, aż jajka się zetną, około 3 minut. Powinny być miękkie, ale nie wodniste. Wmieszaj fetę i oregano. Utrzymuj w cieple.",
+   "4": "W dużej misce wymieszaj ryż, ciecierzycę, oliwki, natkę, skórkę cytrynową i pozostałe po 1/4 łyżeczki soli i pieprzu. W małej misce ubij sok z cytryny z tahini i wylej na mieszankę ryżową. Delikatnie wymieszaj, by pokryć.",
+   "5": "Podawaj mieszankę jajeczną na mieszance ryżowej. Jeśli chcesz, posyp dodatkowo pomidorem, oregano i natką."
+  },
+  "culturalNotes": "Strapatsada to tradycyjne greckie danie zwykle podawane jako przystawka lub proste danie główne. Łączy jajka, pomidory i ser feta i jest łatwe oraz szybkie w przygotowaniu.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-011": {
+  "title": "Taramasalata",
+  "ingredients": {
+   "w-gr-011-i1": {
+    "name": "chleb",
+    "standardAmount": "370 g (bez skórki)"
+   },
+   "w-gr-011-i2": {
+    "name": "zimna woda",
+    "standardAmount": "tyle, by pokryć chleb"
+   },
+   "w-gr-011-i3": {
+    "name": "oliwa z oliwek",
+    "standardAmount": "0.5 szklanki (120 ml)"
+   },
+   "w-gr-011-i4": {
+    "name": "cebula",
+    "standardAmount": "1 mała, grubo posiekana"
+   },
+   "w-gr-011-i5": {
+    "name": "sok z cytryny",
+    "standardAmount": "sok z 1 dużej cytryny"
+   },
+   "w-gr-011-i6": {
+    "name": "tarama (solona ikra)",
+    "standardAmount": "1 szklanka"
+   }
+  },
+  "instructions": {
+   "1": "Ułóż chleb w misce, zalej zimną wodą i odstaw, aż się dobrze namoczy, 5 do 10 minut. Odlej wodę z miski i wyciśnij chleb, by usunąć nadmiar wody.",
+   "2": "Wrzuć chleb, oliwę, cebulę i sok z cytryny do robota kuchennego i blenduj na gładko.",
+   "3": "Dodaj taramę i blenduj, aż się dobrze połączy."
+  },
+  "culturalNotes": "Taramasalata to tradycyjna grecka przystawka, zwykle podawana ze świeżym chlebem lub krakersami.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-012": {
+  "title": "Tirokafteri z pieczonym czosnkiem",
+  "ingredients": {
+   "w-gr-012-i1": {
+    "name": "pieczone czerwone papryki",
+    "standardAmount": "170 g"
+   },
+   "w-gr-012-i2": {
+    "name": "pieczony czosnek",
+    "standardAmount": "0.25 szklanki"
+   },
+   "w-gr-012-i3": {
+    "name": "ostry sos paprykowy",
+    "standardAmount": "1 łyżeczka, lub do smaku"
+   },
+   "w-gr-012-i4": {
+    "name": "świeżo wyciśnięty sok z cytryny",
+    "standardAmount": "0.5 szklanki (120 ml)"
+   },
+   "w-gr-012-i5": {
+    "name": "suszone oregano",
+    "standardAmount": "0.25 łyżeczki"
+   },
+   "w-gr-012-i6": {
+    "name": "mielony biały pieprz",
+    "standardAmount": "0.125 łyżeczki"
+   },
+   "w-gr-012-i7": {
+    "name": "pokruszona feta",
+    "standardAmount": "225 g"
+   },
+   "w-gr-012-i8": {
+    "name": "serków śmietankowy",
+    "standardAmount": "115 g, zmiękczony"
+   },
+   "w-gr-012-i9": {
+    "name": "oliwa z oliwek extra virgin",
+    "standardAmount": "0.25 szklanki (60 ml)"
+   },
+   "w-gr-012-i10": {
+    "name": "śmietanka kremowa",
+    "standardAmount": "0.25 szklanki (60 ml)"
+   }
+  },
+  "instructions": {
+   "1": "Wrzuć pieczone czerwone papryki, pieczony czosnek, ostry sos, sok z cytryny, oregano i biały pieprz do blendera i blenduj na gładko.",
+   "2": "Dodaj pokruszoną fetę i serków śmietankowy i blenduj na gładko.",
+   "3": "Przy pracującym blenderze powoli wlewaj oliwę, aż się połączy i zgęstnieje.",
+   "4": "W razie potrzeby wmieszaj śmietankę kremową, by uzyskać konsystencję dipu.",
+   "5": "Przykryj i przechowuj dip w lodówce do czasu podania."
+  },
+  "culturalNotes": "Tirokafteri to tradycyjny grecki dip podawany jako przystawka. Znany jest ze swojego kremowego i pikantnego smaku.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-013": {
+  "title": "Placuszki z pomidorami i fetą",
+  "ingredients": {
+   "w-gr-013-i1": {
+    "name": "świeże pomidory w kostkę",
+    "standardAmount": "2 szklanki z sokiem"
+   },
+   "w-gr-013-i2": {
+    "name": "tarta cukinia",
+    "standardAmount": "0.5 szklanki, ubitej"
+   },
+   "w-gr-013-i3": {
+    "name": "posiekany szczypiorek",
+    "standardAmount": "0.33 szklanki"
+   },
+   "w-gr-013-i4": {
+    "name": "sól koszerna",
+    "standardAmount": "2 łyżeczki lub do smaku"
+   },
+   "w-gr-013-i5": {
+    "name": "biały cukier",
+    "standardAmount": "1 łyżeczka"
+   },
+   "w-gr-013-i6": {
+    "name": "świeżo mielony czarny pieprz",
+    "standardAmount": "0.5 łyżeczki"
+   },
+   "w-gr-013-i7": {
+    "name": "suszone oregano",
+    "standardAmount": "0.25 łyżeczki"
+   },
+   "w-gr-013-i8": {
+    "name": "pieprz kajeński",
+    "standardAmount": "szczypta"
+   },
+   "w-gr-013-i9": {
+    "name": "posiekana świeża włoska natka pietruszki",
+    "standardAmount": "0.25 szklanki"
+   },
+   "w-gr-013-i10": {
+    "name": "posiekana świeża mięta",
+    "standardAmount": "2 łyżki"
+   },
+   "w-gr-013-i11": {
+    "name": "posiekana świeża bazylia",
+    "standardAmount": "2 łyżki"
+   },
+   "w-gr-013-i12": {
+    "name": "pokruszony ser feta",
+    "standardAmount": "85 g"
+   },
+   "w-gr-013-i13": {
+    "name": "mąka uniwersalna",
+    "standardAmount": "0.75 szklanki lub więcej w razie potrzeby"
+   },
+   "w-gr-013-i14": {
+    "name": "proszek do pieczenia",
+    "standardAmount": "0.75 łyżeczki"
+   },
+   "w-gr-013-i15": {
+    "name": "olej roślinny do smażenia",
+    "standardAmount": "tyle ile potrzeba"
+   }
+  },
+  "instructions": {
+   "1": "Zgromadź wszystkie składniki.",
+   "2": "Wymieszaj w misce pomidory, cukinię, szczypiorek, sól koszerną, cukier, czarny pieprz, oregano i kajeński. Odstaw na 15 minut, by cukier i sól wyciągnęły soki z warzyw.",
+   "3": "Wymieszaj mieszankę pomidorową; dodaj natkę, miętę i bazylię. Pokrusz fetę. Dodaj mąkę i proszek do pieczenia; wymieszaj łyżką do połączenia. Ciasto powinno być dość luźne, ale utrzymywać kształt na łyżce. Jeśli zbyt luźne, dodaj więcej mąki; jeśli zbyt suche, dodaj trochę wody do pożądanej konsystencji. Przykryj miskę folią spożywczą i schładzaj w lodówce co najmniej 30 minut.",
+   "4": "Rozgrzej 2.5 cm oleju roślinnego na patelni na średnio-mocnym ogniu do 175°C lub użyj frytkownicy.",
+   "5": "Kładź pełne łyżki ciasta na gorący olej; zmniejsz ogień do średniego. Smaż na złotobrązowo i do środka, 2 do 3 minut na stronę.",
+   "6": "Przewróć jeszcze raz i smaż dodatkowe 30 sekund, jeśli chcesz.",
+   "7": "Podawaj na ciepło lub w temperaturze pokojowej."
+  },
+  "culturalNotes": "Te placuszki to popularne danie w Grecji, podawane jako przystawka lub część lekkiego posiłku.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-014": {
+  "title": "Greckie tsoureki",
+  "ingredients": {
+   "w-gr-014-i1": {
+    "name": "suszone aktywne drożdże",
+    "standardAmount": "2 saszetki po 7 g"
+   },
+   "w-gr-014-i2": {
+    "name": "ciepła woda",
+    "standardAmount": "0.25 szklanki (43°C)"
+   },
+   "w-gr-014-i3": {
+    "name": "mąka uniwersalna",
+    "standardAmount": "6.25 szklanki, podzielona"
+   },
+   "w-gr-014-i4": {
+    "name": "masło",
+    "standardAmount": "0.5 szklanki"
+   },
+   "w-gr-014-i5": {
+    "name": "tłuszcz roślinny",
+    "standardAmount": "0.25 szklanki"
+   },
+   "w-gr-014-i6": {
+    "name": "mielony mastik",
+    "standardAmount": "1 łyżeczka"
+   },
+   "w-gr-014-i7": {
+    "name": "mleko",
+    "standardAmount": "1 szklanka (240 ml)"
+   },
+   "w-gr-014-i8": {
+    "name": "biały cukier",
+    "standardAmount": "1 szklanka"
+   },
+   "w-gr-014-i9": {
+    "name": "sól",
+    "standardAmount": "0.5 łyżeczki"
+   },
+   "w-gr-014-i10": {
+    "name": "jajka",
+    "standardAmount": "4 jajka, 3 rozbełtane i 1 do posmarowania"
+   },
+   "w-gr-014-i11": {
+    "name": "płatki migdałowe",
+    "standardAmount": "0.5 szklanki"
+   },
+   "w-gr-014-i12": {
+    "name": "woda w temperaturze pokojowej",
+    "standardAmount": "0.5 szklanki (120 ml)"
+   },
+   "w-gr-014-i13": {
+    "name": "czerwono barwione jajka",
+    "standardAmount": "2 jajka"
+   },
+   "w-gr-014-i14": {
+    "name": "sezam",
+    "standardAmount": "2 łyżki"
+   }
+  },
+  "instructions": {
+   "1": "Wsyp drożdże do małej miski; dodaj ciepłą wodę i 1/4 szklanki mąki. Wymieszaj, przykryj dwiema wilgotnymi ścierkami i odstaw w ciepłe miejsce, aż się spieni, około 2.5 godziny.",
+   "2": "Połącz w rondlu masło, tłuszcz roślinny i mastik na średnio-słabym ogniu.",
+   "3": "Wymieszaj w innym rondlu mleko i cukier na średnio-słabym ogniu, aż cukier się rozpuści i mieszanka będzie ciepła. Zdejmij z ognia.",
+   "4": "Wlej 2 szklanki mąki do mieszanki maślanej i dobrze wymieszaj. Dodaj sól, następnie wmieszaj mieszankę drożdżową. Dodaj kolejne 2 szklanki mąki i dobrze wymieszaj. Wmieszaj 3 rozbełtane jajka. Powoli dodaj mieszankę mleczną i 1 szklankę mąki i dobrze wymieszaj. Dodaj wodę w temperaturze pokojowej i ostatnią szklankę mąki i mieszaj, aż ciasto nie będzie klejące.",
+   "5": "Wyrabiaj ciasto na lekko oprószonej mąką powierzchni lekko oprószonymi dłońmi przez 20 minut. Uformuj ciasto w kulę. Przykryj wilgotnymi ścierkami i odstaw w ciepłe miejsce do podwojenia objętości, około 2 godzin.",
+   "6": "Nagrzej piekarnik do 165°C. Natłuść dwie blachy.",
+   "7": "Podziel ciasto na dwa kawałki i każdy podziel na trzy paski. Zapleć każde 3 paski, tworząc 2 plecione bochenki. Ułóż na blachach. Wsuń czerwone jajka między paski. Posmaruj ciasto pozostałym rozbełtanym jajkiem. Posyp wierzch migdałami i sezamem.",
+   "8": "Piecz w nagrzanym piekarniku na złotobrązowo, około 25 minut."
+  },
+  "culturalNotes": "Tsoureki to tradycyjny chleb wypiekany w Grecji na Wielkanoc. Znany jest ze swojego słodkiego smaku i miękkiej tekstury i zwykle dekoruje się go czerwono barwionymi jajkami.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-015": {
+  "title": "Sos tzatziki",
+  "ingredients": {
+   "w-gr-015-i1": {
+    "name": "naturalny jogurt niskotłuszczowy",
+    "standardAmount": "1 pojemnik 450 g"
+   },
+   "w-gr-015-i2": {
+    "name": "ogórek",
+    "standardAmount": "1 ogórek, obrany, bez nasion, starty"
+   },
+   "w-gr-015-i3": {
+    "name": "posiekana świeża natka pietruszki",
+    "standardAmount": "1 łyżka"
+   },
+   "w-gr-015-i4": {
+    "name": "posiekana świeża mięta",
+    "standardAmount": "1 łyżka"
+   },
+   "w-gr-015-i5": {
+    "name": "świeży sok z cytryny",
+    "standardAmount": "1 łyżka"
+   },
+   "w-gr-015-i6": {
+    "name": "posiekany czosnek",
+    "standardAmount": "1 ząbek"
+   },
+   "w-gr-015-i7": {
+    "name": "sól i czarny pieprz",
+    "standardAmount": "do smaku"
+   }
+  },
+  "instructions": {
+   "1": "Wyłóż durszlak dwiema warstwami gazy; ustaw nad średnią miską. Włóż jogurt do wyłożonego gazą durszlaka, następnie przykryj folią spożywczą. Odcedzaj jogurt w lodówce od 8 godzin do nocy.",
+   "2": "Rozłóż startego ogórka na wyłożonym papierowym ręcznikiem talerzu; odcedzaj 1 do 2 godzin.",
+   "3": "Wymieszaj w misce jogurt, ogórek, natkę, miętę, sok z cytryny, czosnek, sól i czarny pieprz. Schładzaj co najmniej 2 godziny przed podaniem."
+  },
+  "culturalNotes": "Tzatziki to tradycyjny grecki sos podawany jako przystawka lub do dań głównych.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-016": {
+  "title": "Vasilopita - grecki placek noworoczny",
+  "ingredients": {
+   "w-gr-016-i1": {
+    "name": "biały cukier",
+    "standardAmount": "2 szklanki"
+   },
+   "w-gr-016-i2": {
+    "name": "masło",
+    "standardAmount": "1 szklanka"
+   },
+   "w-gr-016-i3": {
+    "name": "mąka uniwersalna",
+    "standardAmount": "3 szklanki"
+   },
+   "w-gr-016-i4": {
+    "name": "jajka",
+    "standardAmount": "6 jajek"
+   },
+   "w-gr-016-i5": {
+    "name": "proszek do pieczenia",
+    "standardAmount": "2 łyżeczki"
+   },
+   "w-gr-016-i6": {
+    "name": "ciepłe mleko",
+    "standardAmount": "1 szklanka (45°C)"
+   },
+   "w-gr-016-i7": {
+    "name": "soda oczyszczona",
+    "standardAmount": "0.5 łyżeczki"
+   },
+   "w-gr-016-i8": {
+    "name": "świeży sok z cytryny",
+    "standardAmount": "1 łyżka"
+   },
+   "w-gr-016-i9": {
+    "name": "blanszowane płatki migdałowe",
+    "standardAmount": "0.25 szklanki"
+   },
+   "w-gr-016-i10": {
+    "name": "biały cukier",
+    "standardAmount": "2 łyżki"
+   }
+  },
+  "instructions": {
+   "1": "Nagrzej piekarnik do 175°C. Obficie natłuść okrągłą formę do ciasta 25 cm.",
+   "2": "Ubij w średniej misce cukier z masłem, aż zrobi się jaśniejsza masa. Dodaj mąkę i mieszaj, aż mieszanka będzie kruszonkowata. Dodawaj jajka po jednym, dobrze mieszając po każdym dodaniu.",
+   "3": "Połącz proszek do pieczenia i mleko; dodaj do mieszanki jajecznej i dobrze wymieszaj. Połącz sok z cytryny i sodę oczyszczoną; wmieszaj w ciasto. Wlej ciasto do przygotowanej formy.",
+   "4": "Piecz ciasto w nagrzanym piekarniku przez 20 minut. Wyjmij i posyp ciasto orzechami i cukrem, następnie wróć do piekarnika, aż ciasto odskoczy przy dotyku, około kolejnych 20-30 minut.",
+   "5": "Delikatnie wytnij mały otwór w cieście i włóż do niego monetę. Spróbuj przykryć otwór cukrem. Studź ciasto na kratce przez 10 minut, zanim wywrócisz je na talerz.",
+   "6": "Podawaj ciasto ciepłe."
+  },
+  "culturalNotes": "Vasilopita to tradycyjny placek podawany w Grecji w Nowy Rok.",
+  "chapter": "مطبخ اليونان"
  }
 }
