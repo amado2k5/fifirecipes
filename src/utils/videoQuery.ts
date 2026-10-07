@@ -48,6 +48,7 @@ const VIDEO_SEARCH_QUERIES: Record<SupportedLanguage, (dish: string) => string> 
   ps: dish => `د ${dish} جوړولو طریقه`,
   he: dish => `מתכון ל${dish}`,
   te: dish => `${dish} రెసిపీ`,
+  cs: dish => `${dish} recept`,
 };
 
 export const localizedVideoQuery = (dish: string, lang: SupportedLanguage): string =>

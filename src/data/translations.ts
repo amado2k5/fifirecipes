@@ -108,6 +108,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     if (primaryCode === 'te') {
       return { language: 'te', isKnown: true, rawLocale };
     }
+    if (primaryCode === 'cs') {
+      return { language: 'cs', isKnown: true, rawLocale };
+    }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
     return { language: 'en', isKnown: false, rawLocale: '' };
@@ -1119,6 +1122,46 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     cancel: 'రద్దు చేయండి',
     noResultsFound: 'ఫలితాలు కనబడలేదు.',
     close: 'మూసివేయండి',
+  },
+  cs: {
+    loadError: 'Recept se nepodařilo načíst. Zkontrolujte připojení a zkuste to znovu.',
+    loadingMoreRecipes: 'Načítají se další recepty…',
+    showMoreRecipes: 'Zobrazit další recepty',
+    recipesLoadFailed: 'Recepty se nepodařilo načíst. Zkontrolujte připojení a obnovte stránku.',
+    siteTitle: 'Kuchařka Dr. Fatmy Alkawokgy',
+    appTitle: 'Kuchařka Dr. Fatmy Alkawokgy',
+    siteSubtitle: 'Odkaz pravé egyptské kuchyně',
+    appSubtitle: 'Odkaz pravé egyptské kuchyně',
+    allRecipes: 'Procházet recepty',
+    navAllRecipes: 'Procházet recepty',
+    aboutFatma: 'O Dr. Fatmě',
+    navAboutFatma: 'O Dr. Fatmě',
+    ingredientsRegistry: 'Registr ingrediencí',
+    navIngredientsRegistry: 'Registr ingrediencí',
+    choosePreferredLanguage: 'Vyberte jazyk stránky',
+    searchPlaceholder: 'Hledat recept, ingredienci nebo postup...',
+    filterByChapter: 'Filtrovat podle kapitoly',
+    prepTime: 'Příprava',
+    cookTime: 'Vaření',
+    servings: 'Porce',
+    difficulty: 'Obtížnost',
+    method: 'Postup',
+    ingredients: 'Hlavní ingredience a přesné míry',
+    instructions: 'Příprava krok za krokem',
+    tips: 'Poznámky a tipy Dr. Fatmy Alkawokgy',
+    shareRecipe: 'Sdílet recept',
+    noRecipesFound: 'Žádné recepty neodpovídají vašemu hledání',
+    tributeQuote: 'Vaření je jako hra na klavír; dokonalosti dosáhne jen upřímná harmonie, trpělivost a láska.',
+    orderIngredients: 'Objednat ingredience',
+    orderDish: 'Objednat pokrm',
+    festivals: 'Festivaly',
+    upcomingEvents: 'Nadcházející události',
+    shareLocationBtn: 'Sdílet polohu / Zadat adresu',
+    enterAddressPlaceholder: 'Zadejte město nebo adresu...',
+    useThisLocation: 'Použít tuto polohu',
+    cancel: 'Zrušit',
+    noResultsFound: 'Nebyly nalezeny žádné výsledky.',
+    close: 'Zavřít',
   }
 };
 
