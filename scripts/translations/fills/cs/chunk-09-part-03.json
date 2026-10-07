@@ -1,0 +1,2404 @@
+{
+ "w-mx-035": {
+  "title": "Mexická zelená rýže",
+  "chapter": "Mexická kuchyně",
+  "ingredients": {
+   "w-mx-035-i1": {
+    "name": "krátkozrnná rýže",
+    "standardAmount": "2 šálky"
+   },
+   "w-mx-035-i2": {
+    "name": "koriandr",
+    "standardAmount": "1 svazek"
+   },
+   "w-mx-035-i3": {
+    "name": "bílá cibule",
+    "standardAmount": "1/2 střední bílé cibule"
+   },
+   "w-mx-035-i4": {
+    "name": "česnek",
+    "standardAmount": "2 stroužky"
+   },
+   "w-mx-035-i5": {
+    "name": "sůl",
+    "standardAmount": "1 lžič."
+   },
+   "w-mx-035-i6": {
+    "name": "voda",
+    "standardAmount": "4-5 šálků"
+   },
+   "w-mx-035-i7": {
+    "name": "olej",
+    "standardAmount": "2 lž."
+   }
+  },
+  "instructions": {
+   "1": "Do mixéru přidejte koriandr, cibuli, česnek a 1/2 šálku vody a rozmixujte dohladka asi 1 minutu.",
+   "2": "V hrnci na středním ohni předehřejte 2 lžíce oleje.",
+   "3": "Do horkého oleje přidejte neuvařenou rýži a míchejte asi 30 sekund, dokud rýže nezačne hnědnout a vonět.",
+   "4": "K rýži přidejte koriandrovou směs.",
+   "5": "K rýži přidejte 4 šálky vody a 1 lžičku soli a jednou promíchejte, aby se koriandrová směs rovnoměrně rozdělila.",
+   "6": "Ztlumte oheň na minimum (nepřikrývejte) a rýži vařte asi 20 minut, dokud zcela nevstřebá tekutinu.",
+   "7": "Pokud rýže není po vstřebání tekutiny zcela uvařená, přidejte podle potřeby 1/4 šálku vody, dokud není rýže zcela měkká a voda vstřebaná.",
+   "8": "Jakmile je rýže uvařená, vypněte oheň a vidličkou ji nakypřete. Před podáváním nechte 5 minut odstát.",
+   "9": "Před podáváním ozdobte větvičkou koriandru."
+  },
+  "culturalNotes": "Mexická zelená rýže je oblíbená příloha v mexické kuchyni, často se podává k různým hlavním jídlům."
+ },
+ "w-mx-036": {
+  "title": "Mole de olla",
+  "chapter": "Mexická kuchyně",
+  "ingredients": {
+   "w-mx-036-i1": {
+    "name": "volský ocas",
+    "standardAmount": "1 ½ libry"
+   },
+   "w-mx-036-i2": {
+    "name": "hovězí koleno",
+    "standardAmount": "1 ½ libry"
+   },
+   "w-mx-036-i3": {
+    "name": "střední bílá cibule",
+    "standardAmount": "½ střední"
+   },
+   "w-mx-036-i4": {
+    "name": "stroužky česneku",
+    "standardAmount": "3 stroužky"
+   },
+   "w-mx-036-i5": {
+    "name": "bobkové listy",
+    "standardAmount": "2 listy"
+   },
+   "w-mx-036-i6": {
+    "name": "papriky ancho",
+    "standardAmount": "2 papriky"
+   },
+   "w-mx-036-i7": {
+    "name": "papriky pasilla",
+    "standardAmount": "3 papriky"
+   },
+   "w-mx-036-i8": {
+    "name": "stroužek česneku",
+    "standardAmount": "1 stroužek"
+   },
+   "w-mx-036-i9": {
+    "name": "střední bílá cibule",
+    "standardAmount": "¼ střední"
+   },
+   "w-mx-036-i10": {
+    "name": "středně velké rajče",
+    "standardAmount": "1 střední"
+   },
+   "w-mx-036-i11": {
+    "name": "větvičky epazote",
+    "standardAmount": "2 větvičky"
+   },
+   "w-mx-036-i12": {
+    "name": "sůl a pepř",
+    "standardAmount": "podle chuti"
+   },
+   "w-mx-036-i13": {
+    "name": "kukuřičné klasy",
+    "standardAmount": "2 klasy (každý nakrájený na 3 díly)"
+   },
+   "w-mx-036-i14": {
+    "name": "chayote",
+    "standardAmount": "1 rozkrojený na čtvrtky"
+   },
+   "w-mx-036-i15": {
+    "name": "mrkev",
+    "standardAmount": "3 malé nebo 1 velká (nakrájená na velké kusy)"
+   },
+   "w-mx-036-i16": {
+    "name": "xoconostles",
+    "standardAmount": "3 (oloupané, nakrájené na silné plátky)"
+   },
+   "w-mx-036-i17": {
+    "name": "brambory",
+    "standardAmount": "2 malé nebo 1 velká (volitelné)"
+   },
+   "w-mx-036-i18": {
+    "name": "cukety",
+    "standardAmount": "2 malé nebo 1 velká (rozkrojené na čtvrtky)"
+   },
+   "w-mx-036-i19": {
+    "name": "zelené fazolky",
+    "standardAmount": "6 uncí"
+   },
+   "w-mx-036-i20": {
+    "name": "najemno nasekaná bílá cibule",
+    "standardAmount": "½ šálku"
+   },
+   "w-mx-036-i21": {
+    "name": "najemno nasekaný koriandr",
+    "standardAmount": "½ šálku"
+   },
+   "w-mx-036-i22": {
+    "name": "papričky serrano",
+    "standardAmount": "2 (tenko nakrájené nebo nasekané)"
+   },
+   "w-mx-036-i23": {
+    "name": "kousky limetky",
+    "standardAmount": "4-6 kousků"
+   },
+   "w-mx-036-i24": {
+    "name": "čerstvé epazote",
+    "standardAmount": "2 lžíce (najemno nasekané)"
+   }
+  },
+  "instructions": {
+   "1": "Maso opláchněte a důkladně osušte papírovou utěrkou. Do velkého hrnce dejte maso, cibuli, česnek a bobkové listy. Zakryjte 8 šálky vody. Přiveďte k varu, přikryjte a ztlumte oheň na mírný var. Děrovanou lžící sbírejte pěnu, která vyplouvá na povrch. Maso bude trvat asi 1 ½ až 2 hodiny, než změkne.",
+   "2": "Zatímco se maso vaří, připravte omáčku. Naplňte malý hrnec 2 šálky horké vody a odložte stranou. Rád opeču ingredience na salsu, protože to dává polévce rustikální chuť. Nyní lehce opečte papriky na horké plotně, jednou otočte. Nezapomeňte, že tento krok trvá jen několik sekund; pokud necháte papriky na horké plotně déle, budou mít hořkou chuť. Opečené papriky vložte do hrnce s horkou vodou, aby změkly, alespoň 15 minut.",
+   "3": "Rajče, česnek a cibuli opečte na horké plotně. Česnek se opeče rychleji, takže ho vyjměte včas. Oloupejte ho a vložte do nádoby mixéru. Jakmile jsou rajče a cibule opečené, vložte je také do mixéru. Jakmile papriky změknou, přidejte je do mixéru spolu se šálkem namáčecí vody. Rozmixujte na velmi hladkou omáčku. Odložte stranou.",
+   "4": "Vaření zeleniny: Do jiného středně velkého kastrolu přidejte 3 šálky vody a kousky kukuřice a vařte na středněsilném ohni. Po 8-10 minutách přidejte xoconostle, chayote a mrkve. Asi po 3 minutách přidejte brambory (pokud používáte) a nakonec cuketu a zelené fazolky a vařte další 4 minuty. Nebojte se, pokud po této době stále vypadají nedovařeně; dovaří se s masem a omáčkou.",
+   "5": "Zkontrolujte maso. Pokud je již uvařené a měkké, vyjměte česnek, cibuli a bobkový list. Nyní přidejte omáčku a větvičky epazote, promíchejte a duste dalších asi 8 minut. Přidejte zeleninu a dobře promíchejte. Nechte dalších 6 minut dustít, aby se všechny chutě spojily. Pokud chcete, můžete ji nalít přes síto; já osobně síto u této polévky nepoužívám, protože se mi líbí, jak omáčka dává polévce hustější konzistenci.",
+   "6": "K podávání naberte polévku do velkých misek s porcemi masa, kukuřice, mrkve, chayote, xoconostle, cukety, brambor a zelených fazolek. Ozdobte nasekanou cibulí, koriandrem, epazote a limetkovou šťávou.",
+   "7": "Podávejte s teplými kukuřičnými tortillami. A máte to, celé jídlo v misce!"
+  },
+  "culturalNotes": "Mole de olla je tradiční mexická polévka bohatá na chutě, často se podává při slavnostních příležitostech a rodinných setkáních."
+ },
+ "w-mx-037": {
+  "title": "Nachos z vroubkovaných brambůrků",
+  "chapter": "Mexická kuchyně",
+  "ingredients": {
+   "w-mx-037-i1": {
+    "name": "vroubkované brambůrky",
+    "standardAmount": "14 uncí"
+   },
+   "w-mx-037-i2": {
+    "name": "avokádový olej s chilli a limetkou",
+    "standardAmount": "podle potřeby"
+   },
+   "w-mx-037-i3": {
+    "name": "tropická salsa",
+    "standardAmount": "1 šálek"
+   },
+   "w-mx-037-i4": {
+    "name": "chile verde",
+    "standardAmount": "1 šálek"
+   },
+   "w-mx-037-i5": {
+    "name": "jalapeño",
+    "standardAmount": "2 papričky"
+   },
+   "w-mx-037-i6": {
+    "name": "pico de gallo",
+    "standardAmount": "1 šálek"
+   },
+   "w-mx-037-i7": {
+    "name": "salsa z manga a avokáda",
+    "standardAmount": "1 šálek"
+   },
+   "w-mx-037-i8": {
+    "name": "jahodové pico de gallo",
+    "standardAmount": "1 šálek"
+   },
+   "w-mx-037-i9": {
+    "name": "trhané grilované kuře",
+    "standardAmount": "2 šálky"
+   },
+   "w-mx-037-i10": {
+    "name": "domácí guacamole",
+    "standardAmount": "1 šálek"
+   },
+   "w-mx-037-i11": {
+    "name": "rozdrobený queso fresco",
+    "standardAmount": "1 šálek"
+   },
+   "w-mx-037-i12": {
+    "name": "mexická crema",
+    "standardAmount": "1/2 šálku"
+   },
+   "w-mx-037-i13": {
+    "name": "nakrájené ředkvičky",
+    "standardAmount": "1 šálek"
+   },
+   "w-mx-037-i14": {
+    "name": "zrnka granátového jablka",
+    "standardAmount": "1/2 šálku"
+   },
+   "w-mx-037-i15": {
+    "name": "mladé cibulky",
+    "standardAmount": "1/4 šálku"
+   },
+   "w-mx-037-i16": {
+    "name": "nakrájené jalapeños",
+    "standardAmount": "2 papričky"
+   },
+   "w-mx-037-i17": {
+    "name": "nasekaný koriandr",
+    "standardAmount": "1/4 šálku"
+   },
+   "w-mx-037-i18": {
+    "name": "kousky limetky",
+    "standardAmount": "4 kousky"
+   }
+  },
+  "instructions": {
+   "1": "Na servírovací talíř rozložte vrstvu vroubkovaných brambůrků.",
+   "2": "Přidejte různé vrstvy polevy podle chuti, začněte salsami, poté trhaným kuřetem, rozdrobeným queso fresco a mexickou cremou.",
+   "3": "Ozdobte plátky ředkviček, zrnky granátového jablka, mladými cibulkami, nakrájenými jalapeños, koriandrem a kousky limetky."
+  },
+  "culturalNotes": "Nachos jsou oblíbené jídlo v Mexiku, často se podávají jako předkrm na společenských setkáních."
+ },
+ "w-mx-038": {
+  "title": "Licuado de nopal (kaktusové smoothie)",
+  "chapter": "Mexická kuchyně",
+  "ingredients": {
+   "w-mx-038-i1": {
+    "name": "nopal (kaktusové štětce)",
+    "standardAmount": "1/2 šálku"
+   },
+   "w-mx-038-i2": {
+    "name": "okurka",
+    "standardAmount": "1/2 okurky (oloupaná a nakrájená)"
+   },
+   "w-mx-038-i3": {
+    "name": "limetka",
+    "standardAmount": "1 limetka (vymačkaná)"
+   },
+   "w-mx-038-i4": {
+    "name": "voda",
+    "standardAmount": "1 šálek"
+   },
+   "w-mx-038-i5": {
+    "name": "drcený led (volitelné)",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Nopal nakrájený na tenké proužky skladujte v mrazničce v sáčcích na svačiny.",
+   "2": "Na jedno smoothie použijte pouze polovinu sáčku nopalu.",
+   "3": "Všechny ingredience dejte do mixéru a rozmixujte dohladka."
+  },
+  "culturalNotes": "Nopales jsou kaktusové štětce běžně používané v mexické kuchyni, bohaté na vlákninu a vitamíny."
+ },
+ "w-mx-039": {
+  "title": "Pan de muerto",
+  "chapter": "Mexická kuchyně",
+  "ingredients": {
+   "w-mx-039-i1": {
+    "name": "mouka",
+    "standardAmount": "18 uncí"
+   },
+   "w-mx-039-i2": {
+    "name": "cukr",
+    "standardAmount": "5 1/2 uncí"
+   },
+   "w-mx-039-i3": {
+    "name": "máslo (do těsta)",
+    "standardAmount": "3 1/4 unce"
+   },
+   "w-mx-039-i4": {
+    "name": "máslo (na potření bochníků)",
+    "standardAmount": "2 unce"
+   },
+   "w-mx-039-i5": {
+    "name": "vejce",
+    "standardAmount": "2 vejce"
+   },
+   "w-mx-039-i6": {
+    "name": "mléko",
+    "standardAmount": "4 unce"
+   },
+   "w-mx-039-i7": {
+    "name": "nastrouhaná pomerančová kůra",
+    "standardAmount": "nastrouhaná kůra ze 2 pomerančů"
+   },
+   "w-mx-039-i8": {
+    "name": "pomerančová květová voda",
+    "standardAmount": "1/3 unce"
+   },
+   "w-mx-039-i9": {
+    "name": "suché droždí",
+    "standardAmount": "1/2 unce"
+   },
+   "w-mx-039-i10": {
+    "name": "olej (na vymazání dna mísy)",
+    "standardAmount": "2 lž."
+   },
+   "w-mx-039-i11": {
+    "name": "sůl",
+    "standardAmount": "1/2 lžič."
+   }
+  },
+  "instructions": {
+   "1": "V malé misce smíchejte droždí s trochou mouky a cukru a přidejte teplou vodu. Nechte směs 10 minut stát, dokud se neaktivuje.",
+   "2": "Ve velké misce smíchejte mouku, cukr a sůl. Přidejte rozpuštěné máslo, vejce, mléko, nastrouhanou pomerančovou kůru, pomerančovou květovou vodu a aktivované droždí. Ingredience dobře promíchejte.",
+   "3": "Těsto hněťte 10 minut, dokud nebude hladké a elastické. Těsto dejte do vymazané mísy, přikryjte čistou utěrkou a nechte hodinu odpočívat, dokud nezdvojnásobí objem.",
+   "4": "Těsto promačkejte a rozdělte na bochníky. Bochníky položte na vymazaný plech. Vytvarujte bochníky umístěním malých kuliček těsta doprostřed každého bochníku.",
+   "5": "Bochníky nechte 30 minut odpočívat. Pečte je v předehřáté troubě na 180°C (350°F) po dobu 20 minut dozlatova.",
+   "6": "Vyjměte z trouby, bochníky potřete rozpuštěným máslem a posypte cukrem.",
+   "7": "Podávejte teplé nebo při pokojové teplotě."
+  },
+  "culturalNotes": "Pan de muerto je tradiční pečivo vyráběné v Mexiku během Dušiček (Todos Santos) a Dne mrtvých (Día de los Muertos)."
+ },
+ "w-mx-040": {
+  "title": "Orejas (ušanky) – sladké pečivo",
+  "chapter": "Mexická kuchyně",
+  "ingredients": {
+   "w-mx-040-i1": {
+    "name": "listové těsto",
+    "standardAmount": "2 pláty"
+   },
+   "w-mx-040-i2": {
+    "name": "krystalový cukr",
+    "standardAmount": "1 šálek"
+   },
+   "w-mx-040-i3": {
+    "name": "mletá skořice",
+    "standardAmount": "2 lžičky"
+   },
+   "w-mx-040-i4": {
+    "name": "rozpuštěné máslo",
+    "standardAmount": "podle potřeby"
+   }
+  },
+  "instructions": {
+   "1": "V misce promíchejte cukr a skořici.",
+   "2": "Jeden plát listového těsta položte na pracovní plochu (mouka není potřeba). Lehce rozválejte do plochy.",
+   "3": "Směs cukru a skořice rovnoměrně posypte po těstě. Jemně převalte válečkem, abyste cukr vtlačili do těsta.",
+   "4": "Od každé strany přeložte 1 palec směrem ke středu. Překládejte opakovaně, dokud se obě strany nesetkají uprostřed.",
+   "5": "Složené těsto nakrájejte na plátky o tloušťce ¾ palce. Podle chuti obalte v dalším skořicovém cukru.",
+   "6": "Postup opakujte s druhým plátem těsta.",
+   "7": "Pečte při 375°F po dobu 20 minut. Každý kus otočte a pečte dalších 4-5 minut, dokud nejsou křupavé a zlatavé.",
+   "8": "Před podáváním nebo skladováním nechte vychladnout."
+  },
+  "culturalNotes": "Orejas (ušanky) jsou oblíbené francouzské pečivo, ale v Mexiku jsou známé také jako druh sladkého pečiva."
+ },
+ "w-mx-041": {
+  "title": "Pastel azteca",
+  "chapter": "Mexická kuchyně",
+  "ingredients": {
+   "w-mx-041-i1": {
+    "name": "olivový olej",
+    "standardAmount": "1 lžíce + 1/3 šálku"
+   },
+   "w-mx-041-i2": {
+    "name": "tomatillos",
+    "standardAmount": "1 libra"
+   },
+   "w-mx-041-i3": {
+    "name": "žlutá cibule",
+    "standardAmount": "1/2 cibule nasekaná + 1/2 cibule nakrájená na kostky"
+   },
+   "w-mx-041-i4": {
+    "name": "jalapeños",
+    "standardAmount": "2 jalapeños"
+   },
+   "w-mx-041-i5": {
+    "name": "česnek",
+    "standardAmount": "4 stroužky"
+   },
+   "w-mx-041-i6": {
+    "name": "zeleninový vývar",
+    "standardAmount": "1 šálek"
+   },
+   "w-mx-041-i7": {
+    "name": "limetková šťáva",
+    "standardAmount": "2 lžíce"
+   },
+   "w-mx-041-i8": {
+    "name": "košer sůl",
+    "standardAmount": "1 lžička + 1 lžička"
+   },
+   "w-mx-041-i9": {
+    "name": "konzervovaná žlutá kukuřice",
+    "standardAmount": "1 (15uncí) konzerva"
+   },
+   "w-mx-041-i10": {
+    "name": "česnekový prášek",
+    "standardAmount": "1/2 lžičky"
+   },
+   "w-mx-041-i11": {
+    "name": "cibulový prášek",
+    "standardAmount": "1/2 lžičky"
+   },
+   "w-mx-041-i12": {
+    "name": "mletý kmín",
+    "standardAmount": "1/4 lžičky"
+   },
+   "w-mx-041-i13": {
+    "name": "černý pepř",
+    "standardAmount": "1/4 lžičky"
+   },
+   "w-mx-041-i14": {
+    "name": "trhané kuře",
+    "standardAmount": "3 šálky"
+   },
+   "w-mx-041-i15": {
+    "name": "papriky poblano",
+    "standardAmount": "6 paprik poblano"
+   },
+   "w-mx-041-i16": {
+    "name": "rostlinný olej",
+    "standardAmount": "1/3 šálku"
+   },
+   "w-mx-041-i17": {
+    "name": "kukuřičné tortilly",
+    "standardAmount": "21 tortill"
+   },
+   "w-mx-041-i18": {
+    "name": "sýr na quesadilly",
+    "standardAmount": "2.5 šálku"
+   },
+   "w-mx-041-i19": {
+    "name": "sýr Monterey Jack",
+    "standardAmount": "2.5 šálku"
+   },
+   "w-mx-041-i20": {
+    "name": "mexická crema",
+    "standardAmount": "3/4 šálku"
+   }
+  },
+  "instructions": {
+   "1": "Připravte salsu verde: Ve velké pánvi na středněsilném ohni rozehřejte 1 lžíci olivového oleje. Přidejte tomatillos, cibuli, jalapeños a česnek. Vařte 10 minut za občasného míchání.",
+   "2": "Všechny ingredience přeneste do mixéru a nalijte vývar, sůl a limetkovou šťávu. Rozmixujte dohladka a odložte stranou.",
+   "3": "Připravte náplň z kuřete a kukuřice: Ve stejné pánvi na středněsilném ohni rozehřejte 1 lžíci olivového oleje. Přidejte kukuřici, cibuli, sůl, česnekový prášek, cibulový prášek, mletý kmín a černý pepř. Vařte 5 minut, dokud cibule nezačne měknout. Odstavte z ohně a přidejte trhané kuře a rozmixovanou salsu verde. Promíchejte a nechte mírně vychladnout.",
+   "4": "Opečte papriky poblano: Zatímco směs z kuřete a kukuřice chladne, rozložte papriky poblano na plech a grilujte je asi 5 minut z každé strany, dokud slupka nezčerná a nezačne se dřevit.",
+   "5": "Plech přikryjte hliníkovou fólií, aby se teplo udrželo a slupka změkla asi 5 minut.",
+   "6": "Opálenou slupku oloupejte pomocí nože na máslo nebo rukama, odstraňte co nejvíce. Udělejte podélný zářez uprostřed a vydlabejte semínka. Opečené poblano nakrájejte na proužky a odložte stranou.",
+   "7": "Předehřejte troubu na 350°F.",
+   "8": "Připravte tortilly: Ve střední pánvi na středněsilném ohni rozehřejte zbylý 1/3 šálku olivového oleje. Jednu tortillu po druhé lehce osmahněte asi 10-15 sekund z každé strany. Přebytečný olej okapejte lehkým zatřepáním držením kleštěmi a poté ji přeneste na talíř nebo plech vyložený papírovými utěrkami. Opakujte se zbývajícími tortillami.",
+   "9": "Smíchejte sýr: Ve velké misce spojte nastrouhané sýry.",
+   "10": "Sestavte: Do pekáče 9x13 palců dejte vrstvu tortill tak, že 3 položíte doprostřed v jedné vrstvě bez překrývání, a poté 2 na každý delší konec tak, aby polovina překrývala tortilly uprostřed a polovina se přehnula podél okraje pekáče. Navrch rozetřete ¼ šálku mexické cremy, poté přidejte ⅓ směsi z kuřete a kukuřice, ⅓ proužků opečeného poblano a ⅓ nastrouhaného sýra. Tento postup opakujte s dalšími 2 vrstvami."
+  },
+  "culturalNotes": "Pastel azteca je tradiční mexické jídlo, které kombinuje vrstvy tortill, náplní a sýra, čímž vzniká bohaté a chutné jídlo."
+ },
+ "w-mx-042": {
+  "title": "Mexický picadillo",
+  "chapter": "Mexická kuchyně",
+  "ingredients": {
+   "w-mx-042-i1": {
+    "name": "mleté hovězí maso s nízkým obsahem tuku",
+    "standardAmount": "2 libry"
+   },
+   "w-mx-042-i2": {
+    "name": "brambory",
+    "standardAmount": "2 střední"
+   },
+   "w-mx-042-i3": {
+    "name": "mrkve",
+    "standardAmount": "2 střední"
+   },
+   "w-mx-042-i4": {
+    "name": "zelený hrášek",
+    "standardAmount": "1 šálek (nejlépe mražený)"
+   },
+   "w-mx-042-i5": {
+    "name": "rozinky",
+    "standardAmount": "½ šálku"
+   },
+   "w-mx-042-i6": {
+    "name": "rajčatová omáčka",
+    "standardAmount": "1 šálek"
+   },
+   "w-mx-042-i7": {
+    "name": "sůl",
+    "standardAmount": "1 lžič."
+   },
+   "w-mx-042-i8": {
+    "name": "černý pepř",
+    "standardAmount": "½ lžič."
+   },
+   "w-mx-042-i9": {
+    "name": "mletý kmín",
+    "standardAmount": "¼ lžič. (volitelné)"
+   },
+   "w-mx-042-i10": {
+    "name": "bobkové listy",
+    "standardAmount": "2 listy (před podáváním vyjměte)"
+   },
+   "w-mx-042-i11": {
+    "name": "olej na vaření (nebo olivový olej)",
+    "standardAmount": "2 lž."
+   }
+  },
+  "instructions": {
+   "1": "Mrkve a brambory oloupejte.",
+   "2": "Brambory a mrkve nakrájejte na malé kousky.",
+   "3": "Ve velké pánvi na středněsilném ohni předehřejte 2 lžíce oleje.",
+   "4": "Do pánve přidejte mleté hovězí maso a opečte ho dohněda (asi 5 minut).",
+   "5": "Přidejte brambory a mrkve, promíchejte a vařte 6 minut.",
+   "6": "Přidejte rozinky a hrášek a promíchejte.",
+   "7": "Přidejte rajčatovou omáčku, sůl a černý pepř a promíchejte.",
+   "8": "Ztlumte oheň na středněmírný a vařte 20 minut, dokud se tekutina neredukuje a brambory a mrkve nezměknou.",
+   "9": "Ochutnejte a podle potřeby přidejte sůl."
+  },
+  "culturalNotes": "Picadillo je oblíbené jídlo v Mexiku, často se podává s rýží nebo tortillami."
+ },
+ "w-mx-043": {
+  "title": "Mexický červený pozole",
+  "chapter": "Mexická kuchyně",
+  "ingredients": {
+   "w-mx-043-i1": {
+    "name": "hominy (loupaná kukuřice)",
+    "standardAmount": "2 konzervy"
+   },
+   "w-mx-043-i2": {
+    "name": "celé kuře",
+    "standardAmount": "1"
+   },
+   "w-mx-043-i3": {
+    "name": "bílá cibule",
+    "standardAmount": "1 (rozkrojená na čtvrtky)"
+   },
+   "w-mx-043-i4": {
+    "name": "koriandr",
+    "standardAmount": "6 větviček"
+   },
+   "w-mx-043-i5": {
+    "name": "sušená chilli ancho",
+    "standardAmount": "2 (propláchnutá, bez stonků a semínek)"
+   },
+   "w-mx-043-i6": {
+    "name": "sušená chilli guajillo",
+    "standardAmount": "3 (propláchnutá, bez stonků a semínek)"
+   },
+   "w-mx-043-i7": {
+    "name": "nasekaná bílá cibule",
+    "standardAmount": "1/4 šálku"
+   },
+   "w-mx-043-i8": {
+    "name": "stroužky česneku",
+    "standardAmount": "3"
+   },
+   "w-mx-043-i9": {
+    "name": "hřebíček",
+    "standardAmount": "2"
+   },
+   "w-mx-043-i10": {
+    "name": "mletý kmín",
+    "standardAmount": "1/2 lžičky"
+   },
+   "w-mx-043-i11": {
+    "name": "sůl",
+    "standardAmount": "1 lžička"
+   },
+   "w-mx-043-i12": {
+    "name": "rostlinný olej",
+    "standardAmount": "3 lžíce"
+   },
+   "w-mx-043-i13": {
+    "name": "limetky",
+    "standardAmount": "4 (rozkrojené na čtvrtky)"
+   },
+   "w-mx-043-i14": {
+    "name": "římský salát nebo zelí",
+    "standardAmount": "1/2 hlávky (nastrouhané)"
+   },
+   "w-mx-043-i15": {
+    "name": "ředkvičky",
+    "standardAmount": "6 (tenko nakrájené)"
+   },
+   "w-mx-043-i16": {
+    "name": "nasekaná bílá cibule",
+    "standardAmount": "1/2 šálku"
+   },
+   "w-mx-043-i17": {
+    "name": "tostady",
+    "standardAmount": "podle potřeby"
+   },
+   "w-mx-043-i18": {
+    "name": "sušené oregano",
+    "standardAmount": "podle potřeby"
+   },
+   "w-mx-043-i19": {
+    "name": "sušené mleté chilli nebo koření z chilli a limetky",
+    "standardAmount": "podle potřeby"
+   }
+  },
+  "instructions": {
+   "1": "Do velkého hrnce přidejte 2 šálky vody a scezenou hominy.",
+   "2": "Do samostatného velkého hrnce dejte kousky kuřete a přidejte tolik vody, aby je zakryla o několik centimetrů. Přidejte cibuli, koriandr a 1 lžíci soli.",
+   "3": "Přiveďte k varu, poté ztlumte oheň na středněmírný a přikryjte. Vařte asi 45 minut, dokud kuře není uvařené a měkké. Kousky kuřete vyjměte z hrnce, vývar přeceďte a uschovejte.",
+   "4": "Jakmile kuře dostatečně vychladne na manipulaci, odstraňte a zahoďte kůži a kosti a maso roztrhejte.",
+   "5": "Kuře a uschovaný vývar dejte do hrnce s hominy. Hrnec postavte na střední oheň, dokud není teplý. Podle potřeby přidejte sůl.",
+   "6": "Na červenou omáčku: Chilli dejte do středního kastrolu, přidejte tolik vody, aby byla zakrytá, a přiveďte k varu. Ztlumte na mírný var a vařte, dokud chilli nezměkne, asi 10 minut.",
+   "7": "Chilli a 3/4 šálku namáčecí tekutiny dejte do mixéru spolu s cibulí, česnekem, hřebíčkem, kmínem a solí. Rozmixujte dohladka.",
+   "8": "Propusťte přes jemné síto do mísy a lžící vytlačte co nejvíce tekutiny. Zbylou dužinu zahoďte.",
+   "9": "V kastrolu na středněsilném ohni rozehřejte rostlinný olej, dokud nezačne třpytit, přidejte chilli tekutinu a přiveďte k varu, poté ztlumte na mírný var a občas míchejte. Omáčka zhoustne; vařte celkem asi 5 nebo 6 minut a odstavte z ohně.",
+   "10": "Za předpokladu, že je pozole stále teplý, zvyšte teplotu na středněsilnou. Vmíchejte chilli směs a ochuťte solí podle chuti.",
+   "11": "Pozole podávejte horké s výše uvedenými přílohami. Nezapomeňte nad polévkou vymačkat limetku, jídlo tím získá dokonalou chuť."
+  },
+  "culturalNotes": "Pozole je tradiční mexické jídlo podávané při slavnostních příležitostech a oslavách. Je známé svými bohatými a pikantními chutěmi."
+ },
+ "w-mx-044": {
+  "title": "Rajas con crema",
+  "chapter": "Mexická kuchyně",
+  "ingredients": {
+   "w-mx-044-i1": {
+    "name": "papriky poblano",
+    "standardAmount": "1 libra"
+   },
+   "w-mx-044-i2": {
+    "name": "cibule",
+    "standardAmount": "1"
+   },
+   "w-mx-044-i3": {
+    "name": "máslo",
+    "standardAmount": "2 lž."
+   },
+   "w-mx-044-i4": {
+    "name": "mexická crema",
+    "standardAmount": "3/4 šálku"
+   },
+   "w-mx-044-i5": {
+    "name": "sýr Oaxaca",
+    "standardAmount": "3/4 šálku nastrouhaného"
+   },
+   "w-mx-044-i6": {
+    "name": "kukuřice",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Papriky poblano grilujte na středním ohni, dokud nejsou ze všech stran opálené, asi 20-30 minut, papriky každých 10 minut otočte.",
+   "2": "Po dokončení papriky položte na táč a přikryjte miskou nebo potravinářskou fólií na 5-10 minut, aby se slupky uvolnily párou.",
+   "3": "Papriky oloupejte, slupky zahoďte a nakrájejte je na proužky velikosti sousta.",
+   "4": "Sýr nastrouhejte.",
+   "5": "Ve velké pánvi osmahněte cibuli doměkka.",
+   "6": "K cibuli přidejte papriky poblano, sýr a mexickou cremu.",
+   "7": "Můžete také přidat kukuřici a sůl nebo pepř podle chuti. Prohřejte."
+  },
+  "culturalNotes": "Rajas con crema je tradiční mexické jídlo podávané jako předkrm nebo součást hlavního jídla."
+ },
+ "w-mx-045": {
+  "title": "Smažené fazole s guacamole tostady",
+  "chapter": "Mexická kuchyně",
+  "ingredients": {
+   "w-mx-045-i1": {
+    "name": "vařené frijoles de la olla",
+    "standardAmount": "1 ½ šálku"
+   },
+   "w-mx-045-i2": {
+    "name": "rostlinný olej",
+    "standardAmount": "na smažení"
+   },
+   "w-mx-045-i3": {
+    "name": "olivový olej nebo rostlinný tuk",
+    "standardAmount": "2 lžíce"
+   },
+   "w-mx-045-i4": {
+    "name": "sůl a pepř",
+    "standardAmount": "podle chuti"
+   },
+   "w-mx-045-i5": {
+    "name": "ploché tostada skořápky",
+    "standardAmount": "8 kusů"
+   },
+   "w-mx-045-i6": {
+    "name": "queso fresco nebo sýr podle vašeho výběru",
+    "standardAmount": "podle chuti"
+   },
+   "w-mx-045-i7": {
+    "name": "salát",
+    "standardAmount": "volitelné"
+   },
+   "w-mx-045-i8": {
+    "name": "nasekané rajče",
+    "standardAmount": "podle chuti"
+   },
+   "w-mx-045-i9": {
+    "name": "guacamole",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "V pánvi na středním ohni rozehřejte rostlinný olej.",
+   "2": "Přidejte olivový olej nebo rostlinný tuk a za míchání vařte uvařené frijoles de la olla 5 minut, dokud nejsou hladké.",
+   "3": "Přidejte sůl a pepř podle chuti a vařte na mírném ohni 10 minut, dokud nezhoustne.",
+   "4": "V jiné pánvi rozehřejte rostlinný olej a usmažte tostada skořápky dozlatova a dokřupava.",
+   "5": "Usmažené tostada skořápky položte na papírovou utěrku, aby se vsákl přebytečný olej.",
+   "6": "Na tostada skořápky rozetřete smažené fazole, poté přidejte guacamole, nasekaná rajčata a queso fresco podle chuti.",
+   "7": "Podávejte horké."
+  },
+  "culturalNotes": "Smažené fazole jsou základem mexické kuchyně, často se podávají jako předkrm nebo součást hlavního jídla."
+ },
+ "w-ma-029": {
+  "title": "Kebab maghdour",
+  "chapter": "Marocká kuchyně",
+  "ingredients": {
+   "w-ma-029-i1": {
+    "name": "jehněčí, telecí nebo hovězí maso",
+    "standardAmount": "2.2 libry (kostky o velikosti 1 palce)"
+   },
+   "w-ma-029-i2": {
+    "name": "cibule",
+    "standardAmount": "2 střední cibule (nastrouhané nebo najemno nasekané)"
+   },
+   "w-ma-029-i3": {
+    "name": "česnek",
+    "standardAmount": "2-3 stroužky (nastrouhané nebo najemno nasekané)"
+   },
+   "w-ma-029-i4": {
+    "name": "mletý zázvor",
+    "standardAmount": "1/2 lžič."
+   },
+   "w-ma-029-i5": {
+    "name": "černý a bílý pepř",
+    "standardAmount": "1/4 lžič."
+   },
+   "w-ma-029-i6": {
+    "name": "listy hladkolisté petržele a koriandr",
+    "standardAmount": "2 lž. (nasekané)"
+   },
+   "w-ma-029-i7": {
+    "name": "rostlinný olej",
+    "standardAmount": "1 lž."
+   },
+   "w-ma-029-i8": {
+    "name": "rostlinný a olivový olej",
+    "standardAmount": "3 lž. (smíchané)"
+   },
+   "w-ma-029-i9": {
+    "name": "sůl",
+    "standardAmount": "1 lžič. (podle chuti)"
+   },
+   "w-ma-029-i10": {
+    "name": "skořicová tyčinka",
+    "standardAmount": "1 (volitelné)"
+   },
+   "w-ma-029-i11": {
+    "name": "mletá sladká paprika",
+    "standardAmount": "1 lž."
+   },
+   "w-ma-029-i12": {
+    "name": "nasekaná hladkolistá petržel",
+    "standardAmount": "2 lž."
+   },
+   "w-ma-029-i13": {
+    "name": "smen",
+    "standardAmount": "1 lž. (nebo přepuštěné máslo)"
+   },
+   "w-ma-029-i14": {
+    "name": "máslo",
+    "standardAmount": "2 lž."
+   },
+   "w-ma-029-i15": {
+    "name": "vejce",
+    "standardAmount": "3-6 (počítáno půl až jedno vejce na osobu)"
+   },
+   "w-ma-029-i16": {
+    "name": "olivový olej",
+    "standardAmount": "6 lž. (na smažení)"
+   },
+   "w-ma-029-i17": {
+    "name": "nasekaná hladkolistá petržel nebo koriandr",
+    "standardAmount": "1 lž."
+   }
+  },
+  "instructions": {
+   "1": "Připravte maso nakrájením na kostky o velikosti 1 palce.",
+   "2": "V misce smíchejte maso s nastrouhanou cibulí, česnekem, zázvorem, pepřem, petrželí a koriandrem a rostlinným olejem. Nechte směs 30 minut marinovat.",
+   "3": "Do hrnce přidejte rostlinný a olivový olej, poté přidejte najemno nasekanou cibuli a osmahněte dozlatova.",
+   "4": "Do hrnce přidejte marinované maso a osmahněte 5 minut.",
+   "5": "Přidejte vodu na zakrytí masa, poté přidejte zázvor, sůl, skořicovou tyčinku a mletou sladkou papriku. Přiveďte k varu, poté ztlumte oheň a duste 45 minut, dokud maso není měkké.",
+   "6": "Do hrnce přidejte vejce a vařte 10 minut, dokud nejsou uvařená.",
+   "7": "Kebab maghdour podávejte horký, ozdobený nasekanou petrželí."
+  },
+  "culturalNotes": "Kebab maghdour je tradiční marocké jídlo podávané při slavnostních příležitostech. Je známé svými bohatými kořeněnými chutěmi a měkkým masem."
+ },
+ "w-mx-046": {
+  "title": "Chile relleno",
+  "chapter": "Mexická kuchyně",
+  "ingredients": {
+   "w-mx-046-i1": {
+    "name": "papriky poblano",
+    "standardAmount": "6 velkých"
+   },
+   "w-mx-046-i2": {
+    "name": "sýr Monterey Jack",
+    "standardAmount": "8 uncí (nakrájené na dlouhé proužky nebo nastrouhané)"
+   },
+   "w-mx-046-i3": {
+    "name": "olej",
+    "standardAmount": "4 šálky (na smažení)"
+   },
+   "w-mx-046-i4": {
+    "name": "vejce",
+    "standardAmount": "3 velká"
+   },
+   "w-mx-046-i5": {
+    "name": "hladká mouka",
+    "standardAmount": "½ šálku"
+   },
+   "w-mx-046-i6": {
+    "name": "jemná sůl",
+    "standardAmount": "½ lžičky"
+   },
+   "w-mx-046-i7": {
+    "name": "rajčata roma",
+    "standardAmount": "6 (rozkrojená na čtvrtky)"
+   },
+   "w-mx-046-i8": {
+    "name": "cibule",
+    "standardAmount": "½ malé (rozpůlená)"
+   },
+   "w-mx-046-i9": {
+    "name": "česnek",
+    "standardAmount": "3 stroužky"
+   },
+   "w-mx-046-i10": {
+    "name": "paprička jalapeño",
+    "standardAmount": "1 (bez stonku a semínek, volitelné)"
+   },
+   "w-mx-046-i11": {
+    "name": "koriandr",
+    "standardAmount": "5 větviček"
+   },
+   "w-mx-046-i12": {
+    "name": "košer sůl",
+    "standardAmount": "1 lžička (plus více podle chuti)"
+   },
+   "w-mx-046-i13": {
+    "name": "olivový olej",
+    "standardAmount": "1 lžička"
+   }
+  },
+  "instructions": {
+   "1": "Papriky poblano opečte na středním ohni, dokud slupka nezčerná. Vložte je do uzavřeného plastového sáčku na 10 minut, aby vychladly.",
+   "2": "Papriky oloupejte a odřízněte stonek. Papriky jemně otevřete a odstraňte semínka a vnitřní blánu.",
+   "3": "Papriky naplňte sýrem Monterey Jack. Naplněné papriky odložte stranou.",
+   "4": "V misce vyšlehejte vejce se solí. V jiné misce dejte mouku.",
+   "5": "Naplněné papriky obalte v mouce, poté ve vyšlehaných vejcích.",
+   "6": "V hluboké pánvi na středním ohni rozehřejte olej. Papriky smažte dozlatova ze všech stran.",
+   "7": "Připravte rajčatovou omáčku rozmixováním rajčat, cibule, česneku, jalapeño, koriandru, soli a olivového oleje v mixéru dohladka.",
+   "8": "Naplněné papriky podávejte s rajčatovou omáčkou na straně."
+  },
+  "culturalNotes": "Chile relleno je tradiční mexické jídlo, často se podává při slavnostních příležitostech."
+ },
+ "w-mx-048": {
+  "title": "Mexický skořicový čaj",
+  "chapter": "Mexická kuchyně",
+  "ingredients": {
+   "w-mx-048-i1": {
+    "name": "voda",
+    "standardAmount": "6 šálků"
+   },
+   "w-mx-048-i2": {
+    "name": "mexické skořicové tyčinky",
+    "standardAmount": "2 tyčinky"
+   },
+   "w-mx-048-i3": {
+    "name": "med",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Vodu a skořici dejte do středně velkého kastrolu a přiveďte k varu.",
+   "2": "Nechte 3-5 minut vařit, poté odstavte z ohně.",
+   "3": "Nechte dalších 30 minut luhovat nebo podle chuti podle požadované síly.",
+   "4": "Přidejte med podle chuti.",
+   "5": "Podávejte teplý."
+  },
+  "culturalNotes": "Mexický skořicový čaj je tradiční nápoj, který je v Mexiku velmi oblíbený, zejména během svátků a slavnostních příležitostí."
+ },
+ "w-mx-049": {
+  "title": "Rybí filet s česnekovou omáčkou",
+  "chapter": "Mexická kuchyně",
+  "ingredients": {
+   "w-mx-049-i1": {
+    "name": "tilapie nebo jiné rybí filety",
+    "standardAmount": "1.5 libry"
+   },
+   "w-mx-049-i2": {
+    "name": "limetka",
+    "standardAmount": "1"
+   },
+   "w-mx-049-i3": {
+    "name": "sůl a pepř",
+    "standardAmount": "podle chuti"
+   },
+   "w-mx-049-i4": {
+    "name": "rostlinný olej (nebo směs poloviny olivového a poloviny rostlinného oleje)",
+    "standardAmount": "1/4 šálku"
+   },
+   "w-mx-049-i5": {
+    "name": "stroužky česneku",
+    "standardAmount": "6 stroužků (tenko nakrájené)"
+   },
+   "w-mx-049-i6": {
+    "name": "petržel",
+    "standardAmount": "3 lžíce (najemno nasekané)"
+   },
+   "w-mx-049-i7": {
+    "name": "mouka (volitelné)",
+    "standardAmount": "2 lžíce"
+   }
+  },
+  "instructions": {
+   "1": "Rybu ochuťte solí, pepřem a limetkovou šťávou. Odložte stranou, zatímco připravujete zbytek ingrediencí.",
+   "2": "Ve velké pánvi na mírném ohni rozehřejte olej. Jakmile je horký, osmahněte plátky česneku, dokud nejsou zlaté. Nezapomeňte je rychle vyjmout, jakmile jsou lehce zlaté; pokud je necháte déle, získají hořkou chuť.",
+   "3": "Pokud používáte mouku, filety jí lehce poprašte. Poté zvyšte oheň na středněsilný v pánvi, kde jste smažili česnek. Jakmile je horká, přidejte rybu a vařte z obou stran. Doba vaření závisí na tloušťce ryby. U filetů tlustých asi 1/3 palce to bude asi 2-3 minuty z každé strany a u silnějších filetů asi 5-7 minut.",
+   "4": "Rybu vyjměte z pánve a položte ji na mřížku s papírovou utěrkou pod ní, aby se vsákl přebytečný tuk.",
+   "5": "Rybu podávejte ozdobenou nasekanou petrželí a zlatými plátky česneku. (A pokud přidáte kousek másla, to je nebe!)"
+  },
+  "culturalNotes": "Toto jídlo je jedním z oblíbených jídel v mexické kuchyni, často se podává jako hlavní chod na rodinných setkáních."
+ },
+ "w-mx-050": {
+  "title": "Quesadilla se zeleným chilli a sýrem",
+  "chapter": "Mexická kuchyně",
+  "ingredients": {
+   "w-mx-050-i1": {
+    "name": "pšeničné tortilly",
+    "standardAmount": "4 (10palcové) pšeničné tortilly"
+   },
+   "w-mx-050-i2": {
+    "name": "sýr cheddar nebo pepper jack",
+    "standardAmount": "1 šálek (nastrouhaný)"
+   },
+   "w-mx-050-i3": {
+    "name": "opečené papriky poblano",
+    "standardAmount": "2 papriky (nakrájené na kostky)"
+   },
+   "w-mx-050-i4": {
+    "name": "salsa (na ozdobu)",
+    "standardAmount": "podle chuti"
+   },
+   "w-mx-050-i5": {
+    "name": "guacamole (na ozdobu)",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Comal předehřejte 1 minutu na středněmírném ohni.",
+   "2": "Tortilly ohřejte 1 minutu z jedné strany, otočte a na jednu tortillu posypte trochu sýra, přidejte chilli a navrch položte další tortillu a jemně přitlačte stěrkou.",
+   "3": "Občas otočte, dokud quesadilly nejsou z obou stran zlatavé a sýr se neroztopil.",
+   "4": "Postup opakujte se zbývajícími tortillami a ingrediencemi.",
+   "5": "Podle chuti je navrchu ozdobte salsou a guacamole."
+  },
+  "culturalNotes": "Quesadilla je oblíbené jídlo v Mexiku, podává se jako svačina nebo hlavní chod."
+ },
+ "w-cn-001": {
+  "title": "Alkalické nudle (nudle ramen)",
+  "ingredients": {
+   "w-cn-001-i1": {
+    "name": "hladká mouka",
+    "standardAmount": "500 g"
+   },
+   "w-cn-001-i2": {
+    "name": "sůl",
+    "standardAmount": "½ lžičky"
+   },
+   "w-cn-001-i3": {
+    "name": "voda",
+    "standardAmount": "210 g"
+   },
+   "w-cn-001-i4": {
+    "name": "louhová voda (kansui)",
+    "standardAmount": "1½ lžičky"
+   },
+   "w-cn-001-i5": {
+    "name": "kukuřičný škrob",
+    "standardAmount": "podle potřeby"
+   }
+  },
+  "instructions": {
+   "1": "Ve velké misce smíchejte mouku a sůl.",
+   "2": "Postupně přidávejte vodu a louhovou vodu a hněťte, dokud těsto nebude hladké a elastické.",
+   "3": "Těsto přikryjte a nechte 30 minut odpočívat.",
+   "4": "Těsto rozválejte pomocí strojku na těstoviny nebo válečku, dokud není velmi tenké.",
+   "5": "Těsto nakrájejte na tenké proužky, aby vznikly nudle.",
+   "6": "V hrnci přiveďte vodu k varu, přidejte nudle a vařte 10 minut.",
+   "7": "Nudle sceďte a nechte vychladnout před skladováním."
+  },
+  "culturalNotes": "Alkalické nudle jsou klíčovou ingrediencí v mnoha japonských pokrmech ramen, známé svou jedinečnou chutí a texturou.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-cn-002": {
+  "title": "Pečené baozi",
+  "ingredients": {
+   "w-cn-002-i1": {
+    "name": "hladká mouka",
+    "standardAmount": "300 g (2 1/2 šálku)"
+   },
+   "w-cn-002-i2": {
+    "name": "sůl",
+    "standardAmount": "1/2 lžičky"
+   },
+   "w-cn-002-i3": {
+    "name": "rostlinný olej",
+    "standardAmount": "2 lžíce"
+   },
+   "w-cn-002-i4": {
+    "name": "vejce",
+    "standardAmount": "1 vejce"
+   },
+   "w-cn-002-i5": {
+    "name": "teplá voda",
+    "standardAmount": "1/2 šálku"
+   },
+   "w-cn-002-i6": {
+    "name": "jehněčí maso z kýty",
+    "standardAmount": "1 libra"
+   },
+   "w-cn-002-i7": {
+    "name": "sůl",
+    "standardAmount": "1 1/2 lžičky"
+   },
+   "w-cn-002-i8": {
+    "name": "kmínový prášek",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-002-i9": {
+    "name": "mletý černý pepř",
+    "standardAmount": "1 1/2 lžičky"
+   },
+   "w-cn-002-i10": {
+    "name": "opečený sezamový olej",
+    "standardAmount": "2 lžičky"
+   },
+   "w-cn-002-i11": {
+    "name": "cibule",
+    "standardAmount": "1 malá cibule (najemno nasekaná)"
+   },
+   "w-cn-002-i12": {
+    "name": "žloutek",
+    "standardAmount": "1 žloutek"
+   },
+   "w-cn-002-i13": {
+    "name": "mléko",
+    "standardAmount": "1 lžička (nebo voda)"
+   },
+   "w-cn-002-i14": {
+    "name": "opečená sezamová semínka",
+    "standardAmount": "podle potřeby"
+   }
+  },
+  "instructions": {
+   "1": "Ve velké misce smíchejte mouku a sůl. Přidejte rostlinný olej, vejce a teplou vodu a míchejte, dokud těsto nebude hladké. Těsto přikryjte a nechte 30 minut odpočívat.",
+   "2": "V jiné misce smíchejte mleté jehněčí, sůl, kmín, černý pepř, opečený sezamový olej a nasekanou cibuli. Ingredience dobře promíchejte.",
+   "3": "Těsto rozdělte na malé kuličky. Každou kuličku rozválejte vidličkou nebo válečkem, dokud není tenká.",
+   "4": "Do středu každého kousku těsta dejte malou lžičku náplně. Okraje pevně utěsněte.",
+   "5": "Baozi položte na vymazaný plech. Povrch baozi potřete rozšlehaným žloutkem smíchaným s mlékem. Navrch posypte opečenými sezamovými semínky.",
+   "6": "Baozi pečte v předehřáté troubě na 180°C (350°F) po dobu 20 minut nebo dozlatova."
+  },
+  "culturalNotes": "Pečené baozi je druh tradičního čínského baozi, ale peče se místo vaření v páře. Často se podává jako snídaně nebo svačina.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-cn-003": {
+  "title": "Salát z fazolových klíčků",
+  "ingredients": {
+   "w-cn-003-i1": {
+    "name": "sůl",
+    "standardAmount": "1 lžička"
+   },
+   "w-cn-003-i2": {
+    "name": "fazolové klíčky",
+    "standardAmount": "12 uncí"
+   },
+   "w-cn-003-i3": {
+    "name": "paprika Anaheim",
+    "standardAmount": "1"
+   },
+   "w-cn-003-i4": {
+    "name": "mladé cibulky",
+    "standardAmount": "2"
+   },
+   "w-cn-003-i5": {
+    "name": "česnek",
+    "standardAmount": "4 stroužky"
+   },
+   "w-cn-003-i6": {
+    "name": "sójová omáčka",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-003-i7": {
+    "name": "ocet Chinkiang",
+    "standardAmount": "2 lžičky"
+   },
+   "w-cn-003-i8": {
+    "name": "cukr",
+    "standardAmount": "1/2 lžičky"
+   },
+   "w-cn-003-i9": {
+    "name": "mletý sečuánský pepř",
+    "standardAmount": "1/4 lžičky"
+   },
+   "w-cn-003-i10": {
+    "name": "arašídový olej",
+    "standardAmount": "2 lžíce"
+   },
+   "w-cn-003-i11": {
+    "name": "opečený sezamový olej",
+    "standardAmount": "1 lžička"
+   }
+  },
+  "instructions": {
+   "1": "Ve středně velkém hrnci přiveďte vodu k varu. Přidejte sůl a míchejte, dokud se zcela nerozpustí. Přidejte fazolové klíčky a vařte 40 sekund nebo do stavu al dente. Ihned sceďte a přeneste klíčky do cedníku. Propláchněte studenou vodou z kohoutku, aby se zastavilo vaření. Jakmile jsou zcela vychladlé, důkladně sceďte a osušte papírovými utěrkami. Přeneste do velké mísy.",
+   "2": "Do mísy s klíčky přidejte nakrájenou papriku, mladou cibulku a česnek. Nemíchejte. Ujistěte se, že je česnek úplně navrchu mísy.",
+   "3": "Přidejte sójovou omáčku, ocet Chinkiang, cukr a sečuánský pepř.",
+   "4": "Arašídový olej rozehřejte na středním ohni, dokud není horký. Ihned pokapejte olej do mísy přímo na česnek a sečuánský pepř. Měli byste vidět, jak ingredience v horkém oleji cvrčí.",
+   "5": "Vše promíchejte a nalijte sezamový olej (nebo chilli olej, pokud preferujete pikantní jídlo). Znovu promíchejte a podávejte jako předkrm."
+  },
+  "culturalNotes": "Tento čínský salát je lehký a plný chutí, typicky se podává jako předkrm v čínské kuchyni.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-cn-004": {
+  "title": "Nudlová polévka s hovězím kolenem",
+  "ingredients": {
+   "w-cn-004-i1": {
+    "name": "arašídový olej",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-004-i2": {
+    "name": "cibule",
+    "standardAmount": "1/2 cibule (najemno nasekaná)"
+   },
+   "w-cn-004-i3": {
+    "name": "mrkev",
+    "standardAmount": "1 mrkev (nakrájená na plátky)"
+   },
+   "w-cn-004-i4": {
+    "name": "voda",
+    "standardAmount": "1 1/2 šálku"
+   },
+   "w-cn-004-i5": {
+    "name": "tekutina z dušeného hovězího",
+    "standardAmount": "1 šálek"
+   },
+   "w-cn-004-i6": {
+    "name": "kečup",
+    "standardAmount": "2 lžíce"
+   },
+   "w-cn-004-i7": {
+    "name": "čerstvé pšeničné nudle",
+    "standardAmount": "8 uncí"
+   },
+   "w-cn-004-i8": {
+    "name": "sušené nudle",
+    "standardAmount": "5 uncí"
+   },
+   "w-cn-004-i9": {
+    "name": "malé pak choi",
+    "standardAmount": "4 hlávky"
+   },
+   "w-cn-004-i10": {
+    "name": "dušené hovězí koleno",
+    "standardAmount": "1 šálek (nasekané)"
+   },
+   "w-cn-004-i11": {
+    "name": "sůl",
+    "standardAmount": "podle chuti"
+   },
+   "w-cn-004-i12": {
+    "name": "bílý pepř",
+    "standardAmount": "1/8 lžičky"
+   },
+   "w-cn-004-i13": {
+    "name": "čínská nakládaná ředkev",
+    "standardAmount": "1 lžíce (volitelné)"
+   },
+   "w-cn-004-i14": {
+    "name": "domácí chilli olej",
+    "standardAmount": "2 lžíce"
+   },
+   "w-cn-004-i15": {
+    "name": "nasekaný koriandr",
+    "standardAmount": "na ozdobu"
+   }
+  },
+  "instructions": {
+   "1": "Ve středně velkém hrnci na středněsilném ohni rozehřejte olej, dokud není horký. Přidejte cibuli a mrkev. Vařte a míchejte, dokud cibule nezíská zlatou barvu, asi 3 minuty.",
+   "2": "Přidejte vodu, tekutinu z dušeného hovězího a kečup. Duste, dokud cibule nezměkne úplně, 5 až 10 minut.",
+   "3": "V samostatném hrnci přiveďte vodu k varu a uvařte nudle podle návodu na obalu. Po dokončení nudle několik sekund propláchněte vodou z kohoutku, aby se zastavilo vaření, poté sceďte a přeneste do dvou servírovacích misek.",
+   "4": "Do vody na vaření nudlí přidejte malé pak choi. Vařte 1 minutu nebo do požadovaného propečení. Pak choi přeneste na nudle.",
+   "5": "Pokud je dušené hovězí koleno studené, přidejte ho do vývaru. Vařte asi 1 minutu, aby se prohřálo.",
+   "6": "Jakmile je vývar hotový, opatrně ho ochutnejte a dochuťte přidáním špetky soli a bílého pepře. Přeneste do misek s nudlemi. Navrch dejte dušené hovězí koleno a nakládanou ředkev (pokud používáte). Pokapejte chilli olejem a ozdobte koriandrem. Podávejte horké jako hlavní chod."
+  },
+  "culturalNotes": "Nudlová polévka s hovězím kolenem je oblíbené jídlo v Číně, zejména v severních oblastech, kde se podává jako teplé a uklidňující jídlo v zimě.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-cn-005": {
+  "title": "Buddhova radost",
+  "ingredients": {
+   "w-cn-005-i1": {
+    "name": "sušené liliové květy",
+    "standardAmount": "25 g (1/2 šálku)"
+   },
+   "w-cn-005-i2": {
+    "name": "sušené houby shiitake",
+    "standardAmount": "25 g (8 středních)"
+   },
+   "w-cn-005-i3": {
+    "name": "sušené houby jidášovo ucho",
+    "standardAmount": "10 g (2 lžíce)"
+   },
+   "w-cn-005-i4": {
+    "name": "nudle vermicelli z mungo",
+    "standardAmount": "40 g (1 malý svazek, po rehydrataci vydá asi 1 šálek)"
+   },
+   "w-cn-005-i5": {
+    "name": "světlá sójová omáčka",
+    "standardAmount": "2 lžíce"
+   },
+   "w-cn-005-i6": {
+    "name": "vegetariánská ústřicová omáčka",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-005-i7": {
+    "name": "tmavá sójová omáčka",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-005-i8": {
+    "name": "cukr",
+    "standardAmount": "1 lžička"
+   },
+   "w-cn-005-i9": {
+    "name": "sůl",
+    "standardAmount": "1/4 lžičky"
+   },
+   "w-cn-005-i10": {
+    "name": "namáčecí voda z liliových květů a hub",
+    "standardAmount": "1 šálek"
+   },
+   "w-cn-005-i11": {
+    "name": "sezamový olej",
+    "standardAmount": "1 lžička"
+   },
+   "w-cn-005-i12": {
+    "name": "kukuřičný škrob",
+    "standardAmount": "1 lžička"
+   },
+   "w-cn-005-i13": {
+    "name": "voda",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-005-i14": {
+    "name": "arašídový olej",
+    "standardAmount": "2 lžíce"
+   },
+   "w-cn-005-i15": {
+    "name": "mladá cibulka",
+    "standardAmount": "4 (nasekané)"
+   },
+   "w-cn-005-i16": {
+    "name": "najemno nasekaný zázvor",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-005-i17": {
+    "name": "mrkev",
+    "standardAmount": "1 (nakrájená na plátky)"
+   },
+   "w-cn-005-i18": {
+    "name": "smažené tofu kapsičky",
+    "standardAmount": "10 kusů (rozpůlené)"
+   },
+   "w-cn-005-i19": {
+    "name": "malé pak choi",
+    "standardAmount": "4 hlávky (rozkrojené na čtvrtky)"
+   },
+   "w-cn-005-i20": {
+    "name": "pekinské zelí",
+    "standardAmount": "230 g (4 šálky, nasekané)"
+   },
+   "w-cn-005-i21": {
+    "name": "bambusové výhonky",
+    "standardAmount": "1/2 šálku (nakrájené na plátky)"
+   }
+  },
+  "instructions": {
+   "1": "Sušené ingredience (liliové květy, houby shiitake, houby jidášovo ucho) namočte do vody na 30 minut, dokud nezměknou.",
+   "2": "Nudle vermicelli z mungo namočte do horké vody na 10 minut, dokud nezměknou, poté je sceďte.",
+   "3": "V malé misce smíchejte světlou sójovou omáčku, vegetariánskou ústřicovou omáčku, tmavou sójovou omáčku, cukr, sůl a 1 šálek namáčecí vody.",
+   "4": "V jiné misce smíchejte kukuřičný škrob s 1 lžící vody, abyste získali kaši.",
+   "5": "Ve velkém woku nebo pánvi na středním ohni rozehřejte arašídový olej.",
+   "6": "Přidejte mladou cibulku a nasekaný zázvor a restujte 1 minutu.",
+   "7": "Přidejte mrkev, smažené tofu kapsičky, malé pak choi, pekinské zelí a bambusové výhonky a restujte 5 minut.",
+   "8": "Přidejte namočené sušené ingredience a nudle vermicelli z mungo a restujte 2 minuty.",
+   "9": "Přidejte směs omáčky a restujte 2 minuty.",
+   "10": "Přidejte kaši a míchejte, dokud omáčka nezhoustne.",
+   "11": "Podávejte horké."
+  },
+  "culturalNotes": "Buddhova radost je tradiční čínské vegetariánské jídlo, často se podává během svátků a slavnostních příležitostí.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-cn-006": {
+  "title": "Tofu salát s vejci stoletého vejce",
+  "ingredients": {
+   "w-cn-006-i1": {
+    "name": "hedvábné tofu",
+    "standardAmount": "1 blok (16 uncí / 450 g)"
+   },
+   "w-cn-006-i2": {
+    "name": "stoletá vejce",
+    "standardAmount": "2 vejce"
+   },
+   "w-cn-006-i3": {
+    "name": "světlá sójová omáčka",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-006-i4": {
+    "name": "opečený sezamový olej",
+    "standardAmount": "1 lžička"
+   },
+   "w-cn-006-i5": {
+    "name": "mladá cibulka",
+    "standardAmount": "1 mladá cibulka, tenko nakrájená"
+   }
+  },
+  "instructions": {
+   "1": "Hedvábné tofu nakrájené na kostky dejte do velké mísy.",
+   "2": "Navrch dejte stoletá vejce nakrájená na kostky.",
+   "3": "Přelijte světlou sójovou omáčkou a opečeným sezamovým olejem.",
+   "4": "Ozdobte tenko nakrájenou mladou cibulkou.",
+   "5": "Salát podávejte studený jako předkrm."
+  },
+  "culturalNotes": "Tento čínský salát je tradiční a je považován za lahodný předkrm v čínské kuchyni.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-cn-007": {
+  "title": "Krevetová vaječná omeleta fu yung",
+  "ingredients": {
+   "w-cn-007-i1": {
+    "name": "kuřecí vývar",
+    "standardAmount": "1/2 šálku"
+   },
+   "w-cn-007-i2": {
+    "name": "kečup",
+    "standardAmount": "1/4 šálku"
+   },
+   "w-cn-007-i3": {
+    "name": "sójová omáčka",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-007-i4": {
+    "name": "rýžový ocet",
+    "standardAmount": "1 1/2 lžíce"
+   },
+   "w-cn-007-i5": {
+    "name": "cukr",
+    "standardAmount": "1 1/2 lžíce"
+   },
+   "w-cn-007-i6": {
+    "name": "kukuřičný škrob",
+    "standardAmount": "2 lžičky"
+   },
+   "w-cn-007-i7": {
+    "name": "vejce",
+    "standardAmount": "6 velkých vajec"
+   },
+   "w-cn-007-i8": {
+    "name": "fazolové klíčky",
+    "standardAmount": "1/3 šálku"
+   },
+   "w-cn-007-i9": {
+    "name": "paprička jalapeño",
+    "standardAmount": "1 paprička jalapeño, nakrájená na plátky"
+   },
+   "w-cn-007-i10": {
+    "name": "mladé cibulky",
+    "standardAmount": "2 mladé cibulky, najemno nasekané"
+   },
+   "w-cn-007-i11": {
+    "name": "krevety",
+    "standardAmount": "1 šálek uvařených a nasekaných krevet"
+   },
+   "w-cn-007-i12": {
+    "name": "sůl",
+    "standardAmount": "1/8 lžičky"
+   },
+   "w-cn-007-i13": {
+    "name": "bílý pepř v prášku",
+    "standardAmount": "1/8 lžičky"
+   },
+   "w-cn-007-i14": {
+    "name": "rostlinný olej",
+    "standardAmount": "2-8 lžíc"
+   }
+  },
+  "instructions": {
+   "1": "V kastrolu na středněmírném ohni vyšlehejte ingredience omáčky (kuřecí vývar, kečup, sójovou omáčku, rýžový ocet, cukr, kukuřičný škrob), dokud omáčka nezačne vřít a nezhoustne, asi 5 minut.",
+   "2": "V misce rozšlehejte vejce, fazolové klíčky, mladé cibulky, krevety, sůl a bílý pepř v prášku, dokud se dobře nespojí.",
+   "3": "V pánvi na středním ohni rozehřejte olej a naberte asi 1/2 šálku vaječné směsi do pánve, abyste vytvořili placičku.",
+   "4": "Smažte dozlatova, asi 4 minuty z každé strany, a opakujte se zbylou vaječnou směsí. Placičky odložte stranou.",
+   "5": "Placičky přelijte omáčkou."
+  },
+  "culturalNotes": "Vaječná omeleta fu yung je tradiční čínské jídlo, často se podává při slavnostních příležitostech.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-cn-008": {
+  "title": "Vaječný koláček",
+  "ingredients": {
+   "w-cn-008-i1": {
+    "name": "hladká mouka",
+    "standardAmount": "1 1/2 šálku + 1 šálek"
+   },
+   "w-cn-008-i2": {
+    "name": "chladné nesolené máslo",
+    "standardAmount": "7 lžíc"
+   },
+   "w-cn-008-i3": {
+    "name": "změklé nesolené máslo",
+    "standardAmount": "3 lžíce"
+   },
+   "w-cn-008-i4": {
+    "name": "cukr",
+    "standardAmount": "4 lžíce + 1/4 šálku"
+   },
+   "w-cn-008-i5": {
+    "name": "sůl",
+    "standardAmount": "1/4 lžičky + špetka"
+   },
+   "w-cn-008-i6": {
+    "name": "velké vejce",
+    "standardAmount": "1 + 4"
+   },
+   "w-cn-008-i7": {
+    "name": "ledová voda",
+    "standardAmount": "1/4 šálku"
+   },
+   "w-cn-008-i8": {
+    "name": "horká voda",
+    "standardAmount": "5/6 šálku"
+   },
+   "w-cn-008-i9": {
+    "name": "sušené mléko",
+    "standardAmount": "1/2 šálku"
+   },
+   "w-cn-008-i10": {
+    "name": "vroubkovaný vykrajovač na těsto",
+    "standardAmount": "4 1/2”"
+   },
+   "w-cn-008-i11": {
+    "name": "forma na vaječné koláčky",
+    "standardAmount": "základna 2”+, vršek 3” pro vnitřní okraj, 3.3” pro vnější okraj"
+   }
+  },
+  "instructions": {
+   "1": "Připravte vodní těsto: V misce smíchejte mouku, chladné máslo, cukr a sůl. Přidejte vejce a ledovou vodu a hněťte, dokud těsto nebude hladké.",
+   "2": "Připravte olejové těsto: V misce smíchejte mouku, změklé máslo a cukr. Přidejte horkou vodu a hněťte, dokud těsto nebude hladké.",
+   "3": "Sestavte listové těsto: Obě těsta rozdělte na malé kuličky. Každou kuličku vodního těsta vložte do kuličky olejového těsta. Olejové těsto utěsněte kolem vodního těsta a nechte 30 minut odpočívat.",
+   "4": "Připravte náplň: V misce smíchejte vejce, cukr, sůl a sušené mléko, dokud se dobře nespojí.",
+   "5": "Vytvarujte vaječné koláčky: Těsto vtlačte do forem na vaječné koláčky a naplňte je náplní.",
+   "6": "Vaječné koláčky upečte: Formy vložte do předehřáté trouby na 180°C a pečte 20 minut dozlatova."
+  },
+  "culturalNotes": "Vaječné koláčky jsou oblíbený dezert v Hongkongu, známé svou křupavou kůrkou a krémovou náplní.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-cn-009": {
+  "title": "Lepkavé rýžové koule s drcenými arašídy",
+  "ingredients": {
+   "w-cn-009-i1": {
+    "name": "mouka z lepkavé rýže",
+    "standardAmount": "1 šálek"
+   },
+   "w-cn-009-i2": {
+    "name": "běžná rýžová mouka",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-009-i3": {
+    "name": "vlažná voda",
+    "standardAmount": "1/2 šálku nebo o něco více podle potřeby"
+   },
+   "w-cn-009-i4": {
+    "name": "drcené arašídy",
+    "standardAmount": "20 g"
+   },
+   "w-cn-009-i5": {
+    "name": "sezamová semínka",
+    "standardAmount": "10 g"
+   },
+   "w-cn-009-i6": {
+    "name": "sušený kokos",
+    "standardAmount": "20 g"
+   },
+   "w-cn-009-i7": {
+    "name": "voda",
+    "standardAmount": "1 šálek"
+   },
+   "w-cn-009-i8": {
+    "name": "hnědý cukr",
+    "standardAmount": "1 kus"
+   },
+   "w-cn-009-i9": {
+    "name": "starý zázvor",
+    "standardAmount": "3 plátky"
+   }
+  },
+  "instructions": {
+   "1": "Do velké mísy dejte mouku z lepkavé rýže a rýžovou mouku. Přidejte teplou vodu a hněťte do těsta. Těsto rozdělte na 7-10 dílů; každý díl zabalte do kulaté koule.",
+   "2": "V hrnci přiveďte trochu vody k varu a přidejte všechny lepkavé rýžové koule. Vařte, dokud nevyplavou na povrch. Míchejte, aby se nelepily; koule vyjměte.",
+   "3": "Do kastrolu přidejte hnědý cukr a vodu. Na středním ohni vařte, dokud se cukr nerozpustí do sirupu. Poté ztlumte oheň a vařte další minutu nebo dvě, dokud sirup nezhoustne podle přání.",
+   "4": "Arašídy opečte nebo osmažte na pánvi, dokud nejsou křupavé, poté je rozdrtte.",
+   "5": "Koule podávejte se sirupem, drcenými arašídy, sezamovými semínky a sušeným kokosem."
+  },
+  "culturalNotes": "Lepkavé rýžové koule s drcenými arašídy jsou tradiční čínský dezert, často se podávají při slavnostních příležitostech.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-cn-010": {
+  "title": "Hainanská kuřecí rýže",
+  "ingredients": {
+   "w-cn-010-i1": {
+    "name": "celé kuře",
+    "standardAmount": "2.5-3 libry"
+   },
+   "w-cn-010-i2": {
+    "name": "zázvor",
+    "standardAmount": "1 kus velikosti palce"
+   },
+   "w-cn-010-i3": {
+    "name": "mladé cibulky",
+    "standardAmount": "3 kusy"
+   },
+   "w-cn-010-i4": {
+    "name": "mořská sůl",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-010-i5": {
+    "name": "sezamový olej",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-010-i6": {
+    "name": "sladká sójová omáčka",
+    "standardAmount": "2 lžíce"
+   },
+   "w-cn-010-i7": {
+    "name": "nasekaný koriandr",
+    "standardAmount": "volitelné"
+   },
+   "w-cn-010-i8": {
+    "name": "máslo a/nebo kuřecí tuk",
+    "standardAmount": "2 lžíce"
+   },
+   "w-cn-010-i9": {
+    "name": "nasekané mladé cibulky",
+    "standardAmount": "3 kusy"
+   },
+   "w-cn-010-i10": {
+    "name": "najemno nasekaný zázvor",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-010-i11": {
+    "name": "najemno nasekaný česnek",
+    "standardAmount": "3 stroužky"
+   },
+   "w-cn-010-i12": {
+    "name": "jasmínová rýže",
+    "standardAmount": "2 šálky"
+   },
+   "w-cn-010-i13": {
+    "name": "kuřecí vývar",
+    "standardAmount": "3 šálky"
+   },
+   "w-cn-010-i14": {
+    "name": "thajské chilli papričky",
+    "standardAmount": "3 kusy"
+   },
+   "w-cn-010-i15": {
+    "name": "červená paprika",
+    "standardAmount": "1/4 kusu"
+   },
+   "w-cn-010-i16": {
+    "name": "malá bílá cibule",
+    "standardAmount": "1/4 kusu"
+   },
+   "w-cn-010-i17": {
+    "name": "najemno nasekaný zázvor",
+    "standardAmount": "2 lžíce"
+   },
+   "w-cn-010-i18": {
+    "name": "najemno nasekaný česnek",
+    "standardAmount": "2 stroužky"
+   },
+   "w-cn-010-i19": {
+    "name": "sůl",
+    "standardAmount": "1/2 lžičky"
+   },
+   "w-cn-010-i20": {
+    "name": "limetková šťáva",
+    "standardAmount": "1/3 šálku"
+   },
+   "w-cn-010-i21": {
+    "name": "světlá sójová omáčka",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-010-i22": {
+    "name": "ocet Chinkiang",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-010-i23": {
+    "name": "tenko nakrájený zázvor",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-010-i24": {
+    "name": "cukr",
+    "standardAmount": "1 lžička"
+   },
+   "w-cn-010-i25": {
+    "name": "sezamový olej",
+    "standardAmount": "1 lžička"
+   }
+  },
+  "instructions": {
+   "1": "Kuře umyjte a důkladně očistěte. Vložte ho do velkého hrnce se zázvorem, mladými cibulkami a solí. Přidejte tolik vody, aby kuře zakryla.",
+   "2": "Hrnec přikryjte a na středním ohni přiveďte k varu. Poté ztlumte oheň a duste 30 minut.",
+   "3": "Kuře vyjměte z hrnce a nechte mírně vychladnout. Kuře potřete sezamovým olejem a nechte zcela vychladnout.",
+   "4": "V jiném hrnci na pánvi na středním ohni rozpusťte máslo a tuk. Přidejte nasekané mladé cibulky, nasekaný zázvor a nasekaný česnek a míchejte minutu.",
+   "5": "Přidejte rýži a vývar a přiveďte k varu. Poté ztlumte oheň, hrnec přikryjte a duste 20 minut nebo dokud rýže není uvařená.",
+   "6": "V malé misce smíchejte thajské chilli papričky, červenou papriku, bílou cibuli, nasekaný zázvor, nasekaný česnek, sůl, limetkovou šťávu, světlou sójovou omáčku, ocet Chinkiang, tenko nakrájený zázvor, cukr a sezamový olej. Dobře promíchejte.",
+   "7": "Rýži podávejte s nakrájeným kuřetem a chilli omáčkou na straně. Podle chuti ozdobte nasekaným koriandrem."
+  },
+  "culturalNotes": "Hainanská kuřecí rýže je oblíbené jídlo na Hainanu v Číně, známé svou lahodnou chutí a tradiční metodou přípravy.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-cn-011": {
+  "title": "Pekingská namáčecí omáčka k hot potu",
+  "ingredients": {
+   "w-cn-011-i1": {
+    "name": "čínská sezamová pasta",
+    "standardAmount": "1/4 šálku"
+   },
+   "w-cn-011-i2": {
+    "name": "voda",
+    "standardAmount": "1/4 šálku"
+   },
+   "w-cn-011-i3": {
+    "name": "červený fermentovaný tofu",
+    "standardAmount": "1 kostka"
+   },
+   "w-cn-011-i4": {
+    "name": "čínská fermentovaná omáčka z pórových květů",
+    "standardAmount": "2-3 lžičky (volitelné)"
+   },
+   "w-cn-011-i5": {
+    "name": "sójová omáčka",
+    "standardAmount": "2 lžičky (nebo podle chuti)"
+   },
+   "w-cn-011-i6": {
+    "name": "opečený sezamový olej",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-011-i7": {
+    "name": "česnek",
+    "standardAmount": "1 lžička (2 stroužky)"
+   },
+   "w-cn-011-i8": {
+    "name": "nasekaný koriandr",
+    "standardAmount": "2 lžíce (volitelné)"
+   }
+  },
+  "instructions": {
+   "1": "Sezamovou pastu dejte do velké mísy. Postupně přidávejte vodu po lžíci a lžící nebo stěrkou ji zapracovávejte, dokud pasta není hladká.",
+   "2": "Přidejte červený fermentovaný tofu a za míchání ho rozbijte a zapracujte do omáčky, dokud není zcela spojený.",
+   "3": "Přidejte zbývající ingredience a míchejte, dokud se vše zcela nerozpustí v omáčce. Ochutnejte omáčku a upravte podle své chuti. Pokud nepoužíváte omáčku z pórových květů, omáčka bude jemnější. Pro zesílení chuti můžete přidat více sójové omáčky, sezamového oleje a česneku."
+  },
+  "culturalNotes": "Tato namáčecí omáčka je nezbytnou součástí zážitku z pekingského hot potu, kde se používá k namáčení potravin vařených v horkém vývaru.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-cn-012": {
+  "title": "Kuře kung pao",
+  "ingredients": {
+   "w-cn-012-i1": {
+    "name": "arašídový olej",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-012-i2": {
+    "name": "syrové arašídy",
+    "standardAmount": "1/3 šálku"
+   },
+   "w-cn-012-i3": {
+    "name": "kuřecí prsa",
+    "standardAmount": "250 gramů"
+   },
+   "w-cn-012-i4": {
+    "name": "světlá sójová omáčka",
+    "standardAmount": "2 lžíce"
+   },
+   "w-cn-012-i5": {
+    "name": "kukuřičný škrob",
+    "standardAmount": "3 lžičky"
+   },
+   "w-cn-012-i6": {
+    "name": "ocet Chinkiang",
+    "standardAmount": "1.5 lžíce"
+   },
+   "w-cn-012-i7": {
+    "name": "cukr",
+    "standardAmount": "2 lžíce"
+   },
+   "w-cn-012-i8": {
+    "name": "chilli česneková omáčka",
+    "standardAmount": "4 lžíce"
+   },
+   "w-cn-012-i9": {
+    "name": "čínská mladá cibulka",
+    "standardAmount": "1/3 šálku nasekané"
+   },
+   "w-cn-012-i10": {
+    "name": "okurka",
+    "standardAmount": "1/2 šálku nakrájené na kostky"
+   }
+  },
+  "instructions": {
+   "1": "V nepřilnavé pánvi na středněsilném ohni rozehřejte arašídový olej, dokud není teplý. Přidejte syrové arašídy a ztlumte na střední oheň. Občas míchejte, dokud arašídy nezhnědnou a nezavoní oříšky. Arašídy přeneste na talíř vyložený několika vrstvami papírových utěrek, aby vychladly. Zbylý olej v pánvi si uschovejte na pozdější použití.",
+   "2": "Kuřecí prsa nakrájejte na kostky o velikosti 1 až 1.5 cm (1/2 palce) a přeneste do mísy. Přidejte 1 lžíci světlé sójové omáčky a dobře promíchejte. Přidejte 2 lžičky kukuřičného škrobu. Rukama míchejte, dokud kuře není rovnoměrně obalené tenkou vrstvou škrobu. Odložte stranou.",
+   "3": "Do malé mísy dejte zbylou 1 lžíci světlé sójové omáčky, ocet Chinkiang, cukr, chilli česnekovou omáčku a zbylou 1 lžičku kukuřičného škrobu. Dobře promíchejte.",
+   "4": "Nakrájejte a připravte zbytek zeleniny.",
+   "5": "Stejnou nepřilnavou pánev znovu rozehřejte na středněsilném ohni. Pokud není dostatek oleje na zakrytí dna pánve, přidejte trochu více. Jakmile je olej horký, rozložte kuře po pánvi bez překrývání. Nechte vařit bez míchání 20 sekund. Otočte a druhou stranu vařte dalších 20 sekund. Několikrát promíchejte, dokud nejsou všechny plochy uvařené a lehce ohnědlé, ale uvnitř stále syrové.",
+   "6": "Přidejte mladou cibulku a několikrát promíchejte. Omáčku kung pao znovu promíchejte a nalijte ji na kuře. Ihned několikrát promíchejte, dokud omáčka nezhoustne, 20 sekund. Vypněte oheň. Přidejte arašídy a okurku. Naposledy promíchejte. Vše přeneste na talíř.",
+   "7": "Podávejte teplé s dušenou rýží."
+  },
+  "culturalNotes": "Kuře kung pao je slavné jídlo v čínské kuchyni, známé svými pikantními, sladkými a slanými chutěmi.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-cn-013": {
+  "title": "Medový lotosový kořen s lepkavou rýží",
+  "ingredients": {
+   "w-cn-013-i1": {
+    "name": "lepkavá rýže",
+    "standardAmount": "150 gramů (5 uncí)"
+   },
+   "w-cn-013-i2": {
+    "name": "bílý cukr",
+    "standardAmount": "2 lžičky"
+   },
+   "w-cn-013-i3": {
+    "name": "lotosový kořen",
+    "standardAmount": "400 gramů"
+   },
+   "w-cn-013-i4": {
+    "name": "krystalický cukr",
+    "standardAmount": "100 gramů (3.5 unce)"
+   },
+   "w-cn-013-i5": {
+    "name": "hnědý cukr",
+    "standardAmount": "2 lžíce"
+   },
+   "w-cn-013-i6": {
+    "name": "osmanthusový sirup",
+    "standardAmount": "4 lžíce"
+   }
+  },
+  "instructions": {
+   "1": "Lepkavou rýži propláchněte a namočte ji v malé misce s vodou, která ji zakryje asi o 1 cm, na 4-5 hodin nebo přes noc v lednici.",
+   "2": "Rýži sceďte, přidejte bílý cukr a dobře promíchejte.",
+   "3": "Lotosový kořen pečlivě umyjte, oloupejte a odřízněte tvrdé konce, aniž byste odřízli příliš mnoho.",
+   "4": "Odřízněte asi 2 cm z jednoho konce lotosového kořene a malý kousek si uschovejte jako víčko.",
+   "5": "Lotosový kořen naplňte lepkavou rýží pomocí lžíce a hůlky, abyste rýži vtlačili do otvorů. Rýži v otvorech zhutněte.",
+   "6": "Malý kousek vraťte zpět jako víčko na původní místo a zajistěte 6-8 párátky.",
+   "7": "Lotosový kořen dejte do malého hrnce s 2 šálky vody a krystalického cukru (nebo bílého cukru) a hnědého cukru. Na silném ohni přiveďte k varu a míchejte, aby se cukr rozpustil.",
+   "8": "Ztlumte oheň, přikryjte a vařte 1 hodinu. Po 30 minutách lotosový kořen otočte a podle potřeby přidejte více vody.",
+   "9": "Ztlumte oheň na nejnižší stupeň a duste dalších 20 minut, lotosový kořen během vaření 4-5krát otočte.",
+   "10": "Po uvaření přeneste lotosový kořen na prkénko a nechte vychladnout. Jakmile je dostatečně vychladlý na manipulaci, nakrájejte na rovnoměrně tlusté plátky.",
+   "11": "Přelijte osmanthusovým sirupem (nebo medem) a podávejte teplé nebo studené."
+  },
+  "culturalNotes": "Toto jídlo je tradiční čínský recept, který kombinuje sladkost lepkavé rýže s chutí lotosového kořene.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-cn-014": {
+  "title": "Čínské housky na páře (mantou)",
+  "ingredients": {
+   "w-cn-014-i1": {
+    "name": "hladká mouka",
+    "standardAmount": "250 g"
+   },
+   "w-cn-014-i2": {
+    "name": "instantní droždí",
+    "standardAmount": "1 lžička"
+   },
+   "w-cn-014-i3": {
+    "name": "prášek do pečiva",
+    "standardAmount": "¾ lžičky"
+   },
+   "w-cn-014-i4": {
+    "name": "cukr",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-014-i5": {
+    "name": "vlažná voda",
+    "standardAmount": "130 g"
+   },
+   "w-cn-014-i6": {
+    "name": "čínské datle (volitelné)",
+    "standardAmount": "4 kusy"
+   }
+  },
+  "instructions": {
+   "1": "Ve velké misce smíchejte mouku, droždí, prášek do pečiva a cukr.",
+   "2": "Postupně přidávejte vlažnou vodu a hněťte těsto, dokud nebude hladké a elastické.",
+   "3": "Těsto přikryjte a nechte 30 minut odpočívat na teplém místě.",
+   "4": "Těsto vytvarujte do malých housek velikosti kuliček.",
+   "5": "Housky položte do košíku na vaření v páře vyloženého pečicím papírem nebo bambusovými listy.",
+   "6": "Housky nechte 15 minut odpočívat.",
+   "7": "V hrnci na vaření v páře přiveďte vodu k varu a přidejte košík. Housky vařte v páře 20 minut.",
+   "8": "Před podáváním nechte housky mírně vychladnout."
+  },
+  "culturalNotes": "Mantou je tradiční čínská houska vařená v páře, často se podává k hlavním jídlům.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-cn-015": {
+  "title": "Ústřicová omeleta",
+  "ingredients": {
+   "w-cn-015-i1": {
+    "name": "kuřecí vývar",
+    "standardAmount": "1/2 šálku"
+   },
+   "w-cn-015-i2": {
+    "name": "kečup",
+    "standardAmount": "1/4 šálku"
+   },
+   "w-cn-015-i3": {
+    "name": "světlá sójová omáčka",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-015-i4": {
+    "name": "rýžový ocet",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-015-i5": {
+    "name": "cukr",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-015-i6": {
+    "name": "kukuřičný škrob",
+    "standardAmount": "2 lžičky"
+   },
+   "w-cn-015-i7": {
+    "name": "vyklápané ústřice",
+    "standardAmount": "1/2 libry"
+   },
+   "w-cn-015-i8": {
+    "name": "arašídový olej",
+    "standardAmount": "2 lžíce"
+   },
+   "w-cn-015-i9": {
+    "name": "bramborový škrob",
+    "standardAmount": "2 lžičky"
+   },
+   "w-cn-015-i10": {
+    "name": "vejce",
+    "standardAmount": "3 vejce"
+   },
+   "w-cn-015-i11": {
+    "name": "sůl",
+    "standardAmount": "1/4 lžičky"
+   },
+   "w-cn-015-i12": {
+    "name": "bílý pepř",
+    "standardAmount": "1/4 lžičky"
+   },
+   "w-cn-015-i13": {
+    "name": "mladá cibulka",
+    "standardAmount": "4 mladé cibulky"
+   }
+  },
+  "instructions": {
+   "1": "V kastrolu na středněmírném ohni vyšlehejte ingredience omáčky. Duste, dokud omáčka nezhoustne.",
+   "2": "Ústřice dejte do cedníku a rovnoměrně posypte kukuřičným škrobem. Ústřice jemně promněte škrobem, poté je propláchněte studenou tekoucí vodou. To pomůže vyčistit ústřice od zbytků skořápek a nečistot. Důkladně sceďte a jemně osušte papírovými utěrkami.",
+   "3": "V 9palcové pánvi na středním ohni rozehřejte 1/2 lžíce oleje, dokud není horký, ale ne kouřící. Přidejte ústřice. Nechte vařit, dokud spodek nezbělá, asi 30 sekund. Otočte a druhou stranu vařte, dokud právě nezbělá. Tekutinu sceďte a ústřice přeneste na talíř, aby mírně vychladly.",
+   "4": "V malé misce smíchejte bramborový škrob s 1 lžící vody, dokud se zcela nerozpustí.",
+   "5": "Ve velké misce rozšlehejte vejce se solí a bílým pepřem. Přidejte kaši z bramborového škrobu. Míchejte, dokud se zcela nerozpustí. Přidejte mladou cibulku a vychladlé ústřice. Znovu promíchejte.",
+   "6": "Do stejné pánve přidejte zbývajících 1 1/2 lžíce oleje a rozehřejte na středněsilném ohni, dokud není horký. Nalijte vaječné těsto a ztlumte na střední oheň. Vařte, dokud spodek nezíská zlatou barvu. Omeletu opatrně otočte. Pokračujte ve vaření, dokud spodek nezestydne a vnitřek není uvařený. Přeneste na velký servírovací talíř. Podávejte horké s omáčkou jako předkrm nebo hlavní chod."
+  },
+  "culturalNotes": "Ústřicová omeleta je oblíbené jídlo v čínské kuchyni, zejména v jižní Číně. Obvykle se podává jako předkrm nebo hlavní chod.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-cn-016": {
+  "title": "Krevetové krekry",
+  "ingredients": {
+   "w-cn-016-i1": {
+    "name": "čerstvé krevety",
+    "standardAmount": "180 g"
+   },
+   "w-cn-016-i2": {
+    "name": "najemno nasekaný zázvor",
+    "standardAmount": "1 malý kus"
+   },
+   "w-cn-016-i3": {
+    "name": "voda",
+    "standardAmount": "150 ml"
+   },
+   "w-cn-016-i4": {
+    "name": "tapiokový škrob",
+    "standardAmount": "400 g"
+   },
+   "w-cn-016-i5": {
+    "name": "sůl",
+    "standardAmount": "1/4 lžič."
+   },
+   "w-cn-016-i6": {
+    "name": "cukr",
+    "standardAmount": "1/2 lžič."
+   }
+  },
+  "instructions": {
+   "1": "Krevety očistěte a důkladně umyjte, poté je rozmixujte v kuchyňském robotu.",
+   "2": "K rozmixovaným krevetám přidejte nasekaný zázvor a vodu a dobře promíchejte.",
+   "3": "Postupně přidávejte tapiokový škrob a pokračujte v hnětení, dokud nezískáte pevné těsto.",
+   "4": "Přidejte sůl a cukr a dobře promíchejte.",
+   "5": "Těsto přikryjte a nechte 30 minut odpočívat.",
+   "6": "Těsto nakrájejte na malé kousky a vytvarujte do tenkých koleček.",
+   "7": "V hluboké pánvi rozehřejte olej a usmažte krekry, dokud nezískají zlatohnědou barvu.",
+   "8": "Krekry nechte odkapat na papírových utěrkách, aby se odstranil přebytečný olej."
+  },
+  "culturalNotes": "Krevetové krekry jsou oblíbené jídlo v čínské kuchyni, podávají se jako předkrm nebo svačina.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-cn-017": {
+  "title": "Lepkavý rýžový koláč s pastou z červených fazolí",
+  "ingredients": {
+   "w-cn-017-i1": {
+    "name": "pasta z červených fazolí",
+    "standardAmount": "420 g (1 1/2 šálku)"
+   },
+   "w-cn-017-i2": {
+    "name": "mouka z lepkavé rýže",
+    "standardAmount": "250 g (2 1/4 šálku)"
+   },
+   "w-cn-017-i3": {
+    "name": "voda",
+    "standardAmount": "225 ml (1 šálek minus 1 lžíce)"
+   },
+   "w-cn-017-i4": {
+    "name": "bílá opečená sezamová semínka",
+    "standardAmount": "1/4 šálku"
+   },
+   "w-cn-017-i5": {
+    "name": "rostlinný olej",
+    "standardAmount": "podle potřeby"
+   }
+  },
+  "instructions": {
+   "1": "Připravte náplň: Použijte hotovou pastu z červených fazolí.",
+   "2": "Připravte těsto: Ve velké misce smíchejte mouku z lepkavé rýže a vodu, dokud těsto nebude hladké. Těsto přikryjte a nechte 15 minut odpočívat.",
+   "3": "Vytvarujte koláčky: Pracovní plochu posypte trochou mouky z lepkavé rýže. Těsto rozdělte na malé kuličky. Každou kuličku zploštěte a do středu dejte malé množství pasty z červených fazolí. Koláček pevně utěsněte, aby vznikla koule.",
+   "4": "Koláčky uvařte: Na středním ohni rozehřejte nepřilnavou pánev a přidejte trochu rostlinného oleje. Koláčky dejte na pánev a smažte 2-3 minuty z každé strany dozlatova.",
+   "5": "Podávání: Koláčky podávejte horké, posypané bílými opečenými sezamovými semínky."
+  },
+  "culturalNotes": "Lepkavý rýžový koláč s pastou z červených fazolí je tradiční čínský dezert, často se podává při slavnostních příležitostech.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-cn-018": {
+  "title": "Vejce v sójové omáčce",
+  "ingredients": {
+   "w-cn-018-i1": {
+    "name": "vejce",
+    "standardAmount": "6-12 velkých vajec"
+   },
+   "w-cn-018-i2": {
+    "name": "sójová omáčka",
+    "standardAmount": "3/4 šálku"
+   },
+   "w-cn-018-i3": {
+    "name": "hnědý cukr",
+    "standardAmount": "2 lžíce"
+   },
+   "w-cn-018-i4": {
+    "name": "rýžový ocet",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-018-i5": {
+    "name": "sušená chilli",
+    "standardAmount": "4 sušená chilli"
+   },
+   "w-cn-018-i6": {
+    "name": "hvězdičky badyánu",
+    "standardAmount": "2 hvězdičky badyánu"
+   },
+   "w-cn-018-i7": {
+    "name": "voda",
+    "standardAmount": "3-4 šálky"
+   }
+  },
+  "instructions": {
+   "1": "Vejce důkladně umyjte a dejte je do hrnce s dostatečným množstvím vody, aby je zakryla asi o 1 palec. Vodu na silném ohni přiveďte k varu, poté ztlumte oheň a vejce vařte 10 minut.",
+   "2": "Vejce přeneste do mísy se studenou vodou na několik minut, aby vychladla.",
+   "3": "V jiném hrnci smíchejte sójovou omáčku, hnědý cukr, rýžový ocet, sušená chilli, badyán a vodu. Směs na silném ohni přiveďte k varu, poté ztlumte oheň a duste 5 minut.",
+   "4": "Do horké směsi přidejte vychladlá vejce a nechte je marinovat alespoň 30 minut nebo přes noc pro silnější chuť."
+  },
+  "culturalNotes": "Vejce v sójové omáčce jsou oblíbené jídlo v čínské kuchyni, často se podávají jako předkrm nebo součást snídaně.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-cn-019": {
+  "title": "Kuřecí jarní závitky s arašídovou omáčkou",
+  "ingredients": {
+   "w-cn-019-i1": {
+    "name": "kuřecí prsa",
+    "standardAmount": "1 libra"
+   },
+   "w-cn-019-i2": {
+    "name": "rostlinný olej",
+    "standardAmount": "1 lžička"
+   },
+   "w-cn-019-i3": {
+    "name": "sůl",
+    "standardAmount": "1/2 lžičky"
+   },
+   "w-cn-019-i4": {
+    "name": "černý pepř",
+    "standardAmount": "1/4 lžičky"
+   },
+   "w-cn-019-i5": {
+    "name": "nesolené přírodní arašídové máslo",
+    "standardAmount": "4 vrchovaté lžíce"
+   },
+   "w-cn-019-i6": {
+    "name": "ocet Chinkiang",
+    "standardAmount": "4 lžíce"
+   },
+   "w-cn-019-i7": {
+    "name": "světlá sójová omáčka",
+    "standardAmount": "2 lžíce"
+   },
+   "w-cn-019-i8": {
+    "name": "javorový sirup",
+    "standardAmount": "2 lžíce"
+   },
+   "w-cn-019-i9": {
+    "name": "opečený sezamový olej",
+    "standardAmount": "1 lžíce"
+   },
+   "w-cn-019-i10": {
+    "name": "česnek",
+    "standardAmount": "4 stroužky"
+   },
+   "w-cn-019-i11": {
+    "name": "zázvor",
+    "standardAmount": "4 plátky"
+   },
+   "w-cn-019-i12": {
+    "name": "domácí chilli olej (volitelné)",
+    "standardAmount": "2-3 lžíce"
+   },
+   "w-cn-019-i13": {
+    "name": "kulaté rýžové papírové obaly",
+    "standardAmount": "12 obalů (8\" / 22cm)"
+   },
+   "w-cn-019-i14": {
+    "name": "anglická okurka",
+    "standardAmount": "1 okurka (nakrájená na proužky)"
+   },
+   "w-cn-019-i15": {
+    "name": "mrkve",
+    "standardAmount": "3 mrkve (nastrouhané)"
+   },
+   "w-cn-019-i16": {
+    "name": "fazolové klíčky",
+    "standardAmount": "2 šálky"
+   },
+   "w-cn-019-i17": {
+    "name": "mladé cibulky",
+    "standardAmount": "4 mladé cibulky (nakrájené na proužky)"
+   },
+   "w-cn-019-i18": {
+    "name": "vařené rýžové nudle vermicelli",
+    "standardAmount": "2 šálky"
+   },
+   "w-cn-019-i19": {
+    "name": "koriandr",
+    "standardAmount": "1 malý svazek"
+   }
+  },
+  "instructions": {
+   "1": "Kuřecí prsa uvařte ve vroucí vodě 10 minut, dokud nejsou uvařená. Nechte vychladnout, poté je nakrájejte na malé kousky.",
+   "2": "V malé misce smíchejte arašídové máslo, ocet Chinkiang, světlou sójovou omáčku, javorový sirup, opečený sezamový olej, nasekaný česnek, zázvor a chilli olej (pokud používáte). Dobře promíchejte, dokud se ingredience dobře nespojí.",
+   "3": "Rýžové papírové obaly namočte do teplé vody na 10-15 sekund, dokud nezměknou. Položte je na pracovní plochu.",
+   "4": "Do středu obalu dejte malé množství nasekaného kuřete, okurky, mrkve, fazolových klíčků, mladých cibulek, vařených rýžových nudlí vermicelli a koriandru.",
+   "5": "Okraje přeložte a jarní závitek opatrně zarolujte. Opakujte se zbývajícími obaly.",
+   "6": "V pánvi na středním ohni rozehřejte olej. Jarní závitky smažte dozlatova a dokřupava.",
+   "7": "Jarní závitky podávejte s arašídovou omáčkou na straně."
+  },
+  "culturalNotes": "Jarní závitky jsou oblíbené jídlo v Číně, často se podávají jako předkrm při slavnostních příležitostech.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-cn-020": {
+  "title": "Youtiao – čínský koblih",
+  "ingredients": {
+   "w-cn-020-i1": {
+    "name": "olej na smažení",
+    "standardAmount": "podle potřeby"
+   },
+   "w-cn-020-i2": {
+    "name": "rostlinný olej na potření",
+    "standardAmount": "1 lž."
+   },
+   "w-cn-020-i3": {
+    "name": "hladká mouka",
+    "standardAmount": "2 šálky"
+   },
+   "w-cn-020-i4": {
+    "name": "prášek do pečiva",
+    "standardAmount": "1 lžič."
+   },
+   "w-cn-020-i5": {
+    "name": "jedlá soda",
+    "standardAmount": "1/4 lžič."
+   },
+   "w-cn-020-i6": {
+    "name": "vejce",
+    "standardAmount": "1"
+   },
+   "w-cn-020-i7": {
+    "name": "voda",
+    "standardAmount": "120 ml (+5 ml na úpravu podle velikosti vejce)"
+   },
+   "w-cn-020-i8": {
+    "name": "rostlinný olej",
+    "standardAmount": "1/2 lž."
+   },
+   "w-cn-020-i9": {
+    "name": "sůl",
+    "standardAmount": "1/2 lžič."
+   },
+   "w-cn-020-i10": {
+    "name": "cukr",
+    "standardAmount": "1/2 lžič."
+   }
+  },
+  "instructions": {
+   "1": "Ve velké misce smíchejte mouku, prášek do pečiva, jedlou sodu, sůl a cukr.",
+   "2": "Přidejte vejce, vodu a rostlinný olej a dobře promíchejte, dokud těsto nebude hladké a konzistentní.",
+   "3": "Těsto přikryjte a nechte 30 minut odpočívat.",
+   "4": "Těsto rozválejte na pomoučené ploše a nakrájejte na dlouhé tenké proužky.",
+   "5": "Dva proužky položte na sebe a potřete je rostlinným olejem, poté je složte dohromady a znovu potřete.",
+   "6": "V hlubokém hrnci rozehřejte olej, dokud není horký, poté proužky smažte dozlatova.",
+   "7": "Youtiao nechte odkapat na papírových utěrkách, aby se odstranil přebytečný olej.",
+   "8": "Podávejte horké s čajem nebo kávou."
+  },
+  "culturalNotes": "Youtiao je tradiční jídlo v Číně a obvykle se podává ráno s čajem nebo kávou.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-cn-021": {
+  "title": "Zongzi s pastou z červených fazolí",
+  "ingredients": {
+   "w-cn-021-i1": {
+    "name": "sušené nebo čerstvé bambusové listy",
+    "standardAmount": "20-30 listů"
+   },
+   "w-cn-021-i2": {
+    "name": "lepkavá rýže",
+    "standardAmount": "2 šálky (400 gramů)"
+   },
+   "w-cn-021-i3": {
+    "name": "pasta z červených fazolí",
+    "standardAmount": "1 šálek"
+   },
+   "w-cn-021-i4": {
+    "name": "bavlněný provázek nebo úzké stonky",
+    "standardAmount": "podle potřeby"
+   }
+  },
+  "instructions": {
+   "1": "Lepkavou rýži propláchněte vodou 2-3krát. Rýži dejte do velké mísy a přidejte vodu na zakrytí. Nechte přes noc namočenou.",
+   "2": "Pokud používáte sušené bambusové listy, namočte je do horké vody na 30 minut a poté je dobře propláchněte. Pokud používáte čerstvé bambusové listy, pouze je dobře propláchněte.",
+   "3": "Listy rozložte vnitřní stranou dolů. Do středu listu dejte porci lepkavé rýže, poté přidejte lžíci pasty z červených fazolí a zakryjte další vrstvou rýže.",
+   "4": "Listy přeložte kolem náplně a svážte bavlněným provázkem nebo úzkými stonky.",
+   "5": "Zongzi dejte do velkého hrnce a přidejte vodu na zakrytí. Na středním ohni přiveďte k varu a vařte 3 hodiny.",
+   "6": "Po uvaření je nechte mírně vychladnout před otevřením a vychutnejte si je."
+  },
+  "culturalNotes": "Zongzi je tradiční čínské jídlo podávané během festivalu dračích lodí. Často se jí na snídani nebo jako svačina.",
+  "chapter": "Čínská kuchyně"
+ },
+ "w-fr-001": {
+  "title": "Bouillabaisse",
+  "ingredients": {
+   "w-fr-001-i1": {
+    "name": "mořský kohoutek",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i2": {
+    "name": "vráska",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i3": {
+    "name": "červený kokot",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i4": {
+    "name": "mořský úhoř",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i5": {
+    "name": "ďas mořský",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i6": {
+    "name": "hlavonožec Petrův",
+    "standardAmount": "660 g"
+   },
+   "w-fr-001-i7": {
+    "name": "chobotnice",
+    "standardAmount": "1 živá chobotnice (volitelné)"
+   },
+   "w-fr-001-i8": {
+    "name": "ježovky",
+    "standardAmount": "10 ježovek"
+   },
+   "w-fr-001-i9": {
+    "name": "brambory",
+    "standardAmount": "1 kg"
+   },
+   "w-fr-001-i10": {
+    "name": "česnek",
+    "standardAmount": "7 stroužků"
+   },
+   "w-fr-001-i11": {
+    "name": "cibule",
+    "standardAmount": "3 cibule"
+   },
+   "w-fr-001-i12": {
+    "name": "rajčata",
+    "standardAmount": "5 zralých rajčat"
+   },
+   "w-fr-001-i13": {
+    "name": "olivový olej",
+    "standardAmount": "1 šálek"
+   },
+   "w-fr-001-i14": {
+    "name": "kytička bylinek",
+    "standardAmount": "1 kytička bylinek"
+   },
+   "w-fr-001-i15": {
+    "name": "fenykl",
+    "standardAmount": "1 větev"
+   },
+   "w-fr-001-i16": {
+    "name": "šafrán",
+    "standardAmount": "8 vláken"
+   },
+   "w-fr-001-i17": {
+    "name": "venkovský chléb",
+    "standardAmount": "10 plátků"
+   },
+   "w-fr-001-i18": {
+    "name": "sůl",
+    "standardAmount": "podle chuti"
+   },
+   "w-fr-001-i19": {
+    "name": "kajenský pepř",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Ryby očistěte a nakrájejte na velké plátky, kosti nechte.",
+   "2": "Ve velkém hlubokém kastrolu rozehřejte olivový olej.",
+   "3": "Přidejte cibule spolu se 6 rozmačkanými stroužky česneku, kousky chobotnice a rajčaty. Na mírném ohni osmahněte za jemného míchání 5 minut.",
+   "4": "Přidejte plátky ryb; nejprve velké plátky, poté menší. Zakryjte vroucí vodou a přidejte sůl, pepř, fenykl, kytičku bylinek a šafrán. Na mírném ohni duste za občasného míchání 20 minut.",
+   "5": "Připravte rouille: Stroužky česneku roztlčete v hmoždíři, dokud nevytvoří pastu, poté přidejte žloutek a šafrán a postupně přidávejte olivový olej, abyste vytvořili majonézu.",
+   "6": "Brambory uvařte v osolené vodě 15-20 minut. Ježovky otevřete nůžkami a lžičkou vyjměte ikry.",
+   "7": "Ryby rozložte na táč. Ikry ježovek přidejte do vývaru a promíchejte.",
+   "8": "Několik plátků chleba potřete česnekem a na každý rozetřete lžíci rouille. Do každé servírovací mísy dejte alespoň dva plátky.",
+   "9": "Ryby a brambory vyjměte z vývaru a položte je na velký servírovací táč.",
+   "10": "Horký vývar nalijte do každé mísy obsahující plátek chleba potřený rouille. Ryby a brambory podávejte na samostatném táči."
+  },
+  "culturalNotes": "Bouillabaisse je tradiční jídlo z Marseille v jižní Francii, známé svou rozmanitou směsí ryb a měkkýšů.",
+  "chapter": "Francouzská kuchyně"
+ },
+ "w-fr-002": {
+  "title": "Kalamáry s tzatziki",
+  "ingredients": {
+   "w-fr-002-i1": {
+    "name": "česnek",
+    "standardAmount": "2 malé stroužky, najemno nakrájené"
+   },
+   "w-fr-002-i2": {
+    "name": "olivový olej",
+    "standardAmount": "1 lžíce"
+   },
+   "w-fr-002-i3": {
+    "name": "okurka",
+    "standardAmount": "1 malá okurka"
+   },
+   "w-fr-002-i4": {
+    "name": "jogurt",
+    "standardAmount": "250 gramů"
+   },
+   "w-fr-002-i5": {
+    "name": "sušená máta",
+    "standardAmount": "1 lžička"
+   },
+   "w-fr-002-i6": {
+    "name": "citronová šťáva",
+    "standardAmount": "1 lžička"
+   },
+   "w-fr-002-i7": {
+    "name": "sůl a pepř",
+    "standardAmount": "podle chuti"
+   },
+   "w-fr-002-i8": {
+    "name": "oliheň",
+    "standardAmount": "1 libra"
+   },
+   "w-fr-002-i9": {
+    "name": "hladká mouka",
+    "standardAmount": "velká mísa plná"
+   },
+   "w-fr-002-i10": {
+    "name": "rostlinný nebo olivový olej",
+    "standardAmount": "dostatečné množství (alespoň 1 palec hluboko v pánvi)"
+   },
+   "w-fr-002-i11": {
+    "name": "čerstvě vymačkaná citronová šťáva",
+    "standardAmount": "podle chuti"
+   },
+   "w-fr-002-i12": {
+    "name": "sůl, pepř a sušené řecké oregano",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Do středně velké mísy přidejte česnek k olivovému oleji.",
+   "2": "Malou okurku nakrájejte najemno. Poté okurku sceďte alespoň na 15 minut. Na nakrájenou okurku posypte trochu soli, aby se uvolnila přebytečná tekutina.",
+   "3": "K česneku a olivovému oleji přidejte jogurt, okurku, mátu, citronovou šťávu a sůl a pepř. Dobře promíchejte. Pokud se směs zdá řídká, přidejte trochu více jogurtu.",
+   "4": "Olihně očistěte a těla nakrájejte na kolečka o velikosti asi 1 palce, nebo je nechte celé, pokud jsou malé.",
+   "5": "Připravte mísu mouky. Do mouky posypte trochu soli a pepře a promíchejte.",
+   "6": "Olej rozehřejte na velmi vysokou teplotu.",
+   "7": "Kus kalamáru namočte do mouky a ujistěte se, že je dobře obalený zvenčí i uvnitř.",
+   "8": "Jakmile je olej horký, přidejte kalamáry obalené v mouce po několika kusech.",
+   "9": "Uvaří se extrémně rychle, asi 1 minuta na kus malého kalamáru; větší kusy mohou potřebovat minutu navíc.",
+   "10": "Vyjměte z oleje a položte na papírovou utěrku, aby se odstranil přebytečný olej. Podávejte ihned s tzatziki."
+  },
+  "culturalNotes": "Kalamáry s tzatziki jsou oblíbené jídlo ve středomořské kuchyni, zejména v Řecku a na Kypru.",
+  "chapter": "Francouzská kuchyně"
+ },
+ "w-fr-003": {
+  "title": "Calisson",
+  "ingredients": {
+   "w-fr-003-i1": {
+    "name": "mandle",
+    "standardAmount": "7 uncí"
+   },
+   "w-fr-003-i2": {
+    "name": "moučkový cukr",
+    "standardAmount": "7 uncí"
+   },
+   "w-fr-003-i3": {
+    "name": "med",
+    "standardAmount": "3.5 unce"
+   },
+   "w-fr-003-i4": {
+    "name": "skořice",
+    "standardAmount": "1/2 lžičky"
+   },
+   "w-fr-003-i5": {
+    "name": "hřebíček",
+    "standardAmount": "1/4 lžičky"
+   },
+   "w-fr-003-i6": {
+    "name": "rozinky",
+    "standardAmount": "1.75 unce"
+   },
+   "w-fr-003-i7": {
+    "name": "mouka",
+    "standardAmount": "3.5 unce"
+   },
+   "w-fr-003-i8": {
+    "name": "vejce",
+    "standardAmount": "1"
+   }
+  },
+  "instructions": {
+   "1": "V misce smíchejte mleté mandle a moučkový cukr.",
+   "2": "Přidejte med, skořici, hřebíček a rozinky a dobře promíchejte.",
+   "3": "Postupně přidávejte mouku a míchejte, dokud nezískáte pevné těsto.",
+   "4": "Těsto přikryjte a nechte 30 minut odpočívat.",
+   "5": "Těsto vytvarujte do malých kuliček a položte je na plech vyložený pečicím papírem.",
+   "6": "Pečte v předehřáté troubě na 180°C (350°F) po dobu 20 minut nebo dozlatova.",
+   "7": "Před podáváním nechte vychladnout."
+  },
+  "culturalNotes": "Calisson je tradiční sladkost z města Avignon v jižní Francii, známá svou aromatickou a sladkou chutí.",
+  "chapter": "Francouzská kuchyně"
+ }
+}

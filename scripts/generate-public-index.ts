@@ -44,7 +44,7 @@ import { generateTvData, tvEligibleRecipes } from './generate-tv-index';
 import type { KidsRecipeCard } from '../src/kids/types';
 
 const siteUrl = (process.env.PUBLIC_SITE_URL || 'https://fifi.cooking').replace(/\/$/, '');
-const SUPPORTED_LANGUAGES: SupportedLanguage[] = ['ar', 'en', 'fr', 'es', 'ja', 'hi', 'pt', 'ru', 'zh', 'de', 'it', 'el', 'ur', 'fa', 'tr', 'ku', 'id', 'sw', 'ko', 'nl', 'ps', 'he', 'pl', 'sv', 'te', 'bn', 'vi'];
+const SUPPORTED_LANGUAGES: SupportedLanguage[] = ['ar', 'en', 'fr', 'es', 'ja', 'hi', 'pt', 'ru', 'zh', 'de', 'it', 'el', 'ur', 'fa', 'tr', 'ku', 'id', 'sw', 'ko', 'nl', 'ps', 'he', 'pl', 'sv', 'te', 'bn', 'vi', 'cs'];
 const TRANSLATION_FILES: Partial<Record<SupportedLanguage, string>> = {
   en: 'recipeTranslations.json',
   fr: 'recipeTranslationsFr.json',
@@ -71,7 +71,8 @@ const TRANSLATION_FILES: Partial<Record<SupportedLanguage, string>> = {
   sv: 'recipeTranslationsSv.json',
   te: 'recipeTranslationsTe.json',
   bn: 'recipeTranslationsBn.json',
-  vi: 'recipeTranslationsVi.json'
+  vi: 'recipeTranslationsVi.json',
+  cs: 'recipeTranslationsCs.json'
 };
 /** Cards per index page; the first page is all a visitor waits for. */
 const PAGE_SIZE = 100;

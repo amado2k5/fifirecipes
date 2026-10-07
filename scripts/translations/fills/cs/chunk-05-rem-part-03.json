@@ -1,0 +1,2940 @@
+{
+ "bake-13": {
+  "title": "Pizza",
+  "prepTime": "1 hodina (+ kynutí)",
+  "cookTime": "20 min",
+  "servings": "6-8 osob",
+  "culturalNotes": "",
+  "ingredients": {
+   "bk13-1": {
+    "name": "mouka",
+    "standardAmount": "2 šálky"
+   },
+   "bk13-2": {
+    "name": "sůl",
+    "standardAmount": "podle chuti"
+   },
+   "bk13-3": {
+    "name": "jogurt",
+    "standardAmount": "1 šálek"
+   },
+   "bk13-4": {
+    "name": "voda",
+    "standardAmount": "1/2 šálku"
+   },
+   "bk13-5": {
+    "name": "olej nebo ghee",
+    "standardAmount": "1/2 šálku"
+   },
+   "bk13-6": {
+    "name": "prášek do pečiva nebo droždí",
+    "standardAmount": "1 lžička prášku do pečiva nebo 2 lžičky droždí"
+   },
+   "bk13-7": {
+    "name": "přílohy na pizzu (sýr mozzarella, smetanový sýr, bílý sýr, olivy, halal luncheonové maso, tuňák, směs mletého masa, šakšuka, mleté kuře, rajčata, zelené papriky)",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Droždí rozpustěte v troše vlažné vody a troše cukru a nechte 15 minut kynout.",
+   "2": "Mouku propracujte s olejem, poté přidejte jogurt a dobře promíchejte; přidejte droždí a důkladně hněťte, dokud těsto nezměkne, vodu přidávejte podle potřeby.",
+   "3": "Těsto nechte kynout na teplém místě asi jednu hodinu.",
+   "4": "Pečicí plech vymažte olejem a lehce jej vysypte moukou, aby se těsto nepřichytlo.",
+   "5": "Těsto položte do plechu a rovnoměrně ho roztáhněte.",
+   "6": "Těsto na pizzu potřete omáčkou, poté ozdobte podle libosti kteroukoli z následujících příloh: plátky mozzarelly, smetanový sýr rozetřený s bílým sýrem, kousky oliv, luncheonové maso, tuňák, směs mletého masa (uság), šakšuka, mleté kuře, plátky rajčat a zelené papriky.",
+   "7": "Pečte v troubě na střední teplotu, dokud vrch není zlato-hnědý."
+  }
+ },
+ "fah-183": {
+  "title": "Náplň na mumbar (bylinková rýžová náplň)",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Plněná jídla",
+  "cookingMethod": "Smažení na pánvi",
+  "prepTime": "20 min",
+  "cookTime": "1-1¼ hodiny",
+  "servings": "6-8 porcí",
+  "culturalNotes": "Plněný mumbar lze skladovat v lednici, dokud není potřeba. Smažení mumbaru v horkém oleji těsně před podáváním dodává lepší vůni a chuť.",
+  "ingredients": {
+   "fah-183-i1": {
+    "name": "Rýže",
+    "standardAmount": "3 šálky"
+   },
+   "fah-183-i2": {
+    "name": "Rajčata, nakrájená",
+    "standardAmount": "2 šálky"
+   },
+   "fah-183-i3": {
+    "name": "Směs čerstvých bylinek (petržel, kopr, koriandr)",
+    "standardAmount": "po 2 svazcích"
+   },
+   "fah-183-i4": {
+    "name": "Cibule",
+    "standardAmount": "2"
+   },
+   "fah-183-i5": {
+    "name": "Pálivé chilli papričky",
+    "standardAmount": "2"
+   },
+   "fah-183-i6": {
+    "name": "olej",
+    "standardAmount": "½ šálku"
+   },
+   "fah-183-i7": {
+    "name": "Sůl",
+    "standardAmount": "podle chuti"
+   },
+   "fah-183-i8": {
+    "name": "Černý pepř",
+    "standardAmount": "podle chuti"
+   },
+   "fah-183-i9": {
+    "name": "Kmín",
+    "standardAmount": "1 lžička"
+   },
+   "fah-183-i10": {
+    "name": "Mletý koriandr",
+    "standardAmount": "1 lžička"
+   },
+   "fah-183-i11": {
+    "name": "Směs sedmi koření",
+    "standardAmount": "špetka"
+   },
+   "fah-183-i12": {
+    "name": "Skořice",
+    "standardAmount": "špetka"
+   },
+   "fah-183-i13": {
+    "name": "Cukr",
+    "standardAmount": "špetka"
+   },
+   "fah-183-i14": {
+    "name": "Rajský protlak",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-183-i15": {
+    "name": "Jedlá soda",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-183-i16": {
+    "name": "ocet",
+    "standardAmount": "podle chuti"
+   },
+   "fah-183-i17": {
+    "name": "Mouka",
+    "standardAmount": "podle chuti"
+   },
+   "fah-183-i18": {
+    "name": "Hrubá sůl",
+    "standardAmount": "podle chuti"
+   },
+   "fah-183-i19": {
+    "name": "bobkový list",
+    "standardAmount": "1 list"
+   },
+   "fah-183-i20": {
+    "name": "Masticha (habba helwa)",
+    "standardAmount": "1"
+   },
+   "fah-183-i21": {
+    "name": "Masticha",
+    "standardAmount": "1 perlička"
+   }
+  },
+  "instructions": {
+   "1": "Připravte náplň: cibuli, bylinky a rajčata najemno nasekejte.",
+   "2": "Cibuli vložte do mísy a promíchejte ji s kořením (sůl, pepř, kmín, koriandr, směs sedmi koření, skořice, cukr).",
+   "3": "Přidejte nakrájená rajčata a bylinky a vše dobře promíchejte.",
+   "4": "Přidejte rajský protlak a ještě jednou promíchejte.",
+   "5": "Rýži umyjte a sceďte, poté ji přidejte k náplni s půl šálkem oleje a dobře promíchejte.",
+   "6": "Připravte mumbar: střeva namočte na půl hodiny do teplé vody s octem a jedlou sodou.",
+   "7": "Mumbar oloupejte a dobře vyčistěte, poté jej na 10 minut namočte do mouky a hrubé soli.",
+   "8": "Mumbar naplňte náplní a oba konce pevně uzavřete.",
+   "9": "Vaření mumbaru: do hrnce na ohni dejte vodu s bobkovým listem, perličkou mastichy, mastichou, solí a pepřem.",
+   "10": "Naplňený mumbar přidejte do vroucí vody a nechte jej hodinu až hodinu a čtvrt.",
+   "11": "Mumbar vyjměte z hrnce a podávejte s petrželí, solí a pepřem podle chuti."
+  }
+ },
+ "fah-184": {
+  "title": "Tajine z vinných listů s masem (warak enab)",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Plněná jídla",
+  "cookingMethod": "Pomalé vaření",
+  "prepTime": "20 min",
+  "cookTime": "40 min",
+  "servings": "4 porce",
+  "culturalNotes": "Zajistěte, aby vinné listy byly měkké a světlé barvy, a rozložte je v tajinu správně, aby se nerozbalily. Pro vydatnější pokrm můžete přidat plátky brambor.",
+  "ingredients": {
+   "fah-184-i1": {
+    "name": "Vinné listy",
+    "standardAmount": "dle potřeby"
+   },
+   "fah-184-i2": {
+    "name": "Rýže",
+    "standardAmount": "2 šálky"
+   },
+   "fah-184-i3": {
+    "name": "Rajčatová omáčka",
+    "standardAmount": "2 šálky"
+   },
+   "fah-184-i4": {
+    "name": "Nasekané čerstvé bylinky",
+    "standardAmount": "1 šálek"
+   },
+   "fah-184-i5": {
+    "name": "Cibule",
+    "standardAmount": "2"
+   },
+   "fah-184-i6": {
+    "name": "Koření (sůl, pepř, kmín, koriandr, směs sedmi koření, špetka cukru)",
+    "standardAmount": "podle chuti"
+   },
+   "fah-184-i7": {
+    "name": "Maso, na kostky",
+    "standardAmount": "podle chuti"
+   },
+   "fah-184-i8": {
+    "name": "Kardamom",
+    "standardAmount": "špetka"
+   },
+   "fah-184-i9": {
+    "name": "Kurkuma",
+    "standardAmount": "špetka"
+   },
+   "fah-184-i10": {
+    "name": "Granátová melasa",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-184-i11": {
+    "name": "Citrony, vymačkané",
+    "standardAmount": "2"
+   },
+   "fah-184-i12": {
+    "name": "Olej",
+    "standardAmount": "podle chuti"
+   },
+   "fah-184-i13": {
+    "name": "Stroužky česneku",
+    "standardAmount": "2 stroužky"
+   },
+   "fah-184-i14": {
+    "name": "Bobkový list",
+    "standardAmount": "1 list"
+   },
+   "fah-184-i15": {
+    "name": "Jogurt",
+    "standardAmount": "podle chuti"
+   },
+   "fah-184-i16": {
+    "name": "Okurka",
+    "standardAmount": "1"
+   },
+   "fah-184-i17": {
+    "name": "Čerstvá máta",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Vyberte měkké vinné listy světlé barvy, odstraňte stopky, umyjte je a naskládejte je stejným směrem.",
+   "2": "Vinné listy vložte do malého hrnce na ohni se solí, kmínem a dvěma lžícemi oleje; krátce je povařte a obraťte.",
+   "3": "V míse promíchejte rýži, rajčatovou omáčku, bylinky, nakrájenou cibuli a koření.",
+   "4": "Do hrnce na ohni přidejte stroužek česneku a bobkový list, poté přidejte maso nakrájené na malé kostky a restujte dozlatova.",
+   "5": "Přidejte kardamom, kurkumu, sůl a cukr, poté přikryjte a nechte vařit.",
+   "6": "Vinné listy naplňte směsí masa a rýže, poté je rozložte do tajinu.",
+   "7": "Přidejte plátky rajčat, cibule a brambor, bylinky a česnek, poté navrch položte zbývající vinné listy.",
+   "8": "Přidejte horký vývar, granátovou melasu a citronovou šťávu, poté hrncem dobře zatřepte.",
+   "9": "Tajin přikryjte talířem, aby se listy nerozbalily, poté nechte na mírném ohni, dokud nejsou hotové.",
+   "10": "Na přílohu připravte jogurtový salát s okurkou, mátou, solí a olejem."
+  }
+ },
+ "fah-185": {
+  "title": "Ekonomická kibba (levná kubba)",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Plněná jídla",
+  "cookingMethod": "Smažení",
+  "prepTime": "60 min",
+  "cookTime": "30 min",
+  "servings": "40 kusů",
+  "culturalNotes": "Kibba lze po vytvarování zmrazit; nejprve je na půl hodiny vychlaďte v lednici. Při smažení zajistěte, aby byl olej řádně horký, aby nenavlhly tukem.",
+  "ingredients": {
+   "fah-185-i1": {
+    "name": "Bulgur",
+    "standardAmount": "2 šálky"
+   },
+   "fah-185-i2": {
+    "name": "Mouka",
+    "standardAmount": "1.5 šálku"
+   },
+   "fah-185-i3": {
+    "name": "Cibule",
+    "standardAmount": "1.5 šálku nasekané"
+   },
+   "fah-185-i4": {
+    "name": "olej",
+    "standardAmount": "½ šálku"
+   },
+   "fah-185-i5": {
+    "name": "Sůl",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-185-i6": {
+    "name": "Černý pepř",
+    "standardAmount": "1 lžička"
+   },
+   "fah-185-i7": {
+    "name": "Směs sedmi koření",
+    "standardAmount": "1 lžička"
+   },
+   "fah-185-i8": {
+    "name": "Sušená máta",
+    "standardAmount": "½ lžičky"
+   },
+   "fah-185-i9": {
+    "name": "Mleté maso",
+    "standardAmount": "½ kg"
+   },
+   "fah-185-i10": {
+    "name": "Ghee (samna)",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-185-i11": {
+    "name": "petržel",
+    "standardAmount": "podle chuti"
+   },
+   "fah-185-i12": {
+    "name": "Směs ořechů (arašídy, lískové oříšky, piniové oříšky)",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Bulgur rozemelte najemno.",
+   "2": "K mletému bulguru přidejte 3 šálky vroucí vody, promíchejte, přikryjte a nechte hodinu až hodinu a čtvrt.",
+   "3": "Připravte náplň: do jiné mísy dejte mleté maso, nasekanou cibuli, sůl, černý pepř a směs sedmi koření a promíchejte.",
+   "4": "V pánvi rozehřejte lžíci ghee, přidejte nasekanou cibuli a míchejte dozlatova, poté přidejte maso a míchejte, dokud není hotové.",
+   "5": "K masu přidejte sůl a koření a dobře promíchejte.",
+   "6": "Ořechy opečte na lžičce oleje dozlatova, poté je přidejte k náplni.",
+   "7": "Jakmile bulgur vychladne, přidejte mouku, sušenou mátu, černý pepř, směs sedmi koření, nasekanou cibuli, sůl a olej a hněťte, dokud těsto není hladké a nelepivé.",
+   "8": "Tvarujte kibbu: ruce navlhčete olejem, vezměte kus těsta, udělejte uprostřed důlek, vložte náplň a kibbu dobře uzavřete.",
+   "9": "Kibbu rozložte na plech a před smažením ji na půl hodiny vychlaďte v lednici.",
+   "10": "Kibbu smažte v horkém oleji na středním ohni dozlatova."
+  }
+ },
+ "fah-186": {
+  "title": "Mumbar plněný zeleninou a rýží",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Plněná jídla",
+  "cookingMethod": "Smažení na pánvi",
+  "prepTime": "20 min",
+  "cookTime": "1 hodina",
+  "servings": "6-8 porcí",
+  "culturalNotes": "Před smažením nechte mumbar zcela vychladnout pro lepší křupavost. Mumbar můžete připravit den předem, abyste si ušetřili práci v daný den.",
+  "ingredients": {
+   "fah-186-i1": {
+    "name": "Zralá červená rajčata",
+    "standardAmount": "2 kg"
+   },
+   "fah-186-i2": {
+    "name": "Pálivá červená chilli paprička",
+    "standardAmount": "1"
+   },
+   "fah-186-i3": {
+    "name": "paprika",
+    "standardAmount": "1"
+   },
+   "fah-186-i4": {
+    "name": "Ghee (samna)",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-186-i5": {
+    "name": "Vývarová kostka",
+    "standardAmount": "1 kostka"
+   },
+   "fah-186-i6": {
+    "name": "Cukr",
+    "standardAmount": "špetka"
+   },
+   "fah-186-i7": {
+    "name": "Rajský protlak",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-186-i8": {
+    "name": "Cibule",
+    "standardAmount": "2 velké"
+   },
+   "fah-186-i9": {
+    "name": "kopr",
+    "standardAmount": "2 svazky"
+   },
+   "fah-186-i10": {
+    "name": "petržel",
+    "standardAmount": "2 svazky"
+   },
+   "fah-186-i11": {
+    "name": "Čerstvý koriandr",
+    "standardAmount": "2 svazky"
+   },
+   "fah-186-i12": {
+    "name": "Sůl",
+    "standardAmount": "podle chuti"
+   },
+   "fah-186-i13": {
+    "name": "Černý pepř",
+    "standardAmount": "podle chuti"
+   },
+   "fah-186-i14": {
+    "name": "Kmín",
+    "standardAmount": "1 lžička"
+   },
+   "fah-186-i15": {
+    "name": "Směs sedmi koření",
+    "standardAmount": "špetka"
+   },
+   "fah-186-i16": {
+    "name": "Skořice",
+    "standardAmount": "špetka"
+   },
+   "fah-186-i17": {
+    "name": "Rýže",
+    "standardAmount": "2 šálky"
+   },
+   "fah-186-i18": {
+    "name": "olej",
+    "standardAmount": "1/2 šálku"
+   },
+   "fah-186-i19": {
+    "name": "ocet",
+    "standardAmount": "1/2 šálku"
+   },
+   "fah-186-i20": {
+    "name": "Jedlá soda",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-186-i21": {
+    "name": "Hrubá sůl",
+    "standardAmount": "podle chuti"
+   },
+   "fah-186-i22": {
+    "name": "Cibule",
+    "standardAmount": "2 velké"
+   },
+   "fah-186-i23": {
+    "name": "Mrkev",
+    "standardAmount": "1"
+   },
+   "fah-186-i24": {
+    "name": "Rajčata",
+    "standardAmount": "1"
+   },
+   "fah-186-i25": {
+    "name": "Česnek",
+    "standardAmount": "2 stroužky"
+   },
+   "fah-186-i26": {
+    "name": "Řapík celeru",
+    "standardAmount": "1"
+   },
+   "fah-186-i27": {
+    "name": "bobkový list",
+    "standardAmount": "1 list"
+   },
+   "fah-186-i28": {
+    "name": "Skořice",
+    "standardAmount": "1 tyčinka"
+   },
+   "fah-186-i29": {
+    "name": "Kardamomový tobolka",
+    "standardAmount": "1"
+   },
+   "fah-186-i30": {
+    "name": "Masticha",
+    "standardAmount": "špetka"
+   },
+   "fah-186-i31": {
+    "name": "Černý pepř",
+    "standardAmount": "špetka"
+   }
+  },
+  "instructions": {
+   "1": "Červená rajčata umyjte a nakrájejte na malé kousky.",
+   "2": "K rajčatům přidejte pálivou červenou chilli papričku a papriku.",
+   "3": "Všechny ingredience rozmixujte v mixéru dohladka.",
+   "4": "V hrnci na ohni rozehřejte ghee, poté přidejte rozmixovanou směs a dobře promíchejte.",
+   "5": "Přidejte vývarovou kostku, cukr a rajský protlak, poté nechte na ohni několik minut.",
+   "6": "Bylinky (jarní cibulku, kopr, petržel, koriandr) umyjte a najemno je nasekejte.",
+   "7": "Bylinky promíchejte se solí, černým pepřem, kmínem, směsí sedmi koření a skořicí.",
+   "8": "Cibuli dobře promačkejte s kořením.",
+   "9": "Ke směsi přidejte umytou, scezenou rýži, poté přidejte olej a vše promíchejte dohromady.",
+   "10": "Mumbar vyčistěte hrubou solí, jedlou sodou a octem, poté jej opláchněte vodou.",
+   "11": "Mumbar naplňte náplní a část konce nechte prázdnou.",
+   "12": "Do hrnce přidejte vroucí vodu s cibulí, mrkví, rajčetem, česnekem, celerem, bobkovým listem, skořicovou tyčinkou, kardamomovým tobolkou, mastichou a černým pepřem.",
+   "13": "Mumbar přidejte do hrnce, přikryjte a přiveďte k varu na vysokém ohni, poté oheň snižte a nechte hodinu.",
+   "14": "Mumbar sceďte, poté jej opečte na pánvi s ghee a olejem.",
+   "15": "Mumbar za horka posypte kořením (sůl, kmín, koriandr, chilli, černý pepř) a prohoďte dohromady."
+  }
+ },
+ "fah-172": {
+  "title": "Pražený vlčí bob (termis)",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Luštěniny",
+  "cookingMethod": "Pomalé vaření",
+  "prepTime": "20 min",
+  "cookTime": "6 hodin",
+  "servings": "dle potřeby",
+  "culturalNotes": "Termis, cizrnu a boby skladujte v lednici, aby se nezměnila chuť a netvořila se pěna. Při podávání vždy používejte čistou, suchou lžíci. Pokud se objeví pěna, vodu sceďte a nahraďte ji čerstvou vodou s přidáním lžičky soli na šálek.",
+  "ingredients": {
+   "fah-172-i1": {
+    "name": "Vlčí bob (termis)",
+    "standardAmount": "dle potřeby"
+   },
+   "fah-172-i2": {
+    "name": "Cizrna",
+    "standardAmount": "podle chuti"
+   },
+   "fah-172-i3": {
+    "name": "boby",
+    "standardAmount": "podle chuti"
+   },
+   "fah-172-i4": {
+    "name": "Voda",
+    "standardAmount": "dle potřeby"
+   },
+   "fah-172-i5": {
+    "name": "Sůl",
+    "standardAmount": "dle potřeby"
+   }
+  },
+  "instructions": {
+   "1": "Termis, cizrnu a boby umyjte a dobře je přeberte.",
+   "2": "Termis a cizrnu namočte na 3 hodiny do vroucí vody.",
+   "3": "Boby opražte na suché pánvi na středním ohni za stálého míchání, dokud nejsou opražené.",
+   "4": "Připravte nálev smícháním 3 šálků vroucí vody s jednou lžící soli na šálek.",
+   "5": "Boby namočte do nálevu na 3 hodiny.",
+   "6": "Termis a cizrnu sceďte z namáčecí vody a vložte je do čerstvé vroucí vody.",
+   "7": "Termis a cizrnu vařte na mírném ohni hodinu a půl.",
+   "8": "Termis a cizrnu sceďte a namočte je na 2 hodiny do vychladlého nálevu.",
+   "9": "Termis, cizrnu a boby skladujte v lednici.",
+   "10": "Termis, cizrnu a boby podávejte s kmínem, chilli a citronem."
+  }
+ },
+ "fah-173": {
+  "title": "Pražená cizrna (hommos mišwí)",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Luštěniny",
+  "cookingMethod": "Pomalé vaření",
+  "prepTime": "20 min",
+  "cookTime": "6 hodin",
+  "servings": "dle potřeby",
+  "culturalNotes": "Termis, cizrnu a boby skladujte v lednici, aby se nezměnila chuť a netvořila se pěna. Při podávání používejte čistou, suchou lžíci. Pokud se objeví pěna, vodu vyměňte za čerstvou a přidejte trochu soli.",
+  "ingredients": {
+   "fah-173-i1": {
+    "name": "Vlčí bob (termis)",
+    "standardAmount": "dle potřeby"
+   },
+   "fah-173-i2": {
+    "name": "boby",
+    "standardAmount": "podle chuti"
+   },
+   "fah-173-i3": {
+    "name": "Cizrna",
+    "standardAmount": "podle chuti"
+   },
+   "fah-173-i4": {
+    "name": "Voda",
+    "standardAmount": "podle chuti"
+   },
+   "fah-173-i5": {
+    "name": "Sůl",
+    "standardAmount": "8 lžic"
+   }
+  },
+  "instructions": {
+   "1": "Termis, cizrnu a boby dobře umyjte a přeberte.",
+   "2": "Termis a cizrnu namočte na 3 hodiny do vroucí vody.",
+   "3": "Boby opražte na suché pánvi na středním ohni za stálého míchání, dokud nejsou opražené.",
+   "4": "Připravte nálev smícháním 3 šálků vroucí vody s jednou lžící soli na šálek.",
+   "5": "Boby namočte do nálevu na 3 hodiny.",
+   "6": "Po 3 hodinách sceďte namáčecí vodu z termisu a cizrny a namočte je do čerstvé vroucí vody.",
+   "7": "Termis a cizrnu vařte na mírném ohni hodinu a půl.",
+   "8": "Termis a cizrnu sceďte a namočte je do čerstvého nálevu (8 šálků vody s 8 lžícemi soli).",
+   "9": "Termis, cizrnu a boby skladujte v lednici alespoň 2 hodiny.",
+   "10": "Termis, cizrnu a boby podávejte s kmínem, chilli a citronem."
+  }
+ },
+ "fah-174": {
+  "title": "Boby s tahbíšou (kořeněná cibulová kaše)",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Luštěniny",
+  "cookingMethod": "Pomalé vaření",
+  "prepTime": "20 min",
+  "cookTime": "30 min",
+  "servings": "4 porce",
+  "culturalNotes": "Fúl s tahbíšou funguje jako snídaně, oběd, večeře nebo suhúr. Pro silnější chuť přidejte více koření podle chuti.",
+  "ingredients": {
+   "fah-174-i1": {
+    "name": "Cibule",
+    "standardAmount": "1"
+   },
+   "fah-174-i2": {
+    "name": "Česnek",
+    "standardAmount": "3 stroužky"
+   },
+   "fah-174-i3": {
+    "name": "olej",
+    "standardAmount": "3 lžíce"
+   },
+   "fah-174-i4": {
+    "name": "Sladká nebo pálivá paprika",
+    "standardAmount": "podle chuti"
+   },
+   "fah-174-i5": {
+    "name": "Rajčata",
+    "standardAmount": "2-3"
+   },
+   "fah-174-i6": {
+    "name": "Černý pepř",
+    "standardAmount": "podle chuti"
+   },
+   "fah-174-i7": {
+    "name": "Kmín",
+    "standardAmount": "1 lžička"
+   },
+   "fah-174-i8": {
+    "name": "Sůl",
+    "standardAmount": "podle chuti"
+   },
+   "fah-174-i9": {
+    "name": "Chilli prášek",
+    "standardAmount": "podle chuti"
+   },
+   "fah-174-i10": {
+    "name": "boby",
+    "standardAmount": "2 šálky"
+   },
+   "fah-174-i11": {
+    "name": "Voda",
+    "standardAmount": "¼ šálku"
+   },
+   "fah-174-i12": {
+    "name": "petržel",
+    "standardAmount": "podle chuti"
+   },
+   "fah-174-i13": {
+    "name": "Drcené chilli vločky",
+    "standardAmount": "podle chuti"
+   },
+   "fah-174-i14": {
+    "name": "Nakládaný lilek",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Připravte kuchyňský robot a najemno v něm rozemelte cibuli a česnek.",
+   "2": "V pánvi rozehřejte olej, přidejte směs cibule a česneku a orestujte dozlatova.",
+   "3": "Přidejte sladkou nebo pálivou papriku a restujte minutu.",
+   "4": "Přidejte rajčata nakrájená na malé kostičky a směs promíchejte.",
+   "5": "Přidejte černý pepř, kmín, sůl a chilli (podle chuti) a směs dobře promíchejte.",
+   "6": "Směs nechte na ohni za občasného míchání, dokud nezhustne (tasbík).",
+   "7": "Přidejte rozmačkané boby (můžete je rozmačkat kuchyňským robotem nebo vidličkou) a zamíchejte je do směsi.",
+   "8": "Ke směsi přidejte čtvrt šálku vody, aby příliš nezhoustla.",
+   "9": "Směs nechte na ohni, dokud nezačne vařit, a v případě potřeby dosolte.",
+   "10": "Boby podávejte horké posypané petrželí, drcenými chilli vločkami a nakládaným lilkem."
+  }
+ },
+ "fah-175": {
+  "title": "Boby se smetanou a ořechy",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Luštěniny",
+  "cookingMethod": "Pomalé vaření",
+  "prepTime": "20 min",
+  "cookTime": "10 min",
+  "servings": "4 porce",
+  "culturalNotes": "Boby můžete podávat s pečenými bramborami a ta'amijou. Boby vydrží v lednici dva dny.",
+  "ingredients": {
+   "fah-175-i1": {
+    "name": "fúl mudammis (boby)",
+    "standardAmount": "1 šálek"
+   },
+   "fah-175-i2": {
+    "name": "Směs ořechů",
+    "standardAmount": "½ šálku"
+   },
+   "fah-175-i3": {
+    "name": "Ghee (samna)",
+    "standardAmount": "3 lžíce"
+   },
+   "fah-175-i4": {
+    "name": "Černý pepř",
+    "standardAmount": "podle chuti"
+   },
+   "fah-175-i5": {
+    "name": "Sůl",
+    "standardAmount": "podle chuti"
+   },
+   "fah-175-i6": {
+    "name": "Ešta (smetana)",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-175-i7": {
+    "name": "Voda",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "V hrnci na ohni rozehřejte ghee.",
+   "2": "Přidejte ořechy a opečte je dozlatova.",
+   "3": "Přidejte vařené boby a dobře je s ořechy promíchejte.",
+   "4": "Přidejte trochu vody, aby boby nevyschly a zůstaly měkké.",
+   "5": "Směs nechte na ohni do varu.",
+   "6": "Přidejte černý pepř a sůl a dobře promíchejte.",
+   "7": "Přidejte lžíci smetany (ešta) a dobře promíchejte.",
+   "8": "Nechte ještě minutu vařit.",
+   "9": "Přidejte druhou lžíci smetany a dobře promíchejte.",
+   "10": "Nalijte do tajinu a podávejte horké."
+  }
+ },
+ "fah-176": {
+  "title": "Boby čtyřmi způsoby (smíchaná koření)",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Luštěniny",
+  "cookingMethod": "Pomalé vaření",
+  "prepTime": "20 min",
+  "cookTime": "30 min",
+  "servings": "4 porce",
+  "culturalNotes": "Boby podávejte s plněnou ta'amijou, ta'amijou s nakládaným citronem a ajn al-katkút. Boby vydrží v lednici dva dny.",
+  "ingredients": {
+   "fah-176-i1": {
+    "name": "Vařené boby",
+    "standardAmount": "2 šálky"
+   },
+   "fah-176-i2": {
+    "name": "olej",
+    "standardAmount": "3 lžíce"
+   },
+   "fah-176-i3": {
+    "name": "Barevné papriky",
+    "standardAmount": "1 šálek"
+   },
+   "fah-176-i4": {
+    "name": "Cibule",
+    "standardAmount": "1"
+   },
+   "fah-176-i5": {
+    "name": "Pálivé chilli papričky",
+    "standardAmount": "1"
+   },
+   "fah-176-i6": {
+    "name": "Kmín",
+    "standardAmount": "1 lžička"
+   },
+   "fah-176-i7": {
+    "name": "Sůl",
+    "standardAmount": "podle chuti"
+   },
+   "fah-176-i8": {
+    "name": "Dukka (směs drceného česneku a kmínu)",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-176-i9": {
+    "name": "Ghee (samna)",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-176-i10": {
+    "name": "Vývarová kostka",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-176-i11": {
+    "name": "Vejce",
+    "standardAmount": "2"
+   },
+   "fah-176-i12": {
+    "name": "Drcené ořechy",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-176-i13": {
+    "name": "Rozinky",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-176-i14": {
+    "name": "Chilli prášek",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-176-i15": {
+    "name": "Cibule",
+    "standardAmount": "1"
+   },
+   "fah-176-i16": {
+    "name": "Rajčata",
+    "standardAmount": "1"
+   },
+   "fah-176-i17": {
+    "name": "Nakládaný citron",
+    "standardAmount": "1"
+   },
+   "fah-176-i18": {
+    "name": "Černuchová semínka",
+    "standardAmount": "podle chuti"
+   },
+   "fah-176-i19": {
+    "name": "Strouhanka",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-176-i20": {
+    "name": "Vejce natvrdo",
+    "standardAmount": "2"
+   }
+  },
+  "instructions": {
+   "1": "V pánvi rozehřejte olej a cibuli orestujte dozlatova.",
+   "2": "Přidejte barevné papriky a pálivou papriku a minutu míchejte.",
+   "3": "Přidejte kmín a sůl a dobře promíchejte.",
+   "4": "Přidejte lžíci dukky a minutu míchejte.",
+   "5": "Přidejte boby a dvě minuty míchejte, dokud nejsou prohřáté.",
+   "6": "Ve druhé pánvi rozehřejte ghee, přidejte vývarovou kostku a míchejte dozlatova.",
+   "7": "Přidejte boby a dvě minuty míchejte.",
+   "8": "Ve třetí pánvi rozehřejte olej, přidejte vejce a míchejte, dokud jemně neztuhnou.",
+   "9": "Přidejte boby a dvě minuty míchejte.",
+   "10": "Ve čtvrté pánvi rozehřejte ghee, přidejte ořechy a míchejte dozlatova.",
+   "11": "Přidejte rozinky, chilli a sůl a dobře promíchejte.",
+   "12": "Přidejte boby a dvě minuty míchejte.",
+   "13": "Boby podávejte s plněnou ta'amijou, ta'amijou s nakládaným citronem a ajn al-katkút."
+  }
+ },
+ "fah-177": {
+  "title": "Boby s příchutí kebabu",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Luštěniny",
+  "cookingMethod": "Pomalé vaření",
+  "prepTime": "20 min",
+  "cookTime": "15 min",
+  "servings": "4 porce",
+  "culturalNotes": "Před podáváním můžete jako ozdobu přidat trochu nasekané petržele. Boby vydrží v lednici až 3 dny.",
+  "ingredients": {
+   "fah-177-i1": {
+    "name": "Cibule",
+    "standardAmount": "1"
+   },
+   "fah-177-i2": {
+    "name": "Rajčata",
+    "standardAmount": "1"
+   },
+   "fah-177-i3": {
+    "name": "Zelená paprika",
+    "standardAmount": "1"
+   },
+   "fah-177-i4": {
+    "name": "olej",
+    "standardAmount": "3 lžíce"
+   },
+   "fah-177-i5": {
+    "name": "Vařené boby",
+    "standardAmount": "2 šálky"
+   },
+   "fah-177-i6": {
+    "name": "Voda",
+    "standardAmount": "¼ šálku"
+   },
+   "fah-177-i7": {
+    "name": "Sůl",
+    "standardAmount": "podle chuti"
+   },
+   "fah-177-i8": {
+    "name": "Černý pepř",
+    "standardAmount": "podle chuti"
+   },
+   "fah-177-i9": {
+    "name": "Kmín",
+    "standardAmount": "1 lžička"
+   },
+   "fah-177-i10": {
+    "name": "Mletý koriandr",
+    "standardAmount": "1 lžička"
+   },
+   "fah-177-i11": {
+    "name": "Chilli prášek",
+    "standardAmount": "špetka"
+   },
+   "fah-177-i12": {
+    "name": "Dřevěné uhlí",
+    "standardAmount": "1 malý kousek"
+   }
+  },
+  "instructions": {
+   "1": "Cibuli, rajčata a zelenou papriku najemno nasekejte v kuchyňském robotu.",
+   "2": "V pánvi na ohni rozehřejte olej.",
+   "3": "Přidejte nasekanou cibuli a míchejte, dokud lehce nezazlátne.",
+   "4": "Přidejte směs cibule, rajčat a zelené papriky a dobře míchejte, dokud nezhustne.",
+   "5": "Přidejte boby a čtvrt šálku vody a rozmačkejte, dokud boby nejsou hladké.",
+   "6": "Přidejte sůl, černý pepř, kmín, koriandr a chilli a dobře promíchejte.",
+   "7": "Přidejte rozmačkané boby ke směsi a dobře promíchejte.",
+   "8": "Nalijte do servírovacího tajinu a postavte jej na mírný oheň.",
+   "9": "Přidejte malý kousek dřevěného uhlí a kapku oleje a tajin přikryjte.",
+   "10": "Nechte 5 minut.",
+   "11": "Boby podávejte horké s rukolou a nakládanou zeleninou."
+  }
+ },
+ "fah-178": {
+  "title": "Fúl bil-tawdíb (boby s kořeněnými směsemi)",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Luštěniny",
+  "cookingMethod": "Pečení",
+  "prepTime": "20 min",
+  "cookTime": "60 min",
+  "servings": "4 porce",
+  "culturalNotes": "Omáčka vydrží v lednici dlouho bez zkázy. Boby můžete podávat jakýmkoli způsobem preferujete, rozmačkané nebo celé.",
+  "ingredients": {
+   "fah-178-i1": {
+    "name": "boby",
+    "standardAmount": "½ kg"
+   },
+   "fah-178-i2": {
+    "name": "Cizrna",
+    "standardAmount": "1 šálek"
+   },
+   "fah-178-i3": {
+    "name": "Pšeničné zrno",
+    "standardAmount": "1 šálek"
+   },
+   "fah-178-i4": {
+    "name": "Loupané boby",
+    "standardAmount": "2 šálky"
+   },
+   "fah-178-i5": {
+    "name": "Mrkev",
+    "standardAmount": "1 velká, nastrouhaná"
+   },
+   "fah-178-i6": {
+    "name": "Voda",
+    "standardAmount": "dle potřeby"
+   },
+   "fah-178-i7": {
+    "name": "Rýžová mouka",
+    "standardAmount": "½ šálku"
+   },
+   "fah-178-i8": {
+    "name": "Kurkuma",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-178-i9": {
+    "name": "Ghee (samna)",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-178-i10": {
+    "name": "Basturma (uzené hovězí maso)",
+    "standardAmount": "2 kusy"
+   },
+   "fah-178-i11": {
+    "name": "Zelená paprika",
+    "standardAmount": "podle chuti"
+   },
+   "fah-178-i12": {
+    "name": "Boby po kahramánsku",
+    "standardAmount": "podle chuti"
+   },
+   "fah-178-i13": {
+    "name": "Sůl",
+    "standardAmount": "podle chuti"
+   },
+   "fah-178-i14": {
+    "name": "Pepř",
+    "standardAmount": "podle chuti"
+   },
+   "fah-178-i15": {
+    "name": "Vejce",
+    "standardAmount": "3"
+   },
+   "fah-178-i16": {
+    "name": "olej",
+    "standardAmount": "podle chuti"
+   },
+   "fah-178-i17": {
+    "name": "Cibule",
+    "standardAmount": "1 malá, nasekaná"
+   },
+   "fah-178-i18": {
+    "name": "Česnek, drcený",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-178-i19": {
+    "name": "Rajčata",
+    "standardAmount": "1 malé, na kostičky"
+   },
+   "fah-178-i20": {
+    "name": "paprika",
+    "standardAmount": "1 malý kus"
+   },
+   "fah-178-i21": {
+    "name": "Pálivá chilli paprička",
+    "standardAmount": "1 malý kus"
+   },
+   "fah-178-i22": {
+    "name": "Rajský protlak",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-178-i23": {
+    "name": "Kmín",
+    "standardAmount": "špetka"
+   },
+   "fah-178-i24": {
+    "name": "Mletý koriandr",
+    "standardAmount": "špetka"
+   },
+   "fah-178-i25": {
+    "name": "Chilli prášek",
+    "standardAmount": "špetka"
+   },
+   "fah-178-i26": {
+    "name": "Tahini",
+    "standardAmount": "¼ šálku"
+   },
+   "fah-178-i27": {
+    "name": "ocet",
+    "standardAmount": "¼ šálku"
+   },
+   "fah-178-i28": {
+    "name": "Dukka (směs drceného česneku a kmínu)",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-178-i29": {
+    "name": "Jogurt",
+    "standardAmount": "1 kelímek"
+   },
+   "fah-178-i30": {
+    "name": "petržel",
+    "standardAmount": "podle chuti"
+   },
+   "fah-178-i31": {
+    "name": "Olivový olej",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Boby, cizrnu, pšeničné zrno a loupané boby namočte do vroucí vody přes noc.",
+   "2": "Vodu sceďte a ingredience dejte do velkého hrnce.",
+   "3": "Přidejte nastrouhanou mrkev a přikryjte vodou, aby ingredience přesahovala asi o 6 cm.",
+   "4": "Hrnec postavte na vysoký oheň, dokud voda nezačne vařit, poté oheň snižte a nechte vařit do měkka.",
+   "5": "Přidejte půl šálku rýžové mouky a lžíci kurkumy a dobře promíchejte.",
+   "6": "Přidejte boby po kahramánsku a dobře promíchejte.",
+   "7": "Do jiné pánve přidejte dvě lžíce ghee a opečte basturmu a zelenou papriku, poté přidejte boby a dobře promíchejte.",
+   "8": "Přidejte sůl a pepř, poté směs dejte do tajinu a do trouby.",
+   "9": "Do jiné pánve přidejte olej, drcenou cibuli a drcený česnek, poté přidejte rajčata, papriku, pálivou chilli papričku a rajský protlak a dobře promíchejte.",
+   "10": "Přidejte sůl, kmín, koriandr a chilli, poté přidejte boby a dobře promíchejte.",
+   "11": "Omáčku připravte smícháním tahini, octa, dukky, vroucí vody a oleje, poté ji vychlaďte v lednici.",
+   "12": "Boby dejte do mixéru a rozmixujte, poté přidejte olej, kmín a sůl a dobře promíchejte.",
+   "13": "Boby dejte do pánve a míchejte na ohni se špetkou kmínu a soli, poté přidejte omáčku.",
+   "14": "Boby dejte do pánve s jogurtem a dukkou, poté přidejte cibuli, papriku, rajčata a petržel a dobře promíchejte.",
+   "15": "Navrch pokapejte olivovým olejem."
+  }
+ },
+ "fah-179": {
+  "title": "Fúl bid-dukka (boby s drceným česnekem a kmínem)",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Luštěniny",
+  "cookingMethod": "Pomalé vaření",
+  "prepTime": "20 min",
+  "cookTime": "60 min",
+  "servings": "4 porce",
+  "culturalNotes": "Omáčka vydrží v lednici dlouho bez zkázy. Boby můžete podávat s chlebem, sýrem a olivami.",
+  "ingredients": {
+   "fah-179-i1": {
+    "name": "boby",
+    "standardAmount": "½ kg"
+   },
+   "fah-179-i2": {
+    "name": "Cizrna",
+    "standardAmount": "1 šálek"
+   },
+   "fah-179-i3": {
+    "name": "Pšeničné zrno",
+    "standardAmount": "1 šálek"
+   },
+   "fah-179-i4": {
+    "name": "Loupané boby",
+    "standardAmount": "2 šálky"
+   },
+   "fah-179-i5": {
+    "name": "Mrkev",
+    "standardAmount": "1 velký kus, nastrouhaná"
+   },
+   "fah-179-i6": {
+    "name": "Rýžová mouka",
+    "standardAmount": "½ šálku"
+   },
+   "fah-179-i7": {
+    "name": "Kurkuma",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-179-i8": {
+    "name": "Voda",
+    "standardAmount": "tolik, aby pokryla boby"
+   },
+   "fah-179-i9": {
+    "name": "Ghee (samna)",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-179-i10": {
+    "name": "Basturma (uzené hovězí maso)",
+    "standardAmount": "2 kusy"
+   },
+   "fah-179-i11": {
+    "name": "Zelená paprika",
+    "standardAmount": "podle chuti"
+   },
+   "fah-179-i12": {
+    "name": "Boby po kahramánsku",
+    "standardAmount": "podle chuti"
+   },
+   "fah-179-i13": {
+    "name": "Sůl",
+    "standardAmount": "podle chuti"
+   },
+   "fah-179-i14": {
+    "name": "Pepř",
+    "standardAmount": "podle chuti"
+   },
+   "fah-179-i15": {
+    "name": "Vejce",
+    "standardAmount": "3"
+   },
+   "fah-179-i16": {
+    "name": "olej",
+    "standardAmount": "podle chuti"
+   },
+   "fah-179-i17": {
+    "name": "Cibule",
+    "standardAmount": "1 malý kus, nasekaná"
+   },
+   "fah-179-i18": {
+    "name": "Česnek, drcený",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-179-i19": {
+    "name": "Rajčata",
+    "standardAmount": "1 malý kus, na kostičky"
+   },
+   "fah-179-i20": {
+    "name": "paprika",
+    "standardAmount": "proužek"
+   },
+   "fah-179-i21": {
+    "name": "Pálivá chilli paprička",
+    "standardAmount": "1 malý kus"
+   },
+   "fah-179-i22": {
+    "name": "Rajský protlak",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-179-i23": {
+    "name": "Kmín",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-179-i24": {
+    "name": "Mletý koriandr",
+    "standardAmount": "špetka"
+   },
+   "fah-179-i25": {
+    "name": "Chilli prášek",
+    "standardAmount": "špetka"
+   },
+   "fah-179-i26": {
+    "name": "Tahini",
+    "standardAmount": "¼ šálku"
+   },
+   "fah-179-i27": {
+    "name": "ocet",
+    "standardAmount": "¼ šálku"
+   },
+   "fah-179-i28": {
+    "name": "Dukka (směs drceného česneku a kmínu)",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-179-i29": {
+    "name": "Jogurt",
+    "standardAmount": "1 kelímek"
+   },
+   "fah-179-i30": {
+    "name": "petržel",
+    "standardAmount": "podle chuti"
+   },
+   "fah-179-i31": {
+    "name": "Olivový olej",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Boby, cizrnu, pšeničné zrno a loupané boby namočte do vroucí vody přes noc.",
+   "2": "Vodu sceďte a boby dejte do velkého hrnce.",
+   "3": "Přidejte nastrouhanou mrkev a vroucí vodu, aby boby přesahovala asi o 6 centimetrů.",
+   "4": "Hrnec přikryjte a postavte na vysoký oheň, dokud voda nezačne vařit.",
+   "5": "Oheň snižte a nechte boby vařit na mírném ohni do měkka.",
+   "6": "Přidejte půl šálku rýžové mouky, lžíci kurkumy a šálek vody a dobře promíchejte.",
+   "7": "Nechte boby vařit dalších 10 minut, dokud konzistence není správná.",
+   "8": "Pro první kořeněnou směs: přidejte dvě lžíce ghee, dva kusy basturmy, zelenou papriku a boby po kahramánsku a míchejte na ohni.",
+   "9": "Přidejte sůl a pepř, poté směs dejte do tajinu, doprostřed bobů vložte vejce a navrch přidejte lžíci ghee.",
+   "10": "Pro druhou kořeněnou směs: přidejte trochu oleje, lžíci drceného česneku a drcené cibule a orestujte na ohni.",
+   "11": "Přidejte rajčata, papriku, pálivou chilli papričku a rajský protlak a dobře promíchejte.",
+   "12": "Přidejte sůl, kmín, koriandr a chilli, poté na směs položte boby a dobře promíchejte.",
+   "13": "Pro omáčku: smíchejte tahini, ocet, dukku, kmín, koriandr, chilli a vroucí vodu, poté přidejte olej a dobře promíchejte.",
+   "14": "Pro třetí kořeněnou směs: boby promíchejte s olejem, kmínem a solí, poté směs dejte do pánve a přidejte omáčku.",
+   "15": "Pro čtvrtou kořeněnou směs: jogurt promíchejte s dukkou, česnekem a pepřem, poté přidejte vařené boby a dobře promíchejte.",
+   "16": "Přidejte cibuli, rajčata, pálivou chilli papričku a petržel a dobře promíchejte.",
+   "17": "Směs dejte do pánve a přidejte olivový olej."
+  }
+ },
+ "fah-180": {
+  "title": "Fúl mutabbaš (drcené boby)",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Luštěniny",
+  "cookingMethod": "Pomalé vaření",
+  "prepTime": "20 min",
+  "cookTime": "30 min",
+  "servings": "4 porce",
+  "culturalNotes": "Můžete přidat více koření podle chuti. Boby vydrží v lednici až 3 dny.",
+  "ingredients": {
+   "fah-180-i1": {
+    "name": "paprika",
+    "standardAmount": "1"
+   },
+   "fah-180-i2": {
+    "name": "Cibule",
+    "standardAmount": "1"
+   },
+   "fah-180-i3": {
+    "name": "Pálivé chilli papričky",
+    "standardAmount": "1"
+   },
+   "fah-180-i4": {
+    "name": "Rajčata",
+    "standardAmount": "2-3"
+   },
+   "fah-180-i5": {
+    "name": "Česnek",
+    "standardAmount": "3 stroužky"
+   },
+   "fah-180-i6": {
+    "name": "Pálivé a sladké papriky",
+    "standardAmount": "podle chuti"
+   },
+   "fah-180-i7": {
+    "name": "Čerstvý koriandr",
+    "standardAmount": "podle chuti"
+   },
+   "fah-180-i8": {
+    "name": "Sůl",
+    "standardAmount": "podle chuti"
+   },
+   "fah-180-i9": {
+    "name": "Černý pepř",
+    "standardAmount": "podle chuti"
+   },
+   "fah-180-i10": {
+    "name": "Kmín",
+    "standardAmount": "podle chuti"
+   },
+   "fah-180-i11": {
+    "name": "ocet",
+    "standardAmount": "stříknutí"
+   },
+   "fah-180-i12": {
+    "name": "boby",
+    "standardAmount": "podle chuti"
+   },
+   "fah-180-i13": {
+    "name": "Tahini",
+    "standardAmount": "trochu"
+   },
+   "fah-180-i14": {
+    "name": "Baladí chléb",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Papriku, cibuli, rajčata a pálivou chilli papričku nakrájejte na malé kousky.",
+   "2": "Česnek, pálivé a sladké papriky a čerstvý koriandr přidejte do kuchyňského robota a dobře je rozdrťte.",
+   "3": "Ke směsi přidejte sůl, černý pepř, kmín a koriandr a znovu rozdrťte.",
+   "4": "Ke směsi přidejte ocet a dobře rozdrťte — to je dukka.",
+   "5": "Pánev rozehřejte na ohni a přidejte nasekanou cibuli.",
+   "6": "Jakmile cibule změkne, přidejte rajčata, papriku a pálivou chilli papričku.",
+   "7": "Ke směsi přidejte kmín, koriandr a sůl a dobře promíchejte.",
+   "8": "Ke směsi přidejte boby a promíchejte dohromady.",
+   "9": "Ke směsi přidejte vroucí vodu a nechte ji 10 minut vařit.",
+   "10": "Jakmile je směs hotová, nalijte ji na servírovací mísu.",
+   "11": "Přidejte připravenou dukku a tahini.",
+   "12": "Boby podávejte s baladí chlebem."
+  }
+ },
+ "fah-181": {
+  "title": "Pražené boby (fúl mišwí)",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Luštěniny",
+  "cookingMethod": "Grilování",
+  "prepTime": "20 min",
+  "cookTime": "1-1½ hodiny",
+  "servings": "4-6 porcí",
+  "culturalNotes": "Při ukládání pražených bobů nikdy nepoužívejte mokrý lžíci ani ruce — zůstanou tak čerstvé déle.",
+  "ingredients": {
+   "fah-181-i1": {
+    "name": "Vlčí bob (termis, velký)",
+    "standardAmount": "1 šálek"
+   },
+   "fah-181-i2": {
+    "name": "Cizrna (velká)",
+    "standardAmount": "1 šálek"
+   },
+   "fah-181-i3": {
+    "name": "boby",
+    "standardAmount": "1 šálek"
+   },
+   "fah-181-i4": {
+    "name": "Voda",
+    "standardAmount": "dle potřeby"
+   },
+   "fah-181-i5": {
+    "name": "Sůl",
+    "standardAmount": "4 lžíce"
+   },
+   "fah-181-i6": {
+    "name": "Kmín",
+    "standardAmount": "1 lžička"
+   },
+   "fah-181-i7": {
+    "name": "Paprika",
+    "standardAmount": "1 lžička"
+   },
+   "fah-181-i8": {
+    "name": "Chilli prášek",
+    "standardAmount": "1 lžička, nebo podle chuti"
+   },
+   "fah-181-i9": {
+    "name": "Citronová šťáva",
+    "standardAmount": "3-4, vymačkané"
+   },
+   "fah-181-i10": {
+    "name": "Harisa",
+    "standardAmount": "1 lžička (volitelná)"
+   }
+  },
+  "instructions": {
+   "1": "Termis a cizrnu namočte na 3 hodiny do vroucí vody.",
+   "2": "Termis a cizrnu sceďte a dobře je umyjte.",
+   "3": "Termis a cizrnu vařte ve vroucí vodě hodinu až hodinu a půl.",
+   "4": "Boby sceďte a dobře je umyjte.",
+   "5": "Boby opražte na středním ohni, dokud nezískají barvu.",
+   "6": "Boby dejte do mísy, zalijte je vroucí vodou se dvěma lžícemi soli a nechte, dokud nezměknou.",
+   "7": "Připravte dukku: v míse smíchejte vodu, sůl, kmín, papriku, chilli a citronovou šťávu.",
+   "8": "K dukce přidejte termis, cizrnu a boby a zcela je ponořte.",
+   "9": "Směs nechte dvě až tři hodiny.",
+   "10": "Pražené boby skladujte v lednici v uzavřených nádobách."
+  }
+ },
+ "fah-182": {
+  "title": "Fúl mu'alla'a (boby na pánvi)",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Luštěniny",
+  "cookingMethod": "Pomalé vaření",
+  "prepTime": "20 min",
+  "cookTime": "60 min",
+  "servings": "4 porce",
+  "culturalNotes": "Omáčka vydrží v lednici dlouho bez zkázy. Boby můžete podávat s chlebem nebo rakákem (křupavý plackový chléb).",
+  "ingredients": {
+   "fah-182-i1": {
+    "name": "boby",
+    "standardAmount": "½ kg"
+   },
+   "fah-182-i2": {
+    "name": "Cizrna",
+    "standardAmount": "1 šálek"
+   },
+   "fah-182-i3": {
+    "name": "Pšeničné zrno",
+    "standardAmount": "1 šálek"
+   },
+   "fah-182-i4": {
+    "name": "Loupané boby",
+    "standardAmount": "2 šálky"
+   },
+   "fah-182-i5": {
+    "name": "Mrkev",
+    "standardAmount": "1 velká"
+   },
+   "fah-182-i6": {
+    "name": "Voda",
+    "standardAmount": "dle potřeby"
+   },
+   "fah-182-i7": {
+    "name": "Rýžová mouka",
+    "standardAmount": "½ šálku"
+   },
+   "fah-182-i8": {
+    "name": "Kurkuma",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-182-i9": {
+    "name": "Ghee (samna)",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-182-i10": {
+    "name": "Basturma (uzené hovězí maso)",
+    "standardAmount": "2 kusy"
+   },
+   "fah-182-i11": {
+    "name": "Zelená paprika",
+    "standardAmount": "podle chuti"
+   },
+   "fah-182-i12": {
+    "name": "Boby po kahramánsku",
+    "standardAmount": "podle chuti"
+   },
+   "fah-182-i13": {
+    "name": "Sůl",
+    "standardAmount": "podle chuti"
+   },
+   "fah-182-i14": {
+    "name": "Pepř",
+    "standardAmount": "podle chuti"
+   },
+   "fah-182-i15": {
+    "name": "Vejce",
+    "standardAmount": "3"
+   },
+   "fah-182-i16": {
+    "name": "olej",
+    "standardAmount": "podle chuti"
+   },
+   "fah-182-i17": {
+    "name": "Cibule",
+    "standardAmount": "2 malé"
+   },
+   "fah-182-i18": {
+    "name": "Rajčata",
+    "standardAmount": "kus"
+   },
+   "fah-182-i19": {
+    "name": "paprika",
+    "standardAmount": "kus"
+   },
+   "fah-182-i20": {
+    "name": "Pálivá chilli paprička",
+    "standardAmount": "1 kus"
+   },
+   "fah-182-i21": {
+    "name": "Rajský protlak",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-182-i22": {
+    "name": "Kmín",
+    "standardAmount": "špetka"
+   },
+   "fah-182-i23": {
+    "name": "Mletý koriandr",
+    "standardAmount": "špetka"
+   },
+   "fah-182-i24": {
+    "name": "Chilli prášek",
+    "standardAmount": "špetka"
+   },
+   "fah-182-i25": {
+    "name": "Tahini",
+    "standardAmount": "¼ šálku"
+   },
+   "fah-182-i26": {
+    "name": "ocet",
+    "standardAmount": "¼ šálku"
+   },
+   "fah-182-i27": {
+    "name": "Dukka (směs drceného česneku a kmínu)",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-182-i28": {
+    "name": "Jogurt",
+    "standardAmount": "1 kelímek"
+   },
+   "fah-182-i29": {
+    "name": "petržel",
+    "standardAmount": "podle chuti"
+   },
+   "fah-182-i30": {
+    "name": "Olivový olej",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Boby, cizrnu, pšeničné zrno a loupané boby namočte do vroucí vody přes noc.",
+   "2": "Vodu sceďte a boby dejte do velkého hrnce.",
+   "3": "Přidejte nastrouhanou mrkev a vodu, aby boby přesahovala asi o 6 cm.",
+   "4": "Hrnec přikryjte a postavte na vysoký oheň, dokud voda nezačne vařit.",
+   "5": "Oheň snižte a nechte boby vařit na mírném ohni do měkka.",
+   "6": "Přidejte půl šálku rýžové mouky a kurkumu a dobře promíchejte.",
+   "7": "Přidejte dvě lžíce ghee, dva kusy basturmy, zelenou papriku a boby po kahramánsku a míchejte na ohni.",
+   "8": "Boby přendejte do tajinu, doprostřed vložte vejce a přidejte lžíci ghee.",
+   "9": "Přidejte trochu oleje, drcenou cibuli, rajčata, papriku, pálivou chilli papričku, rajský protlak, sůl, kmín, koriandr a chilli a dobře promíchejte.",
+   "10": "Přidejte tahini, ocet, dukku a vroucí vodu a dobře míchejte, dokud nezhustne.",
+   "11": "Přidejte boby rozmixované v mixéru a míchejte na ohni se špetkou kmínu a soli.",
+   "12": "Přidejte jogurt, dukku a vařené boby a dobře promíchejte.",
+   "13": "Přidejte cibuli, rajčata, papriku, pálivou chilli papričku a petržel a dobře promíchejte.",
+   "14": "Boby podávejte horké s omáčkou a jogurtem."
+  }
+ },
+ "fah-772": {
+  "title": "Ledové karamelové macchiato",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zmrzlina",
+  "cookingMethod": "Saláty a nápoje",
+  "prepTime": "10 min",
+  "cookTime": "",
+  "servings": "1 šálek",
+  "culturalNotes": "Pokud nemáte k dispozici kávovar na espresso, můžete použít mletou kávu. K výrobě karamelového sirupu doma funguje i hnědý cukr.",
+  "ingredients": {
+   "fah-772-i1": {
+    "name": "Espresso",
+    "standardAmount": "2 shoty"
+   },
+   "fah-772-i2": {
+    "name": "Mléko",
+    "standardAmount": "podle chuti"
+   },
+   "fah-772-i3": {
+    "name": "Našlehané mléko",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-772-i4": {
+    "name": "Karamelový sirup",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-772-i5": {
+    "name": "Led",
+    "standardAmount": "podle chuti"
+   },
+   "fah-772-i6": {
+    "name": "Smetana",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Připravte espresso: vyrobte 2 shoty pomocí kávovaru na espresso, nebo promíchejte lžíci mleté kávy s půl šálkem horké vody.",
+   "2": "Přidejte našlehané mléko: nalijte lžíci našlehaného mléka do šálku.",
+   "3": "Přidejte sirup: nalijte lžíci karamelového sirupu do šálku.",
+   "4": "Espresso, našlehané mléko a karamelový sirup společně dobře promíchejte.",
+   "5": "Do šálku přidejte led podle libosti.",
+   "6": "Přidejte mléko podle libosti.",
+   "7": "Na dokončení ozdobte šlehačkou.",
+   "8": "Podávejte ihned za studena."
+  }
+ },
+ "fah-773": {
+  "title": "Zmrzlina z opuncie",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zmrzlina",
+  "cookingMethod": "Saláty a nápoje",
+  "prepTime": "20 min",
+  "cookTime": "",
+  "servings": "4-6 porcí",
+  "culturalNotes": "Pro silnější chuť můžete přidat malé kousky čerstvé opuncie. Zmrzlina vydrží v mrazničce až týden.",
+  "ingredients": {
+   "fah-773-i1": {
+    "name": "Šťáva z opuncie",
+    "standardAmount": "3 šálky"
+   },
+   "fah-773-i2": {
+    "name": "Smetana ke šlehání (crème chantilly)",
+    "standardAmount": "1 šálek"
+   },
+   "fah-773-i3": {
+    "name": "Moučkový cukr",
+    "standardAmount": "½ šálku"
+   },
+   "fah-773-i4": {
+    "name": "vanilka",
+    "standardAmount": "1 lžička"
+   },
+   "fah-773-i5": {
+    "name": "Žluté potravinářské barvivo",
+    "standardAmount": "kapka"
+   }
+  },
+  "instructions": {
+   "1": "Do mísy přidejte 3 šálky šťávy z opuncie.",
+   "2": "Přidejte 1 šálek smetany ke šlehání.",
+   "3": "Přidejte ½ šálku moučkového cukru.",
+   "4": "Přidejte 1 lžičku vanilky.",
+   "5": "Přidejte kapku žlutého potravinářského barviva.",
+   "6": "Ingredience dobře promíchejte, dokud se nespojí.",
+   "7": "Směs dejte do nádoby a přikryjte ji.",
+   "8": "Nádobu vložte do mrazničky alespoň na 4 hodiny.",
+   "9": "Po 4 hodinách nádobu vyjměte a zkontrolujte, že konzistence zhoustla."
+  }
+ },
+ "fah-774": {
+  "title": "Zmrzlina agamija (medovo-sezamová hmota)",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zmrzlina",
+  "cookingMethod": "Pomalé vaření",
+  "prepTime": "20 min",
+  "cookTime": "10 min",
+  "servings": "4 porce",
+  "culturalNotes": "Do základní zmrzlinové směsi můžete přidat další příchutě, jako je jahoda nebo vanilka. Zmrzlina vydrží v mrazničce až týden.",
+  "ingredients": {
+   "fah-774-i1": {
+    "name": "Smetana ke šlehání",
+    "standardAmount": "1 litr"
+   },
+   "fah-774-i2": {
+    "name": "Slazené kondenzované mléko",
+    "standardAmount": "1 šálek"
+   },
+   "fah-774-i3": {
+    "name": "Agamija (medovo-sezamová hmota)",
+    "standardAmount": "podle chuti"
+   },
+   "fah-774-i4": {
+    "name": "Ghee (samna)",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-774-i5": {
+    "name": "Rozinky",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-774-i6": {
+    "name": "Med",
+    "standardAmount": "1/2 šálku"
+   },
+   "fah-774-i7": {
+    "name": "vlašské ořechy",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "V míse smetanu dobře vyšlehejte do husta.",
+   "2": "Přidejte slazené kondenzované mléko a společně šlehejte, dokud se nespojí.",
+   "3": "Agamiju opečte na pánvi na mírném ohni s ghee dozlatova.",
+   "4": "Přidejte med, rozinky a vlašské ořechy a dobře promíchejte.",
+   "5": "Opečenou agamiju vmíchejte do zmrzlinové směsi.",
+   "6": "Směs nalijte do nádoby a zmrazte alespoň na 6 hodin.",
+   "7": "Před podáváním ponořte naběračku do horké vody pro snadnější nabírání."
+  }
+ },
+ "fah-775": {
+  "title": "Ovocná zmrzlina (kiwi, čokoládový banán, jahoda)",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zmrzlina",
+  "cookingMethod": "Saláty a nápoje",
+  "prepTime": "20 min",
+  "cookTime": "2-3 hodiny",
+  "servings": "4-6 porcí",
+  "culturalNotes": "Můžete použít jakékoli oblíbené ovoce a přidat další příchutě, jako je vanilka nebo mandlě, podle chuti.",
+  "ingredients": {
+   "fah-775-i1": {
+    "name": "Kiwi",
+    "standardAmount": "podle chuti"
+   },
+   "fah-775-i2": {
+    "name": "Jogurt",
+    "standardAmount": "1 šálek"
+   },
+   "fah-775-i3": {
+    "name": "Šlehačkový prášek (crème chantilly)",
+    "standardAmount": "1 sáček"
+   },
+   "fah-775-i4": {
+    "name": "Med",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-775-i5": {
+    "name": "Banány",
+    "standardAmount": "podle chuti"
+   },
+   "fah-775-i6": {
+    "name": "Čokoláda",
+    "standardAmount": "podle chuti"
+   },
+   "fah-775-i7": {
+    "name": "kakaový prášek",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-775-i8": {
+    "name": "Jahody",
+    "standardAmount": "podle chuti"
+   },
+   "fah-775-i9": {
+    "name": "mléko",
+    "standardAmount": "1 malý šálek"
+   }
+  },
+  "instructions": {
+   "1": "Ovoce oloupejte a nakrájejte na malé kousky.",
+   "2": "Ovoce dejte do sáčků a uložte je do mrazničky.",
+   "3": "Vyberte své oblíbené ovoce (kiwi, čokoládový banán, jahoda).",
+   "4": "Ovoce s jogurtem a smetanou ke šlehání rozmixujte v mixéru.",
+   "5": "Pokud chcete větší sladkost, přidejte med.",
+   "6": "Pokud chcete čokoládovou chuť, přidejte kakao.",
+   "7": "Ingredience dobře rozmixujte dohladka.",
+   "8": "Směs nalijte do nádoby a zmrazte na dvě až tři hodiny.",
+   "9": "Během mražení směs jednou nebo dvakrát promíchejte pro jemnější texturu.",
+   "10": "Zmrzlinu podávejte hned po zmrazení."
+  }
+ },
+ "fah-776": {
+  "title": "Levná ovocná zmrzlina",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zmrzlina",
+  "cookingMethod": "Saláty a nápoje",
+  "prepTime": "20 min",
+  "cookTime": "",
+  "servings": "3 sklenice",
+  "culturalNotes": "Funguje různé zmrazené ovoce — jahody, mango a banán. Pokud není med k dispozici, můžete také použít sirup na východní sladkosti (šarbát).",
+  "ingredients": {
+   "fah-776-i1": {
+    "name": "Zmrazené ovoce",
+    "standardAmount": "½ kg"
+   },
+   "fah-776-i2": {
+    "name": "šlehačkový prášek chantilly",
+    "standardAmount": "3 lžíce"
+   },
+   "fah-776-i3": {
+    "name": "Jogurt",
+    "standardAmount": "2 kelímky (po 100 g)"
+   },
+   "fah-776-i4": {
+    "name": "Studené mléko",
+    "standardAmount": "¼ šálku"
+   },
+   "fah-776-i5": {
+    "name": "Med",
+    "standardAmount": "3 lžíce, nebo podle chuti"
+   },
+   "fah-776-i6": {
+    "name": "Citronová šťáva",
+    "standardAmount": "1 citron"
+   },
+   "fah-776-i7": {
+    "name": "Potravinářské barvivo",
+    "standardAmount": "1 kapka (volitelná)"
+   }
+  },
+  "instructions": {
+   "1": "Zmrazené ovoce, smetanu ke šlehání, jogurt, citronovou šťávu a studené mléko rozmixujte v mixéru.",
+   "2": "Přidejte med podle chuti a mixujte 5 minut, dokud se nespojí.",
+   "3": "Pokud chcete výraznější barvu, přidejte potravinářské barvivo.",
+   "4": "Směs nalijte do čistých, suchých nádob a přikryjte je.",
+   "5": "Nádoby zmrazte alespoň na 8 hodin.",
+   "6": "Po zmrazení zmrzlinu podávejte v pohárech a ozdobte podle libosti."
+  }
+ },
+ "fah-777": {
+  "title": "Melounová zmrzlina",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zmrzlina",
+  "cookingMethod": "Saláty a nápoje",
+  "prepTime": "20 min",
+  "cookTime": "",
+  "servings": "4 porce",
+  "culturalNotes": "Pro tuto zmrzlinu můžete použít jakékoli oblíbené ovoce. Vydrží v mrazničce až 3 dny.",
+  "ingredients": {
+   "fah-777-i1": {
+    "name": "Cukrový meloun",
+    "standardAmount": "½ kg"
+   },
+   "fah-777-i2": {
+    "name": "Ananasový želatinový prášek",
+    "standardAmount": "1 sáček"
+   },
+   "fah-777-i3": {
+    "name": "Jogurt",
+    "standardAmount": "120 g"
+   },
+   "fah-777-i4": {
+    "name": "bílý med",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-777-i5": {
+    "name": "Přírodní potravinářské barvivo",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Meloun oloupejte a nakrájejte na malé kousky.",
+   "2": "Kousky dejte do sáčku a zmrazte je do tuhého stavu.",
+   "3": "Do míchací mísy dejte zmrazený meloun, jogurtové mléko a bílý med.",
+   "4": "Přidejte rozpuštěný ananasový želatinový prášek a dobře promíchejte.",
+   "5": "Pokud chcete, přidejte špetku potravinářského barviva a promíchejte pro jasnější barvu.",
+   "6": "Směs přikryjte a zmrazte alespoň na 30 minut.",
+   "7": "Před podáváním směs znovu rozmixujte pro hladkou texturu.",
+   "8": "Zmrzlinu podávejte v pohárech nebo malých miskách."
+  }
+ },
+ "fah-778": {
+  "title": "Kunáfová zmrzlina",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zmrzlina",
+  "cookingMethod": "Saláty a nápoje",
+  "prepTime": "20 min",
+  "cookTime": "3 min",
+  "servings": "4 porce",
+  "culturalNotes": "Mango lze nahradit jakýmkoli zmrazeným ovocem. Zmrzlina vydrží v mrazničce až týden.",
+  "ingredients": {
+   "fah-778-i1": {
+    "name": "Zmrazené mango",
+    "standardAmount": "1 kg"
+   },
+   "fah-778-i2": {
+    "name": "Tekuté mléko",
+    "standardAmount": "1 šálek"
+   },
+   "fah-778-i3": {
+    "name": "Šlehačkový prášek (crème chantilly)",
+    "standardAmount": "1 sáček"
+   },
+   "fah-778-i4": {
+    "name": "Těsto kunáfa",
+    "standardAmount": "podle chuti"
+   },
+   "fah-778-i5": {
+    "name": "Ghee (samna)",
+    "standardAmount": "½ šálku"
+   },
+   "fah-778-i6": {
+    "name": "Med",
+    "standardAmount": "2 lžíce"
+   }
+  },
+  "instructions": {
+   "1": "Zmrazené mango, mléko a smetanu ke šlehání rozmixujte v mixéru dohladka.",
+   "2": "Směs nalijte do nádoby a zmrazte na 3 hodiny.",
+   "3": "Kunáfu vyjměte z mrazničky a nakrájejte ji na malé kousky.",
+   "4": "K kunáfě přidejte půl šálku ghee a dobře promíchejte.",
+   "5": "Troubu rozehřejte na nejvyšší teplotu a kunáfu opečte do křupava.",
+   "6": "K opečené kunáfě přidejte dvě lžíce medu a dobře promíchejte.",
+   "7": "Mangovou zmrzlinu vyjměte z mrazničky a navrch dejte křupavou kunáfu.",
+   "8": "Zmrzlinu vraťte do mrazničky na další dvě hodiny.",
+   "9": "Zmrzlinu podávejte v pohárech a užijte si skvělou chuť."
+  }
+ },
+ "fah-779": {
+  "title": "Zmrzlina s karamelovými sušenkami",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zmrzlina",
+  "cookingMethod": "Saláty a nápoje",
+  "prepTime": "20 min",
+  "cookTime": "10 min",
+  "servings": "4 porce",
+  "culturalNotes": "Můžete přidat další příchutě, jako je jahoda nebo vanilka. Pro nejlepší výsledek zajistěte, aby smetana a kondenzované mléko byly před mícháním studené.",
+  "ingredients": {
+   "fah-779-i1": {
+    "name": "Smetana ke šlehání",
+    "standardAmount": "1 litr"
+   },
+   "fah-779-i2": {
+    "name": "Slazené kondenzované mléko",
+    "standardAmount": "1 šálek"
+   },
+   "fah-779-i3": {
+    "name": "Smetana ke šlehání",
+    "standardAmount": "4 lžíce"
+   },
+   "fah-779-i4": {
+    "name": "Karamelový sušenkový krém",
+    "standardAmount": "3 lžíce"
+   },
+   "fah-779-i5": {
+    "name": "Karamelové sušenky",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "V míse smetanu dobře vyšlehejte.",
+   "2": "Přidejte slazené kondenzované mléko a míchejte, dokud se nespojí.",
+   "3": "Přidejte 4 lžíce smetany ke šlehání a vmíchejte do předchozí směsi.",
+   "4": "Přidejte 3 lžíce karamelového sušenkového krému a dobře promíchejte.",
+   "5": "Směs dejte do nádoby a posypte ji drcenými karamelovými sušenkami.",
+   "6": "Nádobu přikryjte a zmrazte alespoň na 6 hodin.",
+   "7": "Před podáváním ponořte naběračku do horké vody pro snadnější nabírání."
+  }
+ },
+ "fah-780": {
+  "title": "Nanuky z kakaových sušenek",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zmrzlina",
+  "cookingMethod": "Saláty a nápoje",
+  "prepTime": "20 min",
+  "cookTime": "",
+  "servings": "10-12 pohárů",
+  "culturalNotes": "Podávejte v obyčejných pohárech, nebo je ponořte do rozpuštěné čokolády pro křupavou vnější vrstvu. Pokud nechcete používat dřívka, stačí lžička.",
+  "ingredients": {
+   "fah-780-i1": {
+    "name": "Kakaové sušenky s krémovou náplní",
+    "standardAmount": "6 balení"
+   },
+   "fah-780-i2": {
+    "name": "Slazené kondenzované mléko",
+    "standardAmount": "½ šálku"
+   },
+   "fah-780-i3": {
+    "name": "Dezertní smetana",
+    "standardAmount": "1½ šálku (nebo 1 kelímek ešty s ½ šálkem mléka)"
+   }
+  },
+  "instructions": {
+   "1": "Šest balení sušenek rozlámejte na malé kousky.",
+   "2": "Smetanu šlehejte v míse dvě minuty.",
+   "3": "Přidejte kondenzované mléko a šlehejte další dvě minuty.",
+   "4": "Do směsi vmíchejte nalámané kousky sušenek.",
+   "5": "Směs nalijte do zmrzlinových pohárů.",
+   "6": "Poháry zmrazte alespoň na 6 hodin, dokud neztuhnou.",
+   "7": "Podávejte tak, jak jsou, nebo ponořené do rozpuštěné čokolády."
+  }
+ },
+ "fah-781": {
+  "title": "Zmrzlina bez vajec a bez strojku",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zmrzlina",
+  "cookingMethod": "Saláty a nápoje",
+  "prepTime": "20 min",
+  "cookTime": "",
+  "servings": "4 různé příchutě",
+  "culturalNotes": "Podle chuti můžete přidat další ingredience, jako je kompotované ovoce nebo ořechy. Zmrzlina vydrží v mrazničce dlouho.",
+  "ingredients": {
+   "fah-781-i1": {
+    "name": "Chlazené mléko",
+    "standardAmount": "2½ šálku"
+   },
+   "fah-781-i2": {
+    "name": "Smetana ke šlehání",
+    "standardAmount": "1 šálek"
+   },
+   "fah-781-i3": {
+    "name": "Slazené kondenzované mléko",
+    "standardAmount": "1 šálek"
+   },
+   "fah-781-i4": {
+    "name": "Smetana ke šlehání",
+    "standardAmount": "200 ml"
+   },
+   "fah-781-i5": {
+    "name": "Karamelová omáčka",
+    "standardAmount": "3 lžíce"
+   },
+   "fah-781-i6": {
+    "name": "Tekutá vanilka",
+    "standardAmount": "½ lžičky"
+   },
+   "fah-781-i7": {
+    "name": "Instantní černá káva",
+    "standardAmount": "1 sáček"
+   },
+   "fah-781-i8": {
+    "name": "Čokoládová pomazánka",
+    "standardAmount": "3 lžíce"
+   },
+   "fah-781-i9": {
+    "name": "Nezpracované kakao",
+    "standardAmount": "1 lžíce"
+   }
+  },
+  "instructions": {
+   "1": "V míse promíchejte šálek smetany ke šlehání s 2½ šálku chlazeného mléka a šlehejte 5 minut do husta.",
+   "2": "Přidejte smetanu ke šlehání a minutu šlehejte.",
+   "3": "Přidejte šálek kondenzovaného mléka a šlehejte další minutu, dokud se nespojí.",
+   "4": "Směs rozdělte mezi 4 vzduchotěsné nádoby.",
+   "5": "Do jedné nádoby přidejte 3 lžíce karamelové omáčky a dobře promíchejte.",
+   "6": "Do jiné nádoby přidejte půl lžičky tekuté vanilky a dobře promíchejte.",
+   "7": "Do další nádoby přidejte sáček černé kávy a dobře promíchejte.",
+   "8": "Do poslední nádoby přidejte 3 lžíce čokoládové pomazánky a 1 lžíci kakaa a dobře promíchejte.",
+   "9": "Nádoby zmrazte alespoň na 8 hodin.",
+   "10": "Po 8 hodinách nádoby vyjměte z mrazničky a zmrzlinu podávejte v pohárech nebo miskách.",
+   "11": "Zmrzlinu ozdobte karamelovou omáčkou a ořechy podle libosti."
+  }
+ },
+ "fah-782": {
+  "title": "Zdravá levná jahodová zmrzlina",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zmrzlina",
+  "cookingMethod": "Saláty a nápoje",
+  "prepTime": "5 min",
+  "cookTime": "",
+  "servings": "4 porce",
+  "culturalNotes": "Pro silnější chuť můžete přidat trochu přírodní jahodové šťávy. Vydrží v mrazničce až týden.",
+  "ingredients": {
+   "fah-782-i1": {
+    "name": "Jahody",
+    "standardAmount": "podle chuti"
+   },
+   "fah-782-i2": {
+    "name": "Cukr",
+    "standardAmount": "podle chuti"
+   },
+   "fah-782-i3": {
+    "name": "Mléko",
+    "standardAmount": "podle chuti"
+   },
+   "fah-782-i4": {
+    "name": "Smetana ke šlehání",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Nakrájené jahody promíchejte v míse s cukrem, mlékem a smetanou ke šlehání.",
+   "2": "Směs zmrazte na hodinu.",
+   "3": "Vyjměte ji z mrazničky a dobře ji prošlehejte v kuchyňském robotu.",
+   "4": "Směs vraťte do mrazničky na dalších 30 minut.",
+   "5": "Ještě jednou ji vyjměte a znovu prošlehejte.",
+   "6": "Podávejte v pohárech nebo malých miskách."
+  }
+ },
+ "fah-783": {
+  "title": "Domácí zmrzlina ve třech příchutích: vanilka, karamel a čokoláda",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zmrzlina",
+  "cookingMethod": "Saláty a nápoje",
+  "prepTime": "20 min",
+  "cookTime": "10 min",
+  "servings": "8 porcí",
+  "culturalNotes": "Fungují jakékoli drcené sušenky. Pro zvýraznění chuti můžete také přidat sušené ovoce nebo ořechy.",
+  "ingredients": {
+   "fah-783-i1": {
+    "name": "Mléko",
+    "standardAmount": "1 litr"
+   },
+   "fah-783-i2": {
+    "name": "Cukr",
+    "standardAmount": "1 šálek"
+   },
+   "fah-783-i3": {
+    "name": "Kukuřičný škrob",
+    "standardAmount": "3 lžíce"
+   },
+   "fah-783-i4": {
+    "name": "Máslo",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-783-i5": {
+    "name": "Šlehačkový prášek",
+    "standardAmount": "3 sáčky"
+   },
+   "fah-783-i6": {
+    "name": "vanilka",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-783-i7": {
+    "name": "Chlazené mléko",
+    "standardAmount": "1 šálek"
+   },
+   "fah-783-i8": {
+    "name": "Karamel",
+    "standardAmount": "3 lžíce"
+   },
+   "fah-783-i9": {
+    "name": "Drcené piškoty",
+    "standardAmount": "½ šálku"
+   },
+   "fah-783-i10": {
+    "name": "Kakao",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-783-i11": {
+    "name": "Čokoládové kousky",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-783-i12": {
+    "name": "Rozpuštěná čokoláda",
+    "standardAmount": "3 lžíce"
+   }
+  },
+  "instructions": {
+   "1": "V míse dobře promíchejte mléko, cukr a kukuřičný škrob.",
+   "2": "Směs postavte na střední oheň a míchejte, dokud nezačne vařit a zhustne.",
+   "3": "Přidejte máslo a míchejte, dokud se nerozpustí.",
+   "4": "Směs stáhněte z ohně a nechte ji mírně vychladnout.",
+   "5": "Přidejte 3 sáčky šlehačkového prášku, lžíci vanilky a šálek chlazeného mléka. Míchejte dobře 7 minut.",
+   "6": "Směs přendejte do mísy a vychlaďte ji v lednici dvě hodiny, dokud není zcela studená.",
+   "7": "Po vychlazení směs rozdělte na tři části.",
+   "8": "Pro vanilkovou příchuť: jednu část dobře promíchejte.",
+   "9": "Pro karamelovou příchuť: přidejte 3 lžíce karamelu a půl šálku drcených sušenek. Dobře promíchejte.",
+   "10": "Pro čokoládovou příchuť: přidejte 2 lžíce kakaa, 2 lžíce čokoládových kousků a 3 lžíce rozpuštěné čokolády. Dobře promíchejte.",
+   "11": "Příchutě dejte do nádob a zmrazte na 4–6 hodin, dokud neztuhnou.",
+   "12": "Před podáváním nechte zmrzlinu 10 minut změknout, poté podávejte."
+  }
+ },
+ "fah-784": {
+  "title": "Zmrzlinový dort",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zmrzlina",
+  "cookingMethod": "Saláty a nápoje",
+  "prepTime": "20 min",
+  "cookTime": "5-6 hodin",
+  "servings": "6-8 porcí",
+  "culturalNotes": "Podle libosti můžete použít různé příchutě zmrzliny. Dort vydrží v mrazničce až 3 dny.",
+  "ingredients": {
+   "fah-784-i1": {
+    "name": "Mouka",
+    "standardAmount": "½ šálku"
+   },
+   "fah-784-i2": {
+    "name": "Cukr",
+    "standardAmount": "½ šálku"
+   },
+   "fah-784-i3": {
+    "name": "Vejce",
+    "standardAmount": "3"
+   },
+   "fah-784-i4": {
+    "name": "Vanilka",
+    "standardAmount": "1 lžička"
+   },
+   "fah-784-i5": {
+    "name": "Prášek do pečiva",
+    "standardAmount": "¼ lžičky"
+   },
+   "fah-784-i6": {
+    "name": "Sůl",
+    "standardAmount": "špetka"
+   },
+   "fah-784-i7": {
+    "name": "Vanilkový zmrzlinový prášek",
+    "standardAmount": "2 sáčky"
+   },
+   "fah-784-i8": {
+    "name": "Chlazené mléko",
+    "standardAmount": "1¼ šálku na sáček"
+   },
+   "fah-784-i9": {
+    "name": "Čokoládový zmrzlinový prášek",
+    "standardAmount": "2 sáčky"
+   },
+   "fah-784-i10": {
+    "name": "cukrový sirup",
+    "standardAmount": "podle chuti"
+   },
+   "fah-784-i11": {
+    "name": "Zmrzlinové koule",
+    "standardAmount": "podle chuti"
+   },
+   "fah-784-i12": {
+    "name": "Čokoládová omáčka",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Připravte dort: v míse promíchejte mouku, cukr, prášek do pečiva a sůl.",
+   "2": "Přidejte vejce a vanilku a míchejte, dokud se nespojí.",
+   "3": "Těsto nalijte do vymazaného, vysypaného plechu.",
+   "4": "Pečte v předehřáté troubě na 180°C po dobu 20 minut, nebo dokud není zlatý.",
+   "5": "Dort vyjměte z trouby a nechte jej vychladnout.",
+   "6": "Připravte vanilkovou zmrzlinu: vanilkový zmrzlinový prášek promíchejte s chlazeným mlékem a šlehejte 7 minut.",
+   "7": "Připravte čokoládovou zmrzlinu: čokoládový zmrzlinový prášek promíchejte s chlazeným mlékem a šlehejte 7 minut.",
+   "8": "Vychladlý dort pokapejte řídkým sirupem.",
+   "9": "Čokoládovou zmrzlinu rovnoměrně rozetřete po dortu.",
+   "10": "Vanilkovou zmrzlinu rovnoměrně rozetřete po čokoládové vrstvě.",
+   "11": "Formou jemně zatřepte, aby se zmrzlina srovnala.",
+   "12": "Dort zmrazte na 5–6 hodin, dokud neztuhne.",
+   "13": "Dort vyjměte a ozdobte zmrzlinovými koulemi a čokoládovou omáčkou."
+  }
+ },
+ "fah-158": {
+  "title": "Artyčoky s bešamelem",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zelenina",
+  "cookingMethod": "Pečení",
+  "prepTime": "20 min",
+  "cookTime": "30 min",
+  "servings": "4 porce",
+  "culturalNotes": "Vařené artyčoky vydrží v mrazničce dlouho. Pokrm podávejte horký se zeleným salátem.",
+  "ingredients": {
+   "fah-158-i1": {
+    "name": "artyčoky",
+    "standardAmount": "podle chuti"
+   },
+   "fah-158-i2": {
+    "name": "Mleté hovězí maso",
+    "standardAmount": "1 kg"
+   },
+   "fah-158-i3": {
+    "name": "Cibule",
+    "standardAmount": "½ kg"
+   },
+   "fah-158-i4": {
+    "name": "Sůl",
+    "standardAmount": "podle chuti"
+   },
+   "fah-158-i5": {
+    "name": "Pepř",
+    "standardAmount": "podle chuti"
+   },
+   "fah-158-i6": {
+    "name": "Cukr",
+    "standardAmount": "podle chuti"
+   },
+   "fah-158-i7": {
+    "name": "Skořice",
+    "standardAmount": "podle chuti"
+   },
+   "fah-158-i8": {
+    "name": "Směs sedmi koření",
+    "standardAmount": "1 lžička"
+   },
+   "fah-158-i9": {
+    "name": "Ghee nebo olej",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-158-i10": {
+    "name": "Mouka",
+    "standardAmount": "5 lžic"
+   },
+   "fah-158-i11": {
+    "name": "Smetanový sýr",
+    "standardAmount": "4 kusy"
+   },
+   "fah-158-i12": {
+    "name": "Smetana",
+    "standardAmount": "1 šálek"
+   },
+   "fah-158-i13": {
+    "name": "Teplé mléko",
+    "standardAmount": "1 litr"
+   },
+   "fah-158-i14": {
+    "name": "Muškátový oříšek",
+    "standardAmount": "podle chuti"
+   },
+   "fah-158-i15": {
+    "name": "Vývar",
+    "standardAmount": "1 kostka"
+   },
+   "fah-158-i16": {
+    "name": "Ghee nebo máslo",
+    "standardAmount": "3 lžíce"
+   },
+   "fah-158-i17": {
+    "name": "Ešta (tučná smetana)",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-158-i18": {
+    "name": "mléko",
+    "standardAmount": "2 lžíce"
+   }
+  },
+  "instructions": {
+   "1": "Artyčoky umyjte a oloupejte je ostrým nožem, poté lžící vyjměte vnitřní srdce.",
+   "2": "Artyčoky namočte na 3 minuty do vroucí vody, poté je v případě skladování opláchněte studenou vodou.",
+   "3": "V pánvi na ohni roztopte ghee nebo olej, přidejte nasekanou cibuli a orestujte dozlatova.",
+   "4": "Přidejte mleté maso a dobře promíchejte, poté přidejte sůl, pepř, cukr, skořici a směs sedmi koření a dobře promíchejte.",
+   "5": "V hrnci na ohni roztopte ghee nebo máslo, přidejte mouku a míchejte, dokud nezbledne.",
+   "6": "Za stálého míchání postupně přidávejte teplé mléko, poté přidejte sůl, pepř, muškátový oříšek, smetanový sýr a smetanu a dobře promíchejte — to je bešamel.",
+   "7": "Tajin vymažte ghee nebo máslem, artyčoky naplňte kořeněným masem a rozložte je v tajinu.",
+   "8": "Artyčoky zalijte bešamelem, poté navrch dejte směs ešty a mléka.",
+   "9": "Tajin vložte do předehřáté horké trouby, dokud vrch nezezlátne."
+  }
+ },
+ "fah-159": {
+  "title": "Salát z lilku a paprik bez oleje",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zelenina",
+  "cookingMethod": "Pomalé vaření",
+  "prepTime": "20 min",
+  "cookTime": "10 min",
+  "servings": "4 porce",
+  "culturalNotes": "Chutný pokrm, který funguje samostatně nebo jako příloha ke košarí, bramborám a bobům. Hodí se také jako snídaňový talíř.",
+  "ingredients": {
+   "fah-159-i1": {
+    "name": "velký lilek",
+    "standardAmount": "podle chuti"
+   },
+   "fah-159-i2": {
+    "name": "Paprika",
+    "standardAmount": "podle chuti"
+   },
+   "fah-159-i3": {
+    "name": "Sůl",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-159-i4": {
+    "name": "ocet",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-159-i5": {
+    "name": "Olivový olej",
+    "standardAmount": "trochu"
+   },
+   "fah-159-i6": {
+    "name": "Čerstvý koriandr, nasekaný",
+    "standardAmount": "trochu"
+   }
+  },
+  "instructions": {
+   "1": "Lilky nakrájejte na střední kostky.",
+   "2": "Papriky nakrájejte na velké kusy — použijte pálivé nebo sladké papriky podle libosti.",
+   "3": "Připravte hrnec vroucí vody a přidejte lžíci soli a dvě lžíce octa.",
+   "4": "Do vroucí vody přidejte lilek a papriky, hrnec přikryjte a nechte 10 minut.",
+   "5": "Po 10 minutách lilek a papriky sceďte v cedníku, aby se odstranila přebytečná voda.",
+   "6": "Lilek a papriky dejte do mísy, přidejte trochu olivového oleje a nasekaný čerstvý koriandr.",
+   "7": "Ingredience dobře promíchejte dohromady.",
+   "8": "Přidejte trochu octa a ještě jednou promíchejte."
+  }
+ },
+ "fah-160": {
+  "title": "Křupavý květák paneé",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zelenina",
+  "cookingMethod": "Pomalé vaření",
+  "prepTime": "20 min",
+  "cookTime": "30 min",
+  "servings": "4 porce",
+  "culturalNotes": "Květák při obalování netlačte naplocho — obal nechte volný, aby zůstal křupavý. Obalený květák lze před smažením zmrazit a použít později.",
+  "ingredients": {
+   "fah-160-i1": {
+    "name": "Květák",
+    "standardAmount": "1 hlávka"
+   },
+   "fah-160-i2": {
+    "name": "Mouka",
+    "standardAmount": "2 šálky"
+   },
+   "fah-160-i3": {
+    "name": "Škrob",
+    "standardAmount": "1/2 šálku"
+   },
+   "fah-160-i4": {
+    "name": "Vejce",
+    "standardAmount": "2"
+   },
+   "fah-160-i5": {
+    "name": "Česnek, drcený",
+    "standardAmount": "1 lžička"
+   },
+   "fah-160-i6": {
+    "name": "petržel",
+    "standardAmount": "podle chuti"
+   },
+   "fah-160-i7": {
+    "name": "Sůl",
+    "standardAmount": "podle chuti"
+   },
+   "fah-160-i8": {
+    "name": "Pepř",
+    "standardAmount": "podle chuti"
+   },
+   "fah-160-i9": {
+    "name": "Kmín",
+    "standardAmount": "1 lžička"
+   },
+   "fah-160-i10": {
+    "name": "Paprika",
+    "standardAmount": "podle chuti"
+   },
+   "fah-160-i11": {
+    "name": "Česnekový prášek",
+    "standardAmount": "podle chuti"
+   },
+   "fah-160-i12": {
+    "name": "Prášek do pečiva",
+    "standardAmount": "1 lžička"
+   },
+   "fah-160-i13": {
+    "name": "Olej na smažení",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Květák dobře umyjte a rozeberte ho na malé růžičky.",
+   "2": "Přiveďte hrnec vody k varu, poté přidejte lžíci soli a lžičku kmínu.",
+   "3": "Květák vhoďte do vroucí vody a krátce povařte, poté sceďte a přendejte do studené vody, aby se zastavilo vaření.",
+   "4": "V míse promíchejte mouku, kukuřičný škrob a koření (sůl, pepř, kmín, papriku, česnekový prášek, prášek do pečiva).",
+   "5": "Do poloviny suché směsi přidejte rozšlehaná vejce, drcený česnek a petržel, poté za míchání postupně přidávejte vodu, dokud konzistence není jako těsto na lívance.",
+   "6": "Růžičky květáku namočte do mokré směsi, poté je obalte v suché směsi.",
+   "7": "Květák smažte v horkém oleji na středním ohni, dokud není zlatý a křupavý.",
+   "8": "Květák paneé podávejte na lůžku z nasekané petržele."
+  }
+ },
+ "fah-161": {
+  "title": "Vařené a nakládané brambory",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zelenina",
+  "cookingMethod": "Vaření",
+  "prepTime": "20 min",
+  "cookTime": "10 min",
+  "servings": "4 porce",
+  "culturalNotes": "Vařené brambory vydrží v lednici a lze je použít v různých receptech.",
+  "ingredients": {
+   "fah-161-i1": {
+    "name": "brambory",
+    "standardAmount": "3-4"
+   },
+   "fah-161-i2": {
+    "name": "Sůl",
+    "standardAmount": "podle chuti"
+   },
+   "fah-161-i3": {
+    "name": "Dukka (směs drceného česneku a kmínu)",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-161-i4": {
+    "name": "olej",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-161-i5": {
+    "name": "Kurkuma",
+    "standardAmount": "1/4 lžičky"
+   },
+   "fah-161-i6": {
+    "name": "kopr",
+    "standardAmount": "podle chuti"
+   },
+   "fah-161-i7": {
+    "name": "petržel",
+    "standardAmount": "podle chuti"
+   },
+   "fah-161-i8": {
+    "name": "ocet",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-161-i9": {
+    "name": "Zelená paprika",
+    "standardAmount": "1"
+   },
+   "fah-161-i10": {
+    "name": "Červená paprika",
+    "standardAmount": "1"
+   },
+   "fah-161-i11": {
+    "name": "Česnek, drcený",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-161-i12": {
+    "name": "Kmín",
+    "standardAmount": "podle chuti"
+   },
+   "fah-161-i13": {
+    "name": "Mletý koriandr",
+    "standardAmount": "podle chuti"
+   },
+   "fah-161-i14": {
+    "name": "Máslo",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-161-i15": {
+    "name": "Kousky bílého sýra",
+    "standardAmount": "podle chuti"
+   },
+   "fah-161-i16": {
+    "name": "Sýr mozzarella",
+    "standardAmount": "podle chuti"
+   },
+   "fah-161-i17": {
+    "name": "Rajčata",
+    "standardAmount": "podle chuti"
+   },
+   "fah-161-i18": {
+    "name": "Vejce",
+    "standardAmount": "podle chuti"
+   },
+   "fah-161-i19": {
+    "name": "Směs sýrů",
+    "standardAmount": "podle chuti"
+   },
+   "fah-161-i20": {
+    "name": "Černý pepř",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Brambory uvařte v osolené vodě do poloměkka.",
+   "2": "Brambory oloupejte a nakrájejte je na kostky.",
+   "3": "Dukku promíchejte s olejem a kurkumou.",
+   "4": "Směs dukky přidejte k bramborovým kostkám a dobře promíchejte.",
+   "5": "Přidejte kopr a petržel a promíchejte dohromady.",
+   "6": "Podávejte na servírovací misce."
+  }
+ },
+ "fah-162": {
+  "title": "Křupavé bramborové kostky",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zelenina",
+  "cookingMethod": "Smažení",
+  "prepTime": "10 min",
+  "cookTime": "15 min",
+  "servings": "4 porce",
+  "culturalNotes": "Smažené brambory podávejte jako svačinu nebo jako součást hlavního jídla. Čerstvé bylinky jako petržel nebo koriandr dodají chuť.",
+  "ingredients": {
+   "fah-162-i1": {
+    "name": "Brambory",
+    "standardAmount": "½ kg"
+   },
+   "fah-162-i2": {
+    "name": "olej",
+    "standardAmount": "podle chuti"
+   },
+   "fah-162-i3": {
+    "name": "Sůl",
+    "standardAmount": "podle chuti"
+   },
+   "fah-162-i4": {
+    "name": "Černý pepř",
+    "standardAmount": "podle chuti"
+   },
+   "fah-162-i5": {
+    "name": "Cukr",
+    "standardAmount": "špetka"
+   }
+  },
+  "instructions": {
+   "1": "Brambory oloupejte a nakrájejte je na malé kostky.",
+   "2": "Kostky dobře opláchněte ve studené vodě.",
+   "3": "V pánvi rozehřejte olej na středním ohni.",
+   "4": "Do horkého oleje přidejte bramborové kostky a dobře promíchejte.",
+   "5": "Přidejte sůl, černý pepř a cukr a promíchejte dohromady.",
+   "6": "Smažte dál, dokud brambory nejsou zlaté a křupavé.",
+   "7": "Osmažené brambory nechte okapat na savém papíru."
+  }
+ },
+ "fah-163": {
+  "title": "Nakládané okurky a mrkev",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zelenina",
+  "cookingMethod": "Konzervování a mražení",
+  "prepTime": "20 min",
+  "cookTime": "6 hodin",
+  "servings": "dle potřeby",
+  "culturalNotes": "Při podávání nakládané zeleniny vždy používejte čistou, suchou lžíci, aby se netvořil povlak. Nakládaná zelenina vydrží v lednici až dva týdny.",
+  "ingredients": {
+   "fah-163-i1": {
+    "name": "Baladí okurky",
+    "standardAmount": "dle potřeby"
+   },
+   "fah-163-i2": {
+    "name": "Mrkev",
+    "standardAmount": "podle chuti"
+   },
+   "fah-163-i3": {
+    "name": "Paprika",
+    "standardAmount": "podle chuti"
+   },
+   "fah-163-i4": {
+    "name": "celer",
+    "standardAmount": "podle chuti"
+   },
+   "fah-163-i5": {
+    "name": "Bobkový list",
+    "standardAmount": "3 listy"
+   },
+   "fah-163-i6": {
+    "name": "Černuchová semínka",
+    "standardAmount": "1 lžička"
+   },
+   "fah-163-i7": {
+    "name": "Kurkuma",
+    "standardAmount": "1 lžička"
+   },
+   "fah-163-i8": {
+    "name": "Sůl",
+    "standardAmount": "4 lžíce"
+   },
+   "fah-163-i9": {
+    "name": "Cukr",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-163-i10": {
+    "name": "ocet",
+    "standardAmount": "¼ šálku"
+   },
+   "fah-163-i11": {
+    "name": "Olej",
+    "standardAmount": "několik kapek"
+   },
+   "fah-163-i12": {
+    "name": "Česnek",
+    "standardAmount": "podle chuti"
+   },
+   "fah-163-i13": {
+    "name": "Pálivé chilli papričky",
+    "standardAmount": "podle chuti"
+   },
+   "fah-163-i14": {
+    "name": "Mletý koriandr",
+    "standardAmount": "podle chuti"
+   },
+   "fah-163-i15": {
+    "name": "Kmín",
+    "standardAmount": "podle chuti"
+   },
+   "fah-163-i16": {
+    "name": "citron",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Okurky a mrkev dobře umyjte a nakrájejte je na tenké plátky.",
+   "2": "Vložte je do mísy s plátky papriky a celerem.",
+   "3": "Připravte nálev: svařte litr vody a přidejte 4 lžíce soli, lžíci cukru, lžičku kurkumy a čtvrt šálku octa. Dobře promíchejte.",
+   "4": "Nálev nalijte na okurky a mrkev v misce.",
+   "5": "Přidejte bobkové listy, černuchová semínka, česnek, pálivou chilli papričku, koriandr a kmín.",
+   "6": "Mísu dobře přikryjte a nechte alespoň 6 hodin.",
+   "7": "Po 6 hodinách jsou okurky připravené k jídlu; mrkev nechte ještě den nebo dva.",
+   "8": "Navrch nálevu přidejte několik kapek oleje k uchování."
+  }
+ },
+ "fah-164": {
+  "title": "Špenát s orzo",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zelenina",
+  "cookingMethod": "Pomalé vaření",
+  "prepTime": "20 min",
+  "cookTime": "40 min",
+  "servings": "4 porce",
+  "culturalNotes": "Špenát s orzo podávejte s rýží s vermicelli a opečeným masem. Zbytky vydrží v lednici dva dny.",
+  "ingredients": {
+   "fah-164-i1": {
+    "name": "Ghee (samna)",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-164-i2": {
+    "name": "bobkový list",
+    "standardAmount": "1 sáček"
+   },
+   "fah-164-i3": {
+    "name": "Masticha",
+    "standardAmount": "1"
+   },
+   "fah-164-i4": {
+    "name": "Kardamomový tobolka",
+    "standardAmount": "1"
+   },
+   "fah-164-i5": {
+    "name": "Černý pepř",
+    "standardAmount": "podle chuti"
+   },
+   "fah-164-i6": {
+    "name": "Mrkev",
+    "standardAmount": "1"
+   },
+   "fah-164-i7": {
+    "name": "Cibule",
+    "standardAmount": "1"
+   },
+   "fah-164-i8": {
+    "name": "Rajčata",
+    "standardAmount": "1"
+   },
+   "fah-164-i9": {
+    "name": "Hovězí kližka (mozza)",
+    "standardAmount": "300 g"
+   },
+   "fah-164-i10": {
+    "name": "Vroucí voda",
+    "standardAmount": "1 šálek"
+   },
+   "fah-164-i11": {
+    "name": "Sůl",
+    "standardAmount": "podle chuti"
+   },
+   "fah-164-i12": {
+    "name": "Cukr",
+    "standardAmount": "1 lžička"
+   },
+   "fah-164-i13": {
+    "name": "Špenát",
+    "standardAmount": "1.5 kg"
+   },
+   "fah-164-i14": {
+    "name": "Čerstvý koriandr",
+    "standardAmount": "2 svazky"
+   },
+   "fah-164-i15": {
+    "name": "Ghee (samna)",
+    "standardAmount": "1 lžička"
+   },
+   "fah-164-i16": {
+    "name": "Česnek, nasekaný",
+    "standardAmount": "1 lžička"
+   },
+   "fah-164-i17": {
+    "name": "Orzo (lisán asfúr)",
+    "standardAmount": "4 lžíce"
+   },
+   "fah-164-i18": {
+    "name": "olej",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-164-i19": {
+    "name": "Vermicelli",
+    "standardAmount": "1 šálek"
+   },
+   "fah-164-i20": {
+    "name": "Rýže",
+    "standardAmount": "2 šálky"
+   }
+  },
+  "instructions": {
+   "1": "Hrnec zahřejte na ohni a přidejte lžíci ghee.",
+   "2": "Přidejte bobkový list, mastichu, kardamomovou tobolku a černý pepř.",
+   "3": "Přidejte mrkev, cibuli a rajčata a dobře promíchejte.",
+   "4": "Přidejte hovězí kližku a míchejte, dokud nezazlátne a neuzavře se.",
+   "5": "Přidejte vroucí vodu, sůl a cukr, poté hrnec přikryjte a nechte na mírném ohni, dokud maso není hotové.",
+   "6": "V jiném hrnci rozehřejte ghee a olej, přidejte orzo a míchejte dozlatova.",
+   "7": "Přidejte nasekaná rajčata, vývarovou kostku, sůl a cukr, promíchejte dohromady a nechte rajčata zhoustnout.",
+   "8": "Přidejte špenát a koriandr a dobře míchejte, dokud nezhustne.",
+   "9": "Orzo přidejte ke špenátu, promíchejte dohromady, poté hrnec přikryjte a nechte na mírném ohni 15 minut.",
+   "10": "V malém hrnci rozehřejte dvě lžíce oleje a lžíci ghee, přidejte vermicelli a míchejte dozlatova.",
+   "11": "Přidejte rýži a míchejte s vermicelli, dokud se nespojí.",
+   "12": "Přidejte vroucí vodu a sůl, hrnec přikryjte a nechte rýži vstřebat tekutinu.",
+   "13": "Po vstřebání rýži lehce promíchejte, poté přikryjte a nechte na mírném ohni, dokud není hotová.",
+   "14": "V jiném hrnci rozehřejte trochu oleje a ghee, přidejte maso a míchejte, dokud nezazlátne.",
+   "15": "Přidejte sůl, černý pepř a petržel a míchejte, dokud maso není hotové."
+  }
+ },
+ "fah-165": {
+  "title": "Nakládaná rajčata",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zelenina",
+  "cookingMethod": "Konzervování a mražení",
+  "prepTime": "20 min",
+  "cookTime": "",
+  "servings": "4 porce",
+  "culturalNotes": "Nakládaná rajčata se hodí ke košarí nebo k jakémukoli pokrmu, který máte rádi.",
+  "ingredients": {
+   "fah-165-i1": {
+    "name": "Rajčata",
+    "standardAmount": "podle chuti"
+   },
+   "fah-165-i2": {
+    "name": "Tadbíla (bylinkovo-česneková náplň)",
+    "standardAmount": "dle potřeby"
+   }
+  },
+  "instructions": {
+   "1": "Rajčata dobře umyjte.",
+   "2": "Rajčata nakrájejte na tenké plátky a základnu nechte připojenou.",
+   "3": "Mezi každý plátek vložte tadbílu.",
+   "4": "Rajčata dejte do nádoby a přikryjte.",
+   "5": "Rajčata skladujte v lednici až 3 měsíce."
+  }
+ },
+ "fah-166": {
+  "title": "Nakládané papriky",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zelenina",
+  "cookingMethod": "Konzervování a mražení",
+  "prepTime": "20 min",
+  "cookTime": "5 min",
+  "servings": "4 porce",
+  "culturalNotes": "Nakládané papriky vydrží v lednici dva týdny. Podávejte je s boby, ta'amijou, bramborami, msakka'ou a košarí — dodají skvělou chuť.",
+  "ingredients": {
+   "fah-166-i1": {
+    "name": "Pálivé papriky, červené a zelené",
+    "standardAmount": "asi 1 kg"
+   },
+   "fah-166-i2": {
+    "name": "Sůl",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-166-i3": {
+    "name": "ocet",
+    "standardAmount": "¼ šálku"
+   },
+   "fah-166-i4": {
+    "name": "Česnek, nasekaný",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-166-i5": {
+    "name": "Mletý koriandr",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-166-i6": {
+    "name": "Kmín",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-166-i7": {
+    "name": "olej",
+    "standardAmount": "podle chuti"
+   }
+  },
+  "instructions": {
+   "1": "Papriky nakrájejte na malé kousky, 2–3 cm.",
+   "2": "Do hrnce přidejte 4 šálky vody a postavte jej na oheň.",
+   "3": "Do vody přidejte 2 lžíce soli.",
+   "4": "Do vody přidejte koriandr, kmín a drcený česnek.",
+   "5": "Dobře míchejte, dokud se sůl nerozpustí.",
+   "6": "Do vroucí vody přidejte kousky paprik a vařte 2–3 minuty.",
+   "7": "Do vody přidejte ocet a hrnec stáhněte z ohně.",
+   "8": "Papriky nechte vychladnout.",
+   "9": "Papriky napěchujte do nádoby a skladujte v lednici.",
+   "10": "Pokud chcete, navrch přidejte trochu oleje."
+  }
+ },
+ "fah-167": {
+  "title": "Baladí smíšená nakládaná zelenina",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zelenina",
+  "cookingMethod": "Konzervování a mražení",
+  "prepTime": "20 min",
+  "cookTime": "3 dny",
+  "servings": "4 sklenice",
+  "culturalNotes": "Před použitím zajistěte, aby sklenice byly dokonale čisté. Lžička koření na nakládání v nálevu vylepší chuť.",
+  "ingredients": {
+   "fah-167-i1": {
+    "name": "Malé nakládací citrony",
+    "standardAmount": "dle potřeby"
+   },
+   "fah-167-i2": {
+    "name": "Mrkev",
+    "standardAmount": "podle chuti"
+   },
+   "fah-167-i3": {
+    "name": "Květák",
+    "standardAmount": "dle potřeby"
+   },
+   "fah-167-i4": {
+    "name": "Baladí okurky",
+    "standardAmount": "dle potřeby"
+   },
+   "fah-167-i5": {
+    "name": "Zelené a jalapeño papriky",
+    "standardAmount": "dle potřeby"
+   },
+   "fah-167-i6": {
+    "name": "Sůl",
+    "standardAmount": "4 lžíce na litr vody"
+   },
+   "fah-167-i7": {
+    "name": "ocet",
+    "standardAmount": "½ šálku na litr vody"
+   },
+   "fah-167-i8": {
+    "name": "Citronová šťáva",
+    "standardAmount": "¼ šálku na litr vody"
+   },
+   "fah-167-i9": {
+    "name": "Černuchová semínka",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-167-i10": {
+    "name": "Česnek",
+    "standardAmount": "1 lžička"
+   },
+   "fah-167-i11": {
+    "name": "Kurkuma",
+    "standardAmount": "1 lžička"
+   },
+   "fah-167-i12": {
+    "name": "Harisa",
+    "standardAmount": "2 lžíce"
+   },
+   "fah-167-i13": {
+    "name": "olej",
+    "standardAmount": "2 lžíce na sklenici"
+   }
+  },
+  "instructions": {
+   "1": "Citrony dobře umyjte a namočte je na 10 minut do vroucí vody.",
+   "2": "Mrkev oloupejte, nakrájejte ji na malé kousky a namočte na 10 minut do vroucí vody.",
+   "3": "Z květáku odstraňte listy, rozeberte jej na malé růžičky a namočte na 10 minut do vroucí vody s půl lžičkou kmínu.",
+   "4": "Okurky umyjte, nakrájejte na malé kousky a namočte do vroucí vody.",
+   "5": "Zelené a jalapeño papriky nakrájejte a namočte je do vroucí vody.",
+   "6": "Veškerou zeleninu sceďte a napěchujte ji do čistých sklenic.",
+   "7": "Připravte nálev smícháním vody, soli, octa, citronové šťávy, černuchových semínek, česneku, kurkumy a harisy.",
+   "8": "Nálev nalijte na zeleninu ve sklenicích, dokud není zcela pokrytá.",
+   "9": "Navrch každé sklenice přidejte dvě lžíce oleje, aby se zamezilo přístupu vzduchu.",
+   "10": "Sklenice dobře uzavřete a před použitím nechte 3 dny odstát."
+  }
+ },
+ "fah-168": {
+  "title": "Nakládaná smíšená zelenina",
+  "chapter": "Chapter 10: Fatma Abu Haty Channel Recipes",
+  "category": "Zelenina",
+  "cookingMethod": "Konzervování a mražení",
+  "prepTime": "20 min",
+  "cookTime": "30 min",
+  "servings": "podle množství",
+  "culturalNotes": "Používejte čisté, sterilizované sklenice a nakládanou zeleninu dobře přikryjte nálevem, aby se nezkazila. Zbylá dukka vydrží v mrazničce na později.",
+  "ingredients": {
+   "fah-168-i1": {
+    "name": "Červené papriky, pálivé a sladké",
+    "standardAmount": "½ kg"
+   },
+   "fah-168-i2": {
+    "name": "Pálivé chilli papričky",
+    "standardAmount": "podle chuti"
+   },
+   "fah-168-i3": {
+    "name": "Jalapeño papriky",
+    "standardAmount": "dle potřeby"
+   },
+   "fah-168-i4": {
+    "name": "ocet",
+    "standardAmount": "½ šálku"
+   },
+   "fah-168-i5": {
+    "name": "Citronová šťáva",
+    "standardAmount": "½ šálku"
+   },
+   "fah-168-i6": {
+    "name": "Sůl",
+    "standardAmount": "3 lžíce"
+   },
+   "fah-168-i7": {
+    "name": "Kmín",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-168-i8": {
+    "name": "Mletý koriandr",
+    "standardAmount": "1 lžíce"
+   },
+   "fah-168-i9": {
+    "name": "Cukr",
+    "standardAmount": "¼ šálku"
+   },
+   "fah-168-i10": {
+    "name": "Stroužky česneku",
+    "standardAmount": "2"
+   },
+   "fah-168-i11": {
+    "name": "Květák",
+    "standardAmount": "dle potřeby"
+   },
+   "fah-168-i12": {
+    "name": "Červená řepa, nastrouhaná",
+    "standardAmount": "trochu"
+   },
+   "fah-168-i13": {
+    "name": "Malé černé lilky",
+    "standardAmount": "dle potřeby"
+   },
+   "fah-168-i14": {
+    "name": "Žluté citrony",
+    "standardAmount": "dle potřeby"
+   },
+   "fah-168-i15": {
+    "name": "Černuchová semínka",
+    "standardAmount": "podle chuti"
+   },
+   "fah-168-i16": {
+    "name": "Kurkuma",
+    "standardAmount": "špetka"
+   },
+   "fah-168-i17": {
+    "name": "Cibule",
+    "standardAmount": "podle chuti"
+   },
+   "fah-168-i18": {
+    "name": "Zelí",
+    "standardAmount": "dle potřeby"
+   },
+   "fah-168-i19": {
+    "name": "Mrkev",
+    "standardAmount": "podle chuti"
+   },
+   "fah-168-i20": {
+    "name": "Fenyklová semínka",
+    "standardAmount": "1 lžička"
+   }
+  },
+  "instructions": {
+   "1": "Připravte dukku: pálivé a sladké červené papriky, ocet, citronovou šťávu, sůl, kmín a koriandr dejte do kuchyňského robota a dobře rozemelte.",
+   "2": "Připravte nálev: smíchejte 4 šálky převařené, vychladlé vody, čtvrt šálku citronové šťávy, čtvrt šálku octa, lžičku cukru a 4 lžíce soli.",
+   "3": "Pro jalapeña: do vroucí vody dejte čtvrt šálku cukru, dvě lžíce soli, čtvrt šálku octa, kyselinu citronovou a stroužky česneku, přidejte jalapeña, jednou promíchejte, poté vyjměte a přikryjte do vychladnutí.",
+   "4": "Pro květák: rozeberte jej na malé růžičky, vložte do vroucí vody, přikryjte na 10 minut, poté přendejte do čisté sklenice a přidejte nastrouhanou červenou řepu, dvě lžíce dukky a nálev.",
+   "5": "Pro lilky: do vroucí vody dejte čtvrt šálku octa, dvě lžíce soli a lžíci cukru, přidejte lilky po dávkách, po 10 minutách je vyjměte a napěchujte do sklenice s plátky papriky, dvěma lžícemi dukky a nálevem.",
+   "6": "Pro citrony: v čisté sklenici smíchejte žluté citrony, černuchová semínka, kurkumu, dukku a nálev.",
+   "7": "Pro cibuli: cibuli vložte do vroucí vody s čtvrt šálkem octa a lžící soli, po 5 minutách je vyjměte a napěchujte do sklenice se 3 lžícemi dukky a nálevem.",
+   "8": "Pro zelí: zelí vložte do vroucí vody, poté je napěchujte do čisté sklenice s nastrouhanou červenou řepou, dukkou a nálevem.",
+   "9": "Pro mrkev: nakrájejte ji do požadovaného tvaru, vložte do vroucí vody, vyjměte a napěchujte do sklenice se stroužky česneku, fenyklovými semínky, cukrem, dukkou a nálevem."
+  }
+ }
+}

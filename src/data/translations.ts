@@ -27,7 +27,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'sv', name: 'Swedish', nativeName: 'Svenska', dir: 'ltr', flag: '🇸🇪' },
   { code: 'te', name: 'Telugu', nativeName: 'తెలుగు', dir: 'ltr', flag: '🇮🇳' },
   { code: 'bn', name: 'Bengali', nativeName: 'বাংলা', dir: 'ltr', flag: '🇧🇩' },
-  { code: 'vi', name: 'Vietnamese', nativeName: 'Tiếng Việt', dir: 'ltr', flag: '🇻🇳' }
+  { code: 'vi', name: 'Vietnamese', nativeName: 'Tiếng Việt', dir: 'ltr', flag: '🇻🇳' },
+  { code: 'cs', name: 'Czech', nativeName: 'Čeština', dir: 'ltr', flag: '🇨🇿' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -115,6 +116,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'vi') {
       return { language: 'vi', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'cs') {
+      return { language: 'cs', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
@@ -1207,6 +1211,46 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     cancel: 'Hủy',
     noResultsFound: 'Không tìm thấy kết quả nào.',
     close: 'Đóng',
+  },
+  cs: {
+    loadError: 'Recept se nepodařilo načíst. Zkontrolujte připojení a zkuste to znovu.',
+    loadingMoreRecipes: 'Načítají se další recepty…',
+    showMoreRecipes: 'Zobrazit další recepty',
+    recipesLoadFailed: 'Recepty se nepodařilo načíst. Zkontrolujte připojení a obnovte stránku.',
+    siteTitle: 'Kuchařka Dr. Fatmy Alkawokgy',
+    appTitle: 'Kuchařka Dr. Fatmy Alkawokgy',
+    siteSubtitle: 'Odkaz pravé egyptské kuchyně',
+    appSubtitle: 'Odkaz pravé egyptské kuchyně',
+    allRecipes: 'Procházet recepty',
+    navAllRecipes: 'Procházet recepty',
+    aboutFatma: 'O Dr. Fatmě',
+    navAboutFatma: 'O Dr. Fatmě',
+    ingredientsRegistry: 'Registr ingrediencí',
+    navIngredientsRegistry: 'Registr ingrediencí',
+    choosePreferredLanguage: 'Vyberte jazyk stránky',
+    searchPlaceholder: 'Hledat recept, ingredienci nebo postup...',
+    filterByChapter: 'Filtrovat podle kapitoly',
+    prepTime: 'Příprava',
+    cookTime: 'Vaření',
+    servings: 'Porce',
+    difficulty: 'Obtížnost',
+    method: 'Postup',
+    ingredients: 'Hlavní ingredience a přesné míry',
+    instructions: 'Příprava krok za krokem',
+    tips: 'Poznámky a tipy Dr. Fatmy Alkawokgy',
+    shareRecipe: 'Sdílet recept',
+    noRecipesFound: 'Žádné recepty neodpovídají vašemu hledání',
+    tributeQuote: 'Vaření je jako hra na klavír; dokonalosti dosáhne jen upřímná harmonie, trpělivost a láska.',
+    orderIngredients: 'Objednat ingredience',
+    orderDish: 'Objednat pokrm',
+    festivals: 'Festivaly',
+    upcomingEvents: 'Nadcházející události',
+    shareLocationBtn: 'Sdílet polohu / Zadat adresu',
+    enterAddressPlaceholder: 'Zadejte město nebo adresu...',
+    useThisLocation: 'Použít tuto polohu',
+    cancel: 'Zrušit',
+    noResultsFound: 'Nebyly nalezeny žádné výsledky.',
+    close: 'Zavřít',
   }
 };
 
