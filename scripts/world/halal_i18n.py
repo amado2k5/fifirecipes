@@ -83,7 +83,7 @@ ALLOW = {
     'De': {'butterschmalz', 'lammschmalz', 'rinderschmalz', 'weinblätter', 'wein- oder'},  # ghee; vine leaves
     'Zh': {'酒石酸', '石狗公', '啤酒酵母'},  # 石狗公 = scorpionfish; brewer's yeast
     'Ja': {'刻みりんご', 'ビール酵母', 'タビール', 'ラハム', 'ルラード'},  # apple; brewer's yeast; tabil; lahm; roulade
-    'Ko': {'맥주 효모', '룰라드'},
+    'Ko': {'맥주 효모', '룰라드', '우라드'},  # 우라드 = urad dal (lentil)
     'He': {'שמרי בירה'},  # brewer's yeast
     'Pl': {'drożdże piwne'},
     'Te': {'బీర్ యీస్ట్'},
