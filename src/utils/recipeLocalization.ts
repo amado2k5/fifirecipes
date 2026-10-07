@@ -909,6 +909,7 @@ const CATEGORY_NAMES: Record<string, string> = {
   'شوربات': 'Soups',
   'إفطار': 'Breakfast',
   'أطباق رئيسية': 'Main Dishes',
+  'توابل': 'Spices',
   'حشوات': 'Fillings'
 };
 
@@ -944,6 +945,7 @@ const CATEGORY_NAMES_FR: Record<string, string> = {
   'شوربات': 'Soupes',
   'إفطار': 'Petit-déjeuner',
   'أطباق رئيسية': 'Plats Principaux',
+  'توابل': 'Épices',
   'حشوات': 'Garnitures'
 };
 
@@ -979,6 +981,7 @@ const CATEGORY_NAMES_ES: Record<string, string> = {
   'شوربات': 'Sopas',
   'إفطار': 'Desayuno',
   'أطباق رئيسية': 'Platos Principales',
+  'توابل': 'Especias',
   'حشوات': 'Rellenos'
 };
 
@@ -1014,6 +1017,7 @@ const CATEGORY_NAMES_JA: Record<string, string> = {
   'شوربات': 'スープ',
   'إفطار': '朝食',
   'أطباق رئيسية': 'メイン料理',
+  'توابل': 'スパイス',
   'حشوات': 'フィリング'
 };
 
@@ -1049,6 +1053,7 @@ const CATEGORY_NAMES_HI: Record<string, string> = {
   'شوربات': 'सूप',
   'إفطار': 'नाश्ता',
   'أطباق رئيسية': 'मुख्य व्यंजन',
+  'توابل': 'मसाले',
   'حشوات': 'भरावन'
 };
 
@@ -1084,6 +1089,7 @@ const CATEGORY_NAMES_PT: Record<string, string> = {
   'شوربات': 'Sopas',
   'إفطار': 'Café da Manhã',
   'أطباق رئيسية': 'Pratos Principais',
+  'توابل': 'Especiarias',
   'حشوات': 'Recheios'
 };
 
@@ -1119,6 +1125,7 @@ const CATEGORY_NAMES_RU: Record<string, string> = {
   'شوربات': 'Супы',
   'إفطار': 'Завтрак',
   'أطباق رئيسية': 'Основные блюда',
+  'توابل': 'Специи',
   'حشوات': 'Начинки'
 };
 
@@ -1154,6 +1161,7 @@ const CATEGORY_NAMES_ZH: Record<string, string> = {
   'شوربات': '汤品',
   'إفطار': '早餐',
   'أطباق رئيسية': '主菜',
+  'توابل': '香料',
   'حشوات': '馅料'
 };
 
@@ -1189,6 +1197,7 @@ const CATEGORY_NAMES_DE: Record<string, string> = {
   'شوربات': 'Suppen',
   'إفطار': 'Frühstück',
   'أطباق رئيسية': 'Hauptgerichte',
+  'توابل': 'Gewürze',
   'حشوات': 'Füllungen'
 };
 
@@ -1224,6 +1233,7 @@ const CATEGORY_NAMES_IT: Record<string, string> = {
   'شوربات': 'Zuppe',
   'إفطار': 'Colazione',
   'أطباق رئيسية': 'Piatti Principali',
+  'توابل': 'Spezie',
   'حشوات': 'Ripieni'
 };
 
@@ -1259,6 +1269,7 @@ const CATEGORY_NAMES_EL: Record<string, string> = {
   'شوربات': 'Σούπες',
   'إفطار': 'Πρωινό',
   'أطباق رئيسية': 'Κυρίως Πιάτα',
+  'توابل': 'Μπαχαρικά',
   'حشوات': 'Γεμίσεις'
 };
 
@@ -1294,6 +1305,7 @@ const CATEGORY_NAMES_UR: Record<string, string> = {
   'شوربات': 'سوپ',
   'إفطار': 'ناشتہ',
   'أطباق رئيسية': 'مرکزی پکوان',
+  'توابل': 'مصالحے',
   'حشوات': 'بھرائی'
 };
 
@@ -1329,6 +1341,7 @@ const CATEGORY_NAMES_FA: Record<string, string> = {
   'شوربات': 'سوپ‌ها',
   'إفطار': 'صبحانه',
   'أطباق رئيسية': 'غذاهای اصلی',
+  'توابل': 'ادویه‌ها',
   'حشوات': 'مواد پرکننده'
 };
 
@@ -1364,6 +1377,7 @@ const CATEGORY_NAMES_TR: Record<string, string> = {
   'شوربات': 'Çorbalar',
   'إفطار': 'Kahvaltı',
   'أطباق رئيسية': 'Ana Yemekler',
+  'توابل': 'Baharatlar',
   'حشوات': 'İç Harçlar'
 };
 
@@ -1399,6 +1413,7 @@ const CATEGORY_NAMES_KU: Record<string, string> = {
   'شوربات': 'Şorbe',
   'إفطار': 'Taştê',
   'أطباق رئيسية': 'Xwarinên Sereke',
+  'توابل': 'Biharat',
   'حشوات': 'Tijekirin'
 };
 
@@ -1434,6 +1449,7 @@ const CATEGORY_NAMES_ID: Record<string, string> = {
   'شوربات': 'Sup',
   'إفطار': 'Sarapan',
   'أطباق رئيسية': 'Hidangan Utama',
+  'توابل': 'Rempah-rempah',
   'حشوات': 'Isian'
 };
 
@@ -1469,6 +1485,7 @@ const CATEGORY_NAMES_SW: Record<string, string> = {
   'شوربات': 'Supu',
   'إفطار': 'Kifungua Kinywa',
   'أطباق رئيسية': 'Vyakula Vikuu',
+  'توابل': 'Viungo',
   'حشوات': 'Vijazo'
 };
 
@@ -1504,6 +1521,7 @@ const CATEGORY_NAMES_KO: Record<string, string> = {
   'شوربات': '수프',
   'إفطار': '아침 식사',
   'أطباق رئيسية': '메인 요리',
+  'توابل': '향신료',
   'حشوات': '속재료'
 };
 
@@ -1539,6 +1557,7 @@ const CATEGORY_NAMES_NL: Record<string, string> = {
   'شوربات': 'Soepen',
   'إفطار': 'Ontbijt',
   'أطباق رئيسية': 'Hoofdgerechten',
+  'توابل': 'Specerijen',
   'حشوات': 'Vullingen'
 };
 
@@ -1574,6 +1593,7 @@ const CATEGORY_NAMES_PS: Record<string, string> = {
   'شوربات': 'سوپونه',
   'إفطار': 'سهارنۍ',
   'أطباق رئيسية': 'اصلي خواړه',
+  'توابل': 'مساله',
   'حشوات': 'ډکوونکي توکي'
 };
 
@@ -1609,6 +1629,7 @@ const CATEGORY_NAMES_HE: Record<string, string> = {
   'شوربات': 'מרקים',
   'إفطار': 'ארוחת בוקר',
   'أطباق رئيسية': 'מנות עיקריות',
+  'توابل': 'תבלינים',
   'حشوات': 'מליות'
 };
 
@@ -1644,6 +1665,7 @@ const CATEGORY_NAMES_PL: Record<string, string> = {
   'شوربات': 'Zupy',
   'إفطار': 'Śniadanie',
   'أطباق رئيسية': 'Dania główne',
+  'توابل': 'Przyprawy',
   'حشوات': 'Nadzienia'
 };
 
@@ -1679,6 +1701,7 @@ const CATEGORY_NAMES_SV: Record<string, string> = {
   'شوربات': 'Soppor',
   'إفطار': 'Frukost',
   'أطباق رئيسية': 'Huvudrätter',
+  'توابل': 'Kryddor',
   'حشوات': 'Fyllningar'
 };
 
@@ -1714,6 +1737,7 @@ const CATEGORY_NAMES_TE: Record<string, string> = {
   'شوربات': 'సూప్స్',
   'إفطار': 'అల్పాహారం',
   'أطباق رئيسية': 'ప్రధాన వంటకాలు',
+  'توابل': 'మసాలాలు',
   'حشوات': 'ఫిల్లింగ్‌లు'
 };
 
