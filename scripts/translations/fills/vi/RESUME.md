@@ -50,3 +50,14 @@ written value must be re-linted for Arabic/Latin leakage.
 - `npx tsx scripts/generate-public-index.ts` + `generate-tv-index.ts`
 
 ## Status: IN PROGRESS — infra + src generated, agents translating.
+
+## Status: COMPLETE
+
+- 2,380/2,380 recipes merged (all 60 chunks)
+- 23,631/23,631 ingredient amounts localized (allRecipes + allWorldRecipes,
+  incl. non-ready; norm/vi.json + norm-ext/vi.json, 3,244 unique strings)
+- lint_language Vi: 0 findings; halal_i18n Vi: 0 hits
+- tsc --noEmit: pass; npm run build: pass
+- vi revealed in TOP_20_LANGUAGES; public + TV indexes regenerated
+- 5 app repos on lang/vi: amazonfire eae0bc7, samsungtv 1a3c868,
+  tvos 412e38b, ipadosapp d760b48, android ca60e47
