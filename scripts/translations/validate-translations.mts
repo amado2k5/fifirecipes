@@ -30,7 +30,7 @@ const JSON_OUT = process.argv.includes('--json');
 const AR_SCRIPT = new Set(['ur', 'fa', 'ps']);
 const AR_RE = /[؀-ۿ]/;
 const LATIN_WORD_RE = /[A-Za-z]{4,}/g;
-const LATIN_CHECK = new Set(['ja', 'zh', 'ko', 'hi', 'ru', 'el', 'he', 'ur', 'fa', 'ps', 'te']);
+const LATIN_CHECK = new Set(['ja', 'zh', 'ko', 'hi', 'ru', 'el', 'he', 'ur', 'fa', 'ps', 'te', 'bn']);
 const BRAND_ALLOW = new Set([
   'knorr', 'lotus', 'kiri', 'oreo', 'nutella', 'nescaf', 'dream', 'whip', 'maggi',
   'kinder', 'mars', 'bounty', 'galaxy', 'snickers', 'twix', 'milka', 'cadbury',

@@ -114,6 +114,18 @@
   font-family: 'Noto Sans Telugu', 'Plus Jakarta Sans', system-ui, sans-serif;
 }
 
+/* Bengali UI is set in Noto Sans Bengali. Kept outside @layer base so it
+   wins over Tailwind's font-sans utility on <body>. */
+[lang="bn"] body,
+[lang="bn"] .font-sans,
+[lang="bn"] .font-serif,
+[lang="bn"] button,
+[lang="bn"] input,
+[lang="bn"] select,
+[lang="bn"] textarea {
+  font-family: 'Noto Sans Bengali', 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
 /* Custom subtle scrollbar */
 ::-webkit-scrollbar {
   width: 6px;

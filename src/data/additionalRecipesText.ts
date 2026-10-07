@@ -420,6 +420,22 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     citationLabel: 'పుస్తకంలోని స్థానం:',
     citationVideo: 'వీడియో:',
     tips: 'చిట్కాలు మరియు గమనికలు'
+  },
+  bn: {
+    badge: 'অতিরিক্ত রেসিপি',
+    notice: 'এটি একটি অতিরিক্ত রেসিপি, ডা. ফাতমা আলকাউকজির পাণ্ডুলিপি থেকে নয়। আমরা এটি নিজেদের ভাষায় পুনর্লিখন করেছি এবং মূল উৎসের কৃতিত্ব দিয়েছি।',
+    sourceLabel: 'উৎস:',
+    ingredientsNote: 'পরিমাণগুলো উৎসে যেমন ছিল তেমনই, আমাদের ফরম্যাটে সাজানো। রান্নার সময় প্রস্তুত উপকরণ চিহ্নিত করতে বাক্সে ক্লিক করতে পারেন।',
+    collectionAll: 'সব রেসিপি',
+    collectionArchive: 'ডা. ফাতমা আর্কাইভ',
+    collectionAdditional: 'অতিরিক্ত রেসিপি (Chef Teta)',
+    collectionOsool: 'Osool El Tahy রান্নাবই',
+    collectionAbdennour: 'Egyptian Cooking বই (সামিয়া আবদেন্নুর)',
+    collectionAbuhaty: 'ফাতমা আবু হাতি চ্যানেল (ইউটিউব)',
+    collectionWorld: 'বিশ্বের রেসিপি',
+    citationLabel: 'বইয়ের অবস্থান:',
+    citationVideo: 'ভিডিও:',
+    tips: 'টিপস ও নোট'
   }
 };
 
