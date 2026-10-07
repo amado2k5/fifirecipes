@@ -115827,5 +115827,263 @@
   },
   "culturalNotes": "Zarangollo murciano, İspanya'nın Murcia bölgesine ait geleneksel bir yemektir; sadeliği ve zengin tadıyla bilinir.",
   "chapter": "مطبخ إسبانيا"
+ },
+ "w-et-001": {
+  "title": "Etiyopya Kahve Töreni",
+  "ingredients": {
+   "w-et-001-i1": {
+    "name": "yeşil kahve çekirdeği",
+    "standardAmount": "60 g"
+   },
+   "w-et-001-i2": {
+    "name": "çekilmiş kahve",
+    "standardAmount": "4 yemek kaşığı"
+   },
+   "w-et-001-i3": {
+    "name": "patlamış mısır",
+    "standardAmount": "gerektiği kadar"
+   },
+   "w-et-001-i4": {
+    "name": "şeker",
+    "standardAmount": "damak zevkine göre"
+   },
+   "w-et-001-i5": {
+    "name": "su",
+    "standardAmount": "damak zevkine göre"
+   }
+  },
+  "instructions": {
+   "1": "Kahve çekirdeklerini serin suda yıkayıp bozuk olanları ayıklayın.",
+   "2": "Fazla suyu süzüp çekirdekleri orta-kısık ateşte patlayıp koyu kahverengi olana dek tavada kavurun. Tahta bir şişle sürekli karıştırın ya da tavayı sallayın.",
+   "3": "Kavrulan çekirdekleri öğütün. Etiyopya'nın şehirlerinde kahve değirmenleri kullanılır ama isterseniz elde de öğütebilirsiniz.",
+   "4": "Her bardak su için bir yemek kaşığı çekilmiş kahve ekleyin ve kahveyi jebena (geleneksel toprak kahve ibriği) ya da başka bir tencerede demleyin.",
+   "5": "Kahveyi küçük fincanlara yaklaşık 20-25 cm yükseklikten dökerek güzel bir koyu kahve akışı oluşturun.",
+   "6": "Kahveyi bol şeker ve gülümsemeyle servis edin; yanına patlamış mısır da koyabilirsiniz."
+  },
+  "culturalNotes": "Etiyopya kahve töreni ülke kültürünün önemli bir parçasıdır ve çoğunlukla sosyal buluşmalarda yapılır.",
+  "chapter": "مطبخ إثيوبيا"
+ },
+ "w-et-002": {
+  "title": "Ful Medames",
+  "ingredients": {
+   "w-et-002-i1": {
+    "name": "soğan",
+    "standardAmount": "1 soğan"
+   },
+   "w-et-002-i2": {
+    "name": "domates",
+    "standardAmount": "2 domates"
+   },
+   "w-et-002-i3": {
+    "name": "konserve bakla",
+    "standardAmount": "850 g"
+   },
+   "w-et-002-i4": {
+    "name": "tuz",
+    "standardAmount": "damak zevkine göre"
+   },
+   "w-et-002-i5": {
+    "name": "kıyılmış maydanoz",
+    "standardAmount": "gerektiği kadar"
+   },
+   "w-et-002-i6": {
+    "name": "limon suyu",
+    "standardAmount": "1 limonun suyu"
+   },
+   "w-et-002-i7": {
+    "name": "kıyılmış haşlanmış yumurta",
+    "standardAmount": "2 yumurta (isteğe bağlı)"
+   },
+   "w-et-002-i8": {
+    "name": "zeytinyağı",
+    "standardAmount": "gerektiği kadar"
+   },
+   "w-et-002-i9": {
+    "name": "pide",
+    "standardAmount": "damak zevkine göre"
+   }
+  },
+  "instructions": {
+   "1": "Soğan, domates ve baklayı orta boy bir tencereye koyun.",
+   "2": "Malzemeleri neredeyse örtecek kadar su ekleyin.",
+   "3": "Kaynatın, ardından hafif ateşe alıp kapağını kapatın ve tatlar iyice kaynaşana dek yaklaşık 45 dakika pişirin.",
+   "4": "Baklaları ezin ya da püre haline getirin.",
+   "5": "Tuzlayın; üzerine limon suyu, zeytinyağı ve bol kıyılmış maydanoz gezdirin.",
+   "6": "Fulü sıcak olarak kıyılmış haşlanmış yumurta ve pide ile servis edin."
+  },
+  "culturalNotes": "Ful medames Etiyopya'da geleneksel bir kahvaltı yemeğidir; genellikle haşlanmış yumurta ve pide ile servis edilir.",
+  "chapter": "مطبخ إثيوبيا"
+ },
+ "w-et-003": {
+  "title": "Etiyopya Baharatlı Ekmeği (Himbaşa)",
+  "ingredients": {
+   "w-et-003-i1": {
+    "name": "çok amaçlı un",
+    "standardAmount": "190 g"
+   },
+   "w-et-003-i2": {
+    "name": "tam buğday unu",
+    "standardAmount": "65 g"
+   },
+   "w-et-003-i3": {
+    "name": "instant kuru maya",
+    "standardAmount": "2 çay kaşığı"
+   },
+   "w-et-003-i4": {
+    "name": "öğütülmüş çemen",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-et-003-i5": {
+    "name": "öğütülmüş kişniş",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-et-003-i6": {
+    "name": "öğütülmüş kakule",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-et-003-i7": {
+    "name": "tuz",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-et-003-i8": {
+    "name": "sarımsak",
+    "standardAmount": "1-2 diş"
+   },
+   "w-et-003-i9": {
+    "name": "bitkisel yağ",
+    "standardAmount": "1 yemek kaşığı"
+   },
+   "w-et-003-i10": {
+    "name": "ılık su",
+    "standardAmount": "120 ml"
+   },
+   "w-et-003-i11": {
+    "name": "yumurta",
+    "standardAmount": "1 büyük"
+   }
+  },
+  "instructions": {
+   "1": "Tüm malzemeleri pürüzsüz olana dek yoğurun.",
+   "2": "Üzerini kapatıp ılık bir yerde 45 dakika-1 saat, iki katına çıkana dek mayalandırın.",
+   "3": "Hamuru yağlanmış, fırına dayanıklı 30 cm'lik bir kalıba ya da tavaya yaklaşık 8 mm kalınlığında ince açın.",
+   "4": "Hemen hamur kesme tekerleğiyle kesin.",
+   "5": "30-45 dakika, kabarıp iki katına çıkana dek mayalandırın.",
+   "6": "Fırını 175°C'ye ısıtın.",
+   "7": "Üzerine yağ sürüp 15-20 dakika pişirin."
+  },
+  "culturalNotes": "Himbaşa, yoğun aromasıyla bilinen geleneksel bir Etiyopya baharatlı ekmeğidir. Genellikle ana yemeklerle ya da atıştırmalık olarak servis edilir.",
+  "chapter": "مطبخ إثيوبيا"
+ },
+ "w-et-004": {
+  "title": "Injera (Etiyopya Teff Yufkası)",
+  "ingredients": {
+   "w-et-004-i1": {
+    "name": "teff unu",
+    "standardAmount": "120 g"
+   },
+   "w-et-004-i2": {
+    "name": "ılık su",
+    "standardAmount": "360 ml"
+   },
+   "w-et-004-i3": {
+    "name": "tuz",
+    "standardAmount": "bir tutam"
+   },
+   "w-et-004-i4": {
+    "name": "kızartma için yağ",
+    "standardAmount": "gerektiği kadar"
+   },
+   "w-et-004-i5": {
+    "name": "fermantasyon mayası (isteğe bağlı)",
+    "standardAmount": "gerektiği kadar"
+   }
+  },
+  "instructions": {
+   "1": "Unu su ve tuzla karıştırın. Kullanıyorsanız fermantasyon mayasını ekleyin.",
+   "2": "En az 12 saat ya da bir gece fermente edin. Yüzeyde kabarcıklar oluşmalıdır.",
+   "3": "Büyük, düz bir tavayı bir su damlası cızırdatacak kadar ısıtın.",
+   "4": "Tavayı hafifçe yağlayın.",
+   "5": "Merkezden dışa doğru spiral çizerek biraz hamur dökün. Hamur krepten biraz daha yoğun olmalıdır.",
+   "6": "Piştikçe injeranın yüzeyi deliklerle kaplanır. Tüm injera renk değiştirdiğinde ve kenarları kalkmaya başladığında alıp kenara koyun.",
+   "7": "Hamur bitene dek tekrarlayın."
+  },
+  "culturalNotes": "Injera, birçok Etiyopya yemeğine temel olan geleneksel bir yufkadır.",
+  "chapter": "مطبخ إثيوبيا"
+ },
+ "w-et-005": {
+  "title": "Niter Kibbeh (Etiyopya Baharatlı Sadeyağ)",
+  "ingredients": {
+   "w-et-005-i1": {
+    "name": "tuzsuz tereyağı",
+    "standardAmount": "450 g"
+   },
+   "w-et-005-i2": {
+    "name": "kıyılmış sarı soğan",
+    "standardAmount": "35 g"
+   },
+   "w-et-005-i3": {
+    "name": "kıyılmış sarımsak",
+    "standardAmount": "3 yemek kaşığı"
+   },
+   "w-et-005-i4": {
+    "name": "kıyılmış zencefil",
+    "standardAmount": "2 yemek kaşığı"
+   },
+   "w-et-005-i5": {
+    "name": "çubuk tarçın",
+    "standardAmount": "5 cm"
+   },
+   "w-et-005-i6": {
+    "name": "tane karabiber",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-et-005-i7": {
+    "name": "siyah kakule kapsülü",
+    "standardAmount": "3 kapsül"
+   },
+   "w-et-005-i8": {
+    "name": "karanfil",
+    "standardAmount": "3 adet"
+   },
+   "w-et-005-i9": {
+    "name": "çemen tohumu",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-et-005-i10": {
+    "name": "kişniş tohumu",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-et-005-i11": {
+    "name": "kuru kekik",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-et-005-i12": {
+    "name": "kimyon tohumu",
+    "standardAmount": "1/2 çay kaşığı"
+   },
+   "w-et-005-i13": {
+    "name": "muskat",
+    "standardAmount": "1/4 çay kaşığı"
+   },
+   "w-et-005-i14": {
+    "name": "zerdeçal",
+    "standardAmount": "1/4 çay kaşığı"
+   },
+   "w-et-005-i15": {
+    "name": "besobela (isteğe bağlı)",
+    "standardAmount": "1 yemek kaşığı"
+   },
+   "w-et-005-i16": {
+    "name": "kosseret (isteğe bağlı)",
+    "standardAmount": "1 yemek kaşığı"
+   }
+  },
+  "instructions": {
+   "1": "Bütün baharatları kuru bir tavada orta ateşte birkaç dakika, çok kokulu olana dek kavurun. Yakmamaya dikkat edin, yoksa acılaşırlar. Kenara alın.",
+   "2": "Tüm malzemeleri orta boy bir tencereye koyup çok hafif kaynama noktasına getirin. Kısık ateşte en az bir saat, en fazla 90 dakika kaynatın. Tereyağını kesinlikle yakmayın, yoksa acılaşır.",
+   "3": "Her şeyi ince dokulu bir tülbentten süzün. Köpüğü almaya gerek yok, süzmede hepsi kalır. Niter kibbehi bir kavanoza dökün, soğutup hava geçirmez şekilde kapatın. Oda sıcaklığında haftalarca, buzdolabında aylarca, dondurucuda daha da uzun saklanır (sertleşir; kolay almak için oda sıcaklığına getirin)."
+  },
+  "culturalNotes": "Niter kibbeh, Etiyopya mutfağında yemeklerin lezzetini artırmak için kullanılan baharatlı bir sadeyağdır.",
+  "chapter": "مطبخ إثيوبيا"
  }
 }
