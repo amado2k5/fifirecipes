@@ -59,11 +59,13 @@ Current state as of last run — re-verify before acting:
      on ANY finding including `missing entry` backlog — only real findings
      (wrong script, empty strings, shape, halal hits) are blockers.
 
-5. Status at last checkpoint: `es` shipped (PR #270, 24/24 langs) and
-   `et` shipped (PR #271, 24/24 langs, ship-ready marked). `gr` banners done
-   (16/16), translations in progress (El done). `id` 35/35 generated,
-   `in` 50/50 generated, `ir` generating. Remaining: `it kr lb my ng pe ph
-   th tr`. Work in alphabetical ship order.
+5. Status at last checkpoint (commit `bf1e4b98` on main): `es` shipped
+   (PR #270, 24/24 langs) and `et` shipped (PR #271, 24/24 langs,
+   ship-ready marked). ACTIVE COUNTRY: `gr` (Greece, 16 recipes) — En +
+   El Es De Fr done; still needed: Fa He Hi Id It Ja Ko Ku Nl Ps Pt Ru Sv
+   Sw Te Tr Ur Zh. Then `id` (35 recipes, banners done), `in` (50, banners
+   done), then `ir it kr lb my ng pe ph th tr` (banners generating/queued).
+   Work in alphabetical ship order. Commit and push to main in batches.
 
 6. Report `MERGED <iso>` lines from `world/logs/country-ships.log` as they
    land. A country appears on FireTV/apps only after its last language
