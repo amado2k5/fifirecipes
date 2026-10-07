@@ -86,7 +86,10 @@ ALLOW = {
     'Te': {'బీర్ యీస్ట్'},
     'Bn': {'বিয়ার ইস্ট'},
     'Vi': {'men bia', 'óc chó'},
-    'Sq': {'maja e birrës', 'maja e birres', 'stinë e verës', 'stine e veres', 'stinë së verës', 'stine se veres'},  # brewer's yeast; summer season
+    'Sq': {'maja e birrës', 'maja e birres', 'maje birre', 'maje birrë', 'majenë birre',
+           'stinë e verës', 'stine e veres', 'stinë së verës', 'stine se veres',
+           'sallamurë', 'sallamurës', 'sallamurën', 'sallamura',
+           'gjatë verës', 'gjate veres', 'në verë', 'ne vere'},  # brewer's yeast; summer season; brine
     'Tr': {'bira mayası'},
     'Fa': {'عرق بهارنارنج', 'عرق گلاب', 'عرق نعناع', 'عرق\u200cسوس', 'عرق سوس', 'بدون الکل'},  # distillates, licorice
     'Ur': {'بغیر شراب'},
