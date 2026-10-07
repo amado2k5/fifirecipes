@@ -1251,5 +1251,902 @@
   },
   "culturalNotes": "Il niter kibbeh è un burro chiarificato speziato usato nella cucina etiope per intensificare il sapore dei piatti.",
   "chapter": "et"
+ },
+ "w-gr-001": {
+  "title": "Diples",
+  "ingredients": {
+   "w-gr-001-i1": {
+    "name": "Farina",
+    "standardAmount": "2 tazze"
+   },
+   "w-gr-001-i2": {
+    "name": "Olio vegetale",
+    "standardAmount": "per friggere"
+   },
+   "w-gr-001-i3": {
+    "name": "Burro",
+    "standardAmount": "1/2 tazza"
+   },
+   "w-gr-001-i4": {
+    "name": "Miele",
+    "standardAmount": "1/2 tazza"
+   },
+   "w-gr-001-i5": {
+    "name": "Cannella",
+    "standardAmount": "1/2 cucchiaino"
+   }
+  },
+  "instructions": {
+   "1": "Mescolare la farina con acqua per ottenere un impasto sodo.",
+   "2": "Lasciare riposare l'impasto per 30 minuti.",
+   "3": "Tagliare l'impasto in piccoli pezzi e stenderli sottili.",
+   "4": "Friggere i pezzi in olio caldo fino a doratura.",
+   "5": "Scolare i diples su carta assorbente.",
+   "6": "Versare il burro fuso e il miele sui diples e aggiungere la cannella.",
+   "7": "Servire caldi o freddi a piacere."
+  },
+  "culturalNotes": "I diples sono un dolce tradizionale greco servito nelle occasioni speciali.",
+  "chapter": "gr"
+ },
+ "w-gr-002": {
+  "title": "Galaktoboureko",
+  "ingredients": {
+   "w-gr-002-i1": {
+    "name": "zucchero bianco semolato",
+    "standardAmount": "150 g"
+   },
+   "w-gr-002-i2": {
+    "name": "uova",
+    "standardAmount": "6 uova"
+   },
+   "w-gr-002-i3": {
+    "name": "semolino",
+    "standardAmount": "150 g"
+   },
+   "w-gr-002-i4": {
+    "name": "latte",
+    "standardAmount": "1 litro"
+   },
+   "w-gr-002-i5": {
+    "name": "bacche di vaniglia",
+    "standardAmount": "2 bacche"
+   },
+   "w-gr-002-i6": {
+    "name": "succo di limone",
+    "standardAmount": "succo di 1/2 limone"
+   },
+   "w-gr-002-i7": {
+    "name": "sale",
+    "standardAmount": "un pizzico"
+   },
+   "w-gr-002-i8": {
+    "name": "pasta fillo",
+    "standardAmount": "450 g"
+   },
+   "w-gr-002-i9": {
+    "name": "burro fuso",
+    "standardAmount": "quanto basta"
+   }
+  },
+  "instructions": {
+   "1": "Unire zucchero, uova e semolino in una casseruola. Aggiungere latte e bacche di vaniglia. Incorporare il succo di limone.",
+   "2": "Portare il composto a ebollizione mescolando continuamente con una forchetta. Quando inizia a bollire, abbassare il fuoco e continuare a mescolare per altri 10 minuti. Togliere il composto dal fuoco e lasciarlo raffreddare.",
+   "3": "Spennellare ogni foglio di pasta fillo con burro fuso.",
+   "4": "Imburrare una teglia e disporvi metà dei fogli di fillo, uno alla volta. Versare la crema di semolino raffreddata sulla pasta e coprire con i restanti fogli di fillo imburrati.",
+   "5": "Spruzzare la superficie del dolce con un po' d'acqua.",
+   "6": "Cuocere in forno preriscaldato a 180°C per 1 ora. Lasciare raffreddare prima di servire."
+  },
+  "culturalNotes": "La galaktoboureko è un dolce tradizionale greco a base di crema di latte e semolino, avvolta in pasta fillo. Si serve tipicamente fredda.",
+  "chapter": "gr"
+ },
+ "w-gr-003": {
+  "title": "Giouvetsi (orzo al forno tradizionale greco)",
+  "ingredients": {
+   "w-gr-003-i1": {
+    "name": "olio d'oliva",
+    "standardAmount": "0.5 tazza (120 ml)"
+   },
+   "w-gr-003-i2": {
+    "name": "carne d'agnello da spezzatino a cubetti",
+    "standardAmount": "1.4 kg"
+   },
+   "w-gr-003-i3": {
+    "name": "pomodori pelati interi in scatola",
+    "standardAmount": "1 lattina da 800 g"
+   },
+   "w-gr-003-i4": {
+    "name": "aglio",
+    "standardAmount": "4 spicchi"
+   },
+   "w-gr-003-i5": {
+    "name": "zucchero bianco",
+    "standardAmount": "0.5 cucchiaino"
+   },
+   "w-gr-003-i6": {
+    "name": "sale e pepe",
+    "standardAmount": "a piacere"
+   },
+   "w-gr-003-i7": {
+    "name": "burro",
+    "standardAmount": "0.5 tazza"
+   },
+   "w-gr-003-i8": {
+    "name": "pasta orzo",
+    "standardAmount": "450 g"
+   },
+   "w-gr-003-i9": {
+    "name": "acqua calda",
+    "standardAmount": "3 tazze (710 ml)"
+   }
+  },
+  "instructions": {
+   "1": "Scaldare l'olio d'oliva in una casseruola grande a fuoco medio; cuocere la carne finché è dorata su tutti i lati, circa 5 minuti.",
+   "2": "Aggiungere i pomodori passati, l'aglio, lo zucchero, il sale e il pepe. Coprire e cuocere a fuoco lento per 1 ora, mescolando di tanto in tanto. Mettere da parte.",
+   "3": "Preriscaldare il forno a 175°C.",
+   "4": "Sciogliere il burro in una padella media a fuoco medio e aggiungere l'orzo. Saltare finché leggermente dorato, da 3 a 5 minuti.",
+   "5": "Trasferire l'orzo in una teglia, distribuendolo uniformemente. Disporre la carne sopra l'orzo e versare il sugo di pomodoro sulla carne. Aggiungere l'acqua calda.",
+   "6": "Coprire con carta di alluminio e cuocere nel forno preriscaldato finché tutta l'acqua è assorbita e l'orzo è morbido, circa 1 ora. Se il piatto diventa troppo asciutto, aggiungere altra acqua durante la cottura."
+  },
+  "culturalNotes": "Il giouvetsi è un piatto tradizionale greco spesso servito nelle occasioni speciali. Di solito si serve con insalata greca.",
+  "chapter": "gr"
+ },
+ "w-gr-004": {
+  "title": "Spiedini di kofta di manzo in friggitrice ad aria",
+  "ingredients": {
+   "w-gr-004-i1": {
+    "name": "manzo macinato",
+    "standardAmount": "450 g"
+   },
+   "w-gr-004-i2": {
+    "name": "cipolla gialla tritata",
+    "standardAmount": "1/4 tazza"
+   },
+   "w-gr-004-i3": {
+    "name": "prezzemolo fresco tritato",
+    "standardAmount": "1/4 tazza"
+   },
+   "w-gr-004-i4": {
+    "name": "aglio tritato",
+    "standardAmount": "2 spicchi"
+   },
+   "w-gr-004-i5": {
+    "name": "cumino",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-gr-004-i6": {
+    "name": "coriandolo macinato",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-gr-004-i7": {
+    "name": "sale",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-gr-004-i8": {
+    "name": "pepe nero macinato",
+    "standardAmount": "1/4 cucchiaino"
+   },
+   "w-gr-004-i9": {
+    "name": "cannella macinata",
+    "standardAmount": "1/4 cucchiaino"
+   },
+   "w-gr-004-i10": {
+    "name": "spiedini",
+    "standardAmount": "8 spiedini"
+   },
+   "w-gr-004-i11": {
+    "name": "yogurt greco naturale",
+    "standardAmount": "1 tazza"
+   },
+   "w-gr-004-i12": {
+    "name": "cetriolo grattugiato, strizzato",
+    "standardAmount": "1/2 tazza"
+   },
+   "w-gr-004-i13": {
+    "name": "aglio tritato",
+    "standardAmount": "1 spicchio"
+   },
+   "w-gr-004-i14": {
+    "name": "succo di limone",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-gr-004-i15": {
+    "name": "aneto essiccato",
+    "standardAmount": "1/4 cucchiaino"
+   },
+   "w-gr-004-i16": {
+    "name": "sale kosher",
+    "standardAmount": "1/4 cucchiaino"
+   }
+  },
+  "instructions": {
+   "1": "Mescolare il manzo macinato, la cipolla, il prezzemolo, l'aglio, il cumino, il coriandolo, il sale, il pepe nero e la cannella in una ciotola grande fino a ottenere un composto omogeneo.",
+   "2": "Dividere il composto in 8 porzioni e modellarle in polpette ovali attorno agli spiedini, assicurandosi che la punta dello spiedino sia coperta.",
+   "3": "Disporre gli spiedini su un piatto e mettere in frigorifero.",
+   "4": "Preriscaldare la friggitrice ad aria a 188°C.",
+   "5": "Mescolare yogurt, cetriolo, aglio, succo di limone, aneto e sale kosher in una ciotola piccola e tenere in frigorifero fino al momento dell'uso.",
+   "6": "Disporre 4 spiedini nel cestello della friggitrice ad aria e cuocere per 10 minuti. Trasferire gli spiedini su un piatto. Ripetere con gli spiedini rimanenti.",
+   "7": "Servire gli spiedini con salsa tzatziki."
+  },
+  "culturalNotes": "Il kofta è un piatto popolare in molti paesi arabi e del Medio Oriente, spesso servito con salsa tzatziki.",
+  "chapter": "gr"
+ },
+ "w-gr-005": {
+  "title": "Melomakarono",
+  "ingredients": {
+   "w-gr-005-i1": {
+    "name": "farina multiuso",
+    "standardAmount": "4 tazze"
+   },
+   "w-gr-005-i2": {
+    "name": "cannella macinata",
+    "standardAmount": "2 cucchiaini"
+   },
+   "w-gr-005-i3": {
+    "name": "lievito in polvere",
+    "standardAmount": "2 cucchiaini"
+   },
+   "w-gr-005-i4": {
+    "name": "chiodi di garofano macinati",
+    "standardAmount": "2 cucchiaini"
+   },
+   "w-gr-005-i5": {
+    "name": "bicarbonato",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-gr-005-i6": {
+    "name": "noce moscata macinata",
+    "standardAmount": "0.5 cucchiaino"
+   },
+   "w-gr-005-i7": {
+    "name": "burro non salato",
+    "standardAmount": "450 g"
+   },
+   "w-gr-005-i8": {
+    "name": "zucchero bianco",
+    "standardAmount": "0.75 tazza"
+   },
+   "w-gr-005-i9": {
+    "name": "tuorli d'uovo",
+    "standardAmount": "3"
+   },
+   "w-gr-005-i10": {
+    "name": "succo d'arancia appena spremuto",
+    "standardAmount": "0.5 tazza (120 ml)"
+   },
+   "w-gr-005-i11": {
+    "name": "miele",
+    "standardAmount": "1 cucchiaino + 1 tazza"
+   },
+   "w-gr-005-i12": {
+    "name": "acqua",
+    "standardAmount": "1 tazza (240 ml)"
+   },
+   "w-gr-005-i13": {
+    "name": "noci tritate finemente",
+    "standardAmount": "0.5 tazza"
+   },
+   "w-gr-005-i14": {
+    "name": "cannella macinata",
+    "standardAmount": "un pizzico"
+   },
+   "w-gr-005-i15": {
+    "name": "chiodi di garofano macinati",
+    "standardAmount": "un pizzico"
+   }
+  },
+  "instructions": {
+   "1": "Preriscaldare il forno a 175°C.",
+   "2": "Sbattere insieme farina, cannella, lievito in polvere, chiodi di garofano, bicarbonato e noce moscata in una ciotola grande.",
+   "3": "In una ciotola separata, montare il burro finché è chiaro e spumoso; aggiungere lo zucchero e mescolare bene.",
+   "4": "Sbattere i tuorli e il succo d'arancia insieme in un'altra ciotola. Incorporare il composto di uova al composto di burro gradualmente mescolando.",
+   "5": "Aggiungere lentamente il composto di farina al composto di burro, mescolando dopo ogni aggiunta. Aggiungere il miele e mescolare fino a formare un impasto morbido.",
+   "6": "Coprire l'impasto e raffreddarlo finché è abbastanza sodo da lavorare, circa 30 minuti.",
+   "7": "Modellare l'impasto in piccoli ovali e disporli a qualche centimetro di distanza sulle teglie. Appiattire leggermente; i biscotti si allargheranno.",
+   "8": "Cuocere nel forno preriscaldato finché dorati chiari, da 15 a 20 minuti.",
+   "9": "Nel frattempo, scaldare miele, acqua e zucchero insieme in una casseruola a fuoco medio-basso finché lo zucchero si è sciolto. Lasciare raffreddare lo sciroppo.",
+   "10": "Mescolare noci, cannella e chiodi di garofano in una ciotola per la guarnizione.",
+   "11": "Immergere i biscotti nello sciroppo raffreddato per 10-15 secondi per lato. Cospargere la guarnizione di noci sullo sciroppo e lasciare asciugare completamente.",
+   "12": "Conservare i biscotti in pirottini da muffin o tra strati di carta da forno."
+  },
+  "culturalNotes": "Il melomakarono è un biscotto tradizionale greco solitamente servito durante il Natale.",
+  "chapter": "gr"
+ },
+ "w-gr-006": {
+  "title": "Zuppa di ortiche",
+  "ingredients": {
+   "w-gr-006-i1": {
+    "name": "ortiche",
+    "standardAmount": "450 g"
+   },
+   "w-gr-006-i2": {
+    "name": "sale",
+    "standardAmount": "2 cucchiaini"
+   },
+   "w-gr-006-i3": {
+    "name": "olio extravergine di oliva",
+    "standardAmount": "1 cucchiaio"
+   },
+   "w-gr-006-i4": {
+    "name": "cipolla bianca",
+    "standardAmount": "1 a dadini"
+   },
+   "w-gr-006-i5": {
+    "name": "riso basmati",
+    "standardAmount": "0.25 tazza"
+   },
+   "w-gr-006-i6": {
+    "name": "brodo di pollo",
+    "standardAmount": "4 tazze (950 ml)"
+   },
+   "w-gr-006-i7": {
+    "name": "pepe nero",
+    "standardAmount": "a piacere"
+   }
+  },
+  "instructions": {
+   "1": "Portare a ebollizione una grande pentola d'acqua con 2 cucchiaini di sale. Aggiungere le ortiche e cuocere per 1-2 minuti finché si ammorbidiscono. Questo eliminerà gran parte del potere urticante. Scolare in uno scolapasta e sciacquare con acqua fredda. Eliminare i gambi duri e tritare grossolanamente.",
+   "2": "Scaldare l'olio d'oliva in una casseruola a fuoco medio-basso e unire la cipolla. Cuocere finché la cipolla si è ammorbidita ed è diventata trasparente, circa 5 minuti. Unire il riso, il brodo di pollo e le ortiche tritate. Portare a ebollizione, poi abbassare il fuoco a medio-basso, coprire e cuocere a fuoco lento finché il riso è tenero, circa 15 minuti.",
+   "3": "Frullare la zuppa con un frullatore a immersione e condire a piacere con sale e pepe."
+  },
+  "culturalNotes": "Le ortiche sono una pianta che cresce spontaneamente in Grecia e sono usate in molte ricette tradizionali.",
+  "chapter": "gr"
+ },
+ "w-gr-007": {
+  "title": "Portokalopita (torta greca all'arancia e fillo)",
+  "ingredients": {
+   "w-gr-007-i1": {
+    "name": "zucchero bianco",
+    "standardAmount": "2 tazze"
+   },
+   "w-gr-007-i2": {
+    "name": "acqua",
+    "standardAmount": "1.5 tazze (360 ml)"
+   },
+   "w-gr-007-i3": {
+    "name": "cannella macinata",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-gr-007-i4": {
+    "name": "arancia",
+    "standardAmount": "3 arance"
+   },
+   "w-gr-007-i5": {
+    "name": "pasta fillo",
+    "standardAmount": "1 confezione da 450 g"
+   },
+   "w-gr-007-i6": {
+    "name": "uova",
+    "standardAmount": "5 uova"
+   },
+   "w-gr-007-i7": {
+    "name": "yogurt greco",
+    "standardAmount": "1 contenitore da 200 g"
+   },
+   "w-gr-007-i8": {
+    "name": "olio d'oliva",
+    "standardAmount": "0.75 tazza (180 ml)"
+   },
+   "w-gr-007-i9": {
+    "name": "zucchero bianco",
+    "standardAmount": "0.5 tazza"
+   },
+   "w-gr-007-i10": {
+    "name": "lievito in polvere",
+    "standardAmount": "1 cucchiaio"
+   }
+  },
+  "instructions": {
+   "1": "Unire 2 tazze di zucchero, 1.5 tazze d'acqua e 1 cucchiaino di cannella macinata in una casseruola a fuoco medio-alto. Spremervi il succo d'arancia e aggiungere le metà spremute. Portare a ebollizione e far bollire vivacemente per 8 minuti. Togliere dal fuoco e lasciare raffreddare lo sciroppo.",
+   "2": "Preriscaldare il forno a 175°C. Ungere leggermente una teglia da 23x33 cm.",
+   "3": "Togliere i fogli di fillo dalla confezione e strapparli o tagliarli a striscioline. Disporre la fillo sminuzzata nella teglia e lasciarla asciugare un po'.",
+   "4": "Tagliare 1 arancia a metà e affettare 1 metà in mezze lune molto sottili per guarnire la torta. Grattugiare la scorza e spremere le 2 1/2 arance rimanenti.",
+   "5": "Unire succo d'arancia, scorza d'arancia, uova, yogurt greco, olio d'oliva, 0.5 tazza di zucchero e lievito in polvere in un frullatore o robot da cucina. Frullare finché il composto è liscio e tutti gli ingredienti sono ben amalgamati.",
+   "6": "Versare il composto sulla fillo sminuzzata nella teglia. Mescolare delicatamente per distribuire uniformemente il composto liquido senza lasciare striscioline di fillo asciutte. Guarnire la superficie della torta con le fette d'arancia.",
+   "7": "Cuocere nel forno preriscaldato finché la superficie è dorata e il ripieno è rappreso, circa 45 minuti. Uno stuzzicadenti inserito al centro deve uscire pulito.",
+   "8": "Togliere la torta dal forno e versare immediatamente lo sciroppo raffreddato sulla torta calda.",
+   "9": "Lasciare riposare la torta per almeno 1 ora o tutta la notte, finché la maggior parte dello sciroppo è stata assorbita. Tagliare a quadrati e servire."
+  },
+  "culturalNotes": "La portokalopita è una torta tradizionale greca a base di pasta fillo e arancia, solitamente servita nelle occasioni speciali.",
+  "chapter": "gr"
+ },
+ "w-gr-008": {
+  "title": "Formaggio bianco in salamoia fritto in padella (Saganaki)",
+  "ingredients": {
+   "w-gr-008-i1": {
+    "name": "fetta grande di formaggio bianco salato in salamoia (es. feta, sirene)",
+    "standardAmount": "1 fetta"
+   },
+   "w-gr-008-i2": {
+    "name": "olio d'oliva (non extravergine)",
+    "standardAmount": "1 cucchiaio"
+   },
+   "w-gr-008-i3": {
+    "name": "spicchio di limone grande",
+    "standardAmount": "1 spicchio"
+   },
+   "w-gr-008-i4": {
+    "name": "farina (facoltativa)",
+    "standardAmount": "una piccola quantità"
+   },
+   "w-gr-008-i5": {
+    "name": "pita o altro pane (facoltativo)",
+    "standardAmount": "quanto basta"
+   }
+  },
+  "instructions": {
+   "1": "Scaldare una padella piccola a fuoco medio-alto.",
+   "2": "Mentre la padella si scalda, tagliare il formaggio in fette della dimensione e dello spessore desiderati. Le fette più spesse impiegheranno più tempo a fondersi e potrebbero bruciare, mentre quelle più sottili avranno meno possibilità di dorarsi.",
+   "3": "Facoltativamente, infarinare le fette — questo creerà una crosta più scura e leggermente più croccante, ma è un passaggio facoltativo perché il formaggio formerà da solo una crosticina leggerissima grazie all'olio e al calore elevato. Inoltre ridurrà un po' gli schizzi.",
+   "4": "Aggiungere l'olio nella padella calda e farlo roteare. Quando l'olio luccica e sembra diventare più fluido, è pronto. Aggiungere il formaggio e fare un passo indietro — schizzerà a causa dell'acqua di salamoia sul formaggio.",
+   "5": "Girare il formaggio dopo uno o due minuti. Una fetta di ¾ centimetro richiede circa 1-2 minuti per lato.",
+   "6": "Servire immediatamente, con limone e (facoltativamente) pane."
+  },
+  "culturalNotes": "Il saganaki è un piatto tradizionale greco servito come antipasto. Di solito si serve con limone e pane.",
+  "chapter": "gr"
+ },
+ "w-gr-009": {
+  "title": "Spanakorizo",
+  "ingredients": {
+   "w-gr-009-i1": {
+    "name": "acqua",
+    "standardAmount": "2 tazze (480 ml)"
+   },
+   "w-gr-009-i2": {
+    "name": "riso a chicco lungo",
+    "standardAmount": "1 tazza"
+   },
+   "w-gr-009-i3": {
+    "name": "olio d'oliva",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-gr-009-i4": {
+    "name": "cipolla",
+    "standardAmount": "1 piccola, tritata"
+   },
+   "w-gr-009-i5": {
+    "name": "spinaci freschi",
+    "standardAmount": "1 mazzo"
+   },
+   "w-gr-009-i6": {
+    "name": "scorza di limone",
+    "standardAmount": "1 limone, scorza grattugiata"
+   },
+   "w-gr-009-i7": {
+    "name": "succo di limone",
+    "standardAmount": "succo di 1 limone"
+   },
+   "w-gr-009-i8": {
+    "name": "formaggio feta",
+    "standardAmount": "0.25 tazza sbriciolata"
+   },
+   "w-gr-009-i9": {
+    "name": "aneto fresco",
+    "standardAmount": "0.25 tazza tritato"
+   },
+   "w-gr-009-i10": {
+    "name": "sale",
+    "standardAmount": "a piacere"
+   },
+   "w-gr-009-i11": {
+    "name": "pepe nero macinato",
+    "standardAmount": "a piacere"
+   }
+  },
+  "instructions": {
+   "1": "Portare a ebollizione acqua e riso in una casseruola. Abbassare il fuoco a medio-basso, coprire e cuocere a fuoco lento finché il riso è tenero e il liquido è stato assorbito, da 20 a 25 minuti.",
+   "2": "Scaldare l'olio in una casseruola a fuoco medio-alto. Saltare la cipolla finché tenera, circa 5 minuti.",
+   "3": "Aggiungere il riso cotto e gli spinaci; cuocere e mescolare finché gli spinaci appassiscono, da 3 a 5 minuti.",
+   "4": "Aggiungere succo di limone, scorza, feta e aneto. Togliere dal fuoco. Condire con sale e pepe a piacere."
+  },
+  "culturalNotes": "Lo spanakorizo è un piatto tradizionale greco servito come piatto principale o contorno. Si caratterizza per i suoi sapori freschi e aspri.",
+  "chapter": "gr"
+ },
+ "w-gr-010": {
+  "title": "Strapatsada con insalata di riso e ceci",
+  "ingredients": {
+   "w-gr-010-i1": {
+    "name": "pomodori",
+    "standardAmount": "2 medi"
+   },
+   "w-gr-010-i2": {
+    "name": "olio d'oliva",
+    "standardAmount": "1 cucchiaio"
+   },
+   "w-gr-010-i3": {
+    "name": "aglio",
+    "standardAmount": "3 spicchi tritati"
+   },
+   "w-gr-010-i4": {
+    "name": "uova",
+    "standardAmount": "6 grandi"
+   },
+   "w-gr-010-i5": {
+    "name": "sale",
+    "standardAmount": "0.75 cucchiaino, diviso"
+   },
+   "w-gr-010-i6": {
+    "name": "pepe nero macinato",
+    "standardAmount": "0.5 cucchiaino, diviso"
+   },
+   "w-gr-010-i7": {
+    "name": "feta sbriciolata",
+    "standardAmount": "0.25 tazza"
+   },
+   "w-gr-010-i8": {
+    "name": "origano fresco tritato",
+    "standardAmount": "1 cucchiaio"
+   },
+   "w-gr-010-i9": {
+    "name": "riso integrale cotto",
+    "standardAmount": "3 tazze calde"
+   },
+   "w-gr-010-i10": {
+    "name": "ceci in scatola",
+    "standardAmount": "1 lattina da 425 g, sciacquati e scolati"
+   },
+   "w-gr-010-i11": {
+    "name": "olive di Kalamata denocciolate, tritate",
+    "standardAmount": "0.25 tazza"
+   },
+   "w-gr-010-i12": {
+    "name": "prezzemolo fresco tritato",
+    "standardAmount": "3 cucchiai"
+   },
+   "w-gr-010-i13": {
+    "name": "scorza di limone",
+    "standardAmount": "2 cucchiaini"
+   },
+   "w-gr-010-i14": {
+    "name": "succo di limone",
+    "standardAmount": "3 cucchiai"
+   },
+   "w-gr-010-i15": {
+    "name": "tahina",
+    "standardAmount": "2 cucchiai"
+   }
+  },
+  "instructions": {
+   "1": "Grattugiare i pomodori con una grattugia a scatola (dovrebbe dare circa 1 tazza di pomodoro grattugiato).",
+   "2": "Scaldare l'olio d'oliva in una padella grande a fuoco medio. Aggiungere il pomodoro grattugiato e l'aglio. Cuocere mescolando spesso finché i pomodori si sono disfatti e la maggior parte dell'acqua è evaporata, circa 7 minuti.",
+   "3": "Aggiungere le uova, 1/2 cucchiaino di sale e 1/4 cucchiaino di pepe al composto di pomodoro. Cuocere finché le uova sono rapprese, mescolando delicatamente, circa 3 minuti. Devono essere morbide ma non acquose. Incorporare la feta e l'origano. Tenere in caldo.",
+   "4": "In una ciotola grande, mescolare riso, ceci, olive, prezzemolo, scorza di limone e i rimanenti 1/4 cucchiaino ciascuno di sale e pepe. In una ciotola piccola, sbattere insieme succo di limone e tahina e versare sul composto di riso. Mescolare delicatamente per rivestire.",
+   "5": "Servire il composto di uova sopra il composto di riso. Se si desidera, cospargere con pomodoro, origano e prezzemolo aggiuntivi."
+  },
+  "culturalNotes": "La strapatsada è un piatto tradizionale greco solitamente servito come antipasto o portata principale semplice. Combina uova, pomodori e feta ed è facile e veloce da preparare.",
+  "chapter": "gr"
+ },
+ "w-gr-011": {
+  "title": "Taramasalata",
+  "ingredients": {
+   "w-gr-011-i1": {
+    "name": "pane",
+    "standardAmount": "370 g (senza crosta)"
+   },
+   "w-gr-011-i2": {
+    "name": "acqua fredda",
+    "standardAmount": "quanto basta per coprire il pane"
+   },
+   "w-gr-011-i3": {
+    "name": "olio d'oliva",
+    "standardAmount": "0.5 tazza (120 ml)"
+   },
+   "w-gr-011-i4": {
+    "name": "cipolla",
+    "standardAmount": "1 piccola, tritata grossolanamente"
+   },
+   "w-gr-011-i5": {
+    "name": "succo di limone",
+    "standardAmount": "succo di 1 limone grande"
+   },
+   "w-gr-011-i6": {
+    "name": "tarama (uova di pesce salate)",
+    "standardAmount": "1 tazza"
+   }
+  },
+  "instructions": {
+   "1": "Mettere il pane in una ciotola, coprirlo con acqua fredda e lasciarlo finché è ben ammollato, da 5 a 10 minuti. Scolare l'acqua dalla ciotola e strizzare il pane per eliminare l'acqua in eccesso.",
+   "2": "Mettere pane, olio d'oliva, cipolla e succo di limone in un robot da cucina e frullare finché liscio.",
+   "3": "Aggiungere il tarama e frullare finché ben amalgamato."
+  },
+  "culturalNotes": "La taramasalata è un antipasto tradizionale greco, solitamente servito con pane fresco o crackers.",
+  "chapter": "gr"
+ },
+ "w-gr-012": {
+  "title": "Tirokafteri all'aglio arrostito",
+  "ingredients": {
+   "w-gr-012-i1": {
+    "name": "peperoni rossi arrostiti",
+    "standardAmount": "170 g"
+   },
+   "w-gr-012-i2": {
+    "name": "aglio arrostito",
+    "standardAmount": "0.25 tazza"
+   },
+   "w-gr-012-i3": {
+    "name": "salsa piccante di peperoncino",
+    "standardAmount": "1 cucchiaino, o a piacere"
+   },
+   "w-gr-012-i4": {
+    "name": "succo di limone appena spremuto",
+    "standardAmount": "0.5 tazza (120 ml)"
+   },
+   "w-gr-012-i5": {
+    "name": "origano secco",
+    "standardAmount": "0.25 cucchiaino"
+   },
+   "w-gr-012-i6": {
+    "name": "pepe bianco macinato",
+    "standardAmount": "0.125 cucchiaino"
+   },
+   "w-gr-012-i7": {
+    "name": "feta sbriciolata",
+    "standardAmount": "225 g"
+   },
+   "w-gr-012-i8": {
+    "name": "formaggio cremoso",
+    "standardAmount": "115 g, ammorbidito"
+   },
+   "w-gr-012-i9": {
+    "name": "olio extravergine di oliva",
+    "standardAmount": "0.25 tazza (60 ml)"
+   },
+   "w-gr-012-i10": {
+    "name": "panna leggera",
+    "standardAmount": "0.25 tazza (60 ml)"
+   }
+  },
+  "instructions": {
+   "1": "Mettere peperoni rossi arrostiti, aglio arrostito, salsa piccante, succo di limone, origano e pepe bianco in un frullatore e frullare finché liscio.",
+   "2": "Aggiungere la feta sbriciolata e il formaggio cremoso e frullare finché liscio.",
+   "3": "Con il frullatore in funzione, versare lentamente l'olio d'oliva finché incorporato e addensato.",
+   "4": "Incorporare la panna leggera se necessario per ottenere una consistenza da salsa.",
+   "5": "Coprire e conservare la salsa in frigorifero fino al momento di servire."
+  },
+  "culturalNotes": "Il tirokafteri è una salsa tradizionale greca servita come antipasto. È nota per il suo sapore cremoso e piccante.",
+  "chapter": "gr"
+ },
+ "w-gr-013": {
+  "title": "Frittelle di pomodoro e feta",
+  "ingredients": {
+   "w-gr-013-i1": {
+    "name": "pomodori freschi a dadini",
+    "standardAmount": "2 tazze con i loro succhi"
+   },
+   "w-gr-013-i2": {
+    "name": "zucchine grattugiate",
+    "standardAmount": "0.5 tazza compatta"
+   },
+   "w-gr-013-i3": {
+    "name": "cipollotti affettati",
+    "standardAmount": "0.33 tazza"
+   },
+   "w-gr-013-i4": {
+    "name": "sale kosher",
+    "standardAmount": "2 cucchiaini o a piacere"
+   },
+   "w-gr-013-i5": {
+    "name": "zucchero bianco",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-gr-013-i6": {
+    "name": "pepe nero appena macinato",
+    "standardAmount": "0.5 cucchiaino"
+   },
+   "w-gr-013-i7": {
+    "name": "origano secco",
+    "standardAmount": "0.25 cucchiaino"
+   },
+   "w-gr-013-i8": {
+    "name": "pepe di Cayenna",
+    "standardAmount": "un pizzico"
+   },
+   "w-gr-013-i9": {
+    "name": "prezzemolo italiano fresco tritato",
+    "standardAmount": "0.25 tazza"
+   },
+   "w-gr-013-i10": {
+    "name": "menta fresca tritata",
+    "standardAmount": "2 cucchiai"
+   },
+   "w-gr-013-i11": {
+    "name": "basilico fresco tritato",
+    "standardAmount": "2 cucchiai"
+   },
+   "w-gr-013-i12": {
+    "name": "feta sbriciolata",
+    "standardAmount": "85 g"
+   },
+   "w-gr-013-i13": {
+    "name": "farina multiuso",
+    "standardAmount": "0.75 tazza o più al bisogno"
+   },
+   "w-gr-013-i14": {
+    "name": "lievito in polvere",
+    "standardAmount": "0.75 cucchiaino"
+   },
+   "w-gr-013-i15": {
+    "name": "olio vegetale per friggere",
+    "standardAmount": "quanto basta"
+   }
+  },
+  "instructions": {
+   "1": "Riunire tutti gli ingredienti.",
+   "2": "Mescolare pomodori, zucchine, cipollotti, sale kosher, zucchero, pepe nero, origano e pepe di Cayenna in una ciotola. Lasciare riposare 15 minuti affinché zucchero e sale estraggano i liquidi dalle verdure.",
+   "3": "Mescolare il composto di pomodoro; aggiungere prezzemolo, menta e basilico. Sbriciolarvi la feta. Aggiungere farina e lievito in polvere; mescolare con un cucchiaio fino ad amalgamare. La pastella deve essere piuttosto morbida ma deve mantenere la forma sul cucchiaio. Se troppo morbida, aggiungere altra farina; se troppo asciutta, aggiungere un po' d'acqua fino alla consistenza desiderata. Coprire la ciotola con pellicola e far riposare in frigorifero per almeno 30 minuti.",
+   "4": "Scaldare 2.5 cm di olio vegetale in una padella a fuoco medio-alto fino a 175°C, oppure usare una friggitrice.",
+   "5": "Mettere cucchiaiate colme di pastella nell'olio caldo; abbassare il fuoco a medio. Friggere finché dorate e cotte, da 2 a 3 minuti per lato.",
+   "6": "Girare ancora una volta e friggere per altri 30 secondi, se si desidera.",
+   "7": "Servire calde o a temperatura ambiente."
+  },
+  "culturalNotes": "Queste frittelle sono un piatto popolare in Grecia, servito come antipasto o parte di un pasto leggero.",
+  "chapter": "gr"
+ },
+ "w-gr-014": {
+  "title": "Tsoureki greco",
+  "ingredients": {
+   "w-gr-014-i1": {
+    "name": "lievito secco attivo",
+    "standardAmount": "2 bustine da 7 g"
+   },
+   "w-gr-014-i2": {
+    "name": "acqua tiepida",
+    "standardAmount": "0.25 tazza (43°C)"
+   },
+   "w-gr-014-i3": {
+    "name": "farina multiuso",
+    "standardAmount": "6.25 tazze, divisa"
+   },
+   "w-gr-014-i4": {
+    "name": "burro",
+    "standardAmount": "0.5 tazza"
+   },
+   "w-gr-014-i5": {
+    "name": "grasso vegetale",
+    "standardAmount": "0.25 tazza"
+   },
+   "w-gr-014-i6": {
+    "name": "mastice macinato",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-gr-014-i7": {
+    "name": "latte",
+    "standardAmount": "1 tazza (240 ml)"
+   },
+   "w-gr-014-i8": {
+    "name": "zucchero bianco",
+    "standardAmount": "1 tazza"
+   },
+   "w-gr-014-i9": {
+    "name": "sale",
+    "standardAmount": "0.5 cucchiaino"
+   },
+   "w-gr-014-i10": {
+    "name": "uova",
+    "standardAmount": "4 uova, 3 sbattute e 1 per lucidare"
+   },
+   "w-gr-014-i11": {
+    "name": "mandorle affettate",
+    "standardAmount": "0.5 tazza"
+   },
+   "w-gr-014-i12": {
+    "name": "acqua a temperatura ambiente",
+    "standardAmount": "0.5 tazza (120 ml)"
+   },
+   "w-gr-014-i13": {
+    "name": "uova tinte di rosso",
+    "standardAmount": "2 uova"
+   },
+   "w-gr-014-i14": {
+    "name": "semi di sesamo",
+    "standardAmount": "2 cucchiai"
+   }
+  },
+  "instructions": {
+   "1": "Versare il lievito in una ciotola piccola; aggiungere l'acqua tiepida e 1/4 tazza di farina. Mescolare, coprire con due strofinacci umidi e lasciare in un luogo caldo finché spumeggiante, circa 2.5 ore.",
+   "2": "Unire burro, grasso vegetale e mastice in una casseruola a fuoco medio-basso.",
+   "3": "Mescolare latte e zucchero in un'altra casseruola a fuoco medio-basso finché lo zucchero si è sciolto e il composto è tiepido. Togliere dal fuoco.",
+   "4": "Versare 2 tazze di farina nel composto di burro e mescolare bene. Aggiungere il sale, poi incorporare il composto di lievito. Aggiungere altre 2 tazze di farina e mescolare bene. Incorporare le 3 uova sbattute. Aggiungere lentamente il composto di latte e 1 tazza di farina e mescolare bene. Aggiungere l'acqua a temperatura ambiente e l'ultima tazza di farina e mescolare finché l'impasto non è più appiccicoso.",
+   "5": "Lavorare l'impasto su una superficie leggermente infarinata per 20 minuti con le mani leggermente infarinate. Formare una palla. Coprire con strofinacci umidi e lasciare lievitare in un luogo caldo finché raddoppia di volume, circa 2 ore.",
+   "6": "Preriscaldare il forno a 165°C. Ungere due teglie.",
+   "7": "Dividere l'impasto in due pezzi e separare ogni pezzo in tre filoni. Intrecciare ogni gruppo di 3 filoni per formare 2 pani intrecciati. Disporre sulle teglie. Sistemare le uova tinte di rosso tra i filoni. Spennellare l'impasto con l'uovo sbattuto rimasto. Cospargere la superficie con mandorle e semi di sesamo.",
+   "8": "Cuocere nel forno preriscaldato finché dorati, circa 25 minuti."
+  },
+  "culturalNotes": "Lo tsoureki è un pane tradizionale preparato in Grecia durante la Pasqua. È noto per il suo sapore dolce e la consistenza soffice, e viene solitamente decorato con uova tinte di rosso.",
+  "chapter": "gr"
+ },
+ "w-gr-015": {
+  "title": "Salsa tzatziki",
+  "ingredients": {
+   "w-gr-015-i1": {
+    "name": "yogurt naturale magro",
+    "standardAmount": "1 contenitore da 450 g"
+   },
+   "w-gr-015-i2": {
+    "name": "cetriolo",
+    "standardAmount": "1 cetriolo, pelato, senza semi e grattugiato"
+   },
+   "w-gr-015-i3": {
+    "name": "prezzemolo fresco tritato",
+    "standardAmount": "1 cucchiaio"
+   },
+   "w-gr-015-i4": {
+    "name": "menta fresca tritata",
+    "standardAmount": "1 cucchiaio"
+   },
+   "w-gr-015-i5": {
+    "name": "succo di limone fresco",
+    "standardAmount": "1 cucchiaio"
+   },
+   "w-gr-015-i6": {
+    "name": "aglio tritato",
+    "standardAmount": "1 spicchio"
+   },
+   "w-gr-015-i7": {
+    "name": "sale e pepe nero",
+    "standardAmount": "a piacere"
+   }
+  },
+  "instructions": {
+   "1": "Foderare uno scolapasta con due strati di garza; posizionarlo sopra una ciotola media. Mettere lo yogurt nello scolapasta foderato di garza, poi coprire con pellicola. Scolare lo yogurt in frigorifero per 8 ore o tutta la notte.",
+   "2": "Disporre il cetriolo grattugiato su un piatto foderato di carta assorbente; scolare per 1-2 ore.",
+   "3": "Unire yogurt, cetriolo, prezzemolo, menta, succo di limone, aglio, sale e pepe nero in una ciotola. Refrigerare per almeno 2 ore prima di servire."
+  },
+  "culturalNotes": "Lo tzatziki è una salsa tradizionale greca servita come antipasto o con i piatti principali.",
+  "chapter": "gr"
+ },
+ "w-gr-016": {
+  "title": "Vasilopita - torta greca di Capodanno",
+  "ingredients": {
+   "w-gr-016-i1": {
+    "name": "zucchero bianco",
+    "standardAmount": "2 tazze"
+   },
+   "w-gr-016-i2": {
+    "name": "burro",
+    "standardAmount": "1 tazza"
+   },
+   "w-gr-016-i3": {
+    "name": "farina multiuso",
+    "standardAmount": "3 tazze"
+   },
+   "w-gr-016-i4": {
+    "name": "uova",
+    "standardAmount": "6 uova"
+   },
+   "w-gr-016-i5": {
+    "name": "lievito in polvere",
+    "standardAmount": "2 cucchiaini"
+   },
+   "w-gr-016-i6": {
+    "name": "latte tiepido",
+    "standardAmount": "1 tazza (45°C)"
+   },
+   "w-gr-016-i7": {
+    "name": "bicarbonato",
+    "standardAmount": "0.5 cucchiaino"
+   },
+   "w-gr-016-i8": {
+    "name": "succo di limone fresco",
+    "standardAmount": "1 cucchiaio"
+   },
+   "w-gr-016-i9": {
+    "name": "mandorle a lamelle sbollentate",
+    "standardAmount": "0.25 tazza"
+   },
+   "w-gr-016-i10": {
+    "name": "zucchero bianco",
+    "standardAmount": "2 cucchiai"
+   }
+  },
+  "instructions": {
+   "1": "Preriscaldare il forno a 175°C. Imburrare generosamente uno stampo rotondo da 25 cm.",
+   "2": "Montare zucchero e burro in una ciotola media finché più chiaro. Aggiungere la farina e mescolare finché il composto è granuloso. Aggiungere le uova una alla volta, mescolando bene dopo ogni aggiunta.",
+   "3": "Unire lievito in polvere e latte; aggiungere al composto di uova e mescolare bene. Unire succo di limone e bicarbonato; incorporare alla pastella. Versare la pastella nello stampo preparato.",
+   "4": "Cuocere la torta nel forno preriscaldato per 20 minuti. Toglierla e cospargerla di noci e zucchero, poi rimetterla in forno finché la torta torna su al tatto, circa altri 20-30 minuti.",
+   "5": "Praticare delicatamente un piccolo foro nella torta e inserirvi una moneta. Cercare di coprire il foro con lo zucchero. Raffreddare la torta su una griglia per 10 minuti prima di rovesciarla su un piatto.",
+   "6": "Servire la torta calda."
+  },
+  "culturalNotes": "La vasilopita è una torta tradizionale servita in Grecia il giorno di Capodanno.",
+  "chapter": "gr"
  }
 }
