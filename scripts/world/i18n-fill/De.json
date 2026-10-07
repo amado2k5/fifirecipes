@@ -1001,5 +1001,902 @@
   },
   "culturalNotes": "Niter Kibbeh ist eine gewürzte Butterschmalz, die in der äthiopischen Küche zum Verfeinern von Gerichten verwendet wird.",
   "chapter": "et"
+ },
+ "w-gr-001": {
+  "title": "Diples",
+  "ingredients": {
+   "w-gr-001-i1": {
+    "name": "Mehl",
+    "standardAmount": "250 g"
+   },
+   "w-gr-001-i2": {
+    "name": "Pflanzenöl",
+    "standardAmount": "zum Frittieren"
+   },
+   "w-gr-001-i3": {
+    "name": "Butter",
+    "standardAmount": "115 g"
+   },
+   "w-gr-001-i4": {
+    "name": "Honig",
+    "standardAmount": "170 g"
+   },
+   "w-gr-001-i5": {
+    "name": "Zimt",
+    "standardAmount": "1/2 TL"
+   }
+  },
+  "instructions": {
+   "1": "Das Mehl mit Wasser zu einem festen Teig verkneten.",
+   "2": "Den Teig 30 Minuten ruhen lassen.",
+   "3": "Den Teig in kleine Stücke schneiden und dünn ausrollen.",
+   "4": "Die Stücke in heißem Öl goldbraun frittieren.",
+   "5": "Die Diples auf Küchenpapier abtropfen lassen.",
+   "6": "Die geschmolzene Butter und den Honig über die Diples gießen und mit Zimt bestreuen.",
+   "7": "Nach Belieben heiß oder kalt servieren."
+  },
+  "culturalNotes": "Diples sind ein traditionelles griechisches Gebäck, das zu besonderen Anlässen serviert wird.",
+  "chapter": "gr"
+ },
+ "w-gr-002": {
+  "title": "Galaktoboureko",
+  "ingredients": {
+   "w-gr-002-i1": {
+    "name": "weißer Kristallzucker",
+    "standardAmount": "150 g"
+   },
+   "w-gr-002-i2": {
+    "name": "Eier",
+    "standardAmount": "6 Eier"
+   },
+   "w-gr-002-i3": {
+    "name": "Grieß",
+    "standardAmount": "150 g"
+   },
+   "w-gr-002-i4": {
+    "name": "Milch",
+    "standardAmount": "1 Liter"
+   },
+   "w-gr-002-i5": {
+    "name": "Vanilleschoten",
+    "standardAmount": "2 Schoten"
+   },
+   "w-gr-002-i6": {
+    "name": "Zitronensaft",
+    "standardAmount": "Saft von 1/2 Zitrone"
+   },
+   "w-gr-002-i7": {
+    "name": "Salz",
+    "standardAmount": "eine Prise"
+   },
+   "w-gr-002-i8": {
+    "name": "Filo-Teig",
+    "standardAmount": "450 g"
+   },
+   "w-gr-002-i9": {
+    "name": "geschmolzene Butter",
+    "standardAmount": "nach Bedarf"
+   }
+  },
+  "instructions": {
+   "1": "Zucker, Eier und Grieß in einem Topf verrühren. Milch und Vanilleschoten zugeben. Zitronensaft einrühren.",
+   "2": "Die Mischung unter ständigem Rühren mit einer Gabel aufkochen. Sobald sie kocht, Hitze reduzieren und weitere 10 Minuten rühren. Vom Herd nehmen und abkühlen lassen.",
+   "3": "Jedes Filoblatt mit geschmolzener Butter bestreichen.",
+   "4": "Eine Form buttern und die Hälfte der Filoblätter einzeln hineinlegen. Die abgekühlte Grießcreme daraufgießen und mit den restlichen gebutterten Filoblättern bedecken.",
+   "5": "Das Gebäck mit etwas Wasser besprühen.",
+   "6": "Im vorgeheizten Ofen bei 180°C 1 Stunde backen. Vor dem Servieren abkühlen lassen."
+  },
+  "culturalNotes": "Galaktoboureko ist ein traditionelles griechisches Dessert aus Milch-Grieß-Pudding in Filo-Teig. Es wird meist kalt serviert.",
+  "chapter": "gr"
+ },
+ "w-gr-003": {
+  "title": "Giouvetsi (traditioneller griechischer Kritharaki-Auflauf)",
+  "ingredients": {
+   "w-gr-003-i1": {
+    "name": "Olivenöl",
+    "standardAmount": "120 ml"
+   },
+   "w-gr-003-i2": {
+    "name": "Lamm-Gulasch in Würfeln",
+    "standardAmount": "1,4 kg"
+   },
+   "w-gr-003-i3": {
+    "name": "ganze geschälte Tomaten aus der Dose",
+    "standardAmount": "1 Dose à 800 g"
+   },
+   "w-gr-003-i4": {
+    "name": "Knoblauch",
+    "standardAmount": "4 Zehen"
+   },
+   "w-gr-003-i5": {
+    "name": "weißer Zucker",
+    "standardAmount": "1/2 TL"
+   },
+   "w-gr-003-i6": {
+    "name": "Salz und Pfeffer",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-gr-003-i7": {
+    "name": "Butter",
+    "standardAmount": "115 g"
+   },
+   "w-gr-003-i8": {
+    "name": "Kritharaki (Reisnudeln)",
+    "standardAmount": "450 g"
+   },
+   "w-gr-003-i9": {
+    "name": "heißes Wasser",
+    "standardAmount": "700 ml"
+   }
+  },
+  "instructions": {
+   "1": "Olivenöl in einem großen Topf bei mittlerer Hitze erhitzen; das Fleisch rundherum anbraten, etwa 5 Minuten.",
+   "2": "Pürierte Tomaten, Knoblauch, Zucker, Salz und Pfeffer zugeben. Zudecken und 1 Stunde köcheln, gelegentlich umrühren. Beiseitestellen.",
+   "3": "Den Ofen auf 175°C vorheizen.",
+   "4": "Butter in einer mittelgroßen Pfanne bei mittlerer Hitze schmelzen und das Kritharaki zugeben. Leicht anbräunen, 3-5 Minuten.",
+   "5": "Das Kritharaki gleichmäßig in eine Auflaufform geben. Das Fleisch darauf legen und die Tomatensoße darüber gießen. Heißes Wasser zugeben.",
+   "6": "Mit Alufolie abdecken und im vorgeheizten Ofen backen, bis das Wasser aufgenommen und das Kritharaki weich ist, etwa 1 Stunde. Falls es zu trocken wird, während des Backens Wasser nachgießen."
+  },
+  "culturalNotes": "Giouvetsi ist ein traditionelles griechisches Gericht, das oft zu besonderen Anlässen serviert wird. Üblicherweise mit griechischem Salat.",
+  "chapter": "gr"
+ },
+ "w-gr-004": {
+  "title": "Kofta-Kebabs vom Rind aus der Heißluftfritteuse",
+  "ingredients": {
+   "w-gr-004-i1": {
+    "name": "Rinderhackfleisch",
+    "standardAmount": "450 g"
+   },
+   "w-gr-004-i2": {
+    "name": "fein gehackte gelbe Zwiebel",
+    "standardAmount": "60 ml"
+   },
+   "w-gr-004-i3": {
+    "name": "gehackte frische Petersilie",
+    "standardAmount": "60 ml"
+   },
+   "w-gr-004-i4": {
+    "name": "fein gehackter Knoblauch",
+    "standardAmount": "2 Zehen"
+   },
+   "w-gr-004-i5": {
+    "name": "Kreuzkümmel",
+    "standardAmount": "1 TL"
+   },
+   "w-gr-004-i6": {
+    "name": "gemahlener Koriander",
+    "standardAmount": "1 TL"
+   },
+   "w-gr-004-i7": {
+    "name": "Salz",
+    "standardAmount": "1 TL"
+   },
+   "w-gr-004-i8": {
+    "name": "gemahlener schwarzer Pfeffer",
+    "standardAmount": "1/4 TL"
+   },
+   "w-gr-004-i9": {
+    "name": "gemahlener Zimt",
+    "standardAmount": "1/4 TL"
+   },
+   "w-gr-004-i10": {
+    "name": "Spieße",
+    "standardAmount": "8 Spieße"
+   },
+   "w-gr-004-i11": {
+    "name": "naturbelassener griechischer Joghurt",
+    "standardAmount": "240 ml"
+   },
+   "w-gr-004-i12": {
+    "name": "geriebene Gurke, gut ausgedrückt",
+    "standardAmount": "120 ml"
+   },
+   "w-gr-004-i13": {
+    "name": "fein gehackter Knoblauch",
+    "standardAmount": "1 Zehe"
+   },
+   "w-gr-004-i14": {
+    "name": "Zitronensaft",
+    "standardAmount": "1 TL"
+   },
+   "w-gr-004-i15": {
+    "name": "getrockneter Dill",
+    "standardAmount": "1/4 TL"
+   },
+   "w-gr-004-i16": {
+    "name": "Salz",
+    "standardAmount": "1/4 TL"
+   }
+  },
+  "instructions": {
+   "1": "Hackfleisch, Zwiebel, Petersilie, Knoblauch, Kreuzkümmel, Koriander, Salz, Pfeffer und Zimt in einer großen Schüssel gut vermengen.",
+   "2": "Die Mischung in 8 Portionen teilen und um die Spieße zu ovalen Laibchen formen, dabei die Spießspitze bedecken.",
+   "3": "Die Kebabs auf einen Teller legen und kalt stellen.",
+   "4": "Die Heißluftfritteuse auf 188°C vorheizen.",
+   "5": "Joghurt, Gurke, Knoblauch, Zitronensaft, Dill und Salz in einer kleinen Schüssel verrühren und bis zum Servieren kalt stellen.",
+   "6": "4 Spieße in den Fritteusenkorb legen und 10 Minuten garen. Auf einen Teller legen. Mit den restlichen Spießen wiederholen.",
+   "7": "Die Kebabs mit Tzatziki servieren."
+  },
+  "culturalNotes": "Kofta ist in vielen arabischen und nahöstlichen Ländern ein beliebtes Gericht, oft serviert mit Tzatziki.",
+  "chapter": "gr"
+ },
+ "w-gr-005": {
+  "title": "Melomakarono",
+  "ingredients": {
+   "w-gr-005-i1": {
+    "name": "Weizenmehl",
+    "standardAmount": "500 g"
+   },
+   "w-gr-005-i2": {
+    "name": "gemahlener Zimt",
+    "standardAmount": "2 TL"
+   },
+   "w-gr-005-i3": {
+    "name": "Backpulver",
+    "standardAmount": "2 TL"
+   },
+   "w-gr-005-i4": {
+    "name": "gemahlene Nelken",
+    "standardAmount": "2 TL"
+   },
+   "w-gr-005-i5": {
+    "name": "Natron",
+    "standardAmount": "1 TL"
+   },
+   "w-gr-005-i6": {
+    "name": "gemahlene Muskatnuss",
+    "standardAmount": "1/2 TL"
+   },
+   "w-gr-005-i7": {
+    "name": "ungesalzene Butter",
+    "standardAmount": "450 g"
+   },
+   "w-gr-005-i8": {
+    "name": "weißer Zucker",
+    "standardAmount": "150 g"
+   },
+   "w-gr-005-i9": {
+    "name": "Eigelb",
+    "standardAmount": "3"
+   },
+   "w-gr-005-i10": {
+    "name": "frisch gepresster Orangensaft",
+    "standardAmount": "120 ml"
+   },
+   "w-gr-005-i11": {
+    "name": "Honig",
+    "standardAmount": "1 TL + 340 g"
+   },
+   "w-gr-005-i12": {
+    "name": "Wasser",
+    "standardAmount": "240 ml"
+   },
+   "w-gr-005-i13": {
+    "name": "fein gehackte Walnüsse",
+    "standardAmount": "60 g"
+   },
+   "w-gr-005-i14": {
+    "name": "gemahlener Zimt",
+    "standardAmount": "eine Prise"
+   },
+   "w-gr-005-i15": {
+    "name": "gemahlene Nelken",
+    "standardAmount": "eine Prise"
+   }
+  },
+  "instructions": {
+   "1": "Den Ofen auf 175°C vorheizen.",
+   "2": "Mehl, Zimt, Backpulver, Nelken, Natron und Muskatnuss in einer großen Schüssel vermischen.",
+   "3": "In einer separaten Schüssel die Butter hell und cremig schlagen; Zucker zugeben und gut verrühren.",
+   "4": "Eigelb und Orangensaft in einer weiteren Schüssel verquirlen. Die Eiermischung unter Rühren nach und nach in die Buttermischung geben.",
+   "5": "Die Mehlmischung langsam zur Buttermischung geben und jeweils verrühren. Honig zugeben und zu einem weichen Teig verarbeiten.",
+   "6": "Den Teig abdecken und etwa 30 Minuten kühlen, bis er sich verarbeiten lässt.",
+   "7": "Den Teig zu kleinen Ovalen formen und mit Abstand auf Backbleche legen. Leicht flachdrücken; sie gehen beim Backen auseinander.",
+   "8": "Im vorgeheizten Ofen hellgoldbraun backen, 15-20 Minuten.",
+   "9": "Währenddessen Honig, Wasser und Zucker in einem Topf bei mittlerer bis niedriger Hitze erhitzen, bis sich der Zucker auflöst. Den Sirup abkühlen lassen.",
+   "10": "Walnüsse, Zimt und Nelken für den Belag in einer Schüssel mischen.",
+   "11": "Die Kekse je Seite 10-15 Sekunden in den kalten Sirup tauchen. Mit dem Walnussbelag bestreuen und vollständig trocknen lassen.",
+   "12": "Die Kekse in Muffinförmchen oder zwischen Lagen Backpapier aufbewahren."
+  },
+  "culturalNotes": "Melomakarono ist ein traditioneller griechischer Keks, der meist zu Weihnachten serviert wird.",
+  "chapter": "gr"
+ },
+ "w-gr-006": {
+  "title": "Brennnesselsuppe",
+  "ingredients": {
+   "w-gr-006-i1": {
+    "name": "Brennnesseln",
+    "standardAmount": "450 g"
+   },
+   "w-gr-006-i2": {
+    "name": "Salz",
+    "standardAmount": "2 TL"
+   },
+   "w-gr-006-i3": {
+    "name": "natives Olivenöl extra",
+    "standardAmount": "1 EL"
+   },
+   "w-gr-006-i4": {
+    "name": "weiße Zwiebel",
+    "standardAmount": "1 gewürfelt"
+   },
+   "w-gr-006-i5": {
+    "name": "Basmatireis",
+    "standardAmount": "50 g"
+   },
+   "w-gr-006-i6": {
+    "name": "Hühnerbrühe",
+    "standardAmount": "950 ml"
+   },
+   "w-gr-006-i7": {
+    "name": "schwarzer Pfeffer",
+    "standardAmount": "nach Geschmack"
+   }
+  },
+  "instructions": {
+   "1": "Einen großen Topf Wasser mit 2 TL Salz zum Kochen bringen. Die Brennnesseln zugeben und 1-2 Minuten kochen, bis sie weich sind. So wird der Brennhaar-Überrest weitgehend entfernt. In einem Sieb abgießen und mit kaltem Wasser abspülen. Harte Stiele abschneiden und grob hacken.",
+   "2": "Das Olivenöl in einem Topf bei mittlerer bis niedriger Hitze erhitzen und die Zwiebel zugeben. Garen, bis die Zwiebel weich und glasig ist, etwa 5 Minuten. Reis, Hühnerbrühe und gehackte Brennnesseln einrühren. Aufkochen, dann auf mittlere bis niedrige Hitze reduzieren, zudecken und köcheln, bis der Reis weich ist, etwa 15 Minuten.",
+   "3": "Die Suppe mit einem Stabmixer pürieren und mit Salz und Pfeffer abschmecken."
+  },
+  "culturalNotes": "Brennnesseln wachsen in Griechenland wild und werden in vielen traditionellen Rezepten verwendet.",
+  "chapter": "gr"
+ },
+ "w-gr-007": {
+  "title": "Portokalopita (griechischer Orangen-Filo-Kuchen)",
+  "ingredients": {
+   "w-gr-007-i1": {
+    "name": "weißer Zucker",
+    "standardAmount": "400 g"
+   },
+   "w-gr-007-i2": {
+    "name": "Wasser",
+    "standardAmount": "360 ml"
+   },
+   "w-gr-007-i3": {
+    "name": "gemahlener Zimt",
+    "standardAmount": "1 TL"
+   },
+   "w-gr-007-i4": {
+    "name": "Orangen",
+    "standardAmount": "3 Orangen"
+   },
+   "w-gr-007-i5": {
+    "name": "Filo-Teig",
+    "standardAmount": "1 Packung à 450 g"
+   },
+   "w-gr-007-i6": {
+    "name": "Eier",
+    "standardAmount": "5 Eier"
+   },
+   "w-gr-007-i7": {
+    "name": "griechischer Joghurt",
+    "standardAmount": "1 Becher à 200 g"
+   },
+   "w-gr-007-i8": {
+    "name": "Olivenöl",
+    "standardAmount": "180 ml"
+   },
+   "w-gr-007-i9": {
+    "name": "weißer Zucker",
+    "standardAmount": "100 g"
+   },
+   "w-gr-007-i10": {
+    "name": "Backpulver",
+    "standardAmount": "1 EL"
+   }
+  },
+  "instructions": {
+   "1": "In einem Topf bei mittlerer bis hoher Hitze 400 g Zucker, 360 ml Wasser und 1 TL Zimt vermengen. Orangensaft hineinpressen und die ausgepressten Hälften zugeben. Aufkochen und 8 Minuten kräftig kochen. Vom Herd nehmen und den Sirup abkühlen lassen.",
+   "2": "Den Ofen auf 175°C vorheizen. Eine Form von 23x33 cm leicht einfetten.",
+   "3": "Die Filoblätter aus der Packung nehmen und in Streifen reißen oder schneiden. In die Form geben und etwas antrocknen lassen.",
+   "4": "1 Orange halbieren und eine Hälfte in sehr dünne Halbmonde schneiden, um den Kuchen zu garnieren. Die restlichen 2 1/2 Orangen abreiben und auspressen.",
+   "5": "Orangensaft, Orangenschale, Eier, Joghurt, Olivenöl, 100 g Zucker und Backpulver in einem Mixer oder einer Küchenmaschine glatt verarbeiten.",
+   "6": "Die Mischung über die Filostreifen in der Form gießen. Sanft umrühren, damit keine trockenen Streifen übrig bleiben. Den Kuchen mit den Orangenscheiben garnieren.",
+   "7": "Im vorgeheizten Ofen backen, bis die Oberfläche goldbraun und die Füllung gesetzt ist, etwa 45 Minuten. Ein in die Mitte gestochener Zahnstocher sollte sauber herauskommen.",
+   "8": "Den Kuchen aus dem Ofen nehmen und sofort den kalten Sirup darüber gießen.",
+   "9": "Mindestens 1 Stunde oder über Nacht stehen lassen, bis der Sirup eingezogen ist. In Quadrate schneiden und servieren."
+  },
+  "culturalNotes": "Portokalopita ist ein traditioneller griechischer Kuchen aus Filo-Teig und Orange, der meist zu besonderen Anlässen serviert wird.",
+  "chapter": "gr"
+ },
+ "w-gr-008": {
+  "title": "In der Pfanne gebratener Schmierkäse (Saganaki)",
+  "ingredients": {
+   "w-gr-008-i1": {
+    "name": "große Scheibe salziger, in Lake eingelegter Weißkäse (z. B. Feta)",
+    "standardAmount": "1 Scheibe"
+   },
+   "w-gr-008-i2": {
+    "name": "Olivenöl (nicht nativ extra)",
+    "standardAmount": "1 EL"
+   },
+   "w-gr-008-i3": {
+    "name": "großes Zitroneneck",
+    "standardAmount": "1 Ecke"
+   },
+   "w-gr-008-i4": {
+    "name": "Mehl (optional)",
+    "standardAmount": "eine kleine Menge"
+   },
+   "w-gr-008-i5": {
+    "name": "Pita oder anderes Brot (optional)",
+    "standardAmount": "nach Bedarf"
+   }
+  },
+  "instructions": {
+   "1": "Eine kleine Pfanne bei mittlerer bis hoher Hitze erhitzen.",
+   "2": "Während die Pfanne heiß wird, den Käse in Scheiben gewünschter Größe und Dicke schneiden. Dickere Scheiben brauchen länger zum Schmelzen und können anbrennen; dünnere bräunen schlechter.",
+   "3": "Optional die Scheiben in Mehl wenden — das ergibt eine dunklere, etwas knusprigere Kruste, ist aber nicht nötig, da der Käse durch Öl und große Hitze ohnehin eine leichte Kruste bekommt. Es reduziert auch das Spritzen etwas.",
+   "4": "Das Öl in die heiße Pfanne geben und schwenken. Wenn das Öl schimmert und flüssiger wirkt, ist es bereit. Den Käse hineinlegen und zurücktreten — er spritzt wegen der Lake.",
+   "5": "Den Käse nach ein bis zwei Minuten wenden. Eine Scheibe von 2 cm braucht etwa 1-2 Minuten pro Seite.",
+   "6": "Sofort servieren, mit Zitrone und (optional) Brot."
+  },
+  "culturalNotes": "Saganaki ist ein traditionelles griechisches Gericht, das als Vorspeise serviert wird. Üblicherweise mit Zitrone und Brot.",
+  "chapter": "gr"
+ },
+ "w-gr-009": {
+  "title": "Spanakorizo",
+  "ingredients": {
+   "w-gr-009-i1": {
+    "name": "Wasser",
+    "standardAmount": "480 ml"
+   },
+   "w-gr-009-i2": {
+    "name": "Langkornreis",
+    "standardAmount": "200 g"
+   },
+   "w-gr-009-i3": {
+    "name": "Olivenöl",
+    "standardAmount": "1 TL"
+   },
+   "w-gr-009-i4": {
+    "name": "Zwiebel",
+    "standardAmount": "1 kleine, gehackt"
+   },
+   "w-gr-009-i5": {
+    "name": "frischer Spinat",
+    "standardAmount": "1 Bund"
+   },
+   "w-gr-009-i6": {
+    "name": "Zitronenschale",
+    "standardAmount": "abgeriebene Schale von 1 Zitrone"
+   },
+   "w-gr-009-i7": {
+    "name": "Zitronensaft",
+    "standardAmount": "Saft von 1 Zitrone"
+   },
+   "w-gr-009-i8": {
+    "name": "Feta-Käse",
+    "standardAmount": "60 ml zerbröselt"
+   },
+   "w-gr-009-i9": {
+    "name": "frischer Dill",
+    "standardAmount": "15 g gehackt"
+   },
+   "w-gr-009-i10": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-gr-009-i11": {
+    "name": "gemahlener schwarzer Pfeffer",
+    "standardAmount": "nach Geschmack"
+   }
+  },
+  "instructions": {
+   "1": "Wasser und Reis in einem Topf aufkochen. Auf mittlere bis niedrige Hitze reduzieren, zudecken und köcheln, bis der Reis weich und die Flüssigkeit aufgenommen ist, 20-25 Minuten.",
+   "2": "Öl in einem Topf bei mittlerer bis hoher Hitze erhitzen. Die Zwiebel glasig dünsten, etwa 5 Minuten.",
+   "3": "Gekochten Reis und Spinat zugeben; unter Rühren garen, bis der Spinat zusammenfällt, 3-5 Minuten.",
+   "4": "Zitronensaft, -schale, Feta und Dill zugeben. Vom Herd nehmen. Mit Salz und Pfeffer abschmecken."
+  },
+  "culturalNotes": "Spanakorizo ist ein traditionelles griechisches Gericht, das als Haupt- oder Beilage serviert wird. Es besticht durch frische, säuerliche Aromen.",
+  "chapter": "gr"
+ },
+ "w-gr-010": {
+  "title": "Strapatsada mit Kichererbsen-Reis-Salat",
+  "ingredients": {
+   "w-gr-010-i1": {
+    "name": "Tomaten",
+    "standardAmount": "2 mittlere"
+   },
+   "w-gr-010-i2": {
+    "name": "Olivenöl",
+    "standardAmount": "1 EL"
+   },
+   "w-gr-010-i3": {
+    "name": "Knoblauch",
+    "standardAmount": "3 Zehen, fein gehackt"
+   },
+   "w-gr-010-i4": {
+    "name": "Eier",
+    "standardAmount": "6 große"
+   },
+   "w-gr-010-i5": {
+    "name": "Salz",
+    "standardAmount": "3/4 TL, geteilt"
+   },
+   "w-gr-010-i6": {
+    "name": "gemahlener schwarzer Pfeffer",
+    "standardAmount": "1/2 TL, geteilt"
+   },
+   "w-gr-010-i7": {
+    "name": "zerbröselter Feta",
+    "standardAmount": "60 ml"
+   },
+   "w-gr-010-i8": {
+    "name": "gehackter frischer Oregano",
+    "standardAmount": "1 EL"
+   },
+   "w-gr-010-i9": {
+    "name": "gekochter brauner Reis",
+    "standardAmount": "3 Tassen heiß"
+   },
+   "w-gr-010-i10": {
+    "name": "Kichererbsen aus der Dose",
+    "standardAmount": "1 Dose à 425 g, abgespült und abgetropft"
+   },
+   "w-gr-010-i11": {
+    "name": "entsteinte Kalamata-Oliven, gehackt",
+    "standardAmount": "60 ml"
+   },
+   "w-gr-010-i12": {
+    "name": "gehackte frische Petersilie",
+    "standardAmount": "3 EL"
+   },
+   "w-gr-010-i13": {
+    "name": "Zitronenschale",
+    "standardAmount": "2 TL"
+   },
+   "w-gr-010-i14": {
+    "name": "Zitronensaft",
+    "standardAmount": "3 EL"
+   },
+   "w-gr-010-i15": {
+    "name": "Tahini",
+    "standardAmount": "2 EL"
+   }
+  },
+  "instructions": {
+   "1": "Die Tomaten auf einer Vierkantreibe raspeln (ergibt etwa 1 Tasse geriebene Tomate).",
+   "2": "Olivenöl in einer großen Pfanne bei mittlerer Hitze erhitzen. Geriebene Tomate und Knoblauch zugeben. Unter häufigem Rühren garen, bis die Tomaten zerfallen und das meiste Wasser verdampft ist, etwa 7 Minuten.",
+   "3": "Eier, 1/2 TL Salz und 1/4 TL Pfeffer zur Tomatenmischung geben. Unter sanftem Rühren garen, bis die Eier gerinnen, etwa 3 Minuten. Sie sollen weich, aber nicht wässrig sein. Feta und Oregano unterheben. Warm halten.",
+   "4": "In einer großen Schüssel Reis, Kichererbsen, Oliven, Petersilie, Zitronenschale und die restlichen je 1/4 TL Salz und Pfeffer vermengen. In einer kleinen Schüssel Zitronensaft und Tahini verquirlen und über den Reis gießen. Sanft untermischen.",
+   "5": "Die Eimischung über dem Reis servieren. Nach Belieben mit zusätzlicher Tomate, Oregano und Petersilie bestreuen."
+  },
+  "culturalNotes": "Strapatsada ist ein traditionelles griechisches Gericht, das meist als Vorspeise oder einfaches Hauptgericht serviert wird. Es verbindet Eier, Tomaten und Feta und ist schnell zubereitet.",
+  "chapter": "gr"
+ },
+ "w-gr-011": {
+  "title": "Taramosalata",
+  "ingredients": {
+   "w-gr-011-i1": {
+    "name": "Brot",
+    "standardAmount": "370 g (ohne Rinde)"
+   },
+   "w-gr-011-i2": {
+    "name": "kaltes Wasser",
+    "standardAmount": "genug, um das Brot zu bedecken"
+   },
+   "w-gr-011-i3": {
+    "name": "Olivenöl",
+    "standardAmount": "120 ml"
+   },
+   "w-gr-011-i4": {
+    "name": "Zwiebel",
+    "standardAmount": "1 kleine, grob gehackt"
+   },
+   "w-gr-011-i5": {
+    "name": "Zitronensaft",
+    "standardAmount": "Saft von 1 großen Zitrone"
+   },
+   "w-gr-011-i6": {
+    "name": "Tarama (gesalzener Fischrogen)",
+    "standardAmount": "240 ml"
+   }
+  },
+  "instructions": {
+   "1": "Das Brot in eine Schüssel legen, mit kaltem Wasser bedecken und 5-10 Minuten gut einweichen lassen. Das Wasser abgießen und das Brot ausdrücken.",
+   "2": "Brot, Olivenöl, Zwiebel und Zitronensaft in eine Küchenmaschine geben und glatt pürieren.",
+   "3": "Den Tarama zugeben und gut vermengen."
+  },
+  "culturalNotes": "Taramosalata ist eine traditionelle griechische Vorspeise, die meist mit frischem Brot oder Crackern serviert wird.",
+  "chapter": "gr"
+ },
+ "w-gr-012": {
+  "title": "Tirokafteri mit geröstetem Knoblauch",
+  "ingredients": {
+   "w-gr-012-i1": {
+    "name": "geröstete rote Paprika",
+    "standardAmount": "170 g"
+   },
+   "w-gr-012-i2": {
+    "name": "gerösteter Knoblauch",
+    "standardAmount": "60 ml"
+   },
+   "w-gr-012-i3": {
+    "name": "scharfe Paprikasoße",
+    "standardAmount": "1 TL oder nach Geschmack"
+   },
+   "w-gr-012-i4": {
+    "name": "frisch gepresster Zitronensaft",
+    "standardAmount": "120 ml"
+   },
+   "w-gr-012-i5": {
+    "name": "getrockneter Oregano",
+    "standardAmount": "1/4 TL"
+   },
+   "w-gr-012-i6": {
+    "name": "gemahlener weißer Pfeffer",
+    "standardAmount": "1/8 TL"
+   },
+   "w-gr-012-i7": {
+    "name": "zerbröselter Feta",
+    "standardAmount": "225 g"
+   },
+   "w-gr-012-i8": {
+    "name": "Frischkäse",
+    "standardAmount": "115 g, weich"
+   },
+   "w-gr-012-i9": {
+    "name": "natives Olivenöl extra",
+    "standardAmount": "60 ml"
+   },
+   "w-gr-012-i10": {
+    "name": "Kaffeerahm",
+    "standardAmount": "60 ml"
+   }
+  },
+  "instructions": {
+   "1": "Geröstete Paprika, gerösteten Knoblauch, scharfe Soße, Zitronensaft, Oregano und weißen Pfeffer in einen Mixer geben und glatt pürieren.",
+   "2": "Zerbröselten Feta und Frischkäse zugeben und glatt mixen.",
+   "3": "Bei laufendem Mixer das Olivenöl langsam einlaufen lassen, bis die Mischung andickt.",
+   "4": "Bei Bedarf den Kaffeerahm einrühren, um eine Dip-Konsistenz zu erreichen.",
+   "5": "Abdecken und den Dip bis zum Servieren im Kühlschrank aufbewahren."
+  },
+  "culturalNotes": "Tirokafteri ist ein traditioneller griechischer Dip, der als Vorspeise serviert wird. Er ist für seinen cremigen, pikanten Geschmack bekannt.",
+  "chapter": "gr"
+ },
+ "w-gr-013": {
+  "title": "Tomaten-Feta-Puffer",
+  "ingredients": {
+   "w-gr-013-i1": {
+    "name": "gewürfelte frische Tomaten",
+    "standardAmount": "2 Tassen mit Saft"
+   },
+   "w-gr-013-i2": {
+    "name": "geriebene Zucchini",
+    "standardAmount": "1/2 Tasse fest gedrückt"
+   },
+   "w-gr-013-i3": {
+    "name": "geschnittene Frühlingszwiebeln",
+    "standardAmount": "1/3 Tasse"
+   },
+   "w-gr-013-i4": {
+    "name": "Salz",
+    "standardAmount": "2 TL oder nach Geschmack"
+   },
+   "w-gr-013-i5": {
+    "name": "weißer Zucker",
+    "standardAmount": "1 TL"
+   },
+   "w-gr-013-i6": {
+    "name": "frisch gemahlener schwarzer Pfeffer",
+    "standardAmount": "1/2 TL"
+   },
+   "w-gr-013-i7": {
+    "name": "getrockneter Oregano",
+    "standardAmount": "1/4 TL"
+   },
+   "w-gr-013-i8": {
+    "name": "Cayennepfeffer",
+    "standardAmount": "eine Prise"
+   },
+   "w-gr-013-i9": {
+    "name": "gehackte frische Petersilie",
+    "standardAmount": "1/4 Tasse"
+   },
+   "w-gr-013-i10": {
+    "name": "gehackte frische Minze",
+    "standardAmount": "2 EL"
+   },
+   "w-gr-013-i11": {
+    "name": "gehacktes frisches Basilikum",
+    "standardAmount": "2 EL"
+   },
+   "w-gr-013-i12": {
+    "name": "zerbröselter Feta",
+    "standardAmount": "85 g"
+   },
+   "w-gr-013-i13": {
+    "name": "Weizenmehl",
+    "standardAmount": "3/4 Tasse oder mehr nach Bedarf"
+   },
+   "w-gr-013-i14": {
+    "name": "Backpulver",
+    "standardAmount": "3/4 TL"
+   },
+   "w-gr-013-i15": {
+    "name": "Pflanzenöl zum Frittieren",
+    "standardAmount": "nach Bedarf"
+   }
+  },
+  "instructions": {
+   "1": "Alle Zutaten bereitstellen.",
+   "2": "Tomaten, Zucchini, Frühlingszwiebeln, Salz, Zucker, Pfeffer, Oregano und Cayenne in einer Schüssel verrühren. 15 Minuten ziehen lassen, damit Salz und Zucker dem Gemüse Flüssigkeit entziehen.",
+   "3": "Die Tomatenmischung umrühren; Petersilie, Minze und Basilikum zugeben. Feta hineinbröseln. Mehl und Backpulver zugeben und mit einem Löffel vermengen. Der Teig sollte locker sein, aber auf dem Löffel Form halten. Zu locker: mehr Mehl; zu trocken: etwas Wasser. Die Schüssel mit Frischhaltefolie abdecken und mindestens 30 Minuten kühlen.",
+   "4": "2,5 cm Pflanzenöl in einer Pfanne bei mittlerer bis hoher Hitze auf 175°C erhitzen oder eine Fritteuse verwenden.",
+   "5": "Gehäufte Esslöffel Teig ins heiße Öl geben; auf mittlere Hitze reduzieren. Goldbraun und durchgegart frittieren, 2-3 Minuten pro Seite.",
+   "6": "Nach Wunsch ein weiteres Mal wenden und 30 Sekunden weiterfrittieren.",
+   "7": "Warm oder bei Raumtemperatur servieren."
+  },
+  "culturalNotes": "Diese Puffer sind in Griechenland ein beliebtes Gericht, das als Vorspeise oder Teil eines leichten Essens serviert wird.",
+  "chapter": "gr"
+ },
+ "w-gr-014": {
+  "title": "Griechisches Tsoureki",
+  "ingredients": {
+   "w-gr-014-i1": {
+    "name": "aktive Trockenhefe",
+    "standardAmount": "2 Packungen à 7 g"
+   },
+   "w-gr-014-i2": {
+    "name": "warmes Wasser",
+    "standardAmount": "60 ml (43°C)"
+   },
+   "w-gr-014-i3": {
+    "name": "Weizenmehl",
+    "standardAmount": "6 1/4 Tassen, geteilt"
+   },
+   "w-gr-014-i4": {
+    "name": "Butter",
+    "standardAmount": "115 g"
+   },
+   "w-gr-014-i5": {
+    "name": "Pflanzenfett",
+    "standardAmount": "50 g"
+   },
+   "w-gr-014-i6": {
+    "name": "gemahlener Mastix",
+    "standardAmount": "1 TL"
+   },
+   "w-gr-014-i7": {
+    "name": "Milch",
+    "standardAmount": "240 ml"
+   },
+   "w-gr-014-i8": {
+    "name": "weißer Zucker",
+    "standardAmount": "200 g"
+   },
+   "w-gr-014-i9": {
+    "name": "Salz",
+    "standardAmount": "1/2 TL"
+   },
+   "w-gr-014-i10": {
+    "name": "Eier",
+    "standardAmount": "4 Eier, 3 verquirlt und 1 zum Bestreichen"
+   },
+   "w-gr-014-i11": {
+    "name": "Mandelblättchen",
+    "standardAmount": "60 g"
+   },
+   "w-gr-014-i12": {
+    "name": "Wasser bei Raumtemperatur",
+    "standardAmount": "120 ml"
+   },
+   "w-gr-014-i13": {
+    "name": "rot gefärbte Eier",
+    "standardAmount": "2 Eier"
+   },
+   "w-gr-014-i14": {
+    "name": "Sesamkörner",
+    "standardAmount": "2 EL"
+   }
+  },
+  "instructions": {
+   "1": "Die Hefe in eine kleine Schüssel geben; warmes Wasser und 1/4 Tasse Mehl zugeben. Verrühren, mit zwei feuchten Küchentüchern abdecken und an einem warmen Ort etwa 2,5 Stunden stehen lassen, bis es blubbert.",
+   "2": "Butter, Pflanzenfett und Mastix in einem Topf bei mittlerer bis niedriger Hitze vermengen.",
+   "3": "Milch und Zucker in einem anderen Topf bei mittlerer bis niedriger Hitze verrühren, bis der Zucker gelöst und die Mischung warm ist. Vom Herd nehmen.",
+   "4": "2 Tassen Mehl in die Buttermischung rühren und gut vermengen. Salz zugeben, dann die Hefemischung einrühren. 2 weitere Tassen Mehl zugeben und gut verrühren. Die 3 verquirlten Eier einrühren. Langsam die Milchmischung und 1 Tasse Mehl zugeben und gut verrühren. Das raumtemperierte Wasser und die letzte Tasse Mehl zugeben und rühren, bis der Teig nicht mehr klebt.",
+   "5": "Den Teig auf einer leicht bemehlten Fläche mit bemehlten Händen 20 Minuten kneten. Zu einer Kugel formen. Mit feuchten Tüchern abdecken und an einem warmen Ort etwa 2 Stunden gehen lassen, bis sich das Volumen verdoppelt.",
+   "6": "Den Ofen auf 165°C vorheizen. Zwei Backbleche einfetten.",
+   "7": "Den Teig in zwei Stücke teilen und jedes Stück in drei Stränge. Die Stränge zu zwei Zöpfen flechten. Auf die Bleche legen. Die roten Eier zwischen die Stränge setzen. Den Teig mit dem restlichen verquirlten Ei bestreichen. Mit Mandeln und Sesam bestreuen.",
+   "8": "Im vorgeheizten Ofen goldbraun backen, etwa 25 Minuten."
+  },
+  "culturalNotes": "Tsoureki ist ein traditionelles Brot, das in Griechenland zu Ostern gebacken wird. Es ist für seinen süßen Geschmack und die weiche Textur bekannt und wird meist mit rot gefärbten Eiern geschmückt.",
+  "chapter": "gr"
+ },
+ "w-gr-015": {
+  "title": "Tzatziki",
+  "ingredients": {
+   "w-gr-015-i1": {
+    "name": "fettarmer Naturjoghurt",
+    "standardAmount": "1 Becher à 450 g"
+   },
+   "w-gr-015-i2": {
+    "name": "Gurke",
+    "standardAmount": "1 Gurke, geschält, entkernt und gerieben"
+   },
+   "w-gr-015-i3": {
+    "name": "gehackte frische Petersilie",
+    "standardAmount": "1 EL"
+   },
+   "w-gr-015-i4": {
+    "name": "gehackte frische Minze",
+    "standardAmount": "1 EL"
+   },
+   "w-gr-015-i5": {
+    "name": "frischer Zitronensaft",
+    "standardAmount": "1 EL"
+   },
+   "w-gr-015-i6": {
+    "name": "fein gehackter Knoblauch",
+    "standardAmount": "1 Zehe"
+   },
+   "w-gr-015-i7": {
+    "name": "Salz und schwarzer Pfeffer",
+    "standardAmount": "nach Geschmack"
+   }
+  },
+  "instructions": {
+   "1": "Ein Sieb mit zwei Lagen Passiertuch auslegen und über eine mittelgroße Schüssel setzen. Den Joghurt in das ausgelegte Sieb geben und mit Frischhaltefolie abdecken. Den Joghurt im Kühlschrank 8 Stunden bis über Nacht abtropfen lassen.",
+   "2": "Die geriebene Gurke auf einem mit Küchenpapier belegten Teller verteilen; 1-2 Stunden abtropfen lassen.",
+   "3": "Joghurt, Gurke, Petersilie, Minze, Zitronensaft, Knoblauch, Salz und Pfeffer in einer Schüssel vermengen. Vor dem Servieren mindestens 2 Stunden kühlen."
+  },
+  "culturalNotes": "Tzatziki ist eine traditionelle griechische Soße, die als Vorspeise oder zu Hauptgerichten serviert wird.",
+  "chapter": "gr"
+ },
+ "w-gr-016": {
+  "title": "Vasilopita - griechischer Neujahrskuchen",
+  "ingredients": {
+   "w-gr-016-i1": {
+    "name": "weißer Zucker",
+    "standardAmount": "400 g"
+   },
+   "w-gr-016-i2": {
+    "name": "Butter",
+    "standardAmount": "225 g"
+   },
+   "w-gr-016-i3": {
+    "name": "Weizenmehl",
+    "standardAmount": "375 g"
+   },
+   "w-gr-016-i4": {
+    "name": "Eier",
+    "standardAmount": "6 Eier"
+   },
+   "w-gr-016-i5": {
+    "name": "Backpulver",
+    "standardAmount": "2 TL"
+   },
+   "w-gr-016-i6": {
+    "name": "warme Milch",
+    "standardAmount": "240 ml (45°C)"
+   },
+   "w-gr-016-i7": {
+    "name": "Natron",
+    "standardAmount": "1/2 TL"
+   },
+   "w-gr-016-i8": {
+    "name": "frischer Zitronensaft",
+    "standardAmount": "1 EL"
+   },
+   "w-gr-016-i9": {
+    "name": "blanchierte Mandelstifte",
+    "standardAmount": "25 g"
+   },
+   "w-gr-016-i10": {
+    "name": "weißer Zucker",
+    "standardAmount": "2 EL"
+   }
+  },
+  "instructions": {
+   "1": "Den Ofen auf 175°C vorheizen. Eine runde Kuchenform von 25 cm großzügig einfetten.",
+   "2": "Zucker und Butter in einer mittelgroßen Schüssel hell aufschlagen. Mehl zugeben und verrühren, bis die Mischung krümelig ist. Die Eier einzeln zugeben und jeweils gut verrühren.",
+   "3": "Backpulver und Milch vermengen; zur Eimischung geben und gut verrühren. Zitronensaft und Natron vermengen und in den Teig rühren. Den Teig in die vorbereitete Form füllen.",
+   "4": "Den Kuchen im vorgeheizten Ofen 20 Minuten backen. Herausnehmen, mit Mandeln und Zucker bestreuen und wieder in den Ofen geben, bis der Kuchen auf Druck zurückfedert, etwa 20-30 weitere Minuten.",
+   "5": "Vorsichtig ein kleines Loch in den Kuchen schneiden und eine Münze hineinlegen. Das Loch möglichst mit Zucker bedecken. Den Kuchen 10 Minuten auf einem Gitter abkühlen lassen, dann auf einen Teller stürzen.",
+   "6": "Den Kuchen warm servieren."
+  },
+  "culturalNotes": "Vasilopita ist ein traditioneller Kuchen, der in Griechenland zum Neujahrstag serviert wird.",
+  "chapter": "gr"
  }
 }

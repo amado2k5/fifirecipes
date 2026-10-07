@@ -120258,5 +120258,902 @@
   },
   "culturalNotes": "Le niter kibbeh est un beurre clarifié épicé utilisé dans la cuisine éthiopienne pour rehausser la saveur des plats.",
   "chapter": "مطبخ إثيوبيا"
+ },
+ "w-gr-001": {
+  "title": "Diples",
+  "ingredients": {
+   "w-gr-001-i1": {
+    "name": "farine",
+    "standardAmount": "250 g"
+   },
+   "w-gr-001-i2": {
+    "name": "huile végétale",
+    "standardAmount": "pour la friture"
+   },
+   "w-gr-001-i3": {
+    "name": "beurre",
+    "standardAmount": "115 g"
+   },
+   "w-gr-001-i4": {
+    "name": "miel",
+    "standardAmount": "170 g"
+   },
+   "w-gr-001-i5": {
+    "name": "cannelle",
+    "standardAmount": "1/2 c. à c."
+   }
+  },
+  "instructions": {
+   "1": "Mélanger la farine avec de l'eau pour obtenir une pâte ferme.",
+   "2": "Laisser reposer la pâte 30 minutes.",
+   "3": "Couper la pâte en petits morceaux et les étaler finement.",
+   "4": "Frire les morceaux dans l'huile chaude jusqu'à ce qu'ils soient dorés.",
+   "5": "Égoutter les diples sur du papier absorbant.",
+   "6": "Verser le beurre fondu et le miel sur les diples et saupoudrer de cannelle.",
+   "7": "Servir chaud ou froid selon le goût."
+  },
+  "culturalNotes": "Les diples sont une pâtisserie grecque traditionnelle servie lors des occasions spéciales.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-002": {
+  "title": "Galaktoboureko",
+  "ingredients": {
+   "w-gr-002-i1": {
+    "name": "sucre cristallisé",
+    "standardAmount": "150 g"
+   },
+   "w-gr-002-i2": {
+    "name": "œufs",
+    "standardAmount": "6 œufs"
+   },
+   "w-gr-002-i3": {
+    "name": "semoule",
+    "standardAmount": "150 g"
+   },
+   "w-gr-002-i4": {
+    "name": "lait",
+    "standardAmount": "1 litre"
+   },
+   "w-gr-002-i5": {
+    "name": "gousses de vanille",
+    "standardAmount": "2 gousses"
+   },
+   "w-gr-002-i6": {
+    "name": "jus de citron",
+    "standardAmount": "le jus d'1/2 citron"
+   },
+   "w-gr-002-i7": {
+    "name": "sel",
+    "standardAmount": "une pincée"
+   },
+   "w-gr-002-i8": {
+    "name": "pâte filo",
+    "standardAmount": "450 g"
+   },
+   "w-gr-002-i9": {
+    "name": "beurre fondu",
+    "standardAmount": "au besoin"
+   }
+  },
+  "instructions": {
+   "1": "Dans une casserole, mélanger le sucre, les œufs et la semoule. Ajouter le lait et la vanille. Incorporer le jus de citron.",
+   "2": "Porter à ébullition en remuant sans cesse à la fourchette. Quand ça bout, baisser le feu et remuer encore 10 minutes. Retirer du feu et laisser refroidir.",
+   "3": "Badigeonner chaque feuille de filo de beurre fondu.",
+   "4": "Beurrer un moule et y déposer la moitié des feuilles une à une. Verser la crème de semoule refroidie et couvrir du reste de filo beurré.",
+   "5": "Saupoudrer la pâtisserie d'un peu d'eau.",
+   "6": "Cuire au four préchauffé à 180°C pendant 1 heure. Laisser refroidir avant de servir."
+  },
+  "culturalNotes": "Le galaktoboureko est un dessert grec traditionnel fait d'une crème au lait et à la semoule enveloppée de filo. Il se sert froid.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-003": {
+  "title": "Giouvetsi (gratin de kritharaki traditionnel grec)",
+  "ingredients": {
+   "w-gr-003-i1": {
+    "name": "huile d'olive",
+    "standardAmount": "120 ml"
+   },
+   "w-gr-003-i2": {
+    "name": "agneau à mijoter en cubes",
+    "standardAmount": "1,4 kg"
+   },
+   "w-gr-003-i3": {
+    "name": "tomates entières pelées en conserve",
+    "standardAmount": "1 boîte de 800 g"
+   },
+   "w-gr-003-i4": {
+    "name": "ail",
+    "standardAmount": "4 gousses"
+   },
+   "w-gr-003-i5": {
+    "name": "sucre blanc",
+    "standardAmount": "1/2 c. à c."
+   },
+   "w-gr-003-i6": {
+    "name": "sel et poivre",
+    "standardAmount": "au goût"
+   },
+   "w-gr-003-i7": {
+    "name": "beurre",
+    "standardAmount": "115 g"
+   },
+   "w-gr-003-i8": {
+    "name": "kritharaki (pâtes orzo)",
+    "standardAmount": "450 g"
+   },
+   "w-gr-003-i9": {
+    "name": "eau chaude",
+    "standardAmount": "700 ml"
+   }
+  },
+  "instructions": {
+   "1": "Chauffer l'huile d'olive dans une grande casserole à feu moyen ; faire dorer la viande de tous côtés, environ 5 minutes.",
+   "2": "Ajouter les tomates mixées, l'ail, le sucre, le sel et le poivre. Couvrir et laisser mijoter 1 heure en remuant de temps en temps. Réserver.",
+   "3": "Préchauffer le four à 175°C.",
+   "4": "Faire fondre le beurre dans une poêle moyenne à feu moyen et ajouter le kritharaki. Faire revenir jusqu'à légère coloration, 3-5 minutes.",
+   "5": "Verser le kritharaki dans un plat à four en l'étalant bien. Déposer la viande dessus et napper de sauce tomate. Ajouter l'eau chaude.",
+   "6": "Couvrir de papier d'aluminium et cuire au four préchauffé jusqu'à absorption complète de l'eau, environ 1 heure. Si le plat devient trop sec, ajouter de l'eau en cours de cuisson."
+  },
+  "culturalNotes": "Le giouvetsi est un plat grec traditionnel souvent servi lors des occasions spéciales. Il s'accompagne généralement d'une salade grecque.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-004": {
+  "title": "Brochettes de kefta de bœuf à la friteuse à air",
+  "ingredients": {
+   "w-gr-004-i1": {
+    "name": "bœuf haché",
+    "standardAmount": "450 g"
+   },
+   "w-gr-004-i2": {
+    "name": "oignon jaune finement haché",
+    "standardAmount": "60 ml"
+   },
+   "w-gr-004-i3": {
+    "name": "persil frais haché",
+    "standardAmount": "60 ml"
+   },
+   "w-gr-004-i4": {
+    "name": "ail finement haché",
+    "standardAmount": "2 gousses"
+   },
+   "w-gr-004-i5": {
+    "name": "cumin",
+    "standardAmount": "1 c. à c."
+   },
+   "w-gr-004-i6": {
+    "name": "coriandre moulue",
+    "standardAmount": "1 c. à c."
+   },
+   "w-gr-004-i7": {
+    "name": "sel",
+    "standardAmount": "1 c. à c."
+   },
+   "w-gr-004-i8": {
+    "name": "poivre noir moulu",
+    "standardAmount": "1/4 c. à c."
+   },
+   "w-gr-004-i9": {
+    "name": "cannelle moulue",
+    "standardAmount": "1/4 c. à c."
+   },
+   "w-gr-004-i10": {
+    "name": "piques à brochette",
+    "standardAmount": "8 piques"
+   },
+   "w-gr-004-i11": {
+    "name": "yaourt grec nature",
+    "standardAmount": "240 ml"
+   },
+   "w-gr-004-i12": {
+    "name": "concombre râpé, bien essoré",
+    "standardAmount": "120 ml"
+   },
+   "w-gr-004-i13": {
+    "name": "ail finement haché",
+    "standardAmount": "1 gousse"
+   },
+   "w-gr-004-i14": {
+    "name": "jus de citron",
+    "standardAmount": "1 c. à c."
+   },
+   "w-gr-004-i15": {
+    "name": "aneth séché",
+    "standardAmount": "1/4 c. à c."
+   },
+   "w-gr-004-i16": {
+    "name": "sel",
+    "standardAmount": "1/4 c. à c."
+   }
+  },
+  "instructions": {
+   "1": "Dans un grand bol, mélanger le bœuf, l'oignon, le persil, l'ail, le cumin, la coriandre, le sel, le poivre et la cannelle jusqu'à homogénéité.",
+   "2": "Diviser en 8 portions et former des galettes ovales autour des piques, en couvrant bien la pointe.",
+   "3": "Disposer les brochettes sur une assiette et réfrigérer.",
+   "4": "Préchauffer la friteuse à air à 188°C.",
+   "5": "Dans un petit bol, mélanger le yaourt, le concombre, l'ail, le jus de citron, l'aneth et le sel ; réfrigérer jusqu'au moment de servir.",
+   "6": "Placer 4 piques dans le panier de la friteuse et cuire 10 minutes. Transférer sur une assiette. Répéter avec les restantes.",
+   "7": "Servir les brochettes avec la sauce tzatziki."
+  },
+  "culturalNotes": "Le kefta est un plat populaire dans de nombreux pays arabes et du Moyen-Orient, souvent servi avec du tzatziki.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-005": {
+  "title": "Melomakarono",
+  "ingredients": {
+   "w-gr-005-i1": {
+    "name": "farine tout usage",
+    "standardAmount": "500 g"
+   },
+   "w-gr-005-i2": {
+    "name": "cannelle moulue",
+    "standardAmount": "2 c. à c."
+   },
+   "w-gr-005-i3": {
+    "name": "levure chimique",
+    "standardAmount": "2 c. à c."
+   },
+   "w-gr-005-i4": {
+    "name": "clous de girofle moulus",
+    "standardAmount": "2 c. à c."
+   },
+   "w-gr-005-i5": {
+    "name": "bicarbonate",
+    "standardAmount": "1 c. à c."
+   },
+   "w-gr-005-i6": {
+    "name": "muscade moulue",
+    "standardAmount": "1/2 c. à c."
+   },
+   "w-gr-005-i7": {
+    "name": "beurre non salé",
+    "standardAmount": "450 g"
+   },
+   "w-gr-005-i8": {
+    "name": "sucre blanc",
+    "standardAmount": "150 g"
+   },
+   "w-gr-005-i9": {
+    "name": "jaunes d'œufs",
+    "standardAmount": "3"
+   },
+   "w-gr-005-i10": {
+    "name": "jus d'orange fraîchement pressé",
+    "standardAmount": "120 ml"
+   },
+   "w-gr-005-i11": {
+    "name": "miel",
+    "standardAmount": "1 c. à c. + 340 g"
+   },
+   "w-gr-005-i12": {
+    "name": "eau",
+    "standardAmount": "240 ml"
+   },
+   "w-gr-005-i13": {
+    "name": "noix finement concassées",
+    "standardAmount": "60 g"
+   },
+   "w-gr-005-i14": {
+    "name": "cannelle moulue",
+    "standardAmount": "une pincée"
+   },
+   "w-gr-005-i15": {
+    "name": "clous de girofle moulus",
+    "standardAmount": "une pincée"
+   }
+  },
+  "instructions": {
+   "1": "Préchauffer le four à 175°C.",
+   "2": "Dans un grand bol, mélanger la farine, la cannelle, la levure, les clous de girofle, le bicarbonate et la muscade.",
+   "3": "Dans un autre bol, battre le beurre jusqu'à ce qu'il soit clair et mousseux ; ajouter le sucre et bien mélanger.",
+   "4": "Battre les jaunes avec le jus d'orange dans un troisième bol. Incorporer progressivement au mélange de beurre en remuant.",
+   "5": "Ajouter lentement le mélange de farine en remuant après chaque ajout. Ajouter le miel et mélanger jusqu'à former une pâte souple.",
+   "6": "Couvrir la pâte et la réfrigérer jusqu'à ce qu'elle soit assez ferme, environ 30 minutes.",
+   "7": "Façonner la pâte en petits ovales et les disposer espacés sur des plaques. Aplatir légèrement ; ils s'étaleront à la cuisson.",
+   "8": "Cuire au four préchauffé jusqu'à ce qu'ils soient légèrement dorés, 15-20 minutes.",
+   "9": "Pendant ce temps, chauffer le miel, l'eau et le sucre dans une casserole à feu moyen-doux jusqu'à dissolution du sucre. Laisser refroidir le sirop.",
+   "10": "Mélanger les noix, la cannelle et les clous de girofle pour la garniture.",
+   "11": "Tremper les biscuits dans le sirop froid 10-15 secondes par face. Saupoudrer de la garniture aux noix et laisser sécher complètement.",
+   "12": "Conserver les biscuits dans des caissettes ou entre des couches de papier sulfurisé."
+  },
+  "culturalNotes": "Le melomakarono est un biscuit grec traditionnel généralement servi à Noël.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-006": {
+  "title": "Soupe aux orties",
+  "ingredients": {
+   "w-gr-006-i1": {
+    "name": "orties",
+    "standardAmount": "450 g"
+   },
+   "w-gr-006-i2": {
+    "name": "sel",
+    "standardAmount": "2 c. à c."
+   },
+   "w-gr-006-i3": {
+    "name": "huile d'olive extra vierge",
+    "standardAmount": "1 c. à s."
+   },
+   "w-gr-006-i4": {
+    "name": "oignon blanc",
+    "standardAmount": "1 coupé en dés"
+   },
+   "w-gr-006-i5": {
+    "name": "riz basmati",
+    "standardAmount": "50 g"
+   },
+   "w-gr-006-i6": {
+    "name": "bouillon de poulet",
+    "standardAmount": "950 ml"
+   },
+   "w-gr-006-i7": {
+    "name": "poivre noir",
+    "standardAmount": "au goût"
+   }
+  },
+  "instructions": {
+   "1": "Porter à ébullition une grande casserole d'eau avec 2 c. à c. de sel. Ajouter les orties et cuire 1-2 minutes jusqu'à ce qu'elles ramollissent. Cela enlève l'essentiel de leur piquant. Égoutter dans une passoire et rincer à l'eau froide. Retirer les tiges dures et hacher grossièrement.",
+   "2": "Chauffer l'huile d'olive dans une casserole à feu moyen-doux et ajouter l'oignon. Cuire jusqu'à ce qu'il soit tendre et translucide, environ 5 minutes. Ajouter le riz, le bouillon de poulet et les orties hachées. Porter à ébullition, baisser à feu moyen-doux, couvrir et laisser mijoter jusqu'à ce que le riz soit tendre, environ 15 minutes.",
+   "3": "Mixer la soupe au mixeur plongeant et assaisonner de sel et poivre au goût."
+  },
+  "culturalNotes": "Les orties sont une plante qui pousse naturellement en Grèce et entre dans de nombreuses recettes traditionnelles.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-007": {
+  "title": "Portokalopita (gâteau grec à l'orange et à la filo)",
+  "ingredients": {
+   "w-gr-007-i1": {
+    "name": "sucre blanc",
+    "standardAmount": "400 g"
+   },
+   "w-gr-007-i2": {
+    "name": "eau",
+    "standardAmount": "360 ml"
+   },
+   "w-gr-007-i3": {
+    "name": "cannelle moulue",
+    "standardAmount": "1 c. à c."
+   },
+   "w-gr-007-i4": {
+    "name": "oranges",
+    "standardAmount": "3 oranges"
+   },
+   "w-gr-007-i5": {
+    "name": "pâte filo",
+    "standardAmount": "1 paquet de 450 g"
+   },
+   "w-gr-007-i6": {
+    "name": "œufs",
+    "standardAmount": "5 œufs"
+   },
+   "w-gr-007-i7": {
+    "name": "yaourt grec",
+    "standardAmount": "1 pot de 200 g"
+   },
+   "w-gr-007-i8": {
+    "name": "huile d'olive",
+    "standardAmount": "180 ml"
+   },
+   "w-gr-007-i9": {
+    "name": "sucre blanc",
+    "standardAmount": "100 g"
+   },
+   "w-gr-007-i10": {
+    "name": "levure chimique",
+    "standardAmount": "1 c. à s."
+   }
+  },
+  "instructions": {
+   "1": "Dans une casserole à feu moyen-vif, mélanger 400 g de sucre, 360 ml d'eau et 1 c. à c. de cannelle. Presser le jus des oranges et ajouter les moitiés pressées. Porter à ébullition et faire bouillir vivement 8 minutes. Retirer du feu et laisser refroidir le sirop.",
+   "2": "Préchauffer le four à 175°C. Graisser légèrement un plat de 23x33 cm.",
+   "3": "Sortir les feuilles de filo du paquet et les déchirer ou les couper en lamelles. Les disposer dans le plat et les laisser sécher un peu.",
+   "4": "Couper 1 orange en deux et tailler une moitié en très fines demi-lunes pour décorer. Zester et presser les 2 1/2 oranges restantes.",
+   "5": "Dans un blender ou un robot, mélanger le jus, le zeste, les œufs, le yaourt, l'huile, 100 g de sucre et la levure. Mixer jusqu'à obtenir un mélange lisse.",
+   "6": "Verser le mélange sur les lambeaux de filo. Remuer doucement pour qu'il ne reste pas de filo sec. Décorer le dessus avec les rondelles d'orange.",
+   "7": "Cuire au four préchauffé jusqu'à ce que le dessus soit doré et l'appareil pris, environ 45 minutes. Un cure-dent planté au centre doit ressortir propre.",
+   "8": "Sortir le gâteau du four et verser aussitôt le sirop froid dessus.",
+   "9": "Laisser reposer au moins 1 heure ou toute la nuit, jusqu'à ce que le sirop soit absorbé. Couper en carrés et servir."
+  },
+  "culturalNotes": "La portokalopita est un gâteau grec traditionnel à la filo et à l'orange, généralement servi lors des occasions spéciales.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-008": {
+  "title": "Fromage blanc en saumure poêlé (Saganaki)",
+  "ingredients": {
+   "w-gr-008-i1": {
+    "name": "grande tranche de fromage blanc salé en saumure (p. ex. feta)",
+    "standardAmount": "1 tranche"
+   },
+   "w-gr-008-i2": {
+    "name": "huile d'olive (non extra vierge)",
+    "standardAmount": "1 c. à s."
+   },
+   "w-gr-008-i3": {
+    "name": "gros quartier de citron",
+    "standardAmount": "1 quartier"
+   },
+   "w-gr-008-i4": {
+    "name": "farine (facultatif)",
+    "standardAmount": "une petite quantité"
+   },
+   "w-gr-008-i5": {
+    "name": "pita ou autre pain (facultatif)",
+    "standardAmount": "au besoin"
+   }
+  },
+  "instructions": {
+   "1": "Chauffer une petite poêle à feu moyen-vif.",
+   "2": "Pendant que la poêle chauffe, couper le fromage en tranches de la taille et de l'épaisseur souhaitées. Les tranches épaisses mettent plus de temps à fondre et peuvent brûler ; les fines dorent moins bien.",
+   "3": "Facultativement, fariner les tranches — cela donne une croûte plus foncée et légèrement plus croustillante, mais c'est optionnel car le fromage forme une légère croûte de lui-même grâce à l'huile et à la forte chaleur. Cela réduit aussi un peu les projections.",
+   "4": "Ajouter l'huile dans la poêle chaude et la faire tourner. Quand l'huile miroite et devient plus fluide, elle est prête. Ajouter le fromage et reculer — il projette à cause de la saumure.",
+   "5": "Retourner le fromage après une à deux minutes. Une tranche de 2 cm demande environ 1-2 minutes par face.",
+   "6": "Servir immédiatement, avec du citron et (facultativement) du pain."
+  },
+  "culturalNotes": "Le saganaki est un plat grec traditionnel servi en entrée. On le sert généralement avec du citron et du pain.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-009": {
+  "title": "Spanakorizo",
+  "ingredients": {
+   "w-gr-009-i1": {
+    "name": "eau",
+    "standardAmount": "480 ml"
+   },
+   "w-gr-009-i2": {
+    "name": "riz long grain",
+    "standardAmount": "200 g"
+   },
+   "w-gr-009-i3": {
+    "name": "huile d'olive",
+    "standardAmount": "1 c. à c."
+   },
+   "w-gr-009-i4": {
+    "name": "oignon",
+    "standardAmount": "1 petit, haché"
+   },
+   "w-gr-009-i5": {
+    "name": "épinards frais",
+    "standardAmount": "1 botte"
+   },
+   "w-gr-009-i6": {
+    "name": "zeste de citron",
+    "standardAmount": "le zeste d'1 citron"
+   },
+   "w-gr-009-i7": {
+    "name": "jus de citron",
+    "standardAmount": "le jus d'1 citron"
+   },
+   "w-gr-009-i8": {
+    "name": "fromage feta",
+    "standardAmount": "60 ml émietté"
+   },
+   "w-gr-009-i9": {
+    "name": "aneth frais",
+    "standardAmount": "15 g haché"
+   },
+   "w-gr-009-i10": {
+    "name": "sel",
+    "standardAmount": "au goût"
+   },
+   "w-gr-009-i11": {
+    "name": "poivre noir moulu",
+    "standardAmount": "au goût"
+   }
+  },
+  "instructions": {
+   "1": "Porter l'eau et le riz à ébullition dans une casserole. Réduire à feu moyen-doux, couvrir et laisser mijoter jusqu'à ce que le riz soit tendre et le liquide absorbé, 20-25 minutes.",
+   "2": "Chauffer l'huile dans une casserole à feu moyen-vif. Faire revenir l'oignon jusqu'à ce qu'il soit tendre, environ 5 minutes.",
+   "3": "Ajouter le riz cuit et les épinards ; cuire en remuant jusqu'à ce que les épinards soient fanés, 3-5 minutes.",
+   "4": "Ajouter le jus et le zeste de citron, la feta et l'aneth. Retirer du feu. Saler et poivrer au goût."
+  },
+  "culturalNotes": "Le spanakorizo est un plat grec traditionnel servi en plat principal ou en accompagnement. Il se caractérise par ses saveurs fraîches et acidulées.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-010": {
+  "title": "Strapatsada avec salade de riz et pois chiches",
+  "ingredients": {
+   "w-gr-010-i1": {
+    "name": "tomates",
+    "standardAmount": "2 moyennes"
+   },
+   "w-gr-010-i2": {
+    "name": "huile d'olive",
+    "standardAmount": "1 c. à s."
+   },
+   "w-gr-010-i3": {
+    "name": "ail",
+    "standardAmount": "3 gousses hachées"
+   },
+   "w-gr-010-i4": {
+    "name": "œufs",
+    "standardAmount": "6 gros"
+   },
+   "w-gr-010-i5": {
+    "name": "sel",
+    "standardAmount": "3/4 c. à c. réparti"
+   },
+   "w-gr-010-i6": {
+    "name": "poivre noir moulu",
+    "standardAmount": "1/2 c. à c. réparti"
+   },
+   "w-gr-010-i7": {
+    "name": "feta émietté",
+    "standardAmount": "60 ml"
+   },
+   "w-gr-010-i8": {
+    "name": "origan frais haché",
+    "standardAmount": "1 c. à s."
+   },
+   "w-gr-010-i9": {
+    "name": "riz brun cuit",
+    "standardAmount": "3 tasses chaud"
+   },
+   "w-gr-010-i10": {
+    "name": "pois chiches en conserve",
+    "standardAmount": "1 boîte de 425 g, rincée et égouttée"
+   },
+   "w-gr-010-i11": {
+    "name": "olives Kalamata dénoyautées, hachées",
+    "standardAmount": "60 ml"
+   },
+   "w-gr-010-i12": {
+    "name": "persil frais haché",
+    "standardAmount": "3 c. à s."
+   },
+   "w-gr-010-i13": {
+    "name": "zeste de citron",
+    "standardAmount": "2 c. à c."
+   },
+   "w-gr-010-i14": {
+    "name": "jus de citron",
+    "standardAmount": "3 c. à s."
+   },
+   "w-gr-010-i15": {
+    "name": "tahini",
+    "standardAmount": "2 c. à s."
+   }
+  },
+  "instructions": {
+   "1": "Râper les tomates à la râpe à quatre faces (cela donne environ 1 tasse de tomate râpée).",
+   "2": "Chauffer l'huile d'olive dans une grande poêle à feu moyen. Ajouter la tomate râpée et l'ail. Cuire en remuant souvent jusqu'à ce que les tomates soient réduites et que l'eau soit presque évaporée, environ 7 minutes.",
+   "3": "Ajouter les œufs, 1/2 c. à c. de sel et 1/4 c. à c. de poivre au mélange de tomates. Cuire en remuant doucement jusqu'à ce que les œufs soient pris, environ 3 minutes. Ils doivent être moelleux mais pas liquides. Incorporer la feta et l'origan. Garder au chaud.",
+   "4": "Dans un grand bol, mélanger le riz, les pois chiches, les olives, le persil, le zeste de citron et les 1/4 c. à c. restants de sel et poivre. Dans un petit bol, fouetter le jus de citron avec le tahini et verser sur le riz. Mélanger doucement.",
+   "5": "Servir le mélange d'œufs sur le riz. Si désiré, parsemer de tomate, d'origan et de persil supplémentaires."
+  },
+  "culturalNotes": "La strapatsada est un plat grec traditionnel servi généralement en entrée ou en plat principal simple. Elle combine œufs, tomates et feta et se prépare vite.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-011": {
+  "title": "Taramasalata",
+  "ingredients": {
+   "w-gr-011-i1": {
+    "name": "pain",
+    "standardAmount": "370 g (sans croûte)"
+   },
+   "w-gr-011-i2": {
+    "name": "eau froide",
+    "standardAmount": "assez pour couvrir le pain"
+   },
+   "w-gr-011-i3": {
+    "name": "huile d'olive",
+    "standardAmount": "120 ml"
+   },
+   "w-gr-011-i4": {
+    "name": "oignon",
+    "standardAmount": "1 petit, grossièrement haché"
+   },
+   "w-gr-011-i5": {
+    "name": "jus de citron",
+    "standardAmount": "le jus d'1 gros citron"
+   },
+   "w-gr-011-i6": {
+    "name": "tarama (œufs de poisson salés)",
+    "standardAmount": "240 ml"
+   }
+  },
+  "instructions": {
+   "1": "Mettre le pain dans un bol, couvrir d'eau froide et laisser bien tremper 5-10 minutes. Égoutter l'eau et presser le pain pour en retirer l'excédent.",
+   "2": "Mettre le pain, l'huile d'olive, l'oignon et le jus de citron dans un robot et mixer jusqu'à consistance lisse.",
+   "3": "Ajouter le tarama et mixer jusqu'à bonne incorporation."
+  },
+  "culturalNotes": "La taramasalata est une entrée grecque traditionnelle, généralement servie avec du pain frais ou des crackers.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-012": {
+  "title": "Tirokafteri à l'ail rôti",
+  "ingredients": {
+   "w-gr-012-i1": {
+    "name": "poivrons rouges rôtis",
+    "standardAmount": "170 g"
+   },
+   "w-gr-012-i2": {
+    "name": "ail rôti",
+    "standardAmount": "60 ml"
+   },
+   "w-gr-012-i3": {
+    "name": "sauce piquante",
+    "standardAmount": "1 c. à c. ou au goût"
+   },
+   "w-gr-012-i4": {
+    "name": "jus de citron fraîchement pressé",
+    "standardAmount": "120 ml"
+   },
+   "w-gr-012-i5": {
+    "name": "origan séché",
+    "standardAmount": "1/4 c. à c."
+   },
+   "w-gr-012-i6": {
+    "name": "poivre blanc moulu",
+    "standardAmount": "1/8 c. à c."
+   },
+   "w-gr-012-i7": {
+    "name": "feta émietté",
+    "standardAmount": "225 g"
+   },
+   "w-gr-012-i8": {
+    "name": "fromage à la crème",
+    "standardAmount": "115 g, ramolli"
+   },
+   "w-gr-012-i9": {
+    "name": "huile d'olive extra vierge",
+    "standardAmount": "60 ml"
+   },
+   "w-gr-012-i10": {
+    "name": "crème légère",
+    "standardAmount": "60 ml"
+   }
+  },
+  "instructions": {
+   "1": "Mettre les poivrons rôtis, l'ail rôti, la sauce piquante, le jus de citron, l'origan et le poivre blanc dans un blender et mixer jusqu'à consistance lisse.",
+   "2": "Ajouter la feta émiettée et le fromage à la crème, et mixer jusqu'à consistance lisse.",
+   "3": "Le blender en marche, verser lentement l'huile d'olive jusqu'à incorporation et épaississement.",
+   "4": "Incorporer la crème légère si besoin pour obtenir une texture de dip.",
+   "5": "Couvrir et conserver le dip au réfrigérateur jusqu'au service."
+  },
+  "culturalNotes": "La tirokafteri est un dip grec traditionnel servi en entrée. Elle est réputée pour sa saveur crémeuse et épicée.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-013": {
+  "title": "Beignets de tomate et feta",
+  "ingredients": {
+   "w-gr-013-i1": {
+    "name": "tomates fraîches en dés",
+    "standardAmount": "2 tasses avec leur jus"
+   },
+   "w-gr-013-i2": {
+    "name": "courgette râpée",
+    "standardAmount": "1/2 tasse bien tassée"
+   },
+   "w-gr-013-i3": {
+    "name": "oignons verts émincés",
+    "standardAmount": "1/3 tasse"
+   },
+   "w-gr-013-i4": {
+    "name": "sel",
+    "standardAmount": "2 c. à c. ou au goût"
+   },
+   "w-gr-013-i5": {
+    "name": "sucre blanc",
+    "standardAmount": "1 c. à c."
+   },
+   "w-gr-013-i6": {
+    "name": "poivre noir fraîchement moulu",
+    "standardAmount": "1/2 c. à c."
+   },
+   "w-gr-013-i7": {
+    "name": "origan séché",
+    "standardAmount": "1/4 c. à c."
+   },
+   "w-gr-013-i8": {
+    "name": "poivre de Cayenne",
+    "standardAmount": "une pincée"
+   },
+   "w-gr-013-i9": {
+    "name": "persil plat frais haché",
+    "standardAmount": "1/4 tasse"
+   },
+   "w-gr-013-i10": {
+    "name": "menthe fraîche hachée",
+    "standardAmount": "2 c. à s."
+   },
+   "w-gr-013-i11": {
+    "name": "basilic frais haché",
+    "standardAmount": "2 c. à s."
+   },
+   "w-gr-013-i12": {
+    "name": "feta émietté",
+    "standardAmount": "85 g"
+   },
+   "w-gr-013-i13": {
+    "name": "farine tout usage",
+    "standardAmount": "3/4 tasse ou plus au besoin"
+   },
+   "w-gr-013-i14": {
+    "name": "levure chimique",
+    "standardAmount": "3/4 c. à c."
+   },
+   "w-gr-013-i15": {
+    "name": "huile végétale pour la friture",
+    "standardAmount": "au besoin"
+   }
+  },
+  "instructions": {
+   "1": "Rassembler tous les ingrédients.",
+   "2": "Dans un bol, mélanger tomates, courgette, oignons verts, sel, sucre, poivre, origan et Cayenne. Laisser reposer 15 minutes pour que le sel et le sucre extraient le jus des légumes.",
+   "3": "Remuer le mélange de tomates ; ajouter persil, menthe et basilic. Émietter la feta dedans. Ajouter la farine et la levure ; mélanger à la cuillère. La pâte doit être assez lâche mais tenir sur la cuillère. Trop lâche : ajouter de la farine ; trop sèche : un peu d'eau. Couvrir le bol de film alimentaire et réfrigérer au moins 30 minutes.",
+   "4": "Chauffer 2,5 cm d'huile végétale dans une poêle à feu moyen-vif à 175°C, ou utiliser une friteuse.",
+   "5": "Déposer des cuillères à soupe bien bombées de pâte dans l'huile chaude ; réduire à feu moyen. Frire jusqu'à ce que les beignets soient dorés et cuits à cœur, 2-3 minutes par face.",
+   "6": "Retourner une fois de plus et frire 30 secondes supplémentaires si désiré.",
+   "7": "Servir tiède ou à température ambiante."
+  },
+  "culturalNotes": "Ces beignets sont un plat populaire en Grèce, servi en entrée ou en repas léger.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-014": {
+  "title": "Tsoureki grec",
+  "ingredients": {
+   "w-gr-014-i1": {
+    "name": "levure sèche active",
+    "standardAmount": "2 sachets de 7 g"
+   },
+   "w-gr-014-i2": {
+    "name": "eau tiède",
+    "standardAmount": "60 ml (43°C)"
+   },
+   "w-gr-014-i3": {
+    "name": "farine tout usage",
+    "standardAmount": "6 1/4 tasses réparties"
+   },
+   "w-gr-014-i4": {
+    "name": "beurre",
+    "standardAmount": "115 g"
+   },
+   "w-gr-014-i5": {
+    "name": "shortening",
+    "standardAmount": "50 g"
+   },
+   "w-gr-014-i6": {
+    "name": "mastic moulu",
+    "standardAmount": "1 c. à c."
+   },
+   "w-gr-014-i7": {
+    "name": "lait",
+    "standardAmount": "240 ml"
+   },
+   "w-gr-014-i8": {
+    "name": "sucre blanc",
+    "standardAmount": "200 g"
+   },
+   "w-gr-014-i9": {
+    "name": "sel",
+    "standardAmount": "1/2 c. à c."
+   },
+   "w-gr-014-i10": {
+    "name": "œufs",
+    "standardAmount": "4 œufs, 3 battus et 1 pour la dorure"
+   },
+   "w-gr-014-i11": {
+    "name": "amandes effilées",
+    "standardAmount": "60 g"
+   },
+   "w-gr-014-i12": {
+    "name": "eau à température ambiante",
+    "standardAmount": "120 ml"
+   },
+   "w-gr-014-i13": {
+    "name": "œufs teints en rouge",
+    "standardAmount": "2 œufs"
+   },
+   "w-gr-014-i14": {
+    "name": "graines de sésame",
+    "standardAmount": "2 c. à s."
+   }
+  },
+  "instructions": {
+   "1": "Verser la levure dans un petit bol ; ajouter l'eau tiède et 1/4 tasse de farine. Remuer, couvrir de deux torchons humides et laisser dans un endroit chaud jusqu'à ce que ça mousse, environ 2 heures 30.",
+   "2": "Dans une casserole à feu moyen-doux, mélanger le beurre, le shortening et le mastic.",
+   "3": "Dans une autre casserole, mélanger le lait et le sucre à feu moyen-doux jusqu'à ce que le sucre soit dissous et le mélange tiède. Retirer du feu.",
+   "4": "Verser 2 tasses de farine dans le mélange de beurre et bien remuer. Ajouter le sel puis le mélange de levure. Ajouter 2 tasses de farine supplémentaires et bien remuer. Incorporer les 3 œufs battus. Ajouter lentement le mélange de lait et 1 tasse de farine en remuant bien. Ajouter l'eau à température ambiante et la dernière tasse de farine ; remuer jusqu'à ce que la pâte ne colle plus.",
+   "5": "Pétrir la pâte sur un plan légèrement fariné pendant 20 minutes avec les mains farinées. Former une boule. Couvrir de torchons humides et laisser lever dans un endroit chaud jusqu'à doubler, environ 2 heures.",
+   "6": "Préchauffer le four à 165°C. Graisser deux plaques.",
+   "7": "Diviser la pâte en deux et chaque morceau en trois brins. Tresser chaque trio pour former 2 tresses. Poser sur les plaques. Insérer les œufs rouges entre les brins. Badigeonner la pâte de l'œuf battu restant. Parsemer d'amandes et de sésame.",
+   "8": "Cuire au four préchauffé jusqu'à coloration dorée, environ 25 minutes."
+  },
+  "culturalNotes": "Le tsoureki est un pain traditionnel préparé en Grèce à Pâques. Il est réputé pour son goût sucré et sa mie moelleuse, et il est généralement décoré d'œufs teints en rouge.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-015": {
+  "title": "Sauce tzatziki",
+  "ingredients": {
+   "w-gr-015-i1": {
+    "name": "yaourt nature allégé",
+    "standardAmount": "1 pot de 450 g"
+   },
+   "w-gr-015-i2": {
+    "name": "concombre",
+    "standardAmount": "1 concombre, pelé, épépiné et râpé"
+   },
+   "w-gr-015-i3": {
+    "name": "persil frais haché",
+    "standardAmount": "1 c. à s."
+   },
+   "w-gr-015-i4": {
+    "name": "menthe fraîche hachée",
+    "standardAmount": "1 c. à s."
+   },
+   "w-gr-015-i5": {
+    "name": "jus de citron frais",
+    "standardAmount": "1 c. à s."
+   },
+   "w-gr-015-i6": {
+    "name": "ail finement haché",
+    "standardAmount": "1 gousse"
+   },
+   "w-gr-015-i7": {
+    "name": "sel et poivre noir",
+    "standardAmount": "au goût"
+   }
+  },
+  "instructions": {
+   "1": "Tapisser une passoire de deux couches d'étamine et la poser sur un bol moyen. Verser le yaourt dans la passoire et couvrir de film alimentaire. Laisser égoutter le yaourt au réfrigérateur 8 heures à une nuit.",
+   "2": "Étaler le concombre râpé sur une assiette tapissée de papier absorbant ; laisser égoutter 1-2 heures.",
+   "3": "Dans un bol, mélanger le yaourt, le concombre, le persil, la menthe, le jus de citron, l'ail, le sel et le poivre. Réfrigérer au moins 2 heures avant de servir."
+  },
+  "culturalNotes": "Le tzatziki est une sauce grecque traditionnelle servie en entrée ou avec des plats principaux.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-016": {
+  "title": "Vasilopita - gâteau grec du Nouvel An",
+  "ingredients": {
+   "w-gr-016-i1": {
+    "name": "sucre blanc",
+    "standardAmount": "400 g"
+   },
+   "w-gr-016-i2": {
+    "name": "beurre",
+    "standardAmount": "225 g"
+   },
+   "w-gr-016-i3": {
+    "name": "farine tout usage",
+    "standardAmount": "375 g"
+   },
+   "w-gr-016-i4": {
+    "name": "œufs",
+    "standardAmount": "6 œufs"
+   },
+   "w-gr-016-i5": {
+    "name": "levure chimique",
+    "standardAmount": "2 c. à c."
+   },
+   "w-gr-016-i6": {
+    "name": "lait tiède",
+    "standardAmount": "240 ml (45°C)"
+   },
+   "w-gr-016-i7": {
+    "name": "bicarbonate",
+    "standardAmount": "1/2 c. à c."
+   },
+   "w-gr-016-i8": {
+    "name": "jus de citron frais",
+    "standardAmount": "1 c. à s."
+   },
+   "w-gr-016-i9": {
+    "name": "amandes effilées blanchies",
+    "standardAmount": "25 g"
+   },
+   "w-gr-016-i10": {
+    "name": "sucre blanc",
+    "standardAmount": "2 c. à s."
+   }
+  },
+  "instructions": {
+   "1": "Préchauffer le four à 175°C. Graisser généreusement un moule rond de 25 cm.",
+   "2": "Dans un bol moyen, battre le sucre et le beurre jusqu'à ce que le mélange blanchisse. Ajouter la farine et mélanger jusqu'à une texture sableuse. Ajouter les œufs un à un en battant bien après chaque ajout.",
+   "3": "Mélanger la levure et le lait ; ajouter au mélange d'œufs et bien remuer. Mélanger le jus de citron et le bicarbonate ; incorporer à la pâte. Verser la pâte dans le moule préparé.",
+   "4": "Cuire au four préchauffé 20 minutes. Sortir et parsemer les amandes et le sucre, puis remettre au four jusqu'à ce que le gâteau rebondisse au toucher, environ 20-30 minutes de plus.",
+   "5": "Découper délicatement un petit trou dans le gâteau et y placer une pièce de monnaie. Essayer de recouvrir le trou de sucre. Laisser refroidir le gâteau sur une grille 10 minutes avant de le démouler sur une assiette.",
+   "6": "Servir le gâteau tiède."
+  },
+  "culturalNotes": "La vasilopita est un gâteau traditionnel servi en Grèce le jour de l'An.",
+  "chapter": "مطبخ اليونان"
  }
 }
