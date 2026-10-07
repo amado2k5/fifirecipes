@@ -1,0 +1,487 @@
+- generic [active] [ref=f2e1]:
+  - link "Skip to content" [ref=f2e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f2e3]:
+    - generic [ref=f2e4]:
+      - link "Cookwala" [ref=f2e5] [cursor=pointer]:
+        - /url: /
+      - navigation "Main" [ref=f2e10]:
+        - link "Why" [ref=f2e11] [cursor=pointer]:
+          - /url: /why/
+        - link "How it helps" [ref=f2e12] [cursor=pointer]:
+          - /url: /goals/
+        - link "Impact" [ref=f2e13] [cursor=pointer]:
+          - /url: /impact/
+        - link "Developers" [ref=f2e14] [cursor=pointer]:
+          - /url: /developers/
+        - link "Playground" [ref=f2e15] [cursor=pointer]:
+          - /url: /playground/
+        - link "Recipes" [ref=f2e16] [cursor=pointer]:
+          - /url: /recipes/
+        - link "Food banks & aid" [ref=f2e17] [cursor=pointer]:
+          - /url: /humanitarian/
+        - link "Docs" [ref=f2e18] [cursor=pointer]:
+          - /url: /docs/
+        - group [ref=f2e19]:
+          - generic "More ▾" [ref=f2e20] [cursor=pointer]
+        - group [ref=f2e21]:
+          - generic "Language" [ref=f2e22] [cursor=pointer]: English ▾
+        - button "Switch light or dark" [ref=f2e23] [cursor=pointer]: ◐
+  - main [ref=f2e24]:
+    - generic [ref=f2e25]:
+      - paragraph [ref=f2e26]:
+        - link "Cookwala" [ref=f2e27] [cursor=pointer]:
+          - /url: /
+        - text: / Playground
+      - heading "Try it in your browser" [level=1] [ref=f2e28]
+      - paragraph [ref=f2e29]: "Three things to play with: the dry run (can this device cook this recipe?), the envelope explorer (when does a simmer stop being a simmer?), and four simulators that show the protocol on and off. Nothing here is a real device; everything runs on your machine."
+    - region [ref=f2e30]:
+      - generic [ref=f2e31]:
+        - generic [ref=f2e32]:
+          - 'heading "Dry run: can this device cook this recipe?" [level=2] [ref=f2e33]'
+          - paragraph [ref=f2e34]: Nine recipes, five device presets, or build your own device from operations, sensors and vision cues. The result is a link you can share.
+        - generic [ref=f2e35]:
+          - form "Dry-run settings" [ref=f2e36]:
+            - generic [ref=f2e37]:
+              - text: Recipe
+              - combobox "Recipe" [ref=f2e38]:
+                - option "Shakshuka · شكشوكة" [selected]
+                - option "Koshari · كشري"
+                - option "Lentil soup · شوربة عدس"
+                - option "Molokhia with chicken · ملوخية"
+                - option "Oven kofta · كفتة"
+                - option "Rice with vermicelli · رز بالشعرية"
+                - option "Ful medames · فول"
+                - option "Salata baladi · سلطة"
+                - option "Basbousa · بسبوسة"
+            - generic [ref=f2e39]:
+              - text: Device
+              - combobox "Device" [ref=f2e40]:
+                - option "Kitchen robot with hob and thermometers" [selected]
+                - option "Kitchen robot with hob, no thermometers"
+                - option "Kitchen robot with an oil thermometer"
+                - option "Counter robot arm (cuts, cracks, mixes, moves)"
+                - option "Smart oven with a core probe"
+                - option "Custom device — build it below"
+            - generic [ref=f2e41]:
+              - checkbox "A person is in the kitchen (uncheck and every step that needs one is refused)" [checked] [ref=f2e42]
+              - text: A person is in the kitchen
+              - generic [ref=f2e43]: (uncheck and every step that needs one is refused)
+            - generic [ref=f2e44]:
+              - checkbox "Allow logged estimates where the device has no sensor (uncheck and those steps fall back to plain timing — or get refused)" [checked] [ref=f2e45]
+              - text: Allow logged estimates where the device has no sensor
+              - generic [ref=f2e46]: (uncheck and those steps fall back to plain timing — or get refused)
+            - button "Watch it refuse an unsafe step" [ref=f2e47] [cursor=pointer]
+          - group [ref=f2e48]:
+            - generic "Build your own device (extends the device menu)" [ref=f2e49]
+            - generic [ref=f2e50]:
+              - group "Operations" [ref=f2e51]:
+                - generic [ref=f2e53]:
+                  - checkbox "heat" [checked] [ref=f2e54]
+                  - text: heat
+                - generic [ref=f2e55]:
+                  - checkbox "saute" [checked] [ref=f2e56]
+                  - text: saute
+                - generic [ref=f2e57]:
+                  - checkbox "simmer" [checked] [ref=f2e58]
+                  - text: simmer
+                - generic [ref=f2e59]:
+                  - checkbox "boil" [checked] [ref=f2e60]
+                  - text: boil
+                - generic [ref=f2e61]:
+                  - checkbox "toast" [checked] [ref=f2e62]
+                  - text: toast
+                - generic [ref=f2e63]:
+                  - checkbox "bake" [checked] [ref=f2e64]
+                  - text: bake
+                - generic [ref=f2e65]:
+                  - checkbox "roast" [checked] [ref=f2e66]
+                  - text: roast
+                - generic [ref=f2e67]:
+                  - checkbox "melt" [checked] [ref=f2e68]
+                  - text: melt
+                - generic [ref=f2e69]:
+                  - checkbox "reduce" [checked] [ref=f2e70]
+                  - text: reduce
+                - generic [ref=f2e71]:
+                  - checkbox "hold" [checked] [ref=f2e72]
+                  - text: hold
+                - generic [ref=f2e73]:
+                  - checkbox "cool" [checked] [ref=f2e74]
+                  - text: cool
+                - generic [ref=f2e75]:
+                  - checkbox "chill" [checked] [ref=f2e76]
+                  - text: chill
+                - generic [ref=f2e77]:
+                  - checkbox "cut" [checked] [ref=f2e78]
+                  - text: cut
+                - generic [ref=f2e79]:
+                  - checkbox "grate" [checked] [ref=f2e80]
+                  - text: grate
+                - generic [ref=f2e81]:
+                  - checkbox "crush" [checked] [ref=f2e82]
+                  - text: crush
+                - generic [ref=f2e83]:
+                  - checkbox "mix" [checked] [ref=f2e84]
+                  - text: mix
+                - generic [ref=f2e85]:
+                  - checkbox "whisk" [checked] [ref=f2e86]
+                  - text: whisk
+                - generic [ref=f2e87]:
+                  - checkbox "form" [checked] [ref=f2e88]
+                  - text: form
+                - generic [ref=f2e89]:
+                  - checkbox "form_wells" [checked] [ref=f2e90]
+                  - text: form_wells
+                - generic [ref=f2e91]:
+                  - checkbox "crack" [checked] [ref=f2e92]
+                  - text: crack
+                - generic [ref=f2e93]:
+                  - checkbox "transfer" [checked] [ref=f2e94]
+                  - text: transfer
+                - generic [ref=f2e95]:
+                  - checkbox "wash" [checked] [ref=f2e96]
+                  - text: wash
+                - generic [ref=f2e97]:
+                  - checkbox "drain" [checked] [ref=f2e98]
+                  - text: drain
+                - generic [ref=f2e99]:
+                  - checkbox "layer" [checked] [ref=f2e100]
+                  - text: layer
+                - generic [ref=f2e101]:
+                  - checkbox "season" [checked] [ref=f2e102]
+                  - text: season
+                - generic [ref=f2e103]:
+                  - checkbox "garnish" [checked] [ref=f2e104]
+                  - text: garnish
+                - generic [ref=f2e105]:
+                  - checkbox "serve" [checked] [ref=f2e106]
+                  - text: serve
+                - generic [ref=f2e107]:
+                  - checkbox "rest" [checked] [ref=f2e108]
+                  - text: rest
+                - generic [ref=f2e109]:
+                  - checkbox "blend" [checked] [ref=f2e110]
+                  - text: blend
+                - generic [ref=f2e111]:
+                  - checkbox "wait" [checked] [ref=f2e112]
+                  - text: wait
+                - generic [ref=f2e113]:
+                  - checkbox "deep_fry" [ref=f2e114]
+                  - text: deep_fry
+              - group "Sensors" [ref=f2e115]:
+                - generic [ref=f2e117]:
+                  - checkbox "pan_surface_temp" [ref=f2e118]
+                  - text: pan_surface_temp
+                - generic [ref=f2e119]:
+                  - checkbox "liquid_temp" [checked] [ref=f2e120]
+                  - text: liquid_temp
+                - generic [ref=f2e121]:
+                  - checkbox "oil_temp" [ref=f2e122]
+                  - text: oil_temp
+                - generic [ref=f2e123]:
+                  - checkbox "oven_temp" [ref=f2e124]
+                  - text: oven_temp
+                - generic [ref=f2e125]:
+                  - checkbox "core_temp" [ref=f2e126]
+                  - text: core_temp
+                - generic [ref=f2e127]:
+                  - checkbox "boil_detect" [ref=f2e128]
+                  - text: boil_detect
+                - generic [ref=f2e129]:
+                  - checkbox "color_vision" [ref=f2e130]
+                  - text: color_vision
+                - generic [ref=f2e131]:
+                  - checkbox "bubble_vision" [ref=f2e132]
+                  - text: bubble_vision
+              - group "Vision cues" [ref=f2e133]:
+                - generic [ref=f2e135]:
+                  - checkbox "vision" [checked] [ref=f2e136]
+                  - text: vision
+                - generic [ref=f2e137]:
+                  - checkbox "translucent" [checked] [ref=f2e138]
+                  - text: translucent
+                - generic [ref=f2e139]:
+                  - checkbox "egg_whites_set" [ref=f2e140]
+                  - text: egg_whites_set
+                - generic [ref=f2e141]:
+                  - checkbox "color_golden" [ref=f2e142]
+                  - text: color_golden
+                - generic [ref=f2e143]:
+                  - checkbox "color_golden_brown" [ref=f2e144]
+                  - text: color_golden_brown
+                - generic [ref=f2e145]:
+                  - checkbox "lentils_soft" [ref=f2e146]
+                  - text: lentils_soft
+                - generic [ref=f2e147]:
+                  - checkbox "liquid_absorbed" [ref=f2e148]
+                  - text: liquid_absorbed
+                - generic [ref=f2e149]:
+                  - checkbox "sauce_coats_spoon" [ref=f2e150]
+                  - text: sauce_coats_spoon
+                - generic [ref=f2e151]:
+                  - checkbox "fragrant_no_browning" [ref=f2e152]
+                  - text: fragrant_no_browning
+                - generic [ref=f2e153]:
+                  - checkbox "oil_shimmer" [ref=f2e154]
+                  - text: oil_shimmer
+                - generic [ref=f2e155]:
+                  - checkbox "boil_detect" [ref=f2e156]
+                  - text: boil_detect
+                - generic [ref=f2e157]:
+                  - checkbox "fully_melted" [ref=f2e158]
+                  - text: fully_melted
+                - generic [ref=f2e159]:
+                  - checkbox "molokhia_dispersed" [ref=f2e160]
+                  - text: molokhia_dispersed
+                - generic [ref=f2e161]:
+                  - checkbox "pasta_al_dente" [ref=f2e162]
+                  - text: pasta_al_dente
+                - generic [ref=f2e163]:
+                  - checkbox "lentils_tender_whole" [ref=f2e164]
+                  - text: lentils_tender_whole
+                - generic [ref=f2e165]:
+                  - checkbox "syrup_light_coat" [ref=f2e166]
+                  - text: syrup_light_coat
+          - status [ref=f2e167]: "ACCEPTEDThe kitchen robot with hob and thermometers can cook this: 13 of 13 steps by the device, the rest by a person."
+          - region "Table, scrolls sideways" [ref=f2e168]:
+            - table [ref=f2e169]:
+              - rowgroup [ref=f2e170]:
+                - row [ref=f2e171]:
+                  - columnheader "Step" [ref=f2e172]
+                  - columnheader "Operation" [ref=f2e173]
+                  - columnheader "Safe band" [ref=f2e174]
+                  - columnheader "Who" [ref=f2e175]
+                  - columnheader "Checked by" [ref=f2e176]
+              - rowgroup [ref=f2e177]:
+                - row [ref=f2e178]:
+                  - cell "Cut onion" [ref=f2e179]
+                  - cell "cut" [ref=f2e180]
+                  - cell "person nearby" [ref=f2e181]
+                  - cell "Device" [ref=f2e182]
+                  - cell "Sensor · vision" [ref=f2e183]
+                - row [ref=f2e184]:
+                  - cell "Cut pepper" [ref=f2e185]
+                  - cell "cut" [ref=f2e186]
+                  - cell "person nearby" [ref=f2e187]
+                  - cell "Device" [ref=f2e188]
+                  - cell "Sensor · vision" [ref=f2e189]
+                - row [ref=f2e190]:
+                  - cell "Cut garlic" [ref=f2e191]
+                  - cell "cut" [ref=f2e192]
+                  - cell "person nearby" [ref=f2e193]
+                  - cell "Device" [ref=f2e194]
+                  - cell "Sensor · vision" [ref=f2e195]
+                - row [ref=f2e196]:
+                  - cell "Heat oil" [ref=f2e197]
+                  - cell "heat" [ref=f2e198]
+                  - cell "pan surface 20–250 °C" [ref=f2e199]
+                  - cell "Device" [ref=f2e200]
+                  - cell "Sensor · pan_surface_temp" [ref=f2e201]
+                - row [ref=f2e202]:
+                  - cell "Cook the onion and pepper in the hot oil, stirring now and then, until soft and translucent." [ref=f2e203]
+                  - cell "saute" [ref=f2e204]
+                  - cell "pan surface 150–210 °C" [ref=f2e205]
+                  - cell "Device" [ref=f2e206]
+                  - cell "Sensor · pan_surface_temp" [ref=f2e207]
+                - row [ref=f2e208]:
+                  - cell "Add garlic, cumin and paprika; stir for about a minute until fragrant." [ref=f2e209]
+                  - cell "saute" [ref=f2e210]
+                  - cell "pan surface 150–210 °C" [ref=f2e211]
+                  - cell "Device" [ref=f2e212]
+                  - cell "Sensor · pan_surface_temp" [ref=f2e213]
+                - row [ref=f2e214]:
+                  - cell "Add tomatoes, salt and pepper; simmer uncovered until thickened." [ref=f2e215]
+                  - cell "simmer" [ref=f2e216]
+                  - cell "water 85–96 °C" [ref=f2e217]
+                  - cell "Device" [ref=f2e218]
+                  - cell "Sensor · liquid_temp" [ref=f2e219]
+                - row [ref=f2e220]:
+                  - cell "Season sauce" [ref=f2e221]
+                  - cell "season" [ref=f2e222]
+                  - cell "—" [ref=f2e223]
+                  - cell "Device" [ref=f2e224]
+                  - cell "Time only" [ref=f2e225]
+                - row [ref=f2e226]:
+                  - cell "Form wells sauce seasoned" [ref=f2e227]
+                  - cell "form_wells" [ref=f2e228]
+                  - cell "—" [ref=f2e229]
+                  - cell "Device" [ref=f2e230]
+                  - cell "Time only" [ref=f2e231]
+                - row [ref=f2e232]:
+                  - cell "Crack eggs" [ref=f2e233]
+                  - cell "crack" [ref=f2e234]
+                  - cell "—" [ref=f2e235]
+                  - cell "Device" [ref=f2e236]
+                  - cell "Time only" [ref=f2e237]
+                - row [ref=f2e238]:
+                  - cell "Crack an egg into each well, cover, and cook on low until the whites are set." [ref=f2e239]
+                  - cell "simmer" [ref=f2e240]
+                  - cell "water 85–96 °C" [ref=f2e241]
+                  - cell "Device" [ref=f2e242]
+                  - cell "Sensor · liquid_temp" [ref=f2e243]
+                - row [ref=f2e244]:
+                  - cell "Garnish shakshuka, parsley" [ref=f2e245]
+                  - cell "garnish" [ref=f2e246]
+                  - cell "—" [ref=f2e247]
+                  - cell "Device" [ref=f2e248]
+                  - cell "Time only" [ref=f2e249]
+                - row [ref=f2e250]:
+                  - cell "Serve served" [ref=f2e251]
+                  - cell "serve" [ref=f2e252]
+                  - cell "—" [ref=f2e253]
+                  - cell "Device" [ref=f2e254]
+                  - cell "Time only" [ref=f2e255]
+          - generic [ref=f2e256]:
+            - generic [ref=f2e257]: Share this result
+            - textbox "Shareable link" [ref=f2e258]: http://localhost:8137/playground/?r=shakshuka&d=hob_robot&h=1&m=1#demo
+            - button "Copy" [ref=f2e259] [cursor=pointer]
+          - paragraph [ref=f2e260]: "Try koshari on the device without thermometers: the crisp onions need deep frying, and deep frying has one rung, an oil thermometer. Try salata baladi on the counter arm: no heat, so the arm does the cutting with its camera."
+    - region [ref=f2e261]:
+      - generic [ref=f2e262]:
+        - 'heading "Envelope explorer: when does a simmer stop being a simmer?" [level=2] [ref=f2e263]'
+        - paragraph [ref=f2e264]: "Pick an operation and drag the points of a temperature trace. The checker is the same function the conformance vectors test: the warm-up is allowed, then the medium must stay inside the band; a recipe target, once reached, must hold. Water bands shift with altitude."
+      - generic [ref=f2e265]:
+        - form "Envelope settings" [ref=f2e266]:
+          - generic [ref=f2e267]:
+            - text: Operation
+            - combobox "Operation" [ref=f2e268]:
+              - option "Soak (0–60 °C)"
+              - option "Marinate / coat (0–5 °C)"
+              - option "Heat / preheat (20–250 °C)"
+              - option "Melt (30–60 °C)"
+              - option "Sauté / sweat (150–210 °C)"
+              - option "Sear / brown (200–260 °C)"
+              - option "Stir-fry (200–260 °C)"
+              - option "Shallow-fry / pan-fry (160–190 °C)"
+              - option "Deep-fry (160–190 °C)"
+              - option "Boil (98–102 °C)"
+              - option "Simmer (85–96 °C)" [selected]
+              - option "Poach (70–85 °C)"
+              - option "Steam (95–102 °C)"
+              - option "Braise / stew (85–96 °C)"
+              - option "Pressure-cook (110–121 °C)"
+              - option "Reduce (90–102 °C)"
+              - option "Caramelize (120–180 °C)"
+              - option "Toast (dry) (140–200 °C)"
+              - option "Bake (120–250 °C)"
+              - option "Roast (160–250 °C)"
+              - option "Grill / broil (200–320 °C)"
+              - option "Smoke (90–135 °C)"
+              - option "Proof / rise (24–38 °C)"
+              - option "Cool (-1–60 °C)"
+              - option "Chill / refrigerate (0–5 °C)"
+              - option "Freeze (-40–-18 °C)"
+              - option "Hold hot / warm (60–85 °C)"
+          - generic [ref=f2e269]:
+            - text: Altitude
+            - spinbutton "Altitude m" [ref=f2e270]: "0"
+            - text: m
+          - generic [ref=f2e271]:
+            - checkbox "Recipe target 94 ± 3 °C" [ref=f2e272]
+            - text: Recipe target
+            - spinbutton "Target °C" [ref=f2e273]: "94"
+            - text: ±
+            - spinbutton "Tolerance °C" [ref=f2e274]: "3"
+            - text: °C
+        - generic [ref=f2e275]:
+          - img "Temperature trace against the operation's safe band Drag the circles to change the trace. The shaded band is the envelope." [ref=f2e276]:
+            - generic [ref=f2e278]: 0°
+            - generic [ref=f2e279]: 50°
+            - generic [ref=f2e280]: 100°
+            - generic [ref=f2e281]: 150°
+            - generic [ref=f2e282]: 200°
+            - generic [ref=f2e283]: 250°
+            - generic [ref=f2e284]: 0s
+            - generic [ref=f2e285]: 60s
+            - generic [ref=f2e286]: 120s
+            - generic [ref=f2e287]: 180s
+            - generic [ref=f2e288]: 240s
+            - generic [ref=f2e289]: 300s
+            - 'slider "point 1: 22 °C" [ref=f2e291]'
+            - 'slider "point 2: 70 °C" [ref=f2e292]'
+            - 'slider "point 3: 90 °C" [ref=f2e293]'
+            - 'slider "point 4: 94 °C" [ref=f2e294]'
+            - 'slider "point 5: 95 °C" [ref=f2e295]'
+            - 'slider "point 6: 93 °C" [ref=f2e296]'
+          - generic [ref=f2e297]:
+            - status [ref=f2e298]: "OKinside the envelope (reason: ok)"
+            - generic [ref=f2e299]:
+              - term [ref=f2e300]: medium
+              - definition [ref=f2e301]: water
+              - term [ref=f2e302]: band
+              - definition [ref=f2e303]: 85–96 °C
+              - term [ref=f2e304]: unattended
+              - definition [ref=f2e305]: allowed
+              - term [ref=f2e306]: sensor ladder
+              - definition [ref=f2e307]: liquid_temp → bubble_vision → model → time
+            - paragraph [ref=f2e308]: Small, steady bubbles; liquid below a rolling boil.
+    - region [ref=f2e309]:
+      - generic [ref=f2e310]:
+        - generic [ref=f2e311]:
+          - heading "Simulators, explained for non-experts" [level=2] [ref=f2e312]
+          - paragraph [ref=f2e313]: Four deterministic models, each playable with the protocol on and off, each labelled illustrative model. They do not predict the future; they show what follows from the assumptions written on each page, and every assumption can be changed.
+        - generic [ref=f2e314]:
+          - link "A home A family asks a robot for dinner. Watch the request travel through providers, approvals, interruptions and a closure; switch the protocol off and see the same evening with the robot alone. Play →" [ref=f2e315] [cursor=pointer]:
+            - /url: /sim/
+            - heading "A home" [level=3] [ref=f2e316]
+            - paragraph [ref=f2e317]: A family asks a robot for dinner. Watch the request travel through providers, approvals, interruptions and a closure; switch the protocol off and see the same evening with the robot alone.
+            - generic [ref=f2e318]: Play →
+          - link "Two cities, one month Farms, a wholesale hub, shops, 1,500 homes per city, trucks, garbage and energy. Robots alone push waste upstream; with shared plans, losses before homes fall. Play →" [ref=f2e319] [cursor=pointer]:
+            - /url: /sim/city/
+            - heading "Two cities, one month" [level=3] [ref=f2e320]
+            - paragraph [ref=f2e321]: Farms, a wholesale hub, shops, 1,500 homes per city, trucks, garbage and energy. Robots alone push waste upstream; with shared plans, losses before homes fall.
+            - generic [ref=f2e322]: Play →
+          - 'link "One country, one year Six provinces adopting at different speeds, seasons, a relief program. Rescue covers about 5 % of need in the mixed rollout: real, and not enough. Play →" [ref=f2e323] [cursor=pointer]':
+            - /url: /sim/country/
+            - heading "One country, one year" [level=3] [ref=f2e324]
+            - paragraph [ref=f2e325]: "Six provinces adopting at different speeds, seasons, a relief program. Rescue covers about 5 % of need in the mixed rollout: real, and not enough."
+            - generic [ref=f2e326]: Play →
+          - link "The world, five years Ten regions, three robot scenarios, protocol on or off. Hunger is where robots are not; the protocol helps countries without robots. Play →" [ref=f2e327] [cursor=pointer]:
+            - /url: /sim/world/
+            - heading "The world, five years" [level=3] [ref=f2e328]
+            - paragraph [ref=f2e329]: Ten regions, three robot scenarios, protocol on or off. Hunger is where robots are not; the protocol helps countries without robots.
+            - generic [ref=f2e330]: Play →
+        - paragraph [ref=f2e331]:
+          - text: "How to read them: a result is a difference between two runs of the same model, not a measurement of the world. The city and country pages list calibration against UNEP and FAO figures and every behavioural assumption."
+          - link "What the simulators found" [ref=f2e332] [cursor=pointer]:
+            - /url: /docs/SIM-FINDINGS/
+          - text: ", including what they got wrong."
+    - generic [ref=f2e333]:
+      - generic [ref=f2e334]:
+        - heading "Food rescue by SMS" [level=2] [ref=f2e335]
+        - paragraph [ref=f2e336]: "The Humanitarian Profile walkthrough: type the messages a food bank would send and watch the documents, the rule findings and the impact summary appear."
+        - link "Open the walkthrough" [ref=f2e337] [cursor=pointer]:
+          - /url: /humanitarian/#sms
+      - generic [ref=f2e338]:
+        - heading "On the command line" [level=2] [ref=f2e339]
+        - paragraph [ref=f2e340]:
+          - text: Everything on this page is a function in the reference library.
+          - link "The quickstart" [ref=f2e341] [cursor=pointer]:
+            - /url: /developers/
+          - text: runs the same checks in a terminal;
+          - link "the MCP server" [ref=f2e342] [cursor=pointer]:
+            - /url: /docs/MCP/
+          - text: gives them to an AI agent.
+  - contentinfo [ref=f2e343]:
+    - generic [ref=f2e344]:
+      - paragraph [ref=f2e345]: "The open standard for cooking safely: people, kitchens and robots."
+      - paragraph [ref=f2e346]: Cookwala started from fifi.cooking, a family collection of Egyptian home recipes. Cookwala data is provided without warranty. Device makers and operators remain responsible for safe hardware and local law. Nothing on this site names a partner, user or pilot that does not exist.
+      - paragraph [ref=f2e347]: Code Apache-2.0 · specification CC BY 4.0 and Community Specification License 1.0 · vocabularies CC0 · patent non-assertion pledge · no cookies.
+      - paragraph [ref=f2e348]:
+        - link "Trust" [ref=f2e349] [cursor=pointer]:
+          - /url: /trust/
+        - link "Security" [ref=f2e350] [cursor=pointer]:
+          - /url: /docs/SECURITY/
+        - link "Governance" [ref=f2e351] [cursor=pointer]:
+          - /url: /docs/GOVERNANCE/
+        - link "Critiques" [ref=f2e352] [cursor=pointer]:
+          - /url: /docs/CRITIQUES/
+        - link "Roadmap" [ref=f2e353] [cursor=pointer]:
+          - /url: /roadmap/
+        - link "Contact" [ref=f2e354] [cursor=pointer]:
+          - /url: /contribute/#contact
+        - link "security.txt" [ref=f2e355] [cursor=pointer]:
+          - /url: /.well-known/security.txt
+        - link "GitHub" [ref=f2e356] [cursor=pointer]:
+          - /url: https://github.com/amado2k5/cookwala

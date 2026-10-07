@@ -127,18 +127,18 @@ For every recipe id in the source chunk, emit exactly one entry with these keys:
 |---|---|
 | Baking | Pjekje |
 | Oven Baking | Pjekje në furrë |
-| Slow Simmering | Zierje e ngadaltë |
-| Slow Simmering (Tasbeek) | Zierje e ngadaltë (Tasbeek) |
+| Slow Simmering | Vlim i ngadaltë |
+| Slow Simmering (Tasbeek) | Vlim i ngadaltë (Tasbeek) |
 | Cooking | Gatim |
 | cooking | gatim |
 | Boiling | Zierje |
 | Boiling & Broth | Zierje & lëng |
 | Frying | Skuqje |
-| Pan-Frying | Skuqje në tigan |
-| Pan-Frying & Crisping | Skuqje në tigan & kërcëllim |
+| Pan-Frying | Karamelizim në tigan |
+| Pan-Frying & Crisping | Karamelizim & skuqje |
 | Grilling | Në zgarë |
 | Charcoal & Oven Grilling | Zgarë me qymyr & në furrë |
-| Steaming | Në avull |
+| Steaming | Gatim në avull |
 | Salads & Beverages | Sallata & pije |
 | Preserving | Ruajtje |
 | Preserving & Freezing | Ruajtje & ngrirje |

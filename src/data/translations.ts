@@ -116,6 +116,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     if (primaryCode === 'vi') {
       return { language: 'vi', isKnown: true, rawLocale };
     }
+    if (primaryCode === 'sq') {
+      return { language: 'sq', isKnown: true, rawLocale };
+    }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
     return { language: 'en', isKnown: false, rawLocale: '' };
@@ -1207,6 +1210,46 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     cancel: 'Hủy',
     noResultsFound: 'Không tìm thấy kết quả nào.',
     close: 'Đóng',
+  },
+  sq: {
+    loadError: 'Nuk u ngarkua dot receta. Kontrolloni lidhjen dhe provoni përsëri.',
+    loadingMoreRecipes: 'Duke ngarkuar më shumë receta…',
+    showMoreRecipes: 'Shfaq më shumë receta',
+    recipesLoadFailed: 'Nuk u ngarkuan dot recetat. Kontrolloni lidhjen dhe ringarkoni faqen.',
+    siteTitle: 'Recetat e Fatma Alkawokgy',
+    appTitle: 'Recetat e Fatma Alkawokgy',
+    siteSubtitle: 'Libri i trashëgimisë i kuzhinës autentike egjiptiane',
+    appSubtitle: 'Libri i trashëgimisë i kuzhinës autentike egjiptiane',
+    allRecipes: 'Eksploroni recetat',
+    navAllRecipes: 'Eksploroni recetat',
+    aboutFatma: 'Rreth Dr. Fatma',
+    navAboutFatma: 'Rreth Dr. Fatma',
+    ingredientsRegistry: 'Regjistri i përbërësve',
+    navIngredientsRegistry: 'Regjistri i përbërësve',
+    choosePreferredLanguage: 'Zgjidhni gjuhën e preferuar të faqes',
+    searchPlaceholder: 'Kërkoni sipas recetës, përbërësit ose teknikës së gatimit...',
+    filterByChapter: 'Filtro sipas kapitullit',
+    prepTime: 'Koha e përgatitjes',
+    cookTime: 'Koha e gatimit',
+    servings: 'Porsione',
+    difficulty: 'Vështirësia',
+    method: 'Metoda',
+    ingredients: 'Përbërësit kryesorë & masat e sakta',
+    instructions: 'Përgatitja & gatimi hap pas hapi',
+    tips: 'Shënime & këshilla nga Dr. Fatma Alkawokgy',
+    shareRecipe: 'Ndani recetën',
+    noRecipesFound: 'Asnjë recetë nuk përputhet me kërkimin tuaj',
+    tributeQuote: 'Gatimi është si të luash piano; harmonia, durimi dhe dashuria e çojnë drejt përsosmërisë.',
+    orderIngredients: 'Porositni përbërësit',
+    orderDish: 'Porositni pjatën',
+    festivals: 'Festivala',
+    upcomingEvents: 'Ngjarje të ardhshme',
+    shareLocationBtn: 'Ndani vendndodhjen / Shkruani adresën',
+    enterAddressPlaceholder: 'Shkruani qytetin ose adresën tuaj...',
+    useThisLocation: 'Përdorni këtë vendndodhje',
+    cancel: 'Anulo',
+    noResultsFound: 'Nuk u gjet asnjë rezultat.',
+    close: 'Mbyll',
   }
 };
 
