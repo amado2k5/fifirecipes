@@ -116028,5 +116028,902 @@
   },
   "culturalNotes": "Niter kibbeh är kryddat klarnat smör som används i det etiopiska köket för att förstärka rätternas smak.",
   "chapter": "مطبخ إثيوبيا"
+ },
+ "w-gr-001": {
+  "title": "Diples",
+  "ingredients": {
+   "w-gr-001-i1": {
+    "name": "Mjöl",
+    "standardAmount": "4,8 dl"
+   },
+   "w-gr-001-i2": {
+    "name": "Vegetabilisk olja",
+    "standardAmount": "till stekning"
+   },
+   "w-gr-001-i3": {
+    "name": "Smör",
+    "standardAmount": "1,2 dl"
+   },
+   "w-gr-001-i4": {
+    "name": "Honung",
+    "standardAmount": "1,2 dl"
+   },
+   "w-gr-001-i5": {
+    "name": "Kanel",
+    "standardAmount": "1/2 tsk"
+   }
+  },
+  "instructions": {
+   "1": "Blanda mjölet med vatten till en fast deg.",
+   "2": "Låt degen vila i 30 minuter.",
+   "3": "Skär degen i små bitar och kavla ut dem tunt.",
+   "4": "Fritera bitarna i het olja tills de är gyllenbruna.",
+   "5": "Låt diplesen rinna av på hushållspapper.",
+   "6": "Häll det smälta smöret och honungen över diplesen och strö över kanel.",
+   "7": "Servera varma eller kalla, som du vill."
+  },
+  "culturalNotes": "Diples är en traditionell grekisk sötsak som serveras vid speciella tillfällen.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-002": {
+  "title": "Galaktoboureko",
+  "ingredients": {
+   "w-gr-002-i1": {
+    "name": "vitt kristallsocker",
+    "standardAmount": "150 g"
+   },
+   "w-gr-002-i2": {
+    "name": "ägg",
+    "standardAmount": "6 ägg"
+   },
+   "w-gr-002-i3": {
+    "name": "mannagryn",
+    "standardAmount": "150 g"
+   },
+   "w-gr-002-i4": {
+    "name": "mjölk",
+    "standardAmount": "1 liter"
+   },
+   "w-gr-002-i5": {
+    "name": "vaniljstänger",
+    "standardAmount": "2 stänger"
+   },
+   "w-gr-002-i6": {
+    "name": "citronsaft",
+    "standardAmount": "saft från 1/2 citron"
+   },
+   "w-gr-002-i7": {
+    "name": "salt",
+    "standardAmount": "en nypa"
+   },
+   "w-gr-002-i8": {
+    "name": "filodeg",
+    "standardAmount": "450 g"
+   },
+   "w-gr-002-i9": {
+    "name": "smält smör",
+    "standardAmount": "vid behov"
+   }
+  },
+  "instructions": {
+   "1": "Blanda socker, ägg och mannagryn i en kastrull. Tillsätt mjölk och vaniljstänger. Rör ner citronsaften.",
+   "2": "Koka upp blandningen under ständig omrörning med en gaffel. När den börjar koka, sänk värmen och rör i ytterligare 10 minuter. Ta blandningen från värmen och låt svalna.",
+   "3": "Pensla varje filodegsark med smält smör.",
+   "4": "Smörj en ugnsform och lägg i hälften av filoarken, ett i taget. Häll den svala mannagrynskrämen över degen och täck med de återstående smorde filoarken.",
+   "5": "Strö lite vatten över desserten.",
+   "6": "Grädda desserten i förvärmd ugn på 180°C i 1 timme. Låt svalna före servering."
+  },
+  "culturalNotes": "Galaktoboureko är en traditionell grekisk dessert av mjölk- och mannagrynskräm inlindad i filodeg. Den serveras vanligtvis kall.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-003": {
+  "title": "Giouvetsi (traditionell grekisk orzogratäng)",
+  "ingredients": {
+   "w-gr-003-i1": {
+    "name": "olivolja",
+    "standardAmount": "1,2 dl (120 ml)"
+   },
+   "w-gr-003-i2": {
+    "name": "lammgrytbitar, tärnade",
+    "standardAmount": "1,4 kg"
+   },
+   "w-gr-003-i3": {
+    "name": "hela skalade konserverade tomater",
+    "standardAmount": "1 burk om 800 g"
+   },
+   "w-gr-003-i4": {
+    "name": "vitlök",
+    "standardAmount": "4 klyftor"
+   },
+   "w-gr-003-i5": {
+    "name": "vitt socker",
+    "standardAmount": "0,5 tsk"
+   },
+   "w-gr-003-i6": {
+    "name": "salt och peppar",
+    "standardAmount": "efter smak"
+   },
+   "w-gr-003-i7": {
+    "name": "smör",
+    "standardAmount": "1,2 dl"
+   },
+   "w-gr-003-i8": {
+    "name": "orzo-pasta",
+    "standardAmount": "450 g"
+   },
+   "w-gr-003-i9": {
+    "name": "hett vatten",
+    "standardAmount": "7,1 dl (710 ml)"
+   }
+  },
+  "instructions": {
+   "1": "Hetta upp olivolja i en stor kastrull på medelvärme; bryn köttet tills det är brunt på alla sidor, cirka 5 minuter.",
+   "2": "Tillsätt de krossade tomaterna, vitlök, socker, salt och peppar. Täck över och sjud i 1 timme, rör om ibland. Ställ åt sidan.",
+   "3": "Förvärm ugnen till 175°C.",
+   "4": "Smält smör i en medelstor stekpanna på medelvärme och tillsätt orzo. Stek tills det är lätt gyllenbrunt, 3 till 5 minuter.",
+   "5": "Överför orzo till en ugnsform och fördela jämnt. Lägg köttet på orzo och häll tomatsåsen över köttet. Tillsätt det heta vattnet.",
+   "6": "Täck med aluminiumfolie och grädda i den förvärmda ugnen tills allt vatten är absorberat och orzo är mjukt, cirka 1 timme. Om rätten blir för torr, tillsätt mer vatten under tillagningen."
+  },
+  "culturalNotes": "Giouvetsi är en traditionell grekisk rätt som ofta serveras vid speciella tillfällen. Den serveras vanligtvis med grekisk sallad.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-004": {
+  "title": "Kofta-kebab av nötfärs i airfryer",
+  "ingredients": {
+   "w-gr-004-i1": {
+    "name": "nötfärs",
+    "standardAmount": "450 g"
+   },
+   "w-gr-004-i2": {
+    "name": "finhackad gul lök",
+    "standardAmount": "0,6 dl"
+   },
+   "w-gr-004-i3": {
+    "name": "finhackad färsk persilja",
+    "standardAmount": "0,6 dl"
+   },
+   "w-gr-004-i4": {
+    "name": "finhackad vitlök",
+    "standardAmount": "2 klyftor"
+   },
+   "w-gr-004-i5": {
+    "name": "spiskummin",
+    "standardAmount": "1 tsk"
+   },
+   "w-gr-004-i6": {
+    "name": "mald koriander",
+    "standardAmount": "1 tsk"
+   },
+   "w-gr-004-i7": {
+    "name": "salt",
+    "standardAmount": "1 tsk"
+   },
+   "w-gr-004-i8": {
+    "name": "mald svartpeppar",
+    "standardAmount": "1/4 tsk"
+   },
+   "w-gr-004-i9": {
+    "name": "mald kanel",
+    "standardAmount": "1/4 tsk"
+   },
+   "w-gr-004-i10": {
+    "name": "spett",
+    "standardAmount": "8 spett"
+   },
+   "w-gr-004-i11": {
+    "name": "naturell grekisk yoghurt",
+    "standardAmount": "2,4 dl"
+   },
+   "w-gr-004-i12": {
+    "name": "riven gurka, urkramad",
+    "standardAmount": "1,2 dl"
+   },
+   "w-gr-004-i13": {
+    "name": "finhackad vitlök",
+    "standardAmount": "1 klyfta"
+   },
+   "w-gr-004-i14": {
+    "name": "citronsaft",
+    "standardAmount": "1 tsk"
+   },
+   "w-gr-004-i15": {
+    "name": "torkad dill",
+    "standardAmount": "1/4 tsk"
+   },
+   "w-gr-004-i16": {
+    "name": "grovt salt",
+    "standardAmount": "1/4 tsk"
+   }
+  },
+  "instructions": {
+   "1": "Blanda nötfärs, lök, persilja, vitlök, spiskummin, koriander, salt, svartpeppar och kanel i en stor skål tills det är väl blandat.",
+   "2": "Dela blandningen i 8 portioner och forma dem till ovala biffar runt spetten, se till att spettets spets är täckt.",
+   "3": "Lägg kebaben på en tallrik och ställ i kylskåpet.",
+   "4": "Förvärm airfryern till 188°C.",
+   "5": "Rör ihop yoghurt, gurka, vitlök, citronsaft, dill och grovt salt i en liten skål och ställ i kylskåpet tills det ska användas.",
+   "6": "Lägg 4 spett i airfryerns korg och grädda i 10 minuter. Överför kebaben till en tallrik. Upprepa med de återstående spetten.",
+   "7": "Servera kebaben med tzatzikisås."
+  },
+  "culturalNotes": "Kofta är en populär rätt i många arabiska och mellanösternländer, ofta serverad med tzatzikisås.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-005": {
+  "title": "Melomakarono",
+  "ingredients": {
+   "w-gr-005-i1": {
+    "name": "vetemjöl",
+    "standardAmount": "9,5 dl"
+   },
+   "w-gr-005-i2": {
+    "name": "mald kanel",
+    "standardAmount": "2 tsk"
+   },
+   "w-gr-005-i3": {
+    "name": "bakpulver",
+    "standardAmount": "2 tsk"
+   },
+   "w-gr-005-i4": {
+    "name": "mald kryddnejlika",
+    "standardAmount": "2 tsk"
+   },
+   "w-gr-005-i5": {
+    "name": "bikarbonat",
+    "standardAmount": "1 tsk"
+   },
+   "w-gr-005-i6": {
+    "name": "mald muskotnöt",
+    "standardAmount": "0,5 tsk"
+   },
+   "w-gr-005-i7": {
+    "name": "osaltat smör",
+    "standardAmount": "450 g"
+   },
+   "w-gr-005-i8": {
+    "name": "vitt socker",
+    "standardAmount": "1,8 dl"
+   },
+   "w-gr-005-i9": {
+    "name": "äggulor",
+    "standardAmount": "3"
+   },
+   "w-gr-005-i10": {
+    "name": "färskpressad apelsinjuice",
+    "standardAmount": "1,2 dl (120 ml)"
+   },
+   "w-gr-005-i11": {
+    "name": "honung",
+    "standardAmount": "1 tsk + 2,4 dl"
+   },
+   "w-gr-005-i12": {
+    "name": "vatten",
+    "standardAmount": "2,4 dl (240 ml)"
+   },
+   "w-gr-005-i13": {
+    "name": "finkrossade valnötter",
+    "standardAmount": "1,2 dl"
+   },
+   "w-gr-005-i14": {
+    "name": "mald kanel",
+    "standardAmount": "en nypa"
+   },
+   "w-gr-005-i15": {
+    "name": "mald kryddnejlika",
+    "standardAmount": "en nypa"
+   }
+  },
+  "instructions": {
+   "1": "Förvärm ugnen till 175°C.",
+   "2": "Vispa ihop mjöl, kanel, bakpulver, kryddnejlika, bikarbonat och muskotnöt i en stor skål.",
+   "3": "I en separat skål, vispa smöret till det är ljust och krämigt; tillsätt sockret och blanda väl.",
+   "4": "Vispa äggulorna och apelsinjuicen i en annan skål. Rör ner äggblandningen gradvis i smörblandningen under omrörning.",
+   "5": "Tillsätt mjölblandningen långsamt till smörblandningen, rör om efter varje tillsats. Tillsätt honungen och rör tills en mjuk deg bildas.",
+   "6": "Täck degen och kyl tills den är fast nog att forma, cirka 30 minuter.",
+   "7": "Forma degen till små ovaler och lägg dem på plåtar med några centimeters mellanrum. Platta till lätt; kakorna kommer att flyta ut.",
+   "8": "Grädda i den förvärmda ugnen tills de är lätt gyllenbruna, 15 till 20 minuter.",
+   "9": "Under tiden, värm honung, vatten och socker i en kastrull på medel-låg värme tills sockret löser sig. Låt sirapen svalna.",
+   "10": "Blanda valnötter, kanel och kryddnejlika i en skål för garneringen.",
+   "11": "Doppa kakorna i den svala sirapen i 10 till 15 sekunder per sida. Strö nötgarneringen över sirapen och låt torka helt.",
+   "12": "Förvara kakorna i muffinsformar eller mellan lager av bakplåtspapper."
+  },
+  "culturalNotes": "Melomakarono är en traditionell grekisk kaka som vanligtvis serveras under julen.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-006": {
+  "title": "Brännässelsoppa",
+  "ingredients": {
+   "w-gr-006-i1": {
+    "name": "brännässlor",
+    "standardAmount": "450 g"
+   },
+   "w-gr-006-i2": {
+    "name": "salt",
+    "standardAmount": "2 tsk"
+   },
+   "w-gr-006-i3": {
+    "name": "extra virgin olivolja",
+    "standardAmount": "1 msk"
+   },
+   "w-gr-006-i4": {
+    "name": "vit lök",
+    "standardAmount": "1, tärnad"
+   },
+   "w-gr-006-i5": {
+    "name": "basmatiris",
+    "standardAmount": "0,6 dl"
+   },
+   "w-gr-006-i6": {
+    "name": "kycklingbuljong",
+    "standardAmount": "9,5 dl (950 ml)"
+   },
+   "w-gr-006-i7": {
+    "name": "svartpeppar",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Koka upp en stor gryta med vatten och 2 tsk salt. Tillsätt brännässlorna och koka i 1-2 minuter tills de vissnar. Detta tar bort det mesta av brännandet. Häll av i ett durkslag och skölj med kallt vatten. Bryt av de sega stjälkarna och hacka grovt.",
+   "2": "Hetta upp olivoljan i en kastrull på medel-låg värme och tillsätt löken. Stek tills löken är mjuk och genomskinlig, cirka 5 minuter. Tillsätt ris, kycklingbuljong och hackade brännässlor. Koka upp, sänk sedan värmen till medel-låg, täck över och sjud tills riset är mjukt, cirka 15 minuter.",
+   "3": "Mixa soppan med en stavmixer och krydda med salt och peppar efter smak."
+  },
+  "culturalNotes": "Brännässlor är en växt som växer naturligt i Grekland och används i många traditionella recept.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-007": {
+  "title": "Grekisk apelsin-filokaka (Portokalopita)",
+  "ingredients": {
+   "w-gr-007-i1": {
+    "name": "vitt socker",
+    "standardAmount": "4,8 dl"
+   },
+   "w-gr-007-i2": {
+    "name": "vatten",
+    "standardAmount": "3,6 dl (360 ml)"
+   },
+   "w-gr-007-i3": {
+    "name": "mald kanel",
+    "standardAmount": "1 tsk"
+   },
+   "w-gr-007-i4": {
+    "name": "apelsin",
+    "standardAmount": "3 apelsiner"
+   },
+   "w-gr-007-i5": {
+    "name": "filodeg",
+    "standardAmount": "1 förpackning om 450 g"
+   },
+   "w-gr-007-i6": {
+    "name": "ägg",
+    "standardAmount": "5 ägg"
+   },
+   "w-gr-007-i7": {
+    "name": "grekisk yoghurt",
+    "standardAmount": "1 förpackning om 200 g"
+   },
+   "w-gr-007-i8": {
+    "name": "olivolja",
+    "standardAmount": "1,8 dl (180 ml)"
+   },
+   "w-gr-007-i9": {
+    "name": "vitt socker",
+    "standardAmount": "1,2 dl"
+   },
+   "w-gr-007-i10": {
+    "name": "bakpulver",
+    "standardAmount": "1 msk"
+   }
+  },
+  "instructions": {
+   "1": "Blanda 4,8 dl socker, 3,6 dl vatten och 1 tsk mald kanel i en kastrull på medel-hög värme. Krama ner apelsinjuicen och lägg i de urkramade halvorna. Koka upp och koka kraftigt i 8 minuter. Ta från värmen och låt sirapen svalna.",
+   "2": "Förvärm ugnen till 175°C. Smörj lätt en ugnsform om 23x33 cm.",
+   "3": "Ta ut filoarken ur förpackningen och riv eller skär dem i strimlor. Lägg det rivna filot i formen och låt det torka lite.",
+   "4": "Halvera 1 apelsin och skär 1 halva i mycket tunna halvmånar för att garnera kakan. Riv skalet och krama saften från de återstående 2 1/2 apelsinerna.",
+   "5": "Blanda apelsinjuice, apelsinskal, ägg, grekisk yoghurt, olivolja, 1,2 dl socker och bakpulver i en blender eller matberedare. Mixa tills blandningen är slät och alla ingredienser är väl blandade.",
+   "6": "Häll blandningen över det rivna filot i formen. Rör försiktigt om så att den våta blandningen fördelas jämnt och inga torra filostrimlor finns kvar. Garnera kakans topp med apelsinskivorna.",
+   "7": "Grädda i den förvärmda ugnen tills toppen är gyllene och mitten är stel, cirka 45 minuter. En tandpetare i mitten ska komma ut ren.",
+   "8": "Ta ut kakan ur ugnen och häll omedelbart den svala sirapen över den varma kakan.",
+   "9": "Låt kakan stå minst 1 timme eller över natten, tills det mesta av sirapen har absorberats. Skär i rutor och servera."
+  },
+  "culturalNotes": "Portokalopita är en traditionell grekisk kaka av filodeg och apelsin, vanligtvis serverad vid speciella tillfällen.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-008": {
+  "title": "Stekt saltad vitost i lag (Saganaki)",
+  "ingredients": {
+   "w-gr-008-i1": {
+    "name": "stor skiva saltad vitost i lag (t.ex. feta, sirene)",
+    "standardAmount": "1 skiva"
+   },
+   "w-gr-008-i2": {
+    "name": "olivolja (inte extra virgin)",
+    "standardAmount": "1 msk"
+   },
+   "w-gr-008-i3": {
+    "name": "stor citronklyfta",
+    "standardAmount": "1 klyfta"
+   },
+   "w-gr-008-i4": {
+    "name": "mjöl (valfritt)",
+    "standardAmount": "en liten mängd"
+   },
+   "w-gr-008-i5": {
+    "name": "pita eller annat bröd (valfritt)",
+    "standardAmount": "vid behov"
+   }
+  },
+  "instructions": {
+   "1": "Hetta upp en liten stekpanna på medel-hög värme.",
+   "2": "Medan pannan värms upp, skär osten i skivor av önskad storlek och tjocklek. Tjockare skivor tar längre tid att smälta och kan brännas, medan tunnare har mindre chans att bruna.",
+   "3": "Mjöl eventuellt skivorna — detta ger en mörkare och något krispigare skorpa, men det är ett valfritt steg eftersom osten av sig själv får en mycket tunn skorpa tack vare oljan och den höga värmen. Det minskar också stänkandet något.",
+   "4": "Tillsätt oljan i den heta pannan och sväng runt. När oljan skimrar och blir mer flytande är den redo. Tillsätt osten och stå tillbaka — den kommer att stänka på grund av lagvattnet på osten.",
+   "5": "Vänd osten efter en minut eller två. En skiva på ¾ centimeters tjocklek behöver cirka 1-2 minuter per sida.",
+   "6": "Servera omedelbart, med citron och (valfritt) bröd."
+  },
+  "culturalNotes": "Saganaki är en traditionell grekisk rätt som serveras som förrätt. Den serveras vanligtvis med citron och bröd.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-009": {
+  "title": "Spanakorizo",
+  "ingredients": {
+   "w-gr-009-i1": {
+    "name": "vatten",
+    "standardAmount": "4,8 dl (480 ml)"
+   },
+   "w-gr-009-i2": {
+    "name": "långkornigt ris",
+    "standardAmount": "2,4 dl"
+   },
+   "w-gr-009-i3": {
+    "name": "olivolja",
+    "standardAmount": "1 tsk"
+   },
+   "w-gr-009-i4": {
+    "name": "lök",
+    "standardAmount": "1 liten, hackad"
+   },
+   "w-gr-009-i5": {
+    "name": "färsk spenat",
+    "standardAmount": "1 knippe"
+   },
+   "w-gr-009-i6": {
+    "name": "citronskal",
+    "standardAmount": "1 citron, rivet"
+   },
+   "w-gr-009-i7": {
+    "name": "citronsaft",
+    "standardAmount": "saft från 1 citron"
+   },
+   "w-gr-009-i8": {
+    "name": "fetaost",
+    "standardAmount": "0,6 dl, smulad"
+   },
+   "w-gr-009-i9": {
+    "name": "färsk dill",
+    "standardAmount": "0,6 dl, hackad"
+   },
+   "w-gr-009-i10": {
+    "name": "salt",
+    "standardAmount": "efter smak"
+   },
+   "w-gr-009-i11": {
+    "name": "mald svartpeppar",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Koka upp vatten och ris i en kastrull. Sänk värmen till medel-låg, täck över och sjud tills riset är mjukt och vätskan är absorberad, 20 till 25 minuter.",
+   "2": "Hetta upp oljan i en kastrull på medel-hög värme. Stek löken tills den är mjuk, cirka 5 minuter.",
+   "3": "Tillsätt det kokta riset och spenaten; stek och rör tills spenaten vissnar, 3 till 5 minuter.",
+   "4": "Tillsätt citronsaft, skal, feta och dill. Ta från värmen. Krydda med salt och peppar efter smak."
+  },
+  "culturalNotes": "Spanakorizo är en traditionell grekisk rätt som serveras som huvudrätt eller tillbehör. Den kännetecknas av sina fräscha och syrliga smaker.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-010": {
+  "title": "Strapatsada med ris- och kikärtssallad",
+  "ingredients": {
+   "w-gr-010-i1": {
+    "name": "tomater",
+    "standardAmount": "2 medelstora"
+   },
+   "w-gr-010-i2": {
+    "name": "olivolja",
+    "standardAmount": "1 msk"
+   },
+   "w-gr-010-i3": {
+    "name": "vitlök",
+    "standardAmount": "3 klyftor, finhackade"
+   },
+   "w-gr-010-i4": {
+    "name": "ägg",
+    "standardAmount": "6 stora"
+   },
+   "w-gr-010-i5": {
+    "name": "salt",
+    "standardAmount": "0,75 tsk, fördelat"
+   },
+   "w-gr-010-i6": {
+    "name": "mald svartpeppar",
+    "standardAmount": "0,5 tsk, fördelat"
+   },
+   "w-gr-010-i7": {
+    "name": "smulad fetaost",
+    "standardAmount": "0,6 dl"
+   },
+   "w-gr-010-i8": {
+    "name": "finhackad färsk oregano",
+    "standardAmount": "1 msk"
+   },
+   "w-gr-010-i9": {
+    "name": "kokt brunt ris",
+    "standardAmount": "7,1 dl, varmt"
+   },
+   "w-gr-010-i10": {
+    "name": "konserverade kikärtor",
+    "standardAmount": "1 burk om 425 g, sköljda och avrunnna"
+   },
+   "w-gr-010-i11": {
+    "name": "urkärnade kalamataoliver, hackade",
+    "standardAmount": "0,6 dl"
+   },
+   "w-gr-010-i12": {
+    "name": "finhackad färsk persilja",
+    "standardAmount": "3 msk"
+   },
+   "w-gr-010-i13": {
+    "name": "citronskal",
+    "standardAmount": "2 tsk"
+   },
+   "w-gr-010-i14": {
+    "name": "citronsaft",
+    "standardAmount": "3 msk"
+   },
+   "w-gr-010-i15": {
+    "name": "tahini",
+    "standardAmount": "2 msk"
+   }
+  },
+  "instructions": {
+   "1": "Riv tomaterna på ett rivjärn (detta bör ge cirka 2,4 dl riven tomat).",
+   "2": "Hetta upp olivoljan i en stor stekpanna på medelvärme. Tillsätt den rivna tomaten och vitlöken. Stek, rör om med jämna mellanrum, tills tomaterna har tjocknat och det mesta av vattnet har avdunstat, cirka 7 minuter.",
+   "3": "Tillsätt äggen, 0,5 tsk salt och 1/4 tsk peppar till tomatblandningen. Stek tills äggen har stelnat, rör försiktigt om, cirka 3 minuter. De ska vara mjuka men inte vattniga. Vänd ner feta och oregano. Håll varmt.",
+   "4": "I en stor skål, blanda ris, kikärtor, oliver, persilja, citronskal och de återstående 0,25 tsk salt och peppar. I en liten skål, vispa citronsaft med tahini och häll över risblandningen. Blanda försiktigt för att täcka.",
+   "5": "Servera äggblandningen över risblandningen. Strö eventuellt med extra tomat, oregano och persilja."
+  },
+  "culturalNotes": "Strapatsada är en traditionell grekisk rätt som vanligtvis serveras som förrätt eller enkel huvudrätt. Den kombinerar ägg, tomater och fetaost och är lätt och snabb att tillaga.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-011": {
+  "title": "Taramasalata",
+  "ingredients": {
+   "w-gr-011-i1": {
+    "name": "bröd",
+    "standardAmount": "370 g (skorpan borttagen)"
+   },
+   "w-gr-011-i2": {
+    "name": "kallt vatten",
+    "standardAmount": "tillräckligt för att täcka brödet"
+   },
+   "w-gr-011-i3": {
+    "name": "olivolja",
+    "standardAmount": "1,2 dl (120 ml)"
+   },
+   "w-gr-011-i4": {
+    "name": "lök",
+    "standardAmount": "1 liten, grovt hackad"
+   },
+   "w-gr-011-i5": {
+    "name": "citronsaft",
+    "standardAmount": "saft från 1 stor citron"
+   },
+   "w-gr-011-i6": {
+    "name": "tarama (saltad fiskrom)",
+    "standardAmount": "2,4 dl"
+   }
+  },
+  "instructions": {
+   "1": "Lägg brödet i en skål, täck med kallt vatten och låt stå tills det är väl genomvått, 5 till 10 minuter. Häll av vattnet från skålen och krama brödet för att ta bort överflödigt vatten.",
+   "2": "Lägg bröd, olivolja, lök och citronsaft i en matberedare och mixa tills det är slät.",
+   "3": "Tillsätt tarama och mixa tills det är väl blandat."
+  },
+  "culturalNotes": "Taramasalata är en traditionell grekisk förrätt, vanligtvis serverad med färskt bröd eller kex.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-012": {
+  "title": "Tirokafteri med rostad vitlök",
+  "ingredients": {
+   "w-gr-012-i1": {
+    "name": "rostade röda paprikor",
+    "standardAmount": "170 g"
+   },
+   "w-gr-012-i2": {
+    "name": "rostad vitlök",
+    "standardAmount": "0,6 dl"
+   },
+   "w-gr-012-i3": {
+    "name": "het pepparsås",
+    "standardAmount": "1 tsk, eller efter smak"
+   },
+   "w-gr-012-i4": {
+    "name": "färskpressad citronsaft",
+    "standardAmount": "1,2 dl (120 ml)"
+   },
+   "w-gr-012-i5": {
+    "name": "torkad oregano",
+    "standardAmount": "0,25 tsk"
+   },
+   "w-gr-012-i6": {
+    "name": "mald vitpeppar",
+    "standardAmount": "0,125 tsk"
+   },
+   "w-gr-012-i7": {
+    "name": "smulad fetaost",
+    "standardAmount": "225 g"
+   },
+   "w-gr-012-i8": {
+    "name": "färskost",
+    "standardAmount": "115 g, mjuk"
+   },
+   "w-gr-012-i9": {
+    "name": "extra virgin olivolja",
+    "standardAmount": "0,6 dl (60 ml)"
+   },
+   "w-gr-012-i10": {
+    "name": "kaffegrädde",
+    "standardAmount": "0,6 dl (60 ml)"
+   }
+  },
+  "instructions": {
+   "1": "Lägg de rostade röda paprikorna, rostade vitlöken, pepparsåsen, citronsaften, oreganot och vitpepparn i en blender och mixa tills det är slät.",
+   "2": "Tillsätt den smulade fetaosten och färskosten och mixa tills det är slät.",
+   "3": "Medan blendern är igång, häll långsamt ner olivoljan tills den är inblandad och tjocknad.",
+   "4": "Om det behövs, rör ner kaffegrädde för att nå dippens konsistens.",
+   "5": "Täck över och förvara dippen i kylskåpet tills den ska serveras."
+  },
+  "culturalNotes": "Tirokafteri är en traditionell grekisk dipp som serveras som förrätt. Den är känd för sin krämiga och heta smak.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-013": {
+  "title": "Tomat- och fetafritters",
+  "ingredients": {
+   "w-gr-013-i1": {
+    "name": "färska tomater, tärnade",
+    "standardAmount": "4,8 dl med sin saft"
+   },
+   "w-gr-013-i2": {
+    "name": "riven zucchini",
+    "standardAmount": "1,2 dl, packad"
+   },
+   "w-gr-013-i3": {
+    "name": "skivad salladslök",
+    "standardAmount": "0,8 dl"
+   },
+   "w-gr-013-i4": {
+    "name": "grovt salt",
+    "standardAmount": "2 tsk eller efter smak"
+   },
+   "w-gr-013-i5": {
+    "name": "vitt socker",
+    "standardAmount": "1 tsk"
+   },
+   "w-gr-013-i6": {
+    "name": "nymald svartpeppar",
+    "standardAmount": "0,5 tsk"
+   },
+   "w-gr-013-i7": {
+    "name": "torkad oregano",
+    "standardAmount": "0,25 tsk"
+   },
+   "w-gr-013-i8": {
+    "name": "cayennepeppar",
+    "standardAmount": "en nypa"
+   },
+   "w-gr-013-i9": {
+    "name": "finhackad färsk italiensk persilja",
+    "standardAmount": "0,6 dl"
+   },
+   "w-gr-013-i10": {
+    "name": "finhackad färsk mynta",
+    "standardAmount": "2 msk"
+   },
+   "w-gr-013-i11": {
+    "name": "finhackad färsk basilika",
+    "standardAmount": "2 msk"
+   },
+   "w-gr-013-i12": {
+    "name": "smulad fetaost",
+    "standardAmount": "85 g"
+   },
+   "w-gr-013-i13": {
+    "name": "vetemjöl",
+    "standardAmount": "1,8 dl eller mer vid behov"
+   },
+   "w-gr-013-i14": {
+    "name": "bakpulver",
+    "standardAmount": "0,75 tsk"
+   },
+   "w-gr-013-i15": {
+    "name": "vegetabilisk olja till stekning",
+    "standardAmount": "vid behov"
+   }
+  },
+  "instructions": {
+   "1": "Samla alla ingredienser.",
+   "2": "Blanda tomater, zucchini, salladslök, grovt salt, socker, svartpeppar, oregano och cayennepeppar i en skål. Låt stå i 15 minuter så att sockret och saltet drar ut fukt från grönsakerna.",
+   "3": "Rör tomatblandningen; tillsätt persilja, mynta och basilika. Smula ner fetaosten. Tillsätt mjöl och bakpulver; blanda med en sked tills det är inblandat. Deget bör vara ganska lös men hålla sin form på en sked. Om den är för lös, tillsätt mer mjöl; om den är för torr, tillsätt lite vatten tills önskad konsistens. Täck skålen med plastfolie och kyl i kylskåpet i minst 30 minuter.",
+   "4": "Hetta upp 2,5 cm vegetabilisk olja i en stekpanna på medel-hög värme till 175°C eller använd en fritös.",
+   "5": "Lägg fulla matskedar av deg i den heta oljan; sänk värmen till medel. Fritera tills de är gyllenbruna och genomstekta, 2 till 3 minuter per sida.",
+   "6": "Vänd en gång till om du vill och fritera ytterligare 30 sekunder.",
+   "7": "Servera varma eller vid rumstemperatur."
+  },
+  "culturalNotes": "Dessa fritters är en populär rätt i Grekland, serverad som förrätt eller som en del av en lätt måltid.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-014": {
+  "title": "Grekisk tsoureki",
+  "ingredients": {
+   "w-gr-014-i1": {
+    "name": "torrjäst",
+    "standardAmount": "2 paket om 7 g"
+   },
+   "w-gr-014-i2": {
+    "name": "ljummet vatten",
+    "standardAmount": "0,6 dl (43°C)"
+   },
+   "w-gr-014-i3": {
+    "name": "vetemjöl",
+    "standardAmount": "15 dl, fördelat"
+   },
+   "w-gr-014-i4": {
+    "name": "smör",
+    "standardAmount": "1,2 dl"
+   },
+   "w-gr-014-i5": {
+    "name": "hårt vegetabiliskt fett",
+    "standardAmount": "0,6 dl"
+   },
+   "w-gr-014-i6": {
+    "name": "mald mastix",
+    "standardAmount": "1 tsk"
+   },
+   "w-gr-014-i7": {
+    "name": "mjölk",
+    "standardAmount": "2,4 dl (240 ml)"
+   },
+   "w-gr-014-i8": {
+    "name": "vitt socker",
+    "standardAmount": "2,4 dl"
+   },
+   "w-gr-014-i9": {
+    "name": "salt",
+    "standardAmount": "0,5 tsk"
+   },
+   "w-gr-014-i10": {
+    "name": "ägg",
+    "standardAmount": "4 ägg, 3 vispade och 1 för pensling"
+   },
+   "w-gr-014-i11": {
+    "name": "skivad mandel",
+    "standardAmount": "1,2 dl"
+   },
+   "w-gr-014-i12": {
+    "name": "vatten i rumstemperatur",
+    "standardAmount": "1,2 dl (120 ml)"
+   },
+   "w-gr-014-i13": {
+    "name": "rödfärgade ägg",
+    "standardAmount": "2 ägg"
+   },
+   "w-gr-014-i14": {
+    "name": "sesamfrön",
+    "standardAmount": "2 msk"
+   }
+  },
+  "instructions": {
+   "1": "Lägg jästen i en liten skål; tillsätt det ljumma vattnet och 0,6 dl mjöl. Blanda, täck med två fuktiga kökshanddukar och låt stå på en varm plats tills det bubblar, cirka 2,5 timmar.",
+   "2": "Blanda smör, hårt vegetabiliskt fett och mastix i en kastrull på medel-låg värme.",
+   "3": "Rör ihop mjölk och socker i en annan kastrull på medel-låg värme tills sockret löser sig och blandningen är ljummen. Ta från värmen.",
+   "4": "Häll 4,8 dl mjöl i smörblandningen och blanda väl. Tillsätt saltet, rör sedan ner jästblandningen. Tillsätt ytterligare 4,8 dl mjöl och blanda väl. Rör ner de 3 vispade äggen. Tillsätt långsamt mjölkblandningen och 2,4 dl mjöl och blanda väl. Tillsätt vattnet i rumstemperatur och den sista dl mjöl och blanda tills degen inte är klibbig.",
+   "5": "Knåda degen på en lätt mjölad yta med lätt mjölade händer i 20 minuter. Forma degen till en boll. Täck med fuktiga kökshanddukar och låt stå på en varm plats tills den fördubblats i volym, cirka 2 timmar.",
+   "6": "Förvärm ugnen till 165°C. Smörj två bakplåtar.",
+   "7": "Dela degen i två delar och dela varje del i tre strängar. Fläta varje 3 strängar för att göra 2 flätade bröd. Lägg på plåtarna. Placera de rödfärgade äggen mellan strängarna. Pensla degen med det återstående vispade ägget. Strö topparna med mandel och sesamfrön.",
+   "8": "Grädda i den förvärmda ugnen tills de är gyllenbruna, cirka 25 minuter."
+  },
+  "culturalNotes": "Tsoureki är ett traditionellt bröd som bakas i Grekland under påsken. Det är känt för sin söta smak och mjuka konsistens och dekoreras vanligtvis med rödfärgade ägg.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-015": {
+  "title": "Tzatzikisås",
+  "ingredients": {
+   "w-gr-015-i1": {
+    "name": "naturell lågfettyoghurt",
+    "standardAmount": "1 förpackning om 450 g"
+   },
+   "w-gr-015-i2": {
+    "name": "gurka",
+    "standardAmount": "1 gurka, skalad, urkärnad och riven"
+   },
+   "w-gr-015-i3": {
+    "name": "finhackad färsk persilja",
+    "standardAmount": "1 msk"
+   },
+   "w-gr-015-i4": {
+    "name": "finhackad färsk mynta",
+    "standardAmount": "1 msk"
+   },
+   "w-gr-015-i5": {
+    "name": "färsk citronsaft",
+    "standardAmount": "1 msk"
+   },
+   "w-gr-015-i6": {
+    "name": "finhackad vitlök",
+    "standardAmount": "1 klyfta"
+   },
+   "w-gr-015-i7": {
+    "name": "salt och svartpeppar",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Klä ett durkslag med två lager ostduk; placera över en medelstor skål. Lägg yoghurten i det ostduksklädda durkslaget, täck sedan med plastfolie. Låt yoghurten rinna av i kylskåpet i 8 timmar till över natten.",
+   "2": "Lägg den rivna gurkan på en tallrik klädd med hushållspapper; låt rinna av i 1 till 2 timmar.",
+   "3": "Blanda yoghurt, gurka, persilja, mynta, citronsaft, vitlök, salt och svartpeppar i en skål. Kyl minst 2 timmar i kylskåpet före servering."
+  },
+  "culturalNotes": "Tzatziki är en traditionell grekisk sås som serveras som förrätt eller till huvudrätter.",
+  "chapter": "مطبخ اليونان"
+ },
+ "w-gr-016": {
+  "title": "Vasilopita - grekisk nyårskaka",
+  "ingredients": {
+   "w-gr-016-i1": {
+    "name": "vitt socker",
+    "standardAmount": "4,8 dl"
+   },
+   "w-gr-016-i2": {
+    "name": "smör",
+    "standardAmount": "2,4 dl"
+   },
+   "w-gr-016-i3": {
+    "name": "vetemjöl",
+    "standardAmount": "7,1 dl"
+   },
+   "w-gr-016-i4": {
+    "name": "ägg",
+    "standardAmount": "6 ägg"
+   },
+   "w-gr-016-i5": {
+    "name": "bakpulver",
+    "standardAmount": "2 tsk"
+   },
+   "w-gr-016-i6": {
+    "name": "ljummen mjölk",
+    "standardAmount": "2,4 dl (45°C)"
+   },
+   "w-gr-016-i7": {
+    "name": "bikarbonat",
+    "standardAmount": "0,5 tsk"
+   },
+   "w-gr-016-i8": {
+    "name": "färsk citronsaft",
+    "standardAmount": "1 msk"
+   },
+   "w-gr-016-i9": {
+    "name": "skållade mandelspån",
+    "standardAmount": "0,6 dl"
+   },
+   "w-gr-016-i10": {
+    "name": "vitt socker",
+    "standardAmount": "2 msk"
+   }
+  },
+  "instructions": {
+   "1": "Förvärm ugnen till 175°C. Smörj generöst en rund kakform om 25 cm.",
+   "2": "Vispa socker och smör i en medelstor skål tills det blir ljusare. Tillsätt mjölet och blanda tills blandningen är mjölig/kornig. Tillsätt äggen ett i taget, blanda väl efter varje tillsats.",
+   "3": "Blanda bakpulver och mjölk; tillsätt till äggblandningen och blanda väl. Blanda citronsaft och bikarbonat; rör ner i degen. Häll degen i den förberedda formen.",
+   "4": "Grädda kakan i den förvärmda ugnen i 20 minuter. Ta ut och strö nötter och socker över kakan, återställ sedan i ugnen tills kakan studsar vid beröring, cirka ytterligare 20-30 minuter.",
+   "5": "Gör försiktigt ett litet hål i kakan och lägg i ett mynt. Försök täcka hålet med socker. Låt kakan svalna på ett galler i 10 minuter innan du vänder den på en tallrik.",
+   "6": "Servera kakan varm."
+  },
+  "culturalNotes": "Vasilopita är en traditionell kaka som serveras i Grekland på nyårsdagen.",
+  "chapter": "مطبخ اليونان"
  }
 }

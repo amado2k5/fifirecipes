@@ -2459,5 +2459,902 @@
   },
   "culturalNotes": "Niter kibbeh ni siagi safi yenye viungo inayotumika katika mapishi ya Ethiopia kuongeza ladha ya vyakula.",
   "chapter": "et"
+ },
+ "w-gr-001": {
+  "title": "Diples",
+  "ingredients": {
+   "w-gr-001-i1": {
+    "name": "Unga",
+    "standardAmount": "2 vikombe"
+   },
+   "w-gr-001-i2": {
+    "name": "Mafuta ya mboga",
+    "standardAmount": "ya kukaangia"
+   },
+   "w-gr-001-i3": {
+    "name": "Siagi",
+    "standardAmount": "1/2 kikombe"
+   },
+   "w-gr-001-i4": {
+    "name": "Asali",
+    "standardAmount": "1/2 kikombe"
+   },
+   "w-gr-001-i5": {
+    "name": "Mdalasini",
+    "standardAmount": "1/2 kijiko kidogo"
+   }
+  },
+  "instructions": {
+   "1": "Changanya unga na maji hadi kutengeneza unga imara.",
+   "2": "Acha unga upumzike kwa dakika 30.",
+   "3": "Kata unga vipande vidogo na ukauzime mwembamba.",
+   "4": "Kaanga vipande katika mafuta ya moto hadi viwe vya rangi ya dhahabu ya kahawia.",
+   "5": "Weka diples juu ya taulo za karatasi ziokote.",
+   "6": "Mimina siagi iliyoyeyushwa na asali juu ya diples na umete mdalasini.",
+   "7": "Hudumia ya moto au baridi, kadiri unavyotaka."
+  },
+  "culturalNotes": "Diples ni chakula tamu cha jadi cha Kigiriki kinachohudumiwa katika matukio maalum.",
+  "chapter": "gr"
+ },
+ "w-gr-002": {
+  "title": "Galaktoboureko",
+  "ingredients": {
+   "w-gr-002-i1": {
+    "name": "sukari nyeupe ya kristolina",
+    "standardAmount": "150 g"
+   },
+   "w-gr-002-i2": {
+    "name": "mayai",
+    "standardAmount": "6"
+   },
+   "w-gr-002-i3": {
+    "name": "semolina",
+    "standardAmount": "150 g"
+   },
+   "w-gr-002-i4": {
+    "name": "maziwa",
+    "standardAmount": "1 lita"
+   },
+   "w-gr-002-i5": {
+    "name": "vigwada vya vanilla",
+    "standardAmount": "2"
+   },
+   "w-gr-002-i6": {
+    "name": "maji ya limao",
+    "standardAmount": "maji ya limao 1/2"
+   },
+   "w-gr-002-i7": {
+    "name": "chumvi",
+    "standardAmount": "kidogo"
+   },
+   "w-gr-002-i8": {
+    "name": "karatasi za filo",
+    "standardAmount": "450 g"
+   },
+   "w-gr-002-i9": {
+    "name": "siagi iliyoyeyushwa",
+    "standardAmount": "kadiri inavyohitajika"
+   }
+  },
+  "instructions": {
+   "1": "Changanya sukari, mayai na semolina katika sufuria. Ongeza maziwa na vigwada vya vanilla. Changanya maji ya limao.",
+   "2": "Leta mchanganyiko kuchemka ukichanganya kila mara kwa uma. Inapoanza kuchemka, punguza moto na uchanganye kwa dakika 10 zaidi. Ondoa mchanganyiko kwenye moto na uache upoe.",
+   "3": "Paka kila karatasi ya filo siagi iliyoyeyushwa.",
+   "4": "Paka siagi chombo cha kuokea na uweke nusu ya karatasi za filo ndani, moja baada ya nyingine. Mimina kustadi wa semolina uliozidiwa juu ya unga na ufike kwa karatasi za filo zilizobaki zilizopakwa siagi.",
+   "5": "Nyunyiza chakula tamu kidogo cha maji.",
+   "6": "Oka dessert katika tanuru iliyowashwa mapema kwa 180°C kwa saa 1. Acha ipoe kabla ya kuhudumia."
+  },
+  "culturalNotes": "Galaktoboureko ni dessert ya jadi ya Kigiriki iliyotengenezwa kutoka kustadi ya maziwa na semolina iliyofungwa katika unga wa filo. Hudumiwa kwa kawaida baridi.",
+  "chapter": "gr"
+ },
+ "w-gr-003": {
+  "title": "Giouvetsi (oka ya jadi ya Kigiriki ya orzo)",
+  "ingredients": {
+   "w-gr-003-i1": {
+    "name": "mafuta ya mizeituni",
+    "standardAmount": "0.5 kikombe (120 ml)"
+   },
+   "w-gr-003-i2": {
+    "name": "nyama ya kondoo ya kuchemsha, iliyokatwa vipande",
+    "standardAmount": "1.4 kg"
+   },
+   "w-gr-003-i3": {
+    "name": "nyanya nzima zilizomenywa kwenye makopo",
+    "standardAmount": "1 kopo la 800 g"
+   },
+   "w-gr-003-i4": {
+    "name": "kitunguu saumu",
+    "standardAmount": "4 vijongo"
+   },
+   "w-gr-003-i5": {
+    "name": "sukari nyeupe",
+    "standardAmount": "0.5 kijiko kidogo"
+   },
+   "w-gr-003-i6": {
+    "name": "chumvi na pilipili",
+    "standardAmount": "kadiri unavyotaka"
+   },
+   "w-gr-003-i7": {
+    "name": "siagi",
+    "standardAmount": "0.5 kikombe"
+   },
+   "w-gr-003-i8": {
+    "name": "pasta ya orzo",
+    "standardAmount": "450 g"
+   },
+   "w-gr-003-i9": {
+    "name": "maji ya moto",
+    "standardAmount": "3 vikombe (710 ml)"
+   }
+  },
+  "instructions": {
+   "1": "Pasha moto mafuta ya mizeituni katika sufuria kubwa kwa moto wa kati; kaanga nyama hadi iwe ya kahawia pande zote, karibu dakika 5.",
+   "2": "Ongeza nyanya zilizosagwa, kitunguu saumu, sukari, chumvi na pilipili. Funika na uchemse kwa saa 1, ukichanganya mara kwa mara. Weka kando.",
+   "3": "Washa tanuru mapema hadi 175°C.",
+   "4": "Yeyusha siagi katika kikaango cha kati kwa moto wa kati na uongeze orzo. Pika hadi ibadilike kuwa ya kahawia kidogo, dakika 3 hadi 5.",
+   "5": "Hamisha orzo kwenda chombo cha kuokea, ukieneza sawasawa. Weka nyama juu ya orzo na umimine mchuzi wa nyanya juu ya nyama. Ongeza maji ya moto.",
+   "6": "Funika kwa karatasi ya alumini na uoke katika tanuru iliyowashwa mapema hadi maji yote yamefyonzwa na orzo iwe laini, karibu saa 1. Ikiwa chakula kitakuwa kavu sana, ongeza maji zaidi wakati wa kupika."
+  },
+  "culturalNotes": "Giouvetsi ni chakula cha jadi cha Kigiriki kinachohudumiwa mara nyingi katika matukio maalum. Huhudumiwa kwa kawaida na saladi ya Kigiriki.",
+  "chapter": "gr"
+ },
+ "w-gr-004": {
+  "title": "Kebabu za kofta ya ng'ombe katika kikaango cha hewa",
+  "ingredients": {
+   "w-gr-004-i1": {
+    "name": "nyama ya ng'ombe iliyosagwa",
+    "standardAmount": "450 g"
+   },
+   "w-gr-004-i2": {
+    "name": "kitunguu cha manjano kilichokatwa",
+    "standardAmount": "1/4 kikombe"
+   },
+   "w-gr-004-i3": {
+    "name": "parsley mpya iliyokatwa",
+    "standardAmount": "1/4 kikombe"
+   },
+   "w-gr-004-i4": {
+    "name": "kitunguu saumu kilichokatwa",
+    "standardAmount": "2 vijongo"
+   },
+   "w-gr-004-i5": {
+    "name": "jira",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-gr-004-i6": {
+    "name": "giligilani iliyosagwa",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-gr-004-i7": {
+    "name": "chumvi",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-gr-004-i8": {
+    "name": "pilipili manga iliyosagwa",
+    "standardAmount": "1/4 kijiko kidogo"
+   },
+   "w-gr-004-i9": {
+    "name": "mdalasini uliosagwa",
+    "standardAmount": "1/4 kijiko kidogo"
+   },
+   "w-gr-004-i10": {
+    "name": "vijiti vya mishkaki",
+    "standardAmount": "8"
+   },
+   "w-gr-004-i11": {
+    "name": "yogurt ya Kigiriki isiyo na sukari",
+    "standardAmount": "1 kikombe"
+   },
+   "w-gr-004-i12": {
+    "name": "tango iliyokwanguliwa, imekung'utwa",
+    "standardAmount": "1/2 kikombe"
+   },
+   "w-gr-004-i13": {
+    "name": "kitunguu saumu kilichokatwa",
+    "standardAmount": "1 kijongo"
+   },
+   "w-gr-004-i14": {
+    "name": "maji ya limao",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-gr-004-i15": {
+    "name": "shabeti kavu",
+    "standardAmount": "1/4 kijiko kidogo"
+   },
+   "w-gr-004-i16": {
+    "name": "chumvi kubwa",
+    "standardAmount": "1/4 kijiko kidogo"
+   }
+  },
+  "instructions": {
+   "1": "Changanya nyama ya ng'ombe iliyosagwa, kitunguu, parsley, kitunguu saumu, jira, giligilani, chumvi, pilipili nyeusi na mdalasini katika bakuli kubwa hadi ichanganyike vizuri.",
+   "2": "Gawanya mchanganyiko katika sehemu 8 na uunde vipande vya mviringo vya oval karibu na vijiti vya mishkaki, ukipakisha kuwa ncha ya kijiti imefunikwa.",
+   "3": "Weka kebabu juu ya sahani na uweke kwenye jokofu.",
+   "4": "Washa kikaango cha hewa mapema hadi 188°C.",
+   "5": "Changanya yogurt, tango, kitunguu saumu, maji ya limao, shabeti na chumvi kubwa katika bakuli ndogo na uweke kwenye jokofu hadi itakapotumika.",
+   "6": "Weka vijiti 4 vya mishkaki katika kikapu cha kikaango cha hewa na upike kwa dakika 10. Hamisha kebabu kwenda sahani. Rudia kwa vijiti vilivyobaki.",
+   "7": "Hudumia kebabu kwa mchuzi wa tzatziki."
+  },
+  "culturalNotes": "Kofta ni chakula maarufu katika nchi nyingi za Kiarabu na Mashariki ya Kati, na huhudumiwa mara nyingi kwa mchuzi wa tzatziki.",
+  "chapter": "gr"
+ },
+ "w-gr-005": {
+  "title": "Melomakarono",
+  "ingredients": {
+   "w-gr-005-i1": {
+    "name": "unga wa ngano",
+    "standardAmount": "4 vikombe"
+   },
+   "w-gr-005-i2": {
+    "name": "mdalasini uliosagwa",
+    "standardAmount": "2 vijiko vidogo"
+   },
+   "w-gr-005-i3": {
+    "name": "baking powder",
+    "standardAmount": "2 vijiko vidogo"
+   },
+   "w-gr-005-i4": {
+    "name": "karafuu iliyosagwa",
+    "standardAmount": "2 vijiko vidogo"
+   },
+   "w-gr-005-i5": {
+    "name": "baking soda",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-gr-005-i6": {
+    "name": "kungumanga iliyosagwa",
+    "standardAmount": "0.5 kijiko kidogo"
+   },
+   "w-gr-005-i7": {
+    "name": "siagi isiyo na chumvi",
+    "standardAmount": "450 g"
+   },
+   "w-gr-005-i8": {
+    "name": "sukari nyeupe",
+    "standardAmount": "0.75 kikombe"
+   },
+   "w-gr-005-i9": {
+    "name": "vini vya mayai",
+    "standardAmount": "3"
+   },
+   "w-gr-005-i10": {
+    "name": "maji ya chungwa yaliyokung'utwa",
+    "standardAmount": "0.5 kikombe (120 ml)"
+   },
+   "w-gr-005-i11": {
+    "name": "asali",
+    "standardAmount": "1 kijiko kidogo + 1 kikombe"
+   },
+   "w-gr-005-i12": {
+    "name": "maji",
+    "standardAmount": "1 kikombe (240 ml)"
+   },
+   "w-gr-005-i13": {
+    "name": "walnut zilizosagwa",
+    "standardAmount": "0.5 kikombe"
+   },
+   "w-gr-005-i14": {
+    "name": "mdalasini uliosagwa",
+    "standardAmount": "kidogo"
+   },
+   "w-gr-005-i15": {
+    "name": "karafuu iliyosagwa",
+    "standardAmount": "kidogo"
+   }
+  },
+  "instructions": {
+   "1": "Washa tanuru mapema hadi 175°C.",
+   "2": "Changanya unga, mdalasini, baking powder, karafuu, baking soda na kungumanga katika bakuli kubwa.",
+   "3": "Katika bakuli tofauti, piga siagi hadi iwe nyepesi na ya krimu; ongeza sukari na uchanganye vizuri.",
+   "4": "Piga vini vya mayai na maji ya chungwa katika bakuli nyingine. Changanya mchanganyiko wa mayai kidogo kidogo katika mchanganyiko wa siagi ukiachanganya.",
+   "5": "Ongeza mchanganyiko wa unga kidogo kidogo kwenye mchanganyiko wa siagi, ukichanganya baada ya kila ongezeko. Ongeza asali na uchanganye hadi kuunda unga laini.",
+   "6": "Funika unga na uweke kwenye jokofu hadi uwe imara vya kutosha kuunda, karibu dakika 30.",
+   "7": "Uunda unga kuwa oval ndogo na uweke kwenye mabamba ya kuokea umbali wa sentimita kadhaa. Gonga kidogo; vidonge vitaenea.",
+   "8": "Oka katika tanuru iliyowashwa mapema hadi viwe vya rangi ya dhahabu nyepesi, dakika 15 hadi 20.",
+   "9": "Wakati huo, pasha moto asali, maji na sukari katika sufuria kwa moto wa kati-chini hadi sukari iyeyuke. Acha sharubati ipoe.",
+   "10": "Changanya walnut, mdalasini na karafuu katika bakuli kwa ajili ya kupamba.",
+   "11": "Chovya vidonge katika sharubati baridi kwa sekunde 10-15 kila upande. Nyunyiza kupamba cha walnut juu ya sharubati na uache vikauke kabisa.",
+   "12": "Weka vidonge katika vikombe vya muffin au kati ya tabaka za karatasi za kuokea."
+  },
+  "culturalNotes": "Melomakarono ni kukisi ya jadi ya Kigiriki inayohudumiwa kwa kawaida wakati wa Krismasi.",
+  "chapter": "gr"
+ },
+ "w-gr-006": {
+  "title": "Supu ya kandaa",
+  "ingredients": {
+   "w-gr-006-i1": {
+    "name": "kandaa",
+    "standardAmount": "450 g"
+   },
+   "w-gr-006-i2": {
+    "name": "chumvi",
+    "standardAmount": "2 vijiko vidogo"
+   },
+   "w-gr-006-i3": {
+    "name": "mafuta ya mizeituni ya ziada",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-gr-006-i4": {
+    "name": "kitunguu cheupe",
+    "standardAmount": "1, kimekatwa vipande"
+   },
+   "w-gr-006-i5": {
+    "name": "mchele wa basmati",
+    "standardAmount": "0.25 kikombe"
+   },
+   "w-gr-006-i6": {
+    "name": "supu ya kuku",
+    "standardAmount": "4 vikombe (950 ml)"
+   },
+   "w-gr-006-i7": {
+    "name": "pilipili nyeusi",
+    "standardAmount": "kadiri unavyotaka"
+   }
+  },
+  "instructions": {
+   "1": "Chemsha sufuria kubwa ya maji na vijiko vidogo 2 vya chumvi. Ongeza kandaa na upike kwa dakika 1-2 hadi zikunyee. Hii itaondoa sehemu kubwa ya kuwasha kwake. Mimina kwenye kichungi na unawa kwa maji baridi. Ondoa mizizi migumu na ukate kwa ukubwa.",
+   "2": "Pasha moto mafuta ya mizeituni katika sufuria kwa moto wa kati-chini na uongeze kitunguu. Pika hadi kitunguu kiwe chepesi na kinang'aa, karibu dakika 5. Ongeza mchele, supu ya kuku na kandaa zilizokatwa. Leta kuchemka, kisha punguza moto hadi kati-chini, funika na uchemse hadi mchele unepoa, karibu dakika 15.",
+   "3": "Changanya supu kwa blender ya mkono na utenge kwa chumvi na pilipili kadiri unavyotaka."
+  },
+  "culturalNotes": "Kandaa ni mmea unaokua asili nchini Ugiriki na hutumika katika mapishi mengi ya jadi.",
+  "chapter": "gr"
+ },
+ "w-gr-007": {
+  "title": "Keki ya chungwa ya Kigiriki ya filo (Portokalopita)",
+  "ingredients": {
+   "w-gr-007-i1": {
+    "name": "sukari nyeupe",
+    "standardAmount": "2 vikombe"
+   },
+   "w-gr-007-i2": {
+    "name": "maji",
+    "standardAmount": "1.5 vikombe (360 ml)"
+   },
+   "w-gr-007-i3": {
+    "name": "mdalasini uliosagwa",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-gr-007-i4": {
+    "name": "chungwa",
+    "standardAmount": "3"
+   },
+   "w-gr-007-i5": {
+    "name": "karatasi za filo",
+    "standardAmount": "1 paketi ya 450 g"
+   },
+   "w-gr-007-i6": {
+    "name": "mayai",
+    "standardAmount": "5"
+   },
+   "w-gr-007-i7": {
+    "name": "yogurt ya Kigiriki",
+    "standardAmount": "1 chombo cha 200 g"
+   },
+   "w-gr-007-i8": {
+    "name": "mafuta ya mizeituni",
+    "standardAmount": "0.75 kikombe (180 ml)"
+   },
+   "w-gr-007-i9": {
+    "name": "sukari nyeupe",
+    "standardAmount": "0.5 kikombe"
+   },
+   "w-gr-007-i10": {
+    "name": "baking powder",
+    "standardAmount": "1 kijiko kikubwa"
+   }
+  },
+  "instructions": {
+   "1": "Changanya vikombe 2 vya sukari, vikombe 1.5 vya maji na kijiko kidogo 1 cha mdalasini uliosagwa katika sufuria kwa moto wa kati-juu. Kamua juisi ya chungwa ndani na uongeze nusu zilizokung'utwa. Leta kuchemka na upike kwa nguvu kwa dakika 8. Ondoa kwenye moto na uache sharubati ipoe.",
+   "2": "Washa tanuru mapema hadi 175°C. Paka siagi kidogo chombo cha kuokea cha 23x33 cm.",
+   "3": "Ondoa karatasi za filo kutoka kwenye pakiti na uzichanue au ukate vipande vidogo. Weka filo iliyochanuliwa kwenye chombo na uache ikauke kidogo.",
+   "4": "Kata chungwa 1 nusu na ukate nusu 1 katika vipande vya nusu-mwezi mwembamba sana kwa kupamba keki. Kwangulia ganda na ukamue juisi kutoka machungwa 2 1/2 yaliyobaki.",
+   "5": "Changanya maji ya chungwa, ganda la chungwa, mayai, yogurt ya Kigiriki, mafuta ya mizeituni, kikombe 0.5 cha sukari na baking powder katika blender au mashine ya kuchakata chakula. Changanya hadi mchanganyiko uwe laini na viungo vyote vimechanganyika vizuri.",
+   "6": "Mimina mchanganyiko juu ya filo iliyochanuliwa kwenye chombo. Changanya kwa upole ili mchanganyiko wa mvua ueneze sawasawa na kupoteza vipande vyovyote vya filo kavu. Pamba juu ya keki kwa vipande vya chungwa.",
+   "7": "Oka katika tanuru iliyowashwa mapema hadi juu iwe ya dhahabu na katikati imara, karibu dakika 45. Kijiti cha meno kikichanganywa katikati kinapaswa kutoka kisicho na kitu.",
+   "8": "Ondoa keki kwenye tanuru na umimine mara moja sharubati baridi juu ya keki ya moto.",
+   "9": "Weka keki kando kwa angalau saa 1 au usiku, hadi sehemu kubwa ya sharubati imefyonzwa. Kata kwa mraba na uhudumie."
+  },
+  "culturalNotes": "Portokalopita ni keki ya jadi ya Kigiriki iliyotengenezwa kutoka unga wa filo na chungwa na huhudumiwa kwa kawaida katika matukio maalum.",
+  "chapter": "gr"
+ },
+ "w-gr-008": {
+  "title": "Jibini nyeupe yenye chumvi iliyokaangwa kwenye sahani (Saganaki)",
+  "ingredients": {
+   "w-gr-008-i1": {
+    "name": "kipande kikubwa cha jibini nyeupe yenye chumvi katika maji ya chumvi (kama feta, sirene)",
+    "standardAmount": "1 kipande"
+   },
+   "w-gr-008-i2": {
+    "name": "mafuta ya mizeituni (si ya ziada)",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-gr-008-i3": {
+    "name": "kipande kikubwa cha limao",
+    "standardAmount": "1 kipande"
+   },
+   "w-gr-008-i4": {
+    "name": "unga (hiari)",
+    "standardAmount": "kiasi kidogo"
+   },
+   "w-gr-008-i5": {
+    "name": "pita au mkate mwingine (hiari)",
+    "standardAmount": "kadiri inavyohitajika"
+   }
+  },
+  "instructions": {
+   "1": "Pasha moto kikaango kidogo kwa moto wa kati-juu.",
+   "2": "Wakati kikaango kinapokwenda moto, kata jibini vipande vya ukubwa na unene unaotaka. Vipande virefu vitachukua muda mrefu kuyeyuka na vinaweza kuungua, wakati vipande vikijembamba vitaanza nafasi ndogo ya kufanya kahawia.",
+   "3": "Ikiwa unataka, ziba vipande kwenye unga — hii italeta ganda nyeusi na kidogo crispy, lakini ni hatua ya hiari kwa sababu jibini itapata ganda nyembamba sana peke yake kwa sababu ya mafuta na joto kubwa. Pia itapunguza kutapaka kidogo.",
+   "4": "Ongeza mafuta kwenye kikaango cha moto na uizungushe. Wakati mafuta yanang'aa na yanakua ya maji maji, tayari. Ongeza jibini na urudi nyuma — itatapaka kwa sababu ya maji ya chumvi kwenye jibini.",
+   "5": "Geuza jibini baada ya dakika moja au mbili. Kipande cha sentimita ¾ kitaonekana dakika 1-2 kila upande.",
+   "6": "Hudumia mara moja, na limao na (hiari) mkate."
+  },
+  "culturalNotes": "Saganaki ni chakula cha jadi cha Kigiriki kinachohudumiwa kama mwanzo. Huhudumiwa kwa kawaida na limao na mkate.",
+  "chapter": "gr"
+ },
+ "w-gr-009": {
+  "title": "Spanakorizo",
+  "ingredients": {
+   "w-gr-009-i1": {
+    "name": "maji",
+    "standardAmount": "2 vikombe (480 ml)"
+   },
+   "w-gr-009-i2": {
+    "name": "mchele wa nafaka ndefu",
+    "standardAmount": "1 kikombe"
+   },
+   "w-gr-009-i3": {
+    "name": "mafuta ya mizeituni",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-gr-009-i4": {
+    "name": "kitunguu",
+    "standardAmount": "1 kidogo, kimekatwa"
+   },
+   "w-gr-009-i5": {
+    "name": "spinachi mpya",
+    "standardAmount": "1 kichoche"
+   },
+   "w-gr-009-i6": {
+    "name": "ganda la limao",
+    "standardAmount": "limao 1, ganda lililokwanguliwa"
+   },
+   "w-gr-009-i7": {
+    "name": "maji ya limao",
+    "standardAmount": "maji ya limao 1"
+   },
+   "w-gr-009-i8": {
+    "name": "jibini ya feta",
+    "standardAmount": "0.25 kikombe, imevunjwa"
+   },
+   "w-gr-009-i9": {
+    "name": "shabeti mpya",
+    "standardAmount": "0.25 kikombe, imekatwa"
+   },
+   "w-gr-009-i10": {
+    "name": "chumvi",
+    "standardAmount": "kadiri unavyotaka"
+   },
+   "w-gr-009-i11": {
+    "name": "pilipili manga iliyosagwa",
+    "standardAmount": "kadiri unavyotaka"
+   }
+  },
+  "instructions": {
+   "1": "Chemsha maji na mchele katika sufuria. Punguza moto hadi kati-chini, funika na uchemse hadi mchele uwe laini na maji yamefyonzwa, dakika 20 hadi 25.",
+   "2": "Pasha moto mafuta katika sufuria kwa moto wa kati-juu. Pika kitunguu hadi kiwe chepesi, karibu dakika 5.",
+   "3": "Ongeza mchele uliopikwa na spinach; pika na uchanganye hadi spinach ikunyee, dakika 3 hadi 5.",
+   "4": "Ongeza maji ya limao, ganda, feta na shabeti. Ondoa kwenye moto. Tenge kwa chumvi na pilipili kadiri unavyotaka."
+  },
+  "culturalNotes": "Spanakorizo ni chakula cha jadi cha Kigiriki kinachohudumiwa kama chakula kikuu au cha pembeni. Kinaelekezwa kwa ladha yake safi na ya chachu.",
+  "chapter": "gr"
+ },
+ "w-gr-010": {
+  "title": "Strapatsada na saladi ya mchele na dengu",
+  "ingredients": {
+   "w-gr-010-i1": {
+    "name": "nyanya",
+    "standardAmount": "2 za kati"
+   },
+   "w-gr-010-i2": {
+    "name": "mafuta ya mizeituni",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-gr-010-i3": {
+    "name": "kitunguu saumu",
+    "standardAmount": "3 vijongo, vimekatwa"
+   },
+   "w-gr-010-i4": {
+    "name": "mayai",
+    "standardAmount": "6 makubwa"
+   },
+   "w-gr-010-i5": {
+    "name": "chumvi",
+    "standardAmount": "0.75 kijiko kidogo, imegawanywa"
+   },
+   "w-gr-010-i6": {
+    "name": "pilipili manga iliyosagwa",
+    "standardAmount": "0.5 kijiko kidogo, imegawanywa"
+   },
+   "w-gr-010-i7": {
+    "name": "feta iliyovunjwa",
+    "standardAmount": "0.25 kikombe"
+   },
+   "w-gr-010-i8": {
+    "name": "oregano mpya iliyokatwa",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-gr-010-i9": {
+    "name": "mchele wa kahawia uliopikwa",
+    "standardAmount": "3 vikombe, moto"
+   },
+   "w-gr-010-i10": {
+    "name": "dengu kwenye makopo",
+    "standardAmount": "1 kopo la 425 g, wimenawa na kuondolewa"
+   },
+   "w-gr-010-i11": {
+    "name": "zeituni za Kalamata zisizo na mbegu, zimekatwa",
+    "standardAmount": "0.25 kikombe"
+   },
+   "w-gr-010-i12": {
+    "name": "parsley mpya iliyokatwa",
+    "standardAmount": "3 vijiko vikubwa"
+   },
+   "w-gr-010-i13": {
+    "name": "ganda la limao",
+    "standardAmount": "2 vijiko vidogo"
+   },
+   "w-gr-010-i14": {
+    "name": "maji ya limao",
+    "standardAmount": "3 vijiko vikubwa"
+   },
+   "w-gr-010-i15": {
+    "name": "tahini",
+    "standardAmount": "2 vijiko vikubwa"
+   }
+  },
+  "instructions": {
+   "1": "Kwangulia nyanya kwa kikwanguzo cha sanduku (hii inapaswa kutoa karibu kikombe 1 cha nyanya iliyokwanguliwa).",
+   "2": "Pasha moto mafuta ya mizeituni katika kikaango kikubwa kwa moto wa kati. Ongeza nyanya iliyokwanguliwa na kitunguu saumu. Pika, ukichanganya mara kwa mara, hadi nyanya zisonge na maji mengi yamenyuka, karibu dakika 7.",
+   "3": "Ongeza mayai, kijiko kidogo 0.5 cha chumvi na kijiko kidogo 0.25 cha pilipili kwenye mchanganyiko wa nyanya. Pika hadi mayai yamekufa, ukichanganya kwa upole, karibu dakika 3. Yanapaswa kuwa laini lakini si ya maji. Ziba feta na oregano. Weka joto.",
+   "4": "Katika bakuli kubwa, changanya mchele, dengu, zeituni, parsley, ganda la limao na vilivyobaki vya vijiko vidogo 0.25 vya chumvi na pilipili. Katika bakuli ndogo, piga maji ya limao na tahini na umimine juu ya mchanganyiko wa mchele. Changanya kwa upole ili kufunika.",
+   "5": "Hudumia mchanganyiko wa mayai juu ya mchanganyiko wa mchele. Ikiwa unataka, nyunyiza nyanya, oregano na parsley ya ziada."
+  },
+  "culturalNotes": "Strapatsada ni chakula cha jadi cha Kigiriki kinachohudumiwa kwa kawaida kama mwanzo au chakula kikuu rahisi. Huchanganya mayai, nyanya na jibini ya feta na ni rahisi na haraka kutengeneza.",
+  "chapter": "gr"
+ },
+ "w-gr-011": {
+  "title": "Taramasalata",
+  "ingredients": {
+   "w-gr-011-i1": {
+    "name": "mkate",
+    "standardAmount": "370 g (ganda limeondolewa)"
+   },
+   "w-gr-011-i2": {
+    "name": "maji baridi",
+    "standardAmount": "kiasi cha kufunika mkate"
+   },
+   "w-gr-011-i3": {
+    "name": "mafuta ya mizeituni",
+    "standardAmount": "0.5 kikombe (120 ml)"
+   },
+   "w-gr-011-i4": {
+    "name": "kitunguu",
+    "standardAmount": "1 kidogo, kimekatwa kwa ukubwa"
+   },
+   "w-gr-011-i5": {
+    "name": "maji ya limao",
+    "standardAmount": "maji ya limao kubwa 1"
+   },
+   "w-gr-011-i6": {
+    "name": "tarama (mayai ya samaki yenye chumvi)",
+    "standardAmount": "1 kikombe"
+   }
+  },
+  "instructions": {
+   "1": "Weka mkate katika bakuli, funika kwa maji baridi na uache iloweke hadi ilowekwa vizuri, dakika 5 hadi 10. Mimina maji kutoka bakuli na ukung'ute mkate ili uondoe maji ya ziada.",
+   "2": "Weka mkate, mafuta ya mizeituni, kitunguu na maji ya limao kwenye mashine ya kuchakata chakula na uchakate hadi uwe laini.",
+   "3": "Ongeza tarama na uchakate hadi ichanganyike vizuri."
+  },
+  "culturalNotes": "Taramasalata ni mwanzo wa jadi wa Kigiriki, huhudumiwa kwa kawaida na mkate mpya au kreketa.",
+  "chapter": "gr"
+ },
+ "w-gr-012": {
+  "title": "Tirokafteri na kitunguu saumu kilichookwa",
+  "ingredients": {
+   "w-gr-012-i1": {
+    "name": "pilipili nyekundu zilizookwa",
+    "standardAmount": "170 g"
+   },
+   "w-gr-012-i2": {
+    "name": "kitunguu saumu kilichookwa",
+    "standardAmount": "0.25 kikombe"
+   },
+   "w-gr-012-i3": {
+    "name": "sas ya pilipili kali",
+    "standardAmount": "1 kijiko kidogo, au kadiri unavyotaka"
+   },
+   "w-gr-012-i4": {
+    "name": "maji ya limao yaliyokung'utwa",
+    "standardAmount": "0.5 kikombe (120 ml)"
+   },
+   "w-gr-012-i5": {
+    "name": "oregano kavu",
+    "standardAmount": "0.25 kijiko kidogo"
+   },
+   "w-gr-012-i6": {
+    "name": "pilipili nyeupe iliyosagwa",
+    "standardAmount": "0.125 kijiko kidogo"
+   },
+   "w-gr-012-i7": {
+    "name": "feta iliyovunjwa",
+    "standardAmount": "225 g"
+   },
+   "w-gr-012-i8": {
+    "name": "jibini ya krimu",
+    "standardAmount": "115 g, laini"
+   },
+   "w-gr-012-i9": {
+    "name": "mafuta ya mizeituni ya ziada",
+    "standardAmount": "0.25 kikombe (60 ml)"
+   },
+   "w-gr-012-i10": {
+    "name": "cream ya nusu",
+    "standardAmount": "0.25 kikombe (60 ml)"
+   }
+  },
+  "instructions": {
+   "1": "Weka pilipili nyekundu zilizookwa, kitunguu saumu kilichookwa, sas ya pilipili, maji ya limao, oregano na pilipili nyeupe katika blender na uchanganye hadi uwe laini.",
+   "2": "Ongeza feta iliyovunjwa na jibini ya krimu na uchanganye hadi uwe laini.",
+   "3": "Wakati blender inafanya kazi, mimina polepole mafuta ya mizeituni hadi yaingiliane na kunenepa.",
+   "4": "Ikiwa inahitajika, changanya cream ya nusu ili kufikia uimara wa dipi.",
+   "5": "Funika na uweke dipi kwenye jokofu hadi ihudumiwe."
+  },
+  "culturalNotes": "Tirokafteri ni dipi ya jadi ya Kigiriki inayohudumiwa kama mwanzo. Inajulikana kwa ladha yake ya krimu na ya moto.",
+  "chapter": "gr"
+ },
+ "w-gr-013": {
+  "title": "Vipande vya kukaanga vya nyanya na feta",
+  "ingredients": {
+   "w-gr-013-i1": {
+    "name": "nyanya mpya zimekatwa vipande",
+    "standardAmount": "2 vikombe na juisi yake"
+   },
+   "w-gr-013-i2": {
+    "name": "zucchini iliyokwanguliwa",
+    "standardAmount": "0.5 kikombe, imebana"
+   },
+   "w-gr-013-i3": {
+    "name": "vitunguu vya kijani vimekatwa",
+    "standardAmount": "0.33 kikombe"
+   },
+   "w-gr-013-i4": {
+    "name": "chumvi kubwa",
+    "standardAmount": "2 vijiko vidogo au kadiri unavyotaka"
+   },
+   "w-gr-013-i5": {
+    "name": "sukari nyeupe",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-gr-013-i6": {
+    "name": "pilipili nyeusi iliyosagwa sasa",
+    "standardAmount": "0.5 kijiko kidogo"
+   },
+   "w-gr-013-i7": {
+    "name": "oregano kavu",
+    "standardAmount": "0.25 kijiko kidogo"
+   },
+   "w-gr-013-i8": {
+    "name": "pilipili ya cayenne",
+    "standardAmount": "kidogo"
+   },
+   "w-gr-013-i9": {
+    "name": "parsley ya Kiitaliano iliyokatwa",
+    "standardAmount": "0.25 kikombe"
+   },
+   "w-gr-013-i10": {
+    "name": "nanaa mpya iliyokatwa",
+    "standardAmount": "2 vijiko vikubwa"
+   },
+   "w-gr-013-i11": {
+    "name": "rehani mpya iliyokatwa",
+    "standardAmount": "2 vijiko vikubwa"
+   },
+   "w-gr-013-i12": {
+    "name": "feta iliyovunjwa",
+    "standardAmount": "85 g"
+   },
+   "w-gr-013-i13": {
+    "name": "unga wa ngano",
+    "standardAmount": "0.75 kikombe au zaidi kadiri inavyohitajika"
+   },
+   "w-gr-013-i14": {
+    "name": "baking powder",
+    "standardAmount": "0.75 kijiko kidogo"
+   },
+   "w-gr-013-i15": {
+    "name": "mafuta ya mboga ya kukaangia",
+    "standardAmount": "kadiri inavyohitajika"
+   }
+  },
+  "instructions": {
+   "1": "Kusanya viungo vyote.",
+   "2": "Changanya nyanya, zucchini, vitunguu vya kijani, chumvi kubwa, sukari, pilipili nyeusi, oregano na cayenne katika bakuli. Acha kwa dakika 15 ili sukari na chumvi zitoe unyevu kutoka mboga.",
+   "3": "Changanya mchanganyiko wa nyanya; ongeza parsley, nanaa na rehani. Vunja feta ndani. Ongeza unga na baking powder; changanya kwa kijiko hadi iungane. Unga unapaswa kuwa wa kufurika lakini uweke umbo lake kwenye kijiko. Ikiwa ni wa kufurika sana, ongeza unga zaidi; ikiwa ni mkavu sana, ongeza maji kidogo hadi uimara unaotakiwa. Funika bakuli kwa kifuniko cha plastiki na uweke kwenye jokofu kwa angalau dakika 30.",
+   "4": "Pasha moto sentimita 2.5 za mafuta ya mboga katika kikaango kwa moto wa kati-juu hadi 175°C au tumia kifaa cha kukaangia.",
+   "5": "Weka vijiko vikubwa vya unga kwenye mafuta ya moto; punguza moto hadi kati. Kaanga hadi viwe vya rangi ya dhahabu na vilimekufa ndani, dakika 2 hadi 3 kila upande.",
+   "6": "Geuza tena ikiwa unataka na ukaange kwa sekunde 30 zaidi.",
+   "7": "Hudumia ya moto au kwenye joto la chumba."
+  },
+  "culturalNotes": "Vipande hivi vya kukaanga ni chakula maarufu nchini Ugiriki, vinahudumiwa kama mwanzo au kama sehemu ya chakula chepesi.",
+  "chapter": "gr"
+ },
+ "w-gr-014": {
+  "title": "Tsoureki ya Kigiriki",
+  "ingredients": {
+   "w-gr-014-i1": {
+    "name": "hamira kavu yenye nguvu",
+    "standardAmount": "2 pakiti za 7 g"
+   },
+   "w-gr-014-i2": {
+    "name": "maji ya uvuguvugu",
+    "standardAmount": "0.25 kikombe (43°C)"
+   },
+   "w-gr-014-i3": {
+    "name": "unga wa ngano",
+    "standardAmount": "6.25 vikombe, umeigawa"
+   },
+   "w-gr-014-i4": {
+    "name": "siagi",
+    "standardAmount": "0.5 kikombe"
+   },
+   "w-gr-014-i5": {
+    "name": "mafuta magumu ya mboga",
+    "standardAmount": "0.25 kikombe"
+   },
+   "w-gr-014-i6": {
+    "name": "mastiki iliyosagwa",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-gr-014-i7": {
+    "name": "maziwa",
+    "standardAmount": "1 kikombe (240 ml)"
+   },
+   "w-gr-014-i8": {
+    "name": "sukari nyeupe",
+    "standardAmount": "1 kikombe"
+   },
+   "w-gr-014-i9": {
+    "name": "chumvi",
+    "standardAmount": "0.5 kijiko kidogo"
+   },
+   "w-gr-014-i10": {
+    "name": "mayai",
+    "standardAmount": "4, 3 yamepigwa na 1 ya kupaka"
+   },
+   "w-gr-014-i11": {
+    "name": "lozi zilizokatwa vipande",
+    "standardAmount": "0.5 kikombe"
+   },
+   "w-gr-014-i12": {
+    "name": "maji ya joto la chumba",
+    "standardAmount": "0.5 kikombe (120 ml)"
+   },
+   "w-gr-014-i13": {
+    "name": "mayai yaliyopakwa rangi nyekundu",
+    "standardAmount": "2"
+   },
+   "w-gr-014-i14": {
+    "name": "mbegu za ufuta",
+    "standardAmount": "2 vijiko vikubwa"
+   }
+  },
+  "instructions": {
+   "1": "Weka hamira katika bakuli ndogo; ongeza maji ya uvuguvugu na kikombe 0.25 cha unga. Changanya, funika kwa taulo mbili za jikoni zilizonyesha na uweke mahali pa moto hadi ibobleke, karibu masaa 2.5.",
+   "2": "Changanya siagi, mafuta magumu ya mboga na mastiki katika sufuria kwa moto wa kati-chini.",
+   "3": "Changanya maziwa na sukari katika sufuria nyingine kwa moto wa kati-chini hadi sukari iyeyuke na mchanganyiko uwe wa uvuguvugu. Ondoa kwenye moto.",
+   "4": "Mimina vikombe 2 vya unga kwenye mchanganyiko wa siagi na uchanganye vizuri. Ongeza chumvi, kisha changanya ndani mchanganyiko wa hamira. Ongeza vikombe 2 zaidi vya unga na uchanganye vizuri. Changanya ndani mayai 3 yaliyopigwa. Ongeza polepole mchanganyiko wa maziwa na kikombe 1 cha unga na uchanganye vizuri. Ongeza maji ya joto la chumba na kikombe cha mwisho cha unga na uchanganye hadi unga usiwe na nata.",
+   "5": "Kanda unga kwenye uso wenye unga kidogo na mikono yenye unga kidogo kwa dakika 20. Unda unga kuwa mpira. Funika kwa taulo zilizonyesha na uweke mahali pa moto hadi umeongezeka mara mbili, karibu masaa 2.",
+   "6": "Washa tanuru mapema hadi 165°C. Paka siagi mabamba mawili ya kuokea.",
+   "7": "Gawanya unga vipande viwili na ugawanye kila kipande katika misingi mitatu. Sokota kila misingi 3 kufanya mikate 2 iliyosokotwa. Weka kwenye mabamba. Weka mayai ya rangi nyekundu kati ya misingi. Paka unga kwa yai lililopigwa lililobaki. Nyunyiza juu na lozi na ufuta.",
+   "8": "Oka katika tanuru iliyowashwa mapema hadi iwe ya rangi ya dhahabu, karibu dakika 25."
+  },
+  "culturalNotes": "Tsoureki ni mkate wa jadi unaotengenezwa nchini Ugiriki wakati wa Pasaka. Inajulikana kwa ladha yake tamu na muonekano mlengefu na hupambwa kwa kawaida na mayai yaliyopakwa rangi nyekundu.",
+  "chapter": "gr"
+ },
+ "w-gr-015": {
+  "title": "Mchuzi wa tzatziki",
+  "ingredients": {
+   "w-gr-015-i1": {
+    "name": "yogurt ya kawaida ya mafuta kidogo",
+    "standardAmount": "1 chombo cha 450 g"
+   },
+   "w-gr-015-i2": {
+    "name": "tango",
+    "standardAmount": "1, imekwishwa, mbegu zimeondolewa na imekwanguliwa"
+   },
+   "w-gr-015-i3": {
+    "name": "parsley mpya iliyokatwa",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-gr-015-i4": {
+    "name": "nanaa mpya iliyokatwa",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-gr-015-i5": {
+    "name": "maji ya limao mpya",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-gr-015-i6": {
+    "name": "kitunguu saumu kilichokatwa",
+    "standardAmount": "1 kijongo"
+   },
+   "w-gr-015-i7": {
+    "name": "chumvi na pilipili nyeusi",
+    "standardAmount": "kadiri unavyotaka"
+   }
+  },
+  "instructions": {
+   "1": "Funika kichungi kwa tabaka mbili za kitambaa cha jibini; weka juu ya bakuli ya kati. Weka yogurt kwenye kichungi kilichofunikwa kwa kitambaa, kisha funika kwa kifuniko cha plastiki. Acha yogurt ichukue maji kwenye jokofu kwa masaa 8 hadi usiku.",
+   "2": "Weka tango iliyokwanguliwa kwenye sahani iliyofunikwa kwa taulo za karatasi; acha ichukue maji kwa saa 1 hadi 2.",
+   "3": "Changanya yogurt, tango, parsley, nanaa, maji ya limao, kitunguu saumu, chumvi na pilipili nyeusi katika bakuli. Weka kwenye jokofu angalau masaa 2 kabla ya kuhudumia."
+  },
+  "culturalNotes": "Tzatziki ni mchuzi wa jadi wa Kigiriki unaohudumiwa kama mwanzo au pamoja na vyakula vikuu.",
+  "chapter": "gr"
+ },
+ "w-gr-016": {
+  "title": "Vasilopita - keki ya Kigiriki ya Mwaka Mpya",
+  "ingredients": {
+   "w-gr-016-i1": {
+    "name": "sukari nyeupe",
+    "standardAmount": "2 vikombe"
+   },
+   "w-gr-016-i2": {
+    "name": "siagi",
+    "standardAmount": "1 kikombe"
+   },
+   "w-gr-016-i3": {
+    "name": "unga wa ngano",
+    "standardAmount": "3 vikombe"
+   },
+   "w-gr-016-i4": {
+    "name": "mayai",
+    "standardAmount": "6"
+   },
+   "w-gr-016-i5": {
+    "name": "baking powder",
+    "standardAmount": "2 vijiko vidogo"
+   },
+   "w-gr-016-i6": {
+    "name": "maziwa ya uvuguvugu",
+    "standardAmount": "1 kikombe (45°C)"
+   },
+   "w-gr-016-i7": {
+    "name": "baking soda",
+    "standardAmount": "0.5 kijiko kidogo"
+   },
+   "w-gr-016-i8": {
+    "name": "maji ya limao mpya",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-gr-016-i9": {
+    "name": "lozi zilizochomwa zimekatwa vipande",
+    "standardAmount": "0.25 kikombe"
+   },
+   "w-gr-016-i10": {
+    "name": "sukari nyeupe",
+    "standardAmount": "2 vijiko vikubwa"
+   }
+  },
+  "instructions": {
+   "1": "Washa tanuru mapema hadi 175°C. Paka siagi nyingi kalibu ya keki ya mviringo ya sentimita 25.",
+   "2": "Piga sukari na siagi katika bakuli ya kati hadi rangi ionekane nyepesi. Ongeza unga na uchanganye hadi mchanganyiko uwe kama unga unga. Ongeza mayai moja kwa moja, ukichanganya vizuri baada ya kila ongezeko.",
+   "3": "Changanya baking powder na maziwa; ongeza kwenye mchanganyiko wa mayai na uchanganye vizuri. Changanya maji ya limao na baking soda; changanya ndani ya unga. Mimina unga kwenye kalibu iliyotayarishwa.",
+   "4": "Oka keki katika tanuru iliyowashwa mapema kwa dakika 20. Ondoa na unyunyize keki mbegu na sukari, kisha urudie kwenye tanuru hadi keki irudie kwa kugusa, karibu dakika 20-30 zaidi.",
+   "5": "Kwa uangalifu, fanya pengo dogo kwenye keki na uweke sarafu ndani yake. Jaribu kufunika pengo kwa sukari. Poza keki kwenye meshi kwa dakika 10 kabla ya kuigeuza kwenye sahani.",
+   "6": "Hudumia keki moto."
+  },
+  "culturalNotes": "Vasilopita ni keki ya jadi inayohudumiwa nchini Ugiriki siku ya Mwaka Mpya.",
+  "chapter": "gr"
  }
 }

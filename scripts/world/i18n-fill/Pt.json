@@ -2459,5 +2459,902 @@
   },
   "culturalNotes": "O niter kibbeh é uma manteiga clarificada temperada usada na culinária etíope para intensificar o sabor dos pratos.",
   "chapter": "et"
+ },
+ "w-gr-001": {
+  "title": "Diples",
+  "ingredients": {
+   "w-gr-001-i1": {
+    "name": "Farinha",
+    "standardAmount": "2 xícaras"
+   },
+   "w-gr-001-i2": {
+    "name": "Óleo vegetal",
+    "standardAmount": "para fritar"
+   },
+   "w-gr-001-i3": {
+    "name": "Manteiga",
+    "standardAmount": "1/2 xícara"
+   },
+   "w-gr-001-i4": {
+    "name": "Mel",
+    "standardAmount": "1/2 xícara"
+   },
+   "w-gr-001-i5": {
+    "name": "Canela",
+    "standardAmount": "1/2 colher de chá"
+   }
+  },
+  "instructions": {
+   "1": "Misture a farinha com água até formar uma massa firme.",
+   "2": "Deixe a massa descansar por 30 minutos.",
+   "3": "Corte a massa em pedaços pequenos e abra-os bem finos.",
+   "4": "Frite os pedaços em óleo quente até dourarem.",
+   "5": "Escorra os diples em papel-toalha.",
+   "6": "Despeje a manteiga derretida e o mel sobre os diples e polvilhe com canela.",
+   "7": "Sirva quente ou frio, conforme desejado."
+  },
+  "culturalNotes": "Diples são um doce tradicional grego servido em ocasiões especiais.",
+  "chapter": "gr"
+ },
+ "w-gr-002": {
+  "title": "Galaktoboureko",
+  "ingredients": {
+   "w-gr-002-i1": {
+    "name": "açúcar branco granulado",
+    "standardAmount": "150 g"
+   },
+   "w-gr-002-i2": {
+    "name": "ovos",
+    "standardAmount": "6 ovos"
+   },
+   "w-gr-002-i3": {
+    "name": "sêmola",
+    "standardAmount": "150 g"
+   },
+   "w-gr-002-i4": {
+    "name": "leite",
+    "standardAmount": "1 litro"
+   },
+   "w-gr-002-i5": {
+    "name": "favas de baunilha",
+    "standardAmount": "2 favas"
+   },
+   "w-gr-002-i6": {
+    "name": "suco de limão",
+    "standardAmount": "suco de 1/2 limão"
+   },
+   "w-gr-002-i7": {
+    "name": "sal",
+    "standardAmount": "uma pitada"
+   },
+   "w-gr-002-i8": {
+    "name": "massa filo",
+    "standardAmount": "450 g"
+   },
+   "w-gr-002-i9": {
+    "name": "manteiga derretida",
+    "standardAmount": "conforme necessário"
+   }
+  },
+  "instructions": {
+   "1": "Misture o açúcar, os ovos e a sêmola em uma panela. Adicione o leite e as favas de baunilha. Misture o suco de limão.",
+   "2": "Leve a mistura ao fogo até ferver, mexendo constantemente com um garfo. Quando começar a ferver, diminua o fogo e mexa por mais 10 minutos. Retire a mistura do fogo e deixe esfriar.",
+   "3": "Pincele cada folha de massa filo com a manteiga derretida.",
+   "4": "Unte uma assadeira e coloque metade das folhas de filo, uma a uma. Despeje o creme de sêmola frio sobre a massa e cubra com as folhas de filo restantes untadas.",
+   "5": "Polvilhe o doce com um pouco de água.",
+   "6": "Asse a sobremesa em forno pré-aquecido a 180°C por 1 hora. Deixe esfriar antes de servir."
+  },
+  "culturalNotes": "Galaktoboureko é uma sobremesa tradicional grega feita de creme de leite e sêmola envolvido em massa filo. É geralmente servida fria.",
+  "chapter": "gr"
+ },
+ "w-gr-003": {
+  "title": "Giouvetsi (assado grego tradicional de orzo)",
+  "ingredients": {
+   "w-gr-003-i1": {
+    "name": "azeite de oliva",
+    "standardAmount": "0.5 xícara (120 ml)"
+   },
+   "w-gr-003-i2": {
+    "name": "carne de cordeiro para ensopado, em cubos",
+    "standardAmount": "1.4 kg"
+   },
+   "w-gr-003-i3": {
+    "name": "tomates pelados inteiros enlatados",
+    "standardAmount": "1 lata de 800 g"
+   },
+   "w-gr-003-i4": {
+    "name": "alho",
+    "standardAmount": "4 dentes"
+   },
+   "w-gr-003-i5": {
+    "name": "açúcar branco",
+    "standardAmount": "0.5 colher de chá"
+   },
+   "w-gr-003-i6": {
+    "name": "sal e pimenta",
+    "standardAmount": "a gosto"
+   },
+   "w-gr-003-i7": {
+    "name": "manteiga",
+    "standardAmount": "0.5 xícara"
+   },
+   "w-gr-003-i8": {
+    "name": "massa orzo",
+    "standardAmount": "450 g"
+   },
+   "w-gr-003-i9": {
+    "name": "água quente",
+    "standardAmount": "3 xícaras (710 ml)"
+   }
+  },
+  "instructions": {
+   "1": "Aqueça o azeite em uma panela grande em fogo médio; doure a carne por todos os lados, cerca de 5 minutos.",
+   "2": "Adicione os tomates triturados, o alho, o açúcar, o sal e a pimenta. Tampe e cozinhe em fogo baixo por 1 hora, mexendo ocasionalmente. Reserve.",
+   "3": "Preaqueça o forno a 175°C.",
+   "4": "Derreta a manteiga em uma frigideira média em fogo médio e adicione o orzo. Cozinhe até dourar levemente, 3 a 5 minutos.",
+   "5": "Transfira o orzo para uma assadeira, espalhando-o uniformemente. Coloque a carne sobre o orzo e despeje o molho de tomate sobre a carne. Adicione a água quente.",
+   "6": "Cubra com papel-alumínio e asse no forno pré-aquecido até que toda a água seja absorvida e o orzo esteja macio, cerca de 1 hora. Se o prato ficar muito seco, adicione mais água durante o cozimento."
+  },
+  "culturalNotes": "Giouvetsi é um prato tradicional grego frequentemente servido em ocasiões especiais. É geralmente servido com salada grega.",
+  "chapter": "gr"
+ },
+ "w-gr-004": {
+  "title": "Kebabs de kofta de carne bovina na fritadeira de ar quente",
+  "ingredients": {
+   "w-gr-004-i1": {
+    "name": "carne bovina moída",
+    "standardAmount": "450 g"
+   },
+   "w-gr-004-i2": {
+    "name": "cebola amarela picada",
+    "standardAmount": "1/4 xícara"
+   },
+   "w-gr-004-i3": {
+    "name": "salsa fresca picada",
+    "standardAmount": "1/4 xícara"
+   },
+   "w-gr-004-i4": {
+    "name": "alho picado",
+    "standardAmount": "2 dentes"
+   },
+   "w-gr-004-i5": {
+    "name": "cominho",
+    "standardAmount": "1 colher de chá"
+   },
+   "w-gr-004-i6": {
+    "name": "coentro em pó",
+    "standardAmount": "1 colher de chá"
+   },
+   "w-gr-004-i7": {
+    "name": "sal",
+    "standardAmount": "1 colher de chá"
+   },
+   "w-gr-004-i8": {
+    "name": "pimenta-do-reino moída",
+    "standardAmount": "1/4 colher de chá"
+   },
+   "w-gr-004-i9": {
+    "name": "canela em pó",
+    "standardAmount": "1/4 colher de chá"
+   },
+   "w-gr-004-i10": {
+    "name": "espetos",
+    "standardAmount": "8 espetos"
+   },
+   "w-gr-004-i11": {
+    "name": "iogurte grego natural",
+    "standardAmount": "1 xícara"
+   },
+   "w-gr-004-i12": {
+    "name": "pepino ralado, espremido",
+    "standardAmount": "1/2 xícara"
+   },
+   "w-gr-004-i13": {
+    "name": "alho picado",
+    "standardAmount": "1 dente"
+   },
+   "w-gr-004-i14": {
+    "name": "suco de limão",
+    "standardAmount": "1 colher de chá"
+   },
+   "w-gr-004-i15": {
+    "name": "endro seco",
+    "standardAmount": "1/4 colher de chá"
+   },
+   "w-gr-004-i16": {
+    "name": "sal kosher",
+    "standardAmount": "1/4 colher de chá"
+   }
+  },
+  "instructions": {
+   "1": "Misture a carne moída, a cebola, a salsa, o alho, o cominho, o coentro, o sal, a pimenta-do-reino e a canela em uma tigela grande até ficar bem combinado.",
+   "2": "Divida a mistura em 8 porções e modele-as em hambúrgueres ovais ao redor dos espetos, garantindo que a ponta do espeto esteja coberta.",
+   "3": "Coloque os kebabs em um prato e leve à geladeira.",
+   "4": "Preaqueça a fritadeira de ar quente a 188°C.",
+   "5": "Misture o iogurte, o pepino, o alho, o suco de limão, o endro e o sal kosher em uma tigela pequena e leve à geladeira até o uso.",
+   "6": "Coloque 4 espetos na cesta da fritadeira de ar quente e asse por 10 minutos. Transfira os kebabs para um prato. Repita com os espetos restantes.",
+   "7": "Sirva os kebabs com molho tzatziki."
+  },
+  "culturalNotes": "Kofta é um prato popular em muitos países árabes e do Oriente Médio, frequentemente servido com molho tzatziki.",
+  "chapter": "gr"
+ },
+ "w-gr-005": {
+  "title": "Melomakarono",
+  "ingredients": {
+   "w-gr-005-i1": {
+    "name": "farinha de trigo",
+    "standardAmount": "4 xícaras"
+   },
+   "w-gr-005-i2": {
+    "name": "canela em pó",
+    "standardAmount": "2 colheres de chá"
+   },
+   "w-gr-005-i3": {
+    "name": "fermento em pó",
+    "standardAmount": "2 colheres de chá"
+   },
+   "w-gr-005-i4": {
+    "name": "cravo-da-índia em pó",
+    "standardAmount": "2 colheres de chá"
+   },
+   "w-gr-005-i5": {
+    "name": "bicarbonato de sódio",
+    "standardAmount": "1 colher de chá"
+   },
+   "w-gr-005-i6": {
+    "name": "noz-moscada em pó",
+    "standardAmount": "0.5 colher de chá"
+   },
+   "w-gr-005-i7": {
+    "name": "manteiga sem sal",
+    "standardAmount": "450 g"
+   },
+   "w-gr-005-i8": {
+    "name": "açúcar branco",
+    "standardAmount": "0.75 xícara"
+   },
+   "w-gr-005-i9": {
+    "name": "gemas",
+    "standardAmount": "3"
+   },
+   "w-gr-005-i10": {
+    "name": "suco de laranja fresco",
+    "standardAmount": "0.5 xícara (120 ml)"
+   },
+   "w-gr-005-i11": {
+    "name": "mel",
+    "standardAmount": "1 colher de chá + 1 xícara"
+   },
+   "w-gr-005-i12": {
+    "name": "água",
+    "standardAmount": "1 xícara (240 ml)"
+   },
+   "w-gr-005-i13": {
+    "name": "nozes finamente trituradas",
+    "standardAmount": "0.5 xícara"
+   },
+   "w-gr-005-i14": {
+    "name": "canela em pó",
+    "standardAmount": "uma pitada"
+   },
+   "w-gr-005-i15": {
+    "name": "cravo-da-índia em pó",
+    "standardAmount": "uma pitada"
+   }
+  },
+  "instructions": {
+   "1": "Preaqueça o forno a 175°C.",
+   "2": "Bata a farinha, a canela, o fermento, o cravo, o bicarbonato e a noz-moscada em uma tigela grande.",
+   "3": "Em uma tigela separada, bata a manteiga até ficar clara e cremosa; adicione o açúcar e misture bem.",
+   "4": "Bata as gemas e o suco de laranja em outra tigela. Incorpore a mistura de ovos gradualmente à mistura de manteiga, mexendo.",
+   "5": "Adicione a mistura de farinha aos poucos à mistura de manteiga, mexendo após cada adição. Adicione o mel e mexa até formar uma massa macia.",
+   "6": "Cubra a massa e leve à geladeira até ficar firme o suficiente para modelar, cerca de 30 minutos.",
+   "7": "Modele a massa em pequenos ovais e disponha-os em assadeiras com alguns centímetros de distância. Achate levemente; os biscoitos vão se espalhar.",
+   "8": "Asse no forno pré-aquecido até ficarem levemente dourados, 15 a 20 minutos.",
+   "9": "Enquanto isso, aqueça o mel, a água e o açúcar em uma panela em fogo médio-baixo até o açúcar dissolver. Deixe a calda esfriar.",
+   "10": "Misture as nozes, a canela e o cravo em uma tigela para a cobertura.",
+   "11": "Mergulhe os biscoitos na calda fria por 10 a 15 segundos de cada lado. Polvilhe a cobertura de nozes sobre a calda e deixe secar completamente.",
+   "12": "Armazene os biscoitos em forminhas de muffin ou entre camadas de papel-manteiga."
+  },
+  "culturalNotes": "Melomakarono é um biscoito tradicional grego geralmente servido no Natal.",
+  "chapter": "gr"
+ },
+ "w-gr-006": {
+  "title": "Sopa de urtigas",
+  "ingredients": {
+   "w-gr-006-i1": {
+    "name": "urtigas",
+    "standardAmount": "450 g"
+   },
+   "w-gr-006-i2": {
+    "name": "sal",
+    "standardAmount": "2 colheres de chá"
+   },
+   "w-gr-006-i3": {
+    "name": "azeite de oliva extravirgem",
+    "standardAmount": "1 colher de sopa"
+   },
+   "w-gr-006-i4": {
+    "name": "cebola branca",
+    "standardAmount": "1, em cubos"
+   },
+   "w-gr-006-i5": {
+    "name": "arroz basmati",
+    "standardAmount": "0.25 xícara"
+   },
+   "w-gr-006-i6": {
+    "name": "caldo de galinha",
+    "standardAmount": "4 xícaras (950 ml)"
+   },
+   "w-gr-006-i7": {
+    "name": "pimenta-do-reino",
+    "standardAmount": "a gosto"
+   }
+  },
+  "instructions": {
+   "1": "Leve uma panela grande de água com 2 colheres de chá de sal para ferver. Adicione as urtigas e cozinhe por 1-2 minutos até murchar. Isso removerá a maior parte do efeito urticante. Escorra em um escorredor e enxágue com água fria. Retire os talos duros e pique grosseiramente.",
+   "2": "Aqueça o azeite em uma panela em fogo médio-baixo e adicione a cebola. Cozinhe até a cebola ficar macia e translúcida, cerca de 5 minutos. Adicione o arroz, o caldo de galinha e as urtigas picadas. Deixe ferver, depois reduza o fogo para médio-baixo, tampe e cozinhe até o arroz ficar macio, cerca de 15 minutos.",
+   "3": "Bata a sopa com um mixer de mão e tempere com sal e pimenta a gosto."
+  },
+  "culturalNotes": "As urtigas são uma planta que cresce naturalmente na Grécia e é usada em muitas receitas tradicionais.",
+  "chapter": "gr"
+ },
+ "w-gr-007": {
+  "title": "Bolo grego de laranja com massa filo (Portokalopita)",
+  "ingredients": {
+   "w-gr-007-i1": {
+    "name": "açúcar branco",
+    "standardAmount": "2 xícaras"
+   },
+   "w-gr-007-i2": {
+    "name": "água",
+    "standardAmount": "1.5 xícaras (360 ml)"
+   },
+   "w-gr-007-i3": {
+    "name": "canela em pó",
+    "standardAmount": "1 colher de chá"
+   },
+   "w-gr-007-i4": {
+    "name": "laranja",
+    "standardAmount": "3 laranjas"
+   },
+   "w-gr-007-i5": {
+    "name": "massa filo",
+    "standardAmount": "1 pacote de 450 g"
+   },
+   "w-gr-007-i6": {
+    "name": "ovos",
+    "standardAmount": "5 ovos"
+   },
+   "w-gr-007-i7": {
+    "name": "iogurte grego",
+    "standardAmount": "1 pote de 200 g"
+   },
+   "w-gr-007-i8": {
+    "name": "azeite de oliva",
+    "standardAmount": "0.75 xícara (180 ml)"
+   },
+   "w-gr-007-i9": {
+    "name": "açúcar branco",
+    "standardAmount": "0.5 xícara"
+   },
+   "w-gr-007-i10": {
+    "name": "fermento em pó",
+    "standardAmount": "1 colher de sopa"
+   }
+  },
+  "instructions": {
+   "1": "Misture 2 xícaras de açúcar, 1.5 xícaras de água e 1 colher de chá de canela em pó em uma panela em fogo médio-alto. Esprema o suco de laranja e adicione as metades espremidas. Deixe ferver e cozinhe vigorosamente por 8 minutos. Retire do fogo e deixe a calda esfriar.",
+   "2": "Preaqueça o forno a 175°C. Unte levemente uma assadeira de 23x33 cm.",
+   "3": "Retire as folhas de filo da embalagem e rasgue ou corte em tiras. Coloque o filo desfiado na assadeira e deixe secar um pouco.",
+   "4": "Corte 1 laranja ao meio e corte 1 metade em meias-luas muito finas para decorar o bolo. Rale a casca e esprema o suco das 2 1/2 laranjas restantes.",
+   "5": "Combine o suco de laranja, as raspas, os ovos, o iogurte grego, o azeite, 0.5 xícara de açúcar e o fermento em um liquidificador ou processador de alimentos. Bata até a mistura ficar lisa e todos os ingredientes bem combinados.",
+   "6": "Despeje a mistura sobre o filo desfiado na assadeira. Misture delicadamente para que a mistura úmida se distribua uniformemente e nenhuma tira seca de filo permaneça. Decore o topo do bolo com as fatias de laranja.",
+   "7": "Asse no forno pré-aquecido até o topo ficar dourado e o centro firme, cerca de 45 minutos. Um palito inserido no centro deve sair limpo.",
+   "8": "Retire o bolo do forno e despeje imediatamente a calda fria sobre o bolo quente.",
+   "9": "Deixe o bolo descansar por pelo menos 1 hora ou durante a noite, até que a maior parte da calda seja absorvida. Corte em quadrados e sirva."
+  },
+  "culturalNotes": "Portokalopita é um bolo tradicional grego feito de massa filo e laranja, geralmente servido em ocasiões especiais.",
+  "chapter": "gr"
+ },
+ "w-gr-008": {
+  "title": "Queijo branco salgado frito em salmoura (Saganaki)",
+  "ingredients": {
+   "w-gr-008-i1": {
+    "name": "fatia grande de queijo branco salgado em salmoura (por exemplo, feta, sirene)",
+    "standardAmount": "1 fatia"
+   },
+   "w-gr-008-i2": {
+    "name": "azeite de oliva (não extravirgem)",
+    "standardAmount": "1 colher de sopa"
+   },
+   "w-gr-008-i3": {
+    "name": "gomo grande de limão",
+    "standardAmount": "1 gomo"
+   },
+   "w-gr-008-i4": {
+    "name": "farinha (opcional)",
+    "standardAmount": "uma pequena quantidade"
+   },
+   "w-gr-008-i5": {
+    "name": "pita ou outro pão (opcional)",
+    "standardAmount": "conforme necessário"
+   }
+  },
+  "instructions": {
+   "1": "Aqueça uma frigideira pequena em fogo médio-alto.",
+   "2": "Enquanto a frigideira aquece, corte o queijo em fatias do tamanho e espessura desejados. Fatias mais grossas demoram mais para derreter e podem queimar, enquanto fatias mais finas têm menos chance de dourar.",
+   "3": "Se desejar, passe as fatias na farinha — isso produzirá uma crosta mais escura e levemente mais crocante, mas é um passo opcional, pois o queijo obterá uma crosta bem fina por conta própria devido ao óleo e ao calor alto. Também reduzirá um pouco o respingo.",
+   "4": "Adicione o óleo à frigideira quente e espalhe. Quando o óleo brilhar e parecer mais fluido, está pronto. Adicione o queijo e afaste-se — ele vai respingar por causa da água da salmoura no queijo.",
+   "5": "Vire o queijo após um minuto ou dois. Uma fatia de ¾ centímetro de espessura precisará de cerca de 1-2 minutos de cada lado.",
+   "6": "Sirva imediatamente, com limão e (opcionalmente) pão."
+  },
+  "culturalNotes": "Saganaki é um prato tradicional grego servido como entrada. É geralmente servido com limão e pão.",
+  "chapter": "gr"
+ },
+ "w-gr-009": {
+  "title": "Spanakorizo",
+  "ingredients": {
+   "w-gr-009-i1": {
+    "name": "água",
+    "standardAmount": "2 xícaras (480 ml)"
+   },
+   "w-gr-009-i2": {
+    "name": "arroz de grão longo",
+    "standardAmount": "1 xícara"
+   },
+   "w-gr-009-i3": {
+    "name": "azeite de oliva",
+    "standardAmount": "1 colher de chá"
+   },
+   "w-gr-009-i4": {
+    "name": "cebola",
+    "standardAmount": "1 pequena, picada"
+   },
+   "w-gr-009-i5": {
+    "name": "espinafre fresco",
+    "standardAmount": "1 maço"
+   },
+   "w-gr-009-i6": {
+    "name": "raspas de limão",
+    "standardAmount": "1 limão, raspas"
+   },
+   "w-gr-009-i7": {
+    "name": "suco de limão",
+    "standardAmount": "suco de 1 limão"
+   },
+   "w-gr-009-i8": {
+    "name": "queijo feta",
+    "standardAmount": "0.25 xícara, esfarelado"
+   },
+   "w-gr-009-i9": {
+    "name": "endro fresco",
+    "standardAmount": "0.25 xícara, picado"
+   },
+   "w-gr-009-i10": {
+    "name": "sal",
+    "standardAmount": "a gosto"
+   },
+   "w-gr-009-i11": {
+    "name": "pimenta-do-reino moída",
+    "standardAmount": "a gosto"
+   }
+  },
+  "instructions": {
+   "1": "Leve a água e o arroz para ferver em uma panela. Reduza o fogo para médio-baixo, tampe e cozinhe até o arroz ficar macio e o líquido ser absorvido, 20 a 25 minutos.",
+   "2": "Aqueça o azeite em uma panela em fogo médio-alto. Cozinhe a cebola até ficar macia, cerca de 5 minutos.",
+   "3": "Adicione o arroz cozido e o espinafre; cozinhe e mexa até o espinafre murchar, 3 a 5 minutos.",
+   "4": "Adicione o suco de limão, as raspas, a feta e o endro. Retire do fogo. Tempere com sal e pimenta a gosto."
+  },
+  "culturalNotes": "Spanakorizo é um prato tradicional grego servido como prato principal ou acompanhamento. É conhecido por seus sabores frescos e picantes.",
+  "chapter": "gr"
+ },
+ "w-gr-010": {
+  "title": "Strapatsada com salada de arroz e grão-de-bico",
+  "ingredients": {
+   "w-gr-010-i1": {
+    "name": "tomates",
+    "standardAmount": "2 médios"
+   },
+   "w-gr-010-i2": {
+    "name": "azeite de oliva",
+    "standardAmount": "1 colher de sopa"
+   },
+   "w-gr-010-i3": {
+    "name": "alho",
+    "standardAmount": "3 dentes, picados"
+   },
+   "w-gr-010-i4": {
+    "name": "ovos",
+    "standardAmount": "6 grandes"
+   },
+   "w-gr-010-i5": {
+    "name": "sal",
+    "standardAmount": "0.75 colher de chá, dividido"
+   },
+   "w-gr-010-i6": {
+    "name": "pimenta-do-reino moída",
+    "standardAmount": "0.5 colher de chá, dividida"
+   },
+   "w-gr-010-i7": {
+    "name": "queijo feta esfarelado",
+    "standardAmount": "0.25 xícara"
+   },
+   "w-gr-010-i8": {
+    "name": "orégano fresco picado",
+    "standardAmount": "1 colher de sopa"
+   },
+   "w-gr-010-i9": {
+    "name": "arroz integral cozido",
+    "standardAmount": "3 xícaras, quente"
+   },
+   "w-gr-010-i10": {
+    "name": "grão-de-bico enlatado",
+    "standardAmount": "1 lata de 425 g, escorrido e enxaguado"
+   },
+   "w-gr-010-i11": {
+    "name": "azeitonas Kalamata sem caroço, picadas",
+    "standardAmount": "0.25 xícara"
+   },
+   "w-gr-010-i12": {
+    "name": "salsa fresca picada",
+    "standardAmount": "3 colheres de sopa"
+   },
+   "w-gr-010-i13": {
+    "name": "raspas de limão",
+    "standardAmount": "2 colheres de chá"
+   },
+   "w-gr-010-i14": {
+    "name": "suco de limão",
+    "standardAmount": "3 colheres de sopa"
+   },
+   "w-gr-010-i15": {
+    "name": "tahine",
+    "standardAmount": "2 colheres de sopa"
+   }
+  },
+  "instructions": {
+   "1": "Rale os tomates em um ralador (deve render cerca de 1 xícara de tomate ralado).",
+   "2": "Aqueça o azeite em uma frigideira grande em fogo médio. Adicione o tomate ralado e o alho. Cozinhe, mexendo ocasionalmente, até os tomates engrossarem e a maior parte da água evaporar, cerca de 7 minutos.",
+   "3": "Adicione os ovos, 1/2 colher de chá de sal e 1/4 colher de chá de pimenta à mistura de tomate. Cozinhe até os ovos firmarem, mexendo suavemente, cerca de 3 minutos. Devem ficar macios, mas não aguados. Incorpore a feta e o orégano. Mantenha aquecido.",
+   "4": "Em uma tigela grande, misture o arroz, o grão-de-bico, as azeitonas, a salsa, as raspas de limão e as 1/4 colher de chá restantes de sal e pimenta. Em uma tigela pequena, bata o suco de limão com o tahine e despeje sobre a mistura de arroz. Misture delicadamente para cobrir.",
+   "5": "Sirva a mistura de ovos sobre a mistura de arroz. Se desejar, polvilhe com tomate, orégano e salsa extras."
+  },
+  "culturalNotes": "Strapatsada é um prato tradicional grego geralmente servido como entrada ou prato principal simples. Combina ovos, tomates e queijo feta e é fácil e rápido de preparar.",
+  "chapter": "gr"
+ },
+ "w-gr-011": {
+  "title": "Taramasalata",
+  "ingredients": {
+   "w-gr-011-i1": {
+    "name": "pão",
+    "standardAmount": "370 g (casca removida)"
+   },
+   "w-gr-011-i2": {
+    "name": "água fria",
+    "standardAmount": "o suficiente para cobrir o pão"
+   },
+   "w-gr-011-i3": {
+    "name": "azeite de oliva",
+    "standardAmount": "0.5 xícara (120 ml)"
+   },
+   "w-gr-011-i4": {
+    "name": "cebola",
+    "standardAmount": "1 pequena, grosseiramente picada"
+   },
+   "w-gr-011-i5": {
+    "name": "suco de limão",
+    "standardAmount": "suco de 1 limão grande"
+   },
+   "w-gr-011-i6": {
+    "name": "tarama (ovas de peixe salgadas)",
+    "standardAmount": "1 xícara"
+   }
+  },
+  "instructions": {
+   "1": "Coloque o pão em uma tigela, cubra com água fria e deixe de molho até ficar bem encharcado, 5 a 10 minutos. Escorra a água da tigela e esprema o pão para remover o excesso de água.",
+   "2": "Coloque o pão, o azeite, a cebola e o suco de limão em um processador de alimentos e processe até ficar liso.",
+   "3": "Adicione a tarama e processe até ficar bem combinado."
+  },
+  "culturalNotes": "Taramasalata é uma entrada tradicional grega, geralmente servida com pão fresco ou biscoitos.",
+  "chapter": "gr"
+ },
+ "w-gr-012": {
+  "title": "Tirokafteri com alho assado",
+  "ingredients": {
+   "w-gr-012-i1": {
+    "name": "pimentões vermelhos assados",
+    "standardAmount": "170 g"
+   },
+   "w-gr-012-i2": {
+    "name": "alho assado",
+    "standardAmount": "0.25 xícara"
+   },
+   "w-gr-012-i3": {
+    "name": "molho de pimenta",
+    "standardAmount": "1 colher de chá, ou a gosto"
+   },
+   "w-gr-012-i4": {
+    "name": "suco de limão fresco",
+    "standardAmount": "0.5 xícara (120 ml)"
+   },
+   "w-gr-012-i5": {
+    "name": "orégano seco",
+    "standardAmount": "0.25 colher de chá"
+   },
+   "w-gr-012-i6": {
+    "name": "pimenta branca moída",
+    "standardAmount": "0.125 colher de chá"
+   },
+   "w-gr-012-i7": {
+    "name": "feta esfarelada",
+    "standardAmount": "225 g"
+   },
+   "w-gr-012-i8": {
+    "name": "queijo cremoso",
+    "standardAmount": "115 g, amolecido"
+   },
+   "w-gr-012-i9": {
+    "name": "azeite de oliva extravirgem",
+    "standardAmount": "0.25 xícara (60 ml)"
+   },
+   "w-gr-012-i10": {
+    "name": "creme de leite",
+    "standardAmount": "0.25 xícara (60 ml)"
+   }
+  },
+  "instructions": {
+   "1": "Coloque os pimentões vermelhos assados, o alho assado, o molho de pimenta, o suco de limão, o orégano e a pimenta branca em um liquidificador e bata até ficar liso.",
+   "2": "Adicione a feta esfarelada e o queijo cremoso e bata até ficar liso.",
+   "3": "Com o liquidificador ligado, despeje o azeite lentamente até incorporar e engrossar.",
+   "4": "Se necessário, misture o creme de leite para atingir a consistência de dip.",
+   "5": "Cubra e mantenha o dip na geladeira até servir."
+  },
+  "culturalNotes": "Tirokafteri é um dip tradicional grego servido como entrada. É conhecido por seu sabor cremoso e picante.",
+  "chapter": "gr"
+ },
+ "w-gr-013": {
+  "title": "Bolinhos fritos de tomate e feta",
+  "ingredients": {
+   "w-gr-013-i1": {
+    "name": "tomates frescos em cubos",
+    "standardAmount": "2 xícaras com seu suco"
+   },
+   "w-gr-013-i2": {
+    "name": "abobrinha ralada",
+    "standardAmount": "0.5 xícara, compactada"
+   },
+   "w-gr-013-i3": {
+    "name": "cebolinha picada",
+    "standardAmount": "0.33 xícara"
+   },
+   "w-gr-013-i4": {
+    "name": "sal kosher",
+    "standardAmount": "2 colheres de chá ou a gosto"
+   },
+   "w-gr-013-i5": {
+    "name": "açúcar branco",
+    "standardAmount": "1 colher de chá"
+   },
+   "w-gr-013-i6": {
+    "name": "pimenta-do-reino moída na hora",
+    "standardAmount": "0.5 colher de chá"
+   },
+   "w-gr-013-i7": {
+    "name": "orégano seco",
+    "standardAmount": "0.25 colher de chá"
+   },
+   "w-gr-013-i8": {
+    "name": "pimenta caiena",
+    "standardAmount": "uma pitada"
+   },
+   "w-gr-013-i9": {
+    "name": "salsa italiana fresca picada",
+    "standardAmount": "0.25 xícara"
+   },
+   "w-gr-013-i10": {
+    "name": "hortelã fresca picada",
+    "standardAmount": "2 colheres de sopa"
+   },
+   "w-gr-013-i11": {
+    "name": "manjericão fresco picado",
+    "standardAmount": "2 colheres de sopa"
+   },
+   "w-gr-013-i12": {
+    "name": "queijo feta esfarelado",
+    "standardAmount": "85 g"
+   },
+   "w-gr-013-i13": {
+    "name": "farinha de trigo",
+    "standardAmount": "0.75 xícara ou mais conforme necessário"
+   },
+   "w-gr-013-i14": {
+    "name": "fermento em pó",
+    "standardAmount": "0.75 colher de chá"
+   },
+   "w-gr-013-i15": {
+    "name": "óleo vegetal para fritar",
+    "standardAmount": "conforme necessário"
+   }
+  },
+  "instructions": {
+   "1": "Reúna todos os ingredientes.",
+   "2": "Misture os tomates, a abobrinha, a cebolinha, o sal kosher, o açúcar, a pimenta-do-reino, o orégano e a caiena em uma tigela. Deixe descansar por 15 minutos para que o açúcar e o sal extraiam a umidade dos vegetais.",
+   "3": "Mexa a mistura de tomate; adicione a salsa, a hortelã e o manjericão. Esfarele a feta. Adicione a farinha e o fermento; misture com uma colher até incorporar. A massa deve ficar bem solta, mas manter a forma em uma colher. Se estiver muito solta, adicione mais farinha; se estiver muito seca, adicione um pouco de água até a consistência desejada. Cubra a tigela com filme plástico e refrigere por pelo menos 30 minutos.",
+   "4": "Aqueça 2.5 cm de óleo vegetal em uma frigideira em fogo médio-alto até 175°C ou use uma fritadeira.",
+   "5": "Coloque colheres cheias de massa no óleo quente; reduza o fogo para médio. Frite até dourar e cozinhar por dentro, 2 a 3 minutos de cada lado.",
+   "6": "Se desejar, vire mais uma vez e frite por mais 30 segundos.",
+   "7": "Sirva quente ou em temperatura ambiente."
+  },
+  "culturalNotes": "Esses bolinhos fritos são um prato popular na Grécia, servidos como entrada ou como parte de uma refeição leve.",
+  "chapter": "gr"
+ },
+ "w-gr-014": {
+  "title": "Tsoureki grego",
+  "ingredients": {
+   "w-gr-014-i1": {
+    "name": "fermento biológico seco ativo",
+    "standardAmount": "2 sachês de 7 g"
+   },
+   "w-gr-014-i2": {
+    "name": "água morna",
+    "standardAmount": "0.25 xícara (43°C)"
+   },
+   "w-gr-014-i3": {
+    "name": "farinha de trigo",
+    "standardAmount": "6.25 xícaras, dividida"
+   },
+   "w-gr-014-i4": {
+    "name": "manteiga",
+    "standardAmount": "0.5 xícara"
+   },
+   "w-gr-014-i5": {
+    "name": "gordura vegetal",
+    "standardAmount": "0.25 xícara"
+   },
+   "w-gr-014-i6": {
+    "name": "mastique em pó",
+    "standardAmount": "1 colher de chá"
+   },
+   "w-gr-014-i7": {
+    "name": "leite",
+    "standardAmount": "1 xícara (240 ml)"
+   },
+   "w-gr-014-i8": {
+    "name": "açúcar branco",
+    "standardAmount": "1 xícara"
+   },
+   "w-gr-014-i9": {
+    "name": "sal",
+    "standardAmount": "0.5 colher de chá"
+   },
+   "w-gr-014-i10": {
+    "name": "ovos",
+    "standardAmount": "4 ovos, 3 batidos e 1 para pincelar"
+   },
+   "w-gr-014-i11": {
+    "name": "amêndoas laminadas",
+    "standardAmount": "0.5 xícara"
+   },
+   "w-gr-014-i12": {
+    "name": "água em temperatura ambiente",
+    "standardAmount": "0.5 xícara (120 ml)"
+   },
+   "w-gr-014-i13": {
+    "name": "ovos tingidos de vermelho",
+    "standardAmount": "2 ovos"
+   },
+   "w-gr-014-i14": {
+    "name": "sementes de gergelim",
+    "standardAmount": "2 colheres de sopa"
+   }
+  },
+  "instructions": {
+   "1": "Coloque o fermento em uma tigela pequena; adicione a água morna e 0.25 xícara de farinha. Misture, cubra com dois panos de cozinha úmidos e deixe em local quente até espumar, cerca de 2.5 horas.",
+   "2": "Misture a manteiga, a gordura vegetal e o mastique em uma panela em fogo médio-baixo.",
+   "3": "Misture o leite e o açúcar em outra panela em fogo médio-baixo até o açúcar dissolver e a mistura ficar morna. Retire do fogo.",
+   "4": "Despeje 2 xícaras de farinha na mistura de manteiga e misture bem. Adicione o sal, depois incorpore a mistura de fermento. Adicione mais 2 xícaras de farinha e misture bem. Incorpore os 3 ovos batidos. Adicione aos poucos a mistura de leite e 1 xícara de farinha e misture bem. Adicione a água em temperatura ambiente e a última xícara de farinha e misture até a massa não ficar pegajosa.",
+   "5": "Sove a massa em uma superfície levemente enfarinhada com as mãos levemente enfarinhadas por 20 minutos. Modele a massa em uma bola. Cubra com panos úmidos e deixe em local quente até dobrar de volume, cerca de 2 horas.",
+   "6": "Preaqueça o forno a 165°C. Unte duas assadeiras.",
+   "7": "Divida a massa em dois pedaços e divida cada pedaço em três tiras. Trance cada 3 tiras formando 2 pães trançados. Coloque nas assadeiras. Encaixe os ovos vermelhos entre as tiras. Pincele a massa com o ovo batido restante. Polvilhe os topos com amêndoas e gergelim.",
+   "8": "Asse no forno pré-aquecido até dourar, cerca de 25 minutos."
+  },
+  "culturalNotes": "Tsoureki é um pão tradicional feito na Grécia durante a Páscoa. É conhecido por seu sabor doce e textura macia e é geralmente decorado com ovos tingidos de vermelho.",
+  "chapter": "gr"
+ },
+ "w-gr-015": {
+  "title": "Molho tzatziki",
+  "ingredients": {
+   "w-gr-015-i1": {
+    "name": "iogurte natural desnatado",
+    "standardAmount": "1 pote de 450 g"
+   },
+   "w-gr-015-i2": {
+    "name": "pepino",
+    "standardAmount": "1 pepino, descascado, sem sementes e ralado"
+   },
+   "w-gr-015-i3": {
+    "name": "salsa fresca picada",
+    "standardAmount": "1 colher de sopa"
+   },
+   "w-gr-015-i4": {
+    "name": "hortelã fresca picada",
+    "standardAmount": "1 colher de sopa"
+   },
+   "w-gr-015-i5": {
+    "name": "suco de limão fresco",
+    "standardAmount": "1 colher de sopa"
+   },
+   "w-gr-015-i6": {
+    "name": "alho picado",
+    "standardAmount": "1 dente"
+   },
+   "w-gr-015-i7": {
+    "name": "sal e pimenta-do-reino",
+    "standardAmount": "a gosto"
+   }
+  },
+  "instructions": {
+   "1": "Forre um escorredor com duas camadas de gaze; coloque sobre uma tigela média. Coloque o iogurte no escorredor forrado com gaze e cubra com filme plástico. Deixe o iogurte escorrer na geladeira de 8 horas a uma noite.",
+   "2": "Coloque o pepino ralado em um prato forrado com papel-toalha; deixe escorrer por 1 a 2 horas.",
+   "3": "Misture o iogurte, o pepino, a salsa, a hortelã, o suco de limão, o alho, o sal e a pimenta-do-reino em uma tigela. Refrigere por pelo menos 2 horas antes de servir."
+  },
+  "culturalNotes": "Tzatziki é um molho tradicional grego servido como entrada ou acompanhamento de pratos principais.",
+  "chapter": "gr"
+ },
+ "w-gr-016": {
+  "title": "Vasilopita - bolo grego de Ano Novo",
+  "ingredients": {
+   "w-gr-016-i1": {
+    "name": "açúcar branco",
+    "standardAmount": "2 xícaras"
+   },
+   "w-gr-016-i2": {
+    "name": "manteiga",
+    "standardAmount": "1 xícara"
+   },
+   "w-gr-016-i3": {
+    "name": "farinha de trigo",
+    "standardAmount": "3 xícaras"
+   },
+   "w-gr-016-i4": {
+    "name": "ovos",
+    "standardAmount": "6 ovos"
+   },
+   "w-gr-016-i5": {
+    "name": "fermento em pó",
+    "standardAmount": "2 colheres de chá"
+   },
+   "w-gr-016-i6": {
+    "name": "leite morno",
+    "standardAmount": "1 xícara (45°C)"
+   },
+   "w-gr-016-i7": {
+    "name": "bicarbonato de sódio",
+    "standardAmount": "0.5 colher de chá"
+   },
+   "w-gr-016-i8": {
+    "name": "suco de limão fresco",
+    "standardAmount": "1 colher de sopa"
+   },
+   "w-gr-016-i9": {
+    "name": "amêndoas laminadas branqueadas",
+    "standardAmount": "0.25 xícara"
+   },
+   "w-gr-016-i10": {
+    "name": "açúcar branco",
+    "standardAmount": "2 colheres de sopa"
+   }
+  },
+  "instructions": {
+   "1": "Preaqueça o forno a 175°C. Unte generosamente uma forma redonda de bolo de 25 cm.",
+   "2": "Bata o açúcar e a manteiga em uma tigela média até clarear. Adicione a farinha e misture até a mistura ficar arenosa. Adicione os ovos um a um, misturando bem após cada adição.",
+   "3": "Misture o fermento e o leite; adicione à mistura de ovos e misture bem. Misture o suco de limão e o bicarbonato; incorpore à massa. Despeje a massa na forma preparada.",
+   "4": "Asse o bolo no forno pré-aquecido por 20 minutos. Retire e polvilhe o bolo com as nozes e o açúcar, depois retorne ao forno até o bolo voltar ao toque, cerca de mais 20-30 minutos.",
+   "5": "Com cuidado, faça um pequeno furo no bolo e coloque uma moeda nele. Tente cobrir o furo com açúcar. Deixe o bolo esfriar em uma grade por 10 minutos antes de virá-lo em um prato.",
+   "6": "Sirva o bolo quente."
+  },
+  "culturalNotes": "Vasilopita é um bolo tradicional servido na Grécia no Ano Novo.",
+  "chapter": "gr"
  }
 }
