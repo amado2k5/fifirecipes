@@ -117030,5 +117030,2386 @@
   },
   "culturalNotes": "Sago at gulaman är en traditionell filippinsk dryck som ofta serveras när det är varmt.",
   "chapter": "مطبخ الفلبين"
+ },
+ "w-id-001": {
+  "title": "Apem Beras (Ångad Ristårta)",
+  "ingredients": {
+   "w-id-001-i1": {
+    "name": "Jäst",
+    "standardAmount": "5 gram"
+   },
+   "w-id-001-i2": {
+    "name": "Socker",
+    "standardAmount": "1/4 tesked"
+   },
+   "w-id-001-i3": {
+    "name": "Varmt vatten",
+    "standardAmount": "1 matsked"
+   },
+   "w-id-001-i4": {
+    "name": "Kokt ris",
+    "standardAmount": "125 gram"
+   },
+   "w-id-001-i5": {
+    "name": "Kokosmjölk",
+    "standardAmount": "250 gram"
+   },
+   "w-id-001-i6": {
+    "name": "Rismjöl",
+    "standardAmount": "150 gram"
+   },
+   "w-id-001-i7": {
+    "name": "Tårtmjöl",
+    "standardAmount": "50 gram"
+   },
+   "w-id-001-i8": {
+    "name": "Socker",
+    "standardAmount": "100 gram"
+   },
+   "w-id-001-i9": {
+    "name": "Salt",
+    "standardAmount": "en liten nypa"
+   }
+  },
+  "instructions": {
+   "1": "Blanda jästen med sockret och det varma vattnet i en liten skål. Låt aktiveras i 10 minuter.",
+   "2": "Mixa det kokta riset och kokosmjölken tills den är slät. Du kan värma blandningen lätt i mikrovågsugn eller på spisen tills den är ljummen (inte varm).",
+   "3": "Tillsätt rismjöl, mjöl, socker och salt och blanda väl tills allt är blandat.",
+   "4": "Täck degen och låt vila i 30 minuter på en varm plats.",
+   "5": "Häll degen i apem-formar och sätt i ångkokaren. Ånga i 30 minuter tills de är klara.",
+   "6": "Låt apem svalna något innan servering."
+  },
+  "culturalNotes": "Apem är en traditionell indonesisk mellanmål gjord av ris och kokosmjölk. Den serveras ofta vid speciella tillfällen.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-002": {
+  "title": "Asam Pedas (Kryddig Fiskgryta med Tamarind)",
+  "ingredients": {
+   "w-id-002-i1": {
+    "name": "Tongkol-fisk (makrill-tunna)",
+    "standardAmount": "700 g"
+   },
+   "w-id-002-i2": {
+    "name": "Salt",
+    "standardAmount": "1/2 tsk"
+   },
+   "w-id-002-i3": {
+    "name": "Tamarindblock utan kärnor",
+    "standardAmount": "1/2 kopp"
+   },
+   "w-id-002-i4": {
+    "name": "Vatten",
+    "standardAmount": "360 ml"
+   },
+   "w-id-002-i5": {
+    "name": "Olja att laga med",
+    "standardAmount": "2 msk"
+   },
+   "w-id-002-i6": {
+    "name": "Schalottenlök",
+    "standardAmount": "10 schalottenlök"
+   },
+   "w-id-002-i7": {
+    "name": "Vitlök",
+    "standardAmount": "8 kryddnejlikor"
+   },
+   "w-id-002-i8": {
+    "name": "Ingefära",
+    "standardAmount": "bit i tumme-storlek"
+   },
+   "w-id-002-i9": {
+    "name": "Kemirinötter",
+    "standardAmount": "5 bitar"
+   },
+   "w-id-002-i10": {
+    "name": "Sambal oelek",
+    "standardAmount": "5 msk"
+   },
+   "w-id-002-i11": {
+    "name": "Korianderfrön",
+    "standardAmount": "1/2 tsk"
+   },
+   "w-id-002-i12": {
+    "name": "Vatten",
+    "standardAmount": "120 ml"
+   },
+   "w-id-002-i13": {
+    "name": "Gurkmeja pulver",
+    "standardAmount": "2 tsk"
+   },
+   "w-id-002-i14": {
+    "name": "Galangal pulver",
+    "standardAmount": "1 msk"
+   },
+   "w-id-002-i15": {
+    "name": "Citronelle",
+    "standardAmount": "1 stjälk"
+   },
+   "w-id-002-i16": {
+    "name": "Salamblad",
+    "standardAmount": "3 blad"
+   },
+   "w-id-002-i17": {
+    "name": "Kaffir limeblad",
+    "standardAmount": "3 blad"
+   },
+   "w-id-002-i18": {
+    "name": "Tomat",
+    "standardAmount": "1 stor tomat (delad i fjärdedelar)"
+   },
+   "w-id-002-i19": {
+    "name": "Okra",
+    "standardAmount": "10 bitar"
+   },
+   "w-id-002-i20": {
+    "name": "Ananas",
+    "standardAmount": "1 kopp tärningar"
+   },
+   "w-id-002-i21": {
+    "name": "Socker",
+    "standardAmount": "1 tsk (eller mer efter smak)"
+   },
+   "w-id-002-i22": {
+    "name": "Salt",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Förbered fisken: rengör fisken och skär i stora bitar. Skölj väl med vatten och låt rinna av.",
+   "2": "Gör tamarindvattnet: lägg tamarindblocket i en skål och häll på 360 ml vatten. Pressa väl för att lösa upp och sila vattnet.",
+   "3": "Mixa ingredienserna: mixa schalottenlök, vitlök, ingefära, kemirinötter, sambal oelek, korianderfrön, gurkmeja pulver och galangal pulver i en mixer till en slät pasta.",
+   "4": "Tillagning: värm olja i en stor gryta på medelvärme. Tillsätt pastan och stek i 5 minuter tills den är gyllene. Tillsätt tamarindvatten, vatten, citronelle, salamblad och kaffir limeblad. Koka upp, sänk värmen och sjuda i 15 minuter.",
+   "5": "Tillsätt tomat, okra, ananas och socker. Koka upp igen, sänk värmen och sjuda i 10 minuter.",
+   "6": "Tillsätt fisken och sjuda i ytterligare 10 minuter tills fisken är kokt. Tillsätt salt efter smak.",
+   "7": "Servera asam pedas varm med kokt vitt ris."
+  },
+  "culturalNotes": "Asam pedas är en populär indonesisk rätt känd för sin sura och kryddiga smak. Den serveras vanligtvis med vitt ris.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-003": {
+  "title": "Ayam Goreng Kalasan",
+  "ingredients": {
+   "w-id-003-i1": {
+    "name": "Kycklinglår och drumsticks",
+    "standardAmount": "1.25 kg / 2.5 pund"
+   },
+   "w-id-003-i2": {
+    "name": "Korianderfrön",
+    "standardAmount": "2 tsk"
+   },
+   "w-id-003-i3": {
+    "name": "Kumminfrön",
+    "standardAmount": "2 tsk"
+   },
+   "w-id-003-i4": {
+    "name": "Fänkålsfrön",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-003-i5": {
+    "name": "Vitlök",
+    "standardAmount": "3 kryddnejlikor"
+   },
+   "w-id-003-i6": {
+    "name": "Ingefära",
+    "standardAmount": "1 msk"
+   },
+   "w-id-003-i7": {
+    "name": "Galangal",
+    "standardAmount": "1 msk"
+   },
+   "w-id-003-i8": {
+    "name": "Karrypulver",
+    "standardAmount": "1.5 tsk"
+   },
+   "w-id-003-i9": {
+    "name": "Citronelle",
+    "standardAmount": "1 stjälk (endast den vita delen)"
+   },
+   "w-id-003-i10": {
+    "name": "Gurkmeja pulver",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-003-i11": {
+    "name": "Schalottenlök",
+    "standardAmount": "2 liten schalottenlök"
+   },
+   "w-id-003-i12": {
+    "name": "Bordssalt",
+    "standardAmount": "1.5 tsk (eller 1 tsk vanligt salt)"
+   },
+   "w-id-003-i13": {
+    "name": "Chilipulver",
+    "standardAmount": "1/2 tsk (justera efter smak)"
+   },
+   "w-id-003-i14": {
+    "name": "Brunt socker",
+    "standardAmount": "2 tsk"
+   },
+   "w-id-003-i15": {
+    "name": "Kokosmjölk",
+    "standardAmount": "7 msk (helmjölk bäst!)"
+   },
+   "w-id-003-i16": {
+    "name": "Majsstärkelse",
+    "standardAmount": "1/2 kopp"
+   },
+   "w-id-003-i17": {
+    "name": "Vegetabilisk eller rapsolja",
+    "standardAmount": "1.75 liter / kvart"
+   },
+   "w-id-003-i18": {
+    "name": "Vitlök",
+    "standardAmount": "1 msk"
+   },
+   "w-id-003-i19": {
+    "name": "Stora röda chilifrukter (cayenne)",
+    "standardAmount": "1 msk (urkärnad och finhackad)"
+   },
+   "w-id-003-i20": {
+    "name": "Salladslök",
+    "standardAmount": "1 msk (finhackad)"
+   },
+   "w-id-003-i21": {
+    "name": "Salt",
+    "standardAmount": "nypa"
+   },
+   "w-id-003-i22": {
+    "name": "Korianderblad",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Rosta kryddorna i en liten stekpanna på medelvärme (utan olja) i 2 minuter eller tills de är aromatiska. Häll i en mixer eller ett högt glas för stavmixer.",
+   "2": "Tillsätt de resterande ingredienserna för karrypastan i mixern och mixa tills den är slät.",
+   "3": "Häll karrypastan över kycklingen i en ziplock-påse eller skål. Gnugga väl och marinera i kylskåpet i 24 timmar, max 48 timmar.",
+   "4": "Förbered kycklingen för stekning innan tillagning. Strö majsstärkelse över kycklingen och blanda väl.",
+   "5": "Värm olja i en djup stekpanna på medelvärme. Stek kycklingen tills den är gyllene och krispig, cirka 5-7 minuter på varje sida.",
+   "6": "Låt den stekta kycklingen rinna av på hushållspapper. Strö hackade korianderblad och servera varm."
+  },
+  "culturalNotes": "Ayam goreng kalasan är en traditionell indonesisk rätt känd för sin rika, krämiga smak.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-004": {
+  "title": "Ayam Goreng Mentega (Stekt Kyckling i Söt Smörsås)",
+  "ingredients": {
+   "w-id-004-i1": {
+    "name": "Medelstor kyckling, skuren i små bitar (12-16 bitar)",
+    "standardAmount": "1 medelstor kyckling, skuren i små bitar (12-16 bitar)"
+   },
+   "w-id-004-i2": {
+    "name": "Citronjuice",
+    "standardAmount": "saften från 2 citroner"
+   },
+   "w-id-004-i3": {
+    "name": "Salt",
+    "standardAmount": "2 tsk"
+   },
+   "w-id-004-i4": {
+    "name": "Olja att steka i",
+    "standardAmount": "2 koppar"
+   },
+   "w-id-004-i5": {
+    "name": "Vitlök",
+    "standardAmount": "4 kryddnejlikor, finhackad"
+   },
+   "w-id-004-i6": {
+    "name": "Lök",
+    "standardAmount": "1 medelstor lök, hackad"
+   },
+   "w-id-004-i7": {
+    "name": "Söt sås",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Gnugga kycklingbitarna med salt. Marinera med citronjuice i 15-20 minuter.",
+   "2": "Värm oljan till cirka 180°C (350°F) och stek kycklingen tills den är gyllene. Ta ut ur oljan och låt rinna av.",
+   "3": "Stek vitlök och lök i en till två minuter. Tillsätt de resterande såsingredienserna.",
+   "4": "Stek i en minut och tillsätt sedan kycklingbitarna. Rör för att täcka.",
+   "5": "Servera kycklingen varm med limeklyftor."
+  },
+  "culturalNotes": "Ayam goreng mentega är en populär indonesisk rätt känd för sin sötsura smak.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-005": {
+  "title": "Ayam Kecap",
+  "ingredients": {
+   "w-id-005-i1": {
+    "name": "Kycklingdrumsticks",
+    "standardAmount": "900 g"
+   },
+   "w-id-005-i2": {
+    "name": "Salt",
+    "standardAmount": "1/2 tsk"
+   },
+   "w-id-005-i3": {
+    "name": "Svartpeppar pulver",
+    "standardAmount": "1/4 tsk"
+   },
+   "w-id-005-i4": {
+    "name": "Olja att laga med",
+    "standardAmount": "2 msk (delad)"
+   },
+   "w-id-005-i5": {
+    "name": "Vatten",
+    "standardAmount": "1/4 kopp (eller mer vid behov)"
+   },
+   "w-id-005-i6": {
+    "name": "Tomat",
+    "standardAmount": "1 stor (skuren i klyftor)"
+   },
+   "w-id-005-i7": {
+    "name": "Schalottenlök",
+    "standardAmount": "4 (tärnad)"
+   },
+   "w-id-005-i8": {
+    "name": "Vitlök",
+    "standardAmount": "2 kryddnejlikor (finhackad)"
+   },
+   "w-id-005-i9": {
+    "name": "Ingefära",
+    "standardAmount": "2 tum (finhackad)"
+   },
+   "w-id-005-i10": {
+    "name": "Bird's eye chilifrukter",
+    "standardAmount": "2 (valfritt)"
+   },
+   "w-id-005-i11": {
+    "name": "Gul lök",
+    "standardAmount": "1 stor (skuren i stora klyftor)"
+   },
+   "w-id-005-i12": {
+    "name": "Salladslök",
+    "standardAmount": "2 stjälkar (gön del, skuren i 2 tum långa bitar)"
+   },
+   "w-id-005-i13": {
+    "name": "Kecap manis",
+    "standardAmount": "3 msk"
+   },
+   "w-id-005-i14": {
+    "name": "Tomatketchup",
+    "standardAmount": "1 msk"
+   },
+   "w-id-005-i15": {
+    "name": "Ostronsås",
+    "standardAmount": "1 msk"
+   },
+   "w-id-005-i16": {
+    "name": "Honung",
+    "standardAmount": "1 msk (eller mer efter smak)"
+   }
+  },
+  "instructions": {
+   "1": "Blanda kycklingen med salt och svartpeppar och marinera i 30 minuter.",
+   "2": "Värm 1 matsked olja i en stekpanna på medelvärme. Tillsätt schalottenlök, vitlök, ingefära och bird's eye chilifrukter och stek i 2-3 minuter tills schalottenlöken är genomskinlig.",
+   "3": "Tillsätt tomat, gul lök och salladslök och stek i 5 minuter.",
+   "4": "Tillsätt kecap manis, ketchup, ostronsås, honung och vatten. Koka upp, sänk värmen och sjuda i 10 minuter.",
+   "5": "Tillsätt den marinerade kycklingen och sjuda i 15-20 minuter tills kycklingen är kokt och såsen har tjocknat.",
+   "6": "Servera kycklingen varm med ris."
+  },
+  "culturalNotes": "Ayam kecap är en populär indonesisk rätt känd för sin söta och salta smak. Den serveras vanligtvis med ris.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-006": {
+  "title": "Ayam Penyet Cabe Ijo",
+  "ingredients": {
+   "w-id-006-i1": {
+    "name": "Kycklingbitar med ben och skinn",
+    "standardAmount": "1 kg"
+   },
+   "w-id-006-i2": {
+    "name": "Vatten",
+    "standardAmount": "600 g"
+   },
+   "w-id-006-i3": {
+    "name": "Olja (att laga med)",
+    "standardAmount": "2 msk"
+   },
+   "w-id-006-i4": {
+    "name": "Olja (att steka i)",
+    "standardAmount": "2 koppar"
+   },
+   "w-id-006-i5": {
+    "name": "Vitlök",
+    "standardAmount": "8 kryddnejlikor"
+   },
+   "w-id-006-i6": {
+    "name": "Riven ingefära",
+    "standardAmount": "1 msk"
+   },
+   "w-id-006-i7": {
+    "name": "Citronelle",
+    "standardAmount": "1 stjälk"
+   },
+   "w-id-006-i8": {
+    "name": "Kaffir limeblad",
+    "standardAmount": "3"
+   },
+   "w-id-006-i9": {
+    "name": "Salamblad",
+    "standardAmount": "3"
+   },
+   "w-id-006-i10": {
+    "name": "Koriander pulver",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-006-i11": {
+    "name": "Galangal pulver",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-006-i12": {
+    "name": "Gurkmeja pulver",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-006-i13": {
+    "name": "Salt",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-006-i14": {
+    "name": "Kycklingpulver",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-006-i15": {
+    "name": "Serrano chilifrukter",
+    "standardAmount": "150 g"
+   },
+   "w-id-006-i16": {
+    "name": "Vitlök",
+    "standardAmount": "3 kryddnejlikor"
+   },
+   "w-id-006-i17": {
+    "name": "Lime- eller citronjuice",
+    "standardAmount": "1 lime"
+   },
+   "w-id-006-i18": {
+    "name": "Socker",
+    "standardAmount": "1/2 tsk"
+   },
+   "w-id-006-i19": {
+    "name": "Kycklingpulver",
+    "standardAmount": "1/2 tsk"
+   }
+  },
+  "instructions": {
+   "1": "Skölj kycklingen och skär i bitar. Lägg i en skål med 600 gram vatten. Tillsätt hackad vitlök, riven ingefära, citronelle, kaffir limeblad, salamblad, koriander pulver, galangal pulver, gurkmeja pulver, salt och kycklingpulver. Marinera kycklingen i 30 minuter.",
+   "2": "Värm olja i en stekpanna på medelvärme. Stek kycklingen tills den är gyllene och kokt. Ta ut ur oljan och lägg åt sidan.",
+   "3": "I en separat skål, blanda serrano chilifrukter, hackad vitlök, limejuice, salt, socker och kycklingpulver. Mosa väl till en slät pasta.",
+   "4": "Värm matoljan i en stekpanna på medelvärme. Tillsätt pastan och stek i 5 minuter tills den är mörkgrön.",
+   "5": "Tillsätt den stekta kycklingen till pastan och stek i 2-3 minuter tills allt är väl blandat.",
+   "6": "Servera kycklingen varm med kokt vitt ris och kokta grönsaker."
+  },
+  "culturalNotes": "Ayam penyet cabe ijo är en populär indonesisk rätt som vanligtvis serveras med vitt ris och kokta grönsaker.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-007": {
+  "title": "Ayam Pop Padang",
+  "ingredients": {
+   "w-id-007-i1": {
+    "name": "Kycklingbitar med ben",
+    "standardAmount": "3 pund"
+   },
+   "w-id-007-i2": {
+    "name": "Citronjuice",
+    "standardAmount": "saft från 1 citron"
+   },
+   "w-id-007-i3": {
+    "name": "Kokosvatten",
+    "standardAmount": "800 ml"
+   },
+   "w-id-007-i4": {
+    "name": "Olja att laga med",
+    "standardAmount": "4 msk"
+   },
+   "w-id-007-i5": {
+    "name": "Limeblad",
+    "standardAmount": "5 blad"
+   },
+   "w-id-007-i6": {
+    "name": "Salamblad",
+    "standardAmount": "3 blad"
+   },
+   "w-id-007-i7": {
+    "name": "Citronelle",
+    "standardAmount": "1 stjälk"
+   },
+   "w-id-007-i8": {
+    "name": "Galangal",
+    "standardAmount": "1 tum"
+   },
+   "w-id-007-i9": {
+    "name": "Ingefära",
+    "standardAmount": "1 tum"
+   },
+   "w-id-007-i10": {
+    "name": "Tamarindpasta",
+    "standardAmount": "1 msk"
+   },
+   "w-id-007-i11": {
+    "name": "Kemirinötter",
+    "standardAmount": "6 nötter"
+   },
+   "w-id-007-i12": {
+    "name": "Vitlök",
+    "standardAmount": "10 kryddnejlikor"
+   },
+   "w-id-007-i13": {
+    "name": "Schalottenlök",
+    "standardAmount": "9 schalottenlök"
+   },
+   "w-id-007-i14": {
+    "name": "Salt",
+    "standardAmount": "1 msk + 1/2 tsk"
+   },
+   "w-id-007-i15": {
+    "name": "Cayennepeppar",
+    "standardAmount": "7 chilifrukter"
+   },
+   "w-id-007-i16": {
+    "name": "Bird's eye chilifrukter",
+    "standardAmount": "3 chilifrukter"
+   },
+   "w-id-007-i17": {
+    "name": "Tomat",
+    "standardAmount": "1 stor tomat"
+   },
+   "w-id-007-i18": {
+    "name": "Socker",
+    "standardAmount": "1.5 tsk"
+   },
+   "w-id-007-i19": {
+    "name": "Kycklingbuljong",
+    "standardAmount": "50 ml"
+   }
+  },
+  "instructions": {
+   "1": "Marinera kycklingbitarna med citronjuice i 30 minuter.",
+   "2": "Lägg i tryckkokaren kycklingen, kokosvattnet, limebladen, salambladen, citronellen, galangalen och ingefäran. Stäng och koka på högt tryck i 20 minuter.",
+   "3": "Efter tillagning, låt trycket släppas naturligt. Öppna tryckkokaren och ta ut kycklingen.",
+   "4": "Värm 4 matskedar olja i en stekpanna och stek kycklingbitarna tills de är gyllene. Lägg åt sidan.",
+   "5": "För att göra chilisåsen, mixa i en matberedare vitlök, schalottenlök, cayennepeppar, bird's eye chilifrukter och kemirinötter. Tillsätt salt och socker och blanda väl.",
+   "6": "Värm 1 matsked olja i en liten gryta och tillsätt kryddblandningen. Rör i en minut och tillsätt sedan kokosvatten och tomat. Koka såsen i 5 minuter.",
+   "7": "Servera kycklingen med chilisås och kycklingbuljong."
+  },
+  "culturalNotes": "Ayam pop padang är en berömd rätt i det indonesiska köket, känd för sin rika smak och sin unika tillagningsmetod.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-008": {
+  "title": "Ayam Rica-Rica",
+  "ingredients": {
+   "w-id-008-i1": {
+    "name": "Kycklinglår eller drumsticks eller vingar",
+    "standardAmount": "1 kg"
+   },
+   "w-id-008-i2": {
+    "name": "Olja att laga med",
+    "standardAmount": "2 msk"
+   },
+   "w-id-008-i3": {
+    "name": "Vatten",
+    "standardAmount": "1/2 kopp (eller mer vid behov)"
+   },
+   "w-id-008-i4": {
+    "name": "Tomater",
+    "standardAmount": "2 stor (tärnad)"
+   },
+   "w-id-008-i5": {
+    "name": "Lime- eller citronjuice",
+    "standardAmount": "saften från 1 lime"
+   },
+   "w-id-008-i6": {
+    "name": "Salt",
+    "standardAmount": "efter smak"
+   },
+   "w-id-008-i7": {
+    "name": "Socker",
+    "standardAmount": "1/2 tsk"
+   },
+   "w-id-008-i8": {
+    "name": "Kaffir limeblad",
+    "standardAmount": "8 blad"
+   },
+   "w-id-008-i9": {
+    "name": "Citronellestjälkar",
+    "standardAmount": "2 stjälkar (skär, skär i 3-4 tum bitar och stötta)"
+   },
+   "w-id-008-i10": {
+    "name": "Pandanblad",
+    "standardAmount": "2 blad (knutet)"
+   },
+   "w-id-008-i11": {
+    "name": "Citronbasilika (kemangi)",
+    "standardAmount": "1 kopp (valfritt)"
+   },
+   "w-id-008-i12": {
+    "name": "Schalottenlök",
+    "standardAmount": "10 (skalad)"
+   },
+   "w-id-008-i13": {
+    "name": "Vitlök",
+    "standardAmount": "8 kryddnejlikor"
+   },
+   "w-id-008-i14": {
+    "name": "Färsk ingefära",
+    "standardAmount": "2 tum"
+   },
+   "w-id-008-i15": {
+    "name": "Cayennepeppar",
+    "standardAmount": "20"
+   },
+   "w-id-008-i16": {
+    "name": "Thailändska chilifrukter",
+    "standardAmount": "5"
+   },
+   "w-id-008-i17": {
+    "name": "Kaffir limeblad",
+    "standardAmount": "2 blad"
+   }
+  },
+  "instructions": {
+   "1": "Mixa schalottenlök, vitlök, ingefära, cayennepeppar och thailändska chilifrukter i en matberedare till en slät pasta.",
+   "2": "Värm olja i en gryta på medelvärme, tillsätt den mixade blandningen och stek i 5 minuter.",
+   "3": "Tillsätt kycklingen och stek i 5 minuter tills den är gyllene.",
+   "4": "Tillsätt vatten, tomater, limejuice, socker, salt, kaffir limeblad, citronelle och pandanblad. Koka upp, sänk värmen och sjuda i 20-25 minuter tills kycklingen är kokt och såsen har tjocknat.",
+   "5": "Tillsätt citronbasilika (kemangi) om tillgänglig och sjuda i ytterligare 5 minuter.",
+   "6": "Servera kycklingen varm med kokt vitt ris."
+  },
+  "culturalNotes": "Ayam rica-rica är en berömd rätt från Manado, Indonesien, känd för sin kryddiga och sura smak.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-009": {
+  "title": "Bakpia",
+  "ingredients": {
+   "w-id-009-i1": {
+    "name": "Mjöl",
+    "standardAmount": "140 g"
+   },
+   "w-id-009-i2": {
+    "name": "Florsocker",
+    "standardAmount": "35 g"
+   },
+   "w-id-009-i3": {
+    "name": "Salt",
+    "standardAmount": "1/2 tsk"
+   },
+   "w-id-009-i4": {
+    "name": "Osaltat smör, mjukt vid rumstemperatur",
+    "standardAmount": "35 g"
+   },
+   "w-id-009-i5": {
+    "name": "Varmt vatten",
+    "standardAmount": "70 g"
+   },
+   "w-id-009-i6": {
+    "name": "Mjöl",
+    "standardAmount": "100 g"
+   },
+   "w-id-009-i7": {
+    "name": "Olja",
+    "standardAmount": "40 g"
+   },
+   "w-id-009-i8": {
+    "name": "Mungbönspasta",
+    "standardAmount": "300 g"
+   },
+   "w-id-009-i9": {
+    "name": "Äggula",
+    "standardAmount": "1"
+   },
+   "w-id-009-i10": {
+    "name": "Mjölk",
+    "standardAmount": "1/2 tsk"
+   }
+  },
+  "instructions": {
+   "1": "Gör fyllningen: blanda mungbönspastan väl.",
+   "2": "Gör vattendegen: blanda 140 gram mjöl med socker och salt, tillsätt smält smör och varmt vatten och knåda till en slät deg.",
+   "3": "Gör oljedegen: blanda 100 gram mjöl med olja och knåda till en slät deg.",
+   "4": "Kombinera degarna: blanda vattendegen och oljedegen och knåda tills de är väl blandade.",
+   "5": "Forma: dela degen i små bollar, platta till var och en, lägg lite fyllning i mitten och forma en boll med fyllningen inuti.",
+   "6": "Laga på spisen: lägg bollarna i en varm, oljad stekpanna och stek tills alla sidor är gyllene.",
+   "7": "Grädda i ugnen: alternativt, grädda i en förvärmd ugn på 180°C i 15 minuter.",
+   "8": "Kyl: låt bakpian svalna innan servering.",
+   "9": "Förvaring: förvara bakpia i en sluten behållare vid rumstemperatur i upp till 5 dagar."
+  },
+  "culturalNotes": "Bakpia är en traditionell indonesisk kaka, även känd som hopia. Den serveras ofta vid speciella tillfällen och firanden.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-010": {
+  "title": "Bandrek",
+  "ingredients": {
+   "w-id-010-i1": {
+    "name": "Vatten",
+    "standardAmount": "4 koppar"
+   },
+   "w-id-010-i2": {
+    "name": "Palm- eller kokossocker",
+    "standardAmount": "4 msk"
+   },
+   "w-id-010-i3": {
+    "name": "Gammal ingefära",
+    "standardAmount": "100 g (skalad och skuren i tunna skivor)"
+   },
+   "w-id-010-i4": {
+    "name": "Kanelstång",
+    "standardAmount": "1 stor stjälk"
+   },
+   "w-id-010-i5": {
+    "name": "Hela kryddnejlikor",
+    "standardAmount": "5 hela kryddnejlikor"
+   },
+   "w-id-010-i6": {
+    "name": "Kardemummakärnor",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-010-i7": {
+    "name": "Citronelle",
+    "standardAmount": "3 stjälkar"
+   },
+   "w-id-010-i8": {
+    "name": "Pandanblad",
+    "standardAmount": "2 blad (knutet)"
+   },
+   "w-id-010-i9": {
+    "name": "Sötad kondenserad mjölk",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Lägg kryddorna, citronellen och pandanbladen i en medelstor gryta.",
+   "2": "Koka upp, sänk värmen och sjuda försiktigt i cirka 20 minuter tills kryddorna och örterna släpper en underbar doft.",
+   "3": "Tillsätt palm- eller kokossocker och rör tills det är upplöst.",
+   "4": "Täck och låt dra i ytterligare 15 minuter.",
+   "5": "Sila drycken i glas.",
+   "6": "Tillsätt efter smak 1-2 teskedar sötad kondenserad mjölk.",
+   "7": "Servera omedelbart."
+  },
+  "culturalNotes": "Bandrek är en traditionell dryck från Sunda-regionen i Indonesien, vanligtvis serverad i ett glas.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-011": {
+  "title": "Batagor (Stekta Dumplings med Jordnötssås)",
+  "ingredients": {
+   "w-id-011-i1": {
+    "name": "Extra fast tofu",
+    "standardAmount": "396 g"
+   },
+   "w-id-011-i2": {
+    "name": "Wontonark",
+    "standardAmount": "15-20 bitar"
+   },
+   "w-id-011-i3": {
+    "name": "Deg för krispigt yttre skal",
+    "standardAmount": "1 recept"
+   },
+   "w-id-011-i4": {
+    "name": "Olja att steka i",
+    "standardAmount": "vid behov"
+   },
+   "w-id-011-i5": {
+    "name": "Kycklingfärs",
+    "standardAmount": "300 g"
+   },
+   "w-id-011-i6": {
+    "name": "Tapiokastärkelse",
+    "standardAmount": "100 g"
+   },
+   "w-id-011-i7": {
+    "name": "Ägg",
+    "standardAmount": "1 ägg"
+   },
+   "w-id-011-i8": {
+    "name": "Vitlök",
+    "standardAmount": "5 kryddnejlikor"
+   },
+   "w-id-011-i9": {
+    "name": "Salt",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-011-i10": {
+    "name": "Socker",
+    "standardAmount": "1/2 tsk"
+   },
+   "w-id-011-i11": {
+    "name": "Vitpeppar pulver",
+    "standardAmount": "1/4 tsk"
+   },
+   "w-id-011-i12": {
+    "name": "Rostade osaltade jordnötter",
+    "standardAmount": "200 g"
+   },
+   "w-id-011-i13": {
+    "name": "Vitlök",
+    "standardAmount": "4 kryddnejlikor"
+   },
+   "w-id-011-i14": {
+    "name": "Palmsocker",
+    "standardAmount": "150 g (börja med 75 g och justera efter smak)"
+   },
+   "w-id-011-i15": {
+    "name": "Salt",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-011-i16": {
+    "name": "Vatten",
+    "standardAmount": "250 ml"
+   },
+   "w-id-011-i17": {
+    "name": "Lime- eller citronjuice",
+    "standardAmount": "saften från 1 lime"
+   }
+  },
+  "instructions": {
+   "1": "Gör jordnötssåsen: mixa rostade jordnötter och vitlök i en matberedare tills den är slät. Tillsätt palmsocker, salt, vatten och limejuice och blanda väl. Justera efter smak om det behövs.",
+   "2": "Förbered tofun: skär tofun i små tärningar.",
+   "3": "Gör kött/fiskpastan: blanda kycklingfärs eller fiskpasta med tapiokastärkelse, ägg, hackad vitlök, salt, socker och vitpeppar. Blanda väl tills blandningen är slät.",
+   "4": "Prova blandningen: smaka av och justera om det behövs med salt eller socker.",
+   "5": "Fyll tofun och wontonarken: lägg en bit tofu i mitten av wontonarket och tillsätt en sked av blandningen. Vik arket för att täcka fyllningen.",
+   "6": "Ånga: lägg dumplingsen i ångkokaren och ånga i 10 minuter.",
+   "7": "Stek: lägg dumplingsen i varm olja och stek tills de är gyllene. Låt rinna av på hushållspapper.",
+   "8": "Servera: servera dumplingsen varma med jordnötssås."
+  },
+  "culturalNotes": "Batagor är en populär indonesisk rätt gjord av stekta dumplings fyllda med kött eller fisk och tofu, serverad med jordnötssås.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-012": {
+  "title": "Ayam Betutu Bali",
+  "ingredients": {
+   "w-id-012-i1": {
+    "name": "Hel kyckling",
+    "standardAmount": "4 pund"
+   },
+   "w-id-012-i2": {
+    "name": "Kassavablad",
+    "standardAmount": "300 g"
+   },
+   "w-id-012-i3": {
+    "name": "Schalottenlök",
+    "standardAmount": "15 schalottenlök"
+   },
+   "w-id-012-i4": {
+    "name": "Kemirinötter",
+    "standardAmount": "5 kemirinötter"
+   },
+   "w-id-012-i5": {
+    "name": "Sambal oelek",
+    "standardAmount": "2 msk"
+   },
+   "w-id-012-i6": {
+    "name": "Thailändska chilifrukter",
+    "standardAmount": "5 chilifrukter"
+   },
+   "w-id-012-i7": {
+    "name": "Vitlök",
+    "standardAmount": "7 kryddnejlikor"
+   },
+   "w-id-012-i8": {
+    "name": "Färsk ingefära",
+    "standardAmount": "1 tum"
+   },
+   "w-id-012-i9": {
+    "name": "Kencurrot",
+    "standardAmount": "1 tum"
+   },
+   "w-id-012-i10": {
+    "name": "Gurkmeja",
+    "standardAmount": "1 tum"
+   },
+   "w-id-012-i11": {
+    "name": "Galangal",
+    "standardAmount": "1 tum"
+   },
+   "w-id-012-i12": {
+    "name": "Koriander pulver",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-012-i13": {
+    "name": "Terasi",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-012-i14": {
+    "name": "Kaffir limeblad",
+    "standardAmount": "5 blad"
+   },
+   "w-id-012-i15": {
+    "name": "Kokosolja",
+    "standardAmount": "1 msk"
+   },
+   "w-id-012-i16": {
+    "name": "Citronelle",
+    "standardAmount": "1 stjälk"
+   },
+   "w-id-012-i17": {
+    "name": "Vitpeppar",
+    "standardAmount": "1/4 tsk"
+   },
+   "w-id-012-i18": {
+    "name": "Salt",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-012-i19": {
+    "name": "Kokossocker",
+    "standardAmount": "2 tsk"
+   },
+   "w-id-012-i20": {
+    "name": "Lime- eller citronjuice",
+    "standardAmount": "saft från 1 lime"
+   },
+   "w-id-012-i21": {
+    "name": "Bananblad",
+    "standardAmount": "vid behov"
+   },
+   "w-id-012-i22": {
+    "name": "Aluminiumfolie",
+    "standardAmount": "vid behov"
+   },
+   "w-id-012-i23": {
+    "name": "Sambal matah",
+    "standardAmount": "valfritt"
+   }
+  },
+  "instructions": {
+   "1": "Gör kryddpastan: mixa i matberedaren schalottenlök, kemirinötter, sambal oelek, thailändska chilifrukter, vitlök, ingefära, kencur, gurkmeja, galangal, koriander, terasi, kaffir limeblad, kokosolja, citronelle, vitpeppar, salt, kokossocker och limejuice till en slät pasta.",
+   "2": "Förstek grönsakerna: stek schalottenlök i kokosolja tills den är gyllene, tillsätt kryddpastan och koka i 5 minuter.",
+   "3": "Fyll kycklingen med grönsakerna: fyll kycklingens bukhåla med kassavablad och de förstekta grönsakerna.",
+   "4": "Slå in och marinera kycklingen: slå in kycklingen i bananblad, sedan i aluminiumfolie och marinera i 30 minuter.",
+   "5": "Om du använder elektrisk tryckkokare: lägg kycklingen i kokaren och tillsätt 2 koppar vatten. Ställ in på högt tryck i 40 minuter.",
+   "6": "Om du lagar i ugnen: lägg kycklingen i en förvärmd ugn på 180°C och lagag i 1 timme och 30 minuter.",
+   "7": "Servera kycklingen som du vill med sambal matah."
+  },
+  "culturalNotes": "Ayam betutu bali är en traditionell rätt från Bali, Indonesien, känd för sin kryddiga och aromatiska smak.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-013": {
+  "title": "Grönsaksbiryani",
+  "ingredients": {
+   "w-id-013-i1": {
+    "name": "Basmatiris",
+    "standardAmount": "3 koppar"
+   },
+   "w-id-013-i2": {
+    "name": "Vatten",
+    "standardAmount": "6 koppar"
+   },
+   "w-id-013-i3": {
+    "name": "Kardemummakärnor",
+    "standardAmount": "10 skidor"
+   },
+   "w-id-013-i4": {
+    "name": "Kanelstång",
+    "standardAmount": "1 stjälk"
+   },
+   "w-id-013-i5": {
+    "name": "Hela kryddnejlikor",
+    "standardAmount": "6 hel"
+   },
+   "w-id-013-i6": {
+    "name": "Lagerblad",
+    "standardAmount": "2 blad"
+   },
+   "w-id-013-i7": {
+    "name": "Salt",
+    "standardAmount": "1 msk"
+   },
+   "w-id-013-i8": {
+    "name": "Ghee",
+    "standardAmount": "1/3 kopp"
+   },
+   "w-id-013-i9": {
+    "name": "Lök",
+    "standardAmount": "1 lök (skivad tunt)"
+   },
+   "w-id-013-i10": {
+    "name": "Potatisar",
+    "standardAmount": "9 små potatisar"
+   },
+   "w-id-013-i11": {
+    "name": "Blomkål",
+    "standardAmount": "1 huvud (delad i buketter)"
+   },
+   "w-id-013-i12": {
+    "name": "Morötter",
+    "standardAmount": "6 morötter (skalad och skuren i stora bitar)"
+   },
+   "w-id-013-i13": {
+    "name": "Lök",
+    "standardAmount": "1 lök (finhackad)"
+   },
+   "w-id-013-i14": {
+    "name": "Ingefära",
+    "standardAmount": "1 tsk (färskriven)"
+   },
+   "w-id-013-i15": {
+    "name": "Vitlök",
+    "standardAmount": "2 tsk (färskriven)"
+   },
+   "w-id-013-i16": {
+    "name": "Gröna chilifrukter",
+    "standardAmount": "1-3 chilifrukter (skivad på längden)"
+   },
+   "w-id-013-i17": {
+    "name": "Chilipulver",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-013-i18": {
+    "name": "Koriander pulver",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-013-i19": {
+    "name": "Kummin pulver",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-013-i20": {
+    "name": "Gurkmeja pulver",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-013-i21": {
+    "name": "Tomat",
+    "standardAmount": "1 tomat (tärnad)"
+   },
+   "w-id-013-i22": {
+    "name": "Yoghurt",
+    "standardAmount": "2 msk"
+   },
+   "w-id-013-i23": {
+    "name": "Russin",
+    "standardAmount": "1/2 kopp"
+   },
+   "w-id-013-i24": {
+    "name": "Rosenvatten",
+    "standardAmount": "2 tsk"
+   },
+   "w-id-013-i25": {
+    "name": "Ghee (smält)",
+    "standardAmount": "1/4 kopp (valfritt)"
+   },
+   "w-id-013-i26": {
+    "name": "Mandelflarn",
+    "standardAmount": "en handfull"
+   },
+   "w-id-013-i27": {
+    "name": "Färska korianderblad",
+    "standardAmount": "en handfull (riven i bitar)"
+   }
+  },
+  "instructions": {
+   "1": "Skölj basmatiriset i kallt vatten tills vattnet inte längre är grumligt. Blötlägg riset i en skål med rent kallt vatten i 30 minuter.",
+   "2": "Medan riset blötläggs, lägg i en gryta 6 koppar vatten, de hela kryddorna och saltet. Täck och sjuda försiktigt.",
+   "3": "Efter 30 minuter, koka upp grytans vatten fullt. Sila det blötlagda riset och tillsätt i grytan. Sjuda försiktigt i 5 minuter. Sila riset i ett durkslag och sprid på ett stort fat för att stoppa tillagningen.",
+   "4": "Värm ghee i en stor gryta med tjock botten och stek den tunt skurna löken tills den är mörkt gyllene. Med ett hålslev, överför den stekta löken till en tallrik med hushållspapper och lägg åt sidan.",
+   "5": "I det återstående gheet, stek potatisar, blomkål och morötter tills de är bruna på alla sidor. Ta ut och lägg åt sidan.",
+   "6": "I samma gryta, stek den hackade löken och tomaten tills de är mjuka. Tillsätt vitlök, ingefära, hackade gröna chilifrukter och malda kryddor. Rör tills det är väl blandat och aromatiskt. Låt svalna något och rör sedan in yoghurten. Tillsätt de skurna grönsakerna och blanda med masalan.",
+   "7": "Strö russinen över grönsakerna och lägg det halvkokta riset ovanpå. Jämna ytan och stänk rosenvatten. För en mer festlig smak, häll smält ghee. Täck och koka på medel-låg värme i cirka 45 minuter tills riset är kokt.",
+   "8": "Smaka av riset för att se om det är kokt efter din smak. Överför till ett stort familjefat, rör försiktigt för att alla ingredienser ska blandas. Garnera med den återstående stekta löken, mandelflarn och koriander."
+  },
+  "culturalNotes": "Biryani är en populär indonesisk rätt som ofta serveras vid speciella tillfällen och familjesammankomster. Den är känd för sin kombination av rika kryddor och färska grönsaker.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-014": {
+  "title": "Bolu Kukus Mekar (Ångad Kaka)",
+  "ingredients": {
+   "w-id-014-i1": {
+    "name": "Gula jawa (gula melaka)",
+    "standardAmount": "50 gram"
+   },
+   "w-id-014-i2": {
+    "name": "Kokosmjölk",
+    "standardAmount": "100 ml"
+   },
+   "w-id-014-i3": {
+    "name": "Stora ägg vid rumstemperatur",
+    "standardAmount": "cirka 58-60 gram"
+   },
+   "w-id-014-i4": {
+    "name": "Kristallsocker",
+    "standardAmount": "50 gram"
+   },
+   "w-id-014-i5": {
+    "name": "Olja att laga med",
+    "standardAmount": "80 gram"
+   },
+   "w-id-014-i6": {
+    "name": "Mjöl",
+    "standardAmount": "200 gram"
+   },
+   "w-id-014-i7": {
+    "name": "Salt",
+    "standardAmount": "2 gram"
+   },
+   "w-id-014-i8": {
+    "name": "Bakpulver",
+    "standardAmount": "6 gram"
+   }
+  },
+  "instructions": {
+   "1": "Skär gula melaka litet. Lägg i en gryta med kokosmjölk på låg värme och rör tills sockret är upplöst. Låt blandningen svalna helt innan användning.",
+   "2": "Blanda de torra ingredienserna (mjöl, salt, bakpulver) i en skål och lägg åt sidan.",
+   "3": "Fyll ångkokaren med vatten och börja koka. Se till att det finns tillräckligt med vatten för ångning på hög värme i minst 15 minuter. Linda locket i en handduk så att droppar inte faller på kakorna. Lägg muffinsformar i papper.",
+   "4": "Gör kaksmeten: vispa ägg och kristallsocker tills det är krämigt. Tillsätt olja och blanda väl. Tillsätt den flytande blandningen (gula melaka och kokosmjölk) och blanda väl. Tillsätt de torra ingredienserna och rör tills smeten är slät.",
+   "5": "Häll smeten i pappersformar. Lägg formarna i ångkokaren och ånga i 15 minuter på hög värme.",
+   "6": "Låt kakorna svalna något innan servering."
+  },
+  "culturalNotes": "Bolu kukus mekar är en traditionell indonesisk sötma som ofta serveras vid speciella tillfällen och helger.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-015": {
+  "title": "Bubur Cha Cha",
+  "ingredients": {
+   "w-id-015-i1": {
+    "name": "Orange sötpotatis",
+    "standardAmount": "100 g (cirka 2/3 kopp)"
+   },
+   "w-id-015-i2": {
+    "name": "Lila sötpotatis",
+    "standardAmount": "100 g (cirka 2/3 kopp)"
+   },
+   "w-id-015-i3": {
+    "name": "Gul sötpotatis",
+    "standardAmount": "100 g (cirka 2/3 kopp)"
+   },
+   "w-id-015-i4": {
+    "name": "Taro",
+    "standardAmount": "200 g (cirka 1 1/3 kopp)"
+   },
+   "w-id-015-i5": {
+    "name": "Tapiokapärlor",
+    "standardAmount": "80 g (cirka 1/2 kopp)"
+   },
+   "w-id-015-i6": {
+    "name": "Kokosmjölk",
+    "standardAmount": "250 ml (cirka 1 kopp)"
+   },
+   "w-id-015-i7": {
+    "name": "Vatten",
+    "standardAmount": "500 ml (cirka 2 koppar)"
+   },
+   "w-id-015-i8": {
+    "name": "Socker",
+    "standardAmount": "120 g (cirka 1/2 kopp + 5 tsk, eller mer eller mindre efter smak)"
+   },
+   "w-id-015-i9": {
+    "name": "Salt",
+    "standardAmount": "1/4 tsk"
+   },
+   "w-id-015-i10": {
+    "name": "Pandanblad",
+    "standardAmount": "2 blad (knutet)"
+   }
+  },
+  "instructions": {
+   "1": "Skölj, skala och skär sötpotatisen och taron i små bitar.",
+   "2": "Lägg sötpotatisen och taron i ångkokaren och ånga i 15 minuter tills de är mjuka.",
+   "3": "I en separat gryta, koka tapiokapärlorna i kokande vatten i 10 minuter tills de är genomskinliga och sega.",
+   "4": "I en stor gryta, kombinera kokosmjölk, vatten, socker, salt och pandanblad och koka upp på medelvärme.",
+   "5": "Tillsätt de ångade sötpotatisen, taron och de kokta tapiokapärlorna i kokosmjölksblandningen och blanda väl.",
+   "6": "Koka i ytterligare 5 minuter och stäng sedan av värmen.",
+   "7": "Servera bubur cha cha varm eller kall, som du vill."
+  },
+  "culturalNotes": "Bubur cha cha är en traditionell nyonya-dessert gjord av sötpotatis, taro och tapiokapärlor i kokosmjölk.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-016": {
+  "title": "Bubur Ketan Hitam (Dessert av Svart Klibbigt Ris)",
+  "ingredients": {
+   "w-id-016-i1": {
+    "name": "Svart klibbigt ris",
+    "standardAmount": "200 g"
+   },
+   "w-id-016-i2": {
+    "name": "Kokossocker",
+    "standardAmount": "150 g"
+   },
+   "w-id-016-i3": {
+    "name": "Vatten",
+    "standardAmount": "800 ml (1000 ml om du lagar på spisen)"
+   },
+   "w-id-016-i4": {
+    "name": "Pandanblad",
+    "standardAmount": "3 blad (knutet)"
+   },
+   "w-id-016-i5": {
+    "name": "Kokoskräm",
+    "standardAmount": "1 kopp"
+   },
+   "w-id-016-i6": {
+    "name": "Salt",
+    "standardAmount": "1/4 tsk (eller mer efter smak)"
+   }
+  },
+  "instructions": {
+   "1": "Om du lagar på spisen, blötlägg det svarta klibbiga riset i 30 minuter.",
+   "2": "Vid behov, mixa riset i en mixer eller matberedare.",
+   "3": "Lägg ris, vatten, kokossocker och pandanblad i tryckkokaren.",
+   "4": "Stäng tryckkokarens lock och koka på högt tryck i 20 minuter.",
+   "5": "Efter tillagning, låt trycket släppas naturligt i 10 minuter.",
+   "6": "Tillsätt kokoskrämen och saltet och blanda väl.",
+   "7": "Servera desserten varm eller kall, som du vill."
+  },
+  "culturalNotes": "Bubur ketan hitam är en traditionell indonesisk dessert som ofta serveras vid speciella tillfällen.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-017": {
+  "title": "Cilok Bandung (Tapiokabollar med Jordnötssås)",
+  "ingredients": {
+   "w-id-017-i1": {
+    "name": "Tapiokastärkelse",
+    "standardAmount": "1 kopp 2 1/2 tsk"
+   },
+   "w-id-017-i2": {
+    "name": "Mjöl",
+    "standardAmount": "1/2 kopp + 7 msk"
+   },
+   "w-id-017-i3": {
+    "name": "Salladslök",
+    "standardAmount": "2 stjälkar (göna delar, finhackade)"
+   },
+   "w-id-017-i4": {
+    "name": "Kycklingpulver",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-017-i5": {
+    "name": "Salt",
+    "standardAmount": "1/2 tsk"
+   },
+   "w-id-017-i6": {
+    "name": "Socker",
+    "standardAmount": "1/2 tsk"
+   },
+   "w-id-017-i7": {
+    "name": "Vitpeppar pulver",
+    "standardAmount": "1/2 tsk"
+   },
+   "w-id-017-i8": {
+    "name": "Varmt kokande vatten",
+    "standardAmount": "5 1/2 uns"
+   },
+   "w-id-017-i9": {
+    "name": "Olja att steka i",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-017-i10": {
+    "name": "Rostade osaltade jordnötter",
+    "standardAmount": "1/2 kopp"
+   },
+   "w-id-017-i11": {
+    "name": "Vitlök",
+    "standardAmount": "2 kryddnejlikor"
+   },
+   "w-id-017-i12": {
+    "name": "Chilifrukter",
+    "standardAmount": "3 chilifrukter"
+   },
+   "w-id-017-i13": {
+    "name": "Vatten",
+    "standardAmount": "5 uns"
+   },
+   "w-id-017-i14": {
+    "name": "Tamarindpasta",
+    "standardAmount": "1 msk"
+   },
+   "w-id-017-i15": {
+    "name": "Palmsocker",
+    "standardAmount": "2 msk"
+   },
+   "w-id-017-i16": {
+    "name": "Kecap manis",
+    "standardAmount": "1 msk"
+   },
+   "w-id-017-i17": {
+    "name": "Chilisås efter eget val",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Gör jordnötssåsen: mixa rostade jordnötter, vitlök, chilifrukter, vatten, tamarindpasta, palmsocker, kecap manis och salt i en mixer tills den är slät. Koka på medelvärme i 5 minuter tills den har tjocknat.",
+   "2": "Gör tapiokadegen: blanda i en skål tapiokastärkelse, mjöl, salladslök, kycklingpulver, salt, socker och vitpeppar. Tillsätt det varma kokande vattnet gradvis och knåda till en slät, formbar deg.",
+   "3": "Forma bollar av degen: skär degen i små bitar och forma små bollar.",
+   "4": "Koka tapiokabollarna: koka upp vatten i en gryta och lägg bollarna. Koka i 5 minuter tills de flyter upp.",
+   "5": "Servera: häll jordnötssåsen över de kokta bollarna och servera varma med din favoritchilisås."
+  },
+  "culturalNotes": "Cilok är en populär rätt i Indonesien, särskilt i Bandung. Den serveras som aptitretare eller lätt måltid.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-018": {
+  "title": "Bolu Gulung Kaya (Pandan Kaya Rulle)",
+  "ingredients": {
+   "w-id-018-i1": {
+    "name": "Äggulor",
+    "standardAmount": "4"
+   },
+   "w-id-018-i2": {
+    "name": "Olja att laga med",
+    "standardAmount": "55 g"
+   },
+   "w-id-018-i3": {
+    "name": "Kokosmjölk",
+    "standardAmount": "55 g"
+   },
+   "w-id-018-i4": {
+    "name": "Mjöl",
+    "standardAmount": "65 g"
+   },
+   "w-id-018-i5": {
+    "name": "Salt",
+    "standardAmount": "1/4 tsk"
+   },
+   "w-id-018-i6": {
+    "name": "Äggvitor",
+    "standardAmount": "4"
+   },
+   "w-id-018-i7": {
+    "name": "Socker",
+    "standardAmount": "90 g"
+   },
+   "w-id-018-i8": {
+    "name": "Vinbärssyra",
+    "standardAmount": "1/4 tsk"
+   },
+   "w-id-018-i9": {
+    "name": "Citronjuice eller vinäger",
+    "standardAmount": "1/2 tsk"
+   },
+   "w-id-018-i10": {
+    "name": "Kaya sylt",
+    "standardAmount": "1 recept"
+   }
+  },
+  "instructions": {
+   "1": "Spraya en 9 x 13 x 1 tums form med non-stick spray eller smörj med olja och täck botten och kanter med bakplåtspapper.",
+   "2": "Gör kaksmeten: blanda äggulorna väl med olja och kokosmjölk. Tillsätt mjöl och salt och rör tills smeten är slät.",
+   "3": "Gör marängen: vispa äggvitorna med socker och vinbärssyra (eller citronjuice eller vinäger) tills de bildar styva toppar.",
+   "4": "Vänd försiktigt in marängen i kaksmeten tills allt är väl blandat.",
+   "5": "Häll smeten i den förberedda formen och jämna ut jämnt.",
+   "6": "Grädda i en förvärmd ugn på 180°C (350°F) i 15-20 minuter eller tills den är gyllene.",
+   "7": "Låt kakan svalna något och skär sedan av alla fyra kanterna.",
+   "8": "Gör 4 grunda snitt i kakans yta.",
+   "9": "Bred kaya sylt på kakans yta.",
+   "10": "Rulla försiktigt kakan med hjälp av bakplåtspapperet för att behålla formen.",
+   "11": "Ta bort bakplåtspapperet omedelbart efter rullning.",
+   "12": "Servera varm eller kall, som du vill."
+  },
+  "culturalNotes": "Srikaya är en sorts sylt gjord av kokosmjölk och ägg, populär i det indonesiska och malaysiska köket.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-019": {
+  "title": "Kari Ayam (Indonesisk Kycklingkarry)",
+  "ingredients": {
+   "w-id-019-i1": {
+    "name": "Kycklingkött utan ben och skinn",
+    "standardAmount": "1 pund"
+   },
+   "w-id-019-i2": {
+    "name": "Asiatisk schalottenlök, hackad",
+    "standardAmount": "5 schalottenlök"
+   },
+   "w-id-019-i3": {
+    "name": "Vitlök, hackad",
+    "standardAmount": "2 kryddnejlikor"
+   },
+   "w-id-019-i4": {
+    "name": "Ingefära, hackad",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-019-i5": {
+    "name": "Citronelle, hackad",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-019-i6": {
+    "name": "Kemirinötter, malda",
+    "standardAmount": "6 nötter"
+   },
+   "w-id-019-i7": {
+    "name": "Salamblad",
+    "standardAmount": "2 blad"
+   },
+   "w-id-019-i8": {
+    "name": "Kaffir limeblad",
+    "standardAmount": "4 blad"
+   },
+   "w-id-019-i9": {
+    "name": "Gurkmerot, malen",
+    "standardAmount": "½ tsk"
+   },
+   "w-id-019-i10": {
+    "name": "Galangalrot, malen",
+    "standardAmount": "½ tsk"
+   },
+   "w-id-019-i11": {
+    "name": "Kokosmjölk",
+    "standardAmount": "1 kopp"
+   },
+   "w-id-019-i12": {
+    "name": "Salt",
+    "standardAmount": "½ tsk eller efter smak"
+   },
+   "w-id-019-i13": {
+    "name": "Gula jawa",
+    "standardAmount": "2 msk"
+   },
+   "w-id-019-i14": {
+    "name": "Olja att laga med",
+    "standardAmount": "2 msk"
+   },
+   "w-id-019-i15": {
+    "name": "Starka chilifrukter",
+    "standardAmount": "2 chilifrukter"
+   },
+   "w-id-019-i16": {
+    "name": "Terasi (fermenterad räkpasta)",
+    "standardAmount": "¼ tsk"
+   }
+  },
+  "instructions": {
+   "1": "Skölj kycklingbitarna.",
+   "2": "I en matberedare eller mortel, mixa vitlök, ingefära, kemirinötter, gurkmeja, galangal, starka chilifrukter (om använda) och terasi till en pasta (bumbu).",
+   "3": "Stek pastan i en wok eller stekpanna på medelvärme i 1 minut.",
+   "4": "Tillsätt kycklingbitarna i woken och stek tills de är gyllene.",
+   "5": "Tillsätt schalottenlök, citronelle, kaffir limeblad och salamblad i woken och stek i ytterligare en minut.",
+   "6": "Tillsätt kokosmjölk och koka upp försiktigt.",
+   "7": "Koka på låg värme i 10 minuter."
+  },
+  "culturalNotes": "Indonesisk karry är en populär indonesisk rätt känd för sin rika och komplexa smak.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-020": {
+  "title": "Dadar Gulung (Pannkakor med Kokoskola)",
+  "ingredients": {
+   "w-id-020-i1": {
+    "name": "Färsk mjölk",
+    "standardAmount": "250 ml"
+   },
+   "w-id-020-i2": {
+    "name": "Vitt socker",
+    "standardAmount": "35 g"
+   },
+   "w-id-020-i3": {
+    "name": "Ägg",
+    "standardAmount": "2"
+   },
+   "w-id-020-i4": {
+    "name": "Salt",
+    "standardAmount": "2 g"
+   },
+   "w-id-020-i5": {
+    "name": "Pandansaft",
+    "standardAmount": "2 msk"
+   },
+   "w-id-020-i6": {
+    "name": "Mjöl",
+    "standardAmount": "75 g"
+   },
+   "w-id-020-i7": {
+    "name": "Smält smör",
+    "standardAmount": "25 g"
+   },
+   "w-id-020-i8": {
+    "name": "Rivet kokos",
+    "standardAmount": "150 g"
+   },
+   "w-id-020-i9": {
+    "name": "Palmsocker",
+    "standardAmount": "100 g"
+   },
+   "w-id-020-i10": {
+    "name": "Vatten",
+    "standardAmount": "75 ml"
+   },
+   "w-id-020-i11": {
+    "name": "Salt",
+    "standardAmount": "1 g"
+   },
+   "w-id-020-i12": {
+    "name": "Pandanblad",
+    "standardAmount": "liten bit"
+   }
+  },
+  "instructions": {
+   "1": "Lägg alla pannkaksingredienser i en stor skål.",
+   "2": "Vispa ingredienserna väl.",
+   "3": "Vid behov, sila blandningen för att ta bort klumpar.",
+   "4": "Värm en non-stick stekpanna och smörj med extra smör.",
+   "5": "Häll pannkaksblandningen med en soppslev i stekpannan så att botten täcks med ett tunt lager.",
+   "6": "Vänd pannkakan så snart den är lagad.",
+   "7": "Upprepa tills blandningen är slut.",
+   "8": "Lägg vatten och socker i en gryta och värm tills sockret är upplöst.",
+   "9": "Tillsätt de resterande fyllningsingredienserna och koka tills all vätska har avdunstat.",
+   "10": "Ta bort blandningen från värmen och kasta det kokta pandanbladet.",
+   "11": "Lägg en lika stor mängd fyllning på varje pannkaka.",
+   "12": "Rulla pannkakorna som ett paket och garnera med ett färskt pandanblad."
+  },
+  "culturalNotes": "Dadar gulung är en traditionell indonesisk rätt som ofta serveras som frukost eller lätt dessert.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-021": {
+  "title": "Daun Ubi Tumbuk (Mosade Kassavablad i Kokosmjölk)",
+  "ingredients": {
+   "w-id-021-i1": {
+    "name": "Kassavablad",
+    "standardAmount": "200 g"
+   },
+   "w-id-021-i2": {
+    "name": "Ärtor aubergine",
+    "standardAmount": "100 g"
+   },
+   "w-id-021-i3": {
+    "name": "Fackel-ingefärsblomknopp",
+    "standardAmount": "1 knopp"
+   },
+   "w-id-021-i4": {
+    "name": "Små ansjovis",
+    "standardAmount": "3 msk"
+   },
+   "w-id-021-i5": {
+    "name": "Olja att laga med",
+    "standardAmount": "4 msk"
+   },
+   "w-id-021-i6": {
+    "name": "Kaffir limeblad",
+    "standardAmount": "4 blad"
+   },
+   "w-id-021-i7": {
+    "name": "Vatten",
+    "standardAmount": "400 ml"
+   },
+   "w-id-021-i8": {
+    "name": "Tjock kokosmjölk",
+    "standardAmount": "500 ml"
+   },
+   "w-id-021-i9": {
+    "name": "Schalottenlök",
+    "standardAmount": "6 schalottenlök"
+   },
+   "w-id-021-i10": {
+    "name": "Vitlök",
+    "standardAmount": "3 kryddnejlikor"
+   },
+   "w-id-021-i11": {
+    "name": "Röda chilifrukter",
+    "standardAmount": "8 chilifrukter"
+   },
+   "w-id-021-i12": {
+    "name": "Ingefära",
+    "standardAmount": "1 tum"
+   },
+   "w-id-021-i13": {
+    "name": "Gurkmeja",
+    "standardAmount": "1 tum eller 1 msk pulver"
+   },
+   "w-id-021-i14": {
+    "name": "Citronelle",
+    "standardAmount": "1 stjälk (endast den vita delen)"
+   },
+   "w-id-021-i15": {
+    "name": "Socker",
+    "standardAmount": "1 msk"
+   },
+   "w-id-021-i16": {
+    "name": "Salt",
+    "standardAmount": "2 tsk (eller mer efter smak)"
+   },
+   "w-id-021-i17": {
+    "name": "Kycklingpulver",
+    "standardAmount": "1 tsk"
+   }
+  },
+  "instructions": {
+   "1": "Skölj kassavabladen och skär smått.",
+   "2": "Skölj ärtor aubergine och halvera.",
+   "3": "Om du använder torkade räkor istället för ansjovis, skölj och blötlägg i varmt vatten för att mjukna, hacka sedan fint och lägg åt sidan.",
+   "4": "Mosa i en skål schalottenlök, vitlök, röda chilifrukter, ingefära och gurkmeja till en slät pasta.",
+   "5": "Värm olja i en gryta på medelvärme, tillsätt de mosade kryddorna och stek i 2-3 minuter tills de är gyllene.",
+   "6": "Tillsätt kaffir limeblad, fackel-ingefärsblomknopp och citronelle och stek i en minut.",
+   "7": "Tillsätt vatten och koka upp, tillsätt sedan kassavablad, ärtor aubergine och ansjovis (eller torkade räkor) och rör.",
+   "8": "Tillsätt tjock kokosmjölk, socker och salt (och kycklingpulver, om använt) och sjuda på låg värme i 20-25 minuter tills bladen är mjuka.",
+   "9": "Servera rätten varm."
+  },
+  "culturalNotes": "Daun ubi tumbuk är en traditionell indonesisk rätt som vanligtvis serveras som en del av lunch eller middag.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-022": {
+  "title": "Dendeng Balado",
+  "ingredients": {
+   "w-id-022-i1": {
+    "name": "Nötfilé",
+    "standardAmount": "1 pund"
+   },
+   "w-id-022-i2": {
+    "name": "Korianderfrön",
+    "standardAmount": "1 msk"
+   },
+   "w-id-022-i3": {
+    "name": "Schalottenlök, skalad",
+    "standardAmount": "5 schalottenlök"
+   },
+   "w-id-022-i4": {
+    "name": "Vitlök, skalad",
+    "standardAmount": "3 kryddnejlikor"
+   },
+   "w-id-022-i5": {
+    "name": "Salt",
+    "standardAmount": "1/2 tsk"
+   },
+   "w-id-022-i6": {
+    "name": "Olja att laga med",
+    "standardAmount": "1 msk"
+   },
+   "w-id-022-i7": {
+    "name": "Sambal ijo (för servering)",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Lägg alla kryddpasta ingredienser i en matberedare och mixa till en pasta. Tillsätt lite vatten om det behövs.",
+   "2": "Gnugga nötköttet i marinaden och marinera i 30 minuter.",
+   "3": "Lägg nötköttet i en medelstor gryta. Tillsätt precis tillräckligt med vatten för att täcka köttet och sjuda i cirka 45 minuter till 1 timme tills köttet är kokt men inte sönderfallande.",
+   "4": "Ta ut köttet ur grytan och låt svalna något. Skär köttet tunt mot fibrerna. Använd ett tungt föremål som en mortelstöt för att platta köttet till cirka 1/4 tum tjockt.",
+   "5": "Värm cirka 1 matsked olja i en liten till medelstor non-stick stekpanna. Stek nötskivorna tills de är lätt bruna och torra.",
+   "6": "Servera dendeng med sambal."
+  },
+  "culturalNotes": "Dendeng balado är en traditionell indonesisk rätt som ofta serveras med ris och sambal.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-023": {
+  "title": "Krabb-Räk Omelett (Egg Foo Young)",
+  "ingredients": {
+   "w-id-023-i1": {
+    "name": "Ägg",
+    "standardAmount": "6 stora ägg"
+   },
+   "w-id-023-i2": {
+    "name": "Sesamolja",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-023-i3": {
+    "name": "Vitlök",
+    "standardAmount": "1 tsk finhackad"
+   },
+   "w-id-023-i4": {
+    "name": "Morot",
+    "standardAmount": "1/2 kopp strimlad"
+   },
+   "w-id-023-i5": {
+    "name": "Krabbkött",
+    "standardAmount": "3 uns"
+   },
+   "w-id-023-i6": {
+    "name": "Räkor",
+    "standardAmount": "3 uns skalad och urtarmad"
+   },
+   "w-id-023-i7": {
+    "name": "Olja att laga med",
+    "standardAmount": "1/3 kopp eller mer vid behov"
+   },
+   "w-id-023-i8": {
+    "name": "Socker",
+    "standardAmount": "1/4 tsk"
+   },
+   "w-id-023-i9": {
+    "name": "Sojasås",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-023-i10": {
+    "name": "Vitpeppar",
+    "standardAmount": "1/4 tsk"
+   },
+   "w-id-023-i11": {
+    "name": "Kycklingbuljong",
+    "standardAmount": "1 kopp"
+   },
+   "w-id-023-i12": {
+    "name": "Sesamolja",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-023-i13": {
+    "name": "Ostronsås",
+    "standardAmount": "1 msk"
+   },
+   "w-id-023-i14": {
+    "name": "Socker",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-023-i15": {
+    "name": "Majsstärkelse",
+    "standardAmount": "1.5 msk"
+   },
+   "w-id-023-i16": {
+    "name": "Salladslök",
+    "standardAmount": "1 stjälk, vita delar, finhackade"
+   },
+   "w-id-023-i17": {
+    "name": "Salladslök",
+    "standardAmount": "göna delar"
+   }
+  },
+  "instructions": {
+   "1": "Förbered proteinerna separat: värm 1 tesked sesamolja i en stekpanna och stek den hackade vitlöken i 1 minut. Tillsätt den rivna moroten och stek i 1 minut. Tillsätt krabbkött och hackade räkor och stek i 2-3 minuter tills de är vita. Lägg åt sidan.",
+   "2": "Gör äggblandningen: i en skål, vispa äggen med 1 tesked sesamolja, socker, sojasås och vitpeppar. Tillsätt de förberedda proteinerna och rivna moroten och blanda väl.",
+   "3": "Stek egg foo young: värm 1/3 kopp olja i en stor stekpanna på medelvärme. Tillsätt äggblandningen och rör försiktigt tills den är gyllene. Stek i omgångar om det behövs.",
+   "4": "Gör såsen: i en liten skål, blanda kycklingbuljong, sesamolja, ostronsås, sojasås, socker och majsstärkelse. Häll blandningen i en stekpanna på medelvärme och rör tills den har tjocknat.",
+   "5": "Servera egg foo young med såsen över och garnera med den gröna delen av salladslöken."
+  },
+  "culturalNotes": "Egg foo young är en populär kinesisk rätt i Indonesien, ofta serverad som en del av kinesisk-indonesiska rätter.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-024": {
+  "title": "Empanadadeg",
+  "ingredients": {
+   "w-id-024-i1": {
+    "name": "Mjöl",
+    "standardAmount": "2 koppar"
+   },
+   "w-id-024-i2": {
+    "name": "Socker",
+    "standardAmount": "1 msk"
+   },
+   "w-id-024-i3": {
+    "name": "Salt",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-024-i4": {
+    "name": "Smör",
+    "standardAmount": "8 msk (kall)"
+   },
+   "w-id-024-i5": {
+    "name": "Isvatten",
+    "standardAmount": "2/3-3/4 kopp"
+   }
+  },
+  "instructions": {
+   "1": "I en medelstor skål, blanda socker och salt med mjölet.",
+   "2": "Med en degkniv (eller två knivar), skär smöret i mjölet tills det är i ärtor-storlek.",
+   "3": "Tillsätt vatten gradvis tills en lös deg bildas.",
+   "4": "Samla med händerna. Degen känns något torr vid beröring. Forma 2 platta skivor, linda in i plastfolie och lägg i kylskåpet medan du gör fyllningen.",
+   "5": "Efter minst 30 minuter, ta ut degen ur kylskåpet och kavla tunt på en lätt mjölad yta.",
+   "6": "Skär former och fyll (använd en rund skärare med 3 1/2 eller 5 tum diameter). Vik kanterna för att försegla.",
+   "7": "Nu kan du göra vad du vill, från nötköttsempanador till äppleempanador!"
+  },
+  "culturalNotes": "Empanador är en populär rätt i Indonesien: deg fylld med kött, grönsaker eller frukt.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-025": {
+  "title": "Gado-Gado (Indonesisk Sallad med Jordnötssås)",
+  "ingredients": {
+   "w-id-025-i1": {
+    "name": "Jordnötter",
+    "standardAmount": "300 g"
+   },
+   "w-id-025-i2": {
+    "name": "Vegetabilisk olja",
+    "standardAmount": "vid behov"
+   },
+   "w-id-025-i3": {
+    "name": "Färska eller torkade chilifrukter",
+    "standardAmount": "efter smak"
+   },
+   "w-id-025-i4": {
+    "name": "Vitlök",
+    "standardAmount": "1 kryddnejlika"
+   },
+   "w-id-025-i5": {
+    "name": "Salt",
+    "standardAmount": "efter smak"
+   },
+   "w-id-025-i6": {
+    "name": "Gula jawa (indonesiskt palmsocker)",
+    "standardAmount": "125 g"
+   },
+   "w-id-025-i7": {
+    "name": "Schalottenlök",
+    "standardAmount": "4 schalottenlök"
+   },
+   "w-id-025-i8": {
+    "name": "Färsk limejuice eller risvinäger",
+    "standardAmount": "efter smak"
+   },
+   "w-id-025-i9": {
+    "name": "Terasi (fermenterad räkpasta)",
+    "standardAmount": "1 g"
+   }
+  },
+  "instructions": {
+   "1": "Stek terasi i vegetabilisk olja tills den är aromatisk.",
+   "2": "Stek jordnötterna tills de är gyllene. Ta ut ur stekpannan, låt svalna och låt extra olja rinna av.",
+   "3": "Mixa jordnötterna till en pasta.",
+   "4": "Tillsätt de malda chilifrukterna, vitlöken, saltet, sockret och terasin i jordnötspastan. Mixa för att blanda.",
+   "5": "Lägg jordnötspastan i en stekpanna och tillsätt vatten för att späda (använd kokosmjölk för en rikare smak).",
+   "6": "Tillsätt i jordnötssåsen, efter smak, mer socker och koka upp.",
+   "7": "Koka jordnötssåsen tills den har tjocknat och justera smaken med limejuice eller vinäger."
+  },
+  "culturalNotes": "Gado-gado är en traditionell indonesisk sallad som vanligtvis serveras med kryddig och söt jordnötssås.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-026": {
+  "title": "Cincau (Gräsgelé)",
+  "ingredients": {
+   "w-id-026-i1": {
+    "name": "Gräsgelé pulver",
+    "standardAmount": "1.8 uns"
+   },
+   "w-id-026-i2": {
+    "name": "Vatten",
+    "standardAmount": "4 koppar"
+   },
+   "w-id-026-i3": {
+    "name": "Socker",
+    "standardAmount": "1/4 kopp"
+   },
+   "w-id-026-i4": {
+    "name": "Palmsocker (eller kokossocker)",
+    "standardAmount": "1/3 kopp"
+   },
+   "w-id-026-i5": {
+    "name": "Kall mjölk (eller soja eller vald mjölk)",
+    "standardAmount": "efter smak"
+   },
+   "w-id-026-i6": {
+    "name": "Sötad kondenserad mjölk (eller osötad)",
+    "standardAmount": "efter smak"
+   },
+   "w-id-026-i7": {
+    "name": "Kokosmjölk",
+    "standardAmount": "efter smak"
+   },
+   "w-id-026-i8": {
+    "name": "Söta adzukibönor",
+    "standardAmount": "efter smak"
+   },
+   "w-id-026-i9": {
+    "name": "Palmkärnor (kolang kaling)",
+    "standardAmount": "efter smak"
+   },
+   "w-id-026-i10": {
+    "name": "Mango eller andra färska frukter efter val, tärnade eller skivade",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Blanda gräsgelé pulver i en skål med 4 koppar vatten.",
+   "2": "Koka upp blandningen på medelvärme och rör kontinuerligt i 10 minuter tills pulvret är helt upplöst.",
+   "3": "Tillsätt socker och palmsocker och rör väl i 5 minuter tills sockret är upplöst.",
+   "4": "Häll blandningen i en form eller glas och låt svalna i 15 minuter, lägg sedan i kylskåpet i 2 timmar för att stelna.",
+   "5": "Gör palmsocker sirap: blanda 1/3 kopp palmsocker med 1/3 kopp vatten och koka i 5 minuter till en sirap.",
+   "6": "Gör cincau-drycken: blanda gräsgelébitarna med kall mjölk och palmsocker sirap efter smak.",
+   "7": "Gör cincau-desserten: blanda gräsgelébitarna med sötad kondenserad mjölk, kokosmjölk, söta adzukibönor, kolang kaling och mango efter smak."
+  },
+  "culturalNotes": "Cincau är en populär dryck och dessert i Indonesien, serverad i ett glas, kall.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-027": {
+  "title": "Gudeg (Gudeg från Yogyakarta)",
+  "ingredients": {
+   "w-id-027-i1": {
+    "name": "Olja att laga med",
+    "standardAmount": "1 msk"
+   },
+   "w-id-027-i2": {
+    "name": "Salamblad",
+    "standardAmount": "4 blad"
+   },
+   "w-id-027-i3": {
+    "name": "Kycklinglår/drumsticks med ben",
+    "standardAmount": "4 bitar"
+   },
+   "w-id-027-i4": {
+    "name": "Ung jackfrukt",
+    "standardAmount": "1 1/2 pund (konserverad)"
+   },
+   "w-id-027-i5": {
+    "name": "Adzukibönor",
+    "standardAmount": "1/2 kopp (blötlagd i 4 timmar)"
+   },
+   "w-id-027-i6": {
+    "name": "Kokosmjölk",
+    "standardAmount": "6 koppar"
+   },
+   "w-id-027-i7": {
+    "name": "Svart tepåse",
+    "standardAmount": "1 påse"
+   },
+   "w-id-027-i8": {
+    "name": "Palmsocker",
+    "standardAmount": "50 g"
+   },
+   "w-id-027-i9": {
+    "name": "Salt",
+    "standardAmount": "nypa"
+   },
+   "w-id-027-i10": {
+    "name": "Kokta ägg",
+    "standardAmount": "4 ägg"
+   },
+   "w-id-027-i11": {
+    "name": "Vitlök",
+    "standardAmount": "4 kryddnejlikor"
+   },
+   "w-id-027-i12": {
+    "name": "Korianderfrön",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-027-i13": {
+    "name": "Kemirinötter",
+    "standardAmount": "8 nötter"
+   },
+   "w-id-027-i14": {
+    "name": "Schalottenlök",
+    "standardAmount": "3 schalottenlök"
+   },
+   "w-id-027-i15": {
+    "name": "Ingefära",
+    "standardAmount": "1 tum"
+   },
+   "w-id-027-i16": {
+    "name": "Galangal",
+    "standardAmount": "2 tum"
+   }
+  },
+  "instructions": {
+   "1": "Lägg alla malda kryddingredienser i en matberedare och mixa till en pasta. Tillsätt lite vatten för att starta processen om det behövs.",
+   "2": "Förvärm en stor gryta eller dutch oven med olja. Tillsätt de malda kryddorna och salambladen och stek i cirka 5 minuter tills de är aromatiska.",
+   "3": "Tillsätt kyckling, jackfrukt och adzukibönor och rör. Häll kokosmjölk, tepåsen, salt och brunt socker. Koka upp, sänk värmen, täck och koka i 1 timme.",
+   "4": "Ta av locket, tillsätt de kokta äggen och koka i cirka ytterligare en timme tills jackfrukten är mjuk nog att lätt rivas med en gaffel. Bönerna ska vara mjuka och kycklingen ska nästan lossna från benen. Vid denna tidpunkt bör vätskan vara nästan helt absorberad och äggen bör ha en vacker brun färg."
+  },
+  "culturalNotes": "Gudeg är en traditionell rätt från Yogyakarta, Indonesien, vanligtvis serverad med ris och sambal.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-028": {
+  "title": "Hagelslag (Bröd med Chokladströssel)",
+  "ingredients": {
+   "w-id-028-i1": {
+    "name": "Brödskiva",
+    "standardAmount": "1 skiva"
+   },
+   "w-id-028-i2": {
+    "name": "Chokladströssel",
+    "standardAmount": "1 msk"
+   },
+   "w-id-028-i3": {
+    "name": "Smör",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Bred en brödskiva med mjukt smör.",
+   "2": "Strö chokladströssel på det smörade brödet.",
+   "3": "Servera och njut!"
+  },
+  "culturalNotes": "Hagelslag är en populär holländsk frukost som kom till Indonesien under kolonialtiden.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-029": {
+  "title": "Grillad Fisk med Kryddig Sås Padang-stil",
+  "ingredients": {
+   "w-id-029-i1": {
+    "name": "Stora hela fiskar",
+    "standardAmount": "2 stora hela fiskar"
+   },
+   "w-id-029-i2": {
+    "name": "Olja att laga med",
+    "standardAmount": "1 msk + mer att pensla"
+   },
+   "w-id-029-i3": {
+    "name": "Lime- eller citronjuice",
+    "standardAmount": "saft från 1 lime"
+   },
+   "w-id-029-i4": {
+    "name": "Koriander pulver",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-029-i5": {
+    "name": "Salt och vitpeppar pulver",
+    "standardAmount": "en nypa"
+   },
+   "w-id-029-i6": {
+    "name": "Röda chilifrukter",
+    "standardAmount": "200 g"
+   },
+   "w-id-029-i7": {
+    "name": "Thailändska chilifrukter",
+    "standardAmount": "3 (valfritt)"
+   },
+   "w-id-029-i8": {
+    "name": "Vitlök",
+    "standardAmount": "4 kryddnejlikor"
+   },
+   "w-id-029-i9": {
+    "name": "Schalottenlök",
+    "standardAmount": "4"
+   },
+   "w-id-029-i10": {
+    "name": "Ingefära",
+    "standardAmount": "1 tum"
+   },
+   "w-id-029-i11": {
+    "name": "Galangal",
+    "standardAmount": "1 tum (eller 1 msk pulver)"
+   },
+   "w-id-029-i12": {
+    "name": "Gurkmeja",
+    "standardAmount": "1 tum (eller 1 tsk pulver)"
+   },
+   "w-id-029-i13": {
+    "name": "Kaffir limeblad",
+    "standardAmount": "2"
+   },
+   "w-id-029-i14": {
+    "name": "Salamblad",
+    "standardAmount": "2"
+   },
+   "w-id-029-i15": {
+    "name": "Citronelle",
+    "standardAmount": "1 stjälk"
+   },
+   "w-id-029-i16": {
+    "name": "Socker",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-029-i17": {
+    "name": "Salt",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-029-i18": {
+    "name": "Vitpeppar pulver",
+    "standardAmount": "1/2 tsk"
+   }
+  },
+  "instructions": {
+   "1": "Marinera fiskarna i blandningen av limejuice, koriander pulver, salt och vitpeppar i 15 minuter.",
+   "2": "Förvärm ugnen till 200°C (400°F).",
+   "3": "Mixa i en skål röda chilifrukter, thailändska chilifrukter, vitlök, schalottenlök, ingefära, galangal, gurkmeja, kaffir limeblad, salamblad, citronelle, socker, salt och vitpeppar till en slät pasta.",
+   "4": "Lägg fiskarna i en ugnsform och täck med den kryddiga såsen.",
+   "5": "Smörj fiskarna med olja och grilla i 10 minuter på varje sida eller grädda i ugnen i 20 minuter.",
+   "6": "Servera den grillade fisken varm med den kryddiga såsen."
+  },
+  "culturalNotes": "Grillad fisk med kryddig sås Padang-stil är en berömd rätt i det indonesiska köket, särskilt från Padang-regionen.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-030": {
+  "title": "Kastengel (Holländsk-Indonesiska Ostkakor)",
+  "ingredients": {
+   "w-id-030-i1": {
+    "name": "Smör",
+    "standardAmount": "150 g"
+   },
+   "w-id-030-i2": {
+    "name": "Äggula",
+    "standardAmount": "1"
+   },
+   "w-id-030-i3": {
+    "name": "Edamost, riven",
+    "standardAmount": "75 g (riven)"
+   },
+   "w-id-030-i4": {
+    "name": "Parmesanost, riven",
+    "standardAmount": "75 g (riven)"
+   },
+   "w-id-030-i5": {
+    "name": "Mjöl",
+    "standardAmount": "200 g"
+   },
+   "w-id-030-i6": {
+    "name": "Mjölkpulver",
+    "standardAmount": "15 g"
+   },
+   "w-id-030-i7": {
+    "name": "Kycklingpulver",
+    "standardAmount": "1/4 tsk"
+   },
+   "w-id-030-i8": {
+    "name": "Äggula (för pensling)",
+    "standardAmount": "1"
+   },
+   "w-id-030-i9": {
+    "name": "Edamost (för ströende)",
+    "standardAmount": "vid behov"
+   }
+  },
+  "instructions": {
+   "1": "Blanda smör och äggula väl.",
+   "2": "Tillsätt riven ost, mjöl, mjölkpulver och kycklingpulver. Blanda ingredienserna väl till en deg.",
+   "3": "Täck degen och lägg i kylskåpet i 30 minuter.",
+   "4": "Forma degen i små bitar och lägg på en bakplåt med bakplåtspapper.",
+   "5": "Pensla degen med äggula och strö riven ost.",
+   "6": "Grädda kastengel i en förvärmd ugn på 180°C (350°F) i 20 minuter eller tills de är gyllene.",
+   "7": "Låt svalna och servera."
+  },
+  "culturalNotes": "Kastengel är en populär holländsk-indonesisk mellanmål som ofta serveras vid speciella tillfällen.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-031": {
+  "title": "Karedok",
+  "ingredients": {
+   "w-id-031-i1": {
+    "name": "Stor gurka",
+    "standardAmount": "1 gurka (skalad, halverad och skivad)"
+   },
+   "w-id-031-i2": {
+    "name": "Medelstor grön kål",
+    "standardAmount": "1/4 kål (skuren i strimlor)"
+   },
+   "w-id-031-i3": {
+    "name": "Långa bönor",
+    "standardAmount": "1 kopp (blancherad och skuren i bitar)"
+   },
+   "w-id-031-i4": {
+    "name": "Liten aubergine",
+    "standardAmount": "1 aubergine (skivad)"
+   },
+   "w-id-031-i5": {
+    "name": "Mungbönsskott",
+    "standardAmount": "2 koppar (tvättad och avrunnen)"
+   },
+   "w-id-031-i6": {
+    "name": "Kencur (Kaempferia galanga)",
+    "standardAmount": "bit på 2 tum (eller 1-tum ingefära och 1-tum galangal)"
+   },
+   "w-id-031-i7": {
+    "name": "Röd chilipasta",
+    "standardAmount": "1 msk (mer om så önskas)"
+   },
+   "w-id-031-i8": {
+    "name": "Vitlök",
+    "standardAmount": "5 kryddnejlikor (finhackad)"
+   },
+   "w-id-031-i9": {
+    "name": "Räkpasta",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-031-i10": {
+    "name": "Tamarindjuice",
+    "standardAmount": "1 msk"
+   },
+   "w-id-031-i11": {
+    "name": "Indonesiskt palmsocker",
+    "standardAmount": "2 uns (eller brunt socker)"
+   },
+   "w-id-031-i12": {
+    "name": "Salt",
+    "standardAmount": "2 tsk"
+   }
+  },
+  "instructions": {
+   "1": "Skär gurka, kål, aubergine, långa bönor och skott och lägg i en stor salladsskål.",
+   "2": "Mixa dressing ingredienserna i en matberedare till en pasta. Lite vatten kan behövas för att underlätta processen.",
+   "3": "Precis innan servering, häll dressingen över salladen och blanda allt väl."
+  },
+  "culturalNotes": "Karedok är en traditionell indonesisk grönsakssallad från Västra Java, känd för sin sötsura dressing.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-032": {
+  "title": "Ketoprak (Indonesisk Sallad av Risnudlar och Tofu)",
+  "ingredients": {
+   "w-id-032-i1": {
+    "name": "Fast tofu",
+    "standardAmount": "1 bit"
+   },
+   "w-id-032-i2": {
+    "name": "Mungbönsskott",
+    "standardAmount": "2 koppar"
+   },
+   "w-id-032-i3": {
+    "name": "Torkade risstång nudlar",
+    "standardAmount": "250 g"
+   },
+   "w-id-032-i4": {
+    "name": "Vitlök",
+    "standardAmount": "3 kryddnejlikor"
+   },
+   "w-id-032-i5": {
+    "name": "Röda chilifrukter",
+    "standardAmount": "6 chilifrukter"
+   },
+   "w-id-032-i6": {
+    "name": "Rostade jordnötter",
+    "standardAmount": "100 g"
+   },
+   "w-id-032-i7": {
+    "name": "Brunt socker",
+    "standardAmount": "1 msk"
+   },
+   "w-id-032-i8": {
+    "name": "Tamarindpasta",
+    "standardAmount": "bit på 2 tum"
+   },
+   "w-id-032-i9": {
+    "name": "Varmt vatten",
+    "standardAmount": "200 ml"
+   },
+   "w-id-032-i10": {
+    "name": "Thailändska chilifrukter",
+    "standardAmount": "2-3 chilifrukter"
+   },
+   "w-id-032-i11": {
+    "name": "Indonesisk söt sojasås",
+    "standardAmount": "efter smak"
+   },
+   "w-id-032-i12": {
+    "name": "Stekt schalottenlök",
+    "standardAmount": "efter smak"
+   },
+   "w-id-032-i13": {
+    "name": "Räkkex",
+    "standardAmount": "efter smak"
+   },
+   "w-id-032-i14": {
+    "name": "Kokta ägg",
+    "standardAmount": "2 ägg (delad i fjärdedelar)"
+   },
+   "w-id-032-i15": {
+    "name": "Gurka",
+    "standardAmount": "1 stor gurka"
+   }
+  },
+  "instructions": {
+   "1": "Koka kort de torkade risnudlarna i varmt vatten tills de är mjuka men inte sönderkokta. Sila och skölj med kallt vatten. Lägg åt sidan.",
+   "2": "Skala gurkan och halvera på längden. Skrapa ut kärnorna med en sked och skär i bitar på 1 tum tjocklek.",
+   "3": "Gör jordnötsdressingen: mosa i en skål vitlök och röda chilifrukter. Tillsätt rostade jordnötter, brunt socker, tamarindpasta och varmt vatten. Rör väl tills dressingen är slät.",
+   "4": "Skär tofun i små tärningar och stek i vegetabilisk olja tills den är gyllene. Sila och lägg åt sidan.",
+   "5": "I en stor skål, blanda nudlar, skott, gurka, kokta ägg och stekt schalottenlök. Tillsätt jordnötsdressingen och blanda väl.",
+   "6": "Servera ketoprak på en tallrik med räkkex ovanpå."
+  },
+  "culturalNotes": "Ketoprak är en populär indonesisk rätt som ofta serveras som mellanmål eller lätt lunch.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-033": {
+  "title": "Ketupat och Lontong (Ristårtor)",
+  "ingredients": {
+   "w-id-033-i1": {
+    "name": "Jasminris",
+    "standardAmount": "2 koppar"
+   },
+   "w-id-033-i2": {
+    "name": "Vatten",
+    "standardAmount": "4 koppar"
+   },
+   "w-id-033-i3": {
+    "name": "Salt",
+    "standardAmount": "1 tsk"
+   }
+  },
+  "instructions": {
+   "1": "Skölj riset flera gånger i färskt vatten och sila helt.",
+   "2": "Använd måttkoppen som följer med riskokaren eller en annan måttkopp, men mät ris och vätska i samma kopp.",
+   "3": "Lägg ris, vatten och salt i riskokaren eller den elektriska tryckkokaren.",
+   "4": "Koka i den elektriska tryckkokaren på högt tryck i 10 minuter och låt trycket släppas naturligt i 10 minuter.",
+   "5": "Eller använd den elektriska tryckkokarens Rice-funktion och koka i 20 minuter.",
+   "6": "Forma riset i ketupat- eller lontong-former."
+  },
+  "culturalNotes": "Ketupat och lontong är vanliga ristårtor i Indonesien, ofta serverade med såser eller kött.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-034": {
+  "title": "Kripik Kentang Balado",
+  "ingredients": {
+   "w-id-034-i1": {
+    "name": "Potatisar",
+    "standardAmount": "500 g"
+   },
+   "w-id-034-i2": {
+    "name": "Olja att steka i",
+    "standardAmount": "vid behov"
+   },
+   "w-id-034-i3": {
+    "name": "Potatischips",
+    "standardAmount": "150 g"
+   },
+   "w-id-034-i4": {
+    "name": "Olja att steka i",
+    "standardAmount": "50 g"
+   },
+   "w-id-034-i5": {
+    "name": "Schalottenlök",
+    "standardAmount": "2 schalottenlök"
+   },
+   "w-id-034-i6": {
+    "name": "Kaffir limeblad",
+    "standardAmount": "4 blad"
+   },
+   "w-id-034-i7": {
+    "name": "Salamblad",
+    "standardAmount": "2 blad"
+   },
+   "w-id-034-i8": {
+    "name": "Thailändsk chili",
+    "standardAmount": "1 chili"
+   },
+   "w-id-034-i9": {
+    "name": "Sambal oelek",
+    "standardAmount": "100 g"
+   },
+   "w-id-034-i10": {
+    "name": "Socker",
+    "standardAmount": "100 g"
+   },
+   "w-id-034-i11": {
+    "name": "Äppelcidervinäger",
+    "standardAmount": "1 msk"
+   },
+   "w-id-034-i12": {
+    "name": "Galangal pulver",
+    "standardAmount": "1 tsk"
+   },
+   "w-id-034-i13": {
+    "name": "Salt",
+    "standardAmount": "1/4 tsk"
+   }
+  },
+  "instructions": {
+   "1": "Skär potatisarna i tunna skivor och blötlägg i vatten i 10 minuter.",
+   "2": "Sila potatisarna och stek i olja tills de är gyllene och krispiga.",
+   "3": "I en separat stekpanna, värm 50 gram stekolja och stek den hackade schalottenlöken tills den är gyllene.",
+   "4": "Tillsätt kaffir limeblad, salamblad, thailändsk chili, sambal oelek, socker, äppelcidervinäger och galangal pulver. Koka på låg värme i 5 minuter.",
+   "5": "Tillsätt den stekta potatisen i sambalen och blanda väl.",
+   "6": "Servera kripiken varm eller kall, som du vill."
+  },
+  "culturalNotes": "Kripik är ett populärt krispigt mellanmål i Indonesien, ofta serverat som aptitretare eller med lätta måltider.",
+  "chapter": "مطبخ إندونيسيا"
+ },
+ "w-id-035": {
+  "title": "Kue Bangkit Santan",
+  "ingredients": {
+   "w-id-035-i1": {
+    "name": "Förkokt tapiokamjöl/stärkelse",
+    "standardAmount": "250 g"
+   },
+   "w-id-035-i2": {
+    "name": "Pandanblad",
+    "standardAmount": "5 blad"
+   },
+   "w-id-035-i3": {
+    "name": "Kokoskräm",
+    "standardAmount": "100 ml"
+   },
+   "w-id-035-i4": {
+    "name": "Äggula",
+    "standardAmount": "20 g (cirka 1 stor äggula)"
+   },
+   "w-id-035-i5": {
+    "name": "Florsocker",
+    "standardAmount": "70 g"
+   },
+   "w-id-035-i6": {
+    "name": "Salt",
+    "standardAmount": "1/8 tsk"
+   },
+   "w-id-035-i7": {
+    "name": "Röd livsmedelsfärg",
+    "standardAmount": "vid behov"
+   }
+  },
+  "instructions": {
+   "1": "Skölj pandanbladen och skär i bitar på 3-4 tum.",
+   "2": "Lägg pandanbladen i en skål och täck med vatten. Blötlägg i 30 minuter.",
+   "3": "Sila pandanbladen och lägg i en mixer med 100 ml kokoskräm. Mixa tills det är slät.",
+   "4": "Sila blandningen genom en fin sil för att få den klara vätskan.",
+   "5": "I en skål, blanda det förkokta tapiokamjölet med florsocker och salt (om använt).",
+   "6": "Tillsätt pandan-kokoskräm blandningen i mjölet och blanda väl tills degen är slät.",
+   "7": "Kontrollera att degen inte är för torr eller för våt. Tillsätt mer kokoskräm om den är för torr. Tillsätt mer mjöl om den är för våt.",
+   "8": "Doppa en liten sked i varmt vatten och forma degen i små skivor.",
+   "9": "Lägg skivorna på en bakplåt med bakplåtspapper.",
+   "10": "Grädda kakorna i en förvärmd ugn på 150°C i 15-20 minuter tills de är gyllene.",
+   "11": "Ta ut kakorna ur ugnen och låt svalna innan servering.",
+   "12": "Vid behov, tillsätt några droppar röd livsmedelsfärg för färg."
+  },
+  "culturalNotes": "Kue bangkit är en traditionell indonesisk kaka som ofta görs för speciella tillfällen som Eid.",
+  "chapter": "مطبخ إندونيسيا"
  }
 }
