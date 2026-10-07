@@ -87,7 +87,7 @@
   },
   "instructions": {
    "1": "Die weißen Bohnen in ein Sieb abgießen und unter kaltem Wasser abspülen.",
-   "2": "3 Knoblauchzehen schälen und fein hacken, die halbe Zwiebel fein würfeln und die Würste in 2,5 cm dicke Scheiben schneiden.",
+   "2": "3 Knoblauchzehen schälen und fein hacken, die halbe Zwiebel fein würfeln und die Würste in 2.5 cm dicke Scheiben schneiden.",
    "3": "Einen großen Topf bei mittlerer Hitze erhitzen und einen großzügigen EL Olivenöl dazugeben; nach 2 Minuten die Würste anbraten und herausnehmen.",
    "4": "Im selben Topf Zwiebel und Knoblauch dazugeben und 3 Minuten rühren, bis die Zwiebel glasig ist; Paprika dazugeben.",
    "5": "Würste zurück in den Topf geben, die abgetropften Bohnen dazu und gut mischen. 1,5 Tassen kaltes Wasser, Safran, Salz und Pfeffer dazugeben.",
@@ -529,7 +529,7 @@
    },
    "w-es-015-i8": {
     "name": "geräuchertes Paprikapulver",
-    "standardAmount": "1 TL (2,5 g)"
+    "standardAmount": "1 TL (2.5 g)"
    },
    "w-es-015-i9": {
     "name": "gemahlener Kreuzkümmel",
@@ -1723,7 +1723,7 @@
    "1": "Alle Zutaten bereitstellen.",
    "2": "Tomaten, Zucchini, Frühlingszwiebeln, Salz, Zucker, Pfeffer, Oregano und Cayenne in einer Schüssel verrühren. 15 Minuten ziehen lassen, damit Salz und Zucker dem Gemüse Flüssigkeit entziehen.",
    "3": "Die Tomatenmischung umrühren; Petersilie, Minze und Basilikum zugeben. Feta hineinbröseln. Mehl und Backpulver zugeben und mit einem Löffel vermengen. Der Teig sollte locker sein, aber auf dem Löffel Form halten. Zu locker: mehr Mehl; zu trocken: etwas Wasser. Die Schüssel mit Frischhaltefolie abdecken und mindestens 30 Minuten kühlen.",
-   "4": "2,5 cm Pflanzenöl in einer Pfanne bei mittlerer bis hoher Hitze auf 175°C erhitzen oder eine Fritteuse verwenden.",
+   "4": "2.5 cm Pflanzenöl in einer Pfanne bei mittlerer bis hoher Hitze auf 175°C erhitzen oder eine Fritteuse verwenden.",
    "5": "Gehäufte Esslöffel Teig ins heiße Öl geben; auf mittlere Hitze reduzieren. Goldbraun und durchgegart frittieren, 2-3 Minuten pro Seite.",
    "6": "Nach Wunsch ein weiteres Mal wenden und 30 Sekunden weiterfrittieren.",
    "7": "Warm oder bei Raumtemperatur servieren."
@@ -1792,7 +1792,7 @@
    }
   },
   "instructions": {
-   "1": "Die Hefe in eine kleine Schüssel geben; warmes Wasser und 1/4 Tasse Mehl zugeben. Verrühren, mit zwei feuchten Küchentüchern abdecken und an einem warmen Ort etwa 2,5 Stunden stehen lassen, bis es blubbert.",
+   "1": "Die Hefe in eine kleine Schüssel geben; warmes Wasser und 1/4 Tasse Mehl zugeben. Verrühren, mit zwei feuchten Küchentüchern abdecken und an einem warmen Ort etwa 2.5 Stunden stehen lassen, bis es blubbert.",
    "2": "Butter, Pflanzenfett und Mastix in einem Topf bei mittlerer bis niedriger Hitze vermengen.",
    "3": "Milch und Zucker in einem anderen Topf bei mittlerer bis niedriger Hitze verrühren, bis der Zucker gelöst und die Mischung warm ist. Vom Herd nehmen.",
    "4": "2 Tassen Mehl in die Buttermischung rühren und gut vermengen. Salz zugeben, dann die Hefemischung einrühren. 2 weitere Tassen Mehl zugeben und gut verrühren. Die 3 verquirlten Eier einrühren. Langsam die Milchmischung und 1 Tasse Mehl zugeben und gut verrühren. Das raumtemperierte Wasser und die letzte Tasse Mehl zugeben und rühren, bis der Teig nicht mehr klebt.",
@@ -4382,5 +4382,3878 @@
   },
   "culturalNotes": "Kue bangkit ist ein traditionelles indonesisches Gebäck, das oft zu besonderen Anlässen wie Eid gebacken wird.",
   "chapter": "id"
+ },
+ "w-in-001": {
+  "title": "Kajjaya (Adhirasam)",
+  "ingredients": {
+   "w-in-001-i1": {
+    "name": "Reis",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-001-i2": {
+    "name": "Sesamsamen",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-001-i3": {
+    "name": "Mohnsamen",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-001-i4": {
+    "name": "Jaggery",
+    "standardAmount": "¾ Tasse"
+   },
+   "w-in-001-i5": {
+    "name": "Wasser",
+    "standardAmount": "¼ Tasse"
+   },
+   "w-in-001-i6": {
+    "name": "Kardamom-Pulver",
+    "standardAmount": "¼ Teelöffel"
+   },
+   "w-in-001-i7": {
+    "name": "gemahlener schwarzer Pfeffer",
+    "standardAmount": "½ Teelöffel"
+   },
+   "w-in-001-i8": {
+    "name": "Öl oder Ghee",
+    "standardAmount": "nach Bedarf"
+   }
+  },
+  "instructions": {
+   "1": "Den Reis waschen und 4 Stunden in Wasser einweichen.",
+   "2": "Den Reis abgießen und 12 Stunden trocknen lassen.",
+   "3": "Den Reis mit Sesam- und Mohnsamen fein mahlen, dann die Zutaten gut vermischen.",
+   "4": "Den Jaggery in Wasser auflösen und abseihen, um Verunreinigungen zu entfernen.",
+   "5": "Den aufgelösten Jaggery zur Reismischung geben und den Teig kneten.",
+   "6": "Den Teig 30 Minuten ruhen lassen.",
+   "7": "Den Teig zu kleinen Fladen formen.",
+   "8": "Die Fladen in Öl oder Ghee goldbraun frittieren.",
+   "9": "Die frittierten Fladen auf Küchenpapier abtropfen lassen."
+  },
+  "culturalNotes": "Kajjaya ist eine traditionelle indische Süßspeise, die bei besonderen Anlässen und Feiern serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-002": {
+  "title": "Aloo Chop",
+  "ingredients": {
+   "w-in-002-i1": {
+    "name": "Kreuzkümmel",
+    "standardAmount": "1 TL"
+   },
+   "w-in-002-i2": {
+    "name": "Koriandersamen",
+    "standardAmount": "1 EL"
+   },
+   "w-in-002-i3": {
+    "name": "getrocknete rote Chilis",
+    "standardAmount": "3"
+   },
+   "w-in-002-i4": {
+    "name": "Kichererbsenmehl",
+    "standardAmount": "1.5 Tassen"
+   },
+   "w-in-002-i5": {
+    "name": "Kurkuma",
+    "standardAmount": "1/4 TL"
+   },
+   "w-in-002-i6": {
+    "name": "Chilipulver",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-002-i7": {
+    "name": "Salz",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-002-i8": {
+    "name": "Wasser",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-in-002-i9": {
+    "name": "Backnatron",
+    "standardAmount": "1/4 TL"
+   },
+   "w-in-002-i10": {
+    "name": "gekochte Kartoffel",
+    "standardAmount": "3 (zerstampft)"
+   },
+   "w-in-002-i11": {
+    "name": "Öl",
+    "standardAmount": "2 EL"
+   },
+   "w-in-002-i12": {
+    "name": "Kreuzkümmel",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-002-i13": {
+    "name": "Hing",
+    "standardAmount": "eine Prise"
+   },
+   "w-in-002-i14": {
+    "name": "Chili",
+    "standardAmount": "2 (fein gehackt)"
+   },
+   "w-in-002-i15": {
+    "name": "Zwiebel",
+    "standardAmount": "1/2 (fein gehackt)"
+   },
+   "w-in-002-i16": {
+    "name": "Ingwer-Knoblauch-Paste",
+    "standardAmount": "1 TL"
+   },
+   "w-in-002-i17": {
+    "name": "Kurkuma",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-002-i18": {
+    "name": "Salz",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-002-i19": {
+    "name": "Koriander",
+    "standardAmount": "2 EL (fein gehackt)"
+   },
+   "w-in-002-i20": {
+    "name": "Kala Namak",
+    "standardAmount": "1/2 TL"
+   }
+  },
+  "instructions": {
+   "1": "Zuerst für das Masala des Chops 1 TL Kreuzkümmel, 1 EL Koriandersamen und 3 getrocknete rote Chilis bei schwacher Hitze trocken rösten, bis die Gewürze aromatisch werden.",
+   "2": "Vollständig abkühlen lassen und zu einem feinen Pulver mahlen. Beiseitestellen.",
+   "3": "In einer Schüssel 1,5 Tassen Besan, 1/4 TL Kurkuma, 1/2 TL Chilipulver und 1/2 TL Salz nehmen.",
+   "4": "Nach Bedarf Wasser hinzufügen, um einen glatten Teig zu erhalten. Beiseitestellen.",
+   "5": "Für die Füllung 3 gekochte Kartoffeln zerstampfen und beiseitestellen.",
+   "6": "In einer Pfanne 2 EL Öl erhitzen. 1/2 TL Kreuzkümmel und eine Prise Hing hinzufügen.",
+   "7": "2 Chilis, 1/2 Zwiebel und 1 TL Ingwer-Knoblauch-Paste hinzufügen und gut anbraten.",
+   "8": "Bei schwacher Hitze 1/2 TL Kurkuma, 2 gekochte Kartoffeln und 1/2 TL Salz hinzufügen und gut vermischen.",
+   "9": "Das vorbereitete Masala-Pulver, 2 EL Koriander und 1/2 TL Kala Namak hinzufügen und gut vermischen.",
+   "10": "Sobald die Füllung vollständig abgekühlt ist, kleine flache Taler formen. Beiseitestellen.",
+   "11": "Kurz vor dem Frittieren 1/4 TL Backnatron zum Besan-Teig geben und gut vermischen.",
+   "12": "Die Aloo-Taler in den Besan-Teig tauchen und gleichmäßig damit überziehen.",
+   "13": "In heißem Öl bei mittlerer Hitze frittieren. Gelegentlich wenden und von beiden Seiten knusprig und goldbraun braten. Abtropfen lassen.",
+   "14": "Zum Schluss Aloo Chop mit Chutney genießen."
+  },
+  "culturalNotes": "Aloo Chop ist ein beliebtes Gericht in Bangladesch und Indien, das als Vorspeise oder leichter Snack serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-003": {
+  "title": "Aloo Gobhi (trocken)",
+  "ingredients": {
+   "w-in-003-i1": {
+    "name": "Öl",
+    "standardAmount": "4 EL"
+   },
+   "w-in-003-i2": {
+    "name": "Blumenkohl",
+    "standardAmount": "15 Röschen"
+   },
+   "w-in-003-i3": {
+    "name": "Kartoffeln",
+    "standardAmount": "2 (geschält & gehackt)"
+   },
+   "w-in-003-i4": {
+    "name": "Kreuzkümmel",
+    "standardAmount": "1 TL"
+   },
+   "w-in-003-i5": {
+    "name": "Kasuri Methi",
+    "standardAmount": "1 TL"
+   },
+   "w-in-003-i6": {
+    "name": "Zwiebel",
+    "standardAmount": "1 (fein gehackt)"
+   },
+   "w-in-003-i7": {
+    "name": "Ingwer-Knoblauch-Paste",
+    "standardAmount": "1 TL"
+   },
+   "w-in-003-i8": {
+    "name": "Chili",
+    "standardAmount": "1 (eingeschlitzt)"
+   },
+   "w-in-003-i9": {
+    "name": "Kurkuma",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-003-i10": {
+    "name": "Kashmiri-Chilipulver",
+    "standardAmount": "½ TL"
+   },
+   "w-in-003-i11": {
+    "name": "Kreuzkümmel-Pulver",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-003-i12": {
+    "name": "Salz",
+    "standardAmount": "¾ TL"
+   },
+   "w-in-003-i13": {
+    "name": "Tomate",
+    "standardAmount": "1 (fein gehackt)"
+   },
+   "w-in-003-i14": {
+    "name": "Aamchur",
+    "standardAmount": "½ TL"
+   },
+   "w-in-003-i15": {
+    "name": "Garam Masala",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-003-i16": {
+    "name": "Koriander",
+    "standardAmount": "2 EL (fein gehackt)"
+   }
+  },
+  "instructions": {
+   "1": "In einem großen Kadai 3 EL Öl erhitzen und 1 TL Kreuzkümmel und Kasuri Methi hinzufügen, anbraten bis aromatisch.",
+   "2": "Fein gehackte Zwiebel hinzufügen und goldbraun anbraten.",
+   "3": "Ingwer-Knoblauch-Paste und aufgeschlitzte Chili hinzufügen, eine Minute anbraten.",
+   "4": "Kurkuma, Kashmiri-Chilipulver, Kreuzkümmel-Pulver und Salz hinzufügen, bei schwacher Hitze anbraten, bis die Gewürze aromatisch werden.",
+   "5": "Fein gehackte Tomate hinzufügen und anbraten, bis die Tomaten weich und breiig sind.",
+   "6": "Gebratene Kartoffeln und Blumenkohl hinzufügen, vorsichtig vermischen ohne sie zu zerbrechen.",
+   "7": "Wer eine Soße bevorzugt, fügt ½ Tasse Wasser hinzu.",
+   "8": "Aamchur, Garam Masala und gehackte Korianderblätter hinzufügen und gut vermischen.",
+   "9": "Das Gericht mit Roti oder Reis servieren."
+  },
+  "culturalNotes": "Aloo Gobhi ist ein beliebtes indisches Gericht, das üblicherweise mit Roti oder Reis serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-004": {
+  "title": "Aloo Tikki",
+  "ingredients": {
+   "w-in-004-i1": {
+    "name": "Kartoffeln",
+    "standardAmount": "2 (gekocht & zerstampft)"
+   },
+   "w-in-004-i2": {
+    "name": "Erbsen",
+    "standardAmount": "¼ Tasse (gekocht)"
+   },
+   "w-in-004-i3": {
+    "name": "Kurkuma",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-004-i4": {
+    "name": "Semmelbrösel",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-004-i5": {
+    "name": "Kashmiri-Chilipulver",
+    "standardAmount": "½ TL"
+   },
+   "w-in-004-i6": {
+    "name": "Kreuzkümmel-Pulver",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-004-i7": {
+    "name": "zerstoßener Pfeffer",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-004-i8": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-in-004-i9": {
+    "name": "Ingwer-Knoblauch-Paste",
+    "standardAmount": "½ TL"
+   },
+   "w-in-004-i10": {
+    "name": "Maisstärke",
+    "standardAmount": "3 EL"
+   },
+   "w-in-004-i11": {
+    "name": "Weizenmehl",
+    "standardAmount": "3 EL"
+   },
+   "w-in-004-i12": {
+    "name": "Wasser",
+    "standardAmount": "¼ Tasse"
+   },
+   "w-in-004-i13": {
+    "name": "Mayonnaise",
+    "standardAmount": "3 EL"
+   },
+   "w-in-004-i14": {
+    "name": "Tomatensoße",
+    "standardAmount": "3 EL"
+   },
+   "w-in-004-i15": {
+    "name": "Chilisoße",
+    "standardAmount": "1 TL"
+   },
+   "w-in-004-i16": {
+    "name": "Burgerbrötchen",
+    "standardAmount": "4"
+   },
+   "w-in-004-i17": {
+    "name": "Salatblätter",
+    "standardAmount": "einige Blätter"
+   },
+   "w-in-004-i18": {
+    "name": "Tomate",
+    "standardAmount": "1 (in Scheiben geschnitten)"
+   },
+   "w-in-004-i19": {
+    "name": "Zwiebel",
+    "standardAmount": "1 (Ringe)"
+   }
+  },
+  "instructions": {
+   "1": "Die Kartoffelmasse, gekochte Erbsen und Gewürze in einer Schüssel vermischen.",
+   "2": "Die Kartoffelmischung zu runden Talern formen.",
+   "3": "Die Taler in der Mehlmischung wenden und mit Semmelbröseln panieren.",
+   "4": "Die Taler in heißem Öl goldbraun und knusprig frittieren.",
+   "5": "Die Burgerbrötchen halbieren und jede Seite mit einem Teelöffel Burgersoße bestreichen.",
+   "6": "Salatblätter auf die untere Brötchenhälfte legen, dann das Aloo Tikki darauf.",
+   "7": "Einen Teelöffel Burgersoße auf das Aloo Tikki streichen.",
+   "8": "Tomatenscheiben und Zwiebelringe auf das Aloo Tikki legen.",
+   "9": "Das Aloo Tikki mit der oberen Brötchenhälfte bedecken und leicht andrücken.",
+   "10": "Den Burger mit Pommes frites servieren."
+  },
+  "culturalNotes": "Aloo Tikki ist ein beliebtes Gericht in Indien, das oft als Vorspeise oder leichte Mahlzeit serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-005": {
+  "title": "Baingan Bharta",
+  "ingredients": {
+   "w-in-005-i1": {
+    "name": "Aubergine",
+    "standardAmount": "400 Gramm"
+   },
+   "w-in-005-i2": {
+    "name": "Knoblauch",
+    "standardAmount": "3 Zehen"
+   },
+   "w-in-005-i3": {
+    "name": "Chili",
+    "standardAmount": "1 Chili"
+   },
+   "w-in-005-i4": {
+    "name": "Öl",
+    "standardAmount": "3 Esslöffel"
+   },
+   "w-in-005-i5": {
+    "name": "Kreuzkümmel",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-005-i6": {
+    "name": "getrocknete rote Chili",
+    "standardAmount": "1 getrocknete rote Chili (gebrochen)"
+   },
+   "w-in-005-i7": {
+    "name": "Ingwer",
+    "standardAmount": "1 Zoll (fein gehackt)"
+   },
+   "w-in-005-i8": {
+    "name": "Zwiebel",
+    "standardAmount": "1 Zwiebel (fein gehackt)"
+   },
+   "w-in-005-i9": {
+    "name": "Kashmiri-Chilipulver",
+    "standardAmount": "½ Teelöffel"
+   },
+   "w-in-005-i10": {
+    "name": "Koriander-Pulver",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-005-i11": {
+    "name": "Tomate",
+    "standardAmount": "1 Tomate (fein gehackt)"
+   },
+   "w-in-005-i12": {
+    "name": "Salz",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-005-i13": {
+    "name": "Garam Masala",
+    "standardAmount": "½ Teelöffel"
+   },
+   "w-in-005-i14": {
+    "name": "frischer Koriander",
+    "standardAmount": "2 Esslöffel (fein gehackt)"
+   }
+  },
+  "instructions": {
+   "1": "Eine große Aubergine nehmen und 4 Schlitze einschneiden.",
+   "2": "3 Knoblauchzehen und 1 Chili in jeden Schlitz stecken.",
+   "3": "Die Aubergine mit Öl einpinseln, damit sich die Haut nach dem Rösten leicht ablösen lässt.",
+   "4": "Die Aubergine auf der Gasflamme rösten, gelegentlich wenden, bis sie dunkel ist und innen vollständig durchgegart.",
+   "5": "Die Aubergine vollständig abkühlen lassen, dann die Haut abziehen und den Stiel entfernen.",
+   "6": "Die Aubergine mit einer Gabel zerdrücken und beiseitestellen.",
+   "7": "In einem großen Kadai 2 EL Öl erhitzen und 1 TL Kreuzkümmel, 1 getrocknete rote Chili, 2.5 cm Ingwer und 3 Knoblauchzehen anbraten.",
+   "8": "Die Zwiebel anbraten, bis sie leicht zusammenfällt.",
+   "9": "½ TL Kashmiri-Chilipulver und 1 TL Koriander-Pulver hinzufügen und anbraten, bis die Gewürze aromatisch werden.",
+   "10": "Die Tomate hinzufügen und anbraten, bis sie weich und breiig ist.",
+   "11": "Die geröstete zerdrückte Aubergine und 1 TL Salz hinzufügen und 5 Minuten rühren, bis die Aromen gut verbunden sind.",
+   "12": "½ TL Garam Masala und 2 EL frischen Koriander hinzufügen und gut vermischen.",
+   "13": "Das Baingan Bharta heiß mit Phulka oder Reis servieren."
+  },
+  "culturalNotes": "Baingan Bharta ist ein beliebtes Gericht in Indien, bekannt für seinen reichen, rauchigen Geschmack.",
+  "chapter": "in"
+ },
+ "w-in-006": {
+  "title": "Basundi",
+  "ingredients": {
+   "w-in-006-i1": {
+    "name": "Khova / Mava",
+    "standardAmount": "100 Gramm"
+   },
+   "w-in-006-i2": {
+    "name": "Milch",
+    "standardAmount": "1½ Liter"
+   },
+   "w-in-006-i3": {
+    "name": "Kesar-Milch",
+    "standardAmount": "2 EL"
+   },
+   "w-in-006-i4": {
+    "name": "Zucker",
+    "standardAmount": "¼ Tasse"
+   },
+   "w-in-006-i5": {
+    "name": "Kardamom-Pulver",
+    "standardAmount": "½ TL"
+   },
+   "w-in-006-i6": {
+    "name": "gehackte Mandeln",
+    "standardAmount": "2 EL"
+   }
+  },
+  "instructions": {
+   "1": "Zuerst 100 Gramm Khova zerbröckeln und beiseitestellen. Wer keinen Khova hat, kann ½ Tasse Milchpulver verwenden.",
+   "2": "In einem großen Kadai 1,5 Liter Milch nehmen und unter gelegentlichem Rühren aufkochen.",
+   "3": "2 EL Kesar-Milch hinzufügen und gut vermischen.",
+   "4": "5 Minuten kochen, bis die Milch leicht eindickt.",
+   "5": "Sobald die Milch reduziert ist, den zerbröckelten Khova hinzufügen und gut vermischen.",
+   "6": "Weitere 5 Minuten kochen, bis die Milch eindickt.",
+   "7": "¼ Tasse Zucker hinzufügen und aufkochen. Darauf achten, dass sich der Zucker gut auflöst.",
+   "8": "½ TL Kardamom-Pulver und 2 EL gehackte Mandeln hinzufügen. Gut vermischen.",
+   "9": "Die Basundi vor dem Servieren leicht abkühlen lassen. Die Basundi dickt beim Abkühlen nach.",
+   "10": "Zum Schluss die Basundi gekühlt oder warm genießen; sie hält sich eine Woche im Kühlschrank."
+  },
+  "culturalNotes": "Basundi ist eine traditionelle indische Süßspeise, die üblicherweise bei besonderen Anlässen serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-007": {
+  "title": "Bati (Brot)",
+  "ingredients": {
+   "w-in-007-i1": {
+    "name": "Weizenmehl",
+    "standardAmount": "1 Pfund"
+   },
+   "w-in-007-i2": {
+    "name": "Salz",
+    "standardAmount": "½ Teelöffel"
+   },
+   "w-in-007-i3": {
+    "name": "Pflanzenöl",
+    "standardAmount": "3 Esslöffel"
+   },
+   "w-in-007-i4": {
+    "name": "Wasser",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-in-007-i5": {
+    "name": "Ghee",
+    "standardAmount": "1 ½ Teelöffel"
+   }
+  },
+  "instructions": {
+   "1": "Mehl und Salz in einer Schüssel vermischen.",
+   "2": "Etwa 1 Tasse der Mehlmischung in eine kleine Schüssel geben und etwas Öl hinzufügen, gut einarbeiten und Klumpen zerdrücken.",
+   "3": "Wasser etwa 1 EL nach dem anderen hinzufügen und mit den Händen weiterkneten. Man braucht nur 3–4 EL, aber der Teig muss sehr fest geknetet werden, damit er zu einer Kugel zusammenhält.",
+   "4": "Die Kugeln 5 Minuten ruhen lassen.",
+   "5": "Jede Kugel zuerst mit den Händen und dann mit einem Nudelholz zu glatten Scheiben von 10 cm Durchmesser und 1,25 cm Dicke ausrollen.",
+   "6": "In einer trockenen Metallpfanne bei schwacher Hitze backen. Einmal wenden, wenn die Unterseite fest wird, dann überall mit zwei Fingern einklemmen, damit der Teig nicht zu dick ist und eine Seite eine unebene Textur bekommt.",
+   "7": "Die Unterseite prüfen, bis sie stellenweise braun ist, dann den Bati herausnehmen und umgedreht auf einen Rost oder eine gelochte Pfanne legen. Dadurch wird die Oberseite etwas schwarz, besonders auf den eingeklemmten Erhebungen.",
+   "8": "Mit Ghee und einem Dal oder Gemüse servieren."
+  },
+  "culturalNotes": "Bati ist ein traditionelles Brot in Indien, besonders im Bundesstaat Rajasthan. Es wird üblicherweise mit Ghee und Linsen oder Gemüse serviert.",
+  "chapter": "in"
+ },
+ "w-in-008": {
+  "title": "Benne Dose",
+  "ingredients": {
+   "w-in-008-i1": {
+    "name": "Dosa-Reis",
+    "standardAmount": "3 Tassen"
+   },
+   "w-in-008-i2": {
+    "name": "Bockshornkleesamen",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-008-i3": {
+    "name": "Urad Dal",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-008-i4": {
+    "name": "Puffreis",
+    "standardAmount": "2 Tassen (gewaschen & ausgedrückt)"
+   },
+   "w-in-008-i5": {
+    "name": "Salz",
+    "standardAmount": "1.5 TL"
+   },
+   "w-in-008-i6": {
+    "name": "Öl zum Rösten",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-in-008-i7": {
+    "name": "Butter",
+    "standardAmount": "nach Bedarf"
+   }
+  },
+  "instructions": {
+   "1": "Zuerst 1 Tasse eingeweichte Urad Dal in einem Mixer mit Wasser nach Bedarf zu einer glatten Paste mixen.",
+   "2": "Den glatten, lockeren Urad-Dal-Teig in eine große Schüssel geben.",
+   "3": "Im Mixer 3 Tassen Dosa-Reis und 1/2 TL Bockshornkleesamen mit Wasser nach Bedarf zu einer leicht groben Paste mixen.",
+   "4": "Den Reisteig zur Schüssel mit dem Urad-Dal-Teig geben.",
+   "5": "2 Tassen gewaschenen, ausgedrückten Puffreis nehmen und in den Mixer geben.",
+   "6": "Zu einer glatten Paste mixen.",
+   "7": "Alles gut vermischen, damit alles gründlich verbunden ist.",
+   "8": "Den Teig abdecken und an einem warmen Ort 8–10 Stunden ruhen lassen, bis er aufgeht und sich verdoppelt.",
+   "9": "1,5 TL Salz zum Teig geben und gut vermischen.",
+   "10": "Die Grillplatte erhitzen und eine Schöpfkelle Teig aufgießen.",
+   "11": "Den Teig kreisförmig etwas dicker als bei einer normalen Masala-Dosa verteilen.",
+   "12": "Einen TL Öl an den Rändern der Dosa verteilen.",
+   "13": "1 EL Butter hinzufügen und auf allen Seiten der Dosa verteilen.",
+   "14": "Die Dosa auf beiden Seiten goldbraun rösten.",
+   "15": "Zum Schluss die Benne Dose / Butter-Dosa halbieren und mit Chutney und Aloo Bhaji servieren, mit mehr Butter belegt."
+  },
+  "culturalNotes": "Benne Dose ist ein beliebtes Gericht im indischen Bundesstaat Karnataka, bekannt für seinen reichen, köstlichen Geschmack dank der Butter.",
+  "chapter": "in"
+ },
+ "w-in-009": {
+  "title": "Spinat-Bhaji",
+  "ingredients": {
+   "w-in-009-i1": {
+    "name": "Pflanzenöl",
+    "standardAmount": "1 EL"
+   },
+   "w-in-009-i2": {
+    "name": "grüne Chilischoten",
+    "standardAmount": "3"
+   },
+   "w-in-009-i3": {
+    "name": "Zwiebel",
+    "standardAmount": "1 kleine, dünn geschnitten"
+   },
+   "w-in-009-i4": {
+    "name": "Knoblauch",
+    "standardAmount": "2 Zehen, zerdrückt"
+   },
+   "w-in-009-i5": {
+    "name": "Panch Phoron",
+    "standardAmount": "1 TL"
+   },
+   "w-in-009-i6": {
+    "name": "Spinat",
+    "standardAmount": "1 Pfund (aufgetauter TK-Spinat, gehackt)"
+   },
+   "w-in-009-i7": {
+    "name": "Salz",
+    "standardAmount": "1 TL"
+   },
+   "w-in-009-i8": {
+    "name": "Pfeffer",
+    "standardAmount": "1/2 TL"
+   }
+  },
+  "instructions": {
+   "1": "Das Öl in einer Pfanne bei mittelhoher Hitze erhitzen.",
+   "2": "Die grünen Chilischoten hinzufügen und 2 Minuten rösten.",
+   "3": "Die Zwiebel hinzufügen und weich dünsten.",
+   "4": "Den Knoblauch und das Panch Phoron hinzufügen. Die Gewürze beginnen zu springen und zu knacken, wenn sie fertig sind.",
+   "5": "Spinat, Salz und Pfeffer hinzufügen. Zudecken und 20 Minuten köcheln, damit sich alle Aromen verbinden."
+  },
+  "culturalNotes": "Bhaji ist ein beliebtes Gericht in Indien, das oft als Teil des Mittag- oder Abendessens serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-010": {
+  "title": "Bhel Puri",
+  "ingredients": {
+   "w-in-010-i1": {
+    "name": "Erdnüsse",
+    "standardAmount": "½ Tasse"
+   },
+   "w-in-010-i2": {
+    "name": "gerösteter Gram Dal",
+    "standardAmount": "½ Tasse"
+   },
+   "w-in-010-i3": {
+    "name": "dicke Poha",
+    "standardAmount": "¾ Tasse"
+   },
+   "w-in-010-i4": {
+    "name": "Öl",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-in-010-i5": {
+    "name": "Öl",
+    "standardAmount": "2 EL"
+   },
+   "w-in-010-i6": {
+    "name": "Kurkuma",
+    "standardAmount": "½ TL"
+   },
+   "w-in-010-i7": {
+    "name": "Chilipulver",
+    "standardAmount": "½ TL"
+   },
+   "w-in-010-i8": {
+    "name": "Hing",
+    "standardAmount": "Prise"
+   },
+   "w-in-010-i9": {
+    "name": "Curryblätter",
+    "standardAmount": "einige"
+   },
+   "w-in-010-i10": {
+    "name": "Murmura",
+    "standardAmount": "4 Tassen"
+   },
+   "w-in-010-i11": {
+    "name": "Kreuzkümmel-Pulver",
+    "standardAmount": "½ TL"
+   },
+   "w-in-010-i12": {
+    "name": "Chaat Masala",
+    "standardAmount": "1 TL"
+   },
+   "w-in-010-i13": {
+    "name": "Kala Namak",
+    "standardAmount": "½ TL"
+   },
+   "w-in-010-i14": {
+    "name": "Salz",
+    "standardAmount": "½ TL"
+   },
+   "w-in-010-i15": {
+    "name": "Puderzucker",
+    "standardAmount": "2 EL"
+   },
+   "w-in-010-i16": {
+    "name": "Aamchur",
+    "standardAmount": "½ TL"
+   },
+   "w-in-010-i17": {
+    "name": "würzige Boondi",
+    "standardAmount": "½ Tasse"
+   },
+   "w-in-010-i18": {
+    "name": "Sev",
+    "standardAmount": "½ Tasse"
+   },
+   "w-in-010-i19": {
+    "name": "Papdi",
+    "standardAmount": "10 Stücke"
+   },
+   "w-in-010-i20": {
+    "name": "Bhel-Mischung",
+    "standardAmount": "2 Tassen"
+   },
+   "w-in-010-i21": {
+    "name": "Zwiebel",
+    "standardAmount": "½ Tasse fein gehackt"
+   },
+   "w-in-010-i22": {
+    "name": "Tomate",
+    "standardAmount": "½ Tasse fein gehackt"
+   },
+   "w-in-010-i23": {
+    "name": "gekochte Kartoffel",
+    "standardAmount": "½ Tasse gewürfelt"
+   },
+   "w-in-010-i24": {
+    "name": "Chaat Masala",
+    "standardAmount": "½ TL"
+   },
+   "w-in-010-i25": {
+    "name": "grünes Chutney",
+    "standardAmount": "2 EL"
+   },
+   "w-in-010-i26": {
+    "name": "Tamarinden-Chutney",
+    "standardAmount": "2 EL"
+   },
+   "w-in-010-i27": {
+    "name": "Chili",
+    "standardAmount": "2 fein gehackt"
+   },
+   "w-in-010-i28": {
+    "name": "Koriander",
+    "standardAmount": "2 EL gehackt"
+   },
+   "w-in-010-i29": {
+    "name": "Zitrone",
+    "standardAmount": "½ Zitrone"
+   }
+  },
+  "instructions": {
+   "1": "In heißem Öl ein Sieb einsetzen und ½ Tasse Erdnüsse bei schwacher Hitze knusprig frittieren. Abtropfen und beiseitestellen.",
+   "2": "Dann ½ Tasse gerösteten Gram Dal bei schwacher Hitze knusprig frittieren. Abtropfen und beiseitestellen.",
+   "3": "Außerdem ¾ Tasse dicke Poha in heißem Öl knusprig frittieren. Abtropfen und beiseitestellen.",
+   "4": "In einem großen Kadai 2 EL Öl erhitzen. ½ TL Kurkuma, ½ TL Chilipulver, eine Prise Hing und einige Curryblätter hinzufügen.",
+   "5": "Bei schwacher Hitze anbraten, bis die Gewürze aromatisch werden.",
+   "6": "4 Tassen Murmura hinzufügen und braten, bis der Murmura knusprig ist und die Gewürze gut verteilt sind.",
+   "7": "Die Hitze abstellen und ½ TL Kreuzkümmel-Pulver, 1 TL Chaat Masala, ½ TL Kala Namak, ½ TL Salz, 2 EL Puderzucker und ½ TL Aamchur hinzufügen.",
+   "8": "½ Tasse würzige Boondi, ½ Tasse Sev hinzufügen, 10 Papdi zerbröckeln und gut vermischen.",
+   "9": "Gut vermischen, damit alles gut verbunden ist.",
+   "10": "Zum Schluss ist die Bhel-Puri-Mischung bereit für Chaat.",
+   "11": "Für die Bhel-Puri-Chaat: Die Mischung in Servierschalen geben, ½ Tasse fein gehackte Zwiebel, ½ Tasse fein gehackte Tomate, ½ Tasse gewürfelte gekochte Kartoffel, ½ TL Chaat Masala, 2 EL grünes Chutney, 2 EL Tamarinden-Chutney, 2 fein gehackte Chilis, 2 EL gehackten Koriander und den Saft von ½ Zitrone hinzufügen. Gut vermischen und servieren."
+  },
+  "culturalNotes": "Bhel Puri ist ein beliebtes Straßenessen in Indien, besonders in Mumbai, und wird als Chaat an öffentlichen Orten und auf Straßen serviert.",
+  "chapter": "in"
+ },
+ "w-in-011": {
+  "title": "Hähnchen-Biryani",
+  "ingredients": {
+   "w-in-011-i1": {
+    "name": "Reis",
+    "standardAmount": "2 Tassen (vorzugsweise Basmati)"
+   },
+   "w-in-011-i2": {
+    "name": "Hähnchen",
+    "standardAmount": "500 g (1 Pfund)"
+   },
+   "w-in-011-i3": {
+    "name": "Öl",
+    "standardAmount": "6 Esslöffel"
+   },
+   "w-in-011-i4": {
+    "name": "Joghurt",
+    "standardAmount": "300 ml (10 Unzen)"
+   },
+   "w-in-011-i5": {
+    "name": "Knoblauch",
+    "standardAmount": "3 Zehen, zerdrückt und gehackt"
+   },
+   "w-in-011-i6": {
+    "name": "Ingwer",
+    "standardAmount": "1.5 cm, geschält und in Scheiben geschnitten"
+   },
+   "w-in-011-i7": {
+    "name": "Zitronensaft",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-in-011-i8": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-in-011-i9": {
+    "name": "Kurkuma-Pulver",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-011-i10": {
+    "name": "Kreuzkümmel-Pulver",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-011-i11": {
+    "name": "Zimt",
+    "standardAmount": "1 Stange"
+   },
+   "w-in-011-i12": {
+    "name": "Nelken",
+    "standardAmount": "3 Nelken"
+   },
+   "w-in-011-i13": {
+    "name": "Chilis",
+    "standardAmount": "2, gehackt"
+   },
+   "w-in-011-i14": {
+    "name": "Tomaten",
+    "standardAmount": "2, gehackt"
+   },
+   "w-in-011-i15": {
+    "name": "Tomatenmark",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-in-011-i16": {
+    "name": "Safran",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-011-i17": {
+    "name": "Zwiebeln",
+    "standardAmount": "2, gehackt"
+   }
+  },
+  "instructions": {
+   "1": "Den Reis waschen, 30 Minuten einweichen, dann abgießen und kochen.",
+   "2": "Das Hähnchen in einer Mischung aus Zitronensaft, Joghurt, Ingwer, Knoblauch, Salz, Kurkuma-Pulver, Kreuzkümmel-Pulver, Nelken, Chilis, gehackten Tomaten und Tomatenmark marinieren.",
+   "3": "Das Öl in einer Pfanne erhitzen, die Zwiebeln hinzufügen und goldbraun braten, dann zum Hähnchen geben.",
+   "4": "Eine tiefe Pfanne mit schwerem Boden und weitem Rand einfetten, dann eine Schicht Reis einfüllen, gefolgt von der Hähnchenmischung, und mit dem restlichen Reis und Safran bedecken.",
+   "5": "Die Biryani im Ofen 1–1,5 Stunden bei 150°C backen. Prüfen, ob das Hähnchen durchgegart ist.",
+   "6": "Die Biryani mit Joghurt als Beilage servieren."
+  },
+  "culturalNotes": "Biryani ist ein beliebtes Gericht in Indien, bekannt für seine reiche Gewürzmischung und Aromen.",
+  "chapter": "in"
+ },
+ "w-in-012": {
+  "title": "Bonda (Snack)",
+  "ingredients": {
+   "w-in-012-i1": {
+    "name": "Öl",
+    "standardAmount": "2 TL"
+   },
+   "w-in-012-i2": {
+    "name": "Senfsamen",
+    "standardAmount": "1 TL"
+   },
+   "w-in-012-i3": {
+    "name": "Kreuzkümmelsamen",
+    "standardAmount": "½ TL"
+   },
+   "w-in-012-i4": {
+    "name": "Koriandersamen",
+    "standardAmount": "½ TL"
+   },
+   "w-in-012-i5": {
+    "name": "Asafoetida",
+    "standardAmount": "Prise"
+   },
+   "w-in-012-i6": {
+    "name": "Curryblätter",
+    "standardAmount": "einige (gehackt)"
+   },
+   "w-in-012-i7": {
+    "name": "Cashewnüsse",
+    "standardAmount": "6 (gebrochen)"
+   },
+   "w-in-012-i8": {
+    "name": "Zwiebel",
+    "standardAmount": "1 kleine (fein gehackt)"
+   },
+   "w-in-012-i9": {
+    "name": "Ingwer",
+    "standardAmount": "1 Zoll (fein gehackt)"
+   },
+   "w-in-012-i10": {
+    "name": "Kurkuma",
+    "standardAmount": "½ TL"
+   },
+   "w-in-012-i11": {
+    "name": "grüne Chili",
+    "standardAmount": "1 (fein gehackt)"
+   },
+   "w-in-012-i12": {
+    "name": "Kashmiri-Chilipulver",
+    "standardAmount": "½ TL"
+   },
+   "w-in-012-i13": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-in-012-i14": {
+    "name": "Korianderblätter",
+    "standardAmount": "2 EL (fein gehackt)"
+   },
+   "w-in-012-i15": {
+    "name": "Zitronensaft",
+    "standardAmount": "1 EL"
+   },
+   "w-in-012-i16": {
+    "name": "Kartoffel",
+    "standardAmount": "3 mittelgroße (gekocht, geschält, zerstampft)"
+   },
+   "w-in-012-i17": {
+    "name": "Kichererbsenmehl",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-012-i18": {
+    "name": "Maisstärke",
+    "standardAmount": "¼ Tasse"
+   },
+   "w-in-012-i19": {
+    "name": "Kurkuma",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-012-i20": {
+    "name": "Kashmiri-Chilipulver",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-012-i21": {
+    "name": "Ajwain / KümmeIsamen",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-012-i22": {
+    "name": "Wasser",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-in-012-i23": {
+    "name": "Backnatron",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-012-i24": {
+    "name": "Öl zum Frittieren",
+    "standardAmount": "nach Bedarf"
+   }
+  },
+  "instructions": {
+   "1": "In einem großen Kadai das Öl erhitzen und Senfsamen, Kreuzkümmelsamen, zerstoßene Koriandersamen, Asafoetida und Curryblätter hinzufügen. Aufspringen lassen.",
+   "2": "Die gebrochenen Cashewnüsse hinzufügen und goldbraun rösten.",
+   "3": "Die gehackte Zwiebel, den Ingwer und die grüne Chili hinzufügen. Anbraten, bis die Zwiebel goldbraun ist.",
+   "4": "Kurkuma, Kashmiri-Chilipulver, Korianderblätter und Salz hinzufügen. Eine Minute anbraten.",
+   "5": "Die zerstampften Kartoffeln, Korianderblätter und Zitronensaft hinzufügen. Gut vermischen.",
+   "6": "Die Kartoffelmischung zu Kugeln formen.",
+   "7": "Den Teig aus Kichererbsenmehl, Maisstärke, Wasser und Backnatron zu einem dicken Teig verrühren.",
+   "8": "Die Kugeln in den Teig tauchen und in heißem Öl goldbraun und knusprig frittieren.",
+   "9": "Die Bonda mit Chutney oder Tomatensoße servieren."
+  },
+  "culturalNotes": "Bonda ist ein beliebter Snack in Indien, besonders in Südindien, und wird üblicherweise als Snack oder Vorspeise serviert.",
+  "chapter": "in"
+ },
+ "w-in-013": {
+  "title": "Aloo-gefülltes Brot-Pakora",
+  "ingredients": {
+   "w-in-013-i1": {
+    "name": "Kartoffel",
+    "standardAmount": "3 (gekocht und zerstampft)"
+   },
+   "w-in-013-i2": {
+    "name": "grüne Chili",
+    "standardAmount": "1 (fein gehackt)"
+   },
+   "w-in-013-i3": {
+    "name": "Ingwer",
+    "standardAmount": "1 Zoll (fein gehackt)"
+   },
+   "w-in-013-i4": {
+    "name": "Kashmiri-Chilipulver",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-013-i5": {
+    "name": "trockenes Mangopulver",
+    "standardAmount": "½ TL"
+   },
+   "w-in-013-i6": {
+    "name": "Koriander",
+    "standardAmount": "2 EL (fein gehackt)"
+   },
+   "w-in-013-i7": {
+    "name": "Chaat Masala",
+    "standardAmount": "½ TL"
+   },
+   "w-in-013-i8": {
+    "name": "Salz",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-013-i9": {
+    "name": "Kichererbsenmehl",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-013-i10": {
+    "name": "Reismehl",
+    "standardAmount": "2 EL"
+   },
+   "w-in-013-i11": {
+    "name": "Kashmiri-Chilipulver",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-013-i12": {
+    "name": "Salz",
+    "standardAmount": "½ TL"
+   },
+   "w-in-013-i13": {
+    "name": "Natron",
+    "standardAmount": "eine Prise"
+   },
+   "w-in-013-i14": {
+    "name": "Wasser",
+    "standardAmount": "½ Tasse oder nach Bedarf"
+   },
+   "w-in-013-i15": {
+    "name": "Brotscheiben",
+    "standardAmount": "4 Scheiben (weiß oder braun)"
+   },
+   "w-in-013-i16": {
+    "name": "grünes Chutney",
+    "standardAmount": "4 TL"
+   },
+   "w-in-013-i17": {
+    "name": "Öl",
+    "standardAmount": "zum Frittieren"
+   }
+  },
+  "instructions": {
+   "1": "In einer großen Rührschüssel die zerstampften Kartoffeln bereitlegen.",
+   "2": "Die grüne Chili, den Ingwer, den Koriander, das Kashmiri-Chilipulver, das trockene Mangopulver, das Chaat Masala und das Salz hinzufügen. Alle Zutaten gut vermischen, um die Kartoffelfüllung herzustellen.",
+   "3": "In einer anderen Schüssel Kichererbsenmehl, Reismehl, Kashmiri-Chilipulver, Salz und eine Prise Natron vermischen. Nach und nach Wasser hinzufügen, um den Teig herzustellen.",
+   "4": "Einen Teelöffel grünes Chutney auf eine Brotscheibe streichen und halbieren.",
+   "5": "Einen Esslöffel der vorbereiteten Kartoffelfüllung auf eine Brotscheibenhälfte streichen, dann mit einer weiteren halben Scheibe bedecken.",
+   "6": "Das Stück in den Teig tauchen, um es auf allen Seiten zu überziehen.",
+   "7": "Das Stück in heißem Öl bei mittlerer Hitze frittieren, gelegentlich wenden, bis es goldbraun und knusprig ist.",
+   "8": "Das Aloo-gefüllte Brot-Pakora mit grünem Chutney oder Tomatensoße servieren."
+  },
+  "culturalNotes": "Aloo-gefülltes Brot-Pakora ist ein beliebtes Gericht in Indien, das als Vorspeise bei Zusammenkünften und zu Hause serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-014": {
+  "title": "Butterhähnchen",
+  "ingredients": {
+   "w-in-014-i1": {
+    "name": "Hähnchenschenkel oder -brust, ohne Haut und Knochen",
+    "standardAmount": "400-500 g"
+   },
+   "w-in-014-i2": {
+    "name": "Tandoori-Masala-Pulver",
+    "standardAmount": "50 g"
+   },
+   "w-in-014-i3": {
+    "name": "ungesüßter Joghurt",
+    "standardAmount": "½ Tasse"
+   },
+   "w-in-014-i4": {
+    "name": "Zitronen- oder Limettensaft",
+    "standardAmount": "1 kleine"
+   },
+   "w-in-014-i5": {
+    "name": "Butter",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-in-014-i6": {
+    "name": "Zwiebel",
+    "standardAmount": "1 große, fein geschnitten"
+   },
+   "w-in-014-i7": {
+    "name": "Zimt",
+    "standardAmount": "¼ Teelöffel (optional)"
+   },
+   "w-in-014-i8": {
+    "name": "Knoblauch",
+    "standardAmount": "2-3 Zehen, zerdrückt"
+   },
+   "w-in-014-i9": {
+    "name": "Ingwer",
+    "standardAmount": "2 Teelöffel, gerieben"
+   },
+   "w-in-014-i10": {
+    "name": "Kurkuma",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-014-i11": {
+    "name": "gemahlener Koriander",
+    "standardAmount": "1 Esslöffel"
+   },
+   "w-in-014-i12": {
+    "name": "Chilipulver",
+    "standardAmount": "2-3 Teelöffel"
+   },
+   "w-in-014-i13": {
+    "name": "Tomatenmark",
+    "standardAmount": "100-200 g"
+   },
+   "w-in-014-i14": {
+    "name": "Sahne",
+    "standardAmount": "100 g"
+   }
+  },
+  "instructions": {
+   "1": "Das Hähnchen zurechtschneiden und in kleine Würfel schneiden. Wer Hähnchen am Knochen bevorzugt, schneidet später lange dünne Scheiben längs hinein.",
+   "2": "In einer großen Schüssel Tandoori-Masala-Pulver, Joghurt, Zitronensaft und Hähnchen vermengen. Mit den Händen gut einmassieren, damit alles Hähnchen gleichmäßig mit Tandoori-Masala bedeckt ist. Abdecken und mindestens 30 Minuten beiseitestellen.",
+   "3": "Einen großen Topf oder eine Pfanne gleichmäßig heiß werden lassen.",
+   "4": "In der Pfanne 2 EL Butter schmelzen, bis sie schäumt. Zwiebeln und Zimt hinzufügen und leicht anbraten. Wenn die Zwiebeln weich sind und zu bräunen beginnen, den zerdrückten Knoblauch und Ingwer einrühren. Dann Kurkuma, Chili und Koriander hinzufügen und bei mittlerer Hitze anbraten.",
+   "5": "Das Hähnchen hinzufügen und unter ständigem Rühren anbraten, bis es weiß geworden ist. Das dauert nicht lange, also das Hähnchen nicht übergaren.",
+   "6": "Das Tomatenmark einrühren. Die Sahne hinzufügen und durchwärmen. Nach dem Hinzufügen der Sahne und dem Umrühren kann zusätzliches Tandoori-Masala hinzugegeben werden. Etwa 3–5 EL sind in der Regel ausreichend.",
+   "7": "Zudecken und etwas über 10 Minuten köcheln."
+  },
+  "culturalNotes": "Butterhähnchen ist ein berühmtes Gericht der indischen Küche, das üblicherweise mit Basmatireis oder Naan serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-015": {
+  "title": "Capsicum-Reis",
+  "ingredients": {
+   "w-in-015-i1": {
+    "name": "Erdnüsse",
+    "standardAmount": "2 EL"
+   },
+   "w-in-015-i2": {
+    "name": "Sesamsamen",
+    "standardAmount": "2 EL"
+   },
+   "w-in-015-i3": {
+    "name": "Kreuzkümmelsamen",
+    "standardAmount": "1 TL"
+   },
+   "w-in-015-i4": {
+    "name": "Koriandersamen",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-015-i5": {
+    "name": "Urad Dal",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-015-i6": {
+    "name": "Chana Dal",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-015-i7": {
+    "name": "Öl",
+    "standardAmount": "2 EL"
+   },
+   "w-in-015-i8": {
+    "name": "Senfsamen",
+    "standardAmount": "1 TL"
+   },
+   "w-in-015-i9": {
+    "name": "Kreuzkümmelsamen",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-015-i10": {
+    "name": "getrocknete rote Chilis",
+    "standardAmount": "2"
+   },
+   "w-in-015-i11": {
+    "name": "Hing",
+    "standardAmount": "Prise"
+   },
+   "w-in-015-i12": {
+    "name": "Curryblätter",
+    "standardAmount": "einige"
+   },
+   "w-in-015-i13": {
+    "name": "Zwiebel",
+    "standardAmount": "1 (in Scheiben geschnitten)"
+   },
+   "w-in-015-i14": {
+    "name": "Paprika",
+    "standardAmount": "1 (in Scheiben geschnitten)"
+   },
+   "w-in-015-i15": {
+    "name": "Kurkuma",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-015-i16": {
+    "name": "Chilipulver",
+    "standardAmount": "1 TL"
+   },
+   "w-in-015-i17": {
+    "name": "Garam Masala",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-015-i18": {
+    "name": "Salz",
+    "standardAmount": "1 TL"
+   },
+   "w-in-015-i19": {
+    "name": "gekochter Reis",
+    "standardAmount": "4 Tassen"
+   },
+   "w-in-015-i20": {
+    "name": "Koriander",
+    "standardAmount": "2 EL"
+   },
+   "w-in-015-i21": {
+    "name": "Zitronensaft",
+    "standardAmount": "1/2 EL"
+   }
+  },
+  "instructions": {
+   "1": "Zuerst 2 EL Erdnüsse trocken rösten, bis sie knusprig werden.",
+   "2": "2 EL Sesamsamen, 1 TL Kreuzkümmelsamen, 1/2 TL Koriandersamen, 1/2 TL Urad Dal und 1/2 TL Chana Dal hinzufügen.",
+   "3": "Bei schwacher Hitze trocken rösten, bis die Gewürze aromatisch werden.",
+   "4": "Vollständig abkühlen lassen, dann zu einem feinen Pulver mahlen. Beiseitestellen.",
+   "5": "In einem großen Kadai 2 EL Öl erhitzen. 1 TL Senfsamen, 1/2 TL Kreuzkümmelsamen, 2 getrocknete rote Chilis, eine Prise Hing und einige Curryblätter hinzufügen.",
+   "6": "1 in Scheiben geschnittene Zwiebel hinzufügen und leicht anbraten, bis die Zwiebel weich wird.",
+   "7": "Dann 1 in Scheiben geschnittene Paprika hinzufügen und anbraten, bis die Paprika knackig ist.",
+   "8": "Bei weiterhin schwacher Hitze 1/2 TL Kurkuma, 1 TL Chilipulver, 1/2 TL Garam Masala und 1 TL Salz hinzufügen.",
+   "9": "Bei schwacher Hitze anbraten, bis die Gewürze aromatisch werden.",
+   "10": "4 Tassen gekochten Reis und das Erdnuss-Masala hinzufügen.",
+   "11": "Vorsichtig vermischen, damit alles gut verbunden ist.",
+   "12": "Zudecken und 5 Minuten köcheln, bis die Gewürze gut aufgenommen sind.",
+   "13": "2 EL gehackten Koriander und 1/2 EL Zitronensaft hinzufügen und gut vermischen.",
+   "14": "Zum Schluss Capsicum-Reis mit Raita genießen."
+  },
+  "culturalNotes": "Capsicum-Reis ist ein beliebtes Gericht der indischen Küche, besonders in Restaurants und Kantinen. Er wird üblicherweise mit Raita serviert.",
+  "chapter": "in"
+ },
+ "w-in-016": {
+  "title": "Butter-Murukku (Chakli)",
+  "ingredients": {
+   "w-in-016-i1": {
+    "name": "Reismehl",
+    "standardAmount": "3 Tassen"
+   },
+   "w-in-016-i2": {
+    "name": "Urad-Dal-Mehl",
+    "standardAmount": "¾ Tasse"
+   },
+   "w-in-016-i3": {
+    "name": "Sesamsamen",
+    "standardAmount": "2 EL"
+   },
+   "w-in-016-i4": {
+    "name": "Hing (Asafoetida)",
+    "standardAmount": "eine Prise"
+   },
+   "w-in-016-i5": {
+    "name": "Salz",
+    "standardAmount": "1 TL"
+   },
+   "w-in-016-i6": {
+    "name": "Butter",
+    "standardAmount": "3 EL"
+   },
+   "w-in-016-i7": {
+    "name": "Wasser",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-in-016-i8": {
+    "name": "Öl",
+    "standardAmount": "zum Braten"
+   }
+  },
+  "instructions": {
+   "1": "In einer großen Schüssel 3 Tassen Reismehl, ¾ Tasse Urad-Dal-Mehl, 2 EL Sesamsamen, eine Prise Hing und 1 TL Salz vermengen.",
+   "2": "Die Zutaten gut vermischen, damit sie gut verbunden sind.",
+   "3": "3 EL Butter hinzufügen und gut vermischen. Zerbröckeln und mischen, bis das Mehl feucht ist.",
+   "4": "Nach und nach Wasser hinzufügen und den Teig kneten.",
+   "5": "Den Teig glatt und weich kneten, dabei Wasser nach Bedarf hinzufügen.",
+   "6": "Die Sternform an der Chakli-Presse anbringen und mit etwas Öl einfetten, damit der Teig nicht klebt.",
+   "7": "Den Teig zu einer zylindrischen Form rollen und in die Chakli-Presse legen.",
+   "8": "Den Deckel schließen und die Chaklis formen.",
+   "9": "Die Chaklis bei mittlerer Hitze in heißes Öl geben.",
+   "10": "Die Chaklis wenden und bei mittlerer Hitze braten, bis sie auf beiden Seiten knusprig sind.",
+   "11": "Die Chaklis auf Küchenpapier abtropfen lassen, um überschüssiges Öl zu entfernen.",
+   "12": "Nach dem Abkühlen die Instant-Butter-Chaklis genießen oder bis zu 2 Wochen in einem luftdichten Behälter aufbewahren."
+  },
+  "culturalNotes": "Chakli ist ein traditioneller indischer Süßsnack, der üblicherweise bei besonderen Anlässen und Feiern serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-017": {
+  "title": "Chak Chak",
+  "ingredients": {
+   "w-in-017-i1": {
+    "name": "Nudeln",
+    "standardAmount": "2 Tassen"
+   },
+   "w-in-017-i2": {
+    "name": "Butter",
+    "standardAmount": "1 Stange"
+   },
+   "w-in-017-i3": {
+    "name": "Honig",
+    "standardAmount": "1/4 Tasse"
+   },
+   "w-in-017-i4": {
+    "name": "Zucker",
+    "standardAmount": "1/2 Tasse"
+   },
+   "w-in-017-i5": {
+    "name": "Mehl",
+    "standardAmount": "etwas"
+   }
+  },
+  "instructions": {
+   "1": "Die Butter in einem mittleren Topf bei mittlerer Hitze schmelzen.",
+   "2": "Die Nudeln in etwas Mehl wenden und in den Topf geben und braten, bis sie leicht knusprig und golden sind. Etwa 5 Minuten, je nach Nudeldicke.",
+   "3": "Den Honig und den Zucker in einem kleinen Topf bei mittlerer Hitze schmelzen. Die Mischung sprudeln lassen, bis sich der ganze Zucker aufgelöst hat.",
+   "4": "Die Mischung noch kochend über die frittierten Nudeln gießen. Gleichmäßig vermengen.",
+   "5": "Die Hand in kühles Wasser tauchen und die Nudeln zu Kuppeln formen."
+  },
+  "culturalNotes": "Chak Chak ist eine traditionelle indische Süßspeise, die oft bei besonderen Anlässen serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-018": {
+  "title": "Chana Masala",
+  "ingredients": {
+   "w-in-018-i1": {
+    "name": "Kichererbsen",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-018-i2": {
+    "name": "Wasser (zum Einweichen)",
+    "standardAmount": "genügend"
+   },
+   "w-in-018-i3": {
+    "name": "Backnatron",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-018-i4": {
+    "name": "Salz",
+    "standardAmount": "¾ TL"
+   },
+   "w-in-018-i5": {
+    "name": "Wasser (zum Schnellkochen)",
+    "standardAmount": "3 Tassen"
+   },
+   "w-in-018-i6": {
+    "name": "Koriandersamen",
+    "standardAmount": "¼ Tasse"
+   },
+   "w-in-018-i7": {
+    "name": "Kreuzkümmel",
+    "standardAmount": "¼ Tasse"
+   },
+   "w-in-018-i8": {
+    "name": "Pfeffer",
+    "standardAmount": "2 TL"
+   },
+   "w-in-018-i9": {
+    "name": "Nelken",
+    "standardAmount": "1 TL"
+   },
+   "w-in-018-i10": {
+    "name": "schwarzer Kardamom",
+    "standardAmount": "2 Kapseln"
+   },
+   "w-in-018-i11": {
+    "name": "Zimt",
+    "standardAmount": "2 Zoll"
+   },
+   "w-in-018-i12": {
+    "name": "Muskatblüte",
+    "standardAmount": "1 Stück"
+   },
+   "w-in-018-i13": {
+    "name": "Fenchel",
+    "standardAmount": "1 TL"
+   },
+   "w-in-018-i14": {
+    "name": "Shah Jeera",
+    "standardAmount": "1 TL"
+   },
+   "w-in-018-i15": {
+    "name": "getrocknete rote Chilis",
+    "standardAmount": "10 Kapseln"
+   },
+   "w-in-018-i16": {
+    "name": "Aamchur",
+    "standardAmount": "2 EL"
+   },
+   "w-in-018-i17": {
+    "name": "Kasuri Methi",
+    "standardAmount": "2 EL"
+   },
+   "w-in-018-i18": {
+    "name": "Kurkuma",
+    "standardAmount": "1 TL"
+   },
+   "w-in-018-i19": {
+    "name": "Ghee",
+    "standardAmount": "2 EL"
+   },
+   "w-in-018-i20": {
+    "name": "Kardamom",
+    "standardAmount": "3 Kapseln"
+   },
+   "w-in-018-i21": {
+    "name": "Lorbeerblatt",
+    "standardAmount": "1 Blatt"
+   },
+   "w-in-018-i22": {
+    "name": "Kreuzkümmel",
+    "standardAmount": "1 TL"
+   },
+   "w-in-018-i23": {
+    "name": "Zwiebel",
+    "standardAmount": "1 (fein gehackt)"
+   },
+   "w-in-018-i24": {
+    "name": "Chili",
+    "standardAmount": "1 (eingeschlitzt)"
+   },
+   "w-in-018-i25": {
+    "name": "Ingwer-Knoblauch-Paste",
+    "standardAmount": "1 TL"
+   },
+   "w-in-018-i26": {
+    "name": "Salz",
+    "standardAmount": "½ TL"
+   },
+   "w-in-018-i27": {
+    "name": "Tomatenmark",
+    "standardAmount": "2 Tassen"
+   },
+   "w-in-018-i28": {
+    "name": "Koriander",
+    "standardAmount": "2 EL (fein gehackt)"
+   }
+  },
+  "instructions": {
+   "1": "Die Kichererbsen mit Backnatron mindestens 8 Stunden in Wasser einweichen.",
+   "2": "Die Kichererbsen abgießen und mit 3 Tassen Wasser und 1 TL Salz in einen Schnellkochtopf geben. 10 Minuten kochen.",
+   "3": "In einer Pfanne Koriandersamen, Kreuzkümmel, Pfeffer, Nelken, schwarzen Kardamom, Zimt, Muskatblüte, Fenchel, Shah Jeera und getrocknete rote Chilis rösten. Zu Chana-Masala-Pulver mahlen.",
+   "4": "In einer anderen Pfanne das Ghee schmelzen und Zimt, schwarzen Kardamom, Lorbeerblatt und Kreuzkümmel hinzufügen. Die Zwiebeln goldbraun anbraten.",
+   "5": "Die aufgeschlitzte Chili, Ingwer-Knoblauch-Paste, Kurkuma und Tomatenmark hinzufügen. 5 Minuten kochen.",
+   "6": "Die gekochten Kichererbsen und 1 TL Salz hinzufügen. 10 Minuten kochen.",
+   "7": "Das Chana-Masala-Pulver und den Koriander hinzufügen. Weitere 5 Minuten kochen.",
+   "8": "Das Chana Masala heiß mit Reis oder Roti servieren."
+  },
+  "culturalNotes": "Chana Masala ist ein beliebtes Gericht der indischen Küche, das üblicherweise mit Reis oder Roti serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-019": {
+  "title": "Chapati",
+  "ingredients": {
+   "w-in-019-i1": {
+    "name": "Vollkornweizenmehl",
+    "standardAmount": "3 Tassen"
+   },
+   "w-in-019-i2": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack (etwa 1 Teelöffel)"
+   },
+   "w-in-019-i3": {
+    "name": "warmes Wasser",
+    "standardAmount": "nach Bedarf (etwa 1.5 Tassen)"
+   },
+   "w-in-019-i4": {
+    "name": "Ghee (geklärte Butter)",
+    "standardAmount": "optional"
+   }
+  },
+  "instructions": {
+   "1": "Mehl und Wasser zusammenkneten, mit einer kleinen Menge Wasser beginnend und nach und nach mehr hinzufügen, bis der Teig glatt, aber nicht zu klebrig ist.",
+   "2": "Den Teig abdecken und mindestens 5 Minuten ruhen lassen.",
+   "3": "Den Teig in kleine Kugeln teilen und zu Scheiben ausrollen, etwas dicker als Jeansstoff; beim Ausrollen mit Mehl bestreuen.",
+   "4": "Eine ungefettete Pfanne bei mäßig hoher Hitze stellen und die Oberflächentemperatur testen, indem man die Hand darüber hält.",
+   "5": "Wenn die Pfanne sehr heiß ist, einen Chapati hineinlegen und mit einem Pfannenwender oder trockenen Tuch flachdrücken, damit er aufgeht.",
+   "6": "Den Chapati wenden und den Vorgang wiederholen, bis er auf beiden Seiten leicht gebräunt ist.",
+   "7": "Nach Wunsch den Chapati mit Ghee bestreichen."
+  },
+  "culturalNotes": "Chapati ist ein traditionelles indisches Fladenbrot, das zu vielen Hauptgerichten serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-020": {
+  "title": "Chhena Poda",
+  "ingredients": {
+   "w-in-020-i1": {
+    "name": "Milch",
+    "standardAmount": "2 Liter"
+   },
+   "w-in-020-i2": {
+    "name": "Zitronensaft",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-in-020-i3": {
+    "name": "Zucker",
+    "standardAmount": "1/4 Tasse"
+   },
+   "w-in-020-i4": {
+    "name": "Grieß",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-in-020-i5": {
+    "name": "Wasser",
+    "standardAmount": "3 Esslöffel"
+   },
+   "w-in-020-i6": {
+    "name": "Butter",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-020-i7": {
+    "name": "Cashewnüsse",
+    "standardAmount": "5 Stücke gehackt"
+   },
+   "w-in-020-i8": {
+    "name": "Pistazien",
+    "standardAmount": "5 Stücke gehackt"
+   },
+   "w-in-020-i9": {
+    "name": "Zimt",
+    "standardAmount": "1/4 Teelöffel"
+   },
+   "w-in-020-i10": {
+    "name": "Nelken",
+    "standardAmount": "2 Stücke"
+   }
+  },
+  "instructions": {
+   "1": "Die Milch in einen Topf gießen und bei mittlerer Hitze aufkochen.",
+   "2": "Den Zitronensaft hinzufügen und sanft rühren, bis die Milch zu gerinnen beginnt.",
+   "3": "Die geronnene Milch durch ein sauberes Tuch abseihen und einige Minuten mit kaltem Wasser abspülen.",
+   "4": "Zucker, Grieß und Wasser hinzufügen und gut vermischen.",
+   "5": "Cashewnüsse, Pistazien, Zimt und Nelken hinzufügen und nochmals vermischen.",
+   "6": "Die Mischung nochmals durch ein sauberes Tuch abseihen und 30 Minuten trocknen lassen.",
+   "7": "Die Mischung in eine gefettete Auflaufform geben und im vorgeheizten Ofen bei 180°C eine Stunde backen.",
+   "8": "Das Chhena Poda vor dem Servieren abkühlen lassen."
+  },
+  "culturalNotes": "Chhena Poda ist eine traditionelle indische Süßspeise aus dem Bundesstaat Odisha, bekannt für ihren reichen, köstlichen Geschmack.",
+  "chapter": "in"
+ },
+ "w-in-021": {
+  "title": "Hähnchen-Tikka-Masala (Schnellkochtopf)",
+  "ingredients": {
+   "w-in-021-i1": {
+    "name": "Hähnchenbrust",
+    "standardAmount": "1½ Pfund"
+   },
+   "w-in-021-i2": {
+    "name": "koscheres Salz",
+    "standardAmount": "1½ Teelöffel"
+   },
+   "w-in-021-i3": {
+    "name": "Zitronensaft",
+    "standardAmount": "1 Esslöffel"
+   },
+   "w-in-021-i4": {
+    "name": "Joghurt",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-in-021-i5": {
+    "name": "Kashmiri-Chilipulver",
+    "standardAmount": "2 Teelöffel"
+   },
+   "w-in-021-i6": {
+    "name": "Garam Masala",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-021-i7": {
+    "name": "geriebener Ingwer",
+    "standardAmount": "2 Teelöffel"
+   },
+   "w-in-021-i8": {
+    "name": "gehackter Knoblauch",
+    "standardAmount": "2 Teelöffel"
+   },
+   "w-in-021-i9": {
+    "name": "Öl zum Bestreichen",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-021-i10": {
+    "name": "Butter oder Öl",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-in-021-i11": {
+    "name": "gewürfelte gelbe Zwiebeln",
+    "standardAmount": "2 mittelgroße gelbe Zwiebeln"
+   },
+   "w-in-021-i12": {
+    "name": "geriebener Ingwer",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-021-i13": {
+    "name": "gehackter Knoblauch",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-021-i14": {
+    "name": "gehackte Tomaten",
+    "standardAmount": "3 Pflaumentomaten oder 1.5 Tassen gewürfelte oder pürierte Tomaten"
+   },
+   "w-in-021-i15": {
+    "name": "gemahlene Kurkuma",
+    "standardAmount": "¼ Teelöffel"
+   },
+   "w-in-021-i16": {
+    "name": "Salz",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-021-i17": {
+    "name": "Kashmiri-Chilipulver",
+    "standardAmount": "1-2 Teelöffel"
+   },
+   "w-in-021-i18": {
+    "name": "Garam Masala",
+    "standardAmount": "½-1 Teelöffel"
+   },
+   "w-in-021-i19": {
+    "name": "Schlagsahne",
+    "standardAmount": "½ Tasse"
+   },
+   "w-in-021-i20": {
+    "name": "Kasoori Methi (getrocknete Bockshornkleeblätter)",
+    "standardAmount": "1 Esslöffel"
+   },
+   "w-in-021-i21": {
+    "name": "gehackter Koriander",
+    "standardAmount": "½ Tasse"
+   }
+  },
+  "instructions": {
+   "1": "2–3 Schlitze in die Hähnchenbrust schneiden. Salz und Zitronensaft auf die Hähnchenbrust auftragen. Joghurt, Kashmiri-Chilipulver, Garam Masala, Ingwer und Knoblauch vermischen. Die Mischung gleichmäßig auf die Hähnchenbrust auftragen und 20 Minuten marinieren lassen oder im Kühlschrank aufbewahren, wenn im Voraus mariniert wird.",
+   "2": "Den Instant Pot auf Sauté-Modus stellen und Butter oder Öl erhitzen. Zwiebeln hinzufügen und 2 Minuten anbraten. Ingwer, Knoblauch hinzufügen und gut vermischen. Tomaten, Kurkuma, Salz, Kashmiri-Chilipulver und Garam Masala hinzufügen. Gut vermischen. Abbrechen drücken. 2 EL Wasser hinzufügen. Bei Bedarf den Topfboden ablöschen.",
+   "3": "Den hohen Einsatz in den Haupttopf stellen. Das marinierte Hähnchen auf den Einsatz legen. Das Hähnchen mit Öl bestreichen. Den Instant Pot mit dem Druckventil auf Versiegeln schließen. 8 Minuten unter Druck kochen, gefolgt von 10 Minuten natürlichem Druckabbau.",
+   "4": "Den Instant Pot öffnen. Das Hähnchen und den Einsatz herausnehmen. Die Soße mit einem Stabmixer glatt pürieren.",
+   "5": "Die Sahne und das Kasoori Methi einrühren.",
+   "6": "Das gegarte Hähnchen im vorgeheizten Ofen 5 Minuten grillen, um Grillspuren zu erhalten (optional). Das Hähnchen in 5-cm-Stücke schneiden und zur Soße geben.",
+   "7": "Den Instant Pot auf Sauté-Modus stellen und das Curry sanft aufkochen lassen. Die Soße dickt beim Abkühlen weiter ein. Mit Koriander garnieren."
+  },
+  "culturalNotes": "Hähnchen-Tikka-Masala ist ein berühmtes indisches Gericht, bekannt für seine Aromen von Garam Masala, Sahne und getrockneten Bockshornkleeblättern.",
+  "chapter": "in"
+ },
+ "w-in-022": {
+  "title": "Hähnchen Tikka",
+  "ingredients": {
+   "w-in-022-i1": {
+    "name": "hautlose, entbeinte Hähnchenbrust",
+    "standardAmount": "675 g (1.5 Pfund)"
+   },
+   "w-in-022-i2": {
+    "name": "Senfsamenöl",
+    "standardAmount": "1 EL"
+   },
+   "w-in-022-i3": {
+    "name": "Milch",
+    "standardAmount": "50 ml (2 Unzen)"
+   },
+   "w-in-022-i4": {
+    "name": "Naturjoghurt",
+    "standardAmount": "150 ml (5 Unzen)"
+   },
+   "w-in-022-i5": {
+    "name": "Zitronensaft",
+    "standardAmount": "2 EL"
+   },
+   "w-in-022-i6": {
+    "name": "Tomatenmark",
+    "standardAmount": "2 EL"
+   },
+   "w-in-022-i7": {
+    "name": "gehackter frischer Koriander",
+    "standardAmount": "2 EL"
+   },
+   "w-in-022-i8": {
+    "name": "fein gehackter Knoblauch",
+    "standardAmount": "4 große Zehen"
+   },
+   "w-in-022-i9": {
+    "name": "gehackte frische rote Chilis",
+    "standardAmount": "1-4 (je nach Schärfe der Chilis und der gewünschten Stärke der Marinade)"
+   },
+   "w-in-022-i10": {
+    "name": "Paprika",
+    "standardAmount": "2 TL"
+   },
+   "w-in-022-i11": {
+    "name": "Garam Masala",
+    "standardAmount": "2 TL"
+   },
+   "w-in-022-i12": {
+    "name": "Kreuzkümmel-Pulver",
+    "standardAmount": "1 TL"
+   },
+   "w-in-022-i13": {
+    "name": "Kurkuma",
+    "standardAmount": "½ TL"
+   },
+   "w-in-022-i14": {
+    "name": "Salz",
+    "standardAmount": "1 TL (für beste Ergebnisse Steinsalz verwenden)"
+   }
+  },
+  "instructions": {
+   "1": "Alle Zutaten außer dem Hähnchen in eine nichtmetallische Rührschüssel geben und gut vermischen.",
+   "2": "Das Hähnchen hinzufügen und vermischen, bis es vollständig überzogen ist.",
+   "3": "Idealerweise sollte das Hähnchen mindestens 24 Stunden im Kühlschrank marinieren. Frisches Hähnchen sollte für beste Ergebnisse 48 Stunden marinieren.",
+   "4": "Das Hähnchen auf Spieße stecken und in einem Tandoor oder Keramiktopfofen garen. Das Hähnchen kann auch auf Spießen unter mittlerem Grill 5–8 Minuten pro Seite oder auf dem Grill gegart werden (die Garzeiten hängen von der Grillaustattung ab). Vor dem Servieren immer sicherstellen, dass das Hähnchen durchgegart ist."
+  },
+  "culturalNotes": "Hähnchen Tikka ist ein beliebtes Gericht der indischen Küche, das üblicherweise mit Naan, Reis oder in Hähnchen-Tikka-Masala serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-023": {
+  "title": "Chinesisches Bhel",
+  "ingredients": {
+   "w-in-023-i1": {
+    "name": "Wasser",
+    "standardAmount": "5 Tassen"
+   },
+   "w-in-023-i2": {
+    "name": "Salz",
+    "standardAmount": "½ TL"
+   },
+   "w-in-023-i3": {
+    "name": "Öl",
+    "standardAmount": "1 TL"
+   },
+   "w-in-023-i4": {
+    "name": "Instantnudeln",
+    "standardAmount": "2 Packungen"
+   },
+   "w-in-023-i5": {
+    "name": "Öl",
+    "standardAmount": "3 TL"
+   },
+   "w-in-023-i6": {
+    "name": "Knoblauch",
+    "standardAmount": "1 Zehe (fein gehackt)"
+   },
+   "w-in-023-i7": {
+    "name": "Ingwer",
+    "standardAmount": "1 Zoll (fein gehackt)"
+   },
+   "w-in-023-i8": {
+    "name": "Zwiebel",
+    "standardAmount": "¼ Zwiebel (fein gehackt)"
+   },
+   "w-in-023-i9": {
+    "name": "Frühlingszwiebel",
+    "standardAmount": "4 EL (gehackt)"
+   },
+   "w-in-023-i10": {
+    "name": "Karotte",
+    "standardAmount": "½ Karotte (geraspelt)"
+   },
+   "w-in-023-i11": {
+    "name": "Paprika",
+    "standardAmount": "½ Paprika (in Scheiben geschnitten)"
+   },
+   "w-in-023-i12": {
+    "name": "Kohl",
+    "standardAmount": "1 Tasse (geraspelt)"
+   },
+   "w-in-023-i13": {
+    "name": "Schezwan-Soße",
+    "standardAmount": "2 EL"
+   },
+   "w-in-023-i14": {
+    "name": "Tomatensoße",
+    "standardAmount": "2 EL"
+   },
+   "w-in-023-i15": {
+    "name": "Sojasoße",
+    "standardAmount": "1 TL"
+   },
+   "w-in-023-i16": {
+    "name": "Essig",
+    "standardAmount": "1 EL"
+   },
+   "w-in-023-i17": {
+    "name": "Pfeffer",
+    "standardAmount": "½ TL (zerdrückt)"
+   },
+   "w-in-023-i18": {
+    "name": "Salz",
+    "standardAmount": "¼ TL"
+   }
+  },
+  "instructions": {
+   "1": "3 TL Öl in einer Pfanne erhitzen und 1 Knoblauchzehe und 2.5 cm Ingwer goldbraun anbraten.",
+   "2": "¼ Zwiebel und 4 EL Frühlingszwiebel hinzufügen und leicht anbraten.",
+   "3": "½ Karotte, ½ Paprika und 1 Tasse Kohl hinzufügen und anbraten, bis sie halb gegart aber noch knackig sind.",
+   "4": "2 EL Schezwan-Soße, 2 EL Tomatensoße, 1 TL Sojasoße, 1 EL Essig, ½ TL Pfeffer und ¼ TL Salz hinzufügen. Bei hoher Hitze gut vermischen, bis sich die Soßen verbinden.",
+   "5": "Die Masala-Mischung auf das frittierte Bhel geben.",
+   "6": "2 EL Frühlingszwiebeln hinzufügen und gut vermischen.",
+   "7": "Das chinesische Bhel sofort servieren, mit weiteren Frühlingszwiebeln garniert."
+  },
+  "culturalNotes": "Chinesisches Bhel ist ein beliebtes Gericht in Indien, eine Mischung aus frittierten Nudeln, gehacktem Gemüse und Gewürzen.",
+  "chapter": "in"
+ },
+ "w-in-024": {
+  "title": "Chole Bhature",
+  "ingredients": {
+   "w-in-024-i1": {
+    "name": "Weizenmehl",
+    "standardAmount": "2 Tassen"
+   },
+   "w-in-024-i2": {
+    "name": "Ghee",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-in-024-i3": {
+    "name": "Zucker",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-024-i4": {
+    "name": "Backnatron",
+    "standardAmount": "1/4 Teelöffel"
+   },
+   "w-in-024-i5": {
+    "name": "Salz",
+    "standardAmount": "1/2 Teelöffel"
+   },
+   "w-in-024-i6": {
+    "name": "Grieß",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-in-024-i7": {
+    "name": "Joghurt",
+    "standardAmount": "1/4 Tasse"
+   },
+   "w-in-024-i8": {
+    "name": "gehackter Koriander",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-in-024-i9": {
+    "name": "gehackte Zwiebel",
+    "standardAmount": "1 Zwiebel"
+   },
+   "w-in-024-i10": {
+    "name": "Ingwer-Knoblauch-Paste",
+    "standardAmount": "1 Esslöffel"
+   },
+   "w-in-024-i11": {
+    "name": "Kardamom",
+    "standardAmount": "1 Kapsel"
+   },
+   "w-in-024-i12": {
+    "name": "Zimt",
+    "standardAmount": "1 Zoll"
+   },
+   "w-in-024-i13": {
+    "name": "Kurkuma",
+    "standardAmount": "1/4 Teelöffel"
+   },
+   "w-in-024-i14": {
+    "name": "schwarzer Pfeffer",
+    "standardAmount": "1/4 Teelöffel"
+   },
+   "w-in-024-i15": {
+    "name": "Koriander-Pulver",
+    "standardAmount": "1 Esslöffel"
+   },
+   "w-in-024-i16": {
+    "name": "Kreuzkümmel-Pulver",
+    "standardAmount": "1/2 Teelöffel"
+   },
+   "w-in-024-i17": {
+    "name": "Garam Masala",
+    "standardAmount": "1/2 Teelöffel"
+   },
+   "w-in-024-i18": {
+    "name": "trockenes Mangopulver",
+    "standardAmount": "1 Esslöffel"
+   },
+   "w-in-024-i19": {
+    "name": "Tomatenmark",
+    "standardAmount": "1.5 Tassen"
+   },
+   "w-in-024-i20": {
+    "name": "gehackter Koriander",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-in-024-i21": {
+    "name": "Kichererbsen",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-024-i22": {
+    "name": "Teebeutel",
+    "standardAmount": "2 Beutel"
+   },
+   "w-in-024-i23": {
+    "name": "Salz",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-024-i24": {
+    "name": "Wasser",
+    "standardAmount": "3 Tassen"
+   },
+   "w-in-024-i25": {
+    "name": "Öl",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-in-024-i26": {
+    "name": "Öl",
+    "standardAmount": "zum Braten"
+   }
+  },
+  "instructions": {
+   "1": "Die Kichererbsen über Nacht in Wasser einweichen.",
+   "2": "Am nächsten Tag die Kichererbsen gründlich abgießen und abspülen.",
+   "3": "In einem Topf die Kichererbsen, Teebeutel, Backnatron, Salz und Wasser geben. 20 Minuten kochen, bis die Kichererbsen gar sind.",
+   "4": "In einer Pfanne Öl, Lorbeerblatt, Kardamom, Zimt, Kreuzkümmel, getrocknete Bockshornkleeblätter, Zwiebel, Ingwer-Knoblauch-Paste, Kurkuma, schwarzen Pfeffer, Koriander-Pulver, Kreuzkümmel-Pulver, Garam Masala, trockenes Mangopulver und Tomatenmark geben. 5 Minuten kochen.",
+   "5": "Die gekochten Kichererbsen hinzufügen und 10 Minuten köcheln lassen.",
+   "6": "In einer Schüssel Mehl, Ghee, Zucker, Backnatron, Salz, Grieß, Joghurt und Wasser vermischen, bis der Teig glatt ist.",
+   "7": "Den Teig 30 Minuten ruhen lassen.",
+   "8": "Den Teig zu dünnen Fladen formen.",
+   "9": "Die Fladen in heißem Öl goldbraun frittieren.",
+   "10": "Das Chole mit heißen Bhature servieren."
+  },
+  "culturalNotes": "Chole Bhature ist ein beliebtes Gericht in Indien, das oft bei besonderen Anlässen und Feiern serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-025": {
+  "title": "Chum Chum (Cham Cham) bengalische Süßspeise",
+  "ingredients": {
+   "w-in-025-i1": {
+    "name": "Milch",
+    "standardAmount": "2.5 Liter"
+   },
+   "w-in-025-i2": {
+    "name": "Essig",
+    "standardAmount": "3 EL"
+   },
+   "w-in-025-i3": {
+    "name": "Zucker",
+    "standardAmount": "1.5 Tassen"
+   },
+   "w-in-025-i4": {
+    "name": "Wasser",
+    "standardAmount": "6 Tassen"
+   },
+   "w-in-025-i5": {
+    "name": "Milchpulver",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-025-i6": {
+    "name": "Kesar-Lebensmittelfarbe",
+    "standardAmount": "eine Prise"
+   },
+   "w-in-025-i7": {
+    "name": "Kirsche",
+    "standardAmount": "zum Garnieren"
+   }
+  },
+  "instructions": {
+   "1": "Zuerst 2.5 Liter Milch in einem Topf aufkochen, gelegentlich rühren, damit sie nicht anbrennt.",
+   "2": "3 EL Essig hinzufügen und rühren. Die Milch beginnt zu gerinnen.",
+   "3": "Das Wasser durch ein Käsetuch oder ein sauberes Tuch abseihen. Den Paneer mit kaltem Wasser abspülen, um die Säure zu entfernen und den Garvorgang zu stoppen.",
+   "4": "Den Paneer vorsichtig zerbröckeln und kneten, bis er glatt und körnungsfrei ist. Nicht zu stark kneten, damit der Chum Chum nicht hart wird.",
+   "5": "Den Paneer zu kleinen, flachen Kugeln formen und mit einem feuchten Tuch abdecken.",
+   "6": "In einem großen Topf 1,5 Tassen Zucker und 6 Tassen Wasser vermengen. Rühren, bis sich der Zucker auflöst, und das Wasser 5 Minuten kochen, bis der Sirup leicht klebrig wird.",
+   "7": "Eine Paneer-Kugel in den Sirup geben und den Topf abdecken. 5 Minuten kochen oder bis die Kugel sich verdoppelt.",
+   "8": "Die Kugel wenden und weitere 15 Minuten kochen, bis der Paneer vollständig durchgegart ist. Beiseitestellen.",
+   "9": "Für die Füllung 1 Tasse Milch, eine Prise Kesar-Lebensmittelfarbe und 1 Tasse Milchpulver in einer Pfanne vermengen. Rühren, bis die Mischung eindickt.",
+   "10": "2 EL Zucker hinzufügen und gut vermischen. Kochen, bis der Khova gut durchgegart und nicht mehr klebrig ist. Die Füllung dickt beim Abkühlen nach.",
+   "11": "Die Paneer-Kugel in der Mitte einschneiden und mit der Mischung füllen, darauf achten, dass die Füllung gleichmäßig verteilt ist.",
+   "12": "Mit einer Kirsche garnieren und im Kühlschrank aufbewahren.",
+   "13": "Den gekühlten Chum Chum genießen; er hält sich eine Woche im Kühlschrank."
+  },
+  "culturalNotes": "Chum Chum ist eine traditionelle bengalische Süßspeise, bekannt für ihren süßen Geschmack und ihre glatte Textur.",
+  "chapter": "in"
+ },
+ "w-in-026": {
+  "title": "Dabeli (mit Kartoffeln gefüllte Brötchen mit Chutney)",
+  "ingredients": {
+   "w-in-026-i1": {
+    "name": "Öl",
+    "standardAmount": "1 Esslöffel"
+   },
+   "w-in-026-i2": {
+    "name": "Asafoetida-Pulver",
+    "standardAmount": "eine Prise"
+   },
+   "w-in-026-i3": {
+    "name": "Dabeli-Masala",
+    "standardAmount": "2 Teelöffel"
+   },
+   "w-in-026-i4": {
+    "name": "Kartoffeln",
+    "standardAmount": "2 mittelgroß, gekocht und zerstampft"
+   },
+   "w-in-026-i5": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-in-026-i6": {
+    "name": "grüne Chilis",
+    "standardAmount": "optional, fein gehackt"
+   },
+   "w-in-026-i7": {
+    "name": "geröstete Erdnüsse",
+    "standardAmount": "2 Esslöffel"
+   }
+  },
+  "instructions": {
+   "1": "Das Öl in einer Pfanne erhitzen.",
+   "2": "Asafoetida-Pulver, Dabeli-Masala, zerstampfte Kartoffeln, Salz und einen Spritzer Wasser hinzufügen. Gut vermischen, bis alle Zutaten gut verbunden sind.",
+   "3": "Falls verwendet, die grünen Chilis hinzufügen.",
+   "4": "Die Kartoffelmischung von der Hitze nehmen und abschmecken. Wer es schärfer mag, fügt mehr Dabeli-Masala hinzu und mischt erneut mit den Händen oder einem Stampfer.",
+   "5": "Die gerösteten Erdnüsse hinzufügen und alles gut vermischen."
+  },
+  "culturalNotes": "Dabeli ist ein beliebtes Gericht in Gujarat, Indien, und wird üblicherweise als Snack oder Vorspeise serviert.",
+  "chapter": "in"
+ },
+ "w-in-027": {
+  "title": "Dahi Baingan",
+  "ingredients": {
+   "w-in-027-i1": {
+    "name": "Öl",
+    "standardAmount": "5 TL"
+   },
+   "w-in-027-i2": {
+    "name": "Aubergine",
+    "standardAmount": "6 (in Scheiben geschnitten)"
+   },
+   "w-in-027-i3": {
+    "name": "Kreuzkümmel",
+    "standardAmount": "1 TL"
+   },
+   "w-in-027-i4": {
+    "name": "Lorbeerblatt",
+    "standardAmount": "1"
+   },
+   "w-in-027-i5": {
+    "name": "Asafoetida",
+    "standardAmount": "Prise"
+   },
+   "w-in-027-i6": {
+    "name": "Zwiebel",
+    "standardAmount": "1 (fein gehackt)"
+   },
+   "w-in-027-i7": {
+    "name": "Ingwer-Knoblauch-Paste",
+    "standardAmount": "1 TL"
+   },
+   "w-in-027-i8": {
+    "name": "Kichererbsenmehl",
+    "standardAmount": "2 TL"
+   },
+   "w-in-027-i9": {
+    "name": "Kurkuma",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-027-i10": {
+    "name": "Kashmiri-Chilipulver",
+    "standardAmount": "½ TL"
+   },
+   "w-in-027-i11": {
+    "name": "Koriander-Pulver",
+    "standardAmount": "½ TL"
+   },
+   "w-in-027-i12": {
+    "name": "Garam Masala",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-027-i13": {
+    "name": "Wasser",
+    "standardAmount": "½ Tasse"
+   },
+   "w-in-027-i14": {
+    "name": "Joghurt",
+    "standardAmount": "1 Tasse (verquirlt)"
+   },
+   "w-in-027-i15": {
+    "name": "Salz",
+    "standardAmount": "½ TL"
+   },
+   "w-in-027-i16": {
+    "name": "Kasuri Methi",
+    "standardAmount": "1 TL (zerdrückt)"
+   },
+   "w-in-027-i17": {
+    "name": "Korianderblätter",
+    "standardAmount": "2 EL (fein gehackt)"
+   }
+  },
+  "instructions": {
+   "1": "3 TL Öl in einem großen Kadai erhitzen, dann die in Scheiben geschnittene Aubergine hinzufügen und goldbraun rühren. Beiseitestellen.",
+   "2": "Im selben Kadai 2 TL Öl hinzufügen, dann Kreuzkümmel, Lorbeerblatt und Asafoetida hinzufügen. Gut rühren.",
+   "3": "Die Zwiebel und die Ingwer-Knoblauch-Paste hinzufügen und rühren, bis die Zwiebel golden ist.",
+   "4": "Das Kichererbsenmehl hinzufügen und bei schwacher Hitze 5 Minuten rösten.",
+   "5": "Kurkuma, Kashmiri-Chilipulver, Koriander-Pulver und Garam Masala hinzufügen. Gut rühren.",
+   "6": "Wasser und verquirlten Joghurt hinzufügen und ständig rühren, bis sich der Joghurt gut verbindet.",
+   "7": "Die geröstete Aubergine und das Salz hinzufügen. Gut vermischen, zudecken und 5 Minuten köcheln.",
+   "8": "Zerstoßenes Kasuri Methi und gehackte Korianderblätter hinzufügen. Gut vermischen.",
+   "9": "Dahi Baingan mit Chapati oder Kulcha servieren."
+  },
+  "culturalNotes": "Dahi Baingan ist ein beliebtes Gericht der indischen Küche, das üblicherweise mit indischem Brot wie Chapati oder Kulcha serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-028": {
+  "title": "Dahi Vada (Dahi Bhalla)",
+  "ingredients": {
+   "w-in-028-i1": {
+    "name": "schwarze Bohnen (Urad Dal)",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-028-i2": {
+    "name": "grüne Bohnen (Moong Dal)",
+    "standardAmount": "¼ Tasse"
+   },
+   "w-in-028-i3": {
+    "name": "Chili",
+    "standardAmount": "1 Chili"
+   },
+   "w-in-028-i4": {
+    "name": "Ingwer",
+    "standardAmount": "1 Zoll"
+   },
+   "w-in-028-i5": {
+    "name": "Salz",
+    "standardAmount": "1 TL"
+   },
+   "w-in-028-i6": {
+    "name": "Öl (zum Frittieren)",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-in-028-i7": {
+    "name": "heißes Wasser",
+    "standardAmount": "5 Tassen"
+   },
+   "w-in-028-i8": {
+    "name": "Salz",
+    "standardAmount": "½ TL"
+   },
+   "w-in-028-i9": {
+    "name": "Hing (Asafoetida)",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-028-i10": {
+    "name": "Quark (frisch & dick)",
+    "standardAmount": "2 Tassen"
+   },
+   "w-in-028-i11": {
+    "name": "Zucker",
+    "standardAmount": "2 EL"
+   },
+   "w-in-028-i12": {
+    "name": "Salz",
+    "standardAmount": "½ TL"
+   },
+   "w-in-028-i13": {
+    "name": "grünes Chutney",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-in-028-i14": {
+    "name": "Tamarinden-Chutney",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-in-028-i15": {
+    "name": "Chilipulver",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-in-028-i16": {
+    "name": "Kreuzkümmel-Pulver",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-in-028-i17": {
+    "name": "Chaat Masala",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-in-028-i18": {
+    "name": "Boondi",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-in-028-i19": {
+    "name": "Koriander",
+    "standardAmount": "nach Bedarf"
+   }
+  },
+  "instructions": {
+   "1": "Die schwarzen und grünen Bohnen 4–5 Stunden in Wasser einweichen, bis sie aufgequollen sind.",
+   "2": "Die eingeweichten Bohnen mit der Chili, dem Ingwer und dem Salz zu einem glatten Teig mahlen.",
+   "3": "Den Teig zu kleinen Kugeln formen und in heißem Öl goldbraun frittieren.",
+   "4": "Die frittierten Kugeln 10 Minuten in heißem Wasser einweichen, bis sie weich werden.",
+   "5": "Den Quark mit Zucker, Salz und etwas Wasser glatt rühren.",
+   "6": "Die Chutneys und Gewürze nach Wunsch hinzufügen.",
+   "7": "Die Dahi Vada mit den eingeweichten frittierten Kugeln im gesüßten Quark und den Gewürzen servieren."
+  },
+  "culturalNotes": "Dahi Vada ist ein beliebtes Gericht in Indien, das als Vorspeise bei Zusammenkünften und zu Hause serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-029": {
+  "title": "Dal Makhani",
+  "ingredients": {
+   "w-in-029-i1": {
+    "name": "schwarze Urad Dal",
+    "standardAmount": "¾ Tasse"
+   },
+   "w-in-029-i2": {
+    "name": "Rajma",
+    "standardAmount": "¼ Tasse"
+   },
+   "w-in-029-i3": {
+    "name": "Chana Dal",
+    "standardAmount": "2 EL"
+   },
+   "w-in-029-i4": {
+    "name": "Ingwer",
+    "standardAmount": "1 Zoll"
+   },
+   "w-in-029-i5": {
+    "name": "Knoblauch",
+    "standardAmount": "5 Zehen"
+   },
+   "w-in-029-i6": {
+    "name": "Chilipulver",
+    "standardAmount": "½ TL"
+   },
+   "w-in-029-i7": {
+    "name": "Kurkuma",
+    "standardAmount": "½ TL"
+   },
+   "w-in-029-i8": {
+    "name": "Salz",
+    "standardAmount": "1 TL"
+   },
+   "w-in-029-i9": {
+    "name": "Öl",
+    "standardAmount": "2 EL"
+   },
+   "w-in-029-i10": {
+    "name": "Wasser",
+    "standardAmount": "3 Tassen"
+   },
+   "w-in-029-i11": {
+    "name": "Öl",
+    "standardAmount": "2 EL"
+   },
+   "w-in-029-i12": {
+    "name": "Butter",
+    "standardAmount": "1 TL"
+   },
+   "w-in-029-i13": {
+    "name": "Kreuzkümmel",
+    "standardAmount": "1 TL"
+   },
+   "w-in-029-i14": {
+    "name": "Zimt",
+    "standardAmount": "1 Zoll"
+   },
+   "w-in-029-i15": {
+    "name": "Nelken",
+    "standardAmount": "½ TL"
+   },
+   "w-in-029-i16": {
+    "name": "Zimt",
+    "standardAmount": "1 Zoll"
+   },
+   "w-in-029-i17": {
+    "name": "Nelken",
+    "standardAmount": "½ TL"
+   },
+   "w-in-029-i18": {
+    "name": "Javitri",
+    "standardAmount": "½ TL"
+   },
+   "w-in-029-i19": {
+    "name": "Zwiebel",
+    "standardAmount": "1 Zwiebel"
+   },
+   "w-in-029-i20": {
+    "name": "Ingwer-Knoblauch",
+    "standardAmount": "2 EL"
+   },
+   "w-in-029-i21": {
+    "name": "Chili",
+    "standardAmount": "2 Chili"
+   },
+   "w-in-029-i22": {
+    "name": "Chilipulver",
+    "standardAmount": "1 TL"
+   },
+   "w-in-029-i23": {
+    "name": "Kurkuma",
+    "standardAmount": "½ TL"
+   },
+   "w-in-029-i24": {
+    "name": "Kreuzkümmel-Pulver",
+    "standardAmount": "½ TL"
+   },
+   "w-in-029-i25": {
+    "name": "Koriander-Pulver",
+    "standardAmount": "1 TL"
+   },
+   "w-in-029-i26": {
+    "name": "Hing",
+    "standardAmount": "Prise"
+   },
+   "w-in-029-i27": {
+    "name": "Tomate",
+    "standardAmount": "2 Tomaten"
+   },
+   "w-in-029-i28": {
+    "name": "Salz",
+    "standardAmount": "½ TL"
+   },
+   "w-in-029-i29": {
+    "name": "Wasser",
+    "standardAmount": "2 Tassen"
+   },
+   "w-in-029-i30": {
+    "name": "Sahne",
+    "standardAmount": "2 EL"
+   },
+   "w-in-029-i31": {
+    "name": "Koriander",
+    "standardAmount": "2 EL"
+   },
+   "w-in-029-i32": {
+    "name": "Kasuri Methi",
+    "standardAmount": "2 EL"
+   }
+  },
+  "instructions": {
+   "1": "¾ Tasse schwarze Urad Dal und ¼ Tasse Rajma waschen.",
+   "2": "Das Dal mindestens 5 Stunden oder über Nacht in Wasser einweichen.",
+   "3": "Das eingeweichte Dal in einen Schnellkochtopf geben. 2 EL Chana Dal, 2.5 cm Ingwer und 5 Knoblauchzehen hinzufügen.",
+   "4": "½ TL Chilipulver, ½ TL Kurkuma, 1 TL Salz und 2 EL Öl hinzufügen.",
+   "5": "Mit 3 Tassen Wasser 6 Pfeifen lang schnellkochen.",
+   "6": "Das Dal nur zu 90 % garen, da der Rest im Kadai gart.",
+   "7": "Im Kadai 2 EL Öl und 1 TL Butter erhitzen. 1 TL Kreuzkümmel, 1 Lorbeerblatt, ½ TL Nelken, 2.5 cm Zimt und ½ TL Javitri hinzufügen. Anbraten, bis die Gewürze aromatisch werden.",
+   "8": "1 fein gehackte Zwiebel, 2 EL gehackten Ingwer-Knoblauch und 2 fein gehackte Chilis hinzufügen und anbraten, bis die Zwiebeln goldbraun sind.",
+   "9": "1 TL Chilipulver, ½ TL Kurkuma, ½ TL Kreuzkümmel-Pulver, 1 TL Koriander-Pulver und eine Prise Hing hinzufügen. Bei schwacher Hitze anbraten, bis die Gewürze aromatisch werden.",
+   "10": "2 weitere fein gehackte Tomaten hinzufügen und kochen, bis die Tomaten weich werden und sich das Öl an den Rändern absetzt.",
+   "11": "Das gekochte Dal hinzufügen und vorsichtig vermischen.",
+   "12": "Salz und Konsistenz anpassen.",
+   "13": "Zudecken und 15 Minuten köcheln, bis das Dal vollständig gar ist.",
+   "14": "Das Dal leicht zerdrücken, um die gewünschte Konsistenz zu erhalten.",
+   "15": "2 EL Sahne, 2 EL Koriander und 2 EL Kasuri Methi hinzufügen. Gut vermischen.",
+   "16": "Das Dal Makhani mit Reis und Roti servieren."
+  },
+  "culturalNotes": "Dal Makhani ist ein berühmtes Gericht der indischen Küche, das üblicherweise mit Reis und Roti serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-030": {
+  "title": "Dal Makhani (schwarze Bohnen mit Sahne)",
+  "ingredients": {
+   "w-in-030-i1": {
+    "name": "ganze getrocknete Urad Dal",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-030-i2": {
+    "name": "getrocknete Kidneybohnen (Rajma)",
+    "standardAmount": "⅓ Tasse"
+   },
+   "w-in-030-i3": {
+    "name": "Wasser",
+    "standardAmount": "5-6 Tassen"
+   },
+   "w-in-030-i4": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-in-030-i5": {
+    "name": "rotes Chilipulver",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-in-030-i6": {
+    "name": "Kurkuma-Pulver",
+    "standardAmount": "1 TL"
+   },
+   "w-in-030-i7": {
+    "name": "geriebener Ingwer",
+    "standardAmount": "1 EL"
+   },
+   "w-in-030-i8": {
+    "name": "Öl oder Butter",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-in-030-i9": {
+    "name": "Hing",
+    "standardAmount": "eine Prise"
+   },
+   "w-in-030-i10": {
+    "name": "Lorbeerblätter",
+    "standardAmount": "2 Blätter"
+   },
+   "w-in-030-i11": {
+    "name": "Zimtstange",
+    "standardAmount": "1 Stange"
+   },
+   "w-in-030-i12": {
+    "name": "Nelken",
+    "standardAmount": "2 Nelken"
+   },
+   "w-in-030-i13": {
+    "name": "gehackte Zwiebeln",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-030-i14": {
+    "name": "Ingwer-Knoblauch-Paste",
+    "standardAmount": "2 EL"
+   },
+   "w-in-030-i15": {
+    "name": "gehackte Tomaten",
+    "standardAmount": "2 Tomaten"
+   },
+   "w-in-030-i16": {
+    "name": "Koriander-Pulver",
+    "standardAmount": "1 EL"
+   },
+   "w-in-030-i17": {
+    "name": "frische Sahne",
+    "standardAmount": "½ Tasse"
+   },
+   "w-in-030-i18": {
+    "name": "Ghee (geklärte Butter)",
+    "standardAmount": "2 EL"
+   },
+   "w-in-030-i19": {
+    "name": "gehackte Korianderblätter",
+    "standardAmount": "zum Garnieren"
+   }
+  },
+  "instructions": {
+   "1": "Die schwarze Urad Dal und die roten Kidneybohnen waschen und über Nacht in lauwarmem Wasser einweichen.",
+   "2": "Die eingeweichten Dal und Kidneybohnen in 5–6 Tassen Wasser mit Salz, rotem Chilipulver, Kurkuma-Pulver und geriebenem Ingwer weich kochen.",
+   "3": "Das gekochte Dal beiseitestellen.",
+   "4": "Öl oder Butter in einer Pfanne mit dickem Boden erhitzen. Hing, Lorbeerblätter, Zimtstange, Nelken und gehackte Zwiebeln hinzufügen und hellgoldbraun kochen.",
+   "5": "Wenn die Zwiebeln golden werden, Ingwer-Knoblauch-Paste hinzufügen und anbraten.",
+   "6": "Gehackte Tomaten hinzufügen. Anbraten und Koriander-Pulver hinzufügen. Anbraten, bis die Tomaten gut zerdrückt sind.",
+   "7": "Das gekochte Dal und Wasser nach Bedarf hinzufügen. Gut vermischen und 15–20 Minuten köcheln.",
+   "8": "Frische Sahne und geklärte Butter hinzufügen und 5 Minuten köcheln lassen. Von der Hitze nehmen.",
+   "9": "Vor dem Servieren mit gehackten Korianderblättern garnieren.",
+   "10": "Heiß mit Naan, Paratha oder Reis servieren."
+  },
+  "culturalNotes": "Dal Makhani ist ein berühmtes Gericht der indischen Küche, bekannt für seinen reichen, cremigen Geschmack.",
+  "chapter": "in"
+ },
+ "w-in-031": {
+  "title": "Mikrowellen-Dhokla",
+  "ingredients": {
+   "w-in-031-i1": {
+    "name": "Besan / Kichererbsenmehl",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-031-i2": {
+    "name": "Rava / Grieß / Suji",
+    "standardAmount": "2 EL"
+   },
+   "w-in-031-i3": {
+    "name": "Kurkuma / Haldi",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-031-i4": {
+    "name": "Ingwerpaste",
+    "standardAmount": "½ TL"
+   },
+   "w-in-031-i5": {
+    "name": "Asafoetida / Hing",
+    "standardAmount": "Prise"
+   },
+   "w-in-031-i6": {
+    "name": "Zucker",
+    "standardAmount": "1 TL"
+   },
+   "w-in-031-i7": {
+    "name": "Öl",
+    "standardAmount": "2 TL"
+   },
+   "w-in-031-i8": {
+    "name": "Salz",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-031-i9": {
+    "name": "Zitronensaft",
+    "standardAmount": "1 EL"
+   },
+   "w-in-031-i10": {
+    "name": "Wasser",
+    "standardAmount": "½ Tasse"
+   },
+   "w-in-031-i11": {
+    "name": "Eno-Fruchtsalz",
+    "standardAmount": "1 TL"
+   },
+   "w-in-031-i12": {
+    "name": "Öl",
+    "standardAmount": "3 TL"
+   },
+   "w-in-031-i13": {
+    "name": "Senf",
+    "standardAmount": "1 TL"
+   },
+   "w-in-031-i14": {
+    "name": "Kreuzkümmel / Jeera",
+    "standardAmount": "½ TL"
+   },
+   "w-in-031-i15": {
+    "name": "Sesamsamen / Til",
+    "standardAmount": "1 TL"
+   },
+   "w-in-031-i16": {
+    "name": "Curryblätter",
+    "standardAmount": "einige"
+   },
+   "w-in-031-i17": {
+    "name": "grüne Chili",
+    "standardAmount": "2 (eingeschlitzt)"
+   },
+   "w-in-031-i18": {
+    "name": "Asafoetida / Hing",
+    "standardAmount": "Prise"
+   },
+   "w-in-031-i19": {
+    "name": "Wasser",
+    "standardAmount": "2 EL"
+   },
+   "w-in-031-i20": {
+    "name": "Zitronensaft",
+    "standardAmount": "1 TL"
+   },
+   "w-in-031-i21": {
+    "name": "Zucker",
+    "standardAmount": "1 TL"
+   },
+   "w-in-031-i22": {
+    "name": "Salz",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-031-i23": {
+    "name": "Kokosnuss (gerieben)",
+    "standardAmount": "2 EL"
+   },
+   "w-in-031-i24": {
+    "name": "Koriander (gehackt)",
+    "standardAmount": "1 EL"
+   }
+  },
+  "instructions": {
+   "1": "In einer großen Rührschüssel 1 Tasse Besan, 2 EL Rava, ¼ TL Kurkuma, ½ TL Ingwerpaste, eine Prise Hing, 1 TL Zucker, 2 TL Öl und ¼ TL Salz nehmen.",
+   "2": "½ Tasse Wasser hinzufügen und zu einem glatten, klumpenfreien Teig verrühren.",
+   "3": "Den Teig 10 Minuten ruhen lassen.",
+   "4": "1 TL Eno-Fruchtsalz zum Teig geben und sanft vermischen, bis der Teig schäumig und locker wird.",
+   "5": "Den Dhokla-Teig sofort auf ein gefettetes Blech geben.",
+   "6": "Das Blech in die Mikrowelle stellen und 5 Minuten auf höchster Stufe laufen lassen.",
+   "7": "Den Dhokla in quadratische Stücke oder eine Form nach Wahl schneiden.",
+   "8": "3 TL Öl in einer Pfanne erhitzen und 1 TL Senf, ½ TL Kreuzkümmel, 1 TL Sesamsamen, einige Curryblätter, 2 aufgeschlitzte grüne Chilis und eine Prise Hing hinzufügen. Goldbraun anbraten.",
+   "9": "Die Würzung sofort über den Dhokla gießen, damit er sie vollständig aufnimmt.",
+   "10": "2 EL geriebene Kokosnuss und 1 EL gehackten Koriander darüberstreuen.",
+   "11": "Den weichen, luftigen Dhokla mit grünem Chutney oder pur servieren."
+  },
+  "culturalNotes": "Dhokla ist ein beliebtes Gericht im indischen Bundesstaat Gujarat und wird üblicherweise als Vorspeise oder leichter Snack serviert.",
+  "chapter": "in"
+ },
+ "w-in-032": {
+  "title": "Doodhpak",
+  "ingredients": {
+   "w-in-032-i1": {
+    "name": "Ghee",
+    "standardAmount": "1 1/2 TL"
+   },
+   "w-in-032-i2": {
+    "name": "Kichererbsenmehl",
+    "standardAmount": "1 EL"
+   },
+   "w-in-032-i3": {
+    "name": "Milch",
+    "standardAmount": "2 Tassen"
+   },
+   "w-in-032-i4": {
+    "name": "Zucker",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-in-032-i5": {
+    "name": "gemahlener Kardamom",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-032-i6": {
+    "name": "Mandelblättchen",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-in-032-i7": {
+    "name": "Safran",
+    "standardAmount": "1 Prise"
+   },
+   "w-in-032-i8": {
+    "name": "goldene Rosinen",
+    "standardAmount": "nach Geschmack"
+   }
+  },
+  "instructions": {
+   "1": "Das Ghee in einem kleinen Topf schmelzen und das Kichererbsenmehl hinzufügen. Unter ständigem Rühren kochen, bis die Mischung klumpt und das Ghee die Öle freigibt.",
+   "2": "Die Milch nach und nach unter ständigem Rühren hinzufügen, um Klumpen zu vermeiden.",
+   "3": "Zucker und gemahlenen Kardamom hinzufügen. Die goldenen Rosinen und Mandelblättchen können jetzt oder auf den Boden des Glases gegeben werden.",
+   "4": "Die Mischung einige Minuten köcheln, bis sich der Zucker auflöst.",
+   "5": "Von der Hitze nehmen und sofort servieren."
+  },
+  "culturalNotes": "Doodhpak ist ein traditionelles indisches Getränk, das bei besonderen Anlässen serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-033": {
+  "title": "Adai Dosa",
+  "ingredients": {
+   "w-in-033-i1": {
+    "name": "Idli-Reis",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-033-i2": {
+    "name": "Toor Dal",
+    "standardAmount": "¾ Tasse"
+   },
+   "w-in-033-i3": {
+    "name": "Chana Dal",
+    "standardAmount": "¾ Tasse"
+   },
+   "w-in-033-i4": {
+    "name": "Moong Dal",
+    "standardAmount": "¾ Tasse"
+   },
+   "w-in-033-i5": {
+    "name": "Urad Dal",
+    "standardAmount": "¾ Tasse"
+   },
+   "w-in-033-i6": {
+    "name": "Fenchel",
+    "standardAmount": "1 TL"
+   },
+   "w-in-033-i7": {
+    "name": "Kreuzkümmel",
+    "standardAmount": "1 TL"
+   },
+   "w-in-033-i8": {
+    "name": "Methi",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-033-i9": {
+    "name": "getrocknete rote Chilis",
+    "standardAmount": "10 Stücke"
+   },
+   "w-in-033-i10": {
+    "name": "Wasser",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-in-033-i11": {
+    "name": "Hing",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-033-i12": {
+    "name": "Kurkuma",
+    "standardAmount": "½ TL"
+   },
+   "w-in-033-i13": {
+    "name": "Ingwer",
+    "standardAmount": "1 Zoll"
+   },
+   "w-in-033-i14": {
+    "name": "Salz",
+    "standardAmount": "1 EL"
+   },
+   "w-in-033-i15": {
+    "name": "Zwiebel",
+    "standardAmount": "1 (fein gehackt)"
+   },
+   "w-in-033-i16": {
+    "name": "Koriander",
+    "standardAmount": "2 EL (fein gehackt)"
+   },
+   "w-in-033-i17": {
+    "name": "Ghee",
+    "standardAmount": "nach Bedarf"
+   }
+  },
+  "instructions": {
+   "1": "In einer großen Schüssel 1 Tasse Idli-Reis, ¾ Tasse Toor Dal, ¾ Tasse Chana Dal, ¾ Tasse Moong Dal, ¾ Tasse Urad Dal, 1 TL Fenchel, 1 TL Kreuzkümmel, ¼ TL Methi und 10 getrocknete rote Chilis nehmen.",
+   "2": "Das Dal gut abspülen und 4 Stunden in Wasser einweichen.",
+   "3": "Das Wasser abgießen und die Zutaten in den Mixbecher geben. ¼ TL Hing, ½ TL Kurkuma, 2.5 cm Ingwer und 1 EL Salz hinzufügen.",
+   "4": "Die Zutaten zu einer groben Paste mahlen, dabei Wasser nach Bedarf hinzufügen. In Portionen mahlen, wenn der Mixbecher klein ist.",
+   "5": "Den Teig in eine große Schüssel geben und gut vermischen, die Konsistenz nach Bedarf anpassen.",
+   "6": "Den Teig 2 Stunden ruhen lassen, bevor die Dosa gemacht wird.",
+   "7": "Die benötigte Menge Teig nehmen, 1 fein gehackte Zwiebel und 2 EL fein gehackten Koriander hinzufügen und gut vermischen.",
+   "8": "Die Dosa-Pfanne erhitzen und den Teig aufgießen.",
+   "9": "Den Teig sanft verteilen, damit die Dosa etwas dick wird.",
+   "10": "Mit Ghee belegen und bei mittlerer Hitze rösten, bis die Dosa unten goldbraun ist.",
+   "11": "Die Dosa wenden und gar braten.",
+   "12": "Adai Dosa mit Kokosnuss-Chutney genießen."
+  },
+  "culturalNotes": "Adai Dosa ist ein beliebtes Frühstücksgericht in Südindien, bekannt für seinen hohen Proteingehalt.",
+  "chapter": "in"
+ },
+ "w-in-034": {
+  "title": "Dum Aloo",
+  "ingredients": {
+   "w-in-034-i1": {
+    "name": "Babykartoffeln",
+    "standardAmount": "20 Stücke"
+   },
+   "w-in-034-i2": {
+    "name": "Zwiebel",
+    "standardAmount": "1 kleine Zwiebel"
+   },
+   "w-in-034-i3": {
+    "name": "Tomate",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-034-i4": {
+    "name": "Ingwerwurzel",
+    "standardAmount": "1 TL gerieben"
+   },
+   "w-in-034-i5": {
+    "name": "Knoblauch",
+    "standardAmount": "3 Zehen zerdrückt"
+   },
+   "w-in-034-i6": {
+    "name": "gemahlener Kreuzkümmel",
+    "standardAmount": "1 TL"
+   },
+   "w-in-034-i7": {
+    "name": "gemahlene Nelke",
+    "standardAmount": "1/8 TL"
+   },
+   "w-in-034-i8": {
+    "name": "Zucker",
+    "standardAmount": "1 TL"
+   },
+   "w-in-034-i9": {
+    "name": "rotes Chilipulver",
+    "standardAmount": "1 TL"
+   },
+   "w-in-034-i10": {
+    "name": "Garam Masala",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-034-i11": {
+    "name": "Salz",
+    "standardAmount": "1 TL"
+   },
+   "w-in-034-i12": {
+    "name": "Senföl",
+    "standardAmount": "2 EL"
+   },
+   "w-in-034-i13": {
+    "name": "Kreuzkümmelsamen",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-034-i14": {
+    "name": "Lorbeerblätter",
+    "standardAmount": "2 Blätter"
+   },
+   "w-in-034-i15": {
+    "name": "Zimtstange",
+    "standardAmount": "1 Stange"
+   },
+   "w-in-034-i16": {
+    "name": "Kardamomkapseln",
+    "standardAmount": "4 Kapseln"
+   },
+   "w-in-034-i17": {
+    "name": "Wasser",
+    "standardAmount": "2 Tassen"
+   }
+  },
+  "instructions": {
+   "1": "Die Babykartoffeln waschen und in Salzwasser fast gar kochen. Abgießen und mit kaltem Wasser bedecken, dann schälen und beiseitestellen.",
+   "2": "In einer Küchenmaschine gehackte Zwiebel, gehackte Tomaten, geriebenen Ingwer, zerdrückten Knoblauch, gemahlenen Kreuzkümmel, gemahlene Nelke, Zucker, rotes Chilipulver, Garam Masala und Salz vermengen. Mit einem Stabmixer eine glatte Konsistenz erzielen.",
+   "3": "Senföl in einem Wok oder einer Pfanne erhitzen. Kreuzkümmelsamen, Zimtstange, Kardamomkapseln und Lorbeerblätter hinzufügen. Die Gewürze einige Minuten rösten, bis sie duften.",
+   "4": "Die Kartoffeln zum heißen Öl geben und gut vermischen.",
+   "5": "Die Gewürzsoße und das Wasser hinzufügen. Aufkochen, dann die Hitze reduzieren und 30–60 Minuten köcheln, bis die Kartoffeln gar und die Soße dick ist."
+  },
+  "culturalNotes": "Dum Aloo ist ein traditionelles indisches Gericht mit Kartoffeln, die in einer würzigen, aromatischen Soße gegart werden.",
+  "chapter": "in"
+ },
+ "w-in-035": {
+  "title": "Falooda",
+  "ingredients": {
+   "w-in-035-i1": {
+    "name": "Sabja-Samen",
+    "standardAmount": "1 Esslöffel"
+   },
+   "w-in-035-i2": {
+    "name": "Falooda-Vermicelli",
+    "standardAmount": "½ Tasse"
+   },
+   "w-in-035-i3": {
+    "name": "Milch",
+    "standardAmount": "4 Tassen"
+   },
+   "w-in-035-i4": {
+    "name": "Zucker",
+    "standardAmount": "3 Esslöffel"
+   },
+   "w-in-035-i5": {
+    "name": "Rosensirup",
+    "standardAmount": "¼ Tasse"
+   },
+   "w-in-035-i6": {
+    "name": "Erdbeergelee",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-035-i7": {
+    "name": "Vanilleeis",
+    "standardAmount": "2 Kugeln"
+   },
+   "w-in-035-i8": {
+    "name": "Tuti Frutti",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-in-035-i9": {
+    "name": "Nüsse",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-in-035-i10": {
+    "name": "Kirschen",
+    "standardAmount": "2 Kirschen"
+   }
+  },
+  "instructions": {
+   "1": "1 EL Sabja-Samen 30 Minuten in einer Tasse Wasser einweichen, bis sie gelatiniert sind.",
+   "2": "In einer Pfanne 2 Tassen Wasser mit 1 Tasse Zucker kochen. ½ Tasse Falooda-Vermicelli hinzufügen und gut rühren. 3 Minuten kochen oder bis die Vermicelli weich ist. Die Vermicelli abseihen und mit kaltem Wasser abspülen.",
+   "3": "In einem großen Topf 4 Tassen Milch geben und bei schwacher Hitze 10 Minuten kochen oder bis die Milch leicht eindickt. 2 EL Zucker hinzufügen und rühren, bis er sich auflöst.",
+   "4": "Die Milch auf Raumtemperatur abkühlen lassen.",
+   "5": "In ein hohes Glas 2 EL Rosensirup geben, dann 2 EL eingeweichte Sabja-Samen, 2 EL gekochte Vermicelli und 1 Tasse kalte Milch hinzufügen. Sanft rühren.",
+   "6": "2 EL Gelee, eine Kugel Vanilleeis, 2 EL Tuti Frutti und 2 EL Nüsse hinzufügen.",
+   "7": "Das Falooda mit einem EL Rosensirup und einer Kirsche garnieren. Das kalte, köstliche Falooda genießen."
+  },
+  "culturalNotes": "Falooda ist ein traditionelles indisches Getränk, das bei besonderen Anlässen und heißen Sommertagen serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-036": {
+  "title": "Gajar Ka Halwa mit Kondensmilch",
+  "ingredients": {
+   "w-in-036-i1": {
+    "name": "Karotten",
+    "standardAmount": "5 große Karotten"
+   },
+   "w-in-036-i2": {
+    "name": "Ghee",
+    "standardAmount": "1 EL"
+   },
+   "w-in-036-i3": {
+    "name": "Vollmilch",
+    "standardAmount": "½ Tasse"
+   },
+   "w-in-036-i4": {
+    "name": "gezuckerte Kondensmilch",
+    "standardAmount": "¼ Tasse"
+   },
+   "w-in-036-i5": {
+    "name": "Kardamom",
+    "standardAmount": "4 Kapseln (gemahlen)"
+   },
+   "w-in-036-i6": {
+    "name": "Cashewnüsse",
+    "standardAmount": "5 Stücke (gehackt)"
+   },
+   "w-in-036-i7": {
+    "name": "Mandeln",
+    "standardAmount": "5 Stücke (gehackt)"
+   },
+   "w-in-036-i8": {
+    "name": "Pistazien",
+    "standardAmount": "1 TL (fein gehackt)"
+   }
+  },
+  "instructions": {
+   "1": "Die Karotten schälen und zu langen Fäden raspeln.",
+   "2": "Die geraspelten Karotten in einen Kadai geben und 1 EL Ghee hinzufügen. 3 Minuten anbraten.",
+   "3": "Eine halbe Tasse Vollmilch hinzufügen und gut vermischen. Aufkochen und gelegentlich rühren.",
+   "4": "5 Minuten köcheln oder bis die Milch vollständig verdampft ist.",
+   "5": "Die gezuckerte Kondensmilch hinzufügen und gut vermischen. Aufkochen und gelegentlich rühren.",
+   "6": "Weiter rühren und zerdrücken, bis die Milch vollständig verdampft ist.",
+   "7": "Kardamom-Pulver, Cashewnüsse und Mandeln hinzufügen. Gut vermischen.",
+   "8": "Das mit Kondensmilch zubereitete Karotten-Halwa servieren, garniert mit gehackten Pistazien."
+  },
+  "culturalNotes": "Gajar Ka Halwa mit Kondensmilch ist eine traditionelle indische Süßspeise, die bei besonderen Anlässen serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-037": {
+  "title": "Ghugni",
+  "ingredients": {
+   "w-in-037-i1": {
+    "name": "getrocknete weiße Erbsen",
+    "standardAmount": "1 Tasse (über Nacht eingeweicht)"
+   },
+   "w-in-037-i2": {
+    "name": "Wasser",
+    "standardAmount": "3 Tassen (zum Einweichen) + 2.5 Tassen (zum Schnellkochen)"
+   },
+   "w-in-037-i3": {
+    "name": "Senföl",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-in-037-i4": {
+    "name": "Zimt",
+    "standardAmount": "1 Zoll"
+   },
+   "w-in-037-i5": {
+    "name": "Nelken",
+    "standardAmount": "2 Nelken"
+   },
+   "w-in-037-i6": {
+    "name": "grüner Kardamom",
+    "standardAmount": "1 Kapsel"
+   },
+   "w-in-037-i7": {
+    "name": "getrocknete Kashmiri-Chili",
+    "standardAmount": "1 (entkernt und gebrochen)"
+   },
+   "w-in-037-i8": {
+    "name": "Zwiebeln",
+    "standardAmount": "1/3 Tasse (fein gehackt)"
+   },
+   "w-in-037-i9": {
+    "name": "Ingwer-Knoblauch-Paste",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-037-i10": {
+    "name": "Tomaten",
+    "standardAmount": "1/2 Tasse (gehackt)"
+   },
+   "w-in-037-i11": {
+    "name": "Kashmiri-Chilipulver",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-037-i12": {
+    "name": "Kurkuma-Pulver",
+    "standardAmount": "1/2 Teelöffel"
+   },
+   "w-in-037-i13": {
+    "name": "Kreuzkümmel-Pulver",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-037-i14": {
+    "name": "Koriander-Pulver",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-037-i15": {
+    "name": "Kartoffeln",
+    "standardAmount": "1/2 bis 2/3 Tasse (in Würfel geschnitten)"
+   },
+   "w-in-037-i16": {
+    "name": "Zucker",
+    "standardAmount": "1/4 Teelöffel"
+   },
+   "w-in-037-i17": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-in-037-i18": {
+    "name": "Bhaja Masala",
+    "standardAmount": "1/4 Teelöffel"
+   },
+   "w-in-037-i19": {
+    "name": "Korianderblätter",
+    "standardAmount": "1/4 Tasse (gehackt)"
+   },
+   "w-in-037-i20": {
+    "name": "Tamarinde",
+    "standardAmount": "2 Esslöffel (in ½ Tasse heißem Wasser eingeweicht)"
+   },
+   "w-in-037-i21": {
+    "name": "Zitrone",
+    "standardAmount": "1 (mittel bis groß)"
+   },
+   "w-in-037-i22": {
+    "name": "grüne Chilis",
+    "standardAmount": "2-3 (gehackt)"
+   },
+   "w-in-037-i23": {
+    "name": "Zwiebeln",
+    "standardAmount": "1/2 Tasse (fein gehackt)"
+   },
+   "w-in-037-i24": {
+    "name": "Bhaja Masala oder Chaat Masala",
+    "standardAmount": "1-2 Teelöffel (nach Bedarf)"
+   }
+  },
+  "instructions": {
+   "1": "Die getrockneten weißen Erbsen mindestens 9 Stunden in 3 Tassen Wasser einweichen.",
+   "2": "Die eingeweichten Erbsen mit 2.5 Tassen Wasser in einen Schnellkochtopf geben und 10 Minuten kochen.",
+   "3": "In einer Pfanne das Senföl erhitzen und Zimt, Nelken, Kardamom und die getrocknete Kashmiri-Chili hinzufügen. Eine Minute anbraten.",
+   "4": "Die fein gehackten Zwiebeln hinzufügen und goldbraun anbraten.",
+   "5": "Ingwer-Knoblauch-Paste, gehackte Tomaten, Kashmiri-Chilipulver, Kurkuma-Pulver, Kreuzkümmel-Pulver, Koriander-Pulver, Kartoffeln, Zucker, Salz und Bhaja Masala hinzufügen. 5 Minuten anbraten.",
+   "6": "Die gekochten Erbsen und 2.5 Tassen Wasser hinzufügen. Aufkochen, dann die Hitze reduzieren und 15 Minuten köcheln.",
+   "7": "Die eingeweichte Tamarinde und den Zitronensaft hinzufügen und gut rühren.",
+   "8": "Die gehackten grünen Chilis, fein gehackten Zwiebeln und Bhaja Masala oder Chaat Masala nach Bedarf hinzufügen. Gut rühren.",
+   "9": "Das Ghugni 5 Minuten köcheln lassen, dann von der Hitze nehmen.",
+   "10": "Das Ghugni heiß servieren, garniert mit gehackten Korianderblättern."
+  },
+  "culturalNotes": "Ghugni ist ein beliebtes Gericht in Indien, besonders im Bundesstaat Bengalen. Es wird als Vorspeise oder leichter Snack serviert.",
+  "chapter": "in"
+ },
+ "w-in-038": {
+  "title": "Trockener Gulab Jamun",
+  "ingredients": {
+   "w-in-038-i1": {
+    "name": "Milchpulver",
+    "standardAmount": "2 Tassen"
+   },
+   "w-in-038-i2": {
+    "name": "Weizenmehl (Maida)",
+    "standardAmount": "¼ Tasse"
+   },
+   "w-in-038-i3": {
+    "name": "Backpulver",
+    "standardAmount": "½ TL"
+   },
+   "w-in-038-i4": {
+    "name": "Ghee",
+    "standardAmount": "1 TL"
+   },
+   "w-in-038-i5": {
+    "name": "Milch",
+    "standardAmount": "½ Tasse"
+   },
+   "w-in-038-i6": {
+    "name": "Zucker",
+    "standardAmount": "2½ Tassen"
+   },
+   "w-in-038-i7": {
+    "name": "Wasser",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-038-i8": {
+    "name": "Safran",
+    "standardAmount": "einige"
+   },
+   "w-in-038-i9": {
+    "name": "Kardamom-Pulver",
+    "standardAmount": "½ TL"
+   },
+   "w-in-038-i10": {
+    "name": "Zitronensaft",
+    "standardAmount": "2 TL"
+   },
+   "w-in-038-i11": {
+    "name": "Kokosraspel",
+    "standardAmount": "nach Bedarf"
+   }
+  },
+  "instructions": {
+   "1": "In einer großen Schüssel 2 Tassen Milchpulver, ¼ Tasse Weizenmehl, ½ TL Backpulver und 1 TL Ghee vermengen. Gut vermischen, damit alles gründlich verbunden ist.",
+   "2": "½ Tasse Milch hinzufügen und mit einem Holzlöffel vermischen. Den Teig abdecken und 10 Minuten ruhen lassen, damit die Milch aufgenommen wird.",
+   "3": "In einer anderen Schüssel 2½ Tassen Zucker und 1 Tasse Wasser vermengen. Einige Safranfäden hinzufügen und die Mischung 5 Minuten aufkochen. Den Zucker nicht bis zur Fadenkonsistenz kochen; einen klebrigen Zuckersirup herstellen.",
+   "4": "½ TL Kardamom-Pulver und 2 TL Zitronensaft hinzufügen. Gut vermischen und den Sirup beiseitestellen.",
+   "5": "Nach 10 Minuten Ruhen des Teigs kleine, kugelgroße Jamuns formen. Darauf achten, dass die Jamuns keine Risse haben.",
+   "6": "Die Jamuns in mittelheißem Öl oder Ghee bei schwacher Hitze frittieren, bis sie schwarz werden. Ständig rühren.",
+   "7": "Die Jamuns vom überschüssigen Öl abtropfen lassen und in den heißen Zuckersirup geben. Zudecken und 2 Stunden ruhen lassen, bis sie den Sirup aufgenommen haben und sich verdoppelt haben.",
+   "8": "Die trockenen Jamuns abtropfen lassen und in Kokosraspeln wälzen.",
+   "9": "Die trockenen Jamuns heiß oder kalt nach Wunsch servieren."
+  },
+  "culturalNotes": "Gulab Jamun ist eine traditionelle indische Süßspeise, die bei besonderen Anlässen und Feiern serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-039": {
+  "title": "Gujarati Handvo",
+  "ingredients": {
+   "w-in-039-i1": {
+    "name": "Reis",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-039-i2": {
+    "name": "Chana Dal",
+    "standardAmount": "½ Tasse"
+   },
+   "w-in-039-i3": {
+    "name": "Toor Dal",
+    "standardAmount": "¼ Tasse"
+   },
+   "w-in-039-i4": {
+    "name": "Urad Dal",
+    "standardAmount": "2 EL"
+   },
+   "w-in-039-i5": {
+    "name": "Joghurt",
+    "standardAmount": "½ Tasse"
+   },
+   "w-in-039-i6": {
+    "name": "Flaschenkürbis",
+    "standardAmount": "1 Tasse (gerieben)"
+   },
+   "w-in-039-i7": {
+    "name": "Kohl",
+    "standardAmount": "½ Tasse (gerieben)"
+   },
+   "w-in-039-i8": {
+    "name": "Karotte",
+    "standardAmount": "¼ Tasse (gerieben)"
+   },
+   "w-in-039-i9": {
+    "name": "Koriander",
+    "standardAmount": "3 EL (fein gehackt)"
+   },
+   "w-in-039-i10": {
+    "name": "Ingwer",
+    "standardAmount": "½ TL (paste)"
+   },
+   "w-in-039-i11": {
+    "name": "grüne Chili",
+    "standardAmount": "1 (fein gehackt)"
+   },
+   "w-in-039-i12": {
+    "name": "Zucker",
+    "standardAmount": "½ TL"
+   },
+   "w-in-039-i13": {
+    "name": "Kashmiri-Chilipulver",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-039-i14": {
+    "name": "Kurkuma",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-039-i15": {
+    "name": "Öl",
+    "standardAmount": "2 TL"
+   },
+   "w-in-039-i16": {
+    "name": "Salz",
+    "standardAmount": "¾ TL"
+   },
+   "w-in-039-i17": {
+    "name": "Eno / Fruchtsalz",
+    "standardAmount": "1 TL"
+   },
+   "w-in-039-i18": {
+    "name": "Öl",
+    "standardAmount": "3 TL"
+   },
+   "w-in-039-i19": {
+    "name": "Senf",
+    "standardAmount": "¾ TL"
+   },
+   "w-in-039-i20": {
+    "name": "Kreuzkümmel",
+    "standardAmount": "½ TL"
+   },
+   "w-in-039-i21": {
+    "name": "Sesam",
+    "standardAmount": "1 TL"
+   },
+   "w-in-039-i22": {
+    "name": "Curryblätter",
+    "standardAmount": "einige Blätter"
+   },
+   "w-in-039-i23": {
+    "name": "Asafoetida",
+    "standardAmount": "Prise"
+   }
+  },
+  "instructions": {
+   "1": "1 Tasse Reis, ½ Tasse Chana Dal, ¼ Tasse Toor Dal und 2 EL Urad Dal 3–4 Stunden einweichen.",
+   "2": "½ Tasse Joghurt hinzufügen und glatt, aber leicht grob mixen.",
+   "3": "1 Tasse geriebenen Flaschenkürbis, ½ Tasse geriebenen Kohl, ¼ Tasse geriebene Karotte und 3 EL gehackten Koriander hinzufügen.",
+   "4": "½ TL Ingwerpaste, 1 fein gehackte grüne Chili, ½ TL Zucker, ¼ TL Kashmiri-Chilipulver, ¼ TL Kurkuma, 2 TL Öl und ¾ TL Salz hinzufügen.",
+   "5": "Gut vermischen, damit der Teig leicht dick wie Idli-Teig-Konsistenz wird.",
+   "6": "1 TL Eno / Fruchtsalz hinzufügen und sanft vermischen.",
+   "7": "Den Handvo im Ofen backen oder auf einem Tawa garen."
+  },
+  "culturalNotes": "Handvo ist ein traditionelles Gujarati-Gericht, das als Hauptmahlzeit oder leichter Snack serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-040": {
+  "title": "Hyderabadi-Gemüse-Biryani",
+  "ingredients": {
+   "w-in-040-i1": {
+    "name": "Wasser",
+    "standardAmount": "8 Tassen"
+   },
+   "w-in-040-i2": {
+    "name": "Lorbeerblätter",
+    "standardAmount": "2 Blätter"
+   },
+   "w-in-040-i3": {
+    "name": "Zimtstange",
+    "standardAmount": "1 Zoll"
+   },
+   "w-in-040-i4": {
+    "name": "Nelken",
+    "standardAmount": "½ Teelöffel"
+   },
+   "w-in-040-i5": {
+    "name": "Kardamom",
+    "standardAmount": "1 Kapsel"
+   },
+   "w-in-040-i6": {
+    "name": "schwarzer Pfeffer",
+    "standardAmount": "½ Teelöffel"
+   },
+   "w-in-040-i7": {
+    "name": "Öl",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-in-040-i8": {
+    "name": "Salz",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-040-i9": {
+    "name": "Basmatireis",
+    "standardAmount": "1½ Tassen"
+   },
+   "w-in-040-i10": {
+    "name": "Öl",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-in-040-i11": {
+    "name": "Ghee",
+    "standardAmount": "1 Esslöffel"
+   },
+   "w-in-040-i12": {
+    "name": "Lorbeerblätter",
+    "standardAmount": "1 Blatt"
+   },
+   "w-in-040-i13": {
+    "name": "Zimtstange",
+    "standardAmount": "2 Zoll"
+   },
+   "w-in-040-i14": {
+    "name": "Nelken",
+    "standardAmount": "½ Teelöffel"
+   },
+   "w-in-040-i15": {
+    "name": "Kardamom",
+    "standardAmount": "1 Kapsel"
+   },
+   "w-in-040-i16": {
+    "name": "schwarze Kreuzkümmelsamen",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-040-i17": {
+    "name": "Kardamom",
+    "standardAmount": "4 Kapseln"
+   },
+   "w-in-040-i18": {
+    "name": "Zwiebel",
+    "standardAmount": "1 fein gehackt Zwiebel"
+   },
+   "w-in-040-i19": {
+    "name": "Ingwer-Knoblauch-Paste",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-040-i20": {
+    "name": "gemischtes Gemüse",
+    "standardAmount": "2 Tassen"
+   },
+   "w-in-040-i21": {
+    "name": "Joghurt",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-040-i22": {
+    "name": "Kashmiri-Chilipulver",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-040-i23": {
+    "name": "Kurkuma",
+    "standardAmount": "½ Teelöffel"
+   },
+   "w-in-040-i24": {
+    "name": "Biryani-Masala-Pulver",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-in-040-i25": {
+    "name": "Salz",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-040-i26": {
+    "name": "Koriander-Minz-Paste",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-in-040-i27": {
+    "name": "Wasser",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-040-i28": {
+    "name": "Paneer",
+    "standardAmount": "15 Würfel"
+   },
+   "w-in-040-i29": {
+    "name": "Minze",
+    "standardAmount": "¼ Tasse gehackt"
+   },
+   "w-in-040-i30": {
+    "name": "Koriander",
+    "standardAmount": "¼ Tasse gehackt"
+   },
+   "w-in-040-i31": {
+    "name": "Ghee",
+    "standardAmount": "1 Esslöffel"
+   },
+   "w-in-040-i32": {
+    "name": "gebratene Zwiebeln",
+    "standardAmount": "½ Tasse"
+   },
+   "w-in-040-i33": {
+    "name": "Safranwasser",
+    "standardAmount": "¼ Tasse"
+   },
+   "w-in-040-i34": {
+    "name": "Biryani-Masala-Pulver",
+    "standardAmount": "eine Prise"
+   },
+   "w-in-040-i35": {
+    "name": "Weizenmehl",
+    "standardAmount": "etwas"
+   }
+  },
+  "instructions": {
+   "1": "Den Basmatireis waschen und 20 Minuten in Wasser einweichen.",
+   "2": "In einem Topf 8 Tassen Wasser und Lorbeerblätter, Zimt, Nelken, Kardamom, schwarzen Pfeffer und Salz geben. Das Wasser aufkochen, dann den Reis hinzufügen und 5 Minuten kochen. Den Reis abgießen und beiseitestellen.",
+   "3": "In einem anderen Topf Öl und Ghee erhitzen und Lorbeerblätter, Zimt, Nelken, Kardamom, schwarze Kreuzkümmelsamen und Kardamom hinzufügen. Eine Minute rühren.",
+   "4": "Die fein gehackte Zwiebel und die Ingwer-Knoblauch-Paste hinzufügen und rühren, bis die Zwiebel goldbraun ist.",
+   "5": "Das gemischte Gemüse, den Joghurt, das Kashmiri-Chilipulver, die Kurkuma, das Biryani-Masala-Pulver und das Salz hinzufügen. Gut rühren und 10 Minuten kochen.",
+   "6": "Die Koriander-Minz-Paste und das Wasser hinzufügen und die Mischung 5 Minuten aufkochen.",
+   "7": "In einer Auflaufform Reis, Gemüsemischung, Paneer und Reis schichten. Die Schichten wiederholen, bis alle Zutaten aufgebraucht sind.",
+   "8": "Die Minze, den Koriander, das Ghee, die gebratenen Zwiebeln, das Safranwasser und eine Prise Biryani-Masala hinzufügen.",
+   "9": "Die Form mit Weizenmehl dicht verschließen und bei schwacher Hitze 20–25 Minuten in den Ofen stellen.",
+   "10": "Nach dem Garen die Biryani vor dem Servieren 10 Minuten ruhen lassen."
+  },
+  "culturalNotes": "Hyderabadi-Gemüse-Biryani ist ein beliebtes Gericht in Indien, bekannt für seine Aromen von Lorbeerblättern, Zimt, Kardamom und Nelken.",
+  "chapter": "in"
+ },
+ "w-in-041": {
+  "title": "Brot-Upma (indisches Brot)",
+  "ingredients": {
+   "w-in-041-i1": {
+    "name": "Brotscheiben",
+    "standardAmount": "6 Scheiben"
+   },
+   "w-in-041-i2": {
+    "name": "Pflanzenöl",
+    "standardAmount": "3 Esslöffel"
+   },
+   "w-in-041-i3": {
+    "name": "Senfsamen",
+    "standardAmount": "1/2 Teelöffel"
+   },
+   "w-in-041-i4": {
+    "name": "Curryblätter",
+    "standardAmount": "einige Blätter"
+   },
+   "w-in-041-i5": {
+    "name": "Zwiebel",
+    "standardAmount": "1/2 mittelgroße Zwiebel"
+   },
+   "w-in-041-i6": {
+    "name": "grüne Chili",
+    "standardAmount": "1 grüne Chili"
+   },
+   "w-in-041-i7": {
+    "name": "Ingwerpaste",
+    "standardAmount": "1/2 Teelöffel"
+   },
+   "w-in-041-i8": {
+    "name": "Tomaten",
+    "standardAmount": "2 mittelgroße Tomaten"
+   },
+   "w-in-041-i9": {
+    "name": "Kurkuma",
+    "standardAmount": "1/2 Teelöffel"
+   },
+   "w-in-041-i10": {
+    "name": "Kashmiri-Chilipulver",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-041-i11": {
+    "name": "Zucker",
+    "standardAmount": "1/2 Teelöffel"
+   },
+   "w-in-041-i12": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-in-041-i13": {
+    "name": "Paprika",
+    "standardAmount": "1/2 Paprika"
+   },
+   "w-in-041-i14": {
+    "name": "Wasser",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-in-041-i15": {
+    "name": "Korianderblätter",
+    "standardAmount": "3 Esslöffel"
+   }
+  },
+  "instructions": {
+   "1": "Die Brotscheiben in einer Pfanne oder einem Toaster goldbraun und knusprig rösten.",
+   "2": "Die Brotscheiben in kleine Würfel schneiden und beiseitestellen.",
+   "3": "Das Öl in einer großen Pfanne erhitzen.",
+   "4": "Die Senfsamen und Curryblätter hinzufügen und die Senfsamen aufspringen lassen.",
+   "5": "Die Zwiebel, die Ingwerpaste und die grüne Chili hinzufügen und anbraten, bis die Zwiebel glasig wird.",
+   "6": "Die Tomaten hinzufügen und anbraten, bis sie weich werden.",
+   "7": "Kurkuma, Kashmiri-Chilipulver, Zucker und Salz hinzufügen und bei schwacher Hitze eine Minute anbraten.",
+   "8": "Die Paprika hinzufügen und eine Minute anbraten.",
+   "9": "Das Wasser hinzufügen und gut vermischen.",
+   "10": "Die gerösteten Brotwürfel hinzufügen und sanft vermischen, bis das Brot die Gewürze aufnimmt.",
+   "11": "Die Pfanne abdecken und bei schwacher Hitze 2–3 Minuten garen.",
+   "12": "Das Brot-Upma mit Korianderblättern garniert servieren."
+  },
+  "culturalNotes": "Brot-Upma ist ein beliebtes Gericht in Südindien, das oft als Frühstück oder Vorspeise serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-042": {
+  "title": "Indische eingelegte Zwiebeln",
+  "ingredients": {
+   "w-in-042-i1": {
+    "name": "rote Perlzwiebeln",
+    "standardAmount": "250 Gramm (etwa 20-25 Stücke)"
+   },
+   "w-in-042-i2": {
+    "name": "Wasser",
+    "standardAmount": "½ Tasse (120 ml)"
+   },
+   "w-in-042-i3": {
+    "name": "Salz",
+    "standardAmount": "1 Teelöffel (oder nach Geschmack)"
+   },
+   "w-in-042-i4": {
+    "name": "Zucker",
+    "standardAmount": "1 Esslöffel (oder nach Geschmack)"
+   },
+   "w-in-042-i5": {
+    "name": "Zimtstange",
+    "standardAmount": "1 Zoll"
+   },
+   "w-in-042-i6": {
+    "name": "Nelken",
+    "standardAmount": "2 ganze Nelken"
+   },
+   "w-in-042-i7": {
+    "name": "schwarze Pfefferkörner",
+    "standardAmount": "3-4 ganze schwarze Pfefferkörner"
+   },
+   "w-in-042-i8": {
+    "name": "Rote Bete",
+    "standardAmount": "¼ mittelgroße Rote Bete (ein kleines Stück, optional)"
+   },
+   "w-in-042-i9": {
+    "name": "weißer Essig",
+    "standardAmount": "½ Tasse"
+   }
+  },
+  "instructions": {
+   "1": "Alle roten Perlzwiebeln schälen. Dies ist der zeitaufwändigste Schritt des Rezepts.",
+   "2": "In jede geschälte Zwiebel mit einem Schälmesser längs einen Schlitz schneiden, ohne sie ganz durchzuschneiden. Alle Zwiebeln in ein 240-ml-Einmachglas geben.",
+   "3": "In einer Pfanne bei mittlerer Hitze Wasser mit Salz, Zucker, Zimtstange, Nelken, Pfefferkörnern und Roter Bete geben (optional, das gibt den Zwiebeln eine tiefrosa Farbe).",
+   "4": "Diese Mischung bei mittlerer Hitze 3–4 Minuten kochen, bis sich Salz und Zucker auflösen und die Farbe des Wassers rot wird (wegen der Roten Bete). Dann die Pfanne vom Herd nehmen und die Mischung 10 Minuten abkühlen lassen.",
+   "5": "Nach dem Abkühlen weißen Essig hinzufügen und rühren. Nun diese Einlegeflüssigkeit in das Einmachglas mit den Zwiebeln gießen, darauf achten, dass die Zwiebeln in der Mischung bedeckt sind. Das Glas schütteln.",
+   "6": "24 Stunden kühlen und dann genießen! Diese eingelegten Zwiebeln halten sich 3–4 Wochen im Kühlschrank."
+  },
+  "culturalNotes": "Indische eingelegte Zwiebeln sind ein beliebtes Gericht der indischen Küche, das als Beilage oder zu Hauptgerichten serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-043": {
+  "title": "Jhunka (Zunka) mit Bhakri",
+  "ingredients": {
+   "w-in-043-i1": {
+    "name": "Öl",
+    "standardAmount": "2 EL"
+   },
+   "w-in-043-i2": {
+    "name": "Kreuzkümmel",
+    "standardAmount": "1 TL"
+   },
+   "w-in-043-i3": {
+    "name": "Senfsamen",
+    "standardAmount": "1 TL"
+   },
+   "w-in-043-i4": {
+    "name": "Asafoetida",
+    "standardAmount": "eine Prise"
+   },
+   "w-in-043-i5": {
+    "name": "Knoblauch",
+    "standardAmount": "4 Zehen fein gehackt"
+   },
+   "w-in-043-i6": {
+    "name": "Chili",
+    "standardAmount": "1 fein gehackt"
+   },
+   "w-in-043-i7": {
+    "name": "Zwiebel",
+    "standardAmount": "1 fein gehackt"
+   },
+   "w-in-043-i8": {
+    "name": "Kurkuma",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-043-i9": {
+    "name": "Kashmiri-Chilipulver",
+    "standardAmount": "1 TL"
+   },
+   "w-in-043-i10": {
+    "name": "Salz",
+    "standardAmount": "1 TL"
+   },
+   "w-in-043-i11": {
+    "name": "Kichererbsenmehl",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-043-i12": {
+    "name": "Wasser",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-in-043-i13": {
+    "name": "Koriander",
+    "standardAmount": "2 EL fein gehackt"
+   }
+  },
+  "instructions": {
+   "1": "2 EL Öl in einem großen Kadai erhitzen und 1 TL Senfsamen, 1 TL Kreuzkümmel und eine Prise Asafoetida hinzufügen. Aufspringen lassen.",
+   "2": "4 Zehen fein gehackten Knoblauch und 1 fein gehackte Chili hinzufügen und gut anbraten.",
+   "3": "1 fein gehackte Zwiebel hinzufügen und anbraten, bis sie leicht die Farbe ändert.",
+   "4": "¼ TL Kurkuma, 1 TL Kashmiri-Chilipulver und 1 TL Salz hinzufügen. Leicht anbraten, ohne die Gewürze anbrennen zu lassen.",
+   "5": "1 Tasse Kichererbsenmehl hinzufügen und bei schwacher Hitze 5 Minuten anbraten, oder bis das Mehl golden und aromatisch wird.",
+   "6": "¼ Tasse Wasser darüberstreuen und gut vermischen. Weiterhin portionsweise Wasser darüberstreuen, bis die Mischung feucht wird.",
+   "7": "Zudecken und 10 Minuten köcheln, bis das Kichererbsenmehl vollständig gar ist.",
+   "8": "Gut rühren, damit keine Klumpen entstehen.",
+   "9": "Die gehackten Korianderblätter hinzufügen und das Zunka mit Bhakri servieren."
+  },
+  "culturalNotes": "Jhunka (Zunka) ist ein beliebtes Gericht in Maharashtra, Indien, das üblicherweise mit Bhakri (Vollkornfladenbrot) serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-044": {
+  "title": "Nudel-Kathi-Rolle",
+  "ingredients": {
+   "w-in-044-i1": {
+    "name": "Öl",
+    "standardAmount": "3 EL"
+   },
+   "w-in-044-i2": {
+    "name": "Frühlingszwiebeln",
+    "standardAmount": "3 EL (gehackt)"
+   },
+   "w-in-044-i3": {
+    "name": "Paprika",
+    "standardAmount": "¼ Tasse (gehackt)"
+   },
+   "w-in-044-i4": {
+    "name": "Blumenkohl",
+    "standardAmount": "1 Tasse (gehackt)"
+   },
+   "w-in-044-i5": {
+    "name": "Sojasoße",
+    "standardAmount": "2 EL"
+   },
+   "w-in-044-i6": {
+    "name": "Salz",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-044-i7": {
+    "name": "Nudeln",
+    "standardAmount": "2 Tassen (gekocht)"
+   },
+   "w-in-044-i8": {
+    "name": "Chapati (Reste)",
+    "standardAmount": "4 Stücke"
+   },
+   "w-in-044-i9": {
+    "name": "Butter",
+    "standardAmount": "zum Rösten"
+   },
+   "w-in-044-i10": {
+    "name": "Tomatensoße",
+    "standardAmount": "4 EL"
+   },
+   "w-in-044-i11": {
+    "name": "Chaat-Masala-Pulver",
+    "standardAmount": "1 TL"
+   }
+  },
+  "instructions": {
+   "1": "Eine Pfanne bei mittlerer Hitze erhitzen und 3 EL Öl hinzufügen, dann 1 EL Frühlingszwiebeln hinzufügen und rühren.",
+   "2": "¼ Tasse Paprika und 1 Tasse gehackten Blumenkohl hinzufügen und eine Minute rühren.",
+   "3": "2 EL Sojasoße und ¼ TL Salz hinzufügen und eine Minute weiterrühren.",
+   "4": "Die gekochten Nudeln hinzufügen und sanft mit der Soße vermischen, dann 2 EL Frühlingszwiebeln hinzufügen und gut rühren.",
+   "5": "Eine Pfanne bei mittlerer Hitze erhitzen und ½ TL Butter hinzufügen, dann den Chapati hinzufügen und goldbraun rösten.",
+   "6": "1 TL Sojasoße und 1 TL Tomatensoße auf den Chapati geben, dann einen Esslöffel Nudeln in die Mitte legen.",
+   "7": "Etwas Chaat-Masala-Pulver darüberstreuen, dann den Chapati fest aufrollen.",
+   "8": "Die Kathi-Rolle in Alufolie oder Butterbrotpapier wickeln."
+  },
+  "culturalNotes": "Kathi-Rolle ist ein beliebtes Straßenessen in Indien, das oft als Snack oder schnelles Mittagessen serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-045": {
+  "title": "Kheer (Reispudding)",
+  "ingredients": {
+   "w-in-045-i1": {
+    "name": "Milch",
+    "standardAmount": "1 L"
+   },
+   "w-in-045-i2": {
+    "name": "langkörniger weißer Reis",
+    "standardAmount": "250 ml"
+   },
+   "w-in-045-i3": {
+    "name": "weißer Zucker",
+    "standardAmount": "125 ml"
+   },
+   "w-in-045-i4": {
+    "name": "Sultaninen (Rosinen)",
+    "standardAmount": "65 ml"
+   },
+   "w-in-045-i5": {
+    "name": "Kardamomkapseln",
+    "standardAmount": "6 Kapseln"
+   },
+   "w-in-045-i6": {
+    "name": "Mandelblättchen (blanchiert)",
+    "standardAmount": "65 ml"
+   },
+   "w-in-045-i7": {
+    "name": "Rosenwasser",
+    "standardAmount": "15 ml"
+   }
+  },
+  "instructions": {
+   "1": "Die Milch in einem Topf bei mittlerer Hitze aufkochen, regelmäßig rühren, um Anbrennen zu vermeiden.",
+   "2": "Den Reis hinzufügen und langsam köcheln, bis er dick wird (etwa 20 Minuten).",
+   "3": "Zucker, Sultaninen und gemahlene Kardamomsamen einrühren. 5 Minuten kochen.",
+   "4": "Den Topf von der Hitze nehmen, Mandeln und Rosenwasser einrühren und bis zum Servieren zudecken."
+  },
+  "culturalNotes": "Kheer ist eine traditionelle indische Süßspeise, die oft bei besonderen Anlässen serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-046": {
+  "title": "Khichdi",
+  "ingredients": {
+   "w-in-046-i1": {
+    "name": "Reis",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-046-i2": {
+    "name": "Linsen (z. B. Moong Dal, Masoor Dal)",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-046-i3": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-in-046-i4": {
+    "name": "Kurkuma-Pulver",
+    "standardAmount": "1 TL"
+   }
+  },
+  "instructions": {
+   "1": "Reis und Linsen waschen und 10–15 Minuten in Wasser einweichen.",
+   "2": "Salz und Kurkuma-Pulver hinzufügen.",
+   "3": "In einem Schnellkochtopf mit 3–4 Tassen Wasser kochen.",
+   "4": "Nach der ersten Pfeife die Hitze reduzieren und weitere 4–5 Minuten kochen.",
+   "5": "Vor dem Servieren abkühlen lassen. Mit Ghee oder Buttermilch servieren."
+  },
+  "culturalNotes": "Khichdi ist ein beliebtes Gericht in Indien, das als leichte Mahlzeit oder Hauptgericht serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-047": {
+  "title": "Amritsari Aloo Kulcha",
+  "ingredients": {
+   "w-in-047-i1": {
+    "name": "Maida",
+    "standardAmount": "3 Tassen"
+   },
+   "w-in-047-i2": {
+    "name": "Backpulver",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-047-i3": {
+    "name": "Backnatron",
+    "standardAmount": "1/4 TL"
+   },
+   "w-in-047-i4": {
+    "name": "Zucker",
+    "standardAmount": "1 EL"
+   },
+   "w-in-047-i5": {
+    "name": "Salz",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-047-i6": {
+    "name": "Quark",
+    "standardAmount": "1/2 Tasse"
+   },
+   "w-in-047-i7": {
+    "name": "Wasser",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-in-047-i8": {
+    "name": "Ghee",
+    "standardAmount": "2 EL"
+   },
+   "w-in-047-i9": {
+    "name": "Kartoffel",
+    "standardAmount": "3 (gekocht & geraspelt)"
+   },
+   "w-in-047-i10": {
+    "name": "Zwiebel",
+    "standardAmount": "1 (fein gehackt)"
+   },
+   "w-in-047-i11": {
+    "name": "Chilipulver",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-047-i12": {
+    "name": "Kreuzkümmel-Pulver",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-047-i13": {
+    "name": "Koriander-Pulver",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-047-i14": {
+    "name": "Garam Masala",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-047-i15": {
+    "name": "Aamchur",
+    "standardAmount": "1 TL"
+   },
+   "w-in-047-i16": {
+    "name": "Ajwain",
+    "standardAmount": "1/4 TL"
+   },
+   "w-in-047-i17": {
+    "name": "Salz",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-047-i18": {
+    "name": "Kala Namak",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-047-i19": {
+    "name": "Ingwerpaste",
+    "standardAmount": "1/2 TL"
+   },
+   "w-in-047-i20": {
+    "name": "Chili",
+    "standardAmount": "2 (fein gehackt)"
+   },
+   "w-in-047-i21": {
+    "name": "Koriander",
+    "standardAmount": "2 EL (fein gehackt)"
+   },
+   "w-in-047-i22": {
+    "name": "Kalonji",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-in-047-i23": {
+    "name": "Sesam",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-in-047-i24": {
+    "name": "Chilipulver",
+    "standardAmount": "nach Bedarf"
+   }
+  },
+  "instructions": {
+   "1": "Maida, Backpulver, Backnatron, Zucker und Salz in einer Schüssel vermischen.",
+   "2": "Den Quark und nach und nach Wasser hinzufügen und den Teig glatt und geschmeidig kneten.",
+   "3": "Den Teig abdecken und 30 Minuten ruhen lassen.",
+   "4": "In einer anderen Schüssel die geraspelten Kartoffeln, fein gehackte Zwiebeln, Chilipulver, Kreuzkümmel-Pulver, Koriander-Pulver, Garam Masala, Aamchur, Ajwain, Salz, Kala Namak, Ingwerpaste, fein gehackte Chilis und fein gehackten Koriander vermischen.",
+   "5": "Den Teig zu kleinen Kugeln formen und jede Kugel mit einem Nudelholz ausrollen.",
+   "6": "Einen Löffel Füllung in die Mitte jedes flachen Teigs legen und die Ränder dicht verschließen.",
+   "7": "Den Tawa erhitzen und etwas Ghee hinzufügen, dann den Kulcha hineinlegen und auf beiden Seiten goldbraun braten.",
+   "8": "Heiß mit den Lieblings-Chutneys servieren."
+  },
+  "culturalNotes": "Kulcha ist ein traditionelles indisches Brot aus der Stadt Amritsar, das üblicherweise auf den Straßen mit der bevorzugten Füllung serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-048": {
+  "title": "Mandel-Laddu",
+  "ingredients": {
+   "w-in-048-i1": {
+    "name": "Mandeln",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-048-i2": {
+    "name": "trockene Kokosnuss (gerieben)",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-048-i3": {
+    "name": "Jaggery",
+    "standardAmount": "¾ Tasse"
+   },
+   "w-in-048-i4": {
+    "name": "Kardamom-Pulver",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-048-i5": {
+    "name": "Ghee",
+    "standardAmount": "2 EL"
+   },
+   "w-in-048-i6": {
+    "name": "Cashewnüsse (gehackt)",
+    "standardAmount": "10 Stücke"
+   },
+   "w-in-048-i7": {
+    "name": "Rosinen",
+    "standardAmount": "2 EL"
+   }
+  },
+  "instructions": {
+   "1": "In einer Pfanne 1 Tasse Mandeln trocken rösten, bis sie knusprig und goldbraun werden.",
+   "2": "Vollständig abkühlen lassen und in einen Mixer geben.",
+   "3": "Durch mehrmaliges Pulsieren zu einem feinen Pulver mixen.",
+   "4": "Das Pulver in eine große Schüssel geben und beiseitestellen.",
+   "5": "Nun 1 Tasse trockene Kokosnuss trocken rösten, bis sie goldbraun wird.",
+   "6": "Die geröstete Kokosnuss zusammen mit ¾ Tasse Jaggery in einen Mixer geben.",
+   "7": "Durch mehrmaliges Pulsieren zu einem groben Pulver mixen.",
+   "8": "Das Pulver zur selben Schüssel mit dem Mandelpulver geben.",
+   "9": "¼ TL Kardamom-Pulver hinzufügen und gut vermischen.",
+   "10": "In einer Pfanne 2 EL Ghee erhitzen und 10 Cashewnüsse und 2 EL Rosinen rösten.",
+   "11": "Rösten, bis die Cashewnüsse goldbraun sind.",
+   "12": "Die gerösteten Trockenfrüchte in die Laddu-Mischung gießen.",
+   "13": "Gut vermischen, damit die Mischung feucht wird.",
+   "14": "Die Hände mit Ghee einfetten und die Laddus formen.",
+   "15": "Die Mandel-Laddus genießen; sie halten sich 2 Wochen in einem luftdichten Behälter."
+  },
+  "culturalNotes": "Laddu ist eine traditionelle indische Süßspeise, die bei besonderen Anlässen und Feiern serviert wird.",
+  "chapter": "in"
+ },
+ "w-in-049": {
+  "title": "Naan",
+  "ingredients": {
+   "w-in-049-i1": {
+    "name": "Weizenmehl",
+    "standardAmount": "3 Tassen (450 g)"
+   },
+   "w-in-049-i2": {
+    "name": "Joghurt",
+    "standardAmount": "1 Tasse (240 ml)"
+   },
+   "w-in-049-i3": {
+    "name": "Backnatron",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-in-049-i4": {
+    "name": "Salz",
+    "standardAmount": "2 Teelöffel"
+   },
+   "w-in-049-i5": {
+    "name": "Wasser",
+    "standardAmount": "¾ Tasse (180 ml)"
+   }
+  },
+  "instructions": {
+   "1": "Alle Zutaten mit genügend Wasser (etwa ¾ Tasse) zu einem Teig kneten.",
+   "2": "Den Teig in ein feuchtes Musselintuch wickeln und 2–3 Stunden gehen lassen.",
+   "3": "Den Teig in kleine Kugeln teilen.",
+   "4": "Die Kugeln mit einem Nudelholz oder von Hand zu länglichen oder runden Formen ausrollen.",
+   "5": "Die Oberfläche mit Wasser bestreichen und in einem Tandoor oder vorgeheizten Ofen backen (so heiß wie der Ofen wird).",
+   "6": "Die Naans sollten etwas aufgehen und nach 4–5 Minuten aus dem Ofen genommen werden können.",
+   "7": "Das Naan mit Butter bestreichen und heiß servieren."
+  },
+  "culturalNotes": "Naan ist ein traditionelles indisches Brot, das in einem Tandoor-Ofen gebacken wird. Es wird üblicherweise zu Hauptgerichten serviert.",
+  "chapter": "in"
+ },
+ "w-in-050": {
+  "title": "Aloo-Käse-Paratha",
+  "ingredients": {
+   "w-in-050-i1": {
+    "name": "Kartoffel",
+    "standardAmount": "1 (gekocht und geschält)"
+   },
+   "w-in-050-i2": {
+    "name": "Zwiebel",
+    "standardAmount": "¼ (fein gehackt)"
+   },
+   "w-in-050-i3": {
+    "name": "Ingwer",
+    "standardAmount": "½-1 Zoll (fein gehackt)"
+   },
+   "w-in-050-i4": {
+    "name": "Korianderblätter",
+    "standardAmount": "einige (fein gehackt)"
+   },
+   "w-in-050-i5": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-in-050-i6": {
+    "name": "Mozzarella-Käse",
+    "standardAmount": "¼ Tasse (geraspelt)"
+   },
+   "w-in-050-i7": {
+    "name": "Kashmiri-Chilipulver",
+    "standardAmount": "½-1 TL"
+   },
+   "w-in-050-i8": {
+    "name": "Chaat Masala",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-050-i9": {
+    "name": "trockenes Mangopulver / Amchur-Pulver",
+    "standardAmount": "¼ TL"
+   },
+   "w-in-050-i10": {
+    "name": "Vollkornweizenmehl / Atta",
+    "standardAmount": "1 Tasse"
+   },
+   "w-in-050-i11": {
+    "name": "Öl oder Ghee",
+    "standardAmount": "1 TL"
+   },
+   "w-in-050-i12": {
+    "name": "Wasser",
+    "standardAmount": "nach Bedarf zum Kneten"
+   },
+   "w-in-050-i13": {
+    "name": "Weizenmehl",
+    "standardAmount": "¼ Tasse (zum Bestreuen)"
+   },
+   "w-in-050-i14": {
+    "name": "Ghee oder Öl",
+    "standardAmount": "nach Bedarf"
+   }
+  },
+  "instructions": {
+   "1": "Das Mehl mit Wasser und Salz kneten, bis der Teig glatt und elastisch ist. Den Teig abdecken und 15 Minuten ruhen lassen.",
+   "2": "In einer Schüssel die zerstampfte Kartoffel mit der gehackten Zwiebel, dem Ingwer, dem Koriander, dem Salz, dem Kashmiri-Chilipulver, dem Chaat Masala und dem trockenen Mangopulver vermischen. Den geriebenen Mozzarella-Käse hinzufügen und gut vermischen.",
+   "3": "Ein Stück Teig nehmen und auf einer bemehlten Fläche ausrollen. Einen Löffel Füllung in die Mitte des Teigs legen und zu einer runden Form verschließen.",
+   "4": "Das Paratha mit einem Nudelholz dünn ausrollen. Auf eine heiße Pfanne legen und auf beiden Seiten goldbraun braten.",
+   "5": "Den Vorgang mit dem restlichen Teig und der Füllung wiederholen. Heiß mit Joghurt oder einer würzigen Soße servieren."
+  },
+  "culturalNotes": "Paratha ist ein traditionelles indisches Gericht, das oft als Frühstück oder leichtes Mittagessen serviert wird.",
+  "chapter": "in"
  }
 }

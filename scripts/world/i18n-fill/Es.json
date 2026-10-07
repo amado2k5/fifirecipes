@@ -1973,7 +1973,7 @@
    "1": "Reúne todos los ingredientes.",
    "2": "En un bol mezcla los tomates, el calabacín, las cebolletas, la sal, el azúcar, la pimienta, el orégano y la cayena. Deja reposar 15 minutos para que la sal y el azúcar extraigan los jugos de las verduras.",
    "3": "Remueve la mezcla de tomate; añade el perejil, la menta y la albahaca. Desmenuza el feta dentro. Añade la harina y la levadura; mezcla con una cuchara hasta integrar. La masa debe quedar suelta pero mantener la forma en la cuchara. Si está muy suelta, añade más harina; si muy seca, un poco de agua. Cubre el bol con film y refrigera al menos 30 minutos.",
-   "4": "Calienta 2,5 cm de aceite vegetal en una sartén a fuego medio-alto hasta 175°C, o usa una freidora.",
+   "4": "Calienta 2.5 cm de aceite vegetal en una sartén a fuego medio-alto hasta 175°C, o usa una freidora.",
    "5": "Pon cucharadas colmadas de masa en el aceite caliente; baja a fuego medio. Fríe hasta que estén dorados y hechos por dentro, 2-3 minutos por lado.",
    "6": "Voltéalos una vez más y fríe 30 segundos adicionales si quieres.",
    "7": "Sirve templados o a temperatura ambiente."
@@ -4632,5 +4632,3878 @@
   },
   "culturalNotes": "Kue bangkit es una galleta tradicional indonesia que a menudo se hace para ocasiones especiales como el Eid.",
   "chapter": "id"
+ },
+ "w-in-001": {
+  "title": "Kajjaya (Adhirasam)",
+  "ingredients": {
+   "w-in-001-i1": {
+    "name": "arroz",
+    "standardAmount": "1 taza"
+   },
+   "w-in-001-i2": {
+    "name": "semillas de sésamo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-001-i3": {
+    "name": "semillas de amapola",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-001-i4": {
+    "name": "panela (jaggery)",
+    "standardAmount": "¾ taza"
+   },
+   "w-in-001-i5": {
+    "name": "agua",
+    "standardAmount": "¼ taza"
+   },
+   "w-in-001-i6": {
+    "name": "cardamomo en polvo",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-001-i7": {
+    "name": "pimienta negra molida",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-001-i8": {
+    "name": "aceite o ghee",
+    "standardAmount": "según sea necesario"
+   }
+  },
+  "instructions": {
+   "1": "Lavar el arroz y dejarlo en remojo en agua durante 4 horas.",
+   "2": "Escurrir el arroz y dejarlo secar durante 12 horas.",
+   "3": "Moler el arroz con las semillas de sésamo y las semillas de amapola hasta obtener una mezcla fina y mezclar bien los ingredientes.",
+   "4": "Disolver la panela en agua y colarla para eliminar las impurezas.",
+   "5": "Añadir la panela disuelta a la mezcla de arroz y amasar.",
+   "6": "Dejar reposar la masa durante 30 minutos.",
+   "7": "Formar discos pequeños con la masa.",
+   "8": "Freír los discos en aceite o ghee hasta que estén dorados.",
+   "9": "Escurrir los discos fritos sobre papel de cocina."
+  },
+  "culturalNotes": "El kajjaya es un dulce tradicional indio que se sirve en ocasiones especiales y celebraciones.",
+  "chapter": "in"
+ },
+ "w-in-002": {
+  "title": "Aloo Chop",
+  "ingredients": {
+   "w-in-002-i1": {
+    "name": "comino",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-002-i2": {
+    "name": "semillas de cilantro",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-002-i3": {
+    "name": "chile rojo seco",
+    "standardAmount": "3"
+   },
+   "w-in-002-i4": {
+    "name": "harina de garbanzo",
+    "standardAmount": "1.5 tazas"
+   },
+   "w-in-002-i5": {
+    "name": "cúrcuma",
+    "standardAmount": "1/4 cucharadita"
+   },
+   "w-in-002-i6": {
+    "name": "chile en polvo",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-002-i7": {
+    "name": "sal",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-002-i8": {
+    "name": "agua",
+    "standardAmount": "según sea necesario"
+   },
+   "w-in-002-i9": {
+    "name": "bicarbonato",
+    "standardAmount": "1/4 cucharadita"
+   },
+   "w-in-002-i10": {
+    "name": "patata cocida",
+    "standardAmount": "3 (machacado)"
+   },
+   "w-in-002-i11": {
+    "name": "aceite",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-002-i12": {
+    "name": "comino",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-002-i13": {
+    "name": "hing",
+    "standardAmount": "una pizca"
+   },
+   "w-in-002-i14": {
+    "name": "chile",
+    "standardAmount": "2 (finamente picado)"
+   },
+   "w-in-002-i15": {
+    "name": "cebolla",
+    "standardAmount": "1/2 (finamente picado)"
+   },
+   "w-in-002-i16": {
+    "name": "pasta de jengibre y ajo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-002-i17": {
+    "name": "cúrcuma",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-002-i18": {
+    "name": "sal",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-002-i19": {
+    "name": "cilantro",
+    "standardAmount": "2 cucharada (finamente picado)"
+   },
+   "w-in-002-i20": {
+    "name": "kala namak",
+    "standardAmount": "1/2 cucharadita"
+   }
+  },
+  "instructions": {
+   "1": "Primero, para preparar el masala del chop, tostar en seco 1 cucharadita de comino, 1 cucharada de semillas de cilantro y 3 chiles rojos secos a fuego lento hasta que las especies desprendan su aroma.",
+   "2": "Dejar enfriar por completo y moler hasta obtener un polvo fino. Reservar.",
+   "3": "En un bol, poner 1,5 tazas de besan, ¼ de cucharadita de cúrcuma, ½ cucharadita de chile en polvo y ½ cucharadita de sal.",
+   "4": "Añadir agua según se necesite para preparar una masa lisa. Reservar.",
+   "5": "Para preparar el relleno, machacar 3 patatas cocidas y reservar.",
+   "6": "En una sartén, calentar 2 cucharadas de aceite. Añadir ½ cucharadita de comino y una pizca de hing.",
+   "7": "Añadir 2 chiles, ½ cebolla, 1 cucharadita de pasta de jengibre y ajo y sofreír bien.",
+   "8": "A fuego lento, añadir ½ cucharadita de cúrcuma, 2 patatas cocidas, ½ cucharadita de sal y mezclar bien.",
+   "9": "Añadir el polvo de masala preparado, 2 cucharadas de cilantro y ½ cucharadita de kala namak y mezclar bien.",
+   "10": "Cuando el relleno se haya enfriado por completo, formar pequeñas hamburguesas. Reservar.",
+   "11": "A la masa de besan, añadir ¼ de cucharadita de bicarbonato y mezclar bien justo antes de freír.",
+   "12": "Bañar la mezcla de aloo en la masa de besan, cubriéndola uniformemente.",
+   "13": "Freír en abundante aceite caliente a fuego medio. Remover de vez en cuando y freír por ambos lados hasta que estén crujientes y dorados. Escurrir.",
+   "14": "Finalmente, disfrutar el Aloo Chop con chutney."
+  },
+  "culturalNotes": "El Aloo Chop es un plato popular en Bangladés y la India, que se sirve como aperitivo o tentempié ligero.",
+  "chapter": "in"
+ },
+ "w-in-003": {
+  "title": "Aloo Gobhi (seco)",
+  "ingredients": {
+   "w-in-003-i1": {
+    "name": "aceite",
+    "standardAmount": "4 cucharada"
+   },
+   "w-in-003-i2": {
+    "name": "coliflor",
+    "standardAmount": "15 floretes"
+   },
+   "w-in-003-i3": {
+    "name": "patatas",
+    "standardAmount": "2 (pelada y picada)"
+   },
+   "w-in-003-i4": {
+    "name": "comino",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-003-i5": {
+    "name": "kasuri methi",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-003-i6": {
+    "name": "cebolla",
+    "standardAmount": "1 (finamente picado)"
+   },
+   "w-in-003-i7": {
+    "name": "pasta de jengibre y ajo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-003-i8": {
+    "name": "chile",
+    "standardAmount": "1 (abierto)"
+   },
+   "w-in-003-i9": {
+    "name": "cúrcuma",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-003-i10": {
+    "name": "chile rojo Kashmiri en polvo",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-003-i11": {
+    "name": "comino en polvo",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-003-i12": {
+    "name": "sal",
+    "standardAmount": "¾ cucharadita"
+   },
+   "w-in-003-i13": {
+    "name": "tomate",
+    "standardAmount": "1 (finamente picado)"
+   },
+   "w-in-003-i14": {
+    "name": "aamchur",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-003-i15": {
+    "name": "garam masala",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-003-i16": {
+    "name": "cilantro",
+    "standardAmount": "2 cucharada (finamente picado)"
+   }
+  },
+  "instructions": {
+   "1": "En un kadai grande, calentar 3 cucharadas de aceite y añadir 1 cucharadita de comino y kasuri methi; sofreír hasta que desprendan aroma.",
+   "2": "Añadir la cebolla finamente picada y sofreír bien hasta que esté dorada.",
+   "3": "Añadir la pasta de jengibre y ajo y el chile abierto; sofreír durante un minuto.",
+   "4": "Añadir la cúrcuma, el chile rojo Kashmiri en polvo, el comino en polvo y la sal; sofreír a fuego lento hasta que las especies desprendan su aroma.",
+   "5": "Añadir el tomate finamente picado y sofreír hasta que esté blando y deshecho.",
+   "6": "Añadir las patatas y la coliflor fritas y mezclar con cuidado sin romperlas.",
+   "7": "Si se prefiere con salsa, añadir ½ taza de agua.",
+   "8": "Añadir el aamchur, el garam masala y las hojas de cilantro picadas; mezclar bien.",
+   "9": "Servir el plato con roti o arroz."
+  },
+  "culturalNotes": "El Aloo Gobhi es un plato indio popular, que se sirve normalmente con roti o arroz.",
+  "chapter": "in"
+ },
+ "w-in-004": {
+  "title": "Aloo Tikki",
+  "ingredients": {
+   "w-in-004-i1": {
+    "name": "patatas",
+    "standardAmount": "2 (hervidas y machacadas)"
+   },
+   "w-in-004-i2": {
+    "name": "guisantes",
+    "standardAmount": "¼ taza (hervido)"
+   },
+   "w-in-004-i3": {
+    "name": "cúrcuma",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-004-i4": {
+    "name": "pan rallado",
+    "standardAmount": "1 taza"
+   },
+   "w-in-004-i5": {
+    "name": "chile Kashmiri en polvo",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-004-i6": {
+    "name": "comino en polvo",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-004-i7": {
+    "name": "pimienta machacada",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-004-i8": {
+    "name": "sal",
+    "standardAmount": "al gusto"
+   },
+   "w-in-004-i9": {
+    "name": "pasta de jengibre y ajo",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-004-i10": {
+    "name": "maicena",
+    "standardAmount": "3 cucharada"
+   },
+   "w-in-004-i11": {
+    "name": "harina de trigo",
+    "standardAmount": "3 cucharada"
+   },
+   "w-in-004-i12": {
+    "name": "agua",
+    "standardAmount": "¼ taza"
+   },
+   "w-in-004-i13": {
+    "name": "mayonesa",
+    "standardAmount": "3 cucharada"
+   },
+   "w-in-004-i14": {
+    "name": "salsa de tomate",
+    "standardAmount": "3 cucharada"
+   },
+   "w-in-004-i15": {
+    "name": "salsa de chile",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-004-i16": {
+    "name": "panes de hamburguesa",
+    "standardAmount": "4"
+   },
+   "w-in-004-i17": {
+    "name": "hojas de lechuga",
+    "standardAmount": "unas hojas"
+   },
+   "w-in-004-i18": {
+    "name": "tomate",
+    "standardAmount": "1 (en rodajas)"
+   },
+   "w-in-004-i19": {
+    "name": "cebolla",
+    "standardAmount": "1 (aros)"
+   }
+  },
+  "instructions": {
+   "1": "Mezclar las patatas machacadas, los guisantes cocidos y las especias en un bol.",
+   "2": "Formar hamburguesas redondas con la mezcla de patata.",
+   "3": "Pasar las hamburguesas por la mezcla de harina y rebozarlas con pan rallado.",
+   "4": "Freír las hamburguesas en aceite caliente hasta que estén doradas y crujientes.",
+   "5": "Cortar los panes de hamburguesa por la mitad y untar una cucharadita de salsa de hamburguesa en cada lado.",
+   "6": "Colocar hojas de lechuga en la mitad inferior del pan y encima el aloo tikki.",
+   "7": "Untar una cucharadita de salsa de hamburguesa sobre el aloo tikki.",
+   "8": "Colocar rodajas de tomate y aros de cebolla sobre el aloo tikki.",
+   "9": "Cubrir el aloo tikki con la mitad superior del pan y presionar ligeramente.",
+   "10": "Servir la hamburguesa con patatas fritas."
+  },
+  "culturalNotes": "El Aloo Tikki es un plato popular en la India, que suele servirse como aperitivo o comida ligera.",
+  "chapter": "in"
+ },
+ "w-in-005": {
+  "title": "Baingan Bharta",
+  "ingredients": {
+   "w-in-005-i1": {
+    "name": "berenjena",
+    "standardAmount": "400 gramos"
+   },
+   "w-in-005-i2": {
+    "name": "ajo",
+    "standardAmount": "3 dientes"
+   },
+   "w-in-005-i3": {
+    "name": "chile",
+    "standardAmount": "1 chile"
+   },
+   "w-in-005-i4": {
+    "name": "aceite",
+    "standardAmount": "3 cucharadas"
+   },
+   "w-in-005-i5": {
+    "name": "comino",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-005-i6": {
+    "name": "chile rojo seco",
+    "standardAmount": "1 chile rojo seco (partido)"
+   },
+   "w-in-005-i7": {
+    "name": "jengibre",
+    "standardAmount": "1 pulgada (finamente picado)"
+   },
+   "w-in-005-i8": {
+    "name": "cebolla",
+    "standardAmount": "1 cebolla (finamente picado)"
+   },
+   "w-in-005-i9": {
+    "name": "chile rojo Kashmiri en polvo",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-005-i10": {
+    "name": "coriandro en polvo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-005-i11": {
+    "name": "tomate",
+    "standardAmount": "1 tomate (finamente picado)"
+   },
+   "w-in-005-i12": {
+    "name": "sal",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-005-i13": {
+    "name": "garam masala",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-005-i14": {
+    "name": "cilantro fresco",
+    "standardAmount": "2 cucharadas (finamente picado)"
+   }
+  },
+  "instructions": {
+   "1": "Tomar una berenjena grande y hacerle 4 cortes.",
+   "2": "Introducir en cada corte 3 dientes de ajo y 1 chile.",
+   "3": "Untar la berenjena con aceite para que la piel se desprenda fácilmente tras el asado.",
+   "4": "Asar la berenjena al fuego de la cocina de gas, dándole la vuelta de vez en cuando, hasta que se oscurezca y esté completamente cocida por dentro.",
+   "5": "Dejar enfriar la berenjena por completo, quitarle la piel y retirar el pedúnculo.",
+   "6": "Machacar la berenjena con un tenedor y reservar.",
+   "7": "En un kadai grande, calentar 2 cucharadas de aceite y sofreír 1 cucharadita de comino, 1 chile rojo seco, 1 pulgada de jengibre y 3 dientes de ajo.",
+   "8": "Sofreír la cebolla hasta que se reduzca ligeramente.",
+   "9": "Añadir ½ cucharadita de chile rojo Kashmiri en polvo y 1 cucharadita de coriandro en polvo y sofreír hasta que las especias desprendan su aroma.",
+   "10": "Añadir el tomate y sofreír hasta que esté blando y deshecho.",
+   "11": "Añadir la berenjena asada y machacada y 1 cucharadita de sal, y mezclar durante 5 minutos hasta que los sabores se integren bien.",
+   "12": "Añadir ½ cucharadita de garam masala y 2 cucharadas de cilantro fresco, y mezclar bien.",
+   "13": "Servir el baingan bharta caliente con phulka o arroz."
+  },
+  "culturalNotes": "El Baingan Bharta es un plato popular en la India, conocido por su sabor rico y ahumado.",
+  "chapter": "in"
+ },
+ "w-in-006": {
+  "title": "Basundi",
+  "ingredients": {
+   "w-in-006-i1": {
+    "name": "khova / mava",
+    "standardAmount": "100 gramos"
+   },
+   "w-in-006-i2": {
+    "name": "leche",
+    "standardAmount": "1½ litro"
+   },
+   "w-in-006-i3": {
+    "name": "leche con kesar",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-006-i4": {
+    "name": "azúcar",
+    "standardAmount": "¼ taza"
+   },
+   "w-in-006-i5": {
+    "name": "cardamomo en polvo",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-006-i6": {
+    "name": "almendras picadas",
+    "standardAmount": "2 cucharada"
+   }
+  },
+  "instructions": {
+   "1": "Primero, desmenuzar 100 gramos de khova y reservar. Si no se tiene khova, se puede usar ½ taza de leche en polvo.",
+   "2": "En un kadai grande, poner 1,5 litros de leche y llevarla a ebullición, removiendo de vez en cuando.",
+   "3": "Añadir 2 cucharadas de leche con kesar y mezclar bien.",
+   "4": "Hervir durante 5 minutos o hasta que la leche espese ligeramente.",
+   "5": "Cuando la leche se haya reducido, añadir el khova desmenuzado y mezclar bien.",
+   "6": "Seguir hirviendo 5 minutos más o hasta que la leche espese.",
+   "7": "Añadir ¼ de taza de azúcar y llevar a ebullición, asegurándose de que el azúcar se disuelva bien.",
+   "8": "Añadir ½ cucharadita de cardamomo en polvo y 2 cucharadas de almendras picadas. Mezclar bien.",
+   "9": "Dejar enfriar el basundi ligeramente antes de servir. El basundi espesará al enfriarse.",
+   "10": "Finalmente, disfrutar el basundi frío o templado; se puede conservar en el frigorífico durante una semana."
+  },
+  "culturalNotes": "El Basundi es un dulce tradicional indio que suele servirse en ocasiones especiales.",
+  "chapter": "in"
+ },
+ "w-in-007": {
+  "title": "Bati (pan)",
+  "ingredients": {
+   "w-in-007-i1": {
+    "name": "harina de trigo",
+    "standardAmount": "1 libra"
+   },
+   "w-in-007-i2": {
+    "name": "sal",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-007-i3": {
+    "name": "aceite vegetal",
+    "standardAmount": "3 cucharadas"
+   },
+   "w-in-007-i4": {
+    "name": "agua",
+    "standardAmount": "según sea necesario"
+   },
+   "w-in-007-i5": {
+    "name": "ghee",
+    "standardAmount": "1 ½ cucharaditas"
+   }
+  },
+  "instructions": {
+   "1": "Mezclar la harina y la sal en un bol.",
+   "2": "Añadir aproximadamente 1 taza de la mezcla de harina a un bol pequeño y añadir un poco de aceite, mezclando bien y deshaciendo los grumos.",
+   "3": "Añadir agua, aproximadamente 1 cucharada cada vez, y seguir amasando con las manos. Solo se necesitan 3-4 cucharadas, pero hay que amasar la masa con fuerza para que se mantenga unida en una bola.",
+   "4": "Dejar reposar las bolas durante 5 minutos.",
+   "5": "Aplanar cada bola primero con las manos y después con un rodillo hasta obtener discos lisos de 4 pulgadas (10 cm) de diámetro y ½ pulgada (1,25 cm) de grosor.",
+   "6": "Cocer en una sartén metálica en seco a fuego lento. Dar la vuelta una vez cuando el fondo empiece a endurecerse y luego pellizcar por toda la superficie con dos dedos para que la masa no quede demasiado gruesa y tenga una textura abultada por un lado.",
+   "7": "Comprobar el fondo hasta que se dore por puntos; retirar entonces el baati y colocarlo boca abajo sobre una rejilla o una sartén con agujeros. Esto ennegrecerá un poco la parte superior, especialmente las puntas de los hoyuelos.",
+   "8": "Servir con ghee y un dhal o verduras."
+  },
+  "culturalNotes": "El bati es un pan tradicional de la India, especialmente del estado de Rajastán. Suele servirse con ghee y lentejas o verduras.",
+  "chapter": "in"
+ },
+ "w-in-008": {
+  "title": "Benne Dose",
+  "ingredients": {
+   "w-in-008-i1": {
+    "name": "arroz para dosa",
+    "standardAmount": "3 tazas"
+   },
+   "w-in-008-i2": {
+    "name": "semillas de fenogreco",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-008-i3": {
+    "name": "urad dal",
+    "standardAmount": "1 taza"
+   },
+   "w-in-008-i4": {
+    "name": "arroz hinchado",
+    "standardAmount": "2 tazas (lavado y escurrido)"
+   },
+   "w-in-008-i5": {
+    "name": "sal",
+    "standardAmount": "1.5 cucharadita"
+   },
+   "w-in-008-i6": {
+    "name": "aceite para asar",
+    "standardAmount": "según sea necesario"
+   },
+   "w-in-008-i7": {
+    "name": "mantequilla",
+    "standardAmount": "según sea necesario"
+   }
+  },
+  "instructions": {
+   "1": "Primero, triturar 1 taza de urad dal remojado en una batidora con agua según se necesite hasta obtener una pasta fina.",
+   "2": "Pasar la masa fina y esponjosa de urad dal a un bol grande.",
+   "3": "En la batidora, triturar 3 tazas de arroz para dosa y ½ cucharadita de semillas de fenogreco hasta obtener una pasta ligeramente gruesa con agua según se necesite.",
+   "4": "Pasar la masa de arroz al bol con la masa de urad dal.",
+   "5": "Poner 2 tazas de arroz hinchado lavado y escurrido en la batidora.",
+   "6": "Triturar hasta obtener una pasta fina.",
+   "7": "Mezclar todo bien para asegurarse de que quede bien integrado.",
+   "8": "Cubrir y dejar reposar la masa en un lugar cálido durante 8-10 horas o hasta que fermente y doble su tamaño.",
+   "9": "Añadir 1,5 cucharaditas de sal a la masa y mezclar bien.",
+   "10": "Calentar la plancha y verter un cucharón de masa.",
+   "11": "Extender la masa en movimiento circular, algo más gruesa que una masala dosa normal.",
+   "12": "Repartir una cucharadita de aceite por los bordes del dosa.",
+   "13": "Añadir 1 cucharada de mantequilla y repartirla por todo el dosa.",
+   "14": "Asar el dosa hasta que esté dorado por ambos lados.",
+   "15": "Finalmente, doblar el benne dose / dosa con mantequilla por la mitad y servir con chutney y aloo bhaji, coronado con más mantequilla."
+  },
+  "culturalNotes": "El Benne Dose es un plato popular del estado indio de Karnataka, conocido por su sabor rico y delicioso gracias a la mantequilla.",
+  "chapter": "in"
+ },
+ "w-in-009": {
+  "title": "Bhaji de espinacas",
+  "ingredients": {
+   "w-in-009-i1": {
+    "name": "aceite vegetal",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-009-i2": {
+    "name": "chiles verdes",
+    "standardAmount": "3"
+   },
+   "w-in-009-i3": {
+    "name": "cebolla",
+    "standardAmount": "1 pequeña, cortado en rodajas finas"
+   },
+   "w-in-009-i4": {
+    "name": "ajo",
+    "standardAmount": "2 dientes, machacado"
+   },
+   "w-in-009-i5": {
+    "name": "panch phoron",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-009-i6": {
+    "name": "espinacas",
+    "standardAmount": "1 libra (espinaca congelada descongelada, picada)"
+   },
+   "w-in-009-i7": {
+    "name": "sal",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-009-i8": {
+    "name": "pimienta",
+    "standardAmount": "1/2 cucharadita"
+   }
+  },
+  "instructions": {
+   "1": "Calentar el aceite en una sartén a fuego medio-alto.",
+   "2": "Añadir los chiles verdes y tostar durante 2 minutos.",
+   "3": "Añadir la cebolla y cocinar hasta que esté blanda.",
+   "4": "Añadir el ajo y el panch phoron. Las especias empezarán a saltar y crepitar cuando estén listas.",
+   "5": "Añadir las espinacas, la sal y la pimienta. Tapar y cocer a fuego lento durante 20 minutos para que los sabores se mezclen."
+  },
+  "culturalNotes": "El bhaji es un plato popular en la India, que suele servirse como parte del almuerzo o la cena.",
+  "chapter": "in"
+ },
+ "w-in-010": {
+  "title": "Bhel Puri",
+  "ingredients": {
+   "w-in-010-i1": {
+    "name": "cacahuetes",
+    "standardAmount": "½ taza"
+   },
+   "w-in-010-i2": {
+    "name": "gram dal tostado",
+    "standardAmount": "½ taza"
+   },
+   "w-in-010-i3": {
+    "name": "poha grueso",
+    "standardAmount": "¾ taza"
+   },
+   "w-in-010-i4": {
+    "name": "aceite",
+    "standardAmount": "según sea necesario"
+   },
+   "w-in-010-i5": {
+    "name": "aceite",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-010-i6": {
+    "name": "cúrcuma",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-010-i7": {
+    "name": "chile en polvo",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-010-i8": {
+    "name": "hing",
+    "standardAmount": "pizca"
+   },
+   "w-in-010-i9": {
+    "name": "hojas de curry",
+    "standardAmount": "unos"
+   },
+   "w-in-010-i10": {
+    "name": "murmura",
+    "standardAmount": "4 tazas"
+   },
+   "w-in-010-i11": {
+    "name": "comino en polvo",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-010-i12": {
+    "name": "chaat masala",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-010-i13": {
+    "name": "kala namak",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-010-i14": {
+    "name": "sal",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-010-i15": {
+    "name": "azúcar glas",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-010-i16": {
+    "name": "aamchur",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-010-i17": {
+    "name": "boondi picante",
+    "standardAmount": "½ taza"
+   },
+   "w-in-010-i18": {
+    "name": "sev",
+    "standardAmount": "½ taza"
+   },
+   "w-in-010-i19": {
+    "name": "papdi",
+    "standardAmount": "10 piezas"
+   },
+   "w-in-010-i20": {
+    "name": "mezcla bhel",
+    "standardAmount": "2 tazas"
+   },
+   "w-in-010-i21": {
+    "name": "cebolla",
+    "standardAmount": "½ taza finamente picado"
+   },
+   "w-in-010-i22": {
+    "name": "tomate",
+    "standardAmount": "½ taza finamente picado"
+   },
+   "w-in-010-i23": {
+    "name": "patata cocida",
+    "standardAmount": "½ taza en cubos"
+   },
+   "w-in-010-i24": {
+    "name": "chaat masala",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-010-i25": {
+    "name": "chutney verde",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-010-i26": {
+    "name": "chutney de tamarindo",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-010-i27": {
+    "name": "chile",
+    "standardAmount": "2 finamente picado"
+   },
+   "w-in-010-i28": {
+    "name": "cilantro",
+    "standardAmount": "2 cucharada picado"
+   },
+   "w-in-010-i29": {
+    "name": "limón",
+    "standardAmount": "½ limón"
+   }
+  },
+  "instructions": {
+   "1": "En aceite caliente, colocar un colador y freír ½ taza de cacahuetes a fuego lento hasta que estén crujientes. Escurrir y reservar.",
+   "2": "Freír ahora ½ taza de gram dal tostado a fuego lento hasta que esté crujiente. Escurrir y reservar.",
+   "3": "Freír también ¾ de taza de poha grueso en aceite caliente hasta que esté crujiente. Escurrir y reservar.",
+   "4": "En un kadai grande, calentar 2 cucharadas de aceite. Añadir ½ cucharadita de cúrcuma, ½ cucharadita de chile en polvo, una pizca de hing y unas hojas de curry.",
+   "5": "Sofreír a fuego lento hasta que las especias desprendan su aroma.",
+   "6": "Añadir 4 tazas de murmura y freír hasta que esté crujiente y las especias estén bien integradas.",
+   "7": "Apagar el fuego y añadir ½ cucharadita de comino en polvo, 1 cucharadita de chaat masala, ½ cucharadita de kala namak, ½ cucharadita de sal, 2 cucharadas de azúcar glas y ½ cucharadita de aamchur.",
+   "8": "Añadir ½ taza de boondi picante y ½ taza de sev, machacar 10 papdi y mezclar bien.",
+   "9": "Mezclar bien asegurándose de que todo quede bien integrado.",
+   "10": "Finalmente, la mezcla Bhel Puri está lista para preparar chaat.",
+   "11": "Para preparar el Bhel Puri Chaat: repartir la mezcla en platos de servir, añadir ½ taza de cebolla finamente picada, ½ taza de tomate finamente picado, ½ taza de patata cocida en cubos, ½ cucharadita de chaat masala, 2 cucharadas de chutney verde, 2 cucharadas de chutney de tamarindo, 2 chiles finamente picados, 2 cucharadas de cilantro picado y el zumo de ½ limón. Mezclar bien y servir."
+  },
+  "culturalNotes": "El Bhel Puri es una comida callejera muy popular en la India, sobre todo en Bombay, y se sirve como chaat en lugares públicos y calles.",
+  "chapter": "in"
+ },
+ "w-in-011": {
+  "title": "Biryani de pollo",
+  "ingredients": {
+   "w-in-011-i1": {
+    "name": "arroz",
+    "standardAmount": "2 tazas (preferiblemente Basmati)"
+   },
+   "w-in-011-i2": {
+    "name": "pollo",
+    "standardAmount": "500 g (1 libra)"
+   },
+   "w-in-011-i3": {
+    "name": "aceite",
+    "standardAmount": "6 cucharadas"
+   },
+   "w-in-011-i4": {
+    "name": "yogur",
+    "standardAmount": "300 ml (10 onzas)"
+   },
+   "w-in-011-i5": {
+    "name": "ajo",
+    "standardAmount": "3 dientes, machacado y picado"
+   },
+   "w-in-011-i6": {
+    "name": "jengibre",
+    "standardAmount": "1.5 cm, pelado y en rodajas"
+   },
+   "w-in-011-i7": {
+    "name": "zumo de limón",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-in-011-i8": {
+    "name": "sal",
+    "standardAmount": "al gusto"
+   },
+   "w-in-011-i9": {
+    "name": "cúrcuma en polvo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-011-i10": {
+    "name": "comino en polvo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-011-i11": {
+    "name": "canela",
+    "standardAmount": "1 rama"
+   },
+   "w-in-011-i12": {
+    "name": "clavos",
+    "standardAmount": "3 clavos"
+   },
+   "w-in-011-i13": {
+    "name": "chiles",
+    "standardAmount": "2, picado"
+   },
+   "w-in-011-i14": {
+    "name": "tomates",
+    "standardAmount": "2, picado"
+   },
+   "w-in-011-i15": {
+    "name": "puré de tomate",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-in-011-i16": {
+    "name": "azafrán",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-011-i17": {
+    "name": "cebollas",
+    "standardAmount": "2, picado"
+   }
+  },
+  "instructions": {
+   "1": "Lavar el arroz, dejarlo en remojo 30 minutos, escurrirlo y cocerlo.",
+   "2": "Marinar el pollo en una mezcla de zumo de limón, yogur, jengibre, ajo, sal, cúrcuma en polvo, comino en polvo, clavos, chiles, tomates picados y puré de tomate.",
+   "3": "Calentar el aceite en una sartén, añadir las cebollas y cocinar hasta que estén doradas; añadirlas después al pollo.",
+   "4": "Engrasar una cazuela honda, ancha y de fondo grueso; añadir una capa de arroz, luego la mezcla de pollo y cubrir con el arroz restante y el azafrán.",
+   "5": "Hornear el biryani durante 1-1,5 horas a 150 °C (300 °F). Comprobar que el pollo esté bien hecho.",
+   "6": "Servir el biryani con yogur al lado."
+  },
+  "culturalNotes": "El biryani es un plato popular en la India, conocido por su rica mezcla de especias y sabores.",
+  "chapter": "in"
+ },
+ "w-in-012": {
+  "title": "Bonda (aperitivo)",
+  "ingredients": {
+   "w-in-012-i1": {
+    "name": "aceite",
+    "standardAmount": "2 cucharadita"
+   },
+   "w-in-012-i2": {
+    "name": "semillas de mostaza",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-012-i3": {
+    "name": "semillas de comino",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-012-i4": {
+    "name": "semillas de cilantro (machacadas)",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-012-i5": {
+    "name": "asafoétida",
+    "standardAmount": "pizca"
+   },
+   "w-in-012-i6": {
+    "name": "hojas de curry",
+    "standardAmount": "unos (picado)"
+   },
+   "w-in-012-i7": {
+    "name": "anacardos",
+    "standardAmount": "6 (partido)"
+   },
+   "w-in-012-i8": {
+    "name": "cebolla",
+    "standardAmount": "1 pequeña (finamente picado)"
+   },
+   "w-in-012-i9": {
+    "name": "jengibre",
+    "standardAmount": "1 pulgada (finamente picado)"
+   },
+   "w-in-012-i10": {
+    "name": "cúrcuma",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-012-i11": {
+    "name": "chile verde",
+    "standardAmount": "1 (finamente picado)"
+   },
+   "w-in-012-i12": {
+    "name": "chile rojo Kashmiri en polvo",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-012-i13": {
+    "name": "sal",
+    "standardAmount": "al gusto"
+   },
+   "w-in-012-i14": {
+    "name": "hojas de cilantro",
+    "standardAmount": "2 cucharada (finamente picado)"
+   },
+   "w-in-012-i15": {
+    "name": "zumo de limón",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-012-i16": {
+    "name": "patata",
+    "standardAmount": "3 mediana (hervidas, peladas, machacadas)"
+   },
+   "w-in-012-i17": {
+    "name": "harina de garbanzo",
+    "standardAmount": "1 taza"
+   },
+   "w-in-012-i18": {
+    "name": "maicena",
+    "standardAmount": "¼ taza"
+   },
+   "w-in-012-i19": {
+    "name": "cúrcuma",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-012-i20": {
+    "name": "chile rojo Kashmiri en polvo",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-012-i21": {
+    "name": "ajwain / semillas de carom",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-012-i22": {
+    "name": "agua",
+    "standardAmount": "lo necesario"
+   },
+   "w-in-012-i23": {
+    "name": "bicarbonato",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-012-i24": {
+    "name": "aceite para freír",
+    "standardAmount": "lo necesario"
+   }
+  },
+  "instructions": {
+   "1": "En un kadai grande, calentar el aceite y añadir las semillas de mostaza, las semillas de comino, las semillas de cilantro machacadas, la asafoétida y las hojas de curry. Dejar que salten.",
+   "2": "Añadir los anacardos partidos y tostar hasta que estén dorados.",
+   "3": "Añadir la cebolla picada, el jengibre y el chile verde. Sofreír hasta que la cebolla esté dorada.",
+   "4": "Añadir la cúrcuma, el chile rojo Kashmiri en polvo, las hojas de cilantro y la sal. Sofreír durante un minuto.",
+   "5": "Añadir la patata machacada, las hojas de cilantro y el zumo de limón. Mezclar bien.",
+   "6": "Formar bolas con la mezcla de patata.",
+   "7": "Preparar la masa mezclando la harina de garbanzo, la maicena, el agua y el bicarbonato hasta obtener una masa espesa.",
+   "8": "Bañar las bolas en la masa y freírlas en abundante aceite caliente hasta que estén doradas y crujientes.",
+   "9": "Servir la bonda con chutney o salsa de tomate."
+  },
+  "culturalNotes": "La bonda es un aperitivo popular en la India, sobre todo en el sur, y suele servirse como tentempié o aperitivo.",
+  "chapter": "in"
+ },
+ "w-in-013": {
+  "title": "Pakora de pan relleno de aloo",
+  "ingredients": {
+   "w-in-013-i1": {
+    "name": "patata",
+    "standardAmount": "3 (hervidas y machacadas)"
+   },
+   "w-in-013-i2": {
+    "name": "chile verde",
+    "standardAmount": "1 (finamente picado)"
+   },
+   "w-in-013-i3": {
+    "name": "jengibre",
+    "standardAmount": "1 pulgada (finamente picado)"
+   },
+   "w-in-013-i4": {
+    "name": "chile rojo Kashmiri en polvo",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-013-i5": {
+    "name": "mango seco en polvo",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-013-i6": {
+    "name": "cilantro",
+    "standardAmount": "2 cucharada (finamente picado)"
+   },
+   "w-in-013-i7": {
+    "name": "chaat masala",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-013-i8": {
+    "name": "sal",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-013-i9": {
+    "name": "harina de garbanzo",
+    "standardAmount": "1 taza"
+   },
+   "w-in-013-i10": {
+    "name": "harina de arroz",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-013-i11": {
+    "name": "chile rojo Kashmiri en polvo",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-013-i12": {
+    "name": "sal",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-013-i13": {
+    "name": "soda",
+    "standardAmount": "una pizca"
+   },
+   "w-in-013-i14": {
+    "name": "agua",
+    "standardAmount": "½ taza o lo necesario"
+   },
+   "w-in-013-i15": {
+    "name": "rebanadas de pan",
+    "standardAmount": "4 rebanadas (blanco o integral)"
+   },
+   "w-in-013-i16": {
+    "name": "chutney verde",
+    "standardAmount": "4 cucharadita"
+   },
+   "w-in-013-i17": {
+    "name": "aceite",
+    "standardAmount": "para freír"
+   }
+  },
+  "instructions": {
+   "1": "En un bol grande, colocar las patatas machacadas.",
+   "2": "Añadir el chile verde, el jengibre, el cilantro, el chile rojo Kashmiri en polvo, el mango seco en polvo, el chaat masala y la sal. Mezclar bien todos los ingredientes para preparar el relleno de patata.",
+   "3": "En otro bol, mezclar la harina de garbanzo, la harina de arroz, el chile rojo Kashmiri en polvo, la sal y una pizca de soda. Añadir agua poco a poco para preparar la masa.",
+   "4": "Untar una cucharadita de chutney verde sobre una rebanada de pan y cortarla por la mitad.",
+   "5": "Untar una cucharada del relleno de patata preparado sobre media rebanada de pan y cubrirla con la otra mitad.",
+   "6": "Bañar el trozo en la masa para cubrirlo por todos lados.",
+   "7": "Freír el trozo en abundante aceite caliente a fuego medio, dándole la vuelta de vez en cuando, hasta que esté dorado y crujiente.",
+   "8": "Servir el pakora de pan relleno de aloo con chutney verde o salsa de tomate."
+  },
+  "culturalNotes": "El pakora de pan relleno de aloo es un plato popular en la India que se sirve como aperitivo en reuniones y en casa.",
+  "chapter": "in"
+ },
+ "w-in-014": {
+  "title": "Pollo con mantequilla (Butter Chicken)",
+  "ingredients": {
+   "w-in-014-i1": {
+    "name": "muslos o pechugas de pollo sin piel ni hueso",
+    "standardAmount": "400-500 g"
+   },
+   "w-in-014-i2": {
+    "name": "tandoori masala en polvo",
+    "standardAmount": "50 g"
+   },
+   "w-in-014-i3": {
+    "name": "yogur natural",
+    "standardAmount": "½ taza"
+   },
+   "w-in-014-i4": {
+    "name": "zumo de limón o lima",
+    "standardAmount": "1 pequeña"
+   },
+   "w-in-014-i5": {
+    "name": "mantequilla",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-in-014-i6": {
+    "name": "cebolla",
+    "standardAmount": "1 grande, en rodajas finas"
+   },
+   "w-in-014-i7": {
+    "name": "canela",
+    "standardAmount": "¼ cucharadita (opcional)"
+   },
+   "w-in-014-i8": {
+    "name": "ajo",
+    "standardAmount": "2-3 dientes, machacado"
+   },
+   "w-in-014-i9": {
+    "name": "jengibre",
+    "standardAmount": "2 cucharaditas, rallado"
+   },
+   "w-in-014-i10": {
+    "name": "cúrcuma",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-014-i11": {
+    "name": "coriandro molido",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-014-i12": {
+    "name": "chile en polvo",
+    "standardAmount": "2-3 cucharaditas"
+   },
+   "w-in-014-i13": {
+    "name": "concentrado de tomate",
+    "standardAmount": "100-200 g"
+   },
+   "w-in-014-i14": {
+    "name": "nata espesa",
+    "standardAmount": "100 g"
+   }
+  },
+  "instructions": {
+   "1": "Limpiar y cortar el pollo en cubos pequeños. Si se prefiere con hueso, hacer cortes finos y alargados en el pollo.",
+   "2": "En un bol grande, mezclar el tandoori masala en polvo, el yogur, el zumo de limón y el pollo. Masajear bien con las manos para que todo el pollo quede cubierto uniformemente con el tandoori masala. Tapar y reservar al menos 30 minutos.",
+   "3": "Calentar una cacerola o sartén grande hasta que esté uniformemente caliente.",
+   "4": "En la sartén, fundir 2 cucharadas de mantequilla hasta que esté espumosa. Añadir las cebollas y la canela y freír ligeramente. Cuando las cebollas estén blandas y empiecen a dorarse, añadir el ajo machacado y el jengibre. Añadir después la cúrcuma, el chile y el coriandro y sofreír a fuego medio.",
+   "5": "Añadir el pollo y sofreír, removiendo constantemente, hasta que el pollo se vuelva blanco. No tarda mucho, así que hay que evitar que el pollo se pase.",
+   "6": "Incorporar el concentrado de tomate. Añadir la nata y calentar. Tras añadir la nata y remover, se puede añadir más tandoori masala; unas 3-5 cucharadas suelen ser suficientes.",
+   "7": "Tapar y cocer a fuego lento algo más de 10 minutos."
+  },
+  "culturalNotes": "El pollo con mantequilla es un plato famoso de la cocina india, que se sirve normalmente con arroz basmati o naan.",
+  "chapter": "in"
+ },
+ "w-in-015": {
+  "title": "Arroz con pimiento (Capsicum Rice)",
+  "ingredients": {
+   "w-in-015-i1": {
+    "name": "cacahuetes",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-015-i2": {
+    "name": "semillas de sésamo",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-015-i3": {
+    "name": "semillas de comino",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-015-i4": {
+    "name": "semillas de cilantro",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-015-i5": {
+    "name": "urad dal",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-015-i6": {
+    "name": "chana dal",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-015-i7": {
+    "name": "aceite",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-015-i8": {
+    "name": "semillas de mostaza",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-015-i9": {
+    "name": "semillas de comino",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-015-i10": {
+    "name": "chile rojo seco",
+    "standardAmount": "2"
+   },
+   "w-in-015-i11": {
+    "name": "hing",
+    "standardAmount": "pizca"
+   },
+   "w-in-015-i12": {
+    "name": "hojas de curry",
+    "standardAmount": "unos"
+   },
+   "w-in-015-i13": {
+    "name": "cebolla",
+    "standardAmount": "1 (en rodajas)"
+   },
+   "w-in-015-i14": {
+    "name": "pimiento",
+    "standardAmount": "1 (en rodajas)"
+   },
+   "w-in-015-i15": {
+    "name": "cúrcuma",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-015-i16": {
+    "name": "chile en polvo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-015-i17": {
+    "name": "garam masala",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-015-i18": {
+    "name": "sal",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-015-i19": {
+    "name": "arroz cocido",
+    "standardAmount": "4 tazas"
+   },
+   "w-in-015-i20": {
+    "name": "cilantro (picado)",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-015-i21": {
+    "name": "zumo de limón",
+    "standardAmount": "1/2 cucharada"
+   }
+  },
+  "instructions": {
+   "1": "Primero, tostar en seco 2 cucharadas de cacahuetes hasta que estén crujientes.",
+   "2": "Añadir 2 cucharadas de semillas de sésamo, 1 cucharadita de semillas de comino, ½ cucharadita de semillas de cilantro, ½ cucharadita de urad dal y ½ cucharadita de chana dal.",
+   "3": "Tostar en seco a fuego lento hasta que las especias desprendan su aroma.",
+   "4": "Dejar enfriar por completo y moler hasta obtener un polvo fino. Reservar.",
+   "5": "En un kadai grande, calentar 2 cucharadas de aceite. Añadir 1 cucharadita de semillas de mostaza, ½ cucharadita de semillas de comino, 2 chiles rojos secos, una pizca de hing y unas hojas de curry.",
+   "6": "Añadir 1 cebolla en rodajas y sofreír ligeramente hasta que la cebolla se ablande.",
+   "7": "Añadir ahora 1 pimiento en rodajas y sofreír hasta que esté crujiente.",
+   "8": "Después, manteniendo el fuego lento, añadir ½ cucharadita de cúrcuma, 1 cucharadita de chile en polvo, ½ cucharadita de garam masala y 1 cucharadita de sal.",
+   "9": "Sofreír a fuego lento hasta que las especias desprendan su aroma.",
+   "10": "Añadir 4 tazas de arroz cocido y el masala de cacahuetes.",
+   "11": "Mezclar con cuidado para que todo quede bien integrado.",
+   "12": "Tapar y cocer a fuego lento 5 minutos o hasta que el arroz absorba bien las especias.",
+   "13": "Añadir 2 cucharadas de cilantro picado y ½ cucharada de zumo de limón y mezclar bien.",
+   "14": "Finalmente, disfrutar el Capsicum Rice con raita."
+  },
+  "culturalNotes": "El arroz con pimiento es un plato popular de la cocina india, sobre todo en restaurantes y comedores. Suele servirse con raita.",
+  "chapter": "in"
+ },
+ "w-in-016": {
+  "title": "Murukku con mantequilla (Chakli)",
+  "ingredients": {
+   "w-in-016-i1": {
+    "name": "harina de arroz",
+    "standardAmount": "3 tazas"
+   },
+   "w-in-016-i2": {
+    "name": "harina de urad dal",
+    "standardAmount": "¾ taza"
+   },
+   "w-in-016-i3": {
+    "name": "semillas de sésamo",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-016-i4": {
+    "name": "hing (asafoétida)",
+    "standardAmount": "una pizca"
+   },
+   "w-in-016-i5": {
+    "name": "sal",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-016-i6": {
+    "name": "mantequilla",
+    "standardAmount": "3 cucharada"
+   },
+   "w-in-016-i7": {
+    "name": "agua",
+    "standardAmount": "según sea necesario"
+   },
+   "w-in-016-i8": {
+    "name": "aceite",
+    "standardAmount": "para freír"
+   }
+  },
+  "instructions": {
+   "1": "En un bol grande, mezclar 3 tazas de harina de arroz, ¾ de taza de harina de urad dal, 2 cucharadas de semillas de sésamo, una pizca de hing y 1 cucharadita de sal.",
+   "2": "Mezclar bien los ingredientes para que queden bien integrados.",
+   "3": "Añadir 3 cucharadas de mantequilla y mezclar bien. Desmenuzar y mezclar hasta que la harina esté humedecida.",
+   "4": "Añadir agua poco a poco y empezar a amasar.",
+   "5": "Amasar hasta que la masa esté lisa y blanda, añadiendo agua según se necesite.",
+   "6": "Colocar el molde de estrella en la máquina de chakli y engrasarla con un poco de aceite para que la masa no se pegue.",
+   "7": "Formar la masa en un cilindro y colocarla dentro de la máquina de chakli.",
+   "8": "Cerrar la tapa y empezar a preparar los chaklis.",
+   "9": "Añadir los chaklis al aceite caliente a fuego medio.",
+   "10": "Darles la vuelta y freírlos a fuego medio hasta que estén crujientes por ambos lados.",
+   "11": "Escurrir los chaklis sobre papel de cocina para eliminar el exceso de aceite.",
+   "12": "Una vez fríos, disfrutar los chakli con mantequilla o guardarlos en un recipiente hermético hasta 2 semanas."
+  },
+  "culturalNotes": "El chakli es un aperitivo dulce tradicional indio que suele servirse en ocasiones especiales y celebraciones.",
+  "chapter": "in"
+ },
+ "w-in-017": {
+  "title": "Chak Chak",
+  "ingredients": {
+   "w-in-017-i1": {
+    "name": "fideos",
+    "standardAmount": "2 tazas"
+   },
+   "w-in-017-i2": {
+    "name": "mantequilla",
+    "standardAmount": "1 rama"
+   },
+   "w-in-017-i3": {
+    "name": "miel",
+    "standardAmount": "1/4 taza"
+   },
+   "w-in-017-i4": {
+    "name": "azúcar",
+    "standardAmount": "1/2 taza"
+   },
+   "w-in-017-i5": {
+    "name": "harina",
+    "standardAmount": "un poco"
+   }
+  },
+  "instructions": {
+   "1": "Fundir la mantequilla en una olla mediana a fuego medio.",
+   "2": "Rebozar ligeramente los fideos en harina y echarlos a la olla; cocer hasta que estén ligeramente crujientes y dorados, unos 5 minutos según el grosor de los fideos.",
+   "3": "Fundir la miel con el azúcar en un cazo pequeño a fuego medio. Dejar que la mezcla burbujee hasta que el azúcar se disuelva por completo.",
+   "4": "Verter la mezcla, aún hirviendo, sobre los fideos fritos. Mezclar para cubrirlos uniformemente.",
+   "5": "Mojarse las manos en agua fría y dar forma de cúpulas a los fideos."
+  },
+  "culturalNotes": "El Chak Chak es un dulce tradicional indio que suele servirse en ocasiones especiales.",
+  "chapter": "in"
+ },
+ "w-in-018": {
+  "title": "Chana Masala",
+  "ingredients": {
+   "w-in-018-i1": {
+    "name": "garbanzos",
+    "standardAmount": "1 taza"
+   },
+   "w-in-018-i2": {
+    "name": "agua (para el remojo)",
+    "standardAmount": "suficiente"
+   },
+   "w-in-018-i3": {
+    "name": "bicarbonato",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-018-i4": {
+    "name": "sal",
+    "standardAmount": "¾ cucharadita"
+   },
+   "w-in-018-i5": {
+    "name": "agua (para la olla a presión)",
+    "standardAmount": "3 tazas"
+   },
+   "w-in-018-i6": {
+    "name": "semillas de cilantro",
+    "standardAmount": "¼ taza"
+   },
+   "w-in-018-i7": {
+    "name": "comino",
+    "standardAmount": "¼ taza"
+   },
+   "w-in-018-i8": {
+    "name": "pimienta",
+    "standardAmount": "2 cucharadita"
+   },
+   "w-in-018-i9": {
+    "name": "clavo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-018-i10": {
+    "name": "cardamomo negro",
+    "standardAmount": "2 vainas"
+   },
+   "w-in-018-i11": {
+    "name": "canela",
+    "standardAmount": "2 pulgada"
+   },
+   "w-in-018-i12": {
+    "name": "macis",
+    "standardAmount": "1 pieza"
+   },
+   "w-in-018-i13": {
+    "name": "hinojo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-018-i14": {
+    "name": "shah jeera",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-018-i15": {
+    "name": "chile rojo seco",
+    "standardAmount": "10 vainas"
+   },
+   "w-in-018-i16": {
+    "name": "aamchur",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-018-i17": {
+    "name": "kasuri methi",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-018-i18": {
+    "name": "cúrcuma",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-018-i19": {
+    "name": "ghee",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-018-i20": {
+    "name": "cardamomo",
+    "standardAmount": "3 vainas"
+   },
+   "w-in-018-i21": {
+    "name": "hoja de laurel",
+    "standardAmount": "1 hoja"
+   },
+   "w-in-018-i22": {
+    "name": "comino",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-018-i23": {
+    "name": "cebolla",
+    "standardAmount": "1 (finamente picado)"
+   },
+   "w-in-018-i24": {
+    "name": "chile",
+    "standardAmount": "1 (abierto)"
+   },
+   "w-in-018-i25": {
+    "name": "pasta de jengibre y ajo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-018-i26": {
+    "name": "sal",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-018-i27": {
+    "name": "puré de tomate",
+    "standardAmount": "2 tazas"
+   },
+   "w-in-018-i28": {
+    "name": "cilantro",
+    "standardAmount": "2 cucharada (finamente picado)"
+   }
+  },
+  "instructions": {
+   "1": "Remojar los garbanzos en agua con bicarbonato durante al menos 8 horas.",
+   "2": "Escurrir los garbanzos y ponerlos en una olla a presión con 3 tazas de agua y 1 cucharadita de sal. Cocer durante 10 minutos.",
+   "3": "En una sartén, tostar las semillas de cilantro, el comino, la pimienta, el clavo, el cardamomo negro, la canela, el macis, el hinojo, el shah jeera y el chile rojo seco. Molerlos para hacer el polvo de chana masala.",
+   "4": "En otra sartén, fundir el ghee y añadir la canela, el cardamomo negro, la hoja de laurel y el comino. Sofreír las cebollas hasta que estén doradas.",
+   "5": "Añadir el chile abierto, la pasta de jengibre y ajo, la cúrcuma y el puré de tomate. Cocer durante 5 minutos.",
+   "6": "Añadir los garbanzos cocidos y 1 cucharadita de sal. Cocer durante 10 minutos.",
+   "7": "Añadir el polvo de chana masala y el cilantro. Cocer 5 minutos más.",
+   "8": "Servir el chana masala caliente con arroz o roti."
+  },
+  "culturalNotes": "El chana masala es un plato popular de la cocina india, que se sirve normalmente con arroz o roti.",
+  "chapter": "in"
+ },
+ "w-in-019": {
+  "title": "Chapati",
+  "ingredients": {
+   "w-in-019-i1": {
+    "name": "harina de trigo integral",
+    "standardAmount": "3 tazas"
+   },
+   "w-in-019-i2": {
+    "name": "sal",
+    "standardAmount": "al gusto (aprox. 1 cucharadita)"
+   },
+   "w-in-019-i3": {
+    "name": "agua templada",
+    "standardAmount": "lo necesario (aprox. 1.5 tazas)"
+   },
+   "w-in-019-i4": {
+    "name": "ghee (mantequilla clarificada)",
+    "standardAmount": "opcional"
+   }
+  },
+  "instructions": {
+   "1": "Amasar la harina con el agua, empezando con poca agua y añadiendo más poco a poco hasta que la masa esté lisa pero no demasiado pegajosa.",
+   "2": "Tapar la masa y dejarla reposar al menos 5 minutos.",
+   "3": "Dividir la masa en bolas pequeñas y estirarlas en discos, algo más gruesos que la tela vaquera; espolvorear harina al estirar.",
+   "4": "Poner una sartén sin aceite a fuego medio-alto y comprobar la temperatura de la superficie acercando la mano.",
+   "5": "Cuando la sartén esté muy caliente, colocar un chapati y presionarlo con una espátula o un paño seco para que suba.",
+   "6": "Dar la vuelta al chapati y repetir el proceso hasta que esté ligeramente dorado por ambos lados.",
+   "7": "Si se desea, untar el chapati con ghee."
+  },
+  "culturalNotes": "El chapati es un pan plano tradicional indio que se sirve con muchos platos principales.",
+  "chapter": "in"
+ },
+ "w-in-020": {
+  "title": "Chhena Poda",
+  "ingredients": {
+   "w-in-020-i1": {
+    "name": "leche",
+    "standardAmount": "2 litros"
+   },
+   "w-in-020-i2": {
+    "name": "zumo de limón",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-in-020-i3": {
+    "name": "azúcar",
+    "standardAmount": "1/4 taza"
+   },
+   "w-in-020-i4": {
+    "name": "sémola",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-in-020-i5": {
+    "name": "agua",
+    "standardAmount": "3 cucharadas"
+   },
+   "w-in-020-i6": {
+    "name": "mantequilla",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-020-i7": {
+    "name": "anacardos",
+    "standardAmount": "5 piezas picado"
+   },
+   "w-in-020-i8": {
+    "name": "pistachos",
+    "standardAmount": "5 piezas picado"
+   },
+   "w-in-020-i9": {
+    "name": "canela",
+    "standardAmount": "1/4 cucharadita"
+   },
+   "w-in-020-i10": {
+    "name": "clavos",
+    "standardAmount": "2 piezas"
+   }
+  },
+  "instructions": {
+   "1": "Verter la leche en una cazuela y llevarla a ebullición a fuego medio.",
+   "2": "Añadir el zumo de limón y remover suavemente hasta que la leche empiece a cortarse.",
+   "3": "Colar la leche cortada con un paño limpio y enjuagarla con agua fría durante unos minutos.",
+   "4": "Añadir el azúcar, la sémola y el agua y mezclar bien.",
+   "5": "Añadir los anacardos, los pistachos, la canela y los clavos y mezclar de nuevo.",
+   "6": "Colar la mezcla una vez más con un paño limpio y dejarla secar durante 30 minutos.",
+   "7": "Poner la mezcla en una fuente de horno engrasada y hornear en el horno precalentado a 180 °C durante una hora.",
+   "8": "Dejar enfriar el chhena poda antes de servir."
+  },
+  "culturalNotes": "El Chhena Poda es un dulce tradicional indio del estado de Odisha, conocido por su sabor rico y delicioso.",
+  "chapter": "in"
+ },
+ "w-in-021": {
+  "title": "Chicken Tikka Masala en olla instantánea",
+  "ingredients": {
+   "w-in-021-i1": {
+    "name": "pechugas de pollo",
+    "standardAmount": "1½ libras"
+   },
+   "w-in-021-i2": {
+    "name": "sal kosher",
+    "standardAmount": "1½ cucharaditas"
+   },
+   "w-in-021-i3": {
+    "name": "zumo de limón",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-021-i4": {
+    "name": "yogur",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-in-021-i5": {
+    "name": "chile rojo Kashmiri en polvo",
+    "standardAmount": "2 cucharaditas"
+   },
+   "w-in-021-i6": {
+    "name": "garam masala",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-021-i7": {
+    "name": "jengibre rallado",
+    "standardAmount": "2 cucharaditas"
+   },
+   "w-in-021-i8": {
+    "name": "ajo picado",
+    "standardAmount": "2 cucharaditas"
+   },
+   "w-in-021-i9": {
+    "name": "aceite para untar",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-021-i10": {
+    "name": "mantequilla o aceite",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-in-021-i11": {
+    "name": "cebollas amarillas en dados",
+    "standardAmount": "2 cebollas amarillas medianas"
+   },
+   "w-in-021-i12": {
+    "name": "jengibre rallado",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-021-i13": {
+    "name": "ajo picado",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-021-i14": {
+    "name": "tomates picados",
+    "standardAmount": "3 tomates pera o 1.5 tazas tomates en dados o triturados"
+   },
+   "w-in-021-i15": {
+    "name": "cúrcuma molida",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-021-i16": {
+    "name": "sal",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-021-i17": {
+    "name": "chile rojo Kashmiri en polvo",
+    "standardAmount": "1-2 cucharaditas"
+   },
+   "w-in-021-i18": {
+    "name": "garam masala",
+    "standardAmount": "½-1 cucharadita"
+   },
+   "w-in-021-i19": {
+    "name": "nata para montar",
+    "standardAmount": "½ taza"
+   },
+   "w-in-021-i20": {
+    "name": "kasoori methi (hojas secas de fenogreco)",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-021-i21": {
+    "name": "cilantro picado",
+    "standardAmount": "½ taza"
+   }
+  },
+  "instructions": {
+   "1": "Hacer 2-3 cortes en las pechugas de pollo. Aplicar sal y zumo de limón. Mezclar el yogur, el chile rojo Kashmiri en polvo, el garam masala, el jengibre y el ajo. Aplicar la mezcla uniformemente sobre las pechugas y dejar marinar 20 minutos, o refrigerar si se marina con antelación.",
+   "2": "Poner la olla instantánea en modo Sofreír y calentar la mantequilla o el aceite. Añadir las cebollas y sofreír durante 2 minutos. Añadir el jengibre y el ajo y mezclar bien. Añadir los tomates, la cúrcuma, la sal, el chile rojo Kashmiri en polvo y el garam masala. Mezclar bien. Pulsar Cancelar. Añadir 2 cucharadas de agua. Desglasar la olla si es necesario.",
+   "3": "Colocar la rejilla alta en la olla principal. Colocar el pollo marinado sobre la rejilla. Untar el pollo con aceite. Cerrar la olla instantánea con la válvula en posición de sellado. Cocer a presión durante 8 minutos seguidos de una descompresión natural de 10 minutos.",
+   "4": "Abrir la olla instantánea. Sacar el pollo y la rejilla. Usar una batidora de mano para triturar la salsa hasta que esté fina.",
+   "5": "Incorporar la nata y el kasoori methi.",
+   "6": "Asar el pollo cocido al grill del horno precalentado durante 5 minutos para que quede ligeramente marcado (opcional). Cortar el pollo en trozos de 2 pulgadas y añadirlos a la salsa.",
+   "7": "Poner la olla instantánea en modo sofreír y llevar el curry a un hervor suave. La salsa espesará al enfriarse. Decorar con cilantro."
+  },
+  "culturalNotes": "El Chicken Tikka Masala es un plato indio famoso, conocido por sus sabores a garam masala, nata y hojas secas de fenogreco.",
+  "chapter": "in"
+ },
+ "w-in-022": {
+  "title": "Chicken Tikka",
+  "ingredients": {
+   "w-in-022-i1": {
+    "name": "pechuga de pollo sin piel ni hueso",
+    "standardAmount": "675 g (1.5 libra)"
+   },
+   "w-in-022-i2": {
+    "name": "aceite de semillas de mostaza",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-022-i3": {
+    "name": "leche",
+    "standardAmount": "50 ml (2 onzas líquidas)"
+   },
+   "w-in-022-i4": {
+    "name": "yogur natural",
+    "standardAmount": "150 ml (5 onzas líquidas)"
+   },
+   "w-in-022-i5": {
+    "name": "zumo de limón",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-022-i6": {
+    "name": "concentrado de tomate",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-022-i7": {
+    "name": "cilantro fresco picado (hojas de cilantro)",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-022-i8": {
+    "name": "ajo finamente picado",
+    "standardAmount": "4 grande dientes"
+   },
+   "w-in-022-i9": {
+    "name": "chiles rojos frescos picados",
+    "standardAmount": "1-4 (según el picante de los chiles y la intensidad deseada del adobo)"
+   },
+   "w-in-022-i10": {
+    "name": "pimentón",
+    "standardAmount": "2 cucharadita"
+   },
+   "w-in-022-i11": {
+    "name": "garam masala",
+    "standardAmount": "2 cucharadita"
+   },
+   "w-in-022-i12": {
+    "name": "comino en polvo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-022-i13": {
+    "name": "cúrcuma",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-022-i14": {
+    "name": "sal",
+    "standardAmount": "1 cucharadita (usar sal gema para mejores resultados)"
+   }
+  },
+  "instructions": {
+   "1": "Añadir todos los ingredientes excepto el pollo a un bol no metálico y mezclar bien.",
+   "2": "Añadir el pollo y mezclar hasta que quede bien cubierto.",
+   "3": "Lo ideal es dejar el pollo marinando en el frigorífico al menos 24 horas. Para un mejor resultado, el pollo fresco debe marinarse 48 horas.",
+   "4": "Ensartar el pollo en brochetas y cocinarlo en un tandoor o en un horno de barro. También se puede cocinar en brochetas bajo un grill medio durante 5-8 minutos por cada lado o a la barbacoa (los tiempos dependen de la temperatura de la barbacoa). Asegurarse siempre de que el pollo esté bien hecho antes de servir."
+  },
+  "culturalNotes": "El chicken tikka es un plato popular de la cocina india, que suele servirse con naan o arroz, o usarse en el Chicken Tikka Masala.",
+  "chapter": "in"
+ },
+ "w-in-023": {
+  "title": "Bhel chino",
+  "ingredients": {
+   "w-in-023-i1": {
+    "name": "agua",
+    "standardAmount": "5 tazas"
+   },
+   "w-in-023-i2": {
+    "name": "sal",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-023-i3": {
+    "name": "aceite",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-023-i4": {
+    "name": "fideos instantáneos",
+    "standardAmount": "2 paquetes"
+   },
+   "w-in-023-i5": {
+    "name": "aceite",
+    "standardAmount": "3 cucharadita"
+   },
+   "w-in-023-i6": {
+    "name": "ajo",
+    "standardAmount": "1 diente (finamente picado)"
+   },
+   "w-in-023-i7": {
+    "name": "jengibre",
+    "standardAmount": "1 pulgada (finamente picado)"
+   },
+   "w-in-023-i8": {
+    "name": "cebolla",
+    "standardAmount": "¼ cebolla (finamente picado)"
+   },
+   "w-in-023-i9": {
+    "name": "cebollino",
+    "standardAmount": "4 cucharada (picado)"
+   },
+   "w-in-023-i10": {
+    "name": "zanahoria",
+    "standardAmount": "½ zanahoria (rallado)"
+   },
+   "w-in-023-i11": {
+    "name": "pimiento",
+    "standardAmount": "½ pimiento (en rodajas)"
+   },
+   "w-in-023-i12": {
+    "name": "repollo",
+    "standardAmount": "1 taza (rallado)"
+   },
+   "w-in-023-i13": {
+    "name": "salsa schezwan",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-023-i14": {
+    "name": "salsa de tomate",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-023-i15": {
+    "name": "salsa de soja",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-023-i16": {
+    "name": "vinagre",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-023-i17": {
+    "name": "pimienta",
+    "standardAmount": "½ cucharadita (machacado)"
+   },
+   "w-in-023-i18": {
+    "name": "sal",
+    "standardAmount": "¼ cucharadita"
+   }
+  },
+  "instructions": {
+   "1": "Calentar 3 cucharaditas de aceite en una sartén y sofreír 1 diente de ajo y 1 pulgada de jengibre hasta que estén dorados.",
+   "2": "Añadir ¼ de cebolla y 4 cucharadas de cebollino y sofreír ligeramente.",
+   "3": "Añadir ½ zanahoria, ½ pimiento y 1 taza de repollo y sofreír hasta que estén a medio cocer pero aún crujientes.",
+   "4": "Añadir 2 cucharadas de salsa schezwan, 2 cucharadas de salsa de tomate, 1 cucharadita de salsa de soja, 1 cucharada de vinagre, ½ cucharadita de pimienta y ¼ de cucharadita de sal. Mezclar bien a fuego fuerte hasta que las salsas se integren.",
+   "5": "Verter la mezcla de masala sobre el bhel frito.",
+   "6": "Añadir 2 cucharadas de cebollino y mezclar bien.",
+   "7": "Servir el bhel chino inmediatamente, decorado con más cebollino."
+  },
+  "culturalNotes": "El bhel chino es un plato popular en la India: una mezcla de fideos fritos, verduras picadas y especias.",
+  "chapter": "in"
+ },
+ "w-in-024": {
+  "title": "Chole Bhature",
+  "ingredients": {
+   "w-in-024-i1": {
+    "name": "harina de trigo",
+    "standardAmount": "2 tazas"
+   },
+   "w-in-024-i2": {
+    "name": "ghee",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-in-024-i3": {
+    "name": "azúcar",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-024-i4": {
+    "name": "bicarbonato",
+    "standardAmount": "1/4 cucharadita"
+   },
+   "w-in-024-i5": {
+    "name": "sal",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-024-i6": {
+    "name": "sémola",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-in-024-i7": {
+    "name": "yogur",
+    "standardAmount": "1/4 taza"
+   },
+   "w-in-024-i8": {
+    "name": "cilantro picado",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-in-024-i9": {
+    "name": "cebolla picada",
+    "standardAmount": "1 cebolla"
+   },
+   "w-in-024-i10": {
+    "name": "pasta de jengibre y ajo",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-024-i11": {
+    "name": "cardamomo",
+    "standardAmount": "1 vaina"
+   },
+   "w-in-024-i12": {
+    "name": "canela",
+    "standardAmount": "1 pulgada"
+   },
+   "w-in-024-i13": {
+    "name": "cúrcuma",
+    "standardAmount": "1/4 cucharadita"
+   },
+   "w-in-024-i14": {
+    "name": "pimienta negra",
+    "standardAmount": "1/4 cucharadita"
+   },
+   "w-in-024-i15": {
+    "name": "coriandro en polvo",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-024-i16": {
+    "name": "comino en polvo",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-024-i17": {
+    "name": "garam masala",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-024-i18": {
+    "name": "mango seco en polvo",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-024-i19": {
+    "name": "puré de tomate",
+    "standardAmount": "1.5 tazas"
+   },
+   "w-in-024-i20": {
+    "name": "cilantro picado",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-in-024-i21": {
+    "name": "garbanzos",
+    "standardAmount": "1 taza"
+   },
+   "w-in-024-i22": {
+    "name": "bolsitas de té",
+    "standardAmount": "2 bolsitas"
+   },
+   "w-in-024-i23": {
+    "name": "sal",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-024-i24": {
+    "name": "agua",
+    "standardAmount": "3 tazas"
+   },
+   "w-in-024-i25": {
+    "name": "aceite",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-in-024-i26": {
+    "name": "aceite",
+    "standardAmount": "para freír"
+   }
+  },
+  "instructions": {
+   "1": "Remojar los garbanzos en agua durante la noche.",
+   "2": "Al día siguiente, escurrir y enjuagar bien los garbanzos.",
+   "3": "En una olla, poner los garbanzos, las bolsitas de té, el bicarbonato, la sal y el agua. Hervir durante 20 minutos hasta que los garbanzos estén cocidos.",
+   "4": "En una sartén, poner el aceite, la hoja de laurel, el cardamomo, la canela, el comino, las hojas secas de fenogreco, la cebolla, la pasta de jengibre y ajo, la cúrcuma, la pimienta negra, el coriandro en polvo, el comino en polvo, el garam masala, el mango seco en polvo y el puré de tomate. Cocer durante 5 minutos.",
+   "5": "Añadir los garbanzos cocidos y dejar cocer a fuego lento 10 minutos.",
+   "6": "En un bol, mezclar la harina, el ghee, el azúcar, el bicarbonato, la sal, la sémola, el yogur y el agua hasta que la masa esté lisa.",
+   "7": "Dejar reposar la masa 30 minutos.",
+   "8": "Formar círculos finos con la masa.",
+   "9": "Freír los círculos en aceite caliente hasta que estén dorados.",
+   "10": "Servir el chole con los bhature calientes."
+  },
+  "culturalNotes": "El Chole Bhature es un plato popular en la India, que suele servirse en ocasiones especiales y celebraciones.",
+  "chapter": "in"
+ },
+ "w-in-025": {
+  "title": "Chum Chum (Cham Cham), postre bengalí",
+  "ingredients": {
+   "w-in-025-i1": {
+    "name": "leche",
+    "standardAmount": "2.5 litros"
+   },
+   "w-in-025-i2": {
+    "name": "vinagre",
+    "standardAmount": "3 cucharada"
+   },
+   "w-in-025-i3": {
+    "name": "azúcar",
+    "standardAmount": "1.5 tazas"
+   },
+   "w-in-025-i4": {
+    "name": "agua",
+    "standardAmount": "6 tazas"
+   },
+   "w-in-025-i5": {
+    "name": "leche en polvo",
+    "standardAmount": "1 taza"
+   },
+   "w-in-025-i6": {
+    "name": "colorante alimentario kesar",
+    "standardAmount": "una pizca"
+   },
+   "w-in-025-i7": {
+    "name": "cereza",
+    "standardAmount": "para decorar"
+   }
+  },
+  "instructions": {
+   "1": "Primero, llevar 2.5 litros de leche a ebullición en una olla, removiendo de vez en cuando para que no se queme.",
+   "2": "Añadir 3 cucharadas de vinagre y remover. Se verá que la leche empieza a cortarse.",
+   "3": "Colar el agua con una estameña o un paño limpio. Enjuagar el paneer con agua fría para quitar el sabor agrio y detener la cocción.",
+   "4": "Desmenuzar suavemente el paneer y amasarlo hasta que quede liso y sin grumos. No amasar en exceso para que el chum chum no quede duro.",
+   "5": "Formar bolitas planas con el paneer y cubrirlas con un paño húmedo.",
+   "6": "En una olla grande, mezclar 1,5 tazas de azúcar con 6 tazas de agua. Remover hasta que el azúcar se disuelva y llevar el agua a ebullición durante 5 minutos hasta que el almíbar quede ligeramente pegajoso.",
+   "7": "Echar una bola de paneer en el almíbar y tapar la olla. Hervir durante 5 minutos o hasta que la bola doble su tamaño.",
+   "8": "Dar la vuelta a la bola y seguir hirviendo durante 15 minutos o hasta que el paneer esté completamente cocido. Reservar.",
+   "9": "Para preparar el relleno, mezclar 1 taza de leche, una pizca de colorante kesar y 1 taza de leche en polvo en una cazuela. Remover hasta que la mezcla espese.",
+   "10": "Añadir 2 cucharadas de azúcar y mezclar bien. Cocer hasta que el khova esté bien hecho y ya no esté pegajoso. El relleno espesará al enfriarse.",
+   "11": "Cortar la bola de paneer por el centro y rellenarla con la mezcla, asegurándose de que el relleno quede bien repartido.",
+   "12": "Decorar con una cereza y guardar en el frigorífico.",
+   "13": "Disfrutar el Chum Chum frío durante una semana conservado en el frigorífico."
+  },
+  "culturalNotes": "El Chum Chum es un postre bengalí tradicional conocido por su sabor dulce y su textura suave.",
+  "chapter": "in"
+ },
+ "w-in-026": {
+  "title": "Dabeli (panecillos rellenos de patata con chutney)",
+  "ingredients": {
+   "w-in-026-i1": {
+    "name": "aceite",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-026-i2": {
+    "name": "asafoétida en polvo",
+    "standardAmount": "una pizca"
+   },
+   "w-in-026-i3": {
+    "name": "dabeli masala",
+    "standardAmount": "2 cucharaditas"
+   },
+   "w-in-026-i4": {
+    "name": "patatas",
+    "standardAmount": "2 de tamaño mediano, hervidas y machacadas"
+   },
+   "w-in-026-i5": {
+    "name": "sal",
+    "standardAmount": "al gusto"
+   },
+   "w-in-026-i6": {
+    "name": "chiles verdes",
+    "standardAmount": "opcional, finamente picado"
+   },
+   "w-in-026-i7": {
+    "name": "cacahuetes tostados",
+    "standardAmount": "2 cucharadas"
+   }
+  },
+  "instructions": {
+   "1": "Calentar el aceite en una sartén.",
+   "2": "Añadir la asafoétida en polvo, el dabeli masala, las patatas machacadas, la sal y un chorrito de agua. Mezclar bien hasta que todos los ingredientes queden bien integrados.",
+   "3": "Añadir los chiles verdes si se usan.",
+   "4": "Retirar la mezcla de patata del fuego y probarla. Si se quiere más picante, añadir más dabeli masala y mezclar de nuevo con las manos o un pasapurés.",
+   "5": "Añadir los cacahuetes tostados y mezclar todo bien."
+  },
+  "culturalNotes": "El dabeli es un plato popular de Guyarat (India) que suele servirse como aperitivo o tentempié.",
+  "chapter": "in"
+ },
+ "w-in-027": {
+  "title": "Dahi Baingan",
+  "ingredients": {
+   "w-in-027-i1": {
+    "name": "aceite",
+    "standardAmount": "5 cucharadita"
+   },
+   "w-in-027-i2": {
+    "name": "berenjena",
+    "standardAmount": "6 (en rodajas)"
+   },
+   "w-in-027-i3": {
+    "name": "comino",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-027-i4": {
+    "name": "hoja de laurel",
+    "standardAmount": "1"
+   },
+   "w-in-027-i5": {
+    "name": "asafoétida",
+    "standardAmount": "pizca"
+   },
+   "w-in-027-i6": {
+    "name": "cebolla",
+    "standardAmount": "1 (finamente picado)"
+   },
+   "w-in-027-i7": {
+    "name": "pasta de jengibre y ajo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-027-i8": {
+    "name": "harina de garbanzo",
+    "standardAmount": "2 cucharadita"
+   },
+   "w-in-027-i9": {
+    "name": "cúrcuma",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-027-i10": {
+    "name": "chile rojo Kashmiri en polvo",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-027-i11": {
+    "name": "coriandro en polvo",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-027-i12": {
+    "name": "garam masala",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-027-i13": {
+    "name": "agua",
+    "standardAmount": "½ taza"
+   },
+   "w-in-027-i14": {
+    "name": "yogur",
+    "standardAmount": "1 taza (batido)"
+   },
+   "w-in-027-i15": {
+    "name": "sal",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-027-i16": {
+    "name": "kasuri methi",
+    "standardAmount": "1 cucharadita (machacado)"
+   },
+   "w-in-027-i17": {
+    "name": "hojas de cilantro",
+    "standardAmount": "2 cucharada (finamente picado)"
+   }
+  },
+  "instructions": {
+   "1": "Calentar 3 cucharaditas de aceite en un kadai grande y añadir la berenjena en rodajas; remover hasta que esté dorada. Reservar.",
+   "2": "En el mismo kadai, añadir 2 cucharaditas de aceite y luego el comino, la hoja de laurel y la asafoétida. Remover bien.",
+   "3": "Añadir la cebolla y la pasta de jengibre y ajo y remover hasta que la cebolla esté dorada.",
+   "4": "Añadir la harina de garbanzo y tostar a fuego lento durante 5 minutos.",
+   "5": "Añadir la cúrcuma, el chile rojo Kashmiri en polvo, el coriandro en polvo y el garam masala. Remover bien.",
+   "6": "Añadir el agua y el yogur batido y remover sin parar hasta que el yogur se integre bien.",
+   "7": "Añadir la berenjena tostada y la sal. Mezclar bien, tapar y cocer a fuego lento 5 minutos.",
+   "8": "Añadir el kasuri methi machacado y las hojas de cilantro picadas. Mezclar bien.",
+   "9": "Servir el dahi baingan con chapathi o kulcha."
+  },
+  "culturalNotes": "El Dahi Baingan es un plato popular de la cocina india, que se sirve normalmente con pan indio como chapathi o kulcha.",
+  "chapter": "in"
+ },
+ "w-in-028": {
+  "title": "Dahi Vada (Dahi Bhalla)",
+  "ingredients": {
+   "w-in-028-i1": {
+    "name": "lenteja negra (urad dal)",
+    "standardAmount": "1 taza"
+   },
+   "w-in-028-i2": {
+    "name": "lenteja verde (moong dal)",
+    "standardAmount": "¼ taza"
+   },
+   "w-in-028-i3": {
+    "name": "chile",
+    "standardAmount": "1 chile"
+   },
+   "w-in-028-i4": {
+    "name": "jengibre",
+    "standardAmount": "1 pulgada"
+   },
+   "w-in-028-i5": {
+    "name": "sal",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-028-i6": {
+    "name": "aceite (para freír)",
+    "standardAmount": "según sea necesario"
+   },
+   "w-in-028-i7": {
+    "name": "agua caliente",
+    "standardAmount": "5 tazas"
+   },
+   "w-in-028-i8": {
+    "name": "sal",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-028-i9": {
+    "name": "hing (asafoétida)",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-028-i10": {
+    "name": "cuajada (fresca y espesa)",
+    "standardAmount": "2 tazas"
+   },
+   "w-in-028-i11": {
+    "name": "azúcar",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-028-i12": {
+    "name": "sal",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-028-i13": {
+    "name": "chutney verde",
+    "standardAmount": "según sea necesario"
+   },
+   "w-in-028-i14": {
+    "name": "chutney de tamarindo",
+    "standardAmount": "según sea necesario"
+   },
+   "w-in-028-i15": {
+    "name": "chile en polvo",
+    "standardAmount": "según sea necesario"
+   },
+   "w-in-028-i16": {
+    "name": "comino en polvo",
+    "standardAmount": "según sea necesario"
+   },
+   "w-in-028-i17": {
+    "name": "chaat masala",
+    "standardAmount": "según sea necesario"
+   },
+   "w-in-028-i18": {
+    "name": "boondi",
+    "standardAmount": "según sea necesario"
+   },
+   "w-in-028-i19": {
+    "name": "cilantro (finamente picado)",
+    "standardAmount": "según sea necesario"
+   }
+  },
+  "instructions": {
+   "1": "Remojar la lenteja negra y la lenteja verde en agua durante 4-5 horas hasta que se hinchen.",
+   "2": "Moler las lentejas remojadas con el chile, el jengibre y la sal hasta obtener una masa fina.",
+   "3": "Formar bolitas con la masa y freírlas en aceite caliente hasta que estén doradas.",
+   "4": "Remojar las bolitas fritas en agua caliente durante 10 minutos hasta que estén blandas.",
+   "5": "Mezclar la cuajada con el azúcar, la sal y un poco de agua hasta que quede fina.",
+   "6": "Añadir los chutneys y las especias al gusto.",
+   "7": "Servir el dahi vada con las bolitas fritas remojadas en la cuajada azucarada y las especias."
+  },
+  "culturalNotes": "El Dahi Vada es un plato popular en la India, que se sirve como aperitivo en reuniones y en casa.",
+  "chapter": "in"
+ },
+ "w-in-029": {
+  "title": "Dal Makhani",
+  "ingredients": {
+   "w-in-029-i1": {
+    "name": "urad dal negro",
+    "standardAmount": "¾ taza"
+   },
+   "w-in-029-i2": {
+    "name": "rajma",
+    "standardAmount": "¼ taza"
+   },
+   "w-in-029-i3": {
+    "name": "chana dal",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-029-i4": {
+    "name": "jengibre",
+    "standardAmount": "1 pulgada"
+   },
+   "w-in-029-i5": {
+    "name": "ajo",
+    "standardAmount": "5 dientes"
+   },
+   "w-in-029-i6": {
+    "name": "chile en polvo",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-029-i7": {
+    "name": "cúrcuma",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-029-i8": {
+    "name": "sal",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-029-i9": {
+    "name": "aceite",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-029-i10": {
+    "name": "agua",
+    "standardAmount": "3 tazas"
+   },
+   "w-in-029-i11": {
+    "name": "aceite",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-029-i12": {
+    "name": "mantequilla",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-029-i13": {
+    "name": "comino",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-029-i14": {
+    "name": "canela",
+    "standardAmount": "1 pulgada"
+   },
+   "w-in-029-i15": {
+    "name": "clavos",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-029-i16": {
+    "name": "canela",
+    "standardAmount": "1 pulgada"
+   },
+   "w-in-029-i17": {
+    "name": "clavos",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-029-i18": {
+    "name": "javitri",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-029-i19": {
+    "name": "cebolla",
+    "standardAmount": "1 cebolla"
+   },
+   "w-in-029-i20": {
+    "name": "jengibre y ajo",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-029-i21": {
+    "name": "chile",
+    "standardAmount": "2 chile"
+   },
+   "w-in-029-i22": {
+    "name": "chile en polvo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-029-i23": {
+    "name": "cúrcuma",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-029-i24": {
+    "name": "comino en polvo",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-029-i25": {
+    "name": "coriandro en polvo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-029-i26": {
+    "name": "hing",
+    "standardAmount": "pizca"
+   },
+   "w-in-029-i27": {
+    "name": "tomate",
+    "standardAmount": "2 tomates"
+   },
+   "w-in-029-i28": {
+    "name": "sal",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-029-i29": {
+    "name": "agua",
+    "standardAmount": "2 tazas"
+   },
+   "w-in-029-i30": {
+    "name": "nata",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-029-i31": {
+    "name": "cilantro",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-029-i32": {
+    "name": "kasuri methi",
+    "standardAmount": "2 cucharada"
+   }
+  },
+  "instructions": {
+   "1": "Lavar ¾ de taza de urad dal negro y ¼ de taza de rajma.",
+   "2": "Remojar el dal en agua durante al menos 5 horas o toda la noche.",
+   "3": "Poner el dal remojado en una olla a presión. Añadir 2 cucharadas de chana dal, 1 pulgada de jengibre y 5 dientes de ajo.",
+   "4": "Añadir ½ cucharadita de chile en polvo, ½ cucharadita de cúrcuma, 1 cucharadita de sal y 2 cucharadas de aceite.",
+   "5": "Cocer a presión durante 6 silbidos, añadiendo 3 tazas de agua.",
+   "6": "Cocer el dal solo al 90 %, ya que terminará de cocerse en el kadai.",
+   "7": "En el kadai, calentar 2 cucharadas de aceite y 1 cucharadita de mantequilla. Añadir 1 cucharadita de comino, 1 hoja de laurel, ½ cucharadita de clavos, 1 pulgada de canela y ½ cucharadita de javetri. Sofreír hasta que las especias desprendan su aroma.",
+   "8": "Añadir 1 cebolla finamente picada, 2 cucharadas de jengibre-ajo picado y 2 chiles finamente picados; sofreír hasta que las cebollas estén doradas.",
+   "9": "Añadir 1 cucharadita de chile en polvo, ½ cucharadita de cúrcuma, ½ cucharadita de comino en polvo, 1 cucharadita de coriandro en polvo y una pizca de hing. Sofreír a fuego lento hasta que las especias desprendan su aroma.",
+   "10": "Añadir 2 tomates más finamente picados y cocer hasta que estén blandos y el aceite se separe por los bordes.",
+   "11": "Añadir el dal cocido y mezclar con cuidado.",
+   "12": "Ajustar la sal y la consistencia.",
+   "13": "Tapar y cocer a fuego lento 15 minutos, o hasta que el dal esté completamente cocido.",
+   "14": "Machacar ligeramente el dal hasta conseguir la consistencia deseada.",
+   "15": "Añadir 2 cucharadas de nata, 2 cucharadas de cilantro y 2 cucharadas de kasuri methi. Mezclar bien.",
+   "16": "Servir el dal makhani con arroz y roti."
+  },
+  "culturalNotes": "El Dal Makhani es un plato famoso de la cocina india, que se sirve normalmente con arroz y roti.",
+  "chapter": "in"
+ },
+ "w-in-030": {
+  "title": "Dal Makhani (lenteja negra con nata)",
+  "ingredients": {
+   "w-in-030-i1": {
+    "name": "urad dal seco entero",
+    "standardAmount": "1 taza"
+   },
+   "w-in-030-i2": {
+    "name": "alubias rojas secas (rajma)",
+    "standardAmount": "⅓ taza"
+   },
+   "w-in-030-i3": {
+    "name": "agua",
+    "standardAmount": "5-6 tazas"
+   },
+   "w-in-030-i4": {
+    "name": "sal",
+    "standardAmount": "al gusto"
+   },
+   "w-in-030-i5": {
+    "name": "chile rojo en polvo",
+    "standardAmount": "al gusto"
+   },
+   "w-in-030-i6": {
+    "name": "cúrcuma en polvo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-030-i7": {
+    "name": "jengibre rallado",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-030-i8": {
+    "name": "aceite o mantequilla",
+    "standardAmount": "según sea necesario"
+   },
+   "w-in-030-i9": {
+    "name": "hing",
+    "standardAmount": "una pizca"
+   },
+   "w-in-030-i10": {
+    "name": "hojas de laurel",
+    "standardAmount": "2 hojas"
+   },
+   "w-in-030-i11": {
+    "name": "rama de canela",
+    "standardAmount": "1 rama"
+   },
+   "w-in-030-i12": {
+    "name": "clavos",
+    "standardAmount": "2 clavos"
+   },
+   "w-in-030-i13": {
+    "name": "cebollas picadas",
+    "standardAmount": "1 taza"
+   },
+   "w-in-030-i14": {
+    "name": "pasta de jengibre y ajo",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-030-i15": {
+    "name": "tomates picados",
+    "standardAmount": "2 tomates"
+   },
+   "w-in-030-i16": {
+    "name": "coriandro en polvo",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-030-i17": {
+    "name": "nata fresca",
+    "standardAmount": "½ taza"
+   },
+   "w-in-030-i18": {
+    "name": "mantequilla clarificada (ghee)",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-030-i19": {
+    "name": "hojas de cilantro picadas",
+    "standardAmount": "para decorar"
+   }
+  },
+  "instructions": {
+   "1": "Lavar el urad dal negro y las alubias rojas y dejarlos en remojo toda la noche en agua templada.",
+   "2": "Cocer el dal y las alubias remojados en 5-6 tazas de agua con sal, chile rojo en polvo, cúrcuma en polvo y jengibre rallado hasta que estén blandos.",
+   "3": "Reservar el dal cocido.",
+   "4": "Calentar aceite o mantequilla en una sartén de fondo grueso. Añadir el hing, las hojas de laurel, la rama de canela, los clavos y las cebollas picadas y cocer hasta que estén ligeramente doradas.",
+   "5": "Cuando las cebollas estén doradas, añadir la pasta de jengibre y ajo y sofreír.",
+   "6": "Añadir los tomates picados. Sofreír y añadir el coriandro en polvo. Sofreír hasta que los tomates estén bien deshechos.",
+   "7": "Añadir el dal cocido y agua según se necesite. Mezclar bien y cocer a fuego lento durante 15-20 minutos.",
+   "8": "Añadir la nata fresca y la mantequilla clarificada y dejar cocer 5 minutos. Retirar del fuego.",
+   "9": "Decorar con hojas de cilantro picadas antes de servir.",
+   "10": "Servir caliente con naan, paratha o arroz."
+  },
+  "culturalNotes": "El Dal Makhani es un plato famoso de la cocina india, conocido por su sabor rico y cremoso.",
+  "chapter": "in"
+ },
+ "w-in-031": {
+  "title": "Dhokla al microondas",
+  "ingredients": {
+   "w-in-031-i1": {
+    "name": "besan / harina de garbanzo",
+    "standardAmount": "1 taza"
+   },
+   "w-in-031-i2": {
+    "name": "rava / sémola / suji",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-031-i3": {
+    "name": "cúrcuma / haldi",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-031-i4": {
+    "name": "pasta de jengibre",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-031-i5": {
+    "name": "asafoétida / hing",
+    "standardAmount": "pizca"
+   },
+   "w-in-031-i6": {
+    "name": "azúcar",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-031-i7": {
+    "name": "aceite",
+    "standardAmount": "2 cucharadita"
+   },
+   "w-in-031-i8": {
+    "name": "sal",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-031-i9": {
+    "name": "zumo de limón",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-031-i10": {
+    "name": "agua",
+    "standardAmount": "½ taza"
+   },
+   "w-in-031-i11": {
+    "name": "sal de fruta eno",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-031-i12": {
+    "name": "aceite",
+    "standardAmount": "3 cucharadita"
+   },
+   "w-in-031-i13": {
+    "name": "mostaza",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-031-i14": {
+    "name": "comino / jeera",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-031-i15": {
+    "name": "semillas de sésamo / til",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-031-i16": {
+    "name": "hojas de curry",
+    "standardAmount": "unos"
+   },
+   "w-in-031-i17": {
+    "name": "chile verde",
+    "standardAmount": "2 (abierto)"
+   },
+   "w-in-031-i18": {
+    "name": "asafoétida / hing",
+    "standardAmount": "pizca"
+   },
+   "w-in-031-i19": {
+    "name": "agua",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-031-i20": {
+    "name": "zumo de limón",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-031-i21": {
+    "name": "azúcar",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-031-i22": {
+    "name": "sal",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-031-i23": {
+    "name": "coco (rallado)",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-031-i24": {
+    "name": "cilantro (picado)",
+    "standardAmount": "1 cucharada"
+   }
+  },
+  "instructions": {
+   "1": "En un bol grande, poner 1 taza de besan, 2 cucharadas de rava, ¼ de cucharadita de cúrcuma, ½ cucharadita de pasta de jengibre, una pizca de hing, 1 cucharadita de azúcar, 2 cucharaditas de aceite y ¼ de cucharadita de sal.",
+   "2": "Añadir ½ taza de agua y mezclar bien para hacer una masa fina y sin grumos.",
+   "3": "Dejar reposar la masa 10 minutos.",
+   "4": "Añadir 1 cucharadita de sal de fruta eno a la masa y mezclar suavemente hasta que quede espumosa y ligera.",
+   "5": "Verter la masa de dhokla inmediatamente en una bandeja engrasada.",
+   "6": "Meter la bandeja en el microondas y calentar 5 minutos a máxima potencia.",
+   "7": "Cortar el dhokla en cuadrados o en la forma deseada.",
+   "8": "Calentar 3 cucharaditas de aceite en una sartén y añadir 1 cucharadita de mostaza, ½ cucharadita de comino, 1 cucharadita de semillas de sésamo, unas hojas de curry, 2 chiles verdes abiertos y una pizca de hing. Sofreír hasta dorar.",
+   "9": "Verter el templado inmediatamente sobre el dhokla, asegurándose de que lo absorba por completo.",
+   "10": "Espolvorear 2 cucharadas de coco rallado y 1 cucharada de cilantro picado.",
+   "11": "Servir el dhokla blando y esponjoso con chutney verde o tal cual."
+  },
+  "culturalNotes": "El dhokla es un plato popular del estado indio de Guyarat, que suele servirse como aperitivo o tentempié ligero.",
+  "chapter": "in"
+ },
+ "w-in-032": {
+  "title": "Doodhpak",
+  "ingredients": {
+   "w-in-032-i1": {
+    "name": "ghee",
+    "standardAmount": "1 1/2 cucharadita"
+   },
+   "w-in-032-i2": {
+    "name": "harina de garbanzo",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-032-i3": {
+    "name": "leche",
+    "standardAmount": "2 tazas"
+   },
+   "w-in-032-i4": {
+    "name": "azúcar",
+    "standardAmount": "al gusto"
+   },
+   "w-in-032-i5": {
+    "name": "cardamomo molido",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-032-i6": {
+    "name": "almendras en láminas",
+    "standardAmount": "al gusto"
+   },
+   "w-in-032-i7": {
+    "name": "azafrán",
+    "standardAmount": "1 pizca"
+   },
+   "w-in-032-i8": {
+    "name": "pasas doradas",
+    "standardAmount": "al gusto"
+   }
+  },
+  "instructions": {
+   "1": "Fundir el ghee en un cazo pequeño y añadir la harina de garbanzo. Cocer removiendo sin parar hasta que la mezcla se apelmace y el ghee suelte sus aceites.",
+   "2": "Añadir la leche poco a poco, removiendo sin parar para que no se formen grumos.",
+   "3": "Añadir el azúcar y el cardamomo molido. Las pasas doradas y las almendras en láminas se pueden añadir ahora o al fondo del vaso.",
+   "4": "Cocer a fuego lento unos minutos hasta que el azúcar se disuelva.",
+   "5": "Retirar del fuego y servir inmediatamente."
+  },
+  "culturalNotes": "El doodhpak es una bebida tradicional india que se sirve en ocasiones especiales.",
+  "chapter": "in"
+ },
+ "w-in-033": {
+  "title": "Adai Dosa",
+  "ingredients": {
+   "w-in-033-i1": {
+    "name": "arroz para idli",
+    "standardAmount": "1 taza"
+   },
+   "w-in-033-i2": {
+    "name": "toor dal",
+    "standardAmount": "¾ taza"
+   },
+   "w-in-033-i3": {
+    "name": "chana dal",
+    "standardAmount": "¾ taza"
+   },
+   "w-in-033-i4": {
+    "name": "moong dal",
+    "standardAmount": "¾ taza"
+   },
+   "w-in-033-i5": {
+    "name": "urad dal",
+    "standardAmount": "¾ taza"
+   },
+   "w-in-033-i6": {
+    "name": "hinojo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-033-i7": {
+    "name": "comino",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-033-i8": {
+    "name": "methi",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-033-i9": {
+    "name": "chile rojo seco",
+    "standardAmount": "10 piezas"
+   },
+   "w-in-033-i10": {
+    "name": "agua",
+    "standardAmount": "según sea necesario"
+   },
+   "w-in-033-i11": {
+    "name": "hing",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-033-i12": {
+    "name": "cúrcuma",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-033-i13": {
+    "name": "jengibre",
+    "standardAmount": "1 pulgada"
+   },
+   "w-in-033-i14": {
+    "name": "sal",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-033-i15": {
+    "name": "cebolla",
+    "standardAmount": "1 (finamente picado)"
+   },
+   "w-in-033-i16": {
+    "name": "cilantro",
+    "standardAmount": "2 cucharada (finamente picado)"
+   },
+   "w-in-033-i17": {
+    "name": "ghee",
+    "standardAmount": "según sea necesario"
+   }
+  },
+  "instructions": {
+   "1": "En un bol grande, poner 1 taza de arroz para idli, ¾ de taza de toor dal, ¾ de taza de chana dal, ¾ de taza de moong dal, ¾ de taza de urad dal, 1 cucharadita de hinojo, 1 cucharadita de comino, ¼ de cucharadita de methi y 10 chiles rojos secos.",
+   "2": "Enjuagar bien el dal y dejarlo en remojo en agua durante 4 horas.",
+   "3": "Escurrir el agua y pasar los ingredientes al vaso de la batidora. Añadir ¼ de cucharadita de hing, ½ cucharadita de cúrcuma, 1 pulgada de jengibre y 1 cucharada de sal.",
+   "4": "Moler los ingredientes hasta obtener una pasta gruesa, añadiendo agua según se necesite. Moler por tandas si el vaso es pequeño.",
+   "5": "Pasar la masa a un bol grande y mezclar bien, ajustando la consistencia según se necesite.",
+   "6": "Dejar reposar la masa 2 horas antes de hacer el dosa.",
+   "7": "Tomar la cantidad necesaria de masa, añadir 1 cebolla finamente picada y 2 cucharadas de cilantro finamente picado y mezclar bien.",
+   "8": "Calentar la sartén para dosa y verter la masa.",
+   "9": "Extender la masa con cuidado para que el dosa quede ligeramente grueso.",
+   "10": "Cubrir con ghee y asar a fuego medio hasta que el dosa esté dorado por abajo.",
+   "11": "Dar la vuelta al dosa y cocer hasta que esté bien hecho.",
+   "12": "Disfrutar el Adai Dosa con chutney de coco."
+  },
+  "culturalNotes": "El Adai Dosa es un desayuno popular del sur de la India, conocido por su alto contenido en proteínas.",
+  "chapter": "in"
+ },
+ "w-in-034": {
+  "title": "Dum Aloo",
+  "ingredients": {
+   "w-in-034-i1": {
+    "name": "patatas baby",
+    "standardAmount": "20 piezas"
+   },
+   "w-in-034-i2": {
+    "name": "cebolla",
+    "standardAmount": "1 pequeña cebolla"
+   },
+   "w-in-034-i3": {
+    "name": "tomate",
+    "standardAmount": "1 taza"
+   },
+   "w-in-034-i4": {
+    "name": "raíz de jengibre",
+    "standardAmount": "1 cucharadita rallado"
+   },
+   "w-in-034-i5": {
+    "name": "ajo",
+    "standardAmount": "3 dientes machacado"
+   },
+   "w-in-034-i6": {
+    "name": "comino molido",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-034-i7": {
+    "name": "clavo molido",
+    "standardAmount": "1/8 cucharadita"
+   },
+   "w-in-034-i8": {
+    "name": "azúcar",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-034-i9": {
+    "name": "chile rojo en polvo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-034-i10": {
+    "name": "garam masala",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-034-i11": {
+    "name": "sal",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-034-i12": {
+    "name": "aceite de mostaza",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-034-i13": {
+    "name": "semillas de comino",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-034-i14": {
+    "name": "hojas de laurel",
+    "standardAmount": "2 hojas"
+   },
+   "w-in-034-i15": {
+    "name": "rama de canela",
+    "standardAmount": "1 rama"
+   },
+   "w-in-034-i16": {
+    "name": "vainas de cardamomo",
+    "standardAmount": "4 vainas"
+   },
+   "w-in-034-i17": {
+    "name": "agua",
+    "standardAmount": "2 tazas"
+   }
+  },
+  "instructions": {
+   "1": "Lavar las patatas baby y hervirlas en agua con sal hasta que estén casi cocidas. Escurrir y cubrir con agua fría; pelar y reservar.",
+   "2": "En un procesador de alimentos, mezclar la cebolla picada, los tomates picados, el jengibre rallado, el ajo machacado, el comino molido, el clavo molido, el azúcar, el chile rojo en polvo, el garam masala y la sal. Triturar con batidora de mano hasta obtener una consistencia fina.",
+   "3": "Calentar el aceite de mostaza en un wok o sartén. Añadir las semillas de comino, la rama de canela, las vainas de cardamomo y las hojas de laurel. Tostar las especias unos minutos hasta que desprendan su aroma.",
+   "4": "Añadir las patatas al aceite caliente y mezclar bien.",
+   "5": "Añadir la salsa de especias y el agua. Llevar a ebullición, bajar el fuego y cocer a fuego lento durante 30-60 minutos hasta que las patatas estén cocidas y la salsa espesa."
+  },
+  "culturalNotes": "El Dum Aloo es un plato tradicional indio de patatas cocidas en una salsa especiada y aromática.",
+  "chapter": "in"
+ },
+ "w-in-035": {
+  "title": "Falooda",
+  "ingredients": {
+   "w-in-035-i1": {
+    "name": "semillas de sabja",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-035-i2": {
+    "name": "fideos de falooda",
+    "standardAmount": "½ taza"
+   },
+   "w-in-035-i3": {
+    "name": "leche",
+    "standardAmount": "4 tazas"
+   },
+   "w-in-035-i4": {
+    "name": "azúcar",
+    "standardAmount": "3 cucharadas"
+   },
+   "w-in-035-i5": {
+    "name": "jarabe de rosa",
+    "standardAmount": "¼ taza"
+   },
+   "w-in-035-i6": {
+    "name": "gelatina de fresa",
+    "standardAmount": "1 taza"
+   },
+   "w-in-035-i7": {
+    "name": "helado de vainilla",
+    "standardAmount": "2 bolas"
+   },
+   "w-in-035-i8": {
+    "name": "tuti fruti",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-in-035-i9": {
+    "name": "frutos secos",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-in-035-i10": {
+    "name": "cerezas",
+    "standardAmount": "2 cerezas"
+   }
+  },
+  "instructions": {
+   "1": "Remojar 1 cucharada de semillas de sabja en una taza de agua durante 30 minutos hasta que estén gelatinosas.",
+   "2": "En una cazuela, hervir 2 tazas de agua con 1 taza de azúcar. Añadir ½ taza de fideos de falooda y remover bien. Hervir 3 minutos o hasta que los fideos estén blandos. Colarlos y enjuagar con agua fría.",
+   "3": "En una olla grande, poner 4 tazas de leche y hervir a fuego lento durante 10 minutos o hasta que espese ligeramente. Añadir 2 cucharadas de azúcar y remover hasta que se disuelva.",
+   "4": "Dejar enfriar la leche a temperatura ambiente.",
+   "5": "En un vaso alto, añadir 2 cucharadas de jarabe de rosa, luego 2 cucharadas de semillas de sabja remojadas, 2 cucharadas de fideos cocidos y 1 taza de leche fría. Remover suavemente.",
+   "6": "Añadir 2 cucharadas de gelatina, una bola de helado de vainilla, 2 cucharadas de tuti fruti y 2 cucharadas de frutos secos.",
+   "7": "Decorar el falooda con una cucharada de jarabe de rosa y una cereza. Disfrutar el falooda frío y delicioso."
+  },
+  "culturalNotes": "El falooda es una bebida tradicional india que se sirve en ocasiones especiales y en los calurosos días de verano.",
+  "chapter": "in"
+ },
+ "w-in-036": {
+  "title": "Gajar Ka Halwa con leche condensada",
+  "ingredients": {
+   "w-in-036-i1": {
+    "name": "zanahorias",
+    "standardAmount": "5 grande zanahorias"
+   },
+   "w-in-036-i2": {
+    "name": "ghee",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-036-i3": {
+    "name": "leche entera",
+    "standardAmount": "½ taza"
+   },
+   "w-in-036-i4": {
+    "name": "leche condensada azucarada",
+    "standardAmount": "¼ taza"
+   },
+   "w-in-036-i5": {
+    "name": "cardamomo",
+    "standardAmount": "4 vainas (en polvo)"
+   },
+   "w-in-036-i6": {
+    "name": "anacardos",
+    "standardAmount": "5 piezas (picado)"
+   },
+   "w-in-036-i7": {
+    "name": "almendras",
+    "standardAmount": "5 piezas (picado)"
+   },
+   "w-in-036-i8": {
+    "name": "pistachos",
+    "standardAmount": "1 cucharadita (finamente picado)"
+   }
+  },
+  "instructions": {
+   "1": "Pelar las zanahorias y rallarlas en hebras largas.",
+   "2": "Pasar las zanahorias ralladas a un kadai y añadir 1 cucharada de ghee. Sofreír durante 3 minutos.",
+   "3": "Añadir media taza de leche entera y mezclar bien. Llevar a ebullición y remover de vez en cuando.",
+   "4": "Cocer a fuego lento 5 minutos o hasta que la leche se haya evaporado por completo.",
+   "5": "Añadir la leche condensada azucarada y mezclar bien. Llevar a ebullición y remover de vez en cuando.",
+   "6": "Seguir mezclando y machacando hasta que la leche se haya evaporado por completo.",
+   "7": "Añadir el cardamomo en polvo, los anacardos y las almendras. Mezclar bien.",
+   "8": "Servir el halwa de zanahoria preparado con leche condensada, decorado con pistachos picados."
+  },
+  "culturalNotes": "El Gajar Ka Halwa con leche condensada es un postre tradicional indio que se sirve en ocasiones especiales.",
+  "chapter": "in"
+ },
+ "w-in-037": {
+  "title": "Ghugni",
+  "ingredients": {
+   "w-in-037-i1": {
+    "name": "guisantes blancos secos",
+    "standardAmount": "1 taza (remojado toda la noche)"
+   },
+   "w-in-037-i2": {
+    "name": "agua",
+    "standardAmount": "3 tazas (para remojar) + 2.5 tazas (para cocer a presión)"
+   },
+   "w-in-037-i3": {
+    "name": "aceite de mostaza",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-in-037-i4": {
+    "name": "canela",
+    "standardAmount": "1 pulgada"
+   },
+   "w-in-037-i5": {
+    "name": "clavos",
+    "standardAmount": "2 clavos"
+   },
+   "w-in-037-i6": {
+    "name": "cardamomo verde",
+    "standardAmount": "1 vaina"
+   },
+   "w-in-037-i7": {
+    "name": "chile rojo Kashmiri seco",
+    "standardAmount": "1 (sin semillas y partido)"
+   },
+   "w-in-037-i8": {
+    "name": "cebollas",
+    "standardAmount": "1/3 taza (finamente picado)"
+   },
+   "w-in-037-i9": {
+    "name": "pasta de jengibre y ajo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-037-i10": {
+    "name": "tomates",
+    "standardAmount": "1/2 taza (picado)"
+   },
+   "w-in-037-i11": {
+    "name": "chile Kashmiri en polvo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-037-i12": {
+    "name": "cúrcuma en polvo",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-037-i13": {
+    "name": "comino en polvo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-037-i14": {
+    "name": "coriandro en polvo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-037-i15": {
+    "name": "patatas",
+    "standardAmount": "1/2 a 2/3 taza (cortado en cubos)"
+   },
+   "w-in-037-i16": {
+    "name": "azúcar",
+    "standardAmount": "1/4 cucharadita"
+   },
+   "w-in-037-i17": {
+    "name": "sal",
+    "standardAmount": "al gusto"
+   },
+   "w-in-037-i18": {
+    "name": "bhaja masala",
+    "standardAmount": "1/4 cucharadita"
+   },
+   "w-in-037-i19": {
+    "name": "hojas de cilantro",
+    "standardAmount": "1/4 taza (picado)"
+   },
+   "w-in-037-i20": {
+    "name": "tamarindo",
+    "standardAmount": "2 cucharadas (remojado en ½ taza de agua caliente)"
+   },
+   "w-in-037-i21": {
+    "name": "limón",
+    "standardAmount": "1 (mediano a grande)"
+   },
+   "w-in-037-i22": {
+    "name": "chiles verdes",
+    "standardAmount": "2-3 (picado)"
+   },
+   "w-in-037-i23": {
+    "name": "cebollas",
+    "standardAmount": "1/2 taza (finamente picado)"
+   },
+   "w-in-037-i24": {
+    "name": "bhaja masala o chaat masala",
+    "standardAmount": "1-2 cucharaditas (lo necesario)"
+   }
+  },
+  "instructions": {
+   "1": "Remojar los guisantes blancos secos en 3 tazas de agua durante al menos 9 horas.",
+   "2": "En una olla a presión, poner los guisantes remojados y 2.5 tazas de agua y cocer durante 10 minutos.",
+   "3": "En una sartén, calentar el aceite de mostaza y añadir la canela, los clavos, el cardamomo y el chile rojo Kashmiri seco. Sofreír durante un minuto.",
+   "4": "Añadir las cebollas finamente picadas y sofreír hasta que estén doradas.",
+   "5": "Añadir la pasta de jengibre y ajo, los tomates picados, el chile Kashmiri en polvo, la cúrcuma en polvo, el comino en polvo, el coriandro en polvo, las patatas, el azúcar, la sal y el bhaja masala. Sofreír durante 5 minutos.",
+   "6": "Añadir los guisantes cocidos y 2.5 tazas de agua. Llevar a ebullición, bajar el fuego y cocer a fuego lento durante 15 minutos.",
+   "7": "Añadir el tamarindo remojado y el zumo de limón y remover bien.",
+   "8": "Añadir los chiles verdes picados, las cebollas finamente picadas y el bhaja masala o chaat masala según se necesite. Remover bien.",
+   "9": "Dejar que el ghugni cueza a fuego lento 5 minutos y retirar del fuego.",
+   "10": "Servir el ghugni caliente, decorado con hojas de cilantro picadas."
+  },
+  "culturalNotes": "El ghugni es un plato popular en la India, sobre todo en el estado de Bengala. Se sirve como aperitivo o tentempié ligero.",
+  "chapter": "in"
+ },
+ "w-in-038": {
+  "title": "Gulab Jamun seco",
+  "ingredients": {
+   "w-in-038-i1": {
+    "name": "leche en polvo",
+    "standardAmount": "2 tazas"
+   },
+   "w-in-038-i2": {
+    "name": "harina de trigo (maida)",
+    "standardAmount": "¼ taza"
+   },
+   "w-in-038-i3": {
+    "name": "levadura química",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-038-i4": {
+    "name": "ghee",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-038-i5": {
+    "name": "leche",
+    "standardAmount": "½ taza"
+   },
+   "w-in-038-i6": {
+    "name": "azúcar",
+    "standardAmount": "2½ tazas"
+   },
+   "w-in-038-i7": {
+    "name": "agua",
+    "standardAmount": "1 taza"
+   },
+   "w-in-038-i8": {
+    "name": "azafrán",
+    "standardAmount": "unos"
+   },
+   "w-in-038-i9": {
+    "name": "cardamomo en polvo",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-038-i10": {
+    "name": "zumo de limón",
+    "standardAmount": "2 cucharadita"
+   },
+   "w-in-038-i11": {
+    "name": "coco deshidratado",
+    "standardAmount": "según sea necesario"
+   }
+  },
+  "instructions": {
+   "1": "En un bol grande, mezclar 2 tazas de leche en polvo, ¼ de taza de harina de trigo, ½ cucharadita de levadura química y 1 cucharadita de ghee. Mezclar bien para que todo quede bien integrado.",
+   "2": "Añadir ½ taza de leche y mezclar con una cuchara de madera. Tapar la masa y dejarla reposar 10 minutos para que absorba la leche.",
+   "3": "En otro bol, mezclar 2½ tazas de azúcar con 1 taza de agua. Añadir unas hebras de azafrán y llevar la mezcla a ebullición durante 5 minutos. No dejar que el azúcar alcance el punto de hebra; hacer un almíbar pegajoso.",
+   "4": "Añadir ½ cucharadita de cardamomo en polvo y 2 cucharaditas de zumo de limón. Mezclar bien y reservar el almíbar.",
+   "5": "Tras 10 minutos de reposo de la masa, empezar a formar jamuns pequeños, del tamaño de una bola. Asegurarse de que no queden grietas.",
+   "6": "Freír los jamuns en abundante aceite o ghee a temperatura media y a fuego lento hasta que se oscurezcan. Remover sin parar.",
+   "7": "Escurrir los jamuns del exceso de aceite y pasarlos al almíbar caliente. Tapar y dejarlos reposar 2 horas hasta que absorban el almíbar y doblen su tamaño.",
+   "8": "Escurrir los jamuns secos y rebozarlos en coco deshidratado.",
+   "9": "Servir los jamuns secos calientes o fríos, según se prefiera."
+  },
+  "culturalNotes": "El Gulab Jamun es un dulce tradicional indio que se sirve en ocasiones especiales y celebraciones.",
+  "chapter": "in"
+ },
+ "w-in-039": {
+  "title": "Handvo de Guyarat",
+  "ingredients": {
+   "w-in-039-i1": {
+    "name": "arroz",
+    "standardAmount": "1 taza"
+   },
+   "w-in-039-i2": {
+    "name": "chana dal",
+    "standardAmount": "½ taza"
+   },
+   "w-in-039-i3": {
+    "name": "toor dal",
+    "standardAmount": "¼ taza"
+   },
+   "w-in-039-i4": {
+    "name": "urad dal",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-039-i5": {
+    "name": "yogur",
+    "standardAmount": "½ taza"
+   },
+   "w-in-039-i6": {
+    "name": "calabaza botella",
+    "standardAmount": "1 taza (rallado)"
+   },
+   "w-in-039-i7": {
+    "name": "repollo",
+    "standardAmount": "½ taza (rallado)"
+   },
+   "w-in-039-i8": {
+    "name": "zanahoria",
+    "standardAmount": "¼ taza (rallado)"
+   },
+   "w-in-039-i9": {
+    "name": "cilantro",
+    "standardAmount": "3 cucharada (finamente picado)"
+   },
+   "w-in-039-i10": {
+    "name": "jengibre",
+    "standardAmount": "½ cucharadita (paste)"
+   },
+   "w-in-039-i11": {
+    "name": "chile verde",
+    "standardAmount": "1 (finamente picado)"
+   },
+   "w-in-039-i12": {
+    "name": "azúcar",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-039-i13": {
+    "name": "chile rojo Kashmiri en polvo",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-039-i14": {
+    "name": "cúrcuma",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-039-i15": {
+    "name": "aceite",
+    "standardAmount": "2 cucharadita"
+   },
+   "w-in-039-i16": {
+    "name": "sal",
+    "standardAmount": "¾ cucharadita"
+   },
+   "w-in-039-i17": {
+    "name": "eno / sal de fruta",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-039-i18": {
+    "name": "aceite",
+    "standardAmount": "3 cucharadita"
+   },
+   "w-in-039-i19": {
+    "name": "mostaza",
+    "standardAmount": "¾ cucharadita"
+   },
+   "w-in-039-i20": {
+    "name": "comino",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-039-i21": {
+    "name": "sésamo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-039-i22": {
+    "name": "hojas de curry",
+    "standardAmount": "unas hojas"
+   },
+   "w-in-039-i23": {
+    "name": "asafoétida",
+    "standardAmount": "pizca"
+   }
+  },
+  "instructions": {
+   "1": "Remojar 1 taza de arroz, ½ taza de chana dal, ¼ de taza de toor dal y 2 cucharadas de urad dal durante 3-4 horas.",
+   "2": "Añadir ½ taza de yogur y triturar hasta que quede fino pero ligeramente grueso.",
+   "3": "Añadir 1 taza de calabaza botella rallada, ½ taza de repollo rallado, ¼ de taza de zanahoria rallada y 3 cucharadas de cilantro picado.",
+   "4": "Añadir ½ cucharadita de pasta de jengibre, 1 chile verde finamente picado, ½ cucharadita de azúcar, ¼ de cucharadita de chile rojo Kashmiri en polvo, ¼ de cucharadita de cúrcuma, 2 cucharaditas de aceite y ¾ de cucharadita de sal.",
+   "5": "Mezclar bien para que la masa quede ligeramente espesa, con consistencia de masa de idli.",
+   "6": "Añadir 1 cucharadita de eno / sal de fruta y mezclar suavemente.",
+   "7": "Hornear el handvo en el horno o cocerlo en una tawa."
+  },
+  "culturalNotes": "El handvo es un plato tradicional de Guyarat que se sirve como comida principal o tentempié ligero.",
+  "chapter": "in"
+ },
+ "w-in-040": {
+  "title": "Biryani de verduras de Hyderabad",
+  "ingredients": {
+   "w-in-040-i1": {
+    "name": "agua",
+    "standardAmount": "8 tazas"
+   },
+   "w-in-040-i2": {
+    "name": "hojas de laurel",
+    "standardAmount": "2 hojas"
+   },
+   "w-in-040-i3": {
+    "name": "rama de canela",
+    "standardAmount": "1 pulgada"
+   },
+   "w-in-040-i4": {
+    "name": "clavo",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-040-i5": {
+    "name": "cardamomo",
+    "standardAmount": "1 vaina"
+   },
+   "w-in-040-i6": {
+    "name": "pimienta negra",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-040-i7": {
+    "name": "aceite",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-in-040-i8": {
+    "name": "sal",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-040-i9": {
+    "name": "arroz basmati",
+    "standardAmount": "1½ tazas"
+   },
+   "w-in-040-i10": {
+    "name": "aceite",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-in-040-i11": {
+    "name": "ghee",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-040-i12": {
+    "name": "hojas de laurel",
+    "standardAmount": "1 hoja"
+   },
+   "w-in-040-i13": {
+    "name": "rama de canela",
+    "standardAmount": "2 pulgadas"
+   },
+   "w-in-040-i14": {
+    "name": "clavo",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-040-i15": {
+    "name": "cardamomo",
+    "standardAmount": "1 vaina"
+   },
+   "w-in-040-i16": {
+    "name": "semillas de comino negro",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-040-i17": {
+    "name": "cardamomo",
+    "standardAmount": "4 vainas"
+   },
+   "w-in-040-i18": {
+    "name": "cebolla",
+    "standardAmount": "1 finamente picado cebolla"
+   },
+   "w-in-040-i19": {
+    "name": "pasta de jengibre y ajo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-040-i20": {
+    "name": "verduras variadas",
+    "standardAmount": "2 tazas"
+   },
+   "w-in-040-i21": {
+    "name": "yogur",
+    "standardAmount": "1 taza"
+   },
+   "w-in-040-i22": {
+    "name": "chile rojo Kashmiri en polvo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-040-i23": {
+    "name": "cúrcuma",
+    "standardAmount": "½ cucharadita"
+   },
+   "w-in-040-i24": {
+    "name": "biryani masala en polvo",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-in-040-i25": {
+    "name": "sal",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-040-i26": {
+    "name": "pasta de cilantro y menta",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-in-040-i27": {
+    "name": "agua",
+    "standardAmount": "1 taza"
+   },
+   "w-in-040-i28": {
+    "name": "paneer",
+    "standardAmount": "15 cubos"
+   },
+   "w-in-040-i29": {
+    "name": "menta",
+    "standardAmount": "¼ taza picado"
+   },
+   "w-in-040-i30": {
+    "name": "cilantro",
+    "standardAmount": "¼ taza picado"
+   },
+   "w-in-040-i31": {
+    "name": "ghee",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-040-i32": {
+    "name": "cebollas fritas",
+    "standardAmount": "½ taza"
+   },
+   "w-in-040-i33": {
+    "name": "agua de azafrán",
+    "standardAmount": "¼ taza"
+   },
+   "w-in-040-i34": {
+    "name": "biryani masala en polvo",
+    "standardAmount": "una pizca"
+   },
+   "w-in-040-i35": {
+    "name": "harina de trigo",
+    "standardAmount": "un poco"
+   }
+  },
+  "instructions": {
+   "1": "Lavar el arroz basmati y dejarlo en remojo en agua durante 20 minutos.",
+   "2": "En una olla, poner 8 tazas de agua con las hojas de laurel, la canela, los clavos, el cardamomo, la pimienta negra y la sal. Llevar el agua a ebullición, añadir el arroz y hervir 5 minutos. Escurrir el arroz y reservar.",
+   "3": "En otra olla, calentar el aceite y el ghee y añadir las hojas de laurel, la canela, los clavos, el cardamomo, las semillas de comino negro y el cardamomo. Remover durante un minuto.",
+   "4": "Añadir la cebolla finamente picada y la pasta de jengibre y ajo y remover hasta que la cebolla esté dorada.",
+   "5": "Añadir las verduras variadas, el yogur, el chile rojo Kashmiri en polvo, la cúrcuma, el biryani masala en polvo y la sal. Remover bien y cocer durante 10 minutos.",
+   "6": "Añadir la pasta de cilantro y menta y el agua y llevar la mezcla a ebullición durante 5 minutos.",
+   "7": "En una fuente de horno, disponer capas de arroz, mezcla de verduras, paneer y arroz. Repetir las capas hasta terminar los ingredientes.",
+   "8": "Añadir la menta, el cilantro, el ghee, las cebollas fritas, el agua de azafrán y una pizca de biryani masala.",
+   "9": "Sellar bien la fuente con harina de trigo y hornear a fuego lento durante 20-25 minutos.",
+   "10": "Tras la cocción, dejar reposar el biryani 10 minutos antes de servir."
+  },
+  "culturalNotes": "El biryani de verduras de Hyderabad es un plato popular en la India, conocido por sus sabores a hojas de laurel, canela, cardamomo y clavos.",
+  "chapter": "in"
+ },
+ "w-in-041": {
+  "title": "Upma de pan (pan indio)",
+  "ingredients": {
+   "w-in-041-i1": {
+    "name": "rebanadas de pan",
+    "standardAmount": "6 rebanadas"
+   },
+   "w-in-041-i2": {
+    "name": "aceite vegetal",
+    "standardAmount": "3 cucharadas"
+   },
+   "w-in-041-i3": {
+    "name": "semillas de mostaza",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-041-i4": {
+    "name": "hojas de curry",
+    "standardAmount": "unas hojas"
+   },
+   "w-in-041-i5": {
+    "name": "cebolla",
+    "standardAmount": "1/2 cebolla mediana"
+   },
+   "w-in-041-i6": {
+    "name": "chile verde",
+    "standardAmount": "1 chile verde"
+   },
+   "w-in-041-i7": {
+    "name": "pasta de jengibre",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-041-i8": {
+    "name": "tomates",
+    "standardAmount": "2 mediana tomates"
+   },
+   "w-in-041-i9": {
+    "name": "cúrcuma",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-041-i10": {
+    "name": "chile rojo Kashmiri en polvo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-041-i11": {
+    "name": "azúcar",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-041-i12": {
+    "name": "sal",
+    "standardAmount": "al gusto"
+   },
+   "w-in-041-i13": {
+    "name": "pimiento",
+    "standardAmount": "1/2 pimiento"
+   },
+   "w-in-041-i14": {
+    "name": "agua",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-in-041-i15": {
+    "name": "hojas de cilantro",
+    "standardAmount": "3 cucharadas"
+   }
+  },
+  "instructions": {
+   "1": "Tostar las rebanadas de pan en una sartén o tostadora hasta que estén doradas y crujientes.",
+   "2": "Cortar las rebanadas de pan en cubos pequeños y reservar.",
+   "3": "Calentar el aceite en una sartén grande.",
+   "4": "Añadir las semillas de mostaza y las hojas de curry y dejar que la mostaza salte.",
+   "5": "Añadir la cebolla, la pasta de jengibre y el chile verde y sofreír hasta que la cebolla quede translúcida.",
+   "6": "Añadir los tomates y sofreír hasta que estén blandos.",
+   "7": "Añadir la cúrcuma, el chile rojo Kashmiri en polvo, el azúcar y la sal y sofreír durante un minuto a fuego lento.",
+   "8": "Añadir el pimiento y sofreír durante un minuto.",
+   "9": "Añadir el agua y mezclar bien.",
+   "10": "Añadir los cubos de pan tostado y mezclar con cuidado hasta que el pan absorba las especias.",
+   "11": "Tapar la sartén y cocer a fuego lento durante 2-3 minutos.",
+   "12": "Servir el upma de pan decorado con hojas de cilantro."
+  },
+  "culturalNotes": "El upma de pan es un plato popular del sur de la India, que suele servirse como desayuno o aperitivo.",
+  "chapter": "in"
+ },
+ "w-in-042": {
+  "title": "Cebollas encurtidas indias",
+  "ingredients": {
+   "w-in-042-i1": {
+    "name": "cebollas perla rojas",
+    "standardAmount": "250 gramos (aprox. 20-25 piezas)"
+   },
+   "w-in-042-i2": {
+    "name": "agua",
+    "standardAmount": "½ taza (120 ml)"
+   },
+   "w-in-042-i3": {
+    "name": "sal",
+    "standardAmount": "1 cucharadita (o al gusto)"
+   },
+   "w-in-042-i4": {
+    "name": "azúcar",
+    "standardAmount": "1 cucharada (o al gusto)"
+   },
+   "w-in-042-i5": {
+    "name": "rama de canela",
+    "standardAmount": "1 pulgada"
+   },
+   "w-in-042-i6": {
+    "name": "clavos",
+    "standardAmount": "2 clavos enteros"
+   },
+   "w-in-042-i7": {
+    "name": "pimienta negra en grano",
+    "standardAmount": "3-4 entero granitos de pimienta negra"
+   },
+   "w-in-042-i8": {
+    "name": "remolacha",
+    "standardAmount": "¼ remolacha mediana (una cuña pequeña, opcional)"
+   },
+   "w-in-042-i9": {
+    "name": "vinagre blanco",
+    "standardAmount": "½ taza"
+   }
+  },
+  "instructions": {
+   "1": "Pelar todas las cebollas perla rojas. Es el paso que más tiempo lleva de la receta.",
+   "2": "Hacer un corte a lo largo en cada cebolla pelada con un cuchillo puntilla sin llegar a partirla del todo. Pasar todas las cebollas a un tarro de 8 onzas.",
+   "3": "En una cazuela a fuego medio, poner el agua con la sal, el azúcar, la rama de canela, los clavos, los granos de pimienta y la remolacha (opcional; da a las cebollas un rosa intenso).",
+   "4": "Hervir la mezcla a fuego medio durante 3-4 minutos hasta que la sal y el azúcar se disuelvan y el agua se tiña de rojo (por la remolacha). Retirar entonces la cazuela del fuego y dejar enfriar la mezcla 10 minutos.",
+   "5": "Cuando se haya enfriado, añadir el vinagre blanco y remover. Verter este líquido de encurtido en el tarro con las cebollas, asegurándose de que queden sumergidas. Agitar el tarro.",
+   "6": "Refrigerar durante 24 horas y disfrutar. Estas cebollas encurtidas se conservan bien en el frigorífico durante 3-4 semanas."
+  },
+  "culturalNotes": "Las cebollas encurtidas indias son un plato popular de la cocina india, que se sirve como acompañamiento o con los platos principales.",
+  "chapter": "in"
+ },
+ "w-in-043": {
+  "title": "Jhunka (Zunka) con Bhakri",
+  "ingredients": {
+   "w-in-043-i1": {
+    "name": "aceite",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-043-i2": {
+    "name": "comino",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-043-i3": {
+    "name": "semillas de mostaza",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-043-i4": {
+    "name": "asafoétida",
+    "standardAmount": "una pizca"
+   },
+   "w-in-043-i5": {
+    "name": "ajo",
+    "standardAmount": "4 dientes finamente picado"
+   },
+   "w-in-043-i6": {
+    "name": "chile",
+    "standardAmount": "1 finamente picado"
+   },
+   "w-in-043-i7": {
+    "name": "cebolla",
+    "standardAmount": "1 finamente picado"
+   },
+   "w-in-043-i8": {
+    "name": "cúrcuma",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-043-i9": {
+    "name": "chile rojo Kashmiri en polvo",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-043-i10": {
+    "name": "sal",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-043-i11": {
+    "name": "harina de garbanzo",
+    "standardAmount": "1 taza"
+   },
+   "w-in-043-i12": {
+    "name": "agua",
+    "standardAmount": "lo necesario"
+   },
+   "w-in-043-i13": {
+    "name": "cilantro",
+    "standardAmount": "2 cucharada finamente picado"
+   }
+  },
+  "instructions": {
+   "1": "Calentar 2 cucharadas de aceite en un kadai grande y añadir 1 cucharadita de semillas de mostaza, 1 cucharadita de comino y una pizca de asafoétida. Dejar que salten.",
+   "2": "Añadir 4 dientes de ajo finamente picados y 1 chile finamente picado y sofreír bien.",
+   "3": "Añadir 1 cebolla finamente picada y sofreír hasta que cambie ligeramente de color.",
+   "4": "Añadir ¼ de cucharadita de cúrcuma, 1 cucharadita de chile rojo Kashmiri en polvo y 1 cucharadita de sal. Sofreír ligeramente sin quemar las especias.",
+   "5": "Añadir 1 taza de harina de garbanzo y sofreír a fuego lento durante 5 minutos, o hasta que la harina esté dorada y aromática.",
+   "6": "Espolvorear ¼ de taza de agua y mezclar bien. Seguir espolvoreando agua por tandas hasta que la mezcla quede húmeda.",
+   "7": "Tapar y cocer a fuego lento durante 10 minutos, o hasta que la harina de garbanzo esté completamente cocida.",
+   "8": "Remover bien para que no queden grumos.",
+   "9": "Añadir las hojas de cilantro picadas y servir el zunka con bhakri."
+  },
+  "culturalNotes": "El Jhunka (Zunka) es un plato popular de Maharashtra (India) que se sirve normalmente con bhakri (pan plano de trigo integral).",
+  "chapter": "in"
+ },
+ "w-in-044": {
+  "title": "Kathi Roll de fideos",
+  "ingredients": {
+   "w-in-044-i1": {
+    "name": "aceite",
+    "standardAmount": "3 cucharada"
+   },
+   "w-in-044-i2": {
+    "name": "cebollinos",
+    "standardAmount": "3 cucharada (picado)"
+   },
+   "w-in-044-i3": {
+    "name": "pimiento",
+    "standardAmount": "¼ taza (picado)"
+   },
+   "w-in-044-i4": {
+    "name": "coliflor",
+    "standardAmount": "1 taza (picado)"
+   },
+   "w-in-044-i5": {
+    "name": "salsa de soja",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-044-i6": {
+    "name": "sal",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-044-i7": {
+    "name": "fideos",
+    "standardAmount": "2 tazas (cocido)"
+   },
+   "w-in-044-i8": {
+    "name": "chapati (sobrante)",
+    "standardAmount": "4 piezas"
+   },
+   "w-in-044-i9": {
+    "name": "mantequilla",
+    "standardAmount": "para tostar"
+   },
+   "w-in-044-i10": {
+    "name": "salsa de tomate",
+    "standardAmount": "4 cucharada"
+   },
+   "w-in-044-i11": {
+    "name": "chaat masala en polvo",
+    "standardAmount": "1 cucharadita"
+   }
+  },
+  "instructions": {
+   "1": "Calentar una sartén a fuego medio y añadir 3 cucharadas de aceite; añadir 1 cucharada de cebollinos y remover.",
+   "2": "Añadir ¼ de taza de pimiento y 1 taza de coliflor picada y remover durante un minuto.",
+   "3": "Añadir 2 cucharadas de salsa de soja y ¼ de cucharadita de sal y seguir removiendo durante un minuto.",
+   "4": "Añadir los fideos cocidos y mezclar suavemente con la salsa; añadir después 2 cucharadas de cebollinos y remover bien.",
+   "5": "Calentar una sartén a fuego medio y añadir ½ cucharadita de mantequilla; añadir el chapati y asarlo hasta que esté dorado.",
+   "6": "Poner 1 cucharadita de salsa de soja y 1 cucharadita de salsa de tomate sobre el chapati y colocar una cucharada de fideos en el centro.",
+   "7": "Espolvorear un poco de chaat masala en polvo y enrollar el chapati con fuerza.",
+   "8": "Envolver el kathi roll en papel de aluminio o papel manteca."
+  },
+  "culturalNotes": "El kathi roll es una comida callejera popular en la India, que suele servirse como tentempié o almuerzo rápido.",
+  "chapter": "in"
+ },
+ "w-in-045": {
+  "title": "Kheer (arroz con leche)",
+  "ingredients": {
+   "w-in-045-i1": {
+    "name": "leche",
+    "standardAmount": "1 L"
+   },
+   "w-in-045-i2": {
+    "name": "arroz blanco de grano largo",
+    "standardAmount": "250 ml"
+   },
+   "w-in-045-i3": {
+    "name": "azúcar blanco",
+    "standardAmount": "125 ml"
+   },
+   "w-in-045-i4": {
+    "name": "sultanas (pasas)",
+    "standardAmount": "65 ml"
+   },
+   "w-in-045-i5": {
+    "name": "vainas de cardamomo",
+    "standardAmount": "6 vainas"
+   },
+   "w-in-045-i6": {
+    "name": "almendras blanqueadas en láminas",
+    "standardAmount": "65 ml"
+   },
+   "w-in-045-i7": {
+    "name": "agua de rosas",
+    "standardAmount": "15 ml"
+   }
+  },
+  "instructions": {
+   "1": "Llevar la leche a ebullición en una olla a fuego medio, removiendo con regularidad para que no se queme.",
+   "2": "Añadir el arroz y cocer a fuego lento hasta que espese (unos 20 minutos).",
+   "3": "Incorporar el azúcar, las sultanas y las semillas de cardamomo molidas. Cocer durante 5 minutos.",
+   "4": "Retirar la olla del fuego, incorporar las almendras y el agua de rosas y tapar hasta el momento de servir."
+  },
+  "culturalNotes": "El kheer es un postre tradicional indio que suele servirse en ocasiones especiales.",
+  "chapter": "in"
+ },
+ "w-in-046": {
+  "title": "Khichdi",
+  "ingredients": {
+   "w-in-046-i1": {
+    "name": "arroz",
+    "standardAmount": "1 taza"
+   },
+   "w-in-046-i2": {
+    "name": "lentejas (p. ej., moong dal, masoor dal)",
+    "standardAmount": "1 taza"
+   },
+   "w-in-046-i3": {
+    "name": "sal",
+    "standardAmount": "al gusto"
+   },
+   "w-in-046-i4": {
+    "name": "cúrcuma en polvo",
+    "standardAmount": "1 cucharadita"
+   }
+  },
+  "instructions": {
+   "1": "Lavar el arroz y las lentejas y dejarlos en remojo en agua durante 10-15 minutos.",
+   "2": "Añadir la sal y la cúrcuma en polvo.",
+   "3": "Cocer en una olla a presión con 3-4 tazas de agua.",
+   "4": "Tras el primer silbido, bajar el fuego y cocer 4-5 minutos más.",
+   "5": "Dejar enfriar antes de servir. Servir con ghee o suero de mantequilla."
+  },
+  "culturalNotes": "El khichdi es un plato popular en la India, que se sirve como comida ligera o plato principal.",
+  "chapter": "in"
+ },
+ "w-in-047": {
+  "title": "Aloo Kulcha de Amritsar",
+  "ingredients": {
+   "w-in-047-i1": {
+    "name": "maida",
+    "standardAmount": "3 tazas"
+   },
+   "w-in-047-i2": {
+    "name": "levadura química",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-047-i3": {
+    "name": "bicarbonato",
+    "standardAmount": "1/4 cucharadita"
+   },
+   "w-in-047-i4": {
+    "name": "azúcar",
+    "standardAmount": "1 cucharada"
+   },
+   "w-in-047-i5": {
+    "name": "sal",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-047-i6": {
+    "name": "cuajada",
+    "standardAmount": "1/2 taza"
+   },
+   "w-in-047-i7": {
+    "name": "agua",
+    "standardAmount": "según sea necesario"
+   },
+   "w-in-047-i8": {
+    "name": "ghee",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-047-i9": {
+    "name": "patata",
+    "standardAmount": "3 (hervida y rallada)"
+   },
+   "w-in-047-i10": {
+    "name": "cebolla",
+    "standardAmount": "1 (finamente picado)"
+   },
+   "w-in-047-i11": {
+    "name": "chile en polvo",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-047-i12": {
+    "name": "comino en polvo",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-047-i13": {
+    "name": "coriandro en polvo",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-047-i14": {
+    "name": "garam masala",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-047-i15": {
+    "name": "aamchur",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-047-i16": {
+    "name": "ajwain",
+    "standardAmount": "1/4 cucharadita"
+   },
+   "w-in-047-i17": {
+    "name": "sal",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-047-i18": {
+    "name": "kala namak",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-047-i19": {
+    "name": "pasta de jengibre",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-in-047-i20": {
+    "name": "chile",
+    "standardAmount": "2 (finamente picado)"
+   },
+   "w-in-047-i21": {
+    "name": "cilantro",
+    "standardAmount": "2 cucharada (finamente picado)"
+   },
+   "w-in-047-i22": {
+    "name": "kalonji",
+    "standardAmount": "según sea necesario"
+   },
+   "w-in-047-i23": {
+    "name": "sésamo",
+    "standardAmount": "según sea necesario"
+   },
+   "w-in-047-i24": {
+    "name": "chile en polvo",
+    "standardAmount": "según sea necesario"
+   }
+  },
+  "instructions": {
+   "1": "Mezclar la maida, la levadura química, el bicarbonato, el azúcar y la sal en un bol.",
+   "2": "Añadir la cuajada y el agua poco a poco y amasar hasta que la masa esté lisa y uniforme.",
+   "3": "Tapar la masa y dejarla reposar 30 minutos.",
+   "4": "En otro bol, mezclar las patatas ralladas, las cebollas finamente picadas, el chile en polvo, el comino en polvo, el coriandro en polvo, el garam masala, el aamchur, el ajwain, la sal, el kala namak, la pasta de jengibre, los chiles finamente picados y el cilantro finamente picado.",
+   "5": "Formar bolitas con la masa y estirar cada bola con un rodillo.",
+   "6": "Colocar una cucharada de relleno en el centro de cada masa aplanada y sellar bien los bordes.",
+   "7": "Calentar la tawa y añadir un poco de ghee; colocar el kulcha y freír hasta que esté dorado por ambos lados.",
+   "8": "Servir caliente con los chutneys preferidos."
+  },
+  "culturalNotes": "El kulcha es un pan tradicional indio de la ciudad de Amritsar, que suele servirse en la calle con el relleno preferido.",
+  "chapter": "in"
+ },
+ "w-in-048": {
+  "title": "Laddu de almendras",
+  "ingredients": {
+   "w-in-048-i1": {
+    "name": "almendras",
+    "standardAmount": "1 taza"
+   },
+   "w-in-048-i2": {
+    "name": "coco seco (rallado)",
+    "standardAmount": "1 taza"
+   },
+   "w-in-048-i3": {
+    "name": "panela (jaggery)",
+    "standardAmount": "¾ taza"
+   },
+   "w-in-048-i4": {
+    "name": "cardamomo en polvo",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-048-i5": {
+    "name": "ghee",
+    "standardAmount": "2 cucharada"
+   },
+   "w-in-048-i6": {
+    "name": "anacardos (picados)",
+    "standardAmount": "10 piezas"
+   },
+   "w-in-048-i7": {
+    "name": "pasas",
+    "standardAmount": "2 cucharada"
+   }
+  },
+  "instructions": {
+   "1": "En una sartén, tostar en seco 1 taza de almendras hasta que estén crujientes y doradas.",
+   "2": "Dejar enfriar por completo y pasar a la batidora.",
+   "3": "Triturar a impulsos hasta obtener un polvo fino.",
+   "4": "Pasar el polvo a un bol grande y reservar.",
+   "5": "Ahora, tostar en seco 1 taza de coco seco hasta que esté dorado.",
+   "6": "Pasar el coco tostado a la batidora junto con ¾ de taza de panela.",
+   "7": "Triturar a impulsos hasta obtener un polvo grueso.",
+   "8": "Pasar el polvo al mismo bol del polvo de almendras.",
+   "9": "Añadir ¼ de cucharadita de cardamomo en polvo y mezclar bien.",
+   "10": "En una sartén, calentar 2 cucharadas de ghee y tostar 10 anacardos y 2 cucharadas de pasas.",
+   "11": "Tostar hasta que los anacardos estén dorados.",
+   "12": "Verter los frutos secos tostados sobre la mezcla de ladoo.",
+   "13": "Mezclar bien para que quede húmeda.",
+   "14": "Engrasarse las manos con ghee y formar los ladoo.",
+   "15": "Disfrutar los ladoo de almendra durante 2 semanas guardados en un recipiente hermético."
+  },
+  "culturalNotes": "El laddu es un dulce tradicional indio que se sirve en ocasiones especiales y celebraciones.",
+  "chapter": "in"
+ },
+ "w-in-049": {
+  "title": "Naan",
+  "ingredients": {
+   "w-in-049-i1": {
+    "name": "harina de trigo",
+    "standardAmount": "3 tazas (450 g)"
+   },
+   "w-in-049-i2": {
+    "name": "yogur",
+    "standardAmount": "1 taza (240 ml)"
+   },
+   "w-in-049-i3": {
+    "name": "bicarbonato",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-049-i4": {
+    "name": "sal",
+    "standardAmount": "2 cucharaditas"
+   },
+   "w-in-049-i5": {
+    "name": "agua",
+    "standardAmount": "¾ taza (180 ml)"
+   }
+  },
+  "instructions": {
+   "1": "Amasar todos los ingredientes con suficiente agua (aproximadamente ¾ de taza) para formar la masa.",
+   "2": "Envolver la masa en un paño de muselina húmedo y dejarla levar durante 2-3 horas.",
+   "3": "Dividir la masa en bolitas.",
+   "4": "Estirar las bolas en forma alargada o redonda con un rodillo o con las manos.",
+   "5": "Untar la superficie con agua y hornear en un tandoor o en el horno precalentado (a la máxima temperatura posible).",
+   "6": "Los naan deben inflarse un poco y estar listos para sacar del horno en 4-5 minutos.",
+   "7": "Untar el naan con mantequilla y servir caliente."
+  },
+  "culturalNotes": "El naan es un pan tradicional indio que se hornea en un horno tandoor. Suele servirse con los platos principales.",
+  "chapter": "in"
+ },
+ "w-in-050": {
+  "title": "Paratha de aloo y queso",
+  "ingredients": {
+   "w-in-050-i1": {
+    "name": "patata",
+    "standardAmount": "1 (hervida y pelada)"
+   },
+   "w-in-050-i2": {
+    "name": "cebolla",
+    "standardAmount": "¼ (finamente picado)"
+   },
+   "w-in-050-i3": {
+    "name": "jengibre",
+    "standardAmount": "½-1 pulgada (finamente picado)"
+   },
+   "w-in-050-i4": {
+    "name": "hojas de cilantro",
+    "standardAmount": "unos (finamente picado)"
+   },
+   "w-in-050-i5": {
+    "name": "sal",
+    "standardAmount": "al gusto"
+   },
+   "w-in-050-i6": {
+    "name": "queso mozzarella",
+    "standardAmount": "¼ taza (rallado)"
+   },
+   "w-in-050-i7": {
+    "name": "chile Kashmiri en polvo",
+    "standardAmount": "½-1 cucharadita"
+   },
+   "w-in-050-i8": {
+    "name": "chaat masala",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-050-i9": {
+    "name": "mango seco en polvo / amchur en polvo",
+    "standardAmount": "¼ cucharadita"
+   },
+   "w-in-050-i10": {
+    "name": "harina de trigo integral / atta",
+    "standardAmount": "1 taza"
+   },
+   "w-in-050-i11": {
+    "name": "aceite o ghee",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-in-050-i12": {
+    "name": "agua",
+    "standardAmount": "lo necesario para amasar"
+   },
+   "w-in-050-i13": {
+    "name": "harina de trigo",
+    "standardAmount": "¼ taza (para espolvorear)"
+   },
+   "w-in-050-i14": {
+    "name": "ghee o aceite",
+    "standardAmount": "lo necesario"
+   }
+  },
+  "instructions": {
+   "1": "Amasar la harina con agua y sal hasta que la masa esté lisa y elástica. Tapar la masa y dejarla reposar 15 minutos.",
+   "2": "En un bol, mezclar la patata machacada con la cebolla picada, el jengibre, el cilantro, la sal, el chile Kashmiri en polvo, el chaat masala y el mango seco en polvo. Añadir la mozzarella rallada y mezclar bien.",
+   "3": "Tomar un trozo de masa y estirarlo sobre una superficie enharinada. Colocar una cucharada de relleno en el centro y cerrarlo formando una bola.",
+   "4": "Estirar el paratha con el rodillo hasta que quede fino. Colocarlo en una sartén caliente y cocer hasta que esté dorado por ambos lados.",
+   "5": "Repetir el proceso con la masa y el relleno restantes. Servir caliente con yogur o una salsa picante."
+  },
+  "culturalNotes": "El paratha es un plato tradicional indio que suele servirse como desayuno o almuerzo ligero.",
+  "chapter": "in"
  }
 }
