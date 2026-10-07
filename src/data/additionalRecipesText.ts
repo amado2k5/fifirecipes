@@ -436,6 +436,22 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     citationLabel: 'বইয়ের অবস্থান:',
     citationVideo: 'ভিডিও:',
     tips: 'টিপস ও নোট'
+  },
+  vi: {
+    badge: 'Công thức bổ sung',
+    notice: 'Đây là công thức bổ sung, không thuộc bản thảo của Dr. Fatma Alkawokgy. Chúng tôi đã viết lại bằng lời của mình và ghi nhận nguồn gốc.',
+    sourceLabel: 'Nguồn:',
+    ingredientsNote: 'Định lượng giữ nguyên như nguồn, được sắp xếp theo định dạng của chúng tôi. Bạn có thể đánh dấu các nguyên liệu khi chuẩn bị xong.',
+    collectionAll: 'Tất cả công thức',
+    collectionArchive: 'Kho lưu trữ của Dr. Fatma',
+    collectionAdditional: 'Công thức bổ sung (Chef Teta)',
+    collectionOsool: 'Sách dạy nấu ăn Osool El Tahy',
+    collectionAbdennour: 'Sách Egyptian Cooking (Samia Abdennour)',
+    collectionAbuhaty: 'Kênh Fatma Abu Haty (YouTube)',
+    collectionWorld: 'Ẩm thực thế giới',
+    citationLabel: 'Vị trí trong sách:',
+    citationVideo: 'Video:',
+    tips: 'Mẹo và ghi chú'
   }
 };
 
