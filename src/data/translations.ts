@@ -26,7 +26,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'pl', name: 'Polish', nativeName: 'Polski', dir: 'ltr', flag: '🇵🇱' },
   { code: 'sv', name: 'Swedish', nativeName: 'Svenska', dir: 'ltr', flag: '🇸🇪' },
   { code: 'te', name: 'Telugu', nativeName: 'తెలుగు', dir: 'ltr', flag: '🇮🇳' },
-  { code: 'bn', name: 'Bengali', nativeName: 'বাংলা', dir: 'ltr', flag: '🇧🇩' }
+  { code: 'bn', name: 'Bengali', nativeName: 'বাংলা', dir: 'ltr', flag: '🇧🇩' },
+  { code: 'vi', name: 'Vietnamese', nativeName: 'Tiếng Việt', dir: 'ltr', flag: '🇻🇳' }
 ];
 
 export function detectUserLocale(): { language: SupportedLanguage; isKnown: boolean; rawLocale: string } {
@@ -111,6 +112,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'bn') {
       return { language: 'bn', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'vi') {
+      return { language: 'vi', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
@@ -1163,6 +1167,46 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     cancel: 'বাতিল করুন',
     noResultsFound: 'কোনো ফলাফল পাওয়া যায়নি।',
     close: 'বন্ধ করুন',
+  },
+  vi: {
+    loadError: 'Không tải được công thức. Hãy kiểm tra kết nối rồi thử lại.',
+    loadingMoreRecipes: 'Đang tải thêm công thức…',
+    showMoreRecipes: 'Xem thêm công thức',
+    recipesLoadFailed: 'Không tải được các công thức. Hãy kiểm tra kết nối rồi tải lại trang.',
+    siteTitle: 'Công thức của Fatma Alkawokgy',
+    appTitle: 'Công thức của Fatma Alkawokgy',
+    siteSubtitle: 'Bộ sách nấu ăn di sản của ẩm thực Ai Cập chính gốc',
+    appSubtitle: 'Bộ sách nấu ăn di sản của ẩm thực Ai Cập chính gốc',
+    allRecipes: 'Khám phá công thức',
+    navAllRecipes: 'Khám phá công thức',
+    aboutFatma: 'Về Dr. Fatma',
+    navAboutFatma: 'Về Dr. Fatma',
+    ingredientsRegistry: 'Danh mục nguyên liệu',
+    navIngredientsRegistry: 'Danh mục nguyên liệu',
+    choosePreferredLanguage: 'Chọn ngôn ngữ trang web bạn muốn dùng',
+    searchPlaceholder: 'Tìm theo tên món, nguyên liệu hoặc cách nấu...',
+    filterByChapter: 'Lọc theo chương',
+    prepTime: 'Thời gian chuẩn bị',
+    cookTime: 'Thời gian nấu',
+    servings: 'Khẩu phần',
+    difficulty: 'Độ khó',
+    method: 'Phương pháp',
+    ingredients: 'Nguyên liệu chính và định lượng chuẩn',
+    instructions: 'Chuẩn bị và nấu từng bước',
+    tips: 'Ghi chú và mẹo của Dr. Fatma Alkawokgy',
+    shareRecipe: 'Chia sẻ công thức',
+    noRecipesFound: 'Không tìm thấy công thức nào khớp với tìm kiếm của bạn',
+    tributeQuote: 'Nấu ăn cũng như chơi piano; chỉ có sự hài hòa chân thành, kiên nhẫn và lòng yêu thương mới làm nó trọn vẹn.',
+    orderIngredients: 'Đặt nguyên liệu',
+    orderDish: 'Đặt món ăn',
+    festivals: 'Lễ hội',
+    upcomingEvents: 'Sự kiện sắp tới',
+    shareLocationBtn: 'Chia sẻ vị trí / Nhập địa chỉ',
+    enterAddressPlaceholder: 'Nhập thành phố hoặc địa chỉ của bạn...',
+    useThisLocation: 'Dùng vị trí này',
+    cancel: 'Hủy',
+    noResultsFound: 'Không tìm thấy kết quả nào.',
+    close: 'Đóng',
   }
 };
 

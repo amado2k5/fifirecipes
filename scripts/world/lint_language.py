@@ -47,7 +47,7 @@ RANGES = [
 ]
 
 # Kurdish is Kurmanji (Latin script) everywhere in the app — UI, chapter names, core recipes.
-LATIN_LANGS = ['En', 'Es', 'Fr', 'De', 'It', 'Nl', 'Pt', 'Pl', 'Sv', 'Tr', 'Id', 'Sw', 'Ku']
+LATIN_LANGS = ['En', 'Es', 'Fr', 'De', 'It', 'Nl', 'Pt', 'Pl', 'Sv', 'Tr', 'Id', 'Sw', 'Ku', 'Vi']
 ALLOWED = {**{l: {'Latin'} for l in LATIN_LANGS},
            'AR': {'Arabic'}, 'Fa': {'Arabic'}, 'Ur': {'Arabic'},
            'Ps': {'Arabic'},

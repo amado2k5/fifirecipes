@@ -1,0 +1,396 @@
+{
+ "w-id-004": {
+  "title": "Gà chiên sốt bơ ngọt (Ayam Goreng Mentega)",
+  "ingredients": {
+   "w-id-004-i1": {"name": "gà cỡ vừa"},
+   "w-id-004-i2": {"name": "nước chanh"},
+   "w-id-004-i3": {"name": "muối"},
+   "w-id-004-i4": {"name": "dầu chiên"},
+   "w-id-004-i5": {"name": "tỏi"},
+   "w-id-004-i6": {"name": "hành tây"},
+   "w-id-004-i7": {"name": "sốt ngọt"}
+  },
+  "instructions": {
+   "1": "Nêm các miếng gà bằng muối. Phủ chúng bằng nước chanh và để ướp 15-20 phút.",
+   "2": "Đun nóng dầu đến khoảng 180°C (350°F), và chiên gà cho đến khi vàng. Lấy gà ra khỏi dầu và để sang một bên để ráo.",
+   "3": "Xào tỏi và hành một hai phút. Thêm nguyên liệu sốt còn lại.",
+   "4": "Xào một phút rồi thêm các miếng gà. Trộn để phủ.",
+   "5": "Dùng gà nóng với miếng chanh."
+  },
+  "culturalNotes": "Ayam Goreng Mentega là món ăn phổ biến ở Indonesia, nổi tiếng với vị ngọt chua.",
+  "chapter": "Ẩm thực Indonesia"
+ },
+ "w-id-005": {
+  "title": "Ayam Kecap",
+  "ingredients": {
+   "w-id-005-i1": {"name": "đùi gà"},
+   "w-id-005-i2": {"name": "muối"},
+   "w-id-005-i3": {"name": "tiêu đen xay"},
+   "w-id-005-i4": {"name": "dầu nấu"},
+   "w-id-005-i5": {"name": "nước"},
+   "w-id-005-i6": {"name": "cà chua"},
+   "w-id-005-i7": {"name": "hành tím"},
+   "w-id-005-i8": {"name": "tỏi"},
+   "w-id-005-i9": {"name": "gừng"},
+   "w-id-005-i10": {"name": "ớt mắt chim"},
+   "w-id-005-i11": {"name": "hành vàng"},
+   "w-id-005-i12": {"name": "hành lá"},
+   "w-id-005-i13": {"name": "kecap manis"},
+   "w-id-005-i14": {"name": "tương cà"},
+   "w-id-005-i15": {"name": "dầu hào"},
+   "w-id-005-i16": {"name": "mật ong"}
+  },
+  "instructions": {
+   "1": "Trộn gà với muối và tiêu đen và ướp 30 phút.",
+   "2": "Đun nóng 1 tablespoon dầu trong chảo trên lửa vừa. Thêm hành tím, tỏi, gừng, và ớt mắt chim và xào 2-3 phút cho đến khi hành tím trong.",
+   "3": "Thêm cà chua, hành vàng, và hành lá và xào 5 phút.",
+   "4": "Thêm kecap manis, tương cà, dầu hào, mật ong, và nước. Đun hỗn hợp sôi, rồi hạ lửa và đun nhỏ 10 phút.",
+   "5": "Thêm gà đã ướp và đun nhỏ 15-20 phút cho đến khi gà chín hết và sốt đặc.",
+   "6": "Dùng gà nóng với cơm."
+  },
+  "culturalNotes": "Ayam Kecap là món ăn phổ biến ở Indonesia, nổi tiếng với vị ngọt cay. Nó thường được phục vụ với cơm.",
+  "chapter": "Ẩm thực Indonesia"
+ },
+ "w-id-006": {
+  "title": "Ayam Penyet Cabe Ijo",
+  "ingredients": {
+   "w-id-006-i1": {"name": "miếng gà có xương có da"},
+   "w-id-006-i2": {"name": "nước"},
+   "w-id-006-i3": {"name": "dầu (để xào)"},
+   "w-id-006-i4": {"name": "dầu (để chiên)"},
+   "w-id-006-i5": {"name": "tỏi (băm)"},
+   "w-id-006-i6": {"name": "gừng bào"},
+   "w-id-006-i7": {"name": "sả"},
+   "w-id-006-i8": {"name": "lá chanh kaffir"},
+   "w-id-006-i9": {"name": "lá nguyệt quế"},
+   "w-id-006-i10": {"name": "rau mùi xay"},
+   "w-id-006-i11": {"name": "bột riềng"},
+   "w-id-006-i12": {"name": "bột nghệ"},
+   "w-id-006-i13": {"name": "muối"},
+   "w-id-006-i14": {"name": "bột gà"},
+   "w-id-006-i15": {"name": "ớt serrano"},
+   "w-id-006-i16": {"name": "tỏi (băm)"},
+   "w-id-006-i17": {"name": "nước 1 chanh"},
+   "w-id-006-i18": {"name": "đường"},
+   "w-id-006-i19": {"name": "bột gà"}
+  },
+  "instructions": {
+   "1": "Rửa gà và cắt thành miếng. Đặt gà trong tô với 600 g nước. Thêm tỏi băm, gừng bào, sả, lá chanh kaffir, lá nguyệt quế, rau mùi xay, bột riềng, bột nghệ, muối, và bột gà. Để gà ướp 30 phút.",
+   "2": "Đun nóng dầu trong chảo trên lửa vừa. Chiên gà cho vàng nâu và chín hết. Lấy gà ra khỏi dầu và để sang một bên.",
+   "3": "Trong tô khác, trộn ớt serrano, tỏi băm, nước chanh, muối, đường, và bột gà. Nghiền nguyên liệu kỹ cho đến khi thành tương mịn.",
+   "4": "Đun nóng dầu xào trong chảo trên lửa vừa. Thêm tương và xào 5 phút cho đến khi màu xanh đậm.",
+   "5": "Thêm gà chiên vào tương và xào 2-3 phút cho quyện đều.",
+   "6": "Dùng gà nóng với cơm trắng và rau nấu."
+  },
+  "culturalNotes": "Ayam Penyet Cabe Ijo là món ăn phổ biến ở Indonesia, thường được phục vụ với cơm trắng và rau nấu.",
+  "chapter": "Ẩm thực Indonesia"
+ },
+ "w-id-007": {
+  "title": "Ayam Pop Padang",
+  "ingredients": {
+   "w-id-007-i1": {"name": "miếng gà có xương"},
+   "w-id-007-i2": {"name": "nước chanh"},
+   "w-id-007-i3": {"name": "nước dừa"},
+   "w-id-007-i4": {"name": "dầu nấu"},
+   "w-id-007-i5": {"name": "lá chanh"},
+   "w-id-007-i6": {"name": "lá nguyệt quế"},
+   "w-id-007-i7": {"name": "sả"},
+   "w-id-007-i8": {"name": "riềng"},
+   "w-id-007-i9": {"name": "gừng"},
+   "w-id-007-i10": {"name": "tương me"},
+   "w-id-007-i11": {"name": "hạt candlenut"},
+   "w-id-007-i12": {"name": "tỏi"},
+   "w-id-007-i13": {"name": "hành tím"},
+   "w-id-007-i14": {"name": "muối"},
+   "w-id-007-i15": {"name": "ớt cayenne"},
+   "w-id-007-i16": {"name": "ớt mắt chim"},
+   "w-id-007-i17": {"name": "cà chua"},
+   "w-id-007-i18": {"name": "đường"},
+   "w-id-007-i19": {"name": "nước dùng gà"}
+  },
+  "instructions": {
+   "1": "Trộn các miếng gà với nước chanh và để ướp 30 phút.",
+   "2": "Trong nồi áp suất, đặt gà, nước dừa, lá chanh, lá nguyệt quế, sả, riềng, và gừng. Đóng nồi và nấu áp suất cao 20 phút.",
+   "3": "Sau khi nấu, để áp suất xả tự nhiên. Mở nồi và lấy gà ra.",
+   "4": "Trong chảo, đun nóng 4 tablespoons dầu và chiên các miếng gà cho vàng nâu. Để sang một bên.",
+   "5": "Để làm sốt ớt, xay tỏi, hành tím, ớt cayenne, ớt mắt chim, và hạt candlenut trong máy xay. Thêm muối và đường và trộn đều.",
+   "6": "Trong nồi nhỏ, đun nóng 1 tablespoon dầu và thêm hỗn hợp gia vị. Khuấy một phút, rồi thêm nước dừa và cà chua. Để sốt đun nhỏ 5 phút.",
+   "7": "Dùng gà với sốt ớt và nước dùng gà."
+  },
+  "culturalNotes": "Ayam Pop Padang là món ăn nổi tiếng từ ẩm thực Indonesia, nổi tiếng với hương vị đậm và phương pháp nấu độc đáo.",
+  "chapter": "Ẩm thực Indonesia"
+ },
+ "w-id-008": {
+  "title": "Ayam Rica Rica",
+  "ingredients": {
+   "w-id-008-i1": {"name": "đùi hoặc cánh hoặc sườn gà"},
+   "w-id-008-i2": {"name": "dầu nấu"},
+   "w-id-008-i3": {"name": "nước"},
+   "w-id-008-i4": {"name": "cà chua"},
+   "w-id-008-i5": {"name": "nước chanh"},
+   "w-id-008-i6": {"name": "muối"},
+   "w-id-008-i7": {"name": "đường"},
+   "w-id-008-i8": {"name": "lá chanh kaffir"},
+   "w-id-008-i9": {"name": "thân sả"},
+   "w-id-008-i10": {"name": "lá dứa"},
+   "w-id-008-i11": {"name": "húng chanh (kemangi)"},
+   "w-id-008-i12": {"name": "hành tím"},
+   "w-id-008-i13": {"name": "tỏi"},
+   "w-id-008-i14": {"name": "gừng tươi"},
+   "w-id-008-i15": {"name": "ớt cayenne"},
+   "w-id-008-i16": {"name": "ớt Thái (tùy chọn)"},
+   "w-id-008-i17": {"name": "lá chanh kaffir (cắt sợi mỏng)"}
+  },
+  "instructions": {
+   "1": "Xay hành tím, tỏi, gừng, ớt cayenne, và ớt Thái trong máy xay cho mịn.",
+   "2": "Đun nóng dầu trong nồi trên lửa vừa, rồi thêm hỗn hợp đã xay và xào 5 phút.",
+   "3": "Thêm gà và xào 5 phút cho vàng nâu.",
+   "4": "Thêm nước, cà chua, nước chanh, đường, muối, lá chanh kaffir, sả, và lá dứa. Đun sôi, rồi hạ lửa và đun nhỏ 20-25 phút cho đến khi gà chín và sốt đặc.",
+   "5": "Thêm húng chanh (kemangi) nếu có, và đun nhỏ thêm 5 phút.",
+   "6": "Dùng gà nóng với cơm trắng."
+  },
+  "culturalNotes": "Ayam Rica Rica là món ăn nổi tiếng từ Manado, Indonesia, nổi tiếng với vị cay chua.",
+  "chapter": "Ẩm thực Indonesia"
+ },
+ "w-id-009": {
+  "title": "Bakpia",
+  "ingredients": {
+   "w-id-009-i1": {"name": "bột mì đa dụng"},
+   "w-id-009-i2": {"name": "đường bột"},
+   "w-id-009-i3": {"name": "muối"},
+   "w-id-009-i4": {"name": "bơ không muối (mềm)"},
+   "w-id-009-i5": {"name": "nước nóng"},
+   "w-id-009-i6": {"name": "bột mì đa dụng"},
+   "w-id-009-i7": {"name": "dầu"},
+   "w-id-009-i8": {"name": "tương đậu xanh"},
+   "w-id-009-i9": {"name": "lòng đỏ trứng"},
+   "w-id-009-i10": {"name": "sữa"}
+  },
+  "instructions": {
+   "1": "Chuẩn bị nhân: Trộn tương đậu xanh đều.",
+   "2": "Chuẩn bị bột nước: Trộn 140 g bột với đường và muối, rồi thêm bơ tan và nước nóng và nhào cho đến khi bột mịn.",
+   "3": "Chuẩn bị bột dầu: Trộn 100 g bột với dầu và nhào cho đến khi bột mịn.",
+   "4": "Kết hợp bột: Trộn bột nước và bột dầu cùng và nhào cho đến khi bột quyện đều.",
+   "5": "Tạo hình: Chia bột thành viên nhỏ, rồi dẹt từng viên và đặt một ít nhân ở giữa, rồi phủ nhân và nặn thành viên.",
+   "6": "Nấu trên bếp: Đặt các viên trong chảo nóng có dầu và chiên cho vàng nâu khắp các mặt.",
+   "7": "Nướng trong lò: Bạn cũng có thể nướng các viên trong lò đã làm nóng ở 180°C 15 phút.",
+   "8": "Để nguội: Để bakpia nguội trước khi dùng.",
+   "9": "Bảo quản: Bảo quản bakpia trong hộp kín ở nhiệt độ phòng tới 5 ngày."
+  },
+  "culturalNotes": "Bakpia là món ngọt truyền thống của Indonesia, còn gọi là Hopia. Nó thường được phục vụ trong các dịp đặc biệt và lễ kỷ niệm.",
+  "chapter": "Ẩm thực Indonesia"
+ },
+ "w-id-010": {
+  "title": "Bandrek",
+  "ingredients": {
+   "w-id-010-i1": {"name": "nước"},
+   "w-id-010-i2": {"name": "đường thốt nốt hoặc đường dừa"},
+   "w-id-010-i3": {"name": "gừng già"},
+   "w-id-010-i4": {"name": "que quế"},
+   "w-id-010-i5": {"name": "đinh hương"},
+   "w-id-010-i6": {"name": "hạt bạch đậu khấu"},
+   "w-id-010-i7": {"name": "sả"},
+   "w-id-010-i8": {"name": "lá dứa"},
+   "w-id-010-i9": {"name": "sữa đặc"}
+  },
+  "instructions": {
+   "1": "Trong nồi cỡ vừa, thêm gia vị, sả, và lá dứa.",
+   "2": "Đun hỗn hợp sôi, rồi hạ lửa và để đun nhỏ nhẹ cho đến khi gia vị và thảo mộc tỏa mùi thơm tuyệt, khoảng 20 phút.",
+   "3": "Thêm đường thốt nốt hoặc đường dừa và khuấy cho tan.",
+   "4": "Đóng nắp và để hãm thêm 15 phút.",
+   "5": "Lọc đồ uống vào ly dùng.",
+   "6": "Thêm 1-2 teaspoons sữa đặc vừa vị.",
+   "7": "Dùng ngay."
+  },
+  "culturalNotes": "Bandrek là đồ uống Sunda truyền thống từ Indonesia, thường được phục vụ trong ly thủy tinh.",
+  "chapter": "Ẩm thực Indonesia"
+ },
+ "w-id-011": {
+  "title": "Batagor (sủi cảo chiên với sốt đậu phộng)",
+  "ingredients": {
+   "w-id-011-i1": {"name": "đậu hũ cứng"},
+   "w-id-011-i2": {"name": "vỏ hoành thánh"},
+   "w-id-011-i3": {"name": "bột chiên giòn"},
+   "w-id-011-i4": {"name": "dầu nấu"},
+   "w-id-011-i5": {"name": "thịt gà xay"},
+   "w-id-011-i6": {"name": "bột tapioca"},
+   "w-id-011-i7": {"name": "trứng"},
+   "w-id-011-i8": {"name": "tỏi"},
+   "w-id-011-i9": {"name": "muối"},
+   "w-id-011-i10": {"name": "đường"},
+   "w-id-011-i11": {"name": "bột tiêu trắng"},
+   "w-id-011-i12": {"name": "đậu phộng rang không muối"},
+   "w-id-011-i13": {"name": "tỏi"},
+   "w-id-011-i14": {"name": "đường thốt nốt"},
+   "w-id-011-i15": {"name": "muối"},
+   "w-id-011-i16": {"name": "nước"},
+   "w-id-011-i17": {"name": "nước chanh"}
+  },
+  "instructions": {
+   "1": "Chuẩn bị sốt đậu phộng: Xay đậu phộng rang và tỏi trong máy xay cho mịn. Thêm đường thốt nốt, muối, nước, và nước chanh, và trộn đều. Điều chỉnh vị khi cần.",
+   "2": "Chuẩn bị đậu hũ: Cắt đậu hũ thành khối nhỏ.",
+   "3": "Chuẩn bị tương thịt/cá: Trộn tương gà hoặc cá xay với bột tapioca, trứng, tỏi băm, muối, đường, và tiêu trắng. Trộn đều cho đến khi hỗn hợp mịn.",
+   "4": "Điều chỉnh vị hỗn hợp: Nếm hỗn hợp và điều chỉnh gia vị bằng thêm muối hoặc đường nếu cần.",
+   "5": "Nhồi đậu hũ và vỏ hoành thánh: Đặt một miếng đậu hũ ở giữa vỏ hoành thánh và thêm một muỗng nhỏ hỗn hợp. Gấp vỏ để bọc nhân.",
+   "6": "Hấp: Đặt sủi cảo trong giỏ hấp và hấp 10 phút.",
+   "7": "Chiên: Đặt sủi cảo trong dầu nóng và chiên cho vàng nâu. Để ráo sủi cảo trên giấy thấm.",
+   "8": "Dùng: Dùng sủi cảo nóng với sốt đậu phộng."
+  },
+  "culturalNotes": "Batagor là món ăn phổ biến ở Indonesia, kết hợp sủi cảo chiên nhồi thịt hoặc cá và đậu hũ, phục vụ với sốt đậu phộng.",
+  "chapter": "Ẩm thực Indonesia"
+ },
+ "w-id-012": {
+  "title": "Ayam Betutu Bali",
+  "ingredients": {
+   "w-id-012-i1": {"name": "gà nguyên"},
+   "w-id-012-i2": {"name": "lá sắn"},
+   "w-id-012-i3": {"name": "hành tím"},
+   "w-id-012-i4": {"name": "hạt candlenut"},
+   "w-id-012-i5": {"name": "sambal oelek"},
+   "w-id-012-i6": {"name": "ớt Thái"},
+   "w-id-012-i7": {"name": "tỏi"},
+   "w-id-012-i8": {"name": "gừng tươi"},
+   "w-id-012-i9": {"name": "rễ kencur"},
+   "w-id-012-i10": {"name": "nghệ"},
+   "w-id-012-i11": {"name": "riềng"},
+   "w-id-012-i12": {"name": "rau mùi xay"},
+   "w-id-012-i13": {"name": "terasi"},
+   "w-id-012-i14": {"name": "lá chanh kaffir"},
+   "w-id-012-i15": {"name": "dầu dừa"},
+   "w-id-012-i16": {"name": "sả"},
+   "w-id-012-i17": {"name": "tiêu trắng xay"},
+   "w-id-012-i18": {"name": "muối"},
+   "w-id-012-i19": {"name": "đường dừa"},
+   "w-id-012-i20": {"name": "nước chanh"},
+   "w-id-012-i21": {"name": "lá chuối"},
+   "w-id-012-i22": {"name": "giấy nhôm"},
+   "w-id-012-i23": {"name": "sambal matah"}
+  },
+  "instructions": {
+   "1": "Chuẩn bị tương gia vị: Xay hành tím, hạt candlenut, sambal oelek, ớt Thái, tỏi, gừng, rễ kencur, nghệ, riềng, rau mùi, terasi, lá chanh kaffir, dầu dừa, sả, tiêu trắng, muối, đường dừa, và nước chanh trong máy xay cho mịn.",
+   "2": "Nấu trước rau: Xào hành tím trong dầu dừa cho vàng, rồi thêm tương gia vị và nấu 5 phút.",
+   "3": "Nhồi gà bằng rau: Đặt lá sắn và rau đã nấu trong bụng gà.",
+   "4": "Gói gà và ướp: Gói gà trong lá chuối rồi trong giấy nhôm, và để ướp 30 phút.",
+   "5": "Nếu dùng Instant Pot: Đặt gà trong nồi và thêm 2 cups nước. Đặt áp suất cao 40 phút.",
+   "6": "Nếu nướng: Đặt gà trong lò đã làm nóng ở 180°C và nướng 1 giờ 30 phút.",
+   "7": "Dùng gà với sambal matah nếu muốn."
+  },
+  "culturalNotes": "Ayam Betutu Bali là món ăn truyền thống từ Bali, Indonesia, nổi tiếng với vị cay và thơm.",
+  "chapter": "Ẩm thực Indonesia"
+ },
+ "w-id-013": {
+  "title": "Biryani rau",
+  "ingredients": {
+   "w-id-013-i1": {"name": "gạo basmati"},
+   "w-id-013-i2": {"name": "nước"},
+   "w-id-013-i3": {"name": "quả bạch đậu khấu"},
+   "w-id-013-i4": {"name": "que quế"},
+   "w-id-013-i5": {"name": "đinh hương"},
+   "w-id-013-i6": {"name": "lá nguyệt quế"},
+   "w-id-013-i7": {"name": "muối"},
+   "w-id-013-i8": {"name": "bơ ghee"},
+   "w-id-013-i9": {"name": "hành tây"},
+   "w-id-013-i10": {"name": "khoai tây"},
+   "w-id-013-i11": {"name": "súp lơ trắng"},
+   "w-id-013-i12": {"name": "cà rốt"},
+   "w-id-013-i13": {"name": "hành tây"},
+   "w-id-013-i14": {"name": "củ gừng"},
+   "w-id-013-i15": {"name": "tỏi"},
+   "w-id-013-i16": {"name": "ớt xanh"},
+   "w-id-013-i17": {"name": "bột ớt"},
+   "w-id-013-i18": {"name": "rau mùi xay"},
+   "w-id-013-i19": {"name": "cumin xay"},
+   "w-id-013-i20": {"name": "nghệ xay"},
+   "w-id-013-i21": {"name": "cà chua"},
+   "w-id-013-i22": {"name": "sữa chua"},
+   "w-id-013-i23": {"name": "nho khô"},
+   "w-id-013-i24": {"name": "nước hoa hồng"},
+   "w-id-013-i25": {"name": "bơ ghee (tan)"},
+   "w-id-013-i26": {"name": "hạnh nhân sợi"},
+   "w-id-013-i27": {"name": "ngò tươi"}
+  },
+  "instructions": {
+   "1": "Rửa gạo basmati dưới nước mát cho đến khi nước không còn đục. Ngâm gạo trong tô nước mát sạch 30 phút.",
+   "2": "Trong khi gạo ngâm, đổ 6 cups nước vào nồi cùng gia vị nguyên và muối. Đậy và đun nhẹ đến sôi nhẹ.",
+   "3": "Sau 30 phút, đun nồi nước đang sôi nhẹ đến sôi mạnh. Để ráo gạo đã ngâm và thêm vào nồi. Đun nhẹ 5 phút. Lọc gạo và trải trên đĩa lớn để dừng nấu.",
+   "4": "Trong nồi đáy nặng lớn, đun nóng bơ ghee và chiên hành thái lát cho nâu đậm. Lấy hành chiên ra bằng vá lỗ lên đĩa lót giấy thấm và để sang một bên.",
+   "5": "Chiên khoai, súp lơ, và cà rốt trong bơ ghee còn lại cho nâu khắp các mặt. Lấy ra và để sang một bên.",
+   "6": "Trong cùng nồi, chiên hành băm và cà chua cho mềm. Thêm tỏi, gừng, ớt xanh thái lát, và gia vị. Khuấy cho quyện đều và thơm. Để nguội bớt, rồi khuấy sữa chua. Thêm rau băm và trộn để phủ masala.",
+   "7": "Rắc nho khô lên rau, rồi múc gạo nửa chín lên. Làm phẳng mặt và rưới nước hoa hồng. Rưới bơ ghee tan nếu muốn biryani đậm hơn. Đậy và nấu trên lửa nhỏ/vừa nhỏ khoảng 45 phút cho đến khi gạo chín hết.",
+   "8": "Nếm gạo để chắc chín vừa ý. Đổ ra đĩa lớn kiểu gia đình, khuấy nhẹ để trộn tất cả nguyên liệu. Phủ hành chiên đã giữ, hạnh nhân sợi, và ngò."
+  },
+  "culturalNotes": "Biryani là món ăn phổ biến ở Indonesia, thường được phục vụ trong các dịp đặc biệt và họp gia đình. Nó nổi tiếng với sự pha trộn phong phú của gia vị và rau tươi.",
+  "chapter": "Ẩm thực Indonesia"
+ },
+ "w-id-014": {
+  "title": "Bánh hấp (Bolu Kukus Mekar)",
+  "ingredients": {
+   "w-id-014-i1": {"name": "gula Jawa (gula Melaka)"},
+   "w-id-014-i2": {"name": "nước cốt dừa"},
+   "w-id-014-i3": {"name": "trứng lớn (nhiệt độ phòng)"},
+   "w-id-014-i4": {"name": "đường cát"},
+   "w-id-014-i5": {"name": "dầu nấu"},
+   "w-id-014-i6": {"name": "bột mì đa dụng"},
+   "w-id-014-i7": {"name": "muối"},
+   "w-id-014-i8": {"name": "baking powder"}
+  },
+  "instructions": {
+   "1": "Cắt gula Melaka thành miếng nhỏ. Đặt trong nồi với nước cốt dừa trên lửa nhỏ và khuấy cho đến khi đường tan. Để hỗn hợp nguội hoàn toàn trước khi dùng.",
+   "2": "Trộn nguyên liệu khô (bột, muối, baking powder) trong tô và để sang một bên.",
+   "3": "Đổ nước vào xửng hấp và bắt đầu đun nước. Đảm bảo đủ nước để hấp bánh ít nhất 15 phút trên lửa lớn. Gói nắp bằng vải để nước ngưng không rơi lên bánh. Lót cốc muffin bằng giấy lót.",
+   "4": "Chuẩn bị bột bánh: Đánh trứng với đường cát cho đến khi hỗn hợp kem. Thêm dầu và trộn đều. Thêm hỗn hợp lỏng (gula Melaka và nước cốt dừa) và trộn đều. Thêm nguyên liệu khô và trộn cho đến khi bột mịn.",
+   "5": "Đổ bột vào cốc muffin đã lót. Đặt cốc trong xửng hấp và hấp 15 phút trên lửa lớn.",
+   "6": "Để bánh nguội bớt trước khi dùng."
+  },
+  "culturalNotes": "Bánh hấp (Bolu Kukus Mekar) là tráng miệng truyền thống của Indonesia, thường được phục vụ trong các dịp đặc biệt và lễ.",
+  "chapter": "Ẩm thực Indonesia"
+ },
+ "w-id-015": {
+  "title": "Bubur Cha Cha",
+  "ingredients": {
+   "w-id-015-i1": {"name": "khoai lang cam"},
+   "w-id-015-i2": {"name": "khoai lang tím"},
+   "w-id-015-i3": {"name": "khoai lang vàng"},
+   "w-id-015-i4": {"name": "khoai môn"},
+   "w-id-015-i5": {"name": "hạt tapioca"},
+   "w-id-015-i6": {"name": "nước cốt dừa"},
+   "w-id-015-i7": {"name": "nước"},
+   "w-id-015-i8": {"name": "đường"},
+   "w-id-015-i9": {"name": "muối"},
+   "w-id-015-i10": {"name": "lá dứa"}
+  },
+  "instructions": {
+   "1": "Rửa, gọt, và cắt khoai lang và khoai môn thành miếng nhỏ.",
+   "2": "Đặt khoai lang và khoai môn trong xửng hấp và hấp 15 phút cho mềm.",
+   "3": "Trong nồi riêng, đặt hạt tapioca trong nước sôi và luộc 10 phút cho đến khi trong và dai.",
+   "4": "Trong nồi lớn, trộn nước cốt dừa, nước, đường, muối, và lá dứa, và đun sôi trên lửa vừa.",
+   "5": "Thêm khoai lang và khoai môn đã hấp, và hạt tapioca đã nấu vào hỗn hợp nước cốt dừa, và khuấy đều.",
+   "6": "Để hỗn hợp sôi thêm 5 phút, rồi tắt bếp.",
+   "7": "Dùng Bubur Cha Cha nóng hoặc lạnh, vừa ý."
+  },
+  "culturalNotes": "Bubur Cha Cha là tráng miệng Nyonya truyền thống, hỗn hợp khoai lang, khoai môn, và hạt tapioca trong nước cốt dừa.",
+  "chapter": "Ẩm thực Indonesia"
+ },
+ "w-id-016": {
+  "title": "Bubur Ketan Hitam (tráng miệng nếp đen)",
+  "ingredients": {
+   "w-id-016-i1": {"name": "gạo nếp đen"},
+   "w-id-016-i2": {"name": "đường dừa"},
+   "w-id-016-i3": {"name": "nước"},
+   "w-id-016-i4": {"name": "lá dứa"},
+   "w-id-016-i5": {"name": "kem dừa"},
+   "w-id-016-i6": {"name": "muối"}
+  },
+  "instructions": {
+   "1": "Ngâm gạo nếp đen 30 phút nếu nấu trên bếp.",
+   "2": "Vỡ gạo trong máy xay hoặc máy xay thực phẩm nếu muốn.",
+   "3": "Thêm gạo, nước, đường dừa, và lá dứa vào nồi áp suất.",
+   "4": "Đóng nồi áp suất và nấu áp suất cao 20 phút.",
+   "5": "Sau khi nấu, để áp suất xả tự nhiên 10 phút.",
+   "6": "Thêm kem dừa và muối, và trộn đều.",
+   "7": "Dùng tráng miệng nóng hoặc lạnh vừa ý."
+  },
+  "culturalNotes": "Bubur Ketan Hitam là tráng miệng truyền thống của Indonesia thường được phục vụ trong các dịp đặc biệt.",
+  "chapter": "Ẩm thực Indonesia"
+ }
+}

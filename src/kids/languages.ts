@@ -32,7 +32,8 @@ export const KIDS_TOGGLE_LABELS: Partial<Record<SupportedLanguage, { grownUps: s
   pl: { grownUps: 'Dorośli', kids: 'Gotowanie z dziećmi' },
   sv: { grownUps: 'Vuxna', kids: 'Laga mat med barn' },
   te: { grownUps: 'పెద్దలు', kids: 'పిల్లలతో వంట' },
-  bn: { grownUps: 'বড়রা', kids: 'বাচ্চাদের সাথে রান্না' }
+  bn: { grownUps: 'বড়রা', kids: 'বাচ্চাদের সাথে রান্না' },
+  vi: { grownUps: 'Người lớn', kids: 'Nấu ăn cùng các bé' }
 };
 
 export const hasKidsMode = (lang: SupportedLanguage) => lang in KIDS_TOGGLE_LABELS;

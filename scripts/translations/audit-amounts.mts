@@ -3,7 +3,7 @@
 import { readFile } from 'node:fs/promises';
 import { allRecipes } from '../../src/data/recipes';
 
-const LANGS = ['Fr','Es','De','It','Pt','Nl','Pl','Sv','Ru','El','Tr','Id','Sw','Ku','Hi','Ur','Fa','Ps','He','Ja','Zh','Ko','Bn'];
+const LANGS = ['Fr','Es','De','It','Pt','Nl','Pl','Sv','Ru','El','Tr','Id','Sw','Ku','Hi','Ur','Fa','Ps','He','Ja','Zh','Ko','Bn','Vi'];
 
 const ingIdsOf = new Map(allRecipes.map(r => [r.id, r.masterIngredients.filter(i => (i.standardAmount || '').trim())]));
 
