@@ -81,6 +81,65 @@ def valid_est(e: dict) -> bool:
     return e['cost'] is not None
 
 
+MACRO_KEYS = ('kcal', 'protein', 'fat', 'carbs', 'fiber', 'sugar')
+
+
+def validate_entry(rid: str, est) -> list:
+    """Same rules as scripts/estimates/append.ts for hand-written batches."""
+    if not isinstance(est, dict):
+        return [f'{rid}: not an object']
+    errs = []
+    if not isinstance(est.get('servings'), (int, float)) \
+            or est['servings'] <= 0:
+        errs.append(f'{rid}: servings must be > 0')
+    for k in MACRO_KEYS:
+        v = est.get(k)
+        if not isinstance(v, (int, float)) or int(v) != v or v < 0:
+            errs.append(f'{rid}: {k} must be a whole number >= 0')
+        else:
+            est[k] = int(v)
+    cost = est.get('cost')
+    if not isinstance(cost, dict) or not cost:
+        errs.append(f'{rid}: must have at least one cost bucket')
+    elif norm_cost(cost) is None:
+        errs.append(f'{rid}: non-numeric cost value')
+    else:
+        est['cost'] = norm_cost(cost)
+    if errs or not est.get('kcal'):
+        return errs
+    calc = est['protein'] * 4 + est['fat'] * 9 + est['carbs'] * 4
+    if abs(calc - est['kcal']) / est['kcal'] > 0.15:
+        errs.append(f"{rid}: calculated kcal ({calc}) differs >15% "
+                    f"from kcal ({est['kcal']})")
+    return errs
+
+
+def apply_batch(path: Path) -> None:
+    """Merge a hand-written {id: estimate} JSON batch (Devin-authored)."""
+    import sys
+    batch = json.loads(path.read_text())
+    known = {e['id'] for p in SRC_WORLD.glob('*.json')
+             for e in json.loads(p.read_text())}
+    done = load_done()
+    errors = []
+    for rid, est in batch.items():
+        if rid not in known:
+            errors.append(f'{rid}: unknown recipe id')
+        elif rid in done:
+            print(f'  {rid}: already present, skipped')
+        else:
+            errors += validate_entry(rid, est)
+    if errors:
+        print('\n'.join(errors), file=sys.stderr)
+        sys.exit(1)
+    for rid, est in batch.items():
+        if rid not in done:
+            done[rid] = {k: est[k] for k in ('servings',) + MACRO_KEYS}
+            done[rid]['cost'] = est['cost']
+    write_ts(done)
+    print(f'{len(done)} total -> {OUT_TS}')
+
+
 def load_done() -> dict:
     if not OUT_TS.exists():
         return {}
@@ -109,7 +168,13 @@ def write_ts(estimates: dict) -> None:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument('--iso', nargs='*', default=['ma', 'jp', 'mx'])
+    ap.add_argument('--apply', metavar='JSON',
+                    help='merge a hand-written {id: estimate} batch and exit')
     args = ap.parse_args()
+
+    if args.apply:
+        apply_batch(Path(args.apply))
+        return
 
     entries = []
     for iso in args.iso:

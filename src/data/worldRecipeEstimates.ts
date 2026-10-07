@@ -1143,6 +1143,2230 @@ export const WORLD_RECIPE_ESTIMATES: Record<string, RecipeEstimate> = {
       "specialty": 1
     }
   },
+  "w-id-001": {
+    "servings": 5,
+    "kcal": 420,
+    "protein": 5,
+    "fat": 10,
+    "carbs": 78,
+    "fiber": 1,
+    "sugar": 22,
+    "cost": {
+      "grains": 1.4,
+      "specialty": 1,
+      "sweeteners": 0.4,
+      "spices": 0.1
+    }
+  },
+  "w-id-002": {
+    "servings": 5,
+    "kcal": 370,
+    "protein": 30,
+    "fat": 15,
+    "carbs": 20,
+    "fiber": 4,
+    "sugar": 9,
+    "cost": {
+      "protein": 7,
+      "specialty": 2.1,
+      "fats": 0.2,
+      "produce": 3.1,
+      "spices": 0.7,
+      "sweeteners": 0.05
+    }
+  },
+  "w-id-003": {
+    "servings": 5,
+    "kcal": 740,
+    "protein": 48,
+    "fat": 34,
+    "carbs": 48,
+    "fiber": 2,
+    "sugar": 8,
+    "cost": {
+      "protein": 9,
+      "specialty": 0.6,
+      "grains": 0.2,
+      "fats": 1.2,
+      "sweeteners": 0.05,
+      "produce": 0.3,
+      "spices": 1.5
+    }
+  },
+  "w-id-004": {
+    "servings": 5,
+    "kcal": 610,
+    "protein": 46,
+    "fat": 40,
+    "carbs": 10,
+    "fiber": 1,
+    "sugar": 5,
+    "cost": {
+      "protein": 8,
+      "fats": 1.2,
+      "specialty": 0.5,
+      "produce": 1.3
+    }
+  },
+  "w-id-005": {
+    "servings": 5,
+    "kcal": 400,
+    "protein": 32,
+    "fat": 18,
+    "carbs": 22,
+    "fiber": 1,
+    "sugar": 15,
+    "cost": {
+      "protein": 7,
+      "fats": 0.2,
+      "specialty": 0.8,
+      "sweeteners": 0.1,
+      "produce": 1.4,
+      "spices": 0.1
+    }
+  },
+  "w-id-006": {
+    "servings": 5,
+    "kcal": 570,
+    "protein": 40,
+    "fat": 36,
+    "carbs": 10,
+    "fiber": 1,
+    "sugar": 3,
+    "cost": {
+      "protein": 8,
+      "fats": 1.4,
+      "produce": 1.3,
+      "specialty": 1,
+      "sweeteners": 0.05
+    }
+  },
+  "w-id-007": {
+    "servings": 5,
+    "kcal": 620,
+    "protein": 52,
+    "fat": 35,
+    "carbs": 15,
+    "fiber": 2,
+    "sugar": 6,
+    "cost": {
+      "protein": 10,
+      "fats": 0.4,
+      "specialty": 2.7,
+      "produce": 2.4,
+      "sweeteners": 0.05
+    }
+  },
+  "w-id-008": {
+    "servings": 5,
+    "kcal": 520,
+    "protein": 40,
+    "fat": 28,
+    "carbs": 14,
+    "fiber": 2,
+    "sugar": 5,
+    "cost": {
+      "protein": 8,
+      "fats": 0.2,
+      "produce": 3.3,
+      "specialty": 0.8,
+      "spices": 0.2
+    }
+  },
+  "w-id-009": {
+    "servings": 13,
+    "kcal": 190,
+    "protein": 4,
+    "fat": 8,
+    "carbs": 26,
+    "fiber": 1,
+    "sugar": 11,
+    "cost": {
+      "grains": 0.5,
+      "dairyEggs": 0.55,
+      "fats": 0.3,
+      "sweeteners": 0.1,
+      "specialty": 2.5
+    }
+  },
+  "w-id-010": {
+    "servings": 5,
+    "kcal": 100,
+    "protein": 1,
+    "fat": 1,
+    "carbs": 22,
+    "fiber": 0,
+    "sugar": 19,
+    "cost": {
+      "sweeteners": 0.6,
+      "produce": 0.5,
+      "spices": 0.4,
+      "specialty": 0.5,
+      "dairyEggs": 0.8
+    }
+  },
+  "w-id-011": {
+    "servings": 5,
+    "kcal": 820,
+    "protein": 23,
+    "fat": 42,
+    "carbs": 65,
+    "fiber": 4,
+    "sugar": 25,
+    "cost": {
+      "grains": 2.3,
+      "protein": 3.5,
+      "fats": 1.5,
+      "specialty": 2.5,
+      "sweeteners": 1,
+      "produce": 0.4
+    }
+  },
+  "w-id-012": {
+    "servings": 5,
+    "kcal": 660,
+    "protein": 62,
+    "fat": 33,
+    "carbs": 14,
+    "fiber": 3,
+    "sugar": 5,
+    "cost": {
+      "protein": 11,
+      "produce": 2.5,
+      "specialty": 1.3,
+      "fats": 0.2,
+      "sweeteners": 0.05,
+      "spices": 0.3
+    }
+  },
+  "w-id-013": {
+    "servings": 5,
+    "kcal": 820,
+    "protein": 15,
+    "fat": 26,
+    "carbs": 135,
+    "fiber": 10,
+    "sugar": 20,
+    "cost": {
+      "grains": 2.5,
+      "fats": 2.5,
+      "produce": 6.6,
+      "dairyEggs": 0.1,
+      "specialty": 2.6,
+      "spices": 1.1
+    }
+  },
+  "w-id-014": {
+    "servings": 7,
+    "kcal": 290,
+    "protein": 4,
+    "fat": 13,
+    "carbs": 40,
+    "fiber": 0,
+    "sugar": 18,
+    "cost": {
+      "sweeteners": 0.5,
+      "specialty": 0.4,
+      "dairyEggs": 0.25,
+      "fats": 0.5,
+      "grains": 0.4
+    }
+  },
+  "w-id-015": {
+    "servings": 5,
+    "kcal": 330,
+    "protein": 2,
+    "fat": 10,
+    "carbs": 60,
+    "fiber": 3,
+    "sugar": 28,
+    "cost": {
+      "produce": 3,
+      "grains": 0.5,
+      "specialty": 1.3,
+      "sweeteners": 0.5
+    }
+  },
+  "w-id-016": {
+    "servings": 5,
+    "kcal": 320,
+    "protein": 6,
+    "fat": 14,
+    "carbs": 46,
+    "fiber": 3,
+    "sugar": 28,
+    "cost": {
+      "grains": 1.5,
+      "sweeteners": 1,
+      "specialty": 1.1
+    }
+  },
+  "w-id-017": {
+    "servings": 5,
+    "kcal": 310,
+    "protein": 7,
+    "fat": 12,
+    "carbs": 47,
+    "fiber": 2,
+    "sugar": 7,
+    "cost": {
+      "grains": 1.1,
+      "specialty": 0.8,
+      "sweeteners": 0.2,
+      "produce": 0.4,
+      "fats": 0.05,
+      "spices": 0.3
+    }
+  },
+  "w-id-018": {
+    "servings": 5,
+    "kcal": 370,
+    "protein": 7,
+    "fat": 17,
+    "carbs": 46,
+    "fiber": 0,
+    "sugar": 33,
+    "cost": {
+      "dairyEggs": 1,
+      "fats": 0.4,
+      "specialty": 2.4,
+      "grains": 0.2,
+      "sweeteners": 0.3
+    }
+  },
+  "w-id-019": {
+    "servings": 5,
+    "kcal": 310,
+    "protein": 19,
+    "fat": 20,
+    "carbs": 12,
+    "fiber": 1,
+    "sugar": 6,
+    "cost": {
+      "protein": 3.5,
+      "specialty": 2.4,
+      "fats": 0.2,
+      "sweeteners": 0.3,
+      "produce": 1,
+      "spices": 0.2
+    }
+  },
+  "w-id-020": {
+    "servings": 5,
+    "kcal": 350,
+    "protein": 7,
+    "fat": 17,
+    "carbs": 43,
+    "fiber": 4,
+    "sugar": 22,
+    "cost": {
+      "dairyEggs": 0.8,
+      "sweeteners": 0.75,
+      "grains": 0.2,
+      "specialty": 1
+    }
+  },
+  "w-id-021": {
+    "servings": 5,
+    "kcal": 330,
+    "protein": 6,
+    "fat": 28,
+    "carbs": 15,
+    "fiber": 4,
+    "sugar": 4,
+    "cost": {
+      "produce": 4.6,
+      "specialty": 3.3,
+      "fats": 0.4,
+      "sweeteners": 0.05,
+      "spices": 0.4
+    }
+  },
+  "w-id-022": {
+    "servings": 5,
+    "kcal": 230,
+    "protein": 20,
+    "fat": 13,
+    "carbs": 5,
+    "fiber": 1,
+    "sugar": 2,
+    "cost": {
+      "protein": 7,
+      "fats": 0.15,
+      "specialty": 1.5,
+      "produce": 0.4,
+      "spices": 0.3
+    }
+  },
+  "w-id-023": {
+    "servings": 5,
+    "kcal": 240,
+    "protein": 13,
+    "fat": 18,
+    "carbs": 8,
+    "fiber": 1,
+    "sugar": 2,
+    "cost": {
+      "dairyEggs": 1.5,
+      "protein": 4,
+      "fats": 0.8,
+      "grains": 0.05,
+      "specialty": 0.45,
+      "produce": 0.3
+    }
+  },
+  "w-id-024": {
+    "servings": 5,
+    "kcal": 360,
+    "protein": 5,
+    "fat": 19,
+    "carbs": 38,
+    "fiber": 1,
+    "sugar": 3,
+    "cost": {
+      "grains": 0.5,
+      "dairyEggs": 1.2,
+      "sweeteners": 0.05
+    }
+  },
+  "w-id-025": {
+    "servings": 5,
+    "kcal": 500,
+    "protein": 16,
+    "fat": 40,
+    "carbs": 30,
+    "fiber": 5,
+    "sugar": 22,
+    "cost": {
+      "specialty": 4,
+      "sweeteners": 0.8,
+      "produce": 0.55,
+      "fats": 0.3,
+      "spices": 0.2
+    }
+  },
+  "w-id-026": {
+    "servings": 5,
+    "kcal": 230,
+    "protein": 2,
+    "fat": 5,
+    "carbs": 44,
+    "fiber": 1,
+    "sugar": 34,
+    "cost": {
+      "specialty": 2.8,
+      "sweeteners": 0.65,
+      "dairyEggs": 0.8,
+      "produce": 0.8
+    }
+  },
+  "w-id-027": {
+    "servings": 5,
+    "kcal": 900,
+    "protein": 30,
+    "fat": 65,
+    "carbs": 40,
+    "fiber": 5,
+    "sugar": 18,
+    "cost": {
+      "protein": 6,
+      "produce": 4.7,
+      "specialty": 6.2,
+      "grains": 0.6,
+      "dairyEggs": 1,
+      "sweeteners": 0.4,
+      "fats": 0.1,
+      "spices": 0.05
+    }
+  },
+  "w-id-028": {
+    "servings": 1,
+    "kcal": 180,
+    "protein": 3,
+    "fat": 6,
+    "carbs": 26,
+    "fiber": 1,
+    "sugar": 13,
+    "cost": {
+      "grains": 0.15,
+      "specialty": 0.3,
+      "dairyEggs": 0.05
+    }
+  },
+  "w-id-029": {
+    "servings": 5,
+    "kcal": 360,
+    "protein": 40,
+    "fat": 15,
+    "carbs": 8,
+    "fiber": 1,
+    "sugar": 3,
+    "cost": {
+      "protein": 14,
+      "fats": 0.2,
+      "produce": 3,
+      "spices": 0.3,
+      "sweeteners": 0.02
+    }
+  },
+  "w-id-030": {
+    "servings": 22,
+    "kcal": 130,
+    "protein": 5,
+    "fat": 9,
+    "carbs": 9,
+    "fiber": 0,
+    "sugar": 1,
+    "cost": {
+      "dairyEggs": 6.6,
+      "grains": 0.4
+    }
+  },
+  "w-id-031": {
+    "servings": 5,
+    "kcal": 100,
+    "protein": 3,
+    "fat": 1,
+    "carbs": 21,
+    "fiber": 4,
+    "sugar": 12,
+    "cost": {
+      "produce": 3.9,
+      "specialty": 0.35,
+      "sweeteners": 0.4,
+      "spices": 0.3
+    }
+  },
+  "w-id-032": {
+    "servings": 5,
+    "kcal": 460,
+    "protein": 17,
+    "fat": 16,
+    "carbs": 60,
+    "fiber": 4,
+    "sugar": 10,
+    "cost": {
+      "grains": 1.7,
+      "protein": 1.5,
+      "specialty": 2.1,
+      "sweeteners": 0.3,
+      "dairyEggs": 0.5,
+      "produce": 0.9,
+      "spices": 0.1
+    }
+  },
+  "w-id-033": {
+    "servings": 5,
+    "kcal": 260,
+    "protein": 5,
+    "fat": 0,
+    "carbs": 56,
+    "fiber": 1,
+    "sugar": 0,
+    "cost": {
+      "grains": 1.2,
+      "spices": 0.02
+    }
+  },
+  "w-id-034": {
+    "servings": 5,
+    "kcal": 540,
+    "protein": 4,
+    "fat": 30,
+    "carbs": 65,
+    "fiber": 4,
+    "sugar": 25,
+    "cost": {
+      "produce": 1.7,
+      "grains": 0.8,
+      "fats": 1.5,
+      "specialty": 0.8,
+      "sweeteners": 0.4,
+      "spices": 0.5
+    }
+  },
+  "w-id-035": {
+    "servings": 22,
+    "kcal": 75,
+    "protein": 1,
+    "fat": 3,
+    "carbs": 12,
+    "fiber": 0,
+    "sugar": 4,
+    "cost": {
+      "grains": 1,
+      "specialty": 0.6,
+      "dairyEggs": 0.15,
+      "sweeteners": 0.25
+    }
+  },
+  "w-in-001": {
+    "servings": 12,
+    "kcal": 130,
+    "protein": 2,
+    "fat": 4,
+    "carbs": 22,
+    "fiber": 1,
+    "sugar": 12,
+    "cost": {
+      "grains": 0.5,
+      "sweeteners": 1.2,
+      "specialty": 0.3,
+      "fats": 0.5,
+      "spices": 0.1
+    }
+  },
+  "w-in-002": {
+    "servings": 5,
+    "kcal": 340,
+    "protein": 10,
+    "fat": 16,
+    "carbs": 40,
+    "fiber": 5,
+    "sugar": 2,
+    "cost": {
+      "produce": 1.1,
+      "grains": 0.8,
+      "fats": 0.8,
+      "spices": 1.05
+    }
+  },
+  "w-in-003": {
+    "servings": 5,
+    "kcal": 180,
+    "protein": 4,
+    "fat": 11,
+    "carbs": 18,
+    "fiber": 4,
+    "sugar": 3,
+    "cost": {
+      "produce": 2.9,
+      "fats": 0.4,
+      "spices": 0.8
+    }
+  },
+  "w-in-004": {
+    "servings": 4,
+    "kcal": 500,
+    "protein": 10,
+    "fat": 17,
+    "carbs": 65,
+    "fiber": 4,
+    "sugar": 6,
+    "cost": {
+      "produce": 1.5,
+      "grains": 2.6,
+      "fats": 0.6,
+      "specialty": 0.3,
+      "spices": 0.5
+    }
+  },
+  "w-in-005": {
+    "servings": 5,
+    "kcal": 110,
+    "protein": 2,
+    "fat": 8,
+    "carbs": 8,
+    "fiber": 4,
+    "sugar": 4,
+    "cost": {
+      "produce": 2.4,
+      "fats": 0.3,
+      "spices": 0.6
+    }
+  },
+  "w-in-006": {
+    "servings": 5,
+    "kcal": 330,
+    "protein": 13,
+    "fat": 14,
+    "carbs": 36,
+    "fiber": 0,
+    "sugar": 32,
+    "cost": {
+      "dairyEggs": 5,
+      "sweeteners": 0.15,
+      "specialty": 1.3,
+      "spices": 0.1
+    }
+  },
+  "w-in-007": {
+    "servings": 10,
+    "kcal": 230,
+    "protein": 7,
+    "fat": 10,
+    "carbs": 31,
+    "fiber": 4,
+    "sugar": 0,
+    "cost": {
+      "grains": 1.2,
+      "fats": 0.7,
+      "spices": 0.02
+    }
+  },
+  "w-in-008": {
+    "servings": 10,
+    "kcal": 330,
+    "protein": 9,
+    "fat": 9,
+    "carbs": 55,
+    "fiber": 3,
+    "sugar": 0,
+    "cost": {
+      "grains": 2.9,
+      "dairyEggs": 0.5,
+      "fats": 0.2,
+      "spices": 0.07
+    }
+  },
+  "w-in-009": {
+    "servings": 5,
+    "kcal": 50,
+    "protein": 2,
+    "fat": 3,
+    "carbs": 4,
+    "fiber": 2,
+    "sugar": 1,
+    "cost": {
+      "produce": 1.8,
+      "fats": 0.1,
+      "spices": 0.2
+    }
+  },
+  "w-in-010": {
+    "servings": 5,
+    "kcal": 500,
+    "protein": 12,
+    "fat": 22,
+    "carbs": 58,
+    "fiber": 5,
+    "sugar": 10,
+    "cost": {
+      "specialty": 3.4,
+      "grains": 1.2,
+      "produce": 1,
+      "fats": 0.2,
+      "sweeteners": 0.1,
+      "spices": 0.5
+    }
+  },
+  "w-in-011": {
+    "servings": 5,
+    "kcal": 620,
+    "protein": 24,
+    "fat": 25,
+    "carbs": 62,
+    "fiber": 4,
+    "sugar": 6,
+    "cost": {
+      "grains": 1.5,
+      "protein": 3.5,
+      "fats": 0.6,
+      "dairyEggs": 1,
+      "produce": 1.6,
+      "specialty": 0.95,
+      "spices": 0.8
+    }
+  },
+  "w-in-012": {
+    "servings": 5,
+    "kcal": 310,
+    "protein": 8,
+    "fat": 16,
+    "carbs": 36,
+    "fiber": 4,
+    "sugar": 2,
+    "cost": {
+      "produce": 1.2,
+      "grains": 0.75,
+      "specialty": 0.8,
+      "fats": 0.9,
+      "spices": 0.8
+    }
+  },
+  "w-in-013": {
+    "servings": 5,
+    "kcal": 360,
+    "protein": 8,
+    "fat": 15,
+    "carbs": 45,
+    "fiber": 3,
+    "sugar": 2,
+    "cost": {
+      "produce": 1.3,
+      "grains": 1.2,
+      "specialty": 0.4,
+      "fats": 1,
+      "spices": 0.6
+    }
+  },
+  "w-in-014": {
+    "servings": 5,
+    "kcal": 330,
+    "protein": 22,
+    "fat": 20,
+    "carbs": 14,
+    "fiber": 2,
+    "sugar": 6,
+    "cost": {
+      "protein": 3.5,
+      "dairyEggs": 2,
+      "fats": 0.3,
+      "produce": 1.2,
+      "specialty": 1,
+      "spices": 0.6
+    }
+  },
+  "w-in-015": {
+    "servings": 5,
+    "kcal": 260,
+    "protein": 7,
+    "fat": 12,
+    "carbs": 34,
+    "fiber": 3,
+    "sugar": 2,
+    "cost": {
+      "grains": 1.05,
+      "specialty": 0.3,
+      "fats": 0.2,
+      "produce": 1.6,
+      "spices": 0.8
+    }
+  },
+  "w-in-016": {
+    "servings": 20,
+    "kcal": 130,
+    "protein": 2,
+    "fat": 6,
+    "carbs": 16,
+    "fiber": 1,
+    "sugar": 0,
+    "cost": {
+      "grains": 2,
+      "specialty": 0.3,
+      "dairyEggs": 0.4,
+      "fats": 0.8,
+      "spices": 0.2
+    }
+  },
+  "w-in-017": {
+    "servings": 10,
+    "kcal": 250,
+    "protein": 4,
+    "fat": 14,
+    "carbs": 29,
+    "fiber": 1,
+    "sugar": 18,
+    "cost": {
+      "grains": 0.5,
+      "dairyEggs": 1.2,
+      "sweeteners": 1.1,
+      "fats": 0.5
+    }
+  },
+  "w-in-018": {
+    "servings": 5,
+    "kcal": 240,
+    "protein": 9,
+    "fat": 7,
+    "carbs": 34,
+    "fiber": 9,
+    "sugar": 5,
+    "cost": {
+      "grains": 1.2,
+      "fats": 0.3,
+      "produce": 1.6,
+      "spices": 1.5
+    }
+  },
+  "w-in-019": {
+    "servings": 12,
+    "kcal": 120,
+    "protein": 4,
+    "fat": 3,
+    "carbs": 21,
+    "fiber": 3,
+    "sugar": 0,
+    "cost": {
+      "grains": 1,
+      "fats": 0.3,
+      "spices": 0.02
+    }
+  },
+  "w-in-020": {
+    "servings": 5,
+    "kcal": 225,
+    "protein": 11,
+    "fat": 12,
+    "carbs": 19,
+    "fiber": 0,
+    "sugar": 12,
+    "cost": {
+      "dairyEggs": 3.55,
+      "sweeteners": 0.15,
+      "grains": 0.05,
+      "specialty": 0.8,
+      "produce": 0.15,
+      "spices": 0.15
+    }
+  },
+  "w-in-021": {
+    "servings": 5,
+    "kcal": 390,
+    "protein": 29,
+    "fat": 21,
+    "carbs": 15,
+    "fiber": 3,
+    "sugar": 5,
+    "cost": {
+      "protein": 5,
+      "fats": 0.5,
+      "dairyEggs": 1.3,
+      "produce": 1.8,
+      "specialty": 0.1,
+      "spices": 1
+    }
+  },
+  "w-in-022": {
+    "servings": 5,
+    "kcal": 265,
+    "protein": 31,
+    "fat": 10,
+    "carbs": 8,
+    "fiber": 1,
+    "sugar": 3,
+    "cost": {
+      "protein": 4.5,
+      "fats": 0.15,
+      "dairyEggs": 0.6,
+      "produce": 0.6,
+      "spices": 1
+    }
+  },
+  "w-in-023": {
+    "servings": 5,
+    "kcal": 280,
+    "protein": 7,
+    "fat": 12,
+    "carbs": 36,
+    "fiber": 3,
+    "sugar": 4,
+    "cost": {
+      "grains": 1.5,
+      "fats": 0.15,
+      "produce": 1.4,
+      "specialty": 0.6
+    }
+  },
+  "w-in-024": {
+    "servings": 5,
+    "kcal": 600,
+    "protein": 15,
+    "fat": 24,
+    "carbs": 72,
+    "fiber": 10,
+    "sugar": 6,
+    "cost": {
+      "grains": 1.75,
+      "fats": 1.8,
+      "dairyEggs": 0.15,
+      "sweeteners": 0.02,
+      "produce": 0.9,
+      "specialty": 0.1,
+      "spices": 1.2
+    }
+  },
+  "w-in-025": {
+    "servings": 10,
+    "kcal": 180,
+    "protein": 8,
+    "fat": 6,
+    "carbs": 24,
+    "fiber": 0,
+    "sugar": 20,
+    "cost": {
+      "dairyEggs": 5.5,
+      "sweeteners": 0.8,
+      "specialty": 0.3,
+      "spices": 0.07
+    }
+  },
+  "w-in-026": {
+    "servings": 5,
+    "kcal": 200,
+    "protein": 5,
+    "fat": 8,
+    "carbs": 28,
+    "fiber": 3,
+    "sugar": 3,
+    "cost": {
+      "produce": 0.7,
+      "fats": 0.1,
+      "specialty": 0.6,
+      "spices": 0.3,
+      "grains": 1.5
+    }
+  },
+  "w-in-027": {
+    "servings": 5,
+    "kcal": 110,
+    "protein": 4,
+    "fat": 6,
+    "carbs": 10,
+    "fiber": 4,
+    "sugar": 5,
+    "cost": {
+      "produce": 2.45,
+      "fats": 0.2,
+      "grains": 0.05,
+      "dairyEggs": 0.8,
+      "spices": 0.8
+    }
+  },
+  "w-in-028": {
+    "servings": 5,
+    "kcal": 390,
+    "protein": 15,
+    "fat": 13,
+    "carbs": 48,
+    "fiber": 8,
+    "sugar": 9,
+    "cost": {
+      "grains": 1,
+      "fats": 0.9,
+      "dairyEggs": 1,
+      "sweeteners": 0.1,
+      "specialty": 1,
+      "produce": 0.3,
+      "spices": 0.5
+    }
+  },
+  "w-in-029": {
+    "servings": 5,
+    "kcal": 290,
+    "protein": 14,
+    "fat": 14,
+    "carbs": 30,
+    "fiber": 9,
+    "sugar": 3,
+    "cost": {
+      "grains": 1.2,
+      "fats": 0.45,
+      "produce": 1.05,
+      "dairyEggs": 0.4,
+      "spices": 1.1
+    }
+  },
+  "w-in-030": {
+    "servings": 5,
+    "kcal": 380,
+    "protein": 17,
+    "fat": 17,
+    "carbs": 38,
+    "fiber": 10,
+    "sugar": 4,
+    "cost": {
+      "grains": 1.4,
+      "dairyEggs": 1.9,
+      "fats": 0.1,
+      "produce": 1.05,
+      "spices": 1
+    }
+  },
+  "w-in-031": {
+    "servings": 5,
+    "kcal": 150,
+    "protein": 5,
+    "fat": 6,
+    "carbs": 18,
+    "fiber": 3,
+    "sugar": 4,
+    "cost": {
+      "grains": 0.65,
+      "sweeteners": 0.03,
+      "fats": 0.2,
+      "specialty": 0.3,
+      "produce": 0.55,
+      "spices": 0.4
+    }
+  },
+  "w-in-032": {
+    "servings": 5,
+    "kcal": 150,
+    "protein": 4,
+    "fat": 5,
+    "carbs": 21,
+    "fiber": 0,
+    "sugar": 16,
+    "cost": {
+      "dairyEggs": 0.9,
+      "grains": 0.05,
+      "sweeteners": 0.15,
+      "specialty": 1.5,
+      "spices": 0.1
+    }
+  },
+  "w-in-033": {
+    "servings": 10,
+    "kcal": 310,
+    "protein": 13,
+    "fat": 6,
+    "carbs": 54,
+    "fiber": 8,
+    "sugar": 1,
+    "cost": {
+      "grains": 2.6,
+      "produce": 0.6,
+      "fats": 0.4,
+      "spices": 0.22
+    }
+  },
+  "w-in-034": {
+    "servings": 5,
+    "kcal": 160,
+    "protein": 3,
+    "fat": 8,
+    "carbs": 19,
+    "fiber": 3,
+    "sugar": 3,
+    "cost": {
+      "produce": 2.3,
+      "fats": 0.3,
+      "sweeteners": 0.02,
+      "spices": 1.05
+    }
+  },
+  "w-in-035": {
+    "servings": 5,
+    "kcal": 360,
+    "protein": 7,
+    "fat": 9,
+    "carbs": 60,
+    "fiber": 1,
+    "sugar": 45,
+    "cost": {
+      "specialty": 2.8,
+      "grains": 0.3,
+      "dairyEggs": 3,
+      "sweeteners": 0.1
+    }
+  },
+  "w-in-036": {
+    "servings": 5,
+    "kcal": 180,
+    "protein": 3,
+    "fat": 8,
+    "carbs": 26,
+    "fiber": 2,
+    "sugar": 20,
+    "cost": {
+      "produce": 1,
+      "fats": 0.15,
+      "dairyEggs": 1.2,
+      "specialty": 1.2,
+      "spices": 0.1
+    }
+  },
+  "w-in-037": {
+    "servings": 5,
+    "kcal": 220,
+    "protein": 10,
+    "fat": 7,
+    "carbs": 34,
+    "fiber": 9,
+    "sugar": 3,
+    "cost": {
+      "grains": 1,
+      "fats": 0.2,
+      "produce": 1.55,
+      "specialty": 0.3,
+      "spices": 0.8
+    }
+  },
+  "w-in-038": {
+    "servings": 16,
+    "kcal": 165,
+    "protein": 5,
+    "fat": 6,
+    "carbs": 24,
+    "fiber": 1,
+    "sugar": 17,
+    "cost": {
+      "dairyEggs": 2.75,
+      "grains": 0.1,
+      "sweeteners": 1,
+      "fats": 0.5,
+      "specialty": 0.6,
+      "spices": 0.1,
+      "produce": 0.05
+    }
+  },
+  "w-in-039": {
+    "servings": 5,
+    "kcal": 310,
+    "protein": 11,
+    "fat": 6,
+    "carbs": 52,
+    "fiber": 6,
+    "sugar": 3,
+    "cost": {
+      "grains": 1.5,
+      "dairyEggs": 0.4,
+      "produce": 1.15,
+      "fats": 0.2,
+      "specialty": 0.1,
+      "sweeteners": 0.02,
+      "spices": 0.5
+    }
+  },
+  "w-in-040": {
+    "servings": 5,
+    "kcal": 600,
+    "protein": 16,
+    "fat": 28,
+    "carbs": 62,
+    "fiber": 5,
+    "sugar": 8,
+    "cost": {
+      "grains": 1.2,
+      "fats": 0.65,
+      "produce": 2.5,
+      "dairyEggs": 4.5,
+      "specialty": 0.6,
+      "spices": 1.5
+    }
+  },
+  "w-in-041": {
+    "servings": 5,
+    "kcal": 185,
+    "protein": 5,
+    "fat": 9,
+    "carbs": 22,
+    "fiber": 2,
+    "sugar": 4,
+    "cost": {
+      "grains": 0.8,
+      "fats": 0.3,
+      "produce": 1.4,
+      "sweeteners": 0.02,
+      "spices": 0.5
+    }
+  },
+  "w-in-042": {
+    "servings": 8,
+    "kcal": 15,
+    "protein": 0,
+    "fat": 0,
+    "carbs": 4,
+    "fiber": 0,
+    "sugar": 3,
+    "cost": {
+      "produce": 1.7,
+      "sweeteners": 0.05,
+      "spices": 0.22
+    }
+  },
+  "w-in-043": {
+    "servings": 5,
+    "kcal": 240,
+    "protein": 8,
+    "fat": 7,
+    "carbs": 36,
+    "fiber": 6,
+    "sugar": 2,
+    "cost": {
+      "grains": 1.2,
+      "fats": 0.2,
+      "produce": 0.65,
+      "spices": 0.8
+    }
+  },
+  "w-in-044": {
+    "servings": 4,
+    "kcal": 360,
+    "protein": 9,
+    "fat": 22,
+    "carbs": 34,
+    "fiber": 4,
+    "sugar": 5,
+    "cost": {
+      "fats": 0.6,
+      "produce": 1,
+      "specialty": 0.4,
+      "grains": 1.2,
+      "spices": 0.2
+    }
+  },
+  "w-in-045": {
+    "servings": 5,
+    "kcal": 400,
+    "protein": 10,
+    "fat": 12,
+    "carbs": 60,
+    "fiber": 1,
+    "sugar": 35,
+    "cost": {
+      "dairyEggs": 1.7,
+      "grains": 0.5,
+      "sweeteners": 0.3,
+      "specialty": 2.5,
+      "spices": 0.2
+    }
+  },
+  "w-in-046": {
+    "servings": 5,
+    "kcal": 270,
+    "protein": 13,
+    "fat": 1,
+    "carbs": 52,
+    "fiber": 8,
+    "sugar": 0,
+    "cost": {
+      "grains": 1.5,
+      "spices": 0.12
+    }
+  },
+  "w-in-047": {
+    "servings": 8,
+    "kcal": 290,
+    "protein": 8,
+    "fat": 7,
+    "carbs": 47,
+    "fiber": 3,
+    "sugar": 3,
+    "cost": {
+      "grains": 0.8,
+      "sweeteners": 0.05,
+      "dairyEggs": 0.8,
+      "produce": 1.45,
+      "spices": 1.1
+    }
+  },
+  "w-in-048": {
+    "servings": 18,
+    "kcal": 130,
+    "protein": 3,
+    "fat": 9,
+    "carbs": 11,
+    "fiber": 2,
+    "sugar": 7,
+    "cost": {
+      "specialty": 5,
+      "sweeteners": 1.2,
+      "fats": 0.25,
+      "spices": 0.1
+    }
+  },
+  "w-in-049": {
+    "servings": 6,
+    "kcal": 300,
+    "protein": 9,
+    "fat": 2,
+    "carbs": 57,
+    "fiber": 2,
+    "sugar": 2,
+    "cost": {
+      "grains": 1.2,
+      "dairyEggs": 0.8,
+      "spices": 0.04
+    }
+  },
+  "w-in-050": {
+    "servings": 4,
+    "kcal": 290,
+    "protein": 9,
+    "fat": 12,
+    "carbs": 35,
+    "fiber": 3,
+    "sugar": 2,
+    "cost": {
+      "produce": 0.4,
+      "dairyEggs": 0.8,
+      "grains": 0.5,
+      "fats": 0.4,
+      "spices": 0.6
+    }
+  },
+  "w-ir-001": {
+    "servings": 7,
+    "kcal": 630,
+    "protein": 36,
+    "fat": 25,
+    "carbs": 48,
+    "fiber": 10,
+    "sugar": 4,
+    "cost": {
+      "protein": 13.5,
+      "grains": 1,
+      "produce": 3.1,
+      "specialty": 0.8,
+      "fats": 0.2,
+      "spices": 0.3
+    }
+  },
+  "w-ir-002": {
+    "servings": 10,
+    "kcal": 9,
+    "protein": 0,
+    "fat": 0,
+    "carbs": 2,
+    "fiber": 0,
+    "sugar": 0,
+    "cost": {
+      "spices": 1.5,
+      "specialty": 0.5
+    }
+  },
+  "w-ir-003": {
+    "servings": 5,
+    "kcal": 680,
+    "protein": 24,
+    "fat": 19,
+    "carbs": 85,
+    "fiber": 3,
+    "sugar": 32,
+    "cost": {
+      "specialty": 4.5,
+      "sweeteners": 0.3,
+      "grains": 1,
+      "dairyEggs": 0.5,
+      "protein": 5,
+      "produce": 0.8
+    }
+  },
+  "w-ir-004": {
+    "servings": 5,
+    "kcal": 400,
+    "protein": 13,
+    "fat": 4,
+    "carbs": 75,
+    "fiber": 3,
+    "sugar": 1,
+    "cost": {
+      "grains": 1.2,
+      "fats": 0.1,
+      "spices": 0.05
+    }
+  },
+  "w-ir-005": {
+    "servings": 5,
+    "kcal": 170,
+    "protein": 12,
+    "fat": 13,
+    "carbs": 7,
+    "fiber": 1,
+    "sugar": 5,
+    "cost": {
+      "produce": 1.4,
+      "dairyEggs": 2.5,
+      "fats": 0.3,
+      "specialty": 0.3
+    }
+  },
+  "w-ir-006": {
+    "servings": 5,
+    "kcal": 420,
+    "protein": 22,
+    "fat": 17,
+    "carbs": 33,
+    "fiber": 3,
+    "sugar": 2,
+    "cost": {
+      "produce": 1.1,
+      "protein": 5,
+      "dairyEggs": 0.25,
+      "grains": 0.55,
+      "fats": 0.1,
+      "spices": 0.4
+    }
+  },
+  "w-ir-007": {
+    "servings": 5,
+    "kcal": 860,
+    "protein": 34,
+    "fat": 53,
+    "carbs": 55,
+    "fiber": 4,
+    "sugar": 40,
+    "cost": {
+      "specialty": 10.8,
+      "protein": 7,
+      "produce": 1.3,
+      "fats": 0.1,
+      "sweeteners": 0.05
+    }
+  },
+  "w-ir-008": {
+    "servings": 5,
+    "kcal": 680,
+    "protein": 45,
+    "fat": 32,
+    "carbs": 35,
+    "fiber": 12,
+    "sugar": 5,
+    "cost": {
+      "protein": 11,
+      "grains": 1,
+      "produce": 2.8,
+      "fats": 0.2,
+      "spices": 0.6
+    }
+  },
+  "w-ir-009": {
+    "servings": 5,
+    "kcal": 1100,
+    "protein": 52,
+    "fat": 25,
+    "carbs": 150,
+    "fiber": 12,
+    "sugar": 4,
+    "cost": {
+      "protein": 10,
+      "grains": 4,
+      "produce": 5,
+      "specialty": 1.5,
+      "fats": 0.1,
+      "spices": 0.3
+    }
+  },
+  "w-ir-010": {
+    "servings": 5,
+    "kcal": 650,
+    "protein": 26,
+    "fat": 55,
+    "carbs": 10,
+    "fiber": 2,
+    "sugar": 5,
+    "cost": {
+      "protein": 12,
+      "specialty": 3,
+      "fats": 0.8,
+      "produce": 1.1,
+      "spices": 0.3
+    }
+  },
+  "w-ir-011": {
+    "servings": 5,
+    "kcal": 460,
+    "protein": 38,
+    "fat": 30,
+    "carbs": 4,
+    "fiber": 1,
+    "sugar": 2,
+    "cost": {
+      "protein": 9,
+      "produce": 0.6,
+      "spices": 0.05
+    }
+  },
+  "w-ir-012": {
+    "servings": 5,
+    "kcal": 600,
+    "protein": 38,
+    "fat": 35,
+    "carbs": 20,
+    "fiber": 7,
+    "sugar": 9,
+    "cost": {
+      "protein": 10.7,
+      "produce": 3.8,
+      "fats": 0.4,
+      "specialty": 2,
+      "grains": 0.3,
+      "spices": 0.3
+    }
+  },
+  "w-ir-013": {
+    "servings": 5,
+    "kcal": 520,
+    "protein": 38,
+    "fat": 32,
+    "carbs": 10,
+    "fiber": 5,
+    "sugar": 4,
+    "cost": {
+      "protein": 10.7,
+      "produce": 6.1,
+      "fats": 0.3,
+      "specialty": 0.7,
+      "spices": 0.2
+    }
+  },
+  "w-ir-014": {
+    "servings": 5,
+    "kcal": 700,
+    "protein": 44,
+    "fat": 45,
+    "carbs": 25,
+    "fiber": 10,
+    "sugar": 3,
+    "cost": {
+      "protein": 10.7,
+      "specialty": 8,
+      "produce": 3.3,
+      "fats": 0.2,
+      "spices": 0.3
+    }
+  },
+  "w-ir-015": {
+    "servings": 5,
+    "kcal": 770,
+    "protein": 37,
+    "fat": 39,
+    "carbs": 53,
+    "fiber": 10,
+    "sugar": 3,
+    "cost": {
+      "grains": 1.5,
+      "protein": 8,
+      "produce": 0.6,
+      "specialty": 2,
+      "fats": 0.7,
+      "spices": 0.5
+    }
+  },
+  "w-ir-016": {
+    "servings": 5,
+    "kcal": 290,
+    "protein": 19,
+    "fat": 17,
+    "carbs": 8,
+    "fiber": 1,
+    "sugar": 3,
+    "cost": {
+      "protein": 6,
+      "grains": 0.2,
+      "fats": 0.2,
+      "produce": 0.9,
+      "spices": 0.4
+    }
+  },
+  "w-ir-017": {
+    "servings": 5,
+    "kcal": 210,
+    "protein": 8,
+    "fat": 15,
+    "carbs": 10,
+    "fiber": 3,
+    "sugar": 3,
+    "cost": {
+      "dairyEggs": 1.5,
+      "produce": 4.1,
+      "specialty": 2,
+      "fats": 0.2,
+      "spices": 0.2
+    }
+  },
+  "w-ir-018": {
+    "servings": 18,
+    "kcal": 165,
+    "protein": 0,
+    "fat": 0,
+    "carbs": 41,
+    "fiber": 0,
+    "sugar": 33,
+    "cost": {
+      "sweeteners": 0.9,
+      "grains": 0.4,
+      "spices": 0.05
+    }
+  },
+  "w-ir-019": {
+    "servings": 13,
+    "kcal": 190,
+    "protein": 4,
+    "fat": 11,
+    "carbs": 20,
+    "fiber": 0,
+    "sugar": 10,
+    "cost": {
+      "grains": 0.5,
+      "dairyEggs": 1.4,
+      "fats": 0.8,
+      "sweeteners": 0.5,
+      "specialty": 1.2
+    }
+  },
+  "w-ir-020": {
+    "servings": 13,
+    "kcal": 180,
+    "protein": 2,
+    "fat": 8,
+    "carbs": 25,
+    "fiber": 0,
+    "sugar": 6,
+    "cost": {
+      "dairyEggs": 1.4,
+      "sweeteners": 0.3,
+      "grains": 1.2,
+      "specialty": 0.3,
+      "spices": 0.3
+    }
+  },
+  "w-ir-021": {
+    "servings": 13,
+    "kcal": 150,
+    "protein": 3,
+    "fat": 10,
+    "carbs": 14,
+    "fiber": 1,
+    "sugar": 5,
+    "cost": {
+      "fats": 0.5,
+      "sweeteners": 0.25,
+      "grains": 1,
+      "specialty": 0.5,
+      "spices": 0.3
+    }
+  },
+  "w-ir-022": {
+    "servings": 5,
+    "kcal": 150,
+    "protein": 8,
+    "fat": 12,
+    "carbs": 5,
+    "fiber": 2,
+    "sugar": 2,
+    "cost": {
+      "produce": 2.5,
+      "dairyEggs": 1.2,
+      "fats": 0.2
+    }
+  },
+  "w-ir-023": {
+    "servings": 5,
+    "kcal": 360,
+    "protein": 12,
+    "fat": 22,
+    "carbs": 28,
+    "fiber": 4,
+    "sugar": 3,
+    "cost": {
+      "produce": 3.5,
+      "dairyEggs": 1.3,
+      "protein": 1.5,
+      "fats": 0.8
+    }
+  },
+  "w-ir-024": {
+    "servings": 13,
+    "kcal": 210,
+    "protein": 4,
+    "fat": 15,
+    "carbs": 17,
+    "fiber": 1,
+    "sugar": 7,
+    "cost": {
+      "dairyEggs": 2,
+      "grains": 0.3,
+      "specialty": 3.5,
+      "sweeteners": 0.4,
+      "spices": 0.4
+    }
+  },
+  "w-ir-025": {
+    "servings": 5,
+    "kcal": 670,
+    "protein": 10,
+    "fat": 40,
+    "carbs": 68,
+    "fiber": 1,
+    "sugar": 60,
+    "cost": {
+      "dairyEggs": 6,
+      "specialty": 4.3
+    }
+  },
+  "w-ir-026": {
+    "servings": 5,
+    "kcal": 520,
+    "protein": 10,
+    "fat": 9,
+    "carbs": 105,
+    "fiber": 5,
+    "sugar": 2,
+    "cost": {
+      "grains": 2,
+      "produce": 4.1,
+      "fats": 0.3,
+      "specialty": 0.5,
+      "spices": 0.05
+    }
+  },
+  "w-ir-027": {
+    "servings": 5,
+    "kcal": 750,
+    "protein": 11,
+    "fat": 24,
+    "carbs": 125,
+    "fiber": 6,
+    "sugar": 45,
+    "cost": {
+      "grains": 2,
+      "produce": 1.8,
+      "dairyEggs": 0.5,
+      "fats": 0.1,
+      "sweeteners": 0.1,
+      "specialty": 4.2
+    }
+  },
+  "w-ir-028": {
+    "servings": 5,
+    "kcal": 420,
+    "protein": 1,
+    "fat": 1,
+    "carbs": 108,
+    "fiber": 4,
+    "sugar": 95,
+    "cost": {
+      "produce": 9,
+      "sweeteners": 0.8
+    }
+  },
+  "w-ir-029": {
+    "servings": 5,
+    "kcal": 640,
+    "protein": 28,
+    "fat": 16,
+    "carbs": 85,
+    "fiber": 3,
+    "sugar": 8,
+    "cost": {
+      "protein": 3,
+      "grains": 2,
+      "dairyEggs": 2.5,
+      "fats": 0.1,
+      "specialty": 2.3,
+      "spices": 0.3
+    }
+  },
+  "w-ir-030": {
+    "servings": 12,
+    "kcal": 250,
+    "protein": 5,
+    "fat": 14,
+    "carbs": 29,
+    "fiber": 1,
+    "sugar": 18,
+    "cost": {
+      "dairyEggs": 1.4,
+      "sweeteners": 0.5,
+      "fats": 0.4,
+      "grains": 0.5,
+      "specialty": 0.3,
+      "spices": 0.4
+    }
+  },
+  "w-ir-031": {
+    "servings": 5,
+    "kcal": 640,
+    "protein": 28,
+    "fat": 20,
+    "carbs": 70,
+    "fiber": 4,
+    "sugar": 6,
+    "cost": {
+      "protein": 5,
+      "fats": 0.4,
+      "produce": 1.4,
+      "specialty": 2,
+      "grains": 0.8,
+      "sweeteners": 0.05,
+      "spices": 0.3
+    }
+  },
+  "w-it-001": {
+    "servings": 5,
+    "kcal": 360,
+    "protein": 16,
+    "fat": 9,
+    "carbs": 42,
+    "fiber": 2,
+    "sugar": 1,
+    "cost": {
+      "grains": 0.5,
+      "dairyEggs": 3.55,
+      "produce": 0.3,
+      "spices": 0.1
+    }
+  },
+  "w-it-002": {
+    "servings": 5,
+    "kcal": 340,
+    "protein": 10,
+    "fat": 12,
+    "carbs": 48,
+    "fiber": 3,
+    "sugar": 2,
+    "cost": {
+      "grains": 3,
+      "fats": 0.5,
+      "produce": 0.2
+    }
+  },
+  "w-it-003": {
+    "servings": 4,
+    "kcal": 530,
+    "protein": 16,
+    "fat": 29,
+    "carbs": 39,
+    "fiber": 6,
+    "sugar": 2,
+    "cost": {
+      "grains": 1.5,
+      "fats": 0.5,
+      "produce": 3.4,
+      "dairyEggs": 7
+    }
+  },
+  "w-it-004": {
+    "servings": 5,
+    "kcal": 580,
+    "protein": 20,
+    "fat": 23,
+    "carbs": 58,
+    "fiber": 4,
+    "sugar": 4,
+    "cost": {
+      "grains": 1.5,
+      "produce": 2,
+      "protein": 3,
+      "dairyEggs": 2.7,
+      "fats": 0.3,
+      "spices": 0.2
+    }
+  },
+  "w-it-005": {
+    "servings": 7,
+    "kcal": 660,
+    "protein": 6,
+    "fat": 40,
+    "carbs": 61,
+    "fiber": 3,
+    "sugar": 45,
+    "cost": {
+      "dairyEggs": 5.7,
+      "sweeteners": 0.6,
+      "grains": 2.5,
+      "specialty": 4.8,
+      "produce": 1
+    }
+  },
+  "w-it-006": {
+    "servings": 5,
+    "kcal": 550,
+    "protein": 19,
+    "fat": 24,
+    "carbs": 56,
+    "fiber": 3,
+    "sugar": 3,
+    "cost": {
+      "grains": 1.5,
+      "dairyEggs": 4,
+      "fats": 0.4,
+      "specialty": 0.8,
+      "produce": 1.4
+    }
+  },
+  "w-it-007": {
+    "servings": 5,
+    "kcal": 390,
+    "protein": 14,
+    "fat": 1,
+    "carbs": 80,
+    "fiber": 3,
+    "sugar": 0,
+    "cost": {
+      "grains": 1.1,
+      "spices": 0.15
+    }
+  },
+  "w-it-008": {
+    "servings": 7,
+    "kcal": 610,
+    "protein": 13,
+    "fat": 13,
+    "carbs": 100,
+    "fiber": 3,
+    "sugar": 45,
+    "cost": {
+      "grains": 1,
+      "sweeteners": 0.6,
+      "dairyEggs": 1.7,
+      "specialty": 5.3
+    }
+  },
+  "w-it-009": {
+    "servings": 5,
+    "kcal": 600,
+    "protein": 25,
+    "fat": 32,
+    "carbs": 40,
+    "fiber": 3,
+    "sugar": 2,
+    "cost": {
+      "protein": 4,
+      "grains": 1,
+      "dairyEggs": 1,
+      "specialty": 4.5,
+      "fats": 0.8,
+      "produce": 0.7,
+      "spices": 0.1
+    }
+  },
+  "w-it-010": {
+    "servings": 4,
+    "kcal": 560,
+    "protein": 13,
+    "fat": 33,
+    "carbs": 45,
+    "fiber": 2,
+    "sugar": 2,
+    "cost": {
+      "grains": 3,
+      "dairyEggs": 3.9,
+      "protein": 0.3
+    }
+  },
+  "w-it-011": {
+    "servings": 5,
+    "kcal": 350,
+    "protein": 17,
+    "fat": 22,
+    "carbs": 20,
+    "fiber": 6,
+    "sugar": 9,
+    "cost": {
+      "produce": 7.9,
+      "dairyEggs": 6.5,
+      "fats": 0.3,
+      "spices": 0.5
+    }
+  },
+  "w-it-012": {
+    "servings": 5,
+    "kcal": 320,
+    "protein": 8,
+    "fat": 14,
+    "carbs": 42,
+    "fiber": 2,
+    "sugar": 0,
+    "cost": {
+      "grains": 0.6,
+      "fats": 0.5,
+      "spices": 0.15
+    }
+  },
+  "w-it-013": {
+    "servings": 5,
+    "kcal": 200,
+    "protein": 9,
+    "fat": 12,
+    "carbs": 15,
+    "fiber": 2,
+    "sugar": 5,
+    "cost": {
+      "produce": 1.3,
+      "dairyEggs": 1.6,
+      "fats": 0.2
+    }
+  },
+  "w-it-014": {
+    "servings": 5,
+    "kcal": 410,
+    "protein": 7,
+    "fat": 27,
+    "carbs": 33,
+    "fiber": 0,
+    "sugar": 31,
+    "cost": {
+      "dairyEggs": 3.2,
+      "sweeteners": 0.4,
+      "specialty": 0.8
+    }
+  },
+  "w-it-015": {
+    "servings": 5,
+    "kcal": 500,
+    "protein": 17,
+    "fat": 15,
+    "carbs": 65,
+    "fiber": 5,
+    "sugar": 5,
+    "cost": {
+      "produce": 3.4,
+      "grains": 0.3,
+      "dairyEggs": 3.6,
+      "fats": 0.2,
+      "spices": 0.1
+    }
+  },
+  "w-it-016": {
+    "servings": 5,
+    "kcal": 500,
+    "protein": 19,
+    "fat": 14,
+    "carbs": 62,
+    "fiber": 5,
+    "sugar": 4,
+    "cost": {
+      "dairyEggs": 3.8,
+      "grains": 1.3,
+      "produce": 4.3,
+      "fats": 0.2,
+      "spices": 0.1
+    }
+  },
+  "w-it-017": {
+    "servings": 5,
+    "kcal": 570,
+    "protein": 23,
+    "fat": 15,
+    "carbs": 70,
+    "fiber": 5,
+    "sugar": 4,
+    "cost": {
+      "grains": 0.8,
+      "protein": 5,
+      "produce": 2.4,
+      "specialty": 0.8,
+      "dairyEggs": 1.5
+    }
+  },
+  "w-it-018": {
+    "servings": 22,
+    "kcal": 140,
+    "protein": 2,
+    "fat": 9,
+    "carbs": 15,
+    "fiber": 1,
+    "sugar": 8,
+    "cost": {
+      "grains": 0.5,
+      "dairyEggs": 1.6,
+      "specialty": 3.5,
+      "sweeteners": 0.1
+    }
+  },
+  "w-it-019": {
+    "servings": 5,
+    "kcal": 350,
+    "protein": 10,
+    "fat": 14,
+    "carbs": 50,
+    "fiber": 8,
+    "sugar": 8,
+    "cost": {
+      "produce": 10.2,
+      "grains": 0.7,
+      "fats": 0.4,
+      "dairyEggs": 0.5,
+      "spices": 0.1
+    }
+  },
+  "w-it-020": {
+    "servings": 5,
+    "kcal": 320,
+    "protein": 10,
+    "fat": 6,
+    "carbs": 57,
+    "fiber": 3,
+    "sugar": 0,
+    "cost": {
+      "grains": 0.8,
+      "fats": 0.2,
+      "spices": 0.55
+    }
+  },
+  "w-it-021": {
+    "servings": 9,
+    "kcal": 380,
+    "protein": 5,
+    "fat": 16,
+    "carbs": 56,
+    "fiber": 4,
+    "sugar": 45,
+    "cost": {
+      "sweeteners": 2.1,
+      "specialty": 9.3,
+      "spices": 0.3
+    }
+  },
+  "w-it-022": {
+    "servings": 13,
+    "kcal": 175,
+    "protein": 6,
+    "fat": 1,
+    "carbs": 36,
+    "fiber": 1,
+    "sugar": 0,
+    "cost": {
+      "grains": 1.35,
+      "spices": 0.15
+    }
+  },
+  "w-it-023": {
+    "servings": 5,
+    "kcal": 610,
+    "protein": 20,
+    "fat": 29,
+    "carbs": 53,
+    "fiber": 3,
+    "sugar": 4,
+    "cost": {
+      "grains": 1.5,
+      "dairyEggs": 3,
+      "produce": 1,
+      "fats": 0.7,
+      "spices": 0.1
+    }
+  },
+  "w-it-024": {
+    "servings": 5,
+    "kcal": 470,
+    "protein": 12,
+    "fat": 13,
+    "carbs": 75,
+    "fiber": 6,
+    "sugar": 12,
+    "cost": {
+      "produce": 4,
+      "protein": 1.5,
+      "grains": 2.5,
+      "fats": 0.4
+    }
+  },
+  "w-it-025": {
+    "servings": 5,
+    "kcal": 410,
+    "protein": 13,
+    "fat": 14,
+    "carbs": 52,
+    "fiber": 4,
+    "sugar": 8,
+    "cost": {
+      "grains": 1,
+      "produce": 2.8,
+      "dairyEggs": 2.5,
+      "fats": 0.3,
+      "spices": 0.2
+    }
+  },
+  "w-it-026": {
+    "servings": 5,
+    "kcal": 640,
+    "protein": 25,
+    "fat": 22,
+    "carbs": 75,
+    "fiber": 12,
+    "sugar": 2,
+    "cost": {
+      "grains": 2.8,
+      "fats": 1.3,
+      "produce": 0.4,
+      "spices": 0.3
+    }
+  },
   "w-jp-001": {
     "servings": 10,
     "kcal": 180,
@@ -1815,6 +4039,1061 @@ export const WORLD_RECIPE_ESTIMATES: Record<string, RecipeEstimate> = {
       "produce": 1.2,
       "spices": 0.15,
       "specialty": 0.75
+    }
+  },
+  "w-kr-001": {
+    "servings": 6,
+    "kcal": 960,
+    "protein": 31,
+    "fat": 38,
+    "carbs": 100,
+    "fiber": 5,
+    "sugar": 20,
+    "cost": {
+      "protein": 10,
+      "grains": 1.5,
+      "dairyEggs": 1.5,
+      "produce": 5.4,
+      "fats": 0.8,
+      "specialty": 1.5,
+      "sweeteners": 0.4,
+      "spices": 0.4
+    }
+  },
+  "w-kr-002": {
+    "servings": 5,
+    "kcal": 80,
+    "protein": 1,
+    "fat": 8,
+    "carbs": 3,
+    "fiber": 1,
+    "sugar": 1,
+    "cost": {
+      "produce": 0.5,
+      "fats": 0.3,
+      "specialty": 0.5,
+      "spices": 0.05
+    }
+  },
+  "w-kr-003": {
+    "servings": 5,
+    "kcal": 150,
+    "protein": 4,
+    "fat": 3,
+    "carbs": 28,
+    "fiber": 2,
+    "sugar": 20,
+    "cost": {
+      "specialty": 2.5,
+      "dairyEggs": 0.4,
+      "produce": 2,
+      "grains": 0.5
+    }
+  },
+  "w-kr-004": {
+    "servings": 5,
+    "kcal": 20,
+    "protein": 1,
+    "fat": 1,
+    "carbs": 2,
+    "fiber": 0,
+    "sugar": 1,
+    "cost": {
+      "produce": 1.1,
+      "fats": 0.1,
+      "specialty": 0.3
+    }
+  },
+  "w-kr-005": {
+    "servings": 5,
+    "kcal": 100,
+    "protein": 3,
+    "fat": 6,
+    "carbs": 11,
+    "fiber": 1,
+    "sugar": 1,
+    "cost": {
+      "produce": 1.2,
+      "grains": 0.3,
+      "fats": 0.3,
+      "specialty": 0.1,
+      "spices": 0.25
+    }
+  },
+  "w-kr-006": {
+    "servings": 5,
+    "kcal": 670,
+    "protein": 23,
+    "fat": 40,
+    "carbs": 35,
+    "fiber": 3,
+    "sugar": 6,
+    "cost": {
+      "protein": 9,
+      "grains": 1.5,
+      "produce": 2.4,
+      "specialty": 3.8,
+      "dairyEggs": 0.3,
+      "spices": 0.3
+    }
+  },
+  "w-kr-007": {
+    "servings": 5,
+    "kcal": 40,
+    "protein": 0,
+    "fat": 3,
+    "carbs": 4,
+    "fiber": 0,
+    "sugar": 3,
+    "cost": {
+      "specialty": 1,
+      "fats": 0.4,
+      "sweeteners": 0.05
+    }
+  },
+  "w-kr-008": {
+    "servings": 5,
+    "kcal": 80,
+    "protein": 3,
+    "fat": 1,
+    "carbs": 15,
+    "fiber": 4,
+    "sugar": 8,
+    "cost": {
+      "produce": 5,
+      "spices": 1.6,
+      "specialty": 0.5,
+      "sweeteners": 0.05,
+      "grains": 0.05
+    }
+  },
+  "w-kr-009": {
+    "servings": 5,
+    "kcal": 65,
+    "protein": 6,
+    "fat": 2,
+    "carbs": 6,
+    "fiber": 1,
+    "sugar": 2,
+    "cost": {
+      "grains": 0.8,
+      "specialty": 0.7,
+      "produce": 1.1,
+      "spices": 0.1
+    }
+  },
+  "w-kr-010": {
+    "servings": 5,
+    "kcal": 360,
+    "protein": 10,
+    "fat": 13,
+    "carbs": 50,
+    "fiber": 4,
+    "sugar": 8,
+    "cost": {
+      "protein": 2,
+      "grains": 0.8,
+      "produce": 3,
+      "specialty": 0.8,
+      "fats": 0.2,
+      "sweeteners": 0.1
+    }
+  },
+  "w-kr-011": {
+    "servings": 4,
+    "kcal": 475,
+    "protein": 23,
+    "fat": 20,
+    "carbs": 45,
+    "fiber": 2,
+    "sugar": 3,
+    "cost": {
+      "specialty": 1.5,
+      "protein": 3.5,
+      "dairyEggs": 1,
+      "grains": 0.5,
+      "fats": 0.3,
+      "produce": 0.8
+    }
+  },
+  "w-kr-012": {
+    "servings": 12,
+    "kcal": 290,
+    "protein": 5,
+    "fat": 9,
+    "carbs": 48,
+    "fiber": 2,
+    "sugar": 14,
+    "cost": {
+      "grains": 2.8,
+      "dairyEggs": 0.3,
+      "specialty": 2,
+      "fats": 0.8,
+      "sweeteners": 0.1,
+      "spices": 0.05
+    }
+  },
+  "w-kr-013": {
+    "servings": 5,
+    "kcal": 140,
+    "protein": 4,
+    "fat": 2,
+    "carbs": 28,
+    "fiber": 2,
+    "sugar": 4,
+    "cost": {
+      "grains": 1,
+      "specialty": 1,
+      "produce": 0.3,
+      "dairyEggs": 0.2,
+      "sweeteners": 0.05,
+      "spices": 0.1,
+      "fats": 0.05
+    }
+  },
+  "w-kr-014": {
+    "servings": 5,
+    "kcal": 60,
+    "protein": 1,
+    "fat": 0,
+    "carbs": 15,
+    "fiber": 1,
+    "sugar": 12,
+    "cost": {
+      "produce": 3,
+      "specialty": 0.8,
+      "sweeteners": 0.7,
+      "spices": 0.5
+    }
+  },
+  "w-kr-015": {
+    "servings": 7,
+    "kcal": 90,
+    "protein": 0,
+    "fat": 0,
+    "carbs": 22,
+    "fiber": 1,
+    "sugar": 18,
+    "cost": {
+      "produce": 0.4,
+      "spices": 0.3,
+      "sweeteners": 0.3,
+      "specialty": 2.5
+    }
+  },
+  "w-kr-016": {
+    "servings": 5,
+    "kcal": 75,
+    "protein": 6,
+    "fat": 6,
+    "carbs": 1,
+    "fiber": 0,
+    "sugar": 0,
+    "cost": {
+      "dairyEggs": 1,
+      "specialty": 0.2,
+      "fats": 0.05,
+      "produce": 0.1
+    }
+  },
+  "w-kr-017": {
+    "servings": 2.5,
+    "kcal": 520,
+    "protein": 12,
+    "fat": 24,
+    "carbs": 62,
+    "fiber": 3,
+    "sugar": 6,
+    "cost": {
+      "grains": 3,
+      "fats": 0.1
+    }
+  },
+  "w-kr-018": {
+    "servings": 5,
+    "kcal": 120,
+    "protein": 3,
+    "fat": 3,
+    "carbs": 21,
+    "fiber": 2,
+    "sugar": 9,
+    "cost": {
+      "produce": 1.2,
+      "specialty": 0.7,
+      "sweeteners": 0.45,
+      "fats": 0.1
+    }
+  },
+  "w-kr-019": {
+    "servings": 20,
+    "kcal": 25,
+    "protein": 1,
+    "fat": 0,
+    "carbs": 5,
+    "fiber": 2,
+    "sugar": 2,
+    "cost": {
+      "produce": 4.6,
+      "spices": 1.1,
+      "specialty": 1,
+      "sweeteners": 0.05
+    }
+  },
+  "w-kr-020": {
+    "servings": 4,
+    "kcal": 210,
+    "protein": 7,
+    "fat": 7,
+    "carbs": 32,
+    "fiber": 3,
+    "sugar": 12,
+    "cost": {
+      "grains": 0.8,
+      "dairyEggs": 0.25,
+      "specialty": 0.9,
+      "sweeteners": 0.1,
+      "produce": 2.3,
+      "fats": 0.1,
+      "spices": 0.2
+    }
+  },
+  "w-kr-021": {
+    "servings": 10,
+    "kcal": 15,
+    "protein": 0,
+    "fat": 0,
+    "carbs": 4,
+    "fiber": 0,
+    "sugar": 3,
+    "cost": {
+      "produce": 1.5,
+      "sweeteners": 0.4,
+      "specialty": 0.3,
+      "spices": 0.35
+    }
+  },
+  "w-kr-022": {
+    "servings": 5,
+    "kcal": 310,
+    "protein": 12,
+    "fat": 6,
+    "carbs": 42,
+    "fiber": 1,
+    "sugar": 2,
+    "cost": {
+      "protein": 5.5,
+      "grains": 2.5,
+      "dairyEggs": 0.2,
+      "produce": 0.2,
+      "specialty": 0.2,
+      "spices": 0.1
+    }
+  },
+  "w-kr-023": {
+    "servings": 5,
+    "kcal": 30,
+    "protein": 1,
+    "fat": 0,
+    "carbs": 7,
+    "fiber": 1,
+    "sugar": 2,
+    "cost": {
+      "grains": 0.1,
+      "produce": 1
+    }
+  },
+  "w-kr-024": {
+    "servings": 5,
+    "kcal": 80,
+    "protein": 6,
+    "fat": 4,
+    "carbs": 4,
+    "fiber": 1,
+    "sugar": 1,
+    "cost": {
+      "specialty": 1,
+      "protein": 1.5,
+      "fats": 0.1,
+      "spices": 0.2
+    }
+  },
+  "w-kr-025": {
+    "servings": 5,
+    "kcal": 560,
+    "protein": 35,
+    "fat": 20,
+    "carbs": 51,
+    "fiber": 4,
+    "sugar": 9,
+    "cost": {
+      "protein": 7,
+      "grains": 2,
+      "dairyEggs": 0.5,
+      "produce": 3.1,
+      "specialty": 0.5,
+      "sweeteners": 0.05,
+      "spices": 0.1
+    }
+  },
+  "w-kr-026": {
+    "servings": 5,
+    "kcal": 25,
+    "protein": 1,
+    "fat": 1,
+    "carbs": 3,
+    "fiber": 1,
+    "sugar": 0,
+    "cost": {
+      "produce": 2.2,
+      "fats": 0.05,
+      "specialty": 0.1,
+      "spices": 0.05
+    }
+  },
+  "w-kr-027": {
+    "servings": 10,
+    "kcal": 25,
+    "protein": 0,
+    "fat": 0,
+    "carbs": 6,
+    "fiber": 1,
+    "sugar": 4,
+    "cost": {
+      "produce": 2,
+      "sweeteners": 0.2,
+      "spices": 0.5
+    }
+  },
+  "w-kr-028": {
+    "servings": 5,
+    "kcal": 130,
+    "protein": 4,
+    "fat": 10,
+    "carbs": 8,
+    "fiber": 1,
+    "sugar": 5,
+    "cost": {
+      "grains": 0.6,
+      "specialty": 1.1,
+      "fats": 0.3,
+      "sweeteners": 0.1,
+      "produce": 0.2
+    }
+  },
+  "w-kr-029": {
+    "servings": 5,
+    "kcal": 230,
+    "protein": 7,
+    "fat": 1,
+    "carbs": 48,
+    "fiber": 3,
+    "sugar": 3,
+    "cost": {
+      "grains": 0.5,
+      "produce": 1,
+      "specialty": 0.6,
+      "spices": 0.6,
+      "fats": 0.05
+    }
+  },
+  "w-kr-030": {
+    "servings": 5,
+    "kcal": 120,
+    "protein": 11,
+    "fat": 7,
+    "carbs": 4,
+    "fiber": 1,
+    "sugar": 1,
+    "cost": {
+      "grains": 1.5,
+      "protein": 3,
+      "produce": 1.1,
+      "dairyEggs": 0.25,
+      "fats": 0.4,
+      "specialty": 0.3,
+      "spices": 0.1
+    }
+  },
+  "w-kr-031": {
+    "servings": 5,
+    "kcal": 190,
+    "protein": 4,
+    "fat": 1,
+    "carbs": 42,
+    "fiber": 1,
+    "sugar": 6,
+    "cost": {
+      "grains": 2.5,
+      "specialty": 0.65,
+      "sweeteners": 0.05,
+      "spices": 0.1,
+      "fats": 0.05
+    }
+  },
+  "w-kr-032": {
+    "servings": 5,
+    "kcal": 340,
+    "protein": 13,
+    "fat": 8,
+    "carbs": 48,
+    "fiber": 1,
+    "sugar": 2,
+    "cost": {
+      "grains": 3,
+      "protein": 2.5,
+      "dairyEggs": 0.2,
+      "produce": 0.5,
+      "fats": 0.05,
+      "specialty": 0.2,
+      "spices": 0.1
+    }
+  },
+  "w-kr-033": {
+    "servings": 5,
+    "kcal": 360,
+    "protein": 21,
+    "fat": 23,
+    "carbs": 14,
+    "fiber": 4,
+    "sugar": 4,
+    "cost": {
+      "protein": 6,
+      "produce": 3.9,
+      "fats": 0.3,
+      "dairyEggs": 0.5,
+      "specialty": 1,
+      "spices": 0.6,
+      "sweeteners": 0.05
+    }
+  },
+  "w-lb-001": {
+    "servings": 5,
+    "kcal": 620,
+    "protein": 28,
+    "fat": 22,
+    "carbs": 65,
+    "fiber": 3,
+    "sugar": 4,
+    "cost": {
+      "grains": 0.9,
+      "spices": 0.5,
+      "sweeteners": 0.05,
+      "fats": 0.1,
+      "dairyEggs": 8
+    }
+  },
+  "w-lb-002": {
+    "servings": 5,
+    "kcal": 160,
+    "protein": 4,
+    "fat": 14,
+    "carbs": 10,
+    "fiber": 4,
+    "sugar": 4,
+    "cost": {
+      "produce": 2.8,
+      "specialty": 1.3,
+      "fats": 0.2,
+      "grains": 0.5
+    }
+  },
+  "w-lb-003": {
+    "servings": 5,
+    "kcal": 220,
+    "protein": 7,
+    "fat": 11,
+    "carbs": 25,
+    "fiber": 7,
+    "sugar": 4,
+    "cost": {
+      "grains": 2,
+      "fats": 0.5,
+      "produce": 2.7,
+      "spices": 0.3
+    }
+  },
+  "w-lb-004": {
+    "servings": 5,
+    "kcal": 660,
+    "protein": 24,
+    "fat": 26,
+    "carbs": 67,
+    "fiber": 3,
+    "sugar": 8,
+    "cost": {
+      "grains": 0.8,
+      "protein": 2.5,
+      "fats": 0.6,
+      "specialty": 1,
+      "dairyEggs": 3,
+      "produce": 0.5,
+      "spices": 0.5
+    }
+  },
+  "w-lb-005": {
+    "servings": 5,
+    "kcal": 200,
+    "protein": 5,
+    "fat": 11,
+    "carbs": 22,
+    "fiber": 4,
+    "sugar": 1,
+    "cost": {
+      "produce": 1.9,
+      "fats": 0.5,
+      "spices": 0.3
+    }
+  },
+  "w-lb-006": {
+    "servings": 5,
+    "kcal": 50,
+    "protein": 2,
+    "fat": 2,
+    "carbs": 6,
+    "fiber": 3,
+    "sugar": 3,
+    "cost": {
+      "produce": 2.2,
+      "fats": 0.1,
+      "spices": 0.05
+    }
+  },
+  "w-lb-007": {
+    "servings": 5,
+    "kcal": 390,
+    "protein": 11,
+    "fat": 7,
+    "carbs": 72,
+    "fiber": 3,
+    "sugar": 7,
+    "cost": {
+      "grains": 0.9,
+      "fats": 0.2,
+      "sweeteners": 0.4,
+      "spices": 0.15
+    }
+  },
+  "w-lb-008": {
+    "servings": 5,
+    "kcal": 220,
+    "protein": 8,
+    "fat": 1,
+    "carbs": 46,
+    "fiber": 10,
+    "sugar": 0,
+    "cost": {
+      "grains": 1.5,
+      "spices": 0.05
+    }
+  },
+  "w-lb-009": {
+    "servings": 5,
+    "kcal": 360,
+    "protein": 20,
+    "fat": 18,
+    "carbs": 25,
+    "fiber": 5,
+    "sugar": 8,
+    "cost": {
+      "protein": 5,
+      "produce": 3,
+      "grains": 0.2,
+      "fats": 0.2,
+      "specialty": 1.1,
+      "spices": 0.3
+    }
+  },
+  "w-lb-010": {
+    "servings": 7,
+    "kcal": 500,
+    "protein": 10,
+    "fat": 29,
+    "carbs": 44,
+    "fiber": 3,
+    "sugar": 30,
+    "cost": {
+      "specialty": 4.8,
+      "grains": 0.5,
+      "dairyEggs": 2.1,
+      "sweeteners": 0.6
+    }
+  },
+  "w-lb-011": {
+    "servings": 10,
+    "kcal": 9,
+    "protein": 0,
+    "fat": 0,
+    "carbs": 2,
+    "fiber": 0,
+    "sugar": 0,
+    "cost": {
+      "spices": 1.85
+    }
+  },
+  "w-lb-012": {
+    "servings": 25,
+    "kcal": 120,
+    "protein": 2,
+    "fat": 8,
+    "carbs": 13,
+    "fiber": 1,
+    "sugar": 10,
+    "cost": {
+      "specialty": 9
+    }
+  },
+  "w-lb-013": {
+    "servings": 5,
+    "kcal": 380,
+    "protein": 15,
+    "fat": 25,
+    "carbs": 25,
+    "fiber": 5,
+    "sugar": 2,
+    "cost": {
+      "produce": 4.15,
+      "protein": 3,
+      "dairyEggs": 0.3,
+      "specialty": 0.1,
+      "grains": 3
+    }
+  },
+  "w-lb-014": {
+    "servings": 5,
+    "kcal": 410,
+    "protein": 18,
+    "fat": 11,
+    "carbs": 52,
+    "fiber": 14,
+    "sugar": 4,
+    "cost": {
+      "grains": 2,
+      "produce": 2.3,
+      "specialty": 0.8,
+      "fats": 0.1,
+      "spices": 0.4
+    }
+  },
+  "w-lb-015": {
+    "servings": 13,
+    "kcal": 250,
+    "protein": 11,
+    "fat": 10,
+    "carbs": 28,
+    "fiber": 1,
+    "sugar": 1,
+    "cost": {
+      "grains": 0.8,
+      "dairyEggs": 4.5,
+      "fats": 0.3,
+      "sweeteners": 0.05,
+      "produce": 0.2,
+      "spices": 0.2
+    }
+  },
+  "w-lb-016": {
+    "servings": 5,
+    "kcal": 400,
+    "protein": 15,
+    "fat": 17,
+    "carbs": 36,
+    "fiber": 8,
+    "sugar": 8,
+    "cost": {
+      "grains": 2.8,
+      "dairyEggs": 3,
+      "specialty": 2.6,
+      "fats": 0.2,
+      "produce": 0.4,
+      "spices": 0.2
+    }
+  },
+  "w-lb-017": {
+    "servings": 5,
+    "kcal": 200,
+    "protein": 3,
+    "fat": 17,
+    "carbs": 12,
+    "fiber": 3,
+    "sugar": 4,
+    "cost": {
+      "produce": 4.4,
+      "grains": 0.8,
+      "fats": 0.6,
+      "spices": 0.2,
+      "specialty": 0.2
+    }
+  },
+  "w-lb-018": {
+    "servings": 5,
+    "kcal": 180,
+    "protein": 9,
+    "fat": 15,
+    "carbs": 3,
+    "fiber": 1,
+    "sugar": 2,
+    "cost": {
+      "dairyEggs": 6,
+      "fats": 0.2,
+      "produce": 1.6,
+      "spices": 0.3
+    }
+  },
+  "w-lb-019": {
+    "servings": 5,
+    "kcal": 280,
+    "protein": 14,
+    "fat": 15,
+    "carbs": 24,
+    "fiber": 2,
+    "sugar": 3,
+    "cost": {
+      "specialty": 3,
+      "protein": 2.5,
+      "dairyEggs": 0.4,
+      "produce": 0.3,
+      "spices": 0.1
+    }
+  },
+  "w-lb-020": {
+    "servings": 5,
+    "kcal": 350,
+    "protein": 20,
+    "fat": 22,
+    "carbs": 20,
+    "fiber": 5,
+    "sugar": 2,
+    "cost": {
+      "grains": 0.8,
+      "protein": 5,
+      "dairyEggs": 0.5,
+      "produce": 1.2,
+      "fats": 0.1,
+      "spices": 0.5
+    }
+  },
+  "w-lb-021": {
+    "servings": 5,
+    "kcal": 700,
+    "protein": 40,
+    "fat": 42,
+    "carbs": 40,
+    "fiber": 8,
+    "sugar": 3,
+    "cost": {
+      "protein": 10,
+      "grains": 1.2,
+      "specialty": 2.5,
+      "fats": 0.3,
+      "produce": 1.2,
+      "spices": 1.1
+    }
+  },
+  "w-lb-022": {
+    "servings": 7,
+    "kcal": 480,
+    "protein": 9,
+    "fat": 22,
+    "carbs": 50,
+    "fiber": 1,
+    "sugar": 35,
+    "cost": {
+      "grains": 3,
+      "dairyEggs": 4.6,
+      "sweeteners": 0.6,
+      "specialty": 0.3,
+      "produce": 0.1
+    }
+  },
+  "w-lb-023": {
+    "servings": 12,
+    "kcal": 240,
+    "protein": 8,
+    "fat": 12,
+    "carbs": 28,
+    "fiber": 1,
+    "sugar": 18,
+    "cost": {
+      "dairyEggs": 4.5,
+      "grains": 0.5,
+      "sweeteners": 0.8,
+      "specialty": 4.2
+    }
+  },
+  "w-lb-024": {
+    "servings": 5,
+    "kcal": 500,
+    "protein": 19,
+    "fat": 19,
+    "carbs": 57,
+    "fiber": 3,
+    "sugar": 2,
+    "cost": {
+      "grains": 0.8,
+      "fats": 0.4,
+      "dairyEggs": 3.8,
+      "spices": 0.15
+    }
+  },
+  "w-lb-025": {
+    "servings": 5,
+    "kcal": 380,
+    "protein": 10,
+    "fat": 22,
+    "carbs": 30,
+    "fiber": 6,
+    "sugar": 5,
+    "cost": {
+      "produce": 4.5,
+      "specialty": 7.5,
+      "dairyEggs": 2,
+      "grains": 2,
+      "fats": 0.2,
+      "spices": 0.2
+    }
+  },
+  "w-lb-026": {
+    "servings": 8,
+    "kcal": 165,
+    "protein": 5,
+    "fat": 5,
+    "carbs": 25,
+    "fiber": 0,
+    "sugar": 14,
+    "cost": {
+      "dairyEggs": 1.5,
+      "sweeteners": 0.3,
+      "grains": 0.2,
+      "specialty": 1.7
+    }
+  },
+  "w-lb-027": {
+    "servings": 5,
+    "kcal": 185,
+    "protein": 8,
+    "fat": 6,
+    "carbs": 28,
+    "fiber": 6,
+    "sugar": 1,
+    "cost": {
+      "grains": 1.1,
+      "fats": 0.2,
+      "produce": 0.3,
+      "spices": 0.3
+    }
+  },
+  "w-lb-028": {
+    "servings": 5,
+    "kcal": 500,
+    "protein": 20,
+    "fat": 13,
+    "carbs": 64,
+    "fiber": 1,
+    "sugar": 32,
+    "cost": {
+      "grains": 0.6,
+      "dairyEggs": 5.8,
+      "sweeteners": 0.8,
+      "specialty": 0.2,
+      "produce": 0.05
+    }
+  },
+  "w-lb-029": {
+    "servings": 5,
+    "kcal": 630,
+    "protein": 31,
+    "fat": 22,
+    "carbs": 65,
+    "fiber": 4,
+    "sugar": 5,
+    "cost": {
+      "protein": 9,
+      "grains": 1.3,
+      "produce": 1.4,
+      "fats": 0.5,
+      "specialty": 2,
+      "spices": 0.5
+    }
+  },
+  "w-lb-030": {
+    "servings": 5,
+    "kcal": 600,
+    "protein": 18,
+    "fat": 23,
+    "carbs": 60,
+    "fiber": 5,
+    "sugar": 8,
+    "cost": {
+      "grains": 0.8,
+      "fats": 0.5,
+      "dairyEggs": 0.1,
+      "protein": 2.5,
+      "specialty": 2.9,
+      "produce": 1.2,
+      "spices": 0.5
+    }
+  },
+  "w-lb-031": {
+    "servings": 16,
+    "kcal": 220,
+    "protein": 4,
+    "fat": 11,
+    "carbs": 29,
+    "fiber": 2,
+    "sugar": 13,
+    "cost": {
+      "specialty": 1.9,
+      "grains": 1.1,
+      "sweeteners": 0.5,
+      "dairyEggs": 0.4,
+      "fats": 0.5,
+      "spices": 0.2
+    }
+  },
+  "w-lb-032": {
+    "servings": 5,
+    "kcal": 580,
+    "protein": 40,
+    "fat": 36,
+    "carbs": 8,
+    "fiber": 1,
+    "sugar": 3,
+    "cost": {
+      "protein": 14,
+      "fats": 0.3,
+      "specialty": 1.5,
+      "produce": 0.9,
+      "spices": 0.6
+    }
+  },
+  "w-lb-033": {
+    "servings": 5,
+    "kcal": 480,
+    "protein": 35,
+    "fat": 35,
+    "carbs": 4,
+    "fiber": 1,
+    "sugar": 2,
+    "cost": {
+      "protein": 12,
+      "produce": 1.2,
+      "fats": 0.3,
+      "spices": 0.3
+    }
+  },
+  "w-lb-034": {
+    "servings": 5,
+    "kcal": 290,
+    "protein": 19,
+    "fat": 20,
+    "carbs": 5,
+    "fiber": 1,
+    "sugar": 2,
+    "cost": {
+      "protein": 5,
+      "fats": 0.5,
+      "specialty": 1,
+      "spices": 0.4
     }
   },
   "w-ma-001": {

@@ -93,7 +93,10 @@ How to resume or re-run the tier-1/tier-2 world-cuisine build. Read this plus
   translation/estimate gate existed; backfill their remaining languages on main.
 - Image queue order: `es et gr id in ir it kr lb my ng pe ph th tr`.
 - Spain translations: 9/24 done (en es fr de it tr nl pt ru); 15 to go.
-- Ethiopia: needs translations (23 langs × 5 recipes) + estimates.
+- Ethiopia: needs translations (23 langs × 5 recipes).
+- Estimates: **complete 2026-10-06** — all 499 world recipes have
+  nutrition+cost entries (319 backfilled for `et ph pe gr ng th my tr it ir
+  kr lb id in` via `estimates.py --apply`). Remaining gate is translations.
 - All later countries: estimates + 23-language translations still pending;
   ship only after `ship-ready` marker is created.
 - `work/ship-ready/`: create per country when phases 5+6 finish.
