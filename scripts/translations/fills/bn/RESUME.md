@@ -12,9 +12,18 @@ Continue the Bengali (bn) language rollout in `/Users/ahmedabdelaal/Documents/Gi
 - ALL apps complete and validated: Fire TV, Samsung TV, tvOS, iOS, iPadOS, Android (each has Bengali strings + allergens + fonts + tests/builds green). Do not touch sibling app repos.
 
 ## What remains
+
+Merged so far: **840/2380** — chunks
+01 02 03 07 08 09 11 13 16 17 18 19 22 23 24 27 30 31 43 46 56.
+
+Still missing (translate these): 04 05 06 10 12 14 15 20 21 25 26
+28 29 32 33 34 35 36 37 38 39 40 41 42 44 45 47 48 49 50 51 52 53
+54 55 57 58 59 60.
+
 0. **FIRST merge any unmerged fills**: for each `fills/bn/chunk-NN.json` whose recipe IDs are not yet in `src/data/recipeTranslationsBn.json`, run:
    `npx tsx scripts/translations/write-entries.ts bn scripts/translations/fills/bn/chunk-NN.json`
    (Background translation agents may have written fills between the last commit and now — check `git status`/`ls` for uncommitted fills and commit them too.)
+   Agents may also leave `chunk-NN.partK.json` files: if `chunk-NN.json` exists and verifies, parts are stale — delete them. If only parts exist, merge whichever parts cover all source recipe IDs (or just retranslate the chunk).
 
 1. **Recipe translations** — `scripts/translations/fills/bn-src/chunk-*.json` holds 60 English source chunks (~40 recipes each, 2,380 total). For every `bn-src/chunk-NN.json` that has NO corresponding `fills/bn/chunk-NN.json`, translate it and write `fills/bn/chunk-NN.json`. Then merge via write-entries.ts as above.
 
