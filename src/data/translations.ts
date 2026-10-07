@@ -108,6 +108,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     if (primaryCode === 'te') {
       return { language: 'te', isKnown: true, rawLocale };
     }
+    if (primaryCode === 'bn') {
+      return { language: 'bn', isKnown: true, rawLocale };
+    }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
     return { language: 'en', isKnown: false, rawLocale: '' };
@@ -1119,6 +1122,46 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     cancel: 'రద్దు చేయండి',
     noResultsFound: 'ఫలితాలు కనబడలేదు.',
     close: 'మూసివేయండి',
+  },
+  bn: {
+    loadError: 'রেসিপিটি লোড করা যায়নি। আপনার সংযোগ পরীক্ষা করে আবার চেষ্টা করুন।',
+    loadingMoreRecipes: 'আরও রেসিপি লোড হচ্ছে…',
+    showMoreRecipes: 'আরও রেসিপি দেখান',
+    recipesLoadFailed: 'রেসিপিগুলো লোড করা যায়নি। আপনার সংযোগ পরীক্ষা করে পেজটি রিলোড করুন।',
+    siteTitle: 'ফাতমা আলকাউকজি রেসিপি',
+    appTitle: 'ফাতমা আলকাউকজি রেসিপি',
+    siteSubtitle: 'খাঁটি মিশরীয় রান্নার ঐতিহ্যবাহী রান্নাবই',
+    appSubtitle: 'খাঁটি মিশরীয় রান্নার ঐতিহ্যবাহী রান্নাবই',
+    allRecipes: 'রেসিপি দেখুন',
+    navAllRecipes: 'রেসিপি দেখুন',
+    aboutFatma: 'ডা. ফাতমা সম্পর্কে',
+    navAboutFatma: 'ডা. ফাতমা সম্পর্কে',
+    ingredientsRegistry: 'উপকরণ রেজিস্ট্রি',
+    navIngredientsRegistry: 'উপকরণ রেজিস্ট্রি',
+    choosePreferredLanguage: 'আপনার পছন্দের ওয়েবসাইট ভাষা বেছে নিন',
+    searchPlaceholder: 'রেসিপি, উপকরণ বা রান্নার পদ্ধতি দিয়ে খুঁজুন...',
+    filterByChapter: 'অধ্যায় অনুযায়ী ফিল্টার করুন',
+    prepTime: 'প্রস্তুতির সময়',
+    cookTime: 'রান্নার সময়',
+    servings: 'পরিবেশন',
+    difficulty: 'কঠিনতা',
+    method: 'পদ্ধতি',
+    ingredients: 'প্রধান উপকরণ ও সঠিক পরিমাণ',
+    instructions: 'ধাপে ধাপে প্রস্তুতি ও রান্না',
+    tips: 'ডা. ফাতমা আলকাউকজির নোট ও টিপস',
+    shareRecipe: 'রেসিপি শেয়ার করুন',
+    noRecipesFound: 'আপনার অনুসন্ধানের সাথে মিলে এমন কোনো রেসিপি পাওয়া যায়নি',
+    tributeQuote: 'রান্না যেন পিয়ানো বাজানোর মতো; সম্প্রীতি, ধৈর্য আর ভালোবাসাই তাকে পরিপূর্ণ করে।',
+    orderIngredients: 'উপকরণ অর্ডার করুন',
+    orderDish: 'ডিশ অর্ডার করুন',
+    festivals: 'উৎসব',
+    upcomingEvents: 'আসন্ন ইভেন্ট',
+    shareLocationBtn: 'লোকেশন শেয়ার করুন / ঠিকানা দিন',
+    enterAddressPlaceholder: 'আপনার শহর বা ঠিকানা লিখুন...',
+    useThisLocation: 'এই লোকেশন ব্যবহার করুন',
+    cancel: 'বাতিল করুন',
+    noResultsFound: 'কোনো ফলাফল পাওয়া যায়নি।',
+    close: 'বন্ধ করুন',
   }
 };
 

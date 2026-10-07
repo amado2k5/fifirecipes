@@ -1233,8 +1233,56 @@ const te: EstimateStrings = {
   costChip: '≈ సర్వింగ్‌కు {v}'
 };
 
+const bn: EstimateStrings = {
+  tab: 'পুষ্টিগুণ ও খরচ',
+  nutritionTitle: 'পুষ্টিগুণ',
+  perServingBasis: 'প্রতি পরিবেশনে — এই রেসিপি প্রায় {n} পরিবেশন হয়',
+  nutrient: 'পুষ্টি উপাদান',
+  perServing: 'প্রতি পরিবেশনে',
+  calories: 'ক্যালরি',
+  protein: 'প্রোটিন',
+  fat: 'চর্বি',
+  carbs: 'কার্বোহাইড্রেট',
+  fiber: 'আঁশ',
+  sugar: 'চিনি',
+  kcal: 'ক্যা.',
+  grams: 'গ্রা',
+  energySplit: 'ক্যালরি কোথা থেকে আসে',
+  healthTitle: 'স্বাস্থ্য নোট',
+  tags: {
+    highProtein: { label: 'প্রোটিন সমৃদ্ধ', hint: 'ক্যালরির উল্লেখযোগ্য অংশ প্রোটিন থেকে আসে।' },
+    goodFiber: { label: 'ভালো আঁশের উৎস', hint: 'প্রতি পরিবেশনে প্রায় 5 গ্রাম বা বেশি আঁশ।' },
+    light: { label: 'হালকা পদ', hint: 'প্রতি পরিবেশনে 250 ক্যালরির কম।' },
+    hearty: { label: 'ভারী ও পেট ভরা', hint: 'প্রতি পরিবেশনে 600 ক্যালরি বা বেশি — প্রধান খাবার হিসেবে উপভোগ করুন।' },
+    highSugar: { label: 'চিনি বেশি', hint: 'মাঝে মাঝে খাওয়া মিষ্টি হিসেবে উপভোগ করুন।' },
+    highFat: { label: 'চর্বি বেশি', hint: 'অর্ধেক বা বেশি ক্যালরি চর্বি থেকে আসে।' },
+    lowFat: { label: 'চর্বি কম', hint: 'প্রতি পরিবেশনে 5 গ্রাম বা কম চর্বি।' },
+    meatFree: { label: 'মাংস নেই', hint: 'উপকরণে মাংস, মুরগি বা মাছ নেই।' }
+  },
+  costTitle: 'আনুমানিক রেসিপির খরচ',
+  ingredientGroup: 'উপকরণের ধরন',
+  costUsd: 'খরচ (USD)',
+  groups: {
+    protein: 'মাংস, পোল্ট্রি ও সীফুড',
+    dairyEggs: 'দুগ্ধজাতীয়, ঘি ও ডিম',
+    produce: 'সবজি, সবুজ শাক ও ফল',
+    grains: 'চাল, আটা, পাস্তা ও ডাল',
+    fats: 'রান্নার তেল ও চর্বি',
+    sweeteners: 'চিনি, মধু ও সিরা',
+    specialty: 'বাদাম, শুকনো ফল ও বিশেষ জিনিস',
+    spices: 'মসলা ও স্বাদবর্ধক'
+  },
+  total: 'আনুমানিক মোট',
+  costPerServing: 'প্রতি পরিবেশনে',
+  estimated: 'আনুমানিক',
+  nutritionNote: 'রেসিপির উপকরণ ও সাধারণ পুষ্টি তথ্যের ভিত্তিতে হিসাব করা আনুমানিক মান। এগুলো পেশাদার পুষ্টি পরামর্শের বিকল্প নয়।',
+  costNote: 'মার্কিন সুপারমার্কেটের গড় দামের ভিত্তিতে; প্রকৃত খরচ দেশ, মৌসুম ও ব্র্যান্ড অনুযায়ী বদলায়।',
+  kcalChip: '≈ প্রতি পরিবেশনে {v} ক্যা.',
+  costChip: '≈ প্রতি পরিবেশনে {v}'
+};
+
 const ESTIMATE_STRINGS: Partial<Record<SupportedLanguage, EstimateStrings>> = {
-  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps, he, pl, sv, te
+  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps, he, pl, sv, te, bn
 };
 
 export function getEstimateStrings(lang: SupportedLanguage): EstimateStrings {
