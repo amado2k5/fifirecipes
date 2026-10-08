@@ -35,6 +35,16 @@ A blind second review of a random sample of 120 recipes with claims (seed 202610
 our verdicts) gave 0 contradictions out of 279 claim checks; it answered "unsure" on 34, mostly plain "vanilla"
 (treated as alcohol-free here; only "vanilla extract" blocks halal) and cheese rennet.
 
+## Where users see it
+
+- **App and site:** `src/components/DietBadges.tsx` shows the badges and a "not a certification" note in the recipe
+  header, from the compact `src/data/recipeDietaryCodes.json`. The labels are UI strings in
+  `src/data/translations.ts` (`dietTitle`, `dietNote`, `dietHalal`, `dietKosher`, `dietVegetarian`, `dietVegan`) in all 29
+  languages (Kurdish is Kurmanji in Latin script). Source of the strings: `scripts/diet/ui_strings.py`.
+  These were written without native-speaker review; have a reader of each language check them.
+- **Search engines:** `suitableForDiet` (schema.org) in each recipe page's JSON-LD.
+- **Data:** `dietary` in `public/data/recipes/<id>.json`, with notes; Cookwala reads it from there.
+
 ## Re-running
 
 ```bash

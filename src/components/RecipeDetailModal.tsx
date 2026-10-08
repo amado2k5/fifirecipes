@@ -23,6 +23,7 @@ import {
 } from 'lucide-react';
 import { getRecipeImage } from '../data/recipeImages';
 import { getUIText } from '../data/translations';
+import { DietBadges } from './DietBadges';
 import { getLocalizedIngredient, getLocalizedIngredientAmount, getLocalizedInstruction, getLocalizedPhase, getLocalizedRecipe } from '../utils/recipeLocalization';
 import { OriginalManuscriptModal, getManuscriptSource } from './OriginalManuscriptModal';
 import { RecipeEstimatesPanel } from './RecipeEstimatesPanel';
@@ -312,6 +313,9 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                   <span>{estimateText.costChip.replace('{v}', formatUsd(getCostTotal(estimate) / estimate.servings))}</span>
                 </div>
               )}
+            </div>
+            <div className="[@media(max-height:420px)]:hidden">
+              <DietBadges recipeId={recipe.id} lang={lang} />
             </div>
           </div>
         </div>
