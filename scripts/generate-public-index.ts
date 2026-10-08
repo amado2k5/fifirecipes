@@ -231,14 +231,17 @@ const RECIPE_DIETARY: Record<string, DietaryClaim[]> = JSON.parse(await readFile
 // Allergens, gluten/dairy/nut-free claims and the diabetic estimate (scripts/diet/allergens.py). Same basis: ingredients and steps,
 // plus the nutrition estimate per serving. Screens, not certifications and not medical advice.
 const RECIPE_DIETARY_EXTRA: Record<string, DietaryClaim[]> = JSON.parse(await readFile('src/data/recipeDietaryExtra.json', 'utf8'));
-const RECIPE_HEALTH: Record<string, { a: string[]; s: string; d: string }> = JSON.parse(await readFile('src/data/recipeHealth.json', 'utf8'));
+const RECIPE_HEALTH: Record<string, { a: string[]; s: string; d: string; g?: string; l?: string }> = JSON.parse(await readFile('src/data/recipeHealth.json', 'utf8'));
 const ALLERGEN_STATUS: Record<string, string> = { c: 'contains', n: 'none_found', l: 'check_labels', u: 'not_assessed' };
+// Gluten and lactose for every recipe: free, contains, check_labels (lactose: low or possible), not_assessed.
+const GLUTEN_STATUS: Record<string, string> = { f: 'free', c: 'contains', l: 'check_labels', u: 'not_assessed' };
+const LACTOSE_STATUS: Record<string, string> = { f: 'free', c: 'contains', l: 'low_or_possible', u: 'not_assessed' };
 const DIABETIC_STATUS: Record<string, string> = { f: 'friendly', b: 'borderline', n: 'not_friendly', u: 'unknown' };
 const dietaryOf = (id: string): DietaryClaim[] => [...(RECIPE_DIETARY[id] ?? []), ...(RECIPE_DIETARY_EXTRA[id] ?? [])];
 const SCHEMA_ORG_DIET: Record<string, string> = {
   halal: 'https://schema.org/HalalDiet', kosher: 'https://schema.org/KosherDiet',
   vegetarian: 'https://schema.org/VegetarianDiet', vegan: 'https://schema.org/VeganDiet',
-  gluten_free: 'https://schema.org/GlutenFreeDiet', diabetic_friendly: 'https://schema.org/DiabeticDiet'
+  gluten_free: 'https://schema.org/GlutenFreeDiet', lactose_free: 'https://schema.org/LowLactoseDiet', diabetic_friendly: 'https://schema.org/DiabeticDiet'
 };
 
 // Full recipes, each with its estimate and every translation it has.
@@ -262,7 +265,9 @@ for (const recipe of orderedRecipes) {
     ...(dietaryOf(recipe.id).length ? { dietary: dietaryOf(recipe.id) } : {}),
     ...(health ? {
       allergens: { contains: health.a, status: ALLERGEN_STATUS[health.s], ruleset: 'fifi-allergen-1' },
-      diabetic: { status: DIABETIC_STATUS[health.d], ruleset: 'fifi-diabetic-1', basis: 'estimate' }
+      diabetic: { status: DIABETIC_STATUS[health.d], ruleset: 'fifi-diabetic-1', basis: 'estimate' },
+      ...(health.g ? { gluten: { status: GLUTEN_STATUS[health.g], ruleset: 'fifi-allergen-1', basis: 'ingredients' } } : {}),
+      ...(health.l ? { lactose: { status: LACTOSE_STATUS[health.l], ruleset: 'fifi-lactose-1', basis: 'ingredients' } } : {})
     } : {})
   });
 }

@@ -14,6 +14,9 @@ Status  c = contains (at least one allergen found)
         n = none found: nothing in the ingredient names or steps, no bought/compound item that could hide one, recipe reviewed
         l = check labels: nothing found, but a bought or compound item (stock cube, sauce, spice mix...) may hide one
         u = not assessed (no reviewed facts for the recipe yet)
+Gluten    f free (none found, nothing bought or compound could hide it) | c contains | l check labels | u not assessed   (key g in recipeHealth.json)
+Lactose   f free (no milk product found, nothing bought or compound could hide one) | c contains lactose | l low or possible: only butter, ghee or
+          a hard aged cheese found, or a bought item may hide milk | u not assessed   (key l in recipeHealth.json)
 Diabetic  f friendly | b borderline | n not friendly | u unknown (no nutrition estimate)
           friendly: sugar 5 g or less and carbohydrate 30 g or less per serving, carbohydrate at most 40% of the energy, 12 servings or fewer;
           not friendly: sugar over 15 g or carbohydrate over 60 g per serving.
@@ -29,6 +32,7 @@ from scan import PLANT, scan
 CODES = ['milk', 'eggs', 'cereals_gluten', 'nuts', 'peanuts', 'sesame', 'soybeans', 'fish', 'crustaceans', 'molluscs', 'celery', 'mustard', 'lupin', 'sulphites']
 RULESET_ALLERGEN = 'fifi-allergen-1'
 RULESET_DIABETIC = 'fifi-diabetic-1'
+RULESET_LACTOSE = 'fifi-lactose-1'
 
 
 def rx(words):
@@ -67,6 +71,47 @@ GF_TORTILLA = re.compile(r'(?<![a-z])corn\s+tortilla')
 NOT_NUT = re.compile(r'(?<![a-z])(coconut|nutmeg|butternut|chestnut|water chestnut|doughnut|donut|nut free|nutri)')
 # bought or compound items that can carry an allergen the list does not name
 PROCESSED = re.compile(r'(?<![a-z])(stock cube|bouillon|stock powder|instant stock|stock mix|maggi|knorr|ketchup|ready made|readymade|store bought|shop bought|bought|packaged|packet|canned soup|tinned|curry paste|curry powder|spice mix|spice blend|seasoning mix|seasoning cube|seasoning blend|baking mix|cake mix|instant|sauce mix|salad dressing|dressing|pesto|chocolate|candy|sweets|sprinkles|jelly|jello|food colou?r|essence|extract|worcestershire|barbecue sauce|bbq sauce|hot sauce|chili sauce|chilli sauce|sriracha|sausage|hot dog|cheese slice|processed cheese|marinade|mayonnaise|margarine|custard powder|cream powder|baking powder|yeast extract|vinegar sauce|bottled|jar|salami|pastirma|basturma|luncheon|spread|nutella|biscuit|ice cream|dried fruit|raisin|sultana|date syrup|molasses)')
+
+
+# Lactose: milk products that carry a meaningful amount of lactose, and the few that carry little (butter, ghee, hard aged cheese).
+# A line that names a low-lactose item (e.g. "parmesan cheese") counts as low, not as plain cheese.
+LACTOSE_ANY = rx(['milk', 'cream', 'yogurt', 'yoghurt', 'yogourt', 'labneh', 'laban', 'kefir', 'buttermilk', 'ricotta', 'cottage cheese', 'cream cheese', 'mascarpone',
+                  'cheese', 'feta', 'mozzarella', 'halloumi', 'cheddar', 'condensed milk', 'evaporated milk', 'milk powder', 'powdered milk', 'whey', 'custard', 'ice cream',
+                  'curd', 'paneer', 'khoa', 'mawa', 'ashta', 'qishta', 'kashta', 'gibna', 'gebna', 'jibna', 'rumi', 'mish', 'kareish', 'creme fraiche', 'sour cream',
+                  'half and half', 'double cream', 'heavy cream', 'whipping cream', 'bechamel', 'white sauce', 'lassi', 'raita', 'dahi', 'khoya', 'rabri', 'kulfi',
+                  'burrata', 'quark', 'skyr', 'gruyere cream', 'queso', 'fromage', 'paneer'])
+LACTOSE_LOW = rx(['butter', 'ghee', 'samn', 'samna', 'clarified butter', 'parmesan', 'parmigiano', 'parmigiano reggiano', 'grana padano', 'pecorino', 'manchego', 'gruyere',
+                  'emmental', 'emmentaler', 'comte', 'aged cheddar', 'aged gouda', 'asiago'])
+NOT_LACTOSE = re.compile(r'(?<![a-z])(lactose free|dairy free|milk chocolate chips? free)')
+
+
+def lactose_hits(rec):
+    """(strong, low): lactose-bearing milk products named in the ingredient lines and steps."""
+    strong, low = set(), set()
+    texts = [norm_latin(l.split('|')[0]) for l in rec['ingredients']] + [norm_latin(l) for l in rec['steps']]
+    for raw in texts:
+        t = PLANT.sub(' ', NOT_LACTOSE.sub(' ', raw))
+        lo = LACTOSE_LOW.search(t)
+        if lo: low.add(lo.group(1)); continue
+        an = LACTOSE_ANY.search(t)
+        if an: strong.add(an.group(1))
+    return sorted(strong), sorted(low)
+
+
+def gluten_lactose(rec, contains, proc, unc_hidden, reviewed):
+    """Gluten and lactose status for every recipe: f free, c contains, l check labels / low or possible, u not assessed."""
+    if 'cereals_gluten' in contains: g = 'c'
+    elif not reviewed: g = 'u'
+    elif proc or unc_hidden: g = 'l'
+    else: g = 'f'
+    strong, low = lactose_hits(rec)
+    if strong: lac = 'c'
+    elif 'milk' in contains: lac = 'l' if low else 'c'   # milk known from the reviewed facts but no lactose-bearing line: treat as contains
+    elif low: lac = 'l'
+    elif not reviewed: lac = 'u'
+    elif proc or unc_hidden: lac = 'l'
+    else: lac = 'f'
+    return g, lac, {'strong': strong[:3], 'low': low[:3]}
 
 
 def evidence(found, code, text, where):
@@ -146,7 +191,7 @@ def derive_one(rec, facts, estimate):
     return contains, status, dia, found, proc
 
 
-def extra_claims(contains, status, dia, proc, unc_hidden, reviewed, rid):
+def extra_claims(contains, status, dia, proc, unc_hidden, reviewed, rid, lac='u'):
     """Positive claims only, and only when nothing bought or compound could hide the allergen."""
     out = []
     safe = reviewed and not proc and not unc_hidden
@@ -154,6 +199,8 @@ def extra_claims(contains, status, dia, proc, unc_hidden, reviewed, rid):
         out.append(('gluten_free', RULESET_ALLERGEN, 'No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.'))
     if safe and 'milk' not in contains:
         out.append(('dairy_free', RULESET_ALLERGEN, 'No milk or dairy found in the ingredients or steps. Check labels of bought items.'))
+    if lac == 'f':
+        out.append(('lactose_free', RULESET_LACTOSE, 'No milk product found in the ingredients or steps, so no lactose. Check labels of bought items.'))
     if safe and not ({'nuts', 'peanuts'} & set(contains)):
         out.append(('nut_free', RULESET_ALLERGEN, 'No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.'))
     if dia == 'f':
@@ -168,22 +215,24 @@ def main():
     facts_all = json.load(open(HERE / 'facts.json'))
     health, extra, audit = {}, {}, {}
     stat = {'c': 0, 'n': 0, 'l': 0, 'u': 0, 'f': 0, 'b': 0, 'dn': 0, 'du': 0}
+    gstat, lstat = {}, {}
     for rec in recipes:
         rid = rec['id']; facts = facts_all.get(rid)
         pf = os.path.join(a.public, rid + '.json')
         est = json.load(open(pf)).get('estimate') if os.path.exists(pf) else None
         contains, status, dia, found, proc = derive_one(rec, facts, est)
         unc_hidden = bool(facts and {x['tag'] for x in facts['uncertain']} & {'stock_unspecified', 'hidden_animal_unknown'})
-        health[rid] = {'a': contains, 's': status, 'd': dia}
-        claims = extra_claims(contains, status, dia, proc, unc_hidden, facts is not None, rid)
+        g, lac, lac_ev = gluten_lactose(rec, contains, proc, unc_hidden, facts is not None)
+        health[rid] = {'a': contains, 's': status, 'd': dia, 'g': g, 'l': lac}
+        claims = extra_claims(contains, status, dia, proc, unc_hidden, facts is not None, rid, lac)
         if claims: extra[rid] = [{'claim': c, 'basis': 'ingredients', 'ruleset': rs, 'note': n} for c, rs, n in claims]
-        audit[rid] = {'evidence': {k: v[:3] for k, v in found.items()}, **({'processed': proc} if proc else {})}
-        stat[status] += 1
+        audit[rid] = {'evidence': {k: v[:3] for k, v in found.items()}, 'lactose': lac_ev, **({'processed': proc} if proc else {})}
+        stat[status] += 1; gstat[g] = gstat.get(g, 0) + 1; lstat[lac] = lstat.get(lac, 0) + 1
         stat['f' if dia == 'f' else 'b' if dia == 'b' else 'dn' if dia == 'n' else 'du'] += 1
     json.dump(health, open(ROOT / 'src/data/recipeHealth.json', 'w'), sort_keys=True, separators=(',', ':'), ensure_ascii=False)
     json.dump(extra, open(ROOT / 'src/data/recipeDietaryExtra.json', 'w'), sort_keys=True, indent=0, ensure_ascii=False)
     json.dump(audit, open(HERE / 'allergen_facts.json', 'w'), sort_keys=True, indent=0, ensure_ascii=False)
-    print(len(recipes), 'recipes', stat, '| extra claims on', len(extra))
+    print(len(recipes), 'recipes', stat, '| gluten', gstat, '| lactose', lstat, '| extra claims on', len(extra))
 
 
 if __name__ == '__main__':

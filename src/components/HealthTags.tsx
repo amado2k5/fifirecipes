@@ -3,7 +3,7 @@ import { SupportedLanguage } from '../types';
 import { getUIText } from '../data/translations';
 import HEALTH from '../data/recipeHealth.json';
 
-type Health = { a: string[]; s: 'c' | 'n' | 'l' | 'u'; d: 'f' | 'b' | 'n' | 'u' };
+type Health = { a: string[]; s: 'c' | 'n' | 'l' | 'u'; d: 'f' | 'b' | 'n' | 'u'; g?: 'f' | 'c' | 'l' | 'u'; l?: 'f' | 'c' | 'l' | 'u' };
 const DATA = HEALTH as unknown as Record<string, Health>;
 
 const ALLERGEN_KEY: Record<string, string> = {
@@ -11,6 +11,10 @@ const ALLERGEN_KEY: Record<string, string> = {
   sesame: 'allergenSesame', soybeans: 'allergenSoy', fish: 'allergenFish', crustaceans: 'allergenCrustaceans',
   molluscs: 'allergenMolluscs', celery: 'allergenCelery', mustard: 'allergenMustard', lupin: 'allergenLupin', sulphites: 'allergenSulphites'
 };
+// Gluten and lactose: free / contains / check labels (low or possible). Not assessed shows nothing.
+const GLUTEN_KEY = { f: 'glutenFree', c: 'glutenContains', l: 'glutenCheck' } as const;
+const LACTOSE_KEY = { f: 'lactoseFree', c: 'lactoseContains', l: 'lactoseCheck' } as const;
+const GL_TONE = { f: 'good', c: 'warn', l: 'plain' } as const;
 const DIABETIC_KEY = { f: 'diabeticFriendly', b: 'diabeticBorderline', n: 'diabeticNot' } as const;
 
 type Tone = 'good' | 'warn' | 'bad' | 'plain';
@@ -42,6 +46,12 @@ export const HealthTags: React.FC<{ recipeId: string; lang: SupportedLanguage; v
     chips.push({ key: 'allergen', tone: 'plain', text: getUIText(lang, 'allergenCheck'), title: getUIText(lang, 'allergenNote') });
   } else if (detail && h.s === 'u') {
     chips.push({ key: 'allergen', tone: 'plain', text: getUIText(lang, 'allergenUnknown'), title: getUIText(lang, 'allergenNote') });
+  }
+  if (h.g && h.g !== 'u') {
+    chips.push({ key: 'gluten', tone: GL_TONE[h.g], text: getUIText(lang, GLUTEN_KEY[h.g]), title: getUIText(lang, 'glutenLactoseNote') });
+  }
+  if (h.l && h.l !== 'u') {
+    chips.push({ key: 'lactose', tone: GL_TONE[h.l], text: getUIText(lang, LACTOSE_KEY[h.l]), title: getUIText(lang, 'glutenLactoseNote') });
   }
   if (h.d !== 'u') {
     chips.push({ key: 'diabetic', tone: h.d === 'f' ? 'good' : h.d === 'b' ? 'warn' : 'bad', text: getUIText(lang, DIABETIC_KEY[h.d]), title: getUIText(lang, 'diabeticNote') });

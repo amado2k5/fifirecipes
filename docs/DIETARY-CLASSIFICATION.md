@@ -90,6 +90,28 @@ per serving, which is why the energy-share and serving-count limits exist.
 `DiabeticDiet`. Cookwala reads `allergens` and `diabetic` from `public/data/recipes/<id>.json` (its exporter replaces its own
 name-based allergen guess with these).
 
+## Gluten and lactose on every recipe (2026-10-08)
+
+`scripts/diet/allergens.py` also gives **every** recipe an explicit gluten status and an explicit lactose status, not only a positive claim.
+They are stored as `g` and `l` in `src/data/recipeHealth.json` and published as `gluten` and `lactose` in `public/data/recipes/<id>.json`
+(`{status, ruleset, basis: "ingredients"}`).
+
+| Status | Gluten (`g`, ruleset `fifi-allergen-1`) | Lactose (`l`, ruleset `fifi-lactose-1`) |
+|---|---|---|
+| `free` (`f`) | no gluten found and nothing bought or compound could hide it (same rule as the `gluten_free` claim) | no milk product found and nothing bought or compound could hide one (also written as the `lactose_free` claim) |
+| `contains` (`c`) | wheat, barley, rye, oats or a product made from them is named | milk, cream, yogurt, soft or fresh cheese, condensed milk, custard... is named |
+| `check_labels` / `low_or_possible` (`l`) | nothing found, but a bought or compound item (stock cube, sauce, spice mix...) may hide gluten | only butter, ghee or a hard aged cheese (parmesan, pecorino, gruyere...) is named, or a bought item may hide milk |
+| `not_assessed` (`u`) | the recipe has no reviewed facts yet | same |
+
+Lactose is not the same as dairy: butter and ghee are dairy but carry very little lactose, which is why they give `low_or_possible` and not
+`contains`. Plant milks, coconut cream, peanut and cocoa butter are not dairy. A recipe that is `free` for both is a statement about the
+text only: cross-contact is never assessed and nobody should rely on it for coeliac disease, lactose intolerance or an allergy without
+reading labels. `schema.org suitableForDiet` gains `LowLactoseDiet` for `lactose_free`.
+
+Where users see it: two more chips in `HealthTags.tsx` (recipe cards and the recipe header) with 29-language strings from
+`scripts/diet/gl-strings/<lang>.json`, inserted into `translations.ts` by `scripts/diet/apply_gluten_lactose_strings.py`
+(written without native-speaker review; have a reader of each language check them).
+
 **Re-running** (after `derive.py`, and again whenever recipes or estimates change):
 
 ```bash
