@@ -842,7 +842,7 @@
    },
    "w-vn-001-i4": {
     "name": "Chalotas",
-    "standardAmount": "4 grandes"
+    "standardAmount": "4 grandess"
    },
    "w-vn-001-i5": {
     "name": "Salsicha de vaca halal estilo chinês",
@@ -7462,7 +7462,7 @@
    },
    "w-in-022-i8": {
     "name": "alho picado finamente",
-    "standardAmount": "4 grande dentes"
+    "standardAmount": "4 grandes dentes"
    },
    "w-in-022-i9": {
     "name": "malagueta vermelha fresca picada",
@@ -9713,5 +9713,632 @@
   },
   "culturalNotes": "Paratha é um prato indiano tradicional, frequentemente servido como pequeno-almoço ou almoço leve.",
   "chapter": "in"
+ },
+ "w-pe-001": {
+  "title": "Sopa peruana de frango (Aguadito de Pollo)",
+  "ingredients": {
+   "w-pe-001-i1": {
+    "name": "metades de peito de frango sem pele e sem osso",
+    "standardAmount": "4 metades - cortadas ao meio"
+   },
+   "w-pe-001-i2": {
+    "name": "sal e pimenta",
+    "standardAmount": "a gosto"
+   },
+   "w-pe-001-i3": {
+    "name": "azeite de oliva",
+    "standardAmount": "0.5 xícara"
+   },
+   "w-pe-001-i4": {
+    "name": "cebola picada",
+    "standardAmount": "1 cebola média"
+   },
+   "w-pe-001-i5": {
+    "name": "alho picado",
+    "standardAmount": "1 colher de chá"
+   },
+   "w-pe-001-i6": {
+    "name": "pimenta serrano sem sementes, picada",
+    "standardAmount": "1 colher de sopa"
+   },
+   "w-pe-001-i7": {
+    "name": "coentro picado",
+    "standardAmount": "0.5 xícara"
+   },
+   "w-pe-001-i8": {
+    "name": "ervilhas",
+    "standardAmount": "1 xícara"
+   },
+   "w-pe-001-i9": {
+    "name": "milho",
+    "standardAmount": "1 xícara"
+   },
+   "w-pe-001-i10": {
+    "name": "pimentão vermelho picado",
+    "standardAmount": "0,5 pimentão vermelho"
+   },
+   "w-pe-001-i11": {
+    "name": "caldo de galinha",
+    "standardAmount": "10 xícaras"
+   },
+   "w-pe-001-i12": {
+    "name": "batatas",
+    "standardAmount": "4 batatas Yukon Gold - cortadas ao meio"
+   },
+   "w-pe-001-i13": {
+    "name": "arroz branco cru",
+    "standardAmount": "1 xícara"
+   }
+  },
+  "instructions": {
+   "1": "Tempere os peitos de frango com sal e pimenta.",
+   "2": "Aqueça o azeite de oliva numa panela grande e pesada em fogo médio-alto. Adicione a cebola, o alho e a pimenta serrano e cozinhe até a cebola amolecer, cerca de 1 minuto.",
+   "3": "Adicione o frango e continue a cozinhar por 5 minutos.",
+   "4": "Misture o coentro, as ervilhas, o milho e o pimentão vermelho; cozinhe por 1 minuto.",
+   "5": "Despeje o caldo de galinha, as batatas e o arroz. Leve à ebulição, depois reduza o fogo para médio-baixo e cozinhe em fogo brando até o frango estar opaco e as batatas macias, cerca de 40 minutos."
+  },
+  "culturalNotes": "O Aguadito de Pollo é uma sopa tradicional peruana servida como refeição leve ou prato principal. Caracteriza-se por uma variedade de sabores de legumes e especiarias.",
+  "chapter": "pe"
+ },
+ "w-pe-002": {
+  "title": "Ají de Gallina",
+  "ingredients": {
+   "w-pe-002-i1": {
+    "name": "metades de peito de frango sem pele com osso",
+    "standardAmount": "2 libras"
+   },
+   "w-pe-002-i2": {
+    "name": "cebola",
+    "standardAmount": "1 cebola"
+   },
+   "w-pe-002-i3": {
+    "name": "cenouras",
+    "standardAmount": "2 cenouras"
+   },
+   "w-pe-002-i4": {
+    "name": "alho",
+    "standardAmount": "4 dentes"
+   },
+   "w-pe-002-i5": {
+    "name": "água",
+    "standardAmount": "2 quartos"
+   },
+   "w-pe-002-i6": {
+    "name": "pão branco",
+    "standardAmount": "1 pão, sem crosta e em cubos"
+   },
+   "w-pe-002-i7": {
+    "name": "leite evaporado",
+    "standardAmount": "12 onças fluidas"
+   },
+   "w-pe-002-i8": {
+    "name": "queijo parmesão ralado",
+    "standardAmount": "0.5 xícara"
+   },
+   "w-pe-002-i9": {
+    "name": "pedaços de noz",
+    "standardAmount": "0.25 xícara"
+   },
+   "w-pe-002-i10": {
+    "name": "óleo vegetal",
+    "standardAmount": "1 colher de chá"
+   },
+   "w-pe-002-i11": {
+    "name": "alho picado",
+    "standardAmount": "2 dentes"
+   },
+   "w-pe-002-i12": {
+    "name": "cebola picada",
+    "standardAmount": "1 cebola"
+   },
+   "w-pe-002-i13": {
+    "name": "pasta de pimenta aji amarillo",
+    "standardAmount": "2 colheres de chá"
+   },
+   "w-pe-002-i14": {
+    "name": "açafrão-da-terra moído",
+    "standardAmount": "2 colheres de chá"
+   },
+   "w-pe-002-i15": {
+    "name": "ovos cozidos, em fatias",
+    "standardAmount": "4 ovos"
+   },
+   "w-pe-002-i16": {
+    "name": "azeitonas kalamata, sem caroço e cortadas em quatro",
+    "standardAmount": "0.25 xícara"
+   }
+  },
+  "instructions": {
+   "1": "Coloque os peitos de frango, a cebola, a cenoura e 2 dentes de alho numa panela grande, despeje 2 quartos de água e leve lentamente a ferver em fogo médio-alto. Retire a espuma que se forma no topo, depois tape, reduza o fogo para médio-baixo e cozinhe em fogo brando até o frango estar macio, cerca de 30 minutos. Retire o frango para um prato e deixe arrefecer. Coe o caldo de galinha resultante, descartando os legumes.",
+   "2": "Despeje o leite evaporado e 1/2 chávena de caldo de galinha na taça de uma liquidificadora. Adicione os cubos de pão e triture até ficar macio. Adicione o parmesão e as nozes; triture até ficar macio. Desfie o frango arrefecido e descarte os ossos.",
+   "3": "Aqueça o óleo vegetal numa panela grande em fogo médio. Misture o alho picado e a cebola picada; cozinhe até a cebola amolecer e ficar translúcida, cerca de 5 minutos. Misture o frango desfiado e o aji amarillo até aquecer. Despeje o puré de pão e cozinhe até estar quente, mexendo frequentemente. Adicione mais caldo de galinha se necessário para não ficar muito espesso.",
+   "4": "Misture o açafrão e cozinhe em fogo brando mais 5 minutos. Sirva guarnecido com fatias de ovo cozido e polvilhado com azeitonas kalamata."
+  },
+  "culturalNotes": "O Ají de Gallina é um prato tradicional peruano frequentemente servido em ocasiões especiais.",
+  "chapter": "pe"
+ },
+ "w-pe-003": {
+  "title": "Ajiaco (guisado peruano de carne e pimentões)",
+  "ingredients": {
+   "w-pe-003-i1": {
+    "name": "óleo de canola",
+    "standardAmount": "2 colheres de sopa"
+   },
+   "w-pe-003-i2": {
+    "name": "chalotas fatiadas",
+    "standardAmount": "1 xícara"
+   },
+   "w-pe-003-i3": {
+    "name": "alho picado",
+    "standardAmount": "2 colheres de sopa"
+   },
+   "w-pe-003-i4": {
+    "name": "pimentões vermelhos, cortados em pedaços de 1 polegada",
+    "standardAmount": "2 pimentas"
+   },
+   "w-pe-003-i5": {
+    "name": "pimenta chipotle em pó",
+    "standardAmount": "1.5 colheres de chá"
+   },
+   "w-pe-003-i6": {
+    "name": "cominho moído",
+    "standardAmount": "2 colheres de chá"
+   },
+   "w-pe-003-i7": {
+    "name": "rosbife cozido em cubos",
+    "standardAmount": "3 xícaras"
+   },
+   "w-pe-003-i8": {
+    "name": "batatas vermelhas pequenas, cortadas ao meio",
+    "standardAmount": "1 libra"
+   },
+   "w-pe-003-i9": {
+    "name": "água",
+    "standardAmount": "2 xícaras"
+   },
+   "w-pe-003-i10": {
+    "name": "caldo de carne",
+    "standardAmount": "1 quarto"
+   },
+   "w-pe-003-i11": {
+    "name": "orégãos secos",
+    "standardAmount": "0.5 colher de chá"
+   },
+   "w-pe-003-i12": {
+    "name": "sal e pimenta a gosto",
+    "standardAmount": "a gosto"
+   },
+   "w-pe-003-i13": {
+    "name": "salsa picada",
+    "standardAmount": "0.25 xícara"
+   },
+   "w-pe-003-i14": {
+    "name": "ovos cozidos, em fatias de 1/4 de polegada",
+    "standardAmount": "2 ovos"
+   }
+  },
+  "instructions": {
+   "1": "Aqueça o óleo de canola numa caçarola em fogo médio. Adicione as chalotas fatiadas, o alho picado e os pimentões vermelhos. Cozinhe até as chalotas amolecerem e ficarem translúcidas, cerca de 4 minutos.",
+   "2": "Adicione a pimenta chipotle em pó e o cominho. Cozinhe 30 segundos até ficarem aromáticos.",
+   "3": "Adicione o rosbife cozido e as batatas vermelhas. Despeje a água e o caldo de carne. Leve à ebulição em fogo alto, depois reduza o fogo para médio-baixo, tape e cozinhe em fogo brando até as batatas estarem macias, cerca de 30 minutos.",
+   "4": "Misture os orégãos e tempere a gosto com sal e pimenta.",
+   "5": "Misture a salsa picada antes de servir. Guarneça cada tigela com algumas fatias de ovo cozido."
+  },
+  "culturalNotes": "O Ajiaco é um prato tradicional peruano conhecido pelos seus sabores ricos e toque picante.",
+  "chapter": "pe"
+ },
+ "w-pe-004": {
+  "title": "Anticucho",
+  "ingredients": {
+   "w-pe-004-i1": {
+    "name": "coração de boi",
+    "standardAmount": "1 coração"
+   },
+   "w-pe-004-i2": {
+    "name": "alho",
+    "standardAmount": "2 dentes"
+   },
+   "w-pe-004-i3": {
+    "name": "pimenta vermelha picante moída",
+    "standardAmount": "¼ xícara"
+   },
+   "w-pe-004-i4": {
+    "name": "vinagre tinto",
+    "standardAmount": "2 xícaras"
+   },
+   "w-pe-004-i5": {
+    "name": "cominho moído",
+    "standardAmount": "1 colher de chá"
+   },
+   "w-pe-004-i6": {
+    "name": "achiote (urucum)",
+    "standardAmount": "1 colher de chá"
+   },
+   "w-pe-004-i7": {
+    "name": "sal",
+    "standardAmount": "1 colher de chá"
+   },
+   "w-pe-004-i8": {
+    "name": "pimenta preta moída",
+    "standardAmount": "1 colher de chá"
+   }
+  },
+  "instructions": {
+   "1": "Coloque todos os ingredientes, exceto o coração de boi, numa tigela e misture bem.",
+   "2": "Limpe o coração de boi, retirando toda a gordura. Corte em cubos do tamanho de uma dentada. Coloque os pedaços de coração na mistura da marinada e deixe marinar cerca de 10 horas ou durante a noite. O coração deve ficar completamente coberto pela marinada.",
+   "3": "Após marinar, espete a carne em espetos. Se desejar, nesta fase podem também ser adicionados aos espetos outros ingredientes como pimentões ou espigas de milho (cortados em tamanho semelhante ao coração).",
+   "4": "Cozinhe os espetos numa churrasqueira, virando frequentemente e pincelando com a mistura da marinada. Quando a carne estiver bem passada, retire os espetos da grelha e sirva imediatamente."
+  },
+  "culturalNotes": "O Anticucho é um prato tradicional do Peru, frequentemente servido como petisco ou em celebrações.",
+  "chapter": "pe"
+ },
+ "w-pe-005": {
+  "title": "Arroz Tapado",
+  "ingredients": {
+   "w-pe-005-i1": {
+    "name": "arroz branco",
+    "standardAmount": "2 xícaras"
+   },
+   "w-pe-005-i2": {
+    "name": "água",
+    "standardAmount": "4 xícaras"
+   },
+   "w-pe-005-i3": {
+    "name": "ovo",
+    "standardAmount": "1 ovo"
+   },
+   "w-pe-005-i4": {
+    "name": "batata",
+    "standardAmount": "1 batata, descascada e em cubos"
+   },
+   "w-pe-005-i5": {
+    "name": "óleo vegetal",
+    "standardAmount": "1 xícara"
+   },
+   "w-pe-005-i6": {
+    "name": "tomates",
+    "standardAmount": "3 tomates pequenos, grosseiramente picados"
+   },
+   "w-pe-005-i7": {
+    "name": "água",
+    "standardAmount": "0.5 xícara"
+   },
+   "w-pe-005-i8": {
+    "name": "óleo vegetal",
+    "standardAmount": "1 colher de sopa"
+   },
+   "w-pe-005-i9": {
+    "name": "cebola",
+    "standardAmount": "0,5 cebola grande, finamente picada"
+   },
+   "w-pe-005-i10": {
+    "name": "alho",
+    "standardAmount": "3 dentes de alho, picados"
+   },
+   "w-pe-005-i11": {
+    "name": "pimenta aji seca moída",
+    "standardAmount": "1 colher de chá"
+   },
+   "w-pe-005-i12": {
+    "name": "cominho moído",
+    "standardAmount": "0.5 colher de chá"
+   },
+   "w-pe-005-i13": {
+    "name": "pimenta preta moída",
+    "standardAmount": "0.25 colher de chá"
+   },
+   "w-pe-005-i14": {
+    "name": "orégãos frescos picados",
+    "standardAmount": "2 colheres de chá"
+   },
+   "w-pe-005-i15": {
+    "name": "carne de vaca moída magra",
+    "standardAmount": "1 libra"
+   },
+   "w-pe-005-i16": {
+    "name": "cenouras",
+    "standardAmount": "2 cenouras grandes, descascadas e em cubos"
+   },
+   "w-pe-005-i17": {
+    "name": "ervilhas congeladas",
+    "standardAmount": "0.25 xícara"
+   },
+   "w-pe-005-i18": {
+    "name": "manteiga de amendoim",
+    "standardAmount": "1 colher de sopa"
+   },
+   "w-pe-005-i19": {
+    "name": "coentro fresco picado",
+    "standardAmount": "1 colher de chá"
+   },
+   "w-pe-005-i20": {
+    "name": "tomate fresco picado",
+    "standardAmount": "1 colher de chá"
+   },
+   "w-pe-005-i21": {
+    "name": "ketchup",
+    "standardAmount": "1 colher de chá"
+   }
+  },
+  "instructions": {
+   "1": "Leve o arroz e 4 chávenas de água a ferver numa panela em fogo alto. Reduza o fogo para médio-baixo, tape e cozinhe em fogo brando até o arroz estar macio e o líquido ter sido absorvido, 20 a 25 minutos.",
+   "2": "Coloque o ovo numa panela e cubra com água até 1 polegada. Tape a panela e leve a água a ferver em fogo alto. Quando a água estiver a ferver, retire do fogo e deixe o ovo repousar na água quente durante 15 minutos. Escorra a água quente, depois arrefeça o ovo sob água fria corrente no lava-loiça. Descasque quando frio. Pique o ovo e reserve numa tigela pequena.",
+   "3": "Aqueça 1 chávena de óleo vegetal numa fritadeira ou panela grande a 175 graus C. Frite os cubos de batata até dourarem, cerca de 5 minutos; escorra em papel toalha e reserve.",
+   "4": "Coloque os tomates e 0,5 chávena de água numa liquidificadora e triture até os tomates estarem liquefeitos (descasque e retire as sementes primeiro, se desejar).",
+   "5": "Aqueça 1 colher de sopa de óleo vegetal numa frigideira grande em fogo médio e cozinhe e mexa a cebola, o alho, a pimenta em pó, o cominho, a pimenta preta e os orégãos até a cebola começar a dourar, 8 a 10 minutos; despeje os tomates triturados e cozinhe em fogo brando mais 5 minutos, mexendo frequentemente. Misture a carne moída e as cenouras e cozinhe até a carne não estar mais rosada e as cenouras macias, cerca de 10 minutos. Desfaça a carne em pedaços pequenos enquanto cozinha. Misture o ovo cozido picado, as ervilhas e a manteiga de amendoim até estarem bem combinados. Por fim, misture suavemente os cubos de batata frita.",
+   "6": "Para montar o prato, unte uma tigela de plástico flexível (de pelo menos 1 chávena) e pressione o arroz cozido no fundo para encher 1/3 da tigela. Coloque cerca de 3/4 de polegada de mistura de carne sobre o arroz e cubra com mais arroz cozido para encher a tigela. Com a mão untada, pressione suavemente o arroz para compactar a mistura; coloque um prato de servir sobre a tigela, vire e desenforme a forma de arroz e carne. Repita com os ingredientes restantes. Guarneça cada porção com coentro, tomate picado e gotas de ketchup."
+  },
+  "culturalNotes": "O Arroz Tapado é um prato tradicional peruano, frequentemente servido em ocasiões especiais e reuniões familiares.",
+  "chapter": "pe"
+ },
+ "w-pe-006": {
+  "title": "Papa a la Huancaína",
+  "ingredients": {
+   "w-pe-006-i1": {
+    "name": "batatas Yukon Gold",
+    "standardAmount": "12"
+   },
+   "w-pe-006-i2": {
+    "name": "azeite de oliva",
+    "standardAmount": "1 colher de sopa"
+   },
+   "w-pe-006-i3": {
+    "name": "cebola",
+    "standardAmount": "1"
+   },
+   "w-pe-006-i4": {
+    "name": "pimentas",
+    "standardAmount": "6"
+   },
+   "w-pe-006-i5": {
+    "name": "queijo creme",
+    "standardAmount": "1 libra"
+   },
+   "w-pe-006-i6": {
+    "name": "queso fresco",
+    "standardAmount": "1 libra"
+   },
+   "w-pe-006-i7": {
+    "name": "óleo vegetal",
+    "standardAmount": "0.25 xícara"
+   },
+   "w-pe-006-i8": {
+    "name": "sal",
+    "standardAmount": "2 colheres de chá"
+   },
+   "w-pe-006-i9": {
+    "name": "alho",
+    "standardAmount": "1 dente"
+   },
+   "w-pe-006-i10": {
+    "name": "pimenta preta moída",
+    "standardAmount": "0.5 colher de chá"
+   },
+   "w-pe-006-i11": {
+    "name": "leite evaporado",
+    "standardAmount": "0.33 xícara"
+   },
+   "w-pe-006-i12": {
+    "name": "folhas de alface",
+    "standardAmount": "8 folhas"
+   },
+   "w-pe-006-i13": {
+    "name": "ovos cozidos",
+    "standardAmount": "4 grandes"
+   },
+   "w-pe-006-i14": {
+    "name": "azeitonas pretas",
+    "standardAmount": "8"
+   }
+  },
+  "instructions": {
+   "1": "Coloque as batatas numa panela grande e cubra com água salgada. Leve à ebulição em fogo alto, depois reduza o fogo para médio-baixo e cozinhe em fogo brando até estarem macias, cerca de 20 minutos. Escorra e deixe arrefecer ligeiramente.",
+   "2": "Numa frigideira em fogo médio, aqueça o azeite e cozinhe a cebola até estar macia, cerca de 10 minutos. Retire do fogo.",
+   "3": "Numa panela pequena, leve água a ferver e adicione as pimentas. Ferva até ficarem macias, cerca de 5 minutos. Passe as pimentas por água fria até poderem ser manuseadas, depois remova e descarte a pele.",
+   "4": "Adicione a cebola, as pimentas, o queijo creme, o queso fresco, o óleo vegetal, o sal, o alho e a pimenta preta a uma liquidificadora e triture até ficar macio. Despeje o leite evaporado em fio com a liquidificadora ligada até o molho ficar cremoso.",
+   "5": "Disponha 1 folha de alface em cada um dos 8 pratos. Corte as batatas ao meio e disponha 3 metades em cada folha de alface. Despeje o molho sobre as batatas. Cubra cada porção com metade de um ovo e 2 metades de azeitonas pretas."
+  },
+  "culturalNotes": "A Papa a la Huancaína é um prato tradicional peruano servido como entrada ou refeição leve.",
+  "chapter": "pe"
+ },
+ "w-pe-007": {
+  "title": "Manjar Blanco",
+  "ingredients": {
+   "w-pe-007-i1": {
+    "name": "água",
+    "standardAmount": "1 xícara"
+   },
+   "w-pe-007-i2": {
+    "name": "amido de milho",
+    "standardAmount": "0.5 xícara"
+   },
+   "w-pe-007-i3": {
+    "name": "leite de coco",
+    "standardAmount": "1 xícara"
+   },
+   "w-pe-007-i4": {
+    "name": "açúcar branco",
+    "standardAmount": "0.5 xícara"
+   },
+   "w-pe-007-i5": {
+    "name": "grãos de milho doce frescos",
+    "standardAmount": "0.25 xícara"
+   },
+   "w-pe-007-i6": {
+    "name": "coco ralado adoçado",
+    "standardAmount": "0.25 xícara"
+   }
+  },
+  "instructions": {
+   "1": "Unte uma forma de 8 polegadas com manteiga e reserve.",
+   "2": "Misture 0,5 chávena de água e o amido de milho numa tigela até ficar macio; reserve.",
+   "3": "Combine o leite de coco, 0,75 chávena de água e o açúcar numa panela em fogo baixo e mexa até o açúcar se dissolver.",
+   "4": "Leve a mistura a ferver, adicione os grãos de milho e misture a mistura de amido, mexendo rapidamente para evitar grumos enquanto engrossa.",
+   "5": "Leve a mistura novamente a ferver e cozinhe em fogo brando por 2 minutos, mexendo constantemente até ficar espessa e macia.",
+   "6": "Despeje o manjar blanco na forma preparada e deixe arrefecer até ficar firme, cerca de 2 horas.",
+   "7": "Coloque o coco ralado adoçado numa frigideira seca em fogo médio e mexa para tostar. Observe com cuidado para não queimar. Transfira o coco tostado para uma tigela, deixe arrefecer e polvilhe sobre o pudim antes de servir."
+  },
+  "culturalNotes": "O Manjar Blanco é uma sobremesa tradicional peruana, frequentemente servida em ocasiões especiais.",
+  "chapter": "pe"
+ },
+ "w-pe-008": {
+  "title": "Papas Rellenas (batatas recheadas fritas)",
+  "ingredients": {
+   "w-pe-008-i1": {
+    "name": "batatas",
+    "standardAmount": "4 grandess, descascadas e em cubos"
+   },
+   "w-pe-008-i2": {
+    "name": "sal",
+    "standardAmount": "1.5 colheres de chá, dividido"
+   },
+   "w-pe-008-i3": {
+    "name": "óleo vegetal",
+    "standardAmount": "1 colher de sopa"
+   },
+   "w-pe-008-i4": {
+    "name": "pimentão verde",
+    "standardAmount": "1 xícara picada"
+   },
+   "w-pe-008-i5": {
+    "name": "cebola",
+    "standardAmount": "1/2 xícara picada"
+   },
+   "w-pe-008-i6": {
+    "name": "alho",
+    "standardAmount": "3 dentes, finamente picados"
+   },
+   "w-pe-008-i7": {
+    "name": "carne de vaca moída",
+    "standardAmount": "1 libra"
+   },
+   "w-pe-008-i8": {
+    "name": "polpa de tomate",
+    "standardAmount": "4 colheres de chá"
+   },
+   "w-pe-008-i9": {
+    "name": "vinagre branco destilado",
+    "standardAmount": "1 colher de sopa"
+   },
+   "w-pe-008-i10": {
+    "name": "cominho moído",
+    "standardAmount": "2 colheres de chá"
+   },
+   "w-pe-008-i11": {
+    "name": "pimenta preta moída",
+    "standardAmount": "1 colher de chá"
+   },
+   "w-pe-008-i12": {
+    "name": "ovos",
+    "standardAmount": "4 grandes"
+   },
+   "w-pe-008-i13": {
+    "name": "pão ralado",
+    "standardAmount": "2 xícaras"
+   },
+   "w-pe-008-i14": {
+    "name": "farinha de trigo",
+    "standardAmount": "1 xícara"
+   },
+   "w-pe-008-i15": {
+    "name": "óleo vegetal para fritar",
+    "standardAmount": "1 quarto"
+   }
+  },
+  "instructions": {
+   "1": "Coloque as batatas numa panela grande; cubra com água salgada. Leve à ebulição em fogo alto, depois reduza o fogo para médio-baixo, tape e cozinhe em fogo brando até estarem macias, cerca de 20 minutos. Escorra e deixe secar ao vapor por 1 a 2 minutos. Amasse as batatas com 1/2 colher de chá de sal numa tigela até não restarem grumos. Reserve para arrefecer à temperatura ambiente.",
+   "2": "Entretanto, aqueça o óleo vegetal numa frigideira grande em fogo médio. Cozinhe e mexa o pimentão verde, a cebola e o alho na frigideira quente até a cebola amolecer e ficar translúcida, cerca de 10 minutos.",
+   "3": "Aumente o fogo para médio-alto; misture a carne moída. Cozinhe e mexa até a carne estar esfarelada e não estar mais rosada. Misture a polpa de tomate, o vinagre, o cominho, 1 colher de chá de sal e a pimenta até a polpa de tomate se dissolver. Transfira a mistura de carne para uma tigela; deixe arrefecer à temperatura ambiente.",
+   "4": "Forre um tabuleiro com película aderente ou papel encerado; reserve. Bata os ovos numa tigela; reserve. Despeje o pão ralado e a farinha em pratos fundos separados; reserve.",
+   "5": "Pegue num punhado de puré de batata (cerca de 1/12 do puré); divida em 2 porções iguais. Forme cada porção numa tigela pequena e encha cada uma com a mistura de carne. Junte as metades, sele as bordas e alise para formar uma bola redonda. Repita este passo com as batatas e a mistura de carne restantes.",
+   "6": "Uma a uma, passe suavemente as bolas de batata pela farinha para as cobrir; sacuda o excesso. Mergulhe no ovo batido, depois passe pelo pão ralado. Passe suavemente entre as mãos para que o pão ralado não aderido caia. Coloque as bolas panadas no tabuleiro preparado. Refrigere 2 a 4 horas ou congele para usar depois.",
+   "7": "Aqueça o óleo numa fritadeira ou panela grande a 175 graus C.",
+   "8": "Frite as bolas de batata no óleo quente em lotes, usando pinças para as fazer rolar enquanto fritam para um dourado uniforme, até ficarem crocantes e douradas, cerca de 3 minutos por lote. Escorra num prato forrado com papel toalha."
+  },
+  "culturalNotes": "As Papas Rellenas são um prato tradicional peruano servido como prato principal ou como entrada.",
+  "chapter": "pe"
+ },
+ "w-pe-009": {
+  "title": "Pastel de Choclo",
+  "ingredients": {
+   "w-pe-009-i1": {
+    "name": "ovos",
+    "standardAmount": "2 ovos"
+   },
+   "w-pe-009-i2": {
+    "name": "óleo vegetal",
+    "standardAmount": "1 colher de sopa"
+   },
+   "w-pe-009-i3": {
+    "name": "cebolas",
+    "standardAmount": "2 cebolas, picadas"
+   },
+   "w-pe-009-i4": {
+    "name": "alho",
+    "standardAmount": "2 dentes finamente picados"
+   },
+   "w-pe-009-i5": {
+    "name": "sal",
+    "standardAmount": "1 colher de chá + a gosto"
+   },
+   "w-pe-009-i6": {
+    "name": "colorau",
+    "standardAmount": "0.5 colher de chá + a gosto"
+   },
+   "w-pe-009-i7": {
+    "name": "pimenta preta",
+    "standardAmount": "a gosto"
+   },
+   "w-pe-009-i8": {
+    "name": "carne de vaca moída",
+    "standardAmount": "1 libra"
+   },
+   "w-pe-009-i9": {
+    "name": "frango grelhado",
+    "standardAmount": "0,5 frango grelhado, picado"
+   },
+   "w-pe-009-i10": {
+    "name": "passas",
+    "standardAmount": "1.5 colheres de sopa"
+   },
+   "w-pe-009-i11": {
+    "name": "azeitonas kalamata",
+    "standardAmount": "1.5 colheres de sopa"
+   },
+   "w-pe-009-i12": {
+    "name": "milho doce",
+    "standardAmount": "3 latas (de 15,25 onças)"
+   },
+   "w-pe-009-i13": {
+    "name": "manjericão seco",
+    "standardAmount": "2 colheres de chá"
+   },
+   "w-pe-009-i14": {
+    "name": "manteiga",
+    "standardAmount": "1 colher de sopa"
+   },
+   "w-pe-009-i15": {
+    "name": "leite",
+    "standardAmount": "1 xícara"
+   },
+   "w-pe-009-i16": {
+    "name": "açúcar branco",
+    "standardAmount": "2 colheres de chá + a gosto"
+   }
+  },
+  "instructions": {
+   "1": "Coloque os ovos numa panela e cubra com água. Leve a ferver, depois retire do fogo e deixe os ovos repousar na água quente durante 15 minutos.",
+   "2": "Numa frigideira em fogo médio, adicione o óleo, as cebolas, o alho, uma pitada de sal, ¼ de colher de chá de colorau e a pimenta preta. Cozinhe até ficarem aromáticos, cerca de 2 minutos.",
+   "3": "Adicione a carne moída, a restante 1 colher de chá de sal, o restante ¼ de colher de chá de colorau e a pimenta preta. Cozinhe e mexa até a carne estar maioritariamente dourada, cerca de 5 minutos.",
+   "4": "Adicione o frango, as passas e as azeitonas. Misture bem.",
+   "5": "Retire os ovos da água quente, arrefeça sob água fria corrente, depois descasque e pique grosseiramente. Adicione à mistura de carne. Mantenha o pino quente.",
+   "6": "Triture o milho e o manjericão numa liquidificadora ou processador de alimentos até ficar macio. Despeje numa panela em fogo médio. Adicione a manteiga e cozinhe, mexendo até engrossar, 7 a 10 minutos.",
+   "7": "Adicione o leite, o açúcar e o sal. Cozinhe até engrossar numa pasta, cerca de 15 minutos mais.",
+   "8": "Pré-aqueça o forno a 175 graus C.",
+   "9": "Espalhe o pino numa assadeira. Cubra com a pasta de milho e polvilhe um pouco de açúcar por cima.",
+   "10": "Asse no forno pré-aquecido até a superfície estar dourada, cerca de 20 minutos."
+  },
+  "culturalNotes": "O Pastel de Choclo é um prato tradicional peruano, frequentemente servido em ocasiões especiais e reuniões familiares.",
+  "chapter": "pe"
  }
 }

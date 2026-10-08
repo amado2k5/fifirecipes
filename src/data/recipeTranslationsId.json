@@ -123367,5 +123367,632 @@
   },
   "culturalNotes": "Paratha adalah makanan tradisional India, sering disajikan sebagai sarapan atau makan siang ringan.",
   "chapter": "مطبخ الهند"
+ },
+ "w-pe-001": {
+  "title": "Sup Ayam Peru (Aguadito de Pollo)",
+  "ingredients": {
+   "w-pe-001-i1": {
+    "name": "belahan dada ayam tanpa kulit dan tulang",
+    "standardAmount": "4 belahan - dibelah dua"
+   },
+   "w-pe-001-i2": {
+    "name": "garam dan merica",
+    "standardAmount": "sesuai selera"
+   },
+   "w-pe-001-i3": {
+    "name": "minyak zaitun",
+    "standardAmount": "0.5 cangkir"
+   },
+   "w-pe-001-i4": {
+    "name": "bawang bombai cincang",
+    "standardAmount": "1 buah sedang"
+   },
+   "w-pe-001-i5": {
+    "name": "bawang putih cincang",
+    "standardAmount": "1 sdt"
+   },
+   "w-pe-001-i6": {
+    "name": "cabai serrano tanpa biji, cincang",
+    "standardAmount": "1 sdm"
+   },
+   "w-pe-001-i7": {
+    "name": "ketumbar cincang",
+    "standardAmount": "0.5 cangkir"
+   },
+   "w-pe-001-i8": {
+    "name": "kacang polong hijau",
+    "standardAmount": "1 cangkir"
+   },
+   "w-pe-001-i9": {
+    "name": "jagung",
+    "standardAmount": "1 cangkir"
+   },
+   "w-pe-001-i10": {
+    "name": "paprika merah cincang",
+    "standardAmount": "0.5 paprika merah"
+   },
+   "w-pe-001-i11": {
+    "name": "kaldu ayam",
+    "standardAmount": "10 cangkir"
+   },
+   "w-pe-001-i12": {
+    "name": "kentang",
+    "standardAmount": "4 kentang Yukon Gold - dibelah dua"
+   },
+   "w-pe-001-i13": {
+    "name": "beras putih mentah",
+    "standardAmount": "1 cangkir"
+   }
+  },
+  "instructions": {
+   "1": "Bumbui dada ayam dengan garam dan merica.",
+   "2": "Panaskan minyak zaitun dalam panci besar dan berat di atas api sedang-besar. Tambahkan bawang bombai, bawang putih, dan cabai serrano, lalu masak hingga bawang melunak, sekitar 1 menit.",
+   "3": "Tambahkan ayam dan lanjutkan memasak selama 5 menit.",
+   "4": "Aduk ketumbar, kacang polong, jagung, dan paprika merah; masak selama 1 menit.",
+   "5": "Tuangkan kaldu ayam, kentang, dan beras. Didihkan, lalu kecilkan api ke sedang-kecil dan rebus perlahan hingga ayam matang dan kentang empuk, sekitar 40 menit."
+  },
+  "culturalNotes": "Aguadito de Pollo adalah sup tradisional Peru yang disajikan sebagai makanan ringan atau hidangan utama. Ciri khasnya adalah ragam rasa sayuran dan rempah.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-002": {
+  "title": "Ají de Gallina",
+  "ingredients": {
+   "w-pe-002-i1": {
+    "name": "belahan dada ayam tanpa kulit dengan tulang",
+    "standardAmount": "2 pon"
+   },
+   "w-pe-002-i2": {
+    "name": "bawang bombai",
+    "standardAmount": "1 bawang"
+   },
+   "w-pe-002-i3": {
+    "name": "wortel",
+    "standardAmount": "2 wortel"
+   },
+   "w-pe-002-i4": {
+    "name": "bawang putih",
+    "standardAmount": "4 siung"
+   },
+   "w-pe-002-i5": {
+    "name": "air",
+    "standardAmount": "2 kuart"
+   },
+   "w-pe-002-i6": {
+    "name": "roti tawar",
+    "standardAmount": "1 roti, tanpa kulit dan dipotong dadu"
+   },
+   "w-pe-002-i7": {
+    "name": "susu evaporasi",
+    "standardAmount": "12 ons cair"
+   },
+   "w-pe-002-i8": {
+    "name": "keju parmesan parut",
+    "standardAmount": "0.5 cangkir"
+   },
+   "w-pe-002-i9": {
+    "name": "potongan kenari",
+    "standardAmount": "0.25 cangkir"
+   },
+   "w-pe-002-i10": {
+    "name": "minyak sayur",
+    "standardAmount": "1 sdt"
+   },
+   "w-pe-002-i11": {
+    "name": "bawang putih cincang",
+    "standardAmount": "2 siung"
+   },
+   "w-pe-002-i12": {
+    "name": "bawang bombai cincang",
+    "standardAmount": "1 bawang"
+   },
+   "w-pe-002-i13": {
+    "name": "pasta cabai aji amarillo",
+    "standardAmount": "2 sendok teh"
+   },
+   "w-pe-002-i14": {
+    "name": "kunyit bubuk",
+    "standardAmount": "2 sendok teh"
+   },
+   "w-pe-002-i15": {
+    "name": "telur rebus, diiris",
+    "standardAmount": "4 butir"
+   },
+   "w-pe-002-i16": {
+    "name": "zaitun kalamata, tanpa biji dan dipotong empat",
+    "standardAmount": "0.25 cangkir"
+   }
+  },
+  "instructions": {
+   "1": "Letakkan dada ayam, bawang bombai, wortel, dan 2 siung bawang putih dalam panci besar, tuangkan 2 kuart air dan perlahan didihkan di atas api sedang-besar. Buang buih yang terbentuk di atasnya, lalu tutup, kecilkan api ke sedang-kecil, dan rebus perlahan hingga ayam empuk, sekitar 30 menit. Angkat ayam ke piring dan biarkan dingin. Saring kaldu ayam yang dihasilkan, buang sayurannya.",
+   "2": "Tuangkan susu evaporasi dan 1/2 cangkir kaldu ayam ke dalam mangkuk blender. Tambahkan potongan roti dan haluskan hingga lembut. Tambahkan keju parmesan dan kenari; haluskan hingga lembut. Suwir ayam yang sudah dingin dan buang tulangnya.",
+   "3": "Panaskan minyak sayur dalam panci besar di atas api sedang. Aduk bawang putih cincang dan bawang bombai cincang; masak hingga bawang melunak dan menjadi bening, sekitar 5 menit. Aduk ayam suwir dan aji amarillo hingga panas. Tuangkan puree roti dan masak hingga panas, sering diaduk. Tambahkan lebih banyak kaldu ayam jika perlu agar tidak terlalu kental.",
+   "4": "Aduk kunyit dan rebus perlahan 5 menit lagi. Sajikan dengan hiasan irisan telur rebus dan taburan zaitun kalamata."
+  },
+  "culturalNotes": "Ají de Gallina adalah hidangan tradisional Peru yang sering disajikan pada acara-acara khusus.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-003": {
+  "title": "Ajiaco (rebusan daging sapi dan paprika Peru)",
+  "ingredients": {
+   "w-pe-003-i1": {
+    "name": "minyak kanola",
+    "standardAmount": "2 sendok makan"
+   },
+   "w-pe-003-i2": {
+    "name": "bawang merah iris",
+    "standardAmount": "1 cangkir"
+   },
+   "w-pe-003-i3": {
+    "name": "bawang putih cincang",
+    "standardAmount": "2 sendok makan"
+   },
+   "w-pe-003-i4": {
+    "name": "paprika merah, dipotong-potong 1 inci",
+    "standardAmount": "2 buah"
+   },
+   "w-pe-003-i5": {
+    "name": "bubuk cabai chipotle",
+    "standardAmount": "1.5 sendok teh"
+   },
+   "w-pe-003-i6": {
+    "name": "jintan bubuk",
+    "standardAmount": "2 sendok teh"
+   },
+   "w-pe-003-i7": {
+    "name": "daging panggang matang, dipotong dadu",
+    "standardAmount": "3 cangkir"
+   },
+   "w-pe-003-i8": {
+    "name": "kentang merah kecil, dibelah dua",
+    "standardAmount": "1 pon"
+   },
+   "w-pe-003-i9": {
+    "name": "air",
+    "standardAmount": "2 cangkir"
+   },
+   "w-pe-003-i10": {
+    "name": "kaldu sapi",
+    "standardAmount": "1 kuart"
+   },
+   "w-pe-003-i11": {
+    "name": "oregano kering",
+    "standardAmount": "0.5 sdt"
+   },
+   "w-pe-003-i12": {
+    "name": "garam dan merica secukupnya",
+    "standardAmount": "sesuai selera"
+   },
+   "w-pe-003-i13": {
+    "name": "peterseli cincang",
+    "standardAmount": "0.25 cangkir"
+   },
+   "w-pe-003-i14": {
+    "name": "telur rebus, diiris setebal ¼ inci",
+    "standardAmount": "2 butir"
+   }
+  },
+  "instructions": {
+   "1": "Panaskan minyak kanola dalam oven Belanda di atas api sedang. Tambahkan bawang merah iris, bawang putih cincang, dan paprika merah. Masak hingga bawang merah melunak dan menjadi bening, sekitar 4 menit.",
+   "2": "Tambahkan bubuk cabai chipotle dan jintan. Masak 30 detik hingga harum.",
+   "3": "Tambahkan daging panggang matang dan kentang merah. Tuangkan air dan kaldu sapi. Didihkan di atas api besar, lalu kecilkan api ke sedang-kecil, tutup, dan rebus perlahan hingga kentang empuk, sekitar 30 menit.",
+   "4": "Aduk oregano, dan bumbui secukupnya dengan garam dan merica.",
+   "5": "Aduk peterseli cincang sebelum disajikan. Hiasi setiap mangkuk dengan beberapa irisan telur rebus."
+  },
+  "culturalNotes": "Ajiaco adalah hidangan tradisional Peru yang dikenal dengan rasa yang kaya dan tendangan pedasnya.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-004": {
+  "title": "Anticucho",
+  "ingredients": {
+   "w-pe-004-i1": {
+    "name": "jantung sapi",
+    "standardAmount": "1 jantung"
+   },
+   "w-pe-004-i2": {
+    "name": "bawang putih",
+    "standardAmount": "2 siung"
+   },
+   "w-pe-004-i3": {
+    "name": "cabai merah pedas bubuk",
+    "standardAmount": "¼ cangkir"
+   },
+   "w-pe-004-i4": {
+    "name": "cuka cokelat",
+    "standardAmount": "2 cangkir"
+   },
+   "w-pe-004-i5": {
+    "name": "jintan bubuk",
+    "standardAmount": "1 sdt"
+   },
+   "w-pe-004-i6": {
+    "name": "achiote (annatto)",
+    "standardAmount": "1 sdt"
+   },
+   "w-pe-004-i7": {
+    "name": "garam",
+    "standardAmount": "1 sdt"
+   },
+   "w-pe-004-i8": {
+    "name": "merica hitam bubuk",
+    "standardAmount": "1 sdt"
+   }
+  },
+  "instructions": {
+   "1": "Masukkan semua bahan, kecuali jantung sapi, ke dalam mangkuk dan aduk hingga rata.",
+   "2": "Bersihkan jantung sapi, buang semua lemaknya. Potong menjadi kubus seukuran gigitan. Masukkan potongan jantung ke dalam campuran bumbu marinasi, dan biarkan terendam sekitar 10 jam atau semalaman. Jantung harus tertutup sempurna oleh marinasi.",
+   "3": "Setelah dimarinasi, tusukkan daging ke tusuk sate. Jika diinginkan, pada tahap ini bahan tambahan seperti paprika atau jagung tongkol (dipotong seukuran jantung) juga bisa ditambahkan ke tusuk sate.",
+   "4": "Masak sate di atas panggangan barbekyu, sering dibolak-balik sambil diolesi campuran marinasi. Saat daging sudah matang sempurna, angkat sate dari panggangan dan sajikan segera."
+  },
+  "culturalNotes": "Anticucho adalah hidangan tradisional Peru, sering disajikan sebagai camilan atau pada perayaan.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-005": {
+  "title": "Arroz Tapado",
+  "ingredients": {
+   "w-pe-005-i1": {
+    "name": "beras putih",
+    "standardAmount": "2 cangkir"
+   },
+   "w-pe-005-i2": {
+    "name": "air",
+    "standardAmount": "4 cangkir"
+   },
+   "w-pe-005-i3": {
+    "name": "telur",
+    "standardAmount": "1 butir"
+   },
+   "w-pe-005-i4": {
+    "name": "kentang",
+    "standardAmount": "1 kentang, dikupas dan dipotong dadu"
+   },
+   "w-pe-005-i5": {
+    "name": "minyak sayur",
+    "standardAmount": "1 cangkir"
+   },
+   "w-pe-005-i6": {
+    "name": "tomat",
+    "standardAmount": "3 tomat kecil, cincang kasar dicincang"
+   },
+   "w-pe-005-i7": {
+    "name": "air",
+    "standardAmount": "0.5 cangkir"
+   },
+   "w-pe-005-i8": {
+    "name": "minyak sayur",
+    "standardAmount": "1 sdm"
+   },
+   "w-pe-005-i9": {
+    "name": "bawang bombai",
+    "standardAmount": "0.5 besar bawang, dicincang halus"
+   },
+   "w-pe-005-i10": {
+    "name": "bawang putih",
+    "standardAmount": "3 siung bawang putih, dicincang"
+   },
+   "w-pe-005-i11": {
+    "name": "cabai aji kering bubuk",
+    "standardAmount": "1 sdt"
+   },
+   "w-pe-005-i12": {
+    "name": "jintan bubuk",
+    "standardAmount": "0.5 sdt"
+   },
+   "w-pe-005-i13": {
+    "name": "merica hitam bubuk",
+    "standardAmount": "0.25 sdt"
+   },
+   "w-pe-005-i14": {
+    "name": "oregano segar cincang",
+    "standardAmount": "2 sendok teh"
+   },
+   "w-pe-005-i15": {
+    "name": "daging sapi giling tanpa lemak",
+    "standardAmount": "1 pon"
+   },
+   "w-pe-005-i16": {
+    "name": "wortel",
+    "standardAmount": "2 besar wortel, dikupas dan dipotong dadu"
+   },
+   "w-pe-005-i17": {
+    "name": "kacang polong beku",
+    "standardAmount": "0.25 cangkir"
+   },
+   "w-pe-005-i18": {
+    "name": "selai kacang",
+    "standardAmount": "1 sdm"
+   },
+   "w-pe-005-i19": {
+    "name": "ketumbar segar cincang",
+    "standardAmount": "1 sdt"
+   },
+   "w-pe-005-i20": {
+    "name": "tomat segar cincang",
+    "standardAmount": "1 sdt"
+   },
+   "w-pe-005-i21": {
+    "name": "saus tomat",
+    "standardAmount": "1 sdt"
+   }
+  },
+  "instructions": {
+   "1": "Didihkan beras dan 4 cangkir air dalam panci di atas api besar. Kecilkan api ke sedang-kecil, tutup, dan rebus perlahan hingga beras empuk dan cairan terserap, 20 hingga 25 menit.",
+   "2": "Letakkan telur dalam panci, dan tutupi dengan air setinggi 1 inci. Tutup panci dan didihkan air di atas api besar. Setelah air mendidih, angkat dari api dan biarkan telur terendam dalam air panas selama 15 menit. Buang air panasnya, lalu dinginkan telur di bawah air dingin mengalir di wastafel. Kupas setelah dingin. Cincang telur dan sisihkan dalam mangkuk kecil.",
+   "3": "Panaskan 1 cangkir minyak sayur dalam penggorengan atau panci besar hingga 175 derajat C. Goreng potongan kentang hingga kuning kecokelatan, sekitar 5 menit; tiriskan di atas tisu dapur, dan sisihkan.",
+   "4": "Masukkan tomat dan 0,5 cangkir air ke dalam blender, dan haluskan hingga tomat mencair (kupas dan buang bijinya dulu, jika diinginkan).",
+   "5": "Panaskan 1 sendok makan minyak sayur dalam wajan besar di atas api sedang, dan masak serta aduk bawang bombai, bawang putih, bubuk cabai aji, jintan, merica hitam, dan oregano hingga bawang mulai kecokelatan, 8 hingga 10 menit; tuangkan tomat yang dihaluskan, dan rebus perlahan 5 menit lagi, sering diaduk. Masukkan daging giling dan wortel, dan masak hingga daging tidak lagi berwarna merah muda dan wortel empuk, sekitar 10 menit. Hancurkan daging menjadi potongan kecil saat dimasak. Masukkan telur rebus cincang, kacang polong, dan selai kacang hingga tercampur rata. Terakhir, aduk perlahan potongan kentang goreng.",
+   "6": "Untuk menyusun hidangan, olesi mangkuk plastik lentur (berukuran minimal 1 cangkir) dengan minyak dan tekan nasi matang ke dasar hingga mengisi 1/3 mangkuk. Lapisi dengan campuran daging setebal sekitar ¾ inci di atas nasi, dan tutupi dengan nasi matang lagi hingga mangkuk penuh. Dengan tangan yang diolesi minyak, tekan nasi perlahan untuk memadatkan campuran; letakkan piring saji di atas mangkuk, balik, dan keluarkan bentuk nasi dan daging. Ulangi dengan sisa bahan. Hiasi tiap porsi dengan ketumbar, tomat cincang, dan tetesan saus tomat."
+  },
+  "culturalNotes": "Arroz Tapado adalah hidangan tradisional Peru, sering disajikan pada acara khusus dan pertemuan keluarga.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-006": {
+  "title": "Papa a la Huancaína",
+  "ingredients": {
+   "w-pe-006-i1": {
+    "name": "kentang Yukon Gold",
+    "standardAmount": "12"
+   },
+   "w-pe-006-i2": {
+    "name": "minyak zaitun",
+    "standardAmount": "1 sdm"
+   },
+   "w-pe-006-i3": {
+    "name": "bawang bombai",
+    "standardAmount": "1"
+   },
+   "w-pe-006-i4": {
+    "name": "cabai",
+    "standardAmount": "6"
+   },
+   "w-pe-006-i5": {
+    "name": "keju krim",
+    "standardAmount": "1 pon"
+   },
+   "w-pe-006-i6": {
+    "name": "queso fresco",
+    "standardAmount": "1 pon"
+   },
+   "w-pe-006-i7": {
+    "name": "minyak sayur",
+    "standardAmount": "0.25 cangkir"
+   },
+   "w-pe-006-i8": {
+    "name": "garam",
+    "standardAmount": "2 sendok teh"
+   },
+   "w-pe-006-i9": {
+    "name": "bawang putih",
+    "standardAmount": "1 siung"
+   },
+   "w-pe-006-i10": {
+    "name": "merica hitam bubuk",
+    "standardAmount": "0.5 sdt"
+   },
+   "w-pe-006-i11": {
+    "name": "susu evaporasi",
+    "standardAmount": "0.33 cangkir"
+   },
+   "w-pe-006-i12": {
+    "name": "daun selada",
+    "standardAmount": "8 lembar"
+   },
+   "w-pe-006-i13": {
+    "name": "telur rebus",
+    "standardAmount": "4 besar"
+   },
+   "w-pe-006-i14": {
+    "name": "zaitun hitam",
+    "standardAmount": "8"
+   }
+  },
+  "instructions": {
+   "1": "Letakkan kentang dalam panci besar dan tutupi dengan air garam. Didihkan di atas api besar, lalu kecilkan api ke sedang-kecil dan rebus perlahan hingga empuk, sekitar 20 menit. Tiriskan dan sisihkan agar agak dingin.",
+   "2": "Dalam wajan di atas api sedang, panaskan minyak zaitun dan masak bawang bombai hingga empuk, sekitar 10 menit. Angkat dari api.",
+   "3": "Dalam panci kecil, didihkan air dan tambahkan cabai. Rebus hingga lunak, sekitar 5 menit. Bilas cabai di bawah air dingin hingga cukup dingin untuk dipegang, lalu kupas dan buang kulitnya.",
+   "4": "Masukkan bawang bombai, cabai, keju krim, queso fresco, minyak sayur, garam, bawang putih, dan merica hitam ke dalam blender dan haluskan hingga lembut. Tuangkan susu evaporasi perlahan sambil blender menyala hingga saus menjadi krim.",
+   "5": "Letakkan 1 daun selada di masing-masing 8 piring. Belah kentang menjadi dua dan tata 3 belahan di setiap daun selada. Tuangkan saus di atas kentang. Hiasi tiap porsi dengan setengah telur dan 2 belahan zaitun hitam."
+  },
+  "culturalNotes": "Papa a la Huancaína adalah hidangan tradisional Peru yang disajikan sebagai hidangan pembuka atau makanan ringan.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-007": {
+  "title": "Manjar Blanco",
+  "ingredients": {
+   "w-pe-007-i1": {
+    "name": "air",
+    "standardAmount": "1 cangkir"
+   },
+   "w-pe-007-i2": {
+    "name": "tepung maizena",
+    "standardAmount": "0.5 cangkir"
+   },
+   "w-pe-007-i3": {
+    "name": "santan",
+    "standardAmount": "1 cangkir"
+   },
+   "w-pe-007-i4": {
+    "name": "gula putih",
+    "standardAmount": "0.5 cangkir"
+   },
+   "w-pe-007-i5": {
+    "name": "biji jagung manis segar",
+    "standardAmount": "0.25 cangkir"
+   },
+   "w-pe-007-i6": {
+    "name": "kelapa parut manis",
+    "standardAmount": "0.25 cangkir"
+   }
+  },
+  "instructions": {
+   "1": "Olesi loyang 8 inci dengan mentega dan sisihkan.",
+   "2": "Campurkan 0,5 cangkir air dan tepung maizena dalam mangkuk hingga lembut; sisihkan.",
+   "3": "Campurkan santan, 0,75 cangkir air, dan gula dalam panci di atas api kecil dan aduk hingga gula larut.",
+   "4": "Didihkan campuran, tambahkan biji jagung, dan masukkan campuran tepung maizena sambil diaduk cepat untuk menghindari gumpalan saat mengental.",
+   "5": "Didihkan lagi campuran dan rebus perlahan selama 2 menit, aduk terus hingga kental dan lembut.",
+   "6": "Tuangkan manjar blanco ke dalam loyang yang disiapkan dan biarkan dingin hingga padat, sekitar 2 jam.",
+   "7": "Letakkan kelapa parut manis dalam wajan kering di atas api sedang dan aduk untuk memanggang. Perhatikan baik-baik agar tidak gosong. Pindahkan kelapa panggang ke mangkuk, biarkan dingin, dan taburkan di atas puding sebelum disajikan."
+  },
+  "culturalNotes": "Manjar Blanco adalah hidangan penutup tradisional Peru, sering disajikan pada acara-acara khusus.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-008": {
+  "title": "Papas Rellenas (kentang isi goreng)",
+  "ingredients": {
+   "w-pe-008-i1": {
+    "name": "kentang",
+    "standardAmount": "4 besar, dikupas dan dipotong dadu"
+   },
+   "w-pe-008-i2": {
+    "name": "garam",
+    "standardAmount": "1.5 sendok teh, dibagi"
+   },
+   "w-pe-008-i3": {
+    "name": "minyak sayur",
+    "standardAmount": "1 sdm"
+   },
+   "w-pe-008-i4": {
+    "name": "paprika hijau",
+    "standardAmount": "1 cangkir dicincang"
+   },
+   "w-pe-008-i5": {
+    "name": "bawang bombai",
+    "standardAmount": "1/2 cangkir dicincang"
+   },
+   "w-pe-008-i6": {
+    "name": "bawang putih",
+    "standardAmount": "3 siung, dicincang"
+   },
+   "w-pe-008-i7": {
+    "name": "daging sapi giling",
+    "standardAmount": "1 pon"
+   },
+   "w-pe-008-i8": {
+    "name": "pasta tomat",
+    "standardAmount": "4 sendok teh"
+   },
+   "w-pe-008-i9": {
+    "name": "cuka putih suling",
+    "standardAmount": "1 sdm"
+   },
+   "w-pe-008-i10": {
+    "name": "jintan bubuk",
+    "standardAmount": "2 sendok teh"
+   },
+   "w-pe-008-i11": {
+    "name": "merica hitam bubuk",
+    "standardAmount": "1 sdt"
+   },
+   "w-pe-008-i12": {
+    "name": "telur",
+    "standardAmount": "4 besar"
+   },
+   "w-pe-008-i13": {
+    "name": "tepung roti",
+    "standardAmount": "2 cangkir"
+   },
+   "w-pe-008-i14": {
+    "name": "tepung serbaguna",
+    "standardAmount": "1 cangkir"
+   },
+   "w-pe-008-i15": {
+    "name": "minyak sayur untuk menggoreng",
+    "standardAmount": "1 kuart"
+   }
+  },
+  "instructions": {
+   "1": "Masukkan kentang ke dalam panci besar; tutupi dengan air garam. Didihkan di atas api besar, lalu kecilkan api ke sedang-kecil, tutup, dan rebus perlahan hingga empuk, sekitar 20 menit. Tiriskan dan biarkan menguap kering selama 1 hingga 2 menit. Tumbuk kentang dengan 1/2 sendok teh garam dalam mangkuk hingga tidak ada gumpalan. Sisihkan agar dingin ke suhu ruang.",
+   "2": "Sementara itu, panaskan minyak sayur dalam wajan besar di atas api sedang. Masak dan aduk paprika hijau, bawang bombai, dan bawang putih dalam wajan panas hingga bawang melunak dan menjadi bening, sekitar 10 menit.",
+   "3": "Besarkan api ke sedang-besar; masukkan daging giling. Masak dan aduk hingga daging hancur dan tidak lagi berwarna merah muda. Masukkan pasta tomat, cuka, jintan, 1 sendok teh garam, dan merica hingga pasta tomat larut. Pindahkan campuran daging ke mangkuk; biarkan dingin ke suhu ruang.",
+   "4": "Lapisi loyang dengan plastik pembungkus atau kertas lilin; sisihkan. Kocok telur dalam mangkuk adonan; sisihkan. Tuangkan tepung roti dan tepung ke piring dangkal terpisah; sisihkan.",
+   "5": "Ambil segenggam kentang tumbuk (sekitar 1/12 dari kentang tumbuk); bagi menjadi 2 bagian sama besar. Bentuk tiap potongan menjadi cangkir kecil dan isi masing-masing dengan campuran daging. Satukan kedua belahan, tutup rapat pinggirnya, dan haluskan menjadi bola bulat. Ulangi langkah ini dengan sisa kentang dan campuran daging.",
+   "6": "Satu per satu, gulingkan bola kentang dengan lembut ke tepung untuk melapisinya; kibaskan kelebihannya. Celupkan ke telur kocok, lalu gulingkan ke tepung roti. Pindahkan perlahan di antara kedua tangan agar tepung roti yang tidak menempel jatuh. Letakkan bola kentang yang dilapisi di loyang yang disiapkan. Dinginkan di kulkas 2 hingga 4 jam atau bekukan untuk digunakan nanti.",
+   "7": "Panaskan minyak dalam penggorengan atau panci besar hingga 175 derajat C.",
+   "8": "Masak bola kentang dalam minyak panas secara bertahap, gunakan penjepit untuk menggulingkan bola saat dimasak agar kecokelatan merata, hingga renyah dan kuning kecokelatan, sekitar 3 menit per tahap. Tiriskan di piring berlapis tisu dapur."
+  },
+  "culturalNotes": "Papas Rellenas adalah hidangan tradisional Peru yang disajikan sebagai hidangan utama atau pembuka.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-009": {
+  "title": "Pastel de Choclo",
+  "ingredients": {
+   "w-pe-009-i1": {
+    "name": "telur",
+    "standardAmount": "2 butir"
+   },
+   "w-pe-009-i2": {
+    "name": "minyak sayur",
+    "standardAmount": "1 sdm"
+   },
+   "w-pe-009-i3": {
+    "name": "bawang bombai",
+    "standardAmount": "2 bawang, dicincang"
+   },
+   "w-pe-009-i4": {
+    "name": "bawang putih",
+    "standardAmount": "2 siung dicincang"
+   },
+   "w-pe-009-i5": {
+    "name": "garam",
+    "standardAmount": "1 sdt + sesuai selera"
+   },
+   "w-pe-009-i6": {
+    "name": "paprika",
+    "standardAmount": "0.5 sdt + sesuai selera"
+   },
+   "w-pe-009-i7": {
+    "name": "merica hitam",
+    "standardAmount": "sesuai selera"
+   },
+   "w-pe-009-i8": {
+    "name": "daging sapi giling",
+    "standardAmount": "1 pon"
+   },
+   "w-pe-009-i9": {
+    "name": "ayam panggang",
+    "standardAmount": "0.5 ekor ayam panggang, dicincang"
+   },
+   "w-pe-009-i10": {
+    "name": "kismis",
+    "standardAmount": "1.5 sendok makan"
+   },
+   "w-pe-009-i11": {
+    "name": "zaitun kalamata",
+    "standardAmount": "1.5 sendok makan"
+   },
+   "w-pe-009-i12": {
+    "name": "jagung manis",
+    "standardAmount": "3 kaleng (15,25 ons)"
+   },
+   "w-pe-009-i13": {
+    "name": "kemangi kering",
+    "standardAmount": "2 sendok teh"
+   },
+   "w-pe-009-i14": {
+    "name": "mentega",
+    "standardAmount": "1 sdm"
+   },
+   "w-pe-009-i15": {
+    "name": "susu",
+    "standardAmount": "1 cangkir"
+   },
+   "w-pe-009-i16": {
+    "name": "gula putih",
+    "standardAmount": "2 sendok teh + sesuai selera"
+   }
+  },
+  "instructions": {
+   "1": "Letakkan telur dalam panci dan tutupi dengan air. Didihkan, lalu angkat dari api dan biarkan telur terendam dalam air panas selama 15 menit.",
+   "2": "Dalam wajan di atas api sedang, tambahkan minyak, bawang bombai, bawang putih, sejumput garam, ¼ sendok teh paprika, dan merica hitam. Masak hingga harum, sekitar 2 menit.",
+   "3": "Tambahkan daging giling, sisa 1 sendok teh garam, sisa ¼ sendok teh paprika, dan merica hitam. Masak dan aduk hingga daging sebagian besar kecokelatan, sekitar 5 menit.",
+   "4": "Tambahkan ayam, kismis, dan zaitun. Aduk rata.",
+   "5": "Keluarkan telur dari air panas, dinginkan di bawah air dingin mengalir, lalu kupas dan cincang kasar. Tambahkan ke campuran daging. Jaga pino tetap hangat.",
+   "6": "Haluskan jagung dan kemangi dalam blender atau food processor hingga lembut. Tuangkan ke panci di atas api sedang. Tambahkan mentega dan masak sambil diaduk hingga mengental, 7 hingga 10 menit.",
+   "7": "Tambahkan susu, gula, dan garam. Masak hingga mengental menjadi pasta, sekitar 15 menit lagi.",
+   "8": "Panaskan oven hingga 175 derajat C.",
+   "9": "Ratakan pino ke dalam loyang. Tutupi dengan pasta jagung dan taburi sedikit gula di atasnya.",
+   "10": "Panggang dalam oven yang sudah panas hingga bagian atas kuning kecokelatan, sekitar 20 menit."
+  },
+  "culturalNotes": "Pastel de Choclo adalah hidangan tradisional Peru, sering disajikan pada acara-acara khusus dan pertemuan keluarga.",
+  "chapter": "مطبخ بيرو"
  }
 }

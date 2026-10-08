@@ -123359,5 +123359,632 @@
   },
   "culturalNotes": "Paratha ni chakula cha jadi cha India, kinachotolewa mara nyingi kama kiamsha kinywa au chakula cha mchana chepesi.",
   "chapter": "مطبخ الهند"
+ },
+ "w-pe-001": {
+  "title": "Supu ya Kuku ya Peru (Aguadito de Pollo)",
+  "ingredients": {
+   "w-pe-001-i1": {
+    "name": "nusu za kifua cha kuku kisicho na ngozi na mfupa",
+    "standardAmount": "4 nusu - zilizogawanywa nusu"
+   },
+   "w-pe-001-i2": {
+    "name": "chumvi na pilipili",
+    "standardAmount": "kadiri unavyotaka"
+   },
+   "w-pe-001-i3": {
+    "name": "mafuta ya mzeituni",
+    "standardAmount": "0.5 kikombe"
+   },
+   "w-pe-001-i4": {
+    "name": "kitunguu kikachopwa",
+    "standardAmount": "1 kitunguu cha wastani"
+   },
+   "w-pe-001-i5": {
+    "name": "kitunguu saumu kikachopwa",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-pe-001-i6": {
+    "name": "pilipili serrano isiyo na mbegu, iliyokatwa",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-pe-001-i7": {
+    "name": "giligilani iliyokatwa",
+    "standardAmount": "0.5 kikombe"
+   },
+   "w-pe-001-i8": {
+    "name": "minji",
+    "standardAmount": "1 kikombe"
+   },
+   "w-pe-001-i9": {
+    "name": "mahindi",
+    "standardAmount": "1 kikombe"
+   },
+   "w-pe-001-i10": {
+    "name": "pilipili hoho nyekundu iliyokatwa",
+    "standardAmount": "0.5 red pilipili hoho"
+   },
+   "w-pe-001-i11": {
+    "name": "mchuzi wa kuku",
+    "standardAmount": "10 vikombe"
+   },
+   "w-pe-001-i12": {
+    "name": "viazi",
+    "standardAmount": "4 viazi vya Yukon Gold - vilivyogawanywa nusu"
+   },
+   "w-pe-001-i13": {
+    "name": "mchele mweupe usiookwa",
+    "standardAmount": "1 kikombe"
+   }
+  },
+  "instructions": {
+   "1": "Onja vifua vya kuku kwa chumvi na pilipili.",
+   "2": "Osha mafuta ya mzeituni katika sufuria kubwa na nzito juu ya moto wa kati-juu. Ongeza kitunguu, kitunguu saumu na pilipili serrano upike hadi kitunguu kilainike, takriban dakika 1.",
+   "3": "Ongeza kuku na endelea kupika kwa dakika 5.",
+   "4": "Changanya giligilani, minji, mahindi na pilipili hoho nyekundu; pika kwa dakika 1.",
+   "5": "Mwaga mchuzi wa kuku, viazi na mchele. Leta kwenye kuchemsha, kisha punguza moto hadi kati-chini na loweka hadi kuku iwe isiyo angavu na viazi vinilaini, takriban dakika 40."
+  },
+  "culturalNotes": "Aguadito de Pollo ni supu ya jadi ya Peru inayotolewa kama chakula chepesi au chakula kikuu. Inajulikana kwa ladha mbalimbali za mboga na viungo.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-002": {
+  "title": "Ají de Gallina",
+  "ingredients": {
+   "w-pe-002-i1": {
+    "name": "nusu za kifua cha kuku kisicho na ngozi chenye mfupa",
+    "standardAmount": "2 ratili"
+   },
+   "w-pe-002-i2": {
+    "name": "kitunguu",
+    "standardAmount": "1 kitunguu"
+   },
+   "w-pe-002-i3": {
+    "name": "karoti",
+    "standardAmount": "2 karoti"
+   },
+   "w-pe-002-i4": {
+    "name": "kitunguu saumu",
+    "standardAmount": "4 vitunguu"
+   },
+   "w-pe-002-i5": {
+    "name": "maji",
+    "standardAmount": "2 kwati"
+   },
+   "w-pe-002-i6": {
+    "name": "mkate mweupe",
+    "standardAmount": "1 mkate, ngozi imeondolewa na kukatwa mchemraba"
+   },
+   "w-pe-002-i7": {
+    "name": "maziwa ya kuyeyushwa",
+    "standardAmount": "12 aunsi za kioevu"
+   },
+   "w-pe-002-i8": {
+    "name": "jibini la parmesan lililochangwa",
+    "standardAmount": "0.5 kikombe"
+   },
+   "w-pe-002-i9": {
+    "name": "vipande vya lozi za walnati",
+    "standardAmount": "0.25 kikombe"
+   },
+   "w-pe-002-i10": {
+    "name": "mafuta ya mboga",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-pe-002-i11": {
+    "name": "kitunguu saumu kikachopwa",
+    "standardAmount": "2 vitunguu"
+   },
+   "w-pe-002-i12": {
+    "name": "kitunguu kikachopwa",
+    "standardAmount": "1 kitunguu"
+   },
+   "w-pe-002-i13": {
+    "name": "weka wa pilipili aji amarillo",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-002-i14": {
+    "name": "manjano iliyosagwa",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-002-i15": {
+    "name": "mayai yaliyochemshwa, yaliyokatwa vipande",
+    "standardAmount": "4 mayai"
+   },
+   "w-pe-002-i16": {
+    "name": "olivu za kalamata, zilizoondolewa mbuo na kugawanyika nne",
+    "standardAmount": "0.25 kikombe"
+   }
+  },
+  "instructions": {
+   "1": "Weka vifua vya kuku, kitunguu, karoti na vijiko 2 vya kitunguu saumu katika sufuria kubwa, mwaga kwarta 2 za maji na leta polepole kwenye kuchemsha juu ya moto wa kati-juu. Ondoa povu linalotengenezwa juu, kisha funika, punguza moto hadi kati-chini na loweka hadi kuku ilainike, takriban dakika 30. Ondoa kuku kwenye sahani na uruhusu ipoe. Chuja mchuzi wa kuku uliotengenezwa, ukitupa mboga.",
+   "2": "Mwaga maziwa ya kuyeyushwa na kikombe 1/2 cha mchuzi wa kuku kwenye chombo cha blender. Ongeza vipande vya mkate na changanya hadi laini. Ongeza parmesan na lozi; changanya hadi laini. Sambaza kuku iliyopoa na tupa mifupa.",
+   "3": "Osha mafuta ya mboga katika sufuria kubwa juu ya moto wa kati. Changanya kitunguu saumu kikachopwa na kitunguu kikachopwa; pika hadi kitunguu kilainike na kuwa cha kioo, takriban dakika 5. Changanya kuku iliyosambazwa na aji amarillo hadi ipate joto. Mwaga pure ya mkate na pika hadi iwe ya joto, ukiendelea kuchanganya mara kwa mara. Ongeza mchuzi zaidi wa kuku kama inahitajika ili isiwe nzito sana.",
+   "4": "Changanya manjano na loweka kwa dakika 5 zaidi. Toa ukipamba kwa vipande vya mayai yaliyochemshwa na kutawanya olivu za kalamata."
+  },
+  "culturalNotes": "Ají de Gallina ni chakula cha jadi cha Peru kinachotolewa mara nyingi katika hafla maalum.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-003": {
+  "title": "Ajiaco (mchuzi wa nyama na pilipili wa Peru)",
+  "ingredients": {
+   "w-pe-003-i1": {
+    "name": "mafuta ya kanola",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-pe-003-i2": {
+    "name": "shaloti zilizokatwa vipande",
+    "standardAmount": "1 kikombe"
+   },
+   "w-pe-003-i3": {
+    "name": "kitunguu saumu kikachopwa",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-pe-003-i4": {
+    "name": "pilipili hoho nyekundu, zilizokatwa vipande vya inchi 1",
+    "standardAmount": "2 pilipili"
+   },
+   "w-pe-003-i5": {
+    "name": "unga wa pilipili chipotle",
+    "standardAmount": "1.5 teaspoons"
+   },
+   "w-pe-003-i6": {
+    "name": "binzari iliyosagwa",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-003-i7": {
+    "name": "nyama ya ng'ombe iliyookwa iliyokatwa mchemraba",
+    "standardAmount": "3 vikombe"
+   },
+   "w-pe-003-i8": {
+    "name": "viazi vidogo vikuu, vilivyogawanywa nusu",
+    "standardAmount": "1 ratili"
+   },
+   "w-pe-003-i9": {
+    "name": "maji",
+    "standardAmount": "2 vikombe"
+   },
+   "w-pe-003-i10": {
+    "name": "mchuzi wa nyama ya ng'ombe",
+    "standardAmount": "1 kwarta"
+   },
+   "w-pe-003-i11": {
+    "name": "oregano iliyokaushwa",
+    "standardAmount": "0.5 kijiko kidogo"
+   },
+   "w-pe-003-i12": {
+    "name": "chumvi na pilipili kwa ladha",
+    "standardAmount": "kadiri unavyotaka"
+   },
+   "w-pe-003-i13": {
+    "name": "petersili iliyokatwa",
+    "standardAmount": "0.25 kikombe"
+   },
+   "w-pe-003-i14": {
+    "name": "mayai yaliyochemshwa, vipande vya inchi 1/4",
+    "standardAmount": "2 mayai"
+   }
+  },
+  "instructions": {
+   "1": "Osha mafuta ya kanola katika sufuria la kuchoma juu ya moto wa kati. Ongeza shaloti zilizokatwa, kitunguu saumu kikachopwa na pilipili hoho nyekundu. Pika hadi shaloti zilainike na ziwe za kioo, takriban dakika 4.",
+   "2": "Ongeza unga wa chipotle na binzari. Pika kwa sekunde 30 hadi iwe na harufu.",
+   "3": "Ongeza nyama iliyookwa na viazi vikuu. Mwaga maji na mchuzi wa nyama. Leta kwenye kuchemsha juu ya moto mkubwa, kisha punguza moto hadi kati-chini, funika na loweka hadi viazi vilainike, takriban dakika 30.",
+   "4": "Changanya oregano na onja kwa chumvi na pilipili kwa ladha.",
+   "5": "Changanya petersili iliyokatwa kabla ya kutoa. Pamba kila bakuli kwa vipande kadhaa vya mayai yaliyochemshwa."
+  },
+  "culturalNotes": "Ajiaco ni chakula cha jadi cha Peru kinachojulikana kwa ladha zake tajiri na ung'oro wake.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-004": {
+  "title": "Anticucho",
+  "ingredients": {
+   "w-pe-004-i1": {
+    "name": "moyo wa ng'ombe",
+    "standardAmount": "1 moyo"
+   },
+   "w-pe-004-i2": {
+    "name": "kitunguu saumu",
+    "standardAmount": "2 vitunguu"
+   },
+   "w-pe-004-i3": {
+    "name": "pilipili nyekundu kali iliyosagwa",
+    "standardAmount": "¼ kikombe"
+   },
+   "w-pe-004-i4": {
+    "name": "siki nyeusi",
+    "standardAmount": "2 vikombe"
+   },
+   "w-pe-004-i5": {
+    "name": "binzari iliyosagwa",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-pe-004-i6": {
+    "name": "achiote (annatto)",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-pe-004-i7": {
+    "name": "chumvi",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-pe-004-i8": {
+    "name": "pilipili nyeusi iliyosagwa",
+    "standardAmount": "1 kijiko kidogo"
+   }
+  },
+  "instructions": {
+   "1": "Weka viungo vyote, isipokuwa moyo wa ng'ombe, katika bakuli na changanya vizuri.",
+   "2": "Safisha moyo wa ng'ombe, ukitoa mafuta yote. Kata katika vipande vya ukubwa wa mdomo. Weka vipande vya moyo katika mchanganyiko wa marinade na uruhusu kuchovya kwa takriban saa 10 au usiku kucha. Moyo unapaswa kufunikwa kabisa na marinade.",
+   "3": "Baada ya kuchovya, piga nyama kwenye mishikaki. Kama unataka, unaweza pia kuongeza viungo vingine kwenye mishikaki kwa hatua hii, kama pilipili hoho au mapindi ya mahindi (yaliyokatwa kwa ukubwa sawa na moyo).",
+   "4": "Choma mishikaki kwenye grilli, ukiizungusha mara kwa mara na kupaka mchanganyiko wa marinade. Wakati nyama imeiva vizuri, ondoa mishikaki kutoka grillini na toa mara moja."
+  },
+  "culturalNotes": "Anticucho ni chakula cha jadi nchini Peru, kinachotolewa mara nyingi kama kitafunwa au katika sherehe.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-005": {
+  "title": "Arroz Tapado",
+  "ingredients": {
+   "w-pe-005-i1": {
+    "name": "mchele mweupe",
+    "standardAmount": "2 vikombe"
+   },
+   "w-pe-005-i2": {
+    "name": "maji",
+    "standardAmount": "4 vikombe"
+   },
+   "w-pe-005-i3": {
+    "name": "yai",
+    "standardAmount": "1 yai"
+   },
+   "w-pe-005-i4": {
+    "name": "kiazi",
+    "standardAmount": "1 kiazi, iliyomenywa na iliyokatwa mchemraba"
+   },
+   "w-pe-005-i5": {
+    "name": "mafuta ya mboga",
+    "standardAmount": "1 kikombe"
+   },
+   "w-pe-005-i6": {
+    "name": "nyanya",
+    "standardAmount": "3 nyanya ndogo, zilizokatwa kwa ukubwa"
+   },
+   "w-pe-005-i7": {
+    "name": "maji",
+    "standardAmount": "0.5 kikombe"
+   },
+   "w-pe-005-i8": {
+    "name": "mafuta ya mboga",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-pe-005-i9": {
+    "name": "kitunguu",
+    "standardAmount": "0.5 kubwa kitunguu, iliyokatwa sana"
+   },
+   "w-pe-005-i10": {
+    "name": "kitunguu saumu",
+    "standardAmount": "3 vitunguu saumu, vilivyokatwa"
+   },
+   "w-pe-005-i11": {
+    "name": "pilipili aji kavu iliyosagwa",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-pe-005-i12": {
+    "name": "binzari iliyosagwa",
+    "standardAmount": "0.5 kijiko kidogo"
+   },
+   "w-pe-005-i13": {
+    "name": "pilipili nyeusi iliyosagwa",
+    "standardAmount": "0.25 kijiko kidogo"
+   },
+   "w-pe-005-i14": {
+    "name": "oregano mbichi iliyokatwa",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-005-i15": {
+    "name": "nyama ya ng'ombe iliyosagwa isiyo na mafuta",
+    "standardAmount": "1 ratili"
+   },
+   "w-pe-005-i16": {
+    "name": "karoti",
+    "standardAmount": "2 kubwa karoti, iliyomenywa na iliyokatwa mchemraba"
+   },
+   "w-pe-005-i17": {
+    "name": "minji ya barafu",
+    "standardAmount": "0.25 kikombe"
+   },
+   "w-pe-005-i18": {
+    "name": "siagi ya karanga",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-pe-005-i19": {
+    "name": "giligilani mbichi iliyokatwa",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-pe-005-i20": {
+    "name": "nyanya mbichi iliyokatwa",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-pe-005-i21": {
+    "name": "ketchup",
+    "standardAmount": "1 kijiko kidogo"
+   }
+  },
+  "instructions": {
+   "1": "Leta mchele na vikombe 4 vya maji kwenye kuchemsha katika sufuria juu ya moto mkubwa. Punguza moto hadi kati-chini, funika na loweka hadi mchele ulainike na maji yamefyonzwa, dakika 20 hadi 25.",
+   "2": "Weka yai katika sufuria na funika kwa maji ya inchi 1. Funika sufuria na leta maji kwenye kuchemsha juu ya moto mkubwa. Mara tu maji yanapochemka, ondoa kwenye moto na uruhusu yai likae katika maji ya joto kwa dakika 15. Mwaga maji ya joto, kisha pooza yai chini ya maji baridi yanayotiririka katika sink. Aloboa linapokuwa baridi. Kata yai na weka kando katika bakuli ndogo.",
+   "3": "Osha kikombe 1 cha mafuta ya mboga katika fryer au sufuria kubwa hadi nyuzi 175 C. Kaanga vipande vya kiazi hadi viwe vya rangi ya dhahabu, takriban dakika 5; acha yatiririke kwenye taulo za karatasi na weka kando.",
+   "4": "Weka nyanya na kikombe 0,5 cha maji katika blender na changanya hadi nyanya ziwe za maji (aloboa na ondoa mbegu kwanza kama unataka).",
+   "5": "Osha kijiko 1 kikubwa cha mafuta ya mboga katika kikaango kikubwa juu ya moto wa kati na pika na changanya kitunguu, kitunguu saumu, unga wa pilipili, binzari, pilipili nyeusi na oregano hadi kitunguu kianze kuwa cha rangi ya hudhurungi, dakika 8 hadi 10; mwaga nyanya zilizochanganywa na loweka kwa dakika 5 zaidi, ukiendelea kuchanganya mara kwa mara. Changanya nyama iliyosagwa na karoti na pika hadi nyama isiwe na rangi ya waridi tena na karoti zilainike, takriban dakika 10. Vunja nyama katika vipande vidogo wakati wa kupika. Changanya yai lililokatwa, minji na siagi ya karanga hadi ziunganishwe vizuri. Mwishoni, changanya kwa upole vipande vya kiazi vilivyokaangwa.",
+   "6": "Ili kuunganisha chakula, pika mafuta kwenye bakuli ya plastiki inayonyumbulika (angalau ujazo wa kikombe 1) na bonyeza mchele uliookwa chini kujaza 1/3 ya bakuli. Weka takriban inchi 3/4 ya mchanganyiko wa nyama juu ya mchele na funika kwa mchele zaidi uliookwa kujaza bakuli. Kwa mkono ulio na mafuta, bonyeza mchele kwa upole kupakia mchanganyiko; weka sahani ya kutolea juu ya bakuli, geuza na ondoa umbo la mchele-nyama. Rudia na viungo vilivyobaki. Pamba kila sehemu kwa giligilani, nyanya iliyokatwa na matone ya ketchup."
+  },
+  "culturalNotes": "Arroz Tapado ni chakula cha jadi cha Peru, kinachotolewa mara nyingi katika hafla maalum na mikutano ya familia.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-006": {
+  "title": "Papa a la Huancaína",
+  "ingredients": {
+   "w-pe-006-i1": {
+    "name": "viazi vya Yukon Gold",
+    "standardAmount": "12"
+   },
+   "w-pe-006-i2": {
+    "name": "mafuta ya mzeituni",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-pe-006-i3": {
+    "name": "kitunguu",
+    "standardAmount": "1"
+   },
+   "w-pe-006-i4": {
+    "name": "pilipili",
+    "standardAmount": "6"
+   },
+   "w-pe-006-i5": {
+    "name": "jibini la cream",
+    "standardAmount": "1 ratili"
+   },
+   "w-pe-006-i6": {
+    "name": "queso fresco",
+    "standardAmount": "1 ratili"
+   },
+   "w-pe-006-i7": {
+    "name": "mafuta ya mboga",
+    "standardAmount": "0.25 kikombe"
+   },
+   "w-pe-006-i8": {
+    "name": "chumvi",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-006-i9": {
+    "name": "kitunguu saumu",
+    "standardAmount": "1 vitunguu"
+   },
+   "w-pe-006-i10": {
+    "name": "pilipili nyeusi iliyosagwa",
+    "standardAmount": "0.5 kijiko kidogo"
+   },
+   "w-pe-006-i11": {
+    "name": "maziwa ya kuyeyushwa",
+    "standardAmount": "0.33 kikombe"
+   },
+   "w-pe-006-i12": {
+    "name": "majani ya saladi",
+    "standardAmount": "8 majani"
+   },
+   "w-pe-006-i13": {
+    "name": "mayai yaliyochemshwa",
+    "standardAmount": "4 kubwa"
+   },
+   "w-pe-006-i14": {
+    "name": "olivu nyeusi",
+    "standardAmount": "8"
+   }
+  },
+  "instructions": {
+   "1": "Weka viazi katika sufuria kubwa na funika kwa maji yenye chumvi. Leta kwenye kuchemsha juu ya moto mkubwa, kisha punguza moto hadi kati-chini na loweka hadi vilainike, takriban dakika 20. Chuja na weka kando kupoa kidogo.",
+   "2": "Katika kikaango juu ya moto wa kati, osha mafuta ya mzeituni na kaanga kitunguu hadi kilainike, takriban dakika 10. Ondoa kwenye moto.",
+   "3": "Katika sufuria ndogo, leta maji kwenye kuchemsha na ongeza pilipili. Chemsha hadi zilainike, takriban dakika 5. Osha pilipili kwa maji baridi hadi ziweze kushikwa, kisha ondoa na tupa ngozi.",
+   "4": "Ongeza kitunguu, pilipili, jibini la cream, queso fresco, mafuta ya mboga, chumvi, kitunguu saumu na pilipili nyeusi kwenye blender na changanya hadi laini. Mwaga maziwa ya kuyeyushwa kwa mkondo mwembamba huku blender ikiwa inafanya kazi hadi mchuzi uwe wa cream.",
+   "5": "Weka jani 1 la saladi kwenye kila moja ya sahani 8. Kata viazi nusu na weka nusu 3 kwenye kila jani la saladi. Mwaga mchuzi juu ya viazi. Weka juu ya kila sehemu nusu ya yai na nusu 2 za olivu nyeusi."
+  },
+  "culturalNotes": "Papa a la Huancaína ni chakula cha jadi cha Peru kinachotolewa kama kitakachuanza au chakula chepesi.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-007": {
+  "title": "Manjar Blanco",
+  "ingredients": {
+   "w-pe-007-i1": {
+    "name": "maji",
+    "standardAmount": "1 kikombe"
+   },
+   "w-pe-007-i2": {
+    "name": "wanga wa mahindi",
+    "standardAmount": "0.5 kikombe"
+   },
+   "w-pe-007-i3": {
+    "name": "maziwa ya nazi",
+    "standardAmount": "1 kikombe"
+   },
+   "w-pe-007-i4": {
+    "name": "sukari nyeupe",
+    "standardAmount": "0.5 kikombe"
+   },
+   "w-pe-007-i5": {
+    "name": "punje za mahindi mabichi matamu",
+    "standardAmount": "0.25 kikombe"
+   },
+   "w-pe-007-i6": {
+    "name": "nazi iliyochangwa iliyosukarishwa",
+    "standardAmount": "0.25 kikombe"
+   }
+  },
+  "instructions": {
+   "1": "Pika siagi kwenye kibakuli cha inchi 8 cha kuoka na weka kando.",
+   "2": "Changanya kikombe 0,5 cha maji na wanga wa mahindi katika bakuli hadi laini; weka kando.",
+   "3": "Changanya maziwa ya nazi, kikombe 0,75 cha maji na sukari katika sufuria juu ya moto mdogo na changanya hadi sukari iyeyuke.",
+   "4": "Leta mchanganyiko kwenye kuchemsha, ongeza punje za mahindi na changanya mchanganyiko wa wanga wa mahindi, ukichanganya haraka kuepuka mabonge inapotiba.",
+   "5": "Leta mchanganyiko kwenye kuchemsha tena na loweka kwa dakika 2, ukiendelea kuchanganya hadi uwe mzito na laini.",
+   "6": "Mwaga manjar blanco katika kibakuli kilichotayarishwa na uruhusu kupoa hadi iwe imara, takriban saa 2.",
+   "7": "Weka nazi iliyochangwa iliyosukarishwa katika kikaango kikavu juu ya moto wa kati na changanya kuichoma. Angalia kwa makini ili isiungue. Hamisha nazi iliyochomwa kwenye bakuli, uruhusu kupoa na tawanya juu ya pudding kabla ya kutoa."
+  },
+  "culturalNotes": "Manjar Blanco ni dessert ya jadi ya Peru, inayotolewa mara nyingi katika hafla maalum.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-008": {
+  "title": "Papas Rellenas (viazi vilivyojazwa vilivyokaangwa)",
+  "ingredients": {
+   "w-pe-008-i1": {
+    "name": "viazi",
+    "standardAmount": "4 kubwa, iliyomenywa na iliyokatwa mchemraba"
+   },
+   "w-pe-008-i2": {
+    "name": "chumvi",
+    "standardAmount": "1.5 teaspoons, iliyogawanywa"
+   },
+   "w-pe-008-i3": {
+    "name": "mafuta ya mboga",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-pe-008-i4": {
+    "name": "pilipili hoho kijani",
+    "standardAmount": "1 kikombe iliyokatwa"
+   },
+   "w-pe-008-i5": {
+    "name": "kitunguu",
+    "standardAmount": "1/2 kikombe iliyokatwa"
+   },
+   "w-pe-008-i6": {
+    "name": "kitunguu saumu",
+    "standardAmount": "3 vitunguu, iliyokatwa vidogo"
+   },
+   "w-pe-008-i7": {
+    "name": "nyama ya ng'ombe iliyosagwa",
+    "standardAmount": "1 ratili"
+   },
+   "w-pe-008-i8": {
+    "name": "weka wa nyanya",
+    "standardAmount": "4 teaspoons"
+   },
+   "w-pe-008-i9": {
+    "name": "siki nyeupe iliyosafishwa",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-pe-008-i10": {
+    "name": "binzari iliyosagwa",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-008-i11": {
+    "name": "pilipili nyeusi iliyosagwa",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-pe-008-i12": {
+    "name": "mayai",
+    "standardAmount": "4 kubwa"
+   },
+   "w-pe-008-i13": {
+    "name": "mkate uliosagwa",
+    "standardAmount": "2 vikombe"
+   },
+   "w-pe-008-i14": {
+    "name": "unga wa ngano",
+    "standardAmount": "1 kikombe"
+   },
+   "w-pe-008-i15": {
+    "name": "mafuta ya mboga ya kukaanga",
+    "standardAmount": "1 kwarta"
+   }
+  },
+  "instructions": {
+   "1": "Weka viazi katika sufuria kubwa; funika kwa maji yenye chumvi. Leta kwenye kuchemsha juu ya moto mkubwa, kisha punguza moto hadi kati-chini, funika na loweka hadi vilainike, takriban dakika 20. Chuja na uruhusu mvuke uonekane kwa dakika 1 hadi 2. Kananga viazi na kijiko 1/2 cha chai cha chumvi katika bakuli hadi hakuna mabonge. Weka kando kupoa hadi halijoto ya chumba.",
+   "2": "Wakati huo huo, osha mafuta ya mboga katika kikaango kikubwa juu ya moto wa kati. Pika na changanya pilipili hoho kijani, kitunguu na kitunguu saumu katika kikaango cha moto hadi kitunguu kilainike na kuwa cha kioo, takriban dakika 10.",
+   "3": "Ongeza moto hadi kati-juu; changanya nyama iliyosagwa. Pika na changanya hadi nyama iwe na vipande vidogo na isiwe na rangi ya waridi tena. Changanya weka wa nyanya, siki, binzari, kijiko 1 cha chai cha chumvi na pilipili hadi weka wa nyanga iyeyuke. Hamisha mchanganyiko wa nyama kwenye bakuli; uruhusu kupoa hadi halijoto ya chumba.",
+   "4": "Funika karatasi ya kuoka kwa foil au karatasi ya nta; weka kando. Piga mayai katika bakuli; weka kando. Mwaga mkate uliosagwa na unga katika vyombo vya kina tofauti; weka kando.",
+   "5": "Chukua mkononi pure ya viazi (takriban 1/12 ya pure); gawanya katika vipande 2 sawa. Tengeneza kila kipande katika umbo la bakuli ndogo na jaza kila moja na mchanganyiko wa nyama. Leta nusu pamoja, funika kingo na lainisha kutengeneza tufe la duara. Rudia hatua hii na viazi na mchanganyiko wa nyama vilivyobaki.",
+   "6": "Moja baada ya nyingine, zungusha kwa upole tufe za viazi kwenye unga kuzifunika; tikisa ziada. Chovya kwenye yai lililopigwa, kisha zungusha kwenye mkate uliosagwa. Pita kwa upole kati ya mikono kuruhusu mkate uliosagwa zisizoshikwa zianguke. Weka tufe zilizofunikwa kwenye karatasi ya kuoka iliyotayarishwa. Weka jokofu kwa saa 2 hadi 4 au gandisha kwa baadaye.",
+   "7": "Osha mafuta katika fryer au sufuria kubwa hadi nyuzi 175 C.",
+   "8": "Kaanga tufe za viazi kwenye mafuta ya moto kwa makundi, ukitumia tongs kuzizungusha wakati wa kukaanga kwa unyevu sawa wa rangi ya hudhurungi, hadi ziwe crispy na za dhahabu, takriban dakika 3 kwa kundi. Acha zitiririke kwenye sahani iliyopakwa taulo za karatasi."
+  },
+  "culturalNotes": "Papas Rellenas ni chakula cha jadi cha Peru kinachotolewa kama chakula kikuu au kama kitakachuanza.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-009": {
+  "title": "Pastel de Choclo",
+  "ingredients": {
+   "w-pe-009-i1": {
+    "name": "mayai",
+    "standardAmount": "2 mayai"
+   },
+   "w-pe-009-i2": {
+    "name": "mafuta ya mboga",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-pe-009-i3": {
+    "name": "vitunguu",
+    "standardAmount": "2 vitunguu, iliyokatwa"
+   },
+   "w-pe-009-i4": {
+    "name": "kitunguu saumu",
+    "standardAmount": "2 vitunguu iliyokatwa vidogo"
+   },
+   "w-pe-009-i5": {
+    "name": "chumvi",
+    "standardAmount": "1 kijiko kidogo + kadiri unavyotaka"
+   },
+   "w-pe-009-i6": {
+    "name": "paprika",
+    "standardAmount": "0.5 kijiko kidogo + kadiri unavyotaka"
+   },
+   "w-pe-009-i7": {
+    "name": "pilipili nyeusi",
+    "standardAmount": "kadiri unavyotaka"
+   },
+   "w-pe-009-i8": {
+    "name": "nyama ya ng'ombe iliyosagwa",
+    "standardAmount": "1 ratili"
+   },
+   "w-pe-009-i9": {
+    "name": "kuku aliyechomwa",
+    "standardAmount": "0,5 kuku aliyechomwa, aliyekatwa"
+   },
+   "w-pe-009-i10": {
+    "name": "zabibu",
+    "standardAmount": "1.5 tablespoons"
+   },
+   "w-pe-009-i11": {
+    "name": "olivu za kalamata",
+    "standardAmount": "1.5 tablespoons"
+   },
+   "w-pe-009-i12": {
+    "name": "mahindi matamu",
+    "standardAmount": "3 makopo (ya aunsi 15,25)"
+   },
+   "w-pe-009-i13": {
+    "name": "basil iliyokaushwa",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-009-i14": {
+    "name": "siagi",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-pe-009-i15": {
+    "name": "maziwa",
+    "standardAmount": "1 kikombe"
+   },
+   "w-pe-009-i16": {
+    "name": "sukari nyeupe",
+    "standardAmount": "2 teaspoons + kadiri unavyotaka"
+   }
+  },
+  "instructions": {
+   "1": "Weka mayai katika sufuria na funika kwa maji. Leta kwenye kuchemsha, kisha ondoa kwenye moto na uruhusu mayai yakae katika maji ya joto kwa dakika 15.",
+   "2": "Katika kikaango juu ya moto wa kati, ongeza mafuta, vitunguu, kitunguu saumu, kipande kidogo cha chumvi, kijiko ¼ cha chai cha paprika na pilipili nyeusi. Pika hadi iwe na harufu, takriban dakika 2.",
+   "3": "Ongeza nyama iliyosagwa, kijiko 1 cha chai cha chumvi kilichobaki, kijiko ¼ cha chai cha paprika kilichobaki na pilipili nyeusi. Pika na changanya hadi nyama iwe ya rangi ya hudhurungi kwa kiasi kikubwa, takriban dakika 5.",
+   "4": "Ongeza kuku, zabibu na olivu. Changanya vizuri.",
+   "5": "Ondoa mayai kutoka kwenye maji ya joto, pooza chini ya maji baridi yanayotiririka, kisha aloboa na kata kwa ukubwa. Ongeza kwenye mchanganyiko wa nyama. Weka pino iwe ya joto.",
+   "6": "Changanya mahindi na basil katika blender au processor ya chakula hadi laini. Mwaga katika sufuria juu ya moto wa kati. Ongeza siagi na pika, ukichanganya hadi itibe, dakika 7 hadi 10.",
+   "7": "Ongeza maziwa, sukari na chumvi. Pika hadi itibe kuwa weka, takriban dakika 15 zaidi.",
+   "8": "Osha oveni hadi nyuzi 175 C.",
+   "9": "Tanawaza pino katika chombo cha kuoka. Funika kwa weka wa mahindi na tawanya sukari kidogo juu.",
+   "10": "Oka katika oveni iliyosha moto hadi juu iwe ya dhahabu, takriban dakika 20."
+  },
+  "culturalNotes": "Pastel de Choclo ni chakula cha jadi cha Peru, kinachotolewa mara nyingi katika hafla maalum na mikutano ya familia.",
+  "chapter": "مطبخ بيرو"
  }
 }

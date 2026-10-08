@@ -123341,5 +123341,632 @@
   },
   "culturalNotes": "Paratha, geleneksel bir Hint yemeği olup genellikle kahvaltı veya hafif öğle yemeği olarak servis edilir.",
   "chapter": "مطبخ الهند"
+ },
+ "w-pe-001": {
+  "title": "Peru Usulü Tavuk Çorbası (Aguadito de Pollo)",
+  "ingredients": {
+   "w-pe-001-i1": {
+    "name": "derisiz ve kemiksiz tavuk göğüs yarısı",
+    "standardAmount": "4 yarı - ikiye bölünmüş"
+   },
+   "w-pe-001-i2": {
+    "name": "tuz ve karabiber",
+    "standardAmount": "damak zevkinize göre"
+   },
+   "w-pe-001-i3": {
+    "name": "zeytinyağı",
+    "standardAmount": "0.5 su bardağı"
+   },
+   "w-pe-001-i4": {
+    "name": "doğranmış soğan",
+    "standardAmount": "1 orta boy soğan"
+   },
+   "w-pe-001-i5": {
+    "name": "kıyılmış sarımsak",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-pe-001-i6": {
+    "name": "çekirdeksiz, kıyılmış serrano biberi",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-pe-001-i7": {
+    "name": "kıyılmış kişniş",
+    "standardAmount": "0.5 su bardağı"
+   },
+   "w-pe-001-i8": {
+    "name": "bezelye",
+    "standardAmount": "1 su bardağı"
+   },
+   "w-pe-001-i9": {
+    "name": "mısır",
+    "standardAmount": "1 su bardağı"
+   },
+   "w-pe-001-i10": {
+    "name": "doğranmış kırmızı dolmalık biber",
+    "standardAmount": "0.5 red dolmalık biber"
+   },
+   "w-pe-001-i11": {
+    "name": "tavuk suyu",
+    "standardAmount": "10 su bardağı"
+   },
+   "w-pe-001-i12": {
+    "name": "patates",
+    "standardAmount": "4 Yukon Gold patates - ikiye bölünmüş"
+   },
+   "w-pe-001-i13": {
+    "name": "pişmemiş beyaz pirinç",
+    "standardAmount": "1 su bardağı"
+   }
+  },
+  "instructions": {
+   "1": "Tavuk göğüslerini tuz ve karabiberle baharatlayın.",
+   "2": "Zeytinyağını büyük, ağır bir tencerede orta-yüksek ateşte ısıtın. Soğanı, sarımsağı ve serrano biberini ekleyin ve soğan yumuşayana kadar yaklaşık 1 dakika pişirin.",
+   "3": "Tavuğu ekleyin ve 5 dakika daha pişirin.",
+   "4": "Kişnişi, bezelyeyi, mısırı ve kırmızı dolmalık biberi karıştırın; 1 dakika pişirin.",
+   "5": "Tavuk suyunu, patatesi ve pirinci dökün. Kaynatın, ardından ateşi orta-düşük seviyeye indirin ve tavuk opak, patatesler yumuşak olana kadar yaklaşık 40 dakika kısık ateşte pişirin."
+  },
+  "culturalNotes": "Aguadito de Pollo, hafif bir yemek veya ana yemek olarak servis edilen geleneksel bir Peru çorbasıdır. Çeşitli sebze tatları ve baharatlarla karakterizedir.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-002": {
+  "title": "Ají de Gallina",
+  "ingredients": {
+   "w-pe-002-i1": {
+    "name": "derisiz kemikli tavuk göğüs yarısı",
+    "standardAmount": "2 libre"
+   },
+   "w-pe-002-i2": {
+    "name": "soğan",
+    "standardAmount": "1 soğan"
+   },
+   "w-pe-002-i3": {
+    "name": "havuç",
+    "standardAmount": "2 havuç"
+   },
+   "w-pe-002-i4": {
+    "name": "sarımsak",
+    "standardAmount": "4 diş"
+   },
+   "w-pe-002-i5": {
+    "name": "su",
+    "standardAmount": "2 kuart"
+   },
+   "w-pe-002-i6": {
+    "name": "beyaz ekmek",
+    "standardAmount": "1 somun, kabukları çıkarılmış ve küp doğranmış"
+   },
+   "w-pe-002-i7": {
+    "name": "evaporate süt",
+    "standardAmount": "12 sıvı ons"
+   },
+   "w-pe-002-i8": {
+    "name": "rendelenmiş parmesan peyniri",
+    "standardAmount": "0.5 su bardağı"
+   },
+   "w-pe-002-i9": {
+    "name": "ceviz parçaları",
+    "standardAmount": "0.25 su bardağı"
+   },
+   "w-pe-002-i10": {
+    "name": "bitkisel yağ",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-pe-002-i11": {
+    "name": "kıyılmış sarımsak",
+    "standardAmount": "2 diş"
+   },
+   "w-pe-002-i12": {
+    "name": "doğranmış soğan",
+    "standardAmount": "1 soğan"
+   },
+   "w-pe-002-i13": {
+    "name": "aji amarillo biber ezmesi",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-002-i14": {
+    "name": "öğütülmüş zerdeçal",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-002-i15": {
+    "name": "katı haşlanmış yumurta, dilimlenmiş",
+    "standardAmount": "4 yumurta"
+   },
+   "w-pe-002-i16": {
+    "name": "çekirdeği çıkarılmış ve dörde bölünmüş kalamata zeytinleri",
+    "standardAmount": "0.25 su bardağı"
+   }
+  },
+  "instructions": {
+   "1": "Tavuk göğüslerini, soğanı, havucu ve 2 diş sarımsağı büyük bir tencereye koyun, 2 kuart su dökün ve orta-yüksek ateşte yavaşça kaynamaya getirin. Üstte oluşan köpüğü alın, ardından kapatın, ateşi orta-düşük seviyeye indirin ve tavuk yumuşayana kadar yaklaşık 30 dakika kısık ateşte pişirin. Tavuğu bir tabağa çıkarın ve soğumaya bırakın. Elde edilen tavuk suyunu süzün, sebzeleri atın.",
+   "2": "Evaporate sütü ve 1/2 su bardağı tavuk suyunu blender haznesine dökün. Ekmek küplerini ekleyin ve pürüzsüz olana kadar karıştırın. Parmesanı ve cevizleri ekleyin; pürüzsüz olana kadar karıştırın. Soğumuş tavuğu didikleyin ve kemiklerini atın.",
+   "3": "Büyük bir tencerede bitkisel yağı orta ateşte ısıtın. Kıyılmış sarımsağı ve doğranmış soğanı karıştırın; soğan yumuşayıp saydamlaşana kadar yaklaşık 5 dakika pişirin. Didiklenmiş tavuğu ve aji amarilloyu ısınana kadar karıştırın. Ekmek püresini dökün ve sıcak olana kadar sık sık karıştırarak pişirin. Çok koyu olmaması için gerekiyorsa daha fazla tavuk suyu ekleyin.",
+   "4": "Zerdeçalı karıştırın ve 5 dakika daha kısık ateşte pişirin. Katı haşlanmış yumurta dilimleriyle süsleyerek ve kalamata zeytinleri serperek servis edin."
+  },
+  "culturalNotes": "Ají de Gallina, özel günlerde sıkça servis edilen geleneksel bir Peru yemeğidir.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-003": {
+  "title": "Ajiaco (Peru Usulü Dana Etli ve Biberli Yahnisi)",
+  "ingredients": {
+   "w-pe-003-i1": {
+    "name": "kanola yağı",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-pe-003-i2": {
+    "name": "dilimlenmiş arpacık soğan",
+    "standardAmount": "1 su bardağı"
+   },
+   "w-pe-003-i3": {
+    "name": "kıyılmış sarımsak",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-pe-003-i4": {
+    "name": "1 inçlik parçalara kesilmiş kırmızı dolmalık biberler",
+    "standardAmount": "2 biber"
+   },
+   "w-pe-003-i5": {
+    "name": "öğütülmüş chipotle biberi",
+    "standardAmount": "1.5 teaspoons"
+   },
+   "w-pe-003-i6": {
+    "name": "öğütülmüş kimyon",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-003-i7": {
+    "name": "küp doğranmış pişmiş rostbif",
+    "standardAmount": "3 su bardağı"
+   },
+   "w-pe-003-i8": {
+    "name": "ikiye bölünmüş küçük kırmızı patatesler",
+    "standardAmount": "1 libre"
+   },
+   "w-pe-003-i9": {
+    "name": "su",
+    "standardAmount": "2 su bardağı"
+   },
+   "w-pe-003-i10": {
+    "name": "dana et suyu",
+    "standardAmount": "1 kuart"
+   },
+   "w-pe-003-i11": {
+    "name": "kurutulmuş kekik",
+    "standardAmount": "0.5 çay kaşığı"
+   },
+   "w-pe-003-i12": {
+    "name": "tadımlık tuz ve karabiber",
+    "standardAmount": "damak zevkinize göre"
+   },
+   "w-pe-003-i13": {
+    "name": "kıyılmış maydanoz",
+    "standardAmount": "0.25 su bardağı"
+   },
+   "w-pe-003-i14": {
+    "name": "1/4 inçlik dilimler halinde katı haşlanmış yumurta",
+    "standardAmount": "2 yumurta"
+   }
+  },
+  "instructions": {
+   "1": "Kanola yağını bir güveçte orta ateşte ısıtın. Dilimlenmiş arpacık soğanları, kıyılmış sarımsağı ve kırmızı dolmalık biberleri ekleyin. Arpacık soğanları yumuşayıp saydamlaşana kadar yaklaşık 4 dakika pişirin.",
+   "2": "Chipotle biber tozunu ve kimyonu ekleyin. Aromatik olana kadar 30 saniye pişirin.",
+   "3": "Pişmiş rostbifi ve kırmızı patatesleri ekleyin. Suyu ve dana et suyunu dökün. Yüksek ateşte kaynatın, ardından ateşi orta-düşük seviyeye indirin, kapatın ve patatesler yumuşayana kadar yaklaşık 30 dakika kısık ateşte pişirin.",
+   "4": "Kekiği karıştırın ve tadına göre tuz ve karabiberle baharatlayın.",
+   "5": "Servis etmeden önce kıyılmış maydanozu karıştırın. Her kaseyi birkaç dilim katı haşlanmış yumurta ile süsleyin."
+  },
+  "culturalNotes": "Ajiaco, zengin tatları ve baharatlı karakteriyle bilinen geleneksel bir Peru yemeğidir.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-004": {
+  "title": "Anticucho",
+  "ingredients": {
+   "w-pe-004-i1": {
+    "name": "dana yüreği",
+    "standardAmount": "1 yürek"
+   },
+   "w-pe-004-i2": {
+    "name": "sarımsak",
+    "standardAmount": "2 diş"
+   },
+   "w-pe-004-i3": {
+    "name": "öğütülmüş acı kırmızı biber",
+    "standardAmount": "¼ su bardağı"
+   },
+   "w-pe-004-i4": {
+    "name": "esmer sirke",
+    "standardAmount": "2 su bardağı"
+   },
+   "w-pe-004-i5": {
+    "name": "öğütülmüş kimyon",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-pe-004-i6": {
+    "name": "achiote (annatto)",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-pe-004-i7": {
+    "name": "tuz",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-pe-004-i8": {
+    "name": "öğütülmüş karabiber",
+    "standardAmount": "1 çay kaşığı"
+   }
+  },
+  "instructions": {
+   "1": "Dana yüreği hariç tüm malzemeleri bir kaseye koyun ve iyice karıştırın.",
+   "2": "Dana yüreğini tüm yağından arındırarak temizleyin. Lokma büyüklüğünde küpler halinde kesin. Yürek parçalarını marine karışımına koyun ve yaklaşık 10 saat veya gece boyunca marine etmeye bırakın. Yürek tamamen marine ile kaplanmalıdır.",
+   "3": "Marine edildikten sonra eti şişlere geçirin. İsterseniz bu aşamada şişlere dolmalık biber veya mısır koçanları (yürekle aynı boyutta kesilmiş) gibi diğer malzemeler de eklenebilir.",
+   "4": "Şişleri bir ızgarada pişirin, sık sık çevirin ve marine karışımıyla fırçalayın. Et iyice piştiğinde şişleri ızgaradan çıkarın ve hemen servis edin."
+  },
+  "culturalNotes": "Anticucho, Peru'da atıştırmalık olarak veya kutlamalarda sıkça servis edilen geleneksel bir yemektir.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-005": {
+  "title": "Arroz Tapado",
+  "ingredients": {
+   "w-pe-005-i1": {
+    "name": "beyaz pirinç",
+    "standardAmount": "2 su bardağı"
+   },
+   "w-pe-005-i2": {
+    "name": "su",
+    "standardAmount": "4 su bardağı"
+   },
+   "w-pe-005-i3": {
+    "name": "yumurta",
+    "standardAmount": "1 yumurta"
+   },
+   "w-pe-005-i4": {
+    "name": "patates",
+    "standardAmount": "1 patates, soyulmuş ve küp doğranmış"
+   },
+   "w-pe-005-i5": {
+    "name": "bitkisel yağ",
+    "standardAmount": "1 su bardağı"
+   },
+   "w-pe-005-i6": {
+    "name": "domates",
+    "standardAmount": "3 küçük domates, iri doğranmış"
+   },
+   "w-pe-005-i7": {
+    "name": "su",
+    "standardAmount": "0.5 su bardağı"
+   },
+   "w-pe-005-i8": {
+    "name": "bitkisel yağ",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-pe-005-i9": {
+    "name": "soğan",
+    "standardAmount": "0.5 büyük soğan, ince doğranmış"
+   },
+   "w-pe-005-i10": {
+    "name": "sarımsak",
+    "standardAmount": "3 diş sarımsak, doğranmış"
+   },
+   "w-pe-005-i11": {
+    "name": "öğütülmüş kurutulmuş aji biberi",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-pe-005-i12": {
+    "name": "öğütülmüş kimyon",
+    "standardAmount": "0.5 çay kaşığı"
+   },
+   "w-pe-005-i13": {
+    "name": "öğütülmüş karabiber",
+    "standardAmount": "0.25 çay kaşığı"
+   },
+   "w-pe-005-i14": {
+    "name": "kıyılmış taze kekik",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-005-i15": {
+    "name": "yağsız dana kıyma",
+    "standardAmount": "1 libre"
+   },
+   "w-pe-005-i16": {
+    "name": "havuç",
+    "standardAmount": "2 büyük havuç, soyulmuş ve küp doğranmış"
+   },
+   "w-pe-005-i17": {
+    "name": "donmuş bezelye",
+    "standardAmount": "0.25 su bardağı"
+   },
+   "w-pe-005-i18": {
+    "name": "fıstık ezmesi",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-pe-005-i19": {
+    "name": "kıyılmış taze kişniş",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-pe-005-i20": {
+    "name": "kıyılmış taze domates",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-pe-005-i21": {
+    "name": "ketçap",
+    "standardAmount": "1 çay kaşığı"
+   }
+  },
+  "instructions": {
+   "1": "Pirinci ve 4 su bardağı suyu bir tencerede yüksek ateşte kaynatın. Ateşi orta-düşük seviyeye indirin, kapatın ve pirinç yumuşayıp sıvı emilene kadar 20 ila 25 dakika kısık ateşte pişirin.",
+   "2": "Yumurtayı bir tencereye koyun ve 1 inç suyla kaplayın. Tencereyi kapatın ve suyu yüksek ateşte kaynatın. Su kaynarken, ateşten alın ve yumurtanın sıcak suda 15 dakika beklemesine izin verin. Sıcak suyu dökün, ardından yumurtayı lavaboda akan soğuk su altında soğutun. Soğuduğunda soyun. Yumurtayı kıyın ve küçük bir kaseye koyun.",
+   "3": "1 su bardağı bitkisel yağı bir fritözde veya büyük bir tencerede 175 derece C'ye ısıtın. Patates küplerini altın kahverengi olana kadar yaklaşık 5 dakika kızartın; kağıt havlular üzerinde süzün ve kenara koyun.",
+   "4": "Domatesleri ve 0,5 su bardağı suyu bir blendere koyun ve domatesler sıvı olana kadar karıştırın (isterseniz önce kabuklarını soyup çekirdeklerini çıkarın).",
+   "5": "1 yemek kaşığı bitkisel yağı büyük bir tavada orta ateşte ısıtın ve soğanı, sarımsağı, biber tozunu, kimyonu, karabiberi ve kekiği soğan kızarana kadar 8 ila 10 dakika pişirip karıştırın; karıştırılmış domatesleri dökün ve sık sık karıştırarak 5 dakika daha kısık ateşte pişirin. Kıymayı ve havuçları karıştırın ve et artık pembe olmayıp havuçlar yumuşayana kadar yaklaşık 10 dakika pişirin. Pişirirken eti küçük parçalara ayırın. Kıyılmış katı haşlanmış yumurtayı, bezelyeyi ve fıstık ezmesini iyice karışana kadar karıştırın. Son olarak, kızarmış patates küplerini nazikçe karıştırın.",
+   "6": "Yemeği birleştirmek için esnek bir plastik kaseyi (en az 1 su bardağı kapasiteli) yağlayın ve pişmiş pirinci dibine bastırarak kasenin 1/3'ünü doldurun. Pirincin üzerine yaklaşık 3/4 inç et karışımı koyun ve kaseyi doldurmak için daha fazla pişmiş pirinçle kaplayın. Yağlanmış bir elle, karışımı sıkıştırmak için pirinci nazikçe bastırın; bir servis tabağını kasenin üzerine koyun, ters çevirin ve pirinç-et şeklini çıkarın. Kalan malzemelerle tekrarlayın. Her porsiyonu kişniş, kıyılmış domates ve ketçap damlalarıyla süsleyin."
+  },
+  "culturalNotes": "Arroz Tapado, özel günlerde ve aile toplantılarında sıkça servis edilen geleneksel bir Peru yemeğidir.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-006": {
+  "title": "Papa a la Huancaína",
+  "ingredients": {
+   "w-pe-006-i1": {
+    "name": "Yukon Gold patatesleri",
+    "standardAmount": "12"
+   },
+   "w-pe-006-i2": {
+    "name": "zeytinyağı",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-pe-006-i3": {
+    "name": "soğan",
+    "standardAmount": "1"
+   },
+   "w-pe-006-i4": {
+    "name": "acı biberler",
+    "standardAmount": "6"
+   },
+   "w-pe-006-i5": {
+    "name": "krem peynir",
+    "standardAmount": "1 libre"
+   },
+   "w-pe-006-i6": {
+    "name": "queso fresco",
+    "standardAmount": "1 libre"
+   },
+   "w-pe-006-i7": {
+    "name": "bitkisel yağ",
+    "standardAmount": "0.25 su bardağı"
+   },
+   "w-pe-006-i8": {
+    "name": "tuz",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-006-i9": {
+    "name": "sarımsak",
+    "standardAmount": "1 diş"
+   },
+   "w-pe-006-i10": {
+    "name": "öğütülmüş karabiber",
+    "standardAmount": "0.5 çay kaşığı"
+   },
+   "w-pe-006-i11": {
+    "name": "evaporate süt",
+    "standardAmount": "0.33 su bardağı"
+   },
+   "w-pe-006-i12": {
+    "name": "marul yaprakları",
+    "standardAmount": "8 yaprak"
+   },
+   "w-pe-006-i13": {
+    "name": "katı haşlanmış yumurtalar",
+    "standardAmount": "4 büyük"
+   },
+   "w-pe-006-i14": {
+    "name": "siyah zeytinler",
+    "standardAmount": "8"
+   }
+  },
+  "instructions": {
+   "1": "Patatesleri büyük bir tencereye koyun ve tuzlu suyla kaplayın. Yüksek ateşte kaynatın, ardından ateşi orta-düşük seviyeye indirin ve yumuşayana kadar yaklaşık 20 dakika kısık ateşte pişirin. Süzün ve hafifçe soğumaya bırakın.",
+   "2": "Orta ateşte bir tavada zeytinyağını ısıtın ve soğanı yumuşayana kadar yaklaşık 10 dakika kızartın. Ateşten alın.",
+   "3": "Küçük bir tencerede suyu kaynatın ve biberleri ekleyin. Yumuşayana kadar yaklaşık 5 dakika haşlayın. Biberleri tutulabilecek kadar soğuk suda durulayın, ardından kabuklarını soyup atın.",
+   "4": "Soğanı, biberleri, krem peyniri, queso fresco'yu, bitkisel yağı, tuzu, sarımsağı ve karabiberi bir blendere ekleyin ve pürüzsüz olana kadar karıştırın. Blender çalışırken evaporate sütü ince bir akışla dökün, sos kremsi olana kadar.",
+   "5": "8 tabağın her birine 1 marul yaprağı koyun. Patatesleri ikiye kesin ve her marul yaprağına 3 yarı koyun. Sosu patateslerin üzerine dökün. Her porsiyonun üzerine yarım yumurta ve 2 yarı siyah zeytin koyun."
+  },
+  "culturalNotes": "Papa a la Huancaína, başlangıç veya hafif yemek olarak servis edilen geleneksel bir Peru yemeğidir.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-007": {
+  "title": "Manjar Blanco",
+  "ingredients": {
+   "w-pe-007-i1": {
+    "name": "su",
+    "standardAmount": "1 su bardağı"
+   },
+   "w-pe-007-i2": {
+    "name": "mısır nişastası",
+    "standardAmount": "0.5 su bardağı"
+   },
+   "w-pe-007-i3": {
+    "name": "hindistan cevizi sütü",
+    "standardAmount": "1 su bardağı"
+   },
+   "w-pe-007-i4": {
+    "name": "beyaz şeker",
+    "standardAmount": "0.5 su bardağı"
+   },
+   "w-pe-007-i5": {
+    "name": "taze tatlı mısır taneleri",
+    "standardAmount": "0.25 su bardağı"
+   },
+   "w-pe-007-i6": {
+    "name": "şekerli hindistan cevizi rendesi",
+    "standardAmount": "0.25 su bardağı"
+   }
+  },
+  "instructions": {
+   "1": "8 inçlik bir fırın kabını yağlayın ve kenara koyun.",
+   "2": "0,5 su bardağı suyu ve mısır nişastasını bir kasede pürüzsüz olana kadar karıştırın; kenara koyun.",
+   "3": "Hindistan cevizi sütünü, 0,75 su bardağı suyu ve şekeri bir tencerede düşük ateşte birleştirin ve şeker eriyene kadar karıştırın.",
+   "4": "Karışımı kaynatın, mısır tanelerini ekleyin ve mısır nişastası karışımını koyulaşırken topaklanmayı önlemek için hızla karıştırarak karıştırın.",
+   "5": "Karışımı tekrar kaynatın ve koyulaşıp pürüzsüz olana kadar sürekli karıştırarak 2 dakika kısık ateşte pişirin.",
+   "6": "Manjar blancoyu hazırlanmış kaba dökün ve sertleşene kadar yaklaşık 2 saat soğumaya bırakın.",
+   "7": "Şekerli hindistan cevizi rendesini kuru bir tavada orta ateşte kavurmak için karıştırın. Yanmaması için dikkatle izleyin. Kavrulmuş rendeyi bir kaseye aktarın, soğumaya bırakın ve servis etmeden önce pudingin üzerine serpin."
+  },
+  "culturalNotes": "Manjar Blanco, özel günlerde sıkça servis edilen geleneksel bir Peru tatlısıdır.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-008": {
+  "title": "Papas Rellenas (Kızarmış Doldurulmuş Patatesler)",
+  "ingredients": {
+   "w-pe-008-i1": {
+    "name": "patatesler",
+    "standardAmount": "4 büyük, soyulmuş ve küp doğranmış"
+   },
+   "w-pe-008-i2": {
+    "name": "tuz",
+    "standardAmount": "1.5 teaspoons, bölünmüş"
+   },
+   "w-pe-008-i3": {
+    "name": "bitkisel yağ",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-pe-008-i4": {
+    "name": "yeşil dolmalık biber",
+    "standardAmount": "1 su bardağı doğranmış"
+   },
+   "w-pe-008-i5": {
+    "name": "soğan",
+    "standardAmount": "1/2 su bardağı doğranmış"
+   },
+   "w-pe-008-i6": {
+    "name": "sarımsak",
+    "standardAmount": "3 diş, kıyılmış"
+   },
+   "w-pe-008-i7": {
+    "name": "dana kıyma",
+    "standardAmount": "1 libre"
+   },
+   "w-pe-008-i8": {
+    "name": "domates salçası",
+    "standardAmount": "4 teaspoons"
+   },
+   "w-pe-008-i9": {
+    "name": "damıtılmış beyaz sirke",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-pe-008-i10": {
+    "name": "öğütülmüş kimyon",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-008-i11": {
+    "name": "öğütülmüş karabiber",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-pe-008-i12": {
+    "name": "yumurtalar",
+    "standardAmount": "4 büyük"
+   },
+   "w-pe-008-i13": {
+    "name": "galeta unu",
+    "standardAmount": "2 su bardağı"
+   },
+   "w-pe-008-i14": {
+    "name": "buğday unu",
+    "standardAmount": "1 su bardağı"
+   },
+   "w-pe-008-i15": {
+    "name": "kızartmak için bitkisel yağ",
+    "standardAmount": "1 kuart"
+   }
+  },
+  "instructions": {
+   "1": "Patatesleri büyük bir tencereye koyun; tuzlu suyla kaplayın. Yüksek ateşte kaynatın, ardından ateşi orta-düşük seviyeye indirin, kapatın ve yumuşayana kadar yaklaşık 20 dakika kısık ateşte pişirin. Süzün ve 1 ila 2 dakika buharlaşmaya bırakın. Patatesleri bir kasede 1/2 çay kaşığı tuzla topak kalmayana kadar ezin. Oda sıcaklığına soğumaya bırakın.",
+   "2": "Bu arada, bitkisel yağı büyük bir tavada orta ateşte ısıtın. Yeşil dolmalık biberi, soğanı ve sarımsağı sıcak tavada soğan yumuşayıp saydamlaşana kadar yaklaşık 10 dakika pişirip karıştırın.",
+   "3": "Ateşi orta-yüksek seviyeye çıkarın; kıymayı karıştırın. Kıyma parçalanıp artık pembe olmayana kadar pişirip karıştırın. Domates salçasını, sirkeyi, kimyonu, 1 çay kaşığı tuzu ve karabiberi salça eriyene kadar karıştırın. Et karışımını bir kaseye aktarın; oda sıcaklığına soğumaya bırakın.",
+   "4": "Bir fırın tepsisini folyo veya yağlı kağıtla kaplayın; kenara koyun. Yumurtaları bir kasede çırpın; kenara koyun. Galeta ununu ve unu ayrı sığ kaplara dökün; kenara koyun.",
+   "5": "Bir avuç patates püresi alın (pürenin yaklaşık 1/12'si); 2 eşit parçaya bölün. Her parçayı küçük bir kase şekline getirin ve her birini et karışımıyla doldurun. Yarıları birleştirin, kenarları kapatın ve yuvarlak bir top oluşturmak için düzleştirin. Bu adımı kalan patatesler ve et karışımıyla tekrarlayın.",
+   "6": "Tek tek, patates toplarını kaplamak için unda nazikçe yuvarlayın; fazlasını silkeleyin. Çırpılmış yumurtaya batırın, ardından galeta ununda yuvarlayın. Yapışmamış galeta ununun düşmesi için elleriniz arasında nazikçe gezdirin. Kaplanmış topları hazırlanmış tepsiye yerleştirin. 2 ila 4 saat buzdolabında bekletin veya daha sonra için dondurun.",
+   "7": "Yağı bir fritözde veya büyük bir tencerede 175 derece C'ye ısıtın.",
+   "8": "Patates toplarını sıcak yağda partiler halinde kızartın, eşit kızarma için kızartırken maşa ile yuvarlayın, çıtır ve altın rengi olana kadar parti başına yaklaşık 3 dakika. Kağıt havlu serilmiş bir tabakta süzün."
+  },
+  "culturalNotes": "Papas Rellenas, ana yemek veya başlangıç olarak servis edilen geleneksel bir Peru yemeğidir.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-009": {
+  "title": "Pastel de Choclo",
+  "ingredients": {
+   "w-pe-009-i1": {
+    "name": "yumurtalar",
+    "standardAmount": "2 yumurta"
+   },
+   "w-pe-009-i2": {
+    "name": "bitkisel yağ",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-pe-009-i3": {
+    "name": "soğanlar",
+    "standardAmount": "2 soğan, doğranmış"
+   },
+   "w-pe-009-i4": {
+    "name": "sarımsak",
+    "standardAmount": "2 diş kıyılmış"
+   },
+   "w-pe-009-i5": {
+    "name": "tuz",
+    "standardAmount": "1 çay kaşığı + damak zevkinize göre"
+   },
+   "w-pe-009-i6": {
+    "name": "kırmızı toz biber",
+    "standardAmount": "0.5 çay kaşığı + damak zevkinize göre"
+   },
+   "w-pe-009-i7": {
+    "name": "karabiber",
+    "standardAmount": "damak zevkinize göre"
+   },
+   "w-pe-009-i8": {
+    "name": "dana kıyma",
+    "standardAmount": "1 libre"
+   },
+   "w-pe-009-i9": {
+    "name": "ızgara tavuk",
+    "standardAmount": "0,5 ızgara tavuk, doğranmış"
+   },
+   "w-pe-009-i10": {
+    "name": "kuru üzüm",
+    "standardAmount": "1.5 tablespoons"
+   },
+   "w-pe-009-i11": {
+    "name": "kalamata zeytinleri",
+    "standardAmount": "1.5 tablespoons"
+   },
+   "w-pe-009-i12": {
+    "name": "tatlı mısır",
+    "standardAmount": "3 kutu (15,25 ons)"
+   },
+   "w-pe-009-i13": {
+    "name": "kurutulmuş fesleğen",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-009-i14": {
+    "name": "tereyağı",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-pe-009-i15": {
+    "name": "süt",
+    "standardAmount": "1 su bardağı"
+   },
+   "w-pe-009-i16": {
+    "name": "beyaz şeker",
+    "standardAmount": "2 teaspoons + damak zevkinize göre"
+   }
+  },
+  "instructions": {
+   "1": "Yumurtaları bir tencereye koyun ve suyla kaplayın. Kaynatın, ardından ateşten alın ve yumurtaların sıcak suda 15 dakika beklemesine izin verin.",
+   "2": "Orta ateşte bir tavaya yağı, soğanları, sarımsağı, bir tutam tuzu, ¼ çay kaşığı kırmızı toz biberi ve karabiberi ekleyin. Aromatik olana kadar yaklaşık 2 dakika pişirin.",
+   "3": "Kıymayı, kalan 1 çay kaşığı tuzu, kalan ¼ çay kaşığı kırmızı toz biberi ve karabiberi ekleyin. Kıyma büyük ölçüde kızarana kadar yaklaşık 5 dakika pişirip karıştırın.",
+   "4": "Tavuğu, kuru üzümleri ve zeytinleri ekleyin. İyice karıştırın.",
+   "5": "Yumurtaları sıcak sudan çıkarın, akan soğuk su altında soğutun, ardından soyun ve iri kıyın. Et karışımına ekleyin. Pinoyu sıcak tutun.",
+   "6": "Mısırı ve fesleğeni bir blender veya mutfak robotunda pürüzsüz olana kadar karıştırın. Orta ateşte bir tavaya dökün. Tereyağını ekleyin ve koyulaşana kadar karıştırarak pişirin, 7 ila 10 dakika.",
+   "7": "Sütü, şekeri ve tuzu ekleyin. Bir ezme kıvamına gelene kadar yaklaşık 15 dakika daha pişirin.",
+   "8": "Fırını 175 derece C'ye önceden ısıtın.",
+   "9": "Pinoyu bir fırın kabına yayın. Mısır ezmesiyle kaplayın ve üzerine biraz şeker serpin.",
+   "10": "Önceden ısıtılmış fırında üstü altın rengi olana kadar yaklaşık 20 dakika pişirin."
+  },
+  "culturalNotes": "Pastel de Choclo, özel günlerde ve aile toplantılarında sıkça servis edilen geleneksel bir Peru yemeğidir.",
+  "chapter": "مطبخ بيرو"
  }
 }

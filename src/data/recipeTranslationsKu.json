@@ -123373,5 +123373,632 @@
   },
   "culturalNotes": "Paratha xwarinek kevn a hindî ye, bi gelemperî wekê taştî an firavîna sivik tê pêşkêşkirin.",
   "chapter": "مطبخ الهند"
+ },
+ "w-pe-001": {
+  "title": "Şorba mirîşka perûyî (Aguadito de Pollo)",
+  "ingredients": {
+   "w-pe-001-i1": {
+    "name": "parçeyên sînga mirîşkê yên bêçerm û bêhestî",
+    "standardAmount": "4 nîv - du parçe"
+   },
+   "w-pe-001-i2": {
+    "name": "xwê û bîber",
+    "standardAmount": "bi tamasa"
+   },
+   "w-pe-001-i3": {
+    "name": "rûna zeytûnê",
+    "standardAmount": "0.5 qede"
+   },
+   "w-pe-001-i4": {
+    "name": "pîvaza qotbûyî",
+    "standardAmount": "1 pîvazeke navîn"
+   },
+   "w-pe-001-i5": {
+    "name": "sîra qotbûyî",
+    "standardAmount": "1 kevçî çayê"
+   },
+   "w-pe-001-i6": {
+    "name": "bîbera serrano ya bêtoû û qotbûyî",
+    "standardAmount": "1 kevçî mezin"
+   },
+   "w-pe-001-i7": {
+    "name": "kişnişê qotbûyî",
+    "standardAmount": "0.5 qede"
+   },
+   "w-pe-001-i8": {
+    "name": "pîrazên kesk",
+    "standardAmount": "1 qede"
+   },
+   "w-pe-001-i9": {
+    "name": "genim",
+    "standardAmount": "1 qede"
+   },
+   "w-pe-001-i10": {
+    "name": "bîbera sor a qotbûyî",
+    "standardAmount": "0.5 bîbera sorê tûtûnî"
+   },
+   "w-pe-001-i11": {
+    "name": "ava mirîşkê",
+    "standardAmount": "10 qede"
+   },
+   "w-pe-001-i12": {
+    "name": "kartol",
+    "standardAmount": "4 kartolên Yukon Gold - du parçe"
+   },
+   "w-pe-001-i13": {
+    "name": "birincika spî ya nepjotî",
+    "standardAmount": "1 qede"
+   }
+  },
+  "instructions": {
+   "1": "Sîngên mirîşkê bi xwê û bîberê bîhnxweş bike.",
+   "2": "Rûna zeytûnê di tacek mezin û giran de li ser agira navîn-bilind germ bike. Pîvaz, sîr û bîbera serrano lê zêde bike û heya pîvaz nerm bibe, qasî 1 xulek, bipeje.",
+   "3": "Mirîşk lê zêde bike û 5 xulekan din bipeje.",
+   "4": "Kişniş, pîraz, genim û bîbera sor tevlî hev bike; 1 xulek bipeje.",
+   "5": "Ava mirîşkê, kartol û birincikê tê de rijê. Bigihîne cerbandinê, paşê agir li ser navîn-nizm kêm bike û heya mirîşk biqelîše û kartol nerm bibin, qasî 40 xulekan, bi hêdî bipeje."
+  },
+  "culturalNotes": "Aguadito de Pollo şorbake kevneşopî ya perûyî ye ku wekî xwarinek sivik an jî xwarina sereke tê pêşkêşkirin. Ew bi cureyên tama sebze û bîhnxweşan tê diyarkirin.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-002": {
+  "title": "Ají de Gallina",
+  "ingredients": {
+   "w-pe-002-i1": {
+    "name": "parçeyên sînga mirîşkê yên bêçerm bi hestî",
+    "standardAmount": "2 pûnd"
+   },
+   "w-pe-002-i2": {
+    "name": "pîvaz",
+    "standardAmount": "1 pîvaz"
+   },
+   "w-pe-002-i3": {
+    "name": "kêwaz",
+    "standardAmount": "2 gizerêk"
+   },
+   "w-pe-002-i4": {
+    "name": "sîr",
+    "standardAmount": "4 dendik"
+   },
+   "w-pe-002-i5": {
+    "name": "av",
+    "standardAmount": "2 lître"
+   },
+   "w-pe-002-i6": {
+    "name": "nana spî",
+    "standardAmount": "1 nan, pel derxistî û qûtîkkirî"
+   },
+   "w-pe-002-i7": {
+    "name": "şîra avkirî",
+    "standardAmount": "12 ounce şilav"
+   },
+   "w-pe-002-i8": {
+    "name": "penêra parmesan a rijandî",
+    "standardAmount": "0.5 qede"
+   },
+   "w-pe-002-i9": {
+    "name": "parçeyên guza",
+    "standardAmount": "0.25 qede"
+   },
+   "w-pe-002-i10": {
+    "name": "rûna nebatî",
+    "standardAmount": "1 kevçî çayê"
+   },
+   "w-pe-002-i11": {
+    "name": "sîra qotbûyî",
+    "standardAmount": "2 dendik"
+   },
+   "w-pe-002-i12": {
+    "name": "pîvaza qotbûyî",
+    "standardAmount": "1 pîvaz"
+   },
+   "w-pe-002-i13": {
+    "name": "maya bîbera aji amarillo",
+    "standardAmount": "2 kîlên çayê"
+   },
+   "w-pe-002-i14": {
+    "name": "zerdevirê yê hêlan",
+    "standardAmount": "2 kîlên çayê"
+   },
+   "w-pe-002-i15": {
+    "name": "hêkên hişkbûyî, li dilîmên",
+    "standardAmount": "4 hêk"
+   },
+   "w-pe-002-i16": {
+    "name": "zeytûnên kalamata, bêtoû û çar parçe",
+    "standardAmount": "0.25 qede"
+   }
+  },
+  "instructions": {
+   "1": "Sîngên mirîşkê, pîvaz, kêwaz û 2 dîlên sîrê di tacek mezin de bicîh bike, 2 quart avê tê de rijê û li ser agira navîn-bilind hêdî bigihîne qelandinê. Kela ku li jorê çêdibe paqij bike, paşê bigire, agir li ser navîn-nizm kêm bike û heya mirîşk nerm bibe, qasî 30 xulekan, bi hêdî bipeje. Mirîşkê derxîne ser tebaxekê û bihêle sar bibe. Ava mirîşkê ya çêbûyî biripe û sebzeyan biavêje.",
+   "2": "Şîra avkirî û 1/2 tas ava mirîşkê tê kaseya blenderê rijê. Parçeyên nan lê zêde bike û heya nerm bibe rijand. Parmesan û guz lê zêde bike; heya nerm bibe rijand. Mirîşka sarî biçir û hestiyên wê biavêje.",
+   "3": "Rûna nebatî di tacek mezin de li ser agira navîn germ bike. Sîra qotbûyî û pîvaza qotbûyî tevlî hev bike; heya pîvaz nerm û şefaf bibe, qasî 5 xulekan, bipeje. Mirîşka çirbûyî û aji amarillo tevlî hev bike heya germ bibe. Rijandina nan tê de rijê û bi tevdirekên gelek germ bipeje. Eger pêwîst be ava mirîşkê ya zêdetir lê zêde bike da ku pir lûr nebe.",
+   "4": "Zerdevirê tevlî hev bike û 5 xulekan din bi hêdî bipeje. Bi dilîmên hêkên hişkbûyî xemilî û bi zeytûnên kalamata ser bike û pêşkêş bike."
+  },
+  "culturalNotes": "Ají de Gallina xwarineke kevneşopî ya perûyî ye ku gellek caran di bûyerên taybet de tê pêşkêşkirin.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-003": {
+  "title": "Ajiaco (bexişa goştê gavê û bîbera perûyî)",
+  "ingredients": {
+   "w-pe-003-i1": {
+    "name": "rûna kanola",
+    "standardAmount": "2 kîlên xwarinê"
+   },
+   "w-pe-003-i2": {
+    "name": "şalotên dilîmkirî",
+    "standardAmount": "1 qede"
+   },
+   "w-pe-003-i3": {
+    "name": "sîra qotbûyî",
+    "standardAmount": "2 kîlên xwarinê"
+   },
+   "w-pe-003-i4": {
+    "name": "bîberên sor, bi parçeyên 1-inch",
+    "standardAmount": "2 heb"
+   },
+   "w-pe-003-i5": {
+    "name": "tozê bîbera chipotle",
+    "standardAmount": "1.5 kîlên çayê"
+   },
+   "w-pe-003-i6": {
+    "name": "rîhanê yê hêlan",
+    "standardAmount": "2 kîlên çayê"
+   },
+   "w-pe-003-i7": {
+    "name": "roast beefa pjotî ya qotbûyî",
+    "standardAmount": "3 qede"
+   },
+   "w-pe-003-i8": {
+    "name": "kartolên sor ên piçûk, du parçe",
+    "standardAmount": "1 pûnd"
+   },
+   "w-pe-003-i9": {
+    "name": "av",
+    "standardAmount": "2 qede"
+   },
+   "w-pe-003-i10": {
+    "name": "ava goştê",
+    "standardAmount": "1 quart"
+   },
+   "w-pe-003-i11": {
+    "name": "oreganoya zuwa",
+    "standardAmount": "0.5 kevçî çayê"
+   },
+   "w-pe-003-i12": {
+    "name": "xwê û bîber bi tama te",
+    "standardAmount": "bi tamasa"
+   },
+   "w-pe-003-i13": {
+    "name": "maqdûnê qotbûyî",
+    "standardAmount": "0.25 qede"
+   },
+   "w-pe-003-i14": {
+    "name": "hêkên hişkbûyî, dilîmên 1/4-inch",
+    "standardAmount": "2 hêk"
+   }
+  },
+  "instructions": {
+   "1": "Rûna kanola di tacek hesin de li ser agira navîn germ bike. Şalotên dilîmkirî, sîra qotbûyî û bîberên sor lê zêde bike. Heya şalot nerm û şefaf bibin, qasî 4 xulekan, bipeje.",
+   "2": "Tozê bîbera chipotle û rîhanê lê zêde bike. Heya bîhn bidin 30 çirke bipeje.",
+   "3": "Roast beefa pjotî û kartolên sor lê zêde bike. Av û ava goştê tê de rijê. Li ser agira bilind bigihîne cerbandinê, paşê agir li ser navîn-nizm kêm bike, bigire û heya kartol nerm bibin, qasî 30 xulekan, bi hêdî bipeje.",
+   "4": "Oregano tevlî hev bike û bi xwê û bîberê tam bike.",
+   "5": "Berî pêşkêşkirinê maqdûna qotbûyî tevlî hev bike. Her kaseyê bi çend dilîmên hêkên hişkbûyî xemilî."
+  },
+  "culturalNotes": "Ajiaco xwarineke kevneşopî ya perûyî ye ku bi tama xwe ya dewlemend û tûjbûna xwe tê naskirin.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-004": {
+  "title": "Anticucho",
+  "ingredients": {
+   "w-pe-004-i1": {
+    "name": "dilê gavê",
+    "standardAmount": "1 dil"
+   },
+   "w-pe-004-i2": {
+    "name": "sîr",
+    "standardAmount": "2 dendik"
+   },
+   "w-pe-004-i3": {
+    "name": "bîbera sor a tûj ya hêlan",
+    "standardAmount": "¼ qede"
+   },
+   "w-pe-004-i4": {
+    "name": "sîrkeka qehweyî",
+    "standardAmount": "2 qede"
+   },
+   "w-pe-004-i5": {
+    "name": "rîhanê yê hêlan",
+    "standardAmount": "1 kevçî çayê"
+   },
+   "w-pe-004-i6": {
+    "name": "achiote (annatto)",
+    "standardAmount": "1 kevçî çayê"
+   },
+   "w-pe-004-i7": {
+    "name": "xwê",
+    "standardAmount": "1 kevçî çayê"
+   },
+   "w-pe-004-i8": {
+    "name": "bîbera reş ya hêlan",
+    "standardAmount": "1 kevçî çayê"
+   }
+  },
+  "instructions": {
+   "1": "Hemû tiştên din, ji bilî dilê gavê, di kaseyekê de bicîh bike û baş tevlî hev bike.",
+   "2": "Dilê gavê paqij bike û hemû rûnê jê bigire. Bi parçeyên qebareya lokmeyekê biqot. Parçeyên dil di tevliheviya marinasyonê de bicîh bike û qasî 10 saet an şevê bihêle marinasyonê bibe. Divê dil bi tevahî di marinasyonê de binimre.",
+   "3": "Piştî marinasyonê, goştê li şîşan danîne. Eger bixwazî, di vê qonaxê de tiştên din wek bîber an kobalên genim (bi qebareya dişibhe dilê) jî dikarin li şîşan werin zêdekirin.",
+   "4": "Şîşan li ser grillê bipeje, tevliheviya marinasyonê bişûrê û gelek caran bizivirê. Dema goşt baş pêjûde, şîşan ji grillê derxîne û tavilê pêşkêş bike."
+  },
+  "culturalNotes": "Anticucho xwarineke kevneşopî ya perûyê ye ku gellek caran wekî xwarinek piçûk an di cejnan de tê pêşkêşkirin.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-005": {
+  "title": "Arroz Tapado",
+  "ingredients": {
+   "w-pe-005-i1": {
+    "name": "birincika spî",
+    "standardAmount": "2 qede"
+   },
+   "w-pe-005-i2": {
+    "name": "av",
+    "standardAmount": "4 qede"
+   },
+   "w-pe-005-i3": {
+    "name": "hêk",
+    "standardAmount": "1 hêk"
+   },
+   "w-pe-005-i4": {
+    "name": "kartol",
+    "standardAmount": "1 kartol, qalikî û qûtîkkirî"
+   },
+   "w-pe-005-i5": {
+    "name": "rûna nebatî",
+    "standardAmount": "1 qede"
+   },
+   "w-pe-005-i6": {
+    "name": "tematem",
+    "standardAmount": "3 biçûk fênc, qezeran pîçîkkirî"
+   },
+   "w-pe-005-i7": {
+    "name": "av",
+    "standardAmount": "0.5 qede"
+   },
+   "w-pe-005-i8": {
+    "name": "rûna nebatî",
+    "standardAmount": "1 kevçî mezin"
+   },
+   "w-pe-005-i9": {
+    "name": "pîvaz",
+    "standardAmount": "0.5 mezin pîvaz, pîçîkkirî"
+   },
+   "w-pe-005-i10": {
+    "name": "sîr",
+    "standardAmount": "3 dendik sîr, pîçîkkirî"
+   },
+   "w-pe-005-i11": {
+    "name": "bîbera aji ya zuwa ya hêlan",
+    "standardAmount": "1 kevçî çayê"
+   },
+   "w-pe-005-i12": {
+    "name": "rîhanê yê hêlan",
+    "standardAmount": "0.5 kevçî çayê"
+   },
+   "w-pe-005-i13": {
+    "name": "bîbera reş ya hêlan",
+    "standardAmount": "0.25 kevçî çayê"
+   },
+   "w-pe-005-i14": {
+    "name": "oreganoya teze ya qotbûyî",
+    "standardAmount": "2 kîlên çayê"
+   },
+   "w-pe-005-i15": {
+    "name": "goştê gavê yê qeltî yê bêrûn",
+    "standardAmount": "1 pûnd"
+   },
+   "w-pe-005-i16": {
+    "name": "kêwaz",
+    "standardAmount": "2 mezin gizerêk, qalikî û qûtîkkirî"
+   },
+   "w-pe-005-i17": {
+    "name": "pîrazên cemidî",
+    "standardAmount": "0.25 qede"
+   },
+   "w-pe-005-i18": {
+    "name": "masta fûstikê",
+    "standardAmount": "1 kevçî mezin"
+   },
+   "w-pe-005-i19": {
+    "name": "kişnişê teze ya qotbûyî",
+    "standardAmount": "1 kevçî çayê"
+   },
+   "w-pe-005-i20": {
+    "name": "temateya teze ya qotbûyî",
+    "standardAmount": "1 kevçî çayê"
+   },
+   "w-pe-005-i21": {
+    "name": "ketchup",
+    "standardAmount": "1 kevçî çayê"
+   }
+  },
+  "instructions": {
+   "1": "Birincik û 4 tas av di tacekê de li ser agira bilind bigihîne cerbandinê. Agir li ser navîn-nizm kêm bike, bigire û heya birincik nerm bibe û şilavê bivete, 20 heta 25 xulekan, bi hêdî bipeje.",
+   "2": "Hêkê di tacekê de bicîh bike û bi 1 inch avê bigire. Tacekê bigire û avê li ser agira bilind bigihîne cerbandinê. Dema av cerbîne, ji agir bigire û hêkê di ava germ de 15 xulekan bihêle. Ava germ derizê, paşê hêkê di bin ava sar a heriyê de di şûştina de sar bike. Dema sar bibe qeliqê jê bigire. Hêkê biqot û di kaseyek piçûk de alî bigire.",
+   "3": "1 tas rûna nebatî di fritûze an tacek mezin de bigihîne 175 pile C. Parçeyên kartol heya zêrîn bibin qelîs bike, qasî 5 xulekan; li ser kerûsa qertas dirajê bigire û alî bigire.",
+   "4": "Tematem û 0,5 tas av di blenderê de bicîh bike û rijand heya tematem şil bin (eger bixwazî pêşî qeliq û tovên wan derxe).",
+   "5": "1 kepçe mezin rûna nebatî di tacek mezin de li ser agira navîn germ bike, û pîvaz, sîr, tozê bîbera aji, rîhan, bîbera reş û oregano bipeje û tevdire heya pîvaz dest bi qehweyîbûnê bike, 8 heta 10 xulekan; tematemên rijandî tê de rijê û 5 xulekan din bi tevdirekên gelek bi hêdî bipeje. Goştê qeltî û kêwaz tevlî hev bike û bipeje heya goşt nema pêmbû be û kêwaz nerm bibin, qasî 10 xulekan. Di dema pijandinê de goştê bi parçeyên piçûk bişkêne. Hêka hişkbûyî ya qotbûyî, pîraz û masta fûstikê tevlî hev bike heya baş tevlî bibin. Di dawiyê de, parçeyên kartolên qelandî bi hêdî tevlî hev bike.",
+   "6": "Ji bo xwarinê li hev girêbide, kaseyeke plastîk a nerm (herî kêm qebareya 1 tas) rûn bike û birincika pjotî li binê têk da ku 1/3 kaseyê dagire. Li ser birincikê qasî 3/4 inch tevliheviya goşt cîh bike û bi birincika pjotî ya zêdetir kaseyê dagire. Bi destek rûnayî birincikê bi hêdî têk da ku tevlihevi dagire; tebaxek pêşkêşiyê li ser kaseyê bicîh, bizivirê û şiklê birincik û goştê derxe. Bi tiştên mayî dubare bike. Her porçeyê bi kişniş, temateya qotbûyî û tîpa ketchupê xemilî."
+  },
+  "culturalNotes": "Arroz Tapado xwarineke kevneşopî ya perûyî ye ku gellek caran di bûyerên taybet û civînên malbatê de tê pêşkêşkirin.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-006": {
+  "title": "Papa a la Huancaína",
+  "ingredients": {
+   "w-pe-006-i1": {
+    "name": "kartolên Yukon Gold",
+    "standardAmount": "12"
+   },
+   "w-pe-006-i2": {
+    "name": "rûna zeytûnê",
+    "standardAmount": "1 kevçî mezin"
+   },
+   "w-pe-006-i3": {
+    "name": "pîvaz",
+    "standardAmount": "1"
+   },
+   "w-pe-006-i4": {
+    "name": "bîberên tûj",
+    "standardAmount": "6"
+   },
+   "w-pe-006-i5": {
+    "name": "penêra kremî",
+    "standardAmount": "1 pûnd"
+   },
+   "w-pe-006-i6": {
+    "name": "queso fresco",
+    "standardAmount": "1 pûnd"
+   },
+   "w-pe-006-i7": {
+    "name": "rûna nebatî",
+    "standardAmount": "0.25 qede"
+   },
+   "w-pe-006-i8": {
+    "name": "xwê",
+    "standardAmount": "2 kîlên çayê"
+   },
+   "w-pe-006-i9": {
+    "name": "sîr",
+    "standardAmount": "1 dendik"
+   },
+   "w-pe-006-i10": {
+    "name": "bîbera reş ya hêlan",
+    "standardAmount": "0.5 kevçî çayê"
+   },
+   "w-pe-006-i11": {
+    "name": "şîra avkirî",
+    "standardAmount": "0.33 qede"
+   },
+   "w-pe-006-i12": {
+    "name": "pelên xezûrê",
+    "standardAmount": "8 pelik"
+   },
+   "w-pe-006-i13": {
+    "name": "hêkên hişkbûyî",
+    "standardAmount": "4 mezin"
+   },
+   "w-pe-006-i14": {
+    "name": "zeytûnên reş",
+    "standardAmount": "8"
+   }
+  },
+  "instructions": {
+   "1": "Kartol di tacek mezin de bicîh bike û bi ava xwêtin bigire. Li ser agira bilind bigihîne cerbandinê, paşê agir li ser navîn-nizm kêm bike û heya nerm bibin, qasî 20 xulekan, bi hêdî bipeje. Avê dirajê bigire û bihêle hinekî sar bibin.",
+   "2": "Di tacekê de li ser agira navîn, rûna zeytûnê germ bike û pîvaz heya nerm bibe bipeje, qasî 10 xulekan. Ji agir bigire.",
+   "3": "Di tacek piçûk de av bigihîne cerbandinê û bîber lê zêde bike. Heya nerm bibin qeland bike, qasî 5 xulekan. Bîber bin ava sar de heya bikaribî destê lê bidî sar bike, paşê qeliqên wan derxîne û biavêje.",
+   "4": "Pîvaz, bîber, penêra kremî, queso fresco, rûna nebatî, xwê, sîr û bîbera reş tevlî blenderê bike û heya nerm bibe rijand. Şîra avkirî di dema blenderê de di karê de bi dirêjî tê de rijê heya sos kremî bibe.",
+   "5": "Li ser her 8 tebaxan 1 pel xezûrê bicîh bike. Kartol du parçe bike û li ser her pelê xezûrê 3 nîv bicîh bike. Sosê li ser kartolan rijê. Her porçeyê bi nîv hêk û 2 nîv zeytûnên reş xemilî."
+  },
+  "culturalNotes": "Papa a la Huancaína xwarineke kevneşopî ya perûyî ye ku wekî destpêkxwarin an xwarinek sivik tê pêşkêşkirin.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-007": {
+  "title": "Manjar Blanco",
+  "ingredients": {
+   "w-pe-007-i1": {
+    "name": "av",
+    "standardAmount": "1 qede"
+   },
+   "w-pe-007-i2": {
+    "name": "nîşadara genimê",
+    "standardAmount": "0.5 qede"
+   },
+   "w-pe-007-i3": {
+    "name": "şîra gûzê",
+    "standardAmount": "1 qede"
+   },
+   "w-pe-007-i4": {
+    "name": "şekra spî",
+    "standardAmount": "0.5 qede"
+   },
+   "w-pe-007-i5": {
+    "name": "danên genimê şîrîn ên teze",
+    "standardAmount": "0.25 qede"
+   },
+   "w-pe-007-i6": {
+    "name": "qiraxên gûzê yên şîrînkirî",
+    "standardAmount": "0.25 qede"
+   }
+  },
+  "instructions": {
+   "1": "Qalibeka 8-inch bi rûnê xer bike û alî bigire.",
+   "2": "0,5 tas av û nîşadara genimê di kaseyekê de tevlî hev bike heya nerm bibe; alî bigire.",
+   "3": "Şîra gûzê, 0,75 tas av û şekr di tacekê de li ser agira nizm tevlî hev bike û tevdire heya şekr hêl dibe.",
+   "4": "Tevliheviyê bigihîne cerbandinê, danên genimê lê zêde bike, û tevliheviya nîşadarê tevlî hev bike, bi lezgîn tevdire da ku di dema lûrbûnê de gom neyê çêbûn.",
+   "5": "Tevliheviyê dîsa bigihîne cerbandinê û 2 xulekan bi tevdirekên domdar bi hêdî bipeje heya lûr û nerm bibe.",
+   "6": "Manjar blanco tê qalibeka amade de rijê û bihêle sar bibe heya tund bibe, qasî 2 saet.",
+   "7": "Qiraxên gûzê yên şîrînkirî di tacek zuwa de li ser agira navîn bicîh bike û tevdire da ku bixûle. Bi baldarî temaşe bike da ku nesûrîn. Qiraxên gûzê yên xulbûyî tê kaseyekê veguhêz, bihêle sar bibin û berî pêşkêşkirinê li ser pudîngê bişîn."
+  },
+  "culturalNotes": "Manjar Blanco şîrîniyeke kevneşopî ya perûyî ye ku gellek caran di bûyerên taybet de tê pêşkêşkirin.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-008": {
+  "title": "Papas Rellenas (kartolên dagirtî yên qelandî)",
+  "ingredients": {
+   "w-pe-008-i1": {
+    "name": "kartol",
+    "standardAmount": "4 mezin, qalikî û qûtîkkirî"
+   },
+   "w-pe-008-i2": {
+    "name": "xwê",
+    "standardAmount": "1.5 kîlên çayê, beşkirî"
+   },
+   "w-pe-008-i3": {
+    "name": "rûna nebatî",
+    "standardAmount": "1 kevçî mezin"
+   },
+   "w-pe-008-i4": {
+    "name": "bîbera kesk",
+    "standardAmount": "1 qede pîçîkkirî"
+   },
+   "w-pe-008-i5": {
+    "name": "pîvaz",
+    "standardAmount": "1/2 qede pîçîkkirî"
+   },
+   "w-pe-008-i6": {
+    "name": "sîr",
+    "standardAmount": "3 dendik, qelandî"
+   },
+   "w-pe-008-i7": {
+    "name": "goştê gavê yê qeltî",
+    "standardAmount": "1 pûnd"
+   },
+   "w-pe-008-i8": {
+    "name": "maya temateyê",
+    "standardAmount": "4 kîlên çayê"
+   },
+   "w-pe-008-i9": {
+    "name": "sîrkeka spî ya dûrkirî",
+    "standardAmount": "1 kevçî mezin"
+   },
+   "w-pe-008-i10": {
+    "name": "rîhanê yê hêlan",
+    "standardAmount": "2 kîlên çayê"
+   },
+   "w-pe-008-i11": {
+    "name": "bîbera reş ya hêlan",
+    "standardAmount": "1 kevçî çayê"
+   },
+   "w-pe-008-i12": {
+    "name": "hêk",
+    "standardAmount": "4 mezin"
+   },
+   "w-pe-008-i13": {
+    "name": "lûkên nan",
+    "standardAmount": "2 qede"
+   },
+   "w-pe-008-i14": {
+    "name": "arda gelemperî",
+    "standardAmount": "1 qede"
+   },
+   "w-pe-008-i15": {
+    "name": "rûna nebatî ji bo qelînê",
+    "standardAmount": "1 quart"
+   }
+  },
+  "instructions": {
+   "1": "Kartol di tacek mezin de bicîh bike; bi ava xwêtin bigire. Li ser agira bilind bigihîne cerbandinê, paşê agir li ser navîn-nizm kêm bike, bigire û heya nerm bibin, qasî 20 xulekan, bi hêdî bipeje. Avê dirajê bigire û 1 heta 2 xulekan bihêle bi buxarê zuwa bibin. Kartol di kaseyekê de bi 1/2 kepçe piçûk xwê heya gom nemînin biguherîne. Alî bigire heya li pileya odeyê sar bibin.",
+   "2": "Di navbera de, rûna nebatî di tacek mezin de li ser agira navîn germ bike. Bîbera kesk, pîvaz û sîr di taca germ de bipeje û tevdire heya pîvaz nerm û şefaf bibe, qasî 10 xulekan.",
+   "3": "Agir li ser navîn-bilind bilind bike; goştê qeltî tevlî hev bike. Bipeje û tevdire heya goştê gavê bibe pûçe û nema pêmbû be. Maya temateyê, sîrkê, rîhan, 1 kepçe piçûk xwê û bîber tevlî hev bike heya maya temateyê hêl dibe. Tevliheviya goştê tê kaseyekê veguhêz; bihêle li pileya odeyê sar bibe.",
+   "4": "Tebaxeka firnê bi rîweka plastîk an qertasa şemal xet bike; alî bigire. Hêk di kaseyeke tevliheviyê de bibiriqîne; alî bigire. Lûkên nan û ard di tewîkên kûrtir ên cuda de rijê; alî bigire.",
+   "5": "Destmilkek ardê kartolê (qasî 1/12 ardê) bigire; di 2 parçeyên wekhev de parve bike. Her parçeyê wekî kaseyek piçûk çê bike û her yekê bi tevliheviya goştê dagire. Nîvan li hev bicîh, kevçîyan bigire û nerm bike da ku gogeka gir çêbibe. Vê gavê bi kartol û tevliheviya goştê ya mayî dubare bike.",
+   "6": "Yek bi yek, gogên kartolê bi hêdî di ardê de bigerîne da ku bigire; zêdehiyê bikime. Di hêka biriqandî de binav bike, paşê di lûkên nan de bigerîne. Bi hêdî di nav destên xwe de bigerîne da ku lûkên nan ên neçandî bibin jêr. Gogên kartol ên pêçandî li ser tebaxeka amade bicîh. Di sarincê de 2 heta 4 saet sar bike an ji bo bikaranîna paşê cemid bike.",
+   "7": "Rûn di fritûze an tacek mezin de bigihîne 175 pile C.",
+   "8": "Gogên kartol di rûna germ de bi komên de bipeje, bi tengeyê bigerîne dema ku bipejin da ku qehweyîbûna wekhev bistînin, heya çigirtî û zêrîn bibin, qasî 3 xulekan ji bo her komê. Li ser tebaxeka bi kerûsa qertas xetkirî dirajê bigire."
+  },
+  "culturalNotes": "Papas Rellenas xwarineke kevneşopî ya perûyî ye ku wekî xwarina sereke an destpêkxwarin tê pêşkêşkirin.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-009": {
+  "title": "Pastel de Choclo",
+  "ingredients": {
+   "w-pe-009-i1": {
+    "name": "hêk",
+    "standardAmount": "2 hêk"
+   },
+   "w-pe-009-i2": {
+    "name": "rûna nebatî",
+    "standardAmount": "1 kevçî mezin"
+   },
+   "w-pe-009-i3": {
+    "name": "pîvaz",
+    "standardAmount": "2 pîvaz, pîçîkkirî"
+   },
+   "w-pe-009-i4": {
+    "name": "sîr",
+    "standardAmount": "2 dendik qelandî"
+   },
+   "w-pe-009-i5": {
+    "name": "xwê",
+    "standardAmount": "1 kevçî çayê + bi tamasa"
+   },
+   "w-pe-009-i6": {
+    "name": "paprika",
+    "standardAmount": "0.5 kevçî çayê + bi tamasa"
+   },
+   "w-pe-009-i7": {
+    "name": "bîbera reş",
+    "standardAmount": "bi tamasa"
+   },
+   "w-pe-009-i8": {
+    "name": "goştê gavê yê qeltî",
+    "standardAmount": "1 pûnd"
+   },
+   "w-pe-009-i9": {
+    "name": "mirîşka grillkirî",
+    "standardAmount": "0.5 mirîşka grillkirî, pîçîkkirî"
+   },
+   "w-pe-009-i10": {
+    "name": "mewîj",
+    "standardAmount": "1.5 kîlên xwarinê"
+   },
+   "w-pe-009-i11": {
+    "name": "zeytûnên kalamata",
+    "standardAmount": "1.5 kîlên xwarinê"
+   },
+   "w-pe-009-i12": {
+    "name": "genimê şîrîn",
+    "standardAmount": "3 qutik (15.25 ounce)"
+   },
+   "w-pe-009-i13": {
+    "name": "rîhanê zuwa",
+    "standardAmount": "2 kîlên çayê"
+   },
+   "w-pe-009-i14": {
+    "name": "rûnê xer",
+    "standardAmount": "1 kevçî mezin"
+   },
+   "w-pe-009-i15": {
+    "name": "şîr",
+    "standardAmount": "1 qede"
+   },
+   "w-pe-009-i16": {
+    "name": "şekra spî",
+    "standardAmount": "2 kîlên çayê + bi tamasa"
+   }
+  },
+  "instructions": {
+   "1": "Hêk di tacekê de bicîh bike û bi avê bigire. Bigihîne cerbandinê, paşê ji agir bigire û hêk di ava germ de 15 xulekan bihêle.",
+   "2": "Di tacekê de li ser agira navîn, rûn, pîvaz, sîr, çîçikek xwê, ¼ kepçe piçûk paprika û bîbera reş lê zêde bike. Heya bîhn bidin bipeje, qasî 2 xulekan.",
+   "3": "Goştê qeltî, 1 kepçe piçûk xwê ya mayî, ¼ kepçe piçûk paprika ya mayî û bîbera reş lê zêde bike. Bipeje û tevdire heya goştê gavê pir caran qehweyî bibe, qasî 5 xulekan.",
+   "4": "Mirîşk, mewîj û zeytûn lê zêde bike. Baş tevlî hev bike.",
+   "5": "Hêk ji ava germ derxîne, bin ava sar a heriyê de sar bike, paşê qeliqê jê bigire û qezeran biqot. Tevlî tevliheviya goştê bike. Pino germ bigire.",
+   "6": "Genim û rîhan di blenderê an amûra xwarinê de heya nerm bibe rijand. Tê tacekê de li ser agira navîn rijê. Rûnê xer lê zêde bike û bipeje, tevdire heya lûr bibe, 7 heta 10 xulekan.",
+   "7": "Şîr, şekr û xwê lê zêde bike. Bipeje heya wekî mayê lûr bibe, qasî 15 xulekan din.",
+   "8": "Firnê pêşî bigihîne 175 pile C.",
+   "9": "Pino li tewîka firnê belav bike. Bi maya genimê bigire û li jorê hinekî şekr bişîn.",
+   "10": "Di firna pêşgermkirî de bipeje heya jor zêrîn bibe, qasî 20 xulekan."
+  },
+  "culturalNotes": "Pastel de Choclo xwarineke kevneşopî ya perûyî ye ku gellek caran di bûyerên taybet û civînên malbatê de tê pêşkêşkirin.",
+  "chapter": "مطبخ بيرو"
  }
 }

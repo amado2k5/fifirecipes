@@ -7462,7 +7462,7 @@
    },
    "w-in-022-i8": {
     "name": "drobno posiekany czosnek",
-    "standardAmount": "4 duży ząbki"
+    "standardAmount": "4 duże ząbki"
    },
    "w-in-022-i9": {
     "name": "posiekana świeża czerwona chili",
@@ -9713,5 +9713,632 @@
   },
   "culturalNotes": "Paratha to tradycyjne danie indyjskie, często podawane jako śniadanie lub lekki lunch.",
   "chapter": "in"
+ },
+ "w-pe-001": {
+  "title": "Peruwiańska zupa z kurczakiem (Aguadito de Pollo)",
+  "ingredients": {
+   "w-pe-001-i1": {
+    "name": "połówki piersi kurczaka bez skóry i kości",
+    "standardAmount": "4 połówki - przekrojone na pół"
+   },
+   "w-pe-001-i2": {
+    "name": "sól i pieprz",
+    "standardAmount": "do smaku"
+   },
+   "w-pe-001-i3": {
+    "name": "oliwa z oliwek",
+    "standardAmount": "0.5 szklanka"
+   },
+   "w-pe-001-i4": {
+    "name": "posiekana cebula",
+    "standardAmount": "1 średnia cebula"
+   },
+   "w-pe-001-i5": {
+    "name": "posiekany czosnek",
+    "standardAmount": "1 łyżeczka"
+   },
+   "w-pe-001-i6": {
+    "name": "pozbawiona nasion, posiekana papryczka serrano",
+    "standardAmount": "1 łyżka"
+   },
+   "w-pe-001-i7": {
+    "name": "posiekana kolendra",
+    "standardAmount": "0.5 szklanka"
+   },
+   "w-pe-001-i8": {
+    "name": "zielony groszek",
+    "standardAmount": "1 szklanka"
+   },
+   "w-pe-001-i9": {
+    "name": "kukurydza",
+    "standardAmount": "1 szklanka"
+   },
+   "w-pe-001-i10": {
+    "name": "posiekana czerwona papryka",
+    "standardAmount": "0,5 czerwonej papryki"
+   },
+   "w-pe-001-i11": {
+    "name": "bulion drobiowy",
+    "standardAmount": "10 szklanki"
+   },
+   "w-pe-001-i12": {
+    "name": "ziemniaki",
+    "standardAmount": "4 ziemniaki Yukon Gold - przekrojone na pół"
+   },
+   "w-pe-001-i13": {
+    "name": "niegotowany biały ryż",
+    "standardAmount": "1 szklanka"
+   }
+  },
+  "instructions": {
+   "1": "Przypraw piersi kurczaka solą i pieprzem.",
+   "2": "Rozgrzej oliwę z oliwek w dużym, ciężkim garnku na średnio-wysokim ogniu. Dodaj cebulę, czosnek i papryczkę serrano i gotuj, aż cebula zmięknie, około 1 minuty.",
+   "3": "Dodaj kurczaka i gotuj przez kolejne 5 minut.",
+   "4": "Wymieszaj kolendrę, groszek, kukurydzę i czerwoną paprykę; gotuj 1 minutę.",
+   "5": "Wlej bulion drobiowy, ziemniaki i ryż. Doprowadź do wrzenia, następnie zmniejsz ogień do średnio-niskiego i gotuj na wolnym ogniu, aż kurczak będzie nieprzezroczysty, a ziemniaki miękkie, około 40 minut."
+  },
+  "culturalNotes": "Aguadito de Pollo to tradycyjna peruwiańska zupa serwowana jako lekki posiłek lub danie główne. Charakteryzuje się różnorodnością smaków warzywnych i przypraw.",
+  "chapter": "pe"
+ },
+ "w-pe-002": {
+  "title": "Ají de Gallina",
+  "ingredients": {
+   "w-pe-002-i1": {
+    "name": "połówki piersi kurczaka bez skóry z kością",
+    "standardAmount": "2 funty"
+   },
+   "w-pe-002-i2": {
+    "name": "cebula",
+    "standardAmount": "1 cebula"
+   },
+   "w-pe-002-i3": {
+    "name": "marchewki",
+    "standardAmount": "2 marchewki"
+   },
+   "w-pe-002-i4": {
+    "name": "czosnek",
+    "standardAmount": "4 ząbki"
+   },
+   "w-pe-002-i5": {
+    "name": "woda",
+    "standardAmount": "2 kwarty"
+   },
+   "w-pe-002-i6": {
+    "name": "chleb pszenny",
+    "standardAmount": "1 bochenek, bez skórki, pokrojony w kostkę"
+   },
+   "w-pe-002-i7": {
+    "name": "mleko odparowane",
+    "standardAmount": "12 uncji płynu"
+   },
+   "w-pe-002-i8": {
+    "name": "starty ser parmezan",
+    "standardAmount": "0.5 szklanka"
+   },
+   "w-pe-002-i9": {
+    "name": "kawałki orzechów włoskich",
+    "standardAmount": "0.25 szklanka"
+   },
+   "w-pe-002-i10": {
+    "name": "olej roślinny",
+    "standardAmount": "1 łyżeczka"
+   },
+   "w-pe-002-i11": {
+    "name": "posiekany czosnek",
+    "standardAmount": "2 ząbki"
+   },
+   "w-pe-002-i12": {
+    "name": "posiekana cebula",
+    "standardAmount": "1 cebula"
+   },
+   "w-pe-002-i13": {
+    "name": "pasta z papryczki aji amarillo",
+    "standardAmount": "2 łyżeczki"
+   },
+   "w-pe-002-i14": {
+    "name": "mielona kurkuma",
+    "standardAmount": "2 łyżeczki"
+   },
+   "w-pe-002-i15": {
+    "name": "jajka na twardo, w plastrach",
+    "standardAmount": "4 jajka"
+   },
+   "w-pe-002-i16": {
+    "name": "oliwki kalamata, wykruszcone i pokrojone na ćwiartki",
+    "standardAmount": "0.25 szklanka"
+   }
+  },
+  "instructions": {
+   "1": "Umieść piersi kurczaka, cebulę, marchewkę i 2 ząbki czosnku w dużym rondlu, wlej 2 kwarty wody i powoli doprowadź do zagotowania na średnio-wysokim ogniu. Zdejmij piankę, która tworzy się na wierzchu, następnie przykryj, zmniejsz ogień do średnio-niskiego i gotuj na wolnym ogniu, aż kurczak będzie miękki, około 30 minut. Wyjmij kurczaka na talerz i pozwól ostygnąć. Odcedź powstały bulion drobiowy, wyrzucając warzywa.",
+   "2": "Wlej mleko odparowane i 1/2 szklanki bulionu drobiowego do dzbanka blendera. Dodaj kostki chleba i zmiksuj na gładko. Dodaj parmezan i orzechy włoskie; zmiksuj na gładko. Porwij ostygniętego kurczaka i wyrzuć kości.",
+   "3": "Rozgrzej olej roślinny w dużym rondlu na średnim ogniu. Wymieszaj posiekany czosnek i cebulę; gotuj, aż cebula zmięknie i stanie się szklista, około 5 minut. Wymieszaj porwanego kurczaka i aji amarillo, aż się nagrzeje. Wlej puree z chleba i gotuj, aż będzie gorące, często mieszając. W razie potrzeby dodaj więcej bulionu, aby nie było zbyt gęste.",
+   "4": "Wymieszaj kurkumę i gotuj na wolnym ogniu jeszcze 5 minut. Podawaj udekorowane plastrami jajka na twardo i posypane oliwkami kalamata."
+  },
+  "culturalNotes": "Ají de Gallina to tradycyjne peruwiańskie danie często serwowane przy specjalnych okazjach.",
+  "chapter": "pe"
+ },
+ "w-pe-003": {
+  "title": "Ajiaco (peruwiański gulasz wołowy z papryką)",
+  "ingredients": {
+   "w-pe-003-i1": {
+    "name": "olej rzepakowy",
+    "standardAmount": "2 łyżki"
+   },
+   "w-pe-003-i2": {
+    "name": "pokrojone szalotki",
+    "standardAmount": "1 szklanka"
+   },
+   "w-pe-003-i3": {
+    "name": "posiekany czosnek",
+    "standardAmount": "2 łyżki"
+   },
+   "w-pe-003-i4": {
+    "name": "czerwone papryki, pokrojone na kawałki 1 cala",
+    "standardAmount": "2 sztuki"
+   },
+   "w-pe-003-i5": {
+    "name": "proszek z papryczki chipotle",
+    "standardAmount": "1.5 łyżeczki"
+   },
+   "w-pe-003-i6": {
+    "name": "mielony kmin",
+    "standardAmount": "2 łyżeczki"
+   },
+   "w-pe-003-i7": {
+    "name": "kostka gotowanego rostbefu",
+    "standardAmount": "3 szklanki"
+   },
+   "w-pe-003-i8": {
+    "name": "małe czerwone ziemniaki, przekrojone na pół",
+    "standardAmount": "1 funt"
+   },
+   "w-pe-003-i9": {
+    "name": "woda",
+    "standardAmount": "2 szklanki"
+   },
+   "w-pe-003-i10": {
+    "name": "bulion wołowy",
+    "standardAmount": "1 kwarta"
+   },
+   "w-pe-003-i11": {
+    "name": "suszony oregano",
+    "standardAmount": "0.5 łyżeczka"
+   },
+   "w-pe-003-i12": {
+    "name": "sól i pieprz do smaku",
+    "standardAmount": "do smaku"
+   },
+   "w-pe-003-i13": {
+    "name": "posiekana pietruszka",
+    "standardAmount": "0.25 szklanka"
+   },
+   "w-pe-003-i14": {
+    "name": "jajka na twardo, w plastrach 1/4 cala",
+    "standardAmount": "2 jajka"
+   }
+  },
+  "instructions": {
+   "1": "Rozgrzej olej rzepakowy w żeliwnej patelni na średnim ogniu. Dodaj pokrojone szalotki, posiekany czosnek i czerwone papryki. Gotuj, aż szalotki zmiękną i staną się szkliste, około 4 minut.",
+   "2": "Dodaj proszek chipotle i kmin. Gotuj 30 sekund, aż będzie pachnąco.",
+   "3": "Dodaj gotowany rostbef i czerwone ziemniaki. Wlej wodę i bulion wołowy. Doprowadź do wrzenia na dużym ogniu, następnie zmniejsz ogień do średnio-niskiego, przykryj i gotuj na wolnym ogniu, aż ziemniaki będą miękkie, około 30 minut.",
+   "4": "Wymieszaj oregano i dopraw do smaku solą i pieprzem.",
+   "5": "Wymieszaj posiekaną pietruszkę przed podaniem. Udekoruj każdą miskę kilkoma plastrami jajka na twardo."
+  },
+  "culturalNotes": "Ajiaco to tradycyjne peruwiańskie danie znane ze swoich bogatych smaków i pikantnego charakteru.",
+  "chapter": "pe"
+ },
+ "w-pe-004": {
+  "title": "Anticucho",
+  "ingredients": {
+   "w-pe-004-i1": {
+    "name": "serce wołowe",
+    "standardAmount": "1 serce"
+   },
+   "w-pe-004-i2": {
+    "name": "czosnek",
+    "standardAmount": "2 ząbki"
+   },
+   "w-pe-004-i3": {
+    "name": "mielona ostra czerwona papryka",
+    "standardAmount": "¼ szklanka"
+   },
+   "w-pe-004-i4": {
+    "name": "ocet brązowy",
+    "standardAmount": "2 szklanki"
+   },
+   "w-pe-004-i5": {
+    "name": "mielony kmin",
+    "standardAmount": "1 łyżeczka"
+   },
+   "w-pe-004-i6": {
+    "name": "achiote (annatto)",
+    "standardAmount": "1 łyżeczka"
+   },
+   "w-pe-004-i7": {
+    "name": "sól",
+    "standardAmount": "1 łyżeczka"
+   },
+   "w-pe-004-i8": {
+    "name": "mielony czarny pieprz",
+    "standardAmount": "1 łyżeczka"
+   }
+  },
+  "instructions": {
+   "1": "Umieść wszystkie składniki, poza sercem wołowym, w misce i dokładnie wymieszaj.",
+   "2": "Oczyść serce wołowe, usuwając cały tłuszcz. Pokrój na kostki wielkości kęsa. Umieść kawałki serca w mieszance marynaty i pozostaw do zamarynowania na około 10 godzin lub całą noc. Serce powinno być całkowicie pokryte marynatą.",
+   "3": "Po zamarynowaniu nadziej mięso na szpikulce. Jeśli chcesz, na tym etapie można również dodać do szpikulców inne składniki, takie jak papryka lub kolby kukurydzy (pokrojone na podobny rozmiar jak serce).",
+   "4": "Grilluj szpikulce na grillu, często obracając i smarując mieszanką marynaty. Gdy mięso będzie dobrze upieczone, zdejmij szpikulce z grilla i podawaj natychmiast."
+  },
+  "culturalNotes": "Anticucho to tradycyjne danie w Peru, często serwowane jako przekąska lub na uroczystościach.",
+  "chapter": "pe"
+ },
+ "w-pe-005": {
+  "title": "Arroz Tapado",
+  "ingredients": {
+   "w-pe-005-i1": {
+    "name": "biały ryż",
+    "standardAmount": "2 szklanki"
+   },
+   "w-pe-005-i2": {
+    "name": "woda",
+    "standardAmount": "4 szklanki"
+   },
+   "w-pe-005-i3": {
+    "name": "jajko",
+    "standardAmount": "1 jajko"
+   },
+   "w-pe-005-i4": {
+    "name": "ziemniak",
+    "standardAmount": "1 ziemniak, obrany i pokrojony w kostkę"
+   },
+   "w-pe-005-i5": {
+    "name": "olej roślinny",
+    "standardAmount": "1 szklanka"
+   },
+   "w-pe-005-i6": {
+    "name": "pomidory",
+    "standardAmount": "3 małe pomidory, grubo posiekane"
+   },
+   "w-pe-005-i7": {
+    "name": "woda",
+    "standardAmount": "0.5 szklanka"
+   },
+   "w-pe-005-i8": {
+    "name": "olej roślinny",
+    "standardAmount": "1 łyżka"
+   },
+   "w-pe-005-i9": {
+    "name": "cebula",
+    "standardAmount": "0,5 dużej cebuli, drobno posiekanej"
+   },
+   "w-pe-005-i10": {
+    "name": "czosnek",
+    "standardAmount": "3 ząbki czosnku, posiekane"
+   },
+   "w-pe-005-i11": {
+    "name": "mielona suszona papryka aji",
+    "standardAmount": "1 łyżeczka"
+   },
+   "w-pe-005-i12": {
+    "name": "mielony kmin",
+    "standardAmount": "0.5 łyżeczka"
+   },
+   "w-pe-005-i13": {
+    "name": "mielony czarny pieprz",
+    "standardAmount": "0.25 łyżeczka"
+   },
+   "w-pe-005-i14": {
+    "name": "posiekany świeży oregano",
+    "standardAmount": "2 łyżeczki"
+   },
+   "w-pe-005-i15": {
+    "name": "chude mielone mięso wołowe",
+    "standardAmount": "1 funt"
+   },
+   "w-pe-005-i16": {
+    "name": "marchewki",
+    "standardAmount": "2 duże marchewki, obrane i pokrojone w kostkę"
+   },
+   "w-pe-005-i17": {
+    "name": "mrożony groszek",
+    "standardAmount": "0.25 szklanka"
+   },
+   "w-pe-005-i18": {
+    "name": "masło orzechowe",
+    "standardAmount": "1 łyżka"
+   },
+   "w-pe-005-i19": {
+    "name": "posiekana świeża kolendra",
+    "standardAmount": "1 łyżeczka"
+   },
+   "w-pe-005-i20": {
+    "name": "posiekany świeży pomidor",
+    "standardAmount": "1 łyżeczka"
+   },
+   "w-pe-005-i21": {
+    "name": "ketchup",
+    "standardAmount": "1 łyżeczka"
+   }
+  },
+  "instructions": {
+   "1": "Doprowadź ryż i 4 szklanki wody do wrzenia w rondlu na dużym ogniu. Zmniejsz ogień do średnio-niskiego, przykryj i gotuj na wolnym ogniu, aż ryż będzie miękki i płyn zostanie wchłonięty, 20 do 25 minut.",
+   "2": "Umieść jajko w rondlu i przykryj wodą na wysokość 1 cala. Przykryj rondel i doprowadź wodę do wrzenia na dużym ogniu. Gdy woda zacznie wrzeć, zdejmij z ognia i pozwól jajku stać w gorącej wodzie przez 15 minut. Wylej gorącą wodę, następnie ochłódź jajko pod zimną bieżącą wodą w zlewie. Obierz, gdy zimne. Posiekaj jajko i odłóż do małej miseczki.",
+   "3": "Rozgrzej 1 szklankę oleju roślinnego w frytkownicy lub dużym rondlu do 175 stopni C. Smaż kostki ziemniaka na złoty brąz, około 5 minut; odsącz na papierowych ręcznikach i odłóż.",
+   "4": "Umieść pomidory i 0,5 szklanki wody w blenderze i zmiksuj, aż pomidory będą płynne (wcześniej obierz i wydrąż pestki, jeśli chcesz).",
+   "5": "Rozgrzej 1 łyżkę oleju roślinnego w dużej patelni na średnim ogniu i smaż oraz mieszaj cebulę, czosnek, proszek paprykowy, kmin, czarny pieprz i oregano, aż cebula zacznie się rumienić, 8 do 10 minut; wlej zmiksowane pomidory i gotuj na wolnym ogniu jeszcze 5 minut, często mieszając. Wymieszaj mięso mielone i marchewki i gotuj, aż mięso nie będzie już różowe i marchewki będą miękkie, około 10 minut. Rozbij mięso na małe kawałki podczas gotowania. Wymieszaj posiekane jajko na twardo, groszek i masło orzechowe, aż będą dobrze połączone. Na koniec delikatnie wmieszaj kostki smażonych ziemniaków.",
+   "6": "Aby złożyć danie, naoliwij elastyczną plastikową miskę (co najmniej o pojemności 1 szklanki) i wciśnij ugotowany ryż na dno, aby wypełnić 1/3 miski. Nałóż około 3/4 cala mieszanki mięsnej na ryż i przykryj większą ilością ugotowanego ryżu, aby wypełnić miskę. Naoliwioną dłonią delikatnie docisnij ryż, aby zagęścić mieszankę; połóż talerz na miskę, odwróć i wyjmij formę ryżowo-mięsną. Powtórz z pozostałymi składnikami. Udekoruj każdą porcję kolendrą, posiekanym pomidorem i kleksami ketchupu."
+  },
+  "culturalNotes": "Arroz Tapado to tradycyjne peruwiańskie danie, często serwowane przy specjalnych okazjach i rodzinnych spotkaniach.",
+  "chapter": "pe"
+ },
+ "w-pe-006": {
+  "title": "Papa a la Huancaína",
+  "ingredients": {
+   "w-pe-006-i1": {
+    "name": "ziemniaki Yukon Gold",
+    "standardAmount": "12"
+   },
+   "w-pe-006-i2": {
+    "name": "oliwa z oliwek",
+    "standardAmount": "1 łyżka"
+   },
+   "w-pe-006-i3": {
+    "name": "cebula",
+    "standardAmount": "1"
+   },
+   "w-pe-006-i4": {
+    "name": "papryczki chilli",
+    "standardAmount": "6"
+   },
+   "w-pe-006-i5": {
+    "name": "serek śmietankowy",
+    "standardAmount": "1 funt"
+   },
+   "w-pe-006-i6": {
+    "name": "queso fresco",
+    "standardAmount": "1 funt"
+   },
+   "w-pe-006-i7": {
+    "name": "olej roślinny",
+    "standardAmount": "0.25 szklanka"
+   },
+   "w-pe-006-i8": {
+    "name": "sól",
+    "standardAmount": "2 łyżeczki"
+   },
+   "w-pe-006-i9": {
+    "name": "czosnek",
+    "standardAmount": "1 ząbek"
+   },
+   "w-pe-006-i10": {
+    "name": "mielony czarny pieprz",
+    "standardAmount": "0.5 łyżeczka"
+   },
+   "w-pe-006-i11": {
+    "name": "mleko odparowane",
+    "standardAmount": "0.33 szklanka"
+   },
+   "w-pe-006-i12": {
+    "name": "liście sałaty",
+    "standardAmount": "8 listki"
+   },
+   "w-pe-006-i13": {
+    "name": "jajka na twardo",
+    "standardAmount": "4 duże"
+   },
+   "w-pe-006-i14": {
+    "name": "czarne oliwki",
+    "standardAmount": "8"
+   }
+  },
+  "instructions": {
+   "1": "Umieść ziemniaki w dużym garnku i przykryj osoloną wodą. Doprowadź do wrzenia na dużym ogniu, następnie zmniejsz ogień do średnio-niskiego i gotuj na wolnym ogniu, aż będą miękkie, około 20 minut. Odcedź i odstaw do lekkiego przestudzenia.",
+   "2": "Na patelni na średnim ogniu rozgrzej oliwę z oliwek i smaż cebulę, aż będzie miękka, około 10 minut. Zdejmij z ognia.",
+   "3": "W małym rondlu doprowadź wodę do wrzenia i dodaj papryczki. Gotuj, aż będą miękkie, około 5 minut. Przepłucz papryczki zimną wodą, aż będą wystarczająco zimne, aby je trzymać, następnie zdejmij i wyrzuć skórki.",
+   "4": "Dodaj cebulę, papryczki, serek śmietankowy, queso fresco, olej roślinny, sól, czosnek i czarny pieprz do blendera i zmiksuj na gładko. Wlej mleko odparowane strumyczkiem przy włączonym blenderze, aż sos będzie kremowy.",
+   "5": "Połóż 1 liść sałaty na każdym z 8 talerzy. Przekrój ziemniaki na pół i ułóż po 3 połówki na każdym liściu sałaty. Polej ziemniaki sosem. Udekoruj każdą porcję połówką jajka i 2 połówkami czarnych oliwek."
+  },
+  "culturalNotes": "Papa a la Huancaína to tradycyjne peruwiańskie danie serwowane jako przystawka lub lekki posiłek.",
+  "chapter": "pe"
+ },
+ "w-pe-007": {
+  "title": "Manjar Blanco",
+  "ingredients": {
+   "w-pe-007-i1": {
+    "name": "woda",
+    "standardAmount": "1 szklanka"
+   },
+   "w-pe-007-i2": {
+    "name": "mąka kukurydziana",
+    "standardAmount": "0.5 szklanka"
+   },
+   "w-pe-007-i3": {
+    "name": "mleko kokosowe",
+    "standardAmount": "1 szklanka"
+   },
+   "w-pe-007-i4": {
+    "name": "biały cukier",
+    "standardAmount": "0.5 szklanka"
+   },
+   "w-pe-007-i5": {
+    "name": "świeża słodka kukurydza w ziarnach",
+    "standardAmount": "0.25 szklanka"
+   },
+   "w-pe-007-i6": {
+    "name": "słodzone wiórki kokosowe",
+    "standardAmount": "0.25 szklanka"
+   }
+  },
+  "instructions": {
+   "1": "Natłuść formę do pieczenia 8 cali i odłóż.",
+   "2": "Wymieszaj 0,5 szklanki wody i mąkę kukurydzianą w misce na gładko; odłóż.",
+   "3": "Połącz mleko kokosowe, 0,75 szklanki wody i cukier w rondlu na małym ogniu i mieszaj, aż cukier się rozpuści.",
+   "4": "Doprowadź mieszankę do wrzenia, dodaj ziarna kukurydzy i wymieszaj mieszankę z mąką kukurydzianą, szybko mieszając, aby uniknąć grudek podczas zgęszczania.",
+   "5": "Znowu doprowadź mieszankę do wrzenia i gotuj na wolnym ogniu przez 2 minuty, ciągle mieszając, aż będzie gęsta i gładka.",
+   "6": "Wlej manjar blanco do przygotowanej formy i odstaw do ostygnięcia, aż będzie jędrne, około 2 godzin.",
+   "7": "Umieść słodzone wiórki kokosowe na suchej patelni na średnim ogniu i mieszaj, aby je podprażyć. Uważaj, aby się nie przypaliły. Wyłóż podprażone wiórki do miski, pozwól ostygnąć i posyp pudding przed podaniem."
+  },
+  "culturalNotes": "Manjar Blanco to tradycyjny peruwiański deser, często serwowany przy specjalnych okazjach.",
+  "chapter": "pe"
+ },
+ "w-pe-008": {
+  "title": "Papas Rellenas (smażone faszerowane ziemniaki)",
+  "ingredients": {
+   "w-pe-008-i1": {
+    "name": "ziemniaki",
+    "standardAmount": "4 duże, obrane i pokrojone w kostkę"
+   },
+   "w-pe-008-i2": {
+    "name": "sól",
+    "standardAmount": "1.5 łyżeczki, podzielone"
+   },
+   "w-pe-008-i3": {
+    "name": "olej roślinny",
+    "standardAmount": "1 łyżka"
+   },
+   "w-pe-008-i4": {
+    "name": "zielona papryka",
+    "standardAmount": "1 szklanka posiekanej"
+   },
+   "w-pe-008-i5": {
+    "name": "cebula",
+    "standardAmount": "1/2 szklanki posiekanej"
+   },
+   "w-pe-008-i6": {
+    "name": "czosnek",
+    "standardAmount": "3 ząbki, posiekany"
+   },
+   "w-pe-008-i7": {
+    "name": "mięso mielone wołowe",
+    "standardAmount": "1 funt"
+   },
+   "w-pe-008-i8": {
+    "name": "koncentrat pomidorowy",
+    "standardAmount": "4 łyżeczki"
+   },
+   "w-pe-008-i9": {
+    "name": "destylowany biały ocet",
+    "standardAmount": "1 łyżka"
+   },
+   "w-pe-008-i10": {
+    "name": "mielony kmin",
+    "standardAmount": "2 łyżeczki"
+   },
+   "w-pe-008-i11": {
+    "name": "mielony czarny pieprz",
+    "standardAmount": "1 łyżeczka"
+   },
+   "w-pe-008-i12": {
+    "name": "jajka",
+    "standardAmount": "4 duże"
+   },
+   "w-pe-008-i13": {
+    "name": "bułka tarta",
+    "standardAmount": "2 szklanki"
+   },
+   "w-pe-008-i14": {
+    "name": "mąka pszenna",
+    "standardAmount": "1 szklanka"
+   },
+   "w-pe-008-i15": {
+    "name": "olej roślinny do smażenia",
+    "standardAmount": "1 kwarta"
+   }
+  },
+  "instructions": {
+   "1": "Umieść ziemniaki w dużym garnku; przykryj osoloną wodą. Doprowadź do wrzenia na dużym ogniu, następnie zmniejsz ogień do średnio-niskiego, przykryj i gotuj na wolnym ogniu, aż będą miękkie, około 20 minut. Odcedź i pozwól odparować przez 1 do 2 minut. Utrzyj ziemniaki z 1/2 łyżeczki soli w misce, aż nie będzie grudek. Odłóż do ostygnięcia do temperatury pokojowej.",
+   "2": "W międzyczasie rozgrzej olej roślinny w dużej patelni na średnim ogniu. Smaż i mieszaj zieloną paprykę, cebulę i czosnek na gorącej patelni, aż cebula zmięknie i stanie się szklista, około 10 minut.",
+   "3": "Zwiększ ogień do średnio-wysokiego; wymieszaj mięso mielone. Smaż i mieszaj, aż wołowina będzie krusząca i nie będzie już różowa. Wymieszaj koncentrat pomidorowy, ocet, kmin, 1 łyżeczkę soli i pieprz, aż koncentrat się rozpuści. Przełóż mieszankę mięsną do miski; pozwól ostygnąć do temperatury pokojowej.",
+   "4": "Wyłóż blachę folią lub papierem woskowym; odłóż. Ubij jajka w misce; odłóż. Wysyp bułkę tartą i mąkę do osobnych płytkich naczyń; odłóż.",
+   "5": "Chwyć garść puree ziemniaczanego (około 1/12 puree); podziel na 2 równe porcje. Uformuj każdy kawałek w kształt małej miseczki i napełnij mieszanką mięsną. Złóż połówki razem, zepnij brzegi i wygładź, tworząc okrągłą kulę. Powtórz ten krok z pozostałymi ziemniakami i mieszanką mięsną.",
+   "6": "Jedna po drugiej, delikatnie obtocz kule ziemniaczane w mące; strząśnij nadmiar. Zanurz w ubitym jajku, a następnie obtocz w bułce tartej. Delikatnie przerzucaj między dłońmi, aby spadła nieprzyklejona bułka. Umieść panierowane kule na przygotowanej blasze. Wstaw do lodówki na 2 do 4 godziny lub zamroź na później.",
+   "7": "Rozgrzej olej w frytkownicy lub dużym rondlu do 175 stopni C.",
+   "8": "Smaż kule ziemniaczane w gorącym oleju partiami, obracając je szczypcami podczas smażenia, aby zapewnić równomierne zrumienienie, aż będą chrupiące i złociste, około 3 minut na partię. Odsącz na talerzu wyłożonym papierowymi ręcznikami."
+  },
+  "culturalNotes": "Papas Rellenas to tradycyjne peruwiańskie danie serwowane jako danie główne lub przystawka.",
+  "chapter": "pe"
+ },
+ "w-pe-009": {
+  "title": "Pastel de Choclo",
+  "ingredients": {
+   "w-pe-009-i1": {
+    "name": "jajka",
+    "standardAmount": "2 jajka"
+   },
+   "w-pe-009-i2": {
+    "name": "olej roślinny",
+    "standardAmount": "1 łyżka"
+   },
+   "w-pe-009-i3": {
+    "name": "cebula",
+    "standardAmount": "2 cebule, posiekane"
+   },
+   "w-pe-009-i4": {
+    "name": "czosnek",
+    "standardAmount": "2 ząbki posiekane"
+   },
+   "w-pe-009-i5": {
+    "name": "sól",
+    "standardAmount": "1 łyżeczka + do smaku"
+   },
+   "w-pe-009-i6": {
+    "name": "papryka",
+    "standardAmount": "0.5 łyżeczka + do smaku"
+   },
+   "w-pe-009-i7": {
+    "name": "czarny pieprz",
+    "standardAmount": "do smaku"
+   },
+   "w-pe-009-i8": {
+    "name": "mięso mielone wołowe",
+    "standardAmount": "1 funt"
+   },
+   "w-pe-009-i9": {
+    "name": "grillowany kurczak",
+    "standardAmount": "0,5 grillowanego kurczaka, posiekanego"
+   },
+   "w-pe-009-i10": {
+    "name": "rodzynki",
+    "standardAmount": "1.5 łyżki"
+   },
+   "w-pe-009-i11": {
+    "name": "oliwki kalamata",
+    "standardAmount": "1.5 łyżki"
+   },
+   "w-pe-009-i12": {
+    "name": "słodka kukurydza",
+    "standardAmount": "3 puszki (po 15,25 uncji)"
+   },
+   "w-pe-009-i13": {
+    "name": "suszony bazyli",
+    "standardAmount": "2 łyżeczki"
+   },
+   "w-pe-009-i14": {
+    "name": "masło",
+    "standardAmount": "1 łyżka"
+   },
+   "w-pe-009-i15": {
+    "name": "mleko",
+    "standardAmount": "1 szklanka"
+   },
+   "w-pe-009-i16": {
+    "name": "biały cukier",
+    "standardAmount": "2 łyżeczki + do smaku"
+   }
+  },
+  "instructions": {
+   "1": "Umieść jajka w rondlu i przykryj wodą. Doprowadź do wrzenia, następnie zdejmij z ognia i pozwól jajkom stać w gorącej wodzie przez 15 minut.",
+   "2": "Na patelni na średnim ogniu dodaj olej, cebulę, czosnek, szczyptę soli, ¼ łyżeczki papryki i czarny pieprz. Smaż, aż będzie pachnąco, około 2 minut.",
+   "3": "Dodaj mięso mielone, pozostałą 1 łyżeczkę soli, pozostałe ¼ łyżeczki papryki i czarny pieprz. Smaż i mieszaj, aż wołowina będzie w większości zbrązowiała, około 5 minut.",
+   "4": "Dodaj kurczaka, rodzynki i oliwki. Dobrze wymieszaj.",
+   "5": "Wyjmij jajka z gorącej wody, ochłódź pod zimną bieżącą wodą, następnie obierz i posiekaj grubo. Dodaj do mieszanki mięsnej. Utrzymuj pino w cieple.",
+   "6": "Zmiksuj kukurydzę i bazylię w blenderze lub robocie kuchennym na gładko. Wlej do rondla na średnim ogniu. Dodaj masło i gotuj, mieszając, aż zgęstnieje, 7 do 10 minut.",
+   "7": "Dodaj mleko, cukier i sól. Gotuj, aż zgęstnieje do pasty, około 15 minut dłużej.",
+   "8": "Rozgrzej piekarnik do 175 stopni C.",
+   "9": "Rozłóż pino w naczyniu do pieczenia. Przykryj pastą kukurydzianą i posyp trochę cukru na wierzch.",
+   "10": "Piecz w rozgrzanym piekarniku, aż wierzch będzie złocisty, około 20 minut."
+  },
+  "culturalNotes": "Pastel de Choclo to tradycyjne peruwiańskie danie, często serwowane przy specjalnych okazjach i rodzinnych spotkaniach.",
+  "chapter": "pe"
  }
 }

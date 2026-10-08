@@ -124937,5 +124937,632 @@
   },
   "culturalNotes": "Paratha ist ein traditionelles indisches Gericht, das oft als Frühstück oder leichtes Mittagessen serviert wird.",
   "chapter": "مطبخ الهند"
+ },
+ "w-pe-001": {
+  "title": "Peruanische Hühnersuppe (Aguadito de Pollo)",
+  "ingredients": {
+   "w-pe-001-i1": {
+    "name": "hautlose, entbeinte Hühnerbrusthälften",
+    "standardAmount": "4 Hälften - halbiert"
+   },
+   "w-pe-001-i2": {
+    "name": "Salz und Pfeffer",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-pe-001-i3": {
+    "name": "Olivenöl",
+    "standardAmount": "0.5 Tasse"
+   },
+   "w-pe-001-i4": {
+    "name": "gehackte Zwiebel",
+    "standardAmount": "1 mittelgroße Zwiebel"
+   },
+   "w-pe-001-i5": {
+    "name": "gehackter Knoblauch",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-pe-001-i6": {
+    "name": "entkernte, gehackte Serrano-Chili",
+    "standardAmount": "1 Esslöffel"
+   },
+   "w-pe-001-i7": {
+    "name": "gehackter Koriander",
+    "standardAmount": "0.5 Tasse"
+   },
+   "w-pe-001-i8": {
+    "name": "grüne Erbsen",
+    "standardAmount": "1 Tasse"
+   },
+   "w-pe-001-i9": {
+    "name": "Mais",
+    "standardAmount": "1 Tasse"
+   },
+   "w-pe-001-i10": {
+    "name": "gehackte rote Paprika",
+    "standardAmount": "0.5 rote Paprika"
+   },
+   "w-pe-001-i11": {
+    "name": "Hühnerbrühe",
+    "standardAmount": "10 Tassen"
+   },
+   "w-pe-001-i12": {
+    "name": "Kartoffeln",
+    "standardAmount": "4 Yukon-Gold-Kartoffeln - halbiert"
+   },
+   "w-pe-001-i13": {
+    "name": "ungekochter weißer Reis",
+    "standardAmount": "1 Tasse"
+   }
+  },
+  "instructions": {
+   "1": "Die Hühnerbrüste mit Salz und Pfeffer würzen.",
+   "2": "Das Olivenöl in einem großen, schweren Topf bei mittlerer bis hoher Hitze erhitzen. Zwiebel, Knoblauch und Serrano-Chili hinzufügen und garen, bis die Zwiebel weich ist, etwa 1 Minute.",
+   "3": "Das Hähnchen hinzufügen und weitere 5 Minuten garen.",
+   "4": "Koriander, Erbsen, Mais und rote Paprika einrühren; 1 Minute garen.",
+   "5": "Hühnerbrühe, Kartoffeln und Reis hineingießen. Zum Kochen bringen, dann die Hitze auf mittel-niedrig reduzieren und köcheln, bis das Hähnchen durchgegart und die Kartoffeln weich sind, etwa 40 Minuten."
+  },
+  "culturalNotes": "Aguadito de Pollo ist eine traditionelle peruanische Suppe, die als leichte Mahlzeit oder Hauptgericht serviert wird. Sie zeichnet sich durch eine Vielfalt an Gemüse- und Gewürzaromen aus.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-002": {
+  "title": "Ají de Gallina",
+  "ingredients": {
+   "w-pe-002-i1": {
+    "name": "hautlose Hühnerbrusthälften mit Knochen",
+    "standardAmount": "2 Pfund"
+   },
+   "w-pe-002-i2": {
+    "name": "Zwiebel",
+    "standardAmount": "1 Zwiebel"
+   },
+   "w-pe-002-i3": {
+    "name": "Karotten",
+    "standardAmount": "2 Karotten"
+   },
+   "w-pe-002-i4": {
+    "name": "Knoblauch",
+    "standardAmount": "4 Zehen"
+   },
+   "w-pe-002-i5": {
+    "name": "Wasser",
+    "standardAmount": "2 Quart"
+   },
+   "w-pe-002-i6": {
+    "name": "Weißbrot",
+    "standardAmount": "1 Laib, Rinde entfernt und gewürfelt"
+   },
+   "w-pe-002-i7": {
+    "name": "Kondensmilch",
+    "standardAmount": "12 flüssige Unzen"
+   },
+   "w-pe-002-i8": {
+    "name": "geriebener Parmesan",
+    "standardAmount": "0.5 Tasse"
+   },
+   "w-pe-002-i9": {
+    "name": "Walnussstücke",
+    "standardAmount": "0.25 Tasse"
+   },
+   "w-pe-002-i10": {
+    "name": "Pflanzenöl",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-pe-002-i11": {
+    "name": "gehackter Knoblauch",
+    "standardAmount": "2 Zehen"
+   },
+   "w-pe-002-i12": {
+    "name": "gehackte Zwiebel",
+    "standardAmount": "1 Zwiebel"
+   },
+   "w-pe-002-i13": {
+    "name": "Aji-Amarillo-Chilipaste",
+    "standardAmount": "2 Teelöffel"
+   },
+   "w-pe-002-i14": {
+    "name": "gemahlener Kurkuma",
+    "standardAmount": "2 Teelöffel"
+   },
+   "w-pe-002-i15": {
+    "name": "hartgekochte Eier, in Scheiben",
+    "standardAmount": "4 Eier"
+   },
+   "w-pe-002-i16": {
+    "name": "Kalamata-Oliven, entsteint und geviertelt",
+    "standardAmount": "0.25 Tasse"
+   }
+  },
+  "instructions": {
+   "1": "Hühnerbrüste, Zwiebel, Karotte und 2 Knoblauchzehen in einen großen Topf geben, 2 Quarts Wasser hineingießen und bei mittlerer bis hoher Hitze langsam zum Köcheln bringen. Den Schaum abschöpfen, der sich oben bildet, dann abdecken, die Hitze auf mittel-niedrig reduzieren und köcheln, bis das Hähnchen zart ist, etwa 30 Minuten. Das Hähnchen auf einen Teller nehmen und abkühlen lassen. Die entstandene Hühnerbrühe abseihen und das Gemüse wegwerfen.",
+   "2": "Kondensmilch und 1/2 Tasse Hühnerbrühe in den Mixbecher geben. Brotwürfel hinzufügen und glatt pürieren. Parmesan und Walnüsse hinzufügen; glatt pürieren. Das abgekühlte Hähnchen zupfen und die Knochen wegwerfen.",
+   "3": "Pflanzenöl in einem großen Topf bei mittlerer Hitze erhitzen. Gehackten Knoblauch und gehackte Zwiebel einrühren; garen, bis die Zwiebel weich und glasig ist, etwa 5 Minuten. Das gezupfte Hähnchen und Aji Amarillo einrühren, bis es heiß ist. Das Brotpüree hineingießen und unter häufigem Rühren heiß kochen. Bei Bedarf mehr Hühnerbrühe hinzufügen, damit es nicht zu dick wird.",
+   "4": "Kurkuma einrühren und weitere 5 Minuten köcheln. Mit hartgekochten Eischeiben garniert servieren und mit Kalamata-Oliven bestreuen."
+  },
+  "culturalNotes": "Ají de Gallina ist ein traditionelles peruanisches Gericht, das oft zu besonderen Anlässen serviert wird.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-003": {
+  "title": "Ajiaco (peruanischer Rindfleisch-Paprika-Eintopf)",
+  "ingredients": {
+   "w-pe-003-i1": {
+    "name": "Rapsöl",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-pe-003-i2": {
+    "name": "geschnittene Schalotten",
+    "standardAmount": "1 Tasse"
+   },
+   "w-pe-003-i3": {
+    "name": "gehackter Knoblauch",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-pe-003-i4": {
+    "name": "rote Paprika, in 1-Zoll-Stücke geschnitten",
+    "standardAmount": "2 Paprikaschoten"
+   },
+   "w-pe-003-i5": {
+    "name": "Chipotle-Chilipulver",
+    "standardAmount": "1.5 Teelöffel"
+   },
+   "w-pe-003-i6": {
+    "name": "gemahlener Kreuzkümmel",
+    "standardAmount": "2 Teelöffel"
+   },
+   "w-pe-003-i7": {
+    "name": "gewürfeltes gegartes Roastbeef",
+    "standardAmount": "3 Tassen"
+   },
+   "w-pe-003-i8": {
+    "name": "kleine rote Kartoffeln, halbiert",
+    "standardAmount": "1 Pfund"
+   },
+   "w-pe-003-i9": {
+    "name": "Wasser",
+    "standardAmount": "2 Tassen"
+   },
+   "w-pe-003-i10": {
+    "name": "Rinderbrühe",
+    "standardAmount": "1 Quart"
+   },
+   "w-pe-003-i11": {
+    "name": "getrockneter Oregano",
+    "standardAmount": "0.5 Teelöffel"
+   },
+   "w-pe-003-i12": {
+    "name": "Salz und Pfeffer nach Geschmack",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-pe-003-i13": {
+    "name": "gehackte Petersilie",
+    "standardAmount": "0.25 Tasse"
+   },
+   "w-pe-003-i14": {
+    "name": "hartgekochte Eier, in 1/4-Zoll-Scheiben",
+    "standardAmount": "2 Eier"
+   }
+  },
+  "instructions": {
+   "1": "Das Rapsöl in einem Schmortopf bei mittlerer Hitze erhitzen. Geschnittene Schalotten, gehackten Knoblauch und rote Paprika hinzufügen. Garen, bis die Schalotten weich und glasig sind, etwa 4 Minuten.",
+   "2": "Chipotle-Chilipulver und Kreuzkümmel hinzufügen. 30 Sekunden garen, bis sie duften.",
+   "3": "Das gegarte Roastbeef und die roten Kartoffeln hinzufügen. Wasser und Rinderbrühe hineingießen. Bei hoher Hitze zum Kochen bringen, dann die Hitze auf mittel-niedrig reduzieren, abdecken und köcheln, bis die Kartoffeln weich sind, etwa 30 Minuten.",
+   "4": "Den Oregano einrühren und mit Salz und Pfeffer abschmecken.",
+   "5": "Die gehackte Petersilie vor dem Servieren einrühren. Jede Schüssel mit ein paar Scheiben hartgekochtem Ei garnieren."
+  },
+  "culturalNotes": "Ajiaco ist ein traditionelles peruanisches Gericht, bekannt für seine reichen Aromen und würzige Schärfe.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-004": {
+  "title": "Anticucho",
+  "ingredients": {
+   "w-pe-004-i1": {
+    "name": "Rinderherz",
+    "standardAmount": "1 Herz"
+   },
+   "w-pe-004-i2": {
+    "name": "Knoblauch",
+    "standardAmount": "2 Zehen"
+   },
+   "w-pe-004-i3": {
+    "name": "gemahlene scharfe rote Chili",
+    "standardAmount": "¼ Tasse"
+   },
+   "w-pe-004-i4": {
+    "name": "brauner Essig",
+    "standardAmount": "2 Tassen"
+   },
+   "w-pe-004-i5": {
+    "name": "gemahlener Kreuzkümmel",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-pe-004-i6": {
+    "name": "Achiote (Annatto)",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-pe-004-i7": {
+    "name": "Salz",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-pe-004-i8": {
+    "name": "gemahlener schwarzer Pfeffer",
+    "standardAmount": "1 Teelöffel"
+   }
+  },
+  "instructions": {
+   "1": "Alle Zutaten außer dem Rinderherz in einer Schüssel gründlich vermischen.",
+   "2": "Das Rinderherz putzen und alles Fett entfernen. In mundgerechte Würfel schneiden. Die Herzstücke in die Marinadenmischung geben und etwa 10 Stunden oder über Nacht marinieren lassen. Das Herz sollte vollständig von der Marinade bedeckt sein.",
+   "3": "Nach dem Marinieren das Fleisch auf Spieße stecken. Auf Wunsch können in diesem Schritt weitere Zutaten wie Paprika oder Maiskolben (in ähnlicher Größe wie das Herz geschnitten) ebenfalls auf die Spieße gesteckt werden.",
+   "4": "Die Spieße auf einem Grill garen, dabei häufig wenden und mit der Marinade bepinseln. Wenn das Fleisch gut durchgegart ist, die Spieße vom Grill nehmen und sofort servieren."
+  },
+  "culturalNotes": "Anticucho ist ein traditionelles Gericht in Peru, das oft als Snack oder bei Feiern serviert wird.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-005": {
+  "title": "Arroz Tapado",
+  "ingredients": {
+   "w-pe-005-i1": {
+    "name": "weißer Reis",
+    "standardAmount": "2 Tassen"
+   },
+   "w-pe-005-i2": {
+    "name": "Wasser",
+    "standardAmount": "4 Tassen"
+   },
+   "w-pe-005-i3": {
+    "name": "Ei",
+    "standardAmount": "1 Ei"
+   },
+   "w-pe-005-i4": {
+    "name": "Kartoffel",
+    "standardAmount": "1 Kartoffel, geschält und gewürfelt"
+   },
+   "w-pe-005-i5": {
+    "name": "Pflanzenöl",
+    "standardAmount": "1 Tasse"
+   },
+   "w-pe-005-i6": {
+    "name": "Tomaten",
+    "standardAmount": "3 kleine Tomaten, grob gehackt"
+   },
+   "w-pe-005-i7": {
+    "name": "Wasser",
+    "standardAmount": "0.5 Tasse"
+   },
+   "w-pe-005-i8": {
+    "name": "Pflanzenöl",
+    "standardAmount": "1 Esslöffel"
+   },
+   "w-pe-005-i9": {
+    "name": "Zwiebel",
+    "standardAmount": "0.5 große Zwiebel, fein gehackt"
+   },
+   "w-pe-005-i10": {
+    "name": "Knoblauch",
+    "standardAmount": "3 Knoblauchzehen, gehackt"
+   },
+   "w-pe-005-i11": {
+    "name": "gemahlene getrocknete Aji-Chili",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-pe-005-i12": {
+    "name": "gemahlener Kreuzkümmel",
+    "standardAmount": "0.5 Teelöffel"
+   },
+   "w-pe-005-i13": {
+    "name": "gemahlener schwarzer Pfeffer",
+    "standardAmount": "0.25 Teelöffel"
+   },
+   "w-pe-005-i14": {
+    "name": "gehackter frischer Oregano",
+    "standardAmount": "2 Teelöffel"
+   },
+   "w-pe-005-i15": {
+    "name": "mageres Rinderhackfleisch",
+    "standardAmount": "1 Pfund"
+   },
+   "w-pe-005-i16": {
+    "name": "Karotten",
+    "standardAmount": "2 große Karotten, geschält und gewürfelt"
+   },
+   "w-pe-005-i17": {
+    "name": "gefrorene Erbsen",
+    "standardAmount": "0.25 Tasse"
+   },
+   "w-pe-005-i18": {
+    "name": "Erdnussbutter",
+    "standardAmount": "1 Esslöffel"
+   },
+   "w-pe-005-i19": {
+    "name": "gehackter frischer Koriander",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-pe-005-i20": {
+    "name": "gehackte frische Tomate",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-pe-005-i21": {
+    "name": "Ketchup",
+    "standardAmount": "1 Teelöffel"
+   }
+  },
+  "instructions": {
+   "1": "Reis und 4 Tassen Wasser in einem Topf bei hoher Hitze zum Kochen bringen. Die Hitze auf mittel-niedrig reduzieren, abdecken und köcheln, bis der Reis gar und die Flüssigkeit aufgenommen ist, 20 bis 25 Minuten.",
+   "2": "Das Ei in einen Topf geben und mit 1 Zoll Wasser bedecken. Den Topf abdecken und das Wasser bei hoher Hitze zum Kochen bringen. Sobald das Wasser kocht, vom Herd nehmen und das Ei 15 Minuten im heißen Wasser stehen lassen. Das heiße Wasser abgießen, dann das Ei unter kaltem fließendem Wasser in der Spüle abkühlen. Nach dem Abkühlen schälen. Das Ei hacken und in einer kleinen Schüssel beiseitestellen.",
+   "3": "1 Tasse Pflanzenöl in einer Fritteuse oder einem großen Topf auf 175 °C erhitzen. Die Kartoffelwürfel goldbraun frittieren, etwa 5 Minuten; auf Küchenpapier abtropfen lassen und beiseitestellen.",
+   "4": "Tomaten und 0,5 Tasse Wasser in einen Mixer geben und pürieren, bis die Tomaten flüssig sind (auf Wunsch vorher schälen und entkernen).",
+   "5": "1 Esslöffel Pflanzenöl in einer großen Pfanne bei mittlerer Hitze erhitzen und Zwiebel, Knoblauch, Aji-Chilipulver, Kreuzkümmel, schwarzen Pfeffer und Oregano garen und rühren, bis die Zwiebel zu bräunen beginnt, 8 bis 10 Minuten; die pürierten Tomaten hineingießen und weitere 5 Minuten unter häufigem Rühren köcheln. Das Hackfleisch und die Karotten untermischen und garen, bis das Fleisch nicht mehr rosa und die Karotten weich sind, etwa 10 Minuten. Das Fleisch beim Garen in kleine Stücke zerteilen. Das gehackte hartgekochte Ei, die Erbsen und die Erdnussbutter untermischen, bis alles gut verbunden ist. Zum Schluss vorsichtig die frittierten Kartoffelwürfel unterrühren.",
+   "6": "Zum Zusammensetzen des Gerichts eine flexible Plastikschüssel (mindestens 1 Tasse groß) einölen und gekochten Reis hineindrücken, bis die Schüssel zu 1/3 gefüllt ist. Etwa 3/4 Zoll Fleischmischung über den Reis schichten und mit weiterem gekochtem Reis auffüllen, bis die Schüssel voll ist. Mit geölter Hand den Reis vorsichtig andrücken, um die Mischung zu verdichten; einen Servierteller auf die Schüssel legen, umdrehen und die Reis-Fleisch-Form herausstürzen. Mit den restlichen Zutaten wiederholen. Jede Portion mit Koriander, gehackter Tomate und Klecksen Ketchup garnieren."
+  },
+  "culturalNotes": "Arroz Tapado ist ein traditionelles peruanisches Gericht, das oft bei besonderen Anlässen und Familientreffen serviert wird.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-006": {
+  "title": "Papa a la Huancaína (Kartoffeln nach Huancayo-Art)",
+  "ingredients": {
+   "w-pe-006-i1": {
+    "name": "Yukon-Gold-Kartoffeln",
+    "standardAmount": "12"
+   },
+   "w-pe-006-i2": {
+    "name": "Olivenöl",
+    "standardAmount": "1 Esslöffel"
+   },
+   "w-pe-006-i3": {
+    "name": "Zwiebel",
+    "standardAmount": "1"
+   },
+   "w-pe-006-i4": {
+    "name": "Chilischoten",
+    "standardAmount": "6"
+   },
+   "w-pe-006-i5": {
+    "name": "Frischkäse",
+    "standardAmount": "1 Pfund"
+   },
+   "w-pe-006-i6": {
+    "name": "Queso fresco",
+    "standardAmount": "1 Pfund"
+   },
+   "w-pe-006-i7": {
+    "name": "Pflanzenöl",
+    "standardAmount": "0.25 Tasse"
+   },
+   "w-pe-006-i8": {
+    "name": "Salz",
+    "standardAmount": "2 Teelöffel"
+   },
+   "w-pe-006-i9": {
+    "name": "Knoblauch",
+    "standardAmount": "1 Zehe"
+   },
+   "w-pe-006-i10": {
+    "name": "gemahlener schwarzer Pfeffer",
+    "standardAmount": "0.5 Teelöffel"
+   },
+   "w-pe-006-i11": {
+    "name": "Kondensmilch",
+    "standardAmount": "0.33 Tasse"
+   },
+   "w-pe-006-i12": {
+    "name": "Salatblätter",
+    "standardAmount": "8 Blätter"
+   },
+   "w-pe-006-i13": {
+    "name": "hartgekochte Eier",
+    "standardAmount": "4 große"
+   },
+   "w-pe-006-i14": {
+    "name": "schwarze Oliven",
+    "standardAmount": "8"
+   }
+  },
+  "instructions": {
+   "1": "Die Kartoffeln in einen großen Topf geben und mit gesalzenem Wasser bedecken. Bei hoher Hitze zum Kochen bringen, dann die Hitze auf mittel-niedrig reduzieren und weich köcheln, etwa 20 Minuten. Abgießen und leicht abkühlen lassen.",
+   "2": "In einer Pfanne bei mittlerer Hitze das Olivenöl erhitzen und die Zwiebel weich garen, etwa 10 Minuten. Vom Herd nehmen.",
+   "3": "In einem kleinen Topf Wasser zum Kochen bringen und die Chilischoten hinzufügen. Weich kochen, etwa 5 Minuten. Die Chilis unter kaltem Wasser abspülen, bis sie kühl genug zum Anfassen sind, dann die Haut abziehen und wegwerfen.",
+   "4": "Zwiebel, Chilischoten, Frischkäse, Queso fresco, Pflanzenöl, Salz, Knoblauch und schwarzen Pfeffer in einen Mixer geben und glatt mixen. Die Kondensmilch bei laufendem Mixer einströmen lassen, bis die Sauce cremig ist.",
+   "5": "Je 1 Salatblatt auf 8 Teller legen. Die Kartoffeln halbieren und je 3 Hälften auf jedem Salatblatt anrichten. Die Sauce über die Kartoffeln gießen. Jede Portion mit einem halben Ei und 2 Hälften schwarzer Oliven belegen."
+  },
+  "culturalNotes": "Papa a la Huancaína ist ein traditionelles peruanisches Gericht, das als Vorspeise oder leichte Mahlzeit serviert wird.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-007": {
+  "title": "Manjar Blanco",
+  "ingredients": {
+   "w-pe-007-i1": {
+    "name": "Wasser",
+    "standardAmount": "1 Tasse"
+   },
+   "w-pe-007-i2": {
+    "name": "Maisstärke",
+    "standardAmount": "0.5 Tasse"
+   },
+   "w-pe-007-i3": {
+    "name": "Kokosmilch",
+    "standardAmount": "1 Tasse"
+   },
+   "w-pe-007-i4": {
+    "name": "weißer Zucker",
+    "standardAmount": "0.5 Tasse"
+   },
+   "w-pe-007-i5": {
+    "name": "frische süße Maiskörner",
+    "standardAmount": "0.25 Tasse"
+   },
+   "w-pe-007-i6": {
+    "name": "gesüßte Kokosraspel",
+    "standardAmount": "0.25 Tasse"
+   }
+  },
+  "instructions": {
+   "1": "Eine 8-Zoll-Backform mit Butter ausstreichen und beiseitestellen.",
+   "2": "0,5 Tasse Wasser und Maisstärke in einer Schüssel glatt verrühren; beiseitestellen.",
+   "3": "Kokosmilch, 0,75 Tasse Wasser und Zucker in einem Topf bei niedriger Hitze verrühren, bis der Zucker aufgelöst ist.",
+   "4": "Die Mischung zum Kochen bringen, die Maiskörner hinzufügen und die Maisstärkemischung einrühren, dabei schnell rühren, um Klumpen zu vermeiden, während sie eindickt.",
+   "5": "Die Mischung wieder zum Kochen bringen und 2 Minuten unter ständigem Rühren köcheln, bis sie dick und glatt ist.",
+   "6": "Das Manjar Blanco in die vorbereitete Form gießen und abkühlen lassen, bis es fest ist, etwa 2 Stunden.",
+   "7": "Die gesüßten Kokosraspel in einer trockenen Pfanne bei mittlerer Hitze rösten. Gut aufpassen, damit sie nicht anbrennen. Die gerösteten Kokosraspel in eine Schüssel geben, abkühlen lassen und vor dem Servieren über den Pudding streuen."
+  },
+  "culturalNotes": "Manjar Blanco ist ein traditionelles peruanisches Dessert, das oft zu besonderen Anlässen serviert wird.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-008": {
+  "title": "Papas Rellenas (gefüllte Kartoffelklöße)",
+  "ingredients": {
+   "w-pe-008-i1": {
+    "name": "Kartoffeln",
+    "standardAmount": "4 große, geschält und gewürfelt"
+   },
+   "w-pe-008-i2": {
+    "name": "Salz",
+    "standardAmount": "1.5 Teelöffel, aufgeteilt"
+   },
+   "w-pe-008-i3": {
+    "name": "Pflanzenöl",
+    "standardAmount": "1 Esslöffel"
+   },
+   "w-pe-008-i4": {
+    "name": "grüne Paprika",
+    "standardAmount": "1 Tasse gehackt"
+   },
+   "w-pe-008-i5": {
+    "name": "Zwiebel",
+    "standardAmount": "1/2 Tasse gehackt"
+   },
+   "w-pe-008-i6": {
+    "name": "Knoblauch",
+    "standardAmount": "3 Zehen, fein gehackt"
+   },
+   "w-pe-008-i7": {
+    "name": "Rinderhackfleisch",
+    "standardAmount": "1 Pfund"
+   },
+   "w-pe-008-i8": {
+    "name": "Tomatenmark",
+    "standardAmount": "4 Teelöffel"
+   },
+   "w-pe-008-i9": {
+    "name": "destillierter weißer Essig",
+    "standardAmount": "1 Esslöffel"
+   },
+   "w-pe-008-i10": {
+    "name": "gemahlener Kreuzkümmel",
+    "standardAmount": "2 Teelöffel"
+   },
+   "w-pe-008-i11": {
+    "name": "gemahlener schwarzer Pfeffer",
+    "standardAmount": "1 Teelöffel"
+   },
+   "w-pe-008-i12": {
+    "name": "Eier",
+    "standardAmount": "4 große"
+   },
+   "w-pe-008-i13": {
+    "name": "Paniermehl",
+    "standardAmount": "2 Tassen"
+   },
+   "w-pe-008-i14": {
+    "name": "Allzweckmehl",
+    "standardAmount": "1 Tasse"
+   },
+   "w-pe-008-i15": {
+    "name": "Pflanzenöl zum Frittieren",
+    "standardAmount": "1 Quart"
+   }
+  },
+  "instructions": {
+   "1": "Kartoffeln in einen großen Topf geben; mit gesalzenem Wasser bedecken. Bei hoher Hitze zum Kochen bringen, dann die Hitze auf mittel-niedrig reduzieren, abdecken und weich köcheln, etwa 20 Minuten. Abgießen und 1 bis 2 Minuten abdämpfen lassen. Die Kartoffeln mit 1/2 Teelöffel Salz in einer Schüssel stampfen, bis keine Klumpen mehr da sind. Beiseitestellen und auf Raumtemperatur abkühlen lassen.",
+   "2": "In der Zwischenzeit Pflanzenöl in einer großen Pfanne bei mittlerer Hitze erhitzen. Grüne Paprika, Zwiebel und Knoblauch in der heißen Pfanne garen und rühren, bis die Zwiebel weich und glasig ist, etwa 10 Minuten.",
+   "3": "Die Hitze auf mittel-hoch erhöhen; das Hackfleisch einrühren. Garen und rühren, bis das Rindfleisch krümelig und nicht mehr rosa ist. Tomatenmark, Essig, Kreuzkümmel, 1 Teelöffel Salz und Pfeffer einrühren, bis das Tomatenmark aufgelöst ist. Die Fleischmischung in eine Schüssel geben; auf Raumtemperatur abkühlen lassen.",
+   "4": "Ein Backblech mit Frischhaltefolie oder Wachspapier auslegen; beiseitestellen. Die Eier in einer Rührschüssel verquirlen; beiseitestellen. Paniermehl und Mehl in separate flache Schüsseln geben; beiseitestellen.",
+   "5": "Eine Handvoll Kartoffelpüree nehmen (etwa 1/12 des Kartoffelpürees); in 2 gleiche Teile teilen. Jedes Stück zu einer kleinen Schüsselform formen und jeweils mit Fleischmischung füllen. Die Hälften zusammenlegen, die Ränder verschließen und zu einer runden Kugel glätten. Diesen Schritt mit den restlichen Kartoffeln und der Fleischmischung wiederholen.",
+   "6": "Nacheinander die Kartoffelkugeln vorsichtig in Mehl wälzen; den Überschuss abschütteln. In das verquirlte Ei tauchen, dann in Paniermehl wälzen. Vorsichtig zwischen den Händen hin und her werfen, damit nicht haftendes Paniermehl abfallen kann. Die panierten Kartoffelkugeln auf das vorbereitete Backblech legen. 2 bis 4 Stunden kühlen oder für später einfrieren.",
+   "7": "Öl in einer Fritteuse oder einem großen Topf auf 175 °C erhitzen.",
+   "8": "Die Kartoffelkugeln portionsweise im heißen Öl garen und mit einer Zange wenden, damit sie gleichmäßig bräunen, bis sie knusprig und goldbraun sind, etwa 3 Minuten pro Portion. Auf einem mit Küchenpapier ausgelegten Teller abtropfen lassen."
+  },
+  "culturalNotes": "Papas Rellenas ist ein traditionelles peruanisches Gericht, das als Hauptgericht oder Vorspeise serviert wird.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-009": {
+  "title": "Pastel de Choclo (Maisauflauf)",
+  "ingredients": {
+   "w-pe-009-i1": {
+    "name": "Eier",
+    "standardAmount": "2 Eier"
+   },
+   "w-pe-009-i2": {
+    "name": "Pflanzenöl",
+    "standardAmount": "1 Esslöffel"
+   },
+   "w-pe-009-i3": {
+    "name": "Zwiebeln",
+    "standardAmount": "2 Zwiebeln, gehackt"
+   },
+   "w-pe-009-i4": {
+    "name": "Knoblauch",
+    "standardAmount": "2 Zehen fein gehackt"
+   },
+   "w-pe-009-i5": {
+    "name": "Salz",
+    "standardAmount": "1 Teelöffel + nach Geschmack"
+   },
+   "w-pe-009-i6": {
+    "name": "Paprika",
+    "standardAmount": "0.5 Teelöffel + nach Geschmack"
+   },
+   "w-pe-009-i7": {
+    "name": "schwarzer Pfeffer",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-pe-009-i8": {
+    "name": "Rinderhackfleisch",
+    "standardAmount": "1 Pfund"
+   },
+   "w-pe-009-i9": {
+    "name": "gegrilltes Hähnchen",
+    "standardAmount": "0.5 gegrilltes Hähnchen, gehackt"
+   },
+   "w-pe-009-i10": {
+    "name": "Rosinen",
+    "standardAmount": "1.5 Esslöffel"
+   },
+   "w-pe-009-i11": {
+    "name": "Kalamata-Oliven",
+    "standardAmount": "1.5 Esslöffel"
+   },
+   "w-pe-009-i12": {
+    "name": "Zuckermais",
+    "standardAmount": "3 Dosen (à 15,25 Unzen)"
+   },
+   "w-pe-009-i13": {
+    "name": "getrockneter Basilikum",
+    "standardAmount": "2 Teelöffel"
+   },
+   "w-pe-009-i14": {
+    "name": "Butter",
+    "standardAmount": "1 Esslöffel"
+   },
+   "w-pe-009-i15": {
+    "name": "Milch",
+    "standardAmount": "1 Tasse"
+   },
+   "w-pe-009-i16": {
+    "name": "weißer Zucker",
+    "standardAmount": "2 Teelöffel + nach Geschmack"
+   }
+  },
+  "instructions": {
+   "1": "Die Eier in einen Topf geben und mit Wasser bedecken. Zum Kochen bringen, dann vom Herd nehmen und die Eier 15 Minuten im heißen Wasser stehen lassen.",
+   "2": "In einer Pfanne bei mittlerer Hitze Öl, Zwiebeln, Knoblauch, eine Prise Salz, ¼ Teelöffel Paprika und schwarzen Pfeffer geben. Braten, bis es duftet, etwa 2 Minuten.",
+   "3": "Das Hackfleisch, den restlichen 1 Teelöffel Salz, den restlichen ¼ Teelöffel Paprika und schwarzen Pfeffer hinzufügen. Garen und rühren, bis das Rindfleisch größtenteils gebräunt ist, etwa 5 Minuten.",
+   "4": "Hähnchen, Rosinen und Oliven hinzufügen. Gut vermischen.",
+   "5": "Die Eier aus dem heißen Wasser nehmen, unter kaltem fließendem Wasser abkühlen, dann schälen und grob hacken. Zur Fleischmischung geben. Den Pino warm halten.",
+   "6": "Mais und Basilikum in einem Mixer oder einer Küchenmaschine glatt pürieren. In einen Topf bei mittlerer Hitze gießen. Butter hinzufügen und unter Rühren eindicken lassen, 7 bis 10 Minuten.",
+   "7": "Milch, Zucker und Salz hinzufügen. Kochen, bis es zu einer Paste eingedickt ist, etwa 15 Minuten mehr.",
+   "8": "Den Ofen auf 175 °C vorheizen.",
+   "9": "Den Pino in einer Auflaufform verteilen. Mit der Maispaste bedecken und oben etwas Zucker bestreuen.",
+   "10": "Im vorgeheizten Ofen backen, bis die Oberfläche goldbraun ist, etwa 20 Minuten."
+  },
+  "culturalNotes": "Pastel de Choclo ist ein traditionelles peruanisches Gericht, das oft bei besonderen Anlässen und Familientreffen serviert wird.",
+  "chapter": "مطبخ بيرو"
  }
 }

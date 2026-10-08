@@ -123423,5 +123423,632 @@
   },
   "culturalNotes": "Il paratha è un piatto tradizionale indiano, spesso servito come colazione o pranzo leggero.",
   "chapter": "مطبخ الهند"
+ },
+ "w-pe-001": {
+  "title": "Zuppa di pollo peruviana (Aguadito de Pollo)",
+  "ingredients": {
+   "w-pe-001-i1": {
+    "name": "metà di petto di pollo senza pelle e disossate",
+    "standardAmount": "4 metà - tagliate a metà"
+   },
+   "w-pe-001-i2": {
+    "name": "sale e pepe",
+    "standardAmount": "a piacere"
+   },
+   "w-pe-001-i3": {
+    "name": "olio d'oliva",
+    "standardAmount": "0.5 tazza"
+   },
+   "w-pe-001-i4": {
+    "name": "cipolla tritata",
+    "standardAmount": "1 cipolla media"
+   },
+   "w-pe-001-i5": {
+    "name": "aglio tritato",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-pe-001-i6": {
+    "name": "peperoncino serrano privato dei semi e tritato",
+    "standardAmount": "1 cucchiaio"
+   },
+   "w-pe-001-i7": {
+    "name": "coriandolo tritato",
+    "standardAmount": "0.5 tazza"
+   },
+   "w-pe-001-i8": {
+    "name": "piselli",
+    "standardAmount": "1 tazza"
+   },
+   "w-pe-001-i9": {
+    "name": "mais",
+    "standardAmount": "1 tazza"
+   },
+   "w-pe-001-i10": {
+    "name": "peperone rosso tritato",
+    "standardAmount": "0.5 peperone rosso"
+   },
+   "w-pe-001-i11": {
+    "name": "brodo di pollo",
+    "standardAmount": "10 tazze"
+   },
+   "w-pe-001-i12": {
+    "name": "patate",
+    "standardAmount": "4 patate Yukon Gold - tagliate a metà"
+   },
+   "w-pe-001-i13": {
+    "name": "riso bianco crudo",
+    "standardAmount": "1 tazza"
+   }
+  },
+  "instructions": {
+   "1": "Condite i petti di pollo con sale e pepe.",
+   "2": "Scaldate l'olio d'oliva in una pentola grande e pesante a fuoco medio-alto. Aggiungete la cipolla, l'aglio e il peperoncino serrano e cuocete finché la cipolla si è ammorbidita, circa 1 minuto.",
+   "3": "Aggiungete il pollo e continuate a cuocere per 5 minuti.",
+   "4": "Unite il coriandolo, i piselli, il mais e il peperone rosso; cuocete per 1 minuto.",
+   "5": "Versate il brodo di pollo, le patate e il riso. Portate a bollore, poi abbassate il fuoco a medio-basso e fate sobbollire finché il pollo è opaco e le patate tenere, circa 40 minuti."
+  },
+  "culturalNotes": "L'Aguadito de Pollo è una zuppa tradizionale peruviana servita come pasto leggero o piatto principale. Si caratterizza per una varietà di sapori di verdure e spezie.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-002": {
+  "title": "Ají de Gallina",
+  "ingredients": {
+   "w-pe-002-i1": {
+    "name": "metà di petto di pollo senza pelle con l'osso",
+    "standardAmount": "2 libbre"
+   },
+   "w-pe-002-i2": {
+    "name": "cipolla",
+    "standardAmount": "1 cipolla"
+   },
+   "w-pe-002-i3": {
+    "name": "carote",
+    "standardAmount": "2 carote"
+   },
+   "w-pe-002-i4": {
+    "name": "aglio",
+    "standardAmount": "4 spicchi"
+   },
+   "w-pe-002-i5": {
+    "name": "acqua",
+    "standardAmount": "2 quarti"
+   },
+   "w-pe-002-i6": {
+    "name": "pane bianco",
+    "standardAmount": "1 pagnotta, croste rimosse e a cubetti"
+   },
+   "w-pe-002-i7": {
+    "name": "latte evaporato",
+    "standardAmount": "12 once liquide"
+   },
+   "w-pe-002-i8": {
+    "name": "parmigiano grattugiato",
+    "standardAmount": "0.5 tazza"
+   },
+   "w-pe-002-i9": {
+    "name": "pezzi di noce",
+    "standardAmount": "0.25 tazza"
+   },
+   "w-pe-002-i10": {
+    "name": "olio vegetale",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-pe-002-i11": {
+    "name": "aglio tritato",
+    "standardAmount": "2 spicchi"
+   },
+   "w-pe-002-i12": {
+    "name": "cipolla tritata",
+    "standardAmount": "1 cipolla"
+   },
+   "w-pe-002-i13": {
+    "name": "pasta di peperoncino aji amarillo",
+    "standardAmount": "2 cucchiaini"
+   },
+   "w-pe-002-i14": {
+    "name": "curcuma macinata",
+    "standardAmount": "2 cucchiaini"
+   },
+   "w-pe-002-i15": {
+    "name": "uova sode, a fette",
+    "standardAmount": "4 uova"
+   },
+   "w-pe-002-i16": {
+    "name": "olive kalamata, snocciolate e tagliate in quattro",
+    "standardAmount": "0.25 tazza"
+   }
+  },
+  "instructions": {
+   "1": "Mettete i petti di pollo, la cipolla, la carota e 2 spicchi d'aglio in una pentola grande, versate 2 quarti d'acqua e portate lentamente a sobbollire a fuoco medio-alto. Togliete la schiuma che si forma in superficie, poi coprite, abbassate il fuoco a medio-basso e fate sobbollire finché il pollo è tenero, circa 30 minuti. Trasferite il pollo su un piatto e lasciate raffreddare. Filtrate il brodo di pollo ottenuto, eliminando le verdure.",
+   "2": "Versate il latte evaporato e 1/2 tazza di brodo di pollo nel boccale di un frullatore. Aggiungete i cubetti di pane e frullate fino a ottenere un composto liscio. Aggiungete il parmigiano e le noci; frullate fino a ottenere un composto liscio. Sfibrate il pollo raffreddato ed eliminate le ossa.",
+   "3": "Scaldate l'olio vegetale in una pentola grande a fuoco medio. Unite l'aglio tritato e la cipolla tritata; cuocete finché la cipolla si è ammorbidita ed è diventata traslucida, circa 5 minuti. Unite il pollo sfilacciato e l'aji amarillo finché è caldo. Versate la purea di pane e cuocete finché è calda, mescolando spesso. Aggiungete altro brodo di pollo se necessario per evitare che diventi troppo denso.",
+   "4": "Unite la curcuma e fate sobbollire altri 5 minuti. Servite guarnito con fette di uovo sodo e cosparso di olive kalamata."
+  },
+  "culturalNotes": "L'Ají de Gallina è un piatto tradizionale peruviano spesso servito in occasioni speciali.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-003": {
+  "title": "Ajiaco (stufato peruviano di manzo e peperoni)",
+  "ingredients": {
+   "w-pe-003-i1": {
+    "name": "olio di canola",
+    "standardAmount": "2 cucchiai"
+   },
+   "w-pe-003-i2": {
+    "name": "scalogno affettato",
+    "standardAmount": "1 tazza"
+   },
+   "w-pe-003-i3": {
+    "name": "aglio tritato",
+    "standardAmount": "2 cucchiai"
+   },
+   "w-pe-003-i4": {
+    "name": "peperoni rossi, tagliati a pezzi di 1 pollice",
+    "standardAmount": "2 peperoni"
+   },
+   "w-pe-003-i5": {
+    "name": "peperoncino chipotle in polvere",
+    "standardAmount": "1.5 cucchiaini"
+   },
+   "w-pe-003-i6": {
+    "name": "cumino macinato",
+    "standardAmount": "2 cucchiaini"
+   },
+   "w-pe-003-i7": {
+    "name": "roast beef cotto a cubetti",
+    "standardAmount": "3 tazze"
+   },
+   "w-pe-003-i8": {
+    "name": "patate rosse novelle, tagliate a metà",
+    "standardAmount": "1 libbra"
+   },
+   "w-pe-003-i9": {
+    "name": "acqua",
+    "standardAmount": "2 tazze"
+   },
+   "w-pe-003-i10": {
+    "name": "brodo di manzo",
+    "standardAmount": "1 quarto"
+   },
+   "w-pe-003-i11": {
+    "name": "origano secco",
+    "standardAmount": "0.5 cucchiaino"
+   },
+   "w-pe-003-i12": {
+    "name": "sale e pepe a piacere",
+    "standardAmount": "a piacere"
+   },
+   "w-pe-003-i13": {
+    "name": "prezzemolo tritato",
+    "standardAmount": "0.25 tazza"
+   },
+   "w-pe-003-i14": {
+    "name": "uova sode, a fette di ¼ di pollice",
+    "standardAmount": "2 uova"
+   }
+  },
+  "instructions": {
+   "1": "Scaldate l'olio di canola in una casseruola a fuoco medio. Aggiungete lo scalogno affettato, l'aglio tritato e i peperoni rossi. Cuocete finché lo scalogno si è ammorbidito ed è diventato traslucido, circa 4 minuti.",
+   "2": "Aggiungete la polvere di chipotle e il cumino. Cuocete 30 secondi finché sono profumati.",
+   "3": "Aggiungete il roast beef cotto e le patate rosse. Versate l'acqua e il brodo di manzo. Portate a bollore a fuoco alto, poi abbassate il fuoco a medio-basso, coprite e fate sobbollire finché le patate sono tenere, circa 30 minuti.",
+   "4": "Unite l'origano e condite a piacere con sale e pepe.",
+   "5": "Unite il prezzemolo tritato prima di servire. Guarnite ogni ciotola con qualche fetta di uovo sodo."
+  },
+  "culturalNotes": "L'Ajiaco è un piatto tradizionale peruviano noto per i suoi sapori ricchi e il tocco piccante.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-004": {
+  "title": "Anticucho",
+  "ingredients": {
+   "w-pe-004-i1": {
+    "name": "cuore di manzo",
+    "standardAmount": "1 cuore"
+   },
+   "w-pe-004-i2": {
+    "name": "aglio",
+    "standardAmount": "2 spicchi"
+   },
+   "w-pe-004-i3": {
+    "name": "peperoncino rosso piccante macinato",
+    "standardAmount": "¼ tazza"
+   },
+   "w-pe-004-i4": {
+    "name": "aceto bruno",
+    "standardAmount": "2 tazze"
+   },
+   "w-pe-004-i5": {
+    "name": "cumino macinato",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-pe-004-i6": {
+    "name": "achiote (annatto)",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-pe-004-i7": {
+    "name": "sale",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-pe-004-i8": {
+    "name": "pepe nero macinato",
+    "standardAmount": "1 cucchiaino"
+   }
+  },
+  "instructions": {
+   "1": "Mettete tutti gli ingredienti, tranne il cuore di manzo, in una ciotola e mescolate bene.",
+   "2": "Pulite il cuore di manzo eliminando tutto il grasso. Tagliatelo a cubetti della dimensione di un boccone. Mettete i pezzi di cuore nella miscela della marinata e lasciate marinare per circa 10 ore o per una notte. Il cuore deve essere completamente coperto dalla marinata.",
+   "3": "Dopo la marinata, infilate la carne negli spiedini. Se desiderato, a questo punto si possono aggiungere agli spiedini anche altri ingredienti come peperoni o pannocchie (tagliati di dimensioni simili al cuore).",
+   "4": "Cuocete gli spiedini su una griglia barbecue, girandoli spesso e spennellandoli con la miscela della marinata. Quando la carne è ben cotta, togliete gli spiedini dalla griglia e servite subito."
+  },
+  "culturalNotes": "L'Anticucho è un piatto tradizionale del Perù, spesso servito come spuntino o nelle celebrazioni.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-005": {
+  "title": "Arroz Tapado",
+  "ingredients": {
+   "w-pe-005-i1": {
+    "name": "riso bianco",
+    "standardAmount": "2 tazze"
+   },
+   "w-pe-005-i2": {
+    "name": "acqua",
+    "standardAmount": "4 tazze"
+   },
+   "w-pe-005-i3": {
+    "name": "uovo",
+    "standardAmount": "1 uovo"
+   },
+   "w-pe-005-i4": {
+    "name": "patata",
+    "standardAmount": "1 patata, pelato e a cubetti"
+   },
+   "w-pe-005-i5": {
+    "name": "olio vegetale",
+    "standardAmount": "1 tazza"
+   },
+   "w-pe-005-i6": {
+    "name": "pomodori",
+    "standardAmount": "3 pomodori piccoli, tritati grossolanamente"
+   },
+   "w-pe-005-i7": {
+    "name": "acqua",
+    "standardAmount": "0.5 tazza"
+   },
+   "w-pe-005-i8": {
+    "name": "olio vegetale",
+    "standardAmount": "1 cucchiaio"
+   },
+   "w-pe-005-i9": {
+    "name": "cipolla",
+    "standardAmount": "0.5 grande cipolla, tritato finemente"
+   },
+   "w-pe-005-i10": {
+    "name": "aglio",
+    "standardAmount": "3 spicchi d'aglio, tritato"
+   },
+   "w-pe-005-i11": {
+    "name": "peperoncino aji essiccato macinato",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-pe-005-i12": {
+    "name": "cumino macinato",
+    "standardAmount": "0.5 cucchiaino"
+   },
+   "w-pe-005-i13": {
+    "name": "pepe nero macinato",
+    "standardAmount": "0.25 cucchiaino"
+   },
+   "w-pe-005-i14": {
+    "name": "origano fresco tritato",
+    "standardAmount": "2 cucchiaini"
+   },
+   "w-pe-005-i15": {
+    "name": "carne macinata di manzo magra",
+    "standardAmount": "1 libbra"
+   },
+   "w-pe-005-i16": {
+    "name": "carote",
+    "standardAmount": "2 grande carote, pelato e a cubetti"
+   },
+   "w-pe-005-i17": {
+    "name": "piselli surgelati",
+    "standardAmount": "0.25 tazza"
+   },
+   "w-pe-005-i18": {
+    "name": "burro di arachidi",
+    "standardAmount": "1 cucchiaio"
+   },
+   "w-pe-005-i19": {
+    "name": "coriandolo fresco tritato",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-pe-005-i20": {
+    "name": "pomodoro fresco tritato",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-pe-005-i21": {
+    "name": "ketchup",
+    "standardAmount": "1 cucchiaino"
+   }
+  },
+  "instructions": {
+   "1": "Portate a bollore il riso e 4 tazze d'acqua in una casseruola a fuoco alto. Abbassate il fuoco a medio-basso, coprite e fate sobbollire finché il riso è tenero e il liquido è stato assorbito, da 20 a 25 minuti.",
+   "2": "Mettete l'uovo in una casseruola e copritelo con 1 pollice d'acqua. Coprite la casseruola e portate l'acqua a bollore a fuoco alto. Quando l'acqua bolle, togliete dal fuoco e lasciate riposare l'uovo nell'acqua calda per 15 minuti. Versate via l'acqua calda, poi raffreddate l'uovo sotto l'acqua fredda corrente nel lavello. Sgusciate una volta freddo. Tritate l'uovo e mettete da parte in una ciotolina.",
+   "3": "Scaldate 1 tazza di olio vegetale in una friggitrice o pentola grande a 175 gradi C. Friggete i cubetti di patata finché sono dorati, circa 5 minuti; scolate su carta assorbente e mettete da parte.",
+   "4": "Mettete i pomodori e 0,5 tazza d'acqua in un frullatore e frullate finché i pomodori sono liquefatti (pelateli e privateli dei semi prima, se desiderato).",
+   "5": "Scaldate 1 cucchiaio di olio vegetale in una padella grande a fuoco medio, e cuocete e mescolate la cipolla, l'aglio, la polvere di peperoncino aji, il cumino, il pepe nero e l'origano finché la cipolla inizia a dorarsi, da 8 a 10 minuti; versate i pomodori frullati e fate sobbollire altri 5 minuti, mescolando spesso. Unite la carne macinata e le carote, e cuocete finché la carne non è più rosa e le carote sono tenere, circa 10 minuti. Sbriciolate la carne in piccoli pezzi mentre cuoce. Unite l'uovo sodo tritato, i piselli e il burro di arachidi finché sono ben amalgamati. Infine, unite delicatamente i cubetti di patata fritti.",
+   "6": "Per comporre il piatto, oliate una ciotola di plastica flessibile (di almeno 1 tazza) e pressate il riso cotto sul fondo per riempire 1/3 della ciotola. Stendete circa ¾ di pollice di miscela di carne sul riso, e coprite con altro riso cotto per riempire la ciotola. Con una mano oliata, premete delicatamente il riso per compattare la miscela; mettete un piatto da portata sopra la ciotola, capovolgete e sformate la forma di riso e carne. Ripetete con gli ingredienti rimanenti. Guarnite ogni porzione con coriandolo, pomodoro tritato e ciuffi di ketchup."
+  },
+  "culturalNotes": "L'Arroz Tapado è un piatto tradizionale peruviano, spesso servito in occasioni speciali e riunioni di famiglia.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-006": {
+  "title": "Papa a la Huancaína",
+  "ingredients": {
+   "w-pe-006-i1": {
+    "name": "patate Yukon Gold",
+    "standardAmount": "12"
+   },
+   "w-pe-006-i2": {
+    "name": "olio d'oliva",
+    "standardAmount": "1 cucchiaio"
+   },
+   "w-pe-006-i3": {
+    "name": "cipolla",
+    "standardAmount": "1"
+   },
+   "w-pe-006-i4": {
+    "name": "peperoncini",
+    "standardAmount": "6"
+   },
+   "w-pe-006-i5": {
+    "name": "formaggio cremoso",
+    "standardAmount": "1 libbra"
+   },
+   "w-pe-006-i6": {
+    "name": "queso fresco",
+    "standardAmount": "1 libbra"
+   },
+   "w-pe-006-i7": {
+    "name": "olio vegetale",
+    "standardAmount": "0.25 tazza"
+   },
+   "w-pe-006-i8": {
+    "name": "sale",
+    "standardAmount": "2 cucchiaini"
+   },
+   "w-pe-006-i9": {
+    "name": "aglio",
+    "standardAmount": "1 spicchio"
+   },
+   "w-pe-006-i10": {
+    "name": "pepe nero macinato",
+    "standardAmount": "0.5 cucchiaino"
+   },
+   "w-pe-006-i11": {
+    "name": "latte evaporato",
+    "standardAmount": "0.33 tazza"
+   },
+   "w-pe-006-i12": {
+    "name": "foglie di lattuga",
+    "standardAmount": "8 foglie"
+   },
+   "w-pe-006-i13": {
+    "name": "uova sode",
+    "standardAmount": "4 grande"
+   },
+   "w-pe-006-i14": {
+    "name": "olive nere",
+    "standardAmount": "8"
+   }
+  },
+  "instructions": {
+   "1": "Mettete le patate in una pentola grande e copritele con acqua salata. Portate a bollore a fuoco alto, poi abbassate il fuoco a medio-basso e fate sobbollire finché sono tenere, circa 20 minuti. Scolate e lasciate raffreddare leggermente.",
+   "2": "In una padella a fuoco medio, scaldate l'olio d'oliva e cuocete la cipolla finché è tenera, circa 10 minuti. Togliete dal fuoco.",
+   "3": "In una casseruola piccola, portate l'acqua a bollore e aggiungete i peperoncini. Fate bollire finché sono morbidi, circa 5 minuti. Passate i peperoncini sotto l'acqua fredda finché si possono maneggiare, poi togliete ed eliminate la pelle.",
+   "4": "Aggiungete al frullatore la cipolla, i peperoncini, il formaggio cremoso, il queso fresco, l'olio vegetale, il sale, l'aglio e il pepe nero e frullate fino a ottenere un composto liscio. Versate il latte evaporato a filo con il frullatore in funzione finché la salsa è cremosa.",
+   "5": "Disponete 1 foglia di lattuga su ciascuno degli 8 piatti. Dimezzate le patate e disponete 3 metà su ogni foglia di lattuga. Versate la salsa sulle patate. Completate ogni porzione con mezzo uovo e 2 metà di olive nere."
+  },
+  "culturalNotes": "La Papa a la Huancaína è un piatto tradizionale peruviano servito come antipasto o pasto leggero.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-007": {
+  "title": "Manjar Blanco",
+  "ingredients": {
+   "w-pe-007-i1": {
+    "name": "acqua",
+    "standardAmount": "1 tazza"
+   },
+   "w-pe-007-i2": {
+    "name": "amido di mais",
+    "standardAmount": "0.5 tazza"
+   },
+   "w-pe-007-i3": {
+    "name": "latte di cocco",
+    "standardAmount": "1 tazza"
+   },
+   "w-pe-007-i4": {
+    "name": "zucchero bianco",
+    "standardAmount": "0.5 tazza"
+   },
+   "w-pe-007-i5": {
+    "name": "chicchi di mais dolce freschi",
+    "standardAmount": "0.25 tazza"
+   },
+   "w-pe-007-i6": {
+    "name": "cocco grattugiato zuccherato",
+    "standardAmount": "0.25 tazza"
+   }
+  },
+  "instructions": {
+   "1": "Imburrate uno stampo da 8 pollici e mettete da parte.",
+   "2": "Mescolate 0,5 tazza d'acqua e l'amido di mais in una ciotola finché è liscio; mettete da parte.",
+   "3": "Unite il latte di cocco, 0,75 tazza d'acqua e lo zucchero in una casseruola a fuoco basso e mescolate finché lo zucchero è sciolto.",
+   "4": "Portate la miscela a bollore, aggiungete i chicchi di mais e unite la miscela di amido, mescolando rapidamente per evitare grumi mentre si addensa.",
+   "5": "Riportate la miscela a bollore e fate sobbollire per 2 minuti, mescolando costantemente finché è densa e liscia.",
+   "6": "Versate il manjar blanco nello stampo preparato e lasciate raffreddare finché è sodo, circa 2 ore.",
+   "7": "Mettete il cocco grattugiato zuccherato in una padella asciutta a fuoco medio e mescolate per tostarlo. Attenzione a non farlo bruciare. Trasferite il cocco tostato in una ciotola, lasciate raffreddare e cospargete sul budino prima di servire."
+  },
+  "culturalNotes": "Il Manjar Blanco è un dessert tradizionale peruviano, spesso servito in occasioni speciali.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-008": {
+  "title": "Papas Rellenas (polpette di patate ripiene fritte)",
+  "ingredients": {
+   "w-pe-008-i1": {
+    "name": "patate",
+    "standardAmount": "4 grande, pelato e a cubetti"
+   },
+   "w-pe-008-i2": {
+    "name": "sale",
+    "standardAmount": "1.5 cucchiaini, diviso"
+   },
+   "w-pe-008-i3": {
+    "name": "olio vegetale",
+    "standardAmount": "1 cucchiaio"
+   },
+   "w-pe-008-i4": {
+    "name": "peperone verde",
+    "standardAmount": "1 tazza tritato"
+   },
+   "w-pe-008-i5": {
+    "name": "cipolla",
+    "standardAmount": "1/2 tazza tritato"
+   },
+   "w-pe-008-i6": {
+    "name": "aglio",
+    "standardAmount": "3 spicchi, tritato"
+   },
+   "w-pe-008-i7": {
+    "name": "carne macinata di manzo",
+    "standardAmount": "1 libbra"
+   },
+   "w-pe-008-i8": {
+    "name": "concentrato di pomodoro",
+    "standardAmount": "4 cucchiaini"
+   },
+   "w-pe-008-i9": {
+    "name": "aceto bianco distillato",
+    "standardAmount": "1 cucchiaio"
+   },
+   "w-pe-008-i10": {
+    "name": "cumino macinato",
+    "standardAmount": "2 cucchiaini"
+   },
+   "w-pe-008-i11": {
+    "name": "pepe nero macinato",
+    "standardAmount": "1 cucchiaino"
+   },
+   "w-pe-008-i12": {
+    "name": "uova",
+    "standardAmount": "4 grande"
+   },
+   "w-pe-008-i13": {
+    "name": "pangrattato",
+    "standardAmount": "2 tazze"
+   },
+   "w-pe-008-i14": {
+    "name": "farina 00",
+    "standardAmount": "1 tazza"
+   },
+   "w-pe-008-i15": {
+    "name": "olio vegetale per friggere",
+    "standardAmount": "1 quarto"
+   }
+  },
+  "instructions": {
+   "1": "Mettete le patate in una pentola grande; copritele con acqua salata. Portate a bollore a fuoco alto, poi abbassate il fuoco a medio-basso, coprite e fate sobbollire finché sono tenere, circa 20 minuti. Scolate e lasciate asciugare al vapore per 1-2 minuti. Schiacciate le patate con 1/2 cucchiaino di sale in una ciotola finché non restano grumi. Mettete da parte a raffreddare a temperatura ambiente.",
+   "2": "Nel frattempo, scaldate l'olio vegetale in una padella grande a fuoco medio. Cuocete e mescolate il peperone verde, la cipolla e l'aglio nella padella calda finché la cipolla si è ammorbidita ed è diventata traslucida, circa 10 minuti.",
+   "3": "Alzate il fuoco a medio-alto; unite la carne macinata. Cuocete e mescolate finché il manzo è sbriciolato e non è più rosa. Unite il concentrato di pomodoro, l'aceto, il cumino, 1 cucchiaino di sale e il pepe finché il concentrato si è sciolto. Trasferite la miscela di carne in una ciotola; lasciate raffreddare a temperatura ambiente.",
+   "4": "Foderate una teglia con pellicola o carta oleata; mettete da parte. Sbattete le uova in una ciotola; mettete da parte. Versate il pangrattato e la farina in piatti fondi separati; mettete da parte.",
+   "5": "Prendete una manciata di purè di patate (circa 1/12 del purè); dividetelo in 2 porzioni uguali. Formate ogni pezzo a coppetta e riempitela con la miscela di carne. Unite le due metà, sigillate i bordi e lisciate per formare una palla rotonda. Ripetete questo passaggio con le patate e la miscela di carne rimanenti.",
+   "6": "Una alla volta, rotolate delicatamente le polpette di patate nella farina per ricoprirle; scuotete l'eccesso. Immergetele nell'uovo sbattuto, poi rotolatele nel pangrattato. Passatele delicatamente tra le mani in modo che il pangrattato non attaccato cada. Disponete le polpette impanate sulla teglia preparata. Refrigerate da 2 a 4 ore o congelate per usarle dopo.",
+   "7": "Scaldate l'olio in una friggitrice o pentola grande a 175 gradi C.",
+   "8": "Cuocete le polpette di patate nell'olio caldo a gruppi, rotolandole con le pinze mentre cuociono per una doratura uniforme, finché sono croccanti e dorate, circa 3 minuti a gruppo. Scolate su un piatto foderato di carta assorbente."
+  },
+  "culturalNotes": "Le Papas Rellenas sono un piatto tradizionale peruviano servito come piatto principale o come antipasto.",
+  "chapter": "مطبخ بيرو"
+ },
+ "w-pe-009": {
+  "title": "Pastel de Choclo",
+  "ingredients": {
+   "w-pe-009-i1": {
+    "name": "uova",
+    "standardAmount": "2 uova"
+   },
+   "w-pe-009-i2": {
+    "name": "olio vegetale",
+    "standardAmount": "1 cucchiaio"
+   },
+   "w-pe-009-i3": {
+    "name": "cipolle",
+    "standardAmount": "2 cipolle, tritato"
+   },
+   "w-pe-009-i4": {
+    "name": "aglio",
+    "standardAmount": "2 spicchi tritato"
+   },
+   "w-pe-009-i5": {
+    "name": "sale",
+    "standardAmount": "1 cucchiaino + a piacere"
+   },
+   "w-pe-009-i6": {
+    "name": "paprika",
+    "standardAmount": "0.5 cucchiaino + a piacere"
+   },
+   "w-pe-009-i7": {
+    "name": "pepe nero",
+    "standardAmount": "a piacere"
+   },
+   "w-pe-009-i8": {
+    "name": "carne macinata di manzo",
+    "standardAmount": "1 libbra"
+   },
+   "w-pe-009-i9": {
+    "name": "pollo grigliato",
+    "standardAmount": "0.5 pollo grigliato, tritato"
+   },
+   "w-pe-009-i10": {
+    "name": "uvetta",
+    "standardAmount": "1.5 cucchiai"
+   },
+   "w-pe-009-i11": {
+    "name": "olive kalamata",
+    "standardAmount": "1.5 cucchiai"
+   },
+   "w-pe-009-i12": {
+    "name": "mais dolce",
+    "standardAmount": "3 lattine (da 15,25 once)"
+   },
+   "w-pe-009-i13": {
+    "name": "basilico secco",
+    "standardAmount": "2 cucchiaini"
+   },
+   "w-pe-009-i14": {
+    "name": "burro",
+    "standardAmount": "1 cucchiaio"
+   },
+   "w-pe-009-i15": {
+    "name": "latte",
+    "standardAmount": "1 tazza"
+   },
+   "w-pe-009-i16": {
+    "name": "zucchero bianco",
+    "standardAmount": "2 cucchiaini + a piacere"
+   }
+  },
+  "instructions": {
+   "1": "Mettete le uova in una casseruola e copritele d'acqua. Portate a bollore, poi togliete dal fuoco e lasciate riposare le uova nell'acqua calda per 15 minuti.",
+   "2": "In una padella a fuoco medio, aggiungete l'olio, le cipolle, l'aglio, un pizzico di sale, ¼ di cucchiaino di paprika e il pepe nero. Cuocete finché sono profumati, circa 2 minuti.",
+   "3": "Aggiungete la carne macinata, il restante 1 cucchiaino di sale, il restante ¼ di cucchiaino di paprika e il pepe nero. Cuocete e mescolate finché il manzo è per lo più dorato, circa 5 minuti.",
+   "4": "Aggiungete il pollo, l'uvetta e le olive. Mescolate bene.",
+   "5": "Togliete le uova dall'acqua calda, raffreddatele sotto l'acqua fredda corrente, poi sgusciatele e tritatele grossolanamente. Aggiungetele alla miscela di carne. Tenete il pino al caldo.",
+   "6": "Frullate il mais e il basilico in un frullatore o robot da cucina fino a ottenere un composto liscio. Versate in una casseruola a fuoco medio. Aggiungete il burro e cuocete, mescolando finché si addensa, da 7 a 10 minuti.",
+   "7": "Aggiungete il latte, lo zucchero e il sale. Cuocete finché si addensa a pasta, circa 15 minuti ancora.",
+   "8": "Preriscaldate il forno a 175 gradi C.",
+   "9": "Stendete il pino in una teglia. Coprite con la pasta di mais e cospargete un po' di zucchero sopra.",
+   "10": "Cuocete in forno preriscaldato finché la superficie è dorata, circa 20 minuti."
+  },
+  "culturalNotes": "Il Pastel de Choclo è un piatto tradizionale peruviano, spesso servito in occasioni speciali e riunioni di famiglia.",
+  "chapter": "مطبخ بيرو"
  }
 }

@@ -9713,5 +9713,632 @@
   },
   "culturalNotes": "Paratha är en traditionell indisk rätt som ofta serveras som frukost eller lätt lunch.",
   "chapter": "in"
+ },
+ "w-pe-001": {
+  "title": "Peruansk kycklingsoppa (Aguadito de Pollo)",
+  "ingredients": {
+   "w-pe-001-i1": {
+    "name": "halvor av skinn- och benfri kycklingbröst",
+    "standardAmount": "4 halvor - halverade"
+   },
+   "w-pe-001-i2": {
+    "name": "salt och peppar",
+    "standardAmount": "efter smak"
+   },
+   "w-pe-001-i3": {
+    "name": "olivolja",
+    "standardAmount": "0.5 kopp"
+   },
+   "w-pe-001-i4": {
+    "name": "hackad lök",
+    "standardAmount": "1 medelstor lök"
+   },
+   "w-pe-001-i5": {
+    "name": "hackad vitlök",
+    "standardAmount": "1 tesked"
+   },
+   "w-pe-001-i6": {
+    "name": "urkärnad, hackad serranopeppar",
+    "standardAmount": "1 matsked"
+   },
+   "w-pe-001-i7": {
+    "name": "hackad koriander",
+    "standardAmount": "0.5 kopp"
+   },
+   "w-pe-001-i8": {
+    "name": "gröna ärtor",
+    "standardAmount": "1 kopp"
+   },
+   "w-pe-001-i9": {
+    "name": "majs",
+    "standardAmount": "1 kopp"
+   },
+   "w-pe-001-i10": {
+    "name": "hackad röd paprika",
+    "standardAmount": "0.5 red paprika"
+   },
+   "w-pe-001-i11": {
+    "name": "kycklingbuljong",
+    "standardAmount": "10 koppar"
+   },
+   "w-pe-001-i12": {
+    "name": "potatis",
+    "standardAmount": "4 Yukon Gold-potatisar - halverade"
+   },
+   "w-pe-001-i13": {
+    "name": "okokt vitt ris",
+    "standardAmount": "1 kopp"
+   }
+  },
+  "instructions": {
+   "1": "Krydda kycklingbrösten med salt och peppar.",
+   "2": "Värm olivoljan i en stor tung kastrull på medelhög värme. Tillsätt löken, vitlöken och serranopepparn och koka tills löken mjuknar, cirka 1 minut.",
+   "3": "Tillsätt kycklingen och fortsätt koka i 5 minuter.",
+   "4": "Rör ner koriander, ärtor, majs och röd paprika; koka i 1 minut.",
+   "5": "Häll i kycklingbuljongen, potatisen och riset. Låt koka upp, sänk sedan värmen till medellåg och sjuda tills kycklingen är genomstekt och potatisen mjuk, cirka 40 minuter."
+  },
+  "culturalNotes": "Aguadito de Pollo är en traditionell peruansk soppa som serveras som en lätt måltid eller huvudrätt. Den kännetecknas av en mängd olika grönsakssmaker och kryddor.",
+  "chapter": "pe"
+ },
+ "w-pe-002": {
+  "title": "Ají de Gallina",
+  "ingredients": {
+   "w-pe-002-i1": {
+    "name": "halvor av skinnfri kycklingbröst med ben",
+    "standardAmount": "2 pund"
+   },
+   "w-pe-002-i2": {
+    "name": "lök",
+    "standardAmount": "1 lök"
+   },
+   "w-pe-002-i3": {
+    "name": "morötter",
+    "standardAmount": "2 morötter"
+   },
+   "w-pe-002-i4": {
+    "name": "vitlök",
+    "standardAmount": "4 klyftor"
+   },
+   "w-pe-002-i5": {
+    "name": "vatten",
+    "standardAmount": "2 kvart"
+   },
+   "w-pe-002-i6": {
+    "name": "vitt bröd",
+    "standardAmount": "1 limpa, skorpan borttagen och tärnad"
+   },
+   "w-pe-002-i7": {
+    "name": "evaporerad mjölk",
+    "standardAmount": "12 flytande uns"
+   },
+   "w-pe-002-i8": {
+    "name": "riven parmesanost",
+    "standardAmount": "0.5 kopp"
+   },
+   "w-pe-002-i9": {
+    "name": "valnötsbitar",
+    "standardAmount": "0.25 kopp"
+   },
+   "w-pe-002-i10": {
+    "name": "vegetabilisk olja",
+    "standardAmount": "1 tesked"
+   },
+   "w-pe-002-i11": {
+    "name": "hackad vitlök",
+    "standardAmount": "2 klyftor"
+   },
+   "w-pe-002-i12": {
+    "name": "hackad lök",
+    "standardAmount": "1 lök"
+   },
+   "w-pe-002-i13": {
+    "name": "aji amarillo-pepparpasta",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-002-i14": {
+    "name": "malen gurkmeja",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-002-i15": {
+    "name": "hårdkokta ägg, i skivor",
+    "standardAmount": "4 ägg"
+   },
+   "w-pe-002-i16": {
+    "name": "kalamataoliver, urkärnade och kvartade",
+    "standardAmount": "0.25 kopp"
+   }
+  },
+  "instructions": {
+   "1": "Lägg kycklingbrösten, löken, moroten och 2 vitlöksklyftor i en stor kastrull, häll i 2 quarts vatten och låt långsamt koka upp på medelhög värme. Skumma av ytan, täck sedan, sänk värmen till medellåg och sjuda tills kycklingen är mjuk, cirka 30 minuter. Ta upp kycklingen på en tallrik och låt svalna. Sila den resulterande kycklingbuljongen och kassera grönsakerna.",
+   "2": "Häll den evaporerade mjölken och 1/2 kopp kycklingbuljong i en blenderkanna. Tillsätt brödbitarna och mixa slät. Tillsätt parmesan och valnötter; mixa slät. Strimla den svalnade kycklingen och kassera benen.",
+   "3": "Värm vegetabilisk olja i en stor kastrull på medelvärme. Rör ner hackad vitlök och hackad lök; koka tills löken mjuknar och blir genomskinlig, cirka 5 minuter. Rör ner den strimlade kycklingen och aji amarillo tills den värms. Häll i brödpurén och koka tills den är varm, rör ofta. Tillsätt mer kycklingbuljong vid behov för att inte bli för tjock.",
+   "4": "Rör ner gurkmeja och sjuda i ytterligare 5 minuter. Servera garnerad med skivor av hårdkokta ägg och strödd med kalamataoliver."
+  },
+  "culturalNotes": "Ají de Gallina är en traditionell peruansk rätt som ofta serveras vid speciella tillfällen.",
+  "chapter": "pe"
+ },
+ "w-pe-003": {
+  "title": "Ajiaco (peruansk biff- och pepparstuvning)",
+  "ingredients": {
+   "w-pe-003-i1": {
+    "name": "rapsolja",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-pe-003-i2": {
+    "name": "skivad schalottenlök",
+    "standardAmount": "1 kopp"
+   },
+   "w-pe-003-i3": {
+    "name": "hackad vitlök",
+    "standardAmount": "2 tablespoons"
+   },
+   "w-pe-003-i4": {
+    "name": "röda paprikor, skurna i 1-tums bitar",
+    "standardAmount": "2 chilifrukter"
+   },
+   "w-pe-003-i5": {
+    "name": "chipotlepepparpulver",
+    "standardAmount": "1.5 teaspoons"
+   },
+   "w-pe-003-i6": {
+    "name": "malen spiskummin",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-003-i7": {
+    "name": "kokt rostbiff i tärningar",
+    "standardAmount": "3 koppar"
+   },
+   "w-pe-003-i8": {
+    "name": "små röda potatisar, halverade",
+    "standardAmount": "1 pund"
+   },
+   "w-pe-003-i9": {
+    "name": "vatten",
+    "standardAmount": "2 koppar"
+   },
+   "w-pe-003-i10": {
+    "name": "nötköttsbuljong",
+    "standardAmount": "1 kvart"
+   },
+   "w-pe-003-i11": {
+    "name": "torkad oregano",
+    "standardAmount": "0.5 tesked"
+   },
+   "w-pe-003-i12": {
+    "name": "salt och peppar efter smak",
+    "standardAmount": "efter smak"
+   },
+   "w-pe-003-i13": {
+    "name": "hackad persilja",
+    "standardAmount": "0.25 kopp"
+   },
+   "w-pe-003-i14": {
+    "name": "hårdkokta ägg, i 1/4-tums skivor",
+    "standardAmount": "2 ägg"
+   }
+  },
+  "instructions": {
+   "1": "Värm rapsoljan i en gjutjärnsgryta på medelvärme. Tillsätt skivad schalottenlök, hackad vitlök och röda paprikor. Koka tills schalottenlöken mjuknar och blir genomskinlig, cirka 4 minuter.",
+   "2": "Tillsätt chipotlepepparpulver och spiskummin. Koka i 30 sekunder tills det doftar.",
+   "3": "Tillsätt den kokta rostbiffen och röda potatisarna. Häll i vatten och nötköttsbuljong. Låt koka upp på hög värme, sänk sedan värmen till medellåg, täck och sjuda tills potatisen är mjuk, cirka 30 minuter.",
+   "4": "Rör ner oregano och krydda efter smak med salt och peppar.",
+   "5": "Rör ner hackad persilja före servering. Garnera varje skål med några skivor hårdkokt ägg."
+  },
+  "culturalNotes": "Ajiaco är en traditionell peruansk rätt känd för sina rika smaker och kryddstyrka.",
+  "chapter": "pe"
+ },
+ "w-pe-004": {
+  "title": "Anticucho",
+  "ingredients": {
+   "w-pe-004-i1": {
+    "name": "nöthjärta",
+    "standardAmount": "1 hjärta"
+   },
+   "w-pe-004-i2": {
+    "name": "vitlök",
+    "standardAmount": "2 klyftor"
+   },
+   "w-pe-004-i3": {
+    "name": "malen het röd peppar",
+    "standardAmount": "¼ kopp"
+   },
+   "w-pe-004-i4": {
+    "name": "brunt vinäger",
+    "standardAmount": "2 koppar"
+   },
+   "w-pe-004-i5": {
+    "name": "malen spiskummin",
+    "standardAmount": "1 tesked"
+   },
+   "w-pe-004-i6": {
+    "name": "achiote (annatto)",
+    "standardAmount": "1 tesked"
+   },
+   "w-pe-004-i7": {
+    "name": "salt",
+    "standardAmount": "1 tesked"
+   },
+   "w-pe-004-i8": {
+    "name": "malen svartpeppar",
+    "standardAmount": "1 tesked"
+   }
+  },
+  "instructions": {
+   "1": "Lägg alla ingredienser, utom nöthjärtat, i en skål och blanda noggrant.",
+   "2": "Rengör nöthjärtat och ta bort allt fett. Skär i tugstorlek tärningar. Lägg hjärtbitarna i marinadblandningen och låt marinera i cirka 10 timmar eller över natten. Hjärtat ska vara helt täckt av marinaden.",
+   "3": "Efter marinering, trä köttet på spett. Om du vill kan du vid detta steg också lägga till andra ingredienser på spetten, såsom paprika eller majskolvar (skurna i liknande storlek som hjärtat).",
+   "4": "Grilla spetten på en grill, vänd ofta och pensla med marinadblandningen. När köttet är väl genomstekt, ta av spetten från grillen och servera omedelbart."
+  },
+  "culturalNotes": "Anticucho är en traditionell rätt i Peru som ofta serveras som mellanmål eller vid firanden.",
+  "chapter": "pe"
+ },
+ "w-pe-005": {
+  "title": "Arroz Tapado",
+  "ingredients": {
+   "w-pe-005-i1": {
+    "name": "vitt ris",
+    "standardAmount": "2 koppar"
+   },
+   "w-pe-005-i2": {
+    "name": "vatten",
+    "standardAmount": "4 koppar"
+   },
+   "w-pe-005-i3": {
+    "name": "ägg",
+    "standardAmount": "1 ägg"
+   },
+   "w-pe-005-i4": {
+    "name": "potatis",
+    "standardAmount": "1 potatis, skalad och tärnad"
+   },
+   "w-pe-005-i5": {
+    "name": "vegetabilisk olja",
+    "standardAmount": "1 kopp"
+   },
+   "w-pe-005-i6": {
+    "name": "tomater",
+    "standardAmount": "3 små tomater, grovhackade"
+   },
+   "w-pe-005-i7": {
+    "name": "vatten",
+    "standardAmount": "0.5 kopp"
+   },
+   "w-pe-005-i8": {
+    "name": "vegetabilisk olja",
+    "standardAmount": "1 matsked"
+   },
+   "w-pe-005-i9": {
+    "name": "lök",
+    "standardAmount": "0.5 stor lök, finhackad"
+   },
+   "w-pe-005-i10": {
+    "name": "vitlök",
+    "standardAmount": "3 vitlöksklyftor, hackade"
+   },
+   "w-pe-005-i11": {
+    "name": "malen torkad aji-peppar",
+    "standardAmount": "1 tesked"
+   },
+   "w-pe-005-i12": {
+    "name": "malen spiskummin",
+    "standardAmount": "0.5 tesked"
+   },
+   "w-pe-005-i13": {
+    "name": "malen svartpeppar",
+    "standardAmount": "0.25 tesked"
+   },
+   "w-pe-005-i14": {
+    "name": "hackad färsk oregano",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-005-i15": {
+    "name": "magert nötköttsfärs",
+    "standardAmount": "1 pund"
+   },
+   "w-pe-005-i16": {
+    "name": "morötter",
+    "standardAmount": "2 stor morötter, skalad och tärnad"
+   },
+   "w-pe-005-i17": {
+    "name": "frysta ärtor",
+    "standardAmount": "0.25 kopp"
+   },
+   "w-pe-005-i18": {
+    "name": "jordnötssmör",
+    "standardAmount": "1 matsked"
+   },
+   "w-pe-005-i19": {
+    "name": "hackad färsk koriander",
+    "standardAmount": "1 tesked"
+   },
+   "w-pe-005-i20": {
+    "name": "hackad färsk tomat",
+    "standardAmount": "1 tesked"
+   },
+   "w-pe-005-i21": {
+    "name": "ketchup",
+    "standardAmount": "1 tesked"
+   }
+  },
+  "instructions": {
+   "1": "Koka upp riset och 4 koppar vatten i en kastrull på hög värme. Sänk värmen till medellåg, täck och sjuda tills riset är mjukt och vätskan har absorberats, 20 till 25 minuter.",
+   "2": "Lägg ägget i en kastrull och täck med 1 tum vatten. Täck kastrullen och koka upp vattnet på hög värme. När vattnet kokar, ta av från värmen och låt ägget stå i det heta vattnet i 15 minuter. Häll av det heta vattnet, svalna sedan ägget under kallt rinnande vatten i diskhon. Skala när det är kallt. Hacka ägget och ställ åt sidan i en liten skål.",
+   "3": "Värm 1 kopp vegetabilisk olja i en fritös eller stor kastrull till 175 grader C. Fritera potatistärningarna tills de är gyllenbruna, cirka 5 minuter; låt rinna av på hushållspapper och ställ åt sidan.",
+   "4": "Lägg tomaterna och 0,5 kopp vatten i en blender och mixa tills tomaterna är flytande (skala och kärna ur dem först om du vill).",
+   "5": "Värm 1 matsked vegetabilisk olja i en stor stekpanna på medelvärme och koka och rör lök, vitlök, pepparpulver, spiskummin, svartpeppar och oregano tills löken börjar brynäs, 8 till 10 minuter; häll i de mixade tomaterna och sjuda i ytterligare 5 minuter, rör ofta. Rör ner köttfärs och morötter och koka tills köttet inte längre är rosa och morötterna är mjuka, cirka 10 minuter. Bryt sönder köttet i små bitar under tillagningen. Rör ner det hackade hårdkokta ägget, ärtor och jordnötssmör tills väl blandat. Rör slutligen försiktigt ner de friterade potatistärningarna.",
+   "6": "För att montera rätten, olja en flexibel plastskål (minst 1 kopp stor) och tryck det kokta riset i botten för att fylla 1/3 av skålen. Lägg cirka 3/4 tum köttblandning på riset och täck med mer kokt ris för att fylla skålen. Med en oljad hand, tryck försiktigt riset för att packa blandningen; lägg en serveringstallrik på skålen, vänd och ta bort ris- och köttformen. Upprepa med återstående ingredienser. Garnera varje portion med koriander, hackad tomat och droppar ketchup."
+  },
+  "culturalNotes": "Arroz Tapado är en traditionell peruansk rätt som ofta serveras vid speciella tillfällen och familjesammankomster.",
+  "chapter": "pe"
+ },
+ "w-pe-006": {
+  "title": "Papa a la Huancaína",
+  "ingredients": {
+   "w-pe-006-i1": {
+    "name": "Yukon Gold-potatis",
+    "standardAmount": "12"
+   },
+   "w-pe-006-i2": {
+    "name": "olivolja",
+    "standardAmount": "1 matsked"
+   },
+   "w-pe-006-i3": {
+    "name": "lök",
+    "standardAmount": "1"
+   },
+   "w-pe-006-i4": {
+    "name": "chilipeppar",
+    "standardAmount": "6"
+   },
+   "w-pe-006-i5": {
+    "name": "färskost",
+    "standardAmount": "1 pund"
+   },
+   "w-pe-006-i6": {
+    "name": "queso fresco",
+    "standardAmount": "1 pund"
+   },
+   "w-pe-006-i7": {
+    "name": "vegetabilisk olja",
+    "standardAmount": "0.25 kopp"
+   },
+   "w-pe-006-i8": {
+    "name": "salt",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-006-i9": {
+    "name": "vitlök",
+    "standardAmount": "1 kryddnejlika"
+   },
+   "w-pe-006-i10": {
+    "name": "malen svartpeppar",
+    "standardAmount": "0.5 tesked"
+   },
+   "w-pe-006-i11": {
+    "name": "evaporerad mjölk",
+    "standardAmount": "0.33 kopp"
+   },
+   "w-pe-006-i12": {
+    "name": "salladsblad",
+    "standardAmount": "8 blad"
+   },
+   "w-pe-006-i13": {
+    "name": "hårdkokta ägg",
+    "standardAmount": "4 stor"
+   },
+   "w-pe-006-i14": {
+    "name": "svarta oliver",
+    "standardAmount": "8"
+   }
+  },
+  "instructions": {
+   "1": "Lägg potatisen i en stor gryta och täck med saltat vatten. Koka upp på hög värme, sänk sedan värmen till medellåg och sjuda tills den är mjuk, cirka 20 minuter. Häll av och låt svalna något.",
+   "2": "I en stekpanna på medelvärme, värm olivoljan och stek löken tills den är mjuk, cirka 10 minuter. Ta av från värmen.",
+   "3": "I en liten kastrull, koka upp vatten och tillsätt pepparfrukterna. Koka tills de är mjuka, cirka 5 minuter. Skölj pepparna i kallt vatten tills de kan hanteras, ta sedan av och kassera skalet.",
+   "4": "Tillsätt löken, pepparna, färskosten, queso fresco, vegetabilisk olja, salt, vitlök och svartpeppar i en blender och mixa slät. Häll i den evaporerade mjölken i en tunn stråle medan mixern går tills såsen är krämig.",
+   "5": "Lägg 1 salladsblad på var och en av 8 tallrikar. Skär potatisen i halvor och lägg 3 halvor på varje salladsblad. Häll såsen över potatisen. Toppa varje portion med en halv ägg och 2 halvor svarta oliver."
+  },
+  "culturalNotes": "Papa a la Huancaína är en traditionell peruansk rätt som serveras som förrätt eller lätt måltid.",
+  "chapter": "pe"
+ },
+ "w-pe-007": {
+  "title": "Manjar Blanco",
+  "ingredients": {
+   "w-pe-007-i1": {
+    "name": "vatten",
+    "standardAmount": "1 kopp"
+   },
+   "w-pe-007-i2": {
+    "name": "majsstärkelse",
+    "standardAmount": "0.5 kopp"
+   },
+   "w-pe-007-i3": {
+    "name": "kokosmjölk",
+    "standardAmount": "1 kopp"
+   },
+   "w-pe-007-i4": {
+    "name": "vitt socker",
+    "standardAmount": "0.5 kopp"
+   },
+   "w-pe-007-i5": {
+    "name": "färska sötmajskärnor",
+    "standardAmount": "0.25 kopp"
+   },
+   "w-pe-007-i6": {
+    "name": "sötade kokosflingor",
+    "standardAmount": "0.25 kopp"
+   }
+  },
+  "instructions": {
+   "1": "Smörja en 8-tums bakform och ställ åt sidan.",
+   "2": "Blanda 0,5 kopp vatten och majsstärkelsen i en skål tills slät; ställ åt sidan.",
+   "3": "Kombinera kokosmjölken, 0,75 kopp vatten och sockret i en kastrull på låg värme och rör tills sockret har lösts upp.",
+   "4": "Låt blandningen koka upp, tillsätt majskärnorna och rör i majsstärkelseblandningen, rör snabbt för att undvika klumpar medan den tjocknar.",
+   "5": "Låt blandningen koka upp igen och sjuda i 2 minuter, rör hela tiden tills den är tjock och slät.",
+   "6": "Häll manjar blanco i den förberedda formen och låt svalna tills den är fast, cirka 2 timmar.",
+   "7": "Lägg de sötade kokosflingorna i en torr stekpanna på medelvärme och rör för att rosta dem. Håll noggrant uppsikt så att de inte bränns. Överför de rostade flingorna till en skål, låt svalna och strö över puddingen före servering."
+  },
+  "culturalNotes": "Manjar Blanco är en traditionell peruansk efterrätt som ofta serveras vid speciella tillfällen.",
+  "chapter": "pe"
+ },
+ "w-pe-008": {
+  "title": "Papas Rellenas (friterade fyllda potatisar)",
+  "ingredients": {
+   "w-pe-008-i1": {
+    "name": "potatis",
+    "standardAmount": "4 stor, skalad och tärnad"
+   },
+   "w-pe-008-i2": {
+    "name": "salt",
+    "standardAmount": "1.5 teaspoons, delad"
+   },
+   "w-pe-008-i3": {
+    "name": "vegetabilisk olja",
+    "standardAmount": "1 matsked"
+   },
+   "w-pe-008-i4": {
+    "name": "grön paprika",
+    "standardAmount": "1 kopp hackad"
+   },
+   "w-pe-008-i5": {
+    "name": "lök",
+    "standardAmount": "1/2 kopp hackad"
+   },
+   "w-pe-008-i6": {
+    "name": "vitlök",
+    "standardAmount": "3 klyftor, finhackad"
+   },
+   "w-pe-008-i7": {
+    "name": "nötköttsfärs",
+    "standardAmount": "1 pund"
+   },
+   "w-pe-008-i8": {
+    "name": "tomatpuré",
+    "standardAmount": "4 teaspoons"
+   },
+   "w-pe-008-i9": {
+    "name": "destillerad vit vinäger",
+    "standardAmount": "1 matsked"
+   },
+   "w-pe-008-i10": {
+    "name": "malen spiskummin",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-008-i11": {
+    "name": "malen svartpeppar",
+    "standardAmount": "1 tesked"
+   },
+   "w-pe-008-i12": {
+    "name": "ägg",
+    "standardAmount": "4 stor"
+   },
+   "w-pe-008-i13": {
+    "name": "ströbröd",
+    "standardAmount": "2 koppar"
+   },
+   "w-pe-008-i14": {
+    "name": "vetemjöl",
+    "standardAmount": "1 kopp"
+   },
+   "w-pe-008-i15": {
+    "name": "vegetabilisk olja för stekning",
+    "standardAmount": "1 kvart"
+   }
+  },
+  "instructions": {
+   "1": "Lägg potatisen i en stor gryta; täck med saltat vatten. Koka upp på hög värme, sänk sedan värmen till medellåg, täck och sjuda tills den är mjuk, cirka 20 minuter. Häll av och låt ånga av i 1 till 2 minuter. Mosa potatisen med 1/2 tesked salt i en skål tills inga klumpar återstår. Ställ åt sidan för att svalna till rumstemperatur.",
+   "2": "Under tiden, värm vegetabilisk olja i en stor stekpanna på medelvärme. Koka och rör grön paprika, lök och vitlök i den heta stekpannan tills löken mjuknar och blir genomskinlig, cirka 10 minuter.",
+   "3": "Öka värmen till medelhög; rör ner köttfärsen. Koka och rör tills köttfärsen är smulig och inte längre rosa. Rör ner tomatpuré, vinäger, spiskummin, 1 tesked salt och peppar tills tomatpurén har lösts upp. Överför köttblandningen till en skål; låt svalna till rumstemperatur.",
+   "4": "Klä en bakplåt med plastfolie eller bakplåtspapper; ställ åt sidan. Vispa äggen i en skål; ställ åt sidan. Häll ströbröd och mjöl i separata grunda fat; ställ åt sidan.",
+   "5": "Ta en näve potatismos (cirka 1/12 av mosen); dela i 2 lika delar. Forma varje stycke till en liten skålform och fyll varje med köttblandningen. För ihop halvorna, förslut kanterna och jämna till för att forma ett runt klot. Upprepa detta steg med återstående potatis och köttblandning.",
+   "6": "En i taget, rulla försiktigt potatiskloten i mjöl för att täcka; skaka av överflödet. Doppa i det vispade ägget och rulla sedan i ströbröd. Passa försiktigt mellan händerna för att släppa oinfästat ströbröd. Lägg de panerade kloten på den förberedda plåten. Kyl i 2 till 4 timmar eller frys för senare användning.",
+   "7": "Värm oljan i en fritös eller stor kastrull till 175 grader C.",
+   "8": "Fritera potatiskloten i den heta oljan i omgångar, använd en tång för att rulla dem under friteringen för jämn brynning, tills de är krispiga och gyllene, cirka 3 minuter per omgång. Låt rinna av på en tallrik klädd med hushållspapper."
+  },
+  "culturalNotes": "Papas Rellenas är en traditionell peruansk rätt som serveras som huvudrätt eller som förrätt.",
+  "chapter": "pe"
+ },
+ "w-pe-009": {
+  "title": "Pastel de Choclo",
+  "ingredients": {
+   "w-pe-009-i1": {
+    "name": "ägg",
+    "standardAmount": "2 ägg"
+   },
+   "w-pe-009-i2": {
+    "name": "vegetabilisk olja",
+    "standardAmount": "1 matsked"
+   },
+   "w-pe-009-i3": {
+    "name": "lökar",
+    "standardAmount": "2 lökar, hackad"
+   },
+   "w-pe-009-i4": {
+    "name": "vitlök",
+    "standardAmount": "2 klyftor finhackad"
+   },
+   "w-pe-009-i5": {
+    "name": "salt",
+    "standardAmount": "1 tesked + efter smak"
+   },
+   "w-pe-009-i6": {
+    "name": "paprikapulver",
+    "standardAmount": "0.5 tesked + efter smak"
+   },
+   "w-pe-009-i7": {
+    "name": "svartpeppar",
+    "standardAmount": "efter smak"
+   },
+   "w-pe-009-i8": {
+    "name": "nötköttsfärs",
+    "standardAmount": "1 pund"
+   },
+   "w-pe-009-i9": {
+    "name": "grillad kyckling",
+    "standardAmount": "0,5 grillad kyckling, hackad"
+   },
+   "w-pe-009-i10": {
+    "name": "russin",
+    "standardAmount": "1.5 tablespoons"
+   },
+   "w-pe-009-i11": {
+    "name": "kalamataoliver",
+    "standardAmount": "1.5 tablespoons"
+   },
+   "w-pe-009-i12": {
+    "name": "sötmajs",
+    "standardAmount": "3 burkar (à 15,25 uns)"
+   },
+   "w-pe-009-i13": {
+    "name": "torkad basilika",
+    "standardAmount": "2 teaspoons"
+   },
+   "w-pe-009-i14": {
+    "name": "smör",
+    "standardAmount": "1 matsked"
+   },
+   "w-pe-009-i15": {
+    "name": "mjölk",
+    "standardAmount": "1 kopp"
+   },
+   "w-pe-009-i16": {
+    "name": "vitt socker",
+    "standardAmount": "2 teaspoons + efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Lägg äggen i en kastrull och täck med vatten. Koka upp, ta sedan av från värmen och låt äggen stå i det heta vattnet i 15 minuter.",
+   "2": "I en stekpanna på medelvärme, tillsätt olja, lök, vitlök, en nypa salt, ¼ tesked paprikapulver och svartpeppar. Koka tills det doftar, cirka 2 minuter.",
+   "3": "Tillsätt köttfärsen, återstående 1 tesked salt, återstående ¼ tesked paprikapulver och svartpeppar. Koka och rör tills köttfärsen till största delen är brynt, cirka 5 minuter.",
+   "4": "Tillsätt kycklingen, russinen och oliverna. Blanda väl.",
+   "5": "Ta ut äggen ur det heta vattnet, svalna under kallt rinnande vatten, skala sedan och grovhacka. Tillsätt till köttblandningen. Håll pinon varm.",
+   "6": "Mixa majs och basilika i en blender eller matberedare tills slät. Häll i en kastrull på medelvärme. Tillsätt smör och koka, rör tills det tjocknar, 7 till 10 minuter.",
+   "7": "Tillsätt mjölk, socker och salt. Koka tills det tjocknar till en pasta, cirka 15 minuter till.",
+   "8": "Värm ugnen till 175 grader C.",
+   "9": "Fördela pinon i en ugnsform. Täck med majspastan och strö lite socker ovanpå.",
+   "10": "Grädda i den förvärmda ugnen tills ytan är gyllene, cirka 20 minuter."
+  },
+  "culturalNotes": "Pastel de Choclo är en traditionell peruansk rätt som ofta serveras vid speciella tillfällen och familjesammankomster.",
+  "chapter": "pe"
  }
 }
