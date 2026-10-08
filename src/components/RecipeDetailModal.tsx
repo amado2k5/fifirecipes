@@ -222,17 +222,18 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
         onClick={e => e.stopPropagation()}
       >
         {/* Visual Hero Header */}
-        <div className="relative h-[clamp(120px,32vh,18rem)] w-full overflow-hidden bg-stone-900 shrink-0">
+        {/* The hero grows with its content (it used to be a fixed height with an absolutely placed text block, which spilled over the close button when a recipe had many badges). */}
+        <div className="relative min-h-[clamp(120px,32vh,18rem)] w-full overflow-hidden bg-stone-900 shrink-0 flex flex-col justify-between">
           <img
             src={imageUrl}
             alt={localized.title}
-            className="w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover"
             referrerPolicy="no-referrer"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/50 to-black/30" />
 
           {/* Top Bar Actions */}
-          <div className="absolute top-4 left-4 right-4 flex items-center justify-between z-10">
+          <div className="relative mt-4 mx-4 flex items-center justify-between z-20">
             <div className="flex items-center gap-2">
               <span className="px-3 py-1 rounded-full text-xs font-semibold bg-amber-600/90 text-white backdrop-blur-xs shadow-xs">
                 {localized.category}
@@ -268,7 +269,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
           </div>
 
           {/* Bottom Hero Info */}
-          <div className="absolute bottom-2 sm:bottom-4 left-4 right-4 z-10 text-white">
+          <div className="relative mx-4 mt-4 mb-2 sm:mb-4 z-10 text-white">
             <div className="space-y-0.5 sm:space-y-1 max-w-2xl">
               <h2 className="text-lg sm:text-2xl md:text-3xl font-extrabold tracking-tight text-white drop-shadow-xs">
                 {localized.title}

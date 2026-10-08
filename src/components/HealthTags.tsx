@@ -47,7 +47,8 @@ export const HealthTags: React.FC<{ recipeId: string; lang: SupportedLanguage; v
   } else if (detail && h.s === 'u') {
     chips.push({ key: 'allergen', tone: 'plain', text: getUIText(lang, 'allergenUnknown'), title: getUIText(lang, 'allergenNote') });
   }
-  if (h.g && h.g !== 'u') {
+  // the recipe header already lists every allergen, so "Contains: Gluten" there makes a separate "Contains gluten" chip a duplicate
+  if (h.g && h.g !== 'u' && !(detail && h.g === 'c' && h.a.includes('cereals_gluten'))) {
     chips.push({ key: 'gluten', tone: GL_TONE[h.g], text: getUIText(lang, GLUTEN_KEY[h.g]), title: getUIText(lang, 'glutenLactoseNote') });
   }
   if (h.l && h.l !== 'u') {
