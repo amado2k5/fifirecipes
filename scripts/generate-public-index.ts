@@ -444,6 +444,11 @@ const PAGE_TEXT = {
   }
 } as const;
 
+// schema.org RestrictedDiet values for a recipe's reviewed claims; ingredient-based, not a certification.
+function dietUris(id: string): string[] {
+  return (RECIPE_DIETARY[id] ?? []).map(c => SCHEMA_ORG_DIET[c.claim]).filter(Boolean);
+}
+
 function recipeJsonLd(recipe: Recipe, estimate: RecipeEstimate | undefined, pageUrl: string, imageUrl: string) {
   const prepTime = toIsoDuration(recipe.prepTime);
   const cookTime = toIsoDuration(recipe.cookTime);
@@ -481,6 +486,7 @@ function recipeJsonLd(recipe: Recipe, estimate: RecipeEstimate | undefined, page
           estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: getCostTotal(estimate).toFixed(2) }
         }
       : recipe.servings ? { recipeYield: recipe.servings } : {}),
+    ...(dietUris(recipe.id).length ? { suitableForDiet: dietUris(recipe.id) } : {}),
     recipeIngredient: recipe.masterIngredients.map(ingredient => `${ingredient.name}: ${ingredient.standardAmount}`),
     recipeInstructions: recipe.uniqueInstructions.map(step => ({ '@type': 'HowToStep', position: step.stepNumber, text: step.text }))
   };
