@@ -228,9 +228,17 @@ for (const lang of SUPPORTED_LANGUAGES) {
 // basis "ingredients": derived from the ingredient and step text, not a certification.
 type DietaryClaim = { claim: string; basis: 'ingredients' | 'certified'; ruleset: string; note?: string };
 const RECIPE_DIETARY: Record<string, DietaryClaim[]> = JSON.parse(await readFile('src/data/recipeDietary.json', 'utf8'));
+// Allergens, gluten/dairy/nut-free claims and the diabetic estimate (scripts/diet/allergens.py). Same basis: ingredients and steps,
+// plus the nutrition estimate per serving. Screens, not certifications and not medical advice.
+const RECIPE_DIETARY_EXTRA: Record<string, DietaryClaim[]> = JSON.parse(await readFile('src/data/recipeDietaryExtra.json', 'utf8'));
+const RECIPE_HEALTH: Record<string, { a: string[]; s: string; d: string }> = JSON.parse(await readFile('src/data/recipeHealth.json', 'utf8'));
+const ALLERGEN_STATUS: Record<string, string> = { c: 'contains', n: 'none_found', l: 'check_labels', u: 'not_assessed' };
+const DIABETIC_STATUS: Record<string, string> = { f: 'friendly', b: 'borderline', n: 'not_friendly', u: 'unknown' };
+const dietaryOf = (id: string): DietaryClaim[] => [...(RECIPE_DIETARY[id] ?? []), ...(RECIPE_DIETARY_EXTRA[id] ?? [])];
 const SCHEMA_ORG_DIET: Record<string, string> = {
   halal: 'https://schema.org/HalalDiet', kosher: 'https://schema.org/KosherDiet',
-  vegetarian: 'https://schema.org/VegetarianDiet', vegan: 'https://schema.org/VeganDiet'
+  vegetarian: 'https://schema.org/VegetarianDiet', vegan: 'https://schema.org/VeganDiet',
+  gluten_free: 'https://schema.org/GlutenFreeDiet', diabetic_friendly: 'https://schema.org/DiabeticDiet'
 };
 
 // Full recipes, each with its estimate and every translation it has.
@@ -248,7 +256,15 @@ for (const recipe of orderedRecipes) {
     // (docs/TRANSLATION_GUIDE.md), and many of them hold the Arabic master name.
     translations[lang] = { category, cookingMethod, prepTime, cookTime, servings, ...table[recipe.id], chapter };
   }
-  put(`recipes/${recipe.id}.json`, { recipe, estimate: RECIPE_ESTIMATES[recipe.id], translations, ...(RECIPE_DIETARY[recipe.id] ? { dietary: RECIPE_DIETARY[recipe.id] } : {}) });
+  const health = RECIPE_HEALTH[recipe.id];
+  put(`recipes/${recipe.id}.json`, {
+    recipe, estimate: RECIPE_ESTIMATES[recipe.id], translations,
+    ...(dietaryOf(recipe.id).length ? { dietary: dietaryOf(recipe.id) } : {}),
+    ...(health ? {
+      allergens: { contains: health.a, status: ALLERGEN_STATUS[health.s], ruleset: 'fifi-allergen-1' },
+      diabetic: { status: DIABETIC_STATUS[health.d], ruleset: 'fifi-diabetic-1', basis: 'estimate' }
+    } : {})
+  });
 }
 
 // Videos tab: what scripts/recipe-videos/fetch-videos.ts found, fetched by the
@@ -448,7 +464,7 @@ const PAGE_TEXT = {
 
 // schema.org RestrictedDiet values for a recipe's reviewed claims; ingredient-based, not a certification.
 function dietUris(id: string): string[] {
-  return (RECIPE_DIETARY[id] ?? []).map(c => SCHEMA_ORG_DIET[c.claim]).filter(Boolean);
+  return dietaryOf(id).map(c => SCHEMA_ORG_DIET[c.claim]).filter(Boolean);
 }
 
 function recipeJsonLd(recipe: Recipe, estimate: RecipeEstimate | undefined, pageUrl: string, imageUrl: string) {
