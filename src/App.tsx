@@ -33,7 +33,7 @@ import { hasKidsMode, loadKidsApp } from './kids/languages';
 import { TECHNOLOGY_LABELS } from './data/technologyLabels';
 import { CheckCircle2, AlertCircle, Mail } from 'lucide-react';
 
-const FEEDBACK_EMAIL = 'ahamdy@gmail.com';
+const FEEDBACK_EMAIL = 'recipe@fifi.cooking';
 
 function getSharedLanguage(): SupportedLanguage | null {
   if (typeof window === 'undefined') return null;

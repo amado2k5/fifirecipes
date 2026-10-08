@@ -7,7 +7,7 @@ interface TributePageProps {
   onBack: () => void;
 }
 
-const TRIBUTE_RECIPIENT_EMAIL = 'ahamdy@gmail.com';
+const TRIBUTE_RECIPIENT_EMAIL = 'recipe@fifi.cooking';
 
 export const TributePage: React.FC<TributePageProps> = ({ lang, onBack }) => {
   const isRtl = lang === 'ar' || lang === 'fa' || lang === 'ur' || lang === 'ps' || lang === 'he';
