@@ -19635,7 +19635,27 @@
 "ruleset": "fifi-diabetic-1"
 }
 ],
+"w-lb-001": [
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
 "w-lb-002": [
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
 {
 "basis": "ingredients",
 "claim": "diabetic_friendly",
@@ -19643,7 +19663,113 @@
 "ruleset": "fifi-diabetic-1"
 }
 ],
+"w-lb-003": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-lb-005": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-lb-006": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-lb-008": [
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-lb-011": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
 "w-lb-013": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
 {
 "basis": "ingredients",
 "claim": "diabetic_friendly",
@@ -19654,6 +19780,18 @@
 "w-lb-017": [
 {
 "basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
 "claim": "diabetic_friendly",
 "note": "Estimate from the nutrition estimate per serving (sugar 5 g or less, carbohydrate 30 g or less, carbohydrate at most 40% of the energy, 12 servings or fewer). Not medical advice; ask a doctor or dietitian.",
 "ruleset": "fifi-diabetic-1"
@@ -19662,12 +19800,36 @@
 "w-lb-018": [
 {
 "basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
 "claim": "diabetic_friendly",
 "note": "Estimate from the nutrition estimate per serving (sugar 5 g or less, carbohydrate 30 g or less, carbohydrate at most 40% of the energy, 12 servings or fewer). Not medical advice; ask a doctor or dietitian.",
 "ruleset": "fifi-diabetic-1"
 }
 ],
 "w-lb-019": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
 {
 "basis": "ingredients",
 "claim": "diabetic_friendly",
@@ -19683,7 +19845,29 @@
 "ruleset": "fifi-diabetic-1"
 }
 ],
+"w-lb-021": [
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-lb-022": [
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
 "w-lb-025": [
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
 {
 "basis": "ingredients",
 "claim": "diabetic_friendly",
@@ -19691,7 +19875,61 @@
 "ruleset": "fifi-diabetic-1"
 }
 ],
+"w-lb-026": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-lb-027": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-lb-029": [
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
 "w-lb-032": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
 {
 "basis": "ingredients",
 "claim": "diabetic_friendly",
@@ -19702,12 +19940,48 @@
 "w-lb-033": [
 {
 "basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
 "claim": "diabetic_friendly",
 "note": "Estimate from the nutrition estimate per serving (sugar 5 g or less, carbohydrate 30 g or less, carbohydrate at most 40% of the energy, 12 servings or fewer). Not medical advice; ask a doctor or dietitian.",
 "ruleset": "fifi-diabetic-1"
 }
 ],
 "w-lb-034": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
 {
 "basis": "ingredients",
 "claim": "diabetic_friendly",
@@ -20557,12 +20831,312 @@
 "ruleset": "fifi-allergen-1"
 }
 ],
+"w-my-001": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-my-002": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-my-003": [
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-my-005": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-my-007": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-my-008": [
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-my-009": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-my-011": [
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-my-012": [
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-my-013": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-my-016": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-my-017": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-my-018": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-my-019": [
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
 "w-my-020": [
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
 {
 "basis": "ingredients",
 "claim": "diabetic_friendly",
 "note": "Estimate from the nutrition estimate per serving (sugar 5 g or less, carbohydrate 30 g or less, carbohydrate at most 40% of the energy, 12 servings or fewer). Not medical advice; ask a doctor or dietitian.",
 "ruleset": "fifi-diabetic-1"
+}
+],
+"w-my-021": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-my-022": [
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-my-023": [
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-ng-001": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
 }
 ],
 "w-ng-002": [
@@ -20574,6 +21148,24 @@
 }
 ],
 "w-ng-003": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
 {
 "basis": "ingredients",
 "claim": "diabetic_friendly",
@@ -20605,6 +21197,54 @@
 "ruleset": "fifi-diabetic-1"
 }
 ],
+"w-ng-008": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-ng-009": [
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-ng-010": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
 "w-ng-011": [
 {
 "basis": "ingredients",
@@ -20621,7 +21261,59 @@
 "ruleset": "fifi-diabetic-1"
 }
 ],
+"w-ng-013": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-pe-001": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
 "w-pe-003": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
 {
 "basis": "ingredients",
 "claim": "diabetic_friendly",
@@ -20632,17 +21324,239 @@
 "w-pe-004": [
 {
 "basis": "ingredients",
-"claim": "diabetic_friendly",
-"note": "Estimate from the nutrition estimate per serving (sugar 5 g or less, carbohydrate 30 g or less, carbohydrate at most 40% of the energy, 12 servings or fewer). Not medical advice; ask a doctor or dietitian.",
-"ruleset": "fifi-diabetic-1"
-}
-],
-"w-tr-001": [
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
 {
 "basis": "ingredients",
 "claim": "diabetic_friendly",
 "note": "Estimate from the nutrition estimate per serving (sugar 5 g or less, carbohydrate 30 g or less, carbohydrate at most 40% of the energy, 12 servings or fewer). Not medical advice; ask a doctor or dietitian.",
 "ruleset": "fifi-diabetic-1"
+}
+],
+"w-pe-006": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-pe-007": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-pe-008": [
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-th-005": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-th-006": [
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-th-007": [
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-th-011": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-th-013": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-th-015": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-th-016": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-th-018": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-tr-001": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "diabetic_friendly",
+"note": "Estimate from the nutrition estimate per serving (sugar 5 g or less, carbohydrate 30 g or less, carbohydrate at most 40% of the energy, 12 servings or fewer). Not medical advice; ask a doctor or dietitian.",
+"ruleset": "fifi-diabetic-1"
+}
+],
+"w-tr-002": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
 }
 ],
 "w-tr-003": [
@@ -20653,23 +21567,113 @@
 "ruleset": "fifi-diabetic-1"
 }
 ],
+"w-tr-004": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
 "w-tr-007": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
 {
 "basis": "ingredients",
 "claim": "diabetic_friendly",
 "note": "Estimate from the nutrition estimate per serving (sugar 5 g or less, carbohydrate 30 g or less, carbohydrate at most 40% of the energy, 12 servings or fewer). Not medical advice; ask a doctor or dietitian.",
 "ruleset": "fifi-diabetic-1"
+}
+],
+"w-tr-008": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
 }
 ],
 "w-tr-009": [
 {
 "basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
 "claim": "diabetic_friendly",
 "note": "Estimate from the nutrition estimate per serving (sugar 5 g or less, carbohydrate 30 g or less, carbohydrate at most 40% of the energy, 12 servings or fewer). Not medical advice; ask a doctor or dietitian.",
 "ruleset": "fifi-diabetic-1"
 }
 ],
+"w-tr-010": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
 "w-tr-011": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
 {
 "basis": "ingredients",
 "claim": "diabetic_friendly",
@@ -20680,17 +21684,127 @@
 "w-tr-013": [
 {
 "basis": "ingredients",
-"claim": "diabetic_friendly",
-"note": "Estimate from the nutrition estimate per serving (sugar 5 g or less, carbohydrate 30 g or less, carbohydrate at most 40% of the energy, 12 servings or fewer). Not medical advice; ask a doctor or dietitian.",
-"ruleset": "fifi-diabetic-1"
-}
-],
-"w-tr-019": [
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
 {
 "basis": "ingredients",
 "claim": "diabetic_friendly",
 "note": "Estimate from the nutrition estimate per serving (sugar 5 g or less, carbohydrate 30 g or less, carbohydrate at most 40% of the energy, 12 servings or fewer). Not medical advice; ask a doctor or dietitian.",
 "ruleset": "fifi-diabetic-1"
+}
+],
+"w-tr-014": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-tr-016": [
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-tr-018": [
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-tr-019": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "diabetic_friendly",
+"note": "Estimate from the nutrition estimate per serving (sugar 5 g or less, carbohydrate 30 g or less, carbohydrate at most 40% of the energy, 12 servings or fewer). Not medical advice; ask a doctor or dietitian.",
+"ruleset": "fifi-diabetic-1"
+}
+],
+"w-tr-020": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-tr-021": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "dairy_free",
+"note": "No milk or dairy found in the ingredients or steps. Check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-tr-022": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+},
+{
+"basis": "ingredients",
+"claim": "nut_free",
+"note": "No nuts or peanuts found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
+}
+],
+"w-tr-023": [
+{
+"basis": "ingredients",
+"claim": "gluten_free",
+"note": "No gluten found in the ingredients or steps. Cross-contact is not assessed; check labels of bought items.",
+"ruleset": "fifi-allergen-1"
 }
 ],
 "w-vn-002": [
