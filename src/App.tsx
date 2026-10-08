@@ -33,7 +33,7 @@ import { hasKidsMode, loadKidsApp } from './kids/languages';
 import { TECHNOLOGY_LABELS } from './data/technologyLabels';
 import { CheckCircle2, AlertCircle, Mail } from 'lucide-react';
 
-const FEEDBACK_EMAIL = 'ahamdy@gmail.com';
+const FEEDBACK_ISSUES_URL = 'https://github.com/amado2k5/fifirecipes/issues/new';
 
 function getSharedLanguage(): SupportedLanguage | null {
   if (typeof window === 'undefined') return null;
@@ -278,7 +278,7 @@ export default function App() {
       'Hallo,\n\nIk wil graag de volgende vraag, opmerking of het volgende probleem delen:\n\n',
       'سلام،\n\nزه غواړم لاندې پوښتنه، تبصره یا مسله شریکه کړم:\n\n'
     , 'שלום,\n\nאשמח לשתף את השאלה, ההערה או הבעיה הבאה:\n\n', 'Dzień dobry,\n\nChcę przekazać następujące pytanie, uwagę lub zgłoszenie problemu:\n\n', 'Hej,\n\nJag vill dela följande fråga, kommentar eller problem:\n\n', 'నమస్కారం,\n\nకింది ప్రశ్న, వ్యాఖ్య లేదా సమస్యను నేను పంచుకోదలుచుకున్నాను:\n\n', 'হ্যালো,\n\nআমি নিচের প্রশ্ন, মন্তব্য বা সমস্যাটি জানাতে চাই:\n\n', 'Xin chào,\n\nTôi muốn chia sẻ câu hỏi, nhận xét hoặc vấn đề sau:\n\n', 'Përshëndetje,\n\nDo të doja të ndaja pyetjen, komentin ose çështjen e mëposhtme:\n\n', 'Dobrý den,\n\nchtěl bych se podělit o následující otázku, komentář nebo problém:\n\n');
-    window.location.href = `mailto:${FEEDBACK_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.open(`${FEEDBACK_ISSUES_URL}?title=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`, '_blank', 'noopener,noreferrer');
   };
 
   // Structured data: a light ItemList of every listed recipe (pointing at the
