@@ -235,7 +235,9 @@ for (const recipe of orderedRecipes) {
     // The same applies to prepTime/cookTime/servings: entries that omit them get
     // the localized measurement instead of an English fallback in the apps.
     const { chapter, category, cookingMethod, prepTime, cookTime, servings } = getLocalizedRecipe(recipe, lang);
-    translations[lang] = { chapter, category, cookingMethod, prepTime, cookTime, servings, ...table[recipe.id] };
+    // `chapter` goes last: the site ignores the chapter inside translation entries
+    // (docs/TRANSLATION_GUIDE.md), and many of them hold the Arabic master name.
+    translations[lang] = { category, cookingMethod, prepTime, cookTime, servings, ...table[recipe.id], chapter };
   }
   put(`recipes/${recipe.id}.json`, { recipe, estimate: RECIPE_ESTIMATES[recipe.id], translations });
 }
