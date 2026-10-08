@@ -123433,7 +123433,7 @@
   "ingredients": {
    "w-pe-003-i1": {
     "name": "rapsolja",
-    "standardAmount": "2 tablespoons"
+    "standardAmount": "2 msk"
    },
    "w-pe-003-i2": {
     "name": "skivad schalottenlök",
@@ -123441,7 +123441,7 @@
    },
    "w-pe-003-i3": {
     "name": "hackad vitlök",
-    "standardAmount": "2 tablespoons"
+    "standardAmount": "2 msk"
    },
    "w-pe-003-i4": {
     "name": "röda paprikor, skurna i 1-tums bitar",
@@ -123911,5 +123911,708 @@
   },
   "culturalNotes": "Pastel de Choclo är en traditionell peruansk rätt som ofta serveras vid speciella tillfällen och familjesammankomster.",
   "chapter": "مطبخ بيرو"
+ },
+ "w-ng-001": {
+  "title": "Akamu (nigeriansk pudding)",
+  "ingredients": {
+   "w-ng-001-i1": {
+    "name": "akamupasta",
+    "standardAmount": "tillräcklig mängd"
+   },
+   "w-ng-001-i2": {
+    "name": "hett vatten",
+    "standardAmount": "vid behov"
+   },
+   "w-ng-001-i3": {
+    "name": "kondenserad mjölk",
+    "standardAmount": "1 burk (400 ml)"
+   },
+   "w-ng-001-i4": {
+    "name": "socker",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Fyll en stor skål till hälften med akamu-klumpar.",
+   "2": "Krossa akamu-klumparna med en sked till mycket små bitar. Rör in små mängder kallt vatten tills blandningen är slät och har konsistensen av kondenserad mjölk.",
+   "3": "Koka upp en stor kastrull med vatten.",
+   "4": "Innan vattnet kokar, rör om blandningen ordentligt. När vattnet har nått kokpunkten, häll det försiktigt men stadigt i akamublandningen under omrörning. Sluta röra så fort blandningen börjar tjockna, och minska flödet av vatten du häller till ett minimum tills akamu har stelnat helt.",
+   "5": "Vispa blandningen ordentligt. Tillsätt extra vatten om så önskas om blandningen är för tjock.",
+   "6": "Rör in den kondenserade mjölken och en nypa socker efter smak."
+  },
+  "culturalNotes": "Akamu är en traditionell nigeriansk frukost, ofta serverad med jordnötter eller frukt.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-002": {
+  "title": "Ofadagryta (Ayamasegryta)",
+  "ingredients": {
+   "w-ng-002-i1": {
+    "name": "gröna paprikor",
+    "standardAmount": "3"
+   },
+   "w-ng-002-i2": {
+    "name": "röd paprika",
+    "standardAmount": "1"
+   },
+   "w-ng-002-i3": {
+    "name": "habaneropeppar",
+    "standardAmount": "2"
+   },
+   "w-ng-002-i4": {
+    "name": "palmolja",
+    "standardAmount": "1/4 kopp"
+   },
+   "w-ng-002-i5": {
+    "name": "lök",
+    "standardAmount": "1/2"
+   },
+   "w-ng-002-i6": {
+    "name": "iru (fermenterade johannesbröd)",
+    "standardAmount": "1 msk"
+   },
+   "w-ng-002-i7": {
+    "name": "malda torkade räkor",
+    "standardAmount": "1 msk"
+   },
+   "w-ng-002-i8": {
+    "name": "buljongpulver",
+    "standardAmount": "2 tsk"
+   },
+   "w-ng-002-i9": {
+    "name": "salt",
+    "standardAmount": "2 tsk"
+   },
+   "w-ng-002-i10": {
+    "name": "svartpeppar",
+    "standardAmount": "1 tsk"
+   },
+   "w-ng-002-i11": {
+    "name": "nötkött",
+    "standardAmount": "12 uns"
+   }
+  },
+  "instructions": {
+   "1": "Hacka löken.",
+   "2": "Mala grovt de gröna paprikorna, den röda paprikan och habaneropepparna.",
+   "3": "Om den malda blandningen ser lite vattnig ut, häll den i en kastrull och låt den koka tills en del av vattnet avdunstar.",
+   "4": "Koka nötköttet med buljongpulver, svartpeppar och salt tills det är mört.",
+   "5": "Bleka palmoljan (som visas i nästa avsnitt).",
+   "6": "Tillsätt löken och efter ungefär en minut, tillsätt den malda paprikablandningen och irun.",
+   "7": "Koka i ungefär 5 minuter.",
+   "8": "Tillsätt nötköttet och kryddorna.",
+   "9": "Koka ytterligare 10 minuter på medellåg värme eller tills oljan börjar stiga till ytan."
+  },
+  "culturalNotes": "Ofadagryta är en populär rätt i Nigeria, känd för sina rika och kryddstarka smaker.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-003": {
+  "title": "Grillat kött",
+  "ingredients": {
+   "w-ng-003-i1": {
+    "name": "nötkött",
+    "standardAmount": "2 pund"
+   },
+   "w-ng-003-i2": {
+    "name": "vitlökspulver",
+    "standardAmount": "2 msk"
+   },
+   "w-ng-003-i3": {
+    "name": "oregano",
+    "standardAmount": "2 tsk"
+   },
+   "w-ng-003-i4": {
+    "name": "limesaft",
+    "standardAmount": "saft från 2 limer"
+   },
+   "w-ng-003-i5": {
+    "name": "svartpeppar",
+    "standardAmount": "efter smak"
+   },
+   "w-ng-003-i6": {
+    "name": "salt",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Lägg nötköttet i en stor påse med dragkedja tillsammans med limesaften, vitlökspulvret, oreganon, svartpepparn och saltet.",
+   "2": "Förslut påsen och blanda ingredienserna tills de är jämnt fördelade. Marineras i minst 1 timme, eller upp till 5 timmar för en starkare smak.",
+   "3": "Grilla steken på medelvärme tills den når en innertemperatur på 68-71°C (155-160°F), vilket är ungefär medium. Tillagningstiden kommer att variera beroende på stekens tjocklek."
+  },
+  "culturalNotes": "Grillat kött är en populär rätt i Nigeria, ofta serverad vid speciella tillfällen och familjesammankomster.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-004": {
+  "title": "Ogbonosoppa (Drawsoppa)",
+  "ingredients": {
+   "w-ng-004-i1": {
+    "name": "ogbonofrön",
+    "standardAmount": "1 kopp"
+   },
+   "w-ng-004-i2": {
+    "name": "kokt nötkött",
+    "standardAmount": "1 pund"
+   },
+   "w-ng-004-i3": {
+    "name": "shaki (tarm)",
+    "standardAmount": "8 uns"
+   },
+   "w-ng-004-i4": {
+    "name": "kofötter",
+    "standardAmount": "12 uns"
+   },
+   "w-ng-004-i5": {
+    "name": "palmolja",
+    "standardAmount": "¾ kopp"
+   },
+   "w-ng-004-i6": {
+    "name": "hackad spenat",
+    "standardAmount": "2 koppar"
+   },
+   "w-ng-004-i7": {
+    "name": "buljongpulver",
+    "standardAmount": "1 msk"
+   },
+   "w-ng-004-i8": {
+    "name": "malda torkade räkor",
+    "standardAmount": "1 msk"
+   },
+   "w-ng-004-i9": {
+    "name": "cayennepeppar",
+    "standardAmount": "1 msk"
+   },
+   "w-ng-004-i10": {
+    "name": "köttbuljong",
+    "standardAmount": "2-4 koppar"
+   },
+   "w-ng-004-i11": {
+    "name": "salt",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Om du använder hela ogbonofrön, mala dem med en mortel och en mortelstöt eller en kaffekvarn. Hoppa över detta steg om du använder förmalda frön.",
+   "2": "I en stor kastrull, tillsätt lite palmolja på låg värme och tillsätt ogbonofröna.",
+   "3": "Rör in ogbonofröna och bryt upp eventuella klumpar med en serveringssked. Rör tills de är helt täckta.",
+   "4": "Tillsätt buljongen och rör om. Tillsätt ungefär en kopp åt gången tills önskad tjocklek uppnås. Om du inte har tillräckligt med buljong, tillsätt vatten.",
+   "5": "Koka upp, sänk sedan till låg värme och låt sjuda i ungefär 10 minuter, rör om då och då.",
+   "6": "Tillsätt kötten och kryddorna.",
+   "7": "Smaka av saltet och tillsätt lite om nödvändigt.",
+   "8": "Om det blir för tjockt, tillsätt lite mer vatten.",
+   "9": "Låt sjuda i ungefär 10 minuter.",
+   "10": "Tillsätt den hackade spenaten och låt sjuda på låg värme i ungefär 2 minuter till.",
+   "11": "Din ogbonosoppa är redo att serveras!"
+  },
+  "culturalNotes": "Ogbonosoppa är en populär rätt i Nigeria, ofta serverad med ris eller fufu.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-005": {
+  "title": "Edikang Ikong (nigeriansk grönsakssoppa)",
+  "ingredients": {
+   "w-ng-005-i1": {
+    "name": "getkött",
+    "standardAmount": "2 pund"
+   },
+   "w-ng-005-i2": {
+    "name": "buljongpulver",
+    "standardAmount": "2 tsk"
+   },
+   "w-ng-005-i3": {
+    "name": "svartpeppar",
+    "standardAmount": "1 tsk"
+   },
+   "w-ng-005-i4": {
+    "name": "salt",
+    "standardAmount": "1 tsk eller efter smak"
+   },
+   "w-ng-005-i5": {
+    "name": "lök",
+    "standardAmount": "1/2 lök"
+   },
+   "w-ng-005-i6": {
+    "name": "vattenblad (malabarspenat)",
+    "standardAmount": "2 koppar"
+   },
+   "w-ng-005-i7": {
+    "name": "ugwublad (räfflade pumpablad)",
+    "standardAmount": "4 koppar"
+   },
+   "w-ng-005-i8": {
+    "name": "palmolja",
+    "standardAmount": "3/4 kopp"
+   },
+   "w-ng-005-i9": {
+    "name": "vatten",
+    "standardAmount": "2 koppar"
+   },
+   "w-ng-005-i10": {
+    "name": "rökt/torkad fisk",
+    "standardAmount": "6 uns"
+   },
+   "w-ng-005-i11": {
+    "name": "räkor",
+    "standardAmount": "8 uns"
+   },
+   "w-ng-005-i12": {
+    "name": "malda torkade räkor",
+    "standardAmount": "2 tsk"
+   },
+   "w-ng-005-i13": {
+    "name": "cayennepeppar",
+    "standardAmount": "1 tsk"
+   }
+  },
+  "instructions": {
+   "1": "Tvätta getköttet ordentligt och skär det i små bitar. Lägg det i en kastrull och tillsätt 2 koppar vatten. Koka upp på medelvärme i 30 minuter tills det är halvkokt.",
+   "2": "Tillsätt buljongpulver, svartpeppar, salt och lök. Låt koka 10 minuter.",
+   "3": "Tvätta vattenbladet och ugwubladen väl och skär dem i små bitar.",
+   "4": "Tillsätt vattenbladet och ugwubladen i kastrullen. Låt dem koka 10 minuter.",
+   "5": "Tillsätt palmoljan, den rökta fisken, räkorna och de malda torkade räkorna. Låt blandningen koka 10 minuter.",
+   "6": "Tillsätt cayennepepparn och låt soppan koka 5 minuter.",
+   "7": "Stäng av värmen och servera soppan varm."
+  },
+  "culturalNotes": "Edikang Ikong är en traditionell nigeriansk grönsakssoppa känd för sin rika smak och gröna blad.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-006": {
+  "title": "Efo Riro - nigeriansk spenatgryta",
+  "ingredients": {
+   "w-ng-006-i1": {
+    "name": "spenat",
+    "standardAmount": "8 koppar hackad"
+   },
+   "w-ng-006-i2": {
+    "name": "kokt nötkött eller getkött",
+    "standardAmount": "12 uns (t.ex. getkött)"
+   },
+   "w-ng-006-i3": {
+    "name": "svamp",
+    "standardAmount": "2 koppar"
+   },
+   "w-ng-006-i4": {
+    "name": "palmolja",
+    "standardAmount": "½ kopp"
+   },
+   "w-ng-006-i5": {
+    "name": "romatomater",
+    "standardAmount": "2"
+   },
+   "w-ng-006-i6": {
+    "name": "röd paprika",
+    "standardAmount": "1"
+   },
+   "w-ng-006-i7": {
+    "name": "habaneropeppar",
+    "standardAmount": "1"
+   },
+   "w-ng-006-i8": {
+    "name": "lök",
+    "standardAmount": "1"
+   },
+   "w-ng-006-i9": {
+    "name": "vatten eller nötbuljong",
+    "standardAmount": "¼ kopp"
+   },
+   "w-ng-006-i10": {
+    "name": "buljongpulver",
+    "standardAmount": "2 tsk"
+   },
+   "w-ng-006-i11": {
+    "name": "cayennepeppar",
+    "standardAmount": "2 tsk"
+   },
+   "w-ng-006-i12": {
+    "name": "svartpeppar",
+    "standardAmount": "1 tsk"
+   },
+   "w-ng-006-i13": {
+    "name": "malda torkade räkor",
+    "standardAmount": "2 tsk"
+   },
+   "w-ng-006-i14": {
+    "name": "chiliflakes (valfritt)",
+    "standardAmount": "1 tsk"
+   },
+   "w-ng-006-i15": {
+    "name": "salt",
+    "standardAmount": "1 tsk (eller efter smak)"
+   }
+  },
+  "instructions": {
+   "1": "Tvätta spenaten ordentligt och hacka den.",
+   "2": "I en stor kastrull, värm palmoljan på medelvärme.",
+   "3": "Tillsätt den hackade löken, habaneropepparn, den röda paprikan och tomaterna, och rör om i 5 minuter tills löken blir genomskinlig.",
+   "4": "Tillsätt det kokta nötköttet eller getköttet och svampen, och fortsätt röra i 3 minuter.",
+   "5": "Tillsätt spenaten, buljongpulvret, de malda torkade räkorna, cayennepepparn, svartpepparn och saltet, och rör om väl.",
+   "6": "Tillsätt vattnet eller buljongen, koka upp blandningen, sänk sedan värmen och låt sjuda i 20 minuter.",
+   "7": "Tillsätt chiliflakes om så önskas, och fortsätt koka i ytterligare 5 minuter.",
+   "8": "Servera grytan varm med ris eller fufu."
+  },
+  "culturalNotes": "Efo Riro är en populär rätt i Nigeria, vanligtvis serverad med ris eller fufu.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-007": {
+  "title": "Ewedusoppa",
+  "ingredients": {
+   "w-ng-007-i1": {
+    "name": "frysta juteblad",
+    "standardAmount": "400g"
+   },
+   "w-ng-007-i2": {
+    "name": "malda torkade räkor",
+    "standardAmount": "1 tsk"
+   },
+   "w-ng-007-i3": {
+    "name": "salt",
+    "standardAmount": "1/2 tsk eller efter smak"
+   },
+   "w-ng-007-i4": {
+    "name": "iru (fermenterade johannesbröd)",
+    "standardAmount": "1 msk (valfritt)"
+   },
+   "w-ng-007-i5": {
+    "name": "peppar",
+    "standardAmount": "1/2 tsk"
+   },
+   "w-ng-007-i6": {
+    "name": "buljong (eller 1 Maggibuljongtärning)",
+    "standardAmount": "1 tsk"
+   }
+  },
+  "instructions": {
+   "1": "Tvätta jutebladen ordentligt om du använder färska, eller låt dem tina om du använder frysta.",
+   "2": "Lägg jutebladen i en kastrull och tillsätt tillräckligt med vatten för att täcka dem.",
+   "3": "Tillsätt de malda torkade räkorna, saltet, irun (om den används), pepparn och buljongen.",
+   "4": "Koka upp blandningen på medelvärme, sänk sedan värmen och sjuda i 20 till 30 minuter tills bladen är mjuka.",
+   "5": "Servera soppan varm med ris eller fufu."
+  },
+  "culturalNotes": "Ewedu är en traditionell nigeriansk soppa som ofta serveras med ris eller fufu.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-008": {
+  "title": "Stekt banan",
+  "ingredients": {
+   "w-ng-008-i1": {
+    "name": "banan",
+    "standardAmount": "1 banan"
+   },
+   "w-ng-008-i2": {
+    "name": "vegetabilisk olja",
+    "standardAmount": "tillräckligt för stekning"
+   },
+   "w-ng-008-i3": {
+    "name": "brunt socker (eller salt)",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Värm ett tunt lager vegetabilisk olja i en stekpanna.",
+   "2": "Skär under tiden bananen i långa, diagonala skivor.",
+   "3": "Stek skivorna i oljan på båda sidor tills de är gyllenbruna.",
+   "4": "Strö omedelbart den stekta bananen med salt eller brunt socker efter smak.",
+   "5": "Servera varm."
+  },
+  "culturalNotes": "Stekt banan är en populär rätt i Nigeria, serverad som tillbehör eller som en del av en huvudrätt.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-009": {
+  "title": "Kuli-kuli",
+  "ingredients": {
+   "w-ng-009-i1": {
+    "name": "jordnötter",
+    "standardAmount": "6 koppar (750 g)"
+   },
+   "w-ng-009-i2": {
+    "name": "vatten",
+    "standardAmount": "vid behov"
+   },
+   "w-ng-009-i3": {
+    "name": "socker",
+    "standardAmount": "2 msk"
+   },
+   "w-ng-009-i4": {
+    "name": "salt",
+    "standardAmount": "½-1 tesked eller efter smak"
+   },
+   "w-ng-009-i5": {
+    "name": "lök",
+    "standardAmount": "½ lök (valfritt), mosad"
+   },
+   "w-ng-009-i6": {
+    "name": "vitlök",
+    "standardAmount": "2 klyftor (valfritt), krossad"
+   },
+   "w-ng-009-i7": {
+    "name": "chilipasta",
+    "standardAmount": "1 matsked (valfritt)"
+   },
+   "w-ng-009-i8": {
+    "name": "malen ingefära",
+    "standardAmount": "1 tesked (valfritt)"
+   }
+  },
+  "instructions": {
+   "1": "Rosta jordnötterna i en torr stekpanna på medelvärme, rör om då och då för att förhindra att de bränns. När de är rostade, ta bort skalen genom att gnida dem mellan händerna eller använda en trasa för att försiktigt trycka och lossna skalen.",
+   "2": "Använd en matberedare eller mixer, mala de rostade jordnötterna för att bilda ett jordnötssmör, arbeta i omgångar vid behov. Detta tar cirka 5-10 minuter beroende på effekten.",
+   "3": "Överför jordnötsblandningen till en stor blandningsskål. Tillsätt vatten, ¼ kopp (60 ml) åt gången, till jordnötssmöret, knåda med händerna efter varje tillsats. Detta kommer att svälla kornen i jordnötssmöret, göra det tjockare och frigöra oljorna. Sluta tillsätta vatten när blandningen börjar frigöra oljor. Fortsätt knåda i ytterligare 5 minuter för att frigöra så mycket olja som möjligt.",
+   "4": "Lägg blandningen i en ostduk och pressa för att frigöra oljorna. Överför jordnötsblandningen tillbaka till skålen och spara oljorna för stekning.",
+   "5": "Rör in de återstående ingredienserna, blanda väl för att kombinera.",
+   "6": "Rör in tillräckligt med vatten, en matsked åt gången, tills du får en formbar deg, och knåda väl.",
+   "7": "Ta teskedar av degen och rulla till små bollar eller forma platta skivor, efter din preferens. Du kan också forma dem till små cylindrar eller ovala former, som traditionell kuli-kuli. Du kan experimentera med olika former.",
+   "8": "Värm den sparade oljan i en stekpanna på medelvärme. Stek kuli-kuli bitarna i omgångar, se till att inte överfylla stekpannan, tills de är gyllenbruna och knapriga på alla sidor (cirka 4-5 minuter). Se till att vända dem försiktigt för jämn stekning.",
+   "9": "När de är stekta, ta bort kuli-kuli från oljan och lägg dem på hushållspapper för att låta överflödig olja rinna av. Låt dem svalna helt innan servering."
+  },
+  "culturalNotes": "Kuli-kuli är en traditionell nigeriansk mellanmål eller frukost.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-010": {
+  "title": "Ofadaris",
+  "ingredients": {
+   "w-ng-010-i1": {
+    "name": "Ofadaris",
+    "standardAmount": "2 koppar"
+   },
+   "w-ng-010-i2": {
+    "name": "vatten",
+    "standardAmount": "för att tvätta och koka"
+   },
+   "w-ng-010-i3": {
+    "name": "salt",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Tvätta riset ordentligt med vatten tills sköljvattnet är klart.",
+   "2": "Tillsätt riset i en stor kastrull och tillsätt tillräckligt med vatten för att täcka riset cirka 2 cm.",
+   "3": "Tillsätt salt efter smak.",
+   "4": "Täck kastrullen och koka upp riset på hög värme.",
+   "5": "Sänk värmen och låt riset sjuda i 20 minuter eller tills det är kokt.",
+   "6": "Stäng av värmen och låt riset vila i 5 minuter innan servering."
+  },
+  "culturalNotes": "Ofadaris är en lokal rissort i Nigeria, känd för sin unika smak och mörkbruna färg.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-011": {
+  "title": "Ofe Owerri",
+  "ingredients": {
+   "w-ng-011-i1": {
+    "name": "blandat kött (nöt, get, tarm)",
+    "standardAmount": "1 kg"
+   },
+   "w-ng-011-i2": {
+    "name": "buljongtärningar",
+    "standardAmount": "4-6"
+   },
+   "w-ng-011-i3": {
+    "name": "vatten",
+    "standardAmount": "3-4 koppar"
+   },
+   "w-ng-011-i4": {
+    "name": "torkad fisk, rökt fisk eller torkad torsk",
+    "standardAmount": "500 g"
+   },
+   "w-ng-011-i5": {
+    "name": "cocoyampasta",
+    "standardAmount": "1 kopp"
+   },
+   "w-ng-011-i6": {
+    "name": "palmolja",
+    "standardAmount": "1 kopp"
+   },
+   "w-ng-011-i7": {
+    "name": "malda torkade räkor",
+    "standardAmount": "3 msk"
+   },
+   "w-ng-011-i8": {
+    "name": "ogiri (pasta av fermenterade melonfrön)",
+    "standardAmount": "2 msk"
+   },
+   "w-ng-011-i9": {
+    "name": "färsk paprika eller chili",
+    "standardAmount": "efter smak"
+   },
+   "w-ng-011-i10": {
+    "name": "okazi- eller uzizablad",
+    "standardAmount": "1 kopp, tunt skivad"
+   },
+   "w-ng-011-i11": {
+    "name": "ugublad",
+    "standardAmount": "2 koppar hackad"
+   }
+  },
+  "instructions": {
+   "1": "Rengör köttet och den torkade fisken och skär dem i bitar.",
+   "2": "Lägg köttet i en kastrull med buljongtärningar och vatten och koka upp tills det är mört.",
+   "3": "Tillsätt den torkade fisken och den rökta fisken och sjuda i 10 minuter.",
+   "4": "Rör in cocoyampastan för att tjockna soppan, se till att den är väl inblandad.",
+   "5": "Rör in palmoljan, de malda torkade räkorna, ogirin och pepparn och sjuda i 5 till 10 minuter.",
+   "6": "Tillsätt okazibladen och sjuda i 3 minuter.",
+   "7": "Rör in ugubladen och sjuda i 2 till 3 minuter.",
+   "8": "Smaka av och justera kryddorna. Servera varm med stött yam eller fufu."
+  },
+  "culturalNotes": "Ofe Owerri är en traditionell soppa från delstaten Imo i Nigeria, vanligtvis serverad med stött yam eller fufu.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-012": {
+  "title": "Owosoppa",
+  "ingredients": {
+   "w-ng-012-i1": {
+    "name": "Färska tomater",
+    "standardAmount": "vid behov"
+   },
+   "w-ng-012-i2": {
+    "name": "Färsk chili",
+    "standardAmount": "vid behov"
+   },
+   "w-ng-012-i3": {
+    "name": "Getkött eller blandat halalkött",
+    "standardAmount": "500 g"
+   },
+   "w-ng-012-i4": {
+    "name": "Liten lök",
+    "standardAmount": "1 liten lök"
+   },
+   "w-ng-012-i5": {
+    "name": "Buljong-/buljongtärningar",
+    "standardAmount": "vid behov"
+   },
+   "w-ng-012-i6": {
+    "name": "Salt",
+    "standardAmount": "efter smak"
+   },
+   "w-ng-012-i7": {
+    "name": "Torkad fisk",
+    "standardAmount": "1 en handfull"
+   },
+   "w-ng-012-i8": {
+    "name": "Malda torkade räkor",
+    "standardAmount": "vid behov"
+   },
+   "w-ng-012-i9": {
+    "name": "Potaska (akaun)",
+    "standardAmount": "1/2 tsk"
+   },
+   "w-ng-012-i10": {
+    "name": "Palmolja",
+    "standardAmount": "vid behov"
+   }
+  },
+  "instructions": {
+   "1": "Mala tomaterna och den färska chilin till en pasta.",
+   "2": "Kombinera köttet, löken, buljongtärningarna och saltet i en kastrull. Koka ungefär 3 minuter i sina egna juicer.",
+   "3": "Täck köttet med vatten och sjuda tills det är mört.",
+   "4": "Tillsätt den torkade fisken, tomat-chilipastan och de malda torkade räkorna till köttet. Tillsätt ungefär en kopp vatten och rör om. Låt sjuda i 10 minuter, rör om för att förhindra att det bränns.",
+   "5": "Lös potaskapulvret i 4 matskedar hett vatten. Sila försiktigt blandningen och rör in vätskan i soppan.",
+   "6": "Stäng av värmen och låt soppan svalna i ungefär 10 minuter.",
+   "7": "Sätt tillbaka soppan på värmen och rör gradvis in palmoljan.",
+   "8": "Ta bort från värmen och servera med bananer, yam eller valfri sväljmat."
+  },
+  "culturalNotes": "Owosoppa är en traditionell nigeriansk rätt, vanligtvis serverad med bananer, yam eller valfri sväljmat.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-013": {
+  "title": "Jordnötsgryta med nötkött och spenat",
+  "ingredients": {
+   "w-ng-013-i1": {
+    "name": "nötkött",
+    "standardAmount": "1 1/4 pund"
+   },
+   "w-ng-013-i2": {
+    "name": "vegetabilisk olja",
+    "standardAmount": "vid behov"
+   },
+   "w-ng-013-i3": {
+    "name": "lökar",
+    "standardAmount": "2 lökar"
+   },
+   "w-ng-013-i4": {
+    "name": "vitlök",
+    "standardAmount": "4 klyftor"
+   },
+   "w-ng-013-i5": {
+    "name": "nötbuljong",
+    "standardAmount": "3 koppar"
+   },
+   "w-ng-013-i6": {
+    "name": "spenat",
+    "standardAmount": "3 knippor"
+   },
+   "w-ng-013-i7": {
+    "name": "tomater",
+    "standardAmount": "3 tomater"
+   },
+   "w-ng-013-i8": {
+    "name": "osötat jordnötssmör",
+    "standardAmount": "1 kopp"
+   }
+  },
+  "instructions": {
+   "1": "Skär nötköttet i tärningar och brynna det i vegetabilisk olja.",
+   "2": "Tillsätt löken och vitlöken och koka i flera minuter tills löken börjar mjukna och till och med ta lite färg.",
+   "3": "Häll i nötbuljongen och koka upp, sänk sedan värmen och sjuda tills vätskan reducerats till hälften.",
+   "4": "Rör in det osötade jordnötssmöret tills det är väl inblandat.",
+   "5": "Tillsätt tomaterna och spenaten och koka tills spenaten vissnar och jordnötssmöret frigör sina oljor, vilket gör rätten glansig."
+  },
+  "culturalNotes": "Jordnötsgryta är en populär rätt i Nigeria, ofta serverad med plattbröd som kisra eller ris.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-014": {
+  "title": "Nigeriansk ogbonosoppa med stött yam",
+  "ingredients": {
+   "w-ng-014-i1": {
+    "name": "Kött (oxsvans, grytkött, tarm, kohud)",
+    "standardAmount": "1-2 pund"
+   },
+   "w-ng-014-i2": {
+    "name": "Rökt fisk",
+    "standardAmount": "1 kopp"
+   },
+   "w-ng-014-i3": {
+    "name": "Lök",
+    "standardAmount": "1 kopp tärnad"
+   },
+   "w-ng-014-i4": {
+    "name": "Malda torkade räkor",
+    "standardAmount": "½ kopp"
+   },
+   "w-ng-014-i5": {
+    "name": "Kycklingbuljong",
+    "standardAmount": "1 matsked (justera efter smak)"
+   },
+   "w-ng-014-i6": {
+    "name": "Bladgrönsaker (spenat, grönkål, collard greens, callaloo)",
+    "standardAmount": "3 koppar hackad"
+   },
+   "w-ng-014-i7": {
+    "name": "Palmolja",
+    "standardAmount": "¼-⅓ kopp"
+   },
+   "w-ng-014-i8": {
+    "name": "Röda chiliflakes",
+    "standardAmount": "1 matsked"
+   },
+   "w-ng-014-i9": {
+    "name": "Mald egusi (valfritt)",
+    "standardAmount": "½ kopp"
+   },
+   "w-ng-014-i10": {
+    "name": "Mald ogbono",
+    "standardAmount": "½ kopp"
+   },
+   "w-ng-014-i11": {
+    "name": "Salt och peppar",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Tvätta köttet och låt det ligga i vatten i 30 minuter, sedan avrinna.",
+   "2": "Lägg köttet i en kastrull och täck med vatten. Tillsätt löken och buljongen och koka upp på låg värme i en timme.",
+   "3": "Tillsätt den rökta fisken, de malda torkade räkorna, bladgrönsakerna, palmoljan och de röda chiliflakes. Koka ytterligare 30 minuter.",
+   "4": "Tillsätt den malda egusin och den malda ogbonon och rör om väl. Koka i 10 minuter tills det tjocknar.",
+   "5": "Tillsätt salt och peppar efter smak. Koka ytterligare 5 minuter.",
+   "6": "I en separat kastrull, lägg det stötta yamet och koka upp på låg värme i 10 minuter tills det är mjukt.",
+   "7": "Servera soppan med det varma stötta yamet."
+  },
+  "culturalNotes": "Nigeriansk ogbonosoppa med stött yam är en traditionell rätt i Nigeria, känd för sin rika smak och krämiga konsistens.",
+  "chapter": "مطبخ نيجيريا"
  }
 }

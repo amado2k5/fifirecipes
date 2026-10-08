@@ -9132,5 +9132,708 @@
   },
   "culturalNotes": "El Pastel de Choclo es un plato tradicional peruano que se sirve a menudo en ocasiones especiales y reuniones familiares.",
   "chapter": "pe"
+ },
+ "w-ng-001": {
+  "title": "Akamu (pudín nigeriano)",
+  "ingredients": {
+   "w-ng-001-i1": {
+    "name": "pasta de akamu",
+    "standardAmount": "cantidad suficiente"
+   },
+   "w-ng-001-i2": {
+    "name": "agua caliente",
+    "standardAmount": "según sea necesario"
+   },
+   "w-ng-001-i3": {
+    "name": "leche evaporada",
+    "standardAmount": "1 lata (400 ml)"
+   },
+   "w-ng-001-i4": {
+    "name": "azúcar",
+    "standardAmount": "al gusto"
+   }
+  },
+  "instructions": {
+   "1": "Llena un tazón grande hasta la mitad con grumos de akamu.",
+   "2": "Machaca los grumos de akamu con una cuchara en trozos muy pequeños. Mezcla pequeñas cantidades de agua fría hasta que la mezcla esté suave y tenga la consistencia de la leche evaporada.",
+   "3": "Lleva a ebullición una olla grande de agua.",
+   "4": "Antes de que el agua hierva, revuelve la mezcla a fondo. Una vez que el agua haya alcanzado la ebullición, con cuidado pero constantemente incorpórala a la mezcla de akamu revolviendo. Deja de revolver tan pronto como la mezcla comience a cuajar, y reduce el flujo de agua que estás vertiendo al mínimo hasta que el akamu haya cuajado por completo.",
+   "5": "Bate bien la mezcla. Agrega agua adicional si lo deseas si la mezcla está demasiado espesa.",
+   "6": "Incorpora la leche evaporada y una pizca de azúcar al gusto."
+  },
+  "culturalNotes": "El Akamu es un desayuno tradicional nigeriano, a menudo servido con cacahuetes o frutas.",
+  "chapter": "ng"
+ },
+ "w-ng-002": {
+  "title": "Estofado Ofada (estofado Ayamase)",
+  "ingredients": {
+   "w-ng-002-i1": {
+    "name": "pimientos verdes",
+    "standardAmount": "3"
+   },
+   "w-ng-002-i2": {
+    "name": "pimiento rojo",
+    "standardAmount": "1"
+   },
+   "w-ng-002-i3": {
+    "name": "chiles habanero",
+    "standardAmount": "2"
+   },
+   "w-ng-002-i4": {
+    "name": "aceite de palma",
+    "standardAmount": "1/4 taza"
+   },
+   "w-ng-002-i5": {
+    "name": "cebolla",
+    "standardAmount": "1/2"
+   },
+   "w-ng-002-i6": {
+    "name": "iru (algarrobas fermentadas)",
+    "standardAmount": "1 cucharada"
+   },
+   "w-ng-002-i7": {
+    "name": "cangrejo de río molido",
+    "standardAmount": "1 cucharada"
+   },
+   "w-ng-002-i8": {
+    "name": "caldo en polvo",
+    "standardAmount": "2 cucharadita"
+   },
+   "w-ng-002-i9": {
+    "name": "sal",
+    "standardAmount": "2 cucharadita"
+   },
+   "w-ng-002-i10": {
+    "name": "pimienta negra",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-ng-002-i11": {
+    "name": "carne de res",
+    "standardAmount": "12 onzas"
+   }
+  },
+  "instructions": {
+   "1": "Pica las cebollas.",
+   "2": "Muele gruesamente los pimientos verdes, el pimiento rojo y los chiles habanero.",
+   "3": "Si la mezcla molida parece un poco aguada, viértela en una olla y deja que hierva hasta que se evapore parte del agua.",
+   "4": "Hierve la carne con caldo en polvo, pimienta negra y sal hasta que esté tierna.",
+   "5": "Blanquea el aceite de palma (como se indica en la siguiente sección).",
+   "6": "Agrega las cebollas y, después de aproximadamente un minuto, agrega la mezcla de pimientos molida y el iru.",
+   "7": "Cocina durante unos 5 minutos.",
+   "8": "Agrega la carne y las especias.",
+   "9": "Cocina otros 10 minutos a fuego medio-bajo o hasta que el aceite comience a subir a la superficie."
+  },
+  "culturalNotes": "El estofado Ofada es un plato popular en Nigeria, conocido por sus sabores ricos y picantes.",
+  "chapter": "ng"
+ },
+ "w-ng-003": {
+  "title": "Carne a la parrilla",
+  "ingredients": {
+   "w-ng-003-i1": {
+    "name": "carne de res",
+    "standardAmount": "2 libras"
+   },
+   "w-ng-003-i2": {
+    "name": "ajo en polvo",
+    "standardAmount": "2 cucharada"
+   },
+   "w-ng-003-i3": {
+    "name": "orégano",
+    "standardAmount": "2 cucharadita"
+   },
+   "w-ng-003-i4": {
+    "name": "jugo de lima",
+    "standardAmount": "jugo de 2 limas"
+   },
+   "w-ng-003-i5": {
+    "name": "pimienta negra",
+    "standardAmount": "al gusto"
+   },
+   "w-ng-003-i6": {
+    "name": "sal",
+    "standardAmount": "al gusto"
+   }
+  },
+  "instructions": {
+   "1": "Coloca la carne en una bolsa grande con cierre junto con el jugo de lima, el ajo en polvo, el orégano, la pimienta negra y la sal.",
+   "2": "Sella la bolsa y mezcla los ingredientes hasta que estén uniformemente distribuidos. Marina durante al menos 1 hora, o hasta 5 horas para un sabor más fuerte.",
+   "3": "Asa el bistec a fuego medio hasta que alcance una temperatura interna de 68-71°C (155-160°F), que es aproximadamente término medio. El tiempo de cocción variará según el grosor del bistec."
+  },
+  "culturalNotes": "La carne a la parrilla es un plato popular en Nigeria, a menudo servido en ocasiones especiales y reuniones familiares.",
+  "chapter": "ng"
+ },
+ "w-ng-004": {
+  "title": "Sopa Ogbono (sopa Draw)",
+  "ingredients": {
+   "w-ng-004-i1": {
+    "name": "semillas de ogbono",
+    "standardAmount": "1 taza"
+   },
+   "w-ng-004-i2": {
+    "name": "carne de res cocida",
+    "standardAmount": "1 libra"
+   },
+   "w-ng-004-i3": {
+    "name": "shaki (callos)",
+    "standardAmount": "8 onzas"
+   },
+   "w-ng-004-i4": {
+    "name": "patas de vaca",
+    "standardAmount": "12 onzas"
+   },
+   "w-ng-004-i5": {
+    "name": "aceite de palma",
+    "standardAmount": "¾ taza"
+   },
+   "w-ng-004-i6": {
+    "name": "espinaca picada",
+    "standardAmount": "2 tazas"
+   },
+   "w-ng-004-i7": {
+    "name": "caldo en polvo",
+    "standardAmount": "1 cucharada"
+   },
+   "w-ng-004-i8": {
+    "name": "cangrejo de río molido",
+    "standardAmount": "1 cucharada"
+   },
+   "w-ng-004-i9": {
+    "name": "pimienta de cayena",
+    "standardAmount": "1 cucharada"
+   },
+   "w-ng-004-i10": {
+    "name": "caldo de carne",
+    "standardAmount": "2-4 tazas"
+   },
+   "w-ng-004-i11": {
+    "name": "sal",
+    "standardAmount": "al gusto"
+   }
+  },
+  "instructions": {
+   "1": "Si usas semillas de ogbono enteras, muélelas con un mortero y un majo o un molinillo de café. Omite este paso si usas semillas premolidas.",
+   "2": "En una olla grande, agrega un poco de aceite de palma a fuego bajo y agrega las semillas de ogbono.",
+   "3": "Incorpora las semillas de ogbono y rompe los grumos con una cuchara de servir. Revuelve hasta que estén completamente cubiertas.",
+   "4": "Agrega el caldo y revuelve. Agrega aproximadamente una taza a la vez hasta alcanzar el espesor deseado. Si no tienes suficiente caldo, agrega agua.",
+   "5": "Lleva a ebullición, luego baja a fuego lento y deja cocinar durante unos 10 minutos, revolviendo intermitentemente.",
+   "6": "Agrega las carnes y las especias.",
+   "7": "Prueba la sal y agrega un poco si es necesario.",
+   "8": "Si se vuelve demasiado espesa, agrega un poco más de agua.",
+   "9": "Deja cocer a fuego lento unos 10 minutos.",
+   "10": "Agrega la espinaca picada y deja cocer a fuego lento unos 2 minutos más.",
+   "11": "¡Tu sopa ogbono está lista para servir!"
+  },
+  "culturalNotes": "La sopa Ogbono es un plato popular en Nigeria, a menudo servido con arroz o fufu.",
+  "chapter": "ng"
+ },
+ "w-ng-005": {
+  "title": "Edikang Ikong (sopa de verduras nigeriana)",
+  "ingredients": {
+   "w-ng-005-i1": {
+    "name": "carne de cabra",
+    "standardAmount": "2 libras"
+   },
+   "w-ng-005-i2": {
+    "name": "caldo en polvo",
+    "standardAmount": "2 cucharadita"
+   },
+   "w-ng-005-i3": {
+    "name": "pimienta negra",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-ng-005-i4": {
+    "name": "sal",
+    "standardAmount": "1 cucharadita o al gusto"
+   },
+   "w-ng-005-i5": {
+    "name": "cebolla",
+    "standardAmount": "1/2 cebolla"
+   },
+   "w-ng-005-i6": {
+    "name": "hoja de agua (espinaca de Malabar)",
+    "standardAmount": "2 tazas"
+   },
+   "w-ng-005-i7": {
+    "name": "hojas de ugwu (hojas de calabaza acanalada)",
+    "standardAmount": "4 tazas"
+   },
+   "w-ng-005-i8": {
+    "name": "aceite de palma",
+    "standardAmount": "3/4 taza"
+   },
+   "w-ng-005-i9": {
+    "name": "agua",
+    "standardAmount": "2 tazas"
+   },
+   "w-ng-005-i10": {
+    "name": "pescado ahumado/seco",
+    "standardAmount": "6 onzas"
+   },
+   "w-ng-005-i11": {
+    "name": "camarones",
+    "standardAmount": "8 onzas"
+   },
+   "w-ng-005-i12": {
+    "name": "cangrejo de río molido",
+    "standardAmount": "2 cucharadita"
+   },
+   "w-ng-005-i13": {
+    "name": "pimienta de cayena",
+    "standardAmount": "1 cucharadita"
+   }
+  },
+  "instructions": {
+   "1": "Lava la carne de cabra a fondo y córtala en trozos pequeños. Colócala en una olla y agrega 2 tazas de agua. Lleva a ebullición a fuego medio durante 30 minutos hasta que esté medio cocida.",
+   "2": "Agrega el caldo en polvo, la pimienta negra, la sal y la cebolla. Deja hervir 10 minutos.",
+   "3": "Lava bien la hoja de agua y las hojas de ugwu y córtalas en trozos pequeños.",
+   "4": "Agrega la hoja de agua y las hojas de ugwu a la olla. Déjalas hervir 10 minutos.",
+   "5": "Agrega el aceite de palma, el pescado ahumado, los camarones y el cangrejo de río molido. Deja hervir la mezcla 10 minutos.",
+   "6": "Agrega la pimienta de cayena y deja hervir la sopa 5 minutos.",
+   "7": "Apaga el fuego y sirve la sopa caliente."
+  },
+  "culturalNotes": "Edikang Ikong es una sopa de verduras tradicional nigeriana conocida por su sabor rico y sus hojas verdes.",
+  "chapter": "ng"
+ },
+ "w-ng-006": {
+  "title": "Efo Riro - estofado de espinaca nigeriano",
+  "ingredients": {
+   "w-ng-006-i1": {
+    "name": "espinaca",
+    "standardAmount": "8 tazas picado"
+   },
+   "w-ng-006-i2": {
+    "name": "carne de res o cabra cocida",
+    "standardAmount": "12 onzas (p. ej., carne de cabra)"
+   },
+   "w-ng-006-i3": {
+    "name": "champiñones",
+    "standardAmount": "2 tazas"
+   },
+   "w-ng-006-i4": {
+    "name": "aceite de palma",
+    "standardAmount": "½ taza"
+   },
+   "w-ng-006-i5": {
+    "name": "tomates roma",
+    "standardAmount": "2"
+   },
+   "w-ng-006-i6": {
+    "name": "pimiento rojo",
+    "standardAmount": "1"
+   },
+   "w-ng-006-i7": {
+    "name": "chile habanero",
+    "standardAmount": "1"
+   },
+   "w-ng-006-i8": {
+    "name": "cebolla",
+    "standardAmount": "1"
+   },
+   "w-ng-006-i9": {
+    "name": "agua o caldo de res",
+    "standardAmount": "¼ taza"
+   },
+   "w-ng-006-i10": {
+    "name": "caldo en polvo",
+    "standardAmount": "2 cucharadita"
+   },
+   "w-ng-006-i11": {
+    "name": "pimienta de cayena",
+    "standardAmount": "2 cucharadita"
+   },
+   "w-ng-006-i12": {
+    "name": "pimienta negra",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-ng-006-i13": {
+    "name": "cangrejo de río molido",
+    "standardAmount": "2 cucharadita"
+   },
+   "w-ng-006-i14": {
+    "name": "hojuelas de pimiento (opcional)",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-ng-006-i15": {
+    "name": "sal",
+    "standardAmount": "1 cucharadita (o al gusto)"
+   }
+  },
+  "instructions": {
+   "1": "Lava la espinaca a fondo y pícala.",
+   "2": "En una olla grande, calienta el aceite de palma a fuego medio.",
+   "3": "Agrega la cebolla picada, el chile habanero, el pimiento rojo y los tomates, y revuelve durante 5 minutos hasta que la cebolla se vuelva translúcida.",
+   "4": "Agrega la carne de res o cabra cocida y los champiñones, y continúa revolviendo durante 3 minutos.",
+   "5": "Agrega la espinaca, el caldo en polvo, el cangrejo de río molido, la pimienta de cayena, la pimienta negra y la sal, y revuelve bien.",
+   "6": "Agrega el agua o el caldo, lleva la mezcla a ebullición, luego reduce el fuego y deja cocer a fuego lento durante 20 minutos.",
+   "7": "Agrega las hojuelas de pimiento si lo deseas, y continúa cocinando 5 minutos adicionales.",
+   "8": "Sirve el estofado caliente con arroz o fufu."
+  },
+  "culturalNotes": "Efo Riro es un plato popular en Nigeria, típicamente servido con arroz o fufu.",
+  "chapter": "ng"
+ },
+ "w-ng-007": {
+  "title": "Sopa Ewedu",
+  "ingredients": {
+   "w-ng-007-i1": {
+    "name": "hojas de yute congeladas",
+    "standardAmount": "400g"
+   },
+   "w-ng-007-i2": {
+    "name": "cangrejo de río molido",
+    "standardAmount": "1 cucharadita"
+   },
+   "w-ng-007-i3": {
+    "name": "sal",
+    "standardAmount": "1/2 cucharadita o al gusto"
+   },
+   "w-ng-007-i4": {
+    "name": "iru (algarrobas fermentadas)",
+    "standardAmount": "1 cucharada (opcional)"
+   },
+   "w-ng-007-i5": {
+    "name": "pimienta",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-ng-007-i6": {
+    "name": "caldo (o 1 cubito Maggi)",
+    "standardAmount": "1 cucharadita"
+   }
+  },
+  "instructions": {
+   "1": "Lava las hojas de yute a fondo si usas frescas, o déjalas descongelar si usas congeladas.",
+   "2": "Coloca las hojas de yute en una olla y agrega suficiente agua para cubrirlas.",
+   "3": "Agrega el cangrejo de río molido, la sal, el iru (si lo usas), la pimienta y el caldo.",
+   "4": "Lleva la mezcla a ebullición a fuego medio, luego reduce el fuego y cocina a fuego lento de 20 a 30 minutos hasta que las hojas estén tiernas.",
+   "5": "Sirve la sopa caliente con arroz o fufu."
+  },
+  "culturalNotes": "Ewedu es una sopa tradicional nigeriana a menudo servida con arroz o fufu.",
+  "chapter": "ng"
+ },
+ "w-ng-008": {
+  "title": "Plátano frito",
+  "ingredients": {
+   "w-ng-008-i1": {
+    "name": "plátano",
+    "standardAmount": "1 plátano"
+   },
+   "w-ng-008-i2": {
+    "name": "aceite vegetal",
+    "standardAmount": "suficiente para freír"
+   },
+   "w-ng-008-i3": {
+    "name": "azúcar morena (o sal)",
+    "standardAmount": "al gusto"
+   }
+  },
+  "instructions": {
+   "1": "Calienta una capa fina de aceite vegetal en una sartén.",
+   "2": "Mientras tanto, corta el plátano en rodajas largas y oblongas.",
+   "3": "Fríe las rodajas en el aceite por ambos lados hasta que estén doradas.",
+   "4": "Espolvorea el plátano frito inmediatamente con sal o azúcar morena al gusto.",
+   "5": "Sirve caliente."
+  },
+  "culturalNotes": "El plátano frito es un plato popular en Nigeria, servido como acompañamiento o parte de una comida principal.",
+  "chapter": "ng"
+ },
+ "w-ng-009": {
+  "title": "Kuli-kuli",
+  "ingredients": {
+   "w-ng-009-i1": {
+    "name": "cacahuetes",
+    "standardAmount": "6 tazas (750 g)"
+   },
+   "w-ng-009-i2": {
+    "name": "agua",
+    "standardAmount": "según sea necesario"
+   },
+   "w-ng-009-i3": {
+    "name": "azúcar",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-ng-009-i4": {
+    "name": "sal",
+    "standardAmount": "½-1 cucharadita o al gusto"
+   },
+   "w-ng-009-i5": {
+    "name": "cebolla",
+    "standardAmount": "½ cebolla (opcional), en puré"
+   },
+   "w-ng-009-i6": {
+    "name": "ajo",
+    "standardAmount": "2 dientes (opcional), machacado"
+   },
+   "w-ng-009-i7": {
+    "name": "pasta de chile",
+    "standardAmount": "1 cucharada (opcional)"
+   },
+   "w-ng-009-i8": {
+    "name": "jengibre molido",
+    "standardAmount": "1 cucharadita (opcional)"
+   }
+  },
+  "instructions": {
+   "1": "Tuesta los cacahuetes en una sartén seca a fuego medio, revolviendo ocasionalmente para evitar que se quemen. Una vez tostados, quita las cáscaras frotándolos entre las manos o usando un paño para presionar suavemente y pelar las cáscaras.",
+   "2": "Usando un procesador de alimentos o una licuadora, muele los cacahuetes tostados para formar una mantequilla de cacahuete, trabajando en tandas según sea necesario. Esto tomará alrededor de 5-10 minutos dependiendo de la potencia.",
+   "3": "Transfiere la mezcla de cacahuete a un tazón grande para mezclar. Agrega agua, ¼ taza (60 ml) a la vez, a la mantequilla de cacahuete, amasando con las manos después de cada adición. Esto hinchará los granos en la mantequilla de cacahuete, haciéndola más espesa y liberando los aceites. Deja de agregar agua una vez que la mezcla comience a liberar aceites. Continúa amasando durante 5 minutos más para liberar la mayor cantidad de aceite posible.",
+   "4": "Coloca la mezcla en una gasa y exprime para liberar los aceites. Transfiere la mezcla de cacahuete de vuelta al tazón y reserva los aceites para freír.",
+   "5": "Incorpora los ingredientes restantes, mezclando bien para combinar.",
+   "6": "Mezcla suficiente agua, una cucharada a la vez, hasta obtener una masa moldeable, y amasa bien.",
+   "7": "Toma cucharaditas de la masa y rueda en bolas pequeñas o forma discos planos, según tu preferencia. También puedes formar pequeños cilindros u óvalos, como el kuli-kuli tradicional. Puedes experimentar con diferentes formas.",
+   "8": "Calienta el aceite reservado en una sartén a fuego medio. Fríe las piezas de kuli-kuli por tandas, asegurándote de que no llenen demasiado la sartén, hasta que estén doradas y crujientes por todos lados (unos 4-5 minutos). Asegúrate de voltearlas con cuidado para una fritura uniforme.",
+   "9": "Una vez fritas, retira los kuli-kuli del aceite y colócalos en un papel absorbente para escurrir el exceso de aceite. Deja que se enfríen completamente antes de servir."
+  },
+  "culturalNotes": "Kuli-kuli es un bocadillo o desayuno tradicional nigeriano.",
+  "chapter": "ng"
+ },
+ "w-ng-010": {
+  "title": "Arroz Ofada",
+  "ingredients": {
+   "w-ng-010-i1": {
+    "name": "arroz Ofada",
+    "standardAmount": "2 tazas"
+   },
+   "w-ng-010-i2": {
+    "name": "agua",
+    "standardAmount": "para lavar y cocinar"
+   },
+   "w-ng-010-i3": {
+    "name": "sal",
+    "standardAmount": "al gusto"
+   }
+  },
+  "instructions": {
+   "1": "Lava el arroz a fondo con agua hasta que el agua de enjuague esté clara.",
+   "2": "Agrega el arroz a una olla grande y agrega suficiente agua para cubrir el arroz unos 2 cm.",
+   "3": "Agrega sal al gusto.",
+   "4": "Tapa la olla y lleva el arroz a ebullición a fuego alto.",
+   "5": "Reduce el fuego y deja que el arroz cueza a fuego lento durante 20 minutos o hasta que esté cocido.",
+   "6": "Apaga el fuego y deja que el arroz repose 5 minutos antes de servir."
+  },
+  "culturalNotes": "El arroz Ofada es una variedad local de arroz en Nigeria, conocida por su sabor único y su color marrón oscuro.",
+  "chapter": "ng"
+ },
+ "w-ng-011": {
+  "title": "Ofe Owerri",
+  "ingredients": {
+   "w-ng-011-i1": {
+    "name": "carnes surtidas (res, cabra, callos)",
+    "standardAmount": "1 kg"
+   },
+   "w-ng-011-i2": {
+    "name": "cubitos de condimento",
+    "standardAmount": "4-6"
+   },
+   "w-ng-011-i3": {
+    "name": "agua",
+    "standardAmount": "3-4 tazas"
+   },
+   "w-ng-011-i4": {
+    "name": "pescado seco, pescado ahumado o stockfish",
+    "standardAmount": "500 g"
+   },
+   "w-ng-011-i5": {
+    "name": "pasta de malanga",
+    "standardAmount": "1 taza"
+   },
+   "w-ng-011-i6": {
+    "name": "aceite de palma",
+    "standardAmount": "1 taza"
+   },
+   "w-ng-011-i7": {
+    "name": "cangrejo de río molido",
+    "standardAmount": "3 cucharadas"
+   },
+   "w-ng-011-i8": {
+    "name": "ogiri (pasta de semillas de melón fermentadas)",
+    "standardAmount": "2 cucharadas"
+   },
+   "w-ng-011-i9": {
+    "name": "pimiento o chile fresco",
+    "standardAmount": "al gusto"
+   },
+   "w-ng-011-i10": {
+    "name": "hojas de okazi o uziza",
+    "standardAmount": "1 taza, en rodajas finas"
+   },
+   "w-ng-011-i11": {
+    "name": "hojas de ugu",
+    "standardAmount": "2 tazas picado"
+   }
+  },
+  "instructions": {
+   "1": "Limpia las carnes y el pescado seco, y córtalos en trozos.",
+   "2": "Agrega las carnes a una olla con cubitos de condimento y agua y lleva a ebullición hasta que estén tiernas.",
+   "3": "Agrega el pescado seco y el pescado ahumado y cocina a fuego lento 10 minutos.",
+   "4": "Incorpora la pasta de malanga para espesar la sopa, asegurándote de que esté bien incorporada.",
+   "5": "Incorpora el aceite de palma, el cangrejo de río, el ogiri y la pimienta y cocina a fuego lento de 5 a 10 minutos.",
+   "6": "Agrega las hojas de okazi y cocina a fuego lento 3 minutos.",
+   "7": "Incorpora las hojas de ugu y cocina a fuego lento de 2 a 3 minutos.",
+   "8": "Prueba y ajusta el condimento. Sirve caliente con ñame machacado o fufu."
+  },
+  "culturalNotes": "Ofe Owerri es una sopa tradicional del estado de Imo en Nigeria, típicamente servida con ñame machacado o fufu.",
+  "chapter": "ng"
+ },
+ "w-ng-012": {
+  "title": "Sopa Owo",
+  "ingredients": {
+   "w-ng-012-i1": {
+    "name": "Tomates frescos",
+    "standardAmount": "según sea necesario"
+   },
+   "w-ng-012-i2": {
+    "name": "Pimiento fresco",
+    "standardAmount": "según sea necesario"
+   },
+   "w-ng-012-i3": {
+    "name": "Carne de cabra o carne halal surtida",
+    "standardAmount": "500 g"
+   },
+   "w-ng-012-i4": {
+    "name": "Cebolla pequeña",
+    "standardAmount": "1 pequeña cebolla"
+   },
+   "w-ng-012-i5": {
+    "name": "Cubitos de condimento/caldo",
+    "standardAmount": "según sea necesario"
+   },
+   "w-ng-012-i6": {
+    "name": "Sal",
+    "standardAmount": "al gusto"
+   },
+   "w-ng-012-i7": {
+    "name": "Pescado seco",
+    "standardAmount": "1 puñado"
+   },
+   "w-ng-012-i8": {
+    "name": "Cangrejo de río molido",
+    "standardAmount": "según sea necesario"
+   },
+   "w-ng-012-i9": {
+    "name": "Potasa (akaun)",
+    "standardAmount": "1/2 cucharadita"
+   },
+   "w-ng-012-i10": {
+    "name": "Aceite de palma",
+    "standardAmount": "según sea necesario"
+   }
+  },
+  "instructions": {
+   "1": "Muele los tomates y el pimiento fresco hasta formar una pasta.",
+   "2": "Combina la carne, la cebolla, los cubitos de condimento y la sal en una olla. Cocina unos 3 minutos en sus propios jugos.",
+   "3": "Cubre la carne con agua y cocina a fuego lento hasta que esté tierna.",
+   "4": "Agrega el pescado seco, la pasta de tomate-pimiento y el cangrejo de río molido a la carne. Agrega aproximadamente una taza de agua y revuelve. Deja cocer a fuego lento 10 minutos, revolviendo para evitar que se queme.",
+   "5": "Disuelve el polvo de potasa en 4 cucharadas de agua caliente. Cuela la mezcla con cuidado y mezcla el líquido en la sopa.",
+   "6": "Apaga el fuego y deja que la sopa se enfríe unos 10 minutos.",
+   "7": "Vuelve a poner la sopa al fuego e incorpora gradualmente el aceite de palma.",
+   "8": "Retira del fuego y sirve con plátanos, ñame o cualquier alimento para tragar de tu elección."
+  },
+  "culturalNotes": "La sopa Owo es un plato tradicional nigeriano, típicamente servido con plátanos, ñame o cualquier alimento para tragar de su elección.",
+  "chapter": "ng"
+ },
+ "w-ng-013": {
+  "title": "Estofado de cacahuete con carne y espinaca",
+  "ingredients": {
+   "w-ng-013-i1": {
+    "name": "carne de res",
+    "standardAmount": "1 1/4 libra"
+   },
+   "w-ng-013-i2": {
+    "name": "aceite vegetal",
+    "standardAmount": "según sea necesario"
+   },
+   "w-ng-013-i3": {
+    "name": "cebollas",
+    "standardAmount": "2 cebollas"
+   },
+   "w-ng-013-i4": {
+    "name": "ajo",
+    "standardAmount": "4 dientes"
+   },
+   "w-ng-013-i5": {
+    "name": "caldo de res",
+    "standardAmount": "3 tazas"
+   },
+   "w-ng-013-i6": {
+    "name": "espinaca",
+    "standardAmount": "3 manojos"
+   },
+   "w-ng-013-i7": {
+    "name": "tomates",
+    "standardAmount": "3 tomates"
+   },
+   "w-ng-013-i8": {
+    "name": "mantequilla de cacahuete sin azúcar",
+    "standardAmount": "1 taza"
+   }
+  },
+  "instructions": {
+   "1": "Corta la carne en cubos y dórala en aceite vegetal.",
+   "2": "Agrega las cebollas y el ajo y cocina varios minutos hasta que las cebollas comiencen a ablandarse e incluso tomar un poco de color.",
+   "3": "Vierte el caldo de res y lleva a ebullición, luego reduce el fuego y cocina a fuego lento hasta que el líquido se reduzca a la mitad.",
+   "4": "Incorpora la mantequilla de cacahuete sin azúcar hasta que esté bien incorporada.",
+   "5": "Agrega los tomates y la espinaca y cocina hasta que la espinaca se marchite y la mantequilla de cacahuete libere sus aceites, haciendo que el plato quede brillante."
+  },
+  "culturalNotes": "El estofado de cacahuete es un plato popular en Nigeria, a menudo servido con pan plano como kisra o arroz.",
+  "chapter": "ng"
+ },
+ "w-ng-014": {
+  "title": "Sopa Ogbono nigeriana con ñame machacado",
+  "ingredients": {
+   "w-ng-014-i1": {
+    "name": "Carne (rabo de buey, carne para estofado, callos, piel de vaca)",
+    "standardAmount": "1-2 libras"
+   },
+   "w-ng-014-i2": {
+    "name": "Pescado ahumado",
+    "standardAmount": "1 taza"
+   },
+   "w-ng-014-i3": {
+    "name": "Cebolla",
+    "standardAmount": "1 taza en dados"
+   },
+   "w-ng-014-i4": {
+    "name": "Cangrejo de río molido",
+    "standardAmount": "½ taza"
+   },
+   "w-ng-014-i5": {
+    "name": "Caldo de pollo",
+    "standardAmount": "1 cucharada (ajustar al gusto)"
+   },
+   "w-ng-014-i6": {
+    "name": "Verduras de hoja (espinaca, col rizada, col verde, callaloo)",
+    "standardAmount": "3 tazas picado"
+   },
+   "w-ng-014-i7": {
+    "name": "Aceite de palma",
+    "standardAmount": "¼-⅓ taza"
+   },
+   "w-ng-014-i8": {
+    "name": "Hojuelas de pimiento rojo",
+    "standardAmount": "1 cucharada"
+   },
+   "w-ng-014-i9": {
+    "name": "Egusi molido (opcional)",
+    "standardAmount": "½ taza"
+   },
+   "w-ng-014-i10": {
+    "name": "Ogbono molido",
+    "standardAmount": "½ taza"
+   },
+   "w-ng-014-i11": {
+    "name": "Sal y pimienta",
+    "standardAmount": "al gusto"
+   }
+  },
+  "instructions": {
+   "1": "Lava la carne y déjala en remojo en agua durante 30 minutos, luego escúrrela.",
+   "2": "Coloca la carne en una olla y cúbrela con agua. Agrega la cebolla y el caldo y lleva a ebullición a fuego lento durante una hora.",
+   "3": "Agrega el pescado ahumado, el cangrejo de río molido, las verduras de hoja, el aceite de palma y las hojuelas de pimiento rojo. Cocina 30 minutos adicionales.",
+   "4": "Agrega el egusi molido y el ogbono molido y revuelve bien. Cocina 10 minutos hasta que espese.",
+   "5": "Agrega sal y pimienta al gusto. Cocina 5 minutos adicionales.",
+   "6": "En otra olla, coloca el ñame machacado y lleva a ebullición a fuego lento durante 10 minutos hasta que esté suave.",
+   "7": "Sirve la sopa con el ñame machacado caliente."
+  },
+  "culturalNotes": "La sopa Ogbono nigeriana con ñame machacado es un plato tradicional en Nigeria, conocido por su sabor rico y textura cremosa.",
+  "chapter": "ng"
  }
 }

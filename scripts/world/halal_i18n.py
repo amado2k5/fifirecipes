@@ -82,8 +82,8 @@ ALLOW = {
     'It': {'vinaigrette', 'lievito di birra'},  # the normal Italian word for fresh yeast
     'De': {'butterschmalz', 'lammschmalz', 'rinderschmalz', 'weinblätter', 'wein- oder'},  # ghee; vine leaves
     'Zh': {'酒石酸', '石狗公', '啤酒酵母'},  # 石狗公 = scorpionfish; brewer's yeast
-    'Ja': {'刻みりんご', 'ビール酵母', 'タビール', 'ラハム', 'ルラード'},  # apple; brewer's yeast; tabil; lahm; roulade
-    'Ko': {'맥주 효모', '룰라드', '우라드'},  # 우라드 = urad dal (lentil)
+    'Ja': {'刻みりんご', 'ビール酵母', 'タビール', 'ラハム', 'ルラード', 'コラード'},  # apple; brewer's yeast; tabil; lahm; roulade; collard greens
+    'Ko': {'맥주 효모', '룰라드', '우라드', '콜라드'},  # 우라드 = urad dal (lentil); 콜라드 = collard greens
     'He': {'שמרי בירה'},  # brewer's yeast
     'Pl': {'drożdże piwne'},
     'Te': {'బీర్ యీస్ట్'},

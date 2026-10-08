@@ -105893,7 +105893,7 @@
   "ingredients": {
    "w-ma-005-i1": {
     "name": "Lamm- oder Rinderleber",
-    "standardAmount": "2,2 lbs"
+    "standardAmount": "2,2 Pfund"
    },
    "w-ma-005-i2": {
     "name": "dünnes Netzfett vom Schaf",
@@ -105967,7 +105967,7 @@
    },
    "w-ma-006-i9": {
     "name": "Warqa",
-    "standardAmount": "2,2 lbs"
+    "standardAmount": "2,2 Pfund"
    },
    "w-ma-006-i10": {
     "name": "Eigelb",
@@ -106311,7 +106311,7 @@
    },
    "w-ma-012-i4": {
     "name": "reife Tomaten",
-    "standardAmount": "2 lbs (ca. 6 große)"
+    "standardAmount": "2 Pfund (ca. 6 große)"
    },
    "w-ma-012-i5": {
     "name": "getrocknete Kichererbsen, eingeweicht und geschält",
@@ -125564,5 +125564,708 @@
   },
   "culturalNotes": "Pastel de Choclo ist ein traditionelles peruanisches Gericht, das oft bei besonderen Anlässen und Familientreffen serviert wird.",
   "chapter": "مطبخ بيرو"
+ },
+ "w-ng-001": {
+  "title": "Akamu (nigerianischer Pudding)",
+  "ingredients": {
+   "w-ng-001-i1": {
+    "name": "Akamu-Paste",
+    "standardAmount": "ausreichende Menge"
+   },
+   "w-ng-001-i2": {
+    "name": "Heißes Wasser",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-ng-001-i3": {
+    "name": "Kondensmilch",
+    "standardAmount": "1 Dose (400 ml)"
+   },
+   "w-ng-001-i4": {
+    "name": "Zucker",
+    "standardAmount": "nach Geschmack"
+   }
+  },
+  "instructions": {
+   "1": "Fülle eine große Schüssel zur Hälfte mit Akamu-Klumpen.",
+   "2": "Zerstoße die Akamu-Klumpen mit einem Löffel in sehr kleine Stücke. Mische kleine Mengen kaltes Wasser ein, bis die Mischung glatt ist und die Konsistenz von Kondensmilch hat.",
+   "3": "Bringe einen großen Topf Wasser zum Kochen.",
+   "4": "Bevor das Wasser kocht, rühre die Mischung gründlich um. Sobald das Wasser kocht, rühre es vorsichtig, aber gleichmäßig in die Akamu-Mischung ein. Höre auf zu rühren, sobald die Mischung beginnt zu stocken, und reduziere den Wasserfluss, den du eingießt, auf das absolute Minimum, bis die Akamu vollständig gestockt ist.",
+   "5": "Verquirle die Mischung gründlich. Füge nach Wunsch weiteres Wasser hinzu, wenn die Mischung zu dick ist.",
+   "6": "Rühre Kondensmilch und eine Prise Zucker nach Geschmack ein."
+  },
+  "culturalNotes": "Akamu ist ein traditionelles nigerianisches Frühstücksgericht, das oft mit Erdnüssen oder Früchten serviert wird.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-002": {
+  "title": "Ofada-Eintopf (Ayamase-Eintopf)",
+  "ingredients": {
+   "w-ng-002-i1": {
+    "name": "grüne Paprika",
+    "standardAmount": "3"
+   },
+   "w-ng-002-i2": {
+    "name": "rote Paprika",
+    "standardAmount": "1"
+   },
+   "w-ng-002-i3": {
+    "name": "Habanero-Chilis",
+    "standardAmount": "2"
+   },
+   "w-ng-002-i4": {
+    "name": "Palmöl",
+    "standardAmount": "1/4 Tasse"
+   },
+   "w-ng-002-i5": {
+    "name": "Zwiebel",
+    "standardAmount": "1/2"
+   },
+   "w-ng-002-i6": {
+    "name": "Iru (fermentierte Johannisbrotbohnen)",
+    "standardAmount": "1 EL"
+   },
+   "w-ng-002-i7": {
+    "name": "gemahlene Flusskrebse",
+    "standardAmount": "1 EL"
+   },
+   "w-ng-002-i8": {
+    "name": "Brühpulver",
+    "standardAmount": "2 TL"
+   },
+   "w-ng-002-i9": {
+    "name": "Salz",
+    "standardAmount": "2 TL"
+   },
+   "w-ng-002-i10": {
+    "name": "schwarzer Pfeffer",
+    "standardAmount": "1 TL"
+   },
+   "w-ng-002-i11": {
+    "name": "Rindfleisch",
+    "standardAmount": "12 Unzen"
+   }
+  },
+  "instructions": {
+   "1": "Zerkleinere die Zwiebeln.",
+   "2": "Mixe die grünen Paprika, die rote Paprika und die Habanero-Chilis grob.",
+   "3": "Wenn die gemixte Mischung etwas wässrig aussieht, gieße sie in einen Topf und lasse sie kochen, bis etwas Wasser verdunstet ist.",
+   "4": "Koche das Rindfleisch mit Brühpulver, schwarzem Pfeffer und Salz, bis es zart ist.",
+   "5": "Bleiche das Palmöl (wie im nächsten Abschnitt beschrieben).",
+   "6": "Füge die Zwiebeln hinzu und nach etwa einer Minute die gemixte Paprikamischung und Iru.",
+   "7": "Koche etwa 5 Minuten.",
+   "8": "Füge das Rindfleisch und die Gewürze hinzu.",
+   "9": "Koche weitere 10 Minuten bei mittlerer bis niedriger Hitze oder bis das Öl an die Oberfläche steigt."
+  },
+  "culturalNotes": "Ofada-Eintopf ist ein beliebtes Gericht in Nigeria, bekannt für seine reichhaltigen und würzigen Aromen.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-003": {
+  "title": "Gegrilltes Fleisch",
+  "ingredients": {
+   "w-ng-003-i1": {
+    "name": "Rindfleisch",
+    "standardAmount": "2 Pfund"
+   },
+   "w-ng-003-i2": {
+    "name": "Knoblauchpulver",
+    "standardAmount": "2 EL"
+   },
+   "w-ng-003-i3": {
+    "name": "Oregano",
+    "standardAmount": "2 TL"
+   },
+   "w-ng-003-i4": {
+    "name": "Limettensaft",
+    "standardAmount": "Saft von 2 Limetten"
+   },
+   "w-ng-003-i5": {
+    "name": "schwarzer Pfeffer",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-ng-003-i6": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   }
+  },
+  "instructions": {
+   "1": "Gib das Rindfleisch zusammen mit dem Limettensaft, Knoblauchpulver, Oregano, schwarzem Pfeffer und Salz in einen großen Gefrierbeutel.",
+   "2": "Verschließe den Beutel und mische die Zutaten, bis sie gleichmäßig verteilt sind. Mindestens 1 Stunde marinieren, oder bis zu 5 Stunden für einen stärkeren Geschmack.",
+   "3": "Grille das Steak bei mittlerer Hitze, bis es eine Kerntemperatur von 68-71°C (155-160°F) erreicht, was etwa medium entspricht. Die Garzeit variiert je nach Dicke des Steaks."
+  },
+  "culturalNotes": "Gegrilltes Fleisch ist ein beliebtes Gericht in Nigeria, das oft bei besonderen Anlässen und Familientreffen serviert wird.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-004": {
+  "title": "Ogbono-Suppe (Draw-Suppe)",
+  "ingredients": {
+   "w-ng-004-i1": {
+    "name": "Ogbono-Samen",
+    "standardAmount": "1 Tasse"
+   },
+   "w-ng-004-i2": {
+    "name": "gekochtes Rindfleisch",
+    "standardAmount": "1 Pfund"
+   },
+   "w-ng-004-i3": {
+    "name": "Shaki (Kutteln)",
+    "standardAmount": "8 Unzen"
+   },
+   "w-ng-004-i4": {
+    "name": "Rinderfüße",
+    "standardAmount": "12 Unzen"
+   },
+   "w-ng-004-i5": {
+    "name": "Palmöl",
+    "standardAmount": "¾ Tasse"
+   },
+   "w-ng-004-i6": {
+    "name": "gehackter Spinat",
+    "standardAmount": "2 Tassen"
+   },
+   "w-ng-004-i7": {
+    "name": "Brühpulver",
+    "standardAmount": "1 EL"
+   },
+   "w-ng-004-i8": {
+    "name": "gemahlene Flusskrebse",
+    "standardAmount": "1 EL"
+   },
+   "w-ng-004-i9": {
+    "name": "Cayennepfeffer",
+    "standardAmount": "1 EL"
+   },
+   "w-ng-004-i10": {
+    "name": "Fleischbrühe",
+    "standardAmount": "2-4 Tassen"
+   },
+   "w-ng-004-i11": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   }
+  },
+  "instructions": {
+   "1": "Wenn du ganze Ogbono-Samen verwendest, mahle sie mit Mörser und Stößel oder einer Kaffeemühle. Überspringe diesen Schritt bei vorgemahlenen Samen.",
+   "2": "Gib in einem großen Topf etwas Palmöl bei niedriger Hitze hinzu und füge die Ogbono-Samen hinzu.",
+   "3": "Mische die Ogbono-Samen ein und zerbrich eventuelle Klumpen mit einem Servierlöffel. Rühre, bis sie vollständig überzogen sind.",
+   "4": "Füge die Brühe hinzu und rühre um. Füge jeweils etwa eine Tasse hinzu, bis du die gewünschte Dicke erreichst. Wenn du nicht genug Brühe hast, füge Wasser hinzu.",
+   "5": "Bringe zum Kochen, stelle dann auf niedrige Hitze und lasse etwa 10 Minuten kochen, zwischendurch umrührend.",
+   "6": "Füge das Fleisch und die Gewürze hinzu.",
+   "7": "Probiere nach Salz und füge bei Bedarf etwas hinzu.",
+   "8": "Wenn es zu dick wird, füge etwas mehr Wasser hinzu.",
+   "9": "Lasse etwa 10 Minuten köcheln.",
+   "10": "Füge den gehackten Spinat hinzu und lasse bei niedriger Hitze etwa 2 weitere Minuten köcheln.",
+   "11": "Deine Ogbono-Suppe ist servierfertig!"
+  },
+  "culturalNotes": "Ogbono-Suppe ist ein beliebtes Gericht in Nigeria, das oft mit Reis oder Fufu serviert wird.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-005": {
+  "title": "Edikang Ikong (nigerianische Gemüsesuppe)",
+  "ingredients": {
+   "w-ng-005-i1": {
+    "name": "Ziegenfleisch",
+    "standardAmount": "2 Pfund"
+   },
+   "w-ng-005-i2": {
+    "name": "Brühpulver",
+    "standardAmount": "2 TL"
+   },
+   "w-ng-005-i3": {
+    "name": "schwarzer Pfeffer",
+    "standardAmount": "1 TL"
+   },
+   "w-ng-005-i4": {
+    "name": "Salz",
+    "standardAmount": "1 TL oder nach Geschmack"
+   },
+   "w-ng-005-i5": {
+    "name": "Zwiebel",
+    "standardAmount": "1/2 Zwiebel"
+   },
+   "w-ng-005-i6": {
+    "name": "Waterleaf (Malabarspinat)",
+    "standardAmount": "2 Tassen"
+   },
+   "w-ng-005-i7": {
+    "name": "Ugwu-Blätter (geflügelte Kürbisblätter)",
+    "standardAmount": "4 Tassen"
+   },
+   "w-ng-005-i8": {
+    "name": "Palmöl",
+    "standardAmount": "3/4 Tasse"
+   },
+   "w-ng-005-i9": {
+    "name": "Wasser",
+    "standardAmount": "2 Tassen"
+   },
+   "w-ng-005-i10": {
+    "name": "geräucherter/getrockneter Fisch",
+    "standardAmount": "6 Unzen"
+   },
+   "w-ng-005-i11": {
+    "name": "Garnelen",
+    "standardAmount": "8 Unzen"
+   },
+   "w-ng-005-i12": {
+    "name": "gemahlene Flusskrebse",
+    "standardAmount": "2 TL"
+   },
+   "w-ng-005-i13": {
+    "name": "Cayennepfeffer",
+    "standardAmount": "1 TL"
+   }
+  },
+  "instructions": {
+   "1": "Wasche das Ziegenfleisch gründlich und schneide es in kleine Stücke. Gib es in einen Topf und füge 2 Tassen Wasser hinzu. Bringe es bei mittlerer Hitze 30 Minuten lang zum Kochen, bis es halb gar ist.",
+   "2": "Füge das Brühpulver, den schwarzen Pfeffer, das Salz und die Zwiebel hinzu. Lasse es 10 Minuten kochen.",
+   "3": "Wasche das Waterleaf und die Ugwu-Blätter gründlich und schneide sie in kleine Stücke.",
+   "4": "Füge das Waterleaf und die Ugwu-Blätter zum Topf hinzu. Lasse sie 10 Minuten kochen.",
+   "5": "Füge das Palmöl, den geräucherten Fisch, die Garnelen und die gemahlenen Flusskrebse hinzu. Lasse die Mischung 10 Minuten kochen.",
+   "6": "Füge den Cayennepfeffer hinzu und lasse die Suppe 5 Minuten kochen.",
+   "7": "Schalte die Hitze aus und serviere die Suppe heiß."
+  },
+  "culturalNotes": "Edikang Ikong ist eine traditionelle nigerianische Gemüsesuppe, bekannt für ihren reichen Geschmack und ihre grünen Blätter.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-006": {
+  "title": "Efo Riro - nigerianischer Spinat-Eintopf",
+  "ingredients": {
+   "w-ng-006-i1": {
+    "name": "Spinat",
+    "standardAmount": "8 Tassen gehackt"
+   },
+   "w-ng-006-i2": {
+    "name": "gekochtes Rind- oder Ziegenfleisch",
+    "standardAmount": "12 Unzen (z. B. Ziegenfleisch)"
+   },
+   "w-ng-006-i3": {
+    "name": "Pilze",
+    "standardAmount": "2 Tassen"
+   },
+   "w-ng-006-i4": {
+    "name": "Palmöl",
+    "standardAmount": "½ Tasse"
+   },
+   "w-ng-006-i5": {
+    "name": "Roma-Tomaten",
+    "standardAmount": "2"
+   },
+   "w-ng-006-i6": {
+    "name": "rote Paprika",
+    "standardAmount": "1"
+   },
+   "w-ng-006-i7": {
+    "name": "Habanero-Chili",
+    "standardAmount": "1"
+   },
+   "w-ng-006-i8": {
+    "name": "Zwiebel",
+    "standardAmount": "1"
+   },
+   "w-ng-006-i9": {
+    "name": "Wasser oder Rinderbrühe",
+    "standardAmount": "¼ Tasse"
+   },
+   "w-ng-006-i10": {
+    "name": "Brühpulver",
+    "standardAmount": "2 TL"
+   },
+   "w-ng-006-i11": {
+    "name": "Cayennepfeffer",
+    "standardAmount": "2 TL"
+   },
+   "w-ng-006-i12": {
+    "name": "schwarzer Pfeffer",
+    "standardAmount": "1 TL"
+   },
+   "w-ng-006-i13": {
+    "name": "gemahlene Flusskrebse",
+    "standardAmount": "2 TL"
+   },
+   "w-ng-006-i14": {
+    "name": "Pfefferflocken (optional)",
+    "standardAmount": "1 TL"
+   },
+   "w-ng-006-i15": {
+    "name": "Salz",
+    "standardAmount": "1 TL (oder nach Geschmack)"
+   }
+  },
+  "instructions": {
+   "1": "Wasche den Spinat gründlich und hacke ihn.",
+   "2": "Erhitze in einem großen Topf das Palmöl bei mittlerer Hitze.",
+   "3": "Füge die gehackte Zwiebel, die Habanero-Chili, die rote Paprika und die Tomaten hinzu und rühre 5 Minuten, bis die Zwiebel glasig wird.",
+   "4": "Füge das gekochte Rind- oder Ziegenfleisch und die Pilze hinzu und rühre weitere 3 Minuten.",
+   "5": "Füge den Spinat, das Brühpulver, die gemahlenen Flusskrebse, den Cayennepfeffer, den schwarzen Pfeffer und das Salz hinzu und rühre gut um.",
+   "6": "Füge das Wasser oder die Brühe hinzu, bringe die Mischung zum Kochen, reduziere dann die Hitze und lasse 20 Minuten köcheln.",
+   "7": "Füge nach Wunsch die Pfefferflocken hinzu und koche weitere 5 Minuten.",
+   "8": "Serviere den Eintopf heiß mit Reis oder Fufu."
+  },
+  "culturalNotes": "Efo Riro ist ein beliebtes Gericht in Nigeria, das typischerweise mit Reis oder Fufu serviert wird.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-007": {
+  "title": "Ewedu-Suppe",
+  "ingredients": {
+   "w-ng-007-i1": {
+    "name": "gefrorene Juteblätter",
+    "standardAmount": "400g"
+   },
+   "w-ng-007-i2": {
+    "name": "gemahlene Flusskrebse",
+    "standardAmount": "1 TL"
+   },
+   "w-ng-007-i3": {
+    "name": "Salz",
+    "standardAmount": "1/2 TL oder nach Geschmack"
+   },
+   "w-ng-007-i4": {
+    "name": "Iru (fermentierte Johannisbrotbohnen)",
+    "standardAmount": "1 EL (wahlweise)"
+   },
+   "w-ng-007-i5": {
+    "name": "Pfeffer",
+    "standardAmount": "1/2 TL"
+   },
+   "w-ng-007-i6": {
+    "name": "Brühe (oder 1 Maggi-Würfel)",
+    "standardAmount": "1 TL"
+   }
+  },
+  "instructions": {
+   "1": "Wasche die Juteblätter gründlich, wenn du frische verwendest, oder lasse sie auftauen, wenn du gefrorene verwendest.",
+   "2": "Lege die Juteblätter in einen Topf und füge genug Wasser hinzu, um sie zu bedecken.",
+   "3": "Füge die gemahlenen Flusskrebse, das Salz, Iru (falls verwendet), Pfeffer und Brühe hinzu.",
+   "4": "Bringe die Mischung bei mittlerer Hitze zum Kochen, reduziere dann die Hitze und köchle 20-30 Minuten, bis die Blätter zart sind.",
+   "5": "Serviere die Suppe heiß mit Reis oder Fufu."
+  },
+  "culturalNotes": "Ewedu ist eine traditionelle nigerianische Suppe, die oft mit Reis oder Fufu serviert wird.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-008": {
+  "title": "Gebratene Kochbanane",
+  "ingredients": {
+   "w-ng-008-i1": {
+    "name": "Kochbanane",
+    "standardAmount": "1 Kochbanane"
+   },
+   "w-ng-008-i2": {
+    "name": "Pflanzenöl",
+    "standardAmount": "genügend zum Braten"
+   },
+   "w-ng-008-i3": {
+    "name": "brauner Zucker (oder Salz)",
+    "standardAmount": "nach Geschmack"
+   }
+  },
+  "instructions": {
+   "1": "Erhitze eine dünne Schicht Pflanzenöl in einer Pfanne.",
+   "2": "Schneide die Kochbanane derweil in lange, längliche Scheiben.",
+   "3": "Brate die Scheiben im Öl von beiden Seiten goldbraun.",
+   "4": "Bestreue die gebratene Kochbanane sofort mit Salz oder braunem Zucker nach Geschmack.",
+   "5": "Serviere heiß."
+  },
+  "culturalNotes": "Gebratene Kochbanane ist ein beliebtes Gericht in Nigeria, das als Beilage oder Teil einer Hauptmahlzeit serviert wird.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-009": {
+  "title": "Kuli-kuli",
+  "ingredients": {
+   "w-ng-009-i1": {
+    "name": "Erdnüsse",
+    "standardAmount": "6 Tassen (750 g)"
+   },
+   "w-ng-009-i2": {
+    "name": "Wasser",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-ng-009-i3": {
+    "name": "Zucker",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-ng-009-i4": {
+    "name": "Salz",
+    "standardAmount": "½-1 Teelöffel oder nach Geschmack"
+   },
+   "w-ng-009-i5": {
+    "name": "Zwiebel",
+    "standardAmount": "½ Zwiebel (wahlweise), püriert"
+   },
+   "w-ng-009-i6": {
+    "name": "Knoblauch",
+    "standardAmount": "2 Zehen (wahlweise), zerdrückt"
+   },
+   "w-ng-009-i7": {
+    "name": "Chilipaste",
+    "standardAmount": "1 Esslöffel (wahlweise)"
+   },
+   "w-ng-009-i8": {
+    "name": "gemahlener Ingwer",
+    "standardAmount": "1 Teelöffel (wahlweise)"
+   }
+  },
+  "instructions": {
+   "1": "Röste die Erdnüsse in einer trockenen Pfanne bei mittlerer Hitze unter gelegentlichem Rühren, um Anbrennen zu vermeiden. Sobald sie geröstet sind, entferne die Häute, indem du sie zwischen den Händen reibst oder ein Tuch verwendest, um die Häute vorsichtig abzudrücken und abzuziehen.",
+   "2": "Mahle die gerösteten Erdnüsse mit einer Küchenmaschine oder einem Mixer zu einer Erdnussbutter, arbeite dabei nach Bedarf in Chargen. Dies dauert je nach Leistung etwa 5-10 Minuten.",
+   "3": "Gib die Erdnussmischung in eine große Rührschüssel. Füge Wasser hinzu, jeweils ¼ Tasse (60 ml), und knete mit den Händen nach jeder Zugabe. Dadurch quellen die Körner in der Erdnussbutter auf, sie wird dicker und gibt die Öle frei. Höre auf, Wasser hinzuzufügen, sobald die Mischung beginnt, Öle freizusetzen. Knete weitere 5 Minuten, um so viel Öl wie möglich freizusetzen.",
+   "4": "Gib die Mischung in ein Käsetuch und presse, um die Öle freizusetzen. Gib die Erdnussmischung zurück in die Schüssel und stelle die Öle zum Frittieren beiseite.",
+   "5": "Rühre die restlichen Zutaten ein und mische gut.",
+   "6": "Mische genug Wasser ein, einen Esslöffel nach dem anderen, bis du einen formbaren Teig erhältst, und knete gut.",
+   "7": "Nimm Teelöffel des Teigs und rolle sie zu kleinen Kugeln oder forme flache Scheiben, je nach Vorliebe. Du kannst sie auch zu kleinen Zylindern oder ovalen Formen formen, wie traditionelles Kuli-kuli. Du kannst mit verschiedenen Formen experimentieren.",
+   "8": "Erhitze das zurückbehaltene Öl in einer Pfanne bei mittlerer Hitze. Brate die Kuli-kuli-Stücke portionsweise, achte darauf, dass sie die Pfanne nicht überfüllen, bis sie auf allen Seiten goldbraun und knusprig sind (etwa 4-5 Minuten). Wende sie vorsichtig für gleichmäßiges Braten.",
+   "9": "Nimm die Kuli-kuli nach dem Braten aus dem Öl und lege sie auf ein Papiertuch, um überschüssiges Öl abzulassen. Lasse sie vor dem Servieren vollständig abkühlen."
+  },
+  "culturalNotes": "Kuli-kuli ist ein traditioneller nigerianischer Snack oder ein Frühstücksgericht.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-010": {
+  "title": "Ofada-Reis",
+  "ingredients": {
+   "w-ng-010-i1": {
+    "name": "Ofada-Reis",
+    "standardAmount": "2 Tassen"
+   },
+   "w-ng-010-i2": {
+    "name": "Wasser",
+    "standardAmount": "zum Waschen und Kochen"
+   },
+   "w-ng-010-i3": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   }
+  },
+  "instructions": {
+   "1": "Wasche den Reis gründlich mit Wasser, bis das Spülwasser klar ist.",
+   "2": "Gib den Reis in einen großen Topf und füge genug Wasser hinzu, um den Reis etwa 2 cm zu bedecken.",
+   "3": "Füge Salz nach Geschmack hinzu.",
+   "4": "Decke den Topf ab und bringe den Reis bei hoher Hitze zum Kochen.",
+   "5": "Reduziere die Hitze und lasse den Reis 20 Minuten köcheln oder bis er gar ist.",
+   "6": "Schalte die Hitze aus und lasse den Reis 5 Minuten vor dem Servieren ruhen."
+  },
+  "culturalNotes": "Ofada-Reis ist eine lokale Reissorte in Nigeria, bekannt für ihren einzigartigen Geschmack und ihre dunkelbraune Farbe.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-011": {
+  "title": "Ofe Owerri",
+  "ingredients": {
+   "w-ng-011-i1": {
+    "name": "verschiedene Fleischsorten (Rind, Ziege, Kutteln)",
+    "standardAmount": "1 kg"
+   },
+   "w-ng-011-i2": {
+    "name": "Würzwürfel",
+    "standardAmount": "4-6"
+   },
+   "w-ng-011-i3": {
+    "name": "Wasser",
+    "standardAmount": "3-4 Tassen"
+   },
+   "w-ng-011-i4": {
+    "name": "Stockfisch, geräucherter Fisch oder Trockenfisch",
+    "standardAmount": "500 g"
+   },
+   "w-ng-011-i5": {
+    "name": "Kokosjam-Paste",
+    "standardAmount": "1 Tasse"
+   },
+   "w-ng-011-i6": {
+    "name": "Palmöl",
+    "standardAmount": "1 Tasse"
+   },
+   "w-ng-011-i7": {
+    "name": "gemahlene Flusskrebse",
+    "standardAmount": "3 Esslöffel"
+   },
+   "w-ng-011-i8": {
+    "name": "Ogiri (fermentierte Melonenkernpaste)",
+    "standardAmount": "2 Esslöffel"
+   },
+   "w-ng-011-i9": {
+    "name": "frische Paprika oder Chilischoten",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-ng-011-i10": {
+    "name": "Okazi- oder Uziza-Blätter",
+    "standardAmount": "1 Tasse, in dünne Scheiben geschnitten"
+   },
+   "w-ng-011-i11": {
+    "name": "Ugu-Blätter",
+    "standardAmount": "2 Tassen gehackt"
+   }
+  },
+  "instructions": {
+   "1": "Reinige das Fleisch und den Trockenfisch und schneide sie in Stücke.",
+   "2": "Gib das Fleisch mit Würzwürfeln und Wasser in einen Topf und bringe zum Kochen, bis es zart ist.",
+   "3": "Füge den Trockenfisch und den geräucherten Fisch hinzu und köchle 10 Minuten.",
+   "4": "Rühre die Kokosjam-Paste ein, um die Suppe zu verdicken, und achte darauf, dass sie gut eingearbeitet ist.",
+   "5": "Rühre das Palmöl, die Flusskrebse, Ogiri und Pfeffer ein und köchle 5-10 Minuten.",
+   "6": "Füge die Okazi-Blätter hinzu und köchle 3 Minuten.",
+   "7": "Rühre die Ugu-Blätter ein und köchle 2-3 Minuten.",
+   "8": "Probiere und passe die Würzung an. Serviere heiß mit Stampfyam oder Fufu."
+  },
+  "culturalNotes": "Ofe Owerri ist eine traditionelle Suppe aus dem Bundesstaat Imo in Nigeria, die typischerweise mit Stampfyam oder Fufu serviert wird.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-012": {
+  "title": "Owo-Suppe",
+  "ingredients": {
+   "w-ng-012-i1": {
+    "name": "Frische Tomaten",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-ng-012-i2": {
+    "name": "Frischer Pfeffer",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-ng-012-i3": {
+    "name": "Ziegenfleisch oder verschiedenes Halal-Fleisch",
+    "standardAmount": "500 g"
+   },
+   "w-ng-012-i4": {
+    "name": "Kleine Zwiebel",
+    "standardAmount": "1 kleine Zwiebel"
+   },
+   "w-ng-012-i5": {
+    "name": "Würz-/Brühwürfel",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-ng-012-i6": {
+    "name": "Salz",
+    "standardAmount": "nach Geschmack"
+   },
+   "w-ng-012-i7": {
+    "name": "Getrockneter Fisch",
+    "standardAmount": "1 Handvoll"
+   },
+   "w-ng-012-i8": {
+    "name": "Gemahlene Flusskrebse",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-ng-012-i9": {
+    "name": "Pottasche (Akaun)",
+    "standardAmount": "1/2 TL"
+   },
+   "w-ng-012-i10": {
+    "name": "Palmöl",
+    "standardAmount": "nach Bedarf"
+   }
+  },
+  "instructions": {
+   "1": "Mixe die Tomaten und den frischen Pfeffer zu einer Paste.",
+   "2": "Kombiniere das Fleisch, die Zwiebel, die Würzwürfel und das Salz in einem Topf. Koche etwa 3 Minuten im eigenen Saft.",
+   "3": "Bedeck das Fleisch mit Wasser und köchle, bis es zart ist.",
+   "4": "Füge den getrockneten Fisch, die Tomaten-Pfeffer-Paste und die gemahlenen Flusskrebse zum Fleisch hinzu. Füge etwa eine Tasse Wasser hinzu und rühre um. Lasse 10 Minuten köcheln und rühre, um Anbrennen zu verhindern.",
+   "5": "Löse das Pottaschepulver in 4 Esslöffeln heißem Wasser auf. Siebe die Mischung vorsichtig und mische die Flüssigkeit in die Suppe.",
+   "6": "Schalte die Hitze aus und lasse die Suppe etwa 10 Minuten abkühlen.",
+   "7": "Stelle die Suppe zurück auf die Hitze und rühre das Palmöl allmählich ein.",
+   "8": "Nimm vom Herd und serviere mit Kochbananen, Yam oder einem Schluckgericht deiner Wahl."
+  },
+  "culturalNotes": "Owo-Suppe ist ein traditionelles nigerianisches Gericht, das typischerweise mit Kochbananen, Yam oder einem Schluckgericht deiner Wahl serviert wird.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-013": {
+  "title": "Erdnusseintopf mit Rindfleisch & Spinat",
+  "ingredients": {
+   "w-ng-013-i1": {
+    "name": "Rindfleisch",
+    "standardAmount": "1 1/4 Pfund"
+   },
+   "w-ng-013-i2": {
+    "name": "Pflanzenöl",
+    "standardAmount": "nach Bedarf"
+   },
+   "w-ng-013-i3": {
+    "name": "Zwiebeln",
+    "standardAmount": "2 Zwiebeln"
+   },
+   "w-ng-013-i4": {
+    "name": "Knoblauch",
+    "standardAmount": "4 Zehen"
+   },
+   "w-ng-013-i5": {
+    "name": "Rinderbrühe",
+    "standardAmount": "3 Tassen"
+   },
+   "w-ng-013-i6": {
+    "name": "Spinat",
+    "standardAmount": "3 Bund"
+   },
+   "w-ng-013-i7": {
+    "name": "Tomaten",
+    "standardAmount": "3 Tomaten"
+   },
+   "w-ng-013-i8": {
+    "name": "ungesüßte Erdnussbutter",
+    "standardAmount": "1 Tasse"
+   }
+  },
+  "instructions": {
+   "1": "Würfle das Rindfleisch und bräune es in Pflanzenöl.",
+   "2": "Füge die Zwiebeln und den Knoblauch hinzu und koche einige Minuten, bis die Zwiebeln anfangen weich zu werden und sich leicht verfärben.",
+   "3": "Gieße die Rinderbrühe ein und bringe zum Kochen, reduziere dann die Hitze und köchle, bis die Flüssigkeit sich auf die Hälfte reduziert hat.",
+   "4": "Rühre die ungesüßte Erdnussbutter ein, bis sie gut eingearbeitet ist.",
+   "5": "Füge die Tomaten und den Spinat hinzu und koche, bis der Spinat zusammenfällt und die Erdnussbutter ihre Öle freisetzt, wodurch das Gericht glänzend wird."
+  },
+  "culturalNotes": "Erdnusseintopf ist ein beliebtes Gericht in Nigeria, das oft mit Fladenbrot wie Kisra oder Reis serviert wird.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-014": {
+  "title": "Nigerianische Ogbono-Suppe mit Stampfyam",
+  "ingredients": {
+   "w-ng-014-i1": {
+    "name": "Fleisch (Ochsenschwanz, Eintopffleisch, Kutteln, Rinderhaut)",
+    "standardAmount": "1-2 Pfund"
+   },
+   "w-ng-014-i2": {
+    "name": "Geräucherter Fisch",
+    "standardAmount": "1 Tasse"
+   },
+   "w-ng-014-i3": {
+    "name": "Zwiebel",
+    "standardAmount": "1 Tasse gewürfelt"
+   },
+   "w-ng-014-i4": {
+    "name": "Gemahlene Flusskrebse",
+    "standardAmount": "½ Tasse"
+   },
+   "w-ng-014-i5": {
+    "name": "Hühnerbrühe",
+    "standardAmount": "1 Esslöffel (nach Geschmack anpassen)"
+   },
+   "w-ng-014-i6": {
+    "name": "Grünzeug (Spinat, Blattkohl, Grünkohl, Callaloo)",
+    "standardAmount": "3 Tassen gehackt"
+   },
+   "w-ng-014-i7": {
+    "name": "Palmöl",
+    "standardAmount": "¼-⅓ Tasse"
+   },
+   "w-ng-014-i8": {
+    "name": "Rote Pfefferflocken",
+    "standardAmount": "1 Esslöffel"
+   },
+   "w-ng-014-i9": {
+    "name": "Gemahlener Egusi (optional)",
+    "standardAmount": "½ Tasse"
+   },
+   "w-ng-014-i10": {
+    "name": "Gemahlener Ogbono",
+    "standardAmount": "½ Tasse"
+   },
+   "w-ng-014-i11": {
+    "name": "Salz und Pfeffer",
+    "standardAmount": "nach Geschmack"
+   }
+  },
+  "instructions": {
+   "1": "Wasche das Fleisch und weiche es 30 Minuten in Wasser ein, dann abgießen.",
+   "2": "Lege das Fleisch in einen Topf und bedecke es mit Wasser. Füge die Zwiebel und die Brühe hinzu und bringe bei niedriger Hitze eine Stunde lang zum Kochen.",
+   "3": "Füge den geräucherten Fisch, die gemahlenen Flusskrebse, das Grünzeug, das Palmöl und die roten Pfefferflocken hinzu. Koche weitere 30 Minuten.",
+   "4": "Füge den gemahlenen Egusi und den gemahlenen Ogbono hinzu und rühre gut um. Koche 10 Minuten, bis es eingedickt ist.",
+   "5": "Füge Salz und Pfeffer nach Geschmack hinzu. Koche weitere 5 Minuten.",
+   "6": "Lege in einem anderen Topf den Stampfyam hinein und bringe bei niedriger Hitze 10 Minuten lang zum Kochen, bis er weich ist.",
+   "7": "Serviere die Suppe mit dem Stampfyam heiß."
+  },
+  "culturalNotes": "Nigerianische Ogbono-Suppe mit Stampfyam ist ein traditionelles Gericht in Nigeria, bekannt für seinen reichen Geschmack und seine cremige Textur.",
+  "chapter": "مطبخ نيجيريا"
  }
 }

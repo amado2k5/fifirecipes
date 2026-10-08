@@ -123508,7 +123508,7 @@
   "ingredients": {
    "w-pe-003-i1": {
     "name": "mafuta ya kanola",
-    "standardAmount": "2 tablespoons"
+    "standardAmount": "vijiko 2 vya supu"
    },
    "w-pe-003-i2": {
     "name": "shaloti zilizokatwa vipande",
@@ -123516,7 +123516,7 @@
    },
    "w-pe-003-i3": {
     "name": "kitunguu saumu kikachopwa",
-    "standardAmount": "2 tablespoons"
+    "standardAmount": "vijiko 2 vya supu"
    },
    "w-pe-003-i4": {
     "name": "pilipili hoho nyekundu, zilizokatwa vipande vya inchi 1",
@@ -123986,5 +123986,708 @@
   },
   "culturalNotes": "Pastel de Choclo ni chakula cha jadi cha Peru, kinachotolewa mara nyingi katika hafla maalum na mikutano ya familia.",
   "chapter": "مطبخ بيرو"
+ },
+ "w-ng-001": {
+  "title": "Akamu (pudding ya Nigeria)",
+  "ingredients": {
+   "w-ng-001-i1": {
+    "name": "pasta ya akamu",
+    "standardAmount": "kiasi cha kutosha"
+   },
+   "w-ng-001-i2": {
+    "name": "maji moto",
+    "standardAmount": "kadiri inavyohitajika"
+   },
+   "w-ng-001-i3": {
+    "name": "maziwa yaliyochemshwa",
+    "standardAmount": "1 kopo (400 mililita)"
+   },
+   "w-ng-001-i4": {
+    "name": "sukari",
+    "standardAmount": "kadiri unavyotaka"
+   }
+  },
+  "instructions": {
+   "1": "Jaza bakuli kubwa hadi nusu na makonge ya akamu.",
+   "2": "Ponda makonge ya akamu kwa kijiko kuwa vipande vidogo sana. Changanya kiasi kidogo cha maji baridi hadi mchanganyiko uwe laini na uwe na muundo wa maziwa yaliyochemshwa.",
+   "3": "chemsha sufuria kubwa ya maji.",
+   "4": "Kabla maji hayajachemka, koroga mchanganyiko kwa makini. Mara tu maji yamefikia kuchemka, mimina kwa makini lakini kwa uthabiti kwenye mchanganyiko wa akamu ukiwa unakoroga. Acha kukoroga mara tu mchanganyiko unapoanza kuwa mzito, na punguza mtiririko wa maji unayomwaga hadi kiwango cha chini hadi akamu imekuwa mzito kabisa.",
+   "5": "Piga mchanganyiko vizuri. Ongeza maji ya ziada ikiwa ungependa ikiwa mchanganyiko ni mzito sana.",
+   "6": "Changanya maziwa yaliyochemshwa na kijiko kimoja cha sukari kwa ladha."
+  },
+  "culturalNotes": "Akamu ni kifungua kinywa cha jadi cha Nigeria, mara nyingi huwasilishwa na karanga au matunda.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-002": {
+  "title": "Mchuzi wa Ofada (mchuzi wa Ayamase)",
+  "ingredients": {
+   "w-ng-002-i1": {
+    "name": "pilipili hoho za kijani",
+    "standardAmount": "3"
+   },
+   "w-ng-002-i2": {
+    "name": "pilipili hoho nyekundu",
+    "standardAmount": "1"
+   },
+   "w-ng-002-i3": {
+    "name": "pilipili habanero",
+    "standardAmount": "2"
+   },
+   "w-ng-002-i4": {
+    "name": "mafuta ya mchikichi",
+    "standardAmount": "1/4 kikombe"
+   },
+   "w-ng-002-i5": {
+    "name": "kitunguu",
+    "standardAmount": "1/2"
+   },
+   "w-ng-002-i6": {
+    "name": "iru (karob iliyochachushwa)",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-ng-002-i7": {
+    "name": "kambe zilizosagwa",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-ng-002-i8": {
+    "name": "unga wa supu",
+    "standardAmount": "2 kijiko kidogo"
+   },
+   "w-ng-002-i9": {
+    "name": "chumvi",
+    "standardAmount": "2 kijiko kidogo"
+   },
+   "w-ng-002-i10": {
+    "name": "pilipili nyeusi",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-ng-002-i11": {
+    "name": "nyama ya ng'ombe",
+    "standardAmount": "12 aunsi"
+   }
+  },
+  "instructions": {
+   "1": "Kata vitunguu.",
+   "2": "Sanga kwa urahisi pilipili hoho za kijani, pilipili hoho nyekundu na pilipili habanero.",
+   "3": "Ikiwa mchanganyiko ulio sagwa unaonekana kama una maji kidogo, umimine kwenye sufuria na uache kuchemka hadi sehemu ya maji ionekane.",
+   "4": "chemsha nyama ya ng'ombe na unga wa supu, pilipili nyeusi na chumvi hadi iwe laini.",
+   "5": "Safisha mafuta ya mchikichi (kama inavyoonyeshwa katika sehemu inayofuata).",
+   "6": "Ongeza vitunguu na, baada ya takribani dakika moja, ongeza mchanganyiko wa pilipili hoho ulio sagwa na iru.",
+   "7": "chemsha kwa takribani dakika 5.",
+   "8": "Ongeza nyama na viungo.",
+   "9": "chemsha kwa dakika 10 zaidi kwenye moto wa kati-chini au hadi mafuta yatakapoanza kuinuka juu."
+  },
+  "culturalNotes": "Mchuzi wa Ofada ni chakula maarufu nchini Nigeria, kinachojulikana kwa ladha zake tajiri na kali.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-003": {
+  "title": "Nyama ya kuchoma",
+  "ingredients": {
+   "w-ng-003-i1": {
+    "name": "nyama ya ng'ombe",
+    "standardAmount": "2 ratili"
+   },
+   "w-ng-003-i2": {
+    "name": "unga wa kitunguu saumu",
+    "standardAmount": "2 kijiko kikubwa"
+   },
+   "w-ng-003-i3": {
+    "name": "oregano",
+    "standardAmount": "2 kijiko kidogo"
+   },
+   "w-ng-003-i4": {
+    "name": "juisi ya ndimu",
+    "standardAmount": "juisi ya ndimu 2"
+   },
+   "w-ng-003-i5": {
+    "name": "pilipili nyeusi",
+    "standardAmount": "kadiri unavyotaka"
+   },
+   "w-ng-003-i6": {
+    "name": "chumvi",
+    "standardAmount": "kadiri unavyotaka"
+   }
+  },
+  "instructions": {
+   "1": "Weka nyama ya ng'ombe kwenye mfuko mkubwa wenye zipu pamoja na juisi ya ndimu, unga wa kitunguu saumu, oregano, pilipili nyeusi na chumvi.",
+   "2": "Funga mfuko na changanya viungo hadi visambae sawasawa. Osha kwa angalau saa 1, au hadi saa 5 kwa ladha imara zaidi.",
+   "3": "chemsha steak kwenye moto wa kati hadi ifikie joto la ndani la 68-71°C (155-160°F), ambalo ni karibu wastani. Muda wa kupika utatofautiana kulingana na unene wa steak."
+  },
+  "culturalNotes": "Nyama ya kuchoma ni chakula maarufu nchini Nigeria, mara nyingi huwasilishwa katika hafla maalum na mikusanyiko ya familia.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-004": {
+  "title": "Supu ya Ogbono (supu ya Draw)",
+  "ingredients": {
+   "w-ng-004-i1": {
+    "name": "mbegu za ogbono",
+    "standardAmount": "1 kikombe"
+   },
+   "w-ng-004-i2": {
+    "name": "nyama ya ng'ombe iliyopikwa",
+    "standardAmount": "1 ratili"
+   },
+   "w-ng-004-i3": {
+    "name": "shaki (matumbo)",
+    "standardAmount": "8 aunsi"
+   },
+   "w-ng-004-i4": {
+    "name": "miguu ya ng'ombe",
+    "standardAmount": "12 aunsi"
+   },
+   "w-ng-004-i5": {
+    "name": "mafuta ya mchikichi",
+    "standardAmount": "¾ kikombe"
+   },
+   "w-ng-004-i6": {
+    "name": "mboga ya majani iliyokatwa",
+    "standardAmount": "2 vikombe"
+   },
+   "w-ng-004-i7": {
+    "name": "unga wa supu",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-ng-004-i8": {
+    "name": "kambe zilizosagwa",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-ng-004-i9": {
+    "name": "pilipili cayenne",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-ng-004-i10": {
+    "name": "supu ya nyama",
+    "standardAmount": "2-4 vikombe"
+   },
+   "w-ng-004-i11": {
+    "name": "chumvi",
+    "standardAmount": "kadiri unavyotaka"
+   }
+  },
+  "instructions": {
+   "1": "Ikiwa unatumia mbegu nzima za ogbono, zisage kwa kinu na mchi au kisaga kahawa. Ruka hatua hii ikiwa unatumia mbegu zilizosagwa tayari.",
+   "2": "Kwenye sufuria kubwa, ongeza mafuta ya mchikichi kidogo kwenye moto mdogo na ongeza mbegu za ogbono.",
+   "3": "Changanya mbegu za ogbono na vunja makongomani kwa kijiko cha kuwasilisha. Koroga hadi zifunikwe kabisa.",
+   "4": "Ongeza supu na koroga. Ongeza takribani kikombe kimoja kwa wakati hadi kufikia unene unaotakiwa. Ikiwa huna supu ya kutosha, ongeza maji.",
+   "5": "chemsha, kisha punguza moto na uache kuchemka kwa takribani dakika 10, ukikoroga mara kwa mara.",
+   "6": "Ongeza nyama na viungo.",
+   "7": "Onja chumvi na ongeza kidogo ikiwa ni lazima.",
+   "8": "Ikiwa inakuwa mzito sana, ongeza maji zaidi kidogo.",
+   "9": "Acha ichemke kwa takribani dakika 10.",
+   "10": "Ongeza mboga ya majani iliyokatwa na uache kuchemka kwa moto mdogo kwa takribani dakika 2 zaidi.",
+   "11": "Supu yako ya ogbono iko tayari kuwasilishwa!"
+  },
+  "culturalNotes": "Supu ya Ogbono ni chakula maarufu nchini Nigeria, mara nyingi huwasilishwa na wali au fufu.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-005": {
+  "title": "Edikang Ikong (supu ya mboga ya Nigeria)",
+  "ingredients": {
+   "w-ng-005-i1": {
+    "name": "nyama ya mbuzi",
+    "standardAmount": "2 ratili"
+   },
+   "w-ng-005-i2": {
+    "name": "unga wa supu",
+    "standardAmount": "2 kijiko kidogo"
+   },
+   "w-ng-005-i3": {
+    "name": "pilipili nyeusi",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-ng-005-i4": {
+    "name": "chumvi",
+    "standardAmount": "1 kijiko kidogo au kadiri unavyotaka"
+   },
+   "w-ng-005-i5": {
+    "name": "kitunguu",
+    "standardAmount": "1/2 kitunguu"
+   },
+   "w-ng-005-i6": {
+    "name": "jani la maji (mboga ya Malabar)",
+    "standardAmount": "2 vikombe"
+   },
+   "w-ng-005-i7": {
+    "name": "majani ya ugwu (majani ya maboga yenye mshipi)",
+    "standardAmount": "4 vikombe"
+   },
+   "w-ng-005-i8": {
+    "name": "mafuta ya mchikichi",
+    "standardAmount": "3/4 kikombe"
+   },
+   "w-ng-005-i9": {
+    "name": "maji",
+    "standardAmount": "2 vikombe"
+   },
+   "w-ng-005-i10": {
+    "name": "samaki wa kuvuta sigara/wa kukaushwa",
+    "standardAmount": "6 aunsi"
+   },
+   "w-ng-005-i11": {
+    "name": "kambe",
+    "standardAmount": "8 aunsi"
+   },
+   "w-ng-005-i12": {
+    "name": "kambe zilizosagwa",
+    "standardAmount": "2 kijiko kidogo"
+   },
+   "w-ng-005-i13": {
+    "name": "pilipili cayenne",
+    "standardAmount": "1 kijiko kidogo"
+   }
+  },
+  "instructions": {
+   "1": "Osha nyama ya mbuzi vizuri na ukate vipande vidogo. Iweke kwenye sufuria na ongeza vikombe 2 vya maji. chemsha kwa moto wa kati kwa dakika 30 hadi iwe nusu imepikwa.",
+   "2": "Ongeza unga wa supu, pilipili nyeusi, chumvi na kitunguu. Acha ichemke dakika 10.",
+   "3": "Osha jani la maji na majani ya ugwu vizuri na ukate vipande vidogo.",
+   "4": "Ongeza jani la maji na majani ya ugwu kwenye sufuria. Acha ichemke dakika 10.",
+   "5": "Ongeza mafuta ya mchikichi, samaki wa kuvuta sigara, kambe na kambe zilizosagwa. Acha mchanganyiko ichemke dakika 10.",
+   "6": "Ongeza pilipili cayenne na uache supu ichemke dakika 5.",
+   "7": "Zima moto na uwasilishe supu ikiwa moto."
+  },
+  "culturalNotes": "Edikang Ikong ni supu ya mboga ya jadi ya Nigeria inayojulikana kwa ladha yake tajiri na majani yake ya kijani.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-006": {
+  "title": "Efo Riro - mchuzi wa mboga ya majani wa Nigeria",
+  "ingredients": {
+   "w-ng-006-i1": {
+    "name": "mboga ya majani",
+    "standardAmount": "8 vikombe iliyokatwa"
+   },
+   "w-ng-006-i2": {
+    "name": "nyama ya ng'ombe au mbuzi iliyopikwa",
+    "standardAmount": "12 aunsi (mf., nyama ya mbuzi)"
+   },
+   "w-ng-006-i3": {
+    "name": "uyoga",
+    "standardAmount": "2 vikombe"
+   },
+   "w-ng-006-i4": {
+    "name": "mafuta ya mchikichi",
+    "standardAmount": "½ kikombe"
+   },
+   "w-ng-006-i5": {
+    "name": "nyanya Roma",
+    "standardAmount": "2"
+   },
+   "w-ng-006-i6": {
+    "name": "pilipili hoho nyekundu",
+    "standardAmount": "1"
+   },
+   "w-ng-006-i7": {
+    "name": "pilipili habanero",
+    "standardAmount": "1"
+   },
+   "w-ng-006-i8": {
+    "name": "kitunguu",
+    "standardAmount": "1"
+   },
+   "w-ng-006-i9": {
+    "name": "maji au supu ya ng'ombe",
+    "standardAmount": "¼ kikombe"
+   },
+   "w-ng-006-i10": {
+    "name": "unga wa supu",
+    "standardAmount": "2 kijiko kidogo"
+   },
+   "w-ng-006-i11": {
+    "name": "pilipili cayenne",
+    "standardAmount": "2 kijiko kidogo"
+   },
+   "w-ng-006-i12": {
+    "name": "pilipili nyeusi",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-ng-006-i13": {
+    "name": "kambe zilizosagwa",
+    "standardAmount": "2 kijiko kidogo"
+   },
+   "w-ng-006-i14": {
+    "name": "vipande vya pilipili (hiari)",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-ng-006-i15": {
+    "name": "chumvi",
+    "standardAmount": "1 kijiko kidogo (au kadiri unavyotaka)"
+   }
+  },
+  "instructions": {
+   "1": "Osha mboga ya majani vizuri na ukate.",
+   "2": "Kwenye sufuria kubwa, pasha moto mafuta ya mchikichi kwenye moto wa kati.",
+   "3": "Ongeza kitunguu kilichokatwa, pilipili habanero, pilipili hoho nyekundu na nyanya, na koroga kwa dakika 5 hadi kitunguu kiwe cha uwazi.",
+   "4": "Ongeza nyama ya ng'ombe au mbuzi iliyopikwa na uyoga, na endelea kukoroga kwa dakika 3.",
+   "5": "Ongeza mboga ya majani, unga wa supu, kambe zilizosagwa, pilipili cayenne, pilipili nyeusi na chumvi, na koroga vizuri.",
+   "6": "Ongeza maji au supu, chemsha mchanganyiko, kisha punguza moto na uache kuchemka kwa dakika 20.",
+   "7": "Ongeza vipande vya pilipili ikiwa ungependa, na endelea kupika kwa dakika 5 zaidi.",
+   "8": "Wasilisha mchuzi ukiwa moto na wali au fufu."
+  },
+  "culturalNotes": "Efo Riro ni chakula maarufu nchini Nigeria, mara nyingi huwasilishwa na wali au fufu.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-007": {
+  "title": "Supu ya Ewedu",
+  "ingredients": {
+   "w-ng-007-i1": {
+    "name": "majani ya jute waliohifadhiwa",
+    "standardAmount": "400gramu"
+   },
+   "w-ng-007-i2": {
+    "name": "kambe zilizosagwa",
+    "standardAmount": "1 kijiko kidogo"
+   },
+   "w-ng-007-i3": {
+    "name": "chumvi",
+    "standardAmount": "1/2 kijiko kidogo au kadiri unavyotaka"
+   },
+   "w-ng-007-i4": {
+    "name": "iru (karob iliyochachushwa)",
+    "standardAmount": "1 kijiko kikubwa (hiari)"
+   },
+   "w-ng-007-i5": {
+    "name": "pilipili",
+    "standardAmount": "1/2 kijiko kidogo"
+   },
+   "w-ng-007-i6": {
+    "name": "supu (au kuba 1 ya Maggi)",
+    "standardAmount": "1 kijiko kidogo"
+   }
+  },
+  "instructions": {
+   "1": "Osha majani ya jute vizuri ikiwa unatumia mabichi, au yaache yakufunye ikiwa unatumia waliohifadhiwa.",
+   "2": "Weka majani ya jute kwenye sufuria na ongeza maji ya kutosha kuyafunika.",
+   "3": "Ongeza kambe zilizosagwa, chumvi, iru (ikiwa inatumika), pilipili na supu.",
+   "4": "chemsha mchanganyiko kwa moto wa kati, kisha punguza moto na chemsha kwa dakika 20 hadi 30 hadi majani yawe laini.",
+   "5": "Wasilisha supu ikiwa moto na wali au fufu."
+  },
+  "culturalNotes": "Ewedu ni supu ya jadi ya Nigeria mara nyingi huwasilishwa na wali au fufu.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-008": {
+  "title": "Ndizi za kupika zilizokaaangwa",
+  "ingredients": {
+   "w-ng-008-i1": {
+    "name": "ndizi za kupika",
+    "standardAmount": "1 ndizi ya kupika"
+   },
+   "w-ng-008-i2": {
+    "name": "mafuta ya mboga",
+    "standardAmount": "ya kutosha kwa kukaanga"
+   },
+   "w-ng-008-i3": {
+    "name": "sukari ya kahawia (au chumvi)",
+    "standardAmount": "kadiri unavyotaka"
+   }
+  },
+  "instructions": {
+   "1": "Pasha moto safu nyembamba ya mafuta ya mboga kwenye kikaango.",
+   "2": "Wakati huo huo, kata ndizi za kupika kuwa vipande virefu na vya mshazari.",
+   "3": "Kaanga vipande kwenye mafuta pande zote mbili hadi ziwe za dhahabu.",
+   "4": "Mimina ndizi za kupika zilizokaaangwa mara moja na chumvi au sukari ya kahawia kwa ladha.",
+   "5": "Wasilisha ikiwa moto."
+  },
+  "culturalNotes": "Ndizi za kupika zilizokaaangwa ni chakula maarufu nchini Nigeria, huwasilishwa kama kiambaza au sehemu ya mlo mkuu.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-009": {
+  "title": "Kuli-kuli",
+  "ingredients": {
+   "w-ng-009-i1": {
+    "name": "karanga",
+    "standardAmount": "6 vikombe (750 gramu)"
+   },
+   "w-ng-009-i2": {
+    "name": "maji",
+    "standardAmount": "kadiri inavyohitajika"
+   },
+   "w-ng-009-i3": {
+    "name": "sukari",
+    "standardAmount": "vijiko 2 vya supu"
+   },
+   "w-ng-009-i4": {
+    "name": "chumvi",
+    "standardAmount": "½-1 kijiko kidogo au kadiri unavyotaka"
+   },
+   "w-ng-009-i5": {
+    "name": "kitunguu",
+    "standardAmount": "½ kitunguu (hiari), iliyochujwa"
+   },
+   "w-ng-009-i6": {
+    "name": "kitunguu saumu",
+    "standardAmount": "2 vitunguu (hiari), iliyopondwa"
+   },
+   "w-ng-009-i7": {
+    "name": "pasta ya pilipili",
+    "standardAmount": "1 kijiko kikubwa (hiari)"
+   },
+   "w-ng-009-i8": {
+    "name": "tangawizi iliyosagwa",
+    "standardAmount": "1 kijiko kidogo (hiari)"
+   }
+  },
+  "instructions": {
+   "1": "chemsha karanga kwenye kikaango kikavu kwa moto wa kati, ukiwa unakoroga mara kwa mara ili kuzuia kuchoma. Mara tu zimechemshwa, ondoa maganda kwa kuzifuta kati ya mikono yako au kutumia kitambaa kukandamiza kwa upole na kuondoa maganda.",
+   "2": "Kwa kutumia kichakataji cha chakula au blender, saga karanga zilizochemshwa kuunda siagi ya karanga, ukitenda kazi kwa makundi inapohitajika. Hii itachukua takribani dakika 5-10 kulingana na nguvu.",
+   "3": "Hamisha mchanganyiko wa karanga kwenye bakuli kubwa ya kuchanganya. Ongeza maji, ¼ kikombe (60 ml) kwa wakati, kwenye siagi ya karanga, ukikanda kwa mikono baada ya kila ongezeko. Hii itafanya punje kwenye siagi ya karanga zimeta, kuifanya iwe nzito na kutoa mafuta. Acha kuongeza maji mara tu mchanganyiko utakaanza kutoa mafuta. Endelea kukanda kwa dakika 5 zaidi kutoa mafuta mengi iwezekanavyo.",
+   "4": "Weka mchanganyiko kwenye kitambaa cha jibini na ubanie ili kutoa mafuta. Rudisha mchanganyiko wa karanga kwenye bakuli na weka mafuta kando kwa kaanga.",
+   "5": "Changanya viungo vilivyobaki, ukiwa unakoroga vizuri kuunganisha.",
+   "6": "Changanya maji ya kutosha, kijiko kimoja cha supu kwa wakati, hadi upate unga unaoweza kuumbwa, na ukande vizuri.",
+   "7": "Chukua vijiko vidogo vya unga na uvinge kuwa mipira midogo au uunde diski bapa, kulingana na mapendeleo yako. Unaweza pia kuwaumbia kuwa mitungi midogo au maumbo ya ovali, kama kuli-kuli ya jadi. Unaweza kujaribu maumbo tofauti.",
+   "8": "Pasha moto mafuta yaliyowekwa kwenye kikaango kwa moto wa kati. Kaanga vipande vya kuli-kuli kwa makundi, uhakikishe hujajaza kikaango, hadi ziwe za dhahabu na mkavu pande zote (takribani dakika 4-5). Hakikisha unazigeuza kwa makini kwa kaanga sawasawa.",
+   "9": "Mara tu zimekaangwa, ondoa kuli-kuli kutoka kwenye mafuta na uziweke kwenye kitambaa cha karatasi ili kupitisha mafuta ya ziada. Ziache zizime kabisa kabla ya kuwasilisha."
+  },
+  "culturalNotes": "Kuli-kuli ni vitafunwa au kifungua kinywa cha jadi cha Nigeria.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-010": {
+  "title": "Wali wa Ofada",
+  "ingredients": {
+   "w-ng-010-i1": {
+    "name": "mchele wa Ofada",
+    "standardAmount": "2 vikombe"
+   },
+   "w-ng-010-i2": {
+    "name": "maji",
+    "standardAmount": "kwa kuosha na kupika"
+   },
+   "w-ng-010-i3": {
+    "name": "chumvi",
+    "standardAmount": "kadiri unavyotaka"
+   }
+  },
+  "instructions": {
+   "1": "Osha mchele vizuri kwa maji hadi maji ya kuosha yawe safi.",
+   "2": "Ongeza mchele kwenye sufuria kubwa na ongeza maji ya kutosha kuufunika mchele takribani cm 2.",
+   "3": "Ongeza chumvi kwa ladha.",
+   "4": "Funika sufuria na chemsha mchele kwa moto mkubwa.",
+   "5": "Punguza moto na uache mchele uchemke kwa dakika 20 au hadi umepikwa.",
+   "6": "Zima moto na uache mchele upumzike kwa dakika 5 kabla ya kuwasilisha."
+  },
+  "culturalNotes": "Wali wa Ofada ni aina ya mchele wa kienyeji nchini Nigeria, unajulikana kwa ladha yake ya kipekee na rangi yake ya kahawia.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-011": {
+  "title": "Ofe Owerri",
+  "ingredients": {
+   "w-ng-011-i1": {
+    "name": "nyama mchanganyiko (ng'ombe, mbuzi, matumbo)",
+    "standardAmount": "1 kilogramu"
+   },
+   "w-ng-011-i2": {
+    "name": "vizu vya ladha",
+    "standardAmount": "4-6"
+   },
+   "w-ng-011-i3": {
+    "name": "maji",
+    "standardAmount": "3-4 vikombe"
+   },
+   "w-ng-011-i4": {
+    "name": "samaki wa kukaushwa, samaki wa kuvuta sigara au stockfish",
+    "standardAmount": "500 gramu"
+   },
+   "w-ng-011-i5": {
+    "name": "pasta ya cocoyam",
+    "standardAmount": "1 kikombe"
+   },
+   "w-ng-011-i6": {
+    "name": "mafuta ya mchikichi",
+    "standardAmount": "1 kikombe"
+   },
+   "w-ng-011-i7": {
+    "name": "kambe zilizosagwa",
+    "standardAmount": "vijiko 3 vya supu"
+   },
+   "w-ng-011-i8": {
+    "name": "ogiri (pasta ya mbegu za tikiti zilizochachushwa)",
+    "standardAmount": "vijiko 2 vya supu"
+   },
+   "w-ng-011-i9": {
+    "name": "pilipili hoho mpya au pilipili",
+    "standardAmount": "kadiri unavyotaka"
+   },
+   "w-ng-011-i10": {
+    "name": "majani ya okazi au uziza",
+    "standardAmount": "1 kikombe, kilichokatwa vipande vifinye"
+   },
+   "w-ng-011-i11": {
+    "name": "majani ya ugu",
+    "standardAmount": "2 vikombe iliyokatwa"
+   }
+  },
+  "instructions": {
+   "1": "Safisha nyama na samaki wa kukaushwa na ukate vipande.",
+   "2": "Ongeza nyama kwenye sufuria na vizu vya ladha na maji na chemsha hadi iwe laini.",
+   "3": "Ongeza samaki wa kukaushwa na samaki wa kuvuta sigara na chemsha kwa moto mdogo dakika 10.",
+   "4": "Changanya pasta ya cocoyam ili kuimarisha supu, uhakikishe imechanganywa vizuri.",
+   "5": "Changanya mafuta ya mchikichi, kambe zilizosagwa, ogiri na pilipili na chemsha kwa moto mdogo kwa dakika 5 hadi 10.",
+   "6": "Ongeza majani ya okazi na chemsha kwa moto mdogo dakika 3.",
+   "7": "Changanya majani ya ugu na chemsha kwa moto mdogo kwa dakika 2 hadi 3.",
+   "8": "Onja na rekebisha viungo. Wasilisha ikiwa moto na viazi vikuu vilivyochujwa au fufu."
+  },
+  "culturalNotes": "Ofe Owerri ni supu ya jadi kutoka jimbo la Imo nchini Nigeria, mara nyingi huwasilishwa na viazi vikuu vilivyochujwa au fufu.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-012": {
+  "title": "Supu ya Owo",
+  "ingredients": {
+   "w-ng-012-i1": {
+    "name": "Nyanya mpya",
+    "standardAmount": "kadiri inavyohitajika"
+   },
+   "w-ng-012-i2": {
+    "name": "Pilipili mpya",
+    "standardAmount": "kadiri inavyohitajika"
+   },
+   "w-ng-012-i3": {
+    "name": "Nyama ya mbuzi au nyama mchanganyiko ya halal",
+    "standardAmount": "500 gramu"
+   },
+   "w-ng-012-i4": {
+    "name": "Kitunguu kidogo",
+    "standardAmount": "1 ndogo kitunguu"
+   },
+   "w-ng-012-i5": {
+    "name": "Vizu vya ladha/supu",
+    "standardAmount": "kadiri inavyohitajika"
+   },
+   "w-ng-012-i6": {
+    "name": "Chumvi",
+    "standardAmount": "kadiri unavyotaka"
+   },
+   "w-ng-012-i7": {
+    "name": "Samaki wa kukaushwa",
+    "standardAmount": "1 konzi"
+   },
+   "w-ng-012-i8": {
+    "name": "Kambe zilizosagwa",
+    "standardAmount": "kadiri inavyohitajika"
+   },
+   "w-ng-012-i9": {
+    "name": "Potashi (akaun)",
+    "standardAmount": "1/2 kijiko kidogo"
+   },
+   "w-ng-012-i10": {
+    "name": "Mafuta ya mchikichi",
+    "standardAmount": "kadiri inavyohitajika"
+   }
+  },
+  "instructions": {
+   "1": "Sanga nyanya na pilipili mpya kuwa pasta.",
+   "2": "Changanya nyama, kitunguu, vizu vya ladha na chumvi kwenye sufuria. chemsha kwa takribani dakika 3 kwenye juisi zake.",
+   "3": "Funika nyama kwa maji na chemsha kwa moto mdogo hadi iwe laini.",
+   "4": "Ongeza samaki wa kukaushwa, pasta ya nyanya-pilipili na kambe zilizosagwa kwenye nyama. Ongeza takribani kikombe kimoja cha maji na koroga. Acha ichemke kwa moto mdogo dakika 10, ukikoroga ili kuzuia kuchoma.",
+   "5": "Yeyusha unga wa potashi katika vijiko 4 vya supu vya maji moto. Chuja mchanganyiko kwa makini na uchanganye kiowevu kwenye supu.",
+   "6": "Zima moto na uache supu ipoe kwa takribani dakika 10.",
+   "7": "Rudisha supu kwenye moto na uchanganye mafuta ya mchikichi hatua kwa hatua.",
+   "8": "Ondoa kwenye moto na uwasilishe na ndizi za kupika, viazi vikuu au chakula chochote cha kumeza cha chaguo lako."
+  },
+  "culturalNotes": "Supu ya Owo ni chakula cha jadi cha Nigeria, mara nyingi huwasilishwa na ndizi za kupika, viazi vikuu au chakula chochote cha kumeza cha chaguo lako.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-013": {
+  "title": "Mchuzi wa karanga na nyama ya ng'ombe na mboga ya majani",
+  "ingredients": {
+   "w-ng-013-i1": {
+    "name": "nyama ya ng'ombe",
+    "standardAmount": "1 1/4 ratili"
+   },
+   "w-ng-013-i2": {
+    "name": "mafuta ya mboga",
+    "standardAmount": "kadiri inavyohitajika"
+   },
+   "w-ng-013-i3": {
+    "name": "vitunguu",
+    "standardAmount": "2 vitunguu"
+   },
+   "w-ng-013-i4": {
+    "name": "kitunguu saumu",
+    "standardAmount": "4 vitunguu"
+   },
+   "w-ng-013-i5": {
+    "name": "supu ya ng'ombe",
+    "standardAmount": "3 vikombe"
+   },
+   "w-ng-013-i6": {
+    "name": "mboga ya majani",
+    "standardAmount": "3 vifundo"
+   },
+   "w-ng-013-i7": {
+    "name": "nyanya",
+    "standardAmount": "3 nyanya"
+   },
+   "w-ng-013-i8": {
+    "name": "siagi ya karanga isiyo na sukari",
+    "standardAmount": "1 kikombe"
+   }
+  },
+  "instructions": {
+   "1": "Kata nyama ya ng'ombe kuwa vizu na uifanye iwe kahawia katika mafuta ya mboga.",
+   "2": "Ongeza vitunguu na kitunguu saumu na chemsha kwa dakika kadhaa hadi vitunguu vianze kupungua na hata kuchukua rangi kidogo.",
+   "3": "Mimina supu ya ng'ombe na chemsha, kisha punguza moto na chemsha kwa moto mdogo hadi kiowevu kipungue nusu.",
+   "4": "Changanya siagi ya karanga isiyo na sukari hadi ichanganywe vizuri.",
+   "5": "Ongeza nyanya na mboga ya majani na chemsha hadi mboga ya majani ififie na siagi ya karanga itoe mafuta yake, ikifanya chakula kikung'aa."
+  },
+  "culturalNotes": "Mchuzi wa karanga ni chakula maarufu nchini Nigeria, mara nyingi huwasilishwa na mkate bapa kama kisra au wali.",
+  "chapter": "مطبخ نيجيريا"
+ },
+ "w-ng-014": {
+  "title": "Supu ya Ogbono ya Nigeria na viazi vikuu vilivyochujwa",
+  "ingredients": {
+   "w-ng-014-i1": {
+    "name": "Nyama (mkia wa ng'ombe, nyama ya mchuzi, matumbo, ngozi ya ng'ombe)",
+    "standardAmount": "1-2 ratili"
+   },
+   "w-ng-014-i2": {
+    "name": "Samaki wa kuvuta sigara",
+    "standardAmount": "1 kikombe"
+   },
+   "w-ng-014-i3": {
+    "name": "Kitunguu",
+    "standardAmount": "1 kikombe iliyokatwa vipande vidogo"
+   },
+   "w-ng-014-i4": {
+    "name": "Kambe zilizosagwa",
+    "standardAmount": "½ kikombe"
+   },
+   "w-ng-014-i5": {
+    "name": "Supu ya kuku",
+    "standardAmount": "1 kijiko kikubwa (rekebisha kadiri unavyotaka)"
+   },
+   "w-ng-014-i6": {
+    "name": "Mboga za majani (mboga ya majani, kale, collard greens, callaloo)",
+    "standardAmount": "3 vikombe iliyokatwa"
+   },
+   "w-ng-014-i7": {
+    "name": "Mafuta ya mchikichi",
+    "standardAmount": "¼-⅓ kikombe"
+   },
+   "w-ng-014-i8": {
+    "name": "Vipande vya pilipili nyekundu",
+    "standardAmount": "1 kijiko kikubwa"
+   },
+   "w-ng-014-i9": {
+    "name": "Egusi iliyosagwa (hiari)",
+    "standardAmount": "½ kikombe"
+   },
+   "w-ng-014-i10": {
+    "name": "Ogbono iliyosagwa",
+    "standardAmount": "½ kikombe"
+   },
+   "w-ng-014-i11": {
+    "name": "Chumvi na pilipili",
+    "standardAmount": "kadiri unavyotaka"
+   }
+  },
+  "instructions": {
+   "1": "Osha nyama na iliache kwenye maji kwa dakika 30, kisha ichuje.",
+   "2": "Weka nyama kwenye sufuria na uifunike kwa maji. Ongeza kitunguu na supu na chemsha kwa moto mdogo kwa saa moja.",
+   "3": "Ongeza samaki wa kuvuta sigara, kambe zilizosagwa, mboga za majani, mafuta ya mchikichi na vipande vya pilipili nyekundu. chemsha kwa dakika 30 zaidi.",
+   "4": "Ongeza egusi iliyosagwa na ogbono iliyosagwa na koroga vizuri. chemsha kwa dakika 10 hadi iimare.",
+   "5": "Ongeza chumvi na pilipili kwa ladha. chemsha kwa dakika 5 zaidi.",
+   "6": "Kwenye sufuria nyingine, weka viazi vikuu vilivyochujwa na chemsha kwa moto mdogo kwa dakika 10 hadi viwe laini.",
+   "7": "Wasilisha supu na viazi vikuu vilivyochujwa moto."
+  },
+  "culturalNotes": "Supu ya Ogbono ya Nigeria na viazi vikuu vilivyochujwa ni chakula cha jadi nchini Nigeria, kinachojulikana kwa ladha yake tajiri na muundo wake wa cream.",
+  "chapter": "مطبخ نيجيريا"
  }
 }

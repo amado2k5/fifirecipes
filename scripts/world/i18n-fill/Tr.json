@@ -9862,7 +9862,7 @@
   "ingredients": {
    "w-pe-003-i1": {
     "name": "kanola yağı",
-    "standardAmount": "2 tablespoons"
+    "standardAmount": "2 yemek kaşığı"
    },
    "w-pe-003-i2": {
     "name": "dilimlenmiş arpacık soğan",
@@ -9870,7 +9870,7 @@
    },
    "w-pe-003-i3": {
     "name": "kıyılmış sarımsak",
-    "standardAmount": "2 tablespoons"
+    "standardAmount": "2 yemek kaşığı"
    },
    "w-pe-003-i4": {
     "name": "1 inçlik parçalara kesilmiş kırmızı dolmalık biberler",
@@ -10340,5 +10340,708 @@
   },
   "culturalNotes": "Pastel de Choclo, özel günlerde ve aile toplantılarında sıkça servis edilen geleneksel bir Peru yemeğidir.",
   "chapter": "pe"
+ },
+ "w-ng-001": {
+  "title": "Akamu (Nijerya pudingi)",
+  "ingredients": {
+   "w-ng-001-i1": {
+    "name": "akamu ezmesi",
+    "standardAmount": "yeterli miktar"
+   },
+   "w-ng-001-i2": {
+    "name": "sıcak su",
+    "standardAmount": "gerektiği kadar"
+   },
+   "w-ng-001-i3": {
+    "name": "kaynatılmış süt",
+    "standardAmount": "1 kutu (400 ml)"
+   },
+   "w-ng-001-i4": {
+    "name": "şeker",
+    "standardAmount": "damak zevkinize göre"
+   }
+  },
+  "instructions": {
+   "1": "Büyük bir kaseyi yarısına kadar akamu parçalarıyla doldurun.",
+   "2": "Akamu parçalarını bir kaşıkla çok küçük parçalara ezin. Karışım pürüzsüz olana ve kaynatılmış süt kıvamına gelene kadar azar azar soğuk su karıştırın.",
+   "3": "Büyük bir tencere suyu kaynatın.",
+   "4": "Su kaynamadan önce karışımı iyice karıştırın. Su kaynadığında, karıştırarak dikkatlice ama sürekli olarak akamu karışımına dökün. Karışım koyulaşmaya başlar başlamaz karıştırmayı bırakın ve akamu tamamen koyulaşana kadar döktüğünüz su akışını en aza indirin.",
+   "5": "Karışımı iyice çırpın. Karışım çok koyuysa istenirse ekstra su ekleyin.",
+   "6": "Kaynatılmış sütü ve bir tutam şekeri damak zevkinize göre karıştırın."
+  },
+  "culturalNotes": "Akamu, Nijerya'nın geleneksel bir kahvaltısıdır ve genellikle fıstık veya meyveyle servis edilir.",
+  "chapter": "ng"
+ },
+ "w-ng-002": {
+  "title": "Ofada yahnisi (Ayamase yahnisi)",
+  "ingredients": {
+   "w-ng-002-i1": {
+    "name": "yeşil dolmalık biberler",
+    "standardAmount": "3"
+   },
+   "w-ng-002-i2": {
+    "name": "kırmızı dolmalık biber",
+    "standardAmount": "1"
+   },
+   "w-ng-002-i3": {
+    "name": "habanero biberleri",
+    "standardAmount": "2"
+   },
+   "w-ng-002-i4": {
+    "name": "palm yağı",
+    "standardAmount": "1/4 su bardağı"
+   },
+   "w-ng-002-i5": {
+    "name": "soğan",
+    "standardAmount": "1/2"
+   },
+   "w-ng-002-i6": {
+    "name": "iru (fermente keçiboynuzu)",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-ng-002-i7": {
+    "name": "öğütülmüş kurutulmuş karides",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-ng-002-i8": {
+    "name": "bulyon tozu",
+    "standardAmount": "2 çay kaşığı"
+   },
+   "w-ng-002-i9": {
+    "name": "tuz",
+    "standardAmount": "2 çay kaşığı"
+   },
+   "w-ng-002-i10": {
+    "name": "karabiber",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-ng-002-i11": {
+    "name": "dana eti",
+    "standardAmount": "12 ons"
+   }
+  },
+  "instructions": {
+   "1": "Soğanları doğrayın.",
+   "2": "Yeşil dolmalık biberleri, kırmızı dolmalık biberi ve habanero biberlerini kaba öğütün.",
+   "3": "Öğütülmüş karışım biraz sulu görünüyorsa, bir tencereye dökün ve suyun bir kısmı buharlaşana kadar kaynatın.",
+   "4": "Dana etini bulyon tozu, karabiber ve tuzla yumuşayana kadar kaynatın.",
+   "5": "Palm yağını beyazlatın (sonraki bölümde gösterildiği gibi).",
+   "6": "Soğanları ekleyin ve yaklaşık bir dakika sonra öğütülmüş biber karışımını ve iru'yu ekleyin.",
+   "7": "Yaklaşık 5 dakika pişirin.",
+   "8": "Dana etini ve baharatları ekleyin.",
+   "9": "Orta-kısık ateşte 10 dakika daha veya yağ yüzeye çıkmaya başlayana kadar pişirin."
+  },
+  "culturalNotes": "Ofada yahnisi, Nijerya'da zengin ve baharatlı tatlarıyla bilinen popüler bir yemektir.",
+  "chapter": "ng"
+ },
+ "w-ng-003": {
+  "title": "Izgara et",
+  "ingredients": {
+   "w-ng-003-i1": {
+    "name": "dana eti",
+    "standardAmount": "2 libre"
+   },
+   "w-ng-003-i2": {
+    "name": "sarımsak tozu",
+    "standardAmount": "2 çorba kaşığı"
+   },
+   "w-ng-003-i3": {
+    "name": "kekik",
+    "standardAmount": "2 çay kaşığı"
+   },
+   "w-ng-003-i4": {
+    "name": "misket limonu suyu",
+    "standardAmount": "2 misket limonunun suyu"
+   },
+   "w-ng-003-i5": {
+    "name": "karabiber",
+    "standardAmount": "damak zevkinize göre"
+   },
+   "w-ng-003-i6": {
+    "name": "tuz",
+    "standardAmount": "damak zevkinize göre"
+   }
+  },
+  "instructions": {
+   "1": "Dana etini misket limonu suyu, sarımsak tozu, kekik, karabiber ve tuzla birlikte büyük bir kilitli torbaya koyun.",
+   "2": "Torbayı kapatın ve malzemeler eşit şekilde dağılana kadar karıştırın. En az 1 saat veya daha güçlü bir tat için 5 saate kadar marine edin.",
+   "3": "Steaki orta ateşte, iç sıcaklığı 68-71°C'ye (155-160°F) ulaşana kadar ızgara yapın; bu yaklaşık orta pişmişliktir. Pişirme süresi steak kalınlığına göre değişecektir."
+  },
+  "culturalNotes": "Izgara et, Nijerya'da popüler bir yemektir ve genellikle özel günlerde ve aile toplantılarında servis edilir.",
+  "chapter": "ng"
+ },
+ "w-ng-004": {
+  "title": "Ogbono çorbası (Draw çorbası)",
+  "ingredients": {
+   "w-ng-004-i1": {
+    "name": "ogbono tohumları",
+    "standardAmount": "1 su bardağı"
+   },
+   "w-ng-004-i2": {
+    "name": "haşlanmış dana eti",
+    "standardAmount": "1 libre"
+   },
+   "w-ng-004-i3": {
+    "name": "shaki (işkembe)",
+    "standardAmount": "8 ons"
+   },
+   "w-ng-004-i4": {
+    "name": "inek ayakları",
+    "standardAmount": "12 ons"
+   },
+   "w-ng-004-i5": {
+    "name": "palm yağı",
+    "standardAmount": "¾ su bardağı"
+   },
+   "w-ng-004-i6": {
+    "name": "doğranmış ıspanak",
+    "standardAmount": "2 su bardağı"
+   },
+   "w-ng-004-i7": {
+    "name": "bulyon tozu",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-ng-004-i8": {
+    "name": "öğütülmüş kurutulmuş karides",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-ng-004-i9": {
+    "name": "kırmızı toz biber",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-ng-004-i10": {
+    "name": "et suyu",
+    "standardAmount": "2-4 su bardağı"
+   },
+   "w-ng-004-i11": {
+    "name": "tuz",
+    "standardAmount": "damak zevkinize göre"
+   }
+  },
+  "instructions": {
+   "1": "Bütün ogbono tohumları kullanıyorsanız, havan ve havan tokmağı veya kahve değirmeniyle öğütün. Önceden öğütülmüş tohumlar kullanıyorsanız bu adımı atlayın.",
+   "2": "Büyük bir tencerede kısık ateşte biraz palm yağı ekleyin ve ogbono tohumlarını ekleyin.",
+   "3": "Ogbono tohumlarını karıştırın ve topakları servis kaşığıyla kırın. Tamamen kaplanana kadar karıştırın.",
+   "4": "Et suyunu ekleyin ve karıştırın. İstediğiniz koyuluğa ulaşana kadar her seferinde yaklaşık bir fincan ekleyin. Yeterli et suyunuz yoksa su ekleyin.",
+   "5": "Kaynatın, sonra kısık ateşe alın ve aralıklı karıştırarak yaklaşık 10 dakika pişirin.",
+   "6": "Etleri ve baharatları ekleyin.",
+   "7": "Tuzu tadın ve gerekirse biraz ekleyin.",
+   "8": "Çok koyulaşırsa biraz daha su ekleyin.",
+   "9": "Yaklaşık 10 dakika kısık ateşte kaynatın.",
+   "10": "Doğranmış ıspanağı ekleyin ve kısık ateşte yaklaşık 2 dakika daha kaynatın.",
+   "11": "Ogbono çorbanız servise hazır!"
+  },
+  "culturalNotes": "Ogbono çorbası, Nijerya'da popüler bir yemektir ve genellikle pilav veya fufu ile servis edilir.",
+  "chapter": "ng"
+ },
+ "w-ng-005": {
+  "title": "Edikang Ikong (Nijerya sebze çorbası)",
+  "ingredients": {
+   "w-ng-005-i1": {
+    "name": "keçi eti",
+    "standardAmount": "2 libre"
+   },
+   "w-ng-005-i2": {
+    "name": "bulyon tozu",
+    "standardAmount": "2 çay kaşığı"
+   },
+   "w-ng-005-i3": {
+    "name": "karabiber",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-ng-005-i4": {
+    "name": "tuz",
+    "standardAmount": "1 çay kaşığı veya damak zevkinize göre"
+   },
+   "w-ng-005-i5": {
+    "name": "soğan",
+    "standardAmount": "1/2 soğan"
+   },
+   "w-ng-005-i6": {
+    "name": "su yaprağı (Malabar ıspanağı)",
+    "standardAmount": "2 su bardağı"
+   },
+   "w-ng-005-i7": {
+    "name": "ugwu yaprakları (yivli kabak yaprakları)",
+    "standardAmount": "4 su bardağı"
+   },
+   "w-ng-005-i8": {
+    "name": "palm yağı",
+    "standardAmount": "3/4 su bardağı"
+   },
+   "w-ng-005-i9": {
+    "name": "su",
+    "standardAmount": "2 su bardağı"
+   },
+   "w-ng-005-i10": {
+    "name": "tütsülenmiş/kurutulmuş balık",
+    "standardAmount": "6 ons"
+   },
+   "w-ng-005-i11": {
+    "name": "karidesler",
+    "standardAmount": "8 ons"
+   },
+   "w-ng-005-i12": {
+    "name": "öğütülmüş kurutulmuş karides",
+    "standardAmount": "2 çay kaşığı"
+   },
+   "w-ng-005-i13": {
+    "name": "kırmızı toz biber",
+    "standardAmount": "1 çay kaşığı"
+   }
+  },
+  "instructions": {
+   "1": "Keçi etini iyice yıkayın ve küçük parçalara kesin. Bir tencereye koyun ve 2 su bardağı su ekleyin. Orta ateşte 30 dakika yarı pişene kadar kaynatın.",
+   "2": "Bulyon tozu, karabiber, tuz ve soğanı ekleyin. 10 dakika kaynatın.",
+   "3": "Su yaprağını ve ugwu yapraklarını iyice yıkayın ve küçük parçalara kesin.",
+   "4": "Su yaprağını ve ugwu yapraklarını tencereye ekleyin. 10 dakika kaynatın.",
+   "5": "Palm yağı, tütsülenmiş balık, karidesler ve öğütülmüş kurutulmuş karidesi ekleyin. Karışımı 10 dakika kaynatın.",
+   "6": "Kırmızı toz biberi ekleyin ve çorbayı 5 dakika kaynatın.",
+   "7": "Ateşi kapatın ve çorbayı sıcak servis edin."
+  },
+  "culturalNotes": "Edikang Ikong, zengin tadı ve yeşil yapraklarıyla bilinen geleneksel bir Nijerya sebze çorbasıdır.",
+  "chapter": "ng"
+ },
+ "w-ng-006": {
+  "title": "Efo Riro - Nijerya ıspanak yahnisi",
+  "ingredients": {
+   "w-ng-006-i1": {
+    "name": "ıspanak",
+    "standardAmount": "8 su bardağı doğranmış"
+   },
+   "w-ng-006-i2": {
+    "name": "haşlanmış dana veya keçi eti",
+    "standardAmount": "12 ons (örn., keçi eti)"
+   },
+   "w-ng-006-i3": {
+    "name": "mantarlar",
+    "standardAmount": "2 su bardağı"
+   },
+   "w-ng-006-i4": {
+    "name": "palm yağı",
+    "standardAmount": "½ su bardağı"
+   },
+   "w-ng-006-i5": {
+    "name": "roma domatesleri",
+    "standardAmount": "2"
+   },
+   "w-ng-006-i6": {
+    "name": "kırmızı dolmalık biber",
+    "standardAmount": "1"
+   },
+   "w-ng-006-i7": {
+    "name": "habanero biberi",
+    "standardAmount": "1"
+   },
+   "w-ng-006-i8": {
+    "name": "soğan",
+    "standardAmount": "1"
+   },
+   "w-ng-006-i9": {
+    "name": "su veya dana eti suyu",
+    "standardAmount": "¼ su bardağı"
+   },
+   "w-ng-006-i10": {
+    "name": "bulyon tozu",
+    "standardAmount": "2 çay kaşığı"
+   },
+   "w-ng-006-i11": {
+    "name": "kırmızı toz biber",
+    "standardAmount": "2 çay kaşığı"
+   },
+   "w-ng-006-i12": {
+    "name": "karabiber",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-ng-006-i13": {
+    "name": "öğütülmüş kurutulmuş karides",
+    "standardAmount": "2 çay kaşığı"
+   },
+   "w-ng-006-i14": {
+    "name": "pul biber (isteğe bağlı)",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-ng-006-i15": {
+    "name": "tuz",
+    "standardAmount": "1 çay kaşığı (veya damak zevkinize göre)"
+   }
+  },
+  "instructions": {
+   "1": "Ispanağı iyice yıkayın ve doğrayın.",
+   "2": "Büyük bir tencerede palm yağını orta ateşte ısıtın.",
+   "3": "Doğranmış soğanı, habanero biberini, kırmızı dolmalık biberi ve domatesleri ekleyin ve soğan şeffaflaşana kadar 5 dakika karıştırın.",
+   "4": "Haşlanmış dana veya keçi etini ve mantarları ekleyin ve 3 dakika daha karıştırmaya devam edin.",
+   "5": "Ispanak, bulyon tozu, öğütülmüş kurutulmuş karides, kırmızı toz biber, karabiber ve tuzu ekleyin ve iyice karıştırın.",
+   "6": "Suyu veya et suyunu ekleyin, karışımı kaynatın, sonra ateşi kısın ve 20 dakika kısık ateşte kaynatın.",
+   "7": "İstenirse pul biberi ekleyin ve 5 dakika daha pişirmeye devam edin.",
+   "8": "Yahniyi pilav veya fufu ile sıcak servis edin."
+  },
+  "culturalNotes": "Efo Riro, Nijerya'da tipik olarak pilav veya fufu ile servis edilen popüler bir yemektir.",
+  "chapter": "ng"
+ },
+ "w-ng-007": {
+  "title": "Ewedu çorbası",
+  "ingredients": {
+   "w-ng-007-i1": {
+    "name": "donmuş jüt yaprakları",
+    "standardAmount": "400 gram"
+   },
+   "w-ng-007-i2": {
+    "name": "öğütülmüş kurutulmuş karides",
+    "standardAmount": "1 çay kaşığı"
+   },
+   "w-ng-007-i3": {
+    "name": "tuz",
+    "standardAmount": "1/2 çay kaşığı veya damak zevkinize göre"
+   },
+   "w-ng-007-i4": {
+    "name": "iru (fermente keçiboynuzu)",
+    "standardAmount": "1 çorba kaşığı (isteğe bağlı)"
+   },
+   "w-ng-007-i5": {
+    "name": "biber",
+    "standardAmount": "1/2 çay kaşığı"
+   },
+   "w-ng-007-i6": {
+    "name": "et suyu (veya 1 Maggi küpü)",
+    "standardAmount": "1 çay kaşığı"
+   }
+  },
+  "instructions": {
+   "1": "Taze kullanıyorsanız jüt yapraklarını iyice yıkayın veya donmuş kullanıyorsanız çözülmelerini bekleyin.",
+   "2": "Jüt yapraklarını bir tencereye koyun ve üzerlerini örtecek kadar su ekleyin.",
+   "3": "Öğütülmüş kurutulmuş karides, tuz, iru (kullanıyorsanız), biber ve et suyunu ekleyin.",
+   "4": "Karışımı orta ateşte kaynatın, sonra ateşi kısın ve yapraklar yumuşayana kadar 20-30 dakika pişirin.",
+   "5": "Çorbayı pilav veya fufu ile sıcak servis edin."
+  },
+  "culturalNotes": "Ewedu, Nijerya'nın geleneksel bir çorbasıdır ve genellikle pilav veya fufu ile servis edilir.",
+  "chapter": "ng"
+ },
+ "w-ng-008": {
+  "title": "Kızarmış muz",
+  "ingredients": {
+   "w-ng-008-i1": {
+    "name": "kızartmalık muz",
+    "standardAmount": "1 kızartmalık muz"
+   },
+   "w-ng-008-i2": {
+    "name": "bitkisel yağ",
+    "standardAmount": "yeterli kızartmak için"
+   },
+   "w-ng-008-i3": {
+    "name": "esmer şeker (veya tuz)",
+    "standardAmount": "damak zevkinize göre"
+   }
+  },
+  "instructions": {
+   "1": "Bir tavada ince bir tabaka bitkisel yağ ısıtın.",
+   "2": "Bu arada muzu uzun, çapraz dilimlere kesin.",
+   "3": "Dilimleri yağda her iki tarafta altın sarısı olana kadar kızartın.",
+   "4": "Kızarmış muzu hemen damak zevkinize göre tuz veya esmer şekerle serpin.",
+   "5": "Sıcak servis edin."
+  },
+  "culturalNotes": "Kızarmış muz, Nijerya'da popüler bir yemektir ve garnitür olarak veya ana yemeğin parçası olarak servis edilir.",
+  "chapter": "ng"
+ },
+ "w-ng-009": {
+  "title": "Kuli-kuli",
+  "ingredients": {
+   "w-ng-009-i1": {
+    "name": "fıstıklar",
+    "standardAmount": "6 su bardağı (750 gram)"
+   },
+   "w-ng-009-i2": {
+    "name": "su",
+    "standardAmount": "gerektiği kadar"
+   },
+   "w-ng-009-i3": {
+    "name": "şeker",
+    "standardAmount": "2 yemek kaşığı"
+   },
+   "w-ng-009-i4": {
+    "name": "tuz",
+    "standardAmount": "½-1 çay kaşığı veya damak zevkinize göre"
+   },
+   "w-ng-009-i5": {
+    "name": "soğan",
+    "standardAmount": "½ soğan (isteğe bağlı), püre haline getirilmiş"
+   },
+   "w-ng-009-i6": {
+    "name": "sarımsak",
+    "standardAmount": "2 diş (isteğe bağlı), ezilmiş"
+   },
+   "w-ng-009-i7": {
+    "name": "biber ezmesi",
+    "standardAmount": "1 çorba kaşığı (isteğe bağlı)"
+   },
+   "w-ng-009-i8": {
+    "name": "toz zencefil",
+    "standardAmount": "1 çay kaşığı (isteğe bağlı)"
+   }
+  },
+  "instructions": {
+   "1": "Fıstıkları kuru bir tavada orta ateşte, yanmalarını önlemek için arada karıştırarak kavurun. Kavurduktan sonra, ellerinizin arasında ovalayarak veya bir bez kullanarak hafifçe bastırarak kabuklarını çıkarın.",
+   "2": "Bir mutfak robotu veya blender kullanarak kavrulmuş fıstıkları fıstık ezmesi olacak şekilde öğütün, gerekirse parti halinde çalışın. Güce bağlı olarak bu 5-10 dakika sürecektir.",
+   "3": "Fıstık karışımını büyük bir karıştırma kabına aktarın. Fıstık ezmesine her seferinde ¼ su bardağı (60 ml) su ekleyin ve her eklemeden sonra ellerinizle yoğurun. Bu, fıstık ezmesindeki taneleri şişirecek, koyulaştıracak ve yağları serbest bırakacaktır. Karışım yağ serbest bırakmaya başladığında su eklemeyi bırakın. Mümkün olduğunca çok yağ çıkarmak için 5 dakika daha yoğurun.",
+   "4": "Karışımı tülbente koyun ve yağları çıkarmak için sıkın. Fıstık karışımını kaseye geri koyun ve yağları kızartma için ayırın.",
+   "5": "Kalan malzemeleri iyice karıştırarak ekleyin.",
+   "6": "Şekillendirilebilir bir hamur elde edene kadar her seferinde bir yemek kaşığı su ekleyin ve iyice yoğurun.",
+   "7": "Hamurdan çay kaşıkları alın ve küçük toplar yapın veya tercihinize göre düz diskler oluşturun. Ayrıca geleneksel kuli-kuli gibi küçük silindirler veya oval şekiller de yapabilirsiniz. Farklı şekillerle deneyebilirsiniz.",
+   "8": "Ayrılan yağı tavada orta ateşte ısıtın. Kuli-kuli parçalarını parti halinde kızartın, tavayı aşırı doldurmadığınızdan emin olarak, her tarafı altın sarısı ve gevrek olana kadar (yaklaşık 4-5 dakika). Eşit kızartma için dikkatlice çevirdiğinizden emin olun.",
+   "9": "Kızardıktan sonra kuli-kulileri yağdan çıkarın ve fazla yağını almak için kağıt havlu üzerine koyun. Servis etmeden önce tamamen soğumalarını bekleyin."
+  },
+  "culturalNotes": "Kuli-kuli, Nijerya'nın geleneksel bir atıştırmalığı veya kahvaltısıdır.",
+  "chapter": "ng"
+ },
+ "w-ng-010": {
+  "title": "Ofada pirinci",
+  "ingredients": {
+   "w-ng-010-i1": {
+    "name": "Ofada pirinci",
+    "standardAmount": "2 su bardağı"
+   },
+   "w-ng-010-i2": {
+    "name": "su",
+    "standardAmount": "yıkama ve pişirme için"
+   },
+   "w-ng-010-i3": {
+    "name": "tuz",
+    "standardAmount": "damak zevkinize göre"
+   }
+  },
+  "instructions": {
+   "1": "Pirinci durulama suyu berraklaşana kadar suyla iyice yıkayın.",
+   "2": "Pirinci büyük bir tencereye ekleyin ve pirinci yaklaşık 2 cm örtecek kadar su ekleyin.",
+   "3": "Damak zevkinize göre tuz ekleyin.",
+   "4": "Tencereyi kapatın ve pirinci yüksek ateşte kaynatın.",
+   "5": "Ateşi kısın ve pirinci 20 dakika veya pişene kadar kısık ateşte kaynatın.",
+   "6": "Ateşi kapatın ve servis etmeden önce pirinci 5 dakika dinlendirin."
+  },
+  "culturalNotes": "Ofada pirinci, Nijerya'da benzersiz tadı ve koyu kahverengi rengiyle bilinen yerel bir pirinç çeşididir.",
+  "chapter": "ng"
+ },
+ "w-ng-011": {
+  "title": "Ofe Owerri",
+  "ingredients": {
+   "w-ng-011-i1": {
+    "name": "karışık etler (dana, keçi, işkembe)",
+    "standardAmount": "1 kg"
+   },
+   "w-ng-011-i2": {
+    "name": "baharat küpleri",
+    "standardAmount": "4-6"
+   },
+   "w-ng-011-i3": {
+    "name": "su",
+    "standardAmount": "3-4 su bardağı"
+   },
+   "w-ng-011-i4": {
+    "name": "kurutulmuş balık, tütsülenmiş balık veya stok balığı",
+    "standardAmount": "500 gram"
+   },
+   "w-ng-011-i5": {
+    "name": "cocoyam ezmesi",
+    "standardAmount": "1 su bardağı"
+   },
+   "w-ng-011-i6": {
+    "name": "palm yağı",
+    "standardAmount": "1 su bardağı"
+   },
+   "w-ng-011-i7": {
+    "name": "öğütülmüş kurutulmuş karides",
+    "standardAmount": "3 yemek kaşığı"
+   },
+   "w-ng-011-i8": {
+    "name": "ogiri (fermente kavun çekirdeği ezmesi)",
+    "standardAmount": "2 yemek kaşığı"
+   },
+   "w-ng-011-i9": {
+    "name": "taze dolmalık biber veya biber",
+    "standardAmount": "damak zevkinize göre"
+   },
+   "w-ng-011-i10": {
+    "name": "okazi veya uziza yaprakları",
+    "standardAmount": "1 su bardağı, ince dilimlenmiş"
+   },
+   "w-ng-011-i11": {
+    "name": "ugu yaprakları",
+    "standardAmount": "2 su bardağı doğranmış"
+   }
+  },
+  "instructions": {
+   "1": "Etleri ve kurutulmuş balığı temizleyin ve parçalara kesin.",
+   "2": "Etleri baharat küpleri ve suyla bir tencereye ekleyin ve yumuşayana kadar kaynatın.",
+   "3": "Kurutulmuş balığı ve tütsülenmiş balığı ekleyin ve 10 dakika kısık ateşte kaynatın.",
+   "4": "Çorbayı koyulaştırmak için cocoyam ezmesini karıştırın, iyice karıştığından emin olun.",
+   "5": "Palm yağı, öğütülmüş kurutulmuş karides, ogiri ve biberi karıştırın ve 5-10 dakika kısık ateşte kaynatın.",
+   "6": "Okazi yapraklarını ekleyin ve 3 dakika kısık ateşte kaynatın.",
+   "7": "Ugu yapraklarını karıştırın ve 2-3 dakika kısık ateşte kaynatın.",
+   "8": "Tadın ve baharatı ayarlayın. Ezilmiş yam veya fufu ile sıcak servis edin."
+  },
+  "culturalNotes": "Ofe Owerri, Nijerya'nın Imo eyaletine ait geleneksel bir çorbadır ve tipik olarak ezilmiş yam veya fufu ile servis edilir.",
+  "chapter": "ng"
+ },
+ "w-ng-012": {
+  "title": "Owo çorbası",
+  "ingredients": {
+   "w-ng-012-i1": {
+    "name": "Taze domatesler",
+    "standardAmount": "gerektiği kadar"
+   },
+   "w-ng-012-i2": {
+    "name": "Taze biber",
+    "standardAmount": "gerektiği kadar"
+   },
+   "w-ng-012-i3": {
+    "name": "Keçi eti veya karışık helal et",
+    "standardAmount": "500 gram"
+   },
+   "w-ng-012-i4": {
+    "name": "Küçük soğan",
+    "standardAmount": "1 küçük soğan"
+   },
+   "w-ng-012-i5": {
+    "name": "Baharat/et suyu küpleri",
+    "standardAmount": "gerektiği kadar"
+   },
+   "w-ng-012-i6": {
+    "name": "Tuz",
+    "standardAmount": "damak zevkinize göre"
+   },
+   "w-ng-012-i7": {
+    "name": "Kurutulmuş balık",
+    "standardAmount": "1 bir avuç"
+   },
+   "w-ng-012-i8": {
+    "name": "Öğütülmüş kurutulmuş karides",
+    "standardAmount": "gerektiği kadar"
+   },
+   "w-ng-012-i9": {
+    "name": "Potas (akaun)",
+    "standardAmount": "1/2 çay kaşığı"
+   },
+   "w-ng-012-i10": {
+    "name": "Palm yağı",
+    "standardAmount": "gerektiği kadar"
+   }
+  },
+  "instructions": {
+   "1": "Domatesleri ve taze biberi eze haline getirin.",
+   "2": "Eti, soğanı, baharat küplerini ve tuzu tencerede birleştirin. Kendi suyunda yaklaşık 3 dakika pişirin.",
+   "3": "Eti suyla örtün ve yumuşayana kadar kısık ateşte kaynatın.",
+   "4": "Kurutulmuş balığı, domates-biber ezmesini ve öğütülmüş kurutulmuş karidesi ete ekleyin. Yaklaşık bir su bardağı su ekleyin ve karıştırın. Yanmayı önlemek için karıştırarak 10 dakika kısık ateşte kaynatın.",
+   "5": "Potas tozunu 4 yemek kaşığı sıcak suda çözün. Karışımı dikkatlice süzün ve sıvıyı çorbaya karıştırın.",
+   "6": "Ateşi kapatın ve çorbanın yaklaşık 10 dakika soğumasını bekleyin.",
+   "7": "Çorbayı ateşe geri koyun ve palm yağını kademeli olarak karıştırın.",
+   "8": "Ateşten alın ve kızartmalık muzlar, yam veya seçtiğiniz herhangi bir yutulabilir yemekle servis edin."
+  },
+  "culturalNotes": "Owo çorbası, Nijerya'nın geleneksel bir yemeğidir ve tipik olarak kızartmalık muzlar, yam veya seçtiğiniz herhangi bir yutulabilir yemekle servis edilir.",
+  "chapter": "ng"
+ },
+ "w-ng-013": {
+  "title": "Dana eti ve ıspanaklı fıstık yahnisi",
+  "ingredients": {
+   "w-ng-013-i1": {
+    "name": "dana eti",
+    "standardAmount": "1 1/4 libre"
+   },
+   "w-ng-013-i2": {
+    "name": "bitkisel yağ",
+    "standardAmount": "gerektiği kadar"
+   },
+   "w-ng-013-i3": {
+    "name": "soğanlar",
+    "standardAmount": "2 soğan"
+   },
+   "w-ng-013-i4": {
+    "name": "sarımsak",
+    "standardAmount": "4 diş"
+   },
+   "w-ng-013-i5": {
+    "name": "dana eti suyu",
+    "standardAmount": "3 su bardağı"
+   },
+   "w-ng-013-i6": {
+    "name": "ıspanak",
+    "standardAmount": "3 demet"
+   },
+   "w-ng-013-i7": {
+    "name": "domatesler",
+    "standardAmount": "3 domates"
+   },
+   "w-ng-013-i8": {
+    "name": "şekersiz fıstık ezmesi",
+    "standardAmount": "1 su bardağı"
+   }
+  },
+  "instructions": {
+   "1": "Dana etini küpler halinde kesin ve bitkisel yağda kızartın.",
+   "2": "Soğanları ve sarımsağı ekleyin ve soğanlar yumuşamaya ve hatta biraz renk almaya başlayana kadar birkaç dakika pişirin.",
+   "3": "Dana eti suyunu dökün ve kaynatın, sonra ateşi kısın ve sıvı yarıya inene kadar kısık ateşte kaynatın.",
+   "4": "Şekersiz fıstık ezmesini iyice karışana kadar karıştırın.",
+   "5": "Domatesleri ve ıspanağı ekleyin ve ıspanak solana ve fıstık ezmesi yağlarını serbest bırakarak yemeği parlak hale getirene kadar pişirin."
+  },
+  "culturalNotes": "Fıstık yahnisi, Nijerya'da popüler bir yemektir ve genellikle kisra gibi yassı ekmek veya pilav ile servis edilir.",
+  "chapter": "ng"
+ },
+ "w-ng-014": {
+  "title": "Ezilmiş yam ile Nijerya Ogbono çorbası",
+  "ingredients": {
+   "w-ng-014-i1": {
+    "name": "Et (öküz kuyruğu, yahni eti, işkembe, inek derisi)",
+    "standardAmount": "1-2 libre"
+   },
+   "w-ng-014-i2": {
+    "name": "Tütsülenmiş balık",
+    "standardAmount": "1 su bardağı"
+   },
+   "w-ng-014-i3": {
+    "name": "Soğan",
+    "standardAmount": "1 su bardağı küp doğranmış"
+   },
+   "w-ng-014-i4": {
+    "name": "Öğütülmüş kurutulmuş karides",
+    "standardAmount": "½ su bardağı"
+   },
+   "w-ng-014-i5": {
+    "name": "Tavuk suyu",
+    "standardAmount": "1 çorba kaşığı (damak zevkinize göre ayarlayın)"
+   },
+   "w-ng-014-i6": {
+    "name": "Yeşil yapraklı sebzeler (ıspanak, lahana, kara lahana, callaloo)",
+    "standardAmount": "3 su bardağı doğranmış"
+   },
+   "w-ng-014-i7": {
+    "name": "Palm yağı",
+    "standardAmount": "¼-⅓ su bardağı"
+   },
+   "w-ng-014-i8": {
+    "name": "Kırmızı pul biber",
+    "standardAmount": "1 çorba kaşığı"
+   },
+   "w-ng-014-i9": {
+    "name": "Öğütülmüş egusi (isteğe bağlı)",
+    "standardAmount": "½ su bardağı"
+   },
+   "w-ng-014-i10": {
+    "name": "Öğütülmüş ogbono",
+    "standardAmount": "½ su bardağı"
+   },
+   "w-ng-014-i11": {
+    "name": "Tuz ve biber",
+    "standardAmount": "damak zevkinize göre"
+   }
+  },
+  "instructions": {
+   "1": "Eti yıkayın ve 30 dakika suda bekletin, sonra süzün.",
+   "2": "Eti tencereye koyun ve suyla örtün. Soğanı ve et suyunu ekleyin ve kısık ateşte bir saat kaynatın.",
+   "3": "Tütsülenmiş balığı, öğütülmüş kurutulmuş karidesi, yeşil yapraklı sebzeleri, palm yağını ve kırmızı pul biberi ekleyin. 30 dakika daha pişirin.",
+   "4": "Öğütülmüş egusi ve öğütülmüş ogbono'yu ekleyin ve iyice karıştırın. Koyulaşana kadar 10 dakika pişirin.",
+   "5": "Damak zevkinize göre tuz ve biber ekleyin. 5 dakika daha pişirin.",
+   "6": "Ayrı bir tencerede ezilmiş yamı koyun ve kısık ateşte 10 dakika yumuşayana kadar kaynatın.",
+   "7": "Çorbayı sıcak ezilmiş yam ile servis edin."
+  },
+  "culturalNotes": "Ezilmiş yam ile Nijerya Ogbono çorbası, Nijerya'da zengin tadı ve kremsi dokusuyla bilinen geleneksel bir yemektir.",
+  "chapter": "ng"
  }
 }
