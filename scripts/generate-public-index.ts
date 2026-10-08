@@ -224,6 +224,15 @@ for (const lang of SUPPORTED_LANGUAGES) {
   put(`search/${lang}.json`, search);
 }
 
+// Dietary claims (halal, kosher, vegetarian, vegan) from scripts/diet/. Positive claims only,
+// basis "ingredients": derived from the ingredient and step text, not a certification.
+type DietaryClaim = { claim: string; basis: 'ingredients' | 'certified'; ruleset: string; note?: string };
+const RECIPE_DIETARY: Record<string, DietaryClaim[]> = JSON.parse(await readFile('src/data/recipeDietary.json', 'utf8'));
+const SCHEMA_ORG_DIET: Record<string, string> = {
+  halal: 'https://schema.org/HalalDiet', kosher: 'https://schema.org/KosherDiet',
+  vegetarian: 'https://schema.org/VegetarianDiet', vegan: 'https://schema.org/VeganDiet'
+};
+
 // Full recipes, each with its estimate and every translation it has.
 for (const recipe of orderedRecipes) {
   const translations: Partial<Record<SupportedLanguage, TranslationTable[string]>> = {};
@@ -237,7 +246,7 @@ for (const recipe of orderedRecipes) {
     const { chapter, category, cookingMethod, prepTime, cookTime, servings } = getLocalizedRecipe(recipe, lang);
     translations[lang] = { chapter, category, cookingMethod, prepTime, cookTime, servings, ...table[recipe.id] };
   }
-  put(`recipes/${recipe.id}.json`, { recipe, estimate: RECIPE_ESTIMATES[recipe.id], translations });
+  put(`recipes/${recipe.id}.json`, { recipe, estimate: RECIPE_ESTIMATES[recipe.id], translations, ...(RECIPE_DIETARY[recipe.id] ? { dietary: RECIPE_DIETARY[recipe.id] } : {}) });
 }
 
 // Videos tab: what scripts/recipe-videos/fetch-videos.ts found, fetched by the

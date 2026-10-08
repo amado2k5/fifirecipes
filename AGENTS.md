@@ -13,6 +13,12 @@ Before you add, translate or edit any recipe text (`src/data/world/*.json`,
 - No pork or alcohol, including hidden ones (chashu, mirin). Remove
   non-halal recipes using the checklist in the guide, and veto their slugs.
 
+## Dietary claims
+
+Halal, kosher, vegetarian and vegan claims live in `src/data/recipeDietary.json`, produced by `scripts/diet/`.
+They are ingredient-based, never certifications. Read [docs/DIETARY-CLASSIFICATION.md](docs/DIETARY-CLASSIFICATION.md)
+before editing recipe ingredients or steps; a changed recipe needs its facts re-reviewed or its claims removed.
+
 ## Resuming the world-cuisines build
 
 The full discover → distill → import → halal → translate → estimates →
