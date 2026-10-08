@@ -131745,5 +131745,1554 @@
   },
   "culturalNotes": "Shish taouk är en traditionell grillad rätt i det libanesiska köket, som vanligtvis serveras med tahini och ångkokt ris.",
   "chapter": "مطبخ لبنان"
+ },
+ "w-my-001": {
+  "title": "Nyonya acar-fisk",
+  "ingredients": {
+   "w-my-001-i1": {
+    "name": "gurkmeja",
+    "standardAmount": "1 medelstor bit (skuren i tunna skivor)"
+   },
+   "w-my-001-i2": {
+    "name": "silvermullet eller benfilé av röd snapper",
+    "standardAmount": "600 g (skuret i filéer som är 1 tum tjocka)"
+   },
+   "w-my-001-i3": {
+    "name": "ingefära",
+    "standardAmount": "1 stor bit (skuren i tändsticksstora strimlor)"
+   },
+   "w-my-001-i4": {
+    "name": "vitlök",
+    "standardAmount": "2 små klyftor (skurna i tunna skivor)"
+   },
+   "w-my-001-i5": {
+    "name": "färsk röd chili",
+    "standardAmount": "3 st (skurna diagonalt i bitar)"
+   },
+   "w-my-001-i6": {
+    "name": "fågelchili",
+    "standardAmount": "10-12 st"
+   },
+   "w-my-001-i7": {
+    "name": "olja",
+    "standardAmount": "480 ml"
+   },
+   "w-my-001-i8": {
+    "name": "vatten",
+    "standardAmount": "480 ml"
+   },
+   "w-my-001-i9": {
+    "name": "kinesisk risvinäger",
+    "standardAmount": "240 ml (eller efter smak)"
+   },
+   "w-my-001-i10": {
+    "name": "salt",
+    "standardAmount": "2 matskedar (eller efter smak)"
+   },
+   "w-my-001-i11": {
+    "name": "socker",
+    "standardAmount": "200 g (eller efter smak)"
+   },
+   "w-my-001-i12": {
+    "name": "rostade vita sesamfrön",
+    "standardAmount": "1 matsked"
+   }
+  },
+  "instructions": {
+   "1": "Torka gurkmejan, ingefäran och vitlöken i solen i några timmar.",
+   "2": "Marinera fisken med lite salt innan den friteras tills den är gyllene och knaprig.",
+   "3": "Lägg över fisken i en djup kastrull, följt av ingefäran, vitlöken och chilin.",
+   "4": "Hetta upp en wok och stek gurkmejan under omrörning tills oljan blir gul. Ta bort gurkmejan med ett durkslag.",
+   "5": "Tillsätt vatten och vinäger i woken och koka upp. Smaksätt med socker och salt efter smak.",
+   "6": "Häll marinaden i kastrullen så att fisken och de övriga ingredienserna ligger helt täckta.",
+   "7": "Strö sesamfrön ovanpå, lägg på lock och låt fisken ligga i lag över natten.",
+   "8": "Fisken är godast om den serveras dagen efter."
+  },
+  "culturalNotes": "Nyonya acar-fisk är en traditionell rätt i det malajiska köket, känd för sin kryddstarka och syrliga smak.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-002": {
+  "title": "Ayam masak merah",
+  "ingredients": {
+   "w-my-002-i1": {
+    "name": "kyckling",
+    "standardAmount": "2 kg"
+   },
+   "w-my-002-i2": {
+    "name": "salt",
+    "standardAmount": "efter smak"
+   },
+   "w-my-002-i3": {
+    "name": "gurkmeja",
+    "standardAmount": "2 matskedar"
+   },
+   "w-my-002-i4": {
+    "name": "rödlök",
+    "standardAmount": "2"
+   },
+   "w-my-002-i5": {
+    "name": "ingefära",
+    "standardAmount": "40 g"
+   },
+   "w-my-002-i6": {
+    "name": "galangal",
+    "standardAmount": "25 g"
+   },
+   "w-my-002-i7": {
+    "name": "citrongräs",
+    "standardAmount": "5"
+   },
+   "w-my-002-i8": {
+    "name": "torkad chili",
+    "standardAmount": "20"
+   },
+   "w-my-002-i9": {
+    "name": "vitlök",
+    "standardAmount": "5 klyftor"
+   },
+   "w-my-002-i10": {
+    "name": "vegetabilisk olja",
+    "standardAmount": "till fritering + ¼ kopp extra"
+   },
+   "w-my-002-i11": {
+    "name": "kanel",
+    "standardAmount": "7.6 cm"
+   },
+   "w-my-002-i12": {
+    "name": "stjärnanis",
+    "standardAmount": "2-3"
+   },
+   "w-my-002-i13": {
+    "name": "malda kryddnejlikor",
+    "standardAmount": "1 tesked"
+   },
+   "w-my-002-i14": {
+    "name": "malen kardemumma",
+    "standardAmount": "1 tesked"
+   },
+   "w-my-002-i15": {
+    "name": "tomatsoppa",
+    "standardAmount": "1 burk"
+   },
+   "w-my-002-i16": {
+    "name": "kokosmjölk",
+    "standardAmount": "1 burk"
+   }
+  },
+  "instructions": {
+   "1": "Gnid in kycklingen med gurkmeja och salt och ställ åt sidan i 30 minuter.",
+   "2": "Hetta upp olja i en wok och fritera kycklingbitarna tills de är gyllenbruna. Ställ åt sidan.",
+   "3": "Hacka rödlök, ingefära, galangal och citrongräs grovt och lägg dem i en mixer eller matberedare. Tillsätt chilin och vitlöken och mixa till en pasta.",
+   "4": "Hetta upp woken med ½ kopp olja. Fräs kryddorna – kanel, stjärnanis, kryddnejlikor och kardemumma – tills de doftar. Tillsätt den mixade pastan och höj värmen tills den bubblar. Sänk sedan värmen och låt sjuda tills pastan är helt genomkokt och doftande och oljan skiljer sig från pastan (pecah minyak).",
+   "5": "Tillsätt tomatsoppan på burk, kokosmjölken och kycklingbitarna. Höj värmen för att snabbt koka upp, sänk sedan till en sjudning och koka tills såsen tjocknar. Smaksätt med salt efter smak och garnera med salladslök före servering."
+  },
+  "culturalNotes": "Ayam masak merah är en traditionell malaysisk rätt med kyckling i en kryddstark tomatsås.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-003": {
+  "title": "Bubur cha-cha",
+  "ingredients": {
+   "w-my-003-i1": {
+    "name": "lila sötpotatis",
+    "standardAmount": "80 g"
+   },
+   "w-my-003-i2": {
+    "name": "orange sötpotatis",
+    "standardAmount": "80 g"
+   },
+   "w-my-003-i3": {
+    "name": "gul sötpotatis",
+    "standardAmount": "80 g"
+   },
+   "w-my-003-i4": {
+    "name": "jams (taro)",
+    "standardAmount": "150 g"
+   },
+   "w-my-003-i5": {
+    "name": "sago (tapiokapärlor)",
+    "standardAmount": "10 g"
+   },
+   "w-my-003-i6": {
+    "name": "svartögda bönor",
+    "standardAmount": "50 g (blötlagda i 1 timme)"
+   },
+   "w-my-003-i7": {
+    "name": "tapiokamjöl",
+    "standardAmount": "100 g"
+   },
+   "w-my-003-i8": {
+    "name": "kokande vatten",
+    "standardAmount": "120 ml"
+   },
+   "w-my-003-i9": {
+    "name": "röd färg",
+    "standardAmount": "efter smak"
+   },
+   "w-my-003-i10": {
+    "name": "vatten",
+    "standardAmount": "1.5-2 liter (justera efter smak)"
+   },
+   "w-my-003-i11": {
+    "name": "tjock kokosmjölk",
+    "standardAmount": "1 kopp"
+   },
+   "w-my-003-i12": {
+    "name": "socker",
+    "standardAmount": "120 g"
+   },
+   "w-my-003-i13": {
+    "name": "salt",
+    "standardAmount": "efter smak"
+   },
+   "w-my-003-i14": {
+    "name": "banan",
+    "standardAmount": "3 bananer (skalade och skurna i halvtumstjocka bitar)"
+   },
+   "w-my-003-i15": {
+    "name": "pandanusblad",
+    "standardAmount": "3 blad"
+   }
+  },
+  "instructions": {
+   "1": "Koka de svartögda bönorna i kokande vatten tills de är mjuka. Koka sagon i en separat kastrull tills den är genomskinlig och genomkokt. Ställ åt sidan.",
+   "2": "Skala sötpotatisen och jamsen och skär dem i tärningar eller önskade former. Ånga varje sort separat tills den är mjuk.",
+   "3": "För att göra tapiokagelén, blanda mjölet med ½ kopp kokande vatten tills en deg bildas. När den har svalnat, kavla ut den på en mjölad yta och skär i små tärningar. Koka gelébitarna i vatten tills de flyter upp och blir sega, sila sedan av och ställ åt sidan.",
+   "4": "Koka upp 1 liter vatten i en separat kastrull. Tillsätt 1 matsked socker och bananskivorna. Koka i 5 minuter, sila sedan av och ställ åt sidan.",
+   "5": "Koka upp 1.5 till 2 liter vatten i en stor kastrull till en lätt kokning (börja med mindre om du föredrar en tjockare konsistens). Tillsätt den tjocka kokosmjölken, sockret, saltet och pandanusbladen. Låt sjuda på låg värme i 10–15 minuter under tillfällig omrörning. Smaka av och justera kokosmjölken eller sockret vid behov.",
+   "6": "Tillsätt de svartögda bönorna, sagon, den ångade sötpotatisen, jamsen, bananen och den kokta tapiokagelén i kokosbasen. Rör försiktigt om så att allt blandas och värms igenom. Servera varm eller kall, efter egen smak."
+  },
+  "culturalNotes": "Bubur cha-cha är en traditionell malaysisk dessertsoppa som serveras som en lätt måltid eller dessert. Den kännetecknas av söta och syrliga smaker och varierande texturer.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-004": {
+  "title": "Kinesisk BBQ-kyckling i airfryer",
+  "ingredients": {
+   "w-my-004-i1": {
+    "name": "benfria kycklinglår",
+    "standardAmount": "10.6 uns"
+   },
+   "w-my-004-i2": {
+    "name": "halal kinesisk grillsås",
+    "standardAmount": "söt kinesisk grillmarinad"
+   },
+   "w-my-004-i3": {
+    "name": "sesamfrön",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Marinera kycklingen med 75 ml halal kinesisk grillsås i minst 30 minuter.",
+   "2": "Lägg kycklingen med skinnsidan nedåt i airfryerkorgen. Ös över hälften av den överblivna marinaden och airfrya vid 190°C (375°F) i 10 minuter.",
+   "3": "Vänd kycklingen, ös över den återstående marinaden och airfrya vid 190°C (375°F) i 4 minuter eller tills den är genomstekt och lätt förkolnad.",
+   "4": "Garnera med sesamfrön och servera med ångat vitt ris."
+  },
+  "culturalNotes": "Kinesisk BBQ-kyckling i airfryer är en populär rätt i det malaysiska köket och serveras vanligtvis med ångat vitt ris.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-005": {
+  "title": "Kokosmarmelad (Seri kaya)",
+  "ingredients": {
+   "w-my-005-i1": {
+    "name": "ägg",
+    "standardAmount": "5 ägg"
+   },
+   "w-my-005-i2": {
+    "name": "kokosmjölk",
+    "standardAmount": "200 ml"
+   },
+   "w-my-005-i3": {
+    "name": "socker",
+    "standardAmount": "120 g"
+   },
+   "w-my-005-i4": {
+    "name": "pandanusblad",
+    "standardAmount": "3 blad"
+   },
+   "w-my-005-i5": {
+    "name": "majsstärkelse",
+    "standardAmount": "1.5 matskedar"
+   },
+   "w-my-005-i6": {
+    "name": "vatten",
+    "standardAmount": "1.5 matskedar"
+   },
+   "w-my-005-i7": {
+    "name": "socker",
+    "standardAmount": "75 g"
+   }
+  },
+  "instructions": {
+   "1": "Knäck äggen i en stor skål och tillsätt sedan kokosmjölken och sockret. Vispa väl för hand.",
+   "2": "Sila blandningen ner i en non-stick-kastrull och tillsätt pandanusbladen. Koka på låg värme under konstant omrörning i cirka 20 minuter. Tillsätt majsstärkelseblandningen för att tjocka kokosmarmeladen. Stäng av värmen och ta bort pandanusbladen.",
+   "3": "Hetta upp sockret i en annan kastrull på medelhög värme tills det smälter till karamell. När det blir gyllenbrunt, ta av från värmen, tillsätt det i kayan och rör om väl. Kayan ska bli gyllenbrun.",
+   "4": "Lägg över kayan i en mixer och mixa tills den är slät och klumpfri. Bred på rostat bröd för att göra kayarostat bröd. Förvara resten i en burk i kylen i upp till en vecka."
+  },
+  "culturalNotes": "Seri kaya är en kokosmarmelad som ofta används i Malaysia för att göra kayarostat bröd.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-006": {
+  "title": "Currypuff (Karipap)",
+  "ingredients": {
+   "w-my-006-i1": {
+    "name": "torkad röd chili",
+    "standardAmount": "15 (utan kärnor)"
+   },
+   "w-my-006-i2": {
+    "name": "schalottenlök",
+    "standardAmount": "8 (skalade)"
+   },
+   "w-my-006-i3": {
+    "name": "currypulver för kött",
+    "standardAmount": "2-3 matskedar"
+   },
+   "w-my-006-i4": {
+    "name": "olja",
+    "standardAmount": "5 matskedar"
+   },
+   "w-my-006-i5": {
+    "name": "curryblad",
+    "standardAmount": "5 blad"
+   },
+   "w-my-006-i6": {
+    "name": "kyckling",
+    "standardAmount": "1 kg (skuren i små bitar)"
+   },
+   "w-my-006-i7": {
+    "name": "potatis",
+    "standardAmount": "1 kg (skuren i små bitar)"
+   },
+   "w-my-006-i8": {
+    "name": "gul lök",
+    "standardAmount": "500 g (skalad och tärnad)"
+   },
+   "w-my-006-i9": {
+    "name": "vatten",
+    "standardAmount": "125 ml"
+   },
+   "w-my-006-i10": {
+    "name": "salt",
+    "standardAmount": "1.5 teskedar (efter smak)"
+   },
+   "w-my-006-i11": {
+    "name": "socker",
+    "standardAmount": "efter smak"
+   },
+   "w-my-006-i12": {
+    "name": "vetemjöl",
+    "standardAmount": "900 g"
+   },
+   "w-my-006-i13": {
+    "name": "osaltat smör",
+    "standardAmount": "340 g"
+   },
+   "w-my-006-i14": {
+    "name": "ghee",
+    "standardAmount": "20 g (valfritt)"
+   },
+   "w-my-006-i15": {
+    "name": "mjöl",
+    "standardAmount": "730 g"
+   }
+  },
+  "instructions": {
+   "1": "Mixa den torkade röda chilin, schalottenlöken och currypulvret i en matberedare tills det är slätt.",
+   "2": "Hetta upp oljan i en kastrull och fräs currybladen, chilin och schalottenlöken tills schalottenlöken blir gyllene.",
+   "3": "Tillsätt kycklingen, potatisen, den gula löken och vattnet. Koka upp, sänk sedan värmen och låt sjuda i 20 minuter tills kycklingen och potatisen är möra.",
+   "4": "Tillsätt salt och socker efter smak och koka i ytterligare 5 minuter.",
+   "5": "Låt fyllningen svalna och ställ den sedan i kylen i 30 minuter.",
+   "6": "Blanda mjölet, smöret och gheen (om den används) i en skål för att göra oljedegen.",
+   "7": "Blanda mjölet och vattnet i en annan skål för att göra vattendegen.",
+   "8": "Rulla in oljedegen i vattendegen för att skapa det spiralformade pajskalet.",
+   "9": "Skär degen i små bitar och kavla ut dem för att forma pajskalen.",
+   "10": "Fyll pajskalen med fyllningen och vik och forma dem sedan.",
+   "11": "Grädda puffarna i en förvärmd ugn vid 180°C i 20-25 minuter tills de är gyllenbruna."
+  },
+  "culturalNotes": "Currypuffar är en populär rätt i Malaysia, även kända som karipap. De serveras som mellanmål eller förrätt.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-007": {
+  "title": "Djävulscurry (Kari debal)",
+  "ingredients": {
+   "w-my-007-i1": {
+    "name": "torkad röd chili",
+    "standardAmount": "20-30 chilifrukter"
+   },
+   "w-my-007-i2": {
+    "name": "små schalottenlökar",
+    "standardAmount": "8 schalottenlökar"
+   },
+   "w-my-007-i3": {
+    "name": "vitlök",
+    "standardAmount": "5 klyftor"
+   },
+   "w-my-007-i4": {
+    "name": "citrongräs",
+    "standardAmount": "3 stjälkar"
+   },
+   "w-my-007-i5": {
+    "name": "ingefära",
+    "standardAmount": "1 matsked"
+   },
+   "w-my-007-i6": {
+    "name": "galangal",
+    "standardAmount": "1 matsked"
+   },
+   "w-my-007-i7": {
+    "name": "malen gurkmeja",
+    "standardAmount": "1/4 tesked"
+   },
+   "w-my-007-i8": {
+    "name": "matolja",
+    "standardAmount": "1/4 kopp"
+   },
+   "w-my-007-i9": {
+    "name": "senapsfrön",
+    "standardAmount": "1 matsked"
+   },
+   "w-my-007-i10": {
+    "name": "kyckling",
+    "standardAmount": "3 pund"
+   },
+   "w-my-007-i11": {
+    "name": "potatis",
+    "standardAmount": "1 pund"
+   },
+   "w-my-007-i12": {
+    "name": "vatten",
+    "standardAmount": "1 kopp"
+   },
+   "w-my-007-i13": {
+    "name": "salt och socker",
+    "standardAmount": "efter smak"
+   },
+   "w-my-007-i14": {
+    "name": "destillerad vit vinäger",
+    "standardAmount": "2 matskedar"
+   },
+   "w-my-007-i15": {
+    "name": "koriander",
+    "standardAmount": "till garnering (valfritt)"
+   }
+  },
+  "instructions": {
+   "1": "Blötlägg den torkade röda chilin i vatten i 20-30 minuter, hacka sedan schalottenlöken och vitlöken grovt och finhacka citrongräset, ingefäran och galangalen. Lägg alla ingredienser i en mixer och mixa till en slät puré. Ställ åt sidan.",
+   "2": "Hetta upp oljan på medelvärme i en tung kastrull. Tillsätt senapsfröna och stek tills de börjar poppa.",
+   "3": "Tillsätt kryddpastan i oljan och stek tills den doftar, cirka 10 minuter, eller tills oljan skiljer sig och flyter upp till ytan.",
+   "4": "Tillsätt kycklingen och rör om så att den täcks av kryddpastan. Låt den koka i cirka 8-10 minuter, tillsätt sedan potatisen och rör om.",
+   "5": "Häll i vattnet så att det knappt täcker kycklingen och potatisen. Tillsätt salt och socker efter smak. Rör om väl och koka upp. Sänk sedan värmen till en sjudning, lägg på lock och låt sjuda i cirka 20-30 minuter, eller tills potatisen är mjuk.",
+   "6": "Justera smaksättningen med salt och socker. Tillsätt den vita vinägern eller tamarindjuicen och rör om väl. Stäng av värmen och servera djävulscurryn garnerad med koriander, om den används. Servera varm med ångat ris."
+  },
+  "culturalNotes": "Djävulscurry är en kryddstark och särpräglad rätt från det malaysiska köket, känd för sin starka smak och rika kryddor.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-008": {
+  "title": "Dosa (indiska pannkakor)",
+  "ingredients": {
+   "w-my-008-i1": {
+    "name": "fullkornsrismjöl",
+    "standardAmount": "1 kopp"
+   },
+   "w-my-008-i2": {
+    "name": "fullkornsvetemjöl",
+    "standardAmount": "0.5 kopp"
+   },
+   "w-my-008-i3": {
+    "name": "vatten",
+    "standardAmount": "1.5 koppar"
+   },
+   "w-my-008-i4": {
+    "name": "rödlök",
+    "standardAmount": "1 klyfta, finhackad"
+   },
+   "w-my-008-i5": {
+    "name": "vitlök",
+    "standardAmount": "1 klyfta, pressad"
+   },
+   "w-my-008-i6": {
+    "name": "färsk koriander",
+    "standardAmount": "0.25 kopp, hackad"
+   },
+   "w-my-008-i7": {
+    "name": "vitt socker",
+    "standardAmount": "0.25 tesked"
+   },
+   "w-my-008-i8": {
+    "name": "malen gurkmeja",
+    "standardAmount": "0.5 tesked"
+   },
+   "w-my-008-i9": {
+    "name": "malen spiskummin",
+    "standardAmount": "1 tesked"
+   },
+   "w-my-008-i10": {
+    "name": "senapsfrön",
+    "standardAmount": "2 teskedar"
+   },
+   "w-my-008-i11": {
+    "name": "spiskummin i frö",
+    "standardAmount": "1 tesked"
+   },
+   "w-my-008-i12": {
+    "name": "malen koriander",
+    "standardAmount": "1 tesked"
+   },
+   "w-my-008-i13": {
+    "name": "malen ingefära",
+    "standardAmount": "1 tesked"
+   },
+   "w-my-008-i14": {
+    "name": "cayennepeppar",
+    "standardAmount": "en nypa"
+   },
+   "w-my-008-i15": {
+    "name": "risvinäger",
+    "standardAmount": "3 matskedar"
+   },
+   "w-my-008-i16": {
+    "name": "vegetabilisk olja",
+    "standardAmount": "1 matsked"
+   }
+  },
+  "instructions": {
+   "1": "Blanda fullkornsrismjölet och fullkornsvetemjölet i en stor skål.",
+   "2": "Tillsätt vattnet gradvis för att göra en tunn smet.",
+   "3": "Tillsätt löken, vitlöken, koriandern, sockret, gurkmejan, spiskummin, senapsfrön, spiskumminfrön, malen koriander, ingefäran, cayennepepparn och risvinägern och blanda väl.",
+   "4": "Täck smeten och ställ den i kylen i minst 30 minuter eller över natten.",
+   "5": "För att steka dosorna, hetta upp oljan i en stekpanna på medelvärme.",
+   "6": "Häll 1/4 kopp smet i stekpannan och bred ut den i ett tunt lager över botten.",
+   "7": "Stek i 1 minut, vänd sedan och stek i 1 minut till.",
+   "8": "Ta bort dosan från pannan och upprepa med resten av smeten."
+  },
+  "culturalNotes": "Dosa är en populär frukosträtt i Indien och Sydasien och serveras vanligtvis med chutney och grönsaker.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-009": {
+  "title": "Gulai tumis (fisk-curry med tamarind)",
+  "ingredients": {
+   "w-my-009-i1": {
+    "name": "schalottenlök",
+    "standardAmount": "160 g"
+   },
+   "w-my-009-i2": {
+    "name": "ljusnötter",
+    "standardAmount": "6 g"
+   },
+   "w-my-009-i3": {
+    "name": "galangal",
+    "standardAmount": "12 g"
+   },
+   "w-my-009-i4": {
+    "name": "vitlök",
+    "standardAmount": "6 g"
+   },
+   "w-my-009-i5": {
+    "name": "citrongräs",
+    "standardAmount": "3 stjälkar"
+   },
+   "w-my-009-i6": {
+    "name": "färsk gurkmeja",
+    "standardAmount": "8 g"
+   },
+   "w-my-009-i7": {
+    "name": "torkad chili",
+    "standardAmount": "90 g (20-25)"
+   },
+   "w-my-009-i8": {
+    "name": "räkpasta",
+    "standardAmount": "16 g"
+   },
+   "w-my-009-i9": {
+    "name": "olja",
+    "standardAmount": "½ kopp"
+   },
+   "w-my-009-i10": {
+    "name": "tamarindmassa",
+    "standardAmount": "3 matskedar"
+   },
+   "w-my-009-i11": {
+    "name": "vatten",
+    "standardAmount": "600 ml"
+   },
+   "w-my-009-i12": {
+    "name": "salt",
+    "standardAmount": "efter smak"
+   },
+   "w-my-009-i13": {
+    "name": "socker",
+    "standardAmount": "efter smak (valfritt)"
+   },
+   "w-my-009-i14": {
+    "name": "ingefärsblomma",
+    "standardAmount": "1 knopp (finhackad)"
+   },
+   "w-my-009-i15": {
+    "name": "stingrocka",
+    "standardAmount": "800 g (skivad)"
+   },
+   "w-my-009-i16": {
+    "name": "okra",
+    "standardAmount": "8-10 (ångade)"
+   }
+  },
+  "instructions": {
+   "1": "Hetta upp oljan på låg värme och fräs den malda kryddpastan tills oljan skiljer sig från pastan och den doftar (cirka 15 minuter).",
+   "2": "Blanda tamarindmassan med vatten och sila för att få fram tamarindjuicen. Tillsätt juicen i kryddpastan och koka upp på låg värme. Låt sjuda i cirka 10-15 minuter.",
+   "3": "Tillsätt ingefärsblomman och fisken. Låt sjuda i 5 minuter eller tills fisken är genomkokt.",
+   "4": "Servera med okra."
+  },
+  "culturalNotes": "Gulai tumis är en traditionell malaysisk rätt, känd för sina kryddstarka och sura smaker. Den serveras vanligtvis med ris.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-010": {
+  "title": "Hainanesiskt kycklingris",
+  "ingredients": {
+   "w-my-010-i1": {
+    "name": "hel kyckling",
+    "standardAmount": "1 hel kyckling"
+   },
+   "w-my-010-i2": {
+    "name": "ingefära",
+    "standardAmount": "1 liten bit (tumstor)"
+   },
+   "w-my-010-i3": {
+    "name": "salladslök",
+    "standardAmount": "6 stjälkar"
+   },
+   "w-my-010-i4": {
+    "name": "salt",
+    "standardAmount": "3 teskedar"
+   },
+   "w-my-010-i5": {
+    "name": "kycklingfond",
+    "standardAmount": "10 skålar (cirka 3 liter)"
+   },
+   "w-my-010-i6": {
+    "name": "iskallt vatten",
+    "standardAmount": "10 skålar (cirka 3 liter)"
+   },
+   "w-my-010-i7": {
+    "name": "vegetabilisk olja",
+    "standardAmount": "5 matskedar"
+   },
+   "w-my-010-i8": {
+    "name": "vitlök",
+    "standardAmount": "4 klyftor (finhackade)"
+   },
+   "w-my-010-i9": {
+    "name": "schalottenlök",
+    "standardAmount": "4 klyftor (finhackade)"
+   },
+   "w-my-010-i10": {
+    "name": "ris",
+    "standardAmount": "3 koppar"
+   },
+   "w-my-010-i11": {
+    "name": "kycklingbuljong",
+    "standardAmount": "600 ml + 2 matskedar"
+   },
+   "w-my-010-i12": {
+    "name": "vitlöks- och schalottenlöksolja",
+    "standardAmount": "1 matsked"
+   },
+   "w-my-010-i13": {
+    "name": "kycklingfett",
+    "standardAmount": "70 g"
+   },
+   "w-my-010-i14": {
+    "name": "ljus sojasås",
+    "standardAmount": "2 teskedar"
+   },
+   "w-my-010-i15": {
+    "name": "kycklingbuljong",
+    "standardAmount": "2 teskedar"
+   },
+   "w-my-010-i16": {
+    "name": "sesamolja",
+    "standardAmount": "3 teskedar"
+   },
+   "w-my-010-i17": {
+    "name": "chilisås",
+    "standardAmount": "3 matskedar (chili- och vitlökssås)"
+   },
+   "w-my-010-i18": {
+    "name": "vitlök",
+    "standardAmount": "15 g (skalad och riven, eller finhackad)"
+   },
+   "w-my-010-i19": {
+    "name": "ingefära",
+    "standardAmount": "50 g (skalad och riven, eller finhackad)"
+   },
+   "w-my-010-i20": {
+    "name": "salt",
+    "standardAmount": "1 tesked"
+   },
+   "w-my-010-i21": {
+    "name": "socker",
+    "standardAmount": "1 tesked"
+   },
+   "w-my-010-i22": {
+    "name": "kycklingbuljong",
+    "standardAmount": "3 matskedar"
+   },
+   "w-my-010-i23": {
+    "name": "limejuice",
+    "standardAmount": "1 matsked (efter smak)"
+   },
+   "w-my-010-i24": {
+    "name": "gurka",
+    "standardAmount": "1 gurka (skalad och skuren i rundlar)"
+   },
+   "w-my-010-i25": {
+    "name": "koriander",
+    "standardAmount": "3 kvistar"
+   }
+  },
+  "instructions": {
+   "1": "Tvätta kycklingen noggrant och förbered ingefäran och salladslöken. Lägg kycklingen i en stor kastrull med ingefäran, salladslöken och saltet. Tillsätt vatten och koka upp på medelvärme. Sänk värmen och låt sjuda i 30 minuter.",
+   "2": "Ta upp kycklingen ur buljongen och sänk ner den i iskallt vatten i 10 minuter. Skär kycklingen i bitar och låt den svalna.",
+   "3": "Hetta upp den vegetabiliska oljan i en annan kastrull och fräs vitlöken och schalottenlöken tills de är gyllene. Tillsätt riset, buljongen och saltet och koka upp. Sänk värmen och koka i 20 minuter tills riset är mört.",
+   "4": "Blanda den vegetabiliska oljan, vitlöken, schalottenlöken, kycklingfettet, den ljusa sojasåsen, kycklingbuljongen och sesamoljan i en liten skål. Blanda väl.",
+   "5": "Blanda vitlöken, ingefäran, saltet, sockret, kycklingbuljongen och limejuicen i en annan skål. Blanda väl.",
+   "6": "Servera riset med den skivade kycklingen, såserna, gurkan och koriandern."
+  },
+  "culturalNotes": "Hainanesiskt kycklingris är en populär rätt i Malaysia, även känd som nasi ayam Hainan. Den serveras vanligtvis vid speciella tillfällen och till lunch.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-011": {
+  "title": "Kuih kosui",
+  "ingredients": {
+   "w-my-011-i1": {
+    "name": "socker",
+    "standardAmount": "10 uns"
+   },
+   "w-my-011-i2": {
+    "name": "vatten",
+    "standardAmount": "16 uns"
+   },
+   "w-my-011-i3": {
+    "name": "pandanusblad",
+    "standardAmount": "12-15 blad"
+   },
+   "w-my-011-i4": {
+    "name": "vatten",
+    "standardAmount": "21 uns"
+   },
+   "w-my-011-i5": {
+    "name": "lutvatten (kansui)",
+    "standardAmount": "1 matsked"
+   },
+   "w-my-011-i6": {
+    "name": "rismjöl",
+    "standardAmount": "6 uns"
+   },
+   "w-my-011-i7": {
+    "name": "tapiokamjöl",
+    "standardAmount": "2 uns"
+   }
+  },
+  "instructions": {
+   "1": "Lös upp sockret i 450 ml vatten på låg värme i en kastrull tills sockret är helt upplöst. Ställ åt sidan för att svalna.",
+   "2": "Skär pandanusbladen i små bitar. Lägg bladen och 600 ml vatten i en elektrisk mixer och mixa i 1-2 minuter. Sila pandanusjuicen genom en finmaskig sil och tillsätt sedan lutvattnet (kansui) i juicen. Ställ åt sidan.",
+   "3": "Blanda rismjölet och tapiokamjölet i en annan skål. Häll långsamt i pandanusjuiceblandningen under konstant omrörning tills det är väl blandat. Tillsätt sedan sockersirapen.",
+   "4": "Koka mjölblandningen på låg värme tills den tjocknat något. Ta av från värmen och häll blandningen i små tekoppar. Ånga kuih kosui på hög värme i 15 minuter. Ta ut kuih kosui direkt efter ångningen.",
+   "5": "Låt kuih kosui svalna i rumstemperatur i minst 6 timmar innan du tar ut dem ur tekopparna. För servering, tillsätt nyriven kokos ovanpå kuih kosui."
+  },
+  "culturalNotes": "Kuih kosui är en traditionell malaysisk dessert som vanligtvis serveras vid speciella tillfällen.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-012": {
+  "title": "Angku kuih (röd sköldpaddskaka)",
+  "ingredients": {
+   "w-my-012-i1": {
+    "name": "delade gröna bönor",
+    "standardAmount": "300 g"
+   },
+   "w-my-012-i2": {
+    "name": "fint socker",
+    "standardAmount": "200 g"
+   },
+   "w-my-012-i3": {
+    "name": "olja",
+    "standardAmount": "4 matskedar"
+   },
+   "w-my-012-i4": {
+    "name": "orange färg",
+    "standardAmount": "⅛ tesked"
+   },
+   "w-my-012-i5": {
+    "name": "vetestärkelse",
+    "standardAmount": "200 g"
+   },
+   "w-my-012-i6": {
+    "name": "vatten",
+    "standardAmount": "150 g"
+   },
+   "w-my-012-i7": {
+    "name": "kokande vatten",
+    "standardAmount": "500 ml"
+   },
+   "w-my-012-i8": {
+    "name": "socker",
+    "standardAmount": "4 matskedar"
+   },
+   "w-my-012-i9": {
+    "name": "klibbigt rismjöl",
+    "standardAmount": "500 g"
+   },
+   "w-my-012-i10": {
+    "name": "mosad orange sötpotatis",
+    "standardAmount": "100 g"
+   },
+   "w-my-012-i11": {
+    "name": "vatten",
+    "standardAmount": "250 ml"
+   },
+   "w-my-012-i12": {
+    "name": "matolja",
+    "standardAmount": "120 ml"
+   },
+   "w-my-012-i13": {
+    "name": "bananblad",
+    "standardAmount": "1 blad (skuret i rektangel som passar angku-formen)"
+   },
+   "w-my-012-i14": {
+    "name": "olja",
+    "standardAmount": "3 matskedar"
+   }
+  },
+  "instructions": {
+   "1": "Blötlägg de delade gröna bönorna i 6 timmar och skölj dem sedan noggrant.",
+   "2": "Lägg de blötlagda gröna bönorna, det fina sockret och oljan i en mixer och mixa tills det är slätt.",
+   "3": "Sila blandningen och lägg över den i en skål.",
+   "4": "Tillsätt den orange färgen och blanda väl.",
+   "5": "Blanda vetestärkelsen, det kokande vattnet, sockret, det klibbiga rismjölet, den mosade orange sötpotatisen, vattnet och matoljan i en annan skål tills blandningen är slät.",
+   "6": "Koka upp vatten i en kastrull och tillsätt blandningen gradvis under konstant omrörning tills den blir tjock och sammanhållen.",
+   "7": "Tvätta bananbladet och skär det i rektanglar som passar angku-formarna.",
+   "8": "Olja angku-formarna lätt och fyll dem med blandningen.",
+   "9": "Ställ formarna i en ångkokare över kokande vatten och ånga i 15-20 minuter tills de är färdiga.",
+   "10": "Låt dem svalna något före servering."
+  },
+  "culturalNotes": "Angku kuih är en traditionell kaka i Malaysia som ofta serveras vid speciella tillfällen och högtider.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-013": {
+  "title": "Klibbigt kokosris i bananblad | Lemang",
+  "ingredients": {
+   "w-my-013-i1": {
+    "name": "klibbigt ris",
+    "standardAmount": "2 koppar (blötlagt i 6 timmar eller över natten)"
+   },
+   "w-my-013-i2": {
+    "name": "kokosmjölk",
+    "standardAmount": "15 uns"
+   },
+   "w-my-013-i3": {
+    "name": "salt",
+    "standardAmount": "en nypa"
+   },
+   "w-my-013-i4": {
+    "name": "bananblad",
+    "standardAmount": "efter behov"
+   }
+  },
+  "instructions": {
+   "1": "Blötlägg riset i vatten i minst 6 timmar eller över natten.",
+   "2": "Låt kokosmjölken sjuda i 15-20 minuter tills kokosoljan skiljer sig från mjölken.",
+   "3": "Tillsätt riset i kokosmjölken och koka på låg/medelvärme i 10 minuter under tillfällig omrörning.",
+   "4": "Skär bananbladen i remsor som är 4 tum breda. Du kan mjuka upp dem genom att snabbt dra dem över öppen eld.",
+   "5": "Forma bananbladen till koner och se till att det inte finns något hål i botten.",
+   "6": "Fyll bananbladskonerna med ris (lämna cirka 1.5 tum från toppen). Tryck ihop det hårt med baksidan av en sked.",
+   "7": "Vik in sidorna, som när man slår in en present.",
+   "8": "Lägg varje kon i en ångkorg och pressa den vikta kanten mot ångkorgens sidor så att paketen hålls stängda. Ånga i 20 minuter, eller tills riset är mört."
+  },
+  "culturalNotes": "Lemang är en traditionell rätt i Malaysia som ofta serveras vid firanden och högtider.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-014": {
+  "title": "Mee goreng",
+  "ingredients": {
+   "w-my-014-i1": {
+    "name": "matolja",
+    "standardAmount": "4 matskedar"
+   },
+   "w-my-014-i2": {
+    "name": "vitlök",
+    "standardAmount": "2 klyftor (finhackade)"
+   },
+   "w-my-014-i3": {
+    "name": "potatis",
+    "standardAmount": "1 potatis (kokt, skalad och skivad)"
+   },
+   "w-my-014-i4": {
+    "name": "stekt tofu",
+    "standardAmount": "3 bitar"
+   },
+   "w-my-014-i5": {
+    "name": "bläckfisk",
+    "standardAmount": "4 bläckfiskar (rengjorda och skurna i ringar)"
+   },
+   "w-my-014-i6": {
+    "name": "gula nudlar",
+    "standardAmount": "1 pund (500g) (sköljda och avrunna)"
+   },
+   "w-my-014-i7": {
+    "name": "ägg",
+    "standardAmount": "2 stora ägg"
+   },
+   "w-my-014-i8": {
+    "name": "böngroddar",
+    "standardAmount": "1 kopp (sköljda och avrunna)"
+   },
+   "w-my-014-i9": {
+    "name": "salladsblad",
+    "standardAmount": "till garnering"
+   },
+   "w-my-014-i10": {
+    "name": "lime",
+    "standardAmount": "1 lime (skuren i klyftor)"
+   },
+   "w-my-014-i11": {
+    "name": "torkad röd chili",
+    "standardAmount": "10 torkade röda chilifrukter"
+   },
+   "w-my-014-i12": {
+    "name": "sojasås",
+    "standardAmount": "2 matskedar"
+   },
+   "w-my-014-i13": {
+    "name": "mörk sojasås",
+    "standardAmount": "2 matskedar"
+   },
+   "w-my-014-i14": {
+    "name": "tomatketchup",
+    "standardAmount": "3 matskedar"
+   },
+   "w-my-014-i15": {
+    "name": "socker",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Blanda alla ingredienser till chilipastan och mixa väl i en matberedare.",
+   "2": "Hetta upp en wok och tillsätt chilipastan. Woka tills oljan skiljer sig från chilin. Ställ åt sidan.",
+   "3": "Blanda alla ingredienser till såsen i en liten skål. Ställ åt sidan.",
+   "4": "Hetta upp en wok på hög värme och tillsätt 2 matskedar matolja. Tillsätt vitlöken, 3 matskedar chilipasta, potatisen, tofun och bläckfisken. Woka tills det doftar gott. Tillsätt de gula nudlarna och såsen och fortsätt röra. Skjut nudlarna åt sidan i woken.",
+   "5": "Tillsätt den återstående 1/2 matskeden matolja och knäck äggen ovanpå oljan. Rör ihop äggen och blanda i nudlarna. Tillsätt böngroddarna och rör snabbt i cirka 1 minut.",
+   "6": "Lägg upp nudlarna och garnera med skivade salladsblad och limeklyftor. Pressa lite limejuice över nudlarna före servering."
+  },
+  "culturalNotes": "Mee goreng är en populär rätt i Malaysia som ofta serveras på restauranger och i gatukök.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-015": {
+  "title": "Månkaka med snöskal",
+  "ingredients": {
+   "w-my-015-i1": {
+    "name": "kokt klibbrismjöl",
+    "standardAmount": "4½ uns"
+   },
+   "w-my-015-i2": {
+    "name": "florsocker",
+    "standardAmount": "5⅔ uns"
+   },
+   "w-my-015-i3": {
+    "name": "kokt morotsjuice",
+    "standardAmount": "130 ml"
+   },
+   "w-my-015-i4": {
+    "name": "färsk mjölk",
+    "standardAmount": "2 matskedar"
+   },
+   "w-my-015-i5": {
+    "name": "matfett",
+    "standardAmount": "1 matsked"
+   },
+   "w-my-015-i6": {
+    "name": "månkakspasta",
+    "standardAmount": "2 pund"
+   },
+   "w-my-015-i7": {
+    "name": "melonkärnor",
+    "standardAmount": "2⅘ uns"
+   }
+  },
+  "instructions": {
+   "1": "Pressa ut juicen och värm den tills den kokar. Kyl juicen i kylskåpet i cirka 4 till 6 timmar.",
+   "2": "Sikta florsockret och det kokta klibbrismjölet. Tillsätt matfettet och blanda tills blandningen liknar ströbröd.",
+   "3": "Tillsätt juicen och mjölken i blandningen och blanda tills en mjuk och slät deg bildas. Låt degen vila i 10 minuter.",
+   "4": "Dela degen i portioner på 60 g (2 uns) och rulla varje portion till en boll. Linda varje boll med plastfolie tills den ska användas.",
+   "5": "Fyll varje boll med månkakspastan och sluta den väl. Ställ månkakorna i kylskåpet i 30 minuter före servering."
+  },
+  "culturalNotes": "Månkakor är en traditionell dessert som serveras under midhöstfestivalen i Kina och Malaysia.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-016": {
+  "title": "Nasi goreng (stekt ris)",
+  "ingredients": {
+   "w-my-016-i1": {
+    "name": "schalottenlök",
+    "standardAmount": "1 klyfta"
+   },
+   "w-my-016-i2": {
+    "name": "vitlök",
+    "standardAmount": "1 klyfta"
+   },
+   "w-my-016-i3": {
+    "name": "röd chili",
+    "standardAmount": "1 (urkärnad)"
+   },
+   "w-my-016-i4": {
+    "name": "rostad belacan",
+    "standardAmount": "½ tesked"
+   },
+   "w-my-016-i5": {
+    "name": "palmsocker",
+    "standardAmount": "½ tesked"
+   },
+   "w-my-016-i6": {
+    "name": "kecap manis",
+    "standardAmount": "½ matsked"
+   },
+   "w-my-016-i7": {
+    "name": "ris från dagen före",
+    "standardAmount": "8 uns"
+   },
+   "w-my-016-i8": {
+    "name": "stekt ägg",
+    "standardAmount": "1 (genomstekt)"
+   },
+   "w-my-016-i9": {
+    "name": "olja",
+    "standardAmount": "2 matskedar"
+   }
+  },
+  "instructions": {
+   "1": "Bryt isär det kalla riset med baksidan av en sked så att det inte klumpar sig.",
+   "2": "Rosta belacan i en wok på låg värme tills den är torr och doftar. Den rostade belacan ska vara pulverartad och likna små korn.",
+   "3": "Stek ett ägg tills det är genomstekt och ställ åt sidan.",
+   "4": "Mixa schalottenlök, vitlök, röd chili och rostad belacan med mortel eller en liten matberedare. Flytta den mixade pastan till ett litet fat.",
+   "5": "Hetta upp en wok och tillsätt olja. Tillsätt kryddpastan och woka tills den doftar eller tills oljan skiljer sig.",
+   "6": "Tillsätt riset i woken och blanda väl med kryddpastan. Tillsätt kecap manis och palmsocker och fortsätt woka tills allt är väl blandat.",
+   "7": "Lägg upp nasi goreng, toppa med det stekta ägget och servera genast."
+  },
+  "culturalNotes": "Nasi goreng är en populär rätt i Malaysia och Indonesien som ofta serveras till frukost eller middag.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-017": {
+  "title": "Nasi lemak",
+  "ingredients": {
+   "w-my-017-i1": {
+    "name": "ris",
+    "standardAmount": "2 koppar"
+   },
+   "w-my-017-i2": {
+    "name": "vatten",
+    "standardAmount": "1 1/2 koppar"
+   },
+   "w-my-017-i3": {
+    "name": "kokosmjölk",
+    "standardAmount": "1/2 kopp"
+   },
+   "w-my-017-i4": {
+    "name": "salt",
+    "standardAmount": "1 tesked"
+   },
+   "w-my-017-i5": {
+    "name": "pandanblad",
+    "standardAmount": "3 blad"
+   },
+   "w-my-017-i6": {
+    "name": "schalottenlökar",
+    "standardAmount": "4 schalottenlökar"
+   },
+   "w-my-017-i7": {
+    "name": "vitlök",
+    "standardAmount": "1 klyfta"
+   },
+   "w-my-017-i8": {
+    "name": "torkad röd chili",
+    "standardAmount": "8 chilifrukter"
+   },
+   "w-my-017-i9": {
+    "name": "belacan (räkpasta)",
+    "standardAmount": "1 tesked"
+   },
+   "w-my-017-i10": {
+    "name": "tamarindfruktkött",
+    "standardAmount": "stort som en liten pingisboll"
+   },
+   "w-my-017-i11": {
+    "name": "socker",
+    "standardAmount": "2 matskedar"
+   },
+   "w-my-017-i12": {
+    "name": "torkad ansjovis",
+    "standardAmount": "1 kopp"
+   },
+   "w-my-017-i13": {
+    "name": "olja",
+    "standardAmount": "2 koppar"
+   },
+   "w-my-017-i14": {
+    "name": "rödlök",
+    "standardAmount": "1 lök"
+   },
+   "w-my-017-i15": {
+    "name": "små fiskar (sardiner eller makrill)",
+    "standardAmount": "3 fiskar"
+   },
+   "w-my-017-i16": {
+    "name": "hårdkokta ägg",
+    "standardAmount": "2 ägg"
+   },
+   "w-my-017-i17": {
+    "name": "rostade jordnötter",
+    "standardAmount": "1 kopp"
+   },
+   "w-my-017-i18": {
+    "name": "gurka",
+    "standardAmount": "1 gurka"
+   }
+  },
+  "instructions": {
+   "1": "Skölj riset under rinnande kranvatten flera gånger tills vattnet blir klart. Låt vattnet rinna av helt.",
+   "2": "Tillsätt 1.5 koppar vatten till det sköljda riset, följt av kokosmjölken och en nypa salt. Lägg pandanbladen i riset och koka riset. Kasta pandanbladen när riset är kokt.",
+   "3": "Stöt schalottenlök, vitlök, torkad chili och räkpasta med mortel. Alternativt kan du mala dem i en matberedare.",
+   "4": "Blötlägg tamarindfruktköttet i vatten i 15 minuter. Krama tamarinden hela tiden så att smaken går över i vattnet. Sila bort fruktköttet och spara tamarindsaften.",
+   "5": "Skölj den torkade ansjovisen med kranvatten några gånger och låt den rinna av. Hetta upp 2 koppar olja i en stekpanna och stek ansjovisen tills den blir ljusbrun och knaprig. Ta upp den ur oljan med en sil och låt rinna av på en tallrik klädd med hushållspapper.",
+   "6": "Hetta upp 2 matskedar av stekoljan i en stekpanna på medel till låg värme. Woka kryddpastan tills den doftar och får en rödaktig färg. Tillsätt lökringarna och den stekta ansjovisen och rör väl. Häll i tamarindsaften, saltet och sockret. Låt sjuda på låg värme tills såsen tjocknar. Ställ åt sidan.",
+   "7": "Rengör de små fiskarna och salta dem. Fritera dem i den återstående stekoljan.",
+   "8": "Servera genom att lägga en liten skål ris mitt på en tallrik. Ordna den stekta fisken, de hårdkokta äggen, de rostade jordnötterna och gurkan runt riset. Lägg 2 skedar sambal ovanpå riset. Servera genast."
+  },
+  "culturalNotes": "Nasi lemak är en basrätt i det malaysiska köket som vanligtvis serveras till frukost eller lunch.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-018": {
+  "title": "Malaysisk rissallad med örter | Nasi ulam",
+  "ingredients": {
+   "w-my-018-i1": {
+    "name": "långkornigt ris",
+    "standardAmount": "1 1/2 koppar"
+   },
+   "w-my-018-i2": {
+    "name": "vatten",
+    "standardAmount": "3 koppar"
+   },
+   "w-my-018-i3": {
+    "name": "salt",
+    "standardAmount": "1 tesked"
+   },
+   "w-my-018-i4": {
+    "name": "thaibasilika",
+    "standardAmount": "1/3 kopp (tunt skivad)"
+   },
+   "w-my-018-i5": {
+    "name": "mynta",
+    "standardAmount": "1/3 kopp (tunt skivad)"
+   },
+   "w-my-018-i6": {
+    "name": "grönlök",
+    "standardAmount": "1/8 kopp (finhackad)"
+   },
+   "w-my-018-i7": {
+    "name": "färsk koriander",
+    "standardAmount": "1/8 kopp (tunt skivad)"
+   },
+   "w-my-018-i8": {
+    "name": "kaffirlimeblad",
+    "standardAmount": "3-4 blad"
+   },
+   "w-my-018-i9": {
+    "name": "citrongräs",
+    "standardAmount": "1 stjälk (den mjuka nedre delen tunt skivad)"
+   },
+   "w-my-018-i10": {
+    "name": "jordnötter",
+    "standardAmount": "1/4 kopp (krossade)"
+   },
+   "w-my-018-i11": {
+    "name": "kokos",
+    "standardAmount": "1/8 kopp (rostad)"
+   },
+   "w-my-018-i12": {
+    "name": "vitlök",
+    "standardAmount": "1 tesked (krossad)"
+   },
+   "w-my-018-i13": {
+    "name": "ingefära",
+    "standardAmount": "1 tesked (riven)"
+   },
+   "w-my-018-i14": {
+    "name": "fisksås",
+    "standardAmount": "1/8 kopp"
+   },
+   "w-my-018-i15": {
+    "name": "limejuice",
+    "standardAmount": "saften av 2 limefrukter"
+   },
+   "w-my-018-i16": {
+    "name": "thailändsk fågelchili",
+    "standardAmount": "efter önskemål"
+   }
+  },
+  "instructions": {
+   "1": "Koka upp vatten i en kastrull. Tillsätt salt och ris. Låt koka upp igen, lägg sedan på lock och sänk värmen till sjudning. Koka försiktigt i cirka 16 minuter. Ta av från värmen och låt ångas i 5 minuter. Lufta med en gaffel och låt svalna till rumstemperatur.",
+   "2": "Rengör alla örter och torka dem torra. Skiva dem och lägg i en skål. Ställ åt sidan.",
+   "3": "Lägg alla ingredienser i en liten skål och rör ihop. Använd chili för skärpa, om så önskas.",
+   "4": "När riset har svalnat, blanda ihop alla ingredienser. Tillsätt dressing efter smak. Smaka efter 30 minuter och justera kryddningen vid behov."
+  },
+  "culturalNotes": "Nasi ulam är en traditionell malaysisk rissallad med örter, känd för sin mångfald av färska örter och kryddor.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-019": {
+  "title": "Ananastårta (tat nanas)",
+  "ingredients": {
+   "w-my-019-i1": {
+    "name": "smör",
+    "standardAmount": "3 stänger"
+   },
+   "w-my-019-i2": {
+    "name": "sötad kondenserad mjölk",
+    "standardAmount": "3.5 uns"
+   },
+   "w-my-019-i3": {
+    "name": "äggulor",
+    "standardAmount": "4"
+   },
+   "w-my-019-i4": {
+    "name": "vetemjöl",
+    "standardAmount": "18 uns"
+   },
+   "w-my-019-i5": {
+    "name": "ananas",
+    "standardAmount": "5 pund (2.5 kg) ananaskött"
+   },
+   "w-my-019-i6": {
+    "name": "kryddnejlikor",
+    "standardAmount": "1/2 matsked"
+   },
+   "w-my-019-i7": {
+    "name": "socker",
+    "standardAmount": "1 - 1 1/2 koppar"
+   },
+   "w-my-019-i8": {
+    "name": "citronsaft",
+    "standardAmount": "1 matsked"
+   },
+   "w-my-019-i9": {
+    "name": "sötad kondenserad mjölk",
+    "standardAmount": "1/4 tesked"
+   },
+   "w-my-019-i10": {
+    "name": "olja",
+    "standardAmount": "1/2 tesked"
+   }
+  },
+  "instructions": {
+   "1": "Skär bort ananasens topp och därefter skalet. Se till att alla ögon tas bort. Skiva ananaskött i bitar och mixa i en blender till puré.",
+   "2": "Lägg ananaspurén och kryddnejlikorna i en non-stick-kastrull och koka på medelvärme under konstant omrörning så att det inte bränns vid.",
+   "3": "När ananasen nästan är torr, tillsätt sockret och citronsaften och rör ihop väl. Sänk värmen till sjudning och fortsätt röra tills ananasfyllningen blir gyllene och mycket klibbig. Ta ut ananasfyllningen, ta bort kryddnejlikorna och kyl i kylskåpet i 30 minuter.",
+   "4": "Vispa smöret och den kondenserade mjölken tills det är ljust och luftigt. Tillsätt äggulorna en i taget och vispa tills det är väl blandat. Blanda i mjölet långsamt för att bilda mördegen. Degen är klar när den inte längre fastnar på händerna.",
+   "5": "Gör äggpenslingen genom att blanda alla ingredienser i en liten skål.",
+   "6": "Dela ananasfyllningen och degen i 100 portioner. Rulla båda till bollar. För att slå in, använd handflatorna för att rulla varje degbit och platta sedan ut den.",
+   "7": "Lägg en ananasboll i mitten och vik upp degkanterna så att de täcker fyllningen.",
+   "8": "Avsluta genom att rulla den till en rund boll.",
+   "9": "Lägg ananaskakan på en bakplåt klädd med bakplåtspapper. Skär ett rutmönster på kakan med baksidan av en liten kniv och pensla kakans ovansida med äggpenslingen två gånger. Upprepa tills alla ingredienser är förbrukade.",
+   "10": "Grädda i en förvärmd ugn på 330°F (165°C) i cirka 20-22 minuter eller tills de blir gyllenbruna. Ta ut dem och låt svalna på ett galler innan de förvaras i en lufttät behållare."
+  },
+  "culturalNotes": "Ananastårtor är en traditionell dessert i Malaysia som ofta serveras vid speciella tillfällen och firanden.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-020": {
+  "title": "Friterad popiah",
+  "ingredients": {
+   "w-my-020-i1": {
+    "name": "vårrullsdeg",
+    "standardAmount": "1 paket"
+   },
+   "w-my-020-i2": {
+    "name": "matolja",
+    "standardAmount": "3 matskedar"
+   },
+   "w-my-020-i3": {
+    "name": "vitlök",
+    "standardAmount": "2 klyftor"
+   },
+   "w-my-020-i4": {
+    "name": "kycklingkött",
+    "standardAmount": "150 g"
+   },
+   "w-my-020-i5": {
+    "name": "små räkor",
+    "standardAmount": "150 g"
+   },
+   "w-my-020-i6": {
+    "name": "torkad shiitakesvamp",
+    "standardAmount": "5-6 bitar"
+   },
+   "w-my-020-i7": {
+    "name": "yambönor",
+    "standardAmount": "200 g"
+   },
+   "w-my-020-i8": {
+    "name": "morot",
+    "standardAmount": "100 g"
+   },
+   "w-my-020-i9": {
+    "name": "kycklingbuljonggranulat",
+    "standardAmount": "1 tesked"
+   },
+   "w-my-020-i10": {
+    "name": "salt",
+    "standardAmount": "½ tesked"
+   },
+   "w-my-020-i11": {
+    "name": "peppar",
+    "standardAmount": "ett stänk"
+   },
+   "w-my-020-i12": {
+    "name": "vatten",
+    "standardAmount": "1 kopp"
+   },
+   "w-my-020-i13": {
+    "name": "ostronsås",
+    "standardAmount": "1 tesked"
+   },
+   "w-my-020-i14": {
+    "name": "majsstärkelse",
+    "standardAmount": "1 matsked"
+   },
+   "w-my-020-i15": {
+    "name": "vetemjöl",
+    "standardAmount": "2 matskedar"
+   },
+   "w-my-020-i16": {
+    "name": "vatten",
+    "standardAmount": "4 matskedar"
+   }
+  },
+  "instructions": {
+   "1": "Hetta upp matoljan i en wok. Tillsätt vitlöken och woka tills den doftar. Tillsätt sedan kyckling, räkor och svamp och fortsätt woka tills allt är genomstekt.",
+   "2": "Tillsätt yambönorna och moroten och woka i 1-2 minuter. Tillsätt sedan 1 kopp vatten, lägg på lock och låt sjuda i 15-20 minuter tills grönsakerna är möra. Tillsätt kryddorna och blanda väl. Lägg upp och ställ åt sidan.",
+   "3": "Lägg ett vårrullsark på en plan yta. Lägg 2 skedar fyllning i mitten av arket, vik sedan in de två sidorna och rulla ihop. Använd mjölblandningen för att försegla kanterna.",
+   "4": "Hetta upp en wok och häll i 2 koppar matolja. Fritera vårrullarna på medelvärme tills de är gyllenbruna och knapriga. Ta upp dem och låt rinna av på hushållspapper. Servera varma med chilisås."
+  },
+  "culturalNotes": "Friterad popiah är en populär rätt i Malaysia, även känd som popiah. Den serveras vanligtvis med chilisås.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-021": {
+  "title": "Rendang",
+  "ingredients": {
+   "w-my-021-i1": {
+    "name": "citrongräs",
+    "standardAmount": "3 stjälkar"
+   },
+   "w-my-021-i2": {
+    "name": "ingefärsrot",
+    "standardAmount": "2 tum"
+   },
+   "w-my-021-i3": {
+    "name": "galangal",
+    "standardAmount": "4 tum"
+   },
+   "w-my-021-i4": {
+    "name": "vitlök",
+    "standardAmount": "4 klyftor"
+   },
+   "w-my-021-i5": {
+    "name": "lök",
+    "standardAmount": "1 lök"
+   },
+   "w-my-021-i6": {
+    "name": "torkad japonespeppar",
+    "standardAmount": "3-6 pepparfrukter"
+   },
+   "w-my-021-i7": {
+    "name": "kokosolja",
+    "standardAmount": "6-8 matskedar"
+   },
+   "w-my-021-i8": {
+    "name": "nötkött",
+    "standardAmount": "1 1/2 pund"
+   },
+   "w-my-021-i9": {
+    "name": "kokosmjölk",
+    "standardAmount": "5.5 uns"
+   },
+   "w-my-021-i10": {
+    "name": "vatten",
+    "standardAmount": "5.5 uns"
+   },
+   "w-my-021-i11": {
+    "name": "palmsocker",
+    "standardAmount": "2 matskedar"
+   },
+   "w-my-021-i12": {
+    "name": "kaffirlimeblad",
+    "standardAmount": "6 blad"
+   },
+   "w-my-021-i13": {
+    "name": "kerisik",
+    "standardAmount": "1/4 kopp"
+   }
+  },
+  "instructions": {
+   "1": "Hacka citrongräs, ingefära, galangal, vitlök, lök och japansk chilipeppar (om så önskas) och lägg dem i skålen på en matberedare.",
+   "2": "Mixa till en fin pasta.",
+   "3": "Hetta upp kokosoljan i en stor wok och tillsätt kryddpastan. Stek tills den doftar och mjuknat, 2-3 minuter.",
+   "4": "Tillsätt nötköttet, kokosmjölken, vattnet, sockret och kaffirlimebladen. Rör om och låt sjuda i cirka en timme.",
+   "5": "Allteftersom vätskan ångar bort, tillsätt kerisik och koka några minuter till.",
+   "6": "Servera med torn av klibbigt kokosris - Lemang."
+  },
+  "culturalNotes": "Rendang är en traditionell rätt från Malaysia och Indonesien, känd för sina rika smaker och kokossmak.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-022": {
+  "title": "Roti canai",
+  "ingredients": {
+   "w-my-022-i1": {
+    "name": "vetemjöl",
+    "standardAmount": "3 1/2 koppar (420 g / 14.8 uns)"
+   },
+   "w-my-022-i2": {
+    "name": "grovt salt",
+    "standardAmount": "1 1/2 tesked"
+   },
+   "w-my-022-i3": {
+    "name": "strösocker",
+    "standardAmount": "1 tesked"
+   },
+   "w-my-022-i4": {
+    "name": "ghee",
+    "standardAmount": "3/4 kopp (180 ml)"
+   },
+   "w-my-022-i5": {
+    "name": "ägg",
+    "standardAmount": "1 stort ägg (vispat)"
+   },
+   "w-my-022-i6": {
+    "name": "helmjölk",
+    "standardAmount": "3/4 kopp (180 ml)"
+   },
+   "w-my-022-i7": {
+    "name": "vatten",
+    "standardAmount": "1/2 kopp (120 ml)"
+   }
+  },
+  "instructions": {
+   "1": "Blanda mjöl, salt och socker i en stor skål.",
+   "2": "Tillsätt ghee, det vispade ägget, mjölken och vattnet och blanda ingredienserna väl tills degen är slät och jämn.",
+   "3": "Täck degen och låt den vila i 30 minuter.",
+   "4": "Dela degen i små bollar.",
+   "5": "Använd lite ghee för att kavla ut varje boll till en mycket tunn cirkel.",
+   "6": "Hetta upp en stekpanna på medelvärme och tillsätt lite ghee.",
+   "7": "Lägg den tunna cirkeln i stekpannan och stek tills den är gyllenbrun på båda sidor.",
+   "8": "Upprepa med resten av degen.",
+   "9": "Servera roti canai varm med dina favoritsåser."
+  },
+  "culturalNotes": "Roti canai är ett populärt plattbröd i Malaysia som vanligtvis serveras med olika såser.",
+  "chapter": "مطبخ ماليزيا"
+ },
+ "w-my-023": {
+  "title": "Soto ayam",
+  "ingredients": {
+   "w-my-023-i1": {
+    "name": "risnudlar",
+    "standardAmount": "1/2 paket"
+   },
+   "w-my-023-i2": {
+    "name": "matolja",
+    "standardAmount": "2 matskedar"
+   },
+   "w-my-023-i3": {
+    "name": "kycklingbröst",
+    "standardAmount": "1 kycklingbröst utan skinn och ben (skuret i tärningar)"
+   },
+   "w-my-023-i4": {
+    "name": "citrongräs",
+    "standardAmount": "1 stjälk (skuren i 3 remsor)"
+   },
+   "w-my-023-i5": {
+    "name": "kokosmjölk",
+    "standardAmount": "13.5 uns"
+   },
+   "w-my-023-i6": {
+    "name": "kycklingbuljong",
+    "standardAmount": "14.05 uns"
+   },
+   "w-my-023-i7": {
+    "name": "vatten",
+    "standardAmount": "1 kopp"
+   },
+   "w-my-023-i8": {
+    "name": "salt",
+    "standardAmount": "efter smak"
+   },
+   "w-my-023-i9": {
+    "name": "korianderfrön",
+    "standardAmount": "1 tesked"
+   },
+   "w-my-023-i10": {
+    "name": "spiskummin",
+    "standardAmount": "1 tesked"
+   },
+   "w-my-023-i11": {
+    "name": "schalottenlökar",
+    "standardAmount": "4 (skalade)"
+   },
+   "w-my-023-i12": {
+    "name": "vitlök",
+    "standardAmount": "3 klyftor (skalade)"
+   },
+   "w-my-023-i13": {
+    "name": "gurkmeja",
+    "standardAmount": "2-tums (5cm) bit (skalad, eller 1 matsked gurkmejapulver)"
+   },
+   "w-my-023-i14": {
+    "name": "galangal",
+    "standardAmount": "1 bit (skalad och skivad)"
+   },
+   "w-my-023-i15": {
+    "name": "ingefära",
+    "standardAmount": "1 bit (skalad och skivad)"
+   },
+   "w-my-023-i16": {
+    "name": "färsk limejuice",
+    "standardAmount": "1 matsked"
+   },
+   "w-my-023-i17": {
+    "name": "böngroddar",
+    "standardAmount": "2 koppar"
+   },
+   "w-my-023-i18": {
+    "name": "skivad vitkål",
+    "standardAmount": "2 koppar (valfritt)"
+   },
+   "w-my-023-i19": {
+    "name": "hårdkokta ägg",
+    "standardAmount": "2 (skurna i klyftor)"
+   },
+   "w-my-023-i20": {
+    "name": "vårlök",
+    "standardAmount": "1 stjälk (skuren i skivor)"
+   },
+   "w-my-023-i21": {
+    "name": "lime",
+    "standardAmount": "2 (skurna i klyftor)"
+   },
+   "w-my-023-i22": {
+    "name": "stekt knaprig schalottenlök",
+    "standardAmount": "efter smak"
+   }
+  },
+  "instructions": {
+   "1": "Blötlägg risnudlarna i varmt vatten så att de mjuknar. Ställ åt sidan.",
+   "2": "Mixa kryddpastan i en matberedare och tillsätt vatten vid behov.",
+   "3": "Lägg oljan i en kastrull på medelhög värme. Tillsätt kryddpastan och rör tills den doftar.",
+   "4": "Tillsätt kycklingbuljongen, kokosmjölken, citrongräset och vattnet. Koka upp. Tillsätt kycklingbrösttärningarna, lägg på lock på kastrullen och låt sjuda på låg värme i 30 minuter. Salta efter smak.",
+   "5": "Blanchera risnudlarna, böngroddarna och kålen (om du använder den) i en annan kastrull med kokande vatten. Lägg dem i en skål när de är klara. Tillsätt toppingen av hårdkokta ägg och vårlök och häll sedan den heta kycklingbuljongen i skålen.",
+   "6": "Servera varm med limeklyftor och knaprig schalottenlök ovanpå nudlarna."
+  },
+  "culturalNotes": "Soto ayam är en populär kycklingsoppa i Malaysia som traditionellt serveras i en träskål.",
+  "chapter": "مطبخ ماليزيا"
  }
 }
