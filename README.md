@@ -1,12 +1,12 @@
 # Fatma Alkawokgy Recipes
 
-A bilingual public archive preserving the Egyptian recipes and cultural legacy of Dr. Fatma Alkawokgy (1943–2026). It presents 1,881 recipes across ten chapters — Dr. Fatma's archive plus recipes from Osool El-Tahy, Egyptian Cooking and the Fatma Abu Haty channel — with ingredients, instructions, cultural context, a memorial section, and a tribute page — fully static, with no account or sign-in required.
+A bilingual public archive preserving the Egyptian recipes and cultural legacy of Dr. Fatma Alkawokgy (1943–2026). It presents 2,337 recipes — 1,881 across ten chapters of Egyptian home cooking (Dr. Fatma's archive plus recipes from Osool El-Tahy, Egyptian Cooking and the Fatma Abu Haty channel) and 456 from 17 world-cuisine chapters — with ingredients, instructions, cultural context, a memorial section, and a tribute page — fully static, with no account or sign-in required.
 
 **Live site:** [fifi.cooking](https://fifi.cooking)
 
 ## Highlights
 
-- Browse, search, and filter all 1,881 recipes by category and cooking method.
+- Browse, search, and filter all 2,337 recipes by category and cooking method.
 - Read the archive in Arabic or English, with full right-to-left layout support.
 - Open a recipe's original manuscript view (Arabic only) — an illustrated rendering of the recipe's actual source text from Dr. Fatma's original documents.
 - Share a recipe or the site itself through the device's native share sheet.
