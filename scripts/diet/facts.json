@@ -21376,6 +21376,257 @@
 ],
 "uncertain": []
 },
+"w-lb-001": {
+"contains": [
+"dairy"
+],
+"uncertain": [
+{
+"tag": "animal_rennet_possible",
+"why": "cheese rennet not stated"
+}
+]
+},
+"w-lb-002": {
+"contains": [],
+"uncertain": []
+},
+"w-lb-003": {
+"contains": [],
+"uncertain": []
+},
+"w-lb-004": {
+"contains": [
+"dairy",
+"red_meat"
+],
+"uncertain": []
+},
+"w-lb-005": {
+"contains": [],
+"uncertain": []
+},
+"w-lb-006": {
+"contains": [],
+"uncertain": []
+},
+"w-lb-007": {
+"contains": [
+"honey"
+],
+"uncertain": []
+},
+"w-lb-008": {
+"contains": [],
+"uncertain": []
+},
+"w-lb-009": {
+"contains": [
+"red_meat"
+],
+"uncertain": [
+{
+"tag": "hidden_animal_unknown",
+"why": "Worcestershire sauce may contain anchovy"
+}
+]
+},
+"w-lb-010": {
+"aiOnly": [
+"alcohol_trace"
+],
+"contains": [
+"alcohol_trace",
+"dairy",
+"egg"
+],
+"uncertain": []
+},
+"w-lb-011": {
+"contains": [],
+"uncertain": []
+},
+"w-lb-012": {
+"contains": [
+"gelatin"
+],
+"scanOnly": [
+"gelatin"
+],
+"uncertain": []
+},
+"w-lb-013": {
+"contains": [
+"dairy",
+"poultry"
+],
+"uncertain": [
+{
+"tag": "alcohol",
+"why": "Dijon mustard may contain white wine"
+}
+]
+},
+"w-lb-014": {
+"contains": [],
+"uncertain": []
+},
+"w-lb-015": {
+"contains": [
+"dairy"
+],
+"uncertain": [
+{
+"tag": "animal_rennet_possible",
+"why": "cheese rennet not stated"
+}
+]
+},
+"w-lb-016": {
+"contains": [
+"dairy"
+],
+"uncertain": []
+},
+"w-lb-017": {
+"contains": [],
+"uncertain": []
+},
+"w-lb-018": {
+"contains": [
+"dairy"
+],
+"uncertain": [
+{
+"tag": "animal_rennet_possible",
+"why": "cheese rennet not stated"
+}
+]
+},
+"w-lb-019": {
+"contains": [
+"dairy",
+"red_meat"
+],
+"uncertain": []
+},
+"w-lb-020": {
+"contains": [
+"dairy",
+"red_meat"
+],
+"uncertain": []
+},
+"w-lb-021": {
+"contains": [
+"red_meat"
+],
+"uncertain": []
+},
+"w-lb-022": {
+"contains": [
+"dairy"
+],
+"uncertain": [
+{
+"tag": "animal_rennet_possible",
+"why": "cheese rennet not stated"
+}
+]
+},
+"w-lb-023": {
+"contains": [
+"dairy"
+],
+"uncertain": []
+},
+"w-lb-024": {
+"contains": [
+"dairy"
+],
+"uncertain": [
+{
+"tag": "animal_rennet_possible",
+"why": "cheese rennet not stated"
+}
+]
+},
+"w-lb-025": {
+"contains": [
+"dairy"
+],
+"uncertain": [
+{
+"tag": "animal_rennet_possible",
+"why": "cheese rennet not stated"
+}
+]
+},
+"w-lb-026": {
+"contains": [
+"dairy"
+],
+"uncertain": []
+},
+"w-lb-027": {
+"contains": [],
+"uncertain": []
+},
+"w-lb-028": {
+"contains": [
+"dairy"
+],
+"uncertain": [
+{
+"tag": "animal_rennet_possible",
+"why": "cheese rennet not stated"
+}
+]
+},
+"w-lb-029": {
+"contains": [
+"finned_fish"
+],
+"uncertain": []
+},
+"w-lb-030": {
+"aiOnly": [
+"dairy"
+],
+"contains": [
+"dairy",
+"red_meat"
+],
+"uncertain": []
+},
+"w-lb-031": {
+"contains": [
+"dairy"
+],
+"uncertain": []
+},
+"w-lb-032": {
+"aiOnly": [
+"alcohol_trace"
+],
+"contains": [
+"alcohol_trace",
+"red_meat"
+],
+"uncertain": []
+},
+"w-lb-033": {
+"contains": [
+"red_meat"
+],
+"uncertain": []
+},
+"w-lb-034": {
+"contains": [
+"poultry"
+],
+"uncertain": []
+},
 "w-ma-001": {
 "contains": [
 "dairy",
@@ -22047,6 +22298,761 @@
 "why": "cheese rennet not stated"
 }
 ]
+},
+"w-my-001": {
+"aiOnly": [
+"alcohol_trace"
+],
+"contains": [
+"alcohol_trace",
+"finned_fish"
+],
+"uncertain": []
+},
+"w-my-002": {
+"contains": [
+"poultry"
+],
+"uncertain": [
+{
+"tag": "dairy",
+"why": "canned tomato soup may contain cream or milk"
+}
+]
+},
+"w-my-003": {
+"contains": [],
+"uncertain": []
+},
+"w-my-004": {
+"contains": [
+"alcohol",
+"pork",
+"poultry"
+],
+"scanOnly": [
+"alcohol",
+"pork"
+],
+"uncertain": [
+{
+"tag": "hidden_animal_unknown",
+"why": "Char Siu Sauce is a bought compound sauce; may contain pork, wine or other animal items"
+}
+]
+},
+"w-my-005": {
+"contains": [
+"egg"
+],
+"uncertain": []
+},
+"w-my-006": {
+"contains": [
+"dairy",
+"poultry",
+"red_meat"
+],
+"scanOnly": [
+"red_meat"
+],
+"uncertain": []
+},
+"w-my-007": {
+"aiOnly": [
+"alcohol_trace"
+],
+"contains": [
+"alcohol_trace",
+"poultry"
+],
+"uncertain": []
+},
+"w-my-008": {
+"aiOnly": [
+"alcohol_trace"
+],
+"contains": [
+"alcohol_trace"
+],
+"uncertain": []
+},
+"w-my-009": {
+"aiOnly": [
+"finned_fish",
+"nonkosher_fish"
+],
+"contains": [
+"finned_fish",
+"nonkosher_fish",
+"shellfish"
+],
+"uncertain": []
+},
+"w-my-010": {
+"aiOnly": [
+"alcohol_trace"
+],
+"contains": [
+"alcohol_trace",
+"animal_fat",
+"poultry"
+],
+"uncertain": []
+},
+"w-my-011": {
+"contains": [],
+"uncertain": []
+},
+"w-my-012": {
+"contains": [],
+"uncertain": []
+},
+"w-my-013": {
+"contains": [],
+"uncertain": []
+},
+"w-my-014": {
+"aiOnly": [
+"alcohol_trace"
+],
+"contains": [
+"alcohol_trace",
+"dairy",
+"egg",
+"nonkosher_fish",
+"shellfish"
+],
+"scanOnly": [
+"dairy"
+],
+"uncertain": []
+},
+"w-my-015": {
+"contains": [
+"dairy"
+],
+"uncertain": [
+{
+"tag": "hidden_animal_unknown",
+"why": "shortening | 1 tablespoon"
+},
+{
+"tag": "hidden_animal_unknown",
+"why": "Mooncake paste | 2 lb (filling contents not stated)"
+}
+]
+},
+"w-my-016": {
+"aiOnly": [
+"alcohol_trace",
+"shellfish"
+],
+"contains": [
+"alcohol_trace",
+"egg",
+"shellfish"
+],
+"uncertain": []
+},
+"w-my-017": {
+"contains": [
+"egg",
+"finned_fish",
+"shellfish"
+],
+"uncertain": []
+},
+"w-my-018": {
+"contains": [
+"finned_fish"
+],
+"uncertain": []
+},
+"w-my-019": {
+"contains": [
+"dairy",
+"egg"
+],
+"uncertain": []
+},
+"w-my-020": {
+"contains": [
+"poultry",
+"red_meat",
+"shellfish"
+],
+"scanOnly": [
+"red_meat"
+],
+"uncertain": []
+},
+"w-my-021": {
+"contains": [
+"red_meat"
+],
+"uncertain": []
+},
+"w-my-022": {
+"contains": [
+"dairy",
+"egg"
+],
+"uncertain": []
+},
+"w-my-023": {
+"contains": [
+"egg",
+"poultry"
+],
+"uncertain": []
+},
+"w-ng-001": {
+"contains": [
+"dairy"
+],
+"uncertain": []
+},
+"w-ng-002": {
+"contains": [
+"red_meat",
+"shellfish"
+],
+"uncertain": [
+{
+"tag": "stock_unspecified",
+"why": "bouillon powder | 2 tsp"
+}
+]
+},
+"w-ng-003": {
+"contains": [
+"red_meat"
+],
+"uncertain": []
+},
+"w-ng-004": {
+"contains": [
+"red_meat",
+"shellfish"
+],
+"uncertain": [
+{
+"tag": "stock_unspecified",
+"why": "bouillon powder | 1 tbsp"
+}
+]
+},
+"w-ng-005": {
+"contains": [
+"finned_fish",
+"red_meat",
+"shellfish"
+],
+"uncertain": [
+{
+"tag": "stock_unspecified",
+"why": "bouillon powder | 2 tsp"
+}
+]
+},
+"w-ng-006": {
+"contains": [
+"red_meat",
+"shellfish"
+],
+"uncertain": [
+{
+"tag": "stock_unspecified",
+"why": "bouillon powder | 2 tsp"
+}
+]
+},
+"w-ng-007": {
+"contains": [
+"shellfish"
+],
+"uncertain": [
+{
+"tag": "stock_unspecified",
+"why": "bouillon (or 1 maggi cube) | 1 tsp"
+}
+]
+},
+"w-ng-008": {
+"contains": [],
+"uncertain": []
+},
+"w-ng-009": {
+"contains": [],
+"uncertain": []
+},
+"w-ng-010": {
+"contains": [],
+"uncertain": []
+},
+"w-ng-011": {
+"contains": [
+"finned_fish",
+"red_meat",
+"shellfish"
+],
+"uncertain": [
+{
+"tag": "stock_unspecified",
+"why": "seasoning cubes | 4-6"
+}
+]
+},
+"w-ng-012": {
+"contains": [
+"finned_fish",
+"red_meat",
+"shellfish"
+],
+"uncertain": [
+{
+"tag": "stock_unspecified",
+"why": "Seasoning/stock cubes | As needed"
+}
+]
+},
+"w-ng-013": {
+"contains": [
+"red_meat"
+],
+"uncertain": []
+},
+"w-ng-014": {
+"contains": [
+"finned_fish",
+"poultry",
+"red_meat",
+"shellfish"
+],
+"uncertain": []
+},
+"w-pe-001": {
+"contains": [
+"poultry"
+],
+"uncertain": []
+},
+"w-pe-002": {
+"contains": [
+"dairy",
+"egg",
+"poultry"
+],
+"uncertain": [
+{
+"tag": "animal_rennet_possible",
+"why": "Parmesan cheese rennet not stated"
+}
+]
+},
+"w-pe-003": {
+"contains": [
+"egg",
+"red_meat"
+],
+"uncertain": []
+},
+"w-pe-004": {
+"aiOnly": [
+"alcohol_trace"
+],
+"contains": [
+"alcohol_trace",
+"red_meat"
+],
+"uncertain": []
+},
+"w-pe-005": {
+"contains": [
+"egg",
+"red_meat"
+],
+"uncertain": []
+},
+"w-pe-006": {
+"contains": [
+"dairy",
+"egg"
+],
+"uncertain": [
+{
+"tag": "animal_rennet_possible",
+"why": "queso fresco rennet not stated"
+}
+]
+},
+"w-pe-007": {
+"aiOnly": [
+"dairy"
+],
+"contains": [
+"dairy"
+],
+"uncertain": []
+},
+"w-pe-008": {
+"aiOnly": [
+"alcohol_trace"
+],
+"contains": [
+"alcohol_trace",
+"egg",
+"red_meat"
+],
+"uncertain": []
+},
+"w-pe-009": {
+"contains": [
+"dairy",
+"egg",
+"poultry",
+"red_meat"
+],
+"uncertain": []
+},
+"w-ph-001": {
+"contains": [
+"dairy"
+],
+"uncertain": []
+},
+"w-ph-002": {
+"contains": [],
+"uncertain": []
+},
+"w-th-001": {
+"contains": [
+"egg"
+],
+"uncertain": []
+},
+"w-th-002": {
+"contains": [],
+"uncertain": []
+},
+"w-th-003": {
+"aiOnly": [
+"alcohol_trace"
+],
+"contains": [
+"alcohol_trace",
+"animal_fat",
+"egg",
+"finned_fish",
+"poultry"
+],
+"scanOnly": [
+"animal_fat"
+],
+"uncertain": []
+},
+"w-th-004": {
+"contains": [],
+"uncertain": []
+},
+"w-th-005": {
+"contains": [],
+"uncertain": []
+},
+"w-th-006": {
+"aiOnly": [
+"alcohol_trace"
+],
+"contains": [
+"alcohol_trace",
+"animal_fat",
+"poultry"
+],
+"scanOnly": [
+"animal_fat"
+],
+"uncertain": []
+},
+"w-th-007": {
+"contains": [],
+"uncertain": []
+},
+"w-th-008": {
+"contains": [
+"egg"
+],
+"uncertain": []
+},
+"w-th-009": {
+"contains": [
+"dairy"
+],
+"uncertain": []
+},
+"w-th-010": {
+"aiOnly": [
+"alcohol_trace"
+],
+"contains": [
+"alcohol_trace",
+"egg",
+"finned_fish",
+"poultry"
+],
+"uncertain": [
+{
+"tag": "hidden_animal_unknown",
+"why": "curry paste 1 batch, recipe not given; may contain shrimp paste"
+}
+]
+},
+"w-th-011": {
+"contains": [],
+"uncertain": []
+},
+"w-th-012": {
+"contains": [
+"finned_fish",
+"red_meat"
+],
+"uncertain": [
+{
+"tag": "hidden_animal_unknown",
+"why": "Massaman curry paste may contain shrimp paste"
+}
+]
+},
+"w-th-013": {
+"contains": [
+"finned_fish",
+"shellfish"
+],
+"uncertain": []
+},
+"w-th-014": {
+"aiOnly": [
+"alcohol_trace"
+],
+"contains": [
+"alcohol_trace",
+"finned_fish",
+"red_meat",
+"shellfish"
+],
+"uncertain": [
+{
+"tag": "stock_unspecified",
+"why": "step says 'the water or stock' for diluting, base not stated"
+}
+]
+},
+"w-th-015": {
+"contains": [
+"egg"
+],
+"uncertain": [
+{
+"tag": "alcohol_trace",
+"why": "kecap manis is a sweet soy sauce"
+}
+]
+},
+"w-th-016": {
+"contains": [
+"egg",
+"finned_fish",
+"shellfish"
+],
+"uncertain": []
+},
+"w-th-017": {
+"contains": [
+"finned_fish",
+"red_meat",
+"shellfish"
+],
+"uncertain": [
+{
+"tag": "hidden_animal_unknown",
+"why": "panang/red curry paste may contain shrimp paste"
+}
+]
+},
+"w-th-018": {
+"contains": [
+"egg"
+],
+"uncertain": []
+},
+"w-tr-001": {
+"contains": [
+"animal_fat",
+"red_meat"
+],
+"uncertain": []
+},
+"w-tr-002": {
+"contains": [
+"dairy",
+"red_meat"
+],
+"uncertain": []
+},
+"w-tr-003": {
+"contains": [
+"red_meat"
+],
+"uncertain": []
+},
+"w-tr-004": {
+"contains": [],
+"uncertain": []
+},
+"w-tr-005": {
+"contains": [
+"dairy"
+],
+"uncertain": []
+},
+"w-tr-006": {
+"contains": [
+"dairy",
+"egg",
+"red_meat"
+],
+"uncertain": [
+{
+"tag": "hidden_animal_unknown",
+"why": "bought flour tortillas may contain lard"
+}
+]
+},
+"w-tr-007": {
+"contains": [],
+"uncertain": []
+},
+"w-tr-008": {
+"contains": [
+"red_meat"
+],
+"uncertain": []
+},
+"w-tr-009": {
+"contains": [
+"animal_fat",
+"red_meat"
+],
+"uncertain": []
+},
+"w-tr-010": {
+"contains": [],
+"uncertain": [
+{
+"tag": "red_meat",
+"why": "steps say 'rice and meat are cooked' but no meat or stuffing ingredients are listed"
+}
+]
+},
+"w-tr-011": {
+"contains": [
+"dairy"
+],
+"uncertain": [
+{
+"tag": "animal_rennet_possible",
+"why": "feta rennet not stated"
+}
+]
+},
+"w-tr-012": {
+"contains": [
+"dairy"
+],
+"uncertain": []
+},
+"w-tr-013": {
+"contains": [
+"dairy",
+"red_meat"
+],
+"uncertain": []
+},
+"w-tr-014": {
+"aiOnly": [
+"alcohol_trace"
+],
+"contains": [
+"alcohol_trace",
+"red_meat"
+],
+"uncertain": []
+},
+"w-tr-015": {
+"contains": [
+"dairy"
+],
+"uncertain": [
+{
+"tag": "animal_rennet_possible",
+"why": "mozzarella rennet not stated"
+},
+{
+"tag": "egg",
+"why": "Russian salad usually contains mayonnaise and eggs, not specified"
+},
+{
+"tag": "hidden_animal_unknown",
+"why": "bought Russian salad / kisir components not specified"
+}
+]
+},
+"w-tr-016": {
+"contains": [
+"dairy",
+"egg"
+],
+"uncertain": []
+},
+"w-tr-017": {
+"contains": [],
+"uncertain": []
+},
+"w-tr-018": {
+"contains": [
+"dairy",
+"egg",
+"red_meat"
+],
+"uncertain": []
+},
+"w-tr-019": {
+"contains": [
+"egg"
+],
+"uncertain": []
+},
+"w-tr-020": {
+"contains": [
+"dairy"
+],
+"uncertain": []
+},
+"w-tr-021": {
+"contains": [],
+"uncertain": []
+},
+"w-tr-022": {
+"contains": [
+"dairy"
+],
+"uncertain": []
+},
+"w-tr-023": {
+"contains": [
+"dairy"
+],
+"uncertain": []
 },
 "w-vn-001": {
 "contains": [

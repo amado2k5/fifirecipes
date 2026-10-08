@@ -26728,6 +26728,9 @@
 "ingredient: flour",
 "step: dough"
 ],
+"milk": [
+"facts: dairy"
+],
 "nuts": [
 "ingredient: pine nut",
 "step: pine nut"
@@ -27601,6 +27604,9 @@
 "evidence": {
 "crustaceans": [
 "ingredient: shrimp paste"
+],
+"fish": [
+"facts: fish"
 ]
 }
 },
@@ -27682,8 +27688,14 @@
 },
 "w-my-016": {
 "evidence": {
+"crustaceans": [
+"facts: shellfish (kind not stated)"
+],
 "eggs": [
 "facts: egg"
+],
+"molluscs": [
+"facts: shellfish (kind not stated)"
 ]
 }
 },
@@ -27965,7 +27977,11 @@
 }
 },
 "w-pe-007": {
-"evidence": {}
+"evidence": {
+"milk": [
+"facts: dairy"
+]
+}
 },
 "w-pe-008": {
 "evidence": {
@@ -28008,6 +28024,245 @@
 "processed": [
 "jelly"
 ]
+},
+"w-th-001": {
+"evidence": {
+"cereals_gluten": [
+"ingredient: all purpose flour",
+"ingredient: flour"
+],
+"eggs": [
+"facts: egg"
+]
+},
+"processed": [
+"baking powder"
+]
+},
+"w-th-002": {
+"evidence": {
+"cereals_gluten": [
+"step: noodle"
+]
+},
+"processed": [
+"food color"
+]
+},
+"w-th-003": {
+"evidence": {
+"cereals_gluten": [
+"ingredient: soy sauce",
+"step: soy sauce"
+],
+"eggs": [
+"facts: egg"
+],
+"fish": [
+"ingredient: fish sauce",
+"facts: fish"
+],
+"soybeans": [
+"ingredient: soy sauce",
+"step: soy sauce"
+]
+},
+"processed": [
+"sausage"
+]
+},
+"w-th-004": {
+"evidence": {},
+"processed": [
+"curry powder"
+]
+},
+"w-th-005": {
+"evidence": {
+"peanuts": [
+"ingredient: peanut"
+]
+}
+},
+"w-th-006": {
+"evidence": {
+"cereals_gluten": [
+"ingredient: soy sauce",
+"ingredient: soy sauce"
+],
+"soybeans": [
+"ingredient: soybean",
+"ingredient: soy sauce",
+"ingredient: soy sauce"
+]
+}
+},
+"w-th-007": {
+"evidence": {
+"cereals_gluten": [
+"step: flour"
+]
+}
+},
+"w-th-008": {
+"evidence": {
+"cereals_gluten": [
+"step: dough"
+],
+"eggs": [
+"facts: egg"
+]
+},
+"processed": [
+"food colour"
+]
+},
+"w-th-009": {
+"evidence": {
+"milk": [
+"facts: dairy"
+],
+"nuts": [
+"ingredient: walnut",
+"step: walnut"
+]
+},
+"processed": [
+"raisin"
+]
+},
+"w-th-010": {
+"evidence": {
+"cereals_gluten": [
+"ingredient: soy sauce",
+"ingredient: soy sauce",
+"ingredient: noodle"
+],
+"eggs": [
+"facts: egg"
+],
+"fish": [
+"ingredient: fish sauce",
+"facts: fish"
+],
+"mustard": [
+"ingredient: mustard",
+"step: mustard"
+],
+"soybeans": [
+"ingredient: soy sauce",
+"ingredient: soy sauce",
+"step: soy sauce"
+]
+},
+"processed": [
+"curry paste"
+]
+},
+"w-th-011": {
+"evidence": {}
+},
+"w-th-012": {
+"evidence": {
+"fish": [
+"ingredient: fish sauce",
+"facts: fish"
+],
+"peanuts": [
+"ingredient: peanut",
+"step: peanut"
+]
+},
+"processed": [
+"curry paste"
+]
+},
+"w-th-013": {
+"evidence": {
+"crustaceans": [
+"ingredient: shrimp",
+"ingredient: shrimp",
+"ingredient: shrimp paste"
+],
+"fish": [
+"ingredient: fish sauce",
+"facts: fish"
+],
+"peanuts": [
+"ingredient: peanut",
+"ingredient: peanut",
+"step: peanut"
+]
+}
+},
+"w-th-014": {
+"evidence": {
+"cereals_gluten": [
+"ingredient: soy sauce"
+],
+"fish": [
+"ingredient: fish sauce",
+"facts: fish"
+],
+"molluscs": [
+"ingredient: oyster sauce"
+],
+"soybeans": [
+"ingredient: soy sauce"
+]
+}
+},
+"w-th-015": {
+"evidence": {
+"eggs": [
+"facts: egg"
+]
+}
+},
+"w-th-016": {
+"evidence": {
+"crustaceans": [
+"ingredient: prawn",
+"step: prawn"
+],
+"eggs": [
+"facts: egg"
+],
+"fish": [
+"ingredient: anchovie",
+"facts: fish"
+],
+"peanuts": [
+"ingredient: peanut",
+"step: peanut"
+]
+}
+},
+"w-th-017": {
+"evidence": {
+"crustaceans": [
+"ingredient: shrimp paste",
+"step: shrimp paste"
+],
+"fish": [
+"ingredient: fish sauce",
+"facts: fish"
+],
+"peanuts": [
+"ingredient: peanut",
+"step: peanut"
+]
+},
+"processed": [
+"curry paste"
+]
+},
+"w-th-018": {
+"evidence": {
+"eggs": [
+"facts: egg"
+]
+}
 },
 "w-tr-001": {
 "evidence": {}

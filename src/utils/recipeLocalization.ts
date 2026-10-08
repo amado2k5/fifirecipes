@@ -5277,7 +5277,7 @@ export function getLocalizedMeasurement(value: string | undefined, lang: Support
     .trim();
 
   if (kind === 'time' && /^\d[\d\s-]*$/.test(translated.trim())) {
-    return `${translated.trim()} ${lang === 'ur' ? 'منٹ' : lang === 'fa' ? 'دقیقه' : lang === 'ps' ? 'دقیقه' : lang === 'he' ? 'דקות' : lang === 'el' ? 'λεπτ.' : lang === 'tr' ? 'dk' : lang === 'ku' ? 'deqe' : lang === 'id' ? 'menit' : lang === 'sw' ? 'dakika' : lang === 'ko' ? '분' : lang === 'ja' ? '分' : lang === 'zh' ? '分钟' : lang === 'te' ? 'నిమిషాలు' : lang === 'bn' ? 'মিনিট' : lang === 'vi' ? 'phút' : lang === 'sq' ? 'minuta' : 'min'}`;
+    return `${translated.trim()} ${lang === 'ur' ? 'منٹ' : lang === 'fa' ? 'دقیقه' : lang === 'ps' ? 'دقیقه' : lang === 'he' ? 'דקות' : lang === 'el' ? 'λεπτ.' : lang === 'tr' ? 'dk' : lang === 'ku' ? 'deqe' : lang === 'id' ? 'menit' : lang === 'sw' ? 'dakika' : lang === 'ko' ? '분' : lang === 'ja' ? '分' : lang === 'zh' ? '分钟' : lang === 'te' ? 'నిమిషాలు' : lang === 'bn' ? 'মিনিট' : lang === 'vi' ? 'phút' : lang === 'sq' ? 'minuta' : lang === 'hi' ? 'मिनट' : lang === 'ru' ? 'мин.' : 'min'}`;
   }
   return translated.trim();
 }
