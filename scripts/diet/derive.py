@@ -2,6 +2,7 @@
 
 Usage: python3 scripts/diet/derive.py <work dir with recipes.jsonl and out/batch-*.json>
 Writes  scripts/diet/facts.json        audit trail: merged facts per recipe
+        src/data/recipeDietaryCodes.json  {id: [claim, ...]}  compact copy for the app bundle
         src/data/recipeDietary.json    {id: [{claim, basis, ruleset, note?}]}  (source of truth, flows to Cookwala)
         <work>/review.json             recipes with uncertain/disagreeing facts, for a human
 Only POSITIVE claims are written. A claim is withheld whenever a relevant fact is uncertain.
@@ -74,6 +75,8 @@ def main(work):
                            'evidence': a.get('evidence', {}), 'scanEvidence': {t: s[t][:2] for t in only_scan}})
     json.dump(merged, open(HERE / 'facts.json', 'w'), indent=0, sort_keys=True, ensure_ascii=False)
     json.dump(out, open(HERE.parents[1] / 'src' / 'data' / 'recipeDietary.json', 'w'), indent=0, sort_keys=True, ensure_ascii=False)
+    # compact claims for the app bundle (the full file with notes feeds public/data)
+    json.dump({k: [c['claim'] for c in v] for k, v in out.items()}, open(HERE.parents[1] / 'src' / 'data' / 'recipeDietaryCodes.json', 'w'), sort_keys=True, separators=(',', ':'))
     json.dump(review, open(os.path.join(work, 'review.json'), 'w'), ensure_ascii=False, indent=1)
     print(len(recipes), 'recipes;', len(out), 'with at least one claim;', len(review), 'in review')
     for k, v in sorted(stat.items()): print(f'  {k}: {v}')
