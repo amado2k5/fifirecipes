@@ -1,24 +1,41 @@
 # Fatma Alkawokgy Recipes
 
-A bilingual public archive preserving the Egyptian recipes and cultural legacy of Dr. Fatma Alkawokgy (1943–2026). It presents 2,380 recipes — 1,881 across ten chapters of Egyptian home cooking (Dr. Fatma's archive plus recipes from Osool El-Tahy, Egyptian Cooking and the Fatma Abu Haty channel) and 499 from 21 world-cuisine chapters — with ingredients, instructions, cultural context, a memorial section, and a tribute page — fully static, with no account or sign-in required.
+A multilingual public archive preserving the Egyptian recipes and cultural legacy of Dr. Fatma Alkawokgy (1943–2026). It presents more than 2,300 recipes — Dr. Fatma's archive, three further Egyptian collections (Osool El-Tahy, Egyptian Cooking, the Fatma Abu Haty channel) and the World Cuisines chapters, one per country — with ingredients, instructions, cultural context, a memorial section and a tribute page. It is fully static, with no account or sign-in.
 
-**Live site:** [fifi.cooking](https://fifi.cooking)
+**Live site:** [fifi.cooking](https://fifi.cooking) · **Technology page:** [fifi.cooking/?page=technology](https://fifi.cooking/?page=technology)
 
 ## Highlights
 
-- Browse, search, and filter all 2,380 recipes by category and cooking method.
-- Read the archive in Arabic or English, with full right-to-left layout support.
-- Open a recipe's original manuscript view (Arabic only) — an illustrated rendering of the recipe's actual source text from Dr. Fatma's original documents.
-- Share a recipe or the site itself through the device's native share sheet.
+- Browse, search and filter every recipe by chapter, category and cooking method, or open one combined ingredients registry.
+- Read the archive in **29 languages**, including full right-to-left layouts for Arabic, Persian, Urdu, Pashto and Hebrew. Kurdish is Kurmanji in Latin script.
+- Nutrition and cost estimates for the recipes, and ingredient-based **halal, kosher, vegetarian and vegan** badges. The badges are not certifications; see [docs/DIETARY-CLASSIFICATION.md](docs/DIETARY-CLASSIFICATION.md).
+- Open a recipe's original manuscript view (Arabic only) — an illustrated rendering of the recipe's actual source text.
+- Share a recipe or the site through the device's share sheet.
 - Read the biography and send a tribute or feedback by email.
+- Companion apps for Android, iPhone and iPad, Apple TV, Amazon Fire TV and Samsung Smart TV (see below).
 
 ## Tech stack
 
 - React 19 and TypeScript
 - Vite 8 and Tailwind CSS 4
 - Lucide React icons and Motion animations
+- GitHub Pages and GitHub Actions for hosting and deployment; one small Cloudflare Worker for the TV home feed ([worker/](worker/))
 
-The site is fully static: the recipe archive is bundled at build time, and there is no backend, database, or authentication of any kind.
+The site is static: there is no backend, database or authentication. `scripts/generate-public-index.ts` turns the data in `src/data/` into an open JSON API under `public/data/` (a versioned manifest, one file per recipe with every translation, per-language search and ingredient indexes, TV and kids data), plus a static page with schema.org `Recipe` markup for every recipe, a sitemap and the app-link files. The browser loads only the data it needs.
+
+## Apps and TV
+
+Every app reads the same static files at `https://fifi.cooking/data/` (contract: [docs/tv-api.md](docs/tv-api.md)), so a deployment updates all of them.
+
+| Device | Repository |
+|---|---|
+| Android (Kotlin, Jetpack Compose) | [fifirecipes-android](https://github.com/amado2k5/fifirecipes-android) |
+| iPhone and iPad (SwiftUI) | [fifirecipes-ipadosapp](https://github.com/amado2k5/fifirecipes-ipadosapp) |
+| Apple TV (SwiftUI, tvOS) | [fifirecipes-tvos](https://github.com/amado2k5/fifirecipes-tvos) |
+| Amazon Fire TV (React, Vite) | [fifirecipes-amazonfire](https://github.com/amado2k5/fifirecipes-amazonfire) |
+| Samsung Smart TV (Tizen web app) | [fifirecipe-samsungsmarttv](https://github.com/amado2k5/fifirecipe-samsungsmarttv) |
+
+fifi.cooking is also the first source of recipes for [Cookwala](https://cookwala.ai), the open standard for cooking safely, which exports these recipes as Cookwala documents.
 
 ## Technology page and license
 
@@ -28,10 +45,10 @@ The code is open source under the [MIT License](LICENSE) (recipe text, pictures 
 
 ## Start locally
 
-**Prerequisite:** Node.js 20 or newer.
+**Prerequisite:** Node.js 20 or newer (the deploy workflow uses Node 24).
 
 ```bash
-npm install
+npm install --legacy-peer-deps
 npm run dev
 ```
 
