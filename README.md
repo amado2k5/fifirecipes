@@ -20,6 +20,12 @@ A bilingual public archive preserving the Egyptian recipes and cultural legacy o
 
 The site is fully static: the recipe archive is bundled at build time, and there is no backend, database, or authentication of any kind.
 
+## Technology page and license
+
+The site's footer links to a **Technology** page ([`?page=technology`](https://fifi.cooking/?page=technology)) that explains the stack, the data API, the apps, the deployments and how fifi.cooking ties to [Cookwala](https://cookwala.ai). Its text is in `src/data/technology/<lang>.json`, one file per language (29), checked by `python3 scripts/validate-technology.py`.
+
+The code is open source under the [MIT License](LICENSE) (recipe text, pictures and memorial content are not part of the licensed software). See [CONTRIBUTING.md](CONTRIBUTING.md) to contribute.
+
 ## Start locally
 
 **Prerequisite:** Node.js 20 or newer.

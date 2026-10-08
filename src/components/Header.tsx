@@ -13,7 +13,7 @@ import { KidsToggle } from '../kids/KidsToggle';
 interface HeaderProps {
   /** Null until the data manifest has loaded. */
   stats: DatabaseStats | null;
-  activeTab: 'explorer' | 'biography' | 'ingredients';
+  activeTab: 'explorer' | 'biography' | 'ingredients' | 'technology';
   setActiveTab: (tab: 'explorer' | 'biography' | 'ingredients') => void;
   lang: SupportedLanguage;
   setLang: (l: SupportedLanguage) => void;

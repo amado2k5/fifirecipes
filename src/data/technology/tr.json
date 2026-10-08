@@ -1,0 +1,230 @@
+{
+  "footerLink": "Teknoloji",
+  "back": "Tariflere dön",
+  "title": "fifi.cooking'in arkasındaki teknoloji",
+  "intro": "fifi.cooking, uzun ömürlü olması için yapılmış ücretsiz ve açık kaynaklı bir tarif arşividir. Hesap yok, reklam yok, ayakta tutulması gereken bir sunucu yok: web sitesi ve tüm uygulamalar aynı açık dosyaları okur. Bu sayfa, neyden oluştuğunu, cihazlarınıza nasıl ulaştığını ve güvenli yemek pişirmenin açık standardı olan Cookwala ile nasıl bağlandığını anlatır.",
+  "stats": {
+    "recipes": "tarif",
+    "languages": "dil",
+    "platforms": "platform",
+    "accounts": "hesap veya reklam"
+  },
+  "sections": [
+    {
+      "id": "web",
+      "heading": "Web sitesi nasıl yapıldı",
+      "items": [
+        {
+          "title": "React 19 ve TypeScript",
+          "text": "Arayüz, React ile TypeScript kullanılarak yazıldı; böylece her ekranın ve her tarif verisinin türü denetlenir."
+        },
+        {
+          "title": "Vite 8 ve Tailwind CSS 4",
+          "text": "Vite siteyi hızlıca derler ve küçük parçalara böler. Tailwind ise siteyi biçimlendirir; Arapça, Farsça, Urduca, Peştuca ve İbranice için sağdan sola tam yerleşimler de buna dahildir."
+        },
+        {
+          "title": "Tasarım gereği statik",
+          "text": "Arka uç, veritabanı ya da giriş yok. Site derlenirken her şey düz dosyalara dönüştürülür, sonra GitHub Pages ile fifi.cooking adresinde sunulur."
+        },
+        {
+          "title": "Yalnızca açtığınız şey yüklenir",
+          "text": "Dilinizin çevirileri, açtığınız tarif, Çocuklarla Yemek ve anma sayfaları yalnızca gerektiğinde getirilir; böylece ilk ekran hafif kalır."
+        },
+        {
+          "title": "Lucide simgeleri ve Motion",
+          "text": "Simgeler Lucide'den, yumuşak animasyonlar ise Motion'dan gelir."
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "Tarif verileri",
+      "items": [
+        {
+          "title": "Tek bir açık JSON API",
+          "text": "Her tarif, çeviri, arama dizini ve malzeme dizini fifi.cooking/data altında bir dosyadır. Bir manifest, içerik özetine dayalı bir sürüm taşır, her URL belirli bir sürüm için asla değişmez ve farklı kaynaklardan gelen isteklere izin verilir; böylece herkes bunun üzerine bir şey geliştirebilir."
+        },
+        {
+          "title": "Her tarif için tek dosya",
+          "text": "Bir tarif dosyası özgün metni, besin değerlerini ve maliyet tahminini, ayrıca her dile yapılmış çevirilerini içerir."
+        },
+        {
+          "title": "Her dilde arama",
+          "text": "Her dil için bir arama dizini oluşturulur; böylece arama sunucu olmadan çalışır."
+        },
+        {
+          "title": "Besin değeri ve maliyet tahminleri",
+          "text": "Her tarifte hesaplanmış kalori, protein, karbonhidrat ve yağ değerleri ile tahmini bir maliyet bulunur."
+        },
+        {
+          "title": "Özgün el yazması görünümü",
+          "text": "Dr. Fatma'nın arşivindeki tarifler, özgün Arapça metnin resimli bir hâli olarak gösterilebilir."
+        },
+        {
+          "title": "Arama motorlarında bulunur",
+          "text": "Her tarifin ayrıca schema.org Recipe işaretlemesi olan kendi statik sayfası vardır; derleme bir site haritası üretir ve arama motorlarına IndexNow ile haber verir."
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "heading": "Diller ve yemek kuralları",
+      "items": [
+        {
+          "title": "29 dil",
+          "text": "Site ve tarifleri 29 dilde mevcuttur. Kürtçe, Latin alfabesiyle yazılan Kurmanji'dir."
+        },
+        {
+          "title": "Her değişiklikten önce denetlenir",
+          "text": "check:world adlı bir komut, herhangi bir tarif değişikliği kaydedilmeden önce çalışır. Her alanın tek bir yazı sistemi kullandığını, yapının eksiksiz olduğunu, Arapça yemek adlarının sözlüğe uyduğunu ve kodun tür denetiminden geçtiğini kontrol eder."
+        },
+        {
+          "title": "Kural gereği helal",
+          "text": "Tariflerde domuz eti ya da alkol bulunmaz; mirin gibi gizli olanlar da dahildir. Her çeviride otomatik helal denetimleri de çalışır, çünkü bir çeviri kendi başına yasak bir malzeme getirebilir."
+        }
+      ]
+    },
+    {
+      "id": "making",
+      "heading": "Tarifler ve resimler nasıl hazırlanır",
+      "items": [
+        {
+          "title": "Dünya mutfakları hattı",
+          "text": "Birçok ülkenin tarifleri sabit adımlardan geçer: kaynakları bulmak, yerel bir bilgisayarda çalışan bir dil modeliyle taslak yazmak, içe aktarmak, helal açısından denetlemek, çevirmek, tahminleri eklemek ve bir resim eklemek. Bir ülke ancak her adım tamamlandığında yayına girer."
+        },
+        {
+          "title": "Yapay zekâyla üretilmiş resimler",
+          "text": "Tarif resimleri, yerel bir bilgisayarda FLUX.2 modeliyle üretilen çizimlerdir. Yemeğin nasıl görünebileceğini gösterirler. Pişmiş yemeğin fotoğrafı değildirler."
+        },
+        {
+          "title": "Hızlı resimler",
+          "text": "Her resim sıkıştırılır ve sharp kullanılarak daha küçük bir önizleme olarak da kaydedilir; böylece sayfalar yavaş bağlantılarda bile hızlı yüklenir."
+        },
+        {
+          "title": "Yemek videoları",
+          "text": "Zamanlanmış bir görev haftada bir kez YouTube'da arama yapar ve her tarif için uygun videoları kaydeder. Videolar Videolar sekmesinde gösterilir ve yalnızca o sekmeyi açtığınızda yüklenir."
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "heading": "Neler yapabilirsiniz",
+      "items": [
+        {
+          "title": "Gezin, arayın ve süzün",
+          "text": "Tüm tarifler içinde arama yapın, bölüme, kategoriye ve pişirme yöntemine göre süzün ya da arşivdeki tüm malzemelerin tek bir birleşik listesini görün."
+        },
+        {
+          "title": "Çocuklarla Yemek",
+          "text": "Elle çizilmiş resimler, ekran başına tek kısa adım, sesli okuma, zamanlayıcılar ve bıçak, ateş ya da blender içeren adımlarda \"büyük yardım eder\" rozeti olan eğlenceli bir mod."
+        },
+        {
+          "title": "Tarif paylaşın",
+          "text": "Cihazınızın paylaşım menüsüyle tek bir tarifi ya da sitenin tamamını paylaşın."
+        },
+        {
+          "title": "Yaşayan bir anma",
+          "text": "Dr. Fatma Alkawokgy'nin (1943–2026) biyografisini okuyun ve e-postayla bir anma mesajı gönderin."
+        }
+      ]
+    },
+    {
+      "id": "devices",
+      "heading": "Cihazlar ve size ulaştığı yerler",
+      "intro": "Her uygulama aynı açık veri dosyalarını okur; bu yüzden yeni bir tarif tek bir yayından sonra her yerde görünür.",
+      "items": [
+        {
+          "title": "Web sitesi",
+          "text": "fifi.cooking telefonlarda, tabletlerde ve bilgisayarlarda her modern tarayıcıda çalışır."
+        },
+        {
+          "title": "Android",
+          "text": "Telefonlar, tabletler, katlanabilir cihazlar ve Chromebook'lar için Kotlin ve Jetpack Compose ile yazılmış yerel bir uygulama. Analiz aracı, reklam ya da Google Play Services içermez."
+        },
+        {
+          "title": "iPhone ve iPad",
+          "text": "iPhone ve iPad'e uyum sağlayan, üçüncü taraf kitaplığı olmayan yerel bir SwiftUI uygulaması."
+        },
+        {
+          "title": "Apple TV",
+          "text": "Siri Remote için tasarlanmış, tvOS'a yönelik yerel bir SwiftUI uygulaması."
+        },
+        {
+          "title": "Amazon Fire TV",
+          "text": "Yön tuşlarıyla gezinmeli, kumandaya uygun bir React uygulaması; Fire OS için paketlenmiştir."
+        },
+        {
+          "title": "Samsung Smart TV",
+          "text": "2020 ve sonrasındaki Samsung televizyonlar için Tizen web uygulaması; kodunu Fire TV uygulamasıyla paylaşır."
+        },
+        {
+          "title": "Doğru yerde açılır",
+          "text": "Universal Links ve Android App Links, bir tarif bağlantısının uygulama yüklüyse uygulamada, değilse tarayıcıda açılmasını sağlar. Her uygulamanın fifi.cooking alt alan adında kendi sayfası vardır."
+        },
+        {
+          "title": "Taptaze bir TV ana ekranı",
+          "text": "Küçük bir Cloudflare Worker, bir uygulama her açıldığında TV ana ekranını yeniden karıştırır; böylece satırlar hiçbir zaman iki kez aynı olmaz."
+        }
+      ]
+    },
+    {
+      "id": "deploy",
+      "heading": "Derleme ve yayına alma",
+      "items": [
+        {
+          "title": "Otomatik yayına alma",
+          "text": "Ana dala birleştirilen her değişiklik bir GitHub Actions iş akışı çalıştırır; bu iş akışı projeyi kurar, tüm veri dosyalarını üretir, siteyi derler ve GitHub Pages'te yayımlar."
+        },
+        {
+          "title": "Haftalık yenileme",
+          "text": "İkinci bir iş akışı her pazartesi çalışır, tarif videolarını yeniler, sonucu kaydeder ve yeni bir yayını tetikler."
+        },
+        {
+          "title": "Test edilen uygulamalar",
+          "text": "Android, iPhone ve iPad ile Apple TV uygulamalarının her birinin otomatik derleme ve test iş akışları vardır; Samsung ve Fire TV uygulamalarının ise kendi derleme ve yayına alma iş akışları vardır."
+        },
+        {
+          "title": "Her şey açıkta",
+          "text": "İş akışları, betikler ve denetimler depolardadır; böylece bir değişikliğin canlı bir sayfaya nasıl dönüştüğünü tam olarak görebilirsiniz."
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "heading": "Gizlilik",
+      "items": [
+        {
+          "title": "Bizden hesap, reklam ya da takip yok",
+          "text": "Giriş yapmanız gerekmez, hiçbir şey satılmaz ve site reklam ya da siteler arası takip yapmaz."
+        },
+        {
+          "title": "Üçüncü taraflar konusunda açık",
+          "text": "Barındırma, yazı tipleri ve isteğe bağlı konum özellikleri dış hizmetler içerir. Gizlilik sayfası bunların her birini listeler."
+        }
+      ]
+    }
+  ],
+  "openSource": {
+    "heading": "Açık kaynak, herkese açık",
+    "text": "fifi.cooking açık kaynaklıdır. Herkes kodu okuyabilir, geliştirebilir, çevirebilir, bir sorunu bildirebilir ya da çekme isteği gönderebilir. Kodu, MIT License kapsamında istediğiniz her uygulamada özgürce kullanabilirsiniz.",
+    "points": [
+      "Bir hatayı düzeltin, bir çeviriyi iyileştirin ya da yeni bir özellik ekleyin.",
+      "Bir dil, bir tarif ya da daha iyi bir resim ekleyin.",
+      "Kodun herhangi bir bölümünü kendi projenize kopyalayın.",
+      "Tarif metinleri ve resimler sitenin alt bilgisindeki koşullara uyar."
+    ],
+    "buttons": {
+      "code": "Koda bak",
+      "contribute": "Nasıl katkıda bulunulur",
+      "license": "Lisansı oku",
+      "issues": "Sorun bildir",
+      "privacy": "Gizlilik sayfası"
+    },
+    "reposHeading": "Tüm depolar"
+  },
+  "cookwala": {
+    "heading": "Cookwala ile bağı",
+    "text": "Cookwala; insanlar, mutfaklar ve robotlar için güvenli yemek pişirmenin açık standardıdır. fifi.cooking tarafından başlatıldı ve ilk tarif kaynağı da yine fifi.cooking'dir. Buradaki tarifler, her biri bir özet, bir atıf ve bir lisans taşıyan Cookwala belgeleri olarak dışa aktarılır; Cookwala MCP sunucusu da yapay zekâ asistanlarının fifi.cooking'in açık verilerinde arama yapmasını sağlar. Bu sayfada anlatılan her şey, statik dosyalardan açık API'ye kadar, bunu mümkün kılan şeydir.",
+    "button": "Cookwala'yı ziyaret et"
+  }
+}

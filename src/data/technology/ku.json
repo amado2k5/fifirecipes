@@ -1,0 +1,230 @@
+{
+  "footerLink": "Teknolojî",
+  "back": "Vegere ser reçeteyan",
+  "title": "Teknolojiya li pişt fifi.cooking",
+  "intro": "fifi.cooking arşîveke reçeteyan a belaş û bi koda vekirî ye, ku ji bo demeke dirêj bimîne hatiye çêkirin. Hesab tune, reklam tune, pêşkêşkerek ku divê were girtin tune: malper û hemû sepan heman pelên vekirî dixwînin. Ev rûpel diyar dike ku ji çi pêk tê, çawa digihîje cihazên we, û çawa bi Cookwala re, standarda vekirî ya xwarinçêkirina ewle, tê girêdan.",
+  "stats": {
+    "recipes": "reçete",
+    "languages": "ziman",
+    "platforms": "platform",
+    "accounts": "hesab an reklam"
+  },
+  "sections": [
+    {
+      "id": "web",
+      "heading": "Malper çawa hatiye çêkirin",
+      "items": [
+        {
+          "title": "React 19 û TypeScript",
+          "text": "Navrû bi TypeScript û React hatiye nivîsandin, ji ber vê yekê ji bo her dîmenek û her daneya reçeteyê cureyek kontrolkirî heye."
+        },
+        {
+          "title": "Vite 8 û Tailwind CSS 4",
+          "text": "Vite malperê zû ava dike û dike perçeyên biçûk. Tailwind wê xemilîne, tevî sêwirandinên tam ji rastê ber bi çepê ji bo Erebî, Farisî, Urdû, Peştoyî û Îbranî."
+        },
+        {
+          "title": "Ji bo statîkbûnê hatiye sêwirandin",
+          "text": "Aliyê paşîn, danegeh an têketin tune. Dema malper tê avakirin her tişt dibe pelên sade, paşê ji aliyê GitHub Pages ve li fifi.cooking tê pêşkêşkirin."
+        },
+        {
+          "title": "Tenê ya ku hûn vedikin tê barkirin",
+          "text": "Wergerên zimanê we, reçeteya ku hûn vedikin, Bi Zarokan re Çêkirin û rûpelên bîranînê tenê dema pêwîst be têne anîn, ji ber vê yekê dîmena yekem sivik dimîne."
+        },
+        {
+          "title": "Îkonên Lucide û Motion",
+          "text": "Îkon ji Lucide tên û anîmasyonên nerm ji Motion."
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "Daneyên reçeteyan",
+      "items": [
+        {
+          "title": "Yek JSON API ya vekirî",
+          "text": "Her reçete, wergerek, indeksa lêgerînê û indeksa malzemeyan pelek e di bin fifi.cooking/data de. Manifestek guhertoyeke li ser bingeha hash a naverokê digire, her URL ji bo guhertoyeke diyarkirî qet naguhere, û daxwazên ji çavkaniyên din tên pejirandin, ji ber vê yekê her kes dikare li ser vê tiştek ava bike."
+        },
+        {
+          "title": "Ji bo her reçeteyê yek pel",
+          "text": "Pelek reçeteyê nivîsa eslî, nirxên xwarinî û texmîna lêçûnê, û wergerên wê yên bo her zimanî dihewîne."
+        },
+        {
+          "title": "Lêgerîn di her zimanî de",
+          "text": "Ji bo her zimanî indeksek lêgerînê tê çêkirin, ji ber vê yekê lêgerîn bê pêşkêşker dixebite."
+        },
+        {
+          "title": "Texmînên xwarinî û lêçûnê",
+          "text": "Her reçete kalorî, proteîn, karbohîdrat û rûnê hesabkirî, û lêçûneke texmînkirî dihewîne."
+        },
+        {
+          "title": "Dîtina destnivîsa eslî",
+          "text": "Reçeteyên ji arşîva Dr. Fatma dikarin wekî xuyakirineke wêneyî ya nivîsa eslî ya Erebî bêne nîşandan."
+        },
+        {
+          "title": "Di motorên lêgerînê de tê dîtin",
+          "text": "Her reçete her wiha rûpeleke xwe ya statîk bi nîşeya schema.org Recipe heye, û avakirin nexşeya malperê çêdike û bi IndexNow motorên lêgerînê agahdar dike."
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "heading": "Ziman û rêzikên xwarinê",
+      "items": [
+        {
+          "title": "29 ziman",
+          "text": "Malper û reçeteyên wê bi 29 zimanan hene. Kurdî Kurmanji ye bi alfabeya Latînî."
+        },
+        {
+          "title": "Beriya her guhertinê tê kontrolkirin",
+          "text": "Fermanek bi navê check:world beriya ku her guhertina reçeteyê were tomarkirin dixebite. Ew kontrol dike ku her qad yek nivîsê bi kar tîne, avahî temam e, navên xwarinên Erebî li pey ferhengokê ne, û koda cureyan derbas dike."
+        },
+        {
+          "title": "Bi rêzikê halal",
+          "text": "Di reçeteyan de goştê beraz an alkol tune, tevî yên veşartî wekî mirin. Kontrolên halal ên otomatîk li ser her wergerê jî dixebitin, ji ber ku wergerek dikare bi serê xwe malzemeyeke qedexe bîne."
+        }
+      ]
+    },
+    {
+      "id": "making",
+      "heading": "Reçete û wêne çawa têne çêkirin",
+      "items": [
+        {
+          "title": "Boriya xwarinên cîhanê",
+          "text": "Reçeteyên gelek welatan di gavên diyarkirî re derbas dibin: lêgerîna çavkaniyan, nivîsandina pêşnivîsekê bi modelek zimanî ya ku li ser komputerek herêmî dixebite, anîna hundir, kontrolkirina halal, wergerandin, lê zêdekirina texmînan û lê zêdekirina wêneyekî. Welatek tenê dema her gav temam bûn dikeve ser xetê."
+        },
+        {
+          "title": "Wêneyên bi zîrekiya çêkirî hatine çêkirin",
+          "text": "Wêneyên reçeteyan ilustrasyon in ku li ser komputerek herêmî bi modela FLUX.2 hatine çêkirin. Ew nîşan didin ku xwarin dikare çawa xuya bike. Ew ne wêneyên xwarina pijandî ne."
+        },
+        {
+          "title": "Wêneyên bilez",
+          "text": "Her wêne tê pelçiqandin û bi sharp wekî wêneyekî biçûktir jî tê tomarkirin, da ku rûpel li ser girêdanên hêdî jî zû bar bibin."
+        },
+        {
+          "title": "Vîdyoyên xwarinçêkirinê",
+          "text": "Karekî bi demjimêr heftê carekê li YouTube digere û vîdyoyên guncaw ji bo her reçeteyê tomar dike. Ew di şaneya Vîdyo de têne nîşandan û tenê dema hûn wê vedikin bar dibin."
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "heading": "Hûn dikarin çi bikin",
+      "items": [
+        {
+          "title": "Bigerin, lêbigerin û fîltre bikin",
+          "text": "Di hemû reçeteyan de lêbigerin, li gorî beş, kategorî û rêbaza pijandinê fîltre bikin, an jî di arşîvê de lîsteyeke yekgirtî ya malzemeyan bibînin."
+        },
+        {
+          "title": "Bi Zarokan re Çêkirin",
+          "text": "Moda lîstokî bi wêneyên bi dest hatine xêzkirin, ji bo her dîmenekê yek gaveke kurt, xwendina bi deng, demjimêr û nîşana \"mezin alîkar e\" li ser gavên bi kêr, germî an mîkser."
+        },
+        {
+          "title": "Reçeteyekê parve bikin",
+          "text": "Bi menuya parvekirinê ya cihaza xwe yek reçete an hemû malperê parve bikin."
+        },
+        {
+          "title": "Bîranînek zindî",
+          "text": "Jînenîgariya Dr. Fatma Alkawokgy (1943–2026) bixwînin û bi e-nameyê peyamek rêzgirtinê bişînin."
+        }
+      ]
+    },
+    {
+      "id": "devices",
+      "heading": "Cihaz û cihên ku digihîje we",
+      "intro": "Her sepan heman pelên daneyên vekirî dixwîne, ji ber vê yekê reçeteyeke nû piştî yek weşandinê li her derê xuya dibe.",
+      "items": [
+        {
+          "title": "Malper",
+          "text": "fifi.cooking di her gerokeke nûjen de, li ser telefon, tablet û komputeran dixebite."
+        },
+        {
+          "title": "Android",
+          "text": "Sepaneke xwecihî ku bi Kotlin û Jetpack Compose hatiye nivîsandin, ji bo telefon, tablet, cihazên pêçayî û Chromebook. Analîz, reklam an Google Play Services tê de tune."
+        },
+        {
+          "title": "iPhone û iPad",
+          "text": "Sepaneke xwecihî ya SwiftUI ku xwe bi iPhone û iPad re li hev tîne, bê pirtûkxaneyên aliyê sêyem."
+        },
+        {
+          "title": "Apple TV",
+          "text": "Sepaneke xwecihî ya SwiftUI ji bo tvOS, ku ji bo Siri Remote hatiye sêwirandin."
+        },
+        {
+          "title": "Amazon Fire TV",
+          "text": "Sepaneke React ya ku bi kontrolê re xweş e, bi gerîna bi tuşên alî, ji bo Fire OS hatiye pakijkirin."
+        },
+        {
+          "title": "Samsung Smart TV",
+          "text": "Sepaneke webê ji bo Tizen, ji bo televizyonên Samsung ên ji 2020 şûn ve, ku koda xwe bi sepana Fire TV re parve dike."
+        },
+        {
+          "title": "Li cihê rast vedibe",
+          "text": "Universal Links û Android App Links dihêlin ku girêdana reçeteyekê, dema sepan sazkirî be, di sepanê de, û dema sazkirî nebe, di gerokê de vebe. Her sepanek li ser subdomaineke fifi.cooking rûpeleke xwe heye."
+        },
+        {
+          "title": "Dîmena serê TV ya nû",
+          "text": "Cloudflare Worker yeke biçûk her carê ku sepanek vedibe dîmena serê TV ji nû ve tevlihev dike, ji ber vê yekê rêzik qet du caran wekhev nabin."
+        }
+      ]
+    },
+    {
+      "id": "deploy",
+      "heading": "Avakirin û weşandin",
+      "items": [
+        {
+          "title": "Weşandina otomatîk",
+          "text": "Her guhertina ku bi şaxa sereke ve tê yekkirin herikeke xebatê ya GitHub Actions dixebitîne ku proje saz dike, hemû pelên daneyan çêdike, malperê ava dike û li GitHub Pages diweşîne."
+        },
+        {
+          "title": "Nûkirina heftane",
+          "text": "Herika xebatê ya duyemîn her duşemê dixebite, vîdyoyên reçeteyan nû dike, encamê tomar dike û weşandineke nû dide destpêkirin."
+        },
+        {
+          "title": "Sepanên ceribandî",
+          "text": "Sepanên Android, iPhone û iPad, û Apple TV her yek herikên xebatê yên avakirin û ceribandinê yên otomatîk hene, û sepanên Samsung û Fire TV herikên xebatê yên xwe yên avakirin û weşandinê hene."
+        },
+        {
+          "title": "Hemû vekirî",
+          "text": "Herikên xebatê, nivîsok û kontrol di depoyan de ne, ji ber vê yekê hûn dikarin bi rastî bibînin ka guhertinek çawa dibe rûpeleke zindî."
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "heading": "Nehêniya kesane",
+      "items": [
+        {
+          "title": "Ji aliyê me ve hesab, reklam an şopandin tune",
+          "text": "Pêwîst nake hûn têkevin, tiştek nayê firotin, û malper reklam an şopandina di navbera malperan de nake."
+        },
+        {
+          "title": "Der barê aliyên sêyem de zelal",
+          "text": "Mêvandarî, curenivîs û taybetmendiyên cihê yên bijarte karûbarên derveyî dihewînin. Rûpela nehêniyê her yekê rêz dike."
+        }
+      ]
+    }
+  ],
+  "openSource": {
+    "heading": "Koda vekirî, ji bo her kesî vekirî",
+    "text": "fifi.cooking bi koda vekirî ye. Her kes dikare kodê bixwîne, çêtir bike, wergerîne, pirsgirêkekê raporte bike an daxwaza yekkirinê bişîne. Hûn azad in ku kodê di her sepanê de bi kar bînin, di bin MIT License de.",
+    "points": [
+      "Xeletiyekê serast bikin, wergerekê çêtir bikin an taybetmendiyekê zêde bikin.",
+      "Zimanek, reçeteyek an wêneyekî çêtir zêde bikin.",
+      "Her beşeke kodê di projeya xwe de kopî bikin.",
+      "Nivîsa reçeteyan û wêne li gorî mercên di binê malperê de ne."
+    ],
+    "buttons": {
+      "code": "Kodê bibînin",
+      "contribute": "Çawa beşdar bibin",
+      "license": "Lîsansê bixwînin",
+      "issues": "Pirsgirêkekê raporte bikin",
+      "privacy": "Rûpela nehêniyê"
+    },
+    "reposHeading": "Hemû depo"
+  },
+  "cookwala": {
+    "heading": "Çawa bi Cookwala ve girêdayî ye",
+    "text": "Cookwala standardeke vekirî ye ji bo xwarinçêkirina ewle, ji bo mirov, mitbax û robotan. Ew ji aliyê fifi.cooking ve hate destpêkirin, ku di heman demê de çavkaniya wê ya yekem a reçeteyan e. Reçeteyên li vir wekî belgeyên Cookwala têne derxistin, her yek bi hash, krediyek û lîsansekê, û pêşkêşkera MCP ya Cookwala dihêle ku arîkarên zîrekiya çêkirî di daneyên vekirî yên fifi.cooking de bigerin. Her tiştê ku li ser vê rûpelê hatiye diyarkirin, ji pelên statîk heya API ya vekirî, ya ku vê gengaz dike ye.",
+    "button": "Biçin Cookwala"
+  }
+}

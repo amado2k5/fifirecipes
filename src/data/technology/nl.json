@@ -1,0 +1,230 @@
+{
+  "footerLink": "Technologie",
+  "back": "Terug naar de recepten",
+  "title": "De technologie achter fifi.cooking",
+  "intro": "fifi.cooking is een gratis receptenarchief met open broncode, gebouwd om lang mee te gaan. Er zijn geen accounts, geen advertenties en geen server die in de lucht gehouden moet worden: de website en alle apps lezen dezelfde open bestanden. Deze pagina legt uit waaruit het bestaat, hoe het bij je apparaten komt en hoe het is verbonden met Cookwala, de open standaard voor veilig koken.",
+  "stats": {
+    "recipes": "recepten",
+    "languages": "talen",
+    "platforms": "platforms",
+    "accounts": "accounts of advertenties"
+  },
+  "sections": [
+    {
+      "id": "web",
+      "heading": "Hoe de website is gebouwd",
+      "items": [
+        {
+          "title": "React 19 en TypeScript",
+          "text": "De interface is geschreven in TypeScript met React, zodat elk scherm en elk stukje receptgegevens een gecontroleerd type heeft."
+        },
+        {
+          "title": "Vite 8 en Tailwind CSS 4",
+          "text": "Vite bouwt de site snel en knipt hem op in kleine stukjes. Tailwind zorgt voor de opmaak, ook voor volledige rechts-naar-links-lay-outs voor Arabisch, Perzisch, Urdu, Pasjto en Hebreeuws."
+        },
+        {
+          "title": "Bewust statisch",
+          "text": "Er is geen backend, geen database en geen login. Alles wordt bij het bouwen van de site omgezet in gewone bestanden en daarna door GitHub Pages geserveerd op fifi.cooking."
+        },
+        {
+          "title": "Laadt alleen wat je opent",
+          "text": "De vertalingen van jouw taal, het recept dat je opent, Koken met kinderen en de gedenkpagina's worden alleen opgehaald wanneer ze nodig zijn, zodat het eerste scherm licht blijft."
+        },
+        {
+          "title": "Lucide-pictogrammen en Motion",
+          "text": "De pictogrammen komen van Lucide en de rustige animaties van Motion."
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "De receptgegevens",
+      "items": [
+        {
+          "title": "Eén open JSON API",
+          "text": "Elk recept, elke vertaling, elke zoekindex en elke ingrediëntenindex is een bestand onder fifi.cooking/data. Een manifest bevat een versie met inhoudshash, elke URL verandert nooit voor een bepaalde versie, en verzoeken vanaf andere oorsprongen zijn toegestaan, zodat iedereen erop kan voortbouwen."
+        },
+        {
+          "title": "Eén bestand per recept",
+          "text": "Een receptbestand bevat de originele tekst, de voedingswaarde en kostenraming, en de vertalingen in elke taal."
+        },
+        {
+          "title": "Zoeken in elke taal",
+          "text": "Voor elke taal wordt een zoekindex gemaakt, zodat zoeken zonder server werkt."
+        },
+        {
+          "title": "Voedingswaarde en kostenramingen",
+          "text": "Elk recept bevat berekende calorieën, eiwit, koolhydraten en vet, en een geschatte prijs."
+        },
+        {
+          "title": "Weergave van het originele manuscript",
+          "text": "Recepten uit het archief van Dr. Fatma kunnen worden getoond als een geïllustreerde weergave van de originele Arabische tekst."
+        },
+        {
+          "title": "Te vinden via zoekmachines",
+          "text": "Elk recept heeft ook een eigen statische pagina met schema.org-Recipe-opmaak, en bij het bouwen ontstaat een sitemap en worden zoekmachines via IndexNow op de hoogte gebracht."
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "heading": "Talen en voedselregels",
+      "items": [
+        {
+          "title": "29 talen",
+          "text": "De site en de recepten zijn beschikbaar in 29 talen. Koerdisch is Kurmanji in Latijns schrift."
+        },
+        {
+          "title": "Gecontroleerd vóór elke wijziging",
+          "text": "Een opdracht genaamd check:world draait voordat een receptwijziging wordt opgeslagen. Ze controleert of elk veld één schrift gebruikt, of de structuur compleet is, of Arabische gerechtnamen het glossarium volgen en of de code de typecontrole doorstaat."
+        },
+        {
+          "title": "Halal volgens regel",
+          "text": "Recepten bevatten geen varkensvlees of alcohol, ook niet in verborgen vorm, zoals mirin. Geautomatiseerde halalcontroles draaien ook op elke vertaling, omdat een vertaling zelf een verboden ingrediënt kan introduceren."
+        }
+      ]
+    },
+    {
+      "id": "making",
+      "heading": "Hoe recepten en afbeeldingen worden gemaakt",
+      "items": [
+        {
+          "title": "Pijplijn voor wereldkeukens",
+          "text": "Recepten uit veel landen doorlopen vaste stappen: bronnen vinden, een concept schrijven met een taalmodel dat op een lokale computer draait, het importeren, op halal controleren, vertalen, schattingen toevoegen en een afbeelding toevoegen. Een land gaat pas live als elke stap klaar is."
+        },
+        {
+          "title": "Door AI gemaakte afbeeldingen",
+          "text": "De receptafbeeldingen zijn illustraties die op een lokale computer worden gemaakt met het model FLUX.2. Ze laten zien hoe het gerecht eruit kan zien. Het zijn geen foto's van het bereide gerecht."
+        },
+        {
+          "title": "Snelle afbeeldingen",
+          "text": "Elke afbeelding wordt gecomprimeerd en met sharp ook als kleinere miniatuur opgeslagen, zodat pagina's ook bij trage verbindingen snel laden."
+        },
+        {
+          "title": "Kookvideo's",
+          "text": "Een geplande taak doorzoekt één keer per week YouTube en slaat passende video's op voor elk recept. Ze worden getoond op het tabblad Video's en pas geladen wanneer je het opent."
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "heading": "Wat je kunt doen",
+      "items": [
+        {
+          "title": "Bladeren, zoeken en filteren",
+          "text": "Doorzoek alle recepten, filter op hoofdstuk, categorie en bereidingswijze, of bekijk één gecombineerde lijst met ingrediënten uit het hele archief."
+        },
+        {
+          "title": "Koken met kinderen",
+          "text": "Een speelse modus met handgetekende afbeeldingen, één korte stap per scherm, voorlezen, timers en een badge \"volwassene helpt\" bij stappen met een mes, hitte of blender."
+        },
+        {
+          "title": "Een recept delen",
+          "text": "Deel één recept of de hele site via het deelmenu van je apparaat."
+        },
+        {
+          "title": "Een levende herdenking",
+          "text": "Lees de biografie van Dr. Fatma Alkawokgy (1943–2026) en stuur een eerbetoon per e-mail."
+        }
+      ]
+    },
+    {
+      "id": "devices",
+      "heading": "Apparaten en waar het je bereikt",
+      "intro": "Elke app leest dezelfde open gegevensbestanden, zodat een nieuw recept na één publicatie overal verschijnt.",
+      "items": [
+        {
+          "title": "Website",
+          "text": "fifi.cooking werkt in elke moderne browser, op telefoons, tablets en computers."
+        },
+        {
+          "title": "Android",
+          "text": "Een native app geschreven in Kotlin met Jetpack Compose, voor telefoons, tablets, opvouwbare toestellen en Chromebooks. Ze heeft geen analyse, geen advertenties en geen Google Play Services."
+        },
+        {
+          "title": "iPhone en iPad",
+          "text": "Een native SwiftUI-app die zich aanpast aan iPhone en iPad, zonder bibliotheken van derden."
+        },
+        {
+          "title": "Apple TV",
+          "text": "Een native SwiftUI-app voor tvOS, ontworpen voor de Siri Remote."
+        },
+        {
+          "title": "Amazon Fire TV",
+          "text": "Een afstandsbedieningsvriendelijke React-app met navigatie via richtingstoetsen, verpakt voor Fire OS."
+        },
+        {
+          "title": "Samsung Smart TV",
+          "text": "Een webapp voor Tizen, voor Samsung-tv's vanaf 2020, die haar code deelt met de Fire TV-app."
+        },
+        {
+          "title": "Opent op de juiste plek",
+          "text": "Universal Links en Android App Links zorgen ervoor dat een receptlink in de app opent als die is geïnstalleerd, en in de browser als dat niet zo is. Elke app heeft een eigen pagina op een subdomein van fifi.cooking."
+        },
+        {
+          "title": "Een vers tv-startscherm",
+          "text": "Een kleine Cloudflare Worker husselt het tv-startscherm opnieuw telkens als een app opent, zodat de rijen nooit twee keer hetzelfde zijn."
+        }
+      ]
+    },
+    {
+      "id": "deploy",
+      "heading": "Bouwen en publiceren",
+      "items": [
+        {
+          "title": "Automatische publicatie",
+          "text": "Elke wijziging die in de hoofdtak wordt samengevoegd, start een GitHub Actions-werkstroom die het project installeert, alle gegevensbestanden genereert, de site bouwt en op GitHub Pages publiceert."
+        },
+        {
+          "title": "Wekelijkse verversing",
+          "text": "Een tweede werkstroom draait elke maandag, ververst de receptvideo's, slaat het resultaat op en start een nieuwe publicatie."
+        },
+        {
+          "title": "Geteste apps",
+          "text": "De apps voor Android, iPhone en iPad, en Apple TV hebben elk geautomatiseerde bouw- en testwerkstromen, en de apps voor Samsung en Fire TV hebben hun eigen bouw- en publicatiewerkstromen."
+        },
+        {
+          "title": "Alles in het open",
+          "text": "De werkstromen, scripts en controles staan in de repositories, zodat je precies kunt zien hoe een wijziging een live pagina wordt."
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "heading": "Privacy",
+      "items": [
+        {
+          "title": "Geen accounts, advertenties of tracking van onze kant",
+          "text": "Je hoeft niet in te loggen, er wordt niets verkocht, en de site toont geen advertenties en doet niet aan tracking over sites heen."
+        },
+        {
+          "title": "Duidelijk over derden",
+          "text": "Hosting, lettertypen en de optionele locatiefuncties maken gebruik van externe diensten. De privacypagina somt ze stuk voor stuk op."
+        }
+      ]
+    }
+  ],
+  "openSource": {
+    "heading": "Open broncode, open voor iedereen",
+    "text": "fifi.cooking heeft open broncode. Iedereen kan de code lezen, verbeteren, vertalen, een probleem melden of een pull request sturen. Je mag de code onder de MIT License gebruiken in elke toepassing die je wilt.",
+    "points": [
+      "Een bug oplossen, een vertaling verbeteren of een functie toevoegen.",
+      "Een taal, een recept of een mooiere afbeelding toevoegen.",
+      "Een willekeurig deel van de code in je eigen project kopiëren.",
+      "Receptteksten en afbeeldingen volgen de voorwaarden in de voettekst van de site."
+    ],
+    "buttons": {
+      "code": "De code bekijken",
+      "contribute": "Hoe je kunt bijdragen",
+      "license": "De licentie lezen",
+      "issues": "Een probleem melden",
+      "privacy": "Privacypagina"
+    },
+    "reposHeading": "Alle repositories"
+  },
+  "cookwala": {
+    "heading": "Hoe het aansluit op Cookwala",
+    "text": "Cookwala is een open standaard voor veilig koken, voor mensen, keukens en robots. Het is gestart door fifi.cooking, dat ook de eerste receptenbron ervan is. De recepten hier worden geëxporteerd als Cookwala-documenten, elk met een hash, een bronvermelding en een licentie, en met de Cookwala MCP-server kunnen AI-assistenten in de open gegevens van fifi.cooking zoeken. Alles wat op deze pagina is beschreven, van de statische bestanden tot de open API, maakt dat mogelijk.",
+    "button": "Cookwala bezoeken"
+  }
+}

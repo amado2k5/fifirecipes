@@ -1,0 +1,230 @@
+{
+  "footerLink": "Technologie",
+  "back": "Retour aux recettes",
+  "title": "La technologie derrière fifi.cooking",
+  "intro": "fifi.cooking est une archive de recettes gratuite et open source, conçue pour durer. Il n'y a ni comptes, ni publicités, ni serveur à maintenir en vie : le site web et toutes les applications lisent les mêmes fichiers ouverts. Cette page explique de quoi il est fait, comment il arrive sur vos appareils et comment il se relie à Cookwala, le standard ouvert pour cuisiner en toute sécurité.",
+  "stats": {
+    "recipes": "recettes",
+    "languages": "langues",
+    "platforms": "plateformes",
+    "accounts": "comptes ou publicités"
+  },
+  "sections": [
+    {
+      "id": "web",
+      "heading": "Comment le site web est construit",
+      "items": [
+        {
+          "title": "React 19 et TypeScript",
+          "text": "L'interface est écrite en TypeScript avec React, si bien que chaque écran et chaque donnée de recette a un type vérifié."
+        },
+        {
+          "title": "Vite 8 et Tailwind CSS 4",
+          "text": "Vite construit le site rapidement et le découpe en petits morceaux. Tailwind le met en forme, y compris des mises en page entièrement de droite à gauche pour l'arabe, le persan, l'ourdou, le pachto et l'hébreu."
+        },
+        {
+          "title": "Statique par conception",
+          "text": "Il n'y a ni backend, ni base de données, ni connexion. Tout est transformé en simples fichiers lors de la construction du site, puis servi par GitHub Pages sur fifi.cooking."
+        },
+        {
+          "title": "Ne charge que ce que vous ouvrez",
+          "text": "Les traductions de votre langue, la recette que vous ouvrez, Cuisiner avec les enfants et les pages du mémorial ne sont récupérés qu'au moment voulu, pour que le premier écran reste léger."
+        },
+        {
+          "title": "Icônes Lucide et Motion",
+          "text": "Les icônes viennent de Lucide et les animations douces de Motion."
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "Les données des recettes",
+      "items": [
+        {
+          "title": "Une API JSON ouverte",
+          "text": "Chaque recette, traduction, index de recherche et index d'ingrédients est un fichier sous fifi.cooking/data. Un manifeste porte une version basée sur le hachage du contenu, chaque URL ne change jamais pour une version donnée, et les requêtes d'origine croisée sont autorisées, si bien que chacun peut s'en servir pour créer quelque chose."
+        },
+        {
+          "title": "Un fichier par recette",
+          "text": "Un fichier de recette contient le texte original, ses valeurs nutritionnelles et son estimation du coût, ainsi que ses traductions dans toutes les langues."
+        },
+        {
+          "title": "Recherche dans toutes les langues",
+          "text": "Un index de recherche est construit pour chaque langue, si bien que la recherche fonctionne sans serveur."
+        },
+        {
+          "title": "Estimations nutritionnelles et de coût",
+          "text": "Chaque recette comporte des calories, des protéines, des glucides et des lipides calculés, ainsi qu'un coût estimé."
+        },
+        {
+          "title": "Vue du manuscrit original",
+          "text": "Les recettes de l'archive du Dr Fatma peuvent être présentées sous la forme d'un rendu illustré du texte arabe original."
+        },
+        {
+          "title": "Trouvé par les moteurs de recherche",
+          "text": "Chaque recette a aussi sa propre page statique avec le balisage schema.org Recipe, et la construction du site produit un plan du site et prévient les moteurs de recherche grâce à IndexNow."
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "heading": "Langues et règles alimentaires",
+      "items": [
+        {
+          "title": "29 langues",
+          "text": "Le site et ses recettes sont disponibles en 29 langues. Le kurde est du Kurmanji en écriture latine."
+        },
+        {
+          "title": "Vérifié avant chaque modification",
+          "text": "Une commande appelée check:world s'exécute avant l'enregistrement de toute modification de recette. Elle vérifie que chaque champ utilise une seule écriture, que la structure est complète, que les noms de plats arabes suivent le glossaire et que le code passe la vérification des types."
+        },
+        {
+          "title": "Halal par règle",
+          "text": "Les recettes ne contiennent ni porc ni alcool, y compris cachés, comme le mirin. Des vérifications halal automatiques s'exécutent aussi sur chaque traduction, car une traduction peut introduire à elle seule un ingrédient interdit."
+        }
+      ]
+    },
+    {
+      "id": "making",
+      "heading": "Comment les recettes et les images sont créées",
+      "items": [
+        {
+          "title": "Chaîne des cuisines du monde",
+          "text": "Les recettes de nombreux pays passent par des étapes fixes : découvrir des sources, rédiger un brouillon avec un modèle de langage exécuté sur un ordinateur local, l'importer, le contrôler pour le halal, le traduire, ajouter des estimations et ajouter une image. Un pays n'est mis en ligne que lorsque toutes les étapes sont terminées."
+        },
+        {
+          "title": "Images générées par IA",
+          "text": "Les images des recettes sont des illustrations générées sur un ordinateur local avec le modèle FLUX.2. Elles montrent à quoi le plat peut ressembler. Ce ne sont pas des photographies du plat cuisiné."
+        },
+        {
+          "title": "Images rapides",
+          "text": "Chaque image est compressée et aussi enregistrée sous forme de miniature plus petite, avec sharp, pour que les pages se chargent vite même avec une connexion lente."
+        },
+        {
+          "title": "Vidéos de cuisine",
+          "text": "Une tâche planifiée cherche sur YouTube une fois par semaine et enregistre les vidéos correspondantes pour chaque recette. Elles s'affichent dans l'onglet Vidéos et ne se chargent que lorsque vous l'ouvrez."
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "heading": "Ce que vous pouvez faire",
+      "items": [
+        {
+          "title": "Parcourir, chercher et filtrer",
+          "text": "Cherchez dans toutes les recettes, filtrez par chapitre, catégorie et mode de cuisson, ou consultez une seule liste combinée des ingrédients de toute l'archive."
+        },
+        {
+          "title": "Cuisiner avec les enfants",
+          "text": "Un mode ludique avec des images dessinées à la main, une courte étape par écran, la lecture à voix haute, des minuteurs et un badge « un grand aide » sur les étapes avec un couteau, de la chaleur ou un mixeur."
+        },
+        {
+          "title": "Partager une recette",
+          "text": "Partagez une recette ou tout le site avec le menu de partage de votre appareil."
+        },
+        {
+          "title": "Un mémorial vivant",
+          "text": "Lisez la biographie du Dr Fatma Alkawokgy (1943–2026) et envoyez un hommage par e-mail."
+        }
+      ]
+    },
+    {
+      "id": "devices",
+      "heading": "Les appareils et où il vous rejoint",
+      "intro": "Chaque application lit les mêmes fichiers de données ouverts, si bien qu'une nouvelle recette apparaît partout après un seul déploiement.",
+      "items": [
+        {
+          "title": "Site web",
+          "text": "fifi.cooking fonctionne dans n'importe quel navigateur moderne, sur téléphone, tablette et ordinateur."
+        },
+        {
+          "title": "Android",
+          "text": "Une application native écrite en Kotlin avec Jetpack Compose, pour téléphones, tablettes, appareils pliables et Chromebooks. Elle n'a ni outil d'analyse, ni publicité, ni Google Play Services."
+        },
+        {
+          "title": "iPhone et iPad",
+          "text": "Une application native SwiftUI qui s'adapte à l'iPhone et à l'iPad, sans bibliothèque tierce."
+        },
+        {
+          "title": "Apple TV",
+          "text": "Une application native SwiftUI pour tvOS, conçue pour la Siri Remote."
+        },
+        {
+          "title": "Amazon Fire TV",
+          "text": "Une application React pensée pour la télécommande, avec navigation par pavé directionnel, empaquetée pour Fire OS."
+        },
+        {
+          "title": "Samsung Smart TV",
+          "text": "Une application web pour Tizen, pour les téléviseurs Samsung à partir de 2020, qui partage son code avec l'application Fire TV."
+        },
+        {
+          "title": "S'ouvre au bon endroit",
+          "text": "Universal Links et Android App Links permettent à un lien de recette de s'ouvrir dans l'application quand elle est installée, et dans le navigateur quand elle ne l'est pas. Chaque application a sa propre page sur un sous-domaine de fifi.cooking."
+        },
+        {
+          "title": "Un écran d'accueil TV toujours neuf",
+          "text": "Un petit Cloudflare Worker mélange à nouveau l'écran d'accueil de la TV à chaque ouverture d'une application, si bien que les rangées ne sont jamais deux fois les mêmes."
+        }
+      ]
+    },
+    {
+      "id": "deploy",
+      "heading": "Construction et déploiement",
+      "items": [
+        {
+          "title": "Déploiement automatique",
+          "text": "Chaque modification fusionnée dans la branche principale lance un workflow GitHub Actions qui installe le projet, génère tous les fichiers de données, construit le site et le publie sur GitHub Pages."
+        },
+        {
+          "title": "Actualisation hebdomadaire",
+          "text": "Un deuxième workflow s'exécute chaque lundi, actualise les vidéos des recettes, enregistre le résultat et déclenche un nouveau déploiement."
+        },
+        {
+          "title": "Applications testées",
+          "text": "Les applications Android, iPhone et iPad, et Apple TV ont chacune des workflows automatisés de construction et de test, et les applications Samsung et Fire TV ont leurs propres workflows de construction et de déploiement."
+        },
+        {
+          "title": "Tout est ouvert",
+          "text": "Les workflows, les scripts et les vérifications se trouvent dans les dépôts, si bien que vous pouvez voir exactement comment une modification devient une page en ligne."
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "heading": "Vie privée",
+      "items": [
+        {
+          "title": "Ni comptes, ni publicités, ni suivi de notre part",
+          "text": "Vous n'avez pas besoin de vous connecter, rien n'est vendu, et le site n'affiche aucune publicité et ne fait aucun suivi entre sites."
+        },
+        {
+          "title": "Transparent sur les tiers",
+          "text": "L'hébergement, les polices et les fonctions de localisation facultatives font intervenir des services extérieurs. La page de confidentialité les énumère un par un."
+        }
+      ]
+    }
+  ],
+  "openSource": {
+    "heading": "Open source, ouvert à tous",
+    "text": "fifi.cooking est open source. Chacun peut lire le code, l'améliorer, le traduire, signaler un problème ou envoyer une pull request. Vous êtes libre d'utiliser le code dans n'importe quelle application, sous la MIT License.",
+    "points": [
+      "Corriger un bogue, améliorer une traduction ou ajouter une fonctionnalité.",
+      "Ajouter une langue, une recette ou une meilleure image.",
+      "Copier n'importe quelle partie du code dans votre propre projet.",
+      "Le texte et les images des recettes suivent les conditions indiquées en bas du site."
+    ],
+    "buttons": {
+      "code": "Voir le code",
+      "contribute": "Comment contribuer",
+      "license": "Lire la licence",
+      "issues": "Signaler un problème",
+      "privacy": "Page de confidentialité"
+    },
+    "reposHeading": "Tous les dépôts"
+  },
+  "cookwala": {
+    "heading": "Son lien avec Cookwala",
+    "text": "Cookwala est un standard ouvert pour cuisiner en toute sécurité, pour les personnes, les cuisines et les robots. Il a été lancé par fifi.cooking, qui en est aussi la première source de recettes. Les recettes d'ici sont exportées sous forme de documents Cookwala, chacun avec un hachage, un crédit et une licence, et le serveur MCP de Cookwala permet aux assistants IA de chercher dans les données ouvertes de fifi.cooking. Tout ce qui est décrit sur cette page, des fichiers statiques à l'API ouverte, rend cela possible.",
+    "button": "Visiter Cookwala"
+  }
+}
