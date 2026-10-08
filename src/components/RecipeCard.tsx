@@ -13,6 +13,7 @@ import {
 import { getRecipeThumbnail } from '../data/recipeImages';
 import { getUIText } from '../data/translations';
 import { getAdditionalRecipesText } from '../data/additionalRecipesText';
+import { HealthTags } from './HealthTags';
 import { getLocalizedIngredient, getLocalizedRecipe } from '../utils/recipeLocalization';
 
 interface RecipeCardProps {
@@ -207,6 +208,7 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
                 </span>
               )}
             </div>
+            <HealthTags recipeId={recipe.id} lang={lang} variant="card" />
           </div>
         </div>
 

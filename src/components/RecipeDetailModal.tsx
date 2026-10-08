@@ -24,6 +24,7 @@ import {
 import { getRecipeImage } from '../data/recipeImages';
 import { getUIText } from '../data/translations';
 import { DietBadges } from './DietBadges';
+import { HealthTags } from './HealthTags';
 import { getLocalizedIngredient, getLocalizedIngredientAmount, getLocalizedInstruction, getLocalizedPhase, getLocalizedRecipe } from '../utils/recipeLocalization';
 import { OriginalManuscriptModal, getManuscriptSource } from './OriginalManuscriptModal';
 import { RecipeEstimatesPanel } from './RecipeEstimatesPanel';
@@ -316,6 +317,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
             </div>
             <div className="[@media(max-height:420px)]:hidden">
               <DietBadges recipeId={recipe.id} lang={lang} />
+              <HealthTags recipeId={recipe.id} lang={lang} variant="detail" />
             </div>
           </div>
         </div>
