@@ -1,4 +1,5 @@
 import { MasterIngredient, Recipe, SupportedLanguage } from '../types';
+import { normalizeArabicMeasurement, normalizeEnglishMeasurement } from './measurementStyle';
 
 export type RecipeTranslation = {
   title?: string;
@@ -4106,6 +4107,8 @@ const ARABIC_DIGITS: Record<string, string> = {
 };
 
 const MEASUREMENT_REPLACEMENTS_EN: Array<[string, string]> = [
+  ['ساعة ونصف', '1½ hr'],
+  ['ساعتان', '2 hr'],
   ['دقائق', 'mins'],
   ['دقيقة', 'min'],
   ['ساعات', 'hrs'],
@@ -4127,6 +4130,8 @@ const MEASUREMENT_REPLACEMENTS_EN: Array<[string, string]> = [
   ['ربع', 'quarter'],
   ['حسب الرغبة', 'to taste'],
   ['أفراد', 'servings'],
+  ['حصص', 'servings'],
+  ['حصة', 'serving'],
   ['أشخاص', 'people'],
   ['شخص', 'person'],
   ['إلى', 'to'],
@@ -5252,7 +5257,13 @@ const MEASUREMENT_REPLACEMENTS_SQ: Array<[string, string]> = [
 ];
 
 export function getLocalizedMeasurement(value: string | undefined, lang: SupportedLanguage, kind: 'time' | 'servings' | 'amount'): string | undefined {
-  if (!value || isArabicLocale(lang)) return value;
+  if (!value) return value;
+  if (isArabicLocale(lang)) return normalizeArabicMeasurement(value);
+  const localized = translateMeasurement(value, lang, kind);
+  return lang === 'en' && localized ? normalizeEnglishMeasurement(localized, kind) : localized;
+}
+
+function translateMeasurement(value: string, lang: SupportedLanguage, kind: 'time' | 'servings' | 'amount'): string | undefined {
 
   let translated = value.replace(/[٠-٩]/g, digit => ARABIC_DIGITS[digit] || digit);
   const replacements = lang === 'fr' ? MEASUREMENT_REPLACEMENTS_FR : lang === 'es' ? MEASUREMENT_REPLACEMENTS_ES : lang === 'ja' ? MEASUREMENT_REPLACEMENTS_JA : lang === 'hi' ? MEASUREMENT_REPLACEMENTS_HI : lang === 'pt' ? MEASUREMENT_REPLACEMENTS_PT : lang === 'ru' ? MEASUREMENT_REPLACEMENTS_RU : lang === 'zh' ? MEASUREMENT_REPLACEMENTS_ZH : lang === 'de' ? MEASUREMENT_REPLACEMENTS_DE : lang === 'it' ? MEASUREMENT_REPLACEMENTS_IT : lang === 'el' ? MEASUREMENT_REPLACEMENTS_EL : lang === 'ur' ? MEASUREMENT_REPLACEMENTS_UR : lang === 'fa' ? MEASUREMENT_REPLACEMENTS_FA : lang === 'tr' ? MEASUREMENT_REPLACEMENTS_TR : lang === 'ku' ? MEASUREMENT_REPLACEMENTS_KU : lang === 'id' ? MEASUREMENT_REPLACEMENTS_ID : lang === 'sw' ? MEASUREMENT_REPLACEMENTS_SW : lang === 'ko' ? MEASUREMENT_REPLACEMENTS_KO : lang === 'nl' ? MEASUREMENT_REPLACEMENTS_NL : lang === 'ps' ? MEASUREMENT_REPLACEMENTS_PS : lang === 'he' ? MEASUREMENT_REPLACEMENTS_HE : lang === 'pl' ? MEASUREMENT_REPLACEMENTS_PL : lang === 'sv' ? MEASUREMENT_REPLACEMENTS_SV : lang === 'te' ? MEASUREMENT_REPLACEMENTS_TE : lang === 'bn' ? MEASUREMENT_REPLACEMENTS_BN : lang === 'vi' ? MEASUREMENT_REPLACEMENTS_VI : lang === 'sq' ? MEASUREMENT_REPLACEMENTS_SQ : lang === 'cs' ? MEASUREMENT_REPLACEMENTS_CS : MEASUREMENT_REPLACEMENTS_EN;

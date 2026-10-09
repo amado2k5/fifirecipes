@@ -34,12 +34,12 @@ export const HealthTags: React.FC<{ recipeId: string; lang: SupportedLanguage; v
   const detail = variant === 'detail';
   const palette = detail ? DARK : LIGHT;
   const names = h.a.map(code => getUIText(lang, ALLERGEN_KEY[code] ?? '')).filter(Boolean);
-  const shown = detail ? names : names.slice(0, 3);
-  const more = names.length - shown.length;
+  // Every allergen is named: a bare "+2" would hide which allergens they are.
+  const shown = names;
 
   const chips: { key: string; tone: Tone; text: string; title: string }[] = [];
   if (h.s === 'c' && names.length) {
-    chips.push({ key: 'allergen', tone: 'warn', text: `${getUIText(lang, 'allergenContains')}: ${shown.join(' · ')}${more > 0 ? ` +${more}` : ''}`, title: names.join(', ') });
+    chips.push({ key: 'allergen', tone: 'warn', text: `${getUIText(lang, 'allergenContains')}: ${shown.join(' · ')}`, title: names.join(', ') });
   } else if (h.s === 'n') {
     chips.push({ key: 'allergen', tone: 'good', text: getUIText(lang, 'allergenNone'), title: getUIText(lang, 'allergenNote') });
   } else if (h.s === 'l') {
