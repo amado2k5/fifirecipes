@@ -22,7 +22,7 @@ const ACTIVE_IDS = allRecipes.map(r => r.id);
 const SUFFIX: Record<string, string> = {
   fr: 'Fr', es: 'Es', ja: 'Ja', hi: 'Hi', pt: 'Pt', ru: 'Ru', zh: 'Zh', de: 'De',
   it: 'It', el: 'El', ur: 'Ur', fa: 'Fa', tr: 'Tr', ku: 'Ku', id: 'Id', sw: 'Sw',
-  ko: 'Ko', nl: 'Nl', ps: 'Ps', he: 'He', pl: 'Pl', sv: 'Sv', te: 'Te', cs: 'Cs'
+  ko: 'Ko', nl: 'Nl', ps: 'Ps', he: 'He', pl: 'Pl', sv: 'Sv', te: 'Te', cs: 'Cs', ro: 'Ro'
 };
 
 async function main() {

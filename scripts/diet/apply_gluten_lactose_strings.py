@@ -24,7 +24,7 @@ for f in sorted((HERE / 'gl-strings').glob('*.json')):
         assert not bad, (lang, k, bad)
         if lang != 'en': assert v != json.load(open(HERE / 'gl-strings/en.json'))[k], (lang, k, 'left in English')
     S[lang] = d
-assert len(S) == 29, len(S)
+assert len(S) == 30, len(S)
 
 p = HERE.parents[1] / 'src/data/translations.ts'
 text = p.read_text(encoding='utf-8')
@@ -37,5 +37,5 @@ for ln in text.split('\n'):
     if m:
         for k in KEYS: out.append(f"    {k}: {json.dumps(S[m.group(1)][k], ensure_ascii=False)},")
         n += 1
-assert n == 29, n
+assert n == 30, n
 p.write_text('\n'.join(out), encoding='utf-8'); print('inserted into', n, 'languages')

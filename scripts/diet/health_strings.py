@@ -1,4 +1,4 @@
-"""UI strings for the allergen and diabetic tags, 29 languages, in the order of KEYS.
+"""UI strings for the allergen and diabetic tags, 30 languages, in the order of KEYS.
 Inserted into src/data/translations.ts by scripts/diet/apply_health_strings.py. Kurdish is Kurmanji in Latin script.
 Written without native-speaker review (like ui_strings.py): have a reader of each language check them."""
 KEYS = ('allergenContains', 'allergenNone', 'allergenCheck', 'allergenUnknown', 'allergenNote',
@@ -151,4 +151,9 @@ S = {
         "Vhodné pro diabetiky (odhad)", "Střední množství sacharidů nebo cukru (odhad)", "Nevhodné pro diabetiky (odhad)",
         "Odhad podle odhadované nutriční hodnoty na porci; není to lékařská rada. Lidé s cukrovkou by se měli zeptat lékaře nebo dietologa.",
         "Mléko", "Vejce", "Lepek (pšenice, ječmen, žito, oves)", "Skořápkové plody", "Arašídy", "Sezam", "Sója", "Ryby", "Korýši", "Měkkýši", "Celer", "Hořčice", "Vlčí bob", "Siřičitany"),
+ 'ro': ("Conține", "Nu s-au găsit alergeni majori", "Nu s-au găsit alergeni; verificați etichetele ingredientelor cumpărate", "Alergenii nu au fost încă evaluați",
+        "Dedus din ingrediente și pași; poate fi incomplet și nu reprezintă o garanție. Citiți etichetele și întrebați despre contaminarea încrucișată.",
+        "Potrivit pentru diabetici (estimare)", "Carbohidrați sau zahăr moderat (estimare)", "Nepotrivit pentru diabetici (estimare)",
+        "Estimare pe baza valorilor nutriționale estimate pe porție; nu este un sfat medical. Persoanele cu diabet ar trebui să consulte un medic sau un dietetician.",
+        "Lapte", "Ouă", "Gluten (grâu, orz, secară, ovăz)", "Fructe cu coajă lemnoasă", "Arahide", "Susan", "Soia", "Pește", "Crustacee", "Moluște", "Țelină", "Muștar", "Lupin", "Sulfiți"),
 }

@@ -73,7 +73,8 @@ const TRANSLATION_FILES: Partial<Record<SupportedLanguage, string>> = {
   bn: 'recipeTranslationsBn.json',
   vi: 'recipeTranslationsVi.json',
   sq: 'recipeTranslationsSq.json',
-  cs: 'recipeTranslationsCs.json'
+  cs: 'recipeTranslationsCs.json',
+  ro: 'recipeTranslationsRo.json'
 };
 /** Cards per index page; the first page is all a visitor waits for. */
 const PAGE_SIZE = 100;

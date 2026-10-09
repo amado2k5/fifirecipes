@@ -28,7 +28,7 @@ LANGS = {
     'Ps': 'Pashto', 'Pt': 'Portuguese', 'Ru': 'Russian', 'Sv': 'Swedish',
     'Sw': 'Swahili', 'Te': 'Telugu', 'Tr': 'Turkish', 'Ur': 'Urdu',
     'Zh': 'Simplified Chinese', 'Bn': 'Bengali', 'Vi': 'Vietnamese',
-    'Sq': 'Albanian',
+    'Sq': 'Albanian', 'Ro': 'Romanian',
 }
 EN_FILE = SRC_DATA / 'recipeTranslations.json'
 
