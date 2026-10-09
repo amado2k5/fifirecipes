@@ -20,7 +20,8 @@ Rules: `CONVENTIONS.md` here + `docs/TRANSLATION_GUIDE.md`.
 | chunk | status |
 |---|---|
 | 01 | done |
-| 02–60 | pending |
+| 02 | done |
+| 03–60 | pending |
 
 ## Final
 
