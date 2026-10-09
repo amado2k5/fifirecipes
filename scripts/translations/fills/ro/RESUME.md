@@ -44,7 +44,8 @@ Rules: `CONVENTIONS.md` here + `docs/TRANSLATION_GUIDE.md`.
 | 23 | done |
 | 24 | done |
 | 25 | done |
-| 26–60 | pending |
+| 26 | done |
+| 27–60 | pending |
 
 ## Final
 
