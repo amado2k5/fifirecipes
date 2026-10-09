@@ -60,7 +60,8 @@ Rules: `CONVENTIONS.md` here + `docs/TRANSLATION_GUIDE.md`.
 | 39 | done |
 | 40 | done |
 | 41 | done |
-| 42–60 | pending |
+| 42 | done |
+| 43–60 | pending |
 
 ## Final
 
