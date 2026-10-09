@@ -12942,5 +12942,1606 @@
       "5": "Ungeți suprafața cu ou bătut și presărați pesmet.",
       "6": "Acoperiți și puneți în cuptor."
     }
+  },
+  "meat-46": {
+    "title": "Pui rumenit în tigaie și copt la cuptor",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Carne și pasăre",
+    "cookingMethod": "Coacere",
+    "prepTime": "10 min",
+    "cookTime": "40 min",
+    "servings": "4 porții",
+    "culturalNotes": "Preparatele la tavă (sanyia) sunt nelipsite în serile obișnuite din casele egiptene, îmbinând carnea, legumele și sosul într-un singur vas.",
+    "ingredients": {
+      "mp46-1": {
+        "name": "Pui întreg"
+      },
+      "mp46-2": {
+        "name": "Făină albă"
+      },
+      "mp46-3": {
+        "name": "Chimion și coriandru"
+      },
+      "mp46-4": {
+        "name": "Sare și piper negru"
+      },
+      "mp46-5": {
+        "name": "Ulei"
+      }
+    },
+    "instructions": {
+      "1": "Amestecați bine făina cu chimionul, coriandrul, sarea și piperul.",
+      "2": "Tăiați puiul în sferturi și dați-l prin amestec.",
+      "3": "Rumeniți-l în ulei până se aurește, apoi scurgeți-l pe șervețele de hârtie.",
+      "4": "Ungeți o tavă cu ulei, așezați puiul în ea, acoperiți și coaceți."
+    }
+  },
+  "meat-47": {
+    "title": "Pulpă de miel la cuptor",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Carne și pasăre",
+    "cookingMethod": "Coacere",
+    "prepTime": "20 min",
+    "cookTime": "2 ore",
+    "servings": "6-8 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "mp47-1": {
+        "name": "pulpă de vițel"
+      },
+      "mp47-2": {
+        "name": "cepe mari"
+      },
+      "mp47-3": {
+        "name": "usturoi"
+      },
+      "mp47-4": {
+        "name": "suc de ceapă"
+      },
+      "mp47-5": {
+        "name": "sare, piper, amestec de condimente și scorțișoară"
+      },
+      "mp47-6": {
+        "name": "oțet"
+      },
+      "mp47-7": {
+        "name": "apă"
+      }
+    },
+    "instructions": {
+      "1": "Rumeniți pulpa într-o tavă cu ulei sau ghee, împreună cu ceapa feliată, frecată cu sare, piper, amestec de condimente și scorțișoară.",
+      "2": "Înfigeți căței întregi de usturoi în pulpă sau puneți-i pur și simplu în jurul ei, fără s-o înțepați.",
+      "3": "Adăugați sucul de ceapă și oțetul peste pulpă.",
+      "4": "Înveliți bine tava în folie de aluminiu și turnați puțină apă în jurul cărnii.",
+      "5": "Puneți-o în cuptor, adăugând apă după nevoie, până se gătește complet."
+    }
+  },
+  "meat-48": {
+    "title": "Umplutură alternativă pentru pulpa de miel",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Carne și pasăre",
+    "cookingMethod": "Coacere",
+    "prepTime": "20 min",
+    "cookTime": "2 ore",
+    "servings": "6-8 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "mp48-1": {
+        "name": "ceapă"
+      },
+      "mp48-2": {
+        "name": "sare, piper, nucșoară și cimbru"
+      },
+      "mp48-3": {
+        "name": "usturoi"
+      },
+      "mp48-4": {
+        "name": "iaurt"
+      },
+      "mp48-5": {
+        "name": "roșii"
+      },
+      "mp48-6": {
+        "name": "ulei"
+      },
+      "mp48-7": {
+        "name": "amidon de porumb sau făină"
+      }
+    },
+    "instructions": {
+      "1": "Mixați în blender ceapa, sarea, piperul, usturoiul, roșiile și condimentele, apoi adăugați iaurtul sau folosiți oricare dintre marinadele preferate pentru friptură la cuptor.",
+      "2": "Faceți o deschizătură adâncă lângă os și turnați în ea jumătate din amestec.",
+      "3": "Întoarceți pulpa pe cealaltă parte, ungeți-o cu restul marinadei, apoi adăugați uleiul.",
+      "4": "Înveliți-o în folie de aluminiu, puneți-o într-un vas de cuptor și coaceți-o până se pătrunde.",
+      "5": "După ce s-a gătit pulpa, turnați sosul rămas într-o oală mică. Amestecați amidonul sau făina cu puțină apă (proporțional cu cantitatea de sos) și turnați-l în sos, la foc mic, amestecând până se îngroașă.",
+      "6": "Desfaceți folia și turnați sosul îngroșat peste pulpă.",
+      "7": "Serviți cu legume sotate alături."
+    }
+  },
+  "meat-49": {
+    "title": "Carne sau pui în sos de iaurt",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Carne și pasăre",
+    "cookingMethod": "Coacere",
+    "prepTime": "4 ore (marinare)",
+    "cookTime": "50 min",
+    "servings": "4-6 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "mp49-1": {
+        "name": "Carne sau piept de pui"
+      },
+      "mp49-2": {
+        "name": "Roșie"
+      },
+      "mp49-3": {
+        "name": "Ardei gras verde"
+      },
+      "mp49-4": {
+        "name": "Ceapă medie"
+      },
+      "mp49-5": {
+        "name": "Usturoi"
+      },
+      "mp49-6": {
+        "name": "Suc de lămâie sau oțet"
+      },
+      "mp49-7": {
+        "name": "Muștar"
+      },
+      "mp49-8": {
+        "name": "Sare, piper, amestec de condimente și cimbru"
+      },
+      "mp49-9": {
+        "name": "Iaurt"
+      },
+      "mp49-10": {
+        "name": "Ulei"
+      }
+    },
+    "instructions": {
+      "1": "Mixați în blender roșia, ceapa, ardeiul, usturoiul, sucul de lămâie sau oțetul, muștarul, condimentele și iaurtul sau folosiți orice marinadă pentru friptură la cuptor.",
+      "2": "Puneți carnea sau puiul într-un vas de cuptor uns, turnați amestecul deasupra, acoperiți și lăsați la frigider 4 ore.",
+      "3": "Puneți vasul în cuptor, la foc mediu, adăugând puțină apă dacă e nevoie, până se pătrunde.",
+      "4": "Îndepărtați capacul și lăsați vasul în cuptor până se absoarbe complet lichidul."
+    }
+  },
+  "meat-50": {
+    "title": "Carne friptă la cuptor, în folie",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Carne și pasăre",
+    "cookingMethod": "Coacere",
+    "prepTime": "10 min",
+    "cookTime": "2 ore",
+    "servings": "4-6 porții",
+    "culturalNotes": "Acesta este un preparat egiptean tradițional, pregătit cu ingrediente proaspete și condimente aromate.",
+    "ingredients": {
+      "mp50-1": {
+        "name": "Carne"
+      },
+      "mp50-2": {
+        "name": "Ceapă mare"
+      },
+      "mp50-3": {
+        "name": "Ulei"
+      },
+      "mp50-4": {
+        "name": "Sare, piper și ienibahar"
+      }
+    },
+    "instructions": {
+      "1": "Tăiați ceapa în rondele și zdrobiți-o cu sare, piper și amestec de condimente.",
+      "2": "Tăiați carnea în bucăți mici, egale, și stropiți-o cu ulei.",
+      "3": "Amestecați carnea cu ceapa zdrobită și uleiul, înveliți-o în folie de aluminiu și închideți bine.",
+      "4": "Coaceți aproximativ 2 ore, până se gătește complet."
+    }
+  },
+  "meat-51": {
+    "title": "Carne tocată sau pui la cuptor",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Carne și pasăre",
+    "cookingMethod": "Coacere",
+    "prepTime": "15 min",
+    "cookTime": "45 min",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "mp51-1": {
+        "name": "carne tocată sau resturi de pui fiert"
+      },
+      "mp51-2": {
+        "name": "ardei gras verde"
+      },
+      "mp51-3": {
+        "name": "morcov ras"
+      },
+      "mp51-4": {
+        "name": "ou"
+      },
+      "mp51-5": {
+        "name": "lapte"
+      },
+      "mp51-6": {
+        "name": "sare, piper, cimbru, amestec de condimente și turmeric"
+      }
+    },
+    "instructions": {
+      "1": "Folosiți un robot de bucătărie ca să tocați carnea sau resturile de pui cu morcovul ras, ardeiul verde și condimentele.",
+      "2": "Adăugați în amestec un ou bătut și o jumătate de cană de lapte și amestecați bine.",
+      "3": "Pregătiți o formă, ungeți-o cu ulei și presați compoziția în ea.",
+      "4": "Puneți-o în cuptor, la foc mediu, iar după ce s-a gătit, tăiați-o felii."
+    }
+  },
+  "meat-52": {
+    "title": "Pui fiert în sos",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Carne și pasăre",
+    "cookingMethod": "Coacere",
+    "prepTime": "10 min",
+    "cookTime": "30 min",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "mp52-1": {
+        "name": "pui fiert"
+      },
+      "mp52-2": {
+        "name": "roșii"
+      },
+      "mp52-3": {
+        "name": "ceapă medie"
+      },
+      "mp52-4": {
+        "name": "ardei gras verde"
+      },
+      "mp52-5": {
+        "name": "usturoi"
+      },
+      "mp52-6": {
+        "name": "ulei și oțet"
+      },
+      "mp52-7": {
+        "name": "supă sau apă"
+      },
+      "mp52-8": {
+        "name": "sare, piper, amestec de condimente, cimbru, scorțișoară și cuișoare"
+      }
+    },
+    "instructions": {
+      "1": "Ungeți un vas de cuptor cu ulei, tăiați puiul fiert în sferturi și puneți-l în vas.",
+      "2": "Feliați ceapa și căliți-o în ulei, într-o tigaie, până se aurește.",
+      "3": "Feliați ardeiul și adăugați-l la ceapă, împreună cu usturoiul tocat; căliți bine, apoi adăugați oțetul și condimentele.",
+      "4": "Adăugați în amestec o cană de supă sau apă; după ce dă în clocot, turnați-l peste pui și puneți vasul în cuptorul potrivit de încins, până se absoarbe lichidul și se rumenește deasupra."
+    }
+  },
+  "meat-53": {
+    "title": "Pui în crustă de fulgi de porumb",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Carne și pasăre",
+    "cookingMethod": "Coacere",
+    "prepTime": "20 min",
+    "cookTime": "25 min",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "mp53-1": {
+        "name": "pui"
+      },
+      "mp53-2": {
+        "name": "măsline negre"
+      },
+      "mp53-3": {
+        "name": "ardei gras verde"
+      },
+      "mp53-4": {
+        "name": "fulgi de porumb"
+      },
+      "mp53-5": {
+        "name": "făină"
+      },
+      "mp53-6": {
+        "name": "ulei"
+      },
+      "mp53-7": {
+        "name": "lapte"
+      },
+      "mp53-8": {
+        "name": "brânză roumi rasă"
+      },
+      "mp53-9": {
+        "name": "sare și piper"
+      }
+    },
+    "instructions": {
+      "1": "Pregătiți un vas de cuptor sau un vas Pyrex și întindeți pe fund un strat de fulgi de porumb, care să servească drept bază.",
+      "2": "Tăiați puiul în bucăți mici și feliați măslinele și ardeiul verde.",
+      "3": "Puneți puiul, măslinele și ardeiul peste fulgii de porumb.",
+      "4": "Pregătiți un sos bechamel gros încălzind uleiul și adăugând făina; după ce se aurește, adăugați cana de lapte, cu sare și piper, de pe foc, și amestecați, apoi puneți înapoi la foc mediu până se îngroașă.",
+      "5": "Turnați bechamelul peste pui și presărați deasupra brânză roumi rasă.",
+      "6": "Presărați puțini fulgi de porumb peste brânza rasă, acoperiți și puneți vasul în cuptor."
+    }
+  },
+  "meat-54": {
+    "title": "Pui glazurat cu muștar",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Carne și pasăre",
+    "cookingMethod": "Coacere",
+    "prepTime": "10 min",
+    "cookTime": "25 min",
+    "servings": "4 porții",
+    "culturalNotes": "Acesta este un preparat egiptean tradițional, pregătit cu ingrediente proaspete și condimente aromate.",
+    "ingredients": {
+      "mp54-1": {
+        "name": "Piept de pui"
+      },
+      "mp54-2": {
+        "name": "Ulei sau ghee"
+      },
+      "mp54-3": {
+        "name": "Muștar"
+      },
+      "mp54-4": {
+        "name": "Smântână lichidă"
+      },
+      "mp54-5": {
+        "name": "Iaurt"
+      },
+      "mp54-6": {
+        "name": "Apă"
+      }
+    },
+    "instructions": {
+      "1": "Tăiați pieptul de pui în felii subțiri și rumeniți-le în ulei încins până se auresc, apoi scoateți-le și așezați-le într-o tavă.",
+      "2": "În aceeași oală, adăugați mai mult ulei sau ghee, încorporați repede muștarul, bătând, la foc mic, apoi încorporați caimacul dizolvat în lapte și adăugați apă după nevoie.",
+      "3": "După ce dă în clocot, turnați sosul peste puiul din tavă, acoperiți și coaceți până se gătește complet."
+    }
+  },
+  "meat-55": {
+    "title": "Pui gratinat cu brânză",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Carne și pasăre",
+    "cookingMethod": "Coacere",
+    "prepTime": "10 min",
+    "cookTime": "30 min",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "mp55-1": {
+        "name": "piept de pui"
+      },
+      "mp55-2": {
+        "name": "ceapă mare, rasă"
+      },
+      "mp55-3": {
+        "name": "oțet"
+      },
+      "mp55-4": {
+        "name": "sare, piper și condimente"
+      },
+      "mp55-5": {
+        "name": "brânză rasă"
+      },
+      "mp55-6": {
+        "name": "smântână lichidă"
+      },
+      "mp55-7": {
+        "name": "ulei"
+      }
+    },
+    "instructions": {
+      "1": "Feliați pieptul de pui și căliți-l în ulei până se aurește, apoi luați-l de pe foc.",
+      "2": "Condimentați ceapa rasă cu sare, piper, condimente și oțet, apoi întindeți-o peste pui, într-un vas de cuptor.",
+      "3": "Presărați peste pui orice fel de brânză rasă și amestecați bine cu carnea.",
+      "4": "Turnați deasupra cana de smântână și coaceți în cuptor până se pătrunde și devine auriu-maroniu deasupra."
+    }
+  },
+  "meat-56": {
+    "title": "Rață la cuptor",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Carne și pasăre",
+    "cookingMethod": "Coacere",
+    "prepTime": "20 min",
+    "cookTime": "1.5 ore",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "mp56-1": {
+        "name": "rață medie"
+      },
+      "mp56-2": {
+        "name": "ceapă feliată"
+      },
+      "mp56-3": {
+        "name": "sare, piper, amestec de condimente și cimbru"
+      },
+      "mp56-4": {
+        "name": "ghee"
+      },
+      "mp56-5": {
+        "name": "pesmet"
+      },
+      "mp56-6": {
+        "name": "lapte"
+      },
+      "mp56-7": {
+        "name": "ulei pentru uns"
+      }
+    },
+    "instructions": {
+      "1": "Frecați ceapa feliată cu sare, piper, amestec de condimente și cimbru.",
+      "2": "Adăugați lingura de ghee și pesmetul, amestecând bine, apoi frământați cu lapte până se înmoaie compoziția.",
+      "3": "Umpleți rața cu această compoziție și puneți-o într-o tavă de copt unsă cu ulei sau ghee; stropiți-o deasupra cu puțin ghee sau ulei și acoperiți-o cu folie de aluminiu.",
+      "4": "Puneți-o în cuptorul potrivit de încins până se pătrunde, apoi îndepărtați folia, ca să se rumenească pielea."
+    }
+  },
+  "meat-57": {
+    "title": "Curcan la cuptor",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Carne și pasăre",
+    "cookingMethod": "Coacere",
+    "prepTime": "1 zi (marinare)",
+    "cookTime": "2 ore",
+    "servings": "8-10 persoane",
+    "culturalNotes": "",
+    "ingredients": {
+      "mp57-1": {
+        "name": "curcan mediu"
+      },
+      "mp57-2": {
+        "name": "ceapă mare"
+      },
+      "mp57-3": {
+        "name": "usturoi"
+      },
+      "mp57-4": {
+        "name": "suc de lămâie"
+      },
+      "mp57-5": {
+        "name": "foi de dafin"
+      },
+      "mp57-6": {
+        "name": "sare, piper și condimente"
+      },
+      "mp57-7": {
+        "name": "ulei"
+      }
+    },
+    "instructions": {
+      "1": "Tocați fin ceapa cu usturoiul și foile de dafin, apoi condimentați și adăugați mult suc de lămâie.",
+      "2": "Condimentați bine curcanul pe dinăuntru și pe dinafară, apoi lăsați-l la frigider o zi întreagă.",
+      "3": "Pregătiți o tavă de copt unsă cu ulei, puneți curcanul marinat în ea și acoperiți-l cu folie de aluminiu.",
+      "4": "Puneți-l în cuptor aproximativ 2 ore, având grijă să-l întoarceți pe cealaltă parte la jumătatea timpului.",
+      "5": "După ce s-a gătit, tăiați curcanul felii și așezați bucățile pe un platou de servire."
+    }
+  },
+  "meat-58": {
+    "title": "Kofta în tavă",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Carne și pasăre",
+    "cookingMethod": "Coacere",
+    "prepTime": "12 ore (marinare)",
+    "cookTime": "30 min",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "mp58-1": {
+        "name": "carne tocată"
+      },
+      "mp58-2": {
+        "name": "ceapă medie, tocată"
+      },
+      "mp58-3": {
+        "name": "suc de lămâie"
+      },
+      "mp58-4": {
+        "name": "sare și piper"
+      },
+      "mp58-5": {
+        "name": "ouă"
+      },
+      "mp58-6": {
+        "name": "pesmet"
+      },
+      "mp58-7": {
+        "name": "ghee sau ulei"
+      },
+      "mp58-8": {
+        "name": "cărbune natural"
+      },
+      "mp58-9": {
+        "name": "ghee pentru deasupra"
+      }
+    },
+    "instructions": {
+      "1": "Amestecați carnea cu ceapa tocată, sucul de lămâie și condimentele, apoi lăsați-o la frigider 12 ore.",
+      "2": "Frământați compoziția cu oul și pesmetul, până obțineți consistența dorită.",
+      "3": "Modelați kofta în degețele medii, străpungându-le cu o frigăruie ca să faceți o gaură.",
+      "4": "Ungeți tava cu ghee și așezați degețelele de kofta în ea, apoi adăugați deasupra 2 linguri de ghee; acoperiți și coaceți în cuptorul potrivit de încins.",
+      "5": "După ce s-au gătit, înroșiți bine o bucată de cărbune pe aragaz, puneți-o în mijlocul tăvii pe puțin ghee, acoperiți imediat și scuturați tava până se răspândește peste tot aroma de cărbune."
+    }
+  },
+  "meat-59": {
+    "title": "Shawarma de pui",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Carne și pasăre",
+    "cookingMethod": "Coacere",
+    "prepTime": "15 min",
+    "cookTime": "25 min",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "mp59-1": {
+        "name": "pui fiert"
+      },
+      "mp59-2": {
+        "name": "ceapă tocată"
+      },
+      "mp59-3": {
+        "name": "usturoi tocat"
+      },
+      "mp59-4": {
+        "name": "iaurt"
+      },
+      "mp59-5": {
+        "name": "muștar"
+      },
+      "mp59-6": {
+        "name": "oțet"
+      },
+      "mp59-7": {
+        "name": "ardei verde și roșie"
+      },
+      "mp59-8": {
+        "name": "pătrunjel tocat"
+      },
+      "mp59-9": {
+        "name": "suc de lămâie"
+      },
+      "mp59-10": {
+        "name": "ulei"
+      }
+    },
+    "instructions": {
+      "1": "Frecați ceapa tocată cu oțetul, usturoiul, iaurtul și muștarul.",
+      "2": "Tăiați puiul fiert în bucăți mici și amestecați-l bine cu acest amestec.",
+      "3": "Căliți-l într-o tigaie fără ulei, la foc mic, până se absoarbe lichidul de la ceapă, apoi măriți focul.",
+      "4": "Pregătiți o tavă unsă cu ulei și puneți puiul în ea; apoi feliați ardeiul și roșia și puneți-le deasupra puiului, cu sucul de lămâie, oțetul și pătrunjelul, ca să nu se usuce puiul.",
+      "5": "Ca să se rumenească deasupra, puteți pune tava sub grill pentru foarte scurt timp."
+    }
+  },
+  "meat-60": {
+    "title": "Pui în foi filo",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Carne și pasăre",
+    "cookingMethod": "Coacere",
+    "prepTime": "30 min",
+    "cookTime": "20 min",
+    "servings": "4-6 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "mp60-1": {
+        "name": "piept de pui tocat"
+      },
+      "mp60-2": {
+        "name": "ardei gras verde, tocat"
+      },
+      "mp60-3": {
+        "name": "brânză sfărâmată"
+      },
+      "mp60-4": {
+        "name": "tahini"
+      },
+      "mp60-5": {
+        "name": "sare și piper"
+      },
+      "mp60-6": {
+        "name": "foi de plăcintă filo (goulash)"
+      },
+      "mp60-7": {
+        "name": "unt"
+      }
+    },
+    "instructions": {
+      "1": "Condimentați bine puiul tocat cu sare, piper, ardei gras tocat, brânză și tahini.",
+      "2": "Pregătiți o foaie filo unsă cu unt, puneți în ea o porție din amestecul de pui și rulați-o în triunghiuri, ungând exteriorul cu unt.",
+      "3": "Puneți-le într-un vas de cuptor ușor uns și repetați cu restul foilor filo.",
+      "4": "Coaceți în cuptorul potrivit de încins până devin aurii-maronii deasupra."
+    }
+  },
+  "salad-03": {
+    "title": "Maioneză de casă",
+    "chapter": "Capitolul 2: Supe, salate și legume",
+    "category": "Salate",
+    "cookingMethod": "Fără gătire",
+    "prepTime": "10 min",
+    "cookTime": "-",
+    "servings": "aproximativ 1 cană",
+    "culturalNotes": "",
+    "ingredients": {
+      "ss8-1": {
+        "name": "ou sau gălbenuș"
+      },
+      "ss8-2": {
+        "name": "ulei"
+      },
+      "ss8-3": {
+        "name": "muștar"
+      },
+      "ss8-4": {
+        "name": "oțet"
+      },
+      "ss8-5": {
+        "name": "suc de lămâie"
+      },
+      "ss8-6": {
+        "name": "sare și piper"
+      }
+    },
+    "instructions": {
+      "1": "Bateți bine oul cu sarea, piperul, sucul de lămâie și oțetul, folosind un tel.",
+      "2": "Adăugați cu grijă uleiul, picătură cu picătură, până se îngroașă oarecum consistența.",
+      "3": "Puneți maioneza într-un bol, adăugați muștarul și amestecați bine.",
+      "4": "Mutați-o într-un borcan foarte uscat și păstrați-o la frigider."
+    }
+  },
+  "salad-04": {
+    "title": "Salată de pui cu maioneză și pâine prăjită",
+    "chapter": "Capitolul 2: Supe, salate și legume",
+    "category": "Salate",
+    "cookingMethod": "Fără gătire",
+    "prepTime": "15 min",
+    "cookTime": "10 min",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "ss9-1": {
+        "name": "pui fiert"
+      },
+      "ss9-2": {
+        "name": "iaurt"
+      },
+      "ss9-3": {
+        "name": "maioneză"
+      },
+      "ss9-4": {
+        "name": "ulei de măsline"
+      },
+      "ss9-5": {
+        "name": "sare și piper"
+      },
+      "ss9-6": {
+        "name": "pâine toast"
+      }
+    },
+    "instructions": {
+      "1": "După ce fierbeți puiul, tăiați-l în fâșii mici.",
+      "2": "Amestecați iaurtul cu maioneza și uleiul de măsline, condimentați cu sare și piper și amestecați bine.",
+      "3": "Prăjiți în cuptor feliile de pâine toast tăiate cubulețe, până devin aurii-maronii.",
+      "4": "Turnați amestecul de maioneză peste puiul tăiat și serviți într-un vas de servire, cu crutoanele prăjite."
+    }
+  },
+  "salad-05": {
+    "title": "Salată de iaurt cu usturoi",
+    "chapter": "Capitolul 2: Supe, salate și legume",
+    "category": "Salate",
+    "cookingMethod": "Fără gătire",
+    "prepTime": "10 min",
+    "cookTime": "-",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "ss10-1": {
+        "name": "iaurt"
+      },
+      "ss10-2": {
+        "name": "usturoi tocat"
+      },
+      "ss10-3": {
+        "name": "mentă uscată"
+      },
+      "ss10-4": {
+        "name": "sare și piper"
+      },
+      "ss10-5": {
+        "name": "castravete sau pătrunjel tocat"
+      }
+    },
+    "instructions": {
+      "1": "Adăugați usturoiul în iaurt, împreună cu sarea, piperul și menta, și bateți bine.",
+      "2": "Puneți salata într-un bol și adăugați bucățele mici de castravete tocat sau înlocuiți-le cu puțin pătrunjel tocat."
+    }
+  },
+  "salad-06": {
+    "title": "Dressing de usturoi și oțet (pentru vinete prăjite sau pește la grătar)",
+    "chapter": "Capitolul 2: Supe, salate și legume",
+    "category": "Salate",
+    "cookingMethod": "Fără gătire",
+    "prepTime": "5 min",
+    "cookTime": "-",
+    "servings": "1 porție",
+    "culturalNotes": "",
+    "ingredients": {
+      "ss11-1": {
+        "name": "usturoi tocat"
+      },
+      "ss11-2": {
+        "name": "chimion"
+      },
+      "ss11-3": {
+        "name": "sare"
+      },
+      "ss11-4": {
+        "name": "oțet"
+      }
+    },
+    "instructions": {
+      "1": "Pisați usturoiul cu chimionul și sarea, apoi adăugați oțetul și amestecați bine.",
+      "2": "Serviți această salată cu vinete prăjite și cu pește la grătar."
+    }
+  },
+  "salad-07": {
+    "title": "Hummus cu tahini și iaurt",
+    "chapter": "Capitolul 2: Supe, salate și legume",
+    "category": "Salate",
+    "cookingMethod": "Fără gătire",
+    "prepTime": "15 min",
+    "cookTime": "-",
+    "servings": "4-6 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "ss12-1": {
+        "name": "năut fiert"
+      },
+      "ss12-2": {
+        "name": "suc de lămâie"
+      },
+      "ss12-3": {
+        "name": "ardei gras verde"
+      },
+      "ss12-4": {
+        "name": "iaurt"
+      },
+      "ss12-5": {
+        "name": "oțet"
+      },
+      "ss12-6": {
+        "name": "tahini"
+      },
+      "ss12-7": {
+        "name": "ulei de măsline"
+      },
+      "ss12-8": {
+        "name": "usturoi tocat"
+      },
+      "ss12-9": {
+        "name": "sare și chimion"
+      },
+      "ss12-10": {
+        "name": "pătrunjel și mentă"
+      }
+    },
+    "instructions": {
+      "1": "Tocați ardeiul verde și puneți-l în blender cu usturoiul, sarea, chimionul, oțetul și sucul de lămâie; apoi adăugați năutul fiert cu iaurtul, urmate de tahini și mentă uscată.",
+      "2": "Mixați bine toate ingredientele, apoi mutați compoziția într-un vas de servire.",
+      "3": "Stropiți cu ulei de măsline și presărați pătrunjel tocat."
+    }
+  },
+  "salad-08": {
+    "title": "Salată fattoush",
+    "chapter": "Capitolul 2: Supe, salate, legume și leguminoase",
+    "category": "Salate",
+    "cookingMethod": "Fără gătire",
+    "prepTime": "15 min",
+    "cookTime": "-",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "ss13-1": {
+        "name": "roșii"
+      },
+      "ss13-2": {
+        "name": "castravete"
+      },
+      "ss13-3": {
+        "name": "pătrunjel tocat"
+      },
+      "ss13-4": {
+        "name": "mentă uscată"
+      },
+      "ss13-5": {
+        "name": "frunze de salată verde"
+      },
+      "ss13-6": {
+        "name": "suc de lămâie"
+      },
+      "ss13-7": {
+        "name": "oțet"
+      },
+      "ss13-8": {
+        "name": "lipie shami"
+      },
+      "ss13-9": {
+        "name": "sare și piper"
+      },
+      "ss13-10": {
+        "name": "măsline negre"
+      }
+    },
+    "instructions": {
+      "1": "Tăiați cubulețe roșiile și castraveții, apoi adăugați pătrunjelul tocat, menta uscată și frunzele de salată verde tăiate fâșii fine, împreună cu sucul de lămâie; condimentați amestecul cu sare, piper și oțet.",
+      "2": "Prăjiți lipia shami după ce o tăiați în bucăți mici.",
+      "3": "Puneți salata într-un vas de servire, adăugați măslinele negre, apoi acoperiți cu pâinea prăjită."
+    }
+  },
+  "salad-09": {
+    "title": "Salată de usturoi",
+    "chapter": "Capitolul 2: Supe, salate, legume și leguminoase",
+    "category": "Salate",
+    "cookingMethod": "Fără gătire",
+    "prepTime": "10 min",
+    "cookTime": "-",
+    "servings": "aproximativ 1 cană",
+    "culturalNotes": "",
+    "ingredients": {
+      "ss14-1": {
+        "name": "ouă"
+      },
+      "ss14-2": {
+        "name": "muștar"
+      },
+      "ss14-3": {
+        "name": "usturoi tocat"
+      },
+      "ss14-4": {
+        "name": "ulei"
+      }
+    },
+    "instructions": {
+      "1": "Bateți muștarul cu ouăle, fie bătând separat gălbenușurile și albușurile, fie bătând ouăle întregi împreună.",
+      "2": "Adăugați usturoiul tocat și uleiul și bateți-le bine, apoi adăugați-le în amestecul de ou și muștar și condimentați cu sare, bătând bine până devine compoziția omogenă și capătă o consistență asemănătoare caramelului."
+    }
+  },
+  "salad-10": {
+    "title": "Salată rusească (salată de boeuf)",
+    "chapter": "Capitolul 2: Supe, salate, legume și leguminoase",
+    "category": "Salate",
+    "cookingMethod": "Fără gătire",
+    "prepTime": "15 min",
+    "cookTime": "20 min",
+    "servings": "4-6 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "ss15-1": {
+        "name": "mazăre fiartă"
+      },
+      "ss15-2": {
+        "name": "cartofi fierți, tăiați cubulețe"
+      },
+      "ss15-3": {
+        "name": "morcovi fierți"
+      },
+      "ss15-4": {
+        "name": "sos de maioneză"
+      }
+    },
+    "instructions": {
+      "1": "Amestecați legumele fierte, apoi condimentați-le cu jumătate din sosul de maioneză.",
+      "2": "Turnați salata într-un vas de servire, acoperiți suprafața cu restul sosului și decorați cu castravete."
+    }
+  },
+  "salad-11": {
+    "title": "Salată de cartofi",
+    "chapter": "Capitolul 2: Supe, salate, legume și leguminoase",
+    "category": "Salate",
+    "cookingMethod": "Fără gătire",
+    "prepTime": "20 min",
+    "cookTime": "25 min",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "ss16-1": {
+        "name": "cartofi"
+      },
+      "ss16-2": {
+        "name": "roșii"
+      },
+      "ss16-3": {
+        "name": "ardei grași"
+      },
+      "ss16-4": {
+        "name": "suc de la o ceapă mică"
+      },
+      "ss16-5": {
+        "name": "usturoi tocat"
+      },
+      "ss16-6": {
+        "name": "pătrunjel tocat"
+      },
+      "ss16-7": {
+        "name": "ulei"
+      },
+      "ss16-8": {
+        "name": "sare, piper și chimion"
+      },
+      "ss16-9": {
+        "name": "suc de lămâie sau oțet"
+      }
+    },
+    "instructions": {
+      "1": "Spălați bine cartofii, cu coajă.",
+      "2": "Fierbeți cartofii în apă clocotită cu sare până se înmoaie, având grijă să nu se terciuiască.",
+      "3": "Curățați cartofii de coajă și tăiați-i cuburi medii.",
+      "4": "Într-un bol adânc, pregătiți dressingul amestecând uleiul cu sarea și chimionul, apoi adăugați sucul de ceapă, usturoiul tocat și sucul de lămâie sau oțetul și amestecați bine.",
+      "5": "Tăiați roșiile și ardeii verzi în bucăți medii, tocați mărunt pătrunjelul, apoi adăugați-le în dressing și amestecați bine.",
+      "6": "Adăugați cuburile de cartofi în amestec și amestecați bine.",
+      "7": "Păstrați salata la frigider până la servire.",
+      "8": "Sfaturi generale pentru păstrarea legumelor: pentru congelare, opăriți legumele tocate fierbându-le un minut în apă cu sare și puțin bicarbonat de sodiu, apoi scurgeți-le imediat în apă cu gheață, uscați-le și puneți-le în pungi ermetice, în congelator, cel mult 3 luni (turnați-le direct în supa fierbinte, încă înghețate). Ca să păstrați mulukhiya, după tocare, scufundați-o într-un polonic de supă înainte de congelare. Anghinarea se păstrează la frigider în apă fiartă cu ulei de măsline și mult suc de lămâie. Feliile de cartofi trebuie fierte 3-4 minute, apoi răcite în apă cu oțet, înainte de uscare și congelare; prăjiți-le încă înghețate."
+    }
+  },
+  "sea-05": {
+    "title": "Sos alb pentru fructe de mare",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Fructe de mare",
+    "cookingMethod": "Înăbușire lentă (tasbeek)",
+    "prepTime": "5 min",
+    "cookTime": "10 min",
+    "servings": "suficient pentru o caserolă de fructe de mare",
+    "culturalNotes": "",
+    "ingredients": {
+      "sf5-1": {
+        "name": "făină"
+      },
+      "sf5-2": {
+        "name": "ghee sau ulei"
+      },
+      "sf5-3": {
+        "name": "lapte sau supă"
+      },
+      "sf5-4": {
+        "name": "sare și piper"
+      }
+    },
+    "instructions": {
+      "1": "Topiți ghee-ul sau încălziți uleiul, adăugați făina și amestecați bine până se aurește ușor, apoi luați tigaia de pe foc.",
+      "2": "Adăugați treptat laptele sau supa, de pe foc, amestecând continuu până devine omogen, apoi puneți tigaia înapoi pe aragaz, la foc mediu, până obțineți grosimea dorită, având grijă ca sosul să rămână ușor fluid.",
+      "3": "Condimentați cu sare și piper.",
+      "4": "Variantă cu pătrunjel sau lămâie: opțional, adăugați în sos, cât este încă fierbinte, 1 linguriță de pătrunjel tocat sau 1 linguriță de suc de lămâie.",
+      "5": "Variantă cu muștar și oțet (metoda 1): alternativ, amestecați bine 1 linguriță de muștar cu 1 lingură de oțet, adăugați-le în sos și aduceți-l din nou la fierbere pe aragaz.",
+      "6": "Variantă cu muștar și oțet (metoda 2): sau adăugați 1 linguriță de muștar direct în sos și amestecați bine, apoi lăsați-l să se răcească; apoi încorporați treptat, bătând, 1 lingură de ulei, alternând cu 1 lingură de oțet, amestecând continuu până se emulsionează."
+    }
+  },
+  "sea-06": {
+    "title": "Pește în sos de coriandru",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Fructe de mare",
+    "cookingMethod": "Înăbușire lentă (tasbeek)",
+    "prepTime": "15 min",
+    "cookTime": "30 min",
+    "servings": "4-6 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "sf6-1": {
+        "name": "pește"
+      },
+      "sf6-2": {
+        "name": "ceapă feliată"
+      },
+      "sf6-3": {
+        "name": "usturoi tocat"
+      },
+      "sf6-4": {
+        "name": "coriandru uscat"
+      },
+      "sf6-5": {
+        "name": "roșii pasate"
+      },
+      "sf6-6": {
+        "name": "ulei"
+      },
+      "sf6-7": {
+        "name": "sare și piper"
+      },
+      "sf6-8": {
+        "name": "apă"
+      }
+    },
+    "instructions": {
+      "1": "Pregătiți peștele și prăjiți-l ușor în ulei (doar pe jumătate), apoi scoateți-l din ulei și puneți-l deoparte.",
+      "2": "Căliți ceapa feliată în același ulei până se aurește, apoi adăugați usturoiul tocat și coriandrul uscat și amestecați.",
+      "3": "Adăugați roșiile mixate și lăsați la foc mic, sărând după nevoie și adăugând puțină apă dacă e necesar, până scad roșiile și se îngroașă într-un sos.",
+      "4": "Puneți peștele prăjit ușor în sos, acoperiți oala și lăsați la foc mic până se pătrunde.",
+      "5": "Metoda la cuptor (alternativă): puteți înlocui oala cu un vas de cuptor, puneți în el aceleași ingrediente, acoperiți și coaceți în cuptor până se gătește, în loc să-l gătiți pe aragaz.",
+      "6": "Servire: serviți cu salată de tahini sau cu sos alb pentru fructe de mare."
+    }
+  },
+  "sea-07": {
+    "title": "Pește singari",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Fructe de mare",
+    "cookingMethod": "Frigere la grătar",
+    "prepTime": "15 min",
+    "cookTime": "25 min",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "sf7-1": {
+        "name": "Chefal"
+      },
+      "sf7-2": {
+        "name": "Ceapă mare, tocată mărunt"
+      },
+      "sf7-3": {
+        "name": "Usturoi tocat"
+      },
+      "sf7-4": {
+        "name": "Chimion și suc de lămâie"
+      },
+      "sf7-5": {
+        "name": "Roșii"
+      },
+      "sf7-6": {
+        "name": "Ardei verzi"
+      },
+      "sf7-7": {
+        "name": "Ulei"
+      },
+      "sf7-8": {
+        "name": "Sare și piper"
+      }
+    },
+    "instructions": {
+      "1": "Curățați și deschideți peștele: curățați peștele și deschideți-l făcând o tăietură largă, pe lungime, de-a lungul burții (fără să despărțiți cele două jumătăți), apoi condimentați-l pe dinăuntru și pe dinafară cu ceapa tocată, usturoiul tocat, condimentele și sucul de lămâie.",
+      "2": "Pregătiți umplutura: tăiați roșiile și ardeii verzi în rondele subțiri.",
+      "3": "Umpleți și marinați: puneți rondelele de roșii și de ardei verde în burta deschisă a peștelui și lăsați peștele umplut un timp, ca să absoarbă marinada.",
+      "4": "Coacerea: ungeți o tavă de copt și așezați peștele în ea, stropiți deasupra puțin ulei și suc de lămâie, apoi puneți-o în cuptor până se gătește complet și devine auriu-maroniu.",
+      "5": "Servire: serviți cu salată de tahini sau cu sos alb pentru fructe de mare."
+    }
+  },
+  "sea-08": {
+    "title": "Pește alb",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Fructe de mare",
+    "cookingMethod": "Coacere",
+    "prepTime": "20 min",
+    "cookTime": "35 min",
+    "servings": "4-6 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "sf8-1": {
+        "name": "pește tăiat felii"
+      },
+      "sf8-2": {
+        "name": "roșii mari"
+      },
+      "sf8-3": {
+        "name": "ceapă mare"
+      },
+      "sf8-4": {
+        "name": "usturoi tocat"
+      },
+      "sf8-5": {
+        "name": "zahăr"
+      },
+      "sf8-6": {
+        "name": "unt"
+      },
+      "sf8-7": {
+        "name": "făină"
+      },
+      "sf8-8": {
+        "name": "țelină și pătrunjel"
+      },
+      "sf8-9": {
+        "name": "cartofi"
+      },
+      "sf8-10": {
+        "name": "pastă de roșii"
+      },
+      "sf8-11": {
+        "name": "sare, piper și apă"
+      }
+    },
+    "instructions": {
+      "1": "Căliți ceapa în ulei, apoi adăugați usturoiul și roșiile tocate; adăugați aproximativ 1 cană de apă cu zahărul și lăsați să fiarbă aproximativ 5 minute, la foc mediu.",
+      "2": "Ungeți un vas de cuptor cu ulei și turnați în el ceapa călită, împreună cu lichidul ei.",
+      "3": "Tăiați cartofii cuburi medii și adăugați-i în sosul din vasul de cuptor, împreună cu 2 linguri de pastă de roșii.",
+      "4": "Pregătiți un sos alb ușor: în prima oală, topiți untul și încorporați bine făina, apoi adăugați condimentele, țelina și pătrunjelul, cu suficientă apă cât să obțineți o consistență medie (e de preferat să rămână subțire dacă cartofii se gătesc împreună cu peștele).",
+      "5": "Puneți bucățile de pește în acest sos alb, apoi turnați amestecul peste sosul și cartofii din vasul de cuptor.",
+      "6": "Acoperiți vasul și puneți-l în cuptor până se pătrunde, păstrând puțin sos ca să-l turnați peste pește la servire.",
+      "7": "Servire: serviți cu salată de tahini sau cu sos alb pentru fructe de mare."
+    }
+  },
+  "sea-09": {
+    "title": "Calamar (calamari)",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Fructe de mare",
+    "cookingMethod": "Prăjire în tigaie",
+    "prepTime": "15 min",
+    "cookTime": "10 min",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "sf9-1": {
+        "name": "calamar (calamari)"
+      },
+      "sf9-2": {
+        "name": "oțet"
+      },
+      "sf9-3": {
+        "name": "sare, piper și chimion"
+      },
+      "sf9-4": {
+        "name": "suc de lămâie"
+      },
+      "sf9-5": {
+        "name": "făină"
+      },
+      "sf9-6": {
+        "name": "ulei pentru prăjit"
+      }
+    },
+    "instructions": {
+      "1": "Curățarea: curățați calamarul cu apă fierbinte și spălați-l foarte bine, apoi amestecați-l cu oțet și puneți-l într-o strecurătoare timp de un minut.",
+      "2": "Dacă calamarul este mare, aduceți apa la fierbere, puneți calamarul doar pentru un singur clocot, apoi scurgeți-l.",
+      "3": "Tăiați calamarul în inele sau fâșii lungi, îndepărtând capetele.",
+      "4": "Condimentarea: puneți-l într-un bol adânc și condimentați-l cu oțet, sare, piper, chimion și sucul celor două lămâi; lăsați-l la marinat cel puțin o oră.",
+      "5": "Puneți-l într-o strecurătoare, ca să se zvânte complet de apa și marinada în exces, apoi dați inelele prin făină.",
+      "6": "Prăjiți inelele în mult ulei până se auresc.",
+      "7": "Servire: serviți cu salată de tahini sau cu sos alb pentru fructe de mare."
+    }
+  },
+  "sea-10": {
+    "title": "Creveți",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Fructe de mare",
+    "cookingMethod": "Înăbușire lentă (tasbeek)",
+    "prepTime": "15 min",
+    "cookTime": "15 min",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "sf10-1": {
+        "name": "creveți"
+      },
+      "sf10-2": {
+        "name": "ceapă"
+      },
+      "sf10-3": {
+        "name": "țelină"
+      },
+      "sf10-4": {
+        "name": "chimion, piper negru, mastică și cardamom"
+      },
+      "sf10-5": {
+        "name": "sare"
+      },
+      "sf10-6": {
+        "name": "suc de lămâie"
+      }
+    },
+    "instructions": {
+      "1": "Spălați creveții de mai multe ori, ca să vă asigurați că ați îndepărtat complet nisipul.",
+      "2": "Tăiați ceapa în rondele și așezați-o în straturi în oală, alternând cu creveții, țelina, condimentele, puțină sare și suc de lămâie.",
+      "3": "Puteți adăuga puțină apă dacă creveții sunt mari.",
+      "4": "Acoperiți oala și puneți-o la foc mic, amestecând continuu, până se pătrund.",
+      "5": "Luați oala de pe foc și scuturați-o bine, ca să nu se lipească creveții între ei.",
+      "6": "Serviți după preferință, în coajă sau curățați, cu salată de tahini sau cu sos alb pentru fructe de mare."
+    }
+  },
+  "sea-11": {
+    "title": "Creveți cu maioneză",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Fructe de mare",
+    "cookingMethod": "Înăbușire lentă (tasbeek)",
+    "prepTime": "15 min",
+    "cookTime": "15 min",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "sf11-1": {
+        "name": "creveți"
+      },
+      "sf11-2": {
+        "name": "ceapă"
+      },
+      "sf11-3": {
+        "name": "țelină"
+      },
+      "sf11-4": {
+        "name": "chimion, piper, mastică și cardamom"
+      },
+      "sf11-5": {
+        "name": "sare"
+      },
+      "sf11-6": {
+        "name": "suc de lămâie"
+      },
+      "sf11-7": {
+        "name": "sos de maioneză"
+      }
+    },
+    "instructions": {
+      "1": "Spălați creveții de mai multe ori, ca să vă asigurați că ați îndepărtat complet nisipul.",
+      "2": "Tăiați ceapa în rondele și așezați-o în straturi într-o oală, alternând cu creveții, țelina, mastica, cardamomul și puțină sare.",
+      "3": "Puteți adăuga puțină apă dacă creveții sunt mari.",
+      "4": "Acoperiți oala și gătiți la foc mic, amestecând continuu, până se pătrund.",
+      "5": "Luați oala de pe foc și scuturați-o bine, ca să nu se lipească creveții între ei.",
+      "6": "Scurgeți și curățați creveții, apoi condimentați-i cu sare, piper, chimion și suc de lămâie.",
+      "7": "Așezați-i într-un vas de servire și acoperiți-i cu sosul de maioneză (vezi secțiunea de salate)."
+    }
+  },
+  "sea-12": {
+    "title": "Creveți cu curry",
+    "chapter": "Capitolul 1: Carne, pasăre și fructe de mare",
+    "category": "Fructe de mare",
+    "cookingMethod": "Înăbușire lentă (tasbeek)",
+    "prepTime": "10 min",
+    "cookTime": "15 min",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "sf12-1": {
+        "name": "creveți"
+      },
+      "sf12-2": {
+        "name": "ceapă feliată"
+      },
+      "sf12-3": {
+        "name": "curry praf"
+      },
+      "sf12-4": {
+        "name": "țelină"
+      },
+      "sf12-5": {
+        "name": "sare și piper"
+      },
+      "sf12-6": {
+        "name": "suc de lămâie"
+      },
+      "sf12-7": {
+        "name": "ulei"
+      },
+      "sf12-8": {
+        "name": "apă"
+      }
+    },
+    "instructions": {
+      "1": "Pregătirea inițială: spălați creveții de mai multe ori, ca să îndepărtați complet nisipul. Tăiați ceapa în rondele și așezați-o în straturi într-o oală, alternând cu creveții, țelina, mastica, cardamomul și un praf de sare (puteți adăuga puțină apă dacă oala este mare).",
+      "2": "Acoperiți oala și gătiți la foc mic, amestecând continuu, până se pătrund. Luați de pe foc și scuturați bine, ca să nu se lipească, apoi zvântați creveții și curățați-i.",
+      "3": "Sosul de curry: căliți ceapa feliată în ulei până se aurește, apoi adăugați curry-ul și amestecați scurt. Adăugați apa și amestecați până dă în clocot, apoi condimentați cu sare, piper și suc de lămâie.",
+      "4": "Adăugați creveții curățați în sosul de curry, doar până se încălzesc bine.",
+      "5": "Servire: puneți cu polonicul într-un vas de servire, alături de orez alb, și decorați cu lămâie și pătrunjel."
+    }
+  },
+  "soup-03": {
+    "title": "Supă cu fidea sau orzo",
+    "chapter": "Capitolul 2: Supe, salate și legume",
+    "category": "Supe",
+    "cookingMethod": "Fierbere",
+    "prepTime": "5 min",
+    "cookTime": "15 min",
+    "servings": "2-3 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "ss5-1": {
+        "name": "supă"
+      },
+      "ss5-2": {
+        "name": "fidea sau orzo"
+      },
+      "ss5-3": {
+        "name": "ghee"
+      },
+      "ss5-4": {
+        "name": "sare și piper"
+      }
+    },
+    "instructions": {
+      "1": "Prăjiți fideaua sau orzo în ghee.",
+      "2": "Turnați supa sărată, cu piper, și aduceți la fierbere, apoi reduceți focul până se gătește (orzo are nevoie de mai mult timp și poate cere supă în plus).",
+      "3": "Pentru mai multă aromă, puteți adăuga mastică în supă."
+    }
+  },
+  "soup-04": {
+    "title": "Supă cremoasă cu lapte și pui",
+    "chapter": "Capitolul 2: Supe, salate și legume",
+    "category": "Supe",
+    "cookingMethod": "Fierbere",
+    "prepTime": "10 min",
+    "cookTime": "20 min",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "ss6-1": {
+        "name": "ceapă mică"
+      },
+      "ss6-2": {
+        "name": "făină"
+      },
+      "ss6-3": {
+        "name": "supă sau apă"
+      },
+      "ss6-4": {
+        "name": "cub de supă concentrată"
+      },
+      "ss6-5": {
+        "name": "lapte"
+      },
+      "ss6-6": {
+        "name": "smântână lichidă"
+      },
+      "ss6-7": {
+        "name": "bucăți de pui gătit"
+      },
+      "ss6-8": {
+        "name": "sare și piper"
+      },
+      "ss6-9": {
+        "name": "unt sau ghee"
+      }
+    },
+    "instructions": {
+      "1": "Căliți ceapa în unt sau ghee, apoi adăugați făina și amestecați. Adăugați treptat supa sau apa, împreună cu cubul de supă concentrată, și lăsați să fiarbă încet, la foc mic, până dă în clocot.",
+      "2": "După ce s-a răcit, mixați compoziția în blender. Puneți-o înapoi în oală și adăugați smântâna, bucățile de pui gătit și laptele (potrivind cantitatea de lapte după grosimea dorită), apoi condimentați cu sare și piper.",
+      "3": "Bucățile de pui pot fi înlocuite cu brânză rasă.",
+      "4": "Aveți grijă ca supa să fie servită foarte fierbinte."
+    }
+  },
+  "soup-05": {
+    "title": "Supă cremă de roșii",
+    "chapter": "Capitolul 2: Supe, salate și legume",
+    "category": "Supe",
+    "cookingMethod": "Fierbere",
+    "prepTime": "10 min",
+    "cookTime": "25 min",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "ss7-1": {
+        "name": "ceapă medie"
+      },
+      "ss7-2": {
+        "name": "roșie"
+      },
+      "ss7-3": {
+        "name": "pastă de roșii"
+      },
+      "ss7-4": {
+        "name": "sare și piper"
+      },
+      "ss7-5": {
+        "name": "unt"
+      },
+      "ss7-6": {
+        "name": "făină"
+      },
+      "ss7-7": {
+        "name": "supă"
+      },
+      "ss7-8": {
+        "name": "lapte"
+      },
+      "ss7-9": {
+        "name": "gălbenuș"
+      }
+    },
+    "instructions": {
+      "1": "Căliți ceapa feliată în unt până se aurește.",
+      "2": "Adăugați roșia tocată, împreună cu pasta de roșii și făina, și amestecați bine cu ceapa.",
+      "3": "Turnați supa peste compoziție și gătiți la foc mic până se face.",
+      "4": "După ce compoziția s-a răcit, mixați-o în blender.",
+      "5": "Bateți puțin lapte cu gălbenușul, sare și piper, turnați amestecul peste supa mixată, apoi puneți-o înapoi în oală, la foc mic, 5 minute."
+    }
+  },
+  "veg-03": {
+    "title": "Legume gătite cu carne",
+    "chapter": "Capitolul 2: Supe, salate, legume și leguminoase",
+    "category": "Legume",
+    "cookingMethod": "Înăbușire lentă (tasbeek)",
+    "prepTime": "15 min",
+    "cookTime": "45 min",
+    "servings": "4-6 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "vl5-1": {
+        "name": "carne"
+      },
+      "vl5-2": {
+        "name": "legume asortate"
+      },
+      "vl5-3": {
+        "name": "ceapă mare, rasă"
+      },
+      "vl5-4": {
+        "name": "ulei"
+      },
+      "vl5-5": {
+        "name": "oțet"
+      },
+      "vl5-6": {
+        "name": "usturoi"
+      },
+      "vl5-7": {
+        "name": "roșii sau pastă de roșii"
+      },
+      "vl5-8": {
+        "name": "sare, piper și apă"
+      }
+    },
+    "instructions": {
+      "1": "Încălziți aproximativ 2 linguri de ulei într-o oală, la foc mediu, adăugați ceapa mare rasă și carnea și căliți până se rumenește carnea.",
+      "2": "Adăugați oțetul, usturoiul tocat și fie roșiile pasate, fie pasta de roșii; gătiți până se înmoaie roșiile, dacă folosiți roșii proaspete, apoi condimentați cu sare și piper.",
+      "3": "Adăugați apă, iar după ce dă în clocot, adăugați legumele și condimentele, apoi fierbeți încet, la foc mic, până se înmoaie totul."
+    }
+  },
+  "veg-04": {
+    "title": "Legume în supă de pui",
+    "chapter": "Capitolul 2: Supe, salate, legume și leguminoase",
+    "category": "Legume",
+    "cookingMethod": "Înăbușire lentă (tasbeek)",
+    "prepTime": "20 min",
+    "cookTime": "45 min",
+    "servings": "4-6 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "vl6-1": {
+        "name": "pui întreg"
+      },
+      "vl6-2": {
+        "name": "legume asortate"
+      },
+      "vl6-3": {
+        "name": "ceapă mare"
+      },
+      "vl6-4": {
+        "name": "cardamom și mastică"
+      },
+      "vl6-5": {
+        "name": "roșii"
+      },
+      "vl6-6": {
+        "name": "ardei gras verde"
+      },
+      "vl6-7": {
+        "name": "usturoi"
+      },
+      "vl6-8": {
+        "name": "oțet"
+      },
+      "vl6-9": {
+        "name": "ulei"
+      },
+      "vl6-10": {
+        "name": "sare și piper"
+      }
+    },
+    "instructions": {
+      "1": "Fierbeți puiul în apă clocotită cu ceapa, cardamomul, mastica, sarea și piperul.",
+      "2": "Scoateți puiul și puneți-l într-o strecurătoare, apoi condimentați-l cu sare și piper.",
+      "3": "Mixați în blender ceapa mare, aproximativ ¼ kg de roșii, un ardei gras verde mic, cățeii de usturoi și lingura de oțet.",
+      "4": "Pregătiți o oală și adăugați 2 linguri de ulei (sau după preferință); după ce s-a încins uleiul, turnați amestecul mixat, condimentați cu sare și piper și lăsați să dea în clocot.",
+      "5": "Adăugați suficientă supă de pui în amestec și aduceți din nou la fierbere.",
+      "6": "Adăugați legumele și fierbeți încet, la foc mic, până se înmoaie."
+    }
+  },
+  "veg-05": {
+    "title": "Legume sotate",
+    "chapter": "Capitolul 2: Supe, salate, legume și leguminoase",
+    "category": "Legume",
+    "cookingMethod": "Fierbere",
+    "prepTime": "10 min",
+    "cookTime": "20 min",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "vl7-1": {
+        "name": "Legume (de exemplu fasole verde sau cartofi)"
+      },
+      "vl7-2": {
+        "name": "Ceapă"
+      },
+      "vl7-3": {
+        "name": "Oțet"
+      },
+      "vl7-4": {
+        "name": "Ulei"
+      },
+      "vl7-5": {
+        "name": "Suc de lămâie"
+      },
+      "vl7-6": {
+        "name": "Sare și piper"
+      }
+    },
+    "instructions": {
+      "1": "Pregătiți o oală cu apă, sare, o ceapă întreagă și oțet.",
+      "2": "După ce dă în clocot, adăugați legumele și reduceți focul până se pătrund, apoi scurgeți-le într-o strecurătoare.",
+      "3": "Pregătiți un bol adânc cu ulei, suc de lămâie, sare și piper, amestecându-le bine, apoi adăugați legumele în el."
+    }
+  },
+  "veg-06": {
+    "title": "Fasole verde în supă de pui",
+    "chapter": "Capitolul 2: Supe, salate, legume și leguminoase",
+    "category": "Legume",
+    "cookingMethod": "Înăbușire lentă (tasbeek)",
+    "prepTime": "15 min",
+    "cookTime": "35 min",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "vl8-1": {
+        "name": "fasole verde"
+      },
+      "vl8-2": {
+        "name": "ceapă medie"
+      },
+      "vl8-3": {
+        "name": "roșii sau pastă de roșii"
+      },
+      "vl8-4": {
+        "name": "ardei gras"
+      },
+      "vl8-5": {
+        "name": "ulei"
+      },
+      "vl8-6": {
+        "name": "usturoi tocat"
+      },
+      "vl8-7": {
+        "name": "supă"
+      },
+      "vl8-8": {
+        "name": "sare și piper"
+      }
+    },
+    "instructions": {
+      "1": "Tăiați păstăile de fasole verde în două, pe lungime, apoi tocați-le în bucăți mici și spălați-le.",
+      "2": "Mixați în blender ceapa, roșiile, ardeiul gras și usturoiul, cu sare și piper.",
+      "3": "Încălziți uleiul într-o oală, apoi turnați amestecul mixat și aduceți la fierbere, la foc mic.",
+      "4": "Adăugați fasolea verde în amestec și căliți până începe să se înmoaie.",
+      "5": "Turnați supa și aduceți la fierbere, apoi reduceți focul și acoperiți oala, adăugând supă ori de câte ori e nevoie, până se pătrunde fasolea."
+    }
+  },
+  "veg-07": {
+    "title": "Fasole verde cu carne",
+    "chapter": "Capitolul 2: Supe, salate, legume și leguminoase",
+    "category": "Legume",
+    "cookingMethod": "Înăbușire lentă (tasbeek)",
+    "prepTime": "15 min",
+    "cookTime": "45 min",
+    "servings": "4 porții",
+    "culturalNotes": "",
+    "ingredients": {
+      "vl9-1": {
+        "name": "fasole verde"
+      },
+      "vl9-2": {
+        "name": "ceapă medie"
+      },
+      "vl9-3": {
+        "name": "roșii sau pastă de roșii"
+      },
+      "vl9-4": {
+        "name": "ardei gras"
+      },
+      "vl9-5": {
+        "name": "ulei"
+      },
+      "vl9-6": {
+        "name": "usturoi"
+      },
+      "vl9-7": {
+        "name": "carne"
+      },
+      "vl9-8": {
+        "name": "sare, piper și apă"
+      }
+    },
+    "instructions": {
+      "1": "Mixați în blender ceapa, roșiile, ardeiul gras, usturoiul, sarea și piperul.",
+      "2": "Puneți carnea într-o oală cu ulei și rumeniți-o, apoi turnați peste ea amestecul mixat de ceapă și roșii, până se gătesc roșiile.",
+      "3": "Adăugați suficientă apă cât să acopere cantitatea de fasole verde și aduceți la fierbere, adăugând sare și piper.",
+      "4": "După ce dă în clocot, adăugați fasolea verde și reduceți focul, până se gătesc complet legumele și carnea."
+    }
   }
 }

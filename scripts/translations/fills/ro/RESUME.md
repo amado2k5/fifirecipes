@@ -27,7 +27,8 @@ Rules: `CONVENTIONS.md` here + `docs/TRANSLATION_GUIDE.md`.
 | 06 | done |
 | 07 | done |
 | 08 | done |
-| 09–60 | pending |
+| 09 | done |
+| 10–60 | pending |
 
 ## Final
 
