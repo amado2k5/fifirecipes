@@ -26,7 +26,8 @@ function preloadRecipeView() {
 import { detectUserLanguage, getUIText, TOP_20_LANGUAGES, LANGUAGE_COUNT } from './data/translations';
 import { ErrorBoundary } from './components/ErrorBoundary';
 import { readStoredLanguage, storeLanguage } from './utils/languagePreference';
-import { getLocalizedRecipe, ensureTranslationTable } from './utils/recipeLocalization';
+import { getLocalizedRecipe, getLocalizedIngredient, ensureTranslationTable } from './utils/recipeLocalization';
+import { recipeBaseLanguage, recipeImageUrl, recipeUrl, refineRecipeLinks, setPageMeta } from './utils/seoHead';
 import { isListedIn, statsAudienceOf } from './utils/recipeVisibility';
 import { shareRecipe } from './services/recipeShareService';
 import { DataManifest, loadCardTranslations, loadManifest, loadRecipe, loadRecipeIndex } from './services/recipeData';
@@ -36,6 +37,18 @@ import { TECHNOLOGY_LABELS } from './data/technologyLabels';
 import { CheckCircle2, AlertCircle, Mail } from 'lucide-react';
 
 const FEEDBACK_EMAIL = 'recipe@fifi.cooking';
+
+// Footer links to the sister sites and the native apps. Store URLs are the ones
+// public/app-banner.js already uses; scripts/generate-public-index.ts repeats
+// this list on the static recipe pages.
+const FOOTER_LINKS = [
+  { href: 'https://cookwala.ai', label: 'cookwala.ai' },
+  { href: 'https://origins.faith', label: 'origins.faith' },
+  { href: 'https://apps.apple.com/ca/app/fifi-recipes/id6817888908', label: 'App Store (iPhone, iPad)' },
+  { href: 'https://apps.apple.com/ca/app/fifi-recipes-tv/id6817959251', label: 'App Store (Apple TV)' },
+  { href: 'https://android.fifi.cooking/', label: 'Android' },
+  { href: 'https://www.amazon.ca/dp/B0HLH9TNRB', label: 'Amazon Appstore (Fire TV)' }
+];
 
 function getSharedLanguage(): SupportedLanguage | null {
   if (typeof window === 'undefined') return null;
@@ -213,7 +226,25 @@ export default function App() {
       : activeTab === 'technology'
         ? `${TECHNOLOGY_LABELS[lang] ?? TECHNOLOGY_LABELS.en} | ${getUIText(lang, 'appTitle')}`
         : getUIText(lang, 'appTitle');
+    // Meta description and keywords follow the title, in the language shown.
+    if (selectedRecipe) {
+      const localized = getLocalizedRecipe(selectedRecipe, lang);
+      const separator = isRtl ? '، ' : ', ';
+      const ingredients = selectedRecipe.masterIngredients.slice(0, 6).map(ingredient => getLocalizedIngredient(ingredient, lang, selectedRecipe.id));
+      setPageMeta(
+        localized.title,
+        `${localized.title}: ${ingredients.join(separator)}.`,
+        [...new Set([localized.title, localized.category, localized.cookingMethod].filter(Boolean))]
+      );
+    } else {
+      setPageMeta(getUIText(lang, 'appTitle'), getUIText(lang, 'appSubtitle'), []);
+    }
   }, [isRtl, lang, selectedRecipe, activeTab]);
+
+  // The recipe named in the URL: its full hreflang cluster and canonical (see utils/seoHead.ts).
+  useEffect(() => {
+    if (selectedRecipe) refineRecipeLinks(selectedRecipe);
+  }, [selectedRecipe]);
 
   const handleShareSite = async () => {
     const url = new URL(window.location.href);
@@ -330,6 +361,9 @@ export default function App() {
       '@type': 'Recipe',
       name: recipe.title,
       ...(recipe.titleEn ? { alternateName: recipe.titleEn } : {}),
+      url: recipeUrl(recipe, recipeBaseLanguage(recipe)),
+      image: recipeImageUrl(recipe),
+      inLanguage: recipeBaseLanguage(recipe),
       recipeCategory: recipe.category,
       // Only Dr. Fatma's own archive is Egyptian home cooking; additional recipes credit their source.
       ...(recipe.source ? { isBasedOn: recipe.source.url } : { recipeCuisine: 'Egyptian' }),
@@ -477,7 +511,7 @@ export default function App() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-xl bg-amber-600 flex items-center justify-center text-white shrink-0">
-                <img src={`${import.meta.env.BASE_URL}logo-transparent.png`} alt="" className="w-7 h-7 object-cover object-center rounded-lg" />
+                <img src={`${import.meta.env.BASE_URL}logo-transparent.png`} alt="" width={535} height={494} loading="lazy" decoding="async" className="w-7 h-7 object-cover object-center rounded-lg" />
               </div>
               <div>
                 <span className="font-bold text-stone-900 block text-sm">
@@ -581,6 +615,16 @@ export default function App() {
 <button type="button" onClick={() => setActiveTab('technology')} className="font-bold underline hover:text-amber-700 transition-colors">{TECHNOLOGY_LABELS[lang] ?? TECHNOLOGY_LABELS.en}</button> <span>•</span> <span title={TOP_20_LANGUAGES.map(l => l.nativeName).join(' · ')}>{LANGUAGE_COUNT} {getUIText(lang, 'languagesSupported')}</span> <span>•</span> <span>{t('مشاركة الوصفة الفردية مفعّلة', 'Single-Recipe Sharing Enabled', 'Partage de Recette Individuelle Activé', 'Compartir Receta Individual Habilitado', '個別レシピの共有が可能', 'एकल रेसिपी साझा करने की सुविधा उपलब्ध', 'Compartilhamento de receita individual habilitado', 'Доступен обмен ссылкой на отдельный рецепт', '支持单个食谱分享', 'Teilen einzelner Rezepte aktiviert', 'Condivisione della singola ricetta attiva', 'Ενεργοποιημένη κοινή χρήση μεμονωμένης συνταγής', 'انفرادی ترکیب شیئر کرنے کی سہولت دستیاب', 'اشتراک‌گذاری تک‌دستور فعال است', 'Tek Tarif Paylaşımı Etkin', 'Parvekirina Reçeteya Takekesî Çalak e', 'Berbagi Resep Satuan Diaktifkan', 'Kushiriki Mapishi Moja Kumewezeshwa', '개별 레시피 공유 활성화됨', 'Delen van losse recepten ingeschakeld', 'د یو ځانګړي ترکیب شریکول فعال دی', 'שיתוף מתכון בודד מופעל', 'Udostępnianie pojedynczego przepisu włączone', 'Delning av enskilda recept aktiverad', 'ఒకే వంటకాన్ని పంచుకునే సౌకర్యం అందుబాటులో ఉంది', 'একক রেসিপি শেয়ারিং চালু', 'Đã bật chia sẻ từng công thức', 'Ndarja e një recete të vetme e aktivizuar', 'Sdílení jednotlivých receptů povoleno', 'Partajarea unei rețete individuale activată')}</span>
             </div>
           </div>
+
+          {/* Sister sites and the native apps (same store links as public/app-banner.js). */}
+          <nav dir="ltr" className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-[11px] text-stone-400">
+            {FOOTER_LINKS.map((link, index) => (
+              <React.Fragment key={link.href}>
+                {index > 0 && <span aria-hidden="true">•</span>}
+                <a href={link.href} rel="noopener" className="underline hover:text-amber-700 transition-colors">{link.label}</a>
+              </React.Fragment>
+            ))}
+          </nav>
         </div>
       </footer>
     </div>
