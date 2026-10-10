@@ -77,6 +77,8 @@ export const Header: React.FC<HeaderProps> = ({
               <img
                 src={`${import.meta.env.BASE_URL}logo-transparent.png`}
                 alt="د. فاطمة القاوقجي"
+                width={535}
+                height={494}
                 className="w-10 h-10 object-cover object-center rounded-xl group-hover:scale-110 transition-transform"
               />
             </div>

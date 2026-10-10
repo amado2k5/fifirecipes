@@ -16,11 +16,48 @@
           }
         } catch (e) {}
       })();
+      // Self-referencing canonical and the hreflang cluster of the URL being viewed. GitHub Pages serves this
+      // same file for every ?lang= / ?recipe= URL, so a fixed canonical would fold every language into the root.
+      // A recipe's own-language URL is its static page /recipe/<id>/; the app refines the cluster once the recipe
+      // has loaded (src/utils/seoHead.ts). Keep the language list in sync with src/data/translations.ts.
+      (function () {
+        try {
+          var origin = 'https://fifi.cooking';
+          var langs = 'ar en fr es ja hi pt ru zh de it el ur fa tr ku id sw ko nl ps he pl sv te bn vi sq cs ro'.split(' ');
+          var q = new URLSearchParams(location.search);
+          var lang = langs.indexOf(q.get('lang')) >= 0 ? q.get('lang') : null;
+          var recipe = q.get('recipe');
+          var canonical;
+          if (recipe && /^[A-Za-z0-9_-]+$/.test(recipe)) {
+            var page = origin + '/recipe/' + encodeURIComponent(recipe) + '/';
+            var links = document.querySelectorAll('link[rel="alternate"][hreflang]');
+            for (var i = 0; i < links.length; i++) links[i].parentNode.removeChild(links[i]);
+            for (var j = 0; j < langs.length; j++) {
+              var alt = document.createElement('link');
+              alt.rel = 'alternate';
+              alt.hreflang = langs[j];
+              alt.href = origin + '/?recipe=' + encodeURIComponent(recipe) + '&lang=' + langs[j];
+              document.head.appendChild(alt);
+            }
+            var def = document.createElement('link');
+            def.rel = 'alternate';
+            def.hreflang = 'x-default';
+            def.href = page;
+            document.head.appendChild(def);
+            canonical = lang ? origin + '/?recipe=' + encodeURIComponent(recipe) + '&lang=' + lang : page;
+          } else {
+            canonical = lang ? origin + '/?lang=' + lang : origin + '/';
+          }
+          var link = document.createElement('link');
+          link.rel = 'canonical';
+          link.href = canonical;
+          document.head.appendChild(link);
+        } catch (e) {}
+      })();
     </script>
     <title>Fatma Alkawokgy Recipes | Public Recipe Archive</title>
     <meta name="description" content="An open, searchable public archive of Dr. Fatma Alkawokgy's Egyptian recipes, ingredients, cooking instructions, and heritage notes." />
     <meta name="robots" content="index, follow, archive, max-image-preview:large" />
-    <link rel="canonical" href="https://fifi.cooking/" />
     <link rel="alternate" hreflang="ar" href="https://fifi.cooking/?lang=ar" />
     <link rel="alternate" hreflang="en" href="https://fifi.cooking/?lang=en" />
     <link rel="alternate" hreflang="fr" href="https://fifi.cooking/?lang=fr" />
@@ -40,6 +77,14 @@
     <link rel="alternate" hreflang="id" href="https://fifi.cooking/?lang=id" />
     <link rel="alternate" hreflang="sw" href="https://fifi.cooking/?lang=sw" />
     <link rel="alternate" hreflang="ko" href="https://fifi.cooking/?lang=ko" />
+    <link rel="alternate" hreflang="nl" href="https://fifi.cooking/?lang=nl" />
+    <link rel="alternate" hreflang="ps" href="https://fifi.cooking/?lang=ps" />
+    <link rel="alternate" hreflang="he" href="https://fifi.cooking/?lang=he" />
+    <link rel="alternate" hreflang="pl" href="https://fifi.cooking/?lang=pl" />
+    <link rel="alternate" hreflang="sv" href="https://fifi.cooking/?lang=sv" />
+    <link rel="alternate" hreflang="te" href="https://fifi.cooking/?lang=te" />
+    <link rel="alternate" hreflang="bn" href="https://fifi.cooking/?lang=bn" />
+    <link rel="alternate" hreflang="vi" href="https://fifi.cooking/?lang=vi" />
     <link rel="alternate" hreflang="sq" href="https://fifi.cooking/?lang=sq" />
     <link rel="alternate" hreflang="cs" href="https://fifi.cooking/?lang=cs" />
     <link rel="alternate" hreflang="ro" href="https://fifi.cooking/?lang=ro" />
@@ -48,7 +93,7 @@
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <script type="application/ld+json">
     {"@context":"https://schema.org","@graph":[
-      {"@type":"WebSite","@id":"https://fifi.cooking/#website","url":"https://fifi.cooking/","name":"Fatma Alkawokgy Recipes","publisher":{"@id":"https://fifi.cooking/#org"},"inLanguage":["ar","en"]},
+      {"@type":"WebSite","@id":"https://fifi.cooking/#website","url":"https://fifi.cooking/","name":"Fatma Alkawokgy Recipes","publisher":{"@id":"https://fifi.cooking/#org"},"inLanguage":["ar","en","fr","es","ja","hi","pt","ru","zh","de","it","el","ur","fa","tr","ku","id","sw","ko","nl","ps","he","pl","sv","te","bn","vi","sq","cs","ro"]},
       {"@type":"Organization","@id":"https://fifi.cooking/#org","name":"fifi.cooking","url":"https://fifi.cooking/","logo":"https://fifi.cooking/logo-transparent.png","sameAs":["https://github.com/amado2k5/fifirecipes","https://cookwala.ai"]}
     ]}
     </script>
@@ -56,10 +101,16 @@
     <meta property="og:title" content="Fatma Alkawokgy Recipes" />
     <meta property="og:description" content="The official cooking book and legacy archive of Dr. Fatma Alkawokgy (1943–2026), master Egyptian culinary author and pianist. Featuring 2,380 recipes (Egyptian home cooking plus 21 world cuisines) in 29 languages, single-recipe sharing and exports, reviews, ratings, user bookmarks, and admin analytics." />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://fifi.cooking/logo-transparent.png" />
+    <meta property="og:image:width" content="535" />
+    <meta property="og:image:height" content="494" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&family=Amiri:ital,wght@0,400;0,700;1,400&family=Aref+Ruqaa:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Vazirmatn:wght@400;500;600;700;800&family=Noto+Sans+Telugu:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Fonts load without blocking first paint (display=swap shows the fallback until they arrive). -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&family=Amiri:ital,wght@0,400;0,700;1,400&family=Aref+Ruqaa:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Vazirmatn:wght@400;500;600;700;800&family=Noto+Sans+Telugu:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&family=Amiri:ital,wght@0,400;0,700;1,400&family=Aref+Ruqaa:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Vazirmatn:wght@400;500;600;700;800&family=Noto+Sans+Telugu:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&family=Amiri:ital,wght@0,400;0,700;1,400&family=Aref+Ruqaa:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Vazirmatn:wght@400;500;600;700;800&family=Noto+Sans+Telugu:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
   </head>
   <body class="bg-stone-50 text-stone-900 font-sans antialiased selection:bg-amber-100 selection:text-amber-900">
     <div id="root"></div>

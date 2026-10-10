@@ -115,6 +115,9 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
           alt={localized.title}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           referrerPolicy="no-referrer"
+          width={800}
+          height={600}
+          loading="lazy"
           decoding="async"
           onLoad={() => setLoadedUrl(imageUrl)}
         />
