@@ -437,6 +437,7 @@ export const RecipeDetailModal: React.FC<RecipeDetailModalProps> = ({
                             type="checkbox"
                             checked={isChecked}
                             onChange={() => toggleIngredientCheck(ing.id)}
+                            aria-label={`${getLocalizedIngredient(ing, lang, recipe.id)} — ${getLocalizedIngredientAmount(ing, lang, recipe.id)}`}
                             className="w-4 h-4 rounded text-amber-600 focus:ring-amber-500 border-stone-300 cursor-pointer"
                           />
                           <div className={isChecked ? 'line-through opacity-50' : ''}>

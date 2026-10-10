@@ -31,6 +31,9 @@ const CATEGORY_NAMES: Record<MasterIngredient['category'], { ar: string; en: str
   other: { he: 'אחר', ps: 'نور', ar: 'أخرى', en: 'Other', fr: 'Autres', es: 'Otros', ja: 'その他', hi: 'अन्य', pt: 'Outros', ru: 'Прочее', zh: '其他', de: 'Sonstiges', it: 'Altro', el: 'Άλλα', ur: 'دیگر', fa: 'سایر', tr: 'Diğer', ku: 'Yên Din', id: 'Lainnya', sw: 'Vinginevyo', ko: '기타' }
 };
 
+const PAGE_SIZE = 60;
+const CHIPS_COLLAPSED = 8;
+
 export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
   recipes,
   onSelectRecipe,
@@ -73,6 +76,15 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
   // The registry is precomputed and localized at build time; fetched when this tab opens.
   const [registry, setRegistry] = useState<IngredientRegistryItem[]>([]);
   const [registryState, setRegistryState] = useState<'loading' | 'ready' | 'failed'>('loading');
+  const [attempt, setAttempt] = useState(0);
+  // The registry holds thousands of ingredients, each linking to up to ~1,000
+  // recipes. Rendering all of that at once (23k+ buttons) froze the page, so
+  // cards are shown a page at a time and each card shows only a few recipes.
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const [expandedIds, setExpandedIds] = useState<Set<string>>(() => new Set());
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [searchTerm, selectedCategory, lang]);
   useEffect(() => {
     let cancelled = false;
     setRegistryState('loading');
@@ -86,7 +98,7 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
     return () => {
       cancelled = true;
     };
-  }, [lang]);
+  }, [lang, attempt]);
   const recipesById = useMemo(() => new Map(recipes.map(recipe => [recipe.id, recipe])), [recipes]);
 
   const filteredItems = useMemo(() => {
@@ -185,7 +197,7 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
 
       {/* Grid of Master Ingredients */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {filteredItems.map((item) => (
+        {filteredItems.slice(0, visibleCount).map((item) => (
           <div
             key={item.name}
             className="bg-white rounded-xl border border-stone-200/80 p-4 shadow-2xs hover:shadow-sm hover:border-amber-300 transition-all flex flex-col justify-between"
@@ -212,7 +224,7 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
                 {t('الوصفات التي تستخدمه:', 'Used in recipes:', 'Utilisé dans les recettes :', 'Usado en las recetas:', '使用しているレシピ:', 'जिन व्यंजनों में उपयोग होता है:', 'Usado nas receitas:', 'Используется в рецептах:', '使用于以下食谱：', 'Verwendet in Rezepten:', 'Utilizzato nelle ricette:', 'Χρησιμοποιείται στις συνταγές:', 'ان ترکیبوں میں استعمال:', 'به‌کاررفته در دستورهای:', 'Kullanıldığı tarifler:', 'Di van reçeteyan de tê bikaranîn:', 'Digunakan dalam resep:', 'Hutumika katika mapishi:', '사용된 레시피:', 'Gebruikt in recepten:', 'په ترکیبونو کې کارول شوي:', 'משמש במתכונים:', 'Używany w przepisach:', 'Används i recept:', 'ఈ వంటకాల్లో వాడబడింది:', 'রেসিপিতে ব্যবহৃত:', 'Dùng trong công thức:', 'Përdoret në recetat:', 'Použito v receptech:', 'Folosit în rețete:')}
               </span>
               <div className="flex flex-wrap gap-1">
-                {item.recipeTitles.map(r => {
+                {(expandedIds.has(item.name) ? item.recipeTitles : item.recipeTitles.slice(0, CHIPS_COLLAPSED)).map(r => {
                   const summary = recipesById.get(r.id);
                   return (
                     <button
@@ -225,15 +237,54 @@ export const MasterIngredientsView: React.FC<MasterIngredientsViewProps> = ({
                     </button>
                   );
                 })}
+                {item.recipeTitles.length > CHIPS_COLLAPSED && (
+                  <button
+                    type="button"
+                    onClick={() =>
+                      setExpandedIds(previous => {
+                        const next = new Set(previous);
+                        if (!next.delete(item.name)) next.add(item.name);
+                        return next;
+                      })
+                    }
+                    aria-expanded={expandedIds.has(item.name)}
+                    className="inline-flex items-center text-[11px] px-2 py-0.5 rounded bg-stone-100 hover:bg-stone-200 text-stone-700 border border-stone-200 font-semibold transition-colors"
+                  >
+                    {expandedIds.has(item.name) ? '−' : `+${item.recipeTitles.length - CHIPS_COLLAPSED}`}
+                  </button>
+                )}
               </div>
             </div>
           </div>
         ))}
       </div>
 
+      {registryState === 'ready' && filteredItems.length > visibleCount && (
+        <div className="text-center">
+          <button
+            type="button"
+            onClick={() => setVisibleCount(count => count + PAGE_SIZE)}
+            className="px-5 py-2 rounded-xl bg-white border border-stone-300 hover:bg-stone-100 text-sm font-semibold text-stone-800 transition-colors"
+          >
+            {getUIText(lang, 'showMoreItems')}
+          </button>
+        </div>
+      )}
+
       {registryState !== 'ready' && (
         <div className={`text-center py-12 bg-white rounded-2xl border text-sm font-semibold ${registryState === 'failed' ? 'border-rose-200 text-rose-800' : 'border-stone-200 text-stone-500 animate-pulse'}`}>
-          {getUIText(lang, registryState === 'failed' ? 'recipesLoadFailed' : 'loadingMoreRecipes')}
+          <p role={registryState === 'failed' ? 'alert' : 'status'}>
+            {getUIText(lang, registryState === 'failed' ? 'recipesLoadFailed' : 'loadingMoreRecipes')}
+          </p>
+          {registryState === 'failed' && (
+            <button
+              type="button"
+              onClick={() => setAttempt(a => a + 1)}
+              className="mt-3 px-4 py-1.5 rounded-lg bg-rose-700 hover:bg-rose-800 text-white text-xs font-semibold transition-colors"
+            >
+              {getUIText(lang, 'retry')}
+            </button>
+          )}
         </div>
       )}
 

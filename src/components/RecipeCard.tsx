@@ -170,27 +170,20 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
             </p>
           )}
 
-          {/* Times & Servings */}
-          <div className="flex items-center gap-3 text-xs text-stone-600 mt-3 pt-2.5 border-t border-stone-100">
-            {localized.prepTime && (
-              <div className="flex items-center gap-1" title={getUIText(lang, 'prepTime')}>
-                <Clock className="w-3.5 h-3.5 text-stone-400" />
-                <span>{localized.prepTime}</span>
+          {/* Times & Servings: three fixed slots, so a missing value shows "—" and can never shift another row into its place. */}
+          <dl className="grid grid-cols-3 gap-2 text-xs text-stone-600 mt-3 pt-2.5 border-t border-stone-100">
+            {([
+              { key: 'prepTime', Icon: Clock, tone: 'text-stone-400', value: localized.prepTime },
+              { key: 'cookTime', Icon: Flame, tone: 'text-amber-500', value: localized.cookTime },
+              { key: 'servings', Icon: Users, tone: 'text-stone-400', value: localized.servings }
+            ] as const).map(({ key, Icon, tone, value }) => (
+              <div key={key} className="flex items-center gap-1 min-w-0" title={getUIText(lang, key)}>
+                <dt className="sr-only">{getUIText(lang, key)}</dt>
+                <Icon className={`w-3.5 h-3.5 shrink-0 ${tone}`} aria-hidden="true" />
+                <dd className="truncate">{value?.trim() ? value : '—'}</dd>
               </div>
-            )}
-            {localized.cookTime && (
-              <div className="flex items-center gap-1" title={getUIText(lang, 'cookTime')}>
-                <Flame className="w-3.5 h-3.5 text-amber-500" />
-                <span>{localized.cookTime}</span>
-              </div>
-            )}
-            {localized.servings && (
-              <div className="flex items-center gap-1" title={getUIText(lang, 'servings')}>
-                <Users className="w-3.5 h-3.5 text-stone-400" />
-                <span>{localized.servings}</span>
-              </div>
-            )}
-          </div>
+            ))}
+          </dl>
 
           {/* Master Ingredients Pills */}
           <div className="mt-3">
@@ -204,8 +197,12 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
                 </span>
               ))}
               {recipe.ingredientCount > 3 && (
-                <span className="text-[10px] text-stone-400 self-center px-1">
-                  +{recipe.ingredientCount - 3}
+                <span
+                  className="text-[10px] text-stone-400 self-center px-1"
+                  title={`+${recipe.ingredientCount - 3} ${getUIText(lang, 'moreIngredients')}`}
+                >
+                  <span aria-hidden="true">+{recipe.ingredientCount - 3}</span>
+                  <span className="sr-only">{`+${recipe.ingredientCount - 3} ${getUIText(lang, 'moreIngredients')}`}</span>
                 </span>
               )}
             </div>

@@ -3,6 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // Apply the visitor's language (?lang= link, else the saved choice) to <html> before first paint,
+      // so a reload does not flash the default Arabic/RTL page. Keep in sync with src/utils/languagePreference.ts.
+      (function () {
+        try {
+          var q = new URLSearchParams(location.search).get('lang');
+          var l = q || localStorage.getItem('fifi.lang');
+          if (l && /^[a-z]{2}$/.test(l)) {
+            document.documentElement.lang = l;
+            document.documentElement.dir = ['ar', 'fa', 'ur', 'ps', 'he'].indexOf(l) >= 0 ? 'rtl' : 'ltr';
+          }
+        } catch (e) {}
+      })();
+    </script>
     <title>Fatma Alkawokgy Recipes | Public Recipe Archive</title>
     <meta name="description" content="An open, searchable public archive of Dr. Fatma Alkawokgy's Egyptian recipes, ingredients, cooking instructions, and heritage notes." />
     <meta name="robots" content="index, follow, archive, max-image-preview:large" />

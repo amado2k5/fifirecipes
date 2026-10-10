@@ -23,7 +23,9 @@ function preloadRecipeView() {
   if ('requestIdleCallback' in window) window.requestIdleCallback(load, { timeout: 4000 });
   else setTimeout(load, 2000);
 }
-import { detectUserLanguage, getUIText, TOP_20_LANGUAGES } from './data/translations';
+import { detectUserLanguage, getUIText, TOP_20_LANGUAGES, LANGUAGE_COUNT } from './data/translations';
+import { ErrorBoundary } from './components/ErrorBoundary';
+import { readStoredLanguage, storeLanguage } from './utils/languagePreference';
 import { getLocalizedRecipe, ensureTranslationTable } from './utils/recipeLocalization';
 import { isListedIn, statsAudienceOf } from './utils/recipeVisibility';
 import { shareRecipe } from './services/recipeShareService';
@@ -44,15 +46,21 @@ function getSharedLanguage(): SupportedLanguage | null {
 }
 
 export default function App() {
-  // Localization: Auto-detected from browser/OS or user choice (20 languages supported)
-  // Defaults to Arabic if user locale is not detected or unrecognized
-  const [lang, setLang] = useState<SupportedLanguage>(() => {
+  // Localization. Order of precedence: ?lang= in the URL, the visitor's saved
+  // choice, the browser/OS locale. The initial value is computed synchronously
+  // so the first render is already in the right language.
+  const [lang, setLangState] = useState<SupportedLanguage>(() => {
     const sharedLanguage = getSharedLanguage();
     if (sharedLanguage) {
       return sharedLanguage;
     }
-    return detectUserLanguage();
+    return readStoredLanguage() ?? detectUserLanguage();
   });
+  // Only an explicit choice is saved; a shared ?lang= link does not overwrite it.
+  const setLang = useCallback((next: SupportedLanguage) => {
+    storeLanguage(next);
+    setLangState(next);
+  }, []);
   // Cooking with Kids mode replaces the whole page; ?kids=1 opens it directly.
   const [kidsMode, setKidsModeState] = useState(
     () => new URLSearchParams(window.location.search).get('kids') === '1' && hasKidsMode(lang)
@@ -421,6 +429,7 @@ export default function App() {
           />
         )}
 
+        <ErrorBoundary lang={lang} resetKey={activeTab}>
         <Suspense fallback={<div className="py-16 text-center text-xs text-stone-400 animate-pulse">…</div>}>
           {/* TAB 2: ABOUT DR. FATMA ALKAWOKGY MEMORIAL */}
           {activeTab === 'biography' && (
@@ -444,6 +453,7 @@ export default function App() {
             />
           )}
         </Suspense>
+        </ErrorBoundary>
       </main>
 
       {/* Recipe Detail Modal */}
@@ -568,7 +578,7 @@ export default function App() {
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-2">
-<button type="button" onClick={() => setActiveTab('technology')} className="font-bold underline hover:text-amber-700 transition-colors">{TECHNOLOGY_LABELS[lang] ?? TECHNOLOGY_LABELS.en}</button> <span>•</span> <span>{t('العربية والإنجليزية والفرنسية والإسبانية واليابانية والهندية والبرتغالية والروسية والصينية والألمانية والإيطالية واليونانية والأردية والفارسية والتركية والكردية والإندونيسية والسواحيلية والكورية مدعومة', 'Arabic, English, French, Spanish, Japanese, Hindi, Portuguese, Russian, Chinese, German, Italian, Greek, Urdu, Persian, Turkish, Kurdish, Indonesian, Swahili, and Korean supported', 'Arabe, anglais, français, espagnol, japonais, hindi, portugais, russe, chinois, allemand, italien, grec, ourdou, persan, turc, kurde, indonésien, swahili et coréen pris en charge', 'Árabe, inglés, francés, español, japonés, hindi, portugués, ruso, chino, alemán, italiano, griego, urdu, persa, turco, kurdo, indonesio, suajili y coreano disponibles', 'アラビア語・英語・フランス語・スペイン語・日本語・ヒンディー語・ポルトガル語・ロシア語・中国語・ドイツ語・イタリア語・ギリシャ語・ウルドゥー語・ペルシャ語・トルコ語・クルド語・インドネシア語・スワヒリ語・韓国語に対応', 'अरबी, अंग्रेज़ी, फ़्रेंच, स्पेनिश, जापानी, हिन्दी, पुर्तगाली, रूसी, चीनी, जर्मन, इतालवी, यूनानी, उर्दू, फ़ारसी, तुर्की, कुर्दी, इंडोनेशियाई, स्वाहिली और कोरियाई उपलब्ध', 'Suporte para árabe, inglês, francês, espanhol, japonês, hindi, português, russo, chinês, alemão, italiano, grego, urdu, persa, turco, curdo, indonésio, suaíli e coreano', 'Поддержка арабского, английского, французского, испанского, японского, хинди, португальского, русского, китайского, немецкого, итальянского, греческого, урду, персидского, турецкого, курдского, индонезийского, суахили и корейского', '支持阿拉伯语、英语、法语、西班牙语、日语、印地语、葡萄牙语、俄语、中文、德语、意大利语、希腊语、乌尔都语、波斯语、土耳其语、库尔德语、印尼语、斯瓦希里语和韩语', 'Unterstützung für Arabisch, Englisch, Französisch, Spanisch, Japanisch, Hindi, Portugiesisch, Russisch, Chinesisch, Deutsch, Italienisch, Griechisch, Urdu, Persisch, Türkisch, Kurdisch, Indonesisch, Swahili, Koreanisch, Niederländisch, Paschtu, Hebräisch, Polnisch, Schwedisch und Telugu', 'Supporto per arabo, inglese, francese, spagnolo, giapponese, hindi, portoghese, russo, cinese, tedesco, italiano, greco, urdu, persiano, turco, curdo, indonesiano, swahili e coreano', 'Υποστήριξη αραβικών, αγγλικών, γαλλικών, ισπανικών, ιαπωνικών, χίντι, πορτογαλικών, ρωσικών, κινεζικών, γερμανικών, ιταλικών, ελληνικών, ουρντού, περσικών, τουρκικών, κουρδικών, ινδονησιακών, σουαχίλι και κορεατικών', 'عربی، انگریزی، فرانسیسی، ہسپانوی، جاپانی، ہندی، پرتگالی، روسی، چینی، جرمن، اطالوی، یونانی، اردو، فارسی، ترکی، کردی، انڈونیشیائی، سواحلی اور کوریائی دستیاب', 'عربی، انگلیسی، فرانسوی، اسپانیایی، ژاپنی، هندی، پرتغالی، روسی، چینی، آلمانی، ایتالیایی، یونانی، اردو، فارسی، ترکی، کردی، اندونزیایی، سواحیلی و کره‌ای پشتیبانی می‌شوند', 'Arapça, İngilizce, Fransızca, İspanyolca, Japonca, Hintçe, Portekizce, Rusça, Çince, Almanca, İtalyanca, Yunanca, Urduca, Farsça, Türkçe, Kürtçe, Endonezce, Svahili ve Korece desteklenir', 'Erebî, Îngilîzî, Fransî, Spanî, Japonî, Hindî, Portugalî, Rûsî, Çînî, Almanî, Îtalî, Yewnanî, Ûrdûyî, Farisî, Tirkî, Kurdî, Endonezyayî, Swahîlî û Koreyî têne piştgirîkirin', 'Tersedia dalam bahasa Arab, Inggris, Prancis, Spanyol, Jepang, Hindi, Portugis, Rusia, Mandarin, Jerman, Italia, Yunani, Urdu, Persia, Turki, Kurdi, Indonesia, Swahili, dan Korea', 'Inapatikana kwa Kiarabu, Kiingereza, Kifaransa, Kihispania, Kijapani, Kihindi, Kireno, Kirusi, Kichina, Kijerumani, Kiitaliano, Kigiriki, Kiurdu, Kiajemi, Kituruki, Kikurdi, Kiindonesia, Kiswahili, na Kikorea', '아랍어, 영어, 프랑스어, 스페인어, 일본어, 힌디어, 포르투갈어, 러시아어, 중국어, 독일어, 이탈리아어, 그리스어, 우르두어, 페르시아어, 튀르키예어, 쿠르드어, 인도네시아어, 스와힐리어, 한국어 지원', 'Arabisch, Engels, Frans, Spaans, Japans, Hindi, Portugees, Russisch, Chinees, Duits, Italiaans, Grieks, Urdu, Perzisch, Turks, Koerdisch, Indonesisch, Swahili, Koreaans, Nederlands, Pasjtoe, Hebreeuws, Pools, Zweeds en Telugu worden ondersteund', 'عربي، انګلیسي، فرانسوي، هسپانوي، جاپاني، هندي، پرتګالي، روسي، چینایي، جرمني، ایټالوي، یوناني، اردو، فارسي، ترکي، کردي، اندونیزیايي، سواحلي، کوري او پشتو ملاتړ شوي', 'תמיכה בערבית, אנגלית, צרפתית, ספרדית, יפנית, הינדי, פורטוגזית, רוסית, סינית, גרמנית, איטלקית, יוונית, אורדו, פרסית, טורקית, כורדית, אינדונזית, סוואהילית, קוריאנית, הולנדית, פשטו ועברית', 'Obsługiwane języki: arabski, angielski, francuski, hiszpański, japoński, hindi, portugalski, rosyjski, chiński, niemiecki, włoski, grecki, urdu, perski, turecki, kurdyjski, indonezyjski, suahili, koreański, niderlandzki, paszto, hebrajski, polski, szwedzki i telugu', 'Arabiska, engelska, franska, spanska, japanska, hindi, portugisiska, ryska, kinesiska, tyska, italienska, grekiska, urdu, persiska, turkiska, kurdiska, indonesiska, swahili, koreanska, nederländska, pashto, hebreiska, polska, svenska och telugu stöds', 'అరబిక్, ఇంగ్లీష్, ఫ్రెంచ్, స్పానిష్, జపనీస్, హిందీ, పోర్చుగీస్, రష్యన్, చైనీస్, జర్మన్, ఇటాలియన్, గ్రీక్, ఉర్దూ, పర్షియన్, టర్కిష్, కుర్దిష్, ఇండోనేషియన్, స్వాహిలి, కొరియన్, డచ్, పాష్టో, హీబ్రూ, పోలిష్, స్వీడిష్ మరియు తెలుగు భాషల్లో అందుబాటులో ఉంది', 'আরবি, ইংরেজি, ফরাসি, স্প্যানিশ, জাপানি, হিন্দি, পর্তুগিজ, রুশ, চীনা, জার্মান, ইতালীয়, গ্রিক, উর্দু, ফারসি, তুর্কি, কুর্দি, ইন্দোনেশীয়, সোয়াহিলি ও কোরিয়ান সমর্থিত', 'Hỗ trợ tiếng Ả Rập, Anh, Pháp, Tây Ban Nha, Nhật, Hindi, Bồ Đào Nha, Nga, Trung, Đức, Ý, Hy Lạp, Urdu, Ba Tư, Thổ Nhĩ Kỳ, Kurd, Indonesia, Swahili và Hàn', 'Arabisht, anglisht, frëngjisht, spanjisht, japonisht, hindisht, portugalisht, rusisht, kinezisht, gjermanisht, italisht, greqisht, urdu, persisht, turqisht, kurdisht, indonezisht, suahili dhe koreanisht të mbështetura', 'Podporovány jazyky: arabština, angličtina, francouzština, španělština, japonština, hindština, portugalština, ruština, čínština, němčina, italština, řečtina, urdština, perština, turečtina, kurdština, indonéština, svahilština, korejština a čeština', 'Limbi disponibile: arabă, engleză, franceză, spaniolă, japoneză, hindi, portugheză, rusă, chineză, germană, italiană, greacă, urdu, persană, turcă, kurdă, indoneziană, swahili, coreeană și română')}</span> <span>•</span> <span>{t('مشاركة الوصفة الفردية مفعّلة', 'Single-Recipe Sharing Enabled', 'Partage de Recette Individuelle Activé', 'Compartir Receta Individual Habilitado', '個別レシピの共有が可能', 'एकल रेसिपी साझा करने की सुविधा उपलब्ध', 'Compartilhamento de receita individual habilitado', 'Доступен обмен ссылкой на отдельный рецепт', '支持单个食谱分享', 'Teilen einzelner Rezepte aktiviert', 'Condivisione della singola ricetta attiva', 'Ενεργοποιημένη κοινή χρήση μεμονωμένης συνταγής', 'انفرادی ترکیب شیئر کرنے کی سہولت دستیاب', 'اشتراک‌گذاری تک‌دستور فعال است', 'Tek Tarif Paylaşımı Etkin', 'Parvekirina Reçeteya Takekesî Çalak e', 'Berbagi Resep Satuan Diaktifkan', 'Kushiriki Mapishi Moja Kumewezeshwa', '개별 레시피 공유 활성화됨', 'Delen van losse recepten ingeschakeld', 'د یو ځانګړي ترکیب شریکول فعال دی', 'שיתוף מתכון בודד מופעל', 'Udostępnianie pojedynczego przepisu włączone', 'Delning av enskilda recept aktiverad', 'ఒకే వంటకాన్ని పంచుకునే సౌకర్యం అందుబాటులో ఉంది', 'একক রেসিপি শেয়ারিং চালু', 'Đã bật chia sẻ từng công thức', 'Ndarja e një recete të vetme e aktivizuar', 'Sdílení jednotlivých receptů povoleno', 'Partajarea rețetelor individuale este activată')}</span>
+<button type="button" onClick={() => setActiveTab('technology')} className="font-bold underline hover:text-amber-700 transition-colors">{TECHNOLOGY_LABELS[lang] ?? TECHNOLOGY_LABELS.en}</button> <span>•</span> <span title={TOP_20_LANGUAGES.map(l => l.nativeName).join(' · ')}>{LANGUAGE_COUNT} {getUIText(lang, 'languagesSupported')}</span> <span>•</span> <span>{t('مشاركة الوصفة الفردية مفعّلة', 'Single-Recipe Sharing Enabled', 'Partage de Recette Individuelle Activé', 'Compartir Receta Individual Habilitado', '個別レシピの共有が可能', 'एकल रेसिपी साझा करने की सुविधा उपलब्ध', 'Compartilhamento de receita individual habilitado', 'Доступен обмен ссылкой на отдельный рецепт', '支持单个食谱分享', 'Teilen einzelner Rezepte aktiviert', 'Condivisione della singola ricetta attiva', 'Ενεργοποιημένη κοινή χρήση μεμονωμένης συνταγής', 'انفرادی ترکیب شیئر کرنے کی سہولت دستیاب', 'اشتراک‌گذاری تک‌دستور فعال است', 'Tek Tarif Paylaşımı Etkin', 'Parvekirina Reçeteya Takekesî Çalak e', 'Berbagi Resep Satuan Diaktifkan', 'Kushiriki Mapishi Moja Kumewezeshwa', '개별 레시피 공유 활성화됨', 'Delen van losse recepten ingeschakeld', 'د یو ځانګړي ترکیب شریکول فعال دی', 'שיתוף מתכון בודד מופעל', 'Udostępnianie pojedynczego przepisu włączone', 'Delning av enskilda recept aktiverad', 'ఒకే వంటకాన్ని పంచుకునే సౌకర్యం అందుబాటులో ఉంది', 'একক রেসিপি শেয়ারিং চালু', 'Đã bật chia sẻ từng công thức', 'Ndarja e një recete të vetme e aktivizuar', 'Sdílení jednotlivých receptů povoleno', 'Partajarea unei rețete individuale activată')}</span>
             </div>
           </div>
         </div>

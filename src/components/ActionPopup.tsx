@@ -119,7 +119,7 @@ export const ActionPopup: React.FC<ActionPopupProps> = ({
                 className="block w-full text-start py-2 px-3 bg-amber-50 hover:bg-amber-100 rounded transition"
               >
                 <span className="font-medium text-stone-800">{item.title}</span>
-                {item.source && (
+                {item.source && item.source !== item.title && (
                   <span className="ms-2 text-xs text-stone-500">({item.source})</span>
                 )}
               </a>

@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
+import { buildFilterOptions, filterKey } from '../utils/filterLabels';
 import { RecipeCollection, RecipeSummary, SupportedLanguage } from '../types';
 import { RecipeCard } from './RecipeCard';
 import {
@@ -117,13 +118,17 @@ export const RecipeList: React.FC<RecipeListProps> = ({
     };
   }, [lang, searchTerm !== '']);
 
-  const categories = useMemo(() => {
-    return Array.from(new Set(recipes.map(r => getLocalizedRecipe(r, lang).category)));
-  }, [recipes, lang]);
+  // Options are deduplicated by a normalised key (case, near-synonyms); the
+  // selection state holds that key, not the display label.
+  const categories = useMemo(
+    () => buildFilterOptions(recipes.map(r => getLocalizedRecipe(r, lang).category)),
+    [recipes, lang]
+  );
 
-  const cookingMethods = useMemo(() => {
-    return Array.from(new Set(recipes.map(r => getLocalizedRecipe(r, lang).cookingMethod)));
-  }, [recipes, lang]);
+  const cookingMethods = useMemo(
+    () => buildFilterOptions(recipes.map(r => getLocalizedRecipe(r, lang).cookingMethod)),
+    [recipes, lang]
+  );
 
   // Filter and Sort
   const filteredRecipes = useMemo(() => {
@@ -143,8 +148,8 @@ export const RecipeList: React.FC<RecipeListProps> = ({
         localized.category.toLowerCase().includes(normalizedSearch) ||
         r.category.toLowerCase().includes(normalizedSearch);
 
-      const matchCategory = selectedCategory === 'all' || localized.category === selectedCategory;
-      const matchMethod = selectedCookingMethod === 'all' || localized.cookingMethod === selectedCookingMethod;
+      const matchCategory = selectedCategory === 'all' || filterKey(localized.category) === selectedCategory;
+      const matchMethod = selectedCookingMethod === 'all' || filterKey(localized.cookingMethod) === selectedCookingMethod;
       const matchCollection = collection === 'all' || r.collection === collection;
 
       return matchSearch && matchCategory && matchMethod && matchCollection;
@@ -256,13 +261,13 @@ export const RecipeList: React.FC<RecipeListProps> = ({
           </button>
           {cookingMethods.map(m => (
             <button
-              key={m}
-              onClick={() => setSelectedCookingMethod(m)}
+              key={m.key}
+              onClick={() => setSelectedCookingMethod(m.key)}
               className={`px-2.5 py-1 rounded-md text-xs font-medium transition-colors ${
-                selectedCookingMethod === m ? 'bg-amber-100 text-amber-800 font-bold' : 'bg-stone-50 text-stone-600 hover:bg-stone-100'
+                selectedCookingMethod === m.key ? 'bg-amber-100 text-amber-800 font-bold' : 'bg-stone-50 text-stone-600 hover:bg-stone-100'
               }`}
             >
-              {m}
+              {m.label}
             </button>
           ))}
 
@@ -313,13 +318,13 @@ export const RecipeList: React.FC<RecipeListProps> = ({
           </button>
           {categories.map(c => (
             <button
-              key={c}
-              onClick={() => setSelectedCategory(c)}
+              key={c.key}
+              onClick={() => setSelectedCategory(c.key)}
               className={`px-2.5 py-1 rounded-md text-xs font-medium transition-colors ${
-                selectedCategory === c ? 'bg-amber-100 text-amber-800 font-bold' : 'bg-stone-50 text-stone-600 hover:bg-stone-100'
+                selectedCategory === c.key ? 'bg-amber-100 text-amber-800 font-bold' : 'bg-stone-50 text-stone-600 hover:bg-stone-100'
               }`}
             >
-              {c}
+              {c.label}
             </button>
           ))}
         </div>

@@ -398,15 +398,18 @@ export async function getUserCity(): Promise<{ city: string | null; country: str
   }
 }
 
-/** Filter providers based on city and country (if providers declare supportedCities or supportedCountries) */
+/** Filter providers based on city and country (supportedCountries must match a known country; supportedCities is checked when the city is known) */
 export function filterProvidersByCity(providers: Provider[], city: string | null, country: string | null): Provider[] {
   return providers.filter(p => {
     // Filter by city if specified
     if (city && p.supportedCities && !p.supportedCities.includes(city)) {
       return false;
     }
-    // Filter by country if specified
-    if (country && p.supportedCountries && !p.supportedCountries.includes(country)) {
+    // A store that serves only some countries is offered only once the visitor's
+    // country is known and listed. With an unknown country nothing country-specific
+    // is listed (the popup asks for a location instead), so e.g. US-only stores
+    // are never shown to visitors elsewhere.
+    if (p.supportedCountries && (!country || !p.supportedCountries.includes(country))) {
       return false;
     }
     return true;
