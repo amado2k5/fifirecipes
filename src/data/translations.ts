@@ -29,7 +29,8 @@ export const TOP_20_LANGUAGES: LanguageInfo[] = [
   { code: 'bn', name: 'Bengali', nativeName: 'বাংলা', dir: 'ltr', flag: '🇧🇩' },
   { code: 'vi', name: 'Vietnamese', nativeName: 'Tiếng Việt', dir: 'ltr', flag: '🇻🇳' },
   { code: 'sq', name: 'Albanian', nativeName: 'Shqip', dir: 'ltr', flag: '🇦🇱' },
-  { code: 'cs', name: 'Czech', nativeName: 'Čeština', dir: 'ltr', flag: '🇨🇿' }
+  { code: 'cs', name: 'Czech', nativeName: 'Čeština', dir: 'ltr', flag: '🇨🇿' },
+  { code: 'ro', name: 'Romanian', nativeName: 'Română', dir: 'ltr', flag: '🇷🇴' }
 ];
 
 /** Single source of truth for the language count shown in the UI: the switcher and the footer both use this list. */
@@ -126,6 +127,9 @@ export function detectUserLocale(): { language: SupportedLanguage; isKnown: bool
     }
     if (primaryCode === 'cs') {
       return { language: 'cs', isKnown: true, rawLocale };
+    }
+    if (primaryCode === 'ro' || (primaryCode as string) === 'mo') {
+      return { language: 'ro', isKnown: true, rawLocale };
     }
     return { language: 'en', isKnown: true, rawLocale };
   } catch {
@@ -2487,6 +2491,87 @@ export const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> 
     cancel: 'Zrušit',
     noResultsFound: 'Nebyly nalezeny žádné výsledky.',
     close: 'Zavřít',
+  },
+  ro: {
+    glutenFree: "Fără gluten (nu s-a găsit gluten)",
+    glutenContains: "Conține gluten",
+    glutenCheck: "Nu s-a găsit gluten; verificați etichetele ingredientelor cumpărate",
+    lactoseFree: "Fără lactoză (nu s-au găsit lactate)",
+    lactoseContains: "Conține lactoză",
+    lactoseCheck: "Lactoză puțină sau posibilă; verificați ingredientele și etichetele",
+    glutenLactoseNote: "Dedus din ingrediente și pași; poate fi incomplet și nu reprezintă o garanție. Persoanele cu boală celiacă sau intoleranță la lactoză ar trebui să citească etichetele și să întrebe despre contaminarea încrucișată.",
+    allergenContains: "Conține",
+    allergenNone: "Nu s-au găsit alergeni majori",
+    allergenCheck: "Nu s-au găsit alergeni; verificați etichetele ingredientelor cumpărate",
+    allergenUnknown: "Alergenii nu au fost încă evaluați",
+    allergenNote: "Dedus din ingrediente și pași; poate fi incomplet și nu reprezintă o garanție. Citiți etichetele și întrebați despre contaminarea încrucișată.",
+    diabeticFriendly: "Potrivit pentru diabetici (estimare)",
+    diabeticBorderline: "Carbohidrați sau zahăr moderat (estimare)",
+    diabeticNot: "Nepotrivit pentru diabetici (estimare)",
+    diabeticNote: "Estimare pe baza valorilor nutriționale estimate pe porție; nu este un sfat medical. Persoanele cu diabet ar trebui să consulte un medic sau un dietetician.",
+    allergenMilk: "Lapte",
+    allergenEggs: "Ouă",
+    allergenGluten: "Gluten (grâu, orz, secară, ovăz)",
+    allergenNuts: "Fructe cu coajă lemnoasă",
+    allergenPeanuts: "Arahide",
+    allergenSesame: "Susan",
+    allergenSoy: "Soia",
+    allergenFish: "Pește",
+    allergenCrustaceans: "Crustacee",
+    allergenMolluscs: "Moluște",
+    allergenCelery: "Țelină",
+    allergenMustard: "Muștar",
+    allergenLupin: "Lupin",
+    allergenSulphites: "Sulfiți",
+    dietTitle: "Potrivire pentru diete",
+    dietNote: "Dedus din ingrediente și pași; nu este o certificare. Se presupune că toată carnea provine din sacrificare halal sau kosher. Verificați etichetele ingredientelor cumpărate, precum brânza și supa concentrată.",
+    dietHalal: "Halal",
+    dietKosher: "Kosher",
+    dietVegetarian: "Vegetarian",
+    dietVegan: "Vegan",
+    loadError: 'Rețeta nu a putut fi încărcată. Verificați conexiunea și încercați din nou.',
+    loadingMoreRecipes: 'Se încarcă mai multe rețete…',
+    showMoreRecipes: 'Afișați mai multe rețete',
+    recipesLoadFailed: 'Rețetele nu au putut fi încărcate. Verificați conexiunea și reîmprospătați pagina.',
+    languagesSupported: 'limbi',
+    moreIngredients: 'ingrediente în plus',
+    retry: 'Încearcă din nou',
+    sectionFailed: 'A apărut o problemă la afișarea acestei secțiuni.',
+    showMoreItems: 'Afișați mai multe',
+    siteTitle: 'Cartea de bucate a dr. Fatma Alkawokgy',
+    appTitle: 'Cartea de bucate a dr. Fatma Alkawokgy',
+    siteSubtitle: 'Moștenirea autenticei bucătării egiptene',
+    appSubtitle: 'Moștenirea autenticei bucătării egiptene',
+    allRecipes: 'Răsfoiți rețetele',
+    navAllRecipes: 'Răsfoiți rețetele',
+    aboutFatma: 'Despre dr. Fatma',
+    navAboutFatma: 'Despre dr. Fatma',
+    ingredientsRegistry: 'Registrul ingredientelor',
+    navIngredientsRegistry: 'Registrul ingredientelor',
+    choosePreferredLanguage: 'Alegeți limba site-ului',
+    searchPlaceholder: 'Căutați o rețetă, un ingredient sau o metodă...',
+    filterByChapter: 'Filtrați după capitol',
+    prepTime: 'Pregătire',
+    cookTime: 'Gătire',
+    servings: 'Porții',
+    difficulty: 'Dificultate',
+    method: 'Metodă',
+    ingredients: 'Ingrediente principale și cantități exacte',
+    instructions: 'Pregătire pas cu pas',
+    tips: 'Notițele și sfaturile dr. Fatma Alkawokgy',
+    shareRecipe: 'Distribuiți rețeta',
+    noRecipesFound: 'Nicio rețetă nu corespunde căutării',
+    tributeQuote: 'Gătitul este ca pianul; doar armonia sinceră, răbdarea și dragostea duc la perfecțiune.',
+    orderIngredients: 'Comandați ingredientele',
+    orderDish: 'Comandați preparatul',
+    festivals: 'Festivaluri',
+    upcomingEvents: 'Evenimente viitoare',
+    shareLocationBtn: 'Distribuiți locația / Introduceți adresa',
+    enterAddressPlaceholder: 'Introduceți orașul sau adresa...',
+    useThisLocation: 'Folosiți această locație',
+    cancel: 'Anulare',
+    noResultsFound: 'Nu s-au găsit rezultate.',
+    close: 'Închidere',
   }
 };
 

@@ -16,7 +16,7 @@ for ln in lines:
         assert len(S[lang]) == len(KEYS), (lang, len(S[lang]))
         for k, v in zip(KEYS, S[lang]): out.append(f"    {k}: {json.dumps(v, ensure_ascii=False)},")
         n += 1
-assert n == len(S) == 29, (n, len(S))
+assert n == len(S) == 30, (n, len(S))
 text = '\n'.join(out)
-assert text.count('allergenContains:') == 29
+assert text.count('allergenContains:') == 30
 p.write_text(text, encoding='utf-8'); print('inserted into', n, 'languages')

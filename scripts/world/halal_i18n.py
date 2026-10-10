@@ -55,6 +55,8 @@ TERMS = {
     # vín- also starts "vinné listy" (vine leaves) and pivo "pivní kvasnice"
     # (brewer's yeast) — covered by ALLOW below.
     'Cs': r'vepř\w*|sviň\w*|slanin\w*|šunk\w*|vín\w*|piv\w*|rum\w*|likér\w*|koňak\w*|brandy|whisky|vodk\w*|alkohol\w*|medvěd\w*|konin\w*|koňsk\w*|psí maso',
+    # "vin" (wine) is word-bounded so vinete (eggplant) and vinegar words stay out; "oțet de vin" (wine vinegar) is still flagged.
+    'Ro': r'porc\w*|slănin\w*|bacon\w*|șunc\w*|jambon\w*|untur\w*|vin|vinul|vinului|vinuri\w*|bere|berea|berii|rom|romul|lichior\w*|coniac\w*|vodc\w*|whisky|brandy|țuic\w*|pălinc\w*|șampani\w*|alcool\w*|mistreț\w*|urs|ursul|ursului|carne de cal|carne de câine|câine\w*',
     'Ja': r'豚|ポーク|ベーコン|ハム|ラード|日本酒|料理酒|みりん|味醂|ワイン|ビール|ラム酒|焼酎|熊|馬肉|犬',
     'Zh': r'猪|豬|培根|火腿|猪油|料酒|黄酒|米酒|白酒|啤酒|葡萄酒|朗姆|熊|马肉|狗',
     'Ko': r'돼지|베이컨|햄|라드|청주|정종|맛술|미림|소주|와인|맥주|럼주|곰고기|말고기|개고기',
@@ -98,6 +100,8 @@ ALLOW = {
            'rumi', 'rumí',  # sýr rumi/rumí = Egyptian Rumi cheese, not rum
            'krůtí šunka', 'krůtí šunku', 'krůtí šunky',  # turkey ham (halal)
            'bez alkoholu'},  # "without alcohol" negation
+    'Ro': {'drojdie de bere', 'drojdia de bere', 'drojdiei de bere',  # brewer's yeast
+           'fără alcool', 'frunze de viță', 'frunze de viță-de-vie', 'frunzele de viță', 'frunzele de viță-de-vie'},
     'Tr': {'bira mayası'},
     'Fa': {'عرق بهارنارنج', 'عرق گلاب', 'عرق نعناع', 'عرق\u200cسوس', 'عرق سوس', 'بدون الکل'},  # distillates, licorice
     'Ur': {'بغیر شراب'},

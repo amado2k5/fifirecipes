@@ -1,4 +1,4 @@
-"""UI strings for the dietary badges, 29 languages: (title, note, halal, kosher, vegetarian, vegan).
+"""UI strings for the dietary badges, 30 languages: (title, note, halal, kosher, vegetarian, vegan).
 Inserted into src/data/translations.ts by scripts/diet/apply_ui_strings.py. Kurdish is Kurmanji in Latin script."""
 S = {
  'ar': ("الملاءمة الغذائية", "مستنتجة من المكونات والخطوات، وليست شهادة اعتماد. يُفترض أن اللحوم مذبوحة على الطريقة الحلال أو الكوشر. راجع ملصقات المكونات الجاهزة مثل الجبن والمرق.", "حلال", "كوشر", "نباتي", "نباتي صرف (فيغان)"),
@@ -30,5 +30,6 @@ S = {
  'vi': ("Phù hợp chế độ ăn", "Suy ra từ nguyên liệu và các bước; không phải chứng nhận. Thịt được giả định là giết mổ theo chuẩn halal hoặc kosher. Hãy kiểm tra nhãn của nguyên liệu mua sẵn như phô mai và nước dùng.", "Halal", "Kosher", "Ăn chay", "Thuần chay"),
  'sq': ("Përshtatshmëria dietike", "Nxjerrë nga përbërësit dhe hapat; nuk është certifikim. Mishi supozohet i therur sipas rregullave halal ose kosher. Kontrolloni etiketat e përbërësve të blerë, si djathi dhe lëngu i mishit.", "Halal", "Kosher", "Vegjetarian", "Vegan"),
  'cs': ("Vhodnost pro diety", "Odvozeno ze surovin a kroků; není to certifikace. Předpokládá se, že maso pochází z porážky halal nebo košer. Zkontrolujte etikety nakoupených surovin, například sýra a vývaru.", "Halal", "Košer", "Vegetariánské", "Veganské"),
+ 'ro': ("Potrivire pentru diete", "Dedus din ingrediente și pași; nu este o certificare. Se presupune că toată carnea provine din sacrificare halal sau kosher. Verificați etichetele ingredientelor cumpărate, precum brânza și supa concentrată.", "Halal", "Kosher", "Vegetarian", "Vegan"),
 }
 KEYS = ('dietTitle', 'dietNote', 'dietHalal', 'dietKosher', 'dietVegetarian', 'dietVegan')

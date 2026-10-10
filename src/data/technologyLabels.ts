@@ -31,4 +31,5 @@ export const TECHNOLOGY_LABELS: Record<SupportedLanguage, string> = {
   vi: "Công nghệ",
   sq: "Teknologjia",
   cs: "Technologie",
+  ro: "Tehnologie",
 };
