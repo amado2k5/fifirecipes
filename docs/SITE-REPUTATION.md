@@ -21,7 +21,7 @@ GitHub Pages cannot set HTTP response headers, so these are done outside the rep
 
 ## Search and browser consoles (owner)
 
-- Google Search Console: verify the domain (DNS TXT), check Security Issues, submit `sitemap.xml`.
+- Google Search Console: verify the domain (DNS TXT), check Security Issues, submit `sitemap-index.xml` (see SUBMISSION-CHECKLIST.md).
 - Bing Webmaster Tools: import from Search Console.
 - Google Safe Browsing status: https://transparencyreport.google.com/safe-browsing/search
 - Microsoft: https://www.microsoft.com/wdsi/support/report-unsafe-site
