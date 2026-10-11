@@ -34,6 +34,7 @@ import { DataManifest, loadCardTranslations, loadManifest, loadRecipe, loadRecip
 import { formatServings, getCostTotal, getRecipeEstimate } from './data/recipeEstimates';
 import { hasKidsMode, loadKidsApp } from './kids/languages';
 import { TECHNOLOGY_LABELS } from './data/technologyLabels';
+import { LEGAL_LABELS, LEGAL_PAGES } from './data/legalLabels';
 import { CheckCircle2, AlertCircle, Mail } from 'lucide-react';
 
 const FEEDBACK_EMAIL = 'recipe@fifi.cooking';
@@ -556,58 +557,8 @@ export default function App() {
           <div className="pt-4 border-t border-stone-100 flex flex-col sm:flex-row items-center justify-between text-[11px] text-stone-400 gap-2">
             <div className="space-y-1">
               <p>
-                {t(
-                  'جميع حقوق وصفات د. فاطمة القاوقجي محفوظة لعائلتها ومحبي فنها وتراثها الموسيقي والطهوي.',
-                  'All rights reserved to the culinary and artistic legacy of Dr. Fatma Alkawokgy.',
-                  "Tous droits réservés à l'héritage culinaire et artistique du Dr Fatma Alkawokgy.",
-                  'Todos los derechos reservados al legado culinario y artístico de la Dra. Fatma Alkawokgy.',
-                  'ファトマ・アルカウォクジ博士の料理と芸術の遺産に関する権利は保護されています。',
-                  'डॉ. फातिमा अलकावोकजी की पाक और कलात्मक विरासत के सभी अधिकार सुरक्षित हैं।',
-                  'Todos os direitos reservados ao legado culinário e artístico da Dra. Fatma Alkawokgy.',
-                  'Все права на кулинарное и художественное наследие д-ра Фатмы Алькавокджи защищены.',
-                  '法特玛·卡沃克吉博士的美食与艺术遗产版权所有。',
-                  'Alle Rechte am kulinarischen und künstlerischen Erbe von Dr. Fatma Alkawokgy vorbehalten.',
-                  'Tutti i diritti riservati all’eredità culinaria e artistica della Dott.ssa Fatma Alkawokgy.',
-                  'Με επιφύλαξη όλων των δικαιωμάτων επί της γαστρονομικής και καλλιτεχνικής κληρονομιάς της Δρ. Φάτμα Αλκαουόκτζι.',
-                  'ڈاکٹر فاطمہ القاوقجی کے کھانوں اور فن کے ورثے کے جملہ حقوق محفوظ ہیں۔',
-                  'تمامی حقوق میراث آشپزی و هنری دکتر فاطمه القاوقجی محفوظ است.',
-                  'Dr. Fatma Alkawokgy’nin mutfak ve sanat mirasına ait tüm hakları saklıdır.',
-                  'Hemû maf ji bo mîrata metbex û hunerî ya Dr. Fatma Alkawokgy parastî ne.',
-                  'Seluruh hak atas warisan kuliner dan seni Dr. Fatma Alkawokgy dilindungi.',
-                  'Haki zote za urithi wa upishi na sanaa wa Dkt. Fatma Alkawokgy zimehifadhiwa.',
-                  '파트마 알카우크지 박사의 요리 및 예술 유산에 대한 모든 권리 보유.',
-                  'Alle rechten voorbehouden aan het culinaire en artistieke erfgoed van Dr. Fatma Alkawokgy.', 'ټول حقونه د ډاکټرې فاطمې القاوقجي د پخلنځي او هنري میراث لپاره خوندي دي.'
-                , 'כל הזכויות שמורות למורשת הקולינרית והאמנותית של ד"ר פאטמה אלקאווקג׳י.', 'Wszelkie prawa zastrzeżone dla dziedzictwa kulinarnego i artystycznego dr Fatmy Alkawokgy.', 'Alla rättigheter förbehållna Dr. Fatma Alkawokgys kulinariska och konstnärliga arv.', 'డా. ఫాత్మా అల్-కవుక్జీ వంట మరియు కళా వారసత్వపు హక్కులన్నీ రిజర్వ్ చేయబడ్డాయి.', 'ডা. ফাতমা আলকাউকজির রন্ধন ও শিল্প ঐতিহ্যের সর্বস্বত্ব সংরক্ষিত।', 'Mọi quyền đối với di sản ẩm thực và nghệ thuật của Dr. Fatma Alkawokgy được bảo lưu.', 'Të gjitha të drejtat e rezervuara për trashëgiminë kulinare dhe artistike të Dr. Fatma Alkawokgy.', 'Všechna práva vyhrazena kulinářskému a uměleckému odkazu dr. Fatmy Alkawokgy.', 'Toate drepturile sunt rezervate moștenirii culinare și artistice a dr. Fatma Alkawokgy.')}
-              </p>
-              <p>
-                <a
-                  href="https://creativecommons.org/publicdomain/zero/1.0/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline hover:text-amber-700 transition-colors"
-                >
-                  {t(
-                    'هذا المحتوى متاح مجاناً للجميع للاستخدام والنسخ والاستنساخ وإعادة النشر بأي شكل وفي أي مكان، دون أي قيود.',
-                    'This content is free for anyone to use, copy, replicate, and republish in any form, anywhere, with no restrictions.',
-                    'Ce contenu est libre d’utilisation, de copie, de reproduction et de republication sous toute forme, en tout lieu, sans aucune restriction.',
-                    'Este contenido es libre para que cualquiera lo use, copie, reproduzca y vuelva a publicar de cualquier forma, en cualquier lugar, sin restricciones.',
-                    'このコンテンツは、形式を問わず、場所を問わず、誰でも自由に使用・コピー・複製・再公開できます。制限は一切ありません。',
-                    'यह सामग्री किसी भी रूप में, कहीं भी, बिना किसी सीमा के, उपयोग, प्रतिलिपि, पुनरुत्पादन और पुनःप्रकाशन के लिए स्वतंत्र रूप से उपलब्ध है।',
-                    'Este conteúdo é livre para qualquer pessoa usar, copiar, reproduzir e republicar em qualquer formato, em qualquer lugar, sem restrições.',
-                    'Этот контент можно свободно использовать, копировать, воспроизводить и переиздавать в любой форме и где угодно, без каких-либо ограничений.',
-                    '本内容任何人均可免费使用、复制、转载和再发布，形式不限，地点不限，没有任何限制。',
-                    'Dieser Inhalt darf von jedem frei verwendet, kopiert, vervielfältigt und in jeder Form und an jedem Ort ohne Einschränkungen weiterveröffentlicht werden.',
-                    'Questo contenuto è liberamente utilizzabile da chiunque: può essere usato, copiato, riprodotto e ripubblicato in qualsiasi forma e ovunque, senza alcuna limitazione.',
-                    'Αυτό το περιεχόμενο διατίθεται ελεύθερα σε όλους για χρήση, αντιγραφή, αναπαραγωγή και αναδημοσίευση σε οποιαδήποτε μορφή, οπουδήποτε, χωρίς κανέναν περιορισμό.',
-                    'یہ مواد ہر کسی کے لیے مفت ہے: اسے کسی بھی شکل میں، کہیں بھی، بغیر کسی پابندی کے استعمال، کاپی، نقل اور دوبارہ شائع کیا جا سکتا ہے۔',
-                    'این محتوا برای همه آزاد است: می‌توان آن را به هر شکل و در هر جا، بدون هیچ محدودیتی استفاده، کپی، بازتولید و بازنشر کرد.',
-                    'Bu içerik herkes tarafından her biçimde, her yerde, hiçbir kısıtlama olmaksızın kullanılabilir, kopyalanabilir, çoğaltılabilir ve yeniden yayımlanabilir.',
-                    'Ev naverok dikare ji aliyê her kesî ve, bi her awayî, li her derê, bê ti sînor were bikaranîn, kopîkirin, zêdekirin û ji nû ve weşandin.',
-                    'Konten ini bebas digunakan, disalin, diperbanyak, dan diterbitkan ulang oleh siapa pun, dalam bentuk apa pun, di mana pun, tanpa batasan apa pun.',
-                    'Maudhui haya yanaweza kutumiwa, kunakiliwa, kuzalishwa upya, na kuchapishwa upya na mtu yeyote, kwa namna yoyote, mahali popote, bila kizuizi chochote.',
-                    '이 콘텐츠는 누구나 어떤 형태로든, 어디서든, 아무런 제한 없이 사용, 복사, 복제 및 재출판할 수 있습니다.',
-                    'Deze inhoud is vrij voor iedereen om te gebruiken, kopiëren, verveelvoudigen en opnieuw te publiceren in elke vorm, overal, zonder beperkingen.', 'دا منځپانګه د هر چا لپاره وړیا ده چې وکاروي، کاپي کړي، تکرار کړي او په هره بڼه، په هر ځای کې بیا خپره کړي، پرته له کومو بندیزونو.'
-                  , 'תוכן זה חופשי לשימוש, העתקה, שכפול ופרסום מחדש בכל צורה, בכל מקום, ללא הגבלות.', 'Ta treść może być swobodnie używana, kopiowana, powielana i publikowana w dowolnej formie i miejscu, bez ograniczeń.', 'Detta innehåll är fritt för alla att använda, kopiera, reproducera och återpublicera i vilken form som helst, var som helst, utan begränsningar.', 'ఈ కంటెంట్ ఎవరైనా ఏ రూపంలోనైనా, ఎక్కడైనా, ఎలాంటి పరిమితులూ లేకుండా ఉచితంగా వాడుకోవచ్చు, కాపీ చేయవచ్చు, పునర్ముద్రించవచ్చు మరియు తిరిగి ప్రచురించవచ్చు.', 'এই কনটেন্ট যে কেউ যেকোনো রূপে, যেকোনো জায়গায়, কোনো সীমাবদ্ধতা ছাড়াই ব্যবহার, অনুলিপি, পুনরুত্পাদন ও পুনঃপ্রকাশ করতে পারে।', 'Nội dung này miễn phí cho mọi người sử dụng, sao chép, tái tạo và xuất bản lại dưới mọi hình thức, ở bất cứ đâu, không hạn chế.', 'Ky përmbajtje është e lirë për t\'u përdorur, kopjuar, riprodhuar dhe ripublikuar nga kushdo, në çdo formë dhe kudo, pa kufizime.', 'Tento obsah může kdokoli volně používat, kopírovat, reprodukovat a znovu publikovat v jakékoli podobě a kdekoli, bez jakýchkoli omezení.', 'Acest conținut poate fi folosit, copiat, reprodus și republicat de oricine, în orice formă și oriunde, fără nicio restricție.')}
+                <a href={`${import.meta.env.BASE_URL}terms.html`} className="underline hover:text-amber-700 transition-colors">
+                  {(LEGAL_LABELS[lang] ?? LEGAL_LABELS.en).rights}
                 </a>
               </p>
             </div>
@@ -615,6 +566,16 @@ export default function App() {
 <button type="button" onClick={() => setActiveTab('technology')} className="font-bold underline hover:text-amber-700 transition-colors">{TECHNOLOGY_LABELS[lang] ?? TECHNOLOGY_LABELS.en}</button> <span>•</span> <span title={TOP_20_LANGUAGES.map(l => l.nativeName).join(' · ')}>{LANGUAGE_COUNT} {getUIText(lang, 'languagesSupported')}</span> <span>•</span> <span>{t('مشاركة الوصفة الفردية مفعّلة', 'Single-Recipe Sharing Enabled', 'Partage de Recette Individuelle Activé', 'Compartir Receta Individual Habilitado', '個別レシピの共有が可能', 'एकल रेसिपी साझा करने की सुविधा उपलब्ध', 'Compartilhamento de receita individual habilitado', 'Доступен обмен ссылкой на отдельный рецепт', '支持单个食谱分享', 'Teilen einzelner Rezepte aktiviert', 'Condivisione della singola ricetta attiva', 'Ενεργοποιημένη κοινή χρήση μεμονωμένης συνταγής', 'انفرادی ترکیب شیئر کرنے کی سہولت دستیاب', 'اشتراک‌گذاری تک‌دستور فعال است', 'Tek Tarif Paylaşımı Etkin', 'Parvekirina Reçeteya Takekesî Çalak e', 'Berbagi Resep Satuan Diaktifkan', 'Kushiriki Mapishi Moja Kumewezeshwa', '개별 레시피 공유 활성화됨', 'Delen van losse recepten ingeschakeld', 'د یو ځانګړي ترکیب شریکول فعال دی', 'שיתוף מתכון בודד מופעל', 'Udostępnianie pojedynczego przepisu włączone', 'Delning av enskilda recept aktiverad', 'ఒకే వంటకాన్ని పంచుకునే సౌకర్యం అందుబాటులో ఉంది', 'একক রেসিপি শেয়ারিং চালু', 'Đã bật chia sẻ từng công thức', 'Ndarja e një recete të vetme e aktivizuar', 'Sdílení jednotlivých receptů povoleno', 'Partajarea unei rețete individuale activată')}</span>
             </div>
           </div>
+
+          {/* Legal pages (public/*.html). */}
+          <nav aria-label={(LEGAL_LABELS[lang] ?? LEGAL_LABELS.en).terms} className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-[11px] text-stone-500">
+            {LEGAL_PAGES.map((page, index) => (
+              <React.Fragment key={page.href}>
+                {index > 0 && <span aria-hidden="true">•</span>}
+                <a href={`${import.meta.env.BASE_URL}${page.href}`} className="underline hover:text-amber-700 transition-colors">{(LEGAL_LABELS[lang] ?? LEGAL_LABELS.en)[page.key]}</a>
+              </React.Fragment>
+            ))}
+          </nav>
 
           {/* Sister sites and the native apps (same store links as public/app-banner.js). */}
           <nav dir="ltr" className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-[11px] text-stone-400">
