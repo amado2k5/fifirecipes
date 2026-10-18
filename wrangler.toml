@@ -1,0 +1,4 @@
+# Cloudflare Pages project configuration.
+# The worker/ subdirectory has its own wrangler.toml for the fifi-home-feed Worker.
+name = "fifi-cooking"
+pages_build_output_dir = "dist"
