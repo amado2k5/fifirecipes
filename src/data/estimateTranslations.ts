@@ -1424,8 +1424,55 @@ const cs: EstimateStrings = {
   kcalChip: '≈ {v} kcal / porce',
   costChip: '≈ {v} / porce'
 };
+const ro: EstimateStrings = {
+  tab: 'Nutriție și cost',
+  nutritionTitle: 'Valori nutriționale',
+  perServingBasis: 'Pe porție — rețeta are aproximativ {n} porții',
+  nutrient: 'Nutrient',
+  perServing: 'Pe porție',
+  calories: 'Calorii',
+  protein: 'Proteine',
+  fat: 'Grăsimi',
+  carbs: 'Carbohidrați',
+  fiber: 'Fibre',
+  sugar: 'Zaharuri',
+  kcal: 'kcal',
+  grams: 'g',
+  energySplit: 'De unde provin caloriile',
+  healthTitle: 'Note despre sănătate',
+  tags: {
+    highProtein: { label: 'Bogat în proteine', hint: 'O mare parte din calorii provine din proteine.' },
+    goodFiber: { label: 'Sursă bună de fibre', hint: 'Aproximativ 5 g de fibre sau mai mult pe porție.' },
+    light: { label: 'Preparat ușor', hint: 'Sub 250 kcal pe porție.' },
+    hearty: { label: 'Consistent și sățios', hint: '600 kcal sau mai mult pe porție — potrivit ca fel principal.' },
+    highSugar: { label: 'Bogat în zahăr', hint: 'Cel mai bine ca desert ocazional.' },
+    highFat: { label: 'Bogat în grăsimi', hint: 'Jumătate sau mai mult din calorii provin din grăsimi.' },
+    lowFat: { label: 'Sărac în grăsimi', hint: '5 g de grăsimi sau mai puțin pe porție.' },
+    meatFree: { label: 'Fără carne', hint: 'Ingredientele nu conțin carne, pasăre sau pește.' }
+  },
+  costTitle: 'Costul estimat al rețetei',
+  ingredientGroup: 'Grupă de ingrediente',
+  costUsd: 'Cost (USD)',
+  groups: {
+    protein: 'Carne, pasăre și fructe de mare',
+    dairyEggs: 'Lactate, ghee și ouă',
+    produce: 'Legume, verdețuri și fructe',
+    grains: 'Orez, făină, paste și leguminoase',
+    fats: 'Uleiuri și grăsimi de gătit',
+    sweeteners: 'Zahăr, miere și siropuri',
+    specialty: 'Nuci, fructe uscate și produse speciale',
+    spices: 'Condimente și asezonări'
+  },
+  total: 'Total estimat',
+  costPerServing: 'Pe porție',
+  estimated: 'estimat',
+  nutritionNote: 'Valori aproximative calculate din ingredientele rețetei pe baza datelor nutriționale uzuale. Nu înlocuiesc sfatul unui dietetician.',
+  costNote: 'Pe baza prețurilor medii din supermarketurile din SUA; costurile reale variază în funcție de țară, sezon și marcă.',
+  kcalChip: '≈ {v} kcal / porție',
+  costChip: '≈ {v} / porție'
+};
 const ESTIMATE_STRINGS: Partial<Record<SupportedLanguage, EstimateStrings>> = {
-  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps, he, pl, sv, te, bn, vi, sq, cs
+  en, ar, fr, es, ja, hi, pt, ru, zh, de, it, el, ur, fa, tr, ku, id, sw, ko, nl, ps, he, pl, sv, te, bn, vi, sq, cs, ro
 };
 
 export function getEstimateStrings(lang: SupportedLanguage): EstimateStrings {

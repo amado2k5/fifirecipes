@@ -13,6 +13,7 @@ import {
 import { getRecipeThumbnail } from '../data/recipeImages';
 import { getUIText } from '../data/translations';
 import { getAdditionalRecipesText } from '../data/additionalRecipesText';
+import { HealthTags } from './HealthTags';
 import { getLocalizedIngredient, getLocalizedRecipe } from '../utils/recipeLocalization';
 
 interface RecipeCardProps {
@@ -63,7 +64,8 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
   const isVi = lang === 'vi';
   const isSq = lang === 'sq';
   const isCs = lang === 'cs';
-  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string, fa: string, tr: string, ku: string, id: string, sw: string, ko: string, nl = en, ps = en, he = en, pl = en, sv = en, te = en, bn = en, vi = en, sq = en, cs = en) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : isFa ? fa : isTr ? tr : isKu ? ku : isId ? id : isSw ? sw : isKo ? ko : isNl ? nl : isPs ? ps : isHe ? he : isPl ? pl : isSv ? sv : isTe ? te : isBn ? bn : isVi ? vi : isSq ? sq : isCs ? cs : en);
+  const isRo = lang === 'ro';
+  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string, fa: string, tr: string, ku: string, id: string, sw: string, ko: string, nl = en, ps = en, he = en, pl = en, sv = en, te = en, bn = en, vi = en, sq = en, cs = en, ro = en) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : isFa ? fa : isTr ? tr : isKu ? ku : isId ? id : isSw ? sw : isKo ? ko : isNl ? nl : isPs ? ps : isHe ? he : isPl ? pl : isSv ? sv : isTe ? te : isBn ? bn : isVi ? vi : isSq ? sq : isCs ? cs : isRo ? ro : en);
   const imageUrl = getRecipeThumbnail(recipe.id, recipe.imageUrl);
 
   // The photo is requested only while the card is near the viewport, and the
@@ -113,6 +115,9 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
           alt={localized.title}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           referrerPolicy="no-referrer"
+          width={800}
+          height={600}
+          loading="lazy"
           decoding="async"
           onLoad={() => setLoadedUrl(imageUrl)}
         />
@@ -168,27 +173,20 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
             </p>
           )}
 
-          {/* Times & Servings */}
-          <div className="flex items-center gap-3 text-xs text-stone-600 mt-3 pt-2.5 border-t border-stone-100">
-            {localized.prepTime && (
-              <div className="flex items-center gap-1" title={getUIText(lang, 'prepTime')}>
-                <Clock className="w-3.5 h-3.5 text-stone-400" />
-                <span>{localized.prepTime}</span>
+          {/* Times & Servings: three fixed slots, so a missing value shows "—" and can never shift another row into its place. */}
+          <dl className="grid grid-cols-3 gap-2 text-xs text-stone-600 mt-3 pt-2.5 border-t border-stone-100">
+            {([
+              { key: 'prepTime', Icon: Clock, tone: 'text-stone-400', value: localized.prepTime },
+              { key: 'cookTime', Icon: Flame, tone: 'text-amber-500', value: localized.cookTime },
+              { key: 'servings', Icon: Users, tone: 'text-stone-400', value: localized.servings }
+            ] as const).map(({ key, Icon, tone, value }) => (
+              <div key={key} className="flex items-center gap-1 min-w-0" title={getUIText(lang, key)}>
+                <dt className="sr-only">{getUIText(lang, key)}</dt>
+                <Icon className={`w-3.5 h-3.5 shrink-0 ${tone}`} aria-hidden="true" />
+                <dd className="truncate">{value?.trim() ? value : '—'}</dd>
               </div>
-            )}
-            {localized.cookTime && (
-              <div className="flex items-center gap-1" title={getUIText(lang, 'cookTime')}>
-                <Flame className="w-3.5 h-3.5 text-amber-500" />
-                <span>{localized.cookTime}</span>
-              </div>
-            )}
-            {localized.servings && (
-              <div className="flex items-center gap-1" title={getUIText(lang, 'servings')}>
-                <Users className="w-3.5 h-3.5 text-stone-400" />
-                <span>{localized.servings}</span>
-              </div>
-            )}
-          </div>
+            ))}
+          </dl>
 
           {/* Master Ingredients Pills */}
           <div className="mt-3">
@@ -202,11 +200,16 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
                 </span>
               ))}
               {recipe.ingredientCount > 3 && (
-                <span className="text-[10px] text-stone-400 self-center px-1">
-                  +{recipe.ingredientCount - 3}
+                <span
+                  className="text-[10px] text-stone-400 self-center px-1"
+                  title={`+${recipe.ingredientCount - 3} ${getUIText(lang, 'moreIngredients')}`}
+                >
+                  <span aria-hidden="true">+{recipe.ingredientCount - 3}</span>
+                  <span className="sr-only">{`+${recipe.ingredientCount - 3} ${getUIText(lang, 'moreIngredients')}`}</span>
                 </span>
               )}
             </div>
+            <HealthTags recipeId={recipe.id} lang={lang} variant="card" />
           </div>
         </div>
 
@@ -214,7 +217,7 @@ export const RecipeCard: React.FC<RecipeCardProps> = ({
         <div className="mt-4 pt-3 border-t border-stone-100 flex items-center justify-between text-xs">
           <div className="flex items-center gap-1 text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200/50 text-[11px]">
             <Sparkles className="w-3 h-3 text-emerald-600" />
-<span className="font-semibold">{recipe.stepCount} {t('خطوة فريدة', 'steps', 'étapes', 'pasos', 'ステップ', 'चरण', 'passos', (recipe.stepCount % 10 === 1 && recipe.stepCount % 100 !== 11 ? 'шаг' : [2, 3, 4].includes(recipe.stepCount % 10) && ![12, 13, 14].includes(recipe.stepCount % 100) ? 'шага' : 'шагов'), '步骤', 'Schritte', 'passaggi', 'βήματα', 'مراحل', 'مرحله', 'adım', 'gav', 'langkah', 'hatua', '단계', 'stappen', 'ګامونه', 'שלבים', 'kroków', 'steg', 'దశలు', 'ধাপ', 'bước', 'hapa', 'kroky')}</span> </div> <span className="font-semibold text-amber-700 group-hover:text-amber-900 flex items-center gap-1"> <span>{t('عرض الوصفة', 'View Recipe', 'Voir la Recette', 'Ver Receta', 'レシピを見る', 'रेसिपी देखें', 'Ver Receita', 'Смотреть Рецепт', '查看食谱', 'Rezept Ansehen', 'Vedi Ricetta', 'Δείτε τη Συνταγή', 'ترکیب دیکھیں', 'مشاهده دستور', 'Tarifi Gör', 'Reçeteyê Bibîne', 'Lihat Resep', 'Tazama Mapishi', '레시피 보기', 'Recept bekijken', 'ترکیب وګورئ', 'צפו במתכון', 'Zobacz przepis', 'Visa recept', 'వంటకం చూడండి', 'রেসিপি দেখুন', 'Xem công thức', 'Shiko recetën', 'Zobrazit recept')}</span>
+<span className="font-semibold">{recipe.stepCount} {t('خطوة فريدة', 'steps', 'étapes', 'pasos', 'ステップ', 'चरण', 'passos', (recipe.stepCount % 10 === 1 && recipe.stepCount % 100 !== 11 ? 'шаг' : [2, 3, 4].includes(recipe.stepCount % 10) && ![12, 13, 14].includes(recipe.stepCount % 100) ? 'шага' : 'шагов'), '步骤', 'Schritte', 'passaggi', 'βήματα', 'مراحل', 'مرحله', 'adım', 'gav', 'langkah', 'hatua', '단계', 'stappen', 'ګامونه', 'שלבים', 'kroków', 'steg', 'దశలు', 'ধাপ', 'bước', 'hapa', 'kroky', 'pași')}</span> </div> <span className="font-semibold text-amber-700 group-hover:text-amber-900 flex items-center gap-1"> <span>{t('عرض الوصفة', 'View Recipe', 'Voir la Recette', 'Ver Receta', 'レシピを見る', 'रेसिपी देखें', 'Ver Receita', 'Смотреть Рецепт', '查看食谱', 'Rezept Ansehen', 'Vedi Ricetta', 'Δείτε τη Συνταγή', 'ترکیب دیکھیں', 'مشاهده دستور', 'Tarifi Gör', 'Reçeteyê Bibîne', 'Lihat Resep', 'Tazama Mapishi', '레시피 보기', 'Recept bekijken', 'ترکیب وګورئ', 'צפו במתכון', 'Zobacz przepis', 'Visa recept', 'వంటకం చూడండి', 'রেসিপি দেখুন', 'Xem công thức', 'Shiko recetën', 'Zobrazit recept', 'Vezi rețeta')}</span>
             {isRtl ? <ArrowLeft className="w-3.5 h-3.5" /> : <ArrowRight className="w-3.5 h-3.5" />}
           </span>
         </div>

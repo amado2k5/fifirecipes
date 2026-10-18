@@ -23,6 +23,21 @@ export default defineConfig(() => {
     // Relative assets work from both the repository Pages URL and a custom apex domain.
     base: './',
     plugins: [react(), tailwindcss()],
+    build: {
+      rolldownOptions: {
+        output: {
+          // Long-lived chunks the browser can keep cached across deploys: React itself,
+          // and the UI/name translation tables. Both are needed on first paint, so they
+          // load in parallel with the app code (Vite adds modulepreload links for them).
+          codeSplitting: {
+            groups: [
+              { name: 'react-vendor', test: /node_modules[\\/](react|react-dom|scheduler)[\\/]/ },
+              { name: 'i18n', test: /src[\\/](data[\\/]translations|utils[\\/]recipeLocalization)\.ts$/ }
+            ]
+          }
+        }
+      }
+    },
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),

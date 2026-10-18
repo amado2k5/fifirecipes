@@ -1,0 +1,230 @@
+{
+  "footerLink": "Teknologi",
+  "back": "Kembali ke resep",
+  "title": "Teknologi di balik fifi.cooking",
+  "intro": "fifi.cooking adalah arsip resep gratis dan sumber terbuka yang dibuat agar awet. Tidak ada akun, tidak ada iklan, dan tidak ada server yang harus terus dijaga: situs web dan semua aplikasi membaca berkas terbuka yang sama. Halaman ini menjelaskan terbuat dari apa situs ini, bagaimana ia sampai ke perangkat Anda, dan bagaimana ia terhubung dengan Cookwala, standar terbuka untuk memasak dengan aman.",
+  "stats": {
+    "recipes": "resep",
+    "languages": "bahasa",
+    "platforms": "platform",
+    "accounts": "akun atau iklan"
+  },
+  "sections": [
+    {
+      "id": "web",
+      "heading": "Cara situs web ini dibuat",
+      "items": [
+        {
+          "title": "React 19 dan TypeScript",
+          "text": "Antarmukanya ditulis dengan TypeScript dan React, sehingga setiap layar dan setiap data resep memiliki tipe yang diperiksa."
+        },
+        {
+          "title": "Vite 8 dan Tailwind CSS 4",
+          "text": "Vite membangun situs dengan cepat dan memecahnya menjadi potongan-potongan kecil. Tailwind mengatur tampilannya, termasuk tata letak kanan-ke-kiri yang lengkap untuk bahasa Arab, Persia, Urdu, Pashto, dan Ibrani."
+        },
+        {
+          "title": "Statis sejak awal",
+          "text": "Tidak ada backend, basis data, atau login. Semuanya diubah menjadi berkas biasa saat situs dibangun, lalu disajikan oleh GitHub Pages di fifi.cooking."
+        },
+        {
+          "title": "Hanya memuat yang Anda buka",
+          "text": "Terjemahan bahasa Anda, resep yang Anda buka, Masak Bersama Anak, dan halaman peringatan hanya diambil saat dibutuhkan, sehingga layar pertama tetap ringan."
+        },
+        {
+          "title": "Ikon Lucide dan Motion",
+          "text": "Ikon berasal dari Lucide dan animasi yang lembut dari Motion."
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "Data resep",
+      "items": [
+        {
+          "title": "Satu JSON API terbuka",
+          "text": "Setiap resep, terjemahan, indeks pencarian, dan indeks bahan adalah berkas di bawah fifi.cooking/data. Manifes membawa versi berupa hash isi, setiap URL tidak pernah berubah untuk versi tertentu, dan permintaan lintas asal diizinkan, sehingga siapa pun dapat membangun sesuatu di atasnya."
+        },
+        {
+          "title": "Satu berkas per resep",
+          "text": "Berkas resep berisi teks aslinya, perkiraan gizi dan biayanya, serta terjemahannya ke setiap bahasa."
+        },
+        {
+          "title": "Pencarian dalam setiap bahasa",
+          "text": "Indeks pencarian dibuat untuk setiap bahasa, sehingga pencarian berjalan tanpa server."
+        },
+        {
+          "title": "Perkiraan gizi dan biaya",
+          "text": "Setiap resep memuat kalori, protein, karbohidrat, dan lemak yang dihitung, serta perkiraan biaya."
+        },
+        {
+          "title": "Tampilan naskah asli",
+          "text": "Resep dari arsip Dr. Fatma dapat ditampilkan sebagai gambaran bergambar dari teks Arab aslinya."
+        },
+        {
+          "title": "Mudah ditemukan mesin pencari",
+          "text": "Setiap resep juga punya halaman statisnya sendiri dengan markup Recipe schema.org, dan proses pembangunan menghasilkan peta situs serta memberi tahu mesin pencari melalui IndexNow."
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "heading": "Bahasa dan aturan makanan",
+      "items": [
+        {
+          "title": "29 bahasa",
+          "text": "Situs dan resepnya tersedia dalam 29 bahasa. Bahasa Kurdi yang dipakai adalah Kurmanji dalam aksara Latin."
+        },
+        {
+          "title": "Diperiksa sebelum setiap perubahan",
+          "text": "Sebuah perintah bernama check:world dijalankan sebelum perubahan resep apa pun disimpan. Perintah ini memeriksa bahwa setiap kolom memakai satu aksara, bahwa strukturnya lengkap, bahwa nama hidangan Arab mengikuti glosarium, dan bahwa pemeriksaan tipe pada kodenya lolos."
+        },
+        {
+          "title": "Halal sebagai aturan",
+          "text": "Resep tidak mengandung babi atau alkohol, termasuk yang tersembunyi seperti mirin. Pemeriksaan halal otomatis juga dijalankan pada setiap terjemahan, karena sebuah terjemahan bisa saja memasukkan bahan terlarang dengan sendirinya."
+        }
+      ]
+    },
+    {
+      "id": "making",
+      "heading": "Cara resep dan gambar dibuat",
+      "items": [
+        {
+          "title": "Alur masakan dunia",
+          "text": "Resep dari banyak negara melewati langkah-langkah tetap: mencari sumber, menulis draf dengan model bahasa yang berjalan di komputer lokal, mengimpornya, mengauditnya untuk kehalalan, menerjemahkannya, menambahkan perkiraan, dan menambahkan gambar. Sebuah negara baru tayang setelah semua langkah selesai."
+        },
+        {
+          "title": "Gambar buatan AI",
+          "text": "Gambar resep adalah ilustrasi yang dihasilkan di komputer lokal dengan model FLUX.2. Gambar-gambar itu menunjukkan seperti apa hidangannya bisa terlihat. Itu bukan foto hidangan yang sudah dimasak."
+        },
+        {
+          "title": "Gambar yang cepat",
+          "text": "Setiap gambar dikompres dan juga disimpan sebagai gambar mini yang lebih kecil, memakai sharp, sehingga halaman cepat dimuat pada koneksi yang lambat."
+        },
+        {
+          "title": "Video memasak",
+          "text": "Sebuah tugas terjadwal mencari di YouTube seminggu sekali dan menyimpan video yang cocok untuk setiap resep. Video ditampilkan di tab Video dan baru dimuat saat Anda membukanya."
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "heading": "Yang bisa Anda lakukan",
+      "items": [
+        {
+          "title": "Jelajahi, cari, dan saring",
+          "text": "Cari semua resep, saring menurut bab, kategori, dan cara memasak, atau lihat satu daftar gabungan bahan di seluruh arsip."
+        },
+        {
+          "title": "Masak Bersama Anak",
+          "text": "Mode yang menyenangkan dengan gambar buatan tangan, satu langkah singkat per layar, pembacaan lantang, pengatur waktu, dan lencana \"dibantu orang dewasa\" pada langkah yang memakai pisau, api, atau blender."
+        },
+        {
+          "title": "Bagikan resep",
+          "text": "Bagikan satu resep atau seluruh situs dengan lembar berbagi di perangkat Anda."
+        },
+        {
+          "title": "Peringatan yang hidup",
+          "text": "Baca biografi Dr. Fatma Alkawokgy (1943–2026) dan kirimkan penghormatan lewat email."
+        }
+      ]
+    },
+    {
+      "id": "devices",
+      "heading": "Perangkat dan tempat ia menjangkau Anda",
+      "intro": "Setiap aplikasi membaca berkas data terbuka yang sama, sehingga resep baru muncul di mana-mana setelah satu kali penayangan.",
+      "items": [
+        {
+          "title": "Situs web",
+          "text": "fifi.cooking berfungsi di peramban modern apa pun, di ponsel, tablet, dan komputer."
+        },
+        {
+          "title": "Android",
+          "text": "Aplikasi native yang ditulis dengan Kotlin dan Jetpack Compose, untuk ponsel, tablet, ponsel lipat, dan Chromebook. Aplikasi ini tidak memakai analitik, iklan, maupun Google Play Services."
+        },
+        {
+          "title": "iPhone dan iPad",
+          "text": "Aplikasi SwiftUI native yang menyesuaikan diri dengan iPhone dan iPad, tanpa pustaka pihak ketiga."
+        },
+        {
+          "title": "Apple TV",
+          "text": "Aplikasi SwiftUI native untuk tvOS, dirancang untuk Siri Remote."
+        },
+        {
+          "title": "Amazon Fire TV",
+          "text": "Aplikasi React yang ramah remote dengan navigasi tombol arah, dikemas untuk Fire OS."
+        },
+        {
+          "title": "Samsung Smart TV",
+          "text": "Aplikasi web untuk Tizen, untuk TV Samsung dari tahun 2020 ke atas, yang berbagi kodenya dengan aplikasi Fire TV."
+        },
+        {
+          "title": "Terbuka di tempat yang tepat",
+          "text": "Universal Links dan Android App Links membuat tautan resep terbuka di aplikasi jika sudah terpasang, dan di peramban jika belum. Setiap aplikasi punya halamannya sendiri di subdomain fifi.cooking."
+        },
+        {
+          "title": "Layar utama TV yang selalu segar",
+          "text": "Sebuah Cloudflare Worker kecil mengacak ulang layar utama TV setiap kali aplikasi dibuka, sehingga barisannya tidak pernah sama dua kali."
+        }
+      ]
+    },
+    {
+      "id": "deploy",
+      "heading": "Membangun dan menayangkan",
+      "items": [
+        {
+          "title": "Penayangan otomatis",
+          "text": "Setiap perubahan yang digabungkan ke cabang utama menjalankan alur kerja GitHub Actions yang memasang proyek, menghasilkan semua berkas data, membangun situs, dan menerbitkannya ke GitHub Pages."
+        },
+        {
+          "title": "Pembaruan mingguan",
+          "text": "Alur kerja kedua berjalan setiap hari Senin, memperbarui video resep, menyimpan hasilnya, dan memicu penayangan baru."
+        },
+        {
+          "title": "Aplikasi yang diuji",
+          "text": "Aplikasi Android, iPhone dan iPad, serta Apple TV masing-masing punya alur kerja pembangunan dan pengujian otomatis, dan aplikasi Samsung dan Fire TV punya alur kerja pembangunan dan penayangan sendiri."
+        },
+        {
+          "title": "Semuanya terbuka",
+          "text": "Alur kerja, skrip, dan pemeriksaan ada di repositori, sehingga Anda bisa melihat dengan tepat bagaimana sebuah perubahan menjadi halaman yang tayang."
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "heading": "Privasi",
+      "items": [
+        {
+          "title": "Tanpa akun, iklan, atau pelacakan dari kami",
+          "text": "Anda tidak perlu masuk, tidak ada yang dijual, dan situs ini tidak menjalankan iklan atau pelacakan lintas situs."
+        },
+        {
+          "title": "Terus terang soal pihak ketiga",
+          "text": "Hosting, font, dan fitur lokasi yang bersifat opsional melibatkan layanan luar. Halaman privasi mencantumkan masing-masing."
+        }
+      ]
+    }
+  ],
+  "openSource": {
+    "heading": "Sumber terbuka, terbuka untuk semua orang",
+    "text": "fifi.cooking adalah sumber terbuka. Siapa pun boleh membaca kodenya, memperbaikinya, menerjemahkannya, melaporkan masalah, atau mengirim pull request. Anda bebas memakai kode ini di aplikasi apa pun yang Anda suka, di bawah MIT License.",
+    "points": [
+      "Perbaiki bug, sempurnakan terjemahan, atau tambahkan fitur.",
+      "Tambahkan bahasa, resep, atau gambar yang lebih baik.",
+      "Salin bagian mana pun dari kode ke proyek Anda sendiri.",
+      "Teks dan gambar resep mengikuti ketentuan di bagian bawah situs."
+    ],
+    "buttons": {
+      "code": "Lihat kode",
+      "contribute": "Cara berkontribusi",
+      "license": "Baca lisensi",
+      "issues": "Laporkan masalah",
+      "privacy": "Halaman privasi"
+    },
+    "reposHeading": "Semua repositori"
+  },
+  "cookwala": {
+    "heading": "Kaitannya dengan Cookwala",
+    "text": "Cookwala adalah standar terbuka untuk memasak dengan aman, bagi manusia, dapur, dan robot. Cookwala dimulai oleh fifi.cooking, yang juga menjadi sumber resep pertamanya. Resep di sini diekspor sebagai dokumen Cookwala, masing-masing dengan hash, kredit, dan lisensi, dan server MCP Cookwala memungkinkan asisten AI mencari data terbuka fifi.cooking. Semua yang dijelaskan di halaman ini, dari berkas statis hingga API terbuka, itulah yang memungkinkannya.",
+    "button": "Kunjungi Cookwala"
+  }
+}

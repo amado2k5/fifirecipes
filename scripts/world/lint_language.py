@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Script-consistency lint for the world-cuisine recipes (w-*).
+"""Script-consistency lint for every recipe (core and world-cuisine w-*).
 
     python3 scripts/world/lint_language.py                 # report, exit 1 on findings
     python3 scripts/world/lint_language.py --json out.json # also dump findings
@@ -47,7 +47,7 @@ RANGES = [
 ]
 
 # Kurdish is Kurmanji (Latin script) everywhere in the app — UI, chapter names, core recipes.
-LATIN_LANGS = ['En', 'Es', 'Fr', 'De', 'It', 'Nl', 'Pt', 'Pl', 'Sv', 'Tr', 'Id', 'Sw', 'Ku', 'Vi', 'Sq', 'Cs']
+LATIN_LANGS = ['En', 'Es', 'Fr', 'De', 'It', 'Nl', 'Pt', 'Pl', 'Sv', 'Tr', 'Id', 'Sw', 'Ku', 'Vi', 'Sq', 'Cs', 'Ro']
 ALLOWED = {**{l: {'Latin'} for l in LATIN_LANGS},
            'AR': {'Arabic'}, 'Fa': {'Arabic'}, 'Ur': {'Arabic'},
            'Ps': {'Arabic'},
@@ -177,24 +177,24 @@ def main():
                     f"counts {len(e.get('ingredients', {}))}/{len(e.get('instructions', {}))} "
                     f"!= catalog {len(r['ingredients'])}/{len(r['steps'])}"]))
         for rid, entry in table.items():
-            if not rid.startswith('w-'):
-                continue
+            # Script consistency is checked for every recipe (core and world).
             # Shape: every step is a plain string and every ingredient is
             # {name, standardAmount}. Model output has put ingredient objects
             # and Python dict reprs into step slots, which walk() would accept.
-            for k, v in entry.get('instructions', {}).items():
-                if not isinstance(v, str) or v.lstrip().startswith(('{', '[')):
-                    findings.append(dict(lang=lang, id=rid, path=f'instructions.{k}',
-                                         bad=['not a plain string'], text=str(v)))
-            for k, v in entry.get('ingredients', {}).items():
-                if not (isinstance(v, dict) and all(isinstance(v.get(f), str)
-                                                    for f in ('name', 'standardAmount'))):
-                    findings.append(dict(lang=lang, id=rid, path=f'ingredients.{k}',
-                                         bad=['bad ingredient shape'], text=str(v)))
+            if rid.startswith('w-'):
+                for k, v in entry.get('instructions', {}).items():
+                    if not isinstance(v, str) or v.lstrip().startswith(('{', '[')):
+                        findings.append(dict(lang=lang, id=rid, path=f'instructions.{k}',
+                                             bad=['not a plain string'], text=str(v)))
+                for k, v in entry.get('ingredients', {}).items():
+                    if not (isinstance(v, dict) and all(isinstance(v.get(f), str)
+                                                        for f in ('name', 'standardAmount'))):
+                        findings.append(dict(lang=lang, id=rid, path=f'ingredients.{k}',
+                                             bad=['bad ingredient shape'], text=str(v)))
             for p, s in walk(entry):
                 if p == 'chapter':
                     continue  # runtime uses CHAPTER_NAMES_*[chapterNumber]
-                bad = check(lang, s) + ([] if s.strip() else ['empty'])
+                bad = check(lang, s) + ([] if s.strip() or not rid.startswith('w-') else ['empty'])
                 if bad:
                     findings.append(dict(lang=lang, id=rid, path=p, bad=bad, text=s))
 

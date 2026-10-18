@@ -484,6 +484,22 @@ const TEXT: Partial<Record<SupportedLanguage, AdditionalRecipesText>> & { en: Ad
     citationLabel: 'V knize:',
     citationVideo: 'Video:',
     tips: 'Tipy a poznámky'
+  },
+  ro: {
+    badge: 'Rețetă suplimentară',
+    notice: 'Aceasta este o rețetă suplimentară, care nu provine din manuscrisele dr. Fatma Alkawokgy. Am rescris-o cu propriile noastre cuvinte și menționăm sursa originală.',
+    sourceLabel: 'Sursă:',
+    ingredientsNote: 'Cantitățile sunt cele din sursă, adaptate la formatul nostru. Bifați ingredientele pe măsură ce le pregătiți.',
+    collectionAll: 'Toate rețetele',
+    collectionArchive: 'Arhiva dr. Fatma',
+    collectionAdditional: 'Rețete suplimentare (Chef Teta)',
+    collectionOsool: 'Cartea de bucate Osool El Tahy',
+    collectionAbdennour: 'Cartea de bucate Egyptian Cooking (Samia Abdennour)',
+    collectionAbuhaty: 'Canalul Fatma Abu Haty (YouTube)',
+    collectionWorld: 'Bucătării ale lumii',
+    citationLabel: 'În carte:',
+    citationVideo: 'Video:',
+    tips: 'Sfaturi și note'
   }
 };
 

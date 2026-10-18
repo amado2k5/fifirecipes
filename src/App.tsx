@@ -13,6 +13,7 @@ import { RecipeList } from './components/RecipeList';
 const MasterIngredientsView = lazy(() => import('./components/MasterIngredientsView').then(m => ({ default: m.MasterIngredientsView })));
 const RecipeDetailModal = lazy(() => import('./components/RecipeDetailModal').then(m => ({ default: m.RecipeDetailModal })));
 const FatmaMemorialSection = lazy(() => import('./components/FatmaMemorialSection').then(m => ({ default: m.FatmaMemorialSection })));
+const TechnologyPage = lazy(() => import('./components/TechnologyPage').then(m => ({ default: m.TechnologyPage })));
 const TributePage = lazy(() => import('./components/TributePage').then(m => ({ default: m.TributePage })));
 const KidsApp = lazy(loadKidsApp);
 
@@ -22,16 +23,33 @@ function preloadRecipeView() {
   if ('requestIdleCallback' in window) window.requestIdleCallback(load, { timeout: 4000 });
   else setTimeout(load, 2000);
 }
-import { detectUserLanguage, getUIText, TOP_20_LANGUAGES } from './data/translations';
-import { getLocalizedRecipe, ensureTranslationTable } from './utils/recipeLocalization';
+import { detectUserLanguage, getUIText, TOP_20_LANGUAGES, LANGUAGE_COUNT } from './data/translations';
+import { ErrorBoundary } from './components/ErrorBoundary';
+import { readStoredLanguage, storeLanguage } from './utils/languagePreference';
+import { getLocalizedRecipe, getLocalizedIngredient, ensureTranslationTable } from './utils/recipeLocalization';
+import { recipeBaseLanguage, recipeImageUrl, recipeUrl, refineRecipeLinks, setPageMeta } from './utils/seoHead';
 import { isListedIn, statsAudienceOf } from './utils/recipeVisibility';
 import { shareRecipe } from './services/recipeShareService';
 import { DataManifest, loadCardTranslations, loadManifest, loadRecipe, loadRecipeIndex } from './services/recipeData';
 import { formatServings, getCostTotal, getRecipeEstimate } from './data/recipeEstimates';
 import { hasKidsMode, loadKidsApp } from './kids/languages';
+import { TECHNOLOGY_LABELS } from './data/technologyLabels';
+import { LEGAL_LABELS, LEGAL_PAGES } from './data/legalLabels';
 import { CheckCircle2, AlertCircle, Mail } from 'lucide-react';
 
-const FEEDBACK_EMAIL = 'ahamdy@gmail.com';
+const FEEDBACK_EMAIL = 'recipe@fifi.cooking';
+
+// Footer links to the sister sites and the native apps. Store URLs are the ones
+// public/app-banner.js already uses; scripts/generate-public-index.ts repeats
+// this list on the static recipe pages.
+const FOOTER_LINKS = [
+  { href: 'https://cookwala.ai', label: 'cookwala.ai' },
+  { href: 'https://origins.faith', label: 'origins.faith' },
+  { href: 'https://apps.apple.com/ca/app/fifi-recipes/id6817888908', label: 'App Store (iPhone, iPad)' },
+  { href: 'https://apps.apple.com/ca/app/fifi-recipes-tv/id6817959251', label: 'App Store (Apple TV)' },
+  { href: 'https://android.fifi.cooking/', label: 'Android' },
+  { href: 'https://www.amazon.ca/dp/B0HLH9TNRB', label: 'Amazon Appstore (Fire TV)' }
+];
 
 function getSharedLanguage(): SupportedLanguage | null {
   if (typeof window === 'undefined') return null;
@@ -42,15 +60,21 @@ function getSharedLanguage(): SupportedLanguage | null {
 }
 
 export default function App() {
-  // Localization: Auto-detected from browser/OS or user choice (20 languages supported)
-  // Defaults to Arabic if user locale is not detected or unrecognized
-  const [lang, setLang] = useState<SupportedLanguage>(() => {
+  // Localization. Order of precedence: ?lang= in the URL, the visitor's saved
+  // choice, the browser/OS locale. The initial value is computed synchronously
+  // so the first render is already in the right language.
+  const [lang, setLangState] = useState<SupportedLanguage>(() => {
     const sharedLanguage = getSharedLanguage();
     if (sharedLanguage) {
       return sharedLanguage;
     }
-    return detectUserLanguage();
+    return readStoredLanguage() ?? detectUserLanguage();
   });
+  // Only an explicit choice is saved; a shared ?lang= link does not overwrite it.
+  const setLang = useCallback((next: SupportedLanguage) => {
+    storeLanguage(next);
+    setLangState(next);
+  }, []);
   // Cooking with Kids mode replaces the whole page; ?kids=1 opens it directly.
   const [kidsMode, setKidsModeState] = useState(
     () => new URLSearchParams(window.location.search).get('kids') === '1' && hasKidsMode(lang)
@@ -113,7 +137,8 @@ export default function App() {
   const isVi = lang === 'vi';
   const isSq = lang === 'sq';
   const isCs = lang === 'cs';
-  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string, fa: string, tr: string, ku: string, id: string, sw: string, ko: string, nl = en, ps = en, he = en, pl = en, sv = en, te = en, bn = en, vi = en, sq = en, cs = en) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : isFa ? fa : isTr ? tr : isKu ? ku : isId ? id : isSw ? sw : isKo ? ko : isNl ? nl : isPs ? ps : isHe ? he : isPl ? pl : isSv ? sv : isTe ? te : isBn ? bn : isVi ? vi : isSq ? sq : isCs ? cs : en);
+  const isRo = lang === 'ro';
+  const t = (ar: string, en: string, fr: string, es: string, ja: string, hi: string, pt: string, ru: string, zh: string, de: string, it: string, el: string, ur: string, fa: string, tr: string, ku: string, id: string, sw: string, ko: string, nl = en, ps = en, he = en, pl = en, sv = en, te = en, bn = en, vi = en, sq = en, cs = en, ro = en) => (isAr ? ar : isFr ? fr : isEs ? es : isJa ? ja : isHi ? hi : isPt ? pt : isRu ? ru : isZh ? zh : isDe ? de : isIt ? it : isEl ? el : isUr ? ur : isFa ? fa : isTr ? tr : isKu ? ku : isId ? id : isSw ? sw : isKo ? ko : isNl ? nl : isPs ? ps : isHe ? he : isPl ? pl : isSv ? sv : isTe ? te : isBn ? bn : isVi ? vi : isSq ? sq : isCs ? cs : isRo ? ro : en);
 
   // Recipe cards arrive page by page from the static data files (see
   // services/recipeData.ts); full recipes are fetched only when opened.
@@ -145,7 +170,19 @@ export default function App() {
   );
 
   // Navigation Tabs: explorer | biography | ingredients
-  const [activeTab, setActiveTab] = useState<'explorer' | 'biography' | 'ingredients' | 'tribute'>('explorer');
+  type Tab = 'explorer' | 'biography' | 'ingredients' | 'tribute' | 'technology';
+  // ?page=technology opens the Technology page directly (the footer link and Cookwala use it).
+  const [activeTab, setActiveTabState] = useState<Tab>(
+    () => (new URLSearchParams(window.location.search).get('page') === 'technology' ? 'technology' : 'explorer')
+  );
+  const setActiveTab = useCallback((tab: Tab) => {
+    const url = new URL(window.location.href);
+    if (tab === 'technology') url.searchParams.set('page', 'technology');
+    else url.searchParams.delete('page');
+    window.history.replaceState(null, '', url);
+    setActiveTabState(tab);
+    if (tab === 'technology') window.scrollTo({ top: 0 });
+  }, []);
 
   // Active Modals & Selected Items
   const [selectedRecipe, setSelectedRecipe] = useState<Recipe | null>(null);
@@ -187,8 +224,28 @@ export default function App() {
     document.documentElement.dir = isRtl ? 'rtl' : 'ltr';
     document.title = selectedRecipe
       ? `${getLocalizedRecipe(selectedRecipe, lang).title} | ${getUIText(lang, 'appTitle')}`
-      : getUIText(lang, 'appTitle');
-  }, [isRtl, lang, selectedRecipe]);
+      : activeTab === 'technology'
+        ? `${TECHNOLOGY_LABELS[lang] ?? TECHNOLOGY_LABELS.en} | ${getUIText(lang, 'appTitle')}`
+        : getUIText(lang, 'appTitle');
+    // Meta description and keywords follow the title, in the language shown.
+    if (selectedRecipe) {
+      const localized = getLocalizedRecipe(selectedRecipe, lang);
+      const separator = isRtl ? '، ' : ', ';
+      const ingredients = selectedRecipe.masterIngredients.slice(0, 6).map(ingredient => getLocalizedIngredient(ingredient, lang, selectedRecipe.id));
+      setPageMeta(
+        localized.title,
+        `${localized.title}: ${ingredients.join(separator)}.`,
+        [...new Set([localized.title, localized.category, localized.cookingMethod].filter(Boolean))]
+      );
+    } else {
+      setPageMeta(getUIText(lang, 'appTitle'), getUIText(lang, 'appSubtitle'), []);
+    }
+  }, [isRtl, lang, selectedRecipe, activeTab]);
+
+  // The recipe named in the URL: its full hreflang cluster and canonical (see utils/seoHead.ts).
+  useEffect(() => {
+    if (selectedRecipe) refineRecipeLinks(selectedRecipe);
+  }, [selectedRecipe]);
 
   const handleShareSite = async () => {
     const url = new URL(window.location.href);
@@ -202,7 +259,7 @@ export default function App() {
       await navigator.share(shareData).catch(() => undefined);
     } else {
       await navigator.clipboard.writeText(url.toString());
-      setNotification({ message: t('تم نسخ رابط الموقع', 'Site link copied', 'Lien du site copié', 'Enlace del sitio copiado', 'サイトのリンクをコピーしました', 'साइट लिंक कॉपी हो गया', 'Link do site copiado', 'Ссылка на сайт скопирована', '网站链接已复制', 'Website-Link kopiert', 'Link del sito copiato', 'Ο σύνδεσμος του ιστοτόπου αντιγράφηκε', 'سائٹ کا لنک کاپی ہو گیا', 'پیوند سایت کپی شد', 'Site bağlantısı kopyalandı', 'Girêdana malperê hat kopîkirin', 'Tautan situs disalin', 'Kiungo cha tovuti kimenakiliwa', '사이트 링크가 복사되었습니다', 'Sitelink gekopieerd', 'د سایټ لینک کاپي شو', 'קישור האתר הועתק', 'Link do strony skopiowany', 'Webbplatslänk kopierad', 'సైట్ లింక్ కాపీ చేయబడింది', 'সাইটের লিংক কপি হয়েছে', 'Đã sao chép liên kết trang web', 'Lidhja e faqes u kopjua', 'Odkaz na stránku zkopírován'), type: 'success' });
+      setNotification({ message: t('تم نسخ رابط الموقع', 'Site link copied', 'Lien du site copié', 'Enlace del sitio copiado', 'サイトのリンクをコピーしました', 'साइट लिंक कॉपी हो गया', 'Link do site copiado', 'Ссылка на сайт скопирована', '网站链接已复制', 'Website-Link kopiert', 'Link del sito copiato', 'Ο σύνδεσμος του ιστοτόπου αντιγράφηκε', 'سائٹ کا لنک کاپی ہو گیا', 'پیوند سایت کپی شد', 'Site bağlantısı kopyalandı', 'Girêdana malperê hat kopîkirin', 'Tautan situs disalin', 'Kiungo cha tovuti kimenakiliwa', '사이트 링크가 복사되었습니다', 'Sitelink gekopieerd', 'د سایټ لینک کاپي شو', 'קישור האתר הועתק', 'Link do strony skopiowany', 'Webbplatslänk kopierad', 'సైట్ లింక్ కాపీ చేయబడింది', 'সাইটের লিংক কপি হয়েছে', 'Đã sao chép liên kết trang web', 'Lidhja e faqes u kopjua', 'Odkaz na stránku zkopírován', 'Linkul site-ului a fost copiat'), type: 'success' });
       setTimeout(() => setNotification(null), 3500);
     }
   };
@@ -211,7 +268,7 @@ export default function App() {
     const title = getLocalizedRecipe(recipe, lang).title;
     const result = await shareRecipe(recipe, lang, title);
     if (result.copied) {
-      setNotification({ message: t('تم نسخ رابط الوصفة', 'Recipe link copied', 'Lien de la recette copié', 'Enlace de la receta copiado', 'レシピのリンクをコピーしました', 'रेसिपी लिंक कॉपी हो गया', 'Link da receita copiado', 'Ссылка на рецепт скопирована', '食谱链接已复制', 'Rezept-Link kopiert', 'Link della ricetta copiato', 'Ο σύνδεσμος της συνταγής αντιγράφηκε', 'ترکیب کا لنک کاپی ہو گیا', 'پیوند دستور کپی شد', 'Tarif bağlantısı kopyalandı', 'Girêdana reçeteyê hat kopîkirin', 'Tautan resep disalin', 'Kiungo cha mapishi kimenakiliwa', '레시피 링크가 복사되었습니다', 'Receptlink gekopieerd', 'د ترکیب لینک کاپي شو', 'קישור המתכון הועתק', 'Link do przepisu skopiowany', 'Receptlänk kopierad', 'వంటకం లింక్ కాపీ చేయబడింది', 'রেসিপির লিংক কপি হয়েছে', 'Đã sao chép liên kết công thức', 'Lidhja e recetës u kopjua', 'Odkaz na recept zkopírován'), type: 'success' });
+      setNotification({ message: t('تم نسخ رابط الوصفة', 'Recipe link copied', 'Lien de la recette copié', 'Enlace de la receta copiado', 'レシピのリンクをコピーしました', 'रेसिपी लिंक कॉपी हो गया', 'Link da receita copiado', 'Ссылка на рецепт скопирована', '食谱链接已复制', 'Rezept-Link kopiert', 'Link della ricetta copiato', 'Ο σύνδεσμος της συνταγής αντιγράφηκε', 'ترکیب کا لنک کاپی ہو گیا', 'پیوند دستور کپی شد', 'Tarif bağlantısı kopyalandı', 'Girêdana reçeteyê hat kopîkirin', 'Tautan resep disalin', 'Kiungo cha mapishi kimenakiliwa', '레시피 링크가 복사되었습니다', 'Receptlink gekopieerd', 'د ترکیب لینک کاپي شو', 'קישור המתכון הועתק', 'Link do przepisu skopiowany', 'Receptlänk kopierad', 'వంటకం లింక్ కాపీ చేయబడింది', 'রেসিপির লিংক কপি হয়েছে', 'Đã sao chép liên kết công thức', 'Lidhja e recetës u kopjua', 'Odkaz na recept zkopírován', 'Linkul rețetei a fost copiat'), type: 'success' });
       setTimeout(() => setNotification(null), 3500);
     }
   };
@@ -238,7 +295,7 @@ export default function App() {
       '[fifi.cooking] Maoni kuhusu tovuti ya Mapishi ya Fatma Alkawokgy',
       '[fifi.cooking] 파트마 알카우크지 레시피 사이트에 대한 의견',
       '[fifi.cooking] Feedback over de receptensite van Fatma Alkawokgy', '[fifi.cooking] د فاطمې القاوقجي د ترکیبونو سایټ په اړه نظر'
-    , '[fifi.cooking] משוב על אתר המתכונים של פאטמה אלקאווקג׳י', '[fifi.cooking] Opinia o stronie z przepisami Fatmy Alkawokgy', '[fifi.cooking] Feedback om webbplatsen Fatma Alkawokgy Recept', '[fifi.cooking] ఫాత్మా అల్-కవుక్జీ వంటకాల సైట్ గురించి అభిప్రాయం', '[fifi.cooking] ফাতমা আলকাউকজি রেসিপি সাইট সম্পর্কে মতামত', '[fifi.cooking] Phản hồi về trang Công thức Fatma Alkawokgy', '[fifi.cooking] Komente për faqen e Recetave të Fatma Alkawokgy', '[fifi.cooking] Zpětná vazba k webu receptů Fatmy Alkawokgy');
+    , '[fifi.cooking] משוב על אתר המתכונים של פאטמה אלקאווקג׳י', '[fifi.cooking] Opinia o stronie z przepisami Fatmy Alkawokgy', '[fifi.cooking] Feedback om webbplatsen Fatma Alkawokgy Recept', '[fifi.cooking] ఫాత్మా అల్-కవుక్జీ వంటకాల సైట్ గురించి అభిప్రాయం', '[fifi.cooking] ফাতমা আলকাউকজি রেসিপি সাইট সম্পর্কে মতামত', '[fifi.cooking] Phản hồi về trang Công thức Fatma Alkawokgy', '[fifi.cooking] Komente për faqen e Recetave të Fatma Alkawokgy', '[fifi.cooking] Zpětná vazba k webu receptů Fatmy Alkawokgy', '[fifi.cooking] Feedback despre site-ul de rețete al Fatmei Alkawokgy');
     const body = t(
       'مرحباً،\n\nأود مشاركة السؤال أو الملاحظة أو المشكلة التالية:\n\n',
       'Hello,\n\nI would like to share the following question, comment, or issue:\n\n',
@@ -261,7 +318,7 @@ export default function App() {
       '안녕하세요,\n\n다음 질문, 의견 또는 문제를 공유하고 싶습니다:\n\n',
       'Hallo,\n\nIk wil graag de volgende vraag, opmerking of het volgende probleem delen:\n\n',
       'سلام،\n\nزه غواړم لاندې پوښتنه، تبصره یا مسله شریکه کړم:\n\n'
-    , 'שלום,\n\nאשמח לשתף את השאלה, ההערה או הבעיה הבאה:\n\n', 'Dzień dobry,\n\nChcę przekazać następujące pytanie, uwagę lub zgłoszenie problemu:\n\n', 'Hej,\n\nJag vill dela följande fråga, kommentar eller problem:\n\n', 'నమస్కారం,\n\nకింది ప్రశ్న, వ్యాఖ్య లేదా సమస్యను నేను పంచుకోదలుచుకున్నాను:\n\n', 'হ্যালো,\n\nআমি নিচের প্রশ্ন, মন্তব্য বা সমস্যাটি জানাতে চাই:\n\n', 'Xin chào,\n\nTôi muốn chia sẻ câu hỏi, nhận xét hoặc vấn đề sau:\n\n', 'Përshëndetje,\n\nDo të doja të ndaja pyetjen, komentin ose çështjen e mëposhtme:\n\n', 'Dobrý den,\n\nchtěl bych se podělit o následující otázku, komentář nebo problém:\n\n');
+    , 'שלום,\n\nאשמח לשתף את השאלה, ההערה או הבעיה הבאה:\n\n', 'Dzień dobry,\n\nChcę przekazać następujące pytanie, uwagę lub zgłoszenie problemu:\n\n', 'Hej,\n\nJag vill dela följande fråga, kommentar eller problem:\n\n', 'నమస్కారం,\n\nకింది ప్రశ్న, వ్యాఖ్య లేదా సమస్యను నేను పంచుకోదలుచుకున్నాను:\n\n', 'হ্যালো,\n\nআমি নিচের প্রশ্ন, মন্তব্য বা সমস্যাটি জানাতে চাই:\n\n', 'Xin chào,\n\nTôi muốn chia sẻ câu hỏi, nhận xét hoặc vấn đề sau:\n\n', 'Përshëndetje,\n\nDo të doja të ndaja pyetjen, komentin ose çështjen e mëposhtme:\n\n', 'Dobrý den,\n\nchtěl bych se podělit o následující otázku, komentář nebo problém:\n\n', 'Bună ziua,\n\naș dori să împărtășesc următoarea întrebare, următorul comentariu sau următoarea problemă:\n\n');
     window.location.href = `mailto:${FEEDBACK_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
 
@@ -305,6 +362,9 @@ export default function App() {
       '@type': 'Recipe',
       name: recipe.title,
       ...(recipe.titleEn ? { alternateName: recipe.titleEn } : {}),
+      url: recipeUrl(recipe, recipeBaseLanguage(recipe)),
+      image: recipeImageUrl(recipe),
+      inLanguage: recipeBaseLanguage(recipe),
       recipeCategory: recipe.category,
       // Only Dr. Fatma's own archive is Egyptian home cooking; additional recipes credit their source.
       ...(recipe.source ? { isBasedOn: recipe.source.url } : { recipeCuisine: 'Egyptian' }),
@@ -404,10 +464,15 @@ export default function App() {
           />
         )}
 
+        <ErrorBoundary lang={lang} resetKey={activeTab}>
         <Suspense fallback={<div className="py-16 text-center text-xs text-stone-400 animate-pulse">…</div>}>
           {/* TAB 2: ABOUT DR. FATMA ALKAWOKGY MEMORIAL */}
           {activeTab === 'biography' && (
             <FatmaMemorialSection lang={lang} onOpenTribute={() => setActiveTab('tribute')} />
+          )}
+
+          {activeTab === 'technology' && (
+            <TechnologyPage lang={lang} recipeCount={stats?.totalRecipes} onBack={() => setActiveTab('explorer')} />
           )}
 
           {activeTab === 'tribute' && (
@@ -423,6 +488,7 @@ export default function App() {
             />
           )}
         </Suspense>
+        </ErrorBoundary>
       </main>
 
       {/* Recipe Detail Modal */}
@@ -446,7 +512,7 @@ export default function App() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-xl bg-amber-600 flex items-center justify-center text-white shrink-0">
-                <img src={`${import.meta.env.BASE_URL}logo-transparent.png`} alt="" className="w-7 h-7 object-cover object-center rounded-lg" />
+                <img src={`${import.meta.env.BASE_URL}logo-transparent.png`} alt="" width={535} height={494} loading="lazy" decoding="async" className="w-7 h-7 object-cover object-center rounded-lg" />
               </div>
               <div>
                 <span className="font-bold text-stone-900 block text-sm">
@@ -474,7 +540,7 @@ export default function App() {
                     'Hifadhi ya Upishi ya Dkt. Fatma Alkawokgy (1943–2026) • Shahada ya Uzamivu ya Piano, Kairo',
                     '파트마 알카우크지 박사의 요리 아카이브 (1943–2026) • 피아노 박사, 카이로',
                     'Het culinaire archief van Dr. Fatma Alkawokgy (1943–2026) • Doctoraat in piano, Caïro', 'د ډاکټرې فاطمې القاوقجي پخلنځي آرشیف (1943–2026) • د پیانو ډاکټره، قاهره'
-                  , 'ארכיון הבישול של ד"ר פאטמה אלקאווקג׳י (1943–2026) • דוקטורט בפסנתר, קהיר', 'Archiwum kulinarne dr Fatmy Alkawokgy (1943–2026) • Doktor pianistyki, Kair', 'Dr. Fatma Alkawokgys kulinariska arkiv (1943–2026) • Doktor i piano, Kairo', 'డా. ఫాత్మా అల్-కవుక్జీ (1943–2026) వంట వారసత్వం • పియానోలో డాక్టరేట్, కైరో', 'ডা. ফাতমা আলকাউকজির রন্ধন সংগ্রহশালা (1943–2026) • পিয়ানোতে ডক্টরেট, কায়রো', 'Kho lưu trữ ẩm thực của Dr. Fatma Alkawokgy (1943–2026) • Tiến sĩ Piano, Cairo', 'Arkivi kulinari i Dr. Fatma Alkawokgy (1943–2026) • Doktoraturë në piano, Kajro', 'Kulinářský archiv dr. Fatmy Alkawokgy (1943–2026) • Doktorát z klavíru, Káhira')}
+                  , 'ארכיון הבישול של ד"ר פאטמה אלקאווקג׳י (1943–2026) • דוקטורט בפסנתר, קהיר', 'Archiwum kulinarne dr Fatmy Alkawokgy (1943–2026) • Doktor pianistyki, Kair', 'Dr. Fatma Alkawokgys kulinariska arkiv (1943–2026) • Doktor i piano, Kairo', 'డా. ఫాత్మా అల్-కవుక్జీ (1943–2026) వంట వారసత్వం • పియానోలో డాక్టరేట్, కైరో', 'ডা. ফাতমা আলকাউকজির রন্ধন সংগ্রহশালা (1943–2026) • পিয়ানোতে ডক্টরেট, কায়রো', 'Kho lưu trữ ẩm thực của Dr. Fatma Alkawokgy (1943–2026) • Tiến sĩ Piano, Cairo', 'Arkivi kulinari i Dr. Fatma Alkawokgy (1943–2026) • Doktoraturë në piano, Kajro', 'Kulinářský archiv dr. Fatmy Alkawokgy (1943–2026) • Doktorát z klavíru, Káhira', 'Arhiva culinară a dr. Fatma Alkawokgy (1943–2026) • Doctorat în pian, Cairo')}
                 </span>
               </div>
             </div>
@@ -484,72 +550,42 @@ export default function App() {
               className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-stone-700 bg-stone-50 hover:bg-stone-100 rounded-xl transition-colors border border-stone-200"
             >
               <Mail className="w-3.5 h-3.5 text-amber-700" />
-              <span>{t('أسئلة أو ملاحظات أو مشاكل؟ أرسل ملاحظاتك', 'Questions, comments, or issues? Submit feedback', 'Questions, commentaires ou problèmes ? Envoyez vos remarques', '¿Preguntas, comentarios o problemas? Envía tus comentarios', 'ご質問・ご意見・不具合の報告はこちら', 'सवाल, टिप्पणी या समस्या? प्रतिक्रिया भेजें', 'Dúvidas, comentários ou problemas? Envie seu feedback', 'Вопросы, комментарии или проблемы? Отправьте отзыв', '有问题、意见或建议？请提交反馈', 'Fragen, Anmerkungen oder Probleme? Feedback senden', 'Domande, commenti o problemi? Invia un feedback', 'Ερωτήσεις, σχόλια ή προβλήματα; Στείλτε τα σχόλιά σας', 'سوالات، رائے یا مسائل؟ اپنی رائے بھیجیں', 'پرسش، نظر یا مشکلی دارید؟ بازخورد بفرستید', 'Sorularınız, yorumlarınız veya sorunlarınız mı var? Geri bildirim gönderin', 'Pirs, şîrove an pirsgirêkên te hene? Nêrînê bişîne', 'Punya pertanyaan, komentar, atau masalah? Kirim masukan', 'Una maswali, maoni, au matatizo? Tuma maoni', '질문, 의견 또는 문제가 있으신가요? 의견 보내기', 'Vragen, opmerkingen of problemen? Stuur feedback', 'پوښتنې، تبصرې یا مسلې؟ نظر ثبت کړئ', 'שאלות, הערות או בעיות? שלחו משוב', 'Pytania, uwagi lub problemy? Wyślij opinię', 'Frågor, kommentarer eller problem? Skicka feedback', 'ప్రశ్నలు, వ్యాఖ్యలు లేదా సమస్యలు ఉన్నాయా? మీ అభిప్రాయం పంపండి', 'প্রশ্ন, মন্তব্য বা সমস্যা? মতামত জানান', 'Câu hỏi, nhận xét hoặc vấn đề? Gửi phản hồi', 'Pyetje, komente ose probleme? Dërgoni komentin tuaj', 'Otázky, komentáře nebo problémy? Odešlete zpětnou vazbu')}</span>
+              <span>{t('أسئلة أو ملاحظات أو مشاكل؟ أرسل ملاحظاتك', 'Questions, comments, or issues? Submit feedback', 'Questions, commentaires ou problèmes ? Envoyez vos remarques', '¿Preguntas, comentarios o problemas? Envía tus comentarios', 'ご質問・ご意見・不具合の報告はこちら', 'सवाल, टिप्पणी या समस्या? प्रतिक्रिया भेजें', 'Dúvidas, comentários ou problemas? Envie seu feedback', 'Вопросы, комментарии или проблемы? Отправьте отзыв', '有问题、意见或建议？请提交反馈', 'Fragen, Anmerkungen oder Probleme? Feedback senden', 'Domande, commenti o problemi? Invia un feedback', 'Ερωτήσεις, σχόλια ή προβλήματα; Στείλτε τα σχόλιά σας', 'سوالات، رائے یا مسائل؟ اپنی رائے بھیجیں', 'پرسش، نظر یا مشکلی دارید؟ بازخورد بفرستید', 'Sorularınız, yorumlarınız veya sorunlarınız mı var? Geri bildirim gönderin', 'Pirs, şîrove an pirsgirêkên te hene? Nêrînê bişîne', 'Punya pertanyaan, komentar, atau masalah? Kirim masukan', 'Una maswali, maoni, au matatizo? Tuma maoni', '질문, 의견 또는 문제가 있으신가요? 의견 보내기', 'Vragen, opmerkingen of problemen? Stuur feedback', 'پوښتنې، تبصرې یا مسلې؟ نظر ثبت کړئ', 'שאלות, הערות או בעיות? שלחו משוב', 'Pytania, uwagi lub problemy? Wyślij opinię', 'Frågor, kommentarer eller problem? Skicka feedback', 'ప్రశ్నలు, వ్యాఖ్యలు లేదా సమస్యలు ఉన్నాయా? మీ అభిప్రాయం పంపండి', 'প্রশ্ন, মন্তব্য বা সমস্যা? মতামত জানান', 'Câu hỏi, nhận xét hoặc vấn đề? Gửi phản hồi', 'Pyetje, komente ose probleme? Dërgoni komentin tuaj', 'Otázky, komentáře nebo problémy? Odešlete zpětnou vazbu', 'Întrebări, comentarii sau probleme? Trimiteți feedback')}</span>
             </button>
           </div>
 
           <div className="pt-4 border-t border-stone-100 flex flex-col sm:flex-row items-center justify-between text-[11px] text-stone-400 gap-2">
             <div className="space-y-1">
               <p>
-                {t(
-                  'جميع حقوق وصفات د. فاطمة القاوقجي محفوظة لعائلتها ومحبي فنها وتراثها الموسيقي والطهوي.',
-                  'All rights reserved to the culinary and artistic legacy of Dr. Fatma Alkawokgy.',
-                  "Tous droits réservés à l'héritage culinaire et artistique du Dr Fatma Alkawokgy.",
-                  'Todos los derechos reservados al legado culinario y artístico de la Dra. Fatma Alkawokgy.',
-                  'ファトマ・アルカウォクジ博士の料理と芸術の遺産に関する権利は保護されています。',
-                  'डॉ. फातिमा अलकावोकजी की पाक और कलात्मक विरासत के सभी अधिकार सुरक्षित हैं।',
-                  'Todos os direitos reservados ao legado culinário e artístico da Dra. Fatma Alkawokgy.',
-                  'Все права на кулинарное и художественное наследие д-ра Фатмы Алькавокджи защищены.',
-                  '法特玛·卡沃克吉博士的美食与艺术遗产版权所有。',
-                  'Alle Rechte am kulinarischen und künstlerischen Erbe von Dr. Fatma Alkawokgy vorbehalten.',
-                  'Tutti i diritti riservati all’eredità culinaria e artistica della Dott.ssa Fatma Alkawokgy.',
-                  'Με επιφύλαξη όλων των δικαιωμάτων επί της γαστρονομικής και καλλιτεχνικής κληρονομιάς της Δρ. Φάτμα Αλκαουόκτζι.',
-                  'ڈاکٹر فاطمہ القاوقجی کے کھانوں اور فن کے ورثے کے جملہ حقوق محفوظ ہیں۔',
-                  'تمامی حقوق میراث آشپزی و هنری دکتر فاطمه القاوقجی محفوظ است.',
-                  'Dr. Fatma Alkawokgy’nin mutfak ve sanat mirasına ait tüm hakları saklıdır.',
-                  'Hemû maf ji bo mîrata metbex û hunerî ya Dr. Fatma Alkawokgy parastî ne.',
-                  'Seluruh hak atas warisan kuliner dan seni Dr. Fatma Alkawokgy dilindungi.',
-                  'Haki zote za urithi wa upishi na sanaa wa Dkt. Fatma Alkawokgy zimehifadhiwa.',
-                  '파트마 알카우크지 박사의 요리 및 예술 유산에 대한 모든 권리 보유.',
-                  'Alle rechten voorbehouden aan het culinaire en artistieke erfgoed van Dr. Fatma Alkawokgy.', 'ټول حقونه د ډاکټرې فاطمې القاوقجي د پخلنځي او هنري میراث لپاره خوندي دي.'
-                , 'כל הזכויות שמורות למורשת הקולינרית והאמנותית של ד"ר פאטמה אלקאווקג׳י.', 'Wszelkie prawa zastrzeżone dla dziedzictwa kulinarnego i artystycznego dr Fatmy Alkawokgy.', 'Alla rättigheter förbehållna Dr. Fatma Alkawokgys kulinariska och konstnärliga arv.', 'డా. ఫాత్మా అల్-కవుక్జీ వంట మరియు కళా వారసత్వపు హక్కులన్నీ రిజర్వ్ చేయబడ్డాయి.', 'ডা. ফাতমা আলকাউকজির রন্ধন ও শিল্প ঐতিহ্যের সর্বস্বত্ব সংরক্ষিত।', 'Mọi quyền đối với di sản ẩm thực và nghệ thuật của Dr. Fatma Alkawokgy được bảo lưu.', 'Të gjitha të drejtat e rezervuara për trashëgiminë kulinare dhe artistike të Dr. Fatma Alkawokgy.', 'Všechna práva vyhrazena kulinářskému a uměleckému odkazu dr. Fatmy Alkawokgy.')}
-              </p>
-              <p>
-                <a
-                  href="https://creativecommons.org/publicdomain/zero/1.0/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline hover:text-amber-700 transition-colors"
-                >
-                  {t(
-                    'هذا المحتوى متاح مجاناً للجميع للاستخدام والنسخ والاستنساخ وإعادة النشر بأي شكل وفي أي مكان، دون أي قيود.',
-                    'This content is free for anyone to use, copy, replicate, and republish in any form, anywhere, with no restrictions.',
-                    'Ce contenu est libre d’utilisation, de copie, de reproduction et de republication sous toute forme, en tout lieu, sans aucune restriction.',
-                    'Este contenido es libre para que cualquiera lo use, copie, reproduzca y vuelva a publicar de cualquier forma, en cualquier lugar, sin restricciones.',
-                    'このコンテンツは、形式を問わず、場所を問わず、誰でも自由に使用・コピー・複製・再公開できます。制限は一切ありません。',
-                    'यह सामग्री किसी भी रूप में, कहीं भी, बिना किसी सीमा के, उपयोग, प्रतिलिपि, पुनरुत्पादन और पुनःप्रकाशन के लिए स्वतंत्र रूप से उपलब्ध है।',
-                    'Este conteúdo é livre para qualquer pessoa usar, copiar, reproduzir e republicar em qualquer formato, em qualquer lugar, sem restrições.',
-                    'Этот контент можно свободно использовать, копировать, воспроизводить и переиздавать в любой форме и где угодно, без каких-либо ограничений.',
-                    '本内容任何人均可免费使用、复制、转载和再发布，形式不限，地点不限，没有任何限制。',
-                    'Dieser Inhalt darf von jedem frei verwendet, kopiert, vervielfältigt und in jeder Form und an jedem Ort ohne Einschränkungen weiterveröffentlicht werden.',
-                    'Questo contenuto è liberamente utilizzabile da chiunque: può essere usato, copiato, riprodotto e ripubblicato in qualsiasi forma e ovunque, senza alcuna limitazione.',
-                    'Αυτό το περιεχόμενο διατίθεται ελεύθερα σε όλους για χρήση, αντιγραφή, αναπαραγωγή και αναδημοσίευση σε οποιαδήποτε μορφή, οπουδήποτε, χωρίς κανέναν περιορισμό.',
-                    'یہ مواد ہر کسی کے لیے مفت ہے: اسے کسی بھی شکل میں، کہیں بھی، بغیر کسی پابندی کے استعمال، کاپی، نقل اور دوبارہ شائع کیا جا سکتا ہے۔',
-                    'این محتوا برای همه آزاد است: می‌توان آن را به هر شکل و در هر جا، بدون هیچ محدودیتی استفاده، کپی، بازتولید و بازنشر کرد.',
-                    'Bu içerik herkes tarafından her biçimde, her yerde, hiçbir kısıtlama olmaksızın kullanılabilir, kopyalanabilir, çoğaltılabilir ve yeniden yayımlanabilir.',
-                    'Ev naverok dikare ji aliyê her kesî ve, bi her awayî, li her derê, bê ti sînor were bikaranîn, kopîkirin, zêdekirin û ji nû ve weşandin.',
-                    'Konten ini bebas digunakan, disalin, diperbanyak, dan diterbitkan ulang oleh siapa pun, dalam bentuk apa pun, di mana pun, tanpa batasan apa pun.',
-                    'Maudhui haya yanaweza kutumiwa, kunakiliwa, kuzalishwa upya, na kuchapishwa upya na mtu yeyote, kwa namna yoyote, mahali popote, bila kizuizi chochote.',
-                    '이 콘텐츠는 누구나 어떤 형태로든, 어디서든, 아무런 제한 없이 사용, 복사, 복제 및 재출판할 수 있습니다.',
-                    'Deze inhoud is vrij voor iedereen om te gebruiken, kopiëren, verveelvoudigen en opnieuw te publiceren in elke vorm, overal, zonder beperkingen.', 'دا منځپانګه د هر چا لپاره وړیا ده چې وکاروي، کاپي کړي، تکرار کړي او په هره بڼه، په هر ځای کې بیا خپره کړي، پرته له کومو بندیزونو.'
-                  , 'תוכן זה חופשי לשימוש, העתקה, שכפול ופרסום מחדש בכל צורה, בכל מקום, ללא הגבלות.', 'Ta treść może być swobodnie używana, kopiowana, powielana i publikowana w dowolnej formie i miejscu, bez ograniczeń.', 'Detta innehåll är fritt för alla att använda, kopiera, reproducera och återpublicera i vilken form som helst, var som helst, utan begränsningar.', 'ఈ కంటెంట్ ఎవరైనా ఏ రూపంలోనైనా, ఎక్కడైనా, ఎలాంటి పరిమితులూ లేకుండా ఉచితంగా వాడుకోవచ్చు, కాపీ చేయవచ్చు, పునర్ముద్రించవచ్చు మరియు తిరిగి ప్రచురించవచ్చు.', 'এই কনটেন্ট যে কেউ যেকোনো রূপে, যেকোনো জায়গায়, কোনো সীমাবদ্ধতা ছাড়াই ব্যবহার, অনুলিপি, পুনরুত্পাদন ও পুনঃপ্রকাশ করতে পারে।', 'Nội dung này miễn phí cho mọi người sử dụng, sao chép, tái tạo và xuất bản lại dưới mọi hình thức, ở bất cứ đâu, không hạn chế.', 'Ky përmbajtje është e lirë për t\'u përdorur, kopjuar, riprodhuar dhe ripublikuar nga kushdo, në çdo formë dhe kudo, pa kufizime.', 'Tento obsah může kdokoli volně používat, kopírovat, reprodukovat a znovu publikovat v jakékoli podobě a kdekoli, bez jakýchkoli omezení.')}
+                <a href={`${import.meta.env.BASE_URL}terms.html`} className="underline hover:text-amber-700 transition-colors">
+                  {(LEGAL_LABELS[lang] ?? LEGAL_LABELS.en).rights}
                 </a>
               </p>
             </div>
-            <div className="flex items-center gap-2">
-<span>{t('العربية والإنجليزية والفرنسية والإسبانية واليابانية والهندية والبرتغالية والروسية والصينية والألمانية والإيطالية واليونانية والأردية والفارسية والتركية والكردية والإندونيسية والسواحيلية والكورية مدعومة', 'Arabic, English, French, Spanish, Japanese, Hindi, Portuguese, Russian, Chinese, German, Italian, Greek, Urdu, Persian, Turkish, Kurdish, Indonesian, Swahili, and Korean supported', 'Arabe, anglais, français, espagnol, japonais, hindi, portugais, russe, chinois, allemand, italien, grec, ourdou, persan, turc, kurde, indonésien, swahili et coréen pris en charge', 'Árabe, inglés, francés, español, japonés, hindi, portugués, ruso, chino, alemán, italiano, griego, urdu, persa, turco, kurdo, indonesio, suajili y coreano disponibles', 'アラビア語・英語・フランス語・スペイン語・日本語・ヒンディー語・ポルトガル語・ロシア語・中国語・ドイツ語・イタリア語・ギリシャ語・ウルドゥー語・ペルシャ語・トルコ語・クルド語・インドネシア語・スワヒリ語・韓国語に対応', 'अरबी, अंग्रेज़ी, फ़्रेंच, स्पेनिश, जापानी, हिन्दी, पुर्तगाली, रूसी, चीनी, जर्मन, इतालवी, यूनानी, उर्दू, फ़ारसी, तुर्की, कुर्दी, इंडोनेशियाई, स्वाहिली और कोरियाई उपलब्ध', 'Suporte para árabe, inglês, francês, espanhol, japonês, hindi, português, russo, chinês, alemão, italiano, grego, urdu, persa, turco, curdo, indonésio, suaíli e coreano', 'Поддержка арабского, английского, французского, испанского, японского, хинди, португальского, русского, китайского, немецкого, итальянского, греческого, урду, персидского, турецкого, курдского, индонезийского, суахили и корейского', '支持阿拉伯语、英语、法语、西班牙语、日语、印地语、葡萄牙语、俄语、中文、德语、意大利语、希腊语、乌尔都语、波斯语、土耳其语、库尔德语、印尼语、斯瓦希里语和韩语', 'Unterstützung für Arabisch, Englisch, Französisch, Spanisch, Japanisch, Hindi, Portugiesisch, Russisch, Chinesisch, Deutsch, Italienisch, Griechisch, Urdu, Persisch, Türkisch, Kurdisch, Indonesisch, Swahili, Koreanisch, Niederländisch, Paschtu, Hebräisch, Polnisch, Schwedisch und Telugu', 'Supporto per arabo, inglese, francese, spagnolo, giapponese, hindi, portoghese, russo, cinese, tedesco, italiano, greco, urdu, persiano, turco, curdo, indonesiano, swahili e coreano', 'Υποστήριξη αραβικών, αγγλικών, γαλλικών, ισπανικών, ιαπωνικών, χίντι, πορτογαλικών, ρωσικών, κινεζικών, γερμανικών, ιταλικών, ελληνικών, ουρντού, περσικών, τουρκικών, κουρδικών, ινδονησιακών, σουαχίλι και κορεατικών', 'عربی، انگریزی، فرانسیسی، ہسپانوی، جاپانی، ہندی، پرتگالی، روسی، چینی، جرمن، اطالوی، یونانی، اردو، فارسی، ترکی، کردی، انڈونیشیائی، سواحلی اور کوریائی دستیاب', 'عربی، انگلیسی، فرانسوی، اسپانیایی، ژاپنی، هندی، پرتغالی، روسی، چینی، آلمانی، ایتالیایی، یونانی، اردو، فارسی، ترکی، کردی، اندونزیایی، سواحیلی و کره‌ای پشتیبانی می‌شوند', 'Arapça, İngilizce, Fransızca, İspanyolca, Japonca, Hintçe, Portekizce, Rusça, Çince, Almanca, İtalyanca, Yunanca, Urduca, Farsça, Türkçe, Kürtçe, Endonezce, Svahili ve Korece desteklenir', 'Erebî, Îngilîzî, Fransî, Spanî, Japonî, Hindî, Portugalî, Rûsî, Çînî, Almanî, Îtalî, Yewnanî, Ûrdûyî, Farisî, Tirkî, Kurdî, Endonezyayî, Swahîlî û Koreyî têne piştgirîkirin', 'Tersedia dalam bahasa Arab, Inggris, Prancis, Spanyol, Jepang, Hindi, Portugis, Rusia, Mandarin, Jerman, Italia, Yunani, Urdu, Persia, Turki, Kurdi, Indonesia, Swahili, dan Korea', 'Inapatikana kwa Kiarabu, Kiingereza, Kifaransa, Kihispania, Kijapani, Kihindi, Kireno, Kirusi, Kichina, Kijerumani, Kiitaliano, Kigiriki, Kiurdu, Kiajemi, Kituruki, Kikurdi, Kiindonesia, Kiswahili, na Kikorea', '아랍어, 영어, 프랑스어, 스페인어, 일본어, 힌디어, 포르투갈어, 러시아어, 중국어, 독일어, 이탈리아어, 그리스어, 우르두어, 페르시아어, 튀르키예어, 쿠르드어, 인도네시아어, 스와힐리어, 한국어 지원', 'Arabisch, Engels, Frans, Spaans, Japans, Hindi, Portugees, Russisch, Chinees, Duits, Italiaans, Grieks, Urdu, Perzisch, Turks, Koerdisch, Indonesisch, Swahili, Koreaans, Nederlands, Pasjtoe, Hebreeuws, Pools, Zweeds en Telugu worden ondersteund', 'عربي، انګلیسي، فرانسوي، هسپانوي، جاپاني، هندي، پرتګالي، روسي، چینایي، جرمني، ایټالوي، یوناني، اردو، فارسي، ترکي، کردي، اندونیزیايي، سواحلي، کوري او پشتو ملاتړ شوي', 'תמיכה בערבית, אנגלית, צרפתית, ספרדית, יפנית, הינדי, פורטוגזית, רוסית, סינית, גרמנית, איטלקית, יוונית, אורדו, פרסית, טורקית, כורדית, אינדונזית, סוואהילית, קוריאנית, הולנדית, פשטו ועברית', 'Obsługiwane języki: arabski, angielski, francuski, hiszpański, japoński, hindi, portugalski, rosyjski, chiński, niemiecki, włoski, grecki, urdu, perski, turecki, kurdyjski, indonezyjski, suahili, koreański, niderlandzki, paszto, hebrajski, polski, szwedzki i telugu', 'Arabiska, engelska, franska, spanska, japanska, hindi, portugisiska, ryska, kinesiska, tyska, italienska, grekiska, urdu, persiska, turkiska, kurdiska, indonesiska, swahili, koreanska, nederländska, pashto, hebreiska, polska, svenska och telugu stöds', 'అరబిక్, ఇంగ్లీష్, ఫ్రెంచ్, స్పానిష్, జపనీస్, హిందీ, పోర్చుగీస్, రష్యన్, చైనీస్, జర్మన్, ఇటాలియన్, గ్రీక్, ఉర్దూ, పర్షియన్, టర్కిష్, కుర్దిష్, ఇండోనేషియన్, స్వాహిలి, కొరియన్, డచ్, పాష్టో, హీబ్రూ, పోలిష్, స్వీడిష్ మరియు తెలుగు భాషల్లో అందుబాటులో ఉంది', 'আরবি, ইংরেজি, ফরাসি, স্প্যানিশ, জাপানি, হিন্দি, পর্তুগিজ, রুশ, চীনা, জার্মান, ইতালীয়, গ্রিক, উর্দু, ফারসি, তুর্কি, কুর্দি, ইন্দোনেশীয়, সোয়াহিলি ও কোরিয়ান সমর্থিত', 'Hỗ trợ tiếng Ả Rập, Anh, Pháp, Tây Ban Nha, Nhật, Hindi, Bồ Đào Nha, Nga, Trung, Đức, Ý, Hy Lạp, Urdu, Ba Tư, Thổ Nhĩ Kỳ, Kurd, Indonesia, Swahili và Hàn', 'Arabisht, anglisht, frëngjisht, spanjisht, japonisht, hindisht, portugalisht, rusisht, kinezisht, gjermanisht, italisht, greqisht, urdu, persisht, turqisht, kurdisht, indonezisht, suahili dhe koreanisht të mbështetura', 'Podporovány jazyky: arabština, angličtina, francouzština, španělština, japonština, hindština, portugalština, ruština, čínština, němčina, italština, řečtina, urdština, perština, turečtina, kurdština, indonéština, svahilština, korejština a čeština')}</span> <span>•</span> <span>{t('مشاركة الوصفة الفردية مفعّلة', 'Single-Recipe Sharing Enabled', 'Partage de Recette Individuelle Activé', 'Compartir Receta Individual Habilitado', '個別レシピの共有が可能', 'एकल रेसिपी साझा करने की सुविधा उपलब्ध', 'Compartilhamento de receita individual habilitado', 'Доступен обмен ссылкой на отдельный рецепт', '支持单个食谱分享', 'Teilen einzelner Rezepte aktiviert', 'Condivisione della singola ricetta attiva', 'Ενεργοποιημένη κοινή χρήση μεμονωμένης συνταγής', 'انفرادی ترکیب شیئر کرنے کی سہولت دستیاب', 'اشتراک‌گذاری تک‌دستور فعال است', 'Tek Tarif Paylaşımı Etkin', 'Parvekirina Reçeteya Takekesî Çalak e', 'Berbagi Resep Satuan Diaktifkan', 'Kushiriki Mapishi Moja Kumewezeshwa', '개별 레시피 공유 활성화됨', 'Delen van losse recepten ingeschakeld', 'د یو ځانګړي ترکیب شریکول فعال دی', 'שיתוף מתכון בודד מופעל', 'Udostępnianie pojedynczego przepisu włączone', 'Delning av enskilda recept aktiverad', 'ఒకే వంటకాన్ని పంచుకునే సౌకర్యం అందుబాటులో ఉంది', 'একক রেসিপি শেয়ারিং চালু', 'Đã bật chia sẻ từng công thức', 'Ndarja e një recete të vetme e aktivizuar', 'Sdílení jednotlivých receptů povoleno')}</span>
+            <div className="flex flex-wrap items-center gap-2">
+<button type="button" onClick={() => setActiveTab('technology')} className="font-bold underline hover:text-amber-700 transition-colors">{TECHNOLOGY_LABELS[lang] ?? TECHNOLOGY_LABELS.en}</button> <span>•</span> <span title={TOP_20_LANGUAGES.map(l => l.nativeName).join(' · ')}>{LANGUAGE_COUNT} {getUIText(lang, 'languagesSupported')}</span> <span>•</span> <span>{t('مشاركة الوصفة الفردية مفعّلة', 'Single-Recipe Sharing Enabled', 'Partage de Recette Individuelle Activé', 'Compartir Receta Individual Habilitado', '個別レシピの共有が可能', 'एकल रेसिपी साझा करने की सुविधा उपलब्ध', 'Compartilhamento de receita individual habilitado', 'Доступен обмен ссылкой на отдельный рецепт', '支持单个食谱分享', 'Teilen einzelner Rezepte aktiviert', 'Condivisione della singola ricetta attiva', 'Ενεργοποιημένη κοινή χρήση μεμονωμένης συνταγής', 'انفرادی ترکیب شیئر کرنے کی سہولت دستیاب', 'اشتراک‌گذاری تک‌دستور فعال است', 'Tek Tarif Paylaşımı Etkin', 'Parvekirina Reçeteya Takekesî Çalak e', 'Berbagi Resep Satuan Diaktifkan', 'Kushiriki Mapishi Moja Kumewezeshwa', '개별 레시피 공유 활성화됨', 'Delen van losse recepten ingeschakeld', 'د یو ځانګړي ترکیب شریکول فعال دی', 'שיתוף מתכון בודד מופעל', 'Udostępnianie pojedynczego przepisu włączone', 'Delning av enskilda recept aktiverad', 'ఒకే వంటకాన్ని పంచుకునే సౌకర్యం అందుబాటులో ఉంది', 'একক রেসিপি শেয়ারিং চালু', 'Đã bật chia sẻ từng công thức', 'Ndarja e një recete të vetme e aktivizuar', 'Sdílení jednotlivých receptů povoleno', 'Partajarea unei rețete individuale activată')}</span>
             </div>
           </div>
+
+          {/* Legal pages (public/*.html). */}
+          <nav aria-label={(LEGAL_LABELS[lang] ?? LEGAL_LABELS.en).terms} className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-[11px] text-stone-500">
+            {LEGAL_PAGES.map((page, index) => (
+              <React.Fragment key={page.href}>
+                {index > 0 && <span aria-hidden="true">•</span>}
+                <a href={`${import.meta.env.BASE_URL}${page.href}`} className="underline hover:text-amber-700 transition-colors">{(LEGAL_LABELS[lang] ?? LEGAL_LABELS.en)[page.key]}</a>
+              </React.Fragment>
+            ))}
+          </nav>
+
+          {/* Sister sites and the native apps (same store links as public/app-banner.js). */}
+          <nav dir="ltr" className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-[11px] text-stone-400">
+            {FOOTER_LINKS.map((link, index) => (
+              <React.Fragment key={link.href}>
+                {index > 0 && <span aria-hidden="true">•</span>}
+                <a href={link.href} rel="noopener" className="underline hover:text-amber-700 transition-colors">{link.label}</a>
+              </React.Fragment>
+            ))}
+          </nav>
         </div>
       </footer>
     </div>

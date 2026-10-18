@@ -1,0 +1,230 @@
+{
+  "footerLink": "Teknolojia",
+  "back": "Rudi kwenye mapishi",
+  "title": "Teknolojia iliyo nyuma ya fifi.cooking",
+  "intro": "fifi.cooking ni hifadhi ya mapishi ya bure na chanzo wazi, iliyojengwa kudumu. Haina akaunti, haina matangazo, wala seva ya kuiweka hai: tovuti na kila programu husoma mafaili yale yale wazi. Ukurasa huu unaeleza imetengenezwa kwa nini, inafikaje kwenye vifaa vyako, na inavyounganishwa na Cookwala, kiwango wazi cha kupika kwa usalama.",
+  "stats": {
+    "recipes": "mapishi",
+    "languages": "lugha",
+    "platforms": "majukwaa",
+    "accounts": "akaunti au matangazo"
+  },
+  "sections": [
+    {
+      "id": "web",
+      "heading": "Tovuti imejengwaje",
+      "items": [
+        {
+          "title": "React 19 na TypeScript",
+          "text": "Kiolesura kimeandikwa kwa TypeScript pamoja na React, hivyo kila skrini na kila kipande cha data ya mapishi kina aina iliyokaguliwa."
+        },
+        {
+          "title": "Vite 8 na Tailwind CSS 4",
+          "text": "Vite hujenga tovuti haraka na kuigawanya vipande vidogo. Tailwind huipamba, ikiwemo mpangilio kamili wa kulia kwenda kushoto kwa Kiarabu, Kiajemi, Kiurdu, Kipashto na Kiebrania."
+        },
+        {
+          "title": "Tuli kwa makusudi",
+          "text": "Hakuna sehemu ya nyuma, hifadhidata wala kuingia. Kila kitu hugeuzwa kuwa mafaili ya kawaida tovuti inapojengwa, kisha GitHub Pages huyatoa kwenye fifi.cooking."
+        },
+        {
+          "title": "Hupakia tu unachofungua",
+          "text": "Tafsiri za lugha yako, mapishi unayofungua, Kupika na Watoto na kurasa za kumbukumbu huletwa tu zinapohitajika, hivyo skrini ya kwanza hubaki nyepesi."
+        },
+        {
+          "title": "Aikoni za Lucide na Motion",
+          "text": "Aikoni zinatoka Lucide na michoro laini inayosogea inatoka Motion."
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "Data ya mapishi",
+      "items": [
+        {
+          "title": "JSON API moja iliyo wazi",
+          "text": "Kila mapishi, tafsiri, faharasa ya utafutaji na faharasa ya viungo ni faili chini ya fifi.cooking/data. Orodha kuu hubeba toleo lenye alama ya maudhui, kila URL ya toleo fulani haibadiliki kamwe, na maombi kutoka tovuti nyingine yanaruhusiwa, hivyo yeyote anaweza kujenga juu yake."
+        },
+        {
+          "title": "Faili moja kwa kila mapishi",
+          "text": "Faili ya mapishi ina maandishi asilia, makadirio ya lishe na gharama, na tafsiri zake katika kila lugha."
+        },
+        {
+          "title": "Utafutaji katika kila lugha",
+          "text": "Faharasa ya utafutaji hujengwa kwa kila lugha, hivyo utafutaji hufanya kazi bila seva."
+        },
+        {
+          "title": "Makadirio ya lishe na gharama",
+          "text": "Kila mapishi yana kalori, protini, wanga na mafuta vilivyokokotolewa, pamoja na gharama iliyokadiriwa."
+        },
+        {
+          "title": "Mwonekano wa hati asilia",
+          "text": "Mapishi kutoka kwenye hifadhi ya Dkt. Fatma yanaweza kuonyeshwa kama taswira ya maandishi asilia ya Kiarabu yenye michoro."
+        },
+        {
+          "title": "Hupatikana na injini za utafutaji",
+          "text": "Kila mapishi pia yana ukurasa wake tuli wenye alama za schema.org Recipe, na ujenzi hutengeneza ramani ya tovuti na kuarifu injini za utafutaji kupitia IndexNow."
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "heading": "Lugha na kanuni za chakula",
+      "items": [
+        {
+          "title": "Lugha 29",
+          "text": "Tovuti na mapishi yake yanapatikana katika lugha 29. Kikurdi ni Kurmanji kwa herufi za Kilatini."
+        },
+        {
+          "title": "Hukaguliwa kabla ya kila badiliko",
+          "text": "Amri iitwayo check:world hufanya kazi kabla ya badiliko lolote la mapishi kuhifadhiwa. Hukagua kwamba kila sehemu inatumia mfumo mmoja wa maandishi, kwamba muundo umekamilika, kwamba majina ya vyakula vya Kiarabu yanafuata kamusi ya maneno, na kwamba aina za msimbo zinapita ukaguzi."
+        },
+        {
+          "title": "Halali kwa kanuni",
+          "text": "Mapishi hayana nyama ya nguruwe wala pombe, ikiwemo vilivyofichika kama mirin. Ukaguzi wa kiotomatiki wa halali pia hufanywa kwa kila tafsiri, kwa sababu tafsiri inaweza yenyewe kuleta kiungo kilichokatazwa."
+        }
+      ]
+    },
+    {
+      "id": "making",
+      "heading": "Mapishi na picha hutengenezwaje",
+      "items": [
+        {
+          "title": "Mkondo wa vyakula vya dunia",
+          "text": "Mapishi kutoka nchi nyingi hupitia hatua zilizopangwa: kutafuta vyanzo, kuandika rasimu kwa modeli ya lugha inayofanya kazi kwenye kompyuta ya mahali pamoja, kuiingiza, kuikagua kwa halali, kuitafsiri, kuongeza makadirio na kuongeza picha. Nchi huanza kuonekana tu kila hatua inapokamilika."
+        },
+        {
+          "title": "Picha zilizotengenezwa na AI",
+          "text": "Picha za mapishi ni michoro iliyotengenezwa kwenye kompyuta ya mahali pamoja kwa modeli ya FLUX.2. Zinaonyesha chakula kinaweza kuonekanaje. Si picha halisi za chakula kilichopikwa."
+        },
+        {
+          "title": "Picha za haraka",
+          "text": "Kila picha hubanwa na pia huhifadhiwa kama taswira ndogo, kwa kutumia sharp, ili kurasa zipakie haraka kwenye mtandao wa polepole."
+        },
+        {
+          "title": "Video za kupika",
+          "text": "Kazi iliyopangwa hutafuta YouTube mara moja kwa wiki na kuhifadhi video zinazolingana kwa kila mapishi. Huonyeshwa kwenye kichupo cha Video na hupakia tu unapokifungua."
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "heading": "Unachoweza kufanya",
+      "items": [
+        {
+          "title": "Vinjari, tafuta na chuja",
+          "text": "Tafuta kwenye mapishi yote, chuja kwa sura, aina na njia ya kupika, au tazama orodha moja ya pamoja ya viungo katika hifadhi nzima."
+        },
+        {
+          "title": "Kupika na Watoto",
+          "text": "Hali ya kufurahisha yenye picha zilizochorwa kwa mkono, hatua moja fupi kwa kila skrini, kusomewa kwa sauti, vipima muda na beji ya \"mtu mzima asaidie\" kwenye hatua zenye kisu, moto au blenda."
+        },
+        {
+          "title": "Shiriki mapishi",
+          "text": "Shiriki mapishi moja au tovuti nzima kwa kutumia menyu ya kushiriki ya kifaa chako."
+        },
+        {
+          "title": "Kumbukumbu hai",
+          "text": "Soma wasifu wa Dkt. Fatma Alkawokgy (1943–2026) na utume salamu za heshima kwa barua pepe."
+        }
+      ]
+    },
+    {
+      "id": "devices",
+      "heading": "Vifaa na mahali inapokufikia",
+      "intro": "Kila programu husoma mafaili yale yale ya data wazi, hivyo mapishi mapya huonekana kila mahali baada ya utoaji mmoja.",
+      "items": [
+        {
+          "title": "Tovuti",
+          "text": "fifi.cooking hufanya kazi kwenye kivinjari chochote cha kisasa, kwenye simu, kompyuta kibao na kompyuta."
+        },
+        {
+          "title": "Android",
+          "text": "Programu asilia iliyoandikwa kwa Kotlin na Jetpack Compose, kwa simu, kompyuta kibao, simu zinazokunjwa na Chromebook. Haina uchanganuzi, matangazo wala Google Play Services."
+        },
+        {
+          "title": "iPhone na iPad",
+          "text": "Programu asilia ya SwiftUI inayojirekebisha kwa iPhone na iPad, bila maktaba za watu wengine."
+        },
+        {
+          "title": "Apple TV",
+          "text": "Programu asilia ya SwiftUI kwa tvOS, iliyobuniwa kwa ajili ya Siri Remote."
+        },
+        {
+          "title": "Amazon Fire TV",
+          "text": "Programu ya React rafiki kwa rimoti, yenye uelekezaji kwa vitufe vya mwelekeo, iliyofungashwa kwa Fire OS."
+        },
+        {
+          "title": "Samsung Smart TV",
+          "text": "Programu ya wavuti kwa Tizen, kwa runinga za Samsung kuanzia 2020, inayoshiriki msimbo wake na programu ya Fire TV."
+        },
+        {
+          "title": "Hufunguka mahali sahihi",
+          "text": "Universal Links na Android App Links huruhusu kiungo cha mapishi kufunguka kwenye programu ikiwa imesakinishwa, na kwenye kivinjari ikiwa haijasakinishwa. Kila programu ina ukurasa wake kwenye kikoa kidogo cha fifi.cooking."
+        },
+        {
+          "title": "Skrini mpya ya nyumbani ya runinga",
+          "text": "Cloudflare Worker ndogo huchanganya upya skrini ya nyumbani ya runinga kila programu inapofunguliwa, hivyo safu hazifanani mara mbili."
+        }
+      ]
+    },
+    {
+      "id": "deploy",
+      "heading": "Kujenga na kutoa",
+      "items": [
+        {
+          "title": "Utoaji wa kiotomatiki",
+          "text": "Kila badiliko linalounganishwa kwenye tawi kuu huendesha mtiririko wa GitHub Actions unaosakinisha mradi, kutengeneza mafaili yote ya data, kujenga tovuti na kuichapisha kwenye GitHub Pages."
+        },
+        {
+          "title": "Usasishaji wa kila wiki",
+          "text": "Mtiririko wa pili huendeshwa kila Jumatatu, husasisha video za mapishi, huhifadhi matokeo na kuanzisha utoaji mpya."
+        },
+        {
+          "title": "Programu zilizojaribiwa",
+          "text": "Programu za Android, iPhone na iPad, na Apple TV kila moja ina mitiririko ya kiotomatiki ya kujenga na kujaribu, na programu za Samsung na Fire TV zina mitiririko yake ya kujenga na kutoa."
+        },
+        {
+          "title": "Yote wazi",
+          "text": "Mitiririko, hati za msimbo na ukaguzi vipo kwenye hazina, hivyo unaweza kuona hasa jinsi badiliko linavyokuwa ukurasa hai."
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "heading": "Faragha",
+      "items": [
+        {
+          "title": "Hakuna akaunti, matangazo au ufuatiliaji kutoka kwetu",
+          "text": "Huhitaji kuingia, hakuna kinachouzwa, na tovuti haiendeshi matangazo wala ufuatiliaji unaokufuata kati ya tovuti."
+        },
+        {
+          "title": "Wazi kuhusu watu wengine",
+          "text": "Huduma za nje zinahusika katika kuhifadhi tovuti, fonti na huduma za hiari za mahali ulipo. Ukurasa wa faragha unaorodhesha kila moja."
+        }
+      ]
+    }
+  ],
+  "openSource": {
+    "heading": "Chanzo wazi, wazi kwa kila mtu",
+    "text": "fifi.cooking ni chanzo wazi. Yeyote anaweza kusoma msimbo, kuuboresha, kuutafsiri, kuripoti tatizo au kutuma pull request. Uko huru kutumia msimbo katika programu yoyote unayopenda, chini ya MIT License.",
+    "points": [
+      "Rekebisha hitilafu, boresha tafsiri au ongeza kipengele.",
+      "Ongeza lugha, mapishi au picha bora zaidi.",
+      "Nakili sehemu yoyote ya msimbo kwenye mradi wako.",
+      "Maandishi ya mapishi na picha hufuata masharti yaliyo chini ya tovuti."
+    ],
+    "buttons": {
+      "code": "Tazama msimbo",
+      "contribute": "Jinsi ya kuchangia",
+      "license": "Soma leseni",
+      "issues": "Ripoti tatizo",
+      "privacy": "Ukurasa wa faragha"
+    },
+    "reposHeading": "Hazina zote"
+  },
+  "cookwala": {
+    "heading": "Inavyohusiana na Cookwala",
+    "text": "Cookwala ni kiwango wazi cha kupika kwa usalama, kwa watu, jikoni na roboti. Kilianzishwa na fifi.cooking, ambayo pia ni chanzo chake cha kwanza cha mapishi. Mapishi ya hapa husafirishwa kama hati za Cookwala, kila moja ikiwa na alama ya hash, sifa na leseni, na seva ya Cookwala MCP huruhusu wasaidizi wa AI kutafuta data wazi ya fifi.cooking. Kila kitu kilichoelezwa kwenye ukurasa huu, kuanzia mafaili tuli hadi API wazi, ndicho kinachofanya hilo liwezekane.",
+    "button": "Tembelea Cookwala"
+  }
+}

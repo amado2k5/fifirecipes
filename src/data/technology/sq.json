@@ -1,0 +1,230 @@
+{
+  "footerLink": "Teknologjia",
+  "back": "Kthehu te recetat",
+  "title": "Teknologjia pas fifi.cooking",
+  "intro": "fifi.cooking është një arkiv recetash falas dhe me kod të hapur, ndërtuar për të zgjatur. Nuk ka llogari, nuk ka reklama dhe nuk ka shërbyes që duhet mbajtur ndezur: faqja e internetit dhe të gjitha aplikacionet lexojnë të njëjtat skedarë të hapur. Kjo faqe shpjegon nga çfarë përbëhet, si arrin te pajisjet tuaja dhe si lidhet me Cookwala, standardin e hapur për gatim të sigurt.",
+  "stats": {
+    "recipes": "receta",
+    "languages": "gjuhë",
+    "platforms": "platforma",
+    "accounts": "llogari ose reklama"
+  },
+  "sections": [
+    {
+      "id": "web",
+      "heading": "Si është ndërtuar faqja e internetit",
+      "items": [
+        {
+          "title": "React 19 dhe TypeScript",
+          "text": "Ndërfaqja është shkruar në TypeScript me React, kështu që çdo ekran dhe çdo e dhënë e recetës ka një tip të kontrolluar."
+        },
+        {
+          "title": "Vite 8 dhe Tailwind CSS 4",
+          "text": "Vite e ndërton faqen shpejt dhe e ndan në pjesë të vogla. Tailwind e stilizon, përfshirë faqosje të plota nga e djathta në të majtë për arabishten, persishten, urduishten, pashtoishten dhe hebraishten."
+        },
+        {
+          "title": "Statike nga konceptimi",
+          "text": "Nuk ka pjesë të pasme, bazë të dhënash apo hyrje. Gjithçka kthehet në skedarë të thjeshtë kur ndërtohet faqja, pastaj shërbehet nga GitHub Pages te fifi.cooking."
+        },
+        {
+          "title": "Ngarkon vetëm atë që hapni",
+          "text": "Përkthimet e gjuhës suaj, receta që hapni, Gatim me fëmijë dhe faqet përkujtimore merren vetëm kur nevojiten, kështu që ekrani i parë mbetet i lehtë."
+        },
+        {
+          "title": "Ikona Lucide dhe Motion",
+          "text": "Ikonat vijnë nga Lucide dhe animacionet e buta nga Motion."
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "Të dhënat e recetave",
+      "items": [
+        {
+          "title": "Një API e hapur JSON",
+          "text": "Çdo recetë, përkthim, indeks kërkimi dhe indeks përbërësish është një skedar nën fifi.cooking/data. Një manifest mban një version të bazuar te hash-i i përmbajtjes, çdo URL nuk ndryshon kurrë për një version të dhënë dhe lejohen kërkesat nga burime të tjera, kështu që kushdo mund të ndërtojë mbi të."
+        },
+        {
+          "title": "Një skedar për çdo recetë",
+          "text": "Një skedar recete mban tekstin origjinal, vlerat ushqyese dhe vlerësimin e kostos, si dhe përkthimet e tij në çdo gjuhë."
+        },
+        {
+          "title": "Kërkim në çdo gjuhë",
+          "text": "Për çdo gjuhë ndërtohet një indeks kërkimi, kështu që kërkimi funksionon pa shërbyes."
+        },
+        {
+          "title": "Vlerësime ushqyese dhe kostoje",
+          "text": "Çdo recetë ka kalori, proteina, karbohidrate dhe yndyrë të llogaritura, si dhe një kosto të vlerësuar."
+        },
+        {
+          "title": "Pamja e dorëshkrimit origjinal",
+          "text": "Recetat nga arkivi i Dr. Fatmës mund të shfaqen si një paraqitje e ilustruar e tekstit origjinal arabisht."
+        },
+        {
+          "title": "Gjendet nga motorët e kërkimit",
+          "text": "Çdo recetë ka edhe faqen e vet statike me shënimin Recipe të schema.org, dhe ndërtimi prodhon një hartë të faqes dhe njofton motorët e kërkimit përmes IndexNow."
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "heading": "Gjuhët dhe rregullat e ushqimit",
+      "items": [
+        {
+          "title": "29 gjuhë",
+          "text": "Faqja dhe recetat e saj janë të disponueshme në 29 gjuhë. Kurdishtja është Kurmanji me shkrim latin."
+        },
+        {
+          "title": "Kontrollohet para çdo ndryshimi",
+          "text": "Një komandë e quajtur check:world ekzekutohet para se të ruhet çdo ndryshim në recetë. Ajo kontrollon që çdo fushë përdor një shkrim të vetëm, që struktura është e plotë, që emrat e gjellëve arabisht ndjekin fjalorin dhe që kodi kalon kontrollin e tipeve."
+        },
+        {
+          "title": "Hallall me rregull",
+          "text": "Recetat nuk përmbajnë mish derri apo alkool, përfshirë ato të fshehura si mirin. Kontrolle automatike hallall ekzekutohen edhe për çdo përkthim, sepse një përkthim mund të sjellë vetë një përbërës të ndaluar."
+        }
+      ]
+    },
+    {
+      "id": "making",
+      "heading": "Si bëhen recetat dhe fotot",
+      "items": [
+        {
+          "title": "Zinxhiri i kuzhinave të botës",
+          "text": "Recetat nga shumë vende kalojnë nëpër hapa të caktuar: zbulimi i burimeve, shkrimi i një skice me një model gjuhësor që punon në një kompjuter lokal, importimi, kontrolli për hallall, përkthimi, shtimi i vlerësimeve dhe shtimi i një fotoje. Një vend del në linjë vetëm kur çdo hap është kryer."
+        },
+        {
+          "title": "Foto të krijuara me inteligjencë artificiale",
+          "text": "Fotot e recetave janë ilustrime të krijuara në një kompjuter lokal me modelin FLUX.2. Ato tregojnë se si mund të duket gjella. Nuk janë fotografi të gjellës së gatuar."
+        },
+        {
+          "title": "Imazhe të shpejta",
+          "text": "Çdo foto kompresohet dhe ruhet edhe si miniaturë më e vogël, me sharp, që faqet të ngarkohen shpejt edhe me lidhje të ngadalta."
+        },
+        {
+          "title": "Video gatimi",
+          "text": "Një detyrë e planifikuar kërkon në YouTube një herë në javë dhe ruan video të përshtatshme për çdo recetë. Ato shfaqen te skeda Video dhe ngarkohen vetëm kur e hapni."
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "heading": "Çfarë mund të bëni",
+      "items": [
+        {
+          "title": "Shfletoni, kërkoni dhe filtroni",
+          "text": "Kërkoni në të gjitha recetat, filtroni sipas kapitullit, kategorisë dhe mënyrës së gatimit, ose shihni një listë të vetme të bashkuar përbërësish nga i gjithë arkivi."
+        },
+        {
+          "title": "Gatim me fëmijë",
+          "text": "Një mënyrë lozonjare me figura të vizatuara me dorë, një hap i shkurtër për ekran, lexim me zë, kohëmatës dhe një distinktiv \"i rrituri ndihmon\" te hapat me thikë, nxehtësi ose mikser."
+        },
+        {
+          "title": "Ndani një recetë",
+          "text": "Ndani një recetë ose gjithë faqen me menunë e ndarjes së pajisjes suaj."
+        },
+        {
+          "title": "Një përkujtim i gjallë",
+          "text": "Lexoni biografinë e Dr. Fatma Alkawokgy (1943–2026) dhe dërgoni një përshëndetje nderimi me postë elektronike."
+        }
+      ]
+    },
+    {
+      "id": "devices",
+      "heading": "Pajisjet dhe ku ju arrin",
+      "intro": "Çdo aplikacion lexon të njëjtat skedarë të hapur të dhënash, kështu që një recetë e re shfaqet kudo pas një publikimi të vetëm.",
+      "items": [
+        {
+          "title": "Faqja e internetit",
+          "text": "fifi.cooking funksionon në çdo shfletues modern, në telefona, tablete dhe kompjuterë."
+        },
+        {
+          "title": "Android",
+          "text": "Një aplikacion vendas i shkruar në Kotlin me Jetpack Compose, për telefona, tablete, pajisje të palosshme dhe Chromebook. Nuk ka analitikë, reklama apo Google Play Services."
+        },
+        {
+          "title": "iPhone dhe iPad",
+          "text": "Një aplikacion vendas SwiftUI që përshtatet me iPhone dhe iPad, pa biblioteka të palëve të treta."
+        },
+        {
+          "title": "Apple TV",
+          "text": "Një aplikacion vendas SwiftUI për tvOS, i projektuar për Siri Remote."
+        },
+        {
+          "title": "Amazon Fire TV",
+          "text": "Një aplikacion React i përshtatshëm për telekomandën, me navigim me butonat e drejtimit, i paketuar për Fire OS."
+        },
+        {
+          "title": "Samsung Smart TV",
+          "text": "Një aplikacion uebi për Tizen, për televizorët Samsung nga viti 2020 e tutje, që e ndan kodin me aplikacionin Fire TV."
+        },
+        {
+          "title": "Hapet në vendin e duhur",
+          "text": "Universal Links dhe Android App Links lejojnë që lidhja e një recete të hapet në aplikacion kur ai është i instaluar dhe në shfletues kur nuk është. Çdo aplikacion ka faqen e vet në një nëndomen të fifi.cooking."
+        },
+        {
+          "title": "Ekran kryesor i ri në TV",
+          "text": "Një Cloudflare Worker i vogël e përzien nga e para ekranin kryesor të TV-së sa herë që hapet një aplikacion, kështu që rreshtat nuk janë kurrë të njëjtë dy herë."
+        }
+      ]
+    },
+    {
+      "id": "deploy",
+      "heading": "Ndërtimi dhe publikimi",
+      "items": [
+        {
+          "title": "Publikim automatik",
+          "text": "Çdo ndryshim i bashkuar te dega kryesore nis një rrjedhë pune GitHub Actions që instalon projektin, gjeneron të gjithë skedarët e të dhënave, ndërton faqen dhe e publikon në GitHub Pages."
+        },
+        {
+          "title": "Rifreskim javor",
+          "text": "Një rrjedhë e dytë pune ekzekutohet çdo të hënë, rifreskon videot e recetave, ruan rezultatin dhe nis një publikim të ri."
+        },
+        {
+          "title": "Aplikacione të testuara",
+          "text": "Aplikacionet Android, iPhone dhe iPad, dhe Apple TV kanë secili rrjedha pune automatike ndërtimi dhe testimi, ndërsa aplikacionet Samsung dhe Fire TV kanë rrjedhat e tyre të ndërtimit dhe publikimit."
+        },
+        {
+          "title": "Gjithçka e hapur",
+          "text": "Rrjedhat e punës, skriptet dhe kontrollet gjenden në depot e kodit, kështu që mund të shihni saktësisht si një ndryshim bëhet faqe e gjallë."
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "heading": "Privatësia",
+      "items": [
+        {
+          "title": "Pa llogari, reklama apo gjurmim nga ne",
+          "text": "Nuk keni nevojë të hyni, asgjë nuk shitet dhe faqja nuk shfaq reklama apo gjurmim ndërmjet faqeve."
+        },
+        {
+          "title": "E qartë për palët e treta",
+          "text": "Strehimi, shkronjat dhe veçoritë opsionale të vendndodhjes përfshijnë shërbime të jashtme. Faqja e privatësisë i rendit secilin."
+        }
+      ]
+    }
+  ],
+  "openSource": {
+    "heading": "Kod i hapur, i hapur për të gjithë",
+    "text": "fifi.cooking është me kod të hapur. Kushdo mund ta lexojë kodin, ta përmirësojë, ta përkthejë, të raportojë një problem ose të dërgojë një kërkesë bashkimi. Jeni të lirë ta përdorni kodin në çdo aplikacion që dëshironi, nën MIT License.",
+    "points": [
+      "Rregulloni një gabim, përmirësoni një përkthim ose shtoni një veçori.",
+      "Shtoni një gjuhë, një recetë ose një foto më të mirë.",
+      "Kopjoni çdo pjesë të kodit në projektin tuaj.",
+      "Teksti i recetave dhe fotot ndjekin kushtet në fund të faqes."
+    ],
+    "buttons": {
+      "code": "Shiko kodin",
+      "contribute": "Si të kontribuoni",
+      "license": "Lexo licencën",
+      "issues": "Raporto një problem",
+      "privacy": "Faqja e privatësisë"
+    },
+    "reposHeading": "Të gjitha depot"
+  },
+  "cookwala": {
+    "heading": "Si lidhet me Cookwala",
+    "text": "Cookwala është një standard i hapur për gatim të sigurt, për njerëz, kuzhina dhe robotë. U nis nga fifi.cooking, i cili është edhe burimi i saj i parë i recetave. Recetat këtu eksportohen si dokumente Cookwala, secili me një hash, një kredit dhe një licencë, dhe shërbyesi MCP i Cookwala lejon asistentët e inteligjencës artificiale të kërkojnë në të dhënat e hapura të fifi.cooking. Gjithçka e përshkruar në këtë faqe, nga skedarët statikë te API e hapur, është ajo që e bën këtë të mundur.",
+    "button": "Vizito Cookwala"
+  }
+}

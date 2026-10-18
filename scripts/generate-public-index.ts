@@ -15,13 +15,23 @@
  *  public/recipe/<id>/index.html  a static, JavaScript-free page per recipe for
  *                               search engines and link previews (gitignored)
  *  public/recipes.json          the whole open archive in one file
- *  public/sitemap.xml
+ *  public/sitemap-<lang>.xml    one sitemap per site language (each well under
+ *                               the 50,000-URL limit), every <url> with <lastmod>
+ *  public/sitemap-index.xml     the sitemap index pointing at them; public/sitemap.xml
+ *                               is the same index, so earlier submissions keep working
+ *
+ * <lastmod> comes from scripts/sitemap-lastmod.json: a content hash and a date
+ * per recipe and language. A page whose hash changed is stamped with today's
+ * date (in CI: the commit date, so a rebuild of the same commit stamps the same
+ * day). Commit the updated file together with recipe or translation changes.
  *
  * Nothing under src/data/chapters is bundled into the app any more: the browser
  * only downloads the pages, translations and recipes it actually shows.
  */
+import { execSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
-import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
+import sharp from 'sharp';
 import { allRecipes, buildGlobalIngredientRegistry, computeDatabaseStats } from '../src/data/recipes';
 import { RECIPE_ESTIMATES } from '../src/data/recipeEstimatesData';
 import { formatServings, getCostTotal, type RecipeEstimate } from '../src/data/recipeEstimates';
@@ -44,7 +54,7 @@ import { generateTvData, tvEligibleRecipes } from './generate-tv-index';
 import type { KidsRecipeCard } from '../src/kids/types';
 
 const siteUrl = (process.env.PUBLIC_SITE_URL || 'https://fifi.cooking').replace(/\/$/, '');
-const SUPPORTED_LANGUAGES: SupportedLanguage[] = ['ar', 'en', 'fr', 'es', 'ja', 'hi', 'pt', 'ru', 'zh', 'de', 'it', 'el', 'ur', 'fa', 'tr', 'ku', 'id', 'sw', 'ko', 'nl', 'ps', 'he', 'pl', 'sv', 'te', 'bn', 'vi', 'sq', 'cs'];
+const SUPPORTED_LANGUAGES: SupportedLanguage[] = ['ar', 'en', 'fr', 'es', 'ja', 'hi', 'pt', 'ru', 'zh', 'de', 'it', 'el', 'ur', 'fa', 'tr', 'ku', 'id', 'sw', 'ko', 'nl', 'ps', 'he', 'pl', 'sv', 'te', 'bn', 'vi', 'sq', 'cs', 'ro'];
 const TRANSLATION_FILES: Partial<Record<SupportedLanguage, string>> = {
   en: 'recipeTranslations.json',
   fr: 'recipeTranslationsFr.json',
@@ -73,7 +83,8 @@ const TRANSLATION_FILES: Partial<Record<SupportedLanguage, string>> = {
   bn: 'recipeTranslationsBn.json',
   vi: 'recipeTranslationsVi.json',
   sq: 'recipeTranslationsSq.json',
-  cs: 'recipeTranslationsCs.json'
+  cs: 'recipeTranslationsCs.json',
+  ro: 'recipeTranslationsRo.json'
 };
 /** Cards per index page; the first page is all a visitor waits for. */
 const PAGE_SIZE = 100;
@@ -224,6 +235,26 @@ for (const lang of SUPPORTED_LANGUAGES) {
   put(`search/${lang}.json`, search);
 }
 
+// Dietary claims (halal, kosher, vegetarian, vegan) from scripts/diet/. Positive claims only,
+// basis "ingredients": derived from the ingredient and step text, not a certification.
+type DietaryClaim = { claim: string; basis: 'ingredients' | 'certified'; ruleset: string; note?: string };
+const RECIPE_DIETARY: Record<string, DietaryClaim[]> = JSON.parse(await readFile('src/data/recipeDietary.json', 'utf8'));
+// Allergens, gluten/dairy/nut-free claims and the diabetic estimate (scripts/diet/allergens.py). Same basis: ingredients and steps,
+// plus the nutrition estimate per serving. Screens, not certifications and not medical advice.
+const RECIPE_DIETARY_EXTRA: Record<string, DietaryClaim[]> = JSON.parse(await readFile('src/data/recipeDietaryExtra.json', 'utf8'));
+const RECIPE_HEALTH: Record<string, { a: string[]; s: string; d: string; g?: string; l?: string }> = JSON.parse(await readFile('src/data/recipeHealth.json', 'utf8'));
+const ALLERGEN_STATUS: Record<string, string> = { c: 'contains', n: 'none_found', l: 'check_labels', u: 'not_assessed' };
+// Gluten and lactose for every recipe: free, contains, check_labels (lactose: low or possible), not_assessed.
+const GLUTEN_STATUS: Record<string, string> = { f: 'free', c: 'contains', l: 'check_labels', u: 'not_assessed' };
+const LACTOSE_STATUS: Record<string, string> = { f: 'free', c: 'contains', l: 'low_or_possible', u: 'not_assessed' };
+const DIABETIC_STATUS: Record<string, string> = { f: 'friendly', b: 'borderline', n: 'not_friendly', u: 'unknown' };
+const dietaryOf = (id: string): DietaryClaim[] => [...(RECIPE_DIETARY[id] ?? []), ...(RECIPE_DIETARY_EXTRA[id] ?? [])];
+const SCHEMA_ORG_DIET: Record<string, string> = {
+  halal: 'https://schema.org/HalalDiet', kosher: 'https://schema.org/KosherDiet',
+  vegetarian: 'https://schema.org/VegetarianDiet', vegan: 'https://schema.org/VeganDiet',
+  gluten_free: 'https://schema.org/GlutenFreeDiet', lactose_free: 'https://schema.org/LowLactoseDiet', diabetic_friendly: 'https://schema.org/DiabeticDiet'
+};
+
 // Full recipes, each with its estimate and every translation it has.
 for (const recipe of orderedRecipes) {
   const translations: Partial<Record<SupportedLanguage, TranslationTable[string]>> = {};
@@ -235,9 +266,21 @@ for (const recipe of orderedRecipes) {
     // The same applies to prepTime/cookTime/servings: entries that omit them get
     // the localized measurement instead of an English fallback in the apps.
     const { chapter, category, cookingMethod, prepTime, cookTime, servings } = getLocalizedRecipe(recipe, lang);
-    translations[lang] = { chapter, category, cookingMethod, prepTime, cookTime, servings, ...table[recipe.id] };
+    // `chapter` goes last: the site ignores the chapter inside translation entries
+    // (docs/TRANSLATION_GUIDE.md), and many of them hold the Arabic master name.
+    translations[lang] = { category, cookingMethod, prepTime, cookTime, servings, ...table[recipe.id], chapter };
   }
-  put(`recipes/${recipe.id}.json`, { recipe, estimate: RECIPE_ESTIMATES[recipe.id], translations });
+  const health = RECIPE_HEALTH[recipe.id];
+  put(`recipes/${recipe.id}.json`, {
+    recipe, estimate: RECIPE_ESTIMATES[recipe.id], translations,
+    ...(dietaryOf(recipe.id).length ? { dietary: dietaryOf(recipe.id) } : {}),
+    ...(health ? {
+      allergens: { contains: health.a, status: ALLERGEN_STATUS[health.s], ruleset: 'fifi-allergen-1' },
+      diabetic: { status: DIABETIC_STATUS[health.d], ruleset: 'fifi-diabetic-1', basis: 'estimate' },
+      ...(health.g ? { gluten: { status: GLUTEN_STATUS[health.g], ruleset: 'fifi-allergen-1', basis: 'ingredients' } } : {}),
+      ...(health.l ? { lactose: { status: LACTOSE_STATUS[health.l], ruleset: 'fifi-lactose-1', basis: 'ingredients' } } : {})
+    } : {})
+  });
 }
 
 // Videos tab: what scripts/recipe-videos/fetch-videos.ts found, fetched by the
@@ -363,6 +406,30 @@ for (const [path, body] of files) {
 // ---------------------------------------------------------------------------
 // Static per-recipe pages for crawlers (and anyone without JavaScript).
 
+// Sister sites and the native apps, linked from every page footer. The store
+// URLs are the ones public/app-banner.js already points visitors to.
+const FOOTER_LINKS: { href: string; label: string }[] = [
+  { href: 'https://cookwala.ai', label: 'cookwala.ai' },
+  { href: 'https://origins.faith', label: 'origins.faith' },
+  { href: 'https://apps.apple.com/ca/app/fifi-recipes/id6817888908', label: 'App Store (iPhone, iPad)' },
+  { href: 'https://apps.apple.com/ca/app/fifi-recipes-tv/id6817959251', label: 'App Store (Apple TV)' },
+  { href: 'https://android.fifi.cooking/', label: 'Android' },
+  { href: 'https://www.amazon.ca/dp/B0HLH9TNRB', label: 'Amazon Appstore (Fire TV)' }
+];
+
+// Pixel size of each local banner image, for <img width/height> and og:image:width/height.
+const imageSizes = new Map<string, { width: number; height: number }>();
+for (const recipe of orderedRecipes) {
+  const imagePath = getRecipeImagePath(recipe.id);
+  if (!imagePath || recipe.imageUrl) continue;
+  try {
+    const { width, height } = await sharp(`public/${imagePath}`).metadata();
+    if (width && height) imageSizes.set(recipe.id, { width, height });
+  } catch {
+    // Image listed but not on disk (e.g. a partial checkout): no size hints.
+  }
+}
+
 const escapeHtml = (value: string) =>
   value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
@@ -435,6 +502,11 @@ const PAGE_TEXT = {
   }
 } as const;
 
+// schema.org RestrictedDiet values for a recipe's reviewed claims; ingredient-based, not a certification.
+function dietUris(id: string): string[] {
+  return dietaryOf(id).map(c => SCHEMA_ORG_DIET[c.claim]).filter(Boolean);
+}
+
 function recipeJsonLd(recipe: Recipe, estimate: RecipeEstimate | undefined, pageUrl: string, imageUrl: string) {
   const prepTime = toIsoDuration(recipe.prepTime);
   const cookTime = toIsoDuration(recipe.cookTime);
@@ -472,9 +544,22 @@ function recipeJsonLd(recipe: Recipe, estimate: RecipeEstimate | undefined, page
           estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: getCostTotal(estimate).toFixed(2) }
         }
       : recipe.servings ? { recipeYield: recipe.servings } : {}),
+    ...(dietUris(recipe.id).length ? { suitableForDiet: dietUris(recipe.id) } : {}),
     recipeIngredient: recipe.masterIngredients.map(ingredient => `${ingredient.name}: ${ingredient.standardAmount}`),
     recipeInstructions: recipe.uniqueInstructions.map(step => ({ '@type': 'HowToStep', position: step.stepNumber, text: step.text }))
   };
+}
+
+/** URL of a recipe in one language: its static page in the language it is written in, the app otherwise. */
+const recipeUrl = (recipe: Recipe, lang: SupportedLanguage) =>
+  lang === baseLanguage(recipe)
+    ? `${siteUrl}/recipe/${encodeURIComponent(recipe.id)}/`
+    : `${siteUrl}/?recipe=${encodeURIComponent(recipe.id)}&lang=${lang}`;
+
+/** Search keywords in the page language: the dish name, its category and cooking method. */
+function recipeKeywords(recipe: Recipe, lang: SupportedLanguage): string[] {
+  const localized = getLocalizedRecipe(recipe, lang);
+  return [...new Set([localized.title, localized.category, localized.cookingMethod].map(value => value?.trim()).filter(Boolean) as string[])];
 }
 
 function staticRecipePage(recipe: Recipe): string {
@@ -508,10 +593,16 @@ function staticRecipePage(recipe: Recipe): string {
     recipe.cookTime && `${text.cook}: ${recipe.cookTime}`,
     recipe.servings && `${text.serves}: ${recipe.servings}`
   ].filter(Boolean).join(' · ');
-  const alternates = SUPPORTED_LANGUAGES
-    .filter(alternate => listedIn(recipe, alternate))
-    .map(alternate => `<link rel="alternate" hreflang="${alternate}" href="${escapeHtml(`${siteUrl}/?recipe=${encodeURIComponent(recipe.id)}&lang=${alternate}`)}">`)
-    .join('\n');
+  // The full hreflang cluster: this page for its own language (and x-default),
+  // the app's ?recipe=&lang= URL for every other language the recipe is listed in.
+  const alternates = [
+    ...SUPPORTED_LANGUAGES
+      .filter(alternate => listedIn(recipe, alternate))
+      .map(alternate => `<link rel="alternate" hreflang="${alternate}" href="${escapeHtml(recipeUrl(recipe, alternate))}">`),
+    `<link rel="alternate" hreflang="x-default" href="${escapeHtml(pageUrl)}">`
+  ].join('\n');
+  const keywords = recipeKeywords(recipe, lang);
+  const size = imageSizes.get(recipe.id);
 
   return `<!doctype html>
 <html lang="${lang}" dir="${text.dir}">
@@ -520,27 +611,30 @@ function staticRecipePage(recipe: Recipe): string {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${escapeHtml(recipe.title)} | ${text.siteName}</title>
 <meta name="description" content="${escapeHtml(description)}">
-<link rel="canonical" href="${escapeHtml(pageUrl)}">
+${keywords.length ? `<meta name="keywords" content="${escapeHtml(keywords.join(text.listSeparator))}">\n` : ''}<link rel="canonical" href="${escapeHtml(pageUrl)}">
 ${alternates}
 <meta property="og:type" content="article">
+<meta property="og:site_name" content="${text.siteName}">
 <meta property="og:title" content="${escapeHtml(recipe.title)}">
 <meta property="og:description" content="${escapeHtml(description)}">
 <meta property="og:image" content="${escapeHtml(imageUrl)}">
-<meta property="og:url" content="${escapeHtml(pageUrl)}">
-<script type="application/ld+json">${JSON.stringify(recipeJsonLd(recipe, estimate, pageUrl, imageUrl)).replace(/</g, '\\u003c')}</script>
+${size ? `<meta property="og:image:width" content="${size.width}">\n<meta property="og:image:height" content="${size.height}">\n` : ''}<meta property="og:url" content="${escapeHtml(pageUrl)}">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">${JSON.stringify({ ...recipeJsonLd(recipe, estimate, pageUrl, imageUrl), description, ...(keywords.length ? { keywords: keywords.join(', ') } : {}) }).replace(/</g, '\\u003c')}</script>
 <style>
 body{font-family:Tajawal,system-ui,sans-serif;max-width:760px;margin:0 auto;padding:16px;line-height:1.8;color:#1c1917;background:#fafaf9}
 h1{margin:.2em 0;font-size:1.7em}h2{margin-top:1.4em;font-size:1.2em;border-bottom:2px solid #f59e0b;padding-bottom:.2em}
 .en{color:#78716c;margin:0}.facts{color:#57534e}.source{background:#f0f9ff;border:1px solid #bae6fd;padding:.6em .9em;border-radius:10px}
 .cta{display:inline-block;margin:1em 0;padding:.6em 1.1em;background:#d97706;color:#fff;border-radius:10px;text-decoration:none;font-weight:700}
 table{border-collapse:collapse}th,td{border:1px solid #e7e5e4;padding:.3em .8em;text-align:start}.note{color:#78716c;font-size:.9em}
-img{max-width:100%;border-radius:14px}
+img{max-width:100%;height:auto;border-radius:14px}
+footer{margin-top:2em;padding-top:1em;border-top:1px solid #e7e5e4;font-size:.85em;color:#78716c}footer a{color:#78716c}
 </style>
 </head>
 <body>
 <main>
 <p><a href="${escapeHtml(siteUrl)}/">${text.siteName}</a> › ${escapeHtml(getLocalizedRecipe(recipe, lang).category)}</p>
-${imagePath ? `<img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(recipe.title)}" width="760" loading="lazy">` : ''}
+${imagePath ? `<img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(recipe.title)}" width="${size?.width ?? 760}"${size ? ` height="${size.height}"` : ''} fetchpriority="high">` : ''}
 <h1>${escapeHtml(recipe.title)}</h1>
 ${recipe.titleEn && recipe.titleEn !== recipe.title ? `<p class="en" lang="en" dir="ltr">${escapeHtml(recipe.titleEn)}</p>` : ''}
 ${facts ? `<p class="facts">${escapeHtml(facts)}</p>` : ''}
@@ -557,6 +651,9 @@ ${recipe.uniqueInstructions.map(step => `<li>${escapeHtml(step.text)}</li>`).joi
 ${recipe.culturalNotes ? `<h2>${text.notes}</h2>\n<p>${escapeHtml(recipe.culturalNotes)}</p>` : ''}
 ${nutrition}
 </main>
+<footer dir="ltr">
+${FOOTER_LINKS.map(link => `<a href="${escapeHtml(link.href)}" rel="noopener">${escapeHtml(link.label)}</a>`).join(' · ')}
+</footer>
 </body>
 </html>
 `;
@@ -578,20 +675,91 @@ await writeFile('public/recipes.json', JSON.stringify({
   recipes: allRecipes.map(recipe => ({ ...recipe, estimates: RECIPE_ESTIMATES[recipe.id] }))
 }, null, 2));
 
-const urls = [
-  siteUrl,
-  ...SUPPORTED_LANGUAGES.map(lang => `${siteUrl}/?lang=${lang}`),
-  ...orderedRecipes.map(recipe => `${siteUrl}/recipe/${encodeURIComponent(recipe.id)}/`),
-  ...orderedRecipes.flatMap(recipe =>
-    SUPPORTED_LANGUAGES
-      .filter(lang => listedIn(recipe, lang))
-      .map(lang => `${siteUrl}/?recipe=${encodeURIComponent(recipe.id)}&lang=${lang}`)
-  )
-]
-  // <loc> content must be XML-escaped per the sitemap protocol.
-  .map(url => `  <url><loc>${url.replace(/&/g, '&amp;')}</loc></url>`)
-  .join('\n');
-await writeFile('public/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`);
+// Sitemaps: one per language, under a sitemap index (the 50,000-URL limit per
+// file would otherwise be passed: 30 languages x ~2,400 recipes). A recipe is
+// listed once per language it is shown in, at the URL its hreflang cluster uses
+// (the static page in its own language, the app's ?recipe=&lang= URL otherwise).
+{
+  const LEDGER_PATH = 'scripts/sitemap-lastmod.json';
+  type Ledger = Record<string, Record<string, string>>; // id -> lang -> "<hash> <YYYY-MM-DD>"
+  let ledger: Ledger = {};
+  try {
+    ledger = JSON.parse(await readFile(LEDGER_PATH, 'utf-8'));
+  } catch {
+    // First run: every page is stamped below.
+  }
+  const stampDate = (() => {
+    if (process.env.SITEMAP_LASTMOD_DATE) return process.env.SITEMAP_LASTMOD_DATE;
+    if (process.env.CI) {
+      try {
+        return execSync('git log -1 --format=%cs', { encoding: 'utf-8' }).trim();
+      } catch {
+        // Not a git checkout.
+      }
+    }
+    return new Date().toISOString().slice(0, 10);
+  })();
+  const hashOf = (value: unknown) => createHash('sha256').update(JSON.stringify(value)).digest('hex').slice(0, 8);
+
+  const nextLedger: Ledger = {};
+  const lastmodOf = (recipe: Recipe, lang: SupportedLanguage): string => {
+    const content = hashOf([
+      recipe,
+      RECIPE_ESTIMATES[recipe.id] ?? null,
+      getRecipeImagePath(recipe.id) ?? null,
+      dietaryOf(recipe.id),
+      RECIPE_HEALTH[recipe.id] ?? null,
+      lang === baseLanguage(recipe) ? null : tables[lang]?.[recipe.id] ?? null
+    ]);
+    const [previousHash, previousDate] = (ledger[recipe.id]?.[lang] ?? '').split(' ');
+    const date = previousHash === content && previousDate ? previousDate : stampDate;
+    (nextLedger[recipe.id] ??= {})[lang] = `${content} ${date}`;
+    return date;
+  };
+
+  const xmlEscape = (value: string) => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const urlEntry = (loc: string, lastmod: string) => `  <url><loc>${xmlEscape(loc)}</loc><lastmod>${lastmod}</lastmod></url>`;
+  const maxDate = (dates: string[]) => dates.reduce((a, b) => (b > a ? b : a), '');
+
+  // Drop sitemaps of an earlier run (e.g. a language that was removed).
+  for (const name of await readdir('public')) {
+    if (/^sitemap(-[a-z]{2}|-index)?\.xml$/.test(name)) await rm(`public/${name}`, { force: true });
+  }
+
+  type Entry = { loc: string; lastmod: string };
+  const sitemaps: { lang: SupportedLanguage; entries: Entry[]; lastmod: string }[] = [];
+  for (const lang of SUPPORTED_LANGUAGES) {
+    const entries: Entry[] = orderedRecipes
+      .filter(recipe => listedIn(recipe, lang))
+      .map(recipe => ({ loc: recipeUrl(recipe, lang), lastmod: lastmodOf(recipe, lang) }));
+    // A language's home page changes whenever one of its recipes does.
+    entries.unshift({ loc: `${siteUrl}/?lang=${lang}`, lastmod: maxDate(entries.map(entry => entry.lastmod)) || stampDate });
+    sitemaps.push({ lang, entries, lastmod: '' });
+  }
+  // The bare root is the x-default home page; it is listed once, with English.
+  const rootLastmod = maxDate(sitemaps.map(sitemap => sitemap.entries[0].lastmod)) || stampDate;
+  sitemaps.find(sitemap => sitemap.lang === 'en')?.entries.unshift({ loc: `${siteUrl}/`, lastmod: rootLastmod });
+
+  for (const sitemap of sitemaps) {
+    if (sitemap.entries.length > 50000) throw new Error(`sitemap-${sitemap.lang}.xml would hold ${sitemap.entries.length} URLs (limit 50,000)`);
+    sitemap.lastmod = maxDate(sitemap.entries.map(entry => entry.lastmod));
+    await writeFile(
+      `public/sitemap-${sitemap.lang}.xml`,
+      `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemap.entries.map(entry => urlEntry(entry.loc, entry.lastmod)).join('\n')}\n</urlset>\n`
+    );
+  }
+  const index = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemaps
+    .map(sitemap => `  <sitemap><loc>${siteUrl}/sitemap-${sitemap.lang}.xml</loc><lastmod>${sitemap.lastmod}</lastmod></sitemap>`)
+    .join('\n')}\n</sitemapindex>\n`;
+  await writeFile('public/sitemap-index.xml', index);
+  // Earlier submissions point at /sitemap.xml: serve the same index there.
+  await writeFile('public/sitemap.xml', index);
+
+  // One recipe per line keeps the diff of a content change readable.
+  const ids = Object.keys(nextLedger).sort();
+  await writeFile(LEDGER_PATH, `{\n${ids.map(id => `${JSON.stringify(id)}:${JSON.stringify(nextLedger[id])}`).join(',\n')}\n}\n`);
+  console.log(`Sitemaps: ${sitemaps.length} files, ${sitemaps.reduce((sum, sitemap) => sum + sitemap.entries.length, 0)} URLs (largest ${Math.max(...sitemaps.map(sitemap => sitemap.entries.length))}).`);
+}
 
 // ---------------------------------------------------------------------------
 // Apple App Site Association: lets the iOS app claim IOS_APP_LINK_PATHS via

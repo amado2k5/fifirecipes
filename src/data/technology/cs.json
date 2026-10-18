@@ -1,0 +1,230 @@
+{
+  "footerLink": "Technologie",
+  "back": "Zpět na recepty",
+  "title": "Technologie za webem fifi.cooking",
+  "intro": "fifi.cooking je bezplatný archiv receptů s otevřeným zdrojovým kódem, vytvořený tak, aby vydržel. Nemá žádné účty, žádné reklamy a žádný server, který by bylo potřeba udržovat při životě: web i všechny aplikace čtou stejné otevřené soubory. Tato stránka vysvětluje, z čeho se skládá, jak se dostává do vašich zařízení a jak souvisí s Cookwala, otevřeným standardem bezpečného vaření.",
+  "stats": {
+    "recipes": "receptů",
+    "languages": "jazyků",
+    "platforms": "platforem",
+    "accounts": "účtů nebo reklam"
+  },
+  "sections": [
+    {
+      "id": "web",
+      "heading": "Jak je web postavený",
+      "items": [
+        {
+          "title": "React 19 a TypeScript",
+          "text": "Rozhraní je napsané v TypeScriptu s Reactem, takže každá obrazovka i každý kus dat receptu má ověřený typ."
+        },
+        {
+          "title": "Vite 8 a Tailwind CSS 4",
+          "text": "Vite web rychle sestaví a rozdělí na malé části. Tailwind se stará o vzhled, včetně plnohodnotného zobrazení zprava doleva pro arabštinu, perštinu, urdštinu, paštštinu a hebrejštinu."
+        },
+        {
+          "title": "Záměrně statický",
+          "text": "Nemá žádný backend, databázi ani přihlašování. Při sestavení webu se všechno promění v obyčejné soubory, které pak na adrese fifi.cooking poskytuje GitHub Pages."
+        },
+        {
+          "title": "Načítá jen to, co otevřete",
+          "text": "Překlady do vašeho jazyka, recept, který otevřete, Vaření s dětmi a památeční stránky se stahují jen ve chvíli, kdy jsou potřeba, takže první obrazovka zůstává lehká."
+        },
+        {
+          "title": "Ikony Lucide a Motion",
+          "text": "Ikony pocházejí z Lucide a jemné animace z Motion."
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "Data receptů",
+      "items": [
+        {
+          "title": "Jedno otevřené JSON API",
+          "text": "Každý recept, překlad, vyhledávací index i index surovin je soubor ve složce fifi.cooking/data. Manifest nese verzi podle otisku obsahu, každá adresa se pro danou verzi nikdy nemění a požadavky z jiných webů jsou povolené, takže na tom může stavět kdokoli."
+        },
+        {
+          "title": "Jeden soubor na recept",
+          "text": "Soubor receptu obsahuje původní text, výživové hodnoty a odhad nákladů a také překlady do všech jazyků."
+        },
+        {
+          "title": "Vyhledávání v každém jazyce",
+          "text": "Pro každý jazyk se vytváří vlastní vyhledávací index, takže vyhledávání funguje bez serveru."
+        },
+        {
+          "title": "Výživové hodnoty a odhad nákladů",
+          "text": "U každého receptu jsou vypočítané kalorie, bílkoviny, sacharidy a tuky a odhadované náklady."
+        },
+        {
+          "title": "Zobrazení původního rukopisu",
+          "text": "Recepty z archivu paní doktorky Fatmy lze zobrazit jako ilustrované ztvárnění původního arabského textu."
+        },
+        {
+          "title": "Dostupné pro vyhledávače",
+          "text": "Každý recept má také vlastní statickou stránku se značkováním schema.org Recipe a při sestavení vzniká mapa webu a vyhledávače se upozorní přes IndexNow."
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "heading": "Jazyky a pravidla stravování",
+      "items": [
+        {
+          "title": "29 jazyků",
+          "text": "Web a jeho recepty jsou dostupné ve 29 jazycích. Kurdština je Kurmanji psaná latinkou."
+        },
+        {
+          "title": "Kontrola před každou změnou",
+          "text": "Příkaz check:world se spustí před uložením jakékoli změny receptu. Ověřuje, že každé pole používá jedno písmo, že je struktura úplná, že arabské názvy jídel odpovídají slovníčku a že kód projde kontrolou typů."
+        },
+        {
+          "title": "Halal podle pravidla",
+          "text": "Recepty neobsahují vepřové ani alkohol, včetně skrytých, například mirinu. Automatická kontrola halal se spouští i pro každý překlad, protože překlad může zakázanou surovinu zanést sám od sebe."
+        }
+      ]
+    },
+    {
+      "id": "making",
+      "heading": "Jak vznikají recepty a obrázky",
+      "items": [
+        {
+          "title": "Linka světových kuchyní",
+          "text": "Recepty z mnoha zemí procházejí pevnými kroky: vyhledání zdrojů, napsání konceptu jazykovým modelem běžícím na místním počítači, import, kontrola na halal, překlad, doplnění odhadů a přidání obrázku. Země se zveřejní, teprve když jsou hotové všechny kroky."
+        },
+        {
+          "title": "Obrázky vytvořené umělou inteligencí",
+          "text": "Obrázky k receptům jsou ilustrace vytvořené na místním počítači modelem FLUX.2. Ukazují, jak může jídlo vypadat. Nejsou to fotografie uvařeného jídla."
+        },
+        {
+          "title": "Rychlé obrázky",
+          "text": "Každý obrázek se zkomprimuje a pomocí sharp se uloží také jako menší náhled, aby se stránky rychle načítaly i na pomalém připojení."
+        },
+        {
+          "title": "Videa o vaření",
+          "text": "Naplánovaná úloha jednou týdně prohledá YouTube a uloží odpovídající videa ke každému receptu. Zobrazují se na kartě Videa a načtou se, až když ji otevřete."
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "heading": "Co můžete dělat",
+      "items": [
+        {
+          "title": "Procházení, hledání a filtrování",
+          "text": "Hledejte ve všech receptech, filtrujte podle kapitoly, kategorie a způsobu přípravy nebo si zobrazte jediný společný seznam surovin z celého archivu."
+        },
+        {
+          "title": "Vaření s dětmi",
+          "text": "Hravý režim s ručně kreslenými obrázky, jedním krátkým krokem na obrazovce, předčítáním, časovači a štítkem „pomáhá dospělý“ u kroků s nožem, žárem nebo mixérem."
+        },
+        {
+          "title": "Sdílení receptu",
+          "text": "Sdílejte jeden recept nebo celý web pomocí sdílecí nabídky svého zařízení."
+        },
+        {
+          "title": "Živá vzpomínka",
+          "text": "Přečtěte si životopis paní doktorky Fatmy Alkawokgy (1943–2026) a pošlete jí poctu e-mailem."
+        }
+      ]
+    },
+    {
+      "id": "devices",
+      "heading": "Zařízení a cesta k vám",
+      "intro": "Každá aplikace čte stejné otevřené datové soubory, takže se nový recept objeví všude po jednom nasazení.",
+      "items": [
+        {
+          "title": "Web",
+          "text": "fifi.cooking funguje v každém moderním prohlížeči, na telefonech, tabletech i počítačích."
+        },
+        {
+          "title": "Android",
+          "text": "Nativní aplikace napsaná v Kotlinu s Jetpack Compose pro telefony, tablety, skládací zařízení a Chromebooky. Neobsahuje analytiku, reklamy ani Google Play Services."
+        },
+        {
+          "title": "iPhone a iPad",
+          "text": "Nativní aplikace v SwiftUI, která se přizpůsobí iPhonu i iPadu, bez knihoven třetích stran."
+        },
+        {
+          "title": "Apple TV",
+          "text": "Nativní aplikace v SwiftUI pro tvOS, navržená pro Siri Remote."
+        },
+        {
+          "title": "Amazon Fire TV",
+          "text": "Aplikace v Reactu přizpůsobená dálkovému ovladači s ovládáním pomocí směrových tlačítek, zabalená pro Fire OS."
+        },
+        {
+          "title": "Samsung Smart TV",
+          "text": "Webová aplikace pro Tizen, pro televizory Samsung od roku 2020, která sdílí kód s aplikací pro Fire TV."
+        },
+        {
+          "title": "Otevře se na správném místě",
+          "text": "Díky Universal Links a Android App Links se odkaz na recept otevře v aplikaci, pokud je nainstalovaná, a v prohlížeči, pokud není. Každá aplikace má vlastní stránku na subdoméně fifi.cooking."
+        },
+        {
+          "title": "Čerstvá domovská obrazovka v televizi",
+          "text": "Malý Cloudflare Worker při každém spuštění aplikace zamíchá domovskou obrazovku v televizi, takže řady nejsou nikdy dvakrát stejné."
+        }
+      ]
+    },
+    {
+      "id": "deploy",
+      "heading": "Sestavení a nasazení",
+      "items": [
+        {
+          "title": "Automatické nasazení",
+          "text": "Každá změna sloučená do hlavní větve spustí workflow GitHub Actions, které nainstaluje projekt, vytvoří všechny datové soubory, sestaví web a zveřejní ho na GitHub Pages."
+        },
+        {
+          "title": "Týdenní obnovení",
+          "text": "Druhé workflow se spouští každé pondělí, obnoví videa k receptům, uloží výsledek a spustí nové nasazení."
+        },
+        {
+          "title": "Otestované aplikace",
+          "text": "Aplikace pro Android, pro iPhone a iPad a pro Apple TV mají každá automatická workflow pro sestavení a testování a aplikace pro Samsung a Fire TV mají vlastní workflow pro sestavení a nasazení."
+        },
+        {
+          "title": "Všechno na očích",
+          "text": "Workflow, skripty i kontroly jsou v repozitářích, takže přesně uvidíte, jak se změna stane živou stránkou."
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "heading": "Soukromí",
+      "items": [
+        {
+          "title": "Žádné účty, reklamy ani sledování z naší strany",
+          "text": "Nemusíte se přihlašovat, nic se neprodává a web nepoužívá reklamu ani sledování napříč weby."
+        },
+        {
+          "title": "Otevřeně o třetích stranách",
+          "text": "Hosting, písma a volitelné funkce polohy využívají externí služby. Stránka o soukromí uvádí každou z nich."
+        }
+      ]
+    }
+  ],
+  "openSource": {
+    "heading": "Otevřený kód, otevřený všem",
+    "text": "fifi.cooking má otevřený zdrojový kód. Kdokoli si může přečíst kód, vylepšit ho, přeložit, nahlásit problém nebo poslat pull request. Kód můžete zdarma použít v jakékoli aplikaci, podle licence MIT License.",
+    "points": [
+      "Opravte chybu, vylepšete překlad nebo přidejte funkci.",
+      "Přidejte jazyk, recept nebo lepší obrázek.",
+      "Zkopírujte libovolnou část kódu do svého projektu.",
+      "Texty receptů a obrázky se řídí podmínkami v patičce webu."
+    ],
+    "buttons": {
+      "code": "Zobrazit kód",
+      "contribute": "Jak přispět",
+      "license": "Přečíst licenci",
+      "issues": "Nahlásit problém",
+      "privacy": "Stránka o soukromí"
+    },
+    "reposHeading": "Všechny repozitáře"
+  },
+  "cookwala": {
+    "heading": "Jak souvisí s Cookwala",
+    "text": "Cookwala je otevřený standard bezpečného vaření pro lidi, kuchyně i roboty. Založil ho fifi.cooking, který je také jeho prvním zdrojem receptů. Zdejší recepty se exportují jako dokumenty Cookwala, každý s otiskem, uvedením autorství a licencí, a server Cookwala MCP umožňuje AI asistentům prohledávat otevřená data fifi.cooking. Všechno, co je na této stránce popsáno, od statických souborů po otevřené API, to umožňuje.",
+    "button": "Navštívit Cookwala"
+  }
+}

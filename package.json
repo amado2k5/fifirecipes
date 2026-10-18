@@ -16,7 +16,7 @@
     "lint:halal-i18n": "python3 scripts/world/halal_i18n.py",
     "lint:categories": "python3 scripts/world/check_categories.py",
     "check:world": "npm run -s lint:lang && npm run -s lint:halal && npm run -s lint:halal-i18n && npm run -s lint:categories && tsc --noEmit",
-    "indexnow": "tsx scripts/submit-indexnow.ts",
+    "indexnow": "node scripts/indexnow.mjs",
     "tvdata": "tsx scripts/generate-tv-index.ts",
     "thumbnails": "tsx scripts/generate-thumbnails.ts"
   },
@@ -37,7 +37,7 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "autoprefixer": "^10.4.21",
-    "esbuild": "^0.25.0",
+    "esbuild": "^0.27.0",
     "sharp": "^0.35.4",
     "tailwindcss": "^4.3.3",
     "tsx": "^4.21.0",

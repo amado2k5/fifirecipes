@@ -424,6 +424,20 @@ const STRINGS: Partial<Record<SupportedLanguage, VideoStrings>> = {
     next: 'Další',
     short: 'Krátké',
     close: 'Zavřít'
+  },
+  ro: {
+    tab: 'Videoclipuri',
+    intro: 'Videoclipuri găsite automat prin căutarea acestui preparat. Aparțin autorilor lor și pot diferi de rețeta dr. Fatma.',
+    loading: 'Se caută videoclipuri…',
+    empty: 'Nu s-au găsit încă videoclipuri potrivite.',
+    error: 'Videoclipurile nu au putut fi încărcate acum.',
+    retry: 'Încercați din nou',
+    openOn: 'Deschideți pe {p}',
+    searchOn: 'Căutați acest preparat pe',
+    previous: 'Anterior',
+    next: 'Următor',
+    short: 'Scurt',
+    close: 'Închidere'
   }
 };
 

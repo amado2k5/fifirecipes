@@ -1,0 +1,122 @@
+{
+  "footerLink": "Tehnologie",
+  "back": "Înapoi la rețete",
+  "title": "Tehnologia din spatele fifi.cooking",
+  "intro": "fifi.cooking este o arhivă de rețete gratuită și open source, construită să dureze. Nu are conturi, nu are reclame și nu are niciun server care trebuie ținut în funcțiune: site-ul și fiecare aplicație citesc aceleași fișiere deschise. Această pagină explică din ce este făcută, cum ajunge pe dispozitivele dumneavoastră și cum se leagă de Cookwala, standardul deschis pentru gătit în siguranță.",
+  "stats": {
+    "recipes": "rețete",
+    "languages": "limbi",
+    "platforms": "platforme",
+    "accounts": "conturi sau reclame"
+  },
+  "sections": [
+    {
+      "id": "web",
+      "heading": "Cum este construit site-ul",
+      "items": [
+        { "title": "React 19 și TypeScript", "text": "Interfața este scrisă în TypeScript cu React, așa că fiecare ecran și fiecare element de date al rețetelor are un tip verificat." },
+        { "title": "Vite 8 și Tailwind CSS 4", "text": "Vite construiește site-ul rapid și îl împarte în bucăți mici. Tailwind îi dă stilul, inclusiv aranjamente complete de la dreapta la stânga pentru arabă, persană, urdu, paștună și ebraică." },
+        { "title": "Static prin concepție", "text": "Nu există backend, bază de date sau autentificare. Totul este transformat în fișiere simple la construirea site-ului, apoi servit de GitHub Pages la fifi.cooking." },
+        { "title": "Se încarcă doar ce deschideți", "text": "Traducerile în limba dumneavoastră, rețeta pe care o deschideți, Gătit cu copiii și paginile memoriale sunt descărcate doar când este nevoie, astfel încât primul ecran rămâne ușor." },
+        { "title": "Pictogramele Lucide și Motion", "text": "Pictogramele provin de la Lucide, iar animațiile discrete de la Motion." }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "Datele rețetelor",
+      "items": [
+        { "title": "Un singur API JSON deschis", "text": "Fiecare rețetă, traducere, index de căutare și index de ingrediente este un fișier sub fifi.cooking/data. Un manifest conține o versiune bazată pe hash-ul conținutului, fiecare URL rămâne neschimbat pentru o anumită versiune, iar cererile cross-origin sunt permise, astfel încât oricine poate construi pe baza lui." },
+        { "title": "Un fișier pentru fiecare rețetă", "text": "Fișierul unei rețete conține textul original, estimarea nutrițională și de cost și traducerile în toate limbile." },
+        { "title": "Căutare în fiecare limbă", "text": "Pentru fiecare limbă se construiește un index de căutare, astfel încât căutarea funcționează fără server." },
+        { "title": "Estimări nutriționale și de cost", "text": "Fiecare rețetă are calculate caloriile, proteinele, carbohidrații și grăsimile, precum și un cost estimat." },
+        { "title": "Vizualizarea manuscrisului original", "text": "Rețetele din arhiva dr. Fatma pot fi afișate ca o redare ilustrată a textului original în arabă." },
+        { "title": "Găsite de motoarele de căutare", "text": "Fiecare rețetă are și propria pagină statică, cu marcaj schema.org Recipe, iar construirea site-ului generează un sitemap și anunță motoarele de căutare prin IndexNow." }
+      ]
+    },
+    {
+      "id": "languages",
+      "heading": "Limbi și reguli alimentare",
+      "items": [
+        { "title": "30 de limbi", "text": "Site-ul și rețetele sale sunt disponibile în 30 de limbi. Kurda este kurmanji, scrisă cu alfabet latin." },
+        { "title": "Verificat înainte de fiecare modificare", "text": "O comandă numită check:world rulează înainte de salvarea oricărei modificări a unei rețete. Ea verifică faptul că fiecare câmp folosește un singur sistem de scriere, că structura este completă, că denumirile arabe ale preparatelor respectă glosarul și că tipurile din cod sunt corecte." },
+        { "title": "Halal prin regulă", "text": "Rețetele nu conțin carne de porc sau alcool, nici ascunse, cum ar fi mirinul. Verificări halal automate rulează și pe fiecare traducere, deoarece o traducere poate introduce de la sine un ingredient interzis." }
+      ]
+    },
+    {
+      "id": "making",
+      "heading": "Cum sunt create rețetele și imaginile",
+      "items": [
+        { "title": "Fluxul pentru bucătăriile lumii", "text": "Rețetele din multe țări trec prin pași ficși: descoperirea surselor, scrierea unei ciorne cu un model lingvistic care rulează pe un computer local, importul, auditul halal, traducerea, adăugarea estimărilor și a unei imagini. O țară apare pe site doar după ce toți pașii sunt încheiați." },
+        { "title": "Imagini generate cu AI", "text": "Imaginile rețetelor sunt ilustrații generate pe un computer local cu modelul FLUX.2. Ele arată cum poate arăta preparatul. Nu sunt fotografii ale preparatului gătit." },
+        { "title": "Imagini rapide", "text": "Fiecare imagine este comprimată și salvată și ca miniatură mai mică, cu ajutorul sharp, astfel încât paginile se încarcă repede pe conexiuni lente." },
+        { "title": "Videoclipuri de gătit", "text": "O sarcină programată caută pe YouTube o dată pe săptămână și salvează videoclipurile potrivite pentru fiecare rețetă. Ele sunt afișate în fila Videoclipuri și se încarcă doar când o deschideți." }
+      ]
+    },
+    {
+      "id": "features",
+      "heading": "Ce puteți face",
+      "items": [
+        { "title": "Răsfoiți, căutați și filtrați", "text": "Căutați în toate rețetele, filtrați după capitol, categorie și metodă de gătit sau vedeți o singură listă combinată de ingrediente din întreaga arhivă." },
+        { "title": "Gătit cu copiii", "text": "Un mod jucăuș, cu desene făcute de mână, un singur pas scurt pe ecran, citire cu voce tare, cronometre și o insignă „ajută un adult” la pașii cu cuțit, foc sau blender." },
+        { "title": "Distribuiți o rețetă", "text": "Distribuiți o rețetă sau întregul site prin meniul de partajare al dispozitivului." },
+        { "title": "Un memorial viu", "text": "Citiți biografia dr. Fatma Alkawokgy (1943–2026) și trimiteți un omagiu prin e-mail." }
+      ]
+    },
+    {
+      "id": "devices",
+      "heading": "Dispozitive și unde ajunge la dumneavoastră",
+      "intro": "Fiecare aplicație citește aceleași fișiere de date deschise, așa că o rețetă nouă apare peste tot după o singură publicare.",
+      "items": [
+        { "title": "Site web", "text": "fifi.cooking funcționează în orice browser modern, pe telefoane, tablete și computere." },
+        { "title": "Android", "text": "O aplicație nativă scrisă în Kotlin cu Jetpack Compose, pentru telefoane, tablete, dispozitive pliabile și Chromebookuri. Nu are analize, reclame sau Google Play Services." },
+        { "title": "iPhone și iPad", "text": "O aplicație nativă SwiftUI care se adaptează la iPhone și iPad, fără biblioteci terțe." },
+        { "title": "Apple TV", "text": "O aplicație nativă SwiftUI pentru tvOS, concepută pentru telecomanda Siri Remote." },
+        { "title": "Amazon Fire TV", "text": "O aplicație React ușor de folosit cu telecomanda, cu navigare prin butoanele direcționale, împachetată pentru Fire OS." },
+        { "title": "Samsung Smart TV", "text": "O aplicație web pentru Tizen, pentru televizoarele Samsung din 2020 încoace, care își împarte codul cu aplicația Fire TV." },
+        { "title": "Se deschide unde trebuie", "text": "Universal Links și Android App Links permit ca linkul unei rețete să se deschidă în aplicație când aceasta este instalată și în browser când nu este. Fiecare aplicație are propria pagină pe un subdomeniu fifi.cooking." },
+        { "title": "Un ecran principal TV mereu nou", "text": "Un mic Cloudflare Worker reamestecă ecranul principal TV de fiecare dată când se deschide o aplicație, așa că rândurile nu sunt niciodată la fel de două ori." }
+      ]
+    },
+    {
+      "id": "deploy",
+      "heading": "Construire și publicare",
+      "items": [
+        { "title": "Publicare automată", "text": "Fiecare modificare integrată în ramura principală rulează un flux GitHub Actions care instalează proiectul, generează toate fișierele de date, construiește site-ul și îl publică pe GitHub Pages." },
+        { "title": "Reîmprospătare săptămânală", "text": "Un al doilea flux rulează în fiecare luni, reîmprospătează videoclipurile rețetelor, salvează rezultatul și declanșează o nouă publicare." },
+        { "title": "Aplicații testate", "text": "Aplicațiile pentru Android, iPhone și iPad și Apple TV au fiecare fluxuri automate de construire și testare, iar aplicațiile Samsung și Fire TV au propriile fluxuri de construire și publicare." },
+        { "title": "Totul la vedere", "text": "Fluxurile, scripturile și verificările se află în depozite, așa că puteți vedea exact cum o modificare devine o pagină publicată." }
+      ]
+    },
+    {
+      "id": "privacy",
+      "heading": "Confidențialitate",
+      "items": [
+        { "title": "Fără conturi, reclame sau urmărire din partea noastră", "text": "Nu trebuie să vă autentificați, nu se vinde nimic, iar site-ul nu afișează reclame și nu face urmărire între site-uri." },
+        { "title": "Transparență față de terți", "text": "Găzduirea, fonturile și funcțiile opționale de localizare implică servicii externe. Pagina de confidențialitate le enumeră pe fiecare." }
+      ]
+    }
+  ],
+  "openSource": {
+    "heading": "Open source, deschis tuturor",
+    "text": "fifi.cooking este open source. Oricine poate citi codul, îl poate îmbunătăți, traduce, poate raporta o problemă sau poate trimite un pull request. Sunteți liber să folosiți codul în orice aplicație doriți, sub Licența MIT.",
+    "points": [
+      "Reparați o eroare, îmbunătățiți o traducere sau adăugați o funcție.",
+      "Adăugați o limbă, o rețetă sau o imagine mai bună.",
+      "Copiați orice parte a codului în propriul proiect.",
+      "Textele și imaginile rețetelor respectă condițiile din subsolul site-ului."
+    ],
+    "buttons": {
+      "code": "Vedeți codul",
+      "contribute": "Cum puteți contribui",
+      "license": "Citiți licența",
+      "issues": "Raportați o problemă",
+      "privacy": "Pagina de confidențialitate"
+    },
+    "reposHeading": "Toate depozitele"
+  },
+  "cookwala": {
+    "heading": "Legătura cu Cookwala",
+    "text": "Cookwala este un standard deschis pentru gătit în siguranță, pentru oameni, bucătării și roboți. A fost inițiat de fifi.cooking, care este și prima sa sursă de rețete. Rețetele de aici sunt exportate ca documente Cookwala, fiecare cu un hash, o mențiune a autorului și o licență, iar serverul MCP Cookwala permite asistenților AI să caute în datele deschise ale fifi.cooking. Tot ce este descris pe această pagină, de la fișierele statice la API-ul deschis, face acest lucru posibil.",
+    "button": "Vizitați Cookwala"
+  }
+}

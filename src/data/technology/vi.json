@@ -1,0 +1,230 @@
+{
+  "footerLink": "Công nghệ",
+  "back": "Quay lại các công thức",
+  "title": "Công nghệ đằng sau fifi.cooking",
+  "intro": "fifi.cooking là một kho công thức nấu ăn miễn phí, mã nguồn mở, được xây dựng để tồn tại lâu dài. Nơi đây không có tài khoản, không có quảng cáo và không có máy chủ nào phải duy trì: trang web và mọi ứng dụng đều đọc cùng một bộ tệp mở. Trang này giải thích nó được tạo nên từ những gì, đến với các thiết bị của bạn bằng cách nào và kết nối với Cookwala, tiêu chuẩn mở về nấu ăn an toàn, ra sao.",
+  "stats": {
+    "recipes": "công thức",
+    "languages": "ngôn ngữ",
+    "platforms": "nền tảng",
+    "accounts": "tài khoản hoặc quảng cáo"
+  },
+  "sections": [
+    {
+      "id": "web",
+      "heading": "Trang web được xây dựng như thế nào",
+      "items": [
+        {
+          "title": "React 19 và TypeScript",
+          "text": "Giao diện được viết bằng TypeScript cùng React, nên mọi màn hình và mọi phần dữ liệu công thức đều có kiểu dữ liệu đã được kiểm tra."
+        },
+        {
+          "title": "Vite 8 và Tailwind CSS 4",
+          "text": "Vite dựng trang web nhanh chóng và chia nó thành những phần nhỏ. Tailwind lo phần giao diện, bao gồm bố cục từ phải sang trái đầy đủ cho tiếng Ả Rập, Ba Tư, Urdu, Pashto và Do Thái."
+        },
+        {
+          "title": "Tĩnh theo thiết kế",
+          "text": "Không có phần phụ trợ, cơ sở dữ liệu hay đăng nhập. Mọi thứ được biến thành các tệp thông thường khi trang web được dựng, rồi GitHub Pages phục vụ tại fifi.cooking."
+        },
+        {
+          "title": "Chỉ tải những gì bạn mở",
+          "text": "Bản dịch theo ngôn ngữ của bạn, công thức bạn mở, Nấu ăn cùng các bé và các trang tưởng niệm chỉ được tải khi cần, nhờ vậy màn hình đầu tiên luôn nhẹ."
+        },
+        {
+          "title": "Biểu tượng Lucide và Motion",
+          "text": "Các biểu tượng đến từ Lucide và những hiệu ứng chuyển động nhẹ nhàng đến từ Motion."
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "Dữ liệu công thức",
+      "items": [
+        {
+          "title": "Một JSON API mở",
+          "text": "Mọi công thức, bản dịch, chỉ mục tìm kiếm và chỉ mục nguyên liệu đều là một tệp nằm dưới fifi.cooking/data. Một tệp kê khai mang số phiên bản theo mã băm của nội dung, mỗi URL không bao giờ thay đổi với một phiên bản nhất định, và các yêu cầu từ trang khác được cho phép, nên ai cũng có thể xây dựng thêm trên đó."
+        },
+        {
+          "title": "Mỗi công thức một tệp",
+          "text": "Một tệp công thức chứa văn bản gốc, giá trị dinh dưỡng và ước tính chi phí, cùng bản dịch sang mọi ngôn ngữ."
+        },
+        {
+          "title": "Tìm kiếm bằng mọi ngôn ngữ",
+          "text": "Mỗi ngôn ngữ có một chỉ mục tìm kiếm riêng, nên việc tìm kiếm hoạt động mà không cần máy chủ."
+        },
+        {
+          "title": "Ước tính dinh dưỡng và chi phí",
+          "text": "Mỗi công thức có sẵn lượng calo, đạm, tinh bột và chất béo được tính toán, cùng chi phí ước tính."
+        },
+        {
+          "title": "Xem bản thảo gốc",
+          "text": "Các công thức từ kho lưu trữ của Tiến sĩ Fatma có thể được hiển thị dưới dạng bản minh họa của văn bản tiếng Ả Rập gốc."
+        },
+        {
+          "title": "Được công cụ tìm kiếm tìm thấy",
+          "text": "Mỗi công thức còn có trang tĩnh riêng với đánh dấu schema.org Recipe, và quá trình dựng web tạo sơ đồ trang web rồi thông báo cho các công cụ tìm kiếm qua IndexNow."
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "heading": "Ngôn ngữ và quy tắc ăn uống",
+      "items": [
+        {
+          "title": "29 ngôn ngữ",
+          "text": "Trang web và các công thức có sẵn bằng 29 ngôn ngữ. Tiếng Kurd là Kurmanji viết bằng chữ Latin."
+        },
+        {
+          "title": "Kiểm tra trước mỗi thay đổi",
+          "text": "Một lệnh tên là check:world chạy trước khi bất kỳ thay đổi công thức nào được lưu. Lệnh này kiểm tra rằng mỗi trường chỉ dùng một hệ chữ viết, cấu trúc đầy đủ, tên món ăn tiếng Ả Rập theo đúng bảng thuật ngữ, và mã nguồn qua được bước kiểm tra kiểu."
+        },
+        {
+          "title": "Halal theo quy tắc",
+          "text": "Các công thức không chứa thịt lợn hay rượu, kể cả những thứ ẩn như mirin. Các bước kiểm tra halal tự động cũng chạy trên mọi bản dịch, vì bản dịch có thể tự đưa vào một nguyên liệu bị cấm."
+        }
+      ]
+    },
+    {
+      "id": "making",
+      "heading": "Công thức và hình ảnh được tạo ra như thế nào",
+      "items": [
+        {
+          "title": "Quy trình ẩm thực thế giới",
+          "text": "Công thức từ nhiều quốc gia đi qua các bước cố định: tìm nguồn, viết bản nháp bằng mô hình ngôn ngữ chạy trên máy tính cục bộ, nhập vào, kiểm tra halal, dịch, thêm các ước tính và thêm hình ảnh. Một quốc gia chỉ được đưa lên khi mọi bước đã hoàn tất."
+        },
+        {
+          "title": "Hình ảnh do AI tạo",
+          "text": "Hình ảnh công thức là các bức minh họa được tạo trên một máy tính cục bộ bằng mô hình FLUX.2. Chúng cho thấy món ăn có thể trông như thế nào. Đó không phải là ảnh chụp món ăn đã nấu."
+        },
+        {
+          "title": "Hình ảnh tải nhanh",
+          "text": "Mỗi hình được nén và cũng được lưu thành một ảnh thu nhỏ nhỏ hơn, bằng sharp, để các trang tải nhanh trên đường truyền chậm."
+        },
+        {
+          "title": "Video nấu ăn",
+          "text": "Một tác vụ theo lịch tìm kiếm trên YouTube mỗi tuần một lần và lưu các video phù hợp cho từng công thức. Chúng hiển thị trong thẻ Video và chỉ tải khi bạn mở thẻ đó."
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "heading": "Bạn có thể làm gì",
+      "items": [
+        {
+          "title": "Duyệt, tìm kiếm và lọc",
+          "text": "Tìm trong mọi công thức, lọc theo chương, danh mục và cách nấu, hoặc xem một danh sách nguyên liệu chung cho toàn bộ kho lưu trữ."
+        },
+        {
+          "title": "Nấu ăn cùng các bé",
+          "text": "Một chế độ vui nhộn với hình vẽ tay, mỗi màn hình một bước ngắn, đọc to, hẹn giờ và huy hiệu \"người lớn giúp\" ở những bước dùng dao, lửa hoặc máy xay."
+        },
+        {
+          "title": "Chia sẻ công thức",
+          "text": "Chia sẻ một công thức hoặc cả trang web bằng bảng chia sẻ trên thiết bị của bạn."
+        },
+        {
+          "title": "Một đài tưởng niệm sống động",
+          "text": "Đọc tiểu sử của Tiến sĩ Fatma Alkawokgy (1943–2026) và gửi lời tri ân qua thư điện tử."
+        }
+      ]
+    },
+    {
+      "id": "devices",
+      "heading": "Thiết bị và nơi nó đến với bạn",
+      "intro": "Mọi ứng dụng đều đọc cùng các tệp dữ liệu mở, nên một công thức mới xuất hiện ở khắp nơi chỉ sau một lần triển khai.",
+      "items": [
+        {
+          "title": "Trang web",
+          "text": "fifi.cooking chạy trên mọi trình duyệt hiện đại, trên điện thoại, máy tính bảng và máy tính."
+        },
+        {
+          "title": "Android",
+          "text": "Một ứng dụng gốc viết bằng Kotlin với Jetpack Compose, dành cho điện thoại, máy tính bảng, thiết bị gập và Chromebook. Ứng dụng không có phân tích, quảng cáo hay Google Play Services."
+        },
+        {
+          "title": "iPhone và iPad",
+          "text": "Một ứng dụng SwiftUI gốc tự thích ứng với iPhone và iPad, không dùng thư viện bên thứ ba."
+        },
+        {
+          "title": "Apple TV",
+          "text": "Một ứng dụng SwiftUI gốc cho tvOS, được thiết kế cho Siri Remote."
+        },
+        {
+          "title": "Amazon Fire TV",
+          "text": "Một ứng dụng React thân thiện với điều khiển từ xa, điều hướng bằng phím mũi tên, được đóng gói cho Fire OS."
+        },
+        {
+          "title": "Samsung Smart TV",
+          "text": "Một ứng dụng web cho Tizen, dành cho tivi Samsung từ năm 2020 trở đi, dùng chung mã nguồn với ứng dụng Fire TV."
+        },
+        {
+          "title": "Mở đúng nơi",
+          "text": "Universal Links và Android App Links giúp liên kết công thức mở trong ứng dụng khi đã cài, và mở trong trình duyệt khi chưa cài. Mỗi ứng dụng có trang riêng trên một tên miền phụ của fifi.cooking."
+        },
+        {
+          "title": "Màn hình chính tivi luôn mới",
+          "text": "Một Cloudflare Worker nhỏ xáo trộn màn hình chính của tivi mỗi lần mở ứng dụng, nên các hàng không bao giờ giống nhau hai lần."
+        }
+      ]
+    },
+    {
+      "id": "deploy",
+      "heading": "Xây dựng và triển khai",
+      "items": [
+        {
+          "title": "Triển khai tự động",
+          "text": "Mỗi thay đổi được hợp nhất vào nhánh chính sẽ chạy một quy trình GitHub Actions: cài đặt dự án, tạo toàn bộ tệp dữ liệu, dựng trang web và đăng lên GitHub Pages."
+        },
+        {
+          "title": "Làm mới hằng tuần",
+          "text": "Một quy trình thứ hai chạy vào mỗi thứ Hai, làm mới các video công thức, lưu kết quả và kích hoạt một lần triển khai mới."
+        },
+        {
+          "title": "Ứng dụng đã được kiểm thử",
+          "text": "Các ứng dụng Android, iPhone và iPad, và Apple TV đều có quy trình dựng và kiểm thử tự động, còn các ứng dụng Samsung và Fire TV có quy trình dựng và triển khai riêng."
+        },
+        {
+          "title": "Mọi thứ đều công khai",
+          "text": "Các quy trình, tập lệnh và bước kiểm tra đều nằm trong các kho mã, để bạn thấy chính xác một thay đổi trở thành trang trực tiếp như thế nào."
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "heading": "Quyền riêng tư",
+      "items": [
+        {
+          "title": "Không tài khoản, quảng cáo hay theo dõi từ phía chúng tôi",
+          "text": "Bạn không cần đăng nhập, không có gì bị bán đi, và trang web không chạy quảng cáo hay theo dõi giữa các trang."
+        },
+        {
+          "title": "Rõ ràng về bên thứ ba",
+          "text": "Dịch vụ lưu trữ, phông chữ và các tính năng vị trí tùy chọn có liên quan đến các dịch vụ bên ngoài. Trang quyền riêng tư liệt kê từng dịch vụ."
+        }
+      ]
+    }
+  ],
+  "openSource": {
+    "heading": "Mã nguồn mở, mở cho mọi người",
+    "text": "fifi.cooking là mã nguồn mở. Ai cũng có thể đọc mã, cải thiện, dịch, báo lỗi hoặc gửi một yêu cầu hợp nhất. Bạn được tự do dùng mã này trong bất kỳ ứng dụng nào bạn muốn, theo MIT License.",
+    "points": [
+      "Sửa một lỗi, cải thiện một bản dịch hoặc thêm một tính năng.",
+      "Thêm một ngôn ngữ, một công thức hoặc một hình ảnh đẹp hơn.",
+      "Sao chép bất kỳ phần nào của mã vào dự án của riêng bạn.",
+      "Văn bản và hình ảnh công thức tuân theo các điều khoản ở chân trang web."
+    ],
+    "buttons": {
+      "code": "Xem mã nguồn",
+      "contribute": "Cách đóng góp",
+      "license": "Đọc giấy phép",
+      "issues": "Báo một vấn đề",
+      "privacy": "Trang quyền riêng tư"
+    },
+    "reposHeading": "Tất cả các kho mã"
+  },
+  "cookwala": {
+    "heading": "Mối liên hệ với Cookwala",
+    "text": "Cookwala là một tiêu chuẩn mở về nấu ăn an toàn, dành cho con người, nhà bếp và robot. Nó được khởi xướng bởi fifi.cooking, nơi cũng là nguồn công thức đầu tiên của nó. Các công thức ở đây được xuất thành tài liệu Cookwala, mỗi tài liệu có mã băm, ghi công và giấy phép, và máy chủ Cookwala MCP cho phép các trợ lý AI tìm kiếm trong dữ liệu mở của fifi.cooking. Mọi thứ được mô tả trên trang này, từ các tệp tĩnh đến API mở, chính là điều làm nên điều đó.",
+    "button": "Ghé thăm Cookwala"
+  }
+}
