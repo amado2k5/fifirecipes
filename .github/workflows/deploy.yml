@@ -74,4 +74,4 @@ jobs:
       - name: Generate sitemap
         run: npx tsx scripts/generate-public-index.ts
       - name: Submit URLs to IndexNow
-        run: npm run indexnow
+        run: npm run indexnow -- --since="$(git log -1 --format=%cs HEAD~1 2>/dev/null || git log -1 --format=%cs HEAD)"
