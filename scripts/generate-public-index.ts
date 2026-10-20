@@ -796,4 +796,23 @@ await writeFile('public/recipes.json', JSON.stringify({
   await writeFile('public/.well-known/assetlinks.json', `${assetlinks}\n`);
 }
 
+// ---------------------------------------------------------------------------
+// API catalog (RFC 9727): lets agents and tools discover the TV data API from
+// one well-known URL. The service description is the hand-written OpenAPI
+// document in public/openapi/tv.json; the Cloudflare Pages _headers file
+// serves this extensionless catalog as application/linkset+json.
+{
+  const apiCatalog = JSON.stringify({
+    linkset: [
+      {
+        anchor: `${siteUrl}/data/tv/manifest.json`,
+        'service-desc': [{ href: `${siteUrl}/openapi/tv.json`, type: 'application/openapi+json;version=3.1' }],
+        'service-doc': [{ href: 'https://github.com/amado2k5/fifirecipes/blob/main/docs/tv-api.md', type: 'text/html' }]
+      }
+    ]
+  }, null, 2);
+  await mkdir('public/.well-known', { recursive: true });
+  await writeFile('public/.well-known/api-catalog', `${apiCatalog}\n`);
+}
+
 console.log(`Recipe data ${version}: ${summaries.length} recipes in ${pageCount} index pages, ${files.size} data files, ${orderedRecipes.length} static pages.`);
