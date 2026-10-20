@@ -1,0 +1,215 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "fifi.cooking TV data API",
+    "version": "1.0.0",
+    "description": "Static, versioned JSON for the fifi.cooking TV and web clients. Every endpoint is a plain GET of a file; there is no server logic. Fetch /data/tv/manifest.json first and append ?v=<version> to other requests. Full prose documentation: https://github.com/amado2k5/fifirecipes/blob/main/docs/tv-api.md",
+    "license": { "name": "See repository LICENSE", "url": "https://github.com/amado2k5/fifirecipes/blob/main/LICENSE" }
+  },
+  "servers": [{ "url": "https://fifi.cooking" }],
+  "paths": {
+    "/data/tv/manifest.json": {
+      "get": {
+        "operationId": "getManifest",
+        "summary": "Entry point: dataset version, languages and endpoint templates",
+        "responses": { "200": { "description": "Manifest", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Manifest" } } } } }
+      }
+    },
+    "/data/tv/index/{lang}.json": {
+      "get": {
+        "operationId": "getIndex",
+        "summary": "Compact recipe card index for one language",
+        "parameters": [{ "$ref": "#/components/parameters/Lang" }],
+        "responses": { "200": { "description": "Card index", "content": { "application/json": { "schema": { "type": "array", "items": { "$ref": "#/components/schemas/Card" } } } } }, "404": { "description": "Language not in manifest" } }
+      }
+    },
+    "/data/tv/feed/{lang}.json": {
+      "get": {
+        "operationId": "getFeed",
+        "summary": "Home-screen rows of recipe ids",
+        "parameters": [{ "$ref": "#/components/parameters/Lang" }],
+        "responses": { "200": { "description": "Feed rows", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Feed" } } } }, "404": { "description": "Language not in manifest" } }
+      }
+    },
+    "/data/tv/chapters/{lang}.json": {
+      "get": {
+        "operationId": "getChapters",
+        "summary": "Chapter list for browse rails",
+        "parameters": [{ "$ref": "#/components/parameters/Lang" }],
+        "responses": { "200": { "description": "Chapters", "content": { "application/json": { "schema": { "type": "array", "items": { "$ref": "#/components/schemas/Chapter" } } } } } }
+      }
+    },
+    "/data/tv/kids/{lang}.json": {
+      "get": {
+        "operationId": "getKidsIndex",
+        "summary": "Compact Cooking with Kids cards (absent in some languages; fall back to en on 404)",
+        "parameters": [{ "$ref": "#/components/parameters/Lang" }],
+        "responses": { "200": { "description": "Kids cards", "content": { "application/json": { "schema": { "type": "array", "items": { "$ref": "#/components/schemas/KidsCard" } } } } }, "404": { "description": "No kids content for this language" } }
+      }
+    },
+    "/data/tv/images.json": {
+      "get": {
+        "operationId": "getImages",
+        "summary": "Pixel dimensions and image paths for every recipe photo",
+        "responses": { "200": { "description": "Image map keyed by recipe id", "content": { "application/json": { "schema": { "type": "object", "additionalProperties": { "$ref": "#/components/schemas/Image" } } } } } }
+      }
+    },
+    "/data/recipes/{id}.json": {
+      "get": {
+        "operationId": "getRecipe",
+        "summary": "Full recipe, its estimate and every language's translation",
+        "parameters": [{ "$ref": "#/components/parameters/RecipeId" }],
+        "responses": { "200": { "description": "Recipe", "content": { "application/json": { "schema": { "type": "object" } } } }, "404": { "description": "Unknown recipe id" } }
+      }
+    },
+    "/data/videos/{id}.json": {
+      "get": {
+        "operationId": "getVideos",
+        "summary": "YouTube results for a recipe, keyed by language",
+        "parameters": [{ "$ref": "#/components/parameters/RecipeId" }],
+        "responses": { "200": { "description": "Video results", "content": { "application/json": { "schema": { "type": "object" } } } }, "404": { "description": "No videos for this recipe" } }
+      }
+    },
+    "/data/search/{lang}.json": {
+      "get": {
+        "operationId": "getSearch",
+        "summary": "On-device search haystacks keyed by recipe id",
+        "parameters": [{ "$ref": "#/components/parameters/Lang" }],
+        "responses": { "200": { "description": "Search haystacks", "content": { "application/json": { "schema": { "type": "object", "additionalProperties": { "type": "string" } } } } } }
+      }
+    },
+    "/data/i18n/{lang}.json": {
+      "get": {
+        "operationId": "getI18n",
+        "summary": "Card-level translations for one language",
+        "parameters": [{ "$ref": "#/components/parameters/Lang" }],
+        "responses": { "200": { "description": "Translations", "content": { "application/json": { "schema": { "type": "object" } } } } }
+      }
+    },
+    "/data/kids/{lang}/{id}.json": {
+      "get": {
+        "operationId": "getKidsRecipe",
+        "summary": "Full step-by-step Cooking with Kids recipe",
+        "parameters": [{ "$ref": "#/components/parameters/Lang" }, { "$ref": "#/components/parameters/RecipeId" }],
+        "responses": { "200": { "description": "Kids recipe", "content": { "application/json": { "schema": { "type": "object" } } } }, "404": { "description": "No kids recipe with this id" } }
+      }
+    }
+  },
+  "components": {
+    "parameters": {
+      "Lang": {
+        "name": "lang",
+        "in": "path",
+        "required": true,
+        "description": "Language code listed in the manifest's languages array",
+        "schema": { "type": "string", "pattern": "^[a-z]{2,3}$" }
+      },
+      "RecipeId": {
+        "name": "id",
+        "in": "path",
+        "required": true,
+        "description": "Recipe id from the card index, e.g. meat-01",
+        "schema": { "type": "string" }
+      }
+    },
+    "schemas": {
+      "Manifest": {
+        "type": "object",
+        "required": ["version", "generatedAt", "recipeCount", "pageSize", "languages", "endpoints"],
+        "properties": {
+          "version": { "type": "string", "description": "Content hash shared by the whole dataset; append as ?v=<version>" },
+          "generatedAt": { "type": "string", "format": "date-time" },
+          "recipeCount": { "type": "integer" },
+          "pageSize": { "type": "integer" },
+          "languages": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["code", "nativeName", "englishName", "dir", "complete"],
+              "properties": {
+                "code": { "type": "string" },
+                "nativeName": { "type": "string" },
+                "englishName": { "type": "string" },
+                "dir": { "type": "string", "enum": ["ltr", "rtl"] },
+                "complete": { "type": "boolean", "const": true }
+              }
+            }
+          },
+          "endpoints": { "type": "object", "description": "URL templates with {lang} and {id} placeholders", "additionalProperties": { "type": "string" } }
+        }
+      },
+      "Card": {
+        "type": "object",
+        "required": ["id", "title", "category", "cookingMethod", "prepTime", "cookTime", "servings", "difficulty", "hasVideo", "chapter", "chapterName"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "titleEn": { "type": "string" },
+          "category": { "type": "string" },
+          "cookingMethod": { "type": "string" },
+          "prepTime": { "type": "string" },
+          "cookTime": { "type": "string" },
+          "servings": { "type": "string" },
+          "difficulty": { "type": "string", "enum": ["easy", "medium", "master"] },
+          "image": { "type": "string", "description": "Site-relative path, or an external URL, or absent" },
+          "hasVideo": { "type": "boolean" },
+          "chapter": { "type": "integer" },
+          "chapterName": { "type": "string" }
+        }
+      },
+      "Feed": {
+        "type": "object",
+        "required": ["rows"],
+        "properties": {
+          "rows": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["key", "title", "items"],
+              "properties": {
+                "key": { "type": "string", "description": "featured, recent, chapter:<n> or kids" },
+                "title": { "type": "string" },
+                "items": { "type": "array", "items": { "type": "string" } }
+              }
+            }
+          }
+        }
+      },
+      "Chapter": {
+        "type": "object",
+        "required": ["id", "name", "recipeCount", "coverImage"],
+        "properties": {
+          "id": { "type": "integer" },
+          "name": { "type": "string" },
+          "recipeCount": { "type": "integer" },
+          "coverImage": { "type": "string" }
+        }
+      },
+      "KidsCard": {
+        "type": "object",
+        "required": ["id", "title", "group", "ages", "minutes", "noCook", "cover"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "group": { "type": "string" },
+          "ages": { "type": "string" },
+          "minutes": { "type": "integer" },
+          "noCook": { "type": "boolean" },
+          "cover": { "type": "string", "description": "Kids-art drawing id, not an image URL" }
+        }
+      },
+      "Image": {
+        "type": "object",
+        "required": ["card", "full", "w", "h"],
+        "properties": {
+          "card": { "type": "string" },
+          "card2x": { "type": "string" },
+          "full": { "type": "string" },
+          "full2x": { "type": "string" },
+          "w": { "type": "integer" },
+          "h": { "type": "integer" }
+        }
+      }
+    }
+  }
+}
