@@ -1,3 +1,6 @@
 /.well-known/api-catalog
   Content-Type: application/linkset+json
   Access-Control-Allow-Origin: *
+
+/
+  Link: </.well-known/api-catalog>; rel="api-catalog", </openapi/tv.json>; rel="service-desc"; type="application/openapi+json;version=3.1", <https://github.com/amado2k5/fifirecipes/blob/main/docs/tv-api.md>; rel="service-doc"; type="text/html"
