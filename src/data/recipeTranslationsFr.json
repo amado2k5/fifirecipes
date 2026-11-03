@@ -1129,7 +1129,9 @@
    "2": "Préparez le gril et posez-y les morceaux de viande avec un peu d'huile et de l'oignon assaisonné pour qu'ils tiennent ensemble sur la grille. Faites griller jusqu'à cuisson complète.",
    "3": "Transférez la viande dans un plat allant au four, couvrez et faites cuire dans un four préchauffé pendant 1,5 heure, jusqu'à cuisson complète."
   },
-  "culturalNotes": "Ce plat grillé illustre l'amour des Égyptiens pour les viandes grillées et aromatiques. Une longue marinade est essentielle pour la tendreté et l'absorption des saveurs."
+  "culturalNotes": "Ce plat grillé illustre l'amour des Égyptiens pour les viandes grillées et aromatiques. Une longue marinade est essentielle pour la tendreté et l'absorption des saveurs.",
+  "cookTime": "30 minutes",
+  "servings": "4 portions"
  },
  "meat-09": {
   "title": "Poulet entier grillé",
@@ -1164,7 +1166,9 @@
    "2": "Badigeonnez les morceaux d'huile ou de ghee, puis faites griller sur charbon de bois en retournant régulièrement.",
    "3": "Disposez sur le plat de service avec des quartiers de citron et des pommes de terre frites."
   },
-  "culturalNotes": "Ce plat grillé illustre l'amour des Égyptiens pour les viandes grillées et aromatiques. Une longue marinade est essentielle pour la tendreté et l'absorption des saveurs."
+  "culturalNotes": "Ce plat grillé illustre l'amour des Égyptiens pour les viandes grillées et aromatiques. Une longue marinade est essentielle pour la tendreté et l'absorption des saveurs.",
+  "cookTime": "35 minutes",
+  "servings": "4 portions"
  },
  "meat-10": {
   "title": "Chich Taouk (Brochettes de Poulet Grillées)",
@@ -1207,7 +1211,9 @@
    "2": "Couvrez et réfrigérez pendant 4 heures.",
    "3": "Coupez le poivron vert en tranches et l'oignon en quartiers, puis enfilez les morceaux de poulet sur des brochettes en alternant avec les légumes.",
    "4": "Faites griller sur charbon de bois ; enfilez les morceaux de tomate juste avant la fin de cuisson, car ils cuisent rapidement."
-  }
+  },
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "meat-11": {
   "title": "Filet de bœuf ou blanc de poulet en bouillon",
@@ -1256,7 +1262,10 @@
    "4": "Méthode complémentaire : ajoutez 1 cuillère à soupe de vinaigre, le jus d'un citron, 2 cuillères à soupe de ghee ou d'huile, du sel et du poivre à la viande ou au poulet, et laissez à feu très doux en remuant constamment.",
    "5": "Ajoutez de l'eau progressivement selon les besoins jusqu'à cuisson complète, puis retirez la viande cuite.",
    "6": "Faites dorer deux pommes de terre coupées en dés et ajoutez-les à la sauce jusqu'à ce qu'elles en absorbent la saveur."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "35 minutes",
+  "servings": "4 portions"
  },
  "meat-12": {
   "title": "Viande aux poivrons verts",
@@ -1291,7 +1300,10 @@
    "2": "Faites dorer la viande dans l'huile ou le ghee, puis réservez.",
    "3": "Ajoutez l'oignon et faites-le revenir, puis ajoutez les poivrons verts, remettez la viande dans la marmite, et assaisonnez de sel et de poivre, en ajoutant un peu d'eau selon les besoins, à couvert, jusqu'à cuisson complète."
   },
-  "culturalNotes": "Il s'agit d'un plat égyptien traditionnel préparé avec des ingrédients frais et des épices aromatiques."
+  "culturalNotes": "Il s'agit d'un plat égyptien traditionnel préparé avec des ingrédients frais et des épices aromatiques.",
+  "prepTime": "10 minutes",
+  "cookTime": "40 minutes",
+  "servings": "4 portions"
  },
  "meat-13": {
   "title": "Agneau au cumin (Kammuniya)",
@@ -1330,7 +1342,10 @@
    "2": "Ajoutez l'ail haché en proportion de la viande, puis ajoutez le cumin, et remuez jusqu'à ce que l'ail dore.",
    "3": "Ajoutez une tasse et demie d'eau avec la cuillère à soupe de vinaigre et l'oignon entier, et laissez mijoter à feu doux jusqu'à cuisson complète."
   },
-  "culturalNotes": "Ce plat de viande épicée est un pilier de la cuisine familiale égyptienne, le cumin lui apportant sa note chaude et terreuse si particulière."
+  "culturalNotes": "Ce plat de viande épicée est un pilier de la cuisine familiale égyptienne, le cumin lui apportant sa note chaude et terreuse si particulière.",
+  "prepTime": "10 minutes",
+  "cookTime": "45 minutes",
+  "servings": "4 portions"
  },
  "meat-14": {
   "title": "Viande en sauce aux larmes",
@@ -1369,7 +1384,10 @@
    "2": "Mixez les tomates et ajoutez-les à la viande jusqu'à ce que la sauce épaississe et réduise.",
    "3": "Ajoutez le vinaigre et remuez bien, puis ajoutez environ 2 tasses d'eau, et laissez mijoter à feu doux jusqu'à cuisson complète."
   },
-  "culturalNotes": "Il s'agit d'un plat égyptien traditionnel préparé avec des ingrédients frais et des épices aromatiques."
+  "culturalNotes": "Il s'agit d'un plat égyptien traditionnel préparé avec des ingrédients frais et des épices aromatiques.",
+  "prepTime": "10 minutes",
+  "cookTime": "50 minutes",
+  "servings": "4 portions"
  },
  "meat-15": {
   "title": "Bœuf poêlé",
@@ -1403,7 +1421,10 @@
    "1": "Faites mariner la viande dans le jus d'oignon, le jus de citron ou le vinaigre, le sel et le poivre.",
    "2": "Placez la viande marinée dans une marmite avec de l'huile ou du ghee à feu doux, à couvert, jusqu'à ce qu'elle absorbe son propre liquide ; ajoutez un peu plus d'huile ou de ghee et remuez jusqu'à coloration dorée, puis ajoutez de l'eau jusqu'à cuisson complète."
   },
-  "culturalNotes": "Il s'agit d'un plat égyptien traditionnel préparé avec des ingrédients frais et des épices aromatiques."
+  "culturalNotes": "Il s'agit d'un plat égyptien traditionnel préparé avec des ingrédients frais et des épices aromatiques.",
+  "prepTime": "10 minutes",
+  "cookTime": "45 minutes",
+  "servings": "4 portions"
  },
  "meat-16": {
   "title": "Viande émincée en sauce",
@@ -1443,7 +1464,10 @@
    "3": "Dans la même marmite, faites revenir l'oignon émincé, puis remettez les lanières de viande avec le concentré de tomate, et laissez mijoter à couvert à feu doux.",
    "4": "Ajoutez de l'eau selon les besoins jusqu'à ce que la viande soit presque cuite.",
    "5": "Ajoutez une demi-tasse de lait et laissez mijoter à feu doux pendant 5 minutes, en remuant."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "40 minutes",
+  "servings": "4 portions"
  },
  "meat-17": {
   "title": "Blanc de Poulet en Sauce Crémeuse",
@@ -1491,7 +1515,10 @@
    "3": "Dans la même marmite, faites revenir l'oignon finement haché et l'ail haché, puis ajoutez de l'eau et du sel et portez à ébullition.",
    "4": "Hachez finement un poivron vert et mélangez-le avec une demi-tasse de crème et une cuillère à soupe de moutarde, en remuant bien (la crème peut être remplacée par une cuillère à soupe de crème épaisse dissoute dans un peu de lait).",
    "5": "Remettez le poulet saisi dans ce mélange et laissez mijoter à couvert à feu doux jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4 portions"
  },
  "meat-18": {
   "title": "Blancs de poulet farinés",
@@ -1535,7 +1562,10 @@
    "3": "Dans la même marmite, faites revenir l'oignon finement haché, puis ajoutez l'ail haché, le sel, le poivre et le thym, en remuant.",
    "4": "Ajoutez le jus de tomate ou le concentré de tomate et faites cuire jusqu'à épaississement, puis placez le poulet sur la sauce, couvrez la poêle et ajoutez un peu d'eau si nécessaire jusqu'à cuisson complète.",
    "5": "Juste avant la fin de la cuisson, saupoudrez d'un peu de persil haché."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4 portions"
  },
  "meat-19": {
   "title": "Blancs de poulet en sauce aromatique",
@@ -1583,7 +1613,9 @@
    "3": "Mélangez l'ail haché et la cardamome écrasée avec le sel, le poivre et la cannelle, puis faites revenir dans la même huile.",
    "4": "Hachez finement l'autre moitié de l'oignon et faites-la revenir avec les aromates.",
    "5": "Ajoutez la tasse de lait et l'eau et portez à ébullition, puis remettez le poulet doré dans ce liquide jusqu'à cuisson complète, en conservant un peu de sauce blanche."
-  }
+  },
+  "cookTime": "35 minutes",
+  "servings": "4 portions"
  },
  "meat-20": {
   "title": "Poulet au Curry",
@@ -1614,7 +1646,10 @@
    "2": "Mélangez la farine avec la poudre de curry, puis ajoutez progressivement 2 tasses d'eau jusqu'à obtenir une consistance moyenne.",
    "3": "Remettez le poulet dans ce mélange et laissez mijoter à couvert à feu doux jusqu'à cuisson complète."
   },
-  "culturalNotes": "Le curry reflète les influences mondiales dans la cuisine égyptienne moderne, apportant une complexité chaleureuse aux plats traditionnels."
+  "culturalNotes": "Le curry reflète les influences mondiales dans la cuisine égyptienne moderne, apportant une complexité chaleureuse aux plats traditionnels.",
+  "prepTime": "10 minutes",
+  "cookTime": "35 minutes",
+  "servings": "4 portions"
  },
  "meat-21": {
   "title": "Chawarma de viande",
@@ -1667,7 +1702,10 @@
    "4": "Ajoutez ce mélange à la viande et faites cuire jusqu'à cuisson complète.",
    "5": "Dissolvez 2 cuillères à soupe de tahini dans une cuillère à soupe de vinaigre, puis diluez progressivement avec de l'eau jusqu'à la consistance désirée, et assaisonnez de sel et de poivre.",
    "6": "Versez la sauce au tahini sur la viande, mélangez rapidement une fois et retirez du feu."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "35 minutes",
+  "servings": "4 portions"
  },
  "meat-22": {
   "title": "Chawarma au mélange d'épices",
@@ -1702,7 +1740,10 @@
    "2": "Ajoutez suffisamment d'eau pour la couvrir, et une fois que la viande a absorbé environ les trois quarts de l'eau, ajoutez le sachet d'épices et mélangez bien.",
    "3": "Coupez la tomate et le poivron vert en petits morceaux et ajoutez-les à la viande en mélangeant une seule fois."
   },
-  "culturalNotes": "Ce plat grillé illustre l'amour des Égyptiens pour les viandes grillées et aromatiques. Une longue marinade est essentielle pour la tendreté et l'absorption des saveurs."
+  "culturalNotes": "Ce plat grillé illustre l'amour des Égyptiens pour les viandes grillées et aromatiques. Une longue marinade est essentielle pour la tendreté et l'absorption des saveurs.",
+  "prepTime": "5 minutes",
+  "cookTime": "35 minutes",
+  "servings": "3-4 portions"
  },
  "meat-23": {
   "title": "Escalopes de viande ou de poulet panées (Babtik)",
@@ -1746,7 +1787,9 @@
    "3": "Retirez de la marinade et enrobez de farine, puis trempez dans l'œuf battu avec du sel et du poivre, puis enrobez de chapelure, et faites frire dans l'huile.",
    "4": "Du vinaigre, de la cardamome écrasée et un peu de lait peuvent être ajoutés à la marinade ci-dessus."
   },
-  "culturalNotes": "Les escalopes panées (babtik) allient les traditions de la cuisine familiale égyptienne aux techniques de préparation à l'européenne."
+  "culturalNotes": "Les escalopes panées (babtik) allient les traditions de la cuisine familiale égyptienne aux techniques de préparation à l'européenne.",
+  "cookTime": "15 minutes",
+  "servings": "4 portions"
  },
  "meat-24": {
   "title": "Blancs de poulet marinés au soja",
@@ -1785,7 +1828,9 @@
    "2": "Réfrigérez pendant 3 heures.",
    "3": "Enrobez le poulet mariné de farine ou de fécule de maïs, puis faites-le frire dans l'huile."
   },
-  "culturalNotes": "Il s'agit d'un plat égyptien traditionnel préparé avec des ingrédients frais et des épices aromatiques."
+  "culturalNotes": "Il s'agit d'un plat égyptien traditionnel préparé avec des ingrédients frais et des épices aromatiques.",
+  "cookTime": "15 minutes",
+  "servings": "3-4 portions"
  },
  "meat-25": {
   "title": "Rissoles de Poulet",
@@ -1821,7 +1866,10 @@
    "3": "Façonnez en boules ou en doigts, selon la préférence.",
    "4": "Trempez dans l'œuf, puis dans la chapelure, et faites frire dans l'huile."
   },
-  "culturalNotes": "Il s'agit d'un plat égyptien traditionnel préparé avec des ingrédients frais et des épices aromatiques."
+  "culturalNotes": "Il s'agit d'un plat égyptien traditionnel préparé avec des ingrédients frais et des épices aromatiques.",
+  "prepTime": "15 minutes",
+  "cookTime": "15 minutes",
+  "servings": "4 portions"
  },
  "meat-26": {
   "title": "Côtes de poulet croustillantes",
@@ -1871,7 +1919,9 @@
    "5": "Retirez la marmite du feu, incorporez l'œuf en battant, et mélangez bien.",
    "6": "Laissez refroidir complètement le mélange, divisez-le en 6 portions, et façonnez chacune en forme d'escalope.",
    "7": "Passez légèrement les morceaux dans la farine, puis dans l'œuf, puis dans la chapelure, et faites frire dans l'huile."
-  }
+  },
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "meat-27": {
   "title": "Poulet en pâte à la farine et à l'œuf",
@@ -1915,7 +1965,9 @@
    "3": "Enrobez de chapelure et faites frire tous les morceaux une première fois, puis retirez-les ; faites frire une seconde fois jusqu'à coloration dorée.",
    "4": "Servez avec de la sauce à l'ail (Toum) (voir la section des salades).",
    "5": "Après avoir bouilli le poulet et l'avoir coupé en quartiers, aplatissez-le légèrement, puis trempez-le dans la farine mélangée à un peu de levure chimique, d'épices, de moutarde et d'un peu de lait ou d'eau, et faites frire dans l'huile."
-  }
+  },
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "meat-28": {
   "title": "Poulet frit à l'égyptienne façon Kentucky",
@@ -1958,7 +2010,9 @@
    "2": "Enrobez les morceaux de poulet de farine mélangée à la fécule de maïs, puis réfrigérez pendant 3 heures.",
    "3": "Trempez dans l'œuf, puis dans la chapelure, réfrigérez à nouveau jusqu'à ce que ce soit ferme, puis faites frire dans l'huile."
   },
-  "culturalNotes": "Il s'agit d'un plat égyptien traditionnel préparé avec des ingrédients frais et des épices aromatiques."
+  "culturalNotes": "Il s'agit d'un plat égyptien traditionnel préparé avec des ingrédients frais et des épices aromatiques.",
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "meat-29": {
   "title": "Poulet aux épices tandoori (Takka)",
@@ -2003,7 +2057,9 @@
    "4": "Mettez le poulet dans ce mélange et laissez-le reposer jusqu'à ce qu'il absorbe une partie du liquide.",
    "5": "Faites frire dans l'huile des deux côtés.",
    "6": "Faites mariner le poulet cru dans le jus de citron et réfrigérez pendant une journée entière, puis préparez une pâte avec 2 cuillères à soupe de farine, un peu de lait et de l'ail en poudre ; trempez-y les morceaux de poulet et faites-les bien frire dans l'huile."
-  }
+  },
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "meat-30": {
   "title": "Hamburger de bœuf à l'égyptienne",
@@ -2049,7 +2105,9 @@
    "5": "Saisissez dans une huile très chaude pendant quelques secondes seulement, en retournant une fois, juste jusqu'à ce que ce soit raffermi.",
    "6": "Après cette brève saisie, enveloppez les steaks dans du papier aluminium et empilez-les au congélateur jusqu'à congélation. Au moment de les utiliser, huilez légèrement un plat, disposez-y les steaks, et faites cuire au four jusqu'à ce qu'ils soient bien chauds.",
    "7": "Autre méthode : après la saisie, huilez un plat, tapissez le fond de tranches de poivrons, disposez les steaks dessus, et faites cuire au four jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "10 minutes"
  },
  "meat-31": {
   "title": "Hamburger de poulet",
@@ -2084,7 +2142,8 @@
    "2": "Après avoir bien mélangé, couvrez et réfrigérez pendant 2 heures.",
    "3": "Huilez légèrement une poêle antiadhésive et faites cuire les galettes à feu moyen, en les retournant, jusqu'à cuisson complète."
   },
-  "culturalNotes": "Les hamburgers égyptiens sont généreusement assaisonnés d'oignons et d'épices, poêlés pour obtenir des galettes juteuses aux bords caramélisés."
+  "culturalNotes": "Les hamburgers égyptiens sont généreusement assaisonnés d'oignons et d'épices, poêlés pour obtenir des galettes juteuses aux bords caramélisés.",
+  "cookTime": "10 minutes"
  },
  "meat-32": {
   "title": "Kofta de poulet aux épices",
@@ -2124,7 +2183,9 @@
    "3": "Enrobez de farine, puis trempez dans l'œuf battu, puis enrobez de chapelure.",
    "4": "Faites frire en grande friture dans l'huile ou le ghee."
   },
-  "culturalNotes": "Ce plat de viande épicée est un pilier de la cuisine familiale égyptienne, le cumin lui apportant sa note chaude et terreuse si particulière."
+  "culturalNotes": "Ce plat de viande épicée est un pilier de la cuisine familiale égyptienne, le cumin lui apportant sa note chaude et terreuse si particulière.",
+  "cookTime": "15 minutes",
+  "servings": "4 portions"
  },
  "meat-33": {
   "title": "Kofta de viande au pain traditionnel",
@@ -2169,7 +2230,10 @@
    "4": "Façonnez en petites boules, puis aplatissez en galettes.",
    "5": "Saupoudrez d'abord très légèrement les galettes de chapelure, puis badigeonnez les deux côtés d'œuf.",
    "6": "Faites frire dans l'huile jusqu'à ce qu'elles soient dorées."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "15 minutes",
+  "servings": "4 portions"
  },
  "meat-34": {
   "title": "Kofta de Bœuf au Riz",
@@ -2211,7 +2275,10 @@
    "5": "Faites cuire à la vapeur jusqu'à ce que les doigts raffermissent, puis laissez refroidir.",
    "6": "Enrobez d'œuf et de chapelure, puis faites frire dans l'huile.",
    "7": "L'étape de cuisson à la vapeur peut être omise en trempant plutôt les doigts ou galettes de kofta dans la farine, puis l'œuf, puis la chapelure, en réfrigérant pendant une heure jusqu'à ce que ce soit ferme, puis en faisant frire dans l'huile."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "meat-35": {
   "title": "Kofta au Riz en Sauce aux Légumes",
@@ -2249,7 +2316,10 @@
    "1": "Mixez le bœuf haché, l'oignon, le persil et l'aneth au robot culinaire, puis ajoutez le riz moulu et les épices ; mixez jusqu'à ce que le mélange épaississe.",
    "2": "Façonnez en petites boules et faites frire dans l'huile.",
    "3": "Ajoutez la kofta à la sauce aux légumes et laissez mijoter à feu doux pendant 15 minutes."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "35 minutes",
+  "servings": "4 portions"
  },
  "meat-36": {
   "title": "Préparation de la sauce aux légumes",
@@ -2287,7 +2357,9 @@
    "1": "Faites chauffer l'huile et faites revenir l'ail uniquement jusqu'à ce qu'il soit doré, puis ajoutez la purée de tomate ; assaisonnez de sel, de poivre et de vinaigre, puis retirez du feu.",
    "2": "Portez environ 3 tasses d'eau à ébullition avec du sel et du poivre, puis ajoutez les carottes coupées en petits dés, et laissez cuire 15 minutes.",
    "3": "Ajoutez les pommes de terre en dés aux carottes dans l'eau bouillante, puis incorporez la sauce tomate, et laissez mijoter à feu moyen pendant 15 minutes jusqu'à épaississement de la sauce."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "30 minutes"
  },
  "meat-37": {
   "title": "Kofta de viande en sauce aux larmes",
@@ -2334,7 +2406,9 @@
    "6": "Faites cuire à la vapeur jusqu'à ce que la kofta raffermisse.",
    "7": "Retirez, laissez refroidir, puis faites frire dans l'huile.",
    "8": "Placez les doigts de kofta frits dans la dam'a, couvrez la marmite et laissez cuire à feu doux jusqu'à ce que la kofta soit bien cuite et ait absorbé une partie de la sauce."
-  }
+  },
+  "cookTime": "30 minutes",
+  "servings": "4 portions"
  },
  "meat-38": {
   "title": "Préparation de la sauce aux larmes pour la kofta",
@@ -2367,7 +2441,9 @@
   "instructions": {
    "1": "Faites légèrement dorer l'ail dans le ghee ou l'huile, puis ajoutez la purée de tomate et laissez cuire jusqu'à épaississement.",
    "2": "Ajoutez la cuillère à soupe de vinaigre et remuez bien, puis ajoutez l'eau, assaisonnez de sel et de poivre, et portez à ébullition."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "20 minutes"
  },
  "meat-39": {
   "title": "Kofta en sauce",
@@ -2403,7 +2479,10 @@
    "3": "Faites dorer dans l'huile ou le ghee.",
    "4": "Préparez une sauce tomate comme pour les pâtes (voir la section des féculents).",
    "5": "Une fois la sauce à ébullition, ajoutez la kofta et laissez mijoter à feu doux jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "25 minutes",
+  "servings": "4 portions"
  },
  "meat-40": {
   "title": "Kebbé levantin",
@@ -2440,7 +2519,10 @@
    "4": "Divisez le mélange en portions de la taille d'un œuf, enfoncez un doigt au centre de chacune pour la creuser, farcissez avec un peu de farce assag, et refermez en gardant la forme creuse.",
    "5": "Faites frire dans l'huile ou le ghee.",
    "6": "Méthode complémentaire : après avoir préparé et farci le kebbé comme décrit ci-dessus, huilez un plat et mettez-y la moitié de la préparation de kebbé, ajoutez une couche d'Asag et de pignons, puis recouvrez avec le reste de la préparation de kebbé. Arrosez la surface de ghee ou de beurre et découpez en formes de samoussas, puis faites cuire à four moyen jusqu'à cuisson complète et légère coloration dorée sur le dessus."
-  }
+  },
+  "prepTime": "40 minutes",
+  "cookTime": "25 minutes",
+  "servings": "6-8 portions"
  },
  "meat-41": {
   "title": "Préparation de l'Assaj (base de farce)",
@@ -2472,7 +2554,9 @@
   },
   "instructions": {
    "1": "Faites chauffer le ghee ou l'huile, ajoutez l'oignon et faites-le revenir, puis ajoutez la viande hachée et les épices, et laissez cuire à feu doux jusqu'à cuisson complète, en ajoutant de l'eau selon les besoins."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "20 minutes"
  },
  "meat-42": {
   "title": "Marinade au yaourt",
@@ -2514,7 +2598,9 @@
    "1": "Mixez la tomate, la carotte, l'ail et le céleri, puis incorporez le yaourt, le sel et le poivre.",
    "2": "Faites dorer des rondelles d'oignon dans l'huile, puis ajoutez-les au mélange.",
    "3": "Faites mariner la viande ou le poulet dans ce mélange."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "-"
  },
  "meat-43": {
   "title": "Marinade à la sauce tomate",
@@ -2557,7 +2643,8 @@
    "2": "Ajoutez les tomates pressées ou le concentré de tomate et l'huile, et mélangez bien avec le jus de citron.",
    "3": "Faites mariner la viande ou le poulet dans ce mélange.",
    "4": "Huilez un plat, placez-y la viande marinée avec un peu d'eau, couvrez, et faites cuire au four."
-  }
+  },
+  "prepTime": "10 minutes"
  },
  "meat-44": {
   "title": "Viande ou poulet au four en plat (Rostopatllo)",
@@ -2605,7 +2692,10 @@
    "3": "Émincez le poivron vert, ajoutez-le avec l'ail haché et le jus de tomate (ou 2 cuillères à soupe de concentré de tomate dilué avec de l'eau), et ajoutez à la viande ou au poulet.",
    "4": "Ajoutez suffisamment d'eau mélangée au jus de citron ou au vinaigre et à la cardamome écrasée, portez à ébullition, puis arrosez d'un peu d'huile.",
    "5": "Couvrez le plat de papier aluminium et faites cuire au four ; vers la fin, retirez le papier et laissez cuire à découvert jusqu'à absorption complète du liquide."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "1 heure",
+  "servings": "4-6 portions"
  },
  "meat-45": {
   "title": "Viande ou poulet au four avec des légumes",
@@ -2658,7 +2748,10 @@
    "4": "Huilez un plat et disposez-y le mélange de légumes en couche, puis une couche de viande ou de poulet.",
    "5": "Badigeonnez le dessus d'œuf battu, puis saupoudrez de chapelure.",
    "6": "Couvrez et faites cuire au four."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "35 minutes",
+  "servings": "4-6 portions"
  },
  "meat-46": {
   "title": "Poulet poêlé au four",
@@ -2690,7 +2783,10 @@
    "3": "Faites dorer dans l'huile, puis égouttez sur du papier absorbant.",
    "4": "Huilez un plat, disposez-y le poulet, couvrez, et faites cuire au four."
   },
-  "culturalNotes": "Les plats mijotés au four (sanyia) sont des classiques de la semaine dans les foyers égyptiens, réunissant viande, légumes et sauce dans un seul plat."
+  "culturalNotes": "Les plats mijotés au four (sanyia) sont des classiques de la semaine dans les foyers égyptiens, réunissant viande, légumes et sauce dans un seul plat.",
+  "prepTime": "10 minutes",
+  "cookTime": "40 minutes",
+  "servings": "4 portions"
  },
  "meat-47": {
   "title": "Gigot d'agneau rôti",
@@ -2730,7 +2826,10 @@
    "3": "Ajoutez le jus d'oignon et le vinaigre au gigot.",
    "4": "Couvrez bien le plat de papier aluminium et versez un peu d'eau autour de la viande.",
    "5": "Faites rôtir au four, en rajoutant de l'eau selon les besoins, jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "2 heures",
+  "servings": "6-8 portions"
  },
  "meat-48": {
   "title": "Autre farce pour gigot d'agneau",
@@ -2772,7 +2871,10 @@
    "5": "Une fois le gigot cuit, versez le reste de la sauce dans une petite casserole. Délayez la fécule de maïs ou la farine dans un peu d'eau (en proportion de la quantité de sauce) et versez-la dans la sauce à feu doux, en remuant jusqu'à épaississement.",
    "6": "Retirez le papier aluminium et versez la sauce sur le gigot.",
    "7": "Servez avec des légumes sautés en accompagnement."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "2 heures",
+  "servings": "6-8 portions"
  },
  "meat-49": {
   "title": "Viande ou poulet en sauce au yaourt",
@@ -2823,7 +2925,9 @@
    "2": "Placez la viande ou le poulet dans un plat huilé, versez le mélange dessus, couvrez, et réfrigérez pendant 4 heures.",
    "3": "Faites cuire à four moyen, en ajoutant un peu d'eau si nécessaire, jusqu'à cuisson complète.",
    "4": "Retirez le couvercle et poursuivez la cuisson jusqu'à absorption complète du liquide."
-  }
+  },
+  "cookTime": "50 minutes",
+  "servings": "4-6 portions"
  },
  "meat-50": {
   "title": "Rôti de viande roulé",
@@ -2851,7 +2955,10 @@
    "3": "Mélangez la viande avec l'oignon écrasé et l'huile, enveloppez de papier aluminium, et scellez bien.",
    "4": "Faites cuire au four pendant environ 2 heures, jusqu'à cuisson complète."
   },
-  "culturalNotes": "Il s'agit d'un plat égyptien traditionnel préparé avec des ingrédients frais et des épices aromatiques."
+  "culturalNotes": "Il s'agit d'un plat égyptien traditionnel préparé avec des ingrédients frais et des épices aromatiques.",
+  "prepTime": "10 minutes",
+  "cookTime": "2 heures",
+  "servings": "4-6 portions"
  },
  "meat-51": {
   "title": "Plat de viande hachée ou de poulet au four",
@@ -2886,7 +2993,10 @@
    "2": "Ajoutez un œuf battu et une demi-tasse de lait au mélange et mélangez bien.",
    "3": "Huilez un moule à cake, pressez-y fermement le mélange.",
    "4": "Faites cuire à four moyen, et une fois cuit, découpez en tranches et servez."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "45 minutes",
+  "servings": "4 portions"
  },
  "meat-52": {
   "title": "Poulet bouilli en sauce",
@@ -2929,7 +3039,10 @@
    "2": "Émincez l'oignon et faites-le dorer dans l'huile dans une marmite.",
    "3": "Émincez le poivron vert et ajoutez-le à l'oignon avec l'ail haché, faites bien revenir, puis ajoutez le vinaigre et les épices.",
    "4": "Ajoutez une tasse de bouillon ou d'eau au mélange, portez à ébullition, puis versez sur le poulet et faites cuire à four moyen jusqu'à absorption du liquide et coloration dorée du dessus."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4 portions"
  },
  "meat-53": {
   "title": "Poulet en croûte de pétales de maïs",
@@ -2978,7 +3091,10 @@
    "4": "Préparez une béchamel épaisse : faites chauffer l'huile, incorporez la cuillère à soupe de farine en fouettant, et une fois dorée, hors du feu incorporez la tasse de lait avec le sel et le poivre, puis remettez à feu moyen, en remuant, jusqu'à épaississement.",
    "5": "Versez la béchamel sur le poulet et saupoudrez de fromage Romy râpé.",
    "6": "Saupoudrez une petite quantité de pétales de maïs sur le fromage râpé, couvrez et faites cuire au four."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "25 minutes",
+  "servings": "4 portions"
  },
  "meat-54": {
   "title": "Poulet glacé à la moutarde",
@@ -3013,7 +3129,10 @@
    "2": "Dans la même marmite, ajoutez plus d'huile ou de ghee, incorporez rapidement la moutarde en fouettant à feu doux, puis incorporez la crème épaisse dissoute dans le lait, et ajoutez de l'eau selon les besoins.",
    "3": "Une fois à ébullition, versez la sauce sur le poulet dans le plat, couvrez, et faites cuire au four jusqu'à cuisson complète."
   },
-  "culturalNotes": "Il s'agit d'un plat égyptien traditionnel préparé avec des ingrédients frais et des épices aromatiques."
+  "culturalNotes": "Il s'agit d'un plat égyptien traditionnel préparé avec des ingrédients frais et des épices aromatiques.",
+  "prepTime": "10 minutes",
+  "cookTime": "25 minutes",
+  "servings": "4 portions"
  },
  "meat-55": {
   "title": "Poulet recouvert de fromage",
@@ -3052,7 +3171,10 @@
    "2": "Assaisonnez l'oignon râpé de sel, de poivre, d'épices mélangées et de vinaigre, et étalez-le sur le poulet dans le plat.",
    "3": "Recouvrez le poulet de fromage râpé, au choix, et mélangez bien.",
    "4": "Versez la tasse de crème sur le dessus et faites cuire au four jusqu'à cuisson complète et coloration dorée du dessus."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4 portions"
  },
  "meat-56": {
   "title": "Canard rôti",
@@ -3091,7 +3213,10 @@
    "2": "Ajoutez la cuillère à soupe de ghee et la chapelure, mélangez bien, puis pétrissez avec du lait jusqu'à obtenir une texture souple.",
    "3": "Farcissez le canard de ce mélange, placez-le dans un plat huilé ou graissé au ghee, arrosez d'un peu plus d'huile ou de ghee, et couvrez de papier aluminium.",
    "4": "Faites rôtir à four moyen jusqu'à cuisson, puis retirez le papier aluminium pour laisser dorer le dessus."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "1.5 heures",
+  "servings": "4 portions"
  },
  "meat-57": {
   "title": "Dinde rôtie",
@@ -3131,7 +3256,8 @@
    "3": "Placez la dinde marinée dans un plat huilé et couvrez de papier aluminium.",
    "4": "Faites rôtir pendant environ 2 heures, en la retournant à mi-cuisson.",
    "5": "Une fois la dinde cuite, découpez-la en tranches et disposez les morceaux sur un plat de service."
-  }
+  },
+  "cookTime": "2 heures"
  },
  "meat-58": {
   "title": "Kofta au four en plat",
@@ -3179,7 +3305,9 @@
    "3": "Façonnez en doigts de taille moyenne, en perçant chacun avec une brochette pour faire un trou au centre.",
    "4": "Graissez un plat de ghee, disposez-y les doigts de kofta, arrosez de 2 cuillères à soupe de ghee, couvrez, et faites cuire à four moyen.",
    "5": "Une fois cuite, faites chauffer un morceau de charbon jusqu'à incandescence sur la cuisinière, placez-le au centre du plat sur un peu de ghee, couvrez immédiatement, et secouez doucement le plat pour que l'arôme fumé se propage."
-  }
+  },
+  "cookTime": "30 minutes",
+  "servings": "4 portions"
  },
  "meat-59": {
   "title": "Chawarma de poulet",
@@ -3231,7 +3359,10 @@
    "3": "Faites revenir à sec dans une poêle, sans huile, à feu doux jusqu'à absorption du liquide de l'oignon, puis augmentez le feu.",
    "4": "Huilez un plat et ajoutez-y le poulet, puis garnissez de poivron vert et de tomate émincés, de jus de citron, de vinaigre et de persil, pour éviter que le poulet ne se dessèche.",
    "5": "Pour dorer le dessus, le plat peut être placé brièvement sous le gril."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "25 minutes",
+  "servings": "4 portions"
  },
  "meat-60": {
   "title": "Poulet en pâte phyllo",
@@ -3270,7 +3401,10 @@
    "2": "Prenez une feuille de phyllo badigeonnée de beurre, déposez-y un peu de farce au poulet, repliez en triangle, et badigeonnez l'extérieur de beurre.",
    "3": "Placez sur un plat légèrement huilé, et répétez avec le reste des feuilles de phyllo.",
    "4": "Faites cuire à four moyen jusqu'à coloration dorée du dessus."
-  }
+  },
+  "prepTime": "30 minutes",
+  "cookTime": "20 minutes",
+  "servings": "4-6 portions"
  },
  "sea-05": {
   "title": "Sauce Blanche pour Fruits de Mer",
@@ -3299,7 +3433,9 @@
    "4": "Variante au persil ou au citron : si désiré, incorporez une cuillère à café de persil finement haché ou une cuillère à café de jus de citron pendant que la sauce est encore chaude.",
    "5": "Variante à la moutarde et au vinaigre (méthode 1) : autrement, mélangez bien une cuillère à café de moutarde avec une cuillère à soupe de vinaigre, incorporez-la à la sauce, puis reportez à ébullition sur le feu.",
    "6": "Variante à la moutarde et au vinaigre (méthode 2) : ou incorporez directement une cuillère à café de moutarde à la sauce et laissez refroidir, puis incorporez progressivement en fouettant une cuillère à soupe d'huile en alternant avec une cuillère à soupe de vinaigre, en remuant constamment jusqu'à émulsion."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "10 minutes"
  },
  "sea-06": {
   "title": "Poisson en Sauce Tomate à la Coriandre et à l'Ail",
@@ -3344,7 +3480,10 @@
    "4": "Remettez le poisson mi-frit dans la sauce, couvrez la marmite et laissez mijoter à feu doux jusqu'à cuisson complète.",
    "5": "Méthode au four (alternative) : la marmite peut être remplacée par un plat allant au four avec le même mélange, couvert, et cuit au four jusqu'à cuisson complète au lieu de cuire sur la cuisinière.",
    "6": "Pour servir : accompagnez de salade de tahini ou de la sauce blanche pour fruits de mer."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4-6 portions"
  },
  "sea-07": {
   "title": "Poisson Sangari",
@@ -3388,7 +3527,10 @@
    "3": "Farcissez et laissez reposer : placez les rondelles de tomate et de poivron vert à l'intérieur du ventre ouvert du poisson et laissez reposer le poisson farci un moment pour qu'il absorbe la marinade.",
    "4": "Faites cuire au four : graissez un plat et déposez-y le poisson, arrosez d'un peu d'huile et de jus de citron, puis faites cuire au four jusqu'à cuisson complète et légère coloration dorée.",
    "5": "Pour servir : accompagnez de salade de tahini ou de la sauce blanche pour fruits de mer."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "25 minutes",
+  "servings": "4 portions"
  },
  "sea-08": {
   "title": "Poisson blanc",
@@ -3446,7 +3588,10 @@
    "5": "Placez les morceaux de poisson dans cette sauce blanche, puis versez le tout sur la sauce tomate et les pommes de terre dans le plat.",
    "6": "Couvrez le plat et faites cuire au four jusqu'à cuisson complète, en réservant un peu de sauce à verser sur le poisson au moment de servir.",
    "7": "Pour servir : accompagnez de salade de tahini ou de la sauce blanche pour fruits de mer."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "35 minutes",
+  "servings": "4-6 portions"
  },
  "sea-09": {
   "title": "Calmars (calamars)",
@@ -3484,7 +3629,10 @@
    "5": "Égouttez dans une passoire jusqu'à élimination complète de tout excès de liquide, puis enrobez les anneaux de farine.",
    "6": "Faites frire les anneaux dans beaucoup d'huile jusqu'à coloration dorée.",
    "7": "Pour servir : accompagnez de salade de tahini ou de la sauce blanche pour fruits de mer."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "10 minutes",
+  "servings": "4 portions"
  },
  "sea-10": {
   "title": "Crevettes",
@@ -3521,7 +3669,10 @@
    "4": "Couvrez la marmite et laissez cuire à feu doux, en remuant constamment, jusqu'à cuisson complète.",
    "5": "Retirez la marmite du feu et secouez-la bien pour éviter que les crevettes n'attachent.",
    "6": "Servez avec ou sans carapace, selon la préférence, avec de la salade de tahini ou la sauce blanche pour fruits de mer."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "15 minutes",
+  "servings": "4 portions"
  },
  "sea-11": {
   "title": "Crevettes à la Sauce Mayonnaise",
@@ -3563,7 +3714,10 @@
    "5": "Retirez la marmite du feu et secouez-la bien pour éviter que les crevettes n'attachent.",
    "6": "Égouttez les crevettes et décortiquez-les, puis assaisonnez-les de sel, de poivre, de cumin et de jus de citron.",
    "7": "Disposez sur le plat de service et nappez de sauce mayonnaise (voir la section des salades)."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "15 minutes",
+  "servings": "4 portions"
  },
  "sea-12": {
   "title": "Curry de Crevettes",
@@ -3607,7 +3761,10 @@
    "3": "Sauce au curry : faites revenir les oignons émincés dans l'huile jusqu'à coloration dorée, puis ajoutez la poudre de curry et remuez brièvement. Ajoutez l'eau et remuez jusqu'à ébullition, puis assaisonnez de sel, de poivre et de jus de citron.",
    "4": "Ajoutez les crevettes décortiquées à la sauce curry, juste le temps de les réchauffer.",
    "5": "Pour servir : disposez sur un plat de service entouré de riz blanc, et garnissez de citron et de persil."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "15 minutes",
+  "servings": "4 portions"
  },
  "soup-03": {
   "title": "Soupe au Bouillon de Vermicelles ou d'Orzo",
@@ -3633,7 +3790,10 @@
    "1": "Faites griller les vermicelles ou l'orzo dans le ghee.",
    "2": "Versez le bouillon assaisonné de poivre, portez à ébullition, puis baissez le feu jusqu'à cuisson (l'orzo demande plus de temps et peut nécessiter un supplément de bouillon).",
    "3": "Pour plus de saveur, un peu de mastic peut être ajouté au bouillon."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "15 minutes",
+  "servings": "2-3 portions"
  },
  "soup-04": {
   "title": "Soupe Crémeuse au Lait et au Poulet",
@@ -3680,7 +3840,10 @@
    "2": "Une fois refroidi, mixez jusqu'à obtenir une texture lisse, puis remettez dans la marmite et ajoutez la crème, les morceaux de poulet cuit et le lait jusqu'à la consistance désirée, et assaisonnez de sel et de poivre.",
    "3": "Les morceaux de poulet peuvent être remplacés par du fromage râpé.",
    "4": "Servez la soupe bien chaude."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "soup-05": {
   "title": "Crème de Tomate",
@@ -3728,7 +3891,10 @@
    "3": "Versez le bouillon à feu doux et laissez cuire jusqu'à cuisson complète.",
    "4": "Une fois refroidi, mixez le mélange jusqu'à obtenir une texture lisse.",
    "5": "Mélangez bien un peu de lait avec le jaune d'œuf, le sel et le poivre, incorporez à la soupe mixée, et remettez à feu doux pendant 5 minutes."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "25 minutes",
+  "servings": "4 portions"
  },
  "salad-03": {
   "title": "Mayonnaise Maison",
@@ -3763,7 +3929,9 @@
    "2": "Ajoutez l'huile délicatement, goutte à goutte, en fouettant constamment, jusqu'à léger épaississement du mélange.",
    "3": "Transférez la mayonnaise dans un bol, incorporez la moutarde, et mélangez bien.",
    "4": "Conservez dans un bocal parfaitement sec et réfrigérez."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "-"
  },
  "salad-04": {
   "title": "Salade de Poulet à la Mayonnaise et Croûtons",
@@ -3798,7 +3966,10 @@
    "2": "Mélangez le yaourt avec la mayonnaise et l'huile d'olive, assaisonnez de sel et de poivre, et mélangez bien.",
    "3": "Faites griller des cubes de pain au four jusqu'à coloration dorée.",
    "4": "Versez le mélange de mayonnaise sur le poulet et servez avec les croûtons grillés."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "10 minutes",
+  "servings": "4 portions"
  },
  "salad-05": {
   "title": "Salade au Yaourt et à l'Ail",
@@ -3827,7 +3998,10 @@
   "instructions": {
    "1": "Ajoutez l'ail au yaourt avec le sel, le poivre et la menthe, et fouettez bien.",
    "2": "Transférez dans un bol de service et ajoutez du concombre coupé en petits dés, ou du persil haché à la place."
-  }
+  },
+  "prepTime": "10 minutes",
+  "servings": "4 portions",
+  "cookTime": "-"
  },
  "salad-06": {
   "title": "Sauce Ail-Vinaigre (pour Aubergines Frites ou Poisson Grillé)",
@@ -3852,7 +4026,10 @@
   "instructions": {
    "1": "Écrasez l'ail avec le cumin et le sel, puis ajoutez le vinaigre et mélangez bien.",
    "2": "Servez cette sauce avec des aubergines frites et du poisson grillé."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "-",
+  "servings": "1 portion"
  },
  "salad-07": {
   "title": "Houmous au Tahini et Yaourt",
@@ -3902,7 +4079,10 @@
    "1": "Hachez le poivron vert et mixez-le avec l'ail, le sel, le cumin, le vinaigre et le jus de citron, puis ajoutez les pois chiches bouillis avec le yaourt, le tahini et la menthe séchée.",
    "2": "Mixez bien tous les ingrédients, puis transférez dans un plat de service.",
    "3": "Arrosez d'huile d'olive et saupoudrez de persil haché."
-  }
+  },
+  "prepTime": "15 minutes",
+  "servings": "4-6 portions",
+  "cookTime": "-"
  },
  "salad-08": {
   "title": "Salade Fattouche",
@@ -3952,7 +4132,10 @@
    "1": "Coupez les tomates et les concombres en dés, ajoutez le persil haché, la menthe séchée et la laitue finement émincée avec le jus de citron, et assaisonnez de sel, de poivre et de vinaigre.",
    "2": "Faites griller des morceaux de pain plat chami coupés en dés.",
    "3": "Transférez la salade sur un plat de service, ajoutez les olives noires, puis garnissez du pain grillé."
-  }
+  },
+  "prepTime": "15 minutes",
+  "servings": "4 portions",
+  "cookTime": "-"
  },
  "salad-09": {
   "title": "Salade à l'ail",
@@ -3977,7 +4160,9 @@
   "instructions": {
    "1": "Fouettez la moutarde avec les œufs, soit en fouettant séparément les jaunes et les blancs, soit les œufs entiers ensemble.",
    "2": "Ajoutez l'ail haché et l'huile et fouettez bien, puis incorporez au mélange d'œufs et de moutarde et assaisonnez de sel, en fouettant soigneusement jusqu'à ce que le mélange soit lisse et atteigne une consistance semblable à celle du caramel."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "-"
  },
  "salad-10": {
   "title": "Salade Russe",
@@ -4002,7 +4187,10 @@
   "instructions": {
    "1": "Mélangez les légumes bouillis ensemble et mélangez avec la moitié de la mayonnaise.",
    "2": "Transférez dans un plat de service, étalez le reste de mayonnaise sur le dessus, et garnissez de concombre."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "20 minutes",
+  "servings": "4-6 portions"
  },
  "salad-11": {
   "title": "Salade de pommes de terre",
@@ -4053,7 +4241,10 @@
    "6": "Ajoutez les cubes de pommes de terre au mélange et mélangez bien.",
    "7": "Réfrigérez jusqu'au moment de servir.",
    "8": "Conseils généraux pour la congélation des légumes : blanchissez les légumes coupés pendant une minute dans de l'eau bouillante salée légèrement bicarbonatée, puis plongez-les immédiatement dans l'eau glacée, séchez-les, et conditionnez-les dans des sacs de congélation hermétiques pour jusqu'à 3 mois (ajoutez-les directement congelés dans une soupe chaude). La moloukhia hachée se conserve en la recouvrant d'une louche de bouillon avant de la congeler. Les artichauts se conservent au réfrigérateur dans de l'eau bouillie avec de l'huile d'olive et beaucoup de jus de citron. Les tranches de pommes de terre sont précuites 3 à 4 minutes, refroidies dans de l'eau avec du vinaigre, puis séchées et congelées, et frites directement congelées."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "25 minutes",
+  "servings": "4 portions"
  },
  "veg-03": {
   "title": "Légumes Mélangés Braisés à la Viande",
@@ -4095,7 +4286,10 @@
    "1": "Faites chauffer environ 2 cuillères à soupe d'huile dans une marmite, ajoutez le gros oignon râpé avec la viande, et remuez jusqu'à coloration dorée.",
    "2": "Ajoutez le vinaigre, l'ail haché et soit les tomates en purée, soit le concentré de tomate ; faites cuire jusqu'à ce que les tomates ramollissent si elles sont fraîches, puis assaisonnez de sel et de poivre.",
    "3": "Ajoutez de l'eau, et une fois à ébullition, ajoutez les légumes avec l'assaisonnement, et laissez mijoter à feu doux jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "45 minutes",
+  "servings": "4-6 portions"
  },
  "veg-04": {
   "title": "Légumes Mélangés en Sauce au Bouillon de Poulet",
@@ -4148,7 +4342,10 @@
    "4": "Préparez une marmite et ajoutez 2 c. à soupe d'huile (ou selon votre goût) ; une fois l'huile chaude, versez le mélange mixé, assaisonnez de sel et de poivre et portez à ébullition.",
    "5": "Ajoutez suffisamment de bouillon de poulet au mélange et portez de nouveau à ébullition.",
    "6": "Ajoutez les légumes et baissez le feu jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "45 minutes",
+  "servings": "4-6 portions"
  },
  "veg-05": {
   "title": "Légumes Bouillis en Vinaigrette Huile-Citron (« Sauté »)",
@@ -4182,7 +4379,10 @@
    "1": "Portez une marmite d'eau à ébullition avec du sel, un oignon entier et le vinaigre.",
    "2": "Ajoutez les légumes, baissez le feu jusqu'à cuisson, puis égouttez dans une passoire.",
    "3": "Dans un plat creux, mélangez bien l'huile, le jus de citron, le sel et le poivre, puis mélangez-y les légumes."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "veg-06": {
   "title": "Haricots Verts en Sauce Tomate au Bouillon de Poulet",
@@ -4226,7 +4426,10 @@
    "3": "Faites chauffer l'huile dans une marmite juste jusqu'à ce qu'elle soit chaude, puis versez le mélange mixé et portez à ébullition à feu doux.",
    "4": "Ajoutez les haricots à ce mélange et laissez-les revenir jusqu'à ce qu'ils ramollissent.",
    "5": "Versez le bouillon et portez à ébullition, puis baissez le feu, couvrez, et ajoutez plus de bouillon selon les besoins jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "35 minutes",
+  "servings": "4 portions"
  },
  "veg-07": {
   "title": "Haricots Verts à la Viande en Sauce Tomate",
@@ -4269,7 +4472,10 @@
    "2": "Saisissez la viande dans une marmite avec de l'huile, puis versez dessus le mélange oignon-tomate mixé, en faisant cuire jusqu'à ce que les tomates ramollissent.",
    "3": "Ajoutez suffisamment d'eau selon la quantité de haricots, portez à ébullition, et assaisonnez de sel et de poivre.",
    "4": "Une fois à ébullition, ajoutez les haricots et baissez le feu jusqu'à cuisson complète des légumes et de la viande."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "45 minutes",
+  "servings": "4 portions"
  },
  "veg-08": {
   "title": "Haricots Verts Sautés au Riz",
@@ -4305,7 +4511,10 @@
    "3": "Faites bouillir le riz dans l'eau chaude et égouttez-le juste avant la cuisson complète.",
    "4": "Coupez l'oignon en petits dés et faites-le dorer dans l'huile.",
    "5": "Mélangez l'oignon sauté aux haricots verts cuits, puis incorporez le riz ; remuez bien le tout et couvrez la marmite pour laisser étuver et rester chaud après avoir éteint le feu."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4 portions"
  },
  "veg-09": {
   "title": "Haricots Verts Sautés en Sauce à l'Ail Épicée",
@@ -4348,7 +4557,9 @@
    "2": "Dans une marmite, combinez l'huile et les haricots avec le petit oignon râpé à feu doux, et ajoutez le vinaigre, l'ail haché, le sel et l'eau.",
    "3": "Préparez une sauce finale en mélangeant le jus de petit oignon, 2 gousses d'ail finement hachées, le sel, le poivre, le cumin et une demi-cuillère à café de sucre, en remuant bien avec une cuillère en bois.",
    "4": "Une fois cuits, mélangez bien les haricots avec la sauce et réfrigérez pendant 3 heures avant de servir."
-  }
+  },
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "veg-10": {
   "title": "Petits Pois et Carottes en Sauce Tomate",
@@ -4395,7 +4606,10 @@
    "2": "Mixez l'oignon, l'ail, le poivron vert, les tomates et le vinaigre.",
    "3": "Faites chauffer l'huile dans une marmite, versez le mélange mixé, et une fois à ébullition, ajoutez le bouillon et reportez à ébullition.",
    "4": "Ajoutez les petits pois précuits et les carottes, puis laissez sur feu doux jusqu'à ce que la sauce épaississe et que les saveurs se mélangent."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4 portions"
  },
  "veg-11": {
   "title": "Petits Pois au Riz",
@@ -4429,7 +4643,9 @@
    "1": "Faites revenir les petits pois et les carottes dans le beurre, puis ajoutez environ 2 tasses d'eau ou de bouillon et laissez mijoter à feu doux jusqu'à ce que ce soit presque cuit.",
    "2": "Faites dorer un petit oignon finement haché dans l'huile et ajoutez-le aux petits pois, puis ajoutez suffisamment de bouillon ou d'eau pour couvrir le riz, avec du sel.",
    "3": "Ajoutez le riz aux petits pois et laissez cuire à feu doux jusqu'à cuisson complète."
-  }
+  },
+  "cookTime": "30 minutes",
+  "servings": "4 portions"
  },
  "veg-12": {
   "title": "Timbale de Petits Pois, Riz, Carottes et Assag",
@@ -4470,7 +4686,10 @@
    "4": "Préparez la farce assag (voir la section des viandes).",
    "5": "Pour servir, disposez en couches dans un bol profond : l'assag et les pignons au fond, puis les carottes, le riz et les petits pois ; répétez les couches d'assag, de carottes, de riz et de petits pois une fois de plus, en terminant par l'assag sur le dessus.",
    "6": "Retournez délicatement le tout dans un plat de service."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "40 minutes",
+  "servings": "6 portions"
  },
  "veg-13": {
   "title": "Gombo en Sauce Tomate au Bouillon de Poulet",
@@ -4517,7 +4736,10 @@
    "2": "Ajoutez le mélange mixé à une marmite avec de l'huile ou du ghee et portez à ébullition.",
    "3": "Ajoutez le bouillon, assaisonné de sel et de poivre, et reportez à ébullition.",
    "4": "Ajoutez le gombo et baissez le feu jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4 portions"
  },
  "veg-14": {
   "title": "Tajine de Gombo à la Viande",
@@ -4563,7 +4785,10 @@
    "1": "Faites chauffer l'huile ou le ghee dans une marmite et faites revenir l'oignon râpé, puis l'ail haché, puis ajoutez le jus de tomate ou le concentré avec le sel, le poivre et le vinaigre.",
    "2": "Une fois combiné, ajoutez la viande crue en dés ou la farce assag et mélangez bien, puis ajoutez le gombo et suffisamment d'eau pour couvrir.",
    "3": "Transférez dans une cocotte couverte ou un plat Pyrex et faites cuire au four jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "45 minutes",
+  "servings": "4-6 portions"
  },
  "veg-15": {
   "title": "Courgettes en Sauce Tomate-Ail",
@@ -4606,7 +4831,10 @@
    "2": "Faites revenir le mélange mixé dans l'huile jusqu'à ébullition à feu doux.",
    "3": "Faites bien revenir les courgettes dans ce mélange, puis versez le bouillon et portez à ébullition.",
    "4": "Baissez le feu et laissez mijoter jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4 portions"
  },
  "veg-16": {
   "title": "Courgettes au Bouillon et au Yaourt",
@@ -4649,7 +4877,10 @@
    "2": "Une pomme de terre râpée et un poivron vert peuvent également être ajoutés.",
    "3": "Ajoutez le bouillon et le lait, et une fois à ébullition, transférez dans un plat Pyrex, garnissez d'œuf battu assaisonné de sel et de poivre, et d'une noix de beurre.",
    "4": "Faites cuire à four moyen jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4 portions"
  },
  "veg-17": {
   "title": "Gratin de Courgettes à la Béchamel",
@@ -4695,7 +4926,10 @@
    "5": "Huilez légèrement un plat Pyrex ou une plaque de cuisson, disposez-y les courgettes et mélangez avec la moitié de la béchamel.",
    "6": "Incorporez l'œuf en fouettant dans le reste de la béchamel, versez sur le plat, et saupoudrez le dessus de chapelure fine et d'une noix de beurre.",
    "7": "Faites cuire à four moyen jusqu'à cuisson et coloration dorée du dessus."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "35 minutes",
+  "servings": "4-6 portions"
  },
  "veg-18": {
   "title": "Sauce Béchamel",
@@ -4726,7 +4960,9 @@
    "2": "Portez le lait à ébullition et incorporez-le rapidement au mélange de farine à l'aide d'un fouet.",
    "3": "Remettez à feu doux, en remuant constamment, et assaisonnez de sel et de poivre jusqu'à la consistance désirée.",
    "4": "Une fois le mélange légèrement refroidi, incorporez les œufs en fouettant."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "15 minutes"
  },
  "veg-19": {
   "title": "Barquettes de Courgettes Farcies aux Olives et au Cheddar",
@@ -4754,7 +4990,10 @@
    "3": "Évidez délicatement le centre et disposez les coques dans un plat huilé ou un plat Pyrex.",
    "4": "Remplissez de petits morceaux d'olives noires, disposés sur les centres évidés.",
    "5": "Râpez le cheddar sur le dessus avec un peu de beurre, et faites cuire au four."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "veg-20": {
   "title": "Barquettes de Courgettes Farcies à l'Assag et au Fromage",
@@ -4794,7 +5033,10 @@
    "3": "Incorporez un peu de sauce pour pâtes à la farce, puis recouvrez les courgettes d'une tasse de béchamel et garnissez de cheddar râpé ou de tout autre fromage de votre choix.",
    "4": "Huilez légèrement un plat allant au four, puis disposez-y les courgettes farcies, en ajoutant très peu d'eau pour éviter qu'elles n'attachent.",
    "5": "Couvrez et faites cuire à four moyen jusqu'à cuisson, puis découvrez pour laisser le fromage fondre et dorer sur le dessus."
-  }
+  },
+  "prepTime": "25 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4-6 portions"
  },
  "veg-21": {
   "title": "Taro en Sauce Tomate-Ail au Bouillon",
@@ -4842,7 +5084,10 @@
    "3": "Faites chauffer l'huile dans une marmite juste jusqu'à ce qu'elle soit chaude, puis versez le mélange mixé et laissez mijoter à feu doux jusqu'à ébullition.",
    "4": "Versez le bouillon et portez à ébullition.",
    "5": "Ajoutez le taro, baissez le feu, couvrez, et laissez mijoter jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "25 minutes",
+  "cookTime": "35 minutes",
+  "servings": "4-6 portions"
  },
  "veg-22": {
   "title": "Moussaka d'Aubergines au Four (Sans Viande)",
@@ -4890,7 +5135,10 @@
    "3": "Mixez l'oignon, les tomates, le poivron, l'ail, le vinaigre, le sel et le poivre.",
    "4": "Faites chauffer un peu d'huile dans une marmite, versez le mélange mixé, et ajoutez environ 1,5 à 2 tasses de bouillon.",
    "5": "Une fois le mélange à ébullition, disposez l'aubergine frite dans un plat Pyrex ou une plaque de cuisson, versez dessus le mélange de sauce et de bouillon, et faites cuire à four moyen jusqu'à absorption et cuisson complète ; vous pouvez couvrir pendant la cuisson."
-  }
+  },
+  "prepTime": "30 minutes",
+  "cookTime": "35 minutes",
+  "servings": "4-6 portions"
  },
  "veg-23": {
   "title": "Moussaka d'Aubergines en Couches à l'Assag",
@@ -4944,7 +5192,10 @@
    "5": "Une fois le mélange à ébullition, préparez un plat Pyrex ou une plaque de cuisson ; alternez des couches d'aubergine et de farce de viande hachée, en commençant par une couche d'aubergine au fond, puis la viande, jusqu'à ce que la dernière couche soit la farce de viande.",
    "6": "Versez le bouillon tomaté sur les couches et faites cuire au four jusqu'à cuisson complète.",
    "7": "Vous pouvez ajouter une couche de béchamel (1 tasse) sur le dessus."
-  }
+  },
+  "prepTime": "35 minutes",
+  "cookTime": "35 minutes",
+  "servings": "4-6 portions"
  },
  "veg-24": {
   "title": "Aubergines Frites à la Sauce Ail-Vinaigre",
@@ -4979,7 +5230,10 @@
    "2": "Faites frire l'aubergine dans l'huile chaude des deux côtés jusqu'à coloration dorée, puis égouttez sur du papier absorbant.",
    "3": "Préparez une sauce à l'ail, au vinaigre, au sel, au poivre, à l'huile et à l'eau : faites chauffer l'huile, ajoutez l'ail jusqu'à coloration dorée, puis incorporez le vinaigre et l'eau, assaisonnez de sel et de poivre, mélangez bien, et retirez du feu.",
    "4": "Ajoutez l'aubergine à la sauce, couvrez jusqu'à absorption complète, puis renversez sur le plat de service."
-  }
+  },
+  "prepTime": "25 minutes",
+  "cookTime": "15 minutes",
+  "servings": "4 portions"
  },
  "veg-25": {
   "title": "Maqlouba (Aubergine, Viande et Riz Renversés)",
@@ -5031,7 +5285,10 @@
    "7": "Disposez en couches le riz, puis la viande, puis l'aubergine frite, en répétant les couches une fois de plus, puis faites cuire à feu doux jusqu'à cuisson du riz.",
    "8": "Renversez délicatement sur le plat de service.",
    "9": "Garnissez de persil et de pignons grillés, et servez avec une salade au yaourt."
-  }
+  },
+  "prepTime": "40 minutes",
+  "cookTime": "1 heure",
+  "servings": "6 portions"
  },
  "veg-26": {
   "title": "Chou-Fleur Frit au Four à l'Assag en Sauce Tomate",
@@ -5080,7 +5337,10 @@
    "4": "Mixez l'oignon, les tomates, le poivron, l'ail, le sel et le poivre.",
    "5": "Faites revenir ce mélange dans l'huile jusqu'à ébullition, puis ajoutez le bouillon.",
    "6": "Une fois à ébullition, mélangez le chou-fleur avec l'assag dans un plat Pyrex, versez la sauce dessus, et faites cuire à four moyen jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "25 minutes",
+  "cookTime": "35 minutes",
+  "servings": "4-6 portions"
  },
  "veg-27": {
   "title": "Gratin de Chou-Fleur et Assag à la Béchamel et au Fromage",
@@ -5133,7 +5393,10 @@
    "4": "Mixez l'oignon, les tomates, le poivron, l'ail, le sel et le poivre, et faites revenir dans l'huile jusqu'à ébullition.",
    "5": "Dans un plat Pyrex ou une plaque de cuisson, ajoutez le chou-fleur frit et la farce de viande hachée (facultatif), puis mélangez bien avec la sauce aux légumes.",
    "6": "Recouvrez de béchamel, garnissez d'une noix de beurre et de fromage râpé, et faites cuire à four moyen jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "25 minutes",
+  "cookTime": "35 minutes",
+  "servings": "4-6 portions"
  },
  "veg-28": {
   "title": "Artichauts Bouillis à l'Huile, au Citron et à l'Ail",
@@ -5169,7 +5432,10 @@
    "3": "Faites bouillir les artichauts dans l'eau salée avec du jus de citron.",
    "4": "Une fois cuits, mélangez l'huile avec le jus de citron, le sel, le poivre et l'ail haché, et remuez bien jusqu'à léger épaississement.",
    "5": "Mélangez les artichauts bouillis dans cette vinaigrette et saupoudrez de persil haché."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "25 minutes",
+  "servings": "4-6 portions"
  },
  "veg-29": {
   "title": "Artichauts Farcis à l'Assag, Cuits au Four",
@@ -5212,7 +5478,10 @@
    "6": "Disposez soigneusement les artichauts dans un plat Pyrex ou un plat, en intercalant l'assag entre eux.",
    "7": "Versez 1 tasse de bouillon ou d'eau bouillante sur le plat et faites cuire au four.",
    "8": "Facultatif : versez la béchamel (1 tasse) sur les artichauts."
-  }
+  },
+  "prepTime": "25 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4-6 portions"
  },
  "veg-30": {
   "title": "Épinards Bouillis à l'Huile, au Citron et à l'Ail",
@@ -5242,7 +5511,10 @@
    "1": "Après avoir bien lavé et trié les feuilles, faites bouillir dans un peu d'eau salée jusqu'à cuisson.",
    "2": "Une fois bouillis, hachez grossièrement.",
    "3": "Mélangez l'huile avec le jus de citron, le sel, le poivre et l'ail haché, en remuant jusqu'à léger épaississement, puis mélangez bien les épinards dedans."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "15 minutes",
+  "servings": "4 portions"
  },
  "veg-31": {
   "title": "Épinards en Sauce Tomate Fraîche à l'Aneth et au Riz",
@@ -5299,7 +5571,10 @@
    "4": "Ajoutez un peu de bouillon selon les besoins jusqu'à ce que ce soit presque cuit.",
    "5": "Faites tremper 1 c. à soupe de riz un moment, égouttez-le et ajoutez-le aux épinards pour qu'il cuise avec eux ; vous pouvez aussi utiliser des pois chiches secs trempés.",
    "6": "Une fois les épinards retirés du feu et complètement cuits, incorporez le tempérage d'ail (taqlia)."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4 portions"
  },
  "veg-32": {
   "title": "Épinards Musabbak (Ragoût d'Épinards Épicé)",
@@ -5350,7 +5625,9 @@
    "2": "Ajoutez le concentré de tomate dilué avec de l'eau et du sel, puis les pois chiches bouillis, et portez à ébullition.",
    "3": "Une fois à ébullition, ajoutez les épinards à feu très vif pour préserver leur valeur nutritive.",
    "4": "Ajoutez l'aneth, le jus de citron et l'eau selon les besoins, couvrez, et terminez la cuisson à feu moyen jusqu'à cuisson complète."
-  }
+  },
+  "cookTime": "25 minutes",
+  "servings": "4 portions"
  },
  "veg-33": {
   "title": "Gratin d'Épinards, Assag et Œufs au Four",
@@ -5393,7 +5670,10 @@
    "2": "Incorporez 2 à 3 cuillères à soupe d'assag, puis transférez dans un plat Pyrex.",
    "3": "Fouettez 4 œufs avec le sel et le poivre, versez sur les épinards, et arrosez de 2 cuillères à soupe d'huile ou de ghee.",
    "4": "Faites cuire à four moyen jusqu'à cuisson et coloration dorée du dessus."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4-6 portions"
  },
  "veg-34": {
   "title": "Turli (Ragoût de Légumes Mélangés et de Viande)",
@@ -5444,7 +5724,10 @@
    "2": "Huilez un plat et disposez les légumes en couches alternées avec la viande en dés.",
    "3": "Ajoutez 2 tasses d'eau bouillante avec 2 cuillères à soupe d'huile et du sel.",
    "4": "Couvrez le plat et faites cuire à four moyen jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "25 minutes",
+  "cookTime": "50 minutes",
+  "servings": "6 portions"
  },
  "veg-35": {
   "title": "Plat de Pommes de Terre et de Viande au Four en Sauce Tomate",
@@ -5500,7 +5783,10 @@
    "7": "Huilez une plaque de cuisson et disposez les pommes de terre en couches alternées avec le mélange de viande ou de poulet, d'oignon, d'ail, de poivron et de tomate.",
    "8": "Versez de l'eau sur les légumes selon la quantité de pommes de terre et assaisonnez de sel et de poivre ; garnissez de petites tranches de tomate et de 1 c. à soupe d'huile.",
    "9": "Couvrez la plaque et faites cuire à four moyen ; avant la fin de la cuisson, retirez le couvercle pour que les pommes de terre absorbent le liquide restant."
-  }
+  },
+  "prepTime": "25 minutes",
+  "cookTime": "50 minutes",
+  "servings": "6 portions"
  },
  "veg-37": {
   "title": "Purée de Pommes de Terre Sautée au Beurre",
@@ -5531,7 +5817,10 @@
    "2": "Une fois cuites, épluchez et écrasez bien à la fourchette pendant que c'est encore chaud.",
    "3": "Faites chauffer un peu de beurre dans une marmite juste jusqu'à ce qu'il fonde, ajoutez les pommes de terre, et remuez brièvement jusqu'à ce qu'elles soient combinées au beurre, puis retirez du feu.",
    "4": "Assaisonnez de sel, de poivre et de persil haché."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "25 minutes",
+  "servings": "4 portions"
  },
  "veg-38": {
   "title": "Purée de Pommes de Terre Crémeuse au Lait et au Beurre",
@@ -5557,7 +5846,10 @@
    "1": "Faites bouillir les pommes de terre avec leur peau, puis épluchez et écrasez pendant que c'est très chaud.",
    "2": "Faites chauffer le lait avec le beurre ou le ghee, le sel et le poivre dans une marmite jusqu'à ébullition, puis retirez du feu.",
    "3": "Ajoutez la purée de pommes de terre et mélangez bien avec le liquide jusqu'à combinaison complète ; servez chaud."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "25 minutes",
+  "servings": "4 portions"
  },
  "veg-39": {
   "title": "Croquettes de Pommes de Terre Farcies à l'Assag",
@@ -5598,7 +5890,10 @@
    "4": "Gardez un peu d'huile dans un petit plat pour graisser légèrement vos mains afin que la pâte de pommes de terre n'attache pas.",
    "5": "Façonnez en petites boules, en creusant chacune pour la farcir d'assag.",
    "6": "Trempez les boules dans l'œuf, puis dans la chapelure, et faites-les frire dans beaucoup d'huile."
-  }
+  },
+  "prepTime": "30 minutes",
+  "cookTime": "15 minutes",
+  "servings": "4 portions"
  },
  "veg-40": {
   "title": "Purée de Pommes de Terre à l'Ail et au Cumin",
@@ -5632,7 +5927,10 @@
    "1": "Coupez les pommes de terre en petites rondelles, faites bouillir, et écrasez.",
    "2": "Faites chauffer un peu d'huile dans une poêle, puis ajoutez l'ail haché avec le cumin et la coriandre.",
    "3": "Placez la purée de pommes de terre dans le plat de service, versez le mélange à l'ail dessus avec le sel et un peu de lait, et mélangez bien."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "veg-41": {
   "title": "Pommes de Terre aux Petits Oignons Entiers en Sauce Tomate Épicée",
@@ -5671,7 +5969,10 @@
    "2": "Faites chauffer l'huile dans une poêle et faites revenir les petits oignons, entiers ou émincés.",
    "3": "Préparez une sauce tomate assaisonnée de sel, de cumin, de cannelle, de vinaigre ou de jus de citron, et d'ail haché, en mélangeant bien.",
    "4": "Ajoutez les pommes de terre au mélange, remuez, couvrez, et laissez mijoter à feu doux jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4 portions"
  },
  "veg-42": {
   "title": "Pommes de Terre Frites en Sauce Tomate Fraîche",
@@ -5693,7 +5994,10 @@
    "1": "Coupez les pommes de terre en dés, faites frire dans l'huile, et égouttez sur du papier absorbant.",
    "2": "Préparez environ une tasse de sauce tomate fraîche — pas plus, car les pommes de terre n'auront pas besoin de longtemps pour finir de cuire.",
    "3": "Ajoutez les pommes de terre frites à la sauce, couvrez, et laissez cuire à feu moyen jusqu'à cuisson des pommes de terre."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "25 minutes",
+  "servings": "4 portions"
  },
  "veg-43": {
   "title": "Sauce Tomate Fraîche « Damaa » (pour Pommes de Terre Frites)",
@@ -5726,7 +6030,9 @@
   "instructions": {
    "1": "Faites légèrement revenir l'ail dans le ghee ou l'huile, puis ajoutez la purée de tomates et laissez cuire jusqu'à épaississement.",
    "2": "Ajoutez le vinaigre et remuez bien, puis ajoutez l'eau, assaisonnez de sel et de poivre, et portez à ébullition."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "15 minutes"
  },
  "veg-44": {
   "title": "Pommes de Terre Frites Mijotées au Bouillon Ail-Cumin",
@@ -5761,7 +6067,10 @@
    "2": "Faites frire dans l'huile et égouttez sur du papier absorbant.",
    "3": "Dans une autre marmite, faites dorer l'oignon dans l'huile à feu doux, puis ajoutez l'ail haché et le bouillon assaisonné de sel et de cumin.",
    "4": "Ajoutez les pommes de terre frites au bouillon, couvrez, et laissez mijoter à feu doux jusqu'à absorption presque complète du bouillon et cuisson complète."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "25 minutes",
+  "servings": "4 portions"
  },
  "veg-45": {
   "title": "Gratin de Pommes de Terre au Lait et au Fromage",
@@ -5793,7 +6102,10 @@
    "3": "Versez une partie du lait chaud sur les pommes de terre, puis saupoudrez de fromage râpé.",
    "4": "Disposez le reste des pommes de terre, versez le reste du lait, et garnissez de plus de fromage râpé.",
    "5": "Arrosez d'une cuillère à soupe d'huile ou de ghee, couvrez, et faites cuire à four moyen jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "35 minutes",
+  "servings": "4-6 portions"
  },
  "veg-46": {
   "title": "Tranches de Pommes de Terre au Four au Lait",
@@ -5815,7 +6127,10 @@
    "1": "Coupez les pommes de terre en tranches moyennes-longues.",
    "2": "Graissez un plat de ghee ou d'huile et disposez les tranches côte à côte.",
    "3": "Versez une sauce chaude sur les pommes de terre, puis le lait ou l'eau, couvrez le plat, et faites cuire à four moyen jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4 portions"
  },
  "veg-47": {
   "title": "Sauce Huile-Herbes à l'Ail et au Vinaigre (pour Pommes de Terre au Four)",
@@ -5847,7 +6162,9 @@
   },
   "instructions": {
    "1": "Combinez tous les ingrédients de la sauce dans une marmite et faites chauffer à feu doux, juste jusqu'à ce que ce soit chaud."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "5 minutes"
  },
  "veg-48": {
   "title": "Rondelles de Pommes de Terre Frites Épicées",
@@ -5882,7 +6199,10 @@
    "2": "Mélangez les épices, l'ail haché et le lait en une pâte, en remuant bien.",
    "3": "Enrobez les rondelles de pommes de terre de ce mélange, puis passez-les dans la farine salée.",
    "4": "Faites frire dans l'huile jusqu'à coloration dorée."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "15 minutes",
+  "servings": "4 portions"
  },
  "veg-49": {
   "title": "Chips de Pommes de Terre Maison Prêtes à Congeler",
@@ -5909,7 +6229,10 @@
    "2": "Égouttez bien, puis faites frire dans une huile moyennement chaude pendant seulement 3 minutes.",
    "3": "Retirez les pommes de terre de l'huile, déposez-les sur du papier absorbant, puis mettez-les dans un sac de congélation et placez-le au congélateur pour les congeler.",
    "4": "Au moment de les utiliser, faites-les frire dans l'huile chaude encore congelées."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "3 minutes",
+  "servings": "4 portions"
  },
  "veg-50": {
   "title": "Rondelles d'Oignon Croustillantes Épicées",
@@ -5945,7 +6268,10 @@
    "3": "Répétez : repassez dans la farine, puis la fécule de maïs, puis l'œuf, pour un enrobage plus épais.",
    "4": "Réfrigérez brièvement.",
    "5": "Faites frire dans l'huile et égouttez sur du papier absorbant."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "10 minutes",
+  "servings": "4 portions"
  },
  "veg-51": {
   "title": "Galettes de Légumes",
@@ -5997,7 +6323,10 @@
    "3": "Combinez les pommes de terre avec l'oignon doré, puis incorporez le poivron vert haché, la carotte râpée, le persil, la coriandre et l'aneth hachés, et la poudre de curry ; assaisonnez de sel, de poivre et de cannelle.",
    "4": "Une fois bien mélangé, façonnez en galettes rondes.",
    "5": "Faites frire dans l'huile et égouttez sur du papier absorbant."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "15 minutes",
+  "servings": "4 portions"
  },
  "veg-52": {
   "title": "Conseils de Conservation et de Congélation des Légumes",
@@ -6037,7 +6366,9 @@
    "3": "Congeler la moloukhia : après avoir lavé, coupé et haché les feuilles de moloukhia, versez-y juste une louche de bouillon ou de soupe, puis conservez-la dans un sac scellé au congélateur jusqu'au besoin.",
    "4": "Conserver les artichauts au réfrigérateur : placez les artichauts dans l'eau bouillante additionnée d'huile d'olive et de beaucoup de jus de citron, puis transférez-les dans un récipient en verre scellé et conservez au réfrigérateur.",
    "5": "Congeler des tranches de pommes de terre : coupez les pommes de terre en tranches moyennement épaisses et faites-les bouillir 3 à 4 minutes, puis transférez-les dans l'eau froide additionnée d'un peu de vinaigre. Une fois refroidies, égouttez dans une passoire jusqu'à séchage complet, puis conditionnez dans des sacs au congélateur. Pour la friture, sortez-les et faites-les frire directement congelées."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "5 minutes"
  },
  "leg-03": {
   "title": "Bissara (Purée de fèves)",
@@ -6078,7 +6409,10 @@
    "4": "Une fois refroidi, mixez le mélange au blender et passez-le au tamis fin.",
    "5": "Remettez dans la marmite, ajoutez le sel et la menthe, et laissez mijoter à feu doux, en remuant constamment et en ajoutant de l'eau selon les besoins, jusqu'à ce que la bessara atteigne une consistance épaisse, non liquide.",
    "6": "Versez la garniture d'oignons frits (ta'leya) sur la bissara et mélangez, puis servez dans des bols garnis du reste des oignons frits."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "45 minutes",
+  "servings": "4-6 portions"
  },
  "leg-04": {
   "title": "Adas (Soupe de lentilles jaunes)",
@@ -6122,7 +6456,10 @@
    "3": "Une fois refroidi, mixez et passez au tamis jusqu'à une consistance assez épaisse.",
    "4": "Remettez le mélange dans la marmite et assaisonnez de sel et de cumin, en ajoutant la cuillère à soupe de riz trempé ; laissez sur feu doux jusqu'à ce que le riz soit bien cuit, puis retirez du feu.",
    "5": "Faites chauffer le ghee ou l'huile et faites frire l'oignon haché jusqu'à coloration dorée, incorporez aux lentilles, et servez à la louche dans des bols."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "40 minutes",
+  "servings": "4 portions"
  },
  "leg-05": {
   "title": "Foul Nabit (Fèves germées)",
@@ -6149,7 +6486,9 @@
    "2": "Une fois germées, faites bouillir les fèves dans de l'eau bouillante avec des oignons en rondelles assaisonnés de sel, de poivre, de cumin et de cardamome écrasée ; couvrez et laissez mijoter à feu doux.",
    "3": "Une fois cuites, pressez du jus de citron dessus selon le goût.",
    "4": "Pour servir : elles peuvent être mangées non pelées dans leur propre bouillon garni de cumin, d'huile et de citron, ou les fèves peuvent être pelées et mijotées dans le bouillon avec de l'huile, du cumin et du citron."
-  }
+  },
+  "cookTime": "30 minutes",
+  "servings": "4 portions"
  },
  "pasta-03": {
   "title": "Riz Nature Léger aux Vermicelles Grillés",
@@ -6181,7 +6520,10 @@
    "3": "Ajoutez la tasse d'eau, le sel, et une cuillère à soupe de vinaigre si désiré, et portez à ébullition.",
    "4": "Ajoutez le riz à l'eau bouillante jusqu'à absorption complète, puis baissez le feu au minimum, couvrez, et laissez cuire environ une demi-heure, en remuant de temps en temps, jusqu'à cuisson complète.",
    "5": "Le riz peut aussi être préparé sans les vermicelles."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "30 minutes",
+  "servings": "3-4 portions"
  },
  "pasta-04": {
   "title": "Riz au Four au Lait (« Roz Moamar »)",
@@ -6209,7 +6551,10 @@
    "3": "Versez du lait chaud, assaisonné de sel et de poivre, sur le riz, et couvrez.",
    "4": "Faites cuire à four moyen jusqu'à ce que ce soit presque cuit.",
    "5": "Faites fondre une cuillère à soupe de ghee et versez sur la surface du riz après avoir retiré le couvercle, et poursuivez la cuisson à découvert jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "40 minutes",
+  "servings": "4 portions"
  },
  "pasta-05": {
   "title": "Riz au Four au Lait avec Poulet ou Bœuf",
@@ -6240,7 +6585,10 @@
    "2": "Graissez légèrement un plat Pyrex de ghee.",
    "3": "Disposez la moitié du riz trempé, puis la viande ou le poulet, puis le reste du riz.",
    "4": "Terminez comme pour le riz nature au four ci-dessus : versez du lait chaud assaisonné, faites cuire au four, puis arrosez de ghee pour finir."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "45 minutes",
+  "servings": "4-6 portions"
  },
  "pasta-06": {
   "title": "Riz au Foie de Poulet, Caramel et Fruits à Coque Grillés",
@@ -6288,7 +6636,10 @@
    "3": "Faites dorer l'oignon dans l'huile ou le ghee dans une marmite, puis versez le bouillon assaisonné de sel, de poivre et d'épices mélangées, et portez à ébullition.",
    "4": "Une fois à ébullition, versez délicatement le liquide sur le caramel, puis ajoutez le riz, le foie et les gésiers, et laissez cuire à feu très doux jusqu'à ce que le riz soit bien cuit.",
    "5": "Transférez dans le plat de service et garnissez des fruits à coque grillés et des raisins secs."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4-6 portions"
  },
  "pasta-07": {
   "title": "Caramel Simple (pour Riz au Caramel)",
@@ -6308,7 +6659,9 @@
   },
   "instructions": {
    "1": "Faites cuire le sucre avec l'eau et le jus de citron à feu doux jusqu'à caramélisation, puis laissez refroidir complètement et durcir."
-  }
+  },
+  "prepTime": "2 minutes",
+  "cookTime": "8 minutes"
  },
  "pasta-08": {
   "title": "Riz au Four à l'Assag et à la Béchamel",
@@ -6334,7 +6687,10 @@
    "1": "Faites cuire du riz blanc nature comme pour le riz léger.",
    "2": "Dans un plat Pyrex, mélangez bien le riz cuit avec l'assag, puis versez la béchamel dessus.",
    "3": "Faites cuire à four moyen jusqu'à coloration dorée du dessus."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "pasta-09": {
   "title": "Riz Façon Circassienne au Poulet",
@@ -6370,7 +6726,10 @@
    "3": "Coupez le poulet bouilli en petites lanières.",
    "4": "Ajoutez le riz au bouillon, en incorporant les lanières de poulet.",
    "5": "Laissez cuire à feu doux sans remuer jusqu'à absorption du liquide et obtention d'une texture épaisse, façon bouillie."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4 portions"
  },
  "pasta-10": {
   "title": "Timbale de Riz, Petits Pois, Carottes et Assag",
@@ -6413,7 +6772,10 @@
    "6": "Faites revenir les petits pois et les carottes séparément dans un peu d'huile.",
    "7": "Dans un bol profond, disposez l'assag au fond, puis les petits pois, puis le riz, puis les carottes, et répétez jusqu'à épuisement.",
    "8": "Placez un plat de service rond sur le bol et renversez délicatement ; garnissez de pignons si désiré."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "35 minutes",
+  "servings": "6 portions"
  },
  "pasta-11": {
   "title": "Fatta (Thareed) au Riz et à la Sauce Ail-Tomate",
@@ -6459,7 +6821,10 @@
    "5": "Réservez une portion de cette sauce dans un petit bol pour garnir plus tard le dessus du riz.",
    "6": "Ajoutez le bouillon salé au reste de la sauce et portez à ébullition, puis versez sur le pain grillé jusqu'à ce qu'il soit complètement imbibé.",
    "7": "Sur un grand plat de service, disposez la moitié du pain, puis la moitié du riz, puis le reste du pain, puis le reste du riz, et garnissez le dessus de la sauce réservée."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4-6 portions"
  },
  "pasta-12": {
   "title": "Vermicelles Grillés au Bouillon de Tomate",
@@ -6495,7 +6860,10 @@
    "3": "Dans une autre marmite, combinez le bouillon avec le mélange oignon-tomate, assaisonnez de sel et de poivre, et portez à ébullition.",
    "4": "Versez le bouillon et le mélange de tomate sur les vermicelles et mélangez bien, puis baissez le feu ; une fois que les vermicelles ont absorbé le liquide, baissez encore le feu jusqu'à cuisson complète.",
    "5": "Le bouillon peut être remplacé par de l'eau, en doublant la quantité de ghee ou d'huile."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "pasta-13": {
   "title": "Orzo Grillé au Bouillon de Tomate",
@@ -6531,7 +6899,10 @@
    "3": "Ajoutez les tasses de bouillon (ou d'eau assaisonnée de sel et de poivre, en doublant la quantité de ghee ou d'huile) au mélange oignon-tomate dans une autre marmite et portez à ébullition.",
    "4": "Versez le bouillon de tomate sur l'orzo et mélangez bien, puis baissez le feu ; une fois le liquide absorbé, baissez encore le feu jusqu'à cuisson complète.",
    "5": "Après avoir dressé l'orzo dans un plat, garnissez-le de raisins secs grillés dans le ghee."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "pasta-14": {
   "title": "Orzo au Four au Bœuf en Bouillon de Tomate",
@@ -6566,7 +6937,10 @@
    "2": "Mixez l'oignon et la tomate (ou utilisez du concentré de tomate à la place).",
    "3": "Versez le bouillon mélangé à la sauce tomate sur l'orzo et la viande dans un plat Pyrex.",
    "4": "Faites cuire à four moyen jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "40 minutes",
+  "servings": "4-6 portions"
  },
  "pasta-15": {
   "title": "Couscous Vapeur au Ragoût de Bœuf",
@@ -6610,7 +6984,10 @@
    "7": "Laissez mijoter à feu doux jusqu'à ce que la viande soit cuite, puis ajoutez un peu d'eau et laissez bouillir jusqu'à ce que la viande soit complètement tendre.",
    "8": "Servez le couscous chaud garni du ragoût, ou servez le ragoût à part dans un plat séparé.",
    "9": "Sinon, à la place du ragoût, faites chauffer du ghee et ajoutez de la sauce tomate ou du jus de tomate assaisonné de sel et de poivre. Ajoutez un peu d'eau et laissez mijoter jusqu'à ébullition et léger épaississement. Versez la sauce dans un petit bol et le bouillon chaud dans un autre ; servez le couscous avec le bouillon et la sauce."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "1 heure",
+  "servings": "4-6 portions"
  },
  "pasta-16": {
   "title": "Pâtes en Sauce Tomate au Fromage",
@@ -6646,7 +7023,10 @@
    "3": "Ajoutez un peu d'eau et assaisonnez de sel, de poivre et de jus de citron ou d'une cuillère à soupe de vinaigre, puis portez à ébullition.",
    "4": "Ajoutez les pâtes et mélangez délicatement, puis servez garni de fromage râpé.",
    "5": "Vous pouvez aussi ajouter un oignon moyen sauté dans l'huile, puis ajouter le jus de tomate ou deux cuillères à soupe de concentré de tomate et poursuivre de la même manière."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "25 minutes",
+  "servings": "4 portions"
  },
  "pasta-17": {
   "title": "Pâtes aux Carottes et Petits Pois Sautés",
@@ -6689,7 +7069,10 @@
    "2": "Faites revenir l'oignon haché jusqu'à ce qu'il soit doré, puis ajoutez l'ail haché et assaisonnez de sel, de poivre et de feuilles de laurier moulues.",
    "3": "Faites bouillir la carotte avec un peu de petits pois, puis ajoutez à l'oignon et mélangez bien, puis combinez soigneusement avec les pâtes.",
    "4": "Garnissez de feuilles de laitue et de roquette."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "pasta-18": {
   "title": "Pâtes au Poulet en Sauce Blanche Façon Alfredo",
@@ -6742,7 +7125,10 @@
    "4": "Ajoutez un peu de bouillon ou d'eau avec un peu de lait et de moutarde.",
    "5": "Ajoutez les pâtes et mélangez bien, puis transférez dans un plat Pyrex huilé et couvrez.",
    "6": "Faites cuire brièvement à four doux jusqu'à absorption du liquide."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4-6 portions"
  },
  "pasta-19": {
   "title": "Pâtes au Fromage Fondu et Sauce au Poulet",
@@ -6782,7 +7168,10 @@
    "3": "Ajoutez les morceaux de poulet à l'ail et mélangez bien.",
    "4": "Ajoutez le fromage fondant avec un peu de lait, de crème épaisse et d'eau, jusqu'à ce que le fromage fonde et que la sauce épaississe.",
    "5": "Versez la sauce sur les pâtes et garnissez de morceaux d'olives."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "pasta-20": {
   "title": "Pâtes Dorées Mijotées au Bouillon",
@@ -6817,7 +7206,10 @@
    "2": "Portez le bouillon ou l'eau à ébullition avec le sel et le poivre.",
    "3": "Versez sur les pâtes dorées et laissez mijoter à feu doux, à couvert, jusqu'à absorption du liquide et cuisson complète.",
    "4": "Un petit oignon doré et un peu de concentré de tomate peuvent être ajoutés au bouillon ou à l'eau bouillante avant de terminer la cuisson."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "pasta-21": {
   "title": "Pâtes au Poivron Vert, à la Tomate et aux Olives",
@@ -6860,7 +7252,10 @@
    "2": "Faites chauffer le ghee ou l'huile et faites légèrement dorer l'oignon, puis ajoutez le jus ou le concentré de tomate, et assaisonnez de sel, de poivre et de jus de citron ou de vinaigre.",
    "3": "Une fois la tomate ramollie, ajoutez le poivron vert finement haché et remuez brièvement.",
    "4": "Ajoutez les pâtes bouillies à ce mélange et mélangez bien, en garnissant d'olives tranchées."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "pasta-22": {
   "title": "Gratin de Pâtes et de Pommes de Terre au Four",
@@ -6891,7 +7286,10 @@
    "2": "Faites bouillir les pommes de terre, râpez-les et mélangez-les avec les œufs battus bien assaisonnés de sel et de poivre, puis incorporez les pâtes à ce mélange.",
    "3": "Graissez un plat ou un plat Pyrex de ghee ou d'huile, ajoutez le mélange de pâtes, et garnissez d'une noix de beurre.",
    "4": "Secouez bien le plat Pyrex, puis mettez-le dans un four à température moyenne jusqu'à ce que le dessus soit doré."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "25 minutes",
+  "servings": "4 portions"
  },
  "pasta-23": {
   "title": "Nouilles Plates à la Chinoise au Poulet et au Chou",
@@ -6945,7 +7343,10 @@
    "5": "Remuez le chou dans le mélange jusqu'à ramollissement, puis ajoutez le poivron.",
    "6": "Ajoutez les nouilles bouillies au mélange avec un peu plus de sauce soja et de jus de citron, en ajoutant de l'eau et de l'huile selon les besoins.",
    "7": "De l'acide citrique et du poivre peuvent être ajoutés selon le goût."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "pasta-24": {
   "title": "Pâtes Negresco au Poulet et à la Béchamel",
@@ -6985,7 +7386,10 @@
    "3": "Mélangez la moitié de la béchamel aux pâtes avec le poulet.",
    "4": "Graissez un plat ou un plat Pyrex d'huile ou de ghee et versez-y le mélange de pâtes.",
    "5": "Étalez le reste de la béchamel sur le dessus des pâtes, ajoutez une noix de beurre ou de ghee et saupoudrez de fromage râpé."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "25 minutes",
+  "servings": "4-6 portions"
  },
  "pasta-25": {
   "title": "Préparation au son de céréales",
@@ -7017,7 +7421,9 @@
   },
   "instructions": {
    "1": "Faites cuire la viande hachée avec l'oignon, le concentré de tomate, le sel, le poivre, le thym, le sumac, le vinaigre et le jus de citron, en veillant à ce que le mélange reste un peu liquide."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "20 minutes"
  },
  "pasta-26": {
   "title": "Lasagnes en Couches à l'Assag et à la Béchamel",
@@ -7054,7 +7460,10 @@
    "4": "Répétez les couches, en terminant par l'assag, puis les lasagnes, puis le fromage râpé, et enfin la béchamel garnie d'une noix de beurre.",
    "5": "Faites cuire à four moyen environ 20 minutes jusqu'à coloration dorée du dessus.",
    "6": "Couvrez le plat pour qu'il reste moelleux."
-  }
+  },
+  "prepTime": "25 minutes",
+  "cookTime": "20 minutes",
+  "servings": "6-8 portions"
  },
  "stuff-01": {
   "title": "Farce au Riz (pour Légumes Farcis)",
@@ -7103,7 +7512,9 @@
    "4": "Faites chauffer le mélange mixé dans une marmite à feu moyen avec le ghee ou l'huile et le jus de citron, et portez à ébullition.",
    "5": "Mélangez bien avec le riz ; la farce est maintenant prête à l'emploi.",
    "6": "Le riz peut être remplacé par de la viande hachée cuite (voir la section des viandes)."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "10 minutes"
  },
  "stuff-02": {
   "title": "Petites Aubergines Blanches ou Noires Farcies",
@@ -7140,7 +7551,10 @@
    "4": "Disposez-les dans une marmite et versez le jus de tomate, l'eau, le sel et le poivre.",
    "5": "Ajoutez le ghee ou l'huile, couvrez, et laissez mijoter à feu doux jusqu'à cuisson complète.",
    "6": "Ajoutez plus d'eau selon les besoins pendant la cuisson."
-  }
+  },
+  "prepTime": "45 minutes",
+  "cookTime": "40 minutes",
+  "servings": "6-8 portions"
  },
  "stuff-03": {
   "title": "Poivrons Verts Farcis",
@@ -7171,7 +7585,10 @@
    "2": "Farcissez avec la farce, en laissant un peu d'espace pour recouvrir l'ouverture avec le dessus réservé.",
    "3": "Disposez-les dans une marmite et versez dessus le ghee ou l'huile, ainsi que l'eau bouillante ou le bouillon assaisonné de sel et de poivre, si disponible.",
    "4": "Couvrez et laissez mijoter à feu doux jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "30 minutes",
+  "cookTime": "35 minutes",
+  "servings": "6 portions"
  },
  "stuff-04": {
   "title": "Courgettes Farcies au Riz ou à l'Assag",
@@ -7210,7 +7627,10 @@
    "2": "Épluchez et évidez délicatement les courgettes, puis farcissez avec la farce.",
    "3": "Disposez les courgettes dans la marmite et ajoutez le jus de tomate filtré, environ une demi-tasse d'eau bouillante, le sel, le poivre, les épices et le ghee.",
    "4": "Couvrez et laissez mijoter à feu doux jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "35 minutes",
+  "cookTime": "35 minutes",
+  "servings": "4-6 portions"
  },
  "stuff-05": {
   "title": "Pommes de Terre Farcies à l'Assag",
@@ -7250,7 +7670,10 @@
    "3": "Farcissez-les de sauce à la viande hachée, puis disposez-les dans un plat Pyrex pour cuire au four, ou dans une marmite pour cuire sur la cuisinière.",
    "4": "Versez dessus le jus de tomate et le liquide assaisonné de sel, de poivre et de ghee.",
    "5": "Couvrez et laissez mijoter à feu doux jusqu'à cuisson, ou faites cuire à couvert à four moyen jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "35 minutes",
+  "cookTime": "35 minutes",
+  "servings": "6 portions"
  },
  "stuff-06": {
   "title": "Artichauts Farcis à l'Assag en Sauce « Damaa »",
@@ -7272,7 +7695,10 @@
    "1": "Farcissez les artichauts de sauce à la viande hachée, disposez-les dans une marmite et versez dessus la sauce damaa.",
    "2": "Couvrez et laissez mijoter à feu doux, ou faites cuire à couvert dans un plat au four jusqu'à cuisson complète.",
    "3": "Une couche de béchamel peut être ajoutée sur le dessus en cas de cuisson au four."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4-5 portions"
  },
  "stuff-07": {
   "title": "Sauce Tomate Fraîche « Damaa » (pour Artichauts Farcis)",
@@ -7304,7 +7730,9 @@
   },
   "instructions": {
    "1": "Faites dorer l'ail dans le ghee ou l'huile, puis versez le jus de tomate et laissez cuire à feu doux jusqu'à ramollissement, puis ajoutez le vinaigre, l'eau, le sel et le poivre."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "15 minutes"
  },
  "stuff-08": {
   "title": "Feuilles de Vigne Farcies (Mahshi Waraq Enab)",
@@ -7347,7 +7775,10 @@
    "6": "Disposez soigneusement les rouleaux farcis dessus, et versez le jus de citron, le ghee et l'ail.",
    "7": "Laissez cuire à feu doux, à couvert, pendant 3 minutes, puis versez un peu de bouillon ou d'eau salée dessus, couvrez, et laissez cuire jusqu'à cuisson complète.",
    "8": "Servez avec une salade au yaourt."
-  }
+  },
+  "prepTime": "1 heure",
+  "cookTime": "40 minutes",
+  "servings": "6-8 portions"
  },
  "stuff-09": {
   "title": "Feuilles de Chou Farcies à l'Aneth et au Cumin",
@@ -7389,7 +7820,10 @@
    "5": "Disposez soigneusement dans une marmite et laissez cuire à feu doux pendant 5 minutes.",
    "6": "Versez le jus de tomate et un peu de bouillon ou d'eau salée.",
    "7": "Laissez cuire à feu moyen jusqu'à presque cuisson complète, puis baissez le feu jusqu'à cuisson complète."
-  }
+  },
+  "prepTime": "45 minutes",
+  "cookTime": "35 minutes",
+  "servings": "6 portions"
  },
  "stuff-10": {
   "title": "Qatayef Salé Farci à l'Assag ou à la Shakshouka",
@@ -7416,7 +7850,10 @@
    "2": "Faites frire dans le ghee ou l'huile chaude et égouttez sur du papier absorbant.",
    "3": "Saupoudrez de fromage râpé et servez.",
    "4": "Le qatayef peut aussi être farci de fromage et de beurre mélangés à de la roquette hachée."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "15 minutes",
+  "servings": "4-6 portions"
  },
  "stuff-11": {
   "title": "Farce Shakshouka (pour Pâtisseries Salées)",
@@ -7445,7 +7882,9 @@
   "instructions": {
    "1": "Râpez l'oignon et faites-le dorer dans le ghee ou l'huile, puis ajoutez le poivron finement haché et remuez seulement deux fois.",
    "2": "Battez les œufs et assaisonnez bien de sel, de poivre et d'épices mélangées, puis versez sur l'oignon et le poivron à feu moyen, en remuant jusqu'à ce que les œufs prennent avec les légumes."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "10 minutes"
  },
  "bake-02": {
   "title": "Tourte de Phyllo à l'Assag et à la Crème Œuf-Lait",
@@ -7482,7 +7921,10 @@
    "4": "Faites cuire à four moyen environ une demi-heure jusqu'à ce que le phyllo dore.",
    "5": "Faites bouillir le lait et assaisonnez de sel, de poivre et d'épices mélangées ; une fois refroidi, incorporez les œufs bien battus en fouettant.",
    "6": "Versez le mélange de lait et d'œufs sur le phyllo avec une cuillère à soupe de ghee, laissez au four jusqu'à ce que le dessus dore, puis couvrez et éteignez le four."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "40 minutes",
+  "servings": "6-8 portions"
  },
  "bake-03": {
   "title": "Tourte de Phyllo à la Farce Chawarma",
@@ -7514,7 +7956,10 @@
    "3": "Disposez et humidifiez le reste des feuilles de la même façon, arrosez de ghee, et découpez en portions.",
    "4": "Une fois complètement cuite et dorée sur le dessus, versez une tasse de bouillon froid dessus.",
    "5": "Laissez au four jusqu'à absorption du liquide, puis couvrez et éteignez le four."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "35 minutes",
+  "servings": "6-8 portions"
  },
  "bake-04": {
   "title": "Tourte de Phyllo à la Crème Pâtissière",
@@ -7540,7 +7985,10 @@
    "1": "Dans un plat graissé, disposez la moitié du phyllo, étalez la crème pâtissière, couvrez du reste du phyllo, arrosez de la cuillère à soupe de ghee, et découpez en portions.",
    "2": "Faites cuire à four moyen jusqu'à coloration dorée.",
    "3": "Versez le lait ou le bouillon froid dessus, laissez absorber, puis couvrez et éteignez le four."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "30 minutes",
+  "servings": "6 portions"
  },
  "bake-05": {
   "title": "Crème Pâtissière Salée au Zeste de Citron et Charcuterie",
@@ -7582,7 +8030,9 @@
    "1": "Faites bouillir le lait avec les épices et le zeste de citron lavé.",
    "2": "Fouettez les œufs avec la farine jusqu'à bien les mélanger, puis versez dans le lait chaud en fouettant sans cesse à feu doux, puis incorporez le persil.",
    "3": "Augmentez le feu et ajoutez les morceaux de charcuterie."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "15 minutes"
  },
  "bake-06": {
   "title": "Chaussons Fourrés au Fromage",
@@ -7635,7 +8085,8 @@
    "4": "Étalez la pâte sur une surface sèche farinée, puis garnissez-la d'une quantité appropriée de fromage mélangé à du beurre.",
    "5": "Découpez des ronds à l'aide d'une tasse, en repliant les bords pour sceller la farce.",
    "6": "Disposez dans le plat, badigeonnez le dessus d'œuf, et faites cuire à four moyen jusqu'à coloration dorée."
-  }
+  },
+  "cookTime": "20 minutes"
  },
  "bake-07": {
   "title": "Tourte de Phyllo au Poulet, Légumes et Béchamel",
@@ -7703,7 +8154,10 @@
    "7": "Étalez la farce à la béchamel dessus, couvrez du reste du phyllo, garnissez d'une cuillère à soupe de ghee, et découpez en portions.",
    "8": "Faites cuire à four moyen jusqu'à coloration dorée du dessus.",
    "9": "Une fois cuit, versez le lait froid assaisonné de sel et de poivre dessus, laissez absorber, puis couvrez et éteignez le four."
-  }
+  },
+  "prepTime": "30 minutes",
+  "cookTime": "35 minutes",
+  "servings": "6-8 portions"
  },
  "bake-08": {
   "title": "Tourte de Phyllo à la Farce Shakshouka",
@@ -7730,7 +8184,10 @@
    "2": "Étalez la shakshouka dessus, couvrez du reste du phyllo, garnissez d'une cuillère à soupe de ghee, et découpez en portions.",
    "3": "Faites cuire à four moyen jusqu'à coloration dorée du dessus.",
    "4": "Une fois cuit, versez le lait froid assaisonné de sel et de poivre dessus, laissez absorber, puis couvrez et éteignez le four."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "30 minutes",
+  "servings": "6 portions"
  },
  "bake-09": {
   "title": "Ruqaq — Pain Plat en Couches à l'Assag au Bouillon",
@@ -7765,7 +8222,10 @@
    "6": "Badigeonnez le dessus de ghee et faites cuire à four moyen jusqu'à coloration dorée.",
    "7": "Retournez délicatement et faites cuire l'autre côté jusqu'à coloration dorée également.",
    "8": "Couvrez immédiatement après la cuisson pour garder le moelleux."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "30 minutes",
+  "servings": "6-8 portions"
  },
  "bake-10": {
   "title": "Fatayers aux épinards (chaussons aux épinards)",
@@ -7801,7 +8261,8 @@
    "3": "Étalez la pâte au rouleau sur une surface farinée, puis découpez-la en morceaux appropriés à l'aide d'un emporte-pièce rond ou carré.",
    "4": "Garnissez chaque morceau de farce aux épinards, en ajoutant la viande hachée à la farce si vous en avez, puis repliez délicatement le morceau.",
    "5": "Huilez un plat, disposez les pâtisseries, badigeonnez le dessus d'huile, et faites cuire à four moyen jusqu'à coloration dorée."
-  }
+  },
+  "cookTime": "20 minutes"
  },
  "bake-11": {
   "title": "Farce aux épinards",
@@ -7830,7 +8291,9 @@
   "instructions": {
    "1": "Émincez finement les épinards, lavez bien, et pressez pour évacuer l'eau, puis incorporez le sel, le poivre et le jus de citron, en malaxant bien.",
    "2": "D'autres farces peuvent être utilisées à la place : des légumes bouillis comme les petits pois, les carottes et le poivron vert avec de l'oignon doré et des épices, mélangés à une cuillerée de moutarde et de fromage écrasé ; ou du poulet bouilli haché avec de l'oignon doré et des épices."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "-"
  },
  "bake-12": {
   "title": "Cannelloni",
@@ -7873,7 +8336,10 @@
    "6": "Roulez chaque crêpe bien serré comme un crayon et disposez-les dans un plat à four très légèrement huilé ou graissé de ghee.",
    "7": "Badigeonnez le dessus de sauce tomate et saupoudrez de fromage râpé.",
    "8": "Faites cuire à four moyen environ 15 minutes, en veillant à ne pas les dessécher."
-  }
+  },
+  "prepTime": "25 minutes",
+  "cookTime": "15 minutes",
+  "servings": "4-6 portions"
  },
  "bake-13": {
   "title": "Pizza",
@@ -7915,7 +8381,8 @@
    "5": "Pressez la pâte dans le plat, en l'étalant uniformément.",
    "6": "Étalez de la sauce sur la pâte, puis garnissez au choix : mozzarella en tranches, fromage à la crème et fromage blanc, olives, charcuterie, thon, assag, shakshouka, poulet haché, tranches de tomate et poivron vert.",
    "7": "Faites cuire à four moyen jusqu'à coloration dorée."
-  }
+  },
+  "cookTime": "20 minutes"
  },
  "bake-14": {
   "title": "Sauce pizza maison",
@@ -7944,7 +8411,9 @@
   "instructions": {
    "1": "Faites fondre le beurre, le ghee ou l'huile dans une poêle, puis ajoutez le concentré de tomate avec ½ c. à café de sucre, le sel, le poivre et un peu d'eau.",
    "2": "Hachez finement la tomate et l'ail, ajoutez à la sauce, et laissez cuire, en remuant, jusqu'à ramollissement."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "10 minutes"
  },
  "bake-15": {
   "title": "Pizza au poulet",
@@ -8002,7 +8471,8 @@
    "5": "Faites revenir un petit oignon finement haché dans du ghee ou de l'huile, puis ajoutez 2 gousses d'ail hachées.",
    "6": "Coupez le poulet bouilli en dés, mélangez avec l'oignon, ajoutez la sauce tomate, et mélangez bien.",
    "7": "Versez le mélange sur la pizza et garnissez de morceaux de saucisse, d'olives et de tranches d'oignon."
-  }
+  },
+  "cookTime": "20 minutes"
  },
  "savory-01": {
   "title": "Omelette",
@@ -8036,7 +8506,10 @@
    "1": "Faites chauffer le ghee ou l'huile et faites dorer l'oignon, puis incorporez la farine brièvement, et laissez refroidir.",
    "2": "Battez les œufs assaisonnés de sel, de poivre, de menthe et de persil, puis ajoutez au mélange oignon-farine refroidi et mélangez bien.",
    "3": "Versez le mélange dans une poêle légèrement huilée à feu doux jusqu'à coloration dorée en dessous, retournez délicatement pour dorer l'autre côté, puis démoulez sur une assiette."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "10 minutes",
+  "servings": "2 portions"
  },
  "savory-02": {
   "title": "Omelette française",
@@ -8068,7 +8541,10 @@
    "3": "Faites chauffer l'huile dans une poêle, versez le mélange d'œufs, et secouez délicatement la poêle pour qu'il prenne et dore en dessous.",
    "4": "Retournez délicatement pour dorer l'autre côté, puis transférez sur une assiette.",
    "5": "On peut ajouter des olives pendant que l'on bat les œufs, ou des tomates en dés, du fromage râpé, des poivrons hachés ou de fines pommes de terre frites pour une belle saveur ; on peut aussi ajouter de la viande hachée (assag) ou des tranches de viande froide — mélangez bien ces ingrédients avec les œufs battus avant de verser dans la poêle."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "8 minutes",
+  "servings": "1-2 portions"
  },
  "savory-03": {
   "title": "Shakshouka (œufs en sauce tomate)",
@@ -8103,7 +8579,10 @@
    "2": "Ajoutez le poivron finement haché avec la tomate hachée ou râpée, en remuant brièvement avec l'oignon.",
    "3": "Battez les œufs, assaisonnez de sel, de poivre et d'épices mélangées, ajoutez au mélange, et remuez bien à feu moyen jusqu'à ce qu'ils prennent.",
    "4": "Servez chaud dans un plat."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "10 minutes",
+  "servings": "2-3 portions"
  },
  "savory-04": {
   "title": "Fèves aux œufs",
@@ -8139,7 +8618,10 @@
    "3": "Battez bien les œufs et assaisonnez de sel.",
    "4": "Choisissez un plat Pyrex adapté à la quantité de fèves et d'œufs, versez-y le mélange de fèves, puis versez les œufs par-dessus.",
    "5": "Faites cuire à four moyen jusqu'à coloration dorée du dessus."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "20 minutes",
+  "servings": "3-4 portions"
  },
  "savory-05": {
   "title": "Omelette à la purée de fèves",
@@ -8176,7 +8658,10 @@
    "4": "Ajoutez les fèves écrasées et le persil au mélange œuf-oignon et mélangez bien.",
    "5": "Faites chauffer un peu d'huile dans une poêle antiadhésive, versez le mélange et faites-le cuire comme une omelette, en le retournant pour cuire les deux côtés.",
    "6": "Garnissez de persil."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "10 minutes",
+  "servings": "3-4 portions"
  },
  "savory-06": {
   "title": "Purée de fèves sautée",
@@ -8224,7 +8709,10 @@
    "3": "Ajoutez les fèves et remuez pendant environ 10 minutes, en ajoutant de l'eau si nécessaire.",
    "4": "Ajoutez le persil haché, mélangez avec les fèves et retirez du feu.",
    "5": "Ajoutez l'assag (mélange de viande hachée) aux fèves selon le goût."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "20 minutes",
+  "servings": "3-4 portions"
  },
  "savory-07": {
   "title": "Toast aux œufs",
@@ -8256,7 +8744,10 @@
    "3": "Faites chauffer un peu de beurre dans une petite poêle antiadhésive et ajoutez délicatement le pain à feu doux.",
    "4": "Retournez délicatement après un moment jusqu'à coloration dorée des deux côtés, puis retirez sur une assiette.",
    "5": "Garnissez de petites tranches de poivron vert avec du fromage romano râpé et des olives tranchées ; sinon, tartinez le toast de n'importe quel fromage et garnissez de tranches de viande froide, de tranches de poivron vert et d'olives tout autour."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "5 minutes",
+  "servings": "1 portion"
  },
  "savory-08": {
   "title": "Toast au thym (zaatar)",
@@ -8283,7 +8774,10 @@
    "2": "Assaisonnez le toast avec le mélange de za'atar, puis enrobez-le délicatement de farine ou de chapelure.",
    "3": "Faites dorer des deux côtés dans le beurre ou l'huile.",
    "4": "Vous pouvez placer dessus une autre tranche de toast préparée de la même façon."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "5 minutes",
+  "servings": "1 portion"
  },
  "savory-09": {
   "title": "Toast au poulet",
@@ -8324,7 +8818,9 @@
    "4": "Roulez en forme de doigt, puis enrobez de farine, puis d'œuf, puis de chapelure.",
    "5": "Réfrigérez jusqu'à ce que ce soit ferme, puis faites frire dans l'huile chaude.",
    "6": "Répétez cette opération selon le nombre de membres de la famille."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "10 minutes"
  },
  "savory-10": {
   "title": "Toast aux légumes",
@@ -8359,7 +8855,10 @@
    "2": "Mélangez les petits pois cuits avec une petite quantité de carottes râpées et les triangles de fromage à tartiner.",
    "3": "Étalez ce mélange sur le toast tartiné de mayonnaise ou de tahini.",
    "4": "Recouvrez d'un autre rond de pain de mie, pressez ensemble, puis trempez dans la farine, l'œuf et la chapelure, et faites frire dans l'huile des deux côtés."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "8 minutes",
+  "servings": "1 portion"
  },
  "savory-11": {
   "title": "Toast aux céréales",
@@ -8402,7 +8901,10 @@
    "2": "Étalez ce mélange sur le pain de mie.",
    "3": "Disposez l'assag dessus, puis les carrés de fromage et les tranches de viande froide.",
    "4": "Recouvrez d'une seconde tranche de pain de mie et garnissez de laitue et de tranches de tomate."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "5 minutes",
+  "servings": "1 portion"
  },
  "savory-12": {
   "title": "Kichk (soupe de yaourt et de blé)",
@@ -8440,7 +8942,9 @@
    "5": "Laissez bouillir 5 minutes en remuant constamment jusqu'à épaississement.",
    "6": "Faites frire l'oignon dans le ghee ou l'huile, versez-en seulement la moitié sur le kichk, mélangez bien et retirez du feu.",
    "7": "Servez à la louche dans des bols et garnissez du reste d'oignon frit."
-  }
+  },
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "quick-01": {
   "title": "Sandwich Chawarma de Poulet à la Crème Épaisse Libanaise",
@@ -8476,7 +8980,9 @@
    "3": "Remuez la crème épaisse à la cuillère en bois, versez sur le poulet, mélangez bien, et laissez mijoter à feu doux pendant environ 5 minutes, en remuant.",
    "4": "Assaisonnez de thym, de piment rouge et de curry.",
    "5": "Farcissez le pain de service."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "20 minutes"
  },
  "quick-02": {
   "title": "Sandwich Chawarma de Poulet au Labneh",
@@ -8511,7 +9017,9 @@
    "2": "Faites cuire dans une marmite à feu doux, en ajoutant de l'eau, jusqu'à cuisson complète.",
    "3": "Ajoutez le labneh au poulet, en remuant à feu doux pendant 5 minutes.",
    "4": "Farcissez le pain de service."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "15 minutes"
  },
  "quick-03": {
   "title": "Sandwich Burger de Poulet",
@@ -8558,7 +9066,8 @@
    "2": "Façonnez en galettes rondes.",
    "3": "Faites chauffer l'huile dans une poêle antiadhésive et faites cuire chaque galette à feu doux, en retournant, jusqu'à cuisson complète.",
    "4": "Garnissez les petits pains des galettes de poulet, puis ajoutez du ketchup, des tranches de poivron vert et du fromage cheddar."
-  }
+  },
+  "cookTime": "10 minutes"
  },
  "quick-04": {
   "title": "Sandwich au poulet ou à la viande bouillie",
@@ -8599,7 +9108,9 @@
    "4": "Versez le mélange dans les pains par l'ouverture évidée.",
    "5": "Disposez dans un plat huilé et faites cuire au four pendant 10 minutes.",
    "6": "Après la cuisson, bouchez l'ouverture avec une olive."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "10 minutes"
  },
  "quick-05": {
   "title": "Sandwich de Poulet au Four Façon Hawawshi",
@@ -8645,7 +9156,9 @@
    "5": "Enveloppez chacun de papier aluminium ; répétez jusqu'à épuisement de la farce.",
    "6": "Disposez dans un plat et faites cuire au four pendant 15 minutes.",
    "7": "Servez sur des assiettes tapissées de feuilles de laitue."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "15 minutes"
  },
  "quick-06": {
   "title": "Sandwich de Viande Hachée Grillée Façon Hawawshi",
@@ -8695,7 +9208,9 @@
    "1": "Mélangez le yaourt avec l'assag, puis ajoutez le poivron vert finement haché, l'ail, le persil et la moutarde.",
    "2": "Étalez le mélange dans un plat non graissé, garnissez de tranches de tomate et de beaucoup de jus de citron, et faites griller sous le gril jusqu'à cuisson complète de la viande.",
    "3": "Farcissez les petits pains kaiser."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "15 minutes"
  },
  "quick-07": {
   "title": "Sandwich à l'Escalope de Poulet Panée et à la Mayonnaise",
@@ -8732,7 +9247,9 @@
   "instructions": {
    "1": "Après avoir fait frire les escalopes panées, tartinez le petit pain kaiser de mayonnaise.",
    "2": "Placez les escalopes de poulet dans les petits pains, puis garnissez de ketchup, de feuilles de laitue, d'une tranche de viande froide, de rondelles de poivron vert, et enfin de tranches de fromage."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "5 minutes"
  },
  "quick-08": {
   "title": "Sandwich au thon à la mayonnaise ou au tahini",
@@ -8778,7 +9295,9 @@
    "1": "Égouttez le thon et mélangez avec de la mayonnaise, ou avec du tahini dilué à l'eau, au vinaigre et au jus de citron.",
    "2": "Ajoutez de petits morceaux de concombre mariné, de l'ail haché, de l'oignon vert finement haché et de petits morceaux de tomate, et mélangez bien.",
    "3": "Farcissez le petit pain kaiser et garnissez de rondelles de poivron."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "-"
  },
  "des-03": {
   "title": "Crêpes Simples à la Mélasse ou à la Confiture",
@@ -8813,7 +9332,10 @@
    "2": "Faites chauffer l'huile dans une poêle antiadhésive, puis versez une cuillère à soupe de pâte dans l'huile ou le beurre ; retournez des deux côtés jusqu'à coloration dorée, en répétant l'opération une crêpe à la fois.",
    "3": "Une fois toute la pâte utilisée, disposez les crêpes sur une assiette plate et commencez à les décorer.",
    "4": "Garnissez d'un peu de beurre et de mélasse ou de confiture, et éventuellement d'une couche de crème pâtissière et de fruits à coque."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "10 minutes",
+  "servings": "2-3 portions"
  },
  "des-04": {
   "title": "Pile de Crêpes au Caramel Chocolat et aux Fraises",
@@ -8866,7 +9388,9 @@
    "8": "Graissez légèrement la poêle d'huile et répétez l'opération, en empilant les crêpes deux par deux dans l'assiette jusqu'à épuisement de la pâte.",
    "9": "Pour finir, étalez une crêpe de crème caramel au chocolat, empilez-en une autre dessus, et versez plus de caramel sur le dessus, garni de fraises tout autour.",
    "10": "Autrement, fouettez de la crème Chantilly avec des fruits à coque hachés, étalez entre les couches, et décorez les côtés de plus de crème Chantilly, de fraises et de crème au centre."
-  }
+  },
+  "cookTime": "15 minutes",
+  "servings": "4 portions"
  },
  "des-05": {
   "title": "Crème Caramel au Chocolat (pour Pile de Crêpes)",
@@ -8891,7 +9415,9 @@
   "instructions": {
    "1": "Faites cuire le sucre dans une poêle avec un peu d'eau jusqu'à légère coloration en caramel.",
    "2": "Ajoutez la crème au caramel, en remuant à feu doux jusqu'à dissolution complète, puis incorporez le chocolat râpé."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "10 minutes"
  },
  "des-06": {
   "title": "Gâteau de Crêpes aux Pommes Renversé",
@@ -8937,7 +9463,9 @@
    "5": "Versez la pâte sur les pommes sans remuer, puis réfrigérez 30 minutes.",
    "6": "Faites cuire à four moyen, en surveillant de près car ça cuit vite.",
    "7": "Renversez sur le plat de service."
-  }
+  },
+  "cookTime": "25 minutes",
+  "servings": "4-6 portions"
  },
  "des-07": {
   "title": "Fatayer Sucré Frit au Sucre ou au Miel",
@@ -8977,7 +9505,8 @@
    "3": "Façonnez en boules de la taille d'un citron, puis aplatissez très finement, environ la taille d'une soucoupe.",
    "4": "Faites chauffer beaucoup d'huile dans une poêle large et faites frire une à la fois, puis disposez sur un plat rectangulaire.",
    "5": "Saupoudrez de sucre glace ou arrosez de miel blanc ou noir."
-  }
+  },
+  "cookTime": "15 minutes"
  },
  "des-08": {
   "title": "Tarte en Treillis à la Confiture d'Abricot (Façon Pâte Sablée)",
@@ -9020,7 +9549,9 @@
    "6": "Étalez de la confiture d'abricot, ou toute autre confiture de fruits.",
    "7": "Coupez le tiers restant de la pâte en bandes et disposez-les en treillis sur la confiture.",
    "8": "Badigeonnez la surface d'œuf battu et faites cuire à four moyen jusqu'à cuisson complète."
-  }
+  },
+  "cookTime": "30 minutes",
+  "servings": "8-10 portions"
  },
  "des-09": {
   "title": "Tourte de Phyllo à la Crème Pâtissière et aux Fruits à Coque",
@@ -9053,7 +9584,10 @@
    "4": "Vers la fin de la cuisson, versez la tasse de lait froid dessus (pas besoin de crème épaisse, pour éviter que ce soit trop riche).",
    "5": "Remettez brièvement au four jusqu'à absorption complète du liquide et coloration dorée du dessus.",
    "6": "Dès la sortie du four, saupoudrez de sucre glace et couvrez."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "30 minutes",
+  "servings": "6-8 portions"
  },
  "des-10": {
   "title": "Crème Pâtissière Vanille-Cannelle (pour Tourte de Phyllo)",
@@ -9082,7 +9616,9 @@
   "instructions": {
    "1": "Battez les œufs, incorporez deux cuillères à soupe de lait en fouettant, puis incorporez la fécule de maïs avec la cannelle et la vanille.",
    "2": "Faites bouillir le lait avec le sucre, versez un peu de lait chaud sur le mélange d'œufs (pour qu'il se dissolve bien), puis reversez le tout dans le lait bouillant. Fouettez bien à feu doux jusqu'à épaississement."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "15 minutes"
  },
  "des-11": {
   "title": "Tourte de Phyllo au Lait et à la Mélasse",
@@ -9114,7 +9650,10 @@
    "3": "Vers la fin de la cuisson, versez une grande tasse de lait froid mélangé à de la crème épaisse.",
    "4": "Remettez au four jusqu'à absorption du liquide et coloration dorée du dessus, et couvrez dès la sortie du four.",
    "5": "Servez cette tourte chaude avec de la mélasse noire pour tremper."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "30 minutes",
+  "servings": "6-8 portions"
  },
  "des-12": {
   "title": "Ruqaq Sucré aux Fruits à Coque, Raisins Secs et Cannelle",
@@ -9150,7 +9689,10 @@
    "3": "Recouvrez la farce du reste des feuilles, et arrosez de ghee sur le dessus.",
    "4": "Faites cuire à four moyen la moitié du temps, puis retournez délicatement pour cuire l'autre côté.",
    "5": "Une fois complètement cuit, éteignez le four et versez la tasse de lait avec un peu de cannelle dessus, couvrez, et remettez au four (éteint, encore chaud) jusqu'à ramollissement."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "25 minutes",
+  "servings": "6 portions"
  },
  "des-13": {
   "title": "Rouleaux de Crêpes Fourrés à la Confiture",
@@ -9206,7 +9748,10 @@
    "7": "Farcissez chaque crêpe d'un peu de confiture, roulez en boudin, et disposez sur le plat de service.",
    "8": "Saupoudrez entièrement de sucre glace et de fruits à coque hachés, de raisins secs et de noix de coco.",
    "9": "Un peu de crème Chantilly peut aussi être ajouté sur le dessus."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "15 minutes",
+  "servings": "4-6 portions"
  },
  "des-14": {
   "title": "Tarte aux Pommes à la Française au Glaçage Crème",
@@ -9246,7 +9791,10 @@
    "3": "Saupoudrez les pommes de 3 cuillères à soupe de sucre et faites cuire au four environ 30 minutes.",
    "4": "Fouettez bien l'œuf avec la crème épaisse, le sucre glace et la vanille.",
    "5": "Retirez du four, versez le glaçage œuf-crème sur le dessus, et remettez au four jusqu'à coloration dorée."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "45 minutes",
+  "servings": "6-8 portions"
  },
  "des-15": {
   "title": "Croissants Salés Farcis",
@@ -9295,7 +9843,8 @@
    "8": "Roulez chaque triangle en forme de croissant, placez sur un plat graissé, et laissez lever.",
    "9": "Badigeonnez le dessus d'œuf ou de lait sucré.",
    "10": "Faites cuire dans un four chaud jusqu'à coloration dorée et cuisson complète."
-  }
+  },
+  "cookTime": "20 minutes"
  },
  "des-16": {
   "title": "Pain Perdu Sucré à la Vanille",
@@ -9328,7 +9877,10 @@
    "4": "Préparez une assiette à la taille du pain, saupoudrez-la de sucre glace, posez le pain dessus et saupoudrez encore de sucre glace.",
    "5": "Des fruits à coque, des raisins secs, de la noix de coco ou du chocolat râpé peuvent être ajoutés sur le sucre glace.",
    "6": "Il peut aussi être garni en faisant fondre de la confiture d'abricot avec un peu d'eau à feu doux, puis en y mélangeant des fruits très finement coupés (pomme, poire ou dattes) avec un peu de beurre et en versant sur le pain ; ou avec du caramel et du chocolat râpé avec des fruits en dés ou de la glace ; ou avec des pommes cuites à la cannelle et au sucre versées sur le dessus."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "5 minutes",
+  "servings": "1 portion"
  },
  "des-17": {
   "title": "Mahalabia Classique (Crème au Lait Vanillée)",
@@ -9359,7 +9911,10 @@
    "6": "Ajoutez la vanille, puis versez dans de petits moules rincés seulement à l'eau froide.",
    "7": "Laissez refroidir, puis garnissez de fruits à coque et de raisins secs ou de pistaches et de noix de coco, ou de banane, de fraises ou de cerises en tranches.",
    "8": "Peut aussi être garni de crème Chantilly et de fruits ou de fruits à coque, ou servi avec de la glace."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "15 minutes",
+  "servings": "4 portions"
  },
  "des-18": {
   "title": "Mahalabia au Chocolat",
@@ -9395,7 +9950,10 @@
    "7": "Ajoutez la vanille, puis versez dans de petits moules rincés seulement à l'eau froide.",
    "8": "Laissez refroidir, puis garnissez de fruits à coque et de raisins secs ou de pistaches et de noix de coco, ou de banane, de fraises ou de cerises en tranches.",
    "9": "Garnissez de chocolat râpé, de fruits à coque, ou d'une boule de glace au chocolat."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "15 minutes",
+  "servings": "4 portions"
  },
  "des-19": {
   "title": "Gelée aux Fruits Frais et aux Biscuits",
@@ -9418,7 +9976,9 @@
    "2": "Dans un bol profond ou un grand plat de service, mélangez les biscuits émiettés et les fruits en dés, puis versez la gelée et mélangez bien.",
    "3": "Réfrigérez jusqu'à prise complète.",
    "4": "Garnissez de crème Chantilly, de caramel liquide, ou de crème pâtissière avec de la noix de coco."
-  }
+  },
+  "cookTime": "5 minutes",
+  "servings": "4-6 portions"
  },
  "des-20": {
   "title": "Pouding au Chocolat sur Fond de Biscuits",
@@ -9457,7 +10017,10 @@
    "6": "Remettez à feu doux pendant environ 3 minutes, en remuant constamment.",
    "7": "Ajoutez la vanille, puis versez le mélange sur les biscuits.",
    "8": "Une fois refroidi, garnissez de chocolat râpé ou finement haché ; des fruits à coque, des raisins secs et de la noix de coco peuvent aussi être saupoudrés sur le dessus."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "15 minutes",
+  "servings": "4-6 portions"
  },
  "des-21": {
   "title": "Pouding de Semoule de Maïs à l'Indienne, à la Mélasse",
@@ -9503,7 +10066,10 @@
    "5": "Beurrez un petit plat Pyrex, versez-y le mélange, et versez le lait supplémentaire sur le dessus.",
    "6": "Placez le plat dans un grand plateau rempli à moitié d'eau chaude (bain-marie) et faites cuire dans un four très doux, en rajoutant de l'eau si le niveau baisse dans le plateau.",
    "7": "Poursuivez la cuisson environ deux heures jusqu'à ce que le dessus soit doré."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "2 heures",
+  "servings": "6-8 portions"
  },
  "des-22": {
   "title": "Pouding de Semoule Façon Basbousa, à la Noix de Coco",
@@ -9544,7 +10110,10 @@
    "4": "Ajoutez le sucre et la vanille ou le mastic, en remuant jusqu'à dissolution du sucre, puis laissez refroidir et réfrigérez.",
    "5": "Transférez dans un plat Pyrex et garnissez de crème Chantilly et de banane ou de fraises.",
    "6": "Peut aussi être garni de fruits à coque, de raisins secs et de noix de coco."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "20 minutes",
+  "servings": "4-6 portions"
  },
  "des-23": {
   "title": "Pouding de Semoule Façon Basbousa sur Caramel",
@@ -9581,7 +10150,10 @@
    "4": "Ajoutez le sucre et la vanille ou le mastic, en remuant jusqu'à dissolution du sucre.",
    "5": "Versez le caramel refroidi dans un plat Pyrex, garnissez du pouding de semoule, et réfrigérez.",
    "6": "Pour servir, démoulez sur un plat de service ou laissez dans le plat Pyrex."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "20 minutes",
+  "servings": "4-6 portions"
  },
  "des-24": {
   "title": "Caramel Simple au Sucre (pour Poudings)",
@@ -9603,7 +10175,9 @@
    "1": "Dissolvez le sucre dans l'eau à feu doux.",
    "2": "Ajoutez le jus de citron et poursuivez la cuisson jusqu'à ce que ce soit ambré et devienne du caramel.",
    "3": "Un peu plus d'eau peut être ajouté pour que le caramel ne sèche pas."
-  }
+  },
+  "prepTime": "2 minutes",
+  "cookTime": "10 minutes"
  },
  "des-25": {
   "title": "Riz au Lait Égyptien (Roz bel Laban)",
@@ -9641,7 +10215,10 @@
    "5": "Ajoutez la vanille et retirez du feu.",
    "6": "Remplissez des tasses ou des bols rincés seulement à l'eau, et laissez refroidir.",
    "7": "Garnissez de fruits à coque, de raisins secs et de noix de coco, ou garnissez de crème épaisse ou de crème Chantilly ; des fruits en tranches — surtout la banane — ou une boule de glace peuvent aussi être ajoutés."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4 portions"
  },
  "des-26": {
   "title": "Riz au Lait Mijoté Longuement au Mastic",
@@ -9679,7 +10256,9 @@
    "5": "Ajoutez les 2 tasses de lait restantes, couvrez complètement si le riz n'est pas tout à fait cuit, en remuant de temps en temps, sans laisser le riz absorber tout le lait.",
    "6": "Une fois refroidi, réfrigérez.",
    "7": "Garnissez de noix de coco, de raisins secs et de fruits à coque, ou de crème Chantilly ou de glace."
-  }
+  },
+  "cookTime": "30 minutes",
+  "servings": "6 portions"
  },
  "des-27": {
   "title": "Riz au Lait aux Fruits Secs et à l'Orange",
@@ -9726,7 +10305,10 @@
    "6": "Juste avant la fin de la cuisson, ajoutez le jus d'orange jusqu'à absorption complète, puis terminez la cuisson, en ajustant la douceur.",
    "7": "Disposez les fruits au fond d'un plat Pyrex, garnissez du riz au lait, et une fois refroidi, réfrigérez.",
    "8": "Renversez sur le plat de service pour que les fruits se retrouvent sur le dessus."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "40 minutes",
+  "servings": "6 portions"
  },
  "des-28": {
   "title": "Riz au Lait sur Caramel",
@@ -9762,7 +10344,10 @@
    "3": "Ajoutez la vanille et retirez du feu.",
    "4": "Une fois refroidi, versez-le délicatement sur le caramel et réfrigérez.",
    "5": "Préparez le plat de service, entourez les bords du riz de caramel en le faisant tourner, puis versez dans le plat de service."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "30 minutes",
+  "servings": "4 portions"
  },
  "des-29": {
   "title": "Riz au Lait Sucré au Four, à la Crème Épaisse",
@@ -9792,7 +10377,9 @@
    "1": "Après avoir lavé soigneusement le riz et l'avoir bien égoutté, mettez-le dans un bol.",
    "2": "Faites bouillir le lait, sucrez jusqu'à dissolution, versez sur le riz, couvrez, retirez du feu, et laissez reposer 4 heures.",
    "3": "Graissez un plat Pyrex de ghee, ajoutez le riz, garnissez de crème épaisse et d'une noix de ghee ou de beurre, et faites cuire au four jusqu'à coloration dorée du dessus."
-  }
+  },
+  "cookTime": "35 minutes",
+  "servings": "4-6 portions"
  },
  "des-30": {
   "title": "Crème Caramel Classique (Flan)",
@@ -9827,7 +10414,10 @@
    "6": "Réfrigérez jusqu'à refroidissement complet.",
    "7": "Décollez délicatement les bords jusqu'à ce que ça se détache, puis renversez sur un plat de service rond.",
    "8": "Tremper brièvement le moule dans l'eau chaude peut aider à le démouler avant de le renverser."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "1 heure",
+  "servings": "6 portions"
  },
  "des-31": {
   "title": "Balila — Blé Bouilli Sucré au Lait",
@@ -9858,7 +10448,9 @@
    "2": "Faites bouillir dans l'eau fraîche, puis baissez le feu et laissez mijoter jusqu'à tendreté complète, en rajoutant de l'eau selon les besoins.",
    "3": "Sucrez et servez chaud.",
    "4": "Peut aussi être sucré et servi avec du lait chaud et une noix de beurre."
-  }
+  },
+  "cookTime": "1 heure",
+  "servings": "4-6 portions"
  },
  "des-32": {
   "title": "Achoura — Pouding de Blé Sucré aux Fruits à Coque et à la Cannelle",
@@ -9900,7 +10492,9 @@
    "5": "Versez à la louche dans des tasses ou des bols rincés à l'eau et laissez refroidir complètement.",
    "6": "Garnissez le dessus de cannelle, de fruits à coque hachés et de noix de coco, et servez froid.",
    "7": "Autrement, une fois cuit et refroidi, ça peut être mixé jusqu'à obtenir une texture lisse et filtré pour retirer les enveloppes avant de garnir."
-  }
+  },
+  "cookTime": "1.5 heures",
+  "servings": "6-8 portions"
  },
  "des-33": {
   "title": "Abricot Cuit",
@@ -9927,7 +10521,9 @@
    "2": "Faites chauffer le mélange d'abricot filtré avec le sucre, en remuant jusqu'à dissolution, et portez à ébullition douce.",
    "3": "Mélangez la fécule de maïs avec un peu d'eau froide, puis ajoutez-la au mélange d'abricot bouillant en remuant constamment à feu doux ; faites cuire 5 minutes jusqu'à obtenir une consistance épaisse, comme celle d'un pouding.",
    "4": "Versez dans des tasses ou des bols rincés à l'eau et garnissez de fruits à coque, de raisins secs et de noix de coco."
-  }
+  },
+  "cookTime": "15 minutes",
+  "servings": "4-6 portions"
  },
  "des-34": {
   "title": "Plat de Patate Douce au Four aux Fruits à Coque et au Sirop",
@@ -9981,7 +10577,10 @@
    "5": "Préparez un sirop en laissant mijoter le sucre, l'eau, le jus de citron et la vanille, en remuant jusqu'à léger épaississement.",
    "6": "Dès la sortie du four, versez le sirop dessus et laissez refroidir.",
    "7": "De la banane en tranches ou de la carotte râpée peuvent être ajoutées sur le dessus avec plus de fruits à coque."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "25 minutes",
+  "servings": "6 portions"
  },
  "des-35": {
   "title": "Purée de Patate Douce au Four, à la Crème Épaisse",
@@ -10016,7 +10615,10 @@
    "2": "Mixez la patate douce avec le sucre, la crème épaisse et le lait jusqu'à obtenir une texture lisse.",
    "3": "Beurrez un plat ou un plat Pyrex, versez-y le mélange, et faites cuire au four jusqu'à ce que ce soit pris.",
    "4": "Saupoudrez de sucre sur le dessus et passez brièvement sous le gril jusqu'à coloration dorée."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "30 minutes",
+  "servings": "8 portions"
  },
  "des-36": {
   "title": "Potiron Confit à la Sauce Blanche et aux Fruits à Coque",
@@ -10061,7 +10663,10 @@
    "8": "Inversez la disposition : recouvrez du reste du potiron, puis du reste de la sauce.",
    "9": "Faites cuire à four doux jusqu'à ce que ce soit pris, cuit et doré sur le dessus.",
    "10": "Laissez refroidir, puis renversez délicatement sur le plat de service."
-  }
+  },
+  "prepTime": "30 minutes",
+  "cookTime": "40 minutes",
+  "servings": "8 portions"
  },
  "des-37": {
   "title": "Sauce Blanche Sucrée (pour Potiron Confit)",
@@ -10093,7 +10698,9 @@
    "3": "Retirez à nouveau du feu, ajoutez le lait bouillant en une fois, en fouettant vivement.",
    "4": "Remettez à feu doux, en remuant constamment, jusqu'à ébullition, pendant 5 à 7 minutes jusqu'à cuisson de la farine, puis sucrez.",
    "5": "Une fois refroidi, incorporez les jaunes d'œufs et la vanille en fouettant."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "15 minutes"
  },
  "des-38": {
   "title": "Khoshaf de Fruits Frais sans Cuisson",
@@ -10115,7 +10722,10 @@
    "1": "Mixez le jus de fruits, en ajoutant du sucre selon les besoins.",
    "2": "Combinez les fruits en dés pour le khoshaf dans un bol de service.",
    "3": "Versez le jus mixé sur les fruits et réfrigérez avant de servir."
-  }
+  },
+  "prepTime": "15 minutes",
+  "servings": "4 portions",
+  "cookTime": "-"
  },
  "des-39": {
   "title": "Khoshaf de Fruits Frais au Yaourt ou à la Crème Chantilly",
@@ -10142,7 +10752,10 @@
    "2": "Fouettez le yaourt avec le sucre et la vanille, ou mixez, pendant 5 minutes jusqu'à dissolution complète.",
    "3": "Versez sur les fruits en dés et mélangez bien.",
    "4": "Le yaourt peut être remplacé par de la crème Chantilly."
-  }
+  },
+  "prepTime": "15 minutes",
+  "servings": "4-6 portions",
+  "cookTime": "-"
  },
  "des-40": {
   "title": "Khoshaf de Fruits Frais Pochés",
@@ -10164,7 +10777,10 @@
    "1": "Placez les fruits frais (comme des pêches) dans une marmite, couvrez de juste assez d'eau, et portez sur le feu.",
    "2": "Ajoutez du sucre pour sucrer.",
    "3": "Laissez mijoter à feu doux jusqu'à tendreté, en gardant une partie du sirop de sucre avec."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "20 minutes",
+  "servings": "4 portions"
  },
  "des-41": {
   "title": "Khoshaf de Fruits Secs Pochés",
@@ -10191,7 +10807,10 @@
    "2": "Ajoutez 4 c. à soupe de sucre ou ajustez selon le goût.",
    "3": "Laissez mijoter à feu doux avec les fruits secs jusqu'à tendreté.",
    "4": "Une fois hors du feu, de la vanille, des fruits à coque, des raisins secs et de la noix de coco peuvent être ajoutés."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "25 minutes",
+  "servings": "4 portions"
  },
  "des-42": {
   "title": "Khoshaf de Pruneaux et d'Abricots aux Figues et aux Dattes",
@@ -10232,7 +10851,10 @@
    "4": "Retirez du feu, incorporez un peu de vanille dans le peu de sirop restant, et transférez dans le bol de service.",
    "5": "Ajoutez les figues séchées en tranches et les dattes séchées dénoyautées et tranchées, couvrez, et laissez refroidir.",
    "6": "Garnissez de raisins secs et de fruits à coque."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "30 minutes",
+  "servings": "6-8 portions"
  },
  "des-43": {
   "title": "Glace Vanille Maison",
@@ -10266,7 +10888,9 @@
    "5": "Battez bien l'œuf avec la vanille et incorporez au mélange refroidi.",
    "6": "Faites prendre en sorbetière, dans des bacs à glaçons, ou dans tout moule en plastique jusqu'à congélation.",
    "7": "Retirez du congélateur, remuez bien, et recongelez."
-  }
+  },
+  "cookTime": "15 minutes",
+  "servings": "6 portions"
  },
  "des-44": {
   "title": "Gâteau en Couches de Glace et de Biscuits à la Cuillère",
@@ -10295,7 +10919,9 @@
    "4": "Ajoutez les fruits à coque hachés et la noix de coco.",
    "5": "Ajoutez une autre couche de glace sur le dessus et congelez jusqu'à ce que ce soit solide.",
    "6": "Au moment de servir, placez le plat au-dessus de la vapeur d'eau chaude juste le temps qu'il tremble légèrement, puis servez à la cuillère dans des coupes ou de petits moules."
-  }
+  },
+  "servings": "8 portions",
+  "cookTime": "-"
  },
  "des-45": {
   "title": "Glace à la Mangue et Crème Chantilly",
@@ -10321,7 +10947,9 @@
    "1": "Combinez le lait, le sucre et le jus de mangue et battez au batteur électrique jusqu'à obtenir une texture lisse.",
    "2": "Ajoutez la crème Chantilly en poudre au mélange et fouettez au batteur jusqu'à ce que le tout soit bien homogène.",
    "3": "Versez dans un moule et congelez."
-  }
+  },
+  "servings": "4 portions",
+  "cookTime": "-"
  },
  "des-46": {
   "title": "Glace au Chocolat en Sorbetière",
@@ -10367,7 +10995,9 @@
    "5": "Versez en sorbetière et faites tourner jusqu'à ce que ce soit bien refroidi et pris.",
    "6": "Fouettez bien la crème Chantilly et incorporez-la dans la sorbetière, en continuant de tourner jusqu'à congélation.",
    "7": "Un moule peut être utilisé à la place de la sorbetière."
-  }
+  },
+  "cookTime": "10 minutes",
+  "servings": "6 portions"
  },
  "des-47": {
   "title": "Glace Riche à la Crème Pâtissière",
@@ -10402,7 +11032,9 @@
    "2": "Fouettez bien les jaunes d'œufs jusqu'à ce qu'ils soient légers et mousseux.",
    "3": "Versez lentement le sirop chaud sur les jaunes fouettés en filet, en fouettant constamment jusqu'à combinaison et refroidissement, puis incorporez le sel et la vanille en fouettant, et enfin incorporez la crème.",
    "4": "Versez en sorbetière ou dans des moules et congelez jusqu'à ce que ce soit solide."
-  }
+  },
+  "cookTime": "10 minutes",
+  "servings": "8 portions"
  },
  "des-48": {
   "title": "Glace au Caramel et à la Crème",
@@ -10431,7 +11063,9 @@
    "4": "Incorporez la crème, en mélangeant bien, et laissez refroidir.",
    "5": "Versez le mélange dans un moule à glace ou une sorbetière et mettez au congélateur pendant deux heures.",
    "6": "Retirez, fouettez bien, et remettez au congélateur jusqu'à prise complète."
-  }
+  },
+  "cookTime": "10 minutes",
+  "servings": "4 portions"
  },
  "des-49": {
   "title": "Glace à la Pêche et aux Fruits Rouges",
@@ -10467,7 +11101,9 @@
    "3": "Fouettez la crème et incorporez-la au mélange œuf-pêche, en mélangeant bien.",
    "4": "Versez dans un moule profond, couvrez, et congelez jusqu'à ce que ce soit solide.",
    "5": "Au moment de servir, coupez en portions et servez avec un peu de fruits frais."
-  }
+  },
+  "cookTime": "25 minutes",
+  "servings": "4-6 portions"
  },
  "des-50": {
   "title": "En Couches",
@@ -10508,7 +11144,9 @@
    "4": "Garnissez de fruits en dés comme du melon, de la pomme, de la banane, ou de compote mélangée.",
    "5": "Des points de n'importe quelle confiture peuvent aussi être ajoutés en garniture.",
    "6": "Gardez les verres au congélateur jusqu'à juste avant de servir, puis déplacez-les sur l'étagère du haut du réfrigérateur."
-  }
+  },
+  "servings": "4 portions",
+  "cookTime": "-"
  },
  "bev-02": {
   "title": "Boisson au Tamarin",
@@ -10529,7 +11167,9 @@
   "instructions": {
    "1": "Faites bouillir l'eau avec suffisamment de sucre, puis hors du feu ajoutez le tamarin, et laissez infuser, à couvert, pendant environ 5 heures.",
    "2": "Filtrez à travers une passoire fine et réfrigérez."
-  }
+  },
+  "servings": "4 portions",
+  "cookTime": "-"
  },
  "bev-03": {
   "title": "Boisson Égyptienne à la Racine de Réglisse",
@@ -10549,7 +11189,9 @@
    "3": "Placez une passoire fine tapissée d'étamine sur un pichet, et déposez la pâte de réglisse humidifiée dans le tissu.",
    "4": "Versez de l'eau sur le filtre goutte à goutte, ou versez-la lentement, jusqu'à obtenir la couleur et la saveur désirées.",
    "5": "Placez le pichet au réfrigérateur, puis filtrez le mélange à travers le tissu."
-  }
+  },
+  "servings": "4 portions",
+  "cookTime": "-"
  },
  "bev-04": {
   "title": "Boisson à l'Abricot Qamar al-Din",
@@ -10572,7 +11214,9 @@
    "2": "Mixez l'abricot trempé avec son eau et le sucre jusqu'à obtenir une texture lisse.",
    "3": "Diluez avec plus d'eau jusqu'à la consistance désirée.",
    "4": "Versez dans un pichet et réfrigérez."
-  }
+  },
+  "servings": "4 portions",
+  "cookTime": "-"
  },
  "bev-05": {
   "title": "Boisson Chaude au Meghat (Sagou) Grillé",
@@ -10608,7 +11252,10 @@
    "3": "Remettez à feu moyen, ajoutez le sucre, et remuez constamment jusqu'à ébullition.",
    "4": "Ajoutez du lait chaud sucré pour servir, si désiré.",
    "5": "Garnissez de noisettes grillées et hachées et de noix de coco."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "15 minutes",
+  "servings": "4 portions"
  },
  "des-51": {
   "title": "Baklawa Classique aux Fruits à Coque et au Sirop",
@@ -10646,7 +11293,10 @@
    "5": "Recouvrez la farce du reste des feuilles, en badigeonnant de la même façon que la première moitié.",
    "6": "Découpez la pâte phyllo en losanges ou en triangles au couteau.",
    "7": "Versez le ghee fondu sur le dessus et faites cuire à four moyen jusqu'à coloration dorée, puis versez le sirop froid dessus et couvrez jusqu'à refroidissement complet."
-  }
+  },
+  "prepTime": "25 minutes",
+  "cookTime": "30 minutes",
+  "servings": "8-10 portions"
  },
  "des-52": {
   "title": "Baklawa Imbibée de Lait Sucré",
@@ -10685,7 +11335,10 @@
    "6": "Arrosez de ghee tiède sur le dessus et faites cuire à four moyen jusqu'à cuisson et coloration dorée.",
    "7": "Dissolvez le sucre dans le lait et versez délicatement sur le dessus, puis éteignez le four et couvrez le plat.",
    "8": "La garniture à la crème peut être remplacée par de la crème épaisse (achta) ou par une crème pâtissière aux fruits à coque."
-  }
+  },
+  "prepTime": "25 minutes",
+  "cookTime": "30 minutes",
+  "servings": "8-10 portions"
  },
  "des-53": {
   "title": "Baklawa à la Farce aux Amandes Moulues",
@@ -10719,7 +11372,10 @@
    "5": "Recouvrez du reste des feuilles, badigeonnées de la même façon.",
    "6": "Versez le ghee fondu sur le dessus et faites cuire à four moyen jusqu'à coloration dorée et cuisson complète.",
    "7": "Après la cuisson, versez le sirop froid dessus et couvrez jusqu'à refroidissement complet."
-  }
+  },
+  "prepTime": "25 minutes",
+  "cookTime": "30 minutes",
+  "servings": "8-10 portions"
  },
  "des-54": {
   "title": "Farce aux Amandes Moulues (pour Baklawa)",
@@ -10748,7 +11404,9 @@
   "instructions": {
    "1": "Mélangez les amandes avec le sucre et un peu d'eau.",
    "2": "Battez bien l'œuf et mélangez avec le zeste de citron et la vanille, en combinant soigneusement."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "-"
  },
  "des-55": {
   "title": "Kunafa aux Fruits à Coque, Raisins Secs et Noix de Coco",
@@ -10793,7 +11451,10 @@
    "4": "Recouvrez du reste de la kunafa, en pressant fermement à la main.",
    "5": "Arrosez du reste de ghee fondu sur le dessus et faites cuire à four moyen jusqu'à coloration dorée, puis retournez pour dorer l'autre côté.",
    "6": "Versez le sirop froid dessus, couvrez, laissez refroidir, et garnissez de pistaches ou de noisettes."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "30 minutes",
+  "servings": "8 portions"
  },
  "des-56": {
   "title": "Kunafa Osmalieh à la Crème",
@@ -10826,7 +11487,10 @@
    "4": "Étalez la moitié de la kunafa sur une assiette ronde, puis ajoutez la crème ou la crème épaisse.",
    "5": "Recouvrez du reste de la kunafa, en pressant fermement à la main.",
    "6": "Garnissez de pistaches ou de noisettes."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "20 minutes",
+  "servings": "8 portions"
  },
  "des-57": {
   "title": "Qatayef Sucré aux Fruits à Coque et à la Noix de Coco",
@@ -10870,7 +11534,10 @@
    "3": "Faites frire dans le ghee ou l'huile chaude et retirez.",
    "4": "Trempez brièvement dans le sirop froid, retirez rapidement, et disposez sur le plat de service.",
    "5": "Garnissez de pistaches ou de noisettes hachées."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "15 minutes",
+  "servings": "6-8 portions"
  },
  "des-58": {
   "title": "Balah El-Sham (Doigts de Pâte à Choux Frits au Sirop)",
@@ -10915,7 +11582,10 @@
    "4": "Retirez du feu et laissez refroidir.",
    "5": "Incorporez les œufs un à un en battant, en pétrissant à la main jusqu'à ce que la pâte se rassemble bien.",
    "6": "Coupez en morceaux de taille appropriée, faites frire dans l'huile chaude jusqu'à coloration dorée, puis retirez et faites tremper dans le sirop froid."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "15 minutes",
+  "servings": "6-8 portions"
  },
  "des-59": {
   "title": "Basima — Carrés de Noix de Coco et de Lait au Four",
@@ -10951,7 +11621,9 @@
    "3": "Ajoutez la noix de coco râpée, puis la farine mélangée à la levure chimique, et remuez bien jusqu'à ce que le mélange épaississe.",
    "4": "Versez dans un plat bien graissé et découpez en losanges.",
    "5": "Faites cuire à four moyen jusqu'à cuisson et coloration dorée du dessus."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "30 minutes"
  },
  "des-60": {
   "title": "Carrés de Noix de Coco au Sirop et aux Fruits à Coque",
@@ -10988,7 +11660,8 @@
    "4": "Pressez les raisins secs, les fruits à coque hachés et les pistaches sur le dessus.",
    "5": "Réfrigérez jusqu'à ce que ce soit ferme, puis découpez en carrés.",
    "6": "La noix de coco peut aussi être grillée à sec dans une poêle antiadhésive jusqu'à coloration dorée, puis préparée de la même façon."
-  }
+  },
+  "cookTime": "10 minutes"
  },
  "des-61": {
   "title": "Basisa — Gâteau de Semoule de Maïs et Yaourt au Zeste de Mandarine",
@@ -11033,7 +11706,9 @@
    "4": "Ajustez la consistance de la pâte en ajoutant plus de farine si trop liquide, ou un peu de lait si trop épaisse.",
    "5": "Graissez un plat de cuisson de ghee et farinez-le, versez-y la pâte, puis secouez le plat pour l'égaliser.",
    "6": "Faites cuire à four doux jusqu'à coloration dorée du dessus."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "30 minutes"
  },
  "des-62": {
   "title": "Baghasha — Anneaux de Pâte Torsadée Frits au Sirop",
@@ -11076,7 +11751,10 @@
    "2": "Étalez la pâte sur une surface farinée et découpez en bandes d'environ 2 cm de large.",
    "3": "Roulez chaque bande en cercle et faites-la frire dans l'huile chaude.",
    "4": "Trempez dans le sirop froid, retirez, et saupoudrez de noix de coco."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "15 minutes",
+  "servings": "6 portions"
  },
  "des-63": {
   "title": "Shaklama — Bouchées de Noix de Coco et de Lait Concentré au Four",
@@ -11098,7 +11776,9 @@
    "1": "Mélangez et pétrissez bien tous les ingrédients ensemble.",
    "2": "Graissez un plat de ghee et façonnez le mélange en petites boules à la cuillère ou à la main.",
    "3": "Faites cuire à four moyen pendant une demi-heure jusqu'à coloration dorée."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "30 minutes"
  },
  "des-64": {
   "title": "Aish El Saraya — Dessert de Pain de Mie Imbibé de Caramel",
@@ -11135,7 +11815,10 @@
    "4": "Versez le sirop chaud sur le pain, en pressant à la cuillère jusqu'à absorption complète, et laissez refroidir.",
    "5": "Garnissez de crème épaisse, ou de crème Chantilly versée pour bien recouvrir le pain.",
    "6": "Saupoudrez de pistaches ou de fruits à coque hachés."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "15 minutes",
+  "servings": "6-8 portions"
  },
  "des-65": {
   "title": "Douceur de Semoule Grillée Façon Awarma",
@@ -11174,7 +11857,10 @@
    "2": "Dissolvez le sucre dans l'eau, soit mixé soit pré-bouilli avec la vanille, et laissez refroidir.",
    "3": "Versez le sirop de sucre sur la semoule grillée et remuez jusqu'à absorption.",
    "4": "Étalez sur une assiette plate et recouvrez de fruits à coque et de noix de coco."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "15 minutes",
+  "servings": "4-6 portions"
  },
  "des-66": {
   "title": "Sadd El-Hanak — Douceur de Farine Grillée à la Noix de Coco",
@@ -11206,7 +11892,10 @@
    "3": "Retirez du feu, versez la solution de sucre refroidie, et mélangez bien.",
    "4": "Remettez à feu doux, en remuant délicatement, jusqu'à ce que ça se rassemble et se détache de la marmite.",
    "5": "Étalez dans un plat, saupoudrez de noix de coco et de fruits à coque, et découpez en carrés."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "15 minutes",
+  "servings": "4 portions"
  },
  "des-67": {
   "title": "Om Ali — Pouding au Lait et Phyllo au Four, aux Fruits à Coque",
@@ -11253,7 +11942,10 @@
    "6": "Versez le lait chaud sur le phyllo et faites cuire au four 8 à 10 minutes.",
    "7": "Garnissez de crème Chantilly ou de crème épaisse et passez très brièvement sous le gril jusqu'à coloration dorée.",
    "8": "Se sert de préférence tiède."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "15 minutes",
+  "servings": "6-8 portions"
  },
  "des-68": {
   "title": "« Cils de Dame » — Biscuits de Semoule en Forme d'Amande au Sirop",
@@ -11303,7 +11995,9 @@
    "5": "Façonnez en petites formes d'amande (« œil ») et disposez sur un plat légèrement huilé.",
    "6": "Faites cuire à four moyen jusqu'à cuisson complète.",
    "7": "Arrosez de sirop froid et disposez sur un plat de service."
-  }
+  },
+  "prepTime": "25 minutes",
+  "cookTime": "20 minutes"
  },
  "des-69": {
   "title": "Couscous Vapeur Sucré au Ghee",
@@ -11336,7 +12030,10 @@
    "4": "Remettez le couscous dans le linge et le couscoussier, couvrez, et faites cuire à la vapeur à nouveau pendant 30 minutes.",
    "5": "Retirez du linge et mettez dans un bol sur feu doux, ajoutez le ghee selon le goût et remuez à la fourchette tant que c'est chaud.",
    "6": "Servez dans un plat, saupoudré de sucre fin et de noix de coco."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "1 heure",
+  "servings": "4-6 portions"
  },
  "des-70": {
   "title": "Ghraybeh — Sablés Fondants aux Amandes",
@@ -11368,7 +12065,9 @@
    "3": "Disposez sur une plaque non graissée.",
    "4": "Faites cuire à four doux, en les gardant pâles — ils ne doivent pas dorer.",
    "5": "Laissez refroidir une fois cuits."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "20 minutes"
  },
  "des-71": {
   "title": "Kahk — Biscuits Égyptiens de l'Aïd, Farcis",
@@ -11414,7 +12113,9 @@
    "5": "Façonnez en ronds assez petits et farcissez de la garniture.",
    "6": "Imprimez un motif sur le dessus avec une pince à kahk, et faites cuire sur un plat à four moyen.",
    "7": "Laissez refroidir, puis saupoudrez de sucre glace."
-  }
+  },
+  "prepTime": "40 minutes",
+  "cookTime": "20 minutes"
  },
  "des-72": {
   "title": "Farce au Malban (Loukoum) pour Kahk",
@@ -11430,7 +12131,9 @@
   },
   "instructions": {
    "1": "Coupez le malban en petits dés et mélangez avec les noix."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "-"
  },
  "des-73": {
   "title": "Ajamiya — Farce au Miel, Sésame et Farine pour Kahk",
@@ -11460,7 +12163,9 @@
    "1": "Faites chauffer le ghee, ajoutez la farine et l'essence de kahk ou la vanille, et remuez à feu doux jusqu'à ce que la farine dore, puis ajoutez le sésame jusqu'à coloration dorée, et retirez du feu.",
    "2": "Incorporez progressivement le miel, puis remettez sur le feu, en remuant constamment, jusqu'à épaississement.",
    "3": "Retirez du feu, incorporez la vanille si utilisée, et laissez refroidir."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "10 minutes"
  },
  "des-74": {
   "title": "Mounin — Petits Pains Levés à l'Anis et au Sésame",
@@ -11507,7 +12212,8 @@
    "6": "Divisez et façonnez en ronds de taille égale.",
    "7": "Farinez légèrement une plaque, disposez la pâte, badigeonnez le dessus de ghee fondu, et laissez lever à nouveau.",
    "8": "Faites cuire à four moyen jusqu'à cuisson complète."
-  }
+  },
+  "cookTime": "25 minutes"
  },
  "des-75": {
   "title": "Fatir Levé Farci aux Dattes",
@@ -11555,7 +12261,8 @@
    "7": "Couvrez la pâte et laissez-la lever.",
    "8": "Prenez des morceaux de pâte, un à la fois, roulez en boules, creusez le centre pour ajouter un morceau de pâte de dattes, scellez, et aplatissez ; répétez jusqu'à épuisement.",
    "9": "Disposez sur une plaque, laissez lever brièvement, puis faites cuire à four moyen."
-  }
+  },
+  "cookTime": "25 minutes"
  },
  "des-76": {
   "title": "Biscuits à la Carotte",
@@ -11594,7 +12301,9 @@
    "2": "Mélangez la farine avec la levure chimique et incorporez à la pâte.",
    "3": "Façonnez les biscuits avec un appareil à biscuits, disposez-les sur une plaque et faites cuire à four moyen.",
    "4": "Retirez délicatement des plaques juste après la cuisson et laissez refroidir."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "15 minutes"
  },
  "des-77": {
   "title": "Barres de Biscuits à la Noix de Coco",
@@ -11634,7 +12343,9 @@
    "3": "Incorporez la noix de coco et mélangez bien jusqu'à ce que la pâte raffermisse.",
    "4": "Saupoudrez légèrement une plaque de sucre et d'un peu de noix de coco, étalez la pâte, badigeonnez le dessus du reste de lait, découpez en morceaux, et faites cuire à four moyen.",
    "5": "Retirez et laissez refroidir."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "20 minutes"
  },
  "des-78": {
   "title": "Biscuits à la Cuillère (Savoie)",
@@ -11668,7 +12379,9 @@
    "5": "Graissez bien des moules rectangulaires de ghee fondu et saupoudrez de farine.",
    "6": "Versez la pâte dans les moules et façonnez-la en bandes en forme de doigts.",
    "7": "Faites cuire à four moyen."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "15 minutes"
  },
  "des-79": {
   "title": "Biscuits Sandwich à la Cannelle et à la Confiture",
@@ -11713,7 +12426,9 @@
    "4": "Faites cuire à four moyen, puis laissez refroidir.",
    "5": "Assemblez un rond plein avec un rond troué en sandwich à la confiture.",
    "6": "Saupoudrez la surface de sucre glace et garnissez le centre de fruits à coque concassés."
-  }
+  },
+  "prepTime": "25 minutes",
+  "cookTime": "15 minutes"
  },
  "des-80": {
   "title": "Biscuits à la Vanille Farcis à la Pâte de Dattes",
@@ -11758,7 +12473,9 @@
    "4": "Étalez la pâte sur une plaque sur 0.5 cm d'épaisseur et découpez en ronds.",
    "5": "Badigeonnez le dessus d'œuf battu et saupoudrez des cacahuètes hachées mélangées à un peu de sucre.",
    "6": "Faites cuire dans un four chaud pendant 10 minutes, puis laissez refroidir."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "10 minutes"
  },
  "des-81": {
   "title": "Petits Fours à la Confiture et au Chocolat",
@@ -11800,7 +12517,9 @@
    "5": "Faites cuire à four assez doux, puis laissez refroidir.",
    "6": "Assemblez des paires avec de la confiture et décorez le dessus de chocolat fondu et de fruits à coque.",
    "7": "Du cacao ou du chocolat fondu peuvent être ajoutés à la pâte pour une version chocolatée."
-  }
+  },
+  "prepTime": "25 minutes",
+  "cookTime": "15 minutes"
  },
  "des-82": {
   "title": "Petits Fours à la Noix de Coco Imbibés de Sirop",
@@ -11850,7 +12569,8 @@
    "5": "Faites cuire à four moyen jusqu'à cuisson complète.",
    "6": "Dès la sortie du four, versez du sirop à la cuillère sur chacune.",
    "7": "Chacune peut aussi être badigeonnée d'un peu de chocolat fondu et garnie de noisettes hachées."
-  }
+  },
+  "cookTime": "15 minutes"
  },
  "des-83": {
   "title": "Gâteau Éponge Simple",
@@ -11901,7 +12621,10 @@
    "2": "Prélevez une portion de la pâte et mélangez-la avec le cacao en poudre et le lait, en fouettant jusqu'à obtenir une consistance plus fluide que le reste de la pâte.",
    "3": "Graissez et farinez le plat, versez la moitié de la pâte nature, garnissez de la pâte au chocolat, puis recouvrez du reste de la pâte nature pour un effet marbré.",
    "4": "Faites cuire à four moyen jusqu'à cuisson complète et belle coloration dorée."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "40 minutes",
+  "servings": "10-12 portions"
  },
  "des-84": {
   "title": "Gâteau Éponge de Base (pour Entremets)",
@@ -11932,7 +12655,10 @@
    "2": "Incorporez délicatement et progressivement la farine mélangée à la levure chimique, juste jusqu'à incorporation.",
    "3": "Versez dans un plat rond graissé et faites cuire à four moyen jusqu'à cuisson complète.",
    "4": "Ce gâteau sert à préparer divers types de gâteaux en couches et d'entremets."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "25 minutes",
+  "servings": "8 portions"
  },
  "des-85": {
   "title": "Gâteau à la Noix de Coco au Sirop",
@@ -11976,7 +12702,10 @@
    "3": "Incorporez la noix de coco, puis la farine mélangée à la levure chimique, en mélangeant bien.",
    "4": "Graissez légèrement un plat de ghee, versez la pâte, et faites cuire à four moyen.",
    "5": "Dès la sortie du four, versez le sirop froid dessus, puis découpez en tranches."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "30 minutes",
+  "servings": "8 portions"
  },
  "des-86": {
   "title": "Brownies au Chocolat Fondants",
@@ -12021,7 +12750,9 @@
    "4": "Faites cuire dans un four chaud.",
    "5": "Une fois cuit, retirez facilement à l'aide du papier aluminium et découpez en morceaux.",
    "6": "Garnissez de chocolat râpé, si désiré."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "25 minutes"
  },
  "des-87": {
   "title": "Gâteau à la Carotte et à la Cannelle",
@@ -12065,7 +12796,10 @@
    "3": "Incorporez progressivement le mélange de farine, saupoudrez la cannelle, et enfin incorporez la carotte à la main.",
    "4": "Graissez le plat, versez la pâte, étalez uniformément, et tapotez délicatement avant la cuisson.",
    "5": "Laissez à découvert après la cuisson jusqu'à refroidissement."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "35 minutes",
+  "servings": "10 portions"
  },
  "des-88": {
   "title": "Gâteau en Couches de Pain de Mie et Crème aux Fruits",
@@ -12106,7 +12840,10 @@
    "4": "Versez la moitié du mélange d'œufs sur le pain, puis ajoutez les fruits cuits.",
    "5": "Ajoutez une autre couche de pain, garnie du reste du mélange.",
    "6": "Faites cuire à four moyen jusqu'à ce que ce soit pris."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "35 minutes",
+  "servings": "6-8 portions"
  },
  "des-89": {
   "title": "Gâteau au Chocolat au Glaçage Ganache",
@@ -12160,7 +12897,10 @@
    "5": "Graissez le plat de ghee, saupoudrez légèrement de farine, versez la pâte, et faites cuire à four moyen jusqu'à cuisson complète.",
    "6": "Une fois refroidi, démoulez sur une assiette et versez le glaçage au chocolat fondu chaud dessus.",
    "7": "Une fois pris, garnissez le dessus de noisettes ou de noix épluchées."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "40 minutes",
+  "servings": "10-12 portions"
  },
  "des-90": {
   "title": "Pâte à Tartiner au Chocolat",
@@ -12192,7 +12932,9 @@
   },
   "instructions": {
    "1": "Combinez tous les ingrédients à feu doux jusqu'à ce que ce soit fondu et lisse."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "5 minutes"
  },
  "des-91": {
   "title": "Gâteau au Beurre",
@@ -12240,7 +12982,10 @@
    "3": "Mélangez la farine avec la levure chimique et incorporez progressivement, en alternant avec le lait ou le yaourt, jusqu'à combinaison complète.",
    "4": "Graissez et farinez le plat, versez la pâte, et faites cuire à four moyen jusqu'à cuisson complète.",
    "5": "Une partie de la pâte peut être teintée de cacao pour faire un gâteau marbré."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "40 minutes",
+  "servings": "10-12 portions"
  },
  "des-92": {
   "title": "Gâteau à l'Orange",
@@ -12280,7 +13025,10 @@
    "3": "Fouettez les œufs avec le sucre, la vanille et le zeste de citron, versez sur les oranges, et parsemez de noisettes de beurre sur le dessus.",
    "4": "Faites cuire à four moyen jusqu'à coloration dorée du dessus.",
    "5": "Une fois refroidi, garnissez de crème Chantilly surmontée de fruits comme des fraises ou de l'ananas, entourée de pistaches ou de fruits à coque hachés, selon le goût."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "35 minutes",
+  "servings": "8 portions"
  },
  "des-93": {
   "title": "« Qedret Qader » Gâteau Renversé à la Crème Caramel",
@@ -12324,7 +13072,10 @@
    "3": "Versez délicatement la pâte à gâteau sur la crème et préparez un bain-marie.",
    "4": "Faites cuire à four moyen (au bain-marie) jusqu'à ce que ce soit pris, et une fois refroidi, renversez sur le plat de service.",
    "5": "Garnissez de crème Chantilly poussée à la poche tout autour des bords, de fruits au centre, et de confiture sur la crème."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "1 heure",
+  "servings": "8 portions"
  },
  "des-94": {
   "title": "Gâteau aux Fruits et au Caramel Renversé",
@@ -12378,7 +13129,10 @@
    "5": "Dès la sortie du four, piquez légèrement le gâteau partout à la fourchette.",
    "6": "Placez un plat de service de la même taille que le plat sur le gâteau, renversez délicatement, et laissez le plat comme couvercle jusqu'à ce que le gâteau absorbe complètement le caramel.",
    "7": "Une fois refroidi, garnissez de fruits à coque et de noix de coco."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "40 minutes",
+  "servings": "8-10 portions"
  },
  "des-95": {
   "title": "Caramel Maison",
@@ -12409,7 +13163,9 @@
    "2": "Remuez jusqu'à coloration dorée ou légèrement plus foncée.",
    "3": "Retirez du feu et disposez les morceaux d'ananas ou les pêches pochées sur le caramel selon la présentation désirée.",
    "4": "Laissez refroidir le plat jusqu'à ce que le caramel prenne."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "10 minutes"
  },
  "des-96": {
   "title": "Petits Gâteaux au Beurre Sicko-Sicko, Crème et Cerises",
@@ -12455,7 +13211,9 @@
    "1": "Crémez le sucre avec le beurre jusqu'à consistance pâle, incorporez les œufs en battant, puis le lait et la vanille, puis incorporez progressivement la farine mélangée à la levure chimique pour une pâte assez souple.",
    "2": "Versez dans de petits moules et faites cuire à four moyen jusqu'à cuisson complète.",
    "3": "Garnissez de crème surmontée de cerises ou de tout autre fruit."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "20 minutes"
  },
  "des-97": {
   "title": "Baba — Gâteau Levé au Yaourt et au Sirop",
@@ -12500,7 +13258,10 @@
    "8": "Versez à la louche la moitié du sirop délicatement pour qu'il ne déborde pas sur les côtés, puis après 5 minutes versez le reste.",
    "9": "Laissez refroidir à découvert, puis renversez sur le plat de service.",
    "10": "Garnissez en badigeonnant de confiture et en garnissant de crème Chantilly et de fraises, ou en saupoudrant de noix de coco, ou de fruits tranchés sur le dessus sans crème."
-  }
+  },
+  "prepTime": "15 minutes",
+  "cookTime": "30 minutes",
+  "servings": "8 portions"
  },
  "des-98": {
   "title": "Entremets Éponge en Couches à la Crème et aux Fruits",
@@ -12554,7 +13315,10 @@
    "9": "Posez la seconde moitié du gâteau dessus et piquez légèrement la surface pour l'imbiber de n'importe quel type de liquide.",
    "10": "Préparez de la crème Chantilly blanche, ou teintez-la de cacao pour une couleur chocolat, et étalez uniformément sur le dessus.",
    "11": "Garnissez selon le goût de chocolat finement haché, de fruits à coque, ou de fruits."
-  }
+  },
+  "prepTime": "30 minutes",
+  "cookTime": "25 minutes",
+  "servings": "10 portions"
  },
  "des-99": {
   "title": "Crème Pâtissière Vanille (pour Entremets Éponge)",
@@ -12583,7 +13347,9 @@
   "instructions": {
    "1": "Battez les œufs, incorporez la fécule de maïs en fouettant, et battez bien.",
    "2": "Faites bouillir le lait sucré avec le sucre, puis retirez du feu et ajoutez le mélange d'œufs en fouettant bien pour l'incorporer ; remettez à feu doux en fouettant constamment jusqu'à épaississement, puis saupoudrez de vanille."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "15 minutes"
  },
  "des-100": {
   "title": "Mille-Feuille à la Crème Pâtissière",
@@ -12628,7 +13394,10 @@
    "8": "Étalez sur un plat aspergé d'eau et piquez partout à la fourchette.",
    "9": "Faites cuire dans un four chaud jusqu'à cuisson, puis découpez en deux morceaux égaux.",
    "10": "Garnissez de crème pâtissière entre les couches, recouvrez de la seconde couche, et garnissez de sucre glace ou de confiture, de fruits confits ou frais, et de rosettes de crème Chantilly."
-  }
+  },
+  "prepTime": "1 heure",
+  "cookTime": "20 minutes",
+  "servings": "10 portions"
  },
  "des-101": {
   "title": "Forêt-Noire au Chocolat",
@@ -12680,7 +13449,10 @@
    "7": "Coupez le gâteau en deux et garnissez-le d'une partie de la crème au chocolat, en saupoudrant de noisettes hachées si vous le souhaitez.",
    "8": "Recouvrez de la seconde moitié, couvrez du reste de la crème au beurre, saupoudrez de chocolat haché sur le dessus, et enrobez les côtés de noisettes hachées.",
    "9": "Des rosettes de crème Chantilly avec des cerises confites peuvent aussi être ajoutées."
-  }
+  },
+  "prepTime": "30 minutes",
+  "cookTime": "25 minutes",
+  "servings": "10 portions"
  },
  "des-102": {
   "title": "Crème au Beurre au Chocolat",
@@ -12705,7 +13477,9 @@
   "instructions": {
    "1": "Ajoutez le sucre au lait tiédi et mélangez jusqu'à dissolution.",
    "2": "Battez le beurre avec le cacao, puis ajoutez au lait et battez bien jusqu'à épaississement."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "5 minutes"
  },
  "des-103": {
   "title": "Entremets à la Gelée et aux Fruits",
@@ -12756,7 +13530,9 @@
    "10": "Versez un autre tiers de la gelée sur les fruits, réfrigérez jusqu'à prise, puis congelez jusqu'à fermeté.",
    "11": "Placez délicatement le gâteau sur la gelée, versez le reste de la gelée prise dessus, et remettez au congélateur jusqu'à fermeté.",
    "12": "Pour servir, tenez le moule brièvement au-dessus de la vapeur d'eau chaude, puis renversez sur le plat de service ; garnissez de rosettes de crème Chantilly."
-  }
+  },
+  "cookTime": "25 minutes",
+  "servings": "10 portions"
  },
  "des-104": {
   "title": "Profiteroles à la Sauce au Chocolat",
@@ -12803,7 +13579,10 @@
    "6": "Faites cuire dans un four chaud jusqu'à cuisson et fermeté du dessus.",
    "7": "Laissez refroidir, puis fendez le dessous et garnissez de crème Chantilly ou de crème pâtissière.",
    "8": "Disposez les profiteroles dans un plat creux et versez la sauce au chocolat dessus."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "25 minutes",
+  "servings": "6-8 portions"
  },
  "des-105": {
   "title": "Sauce au Chocolat (pour Profiteroles)",
@@ -12835,7 +13614,9 @@
    "3": "Ajoutez le sucre et le beurre et laissez mijoter, en remuant, pendant 5 minutes jusqu'à épaississement.",
    "4": "Retirez du feu et utilisez immédiatement pour napper les profiteroles.",
    "5": "Une fois la sauce refroidie sur les profiteroles, réfrigérez."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "10 minutes"
  },
  "des-106": {
   "title": "Beignets de Pâte à Choux au Sucre Cannelle",
@@ -12884,7 +13665,10 @@
    "4": "Incorporez les raisins secs et les fruits à coque.",
    "5": "Huilez-vous légèrement les mains, prenez un petit morceau de pâte et faites-le frire dans une huile chaude (mais sans fumée), puis déposez-le sur du papier absorbant.",
    "6": "Une fois tous frits, saupoudrez de sucre glace et de cannelle."
-  }
+  },
+  "prepTime": "20 minutes",
+  "cookTime": "15 minutes",
+  "servings": "6-8 portions"
  },
  "des-107": {
   "title": "Bavarois en Couches de Biscuits, Fruits et Crème",
@@ -12930,7 +13714,9 @@
    "5": "Une fois refroidi, garnissez de crème Chantilly aux fruits et de fruits en dés ou de khoshaf mélangé, puis réfrigérez à nouveau.",
    "6": "Garnissez de sauce caramel, de sauce chocolat, de beurre à l'orange, ou de confiture, arrosée uniformément sur les fruits et la crème.",
    "7": "Terminez avec du chocolat râpé accompagné de noisettes épluchées, de noix, ou de fruits à coque hachés, selon le goût."
-  }
+  },
+  "servings": "8-10 portions",
+  "cookTime": "-"
  },
  "des-108": {
   "title": "Crème Pâtissière au Chocolat",
@@ -12965,7 +13751,9 @@
    "2": "Faites bouillir le lait avec le sucre à feu moyen, puis retirez du feu.",
    "3": "Versez le mélange d'œufs dans le lait et remuez bien, puis remettez à feu doux en fouettant constamment jusqu'à ce que la crème épaississe assez pour être utilisée, puis parfumez de vanille.",
    "4": "Incorporez le chocolat haché ou le cacao jusqu'à coloration brune."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "15 minutes"
  },
  "des-109": {
   "title": "Crème Chantilly Mixée aux Fruits",
@@ -12990,7 +13778,9 @@
   "instructions": {
    "1": "Mixez le lait avec n'importe quel fruit — banane, fraise, goyave, pêche, ou ananas — et le sucre.",
    "2": "Dans un batteur électrique, combinez le mélange fruit-lait avec la poudre pour crème Chantilly et battez pendant environ 3 minutes."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "-"
  },
  "des-110": {
   "title": "Sauce Crème au Caramel et au Chocolat",
@@ -13016,7 +13806,9 @@
    "1": "Faites cuire le sucre avec un peu d'eau dans une poêle jusqu'à ce qu'il brunisse en caramel.",
    "2": "Versez la crème ou la crème épaisse sur le caramel, baissez le feu, et remuez délicatement jusqu'à dissolution complète.",
    "3": "Incorporez le chocolat râpé."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "10 minutes"
  },
  "des-111": {
   "title": "Sauce au Chocolat Fluide à l'Œuf",
@@ -13054,7 +13846,9 @@
    "1": "Battez tous les ingrédients ensemble jusqu'à obtenir une texture lisse.",
    "2": "Faites chauffer doucement, en remuant, jusqu'à obtenir une sauce fluide.",
    "3": "La recette peut être doublée pour recouvrir entièrement le dessus d'un gâteau."
-  }
+  },
+  "prepTime": "5 minutes",
+  "cookTime": "5 minutes"
  },
  "des-112": {
   "title": "Crème au Beurre à l'Orange",
@@ -13074,7 +13868,9 @@
   },
   "instructions": {
    "1": "Battez bien le beurre, ajoutez progressivement le sucre en battant, puis ajoutez le zeste d'orange finement râpé et battez bien."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "-"
  },
  "des-113": {
   "title": "Garniture Meringuée à la Confiture ou à la Gelée",
@@ -13096,7 +13892,9 @@
    "1": "Faites fondre la gelée ou la confiture au bain-marie jusqu'à ce qu'elle se liquéfie.",
    "2": "Montez le blanc d'œuf avec une pincée de sel en neige ferme.",
    "3": "Incorporez la gelée ou la confiture au blanc en neige et battez bien jusqu'à obtenir une consistance moyennement épaisse et facile à étaler sur le dessus."
-  }
+  },
+  "prepTime": "10 minutes",
+  "cookTime": "5 minutes"
  },
  "add-001": {
   "title": "Mandi de poulet fumé",
@@ -13115,7 +13913,7 @@
    },
    "add-001-i3": {
     "name": "Bouillon de cuisson du poulet",
-    "standardAmount": "4 tasses ½"
+    "standardAmount": "4½ tasses"
    },
    "add-001-i4": {
     "name": "Oignon finement haché",
@@ -13214,7 +14012,7 @@
    },
    "add-002-i12": {
     "name": "Eau chaude",
-    "standardAmount": "4 tasses ½"
+    "standardAmount": "4½ tasses"
    },
    "add-002-i13": {
     "name": "Sel",
@@ -13382,7 +14180,7 @@
    },
    "add-005-i4": {
     "name": "Beurre fondu pour la pâte",
-    "standardAmount": "1 c. à soupe ½"
+    "standardAmount": "1½ cuillères à soupe"
    },
    "add-005-i5": {
     "name": "Lait en poudre",
@@ -13398,7 +14196,7 @@
    },
    "add-005-i8": {
     "name": "Sucre pour la pâte",
-    "standardAmount": "1 c. à soupe ½"
+    "standardAmount": "1½ cuillères à soupe"
    },
    "add-005-i9": {
     "name": "Levure chimique et sel",
@@ -13451,7 +14249,7 @@
    },
    "add-006-i2": {
     "name": "Eau tiède",
-    "standardAmount": "1 tasse ¾"
+    "standardAmount": "1¾ tasses"
    },
    "add-006-i3": {
     "name": "Huile végétale",
@@ -13511,7 +14309,7 @@
   "ingredients": {
    "add-007-i1": {
     "name": "Farine tamisée",
-    "standardAmount": "2 tasses ½"
+    "standardAmount": "2½ tasses"
    },
    "add-007-i2": {
     "name": "Levure chimique",
@@ -13619,7 +14417,7 @@
    },
    "add-008-i14": {
     "name": "Sel",
-    "standardAmount": "1 c. à café ½"
+    "standardAmount": "1½ cuillères à café"
    },
    "add-008-i15": {
     "name": "Eau bouillante",
@@ -13680,11 +14478,11 @@
    },
    "add-009-i10": {
     "name": "Sirop : sucre",
-    "standardAmount": "2 tasses ½"
+    "standardAmount": "2½ tasses"
    },
    "add-009-i11": {
     "name": "Sirop : eau",
-    "standardAmount": "2 tasses ½"
+    "standardAmount": "2½ tasses"
    },
    "add-009-i12": {
     "name": "Sirop : jus de citron",
@@ -13709,7 +14507,7 @@
   "ingredients": {
    "add-010-i1": {
     "name": "Farine tout usage",
-    "standardAmount": "2 tasses ¼"
+    "standardAmount": "2¼ tasses"
    },
    "add-010-i2": {
     "name": "Levure instantanée",
@@ -14156,7 +14954,7 @@
   "ingredients": {
    "add-018-i1": {
     "name": "Semoule",
-    "standardAmount": "1 tasse ½"
+    "standardAmount": "1½ tasses"
    },
    "add-018-i2": {
     "name": "Sucre",
@@ -15391,11 +16189,11 @@
    },
    "add-041-i2": {
     "name": "Sucre",
-    "standardAmount": "1 tasse ½"
+    "standardAmount": "1½ tasses"
    },
    "add-041-i3": {
     "name": "Lait à température ambiante",
-    "standardAmount": "1 tasse ¾"
+    "standardAmount": "1¾ tasses"
    },
    "add-041-i4": {
     "name": "Huile",
@@ -15403,7 +16201,7 @@
    },
    "add-041-i5": {
     "name": "Sel",
-    "standardAmount": "1 c. à café ¼"
+    "standardAmount": "1¼ cuillères à café"
    },
    "add-041-i6": {
     "name": "Vanille",
@@ -15419,7 +16217,7 @@
    },
    "add-041-i9": {
     "name": "Ammoniaque de boulanger (bicarbonate d'ammonium)",
-    "standardAmount": "2 c. à soupe ½"
+    "standardAmount": "2½ cuillères à soupe"
    },
    "add-041-i10": {
     "name": "Vinaigre blanc",
@@ -15815,7 +16613,7 @@
    },
    "add-050-i3": {
     "name": "Ghee fondu tiède",
-    "standardAmount": "1 tasse ½"
+    "standardAmount": "1½ tasses"
    },
    "add-050-i4": {
     "name": "Sucre glace",
@@ -16359,7 +17157,7 @@
    },
    "add-060-i9": {
     "name": "Sel",
-    "standardAmount": "1 c. à café ½"
+    "standardAmount": "1½ cuillères à café"
    },
    "add-060-i10": {
     "name": "Riz basmati trempé",
@@ -16401,7 +17199,7 @@
   "ingredients": {
    "add-061-i1": {
     "name": "Farine",
-    "standardAmount": "1 tasse ½"
+    "standardAmount": "1½ tasses"
    },
    "add-061-i2": {
     "name": "Beurre très froid en dés",
@@ -16744,7 +17542,7 @@
    },
    "add-067-i7": {
     "name": "Huile végétale",
-    "standardAmount": "1 tasse ¼"
+    "standardAmount": "1¼ tasses"
    },
    "add-067-i8": {
     "name": "Cacahuètes concassées pour décorer",
@@ -17054,7 +17852,7 @@
    },
    "add-074-i5": {
     "name": "Piment en poudre",
-    "standardAmount": "1 c. à café ½"
+    "standardAmount": "1½ cuillères à café"
    },
    "add-074-i6": {
     "name": "Sel",
@@ -17356,7 +18154,7 @@
   "ingredients": {
    "add-080-i1": {
     "name": "Farine à gâteau",
-    "standardAmount": "1 tasse ¼"
+    "standardAmount": "1¼ tasses"
    },
    "add-080-i2": {
     "name": "Sucre",
@@ -17906,7 +18704,7 @@
   "ingredients": {
    "add-091-i1": {
     "name": "Farine",
-    "standardAmount": "2 tasses ½"
+    "standardAmount": "2½ tasses"
    },
    "add-091-i2": {
     "name": "Graines de cumin",
@@ -18054,7 +18852,7 @@
    },
    "add-093-i11": {
     "name": "Mozzarella râpée",
-    "standardAmount": "1 tasse ½"
+    "standardAmount": "1½ tasses"
    },
    "add-093-i12": {
     "name": "Poivron vert, tomate et olives pour garnir",
@@ -18095,7 +18893,7 @@
    },
    "add-094-i5": {
     "name": "Farine",
-    "standardAmount": "2 tasses ½"
+    "standardAmount": "2½ tasses"
    },
    "add-094-i6": {
     "name": "Lait tiède",
@@ -18623,7 +19421,7 @@
   "ingredients": {
    "add-106-i1": {
     "name": "Morceaux d'ananas frais ou surgelés",
-    "standardAmount": "1 tasse ½"
+    "standardAmount": "1½ tasses"
    },
    "add-106-i2": {
     "name": "Lait de coco",
@@ -18672,7 +19470,7 @@
    },
    "add-107-i4": {
     "name": "Bouillon de viande ou eau chaude",
-    "standardAmount": "2 tasses ½"
+    "standardAmount": "2½ tasses"
    },
    "add-107-i5": {
     "name": "Oignon haché",
@@ -18880,15 +19678,15 @@
   "ingredients": {
    "add-111-i1": {
     "name": "Semoule",
-    "standardAmount": "2 tasses ½"
+    "standardAmount": "2½ tasses"
    },
    "add-111-i2": {
     "name": "Lait",
-    "standardAmount": "1 tasse ¼"
+    "standardAmount": "1¼ tasses"
    },
    "add-111-i3": {
     "name": "Sucre",
-    "standardAmount": "1 tasse ¼"
+    "standardAmount": "1¼ tasses"
    },
    "add-111-i4": {
     "name": "Levure chimique",
@@ -18928,7 +19726,7 @@
    },
    "add-112-i3": {
     "name": "Eau",
-    "standardAmount": "1 tasse ½"
+    "standardAmount": "1½ tasses"
    },
    "add-112-i4": {
     "name": "Clous de girofle",
@@ -19353,7 +20151,7 @@
   "ingredients": {
    "add-122-i1": {
     "name": "Vermicelles",
-    "standardAmount": "1 tasse ½"
+    "standardAmount": "1½ tasses"
    },
    "add-122-i2": {
     "name": "Ghee baladi",
@@ -20244,7 +21042,7 @@
    },
    "add-142-i3": {
     "name": "Farine tamisée",
-    "standardAmount": "1 tasse ½"
+    "standardAmount": "1½ tasses"
    },
    "add-142-i4": {
     "name": "Levure chimique et une pincée de sel",
@@ -20296,7 +21094,7 @@
   "ingredients": {
    "add-143-i1": {
     "name": "Farine",
-    "standardAmount": "2 tasses ¼"
+    "standardAmount": "2¼ tasses"
    },
    "add-143-i2": {
     "name": "Beurre mou",
@@ -20328,7 +21126,7 @@
    },
    "add-143-i9": {
     "name": "Pépites de chocolat",
-    "standardAmount": "1 tasse ½"
+    "standardAmount": "1½ tasses"
    }
   },
   "instructions": {
@@ -20745,7 +21543,7 @@
    },
    "add-152-i2": {
     "name": "Sucre",
-    "standardAmount": "2 tasses ½"
+    "standardAmount": "2½ tasses"
    },
    "add-152-i3": {
     "name": "Jus de citron",
@@ -20843,7 +21641,7 @@
    },
    "add-155-i3": {
     "name": "Eau",
-    "standardAmount": "1 tasse ½"
+    "standardAmount": "1½ tasses"
    },
    "add-155-i4": {
     "name": "Acide citrique ou le jus d'1 citron",
@@ -20867,7 +21665,7 @@
   "ingredients": {
    "add-156-i1": {
     "name": "Pois chiches secs",
-    "standardAmount": "1 tasse ½"
+    "standardAmount": "1½ tasses"
    },
    "add-156-i2": {
     "name": "Bicarbonate de soude",
@@ -21222,7 +22020,7 @@
    },
    "add-164-i4": {
     "name": "Sirop épais à température ambiante",
-    "standardAmount": "1 tasse ½"
+    "standardAmount": "1½ tasses"
    }
   },
   "instructions": {
@@ -21243,7 +22041,7 @@
   "ingredients": {
    "add-165-i1": {
     "name": "Pour la crème : lait",
-    "standardAmount": "2 tasses ½"
+    "standardAmount": "2½ tasses"
    },
    "add-165-i2": {
     "name": "Pour la crème : fécule de maïs",
@@ -21259,7 +22057,7 @@
    },
    "add-165-i5": {
     "name": "Farine",
-    "standardAmount": "1 tasse ½"
+    "standardAmount": "1½ tasses"
    },
    "add-165-i6": {
     "name": "Noix de coco râpée",
@@ -21541,7 +22339,7 @@
    },
    "add-170-i5": {
     "name": "Sel",
-    "standardAmount": "1 c. à café ½"
+    "standardAmount": "1½ cuillères à café"
    },
    "add-170-i6": {
     "name": "Yaourt",
@@ -22029,7 +22827,7 @@
    },
    "add-179-i7": {
     "name": "Sel",
-    "standardAmount": "1 c. à café ½"
+    "standardAmount": "1½ cuillères à café"
    },
    "add-179-i8": {
     "name": "Fécule",
@@ -22201,7 +22999,7 @@
    },
    "add-183-i5": {
     "name": "Lait en poudre",
-    "standardAmount": "1 tasse ½"
+    "standardAmount": "1½ tasses"
    },
    "add-183-i6": {
     "name": "Portions de fromage frais",
@@ -22604,7 +23402,7 @@
    },
    "add-191-i2": {
     "name": "Sucre",
-    "standardAmount": "1 tasse ⅔"
+    "standardAmount": "1⅔ tasses"
    },
    "add-191-i3": {
     "name": "Vanille",
@@ -22657,7 +23455,7 @@
   "ingredients": {
    "add-192-i1": {
     "name": "Farine",
-    "standardAmount": "2 tasses ½"
+    "standardAmount": "2½ tasses"
    },
    "add-192-i2": {
     "name": "Levure et sucre",
@@ -22837,7 +23635,7 @@
    },
    "add-195-i2": {
     "name": "Ghee fondu",
-    "standardAmount": "1 tasse ½"
+    "standardAmount": "1½ tasses"
    },
    "add-195-i3": {
     "name": "Pistaches grossièrement concassées",
@@ -24347,7 +25145,7 @@
    },
    "add-228-i7": {
     "name": "Eau ou lait tiède",
-    "standardAmount": "1 tasse ½"
+    "standardAmount": "1½ tasses"
    },
    "add-228-i8": {
     "name": "Nigelle (facultatif)",
@@ -57142,7 +57940,7 @@
   "category": "Féculents",
   "cookingMethod": "Cuisson au Four",
   "prepTime": "20 min",
-  "cookTime": "120 min",
+  "cookTime": "2 heures",
   "servings": "12 parts",
   "culturalNotes": "Le pain se conserve dans une boîte hermétique au réfrigérateur jusqu'à 3 jours. Servir avec du beurre, du fromage ou de la confiture.",
   "ingredients": {
@@ -118180,11 +118978,11 @@
    },
    "w-it-012-i2": {
     "name": "eau",
-    "standardAmount": "1 1/2 tasse"
+    "standardAmount": "1.5 tasses"
    },
    "w-it-012-i3": {
     "name": "farine tout usage",
-    "standardAmount": "2 1/4 tasse"
+    "standardAmount": "2.25 tasses"
    },
    "w-it-012-i4": {
     "name": "huile d’olive",
@@ -118416,7 +119214,7 @@
    },
    "w-it-016-i13": {
     "name": "semoule de blé dur",
-    "standardAmount": "1 1/2 tasse"
+    "standardAmount": "1.5 tasses"
    }
   },
   "instructions": {
@@ -118641,7 +119439,7 @@
    },
    "w-it-020-i2": {
     "name": "sel",
-    "standardAmount": "1 1/4 c. à café"
+    "standardAmount": "1.25 cuillères à café"
    },
    "w-it-020-i3": {
     "name": "levure sèche à levée rapide",
@@ -118649,7 +119447,7 @@
    },
    "w-it-020-i4": {
     "name": "eau glacée",
-    "standardAmount": "1 1/2 tasse"
+    "standardAmount": "1.5 tasses"
    },
    "w-it-020-i5": {
     "name": "huile d’olive",
@@ -118725,7 +119523,7 @@
    },
    "w-it-021-i12": {
     "name": "muscade moulue",
-    "standardAmount": "1/3 c. à café"
+    "standardAmount": "0.33333334326744 cuillère à café"
    },
    "w-it-021-i13": {
     "name": "sucre glace",
@@ -136220,7 +137018,7 @@
    },
    "w-my-004-i2": {
     "name": "sauce barbecue chinoise halal",
-    "standardAmount": "marinade barbecue chinoise sucrée"
+    "standardAmount": "⅓ tasse"
    },
    "w-my-004-i3": {
     "name": "graines de sésame",

@@ -10,10 +10,11 @@
  *   - ingredient missing or empty name; standardAmount empty when the Arabic source has one
  *   - instruction step missing or empty
  *   - Arabic characters (U+0600–U+06FF) in languages that don't use Arabic script
- *   - text copied verbatim from the Arabic source in Urdu/Persian/Pashto (>= 10 chars)
+ *   - instruction text copied verbatim from Arabic in Urdu/Persian/Pashto (>= 10 chars)
  *   - English amount words (teaspoon/tablespoon/cup/pinch/to taste/as needed) in non-English amounts
  *
  * Pending-quality warnings (tracked by Parts 2–4; fail only under --strict):
+ *   - matching Arabic titles/ingredient names: borrowed dish and spice names can be valid
  *   - per-language deny-list of known-bad terms (Ps خوږ کړئ/وسوځوئ/وګرځوئ/وگړ, Ku rûnê gê/bikuze,
  *     Sw hadi ukuue/mkuubwa/hadi nusu kupika, Ur میزان کریں, Sv "kroetter")
  *   - contextual suspects reported for review (Sv fritera/halvkokt, Fa بکوبید/چاشنی, Ja 米酢)
@@ -91,6 +92,7 @@ for (const lang of LANGS) {
     if (!entry) {
       const prefix = r.id.split('-')[0];
       (absentCount[lang] ??= {})[prefix] = (absentCount[lang]?.[prefix] ?? 0) + 1;
+      push(hard, lang, { recipe: r.id, field: '', kind: 'absent', text: '' });
       continue;
     }
     if (!entry.title?.trim()) push(hard, lang, { recipe: r.id, field: 'title', kind: 'empty', text: '' });
@@ -124,7 +126,7 @@ for (const lang of LANGS) {
       if (!AR_SCRIPT.has(lang) && lang !== 'en' && AR_RE.test(text))
         push(hard, lang, { recipe: r.id, field, kind: 'arabic-chars', text: text.slice(0, 80) });
       if (AR_SCRIPT.has(lang) && text.length >= 10 && srcTexts.has(text.trim()))
-        push(hard, lang, { recipe: r.id, field, kind: 'verbatim-arabic', text: text.slice(0, 80) });
+        push(field.startsWith('instructions.') ? hard : warn, lang, { recipe: r.id, field, kind: 'verbatim-arabic-review', text: text.slice(0, 80) });
       if (LATIN_CHECK.has(lang))
         for (const w of latinHits(text))
           push(warn, lang, { recipe: r.id, field, kind: 'latin-word', text: w });

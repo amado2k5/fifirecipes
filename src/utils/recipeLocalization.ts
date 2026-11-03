@@ -38,7 +38,10 @@ export function registerTranslations(lang: SupportedLanguage, table: Translation
       ? {
           ...existing,
           ...incoming,
-          ingredients: { ...existing.ingredients, ...incoming.ingredients },
+          ingredients: Object.fromEntries(
+            [...new Set([...Object.keys(existing.ingredients || {}), ...Object.keys(incoming.ingredients || {})])]
+              .map(id => [id, { ...existing.ingredients?.[id], ...incoming.ingredients?.[id] }])
+          ),
           instructions: { ...existing.instructions, ...incoming.instructions }
         }
       : incoming;
@@ -5478,9 +5481,9 @@ const chapterNames = lang === 'fr' ? CHAPTER_NAMES_FR : lang === 'es' ? CHAPTER_
     chapter: chapterNames[recipe.chapterNumber] || recipe.chapter,
     category: translation?.category || generated?.category || categoryNames[recipe.category] || CATEGORY_NAMES[recipe.category] || recipe.category,
     cookingMethod: translation?.cookingMethod || generated?.cookingMethod || cookingMethods[recipe.cookingMethod] || traditionalCookingLabel,
-    prepTime: getLocalizedMeasurement(translation?.prepTime || generated?.prepTime || recipe.prepTime, lang, 'time'),
-    cookTime: getLocalizedMeasurement(translation?.cookTime || generated?.cookTime || recipe.cookTime, lang, 'time'),
-    servings: getLocalizedMeasurement(translation?.servings || generated?.servings || recipe.servings, lang, 'servings'),
+    prepTime: translation?.prepTime || generated?.prepTime || getLocalizedMeasurement(recipe.prepTime, lang, 'time'),
+    cookTime: translation?.cookTime || generated?.cookTime || getLocalizedMeasurement(recipe.cookTime, lang, 'time'),
+    servings: translation?.servings || generated?.servings || getLocalizedMeasurement(recipe.servings, lang, 'servings'),
     culturalNotes: translation?.culturalNotes || generated?.culturalNotes || recipe.culturalNotes
   };
 }
@@ -5894,10 +5897,13 @@ export function getLocalizedIngredientAmount(ingredient: Pick<MasterIngredient, 
   const generatedIngredient = table
     ? (recipeId ? table[recipeId] : Object.values(table).find(recipe => recipe.ingredients?.[ingredient.id]))?.ingredients?.[ingredient.id]
     : undefined;
+  // A translated amount is already localized. Arabic cleanup would erase
+  // Persian, Urdu and Pashto words and can alter other localized values.
+  if (generatedIngredient?.standardAmount) return generatedIngredient.standardAmount;
   // Recipes from an English source keep their original amount; use it rather
   // than guessing an English one back from the Arabic translation.
-  if (!generatedIngredient?.standardAmount && ingredient.standardAmountEn) return ingredient.standardAmountEn;
-  return getLocalizedMeasurement(generatedIngredient?.standardAmount || ingredient.standardAmount, lang, 'amount') || '';
+  if (ingredient.standardAmountEn) return ingredient.standardAmountEn;
+  return getLocalizedMeasurement(ingredient.standardAmount, lang, 'amount') || '';
 }
 
 export function getLocalizedInstruction(recipeId: string, stepNumber: number, text: string, lang: SupportedLanguage, textEn?: string): string {

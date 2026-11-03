@@ -11,8 +11,9 @@
 import { readFileSync } from 'node:fs';
 import { allRecipes } from '../../src/data/recipes';
 import type { RecipeTranslation } from '../../src/utils/recipeLocalization';
+import { TOP_20_LANGUAGES } from '../../src/data/translations';
 
-export const LANGS = ['en', 'de', 'el', 'es', 'fa', 'fr', 'he', 'hi', 'id', 'it', 'ja', 'ko', 'ku', 'nl', 'pl', 'ps', 'pt', 'ru', 'sv', 'sw', 'tr', 'ur', 'zh', 'te', 'bn', 'vi', 'sq', 'cs', 'ro'] as const;
+export const LANGS = TOP_20_LANGUAGES.map(language => language.code).filter(code => code !== 'ar');
 
 export const fileOf = (lang: string) =>
   `src/data/recipeTranslations${lang === 'en' ? '' : lang[0].toUpperCase() + lang.slice(1)}.json`;
@@ -22,10 +23,10 @@ type Recipe = (typeof allRecipes)[number];
 export function problems(recipe: Recipe, entry: RecipeTranslation | undefined): string[] {
   if (!entry) return ['absent'];
   const out: string[] = [];
-  if (!entry.title) out.push('title');
-  const ingredients = recipe.masterIngredients.filter(i => !entry.ingredients?.[i.id]?.name).map(i => i.id);
+  if (typeof entry.title !== 'string' || !entry.title.trim()) out.push('title');
+  const ingredients = recipe.masterIngredients.filter(i => typeof entry.ingredients?.[i.id]?.name !== 'string' || !entry.ingredients[i.id].name!.trim()).map(i => i.id);
   if (ingredients.length) out.push(`ingredients:${ingredients.join(',')}`);
-  const steps = recipe.uniqueInstructions.map(s => String(s.stepNumber)).filter(n => !entry.instructions?.[n]);
+  const steps = recipe.uniqueInstructions.map(s => String(s.stepNumber)).filter(n => typeof entry.instructions?.[n] !== 'string' || !entry.instructions[n].trim());
   if (steps.length) out.push(`instructions:${steps.join(',')}`);
   return out;
 }

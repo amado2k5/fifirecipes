@@ -27,7 +27,7 @@
     "as needed"
    ],
    [
-    "حليب مكثف",
+    "حليب مبخر",
     "1 علبة (400 مل)",
     "dairy_fat",
     "Evaporated milk",
@@ -47,7 +47,7 @@
     "Fill a large bowl halfway with akamu lumps."
    ],
    [
-    "سحق قطع الأكامو باستخدام ملعقة حتى تصبح قطع صغيرة جدًا. اخلطها بكميات صغيرة من الماء البارد حتى تصبح المزيج ناعمًا وذو قوام مشابه للحليب المكثف.",
+    "اسحق كتل الأكامو بملعقة إلى قطع صغيرة جدًا. أضف كميات صغيرة من الماء البارد واخلط حتى يصبح المزيج ناعمًا وبقوام الحليب المبخر.",
     "Crush the akamu lumps with a spoon into very small pieces. Mix in small amounts of cold water until the mixture is smooth and has the consistency of evaporated milk."
    ],
    [
@@ -55,7 +55,7 @@
     "Bring a large pot of water to a boil."
    ],
    [
-    "قبل أن يغلي الماء، اخلط المزيج جيدًا. بمجرد أن يبدأ الماء في الغليان، أضف المزيج ببطء إلى الأكامو مع الاستمرار في التحريك. توقف عن التحريك بمجرد أن يبدأ المزيج في التثبيت، وقلل من كمية الماء المضاف حتى يثبّت الأكامو تمامًا.",
+    "قبل أن يغلي الماء، قلّب خليط الأكامو جيدًا. بمجرد أن يغلي الماء، صبّه بحذر وبثبات في خليط الأكامو مع التحريك. توقف عن التحريك عندما يبدأ المزيج في التماسك، وخفّض تدفق الماء الذي تصبّه إلى الحد الأدنى حتى يتماسك الأكامو تمامًا.",
     "Before the water boils, stir the mixture thoroughly. Once the water has reached a boil, carefully but steadily stir it into the akamu mixture. Stop stirring as soon as the mixture starts to set, and reduce the flow of water you're pouring to the bare minimum until the akamu has entirely set."
    ],
    [
@@ -63,7 +63,7 @@
     "Thoroughly whisk the mixture. Add additional water as desired if the mixture is too thick."
    ],
    [
-    "أضف الحليب المكثف وقليل من السكر حسب الرغبة. اخلط جيدًا.",
+    "أضف الحليب المبخر ورشة من السكر حسب الرغبة وقلّب.",
     "Stir in evaporated milk and a pinch of sugar to taste."
    ]
   ],
@@ -76,7 +76,7 @@
  },
  {
   "id": "w-ng-002",
-  "title": "الستيك الأفادي (ستيك آياماس)",
+  "title": "يخنة أوفادا (يخنة آياماسي)",
   "titleEn": "Ofada Stew (Ayamase Stew)",
   "chapter": "مطبخ نيجيريا",
   "chapterNumber": 133,
@@ -159,7 +159,7 @@
    ],
    [
     "لحم بقري",
-    "340 جرام",
+    "12 أونصة",
     "meat_poultry",
     "beef",
     "12 oz"
@@ -225,7 +225,7 @@
   "ingredients": [
    [
     "لحم البقر",
-    "1 كيلوغرام",
+    "2 رطل",
     "meat_poultry",
     "beef",
     "2 lbs"
@@ -289,7 +289,7 @@
  },
  {
   "id": "w-ng-004",
-  "title": "الحساء الأوغبونو (الحساء المُسَمَّى)",
+  "title": "حساء أوغبونو (حساء لزج)",
   "titleEn": "Ogbono Soup (Draw Soup)",
   "chapter": "مطبخ نيجيريا",
   "chapterNumber": 133,
@@ -309,28 +309,28 @@
    ],
    [
     "لحم بقري مطبوخ",
-    "450 غرام",
+    "1 رطل",
     "meat_poultry",
     "cooked beef",
     "1 lb"
    ],
    [
     "شاكِي (أمعاء البقر)",
-    "225 غرام",
+    "8 أونصة",
     "meat_poultry",
     "shaki (tripe)",
     "8 oz"
    ],
    [
     "أقدام البقر",
-    "340 غرام",
+    "12 أونصة",
     "meat_poultry",
     "cow feet",
     "12 oz"
    ],
    [
     "زيت النخيل",
-    "180 مل",
+    "¾ كوب",
     "dairy_fat",
     "palm oil",
     "¾ cup"
@@ -433,7 +433,7 @@
  },
  {
   "id": "w-ng-005",
-  "title": "الإديكانغ إكونغ (الحساء النيجيري النباتي)",
+  "title": "إديكانغ إكونغ (حساء الخضروات النيجيري)",
   "titleEn": "Edikang Ikong (Nigerian Vegetable Soup)",
   "chapter": "مطبخ نيجيريا",
   "chapterNumber": 133,
@@ -446,7 +446,7 @@
   "ingredients": [
    [
     "لحم الماعز",
-    "1 كيلوغرام",
+    "2 رطل",
     "meat_poultry",
     "goat meat",
     "2 lbs"
@@ -509,14 +509,14 @@
    ],
    [
     "سمك مدخن أو مجفف",
-    "170 غرام",
+    "6 أونصة",
     "seafood",
     "smoked/dried fish",
     "6 oz"
    ],
    [
     "الجمبري",
-    "225 غرام",
+    "8 أونصة",
     "seafood",
     "shrimp",
     "8 oz"
@@ -575,7 +575,7 @@
  },
  {
   "id": "w-ng-006",
-  "title": "إفو ريرو - ستيو السبانخ النيجيري",
+  "title": "إفو ريرو (يخنة السبانخ النيجيرية)",
   "titleEn": "Efo Riro - Nigerian Spinach Stew",
   "chapter": "مطبخ نيجيريا",
   "chapterNumber": 133,
@@ -820,7 +820,7 @@
  },
  {
   "id": "w-ng-008",
-  "title": "البازلاء المقلية",
+  "title": "موز الطبخ المقلي",
   "titleEn": "Fried Plantain",
   "chapter": "مطبخ نيجيريا",
   "chapterNumber": 133,
@@ -832,7 +832,7 @@
   "difficulty": "easy",
   "ingredients": [
    [
-    "بازلاء",
+    "موز الطبخ (بلانتين)",
     "1 حبة",
     "vegetable",
     "plantain",
@@ -859,7 +859,7 @@
     "Heat a thin layer of vegetable oil in a frying pan."
    ],
    [
-    "في الوقت نفسه، قطع البازلاء إلى شرائح طويلة ومستطيلة.",
+    "في هذه الأثناء، قطّع موز الطبخ إلى شرائح طويلة مستطيلة.",
     "Meanwhile, cut the plantain into long, oblong slices."
    ],
    [
@@ -867,7 +867,7 @@
     "Fry the slices in the oil on both sides until golden brown."
    ],
    [
-    "رشّ البازلاء المقلية فوراً بالملح أو السكر البني حسب الرغبة.",
+    "رشّ موز الطبخ المقلي فورًا بالملح أو السكر البني حسب الرغبة.",
     "Sprinkle the fried plantain immediately with salt or brown sugar to taste."
    ],
    [
@@ -1337,7 +1337,7 @@
   "ingredients": [
    [
     "لحم البقر",
-    "570 غرام",
+    "1 1/4 رطل",
     "meat_poultry",
     "beef",
     "1 1/4 lb"
@@ -1365,7 +1365,7 @@
    ],
    [
     "مرق اللحم",
-    "710 مل",
+    "3 كوب",
     "liquid",
     "beef broth",
     "3 cups"
@@ -1386,7 +1386,7 @@
    ],
    [
     "زبدة الفول السوداني الغير محلاة",
-    "240 مل",
+    "1 كوب",
     "dairy_fat",
     "unsweetened peanut butter",
     "1 cup"
@@ -1423,7 +1423,7 @@
  },
  {
   "id": "w-ng-014",
-  "title": "الشوربة النيجيرية (أوغبونو) مع الكاسافا المهروسة",
+  "title": "حساء أوغبونو النيجيري مع اليام المهروس",
   "titleEn": "Nigerian Ogbono Soup with Pounded Yam",
   "chapter": "مطبخ نيجيريا",
   "chapterNumber": 133,
@@ -1436,14 +1436,14 @@
   "ingredients": [
    [
     "لحم (ذيل البقر، لحم البقر المطبوخ، جلد البقر، جلد البقر)",
-    "450-900 جرام",
+    "1-2 رطل",
     "meat_poultry",
     "Meat (oxtail, stew beef, tripe, cow skin)",
     "1-2 pounds"
    ],
    [
     "سمك مدخن",
-    "240 مل",
+    "1 كوب",
     "seafood",
     "Smoked fish",
     "1 cup"
@@ -1456,8 +1456,8 @@
     "1 cup diced"
    ],
    [
-    "القشطة المطحونة",
-    "120 مل",
+    "جراد البحر المطحون",
+    "½ كوب",
     "dairy_fat",
     "Ground crayfish",
     "½ cup"
@@ -1478,7 +1478,7 @@
    ],
    [
     "زيت النخيل",
-    "60-90 مل",
+    "¼-⅓ كوب",
     "dairy_fat",
     "Palm oil",
     "¼-⅓ cup"
@@ -1492,14 +1492,14 @@
    ],
    [
     "العغوزي المطحون (اختياري)",
-    "120 مل",
+    "½ كوب",
     "grain_starch",
     "Ground egusi (optional)",
     "½ cup"
    ],
    [
     "أوغبونو المطحون",
-    "120 مل",
+    "½ كوب",
     "grain_starch",
     "Ground ogbono",
     "½ cup"
@@ -1534,11 +1534,11 @@
     "Add salt and pepper to taste. Cook for an additional 5 minutes."
    ],
    [
-    "في قدر آخر، ضعي الكاسافا المهروسة واتركيها تغلي على نار هادئة لمدة 10 دقائق حتى تصبح ناعمة.",
+    "في قدر آخر، ضع اليام المهروس واتركه يغلي على نار هادئة لمدة 10 دقائق حتى يصبح طريًا.",
     "In another pot, place the pounded yam and bring to a boil over low heat for 10 minutes until soft."
    ],
    [
-    "قدمي الشوربة مع الكاسافا المهروسة ساخنة.",
+    "قدّم الحساء مع اليام المهروس ساخنًا.",
     "Serve the soup with the pounded yam hot."
    ]
   ],

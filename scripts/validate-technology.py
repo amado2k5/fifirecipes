@@ -11,6 +11,7 @@ PROTECTED = ['fifi.cooking', 'Cookwala', 'React', 'TypeScript', 'Vite', 'Tailwin
              'Lucide', 'Motion', 'YouTube', 'MCP', 'JSON', 'tvOS', 'Fire OS', 'Chromebook', 'Siri Remote', 'sharp', 'Kurmanji']
 SCRIPT = {'ar': 'ARABIC', 'fa': 'ARABIC', 'ur': 'ARABIC', 'ps': 'ARABIC', 'he': 'HEBREW', 'ru': 'CYRILLIC', 'el': 'GREEK',
           'hi': 'DEVANAGARI', 'te': 'TELUGU', 'bn': 'BENGALI', 'ja': 'CJK', 'zh': 'CJK', 'ko': 'HANGUL'}
+TRADITIONAL_ONLY = set('們個這東鍋麵雞魚鹽湯醬燒蝦豬薑蔥蘿蔔餅糰熱將與為過後時開關點邊攪鐘進煉蘇醃滷燉糧蠔壓鬆盤裡當應從間溫爐壺蓋塊條絲攤捲餡麥穀會讓還變請給說層濃軟')
 SCRIPT_WORDS = ['ARABIC', 'HEBREW', 'CYRILLIC', 'GREEK', 'DEVANAGARI', 'TELUGU', 'BENGALI', 'CJK', 'HIRAGANA', 'KATAKANA', 'HANGUL']
 
 def flatten(o, path=''):
@@ -25,24 +26,39 @@ def script_of(ch):
     if not ch.isalpha(): return None
     n = unicodedata.name(ch, '')
     for w in SCRIPT_WORDS:
-        if n.startswith(w): return 'CJK' if w in ('HIRAGANA', 'KATAKANA') else w
+        if n.startswith(w): return w
     return 'LATIN' if n.startswith('LATIN') else 'OTHER'
 
+def numbers(text):
+    normalized = ''.join(str(unicodedata.decimal(c)) if c.isdecimal() else c for c in text)
+    return re.findall(r'\d+(?:\.\d+)?', normalized)
+
 def main():
-    en = dict(flatten(json.load(open(DIR / 'en.json', encoding='utf-8'))))
+    en = dict(flatten(json.loads((DIR / 'en.json').read_text(encoding='utf-8'))))
     langs = sys.argv[1:] or sorted(p.stem for p in DIR.glob('*.json') if p.stem != 'en')
     errors = 0
     for lang in langs:
         f = DIR / f'{lang}.json'
         if not f.exists(): print(f'{lang}: MISSING'); errors += 1; continue
-        try: tr = dict(flatten(json.load(open(f, encoding='utf-8'))))
+        try: tr = dict(flatten(json.loads(f.read_text(encoding='utf-8'))))
         except Exception as e: print(f'{lang}: invalid JSON ({e})'); errors += 1; continue
         problems = []
         if set(tr) != set(en): problems.append(f'keys differ: missing {sorted(set(en)-set(tr))[:3]} extra {sorted(set(tr)-set(en))[:3]}')
         allowed = {'LATIN', SCRIPT.get(lang, 'LATIN')}
+        if lang == 'ja': allowed.update({'HIRAGANA', 'KATAKANA'})
         for k, v in tr.items():
             if k not in en: continue
             if not isinstance(v, str) or not v.strip(): problems.append(f'{k}: empty'); continue
+            if not isinstance(en[k], str): problems.append(f'{k}: source is not text'); continue
+            # Explicit source numbers must survive; Japanese may spell out
+            # English words such as one/two with additional numeric digits.
+            source_numbers = numbers(en[k])
+            target_numbers = numbers(v)
+            if any(target_numbers.count(n) < source_numbers.count(n) for n in source_numbers):
+                problems.append(f'{k}: lost or changed source number')
+            if lang == 'zh' and any(c in TRADITIONAL_ONLY for c in v): problems.append(f'{k}: Traditional Chinese characters')
+            if '\ufffd' in v: problems.append(f'{k}: replacement character')
+            if k.endswith('/id') and v != en[k]: problems.append(f'{k}: section identifier changed')
             for tok in PROTECTED:
                 if tok in en[k] and tok not in v: problems.append(f'{k}: lost "{tok}"')
             for ch in v:
@@ -57,4 +73,5 @@ def main():
         else: print(f'{lang}: ok')
     sys.exit(1 if errors else 0)
 
-main()
+if __name__ == '__main__':
+    main()
