@@ -25,7 +25,9 @@ const listedIn = (recipe: Recipe, lang: SupportedLanguage) =>
 /** URL of a recipe in one language (same rule as the static pages and the sitemaps). */
 export function recipeUrl(recipe: Recipe, lang: SupportedLanguage): string {
   const id = encodeURIComponent(recipe.id);
-  return lang === recipeBaseLanguage(recipe) ? `${SITE_ORIGIN}/recipe/${id}/` : `${SITE_ORIGIN}/?recipe=${id}&lang=${lang}`;
+  return lang === recipeBaseLanguage(recipe)
+    ? `${SITE_ORIGIN}/recipe/${id}/`
+    : `${SITE_ORIGIN}/recipe/${id}/${lang}/`;
 }
 
 /** Absolute image URL for a recipe (same rule as the static pages). */
@@ -49,12 +51,20 @@ export function refineRecipeLinks(recipe: Recipe): void {
   if (params.get('recipe') !== recipe.id) return;
   const urlLang = TOP_20_LANGUAGES.find(language => language.code === params.get('lang'))?.code as SupportedLanguage | undefined;
   const languages = TOP_20_LANGUAGES.map(language => language.code as SupportedLanguage).filter(lang => listedIn(recipe, lang));
-  const page = recipeUrl(recipe, recipeBaseLanguage(recipe));
+  const basePage = recipeUrl(recipe, recipeBaseLanguage(recipe));
+  const activeLang = urlLang && languages.includes(urlLang) ? urlLang : recipeBaseLanguage(recipe);
+  const canonicalUrl = recipeUrl(recipe, activeLang);
 
   document.querySelectorAll('link[rel="alternate"][hreflang], link[rel="canonical"]').forEach(link => link.remove());
   for (const lang of languages) setLink('alternate', recipeUrl(recipe, lang), lang);
-  setLink('alternate', page, 'x-default');
-  setLink('canonical', urlLang && languages.includes(urlLang) ? recipeUrl(recipe, urlLang) : page);
+  setLink('alternate', basePage, 'x-default');
+  setLink('canonical', canonicalUrl);
+
+  // Move the browser's URL to the static canonical so bookmarks, copy-link, and
+  // navigation history all show the permanent URL rather than the query-param form.
+  if (window.location.pathname === '/' && params.has('recipe')) {
+    window.history.replaceState(null, '', canonicalUrl);
+  }
 }
 
 function setMeta(attribute: 'name' | 'property', key: string, content: string | null) {
