@@ -1,16 +1,13 @@
 import { Recipe, SupportedLanguage } from '../types';
+import { recipeUrl } from '../utils/seoHead';
 
 /**
- * Clean URL of the current recipe
+ * Canonical URL of a recipe in one language. Uses the static-page scheme
+ * (/recipe/<id>/ for base language, /recipe/<id>/<lang>/ for others) so
+ * shared links point to indexable, bot-readable pages.
  */
-export function getRecipeShareUrl(recipeId: string, lang: SupportedLanguage): string {
-  if (typeof window !== 'undefined') {
-    const url = new URL(window.location.href);
-    url.searchParams.set('recipe', recipeId);
-    url.searchParams.set('lang', lang);
-    return url.toString();
-  }
-  return `https://fifi.cooking/?recipe=${recipeId}&lang=${lang}`;
+export function getRecipeShareUrl(recipeId: string, lang: SupportedLanguage, englishOnly = false): string {
+  return recipeUrl({ id: recipeId, englishOnly } as Recipe, lang);
 }
 
 /**
@@ -19,8 +16,8 @@ export function getRecipeShareUrl(recipeId: string, lang: SupportedLanguage): st
  * copying the link to the clipboard when the Web Share API isn't
  * available.
  */
-export async function shareRecipe(recipe: Pick<Recipe, 'id'>, lang: SupportedLanguage, title: string): Promise<{ shared: boolean; copied: boolean }> {
-  const url = getRecipeShareUrl(recipe.id, lang);
+export async function shareRecipe(recipe: Pick<Recipe, 'id' | 'englishOnly'>, lang: SupportedLanguage, title: string): Promise<{ shared: boolean; copied: boolean }> {
+  const url = getRecipeShareUrl(recipe.id, lang, recipe.englishOnly);
   const shareData = { title, url };
 
   if (navigator.share) {

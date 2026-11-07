@@ -16,10 +16,11 @@
           }
         } catch (e) {}
       })();
-      // Self-referencing canonical and the hreflang cluster of the URL being viewed. GitHub Pages serves this
-      // same file for every ?lang= / ?recipe= URL, so a fixed canonical would fold every language into the root.
-      // A recipe's own-language URL is its static page /recipe/<id>/; the app refines the cluster once the recipe
-      // has loaded (src/utils/seoHead.ts). Keep the language list in sync with src/data/translations.ts.
+      // Self-referencing canonical and the hreflang cluster of the URL being viewed. Cloudflare Pages serves
+      // this same file for every ?lang= / ?recipe= URL, so a fixed canonical would fold every language into
+      // the root. Static pages at /recipe/<id>/ and /recipe/<id>/<lang>/ carry definitive raw-HTML canonicals;
+      // the app refines the cluster once the recipe has loaded (src/utils/seoHead.ts). Keep the language list
+      // in sync with src/data/translations.ts.
       (function () {
         try {
           var origin = 'https://fifi.cooking';
@@ -29,22 +30,27 @@
           var recipe = q.get('recipe');
           var canonical;
           if (recipe && /^[A-Za-z0-9_-]+$/.test(recipe)) {
-            var page = origin + '/recipe/' + encodeURIComponent(recipe) + '/';
+            // Base-language (ar or en) page is the definitive static page; x-default and canonical for
+            // unknown langs point there. For a known lang, point to its own static page /recipe/<id>/<lang>/.
+            var basePage = origin + '/recipe/' + encodeURIComponent(recipe) + '/';
             var links = document.querySelectorAll('link[rel="alternate"][hreflang]');
             for (var i = 0; i < links.length; i++) links[i].parentNode.removeChild(links[i]);
             for (var j = 0; j < langs.length; j++) {
               var alt = document.createElement('link');
               alt.rel = 'alternate';
               alt.hreflang = langs[j];
-              alt.href = origin + '/?recipe=' + encodeURIComponent(recipe) + '&lang=' + langs[j];
+              // ar uses /recipe/<id>/ (base); every other lang uses /recipe/<id>/<lang>/.
+              // We don't know the per-recipe base language here, so the app will correct this
+              // once the recipe loads; this is just an early approximation.
+              alt.href = langs[j] === 'ar' ? basePage : origin + '/recipe/' + encodeURIComponent(recipe) + '/' + langs[j] + '/';
               document.head.appendChild(alt);
             }
             var def = document.createElement('link');
             def.rel = 'alternate';
             def.hreflang = 'x-default';
-            def.href = page;
+            def.href = basePage;
             document.head.appendChild(def);
-            canonical = lang ? origin + '/?recipe=' + encodeURIComponent(recipe) + '&lang=' + lang : page;
+            canonical = lang ? origin + '/recipe/' + encodeURIComponent(recipe) + (lang === 'ar' ? '/' : '/' + lang + '/') : basePage;
           } else {
             canonical = lang ? origin + '/?lang=' + lang : origin + '/';
           }

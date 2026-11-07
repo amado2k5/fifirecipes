@@ -468,37 +468,57 @@ const BOOKS: Partial<Record<NonNullable<Recipe['source']>['collection'] & string
   abdennour: ABDENNOUR_BOOK
 };
 
-// Fixed text of the static pages, in the language a recipe is written in.
+// UI labels for static recipe pages in every supported language.
+const LANG_LABELS: Record<SupportedLanguage, {
+  dir: 'ltr' | 'rtl'; siteName: string; listSeparator: string;
+  prep: string; cook: string; serves: string; openInApp: string;
+  ingredients: string; method: string; notes: string;
+}> = {
+  ar: { dir: 'rtl', siteName: 'وصفات د. فاطمة القاوقجي', listSeparator: '، ', prep: 'التحضير', cook: 'الطهو', serves: 'يكفي', openInApp: 'افتح الوصفة في الموقع التفاعلي', ingredients: 'المقادير', method: 'طريقة التحضير', notes: 'ملاحظات' },
+  en: { dir: 'ltr', siteName: 'Dr. Fatma Alkawokgy Recipes', listSeparator: ', ', prep: 'Prep', cook: 'Cooking', serves: 'Serves', openInApp: 'Open the recipe in the interactive site', ingredients: 'Ingredients', method: 'Method', notes: 'Notes' },
+  fr: { dir: 'ltr', siteName: 'Recettes de Dr. Fatma Alkawokgy', listSeparator: ', ', prep: 'Préparation', cook: 'Cuisson', serves: 'Pour', openInApp: 'Ouvrir dans le site interactif', ingredients: 'Ingrédients', method: 'Préparation', notes: 'Notes' },
+  es: { dir: 'ltr', siteName: 'Recetas de la Dra. Fatma Alkawokgy', listSeparator: ', ', prep: 'Preparación', cook: 'Cocción', serves: 'Porciones', openInApp: 'Abrir en el sitio interactivo', ingredients: 'Ingredientes', method: 'Preparación', notes: 'Notas' },
+  ja: { dir: 'ltr', siteName: 'ファトマ博士のレシピ', listSeparator: '、', prep: '準備時間', cook: '調理時間', serves: '人数分', openInApp: 'インタラクティブサイトで開く', ingredients: '材料', method: '作り方', notes: 'メモ' },
+  hi: { dir: 'ltr', siteName: 'डॉ. फातमा अलकवोकजी की रेसिपी', listSeparator: ', ', prep: 'तैयारी', cook: 'पकाने का समय', serves: 'सर्विंग', openInApp: 'इंटरैक्टिव साइट पर खोलें', ingredients: 'सामग्री', method: 'विधि', notes: 'नोट्स' },
+  pt: { dir: 'ltr', siteName: 'Receitas da Dra. Fatma Alkawokgy', listSeparator: ', ', prep: 'Preparo', cook: 'Cozimento', serves: 'Porções', openInApp: 'Abrir no site interativo', ingredients: 'Ingredientes', method: 'Modo de preparo', notes: 'Notas' },
+  ru: { dir: 'ltr', siteName: 'Рецепты д-ра Фатмы Алькавокджи', listSeparator: ', ', prep: 'Подготовка', cook: 'Приготовление', serves: 'Порции', openInApp: 'Открыть на интерактивном сайте', ingredients: 'Ингредиенты', method: 'Способ приготовления', notes: 'Примечания' },
+  zh: { dir: 'ltr', siteName: '法蒂玛博士食谱', listSeparator: '、', prep: '准备时间', cook: '烹饪时间', serves: '份量', openInApp: '在互动网站上打开', ingredients: '食材', method: '做法', notes: '备注' },
+  de: { dir: 'ltr', siteName: 'Rezepte von Dr. Fatma Alkawokgy', listSeparator: ', ', prep: 'Vorbereitung', cook: 'Kochzeit', serves: 'Portionen', openInApp: 'In der interaktiven Website öffnen', ingredients: 'Zutaten', method: 'Zubereitung', notes: 'Anmerkungen' },
+  it: { dir: 'ltr', siteName: 'Ricette della Dott.ssa Fatma Alkawokgy', listSeparator: ', ', prep: 'Preparazione', cook: 'Cottura', serves: 'Porzioni', openInApp: 'Apri nel sito interattivo', ingredients: 'Ingredienti', method: 'Preparazione', notes: 'Note' },
+  el: { dir: 'ltr', siteName: 'Συνταγές της Δρ. Φάτμα Αλκαβόκτζι', listSeparator: ', ', prep: 'Προετοιμασία', cook: 'Χρόνος μαγειρέματος', serves: 'Μερίδες', openInApp: 'Άνοιγμα στον διαδραστικό ιστότοπο', ingredients: 'Υλικά', method: 'Τρόπος παρασκευής', notes: 'Σημειώσεις' },
+  ur: { dir: 'rtl', siteName: 'ڈاکٹر فاطمہ الکاوقجی کی ترکیبیں', listSeparator: '، ', prep: 'تیاری', cook: 'پکانا', serves: 'سرونگ', openInApp: 'انٹرایکٹیو سائٹ میں کھولیں', ingredients: 'اجزاء', method: 'ترکیب', notes: 'نوٹس' },
+  fa: { dir: 'rtl', siteName: 'دستورهای غذایی دکتر فاطمه الکاوقجی', listSeparator: '، ', prep: 'آماده‌سازی', cook: 'زمان پخت', serves: 'وعده‌ها', openInApp: 'باز کردن در سایت تعاملی', ingredients: 'مواد لازم', method: 'طرز تهیه', notes: 'یادداشت' },
+  tr: { dir: 'ltr', siteName: 'Dr. Fatma Alkawokgy Tarifleri', listSeparator: ', ', prep: 'Hazırlık', cook: 'Pişirme', serves: 'Porsiyon', openInApp: 'Etkileşimli sitede aç', ingredients: 'Malzemeler', method: 'Hazırlanışı', notes: 'Notlar' },
+  ku: { dir: 'ltr', siteName: 'Reçeteyên Dr. Fatma Alkawokgy', listSeparator: ', ', prep: 'Amadekirin', cook: 'Pijandin', serves: 'Mêjî', openInApp: 'Di malpera înteraktîf de veke', ingredients: 'Tiştên Lazim', method: 'Rêbaz', notes: 'Nîşe' },
+  id: { dir: 'ltr', siteName: 'Resep Dr. Fatma Alkawokgy', listSeparator: ', ', prep: 'Persiapan', cook: 'Memasak', serves: 'Porsi', openInApp: 'Buka di situs interaktif', ingredients: 'Bahan-bahan', method: 'Cara membuat', notes: 'Catatan' },
+  sw: { dir: 'ltr', siteName: 'Mapishi ya Dkt. Fatma Alkawokgy', listSeparator: ', ', prep: 'Maandalizi', cook: 'Kupika', serves: 'Sehemu', openInApp: 'Fungua kwenye tovuti ya maingiliano', ingredients: 'Viungo', method: 'Jinsi ya kuandaa', notes: 'Maelezo' },
+  ko: { dir: 'ltr', siteName: '파트마 박사의 레시피', listSeparator: ', ', prep: '준비 시간', cook: '요리 시간', serves: '인분', openInApp: '대화형 사이트에서 열기', ingredients: '재료', method: '만드는 법', notes: '메모' },
+  nl: { dir: 'ltr', siteName: 'Recepten van Dr. Fatma Alkawokgy', listSeparator: ', ', prep: 'Voorbereiding', cook: 'Bereiding', serves: 'Porties', openInApp: 'Openen in de interactieve site', ingredients: 'Ingrediënten', method: 'Bereidingswijze', notes: 'Opmerkingen' },
+  ps: { dir: 'rtl', siteName: 'د ډاکتر فاطمه الکاوقجي خواړه', listSeparator: '، ', prep: 'چمتو کول', cook: 'پخول', serves: 'برخي', openInApp: 'د تعاملي سایټ کې پرانيستل', ingredients: 'توکي', method: 'طریقه', notes: 'یادداشتونه' },
+  he: { dir: 'rtl', siteName: 'המתכונים של ד"ר פאטמה אלקאוקג\'י', listSeparator: ', ', prep: 'הכנה', cook: 'בישול', serves: 'מנות', openInApp: 'פתח באתר האינטראקטיבי', ingredients: 'מצרכים', method: 'הוראות הכנה', notes: 'הערות' },
+  pl: { dir: 'ltr', siteName: 'Przepisy dr Fatmy Alkawokgy', listSeparator: ', ', prep: 'Przygotowanie', cook: 'Gotowanie', serves: 'Porcje', openInApp: 'Otwórz w serwisie interaktywnym', ingredients: 'Składniki', method: 'Sposób przygotowania', notes: 'Notatki' },
+  sv: { dir: 'ltr', siteName: 'Dr. Fatma Alkawokgys recept', listSeparator: ', ', prep: 'Förberedelse', cook: 'Tillagningstid', serves: 'Portioner', openInApp: 'Öppna på den interaktiva webbplatsen', ingredients: 'Ingredienser', method: 'Tillagning', notes: 'Anteckningar' },
+  te: { dir: 'ltr', siteName: 'డా. ఫాత్మా అల్కావోక్జీ వంటకాలు', listSeparator: ', ', prep: 'సన్నాహం', cook: 'వంట', serves: 'వడ్డింపులు', openInApp: 'ఇంటరాక్టివ్ సైట్‌లో తెరవండి', ingredients: 'పదార్థాలు', method: 'తయారీ విధానం', notes: 'గమనికలు' },
+  bn: { dir: 'ltr', siteName: 'ডা. ফাতেমা আলকাভোকজির রেসিপি', listSeparator: ', ', prep: 'প্রস্তুতি', cook: 'রান্নার সময়', serves: 'পরিবেশন', openInApp: 'ইন্টারেক্টিভ সাইটে খুলুন', ingredients: 'উপকরণ', method: 'প্রস্তুত প্রণালী', notes: 'নোট' },
+  vi: { dir: 'ltr', siteName: 'Công thức của Tiến sĩ Fatma Alkawokgy', listSeparator: ', ', prep: 'Chuẩn bị', cook: 'Thời gian nấu', serves: 'Khẩu phần', openInApp: 'Mở trong trang web tương tác', ingredients: 'Nguyên liệu', method: 'Cách làm', notes: 'Ghi chú' },
+  sq: { dir: 'ltr', siteName: 'Recetat e Dr. Fatma Alkawokgy', listSeparator: ', ', prep: 'Përgatitja', cook: 'Kohën e gatimit', serves: 'Porcione', openInApp: 'Hap në faqen ndërvepruese', ingredients: 'Përbërësit', method: 'Mënyra e gatimit', notes: 'Shënime' },
+  cs: { dir: 'ltr', siteName: 'Recepty Dr. Fatmy Alkawokgy', listSeparator: ', ', prep: 'Příprava', cook: 'Vaření', serves: 'Porce', openInApp: 'Otevřít na interaktivní webové stránce', ingredients: 'Ingredience', method: 'Postup', notes: 'Poznámky' },
+  ro: { dir: 'ltr', siteName: 'Rețetele Dr. Fatma Alkawokgy', listSeparator: ', ', prep: 'Preparare', cook: 'Gătire', serves: 'Porții', openInApp: 'Deschide pe site-ul interactiv', ingredients: 'Ingrediente', method: 'Mod de preparare', notes: 'Note' }
+};
+
+// Source and archive notices for base-language pages (ar and en only).
 const PAGE_TEXT = {
   ar: {
-    dir: 'rtl',
-    siteName: 'وصفات د. فاطمة القاوقجي',
-    listSeparator: '، ',
+    ...LANG_LABELS.ar,
     sourceNotice: 'وصفة إضافية من خارج مخطوطات د. فاطمة القاوقجي، أعدنا صياغتها بأسلوبنا مع حفظ حق المصدر.',
     sourceLabel: 'المصدر:',
-    archiveNotice: 'من أرشيف وصفات د. فاطمة القاوقجي (1943–2026).',
-    prep: 'التحضير',
-    cook: 'الطهو',
-    serves: 'يكفي',
-    openInApp: 'افتح الوصفة في الموقع التفاعلي',
-    ingredients: 'المقادير',
-    method: 'طريقة التحضير',
-    notes: 'ملاحظات'
+    archiveNotice: 'من أرشيف وصفات د. فاطمة القاوقجي (1943–2026).'
   },
   en: {
-    dir: 'ltr',
-    siteName: 'Dr. Fatma Alkawokgy Recipes',
-    listSeparator: ', ',
-    sourceNotice: 'An additional recipe, not from Dr. Fatma Alkawokgy’s manuscripts. We rewrote it in our own words and credit the original source.',
+    ...LANG_LABELS.en,
+    sourceNotice: "An additional recipe, not from Dr. Fatma Alkawokgy’s manuscripts. We rewrote it in our own words and credit the original source.",
     sourceLabel: 'Source:',
-    archiveNotice: 'From the recipe archive of Dr. Fatma Alkawokgy (1943–2026).',
-    prep: 'Prep',
-    cook: 'Cooking',
-    serves: 'Serves',
-    openInApp: 'Open the recipe in the interactive site',
-    ingredients: 'Ingredients',
-    method: 'Method',
-    notes: 'Notes'
+    archiveNotice: 'From the recipe archive of Dr. Fatma Alkawokgy (1943–2026).'
   }
 } as const;
 
@@ -550,11 +570,11 @@ function recipeJsonLd(recipe: Recipe, estimate: RecipeEstimate | undefined, page
   };
 }
 
-/** URL of a recipe in one language: its static page in the language it is written in, the app otherwise. */
+/** URL of a recipe in one language: its own static page at /recipe/<id>/ for the base language, /recipe/<id>/<lang>/ for all others. */
 const recipeUrl = (recipe: Recipe, lang: SupportedLanguage) =>
   lang === baseLanguage(recipe)
     ? `${siteUrl}/recipe/${encodeURIComponent(recipe.id)}/`
-    : `${siteUrl}/?recipe=${encodeURIComponent(recipe.id)}&lang=${lang}`;
+    : `${siteUrl}/recipe/${encodeURIComponent(recipe.id)}/${lang}/`;
 
 /** Search keywords in the page language: the dish name, its category and cooking method. */
 function recipeKeywords(recipe: Recipe, lang: SupportedLanguage): string[] {
@@ -562,19 +582,35 @@ function recipeKeywords(recipe: Recipe, lang: SupportedLanguage): string[] {
   return [...new Set([localized.title, localized.category, localized.cookingMethod].map(value => value?.trim()).filter(Boolean) as string[])];
 }
 
-function staticRecipePage(recipe: Recipe): string {
+function staticRecipePage(recipe: Recipe, lang: SupportedLanguage): string {
+  const baseLang = baseLanguage(recipe);
+  const isBaseLang = lang === baseLang;
   const estimate = RECIPE_ESTIMATES[recipe.id];
-  const pageUrl = `${siteUrl}/recipe/${encodeURIComponent(recipe.id)}/`;
-  const lang = baseLanguage(recipe);
-  const text = PAGE_TEXT[lang];
+  const pageUrl = recipeUrl(recipe, lang);
+  const basePage = recipeUrl(recipe, baseLang);
+  const text = LANG_LABELS[lang];
   const appUrl = `${siteUrl}/?recipe=${encodeURIComponent(recipe.id)}&lang=${lang}`;
   const imagePath = getRecipeImagePath(recipe.id);
   const imageUrl = recipe.imageUrl || (imagePath ? `${siteUrl}/${imagePath}` : `${siteUrl}/logo-transparent.png`);
-  const description = `${recipe.title}: ${recipe.masterIngredients.slice(0, 6).map(ingredient => ingredient.name).join(text.listSeparator)}.`;
+
+  // Localized metadata for this language (title, category, times).
+  const localized = getLocalizedRecipe(recipe, lang);
+  const pageTitle = localized.title;
+
+  // Ingredients: use localized names where the translation table has them.
+  const ingredientNames = recipe.masterIngredients.slice(0, 6).map(
+    ingredient => getLocalizedIngredient(ingredient, lang, recipe.id) || ingredient.name
+  );
+  const description = `${pageTitle}: ${ingredientNames.join(text.listSeparator)}.`;
+
+  // Source notice: use the base-language text (the recipe content and provenance are in that language).
+  const baseText = PAGE_TEXT[baseLang as 'ar' | 'en'];
   const source = recipe.source
-    ? `<p class="source">${text.sourceNotice}<br>${text.sourceLabel} <a href="${escapeHtml(recipe.source.url)}" rel="noopener">${escapeHtml(recipe.source.name)}</a>${recipe.source.citation ? ` — ${escapeHtml(recipe.source.citation)}` : ''}</p>`
-    : `<p class="source">${text.archiveNotice}</p>`;
-  const nutrition = estimate
+    ? `<p class="source">${baseText.sourceNotice}<br>${baseText.sourceLabel} <a href="${escapeHtml(recipe.source.url)}" rel="noopener">${escapeHtml(recipe.source.name)}</a>${isBaseLang && recipe.source.citation ? ` — ${escapeHtml(recipe.source.citation)}` : ''}</p>`
+    : `<p class="source">${baseText.archiveNotice}</p>`;
+
+  // Nutrition table is kept for base-language pages only (labels are in that language).
+  const nutrition = isBaseLang && estimate
     ? `<h2>القيمة الغذائية والتكلفة (تقديرية)</h2>
 <table>
 <tr><th>عدد الحصص</th><td>${formatServings(estimate.servings)}</td></tr>
@@ -588,39 +624,63 @@ function staticRecipePage(recipe: Recipe): string {
 </table>
 <p class="note">قيم تقريبية محسوبة من المكونات ومتوسط الأسعار، وليست قياساً معملياً.</p>`
     : '';
+
   const facts = [
-    recipe.prepTime && `${text.prep}: ${recipe.prepTime}`,
-    recipe.cookTime && `${text.cook}: ${recipe.cookTime}`,
-    recipe.servings && `${text.serves}: ${recipe.servings}`
+    localized.prepTime && `${text.prep}: ${localized.prepTime}`,
+    localized.cookTime && `${text.cook}: ${localized.cookTime}`,
+    localized.servings && `${text.serves}: ${localized.servings}`
   ].filter(Boolean).join(' · ');
-  // The full hreflang cluster: this page for its own language (and x-default),
-  // the app's ?recipe=&lang= URL for every other language the recipe is listed in.
+
+  // Full hreflang cluster: every listed language at its own static page URL.
+  // x-default points to the base-language page, the definitive version.
   const alternates = [
     ...SUPPORTED_LANGUAGES
       .filter(alternate => listedIn(recipe, alternate))
       .map(alternate => `<link rel="alternate" hreflang="${alternate}" href="${escapeHtml(recipeUrl(recipe, alternate))}">`),
-    `<link rel="alternate" hreflang="x-default" href="${escapeHtml(pageUrl)}">`
+    `<link rel="alternate" hreflang="x-default" href="${escapeHtml(basePage)}">`
   ].join('\n');
+
   const keywords = recipeKeywords(recipe, lang);
   const size = imageSizes.get(recipe.id);
+
+  // Schema.org: canonical URL is the base-language page (the recipe's definitive source).
+  // Ingredient list: localized names for non-base languages.
+  const schemaIngredients = recipe.masterIngredients.map(ingredient => {
+    const localizedName = getLocalizedIngredient(ingredient, lang, recipe.id) || ingredient.name;
+    return `${localizedName}: ${ingredient.standardAmount}`;
+  });
+
+  // For non-base-language pages, show English title as a subtitle when available and different.
+  const englishSubtitle = !isBaseLang && recipe.titleEn && recipe.titleEn !== pageTitle
+    ? `<p class="en" lang="en" dir="ltr">${escapeHtml(recipe.titleEn)}</p>`
+    : (isBaseLang && recipe.titleEn && recipe.titleEn !== recipe.title
+      ? `<p class="en" lang="en" dir="ltr">${escapeHtml(recipe.titleEn)}</p>`
+      : '');
+
+  const schemaLd = {
+    ...recipeJsonLd(recipe, estimate, basePage, imageUrl),
+    description,
+    ...(keywords.length ? { keywords: keywords.join(', ') } : {}),
+    ...(isBaseLang ? {} : { recipeIngredient: schemaIngredients })
+  };
 
   return `<!doctype html>
 <html lang="${lang}" dir="${text.dir}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${escapeHtml(recipe.title)} | ${text.siteName}</title>
+<title>${escapeHtml(pageTitle)} | ${escapeHtml(text.siteName)}</title>
 <meta name="description" content="${escapeHtml(description)}">
 ${keywords.length ? `<meta name="keywords" content="${escapeHtml(keywords.join(text.listSeparator))}">\n` : ''}<link rel="canonical" href="${escapeHtml(pageUrl)}">
 ${alternates}
 <meta property="og:type" content="article">
-<meta property="og:site_name" content="${text.siteName}">
-<meta property="og:title" content="${escapeHtml(recipe.title)}">
+<meta property="og:site_name" content="${escapeHtml(text.siteName)}">
+<meta property="og:title" content="${escapeHtml(pageTitle)}">
 <meta property="og:description" content="${escapeHtml(description)}">
 <meta property="og:image" content="${escapeHtml(imageUrl)}">
 ${size ? `<meta property="og:image:width" content="${size.width}">\n<meta property="og:image:height" content="${size.height}">\n` : ''}<meta property="og:url" content="${escapeHtml(pageUrl)}">
 <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">${JSON.stringify({ ...recipeJsonLd(recipe, estimate, pageUrl, imageUrl), description, ...(keywords.length ? { keywords: keywords.join(', ') } : {}) }).replace(/</g, '\\u003c')}</script>
+<script type="application/ld+json">${JSON.stringify(schemaLd).replace(/</g, '\\u003c')}</script>
 <style>
 body{font-family:Tajawal,system-ui,sans-serif;max-width:760px;margin:0 auto;padding:16px;line-height:1.8;color:#1c1917;background:#fafaf9}
 h1{margin:.2em 0;font-size:1.7em}h2{margin-top:1.4em;font-size:1.2em;border-bottom:2px solid #f59e0b;padding-bottom:.2em}
@@ -633,22 +693,25 @@ footer{margin-top:2em;padding-top:1em;border-top:1px solid #e7e5e4;font-size:.85
 </head>
 <body>
 <main>
-<p><a href="${escapeHtml(siteUrl)}/">${text.siteName}</a> › ${escapeHtml(getLocalizedRecipe(recipe, lang).category)}</p>
-${imagePath ? `<img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(recipe.title)}" width="${size?.width ?? 760}"${size ? ` height="${size.height}"` : ''} fetchpriority="high">` : ''}
-<h1>${escapeHtml(recipe.title)}</h1>
-${recipe.titleEn && recipe.titleEn !== recipe.title ? `<p class="en" lang="en" dir="ltr">${escapeHtml(recipe.titleEn)}</p>` : ''}
+<p><a href="${escapeHtml(siteUrl)}/">${escapeHtml(text.siteName)}</a> › ${escapeHtml(localized.category)}</p>
+${imagePath ? `<img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(pageTitle)}" width="${size?.width ?? 760}"${size ? ` height="${size.height}"` : ''} fetchpriority="high">` : ''}
+<h1>${escapeHtml(pageTitle)}</h1>
+${englishSubtitle}
 ${facts ? `<p class="facts">${escapeHtml(facts)}</p>` : ''}
 ${source}
-<a class="cta" href="${escapeHtml(appUrl)}">${text.openInApp}</a>
-<h2>${text.ingredients}</h2>
+<a class="cta" href="${escapeHtml(appUrl)}">${escapeHtml(text.openInApp)}</a>
+<h2>${escapeHtml(text.ingredients)}</h2>
 <ul>
-${recipe.masterIngredients.map(ingredient => `<li>${escapeHtml(ingredient.name)}: ${escapeHtml(ingredient.standardAmount)}</li>`).join('\n')}
+${recipe.masterIngredients.map(ingredient => {
+    const localizedName = getLocalizedIngredient(ingredient, lang, recipe.id) || ingredient.name;
+    return `<li>${escapeHtml(localizedName)}: ${escapeHtml(ingredient.standardAmount)}</li>`;
+  }).join('\n')}
 </ul>
-<h2>${text.method}</h2>
+<h2>${escapeHtml(text.method)}</h2>
 <ol>
 ${recipe.uniqueInstructions.map(step => `<li>${escapeHtml(step.text)}</li>`).join('\n')}
 </ol>
-${recipe.culturalNotes ? `<h2>${text.notes}</h2>\n<p>${escapeHtml(recipe.culturalNotes)}</p>` : ''}
+${recipe.culturalNotes ? `<h2>${escapeHtml(text.notes)}</h2>\n<p>${escapeHtml(recipe.culturalNotes)}</p>` : ''}
 ${nutrition}
 </main>
 <footer dir="ltr">
@@ -662,7 +725,12 @@ ${FOOTER_LINKS.map(link => `<a href="${escapeHtml(link.href)}" rel="noopener">${
 await rm('public/recipe', { recursive: true, force: true });
 for (const recipe of orderedRecipes) {
   await mkdir(`public/recipe/${recipe.id}`, { recursive: true });
-  await writeFile(`public/recipe/${recipe.id}/index.html`, staticRecipePage(recipe));
+  await writeFile(`public/recipe/${recipe.id}/index.html`, staticRecipePage(recipe, baseLanguage(recipe)));
+  for (const lang of SUPPORTED_LANGUAGES) {
+    if (lang === baseLanguage(recipe) || !listedIn(recipe, lang)) continue;
+    await mkdir(`public/recipe/${recipe.id}/${lang}`, { recursive: true });
+    await writeFile(`public/recipe/${recipe.id}/${lang}/index.html`, staticRecipePage(recipe, lang));
+  }
 }
 
 // ---------------------------------------------------------------------------
